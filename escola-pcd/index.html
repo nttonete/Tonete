@@ -693,5 +693,23 @@
   </div>
 </footer>
 
+<script>
+  // Identifica a origem do visitante e a repassa aos botões de WhatsApp
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var src = (q.get('utm_source') || '').toLowerCase();
+    var ua = navigator.userAgent || '';
+    var ref = document.referrer || '';
+    var origem = '';
+    if (/instagram|^ig$/.test(src) || /Instagram/.test(ua) || /instagram\.com/.test(ref)) origem = 'instagram';
+    else if (/facebook|^fb$/.test(src) || /FBAN|FBAV/.test(ua) || /facebook\.com/.test(ref)) origem = 'facebook';
+    else if (q.get('fbclid')) origem = 'meta';
+    else if (q.get('gclid') || q.get('gbraid') || q.get('wbraid') || src === 'google') origem = 'google';
+    if (!origem) return;
+    document.querySelectorAll('a[href="obrigado/"]').forEach(function (a) {
+      a.href = 'obrigado/?origem=' + origem;
+    });
+  })();
+</script>
 </body>
 </html>

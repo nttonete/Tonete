@@ -37,7 +37,16 @@
     <small>Nayara Tonete · OAB/SP 479.459</small>
   </main>
   <script>
-    setTimeout(function () { window.location.replace(document.getElementById('link').href); }, 1200);
+    var frases = {
+      instagram: 'Olá! Vi o anúncio no Instagram e gostaria de tirar uma dúvida sobre a dedução da escola no Imposto de Renda.',
+      facebook: 'Olá! Vi o anúncio no Facebook e gostaria de tirar uma dúvida sobre a dedução da escola no Imposto de Renda.',
+      meta: 'Olá! Vi o anúncio no Instagram/Facebook e gostaria de tirar uma dúvida sobre a dedução da escola no Imposto de Renda.',
+      google: 'Olá! Encontrei o site pelo Google e gostaria de tirar uma dúvida sobre a dedução da escola no Imposto de Renda.'
+    };
+    var origem = new URLSearchParams(location.search).get('origem');
+    var link = document.getElementById('link');
+    if (frases[origem]) link.href = 'https://wa.me/5531996936688?text=' + encodeURIComponent(frases[origem]);
+    setTimeout(function () { window.location.replace(link.href); }, 1200);
   </script>
 </body>
 </html>
