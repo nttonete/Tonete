@@ -1,5 +1,6 @@
 name = "nt-whatsapp-bot"
 main = "src/index.js"
+account_id = "5d421c9c559189891268096a0a03f6de"
 compatibility_date = "2026-09-01"
 compatibility_flags = ["nodejs_compat"]
 

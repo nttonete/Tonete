@@ -61,11 +61,10 @@ Número do robô: +55 (17) 99772-2969. O ID do número (1257704010769958) já es
 
 **Sem terminal (recomendado):** o workflow `.github/workflows/robo.yml` publica o robô sozinho a cada mudança nesta pasta no `main`. Também dá para publicar pela aba **Actions > Publicar robô do WhatsApp > Run workflow**.
 
-1. Crie uma conta gratuita em dash.cloudflare.com.
-2. Em **Workers e Pages**, anote o **Account ID**, que aparece na lateral direita.
-3. Em **Minha conta > Tokens de API > Criar token**, use o modelo **"Editar Cloudflare Workers"**.
-4. No GitHub, em **Settings > Secrets and variables > Actions > New repository secret**, cadastre:
-   - `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID`;
+1. Crie uma conta gratuita em dash.cloudflare.com. A conta do escritório já existe (subdomínio `nayaraktonete.workers.dev`), e o Account ID está no `wrangler.toml`.
+2. Em **Minha conta > Tokens de API > Criar token**, use o modelo **"Editar Cloudflare Workers"**.
+3. No GitHub, em **Settings > Secrets and variables > Actions > New repository secret**, cadastre:
+   - `CLOUDFLARE_API_TOKEN` (o Account ID já está no `wrangler.toml`);
    - `WHATSAPP_TOKEN`, `APP_SECRET`, `VERIFY_TOKEN` e `ANTHROPIC_API_KEY`, as mesmas chaves descritas abaixo.
 
 **Pelo terminal:**
@@ -86,12 +85,12 @@ npx wrangler secret put ANTHROPIC_API_KEY   # chave da API do Claude (console.an
 npx wrangler deploy
 ```
 
-O último comando mostra o endereço do robô, algo como `https://nt-whatsapp-bot.SEU-USUARIO.workers.dev`.
+O último comando mostra o endereço do robô, algo como `https://nt-whatsapp-bot.nayaraktonete.workers.dev`.
 
 ### 3. Ligar o webhook e publicar o app
 
 1. No app da Meta, em WhatsApp > Configuração da produção > **Configurar webhooks**, preencha e clique em **Verificar e salvar**:
-   - URL de callback: `https://nt-whatsapp-bot.SEU-USUARIO.workers.dev/webhook`
+   - URL de callback: `https://nt-whatsapp-bot.nayaraktonete.workers.dev/webhook`
    - Verificar token: o mesmo `VERIFY_TOKEN`
 2. Confira que o campo **messages** está assinado.
 3. **Publique o app.** Enquanto o app não estiver publicado, a Meta só entrega webhooks de teste.
