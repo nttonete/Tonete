@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-bot",
+  "private": true,
+  "type": "module",
+  "description": "Atendimento automático (triagem) do WhatsApp da NT Advocacia – campanha golpe do Pix",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.142.0"
+  }
+}

@@ -1,0 +1,40 @@
+name = "nt-whatsapp-bot"
+main = "src/index.js"
+account_id = "5d421c9c559189891268096a0a03f6de"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[durable_objects.bindings]]
+name = "CONVERSAS"
+class_name = "Conversa"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Conversa"]
+
+[vars]
+# "meta" (Cloud API direta, número só do robô) ou "360dialog" (coexistência com o app)
+WHATSAPP_PROVIDER = "meta"
+# ID do número do robô +55 (17) 99772-2969 (conta WhatsApp Business 29028500753400413)
+PHONE_NUMBER_ID = "1257704010769958"
+GRAPH_VERSION = "v23.0"
+# WhatsApp do escritório, para onde o cliente vai depois da triagem (DDI+DDD+número, só dígitos)
+NUMERO_ESCRITORIO = "5531996936688"
+# Quem recebe o aviso de cada novo caso (pode ser o próprio WhatsApp do escritório)
+NOTIFY_TO = "5531996936688"
+# Modelo aprovado na Meta para o aviso (deixe vazio para mandar texto livre)
+NOTIFY_TEMPLATE = ""
+NOTIFY_TEMPLATE_LANG = "pt_BR"
+# Durante os testes, só responde a estes números (separados por vírgula). Vazio = todos.
+ALLOWED_NUMBERS = ""
+# Espera (ms) para juntar mensagens seguidas antes de responder
+DEBOUNCE_MS = "8000"
+CLAUDE_MODEL = "claude-opus-5"
+CLAUDE_EFFORT = "medium"
+
+# Segredos (wrangler secret put NOME):
+#   WHATSAPP_TOKEN     token da Meta ou API key da 360dialog
+#   ANTHROPIC_API_KEY  chave da API do Claude
+#   APP_SECRET         (Meta) App Secret, para validar a assinatura do webhook
+#   VERIFY_TOKEN       (Meta) texto qualquer, usado ao cadastrar o webhook
+#   WEBHOOK_KEY        (360dialog) chave secreta que vai no endereço do webhook

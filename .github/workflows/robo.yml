@@ -1,0 +1,50 @@
+name: Publicar robô do WhatsApp
+
+# Publica o robô no Cloudflare a cada mudança na pasta whatsapp-bot (no main)
+# ou manualmente pela aba Actions > "Publicar robô do WhatsApp" > Run workflow.
+# As chaves ficam em Settings > Secrets and variables > Actions.
+on:
+  push:
+    branches: [main]
+    paths: ["whatsapp-bot/**", ".github/workflows/robo.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: robo
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: whatsapp-bot
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm test
+      - name: Publicar no Cloudflare
+        run: npx wrangler deploy
+      - name: Enviar as chaves ao Cloudflare
+        env:
+          WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
+          APP_SECRET: ${{ secrets.APP_SECRET }}
+          VERIFY_TOKEN: ${{ secrets.VERIFY_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          for nome in WHATSAPP_TOKEN APP_SECRET VERIFY_TOKEN ANTHROPIC_API_KEY; do
+            valor="${!nome}"
+            if [ -n "$valor" ]; then
+              printf '%s' "$valor" | npx wrangler secret put "$nome"
+            else
+              echo "::warning::A chave $nome não está cadastrada no GitHub."
+            fi
+          done
