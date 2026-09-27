@@ -2,11 +2,12 @@
 // junta mensagens mandadas em sequência e processa uma resposta por vez.
 import { responder } from "./claude.js";
 import { enviarTexto, marcarLida, avisarAdvogada } from "./whatsapp.js";
-import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO } from "./prompt.js";
+import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, mensagemLink } from "./prompt.js";
 
 const TRINTA_DIAS = 30 * 24 * 60 * 60 * 1000;
 const MAX_HISTORICO = 60;
 const MAX_TENTATIVAS = 3;
+const SEIS_HORAS = 6 * 60 * 60 * 1000;
 
 function estadoInicial() {
   return {
@@ -15,8 +16,11 @@ function estadoInicial() {
     historico: [],
     pendentes: [],
     vistos: [],
-    status: "robo", // "robo" responde; "humano" = advogada assumiu, robô fica quieto
+    // "robo": faz a triagem. "encaminhado": triagem feita; só lembra o link do escritório.
+    // "humano": alguém respondeu por este número pelo app; o robô fica quieto.
+    status: "robo",
     ultimoContato: 0,
+    ultimoLembrete: 0,
     falhas: 0,
   };
 }
@@ -82,7 +86,8 @@ export class Conversa {
 
   async alarm() {
     const d = await this.carregar();
-    if (d.status !== "robo" || d.pendentes.length === 0) return;
+    if (d.status === "humano" || d.pendentes.length === 0) return;
+    if (d.status === "encaminhado") return this.lembrarLink(d);
 
     const lote = d.pendentes;
     d.pendentes = [];
@@ -116,20 +121,45 @@ export class Conversa {
     if (d.status !== "robo") return;
 
     d.historico = cortar([...d.historico, mensagemCliente, { role: "assistant", content: texto }]);
-    if (aviso) d.status = "humano";
+    if (aviso) {
+      d.status = "encaminhado";
+      d.ultimoLembrete = this.deps.agora();
+    }
     await this.salvar();
 
-    try {
-      await this.deps.enviarTexto(this.env, d.telefone, texto);
-    } catch (erro) {
-      console.error("Falha ao enviar resposta:", erro);
-    }
+    await this.enviar(d.telefone, texto);
     if (aviso) {
+      await this.enviarLink(d.telefone, aviso.nome !== "não informado" ? aviso.nome : d.nome);
       try {
         await this.deps.avisarAdvogada(this.env, d.telefone, aviso);
       } catch (erro) {
         console.error("Falha ao avisar a advogada:", erro);
       }
+    }
+  }
+
+  // Quem volta a escrever depois da triagem recebe de novo o link do escritório,
+  // no máximo uma vez a cada 6 horas.
+  async lembrarLink(d) {
+    d.pendentes = [];
+    const agora = this.deps.agora();
+    if (agora - d.ultimoLembrete < SEIS_HORAS) return this.salvar();
+    d.ultimoLembrete = agora;
+    await this.salvar();
+    await this.enviar(d.telefone, MENSAGEM_JA_ENCAMINHADO);
+    await this.enviarLink(d.telefone, d.nome);
+  }
+
+  enviarLink(telefone, nome) {
+    if (!this.env.NUMERO_ESCRITORIO) return;
+    return this.enviar(telefone, mensagemLink(this.env.NUMERO_ESCRITORIO, nome));
+  }
+
+  async enviar(telefone, texto) {
+    try {
+      await this.deps.enviarTexto(this.env, telefone, texto);
+    } catch (erro) {
+      console.error("Falha ao enviar mensagem:", erro);
     }
   }
 }

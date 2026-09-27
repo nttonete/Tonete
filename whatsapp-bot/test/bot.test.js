@@ -20,8 +20,9 @@ function armazenamento() {
 function montar(respostas) {
   const enviados = [], avisos = [], chamadas = [];
   const storage = armazenamento();
-  const conversa = new Conversa({ storage }, { DEBOUNCE_MS: "5000" }, {
-    agora: () => 1_000_000,
+  const relogio = { agora: 1_000_000 };
+  const conversa = new Conversa({ storage }, { DEBOUNCE_MS: "5000", NUMERO_ESCRITORIO: "5531996936688" }, {
+    agora: () => relogio.agora,
     marcarLida: async () => {},
     enviarTexto: async (_env, para, texto) => enviados.push({ para, texto }),
     avisarAdvogada: async (_env, tel, dados) => avisos.push({ tel, dados }),
@@ -32,7 +33,7 @@ function montar(respostas) {
       return r;
     },
   });
-  return { conversa, storage, enviados, avisos, chamadas };
+  return { conversa, storage, enviados, avisos, chamadas, relogio };
 }
 
 const aviso = {
@@ -54,16 +55,36 @@ test("junta mensagens seguidas numa única resposta", async () => {
   assert.deepEqual(enviados, [{ para: "5531900000000", texto: "Oi! Me conta o que houve?" }]);
 });
 
-test("ao avisar a advogada, envia o resumo e o robô para de responder", async () => {
+test("fim da triagem: avisa a advogada e manda o link do WhatsApp do escritório", async () => {
   const { conversa, enviados, avisos, chamadas } = montar([{ texto: "Obrigada, Ana!", aviso }]);
   await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 3 mil", nome: "Ana" });
   await conversa.alarm();
   assert.equal(avisos.length, 1);
   assert.equal(avisos[0].dados.prioridade, "alta");
-  assert.equal(enviados.at(-1).texto, "Obrigada, Ana!");
-  await conversa.entrada({ telefone: "5531900000000", id: "c", texto: "e agora?", nome: "Ana" });
-  await conversa.alarm();
+  assert.equal(enviados[0].texto, "Obrigada, Ana!");
+  assert.match(enviados[1].texto, /https:\/\/wa\.me\/5531996936688\?text=/);
+  assert.match(decodeURIComponent(enviados[1].texto), /Meu nome é Ana\./);
   assert.equal(chamadas.length, 1);
+});
+
+test("depois da triagem, quem volta a escrever recebe o link de novo (no máximo a cada 6h)", async () => {
+  const { conversa, enviados, chamadas, relogio } = montar([{ texto: "Obrigada!", aviso }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados.length, 2);
+
+  relogio.agora += 60_000; // 1 minuto depois: não repete
+  await conversa.entrada({ telefone: "5531900000000", id: "b", texto: "e agora?", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados.length, 2);
+
+  relogio.agora += 7 * 60 * 60 * 1000; // 7 horas depois: lembra o link
+  await conversa.entrada({ telefone: "5531900000000", id: "c", texto: "oi?", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados.length, 4);
+  assert.match(enviados[2].texto, /só para a triagem/);
+  assert.match(enviados[3].texto, /wa\.me\/5531996936688/);
+  assert.equal(chamadas.length, 1); // a IA não é chamada de novo
 });
 
 test("resposta pelo app (eco) faz o robô ficar quieto", async () => {
@@ -81,7 +102,7 @@ test("falha da IA: tenta de novo e, depois de 3 falhas, avisa a advogada", async
   await assert.rejects(conversa.alarm());
   await assert.rejects(conversa.alarm());
   await conversa.alarm();
-  assert.equal(enviados.length, 1);
+  assert.equal(enviados.length, 2); // desculpas + link do escritório
   assert.equal(avisos[0].dados.motivo, "falha_do_robo");
 });
 
@@ -137,6 +158,7 @@ test("modo de teste só atende números liberados", () => {
     { from: "5522", id: "2", type: "text", text: { body: "b" } },
   ] } }] }] };
   assert.deepEqual(extrairEventos(payload, { ALLOWED_NUMBERS: "5522" }).map((e) => e.telefone), ["5522"]);
+  assert.deepEqual(extrairEventos(payload, { NOTIFY_TO: "5511" }).map((e) => e.telefone), ["5522"]);
 });
 
 test("chamada ao Claude: parâmetros e leitura da ferramenta", async () => {

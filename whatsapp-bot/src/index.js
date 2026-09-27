@@ -84,6 +84,8 @@ export function extrairEventos(payload, env) {
         for (const m of v.messages ?? []) {
           let texto = descrever(m);
           if (texto === null || !liberado(m.from)) continue;
+          // Mensagens do próprio escritório (quem recebe os avisos) não passam pela triagem.
+          if (env.NOTIFY_TO && m.from === env.NOTIFY_TO) continue;
           // Clique em anúncio de WhatsApp da Meta: informa de qual anúncio veio.
           if (m.referral?.headline) texto = `[veio do anúncio: ${m.referral.headline}]\n${texto}`;
           eventos.push({ tipo: "entrada", telefone: m.from, id: m.id, texto, nome });

@@ -12,13 +12,15 @@ tag = "v1"
 new_sqlite_classes = ["Conversa"]
 
 [vars]
-# "meta" (Cloud API direta) ou "360dialog" (mesmo número no app, via coexistência)
-WHATSAPP_PROVIDER = "360dialog"
-# Só para a Cloud API direta da Meta
+# "meta" (Cloud API direta, número só do robô) ou "360dialog" (coexistência com o app)
+WHATSAPP_PROVIDER = "meta"
+# ID do número do robô, em WhatsApp > Configuração da API no app da Meta
 PHONE_NUMBER_ID = ""
 GRAPH_VERSION = "v23.0"
-# WhatsApp pessoal da advogada que recebe o aviso de cada novo caso (DDI+DDD+número, só dígitos)
-NOTIFY_TO = ""
+# WhatsApp do escritório, para onde o cliente vai depois da triagem (DDI+DDD+número, só dígitos)
+NUMERO_ESCRITORIO = "5531996936688"
+# Quem recebe o aviso de cada novo caso (pode ser o próprio WhatsApp do escritório)
+NOTIFY_TO = "5531996936688"
 # Modelo aprovado na Meta para o aviso (deixe vazio para mandar texto livre)
 NOTIFY_TEMPLATE = ""
 NOTIFY_TEMPLATE_LANG = "pt_BR"

@@ -40,7 +40,7 @@ Informações públicas e gerais, sem analisar o caso concreto:
 - Quando já tiver pelo menos: o que aconteceu, quando, valor e banco (o resto pode ficar "não informado").
 - Imediatamente, se a pessoa pedir para falar com a advogada ou com uma pessoa, quiser contratar, ou perguntar sobre honorários.
 - Imediatamente, se houver urgência: golpe acontecendo agora, ameaça, ou a pessoa muito abalada.
-Na mesma resposta em que usar a ferramenta, escreva a mensagem final para a pessoa: agradeça, diga que a advogada Nayara recebeu o resumo e vai continuar a conversa por este mesmo WhatsApp em horário comercial, e lembre de guardar os comprovantes. Depois de avisar, a conversa passa para a advogada.
+Na mesma resposta em que usar a ferramenta, escreva a mensagem final para a pessoa: agradeça, diga que a advogada Nayara já recebeu o resumo do caso e que o atendimento continua com ela no WhatsApp do escritório, e lembre de guardar os comprovantes. Não escreva link nem número de telefone: o sistema envia logo em seguida uma mensagem com o link para falar com a advogada. Depois de avisar, este número não continua a conversa.
 
 Prioridade: "alta" se o golpe foi há poucos dias ou semanas (ainda dá tempo de o banco agir rápido) ou se há urgência; "normal" nos demais casos; "baixa" se não for golpe do Pix ou não houver perda de dinheiro.
 
@@ -82,7 +82,18 @@ export const FERRAMENTA_AVISAR = {
 };
 
 export const MENSAGEM_FINAL_PADRAO =
-  "Obrigada por me contar. A advogada Nayara já recebeu o resumo do seu caso e vai continuar a conversa por aqui mesmo, em horário comercial. Enquanto isso, guarde os comprovantes do Pix e os prints da conversa com o golpista.";
+  "Obrigada por me contar. A advogada Nayara já recebeu o resumo do seu caso e o atendimento continua com ela no WhatsApp do escritório. Guarde os comprovantes do Pix e os prints da conversa com o golpista.";
 
 export const MENSAGEM_ERRO =
-  "Desculpe, tive um problema para responder agora. A advogada Nayara foi avisada e vai continuar a conversa por aqui mesmo, em horário comercial.";
+  "Desculpe, tive um problema para responder agora. A advogada Nayara foi avisada e pode continuar o atendimento com você no WhatsApp do escritório.";
+
+// Este número é só da triagem: o atendimento segue no WhatsApp do escritório.
+// O link já abre a conversa com uma mensagem pronta, para o cliente só tocar em enviar.
+export function mensagemLink(numeroEscritorio, nome) {
+  const quem = nome && nome !== "não informado" ? ` Meu nome é ${nome}.` : "";
+  const pronta = `Olá! Fiz a triagem sobre golpe do Pix e gostaria de continuar o atendimento com a advogada Nayara.${quem}`;
+  return `Para falar com a advogada Nayara, toque no link e envie a mensagem que já vem escrita (atendimento em horário comercial):\nhttps://wa.me/${numeroEscritorio}?text=${encodeURIComponent(pronta)}`;
+}
+
+export const MENSAGEM_JA_ENCAMINHADO =
+  "Este número é só para a triagem inicial, e o seu caso já foi passado para a advogada Nayara. Para continuar, fale com ela pelo WhatsApp do escritório.";
