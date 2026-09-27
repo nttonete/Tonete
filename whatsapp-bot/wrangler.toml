@@ -1,0 +1,37 @@
+name = "nt-whatsapp-bot"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[durable_objects.bindings]]
+name = "CONVERSAS"
+class_name = "Conversa"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Conversa"]
+
+[vars]
+# "meta" (Cloud API direta) ou "360dialog" (mesmo número no app, via coexistência)
+WHATSAPP_PROVIDER = "360dialog"
+# Só para a Cloud API direta da Meta
+PHONE_NUMBER_ID = ""
+GRAPH_VERSION = "v23.0"
+# WhatsApp pessoal da advogada que recebe o aviso de cada novo caso (DDI+DDD+número, só dígitos)
+NOTIFY_TO = ""
+# Modelo aprovado na Meta para o aviso (deixe vazio para mandar texto livre)
+NOTIFY_TEMPLATE = ""
+NOTIFY_TEMPLATE_LANG = "pt_BR"
+# Durante os testes, só responde a estes números (separados por vírgula). Vazio = todos.
+ALLOWED_NUMBERS = ""
+# Espera (ms) para juntar mensagens seguidas antes de responder
+DEBOUNCE_MS = "8000"
+CLAUDE_MODEL = "claude-opus-5"
+CLAUDE_EFFORT = "medium"
+
+# Segredos (wrangler secret put NOME):
+#   WHATSAPP_TOKEN     token da Meta ou API key da 360dialog
+#   ANTHROPIC_API_KEY  chave da API do Claude
+#   APP_SECRET         (Meta) App Secret, para validar a assinatura do webhook
+#   VERIFY_TOKEN       (Meta) texto qualquer, usado ao cadastrar o webhook
+#   WEBHOOK_KEY        (360dialog) chave secreta que vai no endereço do webhook
