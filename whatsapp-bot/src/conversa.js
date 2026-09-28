@@ -70,6 +70,7 @@ export class Conversa extends DurableObject {
 
     if (d.status === "humano") {
       await this.salvar();
+      await this.deps.registrar(this.env, "robô em silêncio: conversa assumida por pessoa (zere para testar de novo)");
       return;
     }
     d.pendentes.push({ id, texto });
@@ -160,7 +161,11 @@ export class Conversa extends DurableObject {
   async lembrarLink(d) {
     d.pendentes = [];
     const agora = this.deps.agora();
-    if (agora - d.ultimoLembrete < SEIS_HORAS) return this.salvar();
+    if (agora - d.ultimoLembrete < SEIS_HORAS) {
+      await this.salvar();
+      await this.deps.registrar(this.env, "robô em silêncio: triagem já encaminhada, contato reenviado há menos de 6h (zere para testar de novo)");
+      return;
+    }
     d.ultimoLembrete = agora;
     await this.salvar();
     await this.enviar(d.telefone, MENSAGEM_JA_ENCAMINHADO);
