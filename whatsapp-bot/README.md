@@ -126,6 +126,14 @@ O código também funciona no número do escritório, mantendo o app, por meio d
 
 Nesse modo, o robô sai da conversa quando alguém responde pelo app. Não é o caminho escolhido agora.
 
+## Diagnóstico
+
+Para ver as últimas ocorrências do robô (mensagens recebidas, respostas enviadas e erros), abra no navegador:
+
+`https://nt-whatsapp-bot.nayaraktonete.workers.dev/diagnostico?chave=SEU_VERIFY_TOKEN`
+
+A página mostra só horários, etapas e mensagens de erro, nunca o conteúdo das conversas. Os logs completos ficam no painel do Cloudflare, em Workers & Pages > nt-whatsapp-bot > Logs.
+
 ## Custos aproximados
 
 - **Claude:** alguns centavos de dólar por conversa de triagem. O modelo pode ser trocado em `CLAUDE_MODEL`.

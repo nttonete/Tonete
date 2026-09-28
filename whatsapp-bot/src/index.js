@@ -1,11 +1,25 @@
 // Recebe os webhooks do WhatsApp e repassa cada mensagem à conversa do cliente.
 export { Conversa } from "./conversa.js";
+export { Diagnostico } from "./diagnostico.js";
+import { registrar, lerDiagnostico } from "./diagnostico.js";
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
     if (url.pathname === "/saude") return new Response("ok");
+
+    // Últimas ocorrências do robô (protegido pelo VERIFY_TOKEN).
+    if (url.pathname === "/diagnostico") {
+      if (!env.VERIFY_TOKEN || !iguais(url.searchParams.get("chave") || "", env.VERIFY_TOKEN)) {
+        return new Response("proibido", { status: 403 });
+      }
+      const eventos = await lerDiagnostico(env);
+      const texto = eventos.length
+        ? eventos.map((e) => `${e.quando}  ${e.etapa}${e.detalhe ? "\n    " + e.detalhe : ""}`).join("\n")
+        : "Nenhuma ocorrência registrada ainda.";
+      return new Response(texto, { headers: { "Content-Type": "text/plain; charset=utf-8" } });
+    }
     if (url.pathname !== "/webhook") return new Response("não encontrado", { status: 404 });
 
     // Verificação feita pela Meta ao cadastrar o webhook.
@@ -21,6 +35,7 @@ export default {
 
     const bruto = await request.text();
     if (!(await autentico(request, url, bruto, env))) {
+      await registrar(env, "webhook recusado: assinatura inválida (confira o APP_SECRET)");
       return new Response("proibido", { status: 403 });
     }
 
@@ -32,12 +47,21 @@ export default {
     }
 
     const eventos = extrairEventos(payload, env);
-    await Promise.all(eventos.map((ev) => {
-      const conversa = env.CONVERSAS.get(env.CONVERSAS.idFromName(ev.telefone));
-      return conversa.fetch(`https://conversa/${ev.tipo}`, {
-        method: "POST",
-        body: JSON.stringify(ev),
-      });
+    const campos = (payload.entry ?? []).flatMap((e) => (e.changes ?? []).map((c) => c.field)).join(", ");
+    await registrar(env, `webhook recebido (${campos || "sem campos"})`,
+      eventos.length ? `${eventos.length} mensagem(ns) para o robô` : "nenhuma mensagem de cliente (status ou número ignorado)");
+    await Promise.all(eventos.map(async (ev) => {
+      try {
+        const conversa = env.CONVERSAS.get(env.CONVERSAS.idFromName(ev.telefone));
+        const resp = await conversa.fetch(`https://conversa/${ev.tipo}`, {
+          method: "POST",
+          body: JSON.stringify(ev),
+        });
+        if (!resp.ok) throw new Error(`conversa respondeu ${resp.status}`);
+      } catch (erro) {
+        console.error("Falha ao repassar mensagem:", erro);
+        await registrar(env, "erro ao repassar a mensagem para a conversa", erro?.message ?? erro);
+      }
     }));
     return new Response("ok");
   },

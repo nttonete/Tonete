@@ -24,6 +24,7 @@ function montar(respostas) {
   const conversa = new Conversa({ storage }, { DEBOUNCE_MS: "5000", NUMERO_ESCRITORIO: "5531996936688" }, {
     agora: () => relogio.agora,
     marcarLida: async () => {},
+    registrar: async () => {},
     enviarTexto: async (_env, para, texto) => enviados.push({ para, texto }),
     avisarAdvogada: async (_env, tel, dados) => avisos.push({ tel, dados }),
     responder: async (_env, historico) => {
@@ -181,4 +182,24 @@ test("chamada ao Claude: parâmetros e leitura da ferramenta", async () => {
 
 test("texto do aviso traz o link da conversa", () => {
   assert.match(textoAviso("5531900000000", aviso), /wa\.me\/5531900000000/);
+});
+
+test("página de diagnóstico exige a chave e lista as ocorrências", async () => {
+  const eventos = [];
+  const env = {
+    VERIFY_TOKEN: "abc",
+    DIAGNOSTICO: {
+      idFromName: (n) => n,
+      get: () => ({ fetch: async (_url, init) => {
+        if (init?.method === "POST") { eventos.unshift(JSON.parse(init.body)); return new Response("ok"); }
+        return Response.json(eventos);
+      } }),
+    },
+    CONVERSAS: { idFromName: (n) => n, get: () => ({ fetch: async () => new Response("ok") }) },
+    WEBHOOK_KEY: "k1",
+  };
+  assert.equal((await worker.fetch(new Request("https://x/diagnostico?chave=errada"), env)).status, 403);
+  await worker.fetch(new Request("https://x/webhook", { method: "POST", body: "{}" }), env);
+  const r = await worker.fetch(new Request("https://x/diagnostico?chave=abc"), env);
+  assert.match(await r.text(), /assinatura inválida/);
 });
