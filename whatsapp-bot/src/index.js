@@ -17,8 +17,10 @@ export default {
       // /diagnostico?chave=...&zerar=5517999999999 apaga a conversa desse número (para testes).
       const zerar = (url.searchParams.get("zerar") || "").replace(/\D/g, "");
       if (zerar) {
-        await env.CONVERSAS.get(env.CONVERSAS.idFromName(zerar)).fetch("https://conversa/zerar", { method: "POST", body: "{}" });
-        await registrar(env, `conversa de teste zerada (final ${zerar.slice(-4)})`);
+        for (const numero of variantes(zerar)) {
+          await env.CONVERSAS.get(env.CONVERSAS.idFromName(numero)).fetch("https://conversa/zerar", { method: "POST", body: "{}" });
+        }
+        await registrar(env, `conversa de teste zerada (final ${zerar.slice(-4)}, com e sem o 9)`);
       }
       const eventos = await lerDiagnostico(env);
       const texto = eventos.length
@@ -88,6 +90,15 @@ async function autentico(request, url, bruto, env) {
   if (env.WEBHOOK_KEY) return iguais(url.searchParams.get("chave") || "", env.WEBHOOK_KEY);
   console.error("Configure APP_SECRET (Meta) ou WEBHOOK_KEY (360dialog).");
   return false;
+}
+
+// O WhatsApp identifica muitos celulares brasileiros sem o 9 extra (55 31 8888-7348).
+// Para zerar, vale o número com e sem esse 9.
+export function variantes(numero) {
+  const lista = [numero];
+  if (/^55\d{2}9\d{8}$/.test(numero)) lista.push(numero.slice(0, 4) + numero.slice(5));
+  else if (/^55\d{2}\d{8}$/.test(numero)) lista.push(numero.slice(0, 4) + "9" + numero.slice(4));
+  return lista;
 }
 
 function iguais(a, b) {

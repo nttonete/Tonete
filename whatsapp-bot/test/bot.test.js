@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
 import { Conversa } from "../src/conversa.js";
-import worker, { extrairEventos } from "../src/index.js";
+import worker, { extrairEventos, variantes } from "../src/index.js";
 import { responder } from "../src/claude.js";
 import { textoAviso, enviarTexto } from "../src/whatsapp.js";
 
@@ -205,7 +205,7 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
   const r = await worker.fetch(new Request("https://x/diagnostico?chave=abc"), env);
   assert.match(await r.text(), /assinatura inválida/);
   const z = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=+55 17 99772-2969"), env);
-  assert.match(await z.text(), /zerada \(final 2969\)/);
+  assert.match(await z.text(), /zerada \(final 2969, com e sem o 9\)/);
 });
 
 test("token do WhatsApp com quebra de linha no fim funciona; com reticências dá erro claro", async () => {
@@ -239,4 +239,10 @@ test("zerar apaga a conversa", async () => {
   await conversa.zerar();
   assert.equal(storage.limpo, true);
   assert.equal(storage.alarme, null);
+});
+
+test("zerar considera o número com e sem o 9 extra", () => {
+  assert.deepEqual(variantes("5531988887348"), ["5531988887348", "553188887348"]);
+  assert.deepEqual(variantes("553188887348"), ["553188887348", "5531988887348"]);
+  assert.deepEqual(variantes("12345"), ["12345"]);
 });
