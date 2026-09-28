@@ -38,9 +38,10 @@ Informações públicas e gerais, sem analisar o caso concreto:
 
 # Quando avisar a advogada (ferramenta avisar_advogada)
 - Quando já tiver pelo menos: o que aconteceu, quando, valor e banco (o resto pode ficar "não informado").
+- Se a pessoa só disse que caiu num golpe, ou repetiu a mesma frase, não encaminhe: pergunte com calma o que aconteceu. Mensagens repetidas não são motivo para avisar a advogada.
 - Imediatamente, se a pessoa pedir para falar com a advogada ou com uma pessoa, quiser contratar, ou perguntar sobre honorários.
 - Imediatamente, se houver urgência: golpe acontecendo agora, ameaça, ou a pessoa muito abalada.
-Na mesma resposta em que usar a ferramenta, escreva a mensagem final para a pessoa: agradeça, diga que a advogada Nayara já recebeu o resumo do caso e que o atendimento continua com ela no WhatsApp do escritório, e lembre de guardar os comprovantes. Não escreva link nem número de telefone: o sistema envia logo em seguida uma mensagem com o link para falar com a advogada. Depois de avisar, este número não continua a conversa.
+Na mesma resposta em que usar a ferramenta, escreva a mensagem final para a pessoa: agradeça, diga que a advogada Nayara já recebeu o resumo do caso e que o atendimento continua com ela no WhatsApp do escritório, e lembre de guardar os comprovantes. Não escreva link nem número de telefone: o sistema envia logo em seguida o número e o cartão de contato do escritório. Depois de avisar, este número não continua a conversa.
 
 Prioridade: "alta" se o golpe foi há poucos dias ou semanas (ainda dá tempo de o banco agir rápido) ou se há urgência; "normal" nos demais casos; "baixa" se não for golpe do Pix ou não houver perda de dinheiro.
 
@@ -89,10 +90,16 @@ export const MENSAGEM_ERRO =
 
 // Este número é só da triagem: o atendimento segue no WhatsApp do escritório.
 // O link já abre a conversa com uma mensagem pronta, para o cliente só tocar em enviar.
-export function mensagemLink(numeroEscritorio, nome) {
-  const quem = nome && nome !== "não informado" ? ` Meu nome é ${nome}.` : "";
-  const pronta = `Olá! Fiz a triagem sobre golpe do Pix e gostaria de continuar o atendimento com a advogada Nayara.${quem}`;
-  return `Para falar com a advogada Nayara, toque no link e envie a mensagem que já vem escrita (atendimento em horário comercial):\nhttps://wa.me/${numeroEscritorio}?text=${encodeURIComponent(pronta)}`;
+// Sem links: quem acabou de cair num golpe desconfia (com razão) de links.
+// Mostra o número por extenso, lembra onde ele aparece publicamente, e o cartão
+// de contato do WhatsApp vai logo em seguida.
+export function numeroFormatado(numero) {
+  const d = String(numero).replace(/\D/g, "").replace(/^55/, "");
+  return d.length === 11 ? `(${d.slice(0, 2)}) ${d.slice(2, 7)}-${d.slice(7)}` : `+${numero}`;
+}
+
+export function mensagemContato(numeroEscritorio) {
+  return `Para continuar com a advogada Nayara, é só chamar no WhatsApp do escritório: *${numeroFormatado(numeroEscritorio)}*. É o mesmo número do Instagram @nayaratonete.adv. Vou te mandar o contato aqui embaixo: toque nele e depois em "Mensagem". O atendimento é em horário comercial.`;
 }
 
 export const MENSAGEM_JA_ENCAMINHADO =

@@ -18,7 +18,7 @@ function armazenamento() {
 }
 
 function montar(respostas) {
-  const enviados = [], avisos = [], chamadas = [];
+  const enviados = [], avisos = [], chamadas = [], contatos = [];
   const storage = armazenamento();
   const relogio = { agora: 1_000_000 };
   const conversa = new Conversa({ storage }, { DEBOUNCE_MS: "5000", NUMERO_ESCRITORIO: "5531996936688" }, {
@@ -26,6 +26,7 @@ function montar(respostas) {
     marcarLida: async () => {},
     registrar: async () => {},
     enviarTexto: async (_env, para, texto) => enviados.push({ para, texto }),
+    enviarContato: async (_env, para, numero) => contatos.push({ para, numero }),
     avisarAdvogada: async (_env, tel, dados) => avisos.push({ tel, dados }),
     responder: async (_env, historico) => {
       chamadas.push(structuredClone(historico));
@@ -34,7 +35,7 @@ function montar(respostas) {
       return r;
     },
   });
-  return { conversa, storage, enviados, avisos, chamadas, relogio };
+  return { conversa, storage, enviados, avisos, chamadas, relogio, contatos };
 }
 
 const aviso = {
@@ -56,15 +57,16 @@ test("junta mensagens seguidas numa única resposta", async () => {
   assert.deepEqual(enviados, [{ para: "5531900000000", texto: "Oi! Me conta o que houve?" }]);
 });
 
-test("fim da triagem: avisa a advogada e manda o link do WhatsApp do escritório", async () => {
-  const { conversa, enviados, avisos, chamadas } = montar([{ texto: "Obrigada, Ana!", aviso }]);
+test("fim da triagem: avisa a advogada e passa o WhatsApp do escritório sem link", async () => {
+  const { conversa, enviados, avisos, chamadas, contatos } = montar([{ texto: "Obrigada, Ana!", aviso }]);
   await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 3 mil", nome: "Ana" });
   await conversa.alarm();
   assert.equal(avisos.length, 1);
   assert.equal(avisos[0].dados.prioridade, "alta");
   assert.equal(enviados[0].texto, "Obrigada, Ana!");
-  assert.match(enviados[1].texto, /https:\/\/wa\.me\/5531996936688\?text=/);
-  assert.match(decodeURIComponent(enviados[1].texto), /Meu nome é Ana\./);
+  assert.match(enviados[1].texto, /\(31\) 99693-6688/);
+  assert.doesNotMatch(enviados[1].texto, /https?:/);
+  assert.deepEqual(contatos, [{ para: "5531900000000", numero: "5531996936688" }]);
   assert.equal(chamadas.length, 1);
 });
 
@@ -84,7 +86,7 @@ test("depois da triagem, quem volta a escrever recebe o link de novo (no máximo
   await conversa.alarm();
   assert.equal(enviados.length, 4);
   assert.match(enviados[2].texto, /só para a triagem/);
-  assert.match(enviados[3].texto, /wa\.me\/5531996936688/);
+  assert.match(enviados[3].texto, /\(31\) 99693-6688/);
   assert.equal(chamadas.length, 1); // a IA não é chamada de novo
 });
 
@@ -202,6 +204,8 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
   await worker.fetch(new Request("https://x/webhook", { method: "POST", body: "{}" }), env);
   const r = await worker.fetch(new Request("https://x/diagnostico?chave=abc"), env);
   assert.match(await r.text(), /assinatura inválida/);
+  const z = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=+55 17 99772-2969"), env);
+  assert.match(await z.text(), /zerada \(final 2969\)/);
 });
 
 test("token do WhatsApp com quebra de linha no fim funciona; com reticências dá erro claro", async () => {
@@ -215,4 +219,24 @@ test("token do WhatsApp com quebra de linha no fim funciona; com reticências d�
   } finally {
     globalThis.fetch = fetchOriginal;
   }
+});
+
+test("resposta que não chegou ao cliente não entra no histórico", async () => {
+  const { conversa, chamadas } = montar([{ texto: "Olá!", aviso: null }, { texto: "Me conta mais?", aviso: null }]);
+  conversa.deps.enviarTexto = async () => { throw new Error("Invalid header value."); };
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "caí num golpe", nome: null });
+  await conversa.alarm();
+  conversa.deps.enviarTexto = async () => {};
+  await conversa.entrada({ telefone: "5531900000000", id: "b", texto: "caí num golpe", nome: null });
+  await conversa.alarm();
+  assert.deepEqual(chamadas[1].map((m) => m.role), ["user", "user"]);
+});
+
+test("zerar apaga a conversa", async () => {
+  const { conversa, storage } = montar([]);
+  storage.deleteAll = async function () { this.limpo = true; };
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "oi", nome: null });
+  await conversa.zerar();
+  assert.equal(storage.limpo, true);
+  assert.equal(storage.alarme, null);
 });
