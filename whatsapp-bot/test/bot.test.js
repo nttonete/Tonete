@@ -192,7 +192,8 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
     VERIFY_TOKEN: "abc",
     DIAGNOSTICO: {
       idFromName: (n) => n,
-      get: () => ({ fetch: async (_url, init) => {
+      get: () => ({ fetch: async (url, init) => {
+        if (url.endsWith("/ultimo")) return Response.json({ telefone: "553188887348" });
         if (init?.method === "POST") { eventos.unshift(JSON.parse(init.body)); return new Response("ok"); }
         return Response.json(eventos);
       } }),
@@ -206,6 +207,8 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
   assert.match(await r.text(), /assinatura inválida/);
   const z = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=+55 17 99772-2969"), env);
   assert.match(await z.text(), /zerada \(final 2969, com e sem o 9\)/);
+  const u = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=ultimo"), env);
+  assert.match(await u.text(), /zerada \(final 7348, com e sem o 9\)/);
 });
 
 test("token do WhatsApp com quebra de linha no fim funciona; com reticências dá erro claro", async () => {
