@@ -18,7 +18,7 @@ function armazenamento() {
 }
 
 function montar(respostas) {
-  const enviados = [], avisos = [], chamadas = [];
+  const enviados = [], avisos = [], chamadas = [], contatos = [];
   const storage = armazenamento();
   const relogio = { agora: 1_000_000 };
   const conversa = new Conversa({ storage }, { DEBOUNCE_MS: "5000", NUMERO_ESCRITORIO: "5531996936688" }, {
@@ -26,6 +26,7 @@ function montar(respostas) {
     marcarLida: async () => {},
     registrar: async () => {},
     enviarTexto: async (_env, para, texto) => enviados.push({ para, texto }),
+    enviarContato: async (_env, para, numero) => contatos.push({ para, numero }),
     avisarAdvogada: async (_env, tel, dados) => avisos.push({ tel, dados }),
     responder: async (_env, historico) => {
       chamadas.push(structuredClone(historico));
@@ -34,7 +35,7 @@ function montar(respostas) {
       return r;
     },
   });
-  return { conversa, storage, enviados, avisos, chamadas, relogio };
+  return { conversa, storage, enviados, avisos, chamadas, relogio, contatos };
 }
 
 const aviso = {
@@ -56,15 +57,16 @@ test("junta mensagens seguidas numa única resposta", async () => {
   assert.deepEqual(enviados, [{ para: "5531900000000", texto: "Oi! Me conta o que houve?" }]);
 });
 
-test("fim da triagem: avisa a advogada e manda o link do WhatsApp do escritório", async () => {
-  const { conversa, enviados, avisos, chamadas } = montar([{ texto: "Obrigada, Ana!", aviso }]);
+test("fim da triagem: avisa a advogada e passa o WhatsApp do escritório sem link", async () => {
+  const { conversa, enviados, avisos, chamadas, contatos } = montar([{ texto: "Obrigada, Ana!", aviso }]);
   await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 3 mil", nome: "Ana" });
   await conversa.alarm();
   assert.equal(avisos.length, 1);
   assert.equal(avisos[0].dados.prioridade, "alta");
   assert.equal(enviados[0].texto, "Obrigada, Ana!");
-  assert.match(enviados[1].texto, /https:\/\/wa\.me\/5531996936688\?text=/);
-  assert.match(decodeURIComponent(enviados[1].texto), /Vim pela triagem do golpe do Pix/);
+  assert.match(enviados[1].texto, /\(31\) 99693-6688/);
+  assert.doesNotMatch(enviados[1].texto, /https?:/);
+  assert.deepEqual(contatos, [{ para: "5531900000000", numero: "5531996936688" }]);
   assert.equal(chamadas.length, 1);
 });
 
@@ -84,7 +86,7 @@ test("depois da triagem, quem volta a escrever recebe o link de novo (no máximo
   await conversa.alarm();
   assert.equal(enviados.length, 4);
   assert.match(enviados[2].texto, /só para a triagem/);
-  assert.match(enviados[3].texto, /wa\.me\/5531996936688/);
+  assert.match(enviados[3].texto, /\(31\) 99693-6688/);
   assert.equal(chamadas.length, 1); // a IA não é chamada de novo
 });
 

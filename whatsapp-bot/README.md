@@ -10,7 +10,7 @@ Robô de triagem para a campanha de golpe do Pix. Ele funciona num número de Wh
    - o valor e o banco;
    - se já contestou no banco (MED);
    - se fez B.O. e se tem os comprovantes.
-3. Avisa a Nayara com um resumo e manda para a pessoa um link do WhatsApp do escritório, com uma mensagem pronta. É a própria pessoa que chama a Nayara, já triada.
+3. Avisa a Nayara com um resumo e passa para a pessoa o WhatsApp do escritório: o número por extenso (o mesmo do Instagram) e o cartão de contato do WhatsApp, sem links, porque quem acabou de cair num golpe desconfia de links. É a própria pessoa que chama a Nayara, já triada.
 
 Ele também avisa na hora quando a pessoa pede atendimento humano, quer contratar, pergunta sobre honorários ou quando o caso é urgente.
 
@@ -25,9 +25,9 @@ Para mudar o tom ou as perguntas, edite esse arquivo e publique de novo.
 ## Como funciona
 
 - **Mensagens em sequência.** Quem manda várias mensagens seguidas recebe uma só resposta. O robô espera 8 segundos sem mensagem nova antes de responder.
-- **Depois da triagem.** Se a pessoa voltar a escrever no número do robô, recebe de novo o link do escritório, no máximo uma vez a cada 6 horas. Depois de 30 dias sem contato, uma nova mensagem começa uma triagem nova.
+- **Depois da triagem.** Se a pessoa voltar a escrever no número do robô, recebe de novo o contato do escritório, no máximo uma vez a cada 6 horas. Depois de 30 dias sem contato, uma nova mensagem começa uma triagem nova.
 - **Áudios, fotos e documentos.** O robô ainda não ouve áudios nem lê imagens. Ele pede que a pessoa escreva.
-- **Se a IA falhar.** O robô tenta 3 vezes. Se não conseguir, pede desculpas, manda o link do escritório e avisa a Nayara.
+- **Se a IA falhar.** O robô tenta 3 vezes. Se não conseguir, pede desculpas, manda o contato do escritório e avisa a Nayara.
 - **Anúncio de origem.** Contatos que vêm de anúncio de WhatsApp da Meta chegam com o título do anúncio. O robô usa isso como contexto.
 - **Onde roda.** Num Cloudflare Worker, com um Durable Object por cliente guardando o histórico. As respostas são geradas pelo Claude (Anthropic).
 
@@ -96,7 +96,7 @@ O último comando mostra o endereço do robô, algo como `https://nt-whatsapp-bo
 3. **Publique o app.** Enquanto o app não estiver publicado, a Meta só entrega webhooks de teste.
    - Em Configurações do app > Básico, preencha a URL da política de privacidade (a página `privacidade/` do site) e a URL de exclusão de dados (a mesma página).
    - Depois, clique em **Publicar**.
-4. Mande "oi" para o número do robô a partir de um número liberado. Simule um caso até o fim e confira o aviso no WhatsApp do escritório e o link final.
+4. Mande "oi" para o número do robô a partir de um número liberado. Simule um caso até o fim e confira o aviso no WhatsApp do escritório e o contato do escritório no fim.
 
 ### 4. Trocar o número na campanha (Meta)
 

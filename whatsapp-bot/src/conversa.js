@@ -2,9 +2,9 @@
 // junta mensagens mandadas em sequência e processa uma resposta por vez.
 import { DurableObject } from "cloudflare:workers";
 import { responder } from "./claude.js";
-import { enviarTexto, marcarLida, avisarAdvogada } from "./whatsapp.js";
+import { enviarTexto, enviarContato, marcarLida, avisarAdvogada } from "./whatsapp.js";
 import { registrar } from "./diagnostico.js";
-import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, mensagemLink } from "./prompt.js";
+import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, mensagemContato } from "./prompt.js";
 
 const TRINTA_DIAS = 30 * 24 * 60 * 60 * 1000;
 const MAX_HISTORICO = 60;
@@ -30,7 +30,7 @@ function estadoInicial() {
 export class Conversa extends DurableObject {
   constructor(ctx, env, deps = {}) {
     super(ctx, env);
-    this.deps = { responder, enviarTexto, marcarLida, avisarAdvogada, registrar, agora: () => Date.now(), ...deps };
+    this.deps = { responder, enviarTexto, enviarContato, marcarLida, avisarAdvogada, registrar, agora: () => Date.now(), ...deps };
     this.dados = null;
   }
 
@@ -167,9 +167,16 @@ export class Conversa extends DurableObject {
     await this.enviarLink(d.telefone);
   }
 
-  enviarLink(telefone) {
+  // Passa o WhatsApp do escritório: número por extenso e cartão de contato.
+  async enviarLink(telefone) {
     if (!this.env.NUMERO_ESCRITORIO) return;
-    return this.enviar(telefone, mensagemLink(this.env.NUMERO_ESCRITORIO));
+    if (!(await this.enviar(telefone, mensagemContato(this.env.NUMERO_ESCRITORIO)))) return;
+    try {
+      await this.deps.enviarContato(this.env, telefone, this.env.NUMERO_ESCRITORIO);
+    } catch (erro) {
+      console.error("Falha ao enviar o cartão de contato:", erro);
+      await this.deps.registrar(this.env, "erro ao enviar o cartão de contato", erro?.message ?? erro);
+    }
   }
 
   async enviar(telefone, texto) {

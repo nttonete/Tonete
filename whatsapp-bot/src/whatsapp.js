@@ -49,6 +49,20 @@ export function enviarTexto(env, para, texto) {
   });
 }
 
+// Cartão de contato do WhatsApp: o cliente toca em "Mensagem" sem precisar abrir link.
+export function enviarContato(env, para, numero) {
+  const digitos = String(numero).replace(/\D/g, "");
+  return postar(env, {
+    to: para,
+    type: "contacts",
+    contacts: [{
+      name: { formatted_name: "Nayara Tonete – NT Advocacia", first_name: "Nayara", last_name: "Tonete" },
+      org: { company: "NT Advocacia" },
+      phones: [{ phone: `+${digitos}`, wa_id: digitos, type: "WORK" }],
+    }],
+  });
+}
+
 // Marca a mensagem como lida e mostra "digitando…" enquanto a resposta é gerada.
 // Falhar aqui não pode impedir a resposta, então o erro só é registrado.
 export async function marcarLida(env, idMensagem) {
