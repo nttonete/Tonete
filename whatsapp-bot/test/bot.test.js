@@ -4,7 +4,7 @@ import { createHmac } from "node:crypto";
 import { Conversa } from "../src/conversa.js";
 import worker, { extrairEventos } from "../src/index.js";
 import { responder } from "../src/claude.js";
-import { textoAviso } from "../src/whatsapp.js";
+import { textoAviso, enviarTexto } from "../src/whatsapp.js";
 
 function armazenamento() {
   const mapa = new Map();
@@ -202,4 +202,17 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
   await worker.fetch(new Request("https://x/webhook", { method: "POST", body: "{}" }), env);
   const r = await worker.fetch(new Request("https://x/diagnostico?chave=abc"), env);
   assert.match(await r.text(), /assinatura inválida/);
+});
+
+test("token do WhatsApp com quebra de linha no fim funciona; com reticências dá erro claro", async () => {
+  const chamadas = [];
+  const fetchOriginal = globalThis.fetch;
+  globalThis.fetch = async (url, init) => { chamadas.push(init.headers.Authorization); return Response.json({}); };
+  try {
+    await enviarTexto({ WHATSAPP_TOKEN: "EAAtoken123\n", PHONE_NUMBER_ID: "1" }, "55", "oi");
+    assert.equal(chamadas[0], "Bearer EAAtoken123");
+    await assert.rejects(enviarTexto({ WHATSAPP_TOKEN: "EAAtok…", PHONE_NUMBER_ID: "1" }, "55", "oi"), /caractere inválido/);
+  } finally {
+    globalThis.fetch = fetchOriginal;
+  }
 });

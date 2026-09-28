@@ -3,17 +3,27 @@
 // manter o mesmo número no app WhatsApp Business: "coexistência").
 // As duas usam o mesmo corpo de mensagem; mudam só o endereço e a autenticação.
 
+// Chaves coladas no GitHub às vezes vêm com espaço ou quebra de linha no fim.
+function tokenWhatsApp(env) {
+  const token = String(env.WHATSAPP_TOKEN ?? "").trim();
+  if (!token) throw new Error("WHATSAPP_TOKEN não configurado");
+  if (/[^\x21-\x7e]/.test(token)) {
+    throw new Error("WHATSAPP_TOKEN tem caractere inválido (espaço, acento ou reticências); cole o token de novo no GitHub");
+  }
+  return token;
+}
+
 function api(env) {
   if (env.WHATSAPP_PROVIDER === "360dialog") {
     return {
       url: "https://waba-v2.360dialog.io/messages",
-      headers: { "D360-API-KEY": env.WHATSAPP_TOKEN },
+      headers: { "D360-API-KEY": tokenWhatsApp(env) },
     };
   }
   const versao = env.GRAPH_VERSION || "v23.0";
   return {
     url: `https://graph.facebook.com/${versao}/${env.PHONE_NUMBER_ID}/messages`,
-    headers: { Authorization: `Bearer ${env.WHATSAPP_TOKEN}` },
+    headers: { Authorization: `Bearer ${tokenWhatsApp(env)}` },
   };
 }
 
