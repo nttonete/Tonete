@@ -11,7 +11,7 @@ export default {
 
     // Últimas ocorrências do robô (protegido pelo VERIFY_TOKEN).
     if (url.pathname === "/diagnostico") {
-      if (!env.VERIFY_TOKEN || !iguais(url.searchParams.get("chave") || "", env.VERIFY_TOKEN)) {
+      if (!env.VERIFY_TOKEN || !iguais(url.searchParams.get("chave") || "", env.VERIFY_TOKEN.trim())) {
         return new Response("proibido", { status: 403 });
       }
       const eventos = await lerDiagnostico(env);
@@ -26,7 +26,7 @@ export default {
     if (request.method === "GET") {
       const ok = url.searchParams.get("hub.mode") === "subscribe"
         && env.VERIFY_TOKEN
-        && url.searchParams.get("hub.verify_token") === env.VERIFY_TOKEN;
+        && url.searchParams.get("hub.verify_token") === env.VERIFY_TOKEN.trim();
       return ok
         ? new Response(url.searchParams.get("hub.challenge"))
         : new Response("proibido", { status: 403 });
@@ -73,7 +73,7 @@ async function autentico(request, url, bruto, env) {
   if (env.APP_SECRET) {
     const assinatura = request.headers.get("X-Hub-Signature-256") || "";
     const chave = await crypto.subtle.importKey(
-      "raw", new TextEncoder().encode(env.APP_SECRET),
+      "raw", new TextEncoder().encode(env.APP_SECRET.trim()),
       { name: "HMAC", hash: "SHA-256" }, false, ["sign"],
     );
     const mac = await crypto.subtle.sign("HMAC", chave, new TextEncoder().encode(bruto));

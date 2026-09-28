@@ -13,7 +13,7 @@ export function agoraEmBrasilia(data = new Date()) {
 // historico: [{ role: "user" | "assistant", content: string }], terminando em "user".
 // Retorna { texto, aviso, recusado }: aviso é o input de avisar_advogada, se usada.
 export async function responder(env, historico, { cliente, agora = new Date() } = {}) {
-  const anthropic = cliente ?? new Anthropic({ apiKey: env.ANTHROPIC_API_KEY });
+  const anthropic = cliente ?? new Anthropic({ apiKey: String(env.ANTHROPIC_API_KEY ?? "").trim() });
 
   const resposta = await anthropic.beta.messages.create({
     model: env.CLAUDE_MODEL || "claude-opus-5",
