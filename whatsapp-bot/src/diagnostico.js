@@ -7,6 +7,15 @@ const MAX_EVENTOS = 30;
 // Classe com armazenamento SQLite do Cloudflare (precisa estender DurableObject).
 export class Diagnostico extends DurableObject {
   async fetch(request) {
+    const { pathname } = new URL(request.url);
+    // Guarda quem mandou a última mensagem, para zerar testes sem digitar o número.
+    if (pathname === "/ultimo") {
+      if (request.method === "POST") {
+        await this.ctx.storage.put("ultimo", (await request.json()).telefone);
+        return new Response("ok");
+      }
+      return Response.json({ telefone: (await this.ctx.storage.get("ultimo")) ?? null });
+    }
     const eventos = (await this.ctx.storage.get("eventos")) ?? [];
     if (request.method === "POST") {
       const ev = await request.json();
@@ -35,4 +44,19 @@ export async function registrar(env, etapa, detalhe = "") {
 export async function lerDiagnostico(env) {
   const diag = env.DIAGNOSTICO.get(env.DIAGNOSTICO.idFromName("geral"));
   return (await diag.fetch("https://diagnostico/")).json();
+}
+
+export async function anotarUltimo(env, telefone) {
+  if (!env.DIAGNOSTICO) return;
+  try {
+    const diag = env.DIAGNOSTICO.get(env.DIAGNOSTICO.idFromName("geral"));
+    await diag.fetch("https://diagnostico/ultimo", { method: "POST", body: JSON.stringify({ telefone }) });
+  } catch (erro) {
+    console.error("anotar último remetente:", erro);
+  }
+}
+
+export async function lerUltimo(env) {
+  const diag = env.DIAGNOSTICO.get(env.DIAGNOSTICO.idFromName("geral"));
+  return (await (await diag.fetch("https://diagnostico/ultimo")).json()).telefone;
 }

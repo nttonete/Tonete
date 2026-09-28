@@ -132,7 +132,7 @@ Para ver as últimas ocorrências do robô (mensagens recebidas, respostas envia
 
 `https://nt-whatsapp-bot.nayaraktonete.workers.dev/diagnostico?chave=SEU_VERIFY_TOKEN`
 
-Para refazer um teste do zero, acrescente `&zerar=` com o número de quem testou (ex.: `&zerar=5517999999999`): a conversa desse número é apagada.
+Para refazer um teste do zero, acrescente `&zerar=ultimo` (apaga a conversa de quem mandou a última mensagem) ou `&zerar=` com o número de quem testou.
 
 A página mostra só horários, etapas e mensagens de erro, nunca o conteúdo das conversas. Os logs completos ficam no painel do Cloudflare, em Workers & Pages > nt-whatsapp-bot > Logs.
 

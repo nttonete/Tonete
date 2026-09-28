@@ -1,7 +1,7 @@
 // Recebe os webhooks do WhatsApp e repassa cada mensagem à conversa do cliente.
 export { Conversa } from "./conversa.js";
 export { Diagnostico } from "./diagnostico.js";
-import { registrar, lerDiagnostico } from "./diagnostico.js";
+import { registrar, lerDiagnostico, anotarUltimo, lerUltimo } from "./diagnostico.js";
 
 export default {
   async fetch(request, env) {
@@ -15,7 +15,9 @@ export default {
         return new Response("proibido", { status: 403 });
       }
       // /diagnostico?chave=...&zerar=5517999999999 apaga a conversa desse número (para testes).
-      const zerar = (url.searchParams.get("zerar") || "").replace(/\D/g, "");
+      // zerar=ultimo apaga a conversa de quem mandou a última mensagem.
+      const pedido = url.searchParams.get("zerar") || "";
+      const zerar = pedido.trim().toLowerCase() === "ultimo" ? (await lerUltimo(env)) ?? "" : pedido.replace(/\D/g, "");
       if (zerar) {
         for (const numero of variantes(zerar)) {
           await env.CONVERSAS.get(env.CONVERSAS.idFromName(numero)).fetch("https://conversa/zerar", { method: "POST", body: "{}" });
@@ -56,7 +58,12 @@ export default {
 
     const eventos = extrairEventos(payload, env);
     // Avisos de "entregue/lida" chegam o tempo todo; só registra mensagens de clientes.
-    if (eventos.length) await registrar(env, "mensagem recebida", `${eventos.length} mensagem(ns) para o robô`);
+    const entradas = eventos.filter((ev) => ev.tipo === "entrada");
+    if (entradas.length) {
+      const ultimo = entradas[entradas.length - 1].telefone;
+      await anotarUltimo(env, ultimo);
+      await registrar(env, "mensagem recebida", `${entradas.length} mensagem(ns), de número terminado em ${ultimo.slice(-4)} (${ultimo.length} dígitos)`);
+    }
     await Promise.all(eventos.map(async (ev) => {
       try {
         const conversa = env.CONVERSAS.get(env.CONVERSAS.idFromName(ev.telefone));
