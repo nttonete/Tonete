@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "node --test"
+    "test": "node --import ./test/cloudflare-stub.mjs --test test/*.test.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.128.0"

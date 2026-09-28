@@ -1,7 +1,9 @@
 // Uma instância (Durable Object) por número de cliente. Ela guarda o histórico,
 // junta mensagens mandadas em sequência e processa uma resposta por vez.
+import { DurableObject } from "cloudflare:workers";
 import { responder } from "./claude.js";
 import { enviarTexto, marcarLida, avisarAdvogada } from "./whatsapp.js";
+import { registrar } from "./diagnostico.js";
 import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, mensagemLink } from "./prompt.js";
 
 const TRINTA_DIAS = 30 * 24 * 60 * 60 * 1000;
@@ -25,11 +27,10 @@ function estadoInicial() {
   };
 }
 
-export class Conversa {
+export class Conversa extends DurableObject {
   constructor(ctx, env, deps = {}) {
-    this.ctx = ctx;
-    this.env = env;
-    this.deps = { responder, enviarTexto, marcarLida, avisarAdvogada, agora: () => Date.now(), ...deps };
+    super(ctx, env);
+    this.deps = { responder, enviarTexto, marcarLida, avisarAdvogada, registrar, agora: () => Date.now(), ...deps };
     this.dados = null;
   }
 
@@ -94,12 +95,14 @@ export class Conversa {
     await this.salvar();
     await this.deps.marcarLida(this.env, lote[lote.length - 1].id);
 
+    await this.deps.registrar(this.env, "gerando resposta", `${lote.length} mensagem(ns) juntas`);
     const mensagemCliente = { role: "user", content: lote.map((m) => m.texto).join("\n") };
     let resultado;
     try {
       resultado = await this.deps.responder(this.env, [...d.historico, mensagemCliente]);
     } catch (erro) {
       console.error("Falha ao gerar resposta:", erro);
+      await this.deps.registrar(this.env, "erro ao gerar resposta (Claude)", erro?.message ?? erro);
       d.falhas += 1;
       if (d.falhas < MAX_TENTATIVAS) {
         d.pendentes = [...lote, ...d.pendentes];
@@ -134,6 +137,7 @@ export class Conversa {
         await this.deps.avisarAdvogada(this.env, d.telefone, aviso);
       } catch (erro) {
         console.error("Falha ao avisar a advogada:", erro);
+        await this.deps.registrar(this.env, "erro ao avisar a advogada", erro?.message ?? erro);
       }
     }
   }
@@ -158,8 +162,10 @@ export class Conversa {
   async enviar(telefone, texto) {
     try {
       await this.deps.enviarTexto(this.env, telefone, texto);
+      await this.deps.registrar(this.env, "resposta enviada ao cliente");
     } catch (erro) {
       console.error("Falha ao enviar mensagem:", erro);
+      await this.deps.registrar(this.env, "erro ao enviar mensagem pelo WhatsApp", erro?.message ?? erro);
     }
   }
 }

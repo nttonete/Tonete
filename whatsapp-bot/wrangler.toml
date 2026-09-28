@@ -4,13 +4,24 @@ account_id = "5d421c9c559189891268096a0a03f6de"
 compatibility_date = "2026-09-01"
 compatibility_flags = ["nodejs_compat"]
 
+[observability]
+enabled = true
+
 [[durable_objects.bindings]]
 name = "CONVERSAS"
 class_name = "Conversa"
 
+[[durable_objects.bindings]]
+name = "DIAGNOSTICO"
+class_name = "Diagnostico"
+
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["Conversa"]
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["Diagnostico"]
 
 [vars]
 # "meta" (Cloud API direta, número só do robô) ou "360dialog" (coexistência com o app)
