@@ -14,6 +14,12 @@ export default {
       if (!env.VERIFY_TOKEN || !iguais(url.searchParams.get("chave") || "", env.VERIFY_TOKEN.trim())) {
         return new Response("proibido", { status: 403 });
       }
+      // /diagnostico?chave=...&zerar=5517999999999 apaga a conversa desse número (para testes).
+      const zerar = (url.searchParams.get("zerar") || "").replace(/\D/g, "");
+      if (zerar) {
+        await env.CONVERSAS.get(env.CONVERSAS.idFromName(zerar)).fetch("https://conversa/zerar", { method: "POST", body: "{}" });
+        await registrar(env, `conversa de teste zerada (final ${zerar.slice(-4)})`);
+      }
       const eventos = await lerDiagnostico(env);
       const texto = eventos.length
         ? eventos.map((e) => `${e.quando}  ${e.etapa}${e.detalhe ? "\n    " + e.detalhe : ""}`).join("\n")
@@ -47,9 +53,8 @@ export default {
     }
 
     const eventos = extrairEventos(payload, env);
-    const campos = (payload.entry ?? []).flatMap((e) => (e.changes ?? []).map((c) => c.field)).join(", ");
-    await registrar(env, `webhook recebido (${campos || "sem campos"})`,
-      eventos.length ? `${eventos.length} mensagem(ns) para o robô` : "nenhuma mensagem de cliente (status ou número ignorado)");
+    // Avisos de "entregue/lida" chegam o tempo todo; só registra mensagens de clientes.
+    if (eventos.length) await registrar(env, "mensagem recebida", `${eventos.length} mensagem(ns) para o robô`);
     await Promise.all(eventos.map(async (ev) => {
       try {
         const conversa = env.CONVERSAS.get(env.CONVERSAS.idFromName(ev.telefone));

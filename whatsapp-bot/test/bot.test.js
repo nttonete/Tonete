@@ -64,7 +64,7 @@ test("fim da triagem: avisa a advogada e manda o link do WhatsApp do escritório
   assert.equal(avisos[0].dados.prioridade, "alta");
   assert.equal(enviados[0].texto, "Obrigada, Ana!");
   assert.match(enviados[1].texto, /https:\/\/wa\.me\/5531996936688\?text=/);
-  assert.match(decodeURIComponent(enviados[1].texto), /Meu nome é Ana\./);
+  assert.match(decodeURIComponent(enviados[1].texto), /Vim pela triagem do golpe do Pix/);
   assert.equal(chamadas.length, 1);
 });
 
@@ -202,6 +202,8 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
   await worker.fetch(new Request("https://x/webhook", { method: "POST", body: "{}" }), env);
   const r = await worker.fetch(new Request("https://x/diagnostico?chave=abc"), env);
   assert.match(await r.text(), /assinatura inválida/);
+  const z = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=+55 17 99772-2969"), env);
+  assert.match(await z.text(), /zerada \(final 2969\)/);
 });
 
 test("token do WhatsApp com quebra de linha no fim funciona; com reticências dá erro claro", async () => {
@@ -215,4 +217,24 @@ test("token do WhatsApp com quebra de linha no fim funciona; com reticências d�
   } finally {
     globalThis.fetch = fetchOriginal;
   }
+});
+
+test("resposta que não chegou ao cliente não entra no histórico", async () => {
+  const { conversa, chamadas } = montar([{ texto: "Olá!", aviso: null }, { texto: "Me conta mais?", aviso: null }]);
+  conversa.deps.enviarTexto = async () => { throw new Error("Invalid header value."); };
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "caí num golpe", nome: null });
+  await conversa.alarm();
+  conversa.deps.enviarTexto = async () => {};
+  await conversa.entrada({ telefone: "5531900000000", id: "b", texto: "caí num golpe", nome: null });
+  await conversa.alarm();
+  assert.deepEqual(chamadas[1].map((m) => m.role), ["user", "user"]);
+});
+
+test("zerar apaga a conversa", async () => {
+  const { conversa, storage } = montar([]);
+  storage.deleteAll = async function () { this.limpo = true; };
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "oi", nome: null });
+  await conversa.zerar();
+  assert.equal(storage.limpo, true);
+  assert.equal(storage.alarme, null);
 });

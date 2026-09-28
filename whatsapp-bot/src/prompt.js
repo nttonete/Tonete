@@ -38,6 +38,7 @@ Informações públicas e gerais, sem analisar o caso concreto:
 
 # Quando avisar a advogada (ferramenta avisar_advogada)
 - Quando já tiver pelo menos: o que aconteceu, quando, valor e banco (o resto pode ficar "não informado").
+- Se a pessoa só disse que caiu num golpe, ou repetiu a mesma frase, não encaminhe: pergunte com calma o que aconteceu. Mensagens repetidas não são motivo para avisar a advogada.
 - Imediatamente, se a pessoa pedir para falar com a advogada ou com uma pessoa, quiser contratar, ou perguntar sobre honorários.
 - Imediatamente, se houver urgência: golpe acontecendo agora, ameaça, ou a pessoa muito abalada.
 Na mesma resposta em que usar a ferramenta, escreva a mensagem final para a pessoa: agradeça, diga que a advogada Nayara já recebeu o resumo do caso e que o atendimento continua com ela no WhatsApp do escritório, e lembre de guardar os comprovantes. Não escreva link nem número de telefone: o sistema envia logo em seguida uma mensagem com o link para falar com a advogada. Depois de avisar, este número não continua a conversa.
@@ -89,10 +90,10 @@ export const MENSAGEM_ERRO =
 
 // Este número é só da triagem: o atendimento segue no WhatsApp do escritório.
 // O link já abre a conversa com uma mensagem pronta, para o cliente só tocar em enviar.
-export function mensagemLink(numeroEscritorio, nome) {
-  const quem = nome && nome !== "não informado" ? ` Meu nome é ${nome}.` : "";
-  const pronta = `Olá! Fiz a triagem sobre golpe do Pix e gostaria de continuar o atendimento com a advogada Nayara.${quem}`;
-  return `Para falar com a advogada Nayara, toque no link e envie a mensagem que já vem escrita (atendimento em horário comercial):\nhttps://wa.me/${numeroEscritorio}?text=${encodeURIComponent(pronta)}`;
+// Texto curto e sem acentos para o link ficar limpo no WhatsApp; nome e resumo já vão no aviso.
+export function mensagemLink(numeroEscritorio) {
+  const pronta = "Oi! Vim pela triagem do golpe do Pix.";
+  return `Para falar com a advogada Nayara, toque no link abaixo e envie a mensagem que já vem escrita (atendimento em horário comercial):\nhttps://wa.me/${numeroEscritorio}?text=${encodeURIComponent(pronta)}`;
 }
 
 export const MENSAGEM_JA_ENCAMINHADO =

@@ -47,6 +47,7 @@ export class Conversa extends DurableObject {
     const { pathname } = new URL(request.url);
     const corpo = await request.json();
     if (pathname === "/entrada") await this.entrada(corpo);
+    else if (pathname === "/zerar") await this.zerar();
     else if (pathname === "/eco") await this.eco();
     else return new Response("não encontrado", { status: 404 });
     return new Response("ok");
@@ -74,6 +75,13 @@ export class Conversa extends DurableObject {
     d.pendentes.push({ id, texto });
     await this.salvar();
     await this.ctx.storage.setAlarm(agora + Number(this.env.DEBOUNCE_MS || 8000));
+  }
+
+  // Apaga a conversa (usado para refazer testes pelo diagnóstico).
+  async zerar() {
+    await this.ctx.storage.deleteAlarm();
+    await this.ctx.storage.deleteAll();
+    this.dados = null;
   }
 
   // Alguém respondeu pelo app WhatsApp Business: a advogada assumiu a conversa.
@@ -123,16 +131,21 @@ export class Conversa extends DurableObject {
     // A advogada pode ter assumido enquanto a resposta era gerada.
     if (d.status !== "robo") return;
 
-    d.historico = cortar([...d.historico, mensagemCliente, { role: "assistant", content: texto }]);
+    d.historico = cortar([...d.historico, mensagemCliente]);
     if (aviso) {
       d.status = "encaminhado";
       d.ultimoLembrete = this.deps.agora();
     }
     await this.salvar();
 
-    await this.enviar(d.telefone, texto);
+    // Só entra no histórico o que o cliente de fato recebeu; senão a IA "lembra"
+    // de respostas que nunca chegaram e acha que o cliente está repetindo.
+    if (await this.enviar(d.telefone, texto)) {
+      d.historico = cortar([...d.historico, { role: "assistant", content: texto }]);
+      await this.salvar();
+    }
     if (aviso) {
-      await this.enviarLink(d.telefone, aviso.nome !== "não informado" ? aviso.nome : d.nome);
+      await this.enviarLink(d.telefone);
       try {
         await this.deps.avisarAdvogada(this.env, d.telefone, aviso);
       } catch (erro) {
@@ -151,21 +164,23 @@ export class Conversa extends DurableObject {
     d.ultimoLembrete = agora;
     await this.salvar();
     await this.enviar(d.telefone, MENSAGEM_JA_ENCAMINHADO);
-    await this.enviarLink(d.telefone, d.nome);
+    await this.enviarLink(d.telefone);
   }
 
-  enviarLink(telefone, nome) {
+  enviarLink(telefone) {
     if (!this.env.NUMERO_ESCRITORIO) return;
-    return this.enviar(telefone, mensagemLink(this.env.NUMERO_ESCRITORIO, nome));
+    return this.enviar(telefone, mensagemLink(this.env.NUMERO_ESCRITORIO));
   }
 
   async enviar(telefone, texto) {
     try {
       await this.deps.enviarTexto(this.env, telefone, texto);
       await this.deps.registrar(this.env, "resposta enviada ao cliente");
+      return true;
     } catch (erro) {
       console.error("Falha ao enviar mensagem:", erro);
       await this.deps.registrar(this.env, "erro ao enviar mensagem pelo WhatsApp", erro?.message ?? erro);
+      return false;
     }
   }
 }
