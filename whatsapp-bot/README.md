@@ -31,9 +31,9 @@ Para mudar o tom ou as perguntas, edite esse arquivo e publique de novo.
 - **Anúncio de origem.** Contatos que vêm de anúncio de WhatsApp da Meta chegam com o título do anúncio. O robô usa isso como contexto.
 - **Onde roda.** Num Cloudflare Worker, com um Durable Object por cliente guardando o histórico. As respostas são geradas pelo Claude (Anthropic).
 
-## Nada funciona sozinho
+## Situação atual
 
-O robô só começa a atender quando as quatro etapas abaixo estiverem feitas. Mesmo publicado, ele fica em modo de teste (`ALLOWED_NUMBERS`) e só responde aos números liberados, até vocês liberarem para todos.
+O robô está no ar desde 27/09/2026, no número +55 (17) 99772-2969, respondendo a qualquer pessoa (`ALLOWED_NUMBERS` vazio). O guia para quem não é técnico, com o mapa das contas, os problemas já resolvidos e a rotina de manutenção, está em [`docs/robo-whatsapp-guia.md`](../docs/robo-whatsapp-guia.md).
 
 ## Colocando no ar
 
