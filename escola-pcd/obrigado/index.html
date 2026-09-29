@@ -46,7 +46,11 @@
     var origem = new URLSearchParams(location.search).get('origem');
     var link = document.getElementById('link');
     if (frases[origem]) link.href = 'https://wa.me/5531996936688?text=' + encodeURIComponent(frases[origem]);
-    setTimeout(function () { window.location.replace(link.href); }, 1200);
+    var foi = false;
+    function abrir() { if (!foi) { foi = true; window.location.replace(link.href); } }
+    // Conversão "Contato WhatsApp" do Google Ads: abre o WhatsApp assim que ela for enviada.
+    gtag('event', 'conversion', {'send_to': 'AW-18475335228/-4NuCMzw7oodELz83OlE', 'event_callback': abrir});
+    setTimeout(abrir, 2500);
   </script>
 </body>
 </html>
