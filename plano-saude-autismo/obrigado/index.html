@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Abrindo o WhatsApp</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18475335228"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18475335228');
+</script>
+<!-- Google tag (gtag.js) event -->
+<script>
+  gtag('event', 'ads_conversion_Contato_1', {});
+</script>
+<style>
+  :root { --cafe: #573B2C; --papel: #FAF7F2; --tinta: #3A2A22; --dourado: #A68664; }
+  @media (prefers-color-scheme: dark) {
+    :root { --cafe: #E6CDB3; --papel: #1C140F; --tinta: #EFE3D6; --dourado: #C9A882; }
+  }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px;
+    background: var(--papel); color: var(--tinta);
+    font-family: "Poppins", "Segoe UI", -apple-system, Arial, sans-serif; text-align: center; }
+  h1 { font-family: "Cormorant Garamond", Georgia, serif; color: var(--cafe); font-weight: 600; }
+  a { color: var(--cafe); font-weight: 600; }
+  small { color: var(--dourado); }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Abrindo o WhatsApp…</h1>
+    <p>Se a conversa não abrir sozinha, <a id="link" href="https://wa.me/5531996936688?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20a%20cobertura%20do%20plano%20de%20sa%C3%BAde%20para%20terapias.">toque aqui</a>.</p>
+    <small>Nayara Tonete · OAB/SP 479.459</small>
+  </main>
+  <script>
+    var frases = {
+      instagram: 'Olá! Vi o anúncio no Instagram e gostaria de tirar uma dúvida sobre a cobertura do plano de saúde para terapias.',
+      facebook: 'Olá! Vi o anúncio no Facebook e gostaria de tirar uma dúvida sobre a cobertura do plano de saúde para terapias.',
+      meta: 'Olá! Vi o anúncio no Instagram/Facebook e gostaria de tirar uma dúvida sobre a cobertura do plano de saúde para terapias.',
+      google: 'Olá! Encontrei o site pelo Google e gostaria de tirar uma dúvida sobre a cobertura do plano de saúde para terapias.'
+    };
+    var origem = new URLSearchParams(location.search).get('origem');
+    var link = document.getElementById('link');
+    if (frases[origem]) link.href = 'https://wa.me/5531996936688?text=' + encodeURIComponent(frases[origem]);
+    var foi = false;
+    function abrir() { if (!foi) { foi = true; window.location.replace(link.href); } }
+    // Conversão "Contato WhatsApp" do Google Ads: abre o WhatsApp assim que ela for enviada.
+    gtag('event', 'conversion', {'send_to': 'AW-18475335228/-4NuCMzw7oodELz83OlE', 'event_callback': abrir});
+    setTimeout(abrir, 2500);
+  </script>
+</body>
+</html>
