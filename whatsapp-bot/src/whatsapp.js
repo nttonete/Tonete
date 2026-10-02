@@ -2,6 +2,7 @@
 // Funciona direto na Cloud API da Meta ou pela 360dialog (parceira que permite
 // manter o mesmo número no app WhatsApp Business: "coexistência").
 // As duas usam o mesmo corpo de mensagem; mudam só o endereço e a autenticação.
+import { perfilDe } from "./perfis/index.js";
 
 // Chaves coladas no GitHub às vezes vêm com espaço ou quebra de linha no fim.
 function tokenWhatsApp(env) {
@@ -52,12 +53,13 @@ export function enviarTexto(env, para, texto) {
 // Cartão de contato do WhatsApp: o cliente toca em "Mensagem" sem precisar abrir link.
 export function enviarContato(env, para, numero) {
   const digitos = String(numero).replace(/\D/g, "");
+  const { cartao } = perfilDe(env);
   return postar(env, {
     to: para,
     type: "contacts",
     contacts: [{
-      name: { formatted_name: "Nayara Tonete – NT Advocacia", first_name: "Nayara", last_name: "Tonete" },
-      org: { company: "NT Advocacia" },
+      name: { formatted_name: cartao.nome, first_name: cartao.primeiroNome, last_name: cartao.sobrenome },
+      org: { company: cartao.empresa },
       phones: [{ phone: `+${digitos}`, wa_id: digitos, type: "WORK" }],
     }],
   });
@@ -83,38 +85,25 @@ function limpar(texto, max) {
   return (t.length > max ? t.slice(0, max - 1) + "…" : t) || "-";
 }
 
-export function textoAviso(telefone, dados) {
+export function textoAviso(perfil, telefone, dados) {
   return [
-    `*Novo contato – golpe do Pix* (prioridade ${dados.prioridade}, ${dados.motivo.replace(/_/g, " ")})`,
+    `*Novo contato – ${perfil.tituloAviso}* (prioridade ${dados.prioridade}, ${dados.motivo.replace(/_/g, " ")})`,
     `Nome: ${dados.nome} · +${telefone}`,
     `Cidade: ${dados.cidade}`,
-    `Golpe: ${dados.tipo_golpe}`,
-    `Quando: ${dados.data_golpe}`,
-    `Valor: ${dados.valor}`,
-    `Banco: ${dados.banco}`,
-    `Contestou no banco/MED: ${dados.contestou_banco}`,
-    `B.O.: ${dados.boletim_ocorrencia}`,
-    `Resumo: ${dados.resumo}`,
+    ...perfil.camposAviso.map((c) => `${c.rotulo}: ${dados[c.chave]}`),
     `Conversa: https://wa.me/${telefone}`,
   ].join("\n");
 }
 
-// Avisa a advogada no WhatsApp pessoal dela (NOTIFY_TO).
+// Avisa o responsável (advogada, dentista...) no WhatsApp dele (NOTIFY_TO).
 // Fora da janela de 24h a Meta só entrega mensagens por modelo aprovado
 // (NOTIFY_TEMPLATE); sem modelo configurado, manda texto livre.
-export function avisarAdvogada(env, telefone, dados) {
+export function avisarResponsavel(env, telefone, dados) {
+  const perfil = perfilDe(env);
   if (!env.NOTIFY_TEMPLATE) {
-    return enviarTexto(env, env.NOTIFY_TO, textoAviso(telefone, dados));
+    return enviarTexto(env, env.NOTIFY_TO, textoAviso(perfil, telefone, dados));
   }
-  const detalhes = [
-    `Golpe: ${dados.tipo_golpe}`,
-    `Quando: ${dados.data_golpe}`,
-    `Valor: ${dados.valor}`,
-    `Banco: ${dados.banco}`,
-    `Contestou: ${dados.contestou_banco}`,
-    `B.O.: ${dados.boletim_ocorrencia}`,
-    `Resumo: ${dados.resumo}`,
-  ].join(" | ");
+  const detalhes = perfil.camposAviso.map((c) => `${c.rotulo}: ${dados[c.chave]}`).join(" | ");
   return postar(env, {
     to: env.NOTIFY_TO,
     type: "template",

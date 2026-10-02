@@ -4,7 +4,8 @@ import { createHmac } from "node:crypto";
 import { Conversa } from "../src/conversa.js";
 import worker, { extrairEventos, variantes } from "../src/index.js";
 import { responder } from "../src/claude.js";
-import { textoAviso, enviarTexto } from "../src/whatsapp.js";
+import { textoAviso, enviarTexto, enviarContato } from "../src/whatsapp.js";
+import { perfilDe, NOMES_PERFIS } from "../src/perfis/index.js";
 
 function armazenamento() {
   const mapa = new Map();
@@ -21,13 +22,13 @@ function montar(respostas) {
   const enviados = [], avisos = [], chamadas = [], contatos = [];
   const storage = armazenamento();
   const relogio = { agora: 1_000_000 };
-  const conversa = new Conversa({ storage }, { DEBOUNCE_MS: "5000", NUMERO_ESCRITORIO: "5531996936688" }, {
+  const conversa = new Conversa({ storage }, { PERFIL: "nt-golpe-pix", DEBOUNCE_MS: "5000", NUMERO_ESCRITORIO: "5531996936688" }, {
     agora: () => relogio.agora,
     marcarLida: async () => {},
     registrar: async () => {},
     enviarTexto: async (_env, para, texto) => enviados.push({ para, texto }),
     enviarContato: async (_env, para, numero) => contatos.push({ para, numero }),
-    avisarAdvogada: async (_env, tel, dados) => avisos.push({ tel, dados }),
+    avisarResponsavel: async (_env, tel, dados) => avisos.push({ tel, dados }),
     responder: async (_env, historico) => {
       chamadas.push(structuredClone(historico));
       const r = respostas.shift();
@@ -112,6 +113,7 @@ test("falha da IA: tenta de novo e, depois de 3 falhas, avisa a advogada", async
 test("webhook: valida assinatura da Meta e encaminha mensagens e ecos", async () => {
   const chamadas = [];
   const env = {
+    PERFIL: "nt-golpe-pix",
     APP_SECRET: "segredo",
     CONVERSAS: {
       idFromName: (n) => n,
@@ -146,7 +148,7 @@ test("webhook: valida assinatura da Meta e encaminha mensagens e ecos", async ()
 });
 
 test("webhook: verificação GET e chave da 360dialog", async () => {
-  const env = { VERIFY_TOKEN: "abc", WEBHOOK_KEY: "k1", CONVERSAS: { idFromName: (n) => n, get: () => ({ fetch: async () => new Response("ok") }) } };
+  const env = { PERFIL: "nt-golpe-pix", VERIFY_TOKEN: "abc", WEBHOOK_KEY: "k1", CONVERSAS: { idFromName: (n) => n, get: () => ({ fetch: async () => new Response("ok") }) } };
   const r = await worker.fetch(new Request("https://x/webhook?hub.mode=subscribe&hub.verify_token=abc&hub.challenge=42"), env);
   assert.equal(await r.text(), "42");
   const sem = await worker.fetch(new Request("https://x/webhook", { method: "POST", body: "{}" }), env);
@@ -170,7 +172,7 @@ test("chamada ao Claude: parâmetros e leitura da ferramenta", async () => {
     stop_reason: "tool_use",
     content: [{ type: "thinking", thinking: "" }, { type: "text", text: "Obrigada!" }, { type: "tool_use", name: "avisar_advogada", input: aviso }],
   }; } } } };
-  const r = await responder({}, [{ role: "user", content: "oi" }], { cliente, agora: new Date("2026-09-27T15:00:00Z") });
+  const r = await responder({ PERFIL: "nt-golpe-pix" }, [{ role: "user", content: "oi" }], { cliente, agora: new Date("2026-09-27T15:00:00Z") });
   assert.equal(r.texto, "Obrigada!");
   assert.equal(r.aviso.nome, "Ana");
   assert.equal(pedido.model, "claude-opus-5");
@@ -178,17 +180,21 @@ test("chamada ao Claude: parâmetros e leitura da ferramenta", async () => {
   assert.equal(pedido.messages.at(-1).role, "system");
   assert.match(pedido.messages.at(-1).content, /27\/09\/2026/);
 
-  const recusa = await responder({}, [{ role: "user", content: "oi" }], { cliente: { beta: { messages: { create: async () => ({ stop_reason: "refusal", content: [] }) } } } });
+  const recusa = await responder({ PERFIL: "nt-golpe-pix" }, [{ role: "user", content: "oi" }], { cliente: { beta: { messages: { create: async () => ({ stop_reason: "refusal", content: [] }) } } } });
   assert.equal(recusa.recusado, true);
 });
 
 test("texto do aviso traz o link da conversa", () => {
-  assert.match(textoAviso("5531900000000", aviso), /wa\.me\/5531900000000/);
+  const texto = textoAviso(perfilDe({ PERFIL: "nt-golpe-pix" }), "5531900000000", aviso);
+  assert.match(texto, /wa\.me\/5531900000000/);
+  assert.match(texto, /^\*Novo contato – golpe do Pix\*/);
+  assert.match(texto, /Contestou no banco\/MED: não/);
 });
 
 test("página de diagnóstico exige a chave e lista as ocorrências", async () => {
   const eventos = [];
   const env = {
+    PERFIL: "nt-golpe-pix",
     VERIFY_TOKEN: "abc",
     DIAGNOSTICO: {
       idFromName: (n) => n,
@@ -204,7 +210,9 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
   assert.equal((await worker.fetch(new Request("https://x/diagnostico?chave=errada"), env)).status, 403);
   await worker.fetch(new Request("https://x/webhook", { method: "POST", body: "{}" }), env);
   const r = await worker.fetch(new Request("https://x/diagnostico?chave=abc"), env);
-  assert.match(await r.text(), /assinatura inválida/);
+  const pagina = await r.text();
+  assert.match(pagina, /assinatura inválida/);
+  assert.match(pagina, /^Perfil: nt-golpe-pix/);
   const z = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=+55 17 99772-2969"), env);
   assert.match(await z.text(), /zerada \(final 2969, com e sem o 9\)/);
   const u = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=ultimo"), env);
@@ -248,4 +256,58 @@ test("zerar considera o número com e sem o 9 extra", () => {
   assert.deepEqual(variantes("5531988887348"), ["5531988887348", "553188887348"]);
   assert.deepEqual(variantes("553188887348"), ["553188887348", "5531988887348"]);
   assert.deepEqual(variantes("12345"), ["12345"]);
+});
+
+test("perfil inexistente: erro claro, e o webhook pede para a Meta reenviar", async () => {
+  assert.throws(() => perfilDe({ PERFIL: "nao-existe" }), /PERFIL "nao-existe" não existe. Opções: nt-golpe-pix/);
+  assert.throws(() => perfilDe({}), /PERFIL "" não existe/);
+  const env = { WEBHOOK_KEY: "k1", CONVERSAS: { idFromName: (n) => n, get: () => ({ fetch: async () => new Response("ok") }) } };
+  const r = await worker.fetch(new Request("https://x/webhook?chave=k1", { method: "POST", body: "{}" }), env);
+  assert.equal(r.status, 500);
+});
+
+test("todos os perfis: ferramenta válida, textos preenchidos e sem dados de outro cliente", () => {
+  for (const id of NOMES_PERFIS) {
+    const p = perfilDe({ PERFIL: id });
+    assert.equal(p.id, id);
+    const { properties, required } = p.ferramenta.input_schema;
+    assert.deepEqual(required, Object.keys(properties));
+    for (const chave of ["nome", "cidade", "resumo", "prioridade", "motivo"]) assert.ok(properties[chave], `${id}: ${chave}`);
+    assert.match(p.systemPrompt, new RegExp(p.ferramenta.name));
+    for (const t of [p.mensagens.final, p.mensagens.erro, p.mensagens.jaEncaminhado, p.mensagens.contato("(11) 91234-5678")]) {
+      assert.ok(t.length > 20, id);
+      assert.doesNotMatch(t, /undefined|\$\{/, id);
+    }
+    assert.match(p.mensagens.contato("(11) 91234-5678"), /\(11\) 91234-5678/);
+    assert.doesNotMatch(p.systemPrompt, /undefined|\$\{/, id);
+    if (id !== "nt-golpe-pix") assert.doesNotMatch(p.systemPrompt + JSON.stringify(p.mensagens.final), /Nayara|Pix/, id);
+    const falha = p.avisoDeFalha("Ana");
+    assert.equal(falha.nome, "Ana");
+    assert.equal(falha.motivo, "falha_do_robo");
+    for (const c of p.camposAviso) assert.ok(falha[c.chave], `${id}: ${c.chave}`);
+  }
+});
+
+test("modelo de advocacia: concordância e campos do aviso", () => {
+  const p = perfilDe({ PERFIL: "demo-trabalhista" });
+  assert.match(p.systemPrompt, /^Você é a assistente virtual do escritório da advogada Ana Exemplo \(Escritório Demonstração, OAB\/UF 000.000\)/);
+  assert.match(p.systemPrompt, /depende da análise da advogada\./);
+  assert.match(p.mensagens.erro, /A advogada Ana Exemplo foi avisada/);
+  const texto = textoAviso(p, "5511900000000", { ...p.avisoDeFalha("Bia"), carteira: "não", prioridade: "alta", motivo: "triagem_completa" });
+  assert.match(texto, /^\*Novo contato – direitos trabalhistas\* \(prioridade alta, triagem completa\)/);
+  assert.match(texto, /Carteira assinada: não/);
+});
+
+test("cartão de contato usa os dados do perfil", async () => {
+  let corpo;
+  const fetchOriginal = globalThis.fetch;
+  globalThis.fetch = async (_url, init) => { corpo = JSON.parse(init.body); return Response.json({}); };
+  try {
+    await enviarContato({ PERFIL: "demo-trabalhista", WHATSAPP_TOKEN: "t", PHONE_NUMBER_ID: "1" }, "55", "5511912345678");
+    assert.equal(corpo.contacts[0].name.formatted_name, "Ana Exemplo – Escritório Demonstração");
+    assert.equal(corpo.contacts[0].name.last_name, "Exemplo");
+    assert.equal(corpo.contacts[0].org.company, "Escritório Demonstração");
+  } finally {
+    globalThis.fetch = fetchOriginal;
+  }
 });

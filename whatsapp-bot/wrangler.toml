@@ -24,6 +24,8 @@ tag = "v2"
 new_sqlite_classes = ["Diagnostico"]
 
 [vars]
+# Qual cliente/roteiro este robô atende (ver src/perfis/index.js)
+PERFIL = "nt-golpe-pix"
 # "meta" (Cloud API direta, número só do robô) ou "360dialog" (coexistência com o app)
 WHATSAPP_PROVIDER = "meta"
 # ID do número do robô +55 (17) 99772-2969 (conta WhatsApp Business 29028500753400413)

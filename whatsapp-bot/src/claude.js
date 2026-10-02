@@ -1,5 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { SYSTEM_PROMPT, FERRAMENTA_AVISAR } from "./prompt.js";
+import { perfilDe } from "./perfis/index.js";
 
 export function agoraEmBrasilia(data = new Date()) {
   return new Intl.DateTimeFormat("pt-BR", {
@@ -11,8 +11,9 @@ export function agoraEmBrasilia(data = new Date()) {
 
 // Gera a próxima resposta da assistente.
 // historico: [{ role: "user" | "assistant", content: string }], terminando em "user".
-// Retorna { texto, aviso, recusado }: aviso é o input de avisar_advogada, se usada.
+// Retorna { texto, aviso, recusado }: aviso é o input da ferramenta do perfil, se usada.
 export async function responder(env, historico, { cliente, agora = new Date() } = {}) {
+  const perfil = perfilDe(env);
   const anthropic = cliente ?? new Anthropic({ apiKey: String(env.ANTHROPIC_API_KEY ?? "").trim() });
 
   const resposta = await anthropic.beta.messages.create({
@@ -22,8 +23,8 @@ export async function responder(env, historico, { cliente, agora = new Date() } 
     fallbacks: "default",
     thinking: { type: "adaptive" },
     output_config: { effort: env.CLAUDE_EFFORT || "medium" },
-    system: [{ type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } }],
-    tools: [FERRAMENTA_AVISAR],
+    system: [{ type: "text", text: perfil.systemPrompt, cache_control: { type: "ephemeral" } }],
+    tools: [perfil.ferramenta],
     messages: [
       ...historico,
       // Fica fora do prompt fixo para não invalidar o cache; não é guardada no histórico.
@@ -39,7 +40,7 @@ export async function responder(env, historico, { cliente, agora = new Date() } 
   let aviso = null;
   for (const bloco of resposta.content) {
     if (bloco.type === "text") texto += bloco.text;
-    if (bloco.type === "tool_use" && bloco.name === FERRAMENTA_AVISAR.name) {
+    if (bloco.type === "tool_use" && bloco.name === perfil.ferramenta.name) {
       aviso = typeof bloco.input === "string" ? JSON.parse(bloco.input) : bloco.input;
     }
   }

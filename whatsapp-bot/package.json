@@ -2,7 +2,7 @@
   "name": "whatsapp-bot",
   "private": true,
   "type": "module",
-  "description": "Atendimento automático (triagem) do WhatsApp da NT Advocacia – campanha golpe do Pix",
+  "description": "Atendimento automático (triagem) no WhatsApp, configurável por cliente (perfis)",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",

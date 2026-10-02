@@ -2,6 +2,7 @@
 export { Conversa } from "./conversa.js";
 export { Diagnostico } from "./diagnostico.js";
 import { registrar, lerDiagnostico, anotarUltimo, lerUltimo } from "./diagnostico.js";
+import { perfilDe } from "./perfis/index.js";
 
 export default {
   async fetch(request, env) {
@@ -25,9 +26,9 @@ export default {
         await registrar(env, `conversa de teste zerada (final ${zerar.slice(-4)}, com e sem o 9)`);
       }
       const eventos = await lerDiagnostico(env);
-      const texto = eventos.length
+      const texto = `${descreverPerfil(env)}\n\n` + (eventos.length
         ? eventos.map((e) => `${e.quando}  ${e.etapa}${e.detalhe ? "\n    " + e.detalhe : ""}`).join("\n")
-        : "Nenhuma ocorrência registrada ainda.";
+        : "Nenhuma ocorrência registrada ainda.");
       return new Response(texto, { headers: { "Content-Type": "text/plain; charset=utf-8" } });
     }
     if (url.pathname !== "/webhook") return new Response("não encontrado", { status: 404 });
@@ -56,6 +57,15 @@ export default {
       return new Response("json inválido", { status: 400 });
     }
 
+    // Sem perfil válido o robô não sabe quem é. Responde erro para a Meta
+    // reenviar a mensagem depois que a configuração for corrigida.
+    try {
+      perfilDe(env);
+    } catch (erro) {
+      await registrar(env, "configuração inválida", erro.message);
+      return new Response("perfil inválido", { status: 500 });
+    }
+
     const eventos = extrairEventos(payload, env);
     // Avisos de "entregue/lida" chegam o tempo todo; só registra mensagens de clientes.
     const entradas = eventos.filter((ev) => ev.tipo === "entrada");
@@ -80,6 +90,14 @@ export default {
     return new Response("ok");
   },
 };
+
+function descreverPerfil(env) {
+  try {
+    return `Perfil: ${perfilDe(env).id}`;
+  } catch (erro) {
+    return `Perfil inválido: ${erro.message}`;
+  }
+}
 
 // Meta assina o corpo com o App Secret (cabeçalho X-Hub-Signature-256).
 // A 360dialog não assina: nesse caso o endereço do webhook leva uma chave secreta (?chave=).

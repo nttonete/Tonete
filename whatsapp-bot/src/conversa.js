@@ -2,9 +2,10 @@
 // junta mensagens mandadas em sequência e processa uma resposta por vez.
 import { DurableObject } from "cloudflare:workers";
 import { responder } from "./claude.js";
-import { enviarTexto, enviarContato, marcarLida, avisarAdvogada } from "./whatsapp.js";
+import { enviarTexto, enviarContato, marcarLida, avisarResponsavel } from "./whatsapp.js";
 import { registrar } from "./diagnostico.js";
-import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, mensagemContato } from "./prompt.js";
+import { perfilDe } from "./perfis/index.js";
+import { numeroFormatado } from "./perfis/base.js";
 
 const TRINTA_DIAS = 30 * 24 * 60 * 60 * 1000;
 const MAX_HISTORICO = 60;
@@ -30,7 +31,7 @@ function estadoInicial() {
 export class Conversa extends DurableObject {
   constructor(ctx, env, deps = {}) {
     super(ctx, env);
-    this.deps = { responder, enviarTexto, enviarContato, marcarLida, avisarAdvogada, registrar, agora: () => Date.now(), ...deps };
+    this.deps = { responder, enviarTexto, enviarContato, marcarLida, avisarResponsavel, registrar, agora: () => Date.now(), ...deps };
     this.dados = null;
   }
 
@@ -85,7 +86,7 @@ export class Conversa extends DurableObject {
     this.dados = null;
   }
 
-  // Alguém respondeu pelo app WhatsApp Business: a advogada assumiu a conversa.
+  // Alguém respondeu pelo app WhatsApp Business: o responsável assumiu a conversa.
   async eco() {
     const d = await this.carregar();
     d.status = "humano";
@@ -122,14 +123,15 @@ export class Conversa extends DurableObject {
     }
     d.falhas = 0;
 
+    const perfil = perfilDe(this.env);
     let { texto, aviso } = resultado;
     if (resultado.recusado || (!texto && !aviso)) {
-      texto = MENSAGEM_ERRO;
-      aviso = avisoDeFalha(d.nome);
+      texto = perfil.mensagens.erro;
+      aviso = perfil.avisoDeFalha(d.nome);
     }
-    if (!texto) texto = MENSAGEM_FINAL_PADRAO;
+    if (!texto) texto = perfil.mensagens.final;
 
-    // A advogada pode ter assumido enquanto a resposta era gerada.
+    // O responsável pode ter assumido enquanto a resposta era gerada.
     if (d.status !== "robo") return;
 
     d.historico = cortar([...d.historico, mensagemCliente]);
@@ -148,10 +150,10 @@ export class Conversa extends DurableObject {
     if (aviso) {
       await this.enviarLink(d.telefone);
       try {
-        await this.deps.avisarAdvogada(this.env, d.telefone, aviso);
+        await this.deps.avisarResponsavel(this.env, d.telefone, aviso);
       } catch (erro) {
-        console.error("Falha ao avisar a advogada:", erro);
-        await this.deps.registrar(this.env, "erro ao avisar a advogada", erro?.message ?? erro);
+        console.error("Falha ao avisar o responsável:", erro);
+        await this.deps.registrar(this.env, "erro ao avisar o responsável", erro?.message ?? erro);
       }
     }
   }
@@ -168,14 +170,15 @@ export class Conversa extends DurableObject {
     }
     d.ultimoLembrete = agora;
     await this.salvar();
-    await this.enviar(d.telefone, MENSAGEM_JA_ENCAMINHADO);
+    await this.enviar(d.telefone, perfilDe(this.env).mensagens.jaEncaminhado);
     await this.enviarLink(d.telefone);
   }
 
   // Passa o WhatsApp do escritório: número por extenso e cartão de contato.
   async enviarLink(telefone) {
     if (!this.env.NUMERO_ESCRITORIO) return;
-    if (!(await this.enviar(telefone, mensagemContato(this.env.NUMERO_ESCRITORIO)))) return;
+    const texto = perfilDe(this.env).mensagens.contato(numeroFormatado(this.env.NUMERO_ESCRITORIO));
+    if (!(await this.enviar(telefone, texto))) return;
     try {
       await this.deps.enviarContato(this.env, telefone, this.env.NUMERO_ESCRITORIO);
     } catch (erro) {
@@ -195,22 +198,6 @@ export class Conversa extends DurableObject {
       return false;
     }
   }
-}
-
-function avisoDeFalha(nome) {
-  return {
-    nome: nome || "não informado",
-    cidade: "não informado",
-    tipo_golpe: "não informado",
-    data_golpe: "não informado",
-    valor: "não informado",
-    banco: "não informado",
-    contestou_banco: "não informado",
-    boletim_ocorrencia: "não informado",
-    resumo: "O robô não conseguiu responder este contato. Veja a conversa no WhatsApp.",
-    prioridade: "normal",
-    motivo: "falha_do_robo",
-  };
 }
 
 // Mantém o histórico curto e sempre começando por mensagem do cliente.

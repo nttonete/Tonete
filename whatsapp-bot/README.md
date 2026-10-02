@@ -14,13 +14,42 @@ Robô de triagem para a campanha de golpe do Pix. Ele funciona num número de Wh
 
 Ele também avisa na hora quando a pessoa pede atendimento humano, quer contratar, pergunta sobre honorários ou quando o caso é urgente.
 
-As regras da OAB estão nas instruções do robô (`src/prompt.js`):
+As regras da OAB estão nas instruções do robô (`src/perfis/nt-golpe-pix.js`):
 - não dá parecer nem promete resultado;
 - não fala de honorários;
 - nunca pede senha nem pagamento;
 - não cita leis nem decisões.
 
 Para mudar o tom ou as perguntas, edite esse arquivo e publique de novo.
+
+## Perfis: o mesmo robô para outros clientes
+
+Tudo que muda de um cliente para outro fica num **perfil** em `src/perfis/`:
+- as instruções da IA;
+- as informações que a triagem coleta e que aparecem no aviso;
+- os textos fixos (mensagem final, erro, contato do escritório);
+- o cartão de contato.
+
+O perfil em uso é escolhido em `PERFIL`, no `wrangler.toml`. O da NT Advocacia é `nt-golpe-pix`. A página de diagnóstico mostra o perfil em uso na primeira linha.
+
+Perfis disponíveis:
+- `nt-golpe-pix`: NT Advocacia, campanha do golpe do Pix (texto escrito à mão);
+- `demo-trabalhista`: escritório fictício, para demonstrar o robô a interessados.
+
+### Cliente novo (advocacia)
+
+1. Copie `src/perfis/demo-trabalhista.js` com o nome do cliente.
+2. Preencha os dados no modelo `perfilAdvocacia`. As regras da OAB e o estilo já vêm prontos em `src/perfis/modelos/advocacia.js`. Os dados são:
+   - escritório, registro na OAB, nome e título (advogada ou advogado);
+   - tema da campanha e quem costuma escrever;
+   - perguntas da triagem, orientações gerais e o mínimo para passar o caso adiante;
+   - quando o caso é de prioridade alta ou baixa;
+   - campos do aviso.
+3. Registre o perfil em `src/perfis/index.js`.
+4. Rode `npm test`. Um teste confere todos os perfis, inclusive se algum texto ficou com dados de outro cliente.
+5. Publique com `PERFIL` apontando para o novo perfil. Use um Worker e um número de WhatsApp para cada cliente.
+
+Para outras áreas (clínica, contabilidade), crie um modelo novo em `src/perfis/modelos/` seguindo o de advocacia, com as regras do conselho de cada profissão.
 
 ## Como funciona
 

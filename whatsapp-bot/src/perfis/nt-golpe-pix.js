@@ -1,8 +1,9 @@
-// Instruções do assistente de triagem da campanha "golpe do Pix".
-// O texto é fixo (sem data ou dados variáveis) para aproveitar o cache de prompt;
+// Perfil da NT Advocacia (Nayara Tonete): triagem da campanha "golpe do Pix".
+// O texto das instruções é fixo (sem data ou dados variáveis) para aproveitar o cache de prompt;
 // a data de hoje entra a cada chamada como mensagem de sistema no fim da conversa.
+import { criarPerfil } from "./base.js";
 
-export const SYSTEM_PROMPT = `Você é a assistente virtual do escritório da advogada Nayara Tonete (NT Advocacia, OAB/SP 479.459). Você atende pelo WhatsApp pessoas que chegaram por um anúncio sobre golpes do Pix e faz a triagem inicial do caso para a advogada.
+const SYSTEM_PROMPT = `Você é a assistente virtual do escritório da advogada Nayara Tonete (NT Advocacia, OAB/SP 479.459). Você atende pelo WhatsApp pessoas que chegaram por um anúncio sobre golpes do Pix e faz a triagem inicial do caso para a advogada.
 
 # Quem escreve
 Em geral, alguém que acabou de perder dinheiro num golpe: falso parente ou amigo pedindo dinheiro, falsa central do banco, compra ou venda falsa na internet, falso investimento, falso emprego, invasão de conta ou celular roubado, Pix feito sob ameaça, cobrança falsa. A pessoa costuma estar nervosa, com vergonha ou com pressa. Acolha sem julgar e nunca sugira que ela foi descuidada.
@@ -51,56 +52,36 @@ Prioridade: "alta" se o golpe foi há poucos dias ou semanas (ainda dá tempo de
 - Na primeira resposta, cumprimente, diga que é a assistente virtual do escritório da advogada Nayara Tonete e peça que a pessoa conte o que aconteceu.
 - Se receber "[áudio]", diga que ainda não consegue ouvir áudios e peça, com gentileza, que a pessoa escreva; a advogada também terá acesso ao áudio. Se receber "[imagem]" ou "[documento]", agradeça e diga que ficará guardado para a advogada.`;
 
-export const FERRAMENTA_AVISAR = {
-  name: "avisar_advogada",
-  description:
-    "Envia à advogada Nayara o resumo da triagem e passa a conversa para ela. Use quando tiver as informações essenciais do caso, quando a pessoa pedir atendimento humano, quiser contratar ou perguntar de honorários, em caso de urgência, ou quando o assunto for fora do escopo. Depois dessa ferramenta o robô para de responder esta pessoa.",
-  strict: true,
-  input_schema: {
-    type: "object",
-    additionalProperties: false,
-    properties: {
-      nome: { type: "string", description: "Nome informado, ou \"não informado\"." },
-      cidade: { type: "string", description: "Cidade/UF, ou \"não informado\"." },
-      tipo_golpe: { type: "string", description: "Tipo de golpe em poucas palavras." },
-      data_golpe: { type: "string", description: "Data ou período aproximado, como a pessoa informou." },
-      valor: { type: "string", description: "Valor total e número de Pix, ou \"não informado\"." },
-      banco: { type: "string", description: "Banco de origem (e de destino, se souber)." },
-      contestou_banco: { type: "string", description: "Se avisou o banco / MED e a resposta, ou \"não informado\"." },
-      boletim_ocorrencia: { type: "string", description: "\"sim\", \"não\" ou \"não informado\"." },
-      resumo: { type: "string", description: "Resumo do caso em até 4 frases, para a advogada." },
-      prioridade: { type: "string", enum: ["alta", "normal", "baixa"] },
-      motivo: {
-        type: "string",
-        enum: ["triagem_completa", "pediu_atendimento_humano", "urgente", "fora_do_escopo"],
-      },
-    },
-    required: [
-      "nome", "cidade", "tipo_golpe", "data_golpe", "valor", "banco",
-      "contestou_banco", "boletim_ocorrencia", "resumo", "prioridade", "motivo",
-    ],
-  },
-};
-
-export const MENSAGEM_FINAL_PADRAO =
-  "Obrigada por me contar. A advogada Nayara já recebeu o resumo do seu caso e o atendimento continua com ela no WhatsApp do escritório. Guarde os comprovantes do Pix e os prints da conversa com o golpista.";
-
-export const MENSAGEM_ERRO =
-  "Desculpe, tive um problema para responder agora. A advogada Nayara foi avisada e pode continuar o atendimento com você no WhatsApp do escritório.";
-
-// Este número é só da triagem: o atendimento segue no WhatsApp do escritório.
-// O link já abre a conversa com uma mensagem pronta, para o cliente só tocar em enviar.
 // Sem links: quem acabou de cair num golpe desconfia (com razão) de links.
 // Mostra o número por extenso, lembra onde ele aparece publicamente, e o cartão
 // de contato do WhatsApp vai logo em seguida.
-export function numeroFormatado(numero) {
-  const d = String(numero).replace(/\D/g, "").replace(/^55/, "");
-  return d.length === 11 ? `(${d.slice(0, 2)}) ${d.slice(2, 7)}-${d.slice(7)}` : `+${numero}`;
-}
-
-export function mensagemContato(numeroEscritorio) {
-  return `Para continuar com a advogada Nayara, é só chamar no WhatsApp do escritório: *${numeroFormatado(numeroEscritorio)}*. É o mesmo número do Instagram @nayaratonete.adv. Vou te mandar o contato aqui embaixo: toque nele e depois em "Mensagem". O atendimento é em horário comercial.`;
-}
-
-export const MENSAGEM_JA_ENCAMINHADO =
-  "Este número é só para a triagem inicial, e o seu caso já foi passado para a advogada Nayara. Para continuar, fale com ela pelo WhatsApp do escritório.";
+export default criarPerfil({
+  id: "nt-golpe-pix",
+  systemPrompt: SYSTEM_PROMPT,
+  tituloAviso: "golpe do Pix",
+  ferramenta: {
+    nome: "avisar_advogada",
+    descricao:
+      "Envia à advogada Nayara o resumo da triagem e passa a conversa para ela. Use quando tiver as informações essenciais do caso, quando a pessoa pedir atendimento humano, quiser contratar ou perguntar de honorários, em caso de urgência, ou quando o assunto for fora do escopo. Depois dessa ferramenta o robô para de responder esta pessoa.",
+  },
+  descricaoResumo: "Resumo do caso em até 4 frases, para a advogada.",
+  campos: [
+    { chave: "tipo_golpe", rotulo: "Golpe", descricao: "Tipo de golpe em poucas palavras." },
+    { chave: "data_golpe", rotulo: "Quando", descricao: "Data ou período aproximado, como a pessoa informou." },
+    { chave: "valor", rotulo: "Valor", descricao: "Valor total e número de Pix, ou \"não informado\"." },
+    { chave: "banco", rotulo: "Banco", descricao: "Banco de origem (e de destino, se souber)." },
+    { chave: "contestou_banco", rotulo: "Contestou no banco/MED", descricao: "Se avisou o banco / MED e a resposta, ou \"não informado\"." },
+    { chave: "boletim_ocorrencia", rotulo: "B.O.", descricao: "\"sim\", \"não\" ou \"não informado\"." },
+  ],
+  cartao: { nome: "Nayara Tonete – NT Advocacia", primeiroNome: "Nayara", sobrenome: "Tonete", empresa: "NT Advocacia" },
+  mensagens: {
+    final:
+      "Obrigada por me contar. A advogada Nayara já recebeu o resumo do seu caso e o atendimento continua com ela no WhatsApp do escritório. Guarde os comprovantes do Pix e os prints da conversa com o golpista.",
+    erro:
+      "Desculpe, tive um problema para responder agora. A advogada Nayara foi avisada e pode continuar o atendimento com você no WhatsApp do escritório.",
+    jaEncaminhado:
+      "Este número é só para a triagem inicial, e o seu caso já foi passado para a advogada Nayara. Para continuar, fale com ela pelo WhatsApp do escritório.",
+    contato: (numero) =>
+      `Para continuar com a advogada Nayara, é só chamar no WhatsApp do escritório: *${numero}*. É o mesmo número do Instagram @nayaratonete.adv. Vou te mandar o contato aqui embaixo: toque nele e depois em "Mensagem". O atendimento é em horário comercial.`,
+  },
+});
