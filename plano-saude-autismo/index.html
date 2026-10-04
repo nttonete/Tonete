@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18475335228"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18475335228');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Plano de saúde e autismo</title>
+<meta name="description" content="O plano de saúde negou ou limitou a terapia da pessoa autista? Entenda o que as regras da ANS garantem (ABA, fono, TO, psicologia) e como funciona a análise. Nayara Tonete, advogada, OAB/SP 479.459.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap"></noscript>
+<style>
+  :root {
+    --cafe: #573B2C;
+    --cafe-fundo: #573B2C;
+    --dourado: #A68664;
+    --dourado-forte: #8F7253;
+    --creme: #F1E1D1;
+    --papel: #FAF7F2;
+    --cartao: #FFFFFF;
+    --tinta: #3A2A22;
+    --tinta-suave: #6E5A4E;
+    --linha: #E3D3C2;
+    --sobre-cafe: #F1E1D1;
+    --sobre-cafe-suave: rgba(241, 225, 209, 0.78);
+    --serif: "Cormorant Garamond", "Times New Roman", Georgia, serif;
+    --sans: "Poppins", "Segoe UI", -apple-system, Arial, sans-serif;
+    --largura: 1120px;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --cafe: #E6CDB3;
+      --cafe-fundo: #2E1F17;
+      --dourado: #C9A882;
+      --dourado-forte: #B39068;
+      --creme: #2A1D16;
+      --papel: #1C140F;
+      --cartao: #241A14;
+      --tinta: #EFE3D6;
+      --tinta-suave: #BFAE9F;
+      --linha: #3E2E24;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --cafe: #E6CDB3;
+    --cafe-fundo: #2E1F17;
+    --dourado: #C9A882;
+    --dourado-forte: #B39068;
+    --creme: #2A1D16;
+    --papel: #1C140F;
+    --cartao: #241A14;
+    --tinta: #EFE3D6;
+    --tinta-suave: #BFAE9F;
+    --linha: #3E2E24;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0;
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: var(--sans);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--dourado); outline-offset: 3px; }
+  h1, h2, h3 { text-wrap: balance; margin: 0; }
+  p { margin: 0; }
+
+  .envoltorio {
+    width: 100%;
+    max-width: var(--largura);
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+  @media (max-width: 480px) { .envoltorio { padding-inline: 18px; } }
+
+  .rotulo {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--dourado);
+  }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(30px, 4vw, 42px);
+    line-height: 1.15;
+    color: var(--cafe);
+  }
+  .intro { max-width: 62ch; color: var(--tinta-suave); }
+  .cabeca-secao { display: grid; gap: 14px; margin-bottom: 44px; }
+
+  .botao {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 26px;
+    border-radius: 2px;
+    background: #A68664;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .2s ease;
+  }
+  .botao:hover { background: #8F7253; }
+  .botao svg { width: 18px; height: 18px; flex: none; fill: currentColor; }
+  .botao--linha {
+    background: transparent;
+    color: var(--sobre-cafe);
+    border: 1px solid rgba(241, 225, 209, 0.5);
+  }
+  .botao--linha:hover { background: rgba(241, 225, 209, 0.1); }
+
+  .faixa { height: 4px; background: #573B2C; }
+
+  /* Cabeçalho */
+  .cabecalho {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 10;
+    background: var(--papel);
+    border-bottom: 1px solid var(--linha);
+  }
+  .cabecalho .envoltorio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-block: 14px;
+  }
+  .marca { text-decoration: none; display: flex; flex-direction: column; line-height: 1.2; }
+  .marca__nome { font-weight: 500; font-size: 16px; letter-spacing: 0.3em; color: var(--cafe); }
+  .marca__cargo { font-size: 10px; letter-spacing: 0.42em; color: var(--dourado); margin-top: 3px; }
+  .menu { display: flex; align-items: center; gap: 26px; }
+  .menu a:not(.botao) { font-size: 13px; font-weight: 400; color: var(--tinta-suave); text-decoration: none; }
+  .menu a:not(.botao):hover { color: var(--cafe); }
+  .menu .botao { padding: 10px 18px; font-size: 12px; }
+  @media (max-width: 860px) { .menu a:not(.botao) { display: none; } }
+  @media (max-width: 420px) { .menu .botao span { display: none; } .menu .botao { padding: 10px 12px; } }
+
+  /* Abertura */
+  .abertura { background: var(--cafe-fundo); color: var(--sobre-cafe); }
+  .abertura .envoltorio {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: 56px;
+    align-items: center;
+    padding-block: 80px 88px;
+  }
+  @media (max-width: 900px) { .abertura .envoltorio { grid-template-columns: 1fr; gap: 44px; padding-block: 56px 64px; } }
+  .abertura__texto { display: grid; gap: 22px; }
+  .abertura .rotulo { color: #C9AE8C; }
+  .abertura h1 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(36px, 5.2vw, 58px);
+    line-height: 1.08;
+    color: #FAF7F2;
+  }
+  .abertura h1 em { font-style: italic; color: #C9AE8C; }
+  .abertura__sub { max-width: 54ch; color: var(--sobre-cafe-suave); font-size: 17px; }
+  .acoes { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 6px; }
+
+  /* Ficha da declaração: o detalhe do assunto */
+  .ficha {
+    background: #FAF7F2;
+    color: #3A2A22;
+    border-radius: 3px;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+    overflow: hidden;
+    font-size: 14px;
+  }
+  .ficha__topo {
+    background: #EDE3D7;
+    border-bottom: 1px solid #DCCBB8;
+    padding: 12px 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #6E5A4E;
+    font-weight: 500;
+  }
+  .ficha__linha {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 6px 16px;
+    padding: 18px;
+    border-bottom: 1px dashed #DCCBB8;
+  }
+  .ficha__linha:last-of-type { border-bottom: 0; }
+  .ficha__tipo { font-weight: 500; color: #573B2C; }
+  .ficha__valor { font-variant-numeric: tabular-nums; font-weight: 500; text-align: right; white-space: nowrap; }
+  .ficha__nota { grid-column: 1 / -1; color: #6E5A4E; font-size: 13px; line-height: 1.55; }
+  .ficha__linha--tese { background: #F4EADF; }
+  .ficha__linha--tese .ficha__valor { color: #7A5A3D; }
+  .ficha__rodape { padding: 12px 18px; font-size: 12px; color: #6E5A4E; background: #F4EEE6; border-top: 1px solid #DCCBB8; }
+
+  /* Seções */
+  .secao { padding-block: 88px; }
+  .secao--creme { background: var(--creme); }
+  @media (max-width: 700px) { .secao { padding-block: 64px; } }
+
+  /* Entenda: sequência real dos fatos */
+  .passos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--linha); }
+  .passo { padding: 28px 26px 8px 0; display: grid; gap: 12px; align-content: start; }
+  .passo + .passo { padding-left: 26px; border-left: 1px solid var(--linha); }
+  .passo__ano { font-family: var(--serif); font-size: 30px; color: var(--dourado); line-height: 1; }
+  .passo h3 { font-size: 16px; font-weight: 500; color: var(--cafe); line-height: 1.4; }
+  .passo p { font-size: 14.5px; color: var(--tinta-suave); }
+  @media (max-width: 900px) {
+    .passos { grid-template-columns: 1fr 1fr; }
+    .passo:nth-child(3) { padding-left: 0; border-left: 0; }
+    .passo:nth-child(n+3) { border-top: 1px solid var(--linha); }
+  }
+  @media (max-width: 560px) {
+    .passos { grid-template-columns: 1fr; }
+    .passo, .passo + .passo { padding: 24px 0 8px; border-left: 0; }
+    .passo + .passo { border-top: 1px solid var(--linha); }
+  }
+
+  .citacao {
+    margin: 56px 0 0;
+    padding: 30px 34px;
+    background: var(--cartao);
+    border: 1px solid var(--linha);
+    display: grid;
+    gap: 12px;
+  }
+  .citacao blockquote {
+    margin: 0;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(21px, 2.4vw, 26px);
+    line-height: 1.4;
+    color: var(--cafe);
+  }
+  .citacao figcaption { font-size: 13px; color: var(--tinta-suave); }
+
+  /* Deficiências */
+  .condicoes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--linha); border: 1px solid var(--linha); }
+  .condicao { background: var(--papel); padding: 26px; display: grid; gap: 8px; align-content: start; }
+  .condicao h3 { font-family: var(--serif); font-weight: 600; font-size: 23px; color: var(--cafe); line-height: 1.2; }
+  .condicao p { font-size: 14.5px; color: var(--tinta-suave); }
+  @media (max-width: 860px) { .condicoes { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px) { .condicoes { grid-template-columns: 1fr; } }
+  .aviso-cinza {
+    margin-top: 28px;
+    padding: 20px 24px;
+    border-left: 2px solid var(--dourado);
+    background: var(--cartao);
+    font-size: 14.5px;
+    color: var(--tinta-suave);
+    max-width: 80ch;
+  }
+  .aviso-cinza strong { color: var(--cafe); font-weight: 500; }
+
+  /* Quem pode / cuidados em duas colunas */
+  .duas { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+  @media (max-width: 860px) { .duas { grid-template-columns: 1fr; gap: 44px; } }
+  .lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  .lista li { display: grid; grid-template-columns: 22px 1fr; gap: 12px; font-size: 15px; }
+  .lista li::before {
+    content: "";
+    width: 12px; height: 12px;
+    margin-top: 7px;
+    border: 1px solid var(--dourado);
+    transform: rotate(45deg);
+  }
+  .lista strong { font-weight: 500; color: var(--cafe); }
+  .coluna { display: grid; gap: 22px; align-content: start; }
+  .coluna h3 { font-family: var(--serif); font-weight: 500; font-size: 28px; color: var(--cafe); }
+
+  .alerta {
+    background: var(--cafe-fundo);
+    color: var(--sobre-cafe);
+    padding: 32px;
+    display: grid;
+    gap: 14px;
+    align-content: start;
+  }
+  .alerta h3 { font-family: var(--serif); font-weight: 500; font-size: 28px; color: #FAF7F2; }
+  .alerta p { color: var(--sobre-cafe-suave); font-size: 15px; }
+
+  /* Atendimento: processo real, numerado */
+  .etapas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; counter-reset: etapa; }
+  .etapas li { counter-increment: etapa; display: grid; gap: 10px; align-content: start; }
+  .etapas li::before {
+    content: counter(etapa);
+    font-family: var(--serif);
+    font-size: 22px;
+    width: 44px; height: 44px;
+    display: grid; place-items: center;
+    border: 1px solid var(--dourado);
+    border-radius: 50%;
+    color: var(--cafe);
+  }
+  .etapas h3 { font-size: 16px; font-weight: 500; color: var(--cafe); }
+  .etapas p { font-size: 14.5px; color: var(--tinta-suave); }
+  @media (max-width: 900px) { .etapas { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px) { .etapas { grid-template-columns: 1fr; } }
+
+  /* Documentos */
+  .docs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; }
+  .docs li { padding: 16px 0 16px 36px; border-bottom: 1px solid var(--linha); position: relative; font-size: 15px; }
+  .docs li::before {
+    content: "";
+    position: absolute; left: 0; top: 20px;
+    width: 16px; height: 16px;
+    border: 1px solid var(--dourado);
+    border-radius: 2px;
+  }
+  .docs strong { font-weight: 500; color: var(--cafe); }
+  @media (max-width: 760px) { .docs { grid-template-columns: 1fr; } }
+  .lgpd { margin-top: 26px; font-size: 14px; color: var(--tinta-suave); max-width: 80ch; }
+
+  /* Quem atende */
+  .sobre { display: grid; grid-template-columns: 280px 1fr; gap: 64px; align-items: center; }
+  @media (max-width: 760px) { .sobre { grid-template-columns: 1fr; gap: 40px; } }
+  .retrato {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    max-width: 280px;
+    aspect-ratio: 4 / 5;
+  }
+  .retrato::before {
+    /* moldura dourada deslocada, como a linha do papel timbrado */
+    content: "";
+    position: absolute;
+    inset: 14px -14px -14px 14px;
+    border: 1px solid var(--dourado);
+  }
+  .retrato img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: var(--cartao);
+  }
+  @media (max-width: 760px) { .retrato { max-width: 240px; } }
+  .sobre__texto { display: grid; gap: 14px; max-width: 64ch; }
+  .sobre__texto p { color: var(--tinta-suave); }
+  .sobre__oab { font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--dourado); font-weight: 500; }
+
+  /* Perguntas */
+  .faq { display: grid; border-top: 1px solid var(--linha); max-width: 860px; }
+  .faq details { border-bottom: 1px solid var(--linha); }
+  .faq summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 22px 40px 22px 0;
+    position: relative;
+    font-weight: 500;
+    color: var(--cafe);
+    font-size: 16px;
+  }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after {
+    content: "+";
+    position: absolute; right: 4px; top: 16px;
+    font-family: var(--serif);
+    font-size: 28px;
+    color: var(--dourado);
+    transition: transform .2s ease;
+  }
+  .faq details[open] summary::after { transform: rotate(45deg); }
+  .faq details p { padding: 0 0 22px; color: var(--tinta-suave); font-size: 15px; max-width: 70ch; }
+  @media (prefers-reduced-motion: reduce) { .faq summary::after { transition: none; } }
+
+  /* Chamada final */
+  .chamada { background: var(--cafe-fundo); color: var(--sobre-cafe); text-align: center; }
+  .chamada .envoltorio { padding-block: 80px; display: grid; gap: 20px; justify-items: center; }
+  .chamada h2 { color: #FAF7F2; max-width: 22ch; }
+  .chamada p { color: var(--sobre-cafe-suave); max-width: 56ch; }
+
+  /* Rodapé */
+  .rodape { padding-block: 48px 40px; text-align: center; }
+  .rodape .envoltorio { display: grid; gap: 18px; justify-items: center; }
+  .rodape__linha { width: 66%; max-width: 520px; height: 1px; background: var(--dourado); }
+  .rodape__contatos { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; font-size: 13px; color: var(--cafe); }
+  .rodape__contatos a { text-decoration: none; }
+  .rodape__contatos a:hover { text-decoration: underline; }
+  .rodape__aviso { font-size: 12px; color: var(--tinta-suave); max-width: 80ch; }
+  /* Situações comuns (na ficha da abertura) */
+  .encaixe { list-style: none; margin: 0; padding: 8px 18px; display: grid; }
+  .encaixe li { padding: 12px 0 12px 26px; border-bottom: 1px dashed #DCCBB8; position: relative; font-size: 14.5px; line-height: 1.5; }
+  .encaixe li:last-child { border-bottom: 0; }
+  .encaixe li::before { content: ""; position: absolute; left: 2px; top: 18px; width: 9px; height: 9px; border: 1px solid #A68664; transform: rotate(45deg); }
+  .encaixe strong { font-weight: 500; color: #573B2C; }
+  /* Botão fixo de WhatsApp no celular */
+  .flutuante { display: none; }
+  @media (max-width: 760px) {
+    .flutuante {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      position: fixed; left: 16px; right: 16px; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); z-index: 20;
+      padding: 14px 18px; border-radius: 2px;
+      background: #A68664; color: #fff; text-decoration: none;
+      font-size: 14px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+    .flutuante svg { width: 18px; height: 18px; fill: currentColor; flex: none; }
+    body { padding-bottom: 84px; }
+  }
+</style>
+</head>
+
+<body>
+<div class="faixa" aria-hidden="true"></div>
+<header class="cabecalho">
+  <div class="envoltorio">
+    <a class="marca" href="#topo" aria-label="Nayara Tonete Advogada, início">
+      <span class="marca__nome">NAYARA TONETE</span>
+      <span class="marca__cargo">ADVOGADA</span>
+    </a>
+    <nav class="menu" aria-label="Seções da página">
+      <a href="#direitos">Direitos</a>
+      <a href="#negativa">Negativa</a>
+      <a href="#documentos">Documentos</a>
+      <a href="#perguntas">Perguntas</a>
+      <a class="botao" href="obrigado/" target="_blank" rel="noopener" aria-label="Tire suas dúvidas pelo WhatsApp">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.2h.01c5.46 0 9.9-4.45 9.9-9.91A9.86 9.86 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.04-.38-1.99-1.23a7.48 7.48 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+  <section class="abertura" aria-labelledby="titulo-principal">
+    <div class="envoltorio">
+      <div class="abertura__texto">
+        <p class="rotulo">Plano de saúde · Direitos da pessoa autista</p>
+        <h1 id="titulo-principal">O plano de saúde negou ou limitou a terapia do seu filho <em>autista</em>?</h1>
+        <p class="abertura__sub">Desde 2022, as regras da ANS garantem cobertura, sem limite de sessões, para o método ou técnica indicado pelo médico no tratamento do autismo, como ABA, fonoaudiologia, terapia ocupacional e psicologia. Quando a operadora nega, reduz ou demora, a família pode questionar.</p>
+        <div class="acoes">
+          <a class="botao" href="obrigado/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.2h.01c5.46 0 9.9-4.45 9.9-9.91A9.86 9.86 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.04-.38-1.99-1.23a7.48 7.48 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+            Tirar dúvidas pelo WhatsApp
+          </a>
+          <a class="botao botao--linha" href="#direitos">Entender os direitos</a>
+        </div>
+      </div>
+      <aside class="ficha" aria-labelledby="encaixe-titulo">
+        <div class="ficha__topo"><span id="encaixe-titulo">Situações comuns</span><span>Cabe análise</span></div>
+        <ul class="encaixe">
+          <li>A operadora <strong>negou</strong> a terapia prescrita, como ABA, Denver ou integração sensorial.</li>
+          <li>Autorizou <strong>menos sessões</strong> do que o médico indicou.</li>
+          <li>Não há <strong>profissional credenciado</strong> perto de casa ou a espera é longa.</li>
+          <li>O <strong>reembolso</strong> de terapias fora da rede foi recusado ou pago a menor.</li>
+          <li>O plano foi <strong>reajustado</strong> ou <strong>cancelado</strong> durante o tratamento.</li>
+        </ul>
+        <p class="ficha__rodape">Cada caso depende da análise individual dos documentos.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="secao" id="direitos" aria-labelledby="direitos-titulo">
+    <div class="envoltorio">
+      <div class="cabeca-secao">
+        <p class="rotulo">Entenda</p>
+        <h2 id="direitos-titulo">O que as regras garantem hoje</h2>
+        <p class="intro">A cobertura das terapias para pessoas autistas mudou bastante nos últimos anos. Estes são os marcos que sustentam os pedidos das famílias.</p>
+      </div>
+      <div class="passos">
+        <article class="passo">
+          <span class="passo__ano">2012</span>
+          <h3>Autismo é deficiência</h3>
+          <p>A lei reconhece a pessoa autista como pessoa com deficiência e garante atendimento por equipe multiprofissional.</p>
+        </article>
+        <article class="passo">
+          <span class="passo__ano">2022</span>
+          <h3>Método indicado pelo médico</h3>
+          <p>A ANS passou a exigir a cobertura do método ou técnica indicado pelo médico para os transtornos globais do desenvolvimento, incluindo o autismo.</p>
+        </article>
+        <article class="passo">
+          <span class="passo__ano">2022</span>
+          <h3>Fim do limite de sessões</h3>
+          <p>Deixou de haver número máximo de consultas com psicólogo, fonoaudiólogo, terapeuta ocupacional e fisioterapeuta.</p>
+        </article>
+        <article class="passo">
+          <span class="passo__ano">2022</span>
+          <h3>O rol não é o limite</h3>
+          <p>Uma lei de 2022 passou a permitir a cobertura de tratamentos fora da lista da ANS quando há comprovação científica ou recomendação técnica.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao secao--creme" id="negativa" aria-labelledby="negativa-titulo">
+    <div class="envoltorio duas">
+      <div class="coluna">
+        <p class="rotulo">Recebeu uma negativa?</p>
+        <h2 id="negativa-titulo">O que fazer primeiro</h2>
+        <ul class="lista">
+          <li><span>Peça à operadora a <strong>negativa por escrito</strong>, com o motivo, e anote os protocolos de cada ligação.</span></li>
+          <li><span>Guarde o <strong>relatório médico</strong> com o diagnóstico, a terapia indicada, a carga horária e a urgência.</span></li>
+          <li><span>Registre uma reclamação na <strong>ANS</strong>. Muitas vezes a operadora revê a decisão nessa fase.</span></li>
+          <li><span>Se continuar negando, é possível pedir na Justiça uma <strong>decisão urgente (liminar)</strong> para o tratamento começar enquanto o processo segue.</span></li>
+        </ul>
+      </div>
+      <aside class="alerta" aria-labelledby="alerta-titulo">
+        <p class="rotulo">Atenção</p>
+        <h3 id="alerta-titulo">Não interrompa o tratamento sem orientação</h3>
+        <p>Parar as terapias pode prejudicar o desenvolvimento e também a prova da necessidade do tratamento. Antes de desistir de uma sessão ou trocar de profissional, converse com o médico e entenda as opções.</p>
+        <p>Cada contrato e cada negativa têm detalhes próprios. Só a leitura dos documentos mostra os caminhos possíveis.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="secao" aria-labelledby="etapas-titulo">
+    <div class="envoltorio">
+      <div class="cabeca-secao">
+        <p class="rotulo">Atendimento</p>
+        <h2 id="etapas-titulo">Como funciona a análise</h2>
+      </div>
+      <ol class="etapas">
+        <li>
+          <h3>Primeira conversa</h3>
+          <p>Pelo WhatsApp, você conta o que o plano negou ou limitou e tira as dúvidas iniciais.</p>
+        </li>
+        <li>
+          <h3>Envio de documentos</h3>
+          <p>Relatório médico, negativa, contrato e comprovantes, por canal seguro.</p>
+        </li>
+        <li>
+          <h3>Estudo do caso</h3>
+          <p>Verificamos o contrato, as regras da ANS aplicáveis e os caminhos possíveis, com os riscos de cada um.</p>
+        </li>
+        <li>
+          <h3>Decisão da família</h3>
+          <p>Com tudo explicado, a família decide se quer seguir e por qual caminho.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="secao secao--creme" id="documentos" aria-labelledby="docs-titulo">
+    <div class="envoltorio">
+      <div class="cabeca-secao">
+        <p class="rotulo">Documentos</p>
+        <h2 id="docs-titulo">O que costuma ser pedido</h2>
+      </div>
+      <ul class="docs">
+        <li><strong>Relatório médico</strong> com CID, terapias indicadas, carga horária e justificativa</li>
+        <li><strong>Negativa da operadora</strong> por escrito, ou os protocolos de atendimento</li>
+        <li><strong>Carteirinha e contrato</strong> do plano de saúde</li>
+        <li><strong>Documento e CPF</strong> do paciente e do titular do plano</li>
+        <li><strong>Relatórios dos terapeutas</strong>, se o tratamento já começou</li>
+        <li><strong>Recibos e pedidos de reembolso</strong>, se houver</li>
+      </ul>
+      <p class="lgpd">Laudos e informações de saúde são dados sensíveis. Pedimos apenas o necessário para a análise e tratamos tudo com sigilo profissional.</p>
+    </div>
+  </section>
+
+  <section class="secao" id="sobre" aria-labelledby="sobre-titulo">
+    <div class="envoltorio sobre">
+      <figure class="retrato">
+        <img src="../img/nayara-tonete.jpg" width="560" height="700" decoding="async" alt="Retrato da advogada Nayara Tonete, de blazer preto, com a mão apoiada no queixo">
+      </figure>
+      <div class="sobre__texto">
+        <p class="rotulo">Quem atende</p>
+        <h2 id="sobre-titulo">Nayara Tonete</h2>
+        <p class="sobre__oab">Advogada · OAB/SP 479.459</p>
+        <p>Atuação dedicada aos direitos da pessoa com deficiência, incluindo cobertura de planos de saúde e Imposto de Renda. O atendimento é feito pela própria advogada, com linguagem clara e respeito ao tempo de cada família.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao secao--creme" id="perguntas" aria-labelledby="faq-titulo">
+    <div class="envoltorio">
+      <div class="cabeca-secao">
+        <p class="rotulo">Perguntas frequentes</p>
+        <h2 id="faq-titulo">Dúvidas que as famílias costumam trazer</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>O plano pode limitar o número de sessões de terapia?</summary>
+          <p>Desde 2022, as regras da ANS não permitem limitar o número de sessões com psicólogo, fonoaudiólogo, terapeuta ocupacional e fisioterapeuta. A quantidade segue a indicação do médico ou do profissional responsável.</p>
+        </details>
+        <details>
+          <summary>A terapia ABA precisa ser coberta?</summary>
+          <p>A ANS exige a cobertura do método ou técnica indicado pelo médico para o tratamento do autismo. O que costuma ser discutido é a forma de prestação, os profissionais e a carga horária, por isso o relatório médico é tão importante.</p>
+        </details>
+        <details>
+          <summary>O plano não tem profissional perto de casa. E agora?</summary>
+          <p>A operadora deve garantir o atendimento na rede em prazos definidos pela ANS. Quando não há profissional disponível, pode haver direito a atendimento fora da rede ou a reembolso, conforme o caso.</p>
+        </details>
+        <details>
+          <summary>Preciso esperar a resposta da ANS antes de ir à Justiça?</summary>
+          <p>Não é obrigatório. A reclamação na ANS costuma resolver parte dos casos, mas quando o tratamento é urgente pode ser pedida uma decisão liminar diretamente.</p>
+        </details>
+        <details>
+          <summary>E o reembolso de terapias que já paguei?</summary>
+          <p>Depende do contrato, da rede disponível e dos comprovantes. Guarde notas fiscais, recibos e os pedidos de reembolso feitos à operadora.</p>
+        </details>
+        <details>
+          <summary>O plano pode cancelar o contrato durante o tratamento?</summary>
+          <p>Há limites para o cancelamento durante tratamentos em andamento, e as regras variam conforme o tipo de plano (individual, familiar ou coletivo). A análise do contrato mostra o que se aplica.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="chamada" aria-labelledby="chamada-titulo">
+    <div class="envoltorio">
+      <p class="rotulo" style="color:#C9AE8C">Ficou com dúvida?</p>
+      <h2 id="chamada-titulo">Entenda o que pode ser feito no caso da sua família</h2>
+      <p>Cada caso depende da análise individual dos documentos. Pelo WhatsApp você explica a situação e recebe orientação sobre os próximos passos.</p>
+      <a class="botao" href="obrigado/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.2h.01c5.46 0 9.9-4.45 9.9-9.91A9.86 9.86 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.04-.38-1.99-1.23a7.48 7.48 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+        Falar pelo WhatsApp
+      </a>
+    </div>
+  </section>
+</main>
+
+<a class="flutuante" href="obrigado/" target="_blank" rel="noopener" aria-label="Tirar dúvidas pelo WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.2h.01c5.46 0 9.9-4.45 9.9-9.91A9.86 9.86 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.04-.38-1.99-1.23a7.48 7.48 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+  Tirar dúvidas pelo WhatsApp
+</a>
+
+<footer class="rodape">
+  <div class="envoltorio">
+    <a class="marca" href="#topo" style="align-items:center">
+      <span class="marca__nome">NAYARA TONETE</span>
+      <span class="marca__cargo">ADVOGADA</span>
+    </a>
+    <div class="rodape__linha" aria-hidden="true"></div>
+    <div class="rodape__contatos">
+      <span>OAB/SP 479.459</span>
+      <a href="obrigado/" target="_blank" rel="noopener">WhatsApp (31) 99693-6688</a>
+      <a href="https://www.instagram.com/nayaratonete.adv/" target="_blank" rel="noopener">Instagram @nayaratonete.adv</a>
+    </div>
+    <p class="rodape__aviso">Conteúdo de caráter informativo, conforme o Provimento 205/2021 do Conselho Federal da OAB. Não constitui promessa de resultado. Cada caso depende de análise individual.</p>
+  </div>
+</footer>
+<script>
+  // Identifica a origem do visitante e a repassa aos botões de WhatsApp
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var src = (q.get('utm_source') || '').toLowerCase();
+    var ua = navigator.userAgent || '';
+    var ref = document.referrer || '';
+    var origem = '';
+    if (/instagram|^ig$/.test(src) || /Instagram/.test(ua) || /instagram\.com/.test(ref)) origem = 'instagram';
+    else if (/facebook|^fb$/.test(src) || /FBAN|FBAV/.test(ua) || /facebook\.com/.test(ref)) origem = 'facebook';
+    else if (q.get('fbclid')) origem = 'meta';
+    else if (q.get('gclid') || q.get('gbraid') || q.get('wbraid') || src === 'google') origem = 'google';
+    if (!origem) return;
+    document.querySelectorAll('a[href="obrigado/"]').forEach(function (a) {
+      a.href = 'obrigado/?origem=' + origem;
+    });
+  })();
+</script>
+</body>
+</html>
