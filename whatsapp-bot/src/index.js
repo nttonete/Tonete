@@ -108,6 +108,12 @@ export function variantes(numero) {
   return lista;
 }
 
+// Compara números de celular brasileiros com ou sem o 9 extra.
+export function mesmoNumero(a, b) {
+  const x = String(a).replace(/\D/g, ""), y = String(b).replace(/\D/g, "");
+  return Boolean(x) && variantes(x).includes(y);
+}
+
 function iguais(a, b) {
   if (a.length !== b.length) return false;
   let dif = 0;
@@ -132,7 +138,7 @@ export function extrairEventos(payload, env) {
           let texto = descrever(m);
           if (texto === null || !liberado(m.from)) continue;
           // Mensagens do próprio escritório (quem recebe os avisos) não passam pela triagem.
-          if (env.NOTIFY_TO && m.from === env.NOTIFY_TO) continue;
+          if (env.NOTIFY_TO && mesmoNumero(m.from, env.NOTIFY_TO)) continue;
           // Clique em anúncio de WhatsApp da Meta: informa de qual anúncio veio.
           if (m.referral?.headline) texto = `[veio do anúncio: ${m.referral.headline}]\n${texto}`;
           eventos.push({ tipo: "entrada", telefone: m.from, id: m.id, texto, nome });
