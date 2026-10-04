@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
 import { Conversa } from "../src/conversa.js";
-import worker, { extrairEventos, variantes } from "../src/index.js";
+import worker, { extrairEventos, variantes, mesmoNumero } from "../src/index.js";
 import { responder } from "../src/claude.js";
 import { textoAviso, enviarTexto } from "../src/whatsapp.js";
 
@@ -248,4 +248,26 @@ test("zerar considera o número com e sem o 9 extra", () => {
   assert.deepEqual(variantes("5531988887348"), ["5531988887348", "553188887348"]);
   assert.deepEqual(variantes("553188887348"), ["553188887348", "5531988887348"]);
   assert.deepEqual(variantes("12345"), ["12345"]);
+});
+
+test("número da advogada é ignorado mesmo quando o WhatsApp manda sem o 9", () => {
+  assert.equal(mesmoNumero("553196936688", "5531996936688"), true);
+  assert.equal(mesmoNumero("5531996936688", "5531996936688"), true);
+  assert.equal(mesmoNumero("553188887348", "5531996936688"), false);
+  const payload = { entry: [{ changes: [{ field: "messages", value: { messages: [
+    { from: "553196936688", id: "1", type: "text", text: { body: "oi" } },
+    { from: "553188887348", id: "2", type: "text", text: { body: "oi" } },
+  ] } }] }] };
+  assert.deepEqual(extrairEventos(payload, { NOTIFY_TO: "5531996936688" }).map((e) => e.telefone), ["553188887348"]);
+});
+
+test("#reiniciar apaga a conversa sem responder", async () => {
+  const { conversa, storage, enviados, chamadas } = montar([{ texto: "Obrigada!", aviso }]);
+  storage.deleteAll = async function () { this.limpo = true; };
+  await conversa.entrada({ telefone: "553188887348", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.alarm();
+  await conversa.entrada({ telefone: "553188887348", id: "b", texto: " #Reiniciar ", nome: "Ana" });
+  assert.equal(storage.limpo, true);
+  assert.equal(enviados.length, 2);
+  assert.equal(chamadas.length, 1);
 });

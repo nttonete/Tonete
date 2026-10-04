@@ -56,8 +56,8 @@ Guarde também o **PIN de 6 dígitos** do número do robô, usado no registro. A
 
 - **Diagnóstico** (últimas ocorrências do robô, sem conteúdo das conversas):
   `https://nt-whatsapp-bot.nayaraktonete.workers.dev/diagnostico?chave=VERIFY_TOKEN`
-- **Zerar uma conversa de teste**, apagando a conversa de quem mandou a última mensagem:
-  `…/diagnostico?chave=VERIFY_TOKEN&zerar=ultimo`
+- **Reiniciar uma conversa de teste:** mande **`#reiniciar`** para o robô, do celular que está testando. A conversa desse número é apagada e o robô não responde; a próxima mensagem começa uma triagem nova.
+- Alternativa pelo navegador: `…/diagnostico?chave=VERIFY_TOKEN&zerar=ultimo` apaga a conversa de quem mandou a última mensagem. Espere uns 10 segundos depois de mandar a mensagem antes de abrir o link.
 - **O robô está no ar?** Abra `https://nt-whatsapp-bot.nayaraktonete.workers.dev/saude`. Deve aparecer "ok".
 - **Publicações do robô:** github.com/nttonete/Tonete/actions
 
@@ -69,7 +69,7 @@ Guarde também o **PIN de 6 dígitos** do número do robô, usado no registro. A
 | "webhook recusado: assinatura inválida" | `APP_SECRET` errado no GitHub |
 | "erro ao enviar… WHATSAPP_TOKEN tem caractere inválido" ou "Invalid header value" | Token da Meta colado errado. Gere outro e cole pelo botão **Copiar**. |
 | "erro ao gerar resposta (Claude)" | Chave da Anthropic errada ou **sem crédito** |
-| "robô em silêncio: triagem já encaminhada…" | Normal: a pessoa já foi passada para a Nayara. Em teste, use o zerar. |
+| "robô em silêncio: triagem já encaminhada…" | Normal: a pessoa já foi passada para a Nayara. Em teste, mande `#reiniciar`. |
 | Nada aparece depois de mandar mensagem | A Meta não está entregando. Confira o webhook e a chave "Assinar webhooks" na Meta. |
 
 ## 5. Rotina de manutenção
@@ -100,7 +100,8 @@ Guarde também o **PIN de 6 dígitos** do número do robô, usado no registro. A
 | Resposta gerada, mas não enviada ("Invalid header value") | `WHATSAPP_TOKEN` com caractere errado no meio | Gerar token novo, copiar pelo botão e conferir no Bloco de Notas antes de colar |
 | Depois de consertar, o robô encaminhou para a Nayara logo de cara | Respostas que falharam tinham ficado no histórico | Corrigido: o histórico só guarda o que foi entregue |
 | Celular dizia "não está no WhatsApp" | O aparelho guardava a conta antiga daquele chip | Apagar a conversa e o contato antigos, ou testar de outro aparelho |
-| "Zerar" não surtia efeito | O WhatsApp informa o número sem o 9 extra (12 dígitos) | Usar `zerar=ultimo` |
+| "Zerar" não surtia efeito | O WhatsApp informa o número sem o 9 extra (12 dígitos) | Mandar `#reiniciar` para o robô |
+| O robô respondeu ao "oi" da Nayara | O número dela chega sem o 9 e não era reconhecido | Corrigido: o robô compara com e sem o 9 |
 | Mensagens enviadas do (31) 99693-6688 não tinham resposta | O robô ignora o número da Nayara de propósito | Testar de outro número |
 
 ## 7. Pendências

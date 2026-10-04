@@ -58,6 +58,13 @@ export class Conversa extends DurableObject {
   async entrada({ telefone, id, texto, nome }) {
     const d = await this.carregar();
     if (d.vistos.includes(id)) return; // a Meta reenvia webhooks
+
+    // "#reiniciar" apaga a conversa: serve para refazer testes. Não responde nada.
+    if (String(texto).trim().toLowerCase() === "#reiniciar") {
+      await this.zerar();
+      await this.deps.registrar(this.env, `conversa reiniciada pelo próprio usuário (final ${String(telefone).slice(-4)})`);
+      return;
+    }
     d.vistos = [...d.vistos, id].slice(-100);
 
     const agora = this.deps.agora();
