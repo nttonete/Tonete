@@ -10,6 +10,7 @@ Site e atendimento da **NT Advocacia**: Nayara Tonete, advogada, OAB/SP 479.459.
 |---|---|
 | `escola-pcd/` | Landing page: dedução integral da escola de PcD no IR (Tema 324 da TNU) |
 | `plano-saude-autismo/` | Landing page: negativa e limitação de terapias (ABA, fono, TO, psicologia) pelo plano de saúde |
+| `isencao-ir-doenca-grave/` | Landing page: isenção de IR para aposentados e pensionistas com doença grave e devolução dos últimos 5 anos |
 | `*/obrigado/` | Página intermediária: registra a conversão do Google Ads e abre o WhatsApp |
 | `privacidade/` | Política de privacidade do site e do robô. A Meta exige essa URL para publicar o app |
 | `whatsapp-bot/` | Robô de triagem da campanha golpe do Pix (Cloudflare Worker + Claude). Veja `whatsapp-bot/README.md` |
