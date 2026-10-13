@@ -1,0 +1,58 @@
+{
+ "edicoes": [
+  {
+   "id": "fuvest-2025-1",
+   "vestibular": "fuvest",
+   "ano": 2025,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "V1",
+   "nome": "FUVEST (USP) 2025 – 1ª fase",
+   "fonte": {
+    "caderno": "FEVEST_2025_1Fase.pdf",
+    "gabarito": "FEVEST_2025_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/fuvest-2025-1.json",
+   "total": 30,
+   "validas": 30,
+   "com_resposta": 30,
+   "materias": {
+    "artes": 1,
+    "geografia": 3,
+    "portugues": 2,
+    "historia": 3,
+    "literatura": 1,
+    "filosofia": 5,
+    "sociologia": 2,
+    "matematica": 2,
+    "fisica": 4,
+    "quimica": 3,
+    "ingles": 2,
+    "biologia": 2
+   }
+  },
+  {
+   "id": "unesp-2025-1",
+   "vestibular": "unesp",
+   "ano": 2025,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "VERSAO1",
+   "nome": "UNESP (VUNESP) 2025 – 1ª fase",
+   "fonte": {
+    "caderno": "UNESP_2025_1Fase.pdf",
+    "gabarito": "UNESP_2025_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unesp-2025-1.json",
+   "total": 30,
+   "validas": 30,
+   "com_resposta": 30,
+   "materias": {
+    "literatura": 7,
+    "portugues": 12,
+    "artes": 1,
+    "ingles": 10
+   }
+  }
+ ]
+}

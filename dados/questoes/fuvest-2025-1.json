@@ -1,0 +1,571 @@
+{
+ "edicao": {
+  "id": "fuvest-2025-1",
+  "vestibular": "fuvest",
+  "ano": 2025,
+  "fase": 1,
+  "tipo": "objetiva",
+  "versao": "V1",
+  "nome": "FUVEST (USP) 2025 – 1ª fase",
+  "fonte": {
+   "caderno": "FEVEST_2025_1Fase.pdf",
+   "gabarito": "FEVEST_2025_1Fase_gab.pdf"
+  }
+ },
+ "textos_base": {
+  "t10-11": "“O que torna possível o surgimento de uma ‘cultura do cancelamento’ é um cenário em que os detentores de poder econômico e/ou político vislumbram a utilização de valores morais como valores de mercado, <u>seja</u> no campo da publicidade, <u>seja</u> no campo da responsabilidade social da empresa.\n\nO conjunto de valores defendidos pelos movimentos sociais <u>que</u> lutam por reconhecimento e respeito à diversidade tornam-se atributos exigidos por diversas empresas como elemento fundamental nas suas escolhas de investimento.\n\n<u>Sendo assim</u>, a sanção específica realizada pelos agentes do ‘cancelamento’ procura atingir não a liberdade do sujeito que supostamente ofende valores morais relevantes, que seria o instrumento coercitivo tradicionalmente previsto no direito penal, ou mesmo buscar reparações indenizatórias, instrumento de resposta a atos ilícitos no direito civil, <u>mas sim</u> impedir, restringir ou infligir danos na trajetória econômica e/ou profissional do sujeito ‘cancelado’.\n\nNesse contexto, a ‘cultura do cancelamento’ representa um mecanismo de eliminação do mercado, em casos considerados graves, ou, em outros casos, de mera diminuição relativa do capital, de sujeitos ineficientes em fator competitivo específico, <u>como</u> inadequação de valores morais ostentados, por atos e/ou palavras, em determinados ambientes sociais.”\n\nMARTINS, Tamires de Assis Lima; CORDEIRO, Ana Paula. A cultura do cancelamento: contribuições de um olhar sociológico. *Extraprensa*, v.15, n. esp., p.39, mai.2022 (Adaptado).",
+  "t27-29": "**Climate change is messing with time**\n\n“The melting of polar ice due to global warming is affecting Earth’s rotation and could impact on precision timekeeping, according to a recent study.\n\nThe planet is not about to jerk to a halt, nor speed up so rapidly that everyone gets flung into space. But timekeeping is an exact science in a highly technological society, which is why global authorities more than half a century ago felt compelled by the slight changes in Earth’s rotation to invent the concept of the ‘leap second’.\n\nClimate change makes these calculations even more complicated: Soon it may be necessary to insert a ‘negative leap second’ into the calendar to get the planet’s rotation in sync with Coordinated Universal Time.\n\nTimekeeping is based on an astronomical basis. Earth is a type of a clock. In simpler times, the planet would spin one full revolution on its axis, and everyone would call it a day.\n\nBut Earth doesn’t spin at a perfectly constant speed. Our planet is in a complicated gravitational dance with the moon, the sun, the oceanic tides, Earth’s own atmosphere and the motion of the planet’s solid inner core.\n\nThe planet’s fluctuating spin rate is carefully tracked by the International Earth Rotation and Reference Systems Service. In the early 1970s, Earth was clearly slowing down in its rotation, and a gap was forming between atomic time and astronomical time. Thus, was born the ‘leap second’ to adjust for the fact that the ‘day’ was getting a bit longer.\n\nThe melting of the ice caps in Antarctica and Greenland shifts mass — meltwater — toward the equator. That process increases the equatorial bulge of the planet. Meanwhile, at the poles, the land that had been pressed down by ice rises, and Earth becomes more spherical.\n\nAccording to the study, although the core is causing the planet to spin faster, the planetary shape changes caused by a warming climate are slowing that process. Absent this effect, the overall acceleration of the planet’s rotation might require timekeepers to insert a ‘negative leap second’ at the end of 2026. Because of climate change, that might not be necessary until 2029.”\n\nDisponível em https://www.washingtonpost.com/science/2024/03/27/ (Adaptado)."
+ },
+ "questoes": [
+  {
+   "id": "fuvest-2025-1-q01",
+   "numero": 1,
+   "materia": "artes",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "Texto 1\n\n“Afinal, depois de ver todas as coisas daquele museu, acabei me perguntando se os brancos já não teriam começado a adquirir também tantas de nossas coisas só porque nós, Yanomami, já estamos começando também a desaparecer. Por que ficam nos pedindo nossos cestos, nossos arcos e nossos adornos de penas, enquanto garimpeiros e fazendeiros invadem nossa terra?”\n\nKOPENAWA, Davi; ALBERT, Bruce. *Queda do céu: palavras de um xamã yanomami*. São Paulo: Companhia das Letras, 2015. p.429.\n\nTexto 2\n\n“Em seu trabalho, Glicéria debruça-se sobre a artesania do manto tupinambá, símbolo das tradições ancestrais de seu povo. A artista chama de cosmo-técnica a feitura do manto, e hoje busca compreender qual era sua função cultural e social em sua comunidade. Recentemente, a artista esteve na Europa e encontrou mantos datados do século XVII, que foram levados do Brasil ao longo da colonização, na Dinamarca. Segundo Glicéria, ‘hoje, as pessoas entendem o manto como arte, arte contemporânea, mas eu vejo muito além. É um ancestral nosso’.”\n\nInstituto Pipa. Ocupação dos artistas premiados do Pipa 2023: Glicéria Tupinambá. Disponível em: https://www.premiopipa.com/2023/10/ (Adaptado).\n\nA reflexão de Davi Kopenawa sobre a apropriação de objetos indígenas por museus e a pesquisa de Glicéria Tupinambá sobre o manto tupinambá em contextos europeus permitem explorar diversas dimensões da arte indígena.\n\n![fotografia de Glicéria Tupinambá vestindo um manto de penas em meio à vegetação](fig:p02-f1)\n\nGlicéria Tupinambá, Assojaba Tupinambá, 2021. Disponível em: https://dasartes.com.br/de-arte-a-z/.\n\nCom base nos textos e na imagem, assinale a alternativa que relaciona corretamente as reflexões apresentadas à importância da arte e dos artefatos culturais na discussão sobre questões indígenas no Brasil.",
+   "alternativas": {
+    "A": "A arte indígena, ao ser exposta em museus europeus, perde seu significado original e se transforma apenas em objeto de decoração, desvinculando-se completamente de suas raízes culturais e simbólicas, de acordo com David Kopenawa.",
+    "B": "Glicéria Tupinambá, ao retomar elementos tradicionais em suas obras, busca uma representação autêntica que resiste à domesticação cultural imposta pelos colonizadores, valorizando o aspecto utilitário desses objetos.",
+    "C": "O trabalho de Glicéria Tupinambá, ao redescobrir os mantos tupinambá na Europa, revela como a arte indígena pode servir como uma ponte para o entendimento e a valorização das culturas indígenas por sociedades que historicamente as marginalizaram.",
+    "D": "Para David Kopenawa, a guarda de artefatos indígenas em museus da Europa é uma forma eficaz de preservação e valorização da cultura indígena, pois demonstra reconhecimento da sua importância e esforço, por parte da sociedade, para proteger os direitos territoriais desses povos.",
+    "E": "A arte, como mostrado por Glicéria Tupinambá, atua como um meio de resistência cultural, em que elementos tradicionais são recontextualizados para contestar narrativas coloniais e reafirmar identidades indígenas em face de processos de desapropriação e desaparecimento."
+   },
+   "anulada": false,
+   "gabarito": "E",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q02",
+   "numero": 2,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Analise, na figura a seguir, os dados referentes a áreas de garimpo ilegal localizadas em terras indígenas na Amazônia brasileira e sua distância em relação a corpos d’água.\n\n![mapa da Amazônia com áreas de garimpo e gráficos de barras da distância dos garimpos a corpos d’água nas terras Kayapó, Munduruku e Yanomami](fig:p03-c1)\n\nMapBiomas. 2024. Proximidade de Garimpos, Rios e Lagos na Amazônia (Adaptado).\n\nA partir dos dados apresentados e da realidade socioambiental da Amazônia, é correto afirmar:",
+   "alternativas": {
+    "A": "Os territórios indígenas encontram-se nas áreas mais desmatadas da Amazônia; como o garimpo ilegal produz forte impacto ambiental pelo intenso uso da água em seus processos, tal atividade colabora com a desertificação do bioma.",
+    "B": "O garimpo ilegal representa alto risco a populações humanas e animais em geral, pela contaminação das águas e dos alimentos por substâncias usadas na garimpagem e porque tal atividade ocorre em áreas ainda muito preservadas, aumentando o impacto ambiental.",
+    "C": "O garimpo ilegal na Amazônia não produz tanto impacto para os corpos d’água, uma vez que as atividades encontram-se distantes do rio Amazonas e de seus afluentes, os maiores rios da região; seu maior impacto ocorre devido ao desmatamento de extensas áreas de floresta nativa.",
+    "D": "A proximidade dos corpos d’água deve-se a questões estratégicas, e não ao garimpo ilegal propriamente, pois este é de baixo impacto; porém traz conflitos territoriais com as comunidades indígenas, e os rios constituem rotas de fuga rápidas e eficientes para os garimpeiros.",
+    "E": "A relação entre garimpos e corpos d’água ocorre de forma indireta, pois o garimpo amazônico não depende da água em seus processos; os garimpeiros buscam esses territórios porque as populações indígenas sabem onde existe ouro e se desenvolvem próximas a rios e lagos."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q03",
+   "numero": 3,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![charge de Jean Galvão em dois quadros sobre garimpo ilegal](fig:p03-f2)\n\nJean Galvão. Disponível em https://cartum.folha.uol.com.br/.\n\nConsiderando a charge, é correto afirmar:",
+   "alternativas": {
+    "A": "Há uma incoerência entre a imagem do segundo quadro e o enunciado verbal do primeiro quadro, uma vez que a posposição do adjunto adverbial “na água” anula qualquer ambiguidade.",
+    "B": "Ao antecipar o objeto direto “o mercúrio” para o começo da oração, o chargista chama a atenção para esse elemento, estimulando o leitor a buscá-lo visualmente no segundo quadro.",
+    "C": "Por meio da escolha do verbo “descartar”, mostra-se, de forma crítica, a necessidade da criação de um local correto para o depósito dos rejeitos provenientes do garimpo ilegal.",
+    "D": "O uso da forma pronominal informal “a gente”, em detrimento do pronome “nós”, empregado em situações mais formais e sérias, atenua o teor crítico, o que colabora para gerar efeito humorístico.",
+    "E": "O significado negativo do prefixo que aparece na palavra “ilegal” reforça a precariedade do atendimento à saúde nas comunidades indígenas."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q04",
+   "numero": 4,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“E assim como o branco e os mamelucos se aproveitaram não raro das veredas dos índios, há motivo para pensar que estes, por sua vez, foram, em muitos casos, simples sucessores dos animais selvagens, do tapir especialmente, cujos carreiros ao longo dos rios e riachos, ou em direção a nascentes de águas, se adaptavam perfeitamente às necessidades e hábitos daquelas populações.”\n\nHOLANDA, Sergio Buarque de. *Caminhos e fronteiras*. Rio de Janeiro: José Olympio, 1975. p.35.\n\nDe acordo com o excerto, a ocupação territorial da América portuguesa pelos colonizadores foi inicialmente marcada",
+   "alternativas": {
+    "A": "pela construção de caminhos que os afastassem dos cursos dos rios.",
+    "B": "pela desconsideração das rotas de deslocamento abertas pelos animais.",
+    "C": "pela utilização de picadas abertas pelas comunidades indígenas.",
+    "D": "pelo emprego de tropas de muares, responsáveis por abrir trilhas nas matas.",
+    "E": "pela exploração do transporte fluvial e marítimo por meio de pirogas."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q05",
+   "numero": 5,
+   "materia": "literatura",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "Os quadrinhos a seguir são parte da obra *Dois irmãos*, de Fábio Moon e Gabriel Bá (2015), uma adaptação do romance *Dois irmãos*, de Milton Hatoum, para o universo das novelas gráficas (*graphic novels*).\n\n![página de quadrinhos em preto e branco da novela gráfica Dois irmãos](fig:p04-f1)\n\nConsiderando as características visuais dos quadrinhos e os traços narrativos do romance *Dois irmãos*, de Milton Hatoum, é correto afirmar:",
+   "alternativas": {
+    "A": "O uso dos contrastes claro x escuro na novela gráfica confere ênfase visual ao conflito entre diferentes formas de privilégio e marginalização presentes no romance de Hatoum, explicitadas pelo ponto de vista do narrador.",
+    "B": "Ao trabalhar com os contrastes claro x escuro em suas imagens, a novela gráfica enfatiza a diferença étnica e social que fundamenta a rivalidade fraterna entre Yaqub e Omar, um dos eixos estruturais do romance.",
+    "C": "Ao utilizar procedimentos como a aproximação (*zoom-in*) e a fragmentação das imagens, a novela gráfica recria o fluxo de consciência e a atmosfera onírica da narrativa de Hatoum.",
+    "D": "A novela gráfica demonstra, por meio de imagens, que o romance *Dois irmãos* reinventa a tradição da literatura regionalista do Brasil, retratando a opulência da cidade de Manaus ao longo do século XX.",
+    "E": "Por meio de recursos estéticos como a fragmentação das imagens, a novela gráfica recupera o ponto de vista fraturado do romance de Hatoum, composto por vários narradores ao longo da história."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q06",
+   "numero": 6,
+   "materia": "filosofia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia o texto e analise a charge a seguir.\n\n“Se, compreendendo um outro ser humano, penetro profundamente no horizonte do que lhe é próprio, então logo me depararei com o fato de que, assim como o seu corpo se encontra no meu campo de percepção, também o meu corpo se encontra no dele, e que, em geral, ele me experiencia sem mais como um outro para ele, tal como eu o experiencio como outro para mim.”\n\nHUSSERL, E. *Meditações cartesianas*. Rio de Janeiro: Forense Universitária, 2013.\n\n![charge de Bira Dantas com um político e um grupo de indígenas](fig:p04-f2)\n\nBira Dantas. Disponível em https://facebook.com/.\n\nO filósofo Edmund Husserl propõe uma reflexão sobre como cada pessoa estabelece relações com as outras. Ocorre uma equiparação dos pontos de vista, de modo que cada uma aparecerá às demais não como uma consciência incomparável, mas justamente como uma outra pessoa. Essa ideia ajuda a entender a perspectiva crítica contida na charge: certas condições ou características que percebemos como depreciativas em outras pessoas também podem ser percebidas da mesma maneira pelos outros em nós.\n\nQual situação reproduz essa estrutura de equiparação exibida na charge?",
+   "alternativas": {
+    "A": "Torcedores de diversos times de futebol se reúnem desanimados para assistir a um jogo da seleção.",
+    "B": "Religiosos conservadores sugerem banir livros eróticos doados por desconhecidos para a sua comunidade.",
+    "C": "Com medo da violência, um homem passa a andar armado na rua e assusta os transeuntes.",
+    "D": "Um homem acusa uma mulher de racismo e algumas testemunhas confirmam a versão dele para a polícia.",
+    "E": "Um trabalhador denuncia ao chefe um colega por assédio moral, mas esse último não é punido."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q07",
+   "numero": 7,
+   "materia": "filosofia",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "![tirinha de Peanuts em quatro quadrinhos, em inglês, com Charlie Brown e Lucy](fig:p05-f1)\n\nDisponível em https://screenrant.com/funniest-peanuts-comics-charlie-brown-vs-lucy/.\n\nFalácias são argumentos que podem até parecer à primeira vista bem construídos logicamente, mas são falhos, seja em termos do uso da linguagem, de pertinência temática ou de correção formal. Os primeiros estudos sistemáticos das falácias foram feitos pelo filósofo Aristóteles, que classificou alguns dos argumentos falaciosos mais comuns.\n\nNo terceiro quadrinho da história, uma personagem se serve de um argumento falacioso bastante conhecido a fim de persuadir o outro. Esse argumento pode ser classificado como um caso de qual tipo de falácia?",
+   "alternativas": {
+    "A": "Ataque à pessoa.",
+    "B": "Apelo à piedade.",
+    "C": "Apelo à força.",
+    "D": "Ambiguidade.",
+    "E": "Apelo à ignorância."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q08",
+   "numero": 8,
+   "materia": "filosofia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "“Eu não venero a criação mais do que o Criador, mas venero a criatura criada como eu sou, adotando a criação de maneira livre e espontânea, de modo que Ele possa elevar nossa natureza e nos tornar partícipes de Sua natureza divina. Sendo assim, eu me atrevo a fazer uma imagem do Deus invisível não como invisível, mas como tendo se tornado visível por nossa causa, tornando-se carne e sangue. Eu não faço uma imagem da divindade imortal. Eu pinto a carne visível de Deus, pois é impossível representar o espírito e ainda mais Deus, que dá vida ao espírito.”\n\nJohn Damascene. *On holy images*. Disponível em https://www.gutenberg.org/files/49917/ (Adaptado).\n\nNessa citação, João Damasceno (675-749), monge e teólogo cristão do período medieval, dirige-se contra o movimento iconoclasta ao",
+   "alternativas": {
+    "A": "colocar a criatura no mesmo nível do Criador.",
+    "B": "reduzir a divindade a seus elementos materiais.",
+    "C": "identificar a imagem visível com a natureza divina.",
+    "D": "negar o dogma da divindade de Jesus Cristo.",
+    "E": "justificar a veneração de imagens sagradas."
+   },
+   "anulada": false,
+   "gabarito": "E",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q09",
+   "numero": 9,
+   "materia": "filosofia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“A mídia digital é uma mídia da presença. A sua temporalidade é o presente imediato. A comunicação digital se caracteriza pelo fato de que informações são produzidas, enviadas e recebidas sem mediação por meio de intermediários. Mediação e representação são interpretadas como não transparência e ineficiência, como congestionamento de tempo e de informação.\n\nUma mídia eletrônica de massa clássica como o rádio só permite uma comunicação unilateral. O destinatário da mensagem é condenado à passividade.\n\nHoje não somos mais destinatários e consumidores passivos de informação, mas sim remetentes e produtores ativos. Não nos contentamos mais em consumir informações passivamente, mas sim queremos produzi-las e comunicá-las ativamente nós mesmos. Somos simultaneamente consumidores e produtores.”\n\nHAN, Byung-Chul. *No enxame*: Perspectivas do digital. São Paulo: Editora Vozes, 2018. p.35-36 (Adaptado).\n\nSegundo o texto, a mídia digital distingue-se da mídia de massa tradicional por",
+   "alternativas": {
+    "A": "reforçar a separação entre consumidor e produtor, resultante da ampliação da comunicação unilateral na internet.",
+    "B": "apostar na passividade do público, que precisa de um mediador para poder comunicar informações ativamente.",
+    "C": "gerar excesso de informação, que consolida estrutura capaz de condenar todos os consumidores à passividade.",
+    "D": "provocar presentificação, decorrente da dissolução dos intermediários e da combinação dos papéis de consumidor e produtor.",
+    "E": "dissolver a distinção entre produtor e consumidor, causadora de congestionamento de tempo e de informação."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q10",
+   "numero": 10,
+   "materia": "sociologia",
+   "materias_extra": [],
+   "texto_base": "t10-11",
+   "enunciado": "Segundo o texto, a cultura do “cancelamento”",
+   "alternativas": {
+    "A": "busca punir transgressões a valores morais caros aos canceladores com danos à vida econômica do cancelado.",
+    "B": "aplica os instrumentos coercitivos do direito penal ao contexto da internet para impedir o crescimento profissional do cancelado.",
+    "C": "é uma resposta natural à emergência de movimentos sociais que lutam por respeito à diversidade e por mais poder econômico.",
+    "D": "elimina profissionais do mercado com o objetivo de desmoralizar as empresas contratantes, causando-lhes prejuízos.",
+    "E": "visa a aumentar a competição entre as empresas, que se valem do cancelamento para eliminar valores morais que consideram irresponsáveis."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q11",
+   "numero": 11,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t10-11",
+   "enunciado": "Em relação aos conectivos sublinhados no texto, é correto afirmar:",
+   "alternativas": {
+    "A": "<u>seja...seja</u> evidencia a dúvida das autoras quanto aos campos afetados pelo cancelamento.",
+    "B": "<u>que</u> é utilizado para intensificar o valor dos movimentos sociais na luta pela diversidade.",
+    "C": "<u>sendo assim</u> indica adesão autoral diante das formas de sanção aplicadas pelos agentes do cancelamento.",
+    "D": "<u>mas sim</u> ressalta a diferença entre como se pune na cultura do cancelamento e no direito penal.",
+    "E": "<u>como</u> introduz uma comparação entre distintas ações passíveis de gerar cancelamento."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q12",
+   "numero": 12,
+   "materia": "sociologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Texto 1\n\n“Em *Big Tech: a ascensão dos dados e a morte da política*, Morozov estabelece ‘um paralelo com os setores extrativistas de recursos naturais, como o petróleo’, colocando ‘no centro da discussão o modo de produção dessa economia, que ele chama de ‘extrativismo de dados’. Apesar de a frase ‘os dados são o novo petróleo’ ser um chavão fraco em termos conceituais, Morozov acha o modismo útil para debatermos a matriz extrativista desse modo de produção, em especial a forma como as grandes empresas de tecnologia ‘continuam escavando a nossa psique tal como as empresas de petróleo escavam o solo’.”\n\nZANATTA, Rafael. “Extrativismo Digital”. *Quatro Cinco Um*, 01/04/2019. Disponível em: https://quatrocincoum.com.br/resenhas/ (Adaptado).\n\nTexto 2\n\n“Colonialismo de dados é um modo de configurar o mundo inteiro, de tal forma que um recurso novo possa ser extraído – e esse recurso é a vida humana a partir da qual se pode extrair um valor econômico. Sustentamos que os modos nos quais este novo colonialismo opera, as escalas nas quais opera diferem do colonialismo histórico que tão bem entendemos. Mas a função, a finalidade subjacente, o núcleo deste novo colonialismo é exatamente o mesmo do colonialismo histórico. É o de despossuir, apropriar-se dos recursos do mundo para o bem de uns poucos, de uma parte do mundo.”\n\nCOULDRY, Nick. Colonialismo de Dados e Esvaziamento da Vida Social Antes e Pós Pandemia de Covid-19. In: *Homo Digitalis*. A Escalada da Algoritmização da Vida em Tempos de Pandemia. Anais do XIX Simpósio Internacional Instituto Humanitas Unisinos (Adaptado).\n\nConsiderando os excertos apresentados, é correto afirmar que *extrativismo de dados* e *colonialismo de dados* são conceitos desenvolvidos por Morozov e Couldry para nomear e descrever fenômenos",
+   "alternativas": {
+    "A": "baseados em mecanismos inéditos de acumulação de dados na história, de amplo alcance, complementares e centrais para diferenciar a atual fase do modo de produção capitalista.",
+    "B": "essencialmente diferentes, pois, enquanto o extrativismo trata de uma relação das empresas de tecnologia com a psique, o colonialismo trata de uma relação dessas empresas com a vida humana.",
+    "C": "cuja lógica de apropriação é diferente daquela verificada em relação ao petróleo, o que explica os limites da comparação entre os dados produzidos por usuários da internet e o petróleo.",
+    "D": "correspondentes a duas formas análogas de apreender transformações do capitalismo contemporâneo, referindo-se a práticas que surgiram no passado, colonização e extrativismo, e com os quais compartilham finalidades.",
+    "E": "que abrem possibilidades para que alguns países desprovidos de recursos naturais valiosos se apropriem de dados produzidos por usuários, sem autorização prévia destes, para extrair lucros."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q13",
+   "numero": 13,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As formas de colonização ibérica e inglesa na América foram, durante muito tempo, consideradas processos isolados, estruturados em dois modelos opostos: as colônias de exploração e as de povoamento, respectivamente. No entanto, elas constituíram um emaranhado de experiências compartilhadas pelos impérios atlânticos. Os aspectos comuns a essas formas de colonização foram a",
+   "alternativas": {
+    "A": "partida dos colonizadores da metrópole, da qual saíram por fatores religiosos, e a adoção do trabalho livre como base da produção.",
+    "B": "dominação e a exploração dos povos originários e o emprego sistemático do trabalho forçado dessas populações.",
+    "C": "introdução de colonos sem interesse na ocupação demográfica e o objetivo exclusivo da extração de riquezas minerais.",
+    "D": "produção local organizada em pequenas propriedades e a utilização primordial da força de trabalho familiar.",
+    "E": "falta de interesse metropolitano pela exploração comercial e a inexistência de benefícios financeiros para a metrópole."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q14",
+   "numero": 14,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Brasileiros! (...) está conhecida nossa ilusão ou engano em adotarmos um sistema de governo defeituoso em sua origem, e mais defeituoso em suas partes componentes. As constituições, as leis e todas as instituições humanas são feitas para os povos e não os povos para elas. Eia, pois, brasileiros, tratemos de constituirmos de um modo análogo às luzes do século em que vivemos; o sistema americano deve ser idêntico; desprezemos instituições oligárquicas, só cabidas na encanecida Europa.”\n\nANDRADE, Manoel de Carvalho Paes de. Manifesto de proclamação da Confederação do Equador. Apud TORRES, João Camillo de Oliveira. *A democracia coroada*: Teoria política do Império do Brasil. Petrópolis: Vozes, 1964. p.522 (Adaptado).\n\nO excerto apresenta trecho do manifesto divulgado pelos rebeldes da Confederação do Equador (1824) e reage explicitamente",
+   "alternativas": {
+    "A": "à dissolução da Assembleia Constituinte e à outorga de uma constituição elaborada pelo Conselho de Estado.",
+    "B": "ao distanciamento do governo brasileiro em relação à Coroa Portuguesa e à política europeia do período.",
+    "C": "ao caráter descentralizador do regime monárquico e ao aumento da autonomia das províncias.",
+    "D": "ao poder exercido pelos produtores nordestinos de algodão e pelos cafeicultores paulistas.",
+    "E": "à adoção de regime republicano pela Constituição e ao fechamento do parlamento nacional."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q15",
+   "numero": 15,
+   "materia": "filosofia",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "“**justice**, each getting what he or she is due. Formal justice is the impartial and consistent application of principles, whether or not the principles themselves are just. Substantive justice is closely associated with rights, i.e., with what individuals can legitimately demand of one another or what they can legitimately demand of their government (e.g., with respect to the protection of liberty or the promotion of equality).\n\nRetributive justice concerns when and why punishment is justified. Debate continues over whether punishment is justified as retribution for past wrongdoing or because it deters future wrongdoing. Those who stress retribution as the justification for punishment usually believe human beings have libertarian free will, while those who stress deterrence usually accept determinism.\n\nAt least since Aristotle, justice has commonly been identified both with obeying law and with treating everyone with fairness. But if law is, and justice is not, entirely a matter of convention, then justice cannot be identified with obeying law.”\n\n**The Cambridge Dictionary of Philosophy**. General Editor Robert Audi, Cambridge, U.K.: C.U.P., 1999. p.456.\n\nConforme o verbete, a justiça substantiva pode ser definida como a",
+   "alternativas": {
+    "A": "aplicação imparcial e consistente de princípios éticos e morais.",
+    "B": "promoção de punições rigorosas para qualquer tipo de crime.",
+    "C": "distribuição de recursos econômicos de maneira equitativa, com ênfase no coletivo.",
+    "D": "garantia de que todos recebam o que lhes é devido, contemplando direitos individuais.",
+    "E": "proteção exclusiva dos direitos das minorias, aumentando sua visibilidade social."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q16",
+   "numero": 16,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A construção de uma rampa que seja acessível a usuários de cadeira de rodas deve seguir a norma ABNT NBR 9050. Esse documento regulamenta a inclinação que a rampa deve ter a depender do desnível máximo de cada segmento de rampa, conforme o seguinte quadro:\n\n**Inclinação e desnível máximo de cada segmento de rampa**\n\n| Desnível *h* (em m) | Inclinação *i* admissível (em %) |\n|---|---|\n| $1 < h \\leq 1{,}5$ | 5 |\n| $0{,}8 < h \\leq 1$ | $5 < i \\leq 6{,}25$ |\n| $0 < h \\leq 0{,}8$ | $6{,}25 < i \\leq 8{,}33$ |\n\nAcessibilidade a edificações, mobiliário, espaços e equipamentos urbanos. Disponível em https://www.prefeitura.sp.gov.br/cidade/ (Adaptado).\n\nA inclinação $i$ da rampa em porcentagem (%) é calculada dividindo a altura $h$ do desnível do segmento da rampa, em metros, pelo comprimento da projeção horizontal $c$, em metros, e multiplicando o resultado por 100. A figura a seguir mostra uma rampa de dois segmentos.\n\n![ilustração de uma rampa de dois segmentos com corrimãos e um cadeirante, indicando o desnível h e a projeção horizontal c de um segmento](fig:p08-c1)\n\nDeterminada rampa de dois segmentos foi construída da seguinte maneira:\n\n- o primeiro segmento possui projeção horizontal de 10 m e inclinação de 6%;\n- o segundo segmento possui projeção horizontal de 7 m e desnível de 0,5 m.\n\nCom base no que foi apresentado sobre a normativa, o que é correto afirmar sobre a adequação dessa rampa à norma de acessibilidade?",
+   "alternativas": {
+    "A": "A rampa não está adequada, pois os dois segmentos não estão de acordo com a norma.",
+    "B": "A rampa está adequada, pois os dois segmentos estão de acordo com a norma.",
+    "C": "A rampa não está adequada, pois o primeiro segmento não está de acordo com a norma.",
+    "D": "A rampa não está adequada, pois o segundo segmento não está de acordo com a norma.",
+    "E": "A rampa está adequada, pois, apesar de o segundo segmento não estar de acordo com a norma, o primeiro está."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q17",
+   "numero": 17,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A imagem a seguir mostra um cruzamento da Rua da Consolação, na região central da cidade de São Paulo, em que há faixas de pedestre em diferentes direções. Essas faixas agilizam a travessia das ruas. Uma pessoa parte do ponto O e deseja chegar ao ponto C. Para tanto, percorre o trajeto pela faixa que liga O a B e, em seguida, utiliza a faixa que liga B a C. Considere que as coordenadas dos pontos indicados na figura, em metros, são: O(0,0), B(13,-15) e C(29,-8).\n\n![imagem aérea de um cruzamento da Rua da Consolação com os pontos O, B e C ligados por segmentos sobre as faixas de pedestre](fig:p08-f2)\n\nSeja $d$ a distância, em metros, que essa pessoa deixaria de percorrer se tivesse optado por fazer a travessia pela faixa de pedestre que liga O a C. Nesse contexto, é correto afirmar:",
+   "alternativas": {
+    "A": "$d < 2$",
+    "B": "$2 \\leq d < 5$",
+    "C": "$5 \\leq d \\leq 8$",
+    "D": "$8 < d \\leq 11$",
+    "E": "$11 < d$"
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q18",
+   "numero": 18,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No dia 26 de março de 2024, à 1h29min, aproximadamente, o navio cargueiro MV Dali colidiu com a ponte Francis Scott Key em Baltimore, EUA. O impacto causou o colapso da ponte, tornando-se um dos maiores acidentes marítimos da história norte-americana.\n\nA figura a seguir mostra os dados da velocidade do navio em função da hora local. A colisão ocorreu no intervalo de 38 segundos, marcado por linhas pontilhadas no gráfico.\n\n![gráfico da velocidade do navio, em milhas por hora, em função da hora local, com o intervalo de 38 s da colisão marcado por linhas pontilhadas](fig:p09-f1)\n\nDisponível em https://www.nytimes.com/ (Adaptado).\n\nAssumindo que a massa do navio no momento do impacto seja de 100 mil toneladas e, tendo por base os dados do gráfico, a magnitude da força média atuando sobre o navio durante a colisão é de, aproximadamente,\n\n**Note e adote:**\nConsidere que a força atuando sobre o navio durante a colisão seja constante e igual à força média.\nUtilize 1 m.p.h. = 0,5 m/s.",
+   "alternativas": {
+    "A": "$7 \\times 10^{-2}\\ \\text{N}$.",
+    "B": "$7 \\times 10^{0}\\ \\text{N}$.",
+    "C": "$7 \\times 10^{2}\\ \\text{N}$.",
+    "D": "$7 \\times 10^{4}\\ \\text{N}$.",
+    "E": "$7 \\times 10^{6}\\ \\text{N}$."
+   },
+   "anulada": false,
+   "gabarito": "E",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q19",
+   "numero": 19,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O efeito Compton, descoberto na década de 1920, é hoje amplamente utilizado durante tratamentos radioterápicos. O efeito relaciona-se à mudança no comprimento de onda de fótons de raios X quando interagem com partículas como elétrons ou prótons, conforme ilustrado na figura a seguir.\n\n![esquema de um fóton de comprimento de onda λ₀ incidindo sobre uma partícula e, depois, do fóton emergente com comprimento de onda λ′ formando ângulo θ com o eixo x e da partícula emergente formando ângulo ϕ](fig:p09-f3)\n\nQuando um fóton com comprimento de onda $\\lambda_0$ incide sobre uma partícula, ele emerge dessa interação formando um ângulo $\\theta$ com sua direção inicial de movimento, e seu novo comprimento de onda $\\lambda'$ é dado pela relação\n\n$$\\lambda' = \\lambda_0 + \\frac{\\alpha}{m}(1 - \\cos\\theta),$$\n\nem que $\\alpha$ é uma constante positiva e $m$ é a massa da partícula.\n\nCom base nessas informações e em seus conhecimentos sobre a propagação das ondas eletromagnéticas, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "A maior variação no comprimento de onda do fóton ocorre quando o ângulo $\\theta$ é igual a 90°.",
+    "B": "Se o ângulo $\\theta$ é igual a 30°, o fóton emergente tem frequência menor do que a frequência inicial.",
+    "C": "Quando $\\theta = 0$, a velocidade do fóton emergente é menor do que a do fóton incidente, devido à conservação da quantidade de movimento.",
+    "D": "Se o ângulo $\\theta$ é igual a 60°, a variação no comprimento de onda do fóton é menor se a partícula for um elétron do que se a partícula for um próton.",
+    "E": "Um fóton que emergiu perpendicularmente à sua direção inicial não sofreu mudança em sua frequência."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q20",
+   "numero": 20,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir apresenta a evolução dos modelos atômicos, desde o primeiro, proposto por Dalton em 1803, até o de Bohr, proposto em 1913.\n\n![representações sobrepostas dos modelos atômicos de Dalton (1803), Thomson (1904), Rutherford (1911) e Bohr (1913)](fig:p09-f4)\n\nSobre os quatro modelos atômicos apresentados, é correto afirmar:",
+   "alternativas": {
+    "A": "Todos os modelos previram a presença de cargas positivas no núcleo atômico.",
+    "B": "O modelo proposto por Thomson, por prever a existência de nêutrons, não poderia explicar a radiação alfa (α).",
+    "C": "Diferentemente do modelo de Dalton, o modelo de Rutherford não explica a estrutura de cátions e ânions.",
+    "D": "Apenas o modelo de Bohr, com o advento de balanças de precisão, considerou a diferença de massa entre os elementos.",
+    "E": "Elementos radioativos não poderiam ser explicados pelo modelo proposto por Dalton."
+   },
+   "anulada": false,
+   "gabarito": "E",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q21",
+   "numero": 21,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Baterias íon-lítio (íon-Li) armazenam energia por meio de um processo de intercalação iônica, no qual íons $\\text{Li}^+$ penetram e se acomodam entre camadas de grafite no ânodo da bateria. A quantidade de energia armazenada é diretamente proporcional ao número de íons $\\text{Li}^+$ intercalados no ânodo, que, entre outros aspectos, é limitado pelo espaço disponível para a sua alocação. Uma recente inovação tecnológica em baterias é a substituição de Li por Na, formando baterias íon-sódio (íon-Na). O mecanismo de funcionamento se baseia no processo de intercalação, com a vantagem de que o Na é mais abundante do que o Li no planeta.\n\nConsiderando que a única diferença entre baterias de mesma massa e volume seja o íon utilizado ($\\text{Na}^+$ ou $\\text{Li}^+$) e que a densidade de energia é a quantidade de energia armazenada na bateria por unidade de massa e volume, é correto afirmar que a densidade de energia de uma bateria íon-Na é\n\n**Note e adote:**\nDistribuição eletrônica: Li = $1s^2$, $2s^1$; Na = $1s^2$, $2s^2$, $2p^6$, $3s^1$.\nMassa atômica (u): Li = 7; Na = 23.",
+   "alternativas": {
+    "A": "maior do que de uma bateria íon-Li, pois o $\\text{Na}^+$ tem maior massa e menor raio iônico do que o $\\text{Li}^+$.",
+    "B": "menor do que de uma bateria íon-Li, pois o $\\text{Na}^+$ tem maior massa e maior raio iônico do que o $\\text{Li}^+$.",
+    "C": "maior do que de uma bateria íon-Li, pois o $\\text{Na}^+$ tem menor massa e maior raio iônico do que o $\\text{Li}^+$.",
+    "D": "menor do que de uma bateria íon-Li, pois o $\\text{Na}^+$ tem menor massa e menor raio iônico do que o $\\text{Li}^+$.",
+    "E": "igual à de uma bateria íon-Li, pois ambos os íons são monovalentes."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q22",
+   "numero": 22,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![esquema de tela sensível ao toque: placa com fonte F na borda, raio em reflexão total e luz espalhada no ponto em que o dedo toca a superfície](fig:p10-f2)\n\n![esquema da interface entre os meios 1 e 2 com raios de ângulos θ > θL e θ < θL e o ângulo limite θL](fig:p10-f3)\n\nUma das possíveis tecnologias para a produção de telas sensíveis ao toque aproveita a reflexão interna total da luz. Esse tipo de reflexão ocorre quando um raio luminoso viaja do interior de um meio 1, com índice de refração $n_1$, em direção a um meio 2, com índice de refração $n_2$, formando com a direção perpendicular à interface entre os meios um ângulo $\\theta$ maior do que um certo valor limite $\\theta_{\\text{L}}$, tal que $\\text{sen}\\,\\theta_{\\text{L}} = n_2/n_1$. Quando um objeto (como um dedo) se aproxima da interface entre os meios, a reflexão total não ocorre, o que é captado por sensores, revelando a posição do objeto. Suponha que se deseje projetar uma tela sensível ao toque que, conforme mostra a figura, funcione com uma fonte luminosa $F$ fixa na borda. A tabela a seguir indica os índices de refração de alguns materiais candidatos à utilização no meio 1.\n\n| Material | Índice de refração $n_1$ |\n|---|---|\n| A | 1,0002 |\n| B | 1,0003 |\n| C | 1,1503 |\n| D | 1,3204 |\n| E | 1,4889 |\n\nTratando o meio 2 sempre como tendo índice de refração $n_2 = 1{,}0003$, o material que permite o maior intervalo de ângulos de incidência que produzem reflexão total é:",
+   "alternativas": {
+    "A": "Material A.",
+    "B": "Material B.",
+    "C": "Material C.",
+    "D": "Material D.",
+    "E": "Material E."
+   },
+   "anulada": false,
+   "gabarito": "E",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q23",
+   "numero": 23,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere o texto a seguir.\n\n![imagem do buraco negro no centro da Via Láctea em luz polarizada, com linhas em espiral](fig:p11-f1)\n\nThe Event Horizon Telescope Collaboration.\n\n“Com observações feitas pela primeira vez em luz polarizada, a nova imagem do buraco negro que se esconde no coração da Via Láctea revelou um campo magnético com uma estrutura muito semelhante à de outro buraco negro situado no centro da galáxia M87, sugerindo que campos magnéticos intensos podem ser comuns a todos os buracos negros.\n\nA luz é uma onda eletromagnética que nos permite ver objetos. Por vezes, os campos elétrico e magnético associados à onda oscilam em direções preferenciais, definindo o que chamamos de luz polarizada. Apesar de estarmos rodeados por luz polarizada, aos olhos humanos essa luz é indistinguível da luz dita ‘normal’. No plasma que rodeia estes buracos negros, as partículas que giram em torno das linhas de campo magnético conferem-lhe um padrão de polarização com orientação na direção perpendicular ao campo magnético do buraco negro, o que permite aos astrônomos ver com muitos detalhes o que se passa nas regiões dos buracos negros e mapear as suas linhas de campo magnético.”\n\n“Astrônomos descobrem campos magnéticos em espiral nas bordas de buraco negro da Via Láctea”, Jornal da USP 29/03/2024. Disponível em https://jornal.usp.br/ciencias/ (Adaptado).\n\nCom base no texto e em seus conhecimentos, é correto afirmar:",
+   "alternativas": {
+    "A": "A medida do padrão de polarização da luz mencionada no texto permite somente o mapeamento das linhas de campos magnéticos na direção paralela à direção da polarização.",
+    "B": "O olho humano pode discriminar as diferentes direções da luz polarizada dos buracos negros, mapeando suas linhas de campo.",
+    "C": "Campos magnéticos como os mencionados no texto são criados apenas por cargas elétricas em repouso no plasma que rodeia os buracos negros.",
+    "D": "O plasma é formado por partículas eletricamente carregadas, dado que essas partículas exibem um movimento circular perpendicular à direção do campo magnético.",
+    "E": "O processo de mapeamento das linhas de campo magnético mencionado no texto pode ser realizado por meio da detecção de qualquer tipo de onda eletromagnética gerada em buracos negros."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q24",
+   "numero": 24,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na zona sul da cidade de São Paulo, há uma esquina formada pelas ruas Cloreto de Sódio e Relíquia do Oceano.\n\n![imagem aérea da esquina da R. Cloreto de Sódio com a R. Relíquia do Oceano](fig:p11-f2)\n\nA coincidência do encontro dessas ruas chama a atenção, pois o cloreto de sódio",
+   "alternativas": {
+    "A": "praticamente não está presente no oceano, apesar de este ser salgado.",
+    "B": "é insolúvel na água do oceano por apresentar ligação iônica.",
+    "C": "utilizado no Brasil é quase todo proveniente do oceano.",
+    "D": "obtido do oceano apresenta ligação covalente, enquanto o extraído do sal-gema, ligação iônica.",
+    "E": "retirado do oceano tem mais átomos de cloro ligados ao sódio do que o oriundo de outras fontes."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q25",
+   "numero": 25,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Historiadores encontraram um mapa antigo onde não era possível identificar a escala do mapa. Com algum esforço e apoio de Geógrafos, foi possível avaliar a distância no mapa entre duas localidades como sendo de 20 centímetros. Buscando elementos na paisagem, foi possível quantificar a distância entre elas como equivalente a 40 quilômetros.”\n\nFITZ, Paulo Roberto. *Cartografia Básica*. São Paulo: Oficina de Textos, 2008 (Adaptado).\n\nCom base nessas medidas, a escala numérica do mapa corresponde a",
+   "alternativas": {
+    "A": "1:20.000.",
+    "B": "1:200.000.",
+    "C": "1:2.000.000.",
+    "D": "1:2.200.000.",
+    "E": "1:20.000.000."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q26",
+   "numero": 26,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Atualmente 80% do comércio mundial transita pelos mares, principalmente em rotas que passam pelos Canais do Panamá e de Suez. Com a redução das calotas polares, novas rotas estão surgindo no Ártico. Mesmo com sua fragilidade ambiental, a região passou a ser uma nova fronteira para o comércio mundial.\n\n![mapa do Ártico com rotas marítimas Noroeste e Nordeste, portos, bases militares, zonas turísticas, limites das zonas econômicas exclusivas e cobertura de gelo, com legenda e detalhe das rotas entre China, Europa, EUA e Canadá](fig:p12-f1)\n\nCarto Le monde en cartes, n.59, maio-junho 2020 (Adaptado).\n\nCom base no texto, na leitura do mapa e em seus conhecimentos sobre as rotas marítimas, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "A rota que liga os portos de Murmansk a Churchill é vantajosa em razão da facilidade de acesso e de não interferir na Zona Econômica Exclusiva, evitando conflitos territoriais.",
+    "B": "Os percursos advindos das rotas Noroeste e Nordeste possibilitam maior estratégia geopolítica dos países pertencentes à região, que utilizam, para isso, todas as zonas turísticas como sítios para bases militares.",
+    "C": "A rota Nordeste, que liga Roterdã a Shangai, aumenta a distância percorrida pelas frotas marítimas e ainda pode ser ameaçada pela ampliação da cobertura de gelo no futuro.",
+    "D": "A rota Noroeste, que liga Ásia a América, é percurso já consagrado pelo tráfego marítimo intenso, por sua menor distância e por percorrer muitos portos comerciais e bases militares.",
+    "E": "O fluxo comercial possibilitado pelas rotas Noroeste e Nordeste tende a se concentrar no Estreito de Bering, reduzindo a distância a ser percorrida em relação aos trajetos via Canais do Panamá e de Suez."
+   },
+   "anulada": false,
+   "gabarito": "E",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q27",
+   "numero": 27,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t27-29",
+   "enunciado": "Segundo o texto, o processo de derretimento das calotas polares",
+   "alternativas": {
+    "A": "põe em dúvida a necessidade do conceito de segundo bissexto.",
+    "B": "desloca o fluxo de água para regiões afastadas da linha do Equador.",
+    "C": "deve antecipar em três anos o ajuste dos relógios atômicos.",
+    "D": "ultrapassa o alcance do sistema do Tempo Universal Coordenado.",
+    "E": "tende a reduzir a velocidade de rotação da Terra."
+   },
+   "anulada": false,
+   "gabarito": "E",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q28",
+   "numero": 28,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t27-29",
+   "enunciado": "Conforme o texto, os fenômenos naturais que desempenham papel significativo na complexa interação gravitacional que afeta a rotação da Terra são",
+   "alternativas": {
+    "A": "terremotos.",
+    "B": "vulcões.",
+    "C": "avalanches.",
+    "D": "marés dos oceanos.",
+    "E": "ciclones."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q29",
+   "numero": 29,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": "t27-29",
+   "enunciado": "Considerando os seres vivos atuais, as informações trazidas pelo texto e os princípios da Teoria Sintética da Evolução, é correto afirmar que",
+   "alternativas": {
+    "A": "as espécies necessariamente se adaptarão às novas mudanças do planeta.",
+    "B": "somente espécies de dias longos, ou seja, aquelas que precisam de mais horas de luz, sobreviverão às mudanças previstas.",
+    "C": "é difícil prever como se dará a evolução das espécies, porque esse é um processo mediado pelo acaso.",
+    "D": "nenhuma espécie sobreviverá às mudanças na Terra e novas espécies surgirão em seu lugar.",
+    "E": "espécies aquáticas terão vantagem adaptativa sobre espécies terrestres, uma vez que todos os continentes submergirão com o derretimento das geleiras."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-1-q30",
+   "numero": 30,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A imagem a seguir ilustra o aparecimento de uma barreira que promoveu separação de uma população de rinocerontes e consequente redução no tamanho das populações resultantes.\n\n![ilustração “Redução no tamanho da população após a fragmentação do habitat”: uma população de rinocerontes que, com o tempo, se divide em dois grupos menores separados por casas](fig:p13-f1)\n\nDisponível em https://kids.frontiersin.org/articles/10.3389/ (Adaptado).\n\nÉ correto afirmar que, nas populações fragmentadas, ocorre",
+   "alternativas": {
+    "A": "maior variabilidade genética.",
+    "B": "maior risco de aparecimento de doenças genéticas recessivas.",
+    "C": "menor frequência de mutações.",
+    "D": "seleção natural dos indivíduos com características genéticas dominantes.",
+    "E": "favorecimento da mistura entre elas."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  }
+ ]
+}

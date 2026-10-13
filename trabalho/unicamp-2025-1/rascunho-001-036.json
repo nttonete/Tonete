@@ -1,0 +1,520 @@
+{
+  "edicao": "unicamp-2025-1",
+  "textos_base": {
+    "t5-6": "Os meses de abril e maio de 2024 foram marcados tanto pela ocorrência de ondas de calor, que elevaram acima da média as temperaturas em estados das regiões Centro-Oeste, Sudeste e parte do Sul, quanto pela ocorrência de precipitações intensas e concentradas, que desencadearam alagamentos, inundações e movimentos gravitacionais de massa no Rio Grande do Sul. Essas regiões são marcadamente urbanizadas, abrigando grande contingente da população brasileira que vive em cidades, agora sujeitas à incidência de eventos extremos.\n\nFrente a esse cenário, são imprescindíveis, no enfrentamento dos problemas a curto, médio e longo prazos, as ações de planejamento territorial.\n\n![mapa das condições meteorológicas do Brasil em 09/05/2024, com áreas de ondas de calor, frente fria e sistemas de alta e baixa pressão](fig:p04-c1)\n\n(Elaboração COMVEST (2024), baseado nas seguintes fontes: https://noticias.uol.com.br/cotidiano/ultimas-noticias/2024/04/30/calor-espantoso-onda-nao-da-tregua-e-sp-pode-bater-recorde-historico.htm/; https://www.marinha.mil.br/chm/dados-do-smm-cartas-sinoticas/cartas-sinoticas. Acesso em 10/05/2024.)",
+    "t9-10": "Os últimos anos testemunharam a retomada do interesse de alguns países pela exploração da Lua. Diversas missões com destino a esse satélite foram lançadas: Chandrayaan-3 (Índia, 2023), Luna 25 (Rússia, 2023), Peregrine Mission One (EUA, 2024), Slim (Japão, 2024) e Chang´e 6 (China, 2024).",
+    "t13-14": "A energia solar desempenha papel substancial nas soluções energéticas de desenvolvimento sustentável: além de fazer uso de tecnologia pouco agressiva ao ambiente, é uma enorme fonte de energia renovável.",
+    "t18-19": "**Texto 1**\n\nThe fact that so few African Americans write science fiction is perplexing since they, in a very real sense, inhabit a sci-fi nightmare in which unseen but no less palpable acts of intolerance frustrate their movement; official histories undo what has been done; and technology is too often brought to bear on black bodies. Moreover, the sublegitimate status of science fiction in literature mirrors the subaltern position to which blacks have been relegated throughout American history. The notion of Afrofuturism gives rise to a troubling antinomy: can a community whose past has been deliberately rubbed out, and whose energies have been consumed by the search for legible traces of its history, imagine possible futures?\n\n(Adaptado de DERY, M. *Black to the future*: interviews with Samuel R. Delany, Greg Tate, and Tricia Rose. In: ___. (Ed.) *The Discourse of cyberculture*. Durham; London: Duke University Press, p. 179-222, 1994.)",
+    "t35-36": "Leia o trabalho da grafiteira e muralista Simone Siss (Texto 1), reconhecida por abordar temáticas femininas em sua obra.\n\n**Texto 1**\n\n![grafite em muro com uma mão que segura uma lata de spray, frases pintadas e quatro cartazes destacados por uma chave](fig:p14-c1)\n\nAbri 1 livro. Me li inteira!\nSim... Eu falo meus nãos.\nSou Maria... E vou com as outras!\nMoro mesmo dentro de mim.\n\n(SISS, S. *O que tenho dentro de nós*. Grafite em muro no centro de Campinas. 2024. Reprodução fotográfica.)"
+  },
+  "questoes": [
+    {
+      "numero": 1,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em termos cartográficos, o conceito de escala é fundamental para qualquer tipo de representação espacial, dado que toda visualização gráfica é elaborada com base em uma redução do mundo real. Dessa forma, dependendo da escala adotada, tem-se, no mapa, uma generalização da informação, generalização esta que leva em conta o objetivo pretendido. A figura a seguir ilustra essa relação entre a escala adotada e o nível de generalização da informação no mapa.\n\n![esquema da relação entre escala do mapa, área mapeada, informação e generalização](fig:p03-f1)\n\n(MENEZES, P. M. L.; FERNANDES, M. C. *Roteiros de Cartografia.* São Paulo: Oficina de Textos, p. 49-53, 2013.)\n\nTendo em vista seu conhecimento sobre cartografia, informações do texto e a análise da figura, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Atlas escolares apresentam mapas com escala menor e pouca generalização. O objetivo dos mapas que figuram nesses atlas é a representação espacial de diferentes variáveis físico-naturais, demográficas e socioeconômicas, acessíveis a um público bastante diversificado.",
+        "B": "Os mapas elaborados para estudos de impactos ambientais, estudos estes aplicados a projetos de infraestrutura, precisam ter escala maior e, consequentemente, menos generalização dos dados, pois a intervenção no território deve minimizar impactos ambientais.",
+        "C": "Atlas escolares apresentam mapas com escala maior e menos informação. O objetivo dos mapas que figuram nesses atlas é a representação espacial de diferentes variáveis (físico-naturais, demográficas e socioeconômicas) que sejam acessíveis a um público bastante especializado.",
+        "D": "Os mapas elaborados para estudos de impactos ambientais, estudos estes aplicados a projetos de infraestrutura, precisam ter escala menor e, consequentemente, mais informação, pois a intervenção no território deve minimizar impactos ambientais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 2,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Para além das guerras Rússia-Ucrânia e Israel-Palestina, estão em curso, em quase todos os continentes, conflitos que retratam mutações geopolíticas aceleradas. Há um movimento de redefinição de fronteiras até então reconhecidas pela comunidade internacional e, de certo modo, protegidas por um complexo arcabouço normativo. Na América Latina, por exemplo, a Venezuela reivindica da Guiana a região de Essequibo, cujo limite fronteiriço foi definido há 125 anos.\n\n(Adaptado de https://www.courrierinternational.com/article/analyse-depuis-les-guerres-en-ukraine-et-a-gaza-les-frontieres-ne-sont-plus-intangibles. Acesso em 06/06/2024.)\n\nTendo em vista seus conhecimentos e considerando o texto anterior, é correto dizer que a fronteira entre países é essencialmente",
+      "alternativas": {
+        "A": "geométrica: trata-se de uma linha demarcada por formas geográficas tais como muros, cercas ou vias de circulação.",
+        "B": "política: trata-se de uma zona definida por meio de disputas e acordos internacionais pelo direito de uso de um determinado território.",
+        "C": "natural: trata-se de uma linha demarcada por meio de marcos geográficos tais como rios, mares, lagos, geleiras e montanhas.",
+        "D": "técnica: trata-se de uma zona definida por tratados e convenções locais que protegem a soberania do Estado-nação."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 3,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![gráfico de barras dos dez maiores produtores de grãos de cacau no mundo, em mil toneladas, em 2022](fig:p03-c1)\n\n(https://www.fao.org/faostat/es/#rankings/countries_by_commodity. Acesso em 23/05/2024.)\n\nOriginário do continente americano, o cacau pôde se difundir em regiões africanas com características naturais similares às encontradas na América do Sul, de tal modo que, na atualidade, o continente africano se tornou o maior produtor e exportador de cacau do mundo, sendo elo fundamental dos circuitos espaciais de produção, distribuição e consumo do chocolate no mundo.\n\nIndique a principal região cacaueira do continente africano, associando-a às condições socioambientais de produção.",
+      "alternativas": {
+        "A": "África ocidental, na costa do Golfo da Guiné, em áreas de floresta equatorial-tropical; cultivo sob forte custo ecológico e colheita manual.",
+        "B": "África setentrional, na costa do Estreito de Gibraltar, em áreas de floresta mediterrânea; cultivo com manejo sustentável da floresta e colheita mecanizada.",
+        "C": "África ocidental, na costa do Golfo da Guiné, em áreas de floresta mediterrânea; cultivo com manejo sustentável da floresta e colheita mecanizada.",
+        "D": "África setentrional, na costa do Estreito de Gibraltar, em áreas de floresta equatorial-tropical; cultivo sob forte custo ecológico e colheita manual."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 4,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os escudos cristalinos são constituídos por rochas de idades pré-cambrianas que foram soerguidas e expostas; essa estrutura geológica não sofreu deformação no Éon Fanerozoico (período geológico iniciado há 543 milhões de anos e que se estende até o presente). Suas áreas são exploradas em todo o mundo por concentrarem recursos naturais em grande escala.\n\nA figura a seguir apresenta a extensão dos escudos cristalinos nos diferentes continentes.\n\n![mapa-múndi da distribuição dos escudos cristalinos nos continentes, com legenda](fig:p04-f1)\n\n(Adaptado de CHRISTOPERSEN, R. W. *Geossistemas: uma introdução à Geografia Física*. 7.ed. Porto Alegre: Bookman, p. 363, 2012.)\n\nOs escudos cristalinos são formados por rochas",
+      "alternativas": {
+        "A": "ígneas e metamórficas; apresentam combustíveis fósseis, a exemplo de petróleo e gás, explorados pela indústria petroquímica.",
+        "B": "sedimentares; apresentam jazidas de combustíveis fósseis, a exemplo de petróleo e gás, jazidas estas exploradas pela indústria siderúrgica.",
+        "C": "ígneas e metamórficas; apresentam jazidas de minerais metálicos, explorados em larga escala pela indústria siderúrgica.",
+        "D": "sedimentares; apresentam jazidas de minerais metálicos e não metálicos, explorados pela indústria petroquímica."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 5,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": "t5-6",
+      "enunciado": "Considerando os fenômenos meteorológicos atuantes no Brasil e tendo em vista as informações do texto e da figura anterior, pode-se afirmar que a ocorrência das",
+      "alternativas": {
+        "A": "precipitações extremas no período apresentado ficou restrita ao Rio Grande do Sul, pois a frente fria não avançou, por conta do bloqueio decorrente da Baixa Pressão, em direção ao interior do país.",
+        "B": "ondas de calor no período está associada a eventos de precipitação extrema, pois as Altas Pressões Atmosféricas dão origem às nuvens de tempestades que formam as frentes frias.",
+        "C": "precipitações extremas no período ocorreu no centro das áreas de Alta Pressão e de Baixa Pressão, sendo que nas bordas desses sistemas se formaram as ondas de calor com tempo seco e temperaturas altas.",
+        "D": "ondas de calor tem origem na formação de zonas de Alta Pressão; essas zonas, além de formarem tempo seco e, nesse caso, temperatura elevada, bloqueiam o avanço de frentes frias para o interior do país."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 6,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": "t5-6",
+      "enunciado": "No contexto dos eventos extremos ligados às inundações, aos alagamentos e aos movimentos gravitacionais de massa nas grandes cidades e metrópoles brasileiras, é possível afirmar que são necessárias iniciativas de planejamento territorial com programas e metas de abrangência nacional. Tais iniciativas devem envolver, portanto, uma ação",
+      "alternativas": {
+        "A": "normativa, de responsabilidade do ente municipal que define e custeia as estratégias para enfrentar fenômenos urgentes; deve também se apoiar na Política Nacional de Proteção e Defesa Civil e nos indivíduos que se voluntariam.",
+        "B": "sistêmica, de responsabilidade dos três entes federativos, ação esta que dê conta de enfrentar os graves problemas urbano-ambientais do país; a participação popular e o cumprimento da função social da cidade são instrumentos importantes.",
+        "C": "pragmática, de responsabilidade dos entes estaduais e Distrito Federal; para a gestão metropolitana, esses entes contratam equipes técnico-científicas de organizações não governamentais, conforme previsto no Estatuto da Cidade.",
+        "D": "setorial, de responsabilidade do ente federal; esse ente, conforme estabelecido no Estatuto da Metrópole, prevê um orçamento destinado a possíveis deslocamentos massivos da população metropolitana a áreas rurais em curto prazo."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O mar contém uma grande quantidade de recursos vivos e não vivos e, por isso, se torna cada vez mais um espaço de disputa no contexto global. O Estado brasileiro vem utilizando o termo “Amazônia Azul”, em analogia com “Amazônia Verde”, para, com isso, designar uma extensa faixa oceânica costeira do Atlântico Sul, de elevada importância para o país. Essa faixa conta com grandes reservas de petróleo do pré-sal, elevada biodiversidade e outras riquezas naturais.\n\nA figura a seguir apresenta a compartimentação do espaço marítimo brasileiro.\n\n![perfil esquemático do espaço marítimo brasileiro conforme a CNUDM: águas interiores, mar territorial, zona contígua, zona econômica exclusiva, plataforma continental e alto mar](fig:p05-c2)\n\n(Elaboração: COMVEST (2024), baseado na Agência de Notícias Marítimas (Marinha do Brasil). https://www.marinha.mil.br/agenciadenoticias/novo-mapa-do-brasil-e-expandido-com-5-7-milhoes-de-km2-de-area-maritima. Acesso em 04/07/2024.)\n\nConsiderando o espaço marítimo brasileiro e tendo como referência o traçado da linha da costa, é correto afirmar que o Brasil tem",
+      "alternativas": {
+        "A": "o controle da plataforma continental estendida, mas não o direito exclusivo de exploração econômica dos recursos no limite do Mar Territorial.",
+        "B": "soberania de exploração de recursos em toda a extensão da área da plataforma continental, conforme os tratados internacionais sobre o Direito do Mar.",
+        "C": "o controle das águas em alto mar com a autorização das Nações Unidas (ONU), ampliando a exploração para além do limite da Zona Econômica Exclusiva (ZEE).",
+        "D": "soberania sobre a área do Mar Territorial e detém o direito de exploração e de uso dos recursos até o limite da Zona Econômica Exclusiva (ZEE)."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 8,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Mudanças climáticas têm influenciado correntes de ar na alta atmosfera. Em particular, na região do Atlântico Norte, onde ventos fortes geralmente sopram de oeste para leste, os tempos de voos têm sofrido alterações. Em uma viagem de Baltimore (EUA) a Londres (Reino Unido), o tempo total de voo é igual a oito horas quando não há vento em toda a trajetória. Considere agora uma viagem subdividida em três trechos (A, B e C), conforme a figura a seguir. No trecho B, na direção de oeste para leste, há vento com velocidade constante de módulo $\\left|\\vec{v}_{\\textit{vento,solo}}\\right| = 250\\ \\text{km/h}$, <u>em relação ao solo</u>.\n\n![trajetória de Baltimore (oeste) a Londres (leste) dividida nos trechos A, B e C; vento de 250 km/h só no trecho B, que tem 2000 km](fig:p05-c1)\n\nSendo, nos três trechos, o módulo da velocidade média do avião <u>em relação ao vento</u> $\\left|\\vec{v}_{\\textit{avião,vento}}\\right| = 750\\ \\text{km/h}$, podemos afirmar que",
+      "alternativas": {
+        "A": "o módulo da velocidade média do avião <u>em relação ao solo</u> no trecho B é $\\left|\\vec{v}_{\\textit{avião,solo}}\\right| = 500\\ \\text{km/h}$, e o tempo de viagem no mesmo trecho é $\\Delta t = 4{,}0\\ \\text{h}$.",
+        "B": "o módulo da velocidade média do avião <u>em relação ao solo</u> no trecho B é $\\left|\\vec{v}_{\\textit{avião,solo}}\\right| = 500\\ \\text{km/h}$, e o tempo de viagem no mesmo trecho é $\\Delta t = 2{,}0\\ \\text{h}$.",
+        "C": "o módulo da velocidade média do avião <u>em relação ao solo</u> no trecho B é $\\left|\\vec{v}_{\\textit{avião,solo}}\\right| = 1000\\ \\text{km/h}$, e o tempo de viagem no mesmo trecho é $\\Delta t = 4{,}0\\ \\text{h}$.",
+        "D": "o módulo da velocidade média do avião <u>em relação ao solo</u> no trecho B é $\\left|\\vec{v}_{\\textit{avião,solo}}\\right| = 1000\\ \\text{km/h}$, e o tempo de viagem no mesmo trecho é $\\Delta t = 2{,}0\\ \\text{h}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 9,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t9-10",
+      "enunciado": "Uma sonda descreve, em torno da Lua, uma órbita circular de raio $r = 1{,}848 \\times 10^6\\ \\text{m}$ e dá uma volta completa num período $T = 2{,}0\\ \\text{h}$. Nesse movimento circular uniforme, qual a velocidade escalar da sonda em relação ao centro da Lua?\nSe necessário, use $\\pi \\approx 3{,}0$.",
+      "alternativas": {
+        "A": "256,6 m/s.",
+        "B": "1540 m/s.",
+        "C": "3696 km/s.",
+        "D": "5544 km/s."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 10,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t9-10",
+      "enunciado": "Ao longo da linha que une o centro da Terra ao da Lua (ver figura A), há um ponto P para o qual as forças gravitacionais da Terra, $\\vec{F}_{\\text{Terra}}$, e da Lua, $\\vec{F}_{\\text{Lua}}$, exercidas sobre uma sonda, têm módulos iguais e sentidos opostos. Isso significa que, no ponto P, essas duas forças se cancelam.\n\n![Figura A: eixo r/d com a Terra em 0, a Lua em 1 e o ponto P entre elas](fig:p06-c1)\n\nO gráfico da figura B representa a componente da aceleração resultante $a$ das forças $\\vec{F}_{\\text{Terra}}$ e $\\vec{F}_{\\text{Lua}}$ ao longo da referida linha, sendo $r$ a distância ao centro da Terra e $d \\simeq 380\\,000\\ \\text{km}$ a distância Terra-Lua. Valores positivos de $a$ indicam que o vetor aceleração aponta para a Lua, enquanto que valores negativos de $a$ implicam que esse vetor aponta para a Terra.\n\n![Figura B: gráfico da aceleração a, em m/s², em função de r/d, de 0,2 a 0,9](fig:p06-c2)\n\nO ponto P fica aproximadamente a que distância do centro da Lua?",
+      "alternativas": {
+        "A": "38 000 km.",
+        "B": "114 000 km.",
+        "C": "266 000 km.",
+        "D": "342 000 km."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 11,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O projeto internacional DUNE (*Deep Underground Neutrino Experiment*) é um gigantesco experimento idealizado para o estudo de neutrinos. Para a detecção da luz emitida quando os neutrinos atravessam enormes tanques de argônio líquido, foi projetado na Unicamp um dispositivo chamado Arapuca, cuja função é aumentar a área de coleta da luz, confinando-a no interior de uma caixa que contém os sensores. Antes de entrar na Arapuca, a luz emitida, de comprimento de onda $\\lambda_1 = 128\\ \\text{nm}$, incide num material que tem por finalidade modificar o comprimento de onda da radiação, de modo que, ao emergir desse material, o novo comprimento de onda da luz passe a ser $\\lambda_2 = 350\\ \\text{nm}$. Considere que, nessa etapa do experimento, ambos os feixes luminosos de comprimentos de onda $\\lambda_1$ e $\\lambda_2$ <u>propagam-se no mesmo meio</u>. Sendo $f_1$ a frequência e $v_1$ a velocidade da luz no comprimento de onda $\\lambda_1$, e $f_2$ a frequência e $v_2$ a velocidade da luz no comprimento de onda $\\lambda_2$, pode-se afirmar que",
+      "alternativas": {
+        "A": "a frequência $f_2$ é maior que a frequência $f_1$; a velocidade $v_2$ é igual à velocidade $v_1$.",
+        "B": "a frequência $f_2$ é menor que a frequência $f_1$; a velocidade $v_2$ é igual à velocidade $v_1$.",
+        "C": "a frequência $f_2$ é igual à frequência $f_1$; a velocidade $v_2$ é maior que a velocidade $v_1$.",
+        "D": "a frequência $f_2$ é igual à frequência $f_1$; a velocidade $v_2$ é menor que a velocidade $v_1$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Pesquisas recentes demonstraram que alguns compostos, como o $\\text{ZnW}_2\\text{O}_8$, apresentam coeficiente de dilatação térmica linear ($\\alpha$) negativo, diferentemente da maioria dos materiais, que se expandem com o aquecimento. O gráfico a seguir ilustra a variação, em função da temperatura, do comprimento $L$ de uma barra dessa classe de materiais.\n\n![gráfico do comprimento L, em mm, em função da temperatura, em °C, de 0 a 200](fig:p06-c3)\n\nConsiderando que o coeficiente de dilatação $\\alpha$ seja aproximadamente constante no intervalo de temperatura entre $0\\ ^\\circ\\text{C}$ e $50\\ ^\\circ\\text{C}$, pode-se dizer que o valor de $\\alpha$ nesse intervalo é igual a",
+      "alternativas": {
+        "A": "$-1{,}0 \\times 10^{-7}\\ ^\\circ\\text{C}^{-1}$.",
+        "B": "$-5{,}0 \\times 10^{-6}\\ ^\\circ\\text{C}^{-1}$.",
+        "C": "$-2{,}5 \\times 10^{-4}\\ ^\\circ\\text{C}^{-1}$.",
+        "D": "$-4{,}0 \\times 10^{-2}\\ ^\\circ\\text{C}^{-1}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 13,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t13-14",
+      "enunciado": "Operando em condições ótimas, um painel solar gera energia elétrica numa potência $P = 462\\ \\text{W}$, com uma diferença de potencial $U_{\\text{painel}} = 42\\ \\text{V}$ nos seus terminais. Para que a energia gerada seja armazenada numa bateria de diferença de potencial $U_{\\text{bat}} = 12\\ \\text{V}$, usa-se um dispositivo que ajusta a diferença de potencial, dispositivo este chamado de controlador de carga (ver figura). Se, numa situação ideal, toda a energia gerada pelo painel é armazenada na bateria, quais os valores das correntes elétricas $i_{\\text{painel}}$ e $i_{\\text{bat}}$ nos terminais do painel e da bateria, respectivamente?\n\n![painel solar (42 V) ligado a um controlador de carga, que alimenta uma bateria (12 V), com as correntes i painel e i bat indicadas](fig:p07-f1)",
+      "alternativas": {
+        "A": "$i_{\\text{painel}} = 11\\ \\text{A}$ e $i_{\\text{bat}} = 38{,}5\\ \\text{A}$.",
+        "B": "$i_{\\text{painel}} = 11\\ \\text{A}$ e $i_{\\text{bat}} = 3{,}1\\ \\text{A}$.",
+        "C": "$i_{\\text{painel}} = 134{,}75\\ \\text{A}$ e $i_{\\text{bat}} = 38{,}5\\ \\text{A}$.",
+        "D": "$i_{\\text{painel}} = 134{,}75\\ \\text{A}$ e $i_{\\text{bat}} = 3{,}1\\ \\text{A}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 14,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t13-14",
+      "enunciado": "A área de um painel solar que gera uma potência elétrica $P = 462\\ \\text{W}$ é $A = 2{,}5\\ \\text{m}^2$. A intensidade da radiação solar que incide no painel, ou seja, a potência da radiação solar por unidade de área do painel, é $I_{\\text{solar}} = 924\\ \\text{W/m}^2$. Qual é a eficiência do painel solar, ou seja, qual é a razão entre a energia elétrica gerada e a energia solar que incide no painel num dado intervalo de tempo?",
+      "alternativas": {
+        "A": "5 %.",
+        "B": "20 %.",
+        "C": "50 %.",
+        "D": "80 %."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia o texto a seguir.\n\n**Police under fire after threat to arrest ‘openly Jewish’ man near pro-Palestinian protest**\n\nScotland Yard criticised after suggesting Gideon Falter’s presence was ‘provocative’ and he was ‘antagonising’ protesters\n\n(https://www.telegraph.co.uk/news/2024/04/19/. Acesso em 20/04/2024.)\n\nDepreende-se, da leitura desse texto, que",
+      "alternativas": {
+        "A": "a polícia sofreu ameaças depois de prender um cidadão judeu que estaria provocando participantes de um protesto pró-Palestina.",
+        "B": "em um protesto pró-Palestina, a ação da polícia foi criticada, pois os policiais teriam cogitado prender Gideon Falter, que estaria confrontando manifestantes.",
+        "C": "a Scotland Yard criticou a ação do cidadão Gideon Falter, que estaria provocando participantes de um protesto pró-Palestina.",
+        "D": "em um protesto pró-Palestina, a Scotland Yard criticou a insinuação de que a polícia teria ameaçado prender um cidadão que estaria confrontando manifestantes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 16,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A imagem a seguir apresenta a transcrição de um diálogo em um vídeo publicado no *Instagram*.\n\n![seis quadros de um vídeo com o diálogo, em balões de fala em inglês, entre uma médica e uma paciente em cadeira de rodas](fig:p07-c1)\n\n(Adaptado de https://www.instagram.com/dhar.mann. Acesso em 12/04/2024.)\n\nNo diálogo, a principal característica da reformulação da fala da médica é a inserção de",
+      "alternativas": {
+        "A": "expressões que utilizam verbos frasais para recontextualizar o tratamento da paciente.",
+        "B": "abreviações de substantivos, através das quais a médica amplia as informações do caso.",
+        "C": "gírias que utilizam diversas classes de palavras para especificar melhor o diagnóstico da paciente.",
+        "D": "vocábulos marcados pela oralidade, através dos quais a médica atualiza os procedimentos futuros."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Use as informações do texto e da figura a seguir para a escolha da alternativa correta.\n\nImages generated with artificial intelligence (AI) are often not faithful representations of reality. The chart illustrates the level of disparity between a realistic representation of race and gender in various professions and the images generated by AI. The center line in this graph means equal representation. In one case, AI-generated images exclusively represented a certain profession as being held by white males, even though it is actually held by a range of men, women, white, and non-white people. In another case, although more than half of the people holding this position self-identified as white, AI represented it as being held solely by women who were primarily non-white.\n\n![gráfico “Amplified stereotypes”: para várias profissões, compara a autoidentificação de gênero e de raça de trabalhadores dos EUA (2021) com as imagens geradas por um modelo de IA](fig:p08-f1)\n\n(Adaptado de https://www.nature.com/articles/d41586-024-00674-9. Acesso em 02/05/2024.)\n\nConsiderando as informações da figura, quais as duas profissões referidas no texto?",
+      "alternativas": {
+        "A": "Motorista de taxi e comissário(a) de bordo.",
+        "B": "Chef de cozinha e enfermeiro(a).",
+        "C": "Designer de software e trabalhador(a) doméstico(a).",
+        "D": "Piloto(a) e cozinheiro(a)."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t18-19",
+      "enunciado": "De acordo com o texto 1, a escassez de autores afro-americanos em obras de ficção científica representa um",
+      "alternativas": {
+        "A": "pesadelo que retrata o apagamento sistemático dos avanços culturais da comunidade negra.",
+        "B": "protesto contra o processo de exclusão e de subalternização dessas pessoas na sociedade.",
+        "C": "movimento explícito que tem por objetivo deslegitimar o passado e a história do movimento negro.",
+        "D": "paradoxo que se deve à semelhança entre as violências que vivem e ações retratadas nessas obras."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 19,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t18-19",
+      "enunciado": "**Para responder questão 19, leia o texto 2 e retome o texto 1.**\n\n**Texto 2**\n\n**“Parable of the Talents”**\n(Octavia E. Butler)\n\n“To survive,\nLet the past\nTeach you--\nPast customs,\nStruggles,\nLeaders and thinkers.\nLet\nThese\nHelp you.\nLet them inspire you,\nWarn you,\nGive you strength.\nBut beware:\nGod is Change.\nPast is past.\nWhat was\nCannot\nCome again.\nTo survive,\nknow the past.\nLet it touch you.\nThen let\nThe past Go.”\n\n(BUTLER, Octavia E. *Parable of the Talents*. New York, Durham and London: Open Road, 1998.)\n\nO texto 2 toca em um aspecto central do afrofuturismo e remete ao tema do questionamento do texto 1. Assim, pode-se dizer que o poema reconhece que",
+      "alternativas": {
+        "A": "o passado pode contribuir para a construção de futuros possíveis, mas não pode ser repetido.",
+        "B": "a imaginação de futuros possíveis está condicionada ao ensino sobre líderes religiosos do passado.",
+        "C": "o apagamento do passado pode trazer ensinamentos, mas isso não garante a criação de futuros possíveis.",
+        "D": "a sobrevivência em futuros possíveis requer que os costumes e as dores do passado sejam esquecidos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 20,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O post a seguir foi retirado da rede social de ALOK, artista cujos trabalhos abordam questões de gênero e identidade.\n\nalokvmenon • Follow\n\nMy first word was irony. Growing up a boy, they called me too feminine. When I finally claimed femininity as my own, they called me a man. These are grammar lessons: some of us are only allowed to be thought, never to think. When they insist that our pronouns violate grammar to some degree, they are right. Grammar is less about the mechanics of language, more the monopoly of it. It´s not just about who can speak, but who gets to speak. He who controls the word controls the world. What they mean is: don´t object to remaining object. You are not a subject (unless you subject yourself to me). Subject. Predicate. Power. What this means is that we could both launch the same words and they would still land in different places. I could spend the rest of my life articulating every detail, every grain, every follicle. And still they would not understand. Because of what I look like. No: because of what they feel about what I look like. This is what it feels like to be brown, trans, femme, and alive.\n\n(Adaptado de www.instagram.com/p/C51W1v8vXo9/. Acesso em 22/04/2024.)\n\nNo *post*, a argumentação é articulada a partir dos diferentes sentidos das palavras",
+      "alternativas": {
+        "A": "“gramática” e “pronomes”, pois o ensino, nas escolas, desses temas invisibiliza pessoas não binárias as quais supostamente violam regras gramaticais.",
+        "B": "“sujeito” e “objeto”, pois esses termos só são usados para pessoas não binárias quando elas se sujeitam e aceitam o controle por aqueles que têm poder.",
+        "C": "“sujeito” e “predicado”, pois as relações de poder hierárquicas impedem que pessoas não binárias se expressem e assumam o controle de suas palavras.",
+        "D": "“objeto” e “pronomes”, pois embora as pessoas não binárias escolham seus pronomes, elas ainda são objetificadas devido às suas aparências físicas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 21,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia o resumo de uma pesquisa que, em 2021, já alertava para questões climáticas e fatores a elas relacionados.\n\n**Politics of attributing extreme events to climate change**\n\nClimate change shapes weather events. However, describing it as the cause of disasters can be misleading, since disasters are caused by pre-existing fragilities and inequalities on the ground. Attribution is not neutral. Hence, analytic frames that attribute disaster to climate can divert attention from place-based vulnerabilities and their sociopolitical causes. While politicians may blame climate change, the public may hold the government accountable for inadequate investments in flood or drought prevention. To be strategic and moral, framing choices must therefore be sensitive to context and to how the values implicit within analytic frames about the causes of disasters shape policy responses. Such sensitivity requires multicausal analysis of weather-linked disasters to reduce the damages. Through examples from around the world, especially Brazil, we discuss how and why climate-centric disaster framing can erase from view—and, thus, from policy agendas—the very socioeconomic and political factors that centrally cause vulnerability and suffering in weather extremes.\n\n(Adaptado de https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wcc.750. Acesso em 15/05/2024.)\n\nQual alternativa expressa corretamente os argumentos dos autores do texto?",
+      "alternativas": {
+        "A": "Culpar, por desastres ambientais, os locais de vulnerabilidade é uma estratégia para neutralizar a responsabilidade humana por esses acontecimentos.",
+        "B": "É importante que a discussão sobre desastres ambientais considere o clima como fator central para a redução dos danos decorrentes desses eventos.",
+        "C": "Os políticos e o público falham por não reconhecerem que as políticas públicas são cruciais para a criação de estratégias de prevenção contra enchentes.",
+        "D": "Ignorar o protagonismo de questões políticas em casos de desastres ambientais omite a relação direta entre a esfera política e as causas e efeitos dessas catástrofes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 22,
+      "materia": "filosofia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sócrates: – [...] Pois segundo entendo, no limite do cognoscível é que se avista, a custo, a ideia do Bem; e, uma vez avistada, compreende-se que ela é para todos a causa de quanto há de justo e belo; que no mundo visível, foi ela que criou a luz, da qual é senhora; e que no mundo inteligível, é ela a senhora da verdade e da inteligência, e que é preciso vê-la para se ser sensato na vida particular e pública.\nGlauco: – Concordo também, até onde sou capaz de seguir a tua imagem.\n\n(Adaptado de PLATÃO. *A República.* Lisboa: Fundação Calouste Gulbenkian, 517b6-c5.)\n\nO diálogo anterior aparece em uma passagem da obra *A República*, de Platão, trecho que ficou conhecido como “o mito da caverna”. Sobre esse diálogo, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O diálogo trata da ideia do Bem, causa do justo, do belo, da verdade e da inteligência; o Bem é prontamente visível aos habitantes da caverna.",
+        "B": "Por ser causa da justiça e senhora da verdade e da inteligência, a ideia do Bem orienta o comportamento dos habitantes da caverna, na sua vida particular e pública.",
+        "C": "Embora não seja facilmente cognoscível, a Ideia do Bem – enquanto causa do justo e do belo – não é prescindível para a tomada de boas decisões na cidade.",
+        "D": "O diálogo entre Sócrates e Glauco trata da Ideia do Bem, que – por situar-se no limite do cognoscível – permanece a todos incognoscível."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 23,
+      "materia": "filosofia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Mary Wollstonecraft abre sua obra, *Reivindicações dos direitos da mulher* (1792), com uma carta ao Sr. Talleyrand-Périgord, antigo bispo de Autun e político ativo durante a Revolução Francesa. O bispo propõe nova Constituição, o que foi apresentado e discutido na Assembleia revolucionária. Nessa carta, Wollstonecraft afirma:\n\n“Mas, se as mulheres devem ser excluídas, sem voz, da participação dos direitos naturais da humanidade, prove antes, para afastar a acusação de injustiça e inconsistência, que elas são desprovidas de razão; de outro modo, essa falha em sua NOVA CONSTITUIÇÃO sempre mostrará que o homem deve de alguma forma agir como um tirano, e a tirania, quando mostra sua face despudorada em qualquer parte da sociedade, sempre solapa a moralidade”.\n\n(WOLLSTONECRAFT, M. *Reivindicações dos direitos da mulher*. São Paulo: Boitempo Editorial, p. 20, 2016.)\n\nAssinale a opção que melhor sintetiza a crítica de Wollstonecraft apresentada no excerto.",
+      "alternativas": {
+        "A": "Ao abordar tanto a possibilidade de uma nova constituição quanto a tirania masculina, Wollstonecraft faz uma crítica ao absolutismo, finalmente derrubado, através da instauração da República e da Declaração dos Direitos do Homem, no contexto da Revolução Francesa.",
+        "B": "A crítica de Wollstonecraft recai sobre os homens que, ao serem tiranos com as mulheres, destroem a moral da sociedade. Ela defende a necessidade de uma nova constituição: que não seja injusta com o sexo feminino e conceda direitos às mulheres, ainda que não sejam racionais como os homens.",
+        "C": "A nova Constituição, defendida pelo Sr. Talleyrand-Périgord, é injusta porque retira das mulheres direitos conquistados em decorrência da Revolução Francesa, quando as mulheres passaram a ser reconhecidas como seres racionais e participantes da humanidade.",
+        "D": "A menos que seja provado que a racionalidade das mulheres é deficiente, se comparada à dos homens, excluí-las da Constituição é ato injusto, ainda que coerente com uma cultura que aceita a tirania masculina."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 24,
+      "materia": "filosofia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Quando eu falo em adiar o fim do mundo, não é a este mundo em colapso que estou me referindo. Este tem um esquema tão violento que eu queria mais é que ele desaparecesse à meia noite de hoje e que amanhã a gente acordasse em um novo. No entanto, efetivamente, estamos atuando no sentido de uma transfiguração, desejando aquilo que o Nêgo Bispo chama de confluências, e não essa exorbitante euforia da monocultura, que reúne os birutas que celebram a necropolítica sobre a vida plural dos povos deste planeta. Ao contrário do que estão fazendo, confluências evoca um contexto de mundos diversos que podem se afetar. (...) Se o colonialismo nos causou um dano quase irreparável foi o de afirmar que somos todos iguais.\n\n(Adaptado de KRENAK, Ailton. *Futuro ancestral*. São Paulo: Companhia das Letras, p. 40-42, 2022.)\n\nAssinale a alternativa que explicita a crítica de Krenak à monocultura, tal como é enunciada no excerto.",
+      "alternativas": {
+        "A": "A monocultura praticada nos grandes latifúndios é responsável por diversos problemas ambientais e pela necropolítica.",
+        "B": "A monocultura, assim como a imposição colonial de um modelo cultural único, se expressa na recusa da pluralidade de povos e culturas.",
+        "C": "Adiar o fim do mundo requer o combate à monocultura na produção agrícola e a transfiguração deste mundo em que estamos vivendo.",
+        "D": "A monocultura, produtora de violências, é resultado do colonialismo e da necropolítica."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 25,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Nos estudos sobre a Antiguidade Clássica produzidos até o final do século XX, era costumeira a afirmação de que as mulheres em Atenas não participavam da política. A definição de “política” na Grécia, todavia, era feita a partir dos olhos do mundo moderno, e, nesse caso, era um sinônimo de “cidadania”. O cidadão ateniense era homem, filho de pai e mãe atenienses. As mulheres, estrangeiros e escravos não gozavam do mesmo status. Após os anos de 2000, a partir de críticas de estudiosos, a definição de “política” e de “cidadania” na Grécia Clássica passou a ser repensada e a capacidade de ação das mulheres atenienses no espaço público foi redimensionada. Nesses estudos, as mulheres cidadãs de Atenas ganham visibilidade. Filhas de pai e mãe atenienses, nascidas em Atenas, tinham limitações de voto, mas desempenhavam funções no mundo cívico. Elas não podiam, por causa de seu sexo, ser juradas ou magistradas, por exemplo, mas estavam vivendo no mesmo universo público, sendo também cidadãs.\n\n(Adaptado de CUCHET, V. S. Quais direitos políticos para as cidadãs da Atenas clássica?. *Hélade*, 4(1), p. 143-158, 2018.)\n\nTendo em vista seus conhecimentos sobre Grécia Antiga e considerando o excerto anterior, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Desde o século XIX, os estudiosos defendem que o conceito de “cidadania” e o de “política” na democracia ateniense eram frágeis, sendo pertinentes aos homens da elite.",
+        "B": "Estudiosos afirmam que, na democracia ateniense, a cidadania e a política eram conceitos desvinculados; portanto, as mulheres atenienses estavam afastadas da vida pública.",
+        "C": "Desde os anos de 2000, os estudiosos passaram a reconhecer as mulheres da Antiguidade Clássica nascidas de pai e mãe atenienses como cidadãs plenas com direito ao voto.",
+        "D": "Novas pesquisas debatem os conceitos de “cidadania” e de “política”, bem como a relação desses conceitos com as mulheres atenienses que poderiam ser definidas como cidadãs."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 26,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em meados de fevereiro de 1765, Juana Antonia Gomiciaga, por intermédio do “procurador de pobres”, Diego Toribio de la Cueva, se apresentou ao Cabildo de Santiago. Ela confiava que o foro de justiça local pudesse dar solução ao seu pedido principal: obter o reconhecimento de sua liberdade, que, de acordo com sua versão, havia sido concedida verbalmente por sua senhora, Francisca Josefa Gomiciaga, em fevereiro de 1751. Nas palavras do procurador, a liberdade havia sido concedida devido à “piedade e compaixão”. Contudo, essa alforria verbal, ao longo do tempo, foi desconsiderada pelas senhoras de Juana, o que motivou a escrava Juana Antonia a recorrer à arena judicial.\n\n(Traduzido e adaptado de GONZALEZ, A. F. G. Los matices de la resistencia: Trayectorias vitales de mujeres esclavizadas ante la justicia eclesiástica de Santiago. Chile, siglos XVII y XVIII. *Autoctonía (Santiago)*, 8(1), p. 88-127, janeiro de 2024.)\n\nTendo em vista seus conhecimentos sobre América espanhola e considerando as informações, presentes no excerto, sobre o caso de Juana Antônia Gomiciaga, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "As ações judiciais resultaram em um questionamento da sociedade escravocrata; por conta delas, foi decretado o fim do sistema de escravidão africana no século XVIII.",
+        "B": "A resistência à escravidão indígena era marcada pelo enfrentamento físico e, no caso da resistência africana à escravidão, predominava a postura passiva.",
+        "C": "Embora houvesse demandas jurídicas dos escravizados, o Império era inflexível quanto a essas negociações na Justiça, como demonstrado no excerto.",
+        "D": "Os estudos sobre a escravidão têm demonstrado que muitos escravizados, entre várias estratégias, articulavam a luta pela liberdade na Justiça."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 27,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“A terra [Rio de Janeiro] continua ainda a parecer-me muito mal. É rodeada de serras inacessíveis, a maior parte delas são uma rocha viva, e de todas fazem uma vista sumamente desagradável. Acho estes povos sumamente pobres e, como não têm gêneros seus que lhes constituam ao menos um ramo certo de comércio, pouca esperança tenho de os pôr melhor nesta parte. Em uma palavra, meu colega, isto está um cadáver que vai para a sepultura [...]; parece-me ser este o mais próprio retrato em que presentemente se acha o Governo do Rio de Janeiro.”\n\n(Marquês de Lavradio (Governador do Rio de Janeiro, 1769-1779). Carta de Amizade Escrita a Manuel da Cunha de Menezes em Pernambuco, em 13 de dezembro de 1769. In: Marquês de Lavradio. *Cartas do Rio de Janeiro*, 1769-1776. Rio de Janeiro: Secretaria de Estado de Educação e Cultura, p. 10, 1978.)\n\nTendo em vista seus conhecimentos sobre o século XVIII e considerando as informações do excerto, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A geografia montanhosa e rochosa impedia tanto o desenvolvimento do Rio de Janeiro quanto o uso do porto dessa cidade, no Brasil colonial, como centro de trocas comerciais.",
+        "B": "A concepção que se tem sobre o que seja “paisagem” é um construto histórico que envolve projeções políticas e ideológicas a respeito do que se vê.",
+        "C": "A concepção sobre o que seja uma paisagem bonita foi um argumento utilizado pela elite para convencer, contra a vontade de Lavradio, a corte portuguesa a migrar para o Brasil.",
+        "D": "O eurocentrismo impediu Lavradio de reconhecer o sucesso e a beleza dos arcos de pedra construídos com técnicas indígenas locais no Rio de Janeiro."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 28,
+      "materia": "historia",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": null,
+      "enunciado": "![pintura de Goya: cena noturna de fuzilamento, com um pelotão de soldados diante de um grupo de civis](fig:p11-c1)\n\n(*O 3 de maio de 1808 em Madri*, por Francisco José de Goya y Lucientes, 1814, Museu do Prado.)\n\nEssa pintura histórica de Francisco Goya (1746-1828) foi feita no início do século XIX, na Espanha. Sobre a obra e seu contexto, é correto afirmar que",
+      "alternativas": {
+        "A": "o pintor destaca o protagonismo francês ao mostrar, na cena de fuzilamento decorrente da ocupação napoleônica na Península Ibérica, as armas dos oficiais do exército.",
+        "B": "o quadro enfoca, ao optar por representar em posição de mártires as vítimas do fuzilamento, a simpatia da Igreja Católica espanhola para com a ocupação napoleônica.",
+        "C": "a lanterna, que integra a pintura no quadro, ilumina o massacre contra os revoltosos, pelo pelotão racionalmente organizado de soldados, durante a revolução francesa.",
+        "D": "a figura popular do espanhol de camisa branca é associada à representação de Cristo, com os braços e mãos abertos, na cruz; essa figura sublinha o terror da ocupação napoleônica."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 29,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir é a reprodução de uma capa do “Boletim de Eugenia”, <u>de onde foi extraído</u> o excerto transcrito ao lado.\n\n![capa do Boletim de Eugenia de maio de 1929, com a foto de uma criança](fig:p12-c1)\n\n“Em fevereiro de 1929, a Inspetoria de Educação Sanitária e Centros de Saúde promoveram em São Paulo o primeiro concurso de Eugenia para eleger o bebê eugênico. O Boletim de Eugenia comentava a repercussão que o concurso teve na grande imprensa e estampava em sua capa a criança de 3 anos que ganhou o prêmio. Os critérios de julgamento do concurso visavam à promoção de: 'proles sadias e belas, para a organização de um ensaio de patronagem da futura elite nacional de eugenizados; finalmente, contribuía com preciosos elementos para estudos relativos à hereditariedade, ao meio social e familiar, ao cruzamento de raças'.”\n\n(Adaptado de *Boletim de Eugenia*, 1(5), p.1, maio de 1929.)\n\nCom base em seus conhecimentos sobre o ideário eugênico e seu contexto, e tendo em vista elementos do excerto, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Uma criança considerada saudável seria branca e oriunda de uma família numerosa, o que atestaria a pureza racial da família e a superioridade reprodutiva da mulher.",
+        "B": "A ideologia do “aperfeiçoamento da raça” demandava políticas públicas para superação das desigualdades entre negros e brancos nas grandes cidades.",
+        "C": "Em sua busca por tratamentos alternativos ao “robustecimento” do corpo e “aperfeiçoamento racial”, a medicina eugênica opunha-se às práticas científicas.",
+        "D": "Tanto o autoritarismo contra os pobres quanto a obrigatoriedade das vacinas criadas pelo serviço sanitário eugênico provocaram grandes revoltas populares na década de 1930."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 30,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A maioria dos países africanos tornaram-se independentes entre 1950 e 1975. Amílcar Cabral foi uma das lideranças que formularam projetos políticos para criar unidades nacionais no pós-independência. Ele havia nascido na Guiné-Bissau em 1924; depois de seu nascimento, sua família se mudou para Cabo Verde. Em 1945, obteve bolsa para estudar em Portugal; na Europa, entrou, então, em contato com as teorias do movimento da negritude, panafricanismo e marxismo. De volta à África em 1952, ajudou a fundar o Partido Africano para a Independência de Guiné e Cabo Verde (PAIGC, 1953), iniciando a luta armada contra a metrópole em 1963. Em um discurso, Cabral afirmou: “No nosso Partido ninguém dividiu; pelo contrário, cada dia nos unimos mais. Aqui não há papel, nem fula, nem mandinga, nem filhos de caboverdianos, nada disso.”\n\n(Adaptado de MALACCO, F. Unidade nacional e unidade continental: uma discussão acerca dos projetos políticos de Amílcar Cabral e Kwame Nkrumah. *Revista Ars Historica*, 17, p. 78-100, jul/dez 2018.)\n\nCom base no excerto, marque a alternativa correta sobre o ideário nacional proposto por Amílcar Cabral e pelo movimento por ele liderado.",
+      "alternativas": {
+        "A": "Almejava, com base nas fronteiras dos reinos africanos que existiam antes da chegada dos europeus, construir nações independentes.",
+        "B": "Buscava formar, para o enaltecimento das identidades étnicas que antecediam o colonialismo, uma grande unidade pan-africanista.",
+        "C": "Propunha um movimento de descolonização das culturas africanas, o qual demandava a adoção de dialetos locais e a rejeição, como idioma nacional, das línguas europeias.",
+        "D": "Defendia, para fortalecer a luta contra a colonização e ideologia portuguesa, as unidades políticas nacionais posicionadas acima da diversidade de etnias africanas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 31,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 2004, Néstor Kirchner – presidente argentino à época – cedeu à sociedade civil a Escola de Mecânica da Marinha (ESMA), um antigo centro clandestino de detenção e tortura durante a ditadura (1976 e 1983). O motivo era a construção de uma espécie de museu nacional da memória das atrocidades cometidas pelo regime. Entre as imagens das mães e avós da Plaza de Mayo, entre organizações de luta que celebravam o reconhecimento de um trabalho sustentado por décadas, emergia ao lado do palco uma imagem disruptiva: um poncho vermelho. Destacava-se um rosto indígena. Era um dos líderes do Movimento Indígena Argentino; o líder pedia a inclusão dos povos originários no futuro museu: “A questão não é – como os antropólogos fazem – simplesmente sermos incluídos em um museu, como se estivéssemos apenas sendo adicionados. Queremos fazer parte da história nacional.\"\n\n(Adaptado de RUFER, M. Nación y condición pos-colonial. In: BIDASECA, K. (Org.) *Genealogías críticas de la colonialidad en América Latina, África, Oriente*. Buenos Aires: CLACSO, 2016.)\n\nTendo em vista seus conhecimentos sobre memória política na Argentina e considerando as informações do texto, é correto afirmar que",
+      "alternativas": {
+        "A": "os indígenas se posicionam – nas disputas pela memória nacional da Ditadura – abertamente contra o movimento das Mães e Avós da Plaza de Mayo.",
+        "B": "os indígenas – ao incorporarem perspectivas marginalizadas, como as dos povos originários – querem fazer parte da construção do museu para a expansão da história nacional.",
+        "C": "as lideranças indígenas – para dar visibilidade às suas identidades étnicas – propõem que a memória da nação seja apagada no antigo edifício da ESMA.",
+        "D": "nos protestos contrários à ocupação – para transformação em espaço de memória – do antigo edifício da ESMA, os ativistas indígenas defendem a redução temática do museu."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 32,
+      "materia": "sociologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Texto 1**\n\nNo final do século XIX, a escritora Charlotte Perkins Gilman observava a necessidade de reformas urbanas e habitacionais que combinassem a privacidade da família com a vida em coletivo. Ela defendia que grandes cidades fossem equipadas com conjuntos amplos de apartamentos que contariam com cozinhas comuns e com pessoas contratadas coletivamente pelas famílias para serviços domésticos. A atenção às crianças seria garantida por cuidadores profissionais e professores dentro das creches.\n\n(Adaptado de GILMAN, C.P. *Mulheres e economia*. In: DAFLON, V.; SORJ, B. *Clássicas do pensamento social*. Rio de Janeiro: Rosa dos Tempos, p.129-130, 2021.)\n\n**Texto 2**\n\nQuase um século depois, em 1996, o então presidente dos EUA Bill Clinton implementou reformas nas políticas de proteção social daquele país. Entre as mudanças, o Estado deixou de prover auxílio financeiro a mães pobres que criam os filhos sozinhas e essa responsabilidade passou para o pai biológico da criança. Essa reforma acentuou um vínculo social entre mulheres e homens, vínculo este que elas não necessariamente gostariam de manter. A reforma as tornou sobretudo dependentes economicamente deles.\n\n(Adaptado de COOPER, M. *Family values: between neoliberalism and the new social conservatism*. New York: Zone Books, p. 67-68, 2017.)\n\nConsiderando os textos 1 e 2, é correto afirmar que os efeitos, para as relações sociais, das reformas neles descritas",
+      "alternativas": {
+        "A": "são convergentes, pois fortalecem a importância, para a vida moderna, dos lares individualizados e das famílias biológicas. As reformas indicam a prevalência de ambos em relação ao Estado.",
+        "B": "são divergentes, pois apenas a reforma descrita no texto 2 fortalece a autonomia das mães, por ampliar a responsabilidade dos pais biológicos e por desresponsabilizar o Estado.",
+        "C": "são convergentes, pois facilitam o desenvolvimento da privacidade das famílias e ampliam a autonomia individual. Essas reformas favorecem o desenvolvimento da vida coletiva.",
+        "D": "são divergentes, pois apenas a reforma descrita no texto 1 desvincula, da responsabilidade das famílias e das mulheres, as tarefas de cuidado e de reprodução social da vida, vinculando-as também ao Estado."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 33,
+      "materia": "sociologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Texto 1**\n\n![charge de Henfil: pessoas sobem por uma escada e por cordas numa bandeira do Brasil inclinada, em cuja faixa está escrito “Constituinte”](fig:p13-c1)\n\n(Charge do cartunista Henfil que trata da participação da sociedade civil na Assembleia Nacional Constituinte, convocada em 1985 e cujos trabalhos resultaram na Constituição de 1988. Disponível em: https://museudarepublica.museus.gov.br/com-32-anos-a-constituicao-brasileira-esta-disponivel-na-colecao-memoria-da-constituinte/. Acesso em 20/08/2024.)\n\n**Texto 2**\n\nA reinvenção da democracia é um questionamento posto no Brasil há bastante tempo e leva em conta a necessidade de aprofundá-la e radicalizá-la, no sentido de estendê-la às relações sociais no seu conjunto. A Constituição de 1988 é um marco dessa reinvenção, pois, ao considerar o direito à diferença, redefiniu a noção de cidadania. Não há como falar em igualdade se as diferenças persistirem e forem usadas como base para a desigualdade e a discriminação.\n\n(Adaptado de DAGNINO, E. Para retomar a reinvenção democrática: qual cidadania, qual participação?. *Fórum Social Nordestino*, Recife, p. 1, 2004).\n\nDe acordo com os textos 1 e 2, é correto afirmar que a Constituinte de 1988 ajudou a reinventar a democracia brasileira, pois",
+      "alternativas": {
+        "A": "tornou autônomos os conceitos de cidadania e democracia, que se relacionam com a esfera da liberdade individual; tal liberdade promove a igualdade nas relações sociais.",
+        "B": "estabeleceu a negociação democrática da diferença; tal negociação passa a ser concebida como parte do ordenamento jurídico e da convivência entre os grupos e as classes sociais.",
+        "C": "reforçou diferenças e limitou o princípio jurídico da igualdade, tornando cidadania e democracia conceitos autônomos e radicalizados.",
+        "D": "abriu espaço para a participação da sociedade civil, o que tornou mais diversa, e, portanto, mais desigual, a representação política."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 34,
+      "materia": "sociologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Texto 1**\n\nEm *Raízes do Brasil* (São Paulo, Companhia das Letras, 2016), Sérgio Buarque de Holanda argumenta que as formas de convívio social no país seriam ditadas preferencialmente por uma ética de fundo emotivo: a cordialidade. No entanto, a cordialidade não seria sinônimo de afetividade ou de gentileza. Ela corresponderia a um mecanismo de defesa do indivíduo diante da sociedade e reforçaria sentimentos particularistas e antipolíticos, característicos do ambiente doméstico. Ao tipo social guiado pela ética da cordialidade, o autor dá o nome de homem cordial.\n\n**Texto 2**\n\n\"Sabe, no fundo eu sou um sentimental\nTodos nós herdamos no sangue lusitano uma boa dosagem de lirismo (além da sífilis, é claro)\nMesmo quando as minhas mãos estão ocupadas em torturar, esganar, trucidar\nMeu coração fecha os olhos e sinceramente chora...\n(...)\nSe trago as mãos distantes do meu peito\nÉ que há distância entre intenção e gesto”\n\n(Trecho da canção “Fado Tropical”, de Chico Buarque de Holanda, 1973).\n\nTendo em vista os textos 1 e 2, é possível afirmar que o homem cordial",
+      "alternativas": {
+        "A": "manifesta adesão a normas de convívio pessoalizadas, marcadas pela ética da cordialidade e pela centralidade de vínculos privados mesmo em espaços coletivos e públicos.",
+        "B": "é um tipo social que se originou na colonização portuguesa, marcado pela ética emotiva e solidária da cordialidade e por uma prática de cunho coletivo e supraindividual.",
+        "C": "percebe, como ambiente propício ao seu desenvolvimento individual, a vida em sociedade; para ele, a ética da cordialidade permite a impessoalidade dos vínculos sociais.",
+        "D": "manifesta um apego aos valores da personalidade configurada pelo recinto doméstico, ambiente próprio da concorrência entre os cidadãos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 35,
+      "materia": "portugues",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": "t35-36",
+      "enunciado": "Esse trabalho da artista Simone Siss expressa",
+      "alternativas": {
+        "A": "um ato de militância, sugerido pelo emprego de substantivos e adjetivos que fazem referência explícita à luta feminina, representada pela figura de uma mão que empunha uma lata de *spray*.",
+        "B": "uma experiência intimista, evidenciada por pronomes e verbos em primeira pessoa, dentro de um plano imagético no qual uma mão feminina, por meio de uma lata de *spray*, expõe a condição de quem a segura.",
+        "C": "um gesto identitário, marcado pela predominância de adjetivos e pronomes femininos em alusão à força da mulher, que é sinalizada por uma lata de *spray* integrada à mão que a aperta.",
+        "D": "uma manifestação subjetiva, ilustrada pela ocorrência de substantivos e verbos no singular integrados a uma imagem na qual uma mão feminina textualiza seus sentimentos por meio de uma lata de *spray*."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 36,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": "t35-36",
+      "enunciado": "**Texto 2**\n\nMaria era uma boa moça\nPra turma lá do Gantois*\nEra Maria vai com as outras\nMaria de coser, Maria de casar\nPorém o que ninguém sabia\nÉ que tinha um particular\nAlém de coser, além de rezar\nTambém era Maria de pecar\n\n(Fragmento da canção *Maria vai com as outras*, de Vinícius de Moraes e Toquinho, gravada em 1971.)\n\n* Um dos principais terreiros de candomblé da cidade de Salvador. Pronuncia-se *gantoá*.\n\nA partir da forma e do significado da expressão “maria vai com as outras”, podemos afirmar que",
+      "alternativas": {
+        "A": "o texto 1 e o texto 2 a ressignificam, visando tanto subverter o senso comum sobre a condição feminina na sociedade quanto introduzir uma perspectiva a partir da qual a mulher seja vista como a responsável por suas escolhas.",
+        "B": "o texto 1 preserva o sentido da expressão, no intuito de valorizar o lugar da mulher na produção artística, enquanto o texto 2 o altera para mostrar uma personagem em dissonância com as expectativas da sociedade.",
+        "C": "enquanto o texto 1 altera a forma da expressão para lhe atribuir um valor positivo na associação com outras mulheres, o texto 2 explora o sentido original da mesma expressão e singulariza a personagem retratada.",
+        "D": "o significado da expressão é preservado tanto no texto 1 quanto no texto 2, mas a sua forma é alterada para destacar a figura feminina como tendo uma personalidade própria, que não se deixa influenciar por outras mulheres."
+      },
+      "observacoes": ""
+    }
+  ]
+}
