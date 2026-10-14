@@ -1,0 +1,192 @@
+{
+  "edicao": "fuvest-2026-1",
+  "intervalo": [
+    1,
+    30
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 17,
+      "materia": "sociologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em março de 2025, postagens em redes sociais digitais discutiram uma tendência verificada entre crianças e adolescentes de utilizar o termo “CLT” como uma ofensa. Na matéria \"'Crianças demonizam CLT': carteira assinada vira ofensa entre os jovens”, de Camila Corsini para o UOL, há vários depoimentos em que crianças associam o emprego com CLT a menores rendimentos, à pobreza e ao fracasso profissional, em oposição a ocupações autônomas ou por conta própria, que seriam caminhos para a riqueza. Veja os gráficos com as estimativas da Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD-C) do IBGE para a distribuição da ocupação por categoria e o rendimento médio mensal real habitual das pessoas para o trimestre compreendido entre dezembro de 2024 e fevereiro de 2025:\n\n![Gráfico de barras do rendimento médio mensal, em reais, por categoria de ocupação: empregado do setor privado, trabalhador doméstico, empregador e trabalhador autônomo, com e sem carteira ou CNPJ](fig:p08-f1)\n\n![Gráfico de barras do número de pessoas ocupadas, em milhões, por categoria de ocupação: empregado do setor privado, trabalhador doméstico, empregador e trabalhador autônomo, com e sem carteira ou CNPJ](fig:p08-c2)\n\n*Pesquisa Nacional por Amostra de Domicílio Contínua (PNAD-C).* Instituto de Brasileiro de Geografia e Estatística (IBGE), maio de 2025. Adaptado.\n\nA partir dos dados apresentados no gráfico, é correto afirmar que as associações realizadas por crianças e adolescentes com diferentes formas ocupacionais são fundadas em uma visão de que",
+      "alternativas": {
+        "A": "os empregadores e trabalhadores autônomos são mais numerosos do que empregados com carteira assinada e, logo, seguir essas ocupações é um caminho mais seguro para a riqueza.",
+        "B": "os empregados do setor privado sem carteira e trabalhadores autônomos possuem rendimento médio maior que os empregados com carteira e, logo, estão mais protegidos da pobreza.",
+        "C": "os trabalhadores autônomos estão mais protegidos contra os riscos sociais do que aqueles com emprego formal, que tradicionalmente oferece menos direitos.",
+        "D": "os empregadores (empresários) têm maiores ganhos e autonomia, o que atrai os jovens a fugir da subordinação da relação de emprego, a qual desprezam, para constituir empresas, ainda que haja menos empregadores do que empregados.",
+        "E": "os trabalhadores autônomos com CNPJ, com ganhos superiores aos dos empregados com carteira, são muito numerosos e, logo, a ocupação parece-lhes um caminho para o êxito e a riqueza."
+      }
+    },
+    {
+      "numero": 22,
+      "materia": "portugues",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "![Charge Marco Temporal, de Benett: à esquerda, um casal, com balões de fala “Por que mais terras?” e “Eles já estão perfeitamente integrados à nossa cultura!”; à direita, uma família indígena sentada no chão ao lado de cestos](fig:p10-c3)\n\nDisponível em https://cartum.folha.uol.com.br/charges/.\n\nEm termos da interação entre os recursos verbais e imagéticos na charge, é correto afirmar:",
+      "alternativas": {
+        "A": "A representação imagética dos indígenas como miseráveis é hiperbólica, reforçando o sentido da pergunta “Por que mais terras?”, o que evidencia uma atitude autoral favorável ao marco temporal.",
+        "B": "A distribuição espacial do casal e da família indígena personifica a polarização política, o que fica demarcado pela oposição “nós” contra “eles” na fala da mulher.",
+        "C": "A expressão “mais terras”, em contraste com o espaço ocupado pela família indígena, busca mostrar que já há soluções alternativas para a delimitação de terras para os povos originários no tecido urbano.",
+        "D": "Ocorre uma quebra de expectativa entre a representação da família indígena e a expressão “perfeitamente integrados”, o que colabora para o teor crítico da charge em relação ao marco temporal.",
+        "E": "A postura do casal, em relação aos indígenas, sinaliza empatia e mostra o seu interesse na derrubada do marco temporal, que tem levado indígenas à pobreza nas metrópoles brasileiras."
+      }
+    }
+  ],
+  "relatorio": [
+    {
+      "numero": 1,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 2,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 3,
+      "status": "ok",
+      "notas": "Anulada pela banca; questão presente no caderno (p. 2) e transcrição conferida."
+    },
+    {
+      "numero": 4,
+      "status": "ok",
+      "notas": "Fórmulas conferidas com ampliação. As cores (azul/vermelho) das letras A e das parcelas não foram reproduzidas, mas não são necessárias para resolver: o enunciado diz em palavras quantas letras são azuis e quantas vermelhas, e as parcelas das somas são idênticas. Mantido sem recorte. Resolução: E = -(3·(3/4)log2(3/4) + (1/4)log2(1/4)) = 5 - (9/4)log2 3 (A), igual ao gabarito."
+    },
+    {
+      "numero": 5,
+      "status": "ok",
+      "notas": "Conferido o mapeamento das figuras das alternativas (A=p03-f3, B=p03-f5, C=p03-f6, D=p03-f2, E=p03-f4) pela posição na página; recortes completos."
+    },
+    {
+      "numero": 6,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 7,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 8,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 9,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 10,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 11,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 12,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 13,
+      "status": "ok",
+      "notas": "'Instituto de Brasileiro' é erro do próprio caderno, mantido."
+    },
+    {
+      "numero": 14,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 15,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 16,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 17,
+      "status": "corrigida",
+      "notas": "Abertura das aspas do título da matéria: no caderno é aspas retas seguidas de apóstrofo (\"'Crianças demonizam CLT': ... jovens”), estava com aspas curvas. Rodapé com 'Instituto de Brasileiro' é do original."
+    },
+    {
+      "numero": 18,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 19,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 20,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 21,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 22,
+      "status": "corrigida",
+      "notas": "Descrição da charge: 'duas pessoas de terno' trocado por 'um casal' (as alternativas falam em casal e na fala da mulher) e incluída a assinatura (Benett). Falas dos balões mantidas sem atribuir quem diz o quê, pois a alternativa B depende disso."
+    },
+    {
+      "numero": 23,
+      "status": "ok",
+      "notas": "Resposta D conferida pela linha de tendência do gráfico."
+    },
+    {
+      "numero": 24,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 25,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 26,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 27,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 28,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 29,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 30,
+      "status": "ok",
+      "notas": ""
+    }
+  ]
+}

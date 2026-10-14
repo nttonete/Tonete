@@ -1,0 +1,470 @@
+{
+ "edicao": "fuvest-2024-1",
+ "textos_base": {
+  "t82-83": "Texto I\n\n“Na confusão verde do fundo da machamba, Maria não viu o capataz imediatamente. Esbracejou com aflição, tentando libertar as pernas. O braço rodeou-lhe os ombros duramente. O bafo quente e ácido do homem aproximou-se da sua face. A capulana da Maria desprendeu-se durante a breve luta e a sensação fria de água tornou-se-lhe mais vívida. Um arrepio fê-la contrair-se.\n\nSentiu nas coxas nuas a carícia morna e áspera dos dedos calosos do homem.”\n\nLuis Bernardo Honwana. Dina, *In: Nós Matamos o Cão Tinhoso!*.\n\nTexto II\n\n“– Mas choraste. A bofetada que te dei foi só uma disciplina para aprenderes a não fazer ciúmes. Gosto muito de ti, Sarnau. És a minha primeira mulher. É tua a honra deste território. Tu és a mãe de todas as mães da nossa terra. Tu és o meu mundo, minha flor, rebuçado [bala] do meu coração.\n\nDeixei cair duas gotas de fel bem amargas e salgadinhas. Meu marido acariciava-me à moda dos búfalos; dizia-me coisas no ouvido e o seu hálito fedia a álcool, enjoava-me, arrepiava-me, maltratando o meu corpinho frágil. Explodi furiosa e chorei de amargura.\n\n– Sarnau, pareces ser uma machamba difícil. Já faz tempo que semeio em ti e não vejo resultado. Com a outra foi tão diferente. Bastou uma sementeira e germinou logo.\n\n– Casámo-nos há pouco tempo, Nguila, muito pouco tempo.\n\n– Não tenho lá muita paciência. Não estou para lavrar sem colher.”\n\nPaulina Chiziane. *Balada de amor ao vento*, p. 61-62."
+ },
+ "questoes": [
+  {
+   "numero": 61,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico a seguir representa a curva de biomassa e biodiversidade em diferentes partes do globo.\n\n![gráfico da curva de biomassa e biodiversidade: balanço de radiação (kcal/cm²) em função do índice de aridez, de 0 a 3,0, com legenda de umidade](fig:p23-f1)\n\nGRIGORIEV, A.A. The theoretical fundaments of modern physical Geography. In: The interaction of sciences in the Earth, Moscou, 1968. Adaptado.\n\nSobre os ambientes do globo terrestre que podem ser exemplificados pelos dados demonstrados no gráfico, é correto afirmar que, onde o índice de aridez é igual a",
+   "alternativas": {
+    "A": "1 e o balanço de radiação é igual a $70\\ \\text{kcal/cm}^2$, a curva de biomassa e biodiversidade atinge o ápice, caracterizando, por exemplo, o ambiente de uma floresta equatorial.",
+    "B": "2 e o balanço de radiação é igual a $40\\ \\text{kcal/cm}^2$, é possível inferir os ambientes compostos por savanas ou cerrados, com crescimento da curva de biomassa e biodiversidade.",
+    "C": "0 e o balanço de radiação é igual também a 0, encontram-se os ambientes desérticos muito quentes, a exemplo do deserto do Saara.",
+    "D": "3 e o balanço de radiação é igual a 0, a curva de biomassa e biodiversidade indica exemplo típico de ambiente tropical úmido.",
+    "E": "1,5 e o balanço de radiação é igual a $55\\ \\text{kcal/cm}^2$, a curva de biomassa e biodiversidade diminui, caracterizando os ambientes com presença de neve eterna."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 62,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os domínios morfoclimáticos e fitogeográficos propostos pelo geógrafo Aziz Nacib Ab´Sáber nos anos 1960 continuam válidos na atualidade. Representam um mapeamento do território brasileiro, na escala zonal, onde foram identificados seis grandes domínios, além de uma faixa denominada de transição, que sintetizam os elementos do clima, da vegetação, do solo, do relevo e outros atributos presentes na paisagem. Observe as imagens:\n\n![três ilustrações de paisagens, numeradas (1), (2) e (3)](fig:p23-c1)\n\nAB’SÁBER, Aziz Nacib. *Os domínios de natureza no Brasil*. Potencialidades paisagísticas. São Paulo: Ateliê Editorial, 2003.\n\nAs imagens representam aspectos paisagísticos dos tipos climáticos semiárido (1), tropical (2) e subtropical (3), presentes, respectivamente, nos seguintes domínios morfoclimáticos:",
+   "alternativas": {
+    "A": "Caatingas, Cerrado e Araucárias.",
+    "B": "Pradarias, Caatingas e Amazônico.",
+    "C": "Cerrado, Caatingas e Pradarias.",
+    "D": "Mares de Morros, Pradarias e Amazônico.",
+    "E": "Cerrado, Araucárias e Mares de Morros."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 63,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma Árvore Pitagórica é uma figura plana que é construída por etapas. Na Etapa 1, ela começa com um quadrado de lado 1 cm. Na Etapa 2, constroem-se dois quadrados acima do quadrado da Etapa 1, de tal forma que a medida de seus lados seja igual à medida dos catetos do triângulo retângulo isósceles que possui hipotenusa igual ao lado do quadrado da Etapa 1. Na Etapa 3, aplica-se a Etapa 2 em cada um dos novos quadrados obtidos, e assim por diante. Ou seja, em cada nova etapa, aplica-se a etapa anterior em cada um dos novos quadrados obtidos. A figura a seguir exibe as quatro primeiras etapas da construção da Árvore Pitagórica.\n\n![as quatro primeiras etapas da construção da Árvore Pitagórica, rotuladas Etapa 1, Etapa 2, Etapa 3 e Etapa 4](fig:p24-f1)\n\nDomínio público. Disponível em https://commons.wikimedia.org/.\n\nA partir de qual etapa da construção o lado de cada um dos novos quadrados obtidos fica, pela primeira vez, menor do que 1 décimo de milésimo do lado do quadrado da Etapa 1?\n\n**Note e adote:**\n$\\log_{10} 2 = 0{,}3$",
+   "alternativas": {
+    "A": "26",
+    "B": "27",
+    "C": "28",
+    "D": "29",
+    "E": "30"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 64,
+   "materia": "biologia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "“Pesquisadores realizaram em 2022 uma expedição que promete fazer história. Destino: Serra do Imeri, um conjunto de montanhas no norte do Amazonas. O objetivo da missão foi a realização de um inventário de biodiversidade para saber que tipos de animais e plantas ocorrem na região e de que forma eles se relacionam, ou não, com as espécies que habitam as partes mais baixas do bioma. O Pico da Neblina, o mais alto do Brasil, com 2.995 m, faz parte da Serra do Imeri, mas integra maciço rochoso diferente, fisicamente separado da área da expedição. Do ponto de vista ecológico, são como dois arquipélagos distintos, separados por um grande mar de floresta verde.”\n\n![mapa da localização da Serra do Imeri, com Pico da Neblina, área da expedição e Rio Negro](fig:p24-f3)\n\nLocalização da Serra do Imeri.\n\nDisponível em https://jornal.usp.br/ciencias/rumo-a-amazonia-desconhecida/21/10/2022. Adaptado.\n\nCom base nas informações fornecidas e em seus conhecimentos, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "As barreiras naturais da Serra do Imeri tornam possível o desenvolvimento do endemismo, pois há potencialização da formação de novas espécies em função do grande isolamento geográfico.",
+    "B": "A área de estudo homogênea e contínua permitiu a comunicação e o desenvolvimento de riqueza ímpar quanto à biodiversidade, em especial por conter condições ambientais típicas do ecossistema amazônico.",
+    "C": "O isolamento da Serra do Imeri provoca a menor ocorrência de espécies endêmicas na região, cujos animais e plantas não possuem relação direta com o extenso bioma Amazônico.",
+    "D": "O conhecimento de espécies biológicas e seus ecossistemas, assim como a compreensão de seus habitats, acelera a extinção de plantas e outros seres vivos, diminuindo a biodiversidade.",
+    "E": "A Serra do Imeri representa comunidade ecológica ameaçada de extinção em razão dos problemas comuns ao bioma Amazônico, tais como expansão da agropecuária, instalação de garimpos e extração de madeira."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 65,
+   "materia": "geografia",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "Em fevereiro de 2023, ocorreu uma precipitação pluviométrica extrema no litoral norte de São Paulo, com volume que excedeu os 600 mm de chuva em menos de 24 horas. Foi um dos maiores índices pluviométricos já registrados no Brasil para um dia. Essa grande quantidade de chuva provocou muitos deslizamentos de terra, como o retratado na imagem.\n\n![fotografia de um deslizamento de terra em uma encosta sobre uma estrada, com uma pessoa em pé diante da terra acumulada](fig:p25-c1)\n\nDeslizamento de terra entre Camburi e Boiçucanga, SP.\n\nDisponível em Portal g1.globo.com 22/2/2023 - Foto: CREATIVE PRODUÇÕES/ Cristian Santos.\n\nConsiderando o contexto socioambiental em que esse episódio ocorreu, é correto afirmar:",
+   "alternativas": {
+    "A": "Apesar das altas declividades nas encostas da Serra do Mar, eventos como esse são raros, uma vez que os solos profundos e a vegetação primária dificultam os deslizamentos de terra.",
+    "B": "No local do deslizamento de terra, ocorrerá um processo de sucessão primária e, após poucos anos, uma floresta madura estará estabelecida.",
+    "C": "A baixa umidade da região e a indisponibilidade de nutrientes no solo retardarão a instalação de organismos pioneiros, como os líquens, que iniciarão o processo de sucessão nesse local.",
+    "D": "Fenômenos desse tipo são causados por fatores naturais da região, relacionados ao clima, à geologia e ao relevo, mas são agravados pela ocupação desordenada das encostas.",
+    "E": "No local do deslizamento de terra, a biomassa vegetal aumentará ao longo da sucessão ecológica graças a um equilíbrio energético no sistema, em que as taxas de fotossíntese e respiração permanecerão equivalentes."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 66,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Observe as ilustrações.\n\n![imagem de satélite de área urbana com um quadrado vermelho destacando um local, ligado por linhas tracejadas a uma fotografia aérea de uma grande erosão no solo, com escala de 200 m e indicação do norte](fig:p25-f2)\n\nDisponível em https://g1.globo.com/ma/maranhao/noticia/2023/03/29/.\n\nA imagem de satélite e a foto retratam fenômeno que aconteceu em Buriticupu, no oeste maranhense. Com base nas figuras e em seus conhecimentos, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "O fenômeno é caracterizado pela formação de voçorocas, feições erosivas de grandes proporções que podem ser evitadas por meio do controle do fluxo das águas superficiais e subsuperficiais, plantio de vegetação e terraceamento.",
+    "B": "Trata-se de uma feição erosiva ocasionada pelas fortes chuvas que assolam a região, sendo um processo natural que não é afetado pela ação humana, pois é um fenômeno associado à origem de solos e às nascentes de rios.",
+    "C": "O fenômeno caracteriza a formação de voçorocas, feições erosivas profundas que têm sua origem na ascensão do lençol freático e no acúmulo de lixo. Podem ser evitadas por meio do saneamento básico e da confecção de aterros.",
+    "D": "Trata-se de um fenômeno associado a tremores de terra e fluxos subterrâneos de água que resultam na feição erosiva chamada de voçoroca, caracterizada por abrir grandes crateras no solo sem haver acúmulo de sedimentos.",
+    "E": "O fenômeno mostra a formação de fluxos de lama na direção da área urbana do município. Podem ser vistos o desmatamento do seu entorno e arruamento precário em estradas de terra vicinais que causaram o processo erosivo."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 67,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O SOBREVIVENTE\n\nImpossível compor um poema a essa altura da evolução da humanidade.\nImpossível escrever um poema – uma linha que seja – de verdadeira poesia.\nO último trovador morreu em 1914.\nTinha um nome de que ninguém se lembra mais.\n\nHá máquinas terrivelmente complicadas para as necessidades mais simples.\nSe quer fumar um charuto aperte um botão.\nPaletós abotoam-se por eletricidade.\nAmor se faz pelo sem-fio.\nNão precisa estômago para digestão.\n\nUm sábio declarou a *O Jornal* que ainda\nfalta muito para atingirmos um nível\nrazoável de cultura. Mas até lá, felizmente,\nestarei morto.\n\nOs homens não melhoraram\ne matam-se como percevejos.\nOs percevejos heroicos renascem.\nInabitável o mundo é cada vez mais habitado.\nE se os olhos reaprendessem a chorar seria um segundo dilúvio.\n\n(Desconfio que escrevi um poema.)\n\nCarlos Drummond de Andrade. *Alguma Poesia*, 1930.\n\nEntre o primeiro e o último verso, há uma aparente contradição, que, todavia, não se sustenta porque",
+   "alternativas": {
+    "A": "os entraves à plenitude lírica são removidos.",
+    "B": "os trovadores ainda inspiram os enamorados.",
+    "C": "a sabedoria controla o poder das máquinas.",
+    "D": "os heróis sempre ressuscitam neste mundo.",
+    "E": "a poesia resiste à negatividade do seu tempo."
+   },
+   "observacoes": "Versos longos que continuam na linha seguinte (marcados com colchete no caderno, como “[da humanidade.”) foram unidos numa só linha."
+  },
+  {
+   "numero": 68,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "[...]\nUm sino de vidro claro,\numa ampola cristalina e contrátil,\nflutua calma no seu caminho.\n“Peixinho, peixinho, deixe-a ir!\nPeixinho, peixinho, se apresse em fugir!”\n\nAli atrás, longos fios transparentes se arrastam\ne os olhos do peixinho a um banquete convidam.\n“Serão, por acaso, minhocas o que eu vejo de repente?”\n“Peixinho, peixinho, deixe-me alertar!\nPeixinho, peixinho, não se deixe enganar!”\n\nPróximo demais o peixinho chegou:\n“Ai, ai, ai, agora ela me pegou!\nFirme me amarrou e não consigo me soltar!\nFirme me envolve e arde de matar!”\n\n[...]\n\nTradução e adaptação de Flavia Souza, Stefano Hagen e Luiz Fontes.\n\nO fragmento de poema apresentado foi escrito pelo naturalista Fritz Müller para suas filhas. O trecho do poema permite afirmar que a predação é realizada por um/uma",
+   "alternativas": {
+    "A": "camarão.",
+    "B": "água-viva.",
+    "C": "tubarão.",
+    "D": "lula.",
+    "E": "plâncton."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 69,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![cladograma com lampreia, tubarão, perereca, lagarto, girafa e ser humano, mostrando as relações filogenéticas entre eles](fig:p26-c1)\n\nA partir do cladograma apresentado, que expressa algumas relações filogenéticas entre vertebrados, é correto afirmar que",
+   "alternativas": {
+    "A": "a lampreia é o ancestral comum de todos os vertebrados incluídos no cladograma.",
+    "B": "o tubarão surgiu da lampreia e deu origem aos vertebrados tetrápodes.",
+    "C": "os peixes (lampreia e tubarão) possuem um ancestral compartilhado com os tetrápodes.",
+    "D": "o lagarto é mais proximamente relacionado ao tubarão que ao ser humano.",
+    "E": "o ser humano é o mais evoluído dentre todos os vertebrados incluídos no cladograma."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 70,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Observe o mapa da distribuição da pesca no globo em toneladas por quilômetro quadrado, por ano.\n\n![mapa-múndi com a distribuição da pesca de peixes, moluscos e crustáceos, em toneladas por km² por ano, com legenda de cores de 0,05 a 10](fig:p27-f1)\n\nDisponível em https://animalbusiness.com.br/negocios-e-mercado/.\n\nBaseado em seus conhecimentos sobre correntes marítimas quentes e frias em superfície, bem como nos dados representados no mapa, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "No Hemisfério Sul, as regiões de maior potencial de pesca são aquelas que margeiam a costa leste dos continentes americano, africano e asiático, marcadas pela presença de correntes marítimas quentes.",
+    "B": "No Hemisfério Norte, as regiões de maior potencial de pesca são registradas na costa leste e oeste do continente americano, margeadas pelas correntes marítimas frias do Labrador e do Golfo, respectivamente.",
+    "C": "Em todo o globo, as áreas que demarcam as águas internacionais ou alto-mar são as mais piscosas independentemente da presença de correntes marítimas quentes ou frias.",
+    "D": "No Hemisfério Sul, as regiões de maior potencial de pesca ocorrem na costa oeste do continente americano e do continente africano, com a presença, respectivamente, das correntes marítimas de Humboldt e de Benguela.",
+    "E": "As regiões polares apresentam potencial reduzido de pesca em função das dificuldades de acesso, baixa reprodução das espécies nesses locais e presença de correntes marítimas frias."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 71,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Para esfriar um copo contendo 250 mL de água fervente (100°C), é comum utilizar o seguinte método:\n\nPasso 1. Colocar esse copo dentro de uma vasilha em contato com 1 litro de água à temperatura ambiente (25°C), como mostrado na figura.\n\n![vasilha com água contendo um copo mergulhado, com indicações de “vasilha” e “copo”](fig:p27-f2)\n\nPasso 2. Esperar que entrem em equilíbrio térmico.\n\nPasso 3. Tirar o copo e trocar a água da vasilha por outro litro de água à temperatura ambiente.\n\nPasso 4. Colocar o copo em contato com a água “nova” e esperar que entrem em equilíbrio térmico.\n\nApós o passo (4) desse método, a temperatura da água no copo será aproximadamente:\n\n**Note e adote:**\nConsidere apenas trocas de calor entre a água no copo e a água na vasilha. Despreze quaisquer trocas de calor do sistema com o ambiente.",
+   "alternativas": {
+    "A": "14°C",
+    "B": "28°C",
+    "C": "40°C",
+    "D": "60°C",
+    "E": "84°C"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 72,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um protótipo de máquina térmica caseira baseia-se num motor de quatro etapas e pode ser construído com o auxílio de uma bomba de bicicleta, uma pequena câmara de pneu e um aquecedor térmico. Na primeira etapa, o gás da câmara de pneu é comprimido adiabaticamente. Na segunda etapa, o gás é aquecido isovolumetricamente. Na terceira etapa, o gás sofre uma expansão adiabática e, finalmente, na quarta etapa, um resfriamento isovolumétrico.\n\nAssinale a alternativa que melhor representa o diagrama correspondente a essa máquina térmica no plano pressão ($p$) $x$ volume ($V$).\n\n**Note e adote:**\nDespreze efeitos de dilatação ou contração da câmara do pneu.",
+   "alternativas": {
+    "A": "![Alternativa A](fig:p28-c1)",
+    "B": "![Alternativa B](fig:p28-c2)",
+    "C": "![Alternativa C](fig:p28-c3)",
+    "D": "![Alternativa D](fig:p28-c4)",
+    "E": "![Alternativa E](fig:p28-c5)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 73,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um experimento de demonstração sobre ondas estacionárias faz uso de uma canaleta disposta horizontalmente, contendo grãos de areia fina e seca. Abaixo da canaleta, posiciona-se um alto-falante que transmite um som, produzindo, na canaleta, uma vibração, associada a uma onda estacionária com um comprimento de onda bem definido. O diagrama representa uma imagem digitalizada dos grãos de areia depositados na base da canaleta em um certo instante. Utilize a régua da figura, graduada em centímetros, para assinalar a alternativa que apresenta a melhor aproximação para o valor do comprimento de onda da vibração em questão.\n\n![canaleta com faixas de grãos de areia depositados, sobre uma régua graduada em centímetros de 0 a 20](fig:p28-f2)\n\n**Note e adote:**\nOs grãos de areia tendem naturalmente a se acumular em torno dos pontos nos quais o deslocamento transversal da canaleta é nulo.",
+   "alternativas": {
+    "A": "$1{,}2\\ \\text{cm}$",
+    "B": "$5{,}1\\ \\text{cm}$",
+    "C": "$6{,}8\\ \\text{cm}$",
+    "D": "$11{,}3\\ \\text{cm}$",
+    "E": "$18{,}1\\ \\text{cm}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 74,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Apesar de a África ser considerada o berço das civilizações e existirem indícios de conhecimentos elementares de Química no sul do continente cerca de 100.000 anos atrás, os conhecimentos químicos ensinados são eurocentristas. Entretanto, uma das grandes contribuições para o estudo de reatividade química é atribuída ao químico egípcio Ahmed Hassan Zewail, agraciado com o prêmio Nobel em 1999 por seus estudos de reações químicas usando uma técnica conhecida como espectroscopia de femtossegundos. Essa técnica possibilita identificar espécies com tempo de vida curto utilizando pulsos de *laser* com duração de $10^{-15}\\ \\text{s}$. Essa contribuição é relevante para o estudo de reações químicas, pois",
+   "alternativas": {
+    "A": "todos os processos químicos são extremamente rápidos e não podem ser estudados por técnicas que não sejam em femtossegundos.",
+    "B": "as reações químicas podem passar por espécies instáveis e com pouco tempo de vida.",
+    "C": "o tempo existente para analisar os produtos de uma reação depende apenas da quantidade de produtos formada.",
+    "D": "permite entender como reagentes específicos se comportam frente a processos reacionais que são extremamente lentos.",
+    "E": "apenas com uma técnica tão rápida é possível analisar o grau de pureza dos reagentes isolados."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 75,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O mapa a seguir retrata o Nordeste da África e a Península Arábica, no século IV.\n\n![mapa do Nordeste da África e da Península Arábica com rotas comerciais terrestres e marítimas ligando Mênfis, Tebas, Berenice, Meroé, Adulis, Meca, Aden e Malao, e indicação das regiões do Egito, Cuxe e Axum](fig:p29-f1)\n\nCARNINE, Douglas et alii. *World History*: Ancient through Modern Times. Evanston, IL: McDougal Littell, 2009. Adaptado.\n\nConsiderando as rotas comerciais representadas no mapa, pelas quais se transportavam, por exemplo, cereais, marfim e escravizados, e que envolviam sociedades antigas, em especial os reinos de Axum, Cuxe e Egito, é correto afirmar que",
+   "alternativas": {
+    "A": "o comércio praticado no nordeste da África isolava a região de outras áreas do continente.",
+    "B": "os comerciantes do Egito participavam apenas de rotas comerciais marítimas.",
+    "C": "as atividades mercantis do Reino de Axum conectavam o Mediterrâneo ao Oceano Índico.",
+    "D": "as rotas terrestres e marítimas na África e na Península Arábica não se conectavam umas às outras.",
+    "E": "a cidade de Berenice se colocava como obstáculo ao comércio do Mediterrâneo com o interior da África."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 76,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“O plano dos Estados Unidos de derrubarem a Revolução já estava esboçado na ocasião em que Mikoyan [vice-líder no governo soviético de Nikita Kruschev] visitou Havana, em fevereiro de 1960 (...). A CIA propunha a sabotagem das refinarias de açúcar de Cuba, a principal fonte de riqueza da ilha. (...)\n\nComo prometido, Fidel Castro reagiu contra os Estados Unidos (...). Ele anunciou a nacionalização de todas as propriedades norte-americanas importantes da ilha. (...) Numa frase sinistra (...), Castro salientou que a Cuba revolucionária tinha agora o apoio militar de fora do continente. Cuba ‘aceitaria com gratidão’, disse ele, ‘a ajuda dos foguetes da União Soviética (...)’.\n\nNaquele mês, a lenha fora jogada na fogueira, quando Castro chegou a Nova York para falar na Assembleia Geral da ONU, instalando-se no Harlem. (...)\n\nCastro ficou no [hotel] Theresa, cercado por um grupo de admiradores (...) e numa tarde memorável foi visitado pelo líder soviético. (...) Kruschev escreveu nas suas memórias que ‘indo a um hotel negro num bairro negro, nós estávamos fazendo uma dupla demonstração contra as políticas discriminatórias dos Estados Unidos em relação aos negros, assim como em relação a Cuba’”.\n\nGOTT, Richard. *Cuba*: uma nova história. Rio de Janeiro: Zahar, 2006. p.210-213. Adaptado.\n\nAs tensões políticas abordadas no texto referem-se",
+   "alternativas": {
+    "A": "à indecisão de Fidel Castro sobre o alinhamento político de Cuba na Guerra Fria e ao isolamento da ilha em relação a outros debates políticos da época.",
+    "B": "às garantias do governo revolucionário em Cuba aos capitais norte-americanos e à salvaguarda dos direitos civis da população negra na ilha.",
+    "C": "à aliança entre Cuba e URSS selada na origem da guerrilha em Sierra Maestra e à consequente oposição dos EUA ao movimento insurgente.",
+    "D": "ao gradual alinhamento entre Cuba e a URSS e ao aceno dos dois governantes de apoio ao movimento negro norte-americano.",
+    "E": "à articulação entre os governos da URSS e dos EUA para enfraquecer Fidel Castro e os movimentos sociais no Harlem."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 77,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Desde os anos 20 governado pela dinastia Pahlevi, o Irã vinha sendo modernizado e ocidentalizado pelas sucessivas gerações de xás, que viam na observância estrita da religião um atraso a ser superado. País de numerosa população xiita, no entanto, o regime modernizante sempre precisou contar com uma grande dose de repressão, para conter a oposição dos grupos religiosos, que se fazia cada vez mais popular. Na década de 1970, este movimento conheceu um líder, que, refugiado na França, preparava-se para voltar ao país: era o aiatolá Khomeini, que apelava aos muçulmanos para que restaurassem a autoridade do islã na sociedade.”\n\nGRINBERG, Keila. O mundo árabe e as guerras árabe-israelenses. In: REIS FILHO, Daniel Aarão; FERREIRA, Jorge; ZENHA, Celeste (orgs.). *O século XX*: o tempo das dúvidas. Rio de Janeiro: Civilização Brasileira, 2002. p.116.\n\nO texto descreve o contexto histórico que antecedeu",
+   "alternativas": {
+    "A": "uma intervenção norte-americana em território iraniano.",
+    "B": "a integração do Irã aos países do bloco socialista soviético.",
+    "C": "a laicização integral do Estado iraniano.",
+    "D": "o estabelecimento de uma república teocrática no Irã.",
+    "E": "uma cooperação militar entre Irã e Iraque contra o Ocidente."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 78,
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "Observe o mapa a seguir:\n\n![mapa intitulado “Autonomia Curda”, com zonas de povoamento curdo majoritário e minoritário e regiões autônomas curdas entre Turquia, Síria, Iraque, Irã e Azerbaijão](fig:p30-c2)\n\nLe Monde Diplomatique Brasil, 2022.\n\nSobre o conflito geopolítico em questão, é correto afirmar:",
+   "alternativas": {
+    "A": "O Tratado de Lausanne estabeleceu as fronteiras da Turquia moderna, incluindo a existência de um Estado curdo após o fim do Império Turco Otomano, concedendo aos curdos o domínio do território entre as atuais Turquia e Síria.",
+    "B": "Os curdos formam uma população estimada em dezenas de milhões de pessoas e parte habita uma região montanhosa que se espalha pelos territórios fronteiriços de cinco países: Turquia, Iraque, Síria, Irã e Rússia.",
+    "C": "Falantes de várias línguas, dentre as quais árabe, curdo, turco e persa, e compostos por diferentes grupos étnicos e religiosos, os curdos são considerados a maior população apátrida do mundo.",
+    "D": "Entre os anos de 2013 e 2019, as forças curdas desempenharam um papel central no enfrentamento ao Estado Islâmico na região, o que levou ao reconhecimento do estado independente do Curdistão.",
+    "E": "Em 2022, foi aprovada uma resolução no Conselho de Segurança da ONU reconhecendo a independência do Curdistão e definindo suas fronteiras em territórios que pertenciam à Síria, Turquia e Iraque."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 79,
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "“A China enviou ontem navios de guerra e dezenas de caças para Taiwan, em retaliação a uma reunião entre a presidente da ilha, Tsai Ing-Wen, e o presidente da Câmara dos Deputados do EUA, Kevin McCarty, na Califórnia”.\n\nO Estado de São Paulo, 08/04/2023. Adaptado.\n\nA reportagem faz alusão ao aumento das tensões geopolíticas entre China e Taiwan. Sobre esse tema, é correto afirmar:",
+   "alternativas": {
+    "A": "As tensões iniciaram-se no final de década de 1970, em decorrência das mudanças políticas e econômicas perpetradas pelo então presidente chinês Deng Xiaoping, que resultaram na declaração de independência de Taiwan em relação à China.",
+    "B": "Iniciadas ainda na primeira metade do século XX, as tensões entre China e Taiwan aumentaram desde então em decorrência da presença militar dos EUA no território taiwanês, o que contraria os interesses geopolíticos chineses na região.",
+    "C": "As tensões decorreram do aumento da influência russa sobre o território taiwanês, com foco na exploração do potencial mercado consumidor, considerado estratégico para o aumento das exportações do gás natural russo.",
+    "D": "Com apoio soviético, Taiwan conseguiu independência do território chinês no final da década de 1960. Após o fim da Guerra Fria, tornou-se uma potência tecnológica, o que ampliou o interesse geopolítico chinês na retomada desse território.",
+    "E": "Taiwan é reconhecido como país independente pelos EUA e tem emergido na rota dos conflitos entre os governos estadunidense e chinês, o que pode ser interpretado como indício do deslocamento do eixo geopolítico do mundo para o sudeste asiático."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 80,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura mostra dados do Fundo Monetário Internacional (FMI) sobre a série histórica (1992 e 2010) e uma projeção (2028) dos 10 países com o maior Produto Interno Bruto (PIB).\n\n![gráfico de fluxos com a posição dos 10 países de maior PIB nos anos de 1992, 2010 e 2028](fig:p30-c1)\n\nDisponível em https://www.statista.com/chart/22256/. Adaptado.\n\nSobre esses dados, é correto afirmar:",
+   "alternativas": {
+    "A": "Entre 2010 e 2028, a Indonésia, que não figurava entre os dez maiores PIBs, aparecerá no *ranking* em razão da produção agrícola e do extrativismo mineral, enquanto que a Itália sofrerá queda na economia devido à instabilidade política do país.",
+    "B": "Entre 1992 e 2028, o Brasil apresentou elevação na sua produção e sofrerá declínio no *ranking*, assim como o Reino Unido, em razão desses países terem declinado de tratados econômicos globais.",
+    "C": "Entre 1992 e 2010, China e Índia apresentaram crescimento de suas economias em razão do aumento da capacidade produtiva, do potencial de consumo interno e da infraestrutura na produção industrial.",
+    "D": "Entre 1992 e 2010, Japão e Alemanha sofreram queda e estabilização no seu Produto Interno Bruto justificada pelo fato de ambos os países serem potências hegemônicas na produção de tecnologia.",
+    "E": "Entre 2010 e 2028, Rússia e França terão declínio nas suas economias por se encontrarem enfraquecidas por conflitos bélicos, dependência energética e redução populacional em seus países."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 81,
+   "materia": "sociologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“As sociólogas, filósofas e ativistas feministas destacaram, com o conceito de ‘reprodução social’, algo que a teoria econômica ocultava: para que haja produção de bens e de serviços é necessário que as pessoas que os produzem sejam, por sua vez, produzidas. O trabalho da reprodução social, portanto, cria e repõe a condição primordial e necessária – a existência de pessoas que trabalham – para que a produção econômica possa continuar ocorrendo. Em grande medida, esse trabalho é relegado ao ambiente familiar e às mulheres: cuidado com os filhos, cuidado com doentes e idosos, preparação de alimentos, limpeza e arrumação da casa e outros. O trabalho de reprodução se opõe, socialmente, ao trabalho de produção; este está inserido numa economia organizada com base em empresas – nas fábricas, na agricultura, nos escritórios –, voltado para o mercado e é percebido como merecedor de contrapartida financeira: o salário. Assim, mesmo quando um trabalho da esfera da reprodução se realiza por meio de uma relação de emprego, se for realizado por mulheres, ele costuma ser mal pago e desfrutar de menor prestígio.”\n\nARRUZZA, Cinzia; BATTACHARYA, Tithi; FRASER, Nancy. *Feminismo para os 99%:* um manifesto. São Paulo: Boitempo, 2019.\n\n“A chamada ‘economia do cuidado’ é o conjunto de atividades não remuneradas, geralmente exercidas por mulheres, como a limpeza da casa, preparação de alimentos e os cuidados com crianças, idosos e doentes da família. Um pacote que vale 11% do PIB atual (...). Em valores, foram cerca de 634,3 bilhões de reais em 2015 [por exemplo]. (...) Contabilizar o valor dos afazeres domésticos no PIB do Brasil só se tornou possível a partir de 2001, quando o IBGE introduziu na Pesquisa Nacional por Amostra de Domicílios (PNAD) a pergunta referente ao número de horas despendido pela população para executar essas atividades.”\n\nDisponível em https://www.cartacapital.com.br/.\n\nNos textos apresentados, encontram-se dois conceitos, o de “reprodução social” e o de “economia do cuidado”. De acordo com as definições desses conceitos e com os dados indicados, qual das afirmações a seguir está correta?",
+   "alternativas": {
+    "A": "Os conceitos de reprodução social e de economia do cuidado são contraditórios porque o primeiro se refere a todo trabalho doméstico e o segundo apenas ao trabalho doméstico pago e que é possível contabilizar.",
+    "B": "Ambos os conceitos se referem a um tipo de trabalho cuja importância é socialmente reconhecida, fato que pode ser comprovado pela porcentagem expressiva que ele representava do PIB brasileiro no ano de 2015.",
+    "C": "As definições de reprodução social e de economia do cuidado excluem, necessariamente, a possibilidade de que o Estado seja responsável por parte das tarefas envolvidas na reprodução das pessoas.",
+    "D": "A contabilização no PIB dos valores dos afazeres domésticos no contexto da economia do cuidado abarca apenas uma parte da reprodução social, pois não inclui o trabalho doméstico remunerado e os trabalhos de reprodução executados fora do ambiente doméstico.",
+    "E": "Os dados estimados sobre a participação das atividades domésticas não remuneradas no PIB do Brasil mostram que a reprodução social acontece apenas quando não há uma relação salarial entre quem executa e quem se beneficia desse tipo de trabalho."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 82,
+   "materia": "portugues",
+   "materias_extra": [
+    "literatura"
+   ],
+   "texto_base": "t82-83",
+   "enunciado": "Os trechos transcritos foram retirados dos livros dos moçambicanos Luís Bernardo Honwana e Paulina Chiziane. Em ambos, observa-se a ocorrência da palavra “machamba”. A respeito do uso desse termo, é correto afirmar:",
+   "alternativas": {
+    "A": "No texto I, machamba refere-se a um matagal, em sentido denotativo; no texto II, ao papel de esposa de Sarnau, em sentido conotativo.",
+    "B": "No texto I, machamba possui sentido literal, referindo-se às terras para cultivo; no texto II, o sentido é figurado, referindo-se ao útero de Sarnau.",
+    "C": "No texto I, machamba possui sentido figurado, referindo-se à colheita; no texto II, o sentido é literal, referindo-se a um problema.",
+    "D": "Em ambos os textos, machamba apresenta sentido literal e refere-se a um terreno agrícola de produção familiar.",
+    "E": "Em ambos os textos, machamba possui sentido figurado e refere-se às terras férteis ocupadas pelos portugueses."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 83,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": "t82-83",
+   "enunciado": "Nos excertos, os escritores moçambicanos descrevem, cada um em seu contexto, cenas de violência. Sobre elas, é correto afirmar:",
+   "alternativas": {
+    "A": "Luís Bernardo Honwana descreve uma cena de violência psicológica velada do capataz contra a mulher, sem que ela perceba a agressão sofrida.",
+    "B": "Luís Bernardo Honwana expõe a violência social de que a mulher é vítima ao relatar uma discussão acalorada que ela trava com o capataz.",
+    "C": "Luís Bernardo Honwana narra uma luta física entre o capataz e a mulher, a qual tenta resistir à agressão sofrida, mas acaba por consentir com a relação.",
+    "D": "Paulina Chiziane apresenta elementos narrativos que permitem identificar a agressão psicológica e física praticada, pelo marido, contra a mulher.",
+    "E": "Paulina Chiziane associa a violência contra a mulher a um processo educativo que visa zelar pela estabilidade da relação conjugal e pela felicidade do casal."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 84,
+   "materia": "sociologia",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "O Atlas da Violência, publicado em 2019 e organizado pelo Instituto de Pesquisa Econômica Aplicada e Fórum Brasileiro de Segurança Pública, apresenta um estudo para melhor compreender a violência no país. Os dados que ali constam referem-se ao período de 2007 a 2017. Um dos capítulos desse documento trata, especificamente, da violência contra a mulher. O gráfico a seguir mostra a evolução da taxa de homicídios de mulheres (equivalente ao número de homicídios por 100 mil mulheres), de 2007 a 2017, no Brasil e nas três unidades federativas com as menores taxas em 2017.\n\n![gráfico de linhas da taxa de homicídios de mulheres de 2007 a 2017 no Brasil, no Distrito Federal, em Santa Catarina e em São Paulo](fig:p32-f1)\n\nIpea/FBSP. Atlas da Violência, 2019.\n\nDe acordo com os dados apresentados, é correto afirmar:",
+   "alternativas": {
+    "A": "Dentre as unidades federativas citadas, a que teve maior decréscimo na taxa de homicídios de mulheres no período entre 2014 e 2017 foi São Paulo.",
+    "B": "As três unidades federativas indicadas tiveram um decréscimo na taxa de homicídios de mulheres em 2017 quando comparada com a taxa de 2007.",
+    "C": "A taxa de homicídios de mulheres no Brasil em 2017 é maior que a soma das taxas das três unidades federativas apresentadas neste mesmo ano.",
+    "D": "Dentre as unidades federativas apontadas, a que apresentou a maior taxa de homicídios de mulheres em 2017 é Santa Catarina, superando a taxa registrada nos demais estados da região Sul.",
+    "E": "Dentre as unidades federativas mencionadas, a maior redução na taxa de homicídios de mulheres, entre 2016 e 2017, registrada na pesquisa ocorreu no Distrito Federal."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 85,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Números figurados são números que expressam o total de pontos em certas configurações geométricas. Um exemplo de números figurados são os triangulares, os quais são números naturais que podem ser representados geometricamente na forma de um triângulo. Os quatro primeiros números triangulares estão ilustrados na figura I. Apesar de o número 1 não representar um triângulo, ele é considerado um número triangular.\n\n![Figura I: pontos dispostos em triângulos, rotulados 1, 3, 6 e 10](fig:p32-c1)\n\nOutro exemplo de número figurado é o número oblongo, o qual representa o total de pontos de um quadro retangular em que o número de colunas é uma unidade a mais do que o número de linhas. Os quatro primeiros números oblongos estão ilustrados na figura II. Apesar de o número 2 não representar um quadro retangular, ele é considerado um número oblongo.\n\n![Figura II: pontos dispostos em retângulos, rotulados 2, 6, 12 e 20](fig:p32-c2)\n\nA respeito de números triangulares e números oblongos, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "162 é o 15º número triangular.",
+    "B": "O 13º número triangular é primo e o 30º número oblongo é ímpar.",
+    "C": "156 não é um número oblongo, nem triangular.",
+    "D": "210 é um número triangular e oblongo.",
+    "E": "A diferença entre dois números triangulares consecutivos são termos de uma progressão geométrica."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 86,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Para praticar a agricultura, os tupis derrubavam árvores e faziam a queimada – técnica que iria ser incorporada pelos colonizadores. Plantavam feijão, milho, abóbora e principalmente mandioca, cuja farinha se tornou também um alimento básico da Colônia. A economia era basicamente de subsistência e destinada ao consumo próprio. Cada aldeia produzia para satisfazer a suas necessidades, havendo poucas trocas de gêneros alimentícios com outras aldeias.\n\nMas existiam contatos entre elas para a troca de mulheres e de bens de luxo, como penas de tucano e pedras para se fazer botoque. Dos contatos resultavam alianças em que grupos de aldeias se posicionavam uns contra os outros. A guerra e a captura de inimigos – mortos em meio à celebração de um ritual canibalístico – eram elementos integrantes da sociedade tupi. Dessas atividades, reservadas aos homens, dependiam a obtenção de prestígio e a renovação das mulheres.”\n\nFAUSTO, Boris. *História do Brasil*. São Paulo: Edusp, 2006. p.40.\n\nDe acordo com o texto, é correto afirmar que, no período colonial brasileiro, as sociedades pertencentes ao tronco linguístico Tupi",
+   "alternativas": {
+    "A": "praticavam o canibalismo devido à escassez de alimentos nas regiões em que viviam.",
+    "B": "desenvolviam uma cultura agrícola de subsistência que não abolia a existência de sistemas de troca.",
+    "C": "cultivavam produtos agrícolas que deixaram de ser consumidos após a chegada dos colonizadores.",
+    "D": "organizavam-se em unidades políticas autônomas, que evitavam contatos comerciais entre si.",
+    "E": "realizavam rituais em que homens e mulheres desempenhavam funções idênticas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 87,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Colombo não reconhece a diversidade das línguas e, por isso, quando se vê diante de uma língua estrangeira, só há dois comportamentos possíveis, e complementares: reconhecer que é uma língua, e recusar-se a aceitar que seja diferente, ou então reconhecer a diferença e recusar-se a admitir que seja uma língua... Os índios que encontra logo no início, a 12 de outubro de 1492, provocam uma reação do segundo tipo; ao vê-los, promete: ‘Se Deus assim o quiser, no momento da partida levarei seis deles a Vossas Altezas, para que aprendam a falar’ (...).”\n\nTODOROV, Tzvetán. *A conquista da América*: a questão do outro. São Paulo: Martins Fontes, 1993. p.29-30.\n\nAo tratar das reações iniciais de Colombo ao chegar à América, o excerto indica que o navegador",
+   "alternativas": {
+    "A": "reconheceu a necessidade de tradução mútua entre as línguas.",
+    "B": "considerou as línguas indígenas como expressão de outras culturas.",
+    "C": "interpretou as diferenças linguísticas como estratégia de resistência dos nativos.",
+    "D": "mostrou-se disposto a estudar e compreender as línguas dos indígenas.",
+    "E": "entendeu o ensino do castelhano aos indígenas como forma de civilização."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 88,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "The main players in the Spanish–Aztec War (1519–21) are well known: Hernán Cortés and Montezuma. Lesser-known, though no less important, is a multilingual exiled Aztec woman who was enslaved, then served as a guide and interpreter, then became Cortés’s mistress. She was known as Doña Marina, and as La Malinche.\n\nScholar and researcher Cordelia Candelaria writes: her paramount value to the Spaniards was not merely linguistic. She was an interpreter/liaison who served as a guide to the region, as an advisor on native customs and beliefs, and as a strategist.\n\nLa Malinche was the daughter of an Aztec cacique (chief). This gave her an unusual level of education, which she would later leverage as a guide and interpreter for the Spanish. Throughout Cortés’s travels, she became indispensable as a translator, not only capable of functionally translating from one language to the other, but of speaking compellingly, strategizing, and forging political connections.\n\nIntegral as she was to Spain’s success, La Malinche is a controversial figure. Candelaria quotes T. R. Fehrenbach as saying, “If there is one villainess in Mexican history, she is La Malinche. She was to become the ethnic traitress supreme.” But Candelaria argues that La Malinche’s act of turning her back on her own people makes more psychological sense when we consider that, at a young age, she had been sold by her own mother into slavery. Candelaria asks, “What else could this outcast from the Aztecs, ‘her own people,’ have done?”\n\nDisponível em https://daily.jstor.org/. Adaptado.\n\nSegundo o texto, em relação à imagem de La Malinche como traidora do povo Asteca, a pesquisadora Cordelia Candelaria argumenta que a intérprete",
+   "alternativas": {
+    "A": "havia sido preterida no seio da própria família.",
+    "B": "fez uso de idiomas em proveito próprio.",
+    "C": "era invejada pelos privilégios alcançados.",
+    "D": "ignorou as vulnerabilidades do povo mexicano.",
+    "E": "tentou se sobrepor aos líderes da época."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 89,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“O preconceito linguístico é tanto mais poderoso porque, em grande medida, ele é ‘invisível’, no sentido de que quase ninguém fala dele, com exceção dos raros cientistas sociais que se dedicam a estudá-lo. Pouquíssimas pessoas reconhecem a existência do preconceito linguístico, quem dirá a sua gravidade como um sério problema social.”\n\nBAGNO, Marcos. *Preconceito linguístico: o que é, como se faz.* Edições Loyola, São Paulo, 1999.\n\nCom base na leitura do texto, é possível depreender que o preconceito linguístico, apesar de nocivo para a sociedade, muitas vezes é despercebido. Nesse sentido, assinale a alternativa que apresenta um exemplo de preconceito linguístico.",
+   "alternativas": {
+    "A": "A língua falada é um instrumento de sobrevivência em sociedade.",
+    "B": "A língua varia tão rapidamente quanto as mudanças que ocorrem na sociedade.",
+    "C": "Existem muitas maneiras de se expressar a mesma ideia.",
+    "D": "Os habitantes de uma cidade grande não possuem sotaque na língua falada.",
+    "E": "Todo falante nativo de uma língua a conhece plenamente."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 90,
+   "materia": "sociologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Texto I\n\n“W. I. Thomas, decano dos sociólogos norte-americanos, formula um teorema básico para as ciências sociais: ‘Se os indivíduos definem as situações como reais, elas são reais em suas consequências’. (...) A primeira parte do teorema constitui uma incessante lembrança de que os homens reagem não somente aos traços objetivos de uma situação, como também, e às vezes principalmente, ao sentido que a situação tem para eles. E, assim que atribuíram algum sentido à situação, sua conduta consequente, e algumas das consequências dessa conduta, são determinadas pelo sentido atribuído. (...) A profecia que se cumpre por si mesma é, inicialmente, uma definição *falsa* da situação que provoca uma nova conduta, a qual, por sua vez, converte em *verdadeiro* o conceito originalmente falso.”\n\nMERTON, Robert. *Sociologia:* Teoria e Estrutura. São Paulo: Editora Mestre Jou, 1970. p.515-517.\n\nTexto II\n\n“Depois de alguns anos inseridos nesta lógica de abuso e privações de distintos tipos, o detento é novamente colocado em liberdade. (...) Conseguir um trabalho não é tão fácil como parece, já que mesmo as atividades menos qualificadas e manuais (como as relacionadas a limpeza, serviços gerais, construção civil, dentre outras) demandam ‘atestado de bons antecedentes e a marca da passagem pela cadeia pode significar um indesejável pertencimento ao mundo do crime’ (Ramalho, 2018, p. 91). (...) O fator [condicionante da reincidência] mais citado, presente em 44% dos textos [sobre o tema], foi a baixa qualificação e as poucas oportunidades, sendo essa a explicação padrão de boa parte da literatura para a reincidência.”\n\nRIBEIRO, Ludmila; OLIVEIRA, Valéria. *Reincidência e reentrada na prisão no Brasil:* o que os estudos dizem sobre os fatores que contribuem para essa trajetória. *Artigo Estratégico* 56. São Paulo: Instituto Igarapé, 2022. p.10-14.\n\nAplicando a noção proposta por Robert Merton, no texto I, ao cenário descrito no texto II, qual definição da situação das pessoas egressas do sistema prisional pelos possíveis empregadores no mercado de trabalho tornaria a reincidência criminal uma “profecia que se cumpre por si mesma”?",
+   "alternativas": {
+    "A": "Pessoas egressas do sistema prisional têm dificuldade de conseguir emprego no mercado de trabalho porque são estigmatizadas.",
+    "B": "Pessoas egressas do sistema prisional têm a mesma chance de conseguir empregos que o restante da população, razão pela qual não devem ser privilegiadas pelos empregadores.",
+    "C": "Pessoas egressas do sistema prisional já foram condenadas e cumpriram pena pelo crime cometido e merecem a oportunidade de trabalhar para recomeçarem a vida.",
+    "D": "Pessoas egressas do sistema prisional voltarão a cometer crimes e, por isso, não devem ser contratadas para trabalhar.",
+    "E": "Pessoas egressas do sistema prisional conseguem somente trabalhos informais e de baixa remuneração por terem pouca qualificação e dificuldades para conseguir seus documentos."
+   },
+   "observacoes": ""
+  }
+ ]
+}
