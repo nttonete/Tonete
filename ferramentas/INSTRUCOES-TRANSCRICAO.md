@@ -59,7 +59,7 @@ Grave **um arquivo JSON** no caminho que a tarefa indicar, com esta estrutura:
 
 ## Formato do texto (markdown simplificado)
 
-- **Parágrafos:** separe com uma linha em branco. Dentro de um parágrafo de prosa, junte as linhas do PDF numa linha só e desfaça a hifenização de fim de linha ("aborre-\ncido" vira "aborrecido"). Mantenha hífens de verdade ("aparecer-lhe", "pró-Palestina").
+- **Parágrafos:** separe com uma linha em branco. Dentro de um parágrafo de prosa, junte as linhas do PDF numa linha só e desfaça a hifenização de fim de linha ("aborre-\ncido" vira "aborrecido"). Mantenha hífens de verdade ("aparecer-lhe", "pró-Palestina"). Na tipografia brasileira, a palavra hifenizada que quebra no hífen repete o hífen na linha seguinte ("tem-\n-se", "guerres-\n-en-ukraine"): junte com um hífen só ("tem-se"). Espaços duplos do caderno viram simples.
 - **Quebra de linha simples** (`\n`) só onde o original quebra de propósito: versos de poema, diálogos em linhas, listas, endereços e itens.
 - **Numeração na margem:** há dois casos.
   - *Numeração de linhas ou versos* (as questões citam "linha 12", "verso 5"): mantenha as quebras de linha do original e marque o número no começo da linha correspondente com `[[5]]`.
@@ -71,6 +71,9 @@ Grave **um arquivo JSON** no caminho que a tarefa indicar, com esta estrutura:
   - Tudo o que é parte do desenho (título do gráfico, eixos, legenda de cores, rótulos, "Figura 1", balões de fala) entra **no recorte** e não se repete no texto.
   - A fonte/crédito impresso abaixo da figura (site, autor, data) fica como texto, em parágrafo próprio, se estiver fora do desenho.
   - Se a legenda impressa já identifica a obra (autor, título), a descrição pode repeti-la, pois o aluno a vê na imagem.
+- **Texto dentro de quadro** (manchete de jornal, post de rede social, verbete): se é texto de verdade no PDF, transcreva como texto. Tirinhas, charges e cartuns ficam como figura, e a descrição da figura traz as falas dos balões, entre aspas, para quem usa leitor de tela.
+- **Graus e unidades:** `$25\ ^\circ\text{C}$`, `$90^\circ$`; ou "25 °C" como texto, quando não houver outra fórmula por perto.
+- **Texto que é só de uma questão do grupo** (por exemplo, o "Texto 2" que aparece depois da questão 18 e serve só à 19): vai no `enunciado` dessa questão, junto com a instrução que o acompanha.
 - **Tabelas:** transcreva como tabela markdown (`| a | b |` com linha `|---|---|`) quando for uma tabela simples de texto e números. Se tiver células mescladas, cores ou desenhos, use a figura recortada.
 - **Quadros como "Note e adote"**: transcreva como texto (um parágrafo começando com `**Note e adote:**`), não como figura. Se no caderno o quadro vem depois das alternativas, coloque-o no fim do `enunciado`.
 - **Variáveis e grandezas** em itálico ($h$, $x$, $\theta_L$) sempre em LaTeX, mesmo em cabeçalho de tabela. `*itálico*` é só para palavras.
