@@ -1,0 +1,206 @@
+{
+ "edicao": "unesp-2025-1",
+ "intervalo": [
+  1,
+  30
+ ],
+ "textos_base": {
+  "t27-28": "Leia a tirinha de Alex Hallatt para responder às questões **27** e **28**.\n\n![tirinha de Alex Hallatt em três quadrinhos, com um urso polar, dois pinguins e um coelho diante de pilhas de barras de chocolate. Falas do 1º quadrinho: “Stocking up on essential food WON’T protect us from climate change.” e “Why?”. Falas do 2º quadrinho: “Chocolate goes OFF!” e “I’ve NEVER had chocolate go off.”. Falas do 3º quadrinho: “Is chocolate ‘essential’?” e “Absolutely.”](fig:p10-f1)\n\n(www.alexhallatt.com. Adaptado.)"
+ },
+ "questoes_corrigidas": [
+  {
+   "numero": 2,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": "t01-07",
+   "enunciado": "Depreende-se do conto que o narrador se encontrou com Justo Santana",
+   "alternativas": {
+    "A": "em 1974, no contexto imediato da Revolução de Abril.",
+    "B": "em Luanda, no contexto de uma Angola politicamente independente.",
+    "C": "em Luanda, logo após o seu exílio no deserto do Namibe.",
+    "D": "durante o seu exílio no deserto do Namibe.",
+    "E": "durante a sua prisão em Tarrafal, em Cabo Verde."
+   }
+  },
+  {
+   "numero": 8,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Examine o meme publicado pelo perfil @classicaldamn no Instagram em 16.04.2024.\n\n![meme com a pintura de um velho de barba branca que segura um crucifixo diante de um livro aberto e de uma ampulheta, com o texto em inglês “After 27 selfies, I realized that the beauty of the soul is more important.”](fig:p04-f1)\n\nO conteúdo explorado pelo meme relaciona-se diretamente com aquele explorado pela seguinte fábula de Esopo:",
+   "alternativas": {
+    "A": "Um cabrito que estava dentro de uma casa viu um lobo passar. E começou a insultá-lo, zombando dele. O lobo respondeu: “Pobre tolo, não é você que me insulta: é essa casa que o protege.”",
+    "B": "Uma tartaruga pediu a uma águia que a ensinasse a voar. A ave tentou dissuadi-la: “Voar é contrário à sua natureza.” Mas a tartaruga suplicou. Então a águia pegou a tartaruga com suas garras, levou-a até bem alto no céu e depois a soltou. A tartaruga caiu nos rochedos e se espatifou.",
+    "C": "Enquanto os bois puxavam a carroça, o eixo rangia. Então eles se voltaram para o eixo e lhe disseram: “Meu caro, nós carregamos todo o peso e você é que fica resmungando?”",
+    "D": "Um homem tinha uma galinha que botava ovos de ouro. Ele achava que dentro havia uma grande quantidade de ouro. Ele então a sacrificou, mas descobriu que ela era igual às outras galinhas. Na esperança de uma grande riqueza, acabou se privando de ganhos um pouco menores.",
+    "E": "Uma raposa faminta avistou alguns cachos de uva suspensos numa parreira. Quis alcançá-los, mas todos os seus esforços foram em vão. Indo embora, disse para si: “Não estão maduros, mesmo!”"
+   }
+  },
+  {
+   "numero": 15,
+   "materia": "artes",
+   "materias_extra": [],
+   "texto_base": "t13-15",
+   "enunciado": "Uma obra representativa do movimento explorado no artigo está reproduzida em:",
+   "alternativas": {
+    "A": "![Alternativa A: pintura de Roy Lichtenstein, Garota no espelho](fig:p07-f1)",
+    "B": "![Alternativa B: pintura de Pablo Picasso, Mulher com um livro](fig:p07-f2)",
+    "C": "![Alternativa C: pintura de René Magritte, A reprodução proibida](fig:p07-c1)",
+    "D": "![Alternativa D: pintura de Caspar David Friedrich, O caminhante sobre o mar de névoa](fig:p07-c2)",
+    "E": "![Alternativa E: pintura de Michelangelo Merisi/Caravaggio, Narciso](fig:p07-f5)"
+   }
+  }
+ ],
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": "Conferida. O caderno traz “guardavam-no corno a uma relíquia” (17º parágrafo do texto base): é erro de digitação do original (ampliação conferida) e foi mantido, como já anotado no rascunho. Minha resolução: B."
+  },
+  {
+   "numero": 2,
+   "status": "corrigida",
+   "notas": "Texto conferido. Corrigida só a classificação: tirei “historia” de materias_extra. A resposta sai do próprio conto e da nota 3 (Angola independente em 1975), sem exigir conhecimento de história. Minha resolução: B."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: C, igual ao gabarito oficial."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: A, igual ao gabarito oficial."
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: B, igual ao gabarito oficial."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: A, igual ao gabarito oficial."
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: D, igual ao gabarito oficial."
+  },
+  {
+   "numero": 8,
+   "status": "corrigida",
+   "notas": "Texto e figura conferidos. Corrigida a descrição da figura: o velho segura o crucifixo, não “lê junto a” ele; e o texto do meme fica sobre a imagem, não numa legenda. Minha resolução: E (raposa e as uvas, racionalização)."
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: C, igual ao gabarito oficial."
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: C, igual ao gabarito oficial."
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: B, igual ao gabarito oficial."
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: E, igual ao gabarito oficial."
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: D, igual ao gabarito oficial."
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: A, igual ao gabarito oficial."
+  },
+  {
+   "numero": 15,
+   "status": "corrigida",
+   "notas": "As figuras C (p07-f3) e D (p07-f4) traziam um pedaço do “)” do rótulo da alternativa na borda esquerda. Fiz novos recortes, p07-c1 e p07-c2, com legenda completa. Minha resolução: C (Magritte, surrealismo)."
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: A, igual ao gabarito oficial."
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: B, igual ao gabarito oficial."
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: D, igual ao gabarito oficial."
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: E, igual ao gabarito oficial."
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: E, igual ao gabarito oficial."
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: A, igual ao gabarito oficial."
+  },
+  {
+   "numero": 22,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: C, igual ao gabarito oficial."
+  },
+  {
+   "numero": 23,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: D, igual ao gabarito oficial."
+  },
+  {
+   "numero": 24,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: B, igual ao gabarito oficial."
+  },
+  {
+   "numero": 25,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: A, igual ao gabarito oficial."
+  },
+  {
+   "numero": 26,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: E, igual ao gabarito oficial."
+  },
+  {
+   "numero": 27,
+   "status": "corrigida",
+   "notas": "Corrigido o texto base t27-28: a descrição da tirinha não trazia as falas dos balões, como pedem as instruções. Incluí as falas por quadrinho, sem dizer quem fala, para não entregar a resposta. Minha resolução: E (o balão “Absolutely.” tem duas setas, para o urso e para o pinguim da direita)."
+  },
+  {
+   "numero": 28,
+   "status": "corrigida",
+   "notas": "Usa o texto base t27-28, corrigido: a descrição da tirinha agora traz as falas dos balões. Enunciado e alternativas conferidos. Minha resolução: B, igual ao gabarito oficial."
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: A, igual ao gabarito oficial."
+  },
+  {
+   "numero": 30,
+   "status": "ok",
+   "notas": "Texto, sublinhados/negritos e numeração de parágrafos conferidos com a página. Minha resolução: C, igual ao gabarito oficial."
+  }
+ ]
+}
