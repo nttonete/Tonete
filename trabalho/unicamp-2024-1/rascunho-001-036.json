@@ -1,0 +1,538 @@
+{
+  "edicao": "unicamp-2024-1",
+  "textos_base": {
+    "t1-2": "**‘Nevou’ no Rio**\n\nEm pleno verão, o fenômeno que vem chamando atenção nas ruas do Rio é conhecido como “nevada carioca”, ou apenas “nevou”. Trata-se da mania de descolorir, platinando os cabelos até os fios ficarem completamente brancos, que tomou conta das cabeças dos jovens de Norte a Sul e virou a febre do momento. A onda começou às vésperas do Natal, ganhou força no réveillon e entrou em janeiro lotando os salões. Nascida nas comunidades e nos subúrbios, a tendência ultrapassou fronteiras geográficas e sociais da cidade, principalmente depois de ganhar as redes e de ter conquistado artistas e atletas. Cabeleireiros e donos de salão apostam que o modismo resiste com força até os dias de folia.\n\n(Adaptado de: https://oglobo.globo.com/rio/noticia/2023/01/nevou-no-rio-mania-de-descolorir-o-cabelo-ate-ficar-quase-branco-vira-moda-entre-os-cariocas.ghtml. Acesso em 22/06/2023.)",
+    "t20-21": "**Texto 1**\n\nA OMS (Organização Mundial de Saúde) recomenda que a ingestão de açúcares livres esteja abaixo de 5% da ingestão total de energia diária para o nosso organismo. Como alternativa aos açúcares livres, tem-se intensificado o uso de adoçantes não nutritivos, como, por exemplo, sacarina, sucralose, *stevia* e aspartame. A própria OMS atualmente recomenda que adoçantes não sejam utilizados para controlar a massa corporal, pois não oferecem benefício na redução da gordura corporal. Uma bebida muito consumida no cotidiano, o refrigerante, apresenta esses dois aspectos para os quais a OMS chama atenção: os comuns têm cerca de 11 g de açúcar por 100 mL e os *diets* contêm adoçantes não nutritivos.",
+    "t34-37": "Use os valores aproximados: $g = 10\\ \\text{m/s}^2$ e $\\pi = 3$.\n\nUma das etapas mais difíceis de um voo espacial tripulado é a reentrada na atmosfera terrestre. Ao reencontrar as camadas mais altas da atmosfera, a nave sofre forte desaceleração e sua temperatura externa atinge milhares de graus Celsius. Caso a reentrada não ocorra dentro das condições apropriadas, há risco de graves danos à nave, inclusive de explosão, e até mesmo risco de ela ser lançada de volta ao espaço."
+  },
+  "questoes": [
+    {
+      "numero": 1,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": "t1-2",
+      "enunciado": "No texto, o verbo *nevar* apresenta sentido",
+      "alternativas": {
+        "A": "literal e é sinônimo de *descolorir*.",
+        "B": "figurado e quer dizer *embranquecer*.",
+        "C": "metafórico e é antônimo de *escurecer*.",
+        "D": "metonímico e significa *cabelos brancos*."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 2,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": "t1-2",
+      "enunciado": "Assinale a alternativa em que todas as palavras listadas têm um mesmo referente dentro do texto.",
+      "alternativas": {
+        "A": "fenômeno – onda – tendência – modismo",
+        "B": "mania – onda – febre – força",
+        "C": "fenômeno – momento – mania – febre",
+        "D": "modismo – tendência – força – momento"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 3,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Texto 1**\n\nVivemos no limiar de uma transição, em que a automação ocupará cada vez mais espaços na sociedade. Neste novo cenário, há um componente atuando com desenvoltura entre nós. Suas ações e decisões, invisíveis e muitas vezes autônomas, estão cada vez mais presentes no dia a dia da vida contemporânea. Seu comportamento, no entanto, é opaco e pouco compreendido. Trata-se dos algoritmos. São eles que, muitas vezes, decidem se você é contratado ou demitido, se você vai ter acesso a um benefício social, se seu visto de imigração vai ser concedido ou negado, quais notícias você vai ver nas redes sociais, qual o melhor trajeto do trabalho para casa ou qual o parceiro mais apropriado para um relacionamento.\n\n(Adaptado de: MENDONÇA, R.F.; FIGUEIRAS, F.; ALMEIDA, V. Algoritmos controlam sociedade e tomam decisões de vida ou morte. *Folha de S. Paulo*, 7 abr. 2021.)\n\n**Texto 2**\n\n![Tirinha de André Dahmer com o personagem algoritmo, laranja e amarelo, em três quadrinhos. Falas: “Ela curte ioga”; “Gosta de gatos, cerâmica, constelação familiar e comida sem glúten”; “Isso quer dizer que ela vai comprar o curso de encadernação artesanal”.](fig:p03-f2)\n\n(Quadrinhos com o personagem laranja e amarelo, que representa um algoritmo, da série criada por André Dahmer. Disponível em: https://diplomatique.org.br/novas-tirinhas-de-andre-dahmer-transformam-algoritmo-em-personagem-intrometido/. Acesso em 28/07/2023.)\n\nA partir do texto 1, é possível afirmar que o texto 2 explora o fato de que os algoritmos",
+      "alternativas": {
+        "A": "definem o que é melhor ou mais apropriado para cada pessoa.",
+        "B": "são opacos porque aleatoriamente expõem às pessoas produtos para compra.",
+        "C": "se servem dos nossos dados para nos oferecer continuamente produtos a serem consumidos.",
+        "D": "controlam a vida humana para aperfeiçoar as nossas tomadas de decisão."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 4,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O anúncio (Texto 1) reproduzido a seguir foi postado nas redes sociais da Portela, escola de samba carioca, para divulgar uma festa literária. A escola, que traz a águia como símbolo em todos os seus desfiles (Texto 2), completou 100 anos em 2023.\n\n**Texto 1**\n\n![Anúncio da Fliportela, festa literária da Portela, em 28, 29 e 30 de abril, com o símbolo de uma águia cujas asas formam um livro aberto, e o emblema do centenário da Portela, 1923-2023](fig:p03-c1)\n\n(Disponível em: https://www.instagram.com/p/CrlVA_tOmAW/. Acesso em 24/06/2023.)\n\n**Texto 2**\n\n![Foto da águia da Portela, alegoria de carro do desfile, de asas abertas](fig:p03-f4)\n\n(Águia da Portela no desfile de 2017. Foto: Ricardo Moraes/Reuters. 2017.)\n\nConsiderando a imagem no texto 2, podemos afirmar que o texto 1 promove uma",
+      "alternativas": {
+        "A": "fusão entre o símbolo da escola e o produto da expressão literária, que aparece materializado no desenho das asas da águia.",
+        "B": "relação entre a festa literária, mencionada em segundo plano, e o desenho do símbolo da escola, que passa a personificar a literatura.",
+        "C": "associação das asas da águia com o título atribuído à festa literária, que mostra o nome da escola antecedido pelo prefixo *fli*.",
+        "D": "ressignificação do símbolo da Portela, cujo desenho faz referência direta à arte literária, para destacar o centenário da escola como tema da festa."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 5,
+      "materia": "portugues",
+      "materias_extra": [
+        "literatura"
+      ],
+      "texto_base": null,
+      "enunciado": "O texto a seguir é um trecho da canção *Pantanal*, que foi tema de abertura da novela com o mesmo nome, exibida originalmente pela TV Manchete em 1990 e regravada pela TV Globo em 2022.\n\n*Lendas de raças, cidades perdidas nas selvas do coração do Brasil.*\n*Contam os índios de deuses que descem do espaço no coração do Brasil.*\n*Redescobrindo as Américas quinhentos anos depois,*\n*Lutar com unhas e dentes pra termos direito a um depois.*\n*Fim do milênio, resgate da vida, do sonho, do bem.*\n*A terra é tão verde e azul.*\n*Os filhos dos filhos dos filhos dos nossos filhos verão.*\n\n(*Pantanal*, letra de Marcus Viana, gravada pelo grupo Sagrado Coração da Terra na coletânea em *LP Sagrado – Farol da Liberdade*, lançada em 1991 pelo selo Sonhos & Sons.)\n\nNesse trecho da canção, podemos identificar",
+      "alternativas": {
+        "A": "repetição de advérbios que indicam as mesmas circunstâncias de tempo e de lugar, para produzir um efeito de redundância a respeito da luta pela terra.",
+        "B": "indeterminação de sujeito com verbo na terceira pessoa do plural, para produzir um efeito de incerteza quanto ao papel das futuras gerações.",
+        "C": "atribuição de características positivas por meio de substantivos que indicam cores, para produzir um efeito de otimismo na preservação da natureza.",
+        "D": "encadeamento sucessivo de termos ligados por preposição, para produzir um efeito de continuidade temporal quanto à condição do planeta."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 6,
+      "materia": "literatura",
+      "materias_extra": [
+        "portugues"
+      ],
+      "texto_base": null,
+      "enunciado": "je ne parle pas bien*\nje ne parle pas bien\nje ne parle pas bien\nje ne parle pas bien\n\neu tenho uma língua solta\nque não me deixa esquecer\nque cada palavra minha\né resquício da colonização\ncada verbo que aprendi conjugar\nfoi ensinado com a missão\nde me afastar de quem veio antes\nnossas escolas não nos ensinam\na dar voos\n[...]\nreinvenção\nnossa revolução surge e urge\ndas nossas bocas\ndas falas aprendidas\nque são ensinadas\ne muitas não compreendidas\nsalve, a cada gíria\nje ne parle pas bien\n[...]\no que era pra ser arma de colonizador\nestá virando revide de ex colonizado\nestamos aprendendo as suas línguas\ne descolonizando os pensamento\n\n(Fragmentos do poema *Je ne parle pas bien*, de Luz Ribeiro, publicado na *Revista Opiniães*: *Revista dos alunos de Literatura Brasileira*, n.10, 2017.)\n\n* *Je ne parle pas bien*, do francês, significa “Eu não falo direito”.\n\nPodemos afirmar que o uso repetido do verso *Je ne parle pas bien* no poema *slam* de Luz Ribeiro",
+      "alternativas": {
+        "A": "expressa a necessidade de repetir muitas vezes uma mesma sentença como forma de resistir ao esquecimento de uma língua.",
+        "B": "enfatiza a ideia de que a língua francesa do colonizador ainda não foi aprendida e precisa ser repetida várias vezes.",
+        "C": "é uma constatação de que, na posição de ex-colônia, não conseguimos aprender línguas estrangeiras.",
+        "D": "indica um posicionamento de resistência por meio de uma crítica à aprendizagem forçada da língua do colonizador."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Texto 1**\n\n“Que século, meus Deus! – exclamaram os ratos\nE começaram a roer o edifício”.\n\n(“Edifício Esplendor” (1955), de Carlos Drummond de Andrade, epígrafe do conto “Seminário dos Ratos”, de Lygia Fagundes Telles.)\n\n**Texto 2**\n\nEpígrafe é um paratexto (um texto que acompanha o texto principal), que pode justificar ou comentar um título ou texto; referenciar a relação entre o autor do texto e o da epígrafe; criar um efeito por meio do qual a presença da epígrafe já evoca a identificação do autor do texto com uma época ou movimento.\n\n(Adaptado de: GENETTE, G. *Paratextos Editoriais*. Tradução de Álvaro Faleiros. Cotia: Ateliê Editorial, 2009.)\n\nConsiderando os textos 1 e 2, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A epígrafe associa o conto de Lygia ao “sentimento do mundo” drummondiano.",
+        "B": "A epígrafe mostra que os versos de Drummond são imprescindíveis à escrita do conto.",
+        "C": "A epígrafe justifica o título do conto e comenta os possíveis sentidos críticos dele.",
+        "D": "A epígrafe identifica Lygia à geração de 30 do Modernismo, ao lado de Drummond."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 8,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia o trecho da reportagem:\n\n“Mulher espancada após boatos em rede social morre no Guarujá, SP\n\n(...)\n\nA dona de casa Fabiane Maria de Jesus, de 33 anos, morreu na manhã desta segunda-feira (5), dois dias após ter sido espancada por dezenas de moradores do Guarujá, no litoral de São Paulo. Segundo a família, ela foi agredida a partir de um boato gerado por uma página em uma rede social (...)”\n\n(G1, Santos, 05/05/2014. Disponível em: https://g1.globo.com/sp/santos-regiao/noticia/2014/05/mulher-espancada-apos-boatos-em-rede-social-morre-em-guaruja-sp.html. Acessado em 04/07/2023.)\n\nAssinale o trecho de um dos contos a seguir – extraídos de EVARISTO, Conceição. *Olhos d’Água*. Rio de Janeiro: Pallas; Fundação Biblioteca Nacional, 2016 –, trecho este que relaciona o acontecimento da reportagem ao texto de ficção:",
+      "alternativas": {
+        "A": "“Os mais velhos, acumulados de tanto sofrimento, olhavam para trás e do passado nada reconheciam no presente. Suas lutas, seu fazer e saber, tudo parecia ter se perdido no tempo (...) Deram de clamar pela morte. E a todo instante eles partiam” (p. 112).",
+        "B": "“Vi só lágrimas e lágrimas. Entretanto, ela sorria feliz. Mas eram tantas lágrimas, que eu me perguntei se minha mãe tinha olhos ou rios caudalosos sobre a face. E só então compreendi. Minha mãe trazia, serenamente em si, águas correntezas (...). Águas de Mamãe Oxum!” (p. 18-19).",
+        "C": "“Os assaltantes desceram rápido. Maria olhou saudosa e desesperada para o primeiro. (...) Alguém gritou que aquela puta safada lá da frente conhecia os assaltantes (...). A primeira voz, a que acordou a coragem de todos, (...) levantou e se encaminhou em direção à Maria (...)” (p. 41-42).",
+        "D": "“Nos últimos tempos na favela, os tiroteios aconteciam com frequência e a qualquer hora. Os componentes dos grupos rivais brigavam para garantir seus espaços e freguesias. Havia ainda o confronto constante com os policiais que invadiam a área” (p. 76)."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 9,
+      "materia": "literatura",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "No início da novela *Casa Velha*, de Machado de Assis, o cônego da Capela Imperial, um personagem da história, assumindo a voz narrativa dela, conta a seus interlocutores:\n\n“– Não desejo ao meu maior inimigo o que me aconteceu no mês de abril de 1839.”\n\n(MACHADO DE ASSIS. *Casa Velha*. Rio de Janeiro: Paz e Terra, 1986, p. 11.)\n\nDe acordo com o texto, o acontecimento desagradável que vitimou o religioso faz com que ele possa ser considerado, ao final da narrativa, como",
+      "alternativas": {
+        "A": "um boêmio que se sente entediado na presença dos convivas da Casa Velha: “Disseram-me que era amiga da família, e se chamava Mafalda. (...) Creio que disseram ainda outras coisas; mas não me interessando nada, nem a conversação, nem a hóspeda, (...) deixei-me estar comigo” (p. 29-30).",
+        "B": "um antiescravista, obrigado a conviver, na mesma casa grande, com senhores, agregados e escravos: “Lalau (...) com as mãos no ombro do moleque, ora fitava os olhos na carapinha deste, ouvindo somente as palavras de Félix; ora erguia-os para o moço (...)” (p. 67).",
+        "C": "um republicano que suporta um velho Coronel de posições conservadoras: “Reverendíssimo, (...) os farrapos invadiram Santa Catarina, entraram na Laguna, e os legais fugiram. Eu, se fosse o governo, mandava fuzilar a todos estes para escarmento...” (p. 89).",
+        "D": "um ingênuo que se deixa iludir em suas relações pessoais: “nem por sombras me acudiu que a revelação de Dona Antônia podia não ser verdadeira (...) Não adverti sequer na minha cumplicidade. Em verdade, eu é que proferira as palavras que ela trazia na mente (...)” (p. 89)."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 10,
+      "materia": "literatura",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "“Um deles viu umas contas brancas de rosário, acenou que lhas dessem e divertiu-se muito com elas. Enrolou-as ao pescoço, depois tirou-as e embrulhou-as no braço, e acenava para a terra e depois para as contas, e em seguida para o colar do capitão, dando a entender que eles dariam ouro por aquilo. Isto nós entendíamos assim porque queríamos. Mas se ele queria dizer que levaria as contas e mais o colar, isto nós não queríamos entender, porque não lho daríamos.\"\n\n(CAMINHA, Pero Vaz de. *Carta de Achamento do Brasil*. Campinas: Editora da UNICAMP, p. 108, 2001.)\n\nEm seu relato de viagem, Pero Vaz de Caminha",
+      "alternativas": {
+        "A": "descreve a natureza e as pessoas que os portugueses encontraram no Novo Mundo, inventariando os detalhes da viagem, com vistas à preservação da História Colonial.",
+        "B": "descreve e interpreta os fatos, mostrando que a compreensão dos portugueses sobre os povos originários era mediada pelos interesses do colonizador.",
+        "C": "descreve como os povos originários do Novo Mundo auxiliaram os colonizadores na prospecção por riquezas, antevendo a realização do projeto colonizador.",
+        "D": "descreve e interpreta os fatos, sugerindo que, na visão dos povos originários, era possível a convivência pacífica com o colonizador, já que compartilhavam os mesmos interesses."
+      },
+      "observacoes": "No caderno, a citação abre com aspas curvas (“) e fecha com aspas retas (\")."
+    },
+    {
+      "numero": 11,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 1921, Mário de Andrade, escrevendo a série de artigos “Mestres do passado”, publicados no *Jornal do Comércio* (edição de São Paulo), observou:\n\n\"*Tarde* [de Olavo Bilac] foi uma promessa de anos seguidos. Tais são, tão salientes os artifícios e tão repetidos que muito bem provam o esforço do poeta decaído da poesia e a sua parca inspiração (...).”\n\n(ANDRADE, M. Mestres do passado – Olavo Bilac. In: BRITO, M.S. *História do modernismo brasileiro*. Antecedentes da Semana de Arte Moderna. 5.ed. Rio de Janeiro: Civilização Brasileira, p. 288-289, 1978.)\n\nRelacione, ao poema a seguir, o trecho da crítica anterior, assinalando a alternativa que coincide com a ideia geral de Mário sobre a obra de Bilac.\n\n**As estrelas**\nOlavo Bilac\n\nDesenrola-se a sombra no regaço\nDa morna tarde, no esmaiado anil;\nDorme, no ofego do calor febril,\nA natureza, mole de cansaço.\n\nVagarosas estrelas! passo a passo,\nO aprisco desertando, às mil e às mil,\nVindes do ignoto seio do redil\nNum compacto rebanho, e encheis o espaço...\n\nE, enquanto, lentas, sobre a paz terrena,\nVos tresmalhais tremulamente a flux,\n– Uma divina música serena\n\nDesce rolando pela vossa luz:\nCuida-se ouvir, ovelhas de ouro: a avena\nDo invisível pastor que vos conduz...\n\n(BILAC, Olavo. *Tarde*. Rio de Janeiro: Livraria Francisco Alves, p. 42-43, 1919.)\n\nEsmaiado: esmaecido, pálido\nAprisco: curral\nRedil: curral para o gado ovino ou caprino; rebanho de ovelhas\nTresmalhar: Afastar-se, perder-se do rebanho\nFlux: fluxo\nAvena: flauta pastoril",
+      "alternativas": {
+        "A": "O crítico lamenta o espaçamento da criação poética de Bilac, o que se expressa no poema pela imagem das estrelas que se afastam umas das outras.",
+        "B": "O crítico elogia os salientes artifícios da linguagem poética de *Tarde*, o que se pode perceber, por exemplo, pela variedade de sinônimos para a palavra “curral”.",
+        "C": "O crítico evoca, como resultado da pouca inspiração artística do poeta, a sobrecarga de investimento formal (os hipérbatos ou inversões, por exemplo).",
+        "D": "O crítico associa a poesia de Bilac ao estilo decadentista, o que é reforçado pelas imagens de esgotamento, como se vê nas palavras “morna”, “esmaiado”, “ofego”, “mole”, “lentas”."
+      },
+      "observacoes": "No caderno, a citação de Mário de Andrade abre com aspas retas (\") e fecha com aspas curvas (”)."
+    },
+    {
+      "numero": 12,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia as duas citações a seguir, extraídas do início e do final de *O Ateneu*:\n\n\"Lembramo-nos, entretanto, com saudade hipócrita, dos felizes tempos; como se a mesma incerteza de hoje, sob outro aspecto, não nos houvesse perseguido outrora e não viesse de longe a enfiada das decepções que nos ultrajam. Eufemismo, os felizes tempos, eufemismo apenas, igual aos outros que nos alimentam, a saudade dos dias que correram como melhores. Bem considerando, a atualidade é a mesma em todas as datas. Feita a compensação dos desejos que variam, das aspirações que se transformam, alentadas perpetuamente do mesmo ardor, sobre a mesma base fantástica de esperanças, a atualidade é uma (...)”.\n\n\"Aqui suspendo a crônica das saudades. Saudades verdadeiramente? Puras recordações, saudades talvez, se ponderarmos que o tempo é a ocasião passageira dos fatos, mas sobretudo — o funeral para sempre das horas.”\n\n(POMPEIA, Raul. *O Atheneu* (Chronica de saudades). Rio de Janeiro: Tipografia de Gazeta de Notícias, p 3-4 e 368, 1888.)\n\nCom base nessas duas citações, é possível afirmar que, ao fim da narrativa de Sérgio sobre sua vida no colégio, o narrador",
+      "alternativas": {
+        "A": "idealiza a felicidade experimentada na infância, suas aspirações, seu ardor e suas esperanças.",
+        "B": "considera que a felicidade passada não era maior que a do presente, pois os tempos são iguais.",
+        "C": "duvida da própria saudade, separando as lembranças relativas ao passado daquele sentimento associado a elas.",
+        "D": "denuncia a hipocrisia da saudade que sente, por saber que a passagem do tempo é incerta."
+      },
+      "observacoes": "No caderno, as duas citações abrem com aspas retas (\") e fecham com aspas curvas (”)."
+    },
+    {
+      "numero": 13,
+      "materia": "historia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "Estudos, publicados na *Nature Geoscience* e na revista *Science*, apontam para a queda acentuada das temperaturas na Europa e na Ásia a partir do ano de 536, gerando a chamada “Pequena Idade do Gelo da Antiguidade Tardia”. As mudanças nas temperaturas podem ter sido causadas por erupções vulcânicas, cujos efeitos foram reforçados pelas correntes oceânicas, pela expansão do gelo e pela coincidência de um mínimo solar (século VI). A conjugação desses fatores teria gerado mudanças efetivas na história, já que a agricultura e a pastagem teriam sido diretamente atingidas. Exemplos dessas relações entre o clima e a história humana podem ser encontrados na Antiguidade, como a invasão da Europa por vários povos das estepes, a queda do segundo império persa, a entrada dos turcos na Anatólia, o início da expansão árabe, entre outros.\n\n(Adaptado de: CRIADO, M.l Á. “Uma pequena ‘idade do gelo’ pode ter mudado a história da Antiguidade (...)”. *El País*, fev, 2016.)\n\nCom base em seus conhecimentos sobre a Antiguidade e tendo em vista o excerto anterior, é correto afirmar que",
+      "alternativas": {
+        "A": "a história do planeta Terra e a história humana são indissociáveis; eventos do século VI são bons exemplos disso: mudanças nos ecossistemas teriam gerado peste, fome e escassez, levando aos deslocamentos de povos.",
+        "B": "a “Pequena Idade do Gelo da Antiguidade Tardia”, assim como as mudanças climáticas dos séculos XX e XXI, foram provocadas, em especial, pela ação humana e também pelas mudanças nas paisagens dos campos.",
+        "C": "os efeitos das mudanças climáticas no passado eram locais; os eventos históricos citados se desconectavam das mudanças nos ecossistemas encontrados na Europa e na Ásia.",
+        "D": "os estudos sobre as mudanças nas temperaturas no século VI apresentam uma visão sobre o passado, destacando como grupamentos humanos controlavam as mudanças na natureza."
+      },
+      "observacoes": "Na referência, o original traz \"M.l Á.\" (provável erro de digitação do caderno)."
+    },
+    {
+      "numero": 14,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Dos pretos é tão própria e natural a união que a todos os que têm a mesma cor, chamam parentes; a todos os que servem na mesma casa, chamam parceiros; e a todos os que se embarcam no mesmo navio, chamam malungos.”\n\n(VIEIRA, Padre Antônio. *Sermão XX*. Parte II. Lisboa: Impressão Craesbeeckiana, p. 165, 1688.)\n\nSobre as comunidades de malungos no período da escravidão, é correto afirmar, de acordo com o texto, que são formadas",
+      "alternativas": {
+        "A": "nos laços entre africanos de múltiplas etnias, os quais haviam atravessado juntos o Atlântico.",
+        "B": "no encontro dos africanos nas senzalas, no exercício de ofícios e no trabalho da lavoura.",
+        "C": "no Novo Mundo por pessoas de uma mesma etnia que se reconheciam como iguais.",
+        "D": "nos quilombos rurais e urbanos, formados por escravizados fugidos de muitas etnias."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No processo de Independência, várias tropas indígenas foram recrutadas para proteger o território contra uma possível invasão portuguesa no litoral cearense entre setembro e novembro de 1822. Já os índios da vila de Cimbres, em Pernambuco, se posicionaram em 1824 a favor de Dom João VI, opondo-se à Independência e à Constituição. No entanto, o que parecia ser mais comum era o engajamento dos índios no projeto de Brasil independente, identificando-se como “brasileiros”. Nas revoltas, buscavam muito menos se contrapor aos europeus e, assim, lutar por uma nova posição social que não mais os obrigasse ao trabalho forçado.\n\n(Adaptado de: COSTA, J. P. P. “Povos indígenas e a Independência”. Disponível em: https://bicentenario2022.com.br/textos/. Acesso em 21/05/2023.)\n\nTendo em vista seus conhecimentos sobre a participação dos povos indígenas no processo de Independência, e considerando o texto do blog citado, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "As disputas dos ameríndios em torno do “ser brasileiro” visavam à manutenção da ordem social vigente.",
+        "B": "As populações indígenas participaram, com projetos políticos específicos, dos processos da Independência.",
+        "C": "A independência era entendida pelos indígenas como uma ameaça a Dom João VI, símbolo da nação brasileira.",
+        "D": "A diversidade da ação indígena se relacionava à distribuição de terras e títulos estabelecidos pela Corte portuguesa."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 16,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Muitos fotógrafos no século XIX registraram obras de engenharia. O francês Édouard Baldus (1813-1889) atuou, primeiro como pintor e depois como fotógrafo, no inventário de monumentos arquitetônicos da Comissão dos Monumentos Históricos (1851) na França. Suas fotografias sobre esses monumentos renderam-lhe fama de fotógrafo de arquitetura. Sob encomenda, Baldus editou um álbum para a Companhia dos Caminhos Férreos do Norte (1855) e registrou estações, instalações ferroviárias, portos e cidades, ao longo desta via entre Paris e a cidade de Boulogne-sur-Mer. A rainha Vitória ganhou um exemplar dessa publicação.\n\n(Adaptado de: OLIVEIRA, E. R. Vistas fotográficas das ferrovias: a produção de registros de obra pública no Brasil do século XIX. *Hist cienc saude-Manguinhos [Internet]*, 25(3), p. 695-723, 2018.)\n\nTendo em vista seus conhecimentos sobre mundo contemporâneo e considerando o texto, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Na Europa do século XIX, a difusão social das fotografias das obras públicas se dava por meio de jornais impressos com baixa circulação social e restrita aos estudiosos.",
+        "B": "No século XIX, a dissociação entre as fotografias de obras públicas e a vida política europeia expressa a desvalorização da técnica e do conhecimento científico positivista.",
+        "C": "A fotografia teve vários usos e funções no século XIX, entre eles, o de compor inventários arquitetônicos e retratar obras de engenharia.",
+        "D": "O álbum fotográfico dado à rainha Vitória era um gesto diplomático que mostrava o descontentamento francês com a política inglesa."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Fotografia em preto e branco de mulheres asiáticas sentadas e em pé, lado a lado, e um homem de boné ao fundo](fig:p07-c1)\n\nLegenda: Imagens de “mulheres de conforto”**, em 1944, na Coreia do Sul.\n\n** Termo usado para designar coreanas, filipinas e chinesas, obrigadas a se prostituírem em bordéis usados por militares japoneses.\n\n(Foto, legenda e definição do termo disponíveis em: https://forbes.com.br/colunas/2017/07/imagens-raras-mostram-mulheres-de-conforto-da-2a-guerra-mundial/ Acesso em 25 de maio de 2023.)\n\nÉ correto afirmar que a fotografia anterior",
+      "alternativas": {
+        "A": "foi produzida durante a Guerra Fria e documenta o sequestro, no sudeste asiático, da parte dos soldados norte-americanos, de mulheres. O estupro e a prostituição forçada são aceitos pelas cortes internacionais como estratégia de guerra, já que os crimes de guerra referem-se apenas às armas usadas nos campos.",
+        "B": "comprova a ação dos soldados norte-americanos, durante a Guerra do Vietnã, em relação às mulheres e às crianças fotografadas. A prostituição consensual era usada como estratégia de criação de novos laços sociais e o povoamento dos territórios conquistados.",
+        "C": "traz a imagem de mulheres enfileiradas, capturadas e obrigadas a se prostituírem durante a II Guerra Mundial. A violação sexual tem sido usada historicamente como arma para fragilizar os supostos inimigos, já que as vítimas da violência sexual trazem marcas da humilhação e da limpeza étnica e tem os laços sociais destruídos.",
+        "D": "registra mulheres que, durante a Guerra das Coreias, escolheram se casar e migrar com os soldados japoneses. A violação sexual é uma das marcas dos conflitos entre nações, atingindo em especial mulheres e crianças que, entendidas como vulneráveis, se tornam vítimas do domínio masculino."
+      },
+      "observacoes": "Original traz \"e tem os laços sociais destruídos\" (sem acento) na alternativa C. A legenda e a nota estavam dentro do quadro da figura; foram transcritas como texto."
+    },
+    {
+      "numero": 18,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Prisões e torturas igualmente triplicaram, principalmente as de jornalistas. Dentre elas, a mais emblemática foi a de Vladimir Herzog, diretor da TV Cultura, que, embora fosse militante do PCB, não desenvolvia atividade clandestina nem pertencia aos quadros do partido. Herzog foi assassinado dentro do DOI-CODI, sendo a versão oficial de sua morte falsamente atribuída a um enforcamento. Em sua *Autobiografia*, Rita Lee publicou o bilhete de Elis Regina que fazia menção a uma música feita para “Vlado” e que, obviamente, fora censurada.\n\n(Adaptado de: LIMA, N. *Ditadura no Brasil e Censura nas Canções de Rita Lee*. Curitiba: Appris, 2019, p.17.)\n\nA partir da leitura do texto e de seus conhecimentos a respeito desse período da História do Brasil, é correto afirmar, sobre os eventos narrados, que",
+      "alternativas": {
+        "A": "Rita Lee, Elis Regina, Caetano Veloso, Chico Buarque, entre outros artistas nacionais, tiveram suas músicas censuradas pela Ditadura Militar, apesar da manutenção da garantia constitucional da liberdade de expressão.",
+        "B": "A Ditadura Militar permitiu a continuidade do Partido Comunista Brasileiro e perseguia sua atuação revolucionária vinculada a Stalin e à União Soviética; por conta disso, prendia e torturava seus filiados.",
+        "C": "Centros de detenção da Ditadura Militar, como o DOI-CODI, operaram dentro da legalidade constitucional, sendo que os presos, políticos ou não, eram fichados e tinham direito à defesa garantido por lei.",
+        "D": "Vladimir Herzog e outros jornalistas foram vítimas de perseguição política, prisões, torturas e execuções realizadas por militares, com apoio de parte da sociedade civil, em nome da ideologia da segurança nacional."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 19,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Imagem de um homem idoso vestido de Papa, com solidéu branco e casaco acolchoado branco e volumoso, caminhando](fig:p08-c1)\n\n(Disponível em: https://www.uol.com.br/tilt/noticias/redacao/2023/03/26/foto-do-papa-usando-casaco-estiloso-foi-criada-por-inteligencia-artificial.htm?cmpid=copiaecola. Acesso em 04/05/2023.)\n\nImagem postada em março de 2023 no Reddit, uma comunidade de fóruns, na página específica do Midjourney. Essa página reúne criações feitas na ferramenta de Inteligência Artificial, ferramenta que permite criar imagens hiper-realistas a partir de uma descrição em texto. A imagem viralizou a partir do Twitter. O Papa nunca usou aquele casaco branco.\n\n![Gravura de duas mulheres abraçadas e se beijando, sentadas em uma poltrona, com a legenda impressa “Je ne respire plus que pour toi, un baiser, mon bel Ange!”](fig:p08-c2)\n\n(Biblioteca Nacional da França, sem data, RES 8-LB39-12153. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b6942376r.item. Acesso em 04/05/2023.)\n\nTradução da legenda: *Eu apenas respiro por você. Um beijo, meu belo anjo!*\n\nPanfleto anônimo produzido na França pré-revolucionária do final do século XVIII retratando a rainha Maria Antonieta em um romance com a sua amiga, a duquesa Yolande de Polignac.\n\nCom propósitos diferentes, ambas as imagens promovem a desinformação. Comparando historicamente os dois exemplos de desinformação, é correto afirmar que",
+      "alternativas": {
+        "A": "as campanhas de desinformação podem ser encontradas em diferentes contextos, como visto no uso do panfleto da rainha pela coroa francesa – com o objetivo de defender a monarquia – e na imagem do Papa – que explora a contradição entre a riqueza do Vaticano e os excluídos defendidos por ele.",
+        "B": "no século XVIII e no século XXI, a produção e a circulação de *fake news* e desinformação são controladas pelos aparelhos de censura que revisam conteúdos orais e impressos, ainda que estruturados a partir de tecnologias diferenciadas.",
+        "C": "na era digital, a ruptura causada pelo uso de Inteligência Artificial e seu potencial na produção de desinformação está ao alcance do público, na instantaneidade e no realismo da imagem. No início da contemporaneidade, as manipulações em imagens e em notícias eram acessadas pelo público através de jornais e panfletos.",
+        "D": "os dispositivos de Inteligência Artificial representam uma ruptura no combate à desinformação ao possibilitar o rastreio e a eliminação instantânea de fake news. No século XVIII, o público era refém de notícias falsas pela ausência desta tecnologia."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 20,
+      "materia": "matematica",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": "t20-21",
+      "enunciado": "O gráfico a seguir apresenta o consumo médio de refrigerante por habitante por ano, no período de 2010 a 2021, no Brasil.\n\n![Gráfico de barras do consumo de refrigerante, em litros por habitante por ano, de 2010 a 2021](fig:p09-f1)\n\n**Dados:**\ni) ingestão total de energia diária para adultos: 8400 kJ (recomendação da OMS).\nii) energia por grama de açúcar: 16,5 kJ.\n\nDe acordo com as informações do gráfico e do texto 1, pode-se afirmar que a média de consumo diário de açúcar, por habitante, para cada ano, devido somente à ingestão de refrigerante,",
+      "alternativas": {
+        "A": "foi sempre superior à recomendada pela OMS, o que pode indicar uma baixa conscientização da população sobre o consumo de açúcar.",
+        "B": "foi sempre inferior à recomendada pela OMS, o que pode indicar uma alta conscientização da população sobre o consumo de açúcar.",
+        "C": "foi superior; porém, mais recentemente, tornou-se inferior à recomendada pela OMS, o que pode indicar uma melhora na conscientização da população sobre o consumo de açúcar.",
+        "D": "foi inferior; porém, mais recentemente, tornou-se superior à recomendada pela OMS, o que pode indicar uma piora na conscientização da população sobre o consumo de açúcar."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 21,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": "t20-21",
+      "enunciado": "A resposta glicêmica é a curva da concentração de glicose, em função do tempo, no sangue. Ela é utilizada como uma forma de classificar os alimentos com base em seu potencial de elevar a glicose (açúcar) no sangue. Pesquisadores da Universidade Johns Hopkins (EUA) testaram os efeitos de quatro adoçantes na resposta glicêmica de indivíduos saudáveis. Cada grupo foi exposto a uma condição, conforme a figura ao lado, acompanhando-se a resposta glicêmica. Com base nas informações da figura e do texto 1, pode-se concluir que a preocupação da OMS quanto ao uso de adoçantes não nutritivos\n\n![Figura com seis condições, cada uma com um desenho e a curva de resposta glicêmica (concentração em função do tempo): Sacarina, Sucralose, *Stevia*, Aspartame, Veículo e Controle. Legenda: círculo cheio vermelho, adoçante; círculo vazado vermelho, veículo.](fig:p09-c1)",
+      "alternativas": {
+        "A": "precisaria ser complementada com um alerta sobre um risco aumentado de diabetes tipo 2, pois os adoçantes provocam o aparecimento de glicose no sangue.",
+        "B": "não precisaria ser complementada com um alerta sobre um risco aumentado de diabetes tipo 2, pois os adoçantes não provocaram o aumento de glicose no sangue.",
+        "C": "não precisaria ser complementada com um alerta sobre um risco aumentado de diabetes tipo 2, pois apenas dois adoçantes não provocaram o aparecimento de glicose no sangue.",
+        "D": "precisaria ser complementada com um alerta sobre um risco aumentado de diabetes tipo 2, pois dois adoçantes provocaram um aumento de glicose no sangue."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 22,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um refrigerante comum é uma formulação de vários ingredientes: açúcar (11 g por 100 mL), água (88 g por 100 mL) – componentes majoritários –, além de acidulantes, antioxidantes, conservantes, adoçantes e $\\text{CO}_2$ (componentes em pequenas quantidades). O acidulante tem como finalidade regular a doçura do açúcar, realçar o paladar e reduzir o pH do refrigerante, que deve estar entre 2,7 e 3,5. Assim, para se usar uma pequena massa de acidulante que proporcione a redução do pH para o valor desejado, a massa molar do acidulante deve ser",
+      "alternativas": {
+        "A": "pequena e seu pKa deve estar abaixo da faixa de pH do refrigerante.",
+        "B": "pequena e seu pKa deve estar acima da faixa de pH do refrigerante.",
+        "C": "grande e seu pKa deve estar abaixo da faixa de pH do refrigerante.",
+        "D": "grande e seu pKa deve estar acima da faixa de pH do refrigerante."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 23,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O mau gerenciamento da produção das baterias automotivas chumbo-ácido e de sua reciclagem após uso pode ocasionar contaminação do meio ambiente e de pessoas. Para minimizar esses problemas, a indústria pode levar em conta a “hierarquia de resíduos”, uma ordem de preferência nas ações de combate à contaminação. A figura a seguir, incompleta, mostra duas ações possíveis dessa hierarquia. Para minimizar os problemas, as ações a serem adotadas, em ordem de preferência e considerando a direcionalidade indicada na figura, seriam\n\n![Triângulo invertido com degradê de azul a vermelho, com as faixas REUSO e RECUPERAÇÃO, e uma barra vertical ao lado com o sinal + no alto e o sinal − embaixo](fig:p10-f1)",
+      "alternativas": {
+        "A": "descarte adequado; reciclagem; prevenção.",
+        "B": "prevenção; descarte adequado; reciclagem.",
+        "C": "descarte adequado; prevenção; reciclagem.",
+        "D": "prevenção; reciclagem; descarte adequado."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 24,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No início de 2023, um grupo de pesquisadores estudou o desenvolvimento de uma poliamina sólida contendo cobre, capaz de adsorver $\\text{CO}_2$ na fase gasosa e em baixas concentrações. A figura ao lado mostra o esquema de adsorção com a representação do sólido:\n\n![Esquema de adsorção: poliamina-N-Cu²⁺(OH⁻)₂ reage com CO₂ e forma poliamina-N-Cu²⁺(HCO₃⁻)₂, com a representação do sólido como uma esfera e das cadeias –CH₂–N: ligadas ao Cu²⁺](fig:p10-c1)\n\nDe acordo com os autores do estudo, 1 kg de poliamina contendo cobre é capaz de adsorver até 5 mols de $\\text{CO}_2$, uma quantidade bem superior ao que se conhece até então. Com base nessas informações, pode-se concluir que a porcentagem em massa de cobre no sólido é cerca de",
+      "alternativas": {
+        "A": "16% e que 1 kg do sólido é capaz de absorver até 110 g de gás carbônico.",
+        "B": "32% e que 1 kg do sólido é capaz de absorver até 110 g de gás carbônico.",
+        "C": "16% e que 1 kg do sólido é capaz de absorver até 220 g de gás carbônico.",
+        "D": "32% e que 1 kg do sólido é capaz de absorver até 220 g de gás carbônico."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 25,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Algumas baterias transformam certas substâncias em outras, gerando energia elétrica. Isso permite, por exemplo, o funcionamento de equipamentos tendo como base essa energia (carros elétricos) ou então auxilia o funcionamento de equipamentos (carros de combustão interna). É por isso que os carros elétricos precisam se abastecer de energia elétrica de tempos em tempos e os de combustão não, já que a bateria desses últimos é carregada durante seu funcionamento. Na descarga da bateria, dois comportamentos são importantes: curva de tensão (Figura A) e ciclo de vida (Figura B), sendo esse último a quantidade de vezes que a bateria pode ser recarregada em função da profundidade de sua descarga.\n\n![Figura A: gráfico da tensão da bateria (V) em função da profundidade de descarga (%), com as curvas X e Y. Figura B: gráfico, em escala logarítmica, dos ciclos de vida em função da profundidade de descarga (%), com as curvas I e II.](fig:p10-f4)\n\nLevando em conta essas informações, seria apropriado escolher para equipar um carro",
+      "alternativas": {
+        "A": "elétrico uma bateria com as características da curva Y e da curva II; para o carro de combustão interna qualquer combinação serviria.",
+        "B": "elétrico uma bateria com as características da curva X e da curva I; para o carro de combustão interna, qualquer combinação serviria.",
+        "C": "de combustão interna uma bateria com as características da curva X e da curva I; para o carro elétrico, qualquer combinação serviria.",
+        "D": "de combustão interna uma bateria com as características da curva Y e da curva II; para o carro elétrico qualquer combinação serviria."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 26,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um grupo de pesquisadores estudou a atividade antibacteriana – em ação sobre duas bactérias, a saber, *Escherichia coli* e *Staphylococcus aureus* – da curcumina livre e da curcumina combinada com octaarginina. Os pesquisadores observaram que a curcumina livre apresenta atividade antibacteriana frente a uma das bactérias. Na forma combinada, a curcumina foi mais eficiente – em comparação com a forma livre – no combate aos dois microrganismos. Tendo em vista essas informações, os gráficos que melhor representam os resultados do estudo são os seguintes:\n\n![Legenda dos gráficos. Dados: (i) *E. coli*; (ii) *S. aureus*. Círculo cheio: curcumina livre; círculo vazado: curcumina combinada com octaarginina.](fig:p11-c1)",
+      "alternativas": {
+        "A": "![Alternativa A: dois gráficos de sobrevivência (%) em função do tempo (h), (i) e (ii)](fig:p11-c6)",
+        "B": "![Alternativa B: dois gráficos de sobrevivência (%) em função do tempo (h), (i) e (ii)](fig:p11-c7)",
+        "C": "![Alternativa C: dois gráficos de sobrevivência (%) em função do tempo (h), (i) e (ii)](fig:p11-c8)",
+        "D": "![Alternativa D: dois gráficos de sobrevivência (%) em função do tempo (h), (i) e (ii)](fig:p11-c5)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 27,
+      "materia": "geografia",
+      "materias_extra": [
+        "sociologia"
+      ],
+      "texto_base": null,
+      "enunciado": "Povos e comunidades tradicionais são grupos culturalmente diferenciados e que se reconhecem como tais. Esses grupos contam com formas próprias de organização social, além de ocuparem e usarem territórios e recursos naturais como condição para sua reprodução cultural, social, religiosa, ancestral e econômica. Para tanto, utilizam conhecimentos, inovações e práticas gerados e transmitidos pela tradição (Inciso I, Art. 3º, Decreto 6.040 / 2007). Estima-se que cerca de 4,5 milhões de pessoas fazem parte de comunidades tradicionais atualmente no Brasil.\n\n(Adaptado de: Populações Tradicionais – Instituto Chico Mendes de Conservação da Biodiversidade. Disponível em: https://www.gov.br/icmbio/pt-br/assuntos/populacoes-tradicionais. Acesso em 12/06/2023.)\n\nAssinale a alternativa que faz a correspondência correta dos povos e comunidades tradicionais com a sua região de atuação e com as suas práticas específicas de organização socioterritorial.",
+      "alternativas": {
+        "A": "Mulheres quebradeiras de coco babaçu da região do Meio-norte aproveitam as matas de cocais e fazem uso comunitário dos babaçuais para a coleta de coco e de outros produtos das palmeiras.",
+        "B": "Geraizeiros da região da Amazônia Ocidental se beneficiam dos rios para a pesca e praticam o extrativismo de frutos utilizados na culinária regional e transformados em produtos alimentícios.",
+        "C": "Caiçaras da região litorânea do Ceará praticam a pesca artesanal, utilizam as riquezas naturais da Mata Atlântica para o extrativismo de frutos e fazem uso dos roçados para atividades agrícolas de subsistência.",
+        "D": "Faxinalenses do norte de Minas Gerais usufruem dos campos para o desenvolvimento do extrativismo vegetal da erva mate e do pinhão, do cultivo agrícola em pequena escala e da criação de animais soltos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 28,
+      "materia": "geografia",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O litoral brasileiro tem uma história fisiográfica e ecológica rica e complexa, influenciada por uma variedade de fatores e processos interligados. O Brasil conta com um litoral intertropical e subtropical onde é possível observar uma diversidade de ocorrências geomorfológicas e paisagísticas que se sucedem ao longo de sua costa.\n\n(Adaptado de: AB'SABER, A. *Litoral do Brasil/Brazilian coast*. São Paulo: Metalivros, p. 281, 2005.)\n\nA partir de seus conhecimentos sobre o litoral brasileiro, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Os manguezais localizam-se nas planícies marinhas recobertas por espécies herbáceas e arbóreas.",
+        "B": "Os campos de dunas associam-se aos depósitos argilosos e arenosos, fixados por vegetação pioneira.",
+        "C": "As falésias ativas evoluem de processos continentais e marinhos, com ausência de vegetação na sua base.",
+        "D": "Os deltas são formados por sedimentos fluviais e cobertos por espécies arbóreas de grande porte."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 29,
+      "materia": "geografia",
+      "materias_extra": [
+        "sociologia"
+      ],
+      "texto_base": null,
+      "enunciado": "Moradores em situação de rua em São Paulo/SP\n\n![Fotografia de uma calçada com barraca de lona azul, sacolas, roupas e galões, ao lado de um poste com lixeira verde](fig:p12-c1)\n\n(Ronaldo Silva/Photopress/Estadão Conteúdo. https://www.cnnbrasil.com.br/nacional/prefeitura-faz-moradores-de-rua-desmontarem-barracas-durante-o-dia/ – Acesso em 18/06/2023.)\n\nNas grandes cidades de todo o planeta, com maior ou menor intensidade, cresce o número de pessoas em situação de rua. No caso brasileiro, todavia, essa é uma realidade urbana perene, agravada em momentos de crise. Segundo estimativa do Instituto de Pesquisa Econômica Aplicada (IPEA), em 2022, existiam 281.472 pessoas em situação de rua no Brasil.\n\n(MONTFERRE, H., População em situação de rua supera 281,4 mil pessoas no Brasil. IPEA, 08/12/2022)\n\nO fenômeno descrito no excerto, e reportado na imagem, se constituiu historicamente nas cidades brasileiras em função",
+      "alternativas": {
+        "A": "da crise conjuntural da última década, agravada com a pandemia de covid-19; muitas vezes, a gestão urbana impõe a essa população a precariedade da circulação sem fim pela cidade e mesmo pela rede urbana.",
+        "B": "do processo de modernização-urbanização excludente; as ações de política urbana implementam programas de habitação popular nas áreas centrais para viabilizar a gentrificação e o direito à cidade a essa população.",
+        "C": "da crise conjuntural da última década, agravada pela pandemia de covid-19; a gestão urbana busca formas de integrar essa população aos espaços urbanos por meio das casas de acolhimento e de programas de emprego e renda.",
+        "D": "do processo de modernização-urbanização excludente; a gestão urbana promove, muitas vezes, práticas de “higienização” do espaço, isto é, de expulsão, com o apoio de setores da sociedade."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 30,
+      "materia": "geografia",
+      "materias_extra": [
+        "sociologia"
+      ],
+      "texto_base": null,
+      "enunciado": "As projeções de população são importantes para o cálculo dos indicadores sociodemográficos que fornecem subsídios para a formulação de políticas públicas. Segundo as Nações Unidas, o mundo atingiu a cifra de 8 bilhões de habitantes em 2022, devendo atingir 9,7 bilhões em 2050. Ainda que a população mundial continue a aumentar, a dinâmica demográfica varia entre as regiões do mundo. Nesse contexto, Estados Unidos da América (EUA) e Nigéria passam por mudanças demográficas com reflexos socioeconômicos significativos.\n\n![Gráfico “Projeção do crescimento populacional”, feito de colunas de círculos, em que cada círculo equivale a 1 milhão de habitantes. 2022: EUA, 338 milhões de estadunidenses; Nigéria, 213 milhões de nigerianos. 2050: EUA, 375 milhões de estadunidenses; Nigéria, 377 milhões de nigerianos.](fig:p12-c2)\n\n(United Nations, Department of Economic and Social Affairs, Population Division (2022). *Probabilistic Population Projections based on the World Population Prospects 2022*. Disponível em: http://population.un.org/wpp/. Acesso em 25/08/2023.)\n\nTendo em vista seus conhecimentos sobre dinâmica populacional e considerando o gráfico, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Nigéria e EUA têm trajetórias demográficas distintas, ainda que ambos apresentem taxas de natalidade semelhantes. Isso afetará seus sistemas de saúde.",
+        "B": "Os EUA, ao contrário da Nigéria, apresentam, pela primeira vez, crescimento vegetativo negativo. Isso afetará a oferta de mão-de-obra no território norte-americano.",
+        "C": "A Nigéria, ao contrário dos EUA, manterá elevada a taxa de fecundidade. Haverá maior pressão sobre as políticas públicas de educação e de saúde.",
+        "D": "Nigéria e EUA enfrentam expressiva redução da população em idade adulta ativa. Ambos os países terão problemas com a seguridade social."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 31,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Dentro de um território nacional, as regiões são hoje atingidas por complexos vetores de ordem técnica e política, típicos do período da globalização. Neste sentido, as regiões, tanto quanto são internamente construídas, seguem as oscilações econômicas nacionais e internacionais. Isso as torna, diferentemente do passado, mais instáveis e sujeitas a frequentes crises. E, conforme se especializam em diferentes tipos de produção para atender os mercados internacionais, suas fronteiras tornam-se mais cambiáveis.\n\n(Adaptado de: SMITH, N. Contorno de uma política espacializada: veículos dos sem-teto e produção da escala geográfica. In: ARANTES, A. A. (Org.) *O espaço da diferença*. Campinas: Papirus, p. 152, 2000.)\n\nTendo em vista seus conhecimentos sobre a dinâmica das regiões no mundo contemporâneo e considerando o texto anterior, é correto afirmar que",
+      "alternativas": {
+        "A": "desapareceram os laços internos de construção regional, uma vez que a escala de comando internacional regula as especializações produtivas.",
+        "B": "múltiplas escalas de ações perpassam e dinamizam a coesão regional, ocasionando instabilidade socioeconômica e mutações aceleradas em suas fronteiras.",
+        "C": "o comando externo da produção vinculado aos mercados internacionais torna as fronteiras regionais estáveis e duradouras na escala do território nacional.",
+        "D": "a conformação de arranjos produtivos regionais nesse contexto homogeniza o espaço nacional, apagando as antigas identidades e as desigualdades socioterritoriais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 32,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Por se situar em uma região limítrofe entre diferentes placas tectônicas, a Turquia tem histórico de terremotos de grande magnitude e poder destrutivo. Em 1939, um terremoto de magnitude 7,8 provocou a morte de cerca de 30.000 pessoas. Em fevereiro de 2023, registrou-se um terremoto de magnitude 7,8 às 4h17 (horário local) e, nove horas depois, registrou-se novo abalo sísmico, dessa vez de magnitude 7,6, o que levou 50.000 pessoas à morte.\n\nA figura a seguir mostra a localização do sistema de falhas da placa da Anatólia e indica as áreas atingidas pelos respectivos terremotos.\n\n![Mapa da Turquia entre o Mar Negro e o Mar Mediterrâneo, com as áreas dos terremotos de 1939 e de 2023, o sistema de falhas, setas de movimento relativo entre placas e legenda: Turquia, Outros Países, Placa da Anatólia, Sistemas de Falhas, Sentido de movimento relativo entre as placas](fig:p13-f1)\n\n(*How the February 2023 Türkiye Earthquakes Ruptured and Produced Damaging Shaking*. Disponível em: https://www.seismosoc.org/news/how-the-february-2023-turkiye-earthquakes-ruptured-and-produced-damaging-shaking/. Acesso em 12/06/2023.)\n\nOs tremores de 1939 e de 2023 foram gerados, respectivamente, pelo deslocamento entre a Placa da Anatólia e as placas",
+      "alternativas": {
+        "A": "Euroasiática e Arábica; o sentido de deslocamento das placas forma falhas transcorrentes.",
+        "B": "Indiana e Africana; o sentido de deslocamento forma falhas normais.",
+        "C": "Arábica e Euroasiática; o sentido de deslocamento das placas forma falhas normais.",
+        "D": "Africana e Indiana; o sentido de deslocamento forma falhas transcorrentes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 33,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "As convenções cartográficas utilizam símbolos pontuais, lineares, areais, bem como representações proporcionais e gradação de cores (coroplética) que permitem certo grau de compreensão e intuição de seu significado, possibilitando a leitura da informação contida no mapa por diferentes pessoas.\n\n![Quadro “Exemplos de Convenções Cartográficas”: símbolos pontuais para capital, cidade, vila e povoado ou núcleo; escala de cores de 0 a 6000 metros; curso d’água permanente e intermitente; lago e lago periódico; área sujeita a inundação; autoestrada (BR-316), autoestrada em construção, estrada pavimentada, estrada pavimentada em construção, estrada não pavimentada e outras estradas](fig:p13-c1)\n\n(Adaptado de: https://atlasescolar.ibge.gov.br/conceitos-gerais/o-que-e-cartografia/convenc-o-es-cartogra-ficas.html. Acesso em: 25/08/2023.)\n\nCom base no excerto e na figura, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Os símbolos pontuais se prestam a representar fenômenos não hierárquicos, a exemplo da rede urbana e da tipologia de cidades.",
+        "B": "As representações lineares qualificam os fenômenos, não permitindo a sua hierarquização, a exemplo da tipologia dos sistemas de transportes.",
+        "C": "O uso do gradiente de cores serve para diferenciar fenômenos espaciais com variação contínua, a exemplo da altitude e da profundidade.",
+        "D": "Um mesmo fenômeno pode ser representado por meio de diferentes formas e de variadas cores, a exemplo dos cursos e corpos de água."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 34,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t34-37",
+      "enunciado": "Logo ao reentrar na atmosfera terrestre, uma cápsula espacial passa a descrever, durante certo tempo, um movimento retilíneo uniformemente variado em que ela é freada com aceleração $a = -5{,}0\\ \\text{m/s}^2$. Se no início dessa etapa ($t = 0$) do movimento a velocidade da cápsula é $v_0 = 7000\\ \\text{m/s}$, qual é a distância percorrida até o tempo $t = 200\\ \\text{s}$?",
+      "alternativas": {
+        "A": "1300 km.",
+        "B": "1400 km.",
+        "C": "1500 km.",
+        "D": "4900 km."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 35,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t34-37",
+      "enunciado": "Após viajar pela atmosfera por determinado tempo, o módulo da velocidade da cápsula, que inicialmente era $v_0 = 7000\\ \\text{m/s}$, fica reduzido a $v = 5000\\ \\text{m/s}$. Sendo a massa da cápsula $m = 3000\\ \\text{kg}$, qual foi o trabalho da força resultante sobre a cápsula durante esse tempo?",
+      "alternativas": {
+        "A": "$-11{,}1 \\times 10^{10}\\ \\text{J}$.",
+        "B": "$-3{,}60 \\times 10^{10}\\ \\text{J}$.",
+        "C": "$-6{,}00 \\times 10^{6}\\ \\text{J}$.",
+        "D": "$-3{,}00 \\times 10^{6}\\ \\text{J}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 36,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t34-37",
+      "enunciado": "O ar atmosférico comporta-se como um gás perfeito. Sendo a pressão e a temperatura do ar, numa determinada posição da alta atmosfera, dadas por $p = 2{,}0\\ \\text{Pa}$ e $T = 180\\ \\text{K}$ (sem a presença da cápsula na vizinhança), e sendo a constante universal dos gases perfeitos $R \\simeq 8\\ \\text{J/mol.K}$, qual é o volume ocupado por um mol de ar naquela posição?",
+      "alternativas": {
+        "A": "$1{,}38 \\times 10^{-3}\\ \\text{m}^3$.",
+        "B": "$9{,}00 \\times 10^{1}\\ \\text{m}^3$.",
+        "C": "$7{,}20 \\times 10^{2}\\ \\text{m}^3$.",
+        "D": "$2{,}88 \\times 10^{3}\\ \\text{m}^3$."
+      },
+      "observacoes": ""
+    }
+  ]
+}
