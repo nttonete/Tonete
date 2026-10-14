@@ -74,6 +74,7 @@ Grave **um arquivo JSON** no caminho que a tarefa indicar, com esta estrutura:
 - **Texto dentro de quadro** (manchete de jornal, post de rede social, verbete): se é texto de verdade no PDF, transcreva como texto. Tirinhas, charges e cartuns ficam como figura, e a descrição da figura traz as falas dos balões, entre aspas, para quem usa leitor de tela.
 - **Graus e unidades:** `$25\ ^\circ\text{C}$`, `$90^\circ$`; ou "25 °C" como texto, quando não houver outra fórmula por perto.
 - **Texto que é só de uma questão do grupo** (por exemplo, o "Texto 2" que aparece depois da questão 18 e serve só à 19): vai no `enunciado` dessa questão, junto com a instrução que o acompanha.
+- **Cores que carregam informação** (letras ou números coloridos que a questão usa): recorte o trecho como figura, porque o texto não reproduz cores.
 - **Tabelas:** transcreva como tabela markdown (`| a | b |` com linha `|---|---|`) quando for uma tabela simples de texto e números. Se tiver células mescladas, cores ou desenhos, use a figura recortada.
 - **Quadros como "Note e adote"**: transcreva como texto (um parágrafo começando com `**Note e adote:**`), não como figura. Se no caderno o quadro vem depois das alternativas, coloque-o no fim do `enunciado`.
 - **Variáveis e grandezas** em itálico ($h$, $x$, $\theta_L$) sempre em LaTeX, mesmo em cabeçalho de tabela. `*itálico*` é só para palavras.
