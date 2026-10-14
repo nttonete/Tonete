@@ -1156,7 +1156,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q62",
@@ -1174,7 +1174,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q63",
@@ -1192,7 +1192,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q64",
@@ -1210,7 +1210,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q65",
@@ -1228,7 +1228,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q66",
@@ -1246,7 +1246,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q67",
@@ -1264,7 +1264,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q68",
@@ -1282,7 +1282,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q69",
@@ -1300,14 +1300,14 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q70",
    "numero": 70,
    "materia": "biologia",
    "materias_extra": [],
-   "texto_base": null,
+   "texto_base": "t68-70",
    "enunciado": "*Nós sentimos o sabor dos alimentos com o cérebro!*\n\nEsta afirmação à primeira vista nos parece estranha. No entanto, assim como ocorre em todos os sentidos do sistema sensorial, no caso do paladar, a percepção consciente do sabor só acontece quando sinais específicos chegam ao cérebro. Assinale a alternativa que apresenta corretamente a informação descrita neste processo.",
    "alternativas": {
     "A": "Os componentes químicos dos alimentos interagem com proteínas receptoras nas células gustativas, e um potencial de ação é transmitido ao cérebro.",
@@ -1318,7 +1318,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2026-1-q71",
@@ -1336,7 +1336,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q72",
@@ -1354,7 +1354,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q73",
@@ -1372,7 +1372,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q74",
@@ -1390,7 +1390,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q75",
@@ -1408,7 +1408,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q76",
@@ -1428,7 +1428,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q77",
@@ -1446,7 +1446,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q78",
@@ -1464,7 +1464,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q79",
@@ -1482,7 +1482,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q80",
@@ -1500,7 +1500,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q81",
@@ -1518,7 +1518,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q82",
@@ -1536,7 +1536,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q83",
@@ -1554,7 +1554,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q84",
@@ -1572,7 +1572,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q85",
@@ -1590,7 +1590,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q86",
@@ -1608,7 +1608,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q87",
@@ -1626,7 +1626,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q88",
@@ -1644,7 +1644,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q89",
@@ -1664,7 +1664,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-1-q90",
@@ -1684,7 +1684,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   }
  ]
 }

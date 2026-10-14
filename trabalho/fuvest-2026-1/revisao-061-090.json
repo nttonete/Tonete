@@ -1,0 +1,176 @@
+{
+  "edicao": "fuvest-2026-1",
+  "intervalo": [
+    61,
+    90
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 70,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": "t68-70",
+      "enunciado": "*Nós sentimos o sabor dos alimentos com o cérebro!*\n\nEsta afirmação à primeira vista nos parece estranha. No entanto, assim como ocorre em todos os sentidos do sistema sensorial, no caso do paladar, a percepção consciente do sabor só acontece quando sinais específicos chegam ao cérebro. Assinale a alternativa que apresenta corretamente a informação descrita neste processo.",
+      "alternativas": {
+        "A": "Os componentes químicos dos alimentos interagem com proteínas receptoras nas células gustativas, e um potencial de ação é transmitido ao cérebro.",
+        "B": "Os componentes químicos dos alimentos são convertidos em uma corrente elétrica que estimula o músculo da língua.",
+        "C": "No processo de transdução sensorial do paladar, os componentes químicos dos alimentos são convertidos em um impulso hormonal que ativa as glândulas salivares.",
+        "D": "Os componentes químicos dos alimentos ativam, diretamente, os neurônios responsáveis por transmitir os sinais gustativos ao cérebro.",
+        "E": "A primeira etapa da transdução de sinal no paladar ocorre quando os receptores gustativos são ativados por hormônios digestivos."
+      }
+    }
+  ],
+  "relatorio": [
+    {
+      "numero": 61,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 62,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 63,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 64,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 65,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 66,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 67,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 68,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 69,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 70,
+      "status": "corrigida",
+      "notas": "texto_base estava null; o caderno (p. 29) diz \"Texto para as questões de 68 a 70\", então a questão passa a apontar para t68-70."
+    },
+    {
+      "numero": 71,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 72,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 73,
+      "status": "ok",
+      "notas": "Primeira resolução deu C (1 e 3); após refazer (contato no lado côncavo da 'corcova' da colher invertida, como chapéu sobre um pino, é estável; contato no lado convexo, como bola sobre pino, é instável) concordo com o gabarito E (2 e 3). Transcrição e figura conferidas."
+    },
+    {
+      "numero": 74,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 75,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 76,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 77,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 78,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 79,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 80,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 81,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 82,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 83,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 84,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 85,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 86,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 87,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 88,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 89,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 90,
+      "status": "ok",
+      "notas": ""
+    }
+  ]
+}
