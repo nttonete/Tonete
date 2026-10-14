@@ -1,0 +1,477 @@
+{
+  "edicao": "fuvest-2023-1",
+  "textos_base": {
+    "t68-70": "The expression “dark doldrums” chills the hearts of renewable-energy engineers, who use it to refer to the lulls when solar panels and wind turbines are thwarted by clouds, night, or still air. On a bright, cloudless day, a solar farm can generate prodigious amounts of electricity. But at night solar cells do little, and in calm air turbines sit useless.\n\nThe dark doldrums make it difficult for us to rely totally on renewable energy. Power companies need to plan not just for individual storms or windless nights but for difficulties that can stretch for days. Last year, Europe experienced a weeks-long “wind drought,” and in 2006 Hawaii endured six weeks of consecutive rainy days. On a smaller scale, communities that want to go all-renewable need to fill the gaps. The obvious solution is batteries, which power everything from mobile phones to electric vehicles; they are relatively inexpensive to make and getting cheaper. But typical models exhaust their stored energy after only three or four hours of maximum output, and—as every smartphone owner knows—their capacity dwindles with each recharge. Moreover, it is expensive to collect enough batteries to cover longer discharges.\n\nWe already have one kind of renewable energy storage: more than ninety per cent of the world’s energy-storage capacity is in reservoirs, as part of a technology called pumped-storage hydropower, used to smooth out sharp increases in electricity demand. Motors pump water uphill from a river or a reservoir to a higher reservoir; when the water is released downhill, it spins a turbine, generating power. A pumped-hydro installation is like a giant, permanent battery, charged when water is pumped uphill and depleted as it flows down. Some countries are expanding their use of pumped hydro, but the right geography is hard to find, permits are difficult to obtain, and construction is slow and expensive. The hunt is on for new approaches to energy storage.\n\n*The New Yorker*. Abril, 2022. Adaptado."
+  },
+  "questoes": [
+    {
+      "numero": 61,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir mostra indivíduos de uma espécie de erva daninha ao longo de um trajeto de aproximadamente 100 km, desde uma área urbanizada (na porção inferior esquerda, em tons de rosa) até uma área de floresta (na porção superior direita, em tons de verde). Essas áreas urbanizadas e de floresta estão separadas por uma linha tracejada branca. As ervas daninhas amarelas são aquelas que produzem um composto que age como defesa química contra a herbivoria. As ervas daninhas azuis não produzem esse composto.\n\n![imagem de satélite com trevos azuis e amarelos distribuídos entre uma área urbanizada, em tons de rosa, e uma área de floresta, em tons de verde, separadas por uma linha tracejada branca](fig:p19-f1)\n\nSANTANGELO et al. 2022. “Global urban environmental change drives adaptation in white clover”. *Science*, 375 (6586): 1275-1281. Adaptado.\n\nCom base nas informações fornecidas, é correto afirmar:",
+      "alternativas": {
+        "A": "Há menor herbivoria sobre essa população em áreas urbanas.",
+        "B": "Há uma abundância maior de insetos herbívoros em áreas urbanas.",
+        "C": "Essa espécie de erva daninha não consegue sobreviver em áreas de florestas.",
+        "D": "Há competição interespecífica entre os indivíduos que produzem ou não o composto.",
+        "E": "A produção ou não do composto corresponde a duas espécies diferentes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 62,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os gráficos mostram a variação da biomassa de duas populações (A e B) de uma planta herbácea ao longo da sucessão primária. Em ambos os casos, em um dado momento indicado no gráfico, ocorre a chegada de indivíduos de uma outra espécie que interagem com essa planta na comunidade.\n\n![dois gráficos de biomassa em função do tempo ao longo da sucessão, com seta indicando a chegada do interagente. População A: biomassa cresce lentamente e depois mais rápido após a chegada do interagente. População B: biomassa cresce, e após a chegada do interagente passa a diminuir](fig:p19-f2)\n\nOs dois tipos de interagentes que poderiam causar os efeitos representados nos gráficos para as populações A e B, respectivamente, são",
+      "alternativas": {
+        "A": "um competidor e um herbívoro.",
+        "B": "um parasita e um comensal.",
+        "C": "um competidor e um parasita.",
+        "D": "um mutualista e um herbívoro.",
+        "E": "um comensal e um mutualista."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 63,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura representa o ciclo da leishmania, causadora da leishmaniose.\n\n![esquema do ciclo da leishmania, numerado de 1 a 5, com fase no hospedeiro invertebrado (mosquito) e fase no hospedeiro vertebrado (mamífero)](fig:p19-f3)\n\nMOREIRA et al. 2020. “Aspectos fundamentais da leishmaniose cutânea no Brasil”. DOI:10.22533/at.ed.4852012037. Adaptado.\n\nO parasita sobrevive nas células do hospedeiro mamífero pela inativação de enzimas da(o) <u>  I  </u>, o que bloqueia a digestão intracelular e possibilita a continuidade do ciclo da leishmania. Uma das formas de se prevenir a transmissão dessa doença é <u>  II  </u>.\n\nAs lacunas I e II podem ser preenchidas corretamente por:",
+      "alternativas": {
+        "A": "mitocôndria e morando em zonas urbanas.",
+        "B": "mitocôndria e ingerindo antibióticos.",
+        "C": "núcleo e eutanasiando cães infectados.",
+        "D": "lisossomo e tratando esgotos.",
+        "E": "lisossomo e utilizando repelente."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 64,
+      "materia": "biologia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "O mapa mostra a variação do número de espécies de aves no território brasileiro, com as linhas indicando os limites dos biomas.\n\n![mapa do Brasil colorido da cor vermelha (muitas espécies) à azul (poucas espécies), com legenda de “Muitas espécies” a “Poucas espécies” e linhas indicando os limites dos biomas](fig:p20-f1)\n\nJENKINS et al. 2015. “Patterns of vertebrate diversity and protection in Brazil”. *PLoS ONE* 10(12): e0145064. Adaptado.\n\nCom base no mapa, a diversidade de aves mostra-se",
+      "alternativas": {
+        "A": "mais alta nas regiões onde predominam florestas e mais baixa nas regiões onde predomina vegetação mais aberta.",
+        "B": "igualmente alta nas regiões tropicais e mais baixa nas regiões subtropicais.",
+        "C": "igualmente baixa nas regiões mais orientais e mais alta nas regiões ocidentais.",
+        "D": "mais alta nas regiões mais quentes e mais baixa nas regiões mais frias.",
+        "E": "mais alta nas regiões que se situam mais próximas ao mar e mais baixa nas regiões mais interiores."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 65,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A superfície terrestre muda conforme a frequência e a magnitude de processos naturais, sendo alguns mais contínuos e outros mais irregulares. Alguns eventos podem mudar rapidamente a superfície, enquanto outros a modificam lentamente.\n\n![gráfico com escala temporal em anos (eixo horizontal, de 1 a 1.000.000) e escala espacial em metros (eixo vertical, de 1 a 1.000.000), com os números 1, 2 e 3 em três posições](fig:p20-f2)\n\nGOUDIE, Andrew S.; VILES, Heather A. *Landscapes and Geomorphology: A Very Short Introduction*. Oxford University Press, Oxford, 2010. Adaptado.\n\nCom base nos dados apresentados, é possível afirmar que os números 1, 2 e 3 correspondem, respectivamente, a:",
+      "alternativas": {
+        "A": "Ação eólica, erupções vulcânicas e soerguimento de cadeias montanhosas.",
+        "B": "Depósitos minerais, abalos sísmicos e erupções vulcânicas.",
+        "C": "Formação de cavernas, ação eólica e soerguimento de cadeias montanhosas.",
+        "D": "Erupções vulcânicas, abalos sísmicos e depósitos minerais.",
+        "E": "Ação eólica, formação de cavernas e soerguimento de cadeias montanhosas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 66,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O Brasil é o país recordista mundial em queda de raios, com uma estimativa de mais de 70 milhões de eventos desse tipo por ano.\n\nUma descarga elétrica dessas pode envolver campos elétricos da ordem de dez kilovolts por metro e um deslocamento de 30 coulombs de carga em um milésimo de segundo.\n\nCom base nessas estimativas e assumindo o campo elétrico como sendo constante, a potência associada a um raio de 100 m de comprimento corresponde a:",
+      "alternativas": {
+        "A": "30 GW",
+        "B": "3 GW",
+        "C": "300 MW",
+        "D": "30 MW",
+        "E": "3 MW"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 67,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Termistores são termômetros baseados na variação da resistência elétrica com a temperatura e são utilizados em diversos equipamentos, como termômetros digitais domésticos, automóveis, refrigeradores e fornos. A curva de calibração de um termistor é mostrada na figura:\n\n![gráfico da resistência $R$ (em kΩ) em função da temperatura $T$ (em graus Celsius): curva decrescente, de cerca de 3,0 kΩ em 6 °C até cerca de 0,3 kΩ em 65 °C](fig:p20-f3)\n\nConsidere que o termistor se rompa quando percorrido por uma corrente maior do que 10 mA. Supondo que o termistor seja conectado a uma bateria de 5 V, assinale a alternativa que contém uma faixa de temperaturas em que o dispositivo sempre funcionará adequadamente:\n\n**Note e adote:**\n\nA relação entre a resistência $R$ de um dispositivo, a corrente $I$ que o percorre e a diferença de potencial elétrico $V$ entre seus terminais é $V = RI$.",
+      "alternativas": {
+        "A": "$10\\ ^\\circ\\text{C} < T < 35\\ ^\\circ\\text{C}$",
+        "B": "$20\\ ^\\circ\\text{C} < T < 45\\ ^\\circ\\text{C}$",
+        "C": "$30\\ ^\\circ\\text{C} < T < 55\\ ^\\circ\\text{C}$",
+        "D": "$40\\ ^\\circ\\text{C} < T < 65\\ ^\\circ\\text{C}$",
+        "E": "$50\\ ^\\circ\\text{C} < T < 75\\ ^\\circ\\text{C}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 68,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t68-70",
+      "enunciado": "No texto, a expressão “dark doldrums” descreve",
+      "alternativas": {
+        "A": "as mudanças climáticas atribuídas ao fenômeno de aquecimento global.",
+        "B": "os altos custos implicados na construção de fontes de energia renovável.",
+        "C": "os debates entre ecologistas e defensores do emprego de energia nuclear.",
+        "D": "os períodos de inatividade de geradores de energia como painéis solares.",
+        "E": "as dificuldades encontradas por comunidades rurais para distribuir eletricidade."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 69,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t68-70",
+      "enunciado": "Na frase “But typical models exhaust their stored energy after only three or four hours of maximum output, and—as every smartphone owner knows—their capacity dwindles with each recharge.” (2º parágrafo), “dwindles” poderia ser substituído, sem prejuízo de sentido, por",
+      "alternativas": {
+        "A": "improves.",
+        "B": "directs.",
+        "C": "propagates.",
+        "D": "breaks.",
+        "E": "decreases."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 70,
+      "materia": "ingles",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": "t68-70",
+      "enunciado": "Segundo o texto, quando a geração de energia por células solares ou turbinas eólicas é insuficiente para atender à demanda, uma fonte de energia alternativa envolveria a conversão de",
+      "alternativas": {
+        "A": "energia nuclear em elétrica.",
+        "B": "energia mecânica em térmica.",
+        "C": "energia mecânica em elétrica.",
+        "D": "energia solar em mecânica.",
+        "E": "energia química em elétrica."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 71,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Uma das apostas para a produção de energia limpa, sem emissão de gases de efeito estufa e sem geração de resíduos radioativos, é a fusão nuclear, como a que ocorre nas estrelas. Em laboratório, são utilizados os isótopos de hidrogênio deutério ($^{2}_{1}\\text{H}$) e trítio ($^{3}_{1}\\text{H}$), que, dentro de um intenso campo magnético, são aquecidos a 150 milhões de graus Celsius. Nessas condições, $^{2}_{1}\\text{H}$ e $^{3}_{1}\\text{H}$ fundem-se formando $^{4}_{2}\\text{He}$ e um outro subproduto, além de liberar uma grande quantidade de energia.\n\nCom base nessas informações, assinale a alternativa que traz as informações corretas sobre qual é o subproduto formado e sobre a variação de entalpia desse processo.",
+      "alternativas": {
+        "A": "Próton; $\\Delta\\text{H} < 0$",
+        "B": "Próton; $\\Delta\\text{H} > 0$",
+        "C": "Nêutron; $\\Delta\\text{H} < 0$",
+        "D": "Nêutron; $\\Delta\\text{H} > 0$",
+        "E": "Elétron; $\\Delta\\text{H} < 0$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 72,
+      "materia": "fisica",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "“De acordo com o órgão responsável pela área de telecomunicações e radiodifusão dos Estados Unidos, considera-se ionizante qualquer radiação eletromagnética que transporte energia maior que 10 eV (elétron-volts). Essa energia é equivalente àquela transportada pelo ultravioleta longínquo, uma das faixas mais energéticas do ultravioleta, que se estende entre 122 nm e 200 nm de comprimento de onda.”\n\nDisponível em https://mundoeducacao.uol.com.br/. Adaptado.\n\n“De acordo com a professora Patricia Nicolucci, da USP, há dois tipos de radiação: a ionizante e a não ionizante. Mas elas possuem características diferentes de interação com o corpo humano. ‘[Alguns tipos de radiação] são consideradas não ionizantes porque a energia não é suficiente para liberar elétrons quando interagem com o tecido do corpo humano ou qualquer outro material. Já a radiação ionizante, utilizada em medicina nuclear e em radioterapia, tem uma energia maior, o que lhe confere essa característica de tirar elétrons dos átomos da matéria com a qual interage’.”\n\nDisponível em https://www5.usp.br/noticias/. Adaptado.\n\nCom base nos textos e nos seus conhecimentos, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A luz de lâmpadas brancas, as micro-ondas e o *laser* vermelho podem ser considerados exemplos de radiação não ionizante.",
+        "B": "Radiação eletromagnética de comprimentos de onda maiores tem um efeito ionizante mais acentuado do que a de comprimentos de onda menores.",
+        "C": "Luz visível não pode ser considerada uma forma de radiação, uma vez que tem efeitos desprezíveis sobre tecidos do corpo humano.",
+        "D": "O efeito fotoelétrico é um exemplo de interação de radiação não ionizante com a matéria.",
+        "E": "A liberação de elétrons de moléculas de tecidos do corpo humano por radiações ionizantes não afeta as propriedades químicas dessas moléculas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 73,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura ilustra de maneira simplificada o fenômeno da dispersão da luz branca ao incidir sobre um prisma de vidro a partir do ar, mostrando apenas raios refratados correspondentes a três cores diferentes. Um fenômeno análogo é responsável pelo aparecimento do arco-íris após uma chuva.\n\n![prisma de vidro sobre fundo preto, com um raio de luz branca incidindo e três raios refratados rotulados, de cima para baixo, cor 3, cor 2 e cor 1](fig:p22-f1)\n\nNa base do fenômeno da dispersão está a refração de raios luminosos quando incidem sobre uma interface que separa dois meios físicos distintos. A descrição matemática da refração é feita pela lei de Snell, conforme apresentada a seguir:\n\n$$n_{i,\\lambda}\\,\\text{sen}\\,\\theta_i = n_{r,\\lambda}\\,\\text{sen}\\,\\theta_r$$\n\nem que:\n\n- $n_{i,\\lambda}$ é o índice de refração da luz de comprimento de onda $\\lambda$ no meio incidente,\n- $\\theta_i$ é o ângulo que o raio incidente faz com a reta normal à interface,\n- $n_{r,\\lambda}$ é o índice de refração da mesma luz no meio refratado e\n- $\\theta_r$ é o ângulo que o raio refratado faz com a reta normal à interface.\n\nO índice de refração do ar pode ser tomado como igual a 1 para qualquer comprimento de onda. Com base nessas informações, a relação correta entre os índices de refração dos raios das cores 1 ($n_1$), 2 ($n_2$) e 3 ($n_3$) no vidro é dada por:\n\n**Note e adote:**\n\nA função seno é crescente quando $\\theta$ está entre 0 e 90 graus.",
+      "alternativas": {
+        "A": "$n_1 = n_2 = n_3 > 1$",
+        "B": "$n_1 > n_2 > n_3 > 1$",
+        "C": "$1 < n_1 < n_2 < n_3$",
+        "D": "$n_1 < n_2 < n_3 < 1$",
+        "E": "$1 > n_1 > n_2 > n_3$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 74,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A obra “Rosa e Azul”, também conhecida como “As Meninas Cahen d’Anvers”, é uma pintura a óleo de Pierre-Auguste Renoir.\n\n![“Rosa e Azul” (As Meninas Cahen d’Anvers), pintura a óleo de Pierre-Auguste Renoir: duas meninas de pé, uma de vestido rosa e a outra de vestido azul claro](fig:p22-f3)\n\nNuma aula de artes, solicitou-se aos alunos que fizessem uma releitura dessa obra utilizando uma “tinta” preparada com extrato de repolho roxo. Esse extrato fica rosa em valores de pH menores que 5 e azul em valores próximos a 8, conforme figura a seguir, que mostra a cor da solução em diferentes valores de pH.\n\n![escala de cores do extrato de repolho roxo em função do pH: 1 vermelho, 3 rosa escuro, 5 rosa, 7 roxo, 8 azul, 9 azul esverdeado, 10 verde escuro, 11 verde, 12 amarelo](fig:p22-f4)\n\nCom base no exposto, qual das alternativas apresenta compostos ou produtos que poderiam ser usados para preparar uma “tinta” rosa/vermelha e uma azul/verde empregando o extrato de repolho roxo?",
+      "alternativas": {
+        "A": "Rosa/Vermelha: Açúcar; Azul/Verde: Sal de cozinha",
+        "B": "Rosa/Vermelha: Sal de cozinha; Azul/Verde: Bicarbonato de sódio",
+        "C": "Rosa/Vermelha: Bicarbonato de sódio; Azul/Verde: Vinagre",
+        "D": "Rosa/Vermelha: Açúcar; Azul/Verde: Soda cáustica",
+        "E": "Rosa/Vermelha: Suco de limão; Azul/Verde: Bicarbonato de sódio"
+      },
+      "observacoes": "No caderno as alternativas formam uma tabela de duas colunas (Rosa/Vermelha e Azul/Verde); aqui cada linha foi escrita como “coluna: valor; coluna: valor”."
+    },
+    {
+      "numero": 75,
+      "materia": "portugues",
+      "materias_extra": [
+        "ingles",
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "![questão de caderno com o enunciado “Write two different reactions related to the decomposition of CaCO3 (s)”; item a) “Reaction 1 to decompose CaCO3 (s) (with heat):”, resposta manuscrita “Surprised”; item b) “Reaction 2 to decompose CaCO3 (s) (with diluted acid):”, resposta manuscrita “Astonished”](fig:p23-f1)\n\nSCIENCE MEMES. Adaptado.\n\nNo meme, a inadequação da resposta à questão está baseada no efeito de sentido proveniente da presença de",
+      "alternativas": {
+        "A": "metáfora.",
+        "B": "trocadilho.",
+        "C": "sinédoque.",
+        "D": "eufemismo.",
+        "E": "comparação."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 76,
+      "materia": "fisica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "Os lagartos do gênero *Basiliscus* têm a capacidade incomum de correr sobre a água. Essa espécie possui uma membrana entre os dedos que aumenta a área superficial de suas patas traseiras. Com uma combinação de forças verticais de suporte e forças horizontais propulsivas geradas pelo movimento de suas patas na água, o lagarto consegue obter impulso resultante para cima e para frente, conforme figura a seguir. Isso garante uma estabilidade dinâmica na superfície da água, em corridas que podem chegar a dezenas de metros, dependendo do peso e da idade do animal.\n\n![fotografia de um lagarto correndo sobre a água e, abaixo, três quadros em preto e branco mostrando a pata do lagarto na água](fig:p23-f2)\n\nDisponível em https://wonderopolis.org/.\n\nSobre esse movimento, é correto afirmar:",
+      "alternativas": {
+        "A": "A componente vertical da reação à força gerada pelas patadas na água compensa o peso do animal, fazendo com que ele não afunde.",
+        "B": "O mecanismo de flutuação do lagarto advém de um equilíbrio hidrostático, que pode ser explicado pelo princípio de Arquimedes.",
+        "C": "Por ser um meio viscoso, a água possui um atrito desprezível, facilitando a flutuação.",
+        "D": "A alta salinidade da água é uma condição necessária para que ocorra um equilíbrio entre as forças envolvidas no movimento.",
+        "E": "A tensão superficial da água, por si só, é suficiente para impedir que o animal afunde."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 77,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um tradicional brinquedo infantil, conhecido como bate-bate, é composto por duas esferas (bolinhas) de massas iguais conectadas cada qual por uma corda e amarradas num ponto comum. Desloca-se a bolinha 1 de uma altura $h$, conforme ilustrado no arranjo:\n\n![à esquerda, fotografia de uma mão segurando duas bolinhas vermelhas presas por cordas; à direita, esquema com a bolinha 1 afastada, a uma altura $h$ acima da bolinha 2](fig:p23-f3)\n\nAo soltar a esfera 1, ela colidirá com a bolinha 2, inicialmente em repouso. Supondo que a colisão seja perfeitamente elástica, verifica-se que, após a colisão, a esfera 2 subirá para a mesma altura $h$. Imagine agora que uma pequena goma colante seja colocada numa das esferas de modo que, após a colisão, ambas permaneçam unidas. Neste caso, após a colisão, a altura alcançada pelo sistema formado pelas duas bolinhas unidas será:\n\n**Note e adote:**\n\nDesconsiderar a massa da goma.",
+      "alternativas": {
+        "A": "$h/8$",
+        "B": "$h/4$",
+        "C": "$h/3$",
+        "D": "$h/2$",
+        "E": "$h$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 78,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O telescópio espacial James Webb, lançado em dezembro de 2021, move-se nas proximidades de um ponto especial chamado *ponto de Lagrange*, sobre o qual um objeto orbita o Sol com o mesmo período de translação que a Terra. O esquema a seguir, fora de escala, representa o Sol, a Terra e o telescópio Webb, com as respectivas massas e distâncias indicadas.\n\n![esquema com o Sol (massa $m_S$), a Terra (massa $m_T$) e o telescópio Webb (massa $m_W$) alinhados; setas indicam a distância $R_T$ do Sol à Terra e a distância $R_W$ do Sol ao Webb](fig:p24-f1)\n\nA força resultante necessária para manter um objeto de massa $m$ em uma órbita circular de raio $R$ com velocidade angular $\\omega$ é $F = m\\omega^2 R$. Sendo $F_T$ e $F_W$ as intensidades das forças gravitacionais resultantes sobre a Terra e sobre o telescópio, respectivamente, assinale a alternativa que descreve a razão $F_W/F_T$ entre essas forças.\n\n**Note e adote:**\n\nDespreze os efeitos gravitacionais da Lua e suponha que $m_W$ seja desprezível frente às outras massas e que as órbitas sejam perfeitamente circulares. Suponha ainda que o telescópio se situe exatamente sobre o *ponto de Lagrange*.",
+      "alternativas": {
+        "A": "$\\dfrac{F_W}{F_T} = \\dfrac{m_W R_T}{m_T R_W}$",
+        "B": "$\\dfrac{F_W}{F_T} = \\dfrac{(m_T + m_S) R_W}{m_T R_T}$",
+        "C": "$\\dfrac{F_W}{F_T} = \\dfrac{m_W R_W}{m_T R_T}$",
+        "D": "$\\dfrac{F_W}{F_T} = \\dfrac{m_W (R_W - R_T)}{m_T R_T}$",
+        "E": "$\\dfrac{F_W}{F_T} = \\dfrac{m_T (R_W - R_T)}{m_W R_T}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 79,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O *slam ball* é um exercício funcional no qual o praticante eleva uma bola especial acima da cabeça e, após uma breve pausa, a atira no chão, como mostra figura:\n\n![duas imagens de uma pessoa: na primeira, de pé, com uma bola acima da cabeça; na segunda, agachada, após atirar a bola ao chão, com uma seta curva indicando o movimento da bola](fig:p24-f3)\n\nConsidere uma pessoa de 1,70 m que eleva uma bola de 6 kg a uma altura de 40 cm acima da sua cabeça. Em seguida, a pessoa realiza sobre a bola um trabalho adicional de 10 calorias para arremessá-la. Se a colisão da bola com o solo for perfeitamente inelástica, a energia total dissipada na colisão será de\n\n**Note e adote:**\n\nConsidere 1 cal = 4,2 J e $g = 10\\ \\text{m/s}^2$.",
+      "alternativas": {
+        "A": "10 cal.",
+        "B": "20 cal.",
+        "C": "30 cal.",
+        "D": "40 cal.",
+        "E": "50 cal."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 80,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O processo de transporte de $\\text{O}_2$ para a respiração pode ser entendido como um processo de equilíbrio químico entre a hemoglobina (Hb) e o $\\text{O}_2$. A Hb é uma proteína do sangue responsável pelo transporte do $\\text{O}_2$ que também pode existir na forma protonada como $\\text{HbH}^+$. Dependendo da concentração de $\\text{CO}_2$, podem ocorrer a alcalose ou a acidose respiratória. A ligação do oxigênio com a $\\text{HbH}^+$ gera a forma oxigenada ($\\text{HbO}_2$), como pode ser representado pela equação química simplificada:\n\n$\\text{HbH}^+\\text{(aq)} + \\text{O}_2\\text{(g)} \\rightleftharpoons \\text{HbO}_2\\text{(aq)} + \\text{H}^+\\text{(aq)}$\n\nO dióxido de carbono liberado na respiração pode alterar esse equilíbrio devido à formação de ácido carbônico, representado pela equação:\n\n$\\text{CO}_2\\text{(g)} + \\text{H}_2\\text{O}(\\ell) \\rightleftharpoons \\text{H}^+\\text{(aq)} + \\text{HCO}_3^-\\text{(aq)}$\n\nCom base nessas informações, é correto afirmar:",
+      "alternativas": {
+        "A": "Nos pulmões, onde a concentração de oxigênio é mais elevada, a forma de hemoglobina favorecida é a protonada.",
+        "B": "Nos tecidos humanos, onde é consumido $\\text{O}_2$ pelo metabolismo, a forma de hemoglobina favorecida é a $\\text{HbO}_2$.",
+        "C": "Quando uma pessoa expira mais depressa que o normal, a concentração de dióxido de carbono no seu sangue diminui e, nessas situações, a forma de hemoglobina favorecida é a forma protonada.",
+        "D": "Nos tecidos humanos, onde é liberado dióxido de carbono produzido pelo metabolismo, a forma de hemoglobina favorecida é a forma protonada.",
+        "E": "Nos tecidos humanos, onde é liberado dióxido de carbono produzido pelo metabolismo, a forma de hemoglobina favorecida é a $\\text{HbO}_2$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 81,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os três gráficos mostram o comportamento circadiano das variáveis hormônio melatonina (produzida na glândula pineal), hormônio cortisol (produzido nas glândulas supra-renais) e temperatura corpórea em indivíduos saudáveis ao longo do dia (retângulo claro) e da noite (retângulo escuro). As linhas azuis (pontilhadas) correspondem a indivíduos mais jovens, e as vermelhas (contínuas), a indivíduos mais idosos.\n\n![três gráficos lado a lado, de melatonina, cortisol e temperatura, com curvas senoidais ao longo do dia (retângulo claro) e da noite (retângulo escuro); a linha azul pontilhada (mais jovens) tem amplitude maior que a vermelha contínua (mais idosos)](fig:p25-c1)\n\nHOOD & AMIR, 2017. “The aging clock: circadian rhythms and later life”. *The Journal of Clinical Investigation*, 127(2): 437-446. Adaptado.\n\nCom base nos gráficos, é correto afirmar que",
+      "alternativas": {
+        "A": "as amplitudes das variáveis são menores nos indivíduos mais idosos.",
+        "B": "indivíduos jovens sentem mais sono durante o dia porque produzem mais melatonina que os mais idosos.",
+        "C": "picos de alta na produção desses hormônios diminuem o estado de vigília e causam a condição de sono à noite.",
+        "D": "o pico de melatonina causa a menor temperatura em pessoas mais idosas em relação às mais jovens à noite.",
+        "E": "o cortisol não demonstra ritmo circadiano, o qual ocorre apenas na melatonina e na temperatura."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 82,
+      "materia": "geografia",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O gráfico a seguir apresenta o registro histórico e a projeção do total de mortes e nascimentos em certa região do mundo em dado período:\n\n![gráfico do número de nascimentos ou mortes (em milhões) em função do ano, de 1950 a 2100: a curva de nascimentos começa perto de 16 milhões, diminui até cerca de 12 milhões; a curva de mortes começa perto de 8 milhões, cresce, ultrapassa a de nascimentos por volta de 2035, atinge cerca de 16 milhões por volta de 2060 e depois diminui](fig:p25-c2)\n\nONU, 2019.\n\nA partir disso, assinale a pirâmide etária que melhor representa as informações projetadas para o ano de 2050:",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p25-c3)",
+        "B": "![Alternativa B](fig:p25-c4)",
+        "C": "![Alternativa C](fig:p25-c5)",
+        "D": "![Alternativa D](fig:p25-c6)",
+        "E": "![Alternativa E](fig:p25-c7)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 83,
+      "materia": "biologia",
+      "materias_extra": [
+        "matematica"
+      ],
+      "texto_base": null,
+      "enunciado": "O heredograma a seguir mostra o aparecimento de AME (atrofia muscular espinhal) em um menino, filho de um casal de primos.\n\n![heredograma com legenda (quadrado vazio: homem sem AME; círculo vazio: mulher sem AME; quadrado preenchido: menino com AME). Geração I: indivíduos 1 (homem) e 2 (mulher), casados. Geração II: indivíduo 1 (homem), 2 (mulher) e 3 (menino com AME), com um filho marcado com ponto de interrogação ligado ao casal formado por II.1 e II.2](fig:p26-f1)\n\nA AME é uma doença autossômica recessiva rara, muitas vezes fatal na primeira infância, provocada pela morte de neurônios motores. Uma das causas da AME é uma mutação no gene SMN1, cuja frequência é de 2% na população sem AME (uma em cada 50 pessoas tem um alelo mutante).\n\nConsiderando os genótipos prováveis da mulher II.2 e que não há relação de parentesco com seu parceiro, a probabilidade de uma criança deste casal ser portadora da AME é uma em:",
+      "alternativas": {
+        "A": "50",
+        "B": "100",
+        "C": "200",
+        "D": "300",
+        "E": "600"
+      },
+      "observacoes": "Descrição do heredograma conferida só visualmente; revisar se os símbolos da geração II (II.1, II.2, II.3 e o “?”) estão bem descritos."
+    },
+    {
+      "numero": 84,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um professor precisa elaborar uma prova multidisciplinar que consta de duas questões de Matemática e seis de Física. Ele deve escolher questões de um banco de dados que contém três questões de Matemática e oito de Física. O número de provas distintas possíveis, sem levar em conta a ordem em que as questões aparecem, é:",
+      "alternativas": {
+        "A": "42",
+        "B": "54",
+        "C": "62",
+        "D": "72",
+        "E": "84"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 85,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A FIFA (Federação Internacional de Futebol) implementou, em 2018, a versão mais recente do *ranking* das seleções. Suponha que as seleções A e B, com pontuações $P_A$ e $P_B$, respectivamente, disputarão uma final de Copa do Mundo. A pontuação atualizada da seleção A após a partida será dada por\n\n$$P_A' = P_A + 60(V_A - E_A),$$\n\nonde\n\n$$E_A = \\frac{10^{\\frac{P_A - P_B}{600}}}{1 + 10^{\\frac{P_A - P_B}{600}}}$$\n\ne o valor de $V_A$ depende do resultado da partida de acordo com a tabela:\n\n| Resultado da partida | Valor de $V_A$ |\n|---|---|\n| Vitória de A | 1 |\n| Empate | 0,5 |\n| Derrota de A | 0 |\n\nSabendo que $P_A - P_B = 360$, se a seleção A vencer a partida, sua pontuação aumentará em\n\n**Note e adote:**\n\n$\\log_{10} 2 = 0{,}3$",
+      "alternativas": {
+        "A": "6 pontos.",
+        "B": "10 pontos.",
+        "C": "12 pontos.",
+        "D": "15 pontos.",
+        "E": "20 pontos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 86,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Para medir o volume de uma pedra com formato irregular, Ana utilizou um recipiente cilíndrico de raio $r = 8\\ \\text{cm}$ e com água até a altura de $20\\ \\text{cm}$. Após colocar a pedra no recipiente, a altura da água subiu para $23{,}5\\ \\text{cm}$.\n\n![dois recipientes cilíndricos, ligados por uma seta curva: o da esquerda com água até a altura de 20 cm e raio $r$ indicado; o da direita, com a pedra dentro e a água na altura de 23,5 cm](fig:p26-f3)\n\nO volume da pedra é:",
+      "alternativas": {
+        "A": "$128\\pi\\ \\text{cm}^3$",
+        "B": "$224\\pi\\ \\text{cm}^3$",
+        "C": "$240\\pi\\ \\text{cm}^3$",
+        "D": "$282\\pi\\ \\text{cm}^3$",
+        "E": "$320\\pi\\ \\text{cm}^3$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 87,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Dado um número natural $n \\geq 2$, o *primorial* de $n$, denotado por $n\\#$, é o produto de todos os números primos menores que ou iguais a $n$. Por exemplo,\n\n$$6\\# = 2 \\cdot 3 \\cdot 5 = 30.$$\n\nO **menor** número da forma $n\\#$ que é maior que 2000 é:",
+      "alternativas": {
+        "A": "2300",
+        "B": "2305",
+        "C": "2310",
+        "D": "2312",
+        "E": "2322"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 88,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um ladrilhamento é chamado de *uniforme* se é composto por polígonos regulares que preenchem todo o plano sem sobreposição e, além disso, o padrão é o mesmo em cada vértice. Para classificá-los, utilizamos uma notação dada por uma sequência de números que é definida desta forma: escolhemos um vértice qualquer e indicamos o número de lados de cada polígono que contém este vértice, seguindo o sentido anti-horário, iniciando com os polígonos de menos lados, conforme os exemplos:\n\n![dois exemplos de ladrilhamento com hexágonos azuis e triângulos laranja, rotulados (3.3.3.3.6) e (3.6.3.6)](fig:p27-c1)\n\nA foto mostra o piso de um museu em Sevilha.\n\n![fotografia do piso de um museu em Sevilha, com ladrilhos de mármore em forma de hexágonos, quadrados e triângulos, nas cores branca, vermelha e azul-escura](fig:p27-f3)\n\nA notação que representa o padrão do ladrilhamento do piso é:",
+      "alternativas": {
+        "A": "(3 . 3 . 3 . 4)",
+        "B": "(3 . 3 . 4 . 6)",
+        "C": "(3 . 4 . 4 . 4)",
+        "D": "(3 . 4 . 4 . 6)",
+        "E": "(3 . 4 . 6 . 4)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 89,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere a região do plano cartesiano\n\n$$A = \\{(x,y) \\in \\mathbb{R}^2 : |x| + |y| \\leq 1\\}$$\n\nesboçada na figura.\n\n![plano cartesiano com a região A, um quadrado inclinado (losango) hachurado, de vértices em (1, 0), (0, 1), (-1, 0) e (0, -1)](fig:p27-f4)\n\nDado $B = \\{(x,y) \\in \\mathbb{R}^2 : (x+1)^2 + y^2 \\geq 1\\}$, a área da região $A \\cap B$ é:",
+      "alternativas": {
+        "A": "$2 - \\frac{\\pi}{4}$",
+        "B": "$2 - \\frac{\\pi}{2}$",
+        "C": "$4 + \\frac{\\pi}{2}$",
+        "D": "$4 - \\frac{\\pi}{4}$",
+        "E": "$2 + \\frac{\\pi}{2}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 90,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No plano cartesiano, os pontos $(3,2)$ e $(5,4)$ pertencem ao gráfico da função dada por\n\n$$y = \\log_2(ax + b).$$\n\nO valor de $a + b$ é:",
+      "alternativas": {
+        "A": "-8",
+        "B": "-6",
+        "C": "0",
+        "D": "4",
+        "E": "8"
+      },
+      "observacoes": ""
+    }
+  ]
+}

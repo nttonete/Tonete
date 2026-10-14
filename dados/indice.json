@@ -1,6 +1,36 @@
 {
  "edicoes": [
   {
+   "id": "fuvest-2023-1",
+   "vestibular": "fuvest",
+   "ano": 2023,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "V",
+   "nome": "FUVEST (USP) 2023 – 1ª fase",
+   "fonte": {
+    "caderno": "FEVEST_2023_1Fase.pdf",
+    "gabarito": "FEVEST_2023_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/fuvest-2023-1.json",
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
+   "materias": {
+    "sociologia": 2,
+    "portugues": 8,
+    "historia": 10,
+    "literatura": 5,
+    "geografia": 10,
+    "quimica": 10,
+    "fisica": 10,
+    "biologia": 14,
+    "matematica": 12,
+    "filosofia": 2,
+    "ingles": 7
+   }
+  },
+  {
    "id": "fuvest-2024-1",
    "vestibular": "fuvest",
    "ano": 2024,
