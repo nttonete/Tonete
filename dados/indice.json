@@ -125,6 +125,36 @@
    }
   },
   {
+   "id": "unicamp-2024-1",
+   "vestibular": "unicamp",
+   "ano": 2024,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "Q/Y",
+   "nome": "Unicamp 2024 – 1ª fase",
+   "fonte": {
+    "caderno": "UNICAMP_2024_1Fase.pdf",
+    "gabarito": "UNICAMP_2024_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unicamp-2024-1.json",
+   "total": 72,
+   "validas": 72,
+   "com_resposta": 72,
+   "materias": {
+    "portugues": 5,
+    "literatura": 7,
+    "historia": 7,
+    "matematica": 13,
+    "biologia": 9,
+    "quimica": 4,
+    "geografia": 7,
+    "fisica": 7,
+    "sociologia": 4,
+    "filosofia": 2,
+    "ingles": 7
+   }
+  },
+  {
    "id": "unicamp-2025-1",
    "vestibular": "unicamp",
    "ano": 2025,
