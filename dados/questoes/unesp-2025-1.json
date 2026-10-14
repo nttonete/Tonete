@@ -583,7 +583,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q32",
@@ -601,7 +601,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q33",
@@ -619,7 +619,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q34",
@@ -637,7 +637,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q35",
@@ -655,7 +655,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q36",
@@ -673,7 +673,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q37",
@@ -691,7 +691,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q38",
@@ -709,7 +709,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q39",
@@ -727,7 +727,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q40",
@@ -745,7 +745,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q41",
@@ -763,7 +763,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q42",
@@ -781,13 +781,15 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q43",
    "numero": 43,
-   "materia": "historia",
-   "materias_extra": [],
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
    "texto_base": null,
    "enunciado": "“Nova Ordem Mundial” — essa expressão foi consagrada por George H. Bush, o Bush sênior, num discurso proferido perante uma sessão conjunta do Congresso americano, no dia 11 de setembro de 1990 [...]. Aqueles eram os anos mágicos do encerramento da Guerra Fria. E aquela era uma profecia assentada sobre a percepção de um mundo ordenado e liderado pelos Estados Unidos. A expressão não durou sequer uma década. No portal do século XXI, teria sido melhor inscrever aquilo que disse um dia Sam Goldwyn, o antigo magnata do cinema: “Nunca profetize, especialmente sobre o futuro”.\n\n(Demétrio Magnoli. *O grande jogo*, 2006.)\n\nNo excerto, há a desconstrução da percepção sobre a Nova Ordem Mundial. Essa desconstrução justifica-se pela",
    "alternativas": {
@@ -799,7 +801,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2025-1-q44",
@@ -817,7 +819,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q45",
@@ -835,7 +837,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q46",
@@ -853,7 +855,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q47",
@@ -871,7 +873,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q48",
@@ -891,7 +893,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q49",
@@ -909,7 +911,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q50",
@@ -927,7 +929,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q51",
@@ -945,7 +947,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q52",
@@ -963,7 +965,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q53",
@@ -981,7 +983,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q54",
@@ -999,7 +1001,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q55",
@@ -1017,13 +1019,15 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q56",
    "numero": 56,
-   "materia": "geografia",
-   "materias_extra": [],
+   "materia": "sociologia",
+   "materias_extra": [
+    "geografia"
+   ],
    "texto_base": null,
    "enunciado": "![gráfico intitulado “Projeção de mortes por excesso de calor, segundo medidas de adaptação climática”, com duas curvas de mortes por 100 000 pessoas entre 2020 e 2100](fig:p21-c1)\n\n(www.letrasambientais.org.br, 19.11.2023.)\n\nChamamos de racismo ambiental as injustiças sociais e ambientais que recaem de forma implacável sobre grupos étnicos vulnerabilizados e sobre outras comunidades, discriminadas por sua “raça”, origem ou cor. O racismo ambiental não se configura apenas por meio de ações que tenham uma intenção racista, mas igualmente por meio de ações que tenham impacto racial, não obstante a intenção que lhes tenha dado origem.\n\n(Tania Pacheco. https://racismoambiental.net.br, 2007. Adaptado.)\n\nO gráfico e o conceito apresentados no excerto dialogam sobre o impacto ambiental resultante",
    "alternativas": {
@@ -1035,13 +1039,15 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2025-1-q57",
    "numero": 57,
-   "materia": "geografia",
-   "materias_extra": [],
+   "materia": "sociologia",
+   "materias_extra": [
+    "geografia"
+   ],
    "texto_base": null,
    "enunciado": "“Arquitetura hostil” refere-se a estratégias de *design* urbano que utilizam elementos para restringir certos comportamentos nos espaços públicos, dificultando o acesso e a presença de pessoas, especialmente pessoas em situação de rua. [...] Segundo o historiador especializado em arquitetura Iain Borden, [...] a emergência deste estilo de arquitetura hostil data da década de 1990, nas gestões de um desenho urbano que sugere, segundo suas palavras, “que só somos cidadãos se estamos trabalhando ou consumindo bens diretamente”.\n\n(Juliana Sayuri. www.nexojornal.com.br, 28.12.2023.)\n\nO excerto retrata um fenômeno social brasileiro que representa",
    "alternativas": {
@@ -1053,7 +1059,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2025-1-q58",
@@ -1071,7 +1077,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q59",
@@ -1089,7 +1095,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q60",
@@ -1107,7 +1113,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unesp-2025-1-q61",

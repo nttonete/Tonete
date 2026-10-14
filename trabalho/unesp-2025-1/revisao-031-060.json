@@ -1,0 +1,210 @@
+{
+  "edicao": "unesp-2025-1",
+  "intervalo": [
+    31,
+    60
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 43,
+      "materia": "geografia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "“Nova Ordem Mundial” — essa expressão foi consagrada por George H. Bush, o Bush sênior, num discurso proferido perante uma sessão conjunta do Congresso americano, no dia 11 de setembro de 1990 [...]. Aqueles eram os anos mágicos do encerramento da Guerra Fria. E aquela era uma profecia assentada sobre a percepção de um mundo ordenado e liderado pelos Estados Unidos. A expressão não durou sequer uma década. No portal do século XXI, teria sido melhor inscrever aquilo que disse um dia Sam Goldwyn, o antigo magnata do cinema: “Nunca profetize, especialmente sobre o futuro”.\n\n(Demétrio Magnoli. *O grande jogo*, 2006.)\n\nNo excerto, há a desconstrução da percepção sobre a Nova Ordem Mundial. Essa desconstrução justifica-se pela",
+      "alternativas": {
+        "A": "ascensão de novas potências econômicas mundiais no início da década de 1990, especificamente Brasil, Rússia, Índia, China e África do Sul (BRICS).",
+        "B": "difusão de um modelo de gestão política globalizante, capaz de equiparar o poder geopolítico dos Estados ao da ONU, em defesa de interesses sociais.",
+        "C": "rápida ascensão econômica da Rússia já no início da década de 1990, resultado de sua condição de herdeira direta das indústrias da extinta União Soviética.",
+        "D": "importante crise econômica estadunidense ao longo da década de 1990, responsável por subjugar o país aos interesses do Extremo Oriente.",
+        "E": "formação de três polos de poder logo após o fim da era bipolar, contemplando os Estados Unidos, a União Europeia e o Japão."
+      }
+    },
+    {
+      "numero": 56,
+      "materia": "sociologia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "![gráfico intitulado “Projeção de mortes por excesso de calor, segundo medidas de adaptação climática”, com duas curvas de mortes por 100 000 pessoas entre 2020 e 2100](fig:p21-c1)\n\n(www.letrasambientais.org.br, 19.11.2023.)\n\nChamamos de racismo ambiental as injustiças sociais e ambientais que recaem de forma implacável sobre grupos étnicos vulnerabilizados e sobre outras comunidades, discriminadas por sua “raça”, origem ou cor. O racismo ambiental não se configura apenas por meio de ações que tenham uma intenção racista, mas igualmente por meio de ações que tenham impacto racial, não obstante a intenção que lhes tenha dado origem.\n\n(Tania Pacheco. https://racismoambiental.net.br, 2007. Adaptado.)\n\nO gráfico e o conceito apresentados no excerto dialogam sobre o impacto ambiental resultante",
+      "alternativas": {
+        "A": "da ausência de organizações ambientais internacionais.",
+        "B": "da escassez de políticas de acesso a oportunidades de bem-estar social.",
+        "C": "do negacionismo científico expresso por grupos minoritários.",
+        "D": "da supressão dos investimentos em campanhas de conscientização.",
+        "E": "do baixo lucro de empresas de economia verde."
+      }
+    },
+    {
+      "numero": 57,
+      "materia": "sociologia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "“Arquitetura hostil” refere-se a estratégias de *design* urbano que utilizam elementos para restringir certos comportamentos nos espaços públicos, dificultando o acesso e a presença de pessoas, especialmente pessoas em situação de rua. [...] Segundo o historiador especializado em arquitetura Iain Borden, [...] a emergência deste estilo de arquitetura hostil data da década de 1990, nas gestões de um desenho urbano que sugere, segundo suas palavras, “que só somos cidadãos se estamos trabalhando ou consumindo bens diretamente”.\n\n(Juliana Sayuri. www.nexojornal.com.br, 28.12.2023.)\n\nO excerto retrata um fenômeno social brasileiro que representa",
+      "alternativas": {
+        "A": "a reformulação de mecanismos de democratização do espaço público.",
+        "B": "a manutenção da cultura de estranhamento e de segregação.",
+        "C": "o fortalecimento do viés tradicional do exercício da cidadania.",
+        "D": "o desafio de políticas públicas para a garantia de emprego formal.",
+        "E": "a anulação da oportunidade de socialização entre indivíduos."
+      }
+    }
+  ],
+  "relatorio": [
+    {
+      "numero": 31,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 32,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 33,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 34,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 35,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 36,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 37,
+      "status": "ok",
+      "notas": "Texto base t37-38 conferido (4 parágrafos); nome da autora (Oyèrónkẹ́ Oyěwùmí) conferido na imagem ampliada, pois falta no texto extraído."
+    },
+    {
+      "numero": 38,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 39,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 40,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 41,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 42,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 43,
+      "status": "corrigida",
+      "notas": "Matéria: geografia (geopolítica da Nova Ordem Mundial, tripolaridade EUA–UE–Japão), história como extra; no caderno a questão abre o bloco de geografia (43–54), como na unesp-2026-1. Texto conferido; minha resolução (E) bate com o gabarito."
+    },
+    {
+      "numero": 44,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 45,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 46,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 47,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 48,
+      "status": "ok",
+      "notas": "Cálculo conferido: opção 1 = 1500 km em 25 h (60 km/h); opção 2 = 1500 km em 30 h (50 km/h). A vírgula fora de lugar em “e que em, cada opção de rota” é do original."
+    },
+    {
+      "numero": 49,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 50,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 51,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 52,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 53,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 54,
+      "status": "ok",
+      "notas": "Figura p20-c1 completa (título, mapa e legenda)."
+    },
+    {
+      "numero": 55,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 56,
+      "status": "corrigida",
+      "notas": "Matéria: sociologia (conceito de racismo ambiental), geografia como extra (gráfico de mortes por calor/adaptação climática). Texto e figura p21-c1 conferidos; resolução (B) bate com o gabarito."
+    },
+    {
+      "numero": 57,
+      "status": "corrigida",
+      "notas": "Matéria: sociologia (arquitetura hostil, segregação e cidadania), geografia como extra (espaço urbano). Texto conferido; resolução (B) bate com o gabarito."
+    },
+    {
+      "numero": 58,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 59,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 60,
+      "status": "ok",
+      "notas": ""
+    }
+  ]
+}
