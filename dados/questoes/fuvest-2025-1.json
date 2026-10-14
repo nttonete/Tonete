@@ -1143,7 +1143,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q62",
@@ -1161,7 +1161,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q63",
@@ -1181,7 +1181,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q64",
@@ -1199,7 +1199,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q65",
@@ -1217,7 +1217,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q66",
@@ -1235,7 +1235,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q67",
@@ -1253,15 +1253,13 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q68",
    "numero": 68,
    "materia": "geografia",
-   "materias_extra": [
-    "sociologia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "O gráfico a seguir apresenta dados do Produto Interno Bruto (PIB) por pessoa e dados de publicações científicas por milhão de habitantes para um grupo selecionado de países, além de destacar o estado de São Paulo.\n\n![gráfico de dispersão das publicações científicas por milhão de habitantes em função do PIB por pessoa em dólares, em 2020, com países e o estado de São Paulo, e linhas da média mundial](fig:p26-f1)\n\nRevista Pesquisa FAPESP – Agosto/2022 (Adaptado).\n\nA partir da análise do gráfico e do texto, é correto afirmar:",
    "alternativas": {
@@ -1273,7 +1271,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-1-q69",
@@ -1291,7 +1289,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q70",
@@ -1309,7 +1307,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q71",
@@ -1327,7 +1325,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q72",
@@ -1345,7 +1343,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q73",
@@ -1365,7 +1363,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q74",
@@ -1383,7 +1381,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q75",
@@ -1401,7 +1399,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q76",
@@ -1419,7 +1417,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q77",
@@ -1437,14 +1435,14 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q78",
    "numero": 78,
-   "materia": "matematica",
+   "materia": "ingles",
    "materias_extra": [
-    "ingles"
+    "matematica"
    ],
    "texto_base": null,
    "enunciado": "![cartum de Mark Anderson: professor ao lado de uma lousa com 4 + x = 10, x = 10 − 4, x = 6, diante de três alunos sentados; legenda: “Hold on. When we learned Roman numerals, X was 10. Now it’s 6. What’s going on around here?!”](fig:p29-f1)\n\nDisponível em https://andertoons.com/math/cartoon/7359/.\n\nContribui para o efeito de comicidade do cartum a",
@@ -1457,7 +1455,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-1-q79",
@@ -1477,7 +1475,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q80",
@@ -1497,7 +1495,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q81",
@@ -1507,7 +1505,7 @@
     "historia"
    ],
    "texto_base": null,
-   "enunciado": "“O eixo econômico do país, que já havia se deslocado para a zona de mineração, caminhou mais uma vez, deslocando-se em direção às ondulações do planalto paulista, que foram se recobrindo pelo verde escuro dos cafezais. Enquanto outras regiões brasileiras vegetavam ou iniciavam mesmo um processo de decadência econômica, a Província, logo depois estado de São Paulo, apresentava uma ascensão esplêndida e vigorosa.”\n\nPETRONE, Pasquale. As indústrias paulistanas e os fatores de sua expansão. *Terra Livre*. 1953, p. 27 (Adaptado).\n\nSobre a industrialização no território brasileiro, é correto afirmar:",
+   "enunciado": "“O eixo econômico do país, que já havia se deslocado para a zona de mineração, caminhou mais uma vez, deslocando-se em direção às ondulações do planalto paulista, que foram se recobrindo pelo verde escuro dos cafezais. Enquanto outras regiões brasileiras vegetavam ou iniciavam mesmo um processo de decadência econômica, a Província, logo depois estado de São Paulo, apresentava uma ascensão esplêndida e vigorosa.”\n\nPETRONE, Pasquale. As indústrias paulistanas e os fatores de sua expansão. Terra Livre. 1953, p. 27 (Adaptado).\n\nSobre a industrialização no território brasileiro, é correto afirmar:",
    "alternativas": {
     "A": "Tal como São Paulo, a Zona Franca de Manaus teve a expansão de suas indústrias dada pelo potencial do mercado consumidor local dos produtos resultantes da industrialização.",
     "B": "O Nordeste teve sua expansão industrial durante o Estado Novo, em razão da alta concentração de capitais dos estados da região, permitindo conexões dos seus polos industriais já consolidados.",
@@ -1517,7 +1515,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-1-q82",
@@ -1535,7 +1533,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q83",
@@ -1555,7 +1553,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q84",
@@ -1573,7 +1571,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q85",
@@ -1593,7 +1591,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q86",
@@ -1603,7 +1601,7 @@
     "historia"
    ],
    "texto_base": null,
-   "enunciado": "No texto intitulado *Tarsila*, a pesquisadora Aracy Amaral transcreve um trecho das impressões de Tarsila do Amaral sobre a viagem às cidades históricas coloniais mineiras, que realizara em 1924 com o grupo modernista, liderado por Mário de Andrade: “(...) As decorações murais de um modesto corredor de hotel; o forro das salas, feito de taquarinhas coloridas e trançadas; as pinturas das igrejas, simples e comoventes, executadas com amor e devoção por artistas anônimos; o Aleijadinho, nas suas estátuas e nas linhas geniais da sua arquitetura religiosa, tudo era motivo para as nossas exclamações admirativas. Encontrei em Minas as cores que adorava em criança. Ensinaram-me depois que eram feias e caipiras. Segui o ramerrão do gosto apurado... Mas depois vinguei-me da opressão passando-as para as minhas telas: azul puríssimo, rosa violáceo, amarelo vivo, verde cantante, tudo em gradações mais ou menos fortes, conforme a mistura de branco. Pintura limpa, sobretudo, sem medo de cânones convencionais. Liberdade e sinceridade, uma certa estilização que a adaptava à época moderna.”\n\nAMARAL, Tarsila, 1939. Apud AMARAL, Aracy. Tarsila, In: Tarsila do Amaral. São Paulo: Fundação Finambras, s.d, p.4.\n\n![pintura O mamoeiro, de Tarsila do Amaral, 1925: casas em meio a árvores e coqueiros, uma ponte de madeira sobre um rio e pessoas ao fundo](fig:p32-f1)\n\nTarsila do Amaral, **O mamoeiro**, 1925, óleo s/ tela, 65,0 cm x 70,0 cm. Coleção Mário de Andrade - Instituto de Estudos Brasileiros da Universidade de São Paulo. Reprodução fotográfica: Rômulo Fialdini. Disponível em: https://enciclopedia.itaucultural.org.br/.\n\nConsiderando a obra *O Mamoeiro*, de Tarsila do Amaral, qual é o principal elemento que caracteriza a influência do movimento modernista brasileiro na pintura?",
+   "enunciado": "No texto intitulado *Tarsila*, a pesquisadora Aracy Amaral transcreve um trecho das impressões de Tarsila do Amaral sobre a viagem às cidades históricas coloniais mineiras, que realizara em 1924 com o grupo modernista, liderado por Mário de Andrade: “(...) As decorações murais de um modesto corredor de hotel; o forro das salas, feito de taquarinhas coloridas e trançadas; as pinturas das igrejas, simples e comoventes, executadas com amor e devoção por artistas anônimos; o Aleijadinho, nas suas estátuas e nas linhas geniais da sua arquitetura religiosa, tudo era motivo para as nossas exclamações admirativas. Encontrei em Minas as cores que adorava em criança. Ensinaram-me depois que eram feias e caipiras. Segui o ramerrão do gosto apurado... Mas depois vinguei-me da opressão passando-as para as minhas telas: azul puríssimo, rosa violáceo, amarelo vivo, verde cantante, tudo em gradações mais ou menos fortes, conforme a mistura de branco. Pintura limpa, sobretudo, sem medo de cânones convencionais. Liberdade e sinceridade, uma certa estilização que a adaptava à época moderna.”\n\nAMARAL, Tarsila, 1939. Apud AMARAL, Aracy. Tarsila, In: Tarsila do Amaral. São Paulo: Fundação Finambras, s.d, p.4.\n\n![pintura O mamoeiro, de Tarsila do Amaral, 1925: casas coloridas entre morros, árvores e um mamoeiro com frutos, roupas no varal, uma ponte de madeira sobre um rio e pessoas atravessando a ponte](fig:p32-f1)\n\nTarsila do Amaral, **O mamoeiro**, 1925, óleo s/ tela, 65,0 cm x 70,0 cm. Coleção Mário de Andrade - Instituto de Estudos Brasileiros da Universidade de São Paulo. Reprodução fotográfica: Rômulo Fialdini. Disponível em: https://enciclopedia.itaucultural.org.br/.\n\nConsiderando a obra *O Mamoeiro*, de Tarsila do Amaral, qual é o principal elemento que caracteriza a influência do movimento modernista brasileiro na pintura?",
    "alternativas": {
     "A": "O emprego de recursos pictóricos que realçam os efeitos de luz e sombra na cena retratada.",
     "B": "A representação de aspectos da cultura brasileira, valorizando uma paisagem local.",
@@ -1613,7 +1611,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-1-q87",
@@ -1631,7 +1629,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q88",
@@ -1649,7 +1647,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q89",
@@ -1669,7 +1667,7 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-1-q90",
@@ -1687,7 +1685,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   }
  ]
 }
