@@ -1,0 +1,512 @@
+{
+  "edicao": "unicamp-2026-1",
+  "textos_base": {
+    "t55-56": "A rua é nóix! Sempre com letra minúscula, porque não é o Nós da totalidade, uma vez que não sabemos exatamente quem ou quantos somos, quem faz parte ou não, quem está dentro ou fora. Mas, se pegar para um, vai pegar pra geral. O nóix é sempre mais que um. Mesmo sozinho, na missão, existe algo para além da presença física do eu e do outro. Assumindo nossas ancestralidades, convivemos com os espíritos daqueles que já se foram. O nóix opera pela lógica dos bondes de galera, do lado A ou lado B. Quem é amigo fecha com a gente, quem é alemão rala. Porque o fechamento é o fundamento ético das ruas. Recebe-se quem chega de boa, na paz, mas, se vacila, vai. Com i e x, o nóix demarca um sotaque, um registro local, um lugar, o Pretuguês de Lélia Gonzalez. Desobedecendo à instituída norma culta, o nóix – escrito ou falado – revela sua potência operando à margem da obediência à linguagem fonética dominante. O nóix é a potência da contaminação diferencial das diversidades de um povo em tempos e espaços múltiplos, que se repete numa atmosfera espectral que ultrapassa a lógica temporal predominante.\n\n(Adaptado de MORAES, M. J. D. *A rua é nóix*, Revista Cult, ed. 271, 1 jul. de 2021.)"
+  },
+  "questoes": [
+    {
+      "numero": 37,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No heredograma a seguir, são representadas raças de animais heterozigotos (em preto) e homozigotos (em branco). Os heterozigotos apresentam o alelo deletério recessivo e animais contendo dois alelos iguais recessivos têm menor ganho de peso. Os valores na figura indicam a massa corporal dos animais (em quilos, kg) em um grupo de animais isolados.\n\n![Heredograma com dois animais pretos, de 350 kg e 250 kg, e três descendentes: um branco de 350 kg, um preto de 500 kg e um branco de 150 kg](fig:p15-c2)\n\nConsiderando as informações apresentadas, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A heterose ocorre no cruzamento entre indivíduos heterozigotos, levando à maior massa corporal, com probabilidade de ocorrer em 66% dos animais da geração F1.",
+        "B": "A heterozigose tem probabilidade de ocorrer em 33% dos animais da geração F1, proporcionando animais com maior massa corporal e maior variabilidade genética.",
+        "C": "A depressão endogâmica tem probabilidade de ocorrer em 25% dos animais da geração F1, proporcionando animais com menor massa corporal e também menor variabilidade genética.",
+        "D": "A homozigose determina a depressão endogâmica, levando à menor massa corporal, com probabilidade de ocorrer em 50% dos animais da geração F1."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 38,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Fungos e metazoários evoluíram de um ancestral comum similar aos protistas, entretanto, os dois reinos divergiram ao longo do tempo. Os fungos crescem em cima ou dentro do seu alimento e a digestão ocorre no meio externo. Além disso, a maioria dos representantes dos fungos é composta por organismos com ciclo de vida haplobionte. A figura a seguir representa um ciclo de vida típico de um fungo haplobionte haplonte.\n\n![Esquema do ciclo de vida de um fungo haplobionte haplonte, com setas indicando os eventos I, II, III e IV e as fases n e 2n](fig:p16-f1)\n\n(Adaptado de AMSES, K. R. e colaboradores. *PNAS*, Washington, v.119, p. e2116841119, ago. 2022.)\n\nAssinale a alternativa que identifica corretamente os eventos I, II, III e IV.",
+      "alternativas": {
+        "A": "I: mitose; II: meiose; III: plasmogamia; IV: meiose",
+        "B": "I: meiose; II: meiose; III: cariogamia; IV: mitose",
+        "C": "I: mitose; II: mitose; III: plasmogamia; IV: meiose",
+        "D": "I: meiose; II: mitose; III: cariogamia; IV: mitose"
+      },
+      "observacoes": "No caderno as alternativas são as linhas (a a d) de uma tabela com as colunas I, II, III e IV; foram gravadas como texto, no formato \"I: ...; II: ...; III: ...; IV: ...\"."
+    },
+    {
+      "numero": 39,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Nas invasões biológicas, os predadores exóticos são a maior causa de extinção de espécies e perda de biodiversidade. Isso acontece porque o predador exótico pode tanto consumir a presa nativa quanto competir com o predador nativo. O sucesso da invasão biológica ocorre quando existe a extinção de uma ou ambas as espécies nativas, ou quando existe a redução da população nativa na presença do predador exótico. Na figura a seguir, considere os cenários I e II da chegada de um predador exótico em um sistema nativo de presa-predador em equilíbrio.\n\n![Dois gráficos lado a lado, cenários I e II, da densidade de populações em função do tempo, cada um com três curvas: uma contínua, uma tracejada e uma pontilhada](fig:p16-c2)\n\n(Adaptado de V. RIVERA-ESTAYE colaboradores. *Scientific Reports*, Londres, v.14, p. 4416, fev. 2024.)\n\nA partir dessas informações, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O cenário I representa insucesso da invasão biológica. O predador exótico é extinto, causando a redução populacional da presa nativa e o aumento populacional do predador nativo.",
+        "B": "O cenário I representa sucesso da invasão biológica. O predador exótico se instala, causando a redução populacional da presa nativa e a extinção do predador nativo.",
+        "C": "O cenário II representa sucesso da invasão biológica. O predador exótico se instala, causando a redução populacional do predador nativo e a extinção da presa nativa.",
+        "D": "O cenário II representa insucesso da invasão biológica. O predador exótico é extinto, causando a redução populacional da presa nativa e o aumento populacional do predador nativo."
+      },
+      "observacoes": "A fonte impressa diz \"V. RIVERA-ESTAYE colaboradores\" (sem \"e\"), mantido como no original. As curvas do gráfico não têm legenda no caderno."
+    },
+    {
+      "numero": 40,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere a placa de aviso encontrada em uma reserva ecológica.\n\n![Placa com o título CUIDADO, INSETOS PERIGOSOS! e quatro triângulos de aviso, cada um com um animal desenhado e a legenda: MOSQUITOS, CARRAPATOS, ESCORPIÕES e ABELHAS](fig:p16-c3)\n\n(Adaptado de https://pt.dreamstime.com. Acesso em 31/03/2025.)\n\nA informação da placa está",
+      "alternativas": {
+        "A": "correta, já que os carrapatos e escorpiões são classificados como quilópodes e os mosquitos e as abelhas como diplópodes.",
+        "B": "errada, pois apenas dois animais são artrópodes, sendo eles os mosquitos e as abelhas, que são classificados como insetos.",
+        "C": "correta, já que os mosquitos e as abelhas são classificados como artrópodes e os carrapatos e escorpiões como aracnídeos.",
+        "D": "errada, pois mesmo que todos os animais sejam classificados como artrópodes, os carrapatos e os escorpiões são aracnídeos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 41,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir apresenta o crânio de alguns hominídeos que fazem parte da história evolutiva humana.\n\n![Quatro crânios, da esquerda para a direita, com as legendas AUSTRALOPITHECUS, HOMO ERECTUS, HOMO NEANDERTHALENSIS e HOMO SAPIENS](fig:p16-c4)\n\n(Adaptado de https://pt.dreamstime.com. Acesso em 31/03/2025.)\n\nConsiderando essas informações e os seus conhecimentos em biologia, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O *Australopithecus* possuía cérebro pequeno e crânio com a maxila projetada para frente da face. Apresentava bipedismo e utilizava o fogo, o que favoreceu a evolução da espécie.",
+        "B": "O *Homo erectus* possuía cérebro de tamanho médio, fala rudimentar e várias características atuais, como testa plana e proeminente. Foi o primeiro a apresentar bipedismo e usar ferramentas, o que permitiu sua coexistência com outros hominídeos.",
+        "C": "O *Homo neanderthalensis* possuía nariz e narinas voltadas para baixo, além de cérebro bem desenvolvido e capacidade de comunicação. Utilizava o fogo e ferramentas, o que permitiu sua coexistência com outros hominídeos.",
+        "D": "O *Homo sapiens* possui, como característica mais marcante, o cérebro bem desenvolvido e a capacidade da fala. Foi o primeiro a usar o fogo e ferramentas, favorecendo a evolução da espécie."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 42,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma regra estabelecida pelo papa Paulo VI, em 1970, define que somente cardeais com menos de 80 anos participam e votam no conclave. Em 2025, 135 pessoas cumpriram esse critério de idade. O vencedor só é definido após garantir o apoio de dois terços dos votantes. Os últimos 3 conclaves aconteceram em 2005, 2013 e 2025.\n\n(Adaptado de https://www.nexojornal.com.br/grafico/2025/04/24/eleicao-papa-conclave-quem-faz-parte-cardeais/. Acesso em 30/05/2025.)\n\n![Gráfico de linhas, de 2005 a 2025, com o título Distribuição dos cardeais votantes, por região, em cada conclave desde 2005. Rótulos de 2025: 39,3% EUROPA; 20,0% ÁSIA E OCEANIA; 17,0% AMÉRICA LATINA; 13,3% ÁFRICA; 10,4% EUA e CANADÁ](fig:p17-c1)\n\nConsiderando o gráfico anterior, é correto afirmar que, desde 2005, em cada conclave,",
+      "alternativas": {
+        "A": "América Latina e África juntas corresponderam a mais que 40% da quantidade de cardeais votantes.",
+        "B": "Ásia, Oceania e África juntas corresponderam a mais que 30% da quantidade de cardeais votantes.",
+        "C": "Europa e África juntas corresponderam a mais que 50% da quantidade de cardeais votantes.",
+        "D": "Ásia, Oceania, Estados Unidos e Canadá juntos corresponderam a 30% da quantidade de cardeais votantes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 43,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Rogério é funcionário de uma fábrica de automóveis. Em dezembro de 2024, seu gestor fez duas propostas de aumento salarial:\n\n• a proposta 1 consistia em um aumento de 50% do seu salário, a partir do salário a ser recebido em janeiro de 2025, mas sem nenhum tipo de reajuste nos próximos três anos, ou seja, até dezembro de 2027;\n\n• a proposta 2 consistia em um aumento de 20% a cada ano; o reajuste ocorreria no salário de janeiro de cada um dos próximos três anos, a partir de 2025.\n\nPara decidir a qual proposta aderir, Rogério calculou o montante total que receberia ao longo dos três anos em cada proposta, isto é, de janeiro de 2025 a dezembro de 2027. Ele concluiu que o total a ser recebido na proposta 1 é, aproximadamente,",
+      "alternativas": {
+        "A": "3% maior que o total a ser recebido na proposta 2.",
+        "B": "1% maior que o total a ser recebido na proposta 2.",
+        "C": "3% menor que o total a ser recebido na proposta 2.",
+        "D": "1% menor que o total a ser recebido na proposta 2."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 44,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir mostra um trecho do gráfico de $f(g(x))$ em que $f(x) = x^3 + 2x^2 + ax - 1$, $g(x) = 3 - x$ e $a$ é uma constante real.\n\n![Gráfico de uma curva decrescente no plano cartesiano com eixos x e y, que passa pelo ponto de abscissa 1 e ordenada 5 e corta o eixo x](fig:p17-c2)\n\nQual é o valor da constante $a$ ?",
+      "alternativas": {
+        "A": "$-2$.",
+        "B": "$-3$.",
+        "C": "$-4$.",
+        "D": "$-5$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 45,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sobre dois polinômios $p(x)$ e $q(x)$ de coeficientes reais sabe-se que:\n\n• $p(x) + q(x)$ tem grau igual a 3.\n• $p(x) \\cdot q(x)$ tem grau igual a 8.\n\nÉ correto afirmar que o grau de $p(x) - q(x)$ é igual a",
+      "alternativas": {
+        "A": "5.",
+        "B": "4.",
+        "C": "3.",
+        "D": "2."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 46,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A reta de equação $y = ax + b$ faz um ângulo de 30 graus com o eixo $y$, conforme ilustrado na figura a seguir, e sua distância até a origem é $\\sqrt{3}$.\n\n![Plano cartesiano com a reta y = ax + b, que corta o eixo y abaixo da origem formando um ângulo de 30 graus com esse eixo; um segmento tracejado de comprimento raiz de 3 liga a origem à reta](fig:p18-c1)\n\nO valor de $ab$ é",
+      "alternativas": {
+        "A": "$-4$.",
+        "B": "$-5$.",
+        "C": "$-6$.",
+        "D": "$-7$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 47,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 2025, a Comissão de Limites da Plataforma Continental (CLPC), da Organização das Nações Unidas (ONU), aprovou uma proposta do Brasil que pedia a ampliação da plataforma continental na costa do litoral norte, como indicado na figura. A decisão reconhece o direito do Brasil de explorar a Margem Equatorial, em uma área equivalente à área territorial da Alemanha.\n\n![Mapa do litoral norte do Brasil, com a legenda: 200 milhas (limite marítimo em vigor até então), Nova fronteira brasileira e Nova área marítima conquistada pelo Brasil. Aparecem AP, MA, PI, CE, RN, PB e PE, o Oceano Atlântico, o Arquipélago de São Pedro e São Paulo, o Atol das Rocas e Fernando de Noronha](fig:p18-c4)\n\n(Texto e mapas adaptados de https://g1.globo.com/economia/noticia/2025/03/27/brasil-area-maritima-decisao-onu.ghtml. Acesso em 16/06/2025.)\n\nO cálculo de área de figuras planas irregulares envolve em geral noções complexas de matemática. No caso de áreas de figuras que estão impressas e/ou desenhadas em um papel, pode-se empregar um método prático, que considera a relação entre o peso do papel por unidade de área.\n\nPara calcular a área da região recentemente incorporada ao território brasileiro, um mapa contendo esta região, na escala 1:5.000.000 — isto é, 1 cm no papel equivale a 5.000.000 cm no local — foi impresso em um papel cuja relação peso/área é de $75\\text{g/m}^2$. A seguir, a parte do mapa referente a esta região foi recortada e pesada, obtendo-se 1,0815g.\n\nA partir desses dados, é correto afirmar que a área obtida foi:",
+      "alternativas": {
+        "A": "359.900 $\\text{km}^2$.",
+        "B": "360.100 $\\text{km}^2$.",
+        "C": "360.300 $\\text{km}^2$.",
+        "D": "360.500 $\\text{km}^2$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 48,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O movimento de ataque em um jogo de voleibol é mais eficiente se o atleta atingir a bola no ponto mais alto da trajetória do centro de massa da bola. A Figura 1 mostra a trajetória da bola que foi lançada pela Atleta A em direção à Atleta B.\n\nO centro de massa da bola, ao ser lançada pela Atleta A, está a 2 metros de altura em relação ao solo. Quando a Atleta B ataca, o centro de massa da bola está a 3 metros de altura em relação ao solo.\n\nAs jogadoras estão no mesmo plano da trajetória da bola e a distância entre as jogadoras é de 9 metros. Sabe-se que a trajetória do centro de massa da bola é uma parábola e que o ataque aconteceu justamente no ponto de maior altura da parábola, conforme representado na Figura 2.\n\n![Figura 1: quadra de voleibol em perspectiva com a Atleta A, a rede e a Atleta B, com os eixos x e y e a trajetória da bola indicada por pontos entre as duas atletas](fig:p18-c2)\n\n![Figura 2: gráfico com eixos x e y de um trecho de parábola que corta o eixo y na altura 2 e tem ponto mais alto na altura 3, em x igual a 9](fig:p18-c3)\n\nA equação da parábola que descreve a trajetória do centro de massa da bola é",
+      "alternativas": {
+        "A": "$y = (-1/9)x^2 + (10/9)x + 2$.",
+        "B": "$y = (-1/99)x^2 + (20/99)x + 2$.",
+        "C": "$y = (-1/81)x^2 + (2/9)x + 2$.",
+        "D": "$y = (-1/4)x^2 + (9 / 2)x + 2$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 49,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em uma creche se realiza o “dia da troca do brinquedo”. Cada criança leva um brinquedo para a escola e o guarda na Caixa Divertida. Ao final do dia, cada criança retira um brinquedo da Caixa Divertida sem olhar, e o leva para brincar em casa.\n\nEm uma sala com cinco crianças, qual é a probabilidade de exatamente duas crianças retirarem da Caixa Divertida seus próprios brinquedos?",
+      "alternativas": {
+        "A": "1/5.",
+        "B": "1/6.",
+        "C": "1/25.",
+        "D": "1/30."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 50,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir mostra um quadrado $ABCD$ de lado medindo $x$. O ponto médio do lado $AB$ está representado por $M$. Os pontos $P$ e $Q$, pertencentes ao lado $CD$, são tais que $PD = QC$. O ângulo $PMQ$, representado por $\\theta$ na figura, é tal que $\\cos(\\theta) = 2/3$.\n\n![Quadrado ABCD com M no ponto médio do lado AB e os pontos P e Q sobre o lado CD; os segmentos MP e MQ formam o ângulo theta em M](fig:p19-c1)\n\nA área do triângulo $PMQ$ é",
+      "alternativas": {
+        "A": "$\\dfrac{\\sqrt{5}\\,x^2}{5}$.",
+        "B": "$\\dfrac{\\sqrt{3}\\,x^2}{2}$.",
+        "C": "$\\dfrac{\\sqrt{2}\\,x^2}{2}$.",
+        "D": "$\\dfrac{\\sqrt{3}\\,x^2}{4}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 51,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere\n\n$A = \\{x \\in \\mathbb{N} : |x-5| \\geq 2 \\text{ e } |x-11| \\leq 9\\}$.\n\nQuantos números primos pertencem ao conjunto $A$?",
+      "alternativas": {
+        "A": "5.",
+        "B": "6.",
+        "C": "7.",
+        "D": "8."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 52,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em um jogo de videogame sobre guerra, cada jogador deve montar sua tropa escolhendo 100 combatentes. Ele tem à sua disposição dois tipos de combatentes, soldados e estrategistas, que possuem duas habilidades, astúcia e força, com as seguintes pontuações:\n\n• o soldado tem 30 pontos de astúcia e 70 pontos de força.\n• o estrategista tem 80 pontos de astúcia e 20 pontos de força.\n\nA força total da tropa é a soma das pontuações de força de cada um dos combatentes, e a astúcia total da tropa é a soma das pontuações de astúcia de cada um dos combatentes.\n\nPara montar uma tropa de modo a obter as mesmas pontuações de força total e de astúcia total, quantos soldados e quantos estrategistas devem ser escolhidos?",
+      "alternativas": {
+        "A": "70 soldados e 30 estrategistas.",
+        "B": "60 soldados e 40 estrategistas.",
+        "C": "50 soldados e 50 estrategistas.",
+        "D": "40 soldados e 60 estrategistas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 53,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na figura a seguir, $ABCD$ é um quadrado com lado medindo 6, e $P$, $Q$, $R$ e $S$ são pontos sobre os lados deste quadrado, em que $AS = BQ = 2$, $PB = 3$ e $DR = 1$.\n\n![Quadrado ABCD com os pontos P no lado AB, Q no lado BC, R no lado CD e S no lado DA; as medidas 3, 2, 2 e 1 estão indicadas, e um triângulo com vértices em P e Q está sombreado](fig:p19-c2)\n\nO valor da área sombreada é igual a",
+      "alternativas": {
+        "A": "11/3.",
+        "B": "13/3.",
+        "C": "15/4.",
+        "D": "17/4."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 54,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**É advogado com d mudo, estúpida!**\n\n**Mirian Goldenberg**\nAntropóloga e professora da Universidade Federal do Rio de Janeiro, é autora de “A Invenção de uma Bela Velhice”\n\nFiz um vídeo para o Instagram sobre a minha coluna intitulada *No dia 1º de abril, quase caí no golpe do ‘falso advogado’*. No vídeo, confessei que quase morri de vergonha por quase ter caído em um golpe no Dia da Mentira.\n\nFiquei triste quando li alguns dos comentários sobre o vídeo: “*AdEvogado*?; “Não é *adevogado* que fala”; “A desinformada que fala *adêvogado* aprendeu o que é golpe de verdade kkkk”; “*Adevogado*? Pode isso? Uma ‘intelequitual’ brasileira da linha de frente falando assim?”; “Um currículo e tanto e falando *adevogado*?; “Chamou de *adEvogado*. Então não foi difícil entender por que caiu em golpe... Eu teria é vergonha de falar *adEvogado*”; “A palavra ‘advogado’ se pronuncia ‘advogado’, com o ‘d’ mudo. A pronúncia *adevogado* é um erro de ortoépia”; “É advogado com ‘d’ mudo, estúpida!”.\n\nPerguntei ao meu marido, que editou o vídeo, por que ele não me falou nada. Ele respondeu: “Porque eu acho bonitinho. Você é filha de advogado e tem dois irmãos advogados. Desde menina aprendeu a falar assim. Não é fácil falar ‘advogado’ com o ‘d’ mudo. Eu falo advogado com ‘i’: *adivogado*. Será que alguém consegue falar advogado com o ‘d’ mudo?”\n\nDa próxima vez que fizer uma denúncia importante, vou tentar falar *advogado* com o “d” mudo. Será que vou conseguir?\n\n(Adaptado de GOLDENBERG, M. É advogado com d mudo, estúpida! *Folha de São Paulo*, 16/04/2025, B6. Acesso em 29/07/2025.)\n\nConsiderando que consoantes mudas não são seguidas de uma vogal, e levando em conta as duas pronúncias para *advogado* mencionadas no texto, as críticas reproduzidas no segundo parágrafo revelam",
+      "alternativas": {
+        "A": "preconceito linguístico, já que os comentários negativos foram motivados pelo fato de a autora ter um baixo nível de escolaridade.",
+        "B": "desconhecimento linguístico, uma vez que a palavra *advogado* não é pronunciada com “d” mudo no português brasileiro.",
+        "C": "negacionismo linguístico, pois os críticos não reconhecem que a pronúncia *adevogado* é a mais comum na norma culta.",
+        "D": "correção linguística, porque só uma das duas pronúncias ocorre no português, enquanto a outra é um desvio fonético."
+      },
+      "observacoes": "O texto original tem aspas abertas e não fechadas em “AdEvogado?; e em “Um currículo e tanto e falando adevogado?; mantidas como no caderno."
+    },
+    {
+      "numero": 55,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": "t55-56",
+      "enunciado": "Sobre a diferença que o texto estabelece entre *Nós* e *nóix*, podemos afirmar que está relacionada a uma distinção",
+      "alternativas": {
+        "A": "sociocultural, pois esses termos se referem a grupos demarcados distintamente: enquanto *Nós* é bem delimitado, *nóix* diz respeito a uma coletividade difusa, mas marcada por compartilhar vivências específicas.",
+        "B": "gramatical, pois esses termos não pertencem à mesma classe de palavras: enquanto *Nós* é um pronome típico da norma culta, *nóix* é um substantivo popular que serve à expressão da diversidade.",
+        "C": "histórica, pois esses termos caracterizam os indivíduos em função do seu passado: enquanto *Nós* abrange aqueles sem ancestralidade, *nóix* reúne os que assumem os ancestrais como parte de sua história.",
+        "D": "política, pois esses termos revelam uma polarização na forma de se relacionar com o poder: enquanto *Nós* simboliza o apoio à opressão social, *nóix* caracteriza uma rejeição aos poderes instituídos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 56,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": "t55-56",
+      "enunciado": "A partir das análises de Lélia Gonzalez – intelectual, professora universitária, mulher, negra e feminista – conseguimos compreender quão extensa é a introdução de palavras e termos de origens africanas na nossa língua. O Pretuguês é, então, parte da africanização da língua portuguesa brasileira. As pessoas negras escravizadas resistiam de inúmeras formas, lutando, fugindo, se organizando, mas também através da fala, no jeito de agir e na forma de viver que se enraizou na maneira de ser de todo o Brasil. E isso vem da ancestralidade, é o passar do conhecimento através do tempo e das relações de respeito pelo que veio antes, através do cântico antigo, da reza falada, da contação de história que os entrelaços linguísticos vão formando. Muitos vocábulos estão tão acomodados no nosso idioma que sequer paramos para pensar sua origem e seu significado. Mas são de origem africana, como *dengo*, *quitanda*, *cafuné*, *muvuca*, *caçula* e *axé*.\n\n(Adaptado de texto publicado no perfil de Instagram de Mari Canuto em 28/09/2022. Disponível em https://www.instagram.com/mari_canuto/reel/CjD8ALkPw9o/. Acesso em 30/07/2025.)\n\nConsiderando esse texto, a menção ao “Pretuguês de Lélia Gonzalez” no artigo de Marcelo José Derzi Moraes, apresentado na questão anterior, ocorre pelo fato de *nóix* ser",
+      "alternativas": {
+        "A": "um vocábulo introduzido no Brasil pelos africanos escravizados, da mesma forma que outras palavras de origem africana acomodadas na língua.",
+        "B": "uma expressão identitária que serve para demarcar os negros brasileiros e segregá-los dos demais grupos étnico-raciais que compõem o país.",
+        "C": "uma marca linguística associada a um grupo cujos ancestrais reúnem aqueles que contribuíram para a africanização do português brasileiro.",
+        "D": "um traço dialetal característico dos sotaques urbanos brasileiros que são fortemente marcados pela presença de palavras africanas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 57,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O texto a seguir é um trabalho da artista Santarosa Barreto apresentado na exposição *Histórias das mulheres: artistas depois de 2000*, realizada no MASP em 2019.\n\n![Cartaz vermelho com texto em letras maiúsculas pretas: “LUTE A LUTA COMO VOCÊ ACHA QUE DEVE LUTAR E NÃO COMO EXIGEM QUE VOCÊ LUTE QUE VÃO DIZER QUE VOCÊ NÃO SABE O QUE É UMA LUTA QUE VÃO DIZER QUE VOCÊ NÃO TEM FORÇA PARA LUTAR QUE VÃO DIZER QUE ELES É QUE SABEM LUTAR QUE VÃO DIZER QUE ELES LUTAM HÁ MAIS TEMPO DO QUE VOCÊ LUTA QUE VÃO DIZER QUE É MELHOR VOCÊ DESISTIR DA LUTA QUE VÃO DIZER QUE NÃO É ASSIM QUE SE LUTA QUE VÃO DIZER QUE VOCÊ NÃO SABE LUTAR QUE VÃO DIZER QUE VOCÊ NUNCA LUTOU QUE VÃO DIZER QUE VOCÊ NÃO ESTÁ LUTANDO A MESMA LUTA QUE ELES ESTÃO LUTANDO OS SUPOSTOS DONOS DA LUTA.”](fig:p21-f1)\n\n(BARRETO, S. *A luta*. Ikrek Edições, 2019 (reimpressão 2024).)\n\nNesse texto, observamos ocorrências de “que” com diferentes valores, entre eles o",
+      "alternativas": {
+        "A": "explicativo, com o objetivo de listar justificativas que tentam suprimir, em favor de outros, uma dimensão pessoal da luta.",
+        "B": "comparativo, com o objetivo de equiparar a luta motivada por convicções próprias e a luta instigada por quem está no poder.",
+        "C": "condicional, com o objetivo de caracterizar a luta como uma condição para combater aqueles que a querem controlar.",
+        "D": "causal, com o objetivo de reiterar as situações que levam alguém a desistir de promover a luta como forma de resistência individual."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 58,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia os textos 1 e 2.\n\n**Texto 1**\n\nO *image macro* é o mais velho, o mais simples e o mais difundido tipo de meme, provavelmente pela facilidade de criação e difusão, além do inegável apelo visual que permite uma rápida apreensão do seu conteúdo. Ele corresponde a uma estrutura imagético-textual em *frame*¹ único que carrega uma qualidade icônica.\n\nPodemos caracterizar o *image macro* como um texto em caixa alta e em fonte branca, superposto a uma imagem – quase sempre para fins de humor. Esse jogo memético consiste tanto em adicionar o mesmo texto a várias imagens quanto em “remixar” uma mesma imagem com diferentes textos. Os *image macros* têm seus *templates*², bem como suas referências intertextuais extraídas de diversas fontes, como videoclipes, fotografias, desenhos, filmes, seriados, videogames, comerciais, notícias etc.\n\nUsando essa estrutura híbrida, os *image macros* tornam-se uma espécie de imagens-texto em que o imbricamento desses dois elementos ocorre sem subordinação da experiência visual nem da verbal – o pictório complementa o discursivo em um processo de afetação recíproca.\n\n¹ Frame: quadro, moldura; imagem estática que, quando reproduzida em sequência com outras, resultam no efeito de movimento.\n² Template: modelo.\n\n(Adaptado de OLIVERA NETA, J. P. Por uma tipologia dos memes da internet. *Entremeios*, 13(2), 2017. Disponível em https://entremeios.com.puc-rio.br/media/Juracy%20Oliveira.pdf. Acesso em 02/06/2025.)\n\n**Texto 2**\n\n![Meme Nazaré Confusa: quatro quadros com o rosto de uma mulher de expressão confusa sobre um fundo escuro, cercado por fórmulas e figuras matemáticas, como A = πr², C = 2πr, V = 1/3 πr²h, V = πr²h, um cone, um cilindro, um triângulo, tabela de senos e cossenos, integrais e um gráfico](fig:p21-c1)\n\n(Disponível em https://pt.wikipedia.org/wiki/Nazar%C3%A9_Confusa. Acesso em 02/06/2025.)\n\nConsiderando as informações do texto 1, o texto 2 pode ser caracterizado como",
+      "alternativas": {
+        "A": "um típico *image macro*, pois utiliza um único frame para fundir o visual e o verbal, além de adicionar um mesmo elemento textual a várias ocorrências de uma só imagem.",
+        "B": "um meme composto por vários *image macros*, nos quais uma mesma imagem se subordina à linguagem textual matemática em um jogo pictório de afetação recíproca.",
+        "C": "uma experiência verbal e visual que se aproxima do *image macro* no que diz respeito à sua estrutura híbrida, mas se afasta desse tipo por não permitir a rápida apreensão do seu conteúdo.",
+        "D": "uma peça memética que não reúne todos os elementos de um *image macro*, pois apresenta mais de um frame e adiciona conteúdos textuais diferentes a imagens distintas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 59,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O texto 1 a seguir é a versão do meme *Nazaré Confusa* no chamado “Estilo Ghibli”, que é abordado no texto 2, publicado por um portal brasileiro dedicado às animações do Studio Ghibli. Leia os dois textos para responder à questão.\n\n**Texto 1**\n\n![Versão do meme Nazaré Confusa em estilo de animação: quatro quadros com o rosto desenhado de uma mulher de expressão confusa sobre um fundo escuro, cercado por fórmulas e figuras matemáticas, como A = πr², C = 2πr, V = 1/3 πr²h e V = πr²h](fig:p22-c1)\n\nNazaré Confusa no Estilo Studio Ghibli.\n\n(Disponível em https://scc10.com.br/colunistas/um-noob/memes-em-estilo-ghibli-a-nova-febre-que-esta-quebrando-a-internet-e-o-chatgpt/. Acesso em 29/07/2025.)\n\n**Texto 2**\n\n**Studio Ghibli vs. IA:**\n**Por que não usar imagens no “Estilo Ghibli”**\n\nPor Amanda, editora-chefe e responsável pelo Studio Ghibli Brasil.\n\nRecentemente, uma tendência tomou conta das redes sociais: usuários utilizando inteligência artificial para transformar suas fotos em imagens que imitam o estilo do Studio Ghibli. A *trend* ganhou força em março deste ano, com a nova atualização da ferramenta GPT-4.0.\n\nO Studio Ghibli é reconhecido não apenas por seu estilo visual, mas também por sua filosofia artística e valores profundos. Hayao Miyazaki, um dos fundadores do estúdio, sempre defendeu a arte feita à mão e criticou fortemente o uso excessivo da tecnologia na criação de animações. Em entrevistas, ele expressou preocupação com a mecanização da arte, argumentando que a verdadeira expressividade vem do esforço humano, da emoção e da experiência de vida.\n\nA tentativa de emular o “estilo Ghibli” por meio da IA entra em conflito direto com esses princípios. A criação de imagens automatizadas baseadas em padrões estatísticos e grandes volumes de dados contrasta com o meticuloso processo artesanal pelo qual os filmes do estúdio são produzidos. Muitos profissionais da indústria da animação e ilustração já expressaram preocupação com a possibilidade de a IA substituir ou minar o valor do trabalho humano na criação artística.\n\nNós acreditamos na autenticidade e na ética de preservar os artistas e seus trabalhos autorais. A inteligência artificial, ao emular o estilo do Studio Ghibli, fere os princípios da animação tradicional do estúdio e desvaloriza o esforço humano por trás dessas obras. A melhor forma de levar o conhecimento sobre o Studio Ghibli adiante é apreciando e divulgando seus trabalhos originais e buscando conhecer cada vez mais sua história e relevância para o mundo da animação.\n\n(Adaptado de https://studioghibli.com.br/2025/04/02/studio-ghibli-vs-ia-porque-nao-usar-imagens-no-estilo-ghibli/?srsltid=AfmBOoqbHDAfs5C6olUwSRqCzW_YcNrgae5aqqeaTrokiB1yzPh-HP1Y. Acesso em 29/07/2025)\n\nConsiderando as imagens do texto 1 desta questão, o texto 2 pode ser caracterizado como",
+      "alternativas": {
+        "A": "uma nota de repúdio às IAs, por simplificarem o conteúdo das produções do Studio Ghibli, que perdem seus traços irreverentes ao serem utilizadas na geração mecânica de imagens.",
+        "B": "uma carta aberta para incentivar um boicote às IAs, que permitem construir animações mecanizadas de qualquer imagem e emulam as produções do Studio Ghibli no intuito confundir as pessoas.",
+        "C": "um manifesto contrário ao uso de IAs para gerar o estilo Ghibli, por utilizarem recursos automatizados que imitam animações originais do Studio Ghibli, o que desvaloriza a autenticidade artística do estúdio.",
+        "D": "uma resenha crítica sobre a forma como as IAs imitam os recursos artesanais do Studio Ghibli para produzir imagens sem identidade autoral, que depreciam o esforço humano."
+      },
+      "observacoes": "O final da URL da fonte do texto 2 está dividido em duas linhas no caderno (\"...YcNrgae5a-\" e \"qqeaTrokiB1yzPh-HP1Y\"); juntei sem hífen. A fonte termina sem ponto final depois de \"29/07/2025)\", como no original. A alternativa B traz \"no intuito confundir\" (sem \"de\"), como no caderno."
+    },
+    {
+      "numero": 60,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em seu ensaio “A vida não é útil”, Ailton Krenak elege Carlos Drummond de Andrade como um de seus “escudos”. Ele cita a última estrofe de “O Homem; as Viagens”, poema publicado em *As impurezas do Branco* (1973). Reproduzimos, a seguir, a primeira e a segunda estrofe desse poema:\n\n“O Homem; as Viagens\n\nO homem, bicho da Terra tão pequeno\nchateia-se na Terra\nlugar de muita miséria e pouca diversão,\nfaz um foguete, uma cápsula, um módulo\ntoca para a Lua\ndesce cauteloso na Lua\npisa na Lua\nplanta bandeirola na Lua\nexperimenta a Lua\ncoloniza a Lua\nciviliza a Lua\nhumaniza a Lua.\n\nLua humanizada: tão igual à Terra.\nO homem chateia-se na Lua.\nVamos para Marte – ordena a suas máquinas.\nElas obedecem, o homem desce em Marte\npisa em Marte\nexperimenta\ncoloniza\nciviliza\nhumaniza Marte com engenho e arte.\n\nMarte humanizado, que lugar quadrado.\n(...)”.\n\n(ANDRADE, C. D. O Homem; As viagens, *As impurezas do Branco*. In: *Poesia Completa*. Rio de Janeiro, Editora Nova Aguilar, p. 718, 2002.)\n\n(KRENAK, A. *A vida não é útil*. Pesquisa e organização de Rita Carelli. São Paulo: Companhia das Letras, 2020.)\n\nEm relação às reflexões de Ailton Krenak, é correto afirmar que esse trecho do poema",
+      "alternativas": {
+        "A": "responsabiliza a ciência e tecnologia, desgastadas em seus valores, pela corrosão das relações nas sociedades contemporâneas.",
+        "B": "mostra que os Homens, guiados pela ideia de progresso, não adotam uma postura consciente em relação ao seu espaço.",
+        "C": "evidencia que a Terra, desgastada em seus valores, foi superada pelos elementos da conquista espacial.",
+        "D": "identifica a aniquilação das sociedades contemporâneas nos programas de governos persuadidos pelo progresso."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 61,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia os textos 1 e 2.\n\n**Texto 1**\n\nAos óculos\n\nSó fingem que põem\no mundo ao alcance\ndos meus olhos míopes.\n\nNa verdade, me exilam\ndele com filtrar-lhe\na menor imagem.\n\nJá não vejo as coisas\ncomo são: vejo-as como eles querem\nque as veja.\n\nLogo, são eles que veem,\nnão eu que, mesmo cônscio\ndo logro, lhes sou grato\n\npor anteciparem em mim\no Édipo curioso\nde suas próprias trevas.\n\n(PAES, J. P. *Prosas seguidas de Odes mínimas*. São Paulo: Companhia das Letras, p. 63, 1992.)\n\n**Texto 2**\n\n“Do grego *odé* e do latim *ōde* (ou ōda), a <u>ode</u> era, na antiguidade clássica, um poema destinado a ser cantado, ou um canto alegre, triste ou lírico. Era um poema de alguma extensão, de elevado assunto ou nobre, expressando sentimentos ilustres, em homenagem a algo ou a alguém. Apresentava também a elaboração estrófica, bem como estilo formal nobre e cerimonioso”.\n\n(Adaptado do verbete “Ode”, elaborado por Ana Ladeira. In: CEIA, C. *E-Dicionário de termos literários* (projeto abrigado pela Universidade Nova de Lisboa). Disponível em https://edtl.fcsh.unl.pt/encyclopedia/ode. Acesso em 31/05/2025.)\n\nÉ correto afirmar que a ode mínima de José Paulo Paes reelabora a definição clássica de “ode” ao",
+      "alternativas": {
+        "A": "respeitar a elevação do assunto, a nobreza do tom e os sentimentos ilustres.",
+        "B": "utilizar-se de um tom elevado e cerimonioso para a homenagem.",
+        "C": "dirigir-se a um objeto, vinculando-se ao gênero canção popular.",
+        "D": "celebrar um objeto fundamental, os óculos, e não algo/alguém ilustre."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 62,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No conto “Réplica”, que integra a coletânea *No seu pescoço*, de Chimamanda Adichie, a protagonista vive\n\n(ADICHIE, C. N. *No seu pescoço*. Tradução: Júlia Romeu. São Paulo: Companhia das Letras, 2017.)",
+      "alternativas": {
+        "A": "o choque cultural, consequente das diásporas africanas contemporâneas, reelaborado pelas observações de Nkem.",
+        "B": "as contradições culturais, consequentes do processo de recolonização da Nigéria, expressas pelos negócios ilícitos de Obiora.",
+        "C": "a opressão feminina, consequente da falência do modelo africano de sororidade, como no relato de Ijemamaka.",
+        "D": "o sentimento de nacionalismo, consequente das saudades de práticas culturais, como no estranhamento dos vizinhos brancos (povo *oyibo*)."
+      },
+      "observacoes": "No caderno a referência (ADICHIE...) vem impressa depois das alternativas; coloquei no fim do enunciado."
+    },
+    {
+      "numero": 63,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia a citação a seguir, extraída do conto “Pera, uva ou maçã?”, publicado no livro *Morangos mofados*, de Caio Fernando Abreu, e assinale a alternativa correta sobre o excerto.\n\nFoi então que vi aquelas ameixas e achei tão bonitas e tão vermelhas que pedi um quilo e era minha última grana certo porque meus pais não me dão nada e daí eu pensei assim se comprar essas ameixas agora vou ter que voltar a pé para casa mas que importa volto a pé mesmo pode ser até que acorde um pouco e aquela coisa lá longe volte pra perto de mim e então eu vinha caminhando devagarinho as ameixas eu não conseguia parar de comer sabe já tinha comido acho que umas seis estava toda melada quando dobrei a esquina aqui da rua e ia saindo um caixão de defunto do sobrado amarelo na esquina certo acho que era um caixão cheio quer dizer com defunto dentro porque ia saindo e não entrando certo e foi bem na hora que eu dobrei não deu tempo de parar nem de desviar daí então eu tropecei no caixão e as ameixas todas caíram assim paf! na calçada e foi aí que eu reparei naquelas pessoas todas de preto e óculos escuros e lenços no nariz e uma porrada de coroas de flores devia ser um defunto muito rico certo e aquele carro fúnebre ali parado e só aí eu entendi que era um velório.\n\n(ABREU, C. F. *Morangos Mofados*. 9ª. ed. São Paulo: Companhia das Letras, p. 105-106, 2015.)",
+      "alternativas": {
+        "A": "A presença de orações como “foi então que vi”, “foi aí que eu reparei” e “só aí eu entendi” cria um efeito de retardamento da narrativa, o que reflete o estado psicológico de apatia da personagem que fala.",
+        "B": "A ausência de pontuação cria um efeito de aceleração da narrativa, o que reflete o estado psicológico de ansiedade da personagem que fala.",
+        "C": "A presença de orações como “foi então que vi”, “foi aí que eu reparei” e “só aí eu entendi” rompe a sequência temporal da narrativa, prejudicando o seu desenvolvimento lógico.",
+        "D": "A ausência de pontuação desorganiza a sequência das ações da personagem, o que reflete sua confusão e causa uma ambiguidade de sentido em sua narrativa."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 64,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O sineiro era um preto velho e doido. Não fazia mais que tocar o sino da capela, para a missa, aos domingos. O resto do tempo vivia calado ou resmungando. Ninguém lhe falava, embora fosse manso. [...] Com a razão, perdera a convivência dos mais. Vivia entregue aos pensamentos solitários, mergulhado na inconsciência e na solidão. A moça representava aos olhos dele alguma coisa mais do que uma simples criatura, era a sociedade humana, e uma sombra de sombra da consciência antiga.\n\n(ASSIS, M. de. *Casa Velha*. Apresentação e notas de Paulo Franchetti. Campinas, SP: Editora da UNICAMP, p. 85-86, 2023.)\n\nNo enredo de Casa Velha, é possível afirmar que a cena em que aparece a figura do sineiro cumpre o papel de",
+      "alternativas": {
+        "A": "mostrar a solidariedade de classe desenvolvida por Lalau que, sendo uma agregada, identifica seus interesses com os do velho sineiro.",
+        "B": "exibir o caráter caridoso de Dona Antônia, que mantém o escravizado sob seus cuidados mesmo após deixar de ser útil como trabalhador.",
+        "C": "expor a Dona Antônia o sentimento existente entre Lalau e seu filho, enquanto ele observa a compaixão da moça pelo sineiro.",
+        "D": "sugerir a complexidade da organização social característica da Casa Velha, na qual se via representada toda a sociedade humana."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 65,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia os versos da canção abaixo e assinale a alternativa correta.\n\nALVORADA\n\nAlvorada lá no morro, que beleza,\nNinguém chora, não há tristeza,\nNinguém sente dissabor.\nO sol colorindo é tão lindo, é tão lindo.\nE a natureza sorrindo, tingindo, tingindo.\nVocê também me lembra a alvorada\nQuando chega iluminando\nMeus caminhos tão sem vida.\nE o que me resta\né bem pouco, quase nada,\ndo que ir assim vagando\nnuma estrada perdida.\n\n(CARTOLA. Alvorada. In: *Cartola*. Rio de Janeiro: Marcus Pereira Discos, 1974.)",
+      "alternativas": {
+        "A": "O eu-lírico enfatiza a harmonia entre a cena idílica do morro no momento da alvorada e a alegria de sua vida junto à pessoa amada.",
+        "B": "O eu-lírico enfatiza um contraste entre a alegria da alvorada no morro e a pobreza das pessoas que habitam aquele espaço.",
+        "C": "A alvorada no morro é, para o eu-lírico, como a imagem da pessoa amada, que lhe traz alegria, apesar de sua desilusão e desesperança.",
+        "D": "A alvorada no morro funciona, no poema, como imagem do futuro que pode ser transformado pelo amor, apesar das condições de vida difíceis."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 66,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O desafio de ensinar como as reações químicas acontecem está no fato de que elas geralmente ocorrem por meio de sinais detectáveis pelos nossos sentidos, enquanto que sua explicação geralmente ocorre em um nível invisível ou abstrato. Johnstone, pesquisador escocês em educação científica, propôs que, para se entender um fenômeno do ponto de vista químico, qualquer pessoa precisa ser capaz de pensá-lo em três domínios distintos: o macroscópico, o submicroscópico e o simbólico. A seguir, a figura mostra o triângulo de Johnstone que correlaciona os três domínios, identificados como (1), (2) e (3). Já as ilustrações apresentam os domínios de forma aleatória.\n\n![Triângulo de Johnstone, desenhado como uma escada em forma de triângulo com pessoas subindo os degraus, com os rótulos (1) Macroscópico no vértice superior, (2) Submicroscópico no vértice inferior esquerdo e (3) Simbólico no vértice inferior direito, ao lado de um cavalete com um quadro](fig:p24-c1)\n\n(Adaptado de https://edu.rsc.org/feature/develop-deeper-understanding-with-models/30105 19.article. Acesso em 09/10/2025.)\n\n![Ilustrações dos domínios, em oito quadros rotulados de A a H. A: três frascos com balões vermelhos de tamanhos crescentes. B: fórmulas estruturais de moléculas, o símbolo O2, uma seta e a fórmula H2O. C: gráfico de energia em função do progresso da reação e esferas coloridas em colisão. D: fotografia de um incêndio com fumaça preta sobre tanques. E: um triângulo com uma chama e a equação CH4 + 2O2 = CO2 + 2H2O. F: rede cristalina cúbica de esferas. G: modelos de esferas representando moléculas, com os sinais de adição e uma seta. H: a equação C2H5OH(l) + 3O2(g) = 2CO2(g) + 3H2O(l)](fig:p24-c2)\n\nCom base nas informações do enunciado, da figura e das ilustrações, é correto afirmar que os domínios (1), (2) e (3) do triângulo de Johnstone são representados respectivamente pelas ilustrações",
+      "alternativas": {
+        "A": "(F), (H) e (G), enquanto a ilustração (C) apresenta uma combinação dos domínios simbólico e submicroscópico.",
+        "B": "(G), (D) e (A), enquanto a ilustração (E) apresenta uma combinação dos domínios simbólico e submicroscópico.",
+        "C": "(B), (A) e (H), enquanto a ilustração (E) apresenta uma combinação dos domínios simbólico e submicroscópico.",
+        "D": "(D), (G) e (H), enquanto a ilustração (C) apresenta uma combinação dos domínios simbólico e submicroscópico."
+      },
+      "observacoes": "Na fonte da figura, o endereço sai impresso \"...models/30\" em uma linha e \"105 19.article\" na seguinte (com um espaço dentro de \"105 19\"); transcrevi como \"30105 19.article\"."
+    },
+    {
+      "numero": 67,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os recifes de corais são ecossistemas ricos em biodiversidade, sendo essenciais para a pesca e proteção costeira. Essas estruturas são formadas por pólipos com esqueleto externo de carbonato de cálcio e sofrem degradação nas últimas décadas devido às atividades humanas no meio ambiente. O infográfico a seguir representa o efeito da ação humana sobre um dos equilíbrios químicos da água dos oceanos pela emissão de $\\text{CO}_2$ atmosférico ($\\text{CO}_2$ atm). Dados: $[\\text{CO}_2]\\text{atm}$ = concentração de $\\text{CO}_2$ atmosférico\n\n![Infográfico com uma cidade e uma fábrica emitindo CO2 para a atmosfera e o oceano com recifes de coral. Reações indicadas: CO2 + H2O ⇒ HCO3− + H+; H+ + A ⇒ HCO3−; B ⇒ Ca2+ + C, com a indicação coral. Um gráfico com eixos X e Y, de 0 a 800, mostra uma curva decrescente](fig:p25-c3)\n\n(Adaptado de HOEGH-GULDBERG et al. *Science*, v. 318, p.1737-1742, 2007.)\n\nCom base nas informações do enunciado e do infográfico apresentado, é correto afirmar que as espécies **A**, **B** e **C** são, respectivamente,",
+      "alternativas": {
+        "A": "$\\text{CO}_2$, $\\text{CO}_3^{-2}$ e $\\text{CaCO}_3$, enquanto os eixos X e Y no infográfico representam respectivamente $[\\text{CO}_3^{-2}]$ e $[\\text{CO}_2]\\text{atm}$. Globalmente, o aumento da $[\\text{CO}_2]\\text{atm}$ provoca um aumento do pH dos oceanos e, consequentemente, uma maior degradação dos corais.",
+        "B": "$\\text{CO}_3^{-2}$, $\\text{CaCO}_3$ e $\\text{CO}_3^{-2}$, enquanto os eixos X e Y no infográfico representam respectivamente $[\\text{CO}_2]\\text{atm}$ e $[\\text{CO}_3^{-2}]$. Globalmente, o aumento da $[\\text{CO}_2]\\text{atm}$ provoca uma diminuição do pH dos oceanos e, consequentemente, uma maior degradação dos corais.",
+        "C": "$\\text{CO}_2$, $\\text{CaCO}_3$ e $\\text{CO}_3^{-2}$, enquanto os eixos X e Y no infográfico representam respectivamente $[\\text{CO}_3^{-2}]$ e $[\\text{CO}_2]\\text{atm}$. Globalmente, o aumento da $[\\text{CO}_2]\\text{atm}$ provoca uma diminuição do pH dos oceanos e, consequentemente, uma menor degradação dos corais.",
+        "D": "$\\text{CO}_3^{-2}$, $\\text{CaCO}_3$ e $\\text{CO}_3^{-2}$, enquanto os eixos X e Y no infográfico representam respectivamente $[\\text{CO}_3^{-2}]$ e $[\\text{CO}_2]\\text{atm}$. Globalmente, o aumento da $[\\text{CO}_2]\\text{atm}$ provoca um aumento do pH dos oceanos e, consequentemente, uma menor degradação dos corais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 68,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Aviões são os únicos meios de transporte que cruzam continentes em um dia. Apesar dos avanços em eficiência energética, as aeronaves contribuem com 3,5% do aquecimento global. Por isso, existe o interesse em substituir o querosene usado por essas aeronaves por hidrogênio, com destaque para o uso do hidrogênio líquido combustível. A tabela a seguir apresenta dados desses dois tipos de combustíveis na aviação.\n\n| Combustível | Energia combustão ($\\text{kJ}\\cdot\\text{mol}^{-1}$) | Densidade do líquido ($\\text{g}\\cdot\\text{cm}^{-3}$) | Massa molar ($\\text{g}\\cdot\\text{mol}^{-1}$) |\n|---|---|---|---|\n| Querosene* | 6745 | 0,804 | 153 |\n| Hidrogênio | 240 | 0,071 | 2 |\n\n* valores médios e aproximados.\n\nCaracterísticas como massa e volume da aeronave são fatores importantes para seu desempenho. Levando em conta essa informação, para uma <u>mesma quantidade de energia</u> gerada pelo combustível, é correto afirmar que o <u>hidrogênio</u> é melhor que o querosene, pois",
+      "alternativas": {
+        "A": "sua razão energia por volume é maior.",
+        "B": "o volume utilizado será menor.",
+        "C": "sua razão energia por massa é maior.",
+        "D": "a massa utilizada será maior."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 69,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Diante das mudanças climáticas, muitos químicos desempenham um papel estratégico no enfrentamento desse problema. Uma dessas ações é o esforço no desenvolvimento de recursos que removem $\\text{CO}_2$ por meio da captura direta do ar. Nesse sentido, os químicos se dedicam a produzir materiais que, ao mesmo tempo, possam capturar o $\\text{CO}_2$ em situações diversas em quantidades e velocidades altas. Um exemplo disso é a captura cumulativa de $\\text{CO}_2$ (em mmol) por grama de tetraperoxotitanato de potássio $\\text{K}_4\\text{Ti}(\\text{O}_2)_4$ em função do tempo. Esses resultados são parcialmente mostrados no gráfico a seguir.\n\n![Gráfico da captura cumulativa de CO2, em mmol/g, de 0,0 a 3,0, em função do tempo, em minutos, de 0 a 65, com uma curva crescente](fig:p25-c2)\n\n(Adaptado de BACH, K. et al. *ChemRxiv*, DOI: 10.26434/chemrxiv-2024-xb06z-v2. Acesso em 09/10/2025.)\n\nDado parcial: Massa molar: $\\text{K}_4\\text{Ti}(\\text{O}_2)_4 = 332{,}3\\ \\text{g}\\cdot\\text{mol}^{-1}$\n\nConsiderando as informações do gráfico, é correto afirmar que após 65 minutos de adsorção: (i) a razão molar [mol $\\text{CO}_2$ por mol de $\\text{K}_4\\text{Ti}(\\text{O}_2)_4$] e (ii) o aumento percentual de massa do sólido serão aproximadamente de",
+      "alternativas": {
+        "A": "(i) 3 e (ii) 13% em relação ao inicial.",
+        "B": "(i) 1 e (ii) 13% em relação ao inicial.",
+        "C": "(i) 3 e (ii) 30% em relação ao inicial.",
+        "D": "(i) 1 e (ii) 30% em relação ao inicial."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 70,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A produção industrial de barrilha (carbonato de sódio) é majoritariamente feita pelo processo Solvay. A barrilha é um dos compostos químicos inorgânicos mais importantes globalmente, sendo vital para a fabricação de vidro, sabão, detergente, papel, entre muitos outros produtos. As reações envolvidas no processo Solvay, que ocorrem em fluxo contínuo, estão representadas esquematicamente no fluxograma a seguir.\n\n![Fluxograma do processo Solvay com setas ligando as substâncias NaCl (saturado), NH3 (g), CO2 (g), CaCO3 (s), NaHCO3 (s), NH4Cl (aq), CaO (s), Na2CO3 (s), H2O (vap) e CaCl2 (s)](fig:p26-f1)\n\n(Adaptado de ARAÚJO A. L. et al. *Química Nova*, v. 21, n. 1, p. 114, 1998.)\n\nNesse processo de fabricação, após o fluxo contínuo de produção ser iniciado, é necessário adicionar para sua manutenção",
+      "alternativas": {
+        "A": "salmoura e calcário, pois a amônia é totalmente regenerada durante o processo.",
+        "B": "gás carbônico e salmoura, pois a amônia é totalmente regenerada durante o processo.",
+        "C": "calcário e amônia, pois o gás carbônico é totalmente regenerado durante o processo.",
+        "D": "amônia e salmoura, pois o gás carbônico é totalmente regenerado durante o processo."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 71,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A Agência Nacional do Petróleo (ANP) é responsável por implementar a política nacional de combustíveis e proteger os interesses dos consumidores quanto a preço, qualidade e oferta de produtos, além de especificar a qualidade dos derivados de petróleo, do gás natural e de seus derivados e dos biocombustíveis. Nesse sentido, a resolução ANP 907, de 2022, especifica algumas características do Etanol Anidro Combustível (EAC), do Etanol Hidratado Combustível (EHC) e do Etanol Hidratado Combustível Premium (EHCP). Algumas dessas características estão na tabela a seguir e nas alternativas.\n\n| Combustível | Massa Específica ($\\text{kg/m}^3$) | Teor Alcoólico (% massa) |\n|---|---|---|\n| EAC | 791,5 (**a**) | 99,3 (**b**) |\n| EHC | (**c**) | entre 92,5 e 94,6 |\n| EHCP | (**d**) | entre 95,5 e 96,5 |\n\n(Adaptado da Resolução ANP nº 907 de 18/11/2022.)\n\nConsiderando que água e etanol formam uma mistura ideal, para preencher corretamente essa tabela, as letras **a**, **b**, **c** e **d** devem corresponder, respectivamente, a",
+      "alternativas": {
+        "A": "máximo; mínimo; entre 805 e 811 e entre 800 e 803.",
+        "B": "mínimo; máximo; entre 805 e 811 e entre 800 e 803.",
+        "C": "máximo; mínimo; entre 800 e 803 e entre 805 e 811.",
+        "D": "mínimo; máximo; entre 800 e 803 e entre 805 e 811."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 72,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma patente é uma concessão pública, conferida pelo Estado, que garante ao seu titular a exclusividade de explorar comercialmente a sua criação. É necessário que a patente seja de uma criação inédita. Para ser explorada comercialmente, deve apresentar vantagens para quem vai adquiri-la e utilizá-la na produção a que se propõe. É com base nesses pressupostos que cientistas entraram com pedido de patente para um processo de produção de lítio a partir do minério $\\alpha$-espodumênio ($\\alpha\\text{-LiAlSi}_2\\text{O}_6$). Para explicar o seu novo método e compará-lo a um método convencional, os pesquisadores apresentaram a figura a seguir.\n\n![Figura com duas colunas, Método Convencional e Método Proposto, separadas por uma linha tracejada. Convencional: α-LiAlSi2O6, (i) Calcinação 1100 °C, β-LiAlSi2O6, (ii) Calcinação com H2SO4 325 °C, (iii) Lixiviação aquosa 90 °C, (iv) CO3 2-, Li2CO3. Proposto: α-LiAlSi2O6, (i) Tratamento Térmico NaOH 325 °C, Silicato de sódio e lítio, (ii) Lixiviação aquosa temperatura ambiente, (iii) CO3 2-, Li2CO3. Cada etapa é ilustrada com estruturas cristalinas](fig:p26-c1)\n\n(Adaptado de SUBASINGHE, S.A.D.T. et al. *Chemical Engineer Journal*, v. 505, n. 159661, 2025.)\n\nConsiderando <u>apenas</u> essas informações, é correto afirmar que, em relação ao método convencional, esse novo método é",
+      "alternativas": {
+        "A": "mais rápido e apresenta maior rendimento, porém consome mais carbonato na etapa final de separação do lítio.",
+        "B": "mais intensivo em energia e com maior consumo de carbonato na etapa final de separação do lítio, porém com maior rendimento.",
+        "C": "mais lento e apresenta menor rendimento, porém consome menos carbonato na etapa final de separação do lítio.",
+        "D": "menos intensivo em energia e com menor consumo de carbonato na etapa final de separação do lítio, porém nada se pode afirmar acerca do rendimento."
+      },
+      "observacoes": "A referência (Adaptado de SUBASINGHE...) está impressa na vertical, na margem direita da figura; transcrita como parágrafo depois da figura."
+    }
+  ]
+}
