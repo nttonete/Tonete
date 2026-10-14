@@ -1,0 +1,472 @@
+{
+  "edicao": "fuvest-2026-1",
+  "textos_base": {
+    "t58-59": "Nearly a century ago, Edwin Hubble discovered that the universe is getting larger. Modern measurements of how fast it is expanding disagree, however, suggesting that our understanding of the laws of physics might be off. Everyone expected the sharp vision of the James Webb Space Telescope to bring the answer into focus. But a long-awaited analysis of the telescope’s observations released late Monday evening once again gleans conflicting expansion rates from different types of data, while homing in on possible sources of error at the heart of the conflict.\n\nTwo rival teams have led the effort to measure the cosmic expansion rate, which is known as the Hubble constant, or $H_0$. One of these teams, led by Adam Riess of Johns Hopkins University, has consistently measured $H_0$ to be about 8 percent higher than the theoretical prediction for how fast space should be expanding, based on the cosmos’s known ingredients and governing equations. This discrepancy, known as the Hubble tension, suggests that the theoretical model of the cosmos might be missing something—some extra ingredient or effect that speeds up cosmic expansion.\n\nRiess and his team released their latest measurement of $H_0$ based on Webb data this spring, getting a value that agrees with their earlier estimates.\n\nBut for years a rival team led by Wendy Freedman of the University of Chicago has urged caution, arguing that cleaner measurements were needed. Her team’s own measurements of $H_0$ have invariably landed closer than Riess’ to the theoretical prediction, implying that the Hubble tension may not be real.\n\nSince the Webb telescope started taking data in 2022, the astrophysics community has awaited Freedman’s multipronged analysis using the telescope’s observations of three types of stars. Now, the results are in: Two types of stars yield $H_0$ estimates that align with the theoretical prediction, while the third—the same type of star Riess uses—matches his team’s higher $H_0$ value.\n\nDisponível em https://wired.com/. 08 Sep 2024. Adaptado."
+  },
+  "questoes": [
+    {
+      "numero": 31,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O processo de corrosão do aço é favorecido em ambientes úmidos e ácidos. Para evitar a corrosão de superfícies de aço é comum utilizar óleos para impedir o contato da umidade do ar com a superfície. Nos casos em que o uso de óleo não é conveniente, é possível criar uma camada de NaOH(s) na superfície do metal aplicando uma solução aquosa relativamente concentrada desta base sobre a ferramenta e deixando a solução secar por completo. Esse tipo de tratamento com hidróxido de sódio é efetivo em ambientes com elevada acidez pois, caso a água entre em contato com a superfície tratada, ela",
+      "alternativas": {
+        "A": "será repelida pela camada hidrofóbica de hidróxido de sódio, evitando o contato direto da água com o metal e sua oxidação.",
+        "B": "solubilizará o hidróxido de sódio, que neutralizará o ácido presente na água que poderia induzir o processo de oxidação na superfície do metal.",
+        "C": "será oxidada pelo hidróxido de sódio, gerando sua forma reduzida que, em contato com a superfície do metal, impede o processo de corrosão.",
+        "D": "gerará um acúmulo de água na superfície hidrofílica da camada de hidróxido de sódio, impedindo sua solubilização e a consequente formação de ácido.",
+        "E": "reagirá diretamente com o sódio do hidróxido de sódio, já que este atuará como metal de sacrifício, sofrendo oxidação e protegendo a superfície metálica."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 32,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O produto conhecido como descalcificante, comumente composto por ácido cítrico, é usado para desentupir os dutos internos de eletrodomésticos como cafeteiras e ferros de passar roupa a vapor. O entupimento frequentemente é causado pelo depósito de calcário ($\\text{CaCO}_3$), produto da reação entre $\\text{CO}_2$ e íons cálcio presentes na água. O equilíbrio de formação do carbonato de cálcio está representado a seguir:\n\n$$\\text{Ca}^{2+}(\\text{aq}) + \\text{CO}_2(\\text{g}) + \\text{H}_2\\text{O}(\\text{l}) \\rightleftharpoons \\text{CaCO}_3(\\text{s}) + 2\\,\\text{H}^+(\\text{aq}).$$\n\nSobre os processos de entupimento por carbonato de cálcio e a descalcificação desses eletrodomésticos, é correto afirmar que",
+      "alternativas": {
+        "A": "a diminuição do pH pela presença do ácido cítrico leva à reação de descalcificação.",
+        "B": "a reação de descalcificação com ácido cítrico desloca o equilíbrio porque consome $\\text{CO}_2$.",
+        "C": "ambientes ricos em $\\text{CO}_2$ causam menos entupimento dos eletrodomésticos.",
+        "D": "a utilização de água com maior pH nos eletrodomésticos causa menos entupimento.",
+        "E": "o ácido cítrico age como um catalisador, pois não participa do equilíbrio de descalcificação."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 33,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma pesquisa realizada na Universidade de São Paulo sobre a sustentabilidade do setor têxtil destaca que “cerca de 4 milhões de resíduos têxteis são descartados todos os anos nos domicílios brasileiros, e o Brasil não tem gestão de resíduos. No ano passado, cada domicílio do País descartou cerca de 44 quilos de roupas e calçados. A estimativa é que o setor têxtil seja responsável por 2% a 8% das emissões de gases de efeito estufa em todo o mundo.”\n\nDisponível em https://jornal.usp.br/. Adaptado.\n\nOutro dado que corrobora com a pesquisa é o crescimento em 60% da produção de roupas nos últimos 15 anos, com custo barateado em 36%, significando um aumento considerável do consumo deste setor, no mundo. Além disso, a produção de algodão, apesar de ocupar 2,5% das áreas cultivadas no mundo, utiliza 25% dos inseticidas e 10% dos herbicidas. E, também, utiliza aproximadamente 11 bilhões de litros de água, para a lavagem e tingimento dos tecidos. Assim, segundo a Organização Mundial de Saúde, a cadeia produtiva da indústria têxtil é um setor econômico dos mais poluentes.\n\n*Géopolitique: enjeux internationaux*, 2022. Adaptado.\n\nCom base nos textos, qual alternativa explica o impacto ambiental do consumismo no setor da indústria têxtil?",
+      "alternativas": {
+        "A": "O crescimento da indústria têxtil brasileira tem sido acompanhado por avanços significativos na gestão ambiental, como no tratamento de resíduos, uma vez que o descarte médio de 44 quilos de roupas e calçados por família favorece as iniciativas de gestão de resíduos e a redução das emissões de gases de efeito estufa.",
+        "B": "Nos últimos anos, a indústria têxtil teve um aumento significativo na produção de roupas, que resultou na diminuição no custo das peças em 36% e proporcionou o aumento do consumo no setor de vestuário em todo o mundo, tornando essencial a discussão de políticas de gestão da cadeia produtiva e de resíduos.",
+        "C": "A produção de algodão ocupa a maior parte de área cultivável do mundo e cresceu 60% nos últimos anos. Especialmente no Brasil, esse aumento vem gerando empregos no setor têxtil, tanto no campo quanto na cidade, impulsionando a capacidade de consumo da população.",
+        "D": "Nas últimas décadas, o setor têxtil brasileiro enfrentou desafios com a redução da produção de algodão, o que limitou o crescimento da indústria e restringiu o acesso da população ao consumo de roupas e calçados. Mesmo assim, o consumo está estimado em 44 quilos por família ao ano.",
+        "E": "A produção do setor têxtil, tanto no Brasil quanto no mundo, vem reduzindo o impacto ambiental devido ao uso de bilhões de litros de água no cultivo do algodão, o que dilui os herbicidas e inseticidas, consequentemente reduzindo a poluição atmosférica, do solo e dos recursos hídricos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 34,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "As cores das águas dos rios são resultado de transformações físico-químicas, indicando fatores como os sólidos (material inorgânico) em suspensão (SIS) e o material orgânico dissolvido (MOD). A classificação científica das águas amazônicas mais utilizada é a de Harald Sioli (1950), que identificou três tipos: Brancas (alta concentração de SIS), Pretas (alta concentração de MOD) e Claras (baixas concentrações de SIS e MOD). Pesquisas mais recentes que analisam dados hidroquímicos têm indicado uma composição química mais variada nas águas amazônicas, dividindo os rios da região também em dois tipos intermediários: A (subtipo das águas claras) e B (subtipo que está entre as águas brancas e pretas).\n\n![Mapa dos principais rios da Região Hidrográfica Amazônica, com a classificação das águas dos rios em Pretas, Brancas, Claras, Intermediárias tipo A e Intermediárias tipo B](fig:p15-c3)\n\n*Atlas da Amazônia Brasileira*, 2025. Adaptado.\n\nA partir das informações do mapa e do texto, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "As águas Pretas com alto teor orgânico na Amazônia são provenientes dos processos erosivos e localizam-se em áreas de Terras Pretas de Índio, o que caracteriza a coloração escura exclusiva da sub bacia do Rio Negro, diferindo das demais regiões amazônicas.",
+        "B": "A baixa concentração de SIS e MOD nas águas Claras é resultado dos garimpos ilegais na Amazônia, devido à utilização de mercúrio e dos agrotóxicos nos cultivos da soja nas regiões onde há maior desmatamento.",
+        "C": "A classificação intermediária do tipo A tem características hidroquímicas alteradas devido ao impacto direto e indireto de mudanças no uso do solo, além de grandes projetos de infraestrutura em toda parte norte-oriental da bacia amazônica.",
+        "D": "As águas intermediárias tipo B, com baixa concentração SIS e MOD, localizadas sobretudo no Baixo Amazonas, possuem essas características devido às mudanças no uso do solo nas últimas décadas e por ser uma área com muitos igarapés.",
+        "E": "As águas Brancas, como as do Rio Solimões, com alta concentração de SIS, têm essas características hidroquímicas devido aos processos erosivos de regiões a montante, como, por exemplo, as nascentes do rio Amazonas na Cordilheira dos Andes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 35,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em regiões montanhosas e com clima tropical, é comum a ocorrência de movimentações de massa associados a volumes elevados de chuva. Pelos seus efeitos destrutivos, principalmente em áreas ocupadas de forma irregular, tornam-se foco de estudos de identificação, caracterização, monitoramento e prevenção. Observe a seguir um exemplo de sistema de monitoramento:\n\n![Mapa do sistema de monitoramento de corrida de detritos, com a localização de pluviômetro, geofones, sensor de impacto, sonar de volume, cabo sensor, semáforo de aviso de fechamento da via, residências, curvas de nível, hidrografia, rodovia Anchieta (SP-150) e rede de dutos](fig:p15-c4)\n\n| Sensores | Função |\n|---|---|\n| Pluviômetro | Medir as precipitações |\n| Geofones | Medir as vibrações no solo |\n| Sonar de volume | Medir o nível dos rios |\n| Cabo sensor | Registrar a passagem de detritos |\n| Sensor de impacto | Registrar a força da corrida de detritos |\n\n*Corridas de Detritos no Brasil*, FEBRAGEO. 2022. Adaptado.\n\nSobre o motivo da localização dos sensores, assinale a alternativa correta:",
+      "alternativas": {
+        "A": "O sensor de impacto instalado próximo à estrada e no setor mais elevado do terreno permite detectar a passagem de folhas, troncos e matacões.",
+        "B": "O monitoramento na área de fundo de vale é necessário para medição do volume e velocidade da corrida de detritos, com o intuito da prevenção de riscos.",
+        "C": "O pluviômetro instalado na porção menos elevada do terreno é suficiente para emissão de alerta de risco para a população residente no local.",
+        "D": "O sonar de volume instalado próximo às residências e na parte elevada do terreno ajuda a detectar a velocidade com a qual os detritos atingem os objetos.",
+        "E": "A correlação entre cabo sensor e geofones instalados nas porções média e inferior da drenagem permite detectar a composição da corrida de detritos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 36,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Para realizar o cálculo da diferença de altitude (altura) entre dois pontos A e B, localizados no terreno, um técnico utilizou uma Estação Total (ET), equipamento usado para medir a diferença entre níveis de pontos distintos. Ele posicionou o equipamento, que tem 1,6 m de altura, em um ponto M, equidistante na horizontal dos pontos A e B, a 40 m de cada um, nos quais estão os prismas de leitura (miras), conforme a figura a seguir:\n\n![Esquema do terreno com a estação total no ponto M entre as miras nos pontos A e B, com os ângulos alfa A (descendente, em direção a A) e alfa B (ascendente, em direção a B) e a leitura h B na mira do ponto B](fig:p16-f1)\n\nImagem sem escala\n\nAdmitindo-se que o ângulo de inclinação descendente, $\\alpha_A$, é $7^\\circ$ e o ângulo de inclinação ascendente, $\\alpha_B$, é $5^\\circ$ e que a leitura no prisma, $h_B$, no ponto B foi de 3,60 m, determine a diferença de altitude (altura), em metros, entre os pontos A e B.\n\n**Note e adote:**\n$\\tan(5^\\circ) \\cong 0.087$ e $\\tan(7^\\circ) \\cong 0.122$",
+      "alternativas": {
+        "A": "1,60",
+        "B": "2,80",
+        "C": "3,16",
+        "D": "3,96",
+        "E": "4,80"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 37,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Engenheiros estavam mapeando um terreno para construção de um empreendimento com quatro prédios em formato cilíndrico distribuídos em torno de uma praça com o formato quadrado. Para a construção dos prédios, os engenheiros demarcaram os vértices da praça nos pontos $A = (0,0)$, $B = (8,0)$, C e D, em sistema de coordenadas cartesianas onde cada unidade corresponde a um metro.\n\nSabendo-se que a borda da seção circular de cada prédio tangencia cada lado do quadrado no seu ponto médio, qual deve ser a equação da circunferência do prédio que tem uma distância de 10 m do seu centro até o centro do quadrado e que passa pelo ponto de tangência $P$, conforme a figura?\n\n![Quatro circunferências em torno de um quadrado ABCD, com os pontos A(0,0), B(8,0), C, D e P indicados](fig:p16-c3)\n\nImagem sem escala",
+      "alternativas": {
+        "A": "$(x-14)^2 + (y-4)^2 = 36$",
+        "B": "$(x-18)^2 + (y-4)^2 = 100$",
+        "C": "$(x-8)^2 + (y-24)^2 = 36$",
+        "D": "$x^2 + y^2 = 36$",
+        "E": "$(x-4)^2 + (y-24)^2 = 100$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 38,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No censo do IBGE 2022 foi possível perceber que, do total de 203,1 milhões de pessoas da população brasileira, 177,5 milhões (87,4%) residiam em áreas urbanas, enquanto 25,6 milhões viviam em áreas rurais. Em relação a 2010, quando o grau de urbanização foi de 84,4%, houve aumento de 16,6 milhões de pessoas morando em áreas urbanas e queda de 4,3 milhões vivendo em áreas rurais.\n\nJá em relação à distribuição da população brasileira, o Censo 2022 trouxe uma importante constatação: o crescimento das cidades médias. Cabem nessa classificação do IBGE os municípios que contam entre 100 mil e 500 mil habitantes.\n\nAlém disso, os dados também revelam que os maiores percentuais de população urbana foram observados nas regiões Sudeste (94,44%) e Centro-Oeste (91,35%), seguidas das regiões Sul (88,24%), Norte (78,47%) e Nordeste (77,64%).\n\nA população rural, por sua vez, apresentou pela primeira vez decréscimo em todas as regiões do Brasil. Segundo o Prof. Everaldo Melazzo, as cidades brasileiras estão ficando cada vez mais complexas e indicando algumas tendências inexistentes no Brasil até então. Este contexto de mudanças é denominado de fragmentação socioespacial [...].\n\nDisponível em https://jornal.unesp.br/. Adaptado.\n\nCom base no texto e em seus conhecimentos, é correto afirmar a respeito das novas tendências sobre a urbanização do Brasil:",
+      "alternativas": {
+        "A": "O grau de urbanização vem aumentando na região Centro-Oeste (91,35%) e Norte (78,47%), devido à expansão industrial e ao impacto das áreas reflorestadas e com baixa modernização agrícola.",
+        "B": "Houve um aumento de 16,6 milhões de pessoas morando em áreas urbanas, revelando que as grandes metrópoles continuam como o principal polo de crescimento populacional relativo, registrando taxas de aumento superiores às cidades médias e pequenas.",
+        "C": "Em 2010, 84,4% da população absoluta do país vivia em áreas urbanas e, em 2022, essa porcentagem passou para 87,4%; esse aumento do grau de urbanização ocorreu sobretudo nas cidades médias (entre 100 e 500 mil habitantes).",
+        "D": "De acordo com o Censo de 2022, a população rural manteve-se estável na última década, como mostram os dados das regiões Sul (88,24%) e Sudeste (94,44%), ampliando a fragmentação socioespacial.",
+        "E": "No contexto do Censo de 2022, os pequenos municípios brasileiros apresentaram o maior crescimento populacional relativo do país, superando as cidades médias e grandes, em função do avanço da industrialização e da expansão do agronegócio."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 39,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os grotões transformaram-se em jardins cortados a meio pelas avenidas e pela sombra dos viadutos não há mais sapo. Nos jardins encontrareis recintos fechados com instrutoras, dentistas, educadoras sanitárias dentro. São os parques infantis, onde as crianças proletárias se socializam aprendendo nos brinquedos o cooperativismo e a consciência do homem social.\n\nMário de Andrade. “Dia de São Paulo”. *Revista do Arquivo Municipal*. São Paulo: Departamento de Cultura, 1936, nº 19.\n\nO excerto relata alterações na paisagem urbana paulistana com a implantação de novos equipamentos que visavam",
+      "alternativas": {
+        "A": "substituir o ambiente degradado e nocivo dos cortiços e vilas operárias por espaços públicos marcados pela flora da Mata Atlântica.",
+        "B": "disciplinar o lazer das crianças com a introdução de noções de saúde preventiva e de atividades racionais e pedagógicas.",
+        "C": "produzir formas de ajustamento social que afastassem os jovens do ócio e dos vícios, por meio da educação profissionalizante.",
+        "D": "promover valores cristãos através da evangelização e do assistencialismo baseado na caridade e na recreação.",
+        "E": "organizar um novo programa escolar voltado para as crianças proletárias, adotando uma pedagogia pautada no nacionalismo e civismo."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 40,
+      "materia": "sociologia",
+      "materias_extra": [
+        "literatura"
+      ],
+      "texto_base": null,
+      "enunciado": "Considere os dois fragmentos a seguir:\n\nO fundamento psicológico sobre o qual se eleva o tipo das individualidades da cidade grande é a *intensificação da vida nervosa*, que resulta da mudança rápida e ininterrupta de impressões [...]. Talvez não haja nenhum fenômeno tão característico da cidade grande como o caráter *blasé*. [...] A essência do caráter *blasé* é o embotamento frente à distinção das coisas [...]. Em parte por conta dessa situação psicológica, em parte em virtude do direito à desconfiança que temos perante os elementos da vida na cidade grande, que passam por nós em um contato fugaz, somos coagidos a uma reserva, em virtude da qual mal conhecemos os vizinhos que temos por muitos anos [...]. Ao mesmo tempo, essa reserva garante ao indivíduo uma espécie [...] de liberdade pessoal.\n\nSimmel, Georg. (2005). *As grandes cidades e a vida do espírito*. Mana, Trad. Leopoldo Waizbort. Adaptado.\n\nAs luzes da cidade se acendiam, as cortinas de aço das portas desciam com barulho e os caixeiros, os empregados que passavam o dia sorridentes ou abstratos, por trás dos balcões [...], se transformavam em homens misteriosos, individuais, que metiam um paletó, tinham uma casa, uma rua e iam comer o seu jantar, dormir o seu sono, trancar a sua porta. [...] Todos ali tinham a sua vida isolada, sua vida particular.\n\nE, naquela hora, cortavam as amarras, cada um procurando o seu mundo pessoal, a sua pequenina ilha.\n\nRachel de Queiroz. *Caminho de Pedras*. Adaptado.\n\nNo primeiro trecho, publicado originalmente em 1903, o sociólogo Georg Simmel procurou condensar as características fundamentais da vida psíquica nas grandes cidades. Já no segundo, com que Rachel de Queiroz inicia o capítulo 7 de *Caminho de Pedras*, vemos como o protagonista Roberto percebe sua cidade a bordo de um bonde. Lendo-os em conjunto, é possível afirmar:",
+      "alternativas": {
+        "A": "As observações de Roberto contrariam a análise de Simmel. O “sorriso” dos empregados contradiz o diagnóstico de “embotamento” e “reserva” para com os outros.",
+        "B": "A vida “isolada” e “particular” descrita por Roberto, com que todos “cortavam as amarras”, é uma expressão da mesma reserva que Simmel argumenta produzir alguma liberdade.",
+        "C": "Ainda que haja semelhanças nas leituras, o modo “abstrato” com que os empregados passavam seus dias não é um aspecto psíquico das grandes cidades, mas da necessária desconfiança em atividades comerciais.",
+        "D": "A vida doméstica e particular sobre a qual Roberto reflete contradiz o diagnóstico de “intensificação da vida nervosa”, sugerindo uma rotina de impressões repetidas e imutáveis.",
+        "E": "O retrato da cidade em *Caminho de Pedras* confirma a análise de Simmel ao afirmar que a individualidade e o “embotamento frente à distinção das coisas” são expressos no espaço privado dos lares dos empregados."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 41,
+      "materia": "portugues",
+      "materias_extra": [
+        "sociologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O carnaval, para além de ser a mais importante manifestação cultural brasileira, é o exercício concreto e sensível de vários direitos conquistados e consagrados. Ele celebra o direito à cidade, à manifestação, à associação e o direito à liberdade de expressão. Como festa pagã e sincrética, afirma o direito à liberdade religiosa sem ser proselitista e, como representação cultural, amplia o espaço cívico para combiná-lo com festividade, criatividade e liberdade artística e cultural.\n\nO carnaval, nas suas diversas facetas, é político. E essa característica não aparece somente nos debates promovidos através da festa, mas também pela possibilidade de desfrutar uma vida livre de censura de qualquer tipo por parte de pessoas de todas as regiões do país, em suas mais distintas realidades.\n\nOcupar as ruas é um ato político. O lazer e a folia em espaço público, o exercício do direito à fruição e de produzir e consumir conteúdos culturais diversos também são. É ainda mais relevante o ato de externalizar e amplificar histórias, memórias e narrativas sobre grupos historicamente silenciados no país, como as populações negra, indígena e de tantas outras comunidades tradicionais. A manifestação política através de brincadeiras, danças, marchinhas, cantos e fantasias é das formas mais sublimes de expressão da aliança entre luta social, cultura e expressão estética. É a possibilidade que brasileiras e brasileiros encontram de, lutando por meio da arte, fazer ecoar uma voz esquecida no cotidiano.\n\n*Artigo 19*. 16/02/2024. Adaptado.\n\nAo afirmar que o carnaval é político, o texto objetiva",
+      "alternativas": {
+        "A": "ressaltar a necessidade da festa popular para que brasileiros e brasileiras possam ter algum momento de lazer.",
+        "B": "valorizar a ocupação do espaço público, resistindo contra aqueles que não são favoráveis à folia e ao consumo.",
+        "C": "criticar os vários direitos adquiridos pelas classes mais silenciadas da sociedade em sua luta social e cultural.",
+        "D": "defender posicionamentos e direitos por meio de formas de expressão culturais e artísticas.",
+        "E": "refletir, do ponto de vista sócio-histórico, sobre o consumo, que acentua as diferenças culturais e religiosas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 42,
+      "materia": "artes",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os espetáculos circenses organizados ao final do século XVIII uniam o cômico e o dramático, como historicamente já faziam outras formas de espetáculo, por meio da combinação da atuação das famílias de saltimbancos, ciganos, atores da *Commedia dell’Arte*, e mesclavam a pantomima e o palhaço com a acrobacia, os equilíbrios, as exibições equestres e a doma de animais em um mesmo espaço. Desde aquele momento, fica visível a emergência não somente de novos modelos de espetáculos, mas também novas estruturas de organização e produção desses espetáculos, caracterizadas pela delimitação do espaço físico das apresentações, cobrança compulsória de entradas e alternância entre exibições de equilibristas, acrobatas, artistas equestres, comediantes, pantomimas e representações diversas, ou seja, um espetáculo pautado na íntima mistura de expressões e artistas originários de diferentes espaços e formações.\n\nLOPES, Daniel de Carvalho; SILVA, Ermínia. *Circo: percursos de uma arte em transformação contínua*. Cadernos do GIPE-CIT, v. 1, 2020. Adaptado.\n\nNo contexto histórico, o circo",
+      "alternativas": {
+        "A": "bem como outras expressões artísticas, interage e se apropria, continuamente, de elementos estéticos, sociais, culturais, políticos e tecnológicos da época e da sociedade em que se apresenta, revelando, assim, sua contemporaneidade.",
+        "B": "é constituído pelas interações que estabelece com os variados elementos que o compõem, e o local de sua manifestação é similar e perene às realizações espetaculares dos séculos anteriores.",
+        "C": "presente no Brasil a partir do início do século XX promove uma ruptura do circo tradicional e início do circo novo que não se constitui com elementos antes explorados.",
+        "D": "moderno descaracteriza o modelo encontrado nos séculos XVII e XVIII e faz emergir uma nova expressão artística que ainda há de se configurar por um novo nome, diferente de circo.",
+        "E": "tradicional não tinha como principal característica divertir os espectadores, haja vista a veiculação de artistas com corpos ditos grotescos nos espetáculos; nos dias atuais reconhece-se a mudança de objetivo que traz no circo a clara representação de entretenimento e diversão a partir de corpos virtuosos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 43,
+      "materia": "artes",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Fotografia de ambiente escuro com projeções, nas paredes e no chão, de pinceladas em espiral em tons de azul e amarelo, com silhuetas de visitantes em pé e caminhando](fig:p19-f2)\n\nImagem ilustrativa da exposição imersiva de Van Gogh.\n\nNos últimos anos, exposições imersivas têm atraído um público amplo ao proporcionar experiências sensoriais e visuais baseadas em obras de artistas consagrados, muitas delas com trilha sonora, narração de cartas e projeções em altíssima definição. Contudo, parte da crítica especializada tem problematizado essa tendência de oferecer vivências multissensoriais que buscam envolver o visitante por completo. As críticas apontam implicações relacionadas à natureza da experiência estética, à espetacularização da arte, ao patrocínio corporativo e ao sucesso de público mediado pelas redes sociais. A crítica de arte Sheila Leirner, por exemplo, comenta:\n\nFica como se *O Jardim das Delícias*, *A Tentação de Santo Antônio* (telas de Hieronymus Bosch) e outras preciosidades como as frutas de Giuseppe Arcimboldo ou as festas campestres de Brueghel fossem ilustrações ou decorações para a grandiloquência artificial e sensacionalista de um show de cabaré. Certo, pode ser muito bonito, mas será que estas maravilhas pictóricas (em si) precisam de “efeitos especiais” para que cheguemos a elas? Até mesmo uma pequena reprodução em cartão postal pode ser mais fiel à nossa percepção...\n\nDisponível em https://sheilaleirnerblog.wordpress.com/.\n\nCom base nas informações e discussões apresentadas, assinale a alternativa que expressa a análise crítica mais fundamentada sobre o fenômeno das exposições imersivas:",
+      "alternativas": {
+        "A": "Embora promovam amplo acesso à arte, exposições imersivas tendem a diluir o conteúdo crítico e histórico das obras em favor de uma experiência sensorial voltada ao entretenimento, o que pode comprometer o potencial formativo e reflexivo da fruição estética.",
+        "B": "A tecnologia empregada nas exposições imersivas permite que o público se aproxime mais intensamente do processo criativo dos artistas, oferecendo uma reconstrução autêntica e historicamente precisa de suas intenções originais.",
+        "C": "Ao integrar projeções em alta definição, trilhas sonoras e ambientes cenográficos, as chamadas exposições imersivas potencializam a percepção visual das obras, demonstrando que a experiência estética pode ser intensificada por meios artificiais sem prejuízo de seu valor cultural.",
+        "D": "A crítica especializada, conforme mencionado, desconsidera o valor pedagógico das exposições imersivas, pois, ao recorrerem a recursos de entretenimento, essas mostras democratizam o acesso à arte e ampliam o repertório visual do público geral.",
+        "E": "O êxito de exposições imersivas no circuito internacional comprova a crescente obsolescência do modelo tradicional de museu e sinaliza uma necessária ruptura com a ideia de contemplação silenciosa e introspectiva das obras."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 44,
+      "materia": "filosofia",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": null,
+      "enunciado": "![Pintura A montanha de Sainte-Victoire, de Paul Cézanne, com a montanha ao fundo e campos, árvores e casas em primeiro plano, em tons de azul, verde e amarelo](fig:p20-f1)\n\nPaul Cézanne. *A montanha de Sainte-Victoire*, 1904.\n\nAssim também o gênio de Cézanne consiste em fazer com que as deformações de perspectiva, pela disposição de conjunto do quadro, deixem de ser visíveis por si mesmas na visão global e contribuam apenas, como ocorre na visão natural, para dar impressão de uma ordem nascente, de um objeto que surge a se aglomerar sob o olhar. (...) O desenho deve então resultar da cor, se se quer que o mundo seja restituído em sua espessura, pois é uma massa sem lacunas, um organismo de cores, através das quais a fuga da perspectiva, os contornos, as retas, as curvas instalam-se como linhas de força, pois é vibrando que a órbita do espaço se constitui.\n\nMerleau-Ponty. *A dúvida de Cézanne*.\n\nMerleau-Ponty, filósofo francês do século XX, dedicou um espaço importante em sua filosofia à reflexão sobre a pintura e, em particular, à obra de Paul Cézanne.\n\nCom base na proposição do filósofo e na observação da tela do artista, é correto afirmar que cabe à expressão por meio da pintura",
+      "alternativas": {
+        "A": "encontrar uma forma de representação pictórica que se sobreponha ao mundo visível.",
+        "B": "retratar a realidade, explicitando suas deformações de perspectivas.",
+        "C": "fazer aparecer a espessura do mundo, especialmente pela ênfase à cor.",
+        "D": "deixar o mundo se revelar, sem o recurso técnico a qualquer mediação.",
+        "E": "destacar a cor sobre o desenho, para fazer aparecer as perspectivas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 45,
+      "materia": "filosofia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "Decretou então o ótimo Artífice que àquele ao qual nada de próprio pudera dar tivesse como privativo tudo quanto fora partilhado por cada um dos demais. Assim, pois, tomou o homem, essa obra de tipo indefinido, e, tendo-o colocado no centro do universo, falou-lhe nestes termos: ‘A ti, ó Adão, não temos dado nem uma sede determinada, nem um aspecto peculiar, nem uma função singular precisamente para que o lugar, a imagem e as tarefas que reclamas para ti, tudo isso tenhas e realizes, mas pelo mérito de tua vontade e livre consentimento. As outras criaturas já foram prefixadas em sua constituição pelas leis por nós estatuídas. Tu, porém, não estás contido por amarra nenhuma. Antes, pela decisão do arbítrio, em cujas mãos te depositei, hás de predeterminar a tua compleição pessoal. Eu te coloquei no centro do mundo, a fim de poderes inspecionar, daí, de todos os lados, da maneira mais cômoda, tudo que existe.\n\nPico della Mirandola. Discurso sobre a dignidade do homem. In: PICO, Giovanni, Conde de Mirândola e de Concórdia. *A dignidade do homem*. 2ª. ed. Campo Grande: Solivros/Uniderp, 1999. Adaptado.\n\nElaborado em 1486, na região da atual Itália, o texto do humanista Pico della Mirandola apresenta algumas características do movimento renascentista, dentre as quais",
+      "alternativas": {
+        "A": "a ética protestante e o espírito do capitalismo.",
+        "B": "a perspectiva da evolução e do etnocentrismo.",
+        "C": "a imortalidade do ser humano como pilar da construção da vida terrena.",
+        "D": "o antropocentrismo pela ausência da referência divina.",
+        "E": "a autonomia do ser humano como construtor de sua própria trajetória de vida."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 46,
+      "materia": "literatura",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": null,
+      "enunciado": "![Fotografia, em detalhe, da escultura em madeira Santíssimo Cristo da Expiação, o Cristo Cachorro: Cristo crucificado, com os braços abertos e a cabeça erguida, em fundo escuro](fig:p21-f1)\n\nFrancisco Ruiz Gijón (1683-1720), *Santíssimo Cristo da Expiação*, popularmente conhecido como *Cristo Cachorro*. Escultura em madeira, 1682 (detalhe).\n\nA partir da comparação entre a escultura *Cristo Cachorro*, de Francisco Ruiz Gijón, e o livro *O Cristo cigano*, de Sophia de Mello Breyner Andresen, inspirado por ela, depreende-se:",
+      "alternativas": {
+        "A": "A escultura barroca *Cristo Cachorro* prenuncia os traços modernistas do livro de Sophia de Mello Breyner Andresen, uma vez que a faca, metáfora central do poema, pensada a partir de um objeto do cotidiano, está indiretamente presente na escultura como o instrumento cortante utilizado para sua criação.",
+        "B": "Tanto a escultura *Cristo Cachorro*, enquanto obra barroca, quanto o livro de Sophia de Mello Breyner Andresen, obra modernista, revelam, na precisão dos detalhes anatômicos e na personalização do objeto faca, respectivamente, o desaparecimento da visão da arte enquanto ligação com o divino e a concepção da morte como fim absoluto.",
+        "C": "Na precisão dos detalhes anatômicos e na concepção do Cristo como um ser humano perfeito e unido ao divino pela morte, a escultura *Cristo Cachorro* revela a visão barroca do mundo, enquanto o livro de Sophia de Mello Breyner Andresen revela seu traço moderno na despersonalização do humano, ao propor a faca e o amor como condutores da ação.",
+        "D": "A elaboração metonímica do corpo do Cristo *no Cristo Cachorro*, atenta aos detalhes, revela uma antecipação de traços modernistas nessa escultura barroca, enquanto a comparação entre amor e morte no livro de Sophia de Mello Breyner Andresen revela os traços tardiamente românticos de seu estilo poético.",
+        "E": "A precisão de detalhes anatômicos e o equilíbrio de traços alcançados pelo artista na elaboração da escultura *Cristo Cachorro* revelam a visão barroca da arte como vitória do humano sobre o divino, enquanto o livro de Sophia de Mello Breyner Andresen, ao ocultar a imagem do cigano e resumi-la a uma voz em agonia, revela a concepção modernista de um mundo sem Deus."
+      },
+      "observacoes": "Na alternativa D, o itálico do caderno começa em 'no' (\"*no Cristo Cachorro*\"); mantido como no original."
+    },
+    {
+      "numero": 47,
+      "materia": "filosofia",
+      "materias_extra": [
+        "literatura"
+      ],
+      "texto_base": null,
+      "enunciado": "iii. Busca\n\nPelos campos fora\nCaminhava sempre\nComo se buscasse\nUma presença ausente\n\n“Onde estás tu, morte?\nNão posso te ver:\nNeste dia de Maio\nCom rosas e trigo\nÉ como se tu não\nVivesses comigo\n[...]\nÉ verdade que passas\nPela cidade às vezes\nNos caixões de chumbo:\n\nMas viro o meu rosto\nPois não te compreendo\nÉs um pesadelo\nUma coisa inventada\nQue o vento desmente\nCom suas mãos frescas\nE a luz logo apaga”\n[...]\n\nSophia de Mello Breyner Andresen. *O Cristo cigano*.\n\nÉ tão tenaz o desvio que a esquivança encobridora ante a morte exerce sobre a cotidianidade que, no ser-um-com-o-outro, seus ‘próximos’ ainda se empenham com frequência precisamente junto ao ‘moribundo’ para o persuadir de que escapa da morte e retorna em seguida à tranquila cotidianidade do mundo de suas ocupações. Tal ‘preocupação-com-o-outro’ pensa ‘consolar’ dessa maneira o ‘moribundo’. Ela quer devolvê-lo à existência, ajudando-o a encobrir ainda mais completamente sua possibilidade de ser mais própria e irremetente. A gente se ocupa dessa maneira de uma *constante tranquilização* sobre a morte. Mas, no fundo, ela vale tanto para o ‘moribundo’ quanto para ‘os que consolam’. E mesmo no caso do deixar de viver, a publicidade ainda não deve ser perturbada, nem inquietada pelo acontecimento na sua ocupada despreocupação. Pois não raro se vê na morte dos outros uma inconveniência social, quando não mesmo uma falta de tato, cuja publicidade deve ser poupada.\n\nMartin Heidegger. *Ser e Tempo*, §51.\n\nA escritora Sophia de Mello Breyner Andresen e o filósofo Martin Heidegger descrevem, por meio de recursos expositivos bem diferentes, uma mesma atitude geral comumente assumida por uma pessoa ante o desvelamento de sua própria mortalidade a partir da constatação da morte ou do adoecimento mortal de uma outra pessoa. Qual alternativa melhor descreve essa atitude?",
+      "alternativas": {
+        "A": "O enfrentamento heroico do absurdo existencial contido na morte.",
+        "B": "O respeito silencioso às tradições culturais voltadas ao morrer.",
+        "C": "A empatia antecipadora com os mortos, participando de sua dissolução existencial.",
+        "D": "A fuga acalmadora, que encobre o sentido existencial da mortalidade.",
+        "E": "A perda da sensibilidade, de modo a nem mesmo poder perceber a ocorrência da morte."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 48,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Mwando está embasbacado com a descoberta do insólito do mundo. Como o Adão no Paraíso, a voz da serpente sugeriu-lhe a maçã, que lhe arrancou brutalmente a venda de todos os mistérios. Sim, escutou os lábios de uma mulher pronunciando em sussurros o seu nome, despertando-o do ventre fecundo da inocência. Mwando nasceu. Sente o coração a bater com força, mesmo à maneira do primeiro amor.\n\n(…)\n\nProcurou o refúgio do quarto e fechou-se. Estava transtornado. Sentia a sua devoção abalada pela paixão. Não conseguia fugir às tramas da serpente, a Sarnau arrastava-o cada vez mais para o abismo.\n\nPaulina Chiziane. *Balada de amor ao vento*.\n\nConsiderando a intertextualidade bíblica presente no excerto de *Balada de amor ao vento*, a experiência de Mwando é caracterizada",
+      "alternativas": {
+        "A": "por uma decepção com o mundo, causada pela perda da fé e pela compreensão da fragilidade das relações humanas, o que o levou a um isolamento resignado.",
+        "B": "pelo despertar sexual e pelo conhecimento, que rompem com um estado de inocência anterior, resultando em uma perturbação emocional e um conflito interior.",
+        "C": "pela superação de um trauma passado, sendo que a figura da cobra é o símbolo do obstáculo que foi vencido e que o conduz a um novo estágio de maturidade e paz.",
+        "D": "por um processo de profunda introspecção, no qual o amor é um caminho para a autodescoberta e transcendência espiritual, apesar das dificuldades iniciais.",
+        "E": "pela busca por um novo tipo de devoção religiosa, tendo a figura feminina como fonte de inspiração que o afasta ainda mais dos preceitos tradicionais e o aproxima de um paraíso utópico."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 49,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "[...] as lendárias Rotas da Seda, longe de serem meras rotas comerciais, eram rodovias culturais que desempenhavam um papel fundamental na ligação entre o leste e o oeste, reunindo intermitentemente nômades e moradores da cidade, povos pastoris e agricultores, mercadores e monges, soldados e peregrinos. A noção de movimento é, portanto, central para a compreensão das relações entre os povos [...]. Um diálogo entre culturas significa trocas não apenas de bens, mas também de ideias.\n\nVadime Elisséeff. “Introduction. Approaches Old and New to Silk Roads”. *The Silk roads: highways of culture and commerce*. New York: Berghahn Books, 2000. Traduzido e adaptado.\n\nCom base no excerto, que aborda o complexo de rotas terrestres que se estenderam, durante a Idade Média, por boa parte da Ásia, Leste da África e Sul da Europa, as trocas culturais e os deslocamentos tiveram impacto na",
+      "alternativas": {
+        "A": "vulgarização de bens como tecidos, especiarias e porcelanas, que alteraram os hábitos de diferentes povos ao longo do trajeto.",
+        "B": "divulgação do Direito Romano entre os povos orientais e a derrocada das práticas fundadas na tradição e na oralidade.",
+        "C": "difusão do cristianismo no Oriente Médio e Extremo Oriente, por meio da ação de soldados e peregrinos que atuaram nas Cruzadas.",
+        "D": "apropriação de técnicas e saberes científicos formulados por europeus, como cartografia, astrolábio e papel.",
+        "E": "circulação de padrões arquitetônicos greco-romanos, que forjaram nova identidade visual para santuários, pagodes e templos orientais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 50,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Entre os deveres de todo devoto do Islã está a obrigatoriedade de pelo menos uma vez na vida fazer uma peregrinação a Meca, cidade sagrada na qual Maomé primeiro pregou a religião. Nem todos podiam fazer a peregrinação, mas muitos faziam, geralmente juntando-se às caravanas que percorriam o Saara, chegando a Meca a partir do Cairo. Essa circulação de pessoas, que entravam em contato com os lugares nos quais era intenso o ensino do Islã, criava vínculos entre todo o mundo muçulmano do Sael, norte da África e península Arábica. Os ensinamentos islâmicos eram ainda reforçados pela ação dos ulemás, estudiosos do Alcorão que se assentavam em algumas cidades ou passavam períodos em diferentes lugares. As escolas corânicas, nas quais os meninos liam e decoravam o Alcorão, também eram lugares de atuação dos ulemás, que mantinham vivo o ensino do islã.\n\nMarina de Mello e Souza. *África e Brasil africano*. São Paulo: Ática, 2007.\n\nAo tratar do islamismo na Idade Média, o texto caracteriza",
+      "alternativas": {
+        "A": "a transformação abrupta nas práticas e hábitos religiosos dos fiéis e o autodidatismo do ensino religioso na alfabetização de adultos e crianças.",
+        "B": "o fanatismo dos líderes religiosos e a exigência contínua de obediência e subserviência dos fiéis que desejavam alcançar a salvação.",
+        "C": "a igualdade de gêneros na formação religiosa de crianças e adultos e a ausência de preocupação com a unidade institucional da religião.",
+        "D": "o caráter educativo e doutrinário das peregrinações dos fiéis e a homogeneidade da origem étnico-racial do conjunto dos fiéis.",
+        "E": "a disposição de ampliar o conhecimento de textos religiosos pelos fiéis e a formação de redes de relações entre povos e grupos sociais distintos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 51,
+      "materia": "historia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "No Afeganistão, em vinte anos de guerra, morreram mais de 157 mil pessoas; no Iraque, de 2003 até hoje, dez anos depois de as tropas americanas se retirarem do país, foram mortas entre 308 e 600 mil; e no Paquistão, o aliado dos Estados Unidos na Guerra ao Terror, 70 mil.\n\nAs violações de direitos humanos por militares americanos, como os abusos e a tortura de prisioneiros, muitas vezes inocentes, na prisão de Abu Ghraib, no Iraque, e na base de Guantánamo, em Cuba, geraram ainda mais ressentimento nas populações desses países.\n\nA Guerra ao Terror provocou mais radicalização religiosa, conflitos internos, forçou milhões de pessoas a abandonar suas casas e a fugir para outros países, aumentando ainda mais o preconceito em relação a muçulmanos e árabes. Dizem que o mundo nunca mais foi o mesmo depois do Onze de Setembro.\n\nSimone Duarte. *O vento mudou de direção: o Onze de Setembro que o mundo não viu*. São Paulo: Fósforo, 2021.\n\nO excerto traz informações sobre a atuação militar norte-americana na Ásia após os atentados terroristas de 11 de setembro de 2001 e afirma que essas investidas militares",
+      "alternativas": {
+        "A": "provocaram novos confrontos locais e mundiais e acirraram perseguições de caráter étnico e religioso.",
+        "B": "definiram uma nova ordem internacional e promoveram o bilateralismo que hoje caracteriza as relações entre as duas superpotências.",
+        "C": "consolidaram a hegemonia das organizações e alianças militares ocidentais nas áreas de conflito étnico e religioso do Oriente Médio e do Sul asiático.",
+        "D": "contribuíram para o estabelecimento da paz no mundo árabe, ao custo de terem provocado mais de quinhentas mil mortes em países asiáticos.",
+        "E": "erradicaram as organizações terroristas responsáveis pelos atentados, embora tenham recorrido a práticas contrárias aos princípios humanitários defendidos pela ONU."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 52,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 19 de setembro de 2023, o Azerbaijão lançou uma ofensiva contra a autoproclamada República de Nagorno-Karabakh (RAHK ou Artsakh), um território povoado por armênios sob bloqueio desde dezembro de 2022. Em 28 de setembro de 2023, a RAHK anunciou sua dissolução, que entrou em vigor a partir de 1º de janeiro de 2024, após mais de três décadas de existência não reconhecida. Em agosto de 2025, o governo norte americano propôs que a rota de transporte estratégica turco-azerbaijana seja controlada pelos EUA, por 99 anos. Essa proposta ainda está em curso, devido à oposição do Irã.\n\n![Mapa Nagorno-Karabakh: Reconfiguração Geopolítica do Cáucaso (2023), com Armênia, Azerbaijão, Geórgia, Rússia, Turquia e Irã, gasodutos e oleodutos, pontos de passagem fechados, bases militares, territórios ocupados e invadidos e legenda](fig:p24-c1)\n\nReconfiguração geopolítica do Cáucaso (2023). *Atlas Géopolitique Mondial*, 2025. Adaptado.\n\nCom base no texto, na legenda do mapa e em seus conhecimentos, assinale a alternativa que explica os motivos da ofensiva do Azerbaijão contra os armênios.",
+      "alternativas": {
+        "A": "O território armênio invadido pelo Azerbaijão é estratégico para o comércio de gás e petróleo com a Turquia e a União Europeia (UE) e há um projeto estratégico de transporte, no sul do território invadido, que permitirá uma rota de petróleo, gás e fluxo comercial.",
+        "B": "O território no sul da Armênia é de interesse do Irã devido às reservas de hidrocarbonetos, causando vários conflitos com o Azerbaijão, que, ao defender a Armênia, cria enclaves de proteção territorial, resguardando as rotas comerciais até Ierevan, a capital da Armênia.",
+        "C": "As bases militares de vários países estão concentradas no território armênio, que é disputado pela Turquia, Estados Unidos da América e Rússia, sendo este último interessado na rota Nagorno-Karabakh, por ser estratégica ao escoamento de sua produção de gás e petróleo para a UE.",
+        "D": "O conflito entre Armênia e Azerbaijão força a Turquia a ter neutralidade e, ao mesmo tempo, permite o funcionamento dos gasodutos (TANAP) e oleodutos (BTC), a partir do controle que ela tem das rotas, dos pontos de passagem fechados e das bases militares.",
+        "E": "No conflito entre Armênia e Azerbaijão, o corredor de transporte estratégico ao sul do Azerbaijão, associando a ferrovia, escoa toda a sua produção de petróleo, gás e fluxo comercial, conectando o território de Nagorno-Karabakh à Turquia e à área ocupada pela Armênia."
+      },
+      "observacoes": "O caderno traz 'norte americano' sem hífen no texto de apoio; mantido."
+    },
+    {
+      "numero": 53,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A anexação, definida como a incorporação unilateral de território de outro Estado, é proibida pela Carta das Nações Unidas e pelo direito internacional geral, que enfatizam a proibição do uso da força e o respeito à integridade territorial dos Estados (Carta da ONU, 1945).\n\n![Mapa do norte da América do Sul, com Venezuela, Colômbia, Brasil, Guiana, Suriname, Guiana Francesa, Trinidad e Tobago, o mar do Caribe e o oceano Atlântico, e a região de Guiana Essequiba destacada](fig:p25-f1)\n\nDisponível em https://www.parlamentomercosur.org. Adaptado.\n\nPartindo da carta da ONU e do mapa, é possível indicar que se refere",
+      "alternativas": {
+        "A": "à invasão das tropas venezuelanas à área que pertence a fronteira norte do Brasil, contrariando o Acordo de Genebra.",
+        "B": "à retomada de áreas da região de Essequibo, pelo Suriname, que foram invadidas pelo exército venezuelano na crescente tensão com a Guiana.",
+        "C": "à anexação da região do rio Orinoco, rico em reservas minerais, pela Venezuela, conforme preconiza o Acordo de Genebra.",
+        "D": "aos novos limites definidos para o território da Venezuela em acordos com o Mercosul em conformidade com o Protocolo Porto de Espanha.",
+        "E": "à anexação da região de Essequibo pela Venezuela, contrariando a Arbitragem de 1904 que determinou que a área deveria ficar sob jurisdição da Guiana."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 54,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Nossa forma de governo não entra em rivalidade com as instituições dos outros. Nosso governo não copia o de nossos vizinhos, mas é um exemplo para eles. É verdade que somos chamados de democracia, pois a administração está nas mãos de muitos e não de poucos. Mas, enquanto existe justiça igual para todos e igualmente em suas disputas privadas, a reivindicação de excelência também é reconhecida; e quando um cidadão é de alguma forma distinto, ele é preferido para o serviço público, não como uma questão de privilégio, mas como recompensa do mérito. Nem a pobreza é um obstáculo, pois um homem pode beneficiar seu país, seja qual for a obscuridade de sua condição. Não há exclusividade em nossa vida pública, e em nossos negócios privados não suspeitamos uns dos outros [...]. Enquanto estamos assim sem restrições em nossos negócios privados, um espírito de reverência permeia nossos atos públicos; somos impedidos de fazer o mal pelo respeito às autoridades e às leis, tendo uma consideração especial por aquelas que são ordenadas para a proteção dos prejudicados, bem como por aquelas leis não escritas.\n\nTucídides. *Oração Fúnebre de Péricles*. University of Minnesota. Human Rights Library. Richard Hoocker, 1996. Adaptado.\n\nO excerto, que pretende reproduzir o discurso fúnebre de Péricles (século V a.C.) na Guerra do Peloponeso,",
+      "alternativas": {
+        "A": "equipara os comportamentos privados às condutas públicas.",
+        "B": "oferece uma visão crítica da democracia representativa.",
+        "C": "reproduz a opinião da época sobre a política nas pólis gregas.",
+        "D": "enaltece a democracia como marca da superioridade ateniense.",
+        "E": "defende que todas as pessoas tenham igual acesso a cargos públicos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 55,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Existem números curiosos na matemática. Os números perfeitos são alguns deles. Um número $n$ (para $n \\in \\mathbb{N}^*$) é perfeito se, e somente se, for igual à soma de seus divisores positivos (excluindo o próprio). Relacionando números perfeitos e números primos, Euclides escreveu uma proposição em seu famoso livro “Elementos”: se $2^n - 1$ é um número primo, então $2^{n-1}(2^n - 1)$ é um número perfeito. Considerando o que foi exposto, é correto afirmar:",
+      "alternativas": {
+        "A": "Com exceção de $n = 1$, os 5 primeiros termos da sequência $(a_n) = (2^n - 1)$ são números primos.",
+        "B": "Os termos da progressão geométrica, cujo primeiro termo é o primeiro número perfeito e cuja razão é 3, são pares.",
+        "C": "Os números 28 e 31 são números perfeitos.",
+        "D": "Na proposição de Euclides, para $n = 4$, obtemos que $2^n - 1$ não é primo, mas que $2^{n-1}(2^n - 1)$ é perfeito.",
+        "E": "A sequência formada pela diferença dos termos consecutivos de $(a_n) = (2^n - 1)$ é uma progressão aritmética de razão 2."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 56,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Aristóteles produziu aquela que é considerada a primeira classificação dos organismos vivos, no mundo ocidental. Nela, considerou principalmente a existência de características compartilhadas para dividir os seres vivos em distintas categorias. Atualmente, a classificação dos seres vivos pauta-se no paradigma da Escola Filogenética (cladística). Tal escola",
+      "alternativas": {
+        "A": "também realiza a análise de características compartilhadas entre os diferentes grupos de organismos, buscando identificar ancestrais comuns e relações de parentesco entre eles.",
+        "B": "busca as diferenças entre os grupos de seres vivos, agrupando-os exclusivamente com base nessas diferenças, desconsiderando características compartilhadas.",
+        "C": "abandona os princípios aristotélicos e adota ideias que propõem que os seres vivos evoluem com o passar do tempo, tornando-se sempre melhores que as gerações anteriores.",
+        "D": "determina que os seres vivos se adaptam às condições do meio em que vivem e produzem descendentes portadores dessas adaptações, de forma sucessiva.",
+        "E": "considera que características compartilhadas surgem apenas por convergência adaptativa, ou seja, organismos de linhagens diferentes, em um mesmo ambiente, podem desenvolver características comuns."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 57,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em abril de 2025, uma empresa de biotecnologia anunciou que havia criado lobos com características de lobos-gigantes, ou *dire-wolves*, uma espécie extinta há milhares de anos. Para isso, a empresa obteve o genoma de lobos-gigantes e o comparou com o genoma de lobos modernos. Com base nesta comparação, foram feitas 20 modificações em 14 genes do genoma do lobo moderno, utilizando tecnologias de edição gênica. Em seguida, o núcleo de uma célula de lobo moderno contendo o DNA editado foi inserido em óvulos anucleados de cachorras. Por fim, os óvulos foram inseminados em cachorras, possibilitando a gestação. O resultado foi o nascimento de três filhotes, dois machos e uma fêmea, que possuem pelagem branca e espessa, além de um tamanho corporal maior, lembrando o fenótipo esperado de um lobo-gigante.\n\n![Fotografia de um filhote de pelagem branca, caminhando na neve com um graveto na boca](fig:p26-f1)\n\nDisponível em: https://colossal.com/.\n\nSe, no futuro, a empresa resolver acasalar estes filhotes, espera-se que a prole seja parecida com",
+      "alternativas": {
+        "A": "cachorros, pois os óvulos utilizados para gerar os filhotes é desta espécie.",
+        "B": "lobos-gigantes, uma vez que cada geração tenderá a ser mais parecida com a espécie extinta.",
+        "C": "lobos modernos selvagens, uma vez que as edições no genoma não são hereditárias.",
+        "D": "lobos modernos modificados, pois os núcleos utilizados para gerar os filhotes são desta espécie.",
+        "E": "nenhuma espécie conhecida, pois os efeitos da edição genética são imprevisíveis."
+      },
+      "observacoes": "Alternativa A: 'os óvulos ... é desta espécie' (concordância do original)."
+    },
+    {
+      "numero": 58,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t58-59",
+      "enunciado": "Com base no texto, a principal expectativa em relação ao telescópio James Webb estava associada a",
+      "alternativas": {
+        "A": "esclarecer as divergências nas medições da constante de Hubble por meio de observações mais precisas.",
+        "B": "substituir os métodos tradicionais por novas equações que descrevem a expansão do universo.",
+        "C": "comprovar a superioridade das estimativas obtidas pela equipe de Freedman.",
+        "D": "medir a distância entre galáxias utilizando parâmetros inéditos.",
+        "E": "determinar se o universo tem como característica crescer de modo infinito."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 59,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t58-59",
+      "enunciado": "De acordo com o texto, a abordagem metodológica da equipe de Adam Riess",
+      "alternativas": {
+        "A": "mantém as previsões do modelo consolidado pela ciência.",
+        "B": "utiliza número limitado de simulações de computador para estimar a constante de Hubble.",
+        "C": "obtém dados observacionais para confrontar previsões teóricas.",
+        "D": "faz uso exclusivo de dados do Telescópio Espacial James Webb.",
+        "E": "rejeita equações conhecidas e proposição de novas leis físicas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 60,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Desde as primeiras descobertas, os buracos negros despertam enorme interesse da humanidade. Eles são caracterizados por regiões suficientemente densas e massivas em que o campo gravitacional é tão intenso que nada que esteja a distâncias inferiores a $R_{\\text{Sc}}$ do buraco negro consegue escapar de sua atração, nem a luz ou outras formas de radiação. Esse raio, também conhecido como *raio de Schwarzschild*, é expresso por $R_{\\text{Sc}} = 2GM/c^2$, sendo $G$ a constante de gravitação universal, $M$ a massa do buraco negro e $c$ a velocidade da luz.\n\nConsidere, por simplicidade, um buraco negro de massa igual à massa solar $M_{\\text{Sol}} = 2 \\times 10^{30}\\ \\text{kg}$ e de raio igual a $R_{\\text{Sc}}$. Nesse caso, a razão entre a densidade volumétrica de um buraco negro e a densidade volumétrica do Sol apresenta uma ordem de grandeza mais próxima de:\n\n**Note e adote:**\nSuponha uniformes as densidades volumétricas do Sol e do buraco negro.\nConsidere que o buraco negro e o Sol sejam esféricos e tenham distribuição de massa uniforme.\n$G = 10^{-10}\\ \\text{Nm}^2/\\text{kg}^2$ ; $R_{\\text{Sol}} = 10^9\\ \\text{m}$ ; $c = 3 \\times 10^8\\ \\text{m/s}$.",
+      "alternativas": {
+        "A": "$10^{-2}$",
+        "B": "$10^{4}$",
+        "C": "$10^{10}$",
+        "D": "$10^{16}$",
+        "E": "$10^{22}$"
+      },
+      "observacoes": ""
+    }
+  ]
+}
