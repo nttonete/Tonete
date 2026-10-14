@@ -93,6 +93,37 @@
    }
   },
   {
+   "id": "unesp-2026-1",
+   "vestibular": "unesp",
+   "ano": 2026,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "VERSAO1",
+   "nome": "UNESP (VUNESP) 2026 – 1ª fase",
+   "fonte": {
+    "caderno": "UNESP_2026_1Fase.pdf",
+    "gabarito": "UNESP_2026_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unesp-2026-1.json",
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
+   "materias": {
+    "literatura": 7,
+    "portugues": 9,
+    "historia": 14,
+    "filosofia": 6,
+    "ingles": 11,
+    "artes": 1,
+    "sociologia": 2,
+    "geografia": 12,
+    "biologia": 7,
+    "quimica": 8,
+    "fisica": 6,
+    "matematica": 7
+   }
+  },
+  {
    "id": "unicamp-2025-1",
    "vestibular": "unicamp",
    "ano": 2025,
