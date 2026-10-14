@@ -32,6 +32,37 @@
    }
   },
   {
+   "id": "fuvest-2026-1",
+   "vestibular": "fuvest",
+   "ano": 2026,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "V1",
+   "nome": "FUVEST (USP) 2026 – 1ª fase",
+   "fonte": {
+    "caderno": "FEVEST_2026_1Fase.pdf",
+    "gabarito": "FEVEST_2026_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/fuvest-2026-1.json",
+   "total": 90,
+   "validas": 89,
+   "com_resposta": 89,
+   "materias": {
+    "portugues": 5,
+    "matematica": 10,
+    "quimica": 10,
+    "sociologia": 6,
+    "artes": 4,
+    "literatura": 6,
+    "geografia": 11,
+    "historia": 9,
+    "ingles": 9,
+    "filosofia": 3,
+    "biologia": 9,
+    "fisica": 8
+   }
+  },
+  {
    "id": "unesp-2025-1",
    "vestibular": "unesp",
    "ano": 2025,
