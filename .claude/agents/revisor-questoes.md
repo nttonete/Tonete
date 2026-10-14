@@ -13,6 +13,7 @@ A tarefa informa a edição (por exemplo `fuvest-2024-1`) e o intervalo de quest
 - Banco montado: `dados/questoes/<edicao>.json` (questões com o `gabarito` oficial já incluído e `anulada` marcado).
 - Páginas originais: `trabalho/<edicao>/paginas/pNN.png`. Esta é a referência final.
 - Texto extraído e figuras: `trabalho/<edicao>/texto.md`, `trabalho/<edicao>/figuras/`.
+- Rascunhos do transcritor: `trabalho/<edicao>/rascunho-*.json`. Leia o campo `observacoes` das suas questões: são as dúvidas que o transcritor deixou para você resolver.
 - Regras de formato: `ferramentas/INSTRUCOES-TRANSCRICAO.md`. Leia antes de começar.
 - Ampliação de trecho: `python3 ferramentas/recortar.py --conferir trabalho/<edicao>/tmp-rev-<lote> <edicao> <pagina> <x0> <y0> <x1> <y1>`.
 - Novo recorte de figura: `python3 ferramentas/recortar.py <edicao> <pagina> <x0> <y0> <x1> <y1>`.

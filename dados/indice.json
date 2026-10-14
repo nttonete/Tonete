@@ -13,22 +13,22 @@
     "gabarito": "FEVEST_2025_1Fase_gab.pdf"
    },
    "arquivo": "dados/questoes/fuvest-2025-1.json",
-   "total": 30,
-   "validas": 30,
-   "com_resposta": 30,
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
    "materias": {
-    "artes": 1,
-    "geografia": 3,
-    "portugues": 2,
-    "historia": 3,
-    "literatura": 1,
-    "filosofia": 5,
-    "sociologia": 2,
-    "matematica": 2,
-    "fisica": 4,
-    "quimica": 3,
-    "ingles": 2,
-    "biologia": 2
+    "artes": 2,
+    "geografia": 11,
+    "portugues": 5,
+    "historia": 8,
+    "literatura": 9,
+    "filosofia": 6,
+    "sociologia": 4,
+    "matematica": 11,
+    "fisica": 11,
+    "quimica": 10,
+    "ingles": 4,
+    "biologia": 9
    }
   },
   {
