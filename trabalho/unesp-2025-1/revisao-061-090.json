@@ -1,0 +1,190 @@
+{
+  "edicao": "unesp-2025-1",
+  "intervalo": [
+    61,
+    90
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 80,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "As figuras mostram duas imagens, da mesma lapiseira, formadas por duas lentes esféricas de vidro: uma convergente (figura 1) e outra divergente (figura 2).\n\n![Figura 1 e Figura 2: imagens da mesma lapiseira vistas por duas lentes, com a largura indicada como 1,6 cm na figura 1 e L na figura 2](fig:p28-c4)\n\nSabendo que os aumentos lineares transversais das imagens 1 e 2 são, respectivamente, $A_1 = 2$ e $A_2 = 0{,}8$, o valor de $L$, indicado na figura 2, é",
+      "alternativas": {
+        "A": "0,56 cm.",
+        "B": "0,64 cm.",
+        "C": "0,36 cm.",
+        "D": "0,48 cm.",
+        "E": "0,75 cm."
+      }
+    },
+    {
+      "numero": 84,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A fórmula de conversão entre a temperatura $T_{\\text{C}}$, em graus Celsius, e a temperatura $T_{\\text{F}}$, em graus Fahrenheit, é $T_{\\text{C}} = \\dfrac{5(T_{\\text{F}} - 32)}{9}$. Para cálculos rápidos, ainda que não totalmente precisos, pode-se usar a fórmula $T^{*}_{\\text{C}} = \\dfrac{T_{\\text{F}} - 30}{2}$, em que $T^{*}_{\\text{C}}$ é a temperatura aproximada, em graus Celsius, da temperatura $T_{\\text{F}}$, em graus Fahrenheit.\n\nConsiderando que o erro absoluto $E(T_{\\text{F}})$, cometido pela fórmula de valores aproximados em relação à fórmula de valores precisos, seja dado pela função modular $E(T_{\\text{F}}) = \\left| T_{\\text{C}} - T^{*}_{\\text{C}} \\right|$, seu gráfico pode ser representado por:",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p30-c6)",
+        "B": "![Alternativa B](fig:p30-c7)",
+        "C": "![Alternativa C](fig:p30-c8)",
+        "D": "![Alternativa D](fig:p30-c9)",
+        "E": "![Alternativa E](fig:p30-c10)"
+      }
+    }
+  ],
+  "relatorio": [
+    {
+      "numero": 61,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 62,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 63,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 64,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 65,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 66,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 67,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 68,
+      "status": "ok",
+      "notas": "materias_extra geografia mantida (correntes de convecção do magma)."
+    },
+    {
+      "numero": 69,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 70,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 71,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 72,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 73,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 74,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 75,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 76,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 77,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 78,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 79,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 80,
+      "status": "corrigida",
+      "notas": "Figura refeita (p28-c4): o recorte p28-f2 omitia os rótulos 'Figura 1' e 'Figura 2' impressos acima das lupas, necessários para saber qual imagem é a da lente convergente e qual a da divergente. Texto conferido; resolução B (objeto 0,8 cm; L = 0,64 cm) confere com o gabarito."
+    },
+    {
+      "numero": 81,
+      "status": "ok",
+      "notas": "Resolução: comprimento de cada pulso completo 0,6 m, v = 0,6·3 = 1,8 m/s, distância de 1,8 m até o pino, t = 1,0 s (E), igual ao gabarito. Observação: no desenho, a linha tracejada de onde parte a cota de 1,8 m parece cruzar a corda no meio do 2º pulso, e não na frente da onda; a figura é do caderno e foi recortada inteira, sem erro de transcrição."
+    },
+    {
+      "numero": 82,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 83,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 84,
+      "status": "corrigida",
+      "notas": "Retirado 'fisica' de materias_extra: as fórmulas de conversão são dadas e a questão só cobra função modular/afim. Texto e figuras das alternativas conferidos."
+    },
+    {
+      "numero": 85,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 86,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 87,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 88,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 89,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 90,
+      "status": "ok",
+      "notas": ""
+    }
+  ]
+}
