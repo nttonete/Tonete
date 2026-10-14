@@ -44,14 +44,21 @@
     "gabarito": "UNESP_2025_1Fase_gab.pdf"
    },
    "arquivo": "dados/questoes/unesp-2025-1.json",
-   "total": 30,
-   "validas": 30,
-   "com_resposta": 30,
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
    "materias": {
     "literatura": 7,
     "portugues": 12,
     "artes": 1,
-    "ingles": 10
+    "ingles": 10,
+    "historia": 13,
+    "geografia": 13,
+    "filosofia": 4,
+    "biologia": 8,
+    "quimica": 7,
+    "fisica": 7,
+    "matematica": 8
    }
   }
  ]

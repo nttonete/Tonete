@@ -1,0 +1,481 @@
+{
+  "edicao": "fuvest-2025-1",
+  "textos_base": {
+    "t65-66": "**Da moenda para a célula a combustível: caldo de cana é usado para produzir energia elétrica**\n\n“Pesquisadores do Instituto de Pesquisas Energéticas e Nucleares (Ipen), órgão associado à USP, testaram o uso de caldo de cana para gerar energia elétrica em células a combustível. O processo dispensa a transformação do caldo *in natura* em etanol, feita nas usinas de álcool, impedindo a formação de resíduos nocivos ao meio ambiente. Após o êxito dos experimentos em laboratório, os cientistas vão desenvolver a aplicação da técnica em escala industrial.\n\n‘A célula a combustível tem o mesmo princípio de funcionamento de uma pilha. A diferença é que o combustível serve como reagente para ser consumido e gerar eletricidade’, explica o pesquisador do Ipen, Almir Oliveira Neto, que coordenou a pesquisa. ‘No dispositivo que foi desenvolvido na pesquisa, a oxidação do caldo de cana acontece no ânodo e a redução de oxigênio no cátodo. O objetivo do experimento era obter energia da biomassa com o mínimo impacto ambiental possível. Para isso, utilizou-se o caldo de cana em uma célula a combustível para gerar energia elétrica’, diz o pesquisador. ‘O uso do caldo de cana direto evita a formação de vinhaça, um resíduo ambientalmente perigoso decorrente da produção de etanol, contribuindo, assim, para a preservação do meio ambiente’.”\n\nDisponível em https://jornal.usp.br/ciencias/ (Adaptado).",
+    "t73-74": "Um artigo publicado em 2018, na Revista Brasileira de Ensino de Física, reporta um curioso estudo sobre a pressão interna de “foguetes de garrafa PET”, propulsionados a partir da reação química entre ácido acético e bicarbonato de sódio.¹ Uma mistura de vinagre (que contém ácido acético, $\\text{CH}_3\\text{COOH}$) com bicarbonato de sódio ($\\text{NaHCO}_3$) produz gás carbônico ($\\text{CO}_2$) por meio da reação química representada pela seguinte equação:\n\n$$\\text{CH}_3\\text{COOH} + \\text{NaHCO}_3 \\rightarrow \\text{CH}_3\\text{COONa} + \\text{CO}_2 + \\text{H}_2\\text{O}$$\n\n![garrafa PET com manômetro na tampa; o líquido no fundo é rotulado Vvin e o gás acima, VCO2](fig:p28-f1)\n\nA reação ocorre no interior de uma garrafa PET de 2 L de volume útil total, da qual foi retirado todo o ar. Insere-se na garrafa um volume inicial $V_{vin}$ de vinagre líquido e bicarbonato de sódio, sendo a garrafa posteriormente selada com uma tampa acoplada a um manômetro. A reação produzirá gás carbônico que ocupará um volume $V_{CO_2}$ e exercerá uma pressão $P_{CO_2}$ sobre a tampa da garrafa, medida pelo manômetro, como mostra a figura.\n\n¹ FONSECA et al, RBEF, vol. 40, nº 3, e3504 (2018). Disponível em http://dx.doi.org/10.1590/1806-9126-RBEF-2017-0340."
+  },
+  "questoes": [
+    {
+      "numero": 61,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os versos a seguir pertencem à canção *Fall on Me*, da banda norte-americana R.E.M., lançada em 1986.\n\n“There's a problem, feathers, iron\nBargain buildings, weights and pulleys\nFeathers hit the ground before the weight can leave the air”\n\nBill Berry, Peter Buck, Mike Mills e Michael Stipe.\n\nA qual episódio (real ou hipotético) da história da física o trecho da música faz alusão?",
+      "alternativas": {
+        "A": "À queda de uma maçã, que teria inspirado Newton à descoberta da gravitação universal.",
+        "B": "À observação de um pássaro em voo, que teria levado Einstein a formular a teoria da relatividade.",
+        "C": "Aos experimentos com objetos de massas diferentes, que teriam indicado a Galileu os princípios da queda livre.",
+        "D": "Ao transbordamento da água em uma banheira, que teria sugerido a Arquimedes o conceito de empuxo.",
+        "E": "À queda de um bloco de ferro ligado a uma hélice, que teria levado Joule à equivalência entre calor e energia."
+      },
+      "observacoes": "No caderno, a legenda “Bill Berry, Peter Buck, Mike Mills e Michael Stipe.” aparece sem nenhuma foto na página (não há imagem no PDF); foi mantida como texto."
+    },
+    {
+      "numero": 62,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um brinquedo bastante comum em parques de diversões, a montanha-russa, utiliza-se da transformação parcial de energia potencial em energia cinética (e vice-versa) como princípio de funcionamento. Uma das montanhas-russas mais famosas do mundo, a Takabisha, cuja pista possui mais de 1 km de extensão, localiza-se no Japão e tem vista para o Monte Fuji. Nela, a subida inicial até o ponto mais alto, situado a uma altura aproximada de 50 m do solo, é feita sob ângulo de aproximadamente 90 graus, seguida de uma descida vertiginosa, cuja velocidade, no ponto mais baixo desse trecho, atinge cerca de 30 m/s em poucos segundos.\n\n![foto da montanha-russa Takabisha, com loopings de trilhos metálicos e o Monte Fuji ao fundo](fig:p24-f1)\n\nMontanha-russa Takabisha.\n\nConsiderando um carrinho ocupado com massa total de 300 kg em repouso na posição de altura máxima, a energia mecânica perdida durante a descida inicial é, aproximadamente,\n\n**Note e adote:**\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.",
+      "alternativas": {
+        "A": "1200 J.",
+        "B": "2500 J.",
+        "C": "5000 J.",
+        "D": "15000 J.",
+        "E": "20000 J."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 63,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "A utilização de matrizes energéticas limpas, tais como aquelas que não aumentam a concentração de $\\text{CO}_2(\\text{g})$ na atmosfera, é essencial para evitar a escalada das alterações climáticas causadas pela emissão de gases de efeito estufa. Considere a proposta apresentada na figura a seguir para a produção de uma matriz energética limpa.\n\n![esquema do ciclo de captura de CO2 por NaOH, formando Na2CO3, e fixação com H2, gerando CH4, com as equações (I) e (II)](fig:p24-f3)\n\n(I) Capturar o $\\text{CO}_2(\\text{g})$ atmosférico utilizando $\\text{NaOH}(\\text{aq})$ para formar $\\text{Na}_2\\text{CO}_3(\\text{aq})$. (II) Tratar essa solução, na presença de um catalisador, com $\\text{H}_2(\\text{g})$ oriundo de fontes renováveis, para gerar $\\text{CH}_4(\\text{g})$, um gás combustível.\n\nCom base nessas informações e em seus conhecimentos, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O catalisador participa da reação de produção de metano e se decompõe em $\\text{NaOH}$.",
+        "B": "A combustão do $\\text{CH}_4$ não emite $\\text{CO}_2$, motivo pelo qual a proposta se configura como uma matriz energética limpa.",
+        "C": "A proposta não representa uma matriz energética limpa, pois a combustão completa de 1 mol de $\\text{CH}_4$ emite mais $\\text{CO}_2$ do que o que é utilizado para a sua síntese.",
+        "D": "A retirada de $\\text{CO}_2$ da atmosfera seria maior se a proposta de usar uma matriz energética limpa se resumisse unicamente em utilizar o $\\text{H}_2$ como combustível.",
+        "E": "Em relação ao ciclo do carbono, a proposta é semelhante ao uso do etanol como combustível veicular."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 64,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Alguns motores de foguetes espaciais usam metano como combustível e oxigênio como comburente. Ambos os compostos são armazenados em estado líquido no próprio foguete, o que permite o seu armazenamento em maior quantidade do que se estivessem no estado gasoso. Sabe-se que o foguete armazena um volume de oxigênio líquido 1,5 vez maior do que de metano líquido e que ambos são completamente consumidos na combustão, conforme a equação $\\text{CH}_4(\\ell) + 2\\ \\text{O}_2(\\ell) \\rightarrow \\text{CO}_2(\\text{g}) + 2\\ \\text{H}_2\\text{O}(\\text{g})$.\n\nNessas condições, é correto afirmar que a razão entre a densidade do metano líquido e a densidade do oxigênio líquido é igual a\n\n**Note e adote:**\nMassa molar (g/mol): H = 1; C = 12; O = 16",
+      "alternativas": {
+        "A": "0,186.",
+        "B": "0,375.",
+        "C": "0,75.",
+        "D": "1,5.",
+        "E": "3."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 65,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": "t65-66",
+      "enunciado": "De acordo com o texto, a pesquisa com caldo de cana apresentou resultados promissores em relação à sustentabilidade ambiental, porque",
+      "alternativas": {
+        "A": "o caldo *in natura* é obtido com facilidade, demandando somente a utilização das moendas, o que barateia os custos do processo.",
+        "B": "a energia elétrica proveniente da célula a combustível é considerada limpa, já que esse dispositivo dispensa o uso de pilhas, cujo descarte constitui um problema ambiental.",
+        "C": "a vinhaça, resíduo danoso ao meio ambiente, deixa de ser produzida ao se evitar a transformação do caldo de cana em álcool.",
+        "D": "a célula a combustível se destaca pela economia energética gerada ao funcionar como uma pilha, reduzindo a quantidade de caldo de cana utilizada.",
+        "E": "o Ipen não produz o caldo de cana em escala industrial, o que diminui a produção da vinhaça poluidora do meio ambiente."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 66,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": "t65-66",
+      "enunciado": "Ao empregar o pronome **<u>se</u>** em “utilizou-se o caldo de cana em uma célula a combustível para gerar energia elétrica”, o pesquisador",
+      "alternativas": {
+        "A": "indetermina o sujeito, tentando mostrar que desconhece a real autoria do experimento.",
+        "B": "valoriza o objeto “caldo de cana”, enfatizando a importância desse produto para o experimento.",
+        "C": "chama a atenção para o verbo transitivo “utilizar”, valorizando a importância de se experimentar diretamente o caldo de cana.",
+        "D": "faz uso da voz passiva, construção em que “caldo de cana” atua como sujeito, deixando de haver menção a quem realizou o experimento.",
+        "E": "escolhe uma construção reflexiva em que “caldo de cana” é, ao mesmo tempo, o agente e o objeto do experimento realizado."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 67,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Pesquisas e terapias com células-tronco têm se mostrado cada vez mais promissoras pela possibilidade de seu uso no tratamento de diferentes tipos de doenças, como câncer e doenças degenerativas. As células-tronco podem se diferenciar em células especializadas, conforme exemplificado a seguir.\n\n![esquema de uma célula-tronco com setas para células especializadas: muscular, adiposa, epitelial, óssea e nervosa](fig:p25-f2)\n\nDisponível em https://upload.wikimedia.org/wikipedia/ (Adaptado).\n\nAs células especializadas que derivam de uma mesma célula-tronco possuem os(as) mesmos(as)",
+      "alternativas": {
+        "A": "genes.",
+        "B": "RNAs.",
+        "C": "proteínas.",
+        "D": "lipídeos.",
+        "E": "organelas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 68,
+      "materia": "geografia",
+      "materias_extra": [
+        "sociologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O gráfico a seguir apresenta dados do Produto Interno Bruto (PIB) por pessoa e dados de publicações científicas por milhão de habitantes para um grupo selecionado de países, além de destacar o estado de São Paulo.\n\n![gráfico de dispersão das publicações científicas por milhão de habitantes em função do PIB por pessoa em dólares, em 2020, com países e o estado de São Paulo, e linhas da média mundial](fig:p26-f1)\n\nRevista Pesquisa FAPESP – Agosto/2022 (Adaptado).\n\nA partir da análise do gráfico e do texto, é correto afirmar:",
+      "alternativas": {
+        "A": "Irã, Tunísia e África do Sul possuem um PIB por pessoa abaixo da média mundial e apresentam um número de publicações científicas por milhão de habitantes superior ao da média mundial.",
+        "B": "O estado de São Paulo possui uma quantidade de publicações por milhão de habitantes abaixo da média mundial, enquanto o Brasil, com um PIB por pessoa maior que o do estado paulista, tem uma quantidade de publicações maior.",
+        "C": "Índia e Indonésia possuem um PIB por pessoa acima da média mundial, no entanto, o número de publicações por milhão de habitantes desses países é superior ao da média mundial.",
+        "D": "Os países do Norte Global, embora tenham um PIB por pessoa maior que a média mundial, possuem uma quantidade menor de publicações por milhão de habitantes, se comparados com a média mundial.",
+        "E": "Argentina, Tailândia e México, apesar de possuírem um PIB por pessoa abaixo da média mundial, apresentam produção científica por milhão de habitantes acima da média mundial."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 69,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No plano cartesiano $Oxy$, o gráfico que melhor representa a função $f(x) = |x^2 + 5x - 6| - 5x + 6$ é dado por",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p26-c6)",
+        "B": "![Alternativa B](fig:p26-c7)",
+        "C": "![Alternativa C](fig:p26-c8)",
+        "D": "![Alternativa D](fig:p26-c9)",
+        "E": "![Alternativa E](fig:p26-c10)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 70,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Seja $(a_n)$ uma progressão aritmética cujo primeiro termo é $a_1$ e a razão $r$, ambos números reais. É possível construir uma outra sequência $(b_n)$, em que o primeiro termo é um número real $b_1$ e com a seguinte lei de formação\n\n$$b_{n+1} = b_n + a_n\\,,$$\n\nsendo $n > 0$ um número natural.\n\nPor exemplo, se $b_1 = 0$ e\n\n$$(a_n) = (1,3,5,7,9,11,\\ldots)\\,,$$\n\ntem-se\n\n$$(b_n) = (0,1,4,9,16,25,\\ldots).$$\n\nCom base em tais informações, os valores de $a_1$ e $r$ foram escolhidos de forma que $(b_n)$ também seja uma progressão aritmética de razão $r'$. Nessas condições, é correto afirmar:",
+      "alternativas": {
+        "A": "$r' = a_1$",
+        "B": "$r' = 2a_1$",
+        "C": "$r' = r$",
+        "D": "$r' = 2r$",
+        "E": "$r' = b_1 - a_1$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 71,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Aumenta nos hospitais brasileiros a presença de bactérias resistentes a antibióticos**\n\n“A disseminação de bactérias resistentes a antibióticos é um pesadelo mundial. Ela avança rapidamente e representa uma ameaça a uma das maiores conquistas da medicina moderna: a capacidade de eliminar infecções. Sem antibióticos eficientes, fica quase impossível realizar cirurgias, transplantes e outros tratamentos em segurança.\n\nExpostas à concentração adequada dos antibióticos e por tempo suficiente, as bactérias facilmente morrem. Se a dosagem e duração do tratamento forem inferiores ao necessário para aniquilá-las, uma parte pode sobreviver e se multiplicar, acumulando alterações no material genético que lhes permitem escapar à ação dos fármacos.\n\nAs bactérias estão em todos os lugares: na água, no solo, no ar e nas superfícies, inclusive no nosso corpo. Com o uso intensivo de antibióticos na saúde humana e na produção de alimentos, as bactérias são continuamente expostas a esses fármacos. Esse contato favorece a seleção das variedades resistentes.”\n\nRevista Pesquisa FAPESP – Janeiro/2024 (Adaptado).\n\nO gráfico a seguir ilustra o crescimento de uma espécie de bactéria em meio de cultura, com e sem antibiótico. Foram testados três antibióticos diferentes (1, 2 e 3).\n\n![gráfico do número de bactérias (milhões) em função do tempo em cultura (dias), sem antibiótico e com os antibióticos 1, 2 e 3](fig:p27-c3)\n\nConsiderando o texto e o gráfico, sobre a resistência de bactérias a antibióticos, é correto afirmar:",
+      "alternativas": {
+        "A": "A combinação de mais de um antibiótico durante um tratamento reduz a quantidade de antibióticos lançada na rede de esgoto e as chances de surgirem bactérias mutantes na natureza.",
+        "B": "Para reduzir as chances de seleção de bactérias resistentes, é necessário aumentar a concentração de antibióticos presentes na natureza e matar as bactérias patogênicas livres.",
+        "C": "Mutações aleatórias que acontecem nas bactérias, associadas à exposição prolongada a antibióticos, contribuem para a seleção de bactérias resistentes a antibióticos.",
+        "D": "O antibiótico 3 será eficiente, nas mesmas concentrações utilizadas no experimento, para tratar infecções causadas pelas linhagens de bactérias presentes no dia 16 de cultivo.",
+        "E": "Dentre todos os antibióticos testados, o 2 é o mais eficiente para combater a bactéria do experimento relatado, enquanto o 1 é o menos eficiente."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 72,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A reação do antibiótico sulfanilamida com halogênios leva à reação de substituição com o halogênio em duas posições distintas do anel aromático, como representado na equação não balanceada a seguir.\n\n![equação da reação da sulfanilamida (anel aromático com grupos NH2 e SO2NH2) com Br2, formando o produto com dois átomos de Br e um subproduto](fig:p27-f2)\n\nEm um experimento, 1 L de uma solução de sulfanilamida de pH 5 reagiu com $\\text{Br}_2$ em excesso, obtendo-se pH 4 após reação total. Considerando que o volume se manteve inalterado após a adição do halogênio, quantos mols de sulfanilamida reagiram com bromo?",
+      "alternativas": {
+        "A": "$4{,}5 \\times 10^{-5}$",
+        "B": "$9{,}0 \\times 10^{-5}$",
+        "C": "$1{,}0 \\times 10^{-4}$",
+        "D": "$5{,}0 \\times 10^{-2}$",
+        "E": "$1{,}0 \\times 10^{-1}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 73,
+      "materia": "fisica",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": "t73-74",
+      "enunciado": "Suponha que a reação produza 2 mols de $\\text{CO}_2$ para cada 3 litros de vinagre. Nas condições do experimento, em que o volume de líquido é 1/3 de litro à temperatura $T = 300\\ \\text{K}$, a pressão $P_{\\text{CO}_2}$ medida pelo manômetro será por volta de\n\n**Note e adote:**\nConsidere o $\\text{CO}_2$ como um gás ideal.\nConstante dos gases ideais: $R = 0{,}08\\ \\text{atm.L/(K.mol)}$.\nAssuma que todo o ácido acético do vinagre reagiu com o bicarbonato de sódio e que o líquido resultante da reação ocupa aproximadamente o mesmo volume do vinagre antes da reação ($\\text{V}_{\\text{vin}}$).",
+      "alternativas": {
+        "A": "3,2 atm.",
+        "B": "4,1 atm.",
+        "C": "6,2 atm.",
+        "D": "9,0 atm.",
+        "E": "12 atm."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 74,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t73-74",
+      "enunciado": "Considere agora um outro experimento feito em condições semelhantes, em que o manômetro indica uma pressão de 5 atm e, sem que a pressão no interior da garrafa se altere, ele é cuidadosamente substituído por uma rolha de 10 g de massa e 2 cm de diâmetro (igual ao diâmetro interno do bocal da garrafa). Logo após a rolha ser encaixada no local, ela é expelida devido à pressão interna da garrafa ser maior que a pressão atmosférica.\n\nA aceleração da rolha no momento em que ela é expelida é de, aproximadamente,\n\n**Note e adote:**\nAssuma que a pressão atmosférica seja de $1\\ \\text{atm} = 10^5\\ \\text{Pa}$.\nUtilize $\\pi = 3$.\nConsidere que as forças relevantes atuando sobre a rolha no momento em que é expelida são apenas aquelas relativas à diferença de pressão entre os seus lados interno e externo.",
+      "alternativas": {
+        "A": "$12\\ \\text{m/s}^2$.",
+        "B": "$120\\ \\text{m/s}^2$.",
+        "C": "$1200\\ \\text{m/s}^2$.",
+        "D": "$12000\\ \\text{m/s}^2$.",
+        "E": "$120000\\ \\text{m/s}^2$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 75,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um designer de produtos deseja fabricar um vaso para flores conforme a figura a seguir.\n\n![desenho de um vaso formado por dois troncos de cone unidos pela circunferência central de raio r, com base e topo de raio R e a medida h indicada em cada metade](fig:p28-f4)\n\nSabe-se que a base e o topo do vaso são uma circunferência de raio ${R}$ que mede 10 cm, a parte central é uma circunferência de raio $r$ de 5 cm e a medida $h$ mede 12 cm. Qual é a capacidade volumétrica desse vaso em cm³?",
+      "alternativas": {
+        "A": "$1400\\pi$",
+        "B": "$2100\\pi$",
+        "C": "$2400\\pi$",
+        "D": "$2600\\pi$",
+        "E": "$2800\\pi$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 76,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere um cilindro $C$ de altura $h > 0$ e cujo raio das circunferências, do topo e da base, é $r > 0$; um cilindro $C_1$ cujo raio é igual ao de $C$ e altura igual a $\\frac{h}{2}$; e um cilindro $C_2$ com altura $h$ e raio igual a $\\frac{r}{2}$.\n\nSendo $V$, $V_1$ e $V_2$ os volumes e $A$, $A_1$ e $A_2$ as áreas laterais dos cilindros $C$, $C_1$ e $C_2$, respectivamente, é correto afirmar:",
+      "alternativas": {
+        "A": "$V = V_1 + V_2$ e $A = A_1 + A_2$",
+        "B": "$V = V_1 + V_2$ e $A = A_1 + 2A_2$",
+        "C": "$V = V_1 + 2V_2$ e $A = A_1 + 2A_2$",
+        "D": "$V = V_1 + 2V_2$ e $A = A_1 + A_2$",
+        "E": "$V = 2V_1 + 2V_2$ e $A = 2A_1 + 2A_2$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 77,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em relação ao plano cartesiano $Oxy$, é correto afirmar que as equações $x^2 + y^2 - 4x = -3$ e $x^2 + y^2 - 4y = -3$ representam",
+      "alternativas": {
+        "A": "duas circunferências com raios de mesma medida e que se interceptam em dois pontos.",
+        "B": "duas circunferências com raios de medidas diferentes e que se interceptam em dois pontos.",
+        "C": "duas circunferências que se interceptam em um único ponto.",
+        "D": "duas circunferências concêntricas e que não se interceptam.",
+        "E": "duas circunferências com centros distintos e que não se interceptam."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 78,
+      "materia": "matematica",
+      "materias_extra": [
+        "ingles"
+      ],
+      "texto_base": null,
+      "enunciado": "![cartum de Mark Anderson: professor ao lado de uma lousa com 4 + x = 10, x = 10 − 4, x = 6, diante de três alunos sentados; legenda: “Hold on. When we learned Roman numerals, X was 10. Now it’s 6. What’s going on around here?!”](fig:p29-f1)\n\nDisponível em https://andertoons.com/math/cartoon/7359/.\n\nContribui para o efeito de comicidade do cartum a",
+      "alternativas": {
+        "A": "atitude do docente diante da apatia do grupo, incapaz de produzir uma resposta.",
+        "B": "certeza do aluno em seu argumento, desafiando a autoridade do professor.",
+        "C": "interpretação por parte do discente de símbolos matemáticos ligados à teoria dos conjuntos.",
+        "D": "adoção pelo professor de duas formas semelhantes e eficazes de resolver a mesma equação.",
+        "E": "rivalidade entre os colegas para determinar quem possui mais conhecimento."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 79,
+      "materia": "historia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "![mapa Migrações e invasões no Império Romano, séculos IV e V, com setas dos deslocamentos de anglos e saxões, francos, godos, visigodos, ostrogodos, hunos e vândalos, e as divisões Império Romano do Ocidente e do Oriente](fig:p29-c2)\n\nDisponível em https://www.britannica.com/ (Adaptado).\n\nA análise do mapa permite identificar deslocamentos de povos não romanos caracterizados",
+      "alternativas": {
+        "A": "pela concentração de rotas migratórias em território bizantino.",
+        "B": "pela inexistência de invasões direcionadas para o norte da África.",
+        "C": "pela inexpressiva diversidade de povos das correntes migratórias.",
+        "D": "pela proeminência de migrações na porção ocidental do Império Romano.",
+        "E": "pelo predomínio de invasões por rotas marítimas em detrimento das rotas terrestres."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 80,
+      "materia": "sociologia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "Leia o excerto a seguir de *A Ética Protestante e o Espírito do Capitalismo*, de Max Weber.\n\n“Temos de nos emancipar da seguinte visão: que se pode deduzir a Reforma das transformações econômicas como algo ‘necessário em termos de desenvolvimento histórico’. Por outro lado, não se deve de forma alguma defender uma tese tão disparatadamente doutrinária que afirmasse que o ‘espírito capitalista’ pôde surgir somente como resultado de determinados influxos da Reforma.\n\nEm face da enorme barafunda de influxos recíprocos entre as bases materiais, as formas de organização social e política e o conteúdo espiritual das épocas culturais da Reforma, procederemos tão-só de modo a examinar de perto se, e em quais pontos, podemos reconhecer determinadas ‘afinidades eletivas’ entre certas formas da fé religiosa e certas formas da ética profissional. Por esse meio serão elucidados o efeito que, em virtude de tais afinidades eletivas, o movimento religioso exerceu sobre o desenvolvimento da cultura material.”\n\nWEBER, Max. *A Ética Protestante e o Espírito do Capitalismo*. São Paulo: Companhia das Letras, 2004, p.82-83 (Adaptado).\n\nA partir da ideia expressa no excerto acerca da relação entre o desenvolvimento do capitalismo e alguns elementos da doutrina calvinista, é correto afirmar que",
+      "alternativas": {
+        "A": "as ideias calvinistas impulsionaram o capitalismo e levaram os comerciantes germânicos a buscar a acumulação irrestrita de capitais.",
+        "B": "o crescimento acelerado dos mercados consumidores facilitou, no século XVI, a aceitação das ideias calvinistas pelos banqueiros e negociantes europeus.",
+        "C": "as condições materiais, sociais e políticas da Europa Central contribuíram, no século XVI, para a expansão do capitalismo e para a repressão do calvinismo.",
+        "D": "a união entre os comerciantes contra o Sacro Império Romano Germânico e contra o Papado determinou a adoção de práticas capitalistas e calvinistas na Europa medieval.",
+        "E": "a defesa calvinista do trabalho árduo e o estímulo ao comportamento austero do crente tiveram impactos positivos na formação de condutas adequadas ao desenvolvimento do capitalismo."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 81,
+      "materia": "geografia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "“O eixo econômico do país, que já havia se deslocado para a zona de mineração, caminhou mais uma vez, deslocando-se em direção às ondulações do planalto paulista, que foram se recobrindo pelo verde escuro dos cafezais. Enquanto outras regiões brasileiras vegetavam ou iniciavam mesmo um processo de decadência econômica, a Província, logo depois estado de São Paulo, apresentava uma ascensão esplêndida e vigorosa.”\n\nPETRONE, Pasquale. As indústrias paulistanas e os fatores de sua expansão. *Terra Livre*. 1953, p. 27 (Adaptado).\n\nSobre a industrialização no território brasileiro, é correto afirmar:",
+      "alternativas": {
+        "A": "Tal como São Paulo, a Zona Franca de Manaus teve a expansão de suas indústrias dada pelo potencial do mercado consumidor local dos produtos resultantes da industrialização.",
+        "B": "O Nordeste teve sua expansão industrial durante o Estado Novo, em razão da alta concentração de capitais dos estados da região, permitindo conexões dos seus polos industriais já consolidados.",
+        "C": "O *boom* industrial que aconteceu na região Sul, a partir da década de 1980, foi similar ao desenvolvimento ocorrido no Sudeste, onde a mão de obra especializada aumentou a produção.",
+        "D": "A concentração industrial no Sudeste ocorreu devido à existência de mercado consumidor, de capitais, de mão de obra disponível e de maior capacidade dos meios de transporte.",
+        "E": "A região Centro-Oeste contou com a facilidade de obtenção de energia, por meio de hidrelétricas e termoelétricas, além da densa malha viária para o seu desenvolvimento industrial."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 82,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Mais de uma vez, o brasileiro Machado de Assis e o português Eça de Queirós foram aproximados porque traçaram linhas de compreensão das suas respectivas sociedades, em um mesmo tempo historicamente situado. Os protagonistas Rubião, de *Quincas Borba* (1891), e Gonçalo, de *A Ilustre Casa de Ramires* (1900),",
+      "alternativas": {
+        "A": "representam, respectivamente, a ascensão política da burguesia brasileira durante a segunda metade do século XIX e a decadência da aristocracia portuguesa no mesmo período.",
+        "B": "têm suas aspirações de grandeza e reconhecimento social frustradas diretamente pelo envolvimento de ambos com as políticas partidárias nacionais, introduzindo reformas substanciais que alteram a situação periférica de cada país.",
+        "C": "buscam reconhecimento social, continuamente frustrados nesse propósito por se inserirem em meios sociais que privilegiam a grandeza moral e as virtudes humanas.",
+        "D": "comprometem-se com a superação dos atrasos civilizacionais de seus países. Apesar de terem destinos diferentes, confrontam-se com o descompromisso de suas respectivas sociedades quanto às transformações sociais e econômicas.",
+        "E": "são vítimas de suas ideias ambiciosas de modernização nacional, seja por Rubião promover ideias políticas “modernas”, seja por Gonçalo insistir na restauração da grandeza de sua família. Ao final, atingem seus objetivos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 83,
+      "materia": "literatura",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "O funcionário público como personagem literário ganha destaque na literatura brasileira a partir dos anos 1930. Uma explicação para esse fenômeno está na tematização, por parte dos escritores, das mudanças do papel do Estado brasileiro na constituição do mercado de trabalho assalariado e como agente da modernização do país:\n\n“De 1930 em diante, foram criadas dezenas de comissões, instituições e órgãos de planejamento e/ou de promoção das atividades econômicas, notadamente as ligadas às atividades agrícolas e àquelas voltadas para a industrialização.”\n\nMATTOS, Fernando Augusto Mansor de. A trajetória do emprego público no Brasil desde o início do século XX. *Ensaios FEE*, v.36, n.1, p.95, jun.2015.\n\nNo romance *Os ratos*, de Dyonélio Machado, o funcionalismo público configura-se como",
+      "alternativas": {
+        "A": "solução final para o conflito básico da narrativa, uma vez que é a partir de seu emprego público que o protagonista do romance obtém recursos para superar as limitações financeiras que, inicialmente, impulsionam sua perambulação pela cidade.",
+        "B": "principal opção de sobrevivência para os homens livres da sociedade brasileira recém-saída da escravidão, em especial para os personagens negros, a quem era impossível, de outro modo, alçar posições nos estratos sociais mais elevados.",
+        "C": "retrato da constituição de uma cultura organizacional ligada ao Estado, cuja dinâmica conduz, ao longo do século XX, ao desenvolvimento econômico do país e à vertiginosa ascensão social das classes médias, apontada pelo desfecho positivo do romance.",
+        "D": "opção de ocupação para as camadas médias da sociedade brasileira, que, embora constitua meio legítimo de sobrevivência, acaba por marginalizá-las pela precarização dos ganhos e a desvalorização do trabalho, como retrata a trajetória do protagonista.",
+        "E": "estrutura de trabalho de cunho patrimonialista, cujas posições de autoridade são ocupadas pelas camadas proprietárias e na qual a distribuição de cargos públicos, entre os quais o do protagonista, objetivava a garantia de apoio político e social."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 84,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia os trechos das obras *Marília de Dirceu* e *Romanceiro da Inconfidência*:\n\nLira VII (Parte II)\n\n“Meu prezado Glauceste,\nSe fazes o conceito\nQue, bem que réu, abrigo\nA cândida Virtude no meu peito;\nSe julgas, digo, que mereço ainda\nDa tua mão socorro;\nAh! Vem dar-mo agora,\nAgora, sim, que morro!\n\nNão quero que, montado\nNo <u>Pégaso</u> fogoso,\nVenhas com dura lança\nAo monstro infame traspassar, raivoso.\nDeixa que viva a pérfida calúnia,\nE forje o meu tormento:\nCom menos, meu Glauceste,\nCom menos me contento.”\n\nTomás Antônio Gonzaga. *Marília de Dirceu*.\n\nRomance LXVI ou De Outros Maldizentes\n\n“- Que fica, na fortaleza,\ndaquele poeta Gonzaga?\n- Um par de esporas, somente.\nUm par de esporas de prata.\n(...)\nDizem que tinha um cavalo\nque <u>Pégaso</u> se chamava.\nNão pisava neste mundo,\nmas nos planaltos da Arcádia!”\n\nCecília Meireles. *Romanceiro da Inconfidência*.\n\nConsiderando o substantivo <u>Pégaso</u>, presente nos dois excertos, é correto afirmar:",
+      "alternativas": {
+        "A": "No poema de Cecília Meireles, a referência tem por objetivo destacar o animal mítico, enquanto na lira de Gonzaga o substantivo se refere a um animal real.",
+        "B": "No poema de Gonzaga, a referência ao animal mitológico serve para aludir às características heroicas de Glauceste, enquanto, no poema de Cecília Meireles, Pégaso alude à criação poética.",
+        "C": "Por pretender um tom épico, Cecília Meireles usa o animal mitológico para distinguir a condição heroica do poeta, enquanto Gonzaga se refere às suas diferenças com Glauceste.",
+        "D": "No poema de Cecília Meireles, a metáfora do cavalo alado indica a evasão da realidade, típica dos poetas árcades, enquanto, no poema de Gonzaga, a referência ao animal serve para aludir às suas próprias características heroicas.",
+        "E": "A referência ao cavalo alado provoca um efeito de estranhamento no leitor, tendo em vista as características específicas de cada obra poética."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 85,
+      "materia": "literatura",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "“Se a derrama for lançada,\nhá levante, com certeza.\nCorre-se por essas ruas?\nCorta-se alguma cabeça?\nDo cimo de alguma escada,\nprofere-se alguma arenga?\nQue bandeira se desdobra?\nCom que figura ou legenda?\nCoisas da Maçonaria,\ndo Paganismo ou da Igreja?\nA Santíssima Trindade?\nUm gênio a quebrar algemas?\nAtrás de portas fechadas,\nà luz de velas acesas,\nentre sigilo e espionagem,\nacontece a Inconfidência.”\n\nOs versos de Cecília Meireles, no *Romanceiro da Inconfidência*, remetem",
+      "alternativas": {
+        "A": "à insurreição promovida por maçons e reinóis, adeptos do iluminismo, contra a cobrança do quinto real sobre a exploração de diamantes na Capitania de Minas Gerais.",
+        "B": "à possibilidade de sublevação motivada pela defesa da liberdade, por indivíduos de diferentes setores de Minas Gerais, ante a ameaça de cobrança de impostos metropolitanos.",
+        "C": "à disputa entre católicos apoiadores do recolhimento do dízimo nas Minas Gerais e republicanos defensores da suspensão de impostos cobrados pelo Estado e pela Igreja.",
+        "D": "ao movimento de setores reacionários da sociedade mineira, responsáveis por conspirar contra os idealizadores da Conjuração e denunciar os seus planos de revolução.",
+        "E": "à trapaça e delação, que fizeram parte da Conjuração e ocorreram em razão das discrepâncias ideológicas dos denunciantes em relação aos rebelados."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 86,
+      "materia": "artes",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "No texto intitulado *Tarsila*, a pesquisadora Aracy Amaral transcreve um trecho das impressões de Tarsila do Amaral sobre a viagem às cidades históricas coloniais mineiras, que realizara em 1924 com o grupo modernista, liderado por Mário de Andrade: “(...) As decorações murais de um modesto corredor de hotel; o forro das salas, feito de taquarinhas coloridas e trançadas; as pinturas das igrejas, simples e comoventes, executadas com amor e devoção por artistas anônimos; o Aleijadinho, nas suas estátuas e nas linhas geniais da sua arquitetura religiosa, tudo era motivo para as nossas exclamações admirativas. Encontrei em Minas as cores que adorava em criança. Ensinaram-me depois que eram feias e caipiras. Segui o ramerrão do gosto apurado... Mas depois vinguei-me da opressão passando-as para as minhas telas: azul puríssimo, rosa violáceo, amarelo vivo, verde cantante, tudo em gradações mais ou menos fortes, conforme a mistura de branco. Pintura limpa, sobretudo, sem medo de cânones convencionais. Liberdade e sinceridade, uma certa estilização que a adaptava à época moderna.”\n\nAMARAL, Tarsila, 1939. Apud AMARAL, Aracy. Tarsila, In: Tarsila do Amaral. São Paulo: Fundação Finambras, s.d, p.4.\n\n![pintura O mamoeiro, de Tarsila do Amaral, 1925: casas em meio a árvores e coqueiros, uma ponte de madeira sobre um rio e pessoas ao fundo](fig:p32-f1)\n\nTarsila do Amaral, **O mamoeiro**, 1925, óleo s/ tela, 65,0 cm x 70,0 cm. Coleção Mário de Andrade - Instituto de Estudos Brasileiros da Universidade de São Paulo. Reprodução fotográfica: Rômulo Fialdini. Disponível em: https://enciclopedia.itaucultural.org.br/.\n\nConsiderando a obra *O Mamoeiro*, de Tarsila do Amaral, qual é o principal elemento que caracteriza a influência do movimento modernista brasileiro na pintura?",
+      "alternativas": {
+        "A": "O emprego de recursos pictóricos que realçam os efeitos de luz e sombra na cena retratada.",
+        "B": "A representação de aspectos da cultura brasileira, valorizando uma paisagem local.",
+        "C": "A simplificação de formas geométricas abstratas.",
+        "D": "A inspiração na arte africana e na produção simbólica de povos originários.",
+        "E": "A incorporação da colagem e de técnicas mistas como procedimentos artísticos centrais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 87,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Tecidos de Ijebu**\n\n“Os ijebus vestem-se quase sempre com panos produzidos por eles próprios. São fazendas de algodão, matéria-prima que obtêm localmente. Nas famílias, as tarefas de colher algodão, fiá-lo, tecê-lo e tingi-lo estão costumeiramente a cargo das mulheres, e sabe-se ser muito grande a quantidade de tecidos manufaturados em Ijebu e dali exportados, não apenas para os países vizinhos, mas até mesmo para o Brasil, cujos navios vêm buscar em Lagos essa mercadoria tão apreciada pela gente de origem africana transplantada para aquela terra distante. As cores mais comuns, depois da branca e da azul, são a amarela, a vermelha, a carmesim e a verde. Alguns panos são de uma só cor, outros são multicoloridos.”\n\nOSIFEKUNDE. Notícia sobre o país e o povo dos Ijebus. In: COSTA E SILVA, Alberto. *Imagens da África*. São Paulo: Penguin, 2012. p.361.\n\nO texto é parte de um relato das memórias de um ex-escravizado natural de Ijebu, na atual Nigéria, trazido ao Brasil no início do século XIX. O excerto faz menção",
+      "alternativas": {
+        "A": "à existência de um comércio de produtos manufaturados entre a África e a América.",
+        "B": "à prerrogativa masculina na produção de tecidos naquela região da África.",
+        "C": "à baixa qualidade das manufaturas africanas em comparação com as da Europa.",
+        "D": "à impossibilidade de acesso, por africanos e afrodescendentes, a produtos vindos da África.",
+        "E": "ao comércio de africanos escravizados para o trabalho nas plantações de algodão."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 88,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Consiste em uma faixa de terra semiárida e árida que contorna a borda sul do Deserto do Saara e percorre a extensão da África no sentido leste-oeste. Atua como um cinturão que divide o continente africano em dois, a África majoritariamente islâmica, ao norte, e a cristã, ao sul. Englobando ao menos onze países, a região é lar para dezenas de grupos étnicos.”\n\nVAGEN, Tor-Gunnar; GUMBRICHT, Thomas. UNEP/ONU, 2012 (Adaptado).\n\nO texto descreve características da região denominada de",
+      "alternativas": {
+        "A": "Chifre da África.",
+        "B": "África Meridional.",
+        "C": "África Setentrional.",
+        "D": "Rift Valley.",
+        "E": "Sahel."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 89,
+      "materia": "historia",
+      "materias_extra": [
+        "sociologia"
+      ],
+      "texto_base": null,
+      "enunciado": "“Aconteceu num debate, num país europeu. Da assistência alguém me lançou a seguinte pergunta:\n- Para si, o que é ser africano?\nFalava-se, inevitavelmente, de identidade *versus* globalização. Respondi com uma pergunta:\n- E para si, o que é ser europeu?\nO homem gaguejou. Não sabia responder. Mas o interessante é que, para ele, a questão da identidade se colocava naturalmente para os africanos. Não para os europeus. Ele nunca tinha colocado a questão no espelho.\n\nRecordo o episódio porque me parece que ele toca uma questão central: quando se fala de África, de qual África estamos falando? Terá o continente africano uma essência facilmente capturável? Haverá uma substância exótica que os caçadores de identidades possam recolher como sendo a alma africana?”\n\nCOUTO, Mia. “Um retrato sem moldura”. In: HERNANDEZ, Leila Leite. *A África na sala de aula: visita à história contemporânea*. São Paulo: Selo Negro, 2008. p.11.\n\nAo relatar e comentar o episódio, o escritor moçambicano Mia Couto apresenta a África como",
+      "alternativas": {
+        "A": "uma construção histórica proporcionada pela ação humanitária dos colonizadores europeus.",
+        "B": "um resultado natural da luta dos povos do continente contra a dominação estrangeira.",
+        "C": "uma região historicamente afetada por graves problemas demográficos e sanitários.",
+        "D": "um continente definido a partir de critérios políticos e geográficos deterministas.",
+        "E": "um mosaico composto por relações econômicas, políticas e culturais instáveis."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 90,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Brasil, meu Brasil brasileiro\nMeu mulato inzoneiro\nVou cantar-te nos meus versos\nO Brasil, samba que dá\nBamboleio, que faz gingar\nO Brasil do meu amor\nTerra de Nosso Senhor\nBrasil, pra mim\nÔ, abre a cortina do passado\nTira a mãe preta do cerrado\nBota o Rei Congo no congado\nBrasil, pra mim (...)\nÔ! Esse coqueiro que dá coco\nOnde eu amarro a minha rede\nNas noites claras de luar\nBrasil, pra mim\nÔ! Ouve essas fontes murmurantes\nOnde eu mato a minha sede\nE onde a lua vem brincar\nÔ! Este Brasil lindo e trigueiro\nÉ o meu Brasil, brasileiro\nTerra de samba e pandeiro\nBrasil, pra mim”\n\nA canção *Aquarela do Brasil* foi composta por Ari Barroso e lançada no ano de 1939. Sua letra permite identificar temas que guardam afinidades com a política cultural do Estado Novo, podendo ser destacada a",
+      "alternativas": {
+        "A": "discriminação em relação a afrodescendentes.",
+        "B": "exaltação das virtudes naturais e nacionais.",
+        "C": "concepção civilizatória assentada na religião católica.",
+        "D": "valorização da cultura cabocla e do regionalismo.",
+        "E": "escolha do malandro como símbolo nacional."
+      },
+      "observacoes": ""
+    }
+  ]
+}

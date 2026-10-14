@@ -51,7 +51,8 @@ def checar_texto(rel, ref, t):
     if not isinstance(t, str):
         rel.erro(ref, "texto não é string")
         return
-    if re.search(r"(?<!\\)R\$", t):
+    # "R$ 5,00" sem barra abre fórmula por engano; "$R$" (variável R) é legítimo
+    if re.search(r"(?<![\\$\w{])R\$(?=\s?\d)", t):
         rel.erro(ref, 'cifrão de "R$" sem barra (use R\\$)')
     if re.search(r"[a-zà-ú]-\n[a-zà-ú]", t):
         rel.aviso(ref, "possível hifenização de fim de linha não desfeita")
