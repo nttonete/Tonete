@@ -121,6 +121,36 @@
     "biologia": 8,
     "quimica": 5
    }
+  },
+  {
+   "id": "unicamp-2026-1",
+   "vestibular": "unicamp",
+   "ano": 2026,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "Q/X",
+   "nome": "Unicamp 2026 – 1ª fase",
+   "fonte": {
+    "caderno": "UNICAMP_2026_1Fase.pdf",
+    "gabarito": "UNICAMP_2026_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unicamp-2026-1.json",
+   "total": 72,
+   "validas": 72,
+   "com_resposta": 72,
+   "materias": {
+    "ingles": 7,
+    "fisica": 7,
+    "geografia": 7,
+    "sociologia": 4,
+    "filosofia": 2,
+    "historia": 7,
+    "biologia": 7,
+    "matematica": 12,
+    "portugues": 6,
+    "literatura": 6,
+    "quimica": 7
+   }
   }
  ]
 }

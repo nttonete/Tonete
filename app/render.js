@@ -18,7 +18,7 @@
 })(typeof self !== "undefined" ? self : this, function (katex) {
   "use strict";
 
-  var TAGS_PERMITIDAS = /&lt;(\/?)(u|sup|sub|br)&gt;/g;
+  var TAGS_PERMITIDAS = /&lt;(\/?)(u|sup|sub|br|em|strong)&gt;/g;
 
   function escapar(s) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
