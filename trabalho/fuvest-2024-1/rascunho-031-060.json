@@ -1,0 +1,465 @@
+{
+  "edicao": "fuvest-2024-1",
+  "textos_base": {
+    "t53-54": "Over the last two decades, technology companies and policymakers warned of a “digital divide” in which poor children could fall behind their more affluent peers without equal access to technology. Today, with widespread internet access and smartphone ownership, the gap has narrowed sharply.\n\nBut with less fanfare a different division has appeared: Across the country, poor children and adolescents are participating far less in sports and fitness activities than more affluent youngsters are. Call it the physical divide. Data from multiple sources reveal a significant gap in sports participation by income level.\n\nA combination of factors is responsible. Spending cuts and changing priorities at some public schools have curtailed physical education classes and organized sports. At the same time, privatized youth sports have become a multibillion-dollar enterprise offering new opportunities — at least for families that can afford hundreds to thousands of dollars each season for club-team fees, uniforms, equipment, travel to tournaments and private coaching.\n\n“What’s happened as sports has become privatized is that it has become the haves and have-nots,” said Jon Solomon, editorial director for the Aspen Institute Sports and Society Program. “Particularly for low-income kids, if they don’t have access to sports within the school setting, where are they going to get their physical activity?” Mr. Solomon said. “The answer is nowhere.”\n\n**The New York Times**. 24 March 2023. Adaptado."
+  },
+  "questoes": [
+    {
+      "numero": 31,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O reservatório de um caminhão-pipa tem a forma de um cilindro circular reto com eixo horizontal e dimensões internas de 6 metros de comprimento e 2 metros de diâmetro. Uma escola contratou o serviço do caminhão-pipa para abastecer sua caixa d’água. Após o abastecimento, o motorista percebeu que o reservatório do caminhão estava cheio até 3/4 de sua altura, conforme ilustrado na figura.\n\n![caminhão-pipa com reservatório cilíndrico de eixo horizontal, mostrando na face traseira o nível da água até 3/4 da altura](fig:p13-c1)\n\nQual foi o volume, em metros cúbicos, de água utilizada para abastecer a caixa d’água da escola, sabendo que o reservatório do caminhão estava cheio antes do abastecimento?",
+      "alternativas": {
+        "A": "$\\left(2\\pi - \\frac{\\sqrt{3}}{4}\\right)$",
+        "B": "$\\left(2\\pi - \\frac{3\\sqrt{3}}{2}\\right)$",
+        "C": "$\\left(2\\pi + \\frac{3\\sqrt{3}}{2}\\right)$",
+        "D": "$\\left(4\\pi + \\frac{\\sqrt{3}}{4}\\right)$",
+        "E": "$\\left(4\\pi + \\frac{3\\sqrt{3}}{2}\\right)$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 32,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A tabela a seguir mostra a condição de duas variáveis sociais em quatro cidades urbanas genéricas.\n\n| | % de domicílios com coleta de esgoto e tratamento de água | % da população imunizada com cobertura vacinal completa |\n|---|---|---|\n| **cidade I** | 89% | 19% |\n| **cidade II** | 12% | 13% |\n| **cidade III** | 98% | 15% |\n| **cidade IV** | 10% | 90% |\n\nCom base nesses dados, é correto afirmar que a população humana dessas cidades tem risco aumentado de ter as respectivas doenças:",
+      "alternativas": {
+        "A": "cidade I: leptospirose; cidade II: influenza; cidade III: amebíase; cidade IV: cólera",
+        "B": "cidade I: COVID; cidade II: teníase; cidade III: tétano; cidade IV: tuberculose",
+        "C": "cidade I: hepatite B; cidade II: amebíase; cidade III: cólera; cidade IV: leptospirose",
+        "D": "cidade I: influenza; cidade II: teníase; cidade III: pneumonia; cidade IV: COVID",
+        "E": "cidade I: tuberculose; cidade II: poliomielite; cidade III: hepatite B; cidade IV: amebíase"
+      },
+      "observacoes": "No caderno as alternativas formam uma tabela com os cabeçalhos cidade I, II, III e IV; aqui cada linha foi escrita como “cidade X: doença”."
+    },
+    {
+      "numero": 33,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma empresa farmacêutica produz certo medicamento, o qual é formado por quatro componentes, conforme indicado na tabela I. O custo do grama de cada um dos componentes desse medicamento também é apresentado nessa tabela.\n\nTabela I\n\n| Composição do medicamento | Quantidade (em mg) | Custo (em R\\$/g) |\n|---|---|---|\n| Componente A | 200 | 700 |\n| Componente B | 70 | 500 |\n| Componente C | 130 | 300 |\n| Componente D | 100 | 120 |\n\nPara a produção do próximo lote do medicamento, a empresa terá um gasto diferente para fabricá-lo, pois os custos de alguns componentes sofreram alterações, conforme mostra a tabela II.\n\nTabela II\n\n| Composição do medicamento | Variação no custo (em %) |\n|---|---|\n| Componente A | + 7 |\n| Componente B | − 5 |\n| Componente C | 0 |\n| Componente D | + 10 |\n\nQual é o aumento, em reais, no custo do medicamento?\n\n**Note e adote:**\n\nConsidere que os outros custos de produção permaneceram inalterados.",
+      "alternativas": {
+        "A": "9,25",
+        "B": "12,00",
+        "C": "12,75",
+        "D": "36,00",
+        "E": "86,00"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 34,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os conceitos de moda, mediana, média e amplitude definem medidas utilizadas para estudar um conjunto de informações numéricas. Por exemplo, na lista de 5 números (2, 2, 4, 8, 14), temos que a moda é igual a 2, a mediana é igual a 4, a média é igual 6 e a amplitude é igual a 12.\n\nAssinale a alternativa que representa a quantidade de listas de 5 números inteiros positivos que cumprem a condição: *moda* = *mediana* = *média* = *amplitude* = 23.",
+      "alternativas": {
+        "A": "8",
+        "B": "9",
+        "C": "11",
+        "D": "22",
+        "E": "44"
+      },
+      "observacoes": "O original diz “a média é igual 6” (sem o “a”); mantido."
+    },
+    {
+      "numero": 35,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um relógio digital utiliza os seguintes numerais para representar um determinado horário:\n\n![numerais do relógio digital, em display de sete segmentos: 1 2 3 4 5 6 7 8 9 0](fig:p14-f1)\n\nEsse relógio está colocado sobre uma mesa de vidro, de forma que o vidro reflete o horário em sua superfície. A figura mostra um exemplo dessa situação:\n\n![foto de um relógio digital sobre uma mesa de vidro, mostrando 18:02, com a imagem refletida no vidro mostrando 18:05](fig:p14-f2)\n\nDe 00:00 até as 23:59, quantas vezes o vidro refletirá um horário válido?",
+      "alternativas": {
+        "A": "96",
+        "B": "360",
+        "C": "540",
+        "D": "640",
+        "E": "960"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 36,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Todos os dias que depois vieram, eram tempo de doer. Miguilim tinha sido arrancado de uma porção de coisas, e estava no mesmo lugar. Quando chegava o poder de chorar, era até bom – enquanto estava chorando, parecia que a alma toda se sacudia, misturando ao vivo todas as lembranças, as mais novas e as muito antigas. Mas, no mais das horas, ele estava cansado. Cansado e como que assustado. Sufocado. Ele não era ele mesmo. Diante dele, as pessoas, as coisas, perdiam o peso de ser. Os lugares, o Mutum – se esvaziavam, numa ligeireza, vagarosos. E Miguilim mesmo se achava diferente de todos. Ao vago, dava a mesma ideia de uma vez, em que, muito pequeno, tinha dormido de dia, fora de seu costume – quando acordou, sentiu o existir do mundo em hora estranha, e perguntou assustado: – ‘Uai, Mãe, hoje já é amanhã?!’”\n\nJoão Guimarães Rosa. *Campo Geral*.\n\nConforme sugere o trecho, o sofrimento perturba a noção que Miguilim tinha do tempo, porque",
+      "alternativas": {
+        "A": "a falta de acuidade visual não lhe permite distinguir as épocas.",
+        "B": "o desamor ao pai o faz romper com a infância cedo demais.",
+        "C": "o aprendizado da morte embaralha os planos da memória.",
+        "D": "a sensação de vazio o leva a se sentir seguro no presente.",
+        "E": "os dias vividos no Mutum mostram-se cada vez mais curtos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 37,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A respeito dos contos “Nós matamos o Cão Tinhoso!”, “Dina”, “Papá, cobra e eu” e “Nhinguitimo”, de *Nós matamos o Cão Tinhoso!*, é possível afirmar:",
+      "alternativas": {
+        "A": "Os narradores e os protagonistas são crianças.",
+        "B": "São narrados em primeira pessoa, por narradores-protagonistas.",
+        "C": "Os protagonistas são oprimidos socialmente, e a reação deles não é endereçada aos opressores.",
+        "D": "São fábulas, e os protagonistas são animais.",
+        "E": "O espaço representado é o das grandes cidades moçambicanas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 38,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia o texto a seguir:\n\nUma vida inteira pela frente.\nO tiro veio por trás.\n\nCíntia Moscovich, *Os cem menores contos brasileiros do século (organização: Marcelino Freire)*.\n\nEmbora seja um texto composto por apenas duas linhas, é possível caracterizá-lo como uma narrativa. Nesse texto, essa caracterização deve-se ao fato de que ele apresenta",
+      "alternativas": {
+        "A": "adjetivação de tempos.",
+        "B": "diálogo entre narradores.",
+        "C": "referenciação de espaços.",
+        "D": "descrição de personagens.",
+        "E": "sequência de ações."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 39,
+      "materia": "literatura",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Mas quantas vezes a insônia é um dom. De repente acordar no meio da noite e ter essa coisa rara: solidão. Quase nenhum ruído. Só o das ondas do mar batendo na praia. E tomo café com gosto, toda sozinha no mundo. Ninguém me interrompe o nada. É um nada a um tempo vazio e rico. E o telefone mudo, sem aquele toque súbito que sobressalta. Depois vai amanhecendo. As nuvens se clareando sob um sol às vezes pálido como uma lua, às vezes de fogo puro. Vou ao terraço e sou talvez a primeira do dia a ver a espuma branca do mar. O mar é meu, o sol é meu, a terra é minha. E sinto-me feliz por nada, por tudo. Até que, como o sol subindo, a casa vai acordando e há o reencontro com meus filhos sonolentos.”\n\nClarice Lispector. “Insônia infeliz e feliz”. *In: A descoberta do mundo*. Rio de Janeiro: Rocco, 1999.\n\nConsiderando as características do trecho apresentado, pode-se afirmar que ele pertence a uma crônica, pois",
+      "alternativas": {
+        "A": "representa uma história paralela ligada a uma história principal.",
+        "B": "há apenas um conflito que se resolve em pouco tempo.",
+        "C": "possui estrutura simples e apresenta um cunho pedagógico.",
+        "D": "é uma narrativa breve que comenta um evento do cotidiano.",
+        "E": "compõe uma crítica indireta a alguém ou a algum fato."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 40,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os jardins de chuva, como o esquematizado na figura, vêm sendo implantados em áreas urbanas como uma alternativa de baixo custo para minimizar alagamentos. São canteiros de plantas que ocupam partes rebaixadas do terreno, com a função de reter parte das águas pluviais e diminuir sua velocidade de escoamento. Para isso, o solo do jardim deve ser preparado a fim de absorver a água e facilitar sua infiltração, direcionando-a ao lençol freático. Outra vantagem desses jardins é a retenção e decomposição de poluentes carreados pelas águas pluviais. Ainda, ao mesclar diversos tipos de plantas, os jardins de chuva atraem animais e aumentam a biodiversidade local.\n\n![esquema de um jardim de chuva: nuvem com chuva sobre plantas nativas perenes em uma depressão de substrato poroso, com setas de infiltração para baixo; uma ave, uma borboleta, um gafanhoto e um sapo ao redor](fig:p15-f1)\n\nCom base na descrição e no esquema do jardim de chuva apresentados, é correto afirmar que",
+      "alternativas": {
+        "A": "esse jardim de chuva pode ser considerado um ecossistema, no qual componentes bióticos e abióticos interagem numa dinâmica de autorregulação e autossustentação.",
+        "B": "nesse jardim de chuva é possível identificar uma teia alimentar com dois níveis tróficos, no qual todos os animais ocupam o nível dos consumidores secundários.",
+        "C": "esse jardim contém plantas dicotiledôneas e monocotiledôneas, caracterizadas por possuírem raízes pivotantes, que aumentam a eficiência na absorção de água.",
+        "D": "o uso de plantas com grande superfície foliar pode prejudicar a eficiência de um jardim de chuva, diminuindo a evapotranspiração da água.",
+        "E": "a decomposição que ocorre no jardim de chuva é feita por organismos parasitas, que transformam os detritos em nutrientes, resultando, na etapa final, em moléculas orgânicas complexas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 41,
+      "materia": "quimica",
+      "materias_extra": [
+        "geografia",
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "As moléculas de água podem conter o isótopo estável mais abundante de oxigênio, $^{16}\\text{O}$, ou o isótopo estável menos abundante, $^{18}\\text{O}$.\n\nEssa pequena diferença de massa entre as moléculas de água é suficiente para alterar a sua pressão de vapor. Por esse motivo, a análise de isótopos de oxigênio na água da chuva possibilita a identificação de períodos secos e de períodos chuvosos.\n\nA figura ilustra a mudança na constituição isotópica da água da chuva ao longo do tempo como resultado da diferença na pressão de vapor.\n\n![esquema com legenda (círculo vazio: H₂ com ¹⁶O, maior pressão de vapor; círculo cheio: H₂ com ¹⁸O, menor pressão de vapor) e três nuvens com os processos de evaporação, vapor e precipitação entre o oceano e o continente](fig:p16-f1)\n\nCom base nessas informações, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Em períodos de alta pluviosidade, as primeiras precipitações da nuvem são isotopicamente mais leves e a nuvem de chuva se enriquece, relativamente, em $^{18}\\text{O}$.",
+        "B": "Em períodos de baixa pluviosidade, a constituição isotópica das nuvens pouco se altera ao longo do tempo, e a pouca chuva dessas nuvens é relativamente enriquecida em $^{18}\\text{O}$.",
+        "C": "No período atual, em função do aquecimento global, as temperaturas elevadas fazem com que o fracionamento isotópico de $^{16}\\text{O}$ e $^{18}\\text{O}$ resultante da evaporação e da precipitação da água não ocorra.",
+        "D": "Em períodos glaciais, em função da maior temperatura do planeta, as chuvas são enriquecidas em $^{18}\\text{O}$, enquanto, nos oceanos, a água é enriquecida em $^{16}\\text{O}$.",
+        "E": "Em períodos interglaciais, em função da menor temperatura do planeta, as chuvas são enriquecidas em $^{16}\\text{O}$, enquanto, nos oceanos, a água é enriquecida em $^{18}\\text{O}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 42,
+      "materia": "fisica",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "Considere os textos a seguir sobre o campo magnético terrestre, essencial para a manutenção da vida no planeta:\n\n“O campo magnético é o resultado do movimento do ferro líquido que envolve o núcleo interno do planeta, formado de ferro sólido. Ao girar a uma velocidade maior que aquela da superfície, o ferro líquido produz um campo magnético com dois polos magnéticos opostos, próximos aos polos Norte e Sul geográficos.”⁽¹⁾\n\n“O campo magnético do planeta, porém, não é estável e vem enfraquecendo continuamente desde pelo menos 1832, quando o físico e matemático alemão Carl Friedrich Gauss aferiu pela primeira vez sua intensidade. De lá para cá, medições mais frequentes e precisas confirmam que a intensidade diminui à taxa de 17 nanoteslas (nT) por ano – o campo tem 66 mil nT nos polos e 22 mil nT sobre uma faixa do hemisfério Sul que vai da África à América do Sul.”⁽²⁾\n\n![mapa-múndi com a intensidade do campo magnético terrestre em nanoteslas, em escala de cores de 20.000 (azul) a 60.000 (vermelho), com a fonte Missão Swarm 2014/ESA](fig:p16-c1)\n\nFontes:\n(1) O norte da questão, Revista Pesquisa FAPESP, junho de 2018. Adaptado.\n(2) Uma falha no campo magnético da Terra passeia sobre o Brasil, Revista Pesquisa FAPESP, maio de 2021.\n\nCom base nos textos e na figura apresentados e nos seus conhecimentos, é correto afirmar que:",
+      "alternativas": {
+        "A": "A variação da intensidade do campo magnético terrestre ao longo da linha do Equador é menor do que $10^{-6}\\ \\text{T}$.",
+        "B": "O campo magnético terrestre é constante em módulo ao longo do meridiano de Greenwich.",
+        "C": "O campo magnético terrestre é uniforme e esférico, tal como o campo gerado por um dipolo magnético.",
+        "D": "Embora atualmente o campo magnético terrestre tenha intensidade maior nas regiões dos polos, esta é consideravelmente menor na região do Brasil e adjacências.",
+        "E": "A geração do campo magnético é naturalmente explicada por uma distribuição estática de cargas no núcleo interno do planeta."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 43,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![gráfico das concentrações atmosféricas de CO₂ (ppm), N₂O (ppb) e CH₄ (ppb) em função do ano, de 0 a 2000, com três curvas: dióxido de carbono, metano e óxido nitroso](fig:p17-f1)\n\nIPCC 4th Report Main Findings. Disponível em: https://www.inforse.org/. Adaptado.\n\nO gráfico apresentado mostra as concentrações atmosféricas dos principais gases de efeito estufa até o ano 2000, sendo eles: $\\text{CO}_2$, quantificado em partes por milhão (ppm), $\\text{N}_2\\text{O}$ e $\\text{CH}_4$, ambos quantificados em partes por bilhão (ppb). Em junho de 2022, a Administração Nacional Oceânica e Atmosférica (NOAA) reportou que, naquela data, os níveis de $\\text{CO}_2$ na atmosfera encontravam-se em torno de 420 ppm. Esse valor é muito superior à concentração média de aproximadamente 280 ppm, existente antes da Revolução Industrial. Com base nessas informações e em seus conhecimentos, é correto afirmar:",
+      "alternativas": {
+        "A": "Apesar do grande aumento nas quantidades dos três principais gases de efeito estufa a partir da Revolução Industrial, seus níveis passaram a estabilizar por volta do ano 2000.",
+        "B": "A mecanização resultante da Revolução Industrial, iniciada no século XVIII, causou grandes mudanças nos meios de produção, com a utilização de energias renováveis.",
+        "C": "O plantio de árvores em grande escala acentua o aquecimento global, devido à liberação de gases do efeito estufa na atmosfera.",
+        "D": "O aquecimento global é um fenômeno recente, já que a Terra teve um clima com temperaturas constantes durante sua existência.",
+        "E": "O efeito estufa é um fenômeno intensificado a partir da Revolução Industrial, devido às atividades humanas emissoras de $\\text{CO}_2$, que contribuem para o aquecimento global."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 44,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Industrializar é uma condição de vida, é uma absoluta e imperiosa necessidade, é mesmo um dever de que já não está ao nosso alcance declinar. Nem que o quiséssemos, não poderíamos sobreviver conservando-nos nação pastoril e agrícola, no velho estilo, exportando café e umas poucas matérias-primas [...] Industrializar um país não é uma obra mágica que possa ser feita sem preparo, ao simples sopro de uma aspiração. É necessário que exista uma mentalidade industrial, um estado de espírito propício ao desenvolvimento, é necessário que existam gerações preparadas para a ação.”\n\nOLIVEIRA, Juscelino Kubitschek de. *Industrialização*: batalha pela própria sobrevivência da nacionalidade. São Paulo: Serviço de Publicações da Federação e Centro das Indústrias do Estado de S. Paulo, 1957. p.9-10.\n\nA “mentalidade industrial”, proposta pelo então presidente Juscelino Kubitschek, concretiza-se em seu governo (1956-1961) sob a forma",
+      "alternativas": {
+        "A": "de grandes investimentos na educação básica e na fundação de centros de pesquisa.",
+        "B": "de incentivos à diversificação e mecanização da produção agrícola.",
+        "C": "da implantação de formas racionais de organização do trabalho.",
+        "D": "da ação governamental embasada em concepção nacionalista e trabalhista.",
+        "E": "de um projeto desenvolvimentista amparado por incentivos e captação de recursos estrangeiros."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 45,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Em uma onda sem precedentes de medo, confusão e pânico, hoje quase 13 milhões de ações mudaram de mãos na Bolsa de Valores de Nova York. Corretores atordoados atravessaram um mar de papel segurando ordens de investidores assustados para ‘vender a qualquer preço’.”\n\n“Wall Street cai”. *The Guardian* (Londres), 24/10/1929, p.1.\n\n“O mercado esteve ontem numa situação de verdadeiro pânico. Em São Paulo pedem-se a moratória e a emissão de papel-moeda. O presidente da República receberá hoje uma comissão do comércio de Santos.”\n\n“A crise do café”. *Correio da Manhã* (Rio de Janeiro), 29/10/1929, p.1.\n\nOs excertos, extraídos de matérias jornalísticas publicadas à época, relatam reações ante a Crise de 1929. Essa crise",
+      "alternativas": {
+        "A": "atingiu as atividades agrícolas, incentivou a mecanização do processo produtivo e a absorção dos trabalhadores pelo setor industrial.",
+        "B": "afetou as bases do liberalismo econômico, obrigando a intervenção do Estado por meio de regulações e investimentos.",
+        "C": "impulsionou a indústria do entretenimento, responsável por forjar comportamentos que se opunham ao pessimismo.",
+        "D": "favoreceu a substituição do dólar pela libra esterlina enquanto moeda empregada no comércio internacional.",
+        "E": "contribuiu para o desenvolvimento industrial com a substituição de importações e a ampliação do crédito para investimentos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 46,
+      "materia": "geografia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "Observe o mapa da expansão da cafeicultura nos estados de São Paulo e Rio de Janeiro nos séculos XIX e XX.\n\n![mapa “O café no Rio de Janeiro e em São Paulo”, com a expansão da cafeicultura por período (início do século XIX e décadas de 1830, 1850, 1880, 1920 e 1930) e setas de avanço para outros estados](fig:p18-f1)\n\nAtlas Histórico Escolar. Rio de Janeiro, MEC, 1996.\n\nSobre o papel da cafeicultura na dinâmica territorial dessas áreas, é correto afirmar:",
+      "alternativas": {
+        "A": "Iniciada no Vale do Paraíba do Sul, entre São Paulo e Rio de Janeiro, na década de 1830, a cafeicultura teve pouco êxito nessa região pelas dificuldades de cultivo, em função do clima frio e da escassez de trabalho escravizado.",
+        "B": "A expansão da produção cafeeira no estado de São Paulo se deu em direção à zona oriental do estado, na década de 1850, em decorrência da infraestrutura de transporte existente na região e da presença de trabalho assalariado.",
+        "C": "O início da cafeicultura no estado de São Paulo se deu na região oeste, na década de 1930, em decorrência da expansão da produção no norte do Paraná, com expansão para o oeste paulista, aproveitando-se da qualidade do solo.",
+        "D": "A produção cafeeira, nos séculos XIX e XX, concentrava-se nos estados de Minas Gerais e Espírito Santo, com a introdução de novas variedades altamente produtivas e resistentes ao clima frio dessas regiões.",
+        "E": "Expandindo-se na direção oeste do território paulista, a produção cafeeira impulsionou, nos séculos XIX e XX, a estruturação econômica do estado de São Paulo, impactando o desenvolvimento da malha ferroviária e portuária."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 47,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![gráfico de barras “Modais de transporte, em porcentagem do total, em diferentes países (2021)”, com os modais ferroviário, rodoviário e aquaviário para Rússia, Canadá, Austrália, EUA, China e Brasil](fig:p18-c1)\n\nAssociação Nacional dos Transportadores Ferroviários, 2021.\n\nA partir dos dados e dos seus conhecimentos, é correto afirmar:",
+      "alternativas": {
+        "A": "O modal aquaviário, com menor custo e maior capacidade de carga, predomina em mais da metade dos países representados no gráfico.",
+        "B": "Nos EUA, em decorrência da baixa necessidade de transporte de cargas, predomina o modal rodoviário, com menor custo no transporte de pessoas.",
+        "C": "Predominante no país, o modal aquaviário no Canadá tem alto custo, em decorrência das condições climáticas que mantêm os cursos d’águas de todo o país congelados na maior parte do ano.",
+        "D": "Apesar de possuir maior custo, a matriz brasileira, assentada no modal rodoviário, é mais eficiente considerando a capacidade de transporte em grandes quantidades e longos percursos.",
+        "E": "A predominância do modal aquaviário na China faz parte da estratégia do país de aliar a diminuição dos custos de transporte à busca de modais menos poluentes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 48,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma empresa de alimentos utiliza embalagens, no formato de paralelepípedo reto-retângulo, de dimensões 2 cm x 3 cm x 11 cm, para armazenar biscoitos. Para o transporte desse produto, são utilizadas caixas para acondicionar essas embalagens, também no formato de paralelepípedo reto-retângulo, de dimensões 12 cm x 13 cm x 26 cm. A imagem a seguir ilustra um paralelepípedo reto-retângulo.\n\n![paralelepípedo reto-retângulo em perspectiva](fig:p18-f3)\n\nDetermine o número máximo de embalagens que podem ser acondicionadas em cada caixa fechada para transporte, sem que o produto seja danificado.",
+      "alternativas": {
+        "A": "48",
+        "B": "52",
+        "C": "56",
+        "D": "60",
+        "E": "61"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 49,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No Código de Obras e Edificações da Prefeitura de São Paulo, encontra-se a regulamentação para vagas de estacionamento em um edifício para diferentes tipos de veículos. De acordo com o código, as dimensões de uma vaga de estacionamento são estabelecidas de acordo com o tipo de veículo, conforme a seguinte tabela:\n\nTabela: Dimensões das vagas de estacionamento em função do tipo de veículo (medidas em metros).\n\n![tabela com a largura e o comprimento das vagas para estacionamento, em metros, por tipo de veículo: automóvel 2,20 por 4,50; carro para pessoa com deficiência 3,70 por 5,00; moto 1,00 por 2,00; utilitário 2,50 por 5,50; caminhão leve 3,10 por 8,00](fig:p19-c3)\n\nCódigo de Obras e Edificações da Prefeitura de São Paulo. Adaptado.\n\nNa figura a seguir, é apresentada parte de um projeto de garagem para um edifício. Foram projetadas vagas para automóveis e uma vaga para moto, no formato de paralelogramo, com ângulo $\\alpha$ de medida $60^\\circ$.\n\n![projeto de garagem com duas vagas de automóvel e uma vaga de moto em forma de paralelogramo, ângulo α marcado, e um segmento tracejado em vermelho no espaço que restou ao lado da vaga da moto](fig:p19-c4)\n\nObservação: A imagem **não** está em escala.\n\nApós a vaga da moto, restou um espaço na garagem. Os responsáveis pela obra estão avaliando a possibilidade de colocar algum objeto que possa ser utilizado pelos condôminos do edifício. Qual a medida do segmento destacado (tracejado) nesse espaço?\n\n**Note e adote:**\n\n$\\cos(60^\\circ) = 0{,}5\\ ;\\ \\operatorname{sen}(60^\\circ) = \\frac{\\sqrt{3}}{2}$",
+      "alternativas": {
+        "A": "0,75 m",
+        "B": "1,15 m",
+        "C": "1,25 m",
+        "D": "2,20 m",
+        "E": "2,25 m"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 50,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um carro movimentava-se por uma rua de mão única, com sentido da esquerda para a direita, e deixou no asfalto o padrão de pingos de óleo indicado na figura I.\n\n![Figura I: pingos de óleo sobre o asfalto, com espaçamento decrescente da esquerda para a direita, e seta indicando o sentido positivo da posição, para a direita](fig:p19-c1)\n\nEntre as curvas no gráfico da figura II, indique aquela que melhor corresponde à dependência da posição do carro com o tempo, segundo esses pingos. Adote como positivo o sentido para a direita, conforme a indicação da seta em I.\n\n![Figura II: gráfico da posição em função do tempo com cinco curvas rotuladas a, b, c, d e e](fig:p19-c2)\n\n**Note e adote:**\n\nAssuma que o intervalo de tempo entre os pingos seja o mesmo.",
+      "alternativas": {
+        "A": "Curva $a$.",
+        "B": "Curva $b$.",
+        "C": "Curva $c$.",
+        "D": "Curva $d$.",
+        "E": "Curva $e$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 51,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma das modalidades de skate é o *bowl*, disputado em um espaço em formato aproximado de bacia. Supondo um *bowl* com profundidade de 2,45 m, qual a máxima velocidade que um skatista, partindo do repouso no ponto mais alto da bacia, poderia alcançar no ponto mais baixo?\n\n![foto de um skatista descendo a parede de um bowl de concreto](fig:p19-f7)\n\n**Note e adote:**\n\nAceleração da gravidade ($g$) = $10\\ \\text{m/s}^2$",
+      "alternativas": {
+        "A": "3 m/s",
+        "B": "5 m/s",
+        "C": "7 m/s",
+        "D": "9 m/s",
+        "E": "11 m/s"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 52,
+      "materia": "sociologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“A história do *skate* no Brasil passou por fases diferentes e até mesmo antagônicas. Em 1988, por exemplo, na cidade de São Paulo, sob acusação de ser prática displicente, foi promulgada a Lei n º 25.871, pelo então prefeito Jânio Quadros, que proibia a prática da modalidade nas ruas da cidade. Essa proibição foi alterada no ano seguinte, quando a nova prefeita da cidade, Luiza Erundina, em um de seus primeiros atos, revogou essa mesma lei e liberou a prática do *skate* nas ruas da cidade.\n\nAnos depois, em 2015, o Brasil somava 8,4 milhões de praticantes de *skate*, segundo pesquisa Datafolha.\n\nJá em 2021, quando o *skate* estreou como modalidade olímpica nos Jogos de Tóquio, o Brasil se destacou como o segundo país com mais medalhas olímpicas na modalidade. No mesmo ano, a indústria nacional ligada ao esporte foi considerada a segunda maior do mundo, atrás apenas dos Estados Unidos, cujo mercado é estimado em US\\$ 4,5 bilhões ao ano.”\n\nThais Carrança, BBC News Brasil em São Paulo, 26 julho 2021. Adaptado.\n\nA partir da leitura do texto, é correto afirmar:",
+      "alternativas": {
+        "A": "O *skate* adentrou o mundo esportivo, entre outros motivos, por pressão dos praticantes da modalidade. No entanto, práticas esportivas que surgem pautadas pelo lazer ou por atividades cotidianas não deveriam ser consideradas modalidades esportivas por não terem sido institucionalizadas desde sua origem.",
+        "B": "Eventos esportivos de grande alcance, tal qual a Olimpíada, deveriam considerar as estruturas normativas que dão origem aos esportes para inseri-los nas competições. Apenas dessa forma, seria possível garantir a autenticidade das modalidades e justificar a inserção do *skate* como esporte olímpico.",
+        "C": "Os esportes são uma forma de representação das práticas sociais. Sendo assim, as transformações sociais podem resultar em alterações de regras esportivas, na esportivização de práticas de lazer e até na extinção de modalidades esportivas.",
+        "D": "Os esportes podem sofrer alterações normativas ao longo dos tempos. Com tal efeito, torna-se equivocado datar a criação de um esporte, pois ele já pode ter sofrido alterações que descaracterizaram sua origem.",
+        "E": "O *skate*, bem como outras práticas esportivas, foi criado de modo discreto, por grupos pequenos, e ganhou força e ascensão a partir do aumento de incentivo financeiro para sua realização, o que é determinante para um esporte alcançar reconhecimento mundial."
+      },
+      "observacoes": "O original traz “Lei n º 25.871” (com espaço entre n e º); mantido."
+    },
+    {
+      "numero": 53,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t53-54",
+      "enunciado": "Conforme o texto, um dos motivos para a disparidade relativa à prática de atividades físicas por alunos, segundo o nível de renda, reside",
+      "alternativas": {
+        "A": "no abismo persistente entre as notas de estudantes ricos e pobres.",
+        "B": "no corte de gastos e mudanças de prioridades em algumas escolas públicas.",
+        "C": "na preferência por jogadores com potencial superior para competição.",
+        "D": "na redução de bolsas de estudos para adolescentes de famílias abaixo da linha de pobreza.",
+        "E": "na realização de campeonatos contemplados com doações de ONGs."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 54,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t53-54",
+      "enunciado": "Considerado o contexto, o termo “far”, na expressão “far less” (2º parágrafo), expressa",
+      "alternativas": {
+        "A": "temporalidade.",
+        "B": "distância.",
+        "C": "antecipação.",
+        "D": "intensidade.",
+        "E": "progresso."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 55,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![foto de uma jovem de cabelos arrepiados com as mãos sobre a cúpula metálica de um gerador de Van de Graaf](fig:p21-f1)\n\nComo ilustrado pela foto, o gerador de Van de Graaf, equipamento popular em parques de ciência, permite o acúmulo de cargas elétricas em uma cúpula metálica. A distribuição de cargas na cúpula de um desses geradores, quando ninguém a toca, pode ser considerada esférica. Dois desses geradores, A e B, estão separados por uma certa distância. O gerador A contém uma carga $+Q$, e o gerador B, uma carga $+2Q$, com $Q > 0$.\n\n![duas esferas metálicas, A à esquerda e B à direita, com o ponto P marcado entre elas](fig:p21-c1)\n\nEntre as alternativas, assinale aquela que melhor corresponde ao vetor campo elétrico resultante produzido pelos geradores no ponto médio P entre eles.",
+      "alternativas": {
+        "A": "→",
+        "B": "↑",
+        "C": "←",
+        "D": "↓",
+        "E": "nulo"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 56,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um tema de grande interesse na química é a ativação seletiva de ligações C-H. Essa ativação permite a substituição de H nessas ligações por outros átomos, como O ou N. A relevância desse tema pode ser verificada em um estudo recentemente publicado no prestigioso periódico *Science*, que conta com uma egressa da USP dentre seus autores.\n\nA baixa diferença de eletronegatividade entre C e H é um dos motivos que dificulta a ativação da ligação C-H, pois torna a ligação pouco polar e diminui sua reatividade.\n\n![gráfico da eletronegatividade em função do número atômico (Z), de 0 a 20, com pontos rotulados H, Li, F, Na, Cℓ e K](fig:p21-f3)\n\nConsiderando apenas a eletronegatividade, representada no gráfico, qual das alternativas apresenta uma ligação ainda menos reativa do que a ligação C-H?\n\n**Note e adote:**\n\nNúmero atômico (Z) dos elementos: H = 1, C = 6, N = 7, O = 8, F = 9, P = 15, S = 16, Cℓ = 17.",
+      "alternativas": {
+        "A": "C-N",
+        "B": "C-F",
+        "C": "S-O",
+        "D": "P-H",
+        "E": "P-Cℓ"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 57,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A foto a seguir mostra um circuito com três resistores ($R_1$, $R_2$ e $R_3$) conectados em uma *protoboard* (base de contatos). Nesse tipo de placa, os cinco furos de uma mesma linha (indicados pelos retângulos amarelos) estão em curto, formando os nós do circuito. Os cabos vermelho e preto, por sua vez, estão conectados aos terminais de uma fonte contínua de 5V.\n\n![foto de uma protoboard com três resistores, R₁, R₂ e R₃, e retângulos amarelos sobre as linhas de furos; cabos preto e vermelho ligam a placa a uma fonte de 5V](fig:p21-f5)\n\nSe $R_1 = 150\\ \\text{k}\\Omega$ e $R_2 = R_3 = 100\\ \\text{k}\\Omega$, a corrente elétrica que passa pelo resistor $R_1$ será de:",
+      "alternativas": {
+        "A": "12,5 μA",
+        "B": "14,3 μA",
+        "C": "25,0 μA",
+        "D": "37,5 μA",
+        "E": "50,0 μA"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 58,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No processo de compra e venda de artigos de ouro, é comum testar os objetos para verificar se eles realmente são feitos de ouro ou se são alguma falsificação feita com metais menos nobres. Esse teste pode ser feito adicionando um pequeno volume de ácido forte concentrado às raspas do objeto a ser testado, conforme figura a seguir. Caso o objeto seja feito com ouro, as raspas permanecem visíveis, enquanto as raspas de falsificações são dissolvidas.\n\n![duas fotos de raspas de ouro e de falsificação, antes e depois da adição de ácido (H⁺, Δt = 5 s): na segunda, a raspa de falsificação foi dissolvida e a de ouro permanece](fig:p22-f1)\n\nConsiderando apenas o potencial de redução padrão, qual das alternativas apresenta um material que poderia gerar um falso positivo para o objeto de ouro no teste descrito?\n\n**Note e adote:**\n\n$$\\begin{array}{lr} \\text{Mg}^{2+} + 2\\text{e}^- \\rightleftharpoons \\text{Mg}^0 & \\text{E}^\\circ = -2{,}37\\ \\text{V} \\\\ \\text{A}\\ell^{3+} + 3\\text{e}^- \\rightleftharpoons \\text{A}\\ell^0 & \\text{E}^\\circ = -1{,}66\\ \\text{V} \\\\ \\text{Fe}^{2+} + 2\\text{e}^- \\rightleftharpoons \\text{Fe}^0 & \\text{E}^\\circ = -0{,}44\\ \\text{V} \\\\ 2\\text{H}^+ + 2\\text{e}^- \\rightleftharpoons \\text{H}_2 & \\text{E}^\\circ = 0{,}00\\ \\text{V} \\\\ \\text{Pt}^{2+} + 2\\text{e}^- \\rightleftharpoons \\text{Pt}^0 & \\text{E}^\\circ = +1{,}20\\ \\text{V} \\\\ \\text{Au}^{3+} + 3\\text{e}^- \\rightleftharpoons \\text{Au}^0 & \\text{E}^\\circ = +1{,}50\\ \\text{V} \\\\ \\text{F}_2 + 2\\text{e}^- \\rightleftharpoons 2\\text{F}^- & \\text{E}^\\circ = +2{,}87\\ \\text{V} \\end{array}$$",
+      "alternativas": {
+        "A": "Mg",
+        "B": "Aℓ",
+        "C": "Fe",
+        "D": "Pt",
+        "E": "$\\text{F}_2$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 59,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere a função $f$, dada por $f(x) = b^x$, com $b > 0$, $b \\neq 1$ e $x \\in \\mathbb{R}$, e a sua inversa $f^{-1}$. A figura destaca dois pontos, um pertencente ao gráfico de $f$ e outro ao gráfico de $f^{-1}$. Determine $b + k$.\n\n![gráficos de duas curvas decrescentes, de f e de f⁻¹, com os pontos (9/25, k) e (3, 27/125) destacados](fig:p22-c1)",
+      "alternativas": {
+        "A": "$\\frac{5}{6}$",
+        "B": "1",
+        "C": "$\\frac{6}{5}$",
+        "D": "$\\frac{13}{5}$",
+        "E": "$\\frac{18}{5}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 60,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere o sistema linear $\\begin{cases} x + 2y = 4 \\\\ 3x - y = 5 \\end{cases}$. Assinale a alternativa que representa graficamente esse sistema.",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p22-c2)",
+        "B": "![Alternativa B](fig:p22-c3)",
+        "C": "![Alternativa C](fig:p22-c4)",
+        "D": "![Alternativa D](fig:p22-c5)",
+        "E": "![Alternativa E](fig:p22-c6)"
+      },
+      "observacoes": ""
+    }
+  ]
+}
