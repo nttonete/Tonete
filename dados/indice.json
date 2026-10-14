@@ -60,6 +60,36 @@
     "fisica": 7,
     "matematica": 8
    }
+  },
+  {
+   "id": "unicamp-2025-1",
+   "vestibular": "unicamp",
+   "ano": 2025,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "Q/Z",
+   "nome": "Unicamp 2025 – 1ª fase",
+   "fonte": {
+    "caderno": "UNICAMP_2025_1Fase.pdf",
+    "gabarito": "UNICAMP_2025_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unicamp-2025-1.json",
+   "total": 72,
+   "validas": 71,
+   "com_resposta": 71,
+   "materias": {
+    "geografia": 7,
+    "fisica": 7,
+    "ingles": 7,
+    "filosofia": 3,
+    "historia": 7,
+    "sociologia": 3,
+    "portugues": 8,
+    "literatura": 5,
+    "matematica": 12,
+    "biologia": 8,
+    "quimica": 5
+   }
   }
  ]
 }
