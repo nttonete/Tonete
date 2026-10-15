@@ -330,6 +330,164 @@
     "E": "8 000 cal."
    },
    "observacoes": ""
+  },
+  {
+   "numero": 81,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Ao meio-dia, a areia de um deserto recebe grande quantidade de energia vinda do Sol. Aquecida, essa areia faz com que as camadas de ar mais próximas fiquem mais quentes do que as camadas de ar mais altas. Essa variação de temperatura altera o índice de refração do ar e contribui para a ocorrência de miragens no deserto, como esquematizado na figura 1.\n\n![Figura 1: palmeira à esquerda e, sob ela, sua imagem invertida; um camelo com cavaleiro à direita; um raio de luz parte do topo da palmeira, descreve uma curva próxima à areia e chega ao observador, e uma linha tracejada liga o observador à imagem da palmeira; legenda: fora de escala](fig:p32-c1)\n\n(www.phy.ntnu.edu.tw. Adaptado.)\n\nPara explicar esse fenômeno, um professor apresenta a seus alunos o esquema da figura 2, que mostra um raio de luz monocromático partindo do topo de uma palmeira, dirigindo-se para a areia e sofrendo refração rasante na interface entre as camadas de ar B e C.\n\n![Figura 2: camadas de ar A, B e C, paralelas e sobre a areia; o raio incide da camada A para a B formando o ângulo α com a normal, atravessa a camada B e segue rasante na interface entre B e C](fig:p32-c4)\n\nSabendo que nesse esquema as linhas que delimitam as camadas de ar são paralelas entre si, que $n_\\text{A}$, $n_\\text{B}$ e $n_\\text{C}$ são os índices de refração das camadas A, B e C, e sendo $\\alpha$ o ângulo de incidência do raio na camada B, o valor de $\\text{sen}\\ \\alpha$ é",
+   "alternativas": {
+    "A": "$\\dfrac{n_\\text{C}}{n_\\text{B}}$",
+    "B": "$\\dfrac{n_\\text{A}}{n_\\text{B}}$",
+    "C": "$\\dfrac{n_\\text{B}}{n_\\text{A}}$",
+    "D": "$\\dfrac{n_\\text{B}}{n_\\text{C}}$",
+    "E": "$\\dfrac{n_\\text{C}}{n_\\text{A}}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 82,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A configuração do campo magnético terrestre causa um efeito chamado inclinação magnética. Devido a esse fato, a agulha magnética de uma bússola próxima à superfície terrestre, se estiver livre, não se mantém na horizontal, mas geralmente inclinada em relação à horizontal (ângulo $\\alpha$, na figura 2). A inclinação magnética é mais acentuada em regiões de maiores latitudes. Assim, no equador terrestre a inclinação magnética fica em torno de 0º, nos polos magnéticos é de 90º, em São Paulo é de cerca de 20º, com o polo norte da bússola apontado para cima, e em Londres é de cerca de 70º, com o polo norte da bússola apontado para baixo.\n\n![Figura 1, O campo magnético terrestre: esquema da Terra com as linhas de indução do campo magnético, o eixo magnético, o eixo de rotação da Terra e o equador. Figura 2, Bússola para medição da inclinação magnética: bússola de agulha em um círculo vertical, com o ângulo α entre a agulha e a horizontal](fig:p32-c5)\n\n(http://museu.fis.uc.pt. Adaptado.)\n\nEsse efeito deve-se ao fato de a agulha magnética da bússola alinhar-se sempre na direção",
+   "alternativas": {
+    "A": "perpendicular às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo sul geográfico da Terra.",
+    "B": "tangente à Linha do Equador e ao fato de o eixo de rotação da Terra coincidir com o eixo magnético que atravessa a Terra.",
+    "C": "tangente às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo norte geográfico da Terra.",
+    "D": "tangente às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo sul geográfico da Terra.",
+    "E": "paralela ao eixo magnético terrestre e ao fato de o polo sul magnético terrestre estar próximo ao polo norte geográfico da Terra."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 83,
+   "materia": "quimica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "Os gráficos mostram o resultado de um experimento de queima de quatro velas de uso comercial, sendo duas do tipo A e duas do tipo B. Tal experimento foi feito para determinar a velocidade de queima das velas A e B em ambientes ventilado e não ventilado.\n\n![Velas tipo A: gráfico da altura da vela (cm) em função do tempo de combustão (min), com duas séries de pontos e duas retas ajustadas](fig:p33-c1)\n\n![Velas tipo B: gráfico da altura da vela (cm) em função do tempo de combustão (min), com duas séries de pontos e duas retas ajustadas](fig:p33-c2)\n\nSendo $h_0$ a altura inicial e $v$ a velocidade de queima de cada vela, os dados obtidos no experimento foram organizados na tabela:\n\n![Tabela com os títulos das colunas em branco: parâmetros da equação da reta; h0 (cm): 12,9; 12,7; 7,6; 7,8; v (cm/min): 0,09; 0,17; 0,11; 0,08](fig:p33-c3)\n\n(Régis C. Leal *et al. Educación Química*, vol. 25, nº 2, 2014. Adaptado.)\n\nDe acordo com a organização dos dados, os títulos faltantes à tabela estão apresentados em",
+   "alternativas": {
+    "A": "![Alternativa A: Velas do tipo B (Ambiente não ventilado, Ambiente ventilado); Velas do tipo A (Ambiente ventilado, Ambiente não ventilado)](fig:p33-c9)",
+    "B": "![Alternativa B: Velas do tipo B (Ambiente ventilado, Ambiente não ventilado); Velas do tipo A (Ambiente ventilado, Ambiente não ventilado)](fig:p33-c10)",
+    "C": "![Alternativa C: Velas do tipo B (Ambiente não ventilado, Ambiente ventilado); Velas do tipo A (Ambiente não ventilado, Ambiente ventilado)](fig:p33-c11)",
+    "D": "![Alternativa D: Ambiente não ventilado (Velas do tipo A, Velas do tipo B); Ambiente ventilado (Velas do tipo A, Velas do tipo B)](fig:p33-c12)",
+    "E": "![Alternativa E: Velas do tipo A (Ambiente não ventilado, Ambiente ventilado); Velas do tipo B (Ambiente não ventilado, Ambiente ventilado)](fig:p33-c13)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 84,
+   "materia": "artes",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "Amilcar de Castro (1920-2002) foi um importante artista brasileiro que se destacou por suas esculturas em ferro. A fotografia mostra uma de suas esculturas, feita a partir de uma chapa originalmente plana e retangular, que se encontra na Praça da Sé, em São Paulo.\n\n![fotografia de escultura em ferro de Amilcar de Castro na Praça da Sé, em São Paulo](fig:p34-f1)\n\n(http://enciclopedia.itaucultural.org.br)\n\nA escultura possui influências do movimento artístico",
+   "alternativas": {
+    "A": "neoconcreto e apresenta um corte e uma dobra na chapa. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa A: quadrado com um arco azul](fig:p34-f2)",
+    "B": "cubista e apresenta um corte na chapa, seguido de soldagem. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa B: quadrado com um arco azul](fig:p34-f3)",
+    "C": "neoclássico e apresenta um corte e uma dobra na chapa. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa C: quadrado com um arco azul](fig:p34-f4)",
+    "D": "neoclássico e apresenta um corte na chapa, seguido de soldagem. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa D: quadrado com um arco azul](fig:p34-f5)",
+    "E": "neoconcreto e apresenta um corte e uma dobra na chapa. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa E: quadrado com uma curva azul em forma de S](fig:p34-f6)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 85,
+   "materia": "matematica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Uma criança está sentada no topo de um escorregador cuja estrutura tem a forma de um triângulo ABC, que pode ser perfeitamente inscrito em um semicírculo de diâmetro AC = 4 m. O comprimento da escada do escorregador é AB = 2 m.\n\n![triângulo ABC inscrito em um semicírculo tracejado de diâmetro AC, com uma criança sentada no vértice B, no topo da escada AB do escorregador BC](fig:p34-f7)\n\nConsiderando que a energia potencial gravitacional da criança no ponto B, em relação ao solo horizontal que está em $\\overline{\\text{AC}}$, é igual a 342 joules, e adotando $g = 5{,}7\\sqrt{3}\\ \\text{m/s}^2$, a massa da criança é igual a",
+   "alternativas": {
+    "A": "30 kg.",
+    "B": "25 kg.",
+    "C": "20 kg.",
+    "D": "24 kg.",
+    "E": "18 kg."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 86,
+   "materia": "matematica",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "Os pontos P e Q sobre a superfície da Terra possuem as seguintes coordenadas geográficas:\n\n| | Latitude | Longitude |\n|---|---|---|\n| P | 30º N | 45º L |\n| Q | 30º N | 15º O |\n\nConsiderando a Terra uma esfera de raio 6 300 km, a medida do menor arco $\\overset{\\frown}{\\text{PQ}}$ sobre a linha do paralelo 30º N é igual a",
+   "alternativas": {
+    "A": "$1\\,150\\pi\\sqrt{3}\\ \\text{km}$",
+    "B": "$1\\,250\\pi\\sqrt{3}\\ \\text{km}$",
+    "C": "$1\\,050\\pi\\sqrt{3}\\ \\text{km}$",
+    "D": "$1\\,320\\pi\\sqrt{3}\\ \\text{km}$",
+    "E": "$1\\,350\\pi\\sqrt{3}\\ \\text{km}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 87,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em relação a um sistema cartesiano de eixos ortogonais com origem em O(0, 0), um avião se desloca, em linha reta, de O até o ponto P, mantendo sempre um ângulo de inclinação de 45º com a horizontal. A partir de P, o avião inicia trajetória parabólica, dada pela função $f(x) = -x^2 + 14x - 40$, com $x$ e $f(x)$ em quilômetros. Ao atingir o ponto mais alto da trajetória parabólica, no ponto V, o avião passa a se deslocar com altitude constante em relação ao solo, representado na figura pelo eixo $x$.\n\n![gráfico de y = f(x), altitude em km, em função de x, em km: o avião sai da origem O com inclinação de 45º até o ponto P, segue a trajetória parabólica até o ponto mais alto V e depois se desloca na horizontal](fig:p35-c1)\n\nEm relação ao solo, do ponto P para o ponto V, a altitude do avião aumentou",
+   "alternativas": {
+    "A": "2,5 km.",
+    "B": "3 km.",
+    "C": "3,5 km.",
+    "D": "4 km.",
+    "E": "4,5 km."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 88,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Dois números reais de 0 a 4, e que podem ser iguais, serão sorteados ao acaso. Denotando-se esses números por $x$ e $y$, a probabilidade de que eles sejam tais que $x^2 + y^2 \\leq 1$ é igual a",
+   "alternativas": {
+    "A": "$\\dfrac{1}{20}$",
+    "B": "$\\dfrac{\\pi}{64}$",
+    "C": "$\\dfrac{\\pi}{20}$",
+    "D": "$\\dfrac{\\pi}{16}$",
+    "E": "$\\dfrac{\\pi}{8}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 89,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em um dia de aula, faltaram 3 alunas e 2 alunos porque os cinco estavam gripados. Dos alunos e alunas que foram à aula, 2 meninos e 1 menina também estavam gripados. Dentre os meninos presentes à aula, a porcentagem dos que estavam gripados era 8% e, dentre as meninas, a porcentagem das que estavam gripadas era 5%. Nos dias em que a turma está completa, a porcentagem de meninos nessa turma é de",
+   "alternativas": {
+    "A": "52%.",
+    "B": "50%.",
+    "C": "54%.",
+    "D": "56%.",
+    "E": "46%."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 90,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um banco estabelece os preços dos seguros de vida de seus clientes com base no índice de risco do evento assegurado. A tabela mostra o cálculo do índice de risco de cinco eventos diferentes.\n\n| Evento (E) | Risco de morte (1 em $n$ mortes) | $\\log n$ | Índice de risco de E (10 – $\\log n$) |\n|---|---|---|---|\n| Atingido por relâmpago | 1 em 2 000 000 | 6,3 | 3,7 |\n| Afogamento | 1 em 30 000 | 4,5 | 5,5 |\n| Homicídio | 1 em 15 000 | 4,2 | 5,8 |\n| Acidente de motocicleta | 1 em 8 000 | 3,9 | 6,1 |\n| Doenças provocadas pelo cigarro | 1 em 800 | 2,9 | 7,1 |\n\nSabe-se que, nesse banco, o índice de risco de morte pela prática do evento *BASE jumping* é igual a 8.\n\nPraticante de *BASE jumping*\n\n![fotografia de um praticante de BASE jumping saltando de um penhasco](fig:p35-f3)\n\n(https://pt.wikipedia.org)\n\nO risco de morte para praticantes desse esporte, segundo a avaliação do banco, é de",
+   "alternativas": {
+    "A": "2,5%.",
+    "B": "2%.",
+    "C": "1%.",
+    "D": "1,5%.",
+    "E": "0,5%."
+   },
+   "observacoes": ""
   }
  ]
 }
