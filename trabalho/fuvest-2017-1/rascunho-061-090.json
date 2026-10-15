@@ -1,0 +1,158 @@
+{
+ "edicao": "fuvest-2017-1",
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 61,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As figuras representam arranjos de fios longos, retilíneos, paralelos e percorridos por correntes elétricas de mesma intensidade. Os fios estão orientados perpendicularmente ao plano desta página e dispostos segundo os vértices de um quadrado. A única diferença entre os arranjos está no sentido das correntes: os fios são percorridos por correntes que entram (⊗) ou saem (⊙) do plano da página.\n\n![Quatro arranjos, I, II, III e IV: quadrados com um fio em cada vértice, marcado com o símbolo de corrente entrando (⊗) ou saindo (⊙) do plano da página](fig:p20-f1)\n\nO campo magnético total é nulo no centro do quadrado apenas em",
+   "alternativas": {
+    "A": "I.",
+    "B": "II.",
+    "C": "I e II.",
+    "D": "II e III.",
+    "E": "III e IV."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 62,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na bateria de um telefone celular e em seu carregador, estão registradas as seguintes especificações:\n\n![Etiquetas. Bateria: 1650 mAh, 3,7 V, 6,1 Wh. Carregador: entrada AC 100 – 240 V, 50 – 60 Hz, 0,2 A; saída DC 5 V; 1,3 A](fig:p20-f2)\n\nCom a bateria sendo carregada em uma rede de 127 V, a potência máxima que o carregador pode fornecer e a carga máxima que pode ser armazenada na bateria são, respectivamente, próximas de\n\n**Note e adote:**\nAC: corrente alternada;\nDC: corrente contínua.",
+   "alternativas": {
+    "A": "25,4 W e 5940 C.",
+    "B": "25,4 W e 4,8 C.",
+    "C": "6,5 W e 21960 C.",
+    "D": "6,5 W e 5940 C.",
+    "E": "6,1 W e 4,8 C."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 63,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura representa uma onda harmônica transversal, que se propaga no sentido positivo do eixo $x$, em dois instantes de tempo: $t = 3\\ \\text{s}$ (linha cheia) e $t = 7\\ \\text{s}$ (linha tracejada).\n\n![Gráfico da amplitude da onda em função de x, em metros, de -3 a 3, com uma senoide em linha cheia e outra em linha tracejada](fig:p20-f4)\n\nDentre as alternativas, a que pode corresponder à velocidade de propagação dessa onda é",
+   "alternativas": {
+    "A": "0,14 m/s",
+    "B": "0,25 m/s",
+    "C": "0,33 m/s",
+    "D": "1,00 m/s",
+    "E": "2,00 m/s"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 64,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Reatores nucleares não são exclusivamente criações humanas. No período pré-cambriano, funcionou na região de Oklo, África, durante centenas de milhares de anos, um reator nuclear natural, tendo como combustível um isótopo do urânio.\n\nPara que tal reator nuclear natural pudesse funcionar, seria necessário que a razão entre a quantidade do isótopo físsil ($^{235}\\text{U}$) e a do urânio $^{238}\\text{U}$ fosse cerca de 3%. Esse é o enriquecimento utilizado na maioria dos reatores nucleares, refrigerados a água, desenvolvidos pelo homem.\n\nO $^{235}\\text{U}$ decai mais rapidamente que o $^{238}\\text{U}$; na Terra, atualmente, a fração do isótopo $^{235}\\text{U}$, em relação ao $^{238}\\text{U}$, é cerca de 0,7%. Com base nessas informações e nos dados fornecidos, pode-se estimar que o reator natural tenha estado em operação há\n\n**Note e adote:**\n$M(t) = M(0)\\ 10^{-\\lambda t}$; $M(t)$ é a massa de um isótopo radioativo no instante $t$.\n$\\lambda$ descreve a probabilidade de desintegração por unidade de tempo.\nPara o $^{238}\\text{U}$, $\\lambda_{238} \\approx 0{,}8 \\times 10^{-10}\\ \\text{ano}^{-1}$.\nPara o $^{235}\\text{U}$, $\\lambda_{235} \\approx 4{,}0 \\times 10^{-10}\\ \\text{ano}^{-1}$.\n$\\log_{10}(0{,}23) \\approx -0{,}64$",
+   "alternativas": {
+    "A": "$1{,}2 \\times 10^{7}$ anos.",
+    "B": "$1{,}6 \\times 10^{8}$ anos.",
+    "C": "$2{,}0 \\times 10^{9}$ anos.",
+    "D": "$2{,}4 \\times 10^{10}$ anos.",
+    "E": "$2{,}8 \\times 10^{11}$ anos."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 65,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em uma aula de laboratório de física, utilizando-se o arranjo experimental esquematizado na figura, foi medido o índice de refração de um material sintético chamado poliestireno. Nessa experiência, radiação eletromagnética, proveniente de um gerador de micro-ondas, propaga-se no ar e incide perpendicularmente em um dos lados de um bloco de poliestireno, cuja seção reta é um triângulo retângulo, que tem um dos ângulos medindo $25^\\circ$, conforme a figura. Um detetor de micro-ondas indica que a radiação eletromagnética sai do bloco propagando-se no ar em uma direção que forma um ângulo de $15^\\circ$ com a de incidência.\n\n![Esquema do experimento: gerador de micro-ondas, onda incidente, bloco de poliestireno em forma de triângulo com ângulo de 25 graus, onda emergente formando 15 graus com a direção incidente e detetor de micro-ondas](fig:p21-f1)\n\nA partir desse resultado, conclui-se que o índice de refração do poliestireno em relação ao ar para essa micro-onda é, aproximadamente,\n\n**Note e adote:**\nÍndice de refração do ar: 1,0\n$\\operatorname{sen}\\,15^\\circ \\approx 0{,}3$\n$\\operatorname{sen}\\,25^\\circ \\approx 0{,}4$\n$\\operatorname{sen}\\,40^\\circ \\approx 0{,}6$",
+   "alternativas": {
+    "A": "1,3",
+    "B": "1,5",
+    "C": "1,7",
+    "D": "2,0",
+    "E": "2,2"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 66,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No início do século XX, Pierre Curie e colaboradores, em uma experiência para determinar características do recém-descoberto elemento químico rádio, colocaram uma pequena quantidade desse material em um calorímetro e verificaram que 1,30 grama de água líquida ia do ponto de congelamento ao ponto de ebulição em uma hora. A potência média liberada pelo rádio nesse período de tempo foi, aproximadamente,\n\n**Note e adote:**\nCalor específico da água: 1 cal/(g·°C)\n1 cal = 4 J\nTemperatura de congelamento da água: 0 °C\nTemperatura de ebulição da água: 100 °C\nConsidere que toda a energia emitida pelo rádio foi absorvida pela água e empregada exclusivamente para elevar sua temperatura.",
+   "alternativas": {
+    "A": "0,06 W",
+    "B": "0,10 W",
+    "C": "0,14 W",
+    "D": "0,18 W",
+    "E": "0,22 W"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 67,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um objeto metálico, X, eletricamente isolado, tem carga negativa $5{,}0 \\times 10^{-12}\\ \\text{C}$. Um segundo objeto metálico, Y, neutro, mantido em contato com a Terra, é aproximado do primeiro e ocorre uma faísca entre ambos, sem que eles se toquem. A duração da faísca é 0,5 s e sua intensidade é $10^{-11}\\ \\text{A}$. No final desse processo, as cargas elétricas totais dos objetos X e Y são, respectivamente,",
+   "alternativas": {
+    "A": "zero e zero.",
+    "B": "zero e $-5{,}0 \\times 10^{-12}\\ \\text{C}$.",
+    "C": "$-2{,}5 \\times 10^{-12}\\ \\text{C}$ e $-2{,}5 \\times 10^{-12}\\ \\text{C}$.",
+    "D": "$-2{,}5 \\times 10^{-12}\\ \\text{C}$ e $+2{,}5 \\times 10^{-12}\\ \\text{C}$.",
+    "E": "$+5{,}0 \\times 10^{-12}\\ \\text{C}$ e zero."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 68,
+   "materia": "fisica",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "Na estratosfera, há um ciclo constante de criação e destruição do ozônio. A equação que representa a destruição do ozônio pela ação da luz ultravioleta solar (UV) é\n\n$$\\text{O}_3 \\xrightarrow{\\text{UV}} \\text{O}_2 + \\text{O}$$\n\nO gráfico representa a energia potencial de ligação entre um dos átomos de oxigênio que constitui a molécula de $\\text{O}_3$ e os outros dois, como função da distância de separação $r$.\n\n![Gráfico da energia potencial de ligação U(r), em 10^-19 J, em função da distância r, em 10^-10 m, com esquema de três átomos de oxigênio e a distância r entre um deles e os outros dois](fig:p21-f4)\n\nA frequência dos fótons da luz ultravioleta que corresponde à energia de quebra de uma ligação da molécula de ozônio para formar uma molécula de $\\text{O}_2$ e um átomo de oxigênio é, aproximadamente,\n\n**Note e adote:**\n$E = hf$\n$E$ é a energia do fóton.\n$f$ é a frequência da luz.\nConstante de Planck, $h = 6 \\times 10^{-34}\\ \\text{J}\\cdot\\text{s}$",
+   "alternativas": {
+    "A": "$1 \\times 10^{15}\\ \\text{Hz}$",
+    "B": "$2 \\times 10^{15}\\ \\text{Hz}$",
+    "C": "$3 \\times 10^{15}\\ \\text{Hz}$",
+    "D": "$4 \\times 10^{15}\\ \\text{Hz}$",
+    "E": "$5 \\times 10^{15}\\ \\text{Hz}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 69,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Dependendo do pH do solo, os nutrientes nele existentes podem sofrer transformações químicas que dificultam sua absorção pelas plantas. O quadro mostra algumas dessas transformações, em função do pH do solo.\n\n![Quadro com os elementos fósforo, magnésio, nitrogênio e zinco e as transformações químicas que cada um sofre em diferentes faixas de pH do solo, de 4 a 11](fig:p22-f1)\n\nPara que o solo possa fornecer todos os elementos citados na tabela, o seu pH deverá estar entre",
+   "alternativas": {
+    "A": "4 e 6.",
+    "B": "4 e 8.",
+    "C": "6 e 7.",
+    "D": "6 e 11.",
+    "E": "8,5 e 11."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 70,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em ambientes naturais e na presença de água e gás oxigênio, a pirita, um mineral composto principalmente por dissulfeto de ferro ($\\text{FeS}_2$), sofre processos de intemperismo, o que envolve transformações químicas que acontecem ao longo do tempo.\n\nUm desses processos pode ser descrito pelas transformações sucessivas, representadas pelas seguintes equações químicas:\n\n$$2\\ \\text{FeS}_2\\ (\\text{s}) + 7\\ \\text{O}_2\\ (\\text{g}) + 2\\ \\text{H}_2\\text{O}\\ (\\ell) \\rightarrow 2\\ \\text{Fe}^{2+}\\ (\\text{aq}) + 4\\ \\text{SO}_4^{2-}\\ (\\text{aq}) + 4\\ \\text{H}^+\\ (\\text{aq})$$\n\n$$2\\ \\text{Fe}^{2+}\\ (\\text{aq}) + \\tfrac{1}{2}\\ \\text{O}_2\\ (\\text{g}) + 2\\ \\text{H}^+\\ (\\text{aq}) \\rightarrow 2\\ \\text{Fe}^{3+}\\ (\\text{aq}) + \\text{H}_2\\text{O}\\ (\\ell)$$\n\n$$2\\ \\text{Fe}^{3+}\\ (\\text{aq}) + 6\\ \\text{H}_2\\text{O}\\ (\\ell) \\rightarrow 2\\ \\text{Fe(OH)}_3\\ (\\text{s}) + 6\\ \\text{H}^+\\ (\\text{aq})$$\n\nConsiderando a equação química que representa a transformação global desse processo, as lacunas da frase “No intemperismo sofrido pela pirita, a razão entre as quantidades de matéria do $\\text{FeS}_2$ (s) e do $\\text{O}_2$ (g) é __________, e, durante o processo, o pH do solo __________” podem ser corretamente preenchidas por",
+   "alternativas": {
+    "A": "1/4; diminui.",
+    "B": "1/4; não se altera.",
+    "C": "2/15; aumenta.",
+    "D": "4/15; diminui.",
+    "E": "4/15; não se altera."
+   },
+   "observacoes": ""
+  }
+ ]
+}
