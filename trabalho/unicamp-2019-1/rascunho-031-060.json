@@ -342,7 +342,7 @@
         "C": "Subtipo IIa.",
         "D": "Subtipo IIb."
       },
-      "observacoes": "Na fonte, o caderno traz 'Mello,Produção' sem espaço após a vírgula; mantido. O gráfico não tem escala numérica própria além do eixo de lignina; os valores só podem ser lidos na figura."
+      "observacoes": "Na fonte, o caderno traz 'Mello,Produção' sem espaço após a vírgula; mantido."
     },
     {
       "numero": 54,
@@ -373,6 +373,84 @@
         "D": "(i) tirosina; (ii) a replicação do DNA; (iii) nucleotídeo dAMP; (iv) pela transcritase como possível precursor do DNA."
       },
       "observacoes": "Na figura das estruturas químicas, o átomo de oxigênio no alto da molécula do ácido úrico fica encostado na faixa cinza do título 'QUESTÃO 55' no caderno e o recorte o mostra um pouco cortado."
+    },
+    {
+      "numero": 56,
+      "materia": "historia",
+      "materias_extra": [
+        "geografia",
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "Raros são os cientistas que se dedicam a medir um único fenômeno. Mais raro ainda são aqueles que alteram o comportamento da humanidade com suas medições. O norte-americano Charles D. Keeling passou a vida medindo a quantidade de $\\text{CO}_2$ existente na atmosfera, demonstrando que a quantidade desse gás está aumentando. Em 1958, muito antes do surgimento dos movimentos ecológicos, Keeling desconfiou de que esse efeito era devido à queima de combustíveis fósseis. Na última década, a hipótese de Keeling foi testada pela análise de bolhas de ar retidas no gelo polar, revelando que a concentração de $\\text{CO}_2$ permaneceu inalterada por milênios, aumentando a partir do século XIX.\n\n(Adaptado de Fernando Reinach, *A longa marcha dos grilos canibais*. São Paulo: Companhia das Letras, 2010, p. 41 - 42.)\n\nOs experimentos com as bolhas de ar do gelo polar indicam que a elevação das emissões de $\\text{CO}_2$",
+      "alternativas": {
+        "A": "é diretamente proporcional à utilização crescente de petróleo (plantas fossilizadas) nos Estados Unidos e na China no século XIX, o que propiciou o desenvolvimento de novos equipamentos, tecnologias e organizações no mundo do trabalho.",
+        "B": "está correlacionada com a utilização crescente de carvão mineral (plantas fossilizadas) durante a Revolução Industrial, que propiciou o uso da energia a vapor e o desenvolvimento de máquinas, levando à produção em larga escala.",
+        "C": "está associada à utilização crescente de petróleo (micro-organismos fossilizados) desde os primórdios da Revolução Industrial, caracterizada pelo uso de máquinas para a produção em larga escala e novas organizações trabalhistas.",
+        "D": "é diretamente proporcional à utilização decrescente de biodiesel (micro-organismos fossilizados) na Inglaterra durante a Revolução Industrial, quando esse país adotou uma matriz energética baseada no consumo de petróleo para fomentar sua economia protecionista."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 57,
+      "materia": "filosofia",
+      "materias_extra": [
+        "historia",
+        "sociologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O texto a seguir, extraído de uma reportagem publicada em um jornal paulista, apresenta conclusões sobre a inclusão de Filosofia e Sociologia no Ensino Médio, a partir de dados levantados pelo IPEA (Instituto de Pesquisa Econômica Aplicada).\n\nA inclusão de Filosofia e Sociologia como disciplinas obrigatórias no Ensino Médio em 2009 prejudicou a aprendizagem de matemática dos jovens brasileiros, principalmente os de baixa renda. A conclusão é de um estudo inédito que será publicado pelo IPEA. Segundo ele, a mudança levou as notas de jovens residentes em municípios com muito baixo Índice de Desenvolvimento Humano (IDH), que engloba aspectos da renda, escolaridade e saúde, a cair 11,8%, 8,8% e 7,7% em redação, matemática e linguagens (que inclui português, língua estrangeira e outras linguagens), respectivamente.\n\n(Adaptado de Érica Fraga, “Filosofia e Sociologia obrigatórias derrubam notas em Matemática”; em *Folha de São Paulo*. 16/04/2018.)\n\nA partir das relações históricas entre as disciplinas mencionadas na reportagem e de uma análise crítica da conclusão da pesquisa, marque a alternativa correta.",
+      "alternativas": {
+        "A": "Desde as diferentes civilizações da Antiguidade até o presente, os conhecimentos matemáticos e filosóficos têm se demonstrado incompatíveis, corroborando as conclusões do texto. Pitágoras, por exemplo, considerava que o cosmo, descrito de forma filosófica, era regido por relações matemáticas.",
+        "B": "A Filosofia e a Matemática constituem campos de saber distintos, sendo a lógica uma das possibilidades de interface entre as duas ciências, distinção que valida as conclusões do texto. Pascal, por exemplo, estabeleceu as bases da análise combinatória a partir de argumentos filosóficos.",
+        "C": "A Filosofia e a Matemática, campos de saber distintos, dialogam para produzir conhecimento científico, o que não respalda as conclusões do texto. Descartes, por exemplo, desenvolveu o plano de coordenadas para representar as relações entre as coisas do mundo e suas proporções matemáticas.",
+        "D": "Desde as diferentes civilizações da Antiguidade até o presente, os conhecimentos matemáticos rivalizam com os conhecimentos filosóficos, como demonstra o texto. Na Academia de Platão, por exemplo, essa disputa era representada pela frase “Quem não é geômetra, não entre”."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 58,
+      "materia": "biologia",
+      "materias_extra": [
+        "matematica"
+      ],
+      "texto_base": null,
+      "enunciado": "Uma população de certa espécie é constituída apenas por três tipos de indivíduos diploides, que diferem quanto ao genótipo em um loco. No total, há um número $N_{AA}$ de indivíduos com genótipo **AA**, $N_{Aa}$ de indivíduos com genótipo **Aa**, e $N_{aa}$ de indivíduos com genótipo **aa**. Considerando apenas o loco exposto no enunciado, a frequência do alelo **A** nessa população é igual a",
+      "alternativas": {
+        "A": "$\\frac{N_{AA}}{N_{AA} + N_{Aa}}$",
+        "B": "$\\frac{N_{AA} + N_{Aa}}{N_{AA} + N_{Aa} + N_{aa}}$",
+        "C": "$N_{AA} + N_{Aa}$",
+        "D": "$\\frac{2N_{AA} + N_{Aa}}{2(N_{AA} + N_{Aa} + N_{aa})}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 59,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os preços que aparecem no cardápio de um restaurante já incluem um acréscimo de 10% referente ao total de impostos. Na conta, o valor a ser pago contém o acréscimo de 10% relativo aos serviços (gorjeta). Se o valor total da conta for $p$ reais, o cliente estará desembolsando pelo custo original da refeição, em reais, a quantia de",
+      "alternativas": {
+        "A": "$p/1{,}20$.",
+        "B": "$p/1{,}21$.",
+        "C": "$p \\times 0{,}80$.",
+        "D": "$p \\times 0{,}81$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 60,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A nota final de um curso é dada pela média aritmética simples entre as notas de duas provas e a de um trabalho. Todas as notas se distribuem entre 0 e 10 e a nota final mínima para aprovação é 7. Para um aluno ser aprovado, é necessário que a média aritmética simples entre as notas das provas seja maior ou igual a",
+      "alternativas": {
+        "A": "2,5.",
+        "B": "5,0.",
+        "C": "5,5.",
+        "D": "7,0."
+      },
+      "observacoes": ""
     }
   ]
 }
