@@ -94,7 +94,9 @@
     return null;
   }
   function figuraDe(edId) {
-    return function (id) { return "img/questoes/" + edId + "/" + id + ".webp"; };
+    // a prévia publicada traz as figuras dentro do JSON da prova (limite de arquivos)
+    var embutidas = (estado.cache[edId] || {}).figuras;
+    return function (id) { return (embutidas && embutidas[id]) || "img/questoes/" + edId + "/" + id + ".webp"; };
   }
   function render(texto, edId) {
     try {
