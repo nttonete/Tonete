@@ -1,0 +1,286 @@
+{
+ "edicao": "unicamp-2021-1",
+ "intervalo": [
+  1,
+  36
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 20,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Equity** is about giving people what they need, in order to make things fair. This is not the same as equality, social justice, nor is it the same as inequality. It is giving more to those who need it, which is proportionate to their own circumstances, in order to ensure that everyone has the same opportunities; for example providing more support to a disadvantaged student so they can reach their full potential.\n\n(Adaptado de https://social-change.co.uk/blog/2019-03-29-equality-and-equity; https://cx.report/2020/06/02/equity/. Acessado em 22/07/2020.)\n\nSabemos que esses conceitos são complexos. Diante disso, o *designer* Tony Ruth os representou graficamente, como ilustram as figuras a seguir. Assinale a alternativa que mais se aproxima do conceito destacado no trecho anterior.",
+   "alternativas": {
+    "A": "![Alternativa A: ilustração com a frase “Acesso desigual a oportunidades”; uma macieira de tronco inclinado, com a copa sobre uma das crianças, que recebe uma maçã caindo; a outra criança está do lado oposto, longe da copa, com um ponto de interrogação acima da cabeça](fig:p08-c1)",
+    "B": "![Alternativa B: ilustração com a frase “Ferramentas distribuídas igualmente”; a mesma árvore inclinada e duas escadas do mesmo tamanho; a criança sob a copa colhe maçãs, e a outra, do lado oposto, não alcança a copa e tem um ponto de exclamação acima da cabeça](fig:p08-c2)",
+    "C": "![Alternativa C: ilustração com a frase “Ferramentas específicas que identificam e lidam com a desigualdade”; a mesma árvore inclinada; a criança do lado oposto está numa escada mais alta, e as duas crianças colhem maçãs](fig:p08-c3)",
+    "D": "![Alternativa D: ilustração com a frase “Corrigir o sistema para oferecer acesso igual a ferramentas e oportunidades”; o tronco da árvore foi endireitado com uma escora e cordas, e as duas crianças, em escadas do mesmo tamanho, colhem maçãs](fig:p08-c4)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 23,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sejam $p(x)$ e $q(x)$ polinômios de grau 2 tais que $p(0) < q(0)$. Sabendo que $p(1) = q(1)$ e $p(-1) = q(-1)$, o gráfico de $f(x) = p(x) - q(x)$ pode ser representado por",
+   "alternativas": {
+    "A": "![Alternativa A: gráfico de y = f(x): parábola com concavidade para cima, que corta o eixo x em −1 e em 1 e tem o vértice abaixo da origem, no eixo y](fig:p09-c1)",
+    "B": "![Alternativa B: gráfico de y = f(x): parábola com concavidade para baixo, que corta o eixo x em −1 e em 1 e tem o vértice acima da origem, no eixo y](fig:p09-c2)",
+    "C": "![Alternativa C: gráfico de y = f(x): curva em forma de V, formada por duas semirretas, que corta o eixo x em −1 e em 1 e tem o bico abaixo da origem, no eixo y](fig:p09-c3)",
+    "D": "![Alternativa D: gráfico de y = f(x): curva que sobe cortando o eixo x em −1, tem um pico no eixo y acima da origem, desce cortando o eixo x em 1, faz um vale e volta a subir, cortando o eixo x mais uma vez](fig:p09-c4)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 28,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo exibe um quadrado $ABCD$ em que $M$ é o ponto médio do lado $CD$.\n\n![Quadrado ABCD, com D e C no lado de cima e A e B no lado de baixo; o ponto M no meio do lado DC; os segmentos MB e AC se cruzam; o ângulo α está em M, entre MC e MB; o ângulo θ está no ponto de cruzamento, entre os trechos que vão para M e para C](fig:p10-c1)\n\nCom base na figura, $\\text{tg}(\\theta) + \\text{tg}(\\alpha)$ é igual a",
+   "alternativas": {
+    "A": "7.",
+    "B": "6.",
+    "C": "5.",
+    "D": "4."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 34,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo mostra o braço de um toca-discos de vinil. Nela são indicadas, nos seus respectivos pontos de atuação, as seguintes forças: peso do braço ($\\vec{P}_B$), peso do contrapeso ($\\vec{P}_C$) e força normal aplicada pelo suporte do braço ($\\vec{N}$). Para que o braço fique em equilíbrio, é necessário que a soma dos torques seja igual a zero. No caso do braço da figura, o módulo do torque de cada força em relação ao ponto $O$ (suporte do braço) é igual ao produto do módulo da força pela distância do ponto de aplicação da força até $O$. Adote torque positivo para forças que tendem a acelerar o braço no sentido horário e torque negativo para o sentido anti-horário. Sendo $|\\vec{P}_C| = 1{,}5\\ \\text{N}$, $|\\vec{P}_B| = 0{,}3\\ \\text{N}$ e $|\\vec{N}| = 1{,}8\\ \\text{N}$, qual deve ser a distância $D$ do contrapeso ao ponto $O$ para que o braço fique em equilíbrio?\n\n![Braço de um toca-discos de vinil apoiado no suporte O; a força N aponta para cima, aplicada em O; o peso do braço P_B aponta para baixo, a 12 cm à esquerda de O; o peso do contrapeso P_C aponta para baixo, à distância D à direita de O](fig:p10-f4)",
+   "alternativas": {
+    "A": "2,0 cm.",
+    "B": "2,4 cm.",
+    "C": "3,6 cm.",
+    "D": "6,0 cm."
+   },
+   "observacoes": "Instrução “use π = 3 e g = 10 m/s²” (questões 33 a 40) repetida só na 33; as questões 34 a 36 não usam esses valores."
+  }
+ ],
+ "complementos": {
+  "1": {
+   "assunto": "Artes visuais",
+   "resolucao": "O excerto de Shusterman aproxima o *rap* das \"artes maiores\": as duas trabalham com **apropriação** de materiais já existentes (trechos de canções, discursos, imagens prontas) de modo \"imaginativo\". O exemplo dado é a \"Mona Lisa de bigode\", em que Duchamp se apropria de uma obra consagrada e a altera com ironia.\n\nA alternativa B faz exatamente essa comparação: os Racionais Mc's incorporam referências culturais assim como Duchamp pinta o bigode na Mona Lisa, e ambos fazem disso um gesto imaginativo e crítico.\n\nA e C negam o valor artístico ou a possibilidade de comparação, o contrário do que diz o texto. D erra ao dizer que essas obras são \"destituídas de crítica social\": o *rap* dos Racionais é conhecido justamente pela crítica social.\n\n**Resposta: B**"
+  },
+  "2": {
+   "assunto": "Literatura portuguesa",
+   "resolucao": "O enunciado diz que a imagem do marinheiro muda de sentido com a época, mas \"conserva um elemento permanente\". Em Camões (*Os Lusíadas*), o navegador encarna a aventura coletiva do povo português que enfrenta o mar desconhecido; em Fernando Pessoa (*Mensagem*, \"Mar Português\"), o mar continua sendo o lugar do risco e da travessia, tanto da nação quanto do sujeito (\"Quem quer passar além do Bojador / Tem que passar além da dor\").\n\nO elemento comum é a identidade, coletiva e individual, construída sob o signo da mudança, do risco e da travessia (B).\n\nAs demais alternativas reduzem a imagem a moralismo religioso (A), a degradação moral e cobiça (C) ou a ideais econômicos (D), sentidos que não sustentam a figura do marinheiro nos dois poetas.\n\n**Resposta: B**"
+  },
+  "3": {
+   "assunto": "Quinhentismo e Barroco",
+   "resolucao": "O soneto trata da mudança universal (tempos, vontades, natureza), mas o fecho dá a virada: \"Outra mudança faz de mor espanto, / Que não se muda já como soía\". Ou seja, até a própria mudança mudou: ela já não acontece como de costume.\n\nAlém disso, a mudança atinge o eu lírico (\"E em mim converte em choro o doce canto\"). Assim, não só o estado de espírito do poeta se altera, como também a sua experiência da própria mudança (D).\n\nA está errada porque a mudança é vista com desencanto, não com esperança (\"Diferentes em tudo da esperança\"). B erra ao dizer que a mudança não afeta o poeta. C inverte o sentido: as novidades são diferentes da esperança, e as mágoas e saudades vêm do mal e do bem passados.\n\n**Resposta: D**"
+  },
+  "4": {
+   "assunto": "Realismo e Naturalismo",
+   "resolucao": "Em \"O espelho\", Jacobina conta sua história a quatro cavalheiros reunidos numa casa em Santa Teresa. A interlocução aparece quando o narrador se dirige diretamente aos ouvintes, com verbos na 2ª pessoa do plural.\n\nEm C, \"**Imaginai** um homem que, pouco a pouco, emerge de um letargo...\" é um imperativo dirigido aos presentes: o narrador pede que eles imaginem a cena.\n\nAs outras alternativas são trechos narrativos ou descritivos em 1ª ou 3ª pessoa (lembranças de A, a exclamação sobre os \"malvados\" em B, a descrição do espelho em D), sem chamar os ouvintes.\n\n**Resposta: C**"
+  },
+  "5": {
+   "assunto": "Pré-Modernismo",
+   "resolucao": "Em *A Falência*, Nina vive um amor sem esperança (ela ama Mário, filho de Camila, que não a corresponde). Quando Noca anuncia o espelho quebrado e a superstição \"morte ou ruína\", Nina responde: \"Morte! Se fosse a minha...\".\n\nA fala não expressa medo, e sim **desejo** de morrer: a morte seria um alívio para a frustração amorosa (A).\n\nB e C falam em temor ou certeza da morte, o que não corresponde ao tom da fala (\"Se fosse a minha...\"). D atribui o desejo à catástrofe do casamento, mas Nina não é casada; o casamento em crise é o de Camila e Francisco Teodoro.\n\n**Resposta: A**"
+  },
+  "6": {
+   "assunto": "Quinhentismo e Barroco",
+   "resolucao": "Vieira repete a mesma estrutura (\"em idades, em anos, em meses, em dias, em horas\"; \"nem idade tão..., nem saúde tão..., nem vida tão...\") para fracionar a vida em partes cada vez menores e mostrar que nenhuma delas é segura.\n\nO efeito dessas anáforas é convencer o fiel de que o tempo passa e de que a vida é incerta: é o **desengano** barroco, a consciência da fragilidade da vida diante da morte (A).\n\nB e D distorcem o argumento: o sermão não fala do temor de viver muito nem da insegurança da vida cristã, e sim da insegurança de qualquer vida. C inverte o sentido, porque o sermão não exalta o valor de cada etapa, mas a incerteza de todas.\n\n**Resposta: A**"
+  },
+  "7": {
+   "assunto": "Interpretação de texto literário",
+   "resolucao": "Starling destaca o sentido **político** de sertão: \"a inexistência de limites, o território do vazio, a ausência de leis, a precariedade dos direitos\", ao mesmo tempo liberdade e risco de barbárie.\n\nO excerto de Guimarães Rosa (C) traduz isso: o sertão é onde \"os pastos carecem de fechos\" (sem limites), onde se anda léguas \"sem topar com casa de morador\" (vazio) e onde \"criminoso vive seu cristo-jesus, arredado do arrocho de autoridade\" (ausência de lei).\n\nA fala da monotonia e da infinitude; B descreve a seca e a paisagem; D descreve o sertão fértil depois das chuvas. Nenhuma delas trata da ausência de leis e de direitos.\n\n**Resposta: C**"
+  },
+  "8": {
+   "assunto": "Figuras de linguagem",
+   "resolucao": "Paradoxo é a união de ideias que parecem se excluir, mas que juntas produzem um sentido verdadeiro.\n\nEm \"Toda saudade é presença / da ausência de alguém\" (D), a saudade é definida como **presença** de uma **ausência**: os termos são opostos e, mesmo assim, a frase faz sentido, pois quem sente saudade sente a falta de alguém como algo presente.\n\nEm A há jogo de palavras com \"viramundo\"/\"virado\"/\"mundo\"; em B, a luta da vida para não morrer não é contraditória; em C há antítese entre \"dia\" e \"noite\", mas sem afirmação contraditória.\n\n**Resposta: D**"
+  },
+  "9": {
+   "assunto": "Gênero e raça",
+   "resolucao": "As frases originais romantizam a maternidade como sacrifício natural e sublime (\"o trabalho mais difícil do mundo\", \"padecer no paraíso\", amor \"natural, profundo e eterno\"). As correções da AzMina mostram outro lado: é um trabalho \"não remunerado e muito explorado\", a mãe \"também quer curtir o paraíso\" e o amor materno é \"construído e social\".\n\nOu seja, o grupo reconhece a **sobrecarga** imposta às mães e trata a maternidade como construção social, aberta a outras formas de exercê-la (C).\n\nA e D repetem justamente a visão romantizada (sofrimento como vocação, maternidade heroica e instintiva). B contradiz as frases, que falam em trabalho não remunerado.\n\n**Resposta: C**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 20,
+   "status": "corrigida",
+   "notas": "descrições das figuras das alternativas completadas (só traziam a frase; faltava o que a cena mostra, para leitor de tela)"
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 22,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 23,
+   "status": "corrigida",
+   "notas": "descrições dos gráficos das alternativas completadas (diziam só “gráfico de y = f(x)”, inúteis para leitor de tela numa questão que pergunta justamente o formato do gráfico)"
+  },
+  {
+   "numero": 24,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 25,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 26,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 27,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 28,
+   "status": "corrigida",
+   "notas": "descrição da figura passou a dizer onde estão α e θ (necessário para resolver sem ver a imagem)"
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 30,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 34,
+   "status": "corrigida",
+   "notas": "descrição da figura passou a dizer onde atuam N, P_B e P_C e as distâncias (necessário para resolver sem ver a imagem)"
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 36,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}

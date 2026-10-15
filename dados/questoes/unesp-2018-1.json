@@ -1186,6 +1186,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Ecologia",
+   "resolucao": "A cadeia da notícia é: vegetação (produtores, barra 1) → parasitas que comem as plantas (barra 2) → joaninhas, predadoras dos parasitas (barra 3, o nível mais alto).\n\nA pirâmide de energia nunca é invertida: a cada nível passa só uma fração da energia (o resto se perde como calor na respiração), então a base é sempre a maior barra. Só a pirâmide II tem esse formato.\n\nNa pirâmide de biomassa de um ambiente terrestre, as plantas também concentram a maior massa e os consumidores vêm em quantidades cada vez menores; por isso ela também tem o formato da II.\n\nA pirâmide I (base estreita, meio largo) é típica de **número de indivíduos** quando poucas plantas grandes sustentam muitos insetos, e a III (invertida) não serve para energia.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -1204,6 +1206,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Fisiologia humana",
+   "resolucao": "Os testes de gravidez detectam a **gonadotrofina coriônica humana (HCG)**, hormônio produzido pelo embrião (e depois pela placenta) logo após a implantação no útero.\n\nO HCG entra na circulação da mãe e é filtrado pelos rins, aparecendo também na urina. Se o teste de farmácia (urina) e o exame de sangue deram positivo, o hormônio estava em concentração **alta nos dois** meios.\n\nAs alternativas com progesterona e FSH falham porque não são esses os hormônios detectados nos testes; a alternativa A falha porque uma concentração baixa na urina não daria resultado positivo.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -1222,6 +1226,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Ecologia",
+   "resolucao": "A cor verde da \"orelha-de-pau\" vem de algas (ou cianobactérias) associadas ao fungo, formando um **líquen**: dois organismos vivendo juntos em mutualismo.\n\nPor isso Ricardo acertou: há um organismo **autótrofo** (a alga, que faz fotossíntese) e outro **heterótrofo** (o fungo).\n\nPaula e Gilberto erram porque fungos não fazem fotossíntese. Tiago erra ao chamar a associação de musgo (musgo é uma planta, uma briófita). Fernanda, a distratora mais tentadora, acerta o nome líquen, mas inverte os papéis: quem fornece carboidratos é a alga; o fungo fornece água, sais minerais e proteção.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1240,6 +1246,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Botânica",
+   "resolucao": "A abertura dos estômatos depende da turgidez das células-guarda.\n\nCom água disponível (condição 2, planta irrigada e túrgida), as células-guarda recebem íons $\\text{K}^+$ bombeados das células acessórias. A concentração de solutos aumenta, entra água por osmose, as células-guarda ficam túrgidas e o ostíolo se **abre**.\n\nSob restrição hídrica (condição 1), ocorre o inverso: o $\\text{K}^+$ sai das células-guarda, elas perdem água, ficam flácidas e os estômatos se fecham, o que reduz a transpiração.\n\nA alternativa C também diz \"abertos na condição 2\", mas descreve o bombeamento no sentido errado (para fora das células-guarda), o que causaria fechamento.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -1258,6 +1266,8 @@
    },
    "anulada": false,
    "gabarito": "A",
+   "assunto": "Botânica",
+   "resolucao": "A linha 2 é constante: é a **respiração**, que não depende da luz. A linha 1 cresce com a luz até saturar: é a **fotossíntese**.\n\nNo ponto B as duas taxas se igualam: é o **ponto de compensação luminosa**.\n\nEntre A e B, a respiração supera a fotossíntese: a planta consome mais matéria orgânica do que produz. Acima de B, a fotossíntese supera a respiração e sobra matéria orgânica, o que permite aumento de biomassa (crescimento).\n\nA alternativa C inverte as linhas; a E erra porque a respiração não varia com a luz; a B e a D erram porque entre B e C já há produção líquida e, após C, a fotossíntese continua maior que a respiração.\n\n**Resposta: A**",
    "revisao": "ok"
   },
   {
@@ -1276,6 +1286,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Embriologia e histologia",
+   "resolucao": "O âmnio é a membrana que envolve o embrião e forma a **cavidade amniótica**, cheia de líquido.\n\nEsse líquido funciona como um \"aquário particular\": mantém o embrião úmido, impedindo a **dessecação** em ambiente terrestre, e amortece **choques mecânicos**.\n\nAs demais funções citadas pertencem a outros anexos embrionários: o saco vitelínico armazena vitelo (A), o alantoide armazena excretas (B) e participa das trocas gasosas (C), e a rede de vasos que leva nutrientes ao embrião se forma no saco vitelínico e, nos mamíferos, na placenta (E).\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -1294,6 +1306,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Zoologia",
+   "resolucao": "A chave é o sistema respiratório de cada animal.\n\nA barata é um inseto com **respiração traqueal**: o ar entra por pequenos orifícios na superfície do corpo, os espiráculos. Uma camada generosa de antitranspirante pode obstruí-los, e ela morreria por falta de oxigênio nas células.\n\nA lagartixa é um réptil de **respiração pulmonar**: o ar entra pelas narinas e vai aos pulmões, e a pele seca e escamosa não participa da respiração. Além disso, répteis não têm glândulas sudoríparas, então o produto não interfere no controle da temperatura. Ela sobreviveria.\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -1312,6 +1326,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Genética",
+   "resolucao": "A Primeira Lei de Mendel (segregação) diz que os dois alelos de um gene se separam na formação dos gametas. Isso acontece nas duas espécies: cada gameta recebe apenas A ou a, e apenas B ou b.\n\nA Segunda Lei (segregação independente) exige que os genes estejam em **cromossomos diferentes**, para que a combinação de um par não dependa da do outro.\n\nNa espécie 1, os genes estão ligados no mesmo cromossomo (A com b e a com B); sem permutação, só se formam os gametas Ab e aB, e a Segunda Lei não se verifica. Na espécie 2, os genes estão em pares diferentes e formam-se os quatro tipos de gametas (AB, Ab, aB, ab) em proporções iguais.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -1330,6 +1346,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "Num mesmo período, a densidade cresce do início até o centro (metais de transição) e depois cai. Por isso o metal de transição **Co** (cerca de $8{,}9\\ \\text{g/cm}^3$) é muito mais denso que K (metal alcalino, menos denso que a água), As e Br.\n\nA eletronegatividade cresce da esquerda para a direita no período (desconsiderando os gases nobres). Dos quatro, o mais à direita é o halogênio **Br**.\n\nA distratora \"Co e As\" erra porque o As fica antes do Br no período.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -1348,6 +1366,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Como o gráfico é uma reta que passa pela origem, a razão entre as massas é constante e vale a inclinação da reta.\n\nLendo um ponto do gráfico: para $m_{\\text{NaHCO}_3} = 80\\ \\text{g}$, obtém-se $m_{\\text{Na}_2\\text{CO}_3} \\approx 52\\ \\text{g}$ (o mesmo vale para 60 g → cerca de 39 g).\n\n$k = \\frac{52}{80} \\approx 0{,}65 \\approx 0{,}7$\n\nIsso concorda com a estequiometria: $2\\,\\text{NaHCO}_3 \\to \\text{Na}_2\\text{CO}_3 + \\text{H}_2\\text{O} + \\text{CO}_2$, ou seja, 168 g de bicarbonato dão 106 g de carbonato, e $\\frac{106}{168} \\approx 0{,}63$.\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -1366,6 +1386,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Soluções",
+   "resolucao": "Valor médio dos limites: $\\frac{0{,}2 + 5{,}0}{2} = 2{,}6\\ \\text{mg/L}$.\n\nCom densidade igual à da água pura, 1 L de água tem massa de 1 kg $= 10^6\\ \\text{mg}$. Assim, 2,6 mg de cloro em $10^6$ mg de água correspondem a 2,6 partes por milhão.\n\nEm soluções aquosas diluídas, vale a regra prática $1\\ \\text{mg/L} = 1\\ \\text{ppm}$.\n\nA alternativa A (5,2 ppm) é a soma dos limites, sem dividir por 2.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1384,6 +1406,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Equilíbrio químico",
+   "resolucao": "A solução já está **saturada**: a água dissolveu o máximo de NaCℓ possível naquela temperatura.\n\nAcrescentando mais sal sólido, sem mudar a temperatura, nada mais se dissolve. A porção nova vai para o fundo: a **quantidade de corpo de fundo aumenta**.\n\nA concentração de íons $\\text{Na}^+$ e $\\text{C}\\ell^-$ na solução continua igual à de saturação, então **não se altera**; como a condutibilidade elétrica depende dessa concentração de íons, ela também **não se altera**. Um sólido não altera o equilíbrio, pois não entra na expressão da constante.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1402,6 +1426,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Termoquímica",
+   "resolucao": "Os diagramas dão as entalpias de formação: $\\text{C}_2\\text{H}_2$: $+227\\ \\text{kJ/mol}$; $\\text{CO}_2$: $-393\\ \\text{kJ/mol}$; $\\text{H}_2\\text{O}\\ (\\ell)$: $-286\\ \\text{kJ/mol}$ (substâncias simples valem zero).\n\nCombustão completa: $\\text{C}_2\\text{H}_2 + \\frac{5}{2}\\,\\text{O}_2 \\to 2\\,\\text{CO}_2 + \\text{H}_2\\text{O}$\n\n$\\Delta H = \\sum H_{\\text{produtos}} - \\sum H_{\\text{reagentes}} = [2 \\cdot (-393) + (-286)] - [227 + 0]$\n\n$\\Delta H = -1072 - 227 = -1299\\ \\text{kJ}$\n\nA distratora mais comum é esquecer de subtrair a entalpia do acetileno ou trocar o sinal dela.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1420,6 +1446,8 @@
    },
    "anulada": false,
    "gabarito": "A",
+   "assunto": "Eletroquímica",
+   "resolucao": "Calcule o número de oxidação (Nox) do enxofre no início e no fim.\n\nNo sulfato, $\\text{SO}_4^{2-}$: $x + 4 \\cdot (-2) = -2 \\Rightarrow x = +6$.\n\nNo sulfeto de hidrogênio, $\\text{H}_2\\text{S}$: $2 \\cdot (+1) + x = 0 \\Rightarrow x = -2$ (o mesmo do íon $\\text{S}^{2-}$; a segunda etapa é só uma reação ácido-base, sem mudança de Nox).\n\nVariação: de $+6$ para $-2$, o Nox **diminui 8 unidades**, o que confirma que as bactérias **reduzem** o sulfato, como diz o texto.\n\n**Resposta: A**",
    "revisao": "ok"
   },
   {
@@ -1438,6 +1466,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Química orgânica",
+   "resolucao": "Contando os átomos, as duas substâncias têm a fórmula molecular $\\text{C}_7\\text{H}_8\\text{O}$, mas estruturas diferentes: são **isômeros** (de função).\n\nNo ortocresol, o OH está ligado diretamente ao anel aromático (função **fenol**); no álcool benzílico, o OH está num carbono saturado fora do anel (função **álcool**). Por isso A está errada.\n\nAs duas têm anel benzênico, então são aromáticas, não alifáticas (C). O oxigênio está na ponta da cadeia, ligado a um carbono e a um hidrogênio, e não entre dois carbonos, então não é heteroátomo (D). Nenhuma tem carbono com quatro ligantes diferentes (E).\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -1456,6 +1486,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Cinemática",
+   "resolucao": "Velocidade média habitual: $v = \\frac{5{,}0\\ \\text{km}}{0{,}5\\ \\text{h}} = 10\\ \\text{km/h}$.\n\nReduzindo 40%: $v' = 0{,}6 \\cdot 10 = 6{,}0\\ \\text{km/h}$.\n\nTempo na São Silvestre: $\\Delta t = \\frac{15\\ \\text{km}}{6{,}0\\ \\text{km/h}} = 2{,}5\\ \\text{h} = 2\\text{h}30\\text{min}$.\n\nCuidado para não confundir $2{,}5\\ \\text{h}$ com 2h50min, nem aplicar a redução de 40% ao tempo em vez da velocidade.\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -1474,6 +1506,8 @@
    },
    "anulada": false,
    "gabarito": "A",
+   "assunto": "Energia e trabalho",
+   "resolucao": "Energia que vai para as molas: $0{,}45 \\cdot 160 = 72\\ \\text{J}$.\n\nPor mola: $\\frac{72}{32} = 2{,}25\\ \\text{J}$.\n\nEssa energia fica armazenada como energia potencial elástica, com $x = 3{,}0\\ \\text{mm} = 3{,}0 \\times 10^{-3}\\ \\text{m}$:\n\n$E = \\frac{k x^2}{2} \\Rightarrow k = \\frac{2E}{x^2} = \\frac{2 \\cdot 2{,}25}{(3{,}0 \\times 10^{-3})^2} = \\frac{4{,}5}{9{,}0 \\times 10^{-6}} = 5{,}0 \\times 10^{5}\\ \\text{N/m}$\n\nA alternativa D ($5{,}0 \\times 10^{3}$) aparece para quem converte 3,0 mm em $3{,}0 \\times 10^{-2}$ m, errando a conversão.\n\n**Resposta: A**",
    "revisao": "ok"
   },
   {
@@ -1492,6 +1526,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Na explosão, as forças internas não alteram a quantidade de movimento horizontal do sistema. Com $M_A = 2M_B$, a massa total é $3M_B$:\n\n$3M_B \\cdot V_H = 2M_B \\cdot V_A + M_B \\cdot 5V_H \\Rightarrow 2V_A = -2V_H \\Rightarrow V_A = -V_H$\n\nO fragmento A sai na horizontal com a mesma rapidez $V_H$, mas **para trás**.\n\nComo a explosão ocorre no ponto mais alto, A cai da mesma altura de onde o projétil levaria o mesmo tempo para descer, e o tempo de queda é igual ao de subida. Na subida, o projétil andou horizontalmente $2d$ (de II a IV) com velocidade $V_H$; na queda, A anda $2d$ para trás, partindo de IV, e chega ao ponto **II**.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -1510,6 +1546,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Termologia",
+   "resolucao": "Leia cada curva no gráfico (valores negativos = calor perdido).\n\nA curva E (evaporação) vale cerca de $-135$ a 40 °C e vai subindo até ficar perto de $-10$ abaixo de 20 °C: nessa faixa, a perda por evaporação **se aproxima de zero**, como diz a alternativa D.\n\nAs outras falham: entre 36 °C e 40 °C, o ganho por RC (até cerca de +58) é menor que a perda por evaporação (A); a 20 °C, a perda por RC (cerca de $-120$) é bem maior que por evaporação (B); a soma das perdas a 32 °C (cerca de $-80$) é menor que em temperaturas mais baixas, como 16 °C (C); a 36 °C só a troca por RC é nula, mas a evaporação continua retirando calor (E).\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -1528,6 +1566,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Óptica",
+   "resolucao": "O elemento óptico precisa produzir **dispersão**: separar a luz em suas cores (comprimentos de onda), como mostra o leque colorido que chega ao detector.\n\nUm **prisma** faz isso porque o índice de refração do vidro depende da frequência da luz: cada cor sofre um desvio diferente ao atravessá-lo.\n\nEspelhos (planos ou convexos) refletem todas as cores igualmente e não separam o feixe. Lentes também refratam, mas são feitas para convergir ou divergir o feixe; elas não produzem o espectro aberto mostrado na figura.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -1548,6 +1588,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Ondulatória",
+   "resolucao": "Encontre a intensidade a partir do nível sonoro:\n\n$60 = 10\\,\\log\\frac{I}{10^{-12}} \\Rightarrow \\frac{I}{10^{-12}} = 10^{6} \\Rightarrow I = 10^{-6}\\ \\text{W/m}^2$\n\nPotência que atinge o tímpano: $P = I \\cdot A = 10^{-6} \\cdot 6{,}0 \\times 10^{-5} = 6{,}0 \\times 10^{-11}\\ \\text{W}$.\n\nEnergia em 5,0 s: $E = P \\cdot \\Delta t = 6{,}0 \\times 10^{-11} \\cdot 5{,}0 = 3{,}0 \\times 10^{-10}\\ \\text{J}$.\n\n**Resposta: C**",
    "revisao": "corrigida"
   },
   {
@@ -1566,6 +1608,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Eletrodinâmica",
+   "resolucao": "No circuito, bateria, lâmpada e resistor estão em série; um multímetro mede a tensão na lâmpada ($U$) e o outro, a corrente no circuito ($i$).\n\nComo a bateria e os fios são ideais, a tensão de 9,0 V se divide entre a lâmpada e o resistor:\n\n$U_R = 9{,}0 - 5{,}70 = 3{,}30\\ \\text{V}$\n\nA corrente é a mesma em série: $R = \\frac{U_R}{i} = \\frac{3{,}30}{0{,}15} = 22\\ \\Omega$.\n\nQuem usa os 5,70 V da lâmpada encontra 38 Ω, que não está entre as opções; quem usa os 9,0 V inteiros encontra 60 Ω.\n\n**Resposta: E**",
    "revisao": "corrigida"
   },
   {
@@ -1584,6 +1628,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Cada dose cai pela metade a cada 2 horas. As doses são tomadas nas horas 0, 6 e 12; na 14ª hora, some o que resta de cada uma:\n\n- dose da hora 0 (passaram 14 h = 7 meias-vidas): $800 \\cdot \\left(\\frac{1}{2}\\right)^7 = 6{,}25\\ \\text{mg}$\n- dose da hora 6 (passaram 8 h = 4 meias-vidas): $800 \\cdot \\left(\\frac{1}{2}\\right)^4 = 50\\ \\text{mg}$\n- dose da hora 12 (passaram 2 h = 1 meia-vida): $800 \\cdot \\frac{1}{2} = 400\\ \\text{mg}$\n\nTotal: $6{,}25 + 50 + 400 = 456{,}25\\ \\text{mg}$.\n\nA alternativa D (6,25 mg) considera só a primeira dose.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -1602,6 +1648,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Geometria analítica",
+   "resolucao": "Pela figura, os vértices são A(0, 3), B(0, 15), C(20, 9) e D(10, 0).\n\nUma forma simples: divida o trapézio pela diagonal AC em dois triângulos.\n\nTriângulo ABC: base AB sobre o eixo $y$, de medida $15 - 3 = 12$, e altura igual à distância de C ao eixo $y$, 20. Área $= \\frac{12 \\cdot 20}{2} = 120$.\n\nTriângulo ACD, pela fórmula do determinante: $\\frac{1}{2}\\left|0(9 - 0) + 20(0 - 3) + 10(3 - 9)\\right| = \\frac{1}{2}\\left|-60 - 60\\right| = 60$.\n\nÁrea do trapézio: $120 + 60 = 180$.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1620,6 +1668,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Geometria plana",
+   "resolucao": "A área do retângulo do candidato 1 é $4{,}5 \\cdot 2 = 9\\ \\text{cm}^2$ e corresponde a 6,25% do total.\n\nÁrea do quadrado: $\\frac{9}{0{,}0625} = 144\\ \\text{cm}^2$, então o lado mede 12 cm.\n\nO candidato 2 ocupa um retângulo de altura 12 cm e largura $12 - 4{,}5 = 7{,}5$ cm: área $= 90\\ \\text{cm}^2$.\n\nPorcentagem: $\\frac{90}{144} = 0{,}625 = 62{,}50\\%$. (Confere: o candidato 3 tem $4{,}5 \\cdot 10 = 45\\ \\text{cm}^2$, ou 31,25%, e $6{,}25 + 62{,}5 + 31{,}25 = 100$.)\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1638,6 +1688,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Funções",
+   "resolucao": "Escreva as duas retas, com $t$ em anos.\n\nConcreto: cai de 35 para 25 em 6 anos, taxa $-\\frac{10}{6} = -\\frac{5}{3}$ por ano: $C(t) = 35 - \\frac{5}{3}t$.\n\nAsfalto: sobe de 10 para 16 em 6 anos, taxa 1 por ano: $A(t) = 10 + t$.\n\nIgualando: $35 - \\frac{5}{3}t = 10 + t \\Rightarrow 25 = \\frac{8}{3}t \\Rightarrow t = \\frac{75}{8} = 9{,}375$ anos.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -1656,6 +1708,8 @@
    },
    "anulada": false,
    "gabarito": "A",
+   "assunto": "Progressões",
+   "resolucao": "Contando na malha: a figura 1 é um quadrado de $9 \\times 9$, com área 81 cm².\n\nNa figura 2, o quadrado é dividido em 9 partes de $3 \\times 3$ e ficam 5 delas: área $5 \\cdot 9 = 45$ cm². A cada etapa a área é multiplicada por $q = \\frac{45}{81} = \\frac{5}{9}$ (na figura 3: 25 quadradinhos de 1 cm²).\n\nTermo geral da PG: $a_5 = a_1 \\cdot q^4 = 81 \\cdot \\left(\\frac{5}{9}\\right)^4 = 81 \\cdot \\frac{625}{6561} = \\frac{625}{81}$ cm².\n\n**Resposta: A**",
    "revisao": "ok"
   },
   {
@@ -1674,6 +1728,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Geometria analítica",
+   "resolucao": "O raio da circunferência é a distância da origem a Q(3, 3):\n\n$r = \\sqrt{3^2 + 3^2} = \\sqrt{18} = 3\\sqrt{2}$\n\nP está no eixo $y$ (na parte positiva, pela figura), então P $= (0, \\sqrt{18})$.\n\nR está em $y = \\sqrt{x}$ com a mesma ordenada de P: $\\sqrt{x} = \\sqrt{18} \\Rightarrow x = 18$.\n\nA alternativa A (9) aparece para quem toma a ordenada de P como 3, a mesma de Q.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -1692,6 +1748,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Trigonometria",
+   "resolucao": "Use a simetria do cosseno, com $\\cos 72^\\circ = 0{,}309$.\n\nB está no trecho em que o cosseno volta a crescer, depois do mínimo em $180^\\circ$, com valor $-0{,}309$. Como $\\cos(180^\\circ + \\alpha) = -\\cos\\alpha$: $x_B = 180^\\circ + 72^\\circ = 252^\\circ$.\n\nC é o ponto da mesma volta com cosseno $0{,}309$ de novo, no 4º quadrante. Como $\\cos(360^\\circ - \\alpha) = \\cos\\alpha$: $x_C = 360^\\circ - 72^\\circ = 288^\\circ$.\n\n$x_B + x_C = 252^\\circ + 288^\\circ = 540^\\circ$.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1710,6 +1768,8 @@
    },
    "anulada": false,
    "gabarito": "A",
+   "assunto": "Funções",
+   "resolucao": "Reescreva a expressão: $\\frac{2-x}{x} = \\frac{2}{x} - 1$. Analise os dois trechos possíveis de $x$.\n\nSe $0 < x \\le 2$: $\\frac{2}{x} \\ge 1$, então $\\frac{2}{x} - 1 \\ge 0$ (vale 0 em $x = 2$ e cresce sem limite quando $x$ se aproxima de 0).\n\nSe $-4 \\le x < 0$: $\\frac{2}{x} \\le -\\frac{1}{2}$, então $\\frac{2}{x} - 1 \\le -1{,}5$ (vale $-1{,}5$ em $x = -4$ e decresce sem limite quando $x$ se aproxima de 0).\n\nO número está sempre em $]-\\infty;\\ -1{,}5] \\cup [0;\\ +\\infty[$, que é a reunião de intervalos destacada na alternativa A.\n\n**Resposta: A**",
    "revisao": "ok"
   }
  ]
