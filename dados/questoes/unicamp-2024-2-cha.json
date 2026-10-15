@@ -12,7 +12,8 @@
    "caderno": "2fase-dia2-cha-caderno.pdf",
    "gabarito": null,
    "respostas": [
-    "2fase-dia2-cha-respostas.pdf"
+    "2fase-dia2-cha-respostas.pdf",
+    "2fase-dia2-cha-comentada.pdf"
    ]
   }
  },
@@ -37,8 +38,9 @@
      "resposta_oficial": "A temperatura mínima prevista é maior do que 17 nos dias: 19, 20, 23, 24, 25, 26. Portanto, a probabilidade de que a mudança seja num dia em que a mínima é maior do que 17 é de 6/13."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão exibe um gráfico de temperaturas máximas e mínimas e pede para o candidato fazer algumas análises sobre o gráfico. Em primeiro lugar, ele precisa calcular a média das temperaturas. Depois, na (b), ele precisa usar o conceito básico de probabilidade para conseguir efetuar o cálculo solicitado.",
+   "assunto": "Estatística",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q05",
@@ -59,8 +61,9 @@
      "resposta_oficial": "Para uma parábola de equação $y = ax^2 + bx + c$, as coordenadas do vértice da parábola são $(x_V, y_V) = \\left(-\\frac{b}{2a}, -\\frac{\\Delta}{4a}\\right)$. Para $k = 1$ e $b = 3$, temos que $f(x) = x^2 - 3x + 4$ e daí $\\Delta = -7$. Portanto, as coordenadas do vértice são $\\left(\\frac{3}{2}, \\frac{7}{4}\\right)$.\n\nA distância deste ponto até a origem é\n\n$$d = \\sqrt{\\left(\\frac{3}{2}\\right)^2 + \\left(\\frac{7}{4}\\right)^2} = \\frac{\\sqrt{85}}{4}.$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda um tema clássico do programa: os polinômios de grau 2. A noção de simetria de uma parábola é muito importante para resolver esta questão, bem como técnicas para resolver equações quadráticas. Para a pergunta (b), noções de distância no plano euclidiano são necessárias. É uma questão que não é apresentada de forma contextualizada, mas dialoga bem com a contextualização da “entrada da caverna”, apresentada na prova da fase 1.",
+   "assunto": "Funções",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q06",
@@ -81,8 +84,9 @@
      "resposta_oficial": "Seja $P$ o preço reajustado do parmesão, $M$ o preço reajustado da muçarela e $S$ o preço reajustado do salame. O enunciado nos diz que $2P + M + S = 285$ (compra da Ana) e que $M + S = 125$ (compra da Bárbara). Subtraindo a segunda equação da primeira, obtemos que $2P = 160$, ou seja, $P = 80$. Portanto, o preço reajustado do queijo parmesão é de R\\$ 80,00 o quilo. Isto dá um aumento de R\\$ 20,00, que equivale a 33,3% do preço de junho. Portanto, o reajuste percentual foi de 33,3%."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão trata da solução de sistemas lineares. Como a parte de matrizes não está mais no programa do vestibular, as questões de sistemas precisam ser, de certa forma, elementares, ou seja, sem que o conhecimento sobre matrizes e escalonamento seja um grande diferencial para sua resolução. Com isto em mente, a letra (a) é uma questão que recai num cálculo aritmético, em que a conversão e o uso correto das unidades de medida é importante. Na (b), o candidato precisa modelar o problema como um sistema de duas equações lineares e resolvê-las. A contextualização, em termos de preços, leva o problema para a realidade do estudante, inclusive em termos da “razoabilidade” dos valores encontrados, no caso de algum erro nas contas.",
+   "assunto": "Matrizes e sistemas",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q07",
@@ -103,8 +107,9 @@
      "resposta_oficial": "Como impactos de tornar os quintais produtivos uma política pública, podemos citar:\n• a conservação da sociobiodiversidade, pois os quintais (1) tendem a empregar práticas agroecológicas, reduzindo a utilização de agrotóxicos; (2) diversificam a produção de frutas, verduras, legumes, ervas medicinais; (3) e favorecem a criação de pequenos animais;\n• a ampliação da segurança alimentar e nutricional das famílias envolvidas diretamente na produção ou por elas favorecidas, em função (1) da diversificação apontada no item anterior; e (2) do aumento do cultivo de alimentos, sejam eles para autoconsumo ou subsistência, sejam eles para a comercialização das sobras;\n• a comercialização das sobras torna possível a geração ou incremento de renda da família, especialmente para mulheres que são os principais sujeitos da produção em quintais. Desse modo, os quintais também favorecem a autonomia de tais mulheres.\n\nTornar os quintais produtivos uma política pública, portanto, pode produzir um efeito mais amplo para a sociedade, impactando em diferentes esferas da vida social, tais como o fortalecimento da autonomia de mulheres do campo, das florestas e das águas; a redução da fome e da insegurança alimentar e nutricional entre tais populações; o fortalecimento de práticas locais e tradicionais de cultivo sustentável; a dinamização de economias locais e o incremento da renda de famílias que vivem da produção agrícola, da pesca ou do extrativismo"
     }
    ],
-   "resposta_oficial": "**Objetivo da questão:** Nesta questão, eram esperadas respostas capazes de identificar que práticas econômicas podem ser ou não ser mercantis. Também eram esperadas respostas que diferenciassem as esferas de produção, circulação e consumo. Por fim, eram esperadas respostas que identificassem quais populações seriam alvo da política pública em questão e refletissem sobre seus impactos, identificando a relação entre Estado, políticas públicas e sociedade.",
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão procurou explorar de modo transversal tópicos presentes no itinerário de Ciências Humanas e Sociais Aplicadas, abordando temas como Território, Natureza, Sociedade, Trabalho, Cultura e Política.\n\nPartindo da implementação de uma Política Pública para Mulheres do mundo rural, a questão propôs uma reflexão sobre relações econômicas como relações sociais, bem como incentivou a reflexão sobre políticas públicas e seus impactos. Ela buscou, ainda, explorar conceitos e categorias sociológicas que haviam sido trabalhados na 1ª Fase, como os de gênero, cidadania e desigualdade.\n\nNesta questão, eram esperadas respostas capazes de identificar que práticas econômicas podem ser ou não ser mercantis. Também eram esperadas respostas que diferenciassem as esferas de produção, circulação e consumo. Por fim, eram esperadas respostas que identificassem quais populações seriam alvo da política pública em questão e refletissem sobre seus impactos, identificando a relação entre Estado, políticas públicas e sociedade.",
+   "assunto": "Trabalho",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q08",
@@ -125,8 +130,9 @@
      "resposta_oficial": "Espera-se que o candidato, ao ler os textos 1 e 2, entenda que o conhecimento científico e técnico não pode ser divorciado do pensamento porque este nos torna capazes de distinguir o certo e o errado e, portanto, de julgar o usocorreto ou incorreto da técnica e da ciência. É fundamental que o candidato se baseie na definição de pensamento contida no texto 2 - “capacidade de distinguir o certo do errado, o belo do feio” - e seja capaz de explicitar que o pensamento, por ter uma dimensão reflexiva e ética, pode impedir catástrofes e também evitar que sejamos escravos da técnica e da ciência. Como sugere o texto 1, quando o conhecimento técnico e científico é divorciado do pensamento, ficamos à mercê da técnica porque perdemos a capacidade derefletir sobre os seus efeitos e avaliá-los criticamente."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Em vista do conteúdo programático da disciplina de filosofia, o objetivo da questão era avaliar as capacidades dos candidatos e candidatas de 1. analisar os excertos filosóficos levando em consideração os contextos histórico e filosófico abordados na questão; 2. compreender, interpretar e relacionar os excertos elencados de forma crítica; 3. identificar as teses, conceitos e definições apresentadas, mobilizando-as na construção da resposta; e 4. construir respostas argumentativas e reflexivas.\n\nA questão mobiliza o tema das implicações políticas e éticas do uso do conhecimento técnico e científico quando não orientado pela capacidade de pensamento. É esta capacidade que nos possibilita distinguir o certo do errado e avaliar as dimensões éticas das ações. Neste caso, avaliar as dimensões éticas do uso das novas técnicas e dos novos conhecimentos. Um exemplo prático do uso do conhecimento técnico e científico apartado da capacidade de pensamento foi a criação e o lançamento das bombas atômicas sobre Hiroshima e Nagasaki em 1945. Contudo, o conhecimento adquirido na prova pode ser aplicado a toda a área que lide com a dimensão ética e política da produção e do uso de tecnologias.\n\nHá correlação com a área de História por utilizar um evento histórico como exemplar do problema abordado na questão.",
+   "assunto": "Ética",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q09",
@@ -147,8 +153,9 @@
      "resposta_oficial": "Os mantos tupinambás têm significado ritual, tendo sido usados por meio de sabedoria ancestral para momentos de grande importância das sociedades indígenas como enterros, assembleias e rituais religiosos. Como afirma o trecho do enunciado, os mantos não têm, para as comunidades indígenas na atualidade, apenas o aspecto artístico vinculado à tradição; antes, conjugam conexão com ancestralidade e luta pela existência simbólica e histórica. A política de repatriação, no caso do manto tupinambá que se encontra em Copenhague há três séculos, indica um processo de mobilização e de maior conscientização sobre os danos culturais, simbólicos e políticos causados pela expropriação de artefatos dos povos originários em contextos coloniais ou imperiais. Assim, a reivindicação de que esses itens retornem ao território de origem, com acompanhamento dos povos a eles relacionados, compõe uma política de memória e desejo de justiça histórica."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Para a construção das respostas da questão 9, foram oferecidos aos candidatos dois textos publicados em revistas e portais de notícias de ampla divulgação: a Revista Piauí e o Portal G1. A proposta era disponibilizar aos candidatos o contexto do debate presente na imprensa, nas instituições de pesquisa, na diplomacia Brasileira, entre outros espaços, sobre a repatriação do Manto Tupinambá.",
+   "assunto": "Brasil Colônia",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q10",
@@ -169,8 +176,9 @@
      "resposta_oficial": "No século XVII, a Igreja e o Estado são instituições aliadas na formação do Absolutismo Monárquico na Espanha. A Instituição religiosa, assim, legitimava o poder real e era capaz de julgar e prescrever condutas sociais — como, por exemplo, em relação à sexualidade e ao gênero (lembremos das perseguições clericais e inquisitoriais às personagens que desviavam das prescrições religiosas). Outras funções que podemos citar e explicar são (i) o poder político — ao promover, inclusive financeira e ideologicamente, o processo de colonização —; (ii) e a expansão da fé cristã no Novo Mundo, como parte do projeto de dominação colonial."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Inserido em um debate sobre a temática do gênero na Idade Moderna, a alternativa traz uma breve ponderação sobre Catalina de Erauso (1585-1650), que exerce nas Américas o papel de um soldado sanguinário e conquistador. Ao final de suas batalhas, recebe “do rei Felipe IV, por seu heroísmo, uma pensão alimentar e do Papa Urbano VIII uma dispensa e uma permissão para se vestir de homem pelo resto de sua vida”.",
+   "assunto": "Idade Moderna (Europa)",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q11",
@@ -191,8 +199,9 @@
      "resposta_oficial": "Nas áreas urbanas, o desenvolvimento econômico ligado à mineração fez com que surgissem espaços de trabalho ligados à especialização técnica como ourives, ferreiros, cutelaria, mas também arquitetura e escultura. Também houve o desenvolvimento de maior mobilidade social, por exemplo, e até mesmo possibilidades de associativismo negro que deram acesso à liberdade para sujeitos africanos ou de ancestralidade africana. Essa mobilidade social um pouco mais presente nas áreas urbanas — ligadas à possibilidade técnica de sujeitos africanos, como os da Costa da Mina — é uma diferença em relação à escravidão nas áreas rurais, por exemplo nas regiões monocultoras de açúcar. Também é possível destacar que os espaços de resistência foram diferentes nas áreas de mineração e nas áreas monocultoras, já que há consenso historiográfico de que uma maior liberdade de ação e acúmulo de renda permitiu um novo alcance de status social entre libertos no contexto urbano, sobretudo ligado ao ciclo de exploração do ouro. Eles puderam, por exemplo, criar irmandades e grupos para proteger seus interesses, assim como auxiliar na compra de alforrias."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão 11 traz reflexões sobre a História do Brasil Colônia a partir dos trânsitos transatlânticos, das trocas culturais e dos artefatos.",
+   "assunto": "Brasil Colônia",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q12",
@@ -213,8 +222,9 @@
      "resposta_oficial": "No século XX, ocorreram diferentes movimentos históricos contrários ao processo de colonização. Pode-se citar, por exemplo no Brasil, a formação do Movimento Negro Unificado, fundado em 1978. Por meio de atividades como ativismo político, cultural e social, foram realizados atos públicos contrários ao racismo, organização de peças de teatro, oficinas, cursos e concursos de beleza que incentivaram a cultura de matriz africana e lutaram contra a colonização e apagamento da cultura negra brasileira. Os movimentos sociais indígenas que lutam pela representatividade política, opondo-se a séculos de práticas violentas contra diferentes etnias, também se configuram como reações de luta contra o colonialismo. Por fim, poderíamos citar o movimento quilombola contemporâneo, que, por meio da luta pela terra, expressa a resistência político-cultural que se confronta com as formas de apagamento da identidade negra e procura preservar a memória e o direito à existência desses grupos."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão 12 traz as reflexões de Bispo dos Santos sobre o tema da colonização. Bispo dos Santos parte de diferentes saberes para relacionar o colonizar com atos de adestramento.",
+   "assunto": "Brasil Colônia",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q13",
@@ -224,7 +234,7 @@
     "artes"
    ],
    "texto_base": null,
-   "enunciado": "Dentre os diversos artefatos culturais produzidos durante a ditadura militar brasileira (1964-1985), o disco *Tropicália ou Panis et circenses* (1968) assinalou, a um só tempo, um choque e uma inflexão no modo de fazer e pensar a música popular do país. Lançado em dezembro de 1968, ele trazia em sua concepção frescor inventivo e irreverência. Com recursos da paródia, do pastiche e, sobretudo, da alegoria, o tropicalismo retirou das contradições da sociedade brasileira a matéria-prima de sua produção simbólica.\n\n(Adaptado de: PONTES, H e outros. “Da orla à sala de Jantar”. *Novos Estudos Cebrap*, 38 (3), 2019.)\n\n![Capa do disco Tropicália ou Panis Et Circencis, 1968: fotografia de um grupo de pessoas num jardim de inverno, com instrumentos musicais, uma xícara e dois retratos emoldurados, cercada por faixas coloridas com o título e a identificação da gravadora Philips](fig:p15-c1)\n\n(GERCHMAN, R. Capa do Disco *Tropicália ou Panis Et Circencis*, 1968.)\n\nAnalisando texto e imagem, responda:",
+   "enunciado": "Dentre os diversos artefatos culturais produzidos durante a ditadura militar brasileira (1964-1985), o disco *Tropicália ou Panis et circenses* (1968) assinalou, a um só tempo, um choque e uma inflexão no modo de fazer e pensar a música popular do país. Lançado em dezembro de 1968, ele trazia em sua concepção frescor inventivo e irreverência. Com recursos da paródia, do pastiche e, sobretudo, da alegoria, o tropicalismo retirou das contradições da sociedade brasileira a matéria-prima de sua produção simbólica.\n\n(Adaptado de: PONTES, H e outros. “Da orla à sala de Jantar”. *Novos Estudos Cebrap*, 38 (3), 2019.)\n\n![Capa do disco Tropicália ou Panis Et Circencis, 1968: fotografia colorida de um grupo de pessoas posando juntas, algumas com instrumentos musicais e duas segurando retratos emoldurados, cercada por faixas verde, amarela e azul sobre fundo preto, com as palavras TROPICALIA, OU PANIS ET CIRCENCIS, PHILIPS, \"R 765.040 L\" e \"série De Luxe\"](fig:p15-c1)\n\n(GERCHMAN, R. Capa do Disco *Tropicália ou Panis Et Circencis*, 1968.)\n\nAnalisando texto e imagem, responda:",
    "itens": [
     {
      "rotulo": "a",
@@ -237,8 +247,9 @@
      "resposta_oficial": "A identidade nacional, dentro da Tropicália, era entendida como dinâmica e plural, não estando presa a essencialismos identitários ou a parâmetros estéticos pré-definidos. Entre tantas produções culturais do movimento, que valorizam a fusão de estilos para a criação de algo novo, podemos destacar as canções \"Alegria, Alegria\" (1968), de Caetano Veloso, \"Domingo no Parque\" (1968), de Gilberto Gil, entre outras."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão 13 traz duas categorias de fontes documentais distintas: a textual e a imagética. As duas categorias dialogam entre si para construir tanto um contexto histórico para os candidatos (texto) quanto para suscitar as próprias indagações das questões (imagem).",
+   "assunto": "Ditadura militar",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q14",
@@ -261,8 +272,9 @@
      "resposta_oficial": "Para o autor, compartilharmos a possibilidade de dormir. Sonhar (sem mecanismos medicamentosos ou outros artifícios tecnológicos) nos ativaria a possibilidade de engendrar futuros melhores. Sua utopia está centrada nos sonhos partilhados como um resgate da empatia e da possibilidade de vida coletiva. O conceito de utopia (“em lugar algum”) foi elaborado por Thomas Morus em 1516, e, entre suas propostas, estava o exercício imaginativo de pensar uma sociedade sem problemas. No mundo contemporâneo — frente às distopias causadas pelos eventos climáticos, injustiça social, fortalecimento das fakes news e inteligência artificial, entre outros, tanto em sociedades tradicionais como nas ocidentais —, sonha-se, por exemplo, com cenários nos quais haja equilíbrio ambiental e justiça social."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão 14 parte de uma entrevista do cientista brasileiro Sidarta Ribeiro para provocar reflexões acerca da história do tempo presente, enlaçada com o conceito histórico de Utopia (Idade Moderna).",
+   "assunto": "Mundo contemporâneo",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q15",
@@ -285,8 +297,9 @@
      "resposta_oficial": "O recurso natural que tem sido disputado entre o Sudão e o Sudão do Sul é o petróleo. O Sudão do Sul concentrou a maior parte das reservas de petróleo, enquanto que o Sudão passou a controlar as refinarias e a infraestrutura instalada (oleodutos e porto) para o escoamento do petróleo bruto ou refinado. Com a nova configuração, o Sudão do Sul manteve-se dependente do Sudão para o escoamento do petróleo para exportação; além disso, as reservas de petróleo se localizam, predominantemente, na fronteira entre os dois países, o que gera situação de litígio e disputas para o controle das áreas de ocorrência do recurso, com o aprofundamento da crise da já instável relação política na região."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Como objetivo geral, a questão pede ao candidato que interprete conflitos regionais que resultam de processos geopolíticos e étnico-religiosos envolvendo disputas entre grupos civis/militares dentro dos territórios nacionais. Especificamente, buscou-se cobrar esse conhecimento a partir do continente africano. Problematizou o acirramento dos conflitos geopolíticos entre Sudão e Sudão do Sul na disputa pelos recursos do petróleo; contextualizou a independência do Sudão e, posteriormente, a separação do Sudão do Sul. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da ciência política e das relações internacionais.",
+   "assunto": "Geopolítica e conflitos",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q16",
@@ -307,8 +320,9 @@
      "resposta_oficial": "A principal ação do ponto de vista econômico-financeiro foi a criação do “Banco do BRICS” (Novo Banco de Desenvolvimento – NDB), uma instituição financeira de desenvolvimento multilateral voltada a ampliar a cooperação Sul-Sul. Esse banco tem por finalidade apoiar os países membros, assim como outros países periféricos, com empréstimos a juros mais baixos para financiar investimentos estratégicos em infraestrutura, energias renováveis, saneamento, entre outros. Dentre as aspirações políticas do BRICS, destacam-se, dentre as principais, as seguintes: desenvolver ações voltadas a criar alternativas a dominância financeira global de instituições como FMI e Banco Mundial; interferir no sistema internacional e na geopolítica global, desafiando a hegemonia do G7 (formado pelos sete países mais ricos do mundo e sob hegemonia dos EUA); ampliar o poder de decisão dos países membros em órgãos como a ONU; fortalecer o grupo de países do G20; reformar as instituições financeiras internacionais; e ampliar a cooperação Sul-Sul."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Como objetivo geral, a questão cobrou conhecimento sobre acordos e parcerias entre países, bem como o papel das instituições financeiras de desenvolvimento na construção da chamada ordem global. O candidato deveria conhecer: os processos, agentes e instrumentos que influem na geopolítica e no sistema internacional; a especificidade dos países que exercem poder no sistema mundial, ainda que não estejam vinculados ao grupo dos países mais ricos do planeta; as instituições financeiras e organismos multilaterais que organizam o sistema-mundo. Em particular, tratou da criação e ascensão do BRICS e o correlato Novo Banco de Desenvolvimento, conhecido como Banco do BRICS. Problematizou o papel do grupo de países e do banco na construção da denominada ordem geopolítica global, considerando os países em desenvolvimento envolvidos e suas estratégias econômicas. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da economia, ciência política, relações internacionais. Trata-se de um conhecimento fundamental ao campo da diplomacia, das relações internacionais, das políticas públicas e desenvolvimento entre outras.",
+   "assunto": "Globalização e economia mundial",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q17",
@@ -316,7 +330,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Do ponto de vista astronômico, a tropicalidade é estabelecida pelas áreas situadas entre as latitudes de 23º27’33”, ao norte e ao sul do Equador, compondo um anel ao redor do globo, anel este que corresponde a 46% de sua superfície total. O significado dessas linhas é, porém, bem relativo, uma vez que as regiões tropicais estão longe de serem homogêneas, as características da tropicalidade se manifestam para além das linhas dos Trópicos e também podem estar ausentes no interior das zonas tropicais.\n\n(Adaptado de: CONTI, J. B. O meio ambiente Tropical. *Geografia*, v. 14, n. 28, 1989.)\n\n![Mapa-múndi com a legenda: zona tropical, zona temperada, zona polar e oceanos](fig:p19-c1)\n\nAdaptado de: https://atlasescolar.ibge.gov.br/mapas-atlas/mapas-do-mundo/dinamica-dos-climas. Acesso em: 20/10/2023.)\n\nA partir de seus conhecimentos, da leitura do texto e da análise do mapa, responda às questões, a seguir, sobre a tropicalidade.",
+   "enunciado": "Do ponto de vista astronômico, a tropicalidade é estabelecida pelas áreas situadas entre as latitudes de 23°27’33”, ao norte e ao sul do Equador, compondo um anel ao redor do globo, anel este que corresponde a 46% de sua superfície total. O significado dessas linhas é, porém, bem relativo, uma vez que as regiões tropicais estão longe de serem homogêneas, as características da tropicalidade se manifestam para além das linhas dos Trópicos e também podem estar ausentes no interior das zonas tropicais.\n\n(Adaptado de: CONTI, J. B. O meio ambiente Tropical. *Geografia*, v. 14, n. 28, 1989.)\n\n![Mapa-múndi com a legenda: zona tropical, zona temperada, zona polar e oceanos](fig:p19-c1)\n\nAdaptado de: https://atlasescolar.ibge.gov.br/mapas-atlas/mapas-do-mundo/dinamica-dos-climas. Acesso em: 20/10/2023.)\n\nA partir de seus conhecimentos, da leitura do texto e da análise do mapa, responda às questões, a seguir, sobre a tropicalidade.",
    "itens": [
     {
      "rotulo": "a",
@@ -329,8 +343,9 @@
      "resposta_oficial": "Entre as características da dinâmica dos oceanos nas áreas tropicais destacam-se: a formação das correntes marítimas quentes próximas ao Equador; a formação de águas mais frias e desertos próximos dos trópicos por influência da chegada de correntes marítimas frias; a menor taxa de salinidade da água do oceano próxima ao Equador por consequência das maiores precipitações e maior descarga fluvial; uma maior taxa de salinidade próxima aos trópicos por conta dos menores índices pluviométricos; variações na temperatura superficial dos oceanos tropicais que ocasionam oscilações climáticas, a exemplo do El Niño e da La Niña; e, por fim, uma maior riqueza de espécies e um maior número de relações ecológicas em diversos ecossistemas, como recifes de coral e recifes rochosos, manguezais, pradarias de fanerógamas marinhas e praias.\n\nJá a transferência de energia entre as regiões tropicais e as regiões temperadas e polares ocorre a partir da circulação oceânica e da circulação atmosférica. A circulação oceânica se dá com a mobilidade das correntes marítimas que têm diferentes temperaturas: assim, as correntes marítimas quentes transferem águas superficiais com temperatura mais elevada da região intertropical para as áreas temperadas; já as correntes marítimas frias transferem águas superficiais com temperatura mais baixa das regiões polares para áreas temperadas e/ou tropicais, a depender do hemisfério. A circulação atmosférica, por sua vez, transfere o excedente de energia solar da faixa equatorial e tropical (com *superávit* de energia) para as zonas temperadas e polares (com *déficit* de energia)."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** O candidato deveria demonstrar conhecimento sobre os diferentes biomas do ambiente tropical, em especial as florestas e as savanas. Importante também que os estudantes demonstrassem seu conhecimento sobre as características dos oceanos na área tropical, assim como a importância das características tropicais dos oceanos e atmosfera responsáveis por estabelecer um equilíbrio da temperatura do planeta, através de diferentes mecanismos de transferência de energia. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da biogeografia, climatologia e oceanografia. Trata-se de um conhecimento fundamental e importante para o entendimento dos processos naturais do planeta.",
+   "assunto": "Biomas e vegetação",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q18",
@@ -351,8 +366,9 @@
      "resposta_oficial": "Nos países situados no Círculo do Fogo do Pacífico, o vulcanismo ativo ocorre por conta da presença de *hotspots* e das zonas tectônicas ativas, formadas pelo contato de placas tectônicas. Como recursos naturais de atividades econômicas em zonas de vulcanismo ativo, podem-se citar os seguintes: a exploração de solos férteis para a agricultura, o aproveitamento da energia geotérmica, a exploração de águas termais, a exploração dos recursos minerais e a utilização do seu entorno para o turismo e a recreação."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** O candidato deveria demonstrar conhecimento sobre os atributos naturais de áreas vulcânicas e seu uso e apropriação por atividades econômicas, exercidas tanto de áreas com vulcanismo extinto, como as áreas de cultivo de café na região de Poços de Caldas-MG, bem como em áreas de vulcanismo ativo. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da climatologia, geologia, economia, entre outras. Trata-se de um conhecimento fundamental e importante para o entendimento dos processos naturais do planeta, para prevenção de riscos e aproveitamento econômico de recursos.",
+   "assunto": "Geologia e relevo",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q19",
@@ -373,8 +389,9 @@
      "resposta_oficial": "As macrorregiões do país que são as principais produtoras de energia eólica são a Sul e a Nordeste. Essas regiões se destacam justamente por terem um conjunto de atributos do meio físico que favorecem a geração de energia eólica, com instalação dos parques produtores. Entre os atributos destacam-se: topografia plana (áreas costeiras e topos de tabuleiros de chapada) e ventos constantes durante o ano todo."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Como objetivo geral, a questão cobrou conhecimento sobre a matriz energética brasileira e sua dinâmica recente. O candidato deveria diferenciar fontes renováveis e não renováveis, demonstrando conhecimento sobre um importante debate contemporâneo. Em particular, tratou das fontes de energia no Brasil, problematizando a tendência recente de ascensão das fontes de energia renovável (especialmente, eólica e solar), tendência esta impulsionada pela crise hídrica de meados da década passada. Relacionou esta temática à regionalização brasileira, cobrando conhecimento sobre as regiões produtoras de energia eólica em função dos condicionamentos do meio físico. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da economia, ecologia, entre outras. Trata-se de um conhecimento fundamental ao campo das políticas sociais, econômicas e ambientais.",
+   "assunto": "Energia",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cha-q20",
@@ -395,8 +412,9 @@
      "resposta_oficial": "Rondônia faz parte do eixo de expansão, a partir da década de 1970, da Amazônia ocidental. Esse processo assistiu à implantação dos projetos de exploração agropecuária, mineral e energético, o que atraiu um grande número de pessoas de todo o país em busca de oportunidades econômicas, principalmente depois que Rondônia se tornou um estado da federação em 1981. Em particular, Rondônia recebeu diversos projetos de colonização promovidos pelo Estado brasileiro. Roraima, por sua vez, apresenta um crescimento populacional mais recente, associado, sobretudo, à migração de população brasileira, que, embora tenha crescido a partir da criação do estado, em 1981, torna-se mais relevante no século XXI. Acrescenta-se, além disso, o crescimento da chegada de imigrantes venezuelanos que se intensificou nos últimos dez anos. Ademais, Roraima é um estado que vem apresentando expansão da agropecuária modernizada, em uma nova fronteira agrícola em crescimento, expansão da exploração mineral, com destaque para o garimpo de ouro."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** O candidato deveria demonstrar conhecimento sobre a dinâmica populacional do Brasil à luz do processo de urbanização e modernização do território com consequente efeitos na regionalização do país, em particular do Centro-Oeste e Norte. Especificamente, esperava-se do candidato que conhecesse o processo de metropolização do Centro-Oeste em sua relação com os dinamismos demográficos e econômicos da região, bem como conhecesse o deslocamento da fronteira agrícola e mineral para região Norte, alcançando em diferentes momentos os estados de Rondônia e Roraima. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da demografia, sociologia, economia, entre outras. Trata-se de um conhecimento fundamental à execução de políticas públicas.",
+   "assunto": "População e migrações",
+   "revisao": "corrigida"
   }
  ]
 }
