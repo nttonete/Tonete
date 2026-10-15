@@ -14,7 +14,7 @@
 
 - Sem mudança: https://www.comvest.unicamp.br/wp-content/uploads/2026/07/VU2027-Manual-do-Ingresso.pdf.
 - Nenhum documento novo em https://www.comvest.unicamp.br/ingresso-2027/vestibular-2027/ (21 acompanhados).
-- Primeira conferência: lista de obras 2027.
+- Sem mudança: lista de obras 2027.
 - Datas do calendário conferidas contra https://www.comvest.unicamp.br/wp-content/uploads/2026/07/VU2027-Manual-do-Ingresso.pdf.
 
 ## UNESP
