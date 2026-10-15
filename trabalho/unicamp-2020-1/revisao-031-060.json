@@ -62,6 +62,70 @@
   "44": {
    "assunto": "Geometria espacial",
    "resolucao": "Seja $a$ a aresta do tetraedro e $b$ a do cubo.\n\nO tetraedro regular tem 4 faces triangulares equiláteras: área $4 \\cdot \\frac{a^2\\sqrt{3}}{4} = a^2\\sqrt{3}$. O cubo tem área $6b^2$.\n\n$a^2\\sqrt{3} = 6b^2 \\Rightarrow \\frac{a^2}{b^2} = \\frac{6}{\\sqrt{3}} = 2\\sqrt{3}$.\n\n$\\frac{a}{b} = \\sqrt{2\\sqrt{3}} = \\sqrt{2} \\cdot \\sqrt{\\sqrt{3}} = \\sqrt{2}\\sqrt[4]{3}$.\n\n**Resposta: C**"
+  },
+  "45": {
+   "assunto": "Termoquímica",
+   "resolucao": "O incêndio chegou a 800 °C: acima do ponto de fusão do chumbo (327,5 °C), mas bem abaixo do ponto de ebulição (1750 °C). Então o chumbo derrete, mas não ferve.\n\nA curva esperada: aquecimento do sólido, patamar na fusão, aquecimento do líquido até a temperatura do incêndio, patamar enquanto o fogo dura, resfriamento e um novo patamar na solidificação, que ocorre **na mesma temperatura** da fusão (327,5 °C). Só o gráfico D tem os dois patamares mais baixos na mesma altura. Em A o patamar da descida fica acima do de fusão, em B fica abaixo e em C nem existe.\n\nComo não há ebulição a 800 °C, a contaminação vem da evaporação: a passagem para vapor pela superfície, que acontece abaixo do ponto de ebulição e aumenta com a temperatura.\n\n**Resposta: D**"
+  },
+  "46": {
+   "assunto": "Soluções",
+   "resolucao": "O brinquedo é fechado e contém o líquido e o seu vapor. Ao segurar o bulbo inferior, a mão aquece o líquido, sua pressão de vapor aumenta e a pressão interna aumenta: é essa pressão que empurra o líquido para cima. Portanto, a pressão não fica constante (isso elimina A e C).\n\nNo gráfico, perto da temperatura da mão (cerca de 30–35 °C), o líquido A tem pressão de vapor de 650 a 750 mmHg e varia muito com pequenas mudanças de temperatura; o líquido B fica em torno de 100 mmHg e quase não muda nessa faixa.\n\nCom A, o calor da mão faz subir muito mais líquido, e o brinquedo indicaria \"alta libido\" com mais facilidade, o que venderia mais.\n\n**Resposta: B**"
+  },
+  "47": {
+   "assunto": "Soluções",
+   "resolucao": "Uma bola flutua se for menos densa que o líquido e afunda se for mais densa. Quando a temperatura sobe, o líquido fica menos denso e mais bolas descem. Cada bola é marcada com a temperatura em que sua densidade se iguala à do líquido; a que está mais perto desse equilíbrio é a mais baixa entre as que ainda flutuam no alto do tubo. Ela indica a temperatura.\n\nSensibilidade: entre 10 e 30 °C, a densidade do etanol cai de cerca de 0,798 para 0,781 g/cm³ (variação de cerca de 0,017), enquanto a da água cai só de 1,000 para 0,996 g/cm³ (cerca de 0,004). Como a densidade do etanol muda mais por grau, bolas calibradas com pequenas diferenças separam leituras de temperatura mais próximas.\n\nA alternativa A acerta a leitura, mas escolhe a água, que é o líquido menos sensível.\n\n**Resposta: D**"
+  },
+  "48": {
+   "assunto": "Termoquímica",
+   "resolucao": "A incrustação funciona como uma camada isolante entre a chama e a água. Quanto **menor** a condutividade térmica, pior a passagem de calor e maior o combustível extra gasto para manter a mesma eficiência.\n\nNo gráfico, para a mesma espessura, a curva A exige um incremento de consumo maior que a curva B. Logo, A corresponde a uma incrustação de condutividade menor que a de B.\n\nPela tabela: sílica (1,3) < carbonato (2,1) < sulfato (5,5). Entre as alternativas, a única em que A tem condutividade menor que B é \"sílica e carbonato\". Em D a ordem está invertida; em A e B o sulfato, que conduz melhor, ficaria com a curva de maior consumo.\n\n**Resposta: C**"
+  },
+  "49": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "O balão não tem defeito: o cliente o viu murcho por causa do frio.\n\nA pressão quase constante, o volume de um gás é proporcional à temperatura absoluta (lei de Charles). Na noite fria, o hélio se contrai e o balão parece murcho; ao voltar para um ambiente mais quente (a loja ou a casa do cliente), o gás se expande e o balão volta ao formato normal.\n\nA alternativa A tem a conclusão parecida, mas a explicação errada: as moléculas não mudam de tamanho; o que muda é o espaço entre elas, porque elas se movem mais rápido com o aquecimento.\n\n**Resposta: B**"
+  },
+  "50": {
+   "assunto": "Soluções",
+   "resolucao": "A dose máxima para a criança é $15\\ \\text{mg/kg} \\times 40\\ \\text{kg} = 600\\ \\text{mg}$.\n\nO comprimido tem 750 mg, mais que o limite, e não pode ser partido. Por isso, ele está fora (o que elimina B e C).\n\nNa suspensão de 100 mg/mL, 600 mg correspondem a $\\frac{600\\ \\text{mg}}{100\\ \\text{mg/mL}} = 6{,}0\\ \\text{mL}$.\n\nA alternativa D (4,0 mL) é segura, mas não é o máximo permitido.\n\n**Resposta: A**"
+  },
+  "51": {
+   "assunto": "Química ambiental",
+   "resolucao": "A queima de combustíveis fósseis aumenta o $\\text{CO}_2$ da atmosfera. Parte dele se dissolve no mar e forma ácido carbônico: $\\text{CO}_2 + \\text{H}_2\\text{O} \\rightleftharpoons \\text{H}_2\\text{CO}_3 \\rightleftharpoons \\text{H}^+ + \\text{HCO}_3^-$. O pH cai (acidificação dos oceanos).\n\nNos gráficos, a seta indica a qual eixo cada curva pertence. Em C e D, a curva crescente aponta para o eixo do $\\text{CO}_2$ e a decrescente para o do pH: o $\\text{CO}_2$ sobe e o pH desce. Em A e B, as setas estão trocadas.\n\nA solubilidade dos gases na água aumenta quando a temperatura diminui. As águas frias dos polos dissolvem mais $\\text{CO}_2$, e por isso a acidificação é mais intensa ali, e não nos trópicos.\n\n**Resposta: C**"
+  },
+  "52": {
+   "assunto": "Equilíbrio químico",
+   "resolucao": "O gráfico mostra que o nanobastão atinge velocidades altas por volta de 120–180 °C, enquanto o nanocubo precisa de cerca de 210–280 °C. Com o nanobastão, a conversão do CO acontece em temperaturas mais baixas.\n\nA reação $\\text{CO} + \\text{H}_2\\text{O} \\rightarrow \\text{CO}_2 + \\text{H}_2$ tem $\\Delta H = -41{,}6\\ \\text{kJ mol}^{-1}$: é exotérmica. Pelo princípio de Le Chatelier, baixar a temperatura desloca o equilíbrio no sentido que libera calor, isto é, para os produtos.\n\nAs duas vantagens apontam para o nanobastão. A alternativa B erra só ao chamar a reação de endotérmica, contrariando o sinal negativo do $\\Delta H$.\n\n**Resposta: A**"
+  },
+  "53": {
+   "assunto": "Soluções",
+   "resolucao": "O sal dissolvido eleva a temperatura de ebulição da água (efeito ebulioscópico, uma propriedade coligativa). A solução, portanto, precisa ser aquecida até uma temperatura **maior** que a água pura, o que já elimina A e B.\n\nPara massas iguais, o calor necessário é $Q = m \\cdot c \\cdot \\Delta T$. Mesmo com um $\\Delta T$ maior, a solução poderia chegar à fervura com menos calor (mais rápido) se o seu calor específico $c$ fosse menor que o da água.\n\nPor isso a alternativa diz \"no entanto\": o calor específico menor ajuda, apesar da temperatura de ebulição maior atrapalhar.\n\n**Resposta: C**"
+  },
+  "54": {
+   "assunto": "Eletroquímica",
+   "resolucao": "Densidade: as massas são iguais (500 g), então tem menor densidade o metal de maior volume.\n\nCubo A: $V = 5^3 = 125\\ \\text{cm}^3$, logo $d = \\frac{500}{125} = 4\\ \\text{g/cm}^3$.\n\nEsfera B (raio 2,5 cm): $V = \\frac{4}{3}\\pi (2{,}5)^3 \\approx 65\\ \\text{cm}^3$, logo $d \\approx 7{,}6\\ \\text{g/cm}^3$. A tem menor densidade.\n\nCorrosão: o potencial de redução de A ($-1{,}63\\ \\text{V}$) é mais negativo que o de B ($-0{,}44\\ \\text{V}$). Então A tem maior tendência a se oxidar, ou seja, é menos resistente à corrosão por esse critério. Mesmo assim, ele foi escolhido, daí o \"embora\".\n\n**Resposta: A**"
+  },
+  "55": {
+   "assunto": "Guerra Fria",
+   "resolucao": "O acidente de 1986 aconteceu no governo Gorbachev, na fase final da URSS. A demora em admitir o desastre e o enorme custo da contenção e da retirada da população expuseram a crise do Estado soviético. O acidente costuma ser lembrado como um marco do desmantelamento da URSS, que se dissolveu em 1991.\n\nO texto mostra que os danos continuam: \"a cada ano\" cresce o número de doentes. Isso é compatível com elementos de meia-vida longa (como o césio-137, com cerca de 30 anos), que continuam emitindo radiação por décadas.\n\nA e D erram ao falar em meia-vida curta e em danos sanados. C erra ao falar em fortalecimento da URSS.\n\n**Resposta: B**"
+  },
+  "56": {
+   "assunto": "Termoquímica",
+   "resolucao": "Fritadeira: $E = P \\cdot t = 1400\\ \\text{W} \\times (18 \\times 60\\ \\text{s}) = 1\\,512\\,000\\ \\text{J} \\approx 1512\\ \\text{kJ}$.\n\nFogão: a massa molar do propano ($\\text{C}_3\\text{H}_8$) é $3 \\cdot 12 + 8 \\cdot 1 = 44\\ \\text{g/mol}$. Assim, $n = \\frac{16}{44} \\approx 0{,}36\\ \\text{mol}$ e a energia liberada é $0{,}36 \\times 2046 \\approx 744\\ \\text{kJ}$.\n\nRazão: $\\frac{1512}{744} \\approx 2$. A fritadeira consumiu cerca de 2 vezes mais energia, apesar de o fogão ser mais rápido.\n\n**Resposta: D**"
+  },
+  "57": {
+   "assunto": "Quinhentismo e Barroco",
+   "resolucao": "Reboul diz que o verossímil se apoia numa confiança presumida, compartilhada pelo auditório. No segundo \"Sermão da Quarta-feira de Cinza\", Vieira medita sobre a morte (\"és pó e em pó te hás de converter\") e sobre o destino da alma depois dela.\n\nO que torna o discurso confiável para os fiéis do século XVII não é uma qualidade do pregador nem dos ouvintes, mas a crença que todos compartilham: a de que existe uma eternidade de salvação ou de condenação. É sobre essa base comum que a argumentação do sermão se sustenta.\n\nA alternativa D é tentadora, mas a confiança não vem da instituição: vem da fé que pregador e auditório têm em comum.\n\n**Resposta: C**"
+  },
+  "58": {
+   "assunto": "Literatura portuguesa",
+   "resolucao": "No trecho, o narrador ironiza a ideia de que os narradores \"têm todos os direitos e dispõem de todas as chaves\". Ele finge limitar o próprio saber, mas continua sendo um narrador em terceira pessoa que sabe dos pensamentos de Raimundo Silva e comenta a história com liberdade.\n\nEm *História do Cerco de Lisboa*, esse narrador onisciente e intruso conversa com o leitor, admite outras versões e brinca com a pluralidade de vozes. Mesmo assim, é o seu modo particular de narrar que costura e organiza o romance.\n\nEle não é personagem (C) nem um simples observador neutro (B), e não abre mão do controle da narração (A).\n\n**Resposta: D**"
+  },
+  "59": {
+   "assunto": "Literatura contemporânea",
+   "resolucao": "Para Candido, o sentido de uma obra nasce da forma, isto é, da organização dos seus elementos. No CD, essa organização se faz por contrastes.\n\nNa capa há uma cruz sobre fundo preto e versículos do Salmo 23 (\"Refrigere minha alma e guia-me pelo caminho da justiça\"). Na contracapa, há a imagem de um homem armado, ao lado de outro trecho do salmo (\"não temerei mal algum\") e de faixas como \"Gênesis\", \"Capítulo 4, Versículo 3\" e \"Diário de um detento\". O próprio título fala em sobreviver \"no inferno\".\n\nSagrado e violência, espírito e matéria, aparecem lado a lado, em tensão, e essa tensão dá sentido às canções. A alternativa D erra ao falar em \"vitória do crime\": a obra mantém o conflito, sem resolvê-lo.\n\n**Resposta: B**"
+  },
+  "60": {
+   "assunto": "Realismo e Naturalismo",
+   "resolucao": "Jacobina, sozinho na casa da tia e privado dos olhares que alimentavam a sua \"alma exterior\", vive uma angústia crescente. Na frase, o tempo parece se arrastar (\"de século a século\"), e a repetição do som do pêndulo (\"tic-tac, tic-tac\") \"feria-me a alma interior como um piparote contínuo\".\n\nO tique-taque repetitivo funciona como uma série de pequenos golpes que aumentam o sofrimento do personagem. Ele não expressa a duplicidade da alma (A), nem a longevidade (B), nem o vigor (D): ao contrário, a alma interior está ferida e fragilizada.\n\n**Resposta: C**"
   }
  },
  "relatorio": []
