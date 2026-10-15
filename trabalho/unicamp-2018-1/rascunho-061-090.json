@@ -1,0 +1,150 @@
+{
+  "edicao": "unicamp-2018-1",
+  "textos_base": {
+    "t68-69": "A calda bordalesa é uma das formulações mais antigas e mais eficazes que se conhece. Ela foi descoberta na França no final do século XIX, quase por acaso, por um agricultor que aplicava água de cal nos cachos de uva para evitar que fossem roubados; a cal promovia uma mudança na aparência e no sabor das uvas. O agricultor logo percebeu que as plantas assim tratadas estavam livres de antracnose. Estudando-se o caso, descobriu-se que o efeito estava associado ao fato de a água de cal ter sido preparada em tachos de cobre. Atualmente, para preparar a calda bordalesa, coloca-se o sulfato de cobre em um pano de algodão que é mergulhado em um vasilhame plástico com água morna. Paralelamente, coloca-se cal em um balde e adiciona-se água aos poucos. Após quatro horas, adiciona-se aos poucos, e mexendo sempre, a solução de sulfato de cobre à água de cal.\n\n(Adaptado de Gervásio Paulus, André Muller e Luiz Barcellos, *Agroecologia aplicada*: práticas e métodos para uma agricultura de base ecológica. Porto Alegre: EMATER-RS, 2000, p. 86.)"
+  },
+  "questoes": [
+    {
+      "numero": 61,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Mesmo em manhãs bem quentes, é comum ver um cão tomando sol. O pelo do animal esquenta e sua língua do lado de fora sugere que ele está cansado. O pelo do animal está muito quente, mas mesmo assim o cão permanece ao sol, garantindo a produção de vitamina D₃. Durante essa exposição ao sol, ocorrem transferências de energia entre o cão e o ambiente, por processos indicados por números na figura abaixo.\n\n![Cão sentado ao sol, com cinco setas numeradas de 1 a 5 indicando transferências de energia entre o animal e o ambiente](fig:p19-c3)\n\n(Adaptado de KHAN ACADEMY, Endotherms and ectotherms. Disponível em www.khanacademy.org. Acessado em 26/07/17.)\n\nEm ordem crescente, os números correspondem, respectivamente, aos processos de",
+      "alternativas": {
+        "A": "convecção, evaporação, radiação, condução e radiação.",
+        "B": "convecção, radiação, condução, radiação e evaporação.",
+        "C": "condução, evaporação, convecção, radiação e radiação.",
+        "D": "condução, radiação, convecção, evaporação e radiação."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 62,
+      "materia": "fisica",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "Com a crise hídrica de 2015 no Brasil, foi necessário ligar as usinas termoelétricas para a geração de eletricidade, medida que fez elevar o custo da energia para os brasileiros. O governo passou então a adotar bandeiras de cores diferentes na conta de luz para alertar a população. A bandeira vermelha indicaria que a energia estaria mais cara. O esquema a seguir representa um determinado tipo de usina termoelétrica.\n\n![Esquema de usina termoelétrica: aquecedor sob um recipiente com água, turbina, gerador, condensador e torre de transmissão](fig:p20-f1)\n\n(Adaptado de BITESIZE. Thermal power stations. Disponível em http://www.bbc.co.uk/bitesize/standard/physics/energy_matters/generation_of_electricity/revision/1/. Acessado em 26/07/17.)\n\nConforme o esquema apresentado, no funcionamento da usina há",
+      "alternativas": {
+        "A": "duas transformações químicas, uma transformação física e não mais que três tipos de energia.",
+        "B": "uma transformação química, uma transformação física e não mais que dois tipos de energia.",
+        "C": "duas transformações químicas, duas transformações físicas e pelo menos dois tipos de energia.",
+        "D": "uma transformação química, duas transformações físicas e pelo menos três tipos de energia."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 63,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "*Icebergs* flutuam na água do mar, assim como o gelo em um copo com água potável. Imagine a situação inicial de um copo com água e gelo, em equilíbrio térmico à temperatura de 0 °C. Com o passar do tempo o gelo vai derretendo. Enquanto houver gelo, a temperatura do sistema",
+      "alternativas": {
+        "A": "permanece constante, mas o volume do sistema aumenta.",
+        "B": "permanece constante, mas o volume do sistema diminui.",
+        "C": "diminui e o volume do sistema aumenta.",
+        "D": "diminui, assim como o volume do sistema."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 64,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O livro *O Pequeno Príncipe*, de Antoine de Saint-Exupéry, uma das obras literárias mais traduzidas no mundo, traz ilustrações inspiradas na experiência do autor como aviador no norte da África. Uma delas, a figura (a), parece representar um chapéu ou um elefante engolido por uma jiboia, dependendo de quem a interpreta.\n\n![Figura a: desenho de um chapéu e, abaixo, de um elefante engolido por uma jiboia. Figura b: diagrama de entalpia em função da coordenada da reação, com curva de duas elevações e linha tracejada no nível dos reagentes](fig:p20-c1)\n\nPara um químico, no entanto, essa figura pode se assemelhar a um diagrama de entalpia, em função da coordenada da reação (figura b). Se a comparação for válida, a variação de entalpia dessa reação seria",
+      "alternativas": {
+        "A": "praticamente nula, com a formação de dois produtos.",
+        "B": "altamente exotérmica, com a formação de dois produtos.",
+        "C": "altamente exotérmica, mas nada se poderia afirmar sobre a quantidade de espécies no produto.",
+        "D": "praticamente nula, mas nada se poderia afirmar sobre a quantidade de espécies no produto."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 65,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 12 de maio de 2017 o Metrô de São Paulo trocou 240 metros de trilhos de uma de suas linhas, numa operação feita de madrugada, em apenas três horas. Na solda entre o trilho novo e o usado empregou-se uma reação química denominada térmita, que permite a obtenção de uma temperatura local de cerca de 2.000 °C. A reação utilizada foi entre um óxido de ferro e o alumínio metálico. De acordo com essas informações, uma possível equação termoquímica do processo utilizado seria",
+      "alternativas": {
+        "A": "$\\text{Fe}_2\\text{O}_3 + 2\\text{Al} \\longrightarrow 2\\text{Fe} + \\text{Al}_2\\text{O}_3\\ ;\\ \\Delta\\text{H} = +\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$",
+        "B": "$\\text{FeO}_3 + \\text{Al} \\longrightarrow \\text{Fe} + \\text{AlO}_3\\ ;\\ \\Delta\\text{H} = -\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$",
+        "C": "$\\text{FeO}_3 + \\text{Al} \\longrightarrow \\text{Fe} + \\text{AlO}_3\\ ;\\ \\Delta\\text{H} = +\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$",
+        "D": "$\\text{Fe}_2\\text{O}_3 + 2\\text{Al} \\longrightarrow 2\\text{Fe} + \\text{Al}_2\\text{O}_3\\ ;\\ \\Delta\\text{H} = -\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$"
+      },
+      "observacoes": "As alternativas ficam no topo da página seguinte ao enunciado, no caderno."
+    },
+    {
+      "numero": 66,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No Brasil, cerca de 12 milhões de pessoas sofrem de diabetes *mellitus*, uma doença causada pela incapacidade do corpo em produzir insulina ou em utilizá-la adequadamente. No teste eletrônico para determinar a concentração da glicose sanguínea, a glicose é transformada em ácido glucônico e o hexacianoferrato(III) é transformado em hexacianoferrato(II), conforme mostra o esquema a seguir.\n\n![Esquema do teste de glicose: a glicose (com grupo aldeído) é convertida em ácido glucônico (com grupo ácido carboxílico) enquanto Fe(CN)₆³⁻ é convertido em Fe(CN)₆⁴⁻](fig:p21-c1)\n\nEm relação ao teste eletrônico, é correto afirmar que",
+      "alternativas": {
+        "A": "a glicose sofre uma reação de redução e o hexacianoferrato(III) sofre uma reação de oxidação.",
+        "B": "a glicose sofre uma reação de oxidação e o hexacianoferrato(III) sofre uma reação de redução.",
+        "C": "ambos, glicose e hexacianoferrato(III), sofrem reações de oxidação.",
+        "D": "ambos, glicose e hexacianoferrato(III), sofrem reações de redução."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 67,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Mais de 2.000 plantas produzem látex, a partir do qual se produz a borracha natural. A *Hevea brasiliensis* (seringueira) é a mais importante fonte comercial desse látex. O látex da *Hevea brasiliensis* consiste em um polímero do *cis*-1,4-isopreno, fórmula $\\text{C}_5\\text{H}_8$, com uma massa molecular média de 1.310 kDa (quilodaltons). De acordo com essas informações, a seringueira produz um polímero que tem em média\n\nDados de massas atômicas em Dalton: C = 12 e H = 1.",
+      "alternativas": {
+        "A": "19 monômeros por molécula.",
+        "B": "100 monômeros por molécula.",
+        "C": "1.310 monômeros por molécula.",
+        "D": "19.000 monômeros por molécula."
+      },
+      "observacoes": "A linha \"Dados de massas atômicas...\" vem depois das alternativas no caderno; foi posta no fim do enunciado."
+    },
+    {
+      "numero": 68,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": "t68-69",
+      "enunciado": "Na preparação da calda bordalesa são usados 100 g de sulfato de cobre(II) pentaidratado e 100 g de hidróxido de cálcio (cal extinta). Para uma reação estequiométrica entre os íons cobre e hidroxila, há um excesso de aproximadamente\n\nDados de massas molares em $\\text{g}{\\cdot}\\text{mol}^{-1}$: sulfato de cobre (II) pentaidratado = 250; hidróxido de cálcio = 74.",
+      "alternativas": {
+        "A": "1,9 mol de hidroxila.",
+        "B": "2,3 mol de hidroxila.",
+        "C": "2,5 mol de cobre.",
+        "D": "3,4 mol de cobre."
+      },
+      "observacoes": "A linha \"Dados de massas molares...\" vem depois das alternativas no caderno; foi posta no fim do enunciado."
+    },
+    {
+      "numero": 69,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": "t68-69",
+      "enunciado": "Na formulação da calda bordalesa fornecida pela EMATER, recomenda-se um teste para verificar se a calda ficou ácida: coloca-se uma faca de aço carbono na solução por três minutos. Se a lâmina da faca adquirir uma coloração marrom ao ser retirada da calda, deve-se adicionar mais cal à mistura. Se não ficar marrom, a calda está pronta para o uso. De acordo com esse teste, conclui-se que a cal deve promover",
+      "alternativas": {
+        "A": "uma diminuição do pH, e o sulfato de cobre(II), por sua vez, um aumento do pH da água devido à reação\n$\\text{SO}_4^{2-} + \\text{H}_2\\text{O} \\longrightarrow \\text{HSO}_4^- + \\text{OH}^-$.",
+        "B": "um aumento do pH, e o sulfato de cobre(II), por sua vez, uma diminuição do pH da água devido à reação\n$\\text{Cu}^{2+} + \\text{H}_2\\text{O} \\longrightarrow \\text{Cu(OH)}^+ + \\text{H}^+$.",
+        "C": "uma diminuição do pH, e o sulfato de cobre(II), por sua vez, um aumento do pH da água devido à reação\n$\\text{Cu}^{2+} + \\text{H}_2\\text{O} \\longrightarrow \\text{Cu(OH)}^+ + \\text{H}^+$.",
+        "D": "um aumento do pH, e o sulfato de cobre(II), por sua vez, uma diminuição do pH da água devido à reação\n$\\text{SO}_4^{2-} + \\text{H}_2\\text{O} \\longrightarrow \\text{HSO}_4^- + \\text{OH}^-$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 70,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Mapa da Rússia com o trajeto pontilhado da Ferrovia Transiberiana, de Moscou (estrela, a oeste) a Vladivostok (ponto, a leste); escala de 1000 km](fig:p22-f1)\n\nAo percorrer a Ferrovia Transiberiana, de Moscou a Vladivostok, em uma extensão de 9.289 km, atravessamos diferentes unidades do relevo russo:",
+      "alternativas": {
+        "A": "Montes Urais, Planície Russa, Planalto da Anatólia e Planalto Central Siberiano.",
+        "B": "Planalto do Decã, Planalto Central Siberiano, Montes Urais e Planície Russa.",
+        "C": "Planalto Central Siberiano, Planície Russa, Montes Urais e Planalto dos Bálcãs.",
+        "D": "Planície Russa, Montes Urais, Planalto Central Siberiano e Planalto de Aldan."
+      },
+      "observacoes": ""
+    }
+  ]
+}
