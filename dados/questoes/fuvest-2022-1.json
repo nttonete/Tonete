@@ -650,6 +650,8 @@
    },
    "anulada": false,
    "gabarito": "A",
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "O sistema é posicional: os algarismos em posição ímpar (unidades, centenas, dezenas de milhar) usam os símbolos da primeira linha (barras verticais) e os de posição par (dezenas, milhares) usam os da segunda linha (barras horizontais).\n\nEm 91625, da direita para a esquerda: 5 (unidades, ímpar) são cinco barras verticais; 2 (dezenas, par) são dois traços horizontais; 6 (centenas, ímpar) é o \"T\" (uma barra horizontal sobre uma vertical); 1 (milhar, par) é um traço horizontal; 9 (dezena de milhar, ímpar) é o \"T\" com quatro barras verticais.\n\nLendo da esquerda para a direita: 9 vertical, 1 horizontal, 6 vertical, 2 horizontal, 5 vertical. É a sequência da alternativa A. As outras misturam as formas: B e D escrevem o 6 com o símbolo de posição par (barra vertical sobre um traço horizontal), a C escreve o 1 e o 2 com barras verticais, e a E usa formas de posição par para o 9, o 6 e o 5.\n\n**Resposta: A**",
    "revisao": "ok"
   },
   {
@@ -668,6 +670,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "Tempo e velocidade de reprodução são inversamente proporcionais: reproduzir 1,5 vez mais rápido divide o tempo por 1,5.\n\n$t = \\frac{3\\ \\text{min}}{1{,}5} = \\frac{180\\ \\text{s}}{1{,}5} = 120\\ \\text{s} = 2\\ \\text{min}$.\n\nA alternativa A (1min30s) seria a resposta para velocidade dobrada, não 1,5 vez.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -686,6 +690,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Aplique a porcentagem de defeito de cada modelo às duas cores e some por cor.\n\nPretas com defeito: $0{,}02\\cdot 500 + 0{,}05\\cdot 400 + 0{,}08\\cdot 250 = 10 + 20 + 20 = 50$.\nVermelhas com defeito: $0{,}02\\cdot 200 + 0{,}05\\cdot 220 + 0{,}08\\cdot 300 = 4 + 11 + 24 = 39$.\n\nTotal produzido: pretas $500+400+250 = 1150$; vermelhas $200+220+300 = 720$. Boas: pretas $1150 - 50 = 1100$; vermelhas $720 - 39 = 681$.\n\nA tabela com D = (50, 39) e B = (1100, 681) é a da alternativa C.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -704,6 +710,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Polinômios e equações",
+   "resolucao": "Seja $n$ o número inicial de funcionários. Com $n-2$ pagantes, cada um paga R\\$ 5,00 a mais:\n\n$\\frac{200}{n-2} - \\frac{200}{n} = 5 \\Rightarrow 200n - 200(n-2) = 5n(n-2) \\Rightarrow 400 = 5n^2 - 10n$.\n\nLogo $n^2 - 2n - 80 = 0$, cujas raízes são $n = 10$ e $n = -8$ (descartada). Eram 10 pessoas e ficaram 8.\n\nCada um que ficou pagou $\\frac{200}{8} = 25$ reais (o valor previsto era R\\$ 20,00, que é a distratora C).\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -722,6 +730,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Progressões",
+   "resolucao": "Os custos de cada metro formam uma PA com $a_1 = 1000$ e razão $r = 200$. O custo total é a soma dos $n$ primeiros termos:\n\n$S_n = \\frac{n\\,[2a_1 + (n-1)r]}{2} = \\frac{n\\,[2000 + 200(n-1)]}{2} = n(900 + 100n)$.\n\nIgualando a 48 600: $100n^2 + 900n - 48600 = 0 \\Rightarrow n^2 + 9n - 486 = 0$.\n\n$n = \\frac{-9 + \\sqrt{81 + 1944}}{2} = \\frac{-9 + 45}{2} = 18$.\n\nConferindo: o último metro custa $1000 + 17\\cdot 200 = 4400$ e $S_{18} = \\frac{18\\,(1000 + 4400)}{2} = 48600$.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -740,6 +750,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Geometria espacial",
+   "resolucao": "Cada face é um triângulo, com 3 arestas, e cada aresta é compartilhada por 2 faces. Então $3F = 2A$, ou seja, $A = \\frac{3F}{2}$.\n\nPela relação de Euler com $V = 8$: $F - \\frac{3F}{2} + 8 = 2 \\Rightarrow -\\frac{F}{2} = -6 \\Rightarrow F = 12$.\n\nConferindo: $A = 18$ e $12 - 18 + 8 = 2$.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -758,6 +770,8 @@
    },
    "anulada": false,
    "gabarito": "A",
+   "assunto": "Trigonometria",
+   "resolucao": "No triângulo $OAB$: $OB = 2$ (raio), $AB = 2$ e $OA = r$, a distância de $O$ até o ponto $A$ do quadrado. Pela lei dos cossenos:\n\n$AB^2 = OA^2 + OB^2 - 2\\cdot OA\\cdot OB\\cos\\theta \\Rightarrow 4 = r^2 + 4 - 4r\\cos\\theta \\Rightarrow \\cos\\theta = \\frac{r}{4}$.\n\nO ângulo $\\theta$ é máximo quando $\\cos\\theta$ é mínimo, isto é, quando $r$ é mínimo. No contorno de um quadrado de lado 1 centrado em $O$, a menor distância ao centro é a do ponto médio de um lado: $r = \\frac{1}{2}$.\n\nEntão $\\cos\\theta = \\frac{1/2}{4} = \\frac{1}{8}$. A distratora $\\frac{\\sqrt{2}}{2}$ não segue da conta: com $A$ no vértice, $r = \\frac{\\sqrt{2}}{2}$ e $\\cos\\theta = \\frac{\\sqrt{2}}{8}$, que corresponde ao menor ângulo.\n\n**Resposta: A**",
    "revisao": "ok"
   },
   {
@@ -776,6 +790,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Polinômios e equações",
+   "resolucao": "Use as relações de Girard com as raízes $a$, $a$ e $b$ de $x^3 + 0x^2 + mx - 2$.\n\nSoma: $2a + b = 0 \\Rightarrow b = -2a$.\nProduto: $a\\cdot a\\cdot b = 2 \\Rightarrow a^2(-2a) = 2 \\Rightarrow a^3 = -1 \\Rightarrow a = -1$, e então $b = 2$.\nSoma dos produtos dois a dois: $m = a^2 + 2ab = 1 + 2(-1)(2) = -3$.\n\nConferindo: $p(x) = x^3 - 3x - 2 = (x+1)^2(x-2)$.\n\nLogo $m + a = -3 + (-1) = -4$. A alternativa D ($-3$) é só o valor de $m$.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -794,6 +810,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Geometria plana",
+   "resolucao": "A fita esticada é formada por trechos retos tangentes aos tanques e por arcos de circunferência. Os trechos retos têm o mesmo comprimento dos lados do polígono que liga os centros dos tanques do contorno, e os arcos, somados, dão uma volta completa: $2\\pi\\cdot 10 = 20\\pi$.\n\nPela figura, os centros ficam em $(0,0)$, $(30,0)$, $(30,30)$ e $(0,60)$. Os lados desse polígono medem: 30 (embaixo), 30 (lado direito, até o tanque do meio), $\\sqrt{30^2 + 30^2} = 30\\sqrt{2}$ (diagonal) e 60 (lado esquerdo).\n\nSoma dos trechos retos: $30 + 30 + 30\\sqrt{2} + 60 = 120 + 30\\sqrt{2} = 30(4 + \\sqrt{2})$.\n\nComprimento da fita: $20\\pi + 30(4 + \\sqrt{2})$ metros.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -814,6 +832,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Óptica",
+   "resolucao": "Basta converter as duas medidas para a mesma unidade: $1\\ \\mu\\text{m} = 10^{-6}\\ \\text{m}$ e $10\\ \\text{nm} = 10 \\cdot 10^{-9}\\ \\text{m} = 10^{-8}\\ \\text{m}$.\n\n$\\frac{\\text{diâmetro do foco}}{\\text{diâmetro da ponta}} = \\frac{10^{-6}}{10^{-8}} = 10^2 = 100$.\n\nA alternativa B (0,01) é a razão invertida (ponta sobre foco).\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -832,6 +852,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "O gráfico dá $\\log_{10} x$; o número de bactérias é proporcional a $x$. Lendo o gráfico: em $t_0$, $\\log_{10} x_0 \\approx -1{,}3$; em $t_1$, $\\log_{10} x_1 \\approx -0{,}3$.\n\n$\\log_{10} x_1 - \\log_{10} x_0 = \\log_{10}\\frac{x_1}{x_0} = -0{,}3 - (-1{,}3) = 1 \\Rightarrow \\frac{x_1}{x_0} = 10^1 = 10$.\n\nComo a população é diretamente proporcional à turbidez, ela também foi multiplicada por 10. Quem lê a escala como se fosse linear pode pensar numa diferença pequena; o que importa é que cada unidade no eixo vertical vale um fator 10.\n\n**Resposta: D**",
    "revisao": "corrigida"
   },
   {
@@ -850,6 +872,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Interpretação de texto",
+   "resolucao": "O trecho que decide é a citação de Tim Adams no segundo parágrafo: \"It is hard not to think of [fatbergs] as a *tangible symbol of the way we live now*, the ultimate product of our disposable, out of sight, out of mind culture\".\n\nOu seja, para ele os *fatbergs* são um símbolo concreto (tangible) do modo como vivemos hoje: uma representação real dos hábitos humanos atuais.\n\nA alternativa C fala em \"análises racionais\", o que o texto não diz; as dimensões dos *fatbergs* (alternativa A) aparecem no texto, mas não na opinião do jornalista.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -868,6 +892,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Interpretação de texto",
+   "resolucao": "O terceiro parágrafo explica o mecanismo: \"When fat sticks to the side of sewage pipes, the wipes and other detritus get stuck, accumulating layer upon layer of gunk\".\n\nA gordura gruda nas paredes dos canos e os outros detritos ficam presos nela, camada sobre camada, até bloquear o esgoto. Isso é a aderência da gordura e de outros detritos nas laterais da tubulação.\n\nO texto não menciona falha de limpeza das prefeituras, canos estreitos, frio ou placas de concreto.\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -886,6 +912,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "O último parágrafo diz que só os \"quatro Ps\" devem ir para a descarga: *pee* (urina), *poo* (fezes), *puke* (vômito) e *(toilet) paper* (papel higiênico).\n\nO texto contrasta esses itens com o lixo \"nonbiological\" (absorventes, preservativos, lenços umedecidos) e com o óleo, que formam os *fatbergs*. O que os quatro Ps têm em comum é serem matéria orgânica, que se decompõe no esgoto.\n\nAs demais alternativas (pouca gordura, quantidade reduzida, frequência controlada, ausência de bactérias) não decorrem do texto; as fezes, aliás, são ricas em bactérias.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -904,6 +932,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Interpretação de texto",
+   "resolucao": "No primeiro parágrafo, o autor diz que o dono de restaurante deveria ficar contente com um serviço que cuida das entregas \"while leveraging their marketing might to expand your businesses' brand\", isto é, usando a força de marketing dos aplicativos para ampliar a marca do restaurante.\n\nEssa é a vantagem apontada: uma estrutura de marketing que leva o restaurante a mais clientes.\n\nAs alternativas A, B e D vão contra o texto: as taxas são criticadas como insustentáveis, os donos reclamam da falta de controle de qualidade e os menus publicados costumam estar errados ou desatualizados.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -922,6 +952,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Interpretação de texto",
+   "resolucao": "No segundo parágrafo, depois de falar das taxas, o texto diz: \"some restaurants are pushing harder to drive orders from their own websites and offering special deals for customers that use their in-house delivery people\".\n\nOu seja, os restaurantes oferecem vantagens (ofertas especiais) aos clientes que usam o serviço de entrega do próprio restaurante.\n\nContato telefônico, verificação das páginas dos aplicativos e listagem em vários aplicativos não aparecem como soluções adotadas pelos donos.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -940,6 +972,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "*Miss out on* significa perder uma oportunidade, deixar de aproveitar algo. Na frase, os donos de restaurante que resistem aos aplicativos prejudicam a marca ao deixar de conquistar clientes potenciais.\n\nSubstituindo: \"hurting their brands by *losing* potential customers\" mantém o sentido.\n\n*Harming* (prejudicar) é a distratora mais tentadora, mas esse sentido já está em *hurting*; aplicado aos clientes, mudaria a ideia para \"prejudicar os clientes\".\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -958,6 +992,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Interpretação de texto",
+   "resolucao": "O eu lírico passou a noite deitado, pensando (\"Lying, thinking / Last night\") em como encontrar um lar para a alma, e diz ter chegado a uma conclusão: \"I came up with one thing / And I don't believe I'm wrong / That nobody, / But nobody / Can make it out here alone\".\n\nOs versos apresentam, portanto, o resultado dessa reflexão: ninguém consegue sobreviver sozinho.\n\nA alternativa A diz o contrário da conclusão (autossuficiência); não há derrota, distância entre amigos nem arrependimento no poema.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -976,6 +1012,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Interpretação de texto",
+   "resolucao": "Na imagem, o homem está concentrado no celular enquanto a mulher fala com ele. Ela pergunta se pode prender o telefone dele na própria testa \"so I can pretend you're looking at me when I talk\", ou seja, para fingir que ele está olhando para ela.\n\nO pedido é absurdo de propósito: é uma ironia, um protesto contra a falta de atenção e de diálogo do companheiro, que só olha para o aparelho.\n\nNada indica insatisfação com o local (A) nem que ela não tenha celular (B).\n\n**Resposta: E**",
    "revisao": "corrigida"
   },
   {
@@ -994,6 +1032,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Termologia",
+   "resolucao": "Com calor específico e densidade iguais, o calor trocado é proporcional ao volume vezes a variação de temperatura. O calor cedido pelo café é igual ao recebido pelo leite:\n\n$60 \\cdot (80 - 65) = V \\cdot (65 - 5) \\Rightarrow 60 \\cdot 15 = 60\\,V \\Rightarrow V = 15\\ \\text{mL}$.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1012,6 +1052,8 @@
    },
    "anulada": false,
    "gabarito": "B",
+   "assunto": "Energia e trabalho",
+   "resolucao": "Sem resistência do ar, a energia potencial gravitacional vira energia cinética: $E_c = mgh$.\n\nCaindo da mesma altura, as duas maçãs chegam ao solo com a mesma velocidade ($v = \\sqrt{2gh}$), mas a energia cinética é proporcional à massa. A maçã com o dobro do peso (e da massa) tem o dobro da energia cinética.\n\nA alternativa A confunde energia com velocidade, que de fato é igual para as duas.\n\n**Resposta: B**",
    "revisao": "ok"
   },
   {
@@ -1030,6 +1072,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Numa colisão perfeitamente elástica entre bolas de mesma massa, com uma delas em repouso, as velocidades depois do choque são perpendiculares e somam (vetorialmente) a velocidade inicial $\\vec{v}_0$.\n\nA bola vermelha vai para a caçapa do canto, que está a 40 cm acima e 40 cm ao lado: ela sai a $45^\\circ$ de $\\vec{v}_0$. Logo a branca sai a $45^\\circ$ para o outro lado, e as duas componentes de $\\vec{v}_0$ têm o mesmo módulo, $\\frac{v_0}{\\sqrt{2}}$.\n\nCom a mesma velocidade, no mesmo intervalo de tempo as duas percorrem a mesma distância: a vermelha sobe 40 cm e vai 40 cm em direção à borda lateral; a branca sobe os mesmos 40 cm (chega à borda superior) e se afasta 40 cm no sentido oposto.\n\nNa borda superior, a vermelha está no canto e a branca está a $40 + 40 = 80$ cm dela.\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -1048,6 +1092,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Dinâmica",
+   "resolucao": "Com velocidade constante, a resultante sobre a caixa é nula: a tração no cabo equilibra o peso, $T = mg = 12 \\cdot 10 = 120\\ \\text{N}$.\n\nA polia é fixa no teto e sem atrito: ela só muda a direção do cabo, sem reduzir a força. O motor puxa a outra ponta do mesmo cabo com essa tração, 120 N.\n\nA alternativa C (60 N) valeria para uma polia móvel, que divide a força por dois, o que não é o caso da figura.\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -1066,6 +1112,8 @@
    },
    "anulada": true,
    "gabarito": null,
+   "assunto": "Magnetismo",
+   "resolucao": "A banca anulou a questão. Pelo enunciado, a força magnética sobre a carga depende da sua velocidade ($F = Q\\,v\\,B$), mas nenhuma alternativa diferente de zero traz o fator $v$: as alternativas B a E dão $Q\\mu_0 I/\\pi R$, que nem tem unidade de força.",
    "revisao": "ok"
   },
   {
@@ -1084,6 +1132,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Um resistor ôhmico tem gráfico tensão × corrente retilíneo passando pela origem. No gráfico, isso acontece no trecho inicial, para correntes pequenas; depois a curva se encurva.\n\nNesse trecho, lendo pontos da reta: com $i = 0{,}25$ A, a ddp é cerca de 0,2 V; com $i = 0{,}5$ A, cerca de 0,4 V.\n\n$R = \\frac{U}{i} = \\frac{0{,}2}{0{,}25} = 0{,}8\\ \\Omega$.\n\nQuem usa um ponto da parte curva (por exemplo, 0,6 V com 0,9 A) encontra cerca de 0,67 Ω, valor que não vale para a região ôhmica.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1102,6 +1152,8 @@
    },
    "anulada": false,
    "gabarito": "A",
+   "assunto": "Gravitação",
+   "resolucao": "Para o projétil ficar em órbita circular rente à Terra, a gravidade (o peso) faz o papel de força centrípeta:\n\n$m g = \\frac{m v^2}{R} \\Rightarrow v = \\sqrt{gR}$.\n\nCom $R = 6400\\ \\text{km} = 6{,}4\\cdot 10^6\\ \\text{m}$ e $g = 10\\ \\text{m/s}^2$: $v = \\sqrt{6{,}4 \\cdot 10^7} = 8 \\cdot 10^3\\ \\text{m/s} = 8\\ \\text{km/s}$.\n\nA alternativa B (11,2 km/s) é a velocidade de escape, necessária para o projétil se afastar da Terra para sempre, e não para entrar em órbita.\n\n**Resposta: A**",
    "revisao": "ok"
   },
   {
@@ -1120,6 +1172,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Cinemática",
+   "resolucao": "Movimento uniforme: $\\Delta t = \\frac{\\Delta s}{v}$, com as duas grandezas na mesma unidade de comprimento.\n\n$\\Delta s = 5000\\ \\text{km} = 5\\cdot 10^3 \\cdot 10^5\\ \\text{cm} = 5\\cdot 10^8\\ \\text{cm}$.\n\n$\\Delta t = \\frac{5\\cdot 10^8\\ \\text{cm}}{2\\ \\text{cm/ano}} = 2{,}5\\cdot 10^8\\ \\text{anos} = 250.000.000$ anos.\n\nO erro mais comum é converter km em cm com o fator errado ($10^3$ ou $10^4$), o que leva às alternativas com menos zeros.\n\n**Resposta: D**",
    "revisao": "corrigida"
   },
   {
@@ -1138,6 +1192,8 @@
    },
    "anulada": false,
    "gabarito": "E",
+   "assunto": "Hidrografia",
+   "resolucao": "A corrente que banha o litoral do Nordeste e do Sudeste é a corrente do Brasil: um ramo da corrente Sul Equatorial que, ao chegar à costa nordestina, segue para o sul levando águas quentes ao longo do litoral. Ela ajuda a explicar como o óleo, vindo de alto-mar a leste de Pernambuco, se espalhou pela costa até o Sudeste, chegando a Abrolhos.\n\nAs alternativas B e C estão erradas porque não há corrente fria de superfície no litoral nordestino: a corrente das Malvinas (Falkland) chega, no máximo, ao litoral sul e sudeste. As reentrâncias do litoral e a profundidade (A e D) não explicam o transporte do óleo ao longo de 3000 km.\n\n**Resposta: E**",
    "revisao": "ok"
   },
   {
@@ -1158,6 +1214,8 @@
    },
    "anulada": false,
    "gabarito": "D",
+   "assunto": "Cartografia",
+   "resolucao": "Na escala 1 : 1.000.000, cada 1 cm do mapa corresponde a 1.000.000 cm no terreno.\n\n$6\\ \\text{cm} \\times 1.000.000 = 6.000.000\\ \\text{cm} = 60.000\\ \\text{m} = 60\\ \\text{km}$.\n\nLembre que 1 km = 100.000 cm; errar esse fator leva a 6 km ou a 600 km.\n\n**Resposta: D**",
    "revisao": "ok"
   },
   {
@@ -1176,6 +1234,8 @@
    },
    "anulada": false,
    "gabarito": "C",
+   "assunto": "Hidrografia",
+   "resolucao": "As fotos mostram a cidade de Schuld ocupando o fundo plano de um vale, junto a um rio que faz curvas (meandros). Antes da cheia, a área parece seca; depois, as águas cobrem as ruas e as casas desse fundo de vale.\n\nEsse fundo de vale é a planície de inundação do rio: em chuvas extremas, a água extravasa o canal e ocupa essa área, como é natural na dinâmica fluvial. Por isso, a ocupação urbana ali fica exposta às cheias.\n\nAs outras alternativas trazem ideias incorretas: o rio não \"desvia\" da cidade nem submerge morros (A), não há canal aterrado visível (B) e rio entrelaçado em vale rugoso (E) não descreve a paisagem.\n\n**Resposta: C**",
    "revisao": "corrigida"
   },
   {
@@ -1190,11 +1250,13 @@
     "B": "![Fotografia B: rio de águas turvas com vegetação nas margens e morro com casa ao fundo](fig:p17-c3)",
     "C": "![Fotografia C: rio entre vegetação, com montanhas ao fundo](fig:p17-c4)",
     "D": "![Fotografia D: morros com mata e pasto, sem rio visível](fig:p17-c5)",
-    "E": "![Fotografia E: pasto em primeiro plano e morro com mata ao fundo](fig:p17-c6)"
+    "E": "![Fotografia E: pasto em primeiro plano e morro com mata ao fundo, com uma pequena construção branca ao pé do morro](fig:p17-c6)"
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Cartografia",
+   "resolucao": "A chave é ler o mapa a partir da posição do observador. Ele está na margem sudoeste do lago, no fundo do vale (curvas de nível perto de 605 m), e olha para nordeste.\n\nNessa direção ele vê primeiro a água do lago/córrego, depois a faixa de mata ciliar que acompanha o curso d'água e, subindo a encosta coberta de pastagem, a edificação marcada no mapa a nordeste do lago.\n\nA foto B reúne esses elementos: água em primeiro plano, vegetação nas margens e um morro com casa ao fundo. A foto E também mostra uma construção, mas o primeiro plano é pasto, sem água, o que não combina com quem está à beira do rio. A, C e D não mostram a casa nem a combinação de mata ciliar e pasto vista do vale.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2022-1-q62",
@@ -1212,7 +1274,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "O gráfico de maré e o mapa de pressão explicam o desencalhe.\n\nNo mapa, há pressão alta sobre a Europa e o Mediterrâneo (1030 hPa) e pressão mais baixa sobre a África (1020 e 1010 hPa). O ar vai da alta para a baixa pressão, e as setas perto do Canal de Suez indicam vento vindo de noroeste.\n\nNo gráfico, a Lua Cheia ocorre em 28/03, e as marés máximas sobem até cerca de 2,10 m. Lua cheia (ou nova) alinha Sol, Terra e Lua: é a maré de sizígia, com marés mais altas, o que ajudou o navio a flutuar no dia 29.\n\nAs alternativas com maré de quadratura (A e C) ou rebaixamento do nível do mar (D) contrariam o gráfico.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q63",
@@ -1232,7 +1296,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "O texto informa que, depois das queimadas controladas, as plantas rebrotaram e o número de espécies subiu: de 38 para 44 gramíneas e de 68 para 74 outras ervas.\n\nMais espécies significam manutenção (e até aumento) da biodiversidade local. O Cerrado é um bioma adaptado ao fogo natural, e a queima controlada imita esse ciclo.\n\nAs demais alternativas falam de agricultura ou pecuária, que o texto não menciona, ou afirmam desvantagem para a flora, o contrário do que os dados mostram.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q64",
@@ -1252,7 +1318,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "População e migrações",
+   "resolucao": "A desigualdade de gênero no trabalho de cuidado aparece sobretudo no trabalho não remunerado: compare a parte não remunerada das mulheres com a dos homens em cada região.\n\nPaíses Árabes: mulheres cerca de 335 min e homens cerca de 70 min, diferença de cerca de 265 min (a maior). Ásia/Pacífico: 265 contra 65 (cerca de 200). África: 270 contra 80. Europa/Ásia Central: 280 contra 135.\n\nAméricas: mulheres cerca de 270 min e homens cerca de 155 min, diferença de cerca de 115 min, a menor. Nas Américas também é pequena a diferença no tempo total (442 contra 423).\n\nLogo, maior desigualdade nos Países Árabes e menor nas Américas.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q65",
@@ -1272,7 +1340,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "História da África",
+   "resolucao": "Os dois textos falam da guerra civil em Ruanda, que culminou no genocídio de 1994.\n\nO conflito opôs hutus e tutsis, grupos cuja rivalidade étnica foi acentuada pela colonização belga, que favorecia os tutsis. A violência envolveu também o vizinho Burundi, de composição étnica parecida, para onde muitos tutsis se exilaram (como o pai citado no Texto 2).\n\nA alternativa E traz a década certa (1990) e a origem étnica. A C erra ao chamar de religiosa uma disputa étnica; A, B e D trazem datas e apoios externos errados.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q66",
@@ -1290,7 +1360,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "Comparando os dois mapas, as doenças tropicais negligenciadas se concentram nos países pobres e tropicais.\n\nNa América do Norte (Estados Unidos e Canadá), com PIB per capita alto, a incidência fica na faixa mais baixa. No Oriente Médio há países com incidência bem maior, como o Afeganistão e o Iêmen. Por isso a alternativa D está correta.\n\nAs outras invertem a relação: na África subsaariana a incidência é alta onde o PIB é baixo (A); a América Platina tem PIB per capita relativamente alto (C); a Austrália tem incidência baixa (E).\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q67",
@@ -1310,7 +1382,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Indústria",
+   "resolucao": "A fabricação de semicondutores se concentra na Ásia, sobretudo nos Tigres Asiáticos: Taiwan, Coreia do Sul e Cingapura (primeira geração) e países como a Indonésia e a Malásia (segunda geração), onde ficam grandes fundições e fábricas de montagem de chips. É o que diz a alternativa A.\n\nA distratora C troca o conceito: a crise revela a interdependência da cadeia produtiva global, que a torna vulnerável a choques de oferta e demanda, e não a independência.\n\nB erra porque EUA e Europa seguem investindo pesado em pesquisa; D erra ao falar em democratização da China; E erra ao atribuir a escassez à falta de matéria-prima, quando a causa foi a combinação de paralisações na pandemia com o aumento da demanda.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q68",
@@ -1328,7 +1402,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "Sódio e potássio estão no grupo 1, mas o potássio está um período abaixo (período 4, contra o período 3 do sódio). Com uma camada eletrônica a mais, o íon $\\text{K}^+$ é maior que o íon $\\text{Na}^+$.\n\nNa troca iônica, íons maiores ocupam os lugares dos menores sem que o volume do vidro mude. A estrutura fica mais \"apertada\", mais preenchida, e a superfície fica comprimida, o que a torna mais resistente a quedas e riscos (é o princípio dos vidros temperados quimicamente).\n\nC e E erram o tamanho do íon; B atribui resistência mecânica ao próprio íon, o que não faz sentido.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q69",
@@ -1346,7 +1422,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Pela reação dada, cada grupo $\\text{O–R}$ preso ao silício sai como $\\text{ROH}$ na hidrólise. Para o silicone ser \"acético\", o $\\text{ROH}$ liberado tem de ser o ácido acético, $\\text{CH}_3\\text{COOH}$.\n\nEntão R deve ser o grupo acetila, $\\text{CH}_3\\text{CO–}$: os três grupos ligados ao silício devem ser acetatos, $\\text{Si–O–CO–CH}_3$. É a estrutura da alternativa B.\n\nA alternativa A libera ácido fórmico (grupos formiato), D libera ácido propanoico, E libera um enol/aldeído, e em C os grupos carboxila estão ligados ao silício por carbono, sem ligação Si–O para hidrolisar.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q70",
@@ -1364,7 +1442,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "A reação global é a soma das etapas I e II, cancelando o intermediário $\\text{O}^{\\cdot}$:\n\nI: $\\text{O}_2 \\rightarrow 2\\ \\text{O}^{\\cdot}$\nII: $2\\ \\text{O}_2 + 2\\ \\text{O}^{\\cdot} \\rightarrow 2\\ \\text{O}_3$\n\nSomando: $3\\ \\text{O}_2 \\rightarrow 2\\ \\text{O}_3$, balanceada (6 átomos de oxigênio de cada lado). É o inverso da reação III, como se espera, já que III restaura o oxigênio.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q71",
@@ -1382,7 +1462,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "Use a lei de Hess com os valores totais de cada reação (os da tabela são por mol de $\\text{O}_2$).\n\nReação I envolve 1 mol de $\\text{O}_2$: $\\Delta H_{\\text{I}} = -118$ kcal. Reação III forma 3 mol de $\\text{O}_2$: $\\Delta H_{\\text{III}} = 3 \\times (+21) = +63$ kcal.\n\nA soma I + II dá $3\\ \\text{O}_2 \\rightarrow 2\\ \\text{O}_3$, o inverso de III, com $\\Delta H = -63$ kcal. Então:\n$-118 + \\Delta H_{\\text{II,total}} = -63 \\Rightarrow \\Delta H_{\\text{II,total}} = +55$ kcal\n\nA reação II consome 2 mol de $\\text{O}_2$, logo $\\Delta H_{\\text{II}} = \\frac{+55}{2} = +27{,}5$ kcal/mol de $\\text{O}_2$. A alternativa E (+55,0) é a armadilha de esquecer de dividir pelos 2 mol.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q72",
@@ -1400,7 +1482,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Física moderna",
+   "resolucao": "Para o equipamento funcionar, o fóton precisa ter energia suficiente para arrancar o elétron: $hf \\geq E_0$. O valor limite de $E_0$ é, portanto, da ordem da energia do fóton.\n\n$E = hf = 6{,}63 \\times 10^{-34} \\times 10^{14} = 6{,}63 \\times 10^{-20}\\ \\text{J}$\n\nEntre as alternativas, a ordem de grandeza compatível é $10^{-20}\\ \\text{J}$. Valores como $10^{-10}\\ \\text{J}$ seriam enormes: nenhum fóton dessa frequência liberaria elétrons.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q73",
@@ -1418,7 +1502,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Cinética química",
+   "resolucao": "O enunciado diz que a hidrólise é catalisada por ácido e fica mais lenta perto da neutralidade. Em pH = 2 há muito mais $\\text{H}^+$ do que em pH = 6, então a reação é mais rápida em pH = 2.\n\nO ácido graxo é produto: sua quantidade começa em zero e aumenta com o tempo nas duas curvas, até se estabilizar. A curva de pH = 2 deve subir mais depressa que a de pH = 6.\n\nIsso descarta B, D e E (quantidade de produto caindo ou começando alta) e C (pH = 6 mais rápido). Sobra A.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q74",
@@ -1436,7 +1522,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "resolucao": "O oxalato de cálcio precipita quando o produto das concentrações dos íons atinge o $K_{\\text{ps}}$:\n\n$\\text{CaC}_2\\text{O}_4 \\rightleftharpoons \\text{Ca}^{2+} + \\text{C}_2\\text{O}_4^{2-}$, com $K_{\\text{ps}} = [\\text{Ca}^{2+}][\\text{C}_2\\text{O}_4^{2-}]$\n\n$[\\text{C}_2\\text{O}_4^{2-}] = \\frac{2 \\times 10^{-9}}{5 \\times 10^{-3}} = 0{,}4 \\times 10^{-6} = 4 \\times 10^{-7}$ mol/L\n\nAcima dessa concentração de oxalato, o sal começa a precipitar.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q75",
@@ -1456,7 +1544,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Radioatividade",
+   "resolucao": "O marcador viaja com a água dentro do cano. Se o cano estivesse íntegro, a radioatividade medida seria aproximadamente constante ao longo dele (a meia-vida de 15 horas é longa comparada ao tempo do percurso).\n\nNo trecho 2 aparece um pico, e depois dele (trecho 3) a contagem fica menor que no trecho 1. Isso indica que parte da água com marcador saiu do cano no trecho 2 por uma fissura e se acumulou no solo ao redor, aumentando a leitura ali; adiante, passa menos marcador.\n\nA alternativa E não explica o pico, e a radioatividade não é \"consumida\" por reações químicas (D): ela depende do núcleo, não da química.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q76",
@@ -1466,15 +1556,17 @@
    "texto_base": null,
    "enunciado": "O hidróxido de alumínio ($\\text{A}\\ell(\\text{OH})_3$), ao precipitar em solução aquosa, forma um sólido gelatinoso que pode ser usado como agente floculante no tratamento de água. Essa precipitação pode ocorrer pela adição de um hidróxido solúvel a uma solução aquosa ácida contendo um sal de alumínio solúvel, como o $\\text{A}\\ell\\text{C}\\ell_3$. Entretanto, adicionando-se excesso de hidróxido ao meio, há a formação de íons $\\text{A}\\ell(\\text{OH})_4^-$, espécie solúvel em água, e o precipitado se solubiliza novamente. Dessa forma, dependendo do pH do meio, uma dentre as espécies $\\text{A}\\ell(\\text{OH})_4^-(\\text{aq})$, $\\text{A}\\ell(\\text{OH})_3(\\text{s})$ e $\\text{A}\\ell^{3+}(\\text{aq})$ estará presente na solução em quantidade maior que as demais, como exemplificado no esquema.\n\n![Escala de pH do meio de 4 a 9 com três faixas identificadas como Espécie A (à esquerda), Espécie B (ao centro) e Espécie C (à direita)](fig:p22-c1)\n\nA alternativa que mostra corretamente qual das espécies estará em quantidade maior que as duas outras em cada faixa de pH é:",
    "alternativas": {
-    "A": "![Alternativa A: espécies predominantes em cada faixa de pH](fig:p22-c2)",
-    "B": "![Alternativa B: espécies predominantes em cada faixa de pH](fig:p22-c3)",
-    "C": "![Alternativa C: espécies predominantes em cada faixa de pH](fig:p22-c4)",
-    "D": "![Alternativa D: espécies predominantes em cada faixa de pH](fig:p22-c5)",
-    "E": "![Alternativa E: espécies predominantes em cada faixa de pH](fig:p22-c6)"
+    "A": "![Alternativa A: escala de pH do meio de 4 a 9 com Aℓ(OH)₄⁻(aq) na faixa da esquerda, Aℓ(OH)₃(s) na faixa do centro e Aℓ³⁺(aq) na faixa da direita](fig:p22-c2)",
+    "B": "![Alternativa B: escala de pH do meio de 4 a 9 com Aℓ³⁺(aq) na faixa da esquerda, Aℓ(OH)₄⁻(aq) na faixa do centro e Aℓ(OH)₃(s) na faixa da direita](fig:p22-c3)",
+    "C": "![Alternativa C: escala de pH do meio de 4 a 9 com Aℓ(OH)₃(s) na faixa da esquerda, Aℓ(OH)₄⁻(aq) na faixa do centro e Aℓ³⁺(aq) na faixa da direita](fig:p22-c4)",
+    "D": "![Alternativa D: escala de pH do meio de 4 a 9 com Aℓ(OH)₃(s) na faixa da esquerda, Aℓ³⁺(aq) na faixa do centro e Aℓ(OH)₄⁻(aq) na faixa da direita](fig:p22-c5)",
+    "E": "![Alternativa E: escala de pH do meio de 4 a 9 com Aℓ³⁺(aq) na faixa da esquerda, Aℓ(OH)₃(s) na faixa do centro e Aℓ(OH)₄⁻(aq) na faixa da direita](fig:p22-c6)"
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Funções inorgânicas",
+   "resolucao": "Relacione cada espécie com a acidez do meio, seguindo o texto.\n\nEm meio ácido (pH baixo, faixa da esquerda) o alumínio fica como íon livre, $\\text{A}\\ell^{3+}$(aq), como na solução ácida do sal $\\text{A}\\ell\\text{C}\\ell_3$.\n\nAdicionando hidróxido, o pH sobe e precipita $\\text{A}\\ell(\\text{OH})_3$(s), na faixa central.\n\nCom excesso de hidróxido (pH alto, faixa da direita) o precipitado se dissolve formando $\\text{A}\\ell(\\text{OH})_4^-$(aq).\n\nA ordem $\\text{A}\\ell^{3+}$, $\\text{A}\\ell(\\text{OH})_3$, $\\text{A}\\ell(\\text{OH})_4^-$ é a da alternativa E.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2022-1-q77",
@@ -1492,7 +1584,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "Todo o naftaleno está na parte sólida; a água só aumenta a massa da amostra.\n\nEm 1 kg de solo úmido há 20% de água, ou seja, 0,8 kg de solo seco, e 2,0 mg de naftaleno.\n\nPor kg de solo seco: $\\frac{2{,}0\\ \\text{mg}}{0{,}8\\ \\text{kg}} = 2{,}5\\ \\text{mg/kg}$\n\nA alternativa B (1,6) é o erro de multiplicar por 0,8 em vez de dividir: ao tirar a água a massa diminui, então a concentração tem de aumentar.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q78",
@@ -1510,7 +1604,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Funções inorgânicas",
+   "resolucao": "Compare cada comportamento com as propriedades dos sais.\n\n$\\text{Ba(NO}_3)_2$: nitratos são solúveis em água, então é o frasco 3 (solúvel nos dois testes, sem gás).\n\n$\\text{BaCO}_3$: insolúvel em água, mas reage com ácido liberando gás carbônico, $\\text{BaCO}_3 + 2\\ \\text{HC}\\ell \\rightarrow \\text{BaC}\\ell_2 + \\text{H}_2\\text{O} + \\text{CO}_2$. É o frasco 2 (gás incolor no teste II).\n\n$\\text{BaSO}_4$: insolúvel em água e em ácido diluído, por isso serve como contraste. É o frasco 1.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q79",
@@ -1530,7 +1626,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "O trecho de Marglin nega que a fábrica tenha vencido por causa de uma tecnologia superior: ela reduziu custos ao reunir os operários \"sob vigilância\", em oposição aos que trabalhavam em casa.\n\nA ideia central é o controle: na fábrica, o capitalista disciplina o trabalhador, fixa horários e ritmos e padroniza as etapas da produção. Isso corresponde à alternativa B.\n\nA alternativa A contradiz diretamente o texto (o argumento tecnológico \"não é nem necessário nem suficiente\"). As demais trazem fatores que o autor não menciona, como guildas ou bônus por produtividade.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2022-1-q80",
