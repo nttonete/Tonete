@@ -104,6 +104,30 @@
   "24": {
    "assunto": "Obras de leitura obrigatória",
    "resolucao": "Nun'Álvares Pereira não foi rei, mas Pessoa o coloca no lugar da Coroa do brasão. O poema o cerca de uma \"auréola\", um \"halo no céu\", feito pela espada \"ungida\" que recebe do Rei Artur: imagens de santidade e de pureza cavaleiresca, não de linhagem ou de poder político.\n\nAssim, a escolha sugere que a verdadeira realeza ou nobreza é a do espírito, como diz a alternativa A.\n\nA referência a Artur é simbólica e não fala de sangue bretão (B); Nun'Álvares não foi regente (C); a espada aparece como luz que ilumina o caminho, não como elogio da guerra (D); e a esperança \"consumada\" é uma esperança realizada, não uma visão desenganada (E).\n\n**Resposta: A**"
+  },
+  "25": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto descreve a cadeia de consequências da taxação: o imposto é repassado ao consumidor (aumento do valor do produto final); livros mais caros vendem menos (queda nas vendas); a queda enfraquece ainda mais as editoras; e editoras enfraquecidas deixam de investir em novas publicações.\n\nA alternativa D segue essa sequência, com sinônimos fiéis: contração nas vendas, esgotamento das editoras, falta de investimento.\n\nAs outras trocam algum elo pelo seu oposto: \"estímulo às editoras\" (A), \"aumento do investimento\" (B), \"expansão das publicações\" (C) e \"equilíbrio nas vendas\" (E).\n\n**Resposta: D**"
+  },
+  "26": {
+   "assunto": "Coesão e coerência",
+   "resolucao": "O pronome relativo \"que\" retoma o termo que vem logo antes dele:\n\n1º \"um efeito cascata **que** acaba custando caro\": é o efeito cascata que custa caro.\n2º \"mercado editorial – **que** há anos não anda bem das pernas\": o mercado editorial.\n3º \"uma crise **que** agora está intensificada\": a crise.\n4º \"queda de vendas, **que**, por sua vez, enfraquece ainda mais editoras\": a queda de vendas.\n\nA sequência é a da alternativa C. A distratora A troca o primeiro referente por \"taxação de livros\", mas quem \"acaba custando caro\" no período é o efeito cascata que ela provoca.\n\n**Resposta: C**"
+  },
+  "27": {
+   "assunto": "Interpretação de texto literário",
+   "resolucao": "Para Bosi, o romance de resistência é o \"avesso\" da rotina social: recusa o discurso conformista da \"vida como ela é\" e mostra que essa vida é, quase sempre, \"o ramerrão de um mecanismo alienante\". Assim, a narrativa \"descobre a vida verdadeira\" e, sendo ficção, \"resiste à mentira\".\n\nO autor adquire perspectiva crítica quando rompe a aparência enganosa da realidade cotidiana, como diz a alternativa A.\n\nA B é o oposto: ficar rente à vida mesquinha é o realismo conformista que o texto critica. O texto também rejeita a neutralidade (C), o discurso positivo da ordem (D) e não opõe fantasia à verdade, pois diz que a literatura pode ser \"o lugar da verdade mais exigente\" (E).\n\n**Resposta: A**"
+  },
+  "28": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto justifica a afirmação inicial com exemplos: \"Todas as nossas sociedades baseiam-se no escrito\"; a lei, os contratos, a religião e a própria história se apoiam em textos escritos.\n\nOu seja, o escrito serve de base, de respaldo, às atividades humanas, como diz a alternativa B.\n\nO texto só levanta a possibilidade de uma terceira era (\"Talvez venha o dia\"), sem dizer que ela está próxima (A); diz que o escrito substituiu a convenção verbal, e não o contrário (C); e não afirma que a oralidade deixou de existir (D).\n\n**Resposta: B**"
+  },
+  "29": {
+   "assunto": "Semântica e sentido das palavras",
+   "resolucao": "Em \"A escrita faz de tal modo parte de nossa civilização que poderia servir de definição dela própria\", a estrutura \"de tal modo... que\" liga uma intensidade ao seu resultado: a escrita é tão presente que, por isso, poderia definir a civilização. É uma relação de consequência.\n\nEm \"E sobretudo não existe história que não se funde sobre textos\", \"sobretudo\" significa \"principalmente\": destaca o último exemplo como o mais importante. É uma noção de realce.\n\nA alternativa D acerta a primeira noção, mas o \"não\" que nega a frase é outra palavra, não \"sobretudo\".\n\n**Resposta: B**"
+  },
+  "30": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Pelo princípio multiplicativo, cada posição contribui com o número de opções: 26 para letra e 10 para algarismo, com repetição permitida.\n\nSistema anterior (3 letras e 4 algarismos): $26^3 \\cdot 10^4$ placas.\n\nPadrão Mercosul (4 letras e 3 algarismos, em qualquer ordem fixa): $26^4 \\cdot 10^3$ placas.\n\nA razão entre eles é $\\frac{26^4 \\cdot 10^3}{26^3 \\cdot 10^4} = \\frac{26}{10} = 2{,}6$. Logo, o padrão Mercosul permite 2,6 vezes o número de placas do sistema anterior. A posição da quarta letra não muda a contagem.\n\n**Resposta: C**"
   }
  },
  "relatorio": []
