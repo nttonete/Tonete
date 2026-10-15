@@ -1,0 +1,460 @@
+{
+  "edicao": "fuvest-2018-1",
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 1,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um fabricante de acessórios de montanhismo quer projetar um colchão de espuma apropriado para ser utilizado por alpinistas em regiões frias. Considere que a taxa de transferência de calor ao solo por uma pessoa dormindo confortavelmente seja 90 kcal/hora e que a transferência de calor entre a pessoa e o solo se dê exclusivamente pelo mecanismo de condução térmica através da espuma do colchão. Nestas condições, o gráfico representa a taxa de transferência de calor, em J/s, através da espuma do colchão, em função de sua espessura, em cm.\n\n![Gráfico da taxa de transferência de calor, em J/s, em função da espessura do colchão, em cm: curva decrescente](fig:p02-f1)\n\nConsiderando 1 cal = 4 J, a menor espessura do colchão, em cm, para que a pessoa durma confortavelmente é",
+      "alternativas": {
+        "A": "1,0.",
+        "B": "1,5.",
+        "C": "2,2.",
+        "D": "2,8.",
+        "E": "3,9."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 2,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Câmeras digitais, como a esquematizada na figura, possuem mecanismos automáticos de focalização.\n\n![Esquema de uma câmera digital com lente e sensor, e um objeto à direita sobre o eixo óptico](fig:p02-f2)\n\nEm uma câmera digital que utilize uma lente convergente com 20 mm de distância focal, a distância, em mm, entre a lente e o sensor da câmera, quando um objeto a 2 m estiver corretamente focalizado, é, aproximadamente,",
+      "alternativas": {
+        "A": "1.",
+        "B": "5.",
+        "C": "10.",
+        "D": "15.",
+        "E": "20."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 3,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Furacões são sistemas físicos que liberam uma enorme quantidade de energia por meio de diferentes tipos de processos, sendo um deles a condensação do vapor em água. De acordo com o Laboratório Oceanográfico e Meteorológico do Atlântico, um furacão produz, em média, 1,5 cm de chuva por dia em uma região plana de 660 km de raio. Nesse caso, a quantidade de energia por unidade de tempo envolvida no processo de condensação do vapor em água da chuva é, aproximadamente,\n\n**Note e adote:**\n$\\pi = 3$.\nCalor latente de vaporização da água: $2 \\times 10^6\\ \\text{J/kg}$.\nDensidade da água: $10^3\\ \\text{kg/m}^3$.\n1 dia $= 8{,}6 \\times 10^4\\ \\text{s}$.",
+      "alternativas": {
+        "A": "$3{,}8 \\times 10^{15}\\ \\text{W}$.",
+        "B": "$4{,}6 \\times 10^{14}\\ \\text{W}$.",
+        "C": "$2{,}1 \\times 10^{13}\\ \\text{W}$.",
+        "D": "$1{,}2 \\times 10^{12}\\ \\text{W}$.",
+        "E": "$1{,}1 \\times 10^{11}\\ \\text{W}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 4,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em uma tribo indígena de uma ilha tropical, o teste derradeiro de coragem de um jovem é deixar-se cair em um rio, do alto de um penhasco. Um desses jovens se soltou verticalmente, a partir do repouso, de uma altura de 45 m em relação à superfície da água. O tempo decorrido, em segundos, entre o instante em que o jovem iniciou sua queda e aquele em que um espectador, parado no alto do penhasco, ouviu o barulho do impacto do jovem na água é, aproximadamente,\n\n**Note e adote:**\nConsidere o ar em repouso e ignore sua resistência.\nIgnore as dimensões das pessoas envolvidas.\nVelocidade do som no ar: 360 m/s.\nAceleração da gravidade: $10\\ \\text{m/s}^2$.",
+      "alternativas": {
+        "A": "3,1.",
+        "B": "4,3.",
+        "C": "5,2.",
+        "D": "6,2.",
+        "E": "7,0."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 5,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Ondas na superfície de líquidos têm velocidades que dependem da profundidade do líquido e da aceleração da gravidade, desde que se propaguem em águas rasas. O gráfico representa o módulo $v$ da velocidade da onda em função da profundidade $h$ da água.\n\n![Gráfico do módulo v da velocidade da onda, em m/s, em função da profundidade h da água, em m: curva crescente](fig:p03-c4)\n\nUma onda no mar, onde a profundidade da água é 4,0 m, tem comprimento de onda igual a 50 m. Na posição em que a profundidade da água é 1,0 m, essa onda tem comprimento de onda, em m, aproximadamente igual a",
+      "alternativas": {
+        "A": "8.",
+        "B": "12.",
+        "C": "25.",
+        "D": "35.",
+        "E": "50."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 6,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma caminhonete, de massa 2.000 kg, bateu na traseira de um sedã, de massa 1.000 kg, que estava parado no semáforo, em uma rua horizontal. Após o impacto, os dois veículos deslizaram como um único bloco. Para a perícia, o motorista da caminhonete alegou que estava a menos de 20 km/h quando o acidente ocorreu. A perícia constatou, analisando as marcas de frenagem, que a caminhonete arrastou o sedã, em linha reta, por uma distância de 10 m. Com este dado e estimando que o coeficiente de atrito cinético entre os pneus dos veículos e o asfalto, no local do acidente, era 0,5, a perícia concluiu que a velocidade real da caminhonete, em km/h, no momento da colisão era, aproximadamente,\n\n**Note e adote:**\nAceleração da gravidade: $10\\ \\text{m/s}^2$.\nDesconsidere a massa dos motoristas e a resistência do ar.",
+      "alternativas": {
+        "A": "10.",
+        "B": "15.",
+        "C": "36.",
+        "D": "48.",
+        "E": "54."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O projeto para um balanço de corda única de um parque de diversões exige que a corda do brinquedo tenha um comprimento de 2,0 m. O projetista tem que escolher a corda adequada para o balanço, a partir de cinco ofertas disponíveis no mercado, cada uma delas com distintas tensões de ruptura. A tabela apresenta essas opções.\n\n| Corda | I | II | III | IV | V |\n|---|---|---|---|---|---|\n| Tensão de ruptura (N) | 4.200 | 7.500 | 12.400 | 20.000 | 29.000 |\n\nEle tem também que incluir no projeto uma margem de segurança; esse fator de segurança é tipicamente 7, ou seja, o balanço deverá suportar cargas sete vezes a tensão no ponto mais baixo da trajetória. Admitindo que uma pessoa de 60 kg, ao se balançar, parta do repouso, de uma altura de 1,2 m em relação à posição de equilíbrio do balanço, as cordas que poderiam ser adequadas para o projeto são\n\n**Note e adote:**\nAceleração da gravidade: $10\\ \\text{m/s}^2$.\nDesconsidere qualquer tipo de atrito ou resistência ao movimento e ignore a massa do balanço e as dimensões da pessoa.\nAs cordas são inextensíveis.",
+      "alternativas": {
+        "A": "I, II, III, IV e V.",
+        "B": "II, III, IV e V, apenas.",
+        "C": "III, IV e V, apenas.",
+        "D": "IV e V, apenas.",
+        "E": "V, apenas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 8,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O ano de 2017 marca o trigésimo aniversário de um grave acidente de contaminação radioativa, ocorrido em Goiânia em 1987. Na ocasião, uma fonte radioativa, utilizada em um equipamento de radioterapia, foi retirada do prédio abandonado de um hospital e, posteriormente, aberta no ferro-velho para onde fora levada. O brilho azulado do pó de césio-137 fascinou o dono do ferro-velho, que compartilhou porções do material altamente radioativo com sua família e amigos, o que teve consequências trágicas. O tempo necessário para que metade da quantidade de césio-137 existente em uma fonte se transforme no elemento não radioativo bário-137 é trinta anos. Em relação a 1987, a fração de césio-137, em %, que existirá na fonte radioativa 120 anos após o acidente, será, aproximadamente,",
+      "alternativas": {
+        "A": "3,1.",
+        "B": "6,3.",
+        "C": "12,5.",
+        "D": "25,0.",
+        "E": "50,0."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 9,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na figura, A e B representam duas placas metálicas; a diferença de potencial entre elas é $V_B - V_A = 2{,}0 \\times 10^4\\ \\text{V}$. As linhas tracejadas 1 e 2 representam duas possíveis trajetórias de um elétron, no plano da figura.\n\n![Duas placas metálicas paralelas, B acima e A abaixo; do ponto X na placa A partem a trajetória 1, tracejada e vertical até B, e a trajetória 2, tracejada e curva até B](fig:p04-f1)\n\nConsidere a carga do elétron igual a $-1{,}6 \\times 10^{-19}\\ \\text{C}$ e as seguintes afirmações com relação à energia cinética de um elétron que sai do ponto X na placa A e atinge a placa B:\n\nI. Se o elétron tiver velocidade inicial nula, sua energia cinética, ao atingir a placa B, será $3{,}2 \\times 10^{-15}\\ \\text{J}$.\nII. A variação da energia cinética do elétron é a mesma, independentemente de ele ter percorrido as trajetórias 1 ou 2.\nIII. O trabalho realizado pela força elétrica sobre o elétron na trajetória 2 é maior do que o realizado sobre o elétron na trajetória 1.\n\nApenas é correto o que se afirma em",
+      "alternativas": {
+        "A": "I.",
+        "B": "II.",
+        "C": "III.",
+        "D": "I e II.",
+        "E": "I e III."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 10,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Atualmente são usados LEDs (*Light Emitting Diode*) na iluminação doméstica. LEDs são dispositivos semicondutores que conduzem a corrente elétrica apenas em um sentido. Na figura, há um circuito de alimentação de um LED (L) de 8 W, que opera com 4 V, sendo alimentado por uma fonte (F) de 6 V.\n\n![Circuito com fonte F, resistor R e LED L ligados em série](fig:p04-f2)\n\nO valor da resistência do resistor (R), em $\\Omega$, necessário para que o LED opere com seus valores nominais é, aproximadamente,",
+      "alternativas": {
+        "A": "1,0.",
+        "B": "2,0.",
+        "C": "3,0.",
+        "D": "4,0.",
+        "E": "5,0."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 11,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 2016, as lâmpadas incandescentes tiveram sua venda definitivamente proibida no país, por razões energéticas. Uma lâmpada fluorescente, considerada energeticamente eficiente, consome 28 W de potência e pode produzir a mesma intensidade luminosa que uma lâmpada incandescente consumindo a potência de 100 W. A vida útil média da lâmpada fluorescente é de 10.000 h e seu preço médio é de R\\$ 20,00, enquanto a lâmpada incandescente tem vida útil de 1.000 h e cada unidade custaria, hoje, R\\$ 4,00. O custo da energia é de R\\$ 0,25 por quilowatt-hora. O valor total, em reais, que pode ser poupado usando uma lâmpada fluorescente, ao longo da sua vida útil, ao invés de usar lâmpadas incandescentes para obter a mesma intensidade luminosa, durante o mesmo período de tempo, é",
+      "alternativas": {
+        "A": "90,00.",
+        "B": "140,00.",
+        "C": "200,00.",
+        "D": "250,00.",
+        "E": "290,00."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma das substâncias utilizadas em desinfetantes comerciais é o perácido de fórmula $\\text{CH}_3\\text{CO}_3\\text{H}$.\nA formulação de um dado desinfetante encontrado no comércio consiste em uma solução aquosa na qual existem espécies químicas em equilíbrio, como representado a seguir. (Nessa representação, a fórmula do composto 1 não é apresentada.)\n\n![Equação química: perácido de fórmula estrutural H3C–C(=O)–OOH mais H2O em equilíbrio com composto 1 mais H2O2](fig:p05-f1)\n\nAo abrir um frasco desse desinfetante comercial, é possível sentir o odor característico de um produto de uso doméstico. Esse odor é de",
+      "alternativas": {
+        "A": "amônia, presente em produtos de limpeza, como limpa-vidros.",
+        "B": "álcool comercial, ou etanol, usado em limpeza doméstica.",
+        "C": "acetato de etila, ou etanoato de etila, presente em removedores de esmalte.",
+        "D": "cloro, presente em produtos alvejantes.",
+        "E": "ácido acético, ou ácido etanoico, presente no vinagre."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 13,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma determinada quantidade de metano ($\\text{CH}_4$) é colocada para reagir com cloro ($\\text{C}\\ell_2$) em excesso, a 400 °C, gerando $\\text{HC}\\ell$ (g) e os compostos organoclorados $\\text{H}_3\\text{CC}\\ell$, $\\text{H}_2\\text{CC}\\ell_2$, $\\text{HCC}\\ell_3$, $\\text{CC}\\ell_4$, cujas propriedades são mostradas na tabela. A mistura obtida ao final das reações químicas é então resfriada a 25 °C, e o líquido, formado por uma única fase e sem $\\text{HC}\\ell$, é coletado.\n\n| Composto | Ponto de fusão (°C) | Ponto de ebulição (°C) | Solubilidade em água a 25 °C (g/L) | Densidade do líquido a 25 °C (g/mL) |\n|---|---|---|---|---|\n| $\\text{H}_3\\text{CC}\\ell$ | −97,4 | −23,8 | 5,3 | − |\n| $\\text{H}_2\\text{CC}\\ell_2$ | −96,7 | 39,6 | 17,5 | 1,327 |\n| $\\text{HCC}\\ell_3$ | −63,5 | 61,2 | 8,1 | 1,489 |\n| $\\text{CC}\\ell_4$ | −22,9 | 76,7 | 0,8 | 1,587 |\n\nA melhor técnica de separação dos organoclorados presentes na fase líquida e o primeiro composto a ser separado por essa técnica são:",
+      "alternativas": {
+        "A": "decantação; $\\text{H}_3\\text{CC}\\ell$.",
+        "B": "destilação fracionada; $\\text{CC}\\ell_4$.",
+        "C": "cristalização; $\\text{HCC}\\ell_3$.",
+        "D": "destilação fracionada; $\\text{H}_2\\text{CC}\\ell_2$.",
+        "E": "decantação; $\\text{CC}\\ell_4$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 14,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A mandioca, uma das principais fontes de carboidratos da alimentação brasileira, possui algumas variedades conhecidas popularmente como “mandioca brava”, devido a sua toxicidade. Essa toxicidade se deve à grande quantidade de cianeto de hidrogênio (HCN) liberado quando o tecido vegetal é rompido.\nApós cada etapa do processamento para a produção de farinha de mandioca seca, representado pelo esquema a seguir, quantificou-se o total de HCN nas amostras, conforme mostrado no gráfico que acompanha o esquema.\n\n![Esquema do processamento da mandioca: Amostra I (mandioca fresca e descascada), Etapa 1 trituração, Amostra II (mandioca fresca triturada), Etapa 2 prensagem e extração do líquido residual (manipueira), Amostra III (massa prensada), Etapa 3 torração a 160 °C, Amostra IV (farinha torrada); abaixo, gráfico de barras da quantidade total de HCN, em mg/kg, nas amostras II, III e IV](fig:p05-f2)\n\nO que ocorre com o HCN nas Etapas 2 e 3?",
+      "alternativas": {
+        "A": "**Etapa 2:** HCN é insolúvel em água, formando um precipitado.\n**Etapa 3:** HCN é volatilizado durante a torração, sendo liberado no ar.",
+        "B": "**Etapa 2:** HCN é insolúvel em água, formando uma única fase na manipueira.\n**Etapa 3:** HCN permanece na massa torrada, não sendo afetado pela temperatura.",
+        "C": "**Etapa 2:** HCN é solúvel em água, sendo levado na manipueira.\n**Etapa 3:** HCN permanece na massa torrada, não sendo afetado pela temperatura.",
+        "D": "**Etapa 2:** HCN é solúvel em água, sendo levado na manipueira.\n**Etapa 3:** HCN é volatilizado durante a torração, sendo liberado no ar.",
+        "E": "**Etapa 2:** HCN é insolúvel em água, formando um precipitado.\n**Etapa 3:** A 160 °C, a ligação C≡N é quebrada, degradando as moléculas de HCN."
+      },
+      "observacoes": "As alternativas são células de uma tabela de duas colunas (Etapa 2 | Etapa 3); aqui cada alternativa traz os dois rótulos de coluna no texto."
+    },
+    {
+      "numero": 15,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um dos parâmetros que determina a qualidade do azeite de oliva é sua acidez, normalmente expressa na embalagem na forma de porcentagem, e que pode ser associada diretamente ao teor de ácido oleico em sua composição.\nUma amostra de 20,00 g de um azeite comercial foi adicionada a 100 mL de uma solução contendo etanol e etoxietano (dietiléter), 1:1 em volume, com o indicador fenolftaleína. Sob constante agitação, titulou-se com uma solução etanólica contendo KOH 0,020 mol/L até a _______________ total. Para essa amostra, usaram-se 35,0 mL de base, o que permite concluir que se trata de um azeite tipo _______________.\n\nAs palavras que completam corretamente as lacunas são:\n\n**Note e adote:**\nClassificação de azeites por acidez (em %, massa do ácido oleico por 100 g de azeite):\n\n| Tipo | Acidez |\n|---|---|\n| Extra virgem | Menor que 0,8% |\n| Virgem fino | De 0,8% até 1,5% |\n| Semifino | Maior que 1,5% até 3,0% |\n| Refinado | Maior que 3,0% |\n\nÁcido oleico (ácido octadec-9-enoico)\nFórmula: $\\text{C}_{18}\\text{H}_{34}\\text{O}_2$\nMassa molar $= 282{,}5\\ \\text{g mol}^{-1}$\n\n![Fórmula estrutural do ácido oleico: cadeia carbônica com uma ligação dupla e grupo carboxila (C=O e OH) na extremidade](fig:p06-c1)",
+      "alternativas": {
+        "A": "oxidação; semifino.",
+        "B": "neutralização; virgem fino.",
+        "C": "oxidação, virgem fino.",
+        "D": "neutralização; extra virgem.",
+        "E": "neutralização, semifino."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 16,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Tabela periódica dos elementos](fig:p06-f2)\n\nAnalise a tabela periódica e as seguintes afirmações a respeito do elemento químico enxofre (S):\n\nI. Tem massa atômica maior do que a do selênio (Se).\nII. Pode formar com o hidrogênio um composto molecular de fórmula $\\text{H}_2\\text{S}$.\nIII. A energia necessária para remover um elétron da camada mais externa do enxofre é maior do que para o sódio (Na).\nIV. Pode formar com o sódio (Na) um composto iônico de fórmula $\\text{Na}_3\\text{S}$.\n\nSão corretas apenas as afirmações",
+      "alternativas": {
+        "A": "I e II.",
+        "B": "I e III.",
+        "C": "II e III.",
+        "D": "II e IV.",
+        "E": "III e IV."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A energia liberada na combustão do etanol de cana-de-açúcar pode ser considerada advinda da energia solar, uma vez que a primeira etapa para a produção do etanol é a fotossíntese. As transformações envolvidas na produção e no uso do etanol combustível são representadas pelas seguintes equações químicas:\n\n$6\\ \\text{CO}_2\\ (\\text{g}) + 6\\ \\text{H}_2\\text{O}\\ (\\text{g}) \\rightarrow \\text{C}_6\\text{H}_{12}\\text{O}_6\\ (\\text{aq}) + 6\\ \\text{O}_2\\ (\\text{g})$\n\n$\\text{C}_6\\text{H}_{12}\\text{O}_6\\ (\\text{aq}) \\rightarrow 2\\ \\text{C}_2\\text{H}_5\\text{OH}\\ (\\ell) + 2\\ \\text{CO}_2\\ (\\text{g}) \\qquad \\Delta\\text{H} = -70\\ \\text{kJ/mol}$\n\n$\\text{C}_2\\text{H}_5\\text{OH}\\ (\\ell) + 3\\ \\text{O}_2\\ (\\text{g}) \\rightarrow 2\\ \\text{CO}_2\\ (\\text{g}) + 3\\ \\text{H}_2\\text{O}\\ (\\text{g}) \\quad \\Delta\\text{H} = -1.235\\ \\text{kJ/mol}$\n\nCom base nessas informações, podemos afirmar que o valor de $\\Delta\\text{H}$ para a reação de fotossíntese é",
+      "alternativas": {
+        "A": "−1.305 kJ/mol.",
+        "B": "+1.305 kJ/mol.",
+        "C": "+2.400 kJ/mol.",
+        "D": "−2.540 kJ/mol.",
+        "E": "+2.540 kJ/mol."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um método largamente aplicado para evitar a corrosão em estruturas de aço enterradas no solo, como tanques e dutos, é a proteção catódica com um metal de sacrifício. Esse método consiste em conectar a estrutura a ser protegida, por meio de um fio condutor, a uma barra de um metal diferente e mais facilmente oxidável, que, com o passar do tempo, vai sendo corroído até que seja necessária sua substituição.\n\n![Esquema de um tanque de aço enterrado no solo, ligado por um fio de cobre a uma barra de metal de sacrifício](fig:p07-c1)\n\nBurrows, *et al*. *Chemistry*³, Oxford, 2009. Adaptado.\n\nUm experimento para identificar quais metais podem ser utilizados como metal de sacrifício consiste na adição de um pedaço de metal a diferentes soluções contendo sais de outros metais, conforme ilustrado, e cujos resultados são mostrados na tabela. O símbolo ( + ) indica que foi observada uma reação química e o ( − ) indica que não se observou qualquer reação química.\n\n![Béquer com solução contendo um sal do metal Y, na qual está mergulhada uma barra do metal X](fig:p07-f2)\n\n![Tabela de resultados: soluções de SnCl2, AlCl3, FeCl3 e ZnCl2 (linhas) com os metais X estanho, alumínio, ferro e zinco (colunas); células da diagonal em cinza](fig:p07-c2)\n\nDa análise desses resultados, conclui-se que pode(m) ser utilizado(s) como metal(is) de sacrifício para tanques de aço:\n\n**Note e adote:**\no aço é uma liga metálica majoritariamente formada pelo elemento ferro.",
+      "alternativas": {
+        "A": "$\\text{A}\\ell$ e Zn.",
+        "B": "somente Sn.",
+        "C": "$\\text{A}\\ell$ e Sn.",
+        "D": "somente $\\text{A}\\ell$.",
+        "E": "Sn e Zn."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 19,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em um laboratório químico, foi encontrado um frasco de vidro contendo um líquido incolor e que apresentava o seguinte rótulo:\n\n![Rótulo do frasco: Composto Alfa, C7H8O](fig:p07-f5)\n\nPara identificar a substância contida no frasco, foram feitos os seguintes testes:\n\nI. Dissolveram-se alguns mililitros do líquido do frasco em água, resultando uma solução neutra. A essa solução, adicionaram-se uma gota de ácido e uma pequena quantidade de um forte oxidante. Verificou-se a formação de um composto branco insolúvel em água fria, mas solúvel em água quente. A solução desse composto em água quente apresentou pH = 4.\nII. O sólido branco, obtido no teste anterior, foi dissolvido em etanol e a solução foi aquecida na presença de um catalisador. Essa reação produziu benzoato de etila, que é um éster aromático, de fórmula $\\text{C}_9\\text{H}_{10}\\text{O}_2$.\n\nCom base nos resultados desses testes, concluiu-se que o *Composto Alfa* é:",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p07-c3)",
+        "B": "![Alternativa B](fig:p07-c4)",
+        "C": "![Alternativa C](fig:p07-c5)",
+        "D": "![Alternativa D](fig:p07-c6)",
+        "E": "![Alternativa E](fig:p07-c7)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 20,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere as figuras pelas quais são representados diferentes sistemas contendo determinadas substâncias químicas. Nas figuras, cada círculo representa um átomo, e círculos de tamanhos diferentes representam elementos químicos diferentes.\n\n![Seis quadros numerados de 1 a 6, cada um com círculos cinzentos que representam átomos, isolados ou ligados em grupos](fig:p08-f1)\n\nA respeito dessas representações, é correto afirmar que os sistemas",
+      "alternativas": {
+        "A": "3, 4 e 5 representam misturas.",
+        "B": "1, 2 e 5 representam substâncias puras.",
+        "C": "2 e 5 representam, respectivamente, uma substância molecular e uma mistura de gases nobres.",
+        "D": "6 e 4 representam, respectivamente, uma substância molecular gasosa e uma substância simples.",
+        "E": "1 e 5 representam substâncias simples puras."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 21,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "Considere um aquário tampado contendo apenas água e plantas aquáticas, em grande quantidade, e iluminado somente por luz solar. O gráfico que melhor esboça a variação de pH da água em função do horário do dia, considerando que os gases envolvidos na fotossíntese e na respiração das plantas ficam parcialmente dissolvidos na água, é:",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p08-c1)",
+        "B": "![Alternativa B](fig:p08-c2)",
+        "C": "![Alternativa C](fig:p08-c3)",
+        "D": "![Alternativa D](fig:p08-c4)",
+        "E": "![Alternativa E](fig:p08-c5)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 22,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O hormônio melatonina é responsável pela sensação de sonolência. Em nosso organismo, a concentração de melatonina começa a aumentar ao anoitecer, atinge o máximo no meio da noite e decresce com a luz do dia. A melatonina é sintetizada a partir do aminoácido triptofano, em quatro etapas catalisadas por diferentes enzimas, sendo que a enzima 3 é degradada em presença de luz.\n\n![Esquema da síntese da melatonina: triptofano, enzima 1 (etapa 1), serotonina precursora com grupo HO, enzima 2 (etapa 2), serotonina, enzima 3 (etapa 3), N-acetil-serotonina, enzima 4 (etapa 4), melatonina](fig:p09-f1)\n\nConsidere as seguintes afirmações a respeito desse processo:\n\nI. Na etapa 2, há perda de dióxido de carbono e, na etapa 3, a serotonina é transformada em uma amida.\nII. A manipulação de objetos que emitem luz, como celulares e *tablets*, pode interromper ou tornar muito lento o processo de transformação da serotonina em N-acetil-serotonina.\nIII. O aumento da concentração de triptofano na corrente sanguínea pode fazer com que a pessoa adormeça mais lentamente ao anoitecer.\n\nÉ correto o que se afirma em",
+      "alternativas": {
+        "A": "I e II, apenas.",
+        "B": "I e III, apenas.",
+        "C": "II e III, apenas.",
+        "D": "III, apenas.",
+        "E": "I, II e III."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 23,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Neste texto, o autor descreve o fascínio que as descobertas em Química exerciam sobre ele, durante sua infância.\n\n*Eu adorava Química em parte por ela ser uma ciência de*\n*transformações, de inúmeros compostos baseados em algumas*\n*dúzias de elementos, eles próprios fixos, invariáveis e eternos. A*\n*noção de estabilidade e de invariabilidade dos elementos era*\n[[5]] *psicologicamente crucial para mim, pois eu os via como pontos*\n*fixos, como âncoras em um mundo instável. Mas agora, com a*\n*radioatividade, chegavam transformações das mais incríveis.*\n\n(...)\n\n*A radioatividade não alterava as realidades da Química*\n[[10]] *ou a noção de elementos; não abalava a ideia de sua*\n*estabilidade e identidade. O que ela fazia era aludir a duas*\n*esferas no átomo – uma esfera relativamente superficial e*\n*acessível, que governava a reatividade e a combinação química,*\n*e uma esfera mais profunda, inacessível a todos os agentes*\n[[15]] *químicos e físicos usuais e suas energias relativamente*\n*pequenas, onde qualquer mudança produzia uma alteração*\n*fundamental de identidade.*\n\nOliver Sacks, **Tio Tungstênio**: Memórias de uma infância química.\n\nDe acordo com o autor,",
+      "alternativas": {
+        "A": "o trecho “eles próprios fixos, invariáveis e eternos” (L. 3) remete à dificuldade para a quebra de ligações químicas, que são muito estáveis.",
+        "B": "“esfera relativamente superficial” (L. 12) e “esfera mais profunda” (L. 14) dizem respeito, respectivamente, à eletrosfera e ao núcleo dos átomos.",
+        "C": "“esfera relativamente superficial” (L. 12) e “esfera mais profunda” (L. 14) referem-se, respectivamente, aos elétrons da camada de valência, envolvidos nas reações químicas, e aos elétrons das camadas internas dos átomos, que não estão envolvidos nas reações químicas.",
+        "D": "as energias envolvidas nos processos de transformação de um átomo em outro, como ocorre com materiais radioativos, são “relativamente pequenas” (L. 15-16).",
+        "E": "a expressão “uma alteração fundamental de identidade” (L. 16-17) relaciona-se à capacidade que um mesmo átomo tem de fazer ligações químicas diferentes, formando compostos com propriedades distintas das dos átomos isolados."
+      },
+      "observacoes": "Texto com numeração de linhas (5, 10, 15); o '(...)' conta como linha 8 na contagem do caderno."
+    },
+    {
+      "numero": 24,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em uma urna, há bolas amarelas, brancas e vermelhas. Sabe-se que:\n\nI. A probabilidade de retirar uma bola vermelha dessa urna é o dobro da probabilidade de retirar uma bola amarela.\nII. Se forem retiradas 4 bolas amarelas dessa urna, a probabilidade de retirar uma bola vermelha passa a ser 1/2.\nIII. Se forem retiradas 12 bolas vermelhas dessa urna, a probabilidade de retirar uma bola branca passa a ser 1/2.\n\nA quantidade de bolas brancas na urna é",
+      "alternativas": {
+        "A": "8.",
+        "B": "10.",
+        "C": "12.",
+        "D": "14.",
+        "E": "16."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 25,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sejam $f: \\mathbb{R} \\to \\mathbb{R}$ e $g: \\mathbb{R}^+ \\to \\mathbb{R}$ definidas por\n\n$$f(x) = \\frac{1}{2}5^x \\quad \\text{e} \\quad g(x) = \\log_{10} x\\,,$$\n\nrespectivamente.\n\nO gráfico da função composta $g \\circ f$ é:",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p10-c1)",
+        "B": "![Alternativa B](fig:p10-c2)",
+        "C": "![Alternativa C](fig:p10-c3)",
+        "D": "![Alternativa D](fig:p10-c4)",
+        "E": "![Alternativa E](fig:p10-c5)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 26,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Doze pontos são assinalados sobre quatro segmentos de reta de forma que três pontos sobre três segmentos distintos nunca são colineares, como na figura.\n\n![Quatro segmentos de reta com doze pontos assinalados](fig:p10-f2)\n\nO número de triângulos distintos que podem ser desenhados com os vértices nos pontos assinalados é",
+      "alternativas": {
+        "A": "200.",
+        "B": "204.",
+        "C": "208.",
+        "D": "212.",
+        "E": "220."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 27,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Dentre os candidatos que fizeram provas de matemática, português e inglês num concurso, 20 obtiveram nota mínima para aprovação nas três disciplinas. Além disso, sabe-se que:\n\nI. 14 não obtiveram nota mínima em matemática;\nII. 16 não obtiveram nota mínima em português;\nIII. 12 não obtiveram nota mínima em inglês;\nIV. 5 não obtiveram nota mínima em matemática e em português;\nV. 3 não obtiveram nota mínima em matemática e em inglês;\nVI. 7 não obtiveram nota mínima em português e em inglês e\nVII. 2 não obtiveram nota mínima em português, matemática e inglês.\n\nA quantidade de candidatos que participaram do concurso foi",
+      "alternativas": {
+        "A": "44.",
+        "B": "46.",
+        "C": "47.",
+        "D": "48.",
+        "E": "49."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 28,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sejam $D_f$ e $D_g$ os maiores subconjuntos de $\\mathbb{R}$ nos quais estão definidas, respectivamente, as funções reais\n\n$$f(x) = \\sqrt{\\frac{x^3+2x^2-4x-8}{x-2}} \\quad \\text{e} \\quad g(x) = \\frac{\\sqrt{x^3+2x^2-4x-8}}{\\sqrt{x-2}}\\,.$$\n\nConsidere, ainda, $I_f$ e $I_g$ as imagens de $f$ e de $g$, respectivamente.\n\nNessas condições,",
+      "alternativas": {
+        "A": "$D_f = D_g$ e $I_f = I_g$.",
+        "B": "tanto $D_f$ e $D_g$ quanto $I_f$ e $I_g$ diferem em apenas um ponto.",
+        "C": "$D_f$ e $D_g$ diferem em apenas um ponto, $I_f$ e $I_g$ diferem em mais de um ponto.",
+        "D": "$D_f$ e $D_g$ diferem em mais de um ponto, $I_f$ e $I_g$ diferem em apenas um ponto.",
+        "E": "tanto $D_f$ e $D_g$ quanto $I_f$ e $I_g$ diferem em mais de um ponto."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 29,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Prolongando-se os lados de um octógono convexo ABCDEFGH, obtém-se um polígono estrelado, conforme a figura.\n\n![Polígono estrelado obtido ao prolongar os lados do octógono ABCDEFGH, com os ângulos α1 a α8 assinalados nas pontas da estrela](fig:p11-f1)\n\nA soma $\\alpha_1 + \\cdots + \\alpha_8$ vale",
+      "alternativas": {
+        "A": "$180^0$.",
+        "B": "$360^0$.",
+        "C": "$540^0$.",
+        "D": "$720^0$.",
+        "E": "$900^0$."
+      },
+      "observacoes": "No original os valores das alternativas aparecem com um zero sobrescrito (180⁰ etc.), transcrito como $180^0$."
+    },
+    {
+      "numero": 30,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Gráfico com eixos x e y: uma linha pontilhada de senoide de período menor e uma linha contínua de senoide de menor frequência e amplitude menor](fig:p11-f2)\n\nAdmitindo que a linha pontilhada represente o gráfico da função $f(x) = \\mathit{sen}(x)$ e que a linha contínua represente o gráfico da função $g(x) = \\alpha\\,\\mathit{sen}(\\beta x)$, segue que",
+      "alternativas": {
+        "A": "$0 < \\alpha < 1$ e $0 < \\beta < 1$.",
+        "B": "$\\alpha > 1$ e $0 < \\beta < 1$.",
+        "C": "$\\alpha = 1$ e $\\beta > 1$.",
+        "D": "$0 < \\alpha < 1$ e $\\beta > 1$.",
+        "E": "$0 < \\alpha < 1$ e $\\beta = 1$."
+      },
+      "observacoes": ""
+    }
+  ]
+}
