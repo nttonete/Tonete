@@ -1338,7 +1338,7 @@
   function diasEntre(a, b) { return Math.round((deIso(b) - deIso(a)) / DIA); }
   function dataExtensa(s) { var d = deIso(s); return SEMANA_LONGA[d.getDay()] + ", " + d.getDate() + " de " + MESES[d.getMonth()]; }
   function dataCurtaIso(s) { var d = deIso(s); return d.getDate() + " " + MESES[d.getMonth()]; }
-  function horaTexto(h) { return h ? h.replace(":00", "h").replace(":", "h") : ""; }
+  function horaTexto(h) { return h ? h.replace(/^0/, "").replace(":00", "h").replace(":", "h") : ""; }
 
   // ---------- dados extras (calendário, obras, temas de redação) ----------
   function carregarExtras() {
