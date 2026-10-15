@@ -72,6 +72,7 @@
       if (opc.figurasUsadas) opc.figurasUsadas.push(id);
       return '<img class="fig" src="' + src + '" alt="' + alt + '" loading="lazy">';
     });
+    h = h.replace(/\\\*/g, "&#42;"); // \* é um asterisco literal (nota de rodapé)
     h = h.replace(/\[\[(\d{1,3})\]\]/g, '<span class="ln" aria-hidden="true">$1</span>');
     h = h.replace(/\*\*(?=\S)([\s\S]*?\S)\*\*/g, "<strong>$1</strong>");
     h = h.replace(/(^|[^*\w])\*(?=\S)([^*]*?\S)\*(?!\*)/g, "$1<em>$2</em>");
