@@ -17,7 +17,8 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 | `app/app.js` | Lógica: modos, sorteio, correção, histórico (localStorage) |
 | `app/render.js` | Markdown simplificado + LaTeX (KaTeX, saída MathML). Roda no navegador e no Node |
 | `dados/provas/edicoes.json` | Cada edição: PDF, gabarito, versão do caderno, nº de questões |
-| `dados/provas/gabaritos-transcritos.json` | Gabaritos que só existem como imagem (Unicamp 2018) |
+| `dados/provas/gabaritos-transcritos.json` | Gabaritos que não vêm em PDF próprio: Unicamp 2018 (imagem) e Unicamp 2021 (extraído por script da prova comentada oficial) |
+| `dados/provas/indisponiveis.json` | Questões fora do banco por depender de texto protegido (ver `ferramentas/PENDENCIAS.md`) |
 | `dados/questoes/<edicao>.json` | Banco final, gerado. Não edite à mão |
 | `dados/indice.json` | Índice lido pela plataforma ao abrir |
 | `img/questoes/<edicao>/` | Figuras das questões (WebP) |
