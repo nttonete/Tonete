@@ -14,7 +14,7 @@
  },
  "textos_base": {
   "t40-42": "Drones vêm sendo utilizados por empresas americanas para monitorar o ambiente subaquático. Esses drones podem substituir mergulhadores, sendo capazes de realizar mergulhos de até cinquenta metros de profundidade e operar por até duas horas e meia.",
-  "t43-45": "A depilação a laser é um procedimento de eliminação dos pelos que tem se tornado bastante popular na indústria de beleza e no mundo dos esportes. O número de sessões do procedimento depende, entre outros fatores, da coloração da pele, da área a ser tratada e da quantidade de pelos nessa área."
+  "t43-45": "A depilação a *laser* é um procedimento de eliminação dos pelos que tem se tornado bastante popular na indústria de beleza e no mundo dos esportes. O número de sessões do procedimento depende, entre outros fatores, da coloração da pele, da área a ser tratada e da quantidade de pelos nessa área."
  },
  "questoes": [
   {
@@ -544,9 +544,7 @@
    "id": "unicamp-2019-1-q31",
    "numero": 31,
    "materia": "geografia",
-   "materias_extra": [
-    "historia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "![Mapa de Mianmar e países vizinhos (Butão, Índia, Bangladesh, China, Vietnã, Laos, Tailândia e Camboja), com o Oceano Índico a oeste e as coordenadas de longitude e latitude nas bordas](fig:p13-f2)\n\n(Adaptado de *Atlas escolar* IBGE. Disponível em atlasescolar.ibge.gov.br)\n\nRecentemente, em Mianmar, a minoria étnica Rohingya foi vítima de graves massacres e assassinatos praticados por grupos extremistas da maioria étnico-religiosa do país. Entre 2017 e 2018, os atos de violência provocaram deslocamentos forçados de aproximadamente 650 mil Rohingyas principalmente para um dos países vizinhos.\n\nCom a ajuda do mapa anterior, assinale a alternativa que indica, respectivamente, o principal país para onde se deslocam os Rohingyas e as correntes religiosas seguidas por essa minoria étnica e pela maioria da população de Mianmar.",
    "alternativas": {
@@ -557,15 +555,15 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "O mapa mostra que Mianmar faz fronteira a oeste com Bangladesh, país vizinho mais próximo do estado de Rakhine, onde vivia a maior parte dos Rohingyas. Foi para lá que fugiu a grande maioria dos refugiados.\n\nOs Rohingyas são uma minoria muçulmana (o caderno grafa \"mulçumana\"), enquanto a maioria da população de Mianmar segue o budismo, religião ligada ao nacionalismo dos grupos extremistas citados.\n\nAs outras alternativas erram o país de destino e atribuem religiões que não correspondem a nenhum dos dois grupos (catolicismo e hinduísmo).\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q32",
    "numero": 32,
    "materia": "geografia",
-   "materias_extra": [
-    "matematica"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "Dois amigos planejaram assistir à abertura da Copa do Mundo em Moscou. Eles partiram no dia 10 de junho de 2018 do Aeroporto Presidente Juscelino Kubitschek (Brasília), situado a 45° de longitude Oeste, às 16 horas, com destino ao Aeroporto de Heathrow (Londres), situado a 0° de longitude. O voo teve duração de 10 horas. Os dois amigos esperaram por três horas para partirem em direção ao Aeroporto Internacional Domodedovo (Moscou), situado a 60º de longitude Leste, e o segundo voo durou quatro horas.\n\nCom base nessas informações e considerando que o continente europeu adota, neste período do ano, o horário de verão, que adianta os relógios em uma hora, indique o dia e a hora em que os dois amigos chegaram ao Aeroporto Internacional Domodedovo em Moscou.",
    "alternativas": {
@@ -576,7 +574,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Cartografia",
+   "resolucao": "Cada $15^\\circ$ de longitude corresponde a 1 hora. Brasília ($45^\\circ$ O) está 3 h atrás de Greenwich e Moscou ($60^\\circ$ L), 4 h à frente. Com o horário de verão europeu, Londres fica 1 h e Moscou $4 + 1 = 5$ h à frente de Greenwich.\n\nSaída: 16 h de 10 de junho em Brasília, que são 19 h em Greenwich.\n\nChegada a Londres, 10 h depois: 5 h de 11 de junho em Greenwich, ou 6 h no horário de verão de Londres.\n\nDepois de 3 h de espera e 4 h de voo: $6 + 3 + 4 = 13$ h em Londres, que são 12 h em Greenwich e $12 + 5 = 17$ h em Moscou.\n\nA alternativa A dá a hora de Londres; a B esquece o horário de verão.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q33",
@@ -595,15 +595,15 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Biomas e vegetação",
+   "resolucao": "Os símbolos de início da agricultura (entre 10 mil e 5,5 mil anos atrás, período Neolítico) se espalham principalmente sobre a floresta decídua temperada, a floresta mediterrânea e áreas de pastagens. Ou seja, as lavouras sedentárias foram implantadas no lugar da vegetação natural já há milênios: o desmatamento é uma prática muito antiga.\n\nA alternativa A erra ao dizer que pastagens e estepes foram as mais devastadas (o mapa concentra os pontos na floresta decídua). A D erra porque os registros mais antigos (triângulos) estão no sudeste da Europa (Bálcãs e Grécia), e não na Península Ibérica nem nas Ilhas Britânicas, onde os marcadores são mais recentes. A B contradiz o próprio mapa.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q34",
    "numero": 34,
    "materia": "sociologia",
-   "materias_extra": [
-    "filosofia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "Como regime social, o fascismo social pode coexistir com a democracia política liberal. Em vez de sacrificar a democracia às exigências do capitalismo global, trivializa a democracia até o ponto de não ser necessário sacrificá-la para promover o capitalismo. Trata-se, pois, de um fascismo pluralista e, por isso, de uma forma de fascismo que nunca existiu. Podemos estar entrando num período em que as sociedades são politicamente democráticas e socialmente fascistas.\n\n(Adaptado de Boaventura de Sousa Santos, *Epistemologias do Sul*. São Paulo: Cortez, 2010, p. 47.)\n\nDe acordo com o texto e os conhecimentos sobre o assunto, a coexistência entre fascismo e democracia é",
    "alternativas": {
@@ -614,15 +614,16 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Política, Estado e cidadania",
+   "resolucao": "Para Boaventura de Sousa Santos, o \"fascismo social\" não precisa abolir a democracia: ele a trivializa, isto é, a esvazia, a ponto de ela não atrapalhar a promoção do capitalismo global. Daí a fórmula final: sociedades \"politicamente democráticas e socialmente fascistas\".\n\nA alternativa B traduz essa ideia: a coexistência é promovida por uma aceitação social que banaliza a democracia em favor do capitalismo global.\n\nA D inverte os termos do autor (politicamente fascistas e socialmente democráticas). A A contradiz o texto, que fala de \"uma forma de fascismo que nunca existiu\", e a C nega a própria coexistência.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q35",
    "numero": 35,
    "materia": "geografia",
    "materias_extra": [
-    "ingles",
-    "sociologia"
+    "ingles"
    ],
    "texto_base": null,
    "enunciado": "**Indigenous people in Brazil seek out cities, end up in slums**\n\nRIO DE JANEIRO – The dancers shake seed-filled maracas and raise their voices in song, conjuring an ancient spirit that vibrates above the traffic roaring from a nearby expressway and the beat of funk music blasting from a neighbor's loudspeaker.\n\nIn this Brazilian favela, the indigenous people are struggling to keep some of their traditions alive that, besides providing a sense of community, helps them endure the discrimination they face in the city. Forced out of their native lands by deforestation, miners and farmers, nearly one in four Brazilian Indians nowadays live in urban areas and an estimated 22,000 of them now call the crowded favelas their home.\n\nLife in the slums, despite its difficulties, has its advantages. \"The slums are the one place in the city where you have the kind of solidarity we Indians have in the villages.\" said a Pataxó woman who lives in Rio de Janeiro’s Maré Complex.\n\n(Adaptado de Associated Press, Indigenous people in Brazil seek out cities, end up in slums, Dailymail, 16/09/2014. )\n\nAssinale a alternativa que indica corretamente os fenômenos geográficos mencionados no texto a respeito das populações indígenas.",
@@ -634,7 +635,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Urbanização",
+   "resolucao": "O texto descreve três fenômenos:\n- os indígenas foram expulsos de suas terras pelo desmatamento, pela mineração e pela agropecuária (impacto socioambiental);\n- eles deixaram as aldeias e foram para as cidades (migração rural-urbana: \"nearly one in four Brazilian Indians nowadays live in urban areas\");\n- na cidade, foram morar nas favelas e enfrentam discriminação (segregação socioespacial urbana).\n\nA única alternativa que reúne os três é a B. As demais falam em migração urbano-rural (o sentido é o contrário), em inclusão urbana (o texto fala de discriminação) ou em preservação socioambiental.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q36",
@@ -653,7 +656,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geologia e relevo",
+   "resolucao": "A figura mostra duas placas que deslizam lado a lado, em sentidos opostos, deslocando a cerca e o rio: é um limite conservativo (falha transformante). O exemplo clássico é a Falha de San Andreas, na Califórnia. Nos Andes o contato é convergente (subducção da placa de Nazca sob a Sul-Americana).\n\nQuanto às ondas: nas longitudinais (ondas P) a oscilação ocorre na mesma direção da propagação; nas transversais (ondas S), perpendicularmente a ela.\n\nA alternativa A une os dois acertos. A C troca a definição de onda longitudinal.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q37",
@@ -672,7 +677,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Questões ambientais",
+   "resolucao": "O gráfico mostra que, no período da greve (fim de maio), a umidade relativa ficou alta (entre cerca de 55% e 73%) e as temperaturas médias foram baixas (entre cerca de 14 °C e 20 °C): dias frios e úmidos.\n\nNessas condições predomina o *smog* industrial (do tipo londrino), associado à inversão térmica e formado por dióxido de enxofre e material particulado, liberados pela queima de combustíveis fósseis na indústria (e também pelo diesel dos caminhões). Com a greve, a produção industrial caiu, e esse tipo de *smog* foi o que mais diminuiu.\n\nO *smog* fotoquímico depende de luz e calor e é formado por óxidos de nitrogênio e hidrocarbonetos, o que descarta A e B; a C associa o *smog* industrial a dias quentes e secos.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q38",
@@ -689,7 +696,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "Um ano-luz é a distância que a luz percorre em um ano. Para a mesma distância, o tempo é inversamente proporcional à velocidade.\n\n$v = 2{,}0 \\times 10^4\\ \\text{km/s} = 2{,}0 \\times 10^7\\ \\text{m/s}$, então $\\frac{c}{v} = \\frac{3{,}0 \\times 10^8}{2{,}0 \\times 10^7} = 15$.\n\nA luz leva 100 anos para percorrer 100 anos-luz; o ônibus, 15 vezes mais lento, leva $15 \\times 100 = 1500$ anos.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q39",
@@ -706,7 +715,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Hidrostática",
+   "resolucao": "Na posição de espera, a boia flutua em equilíbrio com $\\frac{1}{3}$ do volume submerso: $E_1 = \\rho g \\frac{V}{3} = P_{\\text{boia}}$. Logo, $\\rho g V = 3P_{\\text{boia}}$.\n\nTotalmente submersa, o empuxo passa a ser $E_2 = \\rho g V = 3P_{\\text{boia}}$. Como a boia está momentaneamente parada e a linha de cima está frouxa, as forças sobre ela se equilibram: empuxo para cima; peso e tensão da linha de baixo para baixo.\n\n$E_2 = P_{\\text{boia}} + T \\Rightarrow T = 3P_{\\text{boia}} - P_{\\text{boia}} = 2P_{\\text{boia}}$.\n\nO peso do peixe não entra nas forças que atuam sobre a boia, por isso as alternativas C e D não servem.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q40",
@@ -723,7 +734,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "A corrente média é a carga dividida pelo tempo: $i = \\frac{q}{\\Delta t}$.\n\nComo a carga está em mAh, basta usar o tempo em horas: $\\Delta t = 90\\ \\text{min} = 1{,}5\\ \\text{h}$.\n\n$i = \\frac{900\\ \\text{mAh}}{1{,}5\\ \\text{h}} = 600\\ \\text{mA}$.\n\nA alternativa D (81000 mA) vem de multiplicar em vez de dividir, e a A (10 mA) de usar o tempo em minutos.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q41",
@@ -740,7 +753,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Hidrostática",
+   "resolucao": "No gráfico, a temperatura $T = 19\\ ^\\circ\\text{C}$ aparece na profundidade $d = 7\\ \\text{m}$.\n\nPela lei de Stevin, a diferença de pressão entre a superfície e essa profundidade é:\n\n$\\Delta p = \\rho g d = 1000 \\times 10 \\times 7 = 7{,}0 \\times 10^4\\ \\text{Pa}$.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q42",
@@ -757,7 +772,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Na região de queda linear (reta tracejada, de 0 a cerca de 4 m), a temperatura cai de $19{,}30\\ ^\\circ\\text{C}$ na superfície para $19{,}20\\ ^\\circ\\text{C}$ a 4 m (ou $19{,}225\\ ^\\circ\\text{C}$ a 3 m). Assim:\n\n$\\frac{T_A - T_B}{d} = \\frac{19{,}30 - 19{,}20}{4} = 0{,}025\\ ^\\circ\\text{C/m}$.\n\n$\\Phi = \\kappa A \\frac{T_A - T_B}{d} = 0{,}6 \\times 2 \\times 0{,}025 = 0{,}03\\ \\text{W}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q43",
@@ -774,7 +791,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "Intensidade é potência por unidade de área, então a energia é $E = I \\cdot A \\cdot \\Delta t$. O cuidado está nas unidades:\n\n$A = 2\\ \\text{mm}^2 = 2 \\times 10^{-6}\\ \\text{m}^2$ e $\\Delta t = 3\\ \\text{ms} = 3 \\times 10^{-3}\\ \\text{s}$.\n\n$E = 2{,}0 \\times 10^4 \\times 2 \\times 10^{-6} \\times 3 \\times 10^{-3} = 12 \\times 10^{-5} = 1{,}2 \\times 10^{-4}\\ \\text{J}$.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q44",
@@ -791,7 +810,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "É calorimetria com calor sensível: $Q = m c \\Delta T$.\n\n$\\Delta T = 46 - 36 = 10\\ ^\\circ\\text{C}$.\n\n$Q = 2{,}0 \\times 10^{-10} \\times 3000 \\times 10 = 6{,}0 \\times 10^{-6}\\ \\text{J}$.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q45",
@@ -808,7 +829,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "resolucao": "Pela equação fundamental da ondulatória, $c = \\lambda f$, logo $f = \\frac{c}{\\lambda}$: a maior frequência corresponde ao menor comprimento de onda, $\\lambda_1 \\approx 760\\ \\text{nm} = 7{,}6 \\times 10^{-7}\\ \\text{m}$.\n\n$f = \\frac{3{,}0 \\times 10^8}{7{,}6 \\times 10^{-7}} \\approx 0{,}39 \\times 10^{15} = 3{,}9 \\times 10^{14}\\ \\text{Hz}$.\n\nA alternativa B ($2{,}8 \\times 10^5$) resulta de esquecer o fator $10^{-9}$ do nanômetro.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q46",
@@ -825,7 +848,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "O olho míope é convergente demais (ou alongado demais): a imagem de um objeto no ponto remoto se forma antes da retina. Isso descarta B e C.\n\nPara corrigir, é preciso reduzir a convergência do sistema óptico do olho. Deixar a córnea mais plana diminui sua curvatura e, portanto, sua vergência; com menos convergência, a distância focal da lente efetiva aumenta e a imagem recua até a retina.\n\nPor isso a cirurgia visa aumentar a distância focal, e não diminuí-la (D).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q47",
@@ -833,7 +858,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Nos quadrinhos a seguir, o personagem Garfield questiona a relevância ecológica do animal representado à direita.\n\n![Tirinha do Garfield em três quadrinhos. Quadro 1: Garfield, sentado, observa uma minhoca e pensa: \"Você vive debaixo da terra e come porcarias?\"; a minhoca responde: \"É isso aí.\" Quadro 2: Garfield pensa: \"E que faz pra conseguir comida?\"; a minhoca responde: \"Cavo.\" Quadro 3: Garfield pensa: \"Isso não é muito glamoroso.\"; a minhoca responde: \"Mas é assim que ganho a sujeira de cada dia...\"](fig:p18-f2)\n\n(Disponível em http://www.aprendendocomopenomato.wordpress.com/.)\n\nAssinale a alternativa que descreve corretamente aspectos zoológicos e ecológicos referentes a esse animal.",
+   "enunciado": "Nos quadrinhos a seguir, o personagem Garfield questiona a relevância ecológica do animal representado à direita.\n\n![Tirinha do Garfield em três quadrinhos, com balões de pensamento. Quadro 1: Garfield, sentado, observa um pequeno animal de corpo alongado que sai do chão à direita e pensa: \"Você vive debaixo da terra e come porcarias?\"; o animal responde: \"É isso aí.\" Quadro 2: Garfield pensa: \"E que faz pra conseguir comida?\"; o animal responde: \"Cavo.\" Quadro 3: Garfield pensa: \"Isso não é muito glamoroso.\"; o animal responde: \"Mas é assim que ganho a sujeira de cada dia...\"](fig:p18-c1)\n\n(Disponível em http://www.aprendendocomopenomato.wordpress.com/.)\n\nAssinale a alternativa que descreve corretamente aspectos zoológicos e ecológicos referentes a esse animal.",
    "alternativas": {
     "A": "As minhocas são invertebrados do filo dos anelídeos, possuem corpo celomado e segmentado, convertem detritos ingeridos em matéria orgânica e melhoram o arejamento do solo.",
     "B": "As cobras-cegas são vertebrados do filo dos anelídeos, possuem corpo pseudocelomado e reprodução sexuada, são predadoras de pragas agrícolas e melhoram o arejamento do solo.",
@@ -842,7 +867,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "O animal que vive sob a terra, cava e \"come porcarias\" é a minhoca, um anelídeo. As minhocas são invertebradas, têm corpo segmentado (metameria) e celoma verdadeiro. Ao cavar galerias, arejam o solo; ao ingerir terra e detritos, devolvem matéria orgânica decomposta (húmus), o que melhora a fertilidade.\n\nA D erra ao falar em pseudoceloma, reprodução assexuada e predação de pragas (minhocas são hermafroditas com fecundação cruzada e se alimentam de detritos). B e C tratam de cobras-cegas, que são vertebrados cordados, e misturam características erradas.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q48",
@@ -859,7 +886,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Biotecnologia",
+   "resolucao": "Na terapia gênica, um vírus não patogênico funciona como vetor que leva uma cópia normal do gene às células afetadas. Como a doença atinge os neurônios motores da medula espinhal, o vírus precisa chegar à medula e introduzir o gene nesses neurônios.\n\nCom o gene normal, os neurônios voltam a produzir a proteína que faltava e passam a comandar corretamente os músculos, o que explica a sobrevivência e a melhora dos movimentos.\n\nA B erra porque a terapia acrescenta o gene normal, sem remover o defeituoso; A e D envolvem a medula óssea, que produz células do sangue e nada tem a ver com a doença.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q49",
@@ -876,7 +905,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "É herança extracromossômica (citoplasmática): os cloroplastos vêm só do óvulo, então o pólen do ramo verde-escuro não influi no resultado.\n\nUm ramo variegado tem células só com cloroplastos normais, células só com mutantes e células com os dois tipos. Por isso, os óvulos formados ali podem levar só cloroplastos normais (planta verde-escura), só mutantes (planta branca) ou uma mistura dos dois (planta mesclada).\n\nA progênie terá, portanto, plantas dos três tipos fenotípicos.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q50",
@@ -893,7 +924,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "Se lagartos (com membros) e serpentes (sem membros) têm um ancestral comum, esse ancestral provavelmente tinha membros, e a linhagem das serpentes os perdeu ao longo do tempo. Um réptil alongado e com membros reduzidos é compatível com uma etapa dessa linhagem.\n\nA A está errada porque a evolução não leva necessariamente a \"melhorias\" e a perda de estruturas pode ser vantajosa. A B ignora que mudanças acumuladas por longos períodos podem ser grandes. A D é tentadora por falar em fóssil de transição, mas usa a ideia lamarckista de uso e desuso, em que características adquiridas seriam transmitidas aos descendentes.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q51",
@@ -910,7 +943,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "A radiação causa danos aos seres vivos (mutações, tumores, menor sobrevivência), como mostraram os primeiros estudos. Mas a retirada da população humana eliminou caça, agricultura, urbanização e desmatamento na região.\n\nSem essa pressão, que é mais forte do que o efeito negativo da radiação, as populações de plantas e animais cresceram.\n\nA alternativa A é falsa porque não houve descontaminação humana; B e C atribuem à radiação efeitos benéficos que ela não tem.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q52",
@@ -927,15 +962,15 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "resolucao": "Na alça de Henle, a reabsorção de sódio e cloreto torna o meio ao redor concentrado, o que permite reabsorver água depois. Se a furosemida reduz essa reabsorção, mais sais ficam no túbulo, menos água é reabsorvida e a produção de urina aumenta (ação diurética).\n\nCom mais água na urina, os medicamentos proibidos ficam mais diluídos e mais difíceis de detectar nos testes, por isso a substância é proibida.\n\nA D erra porque a furosemida não aumenta a produção de ureia; A e B erram ao dizer que ela diminui a urina ou a amônia.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q53",
    "numero": 53,
    "materia": "biologia",
-   "materias_extra": [
-    "quimica"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "A produção de celulose a partir da madeira vem crescendo no Brasil, tendo atingido um volume recorde em 2017, com exportações de 19,5 milhões de toneladas. As paredes das células da madeira contêm celulose e lignina, sendo que a primeira é o principal composto de interesse industrial, enquanto a segunda é um composto indesejável, que precisa ser removido. Geralmente, a remoção da lignina envolve digestão química com $\\text{H}_2\\text{S}$, um reagente altamente poluente.\n\nAs imagens apresentadas a seguir são fotos de microscopia eletrônica, em mesma escala, do tecido vegetal de dois tipos de madeira, que diferem com relação à parede celular.\n\n![Duas micrografias eletrônicas do tecido vegetal, identificadas como \"tipo I\" e \"tipo II\"](fig:p20-f1)\n\nCada tipo (**I** ou **II**) tem ainda dois subtipos, **a** ou **b**. O gráfico a seguir mostra dados sobre esses subtipos de madeira coletados de plantas cultivadas na mesma área geográfica (solo e clima similares).\n\n![Gráfico de barras do conteúdo de lignina (%) nos subtipos Ia, Ib, IIa e IIb](fig:p20-c2)\n\n(Adaptado de Gabriela Mello,Produção de celulose no Brasil cresce 3,8% em 2017 e atinge volume recorde, diz Ibá. UOL, 31/09/2018.)\n\nConsiderando que as quatro amostras no gráfico provêm de plantas com o mesmo tempo de desenvolvimento, qual delas seria mais desejável em termos industriais e ambientais (tendo em vista a poluição e a extensão de área plantada)?",
    "alternativas": {
@@ -946,7 +981,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "O ideal industrial e ambiental é a madeira com muita celulose e pouca lignina: mais celulose por área plantada exige menos terra, e menos lignina exige menos $\\text{H}_2\\text{S}$ na sua remoção.\n\nAs micrografias mostram que o tipo II tem paredes celulares bem mais espessas que o tipo I, isto é, mais material de parede (celulose) na mesma área. O gráfico mostra que os subtipos \"a\" têm menos lignina (cerca de 17%) do que os \"b\" (cerca de 23% a 24%).\n\nA combinação de parede espessa e pouca lignina é o subtipo IIa. O Ia tem pouca lignina, mas paredes finas.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q54",
@@ -963,7 +1000,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "No ciclo do *Plasmodium* no ser humano, os esporozoítos injetados pelo mosquito vão ao fígado, onde se multiplicam e originam merozoítos. Estes invadem as hemácias (eritrócitos), multiplicam-se, rompem as células e infectam novas hemácias, o que causa os acessos de febre.\n\nUm remédio que impeça a multiplicação dos merozoítos nas hemácias reduz a quantidade de parasitas no sangue.\n\nA A fala em hemácias de mosquitos, que não existem; a B fala em linfócitos, que não são infectados pelo parasita; a C propõe promover a multiplicação do parasita, o que pioraria a doença.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q55",
@@ -982,15 +1021,16 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Bioquímica",
+   "resolucao": "A vidarabina tem a mesma base nitrogenada (adenina) ligada a uma pentose, como no nucleotídeo dAMP, que é um dos precursores do DNA. A diferença está na posição de uma hidroxila no açúcar.\n\nPor ser muito parecida com o dAMP, a vidarabina é reconhecida por engano pela DNA polimerase e incorporada como precursor, o que atrapalha a síntese do DNA. Por isso é usada para inibir a replicação do DNA (é um antiviral).\n\nA tirosina é um aminoácido e não se parece com nucleotídeos; o ribossomo atua na tradução, não na transcrição, o que também elimina a A.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q56",
    "numero": 56,
    "materia": "historia",
    "materias_extra": [
-    "geografia",
-    "quimica"
+    "geografia"
    ],
    "texto_base": null,
    "enunciado": "Raros são os cientistas que se dedicam a medir um único fenômeno. Mais raro ainda são aqueles que alteram o comportamento da humanidade com suas medições. O norte-americano Charles D. Keeling passou a vida medindo a quantidade de $\\text{CO}_2$ existente na atmosfera, demonstrando que a quantidade desse gás está aumentando. Em 1958, muito antes do surgimento dos movimentos ecológicos, Keeling desconfiou de que esse efeito era devido à queima de combustíveis fósseis. Na última década, a hipótese de Keeling foi testada pela análise de bolhas de ar retidas no gelo polar, revelando que a concentração de $\\text{CO}_2$ permaneceu inalterada por milênios, aumentando a partir do século XIX.\n\n(Adaptado de Fernando Reinach, *A longa marcha dos grilos canibais*. São Paulo: Companhia das Letras, 2010, p. 41 - 42.)\n\nOs experimentos com as bolhas de ar do gelo polar indicam que a elevação das emissões de $\\text{CO}_2$",
@@ -1002,16 +1042,15 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "O gelo polar mostra $\\text{CO}_2$ estável por milênios e em alta a partir do século XIX, período em que a Revolução Industrial se espalhou. A fonte de energia dessa fase foi o carvão mineral (restos de plantas fossilizados), queimado nas máquinas a vapor que permitiram a produção em larga escala.\n\nA alternativa B associa corretamente o aumento do $\\text{CO}_2$ ao carvão e à máquina a vapor.\n\nO petróleo só ganhou peso no fim do século XIX e no século XX, o que descarta A e C (além disso, A diz que o petróleo vem de plantas). A D confunde biodiesel com combustível fóssil.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q57",
    "numero": 57,
    "materia": "filosofia",
-   "materias_extra": [
-    "historia",
-    "sociologia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "O texto a seguir, extraído de uma reportagem publicada em um jornal paulista, apresenta conclusões sobre a inclusão de Filosofia e Sociologia no Ensino Médio, a partir de dados levantados pelo IPEA (Instituto de Pesquisa Econômica Aplicada).\n\nA inclusão de Filosofia e Sociologia como disciplinas obrigatórias no Ensino Médio em 2009 prejudicou a aprendizagem de matemática dos jovens brasileiros, principalmente os de baixa renda. A conclusão é de um estudo inédito que será publicado pelo IPEA. Segundo ele, a mudança levou as notas de jovens residentes em municípios com muito baixo Índice de Desenvolvimento Humano (IDH), que engloba aspectos da renda, escolaridade e saúde, a cair 11,8%, 8,8% e 7,7% em redação, matemática e linguagens (que inclui português, língua estrangeira e outras linguagens), respectivamente.\n\n(Adaptado de Érica Fraga, “Filosofia e Sociologia obrigatórias derrubam notas em Matemática”; em *Folha de São Paulo*. 16/04/2018.)\n\nA partir das relações históricas entre as disciplinas mencionadas na reportagem e de uma análise crítica da conclusão da pesquisa, marque a alternativa correta.",
    "alternativas": {
@@ -1022,7 +1061,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Filosofia moderna",
+   "resolucao": "A questão pede uma leitura crítica da pesquisa, que sugere um conflito entre Filosofia e Matemática. Historicamente, as duas áreas sempre dialogaram: Pitágoras via o cosmo regido por números, Platão exigia geometria na Academia, e Descartes, filósofo, criou o plano de coordenadas (geometria analítica), unindo álgebra e geometria.\n\nPor isso a alternativa C está correta: são campos distintos que dialogam, e a história não respalda a conclusão de que um prejudica o outro.\n\nAs alternativas A, B e D concluem que a história confirma a pesquisa, e os próprios exemplos que citam mostram o contrário. Na D, a frase de Platão valoriza a geometria em vez de indicar disputa.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2019-1-q58",
@@ -1041,7 +1082,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "A frequência de um alelo é o número de cópias dele dividido pelo total de alelos do loco na população.\n\nCada indivíduo diploide tem 2 alelos: o total é $2(N_{AA} + N_{Aa} + N_{aa})$.\n\nCópias do alelo A: cada AA tem duas e cada Aa tem uma, ou seja, $2N_{AA} + N_{Aa}$.\n\n$f(A) = \\frac{2N_{AA} + N_{Aa}}{2(N_{AA} + N_{Aa} + N_{aa})}$.\n\nA B conta indivíduos que portam o alelo, e não cópias do alelo.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q59",
@@ -1058,7 +1101,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Acréscimos sucessivos se multiplicam. Seja $c$ o custo original da refeição.\n\nPreço no cardápio (com 10% de impostos): $1{,}10\\,c$. Conta com 10% de serviço sobre esse preço: $p = 1{,}10 \\times 1{,}10\\,c = 1{,}21\\,c$.\n\nLogo, $c = \\frac{p}{1{,}21}$.\n\nA alternativa A ($p/1{,}20$) soma as porcentagens em vez de compô-las.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q60",
@@ -1075,7 +1120,9 @@
    },
    "anulada": true,
    "gabarito": null,
-   "revisao": "transcrita"
+   "assunto": "Estatística",
+   "resolucao": "A banca anulou esta questão. O motivo provável está no próprio enunciado: a média das provas precisa ser pelo menos 5,5 (com trabalho nota 10: $\\frac{P_1 + P_2 + 10}{3} \\geq 7 \\Rightarrow \\frac{P_1 + P_2}{2} \\geq 5{,}5$). Mas, como a pergunta pede uma condição \"necessária\", as médias 2,5 e 5,0 também são condições necessárias (quem tem média de provas $\\geq 5{,}5$ também tem média $\\geq 5{,}0$ e $\\geq 2{,}5$), e assim há mais de uma alternativa correta.",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2019-1-q61",
