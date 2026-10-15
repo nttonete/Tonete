@@ -372,6 +372,35 @@
    }
   },
   {
+   "id": "unicamp-2020-1",
+   "vestibular": "unicamp",
+   "ano": 2020,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "Q/X",
+   "nome": "Unicamp 2020 – 1ª fase",
+   "fonte": {
+    "caderno": "UNICAMP_2020_1Fase.pdf",
+    "gabarito": "UNICAMP_2020_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unicamp-2020-1.json",
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
+   "materias": {
+    "ingles": 7,
+    "historia": 11,
+    "fisica": 10,
+    "biologia": 11,
+    "geografia": 10,
+    "sociologia": 1,
+    "portugues": 7,
+    "matematica": 13,
+    "quimica": 11,
+    "literatura": 9
+   }
+  },
+  {
    "id": "unicamp-2022-1",
    "vestibular": "unicamp",
    "ano": 2022,
