@@ -249,6 +249,87 @@
     "E": "0,03 mol/L."
    },
    "observacoes": ""
+  },
+  {
+   "numero": 76,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No interior de uma quantidade de água, as moléculas atraem-se devido às ligações de hidrogênio, de modo que a força resultante sobre cada molécula é nula. Entretanto, na superfície, as moléculas de água estão em contato tanto com outras moléculas de água como com moléculas de gases e vapores presentes no ar. A atração do ar pelas moléculas de água é menor do que a atração das moléculas de água entre si, de modo que a força resultante nas moléculas da superfície não é nula, criando a chamada tensão superficial, que funciona como uma fina membrana elástica na superfície da água.\n\n(www.if.ufrgs.br. Adaptado.)\n\nA intensidade da tensão superficial ($\\sigma$) é dada pela razão entre a intensidade da força ($\\vec{F}$) exercida pela superfície do líquido, devido à tensão superficial, e o comprimento ($L$) da linha ao longo da qual a força atua: $\\sigma = \\dfrac{F}{L}$.\n\nUma agulha cilíndrica de 5,0 cm de comprimento é colocada deitada, em repouso, sobre a superfície da água contida em um copo, com tensão superficial $\\sigma = 0{,}073\\ \\text{N/m}$.\n\n![fotografia de uma agulha sobre a superfície da água em um copo de vidro](fig:p29-f1)\n\n(https://slideplayer.com.br)\n\nNesse caso, a agulha ficará sujeita à sua força peso ($\\vec{P}$) e às forças $\\vec{F}_1$ e $\\vec{F}_2$ de mesma intensidade, causadas pela tensão superficial da água, tangentes à seção transversal circular da agulha nos pontos de contato com a água, formando um ângulo $\\theta$ com a vertical.\n\n![seção transversal circular da agulha sobre a superfície da água, com as forças F₁ e F₂ tangentes à seção nos pontos de contato, cada uma formando um ângulo θ com a vertical, e a força peso P apontando para baixo](fig:p29-c1)\n\nQuando a agulha estiver na iminência de afundar, $\\vec{F}_1$ e $\\vec{F}_2$ terão direção vertical. Adotando-se $g = 10\\ \\text{m/s}^2$, a maior massa que essa agulha pode ter sem que afunde totalmente é",
+   "alternativas": {
+    "A": "1,460 g.",
+    "B": "7,300 g.",
+    "C": "0,365 g.",
+    "D": "0,730 g.",
+    "E": "0,146 g."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 77,
+   "materia": "fisica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "Duas caixas, A e B, estão apoiadas, em repouso, sobre uma barra homogênea reta presa pelo seu ponto médio (ponto O) ao teto por meio de um fio inextensível. A caixa A está colocada a uma distância $x$ do ponto O e a caixa B a uma distância $y$ desse ponto. Nessa situação, a barra exerce sobre a caixa A uma força $\\vec{N}_\\text{A}$ e, sobre a caixa B, uma força $\\vec{N}_\\text{B}$.\n\n![barra horizontal presa pelo ponto médio O a um fio fixo ao teto, com a caixa A à esquerda a uma distância x de O e a caixa B à direita a uma distância y de O; seta curva indicando o sentido anti-horário como positivo (+)](fig:p29-c2)\n\nUma matriz quadrada $M$ é construída de forma que seus elementos são as intensidades de $\\vec{N}_\\text{A}$ e $\\vec{N}_\\text{B}$ e as distâncias $x$ e $y$, tal que $M = \\begin{bmatrix} N_\\text{A} & N_\\text{B} \\\\ y & x \\end{bmatrix}$. Sendo $M^t$ a matriz transposta de $M$ e considerando-se o sentido anti-horário como o positivo para a rotação, para que a barra permaneça em equilíbrio na horizontal é necessário que",
+   "alternativas": {
+    "A": "$\\det (M^t) = 0$.",
+    "B": "$\\det M < 0$.",
+    "C": "$\\det M \\neq 0$.",
+    "D": "$\\det (M^t) \\neq 0$.",
+    "E": "$\\det M > 0$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 78,
+   "materia": "biologia",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Em determinado experimento, o desenvolvimento de uma planta em um vaso em repouso em relação à Terra é acompanhado a partir da situação inicial representada na figura.\n\nNa região do experimento, o campo gravitacional terrestre é constante e pode ser representado por linhas paralelas orientadas para o centro da Terra.\n\n![planta em um vaso, com o caule para cima e as raízes para baixo, sobre linhas horizontais paralelas com setas apontando para a direita, que representam o campo gravitacional](fig:p30-c1)\n\nSabendo que as raízes dessa planta apresentam geotropismo positivo, que seu caule apresenta geotropismo negativo e considerando apenas a influência do campo gravitacional no crescimento dessa planta, a posição relativa de suas raízes e de seu caule em relação ao campo gravitacional, após algumas semanas de observação, está corretamente representada em:",
+   "alternativas": {
+    "A": "![Alternativa A](fig:p30-c2)",
+    "B": "![Alternativa B](fig:p30-c3)",
+    "C": "![Alternativa C](fig:p30-c4)",
+    "D": "![Alternativa D](fig:p30-c5)",
+    "E": "![Alternativa E](fig:p30-c6)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 79,
+   "materia": "fisica",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "As figuras representam dois modelos, 1 e 2, para o átomo de hidrogênio. No modelo 1, o elétron move-se em trajetória espiral, aproximando-se do núcleo atômico e emitindo energia continuamente, com frequência cada vez maior, uma vez que cargas elétricas aceleradas irradiam energia. Esse processo só termina quando o elétron se choca com o núcleo. No modelo 2, o elétron move-se inicialmente em determinada órbita circular estável e em movimento uniforme em relação ao núcleo, sem emitir radiação eletromagnética, apesar de apresentar aceleração centrípeta. Nesse modelo a emissão só ocorre, de forma descontínua, quando o elétron sofre transição de uma órbita mais distante do núcleo para outra mais próxima.\n\n![Modelo 1: elétron em trajetória espiral em torno do núcleo, emitindo energia; Modelo 2: elétron em órbita circular em torno do núcleo, com emissão de energia](fig:p31-c1)\n\nA respeito desses modelos atômicos, pode-se afirmar que",
+   "alternativas": {
+    "A": "o modelo 1, proposto por Bohr em 1913, está de acordo com os trabalhos apresentados na época por Einstein, Planck e Rutherford.",
+    "B": "o modelo 2 descreve as ideias de Thomson, em que um núcleo massivo no centro mantém os elétrons em órbita circular na eletrosfera por forças de atração coulombianas.",
+    "C": "os dois estão em total desacordo com o modelo de Rutherford para o átomo, proposto em 1911, que não previa a existência do núcleo atômico.",
+    "D": "o modelo 1, proposto por Bohr, descreve a emissão de fótons de várias cores enquanto o elétron se dirige ao núcleo atômico.",
+    "E": "o modelo 2, proposto por Bohr, explica satisfatoriamente o fato de um átomo de hidrogênio não emitir radiação o tempo todo."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 80,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Define-se meia-vida térmica de um corpo ($t_{1/2}$) como o tempo necessário para que a diferença de temperatura entre esse corpo e a temperatura de sua vizinhança caia para a metade.\n\n![gráfico da temperatura em função do tempo: a temperatura do corpo cai de θ₂ até (θ₁ + θ₂)/2 no intervalo t₁/₂; a temperatura da vizinhança é θ₁](fig:p31-c2)\n\nConsidere que uma panela de ferro de 2 kg, inicialmente a 110 °C, seja colocada para esfriar em um local em que a temperatura ambiente é constante e de 30 °C. Sabendo que o calor específico do ferro é 0,1 cal/(g · °C), a quantidade de calor cedida pela panela para o ambiente no intervalo de tempo de três meias-vidas térmicas da panela é",
+   "alternativas": {
+    "A": "16 000 cal.",
+    "B": "14 000 cal.",
+    "C": "6 000 cal.",
+    "D": "12 000 cal.",
+    "E": "8 000 cal."
+   },
+   "observacoes": ""
   }
  ]
 }
