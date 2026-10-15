@@ -32,3 +32,8 @@ Caminhos possíveis: (a) mostrar o texto como imagem recortada do caderno oficia
 - unesp-2021-1 q70: ordem de grandeza de 4,5 × 10⁻⁵ g; pelo critério usual (acima de √10 sobe uma potência) daria 10⁻⁴ (E); oficial A = 10⁻⁵.
 - unesp-2020-1 q46 (sem atenção marcada): a alternativa oficial A justifica o porto do Itaqui pela "proximidade com o Canal de Suez", argumento discutível; as demais não servem.
 - unesp-2021-1 q82: o último algarismo do medidor está em vermelho (décimos em medidores reais); lido assim daria 5,0 W (E); oficial B = 50 W.
+
+## Para conferência de quem conhece a obra
+
+- fuvest-2018-1 q80: a resolução cita uma estória contada em "O burrinho pedrês" (Sagarana); o revisor não tinha o livro para conferir quem conta o quê.
+- unicamp-2020-1 q27: a resolução atribui à banca a afirmação de que o RN era o maior produtor de petróleo em terra; o dado da época não foi confirmado.

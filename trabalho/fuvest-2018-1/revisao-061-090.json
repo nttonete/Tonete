@@ -1,0 +1,314 @@
+{
+ "edicao": "fuvest-2018-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 69,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Examine o cartum.\n\n![Cartum de Frank e Ernest, de Bob Thaves: dois homens diante da Torre Eiffel; um deles segura e olha um aparelho eletrônico de mão; o outro, com uma câmera fotográfica pendurada no pescoço, diz: “O GPS não vai resolver nosso problema de ‘localização’ linguística.”](fig:p23-c1)\n\nFrank e Ernest – Bob Thaves. **O Estado de S. Paulo**. 22.08.2017.\n\nO efeito de humor presente no cartum decorre, principalmente, da",
+   "alternativas": {
+    "A": "semelhança entre a língua de origem e a local.",
+    "B": "falha de comunicação causada pelo uso do aparelho eletrônico.",
+    "C": "falta de habilidade da personagem em operar o localizador geográfico.",
+    "D": "discrepância entre situar-se geograficamente e dominar o idioma local.",
+    "E": "incerteza sobre o nome do ponto turístico onde as personagens se encontram."
+   }
+  },
+  {
+   "numero": 82,
+   "materia": "portugues",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": "t80-82",
+   "enunciado": "Tendo como base o trecho “só a maleita é quem sobe e desce, olhando seus mosquitinhos e pondo neles a <u>benção</u>...”, o termo em destaque foi empregado ironicamente por aludir ao inseto",
+   "alternativas": {
+    "A": "causador da malária.",
+    "B": "causador da febre amarela.",
+    "C": "transmissor da doença de Chagas.",
+    "D": "transmissor da malária.",
+    "E": "transmissor da febre amarela."
+   }
+  }
+ ],
+ "complementos": {
+  "61": {
+   "assunto": "Brasil Colônia",
+   "resolucao": "A chave é o valor do produto em relação ao peso. Ouro e diamantes valem muito em pouco volume, então o custo de levá-los até o litoral era pequeno perto do valor da carga. Isso tornou lucrativo explorar áreas distantes da costa, como Minas Gerais, Goiás e Mato Grosso, e empurrou a colonização para o interior. O açúcar, volumoso e barato por quilo, precisava ficar perto dos portos.\n\nAs outras estão invertidas: a pecuária do sertão nasceu ligada aos engenhos (A); a mineração criou uma rede urbana e um mercado interno bem maiores que o açúcar (B e E); e a mão de obra das minas foi sobretudo de africanos escravizados (D).\n\n**Resposta: C**"
+  },
+  "62": {
+   "assunto": "Brasil Colônia",
+   "resolucao": "Em 1818 a corte portuguesa estava no Rio de Janeiro, e as colônias espanholas vizinhas lutavam pela independência (Prata, Chile, Venezuela etc.). Hipólito diz que ficar no Brasil dá a D. João liberdade para agir \"naqueles acontecimentos\" e participar dos \"arranjamentos que a nova ordem de coisas deve ocasionar na América\": a nova ordem é a América independente que surgia, e a dúvida é como ela afetaria o domínio português.\n\nA Revolução do Porto (B) só ocorreu em 1820, e a Pernambucana de 1817 (A) foi no Nordeste, não no centro-sul. O texto não fala de projeto de independência do Brasil (E).\n\n**Resposta: D**"
+  },
+  "63": {
+   "assunto": "História da África",
+   "resolucao": "As guerras de libertação em Angola, Moçambique e Guiné-Bissau (a partir de 1961) desgastaram o Exército e a economia portuguesa. Esse desgaste levou militares a derrubar, na Revolução dos Cravos de 1974, o Estado Novo salazarista, regime autoritário surgido no entreguerras (anos 1930). Ou seja, a luta nas colônias acelerou a transformação política na metrópole.\n\nAs independências não foram pacíficas (C), estiveram ligadas à Guerra Fria, com apoio soviético, cubano e norte-americano a grupos rivais (D), e a Conferência de Berlim (1884-85) não tirou de Portugal suas colônias (B).\n\n**Resposta: E**"
+  },
+  "64": {
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "A Declaração Universal dos Direitos Humanos foi aprovada pela Assembleia Geral da ONU em 1948, logo após a Segunda Guerra. Bobbio destaca que ela foi aceita pelos governos da maioria da humanidade, o que a torna universal \"de fato\". Por isso passou a servir de base para reivindicações posteriores, como as lutas pelos direitos civis dos negros, pelos direitos das mulheres e dos homossexuais nos anos 1960.\n\nA alternativa A confunde com a Declaração dos Direitos do Homem e do Cidadão (1789), e a E com as ideias do século XVIII que a inspiraram de longe.\n\n**Resposta: D**"
+  },
+  "65": {
+   "assunto": "História da América",
+   "resolucao": "Neruda fala do governo da Unidade Popular de Salvador Allende (1970-1973), derrubado pelo golpe de Pinochet. A peculiaridade da \"via chilena para o socialismo\" foi chegar ao poder por eleição e tentar fazer as reformas dentro da Constituição; daí \"do nosso lado [...] estavam a constituição e a lei, a democracia\".\n\nO governo Allende nacionalizou (não privatizou) as minas de cobre (A); o golpe foi dado contra a Unidade Popular, não por ela (C); e os Estados Unidos apoiaram a oposição e o golpe (E).\n\n**Resposta: D**"
+  },
+  "66": {
+   "assunto": "Guerras mundiais e entreguerras",
+   "resolucao": "O Manifesto Futurista de Marinetti (1909) exaltava a máquina, a velocidade e a guerra, \"única higiene do mundo\". Muitos futuristas aderiram ao fascismo, que também glorificava a violência, o militarismo e a força da técnica moderna. Esse culto à guerra e à velocidade é o ponto comum.\n\nO fascismo era anticomunista e antianarquista (D) e, longe de rejeitar o passado romano, usava-o como símbolo de grandeza (C e A).\n\n**Resposta: E**"
+  },
+  "67": {
+   "assunto": "Guerras mundiais e entreguerras",
+   "resolucao": "Primo Levi descreve a tatuagem do número de prisioneiro em Auschwitz. Para ele, ela doía pouco, mas era traumática pelo que significava: \"este é um sinal indelével, daqui não sairão mais\", a marca dos escravos e dos animais de abate, a perda do nome. É, portanto, uma violência (tortura) e uma mensagem sem palavras gravada no próprio corpo do preso.\n\nO texto não restringe o trauma a ciganos e judeus ortodoxos (B), nem fala de remuneração (C) ou de código estético (D).\n\n**Resposta: A**"
+  },
+  "68": {
+   "assunto": "Idade Moderna (Europa)",
+   "resolucao": "Analise cada afirmação.\n\nI. Falsa: o heliocentrismo de Copérnico contrariava a visão geocêntrica defendida pela Igreja; sua obra acabou no Índice de livros proibidos.\nII. Falsa: Newton era um homem religioso, e a Revolução Puritana teve forte caráter religioso (protestante), não ateísta.\nIII. Verdadeira: Franklin fez experimentos com eletricidade (para-raios) e foi um dos líderes da independência dos EUA.\nIV. Verdadeira: Lavoisier aplicou medição rigorosa à química, em sintonia com o racionalismo iluminista.\n\n**Resposta: E**"
+  },
+  "69": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O humor está no duplo sentido de \"localização\". O GPS serve para a localização geográfica: os personagens sabem exatamente onde estão, diante da Torre Eiffel, em Paris. O problema deles é outro: não falam francês, ou seja, não conseguem se \"localizar\" na língua do lugar. O aparelho resolve uma coisa e não a outra.\n\nNão há falha no uso do aparelho (B e C), e o ponto turístico é óbvio (E).\n\n**Resposta: D**"
+  },
+  "70": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O fim do texto decide a questão: \"o significado que uma obra assume para uma geração posterior é o resultado de uma série completa de interpretações anteriores\". Ou seja, compreender uma obra depende do acúmulo das leituras feitas antes.\n\nO autor nega que o ponto de vista mais recente seja superior (B) e mostra que o sentido muda de geração em geração, logo não é imutável nem definitivo (C e E); a obra não se \"explica\", nós nos ajustamos a ela.\n\n**Resposta: D**"
+  },
+  "71": {
+   "assunto": "Coesão e coerência",
+   "resolucao": "\"De fato\" é um advérbio de afirmação, que reforça a ideia de algo real, efetivo: equivale a \"realmente\". \"Deste modo\" introduz uma consequência ou conclusão do que foi dito antes: equivale a \"portanto\".\n\nEm C, \"com efeito\" poderia substituir \"de fato\", mas \"todavia\" é adversativo e muda o sentido da segunda expressão.\n\n**Resposta: A**"
+  },
+  "72": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "Os dois trechos foram escolhidos pelo contraste diante do trabalho e da ação. Brás Cubas faz um balanço de uma vida em que nada realizou (\"não fui ministro, não fui califa\") e comemora não ter precisado trabalhar (\"não comprar o pão com o suor do meu rosto\"): é a postura de quem passa pela vida sem empenho, apático. Helena, ao contrário, diz que ficar à toa seria castigo, que trabalharia o dia inteiro sem ser infeliz e se orgulha de ser a \"empregada\" da casa: mostra disposição e determinação.\n\nA ironia de Brás Cubas poderia sugerir \"malícia\" (A), mas Helena não é ingênua: a própria mãe se incomoda com a \"esperteza\" dela.\n\n**Resposta: C**"
+  },
+  "73": {
+   "assunto": "Sintaxe",
+   "resolucao": "Nos dois trechos de C a ênfase vem da construção com \"é que\", que põe em destaque um termo deslocado para o início da frase. Em Machado, \"Verdade é que [...]\" destaca a palavra \"verdade\" (ordem direta: \"é verdade que\"). Em Helena, \"Ser obrigada a ficar à toa é que seria castigo para mim\" usa o \"é que\" de realce: sem ele a frase continua correta (\"Ser obrigada a ficar à toa seria castigo\"), mas perde força.\n\nEm B, só o trecho de Machado repete a negação (\"não fui... não fui... não conheci\"); o de Helena não usa esse recurso.\n\n**Resposta: C**"
+  },
+  "74": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "O crítico vê em Helena a convivência de dois mundos: a formação britânica, protestante e liberal (herdada da família paterna, de origem inglesa), voltada ao raciocínio prático, e o ambiente católico e ibérico de Diamantina. O trecho C junta os dois numa só cena: Helena reflete com lógica prática (\"vi que o único meio de ter vestido é vendendo o broche\") e, na mesma hora, resolve \"conversar com Nossa Senhora tudo direitinho\", gesto da devoção católica local.\n\nD e E mostram só a vivência ou a crítica do catolicismo, sem o outro polo; A e B não tratam do choque cultural.\n\n**Resposta: C**"
+  },
+  "75": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "Eulálio atribui a versatilidade de Helena aos \"ecos de uma formação britânica, protestante, liberal\". A expressão \"formação britânica\" já aponta para a origem inglesa da família paterna e, logo em seguida, o crítico a qualifica como protestante: daí o vínculo com o protestantismo.\n\n\"A bem dizer\" atenua o conflito, que \"apenas se esboça\" (A); o ambiente era \"mal saído do regime de trabalho escravo\" (C); Helena é \"inteiramente identificada\" com seu meio (D); e sua lucidez não é abalada, mas harmonizada pelas contradições (E).\n\n**Resposta: B**"
+  },
+  "76": {
+   "assunto": "Realismo e Naturalismo",
+   "resolucao": "O Naturalismo descreve o ser humano como parte da natureza, movido por instintos e sensações. O trecho é cheio de estímulos sensoriais: o \"rumor\", o \"zunzum\", as \"gargalhadas e pragas\" (audição), a \"lama preta e nutriente\", a \"fermentação sanguínea\", o \"prazer animal de existir\" e a \"satisfação de respirar\". Os moradores ainda são comparados a plantas e formigas.\n\nNão há idealização (B) nem exaltação romântica da natureza (C); os aspectos raciais, comuns no romance, não aparecem neste trecho (D), e o foco é a massa coletiva do cortiço, não indivíduos (E).\n\n**Resposta: A**"
+  },
+  "77": {
+   "assunto": "Variação linguística",
+   "resolucao": "A fala de Isaura, \"bata na porta\", reproduz o uso coloquial. Na norma formal, o verbo \"bater\" com o sentido de pedir para entrar se constrói com a preposição \"a\": \"bata à porta\". A troca do \"a\" pelo \"em\" é típica da língua falada. O tratamento \"você\" e o \"ouviu?\" reforçam o tom informal.\n\nOs demais trechos são do narrador e seguem a norma culta; \"ouviam-se gargalhadas\", por exemplo, usa a voz passiva sintética com concordância correta.\n\n**Resposta: E**"
+  },
+  "78": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "Na carta, Graciliano diz que o desejo de Baleia, acordar \"num mundo cheio de preás\", é \"exatamente o que todos nós desejamos\": no fundo, todos somos como Baleia e esperamos preás. O sonho dela, que inclui Fabiano e as crianças num mundo de fartura, representa a aspiração coletiva por uma vida digna e justa. O autor ainda distingue sua posição da do padre: ele quer os preás \"antes do sono\", isto é, nesta vida, e não como recompensa sonhada.\n\nPor isso a alternativa D é a armadilha: a vida sobrenatural é a visão do padre Zé Leite, que Graciliano contrapõe à sua.\n\n**Resposta: B**"
+  },
+  "79": {
+   "assunto": "Semântica e sentido das palavras",
+   "resolucao": "\"Pretender\" significa ter a intenção, querer que algo aconteça; \"queria\" também exprime vontade. Os dois verbos indicam intencionalidade dos sujeitos (o padre e Baleia).\n\nNas outras, um dos termos não tem o sentido indicado: \"acordaria feliz\" é uma hipótese desejada, não dúvida (A); \"procurei adivinhar\" é tentativa, não necessidade (B); \"no fundo\" significa \"em essência\", não lugar (C); \"todos nós desejamos\" e \"dormiam\" não indicam possibilidade (E).\n\n**Resposta: D**"
+  },
+  "80": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "Em \"Sarapalha\", Argemiro conta a estória da moça levada pelo capeta, e essa narrativa encaixada alude à fuga de Luísa, mulher de Ribeiro. Em \"O burrinho pedrês\", durante a viagem da boiada, Raymundão também narra uma estória dentro da estória, e o caso contado alude à namorada de Silvino, a moça que está na origem da rivalidade entre Silvino e Badu.\n\nNas outras alternativas, os pares citados fazem parte da própria ação principal do conto, e não de uma narrativa contada por uma personagem.\n\n**Resposta: D**"
+  },
+  "81": {
+   "assunto": "Figuras de linguagem",
+   "resolucao": "Personificação (ou prosopopeia) é atribuir ações ou características humanas a seres que não as têm. A maleita (malária) é uma doença, mas no trecho ela \"sobe e desce\" o rio, \"olhando seus mosquitinhos e pondo neles a benção\", como uma pessoa, uma madrinha que abençoa os afilhados.\n\nNas demais alternativas, as ações são praticadas por pessoas (\"o senhor\", a moça) ou não há atribuição de ação humana a um ser inanimado.\n\n**Resposta: B**"
+  },
+  "82": {
+   "assunto": "Figuras de linguagem",
+   "resolucao": "A maleita é a malária, doença transmitida pela picada do mosquito *Anopheles* (o causador é um protozoário, o *Plasmodium*). Os \"mosquitinhos\" que a maleita abençoa são, portanto, os transmissores da malária. A ironia está em usar \"benção\", palavra de proteção e coisa boa, para o ato de \"autorizar\" os mosquitos a espalhar a doença.\n\nA é a armadilha: o mosquito não causa a malária, apenas a transmite.\n\n**Resposta: D**"
+  },
+  "83": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "No poema, quem fala são os antepassados do poeta.\n\nI. Correta: eles o chamam de \"filho pobre, e descorçoado, e finito\", \"inapto para as cavalhadas e os trabalhos brutais\", ironizando sua fragilidade.\nII. Correta: \"Os bens e o sangue\" indica a herança material e familiar que pesa sobre o poeta e da qual ele não se livra.\nIII. Correta: \"o fim de tudo que foi grande\" é a decadência da família de fazendeiros mineiros de Itabira, a oligarquia de onde Drummond veio.\nIV. Correta: a poesia comparada a um lago de piche e resíduos letais resume o tom pessimista e desencantado de *Claro enigma*.\n\n**Resposta: E**"
+  },
+  "84": {
+   "assunto": "Sintaxe",
+   "resolucao": "Só existe oração quando há verbo. Em I, \"para as cavalhadas\" completa o adjetivo \"inapto\" (complemento nominal). Em II e III, \"para tristeza nossa\" e \"para o fim de tudo\" são expressões nominais, sem verbo próprio introduzido pelo \"para\". Em IV, \"para melhor servir-nos\" tem o verbo \"servir\" no infinitivo: é uma oração subordinada adverbial final reduzida (\"a fim de nos servir melhor\").\n\n**Resposta: E**"
+  },
+  "85": {
+   "assunto": "Semântica e sentido das palavras",
+   "resolucao": "\"Legal\" tem dois sentidos. Na linguagem formal, é o que está de acordo com a lei, lícito: a campanha combate a sonegação e a adulteração, isto é, o combustível vendido dentro da lei. Na linguagem informal, \"legal\" é gíria para bom, bacana, positivo. A propaganda joga com os dois: combustível lícito é combustível bom.\n\n**Resposta: A**"
+  },
+  "86": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto conta que a estátua de Quebec foi explodida em 1963 e que a cabeça está num museu, separada do corpo. O historiador Vincent Giguère diz: \"the fact it's damaged is what makes it so important\" (o fato de estar danificada é o que a torna tão importante).\n\nO texto não fala em restauração (A) nem em ser a primeira estátua de uma mulher (D); ao contrário, diz que a rainha está em centenas de pedestais.\n\n**Resposta: E**"
+  },
+  "87": {
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "O texto descreve as estátuas da rainha Vitória com \"an air of solemn, severe solidity\": um ar solene, severo, de solidez. \"Solidity\" e \"severe\" remetem a firmeza, rigidez.\n\nNada no texto associa a rainha a eloquência, longevidade, beleza ou maternidade; \"the mother of God\" aparece em outro trecho, referindo-se à Virgem Maria (E).\n\n**Resposta: A**"
+  },
+  "88": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O último parágrafo dá os números: das 925 estátuas públicas da Grã-Bretanha, só 158 são de mulheres sozinhas, e destas 110 são alegóricas ou míticas e 29 são da própria rainha Vitória. Os dados confirmam a frase anterior, de que estátuas de mulheres em espaço público são \"extremely rare\": há escassez de monumentos femininos.\n\nA alternativa A pega um número do texto (110 alegóricas), mas ele serve para mostrar como sobram poucas mulheres reais retratadas, não para enfatizar alegorias.\n\n**Resposta: B**"
+  },
+  "89": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Para mostrar que \"algorithms are everywhere\", o texto lista exemplos: operam na bolsa (\"play the stockmarket\"), decidem financiamentos, poderão dirigir carros, buscam na internet, inserem anúncios em sites e \"decide what prices to show you in online shops\", isto é, definem preços nas lojas virtuais: comércio eletrônico.\n\n\"Stockmarket\" é bolsa de valores, não \"livre mercado\" (B); \"mortgage\" é hipoteca, não cartão de crédito (A); o jogo citado depois é o jogo da velha (\"noughts and crosses\"), não xadrez (D).\n\n**Resposta: E**"
+  },
+  "90": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto define algoritmo como um conjunto de passos precisos que, seguidos de forma mecânica, levam ao resultado, e diz que cada passo deve ser \"as simple and as free from ambiguity as possible\". Instruções como \"cozinhe até ficar macio\" são \"too vague to follow without at least some interpretation\". Logo, a execução de um algoritmo não admite análises subjetivas ou imprecisas.\n\nO texto fala em passos que exigem pouco esforço mental, e não em alternar níveis de esforço (E) ou em memorizar tabelas (A).\n\n**Resposta: D**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "corrigida",
+   "notas": "Descrição da figura do cartum: \"dois turistas\" (interpretação) virou \"dois homens\" e passou a mencionar o aparelho eletrônico na mão de um deles, necessário para quem não enxerga avaliar as alternativas B e C. Fala do balão conferida com a imagem."
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": "Minha primeira resolução deu A; refeita após a comparação, concordo com o gabarito oficial C (contraste entre a inação de Brás Cubas e a disposição para o trabalho de Helena). Texto conferido."
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "corrigida",
+   "notas": "materias_extra: acrescentada biologia (é preciso saber que a maleita é a malária e que o mosquito é transmissor, não causador). Texto conferido, sem erro."
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
