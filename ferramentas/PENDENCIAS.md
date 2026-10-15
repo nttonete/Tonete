@@ -27,3 +27,5 @@ Caminhos possíveis: (a) mostrar o texto como imagem recortada do caderno oficia
 - fuvest-2024-1 q48: cabem 61 embalagens pela conta; gabarito oficial D = 60.
 - unicamp-2026-1 q23; unesp-2025-1 q81 (desenho ambíguo); fuvest-2026-1 q53 (1904 x 1899).
 - unicamp-2024-1 q24: exige massa atômica do Cu, que o caderno não traz.
+- unesp-2021-1 q70: ordem de grandeza de 4,5 × 10⁻⁵ g; pelo critério usual (acima de √10 sobe uma potência) daria 10⁻⁴ (E); oficial A = 10⁻⁵.
+- unesp-2021-1 q82: o último algarismo do medidor está em vermelho (décimos em medidores reais); lido assim daria 5,0 W (E); oficial B = 50 W.

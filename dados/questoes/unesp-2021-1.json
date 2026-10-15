@@ -1268,7 +1268,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "A ideia central é a osmose: a parede celular é o que impede a bactéria de estourar quando absorve água.\n\nA *Salmonella* tem parede íntegra; em solução **hipertônica** ela perde água para o meio (plasmólise) e deixa de crescer e de agir.\n\nA bactéria-alvo intoxicada tem a parede enfraquecida; em solução **hipotônica** ela absorve água, incha e se rompe (lise), pois a parede não resiste à pressão.\n\nA alternativa A inverte as soluções: em meio hipotônico a *Salmonella*, com parede íntegra, não seria afetada.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q62",
@@ -1288,7 +1290,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "As bases nitrogenadas do DNA são adenina (A), timina (T), citosina (C) e guanina (G). A uracila (U) é exclusiva do RNA.\n\nNa oração, as palavras formadas só por A, T, C e G são: \"A\" (duas vezes), \"gata\" e \"ataca\". As que têm U (\"tua\", \"Cuca\", \"cacatua\", \"Cacau\") ficam de fora.\n\nClasses gramaticais: \"A\"/\"a\" é artigo, \"gata\" é substantivo e \"ataca\" é verbo.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q63",
@@ -1306,15 +1310,15 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "O hormônio vegetal liberado por frutos durante o amadurecimento é o **etileno**, um gás. Ele se difunde pelo ar, por isso pode reagir com um selo colado na embalagem.\n\nGiberelina, citocinina e auxina estão ligadas a crescimento e divisão celular; o ácido abscísico, a dormência e ao fechamento dos estômatos. Nenhum deles é gás liberado na maturação.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q64",
    "numero": 64,
    "materia": "biologia",
-   "materias_extra": [
-    "quimica"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "A quitosana é um biopolímero obtido da quitina e tem diversas atividades biológicas importantes, como antioxidante, anti-inflamatória, anticoagulante, antitumoral e antimicrobiana.\n\n(Mariana Pezzo. https://sinteses.blogfolha.uol.com.br, 21.03.2020. Adaptado.)\n\nEste biopolímero pode ser obtido a partir de macerados",
    "alternativas": {
@@ -1326,7 +1330,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "A quitosana vem da quitina, polissacarídeo que forma o exoesqueleto dos artrópodes (e a parede celular dos fungos).\n\nEntre as opções, a fonte de quitina é a **carapaça de caranguejos**, que são crustáceos. Esqueleto de tubarão é cartilagem, chifres de bovinos são queratina, eucalipto tem celulose e lignina, e algas marrons têm celulose e alginato.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2021-1-q65",
@@ -1344,7 +1350,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O texto diz que a maioria das doenças é transmitida pela própria picada, mas pede aquela em que a irritação da pele **depois** da picada é essencial.\n\nNa doença de Chagas, o barbeiro defeca enquanto se alimenta; o *Trypanosoma cruzi* está nas fezes. A coceira faz a pessoa coçar e levar as fezes contaminadas para a ferida da picada. A transmissão é pelas fezes, não pela saliva.\n\nFebre amarela, filariose, febre maculosa e malária são transmitidas durante a picada ou pela saliva do vetor.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q66",
@@ -1364,7 +1372,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Calor recebido pela água: $Q = m \\cdot c \\cdot \\Delta T = 500 \\cdot 1 \\cdot (38 - 20) = 9\\,000\\ \\text{cal}$.\n\nO sistema é isolado, mas a água chegou a 38 °C, a temperatura inicial do animal: ele cedeu calor e manteve a própria temperatura, porque produziu calor pelo metabolismo. Isso só acontece com um animal **endotérmico**.\n\nPeixe e sapo são ectotérmicos: o animal esfriaria e o equilíbrio ficaria abaixo de 38 °C. A galinha (ave) é endotérmica. As opções com 18 000 cal dobram o calor por engano.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q67",
@@ -1384,7 +1394,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "Racionalismo, experimentalismo e antropocentrismo, no tempo de Leonardo da Vinci (séculos XV e XVI), caracterizam o **Renascimento**. O Iluminismo é do século XVIII, e Darwin publicou no século XIX.\n\nOs desenhos comparam membros de animais diferentes com a mesma organização de ossos. Órgãos **homólogos** têm a **mesma** origem embrionária e indicam ancestral comum, mesmo que a função seja diferente. Órgãos análogos têm função parecida e origem diferente.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q68",
@@ -1402,7 +1414,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "As mudanças aconteceram durante a vida de **um** indivíduo, em resposta ao modo como ele passou a se locomover. Não houve mudança nos genes nem seleção entre gerações.\n\nO osso é um tecido vivo, que se remodela: o esforço repetido de saltar sobre as patas traseiras engrossou e reorientou os ossos (hipertrofia desencadeada pelo comportamento).\n\nA, D e E falam de seleção ou de mutações, que agem sobre populações ao longo de gerações. B sugere que o meio direciona alterações genéticas, ideia que não é aceita.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q69",
@@ -1422,7 +1436,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Na fórmula em linha, cada vértice é um carbono. A estrutura é $\\text{C}\\ell\\text{–CH}_2\\text{–CH}_2\\text{–S–CH}_2\\text{–CH}_2\\text{–C}\\ell$.\n\nSão 4 carbonos e cada um, com 2 ligações já ocupadas na cadeia, carrega 2 hidrogênios: 8 H. Fórmula molecular: $\\text{C}_4\\text{H}_8\\text{C}\\ell_2\\text{S}$.\n\nO gás mostarda é uma arma **química** (não biológica, pois não é ser vivo nem toxina de ser vivo) e foi usado em larga escala na **Primeira** Guerra Mundial, nas trincheiras.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q70",
@@ -1442,7 +1458,10 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Massa = densidade × volume. Converta tudo para centímetros.\n\nEspessura de 2 átomos: $0{,}47\\ \\text{nm} = 0{,}47 \\times 10^{-7}\\ \\text{cm} = 4{,}7 \\times 10^{-8}\\ \\text{cm}$.\n\nVolume: $V = 4{,}7 \\times 10^{-8} \\cdot 5 \\cdot 10 = 2{,}35 \\times 10^{-6}\\ \\text{cm}^3$.\n\nMassa: $m = 19 \\cdot 2{,}35 \\times 10^{-6} \\approx 4{,}5 \\times 10^{-5}\\ \\text{g}$.\n\nA banca tomou a potência de 10 da notação científica: a massa é da ordem de $10^{-5}$ g.\n\n**Observação:** pelo critério usual de ordem de grandeza (se o número que multiplica a potência for maior que $\\sqrt{10} \\approx 3{,}16$, sobe-se uma potência), $4{,}5 \\times 10^{-5}$ seria da ordem de $10^{-4}$ g (alternativa E). O gabarito oficial é A.\n\n**Resposta: A**",
+   "revisao": "atencao",
+   "revisao_notas": "Minha resolução dá E; gabarito oficial A. Transcrição conferida (19 g/cm³, 0,47 nm, 5 cm × 10 cm, alternativas na ordem do caderno). A massa é 19 × 4,7×10⁻⁸ cm × 50 cm² ≈ 4,5×10⁻⁵ g. Pelo critério usual de ordem de grandeza (mantissa ≥ √10 ≈ 3,16 arredonda para a potência seguinte), a ordem seria 10⁻⁴ g (E); a banca adotou a potência de 10 da notação científica (10⁻⁵ g, A). Divergência de convenção, para uma pessoa decidir."
   },
   {
    "id": "unesp-2021-1-q71",
@@ -1460,7 +1479,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "Procuramos reações de oxirredução em que um mesmo reagente se oxida e se reduz (auto-oxirredução).\n\nReação 1: o cloro passa de 0 em $\\text{C}\\ell_2$ para +1 em $\\text{NaC}\\ell\\text{O}$ e para −1 em $\\text{NaC}\\ell$. O $\\text{C}\\ell_2$ é oxidante e redutor.\n\nReação 2: o chumbo do $\\text{PbSO}_4$ (+2) passa a 0 em Pb e a +4 em $\\text{PbO}_2$. O $\\text{PbSO}_4$ é oxidante e redutor.\n\nReação 3: é oxirredução, mas o Mg é o redutor e o $\\text{O}_2$ é o oxidante (reagentes diferentes). Reação 4: nenhum número de oxidação muda.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q72",
@@ -1478,7 +1499,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Numa mistura de gases, pressão parcial = fração em volume (fração molar) × pressão total.\n\nBiometano: $p = 0{,}95 \\times 2{,}0 = 1{,}90\\ \\text{atm}$.\n\nBiogás: $p = 0{,}60 \\times 2{,}0 = 1{,}20\\ \\text{atm}$.\n\nDiferença: $1{,}90 - 1{,}20 = 0{,}70\\ \\text{atm}$. A alternativa B (0,35 atm) é o resultado de quem esquece de multiplicar por 2,0 atm.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q73",
@@ -1496,7 +1519,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Funções inorgânicas",
+   "resolucao": "Para retirar o $\\text{CO}_2$, um óxido ácido, basta fazê-lo reagir com uma base. O metano não reage e segue adiante.\n\nAo borbulhar o biogás em solução de hidróxido de cálcio (água de cal): $\\text{CO}_2 + \\text{Ca(OH)}_2 \\longrightarrow \\text{CaCO}_3 + \\text{H}_2\\text{O}$. O carbonato de cálcio precipita e o teor de metano aumenta.\n\nO ácido clorídrico não reage com $\\text{CO}_2$. Sílica-gel retém umidade, e filtros de areia ou de papel retêm partículas sólidas, não gases.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q74",
@@ -1514,7 +1539,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "resolucao": "Cada cor limita o pH da água:\n\n- vermelho neutro amarelo-alaranjado: pH ≥ 8,0;\n- amarelo de alizarina amarelo-claro: pH ≤ 10,0;\n- púrpura de m-cresol púrpura: pH ≥ 9,0.\n\nJuntando: $9{,}0 \\le \\text{pH} \\le 10{,}0$. Como $\\text{pH} + \\text{pOH} = 14$ a 25 °C, $4{,}0 \\le \\text{pOH} \\le 5{,}0$, ou seja, $[\\text{OH}^-]$ está entre $1 \\times 10^{-5}$ e $1 \\times 10^{-4}$ mol/L.\n\nA alternativa B traz a faixa de $[\\text{H}^+]$, e não de $[\\text{OH}^-]$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q75",
@@ -1532,7 +1559,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "No diagrama, a sublimação é a passagem da região do sólido para a do vapor, que só são vizinhas **abaixo do ponto triplo** (0,01 °C e 0,61 kPa).\n\nCom temperatura inferior a 0,0025 °C e pressão inferior a 0,61 kPa, o gelo pode virar vapor sem passar pela fase líquida. É o que se faz na liofilização, em baixa pressão.\n\nA alternativa D é o próprio ponto triplo, onde as três fases coexistem em equilíbrio. Em A a água está acima do ponto crítico, e em B e C não há gelo passando direto a vapor.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q76",
@@ -1550,7 +1579,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "No gráfico $v \\times t$, a área sob a curva é o deslocamento. As velocidades se igualam em $t = 30$ s (10 m/s).\n\nVeículo II: retângulo de 0 a 20 s mais trapézio de 20 a 30 s: $30 \\cdot 20 + \\frac{(30 + 10) \\cdot 10}{2} = 600 + 200 = 800$ m.\n\nVeículo I: triângulo de 0 a 30 s: $\\frac{30 \\cdot 10}{2} = 150$ m.\n\nOs dois partiram do mesmo ponto em $t = 0$, então a distância entre eles é $800 - 150 = 650$ m.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q77",
@@ -1568,7 +1599,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Estática",
+   "resolucao": "Em equilíbrio, a soma dos momentos em relação a B é zero. A força do solo, aplicada em B, tem momento nulo.\n\nO braço de cada força é a distância de B até a sua linha de ação: a tração é horizontal, com braço vertical de 6,4 m; $F_\\text{H}$ e $P_\\text{E}$ são verticais, com braços horizontais de 3,0 m e 2,4 m.\n\n$T \\cdot 6{,}4 = 560 \\cdot 3{,}0 + 300 \\cdot 2{,}4 = 1\\,680 + 720 = 2\\,400$\n\n$T = \\frac{2\\,400}{6{,}4} = 375\\ \\text{N}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q78",
@@ -1588,7 +1621,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Quantidade de alumínio: $n = \\frac{6{,}75}{27} = 0{,}25$ mol.\n\nPela equação, 1 mol de Aℓ dá $\\frac{3}{2}$ mol de $\\text{H}_2$: $n_{\\text{H}_2} = 1{,}5 \\cdot 0{,}25 = 0{,}375$ mol.\n\nEquação dos gases ideais no SI, com $V = 10\\ \\text{L} = 10^{-2}\\ \\text{m}^3$ e $T = 27 + 273 = 300$ K:\n\n$p = \\frac{nRT}{V} = \\frac{0{,}375 \\cdot 8 \\cdot 300}{10^{-2}} = \\frac{900}{10^{-2}} = 9 \\times 10^4\\ \\text{N/m}^2$.\n\nA alternativa A ($6 \\times 10^4$) sai de quem usa 0,25 mol de $\\text{H}_2$, esquecendo a proporção 1 : 3/2.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q79",
@@ -1606,7 +1641,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "Numa lâmina de faces paralelas, cada raio sai **paralelo** ao raio incidente, só deslocado lateralmente. Isso elimina B, D e E.\n\nNa entrada, a luz azul ($n_\\text{A} > n_\\text{V}$) desvia mais e se aproxima mais da normal que a vermelha. Assim, o raio azul atinge a face de baixo mais perto da normal que passa por P, à esquerda do vermelho, e emerge desse lado.\n\nSaem então dois raios paralelos a r: o azul à esquerda e o vermelho à direita, mais perto do prolongamento de r. A alternativa A troca as cores.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q80",
@@ -1626,7 +1663,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "A água tem alto calor específico: aquece e esfria devagar. Perto do mar (maritimidade) as variações de temperatura são suavizadas e há mais umidade. Longe dele (continentalidade) a amplitude térmica é maior e o ar é mais seco.\n\nPor isso as áreas litorâneas têm invernos mais amenos, e no interior o inverno é mais rigoroso e mais bem percebido.\n\nB inverte o efeito: os desertos têm a maior amplitude térmica diária. C e E atribuem umidade à continentalidade, e D diz que a água perde calor rapidamente, o contrário do que acontece.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q81",
@@ -1644,7 +1683,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "O trabalho da força resultante é a área sob o gráfico $R \\times d$ e é igual à variação da energia cinética.\n\nDe 0 a 2 m há um triângulo: $\\tau = \\frac{2 \\cdot 30}{2} = 30$ J. De 2 m a 3,5 m a resultante é nula, então nada muda.\n\nComo a garota partiu do repouso: $\\frac{60 \\cdot v^2}{2} = 30 \\Rightarrow v^2 = 1 \\Rightarrow v = 1{,}0$ m/s.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q82",
@@ -1652,7 +1693,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Uma família saiu de casa no mês de julho de 2020 e esqueceu de desligar da tomada alguns dos aparelhos elétricos de sua residência, deixando-os em *stand-by* (modo de espera). As figuras mostram as indicações no medidor da energia elétrica na residência nos dias 01.07.2020 e 30.07.2020, período de 30 dias em que essa família esteve ausente.\n\n![dois medidores de energia elétrica: leitura em 01.07.2020, 320251 kWh; leitura em 30.07.2020, 320287 kWh](fig:p27-f2)\n\nA potência total de todos os aparelhos que permaneceram em modo de espera durante a ausência da família é de",
+   "enunciado": "Uma família saiu de casa no mês de julho de 2020 e esqueceu de desligar da tomada alguns dos aparelhos elétricos de sua residência, deixando-os em *stand-by* (modo de espera). As figuras mostram as indicações no medidor da energia elétrica na residência nos dias 01.07.2020 e 30.07.2020, período de 30 dias em que essa família esteve ausente.\n\n![dois medidores de energia elétrica, em kWh, com as leituras de 01.07.2020 e de 30.07.2020; os visores mostram os algarismos 3 2 0 2 5 1 e 3 2 0 2 8 7, com o último algarismo de cada visor em destaque vermelho](fig:p27-f2)\n\nA potência total de todos os aparelhos que permaneceram em modo de espera durante a ausência da família é de",
    "alternativas": {
     "A": "20 W.",
     "B": "50 W.",
@@ -1662,7 +1703,10 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "A energia consumida é a diferença entre as leituras do medidor, e a potência é energia dividida pelo tempo.\n\nLendo os seis algarismos como kWh: $E = 320\\,287 - 320\\,251 = 36\\ \\text{kWh} = 36\\,000\\ \\text{Wh}$.\n\nTempo: 30 dias $= 30 \\cdot 24 = 720$ h.\n\n$P = \\frac{36\\,000}{720} = 50$ W.\n\n**Observação:** o último algarismo de cada visor está destacado em vermelho, e em muitos medidores reais esse algarismo marca décimos de kWh. Lido assim, o consumo seria 3,6 kWh e a potência 5,0 W (alternativa E). O gabarito oficial considera todos os algarismos inteiros.\n\n**Resposta: B**",
+   "revisao": "atencao",
+   "revisao_notas": "Corrigida a descrição da figura: dizia '320251 kWh' e '320287 kWh', interpretando a leitura; agora descreve os algarismos e o último em vermelho, sem resolver a ambiguidade. Gabarito: minha primeira leitura deu E (5,0 W), tomando o algarismo vermelho como décimo de kWh, como em muitos medidores reais (3,6 kWh em 720 h). O gabarito oficial B (50 W) lê todos os algarismos como kWh inteiros: 36 kWh em 720 h. Transcrição conferida; a dúvida vem da figura do caderno."
   },
   {
    "id": "unesp-2021-1-q83",
@@ -1682,14 +1726,15 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Dieta hipercalórica é indicada para magreza, isto é, escore-z abaixo da curva –2. Converta os meses em idade e localize cada ponto no gráfico:\n\n- A. R.: 75 meses = 6 anos e 3 meses, IMC 19, acima da curva 1 (obesidade);\n- F. S.: 99 meses = 8 anos e 3 meses, IMC 14, acima da curva –2 (cerca de 13,4);\n- G. R.: 120 meses = 10 anos, IMC 20, acima da curva 1 (cerca de 18,5);\n- R. B.: 180 meses = 15 anos, IMC 22, entre as curvas 0 e 1 (eutrofia);\n- S. U.: 192 meses = 16 anos, IMC 16, **abaixo** da curva –2 (cerca de 16,5).\n\nSó S. U. está na faixa de magreza.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q84",
    "numero": 84,
    "materia": "matematica",
    "materias_extra": [
-    "biologia",
     "ingles"
    ],
    "texto_base": null,
@@ -1703,15 +1748,15 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "\"Just 6 million years ago\" significa \"há apenas 6 milhões de anos\": o autor enfatiza que a origem humana é **recente**.\n\nRazão entre os dois períodos: $\\frac{6 \\times 10^6}{3{,}8 \\times 10^9} \\approx 0{,}0016$.\n\nComo um milésimo é 0,001, esse valor é pouco mais de 1 milésimo (cerca de 0,16%). A alternativa C (15 centésimos = 0,15) erra a ordem de grandeza.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2021-1-q85",
    "numero": 85,
    "materia": "matematica",
-   "materias_extra": [
-    "biologia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "Para a identificação do câncer de próstata utiliza-se, além do exame digital, o exame de sangue PSA (antígeno prostático específico), que é um procedimento básico para início do rastreamento. No entanto, o PSA é um biomarcador imperfeito, pois pode levar a falsos diagnósticos e excesso de tratamento cirúrgico.\n\nUm grupo de pesquisadores obteve, para uma determinada população, que a probabilidade de um resultado do exame PSA ser verdadeiro, ou seja, indicar positivo para quem tem a doença ou negativo para quem não tem a doença, é de 60%. Ao analisar o resultado de dois testes desse grupo, a probabilidade de que pelo menos um seja falso é de",
    "alternativas": {
@@ -1723,15 +1768,15 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Use o evento complementar: \"pelo menos um falso\" é o contrário de \"os dois verdadeiros\".\n\nSupondo os testes independentes, a probabilidade de os dois serem verdadeiros é $0{,}6 \\cdot 0{,}6 = 0{,}36$.\n\nLogo, $P(\\text{pelo menos um falso}) = 1 - 0{,}36 = 0{,}64 = 64\\%$.\n\nA alternativa B (16%) é a probabilidade de os **dois** serem falsos ($0{,}4^2$), e D (48%) é a de exatamente um ser falso.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2021-1-q86",
    "numero": 86,
    "materia": "matematica",
-   "materias_extra": [
-    "fisica"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "Quando a velocidade de um avião aumenta, o deslocamento das moléculas da atmosfera provoca um aumento da chamada pressão dinâmica ($P_\\text{d}$) sobre o avião. Se a altitude de voo é mantida constante, a pressão dinâmica, dada em Pa, pode ser calculada por $P_\\text{d} = k \\cdot v^2$, sendo $v$ o módulo da velocidade do avião em relação ao ar, em m/s, e $k$ uma constante positiva, que depende da altitude.\n\nO gráfico que representa a relação correta entre $P_\\text{d}$ e $v$ é:",
    "alternativas": {
@@ -1743,7 +1788,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "$P_\\text{d} = k \\cdot v^2$ é uma função quadrática: o gráfico é um arco de parábola que passa pela origem ($v = 0 \\Rightarrow P_\\text{d} = 0$). Isso elimina as retas (A e D) e o gráfico B, que começa em $k$.\n\nNos eixos, $v$ está em centenas de m/s. Para $v = 300$ m/s: $P_\\text{d} = k \\cdot 90\\,000 = 9k \\times 10\\,000$ Pa. Para $v = 500$ m/s: $P_\\text{d} = k \\cdot 250\\,000 = 25k \\times 10\\,000$ Pa.\n\nSão os valores marcados no gráfico C. O gráfico E indica $8k$ e $32k$, que não seguem $v^2$.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2021-1-q87",
@@ -1761,7 +1808,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Progressões",
+   "resolucao": "Instalados em 2019: $\\frac{5}{9} \\cdot 171 = 95$ mil sistemas.\n\nSe as novas instalações triplicam a cada ano, elas formam uma PG de razão 3:\n\n2020: 285 mil; 2021: 855 mil; 2022: $95 \\cdot 3^3 = 2\\,565$ mil.\n\nComparando com o total até 2019: $\\frac{2\\,565}{171} = 15$.\n\nA alternativa B (27) é só o fator $3^3$, sem considerar que 95 mil é parte dos 171 mil.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q88",
@@ -1779,15 +1828,15 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "resolucao": "No tronco de cone, o diâmetro diminui de modo linear ao longo do comprimento, de $D$ até $d$. Por semelhança de triângulos na seção que contém o eixo, a $\\frac{3L}{8}$ da base maior o diâmetro já diminuiu $\\frac{3}{8}$ de $(D - d)$.\n\nAo nível do solo: $D = 60$ cm e $d = 30$ cm.\n\n$H = D - \\frac{3}{8}(D - d) = 60 - \\frac{3}{8} \\cdot 30 = 60 - 11{,}25 = 48{,}75$ cm.\n\nA alternativa B (41,25 cm) mede o $\\frac{3}{8}$ a partir do lado errado, o da base menor.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2021-1-q89",
    "numero": 89,
    "materia": "matematica",
-   "materias_extra": [
-    "geografia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "Segundo estudos, há uma grande coincidência geográfica entre municípios da Amazônia ao analisarmos os municípios mais afetados pelos processos de desmatamento e pelos conflitos rurais. O gráfico mostra a correlação entre o percentual da área total desmatada de cada município e a taxa de homicídio para cada 100 mil habitantes do município. Cada município é representado por um ponto.\n\n![gráfico de dispersão do percentual da área total desmatada, de menor a maior, em função dos homicídios para cada 100 mil habitantes, de menor a maior número, com uma reta azul de tendência](fig:p31-f1)\n\n(André A. Sant’Anna e Carlos Eduardo F. Young. “Direitos de propriedade, desmatamento e conflitos rurais na Amazônia”. *Economia Aplicada*, vol. 14, nº 3, 2010. Adaptado.)\n\nNesse gráfico, o traço azul representa a linha de tendência que relaciona o percentual ($P$) da área total desmatada e a taxa de homicídio ($h$) do município, o que pode ser descrito pela expressão:\n\n$$P = 1 + \\frac{9h}{400}$$\n\nDe acordo com essa linha de tendência, o aumento de 1 ponto percentual na área desmatada do município está associado a um aumento aproximado na taxa de homicídio de",
    "alternativas": {
@@ -1799,7 +1848,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "A expressão é uma função do 1º grau: $P = 1 + \\frac{9}{400}h$. Cada unidade a mais em $h$ aumenta $P$ em $\\frac{9}{400}$ ponto percentual.\n\nPara que $P$ aumente 1 ponto, é preciso $\\frac{9}{400}\\Delta h = 1 \\Rightarrow \\Delta h = \\frac{400}{9} \\approx 44{,}4$.\n\nIsso corresponde a cerca de 44 mortes a mais para cada 100 mil habitantes. As alternativas A (22) e D (225) vêm do coeficiente $\\frac{9}{400} = 0{,}0225$, que é o aumento de $P$ por unidade de $h$, e não o aumento de $h$ por ponto de $P$.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2021-1-q90",
@@ -1817,7 +1868,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Estatística",
+   "resolucao": "Compare, em cada país, a proporção de mulheres por homem nos dois períodos. Dobrar seria o valor final chegar ao dobro do inicial.\n\nLeituras aproximadas: Argentina 0,86 → 1,04; Brasil 0,54 → 0,78; Espanha 0,54 → 0,77; França 0,48 → 0,63; Reino Unido 0,38 → 0,59; Japão 0,12 → 0,17; México 0,44 → 0,62; Portugal 0,62 → 0,92; Estados Unidos 0,32 → 0,50.\n\nO maior crescimento relativo (Estados Unidos, Japão e Reino Unido) fica em cerca de 1,5 vez. Nenhum país dobrou.\n\n**Resposta: A**",
+   "revisao": "ok"
   }
  ]
 }
