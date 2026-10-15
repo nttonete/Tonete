@@ -1,0 +1,282 @@
+{
+ "edicao": "fuvest-2026-2-d2",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 10,
+   "codigo": "F04",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Homem-Aranha está na parede do 7º andar de um prédio olhando a vizinhança. Ele observa uma pessoa que está parada no canteiro central e corre risco de ser atropelada. Imediatamente, o super-herói lança uma teia em um poste e segue na direção dela para salvá-la. Ele pega a pessoa no ponto mais baixo da sua trajetória. Os dois continuam juntos até uma altura máxima e voltam.\n\nUma professora de Física, ao observar a cena, tenta estimar algumas informações do movimento. Ela assume que:\n(i) o movimento pendular é bidimensional;\n(ii) a altura inicial do Homem-Aranha é de $H$ = 21 m do chão, pois cada andar tem cerca de 3 m de altura;\n(iii) a velocidade inicial do Homem-Aranha, ao deixar o prédio, é zero, pois ele simplesmente se deixou cair, sem dar nenhum impulso na parede do prédio;\n(iv) ele pegou a pessoa quando estava a $d$ = 1 m do chão;\n(v) houve perda de energia quando ele pegou a pessoa, devido à colisão perfeitamente inelástica; e\n(vi) a pessoa e ele têm aproximadamente a mesma massa, $M$ = 60 kg.\n\nA figura ao lado ilustra esquematicamente o movimento descrito.\n\n![Esquema do movimento do Homem-Aranha: parte da parede de um prédio, preso por uma teia a um poste, passa pelo ponto mais baixo da trajetória, a uma distância d do chão, onde está uma pessoa de massa M, e sobe junto com ela (massa 2M); H indica a altura inicial em relação ao chão](fig:p12-f3)\n\nUtilizando as informações assumidas pela professora, responda:\n\n**Note e adote:** Aceleração da gravidade: $g = 10\\ \\text{m/s}^2$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a velocidade do Homem-Aranha quando ele pega a pessoa?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual a razão entre as velocidades imediatamente *depois* ($v_{\\text{depois}}$) e *antes* ($v_{\\text{antes}}$) de o Homem-Aranha pegar a pessoa ($v_{\\text{depois}} / v_{\\text{antes}}$)?"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Qual o valor da máxima altura do movimento do Homem-Aranha e da pessoa, juntos, em relação ao chão?"
+    }
+   ],
+   "observacoes": "O quadro Note e adote (g) vem depois dos itens no caderno e foi posto no fim do enunciado. Resposta oficial: a banca escreve h_o (letra o) no item a e p_a = Mv_i no item b (provável erro de digitação do original, mantido)."
+  },
+  {
+   "numero": 11,
+   "codigo": "F05",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Resistores e fusíveis desempenham papéis fundamentais em circuitos eletrônicos. Enquanto os resistores controlam a passagem da corrente elétrica ou são utilizados para conversão de energia elétrica em térmica, os fusíveis cortam a corrente quando ela ultrapassa certo limite, evitando assim danos e acidentes.\n\nUm estudante montou o circuito eletrônico formado por um resistor, uma lâmpada e um fusível, com resistência $R$, $L$ e $R_F$, respectivamente, e curvas características mostradas a seguir.\n\n![Circuito elétrico: a corrente I passa pelo fusível RF, em série com a associação em paralelo do resistor R e da lâmpada L, ligados a uma fonte de 15 Volts](fig:p14-f1)\n\n![Gráfico da tensão V (volts) em função da corrente I (A), de 0 a 6,0 A, com as curvas características da lâmpada L, do resistor R e do fusível RF](fig:p14-f4)\n\n**Note e adote:** Considere que a lâmpada se comporta como elemento ômico para correntes de até 1,25 A.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine o valor da resistência elétrica (em $\\Omega$) do resistor $R$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que o fusível suporta uma corrente máxima de $I$ = 6 A para que não queime, calcule o valor da ddp mínima sobre os componentes associados em paralelo."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Obtenha a resistência equivalente do circuito para uma corrente $I$ = 6 A."
+    }
+   ],
+   "observacoes": "Na resposta oficial a banca escreve \"Reposta alternativa\" (sem o s), mantido."
+  },
+  {
+   "numero": 12,
+   "codigo": "F06",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A Terra recebe energia do Sol principalmente na forma de luz visível, que abrange comprimentos de onda na faixa de 400 nm (cor violeta) até 800 nm (cor vermelha), os quais são percebidos como as cores do arco-íris.\n\nSabendo que, na região da luz visível, a irradiância espectral da luz do Sol, no nível do mar, é aproximadamente constante, com o valor de $1{,}2\\ \\text{W}/(\\text{m}^2\\,\\text{nm})$, e que cerca de 5/6 dessa luz solar é absorvida pela água do mar, responda:\n\n**Note e adote:**\nIrradiância espectral da luz é uma grandeza física definida pela potência da luz por área, dividida pelo comprimento de onda da luz ($\\lambda$), ou seja, $I_r = P/(A \\cdot \\lambda)$.\nConsidere que o produto da constante de Planck pela velocidade da luz ($hc$) é igual a $2 \\times 10^{-16}\\ \\text{J·nm}$, a densidade da água do mar é $1000\\ \\text{kg/m}^3$ e o calor específico da água do mar é $4\\ \\text{J/g·}^\\circ\\text{C}$.\nAssuma também que toda a energia absorvida pela água do mar é convertida em calor.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a cor da luz solar do espectro visível que terá maior potência por área no nível do mar? Justifique a sua resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual a variação de temperatura que a luz vermelha de 800 nm provoca quando incide durante 1 h na área de $1\\ \\text{m}^2$ em uma faixa de 20 cm de profundidade de água do mar?"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Considerando o caráter corpuscular da luz, sabe-se que cada fóton tem energia relacionada à constante de Planck ($h$), à velocidade da luz ($c$) e ao comprimento de onda da luz ($\\lambda$), ou seja, $E = hc/\\lambda$. Com base nessas informações, responda:\n\nQuantos fótons da luz vermelha de 800 nm atingirão essa área de $1\\ \\text{m}^2$ da água do mar em 1 s?"
+    }
+   ],
+   "observacoes": "No caderno o parágrafo \"Considerando o caráter corpuscular da luz...\" vem entre os itens b e c; foi posto no início do texto do item c. O quadro Note e adote vem depois do item c e foi posto no fim do enunciado."
+  },
+  {
+   "numero": 13,
+   "codigo": "G01",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na nação insular de Tuvalu, na Polinésia, mais de 3 mil pessoas – quase um terço da população local – estão se candidatando para deixar a ilha. Sua terra natal, uma cadeia de nove atóis no Oceano Pacífico situados a apenas 4,5 metros acima do nível médio do mar, está sendo gradualmente submersa pela água. As imagens indicam a situação das áreas da capital do país em 2024 e projeções para 2050 e 2100.\n\n![Funafuti, capital de Tuvalu: imagens de satélite da ilha em 2024, 2050 e 2100](fig:p17-f1)\n\n![Fotografia de Simon Kofe, de terno, em pé atrás de uma mesa com água até os joelhos, ao lado de bandeiras, em área de mar raso](fig:p17-f3)\n\nEm 2021, o então ministro das Relações Exteriores de Tuvalu, Simon Kofe, colocou-se de pé, com água até os joelhos e gravou seu discurso para a 26ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudanças Climáticas (COP-UNFCCC), realizada em Glasgow, Escócia, de 31 de outubro a 12 de novembro de 2021.\n\nFonte: Tuvalu Foreign Ministry/Reuters. Adaptado.\n\nCom base nas informações apresentadas e em seus conhecimentos sobre a dinâmica climática global, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Que fenômeno é possível identificar nas imagens?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique dois impactos negativos que esse fenômeno pode representar para os países com baixas altitudes."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Indique uma ação ambiental, a ser adotada pela população, e uma ação política, a ser adotada pelos governantes, para mitigar o impacto desse fenômeno."
+    }
+   ],
+   "observacoes": "Resposta oficial b: a banca escreve \"agua\" sem acento (mantido)."
+  },
+  {
+   "numero": 14,
+   "codigo": "G02",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Plano Nacional de Saneamento Básico (PLANSAB) consiste no instrumento de planejamento integrado do saneamento básico, considerando quatro componentes: (I) abastecimento de água potável, (II) esgotamento sanitário, (III) limpeza urbana e manejo de resíduos sólidos, e (IV) drenagem e manejo das águas pluviais urbanas. O PLANSAB foi elaborado em 2013 com horizonte de 20 anos e deve ser avaliado e revisado a cada quatro anos.\n\nDisponível em: https://www.gov.br. Adaptado.\n\n![Mapa do estado de São Paulo: Estações de Tratamento de Esgoto (ETE) e dimensão da população atendida (2020), com legenda por faixas de habitantes, capital do Estado, escala de 100 km e coordenadas de 20°S a 25°S e de 52°W a 44°W](fig:p17-c2)\n\nDisponível em: https://doi.org/10.1016/j.jenvman.2025.126440. Adaptado.\n\nConsiderando o texto e o mapa referente ao estado de São Paulo, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a principal função de uma estação de tratamento de efluentes?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique e explique dois problemas decorrentes da destinação de resíduos líquidos sem tratamento diretamente em corpos d’água."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Indique e explique, de acordo com o mapa apresentado, a situação da distribuição das estações de tratamento de esgoto relacionado à população atendida."
+    }
+   ],
+   "observacoes": "A figura foi refeita (p17-c2) para excluir a linha de fonte do mapa, que está como texto."
+  },
+  {
+   "numero": 15,
+   "codigo": "G03",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Localizado entre o continente e o oceano, e presente nas regiões tropicais de 123 nações e territórios, este ambiente abriga animais das mais variadas espécies e é essencial para o equilíbrio do planeta Terra. Suas raízes características e galhos emaranhados superficiais reduzem a altura e a energia das ondas, diminuindo assim a capacidade de erodir os sedimentos e danificar as construções costeiras. Isso reduz o risco de grandes inundações nas áreas baixas a jusante da faixa desse ambiente.\n\nDisponível em: https://www.nationalgeographicbrasil.com. Adaptado.\n\nA partir do texto e de seus conhecimentos sobre o tema, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é o ambiente descrito no texto?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte e explique uma fragilidade que esses ambientes vêm sofrendo nas últimas décadas em função das atividades antrópicas."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Cite dois serviços ecossistêmicos que esses ambientes podem apresentar."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 16,
+   "codigo": "G04",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A tecnologia digital não para de crescer. Segundo a Agência Internacional de Energia, há necessidade de maior produção de fontes de energia, preferencialmente renováveis. Observe e analise os gráficos:\n\n![Consumo de eletricidade em alta: à esquerda, gráfico em TWh com barras de 2019 a 2022 e curvas de projeção de crescimento baixo, médio e alto até 2026; à direita, barras empilhadas em TWh para 2022 e 2026* por tipo de centro de processamento de dados (CPD): dedicados a IA, dedicados a criptomoedas e tradicionais](fig:p19-c2)\n\nDisponível em: https://revistapesquisa.fapesp.br/os-impactos-ambientais-da-computacao/. Adaptado.\n\nSobre o contexto apresentado nos gráficos, responda:\n\n**Note e adote:** Terawatt-hora, abreviado como TWh, é uma unidade de energia que representa um trilhão de watts-hora.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é o motivo principal da projeção crescente do uso de energia?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite dois impactos ambientais envolvidos no crescimento observado e no uso dos centros de processamento de dados."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Explique duas medidas sustentáveis para reduzir a demanda por energia nos centros de processamento de dados."
+    }
+   ],
+   "observacoes": "O quadro Note e adote vem depois dos itens no caderno e foi posto no fim do enunciado. A figura foi refeita (p19-c2) para incluir o título do gráfico."
+  },
+  {
+   "numero": 17,
+   "codigo": "G05",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma representação espacial muito comum em nosso cotidiano são as imagens aéreas, geradas por meio de satélites artificiais, fotografias aéreas ou drones. Com sua utilização, é possível responder várias questões espaciais para entender determinados fenômenos (naturais ou sociais). Em geral, capturam-se imagens em diferentes temporalidades para que seja possível compará-las, utilizando para isso atributos espaciais que ajudam a identificar a realidade. Observe as imagens para analisar, por meio das paisagens, as informações geográficas.\n\n![Imagens de satélite que representam a transição entre a faixa de Gaza e Israel, em 2021 e em 2024, com escala de 1 km e linha vermelha divisória](fig:p21-c2)\n\nCom base no texto e comparando as imagens, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quais variáveis visuais permitem perceber a modificação da área verificada nas imagens?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A partir das imagens apresentadas, indique e explique um atributo espacial que permite a análise espácio-temporal das paisagens urbana e rural."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Aponte e explique uma característica da evolução da paisagem que indica um fenômeno atual e possível de ser percebido por meio das imagens."
+    }
+   ],
+   "observacoes": "A figura foi refeita (p21-c2) para tirar pedaços do texto vizinho."
+  },
+  {
+   "numero": 18,
+   "codigo": "G06",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A Amazônia Legal constitui um dos principais espaços de disputa territorial no Brasil. Diferentes interesses se sobrepõem nesse território: populações indígenas que lutam pela preservação de seus modos de vida e pela integridade de suas terras; grandes grupos econômicos vinculados ao agronegócio e à mineração; além de redes ilegais que exploram madeira, ouro e outros recursos naturais.\n\n![Mapa da Amazônia Legal: Terras indígenas, áreas de mineração e zonas de maior desmatamento (2023/2024), com legenda (mineração atual, pressão do desmatamento, exploração madeireira, bacias com atividade garimpeira, bacias com projetos hidrelétricos, petróleo, terras indígenas, Amazônia Legal), símbolos de atividade garimpeira e de extração madeireira ilegal em TIs, estradas do desmatamento e escala de 400 km](fig:r35-c1)\n\nFonte: Atlas de Pressões e Ameaças às Terras Indígenas (TIs) na Amazônia Brasileira.\n\nCom base no texto e na análise do mapa,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "identifique uma área da Amazônia Legal que apresenta conflitos de interesse sobre o território."
+    },
+    {
+     "rotulo": "b",
+     "texto": "explique uma interferência nas terras indígenas da região."
+    },
+    {
+     "rotulo": "c",
+     "texto": "indique e explique um impacto das atividades econômicas ilegais em um dos territórios existentes na Amazônia Legal."
+    }
+   ],
+   "observacoes": "A figura vem do documento de respostas (r35-c1): é o mesmo mapa da prova, mas no caderno a última linha da legenda (Amazônia Legal) está cortada e a fonte se sobrepõe ao mapa; no documento de respostas ele aparece inteiro. Se preferir a versão do caderno, o recorte é p21-c1. Resposta oficial c: a banca escreve \"demostrando\" (mantido)."
+  }
+ ],
+ "respostas": {
+  "10": {
+   "itens": {
+    "a": "Considerando que o ponto mais baixo da trajetória está a 1 m do chão, vamos colocar o referencial do movimento nesta altura. A energia inicial do Homem-Aranha é $E_0 = Mgh_0 + (1/2)Mv_0^2$, onde a altura inicial $h_o = 20\\ \\text{m}$, a velocidade inicial $v_0 = 0\\ \\text{m/s}$ (suposição (iii) da professora) e massa $M$, portanto $E_0 = Mgh_0$. Sendo o movimento conservativo (movimento pendular bidimensional), no mínimo da trajetória ($E_0 = E_a = (1/2)Mv_a^2$) toda a energia potencial inicial foi transformada em energia cinética. Assim, $v_a^2 = 2gh_0 = 2 \\times 10 \\times 20 = 400 \\Rightarrow v_a = 20\\ \\text{m/s}$.",
+    "b": "Considerando a colisão perfeitamente inelástica, há conservação de momento linear ($p_a = p_d$), mas não de energia. Assim, o momento linear antes da colisão é apenas o do Homem-Aranha, pois a pessoa está parada, $p_a = Mv_i$, e, depois da colisão, os dois, de mesma massa, movimentam-se juntos com a mesma velocidade, $p_d = (M+M)v_d = 2Mv_d$. Então, $Mv_a = (M+M)v_d \\Rightarrow v_a = 2v_d \\Rightarrow v_d/v_a = 0{,}5$.",
+    "c": "Após a colisão, o movimento continua conservativo, considerando agora as duas pessoas juntas de massa total $2M$, então toda a energia cinética após a colisão, $E_d = (1/2)2Mv_d^2 = Mv_d^2 = Mv_a^2/4 = M(gh_0/2)$, transforma-se em energia potencial no máximo da trajetória, $E_m = 2Mgh_m$. Assim, $E_d = E_m \\Rightarrow Mgh_0/2 = 2Mgh_m$. Então, $h_m = h_0/4 = 20/4 = 5\\ \\text{m}$. Desse modo, a altura máxima é de 5 m no referencial do mínimo da trajetória. Porém, no referencial do chão, a altura máxima é de 6 m."
+   }
+  },
+  "11": {
+   "itens": {
+    "a": "Do gráfico, podemos extrair a resistência fazendo $R = \\frac{\\Delta V}{\\Delta I}$. Das curvas para o resistor, $R = 2\\ \\Omega$.",
+    "b": "Da curva característica do fusível, obtemos $R_F = \\frac{\\Delta V}{\\Delta I} = \\frac{5}{6}\\ \\Omega$. Logo, a variação de tensão (ddp) no fusível quando $I = 6\\ \\text{A}$ será de $V_F = \\frac{5}{6}\\,6 = 5\\ \\text{V}$. Como a ddp do circuito vale 15 Volts, a ddp na parte do circuito em paralelo será\n\n$$V_{\\text{par}} = 15 - V_F = 10\\ \\text{V}$$",
+    "c": "Se a corrente total é $I_{\\text{tot}} = 6\\ \\text{A}$ e a ddp no circuito é 15 V, então\n\n$$R_{\\text{equiv}} = \\frac{15}{6} = \\frac{5}{2}\\ \\Omega$$\n\nReposta alternativa:\n\nDo gráfico, extraímos $I_L = 0{,}5\\ \\text{A}$ para $V_L = 5$ Volts. Sendo a lâmpada aproximadamente ôhmica neste regime, temos $R_L = \\frac{5}{0{,}5} = 10\\ \\Omega$. Logo, a resistência equivalente do circuito paralelo será\n\n$$\\frac{1}{R_{\\text{par}}} = \\frac{1}{R_L} + \\frac{1}{R} = \\frac{1}{10} + \\frac{1}{2} = \\frac{3}{5} \\Rightarrow R_{\\text{par}} = \\frac{5}{3}\\ \\Omega$$\n\nA resistência equivalente do circuito será\n\n$$R_{\\text{equiv}} = R_{\\text{par}} + R_F = \\frac{5}{3} + \\frac{5}{6} = \\frac{5}{2}\\ \\Omega$$"
+   }
+  },
+  "12": {
+   "itens": {
+    "a": "Usando a definição da irradiância, temos que a potência $P/A = I_r\\,\\lambda$. Como a irradiância é aproximadamente constante, a maior potência será da cor com maior comprimento de onda, ou seja, a cor vermelha.",
+    "b": "A energia absorvida pela água do mar será 5/6 da energia solar, ou seja:\n\n$$E_{\\text{abs}} = \\frac{5}{6} \\cdot I \\cdot A \\cdot \\lambda \\cdot \\Delta t = \\frac{5}{6} \\cdot 1{,}2 \\cdot 1 \\cdot 800 \\cdot 3600 = 2{,}88 \\cdot 10^6\\ \\text{J}$$\n\nSe toda a energia for absorvida pela água do mar, a quantidade de calor $Q = mC\\Delta T$ será a quantidade de energia passada da luz para a água.\n\nUsando a densidade de $1000\\ \\text{kg/m}^3$, temos uma massa de $m = 200\\ \\text{kg} = 2 \\times 10^5\\ \\text{g}$ em um volume de $0{,}2\\ \\text{m}^3$ ($= 1\\text{m} \\times 1\\text{m} \\times 0{,}2\\text{m}$) de água do mar. Logo,\n\n$$Q = E_{\\text{abs}} = 2 \\cdot 10^5 \\cdot 4 \\cdot \\Delta T \\Rightarrow \\Delta T = \\frac{288 \\cdot 10^4}{80 \\cdot 10^4} = 3{,}6\\ ^\\circ\\text{C}$$",
+    "c": "A energia do fóton da luz vermelha é $E = hc/\\lambda_{\\text{vermelho}} = 6{,}6 \\times 10^{-34} \\times 3 \\times 10^8 / 800 \\times 10^{-9} = 2{,}5 \\times 10^{-19}\\ \\text{J}$.\n\n$$E_{\\text{fóton}} = \\frac{hc}{\\lambda_{\\text{vermelho}}} = \\frac{2 \\cdot 10^{-16}}{800} = 2{,}5 \\cdot 10^{-19}\\ \\text{J}$$\n\nA potência $P = I_r\\,\\lambda = 1{,}2 \\times 800 = 960\\ \\text{W/m}^2 = 960\\ \\text{J/s.m}^2 = N_{\\text{fótons}} E_{\\text{fóton}} / (\\Delta t \\times \\text{área})$, onde $\\Delta t = 1\\ \\text{s}$ e área = $1\\ \\text{m}^2$.\n\nAssim,\n\n$$N_{\\text{fótons}} = \\frac{960}{2{,}5 \\cdot 10^{-19}} = 960 \\cdot \\frac{2}{5} \\cdot 10^{19} = 384 \\cdot 10^{19} = 3{,}84 \\cdot 10^{21} \\approx 4 \\cdot 10^{21}$$\n\nLogo, cerca de $4 \\times 10^{21}$ fótons de luz vermelha de 800 nm atingirão uma área de $1\\ \\text{m}^2$ em 1 segundo na superfície da Terra."
+   }
+  },
+  "13": {
+   "itens": {
+    "a": "Elevação do nível médio do mar; redução das áreas emersas e aumento das áreas submersas.",
+    "b": "Perda de moradias da população local pelo avanço da água do mar, perda de áreas agricultáveis, piora da qualidade da agua doce pela contaminação subsuperficial da água do mar, redução do turismo, erosão costeira em determinados locais.",
+    "c": "Como <u>ação ambiental</u> pode ser indicada a redução e o controle de água e alimentos quanto ao uso e consumo. Como <u>ação política</u>, pode ser indicada a adoção de práticas sustentáveis que garantem água potável e saneamento, por exemplo."
+   }
+  },
+  "14": {
+   "itens": {
+    "a": "Tratar o esgoto separando sólidos e líquidos para retornar a água ao rio.",
+    "b": "Um problema seria a poluição dos corpos d’água, diminuindo o oxigênio disponível e afetando a vida aquática. Outro problema seria a contaminação dos corpos d’água, potencializando a proliferação de doenças de veiculação hídrica.",
+    "c": "É possível perceber que há apenas três estações de tratamento de esgoto acima de 900 mil habitantes, concentradas na capital paulista. Enquanto isso, há diversas outras estações para atender, em sua maioria, populações de até 20.000 habitantes em outros municípios do Estado."
+   }
+  },
+  "15": {
+   "itens": {
+    "a": "Manguezal ou mangue.",
+    "b": "Poluição por esgotos domésticos e industriais, uso da madeira para diversos fins, assoreamento por sedimentos oriundos do continente, elevação do nível do mar e dinâmica costeira etc.",
+    "c": "Os manguezais são importantes centros naturais de estoques de carbono, assim como importante barreira à erosão costeira."
+   }
+  },
+  "16": {
+   "itens": {
+    "a": "Aumento da demanda por tecnologia digital.",
+    "b": "Aumento do uso de fontes de energia renováveis e aumento do uso de matéria-prima mineral para os componentes eletrônicos.",
+    "c": "Tornar os data centers mais eficientes, com a instalação em locais frios ou organizar de modo que o ar flua, evitando alto aquecimento. Elevar a eficiência energética de hardwares e softwares, permitindo que realizem as mesmas operações consumindo menos energia. Projetar sistemas mais duradouros, reparáveis e recicláveis, que reduzam a geração de lixo eletrônico; uso de energias renováveis."
+   }
+  },
+  "17": {
+   "itens": {
+    "a": "A tonalidade, a cor e contornos dos elementos representados.",
+    "b": "Pode ser utilizado o atributo do arranjo ou configurações territoriais para verificar as modificações na paisagem envolvida de 2021 a 2024. Há permanência na estrutura do arranjo espacial (território) das formas da produção agrícola e, à esquerda da linha divisória, observa-se uma profunda devastação na área urbana entre 2021 e 2024.",
+    "c": "A linha vermelha divisória indica os padrões de uso de terra diferenciados nas imagens, em clara degradação de 2021 para 2024, em função de conflitos étnico-territoriais."
+   }
+  },
+  "18": {
+   "itens": {
+    "a": "Sul e Sudeste da Amazônia, onde há pressão do desmatamento, exploração madeireira e terras indígenas.",
+    "b": "No Leste e Sudeste da Amazônia, por exemplo, há atividade garimpeira e extração ilegal da madeira dentro de terras indígenas, o que, por si só, já caracteriza a interferência na região.",
+    "c": "Há pressões atuais e futuras para a extração de petróleo em áreas próximas a terras indígenas, que já sofrem exploração madeireira e atividade minerária ilegais, demostrando o conflito de interesses."
+   }
+  }
+ }
+}
