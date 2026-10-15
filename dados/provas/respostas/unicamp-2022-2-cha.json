@@ -1,0 +1,86 @@
+{
+ "6": {
+  "itens": {
+   "a": "Como o gráfico passa pelo ponto (0,20), no tempo $t = 0$, a distância é de $20\\ \\text{m}$. Então a distância entre o ponto de largada e o equipamento eletrônico é de $20\\ \\text{m}$. Também analisando o gráfico, percebe-se que o tempo necessário para completar uma volta é de 24 s.",
+   "b": "Usando como referência a Figura 2, pode-se dizer que a maior distância acontece quando a reta que liga Márcia e o equipamento eletrônico passa pela origem da circunferência que representa a pista. Nessa situação, a distância é igual ao diâmetro da pista somado à distância entre a pista e o equipamento eletrônico.\n\nA distância entre a pista e o equipamento eletrônico é de 10m, o que pode ser visto pelo gráfico da Figura 1: é o menor valor possível para $y$.\n\nJá o diâmetro da circunferência é $200/\\pi$, já que o comprimento da circunferência é 200m.\n\nPortanto, a maior distância possível é $\\frac{200}{\\pi} + 10$."
+  }
+ },
+ "7": {
+  "itens": {
+   "a": "Como o terceiro termo da sequência é 4, e sua fatoração é $4 = 2 \\cdot 2$, a única possibilidade é terem sido sorteadas 2 bolinhas azuis no começo. Com isso, $x_1 = 2$ e a duas primeiras bolinhas são azuis.\n\nComparando $x_3$ e $x_5$, percebemos que houve multiplicação por 9, cuja fatoração é $9 = 3 \\cdot 3$. Assim, houve duas multiplicações por 3, logo as bolinhas 4 e 5 foram verdes e $x_4 = 60$.\n\n| 1ª bolinha | 2ª bolinha | 3ª bolinha | 4ª bolinha | 5ª bolinha |\n|---|---|---|---|---|\n| **azul** | **azul** | rosa | **verde** | **verde** |",
+   "b": "Não é possível. Os números da sequência de Heloísa são obtidos por meio da multiplicação de $x_0 = 1$ por 2, 3 ou 5, portanto a fatoração de 189 só poderia conter potências desses números. No entanto, a fatoração de 189 é $189 = 3 \\cdot 3 \\cdot 3 \\cdot 7 = 3^3 \\cdot 7$. A presença do 7 faz com que 189 não possa aparecer numa sequência."
+  }
+ },
+ "9": {
+  "itens": {
+   "a": "Observando o gráfico, percebe-se que 30% das publicações no triênio 2018-2020, com pelo menos um autor sediado no Brasil, foi da área de Matemática e Ciências da Terra. Para calcular a quantidade de publicações, calculamos 30% do total, que foi de 64.000. Portanto, 19.200 publicações.",
+   "b": "Apesar do percentual ter se mantido em 20%, o número de publicações da área aumentou, pois como a quantidade total aumentou de 18 mil para 64 mil ao compararmos os dois triênios, a quantidade de publicações da área passou de 3,6 mil para 12,8 mil."
+  }
+ },
+ "11": {
+  "itens": {
+   "a": "O corpo medieval era atravessado pelas tensões geradas pela tentativa de controle da vida cotidiana pela Igreja Católica. Em uma busca por aumentar o seu poder sobre os fiéis, a instituição estabelece normas sobre a alimentação, vestimenta, sexualidade, entre outros campos. Nesta lógica, as práticas cotidianas que transgrediam os valores religiosos católicos eram condenadas como “pecado” pela Igreja. Por exemplo, a embriaguez era confrontada com a abstinência, o jejum com a gula; ademais, o sexo com fins reprodutivos dentro do matrimônio era valorizado.",
+   "b": "Em diferentes contextos históricos distintos, o corpo é submetido a lógicas de poderes diferenciadas. Assim, na Idade Média, as tensões impostas eram regidas por um código religioso: o corpo magro denotava o jejum e a austeridade. Na contemporaneidade, os códigos são múltiplos. A lógica médica e os discursos relativos à saúde, bem como os padrões estéticos divulgados por meios de comunicação podem gerar práticas que vão desde a valorização de corpos magros até o empoderamento e aceitação do corpo como ele é. O basilar da questão era a compreensão das lógicas de poder que imperam sobre a materialidade do corpo humano e suas historicidades."
+  }
+ },
+ "12": {
+  "itens": {
+   "a": "O texto destaca elementos da ação política negra relacionados às culturas africanas e a seus modos de sociabilidade. Como exemplo, podemos citar as práticas sociais e políticas ligadas à religião vodu, como cantar e dançar. Elas propiciavam o planejamento de rebeliões e outras estratégias que demandavam ação coletiva.",
+   "b": "De um lado, as notícias da revolução haitiana e sua ideologia política influenciaram o horizonte de possibilidades de ação política entre a população negra de diversas regiões do Caribe e das Américas. De outro, o mundo atlântico passa a vivenciar o medo de que o processo revolucionário haitiano chegasse a outros lugares. Podemos citar, no caso do Brasil, o chamado Haitianismo, que acabou por levar à elaboração de leis mais rígidas e punições mais severas sobre a população escravizada. No plano econômico, é possível citar a queda na produção de açúcar nas Antilhas e o aumento da produção no Brasil."
+  }
+ },
+ "13": {
+  "itens": {
+   "a": "O texto traz a crítica da denominação genérica feita pelos “adversários” a grupos indígenas, como os Aimorés. Essas nomenclaturas, produzidas sem base em questões etnolinguísticas ou outros elementos culturais, não encontravam correspondências nas formas de identificação étnica dos próprios grupos e acabaram por imperar na documentação histórica. Assim, a forma como acessamos as memórias desses grupos no passado é atravessada pelos olhares dos colonizadores, dificultando a compreensão da diversidade destes grupos.",
+   "b": "Entre as caraterísticas do Romantismo está a idealização do indígena para compor um passado heroico para o Brasil. É importante destacar que essa idealização é marcada pela presença de valores europeus e serve ao Estado brasileiro para a constituição de uma memória nacional. Instituições como o IHGB foram fundamentais para a construção e consolidação desse imaginário."
+  }
+ },
+ "14": {
+  "itens": {
+   "a": "Durante o século XIX, a educação formal era voltada às elites e às famílias de profissionais liberais, que tinham condições materiais de manter tutores para seus filhos e, posteriormente, mandá-los para as universidades europeias – em especial, as portuguesas e as francesas. No caso da população escravizada, liberta ou com pouco poder aquisitivo, o autodidatismo predominava na aquisição da educação informal. É importante destacar que ainda que difícil, o autodidatismo, as leituras compartilhadas e outras formas de construção de conhecimento foram fundamentais para a existência de personalidades como a de Luiz Gama.",
+   "b": "A concessão de título de advogado a Luiz Gama pode ser lida como uma ação de reparação histórica, já que proporciona o reconhecimento, na atualidade, de um título que, no passado, por conta do contexto histórico, não seria possível. Ao mesmo tempo, esse reconhecimento gera uma pluralização da própria narrativa histórica, permitindo a valorização de outros atores sociais, não apenas dos homens brancos e da elite."
+  }
+ },
+ "15": {
+  "itens": {
+   "a": "O contexto histórico da Guerra Fria permite a compreensão da “Berlim dividida” como território que encarnava as disputas entre os sistemas capitalistas e socialistas: o primeiro, marcado pela valorização de uma economia e uma política mais liberal; o segundo, distinto pela economia planificada e pela presença ativa do Estado em todos os setores públicos e alguns privados.",
+   "b": "A mentalidade de fortaleza refere-se ao fenômeno de isolamento e fechamento de fronteiras das nações ao longo dos séculos XX e XXI. Podem ser enumerados como causas deste fenômeno: os crescentes nacionalismos e ultranacionalismos, a xenofobia e o medo das migrações."
+  }
+ },
+ "17": {
+  "itens": {
+   "a": "As metrópoles andinas são suscetíveis a desastres, tendo como mecanismo deflagrador agentes endógenos e agentes exógenos. O vulcanismo é deflagrado pela atuação dos agentes endógenos responsáveis pelo extravasamento de magma, gases voláteis e poeira vulcânica. Os terremotos são deflagrados por conta do agente endógeno responsável pela sismicidade. Os escorregamentos ocorrem por conta da ação conjunta do agente exógeno pluvial e dos processos intempéricos. A depender da intensidade dos terremotos, a sismicidade também pode deflagrar escorregamentos. O agente exógeno pluvial atua de maneira distinta para deflagrar dois fenômenos. Por um lado, podem provocar a ausência de chuvas, desencadeando as secas. Mas, por outro, o excesso de chuvas, estas somadas aos transbordamentos, deflagam as inundações.",
+   "b": "Entre as características do processo de urbanização das metrópoles sul-americanas, como as mencionadas no quadro, podemos destacar: acelerado processo de urbanização a partir da segunda metade do século XX, particularmente com a forte migração campo-cidade; concentração da população em áreas metropolitanas; acentuada desigualdade socioespacial, resultando em periferização com habitações subnormais e ausência de serviços públicos; níveis elevados de violência urbana; e problemas ambientais. Pode-se acrescentar, ainda, para a indução da urbanização, a relativa industrialização, sendo que esse processo atingiu de maneira diferenciada as mencionadas metrópoles."
+  }
+ },
+ "18": {
+  "itens": {
+   "a": "O processo de transferência de águas atmosféricas de origem oceânica se dá primeiramente pelo processo de evaporação da água da superfície oceânica, decorrente do aquecimento da água superficial dos oceanos que interceptam a radiação solar, o que faz com que a água líquida se torne vapor d’água. O vapor d’água de origem oceânica pode ser transferido, por conseguinte, para os continentes por conta da formação da zona de convergência intertropical (ZCIT), zona de convergência do Atlântico Sul (ZCAS) e da mobilidade de massas de ar, ciclones, tempestades e furacões.",
+   "b": "A vegetação é responsável pela interceptação das águas das chuvas, bem como pelo escoamento lento da água retida na vegetação pelo solo. A vegetação também é responsável por fornecer vapor d’água para a atmosfera, a partir dos processos de transpiração (decorrentes do metabolismo da planta) e da evaporação (da água retida na superfície da planta – folhas, frutos e caule). A água subterrânea apresenta dois mecanismos de mobilidade: a mobilidade vertical, decorrente da infiltração da água ou da saturação do lençol freático, e a mobilidade horizontal, responsável pelo transporte lateral da água, que se descola poro a poro ou por fissuras nas rochas."
+  }
+ },
+ "19": {
+  "itens": {
+   "a": "No Brasil, a Terra Indígena Yanomami envolve parcelas de terra dos estados de Roraima e Amazonas. A mineração ilegal em terra Yanomami participa do processo de expansão da fronteira econômica no Norte do Brasil, causando forte impacto ambiental, atingindo, por conseguinte, os ecossistemas do bioma da floresta Amazônica. Esses ecossistemas possibilitam o desenvolvimento de formas de modo de vida daquela população, tais como a subsistência alimentar (que se faz por meio da coleta de frutos da floresta, da caça de animais silvestres, da pesca, de pequenos roçados agrícolas e de outros meios) e o desaparecimento de plantas utilizadas pela medicina tradicional Yanomami. Além disso, a organização do garimpo envolve intensa movimentação de embarcações nos rios, abertura de estradas e pistas de pouso, que interferem nas trilhas e rotas historicamente traçadas pelos indígenas, com deterioração dos locais sagrados para aquela população.",
+   "b": "O ouro é o principal minério extraído do território Yanomami e a sua extração ocorre por meio de garimpos clandestinos, ilegais. A extração do ouro de aluvião, na atualidade, se faz crescentemente com técnicas industriais que envolvem inclusive logística empresarial, principalmente por processos de dragagem de sedimentos localizados nos leitos dos rios. Essa atividade ilegal atinge duramente o modo de vida e a saúde do povo Yanomami, uma vez que causa, dentre outros impactos, desmatamento, além de afugentar a caça e levar ao assoreamento e contaminação dos rios. Tudo isso resulta em áreas degradadas que são verdadeiras cicatrizes na floresta, propícias à difusão de doenças. Ademais, a forma de extração de ouro ocasiona a remoção do solo e da vegetação, a contaminação dos solos e da água pelos rejeitos do mercúrio. O mercúrio é um metal pesado que fica retido nos peixes e plantas ao ser absorvido."
+  }
+ },
+ "20": {
+  "itens": {
+   "a": "A posição geográfica da Criméia é estratégica para a Rússia uma vez que dá acesso ao Mar Negro e, por conseguinte, ao mar Mediterrâneo. Na Criméia se localiza o porto de Sebastopol que, banhado por águas mais quentes, não congela nos meses de inverno. Esse porto abriga importante frota naval russa e tem funções econômicas importantes nas rotas comerciais da Rússia com o mundo. A anexação da Criméia permitiu ao Estado russo retomar o controle político sobre uma região que, através da Ucrânia, se aproximava dos interesses da OTAN e da União Europeia. Por fim, o fato de a Criméia abrigar a maioria da população de origem russa contribuiu para legitimar sua anexação.",
+   "b": "EUA e União Europeia se opuseram à anexação da Criméia, com ameaças de um bloqueio econômico e de sanções comerciais à Rússia, ao mesmo tempo em que mantiveram relações diplomáticas com a Ucrânia."
+  }
+ },
+ "21": {
+  "itens": {
+   "a": "Transição energética corresponde à substituição de uma matriz energética por outra. Como exemplo, podemos citar a atual transição, na qual se busca substituir as fontes de energia altamente poluentes, como os hidrocarbonetos, por fontes mais limpas, como a solar e a eólica. A descarbonização da economia diz respeito ao uso de fontes de energia que emitem menos gases do efeito estufa, especialmente o $\\text{CO}_2$. Finalmente, os países do mundo que mais produzem energia de fontes não-renováveis são os Estados Unidos (EUA) e a China.",
+   "b": "A região com maior potencial hidroelétrico é a região Norte ou Amazônica, enquanto que a região com maior potencial eólico instalado é a região Nordeste. As fontes de energia renováveis convencionais são aquelas mais frequentemente utilizadas (como a energia produzida pelo bagaço da cana-de-açúcar e a energia produzida pelas usinas hidrelétricas) e as não convencionais são aquelas que resultam das mais novas tecnologias para a produção de energia, como é o caso da solar, eólica ou geotérmica."
+  }
+ },
+ "22": {
+  "itens": {
+   "a": "A *epidemia* corresponde ao aumento do número de casos de uma doença local em nível regional, sem ter, contudo, uma difusão global ou mundial. A *pandemia*, por conseguinte, é a doença que tem uma difusão global, atingindo, portanto, todos os espaços do mundo. Já a *sindemia* deriva da combinação de duas palavras (*sinergia* e *pandemia*) para designar uma situação em que duas ou mais doenças interagem, causando danos maiores do que a soma individual das doenças. A pandemia não atingiu igualmente todas as classes sociais, porque muitas medidas de controle e proteção da doença – como isolamento físico (em residências) e distanciamento físico entre pessoas – não podem ser realizadas pelas camadas sociais mais pobres, já que suas residências tendem a contar com mais moradores por metro quadrado. Além disso, a população de classes sociais menos favorecidas costuma se expor mais porque precisa se deslocar para o trabalho e para outras atividades do cotidiano, sobretudo fazendo mais uso dos transportes públicos para os deslocamentos, sendo que esses não costumam apresentar condições seguras de distanciamento entre as pessoas.",
+   "b": "O neoliberalismo é a doutrina social e econômica que supervaloriza o indivíduo e o mercado em detrimento da vida social e do papel do Estado como regulador e provedor de benefícios sociais. O neoliberalismo costuma produzir crises permanentes, na medida em que as formas de organização sistêmica costumam retirar sua força das instabilidades sociais e econômicas. Como exemplo, poderíamos mencionar a seguinte situação: para aumentar os lucros das grandes empresas, medidas como o fim dos direitos trabalhistas são postos em prática. A *normalidade* corresponde ao funcionamento coerente das instituições e organizações de uma sociedade, portanto, gerando estabilidade social. Por *crise*, entende-se a disfunção/instabilidade geral das organizações e das instituições de uma sociedade, a exemplo da permanência de altas taxas de desemprego, o que gera muita pobreza ao mesmo tempo em que paradoxalmente produz mais ricos e ultra-ricos."
+  }
+ }
+}

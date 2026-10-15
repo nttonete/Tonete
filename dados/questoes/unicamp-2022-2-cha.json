@@ -1,0 +1,333 @@
+{
+ "edicao": {
+  "id": "unicamp-2022-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2022,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2022 – 2ª fase (2º dia: Ciências Humanas e Artes)",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "fonte": {
+   "caderno": "2fase-dia2-cha-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-dia2-cha-respostas.pdf",
+    "2fase-dia2-cha-comentada.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2022-2-cha-q06",
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Márcia está fazendo um teste de condicionamento físico e corre numa pista circular de 200m de comprimento no sentido anti-horário. A distância, em metros, entre Márcia e um equipamento eletrônico, localizado na parte externa da pista, foi registrada nos primeiros 60 segundos e está representada na Figura 1 abaixo.\n\n![Figura 1: gráfico da distância, em metros, entre Márcia e o equipamento eletrônico em função do tempo, em segundos, de 0 a 60 s. Figura 2: representação ilustrativa da pista circular, com a largada, o centro da pista e o equipamento eletrônico](fig:p08-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine a distância entre o ponto de largada e o equipamento eletrônico, bem como o tempo que Márcia demora para completar uma volta.",
+     "resposta_oficial": "Como o gráfico passa pelo ponto (0,20), no tempo $t = 0$, a distância é de $20\\ \\text{m}$. Então a distância entre o ponto de largada e o equipamento eletrônico é de $20\\ \\text{m}$. Também analisando o gráfico, percebe-se que o tempo necessário para completar uma volta é de 24 s."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Durante o teste, qual a maior distância possível entre Márcia e o equipamento eletrônico?",
+     "resposta_oficial": "Usando como referência a Figura 2, pode-se dizer que a maior distância acontece quando a reta que liga Márcia e o equipamento eletrônico passa pela origem da circunferência que representa a pista. Nessa situação, a distância é igual ao diâmetro da pista somado à distância entre a pista e o equipamento eletrônico.\n\nA distância entre a pista e o equipamento eletrônico é de 10m, o que pode ser visto pelo gráfico da Figura 1: é o menor valor possível para $y$.\n\nJá o diâmetro da circunferência é $200/\\pi$, já que o comprimento da circunferência é 200m.\n\nPortanto, a maior distância possível é $\\frac{200}{\\pi} + 10$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q07",
+   "numero": 7,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Heloísa está brincando com uma urna que contém bolinhas azuis, verdes e rosas. Ela resolve construir uma sequência numérica $x_0, x_1, x_2, \\ldots$ de acordo com as cores das bolinhas que sorteia da urna. O primeiro termo da sequência é $x_0 = 1$.\n\nA cada sorteio, um novo termo da sequência é determinado multiplicando-se o termo anterior:\n\n• por 2, se a bolinha sorteada for azul;\n• por 3, se a bolinha sorteada for verde;\n• por 5, se a bolinha sorteada for rosa.\n\nA bolinha sorteada é devolvida para a urna antes do próximo sorteio. Por exemplo, se nos três primeiros sorteios Heloísa retira, respectivamente, uma bolinha rosa, uma verde e uma azul, então a sequência obtida é\n\n• $x_0 = 1$,\n• $x_1 = 5 \\cdot x_0 = 5$,\n• $x_2 = 3 \\cdot x_1 = 15$,\n• $x_3 = 2 \\cdot x_2 = 30$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Sabendo que Heloísa obteve a sequência 1, $x_1$, 4, 20, $x_4$, 180, calcule $x_1$ e $x_4$ e complete o quadro abaixo com as **cores** das bolinhas sorteadas.\n\n*Campo de resolução:*\n\n| 1ª bolinha | 2ª bolinha | 3ª bolinha | 4ª bolinha | 5ª bolinha |\n|---|---|---|---|---|\n| | | rosa | | |",
+     "resposta_oficial": "Como o terceiro termo da sequência é 4, e sua fatoração é $4 = 2 \\cdot 2$, a única possibilidade é terem sido sorteadas 2 bolinhas azuis no começo. Com isso, $x_1 = 2$ e a duas primeiras bolinhas são azuis.\n\nComparando $x_3$ e $x_5$, percebemos que houve multiplicação por 9, cuja fatoração é $9 = 3 \\cdot 3$. Assim, houve duas multiplicações por 3, logo as bolinhas 4 e 5 foram verdes e $x_4 = 60$.\n\n| 1ª bolinha | 2ª bolinha | 3ª bolinha | 4ª bolinha | 5ª bolinha |\n|---|---|---|---|---|\n| **azul** | **azul** | rosa | **verde** | **verde** |"
+    },
+    {
+     "rotulo": "b",
+     "texto": "É possível que Heloísa obtenha uma sequência contendo o termo 189? Justifique.",
+     "resposta_oficial": "Não é possível. Os números da sequência de Heloísa são obtidos por meio da multiplicação de $x_0 = 1$ por 2, 3 ou 5, portanto a fatoração de 189 só poderia conter potências desses números. No entanto, a fatoração de 189 é $189 = 3 \\cdot 3 \\cdot 3 \\cdot 7 = 3^3 \\cdot 7$. A presença do 7 faz com que 189 não possa aparecer numa sequência."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q09",
+   "numero": 9,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Segundo a Revista Fapesp de maio de 2021, a média trienal de publicações científicas com pelo menos um autor sediado no Brasil passou de 18 mil em 2003-2005 para 64 mil em 2018-2020.\n\nO gráfico abaixo apresenta a participação em porcentagem de grandes áreas do conhecimento no total de publicações com pelo menos um autor sediado no Brasil em médias trienais. Como uma publicação pode ser classificada em mais de uma grande área, a soma dos percentuais de participação de cada grande área é maior que 100%.\n\n![Gráfico de barras \"Participação das áreas (em %)\", com uma barra para 2003-2005 e outra para 2018-2020 em cada área: Ciências Biológicas, Ciências da Saúde, Ciências Agrícolas, Matemática e Ciências da Terra e Engenharias](fig:p11-c1)\n\n(Fonte: Adaptado de “Número de publicações científicas cresceu significativamente nas últimas três décadas”. *Revista Pesquisa Fapesp* 303, maio de 2021, página 11.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quais foram a porcentagem e a quantidade de publicações da área de Matemática e Ciências da Terra no triênio 2018-2020 com pelo menos um autor sediado no Brasil?",
+     "resposta_oficial": "Observando o gráfico, percebe-se que 30% das publicações no triênio 2018-2020, com pelo menos um autor sediado no Brasil, foi da área de Matemática e Ciências da Terra. Para calcular a quantidade de publicações, calculamos 30% do total, que foi de 64.000. Portanto, 19.200 publicações."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Comparando os triênios 2003-2005 e 2018-2020, o número de publicações da área de Engenharia com pelo menos um autor sediado no Brasil aumentou, diminuiu ou permaneceu igual? Justifique.",
+     "resposta_oficial": "Apesar do percentual ter se mantido em 20%, o número de publicações da área aumentou, pois como a quantidade total aumentou de 18 mil para 64 mil ao compararmos os dois triênios, a quantidade de publicações da área passou de 3,6 mil para 12,8 mil."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q11",
+   "numero": 11,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A grande recusa do corpo não se dá apenas no campo da sexualidade. A luxúria passa a ser cada vez mais associada à gula. Por isso, as recomendações da Igreja passam a se dirigir tanto à carne quanto à boca. Os pecados da carne e os pecados da boca passam a caminhar de mãos dadas. Assim, a embriaguez é reprimida também como forma de controlar os “camponeses e os bárbaros\", muito apreciadores de bebedeiras. A indigestão é igualmente associada ao pecado. A abstinência e o jejum dão o ritmo, portanto, do \"homem medieval\". Gordo oposto ao magro, Carnaval que se empanturra contra Quaresma que jejua. A tensão atravessa o corpo medieval.\n\n(Adaptado de Jacques Le Goff e Nicolas Truong, *Uma história do corpo na Idade Média.* Rio de Janeiro: Civilização Brasileira, 2006, p. 58 e 59.)\n\nA partir da leitura do texto e de seus conhecimentos sobre Idade Média, responda às questões.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite e explique as tensões, que o texto menciona, relacionadas, no período medieval, ao corpo.",
+     "resposta_oficial": "O corpo medieval era atravessado pelas tensões geradas pela tentativa de controle da vida cotidiana pela Igreja Católica. Em uma busca por aumentar o seu poder sobre os fiéis, a instituição estabelece normas sobre a alimentação, vestimenta, sexualidade, entre outros campos. Nesta lógica, as práticas cotidianas que transgrediam os valores religiosos católicos eram condenadas como “pecado” pela Igreja. Por exemplo, a embriaguez era confrontada com a abstinência, o jejum com a gula; ademais, o sexo com fins reprodutivos dentro do matrimônio era valorizado."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite e explique duas diferenças, entre a sociedade medieval e a sociedade contemporânea, no que diz respeito à percepção sobre o corpo ideal.",
+     "resposta_oficial": "Em diferentes contextos históricos distintos, o corpo é submetido a lógicas de poderes diferenciadas. Assim, na Idade Média, as tensões impostas eram regidas por um código religioso: o corpo magro denotava o jejum e a austeridade. Na contemporaneidade, os códigos são múltiplos. A lógica médica e os discursos relativos à saúde, bem como os padrões estéticos divulgados por meios de comunicação podem gerar práticas que vão desde a valorização de corpos magros até o empoderamento e aceitação do corpo como ele é. O basilar da questão era a compreensão das lógicas de poder que imperam sobre a materialidade do corpo humano e suas historicidades."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q12",
+   "numero": 12,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Mas, enquanto isso, e os escravos? Eles ouviam falar da Revolução e conceberam-na à sua própria imagem. (...) Antes do final de 1789, houve levantes em Guadalupe e na Martinica. Já em outubro, em Forte Dauphin, um dos futuros centros da insurreição de São Domingos, os escravos estavam se agitando e realizando reuniões de massas nas florestas durante a noite. Na Província do Sul, observando a luta entre os seus senhores a favor e contra a Revolução, eles mostraram sinais de inquietação. (...) Pela dura experiência, aprenderam que esforços isolados estavam condenados ao fracasso, e nos primeiros meses de 1791, dentro e nos arredores de Le Cap, eles estavam se organizando para a Revolução. O vodu era o meio da conspiração. Apesar de todas as proibições, os escravos viajavam quilômetros para cantar, dançar, praticar os seus ritos e conversar; e então, desde a Revolução, escutar as novidades políticas e traçar os seus planos.”\n\n(Adaptado de Cyrik Lionel Robert James, *Os Jacobinos Negros.* Toussaint L’Ouverture e a revolução de São Domingos. 1.ed. São Paulo: Boitempo, 2010, p. 87-91.)\n\nCom base no excerto e em seus conhecimentos sobre as revoluções atlânticas de finais do século XVIII e início do XIX,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "cite e analise dois elementos característicos dos modos de ação política da população escravizada do Haiti (São Domingos).",
+     "resposta_oficial": "O texto destaca elementos da ação política negra relacionados às culturas africanas e a seus modos de sociabilidade. Como exemplo, podemos citar as práticas sociais e políticas ligadas à religião vodu, como cantar e dançar. Elas propiciavam o planejamento de rebeliões e outras estratégias que demandavam ação coletiva."
+    },
+    {
+     "rotulo": "b",
+     "texto": "identifique e explique dois impactos da revolução haitiana no mundo Atlântico.",
+     "resposta_oficial": "De um lado, as notícias da revolução haitiana e sua ideologia política influenciaram o horizonte de possibilidades de ação política entre a população negra de diversas regiões do Caribe e das Américas. De outro, o mundo atlântico passa a vivenciar o medo de que o processo revolucionário haitiano chegasse a outros lugares. Podemos citar, no caso do Brasil, o chamado Haitianismo, que acabou por levar à elaboração de leis mais rígidas e punições mais severas sobre a população escravizada. No plano econômico, é possível citar a queda na produção de açúcar nas Antilhas e o aumento da produção no Brasil."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q13",
+   "numero": 13,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Durante muito tempo – e ainda hoje – despejou-se um discurso moralizante sobre os índios. Considerando os Aimorés, não se trata apenas de uma tribo nem de um mesmo grupo etnolinguístico; trata-se, antes, de uma denominação genérica que podia ser aplicada a vários grupos, em geral Tapuias. Neste rol de Tapuias, incluíam-se os que viriam a ser chamados de Botocudos durante o século XIX e Krenak no século XX. Há uma carência de fontes escritas em relação a esses Aimorés. O nome foi a marca forte que os registros históricos deixaram sobre esses grupos indígenas. Essas nomeações não eram assumidas por eles, sendo uma identidade atribuída pelos adversários.\n\n(Adaptado de Marco Morel, *A Saga dos Botocudos.* Guerra, imagens e resistência indígena. São Paulo: HUCITEC, 2018, p. 44-45.)\n\nDe acordo com a leitura do texto e seus conhecimentos, responda às questões.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Identifique e explique a crítica feita pelo autor do texto ao processo de construção da identidade Aimoré.",
+     "resposta_oficial": "O texto traz a crítica da denominação genérica feita pelos “adversários” a grupos indígenas, como os Aimorés. Essas nomenclaturas, produzidas sem base em questões etnolinguísticas ou outros elementos culturais, não encontravam correspondências nas formas de identificação étnica dos próprios grupos e acabaram por imperar na documentação histórica. Assim, a forma como acessamos as memórias desses grupos no passado é atravessada pelos olhares dos colonizadores, dificultando a compreensão da diversidade destes grupos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique a construção das identidades atribuídas pelo romantismo brasileiro aos indígenas no século XIX.",
+     "resposta_oficial": "Entre as caraterísticas do Romantismo está a idealização do indígena para compor um passado heroico para o Brasil. É importante destacar que essa idealização é marcada pela presença de valores europeus e serve ao Estado brasileiro para a constituição de uma memória nacional. Instituições como o IHGB foram fundamentais para a construção e consolidação desse imaginário."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q14",
+   "numero": 14,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Luís Gonzaga Pinto da Gama (1830-1882) foi um abolicionista, orador, jornalista e escritor brasileiro. Nascido de mãe negra e pai branco, foi, contudo, escravizado aos 10 anos de idade e permaneceu analfabeto até os 17 anos. Conquistou judicialmente sua liberdade e atuou na advocacia em prol dos escravizados. Entre seus poemas, lê-se:\n\n*Ciências e letras*\n*Não são para ti*\n*Pretinho da Costa*\n*Não é gente aqui.*\n\nEm 2015, a Ordem dos Advogados do Brasil, Seção São Paulo, concedeu-lhe o título de advogado. Em 2018, seu nome foi inscrito no Livro de Aço dos heróis nacionais, depositado no Panteão da Pátria e da Liberdade Tancredo Neves.\n\n(Adaptado de Ligia Fonseca Ferreira, *Luiz Gama autor, leitor, editor*: revisitando as Primeiras Trovas Burlescas de 1859 e 1861. *Estudos Avançados.* 2019, v. 33, n. 96.)\n\nA partir da leitura do texto e de suas reflexões,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "liste e explique dois aspectos da relação entre origem social e formas de acesso ao mundo das ciências e letras no período em que Gama atuou;",
+     "resposta_oficial": "Durante o século XIX, a educação formal era voltada às elites e às famílias de profissionais liberais, que tinham condições materiais de manter tutores para seus filhos e, posteriormente, mandá-los para as universidades europeias – em especial, as portuguesas e as francesas. No caso da população escravizada, liberta ou com pouco poder aquisitivo, o autodidatismo predominava na aquisição da educação informal. É importante destacar que ainda que difícil, o autodidatismo, as leituras compartilhadas e outras formas de construção de conhecimento foram fundamentais para a existência de personalidades como a de Luiz Gama."
+    },
+    {
+     "rotulo": "b",
+     "texto": "cite e analise dois significados, no contexto do Brasil do século XXI, da concessão do título de advogado a Luiz Gama.",
+     "resposta_oficial": "A concessão de título de advogado a Luiz Gama pode ser lida como uma ação de reparação histórica, já que proporciona o reconhecimento, na atualidade, de um título que, no passado, por conta do contexto histórico, não seria possível. Ao mesmo tempo, esse reconhecimento gera uma pluralização da própria narrativa histórica, permitindo a valorização de outros atores sociais, não apenas dos homens brancos e da elite."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q15",
+   "numero": 15,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Trinta anos atrás, um muro veio abaixo, marcando o início do que parecia ser uma nova era de abertura e internacionalismo. Em 1987, o presidente Ronald Reagan foi ao Portão de Brandemburgo, na Berlim dividida, e desafiou seu homólogo na União Soviética: “Sr. Gorbachev, derrube este muro!”. Dois anos depois, o muro caiu. Berlim, a Alemanha e, por fim, a Europa estavam unidos de novo. Nos últimos anos, o apelo “Derrube este muro!” tem perdido para a “mentalidade de fortaleza”. Pelo menos 65 países, mais de um terço dos Estados-nações do planeta, construíram barreiras ao longo de seus limites; metade das que foram erigidas desde a Segunda Guerra Mundial surgiram entre 2000 e agora.\n\n(Adaptado de Tim Marshall, *A era dos muros.* Rio de Janeiro: Zahar, 2018, p. 4-6.)\n\nA partir do texto e de seus conhecimentos, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite e explique duas características de “Berlim dividida”.",
+     "resposta_oficial": "O contexto histórico da Guerra Fria permite a compreensão da “Berlim dividida” como território que encarnava as disputas entre os sistemas capitalistas e socialistas: o primeiro, marcado pela valorização de uma economia e uma política mais liberal; o segundo, distinto pela economia planificada e pela presença ativa do Estado em todos os setores públicos e alguns privados."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique o sentido e as causas da “mentalidade de fortaleza” que, para o autor, tem imperado no mundo. Cite dois exemplos que ilustrem a “mentalidade de fortaleza”.",
+     "resposta_oficial": "A mentalidade de fortaleza refere-se ao fenômeno de isolamento e fechamento de fronteiras das nações ao longo dos séculos XX e XXI. Podem ser enumerados como causas deste fenômeno: os crescentes nacionalismos e ultranacionalismos, a xenofobia e o medo das migrações."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q17",
+   "numero": 17,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nas últimas décadas, os territórios sul-americanos assistiram a grandes transformações. Uma delas foi a transferência da população para as cidades, o que se deu em velocidade maior do que a que os serviços de infraestrutura conseguiram acompanhar. Isso afetou os ambientes de maneira profunda e contribuiu para o aumento de desastres naturais.\n\n(Adaptado de Luci Hidalgo Nunes, *Urbanização e desastres naturais: abrangência América do Sul*. São Paulo: Oficina de Textos, 2015, p. 25.)\n\nA tabela a seguir – retirada da mesma fonte – apresenta algumas metrópoles sul-americanas, situadas na Cordilheira dos Andes, com população acima de 750.000 habitantes. Apresenta também os riscos de eventos que promovem desastres naturais.\n\n| Metrópoles | População 2011 | Seca | Terremoto | Inundação | Escorregamento | Vulcanismo |\n|---|---|---|---|---|---|---|\n| Bogotá | 8.743.000 | sim | sim | sim | sim | não |\n| Caracas | 3.242.000 | sim | sim | sim | não | não |\n| La Paz | 1.715.000 | sim | sim | sim | sim | não |\n| Lima | 9.130.000 | sim | sim | sim | não | não |\n| Quito | 1.662.000 | sim | sim | sim | sim | sim |\n| Santiago | 6.034.000 | sim | sim | sim | não | não |\n\nA partir do exposto e de seus conhecimentos sobre os fenômenos naturais que podem deflagrar desastres naturais em aglomerados urbanos na América do Sul, responda às questões a seguir:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quais os agentes endógenos e exógenos responsáveis pelos desastres naturais nas metrópoles indicadas na tabela?",
+     "resposta_oficial": "As metrópoles andinas são suscetíveis a desastres, tendo como mecanismo deflagrador agentes endógenos e agentes exógenos. O vulcanismo é deflagrado pela atuação dos agentes endógenos responsáveis pelo extravasamento de magma, gases voláteis e poeira vulcânica. Os terremotos são deflagrados por conta do agente endógeno responsável pela sismicidade. Os escorregamentos ocorrem por conta da ação conjunta do agente exógeno pluvial e dos processos intempéricos. A depender da intensidade dos terremotos, a sismicidade também pode deflagrar escorregamentos. O agente exógeno pluvial atua de maneira distinta para deflagrar dois fenômenos. Por um lado, podem provocar a ausência de chuvas, desencadeando as secas. Mas, por outro, o excesso de chuvas, estas somadas aos transbordamentos, deflagam as inundações."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte quatro características comuns no processo de urbanização das metrópoles sul-americanas situadas na região Andina.",
+     "resposta_oficial": "Entre as características do processo de urbanização das metrópoles sul-americanas, como as mencionadas no quadro, podemos destacar: acelerado processo de urbanização a partir da segunda metade do século XX, particularmente com a forte migração campo-cidade; concentração da população em áreas metropolitanas; acentuada desigualdade socioespacial, resultando em periferização com habitações subnormais e ausência de serviços públicos; níveis elevados de violência urbana; e problemas ambientais. Pode-se acrescentar, ainda, para a indução da urbanização, a relativa industrialização, sendo que esse processo atingiu de maneira diferenciada as mencionadas metrópoles."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q18",
+   "numero": 18,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A água, na natureza, apresenta diversos mecanismos de mobilidade entre os diferentes ambientes da superfície terrestre. Esse processo é sintetizado no ciclo hidrológico. O modelo esquemático abaixo apresenta, por ano, o volume médio de água, mobilizado por diferentes mecanismos de transferência.\n\n![Esquema do ciclo hidrológico com volumes anuais em km³ (Pc 119, Ec 72, Po 458, Eo 505, Toc 47, Fas/Fto 47), infiltração/percolação, rios e oceano, e legenda das siglas](fig:p20-c1)\n\n(Adaptado de J. F. Peterson; D. Sack; R. E. Glaber, *Fundamentos de Geografia Física*. São Paulo: Cengage Learning, 2014.)\n\nCom base na ilustração e em seus conhecimentos sobre o ciclo hidrológico, responda às questões a seguir:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique o processo de transferência de águas atmosféricas dos oceanos para os continentes, citando dois fenômenos meteorológicos decorrentes dessa transferência.",
+     "resposta_oficial": "O processo de transferência de águas atmosféricas de origem oceânica se dá primeiramente pelo processo de evaporação da água da superfície oceânica, decorrente do aquecimento da água superficial dos oceanos que interceptam a radiação solar, o que faz com que a água líquida se torne vapor d’água. O vapor d’água de origem oceânica pode ser transferido, por conseguinte, para os continentes por conta da formação da zona de convergência intertropical (ZCIT), zona de convergência do Atlântico Sul (ZCAS) e da mobilidade de massas de ar, ciclones, tempestades e furacões."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite duas funções que a vegetação desempenha no ciclo hidrológico. Explique de que forma se dá a mobilidade da água subterrânea.",
+     "resposta_oficial": "A vegetação é responsável pela interceptação das águas das chuvas, bem como pelo escoamento lento da água retida na vegetação pelo solo. A vegetação também é responsável por fornecer vapor d’água para a atmosfera, a partir dos processos de transpiração (decorrentes do metabolismo da planta) e da evaporação (da água retida na superfície da planta – folhas, frutos e caule). A água subterrânea apresenta dois mecanismos de mobilidade: a mobilidade vertical, decorrente da infiltração da água ou da saturação do lençol freático, e a mobilidade horizontal, responsável pelo transporte lateral da água, que se descola poro a poro ou por fissuras nas rochas."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q19",
+   "numero": 19,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Tem sido frequente a invasão da Terra Indígena Yanomami para extração mineral ilegal. Valendo-se de técnicas industriais, a mineração acarreta grande impacto ambiental e coloca em risco a vida de aproximadamente 20.000 yanomamis que aí vivem. Ao final de 2020, somavam-se 2.400 hectares de área degradada. Desse total, 500 hectares foram registrados entre janeiro e dezembro de 2020. Tudo isso ocorrendo em plena pandemia da Covid-19, fazendo da mineração, portanto, um vetor de disseminação do vírus entre a comunidade indígena.\n\n(Adaptado de HUTUKARA Associação Yanomami, ASSOCIAÇÃO Wanasseduume Ye’kwana, Cicatrizes na Floresta. Evolução do garimpo ilegal na TI Yanomami em 2020. sd. sl.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Indique em quais unidades da federação se localiza a Terra Indígena Yanomami. Aponte duas características do modo de vida da sociedade Yanomami as quais entram em conflito com a expansão da fronteira econômica no Brasil.",
+     "resposta_oficial": "No Brasil, a Terra Indígena Yanomami envolve parcelas de terra dos estados de Roraima e Amazonas. A mineração ilegal em terra Yanomami participa do processo de expansão da fronteira econômica no Norte do Brasil, causando forte impacto ambiental, atingindo, por conseguinte, os ecossistemas do bioma da floresta Amazônica. Esses ecossistemas possibilitam o desenvolvimento de formas de modo de vida daquela população, tais como a subsistência alimentar (que se faz por meio da coleta de frutos da floresta, da caça de animais silvestres, da pesca, de pequenos roçados agrícolas e de outros meios) e o desaparecimento de plantas utilizadas pela medicina tradicional Yanomami. Além disso, a organização do garimpo envolve intensa movimentação de embarcações nos rios, abertura de estradas e pistas de pouso, que interferem nas trilhas e rotas historicamente traçadas pelos indígenas, com deterioração dos locais sagrados para aquela população."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique o minério que vem sendo extraído de modo ilegal na Terra Yanomami e sua forma de exploração. Quais os impactos dessa exploração para os ecossistemas locais?",
+     "resposta_oficial": "O ouro é o principal minério extraído do território Yanomami e a sua extração ocorre por meio de garimpos clandestinos, ilegais. A extração do ouro de aluvião, na atualidade, se faz crescentemente com técnicas industriais que envolvem inclusive logística empresarial, principalmente por processos de dragagem de sedimentos localizados nos leitos dos rios. Essa atividade ilegal atinge duramente o modo de vida e a saúde do povo Yanomami, uma vez que causa, dentre outros impactos, desmatamento, além de afugentar a caça e levar ao assoreamento e contaminação dos rios. Tudo isso resulta em áreas degradadas que são verdadeiras cicatrizes na floresta, propícias à difusão de doenças. Ademais, a forma de extração de ouro ocasiona a remoção do solo e da vegetação, a contaminação dos solos e da água pelos rejeitos do mercúrio. O mercúrio é um metal pesado que fica retido nos peixes e plantas ao ser absorvido."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q20",
+   "numero": 20,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O conflito geopolítico entre Ucrânia e Rússia se agravou em 2021. Os combates entre as forças ucranianas e os separatistas pró-russos, respaldados militar e politicamente pelo Kremlin, são os piores em vários meses, numa nova amostra de que as hostilidades, que já completaram sete anos e custaram 14.000 vidas, segundo a ONU, estão longe de ter um fim. Moscou elevou ainda mais a tensão quando mobilizou tropas a uma centena de quilômetros da fronteira com a Ucrânia, que, por sua vez, reforçou suas unidades no leste do país e junto à península da Crimeia, anexada pela Rússia em 2014.\n\n(Adaptado de María R. Sahuquillo, Nova escalada na guerra do leste da Ucrânia deixa UE e EUA em alerta. *El pais*, 06/04/2021.)\n\n![Mapa da região do Mar Negro (rotulado “Mar Morto”) com países numerados e a península da Crimeia hachurada. Legenda: 1. Rússia, 2. Geórgia, 3. Armênia, 4. Turquia, 5. Grécia, 6. Bulgária, 7. Romênia, 8. Moldávia, 9. Ucrânia. Elaboração: COMVEST (2022)](fig:p22-c1)\n\nErrata: onde está escrito Mar Morto, leia-se Mar Negro.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Por que a localização da Crimeia é estratégica para a Rússia? Destaque um fator de ordem econômica, um de ordem política e outro de ordem cultural que impeliram a anexação da Crimeia pelos russos em 2014.",
+     "resposta_oficial": "A posição geográfica da Criméia é estratégica para a Rússia uma vez que dá acesso ao Mar Negro e, por conseguinte, ao mar Mediterrâneo. Na Criméia se localiza o porto de Sebastopol que, banhado por águas mais quentes, não congela nos meses de inverno. Esse porto abriga importante frota naval russa e tem funções econômicas importantes nas rotas comerciais da Rússia com o mundo. A anexação da Criméia permitiu ao Estado russo retomar o controle político sobre uma região que, através da Ucrânia, se aproximava dos interesses da OTAN e da União Europeia. Por fim, o fato de a Criméia abrigar a maioria da população de origem russa contribuiu para legitimar sua anexação."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual o posicionamento da União Europeia e dos EUA em relação ao conflito da Crimeia?",
+     "resposta_oficial": "EUA e União Europeia se opuseram à anexação da Criméia, com ameaças de um bloqueio econômico e de sanções comerciais à Rússia, ao mesmo tempo em que mantiveram relações diplomáticas com a Ucrânia."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q21",
+   "numero": 21,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As transições energéticas têm um mesmo objetivo, mas diferentes caminhos possíveis. As trajetórias eleitas, em cada país e região do mundo, dependerão da disponibilidade de recursos naturais e das condições internas – como tecnologia própria ou apropriada, políticas públicas e financiamento. Cada país transitará para sistemas energéticos mais limpos e flexíveis segundo suas virtualidades, o que não significa um completo abandono de fontes de energia do passado, que podem seguir presentes na matriz energética, ainda que perdendo sua importância relativa.\n\n(Adaptado de “capevLAC”. VI Semana de la Energía: La VI Semana de la Energía impulsará los procesos de descarbonización en Latinoamérica y el Caribe. Quito, Ecuador - 06 de octubre de 2021. Disponível em: https://capevlac.olade.org/blog/recursos/vi-semana-de-la-energia/. Acessado em 21/10/2021.)\n\nSobre o tema destacado no texto acima, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O que é transição energética e o que significa descarbonização da economia? Quais os dois países do mundo que mais produzem energia de fontes não renováveis?",
+     "resposta_oficial": "Transição energética corresponde à substituição de uma matriz energética por outra. Como exemplo, podemos citar a atual transição, na qual se busca substituir as fontes de energia altamente poluentes, como os hidrocarbonetos, por fontes mais limpas, como a solar e a eólica. A descarbonização da economia diz respeito ao uso de fontes de energia que emitem menos gases do efeito estufa, especialmente o $\\text{CO}_2$. Finalmente, os países do mundo que mais produzem energia de fontes não-renováveis são os Estados Unidos (EUA) e a China."
+    },
+    {
+     "rotulo": "b",
+     "texto": "No Brasil, que região concentra o maior potencial de produção de energia hidroelétrica e que região produz a maior quantidade de energia eólica? Explique a diferença entre fontes renováveis convencionais e fontes renováveis não convencionais.",
+     "resposta_oficial": "A região com maior potencial hidroelétrico é a região Norte ou Amazônica, enquanto que a região com maior potencial eólico instalado é a região Nordeste. As fontes de energia renováveis convencionais são aquelas mais frequentemente utilizadas (como a energia produzida pelo bagaço da cana-de-açúcar e a energia produzida pelas usinas hidrelétricas) e as não convencionais são aquelas que resultam das mais novas tecnologias para a produção de energia, como é o caso da solar, eólica ou geotérmica."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-2-cha-q22",
+   "numero": 22,
+   "materia": "geografia",
+   "materias_extra": [
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "A atual pandemia não é uma situação de crise claramente contraposta a uma situação de normalidade. Desde a década de 1980 – à medida que o neoliberalismo se foi impondo como a versão dominante do capitalismo e este se foi sujeitando mais e mais à lógica do setor financeiro –, o mundo tem vivido em permanente estado de crise. Uma situação duplamente anômala. Por um lado, a ideia de crise permanente é um oxímoro, e constitui a oportunidade para ser superada e dar origem a um melhor estado de coisas.\n\n(Adaptado de Boaventura de Sousa Santos, *A cruel pedagogia do vírus*. Coimbra: Almedina, 2020, p. 5.)\n\nCom base no texto e em seus conhecimentos, faça o que se pede a seguir:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Diferencie epidemia, pandemia e sindemia, e responda por que a pandemia não atingiu igualmente todas as classes sociais.",
+     "resposta_oficial": "A *epidemia* corresponde ao aumento do número de casos de uma doença local em nível regional, sem ter, contudo, uma difusão global ou mundial. A *pandemia*, por conseguinte, é a doença que tem uma difusão global, atingindo, portanto, todos os espaços do mundo. Já a *sindemia* deriva da combinação de duas palavras (*sinergia* e *pandemia*) para designar uma situação em que duas ou mais doenças interagem, causando danos maiores do que a soma individual das doenças. A pandemia não atingiu igualmente todas as classes sociais, porque muitas medidas de controle e proteção da doença – como isolamento físico (em residências) e distanciamento físico entre pessoas – não podem ser realizadas pelas camadas sociais mais pobres, já que suas residências tendem a contar com mais moradores por metro quadrado. Além disso, a população de classes sociais menos favorecidas costuma se expor mais porque precisa se deslocar para o trabalho e para outras atividades do cotidiano, sobretudo fazendo mais uso dos transportes públicos para os deslocamentos, sendo que esses não costumam apresentar condições seguras de distanciamento entre as pessoas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Defina “neoliberalismo”. Explique por que ele produz uma crise permanente. Com base no conceito de capitalismo, defina normalidade e crise.",
+     "resposta_oficial": "O neoliberalismo é a doutrina social e econômica que supervaloriza o indivíduo e o mercado em detrimento da vida social e do papel do Estado como regulador e provedor de benefícios sociais. O neoliberalismo costuma produzir crises permanentes, na medida em que as formas de organização sistêmica costumam retirar sua força das instabilidades sociais e econômicas. Como exemplo, poderíamos mencionar a seguinte situação: para aumentar os lucros das grandes empresas, medidas como o fim dos direitos trabalhistas são postos em prática. A *normalidade* corresponde ao funcionamento coerente das instituições e organizações de uma sociedade, portanto, gerando estabilidade social. Por *crise*, entende-se a disfunção/instabilidade geral das organizações e das instituições de uma sociedade, a exemplo da permanência de altas taxas de desemprego, o que gera muita pobreza ao mesmo tempo em que paradoxalmente produz mais ricos e ultra-ricos."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  }
+ ]
+}
