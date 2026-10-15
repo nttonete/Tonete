@@ -610,7 +610,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "O texto fala de conchas (restos de moluscos) encontradas no alto de montanhas e de \"lugares de baixa altitude\" que \"se elevaram para os céus\".\nOu seja: os moluscos viveram num ambiente aquático, morreram, foram soterrados e se fossilizaram (\"converteram nas mais duras e inertes rochas\"); depois, movimentos da crosta ergueram essas camadas, formando montanhas.\nOs moluscos não migraram para o alto (A) nem viviam no topo das montanhas (D): quem subiu foi o terreno. Também não se trata de decomposição nas rochas (B).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q32",
@@ -629,7 +631,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Física moderna",
+   "resolucao": "A bomba de Hiroshima era de fissão: um nêutron atinge um núcleo de urânio-235, que se divide em dois núcleos mais leves, libera mais nêutrons (reação em cadeia) e uma enorme energia, vinda da diferença de massa ($E = mc^2$).\nIsso elimina A (não é desintegração espontânea) e C (não forma núcleos mais pesados; isso seria fusão).\nEntre B e D, a diferença é histórica: o Japão não era neutro, era do Eixo e estava em guerra com os EUA. Os ataques de agosto de 1945 levaram à rendição japonesa e se tornaram símbolo do fim da Segunda Guerra.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q33",
@@ -648,7 +652,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "Kipling escreveu o poema em 1898, quando os EUA venciam a guerra contra a Espanha e discutiam ocupar as Filipinas; o texto convoca os americanos a \"assumir o fardo do homem branco\".\nO \"fardo\" é a ideia de que os brancos teriam o dever moral de \"civilizar\" povos vistos como inferiores (\"metade demônio e metade criança\"). É uma justificativa do imperialismo, não uma crítica a ele (C).\nO verso \"half devil and half child\" mostra desprezo, não caridade (B), e \"Go send your sons to exile\" pede sacrifício às famílias, o oposto de D.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q34",
@@ -667,7 +673,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "Basta comparar as definições citadas: para Kjellén, geopolítica é \"a teoria do Estado como organismo geográfico\"; para Haushofer, é \"a nova ciência nacional do Estado\". As duas têm o Estado no centro.\nWhittlesey é quem chama a geopolítica de \"dogma\", palavra que os antecessores não usam (B). Hartshorne diz que ela serve a fins que vão \"além da busca do conhecimento científico\", o contrário de C.\nO texto começa dizendo que as definições \"evoluíram\" com o tempo, o que descarta um acordo geral sobre os fundamentos (D).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q35",
@@ -684,12 +692,14 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Hidrostática",
+   "resolucao": "A \"gravidade específica\" do texto é o que hoje chamamos de densidade: o corpo humano tem densidade quase igual à da água doce, por isso o peso do corpo e o empuxo quase se equilibram.\nO empuxo é o peso da água deslocada pela parte submersa: $E = d_{\\text{água}} \\cdot V_{\\text{submerso}} \\cdot g$. Ao erguer o braço para fora d'água, $V_{\\text{submerso}}$ diminui, o empuxo diminui e o peso passa a predominar, e o corpo afunda (a cabeça submerge).\nB e D falam em aceleração gravitacional, que é a mesma para qualquer corpo e não é o que o texto compara; C erra ao dizer que o empuxo aumentaria.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q36",
    "numero": 36,
-   "materia": "portugues",
+   "materia": "literatura",
    "materias_extra": [
     "quimica"
    ],
@@ -703,7 +713,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto literário",
+   "resolucao": "O título \"Ironia ao natural\" avisa que o poema diz o contrário do que pensa. Ele repete o senso comum (\"é natural, é bom\"; \"é químico, é mau\"), mas os exemplos desmentem essas afirmações.\nOs \"naturais\" citados são perigosos (cogumelos vermelhos, rãs azuis e suco de serpente podem ser venenosos), enquanto os \"químicos\" são úteis ou até salvam vidas (aspirina, perfume, válvula cardíaca de plástico).\nAssim, o poema inverte, com ironia, os atributos de bom e mau e acaba valorizando a química. B e D leem o poema ao pé da letra; C ignora a crítica ao preconceito contra a química.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q37",
@@ -722,7 +734,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "Mariana fica no Quadrilátero Ferrífero, região de serras e cristas do embasamento cristalino (complexo gnáissico-magmático), rica em minério de ferro. Planícies quaternárias com falésias são feições do litoral, e não de onde veio a lama.\nSobre a química: a lama não sedimentou porque as partículas são muito finas e interagem com a água, formando uma dispersão coloidal. Isso é típico da argila; a areia, de grãos maiores, se depositaria rapidamente.\nO rejeito da mineração de ferro contém também óxidos metálicos (de ferro, por exemplo). Logo: serras e cristas, argila e óxidos metálicos.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q38",
@@ -741,7 +755,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "A região brasileira que mais produz energia eólica é o Nordeste, com ventos fortes e constantes no litoral e no interior; isso elimina A e D.\nA energia eólica é a energia cinética do vento: $E_c = \\frac{m v^2}{2}$. Mantida a massa de ar considerada, se a velocidade cai pela metade, a energia fica multiplicada por $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$.\nEntão a produção passaria de 7.800 MWh para $\\frac{7.800}{4} = 1.950$ MWh. A alternativa C (3.900 MWh) supõe, erradamente, que a energia é proporcional à velocidade, e não ao seu quadrado.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q39",
@@ -758,7 +774,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "A pesquisa mostrou que o rendimento das lavouras cresce com a densidade de polinizadores, e que a queda de abelhas e outros insetos pode explicar parte da perda de produtividade.\nLogo, medidas que favoreçam os polinizadores (preservar vegetação nativa, reduzir agrotóxicos) tendem a aumentar a produção das culturas que dependem deles, e o feijão está na lista do texto.\nA inverte a conclusão (a presença de insetos aumenta a produtividade); B e D associam pesticidas a benefícios, o que contraria a lógica da pesquisa, já que pesticidas matam polinizadores.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q40",
@@ -775,7 +793,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "No esquema, A é a célula que entra em meiose (diploide). A meiose I separa os cromossomos homólogos e forma duas células haploides, B e C.\nD e E são as mesmas células seguindo para a meiose II (continuam haploides), e cada uma se divide em duas: F e G, H e I, também haploides.\nPortanto B, C, D e I são todas haploides. A erra porque só A é diploide; B erra porque D e E não surgem na telófase I; C erra porque as células após a meiose I não têm o mesmo material genético de A (houve separação dos homólogos e permutação).\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q41",
@@ -783,7 +803,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O gráfico a seguir representa a variação do índice glicêmico após a ingestão de dois alimentos (mesma quantidade, pela mesma pessoa, mas em momentos diferentes). A linha pontilhada representa o alimento A, enquanto a linha contínua representa o alimento B. A análise do gráfico nos permite afirmar corretamente que:\n\n![Gráfico da glicemia em função das horas após a ingestão do alimento, com as curvas do alimento A (pontilhada) e do alimento B (contínua)](fig:p12-c1)",
+   "enunciado": "O gráfico a seguir representa a variação do índice glicêmico após a ingestão de dois alimentos (mesma quantidade, pela mesma pessoa, mas em momentos diferentes). A linha pontilhada representa o alimento A, enquanto a linha contínua representa o alimento B. A análise do gráfico nos permite afirmar corretamente que:\n\n![Gráfico da glicemia em função das horas após a ingestão do alimento (marcas 1 e 2 no eixo horizontal). A curva pontilhada do alimento A sobe rapidamente até um pico alto antes de 1 hora e depois cai, terminando abaixo da outra. A curva contínua do alimento B sobe pouco, fica quase estável até cerca de 1,5 hora e depois desce lentamente](fig:p12-c1)",
    "alternativas": {
     "A": "O alimento B não afeta a concentração de glicose na circulação sanguínea.",
     "B": "O alimento A não possui carboidratos em sua composição.",
@@ -792,7 +812,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "resolucao": "A curva do alimento A sobe rápido até um pico alto e depois cai: é um alimento de alto índice glicêmico, que libera glicose no sangue rapidamente.\nA subida da glicemia estimula o pâncreas a liberar insulina, hormônio que faz as células absorverem a glicose; por isso a curva de A cai logo depois do pico.\nA está errada porque a curva de B também sobe (só que devagar); B está errada porque, se A eleva a glicemia, contém carboidratos; C não tem apoio no gráfico.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q42",
@@ -809,7 +831,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O HPV é transmitido principalmente por contato sexual, e não por alimentos (A). Alguns tipos do vírus são a principal causa do câncer de colo de útero (B está errada).\nExiste vacina contra o HPV, oferecida pelo SUS desde 2014, e há tratamento para as lesões que ele causa (D está errada).\nO vírus pode ficar latente, sem causar sintomas, por muitos anos, o que dificulta saber quando ocorreu a infecção e favorece a transmissão.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q43",
@@ -817,7 +841,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O cladograma abaixo representa relações evolutivas entre membros da Superfamília Hominoidea, onde se observa que\n\n![Cladograma da Superfamília Hominoidea, com os níveis família, subfamília, tribo e gênero](fig:p13-f1)",
+   "enunciado": "O cladograma abaixo representa relações evolutivas entre membros da Superfamília Hominoidea, onde se observa que\n\n![Cladograma com os níveis superfamília, família, subfamília, tribo e gênero. Hominoidea (superfamília) se divide em Hominidae e Hylobatidae (famílias). Hominidae se divide em Homininae e Ponginae (subfamílias). Homininae se divide em Hominini e Gorillini (tribos). Gêneros: Homo e Pan, ligados a Hominini; Gorilla, ligado a Gorillini; Pongo, ligado a Ponginae; Hylobates, ligado a Hylobatidae](fig:p13-f1)",
    "alternativas": {
     "A": "homens e gibões (Hylobatidae) não possuem ancestral comum.",
     "B": "homens, gorilas (*Gorilla*) e orangotangos (*Pongo*) pertencem a famílias diferentes.",
@@ -826,7 +850,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "Num cladograma, todos os grupos que partem de um mesmo nó têm um ancestral comum. Aqui, homens (Homo), chimpanzés (Pan) e gibões (Hylobatidae) estão todos dentro da superfamília Hominoidea, que parte de um ancestral comum.\nPor isso A está errada. B e D erram nas famílias: homens, gorilas e orangotangos pertencem todos a Hominidae, e os gibões formam outra família, Hylobatidae.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q44",
@@ -843,7 +869,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "O ornitorrinco é um monotremado: é mamífero, porque tem pelos e glândulas mamárias e amamenta os filhotes, mas põe ovos, como os répteis.\nA fêmea não tem mamilos; o leite escorre por poros da pele e os filhotes o lambem. Assim, a semelhança com os placentários está no leite, e a diferença está nos ovos.\nB nega o leite; C erra porque nos placentários o embrião se nutre pela placenta, e não por vitelo; D erra porque não há autofecundação (os sexos são separados).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q45",
@@ -851,7 +879,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A figura a seguir ilustra fragmentos de um gene presente em 4 espécies identificadas com os números de 1 a 4 entre parênteses.\n\nCACTTGTAAAACCAGTATAGACCCTAG (1)\nCACTTGTAAAACCAGGATAGACGCTAG (2)\nCACTTGTAAAACCAGTATAGACGCTAG (3)\nCATTTTTAACACCAGGATAGACGCTAT (4)\n\nAssinale a alternativa correta.",
+   "enunciado": "A figura a seguir ilustra fragmentos de um gene presente em 4 espécies identificadas com os números de 1 a 4 entre parênteses.\n\nCACTTGTAAAACCAGTATAGACCCTAG(1)\nCACTTGTAAAACCAGGATAGACGCTAG(2)\nCACTTGTAAAACCAGTATAGACGCTAG(3)\nCATTTTTAACACCAGGATAGACGCTAT(4)\n\nAssinale a alternativa correta.",
    "alternativas": {
     "A": "As espécies 1 e 4 são mais próximas entre si do que as espécies 1 e 3.",
     "B": "As espécies 2 e 3 são mais próximas entre si do que as espécies 1 e 3.",
@@ -860,7 +888,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "Quanto menos diferenças há entre as sequências de um mesmo gene, mais próximas evolutivamente são as espécies. Comparando posição por posição:\n1 e 2: 2 diferenças; 1 e 3: 1; 1 e 4: 6; 2 e 3: 1; 2 e 4: 4; 3 e 4: 5.\nEntão 1 e 3 (1 diferença) são mais próximas do que 3 e 4 (5 diferenças). A e D comparam ao contrário, e em B as duas duplas têm 1 diferença, empatadas.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q46",
@@ -868,7 +898,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O corpo humano é composto por pelo menos dois tipos de gordura. A mais comum é o tecido adiposo branco, um tipo perigoso que se acumula ao redor das vísceras e debaixo da pele, podendo causar obesidade e desencadear complicações metabólicas, como o diabetes tipo 2. A outra é o tecido adiposo marrom, que regula a produção de calor e, consequentemente, a temperatura corporal.\nAssinale a alternativa correta.",
+   "enunciado": "O corpo humano é composto por pelo menos dois tipos de gordura. A mais comum é o tecido adiposo branco, um tipo perigoso que se acumula ao redor das vísceras e debaixo da pele, podendo causar obesidade e desencadear complicações metabólicas, como o diabetes tipo 2. A outra é o tecido adiposo marrom, que regula a produção de calor e, consequentemente, a temperatura corporal.\n\nAssinale a alternativa correta.",
    "alternativas": {
     "A": "O tecido adiposo branco produz mais energia que o tecido adiposo marrom.",
     "B": "O tecido adiposo marrom não produz ATP, mas produz calor.",
@@ -877,7 +907,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "Toda célula viva faz respiração e produz ATP, e parte da energia sempre se perde como calor. Isso vale para os dois tecidos adiposos.\nO tecido adiposo marrom tem muitas mitocôndrias com termogenina, proteína que deixa os prótons voltarem sem passar pela ATP sintase: a energia vira calor em vez de ATP. Mesmo assim, ele produz algum ATP, então B está errada.\nO tecido adiposo branco produz ATP e, como qualquer tecido, também libera calor; A erra porque é o marrom que gera mais energia térmica, e C nega o ATP do branco.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q47",
@@ -894,7 +926,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "Três pistas: duas membranas envolvendo a estrutura, um sistema interno de membranas cheio de proteínas e material genético próprio. Isso aponta para mitocôndria ou cloroplasto.\nA pista decisiva é a abundância em todas as regiões meristemáticas, incluindo as da raiz, que ficam no escuro e não têm cloroplastos. Meristemas são tecidos em divisão intensa, que gastam muita energia: precisam de muitas mitocôndrias.\nAs membranas internas são as cristas mitocondriais, onde ficam as proteínas da cadeia respiratória. O núcleo tem dupla membrana, mas não tem sistema interno de membranas; o retículo não tem DNA próprio.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q48",
@@ -902,7 +936,7 @@
    "materia": "historia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Mosaico romano de Nennig: cena de luta entre gladiadores, com uma figura de túnica amarela ao centro](fig:p14-c1)\n\nA imagem acima retrata parte do mosaico romano de Nennig, um dos mais bem conservados que se encontram até o momento no norte da Europa. A composição conta com mais de 160 m² e apresenta como tema cenas próprias de um anfiteatro romano.\n\n(https://fr.wikipedia.org/wiki/Perl_(Sarre)#/media/File:Retiarius_stabs_secutor_(color).jpg. Acessado em 12/08/2016.)\n\nA partir da leitura da imagem e do conhecimento sobre o período em questão, pode-se afirmar corretamente que a imagem representa",
+   "enunciado": "![Mosaico romano: à esquerda, um homem de tanga azul ataca com uma longa haste de pontas; à direita, outro homem, de capacete, protege-se com um grande escudo retangular; entre os dois, um homem de túnica amarela segura uma vara](fig:p14-c1)\n\nA imagem acima retrata parte do mosaico romano de Nennig, um dos mais bem conservados que se encontram até o momento no norte da Europa. A composição conta com mais de 160 m² e apresenta como tema cenas próprias de um anfiteatro romano.\n\n(https://fr.wikipedia.org/wiki/Perl_(Sarre)#/media/File:Retiarius_stabs_secutor_(color).jpg. Acessado em 12/08/2016.)\n\nA partir da leitura da imagem e do conhecimento sobre o período em questão, pode-se afirmar corretamente que a imagem representa",
    "alternativas": {
     "A": "uma luta entre três gladiadores, prática popular entre membros da elite romana do século III d. C, que foi criticada pelos cristãos.",
     "B": "a popularidade das atividades circenses entre os romanos, prática de cunho religioso que envolvia os prisioneiros de guerra.",
@@ -911,7 +945,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Antiguidade",
+   "resolucao": "O mosaico mostra dois gladiadores lutando, um com tridente e outro com escudo e capacete, e entre eles um árbitro de túnica: não são três gladiadores (A).\nAs lutas de gladiadores tinham várias funções em Roma: divertiam a população (a política do \"pão e circo\"), ajudavam a controlar a plebe e exaltavam a coragem e a guerra.\nB erra porque esses jogos, nessa época, já não eram principalmente religiosos e não envolviam só prisioneiros; C erra porque os gladiadores eram em geral escravos, prisioneiros ou condenados, e não cidadãos postos a lutar pela elite.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q49",
@@ -928,7 +964,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Brasil Colônia",
+   "resolucao": "O governador compara a vitória sobre Palmares à expulsão dos holandeses e diz que \"temeu-se muito a ruína destas Capitanias\" se os escravos se unissem aos rebeldes. Palmares era, portanto, uma grande ameaça à ordem colonial (C está errada).\nA carta é de 1694 e trata da tomada da Serra da Barriga, não da morte de Zumbi, que só ocorreu em 20 de novembro de 1695 (A está errada). B contradiz o texto, que põe as duas vitórias no mesmo nível.\nHoje, o 20 de novembro é celebrado pelos movimentos negros como Dia da Consciência Negra, símbolo de resistência.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q50",
@@ -945,7 +983,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "Michelle Perrot mostra a dona de casa popular como uma figura ativa, \"rebelde\" na vida privada e na pública, longe do modelo de mulher burguesa restrita ao lar (A).\nNas cidades industriais do século XIX, a mulher pobre cuidava da casa e dos filhos e muitas vezes também trabalhava fora, em fábricas, como lavadeira, costureira ou no pequeno comércio: uma jornada dupla.\nC atribui a ela a liderança do movimento pelo voto, que teve forte presença de mulheres de classe média; D usa um preconceito de classe que o texto não sustenta.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q51",
@@ -953,7 +993,7 @@
    "materia": "historia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O escritor José de Alencar relata como ocorriam as reuniões do Clube da Maioridade, realizadas na casa de seu pai em 1840. Discutia-se nessas ocasiões a antecipação da maioridade do imperador D. Pedro II, então com apenas 14 anos, para que ele pudesse assumir o trono antes do tempo determinado pela Constituição. No fim da vida, José de Alencar rememora os episódios de sua infância e chega a uma surpreendente conclusão: os políticos que frequentavam sua casa na ocasião iam lá não porque estavam pensando no futuro do país, mas apenas para devorar tabletes e bombons de chocolate. Conforme o relato do escritor, os membros do Clube da Maioridade, discutindo altos assuntos na sala de sua casa, pareciam realmente gente séria e preocupada com os destinos do Brasil, até que chegava a hora do chocolate.\nPara Alencar, a discussão política no Brasil se resumia a um “devorar de chocolate”, isto é, cada um defendia apenas seus interesses particulares e nada mais.\n\n(Adaptado de Daniel Pinha Silva, “O império do chocolate”, em http://www.revistadehistoria.com.br/secao/leituras/o-imperio-do-chocolate. Acessado em 01/08/2016.)\n\nSobre o Golpe da Maioridade e a visão de José de Alencar a esse respeito, é correto afirmar que:",
+   "enunciado": "O escritor José de Alencar relata como ocorriam as reuniões do Clube da Maioridade, realizadas na casa de seu pai em 1840. Discutia-se nessas ocasiões a antecipação da maioridade do imperador D. Pedro II, então com apenas 14 anos, para que ele pudesse assumir o trono antes do tempo determinado pela Constituição. No fim da vida, José de Alencar rememora os episódios de sua infância e chega a uma surpreendente conclusão: os políticos que frequentavam sua casa na ocasião iam lá não porque estavam pensando no futuro do país, mas apenas para devorar tabletes e bombons de chocolate. Conforme o relato do escritor, os membros do Clube da Maioridade, discutindo altos assuntos na sala de sua casa, pareciam realmente gente séria e preocupada com os destinos do Brasil, até que chegava a hora do chocolate.\n\nPara Alencar, a discussão política no Brasil se resumia a um “devorar de chocolate”, isto é, cada um defendia apenas seus interesses particulares e nada mais.\n\n(Adaptado de Daniel Pinha Silva, “O império do chocolate”, em http://www.revistadehistoria.com.br/secao/leituras/o-imperio-do-chocolate. Acessado em 01/08/2016.)\n\nSobre o Golpe da Maioridade e a visão de José de Alencar a esse respeito, é correto afirmar que:",
    "alternativas": {
     "A": "O golpe foi uma manobra das elites políticas, que criaram uma forma de alterar a Constituição e contemplar os seus interesses durante o período regencial, fato criticado por Alencar ao fazer uma anedota com o chocolate.",
     "B": "Ao entregar o poder a um jovem de 14 anos, alegando ser maior de 18, os políticos do Império manifestavam uma ousada visão política para evitar a influência da Inglaterra nos assuntos brasileiros, preservando seus interesses como donos de escravos.",
@@ -962,7 +1002,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Brasil Império",
+   "resolucao": "O Golpe da Maioridade (1840) foi articulado pelos liberais, com apoio de parte da elite, para encerrar as instáveis regências: D. Pedro II, com 14 anos, foi declarado maior antes da idade prevista pela Constituição.\nFoi, portanto, uma manobra das elites para contornar a Constituição em proveito próprio. A anedota do chocolate resume a crítica de Alencar: os políticos defendiam só os próprios interesses.\nB inventa a influência inglesa e a alegação de maioridade; C erra porque foram os liberais que lideraram o golpe e não havia proposta republicana em jogo; D atribui a Alencar um efeito sobre a política que ele não teve.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q52",
@@ -979,7 +1021,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Guerras mundiais e entreguerras",
+   "resolucao": "Segundo o texto, a propaganda nazista falava ao \"coração das grandes massas\" e ao seu \"mundo maniqueísta\", isto é, dividido entre o bem e o mal. Para isso, precisava de inimigos claros.\nO regime estimulou o ódio contra grupos considerados inferiores ou perigosos, como judeus, ciganos, homossexuais e negros, que depois foram perseguidos e exterminados.\nB erra porque o nazismo era antidemocrático; A erra porque óperas e desfiles também eram propaganda; D erra porque cinema e arte foram usados pelo regime (os filmes de Leni Riefenstahl, por exemplo).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q53",
@@ -987,7 +1031,7 @@
    "materia": "historia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Compare as duas ilustrações de Angelo Agostini (1843-1910) sobre o reconhecimento da República brasileira pela Argentina (fig.1) e pela França (fig.2).\n\n![Gravura de Angelo Agostini: duas figuras femininas de pé, apertando as mãos diante de um brasão, com bandeiras ao fundo; nas bases dos vestidos há legendas escritas (fig.1)](fig:p16-c1)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela Argentina*, em *Revista Ilustrada*, dez.1889.)\n\n![Gravura de Angelo Agostini: duas figuras femininas lado a lado, abraçadas, segurando bandeiras, com uma inscrição ao fundo (fig.2)](fig:p16-c2)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela França*, em *Revista Ilustrada*, dez.1889.)\n\nAssinale a alternativa correta.",
+   "enunciado": "Compare as duas ilustrações de Angelo Agostini (1843-1910) sobre o reconhecimento da República brasileira pela Argentina (fig.1) e pela França (fig.2).\n\n![Fig. 1, gravura de Angelo Agostini: duas figuras femininas de mesma altura, de pé e frente a frente, apertam as mãos sobre um pedestal com um brasão oval; bandeiras ao fundo; na barra do vestido da esquerda lê-se “ARGENTINA” e na da direita, “REPUBLICA BRAZILEIRA”](fig:p16-c1)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela Argentina*, em *Revista Ilustrada*, dez.1889.)\n\n![Fig. 2, gravura de Angelo Agostini: duas figuras femininas abraçadas, cada uma segurando uma bandeira; a da esquerda, mais alta, olha para a frente; a da direita, menor, segura uma bandeira com um círculo ao centro e olha para cima, em direção ao rosto da outra; ao fundo, uma inscrição em arco parcialmente encoberta, começando por “14”](fig:p16-c2)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela França*, em *Revista Ilustrada*, dez.1889.)\n\nAssinale a alternativa correta.",
    "alternativas": {
     "A": "As alegorias expressam visões diferentes sobre o imaginário da República brasileira: na primeira ela é representada com um olhar de proximidade, e, na segunda o olhar expressa admiração, remetendo à visão corrente do gravurista sobre as relações entre Brasil, França e Argentina.",
     "B": "O reconhecimento da França traz a confraternização entre dois países com tradições políticas muito diferentes, porém unidos pelo constitucionalismo monárquico e posteriormente pelo ideário republicano.",
@@ -996,14 +1040,16 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Primeira República",
+   "resolucao": "Na fig. 1, Argentina e República Brasileira têm a mesma altura e apertam as mãos frente a frente: a relação é de igual para igual, entre vizinhas.\nNa fig. 2, a figura que representa o Brasil é menor e olha para cima, em direção à França: a imagem sugere admiração pela república francesa, modelo para os republicanos brasileiros.\nB erra porque a França era república desde 1870, e não monarquia constitucional; C erra porque a república argentina era muito mais antiga que a brasileira, proclamada em 1889; D erra porque a figura feminina (como a Marianne francesa) era a forma usual de representar a República.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q54",
    "numero": 54,
    "materia": "historia",
    "materias_extra": [
-    "literatura"
+    "artes"
    ],
    "texto_base": null,
    "enunciado": "“O tropicalismo buscava revolucionar a linguagem e o comportamento na vida cotidiana, incorporando-se simultaneamente à sociedade de massa e aos mecanismos do mercado de produção cultural. Criticava ao mesmo tempo a ditadura e uma estética de esquerda acusada de menosprezar a forma artística. Articulava aspectos modernos e arcaicos, buscava retomar criticamente a tradição brasileira e absorver influências estrangeiras de modo ‘antropofágico’.”\n\n(Marcelo Ridenti, “Cultura”, em Daniel Aarão Reis (org.), *Modernização, ditadura e democracia*: 1964-2010. Rio de Janeiro: Objetiva, 2014, p. 256.)\n\nO tropicalismo, no contexto cultural brasileiro dos anos 1960 e 1970,",
@@ -1015,7 +1061,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ditadura militar",
+   "resolucao": "O texto de Ridenti diz que o tropicalismo misturava o moderno e o arcaico, retomava a tradição brasileira, absorvia influências estrangeiras de modo \"antropofágico\" e criticava tanto a ditadura quanto uma estética de esquerda.\nNa prática, Caetano Veloso, Gilberto Gil e outros juntaram guitarra elétrica e rock com ritmos regionais e referências eruditas, e enfrentaram a censura e também as vaias do público das canções de protesto (como no festival de 1968).\nA erra porque o movimento não apoiava a modernização da ditadura; B confunde as associações (a Jovem Guarda não era \"da ditadura\") e o movimento não era imparcial; C erra porque os tropicalistas dialogavam com o Cinema Novo (Glauber Rocha) e o Teatro Oficina.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q55",
@@ -1034,7 +1082,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "Edward Said defende que nenhuma civilização é isolada e que devemos vê-las como um todo integrado. Ele critica a tese do \"choque de civilizações\" (Samuel Huntington), segundo a qual as culturas seriam blocos fechados e fadados ao conflito.\nQuem nega essa integração são justamente os grupos radicais e os defensores do choque de civilizações.\nA culpa a globalização pelo terrorismo, o que o texto não diz; B e C erram ao apresentar o imperialismo do século XIX como integrador ou como fim das disputas coloniais.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q56",
@@ -1053,7 +1103,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Filosofia contemporânea",
+   "resolucao": "Jaspers ironiza: aos maus políticos interessa que as pessoas não pensem e que a filosofia pareça entediante, porque ela forma pessoas críticas, difíceis de manipular.\nEsse potencial crítico incomoda o poder e o senso comum desde a Grécia: Sócrates foi condenado à morte acusado de corromper a juventude com suas perguntas.\nB lê ao pé da letra a ironia do \"entediante\"; C erra porque a ditadura fechou os CPCs, ligados à UNE; D contradiz o texto, que aponta justamente os políticos como obstáculo.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q57",
@@ -1070,7 +1122,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "A velocidade escalar média é a distância percorrida dividida pelo tempo gasto.\nO tempo precisa estar em horas: $5\\ \\text{dias} = 5 \\times 24 = 120\\ \\text{h}$.\n$v_m = \\frac{\\Delta s}{\\Delta t} = \\frac{6480\\ \\text{km}}{120\\ \\text{h}} = 54\\ \\text{km/h}$.\nA alternativa C (1296 km/h) aparece se dividirmos por 5 sem converter dias em horas.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q58",
@@ -1080,7 +1134,7 @@
     "matematica"
    ],
    "texto_base": null,
-   "enunciado": "O semáforo é um dos recursos utilizados para organizar o tráfego de veículos e de pedestres nas grandes cidades. Considere que um carro trafega em um trecho de uma via retilínea, em que temos 3 semáforos. O gráfico abaixo mostra a velocidade do carro, em função do tempo, ao passar por esse trecho em que o carro teve que parar nos três semáforos. A distância entre o primeiro e o terceiro semáforo é de\n\n![Gráfico da velocidade (m/s) em função do tempo (s) do carro, com dois trechos de movimento separados por paradas](fig:p17-c1)",
+   "enunciado": "O semáforo é um dos recursos utilizados para organizar o tráfego de veículos e de pedestres nas grandes cidades. Considere que um carro trafega em um trecho de uma via retilínea, em que temos 3 semáforos. O gráfico abaixo mostra a velocidade do carro, em função do tempo, ao passar por esse trecho em que o carro teve que parar nos três semáforos. A distância entre o primeiro e o terceiro semáforo é de\n\n![Gráfico da velocidade (m/s, de 0 a 14) em função do tempo (s, de 0 a 70), com grade a cada 5 s e 2 m/s. A velocidade é zero até 5 s, sobe em linha reta até 10 m/s em 10 s, fica constante até 20 s e cai em linha reta até zero em 25 s. Volta a ser zero até 45 s, sobe em linha reta até 12 m/s em 50 s, fica constante até 60 s e cai em linha reta até zero em 65 s](fig:p17-c1)",
    "alternativas": {
     "A": "330 m.",
     "B": "440 m.",
@@ -1089,7 +1143,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "No gráfico $v \\times t$, a área sob a curva é o deslocamento. O carro está parado no 1º semáforo até 5 s, no 2º entre 25 s e 45 s e chega ao 3º em 65 s.\nDo 1º ao 2º semáforo (trapézio de 5 s a 25 s, topo de 10 s a 20 s, altura 10 m/s): $\\frac{(20 + 10) \\cdot 10}{2} = 150\\ \\text{m}$.\nDo 2º ao 3º (trapézio de 45 s a 65 s, topo de 50 s a 60 s, altura 12 m/s): $\\frac{(20 + 10) \\cdot 12}{2} = 180\\ \\text{m}$.\nDistância entre o 1º e o 3º semáforo: $150 + 180 = 330\\ \\text{m}$. As alternativas C e D são só um dos trechos.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q59",
@@ -1097,7 +1153,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Hoje é comum encontrarmos equipamentos de exercício físico em muitas praças públicas do Brasil. Esses equipamentos são voltados para pessoas de todas as idades, mas, em particular, para pessoas da terceira idade. São equipamentos exclusivamente mecânicos, sem uso de partes elétricas, em que o esforço consiste usualmente em levantar o próprio peso do praticante. Considere o esquema abaixo, em que uma pessoa de massa $m = 65\\ \\text{kg}$ está parada e com a perna esticada em um equipamento tipicamente encontrado nessas praças. O módulo da força $\\vec{F}$ exercida pela perna da pessoa em razão de sua massa $m$ é\n(Se necessário, utilize $g = 10\\ \\text{m/s}^2$.)\n\n![Esquema de uma pessoa sentada em equipamento de exercício, com a perna esticada empurrando uma barra inclinada em 30° da vertical, com a força F indicada na perna](fig:p18-f2)",
+   "enunciado": "Hoje é comum encontrarmos equipamentos de exercício físico em muitas praças públicas do Brasil. Esses equipamentos são voltados para pessoas de todas as idades, mas, em particular, para pessoas da terceira idade. São equipamentos exclusivamente mecânicos, sem uso de partes elétricas, em que o esforço consiste usualmente em levantar o próprio peso do praticante. Considere o esquema abaixo, em que uma pessoa de massa $m = 65\\ \\text{kg}$ está parada e com a perna esticada em um equipamento tipicamente encontrado nessas praças. O módulo da força $\\vec{F}$ exercida pela perna da pessoa em razão de sua massa $m$ é\n(Se necessário, utilize $g = 10\\ \\text{m/s}^2$.)\n\n![Esquema: uma pessoa sentada num assento preso a uma barra que pende de uma articulação no alto de um poste; a barra forma 30° com a vertical tracejada; a perna esticada apoia o pé num suporte fixo ao poste; o vetor F está desenhado ao longo da perna, com marca de ângulo reto entre F e a barra](fig:p18-f2)",
    "alternativas": {
     "A": "1300 N.",
     "B": "750 N.",
@@ -1106,7 +1162,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Estática",
+   "resolucao": "A pessoa e o assento ficam pendurados numa barra articulada no alto, inclinada de $30^\\circ$ com a vertical. A força $\\vec{F}$ da perna é perpendicular à barra, como indica a marca de ângulo reto.\nDecompondo o peso $P = m g = 65 \\cdot 10 = 650\\ \\text{N}$ nas direções da barra e perpendicular a ela, a componente perpendicular vale $P \\sin 30^\\circ$. É ela que tende a girar o conjunto, e a perna precisa equilibrá-la (a componente ao longo da barra é sustentada pela própria barra).\n$F = P \\sin 30^\\circ = 650 \\cdot 0{,}5 = 325\\ \\text{N}$.\nA alternativa D (560 N) usa $\\cos 30^\\circ$ no lugar de $\\sin 30^\\circ$.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q60",
@@ -1123,7 +1181,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "Potência é energia dividida pelo tempo.\nEnergia perdida em um ano: $0{,}1\\% \\text{ de } 2 \\times 10^{42}\\ \\text{J} = 10^{-3} \\cdot 2 \\times 10^{42} = 2 \\times 10^{39}\\ \\text{J}$.\n$P = \\frac{E}{\\Delta t} = \\frac{2 \\times 10^{39}\\ \\text{J}}{3{,}6 \\times 10^{7}\\ \\text{s}} \\approx 5{,}6 \\times 10^{31}\\ \\text{W}$.\nA alternativa B (2,0 · $10^{39}$) é a energia perdida, e não a potência: falta dividir pelo tempo.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q61",
@@ -1140,7 +1200,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Termodinâmica",
+   "resolucao": "Como a temperatura não muda, vale a lei de Boyle: $P_1V_1 = P_2V_2$.\n\nAo abrir a válvula A, o ar que estava só na câmara ($2{,}0$ L) passa a ocupar câmara + pistão ($2{,}0 + 0{,}2 = 2{,}2$ L):\n$P_\\text{f} = \\frac{33 \\cdot 2{,}0}{2{,}2} = 30\\ \\text{Pa}$.\n\nDepois a válvula A fecha e o ar do pistão é expulso, mas a câmara fica com os mesmos $30\\ \\text{Pa}$.\nA distratora 36,3 Pa é o erro de multiplicar por $2{,}2/2{,}0$, como se o volume tivesse diminuído.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q62",
@@ -1157,7 +1219,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Hidrostática",
+   "resolucao": "A vazão se conserva: o volume que sai da seringa por segundo é o que entra no microcanal, $A_1V = A_2v$.\n\nComo a área do círculo é proporcional ao quadrado do diâmetro:\n$v = V\\left(\\frac{D}{d}\\right)^2 = 4\\ \\text{mm/s} \\cdot \\left(\\frac{4\\ \\text{mm}}{0{,}5\\ \\text{mm}}\\right)^2 = 4 \\cdot 64 = 256\\ \\text{mm/s}$.\n\nO erro comum é usar a razão dos diâmetros sem elevar ao quadrado ($4 \\cdot 8 = 32$ mm/s, alternativa B).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q63",
@@ -1174,7 +1238,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "A carga é a área sob o gráfico da corrente em função do tempo ($Q = i\\,\\Delta t$).\n\nTrecho constante: $1200\\ \\text{mA} \\cdot 1{,}5\\ \\text{h} = 1800\\ \\text{mAh}$.\nTrecho decrescente (triângulo de 1,5 h a 4,0 h): $\\frac{2{,}5 \\cdot 1200}{2} = 1500\\ \\text{mAh}$.\nTotal: $3300\\ \\text{mAh} = 3{,}3\\ \\text{A} \\cdot 3600\\ \\text{s} = 11\\,880\\ \\text{C}$.\n\nAs alternativas 3,3 C e 3.300 C confundem a unidade (o valor certo em mAh não está em coulombs).\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q64",
@@ -1191,7 +1257,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "resolucao": "O menor comprimento de onda da luz visível corresponde à maior frequência: $\\lambda = \\frac{c}{f}$.\n\n$\\lambda_\\text{mín} = \\frac{3\\times10^{8}}{7{,}5\\times10^{14}} = 4\\times10^{-7}\\ \\text{m} = 400\\ \\text{nm}$.\n\nSó dá para ver estruturas de pelo menos 400 nm. Entre as da figura, a menor que passa desse limite é o retículo endoplasmático (420 nm); o ribossomo (25 nm) fica abaixo da resolução.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q65",
@@ -1199,7 +1267,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Em uma animação do Tom e Jerry, o camundongo Jerry se assusta ao ver sua imagem em uma bola de Natal cuja superfície é refletora, como mostra a reprodução abaixo. É correto afirmar que o efeito mostrado na ilustração não ocorre na realidade, pois a bola de Natal formaria uma imagem\n\n![Quadro de animação de Tom e Jerry: Jerry, ao lado de uma caixa, olha para uma bola de Natal que mostra uma imagem de seu rosto na superfície](fig:p19-c2)\n\n(Adaptado de https://www.youtube.com/watch?v=RtZYfTr7D_o. Acessado em 25/10/2016.)",
+   "enunciado": "Em uma animação do Tom e Jerry, o camundongo Jerry se assusta ao ver sua imagem em uma bola de Natal cuja superfície é refletora, como mostra a reprodução abaixo. É correto afirmar que o efeito mostrado na ilustração não ocorre na realidade, pois a bola de Natal formaria uma imagem\n\n![Quadro de animação de Tom e Jerry: Jerry, sobre uma caixa de presente, olha para uma bola de Natal pendurada na árvore, na qual aparece o reflexo do rosto dele em tamanho bem maior que o do próprio camundongo](fig:p19-c2)\n\n(Adaptado de https://www.youtube.com/watch?v=RtZYfTr7D_o. Acessado em 25/10/2016.)",
    "alternativas": {
     "A": "virtual ampliada.",
     "B": "virtual reduzida.",
@@ -1208,7 +1276,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "A bola de Natal funciona como um espelho esférico convexo (a face refletora está do lado de fora).\n\nUm espelho convexo, para qualquer objeto real, forma sempre imagem virtual, direita e menor que o objeto. Por isso a imagem de Jerry deveria aparecer reduzida na bola, e não enorme como no desenho.\n\nImagem ampliada só aparece em espelho côncavo, com o objeto perto do foco.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q66",
@@ -1225,7 +1295,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "Em 2015, os três países de origem que somavam mais da metade dos refugiados do mundo eram Síria (guerra civil iniciada em 2011), Afeganistão (décadas de guerra e a ocupação após 2001) e Somália (Estado fragilizado e guerra civil).\n\nGrécia e Macedônia aparecem nas alternativas porque eram rotas de passagem dos refugiados para a Europa, não países de origem. Myanmar tem refugiados (os rohingya), mas em número bem menor naquele ano.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q67",
@@ -1242,7 +1314,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Geografia do Brasil",
+   "resolucao": "É preciso ligar cada município ao seu minério e ao corredor do mapa:\n\n- Oriximiná (oeste do Pará, rio Trombetas): bauxita, escoada pelo rio Amazonas (corredor baixo Amazonas).\n- Parauapebas (Serra dos Carajás): minério de ferro, escoado pela Estrada de Ferro Carajás até São Luís (corredor Carajás).\n- Ipixuna do Pará: caulim, levado por mineroduto até Barcarena (corredor do vale do rio Capim).\n\nA ordem bauxita, ferro, caulim só aparece na alternativa B.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q68",
@@ -1259,7 +1333,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Biomas e vegetação",
+   "resolucao": "O manguezal é um ecossistema de transição (ecótono) entre o mar e a terra, em áreas abrigadas sujeitas às marés, com solo lodoso rico em matéria orgânica e vegetação adaptada à salinidade e à inundação.\n\nAs outras alternativas descrevem outros ambientes costeiros: A, lagunas; B, dunas; C, restingas.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q69",
@@ -1276,7 +1352,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "Ressacas no litoral do Sudeste ocorrem quando ciclones extratropicais se formam ou se intensificam no Atlântico Sul, mais no inverno, associados a frentes frias.\n\nA grande diferença de pressão gera ventos fortes, que empurram grandes volumes de água e formam ondas altas contra a costa.\n\nA alternativa D erra ao falar em ciclones tropicais (quase inexistentes no Atlântico Sul) e erra também na física: no inverno a diferença de temperatura entre o polo e o equador é maior, não menor.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q70",
@@ -1293,7 +1371,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Urbanização",
+   "resolucao": "Movimento pendular é o deslocamento diário de ida e volta entre o município onde a pessoa mora e outro onde trabalha ou estuda, típico das regiões metropolitanas.\n\nO texto fala de pessoas que se deslocam \"cotidianamente\" entre municípios do Arranjo, sem mudar de residência. Por isso não é migração (A e C), que supõe mudança de moradia, nem movimento sazonal (D), ligado a épocas do ano.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q71",
@@ -1310,7 +1390,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "As grandes empresas de tecnologia digital formam oligopólios globais, mas sua atuação em cada país depende das leis nacionais (regras de concorrência, privacidade, tributos, conteúdo), como o próprio texto indica ao falar das regras antitruste.\n\nA erra ao dizer que os Estados perderam \"totalmente\" o controle; B, ao restringir o poder dessas empresas aos países pobres; C, porque as leis antitruste são bem anteriores (por exemplo, a Lei Sherman, dos EUA, é de 1890).\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q72",
@@ -1327,7 +1409,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "População e migrações",
+   "resolucao": "Lendo a tabela, só Norte (3,9 → 8,3) e Centro-Oeste (3,0 → 7,4) cresceram em todos os censos. Isso se liga às migrações estimuladas pelo Estado: Marcha para o Oeste, construção de Brasília, rodovias e projetos de colonização na Amazônia.\n\nAs outras explicações estão erradas: em C, a população do Sudeste não diminuiu em números absolutos, só perdeu participação; em D, a queda do Sul não se deve à volta de descendentes à Europa; em B, as secas não explicam sozinhas a perda contínua de participação do Nordeste.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q73",
@@ -1344,7 +1428,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Teoria sociológica",
+   "resolucao": "Para Ianni, a violência combina justificativas apresentadas como racionais e ideais com práticas brutais. Ela não é um fato isolado: faz parte do modo como o poder se organiza na sociedade.\n\nA alternativa D resume essa ideia: a violência é parte da cultura política que ordena ou transforma as relações entre quem detém o poder e os grupos subordinados.\n\nA inverte o texto (as alegações é que são racionais e as práticas, irracionais). B e C contradizem o trecho ao chamar de desprezíveis ou sem importância os efeitos da violência.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q74",
@@ -1361,7 +1447,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "No gráfico triangular, cada ponto soma 100% entre matas, lavouras e pastagens.\n\n- Ponto 1: muita mata (cerca de 42%) e quase nenhuma lavoura: Norte.\n- Ponto 4: maior proporção de lavouras (cerca de 40%): Sul, de agricultura de grãos.\n- Ponto 3: pouca mata e predomínio de pastagens: Sudeste.\n- Ponto 5: pastagens dominantes, com mata razoável e pouca lavoura: Centro-Oeste.\n- Ponto 2: Nordeste, com matas (caatinga) e lavouras intermediárias.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q75",
@@ -1369,7 +1457,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Muitos problemas sociais e ambientais têm-se tornado motivo de piadas e alvo de *charges* em jornais e revistas. Um exemplo deste tipo está mostrado nas figuras abaixo.\n\n![Duas charges. À esquerda, uma mulher e um homem conversam (\"E então?\") e, em um mercado, um vendedor diz \"Não compra não. Tá com gosto de leite.\" diante de prateleiras com a placa \"Soda cáustica\". À direita, um gato preto diz \"Quero que você me explique isso aí!!!\" e outro responde \"Querido, acho que ele tomou leite com água oxigenada.\", ao lado de um gato amarelo](fig:p22-f3)\n\n(Disponível emhttp://josiasdesouza.folha.blog.uol.com.br/arch2007-10-01_2007-10-31.html. Acessado em 25/10/2016.)\n\nLevando em conta as informações abstraídas das figuras, depreende-se que as *charges* remetem a um problema recorrente de contaminação de",
+   "enunciado": "Muitos problemas sociais e ambientais têm-se tornado motivo de piadas e alvo de *charges* em jornais e revistas. Um exemplo deste tipo está mostrado nas figuras abaixo.\n\n![Duas charges. À esquerda, em dois quadros: no primeiro, um homem, com a mão junto à boca, e uma mulher conversam, com o balão \"E então?\"; no segundo, num supermercado, diante de prateleiras de latas com a placa \"Soda cáustica\", o homem, segurando uma lata, diz à mulher, que empurra um carrinho: \"Não compra não. Tá com gosto de leite.\" À direita, um gato preto diz \"Quero que você me explique isso aí!!!\" e outro gato preto responde \"Querido, acho que ele tomou leite com água oxigenada.\"; à frente deles há um filhote amarelo](fig:p22-f3)\n\n(Disponível emhttp://josiasdesouza.folha.blog.uol.com.br/arch2007-10-01_2007-10-31.html. Acessado em 25/10/2016.)\n\nLevando em conta as informações abstraídas das figuras, depreende-se que as *charges* remetem a um problema recorrente de contaminação de",
    "alternativas": {
     "A": "leite, sendo que a figura da esquerda diz respeito ao acerto da acidez, e a da direita diz respeito à eliminação de microrganismos.",
     "B": "leite, sendo que a figura da esquerda diz respeito à eliminação de microrganismos, e a da direita diz respeito ao acerto da acidez.",
@@ -1378,7 +1466,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Funções inorgânicas",
+   "resolucao": "As charges remetem ao escândalo de 2007, quando se descobriu leite adulterado com soda cáustica e água oxigenada.\n\nÀ esquerda, o leite está tão contaminado que a soda cáustica (NaOH, uma base) \"tem gosto de leite\". A soda era usada para neutralizar a acidez do leite velho, ou seja, para acertar a acidez.\n\nÀ direita, o filhote amarelo \"tomou leite com água oxigenada\" ($\\text{H}_2\\text{O}_2$, que descolore). A água oxigenada era usada como bactericida, para eliminar microrganismos.\n\nA alternativa B troca as funções das duas substâncias.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q76",
@@ -1395,7 +1485,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "O ferro se oxida com facilidade: em contato com oxigênio e umidade forma ferrugem ($\\text{Fe} \\to \\text{Fe}^{2+}/\\text{Fe}^{3+}$). Com o tempo, o ferro realmente fica \"velho\", e a expressão \"Ferro Velho\" faz sentido.\n\nO ouro é um metal nobre: tem potencial de redução muito alto e praticamente não se oxida em condições comuns. Ouro antigo e ouro novo são quimicamente iguais, então \"Ouro Velho\" não é uma expressão apropriada.\n\nA alternativa C erra ao dizer que o ferro \"se reduz\": a corrosão é uma oxidação.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q77",
@@ -1412,7 +1504,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Gases",
+   "resolucao": "Cada vez que a garrafa é aberta, o gás escapa e a pressão interna cai até a pressão ambiente (cerca de 1 atm).\n\nDepois que a garrafa é fechada, parte do $\\text{CO}_2$ dissolvido sai do líquido e a pressão volta a subir, mas cada vez menos: a cada abertura se perde $\\text{CO}_2$ e sobra menos refrigerante (e mais espaço vazio) na garrafa.\n\nO gráfico B mostra exatamente isso: queda até 1 atm a cada 4 h e picos cada vez menores. Em C e D a pressão volta aos 3,5 atm, o que exigiria repor o gás perdido; em A a pressão nunca cai até a ambiente.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q78",
@@ -1429,7 +1523,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "O volume de álcool ingerido é o volume da bebida vezes o teor alcoólico.\n\nCerveja: $10 \\cdot 330\\ \\text{mL} \\cdot 0{,}05 = 165\\ \\text{mL}$ de álcool.\nCachaça: $6 \\cdot 50\\ \\text{mL} \\cdot 0{,}45 = 135\\ \\text{mL}$ de álcool.\n\nQuem bebeu as latinhas ingeriu mais álcool, porque o produto teor × volume é maior. As alternativas A e D olham para um só fator (só o volume ou só o teor) e por isso não justificam a conclusão.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q79",
@@ -1446,7 +1542,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "resolucao": "A água é polar e forma ligações de hidrogênio. Ela \"gruda\" em superfícies que também fazem essas interações e é repelida por superfícies apolares.\n\nNo revestimento 1, as cadeias terminam em $\\text{CH}_3$: a superfície é apolar (hidrofóbica) e a urina escorre.\nNo revestimento 2, as cadeias terminam em $\\text{OH}$, que forma ligações de hidrogênio com a água: a superfície é hidrofílica e molha.\n\nC e D se contradizem: um grupo de mesma polaridade que a água atrai a urina, não a repele.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q80",
@@ -1463,7 +1561,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "O \"suor\" do copo de chope é vapor de água do ar que se condensa na superfície fria. A condensação libera calor (calor latente), e parte dele passa para o chope, cuja temperatura aumenta.\n\nNo corpo humano ocorre o contrário: a evaporação do suor absorve calor da pele, e isso impede que a temperatura do corpo suba.\n\nPor isso o slogan faz sentido: o chope só \"sua\" se estiver bem gelado, e ao suar ele se aquece, enquanto o corpo sua para não se aquecer.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q81",
@@ -1480,7 +1580,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "resolucao": "O tanque de combustível nunca está vazio de gás: acima do líquido há ar misturado com vapores do combustível, que é volátil.\n\nAo abastecer, o líquido que entra empurra essa mistura para fora pelo bocal, durante todo o abastecimento. O frentista fica exposto aos vapores com ou sem arredondamento; arredondar só aumenta essa exposição.\n\nPor isso B, C e D estão erradas: todas negam que haja liberação de vapores antes do travamento ou dizem que ela não depende do volume.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q82",
@@ -1499,7 +1601,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Radioatividade",
+   "resolucao": "O ${}^{3}_{2}\\text{He}$ tem 2 prótons e 1 nêutron. No esquema, cada reagente tem 2 esferas escuras e 1 clara: as escuras são os prótons e a clara é o nêutron.\n\nA reação junta núcleos leves e forma um núcleo maior: ${}^{3}_{2}\\text{He} + {}^{3}_{2}\\text{He} \\to {}^{4}_{2}\\text{He} + 2\\,{}^{1}_{1}\\text{p}$. O produto tem 2 escuras e 2 claras (o ${}^{4}_{2}\\text{He}$), e sobram 2 esferas escuras isoladas (prótons).\n\nUnião de núcleos é fusão nuclear, que libera muita energia. Fissão seria a quebra de um núcleo pesado.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q83",
@@ -1516,7 +1620,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "Dissolver um soluto não volátil como o etilenoglicol na água causa efeitos coligativos:\n\n- crioscopia: a temperatura de solidificação fica mais baixa que $0\\ ^\\circ\\text{C}$ (o radiador não congela em países frios);\n- ebulioscopia: a temperatura de ebulição fica mais alta que $100\\ ^\\circ\\text{C}$ (o líquido não ferve com facilidade em países quentes).\n\nPor isso o aditivo serve nos dois tipos de clima, como diz o enunciado.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q84",
@@ -1524,7 +1630,7 @@
    "materia": "ingles",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Tirinha de Hagar, o Horrível: um viking diz \"Give us your gold! We have come with razor-sharp swords!\"; outro responde \"The King of England is not afraid of sharp swords!\"; o viking diz \"We're going to cut down your rose bushes.\"; no alto da muralha, o rei diz \"Give them the gold.\"](fig:p25-c1)\n\n(Disponível em http://www.hagardunor.net/.)\n\nA tirinha ironiza uma suposta característica dos ingleses:",
+   "enunciado": "![Tirinha de Hagar, o Horrível: Hagar, à frente de outros vikings, ergue a espada e grita \"Give us your gold! We have come with razor-sharp swords!\"; do alto da muralha de um castelo, com roseiras floridas embaixo, vem a resposta \"The King of England is not afraid of sharp swords!\"; Hagar, ao pé da muralha, diz \"We're going to cut down your rose bushes.\"; do alto da torre, onde estão o rei, de coroa, e um soldado de armadura, vem a fala \"Give them the gold.\"](fig:p25-c1)\n\n(Disponível em http://www.hagardunor.net/.)\n\nA tirinha ironiza uma suposta característica dos ingleses:",
    "alternativas": {
     "A": "o apreço pela história das invasões bárbaras.",
     "B": "a admiração pela família real.",
@@ -1533,7 +1639,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "Hagar ameaça o castelo com espadas e recebe a resposta \"The King of England is not afraid of sharp swords!\" (\"O rei da Inglaterra não tem medo de espadas afiadas!\").\n\nQuando ele muda a ameaça para \"We're going to cut down your rose bushes\" (\"Vamos cortar suas roseiras\"), o rei manda entregar o ouro na hora: \"Give them the gold.\"\n\nA graça está em os ingleses temerem mais pelas roseiras do que pela guerra, o que ironiza o apego deles aos jardins.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q85",
@@ -1550,7 +1658,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "Murakami diz que o normal no Japão é terminar os estudos, arrumar emprego e só depois casar. Ele fez as mesmas três coisas, mas na ordem inversa: \"I married, then started working, then finally managed to graduate\", ou seja, \"the order I chose was the exact opposite to what was considered normal\".\n\nC e D são as distratoras: ele quis abrir um bar de jazz para ouvir música o dia todo, mas trabalhando nele (não \"sem trabalhar\"), e o texto não fala em ganhar dinheiro. A erra porque o bar não era o caminho \"normal\" e não era uma loja de discos.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q86",
@@ -1558,7 +1668,7 @@
    "materia": "ingles",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Termômetro \"The Small Talk Thermometer\" (CollegeHumor), com frases de conversa casual ao lado das temperaturas de 0° a 100°, de \"Cold enough for ya?\" a \"Hot enough for ya?\"](fig:p25-c3)\n\n(Disponível em http://www.collegehumor.com/post/6833315/the-small-talk-thermometer. Acessado em 21/08/2016.)\n\nConsiderando o nome da figura - “The Small Talk Thermometer” -, pode-se depreender que a expressão “small talk” se refere a",
+   "enunciado": "![Ilustração \"The Small Talk Thermometer\" (CollegeHumor): termômetro de 0° a 100° com uma frase ao lado de cada marca: 100°, \"Hot enough for ya?\"; 90°, \"Ugh, I can't wait for Winter.\"; 80°, \"It's the humidity that makes it so hot.\"; 70°, \"Can you believe how nice out it is?\"; 60°, \"Did you see the leaves???\"; 50°, \"I hear it's supposed to get even colder / warmer tomorrow!\"; 40°, \"I hope it snows soon!\"; 30°, \"It's really coming down out there!\"; 20°, \"I hope it stops snowing soon.\"; 10°, \"Ugh, I can't wait for Summer.\"; 0°, \"Cold enough for ya?\"](fig:p25-c3)\n\n(Disponível em http://www.collegehumor.com/post/6833315/the-small-talk-thermometer. Acessado em 21/08/2016.)\n\nConsiderando o nome da figura - “The Small Talk Thermometer” -, pode-se depreender que a expressão “small talk” se refere a",
    "alternativas": {
     "A": "conversas casuais ou amenas, para estabelecer contato ou quebrar o gelo.",
     "B": "conversas entre cientistas sobre mudanças climáticas.",
@@ -1567,7 +1677,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "As frases do termômetro são comentários sobre o tempo que se fazem para puxar conversa, como \"Cold enough for ya?\" (\"Frio o bastante pra você?\") e \"Hot enough for ya?\" (\"Quente o bastante pra você?\").\n\n\"Small talk\" é a conversa leve e superficial, muitas vezes sobre o clima, usada para iniciar contato ou quebrar o gelo. A piada é que existe uma frase pronta para cada temperatura.\n\nAs frases são banais e cotidianas, não de cientistas ou meteorologistas (B e C), e não há desacordo entre pessoas (D).\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q87",
@@ -1584,7 +1696,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "A primeira frase responde à pergunta: \"Universities these days are working hard to improve their sustainability credentials\" (\"as universidades se esforçam para melhorar suas credenciais de sustentabilidade\"). O título e o resto do texto mostram que essas credenciais são medidas por rankings de instituições \"verdes\" (Princeton Review, GreenReportCard.org).\n\nCursos, energia eólica e comida orgânica são meios para isso. A alternativa A é a distratora: o texto cita cursos \"related to sustainability and energy\" só como um desses meios, e não fala em \"ecologia\". C exagera (\"os melhores cursos\") e D inventa uma competição por área verde.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q88",
@@ -1601,7 +1715,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "Segundo o texto, Christopher Hitchens elogiou J. K. Rowling por livrar a literatura infantil inglesa \"from dreams of riches and class and snobbery\" (dos sonhos de riqueza, classe e esnobismo). Ou seja, na série o desejo de subir socialmente e enriquecer tem pouca importância.\n\nA é falsa: críticos e grupos religiosos fazem críticas diferentes. B contradiz o crítico que viu \"infantilismo cultural\" nos adultos leitores. C inverte a crítica a Hogwarts, que recompensaria só os talentos inatos (\"only rewarding innate talents\").\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-1-q89",
@@ -1609,7 +1725,7 @@
    "materia": "ingles",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Infográfico com o texto: 38% of teen GIRLS who have a child by age 18 obtain a high school diploma by age 22](fig:p26-c1)\n\n(Disponível em http://neahealthyfutures.org/the-importance-of-teen-pregnancy-prevention/. Acessado em 04/09/2016.)\n\nDepreende-se das informações da figura que",
+   "enunciado": "![Infográfico: silhueta de uma jovem empurrando um carrinho de bebê, com o desenho de uma escola ao fundo, e o texto \"38% of teen GIRLS who have a child by age 18 obtain a high school diploma by age 22\"](fig:p26-c1)\n\n(Disponível em http://neahealthyfutures.org/the-importance-of-teen-pregnancy-prevention/. Acessado em 04/09/2016.)\n\nDepreende-se das informações da figura que",
    "alternativas": {
     "A": "38% das jovens engravidam antes dos 18 anos.",
     "B": "38% das jovens concluem o ensino médio aos 22 anos.",
@@ -1618,7 +1734,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O infográfico diz que apenas 38% das adolescentes que têm filho até os 18 anos (\"who have a child by age 18\") concluem o ensino médio até os 22 (\"obtain a high school diploma by age 22\"). A maioria delas, portanto, não termina a escola: a gravidez na adolescência atrapalha a vida escolar.\n\nA e B tiram o número do contexto: os 38% não se referem a todas as jovens, só às que foram mães antes dos 18. D fala de gravidez depois dos 18, que o infográfico não trata.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-1-q90",
@@ -1635,7 +1753,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto diz que em Vindolanda a umidade preservou \"wooden writing tablets\" (tabuletas de madeira para escrita), usadas para memorandos e contas, e que elas dão \"the best insight into life in the Roman army\" (a melhor visão da vida no exército romano).\n\nA erra porque o texto contrasta Vindolanda com o Egito: lá é que o clima seco preserva papiros. B confunde a data em que as tabuletas foram jogadas ao fogo (105 d.C.) com o assunto delas. C generaliza o único bilhete citado, que é um pedido de dinheiro entre dois homens ligados ao forte.\n\n**Resposta: D**",
+   "revisao": "ok"
   }
  ]
 }
