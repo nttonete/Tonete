@@ -75,3 +75,4 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2022-2-d1 q7: o post de Chico César reproduz um poema curto de Titá Moura (autora viva). Mantida por ser duas frases e o item b depender delas; decidir se vai para indisponiveis.json.
 - unicamp-2022-2-cet q20 item b: a banca (respostas esperadas e prova comentada) traz "Carbono NEGATIVO: Fonte 1 ou Combustível Fóssil", mas a justificativa atribui ao biocombustível (fonte 2). Provável erro da banca; transcrito como publicado.
 - unicamp-2024-2-cha q5 item b: caderno diz b = -3 mas a resposta esperada e a prova comentada resolvem com b = 3 (erro da banca); mantida como publicada.
+- fuvest-2023-2-d2 F02 (q8): o objetivo publicado pela banca é cópia do da F01 (potência, energia e gráficos) e não trata de espelhos esféricos; transcrito como está. M04 item c: o PDF imprime 9n−1 (expoente achatado); transcrito como 9^(n-1).
