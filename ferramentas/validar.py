@@ -23,6 +23,25 @@ ASSUNTOS = json.loads((RAIZ / "dados/provas/assuntos.json").read_text())
 RESPOSTA = re.compile(r"\*\*Resposta:\s*([A-E])\*\*\s*$")
 
 
+
+def formulas(t):
+    """Conteúdo de cada fórmula, separado como faz o render.js ($...$ e $$...$$; \\$ é cifrão)."""
+    i, saida = 0, []
+    while i < len(t):
+        if t[i] == "\\" and t[i + 1:i + 2] == "$":
+            i += 2
+            continue
+        if t[i] == "$":
+            abre = 2 if t[i + 1:i + 2] == "$" else 1
+            fim = t.find("$" * abre, i + abre)
+            if fim == -1:
+                break
+            saida.append(t[i + abre:fim])
+            i = fim + abre
+            continue
+        i += 1
+    return saida
+
 def checar_complemento(rel, ref, materia, assunto, resolucao, gabarito, anulada):
     """Assunto da lista da matéria; resolução que renderiza e termina na letra do gabarito oficial."""
     if assunto is not None and assunto not in ASSUNTOS.get(materia, []):
@@ -82,7 +101,7 @@ def checar_texto(rel, ref, t):
         rel.erro(ref, "sobrou cabeçalho/rodapé do caderno")
     if "�" in t or "" in t or "" in t:
         rel.erro(ref, "caractere inválido (símbolo perdido na extração)")
-    if re.search(r"(?<![\\$])\$\s+\$(?!\$)", t):
+    if any(not f.strip() for f in formulas(t)):
         rel.aviso(ref, "fórmula vazia")
 
 
