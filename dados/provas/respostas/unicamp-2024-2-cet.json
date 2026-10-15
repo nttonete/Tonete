@@ -58,5 +58,65 @@
    "a": "As equações horárias de movimento do barco e do tubarão são, respectivamente,\n\n$x_\\text{B} = d_0 + w_\\text{B}\\Delta t$ e $x_\\text{T} = w_\\text{T}\\,\\Delta t$.\n\nAssim:\n\n$$x_\\text{B} = x_\\text{T} \\Rightarrow d_0 + w_\\text{B}\\Delta t = w_\\text{T}\\Delta t \\Rightarrow \\Delta t = \\frac{d_0}{(w_\\text{T} - w_\\text{B})} = \\frac{160\\ \\text{m}}{(7{,}0\\ \\text{m/s}) - (3{,}0\\ \\text{m/s})} = \\frac{160}{4{,}0}\\ \\text{s} = 40\\ \\text{s}.$$\n\nPortanto,\n\n$$d_\\text{B} = w_\\text{B}\\Delta t = (3{,}0\\ \\text{m/s}) \\times (40\\ \\text{s}) = 120\\ \\text{m}$$\n\ne\n\n$$d_\\text{T} = w_\\text{T}\\Delta t = (7{,}0\\ \\text{m/s}) \\times (40\\ \\text{s}) = 280\\ \\text{m}.$$",
    "b": "i) $\\left|\\vec{F}_\\text{vento}\\right| = \\Delta p\\, A = (300\\ \\text{Pa}) \\times (7{,}0\\ \\text{m}^2) = 2100\\ \\text{N}$\n\nii) $W = \\left|\\vec{F}_\\text{vento}\\right| D\\cos\\theta$ onde $D = w_\\text{B}\\Delta t$. Assim,\n\n$$W = \\left|\\vec{F}_\\text{vento}\\right| w_\\text{B}\\Delta t\\, \\cos(\\theta) = (2100\\ \\text{N}) \\times (3{,}0\\ \\text{m/s}) \\times (20\\ \\text{s}) \\times \\cos 60^\\circ = \\left(\\frac{2100 \\times 3{,}0 \\times 20}{2}\\right)\\ \\text{J} = 63000\\ \\text{J}$$"
   }
+ },
+ "11": {
+  "itens": {
+   "a": "$$m = \\rho V = 7{,}0 \\times 10^3\\ \\frac{\\text{kg}}{\\text{m}^3} \\times 2{,}0 \\times 10^{-14}\\ \\text{m}^3 = 1{,}4 \\times 10^{-10}\\ \\text{kg}$$\n\n$$Q = mc\\Delta T = 1{,}4 \\times 10^{-10}\\ \\text{kg} \\times 200\\ \\frac{\\text{J}}{\\text{Kg}\\ ^\\circ\\text{C}} \\times (175\\ ^\\circ\\text{C} - 25\\ ^\\circ\\text{C}) = 4{,}2 \\times 10^{-6}\\ \\text{J}$$",
+   "b": "Energia do pulso:\n\n$$E_{\\text{pulso}} = \\text{área sob a curva} = \\frac{(175 \\times 10^{-9}\\ \\text{s}) \\times (8 \\times 10^6\\ \\text{W})}{2} = 0{,}7\\ \\text{J}$$\n\nEnergia de um fóton:\n\n$$E_{\\text{fóton}} = hf = h\\frac{c}{\\lambda} = 7 \\times 10^{-34}\\ \\text{J} \\cdot \\text{s} \\times \\frac{3 \\times 10^8\\ \\text{m/s}}{10{,}5 \\times 10^{-6}\\ \\text{m}} = 2 \\times 10^{-20}\\ \\text{J}$$\n\nNúmero de fótons:\n\n$$N = \\frac{E_{\\text{pulso}}}{E_{\\text{fóton}}} = \\frac{0{,}7\\ \\text{J}}{2 \\times 10^{-20}\\ \\text{J}} = 3{,}5 \\times 10^{19}\\ \\text{fótons}$$"
+  }
+ },
+ "12": {
+  "itens": {
+   "a": "Tempo entre duas gotas:\n\n$$\\Delta t = \\frac{1}{f} = \\frac{1}{5 \\times 10^4} = 2 \\times 10^{-5}\\ \\text{s}$$\n\nDistância entre gotas:\n\n$$\\Delta x = v \\times \\Delta t = 80\\ \\text{m/s} \\times 2 \\times 10^{-5}\\ \\text{s} = 1{,}6 \\times 10^{-3}\\ \\text{m} = 1{,}6\\ \\text{mm}$$",
+   "b": "Lei de Snell-Descartes: $n_1\\,\\text{sen}\\,\\theta_1 = n_2\\,\\text{sen}\\,\\theta_2$.\n\nDa figura A, temos: $\\text{sen}\\,\\theta_1 = \\dfrac{3}{5} = 0{,}6$ (triângulo 3, 4 e 5).\n\nDa figura B, temos $\\text{sen}\\,\\theta_2 = \\dfrac{c}{h} = \\dfrac{2\\ \\text{mm}}{4\\ \\text{mm}} = 0{,}5$. Assim:\n\n$$n_2 = \\frac{n_1\\,\\text{sen}\\,\\theta_1}{\\text{sen}\\,\\theta_2} = \\frac{\\text{sen}\\,\\theta_1}{\\text{sen}\\,\\theta_2} = \\frac{0{,}6}{0{,}5} = 1{,}2.$$"
+  }
+ },
+ "13": {
+  "itens": {
+   "a": "i)\n\n$$C = (K\\varepsilon_0)\\left(\\frac{A}{d}\\right) = 4 \\times (9 \\times 10^{-12}\\ \\text{F/m}) \\times \\left(\\frac{2{,}0\\ \\mu\\text{m}^2}{0{,}1\\ \\mu\\text{m}}\\right) = 4 \\times (9 \\times 10^{-12}\\ \\text{F/m}) \\times \\left(\\frac{2{,}0 \\times (10^{-6}\\ \\text{m})^2}{0{,}1 \\times 10^{-6}\\ \\text{m}}\\right) = 7{,}2 \\times 10^{-16}\\ \\text{F}$$\n\nii)\n\n$$Q = CV = (7{,}2 \\times 10^{-16}\\ \\text{F}) \\times (5{,}0\\ \\text{V}) = 3{,}6 \\times 10^{-15}\\ \\text{C}$$",
+   "b": "i)\n\n$\\text{tg}\\,\\theta_1 = \\dfrac{y_1}{D} = \\dfrac{0{,}28\\ \\text{m}}{0{,}5\\ \\text{m}} = 0{,}56$; usando a Tabela 1, encontramos $\\text{sen}\\,\\theta_1 = 0{,}48$.\n\n$$d\\,\\text{sen}\\,\\theta_1 = m_1\\lambda_1 \\Rightarrow d = \\frac{2 \\times \\lambda_1}{\\text{sen}\\,\\theta_1} = \\frac{2 \\times 192\\ \\text{nm}}{0{,}48} = 800\\ \\text{nm}.$$\n\nii) Do diagrama, $y_2 = 0{,}17\\ \\text{m}$\n\n$\\text{tg}\\,\\theta_2 = \\dfrac{y_2}{D} = \\dfrac{0{,}17\\ \\text{m}}{0{,}5\\ \\text{m}} = 0{,}34$; usando a Tabela 1, encontramos $\\text{sen}\\,\\theta_2 = 0{,}33$.\n\n$$d\\,\\text{sen}\\,\\theta_2 = m_2\\lambda_2 \\Rightarrow \\lambda_2 = \\frac{d\\,\\text{sen}\\,\\theta_2}{m_2} = \\frac{800\\ \\text{nm} \\times 0{,}33}{1} = 264\\ \\text{nm}.$$\n\n![Tabela 2 preenchida: λ1 = 192 nm, m = 2, y = 0,28 m, tg θ = 0,56, sen θ = 0,48, d = 800 nm; λ2 = 264 nm, m = 1, y = 0,17 m, tg θ = 0,34, sen θ = 0,33; os valores acrescentados à tabela estão em azul](fig:r08-c1)"
+  }
+ },
+ "14": {
+  "itens": {
+   "a": "Conservação da energia mecânica:\n\n$$E_{\\text{m, inicial}} = E_{\\text{m, final}} \\Rightarrow \\left(\\cancel{\\frac{mv^2}{2}} + mgh\\right)_{\\text{inicial}} = \\left(\\frac{mv^2}{2} + \\cancel{mgh}\\right)_{\\text{final}}$$\n\n$$\\cancel{m}gh_{\\text{inicial}} = \\frac{\\cancel{m}v_{\\text{final}}^2}{2} \\Rightarrow h_{\\text{inicial}} = \\frac{v_{\\text{final}}^2}{2g} = \\frac{(0{,}4\\ \\text{m/s})^2}{2 \\times 10\\ \\text{m/s}^2} = 8{,}0 \\times 10^{-3}\\ \\text{m} = 8{,}0\\ \\text{mm}$$",
+   "b": "Para uma massa $m = 8 \\times 10^{-6}\\ \\text{kg}$, o gráfico fornece $\\Delta t = 12 \\times 10^{-3}\\ \\text{s}$.\n\n$$\\vec{I} = \\Delta\\vec{p} = \\vec{F}_{\\text{média}}\\Delta t \\Rightarrow \\left|\\vec{F}_{\\text{média}}\\right| = \\frac{\\left|\\Delta\\vec{p}\\right|}{\\Delta t}$$\n\nComo $e \\simeq 1$, $\\vec{v}_{\\text{final}} = -\\vec{v}_{\\text{inicial}} \\Rightarrow \\vec{p}_{\\text{final}} = -\\vec{p}_{\\text{inicial}} \\Rightarrow \\left|\\Delta\\vec{p}\\right| = 2 \\times \\left|\\vec{p}_{\\text{inicial}}\\right| = 2 \\times m \\times \\left|\\vec{v}_{\\text{inicial}}\\right|$.\n\nAssim:\n\n$$\\left|\\vec{F}_{\\text{média}}\\right| = \\frac{\\left|\\Delta\\vec{p}\\right|}{\\Delta t} = \\frac{2 \\times m \\times \\left|\\vec{v}_{\\text{inicial}}\\right|}{\\Delta t} = \\frac{2 \\times (8 \\times 10^{-6}\\ \\text{kg}) \\times (0{,}3\\ \\text{m/s})}{12 \\times 10^{-3}\\ \\text{s}} = \\frac{4{,}8}{12} \\times 10^{-3}\\ \\text{N} = 4 \\times 10^{-4}\\ \\text{N}$$"
+  }
+ },
+ "15": {
+  "itens": {
+   "a": "Processo 1 – reação de oxirredução\n\n$$\\text{Hg}^0\\ \\text{(g)} + \\text{O}_3\\ \\text{(g)} \\rightarrow \\text{HgO}\\ \\text{(s)} + \\text{O}_2\\ \\text{(g)}$$\n\nProcesso 2 – reação de hidrólise\n\n$$\\text{HgO}\\ \\text{(s)} + \\text{H}_2\\text{O}\\ \\text{(l)} \\rightarrow \\text{Hg(OH)}_2\\ \\text{(s)}$$",
+   "b": "![Tabela preenchida: Detecção de mercúrio (4); Mitigação de riscos (1); Remediação (2); Mineração sem mercúrio (3)](fig:r09-c1)\n\nMitigação de riscos significa uma ação para diminuir a intensidade ou reduzir os riscos de exposição. Assim, o uso de filtros de ar e máscaras cumprem esse papel."
+  }
+ },
+ "16": {
+  "itens": {
+   "a": "$381\\ \\text{ZJ} = 381 \\times 10^{21}\\ \\text{J}$. A criosfera absorve 4% do calor ganho, portanto: $381 \\times 10^{21}\\ \\text{J} \\times 0{,}04 =$ $\\mathbf{1{,}52 \\times 10^{22}\\ J}$ **absorvidos (ou ganhos) pela criosfera**.\n\n$\\Delta H_{\\text{fusão}} = 3{,}3 \\times 10^5\\ \\text{J/kg}$\n\n$3{,}3 \\times 10^5\\ \\text{J}$ — $1{,}0\\ \\text{kg H}_2\\text{O}$\n$1{,}52 \\times 10^{22}\\ \\text{J}$ — $Y$\n\nForam acrescidas $4{,}62 \\times 10^{16}$ Kg ou $4{,}62 \\times 10^{13}$ toneladas de $\\text{H}_2\\text{O}$ aos oceanos.\n\nQuanto ao cálculo do aumento de temperatura média dos oceanos, o oceano absorve 89% do total do calor ganho, portanto: $381 \\times 10^{21}\\ \\text{J} \\times 0{,}89 = 3{,}39 \\times 10^{23}\\ \\text{J}$\n\n$Q = m \\cdot c \\cdot \\Delta T$\n\n$3{,}39 \\times 10^{23}\\ \\text{J} = (1{,}4 \\times 10^{21}\\ \\text{kg}) \\times (4180\\ \\text{J/kg} \\cdot \\text{K}) \\times \\cdot \\Delta T$\n\nIsso significa que o aumento da temperatura média dos oceanos seria de $\\Delta T = 0{,}06\\ \\text{K}$ ($0{,}06\\ ^\\circ\\text{C}$).",
+   "b": "<u>Causas principais</u>: urbanização, atividade agroindustrial, industrialização, uso de combustíveis fósseis.\n<u>Mecanismo</u>: aumento dos gases do efeito estufa provocando aumento do calor retido na atmosfera e o desbalanço energético."
+  }
+ },
+ "17": {
+  "itens": {
+   "a": "A intensidade do aroma e do sabor do café é maior se se utiliza água a 98 °C quando comparado com água a 86 °C. Isso porque a solubilidade, em geral, aumenta com o aumento da temperatura. Por outro lado, a intensidade do aroma e do sabor do café é maior para uma moagem fina em comparação com a grossa, pois, quanto mais fina a moagem, maior a superfície de contato e maior a permeabilidade da água na estrutura porosa.",
+   "b": "![Tabela preenchida: Atributo da Substância; Substância 1: Polaridade MAIOR, Solubilidade MAIOR, Kow MENOR; Substância 2: Polaridade MENOR, Solubilidade MENOR, Kow MAIOR](fig:r10-c1)\n\nComo se observa no gráfico, a substância 1 é extraída mais rapidamente do que a substância 2. Considerando as informações do texto, isso significa que a solubilidade da substância 1 em água é maior que a solubilidade da substância 2 em água. A água, por ser um solvente polar, vai extrair mais rapidamente uma substância mais polar; portanto, a substância 1 é mais polar que a 2. Por outro lado, como Kow representa a relação entre a solubilidade em fase orgânica e fase aquosa, quanto mais polar a substância, menor será o Kow."
+  }
+ },
+ "18": {
+  "itens": {
+   "a": "Como exposto no texto, as espessuras das setas indicam relativamente as intensidades das radiações. Portanto, as três radiações incidentes atingem o material do dispositivo com a mesma intensidade. A radiação infravermelha é majoritariamente refletida e absorvida pelo dispositivo, sendo que uma pequena fração é transmitida. A radiação visível é majoritariamente transmitida e absorvida e muito pouco refletida. A radiação ultravioleta é majoritariamente refletida, não é transmitida e uma pequena fração é absorvida.",
+   "b": "Uma das aplicações seria: portas e janelas para barrar as radiações infravermelho e ultravioleta, tendo como benefício a minimização do calor (radiação infravermelha) e a proteção de exposição à radiação ultravioleta, esta prejudicial à saúde humana.\nOutra aplicação do dispositivo seria em painéis solares que utilizam a absorção da radiação para a geração de energia elétrica (painéis fotovoltaicos). Trata-se de geração de energia elétrica de fonte limpa e renovável."
+  }
+ },
+ "19": {
+  "itens": {
+   "a": "Equação química: $\\text{Ca}^{2+}\\ \\text{(aq)} + \\text{C}_2\\text{O}_4^{2-}\\ \\text{(aq)} \\rightarrow \\text{CaC}_2\\text{O}_4\\ \\text{(s)}$.\n\nExpressão da constante de equilíbrio: $K = \\dfrac{1}{[\\text{Ca}^{2+}] \\times [\\text{C}_2\\text{O}_4^{2-}]}$.\n\n*Obs: A concentração de* $\\mathit{CaC}_2\\mathit{O}_4$ *(s) não aparece na expressão da constante de equilíbrio, pois, de acordo com a convenção, seu valor é unitário.*\n\nUma solução supersaturada é aquela cuja concentração do soluto em solução é maior que a concentração prevista pelo equilíbrio químico na temperatura considerada.",
+   "b": "A curva contínua com esferas mostra como varia a concentração de cálcio livre em solução quando a diluição da solução de $\\text{Ca}^{2+}$ mais concentrada ocorre em água. A curva contínua lisa indica a concentração de íons cálcio livres no equilíbrio após a precipitação do oxalato de cálcio na ausência de citrato. A adição de íons citrato e o aumento da sua concentração (curva pontilhada) aumentam o tempo para se atingir a concentração de íons $\\text{Ca}^{2+}$ livres no equilíbrio em relação à curva sem a presença do íon citrato. Isso significa que o íon citrato foi capaz de inibir a formação de oxalato de cálcio até a valores de concentração mais altos de $\\text{Ca}^{2+}$ livre."
+  }
+ },
+ "20": {
+  "itens": {
+   "a": "Devido à baixa umidade (baixo teor de água), a matéria orgânica fica mais propensa à combustão e a uma rápida propagação do fogo.\n\n**“Ingredientes”: (1)** <u>Combustível</u>: substância capaz de gerar calor por meio de uma reação química. É o material que reage com o oxidante. Neste caso, o combustível é o grão armazenado ou a poeira dos grãos no silo. **(2)** <u>Comburente</u>: substância oxidante que promove o consumo (queima) do combustível na reação; neste caso, o oxigênio. **(3)** <u>Calor</u>: é a fonte de ignição ou a energia que dá início ao fogo. Exemplos: faísca, chama, fontes de calor.",
+   "b": "No binômio fermentação/combustão, a <u>causa</u> é a fermentação e a <u>consequência</u> é a combustão. A alta umidade favorece o processo de fermentação e amplifica o ataque de fungos e insetos. Portanto, sensores de umidade são fundamentais. Sensores de $\\text{CO}_2$ e de temperatura são dois importantes indicadores da ocorrência do processo de fermentação, o qual leva a um aumento da concentração de $\\text{CO}_2$ e da temperatura."
+  }
  }
 }

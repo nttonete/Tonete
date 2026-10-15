@@ -1,0 +1,402 @@
+{
+ "edicao": {
+  "id": "unicamp-2024-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2024,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2024 – 2ª fase (2º dia: Ciências Humanas e Artes)",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "fonte": {
+   "caderno": "2fase-dia2-cha-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-dia2-cha-respostas.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2024-2-cha-q04",
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico a seguir exibe as temperaturas mínimas e máximas previstas para o período entre os dias 16 e 28 do mês de dezembro de 2023 numa determinada cidade.\n\n![Gráfico de linhas intitulado \"Temperaturas mínimas e máximas\", com os dias do mês de 16 a 28 no eixo horizontal. Temperatura mínima (azul), de 16 a 28: 14, 15, 17, 19, 18, 17, 16, 18, 18, 20, 20, 15, 15. Temperatura máxima (vermelha), de 16 a 28: 29, 32, 32, 31, 30, 30, 33, 33, 35, 32, 35, 32, 19](fig:p06-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando registros históricos, a temperatura máxima média para o mês de dezembro nesta cidade é de 27 graus. A temperatura máxima média prevista no período apresentado no gráfico é maior ou menor do que a média histórica? Justifique.",
+     "resposta_oficial": "A temperatura máxima média prevista para o período é de 31 graus, pois\n\n$$\\frac{29 + 32 + 32 + 31 + 30 + 30 + 33 + 33 + 35 + 32 + 35 + 32 + 19}{13} = 31.$$\n\nComo a média histórica é de 27 graus, a média no período apresentado é maior."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma pessoa vai se mudar para esta cidade no período indicado no gráfico. Ela poderá escolher qualquer dia para fazer a sua mudança. Qual a probabilidade de que ela escolha se mudar em um dia em que a temperatura mínima prevista seja maior do que 17 graus? Justifique.",
+     "resposta_oficial": "A temperatura mínima prevista é maior do que 17 nos dias: 19, 20, 23, 24, 25, 26. Portanto, a probabilidade de que a mudança seja num dia em que a mínima é maior do que 17 é de 6/13."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q05",
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere a função $y = f(x) = k \\cdot x^2 + b \\cdot x + 4$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para $k = -1$, determine o(s) valor(es) de $b$ para os quais o gráfico de $y = f(x)$ é simétrico com respeito ao eixo $y$. Para este(s) valor(es) de $b$, resolva $f(x) = 0$.",
+     "resposta_oficial": "Para $k = -1$, temos $y = f(x) = -x^2 + bx + 4$. Para que o gráfico seja simétrico com respeito ao eixo $y$, precisamos ter $f(x) = f(-x)$ para todo valor de $x$. Assim, temos $-x^2 + bx + 4 = -x^2 - bx + 4$, ou seja, $-bx = bx$ para todo $x$, e daí $b = 0$. Com este valor de $b$, a equação $f(x) = 0$ é $x^2 - 4 = 0$, ou seja, $x = \\pm 2$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Agora, para $k = 1$ e $b = -3$, determine a distância entre o vértice da parábola $y = f(x)$ e a origem (0,0).",
+     "resposta_oficial": "Para uma parábola de equação $y = ax^2 + bx + c$, as coordenadas do vértice da parábola são $(x_V, y_V) = \\left(-\\frac{b}{2a}, -\\frac{\\Delta}{4a}\\right)$. Para $k = 1$ e $b = 3$, temos que $f(x) = x^2 - 3x + 4$ e daí $\\Delta = -7$. Portanto, as coordenadas do vértice são $\\left(\\frac{3}{2}, \\frac{7}{4}\\right)$.\n\nA distância deste ponto até a origem é\n\n$$d = \\sqrt{\\left(\\frac{3}{2}\\right)^2 + \\left(\\frac{7}{4}\\right)^2} = \\frac{\\sqrt{85}}{4}.$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q06",
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Todos os meses, o Rei do Queijo vai até uma empresa de Campinas para vender seus queijos mineiros. Ele vende vários subtipos desse produto, além de outras iguarias, cujos preços praticados no mês de junho estão indicados na tabela abaixo.\n\n| queijo parmesão | queijo muçarela | salame |\n|---|---|---|\n| R\\$ 60,00 por quilo | R\\$ 40,00 por quilo | R\\$ 50,00 por quilo |",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em junho, Rodolfo comprou 250g de queijo parmesão, 1,5 kg de queijo muçarela e 400g de salame. Quanto ele pagou pelo total?",
+     "resposta_oficial": "Rodolfo comprou 250g de queijo parmesão, 1,5 kg de queijo muçarela e 400g de salame. Considerando os preços indicados na tabela, que são dados em quilo, e considerando as quantidades compradas também já convertidas para quilo, o valor total pago foi de $(0{,}25) \\cdot 60 + (1{,}5) \\cdot 40 + (0{,}4) \\cdot 50 = 95$ reais."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em setembro, o Rei do Queijo reajustou todos os seus preços. Nesse mês:\n\n• Ana comprou 2 quilos de queijo parmesão, um quilo de queijo muçarela e um quilo de salame. Pagou R\\$ 285,00 pelo total.\n• Bárbara comprou um quilo de queijo muçarela e um quilo de salame; pagou R\\$ 125,00 no total.\n\nCom base nessas informações, comparando o preço de setembro com o de junho, de quanto foi o reajuste percentual aplicado no preço do parmesão?",
+     "resposta_oficial": "Seja $P$ o preço reajustado do parmesão, $M$ o preço reajustado da muçarela e $S$ o preço reajustado do salame. O enunciado nos diz que $2P + M + S = 285$ (compra da Ana) e que $M + S = 125$ (compra da Bárbara). Subtraindo a segunda equação da primeira, obtemos que $2P = 160$, ou seja, $P = 80$. Portanto, o preço reajustado do queijo parmesão é de R\\$ 80,00 o quilo. Isto dá um aumento de R\\$ 20,00, que equivale a 33,3% do preço de junho. Portanto, o reajuste percentual foi de 33,3%."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q07",
+   "numero": 7,
+   "materia": "sociologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em agosto de 2023, o governo federal instituiu o “Programa Quintais Produtivos para Mulheres Rurais”. Os “Quintais Produtivos” são considerados uma prática econômica historicamente importante para as mulheres do campo, da floresta e das águas. Por meio dessa prática, elas retiram do próprio quintal quase toda a alimentação da família ao promoverem trocas entre a vizinhança – como, por exemplo, a troca de hortaliças por ovos – e comercializarem as sobras da produção. Tais atividades auxiliam na obtenção de recursos que ajudam a custear algumas despesas cotidianas, como transporte, vestimentas, alimentos, estudos das(os) filhas(os), etc. Essas atividades auxiliam na conservação da sociobiodiversidade, pois garantem a segurança alimentar e nutricional das famílias, fortalecem práticas agroecológicas e ajudam a disseminar a reprodução de sementes crioulas.\n\nTendo em vista seus conhecimentos e considerando o texto acima, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Por que os quintais produtivos são considerados práticas econômicas? Em que consistem essas práticas?",
+     "resposta_oficial": "Quintais produtivos podem ser considerados práticas econômicas, pois envolvem a produção, a circulação e o consumo de bens e mercadorias. Assim, a produção pode ser utilizada tanto para autoconsumo (subsistência) quanto para troca. Tal troca pode se dar de forma mercantil, isto é, trocando-se, um item produzido no quintal por dinheiro (venda); ou de forma não mercantil, isto é, trocando-se um item produzido no quintal por outro item diferente, produzido por um terceiro.\n\nTais práticas econômicas ajudam a integrar as famílias produtoras – em especial as mulheres – em circuitos de trocas (mercantis ou não). Isso aprofunda laços de solidariedade entre vizinhos, ajuda a dinamizar a economia local e diversifica a produção de alimentos, com impactos positivos para a qualidade e segurança alimentar e nutricional e para o meio-ambiente."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Descreva e explique pelo menos dois impactos para a sociedade em tornar os quintais produtivos uma política pública.",
+     "resposta_oficial": "Como impactos de tornar os quintais produtivos uma política pública, podemos citar:\n• a conservação da sociobiodiversidade, pois os quintais (1) tendem a empregar práticas agroecológicas, reduzindo a utilização de agrotóxicos; (2) diversificam a produção de frutas, verduras, legumes, ervas medicinais; (3) e favorecem a criação de pequenos animais;\n• a ampliação da segurança alimentar e nutricional das famílias envolvidas diretamente na produção ou por elas favorecidas, em função (1) da diversificação apontada no item anterior; e (2) do aumento do cultivo de alimentos, sejam eles para autoconsumo ou subsistência, sejam eles para a comercialização das sobras;\n• a comercialização das sobras torna possível a geração ou incremento de renda da família, especialmente para mulheres que são os principais sujeitos da produção em quintais. Desse modo, os quintais também favorecem a autonomia de tais mulheres.\n\nTornar os quintais produtivos uma política pública, portanto, pode produzir um efeito mais amplo para a sociedade, impactando em diferentes esferas da vida social, tais como o fortalecimento da autonomia de mulheres do campo, das florestas e das águas; a redução da fome e da insegurança alimentar e nutricional entre tais populações; o fortalecimento de práticas locais e tradicionais de cultivo sustentável; a dinamização de economias locais e o incremento da renda de famílias que vivem da produção agrícola, da pesca ou do extrativismo"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Nesta questão, eram esperadas respostas capazes de identificar que práticas econômicas podem ser ou não ser mercantis. Também eram esperadas respostas que diferenciassem as esferas de produção, circulação e consumo. Por fim, eram esperadas respostas que identificassem quais populações seriam alvo da política pública em questão e refletissem sobre seus impactos, identificando a relação entre Estado, políticas públicas e sociedade.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q08",
+   "numero": 8,
+   "materia": "filosofia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Texto 1**\n\nNão há motivo para duvidar de nossa atual capacidade para destruir toda a vida orgânica na Terra. A questão é apenas se desejamos usar nessa direção nosso novo conhecimento científico e técnico, e essa questão não pode ser decidida por meios científicos; é uma questão política de primeira grandeza, cuja decisão, portanto, não pode ser deixada a cientistas profissionais ou a políticos profissionais (...). Se for comprovado o divórcio entre o conhecimento (no sentido moderno de conhecimento técnico) e o pensamento, então passaríamos a ser, sem dúvida, escravos indefesos do nosso conhecimento técnico; nos tornaríamos criaturas desprovidas de pensamento à mercê de qualquer engenhoca tecnicamente possível, até mesmo da mais mortífera.\n\n(Adaptado de: ARENDT, H. *A condição humana*. Rio de Janeiro: Editora Forense Universitária, p. 3-4, 2010. Obra publicada pela primeira vez em 1958.)\n\n**Texto 2**\n\nA manifestação do pensamento não é o conhecimento, é a capacidade de distinguir o certo do errado, o belo do feio. E isso, na verdade, pode impedir catástrofes (...).\n\n(ARENDT, H. Pensamento e Considerações Morais. In: *Responsabilidade e Julgamento*. São Paulo: Companhia das Letras, p. 257, 2003. Texto publicado em 1971.)\n\nHannah Arendt escreveu o texto 1 ainda sob o impacto da catástrofe humanitária sem precedentes causada pelo lançamento de bombas atômicas sobre Hiroshima e Nagazaki em agosto de 1945. A bomba atômica foi produzida nos Estados Unidos, por uma equipe de cientistas liderados por Julius Robert Oppenheimer, e lançada sobre as cidades japonesas por decisão do governo norte-americano. Considerando os seus conhecimentos e os textos 1 e 2 acima, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "De acordo com Arendt, qual questão não deve ser deixada a cientistas e políticos profissionais? Justifique relacionando a questão com o contexto em que o texto 1 foi escrito.",
+     "resposta_oficial": "Espera-se que o candidato, ao ler o texto 1, compreenda que a decisão sobre o uso do conhecimento científico e técnico não deve ser deixada a cientistas e políticos profissionais. Mais precisamente, de acordo com Arendt, não são os cientistas e os políticos profissionais que devem decidir se desejamos que o novo conhecimento técnico e científico seja usado para destruir toda a vida orgânica na Terra, afinal essa é uma questão política de primeira grandeza.\n\nEspera-se ainda que o candidato relacione essa tese com o contexto de elaboração do texto 1. Como revela o enunciado, a filósofa o escreveu ainda sob o impacto da catástrofe humanitária causada pelo lançamento de bombas atômicas sobre Hiroshima e Nagazaki em 1945. Se a decisão sobre o uso da técnica e da ciência não deve ser tomada por cientistas e políticos profissionais, segundo o texto, é justamente porque a bomba de destruição em massa foi produzida por cientistas e lançada por determinação do governo norte-americano."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Por que o conhecimento científico e técnico não pode ser divorciado do pensamento? Justifique com base na noção de pensamento apresentada pela autora.",
+     "resposta_oficial": "Espera-se que o candidato, ao ler os textos 1 e 2, entenda que o conhecimento científico e técnico não pode ser divorciado do pensamento porque este nos torna capazes de distinguir o certo e o errado e, portanto, de julgar o usocorreto ou incorreto da técnica e da ciência. É fundamental que o candidato se baseie na definição de pensamento contida no texto 2 - “capacidade de distinguir o certo do errado, o belo do feio” - e seja capaz de explicitar que o pensamento, por ter uma dimensão reflexiva e ética, pode impedir catástrofes e também evitar que sejamos escravos da técnica e da ciência. Como sugere o texto 1, quando o conhecimento técnico e científico é divorciado do pensamento, ficamos à mercê da técnica porque perdemos a capacidade derefletir sobre os seus efeitos e avaliá-los criticamente."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q09",
+   "numero": 9,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nos últimos anos, a imprensa brasileira tem escrito sobre os mantos tupinambás.\n\n**Texto 1**\n\nNa revista Piauí, em 2021, lia-se: Cerca de 4,2 mil penas rubras da ave guará compõem um dos onze mantos tupinambás existentes no mundo. Há exemplares do século XVII conservados no Museu Nacional da Dinamarca. Outros mantos de que se tem notícia também estão em instituições públicas europeias. No Brasil, já não há nenhum. Os tupinambás confeccionaram esse artefato possivelmente em algum lugar de Pernambuco, do Sergipe ou da Paraíba. Quando os colonizadores não os matavam, os convertiam à fé cristã. Assim, por muito tempo, parte da historiografia ocidental acreditou que os tupinambás haviam desaparecido. Em 2001, no entanto, a Funai (Fundação Nacional do Índio) reconheceu como membros desse povo os moradores de 47 mil hectares localizados no Sul da Bahia.\n\n(Adaptado de: ROXO, E. “Longe de casa: o fascínio, a dor e o equívocos dos mantos tupinambás na Europa”. Revista *Piauí*, ed. 182, nov. 2021.)\n\n**Texto 2**\n\nArtefato que está em um museu de Copenhague há mais de três séculos deve retornar ao Brasil no início de 2024. ‘A gente acredita que seja um ancestral. Não se trata de uma obra de arte, de um mero objeto’, diz Glicéria Tupinambá, liderança deste povo.\n\n(Adaptado de: SETA, I. “Raríssimo manto tupinambá que está na Dinamarca será devolvido ao Brasil; peça vai ficar no Museu Nacional”. Portal Portal G1, 28 de junho de 2023. Diponível em: https://g1.globo.com/ciencia/noticia/2023/06/28/rarissimo-manto-tupinamba-que-esta-na-dinamarca-sera-devolvido-ao-brasil-peca-vai-ficar-no-museu-nacional.ghtml. Acesso em: 28/06/2023.)\n\nA partir de seus conhecimentos e das notícias acima,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Identifique dois aspectos da conversão dos povos originários à fé cristã. Com base nos textos 1 e 2, indique e explique uma forma de desaparecimento dos tupinambás.",
+     "resposta_oficial": "Durante o processo colonial, os povos indígenas foram continuamente violados física e simbolicamente, por meio da conversão à fé cristã e da inferiorização de seu sistema de crenças. Um desses modos foi a formação de aldeamentos com as missões jesuíticas, que trataram de propagar, por meio da educação, o culto às imagens cristãs, numa estrutura escolar baseada na escolástica. A catequese, assim, pode ser considerada um dos principais modos de conversão à fé cristã junto aos povos originários. Outro modo de conversão foi a política indigenista, com a fragmentação da população autóctone, o que levava à formação de povos aliados e inimigos aos portugueses, com contínuas práticas de subjugação política e militar. Nesse processo histórico, houve a destruição de tradições locais e expropriação de objetos e artefatos de valor ritual, como os mantos tupinambás citados no enunciado. Com isso, a descaracterização e dissolução dos traços culturais e de pertencimento étnico geraram o desaparecimento desses povos, ainda que seus herdeiros tenham passado a ser reconhecidos na atualidade, como afirmado no Texto 1. Outras formas de desaparecimento foram guerras de extermínio, tomada do território, escravização, conversão religiosa e a imposição da língua portuguesa."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite dois significados dos mantos tupinambás presentes nos textos 1 e 2. Explique a noção de política de repatriação de artefatos históricos.",
+     "resposta_oficial": "Os mantos tupinambás têm significado ritual, tendo sido usados por meio de sabedoria ancestral para momentos de grande importância das sociedades indígenas como enterros, assembleias e rituais religiosos. Como afirma o trecho do enunciado, os mantos não têm, para as comunidades indígenas na atualidade, apenas o aspecto artístico vinculado à tradição; antes, conjugam conexão com ancestralidade e luta pela existência simbólica e histórica. A política de repatriação, no caso do manto tupinambá que se encontra em Copenhague há três séculos, indica um processo de mobilização e de maior conscientização sobre os danos culturais, simbólicos e políticos causados pela expropriação de artefatos dos povos originários em contextos coloniais ou imperiais. Assim, a reivindicação de que esses itens retornem ao território de origem, com acompanhamento dos povos a eles relacionados, compõe uma política de memória e desejo de justiça histórica."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q10",
+   "numero": 10,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A extraordinária história de Catalina de Erauso (1585? – 1650) é bem conhecida. Quando jovem, escapou do convento para buscar aventuras no Novo Mundo. Para poder realizar suas façanhas, se vestiu e viveu como homem por quase vinte anos, adotando o nome de Erauso. Erauso era um soldado sanguinário e conquistador, lutava contra os indígenas araucanos. Por seus feitos, conseguiu o título de alferes. Quando, por fim, sua identidade primeira foi descoberta, recebeu do rei Felipe IV, por seu heroísmo, uma pensão alimentar e do Papa Urbano VIII uma dispensa e uma permissão para se vestir de homem pelo resto de sua vida.\n\n(Traduzido e adaptado de: GÓMEZ, M. A. “El problemático ‘feminismo’ de La Monja Alférez de Domingo Miras”. Em: *Espéculo: Revista de Estudios Literarios*, nº. 41, 2009.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com base em seus conhecimentos sobre o mundo moderno europeu e as instituições citadas no texto, explique por que a autora classifica a história de Catalina de Erauso como extraordinária.",
+     "resposta_oficial": "O texto discute a vida de Erauso, que consegue vivenciar a virilidade e os papeis culturais masculinos no século XVII, sendo reconhecido por seus feitos de conquistas coloniais até mesmo pelo rei e recebendo autorização do Papa para viver sua identidade masculina. A aceitação dessa figura pela sociedade da época — inclusive pela Igreja Católica — mostra-se extraordinária. Vale destacar que tal aceitação se deve ao fato de que não havia disseminado na sociedade europeia, daquele contexto, um modelo normativo sobre as sexualidades tal qual reconhecido a partir da sociedade vitoriana (que dá origem à moralidade burguesa e reforça os binarismos de gênero). A ousadia da personagem — indo contra os ditames de instituições cujas práticas opressivas são conhecidas, como os conventos religiosos ou o exército — também é destacada."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O chamado *novo mundo* trouxe mudanças práticas e simbólicas para a vida no Atlântico. Nesse contexto, explique duas funções das monarquias europeias e o papel desenvolvido pela Igreja na expansão territorial europeia moderna.",
+     "resposta_oficial": "No século XVII, a Igreja e o Estado são instituições aliadas na formação do Absolutismo Monárquico na Espanha. A Instituição religiosa, assim, legitimava o poder real e era capaz de julgar e prescrever condutas sociais — como, por exemplo, em relação à sexualidade e ao gênero (lembremos das perseguições clericais e inquisitoriais às personagens que desviavam das prescrições religiosas). Outras funções que podemos citar e explicar são (i) o poder político — ao promover, inclusive financeira e ideologicamente, o processo de colonização —; (ii) e a expansão da fé cristã no Novo Mundo, como parte do projeto de dominação colonial."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q11",
+   "numero": 11,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Texto 1**\n\nSomente mais tarde, aprendendo com a prática, principalmente depois da introdução dos primeiros escravos africanos, que já na sua pátria se tinham ocupado com lavagem do ouro, e de cuja experiência o natural espírito inventivo e esclarecido dos portugueses e brasileiros logo tirou proveito, foi que os mineiros aperfeiçoaram esses processos de extração. Deve-se principalmente aos negros a adoção das bateias de madeira, redondas e de pouco fundo, de dois a três palmos de diâmetro, que permitem a separação rápida do ouro da terra, quando o cascalho é bastante rico. A eles se devem, também, as chamadas canoas, nas quais se estende um couro peludo de boi, ou uma flanela, cuja função é reter o ouro, que se apura depois em bateias.\n\n(ESCHWEGE, W. L. *Pluto Brasiliensis*. Belo Horizonte/São Paulo: Itatiaia/EDUSP, p. 167-168, v. 1, 1979 [1833]).\n\n**Texto 2**\n\n![Fotografia de uma bateia de madeira, vasilha redonda e rasa](fig:p13-f3)\n\nBateia. Museu do Ouro, Sabará, MG.\n\nTendo em vista seus conhecimentos gerais e com base no relato de Eschwege, geólogo e metalurgista alemão que esteve no Brasil entre 1809 e 1821, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "De que modo a presença da bateia em Minas Gerais, na época da mineração, está relacionada à circulação de saberes da África para o Brasil? Usando o conceito de diáspora, explique o valor histórico das técnicas citadas por Eschewege.",
+     "resposta_oficial": "O geólogo Eschwege, no início do século XIX, reconhece que o artefato bateia, usado na mineração no contexto colonial na América Portuguesa, é de origem africana, sendo uma técnica apropriada na colônia para maior efetividade no processo de extração do ouro. Essa e outras técnicas ligadas à cultura, à religiosidade e ao trabalho estavam presentes em terras brasileiras, comprovando que, a partir da diáspora africana dada pelo tráfico transatlântico, os povos escravizados ajudaram e contribuíram com práticas e inovação no desenvolvimento do país. São fatores desse processo, assim, a própria resistência e continuidade de práticas culturais ancestrais e a criação de novas relações culturais em uma sociedade impactada pela cultura africana."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Tendo como contexto o período colonial, analise uma diferença entre a escravidão nas áreas urbanas da mineração e a escravidão nas áreas monocultoras de açúcar das capitanias do Nordeste. Explique como os povos escravizados utilizaram a seu favor as técnicas e saberes aprendidos com tradições culturais africanas .",
+     "resposta_oficial": "Nas áreas urbanas, o desenvolvimento econômico ligado à mineração fez com que surgissem espaços de trabalho ligados à especialização técnica como ourives, ferreiros, cutelaria, mas também arquitetura e escultura. Também houve o desenvolvimento de maior mobilidade social, por exemplo, e até mesmo possibilidades de associativismo negro que deram acesso à liberdade para sujeitos africanos ou de ancestralidade africana. Essa mobilidade social um pouco mais presente nas áreas urbanas — ligadas à possibilidade técnica de sujeitos africanos, como os da Costa da Mina — é uma diferença em relação à escravidão nas áreas rurais, por exemplo nas regiões monocultoras de açúcar. Também é possível destacar que os espaços de resistência foram diferentes nas áreas de mineração e nas áreas monocultoras, já que há consenso historiográfico de que uma maior liberdade de ação e acúmulo de renda permitiu um novo alcance de status social entre libertos no contexto urbano, sobretudo ligado ao ciclo de exploração do ouro. Eles puderam, por exemplo, criar irmandades e grupos para proteger seus interesses, assim como auxiliar na compra de alforrias."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q12",
+   "numero": 12,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Quando completei dez anos, comecei a adestrar bois. Foi assim que aprendi que adestrar e colonizar são a mesma coisa. Tanto o adestrador quanto o colonizador começam por desterritorializar o ente atacado quebrando-lhe a identidade, tirando-o de sua cosmologia, distanciando-se de seu sagrado, impondo-lhe novos modos de vida e colocando-lhe outro nome. O processo de denominação é uma tentativa de apagamento de uma memória para que outra possa ser composta. Há adestradores que batem e há adestradores que fazem carinho.\n\n(Disponível em: SANTOS, Antônio Bispo dos. *A terra dá, a terra quer*. São Paulo: Ubu Editora/PISEAGRAMA, p.11 – 12, 2023.)\n\nAntônio Bispo dos Santos, nascido no Piauí, é escritor, mestre, quilombola e lavrador. A partir de conhecimentos em História que você adquiriu ao longo de sua formação e da reflexão apresentada no texto,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "explique a comparação entre o “adestrar” e o “colonizar” feita por Antônio Bispo dos Santos. Indique um processo histórico do período colonial em que “adestradores fazem carinho” e justifique sua resposta.",
+     "resposta_oficial": "Antônio Bispo dos Santos alude em sua narrativa e reflexão históricas aos mecanismos de ação da colonização, formulando uma comparação com o processo de adestramento de bois, a saber: 1) a desterritorialização dos povos, como ocorrido com o tráfico transatlântico na escravidão moderna; 2) o distanciamento dos elementos culturais ligados ao sagrado, como nos processos de proibição dos cultos africanos no Brasil colonial, ou a tentativa de cristianização desses sujeitos, a exemplo das missões jesuíticas; 3) o estabelecimento do trabalho forçado que imprime outro modo de vida ao sujeito colonizado e escravizado e 4) o apagamento da memória, advindo de processos de despersonalização, desconexão com a família e sociedade de origem, assim como perda de conexão com a ancestralidade. O colonizado seria, portanto, adestrado como um animal, na tentativa de garantir sua docilidade frente ao colonizador. Como exemplo, o candidato poderia indicar a ação catequética da Igreja Católica durante o período colonial, a abolição da escravidão, em 1888, realizada de forma a manter o racismo e a desigualdade social no país, entre outros."
+    },
+    {
+     "rotulo": "b",
+     "texto": "mencione um grupo minoritário brasileiro da segunda metade século XX cuja luta possa ser compreendida a partir das reflexões de Antônio Bispo dos Santos. Explique como duas ações citadas pelo autor podem ser identificadas na trajetória desse movimento.",
+     "resposta_oficial": "No século XX, ocorreram diferentes movimentos históricos contrários ao processo de colonização. Pode-se citar, por exemplo no Brasil, a formação do Movimento Negro Unificado, fundado em 1978. Por meio de atividades como ativismo político, cultural e social, foram realizados atos públicos contrários ao racismo, organização de peças de teatro, oficinas, cursos e concursos de beleza que incentivaram a cultura de matriz africana e lutaram contra a colonização e apagamento da cultura negra brasileira. Os movimentos sociais indígenas que lutam pela representatividade política, opondo-se a séculos de práticas violentas contra diferentes etnias, também se configuram como reações de luta contra o colonialismo. Por fim, poderíamos citar o movimento quilombola contemporâneo, que, por meio da luta pela terra, expressa a resistência político-cultural que se confronta com as formas de apagamento da identidade negra e procura preservar a memória e o direito à existência desses grupos."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q13",
+   "numero": 13,
+   "materia": "historia",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "Dentre os diversos artefatos culturais produzidos durante a ditadura militar brasileira (1964-1985), o disco *Tropicália ou Panis et circenses* (1968) assinalou, a um só tempo, um choque e uma inflexão no modo de fazer e pensar a música popular do país. Lançado em dezembro de 1968, ele trazia em sua concepção frescor inventivo e irreverência. Com recursos da paródia, do pastiche e, sobretudo, da alegoria, o tropicalismo retirou das contradições da sociedade brasileira a matéria-prima de sua produção simbólica.\n\n(Adaptado de: PONTES, H e outros. “Da orla à sala de Jantar”. *Novos Estudos Cebrap*, 38 (3), 2019.)\n\n![Capa do disco Tropicália ou Panis Et Circencis, 1968: fotografia de um grupo de pessoas num jardim de inverno, com instrumentos musicais, uma xícara e dois retratos emoldurados, cercada por faixas coloridas com o título e a identificação da gravadora Philips](fig:p15-c1)\n\n(GERCHMAN, R. Capa do Disco *Tropicália ou Panis Et Circencis*, 1968.)\n\nAnalisando texto e imagem, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A imagem trabalha com contraposições construídas pelo movimento tropicalista. Identifique dois pares de elementos culturais que estão em oposição e justifique sua escolha.",
+     "resposta_oficial": "Utilizando-se do recurso da paródia, da alegoria e do pastiche, a imagem da capa do disco *Tropicália* trabalha com oposições que permitem as contraposições entre o popular e o erudito, o nacional e o internacional, a cultura e a natureza, simbolizados pelos:\n\n1. trajes com estampas étnicas *versus* trajes com referência à cultura jovem norte-americana;\n2. instrumentos musicais usados na cultura dita popular *versus* instrumentos musicais da cultura jovem norte-americana;\n3. paisagem industrial (representada pelo ferro e vidro) *versus* elementos botânicos;\n4. uso do penico como xícara *versus* formalidade dos artistas sentados nas cadeiras;\n5. uso de cadeiras por artistas, com exceção de Gilberto Gil, artista negro, sentado ao chão.\n\nÉ importante destacar que a Tropicália, através de sua reverência, produz a fusão desses elementos, criando novas estéticas culturais."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique qual a visão do movimento tropicalista sobre a identidade nacional brasileira. Cite uma produção cultural desse movimento que ilustre o seu argumento.",
+     "resposta_oficial": "A identidade nacional, dentro da Tropicália, era entendida como dinâmica e plural, não estando presa a essencialismos identitários ou a parâmetros estéticos pré-definidos. Entre tantas produções culturais do movimento, que valorizam a fusão de estilos para a criação de algo novo, podemos destacar as canções \"Alegria, Alegria\" (1968), de Caetano Veloso, \"Domingo no Parque\" (1968), de Gilberto Gil, entre outras."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q14",
+   "numero": 14,
+   "materia": "historia",
+   "materias_extra": [
+    "filosofia"
+   ],
+   "texto_base": null,
+   "enunciado": "A rotina do trabalho diário e a falta de tempo para dormir e sonhar, que acometem a maioria dos trabalhadores, são cruciais para o mal-estar da civilização contemporânea. É gritante o contraste entre a relevância do sonho, que marcou o passado da humanidade, e sua total banalização no mundo industrial globalizado. No século XXI, a busca pelo sono perdido envolve rastreadores de sono, colchões high-tech e uma variedade de remédios. Mesmo assim, a insônia impera. Com a falta do sono e dos sonhos, perdemos mais do que nossa saúde. O sono e o sonho possuem papéis culturais de compatibilização do passado, presente e futuro. Simplificando muito, é como se os sonhos fossem geradores de cenários e soluções com base na experiência passada e nas velhas estruturas vividas: sonhar com um futuro melhor está na essência do sonhar. A dificuldade humana de imaginar futuros alternativos se deve ao abandono do sonho. Não prestamos atenção aos sonhos, seja em casa, na escola ou no trabalho. E mesmo quando conseguimos lembrar nossos sonhos, muitas vezes eles retratam apenas desejos e medos individuais, ao invés de uma visão coletiva de um futuro melhor. Com nossa introspecção amortecida e nossa empatia sufocada, obstinadamente continuamos a avançar em direção ao momento mais perigoso da aventura humana.\n\n(Adaptado de: RIBEIRO. S. *O oráculo da noite: A história e a ciência do sonho.* São Paulo: Companhia das Letras, 2019. Marcelo Leite. “Para neurocientista Sidarta Ribeiro, sonhos são antídoto para extinção da espécie”. *Folha de São Paulo.* mai. 2022. Rebouças J. P. “Sonhar é preciso”. Agência de comunicação. UFRN, nov. 2022.)\n\nApós a leitura do trecho acima, produzido a partir de livros e entrevistas do neurocientista brasileiro Sidarta Ribeiro,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "explique a importância cultural do sono e do sonho para a história da humanidade, remetendo a quatro argumentos explorados no texto.",
+     "resposta_oficial": "Sidarta Ribeiro argumenta que o sonho e a capacidade de sonhar são fundamentais para compatibilizar o passado com o presente e com o futuro quando pensamos em experiência humana. Seria a partir dos mecanismos de sono e sonho que processaríamos as experiências pelas quais vivemos como comunidade e, de forma coletiva, poderíamos pensar em soluções ou cenários diferenciados para o futuro. Para ele,\n\n1. a saúde e a qualidade de vida estão atreladas ao sono e ao sonho;\n2. sono e sonho são geradores de cenários e soluções baseados na experiência passada;\n3. sonhos coletivos são fundamentais para a construção de futuros melhores;\n4. nossos sonhos atuais são termômetros de nosso momento na história humana (individualizada);\n5. a não atenção aos sonhos amortece a introspecção e a empatia;\n6. sem os sonhos coletivos têm-se também a morte da utopia."
+    },
+    {
+     "rotulo": "b",
+     "texto": "explique se é possível afirmar que Sidarta Ribeiro constrói uma utopia para o tempo presente. Na sua resposta, defina o conceito de utopia e dê um exemplo de utopia produzida no mundo contemporâneo.",
+     "resposta_oficial": "Para o autor, compartilharmos a possibilidade de dormir. Sonhar (sem mecanismos medicamentosos ou outros artifícios tecnológicos) nos ativaria a possibilidade de engendrar futuros melhores. Sua utopia está centrada nos sonhos partilhados como um resgate da empatia e da possibilidade de vida coletiva. O conceito de utopia (“em lugar algum”) foi elaborado por Thomas Morus em 1516, e, entre suas propostas, estava o exercício imaginativo de pensar uma sociedade sem problemas. No mundo contemporâneo — frente às distopias causadas pelos eventos climáticos, injustiça social, fortalecimento das fakes news e inteligência artificial, entre outros, tanto em sociedades tradicionais como nas ocidentais —, sonha-se, por exemplo, com cenários nos quais haja equilíbrio ambiental e justiça social."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q15",
+   "numero": 15,
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "Desde sua independência, em 1956, o Sudão tem sido assolado por guerras civis. Com a criação do Sudão do Sul, em 2011, o Sudão perde parte de seu território, passando a enfrentar conflitos por delimitação de fronteira com o novo país vizinho. Soma-se a isso uma grave crise política interna, iniciada em 2023, cujos confrontos armados levam a um deslocamento interno massivo da população do país.\n\n![Mapa do Sudão e do Sudão do Sul com a infraestrutura instalada no circuito do petróleo em 2011: áreas de exploração de petróleo, oleodutos, oleoduto projetado, campos de petróleo e refinarias, cidades e porto](fig:p17-c1)\n\n(Adaptado de: Sudan country profile. Disponível em: www.bbc.com/news/world-africa-14094995. Acesso em: 06/09/2023.)\n\nA partir de seus conhecimentos e do mapa ao lado, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual potência europeia colonizou o Sudão a partir do final do século XIX? Aponte ao menos três fatores responsáveis pela recorrência de guerras civis no Sudão após a independência.",
+     "resposta_oficial": "A potência europeia que colonizou o Sudão a partir do século XIX foi a Inglaterra. Os conflitos internos no Sudão estão associados a diversos fatores, mas os mais importantes relacionam-se: ao processo de herança da colonização anglo-egípcia que unificou dentro do então território colonial grupos étnico-linguístico-religiosos distintos, sendo que muitos deles mantinham rivalidades históricas e passaram a conviver dentro do mesmo território colonizado. Com a independência do país, as rivalidades permaneceram, com especial destaque para as diferenças linguísticas e religiosas; à disputa pelo controle dos recursos naturais envolvendo, especialmente, combustíveis fósseis e ouro; às disputas pelo controle do poder político do país envolvendo as elites econômicas e/ou grupos militares, que se valem do recrutamento de facções de rebeldes para a formação de seus exércitos, com consequente aprofundamento dos conflitos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique o recurso natural que tem sido disputado entre Sudão e Sudão do Sul. Explique como a configuração territorial relacionada à exploração desse recurso acirrou o conflito entre esses países.",
+     "resposta_oficial": "O recurso natural que tem sido disputado entre o Sudão e o Sudão do Sul é o petróleo. O Sudão do Sul concentrou a maior parte das reservas de petróleo, enquanto que o Sudão passou a controlar as refinarias e a infraestrutura instalada (oleodutos e porto) para o escoamento do petróleo bruto ou refinado. Com a nova configuração, o Sudão do Sul manteve-se dependente do Sudão para o escoamento do petróleo para exportação; além disso, as reservas de petróleo se localizam, predominantemente, na fronteira entre os dois países, o que gera situação de litígio e disputas para o controle das áreas de ocorrência do recurso, com o aprofundamento da crise da já instável relação política na região."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q16",
+   "numero": 16,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nas últimas duas décadas, Brasil, Rússia, Índia, China e África do Sul estreitaram relações de cooperação, dando origem ao grupo denominado BRICS. A primeira reunião de Cúpula ocorreu em 2009 – sem a participação da África do Sul, que foi incorporada ao grupo de países em 2011. Ainda que não se constitua oficialmente como bloco econômico, o BRICS vem articulando um conjunto de ações geopolíticas e econômico-financeiras, buscando influir na ordem global. Na 15ª Cúpula de chefes de Estado do BRICS, ocorrida em 2023, na África do Sul, tomou-se a decisão de incorporar seis novos países ao grupo: Argentina, Arábia Saudita, Irã, Emirados Árabes Unidos, Egito e Etiópia. Com essa nova configuração, o BRICS+, a partir de 2024, responderá por aproximadamente 46% da população mundial e quase 36% do PIB global.\n\nCom base em seus conhecimentos e no texto acima, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em qual momento de crise mundial foi criado o BRICS? Apresente ao menos três características semelhantes entre os países que formaram inicialmente o BRICS.",
+     "resposta_oficial": "O BRICS foi criado no contexto da crise mundial de 2008, inicialmente composto por Brasil, Rússia, Índia e China. Estes quatro países, apesar de heterogêneos, apresentam as seguintes caraterísticas comuns: possuem grande extensão territorial; contam com um grande contingente populacional; possuem recursos naturais/minerais estratégicos (petróleo, gás natural, minério de ferro, ouro, água, entre outras riquezas); não compõem o grupo de países mais ricos; são economias industrializadas; são importantes exportadores de commodities; apresentam grandes desigualdades sociais; dentre outras."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique a principal ação econômico-financeira do BRICS e a sua finalidade e cite duas aspirações políticas do grupo no âmbito do sistema internacional.",
+     "resposta_oficial": "A principal ação do ponto de vista econômico-financeiro foi a criação do “Banco do BRICS” (Novo Banco de Desenvolvimento – NDB), uma instituição financeira de desenvolvimento multilateral voltada a ampliar a cooperação Sul-Sul. Esse banco tem por finalidade apoiar os países membros, assim como outros países periféricos, com empréstimos a juros mais baixos para financiar investimentos estratégicos em infraestrutura, energias renováveis, saneamento, entre outros. Dentre as aspirações políticas do BRICS, destacam-se, dentre as principais, as seguintes: desenvolver ações voltadas a criar alternativas a dominância financeira global de instituições como FMI e Banco Mundial; interferir no sistema internacional e na geopolítica global, desafiando a hegemonia do G7 (formado pelos sete países mais ricos do mundo e sob hegemonia dos EUA); ampliar o poder de decisão dos países membros em órgãos como a ONU; fortalecer o grupo de países do G20; reformar as instituições financeiras internacionais; e ampliar a cooperação Sul-Sul."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q17",
+   "numero": 17,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Do ponto de vista astronômico, a tropicalidade é estabelecida pelas áreas situadas entre as latitudes de 23º27’33”, ao norte e ao sul do Equador, compondo um anel ao redor do globo, anel este que corresponde a 46% de sua superfície total. O significado dessas linhas é, porém, bem relativo, uma vez que as regiões tropicais estão longe de serem homogêneas, as características da tropicalidade se manifestam para além das linhas dos Trópicos e também podem estar ausentes no interior das zonas tropicais.\n\n(Adaptado de: CONTI, J. B. O meio ambiente Tropical. *Geografia*, v. 14, n. 28, 1989.)\n\n![Mapa-múndi com a legenda: zona tropical, zona temperada, zona polar e oceanos](fig:p19-c1)\n\nAdaptado de: https://atlasescolar.ibge.gov.br/mapas-atlas/mapas-do-mundo/dinamica-dos-climas. Acesso em: 20/10/2023.)\n\nA partir de seus conhecimentos, da leitura do texto e da análise do mapa, responda às questões, a seguir, sobre a tropicalidade.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Uma das características que marca a tropicalidade é a diversidade de paisagens. Aponte duas características biogeográficas de cada uma das seguintes regiões tropicais: áreas de florestas e áreas de savanas.",
+     "resposta_oficial": "No que se refere às características biogeográficas das florestas tropicais, destacam-se, dentre outras, as seguintes: apresentam estratos herbáceo, arbustivo e arbóreo, sendo que o último pode variar entre 20 e 50 metros de altura; têm grande biodiversidade; são compostas por espécies higrófilas (vivem no meio aquático) e espécies hidrófilas (precisam de muita umidade – climas chuvosos); as folhas são predominantemente latifoliadas com dorsel bastante desenvolvido; têm grande número de espécies endêmicas, tanto da fauna como da flora; e, a depender do regime de chuvas, podem ser ombrófilas ou estacionais, além de decíduas e semidecíduas, a depender do período sem chuvas. Como características biogeográficas das savanas, destacam-se as seguintes: estratos herbáceo, arbustivo e arbóreo, sendo que a altura das árvores não supera os 10 metros; espécies adaptadas a sazonalidade climática (estação úmida e estação seca); presença de raízes profundas; folhas pequenas, grossas e peludas (coreáceas); fisionomia podendo apresentar galhos tortuosos; espécies vegetais decíduas; importância da autocombustão (visto que as sementes com casca mais grossa saem da dormência em contato com o fogo); grande biodiversidade."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cerca de 75% da região tropical é formada por oceanos. Apresente duas características da dinâmica dos oceanos na região tropical que influenciam na tropicalidade das áreas continentais; explique como se realiza a transferência de energia entre as regiões tropicais e as regiões temperadas e polares.",
+     "resposta_oficial": "Entre as características da dinâmica dos oceanos nas áreas tropicais destacam-se: a formação das correntes marítimas quentes próximas ao Equador; a formação de águas mais frias e desertos próximos dos trópicos por influência da chegada de correntes marítimas frias; a menor taxa de salinidade da água do oceano próxima ao Equador por consequência das maiores precipitações e maior descarga fluvial; uma maior taxa de salinidade próxima aos trópicos por conta dos menores índices pluviométricos; variações na temperatura superficial dos oceanos tropicais que ocasionam oscilações climáticas, a exemplo do El Niño e da La Niña; e, por fim, uma maior riqueza de espécies e um maior número de relações ecológicas em diversos ecossistemas, como recifes de coral e recifes rochosos, manguezais, pradarias de fanerógamas marinhas e praias.\n\nJá a transferência de energia entre as regiões tropicais e as regiões temperadas e polares ocorre a partir da circulação oceânica e da circulação atmosférica. A circulação oceânica se dá com a mobilidade das correntes marítimas que têm diferentes temperaturas: assim, as correntes marítimas quentes transferem águas superficiais com temperatura mais elevada da região intertropical para as áreas temperadas; já as correntes marítimas frias transferem águas superficiais com temperatura mais baixa das regiões polares para áreas temperadas e/ou tropicais, a depender do hemisfério. A circulação atmosférica, por sua vez, transfere o excedente de energia solar da faixa equatorial e tropical (com *superávit* de energia) para as zonas temperadas e polares (com *déficit* de energia)."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q18",
+   "numero": 18,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os vulcões representam uma séria ameaça para aqueles que vivem em suas proximidades, assim como podem proporcionar benefícios e contribuir positivamente para o desenvolvimento da sociedade. Os países da região do Círculo do Fogo do Pacífico exploram os recursos naturais provenientes da atividade vulcânica ativa. No Brasil, por sua vez, existem vulcões extintos, a exemplo do localizado em Poços de Caldas-MG. Hoje, diversas atividades econômicas estão relacionadas a essa formação geológica, como no caso do denominado café da região vulcânica cultivado entre os estados de Minas Gerais e São Paulo.\n\n(Disponível em: https://www.usgs.gov/faqs/what-are-some-benefits-volcanic-eruptions e https://g1.globo.com/mg/sul-de-minas/noticia/2023/05/24/regiao-vulcanica-de-pocos-de-caldas-recebe-titulo-de-utilidade-publica-para-producao-de-cafes-especiais.ghtml. Acesso em: 21/11/2023)\n\nA partir da leitura do texto e de seus conhecimentos, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Diferencie vulcão ativo de vulcão extinto. Indique uma característica do relevo e uma característica do clima de antigas regiões vulcânicas que permitem o cultivo de café especial, como no caso da região de Poços de Caldas-MG.",
+     "resposta_oficial": "Um vulcão ativo se diferencia de um vulcão extinto em virtude do fato de, no ativo, a câmara magmática estar, como o próprio nome sugere, \"ativa\" e com atividade magmática podendo ocorrer a qualquer momento; um vulcão extinto, por sua vez, é aquele em que a câmara magmática não está em atividade. Uma característica do relevo de antigas áreas vulcânicas é a conservação da estrutura do antigo vulcão que apresenta área com maior altitude e grandes desníveis altimétricos. Como característica climática, destaca-se a ocorrência do clima de altitude, caracterizado por temperaturas mais amenas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Com relação ao vulcanismo ativo, indique dois fatores responsáveis pela maior ocorrência de erupções vulcânicas significativas em países situados no Círculo do Fogo do Pacífico. Cite dois tipos de recursos naturais utilizados nas atividades econômicas decorrentes do vulcanismo ativo.",
+     "resposta_oficial": "Nos países situados no Círculo do Fogo do Pacífico, o vulcanismo ativo ocorre por conta da presença de *hotspots* e das zonas tectônicas ativas, formadas pelo contato de placas tectônicas. Como recursos naturais de atividades econômicas em zonas de vulcanismo ativo, podem-se citar os seguintes: a exploração de solos férteis para a agricultura, o aproveitamento da energia geotérmica, a exploração de águas termais, a exploração dos recursos minerais e a utilização do seu entorno para o turismo e a recreação."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q19",
+   "numero": 19,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Brasil se destaca, quando comparado com o resto do mundo, por ser um país com alto percentual de fontes de energia renováveis em sua oferta interna. Nos últimos vinte anos, a participação das fontes renováveis na matriz energética brasileira manteve-se estável, com valores superiores a 40%. Entre 2011 e 2014, houve uma redução da participação de fontes renováveis no total da matriz energética, mas, a partir de 2015, as fontes renováveis retomam uma trajetória de crescimento com a expansão da oferta de energia.\n\n(Adaptado de: *Atlas de Eficiência Energética – Brasil 2022: Relatório de Indicadores.* Brasília: Ministério de Minas e Energia; Empresa de Pesquisa Energética; Agência Internacional de Energia, 2022.)\n\nBrasil - Evolução da participação das fontes renováveis e não renováveis na oferta interna de energia (2010-2022)\n\n| FONTES | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Carvão Mineral e Coque | 5,4 | 5,7 | 5,4 | 5,6 | 5,7 | 5,9 | 5,5 | 5,7 | 5,6 | 5,2 | 4,8 | 5,6 | 4,6 |\n| Derivados da Cana | 17,5 | 15,7 | 15,4 | 16,0 | 15,7 | 16,9 | 17,4 | 16,9 | 17,2 | 17,9 | 19,0 | 16,3 | 15,4 |\n| Eólica | 0,1 | 0,1 | 0,2 | 0,2 | 0,3 | 0,6 | 1,0 | 1,2 | 1,4 | 1,6 | 1,7 | 2,1 | 2,3 |\n| Gás Natural | 10,2 | 10,2 | 11,5 | 12,7 | 13,5 | 13,6 | 12,3 | 12,9 | 12,3 | 12,2 | 11,7 | 13,3 | 10,5 |\n| Hidráulica | 14,0 | 14,7 | 13,8 | 12,5 | 11,4 | 11,3 | 12,5 | 11,9 | 12,5 | 12,3 | 12,5 | 10,9 | 12,5 |\n| Lenha e Carvão Vegetal | 9,7 | 9,5 | 9,1 | 8,4 | 8,2 | 8,3 | 8,1 | 8,4 | 9,0 | 8,9 | 9,1 | 9,0 | 9,0 |\n| Outras Não Renováveis | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |\n| Outras Renováveis | 3,4 | 3,5 | 3,4 | 3,4 | 3,7 | 4,1 | 4,4 | 4,7 | 5,3 | 5,2 | 5,7 | 5,9 | 7,0 |\n| Petróleo e Derivados | 37,8 | 38,5 | 39,2 | 39,1 | 39,2 | 37,2 | 36,4 | 36,0 | 34,1 | 34,1 | 32,9 | 34,2 | 35,7 |\n| Solar | 0,1 | 0,1 | 0,1 | 0,2 | 0,2 | 0,2 | 0,2 | 0,3 | 0,4 | 0,5 | 0,6 | 0,8 | 1,2 |\n| Urânio ($\\text{U}_3\\text{O}_8$) | 1,4 | 1,5 | 1,5 | 1,4 | 1,3 | 1,3 | 1,5 | 1,4 | 1,4 | 1,5 | 1,3 | 1,3 | 1,3 |\n\n(Empresa de Pesquisa Energética, 2023.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com exceção da fonte hidráulica, mencione duas das principais fontes de energia renovável no território brasileiro. Por que houve queda na oferta interna de energia hidráulica entre 2011 e 2014 e por que essa oferta não voltou a atingir os mesmos percentuais do início da década de 2010?",
+     "resposta_oficial": "Além da fonte hidráulica, o Brasil conta com as seguintes fontes de energia renováveis: derivados da cana, eólica, solar, biomassa (inclusa nas outras renováveis). Entre 2011 e 2014, caiu a oferta de energia hidráulica em função de um período de estiagem mais intenso (momento da denominada crise hídrica). A partir desse momento, a oferta de energia hidráulica se mantém com relativa menor participação entre as fontes de energia do país em função do crescimento da oferta de energia eólica e solar, por exemplo."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Quais macrorregiões do país são as principais produtoras de energia eólica? Quais fatores do meio físico condicionam sua localização?",
+     "resposta_oficial": "As macrorregiões do país que são as principais produtoras de energia eólica são a Sul e a Nordeste. Essas regiões se destacam justamente por terem um conjunto de atributos do meio físico que favorecem a geração de energia eólica, com instalação dos parques produtores. Entre os atributos destacam-se: topografia plana (áreas costeiras e topos de tabuleiros de chapada) e ventos constantes durante o ano todo."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cha-q20",
+   "numero": 20,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Ao analisar as Tabelas 1 e 2, verifica-se que, nas regiões Centro-Oeste e Norte, todos os estados, exceto Rondônia, tiveram uma taxa de crescimento anual de suas populações a qual ficou acima da média brasileira – considerando-se que a taxa brasileira de crescimento anual foi de 0,52% entre 2010 e 2022.\n\nTabela 1 - Taxa de crescimento anual da população da Região Norte entre 2010 e 2022\n\n| UF | Taxa (em %) |\n|---|---|\n| AC | 1,03 |\n| AM | 1,03 |\n| AP | 0,77 |\n| PA | 0,58 |\n| RO | 0,10 |\n| RR | 2,93 |\n| TO | 0,74 |\n\nTabela 2 - Taxa de crescimento anual da população da Região Centro-Oeste entre 2010 e 2022\n\n| UF | Taxa (em %) |\n|---|---|\n| DF | 0,76 |\n| GO | 1,36 |\n| MT | 1,57 |\n| MS | 0,99 |\n\n(Disponível em: https://censo2022.ibge.gov.br/panorama/indicadores.html?localidade=BR. Acesso em: 03/09/2023.)\n\nSobre o processo de ocupação e modernização do território brasileiro e tendo em vista as informações da tabela, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O que explica a elevada taxa de crescimento anual da população na Região Centro-Oeste na última década? Indique o principal eixo de metropolização da região e os fatores que impulsionam seu dinamismo.",
+     "resposta_oficial": "A região Centro-Oeste apresentou elevado crescimento demográfico na última década, como consequência da continuidade do movimento migratório da população brasileira para a região, associado ao dinamismo do agronegócio, da urbanização, da maior oferta de empregos e postos de trabalhos em diferentes setores da economia, da melhoria da infraestrutura de transporte, energia e comunicação, dentre outros fatores. O principal eixo de metropolização é constituído por Goiânia-Anápolis-Brasília, resultado de acelerada urbanização com concentração da população em grandes centros. Ademais, tal eixo de metropolização se consolidou com a instalação de importantes polos industriais, como é o caso de Anápolis e Goiânia, e devido ao fortalecimento das funções de Brasília como centro de gestão nacional e como área de entroncamento de um eixo modal (de transporte rodoviário e aeroviário). Isso gerou dinamismo no setor terciário, no mercado imobiliário e nas atividades comerciais de diversos ramos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na Região Norte, entre os anos 1980 e 1991, o estado de Rondônia apresentou taxa de crescimento anual de 7,87%; já entre os anos de 2010 e 2022, foi o estado de Roraima que apresentou alta taxa de crescimento anual. Aponte dois fatores para o aumento da taxa de crescimento anual dos dois estados nos períodos mencionados.",
+     "resposta_oficial": "Rondônia faz parte do eixo de expansão, a partir da década de 1970, da Amazônia ocidental. Esse processo assistiu à implantação dos projetos de exploração agropecuária, mineral e energético, o que atraiu um grande número de pessoas de todo o país em busca de oportunidades econômicas, principalmente depois que Rondônia se tornou um estado da federação em 1981. Em particular, Rondônia recebeu diversos projetos de colonização promovidos pelo Estado brasileiro. Roraima, por sua vez, apresenta um crescimento populacional mais recente, associado, sobretudo, à migração de população brasileira, que, embora tenha crescido a partir da criação do estado, em 1981, torna-se mais relevante no século XXI. Acrescenta-se, além disso, o crescimento da chegada de imigrantes venezuelanos que se intensificou nos últimos dez anos. Ademais, Roraima é um estado que vem apresentando expansão da agropecuária modernizada, em uma nova fronteira agrícola em crescimento, expansão da exploração mineral, com destaque para o garimpo de ouro."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  }
+ ]
+}

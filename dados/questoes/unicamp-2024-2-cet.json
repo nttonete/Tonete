@@ -245,6 +245,230 @@
    ],
    "resposta_oficial": null,
    "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q11",
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A fabricação da próxima geração de *chips*, previstos para entrada no mercado em 2024, com maior velocidade de processamento e menor consumo de energia, é baseada na tecnologia de litografia com luz na região do ultravioleta extremo. Nesse processo, gotas de estanho são bombardeadas com pulsos de laser, o que dá origem a um plasma que emite radiação com comprimento de onda na região do ultravioleta extremo.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para a formação do plasma, inicialmente eleva-se a temperatura da gota de estanho através do bombardeamento com um primeiro pulso de laser. O estanho tem densidade $\\rho \\simeq 7{,}0 \\times 10^3\\ \\text{kg/m}^3$ e calor específico $c_{\\text{Sn}} \\simeq 200\\ \\dfrac{\\text{J}}{\\text{kg} \\cdot {}^\\circ\\text{C}}$, e o volume da gota é $V = 2{,}0 \\times 10^{-14}\\ \\text{m}^3$. Qual a energia que um pulso de laser deve conter para elevar a temperatura da gota de 25 °C para 175 °C?",
+     "resposta_oficial": "$$m = \\rho V = 7{,}0 \\times 10^3\\ \\frac{\\text{kg}}{\\text{m}^3} \\times 2{,}0 \\times 10^{-14}\\ \\text{m}^3 = 1{,}4 \\times 10^{-10}\\ \\text{kg}$$\n\n$$Q = mc\\Delta T = 1{,}4 \\times 10^{-10}\\ \\text{kg} \\times 200\\ \\frac{\\text{J}}{\\text{Kg}\\ ^\\circ\\text{C}} \\times (175\\ ^\\circ\\text{C} - 25\\ ^\\circ\\text{C}) = 4{,}2 \\times 10^{-6}\\ \\text{J}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um pulso de laser de comprimento de onda $\\lambda = 10{,}5\\ \\mu\\text{m}$ é usado em um experimento de teste para a formação de plasma. A potência do laser, em função do tempo, tem o perfil de um triângulo retângulo, como representado na figura, de forma que a energia total do pulso é dada pela área sob a curva. Sabendo-se que a energia $E$ de um fóton é dada por $E = hf$, sendo $h \\simeq 7 \\times 10^{-34}\\ \\text{J} \\cdot \\text{s}$ e $f$ a frequência da radiação, quantos fótons contém o pulso de laser?\nDado: Velocidade da luz no vácuo: $c = 3 \\times 10^8\\ \\text{m/s}$.\n\n![Gráfico da potência do laser (10⁶ W) em função do tempo (10⁻⁹ s): perfil de triângulo retângulo, com pontos experimentais dispersos ao redor](fig:p13-f3)",
+     "resposta_oficial": "Energia do pulso:\n\n$$E_{\\text{pulso}} = \\text{área sob a curva} = \\frac{(175 \\times 10^{-9}\\ \\text{s}) \\times (8 \\times 10^6\\ \\text{W})}{2} = 0{,}7\\ \\text{J}$$\n\nEnergia de um fóton:\n\n$$E_{\\text{fóton}} = hf = h\\frac{c}{\\lambda} = 7 \\times 10^{-34}\\ \\text{J} \\cdot \\text{s} \\times \\frac{3 \\times 10^8\\ \\text{m/s}}{10{,}5 \\times 10^{-6}\\ \\text{m}} = 2 \\times 10^{-20}\\ \\text{J}$$\n\nNúmero de fótons:\n\n$$N = \\frac{E_{\\text{pulso}}}{E_{\\text{fóton}}} = \\frac{0{,}7\\ \\text{J}}{2 \\times 10^{-20}\\ \\text{J}} = 3{,}5 \\times 10^{19}\\ \\text{fótons}$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q12",
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Num processo de produção de *chips*, usa-se luz gerada pelo plasma de uma gota de estanho. Essa luz é usada para gravar o desenho dos dispositivos em uma superfície.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para garantir que uma gota não interfira no plasma de outra, elas devem ser injetadas, em intervalos de tempo bem definidos, na máquina que faz a escrita dos *chips*. Sabendo que a velocidade das gotas é $v = 80\\ \\text{m/s}$, e que elas são injetadas a uma frequência $f = 50\\ \\text{kHz}$, qual a distância $\\Delta s$ entre duas gotas consecutivas?",
+     "resposta_oficial": "Tempo entre duas gotas:\n\n$$\\Delta t = \\frac{1}{f} = \\frac{1}{5 \\times 10^4} = 2 \\times 10^{-5}\\ \\text{s}$$\n\nDistância entre gotas:\n\n$$\\Delta x = v \\times \\Delta t = 80\\ \\text{m/s} \\times 2 \\times 10^{-5}\\ \\text{s} = 1{,}6 \\times 10^{-3}\\ \\text{m} = 1{,}6\\ \\text{mm}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para a escrita dos *chips*, uma lente objetiva é utilizada na focalização de um feixe luminoso na superfície. A figura A ilustra dois raios luminosos incidindo paralelamente ao eixo óptico de uma lente convergente de diâmetro $D = 6{,}0\\ \\text{mm}$ e distância focal $F = 4{,}0\\ \\text{mm}$, imersa no ar ($n_{\\text{ar}} = 1$). Para mudar a trajetória do feixe luminoso e melhorar o processo de gravação, usa-se um líquido entre a lente e a superfície. A figura B representa uma situação similar à da figura A, com os raios que emergem da lente adentrando um meio líquido. Qual é o índice de refração $n_2$ do líquido?\n\n![Figuras A e B. Figura A: dois raios paralelos ao eixo óptico, no ar, de largura D, incidem numa lente convergente e se cruzam no eixo óptico, formando o ângulo θ1 com o eixo. Figura B: os raios emergem da lente, no ar, com ângulo θ1 e entram num líquido, onde se cruzam no eixo com ângulo θ2; estão indicados a distância h ao longo do raio no líquido, a distância c entre o raio e o eixo no ponto de cruzamento, c = 2 mm e h = 4 mm](fig:p14-f2)",
+     "resposta_oficial": "Lei de Snell-Descartes: $n_1\\,\\text{sen}\\,\\theta_1 = n_2\\,\\text{sen}\\,\\theta_2$.\n\nDa figura A, temos: $\\text{sen}\\,\\theta_1 = \\dfrac{3}{5} = 0{,}6$ (triângulo 3, 4 e 5).\n\nDa figura B, temos $\\text{sen}\\,\\theta_2 = \\dfrac{c}{h} = \\dfrac{2\\ \\text{mm}}{4\\ \\text{mm}} = 0{,}5$. Assim:\n\n$$n_2 = \\frac{n_1\\,\\text{sen}\\,\\theta_1}{\\text{sen}\\,\\theta_2} = \\frac{\\text{sen}\\,\\theta_1}{\\text{sen}\\,\\theta_2} = \\frac{0{,}6}{0{,}5} = 1{,}2.$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q13",
+   "numero": 13,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Parte de um dispositivo pertencente a um *chip* pode ser descrita como sendo formada por duas placas condutoras paralelas de área $A = 2{,}0\\ \\mu\\text{m}^2$, separadas por um material dielétrico de espessura $e = 0{,}1\\ \\mu\\text{m}$ e constante dielétrica $K \\simeq 4$. Esse conjunto forma um capacitor (ver figura), cuja capacitância $C$ é diretamente proporcional à área das placas ($A$) e inversamente proporcional à espessura do dielétrico ($e$), sendo o fator de proporcionalidade dado por $K\\varepsilon_0$, com $\\varepsilon_0 \\simeq 9 \\times 10^{-12}\\ \\text{F/m}$. Pede-se:\n\n![Capacitor de placas paralelas ligado a uma fonte de tensão V = 5,0 V, com a área A das placas, o dielétrico entre elas e a espessura e indicados](fig:p15-f3)\n\ni) a capacitância $C$ do referido capacitor;\nii) a carga armazenada nas placas quando o capacitor é submetido a uma diferença de potencial $V = 5{,}0\\ \\text{V}$.",
+     "resposta_oficial": "i)\n\n$$C = (K\\varepsilon_0)\\left(\\frac{A}{d}\\right) = 4 \\times (9 \\times 10^{-12}\\ \\text{F/m}) \\times \\left(\\frac{2{,}0\\ \\mu\\text{m}^2}{0{,}1\\ \\mu\\text{m}}\\right) = 4 \\times (9 \\times 10^{-12}\\ \\text{F/m}) \\times \\left(\\frac{2{,}0 \\times (10^{-6}\\ \\text{m})^2}{0{,}1 \\times 10^{-6}\\ \\text{m}}\\right) = 7{,}2 \\times 10^{-16}\\ \\text{F}$$\n\nii)\n\n$$Q = CV = (7{,}2 \\times 10^{-16}\\ \\text{F}) \\times (5{,}0\\ \\text{V}) = 3{,}6 \\times 10^{-15}\\ \\text{C}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na gravação de *chips*, grades de difração são usadas para a seleção de comprimentos de onda de feixes luminosos. A grade é formada por reentrâncias que dispersam a luz em diferentes direções (ângulos $\\theta$ no diagrama apresentado no espaço de resposta) em função do comprimento de onda. Quando a luz incide perpendicularmente à grade, a relação entre o comprimento de onda $\\lambda$ e o ângulo de difração $\\theta$ é dada por $d \\cdot \\text{sen}\\,\\theta = m\\lambda$, sendo $d$ o espaçamento entre as reentrâncias da grade e $m = 1, 2, 3...$ No diagrama, são representados dois feixes de laser, um deles de comprimento de onda $\\lambda_1 = 192\\ \\text{nm}$, e outro de comprimento $\\lambda_2$ a ser determinado. Fazendo uso do diagrama e da Tabela 1, complete corretamente a Tabela 2, apresentada no espaço de respostas, da seguinte maneira:\n\ni) preencha a primeira linha e determine $d$;\nii) preencha a segunda linha e determine o comprimento de onda $\\lambda_2$.\n\nTabela 1\n\n| $\\theta$ (graus) | $\\text{tg}\\,\\theta$ | $\\text{sen}\\,\\theta$ |\n|---|---|---|\n| 17 | 0,31 | 0,29 |\n| 19 | 0,34 | 0,33 |\n| 21 | 0,38 | 0,36 |\n| 23 | 0,42 | 0,39 |\n| 25 | 0,47 | 0,42 |\n| 27 | 0,51 | 0,45 |\n| 29 | 0,56 | 0,48 |\n| 31 | 0,60 | 0,52 |\n\n*Campo de resolução:*\n\n![Diagrama da difração: os feixes de comprimentos de onda λ1 e λ2 incidem na grade e atingem o anteparo, a D = 0,5 m; no anteparo, a escala y (m) vai de 0 a 0,4 e estão indicadas as direções m = 1, λ1; m = 1, λ2; m = 2, λ1; m = 2, λ2, com os ângulos θ](fig:p15-c5)\n\n![Tabela 2, a ser completada: colunas λ (nm), m, y (m), tg θ, sen θ e d (nm); primeira linha com λ1 = 192, m = 2 e y = 0,28; segunda linha com λ2 = (em branco) e m = 1; a célula de d da segunda linha está sombreada](fig:p15-c4)",
+     "resposta_oficial": "i)\n\n$\\text{tg}\\,\\theta_1 = \\dfrac{y_1}{D} = \\dfrac{0{,}28\\ \\text{m}}{0{,}5\\ \\text{m}} = 0{,}56$; usando a Tabela 1, encontramos $\\text{sen}\\,\\theta_1 = 0{,}48$.\n\n$$d\\,\\text{sen}\\,\\theta_1 = m_1\\lambda_1 \\Rightarrow d = \\frac{2 \\times \\lambda_1}{\\text{sen}\\,\\theta_1} = \\frac{2 \\times 192\\ \\text{nm}}{0{,}48} = 800\\ \\text{nm}.$$\n\nii) Do diagrama, $y_2 = 0{,}17\\ \\text{m}$\n\n$\\text{tg}\\,\\theta_2 = \\dfrac{y_2}{D} = \\dfrac{0{,}17\\ \\text{m}}{0{,}5\\ \\text{m}} = 0{,}34$; usando a Tabela 1, encontramos $\\text{sen}\\,\\theta_2 = 0{,}33$.\n\n$$d\\,\\text{sen}\\,\\theta_2 = m_2\\lambda_2 \\Rightarrow \\lambda_2 = \\frac{d\\,\\text{sen}\\,\\theta_2}{m_2} = \\frac{800\\ \\text{nm} \\times 0{,}33}{1} = 264\\ \\text{nm}.$$\n\n![Tabela 2 preenchida: λ1 = 192 nm, m = 2, y = 0,28 m, tg θ = 0,56, sen θ = 0,48, d = 800 nm; λ2 = 264 nm, m = 1, y = 0,17 m, tg θ = 0,34, sen θ = 0,33; os valores acrescentados à tabela estão em azul](fig:r08-c1)"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q14",
+   "numero": 14,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O controle da interação entre uma superfície (hidrofílica ou hidrofóbica) e a água é de suma importância em muitas aplicações, como o tratamento de impermeabilização de superfícies. Em um estudo recente, observou-se que gotas de água projetadas sobre superfícies extremamente hidrofóbicas são rebatidas como se fossem bolas de borracha.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a altura $h$ da qual uma gota deve se desprender, a partir do repouso, para chegar, com velocidade de módulo $v = 40\\ \\text{cm/s}$, ao ponto de impacto com a superfície hidrofóbica? Desconsidere o atrito da gota com o ar.",
+     "resposta_oficial": "Conservação da energia mecânica:\n\n$$E_{\\text{m, inicial}} = E_{\\text{m, final}} \\Rightarrow \\left(\\cancel{\\frac{mv^2}{2}} + mgh\\right)_{\\text{inicial}} = \\left(\\frac{mv^2}{2} + \\cancel{mgh}\\right)_{\\text{final}}$$\n\n$$\\cancel{m}gh_{\\text{inicial}} = \\frac{\\cancel{m}v_{\\text{final}}^2}{2} \\Rightarrow h_{\\text{inicial}} = \\frac{v_{\\text{final}}^2}{2g} = \\frac{(0{,}4\\ \\text{m/s})^2}{2 \\times 10\\ \\text{m/s}^2} = 8{,}0 \\times 10^{-3}\\ \\text{m} = 8{,}0\\ \\text{mm}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "No estudo citado, gotas de água de diferentes diâmetros chegam à superfície hidrofóbica com velocidade de módulo $\\left|\\vec{v}_{\\text{inicial}}\\right| = 0{,}3\\ \\text{m/s}$, e afastam-se logo após a colisão, com coeficiente de restituição $e \\simeq 1$. O gráfico no espaço de respostas mostra o intervalo de tempo $\\Delta t$ durante o qual as gotas ficam em contato com a superfície em função da massa $m$ da gota. Qual o módulo da força média, $\\left|\\vec{F}_{\\text{média}}\\right|$, exercida pela superfície sobre uma gota de massa $m = 8 \\times 10^{-6}\\ \\text{kg}$?\n\n*Campo de resolução:*\n\n![Gráfico do intervalo de tempo Δt (10⁻³ s) em função da massa m (10⁻⁶ kg) da gota, com seis pontos experimentais; o eixo Δt vai de 9 a 18 e o eixo m, de 4 a 19](fig:p16-c3)",
+     "resposta_oficial": "Para uma massa $m = 8 \\times 10^{-6}\\ \\text{kg}$, o gráfico fornece $\\Delta t = 12 \\times 10^{-3}\\ \\text{s}$.\n\n$$\\vec{I} = \\Delta\\vec{p} = \\vec{F}_{\\text{média}}\\Delta t \\Rightarrow \\left|\\vec{F}_{\\text{média}}\\right| = \\frac{\\left|\\Delta\\vec{p}\\right|}{\\Delta t}$$\n\nComo $e \\simeq 1$, $\\vec{v}_{\\text{final}} = -\\vec{v}_{\\text{inicial}} \\Rightarrow \\vec{p}_{\\text{final}} = -\\vec{p}_{\\text{inicial}} \\Rightarrow \\left|\\Delta\\vec{p}\\right| = 2 \\times \\left|\\vec{p}_{\\text{inicial}}\\right| = 2 \\times m \\times \\left|\\vec{v}_{\\text{inicial}}\\right|$.\n\nAssim:\n\n$$\\left|\\vec{F}_{\\text{média}}\\right| = \\frac{\\left|\\Delta\\vec{p}\\right|}{\\Delta t} = \\frac{2 \\times m \\times \\left|\\vec{v}_{\\text{inicial}}\\right|}{\\Delta t} = \\frac{2 \\times (8 \\times 10^{-6}\\ \\text{kg}) \\times (0{,}3\\ \\text{m/s})}{12 \\times 10^{-3}\\ \\text{s}} = \\frac{4{,}8}{12} \\times 10^{-3}\\ \\text{N} = 4 \\times 10^{-4}\\ \\text{N}$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q15",
+   "numero": 15,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O garimpo artesanal de ouro é responsável por 37% da emissão global antropogênica de mercúrio, mercúrio este proveniente do processo de recuperação do ouro a partir do aquecimento da amálgama (liga metálica entre o Hg e o Au) usada para separar o ouro do solo. Conforme representado na figura ao lado, em um dos processos de contaminação do meio ambiente, o mercúrio metálico reage com o gás ozônio, formando gás oxigênio e óxido de mercúrio (processo 1). Esse óxido formado reage com a água, gerando hidróxido de mercúrio (processo 2), o qual se deposita em ambientes aquáticos e no solo, atingindo o ser humano.\n\n![Esquema da contaminação por mercúrio: amálgama aquecida numa fogueira libera vapor de mercúrio (Hg⁰) e separa o ouro (Au); o Hg⁰ passa a Hg²⁺ no processo (1), sob a luz do sol, e o Hg²⁺ vai para a água no processo (2); o Hg⁰ também é captado pela vegetação e chega ao solo, e gotas com Hg²⁺ caem sobre o solo](fig:p17-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Nomeie o tipo de reação que ocorre nos processos 1 e 2 identificados na figura acima e escreva as respectivas equações químicas balanceadas.",
+     "resposta_oficial": "Processo 1 – reação de oxirredução\n\n$$\\text{Hg}^0\\ \\text{(g)} + \\text{O}_3\\ \\text{(g)} \\rightarrow \\text{HgO}\\ \\text{(s)} + \\text{O}_2\\ \\text{(g)}$$\n\nProcesso 2 – reação de hidrólise\n\n$$\\text{HgO}\\ \\text{(s)} + \\text{H}_2\\text{O}\\ \\text{(l)} \\rightarrow \\text{Hg(OH)}_2\\ \\text{(s)}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A política, a ciência e a sociedade civil têm seu papel na preservação ambiental. Oportunidades de pesquisa química para reduzir os impactos da mineração artesanal de ouro passam pelo desenvolvimento de: (1) filtros de ar e máscaras para prevenção de inalação de vapores de mercúrio; (2) ajustes do solo para evitar a absorção de mercúrio nas culturas; (3) processos químicos específicos para extrair ouro de rejeitos e (4) diagnósticos pontuais para exposição e envenenamento por mercúrio. Preencha a tabela no campo de resposta, associando o número de cada desenvolvimento à correspondente oportunidade de pesquisa. Justifique sua escolha para o desenvolvimento atribuído <u>somente</u> à oportunidade **“Mitigação de riscos”**.\n\n*Campo de resolução:*\n\n![Tabela a preencher: título \"Oportunidades de pesquisa química para reduzir os impactos da mineração artesanal de ouro\", com as colunas Detecção de mercúrio, Mitigação de riscos, Remediação e Mineração sem mercúrio; a linha \"Desenvolvimento de:\" traz um par de parênteses vazios em cada coluna](fig:p17-c1)",
+     "resposta_oficial": "![Tabela preenchida: Detecção de mercúrio (4); Mitigação de riscos (1); Remediação (2); Mineração sem mercúrio (3)](fig:r09-c1)\n\nMitigação de riscos significa uma ação para diminuir a intensidade ou reduzir os riscos de exposição. Assim, o uso de filtros de ar e máscaras cumprem esse papel."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q16",
+   "numero": 16,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "De acordo com a Organização Meteorológica Mundial, a temperatura média global para julho de 2023 foi a mais alta já registrada, e este ano poderá ser o mais quente da história. Alguns cientistas afirmam que o sistema climático da Terra está fora do seu balanço energético, com um contínuo acúmulo de calor observado nas últimas décadas. Com base no texto e nas informações apresentadas na figura, responda às questões a seguir:\n\n![Figura \"Inventário de calor da Terra, 2006–2020\": radiação solar incidente, radiação de saída e ganho total de calor de 381 ZJ, distribuído entre oceano 89%, terra 5%, criosfera 4% e atmosfera 2%](fig:p18-f2)\n\nDados: Massa de água dos oceanos: $1{,}4 \\times 10^{21}\\ \\text{kg}$; calor específico da água: $4180\\ \\text{J/kg} \\cdot \\text{K}$; entalpia de fusão da água: $3{,}3 \\times 10^5\\ \\text{J/kg}$; $\\text{ZJ} = 1 \\times 10^{21}\\ \\text{J}$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para o período de 2006-2020, calcule quantas toneladas de água foram acrescidas aos oceanos por conta do derretimento do gelo, considerando que este tenha sido o único evento térmico ocorrido na criosfera. Calcule o aumento da temperatura média dos oceanos, desconsiderando a água proveniente do derretimento do gelo e considerando a água do mar como sendo água pura.",
+     "resposta_oficial": "$381\\ \\text{ZJ} = 381 \\times 10^{21}\\ \\text{J}$. A criosfera absorve 4% do calor ganho, portanto: $381 \\times 10^{21}\\ \\text{J} \\times 0{,}04 =$ $\\mathbf{1{,}52 \\times 10^{22}\\ J}$ **absorvidos (ou ganhos) pela criosfera**.\n\n$\\Delta H_{\\text{fusão}} = 3{,}3 \\times 10^5\\ \\text{J/kg}$\n\n$3{,}3 \\times 10^5\\ \\text{J}$ — $1{,}0\\ \\text{kg H}_2\\text{O}$\n$1{,}52 \\times 10^{22}\\ \\text{J}$ — $Y$\n\nForam acrescidas $4{,}62 \\times 10^{16}$ Kg ou $4{,}62 \\times 10^{13}$ toneladas de $\\text{H}_2\\text{O}$ aos oceanos.\n\nQuanto ao cálculo do aumento de temperatura média dos oceanos, o oceano absorve 89% do total do calor ganho, portanto: $381 \\times 10^{21}\\ \\text{J} \\times 0{,}89 = 3{,}39 \\times 10^{23}\\ \\text{J}$\n\n$Q = m \\cdot c \\cdot \\Delta T$\n\n$3{,}39 \\times 10^{23}\\ \\text{J} = (1{,}4 \\times 10^{21}\\ \\text{kg}) \\times (4180\\ \\text{J/kg} \\cdot \\text{K}) \\times \\cdot \\Delta T$\n\nIsso significa que o aumento da temperatura média dos oceanos seria de $\\Delta T = 0{,}06\\ \\text{K}$ ($0{,}06\\ ^\\circ\\text{C}$)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Observando a figura, explique o mecanismo e as causas que levaram ao ganho total extra de energia (381 ZJ) da Terra no período considerado.",
+     "resposta_oficial": "<u>Causas principais</u>: urbanização, atividade agroindustrial, industrialização, uso de combustíveis fósseis.\n<u>Mecanismo</u>: aumento dos gases do efeito estufa provocando aumento do calor retido na atmosfera e o desbalanço energético."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q17",
+   "numero": 17,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma reportagem afirma: “Se você der o mesmo grão de café a 10 baristas, você vai terminar com 10 diferentes sabores da bebida”. Mesmo que a origem dos grãos seja única, são vários os aromas (substâncias voláteis) e sabores (substâncias pouco voláteis) distintos para esta bebida. Além da composição química da matéria-prima, há outras variáveis que influenciam o processo de extração sólido-líquido na preparação do café: a temperatura, a pressão de extração, a qualidade da água, a relação entre quantidades de pó e água, o tempo de contato e o tamanho dos grãos de pó (moagem) e a vazão de água.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique as alterações na intensidade do aroma e do sabor do café, quando da sua ingestão imediatamente após o preparo, em cada um dos casos a seguir: (1) utilizando água a 86 °C e 98 °C, e mantendo-se as demais variáveis constantes; e (2) variando o grau de moagem (fino e grosso). Considere que o grão de café torrado apresenta poros.",
+     "resposta_oficial": "A intensidade do aroma e do sabor do café é maior se se utiliza água a 98 °C quando comparado com água a 86 °C. Isso porque a solubilidade, em geral, aumenta com o aumento da temperatura. Por outro lado, a intensidade do aroma e do sabor do café é maior para uma moagem fina em comparação com a grossa, pois, quanto mais fina a moagem, maior a superfície de contato e maior a permeabilidade da água na estrutura porosa."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A figura ao lado mostra como, durante a extração para preparar um café espresso, a concentração de duas substâncias voláteis varia em função do tempo. O tempo de máxima extração se relaciona diretamente com a solubilidade em água e consequentemente com atributos da substância, como polaridade da molécula e coeficiente de partição, $K_{\\text{ow}}$. A partir dessas informações, complete a tabela no campo de resposta, com as palavras **maior** ou **menor**, de modo a comparar, entre as substâncias, os atributos citados. Justifique sua escolha.\n\n![Gráfico da concentração relativa em função do tempo (s), de 0 a 26, para a substância 1 (círculos, linha contínua) e a substância 2 (quadrados, linha tracejada)](fig:p19-f2)\n\nDado: $K_{\\text{ow}} = [\\text{soluto em fase orgânica}] / [\\text{soluto em água}]$\n\n*Campo de resolução:*\n\n![Tabela a preencher: título \"Atributo da substância\", com as colunas Polaridade, Solubilidade em água e Kow; as linhas são Substância 1 e Substância 2, com as células em branco](fig:p19-c1)",
+     "resposta_oficial": "![Tabela preenchida: Atributo da Substância; Substância 1: Polaridade MAIOR, Solubilidade MAIOR, Kow MENOR; Substância 2: Polaridade MENOR, Solubilidade MENOR, Kow MAIOR](fig:r10-c1)\n\nComo se observa no gráfico, a substância 1 é extraída mais rapidamente do que a substância 2. Considerando as informações do texto, isso significa que a solubilidade da substância 1 em água é maior que a solubilidade da substância 2 em água. A água, por ser um solvente polar, vai extrair mais rapidamente uma substância mais polar; portanto, a substância 1 é mais polar que a 2. Por outro lado, como Kow representa a relação entre a solubilidade em fase orgânica e fase aquosa, quanto mais polar a substância, menor será o Kow."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q18",
+   "numero": 18,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "À medida que as evidências da origem antropogênica do aquecimento global ficam mais claras, o desenvolvimento de tecnologias capazes de produzir trabalho sem gerar $\\text{CO}_2$, ou que diminuam essa emissão, torna-se cada vez mais urgente. Dentro deste contexto, em 2018, pesquisadores desenvolveram uma janela inteligente que interage com a radiação eletromagnética conforme figura ao lado. A figura evidencia, de forma simplificada, como essa janela interage com as radiações eletromagnéticas incidentes. As espessuras das setas são proporcionais às intensidades dos fenômenos que ocorrem com essas radiações.\n\n![Desenho de uma janela com lâmpada acesa ao lado; setas de radiação infravermelho (vermelha), visível (verde) e ultravioleta (azul) incidem sobre o vidro, cada uma seguida de setas de reflexão, transmissão e absorção de espessuras diferentes; legenda: radiação, transmissão, reflexão e absorção](fig:p20-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando que a figura represente quantitativamente o comportamento do material da janela diante das radiações incidentes, descreva esse comportamento.",
+     "resposta_oficial": "Como exposto no texto, as espessuras das setas indicam relativamente as intensidades das radiações. Portanto, as três radiações incidentes atingem o material do dispositivo com a mesma intensidade. A radiação infravermelha é majoritariamente refletida e absorvida pelo dispositivo, sendo que uma pequena fração é transmitida. A radiação visível é majoritariamente transmitida e absorvida e muito pouco refletida. A radiação ultravioleta é majoritariamente refletida, não é transmitida e uma pequena fração é absorvida."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Como desenvolvedor dessa janela inteligente, você precisa apresentá-la a potenciais compradores. Levando em conta as características da janela, apresente duas aplicações e os benefícios advindos dessas aplicações, que serviriam de argumento para justificar o investimento na compra da janela inteligente.",
+     "resposta_oficial": "Uma das aplicações seria: portas e janelas para barrar as radiações infravermelho e ultravioleta, tendo como benefício a minimização do calor (radiação infravermelha) e a proteção de exposição à radiação ultravioleta, esta prejudicial à saúde humana.\nOutra aplicação do dispositivo seria em painéis solares que utilizam a absorção da radiação para a geração de energia elétrica (painéis fotovoltaicos). Trata-se de geração de energia elétrica de fonte limpa e renovável."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q19",
+   "numero": 19,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O oxalato de cálcio em humanos está associado a calcificações benignas do tecido mamário e a pedras nos rins. Em indivíduos saudáveis, a urina é tipicamente supersaturada em oxalato de cálcio. O desenvolvimento de pedras nos rins, por outro lado, é prevenido por proteínas e pequenas moléculas contendo grupos carboxilatos.\n\nDados: Oxalato: $\\text{C}_2\\text{O}_4^{2-}$; citrato: $\\text{C}_6\\text{H}_5\\text{O}_7^{3-}$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando o que se informa no texto, escreva uma equação química e a expressão da constante de equilíbrio associada, que representam a formação da pedra no rim. O texto informa que a urina é supersaturada em oxalato de cálcio; o que isso significa conceitualmente, isto é, do ponto de vista do equilíbrio químico?",
+     "resposta_oficial": "Equação química: $\\text{Ca}^{2+}\\ \\text{(aq)} + \\text{C}_2\\text{O}_4^{2-}\\ \\text{(aq)} \\rightarrow \\text{CaC}_2\\text{O}_4\\ \\text{(s)}$.\n\nExpressão da constante de equilíbrio: $K = \\dfrac{1}{[\\text{Ca}^{2+}] \\times [\\text{C}_2\\text{O}_4^{2-}]}$.\n\n*Obs: A concentração de* $\\mathit{CaC}_2\\mathit{O}_4$ *(s) não aparece na expressão da constante de equilíbrio, pois, de acordo com a convenção, seu valor é unitário.*\n\nUma solução supersaturada é aquela cuja concentração do soluto em solução é maior que a concentração prevista pelo equilíbrio químico na temperatura considerada."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Pesquisadores avaliaram como a concentração de cálcio livre ($\\text{Ca}^{2+}$) em solução varia quando se adiciona $\\text{Ca}^{2+}\\text{(aq)}$ em soluções contendo oxalato de concentração 2 mmol/L e diferentes concentrações de citrato, conforme a figura. Os dados permitem inferir que o citrato pode ser um agente terapêutico na prevenção de pedra no rim. Faça uma descrição quantitativa de modo a justificar, do ponto de vista do equilíbrio químico, a afirmação sobre a função do citrato na prevenção de pedra no rim.\n\n![Gráfico da concentração de Ca²⁺ livre (mmol/L) em função do tempo (s), de 0 a 10000, com três curvas: Ca²⁺(aq) em água (linha com círculos), Ca²⁺(aq) em C₂O₄²⁻ 2,0 mmol/L (linha contínua) e Ca²⁺(aq) em C₂O₄²⁻ 2,0 mmol/L + C₆H₅O₇³⁻ 5,0 mmol/L (linha tracejada)](fig:p21-f2)",
+     "resposta_oficial": "A curva contínua com esferas mostra como varia a concentração de cálcio livre em solução quando a diluição da solução de $\\text{Ca}^{2+}$ mais concentrada ocorre em água. A curva contínua lisa indica a concentração de íons cálcio livres no equilíbrio após a precipitação do oxalato de cálcio na ausência de citrato. A adição de íons citrato e o aumento da sua concentração (curva pontilhada) aumentam o tempo para se atingir a concentração de íons $\\text{Ca}^{2+}$ livres no equilíbrio em relação à curva sem a presença do íon citrato. Isso significa que o íon citrato foi capaz de inibir a formação de oxalato de cálcio até a valores de concentração mais altos de $\\text{Ca}^{2+}$ livre."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2024-2-cet-q20",
+   "numero": 20,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "**“Explosão em silo no Paraná acende alerta para prevenção de acidentes em armazéns”** (notícia veiculada na mídia em julho de 2023). As estatísticas para esse tipo de desastre são alarmantes no mundo todo, e não se trata apenas de negligência. Há parâmetros intrínsecos da silagem que a tornam potencialmente perigosa; portanto, devem ser muito bem controlados. Segundo um profissional que atua no controle de incêndios em silos: “Este ano a silagem pode estar muito seca, havendo maior possibilidade de fogo no silo. A combustão interna do material da silagem pode ocorrer se ele for colocado muito seco no silo. Para qualquer coisa pegar fogo são necessários três ingredientes: ...”",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Por que a baixa umidade favorece o incêndio num silo? Quais os três ingredientes que completariam a fala do profissional ao final do texto e qual o papel de cada um deles no fenômeno em questão?",
+     "resposta_oficial": "Devido à baixa umidade (baixo teor de água), a matéria orgânica fica mais propensa à combustão e a uma rápida propagação do fogo.\n\n**“Ingredientes”: (1)** <u>Combustível</u>: substância capaz de gerar calor por meio de uma reação química. É o material que reage com o oxidante. Neste caso, o combustível é o grão armazenado ou a poeira dos grãos no silo. **(2)** <u>Comburente</u>: substância oxidante que promove o consumo (queima) do combustível na reação; neste caso, o oxigênio. **(3)** <u>Calor</u>: é a fonte de ignição ou a energia que dá início ao fogo. Exemplos: faísca, chama, fontes de calor."
+    },
+    {
+     "rotulo": "b",
+     "texto": "No silo, a fermentação dos grãos pode levar à ignição, combustão e explosão. Considerando a fermentação e a combustão, qual delas é a causa e qual delas é a consequência? Ainda considerando a fermentação e a combustão, no caso da silagem de grãos, por que é necessário usar sensores de umidade, de dióxido de carbono e de temperatura dentro do silo?",
+     "resposta_oficial": "No binômio fermentação/combustão, a <u>causa</u> é a fermentação e a <u>consequência</u> é a combustão. A alta umidade favorece o processo de fermentação e amplifica o ataque de fungos e insetos. Portanto, sensores de umidade são fundamentais. Sensores de $\\text{CO}_2$ e de temperatura são dois importantes indicadores da ocorrência do processo de fermentação, o qual leva a um aumento da concentração de $\\text{CO}_2$ e da temperatura."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
   }
  ]
 }
