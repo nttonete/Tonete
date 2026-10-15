@@ -1,0 +1,117 @@
+{
+ "edicao": "fuvest-2026-2-d2",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 18,
+   "codigo": "G06",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A Amazônia Legal constitui um dos principais espaços de disputa territorial no Brasil. Diferentes interesses se sobrepõem nesse território: populações indígenas que lutam pela preservação de seus modos de vida e pela integridade de suas terras; grandes grupos econômicos vinculados ao agronegócio e à mineração; além de redes ilegais que exploram madeira, ouro e outros recursos naturais.\n\n![Mapa da Amazônia Legal: Terras indígenas, áreas de mineração e zonas de maior desmatamento (2023/2024), com legenda (mineração atual, pressão do desmatamento, exploração madeireira, bacias com atividade garimpeira, bacias com projetos hidrelétricos, petróleo, terras indígenas, Amazônia Legal), símbolos de atividade garimpeira e de extração madeireira ilegal em TIs, estradas do desmatamento e escala de 400 km](fig:p21-c1)\n\nFonte: Atlas de Pressões e Ameaças às Terras Indígenas (TIs) na Amazônia Brasileira.\n\nCom base no texto e na análise do mapa,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "identifique uma área da Amazônia Legal que apresenta conflitos de interesse sobre o território."
+    },
+    {
+     "rotulo": "b",
+     "texto": "explique uma interferência nas terras indígenas da região."
+    },
+    {
+     "rotulo": "c",
+     "texto": "indique e explique um impacto das atividades econômicas ilegais em um dos territórios existentes na Amazônia Legal."
+    }
+   ]
+  }
+ ],
+ "respostas_corrigidas": {
+  "12": {
+   "itens": {
+    "a": "Usando a definição da irradiância, temos que a potência $P/A = I_r\\,\\lambda$. Como a irradiância é aproximadamente constante, a maior potência será da cor com maior comprimento de onda, ou seja, a cor vermelha.",
+    "b": "A energia absorvida pela água do mar será 5/6 da energia solar, ou seja:\n\n$$E_{\\text{abs}} = \\frac{5}{6} \\cdot I \\cdot A \\cdot \\lambda \\cdot \\Delta t = \\frac{5}{6} \\cdot 1{,}2 \\cdot 1 \\cdot 800 \\cdot 3600 = 2{,}88 \\cdot 10^6\\ \\text{J}$$\n\nSe toda a energia for absorvida pela água do mar, a quantidade de calor $Q = mC\\Delta T$ será a quantidade de energia passada da luz para a água.\n\nUsando a densidade de $1000\\ \\text{kg/m}^3$, temos uma massa de $m = 200\\ \\text{kg} = 2 \\times 10^5\\ \\text{g}$ em um volume de $0{,}2\\ \\text{m}^3$ ($= 1\\text{m} \\times 1\\text{m} \\times 0{,}2\\text{m}$) de água do mar. Logo,\n\n$$Q = E_{\\text{abs}} = 2 \\cdot 10^5 \\cdot 4 \\cdot \\Delta T \\Rightarrow \\Delta T = \\frac{288 \\cdot 10^4}{80 \\cdot 10^4} = 3{,}6\\ ^\\circ\\text{C}$$",
+    "c": "A energia do fóton da luz vermelha é $E = hc/\\lambda_{\\text{vermelho}} = 6{,}6 \\times 10^{-34} \\times 3 \\times 10^8 / 800 \\times 10^{-9} = 2{,}5 \\times 10^{-19}\\ \\text{J}$.\n\n$$E_{\\text{fóton}} = \\frac{hc}{\\lambda_{\\text{vermelho}}} = \\frac{2 \\cdot 10^{-16}}{800} = 2{,}5 \\cdot 10^{-19}\\ \\text{J}$$\n\nA potência $P = I_r\\,\\lambda = 1{,}2 \\times 800 = 960\\ \\text{W/m}^2 = 960\\ \\text{J/s.m}^2 = N_{\\text{fotons}} E_{\\text{foton}} / (\\Delta t \\times \\text{área})$, onde $\\Delta t = 1\\ \\text{s}$ e área = $1\\ \\text{m}^2$.\n\nAssim,\n\n$$N_{fotons} = \\frac{960}{2{,}5 \\cdot 10^{-19}} = 960 \\cdot \\frac{2}{5} \\cdot 10^{19} = 384 \\cdot 10^{19} = 3{,}84 \\cdot 10^{21} \\approx 4 \\cdot 10^{21}$$\n\nLogo, cerca de $4 \\times 10^{21}$ fótons de luz vermelha de 800 nm atingirão uma área de $1\\ \\text{m}^2$ em 1 segundo na superfície da Terra."
+   }
+  }
+ },
+ "complementos": {
+  "10": {
+   "assunto": "Quantidade de movimento"
+  },
+  "11": {
+   "assunto": "Eletrodinâmica"
+  },
+  "12": {
+   "assunto": "Física moderna"
+  },
+  "13": {
+   "assunto": "Questões ambientais"
+  },
+  "14": {
+   "assunto": "Urbanização"
+  },
+  "15": {
+   "assunto": "Biomas e vegetação"
+  },
+  "16": {
+   "assunto": "Energia"
+  },
+  "17": {
+   "assunto": "Cartografia"
+  },
+  "18": {
+   "assunto": "Geografia do Brasil"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Enunciado, itens e Note e adote conferidos com p12; figura p12-f3 completa (H, d, M, 2M). Resposta conferida com r12 (contas: 20 m/s; 0,5; 6 m). Observações do transcritor: Note e adote no fim do enunciado está de acordo com as instruções; “h_o” (letra o) no item a e “p_a = Mv_i” no item b estão mesmo no documento oficial, mantidos."
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "Conferido com p14 e r13; figuras p14-f1 (circuito) e p14-f4 (gráfico com legenda L, R, R_F) completas. Contas da banca conferidas no gráfico (R = 2 Ω; R_F = 5/6 Ω; 10 V; 5/2 Ω). “Reposta alternativa” (sic) está no original, mantido. A banca grafa os índices “equiv” e “tot” em itálico; a transcrição usa \\text{}, diferença só tipográfica, mantida."
+  },
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "Enunciado conferido com p14 (1,2 W/(m² nm); 5/6; 2×10⁻¹⁶ J·nm; 4 J/g·°C). Observações do transcritor: o parágrafo “Considerando o caráter corpuscular...”, impresso entre os itens b e c, serve só ao item c e ficou no início dele; Note e adote no fim do enunciado. Ambos aceitos. Resposta (r14), item c: a transcrição tinha acentuado “fótons”/“fóton” nos índices da linha da potência (N_fotons E_foton) e da equação final (N_fotons, em itálico); o original não tem acento nesses dois lugares (só em E_fóton da primeira equação). Corrigido para ficar fiel."
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "Conferido com p17 e r30; figuras p17-f1 (Funafuti 2024/2050/2100, com título) e p17-f3 (foto) completas. Sublinhados de “ação ambiental” e “ação política” na resposta c conferidos. “agua” sem acento no item b da resposta está no original, mantido."
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": "Conferido com p17 e r31; figura p17-c2 completa (título, legenda, coordenadas, escala), sem a linha de fonte, que está como texto. Ordem texto, fonte, mapa, fonte do mapa, comando está correta."
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": "Conferido com p19 e r32; sem figura."
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": "Conferido com p19 e r33; figura p19-c2 completa, com o título “Consumo de eletricidade em alta”, os dois gráficos e as legendas. Note e adote no fim do enunciado, aceito. A resposta b da banca cita “aumento do uso de fontes de energia renováveis” como impacto ambiental; está assim no original, mantido."
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "Conferido com p21 e r34; figura p21-c2 completa (título, anos, escalas, rosa dos ventos), sem texto vizinho."
+  },
+  {
+   "numero": 18,
+   "status": "corrigida",
+   "notas": "Texto conferido com p21 e resposta com r35 (“demostrando” (sic) mantido). Figura: o enunciado usava o mapa recortado do documento de respostas (r35-c1); trocado pelo recorte do caderno, p21-c1, que é o que o candidato recebeu e está legível (título, países, legenda, símbolos, escala). No caderno a última linha da legenda (“Amazônia Legal”) sai parcialmente cortada, mas o contorno preto da Amazônia Legal é visível e o rótulo ainda se lê; a linha da fonte fica impressa sobre a borda inferior do mapa e não dá para separá-la sem cortar a legenda, por isso aparece também no recorte, além do parágrafo de fonte em texto."
+  }
+ ]
+}
