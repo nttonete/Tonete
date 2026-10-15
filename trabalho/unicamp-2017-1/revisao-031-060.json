@@ -62,7 +62,7 @@
     "C": "As espécies 1 e 3 são mais próximas entre si do que as espécies 3 e 4.",
     "D": "As espécies 2 e 4 são mais próximas entre si do que as espécies 1 e 2."
    },
-   "observacoes": "As sequências de DNA são texto digitado no caderno (não imagem); conferidas ampliando a página."
+   "observacoes": ""
   },
   {
    "numero": 46,
@@ -90,7 +90,7 @@
     "C": "uma das ações da política do pão e do circo, estratégia da elite romana que usava cidadãos romanos na arena, para lutarem entre si e, assim, divertir o povo.",
     "D": "uma luta entre gladiadores, prática que tinha inúmeras funções naquela sociedade, como a diversão, a tentativa de controle social e a valorização da guerra."
    },
-   "observacoes": "Na impressão o endereço da fonte quebra em '(c' / 'olor)'; reunido como '(color)'."
+   "observacoes": ""
   },
   {
    "numero": 51,
@@ -167,7 +167,128 @@
    "observacoes": ""
   }
  ],
- "complementos": {},
+ "complementos": {
+  "31": {
+   "assunto": "Evolução",
+   "resolucao": "O texto fala de conchas (restos de moluscos) encontradas no alto de montanhas e de \"lugares de baixa altitude\" que \"se elevaram para os céus\".\nOu seja: os moluscos viveram num ambiente aquático, morreram, foram soterrados e se fossilizaram (\"converteram nas mais duras e inertes rochas\"); depois, movimentos da crosta ergueram essas camadas, formando montanhas.\nOs moluscos não migraram para o alto (A) nem viviam no topo das montanhas (D): quem subiu foi o terreno. Também não se trata de decomposição nas rochas (B).\n\n**Resposta: C**"
+  },
+  "32": {
+   "assunto": "Física moderna",
+   "resolucao": "A bomba de Hiroshima era de fissão: um nêutron atinge um núcleo de urânio-235, que se divide em dois núcleos mais leves, libera mais nêutrons (reação em cadeia) e uma enorme energia, vinda da diferença de massa ($E = mc^2$).\nIsso elimina A (não é desintegração espontânea) e C (não forma núcleos mais pesados; isso seria fusão).\nEntre B e D, a diferença é histórica: o Japão não era neutro, era do Eixo e estava em guerra com os EUA. Os ataques de agosto de 1945 levaram à rendição japonesa e se tornaram símbolo do fim da Segunda Guerra.\n\n**Resposta: B**"
+  },
+  "33": {
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "Kipling escreveu o poema em 1898, quando os EUA venciam a guerra contra a Espanha e discutiam ocupar as Filipinas; o texto convoca os americanos a \"assumir o fardo do homem branco\".\nO \"fardo\" é a ideia de que os brancos teriam o dever moral de \"civilizar\" povos vistos como inferiores (\"metade demônio e metade criança\"). É uma justificativa do imperialismo, não uma crítica a ele (C).\nO verso \"half devil and half child\" mostra desprezo, não caridade (B), e \"Go send your sons to exile\" pede sacrifício às famílias, o oposto de D.\n\n**Resposta: A**"
+  },
+  "34": {
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "Basta comparar as definições citadas: para Kjellén, geopolítica é \"a teoria do Estado como organismo geográfico\"; para Haushofer, é \"a nova ciência nacional do Estado\". As duas têm o Estado no centro.\nWhittlesey é quem chama a geopolítica de \"dogma\", palavra que os antecessores não usam (B). Hartshorne diz que ela serve a fins que vão \"além da busca do conhecimento científico\", o contrário de C.\nO texto começa dizendo que as definições \"evoluíram\" com o tempo, o que descarta um acordo geral sobre os fundamentos (D).\n\n**Resposta: A**"
+  },
+  "35": {
+   "assunto": "Hidrostática",
+   "resolucao": "A \"gravidade específica\" do texto é o que hoje chamamos de densidade: o corpo humano tem densidade quase igual à da água doce, por isso o peso do corpo e o empuxo quase se equilibram.\nO empuxo é o peso da água deslocada pela parte submersa: $E = d_{\\text{água}} \\cdot V_{\\text{submerso}} \\cdot g$. Ao erguer o braço para fora d'água, $V_{\\text{submerso}}$ diminui, o empuxo diminui e o peso passa a predominar, e o corpo afunda (a cabeça submerge).\nB e D falam em aceleração gravitacional, que é a mesma para qualquer corpo e não é o que o texto compara; C erra ao dizer que o empuxo aumentaria.\n\n**Resposta: A**"
+  },
+  "36": {
+   "assunto": "Interpretação de texto literário",
+   "resolucao": "O título \"Ironia ao natural\" avisa que o poema diz o contrário do que pensa. Ele repete o senso comum (\"é natural, é bom\"; \"é químico, é mau\"), mas os exemplos desmentem essas afirmações.\nOs \"naturais\" citados são perigosos (cogumelos vermelhos, rãs azuis e suco de serpente podem ser venenosos), enquanto os \"químicos\" são úteis ou até salvam vidas (aspirina, perfume, válvula cardíaca de plástico).\nAssim, o poema inverte, com ironia, os atributos de bom e mau e acaba valorizando a química. B e D leem o poema ao pé da letra; C ignora a crítica ao preconceito contra a química.\n\n**Resposta: A**"
+  },
+  "37": {
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "Mariana fica no Quadrilátero Ferrífero, região de serras e cristas do embasamento cristalino (complexo gnáissico-magmático), rica em minério de ferro. Planícies quaternárias com falésias são feições do litoral, e não de onde veio a lama.\nSobre a química: a lama não sedimentou porque as partículas são muito finas e interagem com a água, formando uma dispersão coloidal. Isso é típico da argila; a areia, de grãos maiores, se depositaria rapidamente.\nO rejeito da mineração de ferro contém também óxidos metálicos (de ferro, por exemplo). Logo: serras e cristas, argila e óxidos metálicos.\n\n**Resposta: C**"
+  },
+  "38": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "A região brasileira que mais produz energia eólica é o Nordeste, com ventos fortes e constantes no litoral e no interior; isso elimina A e D.\nA energia eólica é a energia cinética do vento: $E_c = \\frac{m v^2}{2}$. Mantida a massa de ar considerada, se a velocidade cai pela metade, a energia fica multiplicada por $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$.\nEntão a produção passaria de 7.800 MWh para $\\frac{7.800}{4} = 1.950$ MWh. A alternativa C (3.900 MWh) supõe, erradamente, que a energia é proporcional à velocidade, e não ao seu quadrado.\n\n**Resposta: B**"
+  },
+  "39": {
+   "assunto": "Ecologia",
+   "resolucao": "A pesquisa mostrou que o rendimento das lavouras cresce com a densidade de polinizadores, e que a queda de abelhas e outros insetos pode explicar parte da perda de produtividade.\nLogo, medidas que favoreçam os polinizadores (preservar vegetação nativa, reduzir agrotóxicos) tendem a aumentar a produção das culturas que dependem deles, e o feijão está na lista do texto.\nA inverte a conclusão (a presença de insetos aumenta a produtividade); B e D associam pesticidas a benefícios, o que contraria a lógica da pesquisa, já que pesticidas matam polinizadores.\n\n**Resposta: C**"
+  },
+  "40": {
+   "assunto": "Citologia",
+   "resolucao": "No esquema, A é a célula que entra em meiose (diploide). A meiose I separa os cromossomos homólogos e forma duas células haploides, B e C.\nD e E são as mesmas células seguindo para a meiose II (continuam haploides), e cada uma se divide em duas: F e G, H e I, também haploides.\nPortanto B, C, D e I são todas haploides. A erra porque só A é diploide; B erra porque D e E não surgem na telófase I; C erra porque as células após a meiose I não têm o mesmo material genético de A (houve separação dos homólogos e permutação).\n\n**Resposta: D**"
+  },
+  "41": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "A curva do alimento A sobe rápido até um pico alto e depois cai: é um alimento de alto índice glicêmico, que libera glicose no sangue rapidamente.\nA subida da glicemia estimula o pâncreas a liberar insulina, hormônio que faz as células absorverem a glicose; por isso a curva de A cai logo depois do pico.\nA está errada porque a curva de B também sobe (só que devagar); B está errada porque, se A eleva a glicemia, contém carboidratos; C não tem apoio no gráfico.\n\n**Resposta: D**"
+  },
+  "42": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O HPV é transmitido principalmente por contato sexual, e não por alimentos (A). Alguns tipos do vírus são a principal causa do câncer de colo de útero (B está errada).\nExiste vacina contra o HPV, oferecida pelo SUS desde 2014, e há tratamento para as lesões que ele causa (D está errada).\nO vírus pode ficar latente, sem causar sintomas, por muitos anos, o que dificulta saber quando ocorreu a infecção e favorece a transmissão.\n\n**Resposta: C**"
+  },
+  "43": {
+   "assunto": "Evolução",
+   "resolucao": "Num cladograma, todos os grupos que partem de um mesmo nó têm um ancestral comum. Aqui, homens (Homo), chimpanzés (Pan) e gibões (Hylobatidae) estão todos dentro da superfamília Hominoidea, que parte de um ancestral comum.\nPor isso A está errada. B e D erram nas famílias: homens, gorilas e orangotangos pertencem todos a Hominidae, e os gibões formam outra família, Hylobatidae.\n\n**Resposta: C**"
+  },
+  "44": {
+   "assunto": "Zoologia",
+   "resolucao": "O ornitorrinco é um monotremado: é mamífero, porque tem pelos e glândulas mamárias e amamenta os filhotes, mas põe ovos, como os répteis.\nA fêmea não tem mamilos; o leite escorre por poros da pele e os filhotes o lambem. Assim, a semelhança com os placentários está no leite, e a diferença está nos ovos.\nB nega o leite; C erra porque nos placentários o embrião se nutre pela placenta, e não por vitelo; D erra porque não há autofecundação (os sexos são separados).\n\n**Resposta: A**"
+  },
+  "45": {
+   "assunto": "Evolução",
+   "resolucao": "Quanto menos diferenças há entre as sequências de um mesmo gene, mais próximas evolutivamente são as espécies. Comparando posição por posição:\n1 e 2: 2 diferenças; 1 e 3: 1; 1 e 4: 6; 2 e 3: 1; 2 e 4: 4; 3 e 4: 5.\nEntão 1 e 3 (1 diferença) são mais próximas do que 3 e 4 (5 diferenças). A e D comparam ao contrário, e em B as duas duplas têm 1 diferença, empatadas.\n\n**Resposta: C**"
+  },
+  "46": {
+   "assunto": "Citologia",
+   "resolucao": "Toda célula viva faz respiração e produz ATP, e parte da energia sempre se perde como calor. Isso vale para os dois tecidos adiposos.\nO tecido adiposo marrom tem muitas mitocôndrias com termogenina, proteína que deixa os prótons voltarem sem passar pela ATP sintase: a energia vira calor em vez de ATP. Mesmo assim, ele produz algum ATP, então B está errada.\nO tecido adiposo branco produz ATP e, como qualquer tecido, também libera calor; A erra porque é o marrom que gera mais energia térmica, e C nega o ATP do branco.\n\n**Resposta: D**"
+  },
+  "47": {
+   "assunto": "Citologia",
+   "resolucao": "Três pistas: duas membranas envolvendo a estrutura, um sistema interno de membranas cheio de proteínas e material genético próprio. Isso aponta para mitocôndria ou cloroplasto.\nA pista decisiva é a abundância em todas as regiões meristemáticas, incluindo as da raiz, que ficam no escuro e não têm cloroplastos. Meristemas são tecidos em divisão intensa, que gastam muita energia: precisam de muitas mitocôndrias.\nAs membranas internas são as cristas mitocondriais, onde ficam as proteínas da cadeia respiratória. O núcleo tem dupla membrana, mas não tem sistema interno de membranas; o retículo não tem DNA próprio.\n\n**Resposta: B**"
+  },
+  "48": {
+   "assunto": "Antiguidade",
+   "resolucao": "O mosaico mostra dois gladiadores lutando, um com tridente e outro com escudo e capacete, e entre eles um árbitro de túnica: não são três gladiadores (A).\nAs lutas de gladiadores tinham várias funções em Roma: divertiam a população (a política do \"pão e circo\"), ajudavam a controlar a plebe e exaltavam a coragem e a guerra.\nB erra porque esses jogos, nessa época, já não eram principalmente religiosos e não envolviam só prisioneiros; C erra porque os gladiadores eram em geral escravos, prisioneiros ou condenados, e não cidadãos postos a lutar pela elite.\n\n**Resposta: D**"
+  },
+  "49": {
+   "assunto": "Brasil Colônia",
+   "resolucao": "O governador compara a vitória sobre Palmares à expulsão dos holandeses e diz que \"temeu-se muito a ruína destas Capitanias\" se os escravos se unissem aos rebeldes. Palmares era, portanto, uma grande ameaça à ordem colonial (C está errada).\nA carta é de 1694 e trata da tomada da Serra da Barriga, não da morte de Zumbi, que só ocorreu em 20 de novembro de 1695 (A está errada). B contradiz o texto, que põe as duas vitórias no mesmo nível.\nHoje, o 20 de novembro é celebrado pelos movimentos negros como Dia da Consciência Negra, símbolo de resistência.\n\n**Resposta: D**"
+  },
+  "50": {
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "Michelle Perrot mostra a dona de casa popular como uma figura ativa, \"rebelde\" na vida privada e na pública, longe do modelo de mulher burguesa restrita ao lar (A).\nNas cidades industriais do século XIX, a mulher pobre cuidava da casa e dos filhos e muitas vezes também trabalhava fora, em fábricas, como lavadeira, costureira ou no pequeno comércio: uma jornada dupla.\nC atribui a ela a liderança do movimento pelo voto, que teve forte presença de mulheres de classe média; D usa um preconceito de classe que o texto não sustenta.\n\n**Resposta: B**"
+  },
+  "51": {
+   "assunto": "Brasil Império",
+   "resolucao": "O Golpe da Maioridade (1840) foi articulado pelos liberais, com apoio de parte da elite, para encerrar as instáveis regências: D. Pedro II, com 14 anos, foi declarado maior antes da idade prevista pela Constituição.\nFoi, portanto, uma manobra das elites para contornar a Constituição em proveito próprio. A anedota do chocolate resume a crítica de Alencar: os políticos defendiam só os próprios interesses.\nB inventa a influência inglesa e a alegação de maioridade; C erra porque foram os liberais que lideraram o golpe e não havia proposta republicana em jogo; D atribui a Alencar um efeito sobre a política que ele não teve.\n\n**Resposta: A**"
+  },
+  "52": {
+   "assunto": "Guerras mundiais e entreguerras",
+   "resolucao": "Segundo o texto, a propaganda nazista falava ao \"coração das grandes massas\" e ao seu \"mundo maniqueísta\", isto é, dividido entre o bem e o mal. Para isso, precisava de inimigos claros.\nO regime estimulou o ódio contra grupos considerados inferiores ou perigosos, como judeus, ciganos, homossexuais e negros, que depois foram perseguidos e exterminados.\nB erra porque o nazismo era antidemocrático; A erra porque óperas e desfiles também eram propaganda; D erra porque cinema e arte foram usados pelo regime (os filmes de Leni Riefenstahl, por exemplo).\n\n**Resposta: C**"
+  },
+  "53": {
+   "assunto": "Primeira República",
+   "resolucao": "Na fig. 1, Argentina e República Brasileira têm a mesma altura e apertam as mãos frente a frente: a relação é de igual para igual, entre vizinhas.\nNa fig. 2, a figura que representa o Brasil é menor e olha para cima, em direção à França: a imagem sugere admiração pela república francesa, modelo para os republicanos brasileiros.\nB erra porque a França era república desde 1870, e não monarquia constitucional; C erra porque a república argentina era muito mais antiga que a brasileira, proclamada em 1889; D erra porque a figura feminina (como a Marianne francesa) era a forma usual de representar a República.\n\n**Resposta: A**"
+  },
+  "54": {
+   "assunto": "Ditadura militar",
+   "resolucao": "O texto de Ridenti diz que o tropicalismo misturava o moderno e o arcaico, retomava a tradição brasileira, absorvia influências estrangeiras de modo \"antropofágico\" e criticava tanto a ditadura quanto uma estética de esquerda.\nNa prática, Caetano Veloso, Gilberto Gil e outros juntaram guitarra elétrica e rock com ritmos regionais e referências eruditas, e enfrentaram a censura e também as vaias do público das canções de protesto (como no festival de 1968).\nA erra porque o movimento não apoiava a modernização da ditadura; B confunde as associações (a Jovem Guarda não era \"da ditadura\") e o movimento não era imparcial; C erra porque os tropicalistas dialogavam com o Cinema Novo (Glauber Rocha) e o Teatro Oficina.\n\n**Resposta: D**"
+  },
+  "55": {
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "Edward Said defende que nenhuma civilização é isolada e que devemos vê-las como um todo integrado. Ele critica a tese do \"choque de civilizações\" (Samuel Huntington), segundo a qual as culturas seriam blocos fechados e fadados ao conflito.\nQuem nega essa integração são justamente os grupos radicais e os defensores do choque de civilizações.\nA culpa a globalização pelo terrorismo, o que o texto não diz; B e C erram ao apresentar o imperialismo do século XIX como integrador ou como fim das disputas coloniais.\n\n**Resposta: D**"
+  },
+  "56": {
+   "assunto": "Filosofia contemporânea",
+   "resolucao": "Jaspers ironiza: aos maus políticos interessa que as pessoas não pensem e que a filosofia pareça entediante, porque ela forma pessoas críticas, difíceis de manipular.\nEsse potencial crítico incomoda o poder e o senso comum desde a Grécia: Sócrates foi condenado à morte acusado de corromper a juventude com suas perguntas.\nB lê ao pé da letra a ironia do \"entediante\"; C erra porque a ditadura fechou os CPCs, ligados à UNE; D contradiz o texto, que aponta justamente os políticos como obstáculo.\n\n**Resposta: A**"
+  },
+  "57": {
+   "assunto": "Cinemática",
+   "resolucao": "A velocidade escalar média é a distância percorrida dividida pelo tempo gasto.\nO tempo precisa estar em horas: $5\\ \\text{dias} = 5 \\times 24 = 120\\ \\text{h}$.\n$v_m = \\frac{\\Delta s}{\\Delta t} = \\frac{6480\\ \\text{km}}{120\\ \\text{h}} = 54\\ \\text{km/h}$.\nA alternativa C (1296 km/h) aparece se dividirmos por 5 sem converter dias em horas.\n\n**Resposta: A**"
+  },
+  "58": {
+   "assunto": "Cinemática",
+   "resolucao": "No gráfico $v \\times t$, a área sob a curva é o deslocamento. O carro está parado no 1º semáforo até 5 s, no 2º entre 25 s e 45 s e chega ao 3º em 65 s.\nDo 1º ao 2º semáforo (trapézio de 5 s a 25 s, topo de 10 s a 20 s, altura 10 m/s): $\\frac{(20 + 10) \\cdot 10}{2} = 150\\ \\text{m}$.\nDo 2º ao 3º (trapézio de 45 s a 65 s, topo de 50 s a 60 s, altura 12 m/s): $\\frac{(20 + 10) \\cdot 12}{2} = 180\\ \\text{m}$.\nDistância entre o 1º e o 3º semáforo: $150 + 180 = 330\\ \\text{m}$. As alternativas C e D são só um dos trechos.\n\n**Resposta: A**"
+  },
+  "59": {
+   "assunto": "Estática",
+   "resolucao": "A pessoa e o assento ficam pendurados numa barra articulada no alto, inclinada de $30^\\circ$ com a vertical. A força $\\vec{F}$ da perna é perpendicular à barra, como indica a marca de ângulo reto.\nDecompondo o peso $P = m g = 65 \\cdot 10 = 650\\ \\text{N}$ nas direções da barra e perpendicular a ela, a componente perpendicular vale $P \\sin 30^\\circ$. É ela que tende a girar o conjunto, e a perna precisa equilibrá-la (a componente ao longo da barra é sustentada pela própria barra).\n$F = P \\sin 30^\\circ = 650 \\cdot 0{,}5 = 325\\ \\text{N}$.\nA alternativa D (560 N) usa $\\cos 30^\\circ$ no lugar de $\\sin 30^\\circ$.\n\n**Resposta: C**"
+  },
+  "60": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "Potência é energia dividida pelo tempo.\nEnergia perdida em um ano: $0{,}1\\% \\text{ de } 2 \\times 10^{42}\\ \\text{J} = 10^{-3} \\cdot 2 \\times 10^{42} = 2 \\times 10^{39}\\ \\text{J}$.\n$P = \\frac{E}{\\Delta t} = \\frac{2 \\times 10^{39}\\ \\text{J}}{3{,}6 \\times 10^{7}\\ \\text{s}} \\approx 5{,}6 \\times 10^{31}\\ \\text{W}$.\nA alternativa B (2,0 · $10^{39}$) é a energia perdida, e não a potência: falta dividir pelo tempo.\n\n**Resposta: C**"
+  }
+ },
  "relatorio": [
   {
    "numero": 31,
@@ -242,7 +363,7 @@
   {
    "numero": 45,
    "status": "corrigida",
-   "notas": "sequências: no caderno o número vem colado, \"...CCCTAG(1)\"; havia espaço a mais"
+   "notas": "sequências: no caderno o número vem colado, \"...CCCTAG(1)\"; havia espaço a mais. Sequências conferidas letra a letra na ampliação da página."
   },
   {
    "numero": 46,
@@ -257,7 +378,7 @@
   {
    "numero": 48,
    "status": "corrigida",
-   "notas": "descrição da figura interpretava a cena (\"luta entre gladiadores\", palavras da alternativa D); trocada por descrição visual neutra"
+   "notas": "descrição da figura interpretava a cena (\"luta entre gladiadores\", palavras da alternativa D); trocada por descrição visual neutra. Endereço da fonte, quebrado em \"(c\" / \"olor)\" na impressão, reunido como \"(color)\"."
   },
   {
    "numero": 49,

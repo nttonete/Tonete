@@ -72,7 +72,128 @@
    }
   }
  ],
- "complementos": {},
+ "complementos": {
+  "61": {
+   "assunto": "Termodinâmica",
+   "resolucao": "Como a temperatura não muda, vale a lei de Boyle: $P_1V_1 = P_2V_2$.\n\nAo abrir a válvula A, o ar que estava só na câmara ($2{,}0$ L) passa a ocupar câmara + pistão ($2{,}0 + 0{,}2 = 2{,}2$ L):\n$P_\\text{f} = \\frac{33 \\cdot 2{,}0}{2{,}2} = 30\\ \\text{Pa}$.\n\nDepois a válvula A fecha e o ar do pistão é expulso, mas a câmara fica com os mesmos $30\\ \\text{Pa}$.\nA distratora 36,3 Pa é o erro de multiplicar por $2{,}2/2{,}0$, como se o volume tivesse diminuído.\n\n**Resposta: A**"
+  },
+  "62": {
+   "assunto": "Hidrostática",
+   "resolucao": "A vazão se conserva: o volume que sai da seringa por segundo é o que entra no microcanal, $A_1V = A_2v$.\n\nComo a área do círculo é proporcional ao quadrado do diâmetro:\n$v = V\\left(\\frac{D}{d}\\right)^2 = 4\\ \\text{mm/s} \\cdot \\left(\\frac{4\\ \\text{mm}}{0{,}5\\ \\text{mm}}\\right)^2 = 4 \\cdot 64 = 256\\ \\text{mm/s}$.\n\nO erro comum é usar a razão dos diâmetros sem elevar ao quadrado ($4 \\cdot 8 = 32$ mm/s, alternativa B).\n\n**Resposta: A**"
+  },
+  "63": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "A carga é a área sob o gráfico da corrente em função do tempo ($Q = i\\,\\Delta t$).\n\nTrecho constante: $1200\\ \\text{mA} \\cdot 1{,}5\\ \\text{h} = 1800\\ \\text{mAh}$.\nTrecho decrescente (triângulo de 1,5 h a 4,0 h): $\\frac{2{,}5 \\cdot 1200}{2} = 1500\\ \\text{mAh}$.\nTotal: $3300\\ \\text{mAh} = 3{,}3\\ \\text{A} \\cdot 3600\\ \\text{s} = 11\\,880\\ \\text{C}$.\n\nAs alternativas 3,3 C e 3.300 C confundem a unidade (o valor certo em mAh não está em coulombs).\n\n**Resposta: B**"
+  },
+  "64": {
+   "assunto": "Ondulatória",
+   "resolucao": "O menor comprimento de onda da luz visível corresponde à maior frequência: $\\lambda = \\frac{c}{f}$.\n\n$\\lambda_\\text{mín} = \\frac{3\\times10^{8}}{7{,}5\\times10^{14}} = 4\\times10^{-7}\\ \\text{m} = 400\\ \\text{nm}$.\n\nSó dá para ver estruturas de pelo menos 400 nm. Entre as da figura, a menor que passa desse limite é o retículo endoplasmático (420 nm); o ribossomo (25 nm) fica abaixo da resolução.\n\n**Resposta: B**"
+  },
+  "65": {
+   "assunto": "Óptica",
+   "resolucao": "A bola de Natal funciona como um espelho esférico convexo (a face refletora está do lado de fora).\n\nUm espelho convexo, para qualquer objeto real, forma sempre imagem virtual, direita e menor que o objeto. Por isso a imagem de Jerry deveria aparecer reduzida na bola, e não enorme como no desenho.\n\nImagem ampliada só aparece em espelho côncavo, com o objeto perto do foco.\n\n**Resposta: B**"
+  },
+  "66": {
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "Em 2015, os três países de origem que somavam mais da metade dos refugiados do mundo eram Síria (guerra civil iniciada em 2011), Afeganistão (décadas de guerra e a ocupação após 2001) e Somália (Estado fragilizado e guerra civil).\n\nGrécia e Macedônia aparecem nas alternativas porque eram rotas de passagem dos refugiados para a Europa, não países de origem. Myanmar tem refugiados (os rohingya), mas em número bem menor naquele ano.\n\n**Resposta: B**"
+  },
+  "67": {
+   "assunto": "Geografia do Brasil",
+   "resolucao": "É preciso ligar cada município ao seu minério e ao corredor do mapa:\n\n- Oriximiná (oeste do Pará, rio Trombetas): bauxita, escoada pelo rio Amazonas (corredor baixo Amazonas).\n- Parauapebas (Serra dos Carajás): minério de ferro, escoado pela Estrada de Ferro Carajás até São Luís (corredor Carajás).\n- Ipixuna do Pará: caulim, levado por mineroduto até Barcarena (corredor do vale do rio Capim).\n\nA ordem bauxita, ferro, caulim só aparece na alternativa B.\n\n**Resposta: B**"
+  },
+  "68": {
+   "assunto": "Biomas e vegetação",
+   "resolucao": "O manguezal é um ecossistema de transição (ecótono) entre o mar e a terra, em áreas abrigadas sujeitas às marés, com solo lodoso rico em matéria orgânica e vegetação adaptada à salinidade e à inundação.\n\nAs outras alternativas descrevem outros ambientes costeiros: A, lagunas; B, dunas; C, restingas.\n\n**Resposta: D**"
+  },
+  "69": {
+   "assunto": "Clima",
+   "resolucao": "Ressacas no litoral do Sudeste ocorrem quando ciclones extratropicais se formam ou se intensificam no Atlântico Sul, mais no inverno, associados a frentes frias.\n\nA grande diferença de pressão gera ventos fortes, que empurram grandes volumes de água e formam ondas altas contra a costa.\n\nA alternativa D erra ao falar em ciclones tropicais (quase inexistentes no Atlântico Sul) e erra também na física: no inverno a diferença de temperatura entre o polo e o equador é maior, não menor.\n\n**Resposta: C**"
+  },
+  "70": {
+   "assunto": "Urbanização",
+   "resolucao": "Movimento pendular é o deslocamento diário de ida e volta entre o município onde a pessoa mora e outro onde trabalha ou estuda, típico das regiões metropolitanas.\n\nO texto fala de pessoas que se deslocam \"cotidianamente\" entre municípios do Arranjo, sem mudar de residência. Por isso não é migração (A e C), que supõe mudança de moradia, nem movimento sazonal (D), ligado a épocas do ano.\n\n**Resposta: B**"
+  },
+  "71": {
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "As grandes empresas de tecnologia digital formam oligopólios globais, mas sua atuação em cada país depende das leis nacionais (regras de concorrência, privacidade, tributos, conteúdo), como o próprio texto indica ao falar das regras antitruste.\n\nA erra ao dizer que os Estados perderam \"totalmente\" o controle; B, ao restringir o poder dessas empresas aos países pobres; C, porque as leis antitruste são bem anteriores (por exemplo, a Lei Sherman, dos EUA, é de 1890).\n\n**Resposta: D**"
+  },
+  "72": {
+   "assunto": "População e migrações",
+   "resolucao": "Lendo a tabela, só Norte (3,9 → 8,3) e Centro-Oeste (3,0 → 7,4) cresceram em todos os censos. Isso se liga às migrações estimuladas pelo Estado: Marcha para o Oeste, construção de Brasília, rodovias e projetos de colonização na Amazônia.\n\nAs outras explicações estão erradas: em C, a população do Sudeste não diminuiu em números absolutos, só perdeu participação; em D, a queda do Sul não se deve à volta de descendentes à Europa; em B, as secas não explicam sozinhas a perda contínua de participação do Nordeste.\n\n**Resposta: A**"
+  },
+  "73": {
+   "assunto": "Teoria sociológica",
+   "resolucao": "Para Ianni, a violência combina justificativas apresentadas como racionais e ideais com práticas brutais. Ela não é um fato isolado: faz parte do modo como o poder se organiza na sociedade.\n\nA alternativa D resume essa ideia: a violência é parte da cultura política que ordena ou transforma as relações entre quem detém o poder e os grupos subordinados.\n\nA inverte o texto (as alegações é que são racionais e as práticas, irracionais). B e C contradizem o trecho ao chamar de desprezíveis ou sem importância os efeitos da violência.\n\n**Resposta: D**"
+  },
+  "74": {
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "No gráfico triangular, cada ponto soma 100% entre matas, lavouras e pastagens.\n\n- Ponto 1: muita mata (cerca de 42%) e quase nenhuma lavoura: Norte.\n- Ponto 4: maior proporção de lavouras (cerca de 40%): Sul, de agricultura de grãos.\n- Ponto 3: pouca mata e predomínio de pastagens: Sudeste.\n- Ponto 5: pastagens dominantes, com mata razoável e pouca lavoura: Centro-Oeste.\n- Ponto 2: Nordeste, com matas (caatinga) e lavouras intermediárias.\n\n**Resposta: A**"
+  },
+  "75": {
+   "assunto": "Funções inorgânicas",
+   "resolucao": "As charges remetem ao escândalo de 2007, quando se descobriu leite adulterado com soda cáustica e água oxigenada.\n\nÀ esquerda, o leite está tão contaminado que a soda cáustica (NaOH, uma base) \"tem gosto de leite\". A soda era usada para neutralizar a acidez do leite velho, ou seja, para acertar a acidez.\n\nÀ direita, o filhote amarelo \"tomou leite com água oxigenada\" ($\\text{H}_2\\text{O}_2$, que descolore). A água oxigenada era usada como bactericida, para eliminar microrganismos.\n\nA alternativa B troca as funções das duas substâncias.\n\n**Resposta: A**"
+  },
+  "76": {
+   "assunto": "Eletroquímica",
+   "resolucao": "O ferro se oxida com facilidade: em contato com oxigênio e umidade forma ferrugem ($\\text{Fe} \\to \\text{Fe}^{2+}/\\text{Fe}^{3+}$). Com o tempo, o ferro realmente fica \"velho\", e a expressão \"Ferro Velho\" faz sentido.\n\nO ouro é um metal nobre: tem potencial de redução muito alto e praticamente não se oxida em condições comuns. Ouro antigo e ouro novo são quimicamente iguais, então \"Ouro Velho\" não é uma expressão apropriada.\n\nA alternativa C erra ao dizer que o ferro \"se reduz\": a corrosão é uma oxidação.\n\n**Resposta: D**"
+  },
+  "77": {
+   "assunto": "Gases",
+   "resolucao": "Cada vez que a garrafa é aberta, o gás escapa e a pressão interna cai até a pressão ambiente (cerca de 1 atm).\n\nDepois que a garrafa é fechada, parte do $\\text{CO}_2$ dissolvido sai do líquido e a pressão volta a subir, mas cada vez menos: a cada abertura se perde $\\text{CO}_2$ e sobra menos refrigerante (e mais espaço vazio) na garrafa.\n\nO gráfico B mostra exatamente isso: queda até 1 atm a cada 4 h e picos cada vez menores. Em C e D a pressão volta aos 3,5 atm, o que exigiria repor o gás perdido; em A a pressão nunca cai até a ambiente.\n\n**Resposta: B**"
+  },
+  "78": {
+   "assunto": "Soluções",
+   "resolucao": "O volume de álcool ingerido é o volume da bebida vezes o teor alcoólico.\n\nCerveja: $10 \\cdot 330\\ \\text{mL} \\cdot 0{,}05 = 165\\ \\text{mL}$ de álcool.\nCachaça: $6 \\cdot 50\\ \\text{mL} \\cdot 0{,}45 = 135\\ \\text{mL}$ de álcool.\n\nQuem bebeu as latinhas ingeriu mais álcool, porque o produto teor × volume é maior. As alternativas A e D olham para um só fator (só o volume ou só o teor) e por isso não justificam a conclusão.\n\n**Resposta: C**"
+  },
+  "79": {
+   "assunto": "Ligações e interações",
+   "resolucao": "A água é polar e forma ligações de hidrogênio. Ela \"gruda\" em superfícies que também fazem essas interações e é repelida por superfícies apolares.\n\nNo revestimento 1, as cadeias terminam em $\\text{CH}_3$: a superfície é apolar (hidrofóbica) e a urina escorre.\nNo revestimento 2, as cadeias terminam em $\\text{OH}$, que forma ligações de hidrogênio com a água: a superfície é hidrofílica e molha.\n\nC e D se contradizem: um grupo de mesma polaridade que a água atrai a urina, não a repele.\n\n**Resposta: B**"
+  },
+  "80": {
+   "assunto": "Termologia",
+   "resolucao": "O \"suor\" do copo de chope é vapor de água do ar que se condensa na superfície fria. A condensação libera calor (calor latente), e parte dele passa para o chope, cuja temperatura aumenta.\n\nNo corpo humano ocorre o contrário: a evaporação do suor absorve calor da pele, e isso impede que a temperatura do corpo suba.\n\nPor isso o slogan faz sentido: o chope só \"sua\" se estiver bem gelado, e ao suar ele se aquece, enquanto o corpo sua para não se aquecer.\n\n**Resposta: D**"
+  },
+  "81": {
+   "assunto": "Química ambiental",
+   "resolucao": "O tanque de combustível nunca está vazio de gás: acima do líquido há ar misturado com vapores do combustível, que é volátil.\n\nAo abastecer, o líquido que entra empurra essa mistura para fora pelo bocal, durante todo o abastecimento. O frentista fica exposto aos vapores com ou sem arredondamento; arredondar só aumenta essa exposição.\n\nPor isso B, C e D estão erradas: todas negam que haja liberação de vapores antes do travamento ou dizem que ela não depende do volume.\n\n**Resposta: A**"
+  },
+  "82": {
+   "assunto": "Radioatividade",
+   "resolucao": "O ${}^{3}_{2}\\text{He}$ tem 2 prótons e 1 nêutron. No esquema, cada reagente tem 2 esferas escuras e 1 clara: as escuras são os prótons e a clara é o nêutron.\n\nA reação junta núcleos leves e forma um núcleo maior: ${}^{3}_{2}\\text{He} + {}^{3}_{2}\\text{He} \\to {}^{4}_{2}\\text{He} + 2\\,{}^{1}_{1}\\text{p}$. O produto tem 2 escuras e 2 claras (o ${}^{4}_{2}\\text{He}$), e sobram 2 esferas escuras isoladas (prótons).\n\nUnião de núcleos é fusão nuclear, que libera muita energia. Fissão seria a quebra de um núcleo pesado.\n\n**Resposta: C**"
+  },
+  "83": {
+   "assunto": "Soluções",
+   "resolucao": "Dissolver um soluto não volátil como o etilenoglicol na água causa efeitos coligativos:\n\n- crioscopia: a temperatura de solidificação fica mais baixa que $0\\ ^\\circ\\text{C}$ (o radiador não congela em países frios);\n- ebulioscopia: a temperatura de ebulição fica mais alta que $100\\ ^\\circ\\text{C}$ (o líquido não ferve com facilidade em países quentes).\n\nPor isso o aditivo serve nos dois tipos de clima, como diz o enunciado.\n\n**Resposta: B**"
+  },
+  "84": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Hagar ameaça o castelo com espadas e recebe a resposta \"The King of England is not afraid of sharp swords!\" (\"O rei da Inglaterra não tem medo de espadas afiadas!\").\n\nQuando ele muda a ameaça para \"We're going to cut down your rose bushes\" (\"Vamos cortar suas roseiras\"), o rei manda entregar o ouro na hora: \"Give them the gold.\"\n\nA graça está em os ingleses temerem mais pelas roseiras do que pela guerra, o que ironiza o apego deles aos jardins.\n\n**Resposta: C**"
+  },
+  "85": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Murakami diz que o normal no Japão é terminar os estudos, arrumar emprego e só depois casar. Ele fez as mesmas três coisas, mas na ordem inversa: \"I married, then started working, then finally managed to graduate\", ou seja, \"the order I chose was the exact opposite to what was considered normal\".\n\nC e D são as distratoras: ele quis abrir um bar de jazz para ouvir música o dia todo, mas trabalhando nele (não \"sem trabalhar\"), e o texto não fala em ganhar dinheiro. A erra porque o bar não era o caminho \"normal\" e não era uma loja de discos.\n\n**Resposta: B**"
+  },
+  "86": {
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "As frases do termômetro são comentários sobre o tempo que se fazem para puxar conversa, como \"Cold enough for ya?\" (\"Frio o bastante pra você?\") e \"Hot enough for ya?\" (\"Quente o bastante pra você?\").\n\n\"Small talk\" é a conversa leve e superficial, muitas vezes sobre o clima, usada para iniciar contato ou quebrar o gelo. A piada é que existe uma frase pronta para cada temperatura.\n\nAs frases são banais e cotidianas, não de cientistas ou meteorologistas (B e C), e não há desacordo entre pessoas (D).\n\n**Resposta: A**"
+  },
+  "87": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "A primeira frase responde à pergunta: \"Universities these days are working hard to improve their sustainability credentials\" (\"as universidades se esforçam para melhorar suas credenciais de sustentabilidade\"). O título e o resto do texto mostram que essas credenciais são medidas por rankings de instituições \"verdes\" (Princeton Review, GreenReportCard.org).\n\nCursos, energia eólica e comida orgânica são meios para isso. A alternativa A é a distratora: o texto cita cursos \"related to sustainability and energy\" só como um desses meios, e não fala em \"ecologia\". C exagera (\"os melhores cursos\") e D inventa uma competição por área verde.\n\n**Resposta: B**"
+  },
+  "88": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Segundo o texto, Christopher Hitchens elogiou J. K. Rowling por livrar a literatura infantil inglesa \"from dreams of riches and class and snobbery\" (dos sonhos de riqueza, classe e esnobismo). Ou seja, na série o desejo de subir socialmente e enriquecer tem pouca importância.\n\nA é falsa: críticos e grupos religiosos fazem críticas diferentes. B contradiz o crítico que viu \"infantilismo cultural\" nos adultos leitores. C inverte a crítica a Hogwarts, que recompensaria só os talentos inatos (\"only rewarding innate talents\").\n\n**Resposta: D**"
+  },
+  "89": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O infográfico diz que apenas 38% das adolescentes que têm filho até os 18 anos (\"who have a child by age 18\") concluem o ensino médio até os 22 (\"obtain a high school diploma by age 22\"). A maioria delas, portanto, não termina a escola: a gravidez na adolescência atrapalha a vida escolar.\n\nA e B tiram o número do contexto: os 38% não se referem a todas as jovens, só às que foram mães antes dos 18. D fala de gravidez depois dos 18, que o infográfico não trata.\n\n**Resposta: C**"
+  },
+  "90": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto diz que em Vindolanda a umidade preservou \"wooden writing tablets\" (tabuletas de madeira para escrita), usadas para memorandos e contas, e que elas dão \"the best insight into life in the Roman army\" (a melhor visão da vida no exército romano).\n\nA erra porque o texto contrasta Vindolanda com o Egito: lá é que o clima seco preserva papiros. B confunde a data em que as tabuletas foram jogadas ao fogo (105 d.C.) com o assunto delas. C generaliza o único bilhete citado, que é um pedido de dinheiro entre dois homens ligados ao forte.\n\n**Resposta: D**"
+  }
+ },
  "relatorio": [
   {
    "numero": 61,
