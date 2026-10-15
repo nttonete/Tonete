@@ -348,15 +348,28 @@
     var totalDisc = discursivas.reduce(function (s, e) { return s + e.validas; }, 0);
     var anos = anosDisponiveis("objetiva");
 
+    var gabaritoDemo = ["C", "A", "E", "B", "D", "B", "A", "C", "E", "D"];
+    var cartaoDemo = el("div", { class: "cartao-demo", "aria-hidden": "true" }, [
+      el("div", { class: "cd-cab" }, [el("span", { text: "Cartão-resposta" }), el("span", { class: "cd-cod", text: "1ª fase" })]),
+      el("ol", {}, gabaritoDemo.map(function (letra, i) {
+        return el("li", { style: "--i:" + i }, [el("span", { class: "cd-n", text: String(i + 1).padStart(2, "0") })].concat(["A", "B", "C", "D", "E"].map(function (l) {
+          return el("span", { class: "cd-b" + (l === letra ? " cheia" : ""), text: l });
+        })));
+      })),
+      el("div", { class: "cd-marcas" }, Array.apply(null, Array(10)).map(function () { return el("i"); })),
+    ]);
     app.appendChild(el("section", { class: "abertura" }, [
-      el("h1", { text: "Treine com questões reais da FUVEST, Unicamp e UNESP." }),
-      el("p", { text: "Ferramenta de estudo: faça simulados com questões sorteadas entre as provas dos últimos anos ou treine uma matéria. As respostas aparecem só quando você termina, junto com o gabarito oficial." }),
-      el("ul", { class: "cifras" }, [
-        el("li", {}, [el("strong", { text: totalObj.toLocaleString("pt-BR") }), " questões objetivas"]),
-        totalDisc ? el("li", {}, [el("strong", { text: totalDisc.toLocaleString("pt-BR") }), " discursivas"]) : null,
-        anos.length ? el("li", {}, [el("strong", { text: anos[0] + "–" + anos[anos.length - 1] }), " edições"]) : null,
-        el("li", {}, [el("strong", { text: objetivas.length }), " provas completas"]),
+      el("div", { class: "abertura-texto" }, [
+        el("h1", { text: "Treine com questões reais da FUVEST, Unicamp e UNESP." }),
+        el("p", { text: "Ferramenta de estudo: faça simulados com questões sorteadas entre as provas dos últimos anos ou treine uma matéria. As respostas aparecem só quando você termina, junto com o gabarito oficial." }),
+        el("ul", { class: "cifras" }, [
+          el("li", {}, [el("strong", { text: totalObj.toLocaleString("pt-BR") }), "questões objetivas"]),
+          totalDisc ? el("li", {}, [el("strong", { text: totalDisc.toLocaleString("pt-BR") }), "discursivas"]) : null,
+          anos.length ? el("li", {}, [el("strong", { text: anos[0] + "–" + String(anos[anos.length - 1]).slice(2) }), "edições"]) : null,
+          el("li", {}, [el("strong", { text: objetivas.length }), "provas completas"]),
+        ]),
       ]),
+      cartaoDemo,
     ]));
 
     var aberta = ler(CHAVE_SESSAO, null);
@@ -751,11 +764,33 @@
     if (discursiva) {
       app.appendChild(el("p", { class: "dica", text: "Abra cada questão, compare sua resposta com a resposta esperada pela banca e marque como foi. O placar abaixo usa a sua avaliação." }));
     }
-    app.appendChild(el("dl", { class: "placar" }, [
-      el("div", {}, [el("dt", { text: "Aproveitamento" }), el("dd", { text: Math.round(r.nota * 100) + "%" })]),
-      el("div", {}, [el("dt", { text: "Acertos" }), el("dd", { text: (r.certas + (r.parciais ? " + " + r.parciais + "½" : "")) + " de " + r.consideradas })]),
-      el("div", {}, [el("dt", { text: discursiva ? "Sem avaliação" : "Em branco" }), el("dd", { text: String(r.branco) })]),
-      el("div", {}, [el("dt", { text: "Tempo" }), el("dd", { text: formatarTempo(s.fim - s.inicio), style: "font-size:1.25rem;padding-top:.45rem" })]),
+    var bolhas = s.refs.map(function (ref, i) {
+      var st = situacao(s, ref);
+      var nome = { certa: "certa", errada: "errada", branco: discursiva ? "sem avaliação" : "em branco", anulada: "anulada", parcial: "parcial" }[st];
+      return el("button", { type: "button", class: "gab " + st, title: "Questão " + (i + 1) + ": " + nome, "aria-label": "Questão " + (i + 1) + ", " + nome + ". Ver correção",
+        style: "--i:" + i, onclick: function () { estado.revendo = i; desenhar(); window.scrollTo(0, 0); } }, [String(i + 1)]);
+    });
+    app.appendChild(el("section", { class: "banda", "aria-label": "Placar" }, [
+      el("div", { class: "banda-topo" }, [
+        el("div", { class: "heroi" }, [
+          el("span", { class: "rotulo-sec", text: discursiva ? "Sua avaliação" : "Aproveitamento" }),
+          el("div", { class: "heroi-num" }, [String(Math.round(r.nota * 100)), el("small", { text: "%" })]),
+          el("div", { class: "delta", text: "Estimativa para estudo, não é nota oficial." }),
+        ]),
+        el("div", { class: "cartela" }, [
+          el("div", { class: "cartela-cab" }, [
+            el("span", { class: "rotulo-sec", text: "Cartão-resposta" }),
+            el("span", { class: "cartela-legenda" }, [el("i", { class: "ok" }), "certa", el("i", { class: "erro" }), "errada", el("i", { class: "branco" }), discursiva ? "sem avaliação" : "em branco"]),
+          ]),
+          el("div", { class: "gabarito-bolhas" }, bolhas),
+          el("p", { class: "cartela-nota", text: "Toque numa bolha para ver a correção da questão." }),
+        ]),
+      ]),
+      el("dl", { class: "placar" }, [
+        el("div", {}, [el("dt", { text: "Acertos" }), el("dd", { text: (r.certas + (r.parciais ? " + " + r.parciais + "½" : "")) + " de " + r.consideradas })]),
+        el("div", {}, [el("dt", { text: discursiva ? "Sem avaliação" : "Em branco" }), el("dd", { text: String(r.branco) })]),
+        el("div", {}, [el("dt", { text: "Tempo" }), el("dd", { text: formatarTempo(s.fim - s.inicio) })]),
+      ]),
     ]));
     if (s.tempoEsgotado) app.appendChild(el("p", { class: "aviso-tempo", role: "status", text: "O tempo acabou e a prova foi entregue automaticamente, como no vestibular." }));
     if (r.anuladas) app.appendChild(el("p", { class: "dica", text: plural(r.anuladas, "questão anulada pela banca não entrou", "questões anuladas pela banca não entraram") + " na conta." }));
@@ -1037,6 +1072,29 @@
     ]);
   }
 
+  // O histórico desenhado como um cartão-resposta: cada linha é um treino, cada bolha uma questão.
+  function cartelaHistorico(treinos) {
+    var ultimos = treinos.slice(-12).reverse();
+    var linhas = ultimos.map(function (t, i) {
+      var marcas = t.qs.length ? t.qs.map(function (q) { return q.ok; })
+        : Array.apply(null, Array(t.total)).map(function (_, k) { return k < Math.round(t.certas); });
+      var p = pct(t.certas, t.total);
+      var desc = t.h.titulo + ", " + dataCurta(t.quando) + ": " + (t.certas % 1 ? t.certas.toFixed(1) : t.certas) + " de " + t.total + " certas (" + p + "%)";
+      return el("li", { class: "cartela-linha", style: "--i:" + i, title: desc, "aria-label": desc }, [
+        el("span", { class: "cartela-data", text: new Date(t.quando).toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" }) }),
+        el("span", { class: "cartela-bolhas", "aria-hidden": "true" }, marcas.map(function (ok) { return el("i", { class: ok ? "ok" : "erro" }); })),
+        el("span", { class: "cartela-pct", text: p + "%" }),
+      ]);
+    });
+    return el("div", { class: "cartela" }, [
+      el("div", { class: "cartela-cab" }, [
+        el("span", { class: "rotulo-sec", text: treinos.length > 12 ? "Seus últimos 12 treinos" : "Seus treinos" }),
+        el("span", { class: "cartela-legenda" }, [el("i", { class: "ok" }), "certa", el("i", { class: "erro" }), "errada ou em branco"]),
+      ]),
+      el("ol", { class: "cartela-lista" }, linhas),
+    ]);
+  }
+
   function telaHistorico() {
     var hist = ler(CHAVE_HIST, []);
     var f = estado.filtroDesempenho = estado.filtroDesempenho || { periodo: "tudo", vest: "todos" };
@@ -1090,8 +1148,11 @@
       el("div", { class: "kpi" }, [el("span", { class: "rotulo-sec", text: "Sequência" }), el("span", { class: "v" }, [String(seq), el("small", { text: seq === 1 ? " dia" : " dias" })]), el("span", { class: "s", text: "seguidos treinando" })]),
     ]);
     var grafico = graficoEvolucao(treinos);
-    app.appendChild(el("section", { class: "painel", "aria-label": "Visão geral" }, [
-      el("div", { class: "visao" }, [heroi, kpis]),
+    app.appendChild(el("section", { class: "banda", "aria-label": "Visão geral" }, [
+      el("div", { class: "banda-topo" }, [heroi, cartelaHistorico(treinos)]),
+      kpis,
+    ]));
+    app.appendChild(el("section", { class: "painel", style: "margin-top:1rem" }, [
       el("div", { class: "painel-cab" }, [el("h2", { text: "Evolução" }), el("p", { text: "Passe o dedo ou o mouse sobre o gráfico para ver cada treino." })]),
       grafico,
     ]));
