@@ -15,6 +15,7 @@
   var ORDEM_MATERIAS = Object.keys(MATERIAS);
   var CHAVE_SESSAO = "banca-aberta:sessao";
   var CHAVE_HIST = "banca-aberta:historico";
+  var SEGUNDOS_POR_QUESTAO = 200; // ritmo do treino cronometrado: 5 h para 90 questões
 
   var app = document.getElementById("app");
   var estado = { indice: null, cache: {}, sessao: null, tela: "inicio", revendo: null, confirmando: false };
@@ -128,25 +129,49 @@
     });
     return escolhidas;
   }
+  // Sorteia respeitando a distribuição oficial do edital ({"portugues+literatura": 12, ...}).
+  function sortearComCotas(pool, distribuicao, n) {
+    var total = Object.keys(distribuicao).reduce(function (s, k) { return s + distribuicao[k]; }, 0);
+    var escolhidas = [];
+    Object.keys(distribuicao).forEach(function (chave) {
+      var materias = chave.split("+");
+      var cota = Math.round((distribuicao[chave] / total) * n);
+      var grupo = pool.filter(function (r) { return materias.indexOf(r.materia) >= 0; });
+      escolhidas = escolhidas.concat(embaralhar(grupo).slice(0, cota));
+    });
+    // completa (ou corta) até n com as demais questões, se o arredondamento não fechar
+    var usadas = {};
+    escolhidas.forEach(function (r) { usadas[r.ed + r.n] = true; });
+    var resto = embaralhar(pool.filter(function (r) { return !usadas[r.ed + r.n]; }));
+    while (escolhidas.length < n && resto.length) escolhidas.push(resto.pop());
+    escolhidas = escolhidas.slice(0, n);
+    escolhidas.sort(function (a, b) { return ORDEM_MATERIAS.indexOf(a.materia) - ORDEM_MATERIAS.indexOf(b.materia); });
+    return escolhidas;
+  }
   function referencias(dadosLista, filtroQ) {
     var refs = [];
     dadosLista.forEach(function (d) {
       d.questoes.forEach(function (q) {
-        if (valida(q) && (!filtroQ || filtroQ(q, d))) refs.push({ ed: d.edicao.id, n: q.numero, materia: q.materia });
+        if (valida(q) && (!filtroQ || filtroQ(q, d))) refs.push({ ed: d.edicao.id, n: q.numero, materia: q.materia, v: d.edicao.vestibular });
       });
     });
     return refs;
   }
   function iniciarSessao(cfg) {
-    var eds = edicoesFiltradas(cfg.filtro);
+    var eds = cfg.refs
+      ? edicoesFiltradas({}).filter(function (e) { return cfg.refs.some(function (r) { return r.ed === e.id; }); })
+      : edicoesFiltradas(cfg.filtro);
     if (!eds.length) return Promise.reject(new Error("Nenhuma prova disponível com esses filtros."));
     app.innerHTML = '<p class="aviso-carregando">Separando as questões…</p>';
     return carregarEdicoes(eds).then(function (dados) {
       var refs;
       if (cfg.modo === "prova") {
-        refs = dados[0].questoes.map(function (q) { return { ed: dados[0].edicao.id, n: q.numero, materia: q.materia }; });
+        refs = dados[0].questoes.map(function (q) { return { ed: dados[0].edicao.id, n: q.numero, materia: q.materia, v: dados[0].edicao.vestibular }; });
       } else if (cfg.modo === "simulado") {
-        refs = sortearProporcional(referencias(dados), cfg.quantidade);
+        var dist = cfg.distribuicao;
+        refs = dist ? sortearComCotas(referencias(dados), dist, cfg.quantidade) : sortearProporcional(referencias(dados), cfg.quantidade);
+      } else if (cfg.modo === "erros") {
+        refs = cfg.refs;
       } else {
         refs = embaralhar(referencias(dados, function (q, d) {
           var naMateria = !cfg.materias.length || cfg.materias.indexOf(q.materia) >= 0 ||
@@ -159,6 +184,7 @@
         modo: cfg.modo, titulo: cfg.titulo, tipo: cfg.filtro.tipo, refs: refs,
         respostas: {}, escritas: {}, autoav: {}, atual: 0, inicio: Date.now(), fim: null,
         edicoes: eds.map(function (e) { return e.id; }), horas: cfg.horas || null,
+        limite: cfg.limite || null,
       };
       salvarSessao();
       irPara("prova");
@@ -209,9 +235,20 @@
   function registrarHistorico(s) {
     var r = resumo(s);
     var hist = ler(CHAVE_HIST, []);
+    // resultado de cada questão: alimenta o mapa de assuntos, os pontos fracos e o "refazer erros"
+    var questoes = [];
+    s.refs.forEach(function (ref) {
+      var st = situacao(s, ref);
+      if (st === "anulada") return;
+      var achado = buscarQuestao(ref);
+      questoes.push({
+        id: idRef(ref), ed: ref.ed, n: ref.n, v: ref.v || (achado && achado.dados.edicao.vestibular),
+        m: ref.materia, a: achado && achado.q.assunto || null, ok: st === "certa",
+      });
+    });
     hist.unshift({
-      titulo: s.titulo, quando: s.fim, duracao: s.fim - s.inicio, certas: r.certas,
-      parciais: r.parciais, total: r.consideradas, tipo: s.tipo, materias: r.materias,
+      titulo: s.titulo, quando: s.fim, duracao: s.fim - s.inicio, certas: r.certas, modo: s.modo,
+      parciais: r.parciais, total: r.consideradas, tipo: s.tipo, materias: r.materias, questoes: questoes,
     });
     gravar(CHAVE_HIST, hist.slice(0, 100));
   }
@@ -324,9 +361,22 @@
       selQtd.disabled = !!selAno.value;
     }
     var selQtd = el("select", { id: "sim-qtd" });
-    [["cheio", "Tamanho real da prova"], ["45", "45 questões"], ["30", "30 questões"], ["15", "15 questões"]].forEach(function (o) {
-      selQtd.appendChild(el("option", { value: o[0], text: o[1] }));
-    });
+    var infoFormato = el("p", { class: "formato" });
+    function atualizarFormato() {
+      var v = marcados(form, "sim-vest")[0];
+      var info = VESTIBULARES[v];
+      var f = info.formato;
+      var atual = selQtd.value;
+      selQtd.innerHTML = "";
+      [["cheio", "Tamanho do edital (" + info.tamanho + " questões, " + info.horas + " h)"], ["45", "45 questões"], ["30", "30 questões"], ["15", "15 questões"]].forEach(function (o) {
+        selQtd.appendChild(el("option", { value: o[0], text: o[1], selected: o[0] === atual }));
+      });
+      infoFormato.innerHTML = "";
+      if (f) {
+        infoFormato.appendChild(el("strong", { text: info.nome + " " + f.edicao + ": " }));
+        infoFormato.appendChild(document.createTextNode(f.resumo + (f.datas ? " " + f.datas + "." : "")));
+      }
+    }
     selAno.addEventListener("change", function () { selQtd.disabled = !!selAno.value; });
     form.appendChild(el("h2", { text: "Simulado da prova" }));
     form.appendChild(el("p", { text: "Monte uma prova com questões sorteadas entre as edições, na proporção de matérias do vestibular, ou refaça uma prova completa." }));
@@ -335,15 +385,24 @@
     form.appendChild(grupo);
     form.appendChild(el("label", { class: "campo", for: "sim-ano" }, [el("span", { text: "Questões" }), selAno]));
     form.appendChild(el("label", { class: "campo", for: "sim-qtd" }, [el("span", { text: "Tamanho" }), selQtd]));
+    form.appendChild(el("label", { class: "marcar", for: "sim-tempo" }, [
+      el("input", { type: "checkbox", id: "sim-tempo", checked: true }),
+      el("span", { text: "Cronometrar com o tempo oficial (proporcional ao tamanho). Quando o tempo acaba, a prova é entregue." }),
+    ]));
+    form.appendChild(infoFormato);
     form.appendChild(el("button", { class: "botao", type: "submit", text: "Começar simulado" }));
+    atualizarFormato();
+    grupo.addEventListener("change", atualizarFormato);
     atualizarAnos();
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       var v = marcados(form, "sim-vest")[0];
       var info = VESTIBULARES[v];
+      var cronometrar = document.getElementById("sim-tempo").checked;
       if (selAno.value) {
         var ed = estado.indice.edicoes.filter(function (e) { return e.id === selAno.value; })[0];
-        iniciarSessao({ modo: "prova", titulo: "Prova " + nomeEdicao(ed), filtro: { id: ed.id, tipo: "objetiva" }, horas: info.horas })
+        iniciarSessao({ modo: "prova", titulo: "Prova " + nomeEdicao(ed), filtro: { id: ed.id, tipo: "objetiva" }, horas: info.horas,
+          limite: cronometrar ? info.horas * 3600000 : null })
           .catch(function (e) { desenhar(); mostrarErro(document.getElementById("form-simulado"), e.message); });
         return;
       }
@@ -351,6 +410,8 @@
       iniciarSessao({
         modo: "simulado", titulo: "Simulado " + info.nome + " · " + qtd + " questões", quantidade: qtd,
         filtro: { vestibulares: [v], tipo: "objetiva" }, horas: qtd === info.tamanho ? info.horas : null,
+        distribuicao: info.formato && info.formato.distribuicao,
+        limite: cronometrar ? Math.round((info.horas * 3600000 * qtd) / info.tamanho) : null,
       }).catch(function (e) { desenhar(); mostrarErro(document.getElementById("form-simulado"), e.message); });
     });
     return form;
@@ -369,6 +430,10 @@
     form.appendChild(el("fieldset", {}, [el("legend", { text: "Vestibulares" }), chips("mat-vest", opcoesVestibulares("objetiva"), Object.keys(VESTIBULARES))]));
     form.appendChild(el("label", { class: "campo", for: "mat-qtd" }, [el("span", { text: "Quantidade" }), selQtd]));
     form.appendChild(el("label", { class: "campo", for: "mat-ano" }, [el("span", { text: "Edições" }), selAno]));
+    form.appendChild(el("label", { class: "marcar", for: "mat-tempo" }, [
+      el("input", { type: "checkbox", id: "mat-tempo" }),
+      el("span", { text: "Cronometrar no ritmo da prova (3 min 20 s por questão)" }),
+    ]));
     form.appendChild(el("button", { class: "botao", type: "submit", text: "Começar treino" }));
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
@@ -379,6 +444,7 @@
       var nomes = materias.map(function (m) { return MATERIAS[m]; });
       iniciarSessao({
         modo: "materia", quantidade: Number(selQtd.value), materias: materias, anoMin: Number(selAno.value),
+        limite: document.getElementById("mat-tempo").checked ? Number(selQtd.value) * SEGUNDOS_POR_QUESTAO * 1000 : null,
         titulo: "Treino de " + (nomes.length > 2 ? nomes.length + " matérias" : nomes.join(" e ")),
         filtro: { vestibulares: vests, tipo: "objetiva" },
       }).catch(function (e) { desenhar(); mostrarErro(document.getElementById("form-materia"), e.message); });
@@ -515,6 +581,13 @@
     });
     caixa.appendChild(ol);
     if (revisao && q.anulada) caixa.appendChild(el("p", { class: "dica", text: "Esta questão foi anulada pela banca e não conta no resultado." }));
+    if (revisao && q.resolucao) {
+      caixa.appendChild(el("details", { class: "resolucao", open: marcada !== q.gabarito }, [
+        el("summary", { text: "Resolução comentada" + (q.assunto ? " · " + q.assunto : "") }),
+        el("div", { class: "texto", html: render(q.resolucao, ed.id) }),
+        el("p", { class: "dica", text: "Resolução escrita pela equipe da Banca Aberta. O gabarito é o oficial da banca." }),
+      ]));
+    }
     if (revisao && !q.anulada && !marcada) caixa.appendChild(el("p", { class: "dica", text: "Você deixou esta questão em branco." }));
     return caixa;
   }
@@ -561,7 +634,14 @@
     var relogio = el("span", { class: "relogio num", "aria-live": "off" });
     function tic() {
       var passado = Date.now() - s.inicio;
-      relogio.textContent = formatarTempo(passado) + (s.horas ? " de " + s.horas + "h" : "");
+      if (s.limite) {
+        var resta = s.limite - passado;
+        if (resta <= 0) { s.tempoEsgotado = true; clearInterval(relogioTimer); finalizar(); return; }
+        relogio.textContent = "Faltam " + formatarTempo(resta);
+        relogio.classList.toggle("acabando", resta < Math.min(600000, s.limite * 0.1));
+      } else {
+        relogio.textContent = formatarTempo(passado) + (s.horas ? " de " + s.horas + "h" : "");
+      }
     }
     tic();
     relogioTimer = setInterval(tic, 1000);
@@ -625,6 +705,7 @@
       el("div", {}, [el("dt", { text: discursiva ? "Sem avaliação" : "Em branco" }), el("dd", { text: String(r.branco) })]),
       el("div", {}, [el("dt", { text: "Tempo" }), el("dd", { text: formatarTempo(s.fim - s.inicio), style: "font-size:1.2rem" })]),
     ]));
+    if (s.tempoEsgotado) app.appendChild(el("p", { class: "aviso-tempo", role: "status", text: "O tempo acabou e a prova foi entregue automaticamente, como no vestibular." }));
     if (r.anuladas) app.appendChild(el("p", { class: "dica", text: plural(r.anuladas, "questão anulada pela banca não entrou", "questões anuladas pela banca não entraram") + " na conta." }));
 
     var tabela = el("table", { class: "por-materia" }, [
@@ -644,11 +725,38 @@
     tabela.appendChild(corpo);
     app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Por matéria" }), el("div", { style: "overflow-x:auto" }, [tabela])]));
 
+    // por assunto, dentro de cada matéria
+    var porAssunto = {};
+    s.refs.forEach(function (ref) {
+      var achado = buscarQuestao(ref);
+      var st = situacao(s, ref);
+      if (!achado || !achado.q.assunto || st === "anulada") return;
+      var k = ref.materia + "|" + achado.q.assunto;
+      var a = porAssunto[k] = porAssunto[k] || { m: ref.materia, a: achado.q.assunto, certas: 0, total: 0 };
+      a.total++;
+      if (st === "certa") a.certas++;
+    });
+    var assuntos = Object.keys(porAssunto).map(function (k) { return porAssunto[k]; });
+    if (assuntos.length) {
+      assuntos.sort(function (x, y) { return ORDEM_MATERIAS.indexOf(x.m) - ORDEM_MATERIAS.indexOf(y.m) || x.certas / x.total - y.certas / y.total; });
+      var tAss = el("table", { class: "por-materia" }, [el("thead", {}, [el("tr", {}, [el("th", { text: "Assunto" }), el("th", { text: "Matéria" }), el("th", { text: "Acertos", style: "text-align:right" })])])]);
+      var cAss = el("tbody");
+      assuntos.forEach(function (a) {
+        cAss.appendChild(el("tr", { class: a.certas < a.total ? "com-erro" : "" }, [
+          el("td", { text: a.a }), el("td", { class: "sec", text: MATERIAS[a.m] }), el("td", { class: "n", text: a.certas + "/" + a.total }),
+        ]));
+      });
+      tAss.appendChild(cAss);
+      app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Por assunto" }), el("div", { style: "overflow-x:auto" }, [tAss])]));
+    }
+
+    var soErros = estado.soErros;
     var lista = el("ol", { class: "lista-rev" });
     s.refs.forEach(function (ref, i) {
       var achado = buscarQuestao(ref);
       var st = situacao(s, ref);
       var rotulo = { certa: "Certa", errada: "Errada", branco: discursiva ? "Avaliar" : "Em branco", anulada: "Anulada", parcial: "Parcial" }[st];
+      if (soErros && (st === "certa" || st === "anulada")) return;
       var texto = achado ? (achado.q.enunciado || "").replace(/!\[[^\]]*\]\([^)]*\)|[$*_<>[\]]/g, " ").replace(/\s+/g, " ").trim() : "";
       lista.appendChild(el("li", {}, [el("button", { type: "button", onclick: function () { estado.revendo = i; desenhar(); window.scrollTo(0, 0); } }, [
         el("span", { class: "num", text: String(i + 1).padStart(2, "0") }),
@@ -658,6 +766,10 @@
     });
     app.appendChild(el("section", { class: "secao" }, [
       el("h2", { text: "Questões e gabarito" }),
+      el("label", { class: "marcar", for: "so-erros" }, [
+        el("input", { type: "checkbox", id: "so-erros", checked: !!soErros, onchange: function (ev) { estado.soErros = ev.target.checked; desenhar(); } }),
+        el("span", { text: "Mostrar só as que errei ou deixei em branco" }),
+      ]),
       lista,
       el("div", { class: "nav-q" }, [
         el("button", { class: "botao", type: "button", text: "Ver correção questão por questão", onclick: function () { estado.revendo = 0; desenhar(); window.scrollTo(0, 0); } }),
@@ -666,14 +778,195 @@
     ]));
   }
 
-  // ---------- histórico ----------
+  // ---------- histórico e evolução ----------
+  var SVGNS = "http://www.w3.org/2000/svg";
+  function svg(tag, attrs, filhos) {
+    var e = document.createElementNS(SVGNS, tag);
+    Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); });
+    (filhos || []).forEach(function (f) { if (f) e.appendChild(f); });
+    return e;
+  }
+  // Gráfico de linha do aproveitamento (%) em cada treino, do mais antigo ao mais recente.
+  function graficoEvolucao(hist) {
+    var pontos = hist.slice(0, 20).reverse().filter(function (h) { return h.total; }).map(function (h) {
+      return { pct: Math.round(((h.certas + (h.parciais || 0) * 0.5) / h.total) * 100), h: h };
+    });
+    if (pontos.length < 2) return el("p", { class: "dica", text: "O gráfico aparece a partir do segundo treino concluído." });
+    var L = 640, A = 220, me = 36, md = 12, mt = 12, mb = 28;
+    var x = function (i) { return me + (i * (L - me - md)) / (pontos.length - 1); };
+    var y = function (p) { return mt + ((100 - p) * (A - mt - mb)) / 100; };
+    var g = svg("svg", { viewBox: "0 0 " + L + " " + A, class: "grafico", role: "img", "aria-label": "Aproveitamento nos últimos " + pontos.length + " treinos" });
+    [0, 25, 50, 75, 100].forEach(function (p) {
+      g.appendChild(svg("line", { x1: me, x2: L - md, y1: y(p), y2: y(p), class: "grade-linha" }));
+      var t = svg("text", { x: me - 6, y: y(p) + 4, "text-anchor": "end", class: "eixo" }); t.textContent = p + "%"; g.appendChild(t);
+    });
+    var d = pontos.map(function (p, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(p.pct).toFixed(1); }).join(" ");
+    g.appendChild(svg("path", { d: d, class: "linha" }));
+    pontos.forEach(function (p, i) {
+      var c = svg("circle", { cx: x(i), cy: y(p.pct), r: 4.5, class: "ponto" });
+      var tt = svg("title"); tt.textContent = p.h.titulo + ": " + p.pct + "% (" + p.h.certas + "/" + p.h.total + ") em " + dataCurta(p.h.quando);
+      c.appendChild(tt);
+      g.appendChild(c);
+    });
+    var ult = pontos[pontos.length - 1];
+    var rot = svg("text", { x: x(pontos.length - 1), y: y(ult.pct) - 10, "text-anchor": "end", class: "rotulo" }); rot.textContent = ult.pct + "%";
+    g.appendChild(rot);
+    var t0 = svg("text", { x: me, y: A - 8, class: "eixo" }); t0.textContent = "mais antigo";
+    var t1 = svg("text", { x: L - md, y: A - 8, "text-anchor": "end", class: "eixo" }); t1.textContent = "mais recente";
+    g.appendChild(t0); g.appendChild(t1);
+    return el("div", { class: "grafico-caixa" }, [g]);
+  }
+
+  // Junta o resultado de todas as questões já feitas (cada questão conta pela tentativa mais recente).
+  function questoesFeitas(hist) {
+    var vistas = {}, lista = [];
+    hist.forEach(function (h) {
+      (h.questoes || []).forEach(function (q) {
+        if (vistas[q.id]) return;
+        vistas[q.id] = true;
+        lista.push(q);
+      });
+    });
+    return lista;
+  }
+
+  function medalhas(hist) {
+    var todas = [];
+    hist.forEach(function (h) { (h.questoes || []).forEach(function (q) { todas.push(q); }); });
+    var lista = [];
+    var nTreinos = hist.length;
+    lista.push({ nome: "Primeiro treino", meta: "Concluir 1 treino", feito: nTreinos >= 1, prog: Math.min(nTreinos, 1) + "/1" });
+    var provas = hist.filter(function (h) { return h.modo === "prova" || h.modo === "simulado"; }).length;
+    lista.push({ nome: "Dia de prova", meta: "Fazer 1 simulado ou prova completa", feito: provas >= 1, prog: Math.min(provas, 1) + "/1" });
+    lista.push({ nome: "Maratonista", meta: "Resolver 500 questões", feito: todas.length >= 500, prog: Math.min(todas.length, 500) + "/500" });
+    // dias seguidos com treino, contando de hoje (ou ontem) para trás
+    var dias = {};
+    hist.forEach(function (h) { dias[new Date(h.quando).toDateString()] = true; });
+    var seq = 0, dia = new Date();
+    if (!dias[dia.toDateString()]) dia.setDate(dia.getDate() - 1);
+    while (dias[dia.toDateString()]) { seq++; dia.setDate(dia.getDate() - 1); }
+    lista.push({ nome: "Constância", meta: "Treinar 7 dias seguidos", feito: seq >= 7, prog: Math.min(seq, 7) + "/7 dias" });
+    // "Mestre": 50 questões de uma matéria num vestibular
+    var conta = {};
+    todas.forEach(function (q) { if (q.v && q.m) { var k = q.v + "|" + q.m; conta[k] = (conta[k] || 0) + 1; } });
+    var melhor = Object.keys(conta).sort(function (a, b) { return conta[b] - conta[a]; });
+    melhor.forEach(function (k) {
+      var p = k.split("|");
+      var nome = "Mestre da " + VESTIBULARES[p[0]].nome + " em " + MATERIAS[p[1]];
+      if (conta[k] >= 50) lista.push({ nome: nome, meta: "50 questões de " + MATERIAS[p[1]] + " da " + VESTIBULARES[p[0]].nome, feito: true, prog: "50/50" });
+    });
+    if (melhor.length && conta[melhor[0]] < 50) {
+      var p0 = melhor[0].split("|");
+      lista.push({ nome: "Mestre da " + VESTIBULARES[p0[0]].nome + " em " + MATERIAS[p0[1]], meta: "50 questões de " + MATERIAS[p0[1]] + " da " + VESTIBULARES[p0[0]].nome, feito: false, prog: conta[melhor[0]] + "/50" });
+    }
+    return lista;
+  }
+
   function telaHistorico() {
     var hist = ler(CHAVE_HIST, []);
-    app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: "Seu histórico" })]));
+    app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: "Seu desempenho" })]));
     if (!hist.length) {
       app.appendChild(el("p", { class: "vazio", text: "Você ainda não terminou nenhum simulado ou treino. Os resultados aparecem aqui, guardados neste aparelho." }));
       return;
     }
+    var feitas = questoesFeitas(hist);
+    var erradas = feitas.filter(function (q) { return !q.ok; });
+
+    // evolução
+    app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Evolução do aproveitamento" }), graficoEvolucao(hist)]));
+
+    // pontos fracos: (assunto, vestibular) com pelo menos 3 questões, do maior para o menor erro
+    var grupos = {};
+    feitas.forEach(function (q) {
+      if (!q.a || !q.v) return;
+      var k = q.v + "|" + q.m + "|" + q.a;
+      var g = grupos[k] = grupos[k] || { v: q.v, m: q.m, a: q.a, erros: 0, total: 0 };
+      g.total++;
+      if (!q.ok) g.erros++;
+    });
+    var fracos = Object.keys(grupos).map(function (k) { return grupos[k]; })
+      .filter(function (g) { return g.total >= 3 && g.erros > 0; })
+      .sort(function (a, b) { return b.erros / b.total - a.erros / a.total || b.total - a.total; }).slice(0, 5);
+    if (fracos.length) {
+      app.appendChild(el("section", { class: "secao" }, [
+        el("h2", { text: "Onde focar" }),
+        el("ul", { class: "fracos" }, fracos.map(function (g) {
+          var pct = Math.round((g.erros / g.total) * 100);
+          return el("li", {}, [
+            "Você errou ", el("strong", { text: pct + "%" }), " das questões de ",
+            el("strong", { text: g.a }), " da " + VESTIBULARES[g.v].nome + " (" + g.erros + " de " + g.total + ").",
+          ]);
+        })),
+      ]));
+    }
+
+    // refazer erros
+    if (erradas.length) {
+      app.appendChild(el("div", { class: "continuar" }, [
+        el("p", {}, [el("strong", { text: plural(erradas.length, "questão errada", "questões erradas") }), " na sua última tentativa de cada uma."]),
+        el("button", { class: "botao", type: "button", text: "Refazer questões que errei", onclick: function () {
+          var refs = embaralhar(erradas).slice(0, 30).map(function (q) { return { ed: q.ed, n: q.n, materia: q.m, v: q.v }; });
+          iniciarSessao({ modo: "erros", refs: refs, titulo: "Revisão dos meus erros · " + refs.length + " questões", filtro: { tipo: "objetiva" } })
+            .catch(erroGeral);
+        } }),
+      ]));
+    }
+
+    // mapa de calor: assunto x vestibular
+    var vests = Object.keys(VESTIBULARES);
+    var linhas = {};
+    feitas.forEach(function (q) {
+      if (!q.a) return;
+      var k = q.m + "|" + q.a;
+      var l = linhas[k] = linhas[k] || { m: q.m, a: q.a, c: {} };
+      var c = l.c[q.v] = l.c[q.v] || { certas: 0, total: 0 };
+      c.total++;
+      if (q.ok) c.certas++;
+    });
+    var chaves = Object.keys(linhas).sort(function (a, b) {
+      var x = linhas[a], y = linhas[b];
+      return ORDEM_MATERIAS.indexOf(x.m) - ORDEM_MATERIAS.indexOf(y.m) || x.a.localeCompare(y.a);
+    });
+    if (chaves.length) {
+      var tab = el("table", { class: "mapa" }, [el("thead", {}, [el("tr", {}, [el("th", { text: "Assunto" })].concat(vests.map(function (v) { return el("th", { text: VESTIBULARES[v].nome }); })))])]);
+      var corpo = el("tbody");
+      var materiaAtual = null;
+      chaves.forEach(function (k) {
+        var l = linhas[k];
+        if (l.m !== materiaAtual) {
+          materiaAtual = l.m;
+          corpo.appendChild(el("tr", { class: "grupo" }, [el("th", { colspan: String(vests.length + 1), text: MATERIAS[l.m] })]));
+        }
+        corpo.appendChild(el("tr", {}, [el("td", { text: l.a })].concat(vests.map(function (v) {
+          var c = l.c[v];
+          if (!c) return el("td", { class: "vazia", text: "–" });
+          var pct = Math.round((c.certas / c.total) * 100);
+          var nivel = pct >= 80 ? 4 : pct >= 60 ? 3 : pct >= 40 ? 2 : pct >= 20 ? 1 : 0;
+          return el("td", { class: "nivel-" + nivel, title: VESTIBULARES[v].nome + " · " + l.a + ": " + c.certas + " de " + c.total + " certas" }, [
+            el("span", { class: "pct", text: pct + "%" }), el("span", { class: "n", text: " " + c.certas + "/" + c.total }),
+          ]);
+        }))));
+      });
+      tab.appendChild(corpo);
+      app.appendChild(el("section", { class: "secao" }, [
+        el("h2", { text: "Mapa de assuntos" }),
+        el("p", { class: "dica", text: "Porcentagem de acerto em cada assunto, por vestibular. Quanto mais escuro, melhor. Conta a tentativa mais recente de cada questão." }),
+        el("div", { class: "mapa-caixa" }, [tab]),
+      ]));
+    }
+
+    // medalhas
+    app.appendChild(el("section", { class: "secao" }, [
+      el("h2", { text: "Medalhas" }),
+      el("ul", { class: "medalhas" }, medalhas(hist).map(function (m) {
+        return el("li", { class: m.feito ? "feita" : "" }, [
+          el("span", { class: "medalha-icone", "aria-hidden": "true", text: m.feito ? "★" : "☆" }),
+          el("span", {}, [el("strong", { text: m.nome }), el("small", { text: m.meta + " · " + m.prog })]),
+        ]);
+      })),
+    ]));
+
+    // desempenho por matéria e lista de treinos (também servem de tabela do gráfico)
     var acumulado = {};
     hist.forEach(function (h) {
       Object.keys(h.materias || {}).forEach(function (m) {
@@ -682,20 +975,21 @@
       });
     });
     var tabela = el("table", { class: "por-materia" }, [el("thead", {}, [el("tr", {}, [el("th", { text: "Matéria" }), el("th", { text: "Acertos", style: "text-align:right" }), el("th", { text: "" })])])]);
-    var corpo = el("tbody");
+    var corpoM = el("tbody");
     ORDEM_MATERIAS.forEach(function (m) {
       var x = acumulado[m];
       if (!x || !x.total) return;
       var pct = Math.round((x.certas / x.total) * 100);
-      corpo.appendChild(el("tr", {}, [el("td", { text: MATERIAS[m] }), el("td", { class: "n", text: x.certas + "/" + x.total + " · " + pct + "%" }),
+      corpoM.appendChild(el("tr", {}, [el("td", { text: MATERIAS[m] }), el("td", { class: "n", text: x.certas + "/" + x.total + " · " + pct + "%" }),
         el("td", { style: "width:40%" }, [el("div", { class: "barra" }, [el("i", { style: "width:" + pct + "%" })])])]));
     });
-    tabela.appendChild(corpo);
-    app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Desempenho acumulado" }), el("div", { style: "overflow-x:auto" }, [tabela])]));
+    tabela.appendChild(corpoM);
+    app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Desempenho por matéria" }), el("div", { style: "overflow-x:auto" }, [tabela])]));
     app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Últimos treinos" }), el("ul", { class: "historico" }, hist.map(function (h) {
+      var pct = h.total ? Math.round(((h.certas + (h.parciais || 0) * 0.5) / h.total) * 100) : 0;
       return el("li", {}, [
         el("span", { class: "t", text: h.titulo }),
-        el("span", { class: "num", text: h.certas + "/" + h.total }),
+        el("span", { class: "num", text: h.certas + "/" + h.total + " · " + pct + "%" }),
         el("span", { class: "d", text: dataCurta(h.quando) + " · " + formatarTempo(h.duracao) }),
       ]);
     }))]));
@@ -726,6 +1020,14 @@
   carregarJSON("dados/indice.json").then(function (indice) {
     estado.indice = indice;
     if (!indice.edicoes.length) throw new Error("O banco de questões ainda está vazio.");
+    Object.keys(indice.formatos || {}).forEach(function (v) {
+      var f = indice.formatos[v];
+      if (VESTIBULARES[v]) {
+        VESTIBULARES[v].tamanho = f.questoes;
+        VESTIBULARES[v].horas = f.horas;
+        VESTIBULARES[v].formato = f;
+      }
+    });
     desenhar();
   }).catch(erroGeral);
 

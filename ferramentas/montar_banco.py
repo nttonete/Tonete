@@ -61,6 +61,10 @@ def montar(ed):
 
     # correções do agente revisor substituem a transcrição; o relatório dá o status
     status = {}
+    complementos = {}
+    for arq in sorted(pasta.glob("complementos-*.json")):
+        for n, c in (json.loads(arq.read_text()).get("complementos") or {}).items():
+            complementos[int(n)] = c
     for arq in sorted(pasta.glob("revisao-*.json")):
         rev = json.loads(arq.read_text())
         for tb_id, tb in (rev.get("textos_base") or {}).items():
@@ -69,6 +73,8 @@ def montar(ed):
             if q["numero"] not in questoes:
                 raise SystemExit(f"{arq.name}: correção da questão {q['numero']}, que não foi transcrita")
             questoes[q["numero"]] = q
+        for n, c in (rev.get("complementos") or {}).items():
+            complementos[int(n)] = c
         for r in rev.get("relatorio", []):
             status[r["numero"]] = {"status": r["status"], "notas": r.get("notas", "")}
 
@@ -89,6 +95,11 @@ def montar(ed):
             item["resposta_oficial"] = r.get("resposta")
             for it in item.get("itens", []):
                 it["resposta_oficial"] = (r.get("itens") or {}).get(it["rotulo"])
+        comp = complementos.get(n) or {}
+        if comp.get("assunto"):
+            item["assunto"] = comp["assunto"]
+        if comp.get("resolucao"):
+            item["resolucao"] = comp["resolucao"]
         rev = status.get(n)
         item["revisao"] = rev["status"] if rev else "transcrita"
         if rev and rev["status"] == "atencao":
@@ -142,7 +153,9 @@ def indice():
             "materias": materias,
         })
     edicoes.sort(key=lambda e: (e["vestibular"], e["fase"], e["ano"]))
-    (RAIZ / "dados/indice.json").write_text(json.dumps({"edicoes": edicoes}, ensure_ascii=False, indent=1))
+    formatos = json.loads((RAIZ / "dados/provas/formatos.json").read_text())
+    formatos.pop("_fonte", None)
+    (RAIZ / "dados/indice.json").write_text(json.dumps({"edicoes": edicoes, "formatos": formatos}, ensure_ascii=False, indent=1))
     print(f"índice: {len(edicoes)} edições, {sum(e['total'] for e in edicoes)} questões")
 
 

@@ -34,6 +34,20 @@ Arquivos temporários só em `trabalho/<edicao>/tmp-rev-<lote>/`. Não altere `d
    - Se discordar, refaça a resolução. Se continuar discordando, **não altere o gabarito**: o gabarito oficial manda. Verifique se a transcrição tem um erro que muda a resposta (número trocado, alternativa fora de ordem, figura errada). Se não achar erro de transcrição, marque a questão como `atencao` e explique sua resolução nas notas, para uma pessoa decidir. Se **várias** questões seguidas discordarem do gabarito, desconfie de que o caderno é de outra versão da prova e diga isso em destaque no resumo.
    - Questão anulada (`anulada: true`): confira que está no caderno e siga em frente; não precisa resolver.
 
+## Assunto e resolução comentada (para todas as questões)
+
+Depois de comparar com o gabarito, escreva para **cada questão do intervalo**:
+
+- `assunto`: um dos assuntos da matéria principal, exatamente como escrito em `dados/provas/assuntos.json`. Escolha o que melhor descreve o conhecimento cobrado. A plataforma usa isso no relatório de desempenho ("você errou 70% de Termodinâmica").
+- `resolucao`: a resolução comentada que o aluno vê na correção. Regras:
+  - De 3 a 10 linhas, em português claro, no formato de texto das instruções (LaTeX entre `$...$`).
+  - Comece pela ideia central. Em exatas, mostre a conta passo a passo. Em humanas e linguagens, aponte o trecho ou o conceito que decide a questão.
+  - Diga por que a alternativa correta está certa e, se ajudar, por que a distratora mais tentadora está errada.
+  - Termine com uma linha `**Resposta: X**`, onde X é a letra do **gabarito oficial**. A resolução nunca contradiz o gabarito oficial.
+  - Se a questão está em `atencao`, explique a resposta oficial e registre a polêmica de forma objetiva, numa linha que começa com `**Observação:**`.
+  - Questão anulada: uma linha dizendo que a banca anulou a questão e, se for possível ver pelo enunciado, por quê. Sem linha de resposta.
+  - Escreva com suas palavras. Não copie resolução de cursinho nem de outro site.
+
 ## Saída
 
 Grave `trabalho/<edicao>/revisao-<inicio>-<fim>.json` (por exemplo `revisao-031-060.json`, com três dígitos):
@@ -46,6 +60,9 @@ Grave `trabalho/<edicao>/revisao-<inicio>-<fim>.json` (por exemplo `revisao-031-
   "questoes_corrigidas": [
     {"numero": 35, "materia": "...", "materias_extra": [], "texto_base": null, "enunciado": "...", "alternativas": {"A": "..."}}
   ],
+  "complementos": {
+    "31": {"assunto": "Cinemática", "resolucao": "A velocidade média é... $v = \\frac{\\Delta s}{\\Delta t} = 20\\ \\text{m/s}$.\n\n**Resposta: C**"}
+  },
   "relatorio": [
     {"numero": 31, "status": "ok", "notas": ""},
     {"numero": 35, "status": "corrigida", "notas": "alternativa C: 2,5 m/s² estava 25 m/s²"},
@@ -55,8 +72,9 @@ Grave `trabalho/<edicao>/revisao-<inicio>-<fim>.json` (por exemplo `revisao-031-
 ```
 
 - `questoes_corrigidas` traz a questão **inteira** já corrigida, no formato do rascunho (sem `id`, `gabarito`, `anulada` e `revisao`), só para as questões que você mudou.
+- `complementos` tem **uma entrada para cada questão do intervalo**, com `assunto` e `resolucao`.
 - `relatorio` tem **uma entrada para cada questão do intervalo**, com `status` igual a `ok`, `corrigida` ou `atencao`. Se você corrigiu um texto base, marque como `corrigida` todas as questões que o usam.
 - Figuras de tirinha e charge: a descrição traz as falas dos balões. Se a questão pergunta justamente quem diz o quê, ou o que a imagem mostra, descreva só o necessário para quem não enxerga acompanhar, sem atribuir as falas nem interpretar.
-- Antes de terminar, valide suas correções. Grave as questões corrigidas e os textos base num arquivo de rascunho temporário no formato das instruções (`{"edicao": ..., "textos_base": {...}, "questoes": [...]}`, incluindo os textos base que elas usam) e rode `python3 ferramentas/validar.py --rascunho <arquivo>`. Corrija até não haver erros.
+- Antes de terminar, valide suas correções. Rode também `python3 ferramentas/validar.py --complementos <edicao> <seu-arquivo-de-revisao>`, que confere assuntos, resoluções e a letra da resposta. Grave as questões corrigidas e os textos base num arquivo de rascunho temporário no formato das instruções (`{"edicao": ..., "textos_base": {...}, "questoes": [...]}`, incluindo os textos base que elas usam) e rode `python3 ferramentas/validar.py --rascunho <arquivo>`. Corrija até não haver erros.
 
 Responda com um resumo curto: quantas questões revisou, quantas corrigiu (e o tipo de erro mais comum), quais ficaram em atenção e por quê.

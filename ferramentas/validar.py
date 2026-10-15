@@ -19,6 +19,28 @@ MATERIAS = {
 LETRAS = {"unicamp": "ABCD", "fuvest": "ABCDE", "unesp": "ABCDE"}
 
 
+ASSUNTOS = json.loads((RAIZ / "dados/provas/assuntos.json").read_text())
+RESPOSTA = re.compile(r"\*\*Resposta:\s*([A-E])\*\*\s*$")
+
+
+def checar_complemento(rel, ref, materia, assunto, resolucao, gabarito, anulada):
+    """Assunto da lista da matéria; resolução que renderiza e termina na letra do gabarito oficial."""
+    if assunto is not None and assunto not in ASSUNTOS.get(materia, []):
+        rel.erro(ref, f"assunto {assunto!r} não está na lista de {materia}")
+    if resolucao is None:
+        return []
+    checar_texto(rel, f"{ref} resolução", resolucao)
+    m = RESPOSTA.search(resolucao.strip())
+    if anulada:
+        if m:
+            rel.erro(ref, "questão anulada com linha de resposta na resolução")
+    elif not m:
+        rel.erro(ref, "resolução não termina com **Resposta: X**")
+    elif gabarito and m.group(1) != gabarito:
+        rel.erro(ref, f"resolução conclui {m.group(1)}, mas o gabarito oficial é {gabarito}")
+    return [{"ref": f"{ref} resolução", "texto": resolucao}]
+
+
 def edicoes():
     return {e["id"]: e for e in json.loads((RAIZ / "dados/provas/edicoes.json").read_text())}
 
@@ -129,6 +151,9 @@ def checar_questoes(rel, dados, ed, final):
         else:
             if "itens" not in q:
                 rel.erro(ref, "discursiva sem campo itens")
+        if final and (q.get("assunto") or q.get("resolucao")):
+            para_render += checar_complemento(rel, ref, q.get("materia"), q.get("assunto"), q.get("resolucao"),
+                                              q.get("gabarito"), q.get("anulada"))
         if q.get("observacoes"):
             rel.aviso(ref, "observação do transcritor: " + q["observacoes"][:200])
         for rotulo, t in textos_da_questao(q):
@@ -148,7 +173,29 @@ def checar_questoes(rel, dados, ed, final):
 def main():
     eds = edicoes()
     rel = Relatorio()
-    if len(sys.argv) > 2 and sys.argv[1] == "--rascunho":
+    if len(sys.argv) > 3 and sys.argv[1] == "--complementos":
+        ed_id, arq = sys.argv[2], sys.argv[3]
+        banco = {q["numero"]: q for q in json.loads((RAIZ / "dados/questoes" / f"{ed_id}.json").read_text())["questoes"]}
+        dados = json.loads(Path(arq).read_text())
+        corrigidas = {q["numero"]: q for q in dados.get("questoes_corrigidas", [])}
+        itens = []
+        for n, c in (dados.get("complementos") or {}).items():
+            q = banco.get(int(n))
+            if not q:
+                rel.erro(f"{ed_id} q{n}", "complemento de questão que não está no banco")
+                continue
+            materia = (corrigidas.get(int(n)) or q)["materia"]
+            if not c.get("assunto") or not c.get("resolucao"):
+                rel.erro(f"{ed_id} q{n}", "complemento sem assunto ou sem resolução")
+            itens += checar_complemento(rel, f"{ed_id} q{n}", materia, c.get("assunto"), c.get("resolucao"),
+                                        q.get("gabarito"), q.get("anulada"))
+        intervalo = dados.get("intervalo")
+        if intervalo:
+            faltam = [n for n in range(intervalo[0], intervalo[1] + 1) if str(n) not in (dados.get("complementos") or {})]
+            if faltam:
+                rel.erro(ed_id, f"faltam complementos das questões {faltam}")
+        checar_render(rel, itens)
+    elif len(sys.argv) > 2 and sys.argv[1] == "--rascunho":
         for arq in sys.argv[2:]:
             dados = json.loads(Path(arq).read_text())
             ed = eds.get(dados.get("edicao"))

@@ -1,0 +1,31 @@
+{
+ "_fonte": "Editais e comunicados de 2027. Atualize a cada edital: o simulado usa estes números.",
+ "fuvest": {
+  "edicao": 2027,
+  "questoes": 80,
+  "horas": 5,
+  "alternativas": 5,
+  "datas": "1ª fase em 1º/11/2026; 2ª fase em 6 e 7/12/2026",
+  "resumo": "80 questões de múltipla escolha (eram 90 até 2026), com 5 alternativas e 5 horas de prova. Algumas questões integram mais de uma disciplina.",
+  "segunda_fase": "Questões discursivas e redação, em dois dias."
+ },
+ "unicamp": {
+  "edicao": 2027,
+  "questoes": 72,
+  "horas": 5,
+  "alternativas": 4,
+  "datas": "1ª fase em 18/10/2026",
+  "resumo": "72 questões com 4 alternativas e 5 horas de prova: 12 de Português e Literatura, 12 de Matemática, 7 de cada uma entre História, Geografia, Física, Química, Biologia e Inglês, e 3 de Filosofia e 3 de Sociologia.",
+  "distribuicao": {"portugues+literatura": 12, "matematica": 12, "historia": 7, "geografia": 7, "filosofia": 3, "sociologia": 3, "fisica": 7, "quimica": 7, "biologia": 7, "ingles": 7},
+  "segunda_fase": "Questões dissertativas e redação."
+ },
+ "unesp": {
+  "edicao": 2026,
+  "questoes": 90,
+  "horas": 5,
+  "alternativas": 5,
+  "datas": "1ª fase de 2027 em 22/11/2026; 2ª fase em 13 e 14/12/2026",
+  "resumo": "90 questões de Conhecimentos Gerais com 5 alternativas e 5 horas de prova, no formato das últimas edições. O formato de 2027 será confirmado no edital.",
+  "segunda_fase": "Questões discursivas e redação."
+ }
+}

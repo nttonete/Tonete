@@ -100,10 +100,37 @@ async function fluxo(browser, nome, opcoes) {
   await page.waitForSelector(".questao");
   ok(await page.locator('.alt[aria-pressed="true"]').count() === 1, "resposta marcada foi preservada");
 
+  // termina o treino para ter dois resultados no histórico
+  await page.click(".cartao button.botao");
+  await page.click(".confirma .botao >> nth=0");
+  await page.waitForSelector(".placar");
+  ok(await page.isVisible("text=Por matéria"), "resultado do treino por matéria");
+
   await page.click("#nav-historico");
-  await page.waitForSelector("text=Seu histórico");
-  ok(await page.locator(".historico li").count() === 1, "histórico registra o simulado");
+  await page.waitForSelector("text=Seu desempenho");
+  ok(await page.locator(".historico li").count() === 2, "histórico registra os dois treinos");
+  ok(await page.locator("svg.grafico .ponto").count() === 2, "gráfico de evolução com dois pontos");
+  ok(await page.locator(".medalhas li.feita").count() >= 2, "medalhas conquistadas aparecem");
   await page.screenshot({ path: `${SAIDA}/${nome}-historico.png`, fullPage: true });
+  await page.click("text=Refazer questões que errei");
+  await page.waitForSelector(".questao");
+  ok(await page.isVisible("text=Revisão dos meus erros"), "refazer erros abre um treino com as questões erradas");
+
+  // prova completa com resolução comentada e cronômetro regressivo
+  await page.click("#ir-inicio");
+  await page.waitForSelector("#form-simulado");
+  await page.selectOption("#sim-ano", "fuvest-2025-1");
+  await page.click("#form-simulado button[type=submit]");
+  await page.waitForSelector(".questao");
+  ok(/Faltam/.test(await page.textContent(".relogio")), "cronômetro regressivo com o tempo oficial");
+  await page.click(".cartao button.botao");
+  await page.click(".confirma .botao >> nth=0");
+  await page.waitForSelector(".placar");
+  await page.click("text=Ver correção questão por questão");
+  await page.waitForSelector(".resolucao");
+  ok(await page.locator(".resolucao").count() === 1, "correção mostra a resolução comentada");
+  ok(await formulasCruas(page).then((c) => c.length === 0), "resolução renderiza as fórmulas");
+  await page.screenshot({ path: `${SAIDA}/${nome}-resolucao.png`, fullPage: true });
 
   ok(erros.length === 0, "sem erros de JavaScript " + erros.slice(0, 3).join(" | "));
   await ctx.close();

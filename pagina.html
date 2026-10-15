@@ -116,6 +116,47 @@ select, input[type="number"] { width: 100%; padding: .6rem .7rem; border: 1px so
 .texto-base { border-left: 3px solid var(--linha); padding-left: 1rem; margin-bottom: 1.25rem; }
 .texto-base > summary { cursor: pointer; font-family: var(--f-titulo); font-size: .82rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--tinta-2); margin-bottom: .6rem; }
 .enunciado { margin-bottom: 1.25rem; }
+/* edital, cronômetro, resolução, desempenho */
+.formato { margin: 0; font-size: .88rem; color: var(--tinta-2); background: var(--papel); border-radius: 8px; padding: .6rem .75rem; }
+.formato strong { color: var(--tinta); }
+.marcar { display: flex; gap: .55rem; align-items: flex-start; font-size: .92rem; cursor: pointer; }
+.marcar input { margin-top: .2rem; width: 1.05rem; height: 1.05rem; accent-color: var(--caneta); flex: none; }
+.relogio.acabando { color: var(--errado); font-weight: 500; }
+.aviso-tempo { background: var(--aviso-fundo); color: var(--aviso); border-radius: 8px; padding: .7rem 1rem; margin: 0 0 1rem; }
+.resolucao { margin-top: 1.25rem; border: 1px solid var(--linha); border-radius: 8px; padding: .75rem 1rem; background: var(--papel); }
+.resolucao > summary { cursor: pointer; font-weight: 500; color: var(--caneta); }
+.resolucao .texto { margin-top: .6rem; }
+.resolucao .dica { margin: .4rem 0 0; font-size: .8rem; }
+.por-materia td.sec { color: var(--tinta-2); font-size: .88rem; }
+.por-materia tr.com-erro td:first-child { font-weight: 500; }
+.fracos { margin: 0; padding-left: 1.2rem; display: grid; gap: .4rem; }
+.grafico-caixa { background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); padding: .75rem; }
+.grafico { width: 100%; height: auto; display: block; }
+.grafico .grade-linha { stroke: var(--linha); stroke-width: 1; }
+.grafico .eixo { fill: var(--tinta-2); font-size: 11px; font-family: var(--f-num); }
+.grafico .rotulo { fill: var(--tinta); font-size: 12px; font-family: var(--f-num); }
+.grafico .linha { fill: none; stroke: var(--caneta); stroke-width: 2; stroke-linejoin: round; }
+.grafico .ponto { fill: var(--caneta); stroke: var(--folha); stroke-width: 2; }
+.mapa-caixa { overflow-x: auto; }
+.mapa { border-collapse: separate; border-spacing: 2px; font-size: .88rem; min-width: 28rem; width: 100%; }
+.mapa th, .mapa td { padding: .4rem .5rem; text-align: center; border-radius: 4px; }
+.mapa td:first-child, .mapa th:first-child { text-align: left; }
+.mapa tr.grupo th { background: none; color: var(--tinta-2); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; padding-top: .8rem; }
+.mapa td .n { color: inherit; opacity: .75; font-family: var(--f-num); font-size: .78rem; }
+.mapa td .pct { font-family: var(--f-num); }
+.mapa td.vazia { color: var(--tinta-2); }
+.mapa td.nivel-0 { background: color-mix(in srgb, var(--caneta) 8%, var(--folha)); }
+.mapa td.nivel-1 { background: color-mix(in srgb, var(--caneta) 22%, var(--folha)); }
+.mapa td.nivel-2 { background: color-mix(in srgb, var(--caneta) 40%, var(--folha)); }
+.mapa td.nivel-3 { background: color-mix(in srgb, var(--caneta) 62%, var(--folha)); color: var(--folha); }
+.mapa td.nivel-4 { background: var(--caneta); color: var(--folha); }
+.medalhas { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .5rem; }
+.medalhas li { display: flex; gap: .7rem; align-items: center; background: var(--folha); border: 1px solid var(--linha); border-radius: 8px; padding: .6rem .8rem; color: var(--tinta-2); }
+.medalhas li.feita { border-color: var(--caneta); color: var(--tinta); }
+.medalhas li strong { display: block; }
+.medalhas li small { display: block; color: var(--tinta-2); font-size: .8rem; }
+.medalha-icone { font-size: 1.4rem; color: var(--tinta-2); }
+.medalhas li.feita .medalha-icone { color: var(--caneta); }
 .tabela-periodica { margin: -0.5rem 0 1.25rem; }
 .tabela-periodica summary { cursor: pointer; color: var(--caneta); font-size: .9rem; font-weight: 500; }
 .tabela-periodica img { display: block; width: 100%; height: auto; margin-top: .6rem; border: 1px solid var(--linha); border-radius: 6px; background: #fff; }
@@ -216,7 +257,7 @@ textarea { width: 100%; min-height: 7rem; padding: .7rem; border: 1px solid var(
     <button class="marca" id="ir-inicio" type="button"><span class="marca-bolinha" aria-hidden="true"></span>Banca Aberta</button>
     <nav aria-label="Principal">
       <button type="button" id="nav-inicio" aria-current="page">Treinar</button>
-      <button type="button" id="nav-historico">Histórico</button>
+      <button type="button" id="nav-historico">Desempenho</button>
     </nav>
   </div>
 </header>

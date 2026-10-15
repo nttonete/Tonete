@@ -35,6 +35,20 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 4. Revisão pelo agente `revisor-questoes` (lotes iguais): `trabalho/<edicao>/revisao-NNN-NNN.json`. Depois rode `montar_banco.py` de novo.
 5. `python3 ferramentas/validar.py` (precisa de 0 erros) e `node testes/navegador.js` (precisa de `PLAYWRIGHT_PATH=$(npm root -g)/playwright`).
 
+## Recursos da plataforma
+
+- Simulado no formato do edital vigente (`dados/provas/formatos.json`: FUVEST 2027 = 80 questões; Unicamp 72 com cotas por matéria; UNESP 90). Atualize esse arquivo a cada edital.
+- Cronômetro regressivo com o tempo oficial (proporcional ao tamanho); a prova é entregue quando o tempo acaba.
+- Correção com resolução comentada (`resolucao`) e assunto (`assunto`, lista fixa em `dados/provas/assuntos.json`).
+- Desempenho (guardado no aparelho): evolução, mapa de assuntos por vestibular, "onde focar", medalhas e "refazer questões que errei".
+- Tabela periódica da prova nas questões de química da UNESP (`img/tabela-periodica/`).
+- Ainda sem servidor: fórum de comentários, ranking semanal, login e pagamento dependem de backend.
+
+## Assunto e resolução
+
+- O agente revisor escreve `complementos` (assunto + resolução) em `revisao-*.json`. Lotes revisados antes disso recebem só complementos: `python3 ferramentas/prompt_complementos.py <edicao> <de> <ate>` → `complementos-*.json`.
+- A resolução termina em `**Resposta: X**` com a letra do gabarito oficial; o validador recusa se divergir.
+
 ## Regras que não podem ser quebradas
 
 - **O gabarito vem só do PDF oficial**, lido por `ferramentas/gabaritos.py`, na versão do caderno (FUVEST V/V1, Unicamp Q, UNESP versão 1). Agentes nunca escrevem gabarito. Se o revisor discorda, a questão fica em `atencao` para uma pessoa decidir.
