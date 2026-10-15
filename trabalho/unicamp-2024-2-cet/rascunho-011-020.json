@@ -22,7 +22,7 @@
           "texto": "Um pulso de laser de comprimento de onda $\\lambda = 10{,}5\\ \\mu\\text{m}$ é usado em um experimento de teste para a formação de plasma. A potência do laser, em função do tempo, tem o perfil de um triângulo retângulo, como representado na figura, de forma que a energia total do pulso é dada pela área sob a curva. Sabendo-se que a energia $E$ de um fóton é dada por $E = hf$, sendo $h \\simeq 7 \\times 10^{-34}\\ \\text{J} \\cdot \\text{s}$ e $f$ a frequência da radiação, quantos fótons contém o pulso de laser?\nDado: Velocidade da luz no vácuo: $c = 3 \\times 10^8\\ \\text{m/s}$.\n\n![Gráfico da potência do laser (10⁶ W) em função do tempo (10⁻⁹ s): perfil de triângulo retângulo, com pontos experimentais dispersos ao redor](fig:p13-f3)"
         }
       ],
-      "observacoes": ""
+      "observacoes": "Na resposta oficial do item a aparece \"Kg\" (K maiúsculo) na unidade do calor específico; mantido como no original."
     },
     {
       "numero": 12,
@@ -58,7 +58,7 @@
           "texto": "Na gravação de *chips*, grades de difração são usadas para a seleção de comprimentos de onda de feixes luminosos. A grade é formada por reentrâncias que dispersam a luz em diferentes direções (ângulos $\\theta$ no diagrama apresentado no espaço de resposta) em função do comprimento de onda. Quando a luz incide perpendicularmente à grade, a relação entre o comprimento de onda $\\lambda$ e o ângulo de difração $\\theta$ é dada por $d \\cdot \\text{sen}\\,\\theta = m\\lambda$, sendo $d$ o espaçamento entre as reentrâncias da grade e $m = 1, 2, 3...$ No diagrama, são representados dois feixes de laser, um deles de comprimento de onda $\\lambda_1 = 192\\ \\text{nm}$, e outro de comprimento $\\lambda_2$ a ser determinado. Fazendo uso do diagrama e da Tabela 1, complete corretamente a Tabela 2, apresentada no espaço de respostas, da seguinte maneira:\n\ni) preencha a primeira linha e determine $d$;\nii) preencha a segunda linha e determine o comprimento de onda $\\lambda_2$.\n\nTabela 1\n\n| $\\theta$ (graus) | $\\text{tg}\\,\\theta$ | $\\text{sen}\\,\\theta$ |\n|---|---|---|\n| 17 | 0,31 | 0,29 |\n| 19 | 0,34 | 0,33 |\n| 21 | 0,38 | 0,36 |\n| 23 | 0,42 | 0,39 |\n| 25 | 0,47 | 0,42 |\n| 27 | 0,51 | 0,45 |\n| 29 | 0,56 | 0,48 |\n| 31 | 0,60 | 0,52 |\n\n*Campo de resolução:*\n\n![Diagrama da difração: os feixes de comprimentos de onda λ1 e λ2 incidem na grade e atingem o anteparo, a D = 0,5 m; no anteparo, a escala y (m) vai de 0 a 0,4 e estão indicadas as direções m = 1, λ1; m = 1, λ2; m = 2, λ1; m = 2, λ2, com os ângulos θ](fig:p15-c5)\n\n![Tabela 2, a ser completada: colunas λ (nm), m, y (m), tg θ, sen θ e d (nm); primeira linha com λ1 = 192, m = 2 e y = 0,28; segunda linha com λ2 = (em branco) e m = 1; a célula de d da segunda linha está sombreada](fig:p15-c4)"
         }
       ],
-      "observacoes": ""
+      "observacoes": "O enunciado fica vazio porque o caderno só traz os itens. A figura do capacitor (p15-f3) está no item a. O diagrama dos feixes (p15-c5, recorte novo) e a Tabela 2 em branco (p15-c4, recorte novo) estão no campo de resolução do caderno e foram postos no item b. Tabela 1 transcrita como tabela. Na resposta oficial do item a, a espessura do dielétrico aparece como d (o enunciado a chama de e); mantido. A Tabela 2 preenchida da resposta (r08-c1) é recorte porque os valores acrescentados estão em azul."
     },
     {
       "numero": 14,
@@ -76,7 +76,7 @@
           "texto": "No estudo citado, gotas de água de diferentes diâmetros chegam à superfície hidrofóbica com velocidade de módulo $\\left|\\vec{v}_{\\text{inicial}}\\right| = 0{,}3\\ \\text{m/s}$, e afastam-se logo após a colisão, com coeficiente de restituição $e \\simeq 1$. O gráfico no espaço de respostas mostra o intervalo de tempo $\\Delta t$ durante o qual as gotas ficam em contato com a superfície em função da massa $m$ da gota. Qual o módulo da força média, $\\left|\\vec{F}_{\\text{média}}\\right|$, exercida pela superfície sobre uma gota de massa $m = 8 \\times 10^{-6}\\ \\text{kg}$?\n\n*Campo de resolução:*\n\n![Gráfico do intervalo de tempo Δt (10⁻³ s) em função da massa m (10⁻⁶ kg) da gota, com seis pontos experimentais; o eixo Δt vai de 9 a 18 e o eixo m, de 4 a 19](fig:p16-c3)"
         }
       ],
-      "observacoes": ""
+      "observacoes": "O gráfico (p16-c3, recorte novo) está no campo de resolução do caderno e foi posto no item b."
     },
     {
       "numero": 15,
@@ -94,7 +94,7 @@
           "texto": "A política, a ciência e a sociedade civil têm seu papel na preservação ambiental. Oportunidades de pesquisa química para reduzir os impactos da mineração artesanal de ouro passam pelo desenvolvimento de: (1) filtros de ar e máscaras para prevenção de inalação de vapores de mercúrio; (2) ajustes do solo para evitar a absorção de mercúrio nas culturas; (3) processos químicos específicos para extrair ouro de rejeitos e (4) diagnósticos pontuais para exposição e envenenamento por mercúrio. Preencha a tabela no campo de resposta, associando o número de cada desenvolvimento à correspondente oportunidade de pesquisa. Justifique sua escolha para o desenvolvimento atribuído <u>somente</u> à oportunidade **“Mitigação de riscos”**.\n\n*Campo de resolução:*\n\n![Tabela a preencher: título \"Oportunidades de pesquisa química para reduzir os impactos da mineração artesanal de ouro\", com as colunas Detecção de mercúrio, Mitigação de riscos, Remediação e Mineração sem mercúrio; a linha \"Desenvolvimento de:\" traz um par de parênteses vazios em cada coluna](fig:p17-c1)"
         }
       ],
-      "observacoes": ""
+      "observacoes": "A tabela a preencher (p17-c1, recorte novo) está no campo de resolução do caderno e foi posta no item b. A tabela da resposta (r09-c1) é recorte por ter células mescladas. Na resposta do item a, a banca escreveu os estados físicos com espaço antes do parêntese; mantido."
     },
     {
       "numero": 16,
@@ -112,7 +112,7 @@
           "texto": "Observando a figura, explique o mecanismo e as causas que levaram ao ganho total extra de energia (381 ZJ) da Terra no período considerado."
         }
       ],
-      "observacoes": ""
+      "observacoes": "Os \"Dados\" impressos depois do item b valem para a questão toda e foram postos no fim do enunciado. Na resposta oficial: \"Kg\" (K maiúsculo) em \"4,62×10¹⁶ Kg\", e a linha \"× · ΔT\" (com \"×·\" seguidos, provável erro de digitação do original), mantidos. O valor 1,52×10²² J aparece em negrito no original."
     },
     {
       "numero": 17,
@@ -130,7 +130,7 @@
           "texto": "A figura ao lado mostra como, durante a extração para preparar um café espresso, a concentração de duas substâncias voláteis varia em função do tempo. O tempo de máxima extração se relaciona diretamente com a solubilidade em água e consequentemente com atributos da substância, como polaridade da molécula e coeficiente de partição, $K_{\\text{ow}}$. A partir dessas informações, complete a tabela no campo de resposta, com as palavras **maior** ou **menor**, de modo a comparar, entre as substâncias, os atributos citados. Justifique sua escolha.\n\n![Gráfico da concentração relativa em função do tempo (s), de 0 a 26, para a substância 1 (círculos, linha contínua) e a substância 2 (quadrados, linha tracejada)](fig:p19-f2)\n\nDado: $K_{\\text{ow}} = [\\text{soluto em fase orgânica}] / [\\text{soluto em água}]$\n\n*Campo de resolução:*\n\n![Tabela a preencher: título \"Atributo da substância\", com as colunas Polaridade, Solubilidade em água e Kow; as linhas são Substância 1 e Substância 2, com as células em branco](fig:p19-c1)"
         }
       ],
-      "observacoes": ""
+      "observacoes": "A tabela a preencher (p19-c1, recorte novo) está no campo de resolução do caderno e foi posta no item b; a tabela da resposta (r10-c1) é recorte por ter célula mesclada. O \"Dado: Kow\" foi posto no fim do item b. Na resposta, \"Kow\" no texto corrido vem sem subscrito."
     },
     {
       "numero": 18,
@@ -168,7 +168,7 @@
           "texto": "Pesquisadores avaliaram como a concentração de cálcio livre ($\\text{Ca}^{2+}$) em solução varia quando se adiciona $\\text{Ca}^{2+}\\text{(aq)}$ em soluções contendo oxalato de concentração 2 mmol/L e diferentes concentrações de citrato, conforme a figura. Os dados permitem inferir que o citrato pode ser um agente terapêutico na prevenção de pedra no rim. Faça uma descrição quantitativa de modo a justificar, do ponto de vista do equilíbrio químico, a afirmação sobre a função do citrato na prevenção de pedra no rim.\n\n![Gráfico da concentração de Ca²⁺ livre (mmol/L) em função do tempo (s), de 0 a 10000, com três curvas: Ca²⁺(aq) em água (linha com círculos), Ca²⁺(aq) em C₂O₄²⁻ 2,0 mmol/L (linha contínua) e Ca²⁺(aq) em C₂O₄²⁻ 2,0 mmol/L + C₆H₅O₇³⁻ 5,0 mmol/L (linha tracejada)](fig:p21-f2)"
         }
       ],
-      "observacoes": ""
+      "observacoes": "Na resposta, a observação sobre CaC₂O₄(s) vem em itálico no original."
     },
     {
       "numero": 20,
