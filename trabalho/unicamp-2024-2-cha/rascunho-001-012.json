@@ -1,0 +1,84 @@
+{
+ "edicao": "unicamp-2024-2-cha",
+ "intervalo": [
+  1,
+  12
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico a seguir exibe as temperaturas mínimas e máximas previstas para o período entre os dias 16 e 28 do mês de dezembro de 2023 numa determinada cidade.\n\n![Gráfico de linhas intitulado \"Temperaturas mínimas e máximas\", com os dias do mês de 16 a 28 no eixo horizontal. Temperatura mínima (azul), de 16 a 28: 14, 15, 17, 19, 18, 17, 16, 18, 18, 20, 20, 15, 15. Temperatura máxima (vermelha), de 16 a 28: 29, 32, 32, 31, 30, 30, 33, 33, 35, 32, 35, 32, 19](fig:p06-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando registros históricos, a temperatura máxima média para o mês de dezembro nesta cidade é de 27 graus. A temperatura máxima média prevista no período apresentado no gráfico é maior ou menor do que a média histórica? Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma pessoa vai se mudar para esta cidade no período indicado no gráfico. Ela poderá escolher qualquer dia para fazer a sua mudança. Qual a probabilidade de que ela escolha se mudar em um dia em que a temperatura mínima prevista seja maior do que 17 graus? Justifique."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere a função $y = f(x) = k \\cdot x^2 + b \\cdot x + 4$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para $k = -1$, determine o(s) valor(es) de $b$ para os quais o gráfico de $y = f(x)$ é simétrico com respeito ao eixo $y$. Para este(s) valor(es) de $b$, resolva $f(x) = 0$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Agora, para $k = 1$ e $b = -3$, determine a distância entre o vértice da parábola $y = f(x)$ e a origem (0,0)."
+    }
+   ],
+   "observacoes": "O documento oficial de respostas escreve $b = 3$ no item b (o enunciado do caderno diz $b = -3$); a resposta foi transcrita como publicada."
+  },
+  {
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Todos os meses, o Rei do Queijo vai até uma empresa de Campinas para vender seus queijos mineiros. Ele vende vários subtipos desse produto, além de outras iguarias, cujos preços praticados no mês de junho estão indicados na tabela abaixo.\n\n| queijo parmesão | queijo muçarela | salame |\n|---|---|---|\n| R\\$ 60,00 por quilo | R\\$ 40,00 por quilo | R\\$ 50,00 por quilo |",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em junho, Rodolfo comprou 250g de queijo parmesão, 1,5 kg de queijo muçarela e 400g de salame. Quanto ele pagou pelo total?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em setembro, o Rei do Queijo reajustou todos os seus preços. Nesse mês:\n\n• Ana comprou 2 quilos de queijo parmesão, um quilo de queijo muçarela e um quilo de salame. Pagou R\\$ 285,00 pelo total.\n• Bárbara comprou um quilo de queijo muçarela e um quilo de salame; pagou R\\$ 125,00 no total.\n\nCom base nessas informações, comparando o preço de setembro com o de junho, de quanto foi o reajuste percentual aplicado no preço do parmesão?"
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "4": {
+   "itens": {
+    "a": "A temperatura máxima média prevista para o período é de 31 graus, pois\n\n$$\\frac{29 + 32 + 32 + 31 + 30 + 30 + 33 + 33 + 35 + 32 + 35 + 32 + 19}{13} = 31.$$\n\nComo a média histórica é de 27 graus, a média no período apresentado é maior.",
+    "b": "A temperatura mínima prevista é maior do que 17 nos dias: 19, 20, 23, 24, 25, 26. Portanto, a probabilidade de que a mudança seja num dia em que a mínima é maior do que 17 é de 6/13."
+   }
+  },
+  "5": {
+   "itens": {
+    "a": "Para $k = -1$, temos $y = f(x) = -x^2 + bx + 4$. Para que o gráfico seja simétrico com respeito ao eixo $y$, precisamos ter $f(x) = f(-x)$ para todo valor de $x$. Assim, temos $-x^2 + bx + 4 = -x^2 - bx + 4$, ou seja, $-bx = bx$ para todo $x$, e daí $b = 0$. Com este valor de $b$, a equação $f(x) = 0$ é $x^2 - 4 = 0$, ou seja, $x = \\pm 2$.",
+    "b": "Para uma parábola de equação $y = ax^2 + bx + c$, as coordenadas do vértice da parábola são $(x_V, y_V) = \\left(-\\frac{b}{2a}, -\\frac{\\Delta}{4a}\\right)$. Para $k = 1$ e $b = 3$, temos que $f(x) = x^2 - 3x + 4$ e daí $\\Delta = -7$. Portanto, as coordenadas do vértice são $\\left(\\frac{3}{2}, \\frac{7}{4}\\right)$.\n\nA distância deste ponto até a origem é\n\n$$d = \\sqrt{\\left(\\frac{3}{2}\\right)^2 + \\left(\\frac{7}{4}\\right)^2} = \\frac{\\sqrt{85}}{4}.$$"
+   }
+  },
+  "6": {
+   "itens": {
+    "a": "Rodolfo comprou 250g de queijo parmesão, 1,5 kg de queijo muçarela e 400g de salame. Considerando os preços indicados na tabela, que são dados em quilo, e considerando as quantidades compradas também já convertidas para quilo, o valor total pago foi de $(0{,}25) \\cdot 60 + (1{,}5) \\cdot 40 + (0{,}4) \\cdot 50 = 95$ reais.",
+    "b": "Seja $P$ o preço reajustado do parmesão, $M$ o preço reajustado da muçarela e $S$ o preço reajustado do salame. O enunciado nos diz que $2P + M + S = 285$ (compra da Ana) e que $M + S = 125$ (compra da Bárbara). Subtraindo a segunda equação da primeira, obtemos que $2P = 160$, ou seja, $P = 80$. Portanto, o preço reajustado do queijo parmesão é de R\\$ 80,00 o quilo. Isto dá um aumento de R\\$ 20,00, que equivale a 33,3% do preço de junho. Portanto, o reajuste percentual foi de 33,3%."
+   }
+  }
+ }
+}

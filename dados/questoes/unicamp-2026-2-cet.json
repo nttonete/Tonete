@@ -40,7 +40,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Colonização da América",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q02",
@@ -64,7 +65,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Política, Estado e cidadania",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q03",
@@ -86,7 +88,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q04",
@@ -108,7 +111,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Geometria analítica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q05",
@@ -130,7 +134,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q06",
@@ -152,7 +157,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q07",
@@ -174,7 +180,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Trigonometria",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q08",
@@ -182,7 +189,7 @@
    "materia": "matematica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Considere $A$ uma matriz 2x2 com entradas reais e denote por Id a matriz identidade 2x2, isto é:\n\n$$\\text{Id} = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}.$$",
+   "enunciado": "Considere $A$ uma matriz 2x2 com entradas reais e denote por $\\text{Id}$ a matriz identidade 2x2, isto é:\n\n$$\\text{Id} = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}.$$",
    "itens": [
     {
      "rotulo": "a",
@@ -196,7 +203,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q09",
@@ -218,7 +226,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q10",

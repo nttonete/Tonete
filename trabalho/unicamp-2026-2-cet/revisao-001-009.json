@@ -1,0 +1,105 @@
+{
+ "edicao": "unicamp-2026-2-cet",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 8,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere $A$ uma matriz 2x2 com entradas reais e denote por $\\text{Id}$ a matriz identidade 2x2, isto é:\n\n$$\\text{Id} = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}.$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo que todas as entradas de $A$ sejam **números inteiros não negativos**, encontre todas as possibilidades de $A$ de modo que $A^2 = \\text{Id}$. Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Seja $B$ uma matriz $2 \\times 2$ tal que $B \\cdot \\begin{pmatrix}1\\\\2\\end{pmatrix} = \\begin{pmatrix}0\\\\1\\end{pmatrix}$ e $B \\cdot \\begin{pmatrix}3\\\\1\\end{pmatrix} = \\begin{pmatrix}1\\\\0\\end{pmatrix}$. Calcule $B^{-1} \\cdot \\begin{pmatrix}2\\\\6\\end{pmatrix}$.\n\nNotação: $B^{-1}$ denota a matriz inversa de $B$."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "1": {
+   "assunto": "Colonização da América"
+  },
+  "2": {
+   "assunto": "Política, Estado e cidadania"
+  },
+  "3": {
+   "assunto": "Aritmética e porcentagem"
+  },
+  "4": {
+   "assunto": "Geometria analítica"
+  },
+  "5": {
+   "assunto": "Geometria plana"
+  },
+  "6": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "7": {
+   "assunto": "Trigonometria"
+  },
+  "8": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "9": {
+   "assunto": "Cinemática"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": "Enunciado, citação (título em itálico só até 'rota da seda'), aspas mistas do item b (\" de abertura e ” de fechamento, como no caderno), mapa p03-f2 (A–E completos) e tabela do campo de resolução conferidos com p03. Resposta conferida com r01 ('Istanbul' na resposta e 'Istambul' no enunciado, como impresso)."
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "Enunciado, gráficos p04-c1 (os dois, com títulos, valores e fonte lateral) e referência conferidos com p04. Respostas a e b conferidas com r01–r02."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Título em negrito, itálicos (bets, odds, site) e o segundo 'site' sem itálico, como no caderno; conferido com p05. Respostas conferidas com r02 (contas batem: 8x/3 > 3x/2; 990 − 1000 = −10)."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Conferida com p06. Observação do transcritor aceita: o caderno imprime 'reta r' sem itálico na segunda ocorrência; manter como texto simples é fiel e não muda o sentido. Respostas e figura r03-f1 conferidas com r02–r03 (item b confere: x = ±2√3, y = 3)."
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "Enunciado e figura p07-c1 (foto e esquema, com A, B, C, D e a oval) conferidos com p07. Respostas conferidas com r03 (o '≈' antes de 2112,5·√3 é da banca)."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Sistema e itens conferidos com p08 (ampliado). Respostas conferidas com r03–r04; o '= k' na substituição do item a é da banca, mantido."
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "Conferida com p09 (ampliado). Respostas conferidas com r04–r05 (banca usa 'sin' na resposta e 'sen' no enunciado; mantidos)."
+  },
+  {
+   "numero": 8,
+   "status": "corrigida",
+   "notas": "Enunciado: 'Id' estava como texto comum e passou a $\\text{Id}$, como no item a e no caderno (fonte matemática). Resto conferido com p10 (ampliado). Observação do transcritor aceita: ' ,então' e 'ambos positivos' (deveria ser não-negativos) são da banca, mantidos. Respostas conferidas com r05–r06 (item b dá (12, 14), confere)."
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": "Enunciado, Tabela A e grade do campo de resolução p11-c1 conferidos com p11. Respostas e gráfico r06-f2 conferidos com r06–r07 (75 m; 12500/125000 N·s; 62,5/625 kN conferem). Observações do transcritor aceitas: o 'ii)' repetido, '500 à 5000 kg', '62.5 kN' e o '(0−15)/(0−10)' são da banca, mantidos; a instrução geral de g e π não precisa ir na questão, que não usa nenhum dos dois."
+  }
+ ]
+}
