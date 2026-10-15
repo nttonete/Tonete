@@ -1,0 +1,132 @@
+{
+ "edicao": "unicamp-2022-2-cet",
+ "intervalo": [
+  12,
+  22
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Recentemente, cientistas internacionais realizaram um estudo sobre as opções para evitar um possível impacto de um asteroide com a Terra e estimaram que o tempo mínimo de antecedência do início das ações para impedir a colisão é de cinco anos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere um asteroide de massa $M = 3{,}0 \\times 10^{15}\\ \\text{kg}$ (comparável com a massa do asteroide que supostamente colidiu com a Terra e causou a extinção dos dinossauros) se deslocando em direção à Terra com uma quantidade de movimento de módulo $\\left|\\vec{Q}_i\\right| = 1{,}2 \\times 10^{20}\\ \\text{N} \\cdot \\text{s}$. Na tentativa de evitar o impacto, pretende-se lançar um míssil da Terra em direção ao asteroide de modo que, com o choque, seja gerado um impulso que altere a velocidade do asteroide (em módulo ou direção). Suponha que essa operação ocorra com sucesso, reduzindo o módulo da velocidade de deslocamento do asteroide pela metade. Desprezando a variação da massa do asteroide durante a operação, calcule a <u>variação</u> da energia cinética do asteroide como resultado da operação."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere agora um outro asteroide que sofre, de fato, um impacto com a Terra. Considere também que o módulo da força de impacto da superfície da Terra agindo sobre o asteroide varie em função do tempo, de acordo com o gráfico abaixo. Calcule o módulo do impulso que agiu sobre o asteroide durante a colisão com a Terra.\n\n![gráfico do módulo da força (10²¹ N) em função do tempo (s)](fig:p14-c1)"
+    }
+   ],
+   "observacoes": "O gráfico do item b está dentro do quadro de resolução do caderno; foi recortado como figura. Na resposta oficial a grafia varia entre “asteroide” e “asteróide”; mantida como no original."
+  },
+  {
+   "numero": 13,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Recentemente, os arqueólogos do Reino Unido apresentaram novas evidências sobre a origem do círculo de pedras de Stonehenge, na Grã-Bretanha. Testes geoquímicos indicam que a maioria dos monumentos megalíticos compartilham uma origem comum a cerca de vinte e cinco quilômetros de distância, enquanto as pedras azuis menores podem ter sido trazidas de outro monumento que foi desmontado e movido duzentos e oitenta quilômetros.\n\n![fotografia de pedras do círculo de Stonehenge sob neblina](fig:p15-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Observe o conjunto de pedras mostrado na figura A, e considere que a pedra na horizontal está em equilíbrio estático, sustentada pelas duas pedras verticais de mesma altura. A pedra horizontal é homogênea, estando a sua massa uniformemente distribuída ao longo do seu comprimento $L = 4{,}0\\ \\text{m}$. A força vertical $\\vec{F}_1$ indicada na figura A tem módulo igual a $F_1 = 9{,}0 \\times 10^{4}\\ \\text{N}$. Suponha que uma das pedras verticais se rompa, gerando, imediatamente após a ruptura, o diagrama de forças mostrado na figura B. Na situação da figura A, a força peso – que age no centro de massa da pedra horizontal – produz um torque com módulo $\\tau_P$ em relação ao ponto O. O módulo do torque $\\tau_P$ é dado pelo produto do módulo da força peso $P$ vezes a distância $d$ do centro de massa ao ponto O. Calcule o módulo do torque resultante $\\tau_P$ na situação da figura B.\n\n![diagramas de forças A e B: pedra horizontal apoiada em duas pedras verticais, com as forças F1 e F2 para cima, o peso P no centro e o comprimento L (figura A); apoiada em uma só pedra vertical, com a força F1, o peso P e a distância d do ponto O ao centro de massa (figura B)](fig:p15-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um mistério que permanece sobre o monumento de Stonehenge diz respeito ao modo como pedras tão pesadas teriam sido deslocadas, percorrendo grandes distâncias. Para ilustrar tal desafio, calcule o trabalho que deve ser realizado por uma força horizontal aplicada a uma pedra de massa $M = 1{,}8 \\times 10^{4}\\ \\text{kg}$ para <u>arrastá-la</u>, com velocidade constante, por uma distância $d = 20\\ \\text{km}$ em contato com uma superfície horizontal de coeficiente de atrito cinético igual a $\\mu_C = 0{,}6$. Sabendo que $1\\ \\text{kWh} = 3{,}6 \\times 10^{6}\\ \\text{J}$, expresse sua resposta em kWh."
+    }
+   ],
+   "observacoes": "As figuras A e B do item a estão dentro do quadro de resolução do caderno; foram recortadas como figura única."
+  },
+  {
+   "numero": 14,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na ilustração da figura, uma bomba eleva óleo até um reservatório. Um pressostato instalado ao lado da bomba tem a função de ligá-la e de desligá-la conforme varia a altura $h$ do nível do óleo.\n\n![esquema de uma bomba que eleva óleo até um reservatório, com a pressão p0 no topo, a altura h do nível do óleo e o pressostato ao lado da bomba](fig:p16-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A bomba é desligada quando a <u>pressão manométrica</u> no pressostato atinge o valor $p_m = 3{,}2 \\times 10^{5}\\ \\text{Pa}$. Lembrando que a pressão manométrica é dada por $p_m = p - p_0$, sendo $p$ a pressão absoluta e $p_0$ a pressão atmosférica, e sabendo que a densidade do óleo em questão é $\\rho_{\\text{óleo}} = 8{,}0 \\times 10^{2}\\ \\text{kg/m}^3$, qual é o valor de $h$ para que o pressostato desligue a bomba?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um elevador hidráulico faz uso da força exercida por um fluido, normalmente um óleo ou o ar. Num elevador residencial a vácuo, a força aplicada sobre a cabine verticalmente para cima é proveniente da diferença de pressão do ar na base e no teto da referida cabine. A parte inferior da base fica em contato com a atmosfera ambiente, portanto, na pressão atmosférica $p_0 = 100\\ \\text{kPa}$. Já na parte superior do teto, que é fechada hermeticamente, retira-se ar com uma bomba de vácuo, reduzindo-se a pressão. Qual deve ser a pressão $p_{\\text{sup}}$ na parte superior de uma cabine cilíndrica de massa $m = 300\\ \\text{kg}$ para que ela suba em movimento retilíneo uniforme? As áreas da base e do teto são idênticas e dadas por $A_{\\text{base}} = A_{\\text{teto}} = 1{,}5\\ \\text{m}^2$. Despreze qualquer força de atrito."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 15,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Foi inaugurada em 2021, no deserto do Atacama, no Chile, a primeira usina termossolar da América Latina. Nessa usina, a energia solar é usada para fundir uma mistura de sais em temperaturas elevadas. A energia térmica armazenada nesses sais fundidos é então usada para produzir vapor de água em alta pressão e temperatura, o qual aciona as turbinas geradoras de eletricidade. A coleta da energia solar é feita por mais de dez mil espelhos móveis (helióstatos) distribuídos sobre o terreno.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A insolação diária $\\sigma$ é a energia solar incidente por unidade de área durante 1 dia. Na área $A = 6{,}0 \\times 10^{6}\\ \\text{m}^2$ do terreno ocupado pelos helióstatos, $\\sigma = 8{,}0\\ \\text{kWh/m}^2$. Uma fração de 5% dessa energia solar incidente no terreno é convertida em energia elétrica pela usina, energia esta fornecida para o consumo durante as 24 h do dia a uma potência constante. Qual é a potência fornecida pela usina?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Quanto tempo leva para que uma massa $m = 25000$ toneladas de sal seja fundida se a potência luminosa usada para a fusão for $P_{\\text{lumin}} = 400\\ \\text{MW}$? O calor latente de fusão do sal é $L_{\\text{sal}} = 160\\ \\text{kJ/kg}$. Desde o início até o final do processo, a temperatura do sal permanece constante e igual à temperatura de fusão."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 16,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma nova forma de geração de energia elétrica eólica que vem sendo testada usa a vibração de uma haste vertical de carbono produzida pela força do vento. A energia da oscilação da haste é transformada em energia elétrica por meio de alternadores. Esse sistema apresenta vantagens para o meio ambiente, uma vez que não utiliza as turbinas eólicas convencionais por serem muito barulhentas e perturbarem as comunidades vizinhas e a migração de pássaros.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Uma haste vertical rígida, usada num experimento de laboratório, oscila com pequena amplitude de forma que a sua extremidade superior descreve um movimento aproximadamente horizontal. A posição horizontal da extremidade, $x(t)$, varia com o tempo $t$ conforme o gráfico da figura A. Calcule a velocidade escalar média $v_{em}$ e o módulo $v_m$ da velocidade média da extremidade superior da haste durante um período completo de oscilação.\n\n![Figura A: gráfico da posição x(t), em cm, em função do tempo t, em s, ao lado do esquema da haste vertical que oscila em torno do eixo x(t)](fig:p18-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "O movimento da extremidade superior da haste do item (a) é similar ao de um pêndulo. Um pêndulo simples, de comprimento $L = 2{,}0\\ \\text{m}$ e massa $m$ em sua extremidade inferior (a massa da haste em si é desprezível), é solto a partir do repouso do ângulo $\\theta_0 = 26^\\circ$ (veja a figura B). Despreze perdas por atrito e calcule a velocidade da massa $m$ quando ela passa pelo ponto mais baixo da trajetória.\n\nDados: $\\text{sen}\\,26^\\circ \\simeq 0{,}44$; $\\cos 26^\\circ \\simeq 0{,}90$; $\\tan 26^\\circ \\simeq 0{,}49$.\n\n![Figura B: pêndulo de comprimento L = 2,0 m com a massa m solta de um ângulo de 26° em relação à vertical](fig:p18-f3)"
+    }
+   ],
+   "observacoes": "O gráfico da figura A está dentro do quadro de resolução do caderno; foi recortado como figura."
+  }
+ ],
+ "respostas": {
+  "12": {
+   "itens": {
+    "a": "A velocidade inicial do asteroide é dada por\n\n$$v_i = \\frac{Q_i}{m} = \\frac{1{,}2 \\times 10^{20}\\ \\text{Ns}}{3{,}0 \\times 10^{15}\\ \\text{kg}} = 4{,}0 \\times 10^{4}\\ \\text{m/s}$$\n\nPortanto, a variação de energia cinética do asteróide, como resultado do choque com o míssil, é\n\n$$\\Delta E_c = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2 = \\frac{1}{2} m \\left(v_f^2 - v_i^2\\right) = \\frac{1}{2}\\, 3{,}0 \\times 10^{15} \\left(2^2 - 4^2\\right) \\times 10^{8} = -1{,}8 \\times 10^{24}\\ \\text{J}$$",
+    "b": "O módulo do impulso que agiu sobre o asteróide durante a colisão com a Terra é numericamente igual à área abaixo da curva do Módulo da Força em função do Tempo:\n\n$$I = 2{,}0 \\times 10^{21}\\ \\text{N} \\times 1{,}2\\ \\text{s} = 2{,}4 \\times 10^{21}\\ \\text{Ns}$$"
+   }
+  },
+  "13": {
+   "itens": {
+    "a": "Avaliando o equilíbrio de forças na situação da figura a), temos:\n\n$$P = F_1 + F_2 = 2F_1 = 1{,}8 \\times 10^{5}\\ \\text{N}$$\n\nPortanto, o módulo do torque resultante na situação da figura b) é igual a:\n\n$$\\tau_P = P \\times d = 1{,}8 \\times 10^{5}\\ \\text{N} \\times 2{,}0\\ \\text{m} = 3{,}6 \\times 10^{5}\\ \\text{Nm}$$",
+    "b": "A pedra se desloca com velocidade constante, portanto a força resultante agindo sobre ela é nula. Assim, o trabalho realizado pela força horizontal aplicada sobre a pedra é numericamente igual ao trabalho realizado pela força de atrito que age na pedra durante o seu deslocamento:\n\n$$\\tau = \\mu_C N d = 0{,}6 \\times \\left(1{,}8 \\times 10^{4} \\times 10\\right) \\times 2{,}0 \\times 10^{4} = 2{,}16 \\times 10^{9}\\ \\text{J} = 600\\ \\text{kWh}$$"
+   }
+  },
+  "14": {
+   "itens": {
+    "a": "A pressão manométrica sobre o pressostato é dada por:\n\n$p_m = \\rho g h$\n\nAssim, o valor de $h$ para que o pressostato desligue a bomba é:\n\n$$h = \\frac{p_m}{\\rho_{\\text{óleo}}\\, g} = \\frac{3{,}2 \\times 10^{5}\\ \\text{Pa}}{\\left(8{,}0 \\times 10^{2}\\ \\text{kg/m}^3\\right) \\times \\left(10\\ \\text{m/s}^2\\right)} = 40\\ \\text{m}$$",
+    "b": "Como o elevador se desloca com movimento retilíneo uniforme, o equilíbrio de forças que agem sobre o elevador é dado por:\n\n$F_{\\text{base}} - F_{\\text{teto}} - P = 0$\n\nAssim,\n\n$p_0 A_{\\text{base}} - p_{\\text{sup}} A_{\\text{teto}} - mg = 0 \\Rightarrow p_{\\text{sup}} = p_0 - \\dfrac{mg}{A_{\\text{base}}}$\n\n$$p_{\\text{sup}} = 100\\ \\text{kPa} - \\frac{(300\\ \\text{kg}) \\times \\left(10\\ \\text{m/s}^2\\right)}{1{,}5\\ \\text{m}^2} = 98\\ \\text{kPa}$$"
+   }
+  },
+  "15": {
+   "itens": {
+    "a": "A potência fornecida pela usina é dada por:\n\n$$\\begin{aligned}P_{el} &= \\frac{5\\% \\times \\text{Energia solar diária}}{24\\ \\text{h}} = \\frac{5\\% \\times \\sigma A}{24\\ \\text{h}} = \\\\ &= \\frac{0{,}05 \\times \\left(8{,}0\\ \\text{kWh/m}^2\\right) \\times \\left(6{,}0 \\times 10^{6}\\ \\text{m}^2\\right)}{24\\ \\text{h}} = 0{,}05 \\times 2{,}0 \\times 10^{9}\\ \\text{W} = 100\\ \\text{MW}\\end{aligned}$$",
+    "b": "O tempo necessário para fundir a massa de sal é:\n\n$$\\Delta t = \\frac{mL}{P_{\\text{lumin}}} = \\frac{\\left(25 \\times 10^{6}\\ \\text{kg}\\right) \\times \\left(160 \\times 10^{3}\\ \\text{J/kg}\\right)}{4{,}0 \\times 10^{8}\\ \\text{W}} = 10000\\ \\text{s} = 2{,}77\\ \\text{h}$$"
+   }
+  },
+  "16": {
+   "itens": {
+    "a": "A velocidade escalar média $v_{em}$ é dada pela razão entre a distância percorrida pela extremidade da haste e o tempo decorrido durante esse deslocamento; assim:\n\n$$v_{em} = \\frac{\\text{distância percorrida}}{\\text{intervalo de tempo}} = \\frac{4 \\times \\text{amplitude}}{\\text{período } T} = \\frac{4 \\times 1{,}5\\ \\text{cm}}{0{,}20\\ \\text{s}} = 30\\ \\text{cm/s}$$\n\nJá o módulo da velocidade média é dado pela razão da diferença entre a posição final e inicial da extremidade da haste e o tempo decorrido durante esse deslocamento; assim:\n\n$$v_m = \\frac{x(t+T) - x(t)}{T} = \\frac{x(t) - x(t)}{T} = 0$$",
+    "b": "Considerando a conservação de energia mecânica da massa na extremidade do pêndulo:\n\n$$\\left(E_{\\text{cin}} + E_{\\text{pot}}\\right)_{\\text{inicial}} = \\left(E_{\\text{cin}} + E_{\\text{pot}}\\right)_{\\text{final}}$$\n\ntemos:\n\n$$0 + mgh = \\frac{1}{2} m v^2 + 0$$\n\nAssim, a velocidade da massa quando ela passa pelo ponto mais baixo da trajetória é:\n\n$$\\begin{aligned}v = \\sqrt{2gh} &= \\sqrt{2gL\\left(1 - \\cos\\theta_0\\right)} = \\sqrt{2 \\times \\left(10\\ \\text{m/s}^2\\right) \\times (2{,}0\\ \\text{m}) \\times \\left(1 - \\cos\\left(26^\\circ\\right)\\right)} \\\\ &= \\sqrt{2 \\times \\left(10\\ \\text{m/s}^2\\right) \\times (2{,}0\\ \\text{m}) \\times (1 - 0{,}90)} = 2{,}0\\ \\text{m/s}\\end{aligned}$$"
+   }
+  }
+ }
+}

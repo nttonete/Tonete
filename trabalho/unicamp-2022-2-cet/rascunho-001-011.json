@@ -155,6 +155,60 @@
     }
    ],
    "observacoes": "Figura p10-c1 refeita (o recorte automático invadia a linha do item b)."
+  },
+  {
+   "numero": 9,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Seja $a$ um número real e considere o polinômio $f(x) = x^3 + (a + 1)x^2 + (a + 2)x + 2$, que tem $x = -1$ como uma de suas raízes.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine todos os valores de $a$ tais que $x = -1$ é a única raiz real."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine todos os valores de $a$ tais que as soluções de $f(x) = 0$ sejam números inteiros."
+    }
+   ],
+   "observacoes": "A resposta oficial do item a diz “divisível por $x - 1$” (e a conta usa $x + 1$), como no original; também escreve “$\\Delta < 0$” após afirmar “menor ou igual a zero”."
+  },
+  {
+   "numero": 10,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Seja $K$ a região poligonal, no plano cartesiano, dos pontos $(x, y)$ que satisfazem as inequações\n\n$$\\begin{matrix} x \\geq 0, \\\\ y \\geq 0, \\\\ x + y \\leq 3, \\\\ 3x + y \\leq 5. \\end{matrix}$$\n\nA área hachurada da figura abaixo representa a região $K$ no plano cartesiano.\n\n![Figura 1: representação da região $K$. Plano cartesiano com os eixos $x$ e $y$, as retas $x + y = 3$ e $3x + y = 5$, a região hachurada e o vértice $V$ sobre o eixo $x$; marcas 1, 2 e 3 no eixo $y$ e 1, 2, 3 e 4 no eixo $x$](fig:p12-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine as coordenadas do vértice $V$, indicado na Figura 1, e a área da região $K$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine o maior valor de $2x + y$ para $(x, y) \\in K$."
+    }
+   ],
+   "observacoes": "Figura p12-c1 refeita para incluir a legenda “Figura 1: representação da região K”."
+  },
+  {
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O órgão Hammond, instrumento eletromecânico inventado por Laurens Hammond e John Hanert em 1935, como alternativa aos órgãos de tubos em igrejas, rapidamente tornou-se popular entre músicos de jazz e de outros gêneros musicais. O funcionamento do instrumento é baseado num conjunto de rodas fônicas (discos metálicos com dentes magnetizados) que giram próximas a bobinas eletromagnéticas (sensores), conforme a figura A. À medida que os dentes passam em frente ao sensor, o fluxo magnético através da bobina varia, dando origem a uma corrente elétrica que oscila com um período correspondente à passagem de cada dente. Essa corrente elétrica é então amplificada e alimenta os alto-falantes.\n\n![Figura A: roda fônica de 8 dentes, com o raio $R = 3{,}0\\ \\text{cm}$ indicado, e o sensor ao lado](fig:p13-f3)\n\n*(Nota da plataforma: a prova traz a instrução geral “Quando necessário, use: g = 10 m/s², π = 3”.)*",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Se a roda fônica da nota Lá, de frequência $f = 220\\ \\text{Hz}$, possui 8 dentes e tem um raio $R = 3{,}0\\ \\text{cm}$, qual é o módulo da velocidade linear de um ponto na extremidade de um dente?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma fonte contínua de força eletromotriz $\\varepsilon = 24\\ \\text{V}$ e resistência interna $r_{\\text{int}}$ alimenta um amplificador de áudio. A figura B apresenta um circuito com a fonte e sua resistência interna ligadas à resistência $R_L = 8{,}0\\ \\Omega$, equivalente ao circuito do amplificador. Se a queda de tensão em $r_{\\text{int}}$ é igual a $U_{\\text{int}} = 4{,}0\\ \\text{V}$, qual é a potência $P_L$ dissipada por $R_L$?\n\n![Figura B: circuito com a fonte de $\\varepsilon = 24\\ \\text{V}$, a resistência interna $r_{\\text{int}}$ e a resistência $R_L = 8{,}0\\ \\Omega$ ligadas em série](fig:p13-f4)"
+    }
+   ],
+   "observacoes": "A instrução “π = 3” vem da caixa de instruções gerais da página 2 do caderno (a resposta oficial usa π = 3); foi acrescentada ao fim do enunciado como nota da plataforma. Figuras p13-f3 e p13-f4 conferidas e completas."
   }
  ],
  "respostas": {
@@ -204,6 +258,24 @@
    "itens": {
     "a": "Seja\n\n$$y = \\frac{L}{1 + 2^{-k(x - x_0)}}.$$\n\nNote que $y > 0$. Agora, para determinar a função inversa $x = f^{-1}(y)$, vamos isolar $x$ nessa equação:\n\n$$y \\cdot \\left(1 + 2^{-k(x - x_0)}\\right) = L.$$\n\nDividindo por $y$ e subtraindo 1 dos dois lados, temos\n\n$$2^{-k(x - x_0)} = \\frac{L - y}{y}.$$\n\nA ideia agora é calcular o logaritmo na base 2 em ambos os lados da igualdade, mas, para isso, temos que garantir que ambos são positivos. O lado esquerdo é positivo, pois é uma potência de 2. Para o lado direito, precisamos supor que $\\frac{L - y}{y} > 0$. Como $y > 0$, será preciso que $L - y > 0$, o que é equivalente a $y < L$. Determinamos, portanto, o domínio da função inversa: $0 < y < L$. Dentro dessa condição, podemos agora aplicar o logaritmo e transformar a equação anterior em\n\n$$-k(x - x_0) = \\log_2\\left(\\frac{L - y}{y}\\right),$$\n\no que passando o sinal para o lado direito, dividindo por $k$ e somando $x_0$ em ambos os lados resulta em\n\n$$x = x_0 + \\frac{1}{k}\\cdot\\log_2\\left(\\frac{y}{L - y}\\right).$$",
     "b": "Note que se $x = x_0$ então\n\n$$y = f(x_0) = \\frac{L}{1 + 2^0} = \\frac{L}{2} = \\frac{10}{2} = 5.$$\n\nPelo gráfico, vemos que $f(2) = 5$, portanto $x_0 = 2$ e temos\n\n$$y = \\frac{10}{1 + 2^{-k(x - 2)}}.$$\n\nPelo gráfico, obtemos que $f(0) = 2$, portanto\n\n$$2 = \\frac{10}{1 + 2^{-k(-2)}},$$\n\nou $2(1 + 2^{2k}) = 10$, o que nos dá $k = 1$."
+   }
+  },
+  "9": {
+   "itens": {
+    "a": "O enunciado nos diz que $x = -1$ é uma raiz. Isso significa que o polinômio é divisível por $x - 1$. Efetuando essa divisão, obtemos\n\n$$x^3 + (a + 1)x^2 + (a + 2)x + 2 = (x + 1) \\cdot (x^2 + ax + 2).$$\n\nSeja $q(x) = x^2 + ax + 2$. Caso $q(x)$ não tenha raízes reais, então $x = -1$ será a única raiz real de $f(x)$. A condição para que $x = -1$ seja a única raiz real de $q(x)$ é que o discriminante $\\Delta$ de $q(x)$ seja menor ou igual a zero.\n\nComo $\\Delta = a^2 - 8$, segue que $\\Delta < 0$ se, e só se, $-2\\sqrt{2} < a < 2\\sqrt{2}$, e essa é a condição sobre $a$ para que $x = -1$ seja a única raiz real.",
+    "b": "Das relações de Girard, temos que se $x_1, x_2, x_3$ são as soluções de\n\n$$x^3 + (a + 1)x^2 + (a + 2)x + 2 = 0,$$\n\nentão $x_1 x_2 x_3 = -2$. Como uma das raízes já é $x_1 = -1$, ficamos com\n$x_2 x_3 = 2.$\n\nQueremos que $x_2, x_3$ sejam inteiros cujo produto é 2: assim, temos as possibilidades:\n\n$$x_2 = 1, x_3 = 2 \\ \\text{ou}\\ x_2 = -1, x_3 = -2.$$\n\nOutra relação de Girard nos diz que a soma das raízes é igual a $-a - 1$. Assim, como as raízes são $-1, 1, 2$ ou $-1, -1, -2$, temos duas possibilidades: $2 = -a - 1$ ou $-4 = -a - 1$, o que nos dá $a = 3$ ou $a = -3$."
+   }
+  },
+  "10": {
+   "itens": {
+    "a": "As coordenadas do vértice $V$ podem ser obtidas calculando o ponto de interseção da reta $3x + y = 5$ com o eixo $x$. Esse ponto é obtido substituindo $y = 0$ na equação, para obtermos o ponto $(5/3, 0)$.\nPara calcular a área da região $K$, vamos considerar a decomposição que já está indicada na figura: em dois triângulos e um retângulo.\n\n• Área do triângulo que contém o vértice $V$: $A_1 = \\left(\\frac{2}{3}\\right) \\cdot 2 \\cdot \\frac{1}{2} = \\frac{2}{3}$\n• Área do triângulo que contém o vértice (0,3): $A_2 = 1 \\cdot 1 \\cdot \\frac{1}{2} = \\frac{1}{2}$\n• Área do retângulo: $A_3 = 1 \\cdot 2 = 2$\n\nÁrea total: $A = A_1 + A_2 + A_3 = \\frac{2}{3} + \\frac{1}{2} + 2 = \\frac{19}{6}.$",
+    "b": "Seja $S = 2x + y$. Se somarmos as inequações “completas” que definem a região, obtemos\n\n$$4x + 2y \\leq 8,$$\n\nou seja, $2x + y \\leq 4$. Portanto, $S$ vale no máximo 4. Veremos que $S$ vale exatamente 4.\nIsso pode ser feito de duas maneiras:\nA primeira maneira é perceber que o ponto $(1, 2) \\in K$ e, nesse ponto, $S$ vale exatamente 4. Logo, o maior valor de $S$ é 4.\nA segunda maneira é: fixado o valor de $x$, quanto maior for o valor de $y$, maior será o valor de $S = 2x + y$. Portanto, o valor máximo será atingido num ponto que está sobre uma das retas que limitam superiormente a região.\nNa reta $x + y = 3$, temos que $y = 3 - x$ e daí $S = 2x + (3 - x) = x + 3$. Como essa reta limita a região quando $x \\in [0, 1]$, o maior valor de $S$ nessa reta será quando $x = 1$, portanto $S = 4$.\nNa reta $3x + y = 5$, temos que $y = 5 - 3x$ e daí $S = 2x + (5 - 3x) = 5 - x$. Como essa reta limita a região quando $x \\in [1, 5/3]$, o maior valor obtido será quando $x = 1$, e, portanto, é $S = 4$.\nEm qualquer dos casos, o valor máximo é sempre 4."
+   }
+  },
+  "11": {
+   "itens": {
+    "a": "A velocidade linear de um ponto na extremidade de um dente é dada por\n\n$$v = \\omega_{\\text{roda}}\\, r = 2\\pi f_{\\text{roda}}\\, r$$\n\nem que a frequência da roda é\n\n$$f_{\\text{roda}} = \\frac{f_{\\text{dentes}}}{N_{\\text{dentes}}} = \\frac{f_{\\text{corrente elétrica}}}{N_{\\text{dentes}}} = \\frac{220\\ \\text{Hz}}{8} = 27{,}5\\ \\text{Hz} = 27{,}5\\ \\frac{\\text{voltas}}{\\text{s}}$$\n\nPortanto,\n\n$$v = 2\\pi \\times \\left(27{,}5\\ \\frac{\\text{voltas}}{\\text{s}}\\right) \\times 0{,}03\\ \\text{m} = 4{,}95\\ \\text{m/s}$$",
+    "b": "Utilizando a *Lei de malhas* de Kirchhoff, sabemos que a diferença de potencial sobre o $R_L$ é igual a\n\n$$U_L = \\varepsilon - U_{\\text{int}} = 24\\ \\text{V} - 4{,}0\\ \\text{V} = 20\\ \\text{V}$$\n\nAssim, a potência dissipada em $R_L$ vale\n\n$$P_L = \\frac{U_L^2}{R_L} = \\frac{(20\\ \\text{V})^2}{8{,}0\\ \\Omega} = 50\\ \\text{W}$$"
    }
   }
  }
