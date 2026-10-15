@@ -39,6 +39,7 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - fuvest-2026-2-d2 q21 (H03), item b: a resposta liga os "Anciãos" a quadros da Revolução Cultural; no texto de Perry Anderson são os veteranos da geração revolucionária (Deng Xiaoping, Chen Yun...), muitos perseguidos na Revolução Cultural.
 - fuvest-2025-2-d2 q6 (B06), item c: a resposta diz que o CO₂ é fixado "(ciclo de Krebs)"; na fotossíntese é o ciclo de Calvin.
 - fuvest-2024-2-d2 q2 (M02): o caderno manda ler "o comunicado sobre esta questão no site da FUVEST", que não está mais publicado. Os dados do enunciado somam 110%, e o guia oficial de respostas aceitou "questão impossível" ou várias resoluções. A questão deve levar uma nota da plataforma explicando isso.
+- fuvest-2025-2-d2 q16 (G04), item c: a resposta diz que o Irã faz "fronteira entre oito países", mas lista sete (e são sete).
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ## Para conferência de quem conhece a obra

@@ -298,7 +298,7 @@
     },
     {
      "rotulo": "b",
-     "texto": "Na interface entre dois tipos de rocha, pode haver refração das ondas sísmicas, e a mudança de direção é dada pela Lei de Snell, conforme mostra o exemplo da figura a seguir.\n\n![Duas camadas de rocha, camada 1 acima da camada 2, com o raio incidente, o raio refratado e os ângulos θ1 e θ2 medidos em relação à vertical tracejada](fig:p12-f2)\n\n$$\\frac{\\text{sen}\\,\\theta_1}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{v_{S2}}$$\n\nVelocidades de ondas S típicas de alguns materiais comuns no manto terrestre são dadas na tabela a seguir.\n\n| Material | Granito | Basalto | Arenito | Calcário | Argila |\n|---|---|---|---|---|---|\n| Velocidade da onda S (m/s) | 2900 | 2600 | 1400 | 2700 | 700 |\n\nFontes: https://gpg.geosci.xyz/content/physical_properties/seismic_velocity_duplicate.html\nhttps://pburnley.faculty.unlv.edu/GEOL452_652/seismology/notes/SeismicNotes10RVel.html\n\nConsidere uma onda S harmônica de frequência 0,3 Hz propagando-se através de uma interface entre duas camadas com composições diferentes.\n\nSe a camada 1 for predominantemente composta por basalto e a camada 2 por granito, qual será a variação no comprimento de onda, $\\lambda_2 - \\lambda_1$?",
+     "texto": "Na interface entre dois tipos de rocha, pode haver refração das ondas sísmicas, e a mudança de direção é dada pela Lei de Snell, conforme mostra o exemplo da figura a seguir.\n\n![Duas camadas de rocha, camada 1 acima da camada 2, com o raio incidente, o raio refratado e os ângulos θ1 e θ2 medidos em relação à vertical pontilhada](fig:p12-c1)\n\n$$\\frac{\\text{sen}\\,\\theta_1}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{v_{S2}}$$\n\nVelocidades de ondas S típicas de alguns materiais comuns no manto terrestre são dadas na tabela a seguir.\n\n| Material | Granito | Basalto | Arenito | Calcário | Argila |\n|---|---|---|---|---|---|\n| Velocidade da onda S (m/s) | 2900 | 2600 | 1400 | 2700 | 700 |\n\nFontes: https://gpg.geosci.xyz/content/physical_properties/seismic_velocity_duplicate.html\nhttps://pburnley.faculty.unlv.edu/GEOL452_652/seismology/notes/SeismicNotes10RVel.html\n\nConsidere uma onda S harmônica de frequência 0,3 Hz propagando-se através de uma interface entre duas camadas com composições diferentes.\n\nSe a camada 1 for predominantemente composta por basalto e a camada 2 por granito, qual será a variação no comprimento de onda, $\\lambda_2 - \\lambda_1$?",
      "resposta_oficial": "A frequência permanece a mesma na interface. Nas camadas, temos $\\lambda_1 = \\frac{v_{s1}}{f}$ e $\\lambda_2 = \\frac{v_{s2}}{f}$.\n\nLogo,\n\n$$\\lambda_2 - \\lambda_1 = \\frac{v_{s2} - v_{s1}}{f} = \\frac{2900 - 2600}{0{,}3} = 1000\\ \\text{m}$$\n\nResposta: $\\lambda_2 - \\lambda_1 = 1000$ m."
     },
     {
@@ -308,7 +308,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-2-d2-q11",
@@ -317,7 +318,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O “efeito estilingue” é o nome que se dá à modificação do módulo e da direção da velocidade de uma espaçonave quando ela passa nas imediações de um planeta. Ele foi utilizado, por exemplo, para encurtar em mais de 5 anos a duração da viagem da sonda *New Horizons* até Plutão, passando por Júpiter. A figura ao lado ilustra o efeito em uma situação na qual uma sonda de massa 500 kg, viajando inicialmente para a direita, move-se em direção a um planeta de massa $2{,}0\\times10^{27}$ kg que viaja para a esquerda. Como a massa da sonda é desprezível frente à do planeta, a trajetória deste último praticamente não se altera, embora parte de sua energia cinética seja transferida para a sonda. Nos pontos $A$ e $B$ indicados na figura, as distâncias entre a sonda e o planeta são tais que a energia potencial gravitacional associada à interação entre eles pode ser desprezada.\n\n![Gráfico da coordenada y em função da coordenada x, em unidades arbitrárias, com a trajetória da sonda do ponto A ao ponto B e a trajetória do planeta; legendas: “Sonda”, “Planeta”, “planeta se move praticamente em linha reta.” e “velocidade da sonda aumenta pela interação com o planeta”](fig:p14-f2)",
+   "enunciado": "O “efeito estilingue” é o nome que se dá à modificação do módulo e da direção da velocidade de uma espaçonave quando ela passa nas imediações de um planeta. Ele foi utilizado, por exemplo, para encurtar em mais de 5 anos a duração da viagem da sonda *New Horizons* até Plutão, passando por Júpiter. A figura ao lado ilustra o efeito em uma situação na qual uma sonda de massa 500 kg, viajando inicialmente para a direita, move-se em direção a um planeta de massa $2{,}0\\times10^{27}$ kg que viaja para a esquerda. Como a massa da sonda é desprezível frente à do planeta, a trajetória deste último praticamente não se altera, embora parte de sua energia cinética seja transferida para a sonda. Nos pontos $A$ e $B$ indicados na figura, as distâncias entre a sonda e o planeta são tais que a energia potencial gravitacional associada à interação entre eles pode ser desprezada.\n\n![Gráfico da coordenada y em função da coordenada x, em unidades arbitrárias, com a trajetória da sonda do ponto A ao ponto B e a trajetória do planeta; legendas: “Sonda”, “Planeta”, “planeta se move praticamente em linha reta.” e “velocidade da sonda aumenta pela interação com o planeta”](fig:p14-c1)",
    "itens": [
     {
      "rotulo": "a",
@@ -336,7 +337,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Quantidade de movimento",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-2-d2-q12",
@@ -364,7 +366,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Física moderna",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q13",
@@ -394,7 +397,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também Serra do Mar, relevo da Serra do Mar, escarpa Atlântica, topografia da Serra do Mar e declividade da escarpa.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também volume da pluviosidade, ocorrência de neblina, extensão da estrada, deslizamentos de encosta, Floresta Densa, afloramento de blocos rochosos.",
-   "revisao": "transcrita"
+   "assunto": "Geografia do Brasil",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q14",
@@ -424,7 +428,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também interligação entre empreendimentos (portos, usinas) com facilitação de circulação de insumos, infraestrutura e pessoas entre eles; facilitação para instalação e interligação do empreendimentos mencionados no enunciado (Usinas, Porto, Terminal etc).\n- item b: 2 pontos. Aceitou-se também destruição ambiental ou da biodiversidade afetando os meios de vida das comunidades tradicionais.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Geografia do Brasil",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q15",
@@ -452,7 +457,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Geopolítica e conflitos",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q16",
@@ -461,7 +467,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "China e Irã estabeleceram acordos econômicos e estratégicos há um ano, reforçando compromissos comerciais em função da Nova Rota da Seda. Segundo o pacto, a China investiria bilhões de dólares no Irã, em setores de petróleo, gás e petroquímica, no sistema de transporte e na infraestrutura fabril. Em troca, a China seria favorecida na compra de petróleo, gás e petroquímicos do Irã, por meio de descontos e outras vantagens econômicas. O acordo permite contornar o sistema dolarizado de pagamentos bancários, controlado pelos Estados Unidos, bem como os embargos implementados contra o Irã. O pacto entre China e Irã também prevê a aproximação deste com a Arábia Saudita, mediada pela China. Em paralelo, cabe destacar o ingresso recente nos BRICS do Irã, Arábia Saudita, Emirados Árabes e Egito, que estabeleceram uma estratégia geopolítica em relação aos EUA e à União Europeia. Em conjunto, essas ações movimentam o eixo geopolítico para a porção mais oriental do globo.\n\n![Infográfico “Relações comerciais entre China e Irã”: barras das exportações chinesas para o Irã e das exportações iranianas para a China, em bilhões de dólares, de 1995 a 2018, com a linha do tempo dos embargos e sanções econômicas. Carto #63, 2021 Areion/Capri. Fonte: Observatório da Complexidade Econômica, 2020](fig:p19-c3)\n\nCarto *Le monde en cartes*, n.63, 2021 (Adaptado).\n\nO infográfico ao lado trata das relações comerciais entre China e Irã entre 1995 e 2018, além de apresentar a linha do tempo dos embargos e sanções econômicas.\n\nRelacione o infográfico com o texto para responder:",
+   "enunciado": "China e Irã estabeleceram acordos econômicos e estratégicos há um ano, reforçando compromissos comerciais em função da Nova Rota da Seda. Segundo o pacto, a China investiria bilhões de dólares no Irã, em setores de petróleo, gás e petroquímica, no sistema de transporte e na infraestrutura fabril. Em troca, a China seria favorecida na compra de petróleo, gás e petroquímicos do Irã, por meio de descontos e outras vantagens econômicas. O acordo permite contornar o sistema dolarizado de pagamentos bancários, controlado pelos Estados Unidos, bem como os embargos implementados contra o Irã. O pacto entre China e Irã também prevê a aproximação deste com a Arábia Saudita, mediada pela China. Em paralelo, cabe destacar o ingresso recente nos BRICS do Irã, Arábia Saudita, Emirados Árabes e Egito, que estabeleceram uma estratégia geopolítica em relação aos EUA e à União Europeia. Em conjunto, essas ações movimentam o eixo geopolítico para a porção mais oriental do globo.\n\n![Infográfico sobre as relações comerciais entre China e Irã: barras horizontais com as exportações chinesas para o Irã (à esquerda) e as exportações iranianas para a China (à direita), em bilhões de dólares, numa escala de 0 a 25, para 1995 e para cada ano de 2004 a 2018, e a linha do tempo dos embargos e sanções, com estas anotações: “Os Estados Unidos impõem um embargo comercial e financeiro ao Irã” (1995); “ONU adota sanções internacionais contra o Irã” (entre 2005 e 2006); “Novas sanções internacionais” (entre 2007 e 2008); “Fortalecimento das sanções” (entre 2009 e 2010); “Eleição de Hassan Rouhani para a presidência iraniana, reeleito em 2017” (entre 2012 e 2013); “Acordo nuclear com o Irã e anúncio da suspensão das sanções” (entre 2014 e 2015); “Saída dos EUA do acordo nuclear e reforço das sanções” (entre 2017 e 2018)](fig:p19-c3)\n\nCarto *Le monde en cartes*, n.63, 2021 (Adaptado).\n\nO infográfico ao lado trata das relações comerciais entre China e Irã entre 1995 e 2018, além de apresentar a linha do tempo dos embargos e sanções econômicas.\n\nRelacione o infográfico com o texto para responder:",
    "itens": [
     {
      "rotulo": "a",
@@ -480,7 +486,9 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também contra hegemonia dos EUA, fortalecimento de Ordem multipolar, expansão dos Brics, fortalecimento da Rota da Seda, ampliar influência no Oriente Médio.",
-   "revisao": "transcrita"
+   "assunto": "Geopolítica e conflitos",
+   "revisao": "atencao",
+   "revisao_notas": "Corrigida a descrição do infográfico (p19-c3): o item b depende das anotações da linha do tempo das sanções, que agora estão na descrição, entre aspas, para quem usa leitor de tela. Enunciado, itens e figuras conferidos com a página do caderno (p19); resposta conferida com o documento oficial (r48), sem divergência. Observação do transcritor sobre a posição da figura: mantida. Possível erro da própria banca no item c: a resposta diz que o Irã tem “fronteira entre oito países” e lista sete (Armênia, Azerbaijão, Turcomenistão, Afeganistão, Paquistão, Turquia e Iraque); o Irã faz fronteira terrestre com sete países. Transcrito fielmente, sem alteração; uma pessoa deve decidir se acrescenta nota da plataforma."
   },
   {
    "id": "fuvest-2025-2-d2-q17",
@@ -508,7 +516,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q18",
@@ -536,7 +545,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Geografia do Brasil",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q19",

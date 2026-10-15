@@ -77,6 +77,114 @@
         }
       ],
       "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O concreto tem alta tendência a formar fissuras que reduzem sua vida útil e elevam custos de reposição. A autocura do concreto convencional é o preenchimento de suas fissuras, o que ocorre a partir da hidratação do óxido de cálcio presente na composição do próprio concreto. A hidratação produz hidróxido de cálcio, que reage com o dióxido de carbono presente na atmosfera ambiente. O bioconcreto, um novo produto no mercado, é caracterizado pela presença de bactérias cujas cargas negativas em sua superfície atraem íons metálicos positivos que precipitam com ânions do ambiente do concreto; forma-se, com isso, um sólido pouco solúvel, responsável por fechar as fissuras (figura ao lado).\n\n![Ilustração de uma bactéria cercada por íons rotulados 2+ e 2−, com um sólido cinza depositado em uma de suas extremidades](fig:p17-f3)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A partir do texto acima, equacione os processos químicos descritos na autocura do concreto convencional. Forneça o nome do produto que promove a reparação das fissuras e comente sobre sua solubilidade em água."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Em relação aos ânions do ambiente na autocura do bioconcreto, um texto científico relata: *“Em pH mais alto, as espécies carbonatadas estão desprotonadas. Como resultado, mais carbonato (*$\\text{CO}_3^{2-}$*) está disponível para precipitação. Da mesma forma, o grupo fosfato (*$\\text{PO}_4^{3-}$*) estará sujeito a mudanças na protonação, dependendo do pH do meio. O grupo sulfato (*$\\text{SO}_4^{2-}$*) normalmente estará desprotonado devido aos seus baixos valores de pKa. Assim, a precipitação em pH baixo é possível, mas se aplica, no ambiente do concreto, principalmente ao fosfato e ao sulfato.”* Equacione os equilíbrios ácido-base em que, necessariamente, apareçam esses ânions. Comente comparativamente os valores de pKa do ácido associado ao carbonato com os ácidos associados ao sulfato e ao fosfato."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 16,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em um artigo científico, os autores apresentam a figura **A** com o objetivo de resumir os aspectos mais importantes de um estudo realizado.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A partir da figura **A**, indique a finalidade do experimento, nomeie o processo de transformação e descreva como o experimento foi conduzido. Não deixe de citar aspectos químicos representados pelos elementos gráficos da figura.\n\n![Figura A: à esquerda, objetos de plástico (garrafa com símbolo de reciclagem, sacola com cadeia carbônica e frasco); no centro, uma seta com o texto “Em solvente”, uma cadeia de hidrocarboneto, o símbolo Ru e moléculas pequenas; à direita, um barril de combustível, um avião e um caminhão](fig:p18-c1)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "A figura **B** mostra alguns resultados obtidos no referido trabalho. Tendo em vista os dados apresentados, proponha a pressão que deve ser escolhida para a produção com maior proporção de hidrocarbonetos mais leves. Justifique sua escolha.\n\n![Figura B: gráfico de barras empilhadas da distribuição de produto (%) em função da pressão de H2 (bar), de 0 a 60, com as frações C8-C16, C17-C22 e C23-C38](fig:p18-c2)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Nos últimos tempos, os consumidores observaram que, nas gôndolas dos supermercados, apareceram vários produtos alternativos derivados de leite, como as bebidas lácteas. Matéria veiculada recentemente em portal de notícias questiona: “Essas bebidas lácteas são saudáveis?”. O entrevistado responde: “O soro de leite pode ser consumido como leite sem problema, já que é similar ao leite desnatado, porém sem gordura”. A reportagem traz ainda uma série de informações sobre a composição do leite, do soro e de uma bebida láctea,conforme apresentado na tabela 1.\n\n![Tabela comparando leite, soro e bebida láctea para 1 copo de 200 mL. Tabela 1, em proteínas (g), gorduras (g), lactose (g) e cálcio (mg): leite integral 6,6; 8,0; 9,8; 280. Soro 1,5; 0,5; 9,8; 70. Bebida láctea\\* 2,4; 4,0; 9,8; 95. Tabela 2: leite desnatado\\*\\* 5,8; 1,0; 10; 260](fig:p19-c1)\n\n\\*A composição da bebida láctea foi calculada considerando uma mistura de 60% de soro de leite e 40% de leite integral.\n\n\\*\\*Dados obtidos a partir do rótulo de um produto comercializado.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Com base nas informações das duas tabelas, você <u>concorda totalmente</u>, <u>concorda parcialmente</u> ou <u>discorda</u> da declaração atribuída ao entrevistado? Justifique sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando que os dados da bebida láctea tenham sido calculados em conformidade com o que se informa no rodapé da tabela 1, e que os outros dados dessa tabela estejam corretos, há algum erro nos dados da bebida láctea? Justifique."
+        }
+      ],
+      "observacoes": "No caderno falta o espaço em “láctea,conforme”; mantido como impresso."
+    },
+    {
+      "numero": 18,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A linha do tempo ao lado apresenta eventos que ocorreram mundialmente com o objetivo comum de tentar estabelecer acordos entre os diferentes países para a mitigação de problemas ambientais – e algumas normativas (ações) adotadas no âmbito brasileiro (caixas de texto).\n\n![Linha do tempo em forma de seta com os eventos Eco – 92, Rio + 10, Rio + 20 e COP – 27 (este com um ponto de interrogação). Caixas de texto: 1992, obrigatoriedae no uso de catalisadores automotivos; 2003, venda de automóveis com motor a álcool e gasolina (flex); 2012, redução do teor de enxofre no diesel para 10 ppm](fig:p20-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite um benefício, do ponto de vista da diminuição de problemas ambientais, obtido com cada uma das ações apontadas na linha do tempo. Proponha uma ação na mesma direção das ações adotadas anteriormente e justifique seu benefício no contexto atual."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Já em 1828, o cientista José Bonifácio de Andrada e Silva, conhecido como Patriarca da Independência, escreveu: “*Nossas preciosas matas desaparecem, vítimas do fogo e do machado, da ignorância e do egoísmo. Sem vegetação, nosso belo Brasil ficará reduzido aos desertos áridos da Líbia. Virá então o dia em que a ultrajada natureza se ache vingada de tantos crimes*”. Associe a visão de José Bonifácio a exemplos de atividades humanas e aponte, para cada atividade, o(s) gás(es) gerado(s), em conformidade com a figura ao lado.\n\n![Ilustração de uma paisagem com três emissões de gases rotuladas CH4, NO2 e CO2](fig:p20-f4)"
+        }
+      ],
+      "observacoes": "Na figura da linha do tempo, a caixa de 1992 traz “obrigatoriedae” (erro de digitação do original)."
+    },
+    {
+      "numero": 19,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um estudo realizado em 2021 identificou que a troca de um dos aminoácidos da proteína Spark do novo coronavírus pode ser um dos fatores que influencia uma maior taxa de contágio em uma de suas mutações. Na troca, o aminoácido asparagina (Asn) da posição 501 é substituído por tirosina (Tyr). Essa troca faz com que a cadeia da proteína Spark alterada (Y501) interaja com a cadeia proteica das células receptoras diferentemente de como interage a cadeia da proteína original (N501). A figura ao lado ilustra parte das interações intermoleculares entre os receptores celulares e a proteína do vírus original (N501) e a da mutação (Y501).\n\n![Dois diagramas, N501 e Y501, com colunas “Receptor celular” e “Proteína Spark”: aminoácidos representados por elipses coloridas e ligados por linhas azuis (ligações de hidrogênio) e por linhas tracejadas alaranjadas (interações de Van der Walls)](fig:p21-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Identifique as diferenças nas interações intermoleculares entre os aminoácidos citados na troca e os aminoácidos do receptor celular. Justifique a alteração na taxa de contágio, considerando apenas mudanças nas energias das interações intermoleculares."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando apenas a tirosina (Tyr501), explique e represente como esse aminoácido se liga ao seu vizinho (Tyr449) na proteína *Spark*. Escolha **<u>um</u>** dos tipos de interações que ocorrem entre a (Tyr501) e a (Lys353) do receptor celular e explique e represente como essa interação se estabelece.\n\n![Fórmulas estruturais da Tirosina e da Lisina](fig:p21-f4)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 20,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Apesar dos benefícios de proteção que o uso de cosméticos e bloqueadores solares traz à pele, sua presença também se conecta a problemas ambientais e de saúde. Para evitar reaplicações desnecessárias de bloqueadores de UV, a permeabilidade do princípio ativo na pele deve ser relativamente baixa. Essa permeabilidade pode ser descrita quantitativamente pelo coeficiente de permeabilidade, $K_p$ (cm/s), que pode ser calculado a partir da massa molar $M$ do produto químico e de seu coeficiente de partição $K_{ow}$ = [soluto em octanol] / [soluto em água]. A relação empírica entre essas grandezas é dada pela equação:\n\n$$\\log K_p = 0{,}71\\,\\log K_{ow} - 0{,}0061\\,M - 6{,}3$$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "De acordo com esse modelo matemático, discuta, do ponto de vista quantitativo, como a massa molar e a hidrofobicidade do princípio ativo se correlacionam com o tempo de reaplicação do protetor."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Acredita-se que a presença de compostos per- e poli-fluoroalquis (PFAS) em cosméticos pode aumentar o conforto de uso, a durabilidade e a capacidade de espalhamento do cosmético. Sua presença em cosméticos, no entanto, pode vir de transformações de outros componentes presentes e não da adição intencional. A figura ao lado ilustra um trabalho sobre a presença dos PFAS em cosméticos. Interprete a figura levando em conta as informações dadas.\n\n![Ilustração com um rosto, com setas partindo dos olhos, do nariz e da boca e o rótulo PFAS; silhuetas com trajetos de ingestão e de respiração; cosméticos (rímel, base e batom); e um caminhão descartando resíduos no solo, com setas indicando contaminação da água](fig:p22-f2)"
+        }
+      ],
+      "observacoes": ""
     }
   ],
   "respostas": {
@@ -102,6 +210,42 @@
       "itens": {
         "a": "Das expressões fornecidas no enunciado $\\lambda_B = 2n\\Lambda$ e $\\dfrac{\\Delta\\lambda_B}{\\lambda_B} = \\mu\\Delta\\varepsilon$, temos:\n\n$$\\mu = \\frac{\\Delta\\lambda_B}{\\lambda_B}\\frac{1}{\\Delta\\varepsilon} = \\frac{1}{2n\\Lambda}\\left(\\frac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right).$$\n\nUsando os dados fornecidos no gráfico para obter $\\left(\\dfrac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right)$, chegamos a:\n\n$$\\mu = \\frac{1}{2n\\Lambda}\\left(\\frac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right) = \\frac{1}{2\\times1{,}5\\times3\\times10^{-7}\\ \\text{m}}\\left(\\frac{750\\times10^{-12}}{10^3\\times10^{-6}}\\right) = \\frac{0{,}75\\times10^{-6}\\ \\text{m}}{2\\times1{,}5\\times3\\times10^{-7}\\ \\text{m}} = 0{,}83.$$",
         "b": "Como\n\n$$V_a = V_0\\frac{R + \\Delta R}{(R + \\Delta R) + (R - \\Delta R)} = V_0\\frac{R + \\Delta R}{2R}$$\n\ne\n\n$$V_b = V_0\\frac{R - \\Delta R}{(R + \\Delta R) + (R - \\Delta R)} = V_0\\frac{R - \\Delta R}{2R},$$\n\ntemos\n\n$$\\Delta V = V_a - V_b = \\left(V_0\\frac{R + \\Delta R}{2R}\\right) - \\left(V_0\\frac{R - \\Delta R}{2R}\\right) = V_0\\frac{2\\Delta R}{2R} = 24\\ \\text{V}\\,\\frac{0{,}25\\ \\Omega}{100\\ \\Omega} = 0{,}06\\ \\text{V} = 60\\ \\text{mV}.$$"
+      }
+    },
+    "15": {
+      "itens": {
+        "a": "$\\text{CaO} + \\text{H}_2\\text{O} = \\text{Ca(OH)}_2$\n\n$\\text{Ca(OH)}_2 + \\text{CO}_2 = \\text{CaCO}_3 + \\text{H}_2\\text{O}$\n\nO produto que promove a reparação das fissuras é o carbonato de cálcio ($\\text{CaCO}_3$), um sólido pouco solúvel em água.",
+        "b": "Os equilíbrios ácido-base associados aos ânions citados no texto são:\n\n$\\text{CO}_3^{2-} + \\text{H}_3\\text{O}^+ = \\text{HCO}_3^- + \\text{H}_2\\text{O}$\n\n$\\text{PO}_4^{3-} + \\text{H}_3\\text{O}^+ = \\text{HPO}_4^{2-} + \\text{H}_2\\text{O}$\n\n$\\text{SO}_4^{2-} + \\text{H}_3\\text{O}^+ = \\text{HSO}_4^- + \\text{H}_2\\text{O}$\n\nDe acordo com o texto, o ânion carbonato ($\\text{CO}_3^{2-}$) está disponível em valores de pH mais elevados enquanto os ânions sulfato ($\\text{SO}_4^{2-}$) e fosfato ($\\text{PO}_4^{3-}$) estão disponíveis em valores de pH menores. Portanto, pode se concluir que o ácido $\\text{HSO}_4^-$ e o ácido $\\text{HPO}_4^{2-}$ são ácidos mais fortes (apresentam maiores valores de Ka) que o ácido $\\text{HCO}_3^-$. Deste modo, o pKa do ácido $\\text{HCO}_3^-$ tende a ser maior do que dos ácidos $\\text{HPO}_4^{2-}$ e $\\text{HSO}_4^-$.\n\n*Observação:* considerações semelhantes levando em conta $\\text{H}_2\\text{CO}_3$, $\\text{H}_2\\text{SO}_4$ e $\\text{H}_3\\text{PO}_4$ serão igualmente aceitas."
+      }
+    },
+    "16": {
+      "itens": {
+        "a": "A finalidade do experimento é transformar materiais poliméricos (plástico descartado), que apresentam uma cadeia orgânica longa, em combustível, que possui uma cadeia orgânica menor. O experimento consiste em quebrar as cadeias poliméricas utilizando um reagente de Ru, que atua como um catalisador da reação. O processo consiste em um craqueamento catalítico empregando um solvente.",
+        "b": "Deve ser escolhida a pressão de 20 ou 30 bar. Para ambas as pressões, não se observa a produção da fração mais pesada (C23-C28), sendo que as pressões apresentam uma maior proporção de hidrocarbonetos leves (C8-C16), em torno de 80%."
+      }
+    },
+    "17": {
+      "itens": {
+        "a": "Concordo parcialmente, pois o soro é similar ao leite desnatado quanto ao teor de lactose, possuindo baixo percentual de gordura, o que vai ao encontro da afirmação do texto. No entanto, os teores de proteína e cálcio são diferentes nas duas bebidas.",
+        "b": "O cálculo considera, na composição, 60 % de soro e 40% de leite integral. Deste modo, para verificar se os dados estão coincidentes, é necessário realizar o cálculo da média ponderada para cada nutriente, seguindo a seguinte relação:\n\n*Quantidade de nutriente* = {[0,6 x (quantidade presente no soro)] + [0,4 x (quantidade presente no leite integral)]}.\n\nPara cada nutriente temos:\n\n*Proteínas* = {[0,6 x (1,5)] + [0,4 x (6,6)]} = 3,5\n\n*Gorduras* = {[0,6 x (0,5)] + [0,4 x (8,0)]} = 3,5\n\n*Lactose* = {[0,6 x (9,8)] + [0,4 x (9,8)]} = 9,8\n\n*Cálcio* = {[0,6 x (70)] + [0,4 x (280)]} = 154\n\nPortanto, sim, há erro nos dados em relação às quantidades de proteínas, gorduras e cálcio."
+      }
+    },
+    "18": {
+      "itens": {
+        "a": "*Linha do tempo:*\n\n*1992:* a transformação de gases poluentes liberados pelo motor (como CO, $\\text{NO}_x$ e $\\text{C}_x\\text{H}_y$) em compostos menos prejudiciais (como $\\text{CO}_2$, $\\text{H}_2\\text{O}$ e $\\text{N}_2$).\n\n*2003:* uso de combustível de fonte renovável, contribuindo para a redução na emissão de $\\text{CO}_2$ (combustível de carbono neutro ou combustível neutro em carbono).\n\n*2012:* redução de enxofre no diesel e concomitante diminuição na emissão de $\\text{SO}_x$ ($\\text{SO}_2$).\n\n*2022:* uso de $\\text{H}_2$ (verde) como combustível, substituição de motores a combustão por motores elétricos, emprego de células a combustível (como exemplos de ações benéficas).",
+        "b": "O “poema de José Bonifácio se contemporiza pelas queimadas (fogo) e pelo desmatamento (machado). Exemplos de ações humanas geradoras dos gases incluem:\n\n● produção de carvão vegetal: geração de $\\text{CO}_2$;\n● expansão imobiliária e ocupação do solo: geração de $\\text{CO}_2$;\n● produção de energia hidrelétrica: não captura de $\\text{CO}_2$ e geração de $\\text{CH}_4$;\n● expansão agropecuária, produção de alimentos e biocombustíveis: não captura de $\\text{CO}_2$, emissão de $\\text{CH}_4$ e $\\text{NO}_2$."
+      }
+    },
+    "19": {
+      "itens": {
+        "a": "No vírus que não sofreu a mutação, a asparagina (Asn) da posição 501 realiza interações de Van der Walls com outros dois aminoácidos. Na mutação indicada na figura pela descrição Y501, a tirosina (Tyr) na posição 501 realiza, além de interações de Van der Walls, uma ligação de hidrogênio. A energia da ligação de hidrogênio é maior do que nas interações de Van der Waals, o que faz com que o vírus interaja mais fortemente com o receptor celular, tendo maior possibilidade de entrar na célula.",
+        "b": "A interação entre a tirosina (501) e o aminoácido vizinho, também tirosina (449), é uma ligação química que faz parte da estrutura da proteína, proteína esta denominada ligação peptídica, que se estabelece entre o N do grupo amina de um dos aminoácidos e o O do grupo carboxila de outro aminoácido:\n\n![Reação entre duas moléculas de tirosina: o OH do grupo carboxila de uma e o H do grupo amina da outra (circulados) são retirados, formando o dipeptídeo, com a ligação peptídica (grupo C(=O)NH) circulada](fig:r09-c1)\n\nA interação da tirosina da proteína Spark com a lisina do receptor é uma interação entre moléculas (forças intermoleculares, sendo: ligação de hidrogênio e interações de Van der Waals):\n\n![Duas representações da tirosina e da lisina, com uma linha pontilhada vermelha entre o OH do grupo carboxila da tirosina e a lisina (esquerda) e entre o HO do anel da tirosina e o grupo carboxila da lisina (direita)](fig:r09-c2)"
+      }
+    },
+    "20": {
+      "itens": {
+        "a": "Os valores de Kp devem ser baixos para que ocorra uma baixa permeabilidade. Deste modo, de acordo com o modelo matemático, a massa molar M deve ser elevada e o valor de Kow deve ser baixo (o que significa maior hidrofobicidade). Quanto menor o valor de Kp, menor a suscetibilidade de exposição sistêmica ao produto. Sendo este valor baixo, será necessária a reaplicação do protetor em intervalos de tempo maiores.",
+        "b": "A figura representa possíveis contaminações pelos componentes dos cosméticos às quais o ser humano pode estar exposto bem como a preocupação com o uso e o descarte das embalagens contendo resíduos do produto. Tais contaminações incluem:\n\n− Contaminação direta pela aplicação (olhos, respiração e ingestão);\n− Contaminação indireta pela ingestão da água que foi contaminada pelo descarte dos produtos no ambiente."
       }
     }
   }

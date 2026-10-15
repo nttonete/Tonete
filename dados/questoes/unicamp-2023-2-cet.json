@@ -1,0 +1,444 @@
+{
+ "edicao": {
+  "id": "unicamp-2023-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2023,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2023 – 2ª fase (2º dia: Ciências Exatas e Tecnológicas)",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "fonte": {
+   "caderno": "2fase-dia2-cet-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-dia2-cet-respostas.pdf",
+    "2fase-dia2-cet-comentada.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2023-2-cet-q01",
+   "numero": 1,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Márcia está decorando sua casa para o Natal e pretende cobrir uma pilastra com um papel de parede de temas natalinos e depois enrolar uma fita de lâmpadas de *led* na pilastra coberta, dando uma única volta, de modo que o ponto em que a fita começa a ser enrolada esteja exatamente embaixo do ponto onde ela termina, como ilustrado na figura a seguir.\n\n![Cilindro com a fita de led enrolada em uma volta, do início da fita, na base, ao fim da fita, no topo](fig:p03-f2)\n\nA pilastra tem o formato de um cilindro circular reto com 3 m de altura; a medida do perímetro da circunferência da base é 1 m, e sua lateral será coberta completamente com papel de parede colado sem sobreposição.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Sabendo que o metro quadrado do papel de parede custa R\\$ 20,00, determine quanto Márcia terá que gastar em papel de parede para cobrir a pilastra como ela quer.",
+     "resposta_oficial": "A área da superfície é de . Como cada metro quadrado do papel de parede custa R\\$ 20,00, o custo total será de R\\$ 60,00."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é o menor comprimento que a fita de *led* precisa ter para ser possível esta instalação?",
+     "resposta_oficial": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo  m."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q02",
+   "numero": 2,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere o sistema\n\n$$\\begin{cases} x + py = q, \\\\ 2x - z = p, \\\\ x + y + z = 3. \\end{cases}$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para $p = q = 1$, resolva o sistema.",
+     "resposta_oficial": "Para $p=q=1$, a primeira equação indica que $x+y=1$. Substituindo esta informação na última equação, teremos que $1+z=3$, ou seja, $z=2$. Usando essa informação na segunda equação, obtemos que $2x-2=1$, ou seja, $x=3/2$. Voltando com esse valor na primeira equação, temos que $y=-1/2$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine os valores de $p$, $q$ para que o sistema tenha infinitas soluções.",
+     "resposta_oficial": "Para que o sistema tenha infinitas soluções, é preciso fazer substituições. Isolando o valor de $x$ na primeira equação e substituindo este valor nas outras duas equações, obtemos o sistema auxiliar:\n\n$2(q-py)-z=p,\\ (q-py)+y+z=1.$\n\nSimplificando, obtemos:\n$2py+z=-p+2q,\\ (1-p)y+z=1-q.$\n\nComo queremos infinitas soluções, essas equações precisam ser múltiplas. Como o coeficiente do $z$ é o mesmo, deveremos ter os outros coeficientes iguais também, ou seja, $1-p=2p$, o que nos dá $p=1/3$, e $3q=p+3$, ou seja, $q=10/9$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q03",
+   "numero": 3,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere a função real $f(x) = \\cos(2x) - 2\\,\\text{sen}(x)$, definida para $x \\in [0, 2\\pi]$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Calcule $f\\left(\\frac{\\pi}{4}\\right)$.",
+     "resposta_oficial": "Basta substituir o valor $\\pi/4$ na função $f(x)$, o que nos dará $-\\sqrt{2}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Encontre todos os valores de $x \\in [0, 2\\pi]$ tais que $f(x) = -1/2$.",
+     "resposta_oficial": "A equação $f(x)=-1/2$ é equivalente a $\\cos(2x) - 2\\,\\text{sen}(x) = -1/2$. Como $\\cos(2x) = \\cos^2(x) - \\text{sen}^2(x)$, ficamos com a equação $\\cos^2(x) - \\text{sen}^2(x) - 2\\,\\text{sen}\\,x = -1/2$. Usando a identidade trigonométrica fundamental, e fazendo agora $S = \\text{sen}\\,x$, ficamos com a equação quadrática:\n\n$1-2S^2-2S=-1/2.$\n\nEssa equação tem duas soluções, $S=-3/2$ e $S=1/2$, mas só uma delas nos interessa. Finalmente, resolvendo $\\text{sen}\\,x = 1/2$, obtemos dois valores: $\\pi/6$ e $5\\pi/6$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q04",
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma estudante está praticando suas habilidades de geometria. Para isso, lança simultaneamente dois dados, um amarelo e um branco, e desenha a reta $r$ dada por $y = a_1 x + b_1$, sendo $a_1$ o resultado obtido no lançamento do dado amarelo e $b_1$ o resultado obtido no lançamento do dado branco.\n\nEla repete este processo, lançando novamente ambos os dados, e desenha assim uma segunda reta $s$ dada por $y = a_2 x + b_2$, com $a_2$ sendo o resultado obtido no segundo lançamento do dado amarelo e $b_2$ o resultado obtido no segundo lançamento do dado branco.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a probabilidade de as retas $r$ e $s$ terem apenas um ponto em comum?",
+     "resposta_oficial": "A partir do sorteio dos coeficientes da primeira reta, para que elas não tenham um ponto em comum, ou elas são paralelas, ou elas são iguais. Isto dá 5/6 das vezes, pois basta que o coeficiente angular não seja o mesmo da reta original (os coeficientes são resultados dos dados, então temos 6 opções)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Numa rodada do jogo, os resultados dos dados foram $a_1 = 2$, $b_1 = 3$, $a_2 = 5$ e $b_2 = 6$. Determine o ponto de interseção das retas encontradas.",
+     "resposta_oficial": "A partir dos resultados dos lançamentos dos dados, obtemos as retas $y=2x+3$ e $y=5x+6$. Para determinar o ponto de encontro destas retas, resolvemos primeiro a equação $2x+3=5x+6$ e obtemos $-3x=3$, ou seja, $x=-1$, o que nos dá $y=1$, e o ponto $(-1,1)$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q05",
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma pesquisadora está testando o efeito de um medicamento em uma bactéria. Sabe-se que a função que descreve a quantidade de bactérias vivas na amostra em um tempo $t$, dado em minutos, é $Q(t) = C \\cdot 10^{-bt}$, com $b$ e $C$ dependendo de características da bactéria e do medicamento.\n\nDados: $\\log_{10} 2 \\approx 0{,}3$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para uma certa amostra com 5 milhões de bactérias, verificou-se que, nos primeiros 10 minutos, 9/10 da quantidade de bactérias na amostra morreram. Qual é a quantidade de bactérias vivas que restaram após 20 minutos?",
+     "resposta_oficial": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C\\,10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b=-1$, o que nos dá $b=1/10$. Calculando agora para $t=20$ minutos, temos $Q(20)=5.000.000 \\cdot 10^{-2}=50.000$ bactérias."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Numa outra amostra, onde foi descoberto experimentalmente que $b = 3$, quanto tempo levará para que a quantidade de bactérias fique reduzida à metade?",
+     "resposta_oficial": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que -□log log 2 =-3t, ou seja, t=2 )1/3≈0,1 minutos, ou cerca de 6 segundos."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q06",
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere um triângulo ABC.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo que ABC é um triângulo retângulo com perímetro igual a 16 cm e hipotenusa de comprimento 7 cm, calcule sua área.",
+     "resposta_oficial": "Sejam $a, b, c$ as medidas dos lados do triângulo, com $c$ a medida da hipotenusa. Temos que $a+b+7=16$ e que $a^2+b^2=49$. Para calcular a área, precisamos encontrar o valor de $ab/2$. Como $a+b=9$, segue que $(a+b)^2=81$, e, por outro lado, $(a+b)^2=a^2+2ab+b^2=2ab+49$. Logo $2ab=32$, o que nos dá $ab/2=8$, que é a área procurada."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que em um triângulo qualquer a soma dos comprimentos de quaisquer dois lados é sempre maior que o comprimento do terceiro lado e assumindo que as medidas dos lados de um certo triângulo são $a$, $a^2$, $a^3$, calcule os possíveis valores de $a$.",
+     "resposta_oficial": "Utilizando a informação fornecida, temos que, no caso $a>1$, o maior lado é $a^3$, e, portanto, $a^3<a+a^2$. Resolvendo essa desigualdade, temos que $a \\in (1,(1+\\sqrt{5})/2))$. Já no caso $a<1$, o maior lado será $a$, e, portanto, temos $a<a^2+a^3$, o que nos dá $a \\in ((-1+\\sqrt{5})/2),1)$ No caso $a=1$ todos os lados são iguais, e este é um valor possível para $a$. Portanto, a resposta é a união desses intervalos, ou seja, $a \\in ((-1+\\sqrt{5})/2,(1+\\sqrt{5})/2))$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q08",
+   "numero": 8,
+   "materia": "geografia",
+   "materias_extra": [
+    "historia",
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "“Acontece, porém, que a verdade sobre a fome incomoda os governos e fere as suscetibilidades patrióticas e, por isso mesmo, são frequentemente vedadas ao grande público, pelas respectivas censuras políticas. (...) Será a calamidade da fome um fenômeno natural, inerente à própria vida, uma contingência irremovível como a morte? Ou será a fome uma praga social criada pelo próprio homem?”\n\n(CASTRO, Josué de. *Geopolítica da Fome*. Rio de Janeiro: Casa do Estudante do Brasil, 2ª ed., 1953.)\n\n“Vivemos em um país que produz muito alimento e tem muita gente passando fome. Para além do escândalo ético, isso é uma aberração em termos de organização econômica e social. No plano moral, beira o criminoso: são 33 milhões de pessoas famintas, enquanto exportamos e produzimos mais de três quilos, só de grãos, por pessoa por dia.”\n\n(DOWBOR, Ladislau. Fome, uma decisão política e corporativa. *In:* CAMPELLO, Tereza; BORTOLETTO, Ana Paula (orgs.). *Da fome à fome: diálogos com Josué de Castro*. São Paulo: Elefante, 2022, p. 181.)\n\n![Gráfico de linhas \"Insegurança alimentar no Brasil\", em % da população, com as séries Leve, Moderada e Grave, em 2004, 2009, 2013, 2017/18 e 2020](fig:p10-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para Josué de Castro, há poucos debates sobre a fome. Por que a questão da fome é ocultada dos debates contemporâneos? A insegurança alimentar é uma questão moral e política? A partir dos textos, justifique suas respostas.",
+     "resposta_oficial": "Josué de Castro discutiu profundamente o problema da fome no Brasil, mostrando como tal problema, por afetar negativamente a legitimidade dos Estados e de seus governantes, foi ocultado da esfera pública, o que o configura, portanto, como uma questão política. Mostrar a fome afetaria a imagem e a identidade nacional, ferindo ainda a visão patriótica. A invisibilidade da fome é também uma questão moral criminosa, já por afetar, por exemplo na atualidade brasileira, um contingente de 33 milhões de pessoas, com o país tendo retornado ao Mapa da Fome da ONU sem que medidas efetivas de combate tenham sido pelo Estado – não obstante o fato de o Brasil ser um grande exportador de alimentos. A segurança alimentar é um direito e a fome atenta contra a vida e contra condições dignas de sobrevivência."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite um aspecto histórico e um social que explicam a existência da fome no Brasil. Analise, a partir do gráfico, o que houve com a questão da insegurança alimentar no país, desde o início do século XXI.",
+     "resposta_oficial": "A fome da população, segundo o trecho de Ladislau Dowbor, é resultado de decisões políticas e corporativas. Trata-se, portanto, de uma questão de responsabilidade do Estado, que deve gerir a organização econômica e social, não sendo um fenômeno da natureza. Pode-se citar, como aspectos históricos e sociais que contribuíram para a existência da fome do Brasil, na longa duração, a ausência de políticas de distribuição de terras, posto que por meio do processo colonial houve no Brasil concentração de terras para monoculturas de exportação. A desigualdade econômica, assim, jogou a maior parcela da população brasileira, historicamente, para uma situação de vulnerabilidade social e, muitas vezes, de fome, ligada à extrema pobreza. Podemos citar, também, como causas da fome, as secas do início do século XX, as migrações massivas campo-cidade que afastaram as comunidades das culturas de subsistência, a ausência de políticas de assistência social até o início do século XXI – quando, segundo o gráfico, a fome diminui no Brasil graças a políticas assistenciais criadas no período. A situação da insegurança alimentar regrediu a partir de 2013 e se intensificou depois de 2018. O aumento vertiginoso da fome em 2017/2018 é associado à adoção de políticas governamentais como o desmonte de políticas públicas de combate à pobreza, tais como os cortes de verbas para programas sociais, os cortes de incentivos à agricultura familiar, além da má gestão na pandemia da covid-19 no Brasil, resultando em inflação, altos níveis de desemprego, ataque a direitos trabalhistas e carestia."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q09",
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em meados de 2022 o Telescópio Espacial James Webb entrou em operação. Ele foi chamado inicialmente de Telescópio Espacial de Nova Geração por ser desenvolvido com novas tecnologias e ter o objetivo de substituir parcialmente as funções do Telescópio Espacial Hubble, lançado em 1990. O telescópio Hubble possui uma massa $m_\\text{H} \\simeq 11000\\ \\text{kg}$ e se move numa órbita circular em torno da Terra, a uma altura aproximada $h \\simeq 600\\ \\text{km}$ da superfície terrestre. Já o Webb não orbita em torno da Terra, e sim em torno de um ponto mais distante do que a Lua; sua massa é pouco mais da metade da massa do Hubble, e pode ser aproximada por $m_\\text{W} \\simeq 6000\\ \\text{kg}$.\n\nQuando necessário, use as aproximações:\n$g \\approx 10\\ \\text{m/s}^2$\n$\\pi \\approx 3$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O período orbital do Hubble em torno da Terra pode ser aproximado por $T_\\text{H} \\simeq 100\\ \\text{min}$, e o raio da Terra por $R_\\text{T} \\simeq 6400\\ \\text{km}$. Qual o módulo da força centrípeta que atua no telescópio Hubble?",
+     "resposta_oficial": "O módulo da força centrípeta é dado por $|\\vec{F}_\\text{cp}| = m_\\text{H}\\,|\\vec{a}_\\text{cp}| = m_\\text{H}\\,\\omega^2 r.$\n\nCom:\n\n$$r = R_\\text{T} + h = 6400\\ \\text{km} + 600\\ \\text{km} = 7000\\ \\text{km} = 7{,}0\\times10^6\\ \\text{m}$$\n\ne\n\n$$\\omega = \\frac{2\\pi}{T_\\text{H}} = \\frac{2\\times 3}{100\\times 60}\\ \\text{rad/s} = \\frac{1}{1000}\\ \\text{rad/s} = 1{,}0\\times10^{-3}\\ \\text{rad/s}$$\n\ntemos:\n\n$$|\\vec{F}_\\text{cp}| = (1{,}1\\times10^4\\ \\text{kg})\\times(1{,}0\\times10^{-3}\\ \\text{rad/s})^2\\times(7{,}0\\times10^6\\ \\text{m}) = 7{,}7\\times10^4\\ \\text{N}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A figura no espaço de respostas mostra a distância percorrida pelo Webb durante as duas primeiras semanas após o lançamento. Assuma que o módulo da velocidade do Webb é aproximadamente constante no período que vai do início do 9º ao início do 19º dia de viagem (10 dias completos). Calcule, em unidades do <u>SI</u>, o módulo da quantidade de movimento do telescópio ao longo desse período. Aproxime $1\\ \\text{dia} \\simeq 8\\times10^4\\ \\text{s}$.\n\n![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, do início do 1º dia (25/12/2021) ao início do 16º dia (09/01)](fig:p11-c1)",
+     "resposta_oficial": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_\\text{W} v_\\text{W} = m_\\text{W} \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q10",
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O espelho primário do Telescópio Espacial James Webb é côncavo e tem diâmetro de aproximadamente seis metros – cerca de três vezes o do espelho do Telescópio Espacial Hubble. Isso permite a observação de objetos celestes ainda mais distantes.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A figura, no espaço de respostas, apresenta um espelho esférico de raio de curvatura $R_\\text{C} = 10\\ \\text{m}$. Um objeto $O$ está posicionado no eixo óptico a uma distância $p = 15\\ \\text{m}$ do vértice do espelho, e dois raios incidentes no espelho são assinalados como (1) e (2). Encontre a distância $p'$ da imagem ao vértice do espelho. A imagem é real ou é virtual? É direita ou é invertida? É ampliada ou é reduzida?\n\n![Espelho esférico com vértice e eixo óptico, objeto O sobre o eixo e raios incidentes (1) e (2), sobre quadriculado com escala de 1,0 m](fig:p12-c2)",
+     "resposta_oficial": "$f = \\frac{R}{2} = \\frac{10\\ \\text{m}}{2} = 5{,}0\\ \\text{m}$\n$\\frac{1}{p'} = \\frac{1}{f} - \\frac{1}{p} = \\frac{1}{5{,}0\\ \\text{m}} - \\frac{1}{15\\ \\text{m}} = \\frac{3-1}{15\\ \\text{m}} = \\frac{2}{15\\ \\text{m}}$\n$p' = 7{,}5\\ \\text{m} \\Rightarrow$ imagem real\n\n$A = \\frac{i}{o} = -\\frac{p'}{p} = -\\frac{7{,}5\\ \\text{m}}{15\\ \\text{m}} = -0{,}5$\n$\\Rightarrow$ imagem real invertida e reduzida"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em 1929, o astrônomo Edwin Hubble observou que a velocidade $v$ de afastamento de uma galáxia é proporcional à sua distância $D$ até a Terra, estabelecendo a chamada lei de Hubble: $v = H_0 D$, sendo $H_0 \\simeq \\frac{2\\times10^{-2}\\ \\text{m/s}}{\\text{ano-luz}}$ a constante de Hubble. Para a determinação da velocidade de afastamento, os astrônomos usaram o efeito Doppler, que produz um deslocamento da frequência da luz proveniente das galáxias, de forma que, para $v \\ll c$, tem-se: $\\frac{f_\\text{obser}}{f_\\text{emit}} \\simeq 1 - \\frac{v}{c}$, sendo $f_\\text{obser}$ e $f_\\text{emit}$ respectivamente as <u>frequências</u> observada e emitida, e $c = 3{,}0\\times10^8\\ \\text{m/s}$ a velocidade da luz no vácuo. A que distância $D$ fica uma galáxia para a qual certo <u>comprimento de onda</u> da luz observada é 25% maior que o da luz emitida, ou seja, $\\frac{\\lambda_\\text{obser}}{\\lambda_\\text{emit}} \\simeq 1{,}25$?",
+     "resposta_oficial": "Efeito Doppler: $\\frac{f_\\text{obser}}{f_\\text{emit}} \\simeq 1 - \\frac{v}{c}$\n\n$\\frac{v}{c} \\simeq 1 - \\frac{f_\\text{obser}}{f_\\text{emit}} = 1 - \\frac{\\lambda_\\text{emit}}{\\lambda_\\text{obser}} = 1 - \\frac{1}{1{,}25} = \\frac{1{,}25-1}{1{,}25} = \\frac{0{,}25}{1{,}25} = \\frac{1}{5} = 0{,}2$\n\n$v \\simeq 0{,}2 \\times c = 0{,}2 \\times (3{,}0\\times10^8\\ \\text{m/s}) = 6{,}0\\times10^7\\ \\text{m/s}$\n\nLei de Hubble: $v = H_0 D \\Rightarrow D = \\frac{v}{H_0} \\simeq \\frac{6{,}0\\times10^7\\ \\text{m/s}}{\\left(\\frac{2\\times10^{-2}\\ \\text{m/s}}{\\text{ano-luz}}\\right)} = 3{,}0\\times10^9$ anos-luz."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q11",
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na natureza, observa-se que a razão entre o diâmetro dos membros de sustentação de um animal e a sua altura é tanto menor quanto menor for o animal (ver figura A). Todavia, os diminutos seres humanos descritos no livro “Viagens de Gulliver” (Jonathan Swift, 1726) e no filme “Downsizing” (2017) têm essa razão mantida, diferentemente do que ocorre na natureza. Para ilustrar o comportamento da natureza, vamos tratar um caso simples: duas caixas cúbicas de água, uma <u>grande</u> – com lado $S = 4{,}0\\ \\text{m}$ e massa $M = 6{,}4\\times10^4\\ \\text{kg}$ –, e outra <u>pequena</u> – com lado $s = S/4 = 1{,}0\\ \\text{m}$ e massa $m = 1{,}0\\times10^3\\ \\text{kg}$.\n\n![Figura A: razão d/h menor que D/H na natureza (mosca) e igual a D/H em Gulliver, em comparação com o ser humano de altura H e diâmetro D](fig:p13-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Suponha que cada caixa esteja em equilíbrio estático e seja sustentada por uma coluna de seção reta quadrada, centrada no fundo, conforme a figura B. Os lados das colunas são $D = 0{,}4\\ \\text{m}$ (caixa <u>grande</u>) e $d$ (caixa <u>pequena</u>). Qual deve ser o tamanho $d$ dos lados da coluna da caixa <u>pequena</u> para que a pressão exercida sobre essa coluna seja igual à pressão exercida pela caixa <u>grande</u> sobre a sua própria coluna?\n\n![Figura B: cubo de lado S ou s apoiado sobre uma coluna de seção reta quadrada de lado D ou d](fig:p13-f4)",
+     "resposta_oficial": "$$\\begin{cases} \\text{caixa grande: } p_{\\text{grande}} = \\dfrac{Mg}{D^2} \\\\[2mm] \\text{caixa pequena: } p_{\\text{pequena}} = \\dfrac{mg}{d^2} \\end{cases}$$\n\nSendo $p_{\\text{grande}} = p_{\\text{pequena}} \\Rightarrow \\dfrac{Mg}{D^2} = \\dfrac{mg}{d^2} \\Rightarrow \\left(\\dfrac{d}{D}\\right)^2 = \\dfrac{m}{M} = \\dfrac{1}{64}$\n\nPortanto: $\\dfrac{d}{D} = \\dfrac{1}{\\sqrt{64}} = \\dfrac{1}{8}$ ou $\\text{d} = \\dfrac{D}{8} = \\dfrac{0{,}40\\ \\text{m}}{8} = 0{,}05\\ \\text{m}$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Vamos supor agora que o equilíbrio estático da caixa <u>grande</u> seja garantido por duas colunas de sustentação. As forças atuando na caixa são: o peso $\\vec{P}$, no centro de massa $CM$, e as forças $\\vec{F}_1$ e $\\vec{F}_2$ exercidas pelas colunas. As linhas (tracejadas) de atuação das três forças estão contidas no plano vertical mostrado na figura C (no espaço de respostas). O módulo do torque resultante sobre a caixa, em relação ao ponto $O$, é dado por: $\\left|\\vec{\\tau}_O\\right| = \\left|\\vec{P}\\right| x_1 - \\left|\\vec{F}_2\\right|(x_1 + x_2)$, sendo $x_1 = 1{,}8\\ \\text{m}$ e $x_2 = 0{,}6\\ \\text{m}$. Calcule os módulos das forças $\\vec{F}_1$ e $\\vec{F}_2$.\n\n![Figura C: caixa com o ponto O, o centro de massa CM, as distâncias x1 e x2, o peso P para baixo e as forças F1 e F2 para cima, exercidas pelas duas colunas](fig:p13-c1)",
+     "resposta_oficial": "De acordo com o enunciado,\n\n$$\\left|\\vec{\\tau}_O\\right| = Mg\\,x_1 - \\left|\\vec{F}_2\\right|(x_1 + x_2) = 0$$\n\n$$\\left|\\vec{F}_2\\right| = \\frac{x_1}{(x_1 + x_2)}Mg = \\frac{1{,}8\\ \\text{m}}{2{,}4\\ \\text{m}} \\times \\left(6{,}4\\times10^4\\ \\text{kg}\\right) \\times \\left(10\\ \\text{m/s}^2\\right) = 4{,}8\\times10^5\\ \\text{N}$$\n\n$$Mg - \\left|\\vec{F}_1\\right| - \\left|\\vec{F}_2\\right| = 0$$\n\n$$\\left|\\vec{F}_1\\right| = Mg - \\left|\\vec{F}_2\\right| = 6{,}4\\times10^5\\ \\text{N} - 4{,}8\\times10^5\\ \\text{N} = 1{,}6\\times10^5\\ \\text{N}$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q12",
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A Antártida possui centenas de lagos subglaciais, ou seja, abaixo do solo e do gelo que recobre o continente. Recentemente, lá foi descoberto um aquífero de grandes dimensões. Considere um lago de área horizontal $A = 50\\ \\text{km}^2$ e dimensão vertical $y = 12\\ \\text{m}$ (ver figura), coberto por uma camada de gelo de espessura $d = 5{,}0\\ \\text{m}$. A água líquida do lago encontra-se na temperatura do seu ponto de fusão, $\\theta_{\\text{água}} = 0\\ ^\\circ\\text{C}$, e o ar imediatamente acima do gelo está na temperatura $\\theta_{\\text{ar}} = -15{,}0\\ ^\\circ\\text{C}$. A densidade da água líquida é $\\rho = 1{,}0\\ \\text{g/cm}^3$ e $1\\ \\text{cal} \\simeq 4\\ \\text{J}$.\n\n![Esquema do lago: ar a −15 °C, camada de gelo de espessura d = 5,0 m e lago de água a 0 °C com dimensão vertical y = 12 m](fig:p14-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para congelar a água, é preciso retirar calor dela. O calor latente de fusão/solidificação da água é $L_\\text{F} = 80\\ \\text{cal/g}$. Qual é a quantidade de calor que deve ser retirada para congelar completamente o lago, mantendo-se a temperatura do lago a $0\\ ^\\circ\\text{C}$?",
+     "resposta_oficial": "Como $Q = mL_\\text{F}$ e $m = \\rho A y$, temos:\n\n$$Q = mL_\\text{F} = \\left[\\left(1{,}0\\times10^3\\ \\frac{\\text{kg}}{\\text{m}^3}\\right) \\times \\left(50\\times10^6\\ \\text{m}^2\\right) \\times 12\\ \\text{m}\\right] \\times \\left(80\\ \\frac{\\text{cal}}{\\text{g}} \\times \\frac{4\\ \\text{J}}{\\text{cal}} \\times \\frac{1000\\ \\text{g}}{\\text{kg}}\\right) = 1{,}92\\times10^{17}\\ \\text{J}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A quantidade de calor $Q$ conduzido da água do lago para o ar, num intervalo de tempo $\\Delta t$, através de uma área $A$, obedece à relação: $\\dfrac{Q}{\\Delta t\\, A} = \\dfrac{k}{d}\\left(\\theta_{\\text{água}} - \\theta_{\\text{ar}}\\right)$, sendo $k = 2{,}2\\ \\text{W}/(\\text{m}\\cdot ^\\circ\\text{C})$ a condutividade térmica do gelo. Calcule a potência conduzida através de toda a área $A$ acima do lago.",
+     "resposta_oficial": "$$P = \\frac{Q}{\\Delta t} = \\frac{kA\\left(\\theta_{\\text{água}} - \\theta_{\\text{ar}}\\right)}{e} = \\frac{\\left(2{,}2\\ \\text{W/m}\\ ^\\circ\\text{C}\\right) \\times \\left(50\\times10^6\\ \\text{m}^2\\right) \\times \\left(15\\ ^\\circ\\text{C}\\right)}{5{,}0\\ \\text{m}} = 3{,}3\\times10^8\\ \\text{W}.$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q13",
+   "numero": 13,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O jogo de malha, bastante popular no interior do estado de São Paulo, foi trazido ao Brasil por imigrantes portugueses no século XIX. Consiste em arremessar um disco metálico com o objetivo de derrubar um pino de madeira localizado na extremidade oposta de uma pista plana, horizontal e uniforme.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um jogador lança o disco obliquamente a partir do solo, em um ângulo de $30^\\circ$ com a horizontal, atingindo o chão a uma distância $D = 36\\ \\text{m}$ do ponto de lançamento. Qual o módulo $v_0$ da velocidade do disco no instante do arremesso?\n\nDado: $\\text{sen}\\,30^\\circ = 0{,}5;\\ \\cos 30^\\circ \\simeq 0{,}9;\\ \\tan 30^\\circ \\simeq 0{,}6.$\n\n![Jogador lançando o disco com velocidade v0 a 30° com a horizontal; a trajetória tracejada termina a uma distância D = 36 m do ponto de lançamento](fig:p15-f2)",
+     "resposta_oficial": "Do enunciado, temos:\n\n$$y = y_0 + v_{0,y}t + \\frac{1}{2}at^2 \\quad \\text{e} \\quad x = x_0 + v_{0,x}t$$\n\ne\n\n$\\left(v_{0,y} = v_0\\,\\text{sen}\\,30^\\circ = 0{,}5\\ v_0 \\quad \\text{e} \\quad v_{0,x} = v_0\\cos 30^\\circ = 0{,}9\\ v_0\\right)$\n\nEm $y$, temos:\n\n$$y = y_0 + v_{0,y}t + \\frac{1}{2}at^2 = 0.5v_0t + 5t^2 = t\\left(0.5v_0 + 5t\\right) = 0$$\n\nque possui duas soluções:\n\n$$t_1 = 0 \\ \\text{ e } \\ t_2 = \\frac{v_0}{10}$$\n\nE, em $x$, temos:\n\n$$x = x_0 + v_{0,x}t = 36 = 0 + 0{,}9v_0t \\Rightarrow t_2 = \\frac{40}{v_0}.$$\n\nAssim:\n\n$$t_2 = \\frac{40}{v_0} = \\frac{v_0}{10} \\Rightarrow v_0^2 = 400 \\Rightarrow v_0 = 20\\ \\text{m/s}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em outra jogada, o disco é lançado rente ao solo com uma velocidade inicial $v_0 = 16\\ \\text{m/s}$, percorrendo uma distância $d = 25{,}6\\ \\text{m}$ até parar completamente. Qual é o coeficiente de atrito cinético, $\\mu_c$, entre o disco e a pista?\n\n![Jogador lançando o disco rente ao solo com |v0| = 16 m/s; o disco para, com |v| = 0, depois de percorrer d = 25,6 m](fig:p15-f3)",
+     "resposta_oficial": "Podemos escrever que a força de atrito é dada por $f_{at} = -ma_x = mg\\mu_c \\Rightarrow a_x = -\\mu_c g.$\n\nComo\n\n$$v_x^2 = v_{0,x}^2 + 2a_xd = v_{0,x}^2 - 2\\mu_c gd = 0,$$\n\ntemos:\n\n$$\\mu_c = \\frac{v_{0,x}^2}{2gd} = \\frac{16^2}{2\\times10\\times25{,}6} = 0{,}5.$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q14",
+   "numero": 14,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Fibras ópticas são fibras feitas com materiais transparentes como o vidro ou plástico, amplamente utilizadas na transmissão de dados. Uma outra aplicação importante das fibras ópticas é no desenvolvimento de sensores. Por exemplo, uma fibra óptica com uma microestrutura periódica no seu núcleo reflete luz em apenas um comprimento de onda $(\\lambda_B)$, sendo que a luz não refletida continua seu caminho. O comprimento de onda refletido é dado por $\\lambda_B = 2n\\Lambda$, sendo $n$ o índice de refração do núcleo da fibra e $\\Lambda$ o período da microestrutura. Essa característica é explorada para monitoramento de deformações mecânicas, pois $\\Lambda$ varia quando a fibra é esticada, produzindo uma variação $\\Delta\\lambda_B$ no comprimento de onda da luz refletida. Observa-se que $\\dfrac{\\Delta\\lambda_B}{\\lambda_B} = \\mu\\Delta\\varepsilon$, sendo $\\Delta\\varepsilon$ a variação relativa do comprimento da fibra, e $\\mu$ uma constante característica do sensor. O gráfico no espaço de respostas mostra a curva de $\\Delta\\lambda_B$ em função de $\\Delta\\varepsilon$ obtida na caracterização de um sensor para o qual $n = 1{,}5$ e $\\Lambda = 3\\times10^{-7}\\ \\text{m}$. Encontre a constante característica $\\mu$ desse sensor.\n\n![Gráfico de Δλ_B (10⁻¹² m) em função de Δε (10⁻⁶), com pontos medidos e uma reta rotulada “linha para guia visual”](fig:p16-c2)",
+     "resposta_oficial": "Das expressões fornecidas no enunciado $\\lambda_B = 2n\\Lambda$ e $\\dfrac{\\Delta\\lambda_B}{\\lambda_B} = \\mu\\Delta\\varepsilon$, temos:\n\n$$\\mu = \\frac{\\Delta\\lambda_B}{\\lambda_B}\\frac{1}{\\Delta\\varepsilon} = \\frac{1}{2n\\Lambda}\\left(\\frac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right).$$\n\nUsando os dados fornecidos no gráfico para obter $\\left(\\dfrac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right)$, chegamos a:\n\n$$\\mu = \\frac{1}{2n\\Lambda}\\left(\\frac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right) = \\frac{1}{2\\times1{,}5\\times3\\times10^{-7}\\ \\text{m}}\\left(\\frac{750\\times10^{-12}}{10^3\\times10^{-6}}\\right) = \\frac{0{,}75\\times10^{-6}\\ \\text{m}}{2\\times1{,}5\\times3\\times10^{-7}\\ \\text{m}} = 0{,}83.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "*Strain-gauges* (extensômetros) são sensores muito empregados em engenharia para medir a deformação de estruturas. Usualmente são resistores elétricos, fixados na estrutura, que sofrem, com a deformação, variação na sua resistência elétrica. O esquema da figura ao lado mostra um circuito elétrico com fonte de tensão $V_0 = 24\\ \\text{V}$ e quatro sensores dispostos numa estrutura. Com a deformação, dois deles têm sua resistência elétrica aumentada, passando de $R = 100\\ \\Omega$ para $R + \\Delta R$, enquanto que os outros dois têm a resistência elétrica reduzida de $R = 100\\ \\Omega$ para $R - \\Delta R$. Antes da deformação $(\\Delta R = 0)$, $\\Delta V = V_\\text{a} - V_\\text{b} = 0$. Encontre $\\Delta V$ após uma deformação que produz uma variação $\\Delta R = 0{,}25\\ \\Omega$.\n\n![Circuito com a fonte V0 e quatro resistores: R − ΔR e R + ΔR no ramo da esquerda, com o terminal Va entre eles; R + ΔR e R − ΔR no ramo da direita, com o terminal Vb entre eles](fig:p16-f3)",
+     "resposta_oficial": "Como\n\n$$V_a = V_0\\frac{R + \\Delta R}{(R + \\Delta R) + (R - \\Delta R)} = V_0\\frac{R + \\Delta R}{2R}$$\n\ne\n\n$$V_b = V_0\\frac{R - \\Delta R}{(R + \\Delta R) + (R - \\Delta R)} = V_0\\frac{R - \\Delta R}{2R},$$\n\ntemos\n\n$$\\Delta V = V_a - V_b = \\left(V_0\\frac{R + \\Delta R}{2R}\\right) - \\left(V_0\\frac{R - \\Delta R}{2R}\\right) = V_0\\frac{2\\Delta R}{2R} = 24\\ \\text{V}\\,\\frac{0{,}25\\ \\Omega}{100\\ \\Omega} = 0{,}06\\ \\text{V} = 60\\ \\text{mV}.$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q15",
+   "numero": 15,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O concreto tem alta tendência a formar fissuras que reduzem sua vida útil e elevam custos de reposição. A autocura do concreto convencional é o preenchimento de suas fissuras, o que ocorre a partir da hidratação do óxido de cálcio presente na composição do próprio concreto. A hidratação produz hidróxido de cálcio, que reage com o dióxido de carbono presente na atmosfera ambiente. O bioconcreto, um novo produto no mercado, é caracterizado pela presença de bactérias cujas cargas negativas em sua superfície atraem íons metálicos positivos que precipitam com ânions do ambiente do concreto; forma-se, com isso, um sólido pouco solúvel, responsável por fechar as fissuras (figura ao lado).\n\n![Ilustração de uma bactéria cercada por íons rotulados 2+ e 2−, com um sólido cinza depositado em uma de suas extremidades](fig:p17-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A partir do texto acima, equacione os processos químicos descritos na autocura do concreto convencional. Forneça o nome do produto que promove a reparação das fissuras e comente sobre sua solubilidade em água.",
+     "resposta_oficial": "$\\text{CaO} + \\text{H}_2\\text{O} = \\text{Ca(OH)}_2$\n\n$\\text{Ca(OH)}_2 + \\text{CO}_2 = \\text{CaCO}_3 + \\text{H}_2\\text{O}$\n\nO produto que promove a reparação das fissuras é o carbonato de cálcio ($\\text{CaCO}_3$), um sólido pouco solúvel em água."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em relação aos ânions do ambiente na autocura do bioconcreto, um texto científico relata: *“Em pH mais alto, as espécies carbonatadas estão desprotonadas. Como resultado, mais carbonato (*$\\text{CO}_3^{2-}$*) está disponível para precipitação. Da mesma forma, o grupo fosfato (*$\\text{PO}_4^{3-}$*) estará sujeito a mudanças na protonação, dependendo do pH do meio. O grupo sulfato (*$\\text{SO}_4^{2-}$*) normalmente estará desprotonado devido aos seus baixos valores de pKa. Assim, a precipitação em pH baixo é possível, mas se aplica, no ambiente do concreto, principalmente ao fosfato e ao sulfato.”* Equacione os equilíbrios ácido-base em que, necessariamente, apareçam esses ânions. Comente comparativamente os valores de pKa do ácido associado ao carbonato com os ácidos associados ao sulfato e ao fosfato.",
+     "resposta_oficial": "Os equilíbrios ácido-base associados aos ânions citados no texto são:\n\n$\\text{CO}_3^{2-} + \\text{H}_3\\text{O}^+ = \\text{HCO}_3^- + \\text{H}_2\\text{O}$\n\n$\\text{PO}_4^{3-} + \\text{H}_3\\text{O}^+ = \\text{HPO}_4^{2-} + \\text{H}_2\\text{O}$\n\n$\\text{SO}_4^{2-} + \\text{H}_3\\text{O}^+ = \\text{HSO}_4^- + \\text{H}_2\\text{O}$\n\nDe acordo com o texto, o ânion carbonato ($\\text{CO}_3^{2-}$) está disponível em valores de pH mais elevados enquanto os ânions sulfato ($\\text{SO}_4^{2-}$) e fosfato ($\\text{PO}_4^{3-}$) estão disponíveis em valores de pH menores. Portanto, pode se concluir que o ácido $\\text{HSO}_4^-$ e o ácido $\\text{HPO}_4^{2-}$ são ácidos mais fortes (apresentam maiores valores de Ka) que o ácido $\\text{HCO}_3^-$. Deste modo, o pKa do ácido $\\text{HCO}_3^-$ tende a ser maior do que dos ácidos $\\text{HPO}_4^{2-}$ e $\\text{HSO}_4^-$.\n\n*Observação:* considerações semelhantes levando em conta $\\text{H}_2\\text{CO}_3$, $\\text{H}_2\\text{SO}_4$ e $\\text{H}_3\\text{PO}_4$ serão igualmente aceitas."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q16",
+   "numero": 16,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em um artigo científico, os autores apresentam a figura **A** com o objetivo de resumir os aspectos mais importantes de um estudo realizado.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A partir da figura **A**, indique a finalidade do experimento, nomeie o processo de transformação e descreva como o experimento foi conduzido. Não deixe de citar aspectos químicos representados pelos elementos gráficos da figura.\n\n![Figura A: à esquerda, objetos de plástico (garrafa com símbolo de reciclagem, sacola com cadeia carbônica e frasco); no centro, uma seta com o texto “Em solvente”, uma cadeia de hidrocarboneto, o símbolo Ru e moléculas pequenas; à direita, um barril de combustível, um avião e um caminhão](fig:p18-c1)",
+     "resposta_oficial": "A finalidade do experimento é transformar materiais poliméricos (plástico descartado), que apresentam uma cadeia orgânica longa, em combustível, que possui uma cadeia orgânica menor. O experimento consiste em quebrar as cadeias poliméricas utilizando um reagente de Ru, que atua como um catalisador da reação. O processo consiste em um craqueamento catalítico empregando um solvente."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A figura **B** mostra alguns resultados obtidos no referido trabalho. Tendo em vista os dados apresentados, proponha a pressão que deve ser escolhida para a produção com maior proporção de hidrocarbonetos mais leves. Justifique sua escolha.\n\n![Figura B: gráfico de barras empilhadas da distribuição de produto (%) em função da pressão de H2 (bar), de 0 a 60, com as frações C8-C16, C17-C22 e C23-C38](fig:p18-c2)",
+     "resposta_oficial": "Deve ser escolhida a pressão de 20 ou 30 bar. Para ambas as pressões, não se observa a produção da fração mais pesada (C23-C28), sendo que as pressões apresentam uma maior proporção de hidrocarbonetos leves (C8-C16), em torno de 80%."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q17",
+   "numero": 17,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nos últimos tempos, os consumidores observaram que, nas gôndolas dos supermercados, apareceram vários produtos alternativos derivados de leite, como as bebidas lácteas. Matéria veiculada recentemente em portal de notícias questiona: “Essas bebidas lácteas são saudáveis?”. O entrevistado responde: “O soro de leite pode ser consumido como leite sem problema, já que é similar ao leite desnatado, porém sem gordura”. A reportagem traz ainda uma série de informações sobre a composição do leite, do soro e de uma bebida láctea,conforme apresentado na tabela 1.\n\n![Tabela comparando leite, soro e bebida láctea para 1 copo de 200 mL. Tabela 1, em proteínas (g), gorduras (g), lactose (g) e cálcio (mg): leite integral 6,6; 8,0; 9,8; 280. Soro 1,5; 0,5; 9,8; 70. Bebida láctea\\* 2,4; 4,0; 9,8; 95. Tabela 2: leite desnatado\\*\\* 5,8; 1,0; 10; 260](fig:p19-c1)\n\n\\*A composição da bebida láctea foi calculada considerando uma mistura de 60% de soro de leite e 40% de leite integral.\n\n\\*\\*Dados obtidos a partir do rótulo de um produto comercializado.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com base nas informações das duas tabelas, você <u>concorda totalmente</u>, <u>concorda parcialmente</u> ou <u>discorda</u> da declaração atribuída ao entrevistado? Justifique sua resposta.",
+     "resposta_oficial": "Concordo parcialmente, pois o soro é similar ao leite desnatado quanto ao teor de lactose, possuindo baixo percentual de gordura, o que vai ao encontro da afirmação do texto. No entanto, os teores de proteína e cálcio são diferentes nas duas bebidas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando que os dados da bebida láctea tenham sido calculados em conformidade com o que se informa no rodapé da tabela 1, e que os outros dados dessa tabela estejam corretos, há algum erro nos dados da bebida láctea? Justifique.",
+     "resposta_oficial": "O cálculo considera, na composição, 60 % de soro e 40% de leite integral. Deste modo, para verificar se os dados estão coincidentes, é necessário realizar o cálculo da média ponderada para cada nutriente, seguindo a seguinte relação:\n\n*Quantidade de nutriente* = {[0,6 x (quantidade presente no soro)] + [0,4 x (quantidade presente no leite integral)]}.\n\nPara cada nutriente temos:\n\n*Proteínas* = {[0,6 x (1,5)] + [0,4 x (6,6)]} = 3,5\n\n*Gorduras* = {[0,6 x (0,5)] + [0,4 x (8,0)]} = 3,5\n\n*Lactose* = {[0,6 x (9,8)] + [0,4 x (9,8)]} = 9,8\n\n*Cálcio* = {[0,6 x (70)] + [0,4 x (280)]} = 154\n\nPortanto, sim, há erro nos dados em relação às quantidades de proteínas, gorduras e cálcio."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q18",
+   "numero": 18,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A linha do tempo ao lado apresenta eventos que ocorreram mundialmente com o objetivo comum de tentar estabelecer acordos entre os diferentes países para a mitigação de problemas ambientais – e algumas normativas (ações) adotadas no âmbito brasileiro (caixas de texto).\n\n![Linha do tempo em forma de seta com os eventos Eco – 92, Rio + 10, Rio + 20 e COP – 27 (este com um ponto de interrogação). Caixas de texto: 1992, obrigatoriedae no uso de catalisadores automotivos; 2003, venda de automóveis com motor a álcool e gasolina (flex); 2012, redução do teor de enxofre no diesel para 10 ppm](fig:p20-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite um benefício, do ponto de vista da diminuição de problemas ambientais, obtido com cada uma das ações apontadas na linha do tempo. Proponha uma ação na mesma direção das ações adotadas anteriormente e justifique seu benefício no contexto atual.",
+     "resposta_oficial": "*Linha do tempo:*\n\n*1992:* a transformação de gases poluentes liberados pelo motor (como CO, $\\text{NO}_x$ e $\\text{C}_x\\text{H}_y$) em compostos menos prejudiciais (como $\\text{CO}_2$, $\\text{H}_2\\text{O}$ e $\\text{N}_2$).\n\n*2003:* uso de combustível de fonte renovável, contribuindo para a redução na emissão de $\\text{CO}_2$ (combustível de carbono neutro ou combustível neutro em carbono).\n\n*2012:* redução de enxofre no diesel e concomitante diminuição na emissão de $\\text{SO}_x$ ($\\text{SO}_2$).\n\n*2022:* uso de $\\text{H}_2$ (verde) como combustível, substituição de motores a combustão por motores elétricos, emprego de células a combustível (como exemplos de ações benéficas)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Já em 1828, o cientista José Bonifácio de Andrada e Silva, conhecido como Patriarca da Independência, escreveu: “*Nossas preciosas matas desaparecem, vítimas do fogo e do machado, da ignorância e do egoísmo. Sem vegetação, nosso belo Brasil ficará reduzido aos desertos áridos da Líbia. Virá então o dia em que a ultrajada natureza se ache vingada de tantos crimes*”. Associe a visão de José Bonifácio a exemplos de atividades humanas e aponte, para cada atividade, o(s) gás(es) gerado(s), em conformidade com a figura ao lado.\n\n![Ilustração de uma paisagem com três emissões de gases rotuladas CH4, NO2 e CO2](fig:p20-f4)",
+     "resposta_oficial": "O “poema de José Bonifácio se contemporiza pelas queimadas (fogo) e pelo desmatamento (machado). Exemplos de ações humanas geradoras dos gases incluem:\n\n● produção de carvão vegetal: geração de $\\text{CO}_2$;\n● expansão imobiliária e ocupação do solo: geração de $\\text{CO}_2$;\n● produção de energia hidrelétrica: não captura de $\\text{CO}_2$ e geração de $\\text{CH}_4$;\n● expansão agropecuária, produção de alimentos e biocombustíveis: não captura de $\\text{CO}_2$, emissão de $\\text{CH}_4$ e $\\text{NO}_2$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q19",
+   "numero": 19,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um estudo realizado em 2021 identificou que a troca de um dos aminoácidos da proteína Spark do novo coronavírus pode ser um dos fatores que influencia uma maior taxa de contágio em uma de suas mutações. Na troca, o aminoácido asparagina (Asn) da posição 501 é substituído por tirosina (Tyr). Essa troca faz com que a cadeia da proteína Spark alterada (Y501) interaja com a cadeia proteica das células receptoras diferentemente de como interage a cadeia da proteína original (N501). A figura ao lado ilustra parte das interações intermoleculares entre os receptores celulares e a proteína do vírus original (N501) e a da mutação (Y501).\n\n![Dois diagramas, N501 e Y501, com colunas “Receptor celular” e “Proteína Spark”: aminoácidos representados por elipses coloridas e ligados por linhas azuis (ligações de hidrogênio) e por linhas tracejadas alaranjadas (interações de Van der Walls)](fig:p21-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Identifique as diferenças nas interações intermoleculares entre os aminoácidos citados na troca e os aminoácidos do receptor celular. Justifique a alteração na taxa de contágio, considerando apenas mudanças nas energias das interações intermoleculares.",
+     "resposta_oficial": "No vírus que não sofreu a mutação, a asparagina (Asn) da posição 501 realiza interações de Van der Walls com outros dois aminoácidos. Na mutação indicada na figura pela descrição Y501, a tirosina (Tyr) na posição 501 realiza, além de interações de Van der Walls, uma ligação de hidrogênio. A energia da ligação de hidrogênio é maior do que nas interações de Van der Waals, o que faz com que o vírus interaja mais fortemente com o receptor celular, tendo maior possibilidade de entrar na célula."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando apenas a tirosina (Tyr501), explique e represente como esse aminoácido se liga ao seu vizinho (Tyr449) na proteína *Spark*. Escolha **<u>um</u>** dos tipos de interações que ocorrem entre a (Tyr501) e a (Lys353) do receptor celular e explique e represente como essa interação se estabelece.\n\n![Fórmulas estruturais da Tirosina e da Lisina](fig:p21-f4)",
+     "resposta_oficial": "A interação entre a tirosina (501) e o aminoácido vizinho, também tirosina (449), é uma ligação química que faz parte da estrutura da proteína, proteína esta denominada ligação peptídica, que se estabelece entre o N do grupo amina de um dos aminoácidos e o O do grupo carboxila de outro aminoácido:\n\n![Reação entre duas moléculas de tirosina: o OH do grupo carboxila de uma e o H do grupo amina da outra (circulados) são retirados, formando o dipeptídeo, com a ligação peptídica (grupo C(=O)NH) circulada](fig:r09-c1)\n\nA interação da tirosina da proteína Spark com a lisina do receptor é uma interação entre moléculas (forças intermoleculares, sendo: ligação de hidrogênio e interações de Van der Waals):\n\n![Duas representações da tirosina e da lisina, com uma linha pontilhada vermelha entre o OH do grupo carboxila da tirosina e a lisina (esquerda) e entre o HO do anel da tirosina e o grupo carboxila da lisina (direita)](fig:r09-c2)"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2023-2-cet-q20",
+   "numero": 20,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Apesar dos benefícios de proteção que o uso de cosméticos e bloqueadores solares traz à pele, sua presença também se conecta a problemas ambientais e de saúde. Para evitar reaplicações desnecessárias de bloqueadores de UV, a permeabilidade do princípio ativo na pele deve ser relativamente baixa. Essa permeabilidade pode ser descrita quantitativamente pelo coeficiente de permeabilidade, $K_p$ (cm/s), que pode ser calculado a partir da massa molar $M$ do produto químico e de seu coeficiente de partição $K_{ow}$ = [soluto em octanol] / [soluto em água]. A relação empírica entre essas grandezas é dada pela equação:\n\n$$\\log K_p = 0{,}71\\,\\log K_{ow} - 0{,}0061\\,M - 6{,}3$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "De acordo com esse modelo matemático, discuta, do ponto de vista quantitativo, como a massa molar e a hidrofobicidade do princípio ativo se correlacionam com o tempo de reaplicação do protetor.",
+     "resposta_oficial": "Os valores de Kp devem ser baixos para que ocorra uma baixa permeabilidade. Deste modo, de acordo com o modelo matemático, a massa molar M deve ser elevada e o valor de Kow deve ser baixo (o que significa maior hidrofobicidade). Quanto menor o valor de Kp, menor a suscetibilidade de exposição sistêmica ao produto. Sendo este valor baixo, será necessária a reaplicação do protetor em intervalos de tempo maiores."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Acredita-se que a presença de compostos per- e poli-fluoroalquis (PFAS) em cosméticos pode aumentar o conforto de uso, a durabilidade e a capacidade de espalhamento do cosmético. Sua presença em cosméticos, no entanto, pode vir de transformações de outros componentes presentes e não da adição intencional. A figura ao lado ilustra um trabalho sobre a presença dos PFAS em cosméticos. Interprete a figura levando em conta as informações dadas.\n\n![Ilustração com um rosto, com setas partindo dos olhos, do nariz e da boca e o rótulo PFAS; silhuetas com trajetos de ingestão e de respiração; cosméticos (rímel, base e batom); e um caminhão descartando resíduos no solo, com setas indicando contaminação da água](fig:p22-f2)",
+     "resposta_oficial": "A figura representa possíveis contaminações pelos componentes dos cosméticos às quais o ser humano pode estar exposto bem como a preocupação com o uso e o descarte das embalagens contendo resíduos do produto. Tais contaminações incluem:\n\n− Contaminação direta pela aplicação (olhos, respiração e ingestão);\n− Contaminação indireta pela ingestão da água que foi contaminada pelo descarte dos produtos no ambiente."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  }
+ ]
+}

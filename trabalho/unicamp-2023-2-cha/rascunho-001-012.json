@@ -1,0 +1,228 @@
+{
+  "edicao": "unicamp-2023-2-cha",
+  "intervalo": [
+    1,
+    12
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 1,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em uma pesquisa realizada pela Microsoft, 31 mil pessoas foram entrevistadas sobre como consideram a relação saúde e bem estar frente ao trabalho. Mais especificamente, os participantes deveriam responder SIM ou NÃO para a seguinte pergunta: *“Depois do surgimento da pandemia do COVID-19, você passou a priorizar mais a saúde e o bem estar, se comparados ao seu trabalho, do que priorizava antes?”* Abaixo encontram-se os gráficos obtidos com as respostas.\n\n(Adaptado de http://www.microsoft.com/en-us/worklab/work-trend-index/great-expectations-making-hybrid-work. Acesso em 02 de maio de 2022.)\n\n![Gráfico de barras com o percentual de respostas Sim e Não, por região e no total global](fig:p03-c3)\n\n![Gráfico de setores com a distribuição dos respondentes por região](fig:p03-c2)\n\nConsidere que a distribuição dos respondentes por regiões esteja representada no gráfico ao lado para responder às questões a seguir.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "De acordo com as informações fornecidas pelos gráficos apresentados, qual das regiões conta com a maior porcentagem de pessoas que responderam SIM? Em qual das regiões a porcentagem de pessoas que responderam SIM mais se aproximou da porcentagem respectiva para a população global?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Quantos respondentes são da Austrália e Nova Zelândia? Quantos respondentes da Austrália e Nova Zelândia responderam SIM?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 2,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Numa festa junina que aconteceu em 2022 e durou três dias, a Barraca do Seu Pitágoras vendeu três produtos: cachorro-quente, pastel e sanduíche. As quantidades vendidas de cada produto estão indicadas na tabela abaixo.\n\n| Produto | Vendas no 1º dia | Vendas no 2º dia | Vendas no 3º dia |\n|---|---|---|---|\n| Sanduíche | 10 | 0 | 20 |\n| Pastel | 20 | 20 | 40 |\n| Cachorro-quente | 0 | 40 | 20 |\n\nNo primeiro dia, o total arrecadado com as vendas foi de R\\$ 500,00; no segundo, foi de R\\$ 1.000,00; e, no terceiro, de R\\$ 1.300,00.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Na festa junina de 2021, esta mesma barraca arrecadou R\\$ 2.240,00. De quanto foi o acréscimo percentual no valor arrecadado, comparando as arrecadações de 2021 e 2022?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Rodrigo comprou uma unidade de cada produto vendido pelo Seu Pitágoras. Quanto ele pagou no total?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 3,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Numa pesquisa realizada com 9.000 jovens norte-americanos que utilizam redes sociais, foi constatado que 73% utilizam o TikTok, 81% utilizam o Instagram e 77% utilizam o Snapchat. Considerando os jovens que responderam ao questionário,",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "qual a quantidade dos que não utilizam TikTok?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "qual o menor número possível de jovens que utilizam ambas as redes Instagram e Snapchat?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 4,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sejam $a, b \\in \\mathbb{R}$ com $a \\neq 0$ e $f(x) = ax^2 + bx - 3$ uma função polinomial.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Determine $a, b$ de forma que o vértice da parábola $y = f(x)$ seja $(-1, -4)$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Para $a = -2$, determine todos os valores de $b$ de forma que a parábola e a reta $y = 2x - 1$ se interceptem em dois pontos distintos."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 6,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma pesquisadora está testando o efeito de um medicamento em uma bactéria. Sabe-se que a função que descreve a quantidade de bactérias vivas na amostra em um tempo $t$, dado em minutos, é $Q(t) = C \\cdot 10^{-bt}$, com $b$ e $C$ dependendo de características da bactéria e do medicamento.\n\nDados: $\\log_{10} 2 \\approx 0{,}3$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Para uma certa amostra com 5 milhões de bactérias, verificou-se que, nos primeiros 10 minutos, 9/10 da quantidade de bactérias na amostra morreram. Qual é a quantidade de bactérias vivas que restaram após 20 minutos?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Numa outra amostra, onde foi descoberto experimentalmente que $b = 3$, quanto tempo levará para que a quantidade de bactérias fique reduzida à metade?"
+        }
+      ],
+      "observacoes": "Resposta do item b: no PDF oficial a equação está corrompida (aparece '-□log log 2 =-3t, ou seja, t=2 )1/3≈0,1'). Transcrevi como $-\\log 2 = -3t$ e $t = \\frac{\\log 2}{3} \\approx 0{,}1$, que é a leitura que o contexto impõe; conferir contra o original."
+    },
+    {
+      "numero": 9,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Mapa do Mar da China Meridional, com a área reivindicada pela China indicada por linha tracejada e a localização das Ilhas Paracel, das Ilhas Spratly e do Recife Scarborough Shoal](fig:p11-c2)\n\n(Adaptado de: https:www.dw.com/pt-br/zeitgeist-a-crescente-tensao-no-mar-da-china-meridional/a-37535015. Acesso em 18/10/2022.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Aponte dois conflitos geopolíticos envolvendo a China e os Estados Unidos (EUA) e que estão situados na região destacada no mapa. Explique os interesses envolvidos em cada um deles."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Que recursos naturais são disputados no Mar da China Meridional e quais os principais produtos transportados por navegação na região?"
+        }
+      ],
+      "observacoes": "O endereço da fonte impressa no caderno é 'https:www.dw.com/...' (sem as duas barras); mantido como no original. Na resposta oficial do item a, 'localização estratégia' (sic) foi mantido."
+    },
+    {
+      "numero": 10,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No sistema westfaliano de Estado, a soberania estava ligada ao controle sobre o território nacional. Hoje, no entanto, o dinheiro cada vez mais digital é indicativo de um mundo pós-westfaliano em que se diminui radicalmente o poder do Estado-nação. Em grande parte, o poder migrou do domínio público para o privado, aumentando consideravelmente a influência dos senhores das finanças. Muitas vezes, a instabilidade financeira e a desigualdade surgem como resultados desse arranjo. Longe de justificar argumentos exagerados que proclamam o fim da geografia, o mundo do dinheiro digital deu origem a novas espacialidades. É nesse ambiente que prosperam, por exemplo, os Centros Financeiros Offshore, popularmente conhecidos como paraísos fiscais.\n\n(Adaptado de WARF, B. Digitalização, globalização e capital financeiro hipermóvel. *Geousp – Espaço e Tempo*, v. 21, n. 2, p. 397-406, 2017.)\n\nCom base no texto acima e em seus conhecimentos,",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "apresente ao menos duas características definidoras dos Centros Financeiros *Offshore*. Quais sistemas técnicos de telecomunicações sustentam hoje a circulação do dinheiro digital, articulando globalmente os centros financeiros?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Dê dois exemplos de lugares que exercem essa função nas finanças globalizadas e explique por que a proliferação de paraísos fiscais ameaça a soberania dos Estados nacionais e aprofunda as desigualdades sociais."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 11,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os Censos Agropecuários (IBGE) apresentam informações relevantes para apoiar a construção de políticas públicas, tais como as que constam na tabela abaixo.\n\n![Tabela: População ocupada e uso de maquinários agrícolas no campo brasileiro – de 1995 a 2017, segundo os Censos Agropecuários de 1995, 2006 e 2017](fig:p13-c1)\n\n(Fonte: Adaptado dos Censos Agropecuários de 1995, 2006 e 2017.)\n\nConsidere os dados da tabela e seus conhecimentos para responder às questões a seguir.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Analisando a evolução dos dados, indique dois fenômenos que se destacam: um de ordem técnica e outro de ordem social. Quais as consequências para o território brasileiro decorrentes desses fenômenos?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Aponte duas ações do Estado Brasileiro que contribuíram para a modernização técnica do campo. Explique por que, mesmo diante do avanço da modernização e do consequente aumento da produção de alimentos, a fome ainda persiste no país."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir apresenta quatro tipos de chuva com relação à sua gênese. Cada tipo é resultante do processo que controla os movimentos de ascensão do ar e da umidade, geradores das nuvens que ocasionam precipitação.\n\n![Quatro esquemas numerados de 1 a 4, com os tipos de chuva: 1, ar quente subindo; 2, correntes de ar convergindo junto à superfície; 3, frente entre ar quente e ar frio; 4, ar subindo uma montanha, com a indicação Sombra de Chuva](fig:p14-c1)\n\n(Adaptado de PETERSEN, J. F. *et al.* *Fundamentos de Geografia Física*. São Paulo: Cengage Learning, p. 114, 2014.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Indique duas características do tipo de chuva 1, considerando que, na sua gênese, formam-se as nuvens *cumulonimbus*. Por que o tipo de chuva 2 ocorre na Zona de Convergência Intertropical? Em que época do ano esse tipo de chuva 2 pode atingir o semiárido nordestino?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Que dinâmica atmosférica é responsável pela gênese do tipo de chuva 3 e em que estação do ano esse tipo de chuva é mais frequente no território brasileiro? Qual a influência do tipo de chuva 4 na distribuição da vegetação nas duas faces do Planalto da Borborema?"
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "1": {
+      "itens": {
+        "a": "O estudante deverá comparar os valores que estão indicados no primeiro gráfico, entre as seis barras, e perceber que a América Latina tem a maior porcentagem de pessoas que responderam “sim”.\nNa segunda parte, precisará comparar novamente os valores com o valor da primeira barra e obterá que a opção Ásia/Ilhas do Pacífico, que tem percentual de 57%, é a que mais se aproxima da média global, de 55%.",
+        "b": "O estudante deverá analisar o segundo gráfico, identificar o percentual de 15% de respondentes da Austrália e Nova Zelândia e calcular o número de respondentes, levando em conta o total de respondentes de 31 mil pessoas. Obterá 4.650 respondentes. Na segunda parte, deverá utilizar o primeiro gráfico para perceber que 50% destes respondentes escolheram “sim”, ou seja, 2.325 pessoas."
+      }
+    },
+    "2": {
+      "itens": {
+        "a": "O valor arrecadado em 2021 foi de R\\$ 2.240,00, como dado no enunciado. O valor arrecadado em 2022 foi de R\\$ 500,00 + R\\$ 1.000,00 + R\\$ 1.300,00, portanto R\\$ 2.800,00. Como $2.800/2.240 = 1{,}25$, este valor foi de 25% maior que o arrecadado em 2021.",
+        "b": "Para obter o valor que Rodrigo gastou, será preciso primeiro calcular o valor de cada um dos pratos vendidos pela barraca. Para isto, precisaremos montar um sistema. Seja $x$ o preço do sanduíche, $y$ o preço do pastel e $z$ o preço do cachorro-quente. Da tabela apresentada, podemos construir o seguinte sistema, que leva em conta os valores vendidos em cada um dos dias:\n$10x + 20y = 500$\n$20y + 40z = 1000$\n$20x + 40y + 20z = 1300$\n\nEsse sistema pode ser resolvido de várias formas, e uma delas é isolar a variável $x$ na primeira equação, obtendo $x = 50 - 2y$, e substituindo nas outras duas equações, obtendo as equações $y + 2z = 50$ e $z = 15$. Logo, $y = 20$ e daí, fazendo a substituição na primeira equação, chegamos a $x = 10$. Portanto, Rodrigo gastou $10 + 15 + 20 = 45$ reais."
+      }
+    },
+    "3": {
+      "itens": {
+        "a": "Como 73% utilizam o TikTok, 27% dos jovens entrevistados não utilizam esta rede social. Como 27% de 9.000 é 2.430, essa é a quantidade de jovens que não utilizam o TikTok.",
+        "b": "Como 81% utilizam o Instagram, somente 19% não o utilizam. Caso estes 19% utilizem o Snapchat, teríamos que 77%-19% utilizam ambas as redes sociais, ou seja, 58%, o que nos dá 5.220 jovens.\nOutra solução: como 77% utilizam o Snapchat, 23% não o utilizam. Se todos os 23% utilizassem o Instagram, teríamos 81%-23% = 58% que usariam ambas as redes sociais."
+      }
+    },
+    "4": {
+      "itens": {
+        "a": "Para que o vértice da parábola seja o ponto indicado, primeiro é necessário obter as coordenadas do vértice, dependendo de $a, b$. Como estas coordenadas são $(-b/2a, -\\Delta/4a)$, onde $\\Delta = b^2 + 12a$, precisamos que $b = 2a$ e $b^2 + 12a = 16a$, ou seja, $b^2 - 4a = 0$, o que nos dá $b^2 - 2b = 0$, ou seja, $b = 0$ ou $b = 2$. Como $b = 0$ leva a $a = 0$, que é uma resposta inválida, segue que $b = 2$ e daí $a = 1$.",
+        "b": "Para que a parábola e a reta se encontrem em dois pontos distintos, precisamos que a equação $-2x^2 + bx - 3 = 2x - 1$ tenha duas soluções distintas. Isto acontecerá se $\\Delta > 0$. Assim, da equação $-2x^2 + (b-2)x - 2 = 0$, obtemos que $\\Delta = (b-2)^2 - 16$. Para que $\\Delta > 0$ devemos ter $b > 6$ ou $b < -2$."
+      }
+    },
+    "6": {
+      "itens": {
+        "a": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C \\cdot 10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b = -1$, o que nos dá $b = 1/10$. Calculando agora para $t = 20$ minutos, temos $Q(20) = 5.000.000 \\cdot 10^{-2} = 50.000$ bactérias.",
+        "b": "Sabendo que $b = 3$, queremos determinar o tempo $t$ para que $C/2 = C \\cdot 10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log 2 = -3t$, ou seja, $t = \\frac{\\log 2}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos."
+      }
+    },
+    "9": {
+      "itens": {
+        "a": "Entre os conflitos existentes na região, destacam-se: a disputa pelo controle da navegação e pela instalação de bases militares no mar do sul da China. Há uma reivindicação da China pela manutenção da soberania territorial das águas marítimas e controle dos arquipélagos localizados na região; os EUA, por seu turno, reivindicam a manutenção da região com o *status* de águas internacionais, o que possibilita a livre navegação; há ainda uma disputa pela área de influência de Taiwan, denominada pela China de “província rebelde”, com a China reivindicando aquele espaço como fazendo parte de seu território nacional. Além disso, os Estados Unidos, que apoiam a independência de Taiwan, têm interesses geopolíticos e econômicos associados à ampliação do comércio internacional com a ilha, sobretudo porque Taiwan possui uma localização estratégia no sul da Ásia – área de intenso fluxo marítimo –, e uma base produtiva industrial de elevada inovação que atende a demanda de diversos setores industriais.",
+        "b": "Entre os recursos naturais disputados no Mar da China Meridional, constam: recursos pesqueiros e reservas de combustíveis fósseis, como petróleo e gás natural. Transportam-se pela região sobretudo produtos industrializados e petróleo e seus derivados."
+      }
+    },
+    "10": {
+      "itens": {
+        "a": "Centros financeiros *Offshore* têm políticas fiscais e regulatórias flexíveis, permitindo a transferência de capital sem tributação e, por isso, atraem grande quantidade de fundos de investimento. São também lugares que concentram sofisticados serviços financeiros. Alguns centros *Offshore* funcionam como paraísos fiscais voltados a burlar completamente as legislações tributárias dos Estados nacionais, permitindo que grandes fortunas individuais e poderosas corporações escapem, por exemplo, da cobrança de impostos. Oferecem aos investidores sigilo e anonimato e podem favorecer atividades ilícitas, como a lavagem do dinheiro derivado do comércio ilegal de armas e drogas. No sistema técnico de telecomunicações que permitem aos fundos eletrônicos cruzarem as fronteiras nacionais com facilidade, destacam-se os seguintes elementos: cabos submarinos, rede de fibra óptica terrestre, satélites, internet; entre outros",
+        "b": "São exemplos: Ilhas Virgens Britânicas, Ilhas Cayman, Bahrein, Bahamas, entre outros. Investimentos em paraísos fiscais são feitos para se burlar as barreiras tributárias dos Estados nacionais, acarretando severa evasão fiscal; desse modo, os governos deixam de regular parte dos fluxos financeiros e arrecadar os impostos necessários à execução de políticas públicas de combate à desigualdade social."
+      }
+    },
+    "11": {
+      "itens": {
+        "a": "A partir dos dados da tabela, observam-se os seguintes fenômenos: de ordem técnica, o aumento da mecanização no processo produtivo agropecuário brasileiro e, de ordem social, a redução do emprego (ou das ocupações) nas áreas rurais. Como consequência, há o aumento do êxodo da população rural em direção às cidades, impulsionando a pobreza e a crise urbana. Além disso, a modernização do campo vem beneficiando, especialmente, os grandes proprietários de terras produtores de *commodities* (como a soja) para atender o mercado externo, entre outras consequências.",
+        "b": "O Estado brasileiro tem sido um importante agente para a modernização técnica do campo no país. A execução de políticas públicas voltadas para a modernização do campo incluiu, entre outros fatores, subsídios agrícolas – sobretudo para os setores de médios e grandes produtores – com ampla política de créditos subsidiados, destinada à aquisição de maquinários e insumos agrícolas. Além disso, foi responsável pela implantação de infraestrutura espacial, especialmente para atender o escoamento da produção, como é o caso de melhoramento de transportes, energia e comunicação. Embora a produção de alimentos tenha aumentado com os importantes investimentos na produção agropecuária, a má distribuição de renda e a falta de uma política estatal permanente de apoio à população para aquisição de alimentos mais baratos dificultam o acesso à dieta alimentar básica por parte das pessoas mais pobres, gerando situação de fome e subnutrição."
+      }
+    },
+    "12": {
+      "itens": {
+        "a": "O tipo de chuva 1 é a chuva convectiva. Destacam-se, como características desse tipo de chuva, o aquecimento do ar próximo à superfície e a formação de precipitações intensas acompanhadas de trovões, relâmpagos e granizo. A chuva 2, por sua vez, é denominada de chuva ciclônica; é formada pela convergência dos ventos alísios na Zona de Convergência Intertropical (ZCIT). No verão, ocorre um deslocamento da Zona de Convergência Intertropical no sentido sul, coincidindo com áreas do semiárido nordestino.",
+        "b": "O tipo de chuva 3 ocorre quando duas grandes massas de ar que diferem em temperatura, umidade e densidade colidem; a massa de ar mais quente, menos densa, é levantada para cima da massa de ar com ar mais frio. Esse tipo de chuva é mais frequente no inverno. O Planalto da Borborema funciona como uma barreira natural, e força o ar a elevar-se acima dessa barreira. As massas de ar são resfriadas por expansão e, à medida que ascendem sobre os vertentes barlaventos, as chuvas ocorrem, tornando a vegetação dessa área mais densa. A massa de ar, ao se deslocar no sentido da vertente sotavento, desce a encosta e aumenta a temperatura; a condensação cessa, desenvolvendo uma vegetação adaptada a longos períodos de estiagem."
+      }
+    }
+  }
+}

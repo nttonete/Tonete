@@ -1,0 +1,153 @@
+{
+  "edicao": "fuvest-2025-2-d2",
+  "intervalo": [
+    10,
+    18
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 10,
+      "codigo": "F04",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Ondas sísmicas são ondas que se propagam em camadas de rochas no interior do manto da Terra. Essas ondas podem ser longitudinais (como o som, por exemplo) ou transversais (como as ondas que se propagam em uma corda). Um tipo de onda sísmica transversal é a chamada *onda secundária* (ou “onda S” ou “onda de cisalhamento”) e sua velocidade é dada por\n\n$$v_S = \\sqrt{\\frac{\\mu}{\\rho}}\\,,$$\n\nem que $\\mu$ é o módulo de cisalhamento e $\\rho$ é a densidade (ou massa específica), parâmetros da rocha em que a onda se propaga.\n\n**Note e adote:**\nUnidade de densidade (massa específica) no SI: $\\text{kg/m}^3$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Através de uma análise dimensional, determine a unidade do módulo de cisalhamento $\\mu$ no Sistema Internacional de Unidades (SI)."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Na interface entre dois tipos de rocha, pode haver refração das ondas sísmicas, e a mudança de direção é dada pela Lei de Snell, conforme mostra o exemplo da figura a seguir.\n\n![Duas camadas de rocha, camada 1 acima da camada 2, com o raio incidente, o raio refratado e os ângulos θ1 e θ2 medidos em relação à vertical pontilhada](fig:p12-c1)\n\n$$\\frac{\\text{sen}\\,\\theta_1}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{v_{S2}}$$\n\nVelocidades de ondas S típicas de alguns materiais comuns no manto terrestre são dadas na tabela a seguir.\n\n| Material | Granito | Basalto | Arenito | Calcário | Argila |\n|---|---|---|---|---|---|\n| Velocidade da onda S (m/s) | 2900 | 2600 | 1400 | 2700 | 700 |\n\nFontes: https://gpg.geosci.xyz/content/physical_properties/seismic_velocity_duplicate.html\nhttps://pburnley.faculty.unlv.edu/GEOL452_652/seismology/notes/SeismicNotes10RVel.html\n\nConsidere uma onda S harmônica de frequência 0,3 Hz propagando-se através de uma interface entre duas camadas com composições diferentes.\n\nSe a camada 1 for predominantemente composta por basalto e a camada 2 por granito, qual será a variação no comprimento de onda, $\\lambda_2 - \\lambda_1$?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Em outra interface, são medidos $\\text{sen}\\,\\theta_1 = 0{,}26$ e $\\text{sen}\\,\\theta_2 = 0{,}52$. Se a camada 1 for composta predominantemente de argila, qual será, dentre os materiais apresentados na tabela, aquele que melhor corresponderá à composição da camada 2? Justifique a sua resposta."
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "codigo": "F05",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O “efeito estilingue” é o nome que se dá à modificação do módulo e da direção da velocidade de uma espaçonave quando ela passa nas imediações de um planeta. Ele foi utilizado, por exemplo, para encurtar em mais de 5 anos a duração da viagem da sonda *New Horizons* até Plutão, passando por Júpiter. A figura ao lado ilustra o efeito em uma situação na qual uma sonda de massa 500 kg, viajando inicialmente para a direita, move-se em direção a um planeta de massa $2{,}0\\times10^{27}$ kg que viaja para a esquerda. Como a massa da sonda é desprezível frente à do planeta, a trajetória deste último praticamente não se altera, embora parte de sua energia cinética seja transferida para a sonda. Nos pontos $A$ e $B$ indicados na figura, as distâncias entre a sonda e o planeta são tais que a energia potencial gravitacional associada à interação entre eles pode ser desprezada.\n\n![Gráfico da coordenada y em função da coordenada x, em unidades arbitrárias, com a trajetória da sonda do ponto A ao ponto B e a trajetória do planeta; legendas: “Sonda”, “Planeta”, “planeta se move praticamente em linha reta.” e “velocidade da sonda aumenta pela interação com o planeta”](fig:p14-c1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "No ponto $A$, a velocidade $\\vec{v}_A$ da sonda em relação ao Sol tem apenas componente $x$, dada por 20 km/s, enquanto essa velocidade no ponto $B$ é $\\vec{v}_B$, com componente $x$ igual a -7 km/s e componente $y$ igual a -24 km/s. De quanto foi o aumento no módulo da velocidade da sonda entre esses dois pontos?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Nas mesmas condições do item anterior, determine as componentes $x$ e $y$ do vetor variação da quantidade de movimento da sonda entre os pontos $A$ e $B$, bem como a tangente do ângulo entre esse vetor e o eixo $x$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Nas mesmas condições dos itens anteriores, qual é a razão entre a variação da energia cinética do planeta e sua energia cinética inicial? Suponha que o módulo da velocidade inicial do planeta, em relação ao Sol, fosse de 5 km/s. Despreze a variação da energia potencial gravitacional associada à interação da sonda e do planeta com o Sol durante o processo."
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "codigo": "G04",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "China e Irã estabeleceram acordos econômicos e estratégicos há um ano, reforçando compromissos comerciais em função da Nova Rota da Seda. Segundo o pacto, a China investiria bilhões de dólares no Irã, em setores de petróleo, gás e petroquímica, no sistema de transporte e na infraestrutura fabril. Em troca, a China seria favorecida na compra de petróleo, gás e petroquímicos do Irã, por meio de descontos e outras vantagens econômicas. O acordo permite contornar o sistema dolarizado de pagamentos bancários, controlado pelos Estados Unidos, bem como os embargos implementados contra o Irã. O pacto entre China e Irã também prevê a aproximação deste com a Arábia Saudita, mediada pela China. Em paralelo, cabe destacar o ingresso recente nos BRICS do Irã, Arábia Saudita, Emirados Árabes e Egito, que estabeleceram uma estratégia geopolítica em relação aos EUA e à União Europeia. Em conjunto, essas ações movimentam o eixo geopolítico para a porção mais oriental do globo.\n\n![Infográfico sobre as relações comerciais entre China e Irã: barras horizontais com as exportações chinesas para o Irã (à esquerda) e as exportações iranianas para a China (à direita), em bilhões de dólares, numa escala de 0 a 25, para 1995 e para cada ano de 2004 a 2018, e a linha do tempo dos embargos e sanções, com estas anotações: “Os Estados Unidos impõem um embargo comercial e financeiro ao Irã” (1995); “ONU adota sanções internacionais contra o Irã” (entre 2005 e 2006); “Novas sanções internacionais” (entre 2007 e 2008); “Fortalecimento das sanções” (entre 2009 e 2010); “Eleição de Hassan Rouhani para a presidência iraniana, reeleito em 2017” (entre 2012 e 2013); “Acordo nuclear com o Irã e anúncio da suspensão das sanções” (entre 2014 e 2015); “Saída dos EUA do acordo nuclear e reforço das sanções” (entre 2017 e 2018)](fig:p19-c3)\n\nCarto *Le monde en cartes*, n.63, 2021 (Adaptado).\n\nO infográfico ao lado trata das relações comerciais entre China e Irã entre 1995 e 2018, além de apresentar a linha do tempo dos embargos e sanções econômicas.\n\nRelacione o infográfico com o texto para responder:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Por que o pacto entre China e Irã ameniza as sanções econômicas que ocorrem desde 1995?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando as relações comerciais entre China e Irã, cite uma razão para o fortalecimento das exportações e uma razão para a diminuição destas entre os dois países."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Para além do fornecimento de gás e petróleo do Irã, cite dois interesses geopolíticos da China em reforçar o acordo com o país iraniano."
+        }
+      ]
+    }
+  ],
+  "respostas_corrigidas": {},
+  "complementos": {
+    "10": {
+      "assunto": "Ondulatória"
+    },
+    "11": {
+      "assunto": "Quantidade de movimento"
+    },
+    "12": {
+      "assunto": "Física moderna"
+    },
+    "13": {
+      "assunto": "Geografia do Brasil"
+    },
+    "14": {
+      "assunto": "Geografia do Brasil"
+    },
+    "15": {
+      "assunto": "Geopolítica e conflitos"
+    },
+    "16": {
+      "assunto": "Geopolítica e conflitos"
+    },
+    "17": {
+      "assunto": "Clima"
+    },
+    "18": {
+      "assunto": "Geografia do Brasil"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 10,
+      "status": "corrigida",
+      "notas": "Figura refeita (p12-f2 → p12-c1): o recorte automático trazia no alto um pedaço da linha de texto anterior (“...exemplo da figura a seguir”); descrição ajustada (a vertical é pontilhada). Enunciado, itens e figuras conferidos com a página do caderno (p12); resposta conferida com o documento oficial (r38–r39), sem divergência. Observação do transcritor (parágrafo da Lei de Snell entre os itens a e b): decisão mantida; o trecho abre o texto do item b, o que preserva a ordem do caderno e deixa o item a sem dados que não usa. Contas da banca conferidas: (2900 − 2600)/0,3 = 1000 m; v₂ = 2 · 700 = 1400 m/s → arenito."
+    },
+    {
+      "numero": 11,
+      "status": "corrigida",
+      "notas": "Figura refeita (p14-f2 → p14-c1): o recorte automático cortava a borda de cima e a da direita do quadro do gráfico (o rótulo “2” do eixo x ficava colado na margem). Enunciado, itens e figuras conferidos com a página do caderno (p14); resposta conferida com o documento oficial (r40–r41), sem divergência. Contas da banca conferidas (25 − 20 = 5 km/s; ΔQ = (−13500; −12000) kg·km/s; tg = 8/9; −2,25×10⁻²⁴)."
+    },
+    {
+      "numero": 12,
+      "status": "ok",
+      "notas": "Enunciado, itens e figuras conferidos com a página do caderno (p14); resposta conferida com o documento oficial (r42), sem divergência. Observação do transcritor: no item c o documento traz “a função trabalho , ou seja” (espaço antes da vírgula, provavelmente com o φ omitido); não acrescentamos o φ, por fidelidade; o espaço solto foi normalizado. “ter sido descarregado” (item a) é concordância do original, mantida."
+    },
+    {
+      "numero": 13,
+      "status": "ok",
+      "notas": "Enunciado, itens e figuras conferidos com a página do caderno (p17); resposta conferida com o documento oficial (r45), sem divergência. Matéria extra história mantida (itens b e c cobram economia colonial e mão de obra escrava)."
+    },
+    {
+      "numero": 14,
+      "status": "ok",
+      "notas": "Enunciado, itens e figuras conferidos com a página do caderno (p17); resposta conferida com o documento oficial (r46), sem divergência. “interligação do empreendimentos” nas considerações da banca está assim no documento (mantido). Matéria extra história mantida (item c: contexto da ditadura militar)."
+    },
+    {
+      "numero": 15,
+      "status": "ok",
+      "notas": "Enunciado, itens e figuras conferidos com a página do caderno (p19); resposta conferida com o documento oficial (r47), sem divergência. Observação do transcritor: as legendas “Figura 1” e “Figura 2” ficam dentro dos recortes, como pedem as instruções (o rótulo “Figura N” é parte do desenho); decisão mantida."
+    },
+    {
+      "numero": 16,
+      "status": "atencao",
+      "notas": "Corrigida a descrição do infográfico (p19-c3): o item b depende das anotações da linha do tempo das sanções, que agora estão na descrição, entre aspas, para quem usa leitor de tela. Enunciado, itens e figuras conferidos com a página do caderno (p19); resposta conferida com o documento oficial (r48), sem divergência. Observação do transcritor sobre a posição da figura: mantida. Possível erro da própria banca no item c: a resposta diz que o Irã tem “fronteira entre oito países” e lista sete (Armênia, Azerbaijão, Turcomenistão, Afeganistão, Paquistão, Turquia e Iraque); o Irã faz fronteira terrestre com sete países. Transcrito fielmente, sem alteração; uma pessoa deve decidir se acrescenta nota da plataforma."
+    },
+    {
+      "numero": 17,
+      "status": "ok",
+      "notas": "Enunciado, itens e figuras conferidos com a página do caderno (p21); resposta conferida com o documento oficial (r49), sem divergência."
+    },
+    {
+      "numero": 18,
+      "status": "ok",
+      "notas": "Enunciado, itens e figuras conferidos com a página do caderno (p21); resposta conferida com o documento oficial (r50), sem divergência. Observação do transcritor sobre a posição do mapa: mantida."
+    }
+  ]
+}
