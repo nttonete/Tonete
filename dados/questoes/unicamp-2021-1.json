@@ -724,7 +724,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "A energia cinética total é a soma das energias de todos os pássaros: $E = N \\cdot \\frac{m_p v_0^2}{2}$, e o número de pássaros vem do volume do cilindro vezes a densidade.\n\nVolume: $V = \\pi R_0^2 h \\approx 3 \\cdot (1{,}45 \\times 10^5)^2 \\cdot 100 \\approx 6{,}3 \\times 10^{12}\\ \\text{m}^3$.\n\nNúmero de pássaros: $N = d_p V = 6{,}0 \\times 10^{-7} \\cdot 6{,}3 \\times 10^{12} \\approx 3{,}8 \\times 10^6$.\n\nEnergia de cada pássaro: $\\frac{0{,}5 \\cdot 20^2}{2} = 100\\ \\text{J}$. Total: $E \\approx 3{,}8 \\times 10^6 \\cdot 100 = 3{,}8 \\times 10^8\\ \\text{J}$ (com $\\pi = 3{,}14$ dá cerca de $4 \\times 10^8\\ \\text{J}$; a alternativa mais próxima continua sendo a mesma).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q38",
@@ -741,7 +743,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Todo o calor dissipado fica no chip e vira aumento de temperatura: $Q = m\\,c\\,\\Delta T$.\n\nCuidado com as unidades: $m = 2{,}0 \\times 10^{-6}\\ \\text{g} = 2{,}0 \\times 10^{-9}\\ \\text{kg}$ e $Q = 0{,}96\\ \\text{mJ} = 9{,}6 \\times 10^{-4}\\ \\text{J}$.\n\n$\\Delta T = \\frac{Q}{m\\,c} = \\frac{9{,}6 \\times 10^{-4}}{2{,}0 \\times 10^{-9} \\cdot 800} = \\frac{9{,}6 \\times 10^{-4}}{1{,}6 \\times 10^{-6}} = 600\\ ^\\circ\\text{C} = 6{,}0 \\times 10^2\\ ^\\circ\\text{C}$.\n\nQuem esquece de converter gramas para quilogramas encontra um valor mil vezes menor, fora das alternativas.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q39",
@@ -758,7 +762,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Os trechos A e B estão em paralelo, ligados aos mesmos pontos, então os dois ficam sob a mesma tensão $U = 12\\ \\text{V}$.\n\nNo trecho A: $i_A = \\frac{U}{R_A} = \\frac{12}{24} = 0{,}5\\ \\text{A}$. Logo $i_B = 3 \\cdot 0{,}5 = 1{,}5\\ \\text{A}$.\n\nNo trecho B: $R_B = \\frac{U}{i_B} = \\frac{12}{1{,}5} = 8{,}0\\ \\Omega$. Como os resistores estão em série, $R_{B2} = 8{,}0 - 6{,}0 = 2{,}0\\ \\Omega$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q40",
@@ -775,7 +781,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "resolucao": "Primeiro tiramos o comprimento de onda do diâmetro do feixe dado na figura e depois usamos $c = \\lambda f$.\n\n$d_{\\text{BR}} = 480\\ \\text{nm} \\approx 1{,}2\\,\\lambda_{\\text{BR}} \\Rightarrow \\lambda_{\\text{BR}} = \\frac{480}{1{,}2} = 400\\ \\text{nm} = 4{,}0 \\times 10^{-7}\\ \\text{m}$.\n\n$f = \\frac{c}{\\lambda} = \\frac{3{,}0 \\times 10^8}{4{,}0 \\times 10^{-7}} = 7{,}5 \\times 10^{14}\\ \\text{Hz}$.\n\nFaz sentido: 400 nm fica no limite do violeta/azul, a maior frequência entre os três leitores.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q41",
@@ -783,7 +791,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O Brasil ardeu em chamas em 2020. Muitas soluções foram propostas, incluindo o uso do “boi bombeiro”, porém nem todas eliminam de fato um dos três componentes que mantêm o fogo: calor, combustível e comburente. A figura a seguir representa três ações de bombeiros para extinguir o fogo.\n\n![três ações de bombeiros: A, retirada de palha em chamas com ferramentas; B, abafamento de fogo em panela sobre fogão com um pano; C, combate a chamas com jato de água de mangueira](fig:p12-c1)\n\nNas alternativas a seguir, o componente ausente no triângulo representa o componente eliminado pela ação dos bombeiros para a extinção do fogo. Assinale a alternativa que apresenta a correlação adequada entre as ações A, B e C e o componente eliminado do triângulo do fogo em cada ação, respectivamente.",
+   "enunciado": "O Brasil ardeu em chamas em 2020. Muitas soluções foram propostas, incluindo o uso do “boi bombeiro”, porém nem todas eliminam de fato um dos três componentes que mantêm o fogo: calor, combustível e comburente. A figura a seguir representa três ações de bombeiros para extinguir o fogo.\n\n![três cenas de bombeiros, marcadas A, B e C: em A, dois bombeiros puxam com ganchos de cabo longo palha em chamas (rótulo PALHA); em B, um bombeiro segura um pano junto a uma panela em chamas sobre um fogão; em C, dois bombeiros lançam um jato de água de mangueira sobre chamas](fig:p12-c1)\n\nNas alternativas a seguir, o componente ausente no triângulo representa o componente eliminado pela ação dos bombeiros para a extinção do fogo. Assinale a alternativa que apresenta a correlação adequada entre as ações A, B e C e o componente eliminado do triângulo do fogo em cada ação, respectivamente.",
    "alternativas": {
     "A": "![Alternativa A](fig:p12-c3)",
     "B": "![Alternativa B](fig:p12-c7)",
@@ -792,7 +800,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "O fogo precisa de combustível, comburente (oxigênio) e calor; cada ação retira um desses lados do triângulo.\n\nA: retirar a palha que está queimando elimina o **combustível**, então o triângulo correto mostra só comburente e calor.\n\nB: cobrir a panela com o pano impede a chegada de oxigênio (abafamento), eliminando o **comburente**: sobram combustível e calor.\n\nC: o jato de água resfria o material abaixo da temperatura de ignição, eliminando o **calor**: sobram combustível e comburente.\n\nSó a alternativa D traz essa sequência de triângulos (sem combustível, sem comburente, sem calor).\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2021-1-q42",
@@ -811,7 +821,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "Para comparar custo/benefício, calcule quanto se paga por grama de princípio ativo (considerando densidade próxima de 1 g/mL, 1 L ≈ 1000 g).\n\nA: $0{,}45\\% \\cdot 1000\\ \\text{g} = 4{,}5\\ \\text{g}$; custo $\\frac{11{,}90}{4{,}5} \\approx$ R\\$ 2,64 por grama.\n\nB: $0{,}17\\% \\cdot 500\\ \\text{g} = 0{,}85\\ \\text{g}$; custo $\\frac{2{,}49}{0{,}85} \\approx$ R\\$ 2,93 por grama.\n\nC: $0{,}33\\% \\cdot 2000\\ \\text{g} = 6{,}6\\ \\text{g}$; custo $\\frac{5{,}19}{6{,}6} \\approx$ R\\$ 0,79 por grama.\n\nEm ordem crescente da razão custo/benefício: C < A < B. Repare que o produto B, o mais barato na prateleira, é o que entrega o princípio ativo mais caro.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q43",
@@ -819,7 +831,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A calagem é uma prática de manejo do solo que consiste na utilização de calcário para proporcionar às plantas um ambiente de crescimento radicular adequado. Isso diminui a atividade de elementos potencialmente tóxicos em elevadas concentrações (Al e Mn) e favorece a disponibilidade de elementos essenciais (N, P e K) no solo. O gráfico a seguir apresenta o grau de disponibilidade de diversos elementos de acordo com o pH do solo.\n\n![gráfico do grau de disponibilidade em função do pH, de 5,0 a 8,5, com quatro curvas rotuladas A, B, C e D](fig:p12-c2)\n\nConsiderando essas informações e os conhecimentos de química, é correto afirmar que a calagem atua em solos",
+   "enunciado": "A calagem é uma prática de manejo do solo que consiste na utilização de calcário para proporcionar às plantas um ambiente de crescimento radicular adequado. Isso diminui a atividade de elementos potencialmente tóxicos em elevadas concentrações (Al e Mn) e favorece a disponibilidade de elementos essenciais (N, P e K) no solo. O gráfico a seguir apresenta o grau de disponibilidade de diversos elementos de acordo com o pH do solo.\n\n![gráfico do grau de disponibilidade em função do pH, de 5,0 a 8,5, com quatro curvas: A e B começam baixas em pH próximo de 5,2, sobem até cerca de pH 6,5 e se mantêm altas, caindo um pouco perto de 7,6; C começa alta em pH 5,2, cai bruscamente até cerca de pH 6,0 e fica baixa até 7,0; D é uma reta que decresce de forma contínua de pH 5,0 a 8,5](fig:p12-c2)\n\nConsiderando essas informações e os conhecimentos de química, é correto afirmar que a calagem atua em solos",
    "alternativas": {
     "A": "ácidos, aumentando o seu pH; a curva D corresponderia a um elemento essencial.",
     "B": "básicos, diminuindo o seu pH; a curva A corresponderia a um elemento tóxico.",
@@ -828,7 +840,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Funções inorgânicas",
+   "resolucao": "O calcário ($\\text{CaCO}_3$) é um sal de caráter básico: ele neutraliza a acidez do solo, ou seja, a calagem é feita em solos **ácidos** e **aumenta o pH**. Isso já elimina B e C.\n\nO texto diz que, ao subir o pH, os elementos tóxicos (Al, Mn) ficam menos disponíveis e os essenciais (N, P, K) mais disponíveis.\n\nNo gráfico, as curvas C e D caem com o aumento do pH (comportamento de elemento tóxico), e as curvas A e B sobem na faixa de pH 5 a 6,5 (comportamento de elemento essencial).\n\nAssim, a curva B corresponde a um elemento essencial. A alternativa A erra ao dizer que a curva D, que decresce, seria de um elemento essencial.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2021-1-q44",
@@ -845,15 +859,15 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "A ideia central é a propriedade coligativa: um soluto dissolvido na água abaixa a temperatura de congelamento, o que permite usar a solução como fluido refrigerante abaixo de 0 °C.\n\nA fermentação da cerveja é exotérmica e precisa ser resfriada; por isso o glicol em água estaria no sistema de **resfriamento**, o que descarta B e D.\n\nEtanol e sal de cozinha também abaixam o ponto de congelamento da água, mas a banca dá preferência ao soluto não volátil: a salmoura (NaCl em água) pode substituir o glicol, enquanto o etanol evapora com facilidade.\n\nA alternativa A erra ao excluir o sal de cozinha, que é justamente um soluto adequado e não tóxico.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q45",
    "numero": 45,
    "materia": "quimica",
-   "materias_extra": [
-    "biologia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "A figura a seguir mostra uma das formas de se contabilizar as tendências no uso de fertilizantes por hectare e por tonelada de grão em uma fazenda no Brasil em determinado período. A partir desse tipo de informação pode-se saber, por exemplo, como a prática agrícola de um sistema de cultivo está influenciando o uso de nutrientes e a produtividade do solo para o cultivo.\n\n![gráfico de duas retas ao longo dos anos de 2004 a 2009: fertilizante NPK em kg/ha (eixo esquerdo, azul), crescente, e fertilizante NPK em kg/t de grão (eixo direito, vermelho), decrescente](fig:p13-c2)\n\nConsiderando o caso representado pela figura, pode-se concluir que o sistema de cultivo adotado está influenciando",
    "alternativas": {
@@ -864,7 +878,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "resolucao": "A produtividade (toneladas de grão por hectare) é a razão entre as duas grandezas do gráfico: $\\frac{\\text{kg/ha}}{\\text{kg/t}} = \\text{t/ha}$.\n\nEm 2004: $\\frac{120\\ \\text{kg/ha}}{38\\ \\text{kg/t}} \\approx 3{,}2\\ \\text{t/ha}$. Em 2009: $\\frac{172\\ \\text{kg/ha}}{28\\ \\text{kg/t}} \\approx 6{,}1\\ \\text{t/ha}$.\n\nA produtividade quase dobrou, e cada tonelada de grão passou a exigir menos fertilizante (de 38 para 28 kg/t). O uso do fertilizante ficou mais eficiente: influência positiva.\n\nA distratora mais tentadora é ler o aumento de kg/ha como uso \"negativo\"; mas o fertilizante aplicado por hectare cresce menos que a colheita.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2021-1-q46",
@@ -881,7 +897,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Compare a quantidade de $\\text{H}_2\\text{S}$ removida com a que a equação permite para 1,00 kg de $\\text{Fe}_2\\text{O}_3$.\n\nMassas molares: $\\text{Fe}_2\\text{O}_3 = 2 \\cdot 56 + 3 \\cdot 16 = 160\\ \\text{g/mol}$; $\\text{H}_2\\text{S} = 2 + 32 = 34\\ \\text{g/mol}$.\n\n$1000\\ \\text{g} \\div 160 = 6{,}25\\ \\text{mol}$ de óxido, que reagem com $3 \\cdot 6{,}25 = 18{,}75\\ \\text{mol}$ de $\\text{H}_2\\text{S}$, ou seja, $18{,}75 \\cdot 34 \\approx 638\\ \\text{g} = 0{,}638\\ \\text{kg}$.\n\nNa condição máxima foram removidos 0,716 kg, mais do que os 0,638 kg previstos. Não pode ter sobrado óxido (A e B) nem ter havido proporção exata (D).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q47",
@@ -898,7 +916,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Gases",
+   "resolucao": "O cilindro não esvazia totalmente: o gás só sai enquanto a pressão interna for maior que a externa (1 atm). No fim, sobram 50 L de gás (o volume do cilindro) a 1 atm.\n\nGás disponível, medido a 1 atm: $10\\ \\text{m}^3 = 10\\,000\\ \\text{L}$, dos quais ficam 50 L. Saem $10\\,000 - 50 = 9\\,950\\ \\text{L}$.\n\nNa vazão máxima de 10 L/min: $\\frac{9\\,950}{10} = 995\\ \\text{min} \\approx 16{,}6\\ \\text{h} \\approx 17\\ \\text{h}$.\n\nAs alternativas com 33 h usam a vazão mínima, e as que falam em 0 L ou 0 atm ignoram que o gás não sai abaixo da pressão ambiente.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q48",
@@ -915,7 +935,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "resolucao": "Balanço do concreto convencional: emite $439\\ \\text{kg CO}_2/\\text{m}^3$.\n\nBalanço do novo concreto: emite 182 e absorve 195, resultado $182 - 195 = -13\\ \\text{kg CO}_2/\\text{m}^3$.\n\nDiferença: $439 - (-13) = 452\\ \\text{kg}$ por metro cúbico. Quem faz $439 - 182 = 257$ esquece a absorção.\n\nOs testes com $\\text{NO}_x$ e $\\text{SO}_x$ se explicam porque o endurecimento pode ser acelerado com o gás capturado de uma usina térmica, que contém esses óxidos; o texto diz que eles podem reduzir a absorção de $\\text{CO}_2$, ou seja, interferem no **processo de endurecimento**, não na produção de cimento (o material nem usa cimento).\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q49",
@@ -923,7 +945,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A doença de Huntington, que é progressiva e degenerativa do sistema nervoso central, compromete significativamente a capacidade motora e cognitiva.\nO heredograma a seguir representa o padrão de herança entre os indivíduos, sendo os indivíduos doentes representados em preto, e os indivíduos não doentes, em branco. Homens são representados pelos quadrados e mulheres, pelos círculos.\n\n![heredograma de três gerações, com quadrados para homens e círculos para mulheres, indivíduos doentes em preto e não doentes em branco](fig:p14-f3)\n\nConsiderando as informações apresentadas, é correto afirmar que a doença de Huntington",
+   "enunciado": "A doença de Huntington, que é progressiva e degenerativa do sistema nervoso central, compromete significativamente a capacidade motora e cognitiva.\nO heredograma a seguir representa o padrão de herança entre os indivíduos, sendo os indivíduos doentes representados em preto, e os indivíduos não doentes, em branco. Homens são representados pelos quadrados e mulheres, pelos círculos.\n\n![heredograma de três gerações. Geração I: homem doente casado com mulher não doente. Geração II, filhos desse casal, da esquerda para a direita: mulher doente (casada com homem não doente), homem doente, homem não doente e mulher doente (casada com homem doente). Geração III: filhos da primeira mulher doente: homem doente e duas mulheres não doentes; filhos da segunda mulher doente com o homem doente: homem doente, mulher não doente, homem não doente e duas mulheres doentes](fig:p14-f3)\n\nConsiderando as informações apresentadas, é correto afirmar que a doença de Huntington",
    "alternativas": {
     "A": "é herdada de forma autossômica dominante.",
     "B": "é herdada de forma autossômica recessiva.",
@@ -932,7 +954,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "Analise o heredograma eliminando os padrões que ele contradiz.\n\nHerança ligada ao Y (D) está descartada porque há mulheres doentes. Herança ligada ao X (C) também, porque o homem doente da geração I transmite a doença a um filho homem, e o pai passa ao filho o cromossomo Y, não o X.\n\nHerança autossômica recessiva (B) está descartada pelo casal da geração II em que os dois são doentes: se fossem $aa \\times aa$, todos os filhos seriam doentes, mas eles têm filhos não doentes.\n\nResta a herança autossômica dominante: os doentes têm sempre um genitor doente, e dois doentes heterozigotos ($Aa \\times Aa$) podem ter filhos normais ($aa$).\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2021-1-q50",
@@ -949,7 +973,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "Na dupla fecundação das angiospermas, o tubo polínico leva dois núcleos espermáticos ao saco embrionário.\n\nUm deles fecunda a oosfera e forma o zigoto (2n), que dá origem ao embrião. O outro se une aos dois núcleos polares, formando o núcleo triploide (3n), que origina o endosperma. Isso é exatamente o que diz a alternativa A.\n\nAs outras erram a origem das estruturas: o zigoto não envolve os núcleos polares (B); o ovário vira o fruto, não os cotilédones (C); e os cotilédones fazem parte do embrião (2n), não vêm do endosperma (D).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q51",
@@ -966,7 +992,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Biotecnologia",
+   "resolucao": "O texto descreve uma ação humana: as empresas identificaram, com marcadores, os salmões portadores do alelo de resistência e passaram a selecionar as famílias resistentes para a reprodução.\n\nIsso é melhoramento genético (seleção artificial): cruzando portadores do alelo, a proporção de peixes resistentes aumenta a cada geração e a mortalidade cai.\n\nNão houve transgenia (A): o alelo já existia na população, ninguém o inseriu. Também não se trata de seleção natural (C), pois quem escolhe os reprodutores são os criadores, nem de isolamento entre populações (D).\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q52",
@@ -983,7 +1011,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Dengue, zika e chikungunya são arboviroses transmitidas no Brasil principalmente pelo mosquito *Aedes aegypti*; o *Culex* (pernilongo comum) não é o vetor dessas doenças, o que derruba A e D.\n\nComo os vírus dependem do mosquito para chegar às pessoas, eliminar o vetor e os criadouros de larvas (água parada) são medidas profiláticas centrais, como diz a alternativa B.\n\nA alternativa C erra duas vezes: na época da prova não havia vacina contra a chikungunya, e o controle do vetor é, sim, medida profilática. Na alternativa A, também é falso que não exista vacina contra a febre amarela.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q53",
@@ -1000,7 +1030,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "O muco é formado por mucinas, glicoproteínas: uma parte proteica com muitos açúcares ligados.\n\nA parte proteica é produzida no retículo endoplasmático granular (rugoso), a organela (i), reconhecida pelos ribossomos (pontos) na sua superfície, ao lado do núcleo.\n\nAs proteínas seguem para o complexo de Golgi, a organela (ii), formado por pilhas de sacos achatados, onde recebem os açúcares (glicosilação) e são empacotadas nos grânulos de muco que saem pela membrana plasmática.\n\nPor isso a sequência é: retículo granular, Golgi, síntese proteica, adição de açúcares. A alternativa B inverte as organelas.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q54",
@@ -1017,7 +1049,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "Simetria radiada (pentarradial no adulto), esqueleto com espinhos e sulco ambulacral (parte do sistema hidrovascular) são marcas dos **equinodermos**, como a estrela-do-mar e o ouriço-do-mar.\n\nSimetria bilateral, esqueleto (exoesqueleto) e **dois pares de antenas** são características dos **crustáceos**, artrópodes como o caranguejo e o camarão.\n\nSó a alternativa C traz um equinodermo e um artrópode, nessa ordem. Em A, o mexilhão é molusco; em B, a hidra é cnidário; em D, a lampreia é cordado e o caramujo, molusco.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q55",
@@ -1034,7 +1068,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "Os animais mais caçados (caititu, veado-mateiro, queixada) são grandes mamíferos que comem frutos e dispersam sementes grandes, que poucos animais pequenos conseguem transportar.\n\nRetirar milhões desses animais compromete a dispersão dessas sementes e, com isso, a regeneração (renovação) da floresta, como afirma a alternativa D.\n\nAs demais não se sustentam: tirar carnívoros do topo da teia também provoca grande impacto (A); animais pequenos não substituem a função dos grandes (B); e a caça não é \"proporcional\" nem mantém o fluxo de energia estável (C), pois os números de mortos são muito diferentes entre as espécies.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q56",
@@ -1051,7 +1087,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "Os corais são cnidários (antozoários). Cnidários são **diblásticos**: o corpo tem duas camadas de tecido, a epiderme por fora e a gastroderme revestindo a cavidade gastrovascular, com a mesogleia entre elas. É o que diz a alternativa D.\n\nA alternativa C erra ao chamá-los de triblásticos, com mesoderme.\n\nEm B, os cnidoblastos (cnidócitos) são células urticantes, usadas na defesa e captura de presas, e não células com flagelos para filtrar água (isso lembra os coanócitos das esponjas).\n\nEm A, a relação está invertida: nos cnidários com as duas formas, o pólipo costuma reproduzir-se assexuadamente e a medusa, sexuadamente; além disso, os corais vivem só na forma de pólipo.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q57",
@@ -1070,7 +1108,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Antiguidade",
+   "resolucao": "Safo enumera o que diferentes pessoas consideram \"a coisa mais bela\" (cavalaria, infantaria, uma frota de naus) e contrapõe sua própria opinião: o mais belo é \"aquilo que se ama\".\n\nEla, portanto, constata que os gostos humanos variam e associa a beleza ao amor, ideia da alternativa C.\n\nA alternativa A diz o contrário (beleza universal e independente do amor). As alternativas B e D atribuem a Safo a visão que ela rejeita: os exemplos militares são a opinião dos outros, não a dela.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q58",
@@ -1087,7 +1127,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Idade Moderna (Europa)",
+   "resolucao": "O texto fala da monarquia católica espanhola (com Portugal sob o mesmo rei durante a União Ibérica), que se pretendia universal e se estendia por quatro continentes, apoiada por juristas.\n\nEsse projeto se apoiava em argumentos jurídico-teológicos (a missão de expandir a fé católica legitimava a conquista), em uma administração exercida a distância, a partir da Península Ibérica, e no trabalho compulsório de indígenas e africanos escravizados. É o que afirma a alternativa C.\n\nA alternativa A erra ao incluir a Inglaterra, que era protestante, e ao falar em trabalho assalariado. B confunde o projeto com o Império Romano, e D fala em estamentos feudais e capitanias na África e na Ásia, sem relação com o texto.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q59",
@@ -1104,7 +1146,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "O texto mostra mulheres participando ativamente das jornadas revolucionárias e ganhando visibilidade, o que levou o governo a discutir os direitos civis e políticos femininos, mas também mostra que essa participação foi reprimida em 1793 e 1795.\n\nA Revolução não deu às mulheres o direito de voto, mas a atuação delas tornou visível e trouxe ao debate sua exclusão da vida pública (Olympe de Gouges, por exemplo, escreveu a Declaração dos Direitos da Mulher e da Cidadã). É a alternativa A.\n\nB e D são falsas: não houve igualdade de direitos, e a Declaração Universal dos Direitos Humanos é de 1948 (a da Revolução foi a dos Direitos do Homem e do Cidadão). C contradiz o texto, que fala em elogios públicos às militantes.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q60",
@@ -1121,7 +1165,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Brasil Império",
+   "resolucao": "O texto liga as casas de fazenda e a pintura de paisagem, a partir de 1870, à crise da escravidão: eram uma forma de a classe senhorial do café afirmar seu poder (seu capital simbólico) num momento de ameaça.\n\nNo Segundo Reinado, depois do fim do tráfico (1850) e com as leis abolicionistas graduais, ficou cada vez mais difícil obter escravizados, e os cafeicultores disputavam a política de imigração para substituir essa mão de obra. É o que diz a alternativa C.\n\nA erra a data (o texto fala de 1870, não da chegada da corte em 1808). B é falsa porque o tráfico já estava proibido. D erra ao chamar a Lei de Terras de 1850 de reforma agrária: ela, ao contrário, dificultou o acesso à terra.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q61",
@@ -1140,7 +1186,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Guerras mundiais e entreguerras",
+   "resolucao": "A Revolução Russa de 1917 derrubou o czarismo (fevereiro) e levou os bolcheviques ao poder (outubro). O quadro, de 1920, mostra um proletário gigante com a bandeira vermelha avançando sobre a cidade e a multidão, uma imagem que exalta a revolução.\n\nPor isso foi bem recebido pelo novo governo soviético, como afirmação de sua ideologia: alternativa D.\n\nAs outras erram o contexto: a saída da guerra não resolveu a crise econômica, e o quadro não mostra pouca adesão (A); o regime bolchevique não foi democrático (B); e o quadro é posterior à queda do czar, que não poderia recebê-lo (C).\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q62",
@@ -1159,7 +1207,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Era Vargas",
+   "resolucao": "O trecho mostra como chineses e japoneses eram vistos em São Paulo nos anos 1930: ao mesmo tempo como \"impassíveis\" e \"teimosos\" no comércio e associados a imagens exóticas de delicadeza. São estereótipos, que convivem com a presença desses imigrantes ao lado de portugueses, sírios, libaneses, judeus e espanhóis.\n\nA alternativa A resume isso: a convivência entre imigrantes europeus e asiáticos foi marcada tanto por assimilação quanto por preconceito.\n\nAs demais fazem afirmações sem base no texto e historicamente falsas: a população negra não teve a mesma posição social que os imigrantes europeus (B), a greve de 1917 não é o tema (C) e a \"democracia racial\" é um mito, não um cenário real (D).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q63",
@@ -1178,7 +1228,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "República de 1945 a 1964",
+   "resolucao": "Abdias do Nascimento mostra que a Lei Afonso Arinos (1951) proibiu a discriminação racial, mas \"tudo continuou na mesma\": os anúncios trocaram \"não se aceitam pessoas de cor\" por \"pessoas de boa aparência\", um eufemismo para \"branco\".\n\nOu seja, o racismo no mercado de trabalho continuou, agora disfarçado. É a alternativa A.\n\nB e C tratam a \"boa aparência\" como questão de moda ou de asseio, o oposto do que o autor denuncia. D é falsa: o racismo não foi eliminado, e a ideia de \"democracia racial\" é justamente o mito que o autor critica.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q64",
@@ -1197,7 +1249,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "A derrubada da estátua de Colombo nos protestos de 2020 mostra que monumentos não são neutros: eles escolhem quem é homenageado e como o passado é lembrado, e por isso viram alvo de disputa quando grupos do presente (como indígenas e movimentos antirracistas) questionam esses significados.\n\nA alternativa B expressa essa ideia: estátuas fazem a mediação entre memória do passado e compreensão do presente, e seus sentidos estão sempre em disputa.\n\nC e D dizem que os monumentos são neutros ou alheios à ideologia, o que a própria cena desmente. A erra ao dizer que as estátuas perdem o significado; elas são derrubadas justamente porque ainda significam algo.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q65",
@@ -1214,7 +1268,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "Pelos gráficos, a China aparece entre os maiores importadores de produtos agrícolas (cerca de 8% do total mundial) e o Brasil entre os maiores exportadores. A China depende da importação de alimentos e matérias-primas agrícolas (como a soja) para abastecer sua enorme população e criação animal, e o Brasil é um de seus principais fornecedores. É a alternativa C.\n\nA erra porque exportar e importar muito significa justamente depender do mercado mundial. B erra porque 5,7% do comércio mundial agrícola é muito, e as *commodities* agrícolas são centrais na pauta de exportação brasileira. D erra porque o Japão aparece como importador, não como grande produtor.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q66",
@@ -1233,7 +1289,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "Concentração de renda mede quanto da renda total fica com uma pequena parcela da população: no Brasil, o 1% mais rico fica com 28,3% de toda a renda. A alternativa D define corretamente o conceito.\n\nB confunde concentração com geração e distribuição de riqueza; concentração alta significa justamente má distribuição. C é contraditória: se a Índia tem alta concentração, a renda não é bem distribuída, qualquer que seja a população. A erra ao explicar a posição do Brasil pela população: o indicador é proporcional, e a Índia, que também está na lista, tem população muito maior.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q67",
@@ -1243,7 +1301,7 @@
     "sociologia"
    ],
    "texto_base": null,
-   "enunciado": "Em nosso planeta em rápida urbanização, a vida cotidiana da crescente população de urbanoides é cada vez mais sustentada por sistemas vastos e incrivelmente complexos de infraestrutura e tecnologia. Ainda que muitas vezes passem despercebidos – pelo menos quando funcionam –, esses sistemas permitem que a vida urbana moderna exista. Seus encanamentos, dutos, servidores, fios e túneis sustentam os fluxos, as conexões e os metabolismos que são intrínsecos às cidades contemporâneas.\n\n(Adaptado de Stephen Graham, *Cidades sitiadas. O novo urbanismo militar*. São Paulo: Editora Boitempo, 2016, p. 345.)\n\nDepreende-se do texto que",
+   "enunciado": "Em nosso planeta em rápida urbanização, a vida cotidiana da crescente população de urbanoides é cada vez mais sustentada por sistemas vastos e incrivelmente complexos de infraestrutura e tecnologia. Ainda que muitas vezes passem despercebidos – pelo menos quando funcionam –, esses sistemas permitem que a vida urbana moderna exista. Seus encanamentos, dutos, servidores, fios e túneis sustentam os fluxos, as conexões e os metabolismos que são intrínsecos às cidades contemporâneas.\n\n(Adaptado de Stephen Graham, *Cidades sitiadas*. O novo urbanismo militar. São Paulo: Editora Boitempo, 2016, p. 345.)\n\nDepreende-se do texto que",
    "alternativas": {
     "A": "a vida na cidade é composta por um conjunto de individualidades autossuficientes, sem a necessidade de interconexões e solidariedades.",
     "B": "as cidades contemporâneas são dependentes de sistemas técnicos infraestruturais, mas cada vez menos dependentes do trabalho técnico e social.",
@@ -1252,7 +1310,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Urbanização",
+   "resolucao": "O trecho decisivo é o de que os sistemas de infraestrutura \"muitas vezes passem despercebidos – pelo menos quando funcionam –\". Ou seja, a rede que sustenta a vida urbana fica escondida e só é notada quando falha.\n\nA alternativa C diz isso: esses bastidores, em geral ocultos, ficam evidentes nas interrupções do sistema (falta de luz, de água, de internet).\n\nA contraria o texto, que fala em fluxos e conexões. B inventa uma redução da dependência do trabalho técnico e social. D restringe a dependência às cidades *high-tech*, quando o texto fala da \"vida urbana moderna\" em geral.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2021-1-q68",
@@ -1269,7 +1329,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "Observe a distribuição dos círculos em cada mapa.\n\nMapa 1: produção espalhada por quase todo o país, com destaque no Pará e no Paraná. É o padrão da mandioca, cultivada em pequenas propriedades e base da alimentação no Norte e no Nordeste.\n\nMapa 2: produção restrita a pouquíssimos pontos no Paraná, o que indica uma cultura que exige clima mais frio, como o trigo.\n\nMapa 3: produção fortemente concentrada em São Paulo, com áreas menores em Minas Gerais, no Sul e no litoral de Sergipe e Bahia. É o padrão da laranja, ligada à indústria de suco para exportação.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q69",
@@ -1286,15 +1348,15 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geologia e relevo",
+   "resolucao": "Golfo é uma reentrância do mar que avança sobre o continente, com grandes dimensões e abertura ampla para o oceano, como o Golfo Pérsico. É a alternativa A.\n\nAs demais descrevem outras formas do litoral: B é uma península (terra cercada de água por quase todos os lados); C descreve um recife (barreira de rochas ou corais perto da costa); D lembra estuários e deltas, onde rios encontram o mar e depositam sedimentos.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q70",
    "numero": 70,
    "materia": "geografia",
-   "materias_extra": [
-    "biologia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "A região Nordeste brasileira é marcada por contrastes climáticos: áreas úmidas e áreas com longos períodos de estiagem. O mapa a seguir mostra a variação da umidade por meses em relação à distribuição das chuvas.\n\n![mapa da região Nordeste do Brasil com a variação da umidade, em áreas sem seca e subseca, de 1 a 3 meses secos, de 4 a 5 meses secos, de 6 a 8 meses secos e de 9 a 11 meses secos, com legenda e escala](fig:p21-c1)\n\n(Adaptado de *Mapa de Clima do Brasil*. Coordenação De Recursos Naturais e Estudos Ambientais – CREN. Diretoria de Geociências – DGC. IBGE. Rio de Janeiro, 2006.)\n\nSobre as características climáticas e a distribuição das chuvas na região Nordeste, é correto afirmar:",
    "alternativas": {
@@ -1305,7 +1367,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "No mapa, no interior da Bahia, em meio a áreas de 4 a 8 meses secos, há uma faixa com poucos meses secos que coincide com a Chapada Diamantina.\n\nIsso se explica pelo efeito orográfico: o ar úmido sobe ao encontrar as serras, resfria-se e provoca chuvas, como acontece também no Planalto da Borborema. É a alternativa B.\n\nA erra ao atribuir toda a umidade à zona de convergência intertropical; no litoral da Bahia, por exemplo, pesam as massas de ar atlânticas e frentes. C erra as épocas de estiagem, que no Nordeste ocorrem em geral entre o outono e o inverno ou o inverno e a primavera, não no verão. D erra porque as áreas de 6 a 8 meses secos também são de caatinga.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2021-1-q71",
@@ -1322,7 +1386,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Cartografia",
+   "resolucao": "O mapa 1 representa o número de casos confirmados por estado, ou seja, valores **absolutos**. O mapa 2 representa a taxa de incidência, casos por 1 milhão de habitantes, ou seja, um valor **relativo** (proporcional), que permite comparar estados com populações diferentes. É a alternativa C.\n\nA e B erram ao chamar os dados de qualitativos: ambos os mapas mostram quantidades, organizadas em classes ordenadas. D erra porque só o mapa 2 é proporcional, e a justificativa sobre a \"falta de exatidão\" não tem relação com o tipo de dado.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2021-1-q72",
@@ -1341,7 +1407,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Desigualdade e estratificação",
+   "resolucao": "O sociólogo diz que o confinamento é um \"conceito burguês\" porque pressupõe uma casa confortável onde se recolher, algo que os moradores da periferia não têm.\n\nA moradia aparece, então, como marca da posição social: o tipo de casa e o lugar onde ela fica expressam as diferenças de poder e de recursos entre as classes. É a alternativa D.\n\nA restringe o raciocínio à França, mas a desigualdade de moradia existe em toda parte. B nega o que o próprio texto faz ao falar em \"casa burguesa\". C inverte a realidade descrita: quem mora na periferia, no texto, são as classes populares.\n\n**Resposta: D**",
+   "revisao": "ok"
   }
  ]
 }
