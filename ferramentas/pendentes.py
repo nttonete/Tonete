@@ -12,7 +12,7 @@ eds = json.loads((RAIZ / "dados/provas/edicoes.json").read_text())
 ordem = sorted(eds, key=lambda e: (-e["ano"], ["fuvest", "unicamp", "unesp"].index(e["vestibular"])))
 filas = {"transcrição": [], "revisão": [], "complementos": []}
 for e in ordem:
-    if e["tipo"] != "objetiva" or e["id"] == "unicamp-2021-1":
+    if e["tipo"] != "objetiva":
         continue
     n = e["questoes"]
     t = 30 if n == 90 else 36
