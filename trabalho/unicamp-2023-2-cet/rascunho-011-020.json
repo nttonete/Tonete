@@ -1,0 +1,108 @@
+{
+  "edicao": "unicamp-2023-2-cet",
+  "intervalo": [
+    11,
+    20
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 11,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na natureza, observa-se que a razão entre o diâmetro dos membros de sustentação de um animal e a sua altura é tanto menor quanto menor for o animal (ver figura A). Todavia, os diminutos seres humanos descritos no livro “Viagens de Gulliver” (Jonathan Swift, 1726) e no filme “Downsizing” (2017) têm essa razão mantida, diferentemente do que ocorre na natureza. Para ilustrar o comportamento da natureza, vamos tratar um caso simples: duas caixas cúbicas de água, uma <u>grande</u> – com lado $S = 4{,}0\\ \\text{m}$ e massa $M = 6{,}4\\times10^4\\ \\text{kg}$ –, e outra <u>pequena</u> – com lado $s = S/4 = 1{,}0\\ \\text{m}$ e massa $m = 1{,}0\\times10^3\\ \\text{kg}$.\n\n![Figura A: razão d/h menor que D/H na natureza (mosca) e igual a D/H em Gulliver, em comparação com o ser humano de altura H e diâmetro D](fig:p13-f3)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Suponha que cada caixa esteja em equilíbrio estático e seja sustentada por uma coluna de seção reta quadrada, centrada no fundo, conforme a figura B. Os lados das colunas são $D = 0{,}4\\ \\text{m}$ (caixa <u>grande</u>) e $d$ (caixa <u>pequena</u>). Qual deve ser o tamanho $d$ dos lados da coluna da caixa <u>pequena</u> para que a pressão exercida sobre essa coluna seja igual à pressão exercida pela caixa <u>grande</u> sobre a sua própria coluna?\n\n![Figura B: cubo de lado S ou s apoiado sobre uma coluna de seção reta quadrada de lado D ou d](fig:p13-f4)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Vamos supor agora que o equilíbrio estático da caixa <u>grande</u> seja garantido por duas colunas de sustentação. As forças atuando na caixa são: o peso $\\vec{P}$, no centro de massa $CM$, e as forças $\\vec{F}_1$ e $\\vec{F}_2$ exercidas pelas colunas. As linhas (tracejadas) de atuação das três forças estão contidas no plano vertical mostrado na figura C (no espaço de respostas). O módulo do torque resultante sobre a caixa, em relação ao ponto $O$, é dado por: $\\left|\\vec{\\tau}_O\\right| = \\left|\\vec{P}\\right| x_1 - \\left|\\vec{F}_2\\right|(x_1 + x_2)$, sendo $x_1 = 1{,}8\\ \\text{m}$ e $x_2 = 0{,}6\\ \\text{m}$. Calcule os módulos das forças $\\vec{F}_1$ e $\\vec{F}_2$.\n\n![Figura C: caixa com o ponto O, o centro de massa CM, as distâncias x1 e x2, o peso P para baixo e as forças F1 e F2 para cima, exercidas pelas duas colunas](fig:p13-c1)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A Antártida possui centenas de lagos subglaciais, ou seja, abaixo do solo e do gelo que recobre o continente. Recentemente, lá foi descoberto um aquífero de grandes dimensões. Considere um lago de área horizontal $A = 50\\ \\text{km}^2$ e dimensão vertical $y = 12\\ \\text{m}$ (ver figura), coberto por uma camada de gelo de espessura $d = 5{,}0\\ \\text{m}$. A água líquida do lago encontra-se na temperatura do seu ponto de fusão, $\\theta_{\\text{água}} = 0\\ ^\\circ\\text{C}$, e o ar imediatamente acima do gelo está na temperatura $\\theta_{\\text{ar}} = -15{,}0\\ ^\\circ\\text{C}$. A densidade da água líquida é $\\rho = 1{,}0\\ \\text{g/cm}^3$ e $1\\ \\text{cal} \\simeq 4\\ \\text{J}$.\n\n![Esquema do lago: ar a −15 °C, camada de gelo de espessura d = 5,0 m e lago de água a 0 °C com dimensão vertical y = 12 m](fig:p14-f3)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Para congelar a água, é preciso retirar calor dela. O calor latente de fusão/solidificação da água é $L_\\text{F} = 80\\ \\text{cal/g}$. Qual é a quantidade de calor que deve ser retirada para congelar completamente o lago, mantendo-se a temperatura do lago a $0\\ ^\\circ\\text{C}$?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "A quantidade de calor $Q$ conduzido da água do lago para o ar, num intervalo de tempo $\\Delta t$, através de uma área $A$, obedece à relação: $\\dfrac{Q}{\\Delta t\\, A} = \\dfrac{k}{d}\\left(\\theta_{\\text{água}} - \\theta_{\\text{ar}}\\right)$, sendo $k = 2{,}2\\ \\text{W}/(\\text{m}\\cdot ^\\circ\\text{C})$ a condutividade térmica do gelo. Calcule a potência conduzida através de toda a área $A$ acima do lago."
+        }
+      ],
+      "observacoes": "No original da resposta do item b, a espessura do gelo aparece como “e” (no enunciado é $d$); mantido como impresso."
+    },
+    {
+      "numero": 13,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O jogo de malha, bastante popular no interior do estado de São Paulo, foi trazido ao Brasil por imigrantes portugueses no século XIX. Consiste em arremessar um disco metálico com o objetivo de derrubar um pino de madeira localizado na extremidade oposta de uma pista plana, horizontal e uniforme.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Um jogador lança o disco obliquamente a partir do solo, em um ângulo de $30^\\circ$ com a horizontal, atingindo o chão a uma distância $D = 36\\ \\text{m}$ do ponto de lançamento. Qual o módulo $v_0$ da velocidade do disco no instante do arremesso?\n\nDado: $\\text{sen}\\,30^\\circ = 0{,}5;\\ \\cos 30^\\circ \\simeq 0{,}9;\\ \\tan 30^\\circ \\simeq 0{,}6.$\n\n![Jogador lançando o disco com velocidade v0 a 30° com a horizontal; a trajetória tracejada termina a uma distância D = 36 m do ponto de lançamento](fig:p15-f2)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Em outra jogada, o disco é lançado rente ao solo com uma velocidade inicial $v_0 = 16\\ \\text{m/s}$, percorrendo uma distância $d = 25{,}6\\ \\text{m}$ até parar completamente. Qual é o coeficiente de atrito cinético, $\\mu_c$, entre o disco e a pista?\n\n![Jogador lançando o disco rente ao solo com |v0| = 16 m/s; o disco para, com |v| = 0, depois de percorrer d = 25,6 m](fig:p15-f3)"
+        }
+      ],
+      "observacoes": "No original da resposta do item a, a equação em $y$ traz “0.5” com ponto decimal e o termo “+5t²” (o sinal deveria ser negativo para chegar a t₂ = v₀/10); mantido como impresso."
+    },
+    {
+      "numero": 14,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Fibras ópticas são fibras feitas com materiais transparentes como o vidro ou plástico, amplamente utilizadas na transmissão de dados. Uma outra aplicação importante das fibras ópticas é no desenvolvimento de sensores. Por exemplo, uma fibra óptica com uma microestrutura periódica no seu núcleo reflete luz em apenas um comprimento de onda $(\\lambda_B)$, sendo que a luz não refletida continua seu caminho. O comprimento de onda refletido é dado por $\\lambda_B = 2n\\Lambda$, sendo $n$ o índice de refração do núcleo da fibra e $\\Lambda$ o período da microestrutura. Essa característica é explorada para monitoramento de deformações mecânicas, pois $\\Lambda$ varia quando a fibra é esticada, produzindo uma variação $\\Delta\\lambda_B$ no comprimento de onda da luz refletida. Observa-se que $\\dfrac{\\Delta\\lambda_B}{\\lambda_B} = \\mu\\Delta\\varepsilon$, sendo $\\Delta\\varepsilon$ a variação relativa do comprimento da fibra, e $\\mu$ uma constante característica do sensor. O gráfico no espaço de respostas mostra a curva de $\\Delta\\lambda_B$ em função de $\\Delta\\varepsilon$ obtida na caracterização de um sensor para o qual $n = 1{,}5$ e $\\Lambda = 3\\times10^{-7}\\ \\text{m}$. Encontre a constante característica $\\mu$ desse sensor.\n\n![Gráfico de Δλ_B (10⁻¹² m) em função de Δε (10⁻⁶), com pontos medidos e uma reta rotulada “linha para guia visual”](fig:p16-c2)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "*Strain-gauges* (extensômetros) são sensores muito empregados em engenharia para medir a deformação de estruturas. Usualmente são resistores elétricos, fixados na estrutura, que sofrem, com a deformação, variação na sua resistência elétrica. O esquema da figura ao lado mostra um circuito elétrico com fonte de tensão $V_0 = 24\\ \\text{V}$ e quatro sensores dispostos numa estrutura. Com a deformação, dois deles têm sua resistência elétrica aumentada, passando de $R = 100\\ \\Omega$ para $R + \\Delta R$, enquanto que os outros dois têm a resistência elétrica reduzida de $R = 100\\ \\Omega$ para $R - \\Delta R$. Antes da deformação $(\\Delta R = 0)$, $\\Delta V = V_\\text{a} - V_\\text{b} = 0$. Encontre $\\Delta V$ após uma deformação que produz uma variação $\\Delta R = 0{,}25\\ \\Omega$.\n\n![Circuito com a fonte V0 e quatro resistores: R − ΔR e R + ΔR no ramo da esquerda, com o terminal Va entre eles; R + ΔR e R − ΔR no ramo da direita, com o terminal Vb entre eles](fig:p16-f3)"
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "11": {
+      "itens": {
+        "a": "$$\\begin{cases} \\text{caixa grande: } p_{\\text{grande}} = \\dfrac{Mg}{D^2} \\\\[2mm] \\text{caixa pequena: } p_{\\text{pequena}} = \\dfrac{mg}{d^2} \\end{cases}$$\n\nSendo $p_{\\text{grande}} = p_{\\text{pequena}} \\Rightarrow \\dfrac{Mg}{D^2} = \\dfrac{mg}{d^2} \\Rightarrow \\left(\\dfrac{d}{D}\\right)^2 = \\dfrac{m}{M} = \\dfrac{1}{64}$\n\nPortanto: $\\dfrac{d}{D} = \\dfrac{1}{\\sqrt{64}} = \\dfrac{1}{8}$ ou $\\text{d} = \\dfrac{D}{8} = \\dfrac{0{,}40\\ \\text{m}}{8} = 0{,}05\\ \\text{m}$",
+        "b": "De acordo com o enunciado,\n\n$$\\left|\\vec{\\tau}_O\\right| = Mg\\,x_1 - \\left|\\vec{F}_2\\right|(x_1 + x_2) = 0$$\n\n$$\\left|\\vec{F}_2\\right| = \\frac{x_1}{(x_1 + x_2)}Mg = \\frac{1{,}8\\ \\text{m}}{2{,}4\\ \\text{m}} \\times \\left(6{,}4\\times10^4\\ \\text{kg}\\right) \\times \\left(10\\ \\text{m/s}^2\\right) = 4{,}8\\times10^5\\ \\text{N}$$\n\n$$Mg - \\left|\\vec{F}_1\\right| - \\left|\\vec{F}_2\\right| = 0$$\n\n$$\\left|\\vec{F}_1\\right| = Mg - \\left|\\vec{F}_2\\right| = 6{,}4\\times10^5\\ \\text{N} - 4{,}8\\times10^5\\ \\text{N} = 1{,}6\\times10^5\\ \\text{N}$$"
+      }
+    },
+    "12": {
+      "itens": {
+        "a": "Como $Q = mL_\\text{F}$ e $m = \\rho A y$, temos:\n\n$$Q = mL_\\text{F} = \\left[\\left(1{,}0\\times10^3\\ \\frac{\\text{kg}}{\\text{m}^3}\\right) \\times \\left(50\\times10^6\\ \\text{m}^2\\right) \\times 12\\ \\text{m}\\right] \\times \\left(80\\ \\frac{\\text{cal}}{\\text{g}} \\times \\frac{4\\ \\text{J}}{\\text{cal}} \\times \\frac{1000\\ \\text{g}}{\\text{kg}}\\right) = 1{,}92\\times10^{17}\\ \\text{J}.$$",
+        "b": "$$P = \\frac{Q}{\\Delta t} = \\frac{kA\\left(\\theta_{\\text{água}} - \\theta_{\\text{ar}}\\right)}{e} = \\frac{\\left(2{,}2\\ \\text{W/m}\\,^\\circ\\text{C}\\right) \\times \\left(50\\times10^6\\ \\text{m}^2\\right) \\times \\left(15\\ ^\\circ\\text{C}\\right)}{5{,}0\\ \\text{m}} = 3{,}3\\times10^8\\ \\text{W}.$$"
+      }
+    },
+    "13": {
+      "itens": {
+        "a": "Do enunciado, temos:\n\n$$y = y_0 + v_{0,y}t + \\frac{1}{2}at^2 \\quad \\text{e} \\quad x = x_0 + v_{0,x}t$$\n\ne\n\n$\\left(v_{0,y} = v_0\\,\\text{sen}\\,30^\\circ = 0{,}5\\ v_0 \\quad \\text{e} \\quad v_{0,x} = v_0\\cos 30^\\circ = 0{,}9\\ v_0\\right)$\n\nEm $y$, temos:\n\n$$y = y_0 + v_{0,y}t + \\frac{1}{2}at^2 = 0.5v_0t + 5t^2 = t\\left(0.5v_0 + 5t\\right) = 0$$\n\nque possui duas soluções:\n\n$$t_1 = 0 \\ \\text{ e } \\ t_2 = \\frac{v_0}{10}$$\n\nE, em $x$, temos:\n\n$$x = x_0 + v_{0,x}t = 36 = 0 + 0{,}9v_0t \\Rightarrow t_2 = \\frac{40}{v_0}.$$\n\nAssim:\n\n$$t_2 = \\frac{40}{v_0} = \\frac{v_0}{10} \\Rightarrow v_0^2 = 400 \\Rightarrow v_0 = 20\\ \\text{m/s}$$",
+        "b": "Podemos escrever que a força de atrito é dada por $f_{at} = -ma_x = mg\\mu_c \\Rightarrow a_x = -\\mu_c g.$\n\nComo\n\n$$v_x^2 = v_{0,x}^2 + 2a_xd = v_{0,x}^2 - 2\\mu_c gd = 0,$$\n\ntemos:\n\n$$\\mu_c = \\frac{v_{0,x}^2}{2gd} = \\frac{16^2}{2\\times10\\times25{,}6} = 0{,}5.$$"
+      }
+    },
+    "14": {
+      "itens": {
+        "a": "Das expressões fornecidas no enunciado $\\lambda_B = 2n\\Lambda$ e $\\dfrac{\\Delta\\lambda_B}{\\lambda_B} = \\mu\\Delta\\varepsilon$, temos:\n\n$$\\mu = \\frac{\\Delta\\lambda_B}{\\lambda_B}\\frac{1}{\\Delta\\varepsilon} = \\frac{1}{2n\\Lambda}\\left(\\frac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right).$$\n\nUsando os dados fornecidos no gráfico para obter $\\left(\\dfrac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right)$, chegamos a:\n\n$$\\mu = \\frac{1}{2n\\Lambda}\\left(\\frac{\\Delta\\lambda_B}{\\Delta\\varepsilon}\\right) = \\frac{1}{2\\times1{,}5\\times3\\times10^{-7}\\ \\text{m}}\\left(\\frac{750\\times10^{-12}}{10^3\\times10^{-6}}\\right) = \\frac{0{,}75\\times10^{-6}\\ \\text{m}}{2\\times1{,}5\\times3\\times10^{-7}\\ \\text{m}} = 0{,}83.$$",
+        "b": "Como\n\n$$V_a = V_0\\frac{R + \\Delta R}{(R + \\Delta R) + (R - \\Delta R)} = V_0\\frac{R + \\Delta R}{2R}$$\n\ne\n\n$$V_b = V_0\\frac{R - \\Delta R}{(R + \\Delta R) + (R - \\Delta R)} = V_0\\frac{R - \\Delta R}{2R},$$\n\ntemos\n\n$$\\Delta V = V_a - V_b = \\left(V_0\\frac{R + \\Delta R}{2R}\\right) - \\left(V_0\\frac{R - \\Delta R}{2R}\\right) = V_0\\frac{2\\Delta R}{2R} = 24\\ \\text{V}\\,\\frac{0{,}25\\ \\Omega}{100\\ \\Omega} = 0{,}06\\ \\text{V} = 60\\ \\text{mV}.$$"
+      }
+    }
+  }
+}
