@@ -1,0 +1,86 @@
+{
+ "edicao": "fuvest-2023-2-d2",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "1": {
+   "assunto": "Funções"
+  },
+  "2": {
+   "assunto": "Funções"
+  },
+  "3": {
+   "assunto": "Combinatória e probabilidade"
+  },
+  "4": {
+   "assunto": "Geometria analítica"
+  },
+  "5": {
+   "assunto": "Trigonometria"
+  },
+  "6": {
+   "assunto": "Números complexos"
+  },
+  "7": {
+   "assunto": "Eletrodinâmica"
+  },
+  "8": {
+   "assunto": "Óptica"
+  },
+  "9": {
+   "assunto": "Hidrostática"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Banca grafa a soma como 9n-1 (expoente achatado no PDF); transcrito como 9^{n-1}, leitura matematicamente necessária. Erro de digitação 'C₁tem' mantido do caderno."
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 8,
+   "status": "atencao",
+   "notas": "Objetivo da questão publicado pela banca é cópia do da F01 (potência, energia, gráficos), não corresponde a espelhos esféricos; transcrito fielmente. Sem erro de transcrição."
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}

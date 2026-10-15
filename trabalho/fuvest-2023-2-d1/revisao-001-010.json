@@ -1,0 +1,87 @@
+{
+ "edicao": "fuvest-2023-2-d1",
+ "intervalo": [
+  1,
+  10
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 4,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere os textos e responda à questão:\n\n**Texto 1**\n\n![Charge de Jean Galvão: sob o título “INFOGRÁFICO: DESIGUALDADE DE RENDA NO BRASIL”, um homem de terno e charuto em pé sobre uma pilha muito alta de cédulas de dinheiro, com algumas moedas no chão; ao lado, um homem magro, sem camisa, em pé sobre uma pilha baixa de caixas de papelão desmontadas, com um pequeno símbolo escuro impresso no papelão, e uma lata e um papel amassado no chão](fig:p04-f1)\n\n**Texto 2**\n\n![Símbolo de embalagem em vermelho e branco: duas mãos abertas sustentando uma caixa, com as palavras “CUIDADO FRÁGIL”](fig:p04-c2)\n\nBanco de imagens Google\n\nhttps://pt-br.facebook.com/DepositoDeTirinhas/photos/.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em que consiste a ironia da imagem do texto 1 quando associada ao uso do termo “infográfico”?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando a crítica veiculada pela charge, assinale a relação entre o texto 2 e o símbolo de “frágil” impresso na imagem do papelão do texto 1."
+    }
+   ]
+  }
+ ],
+ "complementos": {
+  "1": {
+   "assunto": "Gêneros e tipologia textual"
+  },
+  "2": {
+   "assunto": "Coesão e coerência"
+  },
+  "3": {
+   "assunto": "Semântica e sentido das palavras"
+  },
+  "4": {
+   "assunto": "Gêneros e tipologia textual"
+  },
+  "6": {
+   "assunto": "Pontuação"
+  },
+  "7": {
+   "assunto": "Quinhentismo e Barroco"
+  },
+  "9": {
+   "assunto": "Interpretação de texto literário"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": "Conferida contra página e resposta da banca; sem erro."
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "Sem erro."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Sem erro."
+  },
+  {
+   "numero": 4,
+   "status": "corrigida",
+   "notas": "Descrição da charge ampliada: o item b manda analisar o símbolo impresso no papelão, que não era mencionado; acrescentados também moedas, lata, papel e autoria. Não entrega a resposta dos itens."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Sem erro."
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "Sem erro; campo de resolução incluído (soneto de Gregório de Matos, domínio público)."
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": "Sem erro; “d´o Dito” mantido como no original."
+  }
+ ]
+}
