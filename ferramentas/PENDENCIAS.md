@@ -25,7 +25,7 @@ Caminhos possíveis: (a) mostrar o texto como imagem recortada do caderno oficia
 
 - fuvest-2025-1 q82 (Rubião e Gonçalo): resolução explica D e registra a polêmica com A.
 - fuvest-2024-1 q48: cabem 61 embalagens pela conta; gabarito oficial D = 60.
-- unicamp-2026-1 q23; unesp-2025-1 q81 (desenho ambíguo); fuvest-2026-1 q53 (1904 x 1899).
+- unicamp-2026-1 q23; unesp-2025-1 q81 (desenho ambíguo; ao escrever a resolução, outro agente ampliou a figura e confirmou a leitura oficial E); fuvest-2026-1 q53 (1904 x 1899).
 - unicamp-2024-1 q24: exige massa atômica do Cu, que o caderno não traz.
 - unicamp-2020-1 q56: exige a massa molar do propano, que o caderno não traz (a resolução usa 44 g/mol).
 - unesp-2020-1 q87 (taça da Copa): com "3/4 de ouro e 1/4 de outro metal em massa", a densidade é ≈12,5 g/cm³ e a massa ≈33,8 kg (A); o oficial C (40 a 45 kg) só sai tratando as frações como de volume. Conta conferida.
