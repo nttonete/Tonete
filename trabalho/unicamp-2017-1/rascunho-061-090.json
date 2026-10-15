@@ -1,0 +1,146 @@
+{
+ "edicao": "unicamp-2017-1",
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 61,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Fazer vácuo significa retirar o ar existente em um volume fechado. Esse processo é usado, por exemplo, para conservar alimentos ditos embalados a vácuo ou para criar ambientes controlados para experimentos científicos. A figura abaixo representa um pistão que está sendo usado para fazer vácuo em uma câmara de volume constante $V_\\text{C} = 2{,}0$ litros. O pistão, ligado à câmara por uma válvula A, aumenta o volume que pode ser ocupado pelo ar em $V_\\text{P} = 0{,}2$ litros. Em seguida, a válvula A é fechada e o ar que está dentro do pistão é expulso através de uma válvula B, ligada à atmosfera, completando um ciclo de bombeamento. Considere que o ar se comporte como um gás ideal e que, durante o ciclo completo, a temperatura não variou. Se a pressão inicial na câmara é de $P_\\text{i} = 33\\ \\text{Pa}$, a pressão final na câmara após um ciclo de bombeamento será de\n\n![Esquema de uma câmara de volume V_C ligada por uma válvula A a um pistão, com uma válvula B ligada à atmosfera, em quatro etapas do ciclo de bombeamento](fig:p18-f3)",
+   "alternativas": {
+    "A": "30,0 Pa.",
+    "B": "330,0 Pa.",
+    "C": "36,3 Pa.",
+    "D": "3,3 Pa."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 62,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A microfluídica é uma área de pesquisa que trabalha com a manipulação precisa de líquidos em canais com dimensões submilimétricas, chamados de microcanais, possibilitando o desenvolvimento de sistemas miniaturizados de análises químicas e biológicas. Considere que uma seringa com êmbolo cilíndrico de diâmetro $D = 4\\ \\text{mm}$ seja usada para injetar um líquido em um microcanal cilíndrico com diâmetro de $d = 500\\ \\mu\\text{m}$. Se o êmbolo for movido com uma velocidade de $V = 4\\ \\text{mm/s}$, a velocidade $v$ do líquido no microcanal será de",
+   "alternativas": {
+    "A": "256,0 mm/s.",
+    "B": "32,0 mm/s.",
+    "C": "62,5 μm/s.",
+    "D": "500,0 μm/s."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 63,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Tecnologias móveis como celulares e *tablets* têm tempo de autonomia limitado pela carga armazenada em suas baterias. O gráfico abaixo apresenta, de forma simplificada, a corrente de recarga de uma célula de bateria de íon de lítio, em função do tempo. Considere uma célula de bateria inicialmente descarregada e que é carregada seguindo essa curva de corrente. A sua carga no final da recarga é de\n\n![Gráfico da corrente de recarga, em mA, em função do tempo, em horas](fig:p19-f1)",
+   "alternativas": {
+    "A": "3,3 C.",
+    "B": "11.880 C.",
+    "C": "1200 C.",
+    "D": "3.300 C."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 64,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere que, de forma simplificada, a resolução máxima de um microscópio óptico é igual ao comprimento de onda da luz incidente no objeto a ser observado. Observando a célula representada na figura abaixo, e sabendo que o intervalo de frequências do espectro de luz visível está compreendido entre $4{,}0\\ \\text{x}\\ 10^{14}\\ \\text{Hz}$ e $7{,}5\\ \\text{x}\\ 10^{14}\\ \\text{Hz}$, a menor estrutura celular que se poderia observar nesse microscópio de luz seria\n\n(Se necessário, utilize $c = 3{\\times}10^{8}\\ \\text{m/s}$.)\n\n![Ilustração de uma célula em corte, com rótulos: Mitocôndria 1000 nm, Cloroplasto 2000 nm, Retículo Endoplasmático 420 nm, Ribossomo 25 nm](fig:p19-c1)\n\n(Adaptado de http://educacao.uol.com.br/disciplinas/ciencias/celulas-conheca-a-historia-de-sua-descoberta-e-entenda-sua-estrutura.htm. Acessado em 25/10/2016.)",
+   "alternativas": {
+    "A": "o ribossomo.",
+    "B": "o retículo endoplasmático.",
+    "C": "a mitocôndria.",
+    "D": "o cloroplasto."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 65,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em uma animação do Tom e Jerry, o camundongo Jerry se assusta ao ver sua imagem em uma bola de Natal cuja superfície é refletora, como mostra a reprodução abaixo. É correto afirmar que o efeito mostrado na ilustração não ocorre na realidade, pois a bola de Natal formaria uma imagem\n\n![Quadro de animação de Tom e Jerry: Jerry, ao lado de uma caixa, olha para uma bola de Natal que mostra uma imagem de seu rosto na superfície](fig:p19-c2)\n\n(Adaptado de https://www.youtube.com/watch?v=RtZYfTr7D_o. Acessado em 25/10/2016.)",
+   "alternativas": {
+    "A": "virtual ampliada.",
+    "B": "virtual reduzida.",
+    "C": "real ampliada.",
+    "D": "real reduzida."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 66,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "De acordo com a Organização das Nações Unidas, a população global submetida a deslocamentos forçados cresceu substancialmente durante os últimos decênios, passando de 37,3 milhões para 65,3 milhões em 2015. Desse total, os refugiados representam 16,1 milhões de pessoas, 1,7 milhão a mais que o total registrado 12 meses antes. Mais da metade dos atuais refugiados do mundo (54%) procede de três países afetados por conflitos armados.\n\n(Adaptado de Agência da ONU para Refugiados – ACNUR – Documento *Tendencias Globales*, 2015.)\n\nIndique quais são esses três países.",
+   "alternativas": {
+    "A": "Myanmar, Síria, Somália.",
+    "B": "Afeganistão, Síria, Somália.",
+    "C": "Afeganistão, Grécia, Macedônia.",
+    "D": "Grécia, Macedônia, Myanmar."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 67,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Apesar da queda de preço que vêm sofrendo nos últimos anos, algumas *commodities* minerais continuam sendo importante fonte para a pauta de exportações do Brasil. Na figura a seguir, observamos vias de escoamento (os corredores de exportação) da Amazônia Oriental, partindo de três municípios paraenses: Oriximiná, Parauapebas e Ipixuna do Pará.\n\n![Mapa da Amazônia Oriental com os corredores de exportação e os municípios com mineração ou metalurgia: Oriximiná, Parauapebas e Ipixuna do Pará, entre outros](fig:p20-c1)\n\n(Adaptado de M. de A. Monteiro; M. C. N. Coelho; E. J. da S. Barbosa, Fronteira, corredores de exportação e rede urbana na Amazônia Oriental. *Revista GEOgraphia*, Rio de Janeiro, v. 13, n. 26, p. 47, 2011.)\n\nIdentifique o produto extraído em cada um dos municípios e a via de escoamento correspondente:",
+   "alternativas": {
+    "A": "cobre, corredor baixo Amazonas; bauxita, corredor Carajás; ferro, corredor do vale do rio Capim.",
+    "B": "bauxita, corredor baixo Amazonas; ferro, corredor Carajás; caulim, corredor do vale do rio Capim.",
+    "C": "carvão mineral, corredor Carajás-Tocantins; caulim, corredor do vale do rio Capim; bauxita, corredor baixo Amazonas.",
+    "D": "ferro, corredor Carajás; bauxita, corredor baixo Amazonas; cobre, corredor do vale do rio Capim."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 68,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A zona costeira brasileira abriga diversos ecossistemas de elevada relevância ambiental. Destacam-se, entre muitos outros, os manguezais. A respeito desse ecossistema costeiro, é correto afirmar que são",
+   "alternativas": {
+    "A": "áreas de extensões aquáticas dispostas em paralelo ao litoral e isoladas por cordões litorâneos; mantêm comunicação por canais com as águas fluviais e marinhas, possibilitando a deposição e circulação de sedimentos originados dos dois ambientes e dos ventos.",
+    "B": "unidades geomorfológicas arenosas formadas pela ação permanente dos ventos, apresentando pouca ou nenhuma cobertura vegetal e variação de acúmulo de sedimentos; podem contribuir para a recarga dos lençóis freáticos.",
+    "C": "áreas de planície arenosa de origem marinha de grande fragilidade ambiental; apresentam variação de cobertura vegetal em diferentes estágios sucessionais e variação de topografia do terreno; contêm zonas inundáveis e não inundáveis.",
+    "D": "ambientes de transição, ecótonos, entre áreas marinhas e terrestres, ricos em sedimentos constituídos de matéria orgânica e nutrientes; predomina vegetação arbustiva, que sobrevive em ambientes de permanente inundação."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 69,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Conforme foi noticiado na mídia, no dia 21 de agosto de 2016, a cidade de Santos (SP) foi atingida por uma ressaca que paralisou por 30 horas o principal porto do país, inundou vias e causou transtornos para a mobilidade urbana, o funcionamento de empresas e do comércio.\n\nAs ressacas resultam",
+   "alternativas": {
+    "A": "das dinâmicas das massas de ar formadas nas áreas oceânicas, sempre no verão; são causadas por diferença de pressão atmosférica de áreas de baixa pressão nos oceanos para áreas de alta pressão nos continentes.",
+    "B": "do contato de massas de ar com características termodinâmicas semelhantes, formando sistemas de circulação frontais; quanto menor a umidade do sistema, maior é a instabilidade atmosférica.",
+    "C": "da ação dos sistemas de ciclones extratropicais, especialmente no inverno; o deslocamento de grandes volumes de água decorre da diferença de pressão atmosférica, que produz ventos intensos.",
+    "D": "da ação de ciclones tropicais formados no Atlântico Sul, sempre nos meses de inverno; nesta estação do ano são menores as diferenças de temperatura entre o polo sul e o equador."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 70,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O estudo *Arranjos Populacionais e Concentrações Urbanas do Brasil* (IBGE, 2015) identificou 294 arranjos populacionais no País, de diferentes escalas e naturezas. O Arranjo Populacional da Região Metropolitana de São Paulo (SP) é caracterizado pela extensão e intensidade de seus fluxos: aproximadamente 1.750.000 pessoas deslocam-se cotidianamente entre os municípios que compõem o Arranjo para estudar e trabalhar.\n\nEssa dinâmica espacial é melhor explicada pelo conceito de",
+   "alternativas": {
+    "A": "migração interna.",
+    "B": "movimento pendular.",
+    "C": "migração urbano-urbano.",
+    "D": "movimento sazonal."
+   },
+   "observacoes": ""
+  }
+ ]
+}

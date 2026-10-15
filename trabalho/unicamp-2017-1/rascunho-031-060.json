@@ -329,14 +329,14 @@
       "materia": "historia",
       "materias_extra": [],
       "texto_base": null,
-      "enunciado": "Compare as duas ilustrações de Angelo Agostini (1843-1910) sobre o reconhecimento da República brasileira pela Argentina (fig.1) e pela França (fig.2).\n\n![Gravura de Angelo Agostini: duas figuras femininas de pé, apertando as mãos diante de um brasão, com bandeiras ao fundo; nas bases, os dizeres “Argentina” e “República Brazileira” (fig.1)](fig:p16-c1)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela Argentina*, em *Revista Ilustrada*, dez.1889.)\n\n![Gravura de Angelo Agostini: duas figuras femininas lado a lado, abraçadas, segurando bandeiras, com as palavras “14 Junho” ao fundo (fig.2)](fig:p16-c2)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela França*, em *Revista Ilustrada*, dez.1889.)\n\nAssinale a alternativa correta.",
+      "enunciado": "Compare as duas ilustrações de Angelo Agostini (1843-1910) sobre o reconhecimento da República brasileira pela Argentina (fig.1) e pela França (fig.2).\n\n![Gravura de Angelo Agostini: duas figuras femininas de pé, apertando as mãos diante de um brasão, com bandeiras ao fundo; nas bases dos vestidos há legendas escritas (fig.1)](fig:p16-c1)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela Argentina*, em *Revista Ilustrada*, dez.1889.)\n\n![Gravura de Angelo Agostini: duas figuras femininas lado a lado, abraçadas, segurando bandeiras, com uma inscrição ao fundo (fig.2)](fig:p16-c2)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela França*, em *Revista Ilustrada*, dez.1889.)\n\nAssinale a alternativa correta.",
       "alternativas": {
         "A": "As alegorias expressam visões diferentes sobre o imaginário da República brasileira: na primeira ela é representada com um olhar de proximidade, e, na segunda o olhar expressa admiração, remetendo à visão corrente do gravurista sobre as relações entre Brasil, França e Argentina.",
         "B": "O reconhecimento da França traz a confraternização entre dois países com tradições políticas muito diferentes, porém unidos pelo constitucionalismo monárquico e posteriormente pelo ideário republicano.",
         "C": "No reconhecimento da Argentina ao regime republicano brasileiro, as duas repúblicas ocupam a mesma posição, indicando ter a mesma idade de fundação do regime e a similaridade de suas histórias de passado colonial ibérico.",
         "D": "As duas imagens usam a figura feminina para representar as três repúblicas, característica não usual para a representação artística do ideário republicano, protagonizado por lideranças masculinas."
       },
-      "observacoes": "Descrições das figuras: confira os dizeres lidos nas bases e ao fundo (muito pequenos na gravura)."
+      "observacoes": ""
     },
     {
       "numero": 54,
@@ -421,7 +421,7 @@
       "materia": "fisica",
       "materias_extra": [],
       "texto_base": null,
-      "enunciado": "Hoje é comum encontrarmos equipamentos de exercício físico em muitas praças públicas do Brasil. Esses equipamentos são voltados para pessoas de todas as idades, mas, em particular, para pessoas da terceira idade. São equipamentos exclusivamente mecânicos, sem uso de partes elétricas, em que o esforço consiste usualmente em levantar o próprio peso do praticante. Considere o esquema abaixo, em que uma pessoa de massa $m = 65\\ \\text{kg}$ está parada e com a perna esticada em um equipamento tipicamente encontrado nessas praças. O módulo da força $\\vec{F}$ exercida pela perna da pessoa em razão de sua massa $m$ é\n(Se necessário, utilize $g = 10\\ \\text{m/s}^2$.)\n\n![Esquema de uma pessoa sentada em equipamento de exercício, com a perna esticada empurrando uma barra inclinada em $30^\\circ$ da vertical, com a força $\\vec{F}$ indicada na perna](fig:p18-f2)",
+      "enunciado": "Hoje é comum encontrarmos equipamentos de exercício físico em muitas praças públicas do Brasil. Esses equipamentos são voltados para pessoas de todas as idades, mas, em particular, para pessoas da terceira idade. São equipamentos exclusivamente mecânicos, sem uso de partes elétricas, em que o esforço consiste usualmente em levantar o próprio peso do praticante. Considere o esquema abaixo, em que uma pessoa de massa $m = 65\\ \\text{kg}$ está parada e com a perna esticada em um equipamento tipicamente encontrado nessas praças. O módulo da força $\\vec{F}$ exercida pela perna da pessoa em razão de sua massa $m$ é\n(Se necessário, utilize $g = 10\\ \\text{m/s}^2$.)\n\n![Esquema de uma pessoa sentada em equipamento de exercício, com a perna esticada empurrando uma barra inclinada em 30° da vertical, com a força F indicada na perna](fig:p18-f2)",
       "alternativas": {
         "A": "1300 N.",
         "B": "750 N.",
