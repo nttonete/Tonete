@@ -1,0 +1,135 @@
+{
+ "edicao": "unicamp-2022-2-cha",
+ "intervalo": [
+  1,
+  15
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {
+  "6": {
+   "itens": {
+    "a": "Como o gráfico passa pelo ponto (0,20), no tempo $t = 0$, a distância é de $20\\ \\text{m}$. Então a distância entre o ponto de largada e o equipamento eletrônico é de $20\\ \\text{m}$. Também analisando o gráfico, percebe-se que o tempo necessário para completar uma volta é de 24 s.",
+    "b": "Usando como referência a Figura 2, pode-se dizer que a maior distância acontece quando a reta que liga Márcia e o equipamento eletrônico passa pela origem da circunferência que representa a pista. Nessa situação, a distância é igual ao diâmetro da pista somado à distância entre a pista e o equipamento eletrônico.\n\nA distância entre a pista e o equipamento eletrônico é de 10m, o que pode ser visto pelo gráfico da Figura 1: é o menor valor possível para $y$.\n\nJá o diâmetro da circunferência é $200/\\pi$, já que o comprimento da circunferência é 200m.\n\nPortanto, a maior distância possível é $\\frac{200}{\\pi} + 10$."
+   },
+   "resposta": "**Objetivo da questão:** O objetivo da questão foi analisar a capacidade de os estudantes extrairem informações de gráficos. Com base nessas informações, o aluno deveria utilizar condições de proporcionalidade para resolver a (a) e utilizar conhecimentos de geometria plana/trigonometria para resolver a (b)."
+  },
+  "7": {
+   "itens": {
+    "a": "Como o terceiro termo da sequência é 4, e sua fatoração é $4 = 2 \\cdot 2$, a única possibilidade é terem sido sorteadas 2 bolinhas azuis no começo. Com isso, $x_1 = 2$ e a duas primeiras bolinhas são azuis.\n\nComparando $x_3$ e $x_5$, percebemos que houve multiplicação por 9, cuja fatoração é $9 = 3 \\cdot 3$. Assim, houve duas multiplicações por 3, logo as bolinhas 4 e 5 foram verdes e $x_4 = 60$.\n\n| 1ª bolinha | 2ª bolinha | 3ª bolinha | 4ª bolinha | 5ª bolinha |\n|---|---|---|---|---|\n| **azul** | **azul** | rosa | **verde** | **verde** |",
+    "b": "Não é possível. Os números da sequência de Heloísa são obtidos por meio da multiplicação de $x_0 = 1$ por 2, 3 ou 5, portanto a fatoração de 189 só poderia conter potências desses números. No entanto, a fatoração de 189 é $189 = 3 \\cdot 3 \\cdot 3 \\cdot 7 = 3^3 \\cdot 7$. A presença do 7 faz com que 189 não possa aparecer numa sequência."
+   },
+   "resposta": "**Objetivo da questão:** A questão tratou de fatoração e sequências numéricas. O candidato deveria ser capaz de entender a construção de uma sequência numérica e decidir se um certo termo é admissível."
+  },
+  "9": {
+   "itens": {
+    "a": "Observando o gráfico, percebe-se que 30% das publicações no triênio 2018-2020, com pelo menos um autor sediado no Brasil, foi da área de Matemática e Ciências da Terra. Para calcular a quantidade de publicações, calculamos 30% do total, que foi de 64.000. Portanto, 19.200 publicações.",
+    "b": "Apesar do percentual ter se mantido em 20%, o número de publicações da área aumentou, pois como a quantidade total aumentou de 18 mil para 64 mil ao compararmos os dois triênios, a quantidade de publicações da área passou de 3,6 mil para 12,8 mil."
+   },
+   "resposta": "**Objetivo da questão:** O objetivo da questão é avaliar a capacidade do estudante de extrair informações de um gráfico, bem como comparar percentuais de quantidades distintas."
+  },
+  "11": {
+   "itens": {
+    "a": "O corpo medieval era atravessado pelas tensões geradas pela tentativa de controle da vida cotidiana pela Igreja Católica. Em uma busca por aumentar o seu poder sobre os fiéis, a instituição estabelece normas sobre a alimentação, vestimenta, sexualidade, entre outros campos. Nesta lógica, as práticas cotidianas que transgrediam os valores religiosos católicos eram condenadas como “pecado” pela Igreja. Por exemplo, a embriaguez era confrontada com a abstinência, o jejum com a gula; ademais, o sexo com fins reprodutivos dentro do matrimônio era valorizado.",
+    "b": "Em diferentes contextos históricos distintos, o corpo é submetido a lógicas de poderes diferenciadas. Assim, na Idade Média, as tensões impostas eram regidas por um código religioso: o corpo magro denotava o jejum e a austeridade. Na contemporaneidade, os códigos são múltiplos. A lógica médica e os discursos relativos à saúde, bem como os padrões estéticos divulgados por meios de comunicação podem gerar práticas que vão desde a valorização de corpos magros até o empoderamento e aceitação do corpo como ele é. O basilar da questão era a compreensão das lógicas de poder que imperam sobre a materialidade do corpo humano e suas historicidades."
+   },
+   "resposta": "**Objetivo da questão:** A questão tem por objetivo refletir sobre as concepções históricas acerca do corpo no contexto medieval em diálogo com o tempo presente.\n\nA questão mobiliza a capacidade do candidato de perceber que as concepções envolvendo o corpo são construídas historicamente. Deste modo, o conhecimento utilizado na resolução da questão possibilita uma desnaturalização das tensões que atravessam nossa percepção contemporânea sobre o corpo."
+  },
+  "12": {
+   "itens": {
+    "a": "O texto destaca elementos da ação política negra relacionados às culturas africanas e a seus modos de sociabilidade. Como exemplo, podemos citar as práticas sociais e políticas ligadas à religião vodu, como cantar e dançar. Elas propiciavam o planejamento de rebeliões e outras estratégias que demandavam ação coletiva.",
+    "b": "De um lado, as notícias da revolução haitiana e sua ideologia política influenciaram o horizonte de possibilidades de ação política entre a população negra de diversas regiões do Caribe e das Américas. De outro, o mundo atlântico passa a vivenciar o medo de que o processo revolucionário haitiano chegasse a outros lugares. Podemos citar, no caso do Brasil, o chamado Haitianismo, que acabou por levar à elaboração de leis mais rígidas e punições mais severas sobre a população escravizada. No plano econômico, é possível citar a queda na produção de açúcar nas Antilhas e o aumento da produção no Brasil."
+   },
+   "resposta": "**Objetivo da questão:** O objetivo da questão era abordar a revolução haitiana, considerando o protagonismo dos escravizados e libertos. Para tanto, enfocou-se a influência das culturas políticas africanas (principalmente o sistema de crenças voduns) na ação política dos atores da revolução."
+  },
+  "13": {
+   "itens": {
+    "a": "O texto traz a crítica da denominação genérica feita pelos “adversários” a grupos indígenas, como os Aimorés. Essas nomenclaturas, produzidas sem base em questões etnolinguísticas ou outros elementos culturais, não encontravam correspondências nas formas de identificação étnica dos próprios grupos e acabaram por imperar na documentação histórica. Assim, a forma como acessamos as memórias desses grupos no passado é atravessada pelos olhares dos colonizadores, dificultando a compreensão da diversidade destes grupos.",
+    "b": "Entre as caraterísticas do Romantismo está a idealização do indígena para compor um passado heroico para o Brasil. É importante destacar que essa idealização é marcada pela presença de valores europeus e serve ao Estado brasileiro para a constituição de uma memória nacional. Instituições como o IHGB foram fundamentais para a construção e consolidação desse imaginário."
+   },
+   "resposta": "**Objetivo da questão:** A questão busca uma reflexão crítica sobre as classificações étnicas atribuídas aos indígenas (no caso, aimorés) ao problematizar o uso de termos genéricos que desconsideram a diversidade de identidades desses povos. Enfoca-se a tensão entre rótulos externos e autoidentificação."
+  },
+  "14": {
+   "itens": {
+    "a": "Durante o século XIX, a educação formal era voltada às elites e às famílias de profissionais liberais, que tinham condições materiais de manter tutores para seus filhos e, posteriormente, mandá-los para as universidades europeias – em especial, as portuguesas e as francesas. No caso da população escravizada, liberta ou com pouco poder aquisitivo, o autodidatismo predominava na aquisição da educação informal. É importante destacar que ainda que difícil, o autodidatismo, as leituras compartilhadas e outras formas de construção de conhecimento foram fundamentais para a existência de personalidades como a de Luiz Gama.",
+    "b": "A concessão de título de advogado a Luiz Gama pode ser lida como uma ação de reparação histórica, já que proporciona o reconhecimento, na atualidade, de um título que, no passado, por conta do contexto histórico, não seria possível. Ao mesmo tempo, esse reconhecimento gera uma pluralização da própria narrativa histórica, permitindo a valorização de outros atores sociais, não apenas dos homens brancos e da elite."
+   },
+   "resposta": "**Objetivo da questão:** O objetivo da questão é analisar historicamente a desigualdade étnico-racial no Brasil por meio do enfoque no acesso excludente ao mundo das letras. As fronteiras entre escravidão e liberdade que atravessavam a vida das pessoas negras eram decisivas nesse processo."
+  },
+  "15": {
+   "itens": {
+    "a": "O contexto histórico da Guerra Fria permite a compreensão da “Berlim dividida” como território que encarnava as disputas entre os sistemas capitalistas e socialistas: o primeiro, marcado pela valorização de uma economia e uma política mais liberal; o segundo, distinto pela economia planificada e pela presença ativa do Estado em todos os setores públicos e alguns privados.",
+    "b": "A mentalidade de fortaleza refere-se ao fenômeno de isolamento e fechamento de fronteiras das nações ao longo dos séculos XX e XXI. Podem ser enumerados como causas deste fenômeno: os crescentes nacionalismos e ultranacionalismos, a xenofobia e o medo das migrações."
+   },
+   "resposta": "**Objetivo da questão:** A proposta da questão é estabelecer paralelos e diálogos sobre os significados políticos dos muros entre o contexto da guerra fria (Muro de Berlim) e as soluções controversas para crises migratórias contemporâneas."
+  }
+ },
+ "complementos": {
+  "6": {
+   "assunto": "Funções"
+  },
+  "7": {
+   "assunto": "Aritmética e porcentagem"
+  },
+  "9": {
+   "assunto": "Aritmética e porcentagem"
+  },
+  "11": {
+   "assunto": "Idade Média"
+  },
+  "12": {
+   "assunto": "Revoluções e século XIX"
+  },
+  "13": {
+   "assunto": "Brasil Império"
+  },
+  "14": {
+   "assunto": "Brasil Império"
+  },
+  "15": {
+   "assunto": "Guerra Fria"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 6,
+   "status": "corrigida",
+   "notas": "Enunciado, figura e resposta conferidos com p08 e r03. Sem erros."
+  },
+  {
+   "numero": 7,
+   "status": "corrigida",
+   "notas": "Conferido com p09 e r03. A resposta da banca imprime 'e a duas primeiras bolinhas' (typo do original, mantido). Objetivo acrescentado."
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "Conferido com p11 e r04. A banca imprime 20% no item b (correto: Engenharias é 20% nos dois triênios; a prova comentada diz 30%, o que é erro dela). Mantido como nas respostas esperadas. Objetivo acrescentado."
+  },
+  {
+   "numero": 11,
+   "status": "corrigida",
+   "notas": "Conferido com p13 e r05; aspas retas mantidas como no original. Objetivo acrescentado."
+  },
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "Conferido com p14 e r06. Objetivo acrescentado."
+  },
+  {
+   "numero": 13,
+   "status": "corrigida",
+   "notas": "Conferido com p15 e r06; 'caraterísticas' é do original. Objetivo acrescentado."
+  },
+  {
+   "numero": 14,
+   "status": "corrigida",
+   "notas": "Conferido com p16 e r06. Objetivo acrescentado."
+  },
+  {
+   "numero": 15,
+   "status": "corrigida",
+   "notas": "Conferido com p17 e r06. A resposta esperada do item b não traz exemplos, embora o enunciado peça dois (a prova comentada também não traz); mantido como publicado. Objetivo acrescentado."
+  }
+ ]
+}
