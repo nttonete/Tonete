@@ -1,0 +1,241 @@
+{
+ "edicao": "unesp-2017-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {
+  "t72-73": "Leia o texto para responder às questões **72** e **73**.\n\nO gluconato de cálcio (massa molar = 430 g/mol) é um medicamento destinado principalmente ao tratamento da deficiência de cálcio. Na forma de solução injetável 10%, ou seja, 100 mg/mL, este medicamento é destinado ao tratamento da hipocalcemia aguda.\n\n(www.medicinanet.com.br. Adaptado.)\n\n![Fotografia de uma ampola de vidro de solução injetável de gluconato de cálcio 10%](fig:p28-f1)\n\n(www.hospitalardistribuidora.com.br)\n\n![Fórmula estrutural do gluconato de cálcio: dois ânions gluconato e um cátion Ca²⁺](fig:p28-c1)",
+  "t74-75": "Leia o texto para responder às questões **74** e **75**.\n\nO estireno, matéria-prima indispensável para a produção do poliestireno, é obtido industrialmente pela desidrogenação catalítica do etilbenzeno, que se dá por meio do seguinte equilíbrio químico:\n\n![Equação química: etilbenzeno (g) em equilíbrio, com catalisador, com estireno (g) + H₂ (g), ΔH = 121 kJ/mol](fig:p28-c2)"
+ },
+ "questoes_corrigidas": [
+  {
+   "numero": 84,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O hexágono marcado na malha quadriculada sobre a fotografia representa o contorno do câmpus da Unesp de Rio Claro, que é aproximadamente plano.\n\n![Fotografia aérea do câmpus da Unesp de Rio Claro com uma malha quadriculada, em que cada lado de quadrado mede 160 m, e o contorno do câmpus marcado em amarelo](fig:p33-f1)\n\nA área aproximada desse câmpus, em km², é um número pertencente ao intervalo",
+   "alternativas": {
+    "A": "[0,8 ; 1,3[",
+    "B": "[1,8 ; 2,3[",
+    "C": "[2,3 ; 2,8[",
+    "D": "[1,3 ; 1,8[",
+    "E": "[0,3 ; 0,8["
+   }
+  }
+ ],
+ "complementos": {
+  "61": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Dengue, zika e chikungunya são transmitidas pelo mesmo vetor (o mosquito *Aedes aegypti*), pelo mesmo modo (picada) e nas mesmas regiões. O que muda de uma para outra é o vírus causador.\n\nCada vírus tem suas próprias características: as células que prefere infectar, a velocidade com que se multiplica e os tecidos que atinge (o zika, por exemplo, tem mais afinidade com o tecido nervoso). Isso explica os quadros clínicos diferentes do quadro.\n\nAs alternativas A, C e D apontam fatores que são iguais para as três doenças. A E fala em \"mesmo agente\", mas os agentes são diferentes.\n\n**Resposta: B**"
+  },
+  "62": {
+   "assunto": "Botânica",
+   "resolucao": "A matéria fala da fotossíntese, que retira $\\text{CO}_2$ do ar e usa o carbono para formar a matéria orgânica da planta, inclusive a do tronco.\n\nO erro está em dizer que o $\\text{O}_2$ devolvido vem do $\\text{CO}_2$. Na fase clara, o gás oxigênio liberado vem da quebra da água (fotólise): $2\\,\\text{H}_2\\text{O} \\to 4\\,\\text{H}^+ + 4\\,e^- + \\text{O}_2$. O oxigênio do $\\text{CO}_2$ fica na glicose e na água formada.\n\nA alternativa B é a armadilha: aceita a ideia errada de que o $\\text{O}_2$ sai do $\\text{CO}_2$. A C erra porque a celulose e a lignina do tronco são, sim, feitas com o carbono fixado.\n\n**Resposta: D**"
+  },
+  "63": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Para cada pessoa, procure uma doença do quadro que se pegue daquele jeito.\n\n- Júlio (transfusão de sangue): o HIV e o *Treponema pallidum* circulam no sangue, então aids ou sífilis.\n- Paulo (no útero da mãe): a sífilis congênita é a transmissão clássica pela placenta. O HIV também pode passar.\n- Adriano (só por relação sexual): o cancro mole é transmitido apenas pelo contato sexual com as lesões.\n\nA única combinação possível é aids, sífilis e cancro mole. A gonorreia, que aparece em outras alternativas, também passa ao bebê na hora do parto, e não só por relação sexual.\n\n**Resposta: C**"
+  },
+  "64": {
+   "assunto": "Citologia",
+   "resolucao": "Nos dois gráficos o eixo horizontal vai de 100% a 0%, ou seja, mostra o processo andando: a cauda diminuindo (A) e o lipídio sendo gasto (B).\n\nGráfico A: a cauda do girino regride porque os lisossomos digerem as próprias células (autólise). Quanto mais a cauda já regrediu, mais intensa está a digestão: a atividade sobe ao longo do eixo, como na curva 1.\n\nGráfico B: na germinação, os peroxissomos (glioxissomos) convertem a gordura de reserva em açúcar. O consumo de lipídios vem justamente do aumento da atividade dessas organelas: de novo, a curva 1.\n\nA curva 2 (atividade constante) não explicaria a mudança, e a 3 diria que a atividade cai justamente enquanto o processo avança.\n\n**Resposta: A**"
+  },
+  "65": {
+   "assunto": "Botânica",
+   "resolucao": "A ideia central é a dominância apical: a auxina produzida na gema apical (a ponta do ramo) inibe o desenvolvimento das gemas laterais.\n\nQuando se poda a gema apical, essa inibição acaba. As gemas laterais passam a se desenvolver e a produzir auxina, e a planta ramifica para os lados. O resultado é uma planta mais baixa e mais densa, que é o que se quer na cerca-viva.\n\nPodar as gemas laterais (B e D) faria o contrário: a planta cresceria para cima, com poucos ramos.\n\n**Resposta: A**"
+  },
+  "66": {
+   "assunto": "Botânica",
+   "resolucao": "A enxertia não mistura material genético. Cada parte da planta mantém o seu DNA: o porta-enxerto (abóbora) só fornece raiz, água e nutrientes.\n\nFlores e frutos se formam no enxerto, que é de pepino. Então os frutos são pepinos, e as sementes, formadas a partir das flores do pepino, darão origem a novas plantas de *Cucumis sativus*.\n\nA alternativa B é a pegadinha: não há fecundação entre as duas espécies, então não se forma híbrido.\n\n**Resposta: E**"
+  },
+  "67": {
+   "assunto": "Genética",
+   "resolucao": "O gene é recessivo e fica no cromossomo X ($X^d$).\n\n- Luísa é daltônica, então é $X^dX^d$: recebeu um $X^d$ do pai e outro da mãe. Logo o pai é daltônico ($X^dY$).\n- A mãe tem pelo menos um $X^d$. Se fosse daltônica ($X^dX^d$), o pai dela também teria de ser, e seriam três daltônicos além dos gêmeos. Como são só dois, a mãe é portadora ($X^DX^d$).\n- Então o $X^d$ da mãe veio do avô materno (daltônico) ou da avó materna (portadora). Como falta só uma pessoa daltônica, ela é o avô materno.\n\nAs duas pessoas são o pai e o avô materno. A alternativa D (pai e mãe) exigiria um terceiro daltônico, o avô materno.\n\n**Resposta: A**"
+  },
+  "68": {
+   "assunto": "Evolução",
+   "resolucao": "Tubarão, peixe, pinguim, foca e golfinho são de grupos bem distantes, mas todos têm corpo hidrodinâmico e membros em forma de nadadeira. Isso é convergência adaptativa: grupos diferentes ficam parecidos porque vivem no mesmo tipo de ambiente.\n\nQuem produz essa semelhança é a seleção natural. No meio aquático, sobrevivem e se reproduzem mais os indivíduos com corpo que facilita o nado.\n\nAs alternativas A e D erram ao dizer que a mutação surge \"em resposta\" ao ambiente ou que leva à irradiação, que é o processo oposto (um grupo se diversifica). A B erra porque os ambientes são parecidos, e não diferentes.\n\n**Resposta: C**"
+  },
+  "69": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Ao misturar duas soluções, o precipitado é o sal pouco solúvel formado pela troca de íons. Nitratos e sais de sódio são solúveis, então nunca são o precipitado.\n\n- 1 + 2: $\\text{Ba(NO}_3\\text{)}_2 + \\text{Na}_2\\text{CrO}_4 \\to \\text{BaCrO}_4\\downarrow + 2\\,\\text{NaNO}_3$. O ppt 1 é o $\\text{BaCrO}_4$.\n- 2 + 3: $\\text{Na}_2\\text{CrO}_4 + 2\\,\\text{AgNO}_3 \\to \\text{Ag}_2\\text{CrO}_4\\downarrow + 2\\,\\text{NaNO}_3$. O ppt 2 é o $\\text{Ag}_2\\text{CrO}_4$.\n\nO quadro confirma: as misturas que só podem formar nitratos (1 + 3, 1 + 4, 3 + 4) ou sais de sódio (2 + 4) não precipitam.\n\n**Resposta: B**"
+  },
+  "70": {
+   "assunto": "Termoquímica",
+   "resolucao": "Primeiro, a energia de 2,6 mL de azeite. Por proporção: $Q = \\frac{2{,}6}{13} \\cdot 108 = 0{,}2 \\cdot 108 = 21{,}6\\ \\text{kcal}$.\n\nTodo esse calor aquece 500 g = 0,5 kg de água: $Q = m \\cdot c \\cdot \\Delta T \\Rightarrow 21{,}6 = 0{,}5 \\cdot 1 \\cdot \\Delta T \\Rightarrow \\Delta T = 43{,}2\\ ^\\circ\\text{C}$.\n\nA temperatura final é $20{,}0 + 43{,}2 = 63{,}2\\ ^\\circ\\text{C}$. A alternativa A (21,6 °C) usa o valor da energia como se fosse a temperatura.\n\n**Resposta: D**"
+  },
+  "71": {
+   "assunto": "Eletroquímica",
+   "resolucao": "A carga que passou é $Q = i \\cdot t = 0{,}200 \\cdot 965 = 193\\ \\text{C}$.\n\nEm mol de elétrons: $n_{e^-} = \\frac{193}{96\\,500} = 0{,}002\\ \\text{mol}$.\n\nNo cátodo: $2\\,\\text{H}^+ + 2\\,e^- \\to \\text{H}_2$. São 2 mol de elétrons para cada 1 mol de $\\text{H}_2$, então $n_{\\text{H}_2} = 0{,}001\\ \\text{mol}$.\n\nO volume nas CATP é $V = 0{,}001 \\cdot 25\\,000 = 25{,}0\\ \\text{mL}$. A alternativa E (50,0 mL) esquece que cada $\\text{H}_2$ consome 2 elétrons.\n\n**Resposta: D**"
+  },
+  "72": {
+   "assunto": "Química orgânica",
+   "resolucao": "Conte os hidrogênios de um ânion gluconato, seguindo a cadeia de 6 carbonos:\n\n- $\\text{HO–CH}_2$: 1 H na hidroxila e 2 H no carbono, total 3;\n- 4 grupos $\\text{CH(OH)}$: 2 H em cada, total 8;\n- $\\text{COO}^-$: nenhum H.\n\nCada ânion tem 11 H ($\\text{C}_6\\text{H}_{11}\\text{O}_7^-$). Como o sal tem dois ânions para um $\\text{Ca}^{2+}$, o total é $2 \\cdot 11 = 22$. A alternativa B (20) esquece os H das hidroxilas das pontas ou conta só um ânion de forma incompleta.\n\n**Resposta: E**"
+  },
+  "73": {
+   "assunto": "Soluções",
+   "resolucao": "A solução tem 100 mg/mL. Em 10 mL há $10 \\cdot 100 = 1\\,000\\ \\text{mg} = 1\\ \\text{g}$ de gluconato de cálcio.\n\nEm mol: $n = \\frac{1}{430} \\approx 2{,}33 \\times 10^{-3}\\ \\text{mol}$. Cada fórmula do sal tem um único $\\text{Ca}^{2+}$, então essa também é a quantidade de íons cálcio.\n\nNúmero de íons: $2{,}33 \\times 10^{-3} \\cdot 6{,}0 \\times 10^{23} \\approx 1{,}4 \\times 10^{21}$.\n\n**Resposta: D**"
+  },
+  "74": {
+   "assunto": "Química orgânica",
+   "resolucao": "Os dois compostos têm só carbono e hidrogênio e um anel benzênico: são hidrocarbonetos aromáticos.\n\nAs outras não servem. Nenhum carbono está ligado a quatro outros carbonos, então não há carbono quaternário (B). Também não há carbono com quatro ligantes diferentes, então não há carbono assimétrico (D). E as fórmulas são diferentes ($\\text{C}_8\\text{H}_{10}$ e $\\text{C}_8\\text{H}_8$), então não são isômeros (C e E).\n\n**Resposta: A**"
+  },
+  "75": {
+   "assunto": "Equilíbrio químico",
+   "resolucao": "O $\\Delta H = +121\\ \\text{kJ/mol}$ é positivo: a formação de estireno é endotérmica.\n\nPelo princípio de Le Châtelier, aquecer favorece o sentido que absorve calor, ou seja, a formação de estireno.\n\nO catalisador só acelera a reação e não muda a entalpia (A e B). A pressão interfere, porque há 1 mol de gás nos reagentes e 2 mol nos produtos: aumentar a pressão desloca o equilíbrio para o etilbenzeno (D).\n\n**Resposta: C**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "corrigida",
+   "notas": "texto base t72-73: os números das questões na frase de abertura estão em negrito no caderno (“**72** e **73**”); corrigido."
+  },
+  {
+   "numero": 73,
+   "status": "corrigida",
+   "notas": "texto base t72-73: os números das questões na frase de abertura estão em negrito no caderno (“**72** e **73**”); corrigido."
+  },
+  {
+   "numero": 74,
+   "status": "corrigida",
+   "notas": "texto base t74-75: os números das questões na frase de abertura estão em negrito no caderno (“**74** e **75**”); corrigido."
+  },
+  {
+   "numero": 75,
+   "status": "corrigida",
+   "notas": "texto base t74-75: os números das questões na frase de abertura estão em negrito no caderno (“**74** e **75**”); corrigido."
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": "Fonte “Bioquímica básica,1999” sem espaço após a vírgula, como no caderno (observação do transcritor confirmada)."
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": "Conferido: as alternativas A, B, C e D são fisicamente equivalentes entre si (inverter a pilha ou o polo do ímã inverte o sentido), então só E pode estar certa; a análise pela força magnética também dá E."
+  },
+  {
+   "numero": 84,
+   "status": "corrigida",
+   "notas": "Retirada a matéria extra “geografia”: a questão só pede ler a escala da malha (160 m) e calcular a área, conteúdo de matemática. Conferido o desenho: o contorno amarelo tem 6 vértices (hexágono não convexo, com um “recorte” para dentro no lado esquerdo), então “hexágono” bate com a figura. Malha medida: cerca de 42 quadrados de 0,0256 km², área ≈ 1,1 km²."
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
