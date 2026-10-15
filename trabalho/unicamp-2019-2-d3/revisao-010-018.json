@@ -1,0 +1,150 @@
+{
+ "edicao": "unicamp-2019-2-d3",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {
+  "10": {
+   "resposta": "**Objetivo da questão:** O item **a** versa sobre ondulatória, abordando as frequências de ressonância acústicas em um tubo fechado. A expressão para as frequências de ressonância foi dada, e o candidato deveria fazer a leitura do diagrama e encontrar o modo (valor de n).\n\nNo item **b** a força acústica é aproximada por uma força elástica (válida nas proximidades dos nós de pressão). A partir daí, através da conservação da energia mecânica (potencial elástica e potencial gravitacional), o candidato deveria encontrar o ponto de retorno da esfera.",
+   "itens": {
+    "a": "Pela interpretação da imagem temos $n = 3$ e $L = 3{,}4\\ \\text{cm} = 3{,}4\\times10^{-2}\\ \\text{m}$. Assim,\n\n$$f_3 = \\frac{3\\times340\\ \\text{m/s}}{2\\times3{,}4\\times10^{-2}\\ \\text{m}} = 15000\\ \\text{Hz} = 15\\ \\text{kHz}.$$",
+    "b": "Pelo princípio de conservação de energia, $mgd = \\frac{kd^2}{2}$. Assim,\n\n$$d = \\frac{2mg}{k} = \\frac{2\\times1{,}5\\times10^{-6}\\times10}{6{,}0\\times10^{-2}} = 5\\times10^{-4}\\ \\text{m} = 0{,}5\\ \\text{mm}.$$"
+   }
+  },
+  "11": {
+   "resposta": "**Objetivo da questão:** A questão aborda o tema de circuitos elétricos, em particular a lei das malhas e a lei dos nós. As correntes nos diferentes ramos do circuito variam com o tempo. A queda de tensão em resistores e num capacitor também foi exigida na resolução. O candidato deveria ler num gráfico a carga armazenada no capacitor num dado instante.",
+   "itens": {
+    "a": "Pelo gráfico temos $q(0{,}2\\ \\text{s}) = 50\\times10^{-6}\\ \\text{C}$. Assim,\n\n$$V_C = \\frac{q}{C} = \\frac{50\\times10^{-6}\\ \\text{C}}{20\\times10^{-6}\\ \\text{C/V}} = 2{,}5\\ \\text{V}.$$",
+    "b": "Usando as leis de Kirchhoff das malhas e dos nós para o circuito da figura A, temos $\\varepsilon = V_{R_A} + V_{R_B}$ e $i_A = i_B + i_C$. Assim,\n\n$\\varepsilon - R_A i_A - R_B i_B = 0$,\n$\\varepsilon - R_A (i_B + i_C) - R_B i_B = 0$,\n\n$$i_B = \\frac{\\varepsilon - R_A i_C}{R_A + R_B} = \\frac{12\\ \\text{V} - (40\\times10^3\\ \\Omega)\\times(150\\times10^{-6}\\ \\text{A})}{(40+60)\\times10^3\\ \\Omega} = 60\\ \\mu\\text{A}.$$"
+   }
+  },
+  "12": {
+   "resposta": "**Objetivo da questão:** Trata-se de uma questão sobre Física moderna e óptica geométrica.\n\nNo item **a**, o candidato deveria calcular a temperatura de um corpo negro com espectro de emissão similar ao do Sol. Para isso, foi fornecida a lei de Wien, que relaciona o comprimento de máxima emissão, $\\lambda_{\\text{max}}$, com a temperatura do corpo. O candidato deveria identificar $\\lambda_{\\text{max}}$ no gráfico do espectro de emissão do corpo negro.\n\nO item **b** aborda as leis de refração e de reflexão de forma qualitativa, para a incidência de dois comprimentos de onda no visível na primeira interface ar-vidro de um prisma.",
+   "itens": {
+    "a": "Pelo gráfico, $\\lambda_{\\text{max}} = 500\\ \\text{nm}$. Assim,\n\n$$T = \\frac{b}{\\lambda_{\\text{max}}} = \\frac{3\\times10^{-3}\\ \\text{m}\\times\\text{K}}{500\\times10^{-9}\\ \\text{m}} = 6000\\ \\text{K}.$$",
+    "b": "Conforme a lei da reflexão, o ângulo de reflexão é igual ao ângulo de incidência, independentemente do comprimento de onda da luz incidente. A lei de Snell-Descartes diz que, nesse caso, quanto maior o índice de refração do prisma, menor o ângulo de refração. Além disso, o índice de refração do prisma para a cor azul (menor comprimento de onda) é maior do que para a cor vermelha (maior comprimento de onda).\n\n![Figura B com a resposta: feixe incidente formando o ângulo θ₁ com a normal, feixe refletido saindo da face com o mesmo ângulo θ₁ do outro lado da normal e, dentro do prisma, dois raios refratados, um vermelho e um azul, com o raio azul mais próximo da normal que o vermelho](fig:r04-c1)"
+   }
+  },
+  "13": {
+   "resposta": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria: (a) conhecer os componentes bioquímicos das células; (b) saber que o material genético sofre mutações, as quais estão na origem de toda a variabilidade genética; (c) saber que o processo de mutação, aliado à deriva genética e a outros processos evolutivos, torna a evolução biológica imprevisível.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou: (a) argumentação lógica (necessária para explicar por que o processo evolutivo é imprevisível); e (b) interpretação de dados (fornecidos no estudo dos planetas de outro sistema estelar).",
+   "itens": {
+    "a": "O planeta TRAPPIST-1f apresenta composição rochosa, sugerindo a presença de minerais, alguns dos quais são componentes fundamentais das células e importantes para uma variedade de processos bioquímicos e fisiológicos nos organismos vivos. Além disso, o planeta tem água no estado líquido na superfície, o que seria crucial para o desenvolvimento da vida nesse planeta, já que a água é um componente essencial de todas as formas de vida que conhecemos.",
+    "b": "Dois planetas com características semelhantes semeados simultaneamente pelos mesmos micro-organismos não necessariamente apresentarão as mesmas formas de vida bilhões de anos depois, já que variados processos aleatórios caracterizam a evolução biológica, incluindo o surgimento de mutações (mudanças no material genético), os processos de deriva genética (variações randômicas nas frequências dos genes ao longo do tempo), a ocorrência de eventos geológicos locais ou em escala planetária, além de possíveis diferenças no resultado da seleção natural. Em última análise, as mutações resultantes de mudanças no material genético são a fonte da variabilidade genética existente na natureza."
+   }
+  },
+  "14": {
+   "resposta": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria conhecer o importantíssimo conceito de transgenia, normalmente confundido com o simples processo de mutação ou ainda com melhoramento genético. Também costuma haver confusão entre os termos transgenia, biotecnologia e organismo geneticamente modificado (o resultado da transgenia). A questão também exigiu do candidato conhecimento sobre o conceito de gene e sobre o processo biotecnológico de geração de animais transgênicos para benefício da humanidade.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou a capacidade de interpretação de dados e gráficos, necessária para a resolução do item **a**.",
+   "itens": {
+    "a": "O macerado produzido a partir das lagartas foi capaz de reduzir a massa de polietileno (PE). Logo, a redução na massa das sacolas plásticas na presença das lagartas vivas não pode ter sido resultado apenas de mastigação mecânica pelo inseto. Uma vez que 10% (ou 0,1 mg/$\\text{cm}^2$ de PE) da massa do pedaço de PE foi degradada ao longo de 10 horas pelo macerado das lagartas, seriam necessárias 100 horas no total para degradar completamente o pedaço (ou 1,0 mg/$\\text{cm}^2$ de PE), considerando que a taxa de degradação de PE permanece constante.",
+    "b": "Transgenia é o processo biotecnológico através do qual são gerados organismos transgênicos (organismos geneticamente modificados pela introdução de um trecho de material genético exógeno, proveniente de fora do organismo). Para a criação de uma bactéria transgênica capaz de ser empregada em processos industriais de reciclagem de resíduos plásticos, o genoma de tal bactéria deve ser geneticamente modificado pela introdução do gene que codifica a enzima PETase proveniente da *Ideonella sakaiensis*."
+   }
+  },
+  "15": {
+   "resposta": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria revelar conhecimento sobre zoologia e as principais características de três grupos de grande importância econômica, médica e social para o ser humano.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou o conhecimento sobre o sistema de classificação dos organismos vivos e a capacidade de elaborar hipóteses para a definição dos níveis de parentesco evolutivo entre os grupos mencionados no item **a**.",
+   "itens": {
+    "a": "Preenchimento correto dos retângulos em cinza na tabela:\n\n![Tabela preenchida. Anelídeos: Celoma, Celomados; Simetria, Bilateral; Sistema digestório, Completo; Segmentação, Presente. Coluna X: Sistema circulatório, Presente. Coluna Y: Sistema circulatório, Ausente; Eixo ântero-posterior, Definido. Na linha Exemplo de organismo, as três colunas, X, Anelídeos e Y, trazem a palavra Exemplo](fig:r09-c1)\n\nPossíveis exemplos de moluscos (coluna X): lesma, caracol, polvo, lula, sépia, mexilhão, etc.\nPossíveis exemplos de anelídeos: minhoca, poliqueto, sanguessuga, etc.\nPossíveis exemplos de platelmintos (coluna Y): planária, tênia, verme do *Schistosoma*, etc.",
+    "b": "Preenchimento correto dos retângulos no diagrama:\n\n![Diagrama preenchido: retângulo da esquerda com Platelmintos, rótulo Anelídeos no meio e retângulo da direita com Moluscos](fig:r10-c1)\n\nO diagrama é um cladograma, que representa a hipótese sobre as relações de parentesco evolutivo entre grupos taxonômicos. No caso, o cladograma indica que moluscos são mais proximamente aparentados com anelídeos do que com platelmintos."
+   }
+  },
+  "16": {
+   "resposta": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria revelar conhecimento sobre tipos de interações ecológicas, particularmente sobre os benefícios ou prejuízos para as espécies envolvidas. Além disso, deveria mobilizar conteúdos sobre fisiologia vegetal e o papel das raízes na absorção de nutrientes e no crescimento das plantas. Tais assuntos têm relevância para a área da agricultura e, portanto, para nosso Estado e país. Em particular, o candidato deveria conhecer a relação entre absorção de nutrientes, uso de fertilizantes e as consequências para o ambiente.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou a capacidade de argumentação lógica, pois o candidato precisava resgatar informações de diversos gráficos e argumentar baseado em um possível cenário. Além disso, havia forte exigência de interpretação de gráficos e elaboração de hipóteses. Dessa forma, a questão contém elementos essenciais para a seleção de bons alunos ingressantes para a UNICAMP, mesmo fora da área biológica.",
+   "itens": {
+    "a": "Pela análise do gráfico, fica evidente que, na presença de micorrizas, o crescimento inicial da planta é favorecido, o que sugere que o processo de absorção de nutrientes pelas raízes é facilitado pela interação ecológica com os fungos. Tal interação é do tipo mutualismo, já que tem consequências positivas óbvias para a planta, além de oferecer vantagens para o fungo, que recebe nutrientes orgânicos da planta.",
+    "b": "A bioinoculação de fungos no solo aumenta a chance de formação de micorrizas, oferecendo uma alternativa ao uso de fertilizantes sintéticos, já que promove aumento no crescimento da planta, como sugere o gráfico A, por facilitar a absorção de nutrientes. A bioinoculação seria vantajosa também para o ambiente, uma vez que a redução no uso de fertilizantes sintéticos poderia reduzir a emissão de gases de efeito estufa $\\text{N}_2\\text{O}$, como mostra o gráfico B. Além disso, a contaminação de corpos d'água com fertilizantes seria reduzida, o que poderia levar a um aumento na oxigenação da água, como sugere o gráfico C, com efeitos benéficos para os organismos vivos aeróbicos que ali vivem."
+   }
+  },
+  "17": {
+   "resposta": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria revelar conhecimento sobre biologia celular e fisiologia do sistema nervoso. Em especial, a questão exigia conhecimentos sobre a natureza e as funções dos processos celulares das células neuronais, dendritos e axônios.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou a capacidade de relacionar ideias e de elaborar explicações com base em informações de gráficos e imagens.",
+   "itens": {
+    "a": "Microtúbulos, componentes do citoesqueleto das células eucarióticas constituídos de subunidades da proteína tubulina, são importantes em diversos processos celulares, tais como a organização do citoesqueleto para que a célula adquira seu formato apropriado, o transporte de organelas e outros componentes da célula, o movimento dos cromossomos e a organização do fuso durante a mitose e a meiose, a mobilidade de alguns tipos celulares (cílios e flagelos). Na fase 4, os dendritos (localizados na parte esquerda da representação esquemática do neurônio) apresentam a proteína MAP2 em maior quantidade do que as demais proteínas MAP.",
+    "b": "A principal função dos axônios é a condução (transmissão) dos impulsos nervosos gerados pela célula neuronal até a célula pós-sináptica. Dendritos (especializados em receber estímulos nervosos) e axônios participam ativamente do processo de plasticidade neuronal, pois são os responsáveis pelo estabelecimento das conexões dos circuitos neuronais por meio das sinapses, as quais não somente transmitem os impulsos nervosos de uma célula para outra, mas também podem sofrer alterações derivadas da plasticidade neuronal."
+   }
+  },
+  "18": {
+   "resposta": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria revelar conhecimento sobre o código genético, sobre a síntese proteica através do processo de tradução de ácidos nucleicos pelo ribossomo e sobre o funcionamento dos códons. Além disso, deveria deduzir a influência de vários tipos de mutação na sequência codificadora durante esse processo.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão exigiu argumentação lógica a partir de dados fornecidos e interpretação de imagens e esquemas.",
+   "itens": {
+    "a": "O dupleto que representa o tipo de *pixel* gráfico indicado no enunciado possui a sequência CG (nucleotídeo com a base nitrogenada citosina seguido de nucleotídeo com a base guanina). A inserção de uma base logo após o primeiro dupleto de um códex modifica a matriz de leitura, ou seja, todos os dupletos a partir do ponto de inserção serão modificados, causando possíveis mudanças em quase todos os *pixels* da linha correspondente ao códex na imagem. Em contraste, a deleção do último dupleto de um códex tem como consequência a supressão de apenas um *pixel* da linha correspondente ao códex na imagem.",
+    "b": "No sistema descrito no enunciado, cada dupleto (conjunto de duas bases) simboliza um *pixel* gráfico, enquanto, em organismos vivos, cada códon (conjunto de três bases encontrado na região codificadora do mRNA) codifica um aminoácido na cadeia proteica ou o término da tradução. Tal processo é catalisado pelo ribossomo."
+   }
+  }
+ },
+ "complementos": {
+  "10": {
+   "assunto": "Ondulatória"
+  },
+  "11": {
+   "assunto": "Eletrodinâmica"
+  },
+  "12": {
+   "assunto": "Física moderna"
+  },
+  "13": {
+   "assunto": "Evolução"
+  },
+  "14": {
+   "assunto": "Biotecnologia"
+  },
+  "15": {
+   "assunto": "Zoologia"
+  },
+  "16": {
+   "assunto": "Ecologia"
+  },
+  "17": {
+   "assunto": "Fisiologia humana"
+  },
+  "18": {
+   "assunto": "Genética"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 10,
+   "status": "corrigida",
+   "notas": "Enunciado, itens e figura p12-c1 conferem. Resposta: removido \"(2 pontos)\" (não consta nas respostas esperadas, r03). Objetivo confere com a prova comentada."
+  },
+  {
+   "numero": 11,
+   "status": "corrigida",
+   "notas": "Enunciado, figuras A e B e resposta (r04) conferem. Removido \"(2 pontos)\" que veio da prova comentada. Objetivo confere."
+  },
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "Enunciado, figuras A e B, resposta e figura r04-c1 conferem. Removido \"(2 pontos)\". Observação do transcritor (lambda como quadrado vazio no PDF da comentada) resolvida: λmax é o que as respostas esperadas trazem. Objetivo confere."
+  },
+  {
+   "numero": 13,
+   "status": "corrigida",
+   "notas": "Enunciado (incluindo a linha final do item b, que está no caderno) e resposta (r09) conferem. Removido \"(2 pontos)\". Objetivo confere."
+  },
+  {
+   "numero": 14,
+   "status": "corrigida",
+   "notas": "Enunciado, fontes, gráfico p16-f1 e resposta (r09) conferem. Removido \"(2 pontos)\". Objetivo confere."
+  },
+  {
+   "numero": 15,
+   "status": "corrigida",
+   "notas": "Tabela e diagrama do campo de resolução (p17-c3, p17-c4) e respostas (r09-c1, r10-c1) conferem; as descrições não entregam o preenchimento. Removido \"(2 pontos)\". Objetivo confere."
+  },
+  {
+   "numero": 16,
+   "status": "corrigida",
+   "notas": "Figura p18-f1 completa; enunciado, fonte e resposta (r10) conferem. Removido \"(2 pontos)\" e, do objetivo, a frase de desempenho (\"não se trata de uma questão fácil e o desempenho geral na questão provou isso\")."
+  },
+  {
+   "numero": 17,
+   "status": "corrigida",
+   "notas": "Enunciado, figura p19-c1, legenda, fonte e resposta (r10) conferem. Removido \"(2 pontos)\". Objetivo confere."
+  },
+  {
+   "numero": 18,
+   "status": "corrigida",
+   "notas": "Sequência de DNA do enunciado conferida base a base com o texto extraído e a imagem; figuras p20-c1/c2 completas; símbolo ◣ aceito (observação do transcritor). Resposta (r11) confere. Removido \"(2 pontos)\". Objetivo confere."
+  }
+ ]
+}
