@@ -1,0 +1,254 @@
+{
+ "edicao": "unesp-2019-1",
+ "textos_base": {
+  "t70-71": "Para responder às questões 70 e 71, analise as fórmulas estruturais de bases nitrogenadas que compõem o DNA e os símbolos empregados para representá-las.\n\n![fórmulas estruturais das bases nitrogenadas adenina (A), guanina (G), citosina (C) e timina (T)](fig:p26-c1)",
+  "t72-73": "Leia o texto para responder às questões 72 e 73.\n\n![fotografia de um avião Boeing 737-800 em voo, acima das nuvens](fig:p27-f1)\n\nTomando como base um Boeing 737-800, seus tanques de combustível podem comportar até 21 t (21 toneladas) de querosene de aviação (QAV).\n\nO consumo do QAV tem como principal variável o peso total da aeronave. Além disso, altitude, velocidade e temperatura também influenciam na conta. Quanto mais longo o percurso, mais eficiente a aeronave será, pois o consumo do QAV em altitude é muito menor, devido à atmosfera mais rarefeita, que causa menos resistência ao avanço e, ao mesmo tempo em que ocorre o consumo, reduz-se o peso da aeronave.\n\nEm voo de cruzeiro (quando o avião alcança a velocidade e altitude ideais) o consumo de QAV é de aproximadamente 2 200 kg/h. A fase do voo com maior consumo de combustível é a subida, pois a aeronave precisa de muita força para decolar e ganhar altitude. O consumo de QAV chega a ser o dobro, se comparado ao voo de cruzeiro. Já na descida, o consumo é menor, chegando a ser 1/3 em comparação ao voo de cruzeiro.\n\n(www.agenciaabear.com.br. Adaptado.)"
+ },
+ "questoes": [
+  {
+   "numero": 61,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O solo amazônico é naturalmente rico em mercúrio na sua forma inorgânica. Na bacia do Rio Negro, todos os anos, na época chuvosa, os rios transbordam, invadem a floresta e formam ecossistemas fechados que permanecem inundados por até 130 dias. Nesse processo, o mercúrio inorgânico é liberado na água e bactérias anaeróbias convertem-no em metilmercúrio, que entra na cadeia alimentar aquática desses ecossistemas.\n\n(http://revistapesquisa.fapesp.br. Adaptado.)\n\nNa situação descrita,",
+   "alternativas": {
+    "A": "as bactérias anaeróbias concentram a maior parte do mercúrio nas cadeias alimentares da região inundada.",
+    "B": "a bioacumulação de mercúrio nos organismos aquáticos será menor ao longo dos níveis tróficos das cadeias alimentares.",
+    "C": "os microrganismos que fermentam a matéria orgânica na água favorecem a entrada de mercúrio nas cadeias alimentares.",
+    "D": "os organismos autotróficos nas cadeias alimentares da região inundada não são contaminados pelo mercúrio.",
+    "E": "a contaminação por mercúrio fica restrita aos organismos aquáticos dos ecossistemas da região inundada."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 62,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A profilaxia pré-exposição (PrEP) ao vírus HIV é um tratamento que consiste no consumo diário do antirretroviral Truvada® e tem como público-alvo pessoas com maior vulnerabilidade a adquirir o vírus. Segundo o Ministério da Saúde, o uso correto do medicamento reduz o risco de infecção por HIV em mais de 90%. Esse uso, porém, não barra a entrada do vírus no organismo, apenas bloqueia a ação da enzima transcriptase reversa.\n\n(https://g1.globo.com. Adaptado.)\n\nO tratamento com Truvada®",
+   "alternativas": {
+    "A": "é profilático porque combate o agente transmissor da AIDS.",
+    "B": "evita que a célula infectada produza moléculas de DNA viral.",
+    "C": "dispensa o uso de métodos contraceptivos de barreira.",
+    "D": "impede a entrada do vírus em células humanas de defesa.",
+    "E": "pode ser eficaz contra outros vírus constituídos por DNA."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 63,
+   "materia": "biologia",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "A proteína transmembrana de um macrófago apresenta aminoácidos constituídos pelos radicais polares R1 e R2, presentes em dois dos aminoácidos indicados pelas fórmulas estruturais presentes na figura.\n\n![esquema de uma proteína transmembrana na membrana plasmática, com polissacarídeos do glicocálice e os pontos R1 (face externa) e R2 (face interna), e fórmulas estruturais parciais dos aminoácidos alanina, serina e aspartato](fig:p24-c1)\n\nUm antígeno fora do macrófago liga-se a um dos radicais por interação dipolo permanente-dipolo permanente. Uma enzima produzida no citosol do macrófago interage com o outro radical por ligação de hidrogênio.\n\nOs radicais R1 e R2 constituem, respectivamente, os aminoácidos",
+   "alternativas": {
+    "A": "serina e alanina.",
+    "B": "aspartato e serina.",
+    "C": "alanina e serina.",
+    "D": "aspartato e alanina.",
+    "E": "serina e aspartato."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 64,
+   "materia": "biologia",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "A figura reproduz o modelo físico proposto por Ernst Münch para explicar sua hipótese sobre o deslocamento de seiva nas plantas. Duas bolsas semipermeáveis, interconectadas por um tubo, são imersas em vasos que contêm o mesmo volume de água destilada. A bolsa 1 contém apenas água destilada e a 2, uma solução concentrada de água e açúcar. Os vasos são ligados por outro tubo, com uma torneira acoplada, que permanece fechada durante todo o experimento. Na figura, $\\Delta h$ indica o desnivelamento de água ocorrido nos vasos após o início do experimento, no curto intervalo de tempo em que o açúcar permaneceu restrito à bolsa 2.\n\n![modelo de Münch: dois vasos com água, a bolsa 1 à esquerda e a bolsa 2 (com solução, pontilhada) à direita, interligadas por um tubo; os vasos são ligados por outro tubo com uma torneira; o nível da água no vaso 1 está em h₁ e no vaso 2 em h₂, com desnível Δh](fig:p24-f2)\n\nSobre o experimento, foram feitas as afirmações:\n\nI. A bolsa 1 representa o sistema radicular, enquanto a bolsa 2 representa as folhas da planta.\nII. Na bolsa que corresponderia às folhas da planta, a pressão osmótica equivale ao produto entre a densidade da água, a aceleração da gravidade e o $\\Delta h$.\nIII. Enquanto fechada, a torneira equivale, na planta, ao método de anelamento do caule.\n\nÉ verdadeiro o que se afirma em",
+   "alternativas": {
+    "A": "I e II, apenas.",
+    "B": "II e III, apenas.",
+    "C": "I, apenas.",
+    "D": "II, apenas.",
+    "E": "I, II e III."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 65,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os microplásticos representam aproximadamente 92,4% da contagem global de partículas de lixo plástico. Estes pequenos plásticos de até 5 mm de tamanho estão entrando no ambiente marinho, contaminando um sistema já vulnerável.\n\n(www.arocha.org. Adaptado.)\n\nOs mexilhões estão entre os invertebrados marinhos diretamente afetados pela presença de partículas de microplásticos nas águas, uma vez que, para se alimentarem,",
+   "alternativas": {
+    "A": "capturam micropartículas batendo os flagelos dos coanócitos.",
+    "B": "raspam com a rádula a superfície do substrato marinho.",
+    "C": "trituram com dentes calcários outros animais menores.",
+    "D": "filtram partículas de alimento na água circundante.",
+    "E": "circulam a água pelos canais do sistema ambulacrário."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 66,
+   "materia": "biologia",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "A configuração anatômica do sistema circulatório humano apresenta, por analogia com os circuitos elétricos, estruturas posicionadas em série e em paralelo, o que permite a identificação de resistências vasculares contrárias ao fluxo sanguíneo. A figura mostra como algumas estruturas estão associadas no sistema circulatório humano.\n\n![esquema do sistema circulatório humano com encéfalo, braços, pulmões, brônquios, coração (AD, VD, AE, VE), artéria coronária, artéria hepática, fígado, veia porta, baço, intestinos, túbulos renais, glomérulo, membros inferiores e aorta](fig:p25-f1)\n\n(Rui Curi e Joaquim P. de Araújo Filho.\n*Fisiologia básica*, 2009. Adaptado.)\n\nAssim como na associação entre resistores de um circuito elétrico, no sistema circulatório humano há aumento da resistência ao fluxo sanguíneo na associação de estruturas em que ocorre",
+   "alternativas": {
+    "A": "filtração do sangue e absorção de nutrientes.",
+    "B": "produção da bile e reabsorção de água.",
+    "C": "produção da bile e controle da temperatura.",
+    "D": "absorção de nutrientes e controle da temperatura.",
+    "E": "filtração do sangue e reabsorção de água."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 67,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um homem de genótipo *AaBb* em arranjo *cis* teve um filho com uma mulher duplo-homozigótica dominante para estes genes autossômicos. O gene *A* está distante 8 unidades de recombinação (UR) de *B*.\n\nHá menor probabilidade de o genótipo dessa criança ser",
+   "alternativas": {
+    "A": "*AaBB* ou *AaBb*.",
+    "B": "*AABB* ou *AABb*.",
+    "C": "*AABB* ou *AaBB*.",
+    "D": "*AABb* ou *AaBb*.",
+    "E": "*AABb* ou *AaBB*."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 68,
+   "materia": "biologia",
+   "materias_extra": [
+    "filosofia"
+   ],
+   "texto_base": null,
+   "enunciado": "Aristóteles procurou explicar os fenômenos naturais a partir de argumentos teleológicos. A palavra teleologia provém de dois termos gregos, *telos* (fim, meta, propósito) e *logos* (razão, explicação), ou seja, uma “razão de algo em função de seus fins” ou uma “explicação que se serve de propósitos ou de fins”. Na explicação teleológica, se algo existe e tem uma finalidade, é porque existe uma razão para essa finalidade. Neste sentido, uma explicação teleológica estará centralizada na finalidade de alguma coisa. Por exemplo, na explicação teleológica, nossos dedos são articulados para que possamos manipular objetos, ao contrário da explicação não teleológica, que afirma que manipulamos objetos porque nossos dedos são articulados.\n\n(Matheus de M. Silveira *et al. Argumentos – Revista de Filosofia*,\njulho/dezembro de 2016. Adaptado.)\n\nConsiderando as características adaptativas dos organismos, a teleologia",
+   "alternativas": {
+    "A": "refuta a proposta de Lamarck, no que concerne à transmissão dos caracteres adquiridos.",
+    "B": "contribui para a explicação da origem da variabilidade a partir da ocorrência de mutações.",
+    "C": "contraria as fundamentações teóricas propostas pela Teoria Sintética da Evolução.",
+    "D": "fortalece as explicações da Teoria Sintética da Evolução, quanto ao resultado da ação da Seleção Natural.",
+    "E": "sustenta tanto as ideias evolucionistas de Lamarck como as de Charles Darwin e da Teoria Sintética da Evolução."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 69,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "![pintura rupestre vermelha sobre rocha, representando um animal de quatro patas](fig:p25-f2)\n\nConsideram-se arte rupestre as representações feitas sobre rochas pelo homem da pré-história, em que se incluem gravuras e pinturas. Acredita-se que essas pinturas, em que os materiais mais usados são sangue, saliva, argila e excrementos de morcegos (cujo hábitat natural são as cavernas), têm cunho ritualístico.\n\n(www.portaldarte.com.br. Adaptado.)\n\nTodos os materiais utilizados para as pinturas, citados no texto, são",
+   "alternativas": {
+    "A": "substâncias compostas puras.",
+    "B": "de origem animal.",
+    "C": "misturas de substâncias compostas.",
+    "D": "de origem vegetal.",
+    "E": "misturas de substâncias simples."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 70,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": "t70-71",
+   "enunciado": "Os pareamentos das bases na dupla-hélice da molécula de DNA ocorrem por meio de",
+   "alternativas": {
+    "A": "ligações covalentes simples.",
+    "B": "ligações covalentes duplas.",
+    "C": "ligações de hidrogênio.",
+    "D": "ligações iônicas.",
+    "E": "forças de London."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 71,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": "t70-71",
+   "enunciado": "Os nitritos de sódio e de potássio são aditivos utilizados como conservadores na fabricação de salames, presuntos e outros frios e, também, para conferir a cor característica desses produtos.\n\nOs nitritos são considerados mutagênicos. Sua hidrólise produz ácido nitroso ($\\text{HNO}_2$), que reage com bases nitrogenadas do DNA. A reação desse ácido com a adenina (A) produz hipoxantina (H), cuja estrutura molecular está representada a seguir.\n\n![fórmula estrutural da hipoxantina (H)](fig:p26-c2)\n\nComo a hipoxantina (H) apresenta estrutura molecular semelhante à da __________, ocorre um erro de pareamento entre bases, que passa a ser __________ em vez de A-T.\n\nAs lacunas do texto são preenchidas por",
+   "alternativas": {
+    "A": "guanina e H-T.",
+    "B": "adenina e H-C.",
+    "C": "timina e A-G.",
+    "D": "guanina e H-C.",
+    "E": "timina e T-G."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 72,
+   "materia": "fisica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": "t72-73",
+   "enunciado": "O gráfico mostra o tempo decorrido desde que um Boeing 737-800 iniciou a decolagem no aeroporto de origem, atingiu sua altitude de cruzeiro e finalmente pousou no aeroporto de destino. Os aeroportos podem ser considerados ao nível do mar.\n\n![gráfico da altitude (km) em função do tempo (minutos): a altitude sobe de 0 até cerca de 11 km, permanece constante e depois volta a 0 aos 180 minutos](fig:p27-f2)\n\nConsiderando as informações sobre consumo de QAV dadas no texto, pode-se estimar que o consumo total de combustível no voo representado pelo gráfico foi próximo de",
+   "alternativas": {
+    "A": "7 000 kg.",
+    "B": "11 000 kg.",
+    "C": "9 000 kg.",
+    "D": "3 000 kg.",
+    "E": "5 000 kg."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 73,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": "t72-73",
+   "enunciado": "Voando na altitude de cruzeiro com uma velocidade média, em relação ao solo, de 800 km/h, um Boeing 737-800 percorreu uma distância de 2 400 km.\n\nConsidere que:\n\n• o QAV é constituído por hidrocarbonetos cujas cadeias carbônicas contêm, em média, 12 átomos de carbono e 26 átomos de hidrogênio, apresentando massa molar média de 170 g/mol;\n• a combustão do QAV na altitude de cruzeiro é completa.\n\nDe acordo com os dados, a massa de $\\text{CO}_2$ ($g$) gerada pela combustão do QAV na distância percorrida pelo avião foi próxima de",
+   "alternativas": {
+    "A": "13 t.",
+    "B": "20 t.",
+    "C": "11 t.",
+    "D": "25 t.",
+    "E": "6 t."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 74,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "A energia emitida pelo Sol é o resultado de diferentes fusões nucleares que ocorrem nesse astro. Algumas reações nucleares que ocorrem no Sol são:\n\n$${}^{1}_{1}\\text{H} + {}^{2}_{1}\\text{H} \\longrightarrow {}^{3}_{2}\\text{He} + \\text{energia}$$\n$${}^{2}_{1}\\text{H} + {}^{2}_{1}\\text{H} \\longrightarrow {}^{3}_{2}\\text{He} + {}^{1}_{0}\\text{n} + \\text{energia}$$\n$${}^{2}_{1}\\text{H} + {}^{3}_{1}\\text{H} \\longrightarrow {}^{4}_{2}\\text{He} + {}^{1}_{0}\\text{n} + \\text{energia}$$\n$${}^{3}_{1}\\text{H} + {}^{3}_{1}\\text{H} \\longrightarrow {}^{4}_{2}\\text{He} + 2\\,{}^{1}_{0}\\text{n} + \\text{energia}$$\n\nEstima-se que, a cada segundo, 657 milhões de toneladas de hidrogênio estejam produzindo 653 milhões de toneladas de hélio. Supõe-se que a diferença, 4 milhões de toneladas, equivalha à energia liberada e enviada para o espaço.\n\n(Angélica Ambrogi *et al. Unidades modulares de química*, 1987. Adaptado.)\n\nSobre a situação apresentada no texto foram feitas três afirmações:\n\nI. A quantidade de energia enviada para o espaço a cada segundo, equivalente a aproximadamente 4 milhões de toneladas de hidrogênio, pode ser estimada pela equação de Einstein, $E = mc^2$.\nII. Todas as reações de fusão nuclear representadas são endotérmicas.\nIII. No conjunto das equações apresentadas, nota-se a presença de 3 isótopos do hidrogênio e 2 do hélio.\n\nÉ correto o que se afirma somente em",
+   "alternativas": {
+    "A": "II.",
+    "B": "II e III.",
+    "C": "III.",
+    "D": "I.",
+    "E": "I e III."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 75,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere a fórmula estrutural do ácido ascórbico (vitamina C).\n\n![fórmula estrutural do ácido ascórbico](fig:p28-c1)\n\nUm comprimido efervescente contendo 1 g de vitamina C foi dissolvido em água, de modo a obter-se 200 mL de solução. A concentração de ácido ascórbico na solução obtida é, aproximadamente,",
+   "alternativas": {
+    "A": "0,01 mol/L.",
+    "B": "0,05 mol/L.",
+    "C": "0,1 mol/L.",
+    "D": "0,2 mol/L.",
+    "E": "0,03 mol/L."
+   },
+   "observacoes": ""
+  }
+ ]
+}
