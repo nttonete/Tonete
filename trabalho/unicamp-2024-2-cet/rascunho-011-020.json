@@ -19,7 +19,7 @@
         },
         {
           "rotulo": "b",
-          "texto": "Um pulso de laser de comprimento de onda $\\lambda = 10{,}5\\ \\mu\\text{m}$ é usado em um experimento de teste para a formação de plasma. A potência do laser, em função do tempo, tem o perfil de um triângulo retângulo, como representado na figura, de forma que a energia total do pulso é dada pela área sob a curva. Sabendo-se que a energia $E$ de um fóton é dada por $E = hf$, sendo $h \\simeq 7 \\times 10^{-34}\\ \\text{J·s}$ e $f$ a frequência da radiação, quantos fótons contém o pulso de laser?\nDado: Velocidade da luz no vácuo: $c = 3 \\times 10^8\\ \\text{m/s}$.\n\n![Gráfico da potência do laser (10⁶ W) em função do tempo (10⁻⁹ s): perfil de triângulo retângulo, com pontos experimentais dispersos ao redor](fig:p13-f3)"
+          "texto": "Um pulso de laser de comprimento de onda $\\lambda = 10{,}5\\ \\mu\\text{m}$ é usado em um experimento de teste para a formação de plasma. A potência do laser, em função do tempo, tem o perfil de um triângulo retângulo, como representado na figura, de forma que a energia total do pulso é dada pela área sob a curva. Sabendo-se que a energia $E$ de um fóton é dada por $E = hf$, sendo $h \\simeq 7 \\times 10^{-34}\\ \\text{J} \\cdot \\text{s}$ e $f$ a frequência da radiação, quantos fótons contém o pulso de laser?\nDado: Velocidade da luz no vácuo: $c = 3 \\times 10^8\\ \\text{m/s}$.\n\n![Gráfico da potência do laser (10⁶ W) em função do tempo (10⁻⁹ s): perfil de triângulo retângulo, com pontos experimentais dispersos ao redor](fig:p13-f3)"
         }
       ],
       "observacoes": ""
@@ -113,13 +113,89 @@
         }
       ],
       "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma reportagem afirma: “Se você der o mesmo grão de café a 10 baristas, você vai terminar com 10 diferentes sabores da bebida”. Mesmo que a origem dos grãos seja única, são vários os aromas (substâncias voláteis) e sabores (substâncias pouco voláteis) distintos para esta bebida. Além da composição química da matéria-prima, há outras variáveis que influenciam o processo de extração sólido-líquido na preparação do café: a temperatura, a pressão de extração, a qualidade da água, a relação entre quantidades de pó e água, o tempo de contato e o tamanho dos grãos de pó (moagem) e a vazão de água.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique as alterações na intensidade do aroma e do sabor do café, quando da sua ingestão imediatamente após o preparo, em cada um dos casos a seguir: (1) utilizando água a 86 °C e 98 °C, e mantendo-se as demais variáveis constantes; e (2) variando o grau de moagem (fino e grosso). Considere que o grão de café torrado apresenta poros."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A figura ao lado mostra como, durante a extração para preparar um café espresso, a concentração de duas substâncias voláteis varia em função do tempo. O tempo de máxima extração se relaciona diretamente com a solubilidade em água e consequentemente com atributos da substância, como polaridade da molécula e coeficiente de partição, $K_{\\text{ow}}$. A partir dessas informações, complete a tabela no campo de resposta, com as palavras **maior** ou **menor**, de modo a comparar, entre as substâncias, os atributos citados. Justifique sua escolha.\n\n![Gráfico da concentração relativa em função do tempo (s), de 0 a 26, para a substância 1 (círculos, linha contínua) e a substância 2 (quadrados, linha tracejada)](fig:p19-f2)\n\nDado: $K_{\\text{ow}} = [\\text{soluto em fase orgânica}] / [\\text{soluto em água}]$\n\n*Campo de resolução:*\n\n![Tabela a preencher: título \"Atributo da substância\", com as colunas Polaridade, Solubilidade em água e Kow; as linhas são Substância 1 e Substância 2, com as células em branco](fig:p19-c1)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "À medida que as evidências da origem antropogênica do aquecimento global ficam mais claras, o desenvolvimento de tecnologias capazes de produzir trabalho sem gerar $\\text{CO}_2$, ou que diminuam essa emissão, torna-se cada vez mais urgente. Dentro deste contexto, em 2018, pesquisadores desenvolveram uma janela inteligente que interage com a radiação eletromagnética conforme figura ao lado. A figura evidencia, de forma simplificada, como essa janela interage com as radiações eletromagnéticas incidentes. As espessuras das setas são proporcionais às intensidades dos fenômenos que ocorrem com essas radiações.\n\n![Desenho de uma janela com lâmpada acesa ao lado; setas de radiação infravermelho (vermelha), visível (verde) e ultravioleta (azul) incidem sobre o vidro, cada uma seguida de setas de reflexão, transmissão e absorção de espessuras diferentes; legenda: radiação, transmissão, reflexão e absorção](fig:p20-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considerando que a figura represente quantitativamente o comportamento do material da janela diante das radiações incidentes, descreva esse comportamento."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Como desenvolvedor dessa janela inteligente, você precisa apresentá-la a potenciais compradores. Levando em conta as características da janela, apresente duas aplicações e os benefícios advindos dessas aplicações, que serviriam de argumento para justificar o investimento na compra da janela inteligente."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 19,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O oxalato de cálcio em humanos está associado a calcificações benignas do tecido mamário e a pedras nos rins. Em indivíduos saudáveis, a urina é tipicamente supersaturada em oxalato de cálcio. O desenvolvimento de pedras nos rins, por outro lado, é prevenido por proteínas e pequenas moléculas contendo grupos carboxilatos.\n\nDados: Oxalato: $\\text{C}_2\\text{O}_4^{2-}$; citrato: $\\text{C}_6\\text{H}_5\\text{O}_7^{3-}$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considerando o que se informa no texto, escreva uma equação química e a expressão da constante de equilíbrio associada, que representam a formação da pedra no rim. O texto informa que a urina é supersaturada em oxalato de cálcio; o que isso significa conceitualmente, isto é, do ponto de vista do equilíbrio químico?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Pesquisadores avaliaram como a concentração de cálcio livre ($\\text{Ca}^{2+}$) em solução varia quando se adiciona $\\text{Ca}^{2+}\\text{(aq)}$ em soluções contendo oxalato de concentração 2 mmol/L e diferentes concentrações de citrato, conforme a figura. Os dados permitem inferir que o citrato pode ser um agente terapêutico na prevenção de pedra no rim. Faça uma descrição quantitativa de modo a justificar, do ponto de vista do equilíbrio químico, a afirmação sobre a função do citrato na prevenção de pedra no rim.\n\n![Gráfico da concentração de Ca²⁺ livre (mmol/L) em função do tempo (s), de 0 a 10000, com três curvas: Ca²⁺(aq) em água (linha com círculos), Ca²⁺(aq) em C₂O₄²⁻ 2,0 mmol/L (linha contínua) e Ca²⁺(aq) em C₂O₄²⁻ 2,0 mmol/L + C₆H₅O₇³⁻ 5,0 mmol/L (linha tracejada)](fig:p21-f2)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 20,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "**“Explosão em silo no Paraná acende alerta para prevenção de acidentes em armazéns”** (notícia veiculada na mídia em julho de 2023). As estatísticas para esse tipo de desastre são alarmantes no mundo todo, e não se trata apenas de negligência. Há parâmetros intrínsecos da silagem que a tornam potencialmente perigosa; portanto, devem ser muito bem controlados. Segundo um profissional que atua no controle de incêndios em silos: “Este ano a silagem pode estar muito seca, havendo maior possibilidade de fogo no silo. A combustão interna do material da silagem pode ocorrer se ele for colocado muito seco no silo. Para qualquer coisa pegar fogo são necessários três ingredientes: ...”",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Por que a baixa umidade favorece o incêndio num silo? Quais os três ingredientes que completariam a fala do profissional ao final do texto e qual o papel de cada um deles no fenômeno em questão?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "No silo, a fermentação dos grãos pode levar à ignição, combustão e explosão. Considerando a fermentação e a combustão, qual delas é a causa e qual delas é a consequência? Ainda considerando a fermentação e a combustão, no caso da silagem de grãos, por que é necessário usar sensores de umidade, de dióxido de carbono e de temperatura dentro do silo?"
+        }
+      ],
+      "observacoes": ""
     }
   ],
   "respostas": {
     "11": {
       "itens": {
         "a": "$$m = \\rho V = 7{,}0 \\times 10^3\\ \\frac{\\text{kg}}{\\text{m}^3} \\times 2{,}0 \\times 10^{-14}\\ \\text{m}^3 = 1{,}4 \\times 10^{-10}\\ \\text{kg}$$\n\n$$Q = mc\\Delta T = 1{,}4 \\times 10^{-10}\\ \\text{kg} \\times 200\\ \\frac{\\text{J}}{\\text{Kg}\\ ^\\circ\\text{C}} \\times (175\\ ^\\circ\\text{C} - 25\\ ^\\circ\\text{C}) = 4{,}2 \\times 10^{-6}\\ \\text{J}$$",
-        "b": "Energia do pulso:\n\n$$E_{\\text{pulso}} = \\text{área sob a curva} = \\frac{(175 \\times 10^{-9}\\ \\text{s}) \\times (8 \\times 10^6\\ \\text{W})}{2} = 0{,}7\\ \\text{J}$$\n\nEnergia de um fóton:\n\n$$E_{\\text{fóton}} = hf = h\\frac{c}{\\lambda} = 7 \\times 10^{-34}\\ \\text{J·s} \\times \\frac{3 \\times 10^8\\ \\text{m/s}}{10{,}5 \\times 10^{-6}\\ \\text{m}} = 2 \\times 10^{-20}\\ \\text{J}$$\n\nNúmero de fótons:\n\n$$N = \\frac{E_{\\text{pulso}}}{E_{\\text{fóton}}} = \\frac{0{,}7\\ \\text{J}}{2 \\times 10^{-20}\\ \\text{J}} = 3{,}5 \\times 10^{19}\\ \\text{fótons}$$"
+        "b": "Energia do pulso:\n\n$$E_{\\text{pulso}} = \\text{área sob a curva} = \\frac{(175 \\times 10^{-9}\\ \\text{s}) \\times (8 \\times 10^6\\ \\text{W})}{2} = 0{,}7\\ \\text{J}$$\n\nEnergia de um fóton:\n\n$$E_{\\text{fóton}} = hf = h\\frac{c}{\\lambda} = 7 \\times 10^{-34}\\ \\text{J} \\cdot \\text{s} \\times \\frac{3 \\times 10^8\\ \\text{m/s}}{10{,}5 \\times 10^{-6}\\ \\text{m}} = 2 \\times 10^{-20}\\ \\text{J}$$\n\nNúmero de fótons:\n\n$$N = \\frac{E_{\\text{pulso}}}{E_{\\text{fóton}}} = \\frac{0{,}7\\ \\text{J}}{2 \\times 10^{-20}\\ \\text{J}} = 3{,}5 \\times 10^{19}\\ \\text{fótons}$$"
       }
     },
     "12": {
@@ -150,6 +226,30 @@
       "itens": {
         "a": "$381\\ \\text{ZJ} = 381 \\times 10^{21}\\ \\text{J}$. A criosfera absorve 4% do calor ganho, portanto: $381 \\times 10^{21}\\ \\text{J} \\times 0{,}04 =$ $\\mathbf{1{,}52 \\times 10^{22}\\ J}$ **absorvidos (ou ganhos) pela criosfera**.\n\n$\\Delta H_{\\text{fusão}} = 3{,}3 \\times 10^5\\ \\text{J/kg}$\n\n$3{,}3 \\times 10^5\\ \\text{J}$ — $1{,}0\\ \\text{kg H}_2\\text{O}$\n$1{,}52 \\times 10^{22}\\ \\text{J}$ — $Y$\n\nForam acrescidas $4{,}62 \\times 10^{16}$ Kg ou $4{,}62 \\times 10^{13}$ toneladas de $\\text{H}_2\\text{O}$ aos oceanos.\n\nQuanto ao cálculo do aumento de temperatura média dos oceanos, o oceano absorve 89% do total do calor ganho, portanto: $381 \\times 10^{21}\\ \\text{J} \\times 0{,}89 = 3{,}39 \\times 10^{23}\\ \\text{J}$\n\n$Q = m \\cdot c \\cdot \\Delta T$\n\n$3{,}39 \\times 10^{23}\\ \\text{J} = (1{,}4 \\times 10^{21}\\ \\text{kg}) \\times (4180\\ \\text{J/kg} \\cdot \\text{K}) \\times \\cdot \\Delta T$\n\nIsso significa que o aumento da temperatura média dos oceanos seria de $\\Delta T = 0{,}06\\ \\text{K}$ ($0{,}06\\ ^\\circ\\text{C}$).",
         "b": "<u>Causas principais</u>: urbanização, atividade agroindustrial, industrialização, uso de combustíveis fósseis.\n<u>Mecanismo</u>: aumento dos gases do efeito estufa provocando aumento do calor retido na atmosfera e o desbalanço energético."
+      }
+    },
+    "17": {
+      "itens": {
+        "a": "A intensidade do aroma e do sabor do café é maior se se utiliza água a 98 °C quando comparado com água a 86 °C. Isso porque a solubilidade, em geral, aumenta com o aumento da temperatura. Por outro lado, a intensidade do aroma e do sabor do café é maior para uma moagem fina em comparação com a grossa, pois, quanto mais fina a moagem, maior a superfície de contato e maior a permeabilidade da água na estrutura porosa.",
+        "b": "![Tabela preenchida: Atributo da Substância; Substância 1: Polaridade MAIOR, Solubilidade MAIOR, Kow MENOR; Substância 2: Polaridade MENOR, Solubilidade MENOR, Kow MAIOR](fig:r10-c1)\n\nComo se observa no gráfico, a substância 1 é extraída mais rapidamente do que a substância 2. Considerando as informações do texto, isso significa que a solubilidade da substância 1 em água é maior que a solubilidade da substância 2 em água. A água, por ser um solvente polar, vai extrair mais rapidamente uma substância mais polar; portanto, a substância 1 é mais polar que a 2. Por outro lado, como Kow representa a relação entre a solubilidade em fase orgânica e fase aquosa, quanto mais polar a substância, menor será o Kow."
+      }
+    },
+    "18": {
+      "itens": {
+        "a": "Como exposto no texto, as espessuras das setas indicam relativamente as intensidades das radiações. Portanto, as três radiações incidentes atingem o material do dispositivo com a mesma intensidade. A radiação infravermelha é majoritariamente refletida e absorvida pelo dispositivo, sendo que uma pequena fração é transmitida. A radiação visível é majoritariamente transmitida e absorvida e muito pouco refletida. A radiação ultravioleta é majoritariamente refletida, não é transmitida e uma pequena fração é absorvida.",
+        "b": "Uma das aplicações seria: portas e janelas para barrar as radiações infravermelho e ultravioleta, tendo como benefício a minimização do calor (radiação infravermelha) e a proteção de exposição à radiação ultravioleta, esta prejudicial à saúde humana.\nOutra aplicação do dispositivo seria em painéis solares que utilizam a absorção da radiação para a geração de energia elétrica (painéis fotovoltaicos). Trata-se de geração de energia elétrica de fonte limpa e renovável."
+      }
+    },
+    "19": {
+      "itens": {
+        "a": "Equação química: $\\text{Ca}^{2+}\\ \\text{(aq)} + \\text{C}_2\\text{O}_4^{2-}\\ \\text{(aq)} \\rightarrow \\text{CaC}_2\\text{O}_4\\ \\text{(s)}$.\n\nExpressão da constante de equilíbrio: $K = \\dfrac{1}{[\\text{Ca}^{2+}] \\times [\\text{C}_2\\text{O}_4^{2-}]}$.\n\n*Obs: A concentração de* $\\mathit{CaC}_2\\mathit{O}_4$ *(s) não aparece na expressão da constante de equilíbrio, pois, de acordo com a convenção, seu valor é unitário.*\n\nUma solução supersaturada é aquela cuja concentração do soluto em solução é maior que a concentração prevista pelo equilíbrio químico na temperatura considerada.",
+        "b": "A curva contínua com esferas mostra como varia a concentração de cálcio livre em solução quando a diluição da solução de $\\text{Ca}^{2+}$ mais concentrada ocorre em água. A curva contínua lisa indica a concentração de íons cálcio livres no equilíbrio após a precipitação do oxalato de cálcio na ausência de citrato. A adição de íons citrato e o aumento da sua concentração (curva pontilhada) aumentam o tempo para se atingir a concentração de íons $\\text{Ca}^{2+}$ livres no equilíbrio em relação à curva sem a presença do íon citrato. Isso significa que o íon citrato foi capaz de inibir a formação de oxalato de cálcio até a valores de concentração mais altos de $\\text{Ca}^{2+}$ livre."
+      }
+    },
+    "20": {
+      "itens": {
+        "a": "Devido à baixa umidade (baixo teor de água), a matéria orgânica fica mais propensa à combustão e a uma rápida propagação do fogo.\n\n**“Ingredientes”: (1)** <u>Combustível</u>: substância capaz de gerar calor por meio de uma reação química. É o material que reage com o oxidante. Neste caso, o combustível é o grão armazenado ou a poeira dos grãos no silo. **(2)** <u>Comburente</u>: substância oxidante que promove o consumo (queima) do combustível na reação; neste caso, o oxigênio. **(3)** <u>Calor</u>: é a fonte de ignição ou a energia que dá início ao fogo. Exemplos: faísca, chama, fontes de calor.",
+        "b": "No binômio fermentação/combustão, a <u>causa</u> é a fermentação e a <u>consequência</u> é a combustão. A alta umidade favorece o processo de fermentação e amplifica o ataque de fungos e insetos. Portanto, sensores de umidade são fundamentais. Sensores de $\\text{CO}_2$ e de temperatura são dois importantes indicadores da ocorrência do processo de fermentação, o qual leva a um aumento da concentração de $\\text{CO}_2$ e da temperatura."
       }
     }
   }
