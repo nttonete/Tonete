@@ -208,7 +208,7 @@
         refs = embaralhar(referencias(dados, function (q, d) {
           var naMateria = !cfg.materias.length || cfg.materias.indexOf(q.materia) >= 0 ||
             (q.materias_extra || []).some(function (m) { return cfg.materias.indexOf(m) >= 0; });
-          return naMateria && d.edicao.ano >= cfg.anoMin;
+          return naMateria && d.edicao.ano >= cfg.anoMin && (!cfg.assunto || q.assunto === cfg.assunto);
         })).slice(0, cfg.quantidade);
       }
       if (!refs.length) throw new Error("Não há questões com esses filtros. Tente outras matérias ou mais anos.");
@@ -752,30 +752,18 @@
       app.appendChild(el("p", { class: "dica", text: "Abra cada questão, compare sua resposta com a resposta esperada pela banca e marque como foi. O placar abaixo usa a sua avaliação." }));
     }
     app.appendChild(el("dl", { class: "placar" }, [
-      el("div", {}, [el("dt", { text: "Acertos" }), el("dd", { text: (r.certas + (r.parciais ? " + " + r.parciais + "½" : "")) + " de " + r.consideradas })]),
       el("div", {}, [el("dt", { text: "Aproveitamento" }), el("dd", { text: Math.round(r.nota * 100) + "%" })]),
+      el("div", {}, [el("dt", { text: "Acertos" }), el("dd", { text: (r.certas + (r.parciais ? " + " + r.parciais + "½" : "")) + " de " + r.consideradas })]),
       el("div", {}, [el("dt", { text: discursiva ? "Sem avaliação" : "Em branco" }), el("dd", { text: String(r.branco) })]),
-      el("div", {}, [el("dt", { text: "Tempo" }), el("dd", { text: formatarTempo(s.fim - s.inicio), style: "font-size:1.2rem" })]),
+      el("div", {}, [el("dt", { text: "Tempo" }), el("dd", { text: formatarTempo(s.fim - s.inicio), style: "font-size:1.25rem;padding-top:.45rem" })]),
     ]));
     if (s.tempoEsgotado) app.appendChild(el("p", { class: "aviso-tempo", role: "status", text: "O tempo acabou e a prova foi entregue automaticamente, como no vestibular." }));
     if (r.anuladas) app.appendChild(el("p", { class: "dica", text: plural(r.anuladas, "questão anulada pela banca não entrou", "questões anuladas pela banca não entraram") + " na conta." }));
 
-    var tabela = el("table", { class: "por-materia" }, [
-      el("thead", {}, [el("tr", {}, [el("th", { text: "Matéria" }), el("th", { text: "Acertos", style: "text-align:right" }), el("th", { text: "" })])]),
-    ]);
-    var corpo = el("tbody");
-    ORDEM_MATERIAS.forEach(function (m) {
-      var x = r.materias[m];
-      if (!x || !x.total) return;
-      var pct = Math.round((x.certas / x.total) * 100);
-      corpo.appendChild(el("tr", {}, [
-        el("td", { text: MATERIAS[m] }),
-        el("td", { class: "n", text: x.certas + "/" + x.total }),
-        el("td", { style: "width:40%" }, [el("div", { class: "barra", role: "img", "aria-label": pct + "%" }, [el("i", { style: "width:" + pct + "%" })])]),
-      ]));
-    });
-    tabela.appendChild(corpo);
-    app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Por matéria" }), el("div", { style: "overflow-x:auto" }, [tabela])]));
+    app.appendChild(el("section", { class: "painel" }, [
+      el("div", { class: "painel-cab" }, [el("h2", { text: "Por matéria" }), el("p", { text: "Acerto em cada matéria deste treino." })]),
+      barrasMaterias(r.materias, Math.round(r.nota * 100), 0),
+    ]));
 
     // por assunto, dentro de cada matéria
     var porAssunto = {};
@@ -809,7 +797,9 @@
       var st = situacao(s, ref);
       var rotulo = { certa: "Certa", errada: "Errada", branco: discursiva ? "Avaliar" : "Em branco", anulada: "Anulada", parcial: "Parcial" }[st];
       if (soErros && (st === "certa" || st === "anulada")) return;
-      var texto = achado ? (achado.q.enunciado || "").replace(/!\[[^\]]*\]\([^)]*\)|[$*_<>[\]]/g, " ").replace(/\s+/g, " ").trim() : "";
+      var texto = achado ? (achado.q.enunciado || "").replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+        .replace(/\\(?:text|mathrm|mathbf|textbf)\{([^}]*)\}/g, "$1").replace(/\\[a-zA-Z]+/g, " ").replace(/[$*_<>[\]{}^\\]/g, " ")
+        .replace(/\s+/g, " ").trim() : "";
       lista.appendChild(el("li", {}, [el("button", { type: "button", onclick: function () { estado.revendo = i; desenhar(); window.scrollTo(0, 0); } }, [
         el("span", { class: "num", text: String(i + 1).padStart(2, "0") }),
         el("span", { class: "resumo", text: (MATERIAS[ref.materia] || "") + " · " + (texto || "ver questão") }),
@@ -830,7 +820,7 @@
     ]));
   }
 
-  // ---------- histórico e evolução ----------
+  // ---------- desempenho ----------
   var SVGNS = "http://www.w3.org/2000/svg";
   function svg(tag, attrs, filhos) {
     var e = document.createElementNS(SVGNS, tag);
@@ -838,213 +828,421 @@
     (filhos || []).forEach(function (f) { if (f) e.appendChild(f); });
     return e;
   }
-  // Gráfico de linha do aproveitamento (%) em cada treino, do mais antigo ao mais recente.
-  function graficoEvolucao(hist) {
-    var pontos = hist.slice(0, 20).reverse().filter(function (h) { return h.total; }).map(function (h) {
-      return { pct: Math.round(((h.certas + (h.parciais || 0) * 0.5) / h.total) * 100), h: h };
-    });
-    if (pontos.length < 2) return el("p", { class: "dica", text: "O gráfico aparece a partir do segundo treino concluído." });
-    var L = 640, A = 220, me = 36, md = 12, mt = 12, mb = 28;
-    var x = function (i) { return me + (i * (L - me - md)) / (pontos.length - 1); };
-    var y = function (p) { return mt + ((100 - p) * (A - mt - mb)) / 100; };
-    var g = svg("svg", { viewBox: "0 0 " + L + " " + A, class: "grafico", role: "img", "aria-label": "Aproveitamento nos últimos " + pontos.length + " treinos" });
-    [0, 25, 50, 75, 100].forEach(function (p) {
-      g.appendChild(svg("line", { x1: me, x2: L - md, y1: y(p), y2: y(p), class: "grade-linha" }));
-      var t = svg("text", { x: me - 6, y: y(p) + 4, "text-anchor": "end", class: "eixo" }); t.textContent = p + "%"; g.appendChild(t);
-    });
-    var d = pontos.map(function (p, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(p.pct).toFixed(1); }).join(" ");
-    g.appendChild(svg("path", { d: d, class: "linha" }));
-    pontos.forEach(function (p, i) {
-      var c = svg("circle", { cx: x(i), cy: y(p.pct), r: 4.5, class: "ponto" });
-      var tt = svg("title"); tt.textContent = p.h.titulo + ": " + p.pct + "% (" + p.h.certas + "/" + p.h.total + ") em " + dataCurta(p.h.quando);
-      c.appendChild(tt);
-      g.appendChild(c);
-    });
-    var ult = pontos[pontos.length - 1];
-    var rot = svg("text", { x: x(pontos.length - 1), y: y(ult.pct) - 10, "text-anchor": "end", class: "rotulo" }); rot.textContent = ult.pct + "%";
-    g.appendChild(rot);
-    var t0 = svg("text", { x: me, y: A - 8, class: "eixo" }); t0.textContent = "mais antigo";
-    var t1 = svg("text", { x: L - md, y: A - 8, "text-anchor": "end", class: "eixo" }); t1.textContent = "mais recente";
-    g.appendChild(t0); g.appendChild(t1);
-    return el("div", { class: "grafico-caixa" }, [g]);
-  }
+  function pct(certas, total) { return total ? Math.round((certas / total) * 100) : 0; }
+  function dataDia(ts) { return new Date(ts).toLocaleDateString("pt-BR", { day: "2-digit", month: "short" }).replace(".", ""); }
+  var PERIODOS = [["7", "7 dias"], ["30", "30 dias"], ["tudo", "Tudo"]];
+  var DIA = 86400000;
 
-  // Junta o resultado de todas as questões já feitas (cada questão conta pela tentativa mais recente).
-  function questoesFeitas(hist) {
-    var vistas = {}, lista = [];
+  // Treinos do recorte (período e vestibular), do mais antigo ao mais recente. Cada treino traz
+  // só as questões do vestibular escolhido; treinos antigos sem a lista de questões contam pelo total.
+  function recorte(hist, filtro, ate) {
+    var fim = ate || Date.now();
+    var ini = filtro.periodo === "tudo" ? -Infinity : fim - Number(filtro.periodo) * DIA;
+    var lista = [];
     hist.forEach(function (h) {
-      (h.questoes || []).forEach(function (q) {
-        if (vistas[q.id]) return;
-        vistas[q.id] = true;
-        lista.push(q);
-      });
+      if (!(h.quando > ini && h.quando <= fim) || !h.total) return;
+      var qs = h.questoes ? h.questoes.filter(function (q) { return filtro.vest === "todos" || q.v === filtro.vest; }) : null;
+      if (qs && !qs.length) return;
+      if (!qs && filtro.vest !== "todos") return;
+      var certas = qs ? qs.filter(function (q) { return q.ok; }).length : h.certas + (h.parciais || 0) * 0.5;
+      var total = qs ? qs.length : h.total;
+      lista.push({ h: h, qs: qs || [], certas: certas, total: total, quando: h.quando });
+    });
+    return lista.sort(function (a, b) { return a.quando - b.quando; });
+  }
+  function soma(treinos) {
+    return treinos.reduce(function (s, t) { s.certas += t.certas; s.total += t.total; return s; }, { certas: 0, total: 0 });
+  }
+  // cada questão conta pela tentativa mais recente
+  function questoesDoRecorte(treinos) {
+    var vistas = {}, lista = [];
+    treinos.slice().reverse().forEach(function (t) {
+      t.qs.forEach(function (q) { if (!vistas[q.id]) { vistas[q.id] = true; lista.push(q); } });
     });
     return lista;
   }
-
-  function medalhas(hist) {
-    var todas = [];
-    hist.forEach(function (h) { (h.questoes || []).forEach(function (q) { todas.push(q); }); });
-    var lista = [];
-    var nTreinos = hist.length;
-    lista.push({ nome: "Primeiro treino", meta: "Concluir 1 treino", feito: nTreinos >= 1, prog: Math.min(nTreinos, 1) + "/1" });
-    var provas = hist.filter(function (h) { return h.modo === "prova" || h.modo === "simulado"; }).length;
-    lista.push({ nome: "Dia de prova", meta: "Fazer 1 simulado ou prova completa", feito: provas >= 1, prog: Math.min(provas, 1) + "/1" });
-    lista.push({ nome: "Maratonista", meta: "Resolver 500 questões", feito: todas.length >= 500, prog: Math.min(todas.length, 500) + "/500" });
-    // dias seguidos com treino, contando de hoje (ou ontem) para trás
+  function diasSeguidos(hist) {
     var dias = {};
     hist.forEach(function (h) { dias[new Date(h.quando).toDateString()] = true; });
     var seq = 0, dia = new Date();
     if (!dias[dia.toDateString()]) dia.setDate(dia.getDate() - 1);
     while (dias[dia.toDateString()]) { seq++; dia.setDate(dia.getDate() - 1); }
-    lista.push({ nome: "Constância", meta: "Treinar 7 dias seguidos", feito: seq >= 7, prog: Math.min(seq, 7) + "/7 dias" });
+    return seq;
+  }
+
+  // Gráfico de evolução: cada treino é um ponto cinza; a linha azul é a média dos últimos 5 treinos.
+  function graficoEvolucao(treinos) {
+    var caixa = el("div", { class: "grafico-caixa" });
+    if (treinos.length < 2) {
+      caixa.appendChild(el("p", { class: "dica", text: "O gráfico aparece a partir do segundo treino concluído neste recorte." }));
+      return caixa;
+    }
+    var pontos = treinos.map(function (t, i) {
+      var janela = treinos.slice(Math.max(0, i - 4), i + 1);
+      var sj = soma(janela);
+      return { t: t, pct: pct(t.certas, t.total), media: pct(sj.certas, sj.total) };
+    });
+    caixa.appendChild(el("ul", { class: "legenda" }, [
+      el("li", {}, [el("span", { class: "k-ponto", "aria-hidden": "true" }), "Cada treino"]),
+      el("li", {}, [el("span", { class: "k-linha", "aria-hidden": "true" }), "Média dos últimos 5 treinos"]),
+    ]));
+    var dica = el("div", { class: "dica-flutuante", hidden: true, role: "status" });
+    caixa.appendChild(dica);
+
+    function desenhar() {
+      var antigo = caixa.querySelector("svg"); if (antigo) antigo.remove();
+      var L = Math.max(300, caixa.clientWidth || 640), A = L < 520 ? 210 : 250;
+      var me = 34, md = 40, mt = 14, mb = 28;
+      var x = function (i) { return me + (i * (L - me - md)) / (pontos.length - 1); };
+      var y = function (p) { return mt + ((100 - p) * (A - mt - mb)) / 100; };
+      var g = svg("svg", { viewBox: "0 0 " + L + " " + A, width: L, height: A, class: "grafico", tabindex: "0", role: "img",
+        "aria-label": "Aproveitamento em " + pontos.length + " treinos; média dos últimos 5: " + pontos[pontos.length - 1].media + "%. Use as setas para ver cada treino." });
+      [0, 25, 50, 75, 100].forEach(function (p) {
+        g.appendChild(svg("line", { x1: me, x2: L - md, y1: y(p), y2: y(p), class: p === 0 ? "base" : "grade-linha" }));
+        var t = svg("text", { x: me - 8, y: y(p) + 4, "text-anchor": "end", class: "eixo" }); t.textContent = p + "%"; g.appendChild(t);
+      });
+      // datas: primeira, do meio e última
+      var marcas = pontos.length > 4 ? [0, Math.round((pontos.length - 1) / 2), pontos.length - 1] : pontos.map(function (_, i) { return i; });
+      marcas.forEach(function (i, k) {
+        var t = svg("text", { x: x(i), y: A - 8, "text-anchor": k === 0 && marcas.length > 1 ? "start" : i === pontos.length - 1 ? "end" : "middle", class: "eixo" });
+        t.textContent = dataDia(pontos[i].t.quando); g.appendChild(t);
+      });
+      var linha = pontos.map(function (p, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(p.media).toFixed(1); }).join(" ");
+      g.appendChild(svg("path", { d: linha + " L" + x(pontos.length - 1).toFixed(1) + " " + y(0) + " L" + x(0) + " " + y(0) + " Z", class: "area" }));
+      g.appendChild(svg("path", { d: linha, class: "linha" }));
+      var mira = svg("line", { x1: 0, x2: 0, y1: mt, y2: y(0), class: "mira", visibility: "hidden" });
+      g.appendChild(mira);
+      var circulos = pontos.map(function (p, i) {
+        var c = svg("circle", { cx: x(i), cy: y(p.pct), r: 4.5, class: "ponto" });
+        g.appendChild(c);
+        return c;
+      });
+      var ult = pontos[pontos.length - 1];
+      g.appendChild(svg("circle", { cx: x(pontos.length - 1), cy: y(ult.media), r: 5, class: "fim" }));
+      var rot = svg("text", { x: x(pontos.length - 1) + 9, y: y(ult.media) + 4.5, class: "rotulo" }); rot.textContent = ult.media + "%";
+      g.appendChild(rot);
+      caixa.insertBefore(g, dica);
+
+      var ativo = -1;
+      function mostrar(i) {
+        if (ativo >= 0) circulos[ativo].classList.remove("ativo");
+        ativo = i;
+        if (i < 0) { mira.setAttribute("visibility", "hidden"); dica.hidden = true; return; }
+        var p = pontos[i];
+        circulos[i].classList.add("ativo");
+        mira.setAttribute("x1", x(i)); mira.setAttribute("x2", x(i)); mira.setAttribute("visibility", "visible");
+        dica.innerHTML = "";
+        dica.appendChild(el("strong", { text: p.pct + "%" }));
+        dica.appendChild(el("div", {}, [el("span", { class: "lp" }), (p.t.certas % 1 ? p.t.certas.toFixed(1) : p.t.certas) + " de " + p.t.total + " neste treino"]));
+        dica.appendChild(el("div", {}, [el("span", { class: "lk" }), "média dos últimos 5: " + p.media + "%"]));
+        dica.appendChild(el("div", { style: "margin-top:.35rem", text: p.t.h.titulo }));
+        dica.appendChild(el("div", { text: dataCurta(p.t.quando) }));
+        dica.hidden = false;
+        var px = (x(i) / L) * g.getBoundingClientRect().width;
+        var largura = dica.offsetWidth, cx = caixa.clientWidth;
+        dica.style.left = Math.max(0, Math.min(cx - largura, px + (px > cx / 2 ? -largura - 14 : 14))) + "px";
+        dica.style.top = "2.2rem";
+      }
+      g.addEventListener("pointermove", function (ev) {
+        var r = g.getBoundingClientRect();
+        var lx = ((ev.clientX - r.left) / r.width) * L;
+        var i = Math.round(((lx - me) / (L - me - md)) * (pontos.length - 1));
+        mostrar(Math.max(0, Math.min(pontos.length - 1, i)));
+      });
+      g.addEventListener("pointerleave", function () { mostrar(-1); });
+      g.addEventListener("blur", function () { mostrar(-1); });
+      g.addEventListener("keydown", function (ev) {
+        if (ev.key === "ArrowRight" || ev.key === "ArrowLeft") {
+          ev.preventDefault(); ev.stopPropagation();
+          var i = ativo < 0 ? pontos.length - 1 : ativo + (ev.key === "ArrowRight" ? 1 : -1);
+          mostrar(Math.max(0, Math.min(pontos.length - 1, i)));
+        } else if (ev.key === "Escape") mostrar(-1);
+      });
+    }
+    caixa.desenhar = desenhar;
+    return caixa;
+  }
+
+  // Barras horizontais por matéria, da melhor para a pior, com a média geral marcada.
+  function barrasMaterias(materias, mediaGeral, minimo) {
+    minimo = minimo === undefined ? 5 : minimo;
+    var linhas = Object.keys(materias).filter(function (m) { return materias[m].total; }).map(function (m) {
+      return { m: m, c: materias[m].certas, t: materias[m].total, p: pct(materias[m].certas, materias[m].total) };
+    }).sort(function (a, b) { return b.p - a.p || b.t - a.t; });
+    var temPouco = false;
+    var lista = el("ul", { class: "barras" }, linhas.map(function (l) {
+      var pouco = l.t < minimo;
+      if (pouco) temPouco = true;
+      var certas = l.c % 1 ? l.c.toFixed(1) : l.c;
+      return el("li", { class: pouco ? "pouco" : "", title: (MATERIAS[l.m] || l.m) + ": " + certas + " de " + l.t + " certas (" + l.p + "%)" }, [
+        el("span", { class: "nome", text: MATERIAS[l.m] || l.m }),
+        el("span", { class: "trilho", role: "img", "aria-label": l.p + "% de acerto" }, [
+          el("i", { style: "width:" + l.p + "%" }),
+          mediaGeral !== null ? el("span", { class: "media", style: "left:" + mediaGeral + "%", "aria-hidden": "true" }) : null,
+        ]),
+        el("span", { class: "val" }, [l.p + "%", el("small", { text: certas + "/" + l.t })]),
+      ]);
+    }));
+    var notas = [];
+    if (mediaGeral !== null) notas.push("O traço vertical é a sua média geral (" + mediaGeral + "%).");
+    if (temPouco) notas.push("Barras mais claras: menos de " + minimo + " questões, ainda pouco para tirar conclusão.");
+    return el("div", {}, [lista, notas.length ? el("p", { class: "nota-rodape", text: notas.join(" ") }) : null]);
+  }
+
+  function anelMedalha(fracao, feita) {
+    var r = 15, C = 2 * Math.PI * r;
+    var g = svg("svg", { viewBox: "0 0 40 40", class: "medalha-icone", "aria-hidden": "true" });
+    if (feita) {
+      g.appendChild(svg("circle", { cx: 20, cy: 20, r: 17, class: "cheio" }));
+      g.appendChild(svg("path", { d: "M13 20.5l4.5 4.5 9-10", class: "check" }));
+    } else {
+      g.appendChild(svg("circle", { cx: 20, cy: 20, r: r, class: "trilha" }));
+      if (fracao > 0) g.appendChild(svg("circle", { cx: 20, cy: 20, r: r, class: "prog", transform: "rotate(-90 20 20)",
+        "stroke-dasharray": (C * Math.min(1, fracao)).toFixed(1) + " " + C.toFixed(1) }));
+    }
+    return g;
+  }
+  function medalhas(hist) {
+    var todas = [];
+    hist.forEach(function (h) { (h.questoes || []).forEach(function (q) { todas.push(q); }); });
+    var lista = [];
+    var nTreinos = hist.length;
+    lista.push({ nome: "Primeiro treino", meta: "Concluir 1 treino", feito: nTreinos >= 1, f: Math.min(nTreinos, 1), prog: Math.min(nTreinos, 1) + "/1" });
+    var provas = hist.filter(function (h) { return h.modo === "prova" || h.modo === "simulado"; }).length;
+    lista.push({ nome: "Dia de prova", meta: "Fazer 1 simulado ou prova completa", feito: provas >= 1, f: Math.min(provas, 1), prog: Math.min(provas, 1) + "/1" });
+    lista.push({ nome: "Maratonista", meta: "Resolver 500 questões", feito: todas.length >= 500, f: todas.length / 500, prog: Math.min(todas.length, 500) + "/500" });
+    var seq = diasSeguidos(hist);
+    lista.push({ nome: "Constância", meta: "Treinar 7 dias seguidos", feito: seq >= 7, f: seq / 7, prog: Math.min(seq, 7) + "/7 dias" });
     // "Mestre": 50 questões de uma matéria num vestibular
     var conta = {};
     todas.forEach(function (q) { if (q.v && q.m) { var k = q.v + "|" + q.m; conta[k] = (conta[k] || 0) + 1; } });
     var melhor = Object.keys(conta).sort(function (a, b) { return conta[b] - conta[a]; });
     melhor.forEach(function (k) {
       var p = k.split("|");
-      var nome = "Mestre da " + VESTIBULARES[p[0]].nome + " em " + MATERIAS[p[1]];
-      if (conta[k] >= 50) lista.push({ nome: nome, meta: "50 questões de " + MATERIAS[p[1]] + " da " + VESTIBULARES[p[0]].nome, feito: true, prog: "50/50" });
+      if (conta[k] >= 50) lista.push({ nome: "Mestre da " + VESTIBULARES[p[0]].nome + " em " + MATERIAS[p[1]], meta: "50 questões de " + MATERIAS[p[1]] + " da " + VESTIBULARES[p[0]].nome, feito: true, f: 1, prog: "50/50" });
     });
     if (melhor.length && conta[melhor[0]] < 50) {
       var p0 = melhor[0].split("|");
-      lista.push({ nome: "Mestre da " + VESTIBULARES[p0[0]].nome + " em " + MATERIAS[p0[1]], meta: "50 questões de " + MATERIAS[p0[1]] + " da " + VESTIBULARES[p0[0]].nome, feito: false, prog: conta[melhor[0]] + "/50" });
+      lista.push({ nome: "Mestre da " + VESTIBULARES[p0[0]].nome + " em " + MATERIAS[p0[1]], meta: "50 questões de " + MATERIAS[p0[1]] + " da " + VESTIBULARES[p0[0]].nome, feito: false, f: conta[melhor[0]] / 50, prog: conta[melhor[0]] + "/50" });
     }
     return lista;
   }
 
+  function segmento(rotulo, opcoes, atual, aoEscolher) {
+    return el("div", { class: "filtro", role: "group", "aria-label": rotulo }, [
+      el("span", { text: rotulo }),
+      el("div", { class: "seg" }, opcoes.map(function (o) {
+        return el("button", { type: "button", "aria-pressed": o[0] === atual ? "true" : "false", text: o[1], onclick: function () { aoEscolher(o[0]); } });
+      })),
+    ]);
+  }
+
   function telaHistorico() {
     var hist = ler(CHAVE_HIST, []);
-    app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: "Seu desempenho" })]));
+    var f = estado.filtroDesempenho = estado.filtroDesempenho || { periodo: "tudo", vest: "todos" };
+    var cab = el("div", { class: "prova-cab" }, [el("h1", { text: "Seu desempenho" })]);
+    app.appendChild(cab);
     if (!hist.length) {
       app.appendChild(el("p", { class: "vazio", text: "Você ainda não terminou nenhum simulado ou treino. Os resultados aparecem aqui, guardados neste aparelho." }));
       return;
     }
-    var feitas = questoesFeitas(hist);
-    var erradas = feitas.filter(function (q) { return !q.ok; });
+    var vests = Object.keys(VESTIBULARES).filter(function (v) { return hist.some(function (h) { return (h.questoes || []).some(function (q) { return q.v === v; }); }); });
+    app.appendChild(el("div", { class: "filtros" }, [
+      segmento("Período", PERIODOS, f.periodo, function (v) { f.periodo = v; desenhar(); }),
+      segmento("Vestibular", [["todos", "Todos"]].concat(vests.map(function (v) { return [v, VESTIBULARES[v].nome]; })), f.vest, function (v) { f.vest = v; desenhar(); }),
+    ]));
+    var treinos = recorte(hist, f);
+    var totalHist = hist.reduce(function (s, h) { return s + (h.total || 0); }, 0);
+    cab.appendChild(el("p", { class: "sub", text: "Guardado só neste aparelho · " + plural(hist.length, "treino", "treinos") + " · " + plural(totalHist, "questão", "questões") + " no total. Os números são estimativas para estudo." }));
+    if (!treinos.length) {
+      app.appendChild(el("div", { class: "painel" }, [el("p", { class: "vazio", text: "Nenhum treino neste recorte. Escolha um período maior ou outro vestibular." })]));
+      return;
+    }
+    var tot = soma(treinos);
+    var aprov = pct(tot.certas, tot.total);
+    var feitas = questoesDoRecorte(treinos);
 
-    // evolução
-    app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Evolução do aproveitamento" }), graficoEvolucao(hist)]));
+    // comparação: período anterior (7 ou 30 dias) ou primeiros x últimos 5 treinos
+    var delta = null;
+    if (f.periodo !== "tudo") {
+      var antes = soma(recorte(hist, f, Date.now() - Number(f.periodo) * DIA));
+      if (antes.total) delta = { v: aprov - pct(antes.certas, antes.total), texto: "em relação aos " + f.periodo + " dias anteriores" };
+    } else if (treinos.length >= 6) {
+      var ini = soma(treinos.slice(0, 5)), fimT = soma(treinos.slice(-5));
+      delta = { v: pct(fimT.certas, fimT.total) - pct(ini.certas, ini.total), texto: "dos 5 primeiros para os 5 últimos treinos" };
+    }
+    var duracao = treinos.reduce(function (s, t) { return s + (t.h.duracao || 0); }, 0);
+    var questoesTempo = treinos.reduce(function (s, t) { return s + t.h.total; }, 0);
+    var porQuestao = questoesTempo ? Math.round(duracao / questoesTempo / 1000) : 0;
+    var seq = diasSeguidos(hist);
 
-    // pontos fracos: (assunto, vestibular) com pelo menos 3 questões, do maior para o menor erro
+    var heroi = el("div", { class: "heroi" }, [
+      el("span", { class: "rotulo-sec", text: "Aproveitamento" }),
+      el("div", { class: "heroi-num" }, [String(aprov), el("small", { text: "%" })]),
+      delta ? el("div", { class: "delta " + (delta.v > 0 ? "sobe" : delta.v < 0 ? "desce" : "") }, [
+        el("b", { text: (delta.v > 0 ? "▲ +" : delta.v < 0 ? "▼ " : "= ") + delta.v + " p.p." }), " " + delta.texto,
+      ]) : el("div", { class: "delta", text: plural(tot.total, "questão respondida", "questões respondidas") + " neste recorte" }),
+    ]);
+    var kpis = el("div", { class: "kpis" }, [
+      el("div", { class: "kpi" }, [el("span", { class: "rotulo-sec", text: "Questões" }), el("span", { class: "v", text: tot.total.toLocaleString("pt-BR") }), el("span", { class: "s", text: (tot.certas % 1 ? tot.certas.toFixed(1) : tot.certas) + " certas" })]),
+      el("div", { class: "kpi" }, [el("span", { class: "rotulo-sec", text: "Treinos" }), el("span", { class: "v", text: String(treinos.length) }), el("span", { class: "s", text: "desde " + dataDia(treinos[0].quando) })]),
+      el("div", { class: "kpi" }, [el("span", { class: "rotulo-sec", text: "Ritmo" }), el("span", { class: "v" }, [Math.floor(porQuestao / 60) + ":" + String(porQuestao % 60).padStart(2, "0"), el("small", { text: " min" })]), el("span", { class: "s", text: "por questão · meta 3:20" })]),
+      el("div", { class: "kpi" }, [el("span", { class: "rotulo-sec", text: "Sequência" }), el("span", { class: "v" }, [String(seq), el("small", { text: seq === 1 ? " dia" : " dias" })]), el("span", { class: "s", text: "seguidos treinando" })]),
+    ]);
+    var grafico = graficoEvolucao(treinos);
+    app.appendChild(el("section", { class: "painel", "aria-label": "Visão geral" }, [
+      el("div", { class: "visao" }, [heroi, kpis]),
+      el("div", { class: "painel-cab" }, [el("h2", { text: "Evolução" }), el("p", { text: "Passe o dedo ou o mouse sobre o gráfico para ver cada treino." })]),
+      grafico,
+    ]));
+    if (grafico.desenhar) grafico.desenhar();
+
+    // por matéria (todas as questões do recorte) e onde focar
+    var materias = {};
+    treinos.forEach(function (t) {
+      if (t.qs.length) t.qs.forEach(function (q) { var x = materias[q.m] = materias[q.m] || { certas: 0, total: 0 }; x.total++; if (q.ok) x.certas++; });
+      else Object.keys(t.h.materias || {}).forEach(function (m) { var x = materias[m] = materias[m] || { certas: 0, total: 0 }; x.certas += t.h.materias[m].certas; x.total += t.h.materias[m].total; });
+    });
     var grupos = {};
     feitas.forEach(function (q) {
       if (!q.a || !q.v) return;
       var k = q.v + "|" + q.m + "|" + q.a;
-      var g = grupos[k] = grupos[k] || { v: q.v, m: q.m, a: q.a, erros: 0, total: 0 };
+      var g = grupos[k] = grupos[k] || { v: q.v, m: q.m, a: q.a, certas: 0, total: 0 };
       g.total++;
-      if (!q.ok) g.erros++;
+      if (q.ok) g.certas++;
     });
     var fracos = Object.keys(grupos).map(function (k) { return grupos[k]; })
-      .filter(function (g) { return g.total >= 3 && g.erros > 0; })
-      .sort(function (a, b) { return b.erros / b.total - a.erros / a.total || b.total - a.total; }).slice(0, 5);
-    if (fracos.length) {
-      app.appendChild(el("section", { class: "secao" }, [
-        el("h2", { text: "Onde focar" }),
-        el("ul", { class: "fracos" }, fracos.map(function (g) {
-          var pct = Math.round((g.erros / g.total) * 100);
-          return el("li", {}, [
-            "Você errou ", el("strong", { text: pct + "%" }), " das questões de ",
-            el("strong", { text: g.a }), " da " + VESTIBULARES[g.v].nome + " (" + g.erros + " de " + g.total + ").",
-          ]);
-        })),
-      ]));
-    }
+      .filter(function (g) { return g.total >= 3 && g.certas < g.total; })
+      .sort(function (a, b) { return a.certas / a.total - b.certas / b.total || b.total - a.total; }).slice(0, 5);
+    var erradas = questoesDoRecorte(recorte(hist, { periodo: "tudo", vest: f.vest })).filter(function (q) { return !q.ok; });
 
-    // refazer erros
+    var foco = el("section", { class: "painel" }, [el("div", { class: "painel-cab" }, [el("h2", { text: "Onde focar" }), el("p", { text: "Assuntos com 3 ou mais questões e o menor acerto." })])]);
     if (erradas.length) {
-      app.appendChild(el("div", { class: "continuar" }, [
-        el("p", {}, [el("strong", { text: plural(erradas.length, "questão errada", "questões erradas") }), " na sua última tentativa de cada uma."]),
-        el("button", { class: "botao", type: "button", text: "Refazer questões que errei", onclick: function () {
+      foco.appendChild(el("div", { class: "refazer" }, [
+        el("p", {}, [el("strong", { text: plural(erradas.length, "questão errada", "questões erradas") }), " na última tentativa de cada uma."]),
+        el("button", { class: "botao pequeno", type: "button", text: "Refazer questões que errei", onclick: function () {
           var refs = embaralhar(erradas).slice(0, 30).map(function (q) { return { ed: q.ed, n: q.n, materia: q.m, v: q.v }; });
-          iniciarSessao({ modo: "erros", refs: refs, titulo: "Revisão dos meus erros · " + refs.length + " questões", filtro: { tipo: "objetiva" } })
-            .catch(erroGeral);
+          iniciarSessao({ modo: "erros", refs: refs, titulo: "Revisão dos meus erros · " + refs.length + " questões", filtro: { tipo: "objetiva" } }).catch(erroGeral);
         } }),
       ]));
     }
+    if (fracos.length) {
+      foco.appendChild(el("ol", { class: "foco" }, fracos.map(function (g) {
+        var p = pct(g.certas, g.total);
+        return el("li", {}, [
+          el("span", { class: "a", text: g.a }),
+          el("span", { class: "m", text: MATERIAS[g.m] + " · " + VESTIBULARES[g.v].nome }),
+          el("span", { class: "medidor", role: "img", "aria-label": p + "% de acerto" }, [el("i", { style: "width:" + Math.max(p, 2) + "%" })]),
+          el("span", { class: "lado" }, [
+            el("span", { class: "pct", text: p + "% · " + g.certas + "/" + g.total }),
+            el("button", { class: "botao discreto pequeno", type: "button", text: "Treinar", "aria-label": "Treinar " + g.a + " da " + VESTIBULARES[g.v].nome, onclick: function () {
+              iniciarSessao({ modo: "materia", quantidade: 10, materias: [g.m], assunto: g.a, anoMin: 0, titulo: "Treino · " + g.a,
+                filtro: { vestibulares: [g.v], tipo: "objetiva" } }).catch(erroGeral);
+            } }),
+          ]),
+        ]);
+      })));
+    } else {
+      foco.appendChild(el("p", { class: "dica", text: "Ainda não há assunto com 3 ou mais questões erradas neste recorte. Continue treinando que as sugestões aparecem aqui." }));
+    }
+    app.appendChild(el("div", { class: "grade-painel duas" }, [
+      el("section", { class: "painel" }, [
+        el("div", { class: "painel-cab" }, [el("h2", { text: "Por matéria" }), el("p", { text: "Acerto em todas as questões do recorte." })]),
+        barrasMaterias(materias, aprov),
+      ]),
+      foco,
+    ]));
 
-    // mapa de calor: assunto x vestibular
-    var vests = Object.keys(VESTIBULARES);
-    var linhas = {};
+    // mapa de assuntos: matérias com bolhas por vestibular; abre para ver os assuntos
+    var colunas = f.vest === "todos" ? vests : [f.vest];
+    var porMateria = {};
     feitas.forEach(function (q) {
-      if (!q.a) return;
-      var k = q.m + "|" + q.a;
-      var l = linhas[k] = linhas[k] || { m: q.m, a: q.a, c: {} };
-      var c = l.c[q.v] = l.c[q.v] || { certas: 0, total: 0 };
-      c.total++;
-      if (q.ok) c.certas++;
+      if (!q.m) return;
+      var pm = porMateria[q.m] = porMateria[q.m] || { c: {}, assuntos: {} };
+      var c = pm.c[q.v] = pm.c[q.v] || { certas: 0, total: 0 };
+      c.total++; if (q.ok) c.certas++;
+      if (q.a) {
+        var a = pm.assuntos[q.a] = pm.assuntos[q.a] || {};
+        var ca = a[q.v] = a[q.v] || { certas: 0, total: 0 };
+        ca.total++; if (q.ok) ca.certas++;
+      }
     });
-    var chaves = Object.keys(linhas).sort(function (a, b) {
-      var x = linhas[a], y = linhas[b];
-      return ORDEM_MATERIAS.indexOf(x.m) - ORDEM_MATERIAS.indexOf(y.m) || x.a.localeCompare(y.a);
-    });
-    if (chaves.length) {
-      var tab = el("table", { class: "mapa" }, [el("thead", {}, [el("tr", {}, [el("th", { text: "Assunto" })].concat(vests.map(function (v) { return el("th", { text: VESTIBULARES[v].nome }); })))])]);
-      var corpo = el("tbody");
-      var materiaAtual = null;
-      chaves.forEach(function (k) {
-        var l = linhas[k];
-        if (l.m !== materiaAtual) {
-          materiaAtual = l.m;
-          corpo.appendChild(el("tr", { class: "grupo" }, [el("th", { colspan: String(vests.length + 1), text: MATERIAS[l.m] })]));
-        }
-        corpo.appendChild(el("tr", {}, [el("td", { text: l.a })].concat(vests.map(function (v) {
-          var c = l.c[v];
-          if (!c) return el("td", { class: "vazia", text: "–" });
-          var pct = Math.round((c.certas / c.total) * 100);
-          var nivel = pct >= 80 ? 4 : pct >= 60 ? 3 : pct >= 40 ? 2 : pct >= 20 ? 1 : 0;
-          return el("td", { class: "nivel-" + nivel, title: VESTIBULARES[v].nome + " · " + l.a + ": " + c.certas + " de " + c.total + " certas" }, [
-            el("span", { class: "pct", text: pct + "%" }), el("span", { class: "n", text: " " + c.certas + "/" + c.total }),
-          ]);
+    function bolha(c, rotulo) {
+      if (!c) return el("span", { class: "bolha-dado vazia", "aria-label": rotulo + ": sem questões", title: rotulo + ": sem questões", text: "–" });
+      var p = pct(c.certas, c.total);
+      var nivel = p >= 80 ? 4 : p >= 60 ? 3 : p >= 40 ? 2 : p >= 20 ? 1 : 0;
+      var dica = rotulo + ": " + c.certas + " de " + c.total + " certas (" + p + "%)";
+      return el("span", { class: "bolha-dado nivel-" + nivel + (c.total < 3 ? " fraca" : ""), title: dica, "aria-label": dica, text: p + "%" });
+    }
+    var abertas = estado.mapaAberto = estado.mapaAberto || {};
+    var corpo = el("tbody");
+    ORDEM_MATERIAS.forEach(function (m) {
+      var pm = porMateria[m];
+      if (!pm) return;
+      var nAss = Object.keys(pm.assuntos).length;
+      var totalM = colunas.reduce(function (s, v) { return s + (pm.c[v] ? pm.c[v].total : 0); }, 0);
+      if (!totalM) return;
+      corpo.appendChild(el("tr", { class: "materia" }, [
+        el("td", {}, [el("button", { type: "button", class: "abre", "aria-expanded": abertas[m] ? "true" : "false", onclick: function () { abertas[m] = !abertas[m]; desenhar(); } }, [
+          MATERIAS[m], el("small", { text: plural(nAss, "assunto", "assuntos") }),
+        ])]),
+      ].concat(colunas.map(function (v) { return el("td", {}, [bolha(pm.c[v], MATERIAS[m] + " na " + VESTIBULARES[v].nome)]); }))));
+      if (!abertas[m]) return;
+      Object.keys(pm.assuntos).map(function (a) {
+        var x = pm.assuntos[a], c = 0, t = 0;
+        colunas.forEach(function (v) { if (x[v]) { c += x[v].certas; t += x[v].total; } });
+        return { a: a, x: x, p: t ? c / t : 2, t: t };
+      }).filter(function (r) { return r.t; }).sort(function (a, b) { return a.p - b.p; }).forEach(function (r) {
+        corpo.appendChild(el("tr", { class: "assunto" }, [el("td", { text: r.a })].concat(colunas.map(function (v) {
+          return el("td", {}, [bolha(r.x[v], r.a + " na " + VESTIBULARES[v].nome)]);
         }))));
       });
-      tab.appendChild(corpo);
-      app.appendChild(el("section", { class: "secao" }, [
-        el("h2", { text: "Mapa de assuntos" }),
-        el("p", { class: "dica", text: "Porcentagem de acerto em cada assunto, por vestibular. Quanto mais escuro, melhor. Conta a tentativa mais recente de cada questão." }),
-        el("div", { class: "mapa-caixa" }, [tab]),
-      ]));
-    }
+    });
+    var escala = el("div", { class: "escala" }, [
+      el("span", { text: "Acerto:" }),
+      el("ol", {}, [["0", "0–19%"], ["1", "20–39"], ["2", "40–59"], ["3", "60–79"], ["4", "80–100"]].map(function (n) {
+        return el("li", {}, [el("span", { class: "bolha-dado nivel-" + n[0], "aria-hidden": "true" }), n[1]]);
+      })),
+      el("span", { text: "Bolha mais clara: menos de 3 questões." }),
+    ]);
+    app.appendChild(el("section", { class: "painel", style: "margin-top:1rem" }, [
+      el("div", { class: "painel-cab" }, [el("h2", { text: "Mapa de assuntos" }), el("p", { text: "Toque numa matéria para ver os assuntos, do mais fraco para o mais forte." })]),
+      el("div", { class: "mapa-caixa" }, [el("table", { class: "mapa" }, [
+        el("thead", {}, [el("tr", {}, [el("th", { text: "Matéria" })].concat(colunas.map(function (v) { return el("th", { text: VESTIBULARES[v].nome }); })))]),
+        corpo,
+      ])]),
+      escala,
+    ]));
 
-    // medalhas
+    // medalhas (todo o histórico)
     app.appendChild(el("section", { class: "secao" }, [
       el("h2", { text: "Medalhas" }),
       el("ul", { class: "medalhas" }, medalhas(hist).map(function (m) {
         return el("li", { class: m.feito ? "feita" : "" }, [
-          el("span", { class: "medalha-icone", "aria-hidden": "true", text: m.feito ? "★" : "☆" }),
+          anelMedalha(m.f, m.feito),
           el("span", {}, [el("strong", { text: m.nome }), el("small", { text: m.meta + " · " + m.prog })]),
         ]);
       })),
     ]));
 
-    // desempenho por matéria e lista de treinos (também servem de tabela do gráfico)
-    var acumulado = {};
-    hist.forEach(function (h) {
-      Object.keys(h.materias || {}).forEach(function (m) {
-        var a = acumulado[m] = acumulado[m] || { certas: 0, total: 0 };
-        a.certas += h.materias[m].certas; a.total += h.materias[m].total;
-      });
-    });
-    var tabela = el("table", { class: "por-materia" }, [el("thead", {}, [el("tr", {}, [el("th", { text: "Matéria" }), el("th", { text: "Acertos", style: "text-align:right" }), el("th", { text: "" })])])]);
-    var corpoM = el("tbody");
-    ORDEM_MATERIAS.forEach(function (m) {
-      var x = acumulado[m];
-      if (!x || !x.total) return;
-      var pct = Math.round((x.certas / x.total) * 100);
-      corpoM.appendChild(el("tr", {}, [el("td", { text: MATERIAS[m] }), el("td", { class: "n", text: x.certas + "/" + x.total + " · " + pct + "%" }),
-        el("td", { style: "width:40%" }, [el("div", { class: "barra" }, [el("i", { style: "width:" + pct + "%" })])])]));
-    });
-    tabela.appendChild(corpoM);
-    app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Desempenho por matéria" }), el("div", { style: "overflow-x:auto" }, [tabela])]));
-    app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Últimos treinos" }), el("ul", { class: "historico" }, hist.map(function (h) {
-      var pct = h.total ? Math.round(((h.certas + (h.parciais || 0) * 0.5) / h.total) * 100) : 0;
-      return el("li", {}, [
-        el("span", { class: "t", text: h.titulo }),
-        el("span", { class: "num", text: h.certas + "/" + h.total + " · " + pct + "%" }),
-        el("span", { class: "d", text: dataCurta(h.quando) + " · " + formatarTempo(h.duracao) }),
+    // treinos do recorte (também é a tabela do gráfico)
+    var linhas = treinos.slice().reverse().map(function (t) {
+      var p = pct(t.certas, t.total);
+      return el("tr", {}, [
+        el("td", { class: "d", text: dataCurta(t.quando) }),
+        el("td", { text: t.h.titulo }),
+        el("td", { class: "n", text: (t.certas % 1 ? t.certas.toFixed(1) : t.certas) + "/" + t.total }),
+        el("td", { class: "n" }, [el("span", { class: "mini", "aria-hidden": "true" }, [el("i", { style: "width:" + p + "%" })]), p + "%"]),
+        el("td", { class: "n", text: formatarTempo(t.h.duracao || 0) }),
       ]);
-    }))]));
+    });
+    app.appendChild(el("section", { class: "secao" }, [
+      el("h2", { text: "Treinos" }),
+      el("div", { class: "painel tabela-caixa" }, [el("table", { class: "historico" }, [
+        el("thead", {}, [el("tr", {}, [el("th", { text: "Data" }), el("th", { text: "Treino" }), el("th", { class: "n", text: "Acertos" }), el("th", { class: "n", text: "Aproveitamento" }), el("th", { class: "n", text: "Tempo" })])]),
+        el("tbody", {}, linhas),
+      ])]),
+    ]));
   }
 
   // ---------- páginas legais ----------
@@ -1123,6 +1321,15 @@
     });
     desenhar();
   }).catch(erroGeral);
+
+  var redimensionar = null;
+  window.addEventListener("resize", function () {
+    clearTimeout(redimensionar);
+    redimensionar = setTimeout(function () {
+      var g = document.querySelector(".grafico-caixa");
+      if (g && g.desenhar) g.desenhar();
+    }, 150);
+  });
 
   window.BancaAberta = { estado: estado, irPara: irPara };
 })();

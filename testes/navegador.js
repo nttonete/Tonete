@@ -130,7 +130,7 @@ async function fluxo(browser, nome, opcoes) {
 
   await page.click("#nav-historico");
   await page.waitForSelector("text=Seu desempenho");
-  ok(await page.locator(".historico li").count() === 2, "histórico registra os dois treinos");
+  ok(await page.locator(".historico tbody tr").count() === 2, "histórico registra os dois treinos");
   ok(await page.locator("svg.grafico .ponto").count() === 2, "gráfico de evolução com dois pontos");
   ok(await page.locator(".medalhas li.feita").count() >= 2, "medalhas conquistadas aparecem");
   await page.screenshot({ path: `${SAIDA}/${nome}-historico.png`, fullPage: true });
