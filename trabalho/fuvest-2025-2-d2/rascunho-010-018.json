@@ -74,6 +74,148 @@
         }
       ],
       "observacoes": "Na resposta oficial do item c, o texto traz “a função trabalho , ou seja” (o símbolo φ parece ter sido omitido antes da vírgula) e, no item a, “ter sido descarregado” (concordância do original)."
+    },
+    {
+      "numero": 13,
+      "codigo": "G01",
+      "materia": "geografia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "Leia o texto e observe a imagem.\n\nResiste, ainda, em meio à densa vegetação do local, a Calçada construída em 1792, com curioso traçado em ziguezague e calçamento com laje de pedra, técnica de pavimentação que veio assegurar o trânsito permanente de tropas de muares. Situada entre o rio das Pedras e o rio Cubatão, trecho mais árduo da ligação de São Paulo com o Porto de Cubatão, essa estrada destinava-se a dar escoamento aos produtos das terras interiores. A iniciativa da sua construção coube ao governador da capitania de São Paulo, entre 1788 e 1798, tendo sua execução ficado a cargo do Real Corpo de Engenheiros. A obra ficou conhecida por Calçada do Lorena, empreendimento que assinalou o início da constituição de uma infraestrutura destinada a colocar São Paulo no comércio internacional. Essa Calçada veio romper o isolamento em que se encontravam os paulistas devido às péssimas ligações com o litoral.\n\nDisponível em https://doi.org/10.11606/issn.2317-2762.v0i8p150-167 (Adaptado).\n\n![Mapa “Os caminhos mais usados entre a capital e o litoral”, com o trajeto entre São Paulo e Santos, os rios, as rodovias Caminho do Mar, Anchieta e dos Imigrantes, a Represa Billings e o destaque para a Calçada do Lorena](fig:p17-c1)\n\nDisponível em https://revistapesquisa.fapesp.br/ (Adaptado).\n\nA partir do texto e da figura, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual a principal estrutura do meio físico que teve de ser vencida durante a construção da Calçada do Lorena?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Indique um produto e um destino quanto ao comércio internacional. Justifique a construção da obra do ponto de vista da formação territorial."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Explique um fator da natureza que dificultou a construção da obra e um fator social que ajudou a viabilizá-la."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 14,
+      "codigo": "G02",
+      "materia": "geografia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "A rodovia Rio-Santos, trecho da BR-101, foi construída ao longo da região litorânea paulista e sul-fluminense como parte de um projeto nacional vigente e imposto naquele período. Desde então, uma série de empreendimentos foram instalados, como a Usina Nuclear de Angra dos Reis (RJ) e o Porto e Terminal Almirante Barroso da Petrobrás (SP). O discurso de que a Rio-Santos estaria favorecendo uma região praticamente desabitada também está presente nas publicações oficiais do Ministério dos Transportes. Na Biblioteca Nacional, é possível ter acesso a uma publicação, elaborada em 1973 na Escola Superior de Guerra, que caracteriza a Rio-Santos como rodovia com aspectos pioneiros de colonização.\n\nFONTANELLI, Marina de Mello. Revista Tempos Históricos, vol. 22, 2018 (Adaptado).\n\n![Mapa do litoral entre Ubatuba, Paraty, Angra dos Reis e Rio de Janeiro, com a rodovia Rio-Santos, as comunidades quilombolas e áreas de proteção ambiental; legenda: comunidades quilombolas e rodovia Rio-Santos](fig:p17-c2)\n\nLocalização de comunidades Quilombolas em Ubatuba (SP), Paraty, Angra dos Reis e Rio de Janeiro (RJ).\nDisponível em https://censo2022.ibge.gov.br/ (Adaptado).\n\nRelacione o excerto e o mapa para responder:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite um aspecto econômico atrativo no eixo considerado."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Explique um impacto cultural negativo da construção da rodovia."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Aponte e explique um aspecto do contexto histórico no qual ocorreu a construção da rodovia em questão."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "codigo": "G03",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Desde o período colonial, a exploração de minérios é o motor da economia da República Democrática do Congo (RDC). Atualmente, a mineração contribui com 80% das receitas de exportação e alimenta um forte crescimento do PIB, de acordo com o Banco Mundial. No entanto, a RDC enfrenta problemas com a flutuação dos preços mundiais dos minérios, assim como outros países cuja economia é baseada no setor primário. Com um PIB *per capita* de 1.143 dólares em 2019, a população está entre as mais pobres do planeta. A esperança de vida atinge pico aos 60 anos e apenas um terço das famílias tem acesso à água potável. Nas atividades de mineração, os trabalhadores recebem de 1 a 2 dólares por dia, havendo o risco de intoxicação e o trabalho infantil nas minas. Os problemas continuam com os mercados clandestinos de minérios, que financiam conflitos internos e o aumento da violência na região.\n\nAtlas Géopolitique Mondial, 2022 (Adaptado).\n\n![Figura 1. Exploração de minérios e conflitos na RDC, 2020: mapa da República Democrática do Congo com áreas de mineração de ouro, minas de diamante, região contendo estanho, região contendo cobre e cobalto, áreas onde as atividades de mineração são proibidas, zona de conflito e de bloqueios de estradas, estradas principais e estradas não pavimentadas](fig:p19-c1)\n\n![Figura 2. Incidentes notificados no leste da RDC entre novembro/2018 e dezembro/2019: gráfico de barras do número de incidentes por categoria (exploração de minério, atos de violência, trabalho infantil, outros, problemas ambientais, corrupção ou fraude e bloqueios de estradas)](fig:p19-c2)\n\nCom base no texto, nas figuras e em seus conhecimentos, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite um dos recursos minerais cuja exploração está ligada a conflitos na RDC."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Aponte duas razões para os incidentes indicados no gráfico."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Explique duas razões pelas quais a RDC apresenta um baixo nível de desenvolvimento socioeconômico apesar das riquezas minerais encontradas."
+        }
+      ],
+      "observacoes": "As legendas “Figura 1” e “Figura 2” estão dentro dos recortes das figuras."
+    },
+    {
+      "numero": 16,
+      "codigo": "G04",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "China e Irã estabeleceram acordos econômicos e estratégicos há um ano, reforçando compromissos comerciais em função da Nova Rota da Seda. Segundo o pacto, a China investiria bilhões de dólares no Irã, em setores de petróleo, gás e petroquímica, no sistema de transporte e na infraestrutura fabril. Em troca, a China seria favorecida na compra de petróleo, gás e petroquímicos do Irã, por meio de descontos e outras vantagens econômicas. O acordo permite contornar o sistema dolarizado de pagamentos bancários, controlado pelos Estados Unidos, bem como os embargos implementados contra o Irã. O pacto entre China e Irã também prevê a aproximação deste com a Arábia Saudita, mediada pela China. Em paralelo, cabe destacar o ingresso recente nos BRICS do Irã, Arábia Saudita, Emirados Árabes e Egito, que estabeleceram uma estratégia geopolítica em relação aos EUA e à União Europeia. Em conjunto, essas ações movimentam o eixo geopolítico para a porção mais oriental do globo.\n\n![Infográfico “Relações comerciais entre China e Irã”: barras das exportações chinesas para o Irã e das exportações iranianas para a China, em bilhões de dólares, de 1995 a 2018, com a linha do tempo dos embargos e sanções econômicas. Carto #63, 2021 Areion/Capri. Fonte: Observatório da Complexidade Econômica, 2020](fig:p19-c3)\n\nCarto *Le monde en cartes*, n.63, 2021 (Adaptado).\n\nO infográfico ao lado trata das relações comerciais entre China e Irã entre 1995 e 2018, além de apresentar a linha do tempo dos embargos e sanções econômicas.\n\nRelacione o infográfico com o texto para responder:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Por que o pacto entre China e Irã ameniza as sanções econômicas que ocorrem desde 1995?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando as relações comerciais entre China e Irã, cite uma razão para o fortalecimento das exportações e uma razão para a diminuição destas entre os dois países."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Para além do fornecimento de gás e petróleo do Irã, cite dois interesses geopolíticos da China em reforçar o acordo com o país iraniano."
+        }
+      ],
+      "observacoes": "A figura fica ao lado do primeiro parágrafo no caderno; foi posta logo após o texto, antes da fonte e da frase “O infográfico ao lado...”. Na resposta oficial do item c, o texto diz “oito países” mas lista sete (mantido como no original)."
+    },
+    {
+      "numero": 17,
+      "codigo": "G05",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Mais da metade do deserto do Saara recebe menos de 25 mm de precipitação ao longo do ano. Porém, devido a uma anomalia de precipitação, grande parte desse deserto apresentou neste ano (2024) chuvas muito acima do normal, potencialmente atingindo um máximo de 500% da média anual e mais de 1000% da precipitação normal nas regiões centrais. Embora essa quantidade possa não parecer alta, consideradas as médias históricas, o volume de chuvas de poucos dias em algumas áreas foi equivalente aos totais anuais.\n\nDisponível em https://metsul.com/ (Adaptado).\n\n![Duas imagens de satélite lado a lado de uma região do deserto do Saara entre Marrocos e Argélia, com as localidades Abadla e Sebkha el Melah, escala de 100 km e legenda de corpos hídricos; a da esquerda mostra a área antes das chuvas e a da direita, após as chuvas](fig:p21-c1)\n\nÁrea do deserto do Saara antes das chuvas, em 14 de agosto de 2024, e após as chuvas, em 10 de setembro de 2024.\nDisponível em NASA, 2024.\n\nSobre as chuvas na região do deserto do Saara e as imagens de satélite, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual o principal sistema atmosférico responsável pela formação de chuva para essa região do deserto do Saara?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Indique dois aspectos positivos resultantes desse aumento de precipitações."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Explique um impacto ambiental observado após a ocorrência anômala de chuvas nessa região do Saara."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "codigo": "G06",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Perguntar qual a extensão do Brasil a quem frequentou uma escola e aprendeu noções básicas de nossa geografia levará à resposta de 8,5 milhões de quilômetros quadrados. Esse dado, porém, está bem abaixo do que se considera hoje o tamanho real do território nacional. Desde 16 de novembro de 1994, com a entrada em vigor da Convenção das Nações Unidas sobre o Direito do Mar (CNUDM), aos 8.514.877 $\\text{km}^2$ indicados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) no mapa do Brasil, somam-se 3,5 milhões de $\\text{km}^2$ de espaços marítimos, um vasto território ainda pouco considerado.\n\nASSAD, Leonor. *Revista Ciência e Cultura*, vol.62, n.3, 2010 (Adaptado).\n\nEm 27 de agosto de 2024, o IBGE apresentou o novo limite leste do Sistema Costeiro-Marinho do país.\n\n![Mapa do Brasil com os estados e os países vizinhos, com área hachurada no oceano Atlântico que representa o Sistema Costeiro-Marinho](fig:p21-c2)\n\nEstados e Sistema Costeiro-Marinho do Brasil. IBGE, 2024 (Adaptado).\n\nCom base no texto e no mapa, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual é a denominação da área que compreende o limite marítimo em destaque?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite dois aspectos que promoveram a necessidade para o novo mapeamento."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Explique qual a razão para o acréscimo das áreas de cobertura territorial nos extremos leste e nordeste do litoral brasileiro e indique o nome de uma delas."
+        }
+      ],
+      "observacoes": "O mapa fica ao lado do texto no caderno; foi posto após a frase “Em 27 de agosto de 2024...”."
     }
   ],
   "respostas": {
@@ -98,6 +240,54 @@
         "a": "O fato de a placa ter sido descarregado pela incidência de radiação indica que nela havia excesso de elétrons, ou seja, a placa estava carregada negativamente.",
         "b": "A energia do fóton incidente é $E = hf = 4\\times10^{-15}.\\ 6\\times10^{14} = 2{,}4$ eV. O único material que possui uma função trabalho inferior a esse valor, e que, portanto, experimentará efeito fotoelétrico na presença da luz verde, é o potássio.",
         "c": "A conservação da energia exige que a energia cinética $K$ adquirida pelo elétron seja igual à diferença entre a energia $hf$ do fóton e a função trabalho, ou seja, $K = hf - \\phi$. Sendo $c$ a velocidade da luz no vácuo e $\\lambda$ o comprimento de onda do fóton, temos:\n\n$$hf = \\frac{hc}{\\lambda} = \\frac{4\\times10^{-15}\\cdot3\\times10^{8}}{400\\times10^{-9}} = 3\\ \\text{eV}$$\n\nLogo, $K = 3 - 2{,}5 = 0{,}5$ eV."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+    },
+    "13": {
+      "itens": {
+        "a": "A principal estrutura do meio físico a ser vencida na construção da Calçada do Lorena foi a Escarpa da Serra do Mar.",
+        "b": "Os principais produtos comerciais do Brasil, naquele momento histórico, eram o ouro e, principalmente, o açúcar e tinham como destino o mercado europeu. A construção da obra se justificou pelo isolamento da cidade de São Paulo do Litoral, pela proximidade dos portos de Cubatão e Santos ou por ser o caminho de exportação dos principais produtos naquela época.",
+        "c": "O volume elevado de chuvas da região, que dificultava a construção da obra, ou a elevada declividade e altitude (cerca de 800 m) que deveria ser vencida pela construção, ou a presença de muitos rios que dificultavam o trajeto da calçada. O uso de mão de obra escrava ajudou a viabilizar a construção da calçada do Lorena naquele momento histórico."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também Serra do Mar, relevo da Serra do Mar, escarpa Atlântica, topografia da Serra do Mar e declividade da escarpa.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também volume da pluviosidade, ocorrência de neblina, extensão da estrada, deslizamentos de encosta, Floresta Densa, afloramento de blocos rochosos."
+    },
+    "14": {
+      "itens": {
+        "a": "O principal aspecto econômico atrativo na Rodovia Rio-Santos foi o turismo ou ligação entre os municípios do litoral paulista e sul-fluminense.",
+        "b": "A construção da rodovia apresentou como impacto negativo a especulação imobiliária, afetando a cultura da população quilombola, caiçara e indígena na região do litoral de Ubatuba (SP), Paraty e Angra dos Reis (RJ), pois as estruturas estabelecidas pelo Estado não consideraram seus territórios, como observado no mapa e no discurso que negava a existência dessa população.",
+        "c": "A integração nacional foi uma meta estabelecida pelas ações da Ditadura Militar caracterizadas pela combinação de fundamentos nacionalistas, inserção na divisão internacional do trabalho e disponibilidade de crédito no mercado internacional. As ações estiveram voltadas para instalação de equipamentos de infraestrutura e setores de bens de produção, onde foi construído o trecho entre Rio de Janeiro e Santos da BR101."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também interligação entre empreendimentos (portos, usinas) com facilitação de circulação de insumos, infraestrutura e pessoas entre eles; facilitação para instalação e interligação do empreendimentos mencionados no enunciado (Usinas, Porto, Terminal etc).\n- item b: 2 pontos. Aceitou-se também destruição ambiental ou da biodiversidade afetando os meios de vida das comunidades tradicionais.\n- item c: 2 pontos."
+    },
+    "15": {
+      "itens": {
+        "a": "Ouro, diamante e estanho são recursos minerais ligados a conflitos na RDC.",
+        "b": "Dentre as razões dos incidentes mencionados no gráfico, podem ser citadas: condições de trabalho sem segurança, exploração ilegal de recursos minerais, mercado clandestino de minerais e falta de controle do Estado em áreas proibidas por motivos de segurança nacional, da população e proteção ambiental.",
+        "c": "As razões que levam a RDC a ter um baixo nível socioeconômico são enfrentamento de problemas com o preço mundial dos minérios e flutuação dos valores; economia estruturada no setor primário, gerando empregos precários; e concentração de renda em grupos minoritários que dominam a produção dos minérios."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+    },
+    "16": {
+      "itens": {
+        "a": "O pacto com a China diminui o isolamento do Irã, colocando-o em uma posição geopolítica melhor no Oriente Médio, por conta das fronteiras e localização; alinha-se ao projeto multigeracional da Nova Rota da Seda e permite transação comercial com as moedas locais, pois o Irã foi excluído do sistema de dolarização.",
+        "b": "O motivo para o fortalecimento das exportações entre os dois países consiste no início das sanções internacionais (2006, 2008 e 2010). O motivo para a diminuição das relações comerciais entre China e Irã é a suspensão das sanções econômicas, tais como as que ocorreram em 2014, 2015 e 2016, além do acordo nuclear entre EUA e Irã em 2015, que foi suspenso em 2018.",
+        "c": "O interesse da China no Irã é geopolítico e econômico e, ainda, está associado à sua localização e fronteiras; há a localização estratégica, que inclui o controle do Estreito de Ormuz, por onde passam 20% do petróleo mundial, conferindo-lhe grande influência nas rotas energéticas globais; e há o fato de o Irã ser um país localizado no Oriente Médio com fronteira entre oito países (Armênia, Azerbaijão, Turcomenistão, Afeganistão, Paquistão, Turquia e Iraque), além de ser banhado pelo Mar Cáspio, ao norte, e pelo Mar Arábico, ao sul, permitindo rotas comerciais pela água."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também contra hegemonia dos EUA, fortalecimento de Ordem multipolar, expansão dos Brics, fortalecimento da Rota da Seda, ampliar influência no Oriente Médio."
+    },
+    "17": {
+      "itens": {
+        "a": "Zona de Convergência Intertropical (ZCIT) é o principal sistema atmosférico responsável pela formação de chuvas nessa área do Deserto do Saara.",
+        "b": "O aumento das chuvas nessa região resulta em maior produção agrícola e melhores condições de dessedentação animal. Além disso, aumenta a disponibilidade do uso da água para consumo humano e reduz custos com irrigação.",
+        "c": "Impactos ambientais que podem ser observados após ocorrência de chuvas incluem o aumento dos processos erosivos em função do elevado volume de chuvas; alagamentos e inundações que podem prejudicar as comunidades locais; e impactos climáticos em outras regiões do globo com redução de chuvas."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+    },
+    "18": {
+      "itens": {
+        "a": "O limite em destaque no mapa é a Amazônia Azul.",
+        "b": "A garantia dos limites territoriais, a soberania nacional e a proteção e uso dos recursos na Zona Econômica Exclusiva são motivos que justificam esse novo mapeamento.",
+        "c": "O motivo é o desenvolvimento de pesquisas científicas na área marítima, que correspondem a arquipélagos marinhos que representam refúgios oceânicos de biodiversidade e proteção da fauna oceânica. Dentre eles, destacam-se as Ilhas de Trindade e Martim Vaz, os Arquipélagos de São Pedro e São Paulo, além de Fernando de Noronha."
       },
       "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
     }

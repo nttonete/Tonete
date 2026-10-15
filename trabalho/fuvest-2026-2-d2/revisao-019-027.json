@@ -1,0 +1,109 @@
+{
+  "edicao": "fuvest-2026-2-d2",
+  "intervalo": [
+    19,
+    27
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 25,
+      "codigo": "M01",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A palavra ARARA, para além da beleza da ave e de ser um palíndromo, é comumente utilizada em exercícios de análise combinatória e probabilidade, pois é formada por cinco letras, com apenas duas letras distintas. Supondo que as letras dessa palavra estão numa urna em que a retirada de cada uma das letras é equiprovável, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual a probabilidade de sortear duas letras, sem reposição, formando a palavra AR, isto é, sortear a primeira letra A e, sem a reposição, sortear a segunda letra R?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Qual a probabilidade de sortear 5 letras, sem reposição, e formar novamente a palavra ARARA?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Supondo agora que as letras colocadas na urna são coloridas, isto é, ![ARARA, cada letra em uma cor (A azul, R vermelho, A amarelo, R verde, A salmão)](fig:p31-c3), qual a probabilidade de sortear novamente, sem reposição, 5 letras que formem a palavra ![ARARA, cada letra em uma cor (A azul, R vermelho, A amarelo, R verde, A salmão)](fig:p31-c2) com a mesma coloração inicial?"
+        }
+      ]
+    }
+  ],
+  "respostas_corrigidas": {},
+  "complementos": {
+    "19": {
+      "assunto": "Idade Moderna (Europa)"
+    },
+    "20": {
+      "assunto": "Brasil Império"
+    },
+    "21": {
+      "assunto": "Mundo contemporâneo"
+    },
+    "22": {
+      "assunto": "Idade Média"
+    },
+    "23": {
+      "assunto": "Guerras mundiais e entreguerras"
+    },
+    "24": {
+      "assunto": "História da África"
+    },
+    "25": {
+      "assunto": "Combinatória e probabilidade"
+    },
+    "26": {
+      "assunto": "Matrizes e sistemas"
+    },
+    "27": {
+      "assunto": "Trigonometria"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 19,
+      "status": "ok",
+      "notas": "Enunciado (2 parágrafos, fonte com *Inferno atlântico* em itálico) e itens conferidos com p24, palavra por palavra e itálicos pela fonte do PDF. Resposta conferida com r37 (listas com '-' como no original)."
+    },
+    {
+      "numero": 20,
+      "status": "ok",
+      "notas": "Conferida com p24 e r38. Observação do transcritor: as aspas retas que fecham a citação no item b estão mesmo no caderno (caractere \" no PDF); mantidas. Itálicos (*Revista Illustrada*, *Obra Completa*) conferidos."
+    },
+    {
+      "numero": 21,
+      "status": "atencao",
+      "notas": "Transcrição conferida com p26 e r39, sem erro. Observação do transcritor confirmada: a resposta oficial grafa \"Anciões\" e tem \"Desde o final dos anos 1970. Deng Xiaoping\" (ponto no lugar de vírgula); mantidos como no original. Atenção ao conteúdo: a resposta oficial do item b associa os Anciãos a quadros da Revolução Cultural (1966-1976). Os 'Anciãos' de Perry Anderson são os veteranos da luta armada da geração revolucionária (Deng Xiaoping, Chen Yun, Yang Shangkun, Li Xiannian e outros), em boa parte perseguidos justamente durante a Revolução Cultural; o próprio excerto os define como 'veteranos de décadas de luta armada para a conquista do poder'. A resposta da banca parece imprecisa; não alterada, para uma pessoa decidir se cabe nota."
+    },
+    {
+      "numero": 22,
+      "status": "ok",
+      "notas": "Conferida com p26 e r40 (fonte com *Os pensadores* em itálico; 'àquele' com crase como no original). Observação do transcritor confirmada: \"capar de usar\" está no original (erro de digitação da banca); mantido. 'lectio', 'quaestio', 'disputatio' e 'Universitas' não estão em itálico no documento oficial."
+    },
+    {
+      "numero": 23,
+      "status": "ok",
+      "notas": "Conferida com p28 e r41: diálogos com hífen como no original, travessões em '– disseram os representantes. –', fonte com *As vinhas da ira*."
+    },
+    {
+      "numero": 24,
+      "status": "ok",
+      "notas": "Conferida com p28 e r42: os dois excertos completos, na ordem, com as duas fontes; parágrafos e diálogos conferidos."
+    },
+    {
+      "numero": 25,
+      "status": "corrigida",
+      "notas": "Item c: o recorte p31-c1 da primeira palavra ARARA colorida trazia na borda direita a vírgula do texto (que já está como texto logo depois, ficando duplicada); refeito como p31-c3, sem a vírgula. A descrição das duas figuras dizia 'A laranja' para a terceira letra, que é amarela (cor #ffd428 no PDF); corrigido para 'A amarelo' (cores no PDF: azul #3465a4, vermelho, amarelo #ffd428, verde #158466, salmão #ffaa95). Resposta conferida com r02 (3/10 = 30%; 1/10 = 10%; 1/120 = 0,8333...%)."
+    },
+    {
+      "numero": 26,
+      "status": "ok",
+      "notas": "Conferida com p31 e r03 (sistemas, 45 e 5 frascos; b = 7,80; sistema impossível em negrito como no original). Observação do transcritor confirmada: \"arrecado\" está no original; mantido. Contas da banca conferidas."
+    },
+    {
+      "numero": 27,
+      "status": "ok",
+      "notas": "Conferida com p33 e r04; figura p33-c1 completa (superfície da água, 120 m, Sonar, detalhe ampliado, linha horizontal). Figuras da resposta r04-c1 e r04-c2 completas. '45º' (ordinal) no item b e '30°' no item c estão assim no caderno. Contas da banca conferidas (112,93 m; 100 m)."
+    }
+  ]
+}
