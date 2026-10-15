@@ -119,7 +119,7 @@
   }
  },
  "18": {
-  "resposta": "**Objetivo da questão:** a) A questão aborda conceitos básicos de termodinâmica como calor específico e calor latente. O objetivo era cobrar a aplicação das recorrentes expressões envolvendo tais conceitos a um sistema de refrigeração real.\nb) Este item, apesar de abordar o mesmo tema aquecimento/refrigeração, difere do item a uma vez que, aqui, o sistema de aquecimento é elétrico. O candidato deveria dominar os conceitos de potência elétrica e sua relação com resistividade e resistência elétricas.",
+  "resposta": "**Objetivo da questão:** a) A questão aborda conceitos básicos de termodinâmica como calor específico e calor latente. O objetivo era cobrar a aplicação das recorrentes expressões envolvendo tais conceitos a um sistema de refrigeração real.\nb) Este item, apesar de abordar o mesmo tema aquecimento/refrigeração, difere do item **a** uma vez que, aqui, o sistema de aquecimento é elétrico. O candidato deveria dominar os conceitos de potência elétrica e sua relação com resistividade e resistência elétricas.",
   "itens": {
    "a": "$$Q_{resf} = Q_{evap} \\Rightarrow m_a c|\\Delta T| = m_v L$$\n$$Q_{evap} = mL = 540 \\times 2000 = 1{,}08 \\times 10^{6}\\ \\text{cal}$$\n$$|\\Delta T| = \\frac{1{,}08 \\times 10^{6}}{108 \\times 10^{3}} = 10\\ ^\\circ\\text{C}$$\n$$T_f = 20\\ ^\\circ\\text{C}$$",
    "b": "$$P = \\frac{U^2}{R}$$\n$$R = 8{,}8\\ \\Omega = \\frac{\\rho l}{A}$$\n$$l = \\frac{8{,}8 \\times 2{,}5 \\times 10^{-7}}{1{,}1 \\times 10^{-6}} = 2\\ \\text{m}$$"

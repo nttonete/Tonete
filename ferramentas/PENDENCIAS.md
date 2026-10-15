@@ -55,6 +55,7 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2025-2-cha q17: a resposta atribui aos "contrários ao Marco Temporal" o argumento da segurança jurídica, que é dos defensores.
 - unicamp-2025-2-cha q19: a resposta diz que o Conselho do Ártico foi formado em 1991; o enunciado (correto) diz 1996.
 - fuvest-2024-2-d2 q11 (F05), item b: o caderno pergunta sobre "o elétron e o pósitron"; pela figura e pela resposta da banca, a segunda partícula é o próton. Decidir se entra nota da plataforma.
+- unicamp-2017-2-d3 q17, item b: pelo gráfico do caderno o coeficiente angular dá ≈53×10³ K (função trabalho ≈7,5×10⁻¹⁹ J); a banca usa 50×10³ K e 7×10⁻¹⁹ J (diferença de ~6%, leitura de gráfico).
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ### Discursivas: trecho curto de poema protegido mantido

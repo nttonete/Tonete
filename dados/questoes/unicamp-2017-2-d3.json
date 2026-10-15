@@ -250,7 +250,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Esperava-se que os candidatos fossem capazes de relacionar equações químicas e as energias nelas envolvidas. A questão abordou reações exotérmicas e endotérmicas e cálculos de variação de entalpia, além do princípio da conservação da energia e lei de Hess.\nO assunto abordado nessa questão está bem presente em nosso cotidiano – permite calcular grandezas associadas como, por exemplo, no rendimento de aquecedores a gás ou a líquido; e se insere na questão ambiental de diminuição da emissão de $\\text{CO}_2$.",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q11",
@@ -272,7 +273,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Essa questão buscou avaliar se os candidatos tinham noções gerais sobre a composição, a utilização de recursos naturais da crosta terrestre, da atmosfera, da biosfera e da hidrosfera e as consequências dessa utilização. O próprio texto da questão se baseia no funcionamento de usinas térmicas à base de lixo não perecível. A questão também requeria a aplicação de conceitos ácido-base de Arrhenius, Bronsted e Lewis.",
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q12",
@@ -294,7 +296,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Esperava-se que os candidatos dominassem as várias expressões de concentração: porcentagem, fração em massa, fração em mol, massa/volume, mol/volume, mol/quilograma, além de saber trabalhar com sistemas em equilíbrio, constante de equilíbrio e pH de soluções.",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q13",
@@ -316,7 +319,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** a) Este item aborda o conceito de velocidade escalar média, presente em diversas situações do cotidiano das pessoas, e que, nesta questão, aparece em um contexto mais complexo, porém bastante presente em diversas tecnologias já populares como os telefones celulares.\nb) Apesar de envolver um contexto de física moderna (relatividade geral e restrita), este item exige apenas uma correta leitura do gráfico e interpretação de texto.",
-   "revisao": "transcrita"
+   "assunto": "Gravitação",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q14",
@@ -338,7 +342,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** a) Este item aborda um conceito específico, coeficiente de restituição, e exige do candidato conhecimentos sobre movimento retilíneo uniformemente acelerado (queda). O candidato poderia chegar à resposta através das equações horárias para o movimento em questão ou através de conservação de energia mecânica.\nb) Este item, mais complexo que o anterior, trata da conservação do momento linear. Porém, para chegar à resposta correta, o candidato deveria também dominar o conceito de densidade de massa e ainda fazer a estimativa da massa de uma gota de água.\nEm geral, conservação do momento linear se aplica a eventos que envolvem colisões. Neste caso específico, utiliza-se o conhecimento em uma situação interessante relacionada à biologia.",
-   "revisao": "transcrita"
+   "assunto": "Quantidade de movimento",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q15",
@@ -355,12 +360,13 @@
     },
     {
      "rotulo": "b",
-     "texto": "Outro brinquedo comum em parques de diversões é o chapéu mexicano, em que cadeiras são penduradas com correntes na borda de uma estrutura circular que gira com seu eixo de rotação perpendicular ao solo. Considere um chapéu mexicano com estrutura circular de raio $R = 6{,}3\\ \\text{m}$ e correntes de comprimento $L = 2\\ \\text{m}$. Ao girar, as cadeiras se elevam 40 cm, afastando-se 1,2 m do eixo de rotação, conforme mostra a figura b) abaixo. Calcule a velocidade angular de rotação do brinquedo.\n\n![Figura b): estrutura circular de raio R = 6,3 m com cadeira pendurada por corrente de comprimento L = 2 m, elevada 0,4 m e afastada 1,2 m do eixo de rotação](fig:p17-c4)",
+     "texto": "Outro brinquedo comum em parques de diversões é o chapéu mexicano, em que cadeiras são penduradas com correntes na borda de uma estrutura circular que gira com seu eixo de rotação perpendicular ao solo. Considere um chapéu mexicano com estrutura circular de raio $R = 6{,}3\\ \\text{m}$ e correntes de comprimento $L = 2\\ \\text{m}$. Ao girar, as cadeiras se elevam 40 cm, afastando-se 1,2 m do eixo de rotação, conforme mostra a figura b) abaixo. Calcule a velocidade angular de rotação do brinquedo.\n\n![Figura b): disco horizontal com a cota R = 6,3 m, do eixo vertical de rotação até a borda; na borda, uma corrente inclinada com a cota L = 2 m segura a cadeira; uma linha tracejada vertical desce da borda; as cotas 0,4 m (vertical) e 1,2 m (horizontal, entre a linha tracejada e a cadeira) marcam a posição da cadeira](fig:p17-c4)",
      "resposta_oficial": "$$T\\,\\text{sen}\\,\\theta = m\\omega^2 R$$\n$$T\\cos\\theta = mg$$\n$$\\text{tg}\\,\\theta = \\frac{\\omega^2 R}{g}$$\n$$\\omega = \\sqrt{\\frac{10 \\times \\frac{3}{4}}{7{,}5}} = 1\\ \\text{rad/s}$$"
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** a) Exigindo conhecimentos sobre movimento circular e aceleração centrípeta, este item clássico aborda tais conceitos no contexto de um brinquedo presente em parques de diversão. O candidato deveria associar a esses conceitos conhecimentos sobre movimento retilíneo uniformemente acelerado (descida da rampa).\nb) Seguindo a temática dos brinquedos, este item aborda decomposição e equilíbrio de forças. Tais conhecimentos deveriam ser aplicados ao movimento circular do brinquedo em questão.",
-   "revisao": "transcrita"
+   "assunto": "Dinâmica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-2-d3-q16",
@@ -382,7 +388,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** a) A questão exige conhecimentos sobre o importante conceito de energia cinética.\nb) Focaliza os conceitos de energia, potência, intensidade de energia e eficiência. Este item, mais complexo que o anterior, exige o correto manejo dos dados para se chegar à resposta correta. Isso é facilitado pela boa interpretação do texto apresentado.",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q17",
@@ -399,12 +406,14 @@
     },
     {
      "rotulo": "b",
-     "texto": "Uma forma usada para gerar elétrons em um microscópio eletrônico é aquecer um filamento, processo denominado efeito termiônico. A densidade de corrente gerada é dada por $J = AT^2 e^{(-\\Phi/(k_B T))}$, em que $A$ é a constante de Richardson, $T$ é a temperatura em kelvin, $k_B = 1{,}4 \\times 10^{-23}\\ \\text{J/K}$ é a constante de Boltzmann e $\\Phi$, denominado função trabalho, é a energia necessária para remover um elétron do filamento. A expressão para $J$ pode ser reescrita como $\\ln(J/T^2) = \\ln(A) - (\\Phi/k_B)(1/T)$, que é uma equação de uma reta de $\\ln(J/T^2)$ versus $(1/T)$, em que $\\ln(A)$ é o coeficiente linear e $(\\Phi/k_B)$ é o coeficiente angular da reta. O gráfico da figura abaixo apresenta dados obtidos do efeito termiônico em um filamento de tungstênio. Qual é a função trabalho do tungstênio medida neste experimento?\n\n![Gráfico de ln(J/T²) em função de 1/T, em 10⁻³ K⁻¹: reta decrescente que parte de 0 em 1/T = 0,25 e chega a −40 em 1/T = 1,0](fig:p19-c3)",
+     "texto": "Uma forma usada para gerar elétrons em um microscópio eletrônico é aquecer um filamento, processo denominado efeito termiônico. A densidade de corrente gerada é dada por $J = AT^2 e^{(-\\Phi/(k_B T))}$, em que $A$ é a constante de Richardson, $T$ é a temperatura em kelvin, $k_B = 1{,}4 \\times 10^{-23}\\ \\text{J/K}$ é a constante de Boltzmann e $\\Phi$, denominado função trabalho, é a energia necessária para remover um elétron do filamento. A expressão para $J$ pode ser reescrita como $\\ln(J/T^2) = \\ln(A) - (\\Phi/k_B)(1/T)$, que é uma equação de uma reta de $\\ln(J/T^2)$ versus $(1/T)$, em que $\\ln(A)$ é o coeficiente linear e $(\\Phi/k_B)$ é o coeficiente angular da reta. O gráfico da figura abaixo apresenta dados obtidos do efeito termiônico em um filamento de tungstênio. Qual é a função trabalho do tungstênio medida neste experimento?\n\n![Gráfico de ln(J/T²), com eixo vertical de −45 a 0, em função de 1/T, em 10⁻³ K⁻¹, com eixo horizontal de 0,2 a 1,0, sobre grade pontilhada, com uma reta decrescente](fig:p19-c3)",
      "resposta_oficial": "Coeficiente angular da reta:\n\n$$\\alpha = \\frac{\\phi}{k_B} = 50 \\times 10^{3}\\ \\text{K} \\Rightarrow \\phi = 50 \\times 10^{3} \\times 1{,}4 \\times 10^{-23} = 7 \\times 10^{-19}\\ \\text{J}$$"
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** a) Trata-se de física moderna, porém o objetivo aqui é cobrar uma correta interpretação das instruções contidas no texto e o cálculo do comprimento de onda pedido.\nb) Este item envolve leitura de gráfico combinada com a linearização de uma expressão fornecida no texto. O candidato deveria saber o que significa coeficiente linear de uma reta para resolver a questão.",
-   "revisao": "transcrita"
+   "assunto": "Física moderna",
+   "revisao": "atencao",
+   "revisao_notas": "Conferido com p19, r05 e objetivo em r21. Descrição da figura do item b corrigida: trazia as leituras do gráfico (0 em 1/T = 0,25 e −40 em 1/T = 1,0), que são justamente o que o item cobra (leitura do gráfico para obter o coeficiente angular); agora diz só eixos, escalas e que a reta é decrescente. ATENÇÃO: no gráfico do caderno (e no da prova comentada) a reta corta ln = 0 em 1/T ≈ 0,25 e chega a −40 em 1/T = 1,0, o que dá coeficiente angular ≈ 53×10³ K e Φ ≈ 7,5×10⁻¹⁹ J; a banca usa 50×10³ K e Φ = 7×10⁻¹⁹ J (equivale a ler a reta saindo de 0,2). Diferença de ~6%, que parece aproximação ou leitura imprecisa da banca; resposta mantida como publicada. Uma pessoa deve decidir se cabe nota."
   },
   {
    "id": "unicamp-2017-2-d3-q18",
@@ -425,8 +434,9 @@
      "resposta_oficial": "$$P = \\frac{U^2}{R}$$\n$$R = 8{,}8\\ \\Omega = \\frac{\\rho l}{A}$$\n$$l = \\frac{8{,}8 \\times 2{,}5 \\times 10^{-7}}{1{,}1 \\times 10^{-6}} = 2\\ \\text{m}$$"
     }
    ],
-   "resposta_oficial": "**Objetivo da questão:** a) A questão aborda conceitos básicos de termodinâmica como calor específico e calor latente. O objetivo era cobrar a aplicação das recorrentes expressões envolvendo tais conceitos a um sistema de refrigeração real.\nb) Este item, apesar de abordar o mesmo tema aquecimento/refrigeração, difere do item a uma vez que, aqui, o sistema de aquecimento é elétrico. O candidato deveria dominar os conceitos de potência elétrica e sua relação com resistividade e resistência elétricas.",
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** a) A questão aborda conceitos básicos de termodinâmica como calor específico e calor latente. O objetivo era cobrar a aplicação das recorrentes expressões envolvendo tais conceitos a um sistema de refrigeração real.\nb) Este item, apesar de abordar o mesmo tema aquecimento/refrigeração, difere do item **a** uma vez que, aqui, o sistema de aquecimento é elétrico. O candidato deveria dominar os conceitos de potência elétrica e sua relação com resistividade e resistência elétricas.",
+   "assunto": "Termologia",
+   "revisao": "corrigida"
   }
  ]
 }
