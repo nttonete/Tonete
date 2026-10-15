@@ -44,7 +44,11 @@
   }
   function gravar(chave, valor) {
     try { if (valor === null) localStorage.removeItem(chave); else localStorage.setItem(chave, JSON.stringify(valor)); } catch (e) { /* sem armazenamento: segue sem salvar */ }
+    if (window.Nuvem) Nuvem.alterado(chave); // sobe para a conta quando o aluno estiver logado
   }
+  function logado() { return !!(window.Nuvem && Nuvem.ativa() && Nuvem.usuario()); }
+  // onde ficam os dados do aluno, para os textos da tela
+  function ondeGuarda() { return logado() ? "na sua conta" : "neste aparelho"; }
   function embaralhar(lista) {
     var a = lista.slice();
     for (var i = a.length - 1; i > 0; i--) {
@@ -290,8 +294,8 @@
   function irPara(tela) {
     estado.tela = tela;
     estado.revendo = null;
-    var aba = { historico: "nav-historico", plano: "nav-plano", erros: "nav-plano", guias: "nav-guias", redacao: "nav-guias" }[tela] || "nav-inicio";
-    ["nav-inicio", "nav-plano", "nav-guias", "nav-historico"].forEach(function (id) {
+    var aba = { historico: "nav-historico", plano: "nav-plano", erros: "nav-plano", guias: "nav-guias", redacao: "nav-guias", conta: "nav-conta" }[tela] || "nav-inicio";
+    ["nav-inicio", "nav-plano", "nav-guias", "nav-historico", "nav-conta"].forEach(function (id) {
       var b = document.getElementById(id);
       if (b) b.setAttribute("aria-current", id === aba ? "page" : "false");
     });
@@ -310,6 +314,7 @@
     else if (estado.tela === "erros") telaErros();
     else if (estado.tela === "guias") telaGuias();
     else if (estado.tela === "redacao") telaRedacao();
+    else if (estado.tela === "conta" && window.Nuvem && Nuvem.ativa()) telaConta();
     else telaInicio();
   }
 
@@ -1122,7 +1127,7 @@
     var cab = el("div", { class: "prova-cab" }, [el("h1", { text: "Seu desempenho" })]);
     app.appendChild(cab);
     if (!hist.length) {
-      app.appendChild(el("p", { class: "vazio", text: "Você ainda não terminou nenhum simulado ou treino. Os resultados aparecem aqui, guardados neste aparelho." }));
+      app.appendChild(el("p", { class: "vazio", text: "Você ainda não terminou nenhum simulado ou treino. Os resultados aparecem aqui, guardados " + ondeGuarda() + "." }));
       return;
     }
     var vests = Object.keys(VESTIBULARES).filter(function (v) { return hist.some(function (h) { return (h.questoes || []).some(function (q) { return q.v === v; }); }); });
@@ -1132,7 +1137,7 @@
     ]));
     var treinos = recorte(hist, f);
     var totalHist = hist.reduce(function (s, h) { return s + (h.total || 0); }, 0);
-    cab.appendChild(el("p", { class: "sub", text: "Guardado só neste aparelho · " + plural(hist.length, "treino", "treinos") + " · " + plural(totalHist, "questão", "questões") + " no total. Os números são estimativas para estudo." }));
+    cab.appendChild(el("p", { class: "sub", text: (logado() ? "Guardado na sua conta · " : "Guardado só neste aparelho · ") + plural(hist.length, "treino", "treinos") + " · " + plural(totalHist, "questão", "questões") + " no total. Os números são estimativas para estudo." }));
     if (!treinos.length) {
       app.appendChild(el("div", { class: "painel" }, [el("p", { class: "vazio", text: "Nenhum treino neste recorte. Escolha um período maior ou outro vestibular." })]));
       return;
@@ -1643,7 +1648,7 @@
     form.appendChild(el("label", { class: "campo", for: "plano-horas" }, [el("span", { text: "Tempo de estudo na plataforma" }), selH]));
     form.appendChild(el("fieldset", {}, [el("legend", { text: "Dias de estudo" }), chips("plano-dia", [1, 2, 3, 4, 5, 6, 0].map(function (d) { return { valor: String(d), rotulo: SEMANA[d] }; }), cfg.dias.map(String))]));
     form.appendChild(el("label", { class: "marcar", for: "plano-2fase" }, [el("input", { type: "checkbox", id: "plano-2fase", checked: cfg.segundaFase }), el("span", { text: "Incluir a 2ª fase: redação e questões discursivas depois da 1ª fase" })]));
-    form.appendChild(el("p", { class: "dica", text: "O plano fica guardado neste aparelho. Você pode mudar tudo depois." }));
+    form.appendChild(el("p", { class: "dica", text: "O plano fica guardado " + ondeGuarda() + ". Você pode mudar tudo depois." }));
     form.appendChild(el("div", { class: "acoes-form" }, [
       el("button", { class: "botao", type: "submit", text: plano ? "Salvar e refazer o plano" : "Criar meu plano" }),
       plano ? el("button", { class: "botao discreto", type: "button", text: "Cancelar", onclick: function () { estado.editandoPlano = false; desenhar(); } }) : null,
@@ -2011,7 +2016,7 @@
       if (t) app.appendChild(el("section", { class: "painel tema-atual" }, [el("span", { class: "rotulo-sec", text: (t.genero || "Proposta") + (t.fonte ? "" : "") }), el("p", { class: "tema-grande", text: t.tema }), t.situacao ? el("p", { class: "dica", text: t.situacao }) : null,
         el("p", { class: "nota-rodape", text: "Leia a proposta completa, com a coletânea, no caderno oficial da prova." })]));
       var contagem = el("span", { class: "contagem" });
-      var ta = el("textarea", { id: "redacao-texto", class: "redacao-texto", "aria-label": "Sua redação", placeholder: "Escreva aqui. O texto fica guardado neste aparelho." });
+      var ta = el("textarea", { id: "redacao-texto", class: "redacao-texto", "aria-label": "Sua redação", placeholder: "Escreva aqui. O texto fica guardado " + ondeGuarda() + "." });
       ta.value = atual.texto || "";
       function contar() { var p = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0; contagem.textContent = p + " palavras · cerca de " + Math.ceil(ta.value.length / 70) + " linhas de caderno"; }
       ta.addEventListener("input", function () { atual.texto = ta.value; contar(); salvar(); });
@@ -2026,6 +2031,357 @@
           r.tarefa ? el("button", { type: "button", class: "botao", text: "Concluir a tarefa do plano", onclick: function () { salvar(); marcarTarefa(r.tarefa, true); irPara("plano"); } }) : null]),
       ]));
     }).catch(erroGeral);
+  }
+
+  // ---------- conta: login, assinatura e direitos do titular ----------
+  // Só aparece quando o backend está configurado (app/config.js). A lógica de rede fica em app/nuvem.js.
+  var VERSAO_TERMOS = "2026-10-15-rascunho", VERSAO_PRIVACIDADE = "2026-10-15-rascunho";
+  var SENHA_MINIMA = 8;
+  var ESTADOS_ASSINATURA = { pendente: "Aguardando pagamento", ativa: "Ativa", cancelada: "Não concluída", reembolsada: "Valor devolvido", expirada: "Encerrada" };
+  function idade(nascIso) {
+    var n = deIso(nascIso), h = new Date();
+    var a = h.getFullYear() - n.getFullYear();
+    if (h.getMonth() < n.getMonth() || (h.getMonth() === n.getMonth() && h.getDate() < n.getDate())) a--;
+    return a;
+  }
+  function reais(centavos) { return (centavos / 100).toLocaleString("pt-BR", { style: "currency", currency: "BRL" }); }
+  function dataLonga(ts) { return new Date(ts).toLocaleDateString("pt-BR", { day: "2-digit", month: "long", year: "numeric" }); }
+  function campoTexto(rotulo, attrs) {
+    return el("label", { class: "campo", for: attrs.id }, [el("span", { text: rotulo }), el("input", attrs)]);
+  }
+  function valorDe(form, id) { var i = form.querySelector("#" + id); return i ? i.value.trim() : ""; }
+  function mostrarAviso(form, msg) {
+    var e = form.querySelector(".erro-form");
+    if (e) e.remove();
+    var p = form.querySelector(".aviso-ok");
+    if (!p) { p = el("p", { class: "aviso-ok", role: "status" }); form.appendChild(p); }
+    p.textContent = msg;
+  }
+  // Roda uma ação da conta com os botões travados e mostra o erro no próprio formulário.
+  function executar(form, acao) {
+    var botoes = form.querySelectorAll("button");
+    Array.prototype.forEach.call(botoes, function (b) { b.disabled = true; });
+    var e0 = form.querySelector(".erro-form"); if (e0) e0.remove();
+    return Promise.resolve().then(acao).catch(function (e) { mostrarErro(form, e.message); })
+      .then(function () { Array.prototype.forEach.call(botoes, function (b) { b.disabled = false; }); });
+  }
+  function textoSinc() {
+    var s = Nuvem.situacao(), n = Nuvem.pendentes();
+    if (s === "sincronizando") return "Sincronizando…";
+    if (s === "erro") return "Não foi possível sincronizar agora. Seus dados continuam neste aparelho e sobem na próxima tentativa.";
+    if (n) return plural(n, "item aguardando", "itens aguardando") + " envio. Tudo continua guardado neste aparelho e sobe quando houver internet.";
+    return "Tudo guardado na sua conta.";
+  }
+  function blocoMensagem(m) {
+    if (!m) return null;
+    if (m.erro) return el("p", { class: "erro-carga", role: "alert", text: m.erro });
+    if (m.pagamento) {
+      var textos = {
+        aprovado: "Pagamento aprovado. A liberação do acesso pode levar alguns instantes.",
+        pendente: "Pagamento em análise pelo Mercado Pago. O acesso é liberado assim que ele for confirmado.",
+        recusado: "O pagamento não foi aprovado. Você pode tentar de novo.",
+      };
+      return el("p", { class: m.pagamento === "recusado" ? "erro-carga" : "aviso-ok", role: "status", text: textos[m.pagamento] || textos.pendente });
+    }
+    return m.aviso ? el("p", { class: "aviso-ok", role: "status", text: m.aviso }) : null;
+  }
+  // Os links para os Termos e a Privacidade voltam para a conta, sem perder o que foi digitado.
+  function linkPagina(nome, texto) {
+    return el("button", { type: "button", class: "link", text: texto, onclick: function () { estado.voltarPara = "conta"; abrirPagina(nome); } });
+  }
+
+  function telaConta() {
+    var msg = estado.contaMsg;
+    estado.contaMsg = null;
+    if (Nuvem.recuperando()) return formNovaSenha(msg);
+    if (!Nuvem.usuario()) return telaEntrar(msg);
+    painelConta(msg);
+  }
+
+  function telaEntrar(msg) {
+    var modo = estado.contaModo || "entrar";
+    app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: modo === "criar" ? "Criar conta" : "Entrar" }),
+      el("p", { class: "sub", text: "Com uma conta, seu desempenho, seu plano e suas redações ficam guardados e aparecem em qualquer aparelho. Sem conta, tudo continua funcionando, só que neste aparelho." })]));
+    var m = blocoMensagem(msg);
+    if (m) app.appendChild(m);
+    app.appendChild(el("div", { class: "filtros" }, [segmento("Conta", [["entrar", "Entrar"], ["criar", "Criar conta"]], modo, function (x) { estado.contaModo = x; desenhar(); })]));
+    app.appendChild(modo === "criar" ? formCadastro() : formEntrar());
+  }
+
+  function formEntrar() {
+    var form = el("form", { class: "painel plano-form", id: "form-entrar", novalidate: true }, [
+      campoTexto("E-mail", { id: "conta-email", type: "email", autocomplete: "email", required: true }),
+      campoTexto("Senha", { id: "conta-senha", type: "password", autocomplete: "current-password" }),
+      el("div", { class: "acoes-form" }, [
+        el("button", { class: "botao", type: "submit", text: "Entrar" }),
+        el("button", { class: "botao discreto", type: "button", id: "conta-link", text: "Receber link de acesso por e-mail" }),
+      ]),
+      el("p", { class: "dica" }, [el("button", { type: "button", class: "link", id: "conta-esqueci", text: "Esqueci a senha" })]),
+    ]);
+    function email() {
+      var e = valorDe(form, "conta-email");
+      if (!/^\S+@\S+\.\S+$/.test(e)) throw new Error("Digite seu e-mail.");
+      return e;
+    }
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      executar(form, function () {
+        var senha = form.querySelector("#conta-senha").value;
+        if (!senha) throw new Error("Digite sua senha, ou peça um link de acesso por e-mail.");
+        return Nuvem.entrar(email(), senha).then(function () { estado.contaMsg = { aviso: "Você entrou na sua conta." }; desenhar(); });
+      });
+    });
+    form.querySelector("#conta-link").addEventListener("click", function () {
+      executar(form, function () {
+        var e = email();
+        return Nuvem.enviarLink(e).then(function () { mostrarAviso(form, "Enviamos um link de acesso para " + e + ". Abra o e-mail neste aparelho e toque no link."); });
+      });
+    });
+    form.querySelector("#conta-esqueci").addEventListener("click", function () {
+      executar(form, function () {
+        var e = email();
+        return Nuvem.recuperarSenha(e).then(function () { mostrarAviso(form, "Se houver conta com " + e + ", enviamos um link para criar uma nova senha."); });
+      });
+    });
+    return form;
+  }
+
+  function formCadastro() {
+    var r = estado.rascunhoCadastro = estado.rascunhoCadastro || {};
+    var hoje = hojeIso();
+    var resp = el("fieldset", { id: "cad-resp", hidden: true }, [
+      el("legend", { text: "Responsável (menores de 18 anos)" }),
+      el("div", { class: "plano-form" }, [
+        campoTexto("Nome do pai, mãe ou responsável", { id: "cad-resp-nome", type: "text", autocomplete: "off" }),
+        campoTexto("E-mail do responsável", { id: "cad-resp-email", type: "email", autocomplete: "off" }),
+        el("label", { class: "marcar", for: "cad-resp-ciente" }, [el("input", { type: "checkbox", id: "cad-resp-ciente" }), el("span", { text: "Meu responsável sabe que estou criando esta conta." })]),
+      ]),
+    ]);
+    var form = el("form", { class: "painel plano-form", id: "form-cadastro", novalidate: true }, [
+      campoTexto("Seu nome", { id: "cad-nome", type: "text", autocomplete: "name" }),
+      campoTexto("E-mail", { id: "cad-email", type: "email", autocomplete: "email" }),
+      campoTexto("Senha (pelo menos " + SENHA_MINIMA + " caracteres)", { id: "cad-senha", type: "password", autocomplete: "new-password", minlength: SENHA_MINIMA }),
+      campoTexto("Data de nascimento", { id: "cad-nasc", type: "date", max: hoje, min: "1900-01-01" }),
+      resp,
+      el("label", { class: "marcar", for: "cad-aceite" }, [el("input", { type: "checkbox", id: "cad-aceite" }),
+        el("span", {}, ["Li e aceito os ", linkPagina("termos", "Termos de Uso"), " e a ", linkPagina("privacidade", "Política de Privacidade"), "."])]),
+      el("p", { class: "dica", text: "O que você já fez neste aparelho (desempenho, plano e redações) vai junto para a conta." }),
+      el("div", { class: "acoes-form" }, [el("button", { class: "botao", type: "submit", text: "Criar conta" })]),
+    ]);
+    // devolve o que já foi digitado (menos a senha) e guarda a cada mudança
+    ["cad-nome", "cad-email", "cad-nasc", "cad-resp-nome", "cad-resp-email"].forEach(function (id) {
+      var i = form.querySelector("#" + id);
+      if (r[id]) i.value = r[id];
+      i.addEventListener("input", function () { r[id] = i.value; mostrarResp(); });
+    });
+    ["cad-resp-ciente", "cad-aceite"].forEach(function (id) {
+      var i = form.querySelector("#" + id);
+      i.checked = !!r[id];
+      i.addEventListener("change", function () { r[id] = i.checked; });
+    });
+    function menor() { var n = valorDe(form, "cad-nasc"); return /^\d{4}-\d{2}-\d{2}$/.test(n) && idade(n) < 18; }
+    function mostrarResp() { resp.hidden = !menor(); }
+    mostrarResp();
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      executar(form, function () {
+        var d = {
+          nome: valorDe(form, "cad-nome"), email: valorDe(form, "cad-email"), senha: form.querySelector("#cad-senha").value,
+          nascimento: valorDe(form, "cad-nasc"), termos_versao: VERSAO_TERMOS, privacidade_versao: VERSAO_PRIVACIDADE,
+        };
+        if (!d.nome) throw new Error("Digite seu nome.");
+        if (!/^\S+@\S+\.\S+$/.test(d.email)) throw new Error("Digite um e-mail válido.");
+        if (d.senha.length < SENHA_MINIMA) throw new Error("A senha precisa ter pelo menos " + SENHA_MINIMA + " caracteres.");
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(d.nascimento) || d.nascimento > hoje || d.nascimento < "1900-01-01") throw new Error("Informe sua data de nascimento.");
+        var anos = idade(d.nascimento);
+        if (anos < 12) throw new Error("Contas para menores de 12 anos precisam ser criadas pelo pai, mãe ou responsável legal, e a plataforma ainda não oferece esse cadastro.");
+        if (anos < 18) {
+          d.responsavel_nome = valorDe(form, "cad-resp-nome");
+          d.responsavel_email = valorDe(form, "cad-resp-email");
+          if (!d.responsavel_nome || !/^\S+@\S+\.\S+$/.test(d.responsavel_email)) throw new Error("Para menores de 18 anos, informe o nome e o e-mail do responsável.");
+          if (!form.querySelector("#cad-resp-ciente").checked) throw new Error("Confirme que seu responsável sabe do cadastro.");
+        }
+        if (!form.querySelector("#cad-aceite").checked) throw new Error("Para criar a conta, é preciso aceitar os Termos de Uso e a Política de Privacidade.");
+        return Nuvem.cadastrar(d).then(function (res) {
+          estado.rascunhoCadastro = null;
+          if (res.entrou) { estado.contaMsg = { aviso: "Conta criada. Seu progresso agora fica guardado na conta." }; desenhar(); return; }
+          estado.contaModo = "entrar";
+          estado.contaMsg = { aviso: "Quase lá: enviamos um e-mail para " + d.email + ". Abra o link da mensagem para confirmar a conta (veja também o spam)." };
+          desenhar();
+        });
+      });
+    });
+    return form;
+  }
+
+  function formNovaSenha(msg) {
+    app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: "Criar uma nova senha" })]));
+    var m = blocoMensagem(msg);
+    if (m) app.appendChild(m);
+    var form = el("form", { class: "painel plano-form", id: "form-nova-senha", novalidate: true }, [
+      campoTexto("Nova senha (pelo menos " + SENHA_MINIMA + " caracteres)", { id: "nova-senha", type: "password", autocomplete: "new-password", minlength: SENHA_MINIMA }),
+      el("div", { class: "acoes-form" }, [el("button", { class: "botao", type: "submit", text: "Salvar a nova senha" })]),
+    ]);
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      executar(form, function () {
+        var s = form.querySelector("#nova-senha").value;
+        if (s.length < SENHA_MINIMA) throw new Error("A senha precisa ter pelo menos " + SENHA_MINIMA + " caracteres.");
+        return Nuvem.definirSenha(s).then(function () { estado.contaMsg = { aviso: "Senha alterada." }; desenhar(); });
+      });
+    });
+    app.appendChild(form);
+  }
+
+  function painelConta(msg) {
+    var u = Nuvem.usuario();
+    app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: "Sua conta" }), el("p", { class: "sub", text: u.email })]));
+    var m = blocoMensagem(msg);
+    if (m) app.appendChild(m);
+
+    var sinc = el("section", { class: "painel" }, [el("h2", { text: "Seus dados de estudo" }),
+      el("p", { id: "conta-sinc", class: "dica", role: "status", text: textoSinc() }),
+      el("div", { class: "acoes-form" }, [el("button", { type: "button", class: "botao discreto pequeno", text: "Sincronizar agora", onclick: function () {
+        Nuvem.sincronizar().catch(function (e) { var l = document.getElementById("conta-sinc"); if (l) l.textContent = e.message; });
+      } })])]);
+    var assinatura = el("section", { class: "painel", id: "conta-assinatura" }, [el("h2", { text: "Assinatura" }), el("p", { class: "aviso-carregando", text: "Carregando…" })]);
+    var perfil = el("section", { class: "painel", id: "conta-perfil" }, [el("h2", { text: "Seu cadastro" }), el("p", { class: "aviso-carregando", text: "Carregando…" })]);
+    app.appendChild(el("div", { class: "grade-painel duas conta-grade" }, [sinc, assinatura]));
+    app.appendChild(el("div", { class: "grade-painel duas conta-grade" }, [perfil, painelPrivacidade()]));
+    app.appendChild(el("div", { class: "acoes-form conta-sair" }, [el("button", { type: "button", class: "botao discreto", id: "conta-sair", text: "Sair da conta", onclick: function (ev) { sairDaConta(ev.target.parentNode, false); } })]));
+
+    carregarAssinatura(assinatura, msg && msg.pagamento === "aprovado" ? 6 : 0);
+    Nuvem.perfil().then(function (p) { preencherPerfil(perfil, p || {}); })
+      .catch(function (e) { perfil.lastChild.replaceWith(el("p", { class: "erro-carga", text: e.message })); });
+  }
+
+  // Assinatura: situação atual, planos à venda (preço total e duração) e pagamentos anteriores.
+  // Depois de um pagamento aprovado, consulta de novo algumas vezes até o aviso do Mercado Pago chegar.
+  function carregarAssinatura(sec, novasTentativas) {
+    Promise.all([Nuvem.assinaturas(), Nuvem.planos().catch(function () { return null; })]).then(function (r) {
+      if (!sec.isConnected) return;
+      var lista = r[0] || [], planos = r[1], agora = Date.now();
+      var ativas = lista.filter(function (a) { return a.status === "ativa" && (!a.fim || Date.parse(a.fim) > agora); });
+      var ate = ativas.reduce(function (m, a) { return a.fim ? Math.max(m, Date.parse(a.fim)) : m; }, 0);
+      while (sec.childNodes.length > 1) sec.removeChild(sec.lastChild);
+      sec.appendChild(ativas.length
+        ? el("p", { class: "aviso-ok", text: "Acesso liberado" + (ate ? " até " + dataLonga(ate) : "") + "." })
+        : el("p", { class: "dica", text: "Você ainda não tem uma assinatura ativa." }));
+      if (lista.some(function (a) { return a.status === "pendente" && a.mp_pagamento_id; })) {
+        sec.appendChild(el("p", { class: "dica", text: "Há um pagamento em análise pelo Mercado Pago." }));
+      }
+      if (planos === null) sec.appendChild(el("p", { class: "dica", text: "Não foi possível consultar os planos agora." }));
+      else if (!planos.length) sec.appendChild(el("p", { class: "dica", text: "A venda de assinaturas ainda não está aberta." }));
+      else {
+        sec.appendChild(el("ul", { class: "planos" }, planos.map(function (p) {
+          var li = el("li", {}, [
+            el("strong", { text: p.nome }),
+            el("span", { class: "plano-preco", text: reais(p.centavos) }),
+            el("span", { class: "dica", text: "Preço total, pagamento único. Acesso por " + plural(p.dias, "dia", "dias") + ", sem renovação automática" + (ate ? ", contados a partir do fim do acesso atual" : "") + "." }),
+            el("button", { type: "button", class: "botao", text: ativas.length ? "Comprar mais tempo" : "Assinar", onclick: function () {
+              executar(li, function () { return Nuvem.comprar(p.id); });
+            } }),
+          ]);
+          return li;
+        })));
+        sec.appendChild(el("p", { class: "nota-rodape", text: "O pagamento é feito no site do Mercado Pago; a Banca Aberta não recebe os dados do seu cartão. Você pode desistir da compra em até 7 dias e receber o valor de volta (veja os Termos de Uso)." }));
+      }
+      if (lista.length) {
+        sec.appendChild(el("details", { class: "pagamentos" }, [el("summary", { text: "Pagamentos anteriores" }),
+          el("ul", {}, lista.map(function (a) {
+            return el("li", { text: dataCurta(Date.parse(a.criado_em)) + " · " + reais(a.valor_centavos) + " · " + (ESTADOS_ASSINATURA[a.status] || a.status) });
+          }))]));
+      }
+      if (!ativas.length && novasTentativas > 0) setTimeout(function () { if (sec.isConnected) carregarAssinatura(sec, novasTentativas - 1); }, 3000);
+    }).catch(function (e) {
+      if (!sec.isConnected) return;
+      while (sec.childNodes.length > 1) sec.removeChild(sec.lastChild);
+      sec.appendChild(el("p", { class: "erro-carga", text: e.message }));
+    });
+  }
+
+  // Correção do cadastro pelo próprio aluno (direito de retificação).
+  function preencherPerfil(sec, p) {
+    while (sec.childNodes.length > 1) sec.removeChild(sec.lastChild);
+    var form = el("form", { class: "plano-form", id: "form-perfil", novalidate: true }, [
+      campoTexto("Nome", { id: "perfil-nome", type: "text", autocomplete: "name" }),
+      campoTexto("Data de nascimento", { id: "perfil-nasc", type: "date", max: hojeIso(), min: "1900-01-01" }),
+      campoTexto("Nome do responsável (menores de 18)", { id: "perfil-resp-nome", type: "text", autocomplete: "off" }),
+      campoTexto("E-mail do responsável (menores de 18)", { id: "perfil-resp-email", type: "email", autocomplete: "off" }),
+      el("div", { class: "acoes-form" }, [el("button", { type: "submit", class: "botao pequeno", text: "Salvar alterações" })]),
+    ]);
+    form.querySelector("#perfil-nome").value = p.nome || "";
+    form.querySelector("#perfil-nasc").value = p.nascimento || "";
+    form.querySelector("#perfil-resp-nome").value = p.responsavel_nome || "";
+    form.querySelector("#perfil-resp-email").value = p.responsavel_email || "";
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      executar(form, function () {
+        var d = { nome: valorDe(form, "perfil-nome"), nascimento: valorDe(form, "perfil-nasc") || null,
+          responsavel_nome: valorDe(form, "perfil-resp-nome") || null, responsavel_email: valorDe(form, "perfil-resp-email") || null };
+        if (!d.nome) throw new Error("Digite seu nome.");
+        if (d.nascimento && (d.nascimento > hojeIso() || d.nascimento < "1900-01-01")) throw new Error("Confira a data de nascimento.");
+        if (d.nascimento && idade(d.nascimento) < 18 && (!d.responsavel_nome || !/^\S+@\S+\.\S+$/.test(d.responsavel_email || ""))) throw new Error("Para menores de 18 anos, informe o nome e o e-mail do responsável.");
+        return Nuvem.salvarPerfil(d).then(function () { mostrarAviso(form, "Cadastro atualizado."); });
+      });
+    });
+    sec.appendChild(form);
+    sec.appendChild(el("p", { class: "nota-rodape", text: "Para trocar o e-mail da conta, fale com o contato indicado na Política de Privacidade." }));
+  }
+
+  // Baixar uma cópia dos dados e excluir a conta (direitos do titular, LGPD).
+  function painelPrivacidade() {
+    var sec = el("section", { class: "painel", id: "conta-privacidade" }, [el("h2", { text: "Privacidade" }),
+      el("p", { class: "dica" }, ["Você pode baixar uma cópia de tudo o que guardamos sobre você ou excluir a conta. Detalhes na ", linkPagina("privacidade", "Política de Privacidade"), "."])]);
+    var acoes = el("div", { class: "acoes-form" }, [
+      el("button", { type: "button", class: "botao discreto pequeno", id: "conta-exportar", text: "Baixar meus dados", onclick: function () {
+        executar(sec, function () {
+          return Nuvem.exportar().then(function (dados) {
+            var url = URL.createObjectURL(new Blob([JSON.stringify(dados, null, 2)], { type: "application/json" }));
+            var a = el("a", { href: url, download: "banca-aberta-meus-dados.json" });
+            document.body.appendChild(a); a.click(); a.remove();
+            setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+          });
+        });
+      } }),
+      el("button", { type: "button", class: "botao discreto pequeno", id: "conta-excluir", text: "Excluir minha conta", onclick: function () { confirma.hidden = false; } }),
+    ]);
+    var digitado = el("input", { type: "text", id: "excluir-confirma", autocomplete: "off", "aria-label": "Digite EXCLUIR para confirmar" });
+    var botaoExcluir = el("button", { type: "button", class: "botao pequeno perigo", text: "Excluir definitivamente", disabled: true, onclick: function () {
+      executar(sec, function () {
+        return Nuvem.excluirConta().then(function () { estado.contaMsg = { aviso: "Sua conta e seus dados foram excluídos." }; desenhar(); });
+      });
+    } });
+    digitado.addEventListener("input", function () { botaoExcluir.disabled = digitado.value.trim().toUpperCase() !== "EXCLUIR"; });
+    var confirma = el("div", { class: "confirma-exclusao", hidden: true }, [
+      el("p", { text: "Isto apaga a conta, o cadastro, os dados de estudo e o registro das assinaturas, no servidor e neste aparelho. Uma assinatura ativa é perdida. Não dá para desfazer." }),
+      el("label", { class: "campo", for: "excluir-confirma" }, [el("span", { text: "Digite EXCLUIR para confirmar" }), digitado]),
+      el("div", { class: "acoes-form" }, [botaoExcluir, el("button", { type: "button", class: "botao discreto pequeno", text: "Cancelar", onclick: function () { confirma.hidden = true; digitado.value = ""; botaoExcluir.disabled = true; } })]),
+    ]);
+    sec.appendChild(acoes);
+    sec.appendChild(confirma);
+    return sec;
+  }
+
+  function sairDaConta(caixa, mesmoAssim) {
+    executar(caixa, function () {
+      return Nuvem.sair(mesmoAssim).then(function (r) {
+        if (r.pendentes) {
+          var aviso = el("div", { class: "confirma" }, [
+            el("p", { text: plural(r.pendentes, "item ainda não subiu", "itens ainda não subiram") + " para a conta (sem internet?). Se sair agora, isso se perde. Saindo, os dados deste aparelho são apagados; o que já está na conta continua lá." }),
+            el("div", { class: "acoes-form" }, [
+              el("button", { type: "button", class: "botao", text: "Sair mesmo assim", onclick: function () { sairDaConta(caixa, true); } }),
+              el("button", { type: "button", class: "botao discreto", text: "Ficar", onclick: function () { aviso.remove(); } }),
+            ]),
+          ]);
+          caixa.appendChild(aviso);
+          return;
+        }
+        estado.sessao = null;
+        estado.contaMsg = { aviso: "Você saiu da conta. Os dados de estudo foram apagados deste aparelho e continuam guardados na conta." };
+        desenhar();
+      });
+    });
   }
 
   // ---------- páginas legais ----------
@@ -2062,11 +2418,12 @@
       caixa.innerHTML = "";
       caixa.appendChild(el("p", { class: "faixa-rascunho", role: "note", text: "RASCUNHO PARA REVISÃO JURÍDICA: este texto ainda não foi revisado por advogado e não vale como documento final." }));
       blocosMd(md).forEach(function (b) { caixa.appendChild(b); });
-      caixa.appendChild(el("p", {}, [el("button", { type: "button", class: "botao discreto", text: "Voltar", onclick: function () { irPara("inicio"); } })]));
+      caixa.appendChild(el("p", {}, [el("button", { type: "button", class: "botao discreto", text: "Voltar", onclick: function () { var v = estado.voltarPara || "inicio"; estado.voltarPara = null; document.title = "Banca Aberta"; irPara(v); } })]));
     }).catch(function (e) { caixa.innerHTML = ""; caixa.appendChild(el("p", { class: "erro-carga", role: "alert", text: e.message })); });
   }
+  function abrirPagina(nome) { estado.pagina = nome; document.title = PAGINAS[nome] + " · Banca Aberta"; irPara("pagina"); }
   Array.prototype.forEach.call(document.querySelectorAll("[data-pagina]"), function (b) {
-    b.addEventListener("click", function () { estado.pagina = b.getAttribute("data-pagina"); document.title = PAGINAS[estado.pagina] + " · Banca Aberta"; irPara("pagina"); });
+    b.addEventListener("click", function () { estado.voltarPara = null; abrirPagina(b.getAttribute("data-pagina")); });
   });
 
   // ---------- teclado ----------
@@ -2092,6 +2449,38 @@
   document.getElementById("nav-historico").addEventListener("click", function () { irPara("historico"); });
   document.getElementById("nav-plano").addEventListener("click", function () { estado.editandoPlano = false; irPara("plano"); });
   document.getElementById("nav-guias").addEventListener("click", function () { estado.guia = null; irPara("guias"); });
+
+  // Conta (só com o backend configurado). Volta de links de e-mail e do Mercado Pago abre a tela da conta.
+  function atualizarBotaoConta() {
+    var b = document.getElementById("nav-conta");
+    if (!b) return;
+    var ativa = !!(window.Nuvem && Nuvem.ativa());
+    b.hidden = !ativa;
+    b.parentNode.classList.toggle("com-conta", ativa);
+    b.querySelector(".rotulo-conta").textContent = logado() ? "Conta" : "Entrar";
+  }
+  if (window.Nuvem && Nuvem.ativa()) {
+    var uidVisto = logado() ? Nuvem.usuario().id : null;
+    var pagamento = new URLSearchParams(location.search).get("pagamento");
+    // o Mercado Pago acrescenta vários parâmetros na volta; nenhum deles é usado aqui
+    if (pagamento) history.replaceState(null, "", location.pathname + location.hash);
+    document.getElementById("nav-conta").addEventListener("click", function () { irPara("conta"); });
+    Nuvem.iniciar({
+      // dados que chegaram de outro aparelho: redesenha, menos no meio de uma prova ou de um texto
+      aoMudarDados: function () { if (["prova", "redacao", "conta"].indexOf(estado.tela) < 0) desenhar(); },
+      aoMudarConta: function () {
+        atualizarBotaoConta();
+        var uid = logado() ? Nuvem.usuario().id : null;
+        if (uid !== uidVisto) { uidVisto = uid; if (estado.tela === "conta") desenhar(); return; }
+        var linha = document.getElementById("conta-sinc");
+        if (linha) linha.textContent = textoSinc();
+      },
+    }).then(function (m) {
+      if (pagamento) m = { pagamento: pagamento };
+      if (m) { estado.contaMsg = m; irPara("conta"); }
+    });
+  }
+  atualizarBotaoConta();
 
   carregarJSON("dados/indice.json").then(function (indice) {
     estado.indice = indice;

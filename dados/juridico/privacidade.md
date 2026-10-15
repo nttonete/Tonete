@@ -4,8 +4,8 @@ Itens entre colchetes dependem de funções que ainda não existem (cadastro, co
 
 ## 1. O que acontece hoje
 
-- A plataforma não pede cadastro e não coleta dados pessoais em servidor.
-- Seu histórico de simulados, suas respostas e seu desempenho ficam só no seu navegador (armazenamento local) e podem ser apagados limpando os dados do site.
+- O cadastro é opcional. Sem conta, a plataforma não coleta dados pessoais em servidor: seu histórico de simulados, suas respostas e seu desempenho ficam só no seu navegador (armazenamento local) e podem ser apagados limpando os dados do site.
+- Com conta, esses mesmos dados de estudo (histórico, prova em andamento, plano, obras lidas e rascunhos de redação) também ficam guardados no servidor, para aparecerem em qualquer aparelho. Ao sair da conta, eles são apagados do aparelho e continuam na conta.
 - Não usamos cookies, anúncios nem ferramentas de análise de uso.
 - As fontes e a biblioteca de fórmulas são servidas pela própria plataforma, sem pedir arquivos a servidores de terceiros.
 - A hospedagem [PROVEDOR A DEFINIR] pode registrar seu endereço de IP nos registros técnicos de acesso.
@@ -24,9 +24,10 @@ Itens entre colchetes dependem de funções que ainda não existem (cadastro, co
 [MAPEAMENTO A COMPLETAR ANTES DO LANÇAMENTO]
 
 - Provedor de inteligência artificial: recebe só o texto ou a imagem da resposta e a rubrica. País de processamento: [A DEFINIR].
-- Hospedagem e banco de dados: [PROVEDOR E PAÍS A DEFINIR].
-- Pagamento: [PROVEDOR E PAÍS A DEFINIR].
-- E-mail transacional: [PROVEDOR E PAÍS A DEFINIR].
+- Banco de dados, login e funções de servidor: Supabase, com os dados na região de São Paulo (Brasil). [CONFIRMAR NO CONTRATO DO FORNECEDOR]
+- Pagamento: Mercado Pago (Brasil). O pagamento é feito no site do Mercado Pago; a plataforma recebe só o resultado (aprovado, pendente, devolvido) e o valor, nunca os dados do cartão.
+- Hospedagem do site: [PROVEDOR E PAÍS A DEFINIR].
+- E-mail transacional (confirmação de cadastro, link de acesso e nova senha): enviado pelo login do Supabase. [CONFIRMAR PROVEDOR E PAÍS]
 - Análise de uso (só se você aceitar): [A DEFINIR].
 
 Quando algum desses fornecedores processar dados fora do Brasil, informaremos o país e a base legal da transferência.
@@ -37,7 +38,7 @@ Não usamos suas respostas para treinar ou melhorar modelos sem seu consentiment
 
 ## 5. Seus direitos
 
-Você pode, pela própria plataforma [QUANDO HOUVER CONTA]: confirmar se tratamos seus dados, baixar uma cópia, corrigir, pedir a exclusão da conta e dos dados, e revogar consentimentos. Também pode contatar o encarregado pelo tratamento de dados (DPO): **[NOME DO ENCARREGADO A DEFINIR]**, contato provisório: **mvtonete@gmail.com** (a trocar antes do lançamento).
+Você pode, pela tela "Conta" da plataforma: baixar uma cópia de tudo o que guardamos sobre você, corrigir seu cadastro e excluir a conta e os dados (a exclusão é imediata e não pode ser desfeita). Também pode confirmar se tratamos seus dados e revogar consentimentos. E pode contatar o encarregado pelo tratamento de dados (DPO): **[NOME DO ENCARREGADO A DEFINIR]**, contato provisório: **mvtonete@gmail.com** (a trocar antes do lançamento).
 
 ## 6. Quanto tempo guardamos
 
@@ -49,4 +50,4 @@ Você pode, pela própria plataforma [QUANDO HOUVER CONTA]: confirmar se tratamo
 
 ## 8. Menores de idade
 
-[QUANDO HOUVER CADASTRO] Até 12 anos incompletos, só com consentimento específico de pai, mãe ou responsável. De 12 a 17 anos, tratamos os dados no melhor interesse do adolescente e com ciência do responsável.
+Pedimos a data de nascimento no cadastro. Por enquanto, a plataforma não aceita cadastro de menores de 12 anos (exigiria consentimento específico de pai, mãe ou responsável, que ainda não oferecemos). De 12 a 17 anos, tratamos os dados no melhor interesse do adolescente e com ciência do responsável: o cadastro pede o nome e o e-mail do responsável e a confirmação de que ele sabe da conta.

@@ -23,16 +23,16 @@ A Banca Aberta é titular da interface, das resoluções comentadas, das rubrica
 
 ## 5. Suas respostas
 
-- Hoje, suas respostas e seu histórico ficam só no seu aparelho.
+- Sem conta, suas respostas e seu histórico ficam só no seu aparelho. Com conta, ficam também guardados no servidor para aparecer nos seus outros aparelhos.
 - [QUANDO HOUVER CONTA] Você nos autoriza a processar as respostas que enviar apenas para gerar a correção e os relatórios. Elas não são usadas para treinar ou melhorar modelos sem um consentimento separado, que começa desmarcado.
 
 ## 6. Menores de idade
 
-[QUANDO HOUVER CADASTRO] Pedimos a data de nascimento. Até 12 anos incompletos, o uso exige consentimento específico de pai, mãe ou responsável legal. De 12 a 17 anos, o tratamento é feito no melhor interesse do adolescente e com ciência do responsável.
+Pedimos a data de nascimento no cadastro. Até 12 anos incompletos, o uso exige consentimento específico de pai, mãe ou responsável legal; por enquanto, a plataforma não aceita esse cadastro. De 12 a 17 anos, o tratamento é feito no melhor interesse do adolescente e com ciência do responsável, cujo nome e e-mail o cadastro pede.
 
 ## 7. Compra, renovação e arrependimento
 
-[QUANDO HOUVER VENDA] A página de compra mostra o preço total, as regras de renovação e o direito de arrependimento de 7 dias para compras feitas pela internet (art. 49 do Código de Defesa do Consumidor).
+A página de compra mostra o preço total e a duração do acesso. O pagamento é único, feito no site do Mercado Pago, e não há renovação automática: quando o acesso termina, uma nova compra é opcional. Compras feitas durante um acesso ativo começam a contar quando ele termina. Você pode desistir em até 7 dias depois da compra e receber o valor de volta (direito de arrependimento, art. 49 do Código de Defesa do Consumidor), pelo contato indicado na Política de Privacidade. [PREÇO E DURAÇÃO DOS PLANOS A DEFINIR]
 
 ## 8. Mudanças e foro
 
