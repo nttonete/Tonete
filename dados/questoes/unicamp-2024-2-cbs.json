@@ -12,7 +12,8 @@
    "caderno": "2fase-dia2-cbs-caderno.pdf",
    "gabarito": null,
    "respostas": [
-    "2fase-dia2-cbs-respostas.pdf"
+    "2fase-dia2-cbs-respostas.pdf",
+    "2fase-dia2-cbs-comentada.pdf"
    ]
   }
  },
@@ -37,8 +38,9 @@
      "resposta_oficial": "O fígado produz bile, a qual desempenha papel importante de emulsificação de gorduras, o que facilita a ação de enzimas digestivas do suco pancreático e do suco entérico. O composto orgânico obtido da digestão dos lipídios que, por beta-oxidação, será utilizado para a produção de energia nos seres humanos é o ácido graxo."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, foi avaliada a capacidade do candidato em: (a) reconhecer os problemas ligados à poluição do meio ambiente em virtude do garimpo ilegal, com consequências para a saúde humana e para a qualidade de vida das comunidades locais; (b) conhecer a função das proteínas para os organismos; (c) conhecer a importância da função do fígado no processo de digestão dos lipídios; e (d) conhecer e identificar os processos de produção de energia nos seres humanos. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) capacidade de interpretação das informações fornecidas para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "assunto": "Fisiologia humana",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-cbs-q08",
@@ -59,8 +61,9 @@
      "resposta_oficial": "As plantas com flores (fanerógamas) e sementes protegidas por frutos pertencem ao grupo das angiospermas. O epicarpo é morfologicamente a região do fruto responsável por atrair os herbívoros frugívoros."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, esperava-se que o candidato conhecesse: (a) a relação ecológica entre os animais e as plantas; (b) os problemas ligados à pesca excessiva e os impactos na flora; e (c) as características morfológicas dos frutos de angiospermas. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "assunto": "Ecologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-cbs-q09",
@@ -81,8 +84,9 @@
      "resposta_oficial": "O leite materno fornece anticorpos para o bebê, conferindo imunidade passiva natural, pois nos primeiros meses de vida dos bebês o sistema imunológico não está completamente desenvolvido."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, o candidato foi avaliado quanto à capacidade de: (a) conhecer os conceitos de genótipo, fenótipo e dominância; (b) conhecer a importância do leite materno para a saúde dos bebês; (c) conhecer a resposta imunológica passiva. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "assunto": "Genética",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-cbs-q10",
@@ -94,7 +98,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "Defina o que são promotores e plasmídeos. Considerando o esquema ao lado, identifique a posição das duas proteínas mencionadas no texto, tendo em vista as possíveis posições de 1 a 4.\n\n![Esquema com a sequência GLU, símbolo numerado 1 sobre duas barras verticais, seta até 2, setas ligadas aos números 3 e 4 com ADP e GLU-6P, e continuação da via. Legenda: GLU = glicose; GLU-6P = glicose-6-fosfato; ADP = adenosina difosfato](fig:p12-c1)",
+     "texto": "Defina o que são promotores e plasmídeos. Considerando o esquema ao lado, identifique a posição das duas proteínas mencionadas no texto, tendo em vista as possíveis posições de 1 a 4.\n\n![Esquema da via da glicose: GLU, círculo numerado 1 atravessado por duas barras verticais, seta até o número 2, seta de 2 para GLU-6P com o número 4 abaixo dela; o número 3 aparece acima, junto a uma seta de saída para ADP; GLU-6P continua em seta com reticências. Legenda: GLU = glicose; GLU-6P = glicose-6-fosfato; ADP = adenosina difosfato](fig:p12-c1)",
      "resposta_oficial": "Um promotor é uma região regulatória do DNA que controla o processo de transcrição (e, portanto, de expressão gênica) de um dado gene. Plasmídeos são moléculas de DNA circular encontradas naturalmente em bactérias e que podem ser modificados para funcionarem como vetores de clonagem, carregando genes de interesse. Na figura, a galactose permease é identificada na posição 1, enquanto a glicoquinase é representada na posição 4."
     },
     {
@@ -103,8 +107,9 @@
      "resposta_oficial": "Uma possível abordagem seria identificar e isolar genes de enzimas associadas à síntese de etanol e também de genes capazes de aumentar a oferta de substrato usado para a produção de etanol de microrganismos altamente eficientes e os introduzir em outros microrganismos de interesse."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, a questão exigia que o candidato: (a) conhecesse conceitos de biotecnologia, especialmente a definição de promotor e de vetor em clonagem plasmidial; e (b) identificasse as vias bioquímicas de absorção e fosforilação da glicose. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida e das informações fornecidas para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "assunto": "Biotecnologia",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cbs-q11",
@@ -125,8 +130,9 @@
      "resposta_oficial": "O aumento da temperatura das flores leva à maior produção de voláteis, os quais atraem os insetos, em especial as abelhas. A termogênese em plantas pode influenciar a polinização, uma vez que aumenta a visitação por insetos. Para os insetos, a maior produção de voláteis pelas plantas devido à termogênese indicaria uma fonte de alimento."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, o candidato deveria: (a) conhecer o processo respiratório; (b) elaborar uma representação esquemática de uma mitocôndria; e (c) conhecer as interações ecológicas entre insetos e plantas. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida e das informações fornecidas para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "assunto": "Citologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-cbs-q12",
@@ -147,8 +153,9 @@
      "resposta_oficial": "Nas miofibrilas, a actina e a miosina são as proteínas responsáveis pela capacidade de contração do músculo estriado esquelético. Na placa motora forma-se a sinapse química entre o axônio terminal do neurônio motor, responsável por liberar neurotransmissor (acetilcolina), que se liga a receptores específicos na membrana da fibra muscular e estimula a geração do potencial de ação para a contração muscular."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, o candidato foi avaliado quanto a: (a) conhecer os conceitos de evolução e seleção natural; (b) conhecer a composição dos principais filamentos responsáveis pela capacidade de contração do músculo estriado esquelético; e (c) conhecer a estrutura da placa motora e as interações que determinam a contração do músculo estriado esquelético. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) capacidade de interpretação das informações fornecidas para resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "assunto": "Fisiologia humana",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-cbs-q13",
@@ -156,7 +163,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Os anfíbios moldam seus membros pelo desenvolvimento diferencial de dedos e regiões interdigitais. Foi demonstrado que a disponibilidade de oxigênio regula a formação dos membros em girinos de *Rana pirica*, sendo essa formação representada esquematicamente na figura a seguir.\n\n![Esquema com dois conjuntos de girinos em água e a forma adulta de *R. pirica* fora d'água; setas ligam cada conjunto a um desenho de membro posterior em quadro tracejado, o da direita com círculos pretos nas regiões entre os dedos](fig:p15-c1)\n\n(Adaptado de: S. F. Ono et al. *Zoological Letters*, Londres, v. 9, art. 2, jan. 2023.)",
+   "enunciado": "Os anfíbios moldam seus membros pelo desenvolvimento diferencial de dedos e regiões interdigitais. Foi demonstrado que a disponibilidade de oxigênio regula a formação dos membros em girinos de *Rana pirica*, sendo essa formação representada esquematicamente na figura a seguir.\n\n![Esquema com dois conjuntos de girinos em água e a forma adulta de *R. pirica* fora d'água; setas ligam cada conjunto a um desenho de membro posterior em quadro tracejado, o da direita com círculos pretos sobre o desenho do membro](fig:p15-c1)\n\n(Adaptado de: S. F. Ono et al. *Zoological Letters*, Londres, v. 9, art. 2, jan. 2023.)",
    "itens": [
     {
      "rotulo": "a",
@@ -169,8 +176,9 @@
      "resposta_oficial": "Durante o processo de transformação dos girinos para a forma adulta em anuros, ocorre a involução das brânquias — estrutura capaz de captar o oxigênio presente na água — e o desenvolvimento dos pulmões, o que lhes garante a capacidade de captar o oxigênio presente no ar atmosférico, assegurando, portanto, a sobrevivência no ambiente terrestre."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Em relação ao conhecimento de Biologia, o candidato foi avaliado quanto a: (a) conhecer os processos celulares básicos de proliferação, diferenciação e apoptose; (b) conhecer os conceitos da formação dos membros nos vertebrados; (c) conhecer as formas de respiração em anfíbios. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "assunto": "Embriologia e histologia",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-cbs-q14",
@@ -191,8 +199,9 @@
      "resposta_oficial": "Ao expandirem o código genético como apresentado, os pesquisadores permitem que alguns códons de terminação da tradução sejam lidos pelo ribossomo para sinalizar a incorporação de um novo aminoácido sintético nas proteínas codificadas. Este processo pode expandir o repertório bioquímico para a síntese de proteínas e eventualmente levar à diversificação artificial das características e funções das proteínas codificadas pelo organismo modificado. Em condições que levam em conta o código genético universal, só há três códons de terminação diferentes, o que significa que uma estratégia como essa só poderia levar à incorporação de três diferentes tipos de aminoácidos sintéticos em um organismo modificado."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, o candidato deveria conhecer: (a) a definição de código genético; (b) o processo de decodificação da informação no RNAm por RNAt durante a síntese proteica; e (c) o processo de reconhecimento de códons. Quanto às capacidades desejadas do candidato, a questão avaliou a capacidade de: (a) interpretação das informações fornecidas para resolução da questão; e (b) elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "assunto": "Genética",
+   "revisao": "ok"
   }
  ]
 }
