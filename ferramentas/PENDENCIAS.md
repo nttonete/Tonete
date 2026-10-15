@@ -45,6 +45,7 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2023-2-cet q13, item a: a equação em y traz "+5t²" (daria t₂ = −v₀/10); o resultado final está certo. A prova comentada repete o sinal.
 - unicamp-2023-2-cet q15: a resposta diz que HPO₄²⁻ é ácido mais forte que HCO₃⁻; pelos pKa (≈12,3 e ≈10,3) é o contrário.
 - unicamp-2023-2-cet q20: as respostas esperadas dizem "Kow deve ser baixo (o que significa maior hidrofobicidade)", o que contradiz a definição e a própria prova comentada (r49), que está coerente. Decidir se troca pela versão da comentada.
+- unicamp-2022-2-cet q20, item b: na tabela da resposta, "Carbono NEGATIVO" aparece com "Fonte 1 ou Combustível Fóssil", igual ao "NEUTRO", mas a justificativa atribui o negativo ao biocombustível (a prova comentada repete).
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ### Discursivas: trecho curto de poema protegido mantido

@@ -59,6 +59,62 @@
     }
    ],
    "observacoes": "Na resposta do item a, o documento de respostas esperadas traz \"e de outros meios\" (a prova comentada traz \"e outros meios\"); mantido o texto das respostas esperadas."
+  },
+  {
+   "numero": 20,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O conflito geopolítico entre Ucrânia e Rússia se agravou em 2021. Os combates entre as forças ucranianas e os separatistas pró-russos, respaldados militar e politicamente pelo Kremlin, são os piores em vários meses, numa nova amostra de que as hostilidades, que já completaram sete anos e custaram 14.000 vidas, segundo a ONU, estão longe de ter um fim. Moscou elevou ainda mais a tensão quando mobilizou tropas a uma centena de quilômetros da fronteira com a Ucrânia, que, por sua vez, reforçou suas unidades no leste do país e junto à península da Crimeia, anexada pela Rússia em 2014.\n\n(Adaptado de María R. Sahuquillo, Nova escalada na guerra do leste da Ucrânia deixa UE e EUA em alerta. *El pais*, 06/04/2021.)\n\n![Mapa da região do Mar Negro (rotulado “Mar Morto”) com países numerados e a península da Crimeia hachurada. Legenda: 1. Rússia, 2. Geórgia, 3. Armênia, 4. Turquia, 5. Grécia, 6. Bulgária, 7. Romênia, 8. Moldávia, 9. Ucrânia. Elaboração: COMVEST (2022)](fig:p22-c1)\n\nErrata: onde está escrito Mar Morto, leia-se Mar Negro.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Por que a localização da Crimeia é estratégica para a Rússia? Destaque um fator de ordem econômica, um de ordem política e outro de ordem cultural que impeliram a anexação da Crimeia pelos russos em 2014."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual o posicionamento da União Europeia e dos EUA em relação ao conflito da Crimeia?"
+    }
+   ],
+   "observacoes": "Nas respostas esperadas o documento escreve \"Criméia\" (o caderno escreve \"Crimeia\"); mantido como no documento. Na resposta do item a, o documento de respostas esperadas e a prova comentada coincidem fora essa grafia. A frase \"Errata: ...\" vem impressa logo abaixo do mapa, fora do desenho, e foi transcrita como texto."
+  },
+  {
+   "numero": 21,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As transições energéticas têm um mesmo objetivo, mas diferentes caminhos possíveis. As trajetórias eleitas, em cada país e região do mundo, dependerão da disponibilidade de recursos naturais e das condições internas – como tecnologia própria ou apropriada, políticas públicas e financiamento. Cada país transitará para sistemas energéticos mais limpos e flexíveis segundo suas virtualidades, o que não significa um completo abandono de fontes de energia do passado, que podem seguir presentes na matriz energética, ainda que perdendo sua importância relativa.\n\n(Adaptado de “capevLAC”. VI Semana de la Energía: La VI Semana de la Energía impulsará los procesos de descarbonización en Latinoamérica y el Caribe. Quito, Ecuador - 06 de octubre de 2021. Disponível em: https://capevlac.olade.org/blog/recursos/vi-semana-de-la-energia/. Acessado em 21/10/2021.)\n\nSobre o tema destacado no texto acima, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O que é transição energética e o que significa descarbonização da economia? Quais os dois países do mundo que mais produzem energia de fontes não renováveis?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "No Brasil, que região concentra o maior potencial de produção de energia hidroelétrica e que região produz a maior quantidade de energia eólica? Explique a diferença entre fontes renováveis convencionais e fontes renováveis não convencionais."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 22,
+   "materia": "geografia",
+   "materias_extra": [
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "A atual pandemia não é uma situação de crise claramente contraposta a uma situação de normalidade. Desde a década de 1980 – à medida que o neoliberalismo se foi impondo como a versão dominante do capitalismo e este se foi sujeitando mais e mais à lógica do setor financeiro –, o mundo tem vivido em permanente estado de crise. Uma situação duplamente anômala. Por um lado, a ideia de crise permanente é um oxímoro, e constitui a oportunidade para ser superada e dar origem a um melhor estado de coisas.\n\n(Adaptado de Boaventura de Sousa Santos, *A cruel pedagogia do vírus*. Coimbra: Almedina, 2020, p. 5.)\n\nCom base no texto e em seus conhecimentos, faça o que se pede a seguir:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Diferencie epidemia, pandemia e sindemia, e responda por que a pandemia não atingiu igualmente todas as classes sociais."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Defina “neoliberalismo”. Explique por que ele produz uma crise permanente. Com base no conceito de capitalismo, defina normalidade e crise."
+    }
+   ],
+   "observacoes": "Na resposta do item b, o documento de respostas esperadas traz um espaço em branco depois de \"Como\" (\"Como    exemplo\"); a prova comentada traz \"Como exemplo\", usado aqui. Na resposta do item a, o documento de respostas esperadas traz \"como isolamento físico\" (a prova comentada traz \"com o isolamento físico\"); mantido o texto das respostas esperadas."
   }
  ],
  "respostas": {
@@ -78,6 +134,24 @@
    "itens": {
     "a": "No Brasil, a Terra Indígena Yanomami envolve parcelas de terra dos estados de Roraima e Amazonas. A mineração ilegal em terra Yanomami participa do processo de expansão da fronteira econômica no Norte do Brasil, causando forte impacto ambiental, atingindo, por conseguinte, os ecossistemas do bioma da floresta Amazônica. Esses ecossistemas possibilitam o desenvolvimento de formas de modo de vida daquela população, tais como a subsistência alimentar (que se faz por meio da coleta de frutos da floresta, da caça de animais silvestres, da pesca, de pequenos roçados agrícolas e de outros meios) e o desaparecimento de plantas utilizadas pela medicina tradicional Yanomami. Além disso, a organização do garimpo envolve intensa movimentação de embarcações nos rios, abertura de estradas e pistas de pouso, que interferem nas trilhas e rotas historicamente traçadas pelos indígenas, com deterioração dos locais sagrados para aquela população.",
     "b": "O ouro é o principal minério extraído do território Yanomami e a sua extração ocorre por meio de garimpos clandestinos, ilegais. A extração do ouro de aluvião, na atualidade, se faz crescentemente com técnicas industriais que envolvem inclusive logística empresarial, principalmente por processos de dragagem de sedimentos localizados nos leitos dos rios. Essa atividade ilegal atinge duramente o modo de vida e a saúde do povo Yanomami, uma vez que causa, dentre outros impactos, desmatamento, além de afugentar a caça e levar ao assoreamento e contaminação dos rios. Tudo isso resulta em áreas degradadas que são verdadeiras cicatrizes na floresta, propícias à difusão de doenças. Ademais, a forma de extração de ouro ocasiona a remoção do solo e da vegetação, a contaminação dos solos e da água pelos rejeitos do mercúrio. O mercúrio é um metal pesado que fica retido nos peixes e plantas ao ser absorvido."
+   }
+  },
+  "20": {
+   "itens": {
+    "a": "A posição geográfica da Criméia é estratégica para a Rússia uma vez que dá acesso ao Mar Negro e, por conseguinte, ao mar Mediterrâneo. Na Criméia se localiza o porto de Sebastopol que, banhado por águas mais quentes, não congela nos meses de inverno. Esse porto abriga importante frota naval russa e tem funções econômicas importantes nas rotas comerciais da Rússia com o mundo. A anexação da Criméia permitiu ao Estado russo retomar o controle político sobre uma região que, através da Ucrânia, se aproximava dos interesses da OTAN e da União Europeia. Por fim, o fato de a Criméia abrigar a maioria da população de origem russa contribuiu para legitimar sua anexação.",
+    "b": "EUA e União Europeia se opuseram à anexação da Criméia, com ameaças de um bloqueio econômico e de sanções comerciais à Rússia, ao mesmo tempo em que mantiveram relações diplomáticas com a Ucrânia."
+   }
+  },
+  "21": {
+   "itens": {
+    "a": "Transição energética corresponde à substituição de uma matriz energética por outra. Como exemplo, podemos citar a atual transição, na qual se busca substituir as fontes de energia altamente poluentes, como os hidrocarbonetos, por fontes mais limpas, como a solar e a eólica. A descarbonização da economia diz respeito ao uso de fontes de energia que emitem menos gases do efeito estufa, especialmente o $\\text{CO}_2$. Finalmente, os países do mundo que mais produzem energia de fontes não-renováveis são os Estados Unidos (EUA) e a China.",
+    "b": "A região com maior potencial hidroelétrico é a região Norte ou Amazônica, enquanto que a região com maior potencial eólico instalado é a região Nordeste. As fontes de energia renováveis convencionais são aquelas mais frequentemente utilizadas (como a energia produzida pelo bagaço da cana-de-açúcar e a energia produzida pelas usinas hidrelétricas) e as não convencionais são aquelas que resultam das mais novas tecnologias para a produção de energia, como é o caso da solar, eólica ou geotérmica."
+   }
+  },
+  "22": {
+   "itens": {
+    "a": "A *epidemia* corresponde ao aumento do número de casos de uma doença local em nível regional, sem ter, contudo, uma difusão global ou mundial. A *pandemia*, por conseguinte, é a doença que tem uma difusão global, atingindo, portanto, todos os espaços do mundo. Já a *sindemia* deriva da combinação de duas palavras (*sinergia* e *pandemia*) para designar uma situação em que duas ou mais doenças interagem, causando danos maiores do que a soma individual das doenças. A pandemia não atingiu igualmente todas as classes sociais, porque muitas medidas de controle e proteção da doença – como isolamento físico (em residências) e distanciamento físico entre pessoas – não podem ser realizadas pelas camadas sociais mais pobres, já que suas residências tendem a contar com mais moradores por metro quadrado. Além disso, a população de classes sociais menos favorecidas costuma se expor mais porque precisa se deslocar para o trabalho e para outras atividades do cotidiano, sobretudo fazendo mais uso dos transportes públicos para os deslocamentos, sendo que esses não costumam apresentar condições seguras de distanciamento entre as pessoas.",
+    "b": "O neoliberalismo é a doutrina social e econômica que supervaloriza o indivíduo e o mercado em detrimento da vida social e do papel do Estado como regulador e provedor de benefícios sociais. O neoliberalismo costuma produzir crises permanentes, na medida em que as formas de organização sistêmica costumam retirar sua força das instabilidades sociais e econômicas. Como exemplo, poderíamos mencionar a seguinte situação: para aumentar os lucros das grandes empresas, medidas como o fim dos direitos trabalhistas são postos em prática. A *normalidade* corresponde ao funcionamento coerente das instituições e organizações de uma sociedade, portanto, gerando estabilidade social. Por *crise*, entende-se a disfunção/instabilidade geral das organizações e das instituições de uma sociedade, a exemplo da permanência de altas taxas de desemprego, o que gera muita pobreza ao mesmo tempo em que paradoxalmente produz mais ricos e ultra-ricos."
    }
   }
  }
