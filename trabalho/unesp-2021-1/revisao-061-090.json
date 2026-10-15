@@ -214,7 +214,7 @@
     },
     "89": {
       "assunto": "Funções",
-      "resolucao": "A expressão é uma função do 1º grau: $P = 1 + \\frac{9}{400}h$. Cada unidade a mais em $h$ aumenta $P$ em $\\frac{9}{400}$ ponto percentual.\n\nPara que $P$ aumente 1 ponto, é preciso $\\frac{9}{400}\\Delta h = 1 \\Rightarrow \\Delta h = \\frac{400}{9} \\approx 44{,}4$.\n\nIsso corresponde a cerca de 44 mortes a mais para cada 100 mil habitantes. A alternativa A (22) vem de usar o coeficiente invertido pela metade, sem resolver a equação.\n\n**Resposta: E**"
+      "resolucao": "A expressão é uma função do 1º grau: $P = 1 + \\frac{9}{400}h$. Cada unidade a mais em $h$ aumenta $P$ em $\\frac{9}{400}$ ponto percentual.\n\nPara que $P$ aumente 1 ponto, é preciso $\\frac{9}{400}\\Delta h = 1 \\Rightarrow \\Delta h = \\frac{400}{9} \\approx 44{,}4$.\n\nIsso corresponde a cerca de 44 mortes a mais para cada 100 mil habitantes. As alternativas A (22) e D (225) vêm do coeficiente $\\frac{9}{400} = 0{,}0225$, que é o aumento de $P$ por unidade de $h$, e não o aumento de $h$ por ponto de $P$.\n\n**Resposta: E**"
     },
     "90": {
       "assunto": "Estatística",
@@ -310,7 +310,7 @@
     {
       "numero": 78,
       "status": "ok",
-      "notas": ""
+      "notas": "Texto conferido; \"constante universal do gases\" é erro de digitação do próprio caderno, mantido."
     },
     {
       "numero": 79,
