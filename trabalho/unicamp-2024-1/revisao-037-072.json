@@ -1,0 +1,403 @@
+{
+ "edicao": "unicamp-2024-1",
+ "intervalo": [
+  37,
+  72
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 38,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um corpo em queda nas proximidades da superfície terrestre sofre a ação da força gravitacional e da força de resistência do ar, $\\vec{F}_{\\text{ar}}$; essa última atua em sentido oposto à força gravitacional. Nos primeiros instantes, $\\vec{F}_{\\text{ar}} \\simeq \\vec{0}$ se o corpo parte do repouso. À medida que a velocidade aumenta, $\\vec{F}_{\\text{ar}}$ também aumenta. Com isso, a aceleração do corpo diminui gradativamente, tornando-se praticamente nula a partir de certo momento. Desse ponto em diante, o corpo passa a cair com velocidade constante, chamada de <u>velocidade terminal</u>. Um objeto de massa $m = 200\\ \\text{g}$ é solto a partir de certa altura e atinge a velocidade terminal após determinado tempo. Qual é o módulo da força de resistência do ar depois que o objeto atinge a velocidade terminal?\n\nUse os valores aproximados: $g = 10\\ \\text{m/s}^2$ e $\\pi = 3$.",
+   "alternativas": {
+    "A": "0,20 N.",
+    "B": "2,0 N.",
+    "C": "200 N.",
+    "D": "2000 N."
+   }
+  },
+  {
+   "numero": 40,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": "t39-40",
+   "enunciado": "Em um experimento destinado a investigar propriedades elásticas, uma diminuta ponta aplica uma força $\\vec{F}$ na superfície do neurônio, produzindo uma deformação $\\Delta L$ de forma análoga a uma mola (ver figura). Foram estudados dois neurônios distintos, designados pelos índices 1 e 2, que foram submetidos à ação de forças idênticas ($\\vec{F}_1 = \\vec{F}_2$). As deformações observadas foram $\\Delta L_1 = 20\\ \\text{nm}$ e $\\Delta L_2 = 30\\ \\text{nm}$. Se $k_1 = 9{,}0 \\times 10^{-6}\\ \\text{N/m}$ é a constante elástica para o neurônio 1, pode-se deduzir que o valor de $k_2$ é\n\n![Esquema de uma ponta que aplica a força F na superfície do neurônio, produzindo a deformação ΔL, ao lado de uma mola](fig:p15-c3)",
+   "alternativas": {
+    "A": "$4{,}0 \\times 10^{-6}\\ \\text{N/m}$.",
+    "B": "$6{,}0 \\times 10^{-6}\\ \\text{N/m}$.",
+    "C": "$13{,}5 \\times 10^{-6}\\ \\text{N/m}$.",
+    "D": "$20{,}25 \\times 10^{-6}\\ \\text{N/m}$."
+   }
+  },
+  {
+   "numero": 45,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma quimera é um indivíduo formado por dois ou mais tipos de células, em que cada tipo contém um genoma distinto. Os machos da espécie de formiga *Anoplolepis gracilipes* são quimeras formadas por dois tipos de células haploides, bastante distintas do ponto de vista genético; essas células são provenientes de duas linhagens de formigas, podendo ser chamadas de linhagem 1 e linhagem 2. As rainhas (fêmeas capazes de produzir óvulos) desta espécie são indivíduos formados pela fusão entre um óvulo com genoma característico da linhagem 1 e um espermatozoide com genoma característico da linhagem 1. Já as fêmeas operárias (não reprodutivas) são indivíduos formados pela fusão entre um óvulo com genoma característico da linhagem 1 e um espermatozoide com genoma característico da linhagem 2.\n\n(Adaptado de: DARRAS, H. et al. *Science, Washington*, v. 380, p.55-58, abr. 2023.)\n\nCom base em seus conhecimentos e considerando o texto apresentado, pode-se dizer que as diferenças genéticas entre rainhas e operárias se explicam pelo fato de",
+   "alternativas": {
+    "A": "os gametas se fundirem nos machos e operárias.",
+    "B": "os machos conterem células haploides das linhagens 1 e 2.",
+    "C": "os machos serem homozigotos.",
+    "D": "os machos serem diploides oriundos das linhagens 1 e 2."
+   }
+  },
+  {
+   "numero": 65,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No losango abaixo, qual é a medida do comprimento do segmento $BE$?\n\n![Losango ABCD com ângulo de 60° no vértice A; o ponto E no lado AD, com ED = 2; o ponto F no lado DC, com DF = 3 e ângulo reto em F; segmentos tracejados BE e BF](fig:p20-c3)",
+   "alternativas": {
+    "A": "$\\sqrt{26}$.",
+    "B": "$\\sqrt{27}$.",
+    "C": "$\\sqrt{28}$.",
+    "D": "$\\sqrt{29}$."
+   }
+  },
+  {
+   "numero": 67,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em uma visita a um museu de arte indígena, um estudante observou uma obra seguida de uma placa explicativa:\n\nIn some indigenous cultures, headdresses represent Native peoples’ right to govern themselves according to their own laws. The materials they are constructed with can vary greatly, including wood, iron, feathers, and ivory. Rather than using gridded designs (symbols of spiritual beliefs) or putting birds or mammals at center stage, as several others do, horns were attached to this headdress, an emblem of power reserved for those “whose exceeding worth and power is admitted by all the nation”.\n\n(Imagens (nas alternativas) e texto (acima) adaptados de: https://americanindian.si.edu/exhibitions/infinityofnations/introduction.html. Acesso em 31/05/2023.)\n\nQual das imagens corresponde à descrição da placa?",
+   "alternativas": {
+    "A": "![Alternativa A: cabeça de cervo com galhada sobre uma peça de tecido claro, em fundo preto](fig:p20-c4)",
+    "B": "![Alternativa B: peça de tecido colorido com padrões geométricos em vermelho, azul, amarelo e verde, em fundo preto](fig:p20-c8)",
+    "C": "![Alternativa C: peça com moldura vermelha e placa com figura de ave em relevo, com incrustações brilhantes, pelos claros e fibras finas e longas, em fundo preto](fig:p20-c6)",
+    "D": "![Alternativa D: peça com dois chifres longos com tufos claros nas pontas, tira vermelha ornamentada e franjas de fibras, em fundo preto](fig:p20-c9)"
+   }
+  }
+ ],
+ "complementos": {
+  "37": {
+   "assunto": "Ondulatória",
+   "resolucao": "Primeiro lemos o gráfico; depois usamos a equação fundamental da onda, $c = \\lambda f$.\n\nNa curva, a temperatura de 4800 K corresponde à linha horizontal de 5 GHz: $f_0 = 5 \\times 10^{9}\\ \\text{Hz}$.\n\n$\\lambda_0 = \\frac{c}{f_0} = \\frac{3{,}0 \\times 10^{8}}{5 \\times 10^{9}} = 0{,}06\\ \\text{m}$.\n\nA alternativa C (0,05 m) corresponderia a 6 GHz, leitura errada do gráfico; B e D corresponderiam a frequências da ordem de $10^{7}\\ \\text{Hz}$, fora da escala do gráfico.\n\n**Resposta: A**"
+  },
+  "38": {
+   "assunto": "Dinâmica",
+   "resolucao": "Na velocidade terminal a aceleração é nula; pela 2ª lei de Newton, a força resultante é zero.\n\nEntão a resistência do ar equilibra o peso: $F_{\\text{ar}} = P = m g$.\n\nCom $m = 200\\ \\text{g} = 0{,}2\\ \\text{kg}$ e $g = 10\\ \\text{m/s}^2$: $F_{\\text{ar}} = 0{,}2 \\times 10 = 2{,}0\\ \\text{N}$.\n\nA alternativa C (200 N) aparece quando se esquece de converter gramas em quilogramas.\n\n**Resposta: B**"
+  },
+  "39": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "A resistência é a razão entre a ddp e a corrente (lei de Ohm): $R = \\frac{U}{i}$, que é o inverso da inclinação do gráfico $i \\times U$.\n\nTome um ponto da reta, por exemplo $U = 140\\ \\text{mV}$ e $i = 10\\ \\text{pA}$:\n\n$R = \\frac{140 \\times 10^{-3}}{10 \\times 10^{-12}} = 14 \\times 10^{9}\\ \\Omega = 14\\ \\text{G}\\Omega$.\n\nO enunciado já sugere a ordem de grandeza: $10^{-3}\\ \\text{V} / 10^{-12}\\ \\text{A} \\sim 10^{9}\\ \\Omega$, o que descarta as demais opções.\n\n**Resposta: D**"
+  },
+  "40": {
+   "assunto": "Dinâmica",
+   "resolucao": "O neurônio se comporta como uma mola: vale a lei de Hooke, $F = k\\,\\Delta L$.\n\nComo as forças são iguais, $k_1 \\Delta L_1 = k_2 \\Delta L_2$.\n\n$k_2 = k_1 \\frac{\\Delta L_1}{\\Delta L_2} = 9{,}0 \\times 10^{-6} \\times \\frac{20}{30} = 6{,}0 \\times 10^{-6}\\ \\text{N/m}$.\n\nFaz sentido: o neurônio 2 deformou mais com a mesma força, então é menos rígido ($k_2 < k_1$). A alternativa C (13,5) inverte a proporção.\n\n**Resposta: B**"
+  },
+  "41": {
+   "assunto": "Zoologia",
+   "resolucao": "Quelônios são répteis, o primeiro grupo de vertebrados plenamente adaptado à reprodução em terra.\n\nA conquista decisiva é o **ovo amniótico**, com fecundação interna: o âmnio forma uma bolsa com líquido que protege o embrião contra a desidratação. Por isso a tartaruga-da-amazônia desova nas praias do rio.\n\nAs outras estão erradas: a pele dos répteis tem queratina, não quitina (A); répteis não têm alvéolos nem respiração cutânea relevante (B); a excreta que economiza água é o ácido úrico, e a ureia exige bastante água para ser eliminada (C).\n\n**Resposta: D**"
+  },
+  "42": {
+   "assunto": "Evolução",
+   "resolucao": "A figura mostra os membros anteriores de baleia, humano, lagarto e pássaro, todos derivados do membro de um ancestral tetrápode comum, com os mesmos ossos (destacados nas mesmas cores).\n\nEstruturas com a mesma origem embrionária e evolutiva, ainda que tenham funções diferentes (nadadeira, braço, pata, asa), são **homólogas**. A diversificação a partir de um ancestral comum caracteriza a **evolução divergente**.\n\nPor isso a nadadeira da baleia e a asa do pássaro são homólogas, em caso de divergência. As alternativas A e D chamam de análogas estruturas que têm origem comum; a C associa homologia a convergência, que produz analogia.\n\n**Resposta: B**"
+  },
+  "43": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "A testosterona atua no desenvolvimento de órgãos do sistema reprodutor masculino, como a **próstata** e os testículos.\n\nEntre as características que ela promove está a **maturação dos ossos** (crescimento e fechamento das epífises). A produção de esperma não é uma característica sexual secundária.\n\nComo todo hormônio esteroide, é sintetizada a partir do **colesterol** (a creatina não tem relação com esteroides) e é inativada no **fígado**, o principal órgão de metabolização de hormônios.\n\n**Resposta: A**"
+  },
+  "44": {
+   "assunto": "Citologia",
+   "resolucao": "A figura mostra uma membrana envolvendo porções do próprio citoplasma, inclusive mitocôndrias, e a vesícula formada (autofagossomo) se fundindo ao lisossomo. Esse processo é a **autofagia**.\n\nPela autofagia a célula digere e recicla organelas envelhecidas ou danificadas e moléculas do citoplasma, o que contribui para a homeostase.\n\nA alternativa B também fala em autofagia, mas descreve a função do complexo golgiense (empacotar e exportar proteínas). A e D falam em heterofagia, que é a digestão de material vindo de fora da célula, o que não aparece na figura.\n\n**Resposta: C**"
+  },
+  "45": {
+   "assunto": "Genética",
+   "resolucao": "Rainhas e operárias recebem o mesmo tipo de óvulo (linhagem 1); o que muda é o espermatozoide: linhagem 1 nas rainhas e linhagem 2 nas operárias.\n\nOs machos são quimeras de células haploides das duas linhagens. Por isso conseguem produzir espermatozoides tanto de linhagem 1 quanto de linhagem 2, e é isso que explica a diferença genética entre as duas castas de fêmeas.\n\nA alternativa D erra ao dizer que os machos são diploides; o texto afirma que suas células são haploides. Em A, gametas não se fundem nos machos; em C, homozigose não se aplica a células haploides.\n\n**Resposta: B**"
+  },
+  "46": {
+   "assunto": "Ecologia",
+   "resolucao": "As duas espécies crescem em curva sigmoide e se estabilizam em tamanhos diferentes (cerca de 90 e 60 indivíduos), convivendo de forma estável no mesmo habitat durante todo o período.\n\nEsse é o padrão de crescimento logístico: a população cresce até o limite imposto pela **resistência ambiental** (capacidade de suporte). Se disputassem exatamente os mesmos recursos, o princípio da exclusão competitiva preveria a queda de uma delas; a coexistência estável indica **nichos ecológicos distintos**.\n\nA alternativa A é tentadora porque as populações têm tamanhos diferentes, mas o gráfico não mostra efeito de uma espécie sobre a outra. C erra porque generalistas têm nichos amplos, e D erra porque o crescimento das duas é limitado pela resistência ambiental.\n\n**Resposta: B**"
+  },
+  "47": {
+   "assunto": "Botânica",
+   "resolucao": "Na raiz de eudicotiledônea em estrutura primária o xilema ocupa o centro em forma de estrela (cruz), com feixes de floema entre os braços e sem medula. Na de monocotiledônea há medula central e muitos feixes alternados de xilema e floema em anel.\n\nLogo, a eudicotiledônea é a **Figura A**. Nela, o número 1 aponta para os feixes escuros entre os braços do xilema, que são o **floema**; o número 2 aponta para a camada tracejada que envolve o cilindro central, a **endoderme**.\n\nA alternativa C troca o floema pelo xilema, que é a estrutura em cruz no centro.\n\n**Resposta: A**"
+  },
+  "48": {
+   "assunto": "Teoria sociológica",
+   "resolucao": "O texto apresenta o conceito de **fato social** de Durkheim: maneiras de agir, pensar e sentir que são exteriores ao indivíduo (\"existirem fora das consciências individuais\"), recebidas pela educação, e que se impõem a ele.\n\nO autor diz que os deveres \"estão definidos fora de mim\" e que sua realidade é objetiva, \"pois não fui eu que os fiz\". Portanto, quem define esses modos é a própria sociedade, que exerce coerção sobre o indivíduo.\n\nAs alternativas A, B e C atribuem a origem ao livre-arbítrio ou aos sentimentos individuais, o contrário do que o texto afirma.\n\n**Resposta: D**"
+  },
+  "49": {
+   "assunto": "Política, Estado e cidadania",
+   "resolucao": "O cartaz afirma que não há democracia enquanto houver racismo: democracia e igualdade racial andam juntas e são uma conquista coletiva dos movimentos sociais.\n\nIanni diz que democracia e cidadania são processos \"marcados por dificuldades e retrocessos\" e que a participação de mulheres, negros e indígenas é \"uma luta penosa\". Isso indica conceitos ligados entre si, da esfera coletiva, com avanços e perdas, ou seja, um processo **não linear**.\n\nA alternativa B fala em processos lineares e na esfera individual; A contradiz o texto 1, produzido justamente por movimentos sociais que tratam do racismo; D diz que a influência sobre a igualdade é secundária, quando os textos mostram que ela é central.\n\n**Resposta: C**"
+  },
+  "50": {
+   "assunto": "Desigualdade e estratificação",
+   "resolucao": "A metáfora do campo inclinado mostra que o resultado de uma disputa não depende só de talento e disciplina: a \"topografia\" (as divisões de classe, gênero e raça) favorece um time e prejudica o outro.\n\nAssim, as condições de competição individual são marcadas por essas divisões, que vêm do contexto social, político e econômico; achamos que jogamos em igualdade de condições quando não jogamos.\n\nA alternativa C é a visão meritocrática que o texto critica; A e D negam o peso das divisões sociais, o contrário da tese das autoras.\n\n**Resposta: B**"
+  },
+  "51": {
+   "assunto": "Gênero e raça",
+   "resolucao": "Sueli Carneiro critica o racismo que nega ao \"Outro\" a plena humanidade e o transforma em objeto, justificando a superioridade europeia.\n\nA única alternativa que **critica** esse mecanismo é a de Lélia Gonzales: o racismo é um discurso de exclusão que trata o grupo excluído \"como objeto e não como sujeito\".\n\nAs alternativas A (Kant), B (Hegel) e C (a personagem de Monteiro Lobato) não criticam: são exemplos do próprio pensamento racista que Carneiro denuncia, pois afirmam inferioridade mental, \"selvageria\" ou degeneração pela mistura de raças.\n\n**Resposta: D**"
+  },
+  "52": {
+   "assunto": "Ética",
+   "resolucao": "No excerto 1, Aristóteles relata que a maioria, \"os homens de tipo mais vulgar\", identifica a felicidade com o prazer; ele apresenta essa opinião como a do vulgo, não como a sua.\n\nNo excerto 2, Epicuro diz que o prazer é o início e o fim da vida feliz, mas ressalva que \"nem por isso escolhemos qualquer prazer\": a felicidade depende de saber escolher os desejos, visando a saúde do corpo e a serenidade do espírito.\n\nAssim, apesar das éticas diferentes, nenhum dos dois identifica de modo imediato felicidade e prazer. A alternativa B é a armadilha: Epicuro não defende a realização irrestrita dos desejos. A e D atribuem a Aristóteles teses que ele não sustenta.\n\n**Resposta: C**"
+  },
+  "53": {
+   "assunto": "Filosofia política",
+   "resolucao": "Figueiredo mostra a tensão entre os dois valores: não há liberdade real onde reinam \"desigualdades aberrantes\", mas a liberdade também exige que os indivíduos possam \"singularizar-se e diferenciar-se uns dos outros\".\n\nArticular liberdade e igualdade é, portanto, complexo porque exige ao mesmo tempo suprimir desigualdades extremas e preservar a afirmação das diferenças individuais.\n\nA alternativa A contradiz a primeira pergunta do texto; B e D introduzem ideias (regimes antidemocráticos, capitalismo como condição suficiente) que o autor não discute.\n\n**Resposta: C**"
+  },
+  "54": {
+   "assunto": "Geometria plana",
+   "resolucao": "Como o preço é proporcional à área, quatro pizzas individuais devem ter, juntas, a mesma área da pizza grande (raio 10 cm).\n\n$4 \\cdot \\pi \\left(\\frac{d}{2}\\right)^2 = \\pi \\cdot 10^2 \\Rightarrow \\pi d^2 = 100\\pi \\Rightarrow d^2 = 100 \\Rightarrow d = 10\\ \\text{cm}$.\n\nCuidado com a tentação de dividir o diâmetro por 4 (5 cm): a área depende do quadrado do diâmetro, por isso dividir a área por 4 só divide o diâmetro por 2.\n\n**Resposta: C**"
+  },
+  "55": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "A segunda regra diz que Bruna anda de patins **apenas quando** Carol anda de bicicleta, ou seja: \"se Bruna anda de patins, então Carol anda de bicicleta\".\n\nPela contrapositiva: se Carol **não** anda de bicicleta (andou de patins), então Bruna não anda de patins. Logo, é necessariamente verdade que Bruna não andou de patins.\n\nSobre Ana não se conclui nada: a primeira regra só diz o que acontece com Carol quando Ana anda de patins, e Carol andar de patins não obriga Ana a nada. A alternativa A é a falácia de afirmar o consequente.\n\n**Resposta: D**"
+  },
+  "56": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Sejam $g$, $p$ e $c$ as quantidades de gatos, pintinhos e cachorros. As informações dão o sistema:\n\n$g + p = c + 4$ e $g + c = p + 6$.\n\nSomando as duas equações: $2g + p + c = c + p + 10 \\Rightarrow 2g = 10 \\Rightarrow g = 5$.\n\nNão é preciso saber $p$ e $c$ separadamente: a soma elimina as duas incógnitas.\n\n**Resposta: B**"
+  },
+  "57": {
+   "assunto": "Funções",
+   "resolucao": "Coloque a origem no chão, no centro da entrada. A parábola corta o chão em $x = \\pm 1$ e tem vértice em $(0;\\ 2{,}5)$:\n\n$y = 2{,}5\\,(1 - x^2)$.\n\nA caixa de 1 m de largura, centralizada, vai de $x = -0{,}5$ a $x = 0{,}5$. A altura máxima é a da parábola nas bordas da caixa:\n\n$y(0{,}5) = 2{,}5\\,(1 - 0{,}25) = 2{,}5 \\times 0{,}75 = 1{,}875 = \\frac{15}{8}\\ \\text{m}$.\n\n**Resposta: C**"
+  },
+  "58": {
+   "assunto": "Geometria plana",
+   "resolucao": "Três segmentos formam triângulo quando o maior é menor que a soma dos outros dois. Como não foi possível formar o triângulo, $c \\ge a + b$.\n\nCom $b = a + 2$ e $a + b + c = 50$: $c = 50 - a - (a + 2) = 48 - 2a$.\n\n$48 - 2a \\ge a + (a + 2) \\Rightarrow 46 \\ge 4a \\Rightarrow a \\le 11{,}5$.\n\nCom $a = 11{,}5$: $b = 13{,}5$ e $c = 25 = a + b$, os pedaços não formam triângulo (ficariam alinhados), e $a \\le b \\le c$ é respeitado. Logo o maior valor é 11,5 cm.\n\n**Resposta: C**"
+  },
+  "59": {
+   "assunto": "Funções",
+   "resolucao": "Conjunto A: as raízes de $x^2 - 2x - 24 = 0$ são $x = 6$ e $x = -4$. Como a parábola tem concavidade para cima, ela é negativa entre as raízes: $A = \\{x \\mid -4 < x < 6\\}$.\n\nConjunto B: $2x - 7 \\le 0 \\Rightarrow x \\le 3{,}5$.\n\n$A \\cap B = \\{x \\mid -4 < x \\le 3{,}5\\}$. Os inteiros nesse intervalo são $-3, -2, -1, 0, 1, 2, 3$: são 7 números.\n\nNote que $-4$ fica de fora, porque a desigualdade de A é estrita.\n\n**Resposta: C**"
+  },
+  "60": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Conte todas as escolhas de 2 itens entre os 10 e retire as que desobedecem ao pai.\n\nTotal: $C_{10,2} = \\frac{10 \\cdot 9}{2} = 45$.\n\nEscolhas proibidas (com pirulito e sem fruta): dois pirulitos, $C_{3,2} = 3$; um pirulito e um bolo, $3 \\cdot 2 = 6$. São $9$.\n\nFormas permitidas: $45 - 9 = 36$.\n\nA alternativa C (45) ignora a restrição do pai.\n\n**Resposta: B**"
+  },
+  "61": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Depois de jogadas 35 brancas e 25 pretas, restam na sacola $60 - 35 = 25$ brancas e $40 - 25 = 15$ pretas, ou seja, 40 pedrinhas.\n\nAs retiradas são sem reposição:\n\n$P = \\frac{25}{40} \\cdot \\frac{24}{39} = \\frac{5}{8} \\cdot \\frac{8}{13} = \\frac{5}{13}$.\n\nO erro mais comum é usar a composição inicial da sacola (60 brancas em 100), sem descontar as pedrinhas já jogadas.\n\n**Resposta: B**"
+  },
+  "62": {
+   "assunto": "Progressões",
+   "resolucao": "Cada parcela é $p(kx) = kx + 2024$, para $k = 1, 2, \\ldots, 2024$. Somando:\n\n$x(1 + 2 + \\ldots + 2024) + 2024 \\cdot 2024 = 0$.\n\nA soma da PA é $\\frac{2024 \\cdot 2025}{2}$. Então $x \\cdot \\frac{2024 \\cdot 2025}{2} = -2024^2$, e\n\n$x = -\\frac{2 \\cdot 2024}{2025} = -\\frac{4048}{2025} \\approx -1{,}999$.\n\nEsse valor é negativo e um pouco maior que $-2$, logo $-2 < x < 0$.\n\n**Resposta: B**"
+  },
+  "63": {
+   "assunto": "Geometria plana",
+   "resolucao": "Seja $h$ a altura do trapézio. O triângulo MBN tem base $MB = \\frac{1}{2}$ (metade de AB) sobre a base AB.\n\nComo N é ponto médio de BC, sua distância até a reta AB é metade da altura: $\\frac{h}{2}$.\n\nÁrea de MBN: $\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{h}{2} = \\frac{h}{8} = 1 \\Rightarrow h = 8$.\n\nÁrea do trapézio: $\\frac{(AB + CD) \\cdot h}{2} = \\frac{(1 + 5) \\cdot 8}{2} = 24$.\n\n**Resposta: D**"
+  },
+  "64": {
+   "assunto": "Funções",
+   "resolucao": "Os pontos de interseção com o eixo $y$ são obtidos com $x = 0$.\n\n$f(g(x)) = 2(5 - 6x) + c = 10 + c - 12x$, então $P = (0;\\ 10 + c)$.\n\n$g(f(x)) = 5 - 6(2x + c) = 5 - 6c - 12x$, então $Q = (0;\\ 5 - 6c)$.\n\nA origem é ponto médio de PQ quando as ordenadas somam zero: $(10 + c) + (5 - 6c) = 0 \\Rightarrow 15 - 5c = 0 \\Rightarrow c = 3$, que satisfaz $c > 0$.\n\n**Resposta: C**"
+  },
+  "65": {
+   "assunto": "Geometria plana",
+   "resolucao": "Use coordenadas com D na origem e DC sobre o eixo $x$. No losango, o ângulo em D vale $180^\\circ - 60^\\circ = 120^\\circ$. Seja $\\ell$ o lado.\n\nEntão $A = \\ell(\\cos 120^\\circ;\\ \\sin 120^\\circ) = \\left(-\\frac{\\ell}{2};\\ \\frac{\\ell\\sqrt{3}}{2}\\right)$ e $B = A + (\\ell;\\ 0) = \\left(\\frac{\\ell}{2};\\ \\frac{\\ell\\sqrt{3}}{2}\\right)$.\n\nF é o pé da perpendicular de B sobre DC, logo $DF = \\frac{\\ell}{2} = 3$, e $\\ell = 6$: $B = (3;\\ 3\\sqrt{3})$.\n\nE está sobre DA, a 2 de D: $E = 2(\\cos 120^\\circ;\\ \\sin 120^\\circ) = (-1;\\ \\sqrt{3})$.\n\n$BE^2 = (3 + 1)^2 + (3\\sqrt{3} - \\sqrt{3})^2 = 16 + 12 = 28 \\Rightarrow BE = \\sqrt{28}$.\n\n**Resposta: C**"
+  },
+  "66": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "No texto 1, Martin Luther King expressa o sonho de que crianças negras e brancas convivam como irmãs, sem racismo.\n\nO cartaz de Toronto (texto 2) põe lado a lado um homem branco e um homem negro com a ordem \"Quick, hire one\" (\"Rápido, contrate um\") e afirma \"Anti-Black racism happens here\" (\"o racismo contra negros acontece aqui\"). A campanha provoca o leitor a perceber o próprio viés na escolha.\n\nO cartaz indica, portanto, que o sonho de King ainda não se realizou em todos os contextos, o que contradiz A. Não há contradição entre os textos (D), e o racismo do texto 1 é explícito, não velado (B).\n\n**Resposta: C**"
+  },
+  "67": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "A placa diz que, em vez de usar desenhos quadriculados (\"gridded designs\") ou colocar aves ou mamíferos em destaque (\"birds or mammals at center stage\"), como fazem vários outros, **foram presos chifres (\"horns\") a este cocar**.\n\nA imagem D é a única com dois chifres presos ao cocar.\n\nAs outras imagens são justamente os exemplos que a placa descarta: a A tem um mamífero (a cabeça de cervo) em destaque, a B tem padrões geométricos quadriculados e a C tem uma ave em destaque.\n\n**Resposta: D**"
+  },
+  "68": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto contextualiza o problema (implicações da pecuária, aumento da demanda por proteína) e apresenta a **agricultura celular**: tecidos de carne ou fontes alternativas, como algas, cultivados em laboratório.\n\nA frase que define o tema da edição é a última: \"This special issue welcomes research on improvements to cellular agriculture protocols\", ou seja, pesquisas sobre agricultura celular de diversas fontes de proteína.\n\nA alternativa B é o contexto que motivou a pesquisa, não o tema da edição; A e C falam em agricultura tradicional, que é aquilo a que a agricultura celular busca ser alternativa.\n\n**Resposta: D**"
+  },
+  "69": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O e-mail é uma tentativa de extorsão: diz ter instalado um vírus, gravado contatos e vídeos da vítima e propõe \"um acordo\" antes de fazer \"qualquer coisa\" com o material. É, portanto, uma **ameaça**.\n\nO tom é informal e falsamente amigável (\"Hey there\", \"To top it all off\"), o que dá à ameaça um ar irônico e sarcástico.\n\nNão há expressões violentas (A) nem humor para acusar (B). A alternativa D erra porque o remetente não diz ter tornado públicas as informações; ele ameaça fazer algo com elas.\n\n**Resposta: C**"
+  },
+  "70": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O autor parte de **elementos da ficção**: os Outcasts (lobisomens, videntes) representam qualquer grupo tratado como \"outro\" (indígenas, pessoas negras, LGBT+, neurodivergentes), e o ódio dos Normies leva à violência e à desumanização.\n\nEle lembra ainda que, na série, os Outcasts foram assassinados pelos peregrinos na era colonial e conclui: \"It's a distressingly familiar story\". A série é usada para aludir a um processo histórico e violento de desumanização da alteridade.\n\nA alternativa A é a mais tentadora, mas o que o texto diz ter sido apagado dos livros de história, na série, são os massacres, e não a existência dos grupos marginalizados. C e D invertem a direção: o autor não usa fatos históricos para analisar a série.\n\n**Resposta: B**"
+  },
+  "71": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "A crítica destaca que \"the strength of James Gunn's screenplay lies in the fact that it doesn't back away from the tough subject matter\": o ponto forte do roteiro é **não fugir do tema difícil** dos testes em animais. Isso é a coragem de dar destaque à polêmica.\n\nA alternativa B é a armadilha. O texto diz que o filme faz algo que \"few movies have ever done\" (poucos filmes fizeram), e \"poucos\" não é o mesmo que \"nenhum\": não se pode falar em ineditismo. C e D tratam de aspectos secundários (a animação emocionante e o prêmio da PETA), que são consequências, e não o diferencial apontado.\n\n**Resposta: A**"
+  },
+  "72": {
+   "assunto": "Gramática",
+   "resolucao": "(i) O traço não padrão mais recorrente do trecho é a **concordância verbal**: \"God love\", \"Man corrupt\", \"He try\", sem o \"-s\" da 3ª pessoa ou a marca de tempo da variedade padrão. A dupla negação (\"didn't hardly know nothing\") também aparece, mas a omissão do verbo de ligação (\"he everywhere\", \"us black\") não é uma repetição dele, o que descarta A.\n\n(ii) Quanto ao tema, a fala diz que o homem tenta fazer os outros pensarem que ele está em toda parte e que é Deus, \"but he ain't\": é a **ilusão do homem quanto à sua superioridade**.\n\nA alternativa B erra na temática: Deus aparece como imprevisível (\"always making little surprises\"). A D erra nos dois pontos: o trecho não omite sujeitos e não trata de ganância.\n\n**Resposta: C**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "corrigida",
+   "notas": "enunciado: faltava a instrução impressa no topo da p. 14 para a seção de física (\"Use os valores aproximados: g = 10 m/s² e π = 3.\"), necessária para a conta; acrescentada no fim do enunciado. O texto base t34-37 (lote 1–36) já a contém e não foi alterado."
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "corrigida",
+   "notas": "figura refeita (p15-f2 → p15-c3): o recorte antigo trazia, no canto superior esquerdo, um pedaço do índice de k₂ do texto acima."
+  },
+  {
+   "numero": 41,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 45,
+   "status": "corrigida",
+   "notas": "fonte: no caderno \"Science, Washington\" está todo em itálico; estava só \"Science\"."
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 49,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 54,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": "sem assunto de lógica na lista de matemática; usei \"Aritmética e porcentagem\" como o mais próximo. Talvez valha criar \"Lógica\" em assuntos.json."
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 59,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 60,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "corrigida",
+   "notas": "descrição da figura tinha $60^\\circ$ em LaTeX dentro do texto alternativo; o renderizador separa as fórmulas antes de reconhecer a figura, então a imagem não aparecia. Trocado por \"60°\" e retirada a menção a \"AE indicado\" (AE não tem medida na figura)."
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "corrigida",
+   "notas": "alternativas B e D: recortes refeitos (p20-c5 → p20-c8, p20-c7 → p20-c9) sem os pedaços dos rótulos \"b)\" e \"d)\"; descrição da D trocou \"tufos de penas claras\" por \"tufos claros\" (não dá para afirmar que são penas)."
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": "minha primeira resolução deu B; o gabarito oficial é A. Refeita: o texto diz \"few movies have ever done\" (poucos, não nenhum), o que derruba o \"ineditismo\" de B, e \"doesn't back away from the tough subject matter\" sustenta A. Concordo com o oficial; transcrição conferida."
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
