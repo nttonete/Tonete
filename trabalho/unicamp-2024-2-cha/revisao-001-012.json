@@ -1,0 +1,150 @@
+{
+ "edicao": "unicamp-2024-2-cha",
+ "intervalo": [
+  1,
+  12
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {
+  "4": {
+   "itens": {
+    "a": "A temperatura máxima média prevista para o período é de 31 graus, pois\n\n$$\\frac{29 + 32 + 32 + 31 + 30 + 30 + 33 + 33 + 35 + 32 + 35 + 32 + 19}{13} = 31.$$\n\nComo a média histórica é de 27 graus, a média no período apresentado é maior.",
+    "b": "A temperatura mínima prevista é maior do que 17 nos dias: 19, 20, 23, 24, 25, 26. Portanto, a probabilidade de que a mudança seja num dia em que a mínima é maior do que 17 é de 6/13."
+   },
+   "resposta": "**Objetivo da questão:** A questão exibe um gráfico de temperaturas máximas e mínimas e pede para o candidato fazer algumas análises sobre o gráfico. Em primeiro lugar, ele precisa calcular a média das temperaturas. Depois, na (b), ele precisa usar o conceito básico de probabilidade para conseguir efetuar o cálculo solicitado."
+  },
+  "5": {
+   "itens": {
+    "a": "Para $k = -1$, temos $y = f(x) = -x^2 + bx + 4$. Para que o gráfico seja simétrico com respeito ao eixo $y$, precisamos ter $f(x) = f(-x)$ para todo valor de $x$. Assim, temos $-x^2 + bx + 4 = -x^2 - bx + 4$, ou seja, $-bx = bx$ para todo $x$, e daí $b = 0$. Com este valor de $b$, a equação $f(x) = 0$ é $x^2 - 4 = 0$, ou seja, $x = \\pm 2$.",
+    "b": "Para uma parábola de equação $y = ax^2 + bx + c$, as coordenadas do vértice da parábola são $(x_V, y_V) = \\left(-\\frac{b}{2a}, -\\frac{\\Delta}{4a}\\right)$. Para $k = 1$ e $b = 3$, temos que $f(x) = x^2 - 3x + 4$ e daí $\\Delta = -7$. Portanto, as coordenadas do vértice são $\\left(\\frac{3}{2}, \\frac{7}{4}\\right)$.\n\nA distância deste ponto até a origem é\n\n$$d = \\sqrt{\\left(\\frac{3}{2}\\right)^2 + \\left(\\frac{7}{4}\\right)^2} = \\frac{\\sqrt{85}}{4}.$$"
+   },
+   "resposta": "**Objetivo da questão:** A questão aborda um tema clássico do programa: os polinômios de grau 2. A noção de simetria de uma parábola é muito importante para resolver esta questão, bem como técnicas para resolver equações quadráticas. Para a pergunta (b), noções de distância no plano euclidiano são necessárias. É uma questão que não é apresentada de forma contextualizada, mas dialoga bem com a contextualização da “entrada da caverna”, apresentada na prova da fase 1."
+  },
+  "6": {
+   "itens": {
+    "a": "Rodolfo comprou 250g de queijo parmesão, 1,5 kg de queijo muçarela e 400g de salame. Considerando os preços indicados na tabela, que são dados em quilo, e considerando as quantidades compradas também já convertidas para quilo, o valor total pago foi de $(0{,}25) \\cdot 60 + (1{,}5) \\cdot 40 + (0{,}4) \\cdot 50 = 95$ reais.",
+    "b": "Seja $P$ o preço reajustado do parmesão, $M$ o preço reajustado da muçarela e $S$ o preço reajustado do salame. O enunciado nos diz que $2P + M + S = 285$ (compra da Ana) e que $M + S = 125$ (compra da Bárbara). Subtraindo a segunda equação da primeira, obtemos que $2P = 160$, ou seja, $P = 80$. Portanto, o preço reajustado do queijo parmesão é de R\\$ 80,00 o quilo. Isto dá um aumento de R\\$ 20,00, que equivale a 33,3% do preço de junho. Portanto, o reajuste percentual foi de 33,3%."
+   },
+   "resposta": "**Objetivo da questão:** A questão trata da solução de sistemas lineares. Como a parte de matrizes não está mais no programa do vestibular, as questões de sistemas precisam ser, de certa forma, elementares, ou seja, sem que o conhecimento sobre matrizes e escalonamento seja um grande diferencial para sua resolução. Com isto em mente, a letra (a) é uma questão que recai num cálculo aritmético, em que a conversão e o uso correto das unidades de medida é importante. Na (b), o candidato precisa modelar o problema como um sistema de duas equações lineares e resolvê-las. A contextualização, em termos de preços, leva o problema para a realidade do estudante, inclusive em termos da “razoabilidade” dos valores encontrados, no caso de algum erro nas contas."
+  },
+  "7": {
+   "resposta": "**Objetivo da questão:** A questão procurou explorar de modo transversal tópicos presentes no itinerário de Ciências Humanas e Sociais Aplicadas, abordando temas como Território, Natureza, Sociedade, Trabalho, Cultura e Política.\n\nPartindo da implementação de uma Política Pública para Mulheres do mundo rural, a questão propôs uma reflexão sobre relações econômicas como relações sociais, bem como incentivou a reflexão sobre políticas públicas e seus impactos. Ela buscou, ainda, explorar conceitos e categorias sociológicas que haviam sido trabalhados na 1ª Fase, como os de gênero, cidadania e desigualdade.\n\nNesta questão, eram esperadas respostas capazes de identificar que práticas econômicas podem ser ou não ser mercantis. Também eram esperadas respostas que diferenciassem as esferas de produção, circulação e consumo. Por fim, eram esperadas respostas que identificassem quais populações seriam alvo da política pública em questão e refletissem sobre seus impactos, identificando a relação entre Estado, políticas públicas e sociedade.",
+   "itens": {
+    "a": "Quintais produtivos podem ser considerados práticas econômicas, pois envolvem a produção, a circulação e o consumo de bens e mercadorias. Assim, a produção pode ser utilizada tanto para autoconsumo (subsistência) quanto para troca. Tal troca pode se dar de forma mercantil, isto é, trocando-se, um item produzido no quintal por dinheiro (venda); ou de forma não mercantil, isto é, trocando-se um item produzido no quintal por outro item diferente, produzido por um terceiro.\n\nTais práticas econômicas ajudam a integrar as famílias produtoras – em especial as mulheres – em circuitos de trocas (mercantis ou não). Isso aprofunda laços de solidariedade entre vizinhos, ajuda a dinamizar a economia local e diversifica a produção de alimentos, com impactos positivos para a qualidade e segurança alimentar e nutricional e para o meio-ambiente.",
+    "b": "Como impactos de tornar os quintais produtivos uma política pública, podemos citar:\n• a conservação da sociobiodiversidade, pois os quintais (1) tendem a empregar práticas agroecológicas, reduzindo a utilização de agrotóxicos; (2) diversificam a produção de frutas, verduras, legumes, ervas medicinais; (3) e favorecem a criação de pequenos animais;\n• a ampliação da segurança alimentar e nutricional das famílias envolvidas diretamente na produção ou por elas favorecidas, em função (1) da diversificação apontada no item anterior; e (2) do aumento do cultivo de alimentos, sejam eles para autoconsumo ou subsistência, sejam eles para a comercialização das sobras;\n• a comercialização das sobras torna possível a geração ou incremento de renda da família, especialmente para mulheres que são os principais sujeitos da produção em quintais. Desse modo, os quintais também favorecem a autonomia de tais mulheres.\n\nTornar os quintais produtivos uma política pública, portanto, pode produzir um efeito mais amplo para a sociedade, impactando em diferentes esferas da vida social, tais como o fortalecimento da autonomia de mulheres do campo, das florestas e das águas; a redução da fome e da insegurança alimentar e nutricional entre tais populações; o fortalecimento de práticas locais e tradicionais de cultivo sustentável; a dinamização de economias locais e o incremento da renda de famílias que vivem da produção agrícola, da pesca ou do extrativismo"
+   }
+  },
+  "8": {
+   "itens": {
+    "a": "Espera-se que o candidato, ao ler o texto 1, compreenda que a decisão sobre o uso do conhecimento científico e técnico não deve ser deixada a cientistas e políticos profissionais. Mais precisamente, de acordo com Arendt, não são os cientistas e os políticos profissionais que devem decidir se desejamos que o novo conhecimento técnico e científico seja usado para destruir toda a vida orgânica na Terra, afinal essa é uma questão política de primeira grandeza.\n\nEspera-se ainda que o candidato relacione essa tese com o contexto de elaboração do texto 1. Como revela o enunciado, a filósofa o escreveu ainda sob o impacto da catástrofe humanitária causada pelo lançamento de bombas atômicas sobre Hiroshima e Nagazaki em 1945. Se a decisão sobre o uso da técnica e da ciência não deve ser tomada por cientistas e políticos profissionais, segundo o texto, é justamente porque a bomba de destruição em massa foi produzida por cientistas e lançada por determinação do governo norte-americano.",
+    "b": "Espera-se que o candidato, ao ler os textos 1 e 2, entenda que o conhecimento científico e técnico não pode ser divorciado do pensamento porque este nos torna capazes de distinguir o certo e o errado e, portanto, de julgar o usocorreto ou incorreto da técnica e da ciência. É fundamental que o candidato se baseie na definição de pensamento contida no texto 2 - “capacidade de distinguir o certo do errado, o belo do feio” - e seja capaz de explicitar que o pensamento, por ter uma dimensão reflexiva e ética, pode impedir catástrofes e também evitar que sejamos escravos da técnica e da ciência. Como sugere o texto 1, quando o conhecimento técnico e científico é divorciado do pensamento, ficamos à mercê da técnica porque perdemos a capacidade derefletir sobre os seus efeitos e avaliá-los criticamente."
+   },
+   "resposta": "**Objetivo da questão:** Em vista do conteúdo programático da disciplina de filosofia, o objetivo da questão era avaliar as capacidades dos candidatos e candidatas de 1. analisar os excertos filosóficos levando em consideração os contextos histórico e filosófico abordados na questão; 2. compreender, interpretar e relacionar os excertos elencados de forma crítica; 3. identificar as teses, conceitos e definições apresentadas, mobilizando-as na construção da resposta; e 4. construir respostas argumentativas e reflexivas.\n\nA questão mobiliza o tema das implicações políticas e éticas do uso do conhecimento técnico e científico quando não orientado pela capacidade de pensamento. É esta capacidade que nos possibilita distinguir o certo do errado e avaliar as dimensões éticas das ações. Neste caso, avaliar as dimensões éticas do uso das novas técnicas e dos novos conhecimentos. Um exemplo prático do uso do conhecimento técnico e científico apartado da capacidade de pensamento foi a criação e o lançamento das bombas atômicas sobre Hiroshima e Nagasaki em 1945. Contudo, o conhecimento adquirido na prova pode ser aplicado a toda a área que lide com a dimensão ética e política da produção e do uso de tecnologias.\n\nHá correlação com a área de História por utilizar um evento histórico como exemplar do problema abordado na questão."
+  },
+  "9": {
+   "itens": {
+    "a": "Durante o processo colonial, os povos indígenas foram continuamente violados física e simbolicamente, por meio da conversão à fé cristã e da inferiorização de seu sistema de crenças. Um desses modos foi a formação de aldeamentos com as missões jesuíticas, que trataram de propagar, por meio da educação, o culto às imagens cristãs, numa estrutura escolar baseada na escolástica. A catequese, assim, pode ser considerada um dos principais modos de conversão à fé cristã junto aos povos originários. Outro modo de conversão foi a política indigenista, com a fragmentação da população autóctone, o que levava à formação de povos aliados e inimigos aos portugueses, com contínuas práticas de subjugação política e militar. Nesse processo histórico, houve a destruição de tradições locais e expropriação de objetos e artefatos de valor ritual, como os mantos tupinambás citados no enunciado. Com isso, a descaracterização e dissolução dos traços culturais e de pertencimento étnico geraram o desaparecimento desses povos, ainda que seus herdeiros tenham passado a ser reconhecidos na atualidade, como afirmado no Texto 1. Outras formas de desaparecimento foram guerras de extermínio, tomada do território, escravização, conversão religiosa e a imposição da língua portuguesa.",
+    "b": "Os mantos tupinambás têm significado ritual, tendo sido usados por meio de sabedoria ancestral para momentos de grande importância das sociedades indígenas como enterros, assembleias e rituais religiosos. Como afirma o trecho do enunciado, os mantos não têm, para as comunidades indígenas na atualidade, apenas o aspecto artístico vinculado à tradição; antes, conjugam conexão com ancestralidade e luta pela existência simbólica e histórica. A política de repatriação, no caso do manto tupinambá que se encontra em Copenhague há três séculos, indica um processo de mobilização e de maior conscientização sobre os danos culturais, simbólicos e políticos causados pela expropriação de artefatos dos povos originários em contextos coloniais ou imperiais. Assim, a reivindicação de que esses itens retornem ao território de origem, com acompanhamento dos povos a eles relacionados, compõe uma política de memória e desejo de justiça histórica."
+   },
+   "resposta": "**Objetivo da questão:** Para a construção das respostas da questão 9, foram oferecidos aos candidatos dois textos publicados em revistas e portais de notícias de ampla divulgação: a Revista Piauí e o Portal G1. A proposta era disponibilizar aos candidatos o contexto do debate presente na imprensa, nas instituições de pesquisa, na diplomacia Brasileira, entre outros espaços, sobre a repatriação do Manto Tupinambá."
+  },
+  "10": {
+   "itens": {
+    "a": "O texto discute a vida de Erauso, que consegue vivenciar a virilidade e os papeis culturais masculinos no século XVII, sendo reconhecido por seus feitos de conquistas coloniais até mesmo pelo rei e recebendo autorização do Papa para viver sua identidade masculina. A aceitação dessa figura pela sociedade da época — inclusive pela Igreja Católica — mostra-se extraordinária. Vale destacar que tal aceitação se deve ao fato de que não havia disseminado na sociedade europeia, daquele contexto, um modelo normativo sobre as sexualidades tal qual reconhecido a partir da sociedade vitoriana (que dá origem à moralidade burguesa e reforça os binarismos de gênero). A ousadia da personagem — indo contra os ditames de instituições cujas práticas opressivas são conhecidas, como os conventos religiosos ou o exército — também é destacada.",
+    "b": "No século XVII, a Igreja e o Estado são instituições aliadas na formação do Absolutismo Monárquico na Espanha. A Instituição religiosa, assim, legitimava o poder real e era capaz de julgar e prescrever condutas sociais — como, por exemplo, em relação à sexualidade e ao gênero (lembremos das perseguições clericais e inquisitoriais às personagens que desviavam das prescrições religiosas). Outras funções que podemos citar e explicar são (i) o poder político — ao promover, inclusive financeira e ideologicamente, o processo de colonização —; (ii) e a expansão da fé cristã no Novo Mundo, como parte do projeto de dominação colonial."
+   },
+   "resposta": "**Objetivo da questão:** Inserido em um debate sobre a temática do gênero na Idade Moderna, a alternativa traz uma breve ponderação sobre Catalina de Erauso (1585-1650), que exerce nas Américas o papel de um soldado sanguinário e conquistador. Ao final de suas batalhas, recebe “do rei Felipe IV, por seu heroísmo, uma pensão alimentar e do Papa Urbano VIII uma dispensa e uma permissão para se vestir de homem pelo resto de sua vida”."
+  },
+  "11": {
+   "itens": {
+    "a": "O geólogo Eschwege, no início do século XIX, reconhece que o artefato bateia, usado na mineração no contexto colonial na América Portuguesa, é de origem africana, sendo uma técnica apropriada na colônia para maior efetividade no processo de extração do ouro. Essa e outras técnicas ligadas à cultura, à religiosidade e ao trabalho estavam presentes em terras brasileiras, comprovando que, a partir da diáspora africana dada pelo tráfico transatlântico, os povos escravizados ajudaram e contribuíram com práticas e inovação no desenvolvimento do país. São fatores desse processo, assim, a própria resistência e continuidade de práticas culturais ancestrais e a criação de novas relações culturais em uma sociedade impactada pela cultura africana.",
+    "b": "Nas áreas urbanas, o desenvolvimento econômico ligado à mineração fez com que surgissem espaços de trabalho ligados à especialização técnica como ourives, ferreiros, cutelaria, mas também arquitetura e escultura. Também houve o desenvolvimento de maior mobilidade social, por exemplo, e até mesmo possibilidades de associativismo negro que deram acesso à liberdade para sujeitos africanos ou de ancestralidade africana. Essa mobilidade social um pouco mais presente nas áreas urbanas — ligadas à possibilidade técnica de sujeitos africanos, como os da Costa da Mina — é uma diferença em relação à escravidão nas áreas rurais, por exemplo nas regiões monocultoras de açúcar. Também é possível destacar que os espaços de resistência foram diferentes nas áreas de mineração e nas áreas monocultoras, já que há consenso historiográfico de que uma maior liberdade de ação e acúmulo de renda permitiu um novo alcance de status social entre libertos no contexto urbano, sobretudo ligado ao ciclo de exploração do ouro. Eles puderam, por exemplo, criar irmandades e grupos para proteger seus interesses, assim como auxiliar na compra de alforrias."
+   },
+   "resposta": "**Objetivo da questão:** A questão 11 traz reflexões sobre a História do Brasil Colônia a partir dos trânsitos transatlânticos, das trocas culturais e dos artefatos."
+  },
+  "12": {
+   "itens": {
+    "a": "Antônio Bispo dos Santos alude em sua narrativa e reflexão históricas aos mecanismos de ação da colonização, formulando uma comparação com o processo de adestramento de bois, a saber: 1) a desterritorialização dos povos, como ocorrido com o tráfico transatlântico na escravidão moderna; 2) o distanciamento dos elementos culturais ligados ao sagrado, como nos processos de proibição dos cultos africanos no Brasil colonial, ou a tentativa de cristianização desses sujeitos, a exemplo das missões jesuíticas; 3) o estabelecimento do trabalho forçado que imprime outro modo de vida ao sujeito colonizado e escravizado e 4) o apagamento da memória, advindo de processos de despersonalização, desconexão com a família e sociedade de origem, assim como perda de conexão com a ancestralidade. O colonizado seria, portanto, adestrado como um animal, na tentativa de garantir sua docilidade frente ao colonizador. Como exemplo, o candidato poderia indicar a ação catequética da Igreja Católica durante o período colonial, a abolição da escravidão, em 1888, realizada de forma a manter o racismo e a desigualdade social no país, entre outros.",
+    "b": "No século XX, ocorreram diferentes movimentos históricos contrários ao processo de colonização. Pode-se citar, por exemplo no Brasil, a formação do Movimento Negro Unificado, fundado em 1978. Por meio de atividades como ativismo político, cultural e social, foram realizados atos públicos contrários ao racismo, organização de peças de teatro, oficinas, cursos e concursos de beleza que incentivaram a cultura de matriz africana e lutaram contra a colonização e apagamento da cultura negra brasileira. Os movimentos sociais indígenas que lutam pela representatividade política, opondo-se a séculos de práticas violentas contra diferentes etnias, também se configuram como reações de luta contra o colonialismo. Por fim, poderíamos citar o movimento quilombola contemporâneo, que, por meio da luta pela terra, expressa a resistência político-cultural que se confronta com as formas de apagamento da identidade negra e procura preservar a memória e o direito à existência desses grupos."
+   },
+   "resposta": "**Objetivo da questão:** A questão 12 traz as reflexões de Bispo dos Santos sobre o tema da colonização. Bispo dos Santos parte de diferentes saberes para relacionar o colonizar com atos de adestramento."
+  }
+ },
+ "complementos": {
+  "4": {
+   "assunto": "Estatística"
+  },
+  "5": {
+   "assunto": "Funções"
+  },
+  "6": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "7": {
+   "assunto": "Trabalho"
+  },
+  "8": {
+   "assunto": "Ética"
+  },
+  "9": {
+   "assunto": "Brasil Colônia"
+  },
+  "10": {
+   "assunto": "Idade Moderna (Europa)"
+  },
+  "11": {
+   "assunto": "Brasil Colônia"
+  },
+  "12": {
+   "assunto": "Brasil Colônia"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 4,
+   "status": "corrigida",
+   "notas": "Enunciado, gráfico (valores conferidos ponto a ponto) e resposta fiéis. Faltava o Objetivo da questão em resposta; acrescentado da prova comentada."
+  },
+  {
+   "numero": 5,
+   "status": "corrigida",
+   "notas": "Enunciado fiel. O documento de respostas escreve b = 3 no item b, mas o caderno diz b = -3 (erro da banca, também na prova comentada); resposta mantida como publicada. Acrescentado o Objetivo."
+  },
+  {
+   "numero": 6,
+   "status": "corrigida",
+   "notas": "Enunciado fiel. Acrescentado o Objetivo."
+  },
+  {
+   "numero": 7,
+   "status": "corrigida",
+   "notas": "O parágrafo introdutório das respostas esperadas estava rotulado como Objetivo; agora vem depois do Objetivo real (prova comentada, sem a lista de conceitos nem o comentário de desempenho)."
+  },
+  {
+   "numero": 8,
+   "status": "corrigida",
+   "notas": "Enunciado e resposta fiéis (Nagazaki, usocorreto e derefletir mantidos como no original). Acrescentado o Objetivo (sem os itens programáticos); a prova comentada escreve Nagasaki."
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "Enunciado e resposta fiéis (erros de grafia do original mantidos). Acrescentado o Objetivo."
+  },
+  {
+   "numero": 10,
+   "status": "corrigida",
+   "notas": "Enunciado e resposta fiéis. Acrescentado o Objetivo."
+  },
+  {
+   "numero": 11,
+   "status": "corrigida",
+   "notas": "Enunciado, figura e legenda conferidos; resposta fiel. Acrescentado o Objetivo."
+  },
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "Enunciado e resposta fiéis. Acrescentado o Objetivo."
+  }
+ ]
+}
