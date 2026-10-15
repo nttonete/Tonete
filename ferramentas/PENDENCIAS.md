@@ -47,6 +47,10 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2023-2-cet q20: as respostas esperadas dizem "Kow deve ser baixo (o que significa maior hidrofobicidade)", o que contradiz a definição e a própria prova comentada (r49), que está coerente. Decidir se troca pela versão da comentada.
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
+### Discursivas: trecho curto de poema protegido mantido
+
+- unicamp-2022-2-d1 q7: um post de Chico César reproduz um poema curto (duas frases) de Titá Moura; a questão depende dele e foi mantida. Se a regra de poema protegido valer também para trechos assim, a questão sai.
+
 ## Para conferência de quem conhece a obra
 
 - fuvest-2018-1 q80: a resolução cita uma estória contada em "O burrinho pedrês" (Sagarana); o revisor não tinha o livro para conferir quem conta o quê.
