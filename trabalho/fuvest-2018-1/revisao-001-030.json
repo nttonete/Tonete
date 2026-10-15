@@ -114,7 +114,7 @@
   },
   "19": {
    "assunto": "Química orgânica",
-   "resolucao": "Siga as pistas dos testes.\n\nTeste II: o sólido branco reage com etanol e forma benzoato de etila, um éster. Então o sólido é o ácido benzoico ($\\text{C}_6\\text{H}_5\\text{COOH}$), que também explica o pH = 4 e a solubilidade só em água quente (teste I).\n\nTeste I: o ácido benzoico veio da oxidação do Composto Alfa por um oxidante forte. Um álcool primário oxida a ácido carboxílico; a solução neutra descarta o fenol (cresol, alternativa D, que é ácido fraco). Logo o composto é o álcool benzílico, $\\text{C}_6\\text{H}_5\\text{CH}_2\\text{OH}$, que tem a fórmula $\\text{C}_7\\text{H}_8\\text{O}$ do rótulo.\n\nO éter da alternativa E tem a mesma fórmula, mas não se oxida a ácido benzoico.\n\n**Resposta: B**"
+   "resolucao": "Siga as pistas dos testes.\n\nTeste II: o sólido branco reage com etanol e forma benzoato de etila, um éster. Então o sólido é o ácido benzoico ($\\text{C}_6\\text{H}_5\\text{COOH}$), o que também explica o pH = 4 e a solubilidade só em água quente (teste I).\n\nTeste I: o ácido benzoico veio da oxidação do Composto Alfa. Álcool primário oxida a ácido carboxílico, e o grupo $-\\text{CH}_2\\text{OH}$ ligado ao anel vira $-\\text{COOH}$. Logo o composto é o álcool benzílico, $\\text{C}_6\\text{H}_5\\text{CH}_2\\text{OH}$, com a fórmula $\\text{C}_7\\text{H}_8\\text{O}$ do rótulo e solução neutra.\n\nO cresol (D) tem a mesma fórmula, mas é um fenol (levemente ácido) e, oxidado, manteria o OH no anel, sem dar benzoato de etila. O éter da E não se oxida a ácido benzoico.\n\n**Resposta: B**"
   },
   "20": {
    "assunto": "Propriedades e estados da matéria",
@@ -142,7 +142,7 @@
   },
   "26": {
    "assunto": "Combinatória e probabilidade",
-   "resolucao": "Conte todos os trios de pontos e tire os que estão alinhados (não formam triângulo).\n\nTotal de trios: $C_{12,3} = \\frac{12 \\cdot 11 \\cdot 10}{6} = 220$.\n\nNa figura, dois segmentos têm 4 pontos cada e os outros dois têm 2 pontos cada. Trios alinhados só aparecem em um mesmo segmento: $C_{4,3} = 4$ em cada segmento de 4 pontos, e nenhum nos de 2 pontos.\n\nTriângulos: $220 - 2 \\times 4 = 212$.\n\nO enunciado garante que pontos de segmentos diferentes nunca estão alinhados, por isso não há outros casos a descontar.\n\n**Resposta: D**"
+   "resolucao": "Conte todos os trios de pontos e tire os que estão alinhados (não formam triângulo).\n\nTotal de trios: $C_{12,3} = \\frac{12 \\cdot 11 \\cdot 10}{6} = 220$.\n\nNa figura, dois segmentos têm 4 pontos cada e os outros dois têm 2 pontos cada. Os trios alinhados estão todos em um mesmo segmento: $C_{4,3} = 4$ em cada segmento de 4 pontos, e nenhum nos de 2 pontos.\n\nTriângulos: $220 - 2 \\times 4 = 212$.\n\nPontos de segmentos diferentes não ficam alinhados: o enunciado garante isso para três segmentos distintos, e a figura mostra que nenhum ponto está no prolongamento de outro segmento.\n\n**Resposta: D**"
   },
   "27": {
    "assunto": "Lógica e conjuntos",
