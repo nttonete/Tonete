@@ -1,0 +1,205 @@
+{
+ "edicao": "unicamp-2017-1",
+ "intervalo": [
+  1,
+  30
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 2,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Tirinha de Fernando Gonsales, Níquel Náusea, em dois quadrinhos. No primeiro, uma abelha em cima de uma pedra diz: “ABELHAS TRABALHADORAS DO MUNDO!!”. No segundo, a abelha diz “ZUNÍ-VOS” diante de uma enorme multidão de abelhas, sobre a qual aparece a onomatopeia “ZZZZZZZ”.](fig:p03-c1)\n\n(Fernando Gonsales, *Níquel Náusea*. Disponível em http://www2.uol.com.br/niquel. Acessado em 15/07/2016.)\n\nNa tira acima, o autor retoma um célebre lema retirado do *Manifesto Comunista* (1848), de Karl Marx e Friedrich Engels: “Operários do mundo, uni-vos!”.\n\nConsiderando os sentidos produzidos pela tirinha, é correto afirmar que nela se lê",
+   "alternativas": {
+    "A": "uma apologia ao *Manifesto Comunista*, atenuada pela onomatopeia que imita o som (“zzzzzz”) das abelhas.",
+    "B": "uma paródia do lema do *Manifesto Comunista*, baseada na semelhança fonética entre “uni-vos” e “zuni-vos”.",
+    "C": "uma parábola para explicar o *Manifesto Comunista* por meio da semelhança fonética entre “uni-vos” e “zuni-vos”.",
+    "D": "uma fábula que recria o lema do *Manifesto Comunista*, com base na linguagem onomatopaica das abelhas (“zzzzzz”)."
+   }
+  },
+  {
+   "numero": 18,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere o quadrado de lado $a > 0$ exibido na figura abaixo. Seja $A(x)$ a função que associa a cada $0 \\leq x \\leq a$ a área da região indicada pela cor cinza.\n\n![Quadrado de lado a. No lado superior, um trecho de comprimento x termina no canto superior direito; no lado direito, outro trecho de comprimento x começa nesse mesmo canto. Dois segmentos ligam o vértice inferior esquerdo às extremidades desses trechos que não ficam no canto. A região cinza é o quadrilátero limitado por esses dois segmentos e pelos dois trechos de comprimento x.](fig:p07-c2)\n\nO gráfico da função $y = A(x)$ no plano cartesiano é dado por",
+   "alternativas": {
+    "A": "![Alternativa A: gráfico de y em função de x, de curva crescente que parte da origem e termina no ponto (a, a²), com concavidade para cima no início e para baixo no fim](fig:p07-f3)",
+    "B": "![Alternativa B: gráfico de y em função de x, de curva crescente que parte da origem e termina no ponto (a, a²), com concavidade para baixo](fig:p07-f4)",
+    "C": "![Alternativa C: gráfico de y em função de x, de curva crescente que parte da origem e termina no ponto (a, a²), com concavidade para cima](fig:p07-f5)",
+    "D": "![Alternativa D: gráfico de y em função de x, de reta que parte da origem e termina no ponto (a, a²)](fig:p07-f6)"
+   }
+  },
+  {
+   "numero": 28,
+   "materia": "matematica",
+   "materias_extra": [
+    "portugues",
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "Observe a tirinha abaixo.\n\n![Tirinha em dois quadros. Primeiro quadro: balão “I hate this,” e o número 854917632. Segundo quadro: balão “Why does the teacher always make us line up in alphabetical order?” e o número 854917632.](fig:p09-c1)\n\n(Fonte: http://www.iowamath.org/resources/cartoons/.)\n\nNa língua portuguesa, a ordem dos algarismos de acordo com o comentário do “5” seria",
+   "alternativas": {
+    "A": "1 2 3 4 5 6 7 8 9.",
+    "B": "5 2 9 8 4 6 7 3 1.",
+    "C": "2 3 6 7 1 9 4 5 8.",
+    "D": "1 3 7 6 4 8 9 2 5."
+   }
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 2,
+   "status": "corrigida",
+   "notas": "descrição da tirinha dizia que a abelha fala diante de uma 'multidão de formigas'; na imagem a multidão é de abelhas (mesma cabeça preta e asas da abelha que fala). Descrição corrigida."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Fonte impressa 'Roseli Salete Galdart' (o nome da autora é Caldart); mantido como no caderno."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "Alternativa C cita “Há a lei da Gravidade.” com 'lei' minúsculo, diferente do balão ('Lei'); mantido como no caderno."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 18,
+   "status": "corrigida",
+   "notas": "descrição da figura era ambígua ('a região entre esses dois segmentos'); reescrita para deixar claro que a região cinza é o quadrilátero vértice inferior esquerdo, extremidade no lado superior, canto superior direito, extremidade no lado direito."
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 22,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 23,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 24,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 25,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 26,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 27,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 28,
+   "status": "corrigida",
+   "notas": "matérias extras: acrescentado 'ingles', pois é preciso entender a fala em inglês ('line up in alphabetical order') para saber o critério de ordenação."
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 30,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}

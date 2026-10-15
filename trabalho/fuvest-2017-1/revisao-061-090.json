@@ -1,0 +1,283 @@
+{
+ "edicao": "fuvest-2017-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "complementos": {
+  "61": {
+   "assunto": "Magnetismo",
+   "resolucao": "Cada fio cria no centro um campo de mesmo módulo, perpendicular à diagonal que liga o fio ao centro (regra da mão direita).\nDois fios em vértices opostos (mesma diagonal) com correntes no **mesmo** sentido criam campos opostos no centro, que se anulam; com correntes em sentidos **contrários**, os campos se somam.\nAssim, o campo total só é nulo se, nas duas diagonais, os fios tiverem correntes de mesmo sentido.\nI: na diagonal sup. esquerdo–inf. direito há ⊗ e ⊙, os campos se somam. IV: mesma situação. II: as diagonais têm ⊙–⊙ e ⊗–⊗, campo nulo. III: todos ⊗, campo nulo.\n\n**Resposta: D**"
+  },
+  "62": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "A potência máxima entregue pelo carregador é a da saída DC (a tensão da rede não entra na conta): $P = U \\cdot i = 5\\ \\text{V} \\times 1{,}3\\ \\text{A} = 6{,}5\\ \\text{W}$.\nA carga armazenada vem da capacidade da bateria: $1650\\ \\text{mAh} = 1{,}65\\ \\text{A} \\times 3600\\ \\text{s} = 5940\\ \\text{C}$.\nA distratora com 25,4 W usa $127 \\times 0{,}2$, que é a potência de entrada e não a que o carregador fornece; 21960 C sairia de usar 6,1 Wh como se fosse carga.\n\n**Resposta: D**"
+  },
+  "63": {
+   "assunto": "Ondulatória",
+   "resolucao": "Pelo gráfico, a linha cheia corta o eixo em $x = -3, -1, 1, 3$: o comprimento de onda é $\\lambda = 4\\ \\text{m}$.\nA crista da linha cheia está em $x = 0$ e a da tracejada em $x = 1\\ \\text{m}$. Como a onda anda no sentido positivo, em $\\Delta t = 7 - 3 = 4\\ \\text{s}$ ela pode ter avançado $1\\ \\text{m}$, ou $1 + 4 = 5\\ \\text{m}$, ou $1 + 4n$ metros.\nLogo $v = \\frac{1 + 4n}{4}$: $0{,}25\\ \\text{m/s}$, $1{,}25\\ \\text{m/s}$, $2{,}25\\ \\text{m/s}$...\nEntre as alternativas, só $0{,}25\\ \\text{m/s}$ é possível ($n = 0$).\n\n**Resposta: B**"
+  },
+  "64": {
+   "assunto": "Física moderna",
+   "resolucao": "Divida as leis de decaimento dos dois isótopos: a razão $R = \\frac{M_{235}}{M_{238}}$ obedece a $R(t) = R(0)\\,10^{-(\\lambda_{235} - \\lambda_{238})t}$.\nNa época do reator $R = 3\\%$; hoje $R = 0{,}7\\%$. Então $\\frac{0{,}7}{3} \\approx 0{,}23 = 10^{-(4{,}0 - 0{,}8) \\times 10^{-10}\\,t}$.\nUsando $\\log_{10} 0{,}23 \\approx -0{,}64$: $3{,}2 \\times 10^{-10}\\,t = 0{,}64$, logo $t = 2{,}0 \\times 10^{9}$ anos.\n\n**Resposta: C**"
+  },
+  "65": {
+   "assunto": "Óptica",
+   "resolucao": "A onda entra perpendicularmente à face vertical do bloco e não desvia. Ela chega à face inclinada, que forma $25^\\circ$ com a vertical; por isso a normal dessa face forma $25^\\circ$ com o raio: o ângulo de incidência dentro do bloco é $25^\\circ$.\nAo sair, o raio se afasta da normal e desvia $15^\\circ$ da direção original: o ângulo de refração no ar é $25^\\circ + 15^\\circ = 40^\\circ$.\nLei de Snell: $n \\operatorname{sen} 25^\\circ = 1{,}0 \\cdot \\operatorname{sen} 40^\\circ \\Rightarrow n = \\frac{0{,}6}{0{,}4} = 1{,}5$.\n\n**Resposta: B**"
+  },
+  "66": {
+   "assunto": "Termologia",
+   "resolucao": "Calor sensível absorvido pela água: $Q = m c \\Delta T = 1{,}30 \\times 1 \\times 100 = 130\\ \\text{cal}$.\nEm joules: $Q = 130 \\times 4 = 520\\ \\text{J}$.\nPotência média em uma hora: $P = \\frac{520\\ \\text{J}}{3600\\ \\text{s}} \\approx 0{,}14\\ \\text{W}$.\n\n**Resposta: C**"
+  },
+  "67": {
+   "assunto": "Eletrostática",
+   "resolucao": "A carga que passa na faísca é $Q = i \\cdot \\Delta t = 10^{-11} \\times 0{,}5 = 5{,}0 \\times 10^{-12}\\ \\text{C}$, exatamente a carga que X tinha. Logo X fica neutro.\nOs elétrons que chegam a Y escoam para a Terra, porque Y está ligado a ela; assim Y continua com carga total zero.\nA distratora B esquece o aterramento: sem ele, Y ficaria com $-5{,}0 \\times 10^{-12}\\ \\text{C}$.\n\n**Resposta: A**"
+  },
+  "68": {
+   "assunto": "Física moderna",
+   "resolucao": "A energia para quebrar a ligação é a profundidade do poço do gráfico de $U(r)$: o mínimo está em cerca de $-6 \\times 10^{-19}\\ \\text{J}$, e é preciso levar a energia até 0 (átomo afastado).\nLogo $E \\approx 6 \\times 10^{-19}\\ \\text{J}$ por fóton.\n$f = \\frac{E}{h} = \\frac{6 \\times 10^{-19}}{6 \\times 10^{-34}} = 1 \\times 10^{15}\\ \\text{Hz}$.\n\n**Resposta: A**"
+  },
+  "69": {
+   "assunto": "Química ambiental",
+   "resolucao": "Procure a faixa de pH em que nenhum dos elementos sofre transformação que dificulta a absorção.\nFósforo: problema entre 4 e 6 (fosfatos de ferro e alumínio) e acima de 8 (fosfatos de cálcio). Nitrogênio: problema entre 4 e 6. Zinco: problema a partir de 7 (hidróxidos). Magnésio: problema só acima de cerca de 8,7 (carbonatos).\nA faixa livre comum a todos é entre 6 e 7.\n\n**Resposta: C**"
+  },
+  "70": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Somando as três etapas (cada uma com 2 Fe), os íons $\\text{Fe}^{2+}$ e $\\text{Fe}^{3+}$ se cancelam e sobra a equação global:\n$2\\,\\text{FeS}_2 + \\tfrac{15}{2}\\,\\text{O}_2 + 7\\,\\text{H}_2\\text{O} \\rightarrow 2\\,\\text{Fe(OH)}_3 + 4\\,\\text{SO}_4^{2-} + 8\\,\\text{H}^+$\n(O₂: $7 + \\tfrac{1}{2}$; H⁺: $4 - 2 + 6 = 8$; H₂O: $2 + 6 - 1 = 7$.)\nRazão $\\text{FeS}_2 : \\text{O}_2 = 2 : \\tfrac{15}{2} = \\tfrac{4}{15}$. Como o processo libera $\\text{H}^+$, o solo fica mais ácido e o pH diminui.\n\n**Resposta: D**"
+  },
+  "71": {
+   "assunto": "Eletroquímica",
+   "resolucao": "Pela tabela, o Zn forma sólido nas soluções de Pb²⁺ e de Fe²⁺ (desloca os dois), e o Fe forma sólido na de Pb²⁺. A ordem de reatividade é Zn > Fe > Pb.\nNas pilhas, o cobre é sempre o cátodo; quanto mais reativo (mais fácil de oxidar) for o metal X no ânodo, maior a diferença de potencial.\nEntão Zn dá a maior fem (1,07 V), Fe a intermediária (0,75 V) e Pb a menor (0,44 V).\n\n**Resposta: A**"
+  },
+  "72": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "No sistema aberto, a perda de massa é o $\\text{CO}_2$ que escapa: $110{,}00 - 109{,}38 = 0{,}62\\ \\text{g}$; $110{,}00 - 109{,}12 = 0{,}88\\ \\text{g}$; $110{,}00 - 108{,}90 = 1{,}10\\ \\text{g}$.\nConvertendo para volume ($V = \\frac{m}{44} \\times 24$):\n$0{,}62 \\to 0{,}014\\ \\text{mol} \\to 0{,}34\\ \\text{L}$; $0{,}88 \\to 0{,}020\\ \\text{mol} \\to 0{,}48\\ \\text{L}$; $1{,}10 \\to 0{,}025\\ \\text{mol} \\to 0{,}60\\ \\text{L}$.\nA alternativa E traz as massas perdidas em gramas, e não os volumes.\n\n**Resposta: C**"
+  },
+  "73": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Há $250 \\times 0{,}20 = 50\\ \\text{L}$ de $\\text{O}_2$ para $50\\ \\text{L}$ de propano.\nII: a combustão completa $\\text{C}_3\\text{H}_8 + 5\\,\\text{O}_2 \\rightarrow 3\\,\\text{CO}_2 + 4\\,\\text{H}_2\\text{O}$ exige $250\\ \\text{L}$ de $\\text{O}_2$, ou seja, $1250\\ \\text{L}$ de ar, e não 750 L. Falsa.\nI: mesmo a combustão mais incompleta ($\\text{C}_3\\text{H}_8 + 2\\,\\text{O}_2 \\rightarrow 3\\,\\text{C} + 4\\,\\text{H}_2\\text{O}$) precisaria de $100\\ \\text{L}$ de $\\text{O}_2$; com só 50 L, sobra propano. Verdadeira.\nIII: com tanta falta de oxigênio, a formação de carbono (fuligem) é provável. Verdadeira.\n\n**Resposta: D**"
+  },
+  "74": {
+   "assunto": "Ligações e interações",
+   "resolucao": "O grupo R fica exposto na superfície do vidro tratado. Para repelir a água, essa superfície deve ser apolar (hidrofóbica), sem grupos que façam ligações de hidrogênio com a água.\nAs alternativas A, B, C e D trazem grupos polares em R: –OH, –NH₂ ou –COOH, que atraem a água.\nA alternativa E traz uma longa cadeia de hidrocarboneto, $\\text{CH}_2(\\text{CH}_2)_{10}\\text{CH}_3$, apolar, que forma a película repelente.\n\n**Resposta: E**"
+  },
+  "75": {
+   "assunto": "Termoquímica",
+   "resolucao": "$\\Delta H = $ (energia para romper as ligações dos reagentes) $-$ (energia liberada ao formar as ligações dos produtos).\n$\\text{H}_2 + \\text{F}_2 \\rightarrow 2\\,\\text{HF}$: $\\Delta H = 435 + 160 - 2 \\times 570 = -545\\ \\text{kJ}$.\n$\\text{H}_2 + \\text{C}\\ell_2 \\rightarrow 2\\,\\text{HC}\\ell$: $\\Delta H = 435 + 245 - 2 \\times 430 = -180\\ \\text{kJ}$.\nAs duas reações são exotérmicas, e a formação de HF libera mais energia.\n\n**Resposta: A**"
+  },
+  "76": {
+   "assunto": "Eletroquímica",
+   "resolucao": "Cada mol de $\\text{H}_2$ consumido libera 240 kJ. Para 4,80 kJ: $n_{\\text{H}_2} = \\frac{4{,}80}{240} = 0{,}020\\ \\text{mol}$.\nNa oxidação $\\text{H}_2 \\rightarrow 2\\,\\text{H}^+ + 2\\,e^-$, cada mol de $\\text{H}_2$ fornece 2 mol de elétrons: $0{,}040\\ \\text{mol}$ de $e^-$.\nCarga: $Q = 0{,}040 \\times 96\\,500 = 3860\\ \\text{C}$. Em 10 min = 600 s: $i = \\frac{3860}{600} \\approx 6{,}43\\ \\text{A}$.\nQuem esquece o fator 2 dos elétrons chega a 3,32 A (alternativa A).\n\n**Resposta: B**"
+  },
+  "77": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "I: em 30 mmHg, a curva da hemoglobina fetal está acima da do adulto (maior saturação), então ela carrega mais oxigênio. Correta.\nII: na altitude, a $\\text{pO}_2$ é menor e o equilíbrio se desloca para a esquerda, reduzindo $[\\text{Hb(O}_2)_n]$. Com o tempo, o organismo produz mais hemoglobina (mais hemácias); o aumento de [Hb] desloca o equilíbrio para a direita e recompõe $[\\text{Hb(O}_2)_n]$. Correta.\nIII: como a $\\text{pO}_2$ é maior no pulmão, a saturação da hemoglobina é maior lá do que nos tecidos. Incorreta.\n\n**Resposta: C**"
+  },
+  "78": {
+   "assunto": "Química orgânica",
+   "resolucao": "Descarboxilação é a perda do grupo carboxila (–COOH) na forma de $\\text{CO}_2$. O restante da L-Dopa não muda: anel com duas hidroxilas vizinhas (catecol) e a cadeia lateral com o grupo –NH₂.\nTrocando –CH₂–CH(NH₂)–COOH por –CH₂–CH₂–NH₂, obtém-se a estrutura da alternativa E.\nA alternativa A tem só uma hidroxila no anel e mantém a carboxila; a D troca a carboxila por aldeído, sem perder carbono.\n\n**Resposta: E**"
+  },
+  "79": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "I: falsa. O fermento químico não reage com os carboidratos; ele libera $\\text{CO}_2$ por decomposição (ou reação com ácidos), independentemente do açúcar.\nII: correta. $2\\,\\text{NaHCO}_3 \\xrightarrow{\\Delta} \\text{Na}_2\\text{CO}_3 + \\text{H}_2\\text{O} + \\text{CO}_2$.\nIII: correta. As leveduras fermentam os carboidratos e produzem etanol e $\\text{CO}_2$.\nIV: falsa. As leveduras são seres vivos e agem em temperatura ambiente (por isso a massa cresce antes de ir ao forno); 200 °C as mataria.\n\n**Resposta: B**"
+  },
+  "80": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Some os divisores positivos de cada número.\n8: $1+2+4+8 = 15$; 9: $1+3+9 = 13$; 11: $12$; 10: $18$; 12: $28$; 15: $24$; 20: $42$.\n16: $1+2+4+8+16 = 31$; 25: $1+5+25 = 31$.\nSó 16 e 25 têm a mesma soma.\n\n**Resposta: E**"
+  },
+  "81": {
+   "assunto": "Geometria espacial",
+   "resolucao": "Ponha A na origem: $B = (4,0,0)$, $D = (0,2,0)$, $E = (0,0,2)$. Então $F = (4,0,2)$ e $H = (0,2,2)$.\n$\\vec{AH} = (0,2,2)$, $|\\vec{AH}| = 2\\sqrt{2}$; $\\vec{AF} = (4,0,2)$, $|\\vec{AF}| = 2\\sqrt{5}$.\n$\\cos H\\hat{A}F = \\frac{\\vec{AH} \\cdot \\vec{AF}}{|\\vec{AH}|\\,|\\vec{AF}|} = \\frac{4}{2\\sqrt{2} \\cdot 2\\sqrt{5}} = \\frac{1}{\\sqrt{10}}$.\n$\\operatorname{sen} H\\hat{A}F = \\sqrt{1 - \\frac{1}{10}} = \\frac{3}{\\sqrt{10}}$.\n\n**Resposta: E**"
+  },
+  "82": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Preço por caneta: loja A $\\frac{40}{12} \\approx 3{,}33$; loja B $\\frac{7{,}60}{2} = 3{,}80$; loja C $3{,}20$. Mas A só vende dúzias, então é preciso testar.\nComprando as 2 dúzias de A (R\\$ 80,00, 24 canetas), sobram R\\$ 70,00: em C cabem 21 canetas (R\\$ 67,20). Total: 45 canetas.\nCom 1 dúzia: 12 canetas + 25 de C (R\\$ 80,00) e, com os R\\$ 30,00 restantes, 3 pares de B: $12 + 25 + 6 = 43$. Sem A: 25 de C + 9 pares de B = 43.\nTrocar canetas de C por pares de B só encarece, e com 2 dúzias a 22ª caneta de C já passaria de R\\$ 150,00. O máximo é 45.\n\n**Resposta: B**"
+  },
+  "83": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Há $4! = 24$ maneiras igualmente prováveis de distribuir os papéis.\nOs casos em que ninguém tira o próprio nome são as permutações caóticas (desarranjos) de 4 elementos:\n$D_4 = 4!\\left(1 - \\frac{1}{1!} + \\frac{1}{2!} - \\frac{1}{3!} + \\frac{1}{4!}\\right) = 24 - 24 + 12 - 4 + 1 = 9$.\nProbabilidade: $\\frac{9}{24} = \\frac{3}{8}$.\n\n**Resposta: D**"
+  },
+  "84": {
+   "assunto": "Funções",
+   "resolucao": "Use coordenadas: $A = (0,0)$, $B = (3,0)$, $C = (3,4)$, $D = (0,4)$, $P = (3,1)$. A reta $DP$ é $y = 4 - x$, logo $Q = (x,\\ 4 - x)$.\nRetângulo $ARQT$: $x(4 - x)$. Triângulo $CQP$: base $CP = 3$ e altura $3 - x$, área $\\frac{3(3 - x)}{2}$. Triângulo $DQS$: catetos $DS = x$ e $SQ = x$, área $\\frac{x^2}{2}$.\nSoma: $S(x) = 4x - x^2 + \\frac{9 - 3x}{2} + \\frac{x^2}{2} = -\\frac{x^2}{2} + \\frac{5x}{2} + \\frac{9}{2}$.\nO máximo está no vértice, $x = \\frac{5}{2}$ (dentro de $]0{,}3[$): $S = -\\frac{25}{8} + \\frac{25}{4} + \\frac{9}{2} = \\frac{61}{8}$.\n\n**Resposta: A**"
+  },
+  "85": {
+   "assunto": "Geometria plana",
+   "resolucao": "Com $A = (0,0)$, $B = (4,0)$, $C = (4,2)$, $D = (0,2)$: $M = (4,1)$ e $N = (2,2)$. A reta $BN$ é $x + y = 4$.\n$AM$: $y = \\frac{x}{4}$. Cruzando com $BN$: $E = \\left(\\frac{16}{5}, \\frac{4}{5}\\right)$.\n$AC$: $y = \\frac{x}{2}$. Cruzando com $BN$: $F = \\left(\\frac{8}{3}, \\frac{4}{3}\\right)$.\nÁrea de $AEF$ (A na origem): $\\frac{1}{2}\\left|\\frac{16}{5} \\cdot \\frac{4}{3} - \\frac{8}{3} \\cdot \\frac{4}{5}\\right| = \\frac{1}{2} \\cdot \\frac{32}{15} = \\frac{16}{15}$.\n\n**Resposta: D**"
+  },
+  "86": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Calcule as composições em $x = 2$.\n$g(2) = 1 + \\log_{\\frac{1}{2}} 2 = 1 - 1 = 0$, então $f(g(2)) = f(0) = 4$.\n$f(2) = 2^2 + 4 = 8$, então $g(f(2)) = g(8) = 1 + \\log_{\\frac{1}{2}} 8 = 1 - 3 = -2$.\n$h(2) = 3 \\cdot 4 + 2 \\cdot (-2) = 12 - 4 = 8$.\n\n**Resposta: B**"
+  },
+  "87": {
+   "assunto": "Números complexos",
+   "resolucao": "A soma dos coeficientes é $1 - 3 + 7 - 5 = 0$, então $x = 1$ é raiz.\nDividindo: $P(x) = (x - 1)(x^2 - 2x + 5)$, cujas raízes complexas são $1 \\pm 2i$. Logo $\\xi = 1 + 2i$.\n$\\xi^2 = 1 + 4i + 4i^2 = -3 + 4i$; $\\xi^3 = (-3 + 4i)(1 + 2i) = -3 - 6i + 4i + 8i^2 = -11 - 2i$.\nA parte real de $\\xi^3$ é $-11$.\n\n**Resposta: A**"
+  },
+  "88": {
+   "assunto": "Geometria espacial",
+   "resolucao": "O cone está com a base no chão e o vértice para cima, então a água forma um tronco de cone. Volume total: $V = \\frac{1}{3}\\pi \\cdot 4^2 \\cdot 12 = 64\\pi \\approx 200{,}96\\ \\text{m}^3$.\nNa metade da altura, a parte sem água é um cone semelhante de razão $\\frac{1}{2}$, com volume $\\frac{1}{8}V$. A água ocupa $\\frac{7}{8}V \\approx 175{,}84\\ \\text{m}^3 = 175\\,840\\ \\text{L}$.\nTempo: $\\frac{175\\,840}{500} \\approx 351{,}7\\ \\text{min} \\approx 5\\ \\text{h}\\ 52\\ \\text{min}$, mais próximo de 5 h 50 min.\nQuem imagina o cone com o vértice para baixo calcula só $\\frac{1}{8}V$ e erra.\n\n**Resposta: C**"
+  },
+  "89": {
+   "assunto": "Geometria analítica",
+   "resolucao": "Tangentes aos dois eixos no 1º quadrante, as circunferências têm centros $(1,1)$ e $(2,2)$:\n$x^2 + y^2 - 2x - 2y + 1 = 0$ e $x^2 + y^2 - 4x - 4y + 4 = 0$.\nSubtraindo uma da outra: $2x + 2y - 3 = 0$, ou seja, os pontos de interseção satisfazem $x + y = \\frac{3}{2}$.\nLogo $(x_1 + y_1)^2 + (x_2 + y_2)^2 = \\frac{9}{4} + \\frac{9}{4} = \\frac{9}{2}$.\n\n**Resposta: C**"
+  },
+  "90": {
+   "assunto": "Trigonometria",
+   "resolucao": "Com temperatura constante, $pV$ é constante (lei de Boyle): a pressão é máxima quando o volume é mínimo.\nComo $\\log_2$ é crescente, $V(t)$ é mínimo quando $5 + 2\\operatorname{sen}(\\pi t)$ é mínimo, isto é, quando $\\operatorname{sen}(\\pi t) = -1$.\nNo intervalo $[0, 2]$: $\\pi t = \\frac{3\\pi}{2}$, logo $t = 1{,}5$.\nA distratora $t = 0{,}5$ é o instante de volume máximo, ou seja, de pressão mínima.\n\n**Resposta: D**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": "Transcrição conferida. Alternativas em tabela no caderno, transcritas como “Pb: ...; Zn: ...; Fe: ...”, na mesma ordem das linhas a)–e); conferido valor por valor."
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": "Alternativas em imagem (p25-c7 a p25-c11), conferidas uma a uma com o quadro do caderno; ordem a)–e) correta."
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
