@@ -1,0 +1,455 @@
+{
+ "edicao": "unesp-2019-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {
+  "t70-71": "Para responder às questões **70** e **71**, analise as fórmulas estruturais de bases nitrogenadas que compõem o DNA e os símbolos empregados para representá-las.\n\n![fórmulas estruturais das bases nitrogenadas adenina (A), guanina (G), citosina (C) e timina (T)](fig:p26-c1)",
+  "t72-73": "Leia o texto para responder às questões **72** e **73**.\n\n![fotografia de um avião Boeing 737-800 em voo, acima das nuvens](fig:p27-f1)\n\nTomando como base um Boeing 737-800, seus tanques de combustível podem comportar até 21 t (21 toneladas) de querosene de aviação (QAV).\n\nO consumo do QAV tem como principal variável o peso total da aeronave. Além disso, altitude, velocidade e temperatura também influenciam na conta. Quanto mais longo o percurso, mais eficiente a aeronave será, pois o consumo do QAV em altitude é muito menor, devido à atmosfera mais rarefeita, que causa menos resistência ao avanço e, ao mesmo tempo em que ocorre o consumo, reduz-se o peso da aeronave.\n\nEm voo de cruzeiro (quando o avião alcança a velocidade e altitude ideais) o consumo de QAV é de aproximadamente 2 200 kg/h. A fase do voo com maior consumo de combustível é a subida, pois a aeronave precisa de muita força para decolar e ganhar altitude. O consumo de QAV chega a ser o dobro, se comparado ao voo de cruzeiro. Já na descida, o consumo é menor, chegando a ser 1/3 em comparação ao voo de cruzeiro.\n\n(www.agenciaabear.com.br. Adaptado.)"
+ },
+ "questoes_corrigidas": [
+  {
+   "numero": 66,
+   "materia": "biologia",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "A configuração anatômica do sistema circulatório humano apresenta, por analogia com os circuitos elétricos, estruturas posicionadas em série e em paralelo, o que permite a identificação de resistências vasculares contrárias ao fluxo sanguíneo. A figura mostra como algumas estruturas estão associadas no sistema circulatório humano.\n\n![esquema do sistema circulatório humano com encéfalo, braços, pulmões, brônquios, coração (AD, VD, AE, VE), artéria coronária, artéria hepática, fígado, veia porta, baço, intestinos, túbulos renais, glomérulo, membros inferiores e aorta; setas verticais à esquerda e à direita indicam o sentido do fluxo](fig:p25-c1)\n\n(Rui Curi e Joaquim P. de Araújo Filho.\n*Fisiologia básica*, 2009. Adaptado.)\n\nAssim como na associação entre resistores de um circuito elétrico, no sistema circulatório humano há aumento da resistência ao fluxo sanguíneo na associação de estruturas em que ocorre",
+   "alternativas": {
+    "A": "filtração do sangue e absorção de nutrientes.",
+    "B": "produção da bile e reabsorção de água.",
+    "C": "produção da bile e controle da temperatura.",
+    "D": "absorção de nutrientes e controle da temperatura.",
+    "E": "filtração do sangue e reabsorção de água."
+   }
+  },
+  {
+   "numero": 68,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Aristóteles procurou explicar os fenômenos naturais a partir de argumentos teleológicos. A palavra teleologia provém de dois termos gregos, *telos* (fim, meta, propósito) e *logos* (razão, explicação), ou seja, uma “razão de algo em função de seus fins” ou uma “explicação que se serve de propósitos ou de fins”. Na explicação teleológica, se algo existe e tem uma finalidade, é porque existe uma razão para essa finalidade. Neste sentido, uma explicação teleológica estará centralizada na finalidade de alguma coisa. Por exemplo, na explicação teleológica, nossos dedos são articulados para que possamos manipular objetos, ao contrário da explicação não teleológica, que afirma que manipulamos objetos porque nossos dedos são articulados.\n\n(Matheus de M. Silveira *et al. Argumentos – Revista de Filosofia*,\njulho/dezembro de 2016. Adaptado.)\n\nConsiderando as características adaptativas dos organismos, a teleologia",
+   "alternativas": {
+    "A": "refuta a proposta de Lamarck, no que concerne à transmissão dos caracteres adquiridos.",
+    "B": "contribui para a explicação da origem da variabilidade a partir da ocorrência de mutações.",
+    "C": "contraria as fundamentações teóricas propostas pela Teoria Sintética da Evolução.",
+    "D": "fortalece as explicações da Teoria Sintética da Evolução, quanto ao resultado da ação da Seleção Natural.",
+    "E": "sustenta tanto as ideias evolucionistas de Lamarck como as de Charles Darwin e da Teoria Sintética da Evolução."
+   }
+  },
+  {
+   "numero": 69,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![pintura rupestre vermelha sobre rocha, representando um animal de quatro patas](fig:p25-f2)\n\nConsideram-se arte rupestre as representações feitas sobre rochas pelo homem da pré-história, em que se incluem gravuras e pinturas. Acredita-se que essas pinturas, em que os materiais mais usados são sangue, saliva, argila e excrementos de morcegos (cujo hábitat natural são as cavernas), têm cunho ritualístico.\n\n(www.portaldarte.com.br. Adaptado.)\n\nTodos os materiais utilizados para as pinturas, citados no texto, são",
+   "alternativas": {
+    "A": "substâncias compostas puras.",
+    "B": "de origem animal.",
+    "C": "misturas de substâncias compostas.",
+    "D": "de origem vegetal.",
+    "E": "misturas de substâncias simples."
+   }
+  },
+  {
+   "numero": 70,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": "t70-71",
+   "enunciado": "Os pareamentos das bases na dupla-hélice da molécula de DNA ocorrem por meio de",
+   "alternativas": {
+    "A": "ligações covalentes simples.",
+    "B": "ligações covalentes duplas.",
+    "C": "ligações de hidrogênio.",
+    "D": "ligações iônicas.",
+    "E": "forças de London."
+   }
+  },
+  {
+   "numero": 71,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": "t70-71",
+   "enunciado": "Os nitritos de sódio e de potássio são aditivos utilizados como conservadores na fabricação de salames, presuntos e outros frios e, também, para conferir a cor característica desses produtos.\n\nOs nitritos são considerados mutagênicos. Sua hidrólise produz ácido nitroso ($\\text{HNO}_2$), que reage com bases nitrogenadas do DNA. A reação desse ácido com a adenina (A) produz hipoxantina (H), cuja estrutura molecular está representada a seguir.\n\n![fórmula estrutural da hipoxantina (H)](fig:p26-c2)\n\nComo a hipoxantina (H) apresenta estrutura molecular semelhante à da __________, ocorre um erro de pareamento entre bases, que passa a ser __________ em vez de A-T.\n\nAs lacunas do texto são preenchidas por",
+   "alternativas": {
+    "A": "guanina e H-T.",
+    "B": "adenina e H-C.",
+    "C": "timina e A-G.",
+    "D": "guanina e H-C.",
+    "E": "timina e T-G."
+   }
+  },
+  {
+   "numero": 72,
+   "materia": "fisica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": "t72-73",
+   "enunciado": "O gráfico mostra o tempo decorrido desde que um Boeing 737-800 iniciou a decolagem no aeroporto de origem, atingiu sua altitude de cruzeiro e finalmente pousou no aeroporto de destino. Os aeroportos podem ser considerados ao nível do mar.\n\n![gráfico da altitude (km) em função do tempo (minutos): a altitude sobe em linha reta de 0, no instante 0, até cerca de 11 km, aos 20 minutos; fica constante até os 150 minutos e desce em linha reta até 0, aos 180 minutos](fig:p27-f2)\n\nConsiderando as informações sobre consumo de QAV dadas no texto, pode-se estimar que o consumo total de combustível no voo representado pelo gráfico foi próximo de",
+   "alternativas": {
+    "A": "7 000 kg.",
+    "B": "11 000 kg.",
+    "C": "9 000 kg.",
+    "D": "3 000 kg.",
+    "E": "5 000 kg."
+   }
+  },
+  {
+   "numero": 73,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": "t72-73",
+   "enunciado": "Voando na altitude de cruzeiro com uma velocidade média, em relação ao solo, de 800 km/h, um Boeing 737-800 percorreu uma distância de 2 400 km.\n\nConsidere que:\n\n• o QAV é constituído por hidrocarbonetos cujas cadeias carbônicas contêm, em média, 12 átomos de carbono e 26 átomos de hidrogênio, apresentando massa molar média de 170 g/mol;\n• a combustão do QAV na altitude de cruzeiro é completa.\n\nDe acordo com os dados, a massa de $\\text{CO}_2$ ($g$) gerada pela combustão do QAV na distância percorrida pelo avião foi próxima de",
+   "alternativas": {
+    "A": "13 t.",
+    "B": "20 t.",
+    "C": "11 t.",
+    "D": "25 t.",
+    "E": "6 t."
+   }
+  },
+  {
+   "numero": 78,
+   "materia": "biologia",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Em determinado experimento, o desenvolvimento de uma planta em um vaso em repouso em relação à Terra é acompanhado a partir da situação inicial representada na figura.\n\nNa região do experimento, o campo gravitacional terrestre é constante e pode ser representado por linhas paralelas orientadas para o centro da Terra.\n\n![planta em um vaso, com o caule para cima e as raízes para baixo, sobre linhas horizontais paralelas com setas apontando para a direita, que representam o campo gravitacional](fig:p30-c1)\n\nSabendo que as raízes dessa planta apresentam geotropismo positivo, que seu caule apresenta geotropismo negativo e considerando apenas a influência do campo gravitacional no crescimento dessa planta, a posição relativa de suas raízes e de seu caule em relação ao campo gravitacional, após algumas semanas de observação, está corretamente representada em:",
+   "alternativas": {
+    "A": "![Alternativa A: planta no vaso sobre linhas horizontais com setas apontando para a direita, com caule curvado para a esquerda; raízes retas, para baixo](fig:p30-c2)",
+    "B": "![Alternativa B: planta no vaso sobre linhas horizontais com setas apontando para a direita, com caule curvado para a direita; raízes curvadas para a direita](fig:p30-c3)",
+    "C": "![Alternativa C: planta no vaso sobre linhas horizontais com setas apontando para a direita, com caule curvado para a esquerda; raízes curvadas para a direita](fig:p30-c4)",
+    "D": "![Alternativa D: planta no vaso sobre linhas horizontais com setas apontando para a direita, com caule curvado para a direita; raízes curvadas para a esquerda](fig:p30-c5)",
+    "E": "![Alternativa E: planta no vaso sobre linhas horizontais com setas apontando para a direita, com caule curvado para a esquerda; raízes curvadas para a esquerda](fig:p30-c6)"
+   }
+  },
+  {
+   "numero": 79,
+   "materia": "fisica",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "As figuras representam dois modelos, 1 e 2, para o átomo de hidrogênio. No modelo 1, o elétron move-se em trajetória espiral, aproximando-se do núcleo atômico e emitindo energia continuamente, com frequência cada vez maior, uma vez que cargas elétricas aceleradas irradiam energia. Esse processo só termina quando o elétron se choca com o núcleo. No modelo 2, o elétron move-se inicialmente em determinada órbita circular estável e em movimento uniforme em relação ao núcleo, sem emitir radiação eletromagnética, apesar de apresentar aceleração centrípeta. Nesse modelo a emissão só ocorre, de forma descontínua, quando o elétron sofre transição de uma órbita mais distante do núcleo para outra mais próxima.\n\n![Modelo 1: elétron em trajetória espiral em torno do núcleo, emitindo energia; Modelo 2: duas órbitas circulares concêntricas em torno do núcleo; o elétron passa da órbita externa para a interna, com emissão de energia](fig:p31-c1)\n\nA respeito desses modelos atômicos, pode-se afirmar que",
+   "alternativas": {
+    "A": "o modelo 1, proposto por Bohr em 1913, está de acordo com os trabalhos apresentados na época por Einstein, Planck e Rutherford.",
+    "B": "o modelo 2 descreve as ideias de Thomson, em que um núcleo massivo no centro mantém os elétrons em órbita circular na eletrosfera por forças de atração coulombianas.",
+    "C": "os dois estão em total desacordo com o modelo de Rutherford para o átomo, proposto em 1911, que não previa a existência do núcleo atômico.",
+    "D": "o modelo 1, proposto por Bohr, descreve a emissão de fótons de várias cores enquanto o elétron se dirige ao núcleo atômico.",
+    "E": "o modelo 2, proposto por Bohr, explica satisfatoriamente o fato de um átomo de hidrogênio não emitir radiação o tempo todo."
+   }
+  },
+  {
+   "numero": 82,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A configuração do campo magnético terrestre causa um efeito chamado inclinação magnética. Devido a esse fato, a agulha magnética de uma bússola próxima à superfície terrestre, se estiver livre, não se mantém na horizontal, mas geralmente inclinada em relação à horizontal (ângulo $\\alpha$, na figura 2). A inclinação magnética é mais acentuada em regiões de maiores latitudes. Assim, no equador terrestre a inclinação magnética fica em torno de 0º, nos polos magnéticos é de 90º, em São Paulo é de cerca de 20º, com o polo norte da bússola apontado para cima, e em Londres é de cerca de 70º, com o polo norte da bússola apontado para baixo.\n\n![Figura 1, O campo magnético terrestre: esquema da Terra com as linhas de indução do campo magnético, o eixo magnético, o eixo de rotação da Terra (com N no alto e S embaixo) e o equador; dentro da Terra, um ímã com o polo S perto do N geográfico e o polo N perto do S geográfico. Figura 2, Bússola para medição da inclinação magnética: bússola de agulha em um círculo vertical, com o ângulo α entre a agulha e a horizontal](fig:p32-c5)\n\n(http://museu.fis.uc.pt. Adaptado.)\n\nEsse efeito deve-se ao fato de a agulha magnética da bússola alinhar-se sempre na direção",
+   "alternativas": {
+    "A": "perpendicular às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo sul geográfico da Terra.",
+    "B": "tangente à Linha do Equador e ao fato de o eixo de rotação da Terra coincidir com o eixo magnético que atravessa a Terra.",
+    "C": "tangente às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo norte geográfico da Terra.",
+    "D": "tangente às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo sul geográfico da Terra.",
+    "E": "paralela ao eixo magnético terrestre e ao fato de o polo sul magnético terrestre estar próximo ao polo norte geográfico da Terra."
+   }
+  },
+  {
+   "numero": 84,
+   "materia": "artes",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Amilcar de Castro (1920-2002) foi um importante artista brasileiro que se destacou por suas esculturas em ferro. A fotografia mostra uma de suas esculturas, feita a partir de uma chapa originalmente plana e retangular, que se encontra na Praça da Sé, em São Paulo.\n\n![fotografia de escultura em ferro de Amilcar de Castro na Praça da Sé, em São Paulo](fig:p34-f1)\n\n(http://enciclopedia.itaucultural.org.br)\n\nA escultura possui influências do movimento artístico",
+   "alternativas": {
+    "A": "neoconcreto e apresenta um corte e uma dobra na chapa. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa A: quadrado com um arco azul que parte da borda de baixo, perto do canto esquerdo, e termina dentro do quadrado, perto do canto superior direito, sem tocar a borda](fig:p34-f2)",
+    "B": "cubista e apresenta um corte na chapa, seguido de soldagem. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa B: quadrado com um arco azul que vai da borda esquerda até a borda direita, perto do alto](fig:p34-f3)",
+    "C": "neoclássico e apresenta um corte e uma dobra na chapa. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa C: quadrado com um arco azul que parte da borda de baixo, perto do canto esquerdo, e termina dentro do quadrado, perto do canto superior direito, sem tocar a borda](fig:p34-f4)",
+    "D": "neoclássico e apresenta um corte na chapa, seguido de soldagem. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa D: quadrado com um arco azul que parte da borda de baixo e termina na borda direita, junto ao canto superior direito](fig:p34-f5)",
+    "E": "neoconcreto e apresenta um corte e uma dobra na chapa. A representação da chapa original e seu corte correspondem à figura\n\n![Figura da alternativa E: quadrado com uma curva azul em forma de S que parte da borda de baixo e termina dentro do quadrado, perto do canto superior direito, sem tocar a borda](fig:p34-f6)"
+   }
+  }
+ ],
+ "complementos": {
+  "61": {
+   "assunto": "Ecologia",
+   "resolucao": "O texto diz que bactérias anaeróbias transformam o mercúrio inorgânico em metilmercúrio, a forma que entra na cadeia alimentar. Sem oxigênio, essas bactérias obtêm energia decompondo (fermentando) a matéria orgânica da floresta alagada; são elas, portanto, que favorecem a entrada do mercúrio nas cadeias.\n\nAs outras não servem: o mercúrio se concentra nos níveis tróficos mais altos, e não nas bactérias (A); a bioacumulação aumenta ao longo da cadeia (B); os produtores também absorvem o metal (D); e animais de terra firme e o ser humano, que comem peixes, também se contaminam (E).\n\n**Resposta: C**"
+  },
+  "62": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O HIV é um retrovírus: seu material genético é RNA, e a enzima transcriptase reversa produz DNA a partir desse RNA dentro da célula infectada. Esse DNA viral depois se integra ao genoma da célula.\n\nComo o Truvada® bloqueia a transcriptase reversa, a célula infectada não consegue produzir DNA viral. O texto diz que o remédio não impede a entrada do vírus (D errada). Ele também não protege contra outras doenças sexualmente transmissíveis nem contra gravidez, por isso não dispensa a camisinha (C).\n\n**Resposta: B**"
+  },
+  "63": {
+   "assunto": "Bioquímica",
+   "resolucao": "A alanina tem radical $\\text{CH}_3$, apolar; ela não pode ser R1 nem R2, que são polares. Sobram a serina e o aspartato.\n\nO radical da serina tem o grupo $-\\text{OH}$, com hidrogênio ligado a oxigênio: é o que faz ligação de hidrogênio com a enzima do citosol. Esse radical é o R2, voltado para dentro da célula. O aspartato tem o grupo carboxilato, com ligações $\\text{C=O}$ bem polarizadas: é o que interage com o antígeno de fora da célula por dipolo permanente-dipolo permanente. Ele é o R1, voltado para fora.\n\nAssim, R1 = aspartato e R2 = serina.\n\n**Resposta: B**"
+  },
+  "64": {
+   "assunto": "Botânica",
+   "resolucao": "No modelo de Münch (hipótese do fluxo em massa), a seiva elaborada vai da fonte, rica em açúcar, para o dreno. A bolsa 2, com açúcar, faz o papel das folhas; a bolsa 1, o das raízes. A afirmação I está certa.\n\nA água entra por osmose na bolsa 2, passa pelo tubo e sai pela bolsa 1, o que eleva o nível do vaso 1. O desnível só para de crescer quando a pressão da coluna de água equilibra a pressão osmótica: $\\pi = \\rho\\, g\\, \\Delta h$. A afirmação II está certa.\n\nO tubo de baixo, com a torneira, faz o papel do xilema, que devolve a água. O anelamento retira a casca, isto é, o floema, que no modelo é o tubo de cima entre as bolsas. A afirmação III está errada.\n\n**Resposta: A**"
+  },
+  "65": {
+   "assunto": "Zoologia",
+   "resolucao": "Mexilhões são moluscos bivalves e se alimentam por filtração: puxam água para dentro da concha e retêm nas brânquias as partículas em suspensão. Os microplásticos ficam retidos junto com o alimento.\n\nAs outras alternativas descrevem outros grupos: os coanócitos são das esponjas (A); a rádula é de moluscos não bivalves, como caramujos (B); o sistema ambulacrário é dos equinodermos (E).\n\n**Resposta: D**"
+  },
+  "66": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "Como nos resistores, estruturas ligadas em série somam suas resistências; estruturas em paralelo diminuem a resistência total. Por isso, a resistência aumenta onde o sangue passa por duas redes de capilares seguidas.\n\nNa figura, isso acontece no rim: o sangue passa pelos capilares do glomérulo e, em seguida, pelos capilares em volta dos túbulos renais. No glomérulo ocorre a filtração do sangue e nos túbulos, a reabsorção de água. Intestinos e fígado também estão em série, pela veia porta, mas nenhuma alternativa junta a função dos dois.\n\n**Resposta: E**"
+  },
+  "67": {
+   "assunto": "Genética",
+   "resolucao": "No arranjo *cis*, o homem tem *A* e *B* no mesmo cromossomo ($AB/ab$). Com 8 UR de distância, 8% dos gametas são recombinantes: *Ab* = 4% e *aB* = 4%. Os parentais são *AB* = 46% e *ab* = 46%.\n\nA mulher *AABB* só forma gametas *AB*. Assim, os filhos são: *AABB* (46%), *AaBb* (46%), *AABb* (4%) e *AaBB* (4%).\n\nOs genótipos menos prováveis são os que vêm dos gametas recombinantes: *AABb* ou *AaBB*.\n\n**Resposta: E**"
+  },
+  "68": {
+   "assunto": "Evolução",
+   "resolucao": "A explicação teleológica diz que a característica surge para cumprir uma finalidade. A Teoria Sintética da Evolução afirma o contrário: a variação surge ao acaso (mutação e recombinação), e a seleção natural preserva as variantes que, por acaso, são vantajosas. A adaptação é resultado, não propósito.\n\nPor isso a teleologia contraria a Teoria Sintética. A distratora A erra porque a ideia de Lamarck, em que o organismo muda para atender a uma necessidade, é justamente a mais próxima da teleologia; ela não é refutada pela teleologia.\n\n**Resposta: C**"
+  },
+  "69": {
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "Sangue, saliva, argila e excrementos são formados por várias substâncias: água, proteínas, sais, silicatos, compostos orgânicos. São misturas, e não substâncias puras (A errada).\n\nAs substâncias dessas misturas são compostas, formadas por mais de um elemento (água, proteínas, silicatos), e não simples (E errada). A argila é mineral, então nem todos os materiais são de origem animal (B) ou vegetal (D).\n\n**Resposta: C**"
+  },
+  "70": {
+   "assunto": "Ligações e interações",
+   "resolucao": "As duas fitas do DNA ficam unidas pelo pareamento A–T e C–G. Esse pareamento acontece por ligações de hidrogênio entre os grupos $\\text{N-H}$ de uma base e os átomos de N ou O da base complementar: duas ligações em A–T e três em C–G.\n\nAs ligações covalentes ficam dentro de cada fita (açúcar, fosfato e bases), e não entre as bases pareadas.\n\n**Resposta: C**"
+  },
+  "71": {
+   "assunto": "Química orgânica",
+   "resolucao": "Compare as fórmulas: a hipoxantina tem o mesmo anel duplo da guanina, com o grupo $\\text{C=O}$ e o $\\text{N-H}$ na mesma posição; só falta o $\\text{NH}_2$. Ela é, portanto, parecida com a guanina.\n\nComo se comporta como a guanina, a hipoxantina pareia com a citosina. No lugar do par A-T aparece o par H-C, o que causa a mutação.\n\n**Resposta: D**"
+  },
+  "72": {
+   "assunto": "Cinemática",
+   "resolucao": "Pelo gráfico, a subida vai de 0 a 20 min, o cruzeiro de 20 a 150 min (130 min) e a descida de 150 a 180 min (30 min). Pelo texto, o consumo é 2 200 kg/h no cruzeiro, o dobro na subida e 1/3 na descida.\n\nSubida: $4\\,400 \\cdot \\frac{20}{60} \\approx 1\\,470\\ \\text{kg}$.\n\nCruzeiro: $2\\,200 \\cdot \\frac{130}{60} \\approx 4\\,770\\ \\text{kg}$.\n\nDescida: $\\frac{2\\,200}{3} \\cdot \\frac{30}{60} \\approx 370\\ \\text{kg}$.\n\nTotal: cerca de 6 600 kg, mais próximo de 7 000 kg.\n\n**Resposta: A**"
+  },
+  "73": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Tempo de voo: $\\Delta t = \\frac{2\\,400}{800} = 3\\ \\text{h}$. Consumo de QAV no cruzeiro: $2\\,200 \\cdot 3 = 6\\,600\\ \\text{kg}$.\n\nCombustão completa: $\\text{C}_{12}\\text{H}_{26} + \\frac{37}{2}\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 13\\,\\text{H}_2\\text{O}$. Então 170 g de QAV produzem $12 \\cdot 44 = 528\\ \\text{g}$ de $\\text{CO}_2$.\n\n$m_{\\text{CO}_2} = 6\\,600\\ \\text{kg} \\cdot \\frac{528}{170} \\approx 20\\,500\\ \\text{kg} \\approx 20\\ \\text{t}$.\n\n**Resposta: B**"
+  },
+  "74": {
+   "assunto": "Radioatividade",
+   "resolucao": "I. Certa. A massa que \"desaparece\" (4 milhões de toneladas por segundo) vira energia, e $E = mc^2$ permite estimá-la.\n\nII. Errada. As reações liberam energia (\"+ energia\" nos produtos); são exotérmicas.\n\nIII. Certa. Aparecem ${}^{1}_{1}\\text{H}$, ${}^{2}_{1}\\text{H}$ e ${}^{3}_{1}\\text{H}$ (três isótopos do hidrogênio) e ${}^{3}_{2}\\text{He}$ e ${}^{4}_{2}\\text{He}$ (dois do hélio).\n\n**Resposta: E**"
+  },
+  "75": {
+   "assunto": "Soluções",
+   "resolucao": "Pela fórmula estrutural, o ácido ascórbico é $\\text{C}_6\\text{H}_8\\text{O}_6$, com massa molar $6 \\cdot 12 + 8 \\cdot 1 + 6 \\cdot 16 = 176\\ \\text{g/mol}$.\n\nQuantidade em 1 g: $n = \\frac{1}{176} \\approx 5{,}7 \\times 10^{-3}\\ \\text{mol}$.\n\nConcentração: $\\frac{5{,}7 \\times 10^{-3}}{0{,}2\\ \\text{L}} \\approx 0{,}028\\ \\text{mol/L} \\approx 0{,}03\\ \\text{mol/L}$.\n\n**Resposta: E**"
+  },
+  "76": {
+   "assunto": "Dinâmica",
+   "resolucao": "Na iminência de afundar, $\\vec{F}_1$ e $\\vec{F}_2$ ficam verticais e para cima, e equilibram o peso: $P = F_1 + F_2$.\n\nCada força atua ao longo de todo o comprimento da agulha: $F = \\sigma L = 0{,}073 \\cdot 0{,}05 = 3{,}65 \\times 10^{-3}\\ \\text{N}$.\n\n$mg = 2F \\Rightarrow m = \\frac{7{,}3 \\times 10^{-3}}{10} = 7{,}3 \\times 10^{-4}\\ \\text{kg} = 0{,}730\\ \\text{g}$.\n\nQuem esquece que são duas forças encontra 0,365 g (C).\n\n**Resposta: D**"
+  },
+  "77": {
+   "assunto": "Estática",
+   "resolucao": "A caixa A empurra a barra para baixo com força de intensidade $N_\\text{A}$, a uma distância $x$ à esquerda de O: o momento é anti-horário, $+N_\\text{A}\\,x$. A caixa B faz o mesmo à direita, a uma distância $y$: momento horário, $-N_\\text{B}\\,y$.\n\nPara a barra ficar em equilíbrio, a soma dos momentos em relação a O é zero: $N_\\text{A}\\,x - N_\\text{B}\\,y = 0$.\n\nEssa expressão é exatamente $\\det M = N_\\text{A} \\cdot x - N_\\text{B} \\cdot y$. Como o determinante da transposta é igual ao da matriz, $\\det(M^t) = 0$.\n\n**Resposta: A**"
+  },
+  "78": {
+   "assunto": "Botânica",
+   "resolucao": "Na figura, o campo gravitacional aponta para a direita. Geotropismo positivo quer dizer crescer no sentido do campo; negativo, no sentido contrário.\n\nAs raízes, portanto, se curvam para a direita (sentido das setas) e o caule se curva para a esquerda (contra as setas). Isso aparece na alternativa C.\n\nA mantém as raízes retas, como se ainda obedecessem à vertical antiga; B e D curvam o caule a favor do campo; E curva as raízes contra o campo.\n\n**Resposta: C**"
+  },
+  "79": {
+   "assunto": "Física moderna",
+   "resolucao": "O modelo 1 mostra o problema do modelo de Rutherford pela física clássica: uma carga acelerada irradiaria sem parar e cairia no núcleo. O modelo 2 é o de Bohr (1913): órbitas estáveis, sem emissão, e emissão só no salto de uma órbita para outra.\n\nPor isso o modelo 2 explica por que o átomo de hidrogênio não irradia o tempo todo.\n\nAs outras falham: o modelo 1 não é de Bohr (A, D); Thomson não tinha núcleo (B); e o modelo de Rutherford previa o núcleo (C).\n\n**Resposta: E**"
+  },
+  "80": {
+   "assunto": "Termologia",
+   "resolucao": "A diferença inicial de temperatura é $110 - 30 = 80\\ ^\\circ\\text{C}$. A cada meia-vida ela cai pela metade: $80 \\to 40 \\to 20 \\to 10\\ ^\\circ\\text{C}$.\n\nDepois de três meias-vidas a panela está a $30 + 10 = 40\\ ^\\circ\\text{C}$; ela esfriou $\\Delta\\theta = 70\\ ^\\circ\\text{C}$.\n\n$Q = m\\,c\\,\\Delta\\theta = 2\\,000 \\cdot 0{,}1 \\cdot 70 = 14\\,000\\ \\text{cal}$.\n\n**Resposta: B**"
+  },
+  "81": {
+   "assunto": "Óptica",
+   "resolucao": "Pela lei de Snell, $n\\,\\text{sen}\\,\\theta$ se conserva de camada em camada quando as interfaces são paralelas.\n\nNa primeira interface: $n_\\text{A}\\,\\text{sen}\\,\\alpha = n_\\text{B}\\,\\text{sen}\\,\\beta$. Na segunda, a refração é rasante (ângulo de $90^\\circ$ em C): $n_\\text{B}\\,\\text{sen}\\,\\beta = n_\\text{C}\\,\\text{sen}\\,90^\\circ = n_\\text{C}$.\n\nLogo $n_\\text{A}\\,\\text{sen}\\,\\alpha = n_\\text{C}$, e $\\text{sen}\\,\\alpha = \\dfrac{n_\\text{C}}{n_\\text{A}}$. O índice $n_\\text{B}$ some da conta.\n\n**Resposta: E**"
+  },
+  "82": {
+   "assunto": "Magnetismo",
+   "resolucao": "A agulha de uma bússola se alinha tangente às linhas de indução do campo no lugar onde está. Como essas linhas entram ou saem da Terra inclinadas, a agulha também se inclina, e mais quanto mais perto dos polos.\n\nO polo norte da agulha aponta para o norte geográfico porque é atraído por um polo sul magnético. Por isso, o polo sul magnético da Terra fica perto do norte geográfico, e o polo norte magnético fica perto do polo sul geográfico, como mostra a figura 1.\n\nA alternativa C acerta a tangência, mas erra a posição dos polos.\n\n**Resposta: D**"
+  },
+  "83": {
+   "assunto": "Cinética química",
+   "resolucao": "Pelos gráficos, as velas B começam com cerca de 12,8 cm e as A com cerca de 7,7 cm. Então as duas primeiras colunas ($h_0$ = 12,9 e 12,7) são das velas B e as duas últimas (7,6 e 7,8), das velas A.\n\nO vento aumenta a oferta de oxigênio e acelera a queima. Entre as velas B, a de 0,09 cm/min é a do ambiente não ventilado e a de 0,17 cm/min, a do ventilado. Entre as A, a de 0,11 cm/min é a do ventilado e a de 0,08 cm/min, a do não ventilado.\n\nOs títulos ficam: velas B (não ventilado, ventilado) e velas A (ventilado, não ventilado).\n\n**Resposta: A**"
+  },
+  "84": {
+   "assunto": "Artes visuais",
+   "resolucao": "Amilcar de Castro participou do Neoconcretismo, movimento brasileiro do fim dos anos 1950. Sua marca é o \"corte e dobra\": a chapa de ferro não é soldada; ela é cortada e dobrada, e vira escultura sem perder a unidade. Isso já elimina B, C e D.\n\nPara a chapa poder ser dobrada sem se partir, o corte começa na borda e termina dentro da chapa. Na foto, o corte é um arco único, como um quarto de círculo, e a parte dobrada se abre a partir dele. Esse é o desenho da alternativa A; a curva em S da alternativa E não corresponde à escultura.\n\n**Resposta: A**"
+  },
+  "85": {
+   "assunto": "Geometria plana",
+   "resolucao": "Todo triângulo inscrito em um semicírculo, com um lado no diâmetro, é retângulo no vértice oposto. Logo o ângulo em B é reto.\n\nComo $AC = 4$ e $AB = 2$: $BC = \\sqrt{16 - 4} = 2\\sqrt{3}$.\n\nA altura de B em relação a $\\overline{\\text{AC}}$ é $h = \\frac{AB \\cdot BC}{AC} = \\frac{2 \\cdot 2\\sqrt{3}}{4} = \\sqrt{3}\\ \\text{m}$.\n\n$E_p = m\\,g\\,h \\Rightarrow 342 = m \\cdot 5{,}7\\sqrt{3} \\cdot \\sqrt{3} = 17{,}1\\,m \\Rightarrow m = 20\\ \\text{kg}$.\n\n**Resposta: C**"
+  },
+  "86": {
+   "assunto": "Geometria espacial",
+   "resolucao": "P está a 45º L e Q a 15º O, em lados opostos do meridiano de Greenwich. A diferença de longitude é $45^\\circ + 15^\\circ = 60^\\circ$.\n\nO paralelo de 30º N é uma circunferência de raio $r = R\\cos 30^\\circ = 6\\,300 \\cdot \\frac{\\sqrt{3}}{2} = 3\\,150\\sqrt{3}\\ \\text{km}$.\n\nO arco de $60^\\circ$ ($\\frac{\\pi}{3}$ rad) mede $\\frac{\\pi}{3} \\cdot 3\\,150\\sqrt{3} = 1\\,050\\pi\\sqrt{3}\\ \\text{km}$.\n\n**Resposta: C**"
+  },
+  "87": {
+   "assunto": "Funções",
+   "resolucao": "A reta de O até P tem inclinação de 45º, então é $y = x$. P é o primeiro encontro da reta com a parábola:\n\n$x = -x^2 + 14x - 40 \\Rightarrow x^2 - 13x + 40 = 0 \\Rightarrow x = 5$ ou $x = 8$. Antes do vértice fica $x = 5$; logo $P = (5, 5)$.\n\nO vértice tem $x_V = \\frac{-14}{2 \\cdot (-1)} = 7$ e $f(7) = -49 + 98 - 40 = 9$.\n\nAumento de altitude: $9 - 5 = 4\\ \\text{km}$.\n\n**Resposta: D**"
+  },
+  "88": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Sortear dois números reais de 0 a 4 é escolher, ao acaso, um ponto $(x, y)$ do quadrado $[0,4] \\times [0,4]$, de área 16. A probabilidade é uma razão entre áreas.\n\nOs pontos com $x^2 + y^2 \\leq 1$ e $x, y \\geq 0$ formam um quarto de círculo de raio 1, de área $\\frac{\\pi}{4}$.\n\n$P = \\dfrac{\\pi/4}{16} = \\dfrac{\\pi}{64}$.\n\n**Resposta: B**"
+  },
+  "89": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Meninos presentes: 2 gripados são 8% deles, então eram $\\frac{2}{0{,}08} = 25$. Meninas presentes: 1 gripada é 5% delas, então eram $\\frac{1}{0{,}05} = 20$.\n\nSomando os ausentes, a turma completa tem $25 + 2 = 27$ meninos e $20 + 3 = 23$ meninas, num total de 50 alunos.\n\nPorcentagem de meninos: $\\frac{27}{50} = 54\\%$.\n\n**Resposta: C**"
+  },
+  "90": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Pela tabela, o índice de risco é $10 - \\log n$. Para o *BASE jumping*, $10 - \\log n = 8$, então $\\log n = 2$ e $n = 10^2 = 100$.\n\nO risco é de 1 morte em 100, ou seja, $\\frac{1}{100} = 1\\%$.\n\n**Resposta: C**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": "Minha primeira resolução deu C (só I), porque achei a afirmação II discutível; o gabarito oficial é A. Refiz a resolução e concordo com A: quando o desnível para de crescer, a pressão da coluna de água equilibra a pressão osmótica ($\\pi = \\rho g \\Delta h$). Transcrição e figura conferidas."
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "corrigida",
+   "notas": "figura incompleta: o recorte p25-f1 cortava as duas setas verticais da margem esquerda (sentido do fluxo); novo recorte p25-c1, descrição ajustada"
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "corrigida",
+   "notas": "matéria extra 'filosofia' removida: o texto explica a teleologia; o conhecimento cobrado é evolução"
+  },
+  {
+   "numero": 69,
+   "status": "corrigida",
+   "notas": "matéria extra 'biologia' removida: a questão cobra só classificação de materiais (química)"
+  },
+  {
+   "numero": 70,
+   "status": "corrigida",
+   "notas": "texto base t70-71: os números 70 e 71 estão em negrito no caderno (faltava o negrito)"
+  },
+  {
+   "numero": 71,
+   "status": "corrigida",
+   "notas": "texto base t70-71: os números 70 e 71 estão em negrito no caderno (faltava o negrito)"
+  },
+  {
+   "numero": 72,
+   "status": "corrigida",
+   "notas": "texto base t72-73: os números 72 e 73 estão em negrito no caderno; descrição do gráfico passou a trazer os instantes (20, 150 e 180 min) que o aluno lê no gráfico"
+  },
+  {
+   "numero": 73,
+   "status": "corrigida",
+   "notas": "texto base t72-73: os números 72 e 73 estão em negrito no caderno (faltava o negrito)"
+  },
+  {
+   "numero": 74,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "corrigida",
+   "notas": "alternativas eram só '![Alternativa X]'; acrescentada descrição neutra de cada figura (sentido da curvatura do caule e das raízes) para leitor de tela"
+  },
+  {
+   "numero": 79,
+   "status": "corrigida",
+   "notas": "descrição do Modelo 2 dizia 'órbita circular'; a figura tem duas órbitas e o salto do elétron da externa para a interna"
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "corrigida",
+   "notas": "descrição da figura 1 omitia os polos S e N do ímã terrestre desenhados dentro da Terra"
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 84,
+   "status": "corrigida",
+   "notas": "descrições das figuras das alternativas A a D eram idênticas ('quadrado com um arco azul'); agora dizem onde o arco começa e termina; matéria extra 'historia' removida"
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
