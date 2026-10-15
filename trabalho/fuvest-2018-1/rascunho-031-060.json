@@ -1,0 +1,156 @@
+{
+  "edicao": "fuvest-2018-1",
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 31,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Maria quer comprar uma TV que está sendo vendida por R\\$ 1.500,00 à vista ou em 3 parcelas mensais sem juros de R\\$ 500,00. O dinheiro que Maria reservou para essa compra não é suficiente para pagar à vista, mas descobriu que o banco oferece uma aplicação financeira que rende 1% ao mês. Após fazer os cálculos, Maria concluiu que, se pagar a primeira parcela e, no mesmo dia, aplicar a quantia restante, conseguirá pagar as duas parcelas que faltam sem ter que colocar nem tirar um centavo sequer. Quanto Maria reservou para essa compra, em reais?",
+      "alternativas": {
+        "A": "1.450,20",
+        "B": "1.480,20",
+        "C": "1.485,20",
+        "D": "1.495,20",
+        "E": "1.490,20"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 32,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere o polinômio\n\n$$P(x) = x^n + a_{n-1}\\,x^{n-1} + \\cdots + a_1 x + a_0,$$\n\nem que $a_0, \\cdots, a_{n-1} \\in \\mathbb{R}$. Sabe-se que as suas $n$ raízes estão sobre a circunferência unitária e que $a_0 < 0$.\n\nO produto das $n$ raízes de $P(x)$, para qualquer inteiro $n \\geq 1$, é:",
+      "alternativas": {
+        "A": "$-1$",
+        "B": "$i^n$",
+        "C": "$i^{n+1}$",
+        "D": "$(-1)^n$",
+        "E": "$(-1)^{n+1}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 33,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O quadrilátero da figura está inscrito em uma circunferência de raio 1. A diagonal desenhada é um diâmetro dessa circunferência.\n\n![Quadrilátero inscrito em uma circunferência, com uma diagonal que é diâmetro; os ângulos x e y estão indicados nas extremidades do diâmetro](fig:p12-f1)\n\nSendo $x$ e $y$ as medidas dos ângulos indicados na figura, a área da região cinza, em função de $x$ e $y$, é:",
+      "alternativas": {
+        "A": "$\\pi + \\operatorname{sen}(2x) + \\operatorname{sen}(2y)$",
+        "B": "$\\pi - \\operatorname{sen}(2x) - \\operatorname{sen}(2y)$",
+        "C": "$\\pi - \\cos(2x) - \\cos(2y)$",
+        "D": "$\\pi - \\dfrac{\\cos(2x) + \\cos(2y)}{2}$",
+        "E": "$\\pi - \\dfrac{\\operatorname{sen}(2x) + \\operatorname{sen}(2y)}{2}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 34,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Dois atletas correm com velocidades constantes em uma pista retilínea, partindo simultaneamente de extremos opostos, A e B. Um dos corredores parte de A, chega a B e volta para A. O outro corredor parte de B, chega a A e volta para B. Os corredores cruzam-se duas vezes, a primeira vez a 800 metros de A e a segunda vez a 500 metros de B. O comprimento da pista, em metros, é",
+      "alternativas": {
+        "A": "1.000.",
+        "B": "1.300.",
+        "C": "1.600.",
+        "D": "1.900.",
+        "E": "2.100."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 35,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Borboleta, lula e avestruz têm como principal excreta nitrogenado, respectivamente,",
+      "alternativas": {
+        "A": "ácido úrico, amônia e ácido úrico.",
+        "B": "ácido úrico, ureia e amônia.",
+        "C": "amônia, ácido úrico e amônia.",
+        "D": "amônia, ureia e ácido úrico.",
+        "E": "ureia, amônia e ácido úrico."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 36,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No sistema circulatório humano,",
+      "alternativas": {
+        "A": "a veia cava superior transporta sangue pobre em oxigênio, coletado da cabeça, dos braços e da parte superior do tronco, e chega ao átrio esquerdo do coração.",
+        "B": "a veia cava inferior transporta sangue pobre em oxigênio, coletado da parte inferior do tronco e dos membros inferiores, e chega ao átrio direito do coração.",
+        "C": "a artéria pulmonar transporta sangue rico em oxigênio, do coração até os pulmões.",
+        "D": "as veias pulmonares transportam sangue rico em oxigênio, dos pulmões até o átrio direito do coração.",
+        "E": "a artéria aorta transporta sangue rico em oxigênio para o corpo, por meio da circulação sistêmica, e sai do ventrículo direito do coração."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 37,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No grupo dos fungos, são conhecidas perto de 100 mil espécies. Esse grupo tão diverso inclui espécies que",
+      "alternativas": {
+        "A": "são sapróbias, fundamentais na ciclagem dos nutrientes, pois sintetizam açúcares a partir do dióxido de carbono do ar.",
+        "B": "são parasitas, procariontes heterotróficos que absorvem compostos orgânicos produzidos pelos organismos hospedeiros.",
+        "C": "são comestíveis, pertencentes a um grupo de fungos primitivos que não formam corpos de frutificação.",
+        "D": "formam, com as raízes de plantas, associações chamadas micorrizas, mutuamente benéficas, pela troca de nutrientes.",
+        "E": "realizam respiração, na presença de oxigênio, e fotossíntese, na ausência desse gás, sendo, portanto, anaeróbias facultativas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 38,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Analise as três afirmações sobre o controle da respiração em humanos.\n\nI. Impulsos nervosos estimulam a contração do diafragma e dos músculos intercostais, provocando a inspiração.\nII. A concentração de dióxido de carbono no sangue influencia o ritmo respiratório.\nIII. O ritmo respiratório pode ser controlado voluntariamente, mas na maior parte do tempo tem controle involuntário.\n\nEstá correto o que se afirma em",
+      "alternativas": {
+        "A": "I, apenas.",
+        "B": "I e III, apenas.",
+        "C": "III, apenas.",
+        "D": "II e III, apenas.",
+        "E": "I, II e III."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 39,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A surdez é geneticamente heterogênea: pode ser causada por mutações em diferentes genes, localizados nos autossomos ou no cromossomo X ou, ainda, por mutações em genes mitocondriais.\n\nOs heredogramas representam quatro famílias, em que ocorrem pessoas com surdez (● e ■):\n\n![Heredogramas das famílias 1, 2, 3 e 4](fig:p13-f1)\n\nA(s) família(s) em que o padrão de herança permite afastar a possibilidade de que a surdez tenha herança mitocondrial é(são) apenas",
+      "alternativas": {
+        "A": "1.",
+        "B": "2 e 3.",
+        "C": "3.",
+        "D": "3 e 4.",
+        "E": "4."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 40,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Muitas plantas adaptadas a ambientes terrestres secos e com alta intensidade luminosa apresentam folhas",
+      "alternativas": {
+        "A": "pequenas com estômatos concentrados na parte inferior, muitos tricomas claros, cutícula impermeável e parênquima aquífero.",
+        "B": "grandes com estômatos concentrados na parte inferior, poucos tricomas claros, cutícula impermeável e parênquima aerífero.",
+        "C": "pequenas com estômatos concentrados na parte superior, ausência de tricomas, cera sobre a epiderme foliar e parênquima aquífero.",
+        "D": "grandes com estômatos igualmente distribuídos em ambas as partes, ausência de tricomas, ausência de cera sobre a epiderme foliar e parênquima aerífero.",
+        "E": "pequenas com estômatos concentrados na parte superior, muitos tricomas claros, cera sobre a epiderme foliar e parênquima aerífero."
+      },
+      "observacoes": ""
+    }
+  ]
+}
