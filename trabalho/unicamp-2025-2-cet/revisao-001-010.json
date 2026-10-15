@@ -1,0 +1,184 @@
+{
+ "edicao": "unicamp-2025-2-cet",
+ "intervalo": [
+  1,
+  10
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 1,
+   "materia": "historia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "![Gráfico de barra horizontal intitulado “População Quilombola no Brasil por regiões”, Brasil 1.327.802 quilombolas: Nordeste 905.415 (68,19%), Sudeste 182.305 (13,73%), Norte 166.069 (12,51%), Centro-Oeste 44.957 (3,39%) e Sul 29.056 (2,19%)](fig:p03-c1)\n\n(Fonte: Censo, IBGE, 2022)\n\n(Disponível em https://www.gov.br/pt-br/noticias/assistencia-social/2023/07/populacao-quilombola-e-de-1-3-milhao-indica-recorte-inedito-do-censo. Acesso em 11/08/2024.)\n\nA partir da leitura do gráfico e de sua legenda, faça o que se pede.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite dois fatores históricos que ocasionaram a maior concentração de quilombolas em uma região brasileira. Explique por que esses fatores impactaram tal concentração."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Identifique e explique – considerando o contexto a partir do século XXI – dois desafios relativos aos territórios quilombolas no país."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "“O tipo de poder favorecido pela extensão do ciberespaço não é, evidentemente, o poder hierárquico, burocrático ou territorial à antiga. Cada vez mais, será um poder nascido da capacidade de aprender e de trabalhar de maneira cooperativa, relacionado com o grau de confiança e de reconhecimento recíprocos reinantes num contexto social.\n\n(LEVY, P. A Revolução contemporânea em matéria de comunicação. *Revista FAMECOS*, 9, p. 43, dezembro de 1998.)\n\n“Após se consolidar a abertura comercial da internet nas últimas décadas, constata-se que essa rede tem sido apropriada como um sistema global de monitoramento financeiro e civil por onde se desdobra a geopolítica do século XXI. Tanto o comércio global quanto as viagens aéreas são reorganizados para possibilitar a identificação, rastreamento e manutenção dos corpos e circulações sob controle. Telefones celulares e passaportes têm o potencial de transformar em dispositivos de rastreamento o objeto que os porta”.\n\n(Adaptado de GRAHAM, S. *Cidades sitiadas*: O novo urbanismo militar. São Paulo: Boitempo, p. 129, 2016.)\n\nA partir da leitura dos dois excertos acima,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "indique duas funções atribuídas à internet por cada um dos autores. Explique cada uma delas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "relacione o contexto de publicação de cada um dos excertos acima à leitura que os autores fazem sobre a potencialidade da internet."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Rayssa participou dos Jogos Olímpicos de Paris. Ela visitou quatro pontos turísticos da cidade: o Arco do Triunfo, a Catedral de Notre-Dame, o Museu do Louvre e a Torre Eiffel.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Rayssa escolheu a melhor foto que tirou de cada um desses pontos turísticos e publicará uma por dia em suas redes sociais, ao longo de quatro dias consecutivos, sem repetir nenhuma foto. De quantas maneiras ela pode fazer isso? Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na figura abaixo, o Arco do Triunfo, a Catedral de Notre-Dame, o Museu do Louvre e a Torre Eiffel estão indicados pelos pontos $A$, $N$, $L$ e $E$, respectivamente. Os segmentos de reta na figura representam ruas de Paris. As retas $r,s$ são paralelas e os segmentos de reta $AG$ e $CF$ são paralelos entre si e perpendiculares a $r$ e $s$.\n\nConsidere as distâncias $AB = CN = 0{,}5$, $BL = 2{,}5$, $LC = 1$, $EF = 2{,}7$ e $BE = 1{,}7$, dadas em quilômetros. Rayssa visitou os pontos turísticos na seguinte ordem: Arco do Triunfo, Torre Eiffel, Catedral de Notre-Dame e Museu do Louvre, percorrendo a menor distância possível, nas ruas indicadas na figura. Qual foi a distância que ela percorreu? Justifique.\n\n![Mapa com duas retas paralelas, s (acima) e r (abaixo). Sobre s estão os pontos A, B, L e C; sobre r, os pontos G, E e F. Os segmentos AG, BE e CF ligam as duas retas, e o ponto N fica sobre CF. Desenhos do Arco do Triunfo, da pirâmide do Louvre, da Catedral de Notre-Dame e da Torre Eiffel aparecem junto aos pontos A, L, N e E](fig:p05-f2)"
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O vento Föhn, presente nas grandes cordilheiras (Alpes, Andes, Montanhas Rochosas), ocorre quando uma camada de vento é forçada a subir uma montanha, sofrendo expansão devido à redução da pressão atmosférica e resfriando-se a ponto de atingir a condensação (Figura A). Na sequência, o ar desprovido de umidade desce do outro lado a encosta, sofrendo compressão e aquecimento; isso resulta em um vento quente e seco. A Figura B, no espaço de respostas, mostra uma expansão de um gás ideal (linha contínua de $i$ a $f$) num diagrama de pressão $P$ *versus* volume $V$.\n\n![Figura A: desenho de uma montanha com ar frio e úmido subindo pela encosta, condensação no alto e ar quente e seco descendo do outro lado](fig:p11-c1)\n\n![Figura B: diagrama de pressão P (10⁴ Pa) versus volume V (10⁴ m³) com a expansão do ponto i, em θi = 7 °C, até o ponto f, e um retângulo de escala de 1,0 × 10⁴ Pa por 0,5 × 10⁴ m³](fig:p11-c3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a temperatura $\\theta_f$, em graus Celsius ($^\\circ\\text{C}$), do gás no ponto $f$ do diagrama da Figura B?\n\nDado: $T(\\text{K}) - \\theta(^\\circ\\text{C}) \\simeq 273$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é o trabalho realizado pelo gás na expansão (linha contínua) entre os pontos $i$ e $f$ do diagrama da Figura B?"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Vários dispositivos eletrônicos (*mouses*, *joysticks* etc.) fazem uso do Efeito Hall. A Figura A mostra o esquema de um fluxômetro empregado para medir a vazão $Z$ de um líquido (volume que atravessa a seção reta da tubulação por unidade de tempo) que usa esse princípio: o escoamento do líquido na tubulação gira uma turbina junto com um ímã, o que gera uma diferença de potencial ($V_{\\text{Hall}}$) numa fita condutora.\n\n![Figura A: esquema do fluxômetro, com a fita condutora ao lado da turbina de raio R, que contém um ímã (N, S), sobre a tubulação de área A com a velocidade do líquido](fig:p12-c1)\n\nQuando necessário, use as aproximações:\n$g \\approx 10\\ \\text{m/s}^2$\n$\\pi \\approx 3$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com a rotação do ímã do fluxômetro, a diferença de potencial $V_{\\text{Hall}}$ varia conforme ilustrado na Figura B no espaço de respostas, sendo máxima quando o polo norte do ímã aponta para a fita. Sendo $A = 70\\ \\text{cm}^2$ a área da seção reta da tubulação e $R = 3{,}0\\ \\text{cm}$ o raio externo da turbina, calcule a vazão $Z$ do líquido. Assuma que a velocidade do líquido, $\\vec{V}_{liq}$, seja constante e uniforme e de módulo igual ao da velocidade da extremidade da turbina.\n\n![Figura B: gráfico de VHall em função do tempo t (ms), de 0 a 180 ms, com curva senoidal](fig:p12-c3)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A Figura C mostra uma fita de largura $L = 3{,}0\\ \\text{mm}$ conduzindo corrente elétrica na presença do campo magnético $\\vec{B}$ que sai do papel. A força magnética $\\vec{F}_B$ desvia as cargas elétricas ($q = -1{,}6 \\times 10^{-19}\\ \\text{C}$) responsáveis pela corrente, acumulando-as nas bordas da fita. Isso dá origem à diferença de potencial $V_{\\text{Hall}}$, ao campo elétrico $\\left(\\vec{E}_{Hall}\\right)$ e a uma força elétrica $\\vec{F}_{E,\\,Hall}$ oposta a $\\vec{F}_B$. Quase instantaneamente o equilíbrio de forças se estabelece e as cargas passam a seguir em linha reta, cessando o acúmulo nas bordas da fita. Para a condição de equilíbrio em que $V_{\\text{Hall}} = 1{,}5 \\times 10^{-7}\\ \\text{V}$, quanto vale $\\left|\\vec{F}_B\\right|$ ?\n\n![Figura C: fita condutora cinza de largura L, com sinais de menos na borda esquerda e de mais na borda direita; seta “corrente elétrica” apontando para baixo; símbolo do campo B saindo do papel; carga q negativa no meio da fita, com linhas tracejadas curvas indicando o desvio; seta da força FB e seta do campo EHall, ambas para a esquerda; voltímetro VHall ligado às duas bordas, com − à esquerda e + à direita](fig:p12-c2)"
+    }
+   ]
+  }
+ ],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "1": {
+   "assunto": "Brasil Colônia"
+  },
+  "2": {
+   "assunto": "Globalização e economia mundial"
+  },
+  "3": {
+   "assunto": "Geometria plana"
+  },
+  "4": {
+   "assunto": "Funções"
+  },
+  "5": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "6": {
+   "assunto": "Funções"
+  },
+  "7": {
+   "assunto": "Exponencial e logaritmo"
+  },
+  "8": {
+   "assunto": "Combinatória e probabilidade"
+  },
+  "9": {
+   "assunto": "Termodinâmica"
+  },
+  "10": {
+   "assunto": "Magnetismo"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "materias_extra: retirada sociologia (a prova comentada diz que a questão cobra os programas de geografia e história; sociologia aparece só como área correlata). Enunciado, figura (p03-c1, completa) e resposta conferidos palavra por palavra."
+  },
+  {
+   "numero": 2,
+   "status": "corrigida",
+   "notas": "materia: sociologia -> geografia, extra historia (comentada: programa de Geografia “Geografia das redes… controle da informação” e “Geopolítica”; programa de História “História do Tempo Presente / globalização”). Texto e resposta conferidos. O primeiro excerto abre aspas e não as fecha no caderno (mantido como no original)."
+  },
+  {
+   "numero": 3,
+   "status": "atencao",
+   "notas": "Corrigida a descrição da figura p05-f2, que dizia que BE é perpendicular às retas r e s (o enunciado diz que só AG e CF são; BE é oblíqua e a resolução depende disso). Resposta transcrita fielmente, mas a própria banca erra em dois pontos (iguais nas Respostas esperadas e na prova comentada): chama de “cateto B’E” o cateto que calcula, que é BB’ (=1,5; B’E = 0,8), e soma o caminho AGEFNCL como “1,5 + 0,2 + 1,3 + 2,7 + 1,5 + 1,0 = 8,2”, quando AG + GE + EF + FN + NC + CL = 1,5 + 1,3 + 2,7 + 1,0 + 0,5 + 1,0 = 8,0 km. A resposta final (7,4 km) está certa. Não alterei; uma pessoa decide se acrescenta Nota da plataforma."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Enunciado e resposta conferidos; contas da banca verificadas (k entre −2 e 0; k = 1013)."
+  },
+  {
+   "numero": 5,
+   "status": "atencao",
+   "notas": "Observação do transcritor confirmada: a banca imprime “c = 6, c = 5 ou c = 6” nas Respostas esperadas e também na prova comentada; pela própria solução (y = 4, x = 6 − c, z = c − 4) os valores são c = 4, 5 ou 6, coerentes com as três senhas listadas. Mantido como no original; erro da banca, para uma pessoa decidir se acrescenta nota. Restante conferido."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Figura p08-c1 completa (Figuras 1 e 2); figura da resposta r05-f1 conferida. Contas verificadas (DB = 220√3/3; altura 2,89 m)."
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "Fórmula conferida com ampliação; resposta conferida."
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": "Enunciado e resposta conferidos (76 triângulos; casa dos pombos)."
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "materias_extra: retirada geografia (o vento Föhn é só contexto; a comentada indica apenas Termodinâmica). Observações do transcritor: θ2 no lugar de θf está assim no documento oficial (mantido); o recorte r06-f1 com o “b)” dentro foi aceito, porque cortar o rótulo cortaria o “8” vermelho da anotação. Dados lidos do gráfico e contas da banca conferidos (−28 °C; 2,5 × 10⁹ J)."
+  },
+  {
+   "numero": 10,
+   "status": "corrigida",
+   "notas": "Item a: velocidade do líquido estava $\\vec{v}_{\\text{liq}}$; o caderno traz V maiúsculo ($\\vec{V}_{liq}$, como na Figura A). Item b: subscritos de E_Hall e F_E,Hall em itálico como no caderno. Acrescentada ao fim do enunciado a instrução impressa na p. 2 para as questões de Física (g ≈ 10 m/s², π ≈ 3), necessária porque a resposta usa 2π = 6. Descrição da Figura C reescrita: tratava E_Hall como força e omitia a carga negativa e a ligação do voltímetro. Resposta conferida (T = 120 ms; Z = 10,5 L/s; F_B = 8,0 × 10⁻²⁴ N)."
+  }
+ ]
+}

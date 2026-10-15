@@ -1,0 +1,295 @@
+{
+  "edicao": "unicamp-2021-2-cet",
+  "intervalo": [
+    1,
+    11
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 1,
+      "materia": "historia",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": null,
+      "enunciado": "As imagens produzidas por artistas europeus, tal como vemos na pintura do holandês Jan Davidsz de Heem, tiveram um papel importante na construção do conceito de *exótico* no imaginário da Europa na época moderna.\n\n![Pintura de natureza-morta *Natureza Morta com Papagaios*, de Jan Davidsz de Heem: uma arara vermelha e um papagaio azul junto a uma mesa com frutas, ostras, uma lagosta, jarros e taças de metal](fig:p03-c1)\n\n(Jan Davidsz de Heem. **Natureza Morta com Papagaios**. The Ringling Museum, fim da década de 1640.)\n\nNaquele contexto, a pintura apresentava itens obtidos quando se exploravam e se colonizavam países em cantos distantes do mundo. A natureza (os elementos que a representam) é, assim, quase um estudo científico e, novamente, uma alusão à abundância obtida graças ao vitorioso comércio holandês.\n\n(Adaptado de Rolf Winkes. Natura Morta. *Revista do Museu de Arqueologia e Etnologia*, São Paulo, 10: 145-161, 2000. p. 149.)\n\nOs colonizadores exerceram diversas operações que levaram à configuração de um novo universo de relações intersubjetivas de dominação entre a Europa e as demais regiões e populações do mundo, às quais estavam sendo atribuídas, no mesmo processo, novas identidades geoculturais.\n\n(Adaptado e traduzido de Anibal Quijano. Colonialismo, eurocentrismo y América Latina. *In Colonialidad del saber:* eurocentrismos e ciencias sociales. Buenos Aires, CLACSO. 2005, p. 209.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O exótico é estabelecido a partir de uma relação assimétrica entre universos diferentes. Justifique por que a imagem ao lado apresentaria características “exóticas” e relacione essa adjetivação ao pensamento colonial da época."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Apresente uma semelhança e uma diferença entre a experiência colonial holandesa e a portuguesa."
+        }
+      ],
+      "observacoes": "Resposta transcrita das 'Respostas esperadas'. O 'Objetivo da questão' vem da prova comentada oficial (mesmo PDF), e o Objetivo traz 'politica' sem acento, como no original. A 'Resposta Esperada' da prova comentada é um pouco mais completa que a das 'Respostas esperadas' (no item b acrescenta uma semelhança, 'Portugal e Holanda colonizaram regiões das Américas, da África e da Ásia', e uma diferença, o interesse da Holanda em registrar fauna e flora, além de pequenas diferenças de redação e a pontuação de 2 pontos por item); não foi usada, para não misturar versões. No item a, o original traz 'fornecer de luxo e conforto' (sem 'e' após 'fornecer'), mantido."
+    },
+    {
+      "numero": 2,
+      "materia": "historia",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": null,
+      "enunciado": "Em 10 de outubro de 1810, Adandozan (1797-1818), rei do Daomé, no atual Benim, enviou uma carta para o Brasil endereçada a Dom João, príncipe regente, acompanhada de uma lista de presentes contendo objetos de prestígio cujo uso era privilégio real. Uma parte dos artefatos descritos na carta integrava o acervo do Museu Nacional, que foi destruído em um grande incêndio no ano de 2018. Entre os objetos que Adandozan usou para presentear Dom João, destacavam-se o trono do rei daomeano (imagem ao lado), cetros, bengalas, bolsa, sandália e abanos.\n\n(Adaptado de SOARES, Mariza de Carvalho. Trocando galanterias: a diplomacia do comércio de escravos, Brasil-Daomé, 1810-1812. *Afro-Ásia*, Salvador, n. 49, p. 229-271.)\n\n![Fotografia de um trono de madeira com assento curvo e laterais vazadas, ao lado de uma bengala, um par de sandálias e uma bolsa, expostos em vitrine do Museu Nacional](fig:p04-f4)\n\nAcervo do Museu Nacional, Rio de Janeiro, UFRJ\n\nCom base no excerto e na imagem:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "cite e explique uma das funções assumidas pelos objetos no âmbito da diplomacia estabelecida entre Brasil e África no começo do século XIX;"
+        },
+        {
+          "rotulo": "b",
+          "texto": "descreva o impacto da destruição destes objetos no incêndio do Museu Nacional para o Brasil e para o Benim."
+        }
+      ],
+      "observacoes": "Resposta transcrita das 'Respostas esperadas'. O 'Objetivo da questão' vem da prova comentada oficial (mesmo PDF) e traz 'africado' (por 'africano'), como no original. A 'Resposta Esperada' da prova comentada tem pequenas diferenças de redação e a pontuação (2 pontos por item); não foi usada. O crédito da foto, impresso na vertical ao lado dela, foi posto como parágrafo depois da figura."
+    },
+    {
+      "numero": 3,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Quando colocada em um recipiente, a água sofre evaporação a partir da sua superfície, tendo como resistência física à evaporação a pressão sobre essa superfície. Se a pressão do vapor de água atinge o valor da pressão que age sobre sua superfície, a evaporação tende à formação de bolhas (ebulição). Nessa situação, a temperatura da água permanece constante até a evaporação total.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O cozimento de alimentos é, de uma forma simplificada, uma coleção de processos (reações) químicos. Neste contexto, cite a principal vantagem do uso de uma panela de pressão e explique, do ponto de vista científico, a mudança que seu uso promove em relação a um cozimento em panela comum."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Em uma panela de pressão foi colocado determinado volume de água. Considere os três seguintes processos, realizados separadamente, para ferver a água, até a evaporação completa:\n\n1. Deixar a panela aberta, sem tampa; ligar o fogo e aquecer a água.\n2. Fechar a panela apenas apoiando a tampa na sua parte superior; ligar o fogo e aquecer a água.\n3. Fechar a panela encaixando a tampa conforme recomendado pelo fabricante; ligar o fogo e aquecer a água.\n\nO gráfico abaixo (espaço de resposta) contém três curvas de temperatura da água, $\\theta$, em função do tempo. Correlacione os processos 1, 2 e 3 acima com as correspondentes curvas A, B ou C no gráfico. Justifique sua resposta. Desconsidere a contribuição da massa da tampa da panela.\n\n*Campo de resolução:*\n\n![gráfico da temperatura $\\theta$ em função do tempo com três curvas, A, B e C, partindo do mesmo valor inicial e tendendo a patamares constantes, e uma tabela vazia com as colunas Curva e Processo e as linhas A, B e C](fig:p05-c1)"
+        }
+      ],
+      "observacoes": "Resposta transcrita das 'Respostas esperadas'. O 'Objetivo da questão' vem da prova comentada oficial (mesmo PDF). A 'Resposta Esperada' da prova comentada é bem mais longa e detalhada que a das 'Respostas esperadas' (explica em pormenor pressão, temperatura e velocidade da reação, e a transferência de energia e de matéria no item b); não foi usada, para não misturar versões. Se a plataforma preferir a versão completa, é só trocar."
+    },
+    {
+      "numero": 4,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Estudos mostram que a taxa de desmatamento nos principais biomas brasileiros tem aumentado significativamente desde 2015, causando a fragmentação da paisagem e tornando esses biomas altamente propensos a incêndios. Apesar dos processos químicos envolvidos na combustão da madeira ocorrerem de forma similar nos diferentes biomas, as diferenças na vegetação fazem com que as queimadas tenham características e consequências distintas em cada bioma.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A vegetação na Amazônia é caracterizada majoritariamente por florestas altas e densas, enquanto o Pantanal é coberto por vegetação predominantemente aberta. Supondo que todos os outros fatores sejam similares nos dois biomas, compare a velocidade de propagação das queimadas na Amazônia e no Pantanal. O tempo para queimar uma mesma área será maior em qual desses dois biomas? Justifique sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Um dos parâmetros mais importantes para entender o comportamento do fogo é a intensidade da linha de frente do fogo, $I$, que representa a quantidade de calor liberado por unidade de tempo por unidade de comprimento da frente do fogo. A intensidade pode ser modelada fisicamente como o produto do calor de combustão do combustível, $H$, pela quantidade do combustível disponível, $q$ (medida em $\\text{kg/m}^2$), e pela velocidade de propagação do fogo, $r$ (medida em m/s):\n\n$$I = H \\cdot q \\cdot r.$$\n\nNo gráfico abaixo (espaço de resposta), os pontos representam a intensidade de diferentes queimadas registradas no Cerrado em função do produto $q.r$ . A reta representa a curva de tendência que melhor ajusta os dados. A partir destas informações, estime o calor de combustão do combustível disponível para queima no Cerrado brasileiro.\n\n*Campo de resolução:*\n\n![gráfico da intensidade do fogo (kW/m), de 0 a 1200, em função de $q \\cdot r$ (kg/(m·s)), de 0 a 0,09, com pontos dispersos e uma reta de tendência crescente](fig:p06-c1)"
+        }
+      ],
+      "observacoes": "Resposta transcrita das 'Respostas esperadas'. O 'Objetivo da questão' vem da prova comentada oficial (mesmo PDF). A 'Resposta Esperada' da prova comentada é bem mais longa (discute a escolha entre velocidade e tempo e a unidade da resposta, cerca de 13.300 kJ/kg); não foi usada, para não misturar versões."
+    },
+    {
+      "numero": 5,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Durante a pandemia de Covid-19, a imprensa tem utilizado a “média móvel” para divulgar a evolução do número de casos notificados da doença.\n\nPara calcular a média móvel do dia $d$ com respeito aos últimos $k$ dias, somamos o número de casos do dia $d$ com o número de casos registrados nos $k-1$ dias anteriores e dividimos por $k$.\n\nNa tabela abaixo, indicamos, para uma dada cidade, a quantidade de casos notificados em cada dia de um determinado mês, e também a média móvel de cada dia com respeito <u>aos últimos 4 dias</u>. Alguns dados foram perdidos, e não constam na tabela.\n\n| Dia do mês | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Casos notificados | 16 | 18 | 22 | 24 | 24 | 26 | 22 |  | 32 |  |  | 28 | 32 | 30 | 30 | 28 | 28 | 26 | 22 | 20 | 20 |\n| Média móvel |  |  |  | 20 | 22 | 24 | 24 |  |  | 28 | 31 | 32 |  |  | 30 | 30 | 29 |  | 26 | 24 | 22 |\n\nAnalisando a tabela, calcule",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "a média móvel do dia 18;"
+        },
+        {
+          "rotulo": "b",
+          "texto": "a quantidade de casos notificados nos dias 8, 10 e 11."
+        }
+      ],
+      "observacoes": "As células vazias da tabela são as que o caderno traz em cinza (dados perdidos). 'Objetivo da questão' vem da prova comentada oficial. A 'Resposta Esperada' da prova comentada tem pequenas diferenças de redação e a pontuação (2 pontos por item); a transcrita é a das 'Respostas esperadas'."
+    },
+    {
+      "numero": 6,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma escola com 960 alunos decidiu renovar seu mobiliário. Para decidir quantas cadeiras de canhotos será necessário comprar, fez-se um levantamento do número de alunos canhotos em cada turma. A tabela abaixo indica, na segunda linha, o número de turmas com o total de canhotos indicado na primeira linha.\n\n| Número total de alunos canhotos | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Número de turmas | 1 | 2 | 5 | 12 | 8 | 2 |",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual a probabilidade de que uma turma escolhida ao acaso tenha pelo menos 3 alunos canhotos?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Qual a probabilidade de que um aluno escolhido ao acaso na escola seja canhoto?"
+        }
+      ],
+      "observacoes": "'Objetivo da questão' vem da prova comentada oficial. A 'Resposta Esperada' da prova comentada tem pequenas diferenças de redação e a pontuação; a transcrita é a das 'Respostas esperadas'."
+    },
+    {
+      "numero": 7,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere um número real $t \\in [0, 2\\pi)$ e defina a matriz\n\n$$H = \\begin{pmatrix}1 & 0\\\\ 0 & 1\\end{pmatrix} - 2\\begin{pmatrix}\\cos^2(t) & \\cos(t)\\operatorname{sen}(t)\\\\ \\cos(t)\\operatorname{sen}(t) & \\operatorname{sen}^2(t)\\end{pmatrix}.$$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Mostre que a matriz $H$ é invertível."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Determine valores de $t$ tais que $H \\cdot \\begin{pmatrix}3\\\\ 2\\end{pmatrix} = \\begin{pmatrix}2\\\\ 3\\end{pmatrix}$."
+        }
+      ],
+      "observacoes": "'Objetivo da questão' vem da prova comentada oficial. A 'Resposta Esperada' da prova comentada tem pequenas diferenças de redação e a pontuação; a transcrita é a das 'Respostas esperadas'."
+    },
+    {
+      "numero": 8,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sejam $a, b$ números reais positivos. Considere a sequência de polígonos $P_1, P_2, \\cdots, P_n, \\cdots$ construídos da seguinte forma:\n\n• $P_1$ é um retângulo de lados $a$ e $b$, como mostra a figura 1;\n• $P_2$ é obtido de $P_1$, retirando dele um retângulo de lados medindo $a/2$ e $b/2$, como mostra a figura 2;\n• $P_3$ é obtido de $P_1$, retirando dele 3 retângulos de lados medindo $a/3$ e $b/3$, como mostra a figura 3;\n• $P_4$ é obtido de $P_1$, retirando dele 6 retângulos de lados medindo $a/4$ e $b/4$, como mostra a figura 4;\n• E assim, sucessivamente, $P_n$ é obtido de $P_1$, como mostra a figura 5.\n\n![Figuras 1 a 5: polígonos $P_1$ a $P_4$ e $P_n$ formados por retângulos azuis, com lados indicados por $a$, $b$, $a/n$ e $b/n$ nos exemplos](fig:p10-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Determine o perímetro e o número de lados de $P_{2021}$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Seja $A_n$ a área do polígono $P_n$, e seja $A$ a área do triângulo retângulo de catetos com medidas $a$ e $b$. Encontre a razão $R_n = \\frac{A_n}{A}$, para $n$ arbitrário."
+        }
+      ],
+      "observacoes": "'Objetivo da questão' vem da prova comentada oficial. A 'Resposta Esperada' da prova comentada acrescenta uma frase ('O candidato podia argumentar usando a própria construção.') e a pontuação; a transcrita é a das 'Respostas esperadas'."
+    },
+    {
+      "numero": 9,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 2019, diversas praias brasileiras foram atingidas por manchas de óleo. Pesquisadores concentraram esforços na tentativa de localizar o ponto provável da emissão do óleo. Na figura abaixo, a origem do plano cartesiano está localizada no Distrito Federal e cada unidade equivale a 1.000 km.\n\n![plano cartesiano sobre o mapa da costa do Brasil e do Oceano Atlântico, com os pontos A, B, C, D e E (vértices de um polígono hachurado), F e G, e cotas marcadas nos eixos](fig:p11-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Numa primeira investigação sobre a origem do óleo, um navio fez uma sondagem numa área poligonal de 63.000.000 $\\text{km}^2$, com vértices $A, B, C, D$ e $E$, conforme indica a figura acima. Calcule o valor da ordenada $h$ do ponto $E = (19, h)$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Após a investigação dos resíduos encontrados nas praias indicadas pelos pontos $F$ e $G$, descobriu-se que a fonte provável do óleo encontrava-se no Oceano Atlântico, a uma distância de 12.000 km do ponto $F$ e 18.000 km do ponto $G$. Encontre as coordenadas $(x, y)$ da provável fonte do óleo."
+        }
+      ],
+      "observacoes": "No documento de respostas, o item b chama de $A = (8, 14)$ e $B = (8, -4)$ os pontos que o caderno chama de $F$ e $G$ (os valores são os mesmos); transcrito como está. 'Objetivo da questão' vem da prova comentada oficial. A 'Resposta Esperada' da prova comentada acrescenta '(existem muitas outras decomposições possíveis)' no item a e a pontuação; a transcrita é a das 'Respostas esperadas'."
+    },
+    {
+      "numero": 10,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Seja $f(x) = x^3 - 2x + 1$ uma função polinomial real. A reta tangente ao gráfico de $y = f(x)$ no ponto $(a, f(a))$ é definida pela equação $y = mx + f(a) - ma$, onde $m = 3a^2 - 2$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Encontre os pontos do gráfico de $y = f(x)$ cuja reta tangente é paralela à reta definida por $x - y = 0$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Sabendo que $a > 0$ e que o coeficiente angular da reta tangente ao gráfico de $y = f(x)$ no ponto $(a, f(a))$ é 10, determine os pontos de interseção da reta tangente com o gráfico de $y = f(x)$."
+        }
+      ],
+      "observacoes": "'Objetivo da questão' vem da prova comentada oficial. A 'Resposta Esperada' da prova comentada tem pequenas diferenças de redação e a pontuação; a transcrita é a das 'Respostas esperadas'."
+    },
+    {
+      "numero": 11,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A Organização Meteorológica Mundial anunciou recentemente o novo recorde de raio mais extenso em distância percorrida (mais de setecentos quilômetros), registrado em outubro de 2018 no sul do Brasil.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O atraso observado entre o som (trovão) e a luz (relâmpago) produzidos por um raio se deve à diferença entre a velocidade do som e a da luz no ar. Como a velocidade da luz é muito maior que a velocidade do som, $v_{\\text{som}} = 340\\ \\text{m/s}$, pode-se considerar o relâmpago como instantâneo. Se um trovão (de curta duração) é ouvido $5{,}0\\ \\text{s}$ após o relâmpago, qual é a distância entre o raio e o observador?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considere agora certo raio que ocorre entre duas nuvens separadas por uma distância $L = 9{,}0\\ \\text{km}$. A diferença de potencial entre as nuvens é $V = 6{,}0 \\times 10^7\\ \\text{V}$ e a corrente durante a descarga é $i = 8{,}0 \\times 10^5\\ \\text{A}$. A resistência elétrica do canal ionizado da atmosfera, que conduz a corrente do raio, é **diretamente proporcional** à resistividade elétrica $\\rho$ do canal e ao seu comprimento $L$, e **inversamente proporcional** à sua área de secção reta $A$. Sendo $A = 3{,}0\\ \\text{cm}^2$, qual é a resistividade elétrica $\\rho$ desse canal ionizado?"
+        }
+      ],
+      "observacoes": "O 'Objetivo da questão' vem da prova comentada oficial. A 'Resposta Esperada' da prova comentada traz as mesmas contas com explicações em texto e a pontuação (2 pontos por item); a transcrita é a das 'Respostas esperadas'."
+    }
+  ],
+  "respostas": {
+    "1": {
+      "resposta": "**Objetivo da questão:** A questão avalia a **habilidade** do candidato em “compreender de forma crítica documentos históricos de múltiplas naturezas (textual, iconográfico, cartográfico, material, entre outros), produzidos por diferentes atores sociais.” E também sua capacidade de “relacionar os documentos históricos aos seus contextos de produção e seus sentidos aos tempos históricos em que estão inseridos, estabelecendo relações e conceitos com aderência e pertinência histórica.”\n\nQuanto aos eixos norteadores do programa da COMVEST, tanto esta questão como a seguinte se ancoram na leitura crítica do documento histórico e análise reflexiva dos contextos em questão e nos procedimentos de uma história não eurocêntrica: povos, sociedades e culturas em um contexto plural. A questão 1 foca a dinâmica das relações de poder no período das expansões marítimas e do colonialismo através de discursos visual e textual.\n\nEm relação aos conteúdos programáticos, a questão explora os seguintes temas: “Expansão marítima europeia; descobrimentos e choques culturais; formação dos impérios coloniais”, e “Conquista e colonização das Américas: religião, politica, cultura, economia e sociedade coloniais”.",
+      "itens": {
+        "a": "A imagem apresenta uma grande seleção de produtos e materiais provenientes das colônias: aves e frutas tropicais, metais preciosos, tecidos ricamente tingidos e trabalhados. São itens que não eram encontrados na natureza europeia, ou cuja produção dependia de matérias-primas vindas das colônias. Tais elementos sugerem a abundância resultante da exploração de terras distantes. A imagem do exotismo aparece, então, vinculada à ideia de comércio e circulação de mercadorias. Neste sentido, as colônias são valorizadas principalmente pela sua capacidade de fornecer de luxo e conforto ao “mundo civilizado”. Este inventário de produtos naturais e manufaturados pode ser entendido como uma metáfora da relação de poder entre a Europa, vista como centro, e o outro (não-europeu), visto como subordinado.",
+        "b": "Alguns aspectos semelhantes entre a experiência colonial portuguesa e holandesa são:\n\n– Portugal e Holanda se envolveram diretamente com o tráfico de escravos.\n– Ambos os países se dedicaram à produção açucareira no Brasil.\n\nQuanto às diferenças, é possível destacar os seguintes pontos:\n\n– O colonialismo português vinculou-se a uma grande expansão territorial, capitaneada pelos interesses centralizadores da Coroa. Já o colonialismo holandês, apesar de estabelecer alguns domínios territoriais em diferentes regiões do globo, concentrava-se no comércio e na criação de amplas redes de circulação de mercadorias provenientes de regiões fora da Europa.\n\n– Os Países Baixos manifestaram uma maior tolerância religiosa com relação ao judaísmo, o que incentivou o estabelecimento de um grande número de comerciantes judeus em seus territórios. Já Portugal teve uma postura mais rígida, impondo o catolicismo romano como única religião aceitável.\n\n– Enquanto Portugal era um país católico, a Holanda era predominantemente protestante, o que gerava experiências diversas. Enquanto a Inquisição e a catequização, por exemplo, foram um elemento marcante da experiência colonial portuguesa, o mesmo não ocorre no caso holandês.\n\n– Os Países Baixos, ao longo de sua experiência colonial, desenvolveram uma indústria de produtos de luxo, baseada em produção trazida das colônias. Da distribuição de manufaturas raras, a região passou a produzir porcelanas, por exemplo. Portugal, por outro lado, concentrou-se na exploração e cultura de *commodities*."
+      }
+    },
+    "2": {
+      "resposta": "**Objetivo da questão:** Assim como a anterior, a questão 2 procura avaliar a **habilidade** do candidato em “compreender de forma crítica documentos históricos de múltiplas naturezas (textual, iconográfico, cartográfico, material, entre outros), produzidos por diferentes atores sociais.” E também sua capacidade de “relacionar os documentos históricos aos seus contextos de produção e sentidos em relação aos tempos históricos em que estão inseridos, estabelecendo relações e conceitos com aderência e pertinência histórica.”\n\nQuanto aos **eixos norteadores** do programa COMVEST, a questão exige leitura crítica do documento histórico e análise reflexiva dos contextos em questão, relativos a uma história não eurocêntrica, envolvendo povos, sociedades e culturas em um contexto plural. A questão 2 problematiza o eurocentrismo manifestado na percepção estereotipada do continente africado, a relação África-Brasil na era do tráfico, as políticas da memória desse passado no presente.\n\nEm relação aos **conteúdos programáticos**, a questão 2 reúne os tópicos “Indígenas e africanos: missionação, identidades, formas de resistência e de interação no mundo colonial americano” no período moderno e “Multiculturalismo, transformações sociais, comportamentais e culturais no século XXI”, ao trazer para o centro da reflexão o passado africano representado em um dos principais museus do país e a falta de políticas públicas para a preservação deste patrimônio histórico.\n\nCabe destacar que a temática da questão está de acordo com a lei 10.639/ 2003, que tornou obrigatório o ensino de História da África e da cultura afro-brasileira na educação básica. Esperava-se, após quase 20 anos, que os estudantes tivessem condições de desenvolver uma reflexão sobre as relações Brasil-África para além de estereótipos e imagens simplificadoras, na perspectiva da formação de cidadãos sensíveis à cidadania negra. O conhecimento sobre este campo contribui para uma educação antirracista, em que os africanos são vistos como sujeitos escravizados (não apenas como escravos ou peças de engrenagens econômicas) e as sociedades africanas são compreendidas em sua complexidade e multiplicidade.",
+      "itens": {
+        "a": "A troca de presentes é um rito importante na história da diplomacia tanto europeia como africana. Os artefatos enviados para Dom João VI pelo rei Adandozan eram símbolos que traduziam, do lado africano, o poder político e o prestígio social das elites envolvidas no tráfico transatlântico com o Brasil. Eles assumem o papel de mediar as relações de reciprocidade entre os dois lados, esperando-se que o monarca português percebesse sua importância política, garantindo a manutenção dos interesses econômicos vinculados ao tráfico de pessoas escravizadas. Do lado luso-brasileiro, a circulação desses objetos de prestígio revela a centralidade da escravidão e do tráfico na formação da sociedade e do estado colonial, e seus desdobramentos na condução da política externa.",
+        "b": "No que toca à coleção mencionada no excerto, a destruição do Museu Nacional representa o apagamento de um importante registro material do passado comum compartilhado por Brasil e Benim em suas respectivas formações históricas, principalmente em razão do tráfico transatlântico. Muitas pessoas escravizadas trazidas da África para o território brasileiro eram da região que se tornaria o Benim, e foram deportadas principalmente pelas rotas que saíam de Ajudá e Porto Novo. Portanto, as peças tinham importância para a população negra brasileira e para a história do país de modo geral. Do lado africano, os vínculos entre os dois países são marcados também pelos “retornados”, os descendentes de libertos que regressaram para a África no início do século XIX e ficaram conhecidos no Benim como *agudás*. As marcas da vivência no Brasil foram deixadas na arquitetura, língua, tradições culturais diversas e nos sobrenomes portugueses, que muitos de seus descendentes ainda utilizam. Nesse sentido, a destruição do museu é uma perda também para essas comunidades *agudás*."
+      }
+    },
+    "3": {
+      "resposta": "**Objetivo da questão:** O item **a** pergunta qual é a principal vantagem do uso da panela de pressão e de onde se origina essa vantagem. O objetivo é verificar conhecimento em cinética, mais próxima do que se ensina na disciplina de Química, especificamente no que se refere à influência da temperatura na velocidade de processos (reações químicas).\n\nNo item **b**, os candidatos deveriam atribuir os processos mencionados no enunciado às respectivas curvas apresentadas no gráfico de temperatura como função do tempo. O objetivo é verificar o conhecimento relativo aos processos de transferência de energia térmica e transferência de matéria, assunto muito estudado em termoquímica e termologia, e que remete ao conceito universal da conservação de energia. Para responder a este item, o candidato deveria usar lógica na interpretação dos processos e associá-los a um conteúdo estabelecido cientificamente.\n\nAmbos os itens exigem conhecimento da influência da pressão na temperatura de ebulição de líquidos, um assunto disperso em propriedades de substâncias puras e mudanças de fase.",
+      "itens": {
+        "a": "A principal vantagem da panela de pressão é o cozimento mais rápido dos alimentos. Nela, a água do cozimento entra em ebulição em temperatura mais alta do que em uma panela comum, pois tem que vencer uma maior resistência à evaporação. Em temperatura mais alta os processos químicos do cozimento tornam-se mais rápidos, diminuindo-se o tempo.",
+        "b": "A maior resistência à evaporação que ocorre no ambiente fechado da panela de pressão (tampa encaixada, processo 3) faz com que a temperatura de ebulição nesse ambiente seja mais elevada, o que corresponde à curva A. Comparando o aquecimento da água com a tampa apenas apoiada e o aquecimento sem tampa, há uma restrição maior na transferência de energia da água para o ambiente quando a tampa está apoiada; logo, a temperatura sobe mais rapidamente nesse caso. Portanto a curva B corresponde ao processo 2, e a curva C corresponde ao processo 1."
+      }
+    },
+    "4": {
+      "resposta": "**Objetivo da questão:** O principal objetivo da questão foi verificar a capacidade do candidato em traduzir conceitos bem sedimentados na Física e na Química para um contexto presente no seu cotidiano, numa situação tipicamente não considerada na sala de aula. O item **a** trata de um ponto fundamental em Química, ao indagar como a concentração de um dos reagentes (no caso, o oxigênio) influencia a velocidade da reação (no caso, a combustão de madeiras no incêndio florestal). O item **b** é igualmente fundamental, porém mais frequentemente visto na disciplina de Física, e trata da velocidade com que o incêndio se propaga. Mais especificamente, esse item verifica a capacidade de leitura e interpretação de dados a partir de um gráfico, bem como a capacidade de relacionar dados experimentais com um modelo físico, ao exigir que se extraiam valores do gráfico, e que esses valores sejam reconhecidos como variáveis do modelo descrito no enunciado para calcular a energia de combustão da madeira.",
+      "itens": {
+        "a": "O tempo para queimar uma mesma área será maior na Amazônia. A vegetação é ali alta e densa, o que dificulta a entrada de ar (oxigênio), o qual faz parte da reação de combustão. Isso não ocorre no Pantanal, que apresenta uma vegetação muito menos densa.",
+        "b": "O enunciado informa que a intensidade da frente do fogo (I), correspondendo ao eixo y da figura, é proporcional ao produto da quantidade (q) de material que queima pela velocidade de propagação da frente (r), sendo a constante de proporcionalidade (H) o calor de combustão. Assim, tomando a inclinação da reta, ou qualquer par (x,y) da figura, pode-se calcular H. Como exemplo, para o par I=400 kW/m, q.r= 0,03 kg/m.s\nI = H q r ;    400 (kW/m)= H x 0,03 (kg/m.s) ;\nH = 13.300 (kW. s/kg) ou H= 13.300 (kJ/kg).\n\nObservação: A energia de combustão tem, convencionalmente, sinal negativo, mas aqui isso não foi considerado."
+      }
+    },
+    "5": {
+      "resposta": "**Objetivo da questão:** Avaliar a habilidade do candidato para interpretar tabelas e resolver sistemas de equações lineares.",
+      "itens": {
+        "a": "Para calcular a média móvel do 18º dia, precisamos utilizar os dados dos dias 15, 16, 17 e 18. Calculando a média destes 4 dias, temos:\n\n$$M = (28 + 28 + 26 + 30)/4 = 28$$",
+        "b": "Para calcular a quantidade de casos notificados nos dias 8, 10 e 11, é preciso utilizar os dados das médias móveis. Vamos chamar de $x_8$ a quantidade de casos notificados no dia 8, $x_{10}$ a quantidade de casos notificados no dia 10 e $x_{11}$ a quantidade de casos notificados no dia 11.\n\nDevemos obter equações que envolvam as variáveis $x_8, x_{10}, x_{11}$.\n\nUma possibilidade é:\n\nutilizar a média móvel do dia 12: $128 = 32 + x_{10} + x_{11} + 28$\n\nutilizar a média móvel do dia 11: $124 = x_8 + 32 + x_{10} + x_{11}$\n\nutilizar a média móvel do dia 10: $112 = 22 + x_8 + 32 + x_{10}$\n\nObtemos, assim, um sistema de equações lineares. A solução deste sistema é $x_8 = 24$, $x_{10} = 34$, $x_{11} = 34$."
+      }
+    },
+    "6": {
+      "resposta": "**Objetivo da questão:** Avaliar o domínio das noções de probabilidade e contagem, bem como a habilidade para interpretar dados numa tabela.",
+      "itens": {
+        "a": "Existem 12 turmas com 3 canhotos, 8 turmas com 4 canhotos e 2 turmas com 5 canhotos. Portanto, das 30 turmas, $12 + 8 + 2 = 22$ têm pelo menos 3 canhotos. Portanto, a probabilidade é de $\\frac{11}{15}$.",
+        "b": "Para descobrir o número de canhotos na escola, devemos analisar a tabela.\n• Existem 2 turmas com 1 canhoto em cada uma delas; portanto, 2 alunos canhotos nestas turmas.\n• Existem 5 turmas com 2 canhotos em cada uma delas; portanto, 10 alunos canhotos nestas turmas.\n• Existem 12 turmas com 3 canhotos em cada uma delas; portanto, 36 alunos canhotos nestas turmas.\n• Existem 8 turmas com 4 alunos canhotos em cada uma delas; portanto, 32 alunos canhotos nestas turmas.\n• Existem 2 turmas com 5 canhotos em cada uma delas; portanto, 10 alunos canhotos nestas turmas.\n\nSomando-se tudo, obtemos $2 + 10 + 36 + 32 + 10 = 90$ alunos canhotos. A probabilidade de escolher um aluno canhoto na escola é de $90/960 = 3/32$."
+      }
+    },
+    "7": {
+      "resposta": "**Objetivo da questão:** Avaliar o conhecimento do candidato sobre relações entre matrizes e sistemas lineares, e simplificação de expressões envolvendo funções trigonométricas.",
+      "itens": {
+        "a": "Usando as fórmulas de arco duplo podemos reescrever a matriz $H$ como sendo\n\n$$H = \\begin{pmatrix}1 - 2\\cos^2(t) & -2\\cos(t)\\operatorname{sen}(t)\\\\ -2\\cos(t)\\operatorname{sen}(t) & 1 - 2\\operatorname{sen}^2(t)\\end{pmatrix} = \\begin{pmatrix}-\\cos(2t) & -\\operatorname{sen}(2t)\\\\ -\\operatorname{sen}(2t) & \\cos(2t)\\end{pmatrix}.$$\n\nPara mostrar que a matriz é invertível, podemos calcular seu determinante e mostrar que ele é diferente de zero. Assim:\n\n$$\\det(H) = -\\cos^2(2t) - \\operatorname{sen}^2(2t) = -1.$$\n\nLogo, a matriz é invertível.",
+        "b": "Devemos resolver o sistema\n\n$$\\begin{pmatrix}-\\cos(2t) & -\\operatorname{sen}(2t)\\\\ -\\operatorname{sen}(2t) & \\cos(2t)\\end{pmatrix}\\begin{pmatrix}3\\\\ 2\\end{pmatrix} = \\begin{pmatrix}2\\\\ 3\\end{pmatrix},$$\n\nque pode ser reescrito como\n\n$$\\begin{cases}3(-\\cos(2t)) + 2(-\\operatorname{sen}(2t)) = 2,\\\\ 3(-\\operatorname{sen}(2t)) + 2(\\cos(2t)) = 3,\\end{cases}$$\n\nque é equivalente ao sistema\n\n$$\\begin{cases}-3\\cos(2t) - 2\\operatorname{sen}(2t) = 2,\\\\ -3\\operatorname{sen}(2t) + 2\\cos(2t) = 3.\\end{cases}$$\n\nMultiplicando-se a primeira linha por 2 e a segunda por 3, e somando-se as equações, obtemos\n\n$$\\operatorname{sen}(2t) = -1$$\n\nou seja, $t = \\frac{3\\pi}{4}$ ou $t = \\frac{7\\pi}{4}$."
+      }
+    },
+    "8": {
+      "resposta": "**Objetivo da questão:** Avaliar a capacidade do candidato de entender uma construção geométrica, bem como seu domínio de geometria plana e progressões aritméticas.",
+      "itens": {
+        "a": "O perímetro de $P_n$ não depende de $n$, e é igual a $2(a+b)$.\n\nO polígono $P_n$ tem $2 + 2n$ lados, o que pode ser percebido pela regra de construção. Assim, $P_{2021}$ tem 4044 lados.",
+        "b": "A área do triângulo retângulo de catetos $a$ e $b$ é $A = ab/2$.\n\nPara calcular a área de $\\boldsymbol{P_n}$, observe que $\\boldsymbol{P_n}$ pode ser dividido em\n\n$S = n + (n-1) + (n-2) + \\cdots + 3 + 2 + 1$ retângulos de área $\\frac{ab}{n^2}$\n\nA soma anterior é a soma de uma progressão aritmética e resulta em\n\n$$S = \\frac{n(n+1)}{2}$$\n\nPortanto,\n\n$$A_n = \\frac{ab}{n^2} \\cdot \\frac{n(n+1)}{2} = \\frac{ab}{n} \\cdot \\frac{(n+1)}{2}$$\n\nLogo,\n\n$$\\frac{A_n}{A} = \\frac{n(n+1)}{n^2} = 1 + \\frac{1}{n}.$$"
+      }
+    },
+    "9": {
+      "resposta": "**Objetivo da questão:** Avaliar a capacidade do candidato de resolver problemas envolvendo áreas de figuras planas, bem como distâncias e interseção de circunferências.",
+      "itens": {
+        "a": "Para calcularmos o valor da ordenada $h$ do ponto $E$, podemos decompor a figura em um trapézio de vértices $BCDE$ e em um triângulo de vértices $ABE$.\n\nNeste caso, a área do triângulo é igual a $A_{ABE} = 3(h-5)/2$ e a área do trapézio é $A_{BCDE} = (h+1) \\cdot 5/2$. Portanto,\n\n$$\\frac{3(h-5)}{2} + \\frac{5(h+1)}{2} = 63,$$\n\no que nos dá $h = 17$.",
+        "b": "O enunciado nos diz que o ponto $(x, y)$ dista 12.000 km do ponto $A = (8, 14)$ e 18.000 km do ponto $B = (8, -4)$. Portanto, o ponto $(x, y)$ satisfaz às equações\n\n$$(x-8)^2 + (y-14)^2 = 12^2, \\qquad (x-8)^2 + (y+4)^2 = 18^2.$$\n\nDesenvolvendo as equações, temos\n\n$$x^2 - 16x + y^2 - 28y = -116, \\qquad x^2 - 16x + y^2 + 8y = 244.$$\n\nSubtraindo a segunda equação da primeira, obtemos $-36y = -360$; portanto, $y = 10$. Substituindo este valor em qualquer uma das equações (usaremos a equação que dá a distância até o ponto $B$), temos que\n\n$$x^2 - 16x - 64 = 0.$$\n\nResolvendo esta equação e descartando a solução que corresponde a um ponto no continente, obtemos a resposta $(x, y) = (8 + 8\\sqrt{2}, 10)$."
+      }
+    },
+    "10": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos de geometria analítica do candidato, bem como sua capacidade de leitura e interpretação de texto.",
+      "itens": {
+        "a": "A reta $x - y = 0$ pode ser escrita da forma $y = x$. Portanto, seu coeficiente angular é $m = 1$. Para que uma reta tangente ao gráfico seja paralela à reta $y = x$, seu coeficiente angular precisará ser igual a 1. Como o coeficiente angular é dado por $m = g(a) = 3a^2 - 2$, devemos resolver $3a^2 - 2 = 1$, o que nos dá $a = \\pm 1$.\n\nPortanto, os pontos do gráfico em que a reta tangente ao gráfico é paralela à reta $y = x$ são os pontos $(1, f(1)) = (1, 0)$ e $(-1, f(-1)) = (-1, 2)$.",
+        "b": "Se a inclinação no ponto $(a, f(a))$ vale 10, então $3a^2 - 2 = 10$; ou seja, $a = \\pm 2$. Como o enunciado diz que $a > 0$, a única opção é $a = 2$, e o ponto tem coordenadas $(2, 5)$. A equação da reta tangente é dada por $y = 10x - 15$.\n\nPara encontrar os pontos de interseção desta reta com o gráfico da função, devemos resolver a equação $x^3 - 2x + 1 = 10x - 15$, ou $x^3 - 12x + 16 = 0$.\n\nJá conhecemos uma das soluções: $x = 2$ satisfaz à equação, pois a reta é tangente ao gráfico de $y = x^3 - 2x + 1$. Portanto, o polinômio $q(x) = x^3 - 12x + 16$ é divisível por $x - 2$. Efetuando a divisão polinomial, obtemos\n\n$$x^3 - 12x + 16 = (x-2)(x^2 + 2x - 8),$$\n\ne as outras soluções são as raízes de $x^2 + 2x - 8 = 0$, que são $x = -4$ e $x = 2$. O outro ponto de interseção da reta tangente com o gráfico de $y = f(x)$ é $(-4, -55)$.\n\nAssim, a resposta é $(2, 5)$ e $(-4, -55)$."
+      }
+    },
+    "11": {
+      "resposta": "**Objetivo da questão:** A questão 11 aborda no item **a** o tópico Cinemática do movimento em uma dimensão, e, no item **b**, diferença de potencial elétrico, corrente elétrica e resistores. Nos dois itens o fenômeno de descarga atmosférica é tratado, explorando-se o atraso do som do trovão, no item **a**, e a resistência elétrica do ar ionizado durante a descarga, no item **b**.",
+      "itens": {
+        "a": "$$\\Delta s = v\\Delta t = 340\\ \\text{m/s} \\times 5\\ \\text{s} = 1700\\ \\text{m}$$",
+        "b": "$$R = \\frac{V}{I} = \\frac{6{,}0 \\times 10^7\\ \\text{V}}{8{,}0 \\times 10^5\\ \\text{A}} = 75\\ \\Omega$$\n\n$$\\rho = R\\,\\frac{A}{L} = 75\\ \\Omega\\,\\frac{3 \\times 10^{-4}\\ \\text{m}^2}{9 \\times 10^3\\ \\text{m}} = 2{,}5 \\times 10^{-6}\\ \\Omega\\text{m}$$"
+      }
+    }
+  }
+}
