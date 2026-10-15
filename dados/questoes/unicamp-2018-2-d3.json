@@ -1,0 +1,423 @@
+{
+ "edicao": {
+  "id": "unicamp-2018-2-d3",
+  "vestibular": "unicamp",
+  "ano": 2018,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2018 – 2ª fase (3º dia: Física, Química e Biologia)",
+  "caderno": "3º dia: Física, Química e Biologia",
+  "fonte": {
+   "caderno": "2fase-fis-bio-qui-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-fisica-respostas.pdf",
+    "2fase-quimica-respostas.pdf",
+    "2fase-biologia-respostas.pdf",
+    "2fase-fisica-comentada.pdf",
+    "2fase-quimica-comentada.pdf",
+    "2fase-biologia-comentada.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2018-2-d3-q01",
+   "numero": 1,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Dados genéticos podem ser utilizados para estudar populações de uma espécie no ambiente natural. Por exemplo, amostras de DNA podem ser coletadas para identificar espécies, estimar tamanhos populacionais ou identificar indivíduos. Um pesquisador coletou duas amostras de fezes em uma localidade na Índia e sequenciou parte do gene *Gapdh* dos DNAs extraídos a partir delas. Como resultado, foram obtidas as sequências abaixo (apenas uma das fitas do DNA é mostrada).\n\nAmostra 1 5' ACAGGATCCAATAACCCCGCAGGAATGGTG 3'\nAmostra 2 5' ACAGGATCCAATAACCCCTCACGAATGGTG 3'\n\nAs sequências da mesma região do gene *Gapdh* nos genomas do tigre de Bengala (*Panthera tigris*) e do leopardo (*Panthera pardus*) são:\n\n*Panthera tigris* 5' ACAGGATCCAATAACCCCGCAGGAATGGTG 3'\n*Panthera pardus* 5' ACAGGATCTAACAACCCCGCAGGAATAGTA 3'\n\n(Fonte: J. Bhagavatula e L. Singh. *BMC Genetics*, Londres, v. 7, p. 48, out. 2006.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "De posse desses dados, responda: as amostras de fezes 1 e 2 pertencem, com maior probabilidade, a tigres de Bengala ou a leopardos? As amostras 1 e 2 pertencem ao mesmo indivíduo ou a dois indivíduos diferentes? Justifique sua resposta.",
+     "resposta_oficial": "(2 pontos)\n\nComparando-se as sequências fornecidas, nota-se que as amostras 1 e 2 provavelmente pertencem ao tigre de Bengala, pois há menos diferenças entre cada amostra e a sequência do gene *Gapdh* em *Panthera tigris* do que na comparação das amostras com *Panthera pardus*. As amostras 1 e 2 não pertencem ao mesmo indivíduo, pois as sequências do gene *Gapdh* são ligeiramente diferentes nas duas amostras."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um crítico argumentou que o trabalho do pesquisador não era válido, pois as sequências do gene nuclear *Gapdh* foram obtidas a partir de amostras de fezes. Segundo o crítico, material genético nuclear de felinos só poderia ser extraído com qualidade a partir de hemácias (eritrócitos) coletadas dos animais. Quem tem razão, o pesquisador ou o crítico? Justifique.",
+     "resposta_oficial": "(2 pontos)\n\nO pesquisador tem razão, pois fezes possuem fragmentos celulares a partir dos quais DNA nuclear pode ser extraído facilmente. Além disso, não há DNA nuclear em hemácias de mamíferos, já que estas são anucleadas."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria saber que: (a) há variabilidade genética entre distintos indivíduos; (b) o DNA é o mesmo em todas as células nucleadas de um indivíduo; (c) os pesquisadores são capazes de realizar análises genéticas a partir de amostras fecais ou qualquer amostra que contenha material celular nucleado.\nQuanto às <u>capacidades desejadas</u> no estudante, a questão avaliou: (a) a argumentação lógica do candidato (ao opinar sobre quem tinha razão, o pesquisador ou o crítico); e (b) sua capacidade de interpretar dados.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q02",
+   "numero": 2,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura **A** abaixo mostra o claro dimorfismo sexual que ocorre na espécie de besouro neotropical *Dynastes hercules* (besouro-hércules), um dos maiores besouros do mundo. Nos machos, protuberâncias cefálicas e torácicas formam estruturas semelhantes aos chifres de alguns mamíferos. Um estudo mostrou que, nessa espécie, há três tipos de machos geneticamente distintos, **P**, **M** e **G**, que diferem apenas quanto ao tamanho médio dos \"chifres\" (figura **B**). Os dados na figura **C** indicam a capacidade de machos dos três tipos de copular com fêmeas. Testes genéticos mostraram ainda que 85% dos filhotes em cada geração têm machos do tipo G como pais.\n\n![Figura A: fotografia em preto e branco de dois besouros, um acima do outro. O de cima, marcado com o símbolo ♂, tem um chifre longo e curvo na cabeça e outro menor no tórax; o de baixo, marcado com o símbolo ♀, não tem chifres.](fig:p04-c3)\n\n(Fonte: Udo Schmidt. Disponível em https://www.flickr.com/photos/30703260@N08. Acessado em 29/10/2017.)\n\n![Figura B: gráfico de barras do tamanho médio do “chifre” (cm), com eixo vertical de 4 a 9, para os machos dos tipos P, M e G; as barras têm alturas crescentes de P para M e para G.](fig:p04-c4)\n\n![Figura C: tabela com as colunas “Tipo de macho” e “Capacidade de cópula”, com os valores P, 70; M, 85; G, 100. Legenda: “Capacidade de cópula de cada tipo de macho (% de encontros com uma fêmea que resultam em cópula)”.](fig:p04-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Os \"chifres\" são parte do esqueleto do besouro-hércules macho. Cite duas características do esqueleto de artrópodes e duas diferenças em relação ao esqueleto de vertebrados.",
+     "resposta_oficial": "(2 pontos)\n\nO esqueleto de artrópodes é do tipo exoesqueleto articulado, constituído predominantemente por quitina. Já os vertebrados possuem endoesqueleto, que é formado por tecido ósseo e/ou cartilaginoso."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Darwin acreditava que diferenças entre animais machos e fêmeas como as mostradas na figura **A** surgem durante a evolução como consequência da seleção sexual, um tipo especial de seleção natural. Defina seleção natural. Utilizando os dados fornecidos acima, explique por que a característica masculina dimórfica do besouro-hércules é uma adaptação, fruto da seleção natural.",
+     "resposta_oficial": "(2 pontos)\n\nSeleção natural é a sobrevivência ou a reprodução diferencial de tipos distintos de indivíduos em uma população, em um processo em que os mais aptos têm maior sucesso na transferência de seus genes para as gerações seguintes. Os besouros do tipo G, que possuem \"chifres\" maiores, têm maior sucesso reprodutivo do que os tipos P e M. Logo, trata-se de um caso de seleção natural. Como consequência, machos com \"chifres\" maiores conseguem passar seus genes às próximas gerações mais eficientemente. Essa característica torna-se então cada vez mais frequente, constituindo, portanto, uma adaptação."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** <u>Conhecimentos biológicos</u> exigidos do candidato: o importantíssimo conceito de seleção natural; características fundamentais da organização do esqueleto em animais, incluindo comparação entre vertebrados e invertebrados; além de algum conhecimento sobre zoologia (morfologia e função).\n\n<u>Capacidades desejadas</u> no candidato: capacidade de argumentação lógica (extrair informações dos gráficos e relacionar com conteúdo programático do Ensino Médio sobre evolução de seres vivos); habilidade para interpretar dados, gráficos e tabelas.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q03",
+   "numero": 3,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As questões a seguir tratam de alimentação e saúde humana.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um dos maiores problemas de saúde pública no mundo é a obesidade. Considerando separadamente as populações masculina e feminina, em qual faixa etária houve maior crescimento proporcional de obesos entre 1975 e 2009, de acordo com os gráficos abaixo? Sabendo que os carboidratos constituem aproximadamente 50% da dieta diária recomendada pelo Ministério da Saúde, explique a necessidade desse nutriente e por que ele pode causar obesidade.\n\n![Gráficos de barras “Evolução dos brasileiros acima do peso nas últimas décadas”, em %, para o sexo masculino e para o sexo feminino, em três faixas etárias (5 a 9 anos, 10 a 19 anos e 20 anos ou mais). Em cada faixa há barras de sobrepeso (preenchidas) e de obesidade (vazadas) em 1975 e em 2009. Sexo masculino, 5 a 9 anos: 1975, sobrepeso 11 e obesidade 3; 2009, sobrepeso 35 e obesidade 17. 10 a 19 anos: 1975, 4 e 0,5; 2009, 22 e 6. 20 anos ou mais: 1975, 19 e 3; 2009, 50 e 12. Sexo feminino, 5 a 9 anos: 1975, sobrepeso 9 e obesidade 2; 2009, 32 e 12. 10 a 19 anos: 1975, 8 e 1; 2009, 19 e 4. 20 anos ou mais: 1975, 29 e 8; 2009, 48 e 17.](fig:p05-c1)\n\n(Fonte: Pesquisa de orçamentos familiares, Instituto Brasileiro de Geografia e Estatística - IBGE. Disponível em www.ibge.gov.br/estatisticas-novoportal. Acessado em 15/10/2017.)",
+     "resposta_oficial": "(2 pontos)\n\nDe acordo com o gráfico, para o sexo masculino observamos maior aumento na faixa etária de 10 a 19 anos (aumento aproximado de 12 vezes). Para o sexo feminino, observamos maior aumento na faixa etária de 5 a 9 anos (aumento aproximado de 6 vezes). Os carboidratos são importantes fontes de energia para o metabolismo. Quando consumidos em excesso (ingestão calórica maior que a demanda energética), podem ser convertidos em lipídeos e armazenados no tecido adiposo, causando obesidade."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O consumo diário de frutas, hortaliças e legumes é considerado altamente benéfico para a saúde humana. Um estudo realizado no Hospital do Câncer de Barretos (SP) indicou que as hortaliças da família das crucíferas (brócolis, couve-flor, couve, agrião, rúcula, entre outras), após passarem por processamento enzimático no organismo, liberam sulforafano e indol-3-carbinol, substâncias capazes de inibir a proliferação celular. O que é o câncer? Por que as hortaliças da família das crucíferas são consideradas importantes na prevenção dessa doença?",
+     "resposta_oficial": "(2 pontos)\n\nCâncer é uma doença genética caracterizada pela presença de células que perdem a capacidade de regular sua divisão e passam a proliferar descontroladamente (células cancerosas). As hortaliças citadas são importantes pois contêm compostos antimitóticos, inibindo a proliferação celular em geral, incluindo a multiplicação desenfreada da célula cancerosa."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** <u>Conhecimentos biológicos</u>: relação entre alimentação, saúde humana, metabolismo energético e armazenamento de energia. Além disso, o candidato deveria ter conhecimentos sobre câncer, proliferação de células cancerosas e divisão celular. Foi uma questão abrangente em termos de conteúdo biológico, mas com um forte viés para as áreas de saúde humana e saúde pública.\n\n<u>Capacidades desejadas</u> no candidato: capacidade de argumentação lógica (relacionar ingestão de alimentos energéticos com armazenamento de excesso de compostos energéticos na forma de gordura) e de interpretação de gráficos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q04",
+   "numero": 4,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Plantas têm papel crucial na ciclagem de carbono e de água no ambiente, captando e liberando o gás carbônico atmosférico e transferindo água do solo para o ar. Os gráficos abaixo representam padrões anuais de variação nas concentrações de vapor d’água do ar e de gás carbônico em regiões ocupadas por duas florestas tropicais distintas, A e B.\n\n![Dois gráficos de linhas com marcadores, de janeiro (J) a dezembro (D), para a Floresta A (círculos brancos) e a Floresta B (círculos pretos). Gráfico da esquerda: umidade relativa do ar (%), eixo vertical de 30 a 90, em função dos meses. Gráfico da direita: $\\text{CO}_2$ (ppm), eixo vertical de 300 a 420, em função dos meses.](fig:p06-c1)\n\nAs variações mostradas ocorrem como consequência da presença das florestas. A precipitação nas duas áreas ocorre no período quente do ano (setembro a abril). Além disso, a concentração de $\\text{CO}_2$ atmosférico seria de 380 ppm se não houvesse cobertura vegetal.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando que a transpiração tem relação direta com o consumo hídrico, qual das duas florestas tem maior dependência de disponibilidade de água? Considerando que a fotossíntese e a respiração determinam o padrão anual de variação de $\\text{CO}_2$, qual das duas florestas tem maior produção anual de biomassa? Justifique suas respostas.",
+     "resposta_oficial": "(2 pontos)\n\nAnalisando o gráfico de umidade relativa do ar, conclui-se que a floresta A transpira mais do que a floresta B no período chuvoso, promovendo maior umidade do ar. Uma vez que maior transpiração requer maior consumo hídrico, a floresta A exibe maior dependência de água. Analisando o gráfico de concentração de $\\text{CO}_2$, nota-se que na maior parte do ano o nível de $\\text{CO}_2$ da floresta A é menor do que na floresta B, significando que há mais remoção de $\\text{CO}_2$ da atmosfera pela fotossíntese do que sua liberação em virtude da respiração. Portanto, a floresta A produz mais biomassa, pois tem um balanço mais positivo entre fotossíntese e respiração ao longo do ano."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em um cenário de redução no regime de chuvas, o que aconteceria com as concentrações de vapor d’água do ar e de $\\text{CO}_2$ nas regiões ocupadas pelas florestas? Justifique sua resposta.",
+     "resposta_oficial": "(2 pontos)\n\nO menor volume de chuvas levaria ao fechamento dos estômatos, acarretando menor transpiração e fotossíntese (captação de $\\text{CO}_2$), levando por sua vez à redução na umidade relativa do ar e ao aumento da concentração de $\\text{CO}_2$."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** <u>Conhecimentos biológicos</u>: dois aspectos importantíssimos da fisiologia de plantas — transpiração e balanço fotossíntese-respiração — que têm relevância para a área da agricultura e, portanto, para nosso Estado e nosso país. Em particular, o candidato deveria conhecer a relação entre a transpiração de plantas e a umidade relativa do ar, além da relação entre o balanço fotossíntese-respiração, acúmulo de biomassa e concentração de $\\text{CO}_2$ no ar. A questão relaciona diversos conteúdos, contêm gráficos e demanda elaboração de hipóteses.\n\n<u>Capacidades desejadas</u> no candidato: capacidade de argumentação lógica, pois o candidato deveria resgatar informações de variáveis ambientais fornecidas pelos gráficos e relacioná-las a conteúdo sobre fisiologia vegetal. Além disso, a questão exigia interpretação de gráficos e elaboração de hipóteses. Trata-se de uma questão eficiente para a seleção de bons alunos para a UNICAMP, em qualquer área.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q05",
+   "numero": 5,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A estrutura química do composto puromicina é muito semelhante à estrutura de um RNA transportador. Em virtude dessa semelhança, os ribossomos de procariotos são capazes de interagir com a puromicina como se ela fosse um RNA transportador. O ribossomo catalisa a formação de uma ligação covalente entre a cadeia proteica em crescimento e a puromicina, se este composto estiver presente durante a tradução. Após tal evento bioquímico, novos aminoácidos não podem ser incorporados à cadeia da proteína.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Por que a puromicina tem ação antibiótica sobre bactérias? Na presença de puromicina, a massa molecular média de uma dada proteína bacteriana será maior, igual ou menor em relação à massa média da mesma proteína na ausência do antibiótico? Explique seu raciocínio.",
+     "resposta_oficial": "(2 pontos)\n\nA puromicina tem ação antibiótica sobre bactérias, pois interrompe a tradução (síntese proteica) realizada pelos ribossomos procarióticos, processo bioquímico essencial para tais organismos. Uma vez que a puromicina interrompe o crescimento da cadeia proteica, a massa molecular média de uma dada proteína, na presença do antibiótico, será menor do que na ausência do mesmo."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A puromicina também é utilizada para transgenia. Neste caso, um gene que codifica uma enzima capaz de destruir a puromicina é adicionado, juntamente com o gene de interesse do pesquisador, ao genoma de células cultivadas *in vitro*. Na presença de puromicina, a taxa de sobrevivência de células que receberam esses genes será igual, maior ou menor em relação à sobrevivência de células não modificadas? Explique seu raciocínio.",
+     "resposta_oficial": "(2 pontos)\n\nCélulas que receberam o referido gene conseguirão destruir a puromicina por causa da enzima codificada por ele. Não serão, portanto, afetadas pela puromicina e preservarão a integridade de seu processo de tradução, levando a uma maior taxa de sobrevivência em relação às células não transgênicas."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** <u>Conhecimentos biológicos</u>: conhecimentos sobre biologia celular, bioquímica, biotecnologia e, particularmente, sobre tradução, transgenia e antibióticos.\n\n<u>Capacidades desejadas</u> no candidato: a questão exigiu do candidato capacidade de relacionar ideias e, principalmente, de elaborar explicações com concatenação coerente de ideias.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q06",
+   "numero": 6,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O heredograma abaixo representa o padrão de herança, em uma única família, de uma doença genética humana. Os indivíduos doentes são representados em preto, enquanto os indivíduos não doentes são indicados em branco. Nessa família, a doença é causada por apenas um loco gênico, localizado em um dos dois tipos de cromossomos sexuais. No conjunto dos indivíduos da família, esse loco apresenta dois alelos, $A_1$ e $A_2$.\n\n![Heredograma de quatro gerações, com quadrados e círculos preenchidos em preto ou deixados em branco, ligados por linhas de casamento e de descendência, e quadro de legenda: quadrado preto e quadrado branco = homens; círculo preto e círculo branco = mulheres.](fig:p08-c1)\n\n(Inspirado em Maria C. N. Marchetto e outros, A model for neural development and treatment of Rett Syndrome using human induced pluripotent stem cells. *Cell*, Cambridge, v. 143, p. 527–539, nov. 2010. Pesquisa realizada pela equipe do brasileiro Alysson Muotri, ex-aluno da UNICAMP e atualmente professor da Universidade da Califórnia, San Diego, EUA.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O loco gênico envolvido nessa doença está no cromossomo X ou no cromossomo Y? Considerando que um dos alelos é dominante, o alelo que promove o aparecimento da doença nos indivíduos afetados (alelo $A_1$) é dominante ou recessivo em relação ao alelo $A_2$ ? Explique como você chegou às suas conclusões.",
+     "resposta_oficial": "(2 pontos)\n\nO loco está no cromossomo X, pois, no heredograma, há homens e mulheres afetados pela doença; se o loco estivesse no cromossomo Y, apenas homens seriam afetados. O alelo $A_1$ é dominante, pois neste caso espera-se que todas as filhas de homens afetados tenham a doença, situação representada no heredograma."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Pesquisas recentes analisaram as alterações causadas nos neurônios de indivíduos doentes pelo alelo $A_1$. Nessas pesquisas, fibroblastos coletados da pele de pessoas afetadas foram utilizados para produzir células-tronco pluripotentes (iPSC). As iPSC foram então utilizadas para gerar neurônios. Por que células-tronco podem originar neurônios? Por que não seria adequado aos pesquisadores estudar os efeitos neuronais do alelo $A_1$ diretamente nos fibroblastos coletados da pele dos indivíduos afetados?",
+     "resposta_oficial": "(2 pontos)\n\niPSC são células-tronco pluripotentes e, como tal, podem diferenciar-se em vários outros tipos celulares, inclusive neurônios. Os efeitos neuronais do alelo $A_1$ nunca seriam vistos em fibroblastos, pois estas células não apresentam as características fenotípicas de neurônios, como, por exemplo, a excitabilidade da membrana plasmática e a capacidade de conduzir sinais elétricos."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** <u>Conhecimentos biológicos</u>: hereditariedade e padrões de herança; células-tronco. O primeiro é um tema clássico de Genética no Ensino Médio, enquanto o segundo é um tema atual e de relevância social e médica. O primeiro tema, embora clássico, foi cobrado de forma não usual, requerendo capacidade de argumentação lógica e recuperação de informações em um heredograma.\n\n<u>Capacidades desejadas</u> no candidato: a questão exigiu capacidade de argumentação lógica com uso e interpretação dos dados fornecidos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q07",
+   "numero": 7,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Esteiras rolantes horizontais são frequentemente instaladas em grandes aeroportos para facilitar o deslocamento das pessoas em longos corredores. A figura ao lado mostra duas esteiras rolantes que se deslocam em sentidos opostos com velocidades constantes em relação ao piso em repouso ($\\vec{v}_{e1}$ e $\\vec{v}_{e2}$) e de mesmo módulo, igual a 1,0 m/s. Em um mesmo instante, duas pessoas (representadas por A e B) que se deslocavam com velocidade constante de módulo igual a $v_A = 1{,}5\\ \\text{m/s}$ e $v_B = 0{,}5\\ \\text{m/s}$ em relação ao piso e em sentidos contrários entram nas esteiras e continuam caminhando como anteriormente, como mostra a figura. As esteiras rolantes têm comprimento total de 120 m.\n\n![Duas esteiras rolantes lado a lado, desenhadas na vertical, com comprimento de 120 m indicado por uma seta dupla à direita. Sobre a esteira da esquerda, um quadro A com uma seta para baixo rotulada $\\vec{v}_A$ acima da esteira e, dentro dela, uma seta para baixo rotulada $\\vec{v}_{e1}$. Na esteira da direita, dentro dela, uma seta para cima rotulada $\\vec{v}_{e2}$ e, abaixo da esteira, uma seta para cima rotulada $\\vec{v}_B$ e um quadro B.](fig:p09-c2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Calcule o tempo necessário para que a pessoa A chegue até a outra extremidade da esteira rolante.",
+     "resposta_oficial": "(2 pontos)\n\nO tempo necessário para que a pessoa A chegue até a outra extremidade da esteira rolante é dado por:\n\n$$t = \\frac{d}{v} = \\frac{d}{v_e + v_A} = \\frac{120}{1{,}0 + 1{,}5} = 48\\ \\text{s}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Quanto tempo depois de entrarem nas esteiras as pessoas A e B passam uma pela outra?",
+     "resposta_oficial": "(2 pontos)\n\nAs pessoas A e B passam uma pela outra quando\n\n$$(v_A + v_e)\\,t = 120 - (v_B + v_e)\\,t$$\n\n$$2{,}5\\,t = 120 - 1{,}5\\,t$$\n\nAssim:\n\n$$t = \\frac{120}{4{,}0} = 30\\ \\text{s}$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:**\n\n**a)** A questão aborda conceitos de movimento uniforme e velocidade relativa, contextualizados do deslocamento das pessoas nos aeroportos. Neste item, o candidato deveria usar esses conceitos para calcular o tempo necessário para que a pessoa A chegue até a outra extremidade da esteira rolante.\n\n**b)** Nesse item os conceitos de movimento uniforme e velocidade relativa exigidos para o cálculo do tempo necessário até o encontro das pessoas A e B.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q08",
+   "numero": 8,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um gigantesco *iceberg* desprendeu-se recentemente da Antártida, no extremo sul do planeta. O desprendimento desse *iceberg*, batizado de A68, foi considerado um dos maiores eventos do gênero já registrados pela ciência moderna. Segundo a NASA, é difícil prever se o *iceberg* permanecerá como um único bloco, mas é mais provável que ele se fragmente.\n\n*(Nota da plataforma: o caderno traz, na página de instruções, a orientação “Quando necessário, use: g = 10 m/s², π = 3”.)*",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere que o *iceberg* tem o formato aproximado de uma placa de $6000\\ \\text{km}^2$ de área e 500 m de espessura. Sendo a densidade do gelo $\\rho_g = 900\\ \\text{kg/m}^3$, calcule o empuxo sobre o *iceberg* que o mantém flutuando.",
+     "resposta_oficial": "(2 pontos)\n\nO empuxo que mantém o *iceberg* flutuando é igual, em módulo, ao peso do *iceberg*:\n\n$$E = P = mg = (\\text{Volume} \\times \\rho_g)\\,g$$\n\n$$E = (6000 \\times 10^6) \\times 500 \\times 900 \\times 10 = 2{,}7 \\times 10^{16}\\ \\text{N}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Suponha um *iceberg* com velocidade de deriva constante. Em um dado momento, tensões internas fazem com que dois blocos de gelo menores, A e B, se desprendam e sejam lançados em sentidos opostos e perpendicularmente à direção da velocidade de deriva do *iceberg*. As massas dos blocos são $m_A = 2{,}0 \\times 10^5\\ \\text{kg}$ e $m_B = 5{,}0 \\times 10^4\\ \\text{kg}$. Sabendo que imediatamente após a fragmentação a direção da velocidade de deriva do *iceberg* se mantém, e que o módulo da velocidade do bloco A é $v_A = 0{,}5\\ \\text{m/s}$, calcule o módulo da velocidade do bloco B imediatamente após a ruptura.",
+     "resposta_oficial": "(2 pontos)\n\nAplicando a lei de conservação do momento linear: $p_A + p_B = 0$\n\n$$m_A \\times v_A + m_B \\times v_B = 0$$\n\n$$2{,}0 \\times 10^5 \\times 0{,}5 + 5{,}0 \\times 10^4 \\times v_B = 0$$\n\n$$v_B = -2{,}0\\ \\text{m/s}$$\n\n$$|v_B| = 2{,}0\\ \\text{m/s}$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:**\n\n**a)** Utilizando como contexto o desprendimento recente de gigantesco iceberg, a questão pressupõe neste item o domínio do conceito de equilíbrio entre as forças peso e empuxo que atuam no iceberg. Aplicando esse conceito, o candidato deveria calcular o empuxo sobre o iceberg.\n\n**b)** Nesse item, supondo a fragmentação do iceberg, o candidato deveria usar os conceitos de conservação do momento linear para calcular o módulo da velocidade de um dos fragmentos logo após a ruptura.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q09",
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Importantes estudos sobre o atrito foram feitos por Leonardo da Vinci (1452-1519) e por Guillaume Amontons (1663-1705). A figura (a) é uma ilustração feita por Leonardo da Vinci do estudo sobre a influência da área de contato na força de atrito.\n\n![Figura (a): desenho antigo a traço, em duas partes. À esquerda, uma coluna de cinco blocos quadrados empilhados, ligada por uma corda horizontal a uma polia, da qual pende um bloco. À direita, uma fileira de três blocos retangulares sobre uma superfície horizontal, ligada por uma corda a outra polia, da qual pende outro bloco.](fig:p11-c1)\n\n*(Nota da plataforma: o caderno traz, na página de instruções, a orientação “Quando necessário, use: g = 10 m/s², π = 3”.)*",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Dois blocos de massas $m_1 = 1{,}0\\ \\text{kg}$ e $m_2 = 0{,}5\\ \\text{kg}$ são ligados por uma corda e dispostos como mostra a figura (b). A polia e a corda têm massas desprezíveis, e o atrito nas polias também deve ser desconsiderado. O coeficiente de atrito cinético entre o bloco de massa $m_2$ e a superfície da mesa é $\\mu_c = 0{,}8$. Qual deve ser a distância de deslocamento do conjunto para que os blocos, que partiram do repouso, atinjam a velocidade $v = 2{,}0\\ \\text{m/s}$?\n\n![Figura (b): bloco rosa $m_2$ apoiado sobre uma mesa, perto da quina, ligado por uma corda horizontal a uma polia presa na quina da mesa; da polia pende, ao lado da mesa, um bloco verde $m_1$.](fig:p11-c2)",
+     "resposta_oficial": "(2 pontos)\n\nA variação da energia cinética do sistema é igual ao trabalho da força resultante:\n\n$$\\Delta E_{\\text{cin}} = \\tau_{\\text{total}} = \\tau_{\\text{peso}} + \\tau_{\\text{atrito}}$$\n\n$$\\frac{1}{2}(m_1 + m_2)\\,v^2 - 0 = m_1 g d - \\mu_c m_2 g d$$\n\n$$d = \\frac{(m_1 + m_2)\\,v^2}{2(m_1 - \\mu_c m_2)\\,g} = \\frac{1{,}5\\ \\text{kg} \\times (2{,}0\\ \\text{m/s})^2}{2(1{,}0 - 0{,}8 \\times 0{,}5)\\ \\text{kg} \\times 10\\ \\text{m/s}^2} = \\frac{6}{12}\\ \\text{m} = 0{,}5\\ \\text{m}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em certos casos, a lei de Amontons da proporcionalidade entre a força de atrito cinético e a força normal continua válida nas escalas micrométrica e nanométrica. A figura (c) mostra um gráfico do módulo da força de atrito cinético, $F_{\\text{at}}$, em função do módulo da força normal, $N$, entre duas monocamadas moleculares de certa substância, depositadas em substratos de vidro. Considerando $N = 5{,}0\\ \\text{nN}$, qual será o módulo do trabalho da força de atrito se uma das monocamadas se deslocar de uma distância $d = 2{,}0\\ \\mu\\text{m}$ sobre a outra que se mantém fixa?\n\n![Figura (c): gráfico de $F_{\\text{at}}$ (nN), eixo vertical de 0 a 4, em função de $N$ (nN), eixo horizontal de 0 a 10, com pontos quadrados e uma linha tracejada que acompanha os pontos.](fig:p11-c3)",
+     "resposta_oficial": "(2 pontos)\n\nDo gráfico obtemos que $F_{\\text{at}} = 1{,}5\\ \\text{nN}$ para $N = 5{,}0\\ \\text{nN}$. Portanto,\n\n$$|\\tau_{\\text{atrito}}| = F_{\\text{at}}\\, d = 1{,}5 \\times 10^{-9}\\ \\text{N} \\times 2{,}0 \\times 10^{-6}\\ \\text{m} = 3{,}0 \\times 10^{-15}\\ \\text{J}$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:**\n\n**a)** Utilizando como contexto os importantes estudos sobre o atrito feitos por Leonardo da Vinci e por Guillaume Amontons, esse item exigia o conhecimento dos conceitos de força ou de trabalho-energia, que deveriam ser utilizados de forma concatenada para encontrar a distância de deslocamento do conjunto de blocos.\n\n**b)** Esse item exigia a leitura do gráfico fornecido e o uso do conceito físico de trabalho da força de atrito para a sua solução.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q10",
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Termômetros clínicos convencionais, de uso doméstico, normalmente baseiam-se na expansão térmica de uma coluna de mercúrio ou de álcool, ao qual se adiciona um corante. Com a expansão, o líquido ocupa uma parte maior de uma coluna graduada, na qual se lê a temperatura.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O volume de álcool em um termômetro é $V_0 = 20\\ \\text{mm}^3$ a $25\\ ^\\circ\\text{C}$, e corresponde à figura (a). Quando colocado em contato com água aquecida, o termômetro apresenta a leitura mostrada na figura (b). A escala está em milímetros, a área da secção reta da coluna é $A = 5{,}0 \\times 10^{-2}\\ \\text{mm}^2$. O aumento do volume, $\\Delta V$, produzido pelo acréscimo de temperatura $\\Delta T$, é dado por $\\frac{\\Delta V}{V_0} = \\gamma\\,\\Delta T$. Se para o álcool $\\gamma = 1{,}25 \\times 10^{-3}\\ ^\\circ\\text{C}^{-1}$, qual é a temperatura $T$ da água aquecida?\n\n![Dois termômetros de coluna graduada lado a lado. Na figura (a), rotulada 25 °C, a coluna escura de líquido ocupa a parte inferior da escala. Na figura (b), rotulada T = ?, a coluna escura de líquido chega a uma altura maior da escala.](fig:p12-c1)",
+     "resposta_oficial": "Observando a escala do termômetro, medimos a variação de altura $\\Delta h = 13\\ \\text{mm}$. Assim,\n\n$$\\Delta T = \\frac{\\Delta V}{\\gamma V_0} = \\frac{A \\times \\Delta h}{\\gamma V_0} = \\frac{5{,}0 \\times 10^{-2}\\ \\text{mm}^2 \\times 13\\ \\text{mm}}{1{,}25 \\times 10^{-3}\\ ^\\circ\\text{C}^{-1} \\times 20\\ \\text{mm}^3} = \\frac{65 \\times 10^{-2}}{25 \\times 10^{-3}} = 26\\ ^\\circ\\text{C}$$\n\nA temperatura da água aquecida é $T = 25\\ ^\\circ\\text{C} + 26\\ ^\\circ\\text{C} = 51\\ ^\\circ\\text{C}$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Os termômetros de infravermelho realizam a medida da temperatura em poucos segundos, facilitando seu uso em crianças. Seu funcionamento baseia-se na coleta da radiação infravermelha emitida por parte do corpo do paciente. A potência líquida radiada por unidade de área do corpo humano é dada por $\\Phi = 4\\,\\sigma\\,T_0^3\\,\\Delta T$, sendo $\\sigma \\sim 6 \\times 10^{-8}\\ \\text{W/m}^2\\text{K}^4$ a constante de Stefan-Boltzmann, $T_0 = 300\\ \\text{K}$ a temperatura ambiente e $\\Delta T = T_{\\text{corpo}} - T_0$ a diferença entre a temperatura do corpo, que deve ser medida, e a temperatura ambiente. Sabendo que em certa medida de temperatura $\\Phi = 64{,}8\\ \\text{W/m}^2$, encontre a temperatura do paciente em $^\\circ\\text{C}$. Lembre-se que $\\theta\\ (^\\circ\\text{C}) \\sim T\\ (\\text{K}) - 273$.",
+     "resposta_oficial": "A partir da expressão da potência líquida radiada por unidade de área do corpo do paciente, obtemos\n\n$$\\Delta T = \\frac{\\Phi}{4\\sigma T_0^3} = \\frac{64{,}8\\ \\text{W m}^{-2}}{4 \\times 6 \\times 10^{-8}\\ \\text{W m}^{-2}\\text{K}^{-4} \\times 27 \\times 10^{6}\\ \\text{K}^3} = 10\\ \\text{K}$$\n\n$$T_{\\text{corpo}} = T_0 + \\Delta T = 300 + 10 = 310\\ \\text{K}$$\n\nA temperatura do corpo do paciente em $^\\circ\\text{C}$ é\n\n$$\\theta_{\\text{corpo}}\\ (^\\circ\\text{C}) = 310 - 273$$\n\n$$\\theta_{\\text{corpo}} = 37\\ ^\\circ\\text{C}$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda conceitos de Termologia dentro do contexto dos princípios de funcionamento de termômetros clínicos de uso doméstico.\n\na) O item **a** explora a expansão térmica de um líquido em um termômetro convencional. A expressão para a variação do volume com a temperatura é fornecida, e o candidato precisa fazer a leitura da variação da altura da coluna do líquido na escala do termômetro para calcular a variação de volume, e, a partir daí, a nova temperatura.\n\nb) Já o item **b** trata do princípio de funcionamento de um termômetro de infravermelho. Novamente, a expressão necessária para encontrar a variação de temperatura é fornecida, e o candidato precisa substituir corretamente os dados do problema, calcular $\\Delta T$ e, a partir daí, a temperatura do corpo. Finalmente, é necessário converter a temperatura para graus celsius.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q11",
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Geradores de Van de Graaff têm a finalidade de produzir altas diferenças de potencial. Consistem em uma esfera metálica onde é acumulada a carga proveniente de uma correia em movimento. A carga é inicialmente depositada na parte inferior da correia, que está aterrada (potencial $V = 0$, ver figura), e é extraída da correia quando atinge a parte superior, que está no potencial $V_0$, fluindo para a esfera metálica. O movimento da correia é mantido por um pequeno motor.\n\n![Esquema de um gerador de Van de Graaff: esfera metálica no alto, ligada a uma correia vertical que passa por duas polias. Rótulos: esfera metálica; carga extraída da correia: V = V0; correia; carga depositada na correia: V = 0.](fig:p13-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em um gerador em operação, a carga transportada por unidade de comprimento da correia é igual a $\\lambda = 1{,}25 \\times 10^{-7}\\ \\text{C/m}$. Se a taxa com que essa carga é transferida para a esfera metálica é dada por $i = 5{,}0 \\times 10^{-9}\\ \\text{C/s}$, qual é a velocidade da correia?",
+     "resposta_oficial": "A taxa de carga transferida para a esfera metálica é $i = \\frac{q}{\\Delta t} = \\frac{\\lambda \\Delta s}{\\Delta t} = \\lambda v$. Portanto,\n\n$$v = \\frac{i}{\\lambda} = \\frac{5{,}0 \\times 10^{-9}\\ \\text{A}}{1{,}25 \\times 10^{-7}\\ \\text{C/m}} = 0{,}04\\ \\text{m/s} = 4{,}0\\ \\text{cm/s}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale $E_{\\text{rd}} = 3{,}0 \\times 10^{6}\\ \\text{V/m}$. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de $V = 7{,}5 \\times 10^{4}\\ \\text{V}$. Calcule a distância entre elas para que a descarga ocorra.",
+     "resposta_oficial": "O módulo do campo elétrico é dado por $E = \\frac{\\Delta V}{d}$. Portanto,\n\n$$d_{\\text{max}} = \\frac{\\Delta V}{E_{\\text{rd}}} = \\frac{7{,}5 \\times 10^{4}\\ \\text{V}}{3{,}0 \\times 10^{6}\\ \\text{V/m}} = 2{,}5 \\times 10^{-2}\\ \\text{m} = 2{,}5\\ \\text{cm}$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão explora conceitos de eletricidade no contexto de um experimento demonstrativo que chama a atenção em feiras e museus de ciências.\n\na) No item **a** o conceito de corrente elétrica é abordado, evidenciando a taxa de transferência de carga por meio mecânico na correia do gerador de Van de Graaff.\n\nb) Já o item **b** aborda a relação entre campo elétrico e diferença de potencial para uma situação idealizada de campo uniforme.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q12",
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A acomodação da visão consiste na mudança da distância focal do cristalino, que é uma lente convergente do olho, de modo que a imagem se forme exatamente na retina, tanto para objetos a grandes distâncias quanto para objetos próximos. A catarata é uma doença que torna o cristalino opaco. Seu tratamento consiste na substituição do cristalino doente por uma lente intraocular. Neste caso, a acomodação visual pode ser obtida através do deslocamento da lente implantada, para frente e para trás, com o auxílio do músculo ciliar.\n\n![Duas figuras de uma lente e um anteparo. Na figura (a), um raio de um objeto distante incide paralelo ao eixo, atravessa a lente e chega ao anteparo, a 2,0 cm da lente. Na figura (b), um objeto próximo, representado por uma seta, está à esquerda da lente, e o raio que parte da ponta da seta atravessa a lente e chega ao anteparo, onde há uma pequena seta.](fig:p14-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Uma lente de distância focal fixa forma a imagem de um objeto localizado a uma grande distância em um anteparo, conforme mostra a figura (a). Qual é a distância focal da lente, e quanto ela deve ser afastada para formar, no anteparo, a imagem de um objeto localizado a 50 cm da posição final da lente, conforme mostra a figura (b)?",
+     "resposta_oficial": "Da figura (a), obtemos que a distância focal da lente é $f = 2{,}0\\ \\text{cm}$.\n\nUsando a expressão $\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'}$ obtemos\n\n$$p' = \\frac{pf}{p - f} = \\frac{50 \\times 2}{50 - 2} = 2{,}08\\ \\text{cm}$$\n\nAssim, a lente deve ser afastada em $(2{,}08 - 2)\\ \\text{cm} = 0{,}08\\ \\text{cm} = 0{,}8\\ \\text{mm}$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "*Lasers* que emitem pulsos de luz no infravermelho de duração de vários femtossegundos ($1\\ \\text{fs} = 10^{-15}\\ \\text{s}$) vêm sendo empregados nas cirurgias oculares. Considere que um *laser* emite radiação de comprimento de onda $\\lambda = 1050\\ \\text{nm}$, e que cada um de seus pulsos dura $\\Delta t = 70\\ \\text{fs}$. Qual é o período da onda eletromagnética radiada e qual é o número de comprimentos de onda contidos em um pulso? A velocidade da luz no vácuo é $c = 3{,}0 \\times 10^{8}\\ \\text{m/s}$.",
+     "resposta_oficial": "O período da onda pode ser obtido pela expressão\n\n$$T = \\frac{\\lambda}{c} = \\frac{1050 \\times 10^{-9}\\ \\text{m}}{3{,}0 \\times 10^{8}\\ \\text{m/s}} = 350 \\times 10^{-17}\\ \\text{s} = 3{,}5\\ \\text{fs}$$\n\nO número de comprimentos de onda é igual ao número de períodos no pulso:\n\n$$n = \\frac{70\\ \\text{fs}}{3{,}5\\ \\text{fs}} = 20$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão versa sobre óptica geométrica e ondulatória. A questão se insere no contexto prático das cirurgias de catarata.\n\na) No item **a** o candidato deve calcular a distância da imagem formada por uma lente convergente. Para isto, deve ler da primeira figura o valor da distância focal da lente.\n\nb) Já o item **b** explora a relação entre velocidade, comprimento de onda e período da onda.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q13",
+   "numero": 13,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Brasil é o maior produtor não asiático de arroz. Em 2015, importou cerca de 370 mil toneladas do produto e exportou 960 mil. Esse cereal é uma importante fonte de nutrientes para bilhões de pessoas, fornecendo 15% das necessidades diárias de proteína de um adulto. O arroz é também importante fonte de minerais como cálcio, fósforo, potássio e, em menor quantidade, ferro, manganês e zinco. Dependendo de alguns fatores, como o local de produção ou o uso de fertilizantes e defensivos agrícolas, o arroz pode conter pequenas quantidades de arsênio, cádmio, chumbo, entre outros elementos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um estudo comparou três modos diferentes de cozinhar o arroz para verificar como a forma de preparo pode modificar a quantidade de minerais no cereal cozido.\n\n1. O arroz foi cozido na proporção de cinco partes de água para uma parte de arroz. O excesso de água foi drenado após o cozimento.\n2. O arroz foi embebido em água durante a noite, a água foi drenada e o arroz foi lavado até a água clarear. Drenou-se a água, e o arroz foi cozido na proporção de cinco partes de água para uma parte de arroz. O excesso de água foi drenado após o cozimento.\n3. O arroz foi cozido na proporção de duas partes de água para uma de arroz. O excesso de água evaporou durante o processo de cozimento.\n\nDo ponto de vista químico, qual tipo de cozimento deve ter levado à menor presença de minerais no arroz cozido: <u>1</u>, <u>2</u> ou <u>3</u>? Justifique sua resposta.",
+     "resposta_oficial": "O cozimento de tipo 2 levou a uma menor presença de minerais. Nesse cozimento, utilizou-se uma maior quantidade de água, o que implica maior solubilização dos minerais presentes. Antes do cozimento, o arroz foi colocado de molho e a água descartada; em seguida, o arroz foi lavado até a água clarear. Esses dois processos excedentes removeram boa parte dos minerais presentes no arroz."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em outro estudo, determinaram-se as concentrações totais de arsênio, cádmio e chumbo, em diferentes tipos comerciais de arroz (polido, integral e parboilizado) provenientes de várias regiões brasileiras, visando à promoção da saúde pública. Explique de que forma esse estudo estaria promovendo a saúde pública ao se preocupar com a presença desses elementos químicos e suas concentrações em diferentes tipos comerciais de arroz.",
+     "resposta_oficial": "Esse estudo estaria promovendo a saúde pública, pois os elementos químicos citados são metais pesados prejudiciais à saúde humana, que podem se acumular no organismo. Assim, detectar a presença desses elementos e suas concentrações possibilitaria a escolha correta do tipo de arroz a ser consumido."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Essa questão evidencia um problema sério de saúde relativo ao consumo do arroz. Não é o caso do Brasil que, embora conviva com um largo consumo desse cereal, não mostra concentrações elevadas de metais pesados. Entretanto, como parte do arroz que consumimos é produto de importação, é importante que o cidadão conheça. Na questão informa-se que: <u>“Dependendo de alguns fatores, como o local de produção ou o uso de fertilizantes e defensivos agrícolas, o arroz pode conter pequenas quantidades de arsênio, cádmio, chumbo”.</u> Essa parte do texto poderia ser suprimida, mas deixaríamos de dar uma informação relevante para a sala de aula. Um ambiente contaminado com metais pesados, como os casos citados no texto, poderia, por exemplo, ser descontaminado com o cultivo de alguma planta, como o arroz. Na letra **a**, o candidato deveria analisar as três maneiras de se preparar o arroz e decidir qual deles leva a uma menor quantidade de sais minerais no alimento preparado. Aqui o candidato lançaria mão dos seus conhecimentos sobre soluções em geral, solubilidade de sais, processos de dissolução, diluição e concentração. Na letra **b**, esperava-se que o candidato apontasse que os elementos citados são metais pesados e, portanto, tóxicos. Deste modo, ao se preocupar com a presença desses metais e suas concentrações, o candidato deveria concluir que o estudo estaria de fato se preocupando com a promoção da saúde pública. A população, ao ser informada sobre uma possível contaminação do arroz, poderia escolher qual arroz consumir. A letra **b** dessa questão exigia conhecimentos sobre elementos químicos e suas propriedades.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q14",
+   "numero": 14,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma das formas de se prevenir a transmissão do vírus H1N1, causador da gripe suína, é usar álcool 70% para higienizar as mãos. É comum observar pessoas portando álcool gel na bolsa ou encontrá-lo em ambientes públicos, como restaurantes, consultórios médicos e hospitais. O álcool 70% também possui ação germicida contra diversas bactérias patogênicas. A tabela abaixo mostra a ação germicida de misturas álcool/água em diferentes proporções contra o *Streptococcus pyogenes*, em função do tempo de contato.\n\n![Tabela com a concentração do etanol (%), de 100 a 40, nas linhas, e o tempo (segundos), de 10 a 50, nas colunas; cada célula traz o sinal - ou o sinal +. Abaixo, a legenda: - ausência de ação germicida (crescimento bacteriano). + ação germicida (ausência de crescimento bacteriano).](fig:p16-c1)\n\n(Adaptado de G. H. Talbot e outros, 70% alcohol disinfection of transducer heads: experimental trials. *Infect Control*, v. 6, n. 6, p. 237-239, jun. 1985.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Recomenda-se descartar uma garrafa com álcool 70% deixada aberta por um longo período, mesmo que ela esteja dentro do prazo de validade. Justifique essa recomendação levando em conta os dados da tabela ao lado e considerando o que pode acontecer à solução, do ponto de vista químico.",
+     "resposta_oficial": "Quando uma garrafa com álcool 70% é deixada aberta, ocorre a evaporação dos componentes da solução. O etanol, sendo mais volátil que a água, tende a evaporar em maior intensidade, e assim, a solução vai tornando-se menos concentrada em etanol. De acordo com a tabela apresentada, soluções mais diluídas exibem uma diminuição na ação germicida. Uma solução 40%, por exemplo, não apresenta qualquer ação germicida, como mostra a tabela."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Além da higienização com álcool 70%, também estamos acostumados a utilizar água e sabão. Ambos os procedimentos apresentam vantagens e desvantagens. As desvantagens seriam a desidratação ou a remoção de gorduras protetoras da pele. Correlacione cada procedimento de higienização com as desvantagens citadas. Explique a sua resposta explicitando as possíveis interações químicas envolvidas em cada caso.",
+     "resposta_oficial": "A desidratação da pele pode ocorrer devido à higienização com álcool 70% e a remoção das gorduras devido à lavagem com água e sabão. No caso da desidratação, as moléculas de etanol fazem ligações de hidrogênio com as moléculas de água da pele e as arrastam na evaporação. No caso da remoção das gorduras, a molécula do sabão possui uma região apolar, que interage com a gordura por interações do tipo dipolo induzido-dipolo induzido, e uma região polar que interage com a água por interações dipolo-dipolo, resultando na remoção da gordura da pele."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão 14 abordou um problema de saúde pública que afeta o mundo todo: a gripe causada pelo vírus H1N1. O álcool hidratado é um dos produtos utilizados na higiene das mãos em diversos ambientes. Quantas pessoas deixam de utilizar esse produto quando estão em visitas a parentes em leitos hospitalares? Quantos produtos comerciais contendo álcool a 50% são comercializados com rótulos indicando que são produtos 99,999% eficientes no combate a microrganismos, que só é verdadeiro se houver um contato mínimo de 5 minutos com o produto. O cidadão consciente logo percebe que seria necessário manter as mãos durante 5 minutos mergulhadas nesse produto e perguntaria se isso seria prático. A questão tinha por objetivo chamar a atenção dos candidatos para as formas de se prevenir doenças causadas por vírus e bactérias patogênicos. A letra **a** pedia que o candidato apresentasse uma justificativa para a recomendação apresentada: descartar uma garrafa de álcool 70% que ficou aberta por muito tempo. O candidato deveria formular a sua resposta levando em conta os dados apresentados na tabela e criar uma hipótese com base em seus conhecimentos químicos sobre evaporação, volatilidade das substâncias envolvidas, pressão de vapor, ponto de ebulição e concentração. Na letra **b**, o candidato deveria correlacionar as desvantagens mencionadas com cada modo de higienização das mãos e, em seguida, justificar sus escolhas levado em conta as interações intermoleculares envolvidas em cada caso. O tema dessa questão poderia ser explorado em conjunto com professores de Biologia no ensino médio, abordando, por exemplo, como o álcool gel atua matando vírus e bactérias.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q15",
+   "numero": 15,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Apesar de ser um combustível alternativo em relação aos combustíveis fósseis, o gás hidrogênio apresenta alguns problemas em seu uso direto. Uma alternativa é produzir o gás hidrogênio por eletrólise da água, para depois utilizá-lo na síntese do ácido fórmico, a partir da hidrogenação catalítica de gás carbônico. A possibilidade de utilizar o ácido fórmico como combustível tem feito crescer a demanda mundial por esse produto. A figura abaixo ilustra como seria o ciclo de produção e consumo do ácido fórmico, conforme indica o texto.\n\n![Diagrama em preto e branco com ícones ligados por setas: turbina eólica e painel solar, bomba de combustível, recipiente rotulado Ácido fórmico, ônibus, gota rotulada H2O e nuvem rotulada Dióxido de carbono.](fig:p17-f3)\n\n(Adaptado de Team Fast. Disponível em https://www.teamfast.nl/hydrozine/. Acessado em 10/08/2017.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando as informações do texto e a figura ao lado, cite <u>duas vantagens</u> em se adotar a alternativa descrita.",
+     "resposta_oficial": "De acordo com as informações fornecidas na questão, algumas vantagens da alternativa sugerida podem ser: 1) o uso de energias alternativas e menos poluentes (eólica ou solar) para a produção do ácido fórmico; 2) a (re)síntese do ácido fórmico utilizando o $\\text{CO}_2$ e água que vieram de sua combustão (processo cíclico fechado em relação a materiais), 3) a criação de uma alternativa à utilização de combustíveis fósseis e 4) maior facilidade de armazenamento e transporte do ácido fórmico em relação ao gás hidrogênio."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A reação de síntese do ácido fórmico a partir da hidrogenação catalítica de gás carbônico, em fase gasosa, apresenta um valor muito pequeno de constante de equilíbrio. Visando a aumentar o seu rendimento, imagine que sejam promovidos, separadamente, um aumento do volume e um aumento da temperatura da mistura reacional em equilíbrio. Preencha a tabela abaixo de modo a informar o que ocorre com a quantidade de ácido fórmico. Use as palavras <u>aumenta</u> ou <u>diminui</u> e justifique cada escolha no espaço correspondente.\n\nNa temperatura da síntese, considere que as entalpias de formação do gás carbônico, do ácido fórmico e do hidrogênio são (em $\\text{kJ}\\cdot\\text{mol}^{-1}$) -394, -363 e 0, respectivamente.\n\n*Campo de resolução:*\n\n| | Aumento de volume | Aumento de temperatura |\n|---|---|---|\n| Quantidade de ácido fórmico | | |\n| Justificativa | | |",
+     "resposta_oficial": "| | aumento de volume | aumento de temperatura |\n|---|---|---|\n| quantidade de ácido fórmico | diminui | aumenta |\n| Justificativa | $1\\ \\text{H}_2 + 1\\ \\text{CO}_2 = 1\\ \\text{H}_2\\text{CO}_2$<br><br>A equação mostra que a reação ocorre com diminuição no volume do sistema, pois dois moles de reagentes gasosos levam à formação de um mol de produto gasoso. Portanto, o aumento do volume leva a uma diminuição na quantidade de ácido fórmico. | $\\begin{array}{ccccc}\\text{H}_2 & + & \\text{CO}_2 & = & \\text{H}_2\\text{CO}_2 \\\\ 0 & & -394 & & -363\\end{array}$<br>$\\Delta H = H_p - H_r = -363 - (-394) = +31\\ \\text{kJ}\\cdot\\text{mol}^{-1}$<br><br>A equação termoquímica mostra que a reação é endotérmica; portanto, o aumento na temperatura favorece a formação de ácido fórmico. |"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Esta questão apresenta um processo para obtenção de energia por uma fonte alternativa. Esperava-se que os candidatos apontassem as vantagens no processo, o que poderia ser feito a partir de uma visão geral sobre o tema a partir de informações envolvendo geração de energia e sustentabilidade, presentes na atualidade. Para responder esta parte da questão, o candidato precisava entender as propriedades das substâncias envolvidas nessa tecnologia. A outra parte da questão é direcionada para a parte de equilíbrio químico, exigindo dos candidatos o estabelecimento da relação entre perturbações em um sistema em equilíbrio e suas consequências na sua composição, dependendo do tipo de perturbação e de acordo com o princípio de Le Chatelier, tema bastante trabalhado no ensino médio. É esperado que tenham também conhecimento de termoquímica, cálculos de entalpia, estequiometria e algumas noções de compostos orgânicos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q16",
+   "numero": 16,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Graças a sua alta conversão energética e à baixa geração de resíduos, o gás hidrogênio é considerado um excelente combustível. Sua obtenção a partir da fermentação anaeróbia de biomassas, como bagaço de cana, glicerol, madeira e resíduos do processamento da mandioca, abundantes e de baixo custo, parece ser uma boa alternativa tecnológica para o Brasil. A velocidade da fermentação, bem como os diferentes produtos formados e suas respectivas quantidades, dependem principalmente do tipo de substrato e do tipo de microrganismo que promove a fermentação. As equações e a figura abaixo ilustram aspectos de uma fermentação de 1 litro de solução de glicose efetuada pela bactéria *Clostridium butyricum*.\n\n**Equação 1:** $\\text{C}_6\\text{H}_{12}\\text{O}_6(\\text{aq}) + 2\\text{H}_2\\text{O}(\\ell) \\rightarrow 2\\text{CH}_3\\text{COOH}(\\text{aq}) + 4\\text{H}_2(\\text{g}) + 2\\text{CO}_2(\\text{g})$\n\n**Equação 2:** $\\text{C}_6\\text{H}_{12}\\text{O}_6(\\text{aq}) + 2\\text{H}_2\\text{O}(\\ell) \\rightarrow \\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{COOH}(\\text{aq}) + 2\\text{H}_2(\\text{g}) + 2\\text{CO}_2(\\text{g})$\n\n![Gráfico com dois eixos verticais e o tempo em horas no eixo horizontal, de 0 a 100. À esquerda, concentração em g · L⁻¹, de 0 a 30, com uma curva tracejada que parte de cerca de 25 e decresce até perto de zero; uma seta aponta da curva tracejada para esse eixo. À direita, volume acumulado de H2 em L, de 0 a 10, com uma curva contínua que cresce e se estabiliza em cerca de 9; uma seta aponta da curva contínua para esse eixo.](fig:p18-c2)\n\nDados: massa molar da glicose: $180\\ \\text{g}\\cdot\\text{mol}^{-1}$; volume molar do hidrogênio: $25\\ \\text{L}\\cdot\\text{mol}^{-1}$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Levando em conta as informações presentes <u>no texto e na figura</u>, e considerando que a fermentação tenha ocorrido, concomitantemente, pelas duas reações indicadas, qual ácido estava presente em maior concentração ($\\text{mol}\\cdot\\text{L}^{-1}$) ao final da fermentação, o <u>butanoico</u> ou o <u>etanoico</u>? Justifique sua resposta.",
+     "resposta_oficial": "O gráfico mostra que foram utilizados **<u>25 g de glicose</u>**, ou **<u>25/180=0,14 mol</u>**, obtendo-se **9 L de** $\\mathbf{H_2}$**, ou 9/25=0,36 mol**.\n\nConsiderando as equações químicas, temos:\n\n$$\\begin{array}{ccccccc} 1\\,\\text{C}_6\\text{H}_{12}\\text{O}_6 & \\rightarrow & 2\\,\\text{CH}_3\\text{COOH} & + & 4\\,\\text{H}_2 & + & 2\\,\\text{CO}_2 \\\\ 1 & & 2 & & 4 & & \\\\ n & & 2n & & 4n & & \\end{array}$$\n\ne\n\n$$\\begin{array}{ccccccc} 1\\,\\text{C}_6\\text{H}_{12}\\text{O}_6 & \\rightarrow & \\text{C}_3\\text{H}_7\\text{COOH} & + & 2\\,\\text{H}_2 & + & 2\\,\\text{CO}_2 \\\\ 1 & & 1 & & 1 & & \\\\ 0{,}14-n & & 0{,}14-n & & 2(0{,}14-n) & & \\end{array}$$\n\nAssim, a quantidade produzida de $\\text{H}_2$ $[4n + (2(0{,}14-n))] = 0{,}36$ mol. Resolvendo a equação, temos: $n = 0{,}04$ mol. Pela estequiometria das equações, formaram-se $2n$ mol de ácido etanoico $\\Rightarrow$ $0{,}04 \\times 2 = 0{,}08$ mol e $0{,}14-n = 0{,}10$ mol de ácido butanoico. Portanto, formou-se mais ácido butanoico ao final da fermentação."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A velocidade instantânea da fermentação, em qualquer ponto do processo, é dada pela relação entre a <u>variação da quantidade de hidrogênio formado e a variação do tempo</u>. De acordo com o gráfico, quanto tempo após o início da fermentação a velocidade atingiu seu valor máximo? Justifique sua resposta.",
+     "resposta_oficial": "De acordo com a definição dada, a velocidade instantânea da fermentação num ponto qualquer da curva pode ser obtida por $\\Delta_{\\text{H}_2}/\\Delta_{\\text{tempo}}$ (essencialmente, a inclinação da curva de concentração por tempo). Essa relação será tanto maior quanto mais inclinada for a curva. Isso ocorre por volta das 30 horas. Portanto, 30 horas depois de iniciada a fermentação, a velocidade da reação atinge seu valor mais alto."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Para resolver esta questão, os candidatos deveriam reconhecer as diferenças entre as fórmulas dos ácidos etanoico e butanoico, sendo necessário identificar qual ácido deve estar em maior quantidade pelo consumo de 1 litro de solução de glicose na concentração apresentada no gráfico; e, na sequência, identificar o momento que a reação atinge a velocidade máxima. Para isso os candidatos deveriam ter conhecimentos de compostos orgânicos, concentração, estequiometria e cinética química. Por se tratar de uma questão na qual a evolução da reação é acompanhada ou pelo consumo de um reagente ou pelo aparecimento de um produto em função do tempo, é importante que os candidatos tenham boa capacidade para interpretação de gráficos, dos quais essas informações podem ser extraídas. Para a letra **b** os candidatos deveriam ter noção do conceito de velocidade instantânea de reação, que pode ser definida em termos de variação da concentração de uma substância dentro de um dado intervalo de tempo, informação presente no enunciado. Se for feita uma leitura correta dos gráficos, essa informação é facilmente obtida.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q17",
+   "numero": 17,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Fertilizantes são empregados na agricultura para melhorar a produtividade agrícola e atender à demanda crescente por alimentos, decorrente do aumento populacional. Porém, o uso de fertilizantes leva a alterações nas características do solo, que passa a necessitar de correções constantes. No Brasil, o nitrogênio é adicionado ao solo principalmente na forma de ureia, $(\\text{NH}_2)_2\\text{CO}$, um fertilizante sólido que, em condições ambiente, apresenta um cheiro muito forte, semelhante ao da urina humana. No solo, a ureia se dissolve e reage com a água conforme a equação\n\n$$(\\text{NH}_2)_2\\text{CO}(\\text{s}) + 2\\text{H}_2\\text{O}(\\text{aq}) \\rightarrow 2\\text{NH}_4^+(\\text{aq}) + \\text{CO}_3^{2-}(\\text{aq})$$\n\nParte do nitrogênio, na forma de íon amônio, se transforma em amônia, conforme a equação\n\n$$\\text{NH}_4^+(\\text{aq}) + \\text{H}_2\\text{O}(\\text{aq}) \\rightarrow \\text{NH}_3(\\text{aq}) + \\text{H}_3\\text{O}^+(\\text{aq})$$\n\nParte do nitrogênio permanece no solo, sendo absorvido através do ciclo do nitrogênio.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Na primeira semana após adubação, o solo, nas proximidades dos grânulos de ureia, torna-se mais básico. Considerando que isso se deve essencialmente à solubilização inicial da ureia e à sua reação com a água, explique como as características dos produtos formados explicam esse resultado.",
+     "resposta_oficial": "Na solubilização da ureia (equação 1), formam-se íons amônio e carbonato. As subsequentes hidrólises desses íons (equações 2 e 3) levam à formação de $\\text{H}_3\\text{O}^+$ e $\\text{OH}^-$, respectivamente.\n\n$$\\begin{array}{ll} (\\text{NH}_2)_2\\text{CO}(\\text{s}) + 2\\text{H}_2\\text{O}(\\text{aq}) \\rightarrow 2\\text{NH}_4^+(\\text{aq}) + \\text{CO}_3^{2-}(\\text{aq}) & \\text{equação 1} \\\\ \\text{NH}_4^+(\\text{aq}) + \\text{H}_2\\text{O}(\\text{aq}) \\rightarrow \\text{NH}_3(\\text{aq}) + \\text{H}_3\\text{O}^+(\\text{aq}) & \\text{equação 2} \\\\ \\text{CO}_3^{2-}(\\text{aq}) + \\text{H}_2\\text{O}(\\text{aq}) \\rightarrow \\text{HCO}_3^-(\\text{aq}) + \\text{OH}^-(\\text{aq}) & \\text{equação 3} \\end{array}$$\n\nComo o solo se torna básico, isso significa que a hidrólise do carbonato ocorre em maior extensão do que a hidrólise do íon amônio."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na aplicação da ureia como fertilizante, ocorrem muitos processos que levam à perda e ao não aproveitamento do nitrogênio pelas plantas. Considerando as informações dadas, explique a influência da acidez do solo e da temperatura ambiente na perda do nitrogênio na fertilização por ureia.",
+     "resposta_oficial": "A perda do nitrogênio adicionado ao solo depende de vários fatores, entre eles a acidez do solo e a temperatura.\n\n**Acidez do solo**: De acordo com a equação 2, um aumento da acidez do solo favorece uma maior formação de $\\text{NH}_4^+$ e uma menor formação de $\\text{NH}_3$. Do ponto de vista químico, é a amônia que se perde por volatilização. Portanto, um aumento da acidez do solo levaria a uma diminuição da perda do nitrogênio da fertilização por ureia.\n\n**Temperatura ambiente**: quanto maior a temperatura ambiente, maior a temperatura do sistema solo. Os efeitos disso são: 1) gases, como a amônia, tornam-se menos solúveis com o aumento da temperatura, o que leva a maiores perdas por gaseificação; 2) a elevação da temperatura leva a uma evaporação maior da água, diminuindo a disponibilidade desse solvente e favorecendo a eliminação de amônia; 3) o texto informa que a ureia apresenta cheiro forte, de onde se conclui que ela sublima com facilidade, e essa sublimação é maior em maiores temperaturas, aumentando as perdas.\n\n**<em>Observações:</em>** <em>há outras formas de explicações envolvendo os íons amônio e carbonato no item </em>**<em>a</em>**<em>; sobre a influência da temperatura no item </em>**<em>b</em>**<em>, bastava uma exemplificação.</em>"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão 17 se insere no assunto de equilíbrio químico, trazendo exemplos de equilíbrio de solubilidade, envolvendo equilíbrio ácido-base e hidrólise. Trata-se de um assunto central em Química, largamente explorado em sala de aula, livros texto e sistemas de ensino. Nem por isso o assunto é bem dominado pelos estudantes, principalmente quando envolve espécies importantes para o meio ambiente e o ser humano, caso do gás carbônico e seus íons carbonato e hidrogenocarbonato (mais conhecido como bicarbonato). A própria questão é um exemplo prático da aplicação do conhecimento. Uma questão central do agronegócio é a perda de fertilizantes e defensivos agrícolas. As consequências dessas perdas se refletem de diversas formas, desde o prejuízo causado e o consequente aumento do preço do produto final, até os problemas ambientais causados por essa perda. Assim, a questão tenta mostrar o lado menos conhecido pelo cidadão comum, um dos problemas da agricultura; nem só de flores vive o agronegócio. O assunto retratado, parafraseando a própria propaganda de defensivos, é de largo espectro, podendo abranger áreas da Química, Biologia e Geografia; não esquecendo que em áreas interdisciplinares como Ciência Ambiental, Engenharia Agrícola e Engenharia Agronômica o assunto está largamente presente.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d3-q18",
+   "numero": 18,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A derrubada de florestas para mineração causa indignação em muitos cidadãos preocupados com a proteção ambiental. Contudo, não se observa o mesmo nível de preocupação em relação à atividade pecuária. A produção de carne é também responsável pelo desmatamento e por cerca de 18% da emissão de gases do efeito estufa. A evolução da emissão total de gás carbônico equivalente da humanidade (em Gt $\\text{CO}_2$ eq por ano) é mostrada na figura **A**. Já a figura **B** mostra a emissão anual média de gás carbônico equivalente (em t $\\text{CO}_2$ eq por pessoa por ano) somente com a alimentação, para duas diferentes dietas.\n\n![Duas figuras lado a lado. Figura A: gráfico de linha da emissão em Gt CO2 eq, eixo vertical de 30 a 70, eixo horizontal de 1985 a cerca de 2030, com trecho Histórico em linha contínua preta e trecho Tendência em linha pontilhada azul. Figura B: gráfico de barras empilhadas, em t CO2 eq / pessoa / ano, de 0,00 a 3,50, com duas barras, amante de carne e vegano, e legenda de padrões: carne vermelha, outras carnes, laticínios, cereais, vegetais, outros.](fig:p20-c1)\n\n(Figura **A**: adaptada de PBL Netherlands Environment Agency. Disponível em www.pbl.nl. Figura **B**: adaptada de Shrink That Footprint. Disponível em www.shrinkthatfootprint.com. Acessados em 15/10/2017.)\n\nDados: a população mundial atual é de $7{,}6 \\times 10^{9}$ habitantes; Giga-toneladas (Gt) = $1{,}0 \\times 10^{9}$ toneladas.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando que toda a população mundial seja “amante de carne”, qual é a porcentagem de emissão de $\\text{CO}_2$ equivalente devida somente à alimentação, em relação à emissão total? Mostre os cálculos.",
+     "resposta_oficial": "De acordo com a figura B, na dieta de amante de carne, liberam-se 3,3 t $\\text{CO}_2$ eq por pessoa por ano. Considerando a população mundial atual de $7{,}6 \\times 10^{9}$ habitantes, teremos: Emissão = 3,3 t $\\text{CO}_2$ eq (por pessoa por ano) $\\times\\ 7{,}6 \\times 10^{9} = 25$ Gt $\\text{CO}_2$ eq. Em 2017, a emissão total foi de 57 Gt $\\text{CO}_2$ eq. Assim, a emissão devida apenas ao consumo de carne foi de $(25/57) \\times 100$, correspondendo a 44% da emissão total."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Se, em 2018, toda a população da Terra resolvesse adotar uma dieta vegana, a emissão total de gases voltaria ao nível de qual ano? Justifique sua resposta. Considere que toda a população atual seja “amante de carne”.",
+     "resposta_oficial": "A diferença de emissão de $\\text{CO}_2$ eq entre as dietas de carne vermelha e vegana é:\n3,3 – 1,5 = 1,8 t $\\text{CO}_2$ eq (por pessoa por ano). Considerando a população mundial atual de $7{,}6 \\times 10^{9}$ habitantes, a mudança de dieta levaria a uma diminuição da emissão de $\\text{CO}_2$ eq: 1,8 t $\\text{CO}_2$ eq $\\times\\ 7{,}6 \\times 10^{9} = 13{,}7$ Gt $\\text{CO}_2$ eq. Como em 2017, a emissão total foi de 57 Gt $\\text{CO}_2$ eq, a emissão devida à mudança de dieta seria de 57 – 13,7 = 43,3 Gt $\\text{CO}_2$ eq. De acordo com a figura A, esse valor de emissão ocorreu por volta dos anos 1987, 1992 e 2001.\n\n*Observação: Como a leitura de dados a partir de figuras envolve alguma incerteza, os valores calculados e apresentados nos itens a e b serão considerados dentro de uma faixa compatível com essas variações de leitura.*"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda o tema Química e Sociedade e destaca a emissão de gás carbônico, um problema de dimensões mundiais, na atividade de produção e consumo de alimentos. A questão tenta mostrar as vantagens, do ponto de vista ambiental, em a população adotar uma dieta mais vegetariana. O próprio exercício é um exemplo da aplicação prática do conhecimento, uma vez que a sua apresentação e resolução deixam evidente o problema ambiental que o consumo de carne representa em relação à emissão de gás carbônico. O assunto se encaixa em qualquer área de conhecimento, uma vez que diz respeito ao tema do aquecimento da global e deixa claro como seria possível minimizar o problema. É interdisciplinar com várias áreas diretamente como Química, Matemática e Biologia, mas não deixa de ter dimensões de problemas humanos alarmantes. Afinal, quem mais consome carne da Terra? Quem mais produz carne? A questão também exigia dos candidatos a leitura e interpretação de gráficos, como em outras questões da prova, uma habilidade muito importante em qualquer área do conhecimento.",
+   "revisao": "transcrita"
+  }
+ ]
+}

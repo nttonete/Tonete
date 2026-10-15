@@ -1,0 +1,155 @@
+{
+ "edicao": {
+  "id": "unicamp-2018-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2018,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2018 – 2ª fase (1º dia: Português e Literatura)",
+  "caderno": "1º dia: Português e Literatura",
+  "fonte": {
+   "caderno": "2fase-red-port-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-portugues-respostas.pdf",
+    "2fase-portugues-comentada.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2018-2-d1-q01",
+   "numero": 1,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Enquanto viveu em Portugal, o escritor Mário Prata reuniu centenas de vocábulos e expressões usados no português falado na Europa que são diferentes dos termos correspondentes usados no português do Brasil. Reproduzimos abaixo um dos verbetes de seu dicionário.\n\n**Descapotável**\nÉ outra palavra que em português faz muito mais sentido do que em brasileiro. Não é mais claro dizer que um carro é descapotável, do que *conversível*?\n\n(Mário Prata, *Dicionário de português*: schifaizfavoire. São Paulo: Editora Globo, 1993, p. 48.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Identifique os dois afixos que formam a palavra “descapotável” a partir do substantivo “capota” (cobertura de um automóvel) e explique a função de cada um.",
+     "resposta_oficial": "**(2 pontos)**\n\nA palavra “descapotável” contém o prefixo “des-”, que exprime negação ou falta, e o sufixo “-vel”, formador de adjetivos e que significa “passível de”."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique por que o autor considera, com certo humor, que a palavra \"descapotável” do português europeu faz mais sentido de que o termo “conversível”, usado no português brasileiro.",
+     "resposta_oficial": "**(2 pontos)**\n\nA partir dos afixos descritos em (a), infere-se que a palavra “descapotável” significa “passível de ficar sem capota”. O termo “conversível”, por sua vez, significa, literalmente, “passível de ser convertido”. O termo “descapotável” é semanticamente mais transparente por se associar a uma parte do carro (a capota), ao passo que “conversível” apresenta um sentido, em princípio, mais amplo, que se poderia aplicar a qualquer objeto que possa ser transformado; daí a consideração de que o primeiro seria “mais claro” e “faria mais sentido” do que o segundo."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão era levar o candidato a fazer uma reflexão metalinguística e a identificar os processos utilizados na formação da palavra em destaque e a função de cada afixo empregado. O reconhecimento desses processos é importante para auxiliar a leitura, uma vez que o sentido do vocábulo pode ser inferido a partir da identificação e da compreensão dos elementos que o formam. Esperava-se que essa habilidade, canalizada para a resolução do item **b** da questão, permitisse ao candidato explicar por que, para o autor do dicionário, a palavra “descapotável”, usada em Portugal, faz mais sentido (é mais clara) que a palavra brasileira “conversível”, usada no Brasil.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d1-q02",
+   "numero": 2,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia a seguir trechos das entrevistas concedidas pelo escritor chileno Alejandro Zambra ao jornal *Folha de São Paulo* e à revista *Cult* sobre seu livro *Múltipla Escolha*, lançado no Brasil em 2017. A obra imita o formato da Prova de Aptidão Verbal aplicada de 1966 a 2002 aos candidatos a vagas em universidades no Chile.\n\nFalando à *Folha*, Zambra afirma que havia na prova de múltipla escolha “uma grande sintonia com a ditadura chilena. Para entrar na universidade, teríamos que saber eliminar as orações. Havia censura, e nos aconselhavam a censurar”. E acrescenta que o sistema educacional moldava o pensamento dos alunos com “a ideia de que só existe uma resposta correta.”\n\nAbordando o sentido crítico da escolha desse formato para a narrativa, o autor explica à *Cult* que, tendo sido criado nesse sistema, interessava-lhe mais a autocrítica. Escrevendo uma espécie de novela, lembrou-se da prova e começou a brincar com esse formato. “No começo foi divertido, como imitar as vozes das pessoas, mas logo me dei conta de que também imitava minha própria voz, até que de repente entendi que esse era o livro. A paródia e a autoparódia, a crítica e a autocrítica, o humor e a dor...” O formato de prova oferece diversas opções para completar e interpretar cada resposta, mas pede ao leitor um movimento duplo de leitura: testar possibilidades de respostas e erigir uma opção única e arbitrária. Zambra esclarece: “me interessam todos esses movimentos da autoridade. A ilusão de uma resposta, por exemplo. Creio que este é um livro sobre a ilusão de uma resposta. Nos ensinaram isso, que havia uma resposta única, e logo descobrimos que havia muitas e isso às vezes foi libertador e outras vezes foi terrível. Quem sabe algumas vezes nós também quisemos que houvesse uma resposta única.”\n\n(Adaptado de entrevistas de Alejandro Zambra concedidas ao jornal *Folha de São Paulo* e à revista *Cult* em maio de 2017. Disponíveis em https://revistacult.uol.com.br/home/alejandro-zambra-multipla-escolha/ e em http://www1.folha.uol.com.br/ilustrada/2017/05/1885551-literatura-esta-ligada-a-desordem-diz-escritor-chileno-alejandro-zambra.shtml. Acessados em 11/12/2017.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite dois fatores que levaram Zambra a adotar a forma narrativa empregada em *Múltipla Escolha*.",
+     "resposta_oficial": "**(2 pontos)**\n\nO autor estrutura a obra com perguntas de múltipla escolha, semelhante à Prova de Aptidão Verbal para ingresso em universidades chilenas. Uma das motivações para adotar esse formato é criticar o sistema educacional, que conduz o aluno a acreditar na existência de respostas únicas, o que, para Zambra, configura uma forma de censura. O autor também tem interesse em desenvolver uma autocrítica, uma vez que ele mesmo é fruto desse sistema."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Por que *Múltipla Escolha* não funciona como a Prova de Aptidão Verbal chilena? Justifique sua resposta com base no tipo de leitor solicitado pela obra.",
+     "resposta_oficial": "**(2 pontos)**\n\nA obra convoca um leitor crítico, aberto a repensar as formas de ensino e capaz de testar possibilidades de respostas. Desse modo, a obra não reproduz simplesmente o formato da prova de múltipla escolha, antes questiona ironicamente a arbitrariedade da resposta única."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Os trechos das entrevistas com Alejandro Zambra reproduzidos na questão trazem uma crítica ao fato de a prova de múltipla escolha ter sido o único modelo de avaliação que decidia pela entrada ou não em universidades chilenas entre 1996 e 2002. O objetivo da questão foi levar os candidatos a refletir sobre essa forma de avaliar conhecimento, aplicada em processos seletivos com grande número de concorrentes, como é o caso, por exemplo, do vestibular Unicamp. O fato de a questão integrar uma prova descritiva permite que o candidato explicite o funcionamento discursivo-textual da prova de múltipla escolha e do livro de Zambra, com suas caracterizações formais e funcionais, e na posição de um leitor que também é instado a avaliar o significado da proposta do autor chileno, em que o formato da prova é explorado criticamente.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d1-q03",
+   "numero": 3,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Canção é tudo aquilo que se canta com inflexão melódica (ou entoativa) e letra. Há um “artesanato” específico para privilegiar ora a força entoativa da palavra ora a forma musical; nem só poesia nem só música. Um dos equívocos dos nossos dias é justamente dizer que a canção tende a acabar porque vem perdendo terreno para o *rap*! Ora, nada é mais radical como canção do que uma fala que conserva a entoação crua. A fala no *rap* é entoada com certa regularidade rítmica, o que a torna diferente de uma fala usual. Apesar de convivermos hoje “com uma diversidade cancional jamais vista”, prevalece na mídia, nos meios cultural e musical “a opinião uniforme de que estamos mergulhados num ‘lixo’ de produção viciada e desinteressante”. Vivemos uma descentralização, com eventos musicais ricos e variados, “e a força do talento desses novos cancionistas também não diminuiu”.\n\nO *rap* serve-se da entoação quase pura, para transmitir informações verbais, normalmente intensas, sem perder os traços musicais da linguagem da canção. Seu formato, menos música mais fala, é ideal para se fazer pronunciamentos, manifestações, revelações, denúncias, etc., sem que se abandone a seara cancional. Podemos dizer que o trabalho musical, no *rap*, é para restabelecer as balizas sonoras do canto, mas nunca para perder a concretude da linguagem oral ou conter a crueza e o peso de seus significados pessoais e sociais. Atenuar a musicalização é reconhecer que as melodias cantadas comportam figuras entoativas (modos de dizer) que precisam ser reveladas por suas letras.\n\n(Adaptado de Luiz Tatit. Artigos disponíveis em http://www.luiztatit.com.br/artigos/artigo?id=29/Cancionistas-Invis%C3%ADveis.html e http://www.scielo.br/pdf/rieb/n59/0020-3874-rieb-59-00369.pdf. Acessados em 11/12/2017.)\n\nA partir da leitura dos textos acima,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "aponte dois argumentos de Luiz Tatit que defendem a ideia de que o *rap* é um tipo de canção.",
+     "resposta_oficial": "**(2 pontos)**\n\nO *rap* pode ser considerado uma forma de canção pois é uma fala entoada com certa regularidade rítmica, o que o torna diferente da fala usual. Além disso, ainda que se sirva da entoação quase pura, não perde sua musicalidade."
+    },
+    {
+     "rotulo": "b",
+     "texto": "cite duas características, apresentadas nos textos, que corroboram que o *rap* é uma forma ideal de “canção de protesto”.",
+     "resposta_oficial": "**(2 pontos)**\n\nDe acordo com o texto, a ênfase do *rap* sobre a fala torna-o propício a denúncias, manifestações individuais e coletivas. Ao atenuar a musicalidade sem perder a “concretude da linguagem oral”, o *rap* ressalta os significados pessoais e sociais em suas letras."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão era avaliar a capacidade de leitura e interpretação de texto dos candidatos, exigindo deles uma reflexão mais aprofundada acerca da polêmica levantada por alguns autores que reconhecem no *rap* uma perda de qualidade musical em relação ao que se considera uma canção. Na parte **a**, os candidatos deveriam apontar dois argumentos a favor da ideia de que o *rap* é um tipo de canção. Na parte **b**, os candidatos deveriam buscar, mais precisamente no segundo parágrafo do texto apresentado, as características que confirmam que o formato do *rap* revela-se ideal para canções de protesto. Em ambos os casos, o candidato deveria ter em vista os processos de significação, as relações de sentido entre enunciados e entre palavras.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d1-q04",
+   "numero": 4,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Leia abaixo dois excertos de <em>Terra Sonâmbula</em>, de Mia Couto.**\n\n“Muidinga não ganha convencimento. Olha a planície, tudo parece desmaiado. Naquele território, tão despido de brilho, ter razão é algo que já não dá vontade.”\n(...)\n“– Sabe, miúdo, o que vamos fazer? Você me vai ler mais desses escritos.\n– Mas ler agora, com esse escuro?\n– Acendes o fogo lá fora.\n– Mas, com a chuva, a lenha toda se molhou.\n– Então vamos acender o fogo dentro do machimbombo. Juntamos coisa de arder lá mesmo.\n– Podemos, tio? Não há problema?\n– Problema é deixar este escuro entrar na cabeça da gente. Não podemos dançar nem rir. Então vamos para dentro desses cadernos. Lá podemos cantar, divertir.”\n\n(Mia Couto, *Terra Sonâmbula*. Rio de Janeiro: Record, 1993, p.10 e 152.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No primeiro excerto, descreve-se a relação da personagem com o espaço narrativo. Considerando o conjunto do romance, caracterize a identidade narrativa de Muidinga em relação a esse espaço e explique por que o território era “despido de brilho”.",
+     "resposta_oficial": "**(2 pontos)**\n\nMuidinga, personagem que faz parte de um dos eixos da narrativa, contada em terceira pessoa, está em busca de sua identidade pessoal após ter sido acometido por uma enfermidade. O percurso da personagem no espaço narrativo do romance remete à situação histórica de Moçambique, destruída pela guerra e também passando por problemas de identidade social e cultural, devendo recuperar seu passado na perspectiva da construção de um futuro. A causa de o território ser “despido de brilho” seria justamente a situação de violência e pobreza decorrentes da guerra civil. Isso se manifesta, por exemplo, no local (machimbondo) onde se desenrola parte desse eixo narrativo."
+    },
+    {
+     "rotulo": "b",
+     "texto": "No segundo excerto, o diálogo das duas personagens principais do romance aborda a questão da leitura e sua função para a situação existencial dos protagonistas. Explique o que seriam os “escritos” e “cadernos” mencionados e por que neles os protagonistas poderiam “cantar e divertir”.",
+     "resposta_oficial": "**(2 pontos)**\n\nOs cadernos mencionados no segundo trecho são encontrados por Muidinga próximos do cadáver de Kindzu, e contêm o relato de sua vida. Trata-se do segundo eixo narrativo do romance, que aborda os anos da Guerra Civil e questões da tradição cultural moçambicana. A descoberta dos cadernos de Kindzu e a sua leitura pelo protagonista sugerem o poder da ficção em reconfigurar, por meio da imaginação, as identidades vulneráveis das personagens em trânsito por um país devastado pela guerra, propiciando a evasão da realidade imediata e uma breve celebração da vida."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O objetivo principal da questão era avaliar o entendimento dos candidatos no que diz respeito ao enredo do romance. O convívio disciplinado com o texto literário era fundamental para o candidato estabelecer relações pertinentes sobre aspectos da composição do romance (personagem, identidade narrativa, conflitos, etc.) Para responder às perguntas, o candidato deveria, inicialmente, referir-se à personagem Muidinga, recuperando o contexto narrativo que lhe dá consistência. Em seguida, deveria novamente mobilizar sua memória do enredo, para reconstituir o sentido simbólico de determinados elementos presentes na narrativa.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d1-q05",
+   "numero": 5,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na “Nota preliminar” escrita para a primeira edição do livro *Poemas negros*, de Jorge de Lima, o antropólogo Gilberto Freyre afirma que, graças à “interpretação de culturas, entre nós tão livre”, e graças ao “cruzamento de raças”, “o Brasil vai-se adoçando numa das comunidades mais genuinamente democráticas e cristãs do nosso tempo”. Com base no poema “Democracia”, responda às questões que se seguem.\n\nDEMOCRACIA\n\nPunhos de rede embalaram o meu canto\npara adoçar o meu país, ó Whitman.\nJenipapo coloriu o meu corpo contra os maus-olhados,\ncatecismo me ensinou a abraçar os hóspedes,\ncarumã me alimentou quando eu era criança,\nMãe-negra me contou histórias de bicho,\nmoleque me ensinou safadezas,\nmassoca, tapioca, pipoca, tudo comi,\nbebi cachaça com caju para limpar-me,\ntive maleita, catapora e ínguas,\nbicho-de-pé, saudade, poesia;\nfiquei aluado, mal-assombrado, tocando maracá,\ndizendo coisas, brincando com as crioulas,\nvendo espíritos, abusões, mães-d’água,\nconversando com os malucos, conversando sozinho,\nemprenhando tudo que encontrava,\nabraçando as cobras pelos matos,\nme misturando, me sumindo, me acabando,\npara salvar a minha alma benzida\ne meu corpo pintado de urucu,\ntatuado de cruzes, de corações, de mãos-ligadas,\nde nomes de amor em todas as línguas de branco, de mouro ou de pagão.\n\n(Jorge de Lima, *Poesias completas*, v. I. Rio de Janeiro/Brasília: J. Aguilar/INL, 1974, p.160, 164-165.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A ideia de “adoçamento” social está presente tanto no poema de Jorge de Lima quanto no texto de Gilberto Freyre. Aponte dois episódios da formação do poeta, referidos no poema, que exemplificam essa interpretação. Justifique sua escolha.",
+     "resposta_oficial": "**(2 pontos)**\n\nO “adoçamento” social, segundo Gilberto Freyre, refere-se tanto à relação entre culturas quanto à relação entre raças. Esse adoçamento se manifesta, no poema “Democracia”, no entrecruzamento pacífico e harmônico das referências do índio, do negro e do branco. São exemplos disso, no poema, as lembranças nas quais elementos de origem diversa se entrelaçam com a cultura do eu-lírico, branco e católico: experiências vinculadas aos alimentos (massoca, tapioca, pipoca) e hábitos culturais de origem indígena (colorir o corpo com jenipapo); experiências afetivas envolvendo o negro, como na relação maternal (“Mãe-negra me contou histórias”) ou amorosa (“brincando com as crioulas”)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando elementos da composição do poema, explique de que maneira a ideia de “democracia”, presente no título, manifesta-se no texto.",
+     "resposta_oficial": "**(2 pontos)**\n\nO poema se estrutura por meio da enumeração de experiências pessoais do eu-lírico, desde sua primeira infância (o embalo na rede) até a descoberta do amor e a passagem para o mundo adulto. Essa enumeração se constitui como uma mistura de elementos heterogêneos que resultam na diluição da pureza identitária e da hierarquia entre línguas, raças e culturas. A ideia de “democracia”, portanto, remete à capacidade de acolher e congregar as diferenças raciais e culturais numa situação de igualdade. O acúmulo e a mistura de elementos de natureza distinta (que incluem também os elementos religiosos e linguísticos) dão corpo a essa interpretação graças à abundância dos aspectos mencionados, mas também à sua organização não hierárquica no poema."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão exigia do candidato a compreensão do efeito de sentido do poema e de elementos de sua composição. Num primeiro momento, tratava-se de buscar, no poema citado, evidências específicas da interpretação antropológica mais geral oferecida pelo texto de apresentação do livro. Num segundo momento, era necessário associar um aspecto dessa interpretação geral, retomada no título, com elementos compositivos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2018-2-d1-q06",
+   "numero": 6,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O trecho abaixo corresponde à parte final do primeiro Sermão de Quarta-Feira de Cinza, pregado em 1672 pelo Padre Antonio Vieira.\n\n“Em que cuidamos, e em que não cuidamos? Homens mortais, homens imortais, se todos os dias podemos morrer, se cada dia nos imos chegando mais à morte, e ela a nós; não se acabe com este dia a memória da morte. Resolução, resolução uma vez, que sem resolução nada se faz. E para que esta resolução dure, e não seja como outras, tomemos cada dia uma hora em que cuidemos bem naquela hora. De vinte e quatro horas que tem o dia, por que se não dará uma hora à triste alma? Esta é a melhor devoção e mais útil penitência, e mais agradável a Deus, que podeis fazer nesta Quaresma. (...) Torno a dizer para que vos fique na memória: Quanto tenho vivido? Como vivi? Quanto posso viver? Como é bem que viva? *Memento homo*.”\n\n(Antonio Vieira, *Sermões de Quarta-Feira de Cinza*. Campinas, SP: Editora da Unicamp, 2016, p.102.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Levando em conta o trecho acima e o propósito argumentativo do Sermão, explique por que, segundo Vieira, se deve preservar “a memória da morte”.",
+     "resposta_oficial": "**(2 pontos)**\n\nO sermão recupera o sentido da penitência como exercício espiritual que transforma o homem, dando destaque à necessidade de liberar-se dos prazeres materiais em vista da salvação da alma. Preservar a memória da morte é não perder de vista a finitude humana, produzir uma atenção máxima ao tempo presente e reiterar, como a Igreja faz na liturgia da Quarta-Feira de Cinza, a mensagem cristã contida na advertência da própria epígrafe do sermão: “Lembra-te homem que sois pó, e em pó vos haveis de converter.”"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere as perguntas presentes no trecho acima e explique sua função para a mensagem final do Sermão.",
+     "resposta_oficial": "**(2 pontos)**\n\nAs perguntas que aparecem no texto têm uma função exortativa, ou interpelativa. As últimas, sobretudo, destacadas por Vieira, incidem sobre a relação entre os tempos presente, passado e futuro, temporalidades que abarcam a totalidade da experiência humana, mensurando-a quantitativa e qualitativamente no que concerne à salvação cristã. Tais perguntas conclamam o ouvinte do sermão a manter o firme propósito do exercício da virtude, a examinar sua vida pessoal com base na mensagem bíblica e, por fim, a realizar uma reflexão sobre a condição humana."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão era avaliar a capacidade do candidato compreender a lógica argumentativa do texto de Antonio Vieira e o uso de determinados recursos retóricos. Cabia ao candidato recuperar a proposta geral do sermão, a fim de explicar a natureza de elementos particulares que ocorrem na citação. Tendo entendido o propósito argumentativo do sermão, o candidato também deveria mostrar-se capaz de identificar a função que determinados elementos textuais exercem na escrita de Vieira.",
+   "revisao": "transcrita"
+  }
+ ]
+}
