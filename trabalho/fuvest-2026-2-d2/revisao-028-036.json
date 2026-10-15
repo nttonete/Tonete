@@ -1,0 +1,94 @@
+{
+ "edicao": "fuvest-2026-2-d2",
+ "intervalo": [
+  28,
+  36
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {
+  "30": {
+   "itens": {
+    "a": "$f(x) = 1 \\Rightarrow |x| = 1 \\Rightarrow x = \\pm 1$\nOs pontos de interseção são $(1{,}1)$ e $(-1{,}1)$.",
+    "b": "A área do triângulo marrom é: $A = \\frac{4 \\times 2}{2} = 4$\n\n![Gráfico de f(x) e da reta y = 2, com a região triangular destacada em marrom à direita do eixo Oy](fig:r07-c1)",
+    "c": "$\\frac{|x|}{d} = d \\Rightarrow |x| = d^2 \\Rightarrow x = \\pm d^2$\n\n![Gráfico de f(x) e da reta y = d, com a região triangular destacada em marrom entre x = −d² e x = d²](fig:r07-c2)\n\nA região marrom formada é um triângulo de base $2d^2$ e altura $d$. Assim, a área é $A = \\frac{2d^2.d}{2} = d^3$."
+   }
+  }
+ },
+ "complementos": {
+  "28": {
+   "assunto": "Aritmética e porcentagem"
+  },
+  "29": {
+   "assunto": "Geometria espacial"
+  },
+  "30": {
+   "assunto": "Funções"
+  },
+  "31": {
+   "assunto": "Reações e estequiometria"
+  },
+  "32": {
+   "assunto": "Ligações e interações"
+  },
+  "33": {
+   "assunto": "Ligações e interações"
+  },
+  "34": {
+   "assunto": "Termoquímica"
+  },
+  "35": {
+   "assunto": "Eletroquímica"
+  },
+  "36": {
+   "assunto": "Ligações e interações"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 28,
+   "status": "ok",
+   "notas": "Enunciado e itens conferidos com p33 palavra por palavra; resposta conferida com r05 (fórmulas ampliadas). O \"25\" em itálico no item c está assim no original."
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": "Conferida com p35 e r06; figura p35-f1 completa (todos os vértices, R, S, Q, P e cotas de 4 m) e recortes r06-c3/r06-c4 conferidos. Observação do transcritor confirmada e mantida: no enunciado o quadrado do chão é ABFE e na resolução oficial aparece como ABEF (mesmo quadrado); \"isóscele\" também está assim no original."
+  },
+  {
+   "numero": 30,
+   "status": "corrigida",
+   "notas": "Texto conferido com p35 e r07, sem erro. Ajuste só de acessibilidade na resposta: a resolução oficial fala em \"triângulo marrom\" e \"região marrom\", então as descrições das figuras r07-c1 e r07-c2 passaram a dizer que a região está destacada em marrom."
+  },
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": "Conferida com p38 e r16 (contas do item b conferidas: 2×10¹¹ mol de CaO → 8,8×10⁹ kg de CO₂). Note e adote conferido."
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": "Conferida com p38, p39 (tabela da folha de respostas, transcrita como campo de resolução) e r17. Recorte p38-c1 completo (três estruturas com nomes). Conta do item c confere (0,3%)."
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": "Conferida com p40, p41 e r18; recortes p41-c1, r18-c1 e r18-c2 completos. Observação do transcritor aceita: o parágrafo sobre água sanitária fica, no caderno, entre os itens a e b; o formato não permite texto entre itens, e o início do item b (que ele introduz) preserva a ordem de leitura. Estrutura do dicloroisocianurato e quadro do item a só existem na folha de respostas: recorte como campo de resolução está correto. Nota de conteúdo, sem mudança: o enunciado e a resposta tratam o NCℓ₃ como solúvel em água por ser polar; é premissa da própria banca, coerente entre enunciado e resposta."
+  },
+  {
+   "numero": 34,
+   "status": "ok",
+   "notas": "Conferida com p40 e r19; gráfico p40-c1 completo (eixos e rótulos). Observação do transcritor confirmada por ampliação: a resposta oficial escreve \"1,5 x 50mm\" no item a e \"m/m\" no item c; mantidos como no original. \"ácido láctico\"/\"ácido lático\" alternam no próprio caderno."
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": "Conferida com p42, p43 e r20. Observação do transcritor aceita: a tabela do item a tem colunas agrupadas (células mescladas), por isso vai como figura (p43-c1, completa). Conta do item b confere (90 kg). O Note e adote usa \"2,5 x10⁴\" no caderno; a transcrição com × não muda o sentido."
+  },
+  {
+   "numero": 36,
+   "status": "ok",
+   "notas": "Conferida com p42, p43 e r21; recortes p42-c1 (foto), p42-c3 (esquema), p43-f1 e r21-c1 completos. Observação do transcritor aceita: o parágrafo dos gelificantes e o esquema ficam entre os itens a e b no caderno e foram postos no início do item b, preservando a ordem; a foto, impressa ao lado do enunciado, fica no enunciado."
+  }
+ ]
+}
