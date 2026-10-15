@@ -1,0 +1,361 @@
+{
+ "edicao": "fuvest-2018-1",
+ "intervalo": [
+  31,
+  60
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 41,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Células de embrião de drosófila ($2n = 8$), que estavam em divisão, foram tratadas com uma substância que inibe a formação do fuso, impedindo que a divisão celular prossiga.\n\nApós esse tratamento, quantos cromossomos e quantas cromátides, respectivamente, cada célula terá?",
+   "alternativas": {
+    "A": "4 e 4.",
+    "B": "4 e 8.",
+    "C": "8 e 8.",
+    "D": "8 e 16.",
+    "E": "16 e 16."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 52,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No mundo virtual, milhões de pessoas falam, compram, compartilham dados e se reúnem para tratar dos mais variados assuntos.\n\nNas figuras, os números mostram a movimentação média, em 1 minuto, de algumas das principais empresas e ferramentas de internet nos anos de 2015 e 2017.\n\n![Dois gráficos circulares, de 2015 e de 2017, com a movimentação média em 1 minuto de YouTube, e-mail, Uber, Amazon, Twitter, Instagram, Spotify e Google](fig:p17-c1)\n\nwww.excelacom.com. Adaptado.\n\nSobre a internet e os números mostrados nas figuras, é correto afirmar:",
+   "alternativas": {
+    "A": "Após um crescimento até a primeira década do século XXI, as ferramentas na internet apresentaram estagnação de utilização nos últimos anos.",
+    "B": "Para todos os governos do mundo, independentemente do regime, a democratização da internet é uma ação estratégica.",
+    "C": "O controle de dados e informações é descentralizado, o que confere equanimidade aos países membros da ONU.",
+    "D": "A internet está em constante e rápida mudança, com novas ferramentas aparecendo com contribuições relevantes, enquanto outras vão perdendo espaço.",
+    "E": "Empresas do ramo de serviços têm apresentado crescimento acentuado, o que não é observado em relação a empresas do ramo de entretenimento."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 53,
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "*As casinhas eram alugadas por mês e as tinas por dia; e tudo pago adiantado. O preço de cada tina, metendo a água, quinhentos réis; sabão à parte. As moradoras do cortiço tinham preferência e não pagavam nada para lavar.*\n\n(...) *E, mal vagava uma das casinhas, ou um quarto, um canto onde coubesse um colchão, surgia uma nuvem de pretendentes a disputá-los.*\n\n*E aquilo se foi constituindo numa grande lavanderia, agitada e barulhenta, com as suas cercas de varas, as suas hortaliças verdejantes e os seus jardinzinhos de três e quatro palmos, que apareciam como manchas alegres por entre a negrura das limosas tinas transbordantes e o revérbero das claras barracas de algodão cru, armadas sobre os lustrosos bancos de lavar.*\n\nAluísio Azevedo, **O cortiço**.\n\nNas cidades brasileiras, particularmente no último quartel do século XIX, novas formas urbanas são constituídas, como os cortiços e as favelas. Sobre esse fenômeno, é correto afirmar:",
+   "alternativas": {
+    "A": "A expansão periférica no século XIX, na zona sul da cidade do Rio de Janeiro, teve significativa presença de cortiços, devido à chegada massiva de imigrantes japoneses.",
+    "B": "A primeira favela carioca teve sua origem no forte empobrecimento da população no contexto da crise cafeeira na região serrana do Rio de Janeiro.",
+    "C": "A maior concentração dos cortiços da cidade de São Paulo, presentes no último quartel do século XIX, localizava-se na porção mais central da aglomeração urbana.",
+    "D": "As primeiras favelas brasileiras se originaram devido à expansão da atividade industrial, no centro da cidade de São Paulo, no início do último quartel do século XIX.",
+    "E": "Nas cidades do Vale do Paraíba, durante a expansão cafeeira, os cortiços eram muito frequentes, por conta da presença de imigrantes italianos empobrecidos."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 58,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*Os Impérios helenísticos, amálgamas ecléticas de formas gregas e orientais, alargaram o espaço da civilização urbana da Antiguidade clássica, diluindo-lhe a substância* [...].\n\n*De 200 a.C. em diante, o poder imperial romano avançou para leste* [...] *e nos meados do século II as suas legiões haviam esmagado todas as barreiras sérias de resistência do Oriente.*\n\nP. Anderson. **Passagens da Antiguidade ao feudalismo**. Porto: Afrontamento, 1982.\n\nNa região das formações sociais gregas,",
+   "alternativas": {
+    "A": "a autonomia das cidades-estado manteve-se intocável, apesar da centralização política implementada pelos imperadores helenísticos.",
+    "B": "essas formações e os impérios helenísticos constituíram-se com o avanço das conquistas espartanas no período posterior às guerras no Peloponeso, ao final do século V a.C.",
+    "C": "a conquista romana caracterizou-se por uma forte ofensiva frente à cultura helenística, impondo a língua latina e cerceando as escolas filosóficas gregas.",
+    "D": "o Oriente tornou-se área preponderante do Império Romano a partir do século III d.C., com a crise do escravismo, que afetou mais fortemente sua parte ocidental.",
+    "E": "os espaços foram conquistados pelas tropas romanas, na Grécia e na Ásia Menor, em seu período de apogeu, devido às lutas intestinas e às rivalidades entre cidades-estado."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 60,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A imagem representa a morte de Atahualpa, o último imperador inca, em 1533, após a conquista espanhola comandada por Francisco Pizarro.\n\n![Pintura Os funerais do inca Atahualpa, de Luis Montero: cena em um salão; à esquerda, um grupo de mulheres e homens de armadura com lanças; ao centro e à direita, religiosos e homens de capa em volta de um corpo deitado sobre uma mesa coberta de pano verde](fig:p20-c1)\n\nLuis Montero. **Os funerais do inca Atahualpa**. Óleo sobre tela, 1865-1867.\n\nAnalise as quatro afirmações seguintes, a respeito da empresa e da conquista colonial espanhola no Peru e da representação presente na imagem.\n\nI. A conquista foi favorecida pelo conflito interno entre os dois irmãos incas, Atahualpa e Huáscar, aproveitado pelas forças espanholas lideradas por Francisco Pizarro.\nII. A produção agrícola das *plantations* escravistas constituiu-se na base econômica do vice-reinado do Peru, controlado pelos espanhóis.\nIII. Do lado esquerdo da pintura, há uma movimentação conflituosa, na qual as mulheres incas são contidas por guardas espanhóis, contrastando com a expressão ordenada e solene do lado direito, composto por religiosos e autoridades espanholas em torno do corpo do imperador inca.\nIV. A pintura revela o resgate de elementos históricos – importante para a construção do ideário nacionalista no século XIX, no processo pós-independência e de formação do Estado nacional peruano –, mas retrata os personagens indígenas com trajes e feições europeus.\n\nEstão corretas apenas as afirmações",
+   "alternativas": {
+    "A": "I, II e III.",
+    "B": "II, III e IV.",
+    "C": "I, III e IV.",
+    "D": "I e II.",
+    "E": "III e IV."
+   },
+   "observacoes": ""
+  }
+ ],
+ "complementos": {
+  "31": {
+   "assunto": "Matemática financeira",
+   "resolucao": "Depois de pagar a 1ª parcela, o dinheiro aplicado a 1% ao mês (fator $1{,}01$) precisa cobrir exatamente as duas parcelas seguintes, sem sobrar nada. Vale fazer a conta de trás para frente.\n\nUm mês antes da 3ª parcela, o saldo deve ser $\\frac{500}{1{,}01} \\approx 495{,}05$.\n\nUm mês antes da 2ª parcela (logo depois de pagar a 1ª): $\\frac{500 + 495{,}05}{1{,}01} = \\frac{995{,}05}{1{,}01} \\approx 985{,}20$.\n\nSomando a 1ª parcela, paga no dia da compra: $500 + 985{,}20 = 1.485{,}20$ reais.\n\n**Resposta: C**"
+  },
+  "32": {
+   "assunto": "Polinômios e equações",
+   "resolucao": "Pelas relações de Girard, num polinômio de grau $n$ com coeficiente líder 1, o produto das raízes é $(-1)^n a_0$.\n\nTodas as raízes estão na circunferência unitária, então cada uma tem módulo 1, e o produto também: $|a_0| = 1$. Como os coeficientes são reais, $a_0$ é real; com $a_0 < 0$, só pode ser $a_0 = -1$.\n\nLogo, o produto das raízes é $(-1)^n \\cdot (-1) = (-1)^{n+1}$. A alternativa D é a armadilha de quem esquece o sinal de $a_0$.\n\n**Resposta: E**"
+  },
+  "33": {
+   "assunto": "Geometria plana",
+   "resolucao": "Um triângulo inscrito que tem um lado sobre o diâmetro é retângulo no vértice oposto. A diagonal mede 2 (diâmetro de um círculo de raio 1), então o quadrilátero branco é formado por dois triângulos retângulos de hipotenusa 2.\n\nNo triângulo com o ângulo $x$, os catetos medem $2\\cos x$ e $2\\operatorname{sen} x$, e a área é $\\frac{1}{2} \\cdot 2\\cos x \\cdot 2\\operatorname{sen} x = 2\\operatorname{sen} x \\cos x = \\operatorname{sen}(2x)$. Do mesmo jeito, o outro triângulo tem área $\\operatorname{sen}(2y)$.\n\nA região cinza é o círculo (área $\\pi \\cdot 1^2 = \\pi$) menos o quadrilátero: $\\pi - \\operatorname{sen}(2x) - \\operatorname{sen}(2y)$.\n\n**Resposta: B**"
+  },
+  "34": {
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "Seja $L$ o comprimento da pista. Até o 1º encontro, os dois juntos percorreram $L$, e o corredor que saiu de A andou 800 m.\n\nAté o 2º encontro, cada um chegou ao outro extremo e voltou um pedaço: juntos percorreram $3L$. Como as velocidades são constantes, cada um andou o triplo do que tinha andado até o 1º encontro. O corredor de A andou $3 \\cdot 800 = 2400$ m.\n\nEsse corredor foi de A até B ($L$) e voltou 500 m: $L + 500 = 2400$, logo $L = 1900$ m.\n\n**Resposta: D**"
+  },
+  "35": {
+   "assunto": "Zoologia",
+   "resolucao": "O tipo de excreta nitrogenado depende da água disponível. A amônia é muito tóxica e precisa de muita água para ser eliminada, por isso aparece em animais aquáticos, como a lula, um molusco marinho.\n\nO ácido úrico é pouco tóxico e quase insolúvel, eliminado com pouquíssima água. É típico de insetos (borboleta) e aves (avestruz), e também permite ao embrião acumular o resíduo dentro do ovo com casca.\n\nA ureia é a excreta dos mamíferos e não serve para nenhum dos três animais.\n\n**Resposta: A**"
+  },
+  "36": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "A veia cava inferior recolhe o sangue pobre em oxigênio da parte de baixo do corpo e desemboca no átrio direito, como diz a alternativa B.\n\nCada uma das outras tem um erro: a veia cava superior também chega ao átrio direito, e não ao esquerdo (A); a artéria pulmonar leva sangue pobre em oxigênio aos pulmões (C); as veias pulmonares chegam ao átrio esquerdo (D); a aorta sai do ventrículo esquerdo (E).\n\n**Resposta: B**"
+  },
+  "37": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Micorrizas são associações entre fungos e raízes em que os dois ganham: o fungo aumenta a absorção de água e sais minerais pela planta e recebe dela compostos orgânicos. Por isso a D está correta.\n\nAs outras falham: fungos sapróbios decompõem matéria orgânica, mas não produzem açúcar a partir do $\\text{CO}_2$ (A); fungos são eucariontes, não procariontes (B); os cogumelos comestíveis são justamente corpos de frutificação (C); fungos não fazem fotossíntese (E).\n\n**Resposta: D**"
+  },
+  "38": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "As três afirmações estão corretas.\n\nI: o bulbo envia impulsos nervosos que contraem o diafragma e os músculos intercostais; a caixa torácica se expande e o ar entra (inspiração).\n\nII: o aumento de $\\text{CO}_2$ no sangue, que deixa o plasma mais ácido, é percebido por quimiorreceptores e acelera a respiração.\n\nIII: podemos prender ou acelerar a respiração por vontade própria, mas na maior parte do tempo ela é automática, comandada pelo bulbo.\n\n**Resposta: E**"
+  },
+  "39": {
+   "assunto": "Genética",
+   "resolucao": "As mitocôndrias passam aos filhos só pela mãe, pelo citoplasma do óvulo. Na herança mitocondrial, mãe afetada tem todos os filhos afetados, e pai afetado não transmite a característica.\n\nFamília 1: pai afetado e filhos normais, o que é compatível. Família 2: mãe afetada e todos os filhos afetados, compatível. Família 4: mãe afetada e filhos afetados, também compatível.\n\nFamília 3: a mãe é normal e os dois filhos são afetados. A característica só poderia ter vindo do pai, o que é impossível na herança mitocondrial; por isso ela fica afastada.\n\n**Resposta: C**"
+  },
+  "40": {
+   "assunto": "Botânica",
+   "resolucao": "Plantas de ambientes secos e muito iluminados têm adaptações para perder pouca água: folhas pequenas (menos superfície para transpirar), estômatos concentrados na face inferior, mais protegida do sol, muitos tricomas claros (refletem a luz e seguram uma camada de ar úmido junto à folha), cutícula impermeável e parênquima aquífero, que guarda água.\n\nO parênquima aerífero, que aparece nas outras alternativas, é típico de plantas aquáticas, e estômatos na face superior aumentariam a perda de água.\n\n**Resposta: A**"
+  },
+  "41": {
+   "assunto": "Citologia",
+   "resolucao": "Uma substância que impede a formação do fuso (como a colchicina) faz a divisão parar na metáfase. Nessa fase o DNA já foi duplicado na interfase, e as cromátides irmãs ainda não se separaram.\n\nA célula diploide da drosófila tem $2n = 8$ cromossomos, cada um com duas cromátides. Assim, cada célula fica com 8 cromossomos e $8 \\times 2 = 16$ cromátides.\n\nA alternativa C (8 e 8) esquece que cada cromossomo está duplicado.\n\n**Resposta: D**"
+  },
+  "42": {
+   "assunto": "Ecologia",
+   "resolucao": "As três afirmações estão corretas.\n\nI: a respiração e a queima de combustíveis fósseis e de vegetação liberam $\\text{CO}_2$ para a atmosfera.\n\nII: descreve as três etapas do ciclo do nitrogênio feitas por bactérias: fixação ($\\text{N}_2$ vira amônia), nitrificação (amônia vira nitrito e depois nitrato) e desnitrificação (nitrato volta a $\\text{N}_2$).\n\nIII: a transpiração das plantas devolve água do solo à atmosfera; o vapor se condensa, forma nuvens e volta como chuva, como ocorre com os “rios voadores” da Amazônia.\n\n**Resposta: E**"
+  },
+  "43": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "A toxina botulínica impede a liberação de acetilcolina nas junções entre os nervos e os músculos. Sem esse neurotransmissor, os músculos não se contraem, e o animal sofre uma paralisia flácida.\n\nQuando a paralisia atinge o diafragma e os músculos intercostais, a respiração para, e é isso que leva à morte.\n\nNão se trata de infecção generalizada (A): o gado ingeriu a toxina já formada no milho, e é ela que causa o quadro.\n\n**Resposta: E**"
+  },
+  "44": {
+   "assunto": "Citologia",
+   "resolucao": "A equação é a da fermentação alcoólica: a glicose vira etanol e $\\text{CO}_2$, com saldo de 2 ATP, sem uso de oxigênio. Todas as etapas (glicólise e transformação do piruvato em etanol) acontecem no citosol; as mitocôndrias só entram na respiração aeróbia.\n\nO etanol é aproveitado na cerveja e o $\\text{CO}_2$ faz a massa do pão crescer. Vinagre vem da fermentação acética e iogurte da fermentação lática, ambas feitas por bactérias.\n\n**Resposta: C**"
+  },
+  "45": {
+   "assunto": "Genética",
+   "resolucao": "O cruzamento é $BbEe \\times bbee$. O cão duplo-homozigótico recessivo só forma gametas $be$; o heterozigótico forma $BE$, $Be$, $bE$ e $be$ na mesma proporção.\n\nOs filhos são $BbEe$ (preto), $Bbee$ (dourado), $bbEe$ (chocolate) e $bbee$ (dourado), cada tipo com 1/4. Quem é $ee$ não deposita pigmento e fica dourado, seja qual for o gene B.\n\nEm 36 cães: pretos $= 9$, chocolate $= 9$ e dourados $= 18$.\n\n**Resposta: B**"
+  },
+  "46": {
+   "assunto": "Eletroquímica",
+   "resolucao": "Compare o número de oxidação do carbono: no $\\text{CO}_2$ ele vale $+4$; na glicose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$), $0$; no metano ($\\text{CH}_4$), $-4$.\n\nI (fotossíntese): $+4 \\rightarrow 0$, redução, feita por autótrofos como plantas e algas.\n\nII (quimiossíntese): $+4 \\rightarrow -4$, redução, feita por arqueas metanogênicas, que são autótrofas.\n\nIII (respiração): $0 \\rightarrow +4$, oxidação, feita por heterótrofos e também por autótrofos, pois plantas também respiram. Esse é o detalhe que elimina quem marcaria só “heterotrófico”.\n\n**Resposta: A**"
+  },
+  "47": {
+   "assunto": "Hidrografia",
+   "resolucao": "Os giros oceânicos são grandes circuitos fechados de correntes marinhas. No centro de cada giro a água quase não circula, e o material flutuante trazido pelas correntes das bordas fica preso ali.\n\nÉ o que o mapa mostra: as manchas de alta acumulação ficam no interior dos giros do Pacífico Norte e do Pacífico Sul.\n\nAs outras alternativas erram ao pôr o acúmulo maior no litoral (B), ao falar em concentrações idênticas (D) ou ao explicar o padrão por correntes como a do Peru (Humboldt), que corre junto à costa da América do Sul (C e E).\n\n**Resposta: A**"
+  },
+  "48": {
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "Merkel defende a cooperação contra “o isolacionismo e o protecionismo” e diz que o Acordo de Paris é “irreversível e não negociável”. Semanas antes, em junho de 2017, Donald Trump havia anunciado a saída dos EUA do acordo, alegando prejuízo à economia americana. O discurso é uma resposta a isso: I está correta.\n\nII está errada: o texto critica o protecionismo e não elogia o Reino Unido nem trata do Brexit. III também está errada: a França, sede da COP21, não é alvo do discurso.\n\n**Resposta: A**"
+  },
+  "49": {
+   "assunto": "Energia",
+   "resolucao": "Em 1928, no acordo de Achnacarry, as grandes petrolíferas que ficariam conhecidas como “Sete Irmãs” combinaram dividir mercados e controlar preços. Esse cartel dominou toda a cadeia do petróleo até o fortalecimento da OPEP, nos anos 1970.\n\nAs outras estão erradas: nos anos 1970 o preço do barril disparou, com os choques de 1973 e 1979 (A); o monopólio estatal veio com a Petrobras, em 1953, no governo Vargas, e JK governou de 1956 a 1961 (B); o petróleo já era usado como fonte de energia no século XIX (C); as reservas dos EUA não são ilimitadas, e o país importou muito petróleo (E).\n\n**Resposta: D**"
+  },
+  "50": {
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "O circuito curto aproxima quem produz de quem consome.\n\nI está correta: menos distância significa menos transporte, menos queima de combustível e menos emissão de $\\text{CO}_2$. III está correta: com no máximo um intermediário, surgem relações diretas entre produtor e consumidor, e o preço pode ser justo para os dois.\n\nII está errada: o circuito curto valoriza pequenos produtores e a venda direta, e não o lucro das grandes indústrias de alimentos, que trabalham com cadeias longas.\n\n**Resposta: E**"
+  },
+  "51": {
+   "assunto": "Clima",
+   "resolucao": "Y nasce no extremo sul, sobre o Atlântico, e avança para o norte: é a Massa Polar Atlântica, de ar frio, que derruba as temperaturas e no inverno pode chegar ao Centro-Oeste e até à Amazônia (a “friagem”).\n\nAs outras trocam as massas ou suas características: W é a Equatorial Continental, quente e úmida (A); Z, a Tropical Continental, é quente e seca (C); X, vinda do oceano a nordeste, é a Equatorial Atlântica (D); V é a Tropical Atlântica, quente e úmida (E).\n\n**Resposta: B**"
+  },
+  "52": {
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "Em apenas dois anos, os números mudam muito: corridas de Uber passam de 694 para 3.833, visualizações no YouTube de 2,78 para 4,1 milhões e vendas da Amazon mais que dobram, enquanto e-mails (de 204 para 156 milhões), tweets e postagens no Instagram diminuem. Isso confirma a D: a internet muda depressa, com ferramentas ganhando e perdendo espaço.\n\nA erra porque não houve estagnação; E erra porque o entretenimento (Spotify, YouTube) também cresceu. B e C ignoram a censura em vários países e a concentração do controle de dados em poucas empresas e países.\n\n**Resposta: D**"
+  },
+  "53": {
+   "assunto": "Urbanização",
+   "resolucao": "No fim do século XIX, os cortiços de São Paulo ficavam na área central e nos bairros vizinhos a ela, perto das ferrovias, das fábricas e do comércio. Ali trabalhadores pobres e imigrantes alugavam cômodos baratos.\n\nAs outras falham: a imigração japonesa só começou em 1908 (A); a primeira favela carioca, no Morro da Providência, está ligada aos soldados que voltaram da Guerra de Canudos, em 1897, e não à crise do café na serra (B); as favelas não nasceram da industrialização do centro de São Paulo (D); a expansão cafeeira no Vale do Paraíba usou mão de obra escravizada, não imigrantes italianos (E).\n\n**Resposta: C**"
+  },
+  "54": {
+   "assunto": "Geologia e relevo",
+   "resolucao": "O conceito restrito de erosão considera só o deslocamento de material já intemperizado, levado pela água, pelo vento, pelo gelo ou pela gravidade, deixando formas características. Os sulcos abertos no solo pela água da chuva que escorre são exatamente isso.\n\nA oxidação de rochas (B) é intemperismo químico, que só cabe no conceito amplo. A formação de rochas, as concreções no solo e o vulcanismo não envolvem transporte de material desgastado.\n\n**Resposta: C**"
+  },
+  "55": {
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "A revolução verde, difundida a partir das décadas de 1950 e 1960, apoiou-se em pesquisa científica: sementes selecionadas de alto rendimento, fertilizantes, agrotóxicos, irrigação e mecanização. O resultado foi o grande aumento da produção de grãos em monoculturas extensas, como diz a E.\n\nAs outras contrariam esse modelo: ele nasceu em centros de pesquisa dos EUA e do México, não no Japão (A); reduziu a diversidade de cultivos e deixou os pequenos agricultores dependentes de sementes compradas (B); não tinha como objetivo preservar a biodiversidade (C); e não deu às populações rurais pobres padrões de consumo de metrópole (D).\n\n**Resposta: E**"
+  },
+  "56": {
+   "assunto": "Questões ambientais",
+   "resolucao": "No mapa, a vegetação nativa resiste quase só dentro do Parque Indígena do Xingu e das outras terras indígenas e unidades de conservação, enquanto o entorno está desmatado. Isso mostra essas áreas protegidas funcionando como barreira ao desmatamento, como diz a B.\n\nA erra ao dizer que qualquer recuperação é inviável; C erra porque o Xingu é afluente da margem direita do Amazonas e a bacia faz contato com o Cerrado, não com a Caatinga; D e E apontam causas falsas, pois o desmatamento no Mato Grosso se deve sobretudo à pecuária e à soja.\n\n**Resposta: B**"
+  },
+  "57": {
+   "assunto": "Hidrografia",
+   "resolucao": "Estuário bem misturado (1): a água doce e a salgada se misturam por completo, e a salinidade é a mesma em toda a profundidade, como no gráfico III.\n\nParcialmente misturado (2): a salinidade é intermediária e muda pouco entre a superfície e o fundo, como no gráfico II.\n\nCunha salina (3): a água doce, menos densa, fica por cima da salgada, e a salinidade salta de baixa para alta com a profundidade, como no gráfico I.\n\n**Resposta: E**"
+  },
+  "58": {
+   "assunto": "Antiguidade",
+   "resolucao": "O texto lembra que o Oriente grego e helenístico era a parte mais urbanizada do mundo antigo e foi incorporado ao Império Romano. Na crise do século III, o escravismo entrou em colapso sobretudo no Ocidente; o Oriente, com mais cidades, comércio e economia diversificada, resistiu melhor e virou o centro do Império, como mostram a fundação de Constantinopla e a sobrevivência do Império Bizantino. É a alternativa D.\n\nAs outras erram: as cidades-estado perderam autonomia sob os reinos helenísticos (A); esses reinos nasceram das conquistas macedônicas de Alexandre, não de Esparta (B); Roma assimilou a cultura grega em vez de reprimi-la (C); a conquista romana ocorreu nos séculos II e I a.C., quando as cidades gregas já não viviam seu apogeu (E).\n\n**Resposta: D**"
+  },
+  "59": {
+   "assunto": "Idade Média",
+   "resolucao": "Le Goff compara as clareiras cultivadas no meio das florestas cristãs aos oásis no meio dos desertos muçulmanos. Nos dois mundos, a população se concentrava nesses espaços, que eram os núcleos da vida econômica, social e cultural; é o que diz a B.\n\nA erra porque as duas religiões se firmaram em cidades (o cristianismo nas cidades do Império Romano, o islamismo em Meca e Medina). C exagera: a Cristandade tinha cidades e comércio, ainda que menos que o Islã. D erra porque o Islã é monoteísta; os cultos pagãos combatidos eram os dos povos europeus. E inverte o texto: foi no Ocidente que o cultivo avançou sobre as florestas.\n\n**Resposta: B**"
+  },
+  "60": {
+   "assunto": "Colonização da América",
+   "resolucao": "I está correta: a guerra civil entre Atahualpa e Huáscar dividiu o Império Inca e facilitou a conquista por Pizarro.\n\nIII está correta: a pintura opõe o grupo agitado de mulheres contidas por soldados, à esquerda, à cena solene de religiosos e autoridades em volta do corpo, à direita.\n\nIV está correta: pintado depois da independência, o quadro valoriza o passado inca para a identidade nacional peruana, mas mostra os indígenas com traços e roupas europeus.\n\nII está errada: a base econômica do Vice-Reino do Peru era a mineração de prata, como em Potosí, com trabalho indígena compulsório (a mita), e não plantations escravistas.\n\n**Resposta: C**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 34,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 36,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 41,
+   "status": "corrigida",
+   "notas": "enunciado: o original quebra o parágrafo depois de \"prossiga.\"; separado em dois parágrafos"
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 45,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 49,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "corrigida",
+   "notas": "enunciado: o original quebra o parágrafo depois de \"assuntos.\"; separado em dois parágrafos"
+  },
+  {
+   "numero": 53,
+   "status": "corrigida",
+   "notas": "materias_extra: retirada \"literatura\" (o trecho de O cortiço é só apoio; a questão cobra urbanização e história)"
+  },
+  {
+   "numero": 54,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "corrigida",
+   "notas": "citação: os \"[...]\" (e o ponto final do 1º trecho) não estão em itálico no original; os dois trechos separados em parágrafos"
+  },
+  {
+   "numero": 59,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 60,
+   "status": "corrigida",
+   "notas": "descrição da figura reescrita sem interpretação (\"guardas\", \"autoridades\", \"movimentação\" repetiam a afirmação III, que pergunta o que a imagem mostra)"
+  }
+ ]
+}
