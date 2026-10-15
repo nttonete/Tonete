@@ -1,0 +1,252 @@
+{
+ "edicao": "unicamp-2025-2-cet",
+ "intervalo": [
+  11,
+  20
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O *Ingenuity*, enviado ao planeta Marte pela NASA, foi o primeiro helicóptero, de pequenas dimensões, a operar fora da atmosfera terrestre. Na superfície de Marte, a aceleração gravitacional tem módulo dado por $g_\\text{Marte} \\simeq 4\\ \\text{m/s}^2$, e a pressão atmosférica é muito menor do que na superfície da Terra. Isso impõe desafios adicionais ao voo de pequenos helicópteros, hoje de uso corriqueiro na atmosfera terrestre (*drones*).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um pequeno helicóptero desloca-se em movimento horizontal, retilíneo e uniforme, com velocidade de módulo $v_0 = 6{,}0\\ \\text{m/s}$ e a uma altura $h = 8{,}0\\ \\text{m}$ a partir da superfície de Marte. Em dado momento, o helicóptero solta uma pequena massa que carregava, deixando-a cair livremente. Qual é o deslocamento horizontal dessa pequena massa desde que se desprendeu do helicóptero até atingir o solo marciano?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A força de sustentação de um helicóptero é proporcional à diferença de pressão $\\Delta P$ entre as partes inferior e superior da hélice. Um pequeno helicóptero, em dada condição de operação, sustenta uma massa total $m_\\text{Terra} = 800\\ \\text{g}$, incluindo seu próprio peso, permanecendo em movimento horizontal, retilíneo e uniforme, na atmosfera terrestre. Considere que esse helicóptero seja colocado para operar em Marte. Assuma, por simplicidade, que a diferença de pressão entre as partes inferior e superior da hélice, na mesma condição de operação, seja proporcional à própria pressão atmosférica, ou seja: $\\dfrac{\\Delta P_\\text{Marte}}{\\Delta P_\\text{Terra}} = \\dfrac{P_\\text{Marte}}{P_\\text{Terra}}$. Sendo $P_\\text{Terra} = 160\\,P_\\text{Marte}$, calcule a massa $m_\\text{Marte}$ que o helicóptero sustentaria em movimento horizontal, retilíneo e uniforme, na atmosfera de Marte."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Cerca de cinquenta modalidades esportivas estiveram presentes nos Jogos Olímpicos de Paris em 2024, dentre elas o “tiro esportivo”. Outra dezena de modalidades, no gelo ou na neve, fez parte dos Jogos Olímpicos de Inverno de Pequim em 2022, dentre elas o “esqui alpino”, incluído nesses jogos em 1936.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em uma competição de esqui alpino, um atleta de massa total $m = 90\\ \\text{kg}$, incluindo os esquis, desce, com velocidade constante, um plano inclinado que forma um ângulo $\\theta = 37^\\circ$ com a horizontal. O coeficiente de atrito cinético entre o esqui e o gelo é $\\mu_\\text{c} = 0{,}05$. Qual é o módulo da força de resistência do ar, $\\left|\\vec{F}_\\text{res, ar}\\right|$, paralela ao plano inclinado, que age sobre o atleta na descida?\n\nDados: $\\text{sen}\\,37^\\circ = 0{,}6$; $\\cos 37^\\circ = 0{,}8$; $\\text{tg}\\,37^\\circ = 0{,}75$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em uma competição de tiro esportivo um atirador usa protetores auriculares que atenuam a intensidade sonora em $\\beta = 40\\ \\text{dB}$. Um disparo ocorre, tomando como referência os ouvidos do atirador, a uma distância dada por $r_0 = 0{,}6\\ \\text{m}$. Considere que a intensidade sonora $I(r)$ para um espectador situado a uma distância $r$ ao ponto de disparo é dada por $I(r) = \\dfrac{\\mathit{cte}}{r^2}$. A que distância do disparo deve estar o espectador para que ele ouça o tiro com intensidade sonora equivalente àquela ouvida pelo atirador que usa protetores auriculares?\n\nDado: A atenuação em decibéis (dB) de uma onda sonora, cuja intensidade é reduzida de $I(r_0)$ para $I(r_1)$, é dada por\n\n$$\\beta = (10\\ \\text{dB}) \\times \\log_{10}\\left(\\frac{I(r_0)}{I(r_1)}\\right).$$"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 13,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nas Olimpíadas de 2024, os atletas foram avaliados – com o emprego de metodologias modernas e conceitos de Física – em diferentes modalidades esportivas, para análise dos movimentos e diagnose de desempenho.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Nos saltos ornamentais, os atletas saltam da ponta da prancha, causando uma flexão que os impulsiona para cima. A Figura A ilustra a relação entre a força aplicada pelos atletas e o deslocamento gerado na prancha, a qual atua como uma mola sobre o atleta. Considere uma perda por atrito de 10% na energia potencial elástica. Qual a altura vertical máxima que um atleta de massa $m = 72\\ \\text{kg}$ atinge ao flexionar a prancha de modo a deslocar sua ponta de uma distância $\\Delta x = 40\\ \\text{cm}$ em relação à sua posição de repouso?\n\n![Figura A: gráfico de pontos da força (10³ N) em função do deslocamento (cm)](fig:p15-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Câmeras em diferentes posições facilitam a análise dos movimentos e trajetórias nas diferentes modalidades esportivas. Algumas câmeras usam polarizadores para facilitar a visualização do objeto em movimento, com a redução de reflexões vindas das vizinhanças. A função dos polarizadores é otimizada quando essas reflexões indesejadas ocorrem na condição em que o raio refletido e o raio refratado formam um ângulo de $90^\\circ$. Neste caso, o ângulo de incidência é conhecido como ângulo de Brewster $(\\theta_\\text{B})$. A Figura B, no espaço de respostas, mostra um raio que incide na interface entre o ar e um meio de índice de refração $n_2$. O ângulo de incidência do raio é $\\theta_1 = \\theta_\\text{B} = 60^\\circ$. Calcule o índice de refração $n_2$.\n\nDados: $\\text{sen}\\,60^\\circ = 0{,}87$; $\\cos 60^\\circ = 0{,}50$; $\\text{tg}\\,60^\\circ = 1{,}73$.\n\n![Figura B: raio incidente com ângulo θ₁, raio refletido com ângulo θ′₁ e raio refratado com ângulo θ₂ na interface entre n₁ = 1 (ar) e o meio n₂; ângulo reto indicado entre o raio refletido e o raio refratado](fig:p15-c3)"
+    }
+   ],
+   "observacoes": "A Figura B fica no campo de resolução do caderno; foi incluída no item b porque o enunciado a cita. O gabarito oficial desta questão tem erros de digitação mantidos como no original (colchete sem fechamento em [(−0,4)² − 0), 90⁰ no lugar de 90°)."
+  },
+  {
+   "numero": 14,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Quando colocamos água em um copo, ele passa a atuar como uma lente cilíndrica. Ao posicionarmos o objeto atrás do copo com água, as características da imagem dependem de sua posição, a exemplo do que acontece com uma lente delgada. Como observado na Figura A, a imagem produzida é real, invertida e maior que o objeto.\n\n![Figura A: duas fotografias de um copo, sem água (à esquerda) e com água (à direita), com setas vermelhas e os rótulos “ar” e “água”](fig:p16-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "As posições do centro de curvatura e do foco de uma lente delgada estão representadas no eixo óptico ilustrado na Figura B no espaço de respostas. Para que a imagem produzida pela lente seja real, invertida e maior que o objeto, faça o que se pede:\n\ni) represente uma lente delgada no ponto O, explicitando se ela é divergente ou convergente.\nii) posicione o objeto corretamente, representando-o como uma seta apontando para cima, com a base no eixo óptico.\niii) usando o comportamento de dois raios notáveis, encontre a imagem com as características acima, representando-a como uma seta apontando para baixo e com a base no eixo óptico.\n\n*Campo de resolução:*\n\n![Figura B: eixo óptico horizontal com os pontos C′, F′, O, F e C, sobre uma malha quadriculada](fig:p16-c2)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere agora uma lente divergente delgada com distância focal $f = -5\\ \\text{cm}$. Um objeto está posicionado a uma distância $p = 45\\ \\text{cm}$ dessa lente. Qual é o aumento linear transversal $A$ da imagem gerada?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 15,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A exposição do ser humano à radioatividade é possível desde que feita de forma segura e em ambiente controlado. Os radiofármacos, que são medicamentos radioativos, são utilizados, em medicina, tanto no diagnóstico quanto no tratamento de doenças. Atualmente, o $^{18}_{\\;9}\\text{F}$ é um dos principais radionuclídeos utilizados, sob a forma do fármaco 2−desoxi−2−($^{18}\\text{F}$) fluoro−D−glicose ($^{18}\\text{F}$-FDG), em exames de diagnóstico de doenças no cérebro, como tumores. Uma vez aplicado, esse radiofármaco entra na célula e, com isso, torna lesões, como tumores, mais visíveis ao exame de tomografia por emissão de pósitrons (partículas $\\beta^+$), gerando o núcleo estável $^{18}_{\\;8}\\text{O}$. Nesse processo de decaimento, o tempo de meia-vida do $^{18}_{\\;9}\\text{F}$ é de aproximadamente 110 minutos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A instrução para a realização desse exame informa que o paciente deve permanecer 1 hora em repouso depois da administração intravenosa do material radioativo $^{18}\\text{F}$-FDG. Imediatamente após o período de repouso, o exame é realizado e finalizado em 30 minutos. Ao final do exame, o paciente é liberado sem restrições dietéticas ou de radioproteção. Considerando as informações dadas até então, construa, no espaço quadriculado em a) no campo de respostas, a curva de decaimento do radiofármaco. Determine a porcentagem restante de radiofármaco, em relação à quantidade inicial de 100%, 4 horas depois de o paciente ter finalizado o exame.\n\n*Campo de resolução:*\n\n![gráfico quadriculado vazio, com eixo vertical “Porcentagem” e eixo horizontal “Tempo (min)”](fig:p17-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando o que está no texto principal e nas informações do item a), faz-se a seguinte afirmação: um radiofármaco para diagnóstico por imagem deve emitir uma radiação “incapaz de atravessar o corpo humano e, ao contrário de um radiofármaco terapêutico (para tratamento), deve promover o mínimo possível de interações lesivas aos tecidos vivos”. Assinale, no campo de resposta, se você concorda totalmente, se concorda parcialmente ou se discorda totalmente dessa afirmação. Justifique sua escolha.\n\n*Campo de resolução:* ☐ concorda totalmente  ☐ concorda parcialmente  ☐ discorda totalmente"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 16,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Ao construir uma moradia, uma pessoa leva em conta uma série de parâmetros para a escolha dos materiais: preço, conforto, durabilidade, beleza e harmonia na composição do projeto final. Se for mais além, ela também pode usar, ainda no que diz respeito à escolha dos materiais, critérios como as <u>condições de produção</u> e os <u>potenciais impactos ambientais</u> desses materiais ao longo de seu ciclo de vida. Com isso, as escolhas feitas podem contribuir para uma maior sustentabilidade do planeta.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere 2 tipos de telhas: a de fibrocimento e a sanduíche (formada por alumínio e isopor). (i) Informe os recursos naturais utilizados para fabricação de cada tipo de telha. (ii) Comente os potenciais impactos da produção dessas telhas nas mudanças climáticas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A figura abaixo foi obtida de um estudo sobre telhas de aço revestidas com zinco (galvanizadas). Considerando as informações contidas na figura a seguir, (i) aponte os parâmetros de análise considerados nesse caso e (ii) cite duas conclusões que podem ser obtidas.\n\n![gráfico da vida útil (anos) em função de gramas de zinco/m², com quatro curvas: Rural, Marinha, Industrial e Industrial severa, sob o título “Ambiente de exposição indicado nas curvas”](fig:p18-c1)"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 17,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Células a combustível microbianas (CCMs) surgiram para contribuir como uma fonte alternativa para a geração de energia. As CCMs utilizam microrganismos eletroativos para transferir elétrons de moléculas orgânicas para um eletrodo. Dentre os substratos orgânicos utilizados para alimentar o compartimento anódico das CCMs e produzir eletricidade, destaca-se o uso da urina humana como fonte alternativa para geração de energia elétrica. Dos sólidos dissolvidos na urina, a ureia é o componente majoritário, podendo chegar a 23 gramas por litro. Como cada pessoa urina em média 2 litros por dia, a produção mundial média de urina chega aos $1{,}6\\text{x}10^{10}$ litros/dia, tornando-se um recurso inestimável.\n\nDados:\nFórmula da ureia $(\\text{NH}_2)_2\\text{CO}$\nNúmero de oxidação (NOX) do nitrogênio na ureia = -3",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A figura ao lado ilustra uma CCM. Em seu compartimento anódico, há um microrganismo agregado ao eletrodo, onde ocorre a transformação da ureia em alguns produtos, entre eles a água. Essa água produzida também sai do sistema, através de uma membrana semipermeável, juntamente com a água da própria urina. Observando a figura ao lado (i) escreva a equação química da reação global que ocorre na CCM e (ii) determine quantos mols de elétrons passam pelo circuito na transformação total de 1 mol de ureia.\n\n![esquema de uma célula a combustível microbiana: compartimento com urina humana e microrganismos agregados ao eletrodo, membrana, entrada de urina humana (ureia), saída de CO₂ e N₂, entrada de O₂, saída de H₂O e circuito com “Bioeletricidade”](fig:p19-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A ureia, presente na urina, pode ser convertida em fertilizante na forma de íons amônio, se adicionada ao solo. Considerando as informações do texto inicial, qual seria a massa de íons amônio obtida a partir da conversão de 100% da ureia da urina de uma pessoa em um dia?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 18,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Recentemente, um grupo de pesquisadores da Embrapa investigou a associação entre a produtividade de carne bovina e o balanço de carbono gerado para quatro tipos diferentes de manejo, conforme tabela abaixo. Na determinação do balanço de carbono ($\\text{CO}_2$ total), os pesquisadores levaram em conta, além da própria emissão de $\\text{CO}_2$ e do seu sequestro pela plantação consorciada de árvores, as emissões de metano entérico ($\\text{CH}_4$) e óxido nitroso ($\\text{N}_2\\text{O}$). A tabela abaixo informa alguns resultados alcançados, sendo que o $\\text{CO}_2$ total foi obtido pela diferença entre a quantidade de gases de efeito estufa removidos da atmosfera e a quantidade de gases de efeito estufa emitidos.\n\n| | **Pastagem irrigada com alta lotação** | **Pastagem sem irrigação com alta lotação** | **Pastagem sem irrigação com lotação média** | **Pastagem degradada** |\n|---|---|---|---|---|\n| **$\\text{CO}_2$ total (t $\\text{CO}_2$ ha$^{-1}$ ano$^{-1}$)** | −13,40 | 0,14 | 1,30 | − 6,23 |\n| **Produtividade de carne (kg ha$^{-1}$)** | 1386 | 867 | 656 | 221 |",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere que você seja um pecuarista que visa a maximizar seu rendimento financeiro, mas que ao mesmo tempo se preocupa em não impactar, com sua atividade econômica, o meio ambiente. Levando em conta esses pressupostos, assinale, no campo de respostas, a condição que seria a mais adequada em seu caso. Justifique sua resposta, levando em conta os dados da tabela acima e as informações do texto inicial.\n\n*Campo de resolução:*\n☐ Pastagem irrigada com alta lotação\n☐ Pastagem sem irrigação com alta lotação\n☐ Pastagem sem irrigação com lotação média\n☐ Pastagem degradada"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cada gás do efeito estufa é capaz de reter calor em determinada intensidade. Tal capacidade pode ser comparada à capacidade do $\\text{CO}_2$ de realizar a mesma função, denominado $\\text{CO}_2\\text{eq}$. Para calcular o $\\text{CO}_2\\text{eq}$, basta multiplicar a quantidade de um gás de efeito estufa pelo seu potencial de aquecimento global (PAG). Na pesquisa feita pela Embrapa, para um mesmo manejo, duas metodologias (com diferentes valores de PAG) foram usadas para fazer a conversão da quantidade de gases $\\text{CH}_4$ e $\\text{N}_2\\text{O}$ em $\\text{CO}_2\\text{eq}$: **AR4** (PAG $\\text{CH}_4$ = 21, $\\text{N}_2\\text{O}$ = 310) e **AR5** (PAG $\\text{CH}_4$ = 27,75, $\\text{N}_2\\text{O}$ = 265). O valor do $\\text{CO}_2\\text{eq}$ ($\\text{CH}_4$ + $\\text{N}_2\\text{O}$) calculado por **AR4** foi menor do que o valor encontrado aplicando **AR5**. Considerando todas essas informações, qual gás foi emitido em maior quantidade neste manejo: $\\text{CH}_4$ ou $\\text{N}_2\\text{O}$? Explique."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 19,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A produção enzimática de hidrogênio a partir da glicose e água foi estudada do ponto de vista cinético e termodinâmico, revelando ser possível obter alto rendimento de $\\text{H}_2$ em condições suaves de reação: temperatura ambiente e pressão atmosférica. Com melhorias tecnológicas e integração com células de combustível, essa tecnologia também permitiria resolver alguns dos desafios associados ao armazenamento, à distribuição e à infraestrutura na economia baseada no $\\text{H}_2$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A figura ao lado mostra a velocidade instantânea de formação de hidrogênio e dióxido de carbono em função do tempo do processo estudado. A equação química que representa quantitativamente o resultado desse processo é dada por:\n\n$$\\text{C}_6\\text{H}_{12}\\text{O}_{6(\\text{aq})} + 6\\ \\text{H}_2\\text{O}_{(\\text{aq})} \\rightarrow 12\\ \\text{H}_{2(\\text{g})} + 6\\ \\text{CO}_{2(\\text{g})}$$\n\nLevando em conta essas informações, em que tempo a razão entre as velocidades instantâneas de formação dos produtos se iguala à razão entre seus coeficientes estequiométricos? Justifique.\n\n![gráfico da velocidade instantânea (mmol h⁻¹) em função do tempo (h), com uma curva contínua (H₂) e uma curva tracejada (CO₂)](fig:p21-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Do ponto de vista termodinâmico, para a discussão dos resultados os autores utilizam o diagrama de energia (aqui incompleto) fornecido no campo de respostas. A partir desse diagrama, resolva: (i) no decorrer do processo sob estudo, o meio reacional tenderia a um aumento ou a uma diminuição da temperatura? Justifique. (ii) Calcule o valor da entalpia molar da reação de formação da água.\n\n![diagrama de energia incompleto, com os níveis C₆H₁₂O₆ + 6 H₂O, 6 CO₂ + 12 H₂ e 6 CO₂ + 12 H₂O, e as variações ΔH° = +2808 KJ e ΔH° = −3430 KJ](fig:p21-c3)"
+    }
+   ],
+   "observacoes": "O diagrama de energia da questão fica no campo de resolução do caderno; foi incluído no item b porque o enunciado o cita."
+  },
+  {
+   "numero": 20,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "De acordo com a ONU, i) um terço da população mundial não tem acesso a água potável, ii) as águas transfronteiriças são responsáveis por 60% dos fluxos de água doce do mundo e iii) nos últimos 50 anos os desastres relacionados à água representam 70% de todas as mortes relacionadas a desastres naturais.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "“As sociedades humanas estão mudando onde e como a água flui através da atmosfera. No entanto, tais alterações no ciclo atmosférico da água não estão sendo gerenciadas, nem se tem uma ideia real do rumo que estas alterações poderão tomar no futuro.” Essas afirmações fazem parte do artigo intitulado (em tradução livre) “*Céu seco: cenários futuros para modificações humanas do ciclo da água atmosférica*”, publicado na revista *Global Sustainability* em 2024. Num contexto próximo a esse, em 2023, outro artigo, dessa vez intitulado (também em tradução livre) “*Captação de água atmosférica: uma revisão de técnicas, desempenho, soluções de energia renovável e viabilidade*”, foi publicado na revista *Energy*. Considerando essas informações, comente de que forma os <u>objetivos do segundo artigo</u> i) confirmariam as <u>preocupações expressas no primeiro artigo</u> e ii) contemporizariam a principal preocupação expressa no <u>título do primeiro artigo</u>."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Num dado sentido, a crise mundial da água pode se manifestar por “1) escassez de água, 2) excesso de água ou 3) água muito poluída”, em escala local ou global. No campo de resposta, na figura que representa o ciclo da água, atribua os números 1, 2 e 3 a três dos seis círculos que julgar mais apropriados. Os números só podem ser usados uma única vez. Dentre as atribuições 1, 2 e 3, em qual delas e de que forma a Química pode melhor contribuir para a solução desse problema? Exemplifique e explique sua resposta, levando em conta a sua atribuição dos números na figura oferecida no campo de respostas.\n\n*Campo de resolução:*\n\n![figura do ciclo da água, com os fluxos de precipitação, evapotranspiração, vegetação natural, irrigação natural, agricultura irrigada, indústria e cidade, e seis círculos vazios para receber os números](fig:p22-c3)"
+    }
+   ],
+   "observacoes": "O recorte p22-c3 (ciclo da água) traz pequenos traços das linhas de resposta na borda direita, e o círculo inferior direito já vem cortado na borda da própria figura impressa."
+  }
+ ],
+ "respostas": {
+  "11": {
+   "itens": {
+    "a": "Movimento horizontal: $x(t) = v_0\\,t$\n\nMovimento vertical: $y(t) = h - \\frac{1}{2}\\,g_\\text{Marte}\\,t^2$\n\nAo atingir o solo marciano $y(t) = 0 \\Rightarrow t_q = \\sqrt{\\frac{2h}{g_\\text{Marte}}} = \\sqrt{\\frac{2 \\times 8{,}0\\ \\text{m}}{4\\ \\text{m/s}^2}} = 2\\ \\text{s}$\n\nNesse instante o deslocamento horizontal será:\n\n$$x(t_q) = v_0\\,t_q = (6{,}0\\ \\text{m/s}) \\times (2\\ \\text{s}) = 12\\ \\text{m}.$$",
+    "b": "Movimento horizontal, retilíneo e uniforme, na Terra:\n\n$$\\left.\\begin{aligned}\\left|\\vec{F}_\\text{sust\\_Terra}\\right| &= m_\\text{Terra}\\,g_\\text{Terra}\\\\ \\text{e}\\\\ \\left|\\vec{F}_\\text{sust\\_Terra}\\right| &= \\mathit{cte}\\,\\Delta P_\\text{Terra}\\end{aligned}\\right\\} \\Rightarrow \\mathit{cte}\\,\\Delta P_\\text{Terra} = m_\\text{Terra}\\,g_\\text{Terra}$$\n\nEm Marte: $\\mathit{cte}\\,\\Delta P_\\text{Marte} = m_\\text{Marte}\\,g_\\text{Marte}$\n\nAssim:\n\n$$\\frac{m_\\text{Marte}\\,g_\\text{Marte}}{m_\\text{Terra}\\,g_\\text{Terra}} = \\frac{\\mathit{cte}\\,\\Delta P_\\text{Marte}}{\\mathit{cte}\\,\\Delta P_\\text{Terra}} \\Rightarrow m_\\text{Marte} = \\left(\\frac{\\Delta P_\\text{Marte}}{\\Delta P_\\text{Terra}}\\right)\\left(\\frac{g_\\text{Terra}}{g_\\text{Marte}}\\right) m_\\text{Terra}$$\n\nMas:\n\n$$\\frac{\\Delta P_\\text{Marte}}{\\Delta P_\\text{Terra}} = \\frac{P_\\text{Marte}}{P_\\text{Terra}} \\Rightarrow m_\\text{Marte} = \\left(\\frac{P_\\text{Marte}}{P_\\text{Terra}}\\right)\\left(\\frac{g_\\text{Terra}}{g_\\text{Marte}}\\right) m_\\text{Terra}$$\n\n$$m_\\text{Marte} = \\left(\\frac{1}{160}\\right) \\times \\left(\\frac{10\\ \\text{m/s}^2}{4\\ \\text{m/s}^2}\\right) \\times 800\\ \\text{g} = 12{,}5\\ \\text{g}$$"
+   }
+  },
+  "12": {
+   "itens": {
+    "a": "Atleta com velocidade constante: $\\vec{F}_\\text{resultante} = 0$\n\n$\\parallel$ ao plano inclinado: $mg\\,\\text{sen}\\,\\theta - |\\vec{F}_\\text{atr}| - |\\vec{F}_\\text{res\\_ar}| = 0$\n\n$\\perp$ ao plano inclinado: $|\\vec{N}| - mg\\cos\\theta = 0$\n\nAlém disso: $|\\vec{F}_\\text{atr}| = \\mu_c\\,|\\vec{N}|$\n\nDessa forma: $|\\vec{F}_\\text{res\\_ar}| = mg\\,\\text{sen}\\,\\theta - \\mu_c\\,mg\\cos\\theta = mg\\,(\\text{sen}\\,\\theta - \\mu_c\\cos\\theta)$\n\n$$|\\vec{F}_\\text{res\\_ar}| = (90\\ \\text{kg}) \\times (10\\ \\text{m/s}^2) \\times [0{,}6 - 0{,}05 \\times 0{,}8] = (900\\ \\text{N}) \\times (0{,}6 - 0{,}04) = (900\\ \\text{N}) \\times (0{,}56)$$\n\n$$|\\vec{F}_\\text{res\\_ar}| = 504\\ \\text{N}.$$",
+    "b": "$$\\beta = (10\\ \\text{dB}) \\times \\log\\left(\\frac{I(r_0)}{I(r_1)}\\right) = 40\\ \\text{dB} \\Rightarrow \\log\\left(\\frac{I(r_0)}{I(r_1)}\\right) = 4 \\Rightarrow \\frac{I(r_0)}{I(r_1)} = 10^4 \\ \\text{ou}\\ \\ I(r_1) = \\frac{I(r_0)}{10^4}$$\n\nSubstituindo $I(r_1) = \\dfrac{\\mathit{cte}}{r_1^2}$ e $I(r_0) = \\dfrac{\\mathit{cte}}{r_0^2}$:\n\n$$\\frac{\\mathit{cte}}{r_1^2} = \\frac{\\mathit{cte}}{10^4\\,r_0^2} \\Rightarrow r_1 = \\sqrt{10^4}\\,r_0 = 100\\,r_0 = 100 \\times 0{,}6\\ \\text{m} = 60\\ \\text{m}.$$"
+   }
+  },
+  "13": {
+   "itens": {
+    "a": "Através do gráfico obtemos a constante de mola do trampolim\n\n$$k = \\text{coef. angular} = \\frac{y_f - y_i}{x_f - x_i} = \\frac{(8000 - 4000)\\ \\text{N}}{(0{,}4 - 0{,}2)\\ \\text{m}} = 20.000\\ \\text{N/m} \\qquad F = -k.x$$\n\nA energia potencial elástica do trampolim é:\n\n$$E_{el} = \\frac{k.\\Delta x^2}{2} = \\frac{k}{2}\\left(x_f^2 - x_i^2\\right) = \\frac{20.000}{2}\\,[(-0{,}4)^2 - 0) = 1.600\\ \\text{J}$$\n\nconsiderando uma perda de 10% $\\rightarrow$ $E_{el10\\%} = (1.600 - 160) = 1440\\ \\text{J}$\n\nA energia potencial gravitacional quando o atleta é projetado para cima é:\n\n$$E_{pot} = m.g.h = 72x10xh = 720h$$\n\nPor conservação de energia:\n\n$$E_{el10\\%} \\sim E_{pot} \\rightarrow m.g.h = -\\frac{k.\\Delta x^2}{2}$$\n\n$$h = -\\frac{k.\\Delta x^2}{2mg} = \\frac{1.440\\ \\text{J}}{720} = 2\\ \\text{m}$$",
+    "b": "$\\theta_B + \\theta_2 = 90^0$. Ao aplicarmos a lei de Snell: $n_1.\\text{sen}\\,\\theta_1 = n_2.\\text{sen}\\,\\theta_2$\n\nPortanto, $1 \\times \\text{sen}\\,\\theta_B = n_2 \\times \\text{sen}\\,\\theta_2 = n_2 \\times \\text{sen}(90^0 - \\theta_B) = n_2 \\times \\cos\\theta_B$\n\nlogo, $n_2 = \\dfrac{\\text{sen}\\,60^\\circ}{\\cos 60^\\circ} = \\text{tg}\\,60^\\circ = 1{,}73$"
+   }
+  },
+  "14": {
+   "itens": {
+    "a": "![Esquema da resposta esperada: eixo óptico com os pontos 2F′, F′, O, F e 2F, lente convergente em O, objeto, raios notáveis e imagem](fig:r09-c1)",
+    "b": "$f$ = distância focal\n\n$p$ = distância do objeto\n\n$p'$ = distância da imagem\n\n$$\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'} \\ \\rightarrow\\ -\\frac{1}{5} = \\frac{1}{p'} + \\frac{1}{45} \\ \\rightarrow\\ \\frac{1}{p'} = -\\left(\\frac{1}{45} + \\frac{1}{5}\\right) = -\\left(\\frac{45+5}{45 \\times 5}\\right) = -\\left(\\frac{50}{225}\\right)$$\n\n$$p' = -\\left(\\frac{225}{50}\\right) = -4{,}5$$\n\nPortanto,\n\n$$A = -\\frac{p'}{p} = -\\frac{(-4{,}5)}{45} = 0{,}1$$"
+   }
+  },
+  "15": {
+   "itens": {
+    "a": "![curva de decaimento do radiofármaco: porcentagem em função do tempo (min), com pontos em 0, 110, 220 e 330 min](fig:r10-c1)\n\nO tempo decorrido desde o momento em que o paciente recebe a medicação até o final do exame é de 90 min. Depois que ele deixa a clínica, devem-se somar 240 min (4h) ao tempo de 90 minutos. Portanto, o tempo total a ser considerado é de 330 minutos. Sendo o tempo de meia vida do $^{18}_{\\;9}\\text{F}$ de 110 min, a porcentagem restante do radiofármaco será de 12,5 % (3 tempos de meia vida).",
+    "b": "☐ concorda totalmente  ☒ concorda parcialmente  ☐ discorda totalmente\n\nPara ser utilizado em exames de diagnóstico, a radiação deve ser capaz de atravessar o corpo humano, ou escapar do corpo humano, a fim de ser detectada por equipamentos externos e específicos para esta finalidade. Portanto, a primeira parte da afirmação está incorreta (incapaz de atravessar o corpo humano). Uma vez que o objetivo do radiofármaco para diagnóstico por imagem é somente identificar as lesões presentes (diagnóstico), é fundamental que a radiação emitida não cause danos às células saudáveis do corpo humano. Portanto, a segunda parte da afirmação está correta."
+   }
+  },
+  "16": {
+   "itens": {
+    "a": "i) Recursos naturais utilizados. Telha de fibrocimento: calcário e silicatos (cimento) e fibras (tanto de origem vegetal quanto mineral). Telha sanduíche: bauxita – mineral fonte de óxido de alumínio (utilizado na produção do alumínio metálico) e petróleo (derivados, como o isopor, espuma).\nii) Impactos da produção nas mudanças climáticas. Telha de fibrocimento: alta demanda energética, geração de $\\text{CO}_2$, extrativismo mineral e vegetal. Telha sanduíche: mineração da bauxita, extração de petróleo, alta demanda energética.",
+    "b": "i) Parâmetros de análise considerados: quantidade de zinco/m², vida útil das telhas de aço galvanizadas e o ambiente de exposição (ataque químico).\nii) 1) Quanto maior a quantidade de zinco/m², maior é o tempo de vida útil das telhas de aço galvanizadas, para um mesmo ambiente de exposição.\n2) Quanto mais severo o ambiente de exposição, menor a vida útil da telha, para uma mesma quantidade de zinco/m²."
+   }
+  },
+  "17": {
+   "itens": {
+    "a": "$(\\text{NH}_2)_2\\text{CO}_{(\\text{aq})} + \\tfrac{3}{2}\\,\\text{O}_{2(\\text{g})} \\rightarrow \\text{CO}_{2(\\text{g})} + \\text{N}_{2(\\text{g})} + 2\\,\\text{H}_2\\text{O}_{(\\text{l})}$\n(ii) O estado de oxidação do N na ureia é -3 e a ureia é convertida em $\\text{N}_2$, onde o estado de oxidação do N é zero. Portanto, a conversão de 1 N da ureia para 1 N do $\\text{N}_2$ envolve 3 elétrons. Como a reação envolve a conversão de 2 N, portanto, 6 mols de elétrons passam pelo circuito na transformação total de 1 mol de ureia.",
+    "b": "$$(\\text{NH}_2)_2\\text{CO} \\rightarrow 2\\ \\text{NH}_4^+$$\n\nMassas molares aproximadas: ureia 60 g/mol, íon amônio: 18 g/mol. Uma pessoa urina, em média, 2 litros por dia e cada litro de urina contém 23 g de ureia. Portanto, em um dia, uma pessoa urina 46 g de ureia.\n\n$$\\begin{array}{ccc}(\\text{NH}_2)_2\\text{CO} & \\rightarrow & 2\\ \\text{NH}_4^+ \\\\ 60 & & 2 \\times 18 \\\\ 46 & & x \\end{array}$$\n\n$$x = 27{,}6\\ \\text{g}\\ \\text{NH}_4^+$$"
+   }
+  },
+  "18": {
+   "itens": {
+    "a": "☐ Pastagem irrigada com alta lotação\n☒ Pastagem sem irrigação com alta lotação\n☐ Pastagem sem irrigação com lotação média\n☐ Pastagem degradada\n\nPara maximizar seu rendimento financeiro, a produtividade deve ser a maior possível, porém, o valor de $\\text{CO}_2$ total não deve ser negativo. Nessa condição, a quantidade de gases retirados da atmosfera é igual ou maior do que a quantidade emitida, não impactando o meio ambiente. A pastagem sem irrigação com alta lotação combina a maior produtividade com valor de $\\text{CO}_2$ total maior que zero.",
+    "b": "Com base nas informações fornecidas, temos:\n$\\text{CO}_2\\ \\text{eq (AR4)} = \\text{N}_2\\text{O} \\times 310 + \\text{CH}_4 \\times 21$\n$\\text{CO}_2\\ \\text{eq (AR5)} = \\text{N}_2\\text{O} \\times 265 + \\text{CH}_4 \\times 27{,}75$\n$\\text{CO}_2\\ \\text{eq (AR4)} < \\text{CO}_2\\ \\text{eq (AR5)}$\n\nIndependentemente da metodologia, o valor do PAG do $\\text{N}_2\\text{O}$ é muito superior ao valor do PAG do $\\text{CH}_4$. Assim, pequena quantidade de $\\text{N}_2\\text{O}$ impacta muito o valor do $\\text{CO}_2$ eq ($\\text{CH}_4$ + $\\text{N}_2\\text{O}$) enquanto o $\\text{CH}_4$ precisa estar em grande quantidade para impactar o valor do $\\text{CO}_2$ eq ($\\text{CH}_4$ + $\\text{N}_2\\text{O}$). Ao comparar as metodologias, observa-se que na AR5, o PAG do $\\text{N}_2\\text{O}$ é menor em relação a AR4 em 45 unidades enquanto o PAG do $\\text{CH}_4$ é maior em relação a AR4 em 6,75 unidades. Essas variações fazem com que o $\\text{CO}_2\\ \\text{eq (AR4)} < \\text{CO}_2\\ \\text{eq (AR5)}$; portanto, o gás que foi emitido em maior quantidade neste manejo é o $\\text{CH}_4$."
+   }
+  },
+  "19": {
+   "itens": {
+    "a": "A estequiometria da equação química informa que a transformação de 1 mol de glicose leva à formação de 12 mols de $\\text{H}_2$ e 6 mols de $\\text{CO}_2$, o que corresponde a uma relação $\\text{H}_2/\\text{CO}_2$ igual a 2:1. A figura das velocidades instantâneas de formação dos produtos em função do tempo mostra que a velocidade instantânea de formação do $\\text{H}_2$ é o dobro da velocidade de formação do $\\text{CO}_2$ no tempo aproximado de 4 horas de reação, já que $v_{\\text{H}_2} = 0{,}42\\ \\text{mmol h}^{-1}$ e $v_{\\text{CO}_2} = 0{,}21\\ \\text{mmol h}^{-1}$, o que corresponde a uma relação de 2:1.",
+    "b": "i) De acordo com o diagrama, a energia dos processos em que a energia dos reagentes se encontra num patamar abaixo do patamar dos produtos apresenta um sinal positivo (+), ou seja, são endotérmicas (absorvem energia), que é o que ocorre no processo sob estudo (produção de hidrogênio a partir de glicose). Portanto, o meio reacional tenderá a diminuir a sua temperatura com o tempo.\nii) A entalpia de formação da água é dada para a reação a partir de seus elementos na forma mais estável $\\text{H}_2$ + ½ $\\text{O}_2$ = $\\text{H}_2\\text{O}$. Conforme mostra o diagrama de energia, o processo $12\\ \\text{H}_{2(\\text{g})} + 6\\ \\text{O}_{2(\\text{g})} \\rightarrow 12\\ \\text{H}_2\\text{O}_{(\\text{aq})}$ tem ΔH = -3430 kJ. Assim, para 1 mol de água: ΔH = −3430/12 = −286 kJ/mol."
+   }
+  },
+  "20": {
+   "itens": {
+    "a": "A preocupação central do primeiro artigo diz respeito a ações humanas no ciclo da água; portanto, a captura da água atmosférica (segundo artigo) pode impactar ainda mais em um problema já existente em relação ao ciclo natural da água.\nii) Técnicas que permitem capturar água no estado gasoso da atmosfera (objetivo do segundo artigo) utilizando energia renovável e sustentável para suprir a escassez de água em locais de seca (céu seco).",
+    "b": "![figura do ciclo da água com os números 1, 2 e 3 atribuídos a três dos seis círculos: 1 junto de vegetação natural, 2 junto de cidade e 3 no fim do fluxo que chega à água](fig:r13-c1)\n\nA intervenção da Química seria mais apropriada no item 3, ou seja, na prevenção e/ou tratamento da poluição, concebendo processos mais limpos e eficientes para o tratamento de poluentes (indústria, esgoto em cidade)."
+   }
+  }
+ }
+}

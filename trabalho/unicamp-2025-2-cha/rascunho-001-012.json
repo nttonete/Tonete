@@ -1,0 +1,229 @@
+{
+ "edicao": "unicamp-2025-2-cha",
+ "intervalo": [
+  1,
+  12
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Delegação do Brasil para Olimpíada tem maioria feminina pela 1ª vez na história**\n\nPela primeira vez na história, a delegação do Brasil para uma Olimpíada tem maioria feminina. O COB (Comitê Olímpico Brasileiro) informou que a comitiva para Paris contou com 277 atletas: 153 mulheres e 124 homens.\n\n(Adaptado de “Delegação do Brasil para Olimpíada tem maioria feminina pela 1ª vez na história”. Disponível em cnnbrasil.com.br. Acesso em 10/07/2024.)\n\n![Gráfico de colunas: quantidade de atletas homens e mulheres na delegação brasileira nas últimas 4 edições dos Jogos Olímpicos. Paris 2024: homens 124, mulheres 153. Tóquio 2020: homens 161, mulheres 140. Rio 2016: homens 256, mulheres 209. Londres 2012: homens 136, mulheres 123.](fig:p06-f2)\n\nO gráfico mostra a quantidade de homens e mulheres na delegação brasileira nas últimas 4 edições dos Jogos Olímpicos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Ordene as edições dos Jogos Olímpicos pelo tamanho da delegação brasileira, do maior para o menor.\n\n*Campo de resolução:*\n\n| 1º | 2º | 3º | 4º |\n|---|---|---|---|\n|  |  |  |  |"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Comparando as edições de Londres 2012 e de Paris 2024, de quanto foi o aumento percentual no número de mulheres? Justifique."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Professor Eduardo está lecionando a disciplina “Matemática Avançada” para uma turma composta por 4 alunos. As notas dos(as) alunos(as), que vão de 0 a 10 em cada uma das provas, estão indicadas na tabela abaixo. O professor precisa decidir como utilizará as notas das provas para compor a nota final $N$ dos alunos. Serão aprovados(as) os(as) alunos(as) que tiverem nota final $N \\geq 5$.\n\n|  | Prova 1 | Prova 2 | Prova 3 |\n|---|---|---|---|\n| Amélia | 9 | 8 | 10 |\n| Bruno | 3 | 2 | 6 |\n| Laura | 5 | 4 | 7 |\n| Mário | 1 | 3 | 7 |",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando que o professor decidiu calcular a nota final dos estudantes usando a média aritmética das notas das provas, indique na tabela abaixo, para cada aluno(a), a nota final $N$ e se foi ou não aprovado(a).\n\n*Campo de resolução:*\n\n![Tabela em branco com uma linha para cada aluno (Amélia, Bruno, Laura e Mário) e as colunas N e Aprovado(a), esta dividida em Sim e Não](fig:p07-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Eduardo decide utilizar a média ponderada para calcular a nota final, sendo que o peso da Prova 1 será $k$, o peso da Prova 2 será 1, e o peso da Prova 3 será $m$. O professor deixa para os estudantes a tarefa de decidir os pesos $k$ e $m$ com a condição de que tais pesos estejam no conjunto $\\{1,2,3,4,5,6\\}$. Os estudantes decidem escolher valores de $k$ e de $m$ que garantam a aprovação de todos da turma. Nesse caso, quais são os possíveis valores de $k$ e $m$?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um influenciador digital que posta vídeos sobre matemática em uma plataforma percebe que, sempre que posta um novo vídeo, o número de visualizações diárias aumenta por alguns dias até atingir um certo número máximo e depois começar a diminuir. Ele sempre posta os vídeos no primeiro dia do mês, de manhã. Usando seus conhecimentos de matemática, ele obteve um modelo que descreve o número de visualizações que um vídeo tem a cada dia. O modelo é dado pela função $f(x) = 3300 + 3200\\,x - 100\\,x^2$, em que $f(x)$ é o número de visualizações do vídeo no dia $x$ do mês. A plataforma onde ele posta os vídeos paga R\\$ 1,20 a cada mil visualizações do vídeo.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quantas visualizações um vídeo tem no dia 8? Quanto o influenciador recebe nesse dia pelas visualizações? Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em relação ao vídeo postado em novembro, em qual dia daquele mês esse vídeo teve mais visualizações? Quanto ele recebeu naquele dia por esse vídeo? Justifique."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 7,
+   "materia": "sociologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Texto 1**\n\nComo conceito político, uma colônia não é um espaço geográfico fixo, mas um princípio de mobilidades geridas e policiadas. Um espaço que mobiliza e imobiliza populações, deslocando e realocando pessoas de acordo com um conjunto de regras e hierarquias em constante mudança. Conceitualmente, portanto, a colônia é uma formação política que se sustenta transformando as pessoas em outros tipos sociais: aqueles que serão reassentados, aqueles que serão submetidos à privação extrema, aqueles que obterão residência prioritária como refugiados e aqueles que permanecerão confinados.\n\n(Adaptado de STOLER, A.L. Colony. In: OPHIR, A.M.; STOLER, A. L. *Political Concepts: A Critical Lexicon*. New York: Fordham University Press, p. 45-58, 2018.)\n\n**Texto 2**\n\nDe tudo o que desapareceu, o que mais me fez falta mesmo foi o Kinder Ovo. Quando os muros se fecharam ao redor de Gaza e as conversas dos adultos foram ficando cada vez mais coléricas e tristes, senti a gravidade do nosso cerco pela quantidade cada vez menor daqueles delicados ovos de chocolate nas prateleiras das lojas.\n\nMesmo depois que os túneis foram escavados sob a fronteira entre Gaza e o Egito para contrabandear os itens de necessidade básica, continuou difícil encontrar Kinder Ovo. Vivi na época desses túneis, uma rede de artérias e veias subterrâneas com um sistema de cordas, alavancas e roldanas que bombeava comidas, fraldas, combustível, remédio, baterias, fitas cassete, absorventes para a mamãe, lápis de cera para a Rhet Shel.\n\n(Adaptado de ABULHAWA, S. *O azul entre o céu e a água*. Rio de Janeiro: Bertrand Brasil, p. 5, 2017.)\n\nA partir da leitura de ambos os trechos, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Por que é possível conceituar a colônia como uma formação política? Quais são suas características?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Por que o Texto 2 exemplifica o conceito político de colônia do Texto 1? Justifique sua resposta."
+    }
+   ],
+   "observacoes": "No documento de respostas, o texto de expectativa da banca (“Nesta questão eram esperadas respostas...”) vem sem o rótulo “Objetivo da questão”; foi posto em `resposta` sem rótulo, como impresso."
+  },
+  {
+   "numero": 8,
+   "materia": "filosofia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Texto 1**\n\nA relação entre o homem e a mulher consiste no fato de que, por natureza, um é superior e a outra inferior, um é governante e a outra, governada. [...] A moderação não pertence da mesma forma ao homem e à mulher, nem tampouco a coragem e a justiça [...] A relação entre homem e mulher é de permanente desigualdade. [...] Em todas as situações, aplica-se bem o verso do poeta: “o silêncio dá encanto à mulher”, mas não ao homem.\n\n(Aristóteles, *Política*, [século IV a.C.]. Livro I. Lisboa: Vega, 1988.)\n\n**Texto 2**\n\n“Na sua natureza particular, a fêmea é um ser deficiente e falho. Porque a virtude ativa, que está no sémen do macho, tende a produzir um ser perfeito semelhante a si, do sexo masculino.”\n\n(São Tomás de Aquino. *Suma Teológica*. Questão 92, artigo 1, Resposta à primeira Objeção [século XIII]. São Paulo: Edições Loyola, 2005, p. 761.)\n\n**Texto 3**\n\n“Filósofos, poetas e moralistas, e a lista poderia ser bem longa, todos parecem falar com a mesma voz para chegar à conclusão de que a mulher é profundamente má e inclinada ao vício. [...] Eu, que nasci mulher, pus-me a refletir sobre a minha conduta e pensei também em outras tantas mulheres com quem convivi, tanto as princesas e grandes damas, quanto as de média e pequena condições [...]: procurei examinar em minha alma e consciência se o testemunho reunido de tantos homens ilustres poderia ser verdadeiro. Mas, pelo meu conhecimento e consciência, [...] não conseguia compreender, nem admitir a legitimidade de tal julgamento sobre a natureza e a conduta das mulheres”.\n\n(Christine de Pizan. *A Cidade das Damas* [século XV]. Florianópolis: Editora Mulheres, 2012. Livro Primeiro, capítulo I, p. 59.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Compare os textos 1 e 2 no que diz respeito ao posicionamento dos filósofos Aristóteles e Tomás de Aquino sobre a mulher. Explique por que, para Aristóteles, a relação entre o homem e a mulher é de permanente desigualdade e qual é o sentido do verso mencionado."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando os textos 1, 2 e 3, explique a afirmação de Christine de Pizan de que filósofos, poetas e moralistas “parecem falar com a mesma voz”. Explicite o argumento de Pizan a respeito da legitimidade desse julgamento sobre a natureza e a conduta das mulheres."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 9,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na Noite de São Bartolomeu de 1572, os católicos massacraram os protestantes huguenotes na França. Somente em Paris, três mil protestantes foram exterminados naquela noite. A violência se espalhou por todo o país e o número de mortos chegou a dezenas de milhares. Poucos dias antes, o ambiente na capital para a celebração do matrimônio real que deveria encerrar um terrível decênio de lutas religiosas era aparentemente calmo. Os noivos eram Henrique – rei de Navarra e chefe da dinastia dos huguenotes – e Margarida Valois – princesa da França, filha do falecido Henrique 2º e de Catarina de Médici. Alguns milhares de huguenotes de todo o país, incluindo parte da nobreza francesa, foram convidados a participar das festas de casamento em Paris.\n\n(Adaptado de VEIGA, E. “O que foi o Massacre de São Bartolomeu, ocorrido há 450 anos”. *BBC Brasil*, 23/08/22.)\n\nCom base em seus conhecimentos sobre o contexto da época e tendo em conta as informações do texto,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "caracterize como a intolerância se manifestou na Noite de São Bartolomeu e analise dois elementos políticos desse evento."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Quais as mudanças propostas pela Reforma Protestante – em contraste com o catolicismo – nas práticas de compreensão da Bíblia e dos sacramentos?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 10,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Ao estudar a experiência revolucionária nos EUA de fins do século XVIII, a filósofa Hannah Arendt – na obra *Sobre as Revoluções* – \\*afirmou que o fundamental para qualquer compreensão das revoluções na era moderna é a convergência entre a ideia de liberdade e a experiência de um novo início. E, visto que a noção corrente no Mundo Livre é a de que a liberdade, e não a justiça ou a grandeza, constitui o critério supremo para julgar as constituições dos corpos políticos, o grau de nosso preparo para aceitar ou rejeitar tal convergência dependerá não só de nosso entendimento da revolução como também de nossa concepção de liberdade, de origem nitidamente revolucionária.\n\n(\\*ARENDT, H. *Sobre as revoluções*. São Paulo: Companhia das letras, 2011.)\n\nCom base no texto e em seus conhecimentos, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O que é fundamental, segundo a autora, na experiência revolucionária moderna? Identifique historicamente a dimensão transatlântica deste preceito na fundação dos EUA em fins do século XVIII."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Defina a contradição social da noção de liberdade, noção esta que prevaleceu na cultura política e constitucional na fundação dos EUA. Aponte uma mudança sobre a noção de liberdade levada a cabo na Guerra Civil Americana."
+    }
+   ],
+   "observacoes": "O asterisco antes de “afirmou” é a chamada da nota de rodapé do original."
+  },
+  {
+   "numero": 11,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em 1888, George Eastman (1854-1932) pôs em circulação a primeira câmera simples com filme transparente em rolo, acompanhando-a com o slogan *You press the button, we do the rest* (‘Você aperta o botão, nós fazemos o resto’). Eastman registrou a patente desta câmera com o nome “Kodak”, com a intenção de que funcionasse em várias línguas ao prever sua atuação num mercado global.\n\n(Adaptado de AQUINO, L. *Picture ahead*: a Kodak e a construção do turista-fotógrafo. Campinas: Ed. da autora, p. 54, 2016.)\n\n![Cartaz publicitário da Kodak: uma mulher de vestido listrado, à beira de uma encosta com vegetação, com uma praia e o mar ao fundo; na base, o texto “Take a ‘Kodak’ with you”.](fig:p13-c1)\n\nPropaganda *Take a Kodak with you* (‘Leve uma Kodak com você’), 1921.\n\n![Cartaz publicitário da Kodak: na parte superior, um cervo à margem de um lago e um quadro com o texto “If you want it – take it – with a Kodak”; abaixo, um homem barbudo ajoelhado, com uma câmera nas mãos, uma arma e um chapéu no chão; na base, o texto “If it isn’t an Eastman it isn’t a Kodak”.](fig:p13-c2)\n\nPropaganda: *If you want it, take it with a Kodak. If it isn’t an Eastman, it isn’t a Kodak* (‘Se você quiser – pegue/fotográfe – com uma Kodak. Se não é um Eastman, não é um Kodak’), 1920.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com base no texto e nas imagens acima, identifique duas características do projeto de fotografia amadora elaborado por George Eastman. Ao analisar as imagens, caracterize a figura da Kodak Girl (“Garota Kodak”) criada pela empresa, contrastando-a com o que se apresenta na segunda propaganda."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Identifique uma nova característica fundamental da fotografia amadora contemporânea – considerando-se o contexto a partir dos anos 2000. Compare o modo como as fotografias passam a ser produzidas e consumidas a partir desse momento e como isso ocorria antes. Por fim, identifique um impacto sociocultural pelas mudanças apontadas por você no decorrer de sua resposta."
+    }
+   ],
+   "observacoes": "A legenda da segunda propaganda traz “fotográfe” no original (grafia mantida). Legendas das duas propagandas (impressas na vertical no caderno) transcritas como texto, abaixo de cada cartaz."
+  },
+  {
+   "numero": 12,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "De 1914 a 1945, as economias latino-americanas foram sendo abaladas por crises sucessivas no comércio exterior, decorrentes de um total de vinte anos de guerra e/ou depressão. A crise prolongada dos anos 1930, no entanto, pode ser encarada como o ponto crítico da ruptura do funcionamento do modelo primário-exportador. A violenta queda na receita de exportação acarretou de imediato uma diminuição de cerca de 50% na capacidade para importar que a maior parte dos países da América Latina detinha. No caso do Brasil, esse quadro obrigou a economia do País a voltar-se sobre si mesma, desenvolvendo novas atividades produtivas, com apoio em faixas de demanda interna até então atendidas pelas importações.\n\n(Adaptado de TAVARES, Maria da Conceição. *Da substituição de importações ao capitalismo financeiro*. Rio de Janeiro: Zahar, p. 32; p. 59, 1972.)\n\nTendo em vista seus conhecimentos sobre História do Brasil e considerando o excerto acima,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "identifique duas estratégias políticas econômicas usadas pelo Estado brasileiro para tentar conter os efeitos das crises apontadas pela economista Maria da Conceição Tavares. Descreva o impacto dessas estratégias."
+    },
+    {
+     "rotulo": "b",
+     "texto": "cite e analise criticamente duas consequências da política de industrialização brasileira adotada pelo governo Juscelino Kubitschek (1956-1961) no âmbito nacional e no internacional."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "4": {
+   "itens": {
+    "a": "Para responder à questão, basta analisar os dados do gráfico apresentado. Em 2024 foram 277 participantes, em 2020 foram 301, em 2016 foram 465, e em 2012 foram 259. Portanto, ordenando do maior para o menor, fica:\n\n2016 — 2020 — 2024 — 2012\nRio — Tóquio — Paris — Londres",
+    "b": "Em Londres, foram 123 mulheres. Em Paris, foram 153. Como $153/123$ é aproximadamente $1{,}2439$, segue que o aumento foi de aproximadamente 24%."
+   }
+  },
+  "5": {
+   "itens": {
+    "a": "Devemos calcular as quatro médias e verificar se as notas são maiores ou iguais a 5.\n\n![Tabela preenchida: Amélia, N = 9, aprovada; Bruno, N = 3,67, não aprovado; Laura, N = 5,34, aprovada; Mário, N = 3,67, não aprovado](fig:r04-c1)",
+    "b": "Para que todos os alunos sejam aprovados, é preciso garantir que:\n\n$$\\begin{gathered}9k + 8 + 10m \\geq 5k + 5 + 5m \\\\ 3k + 2 + 6m \\geq 5k + 5 + 5m \\\\ 5k + 4 + 7m \\geq 5k + 5 + 5m \\\\ k + 3 + 7m \\geq 5k + 5 + 5m\\end{gathered}$$\n\nNote que a primeira e a terceira inequação são desnecessárias, pois $k, m$ estão entre 1 e 6. Portanto, ficamos com as inequações\n\n$$\\begin{gathered}3k + 2 + 6m \\geq 5k + 5 + 5m \\\\ k + 3 + 7m \\geq 5k + 5 + 5m\\end{gathered}$$\n\nque são equivalentes a\n\n$$\\begin{gathered}-2k + m \\geq 3 \\\\ -4k + 2m \\geq 2\\end{gathered}$$\n\nPortanto, devemos ter $-2k + m \\geq 3$. Considerando as opções possíveis para $k$ e $m$, as únicas possibilidades são $k = 1$ e $m = 5$ ou $k = 1$ e $m = 6$."
+   }
+  },
+  "6": {
+   "itens": {
+    "a": "Temos que $f(8) = -100 \\cdot 8^2 + 3200 \\cdot 8 + 3300 = 22500$, que é a quantidade de visualizações.\n\nComo para cada mil visualizações são pagos R\\$ 1,20, o total recebido é de R\\$ 27,00.",
+    "b": "O valor de $x$ que resulta no maior valor de $f(x)$ é exatamente o valor da abscissa do vértice da parábola. Como $x_V = -b/2a$, temos que $x_V = (-3200)/(-200) = 16$. Portanto, a maior quantidade de visualizações foi obtida no dia 16. A quantidade de visualizações foi de $f(16) = 28900$, que resultou em R\\$ 34,68."
+   }
+  },
+  "7": {
+   "resposta": "Nesta questão eram esperadas respostas que demonstrassem a compreensão da especificidade do conceito de colônias trazido pelo Texto 1, destacando sua processualidade e reconhecendo a existência de relações coloniais de poder. Era esperada a habilidade de distinguir o conceito apresentado no Texto 1 daqueles que definem as experiências, por exemplo, do Brasil colônia ou formas de associação auto-organizadas.\n\nTambém eram esperadas respostas capazes de identificar e descrever as relações de poder imbricadas no contexto colonial, distinguindo-os daqueles existentes em qualquer tipo de formação social (ex. regras, normas e hierarquias arbitrariamente instituídas por meio da violência versus regras, normas e hierarquias presentes em qualquer sociedade, a existência de pactos sociais que são constantemente negociados).\n\nPor fim, a questão propôs a relação de uma experiência social específica (Texto 2) com uma conceituação abstrata (Texto 1), solicitando que os/as candidatos/as fossem capazes de relacionar a descrição das situações do Texto 2 com as categorias e conceitos do Texto 1.",
+   "itens": {
+    "a": "A colônia é um conceito político porque expressa uma relação de poder constituída pelo controle externo exercido sobre uma população que, no processo, é transformada em outros tipos sociais: de cidadãos a pessoas reassentadas, refugiadas, com sua mobilidade e autonomia limitadas. A restrição da circulação de bens essenciais, a exposição permanente à violência, ao medo e à fome são exemplos de como o poder colonial opera. Essa definição indica que a colônia não é uma experiência social que deva ser definida unicamente como um espaço fixo, controlado administrativamente por uma metrópole.",
+    "b": "O Texto 2 apresenta uma transformação na organização social de Gaza e as consequências para sua população civil. É possível compreender como o poder colonial opera a partir da experiência do cercamento territorial de Gaza, realizado em um contexto de guerra, que teve como efeito, entre outras consequências, a restrição da circulação de pessoas e mercadorias, privando a população de bens essenciais e cerceando suas liberdades civis e seu direito à autodeterminação."
+   }
+  },
+  "8": {
+   "itens": {
+    "a": "Tanto Aristóteles quanto Tomás de Aquino entendem que, por natureza, a mulher é inferior ao homem. Para Aristóteles, a mulher não tem as mesmas qualidades e virtudes do homem, tais como moderação, coragem e justiça. Por isso o homem é o governante e a mulher, a governada. Tomás de Aquino, por sua vez, afirma que a natureza particular da mulher a torna deficiente e falha, vinculando essa deficiência à falta da virtude ativa presente no sêmen. Para Aristóteles, a relação entre o homem e a mulher é de permanente desigualdade porque a inferioridade da mulher é determinada pela natureza, portanto não passível de transformação. Ao dizer que “o silêncio dá encanto à mulher”, Aristóteles quer comunicar que a mulher, por ser inferior ao homem, deve ser governada por ele, de tal modo que cabe a ela apenas o silêncio e a obediência, enquanto a ele cabe o poder de falar e de governar.",
+    "b": "Ao afirmar que filósofos, poetas e moralistas “parecem falar com a mesma voz”, Pizan refere-se ao fato deles compartilharem a mesma opinião a respeito da inferioridade da mulher em relação ao homem, da sua falta de virtude e inclinação para o vício. Os textos 1 e 2 são exemplares dessa opinião persistente a respeito da inferioridade da mulher; nesse sentido, “falam com mesma voz”. Considerando os textos 1 e 2, notamos ainda que essa opinião se mantém ao longo do tempo, tendo sido sustentada no século IV a.c por Aristóteles, assim como no século XIII por Tomás de Aquino. Ao examinar a sua própria conduta e a de outras mulheres de posições sociais distintas, Pizan encontra exemplos que contrariam esse julgamento persistente a respeito da natureza da mulher, o que o torna ilegítimo e falso."
+   }
+  },
+  "9": {
+   "itens": {
+    "a": "Segundo o excerto, a Noite de São Bartolomeu, em 1572, manifestou a extrema intolerância religiosa na França, dada a proporção do massacre. Até aquele momento, houve múltiplos acontecimentos de repressão e tentativas de negociação com as práticas calvinistas por parte do Absolutismo Francês, no contexto de temores perante a Reforma Protestante. Por razões religiosas, portanto, católicos atacaram protestantes huguenotes, mesmo perante a tentativa monárquica da união política entre Henrique de Navarra, líder huguenote, e Margarita Valois, pertencente à dinastia de tradição católica. Procurava-se, por meio da união, selar a paz entre os grupos e reconduzir o reino à estabilidade; no entanto, as tensões políticas e sociais da sociedade francesa no século XVI não foram solucionadas. Apesar dessa tentativa, evidenciou-se a força da intolerância e das motivações políticas. Há que se destacar que, além da questão religiosa, havia também interesses políticos e dinásticos em jogo, como a disputa pelo poder entre diferentes facções da nobreza. O massacre teve também múltiplos desdobramentos políticos na Europa, aprofundando as Guerras de Religião.",
+    "b": "A Reforma Protestante propôs uma série de mudanças sobre as práticas de compreensão da Bíblia e dos sacramentos. Com lideranças como Martinho Lutero na Alemanha e João Calvino na França, pretendiam afrontar a percepção católica de que era necessária a mediação da autoridade eclesiástica para que o fiel compreendesse os saberes religiosos, sobretudo pela leitura da Bíblia, que era em latim, o que limitava a interpretação ao viés da Igreja Católica. Para os protestantes do século XVI, o fiel deveria poder individualmente ler o texto bíblico e interpretá-lo, traduzido para línguas vernáculas, o que representava uma ruptura com a autoridade religiosa, rompendo com a ideia de intermediação do clero. No que se refere aos sacramentos, a Reforma buscou reinterpretá-los à luz da nova doutrina, questionando alguns dos sacramentos católicos como confissão e extrema-unção, e modificando a interpretação de outros como o batismo e a eucaristia, essa última vista a partir do prisma protestante como simbólica e não mais como a literalidade do corpo e sangue de Cristo. Tais mudanças fizeram parte da chamada doutrina da justificação pela fé, central na Reforma, que enfatizava a ideia de salvação pela fé e não por meio de obras, indulgências ou rituais. No que se refere ao impacto social e político, essas mudanças contribuíram para a fragmentação do poder católico e transformaram a vida religiosa, na medida em que permitiram o surgimento de novas igrejas e formas de interpretação do cristianismo em novas denominações protestantes."
+   }
+  },
+  "10": {
+   "itens": {
+    "a": "Segundo Hannah Arendt, o que é fundamental na experiência moderna revolucionária é a convergência entre a ideia de liberdade e a experiência de um novo início, ou seja, mesmo que as revoluções possam se opor a formas anteriores de governo, o que as define enquanto experiência social legítima é se apresentarem como uma nova ordem política baseada na liberdade que rompe com o passado, buscando se constituir sob princípios diferentes do anterior. Nessa obra, a filósofa problematiza especificamente a experiência da fundação dos EUA em fins do século XVIII, em que esse preceito aparece fortemente, pois a Revolução Americana esteve inspirada em seus ideais no conceito de liberdade de inspiração iluminista. Para se constituir como nação, institui-se a narrativa de um novo começo, livre do controle colonial britânico e da tirania monárquica, construindo uma narrativa de si mesma baseada nas noções de liberdade individual, valores democráticos como soberania popular, mesmo que em contradição com práticas antidemocráticas como escravidão e limites ao sufrágio universal.",
+    "b": "A contradição social que prevaleceu na ideia de liberdade da cultura política e constitucional da fundação dos EUA, como discutiu Hannah Arendt, foi a coexistência na nação de preceitos de liberdade individual junto à instituição da escravidão. A cultura política estava, portanto, moldada pelos valores da elite que defendia a liberdade de propriedade, mas baseadas em práticas de opressão e injustiças sociais que negou direitos básicos à população afrodescendente nos EUA. Essas contradições levam a profundos debates e às mudanças a partir da Guerra Civil Americana (1861-1865), onde parte da sociedade passa a confrontar a escravidão, levando à sua proibição com a promulgação da 13a. Emenda à Constituição. No entanto, a parte da sociedade interessada nos ganhos econômicos da escravidão e antiabolicionista, de racionalidade racista, opõe-se a tais mudanças, levando à Guerra. Após a abolição, essa resistência à ampliação da liberdade para o corpo político se expressa, por exemplo, na formação de leis de segregação racial em Estados, sobretudo do sul dos EUA, que procuraram manter as estruturas racistas. Outras contradições que podemos citar são as exclusões das mulheres e dos indígenas da participação política."
+   }
+  },
+  "11": {
+   "itens": {
+    "a": "Duas características que fizeram parte do projeto de fotografia amadora de George Eastman foram a simplicidade na facilidade de fazer fotos do cotidiano, com maior acessibilidade e a visão global da Kodak, com a estratégia de criar um nome que funcionasse em várias línguas e a ambição de alcançar um mercado internacional. Isso se apresenta, por exemplo, no slogan do enunciado \"Você aperta o botão, nós fazemos o resto\", que demonstra as características acima citadas, por tornar a fotografia acessível mesmo para aqueles que não possuíam conhecimentos das técnicas fotográficas, tornando a experiência simples, já que as fotos eram reveladas pela empresa. A proposta de Eastman era tornar a câmera um produto de grande apelo no mercado global, popularizando a fotografia amadora, como afirma o enunciado. Essa ambição também se estendia à visão publicitária de que a câmera poderia ser utilizada por homens e mulheres em diferentes contextos. Isso visava produzir a democratização da fotografia, mostrando que qualquer pessoa, inclusive mulheres, poderia usar a câmera para registrar suas próprias experiências. Assim, a caracterização da Kodak Girl contrastava com a figura masculina do discurso publicitário presente nas imagens, sendo a garota retratada como moderna e ativa, em passeios ao ar livre, sendo a câmera um acessório de estilo, que permite retratar o seu cotidiano, assim como a vida doméstica e a manutenção dos lugares sociais como a maternidade. Por outro lado, a figura masculina é retratada como um caçador, transmitindo uma ideia de domínio e controle, em consonância com as concepções heteronormativas da época. No slogan, “If you want, take it”, a câmera se torna a arma do \"caçador\" moderno.",
+    "b": "Uma nova característica da fotografia amadora contemporânea a partir dos anos 2000 é a instantaneidade e o compartilhamento em tempo real, com o surgimento da fotografia digital, em smartphones e câmeras digitais integradas, com o advento das redes sociais e da intensificação do uso da internet. Assim, a fotografia amadora passa a registrar o cotidiano e desdobra-se no hábito social de publicização da vida íntima, transformando a constituição das subjetividades, com grande acento nas práticas de exposição do eu, como em “selfies” e busca por seguidores em tempo real na era digital. A proposta de Eastman de democratizar a fotografia se intensificou na era digital, com a fotografia amadora se tornando ainda mais acessível e presente no cotidiano das pessoas."
+   }
+  },
+  "12": {
+   "itens": {
+    "a": "O Estado passou a fomentar a diversificação econômica, com ênfase no incentivo à industrialização em detrimento do setor cafeeiro, visando a produção nacional de bens que antes eram importados. Isso ocorreu por meio de protecionismo (como a reforma tributária de 1934), crédito e legislação trabalhista. Como resultado, houve maior diversificação econômica, redução da dependência do setor agroexportador e a consolidação de um mercado consumidor interno.",
+    "b": "O modelo de industrialização da era Juscelino Kubitschek gerou distorções no plano nacional, na medida em que concentrava o desenvolvimento industrial no Sudeste, aprofundando desigualdades regionais; gerou urbanização sem planejamento; abandono das ferrovias e foco nas rodovias; o investimento no setor de energia gerou impactos ambientais significativos e deslocamentos de populações tradicionais. Esse plano tinha como objetivo acelerar e modernizar o país, abrangendo ações em setores como energia, infraestrutura e bens de consumo. O projeto contava com financiamento governamental na infraestrutura e abertura ao capital estrangeiro, principalmente na vinda de grandes empresas multinacionais. Um destaque foi o incentivo à indústria automobilística, com a instalação de fábricas estrangeiras, alinhada à expansão da infraestrutura de transportes. Entretanto, além do aumento da dívida externa, a abertura ao capital estrangeiro gerou outros impactos, como a desnacionalização de alguns setores econômicos e a crescente dependência tecnológica. Internacionalmente, a política de industrialização de JK inseriu o Brasil de forma mais intensa na economia global."
+   }
+  }
+ }
+}
