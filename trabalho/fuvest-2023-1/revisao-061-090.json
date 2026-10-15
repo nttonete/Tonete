@@ -1,0 +1,439 @@
+{
+ "edicao": "fuvest-2023-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 61,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir mostra indivíduos de uma espécie de erva daninha ao longo de um trajeto de aproximadamente 100 km, desde uma área urbanizada (na porção inferior esquerda, em tons de rosa) até uma área de floresta (na porção superior direita, em tons de verde). Essas áreas urbanizadas e de floresta estão separadas por uma linha tracejada branca. As ervas daninhas amarelas são aquelas que produzem um composto que age como defesa química contra a herbivoria. As ervas daninhas azuis não produzem esse composto.\n\n![imagem de satélite de uma área urbanizada, em tons de rosa, e de uma área de floresta, em tons de verde, separadas por uma linha tracejada branca, com símbolos de trevo azuis e amarelos: os azuis concentram-se na área urbanizada e junto à linha tracejada; os amarelos, na área de floresta](fig:p19-f1)\n\nSANTANGELO et al. 2022. “Global urban environmental change drives adaptation in white clover”. *Science*, 375 (6586): 1275-1281. Adaptado.\n\nCom base nas informações fornecidas, é correto afirmar:",
+   "alternativas": {
+    "A": "Há menor herbivoria sobre essa população em áreas urbanas.",
+    "B": "Há uma abundância maior de insetos herbívoros em áreas urbanas.",
+    "C": "Essa espécie de erva daninha não consegue sobreviver em áreas de florestas.",
+    "D": "Há competição interespecífica entre os indivíduos que produzem ou não o composto.",
+    "E": "A produção ou não do composto corresponde a duas espécies diferentes."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 64,
+   "materia": "biologia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "O mapa mostra a variação do número de espécies de aves no território brasileiro, com as linhas indicando os limites dos biomas.\n\n![mapa do Brasil colorido da cor vermelha (muitas espécies) à azul (poucas espécies), com legenda de “Muitas espécies” a “Poucas espécies” e linhas indicando os limites dos biomas](fig:p20-c1)\n\nJENKINS et al. 2015. “Patterns of vertebrate diversity and protection in Brazil”. *PLoS ONE* 10(12): e0145064. Adaptado.\n\nCom base no mapa, a diversidade de aves mostra-se",
+   "alternativas": {
+    "A": "mais alta nas regiões onde predominam florestas e mais baixa nas regiões onde predomina vegetação mais aberta.",
+    "B": "igualmente alta nas regiões tropicais e mais baixa nas regiões subtropicais.",
+    "C": "igualmente baixa nas regiões mais orientais e mais alta nas regiões ocidentais.",
+    "D": "mais alta nas regiões mais quentes e mais baixa nas regiões mais frias.",
+    "E": "mais alta nas regiões que se situam mais próximas ao mar e mais baixa nas regiões mais interiores."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 65,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A superfície terrestre muda conforme a frequência e a magnitude de processos naturais, sendo alguns mais contínuos e outros mais irregulares. Alguns eventos podem mudar rapidamente a superfície, enquanto outros a modificam lentamente.\n\n![gráfico com escala temporal em anos (eixo horizontal, de 1 a 1.000.000) e escala espacial em metros (eixo vertical, de 1 a 1.000.000), ambos com marcas em potências de 10; o número 1 está junto de 1 ano e 1 m, o número 2 perto de 1000 anos e 1000 m e o número 3 perto de 1.000.000 de anos e 1.000.000 m](fig:p20-f2)\n\nGOUDIE, Andrew S.; VILES, Heather A. *Landscapes and Geomorphology: A Very Short Introduction*. Oxford University Press, Oxford, 2010. Adaptado.\n\nCom base nos dados apresentados, é possível afirmar que os números 1, 2 e 3 correspondem, respectivamente, a:",
+   "alternativas": {
+    "A": "Ação eólica, erupções vulcânicas e soerguimento de cadeias montanhosas.",
+    "B": "Depósitos minerais, abalos sísmicos e erupções vulcânicas.",
+    "C": "Formação de cavernas, ação eólica e soerguimento de cadeias montanhosas.",
+    "D": "Erupções vulcânicas, abalos sísmicos e depósitos minerais.",
+    "E": "Ação eólica, formação de cavernas e soerguimento de cadeias montanhosas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 67,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Termistores são termômetros baseados na variação da resistência elétrica com a temperatura e são utilizados em diversos equipamentos, como termômetros digitais domésticos, automóveis, refrigeradores e fornos. A curva de calibração de um termistor é mostrada na figura:\n\n![gráfico da resistência $R$ (em kΩ, de 0,0 a 3,0) em função da temperatura $T$ (em graus Celsius, de 0 a 60): curva decrescente que passa por cerca de 3,0 kΩ em 6 °C, 2,0 kΩ em 10 °C, 1,0 kΩ em 20 °C, 0,6 kΩ em 30 °C, 0,5 kΩ em 40 °C e chega a cerca de 0,3 kΩ em 65 °C](fig:p20-f3)\n\nConsidere que o termistor se rompa quando percorrido por uma corrente maior do que 10 mA. Supondo que o termistor seja conectado a uma bateria de 5 V, assinale a alternativa que contém uma faixa de temperaturas em que o dispositivo sempre funcionará adequadamente:\n\n**Note e adote:**\n\nA relação entre a resistência $R$ de um dispositivo, a corrente $I$ que o percorre e a diferença de potencial elétrico $V$ entre seus terminais é $V = RI$.",
+   "alternativas": {
+    "A": "$10\\ ^\\circ\\text{C} < T < 35\\ ^\\circ\\text{C}$",
+    "B": "$20\\ ^\\circ\\text{C} < T < 45\\ ^\\circ\\text{C}$",
+    "C": "$30\\ ^\\circ\\text{C} < T < 55\\ ^\\circ\\text{C}$",
+    "D": "$40\\ ^\\circ\\text{C} < T < 65\\ ^\\circ\\text{C}$",
+    "E": "$50\\ ^\\circ\\text{C} < T < 75\\ ^\\circ\\text{C}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 74,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A obra “Rosa e Azul”, também conhecida como “As Meninas Cahen d’Anvers”, é uma pintura a óleo de Pierre-Auguste Renoir.\n\n![“Rosa e Azul” (As Meninas Cahen d’Anvers), pintura a óleo de Pierre-Auguste Renoir: duas meninas de pé, de vestidos claros rendados, uma com faixa rosa na cintura e a outra com faixa azul](fig:p22-f3)\n\nNuma aula de artes, solicitou-se aos alunos que fizessem uma releitura dessa obra utilizando uma “tinta” preparada com extrato de repolho roxo. Esse extrato fica rosa em valores de pH menores que 5 e azul em valores próximos a 8, conforme figura a seguir, que mostra a cor da solução em diferentes valores de pH.\n\n![escala de cores do extrato de repolho roxo em função do pH: 1 vermelho, 3 rosa escuro, 5 rosa, 7 roxo, 8 azul, 9 azul esverdeado, 10 verde escuro, 11 verde, 12 amarelo](fig:p22-f4)\n\nCom base no exposto, qual das alternativas apresenta compostos ou produtos que poderiam ser usados para preparar uma “tinta” rosa/vermelha e uma azul/verde empregando o extrato de repolho roxo?",
+   "alternativas": {
+    "A": "Rosa/Vermelha: Açúcar; Azul/Verde: Sal de cozinha",
+    "B": "Rosa/Vermelha: Sal de cozinha; Azul/Verde: Bicarbonato de sódio",
+    "C": "Rosa/Vermelha: Bicarbonato de sódio; Azul/Verde: Vinagre",
+    "D": "Rosa/Vermelha: Açúcar; Azul/Verde: Soda cáustica",
+    "E": "Rosa/Vermelha: Suco de limão; Azul/Verde: Bicarbonato de sódio"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 75,
+   "materia": "portugues",
+   "materias_extra": [
+    "ingles",
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "![questão de caderno com o enunciado “Write two different reactions related to the decomposition of CaCO₃ (s)”; item a) “Reaction 1 to decompose CaCO₃ (s) (with heat):”, resposta manuscrita “Surprised”; item b) “Reaction 2 to decompose CaCO₃ (s) (with diluted acid):”, resposta manuscrita “Astonished”](fig:p23-f1)\n\nSCIENCE MEMES. Adaptado.\n\nNo meme, a inadequação da resposta à questão está baseada no efeito de sentido proveniente da presença de",
+   "alternativas": {
+    "A": "metáfora.",
+    "B": "trocadilho.",
+    "C": "sinédoque.",
+    "D": "eufemismo.",
+    "E": "comparação."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 76,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os lagartos do gênero *Basiliscus* têm a capacidade incomum de correr sobre a água. Essa espécie possui uma membrana entre os dedos que aumenta a área superficial de suas patas traseiras. Com uma combinação de forças verticais de suporte e forças horizontais propulsivas geradas pelo movimento de suas patas na água, o lagarto consegue obter impulso resultante para cima e para frente, conforme figura a seguir. Isso garante uma estabilidade dinâmica na superfície da água, em corridas que podem chegar a dezenas de metros, dependendo do peso e da idade do animal.\n\n![fotografia de um lagarto correndo sobre a água e, abaixo, três quadros em preto e branco mostrando a pata do lagarto na água](fig:p23-c2)\n\nDisponível em https://wonderopolis.org/.\n\nSobre esse movimento, é correto afirmar:",
+   "alternativas": {
+    "A": "A componente vertical da reação à força gerada pelas patadas na água compensa o peso do animal, fazendo com que ele não afunde.",
+    "B": "O mecanismo de flutuação do lagarto advém de um equilíbrio hidrostático, que pode ser explicado pelo princípio de Arquimedes.",
+    "C": "Por ser um meio viscoso, a água possui um atrito desprezível, facilitando a flutuação.",
+    "D": "A alta salinidade da água é uma condição necessária para que ocorra um equilíbrio entre as forças envolvidas no movimento.",
+    "E": "A tensão superficial da água, por si só, é suficiente para impedir que o animal afunde."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 79,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O *slam ball* é um exercício funcional no qual o praticante eleva uma bola especial acima da cabeça e, após uma breve pausa, a atira no chão, como mostra figura:\n\n![duas imagens de uma pessoa: na primeira, de pé, com uma bola acima da cabeça; na segunda, agachada, após atirar a bola ao chão, com uma seta curva indicando o movimento da bola](fig:p24-c1)\n\nConsidere uma pessoa de 1,70 m que eleva uma bola de 6 kg a uma altura de 40 cm acima da sua cabeça. Em seguida, a pessoa realiza sobre a bola um trabalho adicional de 10 calorias para arremessá-la. Se a colisão da bola com o solo for perfeitamente inelástica, a energia total dissipada na colisão será de\n\n**Note e adote:**\n\nConsidere 1 cal = 4,2 J e $g = 10\\ \\text{m/s}^2$.",
+   "alternativas": {
+    "A": "10 cal.",
+    "B": "20 cal.",
+    "C": "30 cal.",
+    "D": "40 cal.",
+    "E": "50 cal."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 82,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico a seguir apresenta o registro histórico e a projeção do total de mortes e nascimentos em certa região do mundo em dado período:\n\n![gráfico do número de nascimentos ou mortes (em milhões) em função do ano, de 1950 a 2100: a curva de nascimentos começa perto de 16 milhões, diminui até cerca de 12 milhões; a curva de mortes começa perto de 8 milhões, cresce, ultrapassa a de nascimentos por volta de 2035, atinge cerca de 16 milhões por volta de 2060 e depois diminui](fig:p25-c2)\n\nONU, 2019.\n\nA partir disso, assinale a pirâmide etária que melhor representa as informações projetadas para o ano de 2050:",
+   "alternativas": {
+    "A": "![Alternativa A](fig:p25-c3)",
+    "B": "![Alternativa B](fig:p25-c4)",
+    "C": "![Alternativa C](fig:p25-c5)",
+    "D": "![Alternativa D](fig:p25-c6)",
+    "E": "![Alternativa E](fig:p25-c10)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 83,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O heredograma a seguir mostra o aparecimento de AME (atrofia muscular espinhal) em um menino, filho de um casal de primos.\n\n![heredograma com legenda (quadrado vazio: homem sem AME; círculo vazio: mulher sem AME; quadrado preenchido: menino com AME). Geração I: homem 1 e mulher 2, unidos por traço duplo (casamento entre parentes). Filhos desse casal, na geração II: a mulher 2 e o menino 3, com AME. A mulher II.2 está unida ao homem II.1, sem AME, e dessa união desce um traço para um descendente marcado com ponto de interrogação](fig:p26-f1)\n\nA AME é uma doença autossômica recessiva rara, muitas vezes fatal na primeira infância, provocada pela morte de neurônios motores. Uma das causas da AME é uma mutação no gene SMN1, cuja frequência é de 2% na população sem AME (uma em cada 50 pessoas tem um alelo mutante).\n\nConsiderando os genótipos prováveis da mulher II.2 e que não há relação de parentesco com seu parceiro, a probabilidade de uma criança deste casal ser portadora da AME é uma em:",
+   "alternativas": {
+    "A": "50",
+    "B": "100",
+    "C": "200",
+    "D": "300",
+    "E": "600"
+   },
+   "observacoes": ""
+  }
+ ],
+ "complementos": {
+  "61": {
+   "assunto": "Ecologia",
+   "resolucao": "Na imagem, os trevos que produzem a defesa química (amarelos) ficam na área de floresta, e os que não a produzem (azuis) predominam na área urbanizada. Produzir o composto tem um custo para a planta e só compensa onde há muitos herbívoros.\n\nSe a seleção natural manteve a defesa na floresta e não na cidade, a pressão de herbivoria é menor nas áreas urbanas, como diz A. A alternativa B afirma o contrário.\n\nD e E erram porque todos os indivíduos são da mesma espécie (o trevo-branco do título da fonte): a diferença entre eles é variação dentro da espécie, não competição interespecífica. C é desmentida pela própria imagem, que mostra a planta na floresta.\n\n**Resposta: A**"
+  },
+  "62": {
+   "assunto": "Ecologia",
+   "resolucao": "Na população A, a biomassa passa a crescer mais depressa depois da chegada do interagente: a interação beneficia a planta, como no mutualismo (polinizadores ou fungos de micorriza, por exemplo).\n\nNa população B, a biomassa, que vinha crescendo, passa a cair: a interação prejudica a planta e consome sua biomassa, como faz um herbívoro.\n\nCompetidor e parasita também prejudicam, mas nenhum deles explica o ganho visto em A; um comensal não alteraria a biomassa da planta. Só D junta benefício em A e prejuízo em B.\n\n**Resposta: D**"
+  },
+  "63": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Lacuna I: a leishmania é fagocitada por macrófagos e vive dentro deles. Quem faz a digestão intracelular são as enzimas dos lisossomos, que se fundem à vesícula com o material englobado. Inativando essas enzimas, o parasita escapa da digestão e se multiplica. Mitocôndria e núcleo não fazem digestão, o que já elimina A, B e C.\n\nLacuna II: a doença é transmitida pela picada do mosquito-palha (flebotomíneo), como mostra o ciclo. Usar repelente evita o contato com o vetor. Tratar esgoto previne doenças transmitidas pela água contaminada, não a leishmaniose.\n\n**Resposta: E**"
+  },
+  "64": {
+   "assunto": "Ecologia",
+   "resolucao": "Os tons vermelhos e laranja (muitas espécies) aparecem na Amazônia e na faixa da Mata Atlântica, biomas de floresta. Os tons azulados (poucas espécies) aparecem na Caatinga e no Pampa, e o Cerrado fica em tons intermediários: todos de vegetação mais aberta.\n\nFlorestas têm mais estratos de vegetação, abrigo e alimento, e sustentam mais espécies de aves.\n\nD falha porque a Caatinga, uma das regiões mais quentes do país, tem poucas espécies. E falha porque o litoral do Nordeste é azulado, enquanto a Amazônia ocidental, longe do mar, é vermelha.\n\n**Resposta: A**"
+  },
+  "65": {
+   "assunto": "Geologia e relevo",
+   "resolucao": "O gráfico usa escalas em potências de 10: para a direita, o processo leva mais tempo; para cima, modifica uma área maior.\n\nO ponto 1 (cerca de 1 ano e 1 m) é um processo rápido e local, como a ação eólica, que remove e deposita grãos e forma marcas e pequenas dunas. O ponto 2 (cerca de 1000 anos e 1000 m) corresponde ao vulcanismo: erupções sucessivas constroem cones e derrames de centenas de metros a quilômetros em séculos ou milênios. O ponto 3 (cerca de 1 milhão de anos e 1000 km) é o soerguimento de cadeias montanhosas pela tectônica de placas.\n\nA distratora mais forte é E, mas cavernas costumam levar dezenas a centenas de milhares de anos para se formar pela dissolução da rocha, tempo maior que o do ponto 2. Abalos sísmicos duram segundos e não ocupam a posição de nenhum dos pontos.\n\n**Resposta: A**"
+  },
+  "66": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Com o campo constante, a diferença de potencial ao longo do raio é $U = E\\,d = 10^4\\ \\text{V/m} \\cdot 100\\ \\text{m} = 10^6\\ \\text{V}$.\n\nA energia transferida pela carga é $W = qU = 30 \\cdot 10^6 = 3 \\cdot 10^7\\ \\text{J}$.\n\nIsso acontece em $\\Delta t = 10^{-3}\\ \\text{s}$, então $P = \\frac{W}{\\Delta t} = \\frac{3 \\cdot 10^7}{10^{-3}} = 3 \\cdot 10^{10}\\ \\text{W} = 30\\ \\text{GW}$.\n\nO mesmo resultado sai pela corrente: $i = \\frac{30}{10^{-3}} = 3 \\cdot 10^4\\ \\text{A}$ e $P = U\\,i = 10^6 \\cdot 3 \\cdot 10^4 = 3 \\cdot 10^{10}\\ \\text{W}$.\n\n**Resposta: A**"
+  },
+  "67": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Para não se romper, o termistor deve ter corrente de no máximo 10 mA. Com $V = 5\\ \\text{V}$, isso exige $R = \\frac{V}{I} \\geq \\frac{5}{0{,}010} = 500\\ \\Omega = 0{,}5\\ \\text{k}\\Omega$.\n\nPelo gráfico, a resistência diminui quando a temperatura sobe e chega a 0,5 kΩ por volta de 40 °C. Acima disso, $R < 0{,}5\\ \\text{k}\\Omega$ e a corrente passa de 10 mA.\n\nO funcionamento só é garantido abaixo de cerca de 40 °C. A única faixa inteira abaixo desse valor é $10\\ ^\\circ\\text{C} < T < 35\\ ^\\circ\\text{C}$. A alternativa B vai até 45 °C, temperatura em que o termistor já se romperia.\n\n**Resposta: A**"
+  },
+  "68": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O primeiro parágrafo define a expressão: os engenheiros a usam para “the lulls when solar panels and wind turbines are thwarted by clouds, night, or still air”, isto é, as calmarias em que painéis solares e turbinas eólicas ficam impedidos de gerar energia por causa de nuvens, da noite ou da falta de vento.\n\nSão, portanto, períodos de inatividade desses geradores. O texto não trata de aquecimento global, energia nuclear ou comunidades rurais. Os custos (B) aparecem depois, a propósito das baterias e das usinas de bombeamento, e não são o sentido da expressão.\n\n**Resposta: D**"
+  },
+  "69": {
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "O verbo *dwindle* significa diminuir aos poucos, minguar. A frase diz que as baterias se esgotam depois de poucas horas e que, como sabe todo dono de *smartphone*, sua capacidade cai a cada recarga.\n\nO sinônimo é *decreases* (diminui). *Improves* (melhora) diz o contrário, e *breaks* (quebra) indicaria uma falha repentina, não uma redução gradual.\n\n**Resposta: E**"
+  },
+  "70": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O terceiro parágrafo apresenta a solução que já existe: a hidrelétrica reversível (*pumped-storage hydropower*). Quando sobra eletricidade, motores bombeiam água para um reservatório mais alto; quando falta, a água desce e “spins a turbine, generating power”.\n\nNa descida, a energia mecânica da água (energia potencial gravitacional que vira cinética) é convertida em energia elétrica pela turbina.\n\nA distratora mais tentadora é E (baterias, energia química em elétrica), mas o texto cita as baterias justamente para mostrar seus limites: duram poucas horas, perdem capacidade e sai caro reunir muitas.\n\n**Resposta: C**"
+  },
+  "71": {
+   "assunto": "Radioatividade",
+   "resolucao": "Na reação nuclear, conservam-se o número de massa e a carga: $^{2}_{1}\\text{H} + {}^{3}_{1}\\text{H} \\rightarrow {}^{4}_{2}\\text{He} + {}^{A}_{Z}\\text{X}$.\n\nMassa: $2 + 3 = 4 + A \\Rightarrow A = 1$. Carga: $1 + 1 = 2 + Z \\Rightarrow Z = 0$. A partícula de massa 1 e carga 0 é o nêutron, $^{1}_{0}\\text{n}$. O próton teria $Z = 1$, e o elétron tem carga $-1$ e massa quase nula.\n\nO enunciado diz que o processo libera grande quantidade de energia, ou seja, é exotérmico: $\\Delta\\text{H} < 0$.\n\n**Resposta: C**"
+  },
+  "72": {
+   "assunto": "Física moderna",
+   "resolucao": "Pelo primeiro texto, a radiação ionizante transporta mais de 10 eV, energia do ultravioleta longínquo (comprimento de onda de 200 nm ou menos). A energia de cada fóton é $E = \\frac{hc}{\\lambda}$: quanto maior o comprimento de onda, menor a energia.\n\nLuz visível (cerca de 400 a 700 nm), micro-ondas e *laser* vermelho têm comprimentos de onda bem maiores e, portanto, são não ionizantes, como afirma A.\n\nB inverte essa relação. C erra porque a luz visível é radiação eletromagnética. D erra porque, pelo segundo texto, arrancar elétrons da matéria é o que caracteriza a radiação ionizante. E erra porque retirar elétrons rompe ligações e altera as propriedades químicas das moléculas.\n\n**Resposta: A**"
+  },
+  "73": {
+   "assunto": "Óptica",
+   "resolucao": "Na primeira face do prisma, todas as cores chegam do ar ($n = 1$) com o mesmo ângulo de incidência $\\theta_i$. Pela lei de Snell, $\\text{sen}\\,\\theta_r = \\frac{\\text{sen}\\,\\theta_i}{n}$: quanto maior o índice $n$, menor o seno de $\\theta_r$ e, como o seno é crescente, menor o ângulo $\\theta_r$. O raio se aproxima mais da normal e se desvia mais da direção original.\n\nNa figura, a cor 1 é a mais desviada (segue mais para baixo, em direção à base do prisma), depois a cor 2 e por último a cor 3. Logo $n_1 > n_2 > n_3$.\n\nComo todos os raios se aproximam da normal ao entrar no vidro, $\\theta_r < \\theta_i$ e todos os índices são maiores que 1.\n\n**Resposta: B**"
+  },
+  "74": {
+   "assunto": "Funções inorgânicas",
+   "resolucao": "Pela escala, o extrato fica rosa ou vermelho em meio ácido (pH abaixo de 5) e azul ou verde em meio básico (pH de 8 a 11).\n\nPara a tinta rosa/vermelha é preciso um ácido, como o suco de limão (ácido cítrico, pH perto de 2). Para a azul/verde, uma base, como o bicarbonato de sódio, cuja solução tem pH perto de 8 (azul).\n\nAçúcar e sal de cozinha dão soluções neutras (pH perto de 7, roxo), o que elimina A, B e D. C inverte os papéis: o bicarbonato é básico e o vinagre é ácido.\n\n**Resposta: E**"
+  },
+  "75": {
+   "assunto": "Figuras de linguagem",
+   "resolucao": "A questão do caderno pede *reactions* no sentido químico: equações de decomposição do $\\text{CaCO}_3$ (por exemplo, $\\text{CaCO}_3 \\rightarrow \\text{CaO} + \\text{CO}_2$, com aquecimento).\n\nO aluno responde “Surprised” e “Astonished” (“surpreso”, “espantado”), tomando *reaction* no sentido de reação emocional.\n\nO efeito cômico vem do jogo com os dois sentidos da mesma palavra, e isso é um trocadilho. Não há metáfora nem comparação, porque a resposta não aproxima dois elementos por semelhança: apenas troca um sentido da palavra pelo outro.\n\n**Resposta: B**"
+  },
+  "76": {
+   "assunto": "Dinâmica",
+   "resolucao": "O lagarto empurra a água para baixo e para trás com as patas. Pela terceira lei de Newton, a água empurra as patas para cima e para a frente. A componente vertical dessa reação equilibra, em média, o peso do animal, e a horizontal o impulsiona.\n\nO texto fala em “estabilidade dinâmica”: o apoio depende do movimento das patas, e o lagarto afunda se parar. Por isso B está errada (não é flutuação por empuxo, princípio de Arquimedes) e E também (a tensão superficial, sozinha, não sustenta um animal desse porte).\n\nC se contradiz ao chamar a água de meio viscoso com atrito desprezível, e D cita uma salinidade que não tem papel no fenômeno.\n\n**Resposta: A**"
+  },
+  "77": {
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Antes do choque, a bolinha 1 desce a altura $h$: $mgh = \\frac{mv^2}{2} \\Rightarrow v = \\sqrt{2gh}$.\n\nCom a goma, a colisão é perfeitamente inelástica e só a quantidade de movimento se conserva: $mv = 2m\\,v' \\Rightarrow v' = \\frac{v}{2}$.\n\nDepois do choque, o conjunto de massa $2m$ sobe até a altura $h'$: $\\frac{2m\\,v'^2}{2} = 2m\\,g\\,h' \\Rightarrow h' = \\frac{v'^2}{2g} = \\frac{v^2}{8g} = \\frac{2gh}{8g} = \\frac{h}{4}$.\n\nMetade da energia cinética se perde na colisão, por isso o conjunto não chega a $h/2$.\n\n**Resposta: B**"
+  },
+  "78": {
+   "assunto": "Gravitação",
+   "resolucao": "Pelo enunciado, no ponto de Lagrange o Webb orbita o Sol com o mesmo período da Terra, ou seja, com a mesma velocidade angular $\\omega$.\n\nA força resultante sobre cada corpo é a que mantém a órbita circular: $F_T = m_T\\,\\omega^2 R_T$ e $F_W = m_W\\,\\omega^2 R_W$.\n\nDividindo uma pela outra, $\\omega^2$ se cancela: $\\frac{F_W}{F_T} = \\frac{m_W R_W}{m_T R_T}$.\n\nNão é preciso calcular separadamente as atrações do Sol e da Terra sobre o telescópio; a alternativa B mistura as massas que atraem com a massa do corpo em órbita.\n\n**Resposta: C**"
+  },
+  "79": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "A bola começa a uma altura de $1{,}70 + 0{,}40 = 2{,}10\\ \\text{m}$ do chão. Sua energia potencial é $E_p = mgh = 6 \\cdot 10 \\cdot 2{,}1 = 126\\ \\text{J}$, ou $\\frac{126}{4{,}2} = 30\\ \\text{cal}$.\n\nSomando o trabalho do arremesso, a bola chega ao chão com energia cinética de $30 + 10 = 40\\ \\text{cal}$.\n\nNa colisão perfeitamente inelástica com o solo, a bola não volta a subir, e toda essa energia cinética é dissipada: 40 cal. A alternativa C esquece o trabalho adicional de 10 cal.\n\n**Resposta: D**"
+  },
+  "80": {
+   "assunto": "Equilíbrio químico",
+   "resolucao": "Nos tecidos, o metabolismo produz $\\text{CO}_2$. No segundo equilíbrio, mais $\\text{CO}_2$ desloca a reação para a direita e aumenta a concentração de $\\text{H}^+$.\n\nNo primeiro equilíbrio, o $\\text{H}^+$ é produto; seu aumento desloca a reação para a esquerda (princípio de Le Chatelier), o que favorece $\\text{HbH}^+$, a forma protonada, e libera o $\\text{O}_2$ para os tecidos. É o que diz D; E afirma o contrário.\n\nA erra porque, nos pulmões, o excesso de $\\text{O}_2$ favorece $\\text{HbO}_2$. B erra porque o consumo de $\\text{O}_2$ também desloca o equilíbrio para a esquerda. C erra porque, com respiração acelerada, cai o $\\text{CO}_2$, cai o $\\text{H}^+$ e é favorecida a $\\text{HbO}_2$.\n\n**Resposta: D**"
+  },
+  "81": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "Nos três gráficos, as curvas vermelhas contínuas (idosos) têm o mesmo formato das azuis pontilhadas (jovens), mas com picos mais baixos e vales mais altos: a amplitude dos ritmos diminui com a idade, como afirma A.\n\nB erra porque a melatonina tem pico à noite, não de dia. C erra porque o cortisol tem pico durante o dia, ligado ao despertar, não ao sono. D erra porque, à noite, a temperatura dos idosos cai menos que a dos jovens, e o gráfico não mostra relação de causa. E erra porque o cortisol também oscila ao longo do dia e da noite, isto é, tem ritmo circadiano.\n\n**Resposta: A**"
+  },
+  "82": {
+   "assunto": "População e migrações",
+   "resolucao": "Em 2050, pelo gráfico, as mortes (cerca de 15 milhões por ano) já superam os nascimentos (cerca de 13 milhões), que vêm caindo desde os anos 1960. A população envelhece e começa a diminuir.\n\nA pirâmide correspondente tem base estreita (poucas crianças), faixas adultas largas e muitos idosos, como a B. As pirâmides A, C e D têm base larga e topo estreito, típicas de populações jovens com natalidade alta.\n\nA E tem uma saliência nas faixas de 10 a 20 anos, que indicaria um aumento de nascimentos entre 2030 e 2040, o que o gráfico não mostra. A escala de B também confere: cerca de 13 milhões de nascimentos por ano dão uns 65 milhões de crianças de 0 a 4 anos, perto de 33 milhões por sexo, como na base da pirâmide.\n\n**Resposta: B**"
+  },
+  "83": {
+   "assunto": "Genética",
+   "resolucao": "Os pais I.1 e I.2 não têm AME, mas o filho II.3 tem: os dois são heterozigotos ($Aa \\times Aa$).\n\nA irmã II.2 não é afetada, então é $AA$ ou $Aa$, na proporção 1 : 2. A chance de ela ser heterozigota é $\\frac{2}{3}$. O parceiro, sem parentesco, é heterozigoto com chance $\\frac{1}{50}$.\n\nA criança só terá a doença se os dois forem $Aa$ e ela receber o alelo mutante de ambos ($\\frac{1}{4}$): $P = \\frac{2}{3} \\cdot \\frac{1}{50} \\cdot \\frac{1}{4} = \\frac{2}{600} = \\frac{1}{300}$.\n\nO enunciado usa “portadora da AME” no sentido de ter a doença. Supor que a mãe é heterozigota com certeza levaria a 1 em 200 (C).\n\n**Resposta: D**"
+  },
+  "84": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "A ordem das questões não importa, então contamos combinações.\n\nMatemática: escolher 2 de 3, $C_{3,2} = 3$. Física: escolher 6 de 8, $C_{8,6} = C_{8,2} = \\frac{8 \\cdot 7}{2} = 28$.\n\nAs duas escolhas são independentes; pelo princípio multiplicativo, o total é $3 \\cdot 28 = 84$ provas distintas. Somar os resultados em vez de multiplicar é o erro mais comum.\n\n**Resposta: E**"
+  },
+  "85": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Com $P_A - P_B = 360$, o expoente é $\\frac{360}{600} = 0{,}6$.\n\nComo $\\log_{10} 2 = 0{,}3$, temos $10^{0{,}3} = 2$ e $10^{0{,}6} = (10^{0{,}3})^2 = 4$. Então $E_A = \\frac{4}{1 + 4} = 0{,}8$.\n\nNa vitória, $V_A = 1$, e o aumento é $P_A' - P_A = 60(1 - 0{,}8) = 60 \\cdot 0{,}2 = 12$ pontos.\n\nComo A era a favorita ($E_A$ alto), a vitória rende poucos pontos.\n\n**Resposta: C**"
+  },
+  "86": {
+   "assunto": "Geometria espacial",
+   "resolucao": "A pedra, totalmente submersa, desloca um volume de água igual ao seu próprio volume.\n\nEsse volume é um cilindro de raio 8 cm e altura igual à subida do nível: $23{,}5 - 20 = 3{,}5\\ \\text{cm}$.\n\nLogo $V = \\pi r^2 h = \\pi \\cdot 8^2 \\cdot 3{,}5 = 64 \\cdot 3{,}5\\,\\pi = 224\\pi\\ \\text{cm}^3$. Só a variação da altura importa, não a altura final.\n\n**Resposta: B**"
+  },
+  "87": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "O primorial só muda de valor quando $n$ passa por um primo. Os valores possíveis são os produtos dos primeiros primos: $2\\# = 2$, $3\\# = 6$, $5\\# = 30$, $7\\# = 210$, $11\\# = 2310$.\n\nO primeiro que passa de 2000 é $2310 = 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11$ (vale para $n$ de 11 a 12).\n\nConferência rápida: todo $n\\#$ com $n \\geq 5$ é múltiplo de 30, e entre as alternativas só 2310 é múltiplo de 30.\n\n**Resposta: C**"
+  },
+  "88": {
+   "assunto": "Geometria plana",
+   "resolucao": "No piso, cada vértice é cercado por um triângulo, dois quadrados e um hexágono.\n\nComeçando pelo triângulo (o polígono de menos lados) e girando no sentido anti-horário, aparecem: triângulo (3), quadrado (4), hexágono (6) e quadrado (4). Os dois quadrados não são vizinhos: ficam um de cada lado, separados pelo triângulo e pelo hexágono. A notação é (3 . 4 . 6 . 4).\n\nConferência pelos ângulos internos: $60^\\circ + 90^\\circ + 120^\\circ + 90^\\circ = 360^\\circ$. A alternativa D, (3 . 4 . 4 . 6), teria os dois quadrados lado a lado, o que não ocorre no piso.\n\n**Resposta: E**"
+  },
+  "89": {
+   "assunto": "Geometria analítica",
+   "resolucao": "A região A é um quadrado de diagonais medindo 2, com área $\\frac{2 \\cdot 2}{2} = 2$.\n\nB é o exterior (com a borda) do círculo de centro $(-1, 0)$ e raio 1. Então $A \\cap B$ é a região A menos a parte de A que fica dentro desse círculo.\n\nO centro $(-1, 0)$ é um vértice de A, onde o ângulo do quadrado é de $90^\\circ$. Os lados opostos estão a uma distância $\\sqrt{2} > 1$ desse vértice, então a parte do disco dentro de A é exatamente um quarto do disco: $\\frac{\\pi \\cdot 1^2}{4} = \\frac{\\pi}{4}$.\n\nÁrea de $A \\cap B$: $2 - \\frac{\\pi}{4}$.\n\n**Resposta: A**"
+  },
+  "90": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Substituindo os pontos na função: $\\log_2(3a + b) = 2 \\Rightarrow 3a + b = 4$ e $\\log_2(5a + b) = 4 \\Rightarrow 5a + b = 16$.\n\nSubtraindo as equações: $2a = 12$, logo $a = 6$ e $b = 4 - 18 = -14$.\n\nEntão $a + b = 6 - 14 = -8$. A condição de existência é respeitada: $3a + b = 4 > 0$ e $5a + b = 16 > 0$.\n\n**Resposta: A**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "corrigida",
+   "notas": "descrição da figura não dizia onde ficam os trevos azuis e amarelos, informação necessária para quem usa leitor de tela; descrição completada"
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "corrigida",
+   "notas": "figura p20-f1 trazia o fim da palavra “biomas.” do enunciado no topo; novo recorte p20-c1"
+  },
+  {
+   "numero": 65,
+   "status": "corrigida",
+   "notas": "descrição não dizia onde ficam os números 1, 2 e 3 no gráfico (essencial para responder); completada. Gabarito: na primeira resolução marquei E (formação de cavernas no ponto 2); refeita, aceito A: cavernas costumam levar dezenas a centenas de milhares de anos, e o vulcanismo constrói relevo de centenas de metros a quilômetros em séculos ou milênios. Transcrição e ordem das alternativas conferidas."
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "corrigida",
+   "notas": "descrição do gráfico só dava os extremos da curva; acrescentados os valores lidos em 10, 20, 30 e 40 °C, necessários para resolver sem ver a imagem"
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "corrigida",
+   "notas": "descrição da pintura dizia “vestido rosa” e “vestido azul claro”; na obra os vestidos são claros e o rosa e o azul estão nas faixas da cintura"
+  },
+  {
+   "numero": 75,
+   "status": "corrigida",
+   "notas": "descrição do meme: “CaCO3” trocado por “CaCO₃”, como no original (índice subscrito); demais falas conferidas palavra por palavra"
+  },
+  {
+   "numero": 76,
+   "status": "corrigida",
+   "notas": "figura p23-f2 trazia a última linha do enunciado (“dependendo do peso e da idade do animal.”) no topo; novo recorte p23-c2. Retirada biologia de materias_extra: o enunciado dá as informações sobre o lagarto e a questão cobra só dinâmica"
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "corrigida",
+   "notas": "figura p24-f3 trazia pedaços de texto no topo e a linha “...de 1,70 m que eleva uma bola de 6 kg” no rodapé; novo recorte p24-c1"
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "corrigida",
+   "notas": "recorte da alternativa E (p25-c7) trazia linhas da moldura do quadro de alternativas; novo recorte p25-c10. Retirada biologia de materias_extra: pirâmide etária e transição demográfica são conteúdo de geografia"
+  },
+  {
+   "numero": 83,
+   "status": "corrigida",
+   "notas": "descrição do heredograma omitia o traço duplo (casamento consanguíneo) e não dizia que II.2 e II.3 são filhos de I.1 e I.2; corrigida. Retirada matematica de materias_extra: o cálculo de probabilidade faz parte do conteúdo de genética"
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
