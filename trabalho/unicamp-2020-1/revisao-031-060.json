@@ -5,7 +5,53 @@
   60
  ],
  "textos_base": {},
- "questoes_corrigidas": [],
+ "questoes_corrigidas": [
+  {
+   "numero": 48,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "As caldeiras são utilizadas para alimentar máquinas nos mais diversos processos industriais, para esterilização de equipamentos e instrumentos em hospitais, hotéis, lavanderias, entre outros usos. A temperatura elevada da água da caldeira mantém compostos solubilizados na água de alimentação que tendem a se depositar na superfície de troca térmica da caldeira. Esses depósitos, ou incrustações, diminuem a eficiência do equipamento e, além de aumentar o consumo de combustível, podem ainda resultar em explosões. A tabela e a figura a seguir apresentam, respectivamente, informações sobre alguns tipos de incrustações em caldeiras, e a relação entre a espessura da incrustação e o consumo de combustível para uma eficiência constante.\n\n| Tipo de incrustação | Condutividade Térmica ($\\text{kJ m}^{-1}\\ \\text{h}^{-1}\\ {}^\\circ\\text{C}^{-1}$) |\n|---|---|\n| Base de sílica | 1,3 |\n| Base de carbonato | 2,1 |\n| Base de sulfato | 5,5 |\n\n![Gráfico do incremento do consumo de combustível (%) em função da espessura da incrustação (mm), com as curvas A e B](fig:p15-c2)\n\nConsiderando as informações apresentadas, é correto afirmar que as curvas A e B podem representar, respectivamente, informações sobre incrustações",
+   "alternativas": {
+    "A": "de sulfato e de carbonato.",
+    "B": "de sulfato e de sílica.",
+    "C": "de sílica e de carbonato.",
+    "D": "de carbonato e de sílica."
+   }
+  },
+  {
+   "numero": 54,
+   "materia": "quimica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "Para ser usado em um implante dentário, um metal ou liga precisa apresentar excelente compatibilidade com o organismo, alta resistência mecânica e boa flexibilidade, entre outros atributos. Imagine que dois metais, A e B, tenham sido testados quanto à sua aplicação em um implante, e o metal A foi considerado a melhor opção.\n\n| Metal | Formato em que o metal está disponível | Massa | $E^\\circ_{\\text{red}}$ |\n|---|---|---|---|\n| **A** | Cubo com aresta de comprimento 5 cm. | 500 g | –1,63 V |\n| **B** | Esfera com diâmetro de comprimento 5 cm. | 500 g | –0,44 V |\n\nEsse resultado é compatível com o fato de que o metal A tem",
+   "alternativas": {
+    "A": "menor densidade, embora seja menos resistente à corrosão.",
+    "B": "menor densidade e é mais resistente à corrosão.",
+    "C": "maior densidade, embora seja menos resistente à corrosão.",
+    "D": "maior densidade e é mais resistente à corrosão."
+   }
+  },
+  {
+   "numero": 59,
+   "materia": "literatura",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "As palavras organizadas comunicam sempre alguma coisa, que nos toca porque obedece a certa ordem. Quando recebemos o impacto de uma produção literária, oral ou escrita, ele é devido à fusão inextricável da mensagem com a sua organização. Em palavras usuais: o conteúdo de uma obra literária só atua por causa da forma.\n\n(Adaptado de Antonio Candido, “O direito à literatura”, em *Vários escritos*. São Paulo: Ouro sobre azul e Duas Cidades, 2004, p.178.)\n\n![Capa e contracapa do CD Sobrevivendo no inferno, do grupo Racionais Mc’s. Na capa, sobre fundo preto, o nome do grupo, uma cruz branca com um furo redondo no centro, os dizeres “Refrigere minha alma e guia-me pelo caminho da justiça” e “Salmo 23 cap.3”, e o título “Sobrevivendo no inferno”. Na contracapa, sobre a foto em tons de vermelho de um homem de camisa escura segurando uma pistola, a lista de faixas (01 Jorge da Capadócia; 02 Gênesis (Intro); 03 Capítulo 4, Versículo 3; 04 Tô ouvindo alguém me chamar; 05 Rapaz comum; 06 • • •; 07 Diário de um detento; 08 Periferia é periferia (em qualquer lugar); 09 Qual mentira vou acreditar; 10 Mágico de Oz; 11 Fórmula mágica da paz; 12 Salve) e os dizeres “e mesmo que eu ande no Vale da sombra e da morte não temerei mal algum porque tu estás comigo” e “Salmo 23 cap.4”](fig:p18-f2)\n\nA obra *Sobrevivendo no inferno* do grupo Racionais Mc’s é composta pelas canções e pelo projeto editorial da capa e contracapa do CD. Nesse projeto editorial, encontram-se elementos visuais e verbais que estabelecem um jogo de formas e sentidos. Com base na afirmação de Antonio Candido, é correto afirmar que a organização desses elementos",
+   "alternativas": {
+    "A": "produz uma simetria entre som e sentido, sendo que tal simetria indica que os símbolos religiosos são uma resposta à violência.",
+    "B": "configura um sistema de oposições, uma vez que imagens e palavras estabelecem tensões materiais e espirituais, constitutivas do sentido das canções.",
+    "C": "configura uma sintaxe poética de ordem espiritual. Essa sintaxe espelha o caos e as injustiças vividos na periferia das grandes cidades.",
+    "D": "produz uma lógica poética racional. Essa lógica se explicita na vitória do crime sobre a visão de mundo presente nos versículos bíblicos transcritos."
+   }
+  }
+ ],
  "complementos": {
   "31": {
    "assunto": "Cartografia",
@@ -113,7 +159,7 @@
   },
   "57": {
    "assunto": "Quinhentismo e Barroco",
-   "resolucao": "Reboul diz que o verossímil se apoia numa confiança presumida, compartilhada pelo auditório. No segundo \"Sermão da Quarta-feira de Cinza\", Vieira medita sobre a morte (\"és pó e em pó te hás de converter\") e sobre o destino da alma depois dela.\n\nO que torna o discurso confiável para os fiéis do século XVII não é uma qualidade do pregador nem dos ouvintes, mas a crença que todos compartilham: a de que existe uma eternidade de salvação ou de condenação. É sobre essa base comum que a argumentação do sermão se sustenta.\n\nA alternativa D é tentadora, mas a confiança não vem da instituição: vem da fé que pregador e auditório têm em comum.\n\n**Resposta: C**"
+   "resolucao": "Reboul diz que o verossímil se apoia numa confiança presumida, compartilhada pelo auditório. No segundo \"Sermão da Quarta-feira de Cinza\", Vieira parte do tema bíblico de que o homem é pó e ao pó voltará, e medita sobre a morte e o destino da alma depois dela.\n\nO que torna o discurso confiável para os fiéis do século XVII não é uma qualidade do pregador nem dos ouvintes, mas a crença que todos compartilham: a de que existe uma eternidade de salvação ou de condenação. É sobre essa base comum que a argumentação do sermão se sustenta.\n\nA alternativa D é tentadora, mas a confiança não vem da instituição: vem da fé que pregador e auditório têm em comum.\n\n**Resposta: C**"
   },
   "58": {
    "assunto": "Literatura portuguesa",
@@ -128,5 +174,156 @@
    "resolucao": "Jacobina, sozinho na casa da tia e privado dos olhares que alimentavam a sua \"alma exterior\", vive uma angústia crescente. Na frase, o tempo parece se arrastar (\"de século a século\"), e a repetição do som do pêndulo (\"tic-tac, tic-tac\") \"feria-me a alma interior como um piparote contínuo\".\n\nO tique-taque repetitivo funciona como uma série de pequenos golpes que aumentam o sofrimento do personagem. Ele não expressa a duplicidade da alma (A), nem a longevidade (B), nem o vigor (D): ao contrário, a alma interior está ferida e fragilizada.\n\n**Resposta: C**"
   }
  },
- "relatorio": []
+ "relatorio": [
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 34,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 36,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 41,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 45,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "corrigida",
+   "notas": "cabeçalho da tabela: unidade \"(kJ m⁻¹ h⁻¹ ºC⁻¹)\" estava com sobrescritos Unicode; passou para LaTeX ($\\text{kJ m}^{-1}\\ \\text{h}^{-1}\\ {}^\\circ\\text{C}^{-1}$), conforme as instruções. Texto e figura conferidos."
+  },
+  {
+   "numero": 49,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 54,
+   "status": "corrigida",
+   "notas": "materias_extra: \"fisica\" trocada por \"matematica\" (a questão exige o volume do cubo e da esfera para comparar densidades; não cobra conteúdo de física). Tabela e texto conferidos."
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": "equação de combustão sem coeficiente no O₂ confere com o caderno (erro do original, mantido). A questão exige a massa molar do propano, que o caderno não fornece (não há tabela periódica na prova); nada acrescentado."
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 59,
+   "status": "corrigida",
+   "notas": "descrição da figura p18-f2 (capa e contracapa do CD) ampliada: antes citava só \"uma cruz, a lista de faixas e trechos do Salmo 23\"; agora traz os dizeres da capa e da contracapa, a lista de faixas e a imagem do homem com a pistola, sem interpretar, porque a questão cobra justamente os elementos visuais e verbais do projeto gráfico. Citação de Antonio Candido e fonte conferidas palavra por palavra."
+  },
+  {
+   "numero": 60,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
 }
