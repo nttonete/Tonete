@@ -1,0 +1,207 @@
+{
+ "edicao": "unesp-2022-1",
+ "intervalo": [
+  1,
+  30
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 20,
+   "materia": "artes",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "Movement founded by André Breton in 1924, which absorbed the French Dada movement and made positive claims for methods and processes (defiance of logic, shock tactics) which Dada had used merely as a negation of conventional art. Influenced by Freud, it claimed to liberate the riches of the unconscious through the “primacy of dream” and the suspension of conscious control.\n\n(Edward Lucie-Smith. *The Thames and Hudson Dictionary of Art Terms*, 1994. Adaptado.)\n\nUma obra representativa do movimento artístico retratado no texto está reproduzida em:",
+   "alternativas": {
+    "A": "![Alternativa A: Edward Hopper, Noite de verão, 1947: pintura de um casal na varanda iluminada de uma casa de madeira, à noite](fig:p08-f1)",
+    "B": "![Alternativa B: René Magritte, O banquete, 1958: pintura de um bosque ao entardecer, com um sol vermelho redondo pintado na frente das árvores](fig:p08-f2)",
+    "C": "![Alternativa C: Andy Warhol, Marilyn, 1964: retrato de Marilyn Monroe em cores chapadas e contrastantes](fig:p08-f3)",
+    "D": "![Alternativa D: Andrew Wyeth, O mundo de Christina, 1948: pintura de uma mulher deitada num campo seco, olhando para casas no alto da colina](fig:p09-f1)",
+    "E": "![Alternativa E: Kazimir Malevich, Suprematismo, 1928: faixa vertical vermelha cruzada por uma faixa horizontal preta sobre fundo branco](fig:p09-f2)"
+   }
+  },
+  {
+   "numero": 27,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t21-27",
+   "enunciado": "No trecho do quarto parágrafo, “<u>Even though</u> water and sanitation access rates are generally higher in urban areas”, a expressão sublinhada pode ser substituída, sem alteração de sentido, por",
+   "alternativas": {
+    "A": "however.",
+    "B": "rather.",
+    "C": "unlike.",
+    "D": "likely.",
+    "E": "despite."
+   }
+  },
+  {
+   "numero": 28,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Infográfico “WATER CONSERVATION”, com ilustração de uma paisagem com cidade, montanhas e lençol d’água subterrâneo e, abaixo, recomendações para economizar água: “DON’T LEAVE THE TAP RUNNING NEEDLESSLY — Turn off your sink faucet while washing hands, brushing teeth and scrubbing dishes and pots”; “USE DUAL FLUSH TOILET — Don’t flush it more than neccessary”; “STOP LEAKY TOILET AND DRIPPING FAUCETS — A faucet that drips at the rate of one drop per second will waste 2,700 gallons per year”; “EATING LOCAL ORGANIC FOOD AND LESS MEAT — Some foods require a lot more water to produce especially foods with carbon footprint”; “CHOOSE AND USE YOUR APPLIANCES WISELY — Use energy efficient appliances”; “REDUCING FLOWS OF WATER — Use high efficiency faucet aerator and low flow shower head”; “SET UP A RAIN BARREL — Rain barrel collects rain water from eaves to water your garden”](fig:p10-f1)\n\n(www.vectorstock.com)\n\nNo infográfico, a recomendação para economizar água que pode ser adotada imediatamente por todos e não implica custos adicionais é",
+   "alternativas": {
+    "A": "“Don’t leave the tap running needlessly”.",
+    "B": "“Choose and use your appliances wisely”.",
+    "C": "“Set up a rain barrel”.",
+    "D": "“Use dual flush toilet”.",
+    "E": "“Stop leaky toilet and dripping faucets”."
+   }
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 20,
+   "status": "corrigida",
+   "notas": "alternativas: descrições das figuras eram só “Alternativa A” etc.; passaram a trazer a legenda impressa (autor, título, ano) e uma descrição objetiva, para quem usa leitor de tela poder responder. Texto e recortes conferidos, sem erro."
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 22,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 23,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 24,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 25,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 26,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 27,
+   "status": "corrigida",
+   "notas": "materias_extra: retirado “portugues”; as alternativas são palavras em inglês e a questão só cobra o conectivo concessivo em inglês. Texto conferido, sem erro."
+  },
+  {
+   "numero": 28,
+   "status": "corrigida",
+   "notas": "descrição do infográfico não trazia o texto das recomendações, indispensável para responder; incluído o texto impresso (com o “neccessary” do original). Recorte conferido, completo."
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 30,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
