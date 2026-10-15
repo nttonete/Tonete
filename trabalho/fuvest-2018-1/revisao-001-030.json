@@ -39,7 +39,68 @@
    "observacoes": ""
   }
  ],
- "complementos": {},
+ "complementos": {
+  "1": {
+   "assunto": "Termologia",
+   "resolucao": "Primeiro converta a taxa de 90 kcal/hora para J/s, a unidade do gráfico.\n\n$90\\ \\text{kcal/h} = \\frac{90\\,000 \\times 4\\ \\text{J}}{3\\,600\\ \\text{s}} = 100\\ \\text{J/s}$\n\nNa condução, quanto mais grossa a espuma, menor o fluxo de calor (a curva cai). A pessoa dorme confortavelmente se o colchão deixar passar no máximo 100 J/s. No gráfico, a taxa vale 100 J/s quando a espessura é 1,5 cm (a curva é do tipo $k/x$: em 3 cm ela vale cerca de 50 J/s, metade). Espessuras maiores dão taxa ainda menor, então 1,5 cm é a menor espessura que serve.\n\n**Resposta: B**"
+  },
+  "2": {
+   "assunto": "Óptica",
+   "resolucao": "Use a equação de Gauss para lentes, com $f = 20\\ \\text{mm}$ e objeto a $p = 2\\ \\text{m} = 2\\,000\\ \\text{mm}$:\n\n$\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'} \\Rightarrow \\frac{1}{p'} = \\frac{1}{20} - \\frac{1}{2\\,000} = \\frac{99}{2\\,000}$\n\n$p' = \\frac{2\\,000}{99} \\approx 20{,}2\\ \\text{mm}$\n\nComo o objeto está muito longe em comparação com a distância focal, a imagem se forma praticamente no foco. O sensor fica a cerca de 20 mm da lente.\n\n**Resposta: E**"
+  },
+  "3": {
+   "assunto": "Termologia",
+   "resolucao": "A energia vem do calor latente liberado na condensação da água que cai como chuva. Calcule a massa de chuva em um dia:\n\n$V = \\pi r^2 h = 3 \\times (6{,}6 \\times 10^5)^2 \\times 1{,}5 \\times 10^{-2} \\approx 1{,}96 \\times 10^{10}\\ \\text{m}^3$, então $m = \\rho V \\approx 1{,}96 \\times 10^{13}\\ \\text{kg}$.\n\nEnergia liberada por dia: $Q = mL \\approx 1{,}96 \\times 10^{13} \\times 2 \\times 10^6 \\approx 3{,}9 \\times 10^{19}\\ \\text{J}$.\n\nPotência: $P = \\frac{Q}{\\Delta t} = \\frac{3{,}9 \\times 10^{19}}{8{,}6 \\times 10^4} \\approx 4{,}6 \\times 10^{14}\\ \\text{W}$.\n\nCuidado com o raio: 660 km são $6{,}6 \\times 10^5$ m; errar essa conversão leva às outras ordens de grandeza.\n\n**Resposta: B**"
+  },
+  "4": {
+   "assunto": "Cinemática",
+   "resolucao": "O tempo total tem duas partes: a queda do jovem e a volta do som até o alto do penhasco.\n\nQueda livre a partir do repouso: $h = \\frac{g t_1^2}{2} \\Rightarrow 45 = 5 t_1^2 \\Rightarrow t_1 = 3\\ \\text{s}$.\n\nSom subindo 45 m com velocidade constante: $t_2 = \\frac{45}{360} = 0{,}125\\ \\text{s}$.\n\nTotal: $t = 3 + 0{,}125 \\approx 3{,}1\\ \\text{s}$.\n\n**Resposta: A**"
+  },
+  "5": {
+   "assunto": "Ondulatória",
+   "resolucao": "Quando a onda muda de profundidade, a frequência não muda (ela é fixada pela fonte); o que muda é a velocidade, e o comprimento de onda acompanha: $\\lambda = \\frac{v}{f}$, ou seja, $\\lambda$ é proporcional a $v$.\n\nPelo gráfico: em $h = 4{,}0\\ \\text{m}$, $v \\approx 6{,}3\\ \\text{m/s}$; em $h = 1{,}0\\ \\text{m}$, $v \\approx 3{,}1\\ \\text{m/s}$ (a velocidade cai à metade, pois $v = \\sqrt{gh}$).\n\n$\\lambda_2 = \\lambda_1 \\cdot \\frac{v_2}{v_1} = 50 \\times \\frac{3{,}1}{6{,}3} \\approx 25\\ \\text{m}$\n\n**Resposta: C**"
+  },
+  "6": {
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Resolva de trás para a frente. Depois da batida, o bloco de 3.000 kg desliza 10 m até parar, freado pelo atrito: a desaceleração é $a = \\mu g = 0{,}5 \\times 10 = 5\\ \\text{m/s}^2$.\n\nTorricelli: $0 = V^2 - 2 a d \\Rightarrow V^2 = 2 \\times 5 \\times 10 = 100 \\Rightarrow V = 10\\ \\text{m/s}$ (velocidade logo após o choque).\n\nNa colisão, a quantidade de movimento se conserva:\n\n$2\\,000 \\cdot v = 3\\,000 \\cdot 10 \\Rightarrow v = 15\\ \\text{m/s} = 54\\ \\text{km/h}$\n\nBem mais do que os 20 km/h alegados pelo motorista.\n\n**Resposta: E**"
+  },
+  "7": {
+   "assunto": "Dinâmica",
+   "resolucao": "A tensão é máxima no ponto mais baixo. Pela conservação da energia, a velocidade ali é $v^2 = 2gh = 2 \\times 10 \\times 1{,}2 = 24\\ \\text{m}^2/\\text{s}^2$.\n\nNo ponto mais baixo, a resultante é centrípeta:\n\n$T - mg = \\frac{m v^2}{L} \\Rightarrow T = 600 + \\frac{60 \\times 24}{2} = 600 + 720 = 1\\,320\\ \\text{N}$\n\nCom o fator de segurança 7, a corda precisa suportar $7 \\times 1\\,320 = 9\\,240\\ \\text{N}$. Só as cordas III (12.400 N), IV e V passam; a II (7.500 N) não basta.\n\n**Resposta: C**"
+  },
+  "8": {
+   "assunto": "Física moderna",
+   "resolucao": "A meia-vida do césio-137 é de 30 anos: a cada 30 anos, a quantidade cai pela metade.\n\nEm 120 anos cabem $\\frac{120}{30} = 4$ meias-vidas:\n\n$\\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16} = 0{,}0625 \\approx 6{,}3\\%$\n\nA data de 2017 citada no texto não entra na conta, porque a pergunta conta os 120 anos a partir do acidente, em 1987.\n\n**Resposta: B**"
+  },
+  "9": {
+   "assunto": "Eletrostática",
+   "resolucao": "O trabalho da força elétrica depende só da diferença de potencial entre o início e o fim, não do caminho: $W = q\\,(V_A - V_B)$.\n\nI. Correta: $W = (-1{,}6 \\times 10^{-19}) \\times (-2{,}0 \\times 10^4) = 3{,}2 \\times 10^{-15}\\ \\text{J}$. Partindo do repouso, essa é a energia cinética ao chegar em B (o elétron é atraído para o potencial maior).\n\nII. Correta: pelo teorema da energia cinética, $\\Delta E_c = W$, que é o mesmo nas duas trajetórias.\n\nIII. Errada: a força elétrica é conservativa, então o trabalho é igual nos caminhos 1 e 2.\n\n**Resposta: D**"
+  },
+  "10": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Para o LED operar com seus valores nominais, ele deve receber 4 V e 8 W. A corrente é\n\n$i = \\frac{P}{U} = \\frac{8}{4} = 2\\ \\text{A}$\n\nO resistor está em série com o LED, então recebe a tensão que sobra da fonte: $6 - 4 = 2\\ \\text{V}$, com a mesma corrente de 2 A.\n\n$R = \\frac{U_R}{i} = \\frac{2}{2} = 1{,}0\\ \\Omega$\n\n**Resposta: A**"
+  },
+  "11": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Compare os gastos durante 10.000 h, a vida útil da fluorescente.\n\nFluorescente: energia $= 0{,}028\\ \\text{kW} \\times 10\\,000\\ \\text{h} = 280\\ \\text{kWh}$, que custam $280 \\times 0{,}25 = \\text{R}\\$\\ 70{,}00$; somando a lâmpada, R\\$ 90,00.\n\nIncandescentes: energia $= 0{,}1 \\times 10\\,000 = 1\\,000\\ \\text{kWh}$, que custam R\\$ 250,00; são necessárias 10 lâmpadas (10.000 h ÷ 1.000 h), que custam R\\$ 40,00. Total: R\\$ 290,00.\n\nEconomia: $290 - 90 = \\text{R}\\$\\ 200{,}00$. As alternativas A e E são os gastos de cada opção, não a diferença.\n\n**Resposta: C**"
+  },
+  "12": {
+   "assunto": "Química orgânica",
+   "resolucao": "O perácido reage com a água e forma peróxido de hidrogênio ($\\text{H}_2\\text{O}_2$) e o composto 1. Fazendo o balanço dos átomos:\n\n$\\text{CH}_3\\text{CO}_3\\text{H} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{CH}_3\\text{COOH} + \\text{H}_2\\text{O}_2$\n\nO composto 1 é o ácido acético (ácido etanoico), que tem o cheiro característico do vinagre. Por isso, ao abrir o frasco, sente-se cheiro de vinagre. Nenhuma das outras substâncias (amônia, etanol, acetato de etila, cloro) pode se formar a partir do perácido e da água.\n\n**Resposta: E**"
+  },
+  "13": {
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "A 25 °C, o $\\text{H}_3\\text{CC}\\ell$ é gás (ferve a −23,8 °C), então não está no líquido coletado. A fase líquida é uma mistura homogênea (uma só fase) de $\\text{H}_2\\text{CC}\\ell_2$, $\\text{HCC}\\ell_3$ e $\\text{CC}\\ell_4$.\n\nLíquidos miscíveis com pontos de ebulição diferentes (39,6 °C, 61,2 °C e 76,7 °C) se separam por destilação fracionada. O primeiro a sair é o de menor ponto de ebulição, o $\\text{H}_2\\text{CC}\\ell_2$.\n\nDecantação exigiria fases separadas, e o $\\text{CC}\\ell_4$, de maior ponto de ebulição, seria o último a destilar.\n\n**Resposta: D**"
+  },
+  "14": {
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "O gráfico mostra o HCN caindo de cerca de 150 mg/kg (amostra II) para cerca de 70 mg/kg (amostra III) e quase zero (amostra IV).\n\nEtapa 2: o HCN é uma molécula polar, solúvel em água; parte dele sai junto com o líquido espremido (a manipueira). Por isso a massa prensada tem menos HCN.\n\nEtapa 3: o HCN é muito volátil (ferve perto de 26 °C); a 160 °C ele evapora e vai para o ar. Por isso a farinha torrada quase não tem HCN.\n\nAs alternativas com \"insolúvel\" contradizem a queda na Etapa 2, e as que dizem que o HCN \"permanece\" contradizem a queda na Etapa 3.\n\n**Resposta: D**"
+  },
+  "15": {
+   "assunto": "Soluções",
+   "resolucao": "A base KOH reage com o ácido oleico: é uma titulação ácido-base, que vai até a **neutralização** total (a fenolftaleína indica o ponto final).\n\nQuantidade de KOH: $n = 0{,}020 \\times 0{,}0350 = 7{,}0 \\times 10^{-4}\\ \\text{mol}$. Como a proporção é 1 : 1, há também $7{,}0 \\times 10^{-4}$ mol de ácido oleico.\n\nMassa de ácido: $7{,}0 \\times 10^{-4} \\times 282{,}5 \\approx 0{,}198\\ \\text{g}$ em 20,00 g de azeite.\n\nAcidez: $\\frac{0{,}198}{20{,}00} \\times 100\\% \\approx 0{,}99\\%$, que fica entre 0,8% e 1,5%: azeite **virgem fino**.\n\n**Resposta: B**"
+  }
+ },
  "relatorio": [
   {
    "numero": 1,
