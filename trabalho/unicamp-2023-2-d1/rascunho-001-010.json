@@ -97,6 +97,26 @@
         }
       ],
       "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "materia": "fisica",
+      "materias_extra": [
+        "ingles"
+      ],
+      "texto_base": null,
+      "enunciado": "Leia o texto e responda, <u>em português</u>, às questões.\n\nGlass impacts in our lives in myriad ways. To celebrate its pivotal role in moving us towards a more sustainable future and how it supports the evolution of a fairer society, the United Nations has declared 2022 to be the International Year of Glass. Alicia Durán, President of the International Commission on Glass, highlights its importance in the delivery of COVID-19 vaccines: “Glass is vital in making sure we can preserve these vaccines”. That is because glass does not leach chemicals into the vaccine, nor does it alter the chemistry of the drug.\n\nBeing 100% recyclable and inherently sustainable, glass can be infinitely melted and reformed. Melting glass requires considerable energy to reach the necessary high temperatures (>1500°C) and, currently, 95% of all glass melting uses fossil fuels, mostly natural gas or heavy oil. Melting soda-lime-silica glass from raw materials requires a theoretical energy of about 2.6 MJ/kg. When only cullet\\* is used instead of raw materials, this is reduced to 1.9 MJ/kg.\n\n\\***cullet**: recycled broken or waste glass used in glassmaking\n\n(Adaptado de: https://www.saint-gobain.com/en/magazine/why-2022-international-year-glass, acessado em 14/10/2022; DURÁN, Alicia; PARKER, John M. (Eds.). *Welcome to the Glass Age*. Madri: Editorial CSC, 2022.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Por que o material abordado no texto foi escolhido pelas Nações Unidas como o material do ano de 2022? Cite duas razões que reforçam a relevância desse material na entrega das vacinas contra COVID-19."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Um forno é usado para produzir o material descrito acima. Nesse forno, já em operação, são adicionados insumos para produção de uma massa $m = 36\\ \\text{kg}$ do referido material, de forma que tais materiais sejam fundidos em um intervalo de tempo $\\Delta t = 2$ horas. Para isso, é necessário que haja um aumento na potência fornecida ao forno. Sem considerar qualquer nova perda de calor pelo forno, <u>calcule a diferença</u> entre os aumentos de potência para as duas seguintes situações: i) se o insumo for 100% composto por material reciclado (100% *glass*), ii) se o insumo não contiver material reciclado (100% *raw materials*). Além disso, <u>em qual situação</u> o consumo de potência é menor?"
+        }
+      ],
+      "observacoes": ""
     }
   ],
   "respostas": {
@@ -128,6 +148,12 @@
       "itens": {
         "a": "De acordo com Carla Regina, a substituição do termo “favela” por “comunidade” foi uma decisão do prefeito do Rio de Janeiro, em 1990, e os moradores de favelas não foram sequer consultados. Uma vez que se tinha em vista apenas o discurso politicamente correto e não se considerava a situação real de vida dos moradores, a mudança foi ineficaz: os problemas sociais permaneceram os mesmos, assim como o preconceito, a desconfiança, a violência, a falta de infraestrutura etc.",
         "b": "(Serão considerados na avaliação das respostas: texto de acordo com a autora da notícia; relato de uma situação de preconceito contra esses moradores – em primeira ou terceira pessoa do singular; respeito ao limite de palavras; originalidade (i.e., a não transcrição ou cópia direta de trechos da matéria.)\nUm possível exemplo de resposta a contemplar as expectativas da Banca Elaboradora poderia ser:\n*É isso mesmo, Carla! A troca de “favela” por “comunidade” sem a promoção de mudanças nos locais não muda a opinião das pessoas. Outro dia numa corrida de Uber, o motorista se recusou a entrar na comunidade, dizendo que o lugar era perigoso.*"
+      }
+    },
+    "7": {
+      "itens": {
+        "a": "O texto aborda os diversos impactos do vidro para a sociedade. Assim, a Organização das Nações Unidas declarou o ano de 2022 como o ano do vidro pois este material nos impulsiona a um futuro mais sustentável e embasa a evolução de uma sociedade mais justa. Este material foi especialmente relevante em 2022 na entrega das vacinas contra COVID-19, já que o vidro não libera substâncias químicas na vacina e também não altera a composição química da droga.",
+        "b": "$$\\Delta P = \\frac{E}{\\Delta t} = \\frac{\\left((2{,}6 - 1.9) \\times 10^{6}\\ \\text{J/kg}\\right) \\times 36\\ \\text{kg}}{2\\ \\text{h} \\times 3600\\ \\text{s/h}} = 3500\\ \\text{W}$$\n\nO consumo de potência é menor quando se trata do material reciclado (*cullet*)."
       }
     }
   }
