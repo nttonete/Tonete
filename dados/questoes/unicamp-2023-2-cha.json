@@ -25,7 +25,7 @@
    "materia": "matematica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Em uma pesquisa realizada pela Microsoft, 31 mil pessoas foram entrevistadas sobre como consideram a relação saúde e bem estar frente ao trabalho. Mais especificamente, os participantes deveriam responder SIM ou NÃO para a seguinte pergunta: *“Depois do surgimento da pandemia do COVID-19, você passou a priorizar mais a saúde e o bem estar, se comparados ao seu trabalho, do que priorizava antes?”* Abaixo encontram-se os gráficos obtidos com as respostas.\n\n(Adaptado de http://www.microsoft.com/en-us/worklab/work-trend-index/great-expectations-making-hybrid-work. Acesso em 02 de maio de 2022.)\n\n![Gráfico de barras com o percentual de respostas Sim e Não, por região e no total global](fig:p03-c3)\n\n![Gráfico de setores com a distribuição dos respondentes por região](fig:p03-c2)\n\nConsidere que a distribuição dos respondentes por regiões esteja representada no gráfico ao lado para responder às questões a seguir.",
+   "enunciado": "Em uma pesquisa realizada pela Microsoft, 31 mil pessoas foram entrevistadas sobre como consideram a relação saúde e bem estar frente ao trabalho. Mais especificamente, os participantes deveriam responder SIM ou NÃO para a seguinte pergunta: *“Depois do surgimento da pandemia do COVID-19, você passou a priorizar mais a saúde e o bem estar, se comparados ao seu trabalho, do que priorizava antes?”* Abaixo encontram-se os gráficos obtidos com as respostas.\n\n(Adaptado de http://www.microsoft.com/en-us/worklab/work-trend-index/great-expectations-making-hybrid-work. Acesso em 02 de maio de 2022.)\n\n![Gráfico de barras: percentual de respostas Sim (barras brancas) e Não (barras pretas) por opção escolhida. Total Global: Sim 55%, Não 6%. América do Norte: Sim 52%, Não 7%. América Latina: Sim 78%, Não 3%. Ásia/Ilhas do Pacífico: Sim 57%, Não 6%. Europa: Sim 45%, Não 7%. Austrália/Nova Zelândia: Sim 50%, Não 6%](fig:p03-c3)\n\n![Gráfico de setores com a distribuição dos respondentes por região: América do Norte 15%, América Latina 20%, Ásia / Ilhas do Pacífico 30%, Europa 20%, Austrália / Nova Zelândia 15%](fig:p03-c2)\n\nConsidere que a distribuição dos respondentes por regiões esteja representada no gráfico ao lado para responder às questões a seguir.",
    "itens": [
     {
      "rotulo": "a",
@@ -39,7 +39,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Estatística",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cha-q02",
@@ -61,7 +62,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cha-q03",
@@ -83,7 +85,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Lógica e conjuntos",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cha-q04",
@@ -105,29 +108,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
-  },
-  {
-   "id": "unicamp-2023-2-cha-q06",
-   "numero": 6,
-   "materia": "matematica",
-   "materias_extra": [],
-   "texto_base": null,
-   "enunciado": "Uma pesquisadora está testando o efeito de um medicamento em uma bactéria. Sabe-se que a função que descreve a quantidade de bactérias vivas na amostra em um tempo $t$, dado em minutos, é $Q(t) = C \\cdot 10^{-bt}$, com $b$ e $C$ dependendo de características da bactéria e do medicamento.\n\nDados: $\\log_{10} 2 \\approx 0{,}3$.",
-   "itens": [
-    {
-     "rotulo": "a",
-     "texto": "Para uma certa amostra com 5 milhões de bactérias, verificou-se que, nos primeiros 10 minutos, 9/10 da quantidade de bactérias na amostra morreram. Qual é a quantidade de bactérias vivas que restaram após 20 minutos?",
-     "resposta_oficial": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C \\cdot 10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b = -1$, o que nos dá $b = 1/10$. Calculando agora para $t = 20$ minutos, temos $Q(20) = 5.000.000 \\cdot 10^{-2} = 50.000$ bactérias."
-    },
-    {
-     "rotulo": "b",
-     "texto": "Numa outra amostra, onde foi descoberto experimentalmente que $b = 3$, quanto tempo levará para que a quantidade de bactérias fique reduzida à metade?",
-     "resposta_oficial": "Sabendo que $b = 3$, queremos determinar o tempo $t$ para que $C/2 = C \\cdot 10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log 2 = -3t$, ou seja, $t = \\frac{\\log 2}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos."
-    }
-   ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cha-q09",
@@ -135,7 +117,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Mapa do Mar da China Meridional, com a área reivindicada pela China indicada por linha tracejada e a localização das Ilhas Paracel, das Ilhas Spratly e do Recife Scarborough Shoal](fig:p11-c2)\n\n(Adaptado de: https:www.dw.com/pt-br/zeitgeist-a-crescente-tensao-no-mar-da-china-meridional/a-37535015. Acesso em 18/10/2022.)",
+   "enunciado": "![Mapa intitulado \"Mar da China Meridional\", com os rótulos China, Taiwan, Vietnã, Filipinas, Malásia, Brunei, Oceano Pacífico e Mar da China Meridional; uma linha tracejada (legenda: \"Área reivindicada pela China\") contorna a maior parte do mar, junto às costas do Vietnã, da Malásia, de Brunei e das Filipinas; círculos destacam as Ilhas Paracel, as Ilhas Spratly e o Recife Scarborough Shoal](fig:p11-c2)\n\n(Adaptado de: https:www.dw.com/pt-br/zeitgeist-a-crescente-tensao-no-mar-da-china-meridional/a-37535015. Acesso em 18/10/2022.)",
    "itens": [
     {
      "rotulo": "a",
@@ -149,7 +131,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Geopolítica e conflitos",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cha-q10",
@@ -171,7 +154,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Globalização e economia mundial",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cha-q11",
@@ -179,7 +163,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Os Censos Agropecuários (IBGE) apresentam informações relevantes para apoiar a construção de políticas públicas, tais como as que constam na tabela abaixo.\n\n![Tabela: População ocupada e uso de maquinários agrícolas no campo brasileiro – de 1995 a 2017, segundo os Censos Agropecuários de 1995, 2006 e 2017](fig:p13-c1)\n\n(Fonte: Adaptado dos Censos Agropecuários de 1995, 2006 e 2017.)\n\nConsidere os dados da tabela e seus conhecimentos para responder às questões a seguir.",
+   "enunciado": "Os Censos Agropecuários (IBGE) apresentam informações relevantes para apoiar a construção de políticas públicas, tais como as que constam na tabela abaixo.\n\n![Tabela \"População ocupada e uso de maquinários agrícolas no campo brasileiro – de 1995 a 2017.\", com os Censos Agropecuários de 1995, 2006 e 2017. Pessoal ocupado: pessoal ocupado por estabelecimento, 17.930.890, 16.568.205 e 15.105.125; média de pessoal ocupado por estabelecimento, 3,69, 3,2 e 3,0. Tratores utilizados nos estabelecimentos agropecuários, segundo a potência: menos de 100 cavalos, 678.405, 570.650 e 901.042; de 100 cavalos ou mais, 125.337, 250.068 e 328.865. Máquinas agrícolas, segundo os tipos: semeadeiras/plantadeiras, 361.698, 318.273 e 357.793; colheitadeiras, 125.607, 116.081 e 172.199; adubadeiras/distribuidoras de calcário, sem dado em 1995 (traço), 147.884 e 253.206](fig:p13-c1)\n\n(Fonte: Adaptado dos Censos Agropecuários de 1995, 2006 e 2017.)\n\nConsidere os dados da tabela e seus conhecimentos para responder às questões a seguir.",
    "itens": [
     {
      "rotulo": "a",
@@ -193,7 +177,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Agricultura e espaço rural",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cha-q12",
@@ -201,7 +186,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A figura a seguir apresenta quatro tipos de chuva com relação à sua gênese. Cada tipo é resultante do processo que controla os movimentos de ascensão do ar e da umidade, geradores das nuvens que ocasionam precipitação.\n\n![Quatro esquemas numerados de 1 a 4, com os tipos de chuva: 1, ar quente subindo; 2, correntes de ar convergindo junto à superfície; 3, frente entre ar quente e ar frio; 4, ar subindo uma montanha, com a indicação Sombra de Chuva](fig:p14-c1)\n\n(Adaptado de PETERSEN, J. F. *et al.* *Fundamentos de Geografia Física*. São Paulo: Cengage Learning, p. 114, 2014.)",
+   "enunciado": "A figura a seguir apresenta quatro tipos de chuva com relação à sua gênese. Cada tipo é resultante do processo que controla os movimentos de ascensão do ar e da umidade, geradores das nuvens que ocasionam precipitação.\n\n![Quatro quadros numerados de 1 a 4. Quadro 1: setas que vêm dos dois lados e uma seta central, com o rótulo \"Ar Quente\", sobem até uma nuvem alta. Quadro 2: duas setas horizontais em sentidos opostos, junto ao solo, encontram-se e sobem em laço até uma nuvem. Quadro 3: uma seta com o rótulo \"Ar Quente\" sobe por cima de uma cunha rotulada \"Ar Frio\" (com seta no sentido oposto); na base da cunha, o rótulo \"Frente\"; nuvens acima da cunha. Quadro 4: uma seta sobe a encosta esquerda de uma montanha, com nuvens nesse lado; no alto, do lado direito, o rótulo \"Sombra de Chuva\"](fig:p14-c1)\n\n(Adaptado de PETERSEN, J. F. *et al.* *Fundamentos de Geografia Física*. São Paulo: Cengage Learning, p. 114, 2014.)",
    "itens": [
     {
      "rotulo": "a",
@@ -215,7 +200,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cha-q13",

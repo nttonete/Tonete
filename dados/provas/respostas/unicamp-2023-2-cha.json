@@ -23,12 +23,6 @@
    "b": "Para que a parábola e a reta se encontrem em dois pontos distintos, precisamos que a equação $-2x^2 + bx - 3 = 2x - 1$ tenha duas soluções distintas. Isto acontecerá se $\\Delta > 0$. Assim, da equação $-2x^2 + (b-2)x - 2 = 0$, obtemos que $\\Delta = (b-2)^2 - 16$. Para que $\\Delta > 0$ devemos ter $b > 6$ ou $b < -2$."
   }
  },
- "6": {
-  "itens": {
-   "a": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C \\cdot 10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b = -1$, o que nos dá $b = 1/10$. Calculando agora para $t = 20$ minutos, temos $Q(20) = 5.000.000 \\cdot 10^{-2} = 50.000$ bactérias.",
-   "b": "Sabendo que $b = 3$, queremos determinar o tempo $t$ para que $C/2 = C \\cdot 10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log 2 = -3t$, ou seja, $t = \\frac{\\log 2}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos."
-  }
- },
  "9": {
   "itens": {
    "a": "Entre os conflitos existentes na região, destacam-se: a disputa pelo controle da navegação e pela instalação de bases militares no mar do sul da China. Há uma reivindicação da China pela manutenção da soberania territorial das águas marítimas e controle dos arquipélagos localizados na região; os EUA, por seu turno, reivindicam a manutenção da região com o *status* de águas internacionais, o que possibilita a livre navegação; há ainda uma disputa pela área de influência de Taiwan, denominada pela China de “província rebelde”, com a China reivindicando aquele espaço como fazendo parte de seu território nacional. Além disso, os Estados Unidos, que apoiam a independência de Taiwan, têm interesses geopolíticos e econômicos associados à ampliação do comércio internacional com a ilha, sobretudo porque Taiwan possui uma localização estratégia no sul da Ásia – área de intenso fluxo marítimo –, e uma base produtiva industrial de elevada inovação que atende a demanda de diversos setores industriais.",

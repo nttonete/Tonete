@@ -29,7 +29,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "O *Ubirajara jubatus* é um dinossauro que se destacava por seus adornos com elaboradas estruturas tegumentares. A espécie possuía monofilamentos delgados (uma forma rudimentar de penas) associados à base do pescoço – que aumentavam em comprimento ao longo da região dorsal – bem como prolongamentos semelhantes a fitas que presumivelmente emergiam dos ombros. Cite e explique uma possível importância dessas estruturas que possa ser associada ao sucesso evolutivo da espécie.\n\n![Representação do dinossauro Ubirajara jubatus, com monofilamentos longos na base do pescoço e penugem cobrindo o corpo e a cauda](fig:p11-c1)\n\n(Representação do dinossauro *Ubirajara jubatus*, Fonte: https://pt.wikipedia.org/wiki/Ubirajara_jubatus. Acesso em 8/8/2022.)",
+     "texto": "O *Ubirajara jubatus* é um dinossauro que se destacava por seus adornos com elaboradas estruturas tegumentares. A espécie possuía monofilamentos delgados (uma forma rudimentar de penas) associados à base do pescoço – que aumentavam em comprimento ao longo da região dorsal – bem como prolongamentos semelhantes a fitas que presumivelmente emergiam dos ombros. Cite e explique uma possível importância dessas estruturas que possa ser associada ao sucesso evolutivo da espécie.\n\n![Representação do dinossauro Ubirajara jubatus: animal de pescoço e cauda longos, com o corpo e a cauda cobertos por penugem e quatro hastes longas e finas que se projetam para cima a partir da região dos ombros](fig:p11-c1)\n\n(Representação do dinossauro *Ubirajara jubatus*, Fonte: https://pt.wikipedia.org/wiki/Ubirajara_jubatus. Acesso em 8/8/2022.)",
      "resposta_oficial": "A presença de elaboradas estruturas tegumentares pode ser importante enquanto elemento de exibição, com a função de cortejar parceiras sexuais para garantir a reprodução e a continuidade da espécie. Outra possível importância pode estar relacionada à termorregulação, pois as estruturas tegumentares poderiam auxiliar na manutenção do calor ou na dispersão de calor, dependendo da posição das estruturas."
     },
     {
@@ -39,7 +39,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cbs-q11",
@@ -61,7 +62,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cbs-q12",
@@ -83,7 +85,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cbs-q13",
@@ -91,7 +94,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O crescimento e o desenvolvimento das plantas são dependentes dos hormônios vegetais. A seguir, situações dependentes da presença e da localização de hormônios vegetais são apresentadas nas figuras 1 e 2. Na figura 2, plantas dos grupos controle e tratamento são idênticas no tempo t1 e houve a remoção do ápice caulinar entre t1 e t2 no grupo tratamento.\n\n![Figura 1: planta em t1 e em t2, com uma fonte de luz à direita e o caule curvado em direção a ela em t2. Figura 2: plantas dos grupos controle e tratamento em t1, t2 e t3; no grupo tratamento o ápice caulinar foi removido em t2 e a planta apresenta ramos laterais em t3](fig:p15-c1)",
+   "enunciado": "O crescimento e o desenvolvimento das plantas são dependentes dos hormônios vegetais. A seguir, situações dependentes da presença e da localização de hormônios vegetais são apresentadas nas figuras 1 e 2. Na figura 2, plantas dos grupos controle e tratamento são idênticas no tempo t1 e houve a remoção do ápice caulinar entre t1 e t2 no grupo tratamento.\n\n![Figura 1: a mesma planta em t1 e em t2, com um sol desenhado à direita; em t1 o caule está reto e, em t2, a ponta do caule está curvada para o lado do sol. Figura 2: plantas do grupo Controle (em cima) e do grupo Tratamento (embaixo) em t1, t2 e t3. No Controle, de t1 para t3 o caule fica mais alto, surgem folhas novas no alto e as raízes ficam mais longas. No Tratamento, a planta em t1 é igual à do Controle; em t2 o caule aparece cortado no alto e as raízes têm o mesmo tamanho de t1, mais curtas que as do Controle; em t3 saem do caule cortado vários ramos laterais com folhas, e as raízes continuam do tamanho de t1](fig:p15-c1)",
    "itens": [
     {
      "rotulo": "a",
@@ -105,7 +108,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cbs-q14",
@@ -122,12 +126,13 @@
     },
     {
      "rotulo": "b",
-     "texto": "Durante a formação dos vírus da família do *monkeypox*, duas formas infectantes com o mesmo DNA de fita dupla são produzidas pela célula hospedeira: o vírus maduro intracelular (IMV) e o vírus envelopado extracelular (EEV). A membrana das cisternas do complexo de Golgi faz parte apenas do envoltório do EEV. A figura ao lado apresenta os resultados de um experimento de infecção de células em que foi adicionado o mesmo número de partículas virais, e foi analisada a porcentagem de entrada, em função do tempo, das formas IMV e EEV. Considerando os dados apresentados, indique a forma viral com maior capacidade de infecção. Justifique a sua resposta. Cite um mecanismo de liberação para cada forma viral da célula hospedeira.\n\n![Gráfico da porcentagem de entrada (%) em função do tempo (min) para as formas EEV (linha contínua, círculos pretos) e IMV (linha tracejada, círculos brancos)](fig:p16-f3)\n\n(Adaptado de LOCKER, J. K. *et al.* *Mol Biol Cell*. Bethesda, 11, p. 2497-2511, jul. 2000.)",
+     "texto": "Durante a formação dos vírus da família do *monkeypox*, duas formas infectantes com o mesmo DNA de fita dupla são produzidas pela célula hospedeira: o vírus maduro intracelular (IMV) e o vírus envelopado extracelular (EEV). A membrana das cisternas do complexo de Golgi faz parte apenas do envoltório do EEV. A figura ao lado apresenta os resultados de um experimento de infecção de células em que foi adicionado o mesmo número de partículas virais, e foi analisada a porcentagem de entrada, em função do tempo, das formas IMV e EEV. Considerando os dados apresentados, indique a forma viral com maior capacidade de infecção. Justifique a sua resposta. Cite um mecanismo de liberação para cada forma viral da célula hospedeira.\n\n![Gráfico da porcentagem de entrada (%), de 0 a 100, em função do tempo (min), de 0 a 60, para as formas EEV (linha contínua, círculos pretos) e IMV (linha tracejada, círculos brancos). Valores aproximados lidos nos pontos: EEV, 0% em 0 min, 30% em cerca de 2 min, 65% em 15 min, 75% em 30 min e 80% em 60 min; IMV, 0% em 0 min, 25% em cerca de 2 min, 35% em 15 min, 50% em 30 min e 66% em 60 min](fig:p16-f3)\n\n(Adaptado de LOCKER, J. K. *et al.* *Mol Biol Cell*. Bethesda, 11, p. 2497-2511, jul. 2000.)",
      "resposta_oficial": "A forma EEV possui maior capacidade de infecção celular comparada à IMV, pois se observa maior velocidade e maior porcentagem de entrada do vírus na célula. A IMV pode ser liberada durante a lise da célula hospedeira, enquanto a EEV pode ser liberada, por exocitose, a partir de fusão da sua membrana externa com a membrana plasmática celular."
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Biotecnologia",
+   "revisao": "corrigida"
   }
  ]
 }

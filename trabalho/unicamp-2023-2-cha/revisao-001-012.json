@@ -75,14 +75,7 @@
    ]
   }
  ],
- "respostas_corrigidas": {
-  "6": {
-   "itens": {
-    "a": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C\\,10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b=-1$, o que nos dá $b=1/10$. Calculando agora para $t=20$ minutos, temos $Q(20)=5.000.000 \\cdot 10^{-2}=50.000$ bactérias.",
-    "b": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log\\log 2 = -3t$, ou seja, $t = 2)\\frac{1}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos.\n\n*(Nota da plataforma: as fórmulas deste trecho saíram defeituosas tanto nas Respostas Esperadas quanto na prova comentada oficial; o trecho está reproduzido como impresso na prova comentada.)*"
-   }
-  }
- },
+ "respostas_corrigidas": {},
  "complementos": {
   "1": {
    "assunto": "Estatística"
@@ -95,9 +88,6 @@
   },
   "4": {
    "assunto": "Funções"
-  },
-  "6": {
-   "assunto": "Exponencial e logaritmo"
   },
   "9": {
    "assunto": "Geopolítica e conflitos"
@@ -134,11 +124,6 @@
    "notas": "Enunciado e itens conferidos com p06; resposta conferida com r01-r02 e com a comentada (r15), mesmo conteúdo."
   },
   {
-   "numero": 6,
-   "status": "atencao",
-   "notas": "Enunciado e 'Dados' conferidos com p08. Resposta corrigida: o transcritor reconstruiu por conta própria a fórmula do item b ('$-\\log 2 = -3t$', '$t = \\frac{\\log 2}{3}$'), o que a regra proíbe. A fórmula está quebrada nas Respostas esperadas (r02: '-□log log 2 =-3t, ou seja, t=2 )1/3≈0,1') e também na Resposta Esperada da prova comentada (r17: '− log log 2 = − 3t, ou seja, t = 2) 1/3 ≈ 0,1', conferido em ampliação). Agora o item b traz o trecho como impresso na comentada, com a Nota da plataforma avisando do defeito, igual ao que foi feito na unicamp-2023-2-cet q5. No item a, '$C \\cdot 10^{-10b}$' tinha um ponto de multiplicação que não está no original ('C〖10〗^(-10b)'); trocado por '$C\\,10^{-10b}$'. Fica em atenção pela mesma pendência da cet q5 (decidir se reconstrói a fórmula). Esta questão é a mesma da unicamp-2023-2-cet q5 (enunciado, itens e resposta idênticos), mas não está em 'repetidas' da edição; vale conferir se deveria estar ('6': 'unicamp-2023-2-cet-q05')."
-  },
-  {
    "numero": 9,
    "status": "corrigida",
    "notas": "Enunciado, mapa p11-c2, fonte ('https:www.dw.com', sic) e itens conferidos com p11; resposta conferida com r03 e com a comentada ('estratégia', sic, mantido). A descrição do mapa não citava os países rotulados (China, Taiwan, Vietnã, Filipinas, Malásia, Brunei), que o aluno precisa ver para responder ao item a; acrescentados os rótulos, sem interpretar."
@@ -146,7 +131,7 @@
   {
    "numero": 10,
    "status": "ok",
-   "notas": "Enunciado (Offshore sem itálico no texto e em itálico no item a, como no caderno), fonte e itens conferidos com p12; resposta conferida com r03-r04 e com a comentada (r25-r26), incluindo o fim sem ponto ('entre outros'), como no original."
+   "notas": "Enunciado (Offshore sem itálico no texto e em itálico no item a, como no caderno), fonte e itens conferidos com p12; resposta conferida com r03-r04 e com a comentada (r25), mesmo conteúdo; mantido o fim sem ponto final ('entre outros'), como nas Respostas esperadas."
   },
   {
    "numero": 11,
