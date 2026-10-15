@@ -1,0 +1,162 @@
+{
+ "edicao": "unicamp-2023-2-cha",
+ "intervalo": [
+  1,
+  12
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 1,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em uma pesquisa realizada pela Microsoft, 31 mil pessoas foram entrevistadas sobre como consideram a relação saúde e bem estar frente ao trabalho. Mais especificamente, os participantes deveriam responder SIM ou NÃO para a seguinte pergunta: *“Depois do surgimento da pandemia do COVID-19, você passou a priorizar mais a saúde e o bem estar, se comparados ao seu trabalho, do que priorizava antes?”* Abaixo encontram-se os gráficos obtidos com as respostas.\n\n(Adaptado de http://www.microsoft.com/en-us/worklab/work-trend-index/great-expectations-making-hybrid-work. Acesso em 02 de maio de 2022.)\n\n![Gráfico de barras: percentual de respostas Sim (barras brancas) e Não (barras pretas) por opção escolhida. Total Global: Sim 55%, Não 6%. América do Norte: Sim 52%, Não 7%. América Latina: Sim 78%, Não 3%. Ásia/Ilhas do Pacífico: Sim 57%, Não 6%. Europa: Sim 45%, Não 7%. Austrália/Nova Zelândia: Sim 50%, Não 6%](fig:p03-c3)\n\n![Gráfico de setores com a distribuição dos respondentes por região: América do Norte 15%, América Latina 20%, Ásia / Ilhas do Pacífico 30%, Europa 20%, Austrália / Nova Zelândia 15%](fig:p03-c2)\n\nConsidere que a distribuição dos respondentes por regiões esteja representada no gráfico ao lado para responder às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "De acordo com as informações fornecidas pelos gráficos apresentados, qual das regiões conta com a maior porcentagem de pessoas que responderam SIM? Em qual das regiões a porcentagem de pessoas que responderam SIM mais se aproximou da porcentagem respectiva para a população global?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Quantos respondentes são da Austrália e Nova Zelândia? Quantos respondentes da Austrália e Nova Zelândia responderam SIM?"
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Mapa intitulado \"Mar da China Meridional\", com os rótulos China, Taiwan, Vietnã, Filipinas, Malásia, Brunei, Oceano Pacífico e Mar da China Meridional; uma linha tracejada (legenda: \"Área reivindicada pela China\") contorna a maior parte do mar, junto às costas do Vietnã, da Malásia, de Brunei e das Filipinas; círculos destacam as Ilhas Paracel, as Ilhas Spratly e o Recife Scarborough Shoal](fig:p11-c2)\n\n(Adaptado de: https:www.dw.com/pt-br/zeitgeist-a-crescente-tensao-no-mar-da-china-meridional/a-37535015. Acesso em 18/10/2022.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Aponte dois conflitos geopolíticos envolvendo a China e os Estados Unidos (EUA) e que estão situados na região destacada no mapa. Explique os interesses envolvidos em cada um deles."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Que recursos naturais são disputados no Mar da China Meridional e quais os principais produtos transportados por navegação na região?"
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os Censos Agropecuários (IBGE) apresentam informações relevantes para apoiar a construção de políticas públicas, tais como as que constam na tabela abaixo.\n\n![Tabela \"População ocupada e uso de maquinários agrícolas no campo brasileiro – de 1995 a 2017.\", com os Censos Agropecuários de 1995, 2006 e 2017. Pessoal ocupado: pessoal ocupado por estabelecimento, 17.930.890, 16.568.205 e 15.105.125; média de pessoal ocupado por estabelecimento, 3,69, 3,2 e 3,0. Tratores utilizados nos estabelecimentos agropecuários, segundo a potência: menos de 100 cavalos, 678.405, 570.650 e 901.042; de 100 cavalos ou mais, 125.337, 250.068 e 328.865. Máquinas agrícolas, segundo os tipos: semeadeiras/plantadeiras, 361.698, 318.273 e 357.793; colheitadeiras, 125.607, 116.081 e 172.199; adubadeiras/distribuidoras de calcário, sem dado em 1995 (traço), 147.884 e 253.206](fig:p13-c1)\n\n(Fonte: Adaptado dos Censos Agropecuários de 1995, 2006 e 2017.)\n\nConsidere os dados da tabela e seus conhecimentos para responder às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Analisando a evolução dos dados, indique dois fenômenos que se destacam: um de ordem técnica e outro de ordem social. Quais as consequências para o território brasileiro decorrentes desses fenômenos?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte duas ações do Estado Brasileiro que contribuíram para a modernização técnica do campo. Explique por que, mesmo diante do avanço da modernização e do consequente aumento da produção de alimentos, a fome ainda persiste no país."
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir apresenta quatro tipos de chuva com relação à sua gênese. Cada tipo é resultante do processo que controla os movimentos de ascensão do ar e da umidade, geradores das nuvens que ocasionam precipitação.\n\n![Quatro quadros numerados de 1 a 4. Quadro 1: setas que vêm dos dois lados e uma seta central, com o rótulo \"Ar Quente\", sobem até uma nuvem alta. Quadro 2: duas setas horizontais em sentidos opostos, junto ao solo, encontram-se e sobem em laço até uma nuvem. Quadro 3: uma seta com o rótulo \"Ar Quente\" sobe por cima de uma cunha rotulada \"Ar Frio\" (com seta no sentido oposto); na base da cunha, o rótulo \"Frente\"; nuvens acima da cunha. Quadro 4: uma seta sobe a encosta esquerda de uma montanha, com nuvens nesse lado; no alto, do lado direito, o rótulo \"Sombra de Chuva\"](fig:p14-c1)\n\n(Adaptado de PETERSEN, J. F. *et al.* *Fundamentos de Geografia Física*. São Paulo: Cengage Learning, p. 114, 2014.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Indique duas características do tipo de chuva 1, considerando que, na sua gênese, formam-se as nuvens *cumulonimbus*. Por que o tipo de chuva 2 ocorre na Zona de Convergência Intertropical? Em que época do ano esse tipo de chuva 2 pode atingir o semiárido nordestino?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Que dinâmica atmosférica é responsável pela gênese do tipo de chuva 3 e em que estação do ano esse tipo de chuva é mais frequente no território brasileiro? Qual a influência do tipo de chuva 4 na distribuição da vegetação nas duas faces do Planalto da Borborema?"
+    }
+   ]
+  }
+ ],
+ "respostas_corrigidas": {
+  "6": {
+   "itens": {
+    "a": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C\\,10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b=-1$, o que nos dá $b=1/10$. Calculando agora para $t=20$ minutos, temos $Q(20)=5.000.000 \\cdot 10^{-2}=50.000$ bactérias.",
+    "b": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log\\log 2 = -3t$, ou seja, $t = 2)\\frac{1}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos.\n\n*(Nota da plataforma: as fórmulas deste trecho saíram defeituosas tanto nas Respostas Esperadas quanto na prova comentada oficial; o trecho está reproduzido como impresso na prova comentada.)*"
+   }
+  }
+ },
+ "complementos": {
+  "1": {
+   "assunto": "Estatística"
+  },
+  "2": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "3": {
+   "assunto": "Lógica e conjuntos"
+  },
+  "4": {
+   "assunto": "Funções"
+  },
+  "6": {
+   "assunto": "Exponencial e logaritmo"
+  },
+  "9": {
+   "assunto": "Geopolítica e conflitos"
+  },
+  "10": {
+   "assunto": "Globalização e economia mundial"
+  },
+  "11": {
+   "assunto": "Agricultura e espaço rural"
+  },
+  "12": {
+   "assunto": "Clima"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "Enunciado, itens e fonte conferidos com p03; resposta conferida com r01 e com a comentada (r11-r12). As descrições dos dois gráficos não traziam nenhum número, e os dois itens pedem para ler os percentuais: acrescentados os valores impressos nos gráficos. O recorte p03-c2 (setores) traz um pedaço da moldura do gráfico de barras no canto superior esquerdo; não dá para evitar num retângulo sem cortar os rótulos 'Austrália / Nova Zelândia' e 'Europa', e não atrapalha a leitura."
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "Enunciado, tabela e itens conferidos com p04; resposta conferida com r01 e com a comentada (r13). A comentada escreve 'e x = 15' no lugar de 'z = 15' (erro dela); as Respostas esperadas estão corretas e foram mantidas."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Enunciado e itens conferidos com p05; resposta conferida com r01. A 'Outra solução' da comentada (r14) tem redação diferente (com uma fórmula de conjuntos quebrada no PDF); mantida a versão das Respostas esperadas, completa."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Enunciado e itens conferidos com p06; resposta conferida com r01-r02 e com a comentada (r15), mesmo conteúdo."
+  },
+  {
+   "numero": 6,
+   "status": "atencao",
+   "notas": "Enunciado e 'Dados' conferidos com p08. Resposta corrigida: o transcritor reconstruiu por conta própria a fórmula do item b ('$-\\log 2 = -3t$', '$t = \\frac{\\log 2}{3}$'), o que a regra proíbe. A fórmula está quebrada nas Respostas esperadas (r02: '-□log log 2 =-3t, ou seja, t=2 )1/3≈0,1') e também na Resposta Esperada da prova comentada (r17: '− log log 2 = − 3t, ou seja, t = 2) 1/3 ≈ 0,1', conferido em ampliação). Agora o item b traz o trecho como impresso na comentada, com a Nota da plataforma avisando do defeito, igual ao que foi feito na unicamp-2023-2-cet q5. No item a, '$C \\cdot 10^{-10b}$' tinha um ponto de multiplicação que não está no original ('C〖10〗^(-10b)'); trocado por '$C\\,10^{-10b}$'. Fica em atenção pela mesma pendência da cet q5 (decidir se reconstrói a fórmula). Esta questão é a mesma da unicamp-2023-2-cet q5 (enunciado, itens e resposta idênticos), mas não está em 'repetidas' da edição; vale conferir se deveria estar ('6': 'unicamp-2023-2-cet-q05')."
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "Enunciado, mapa p11-c2, fonte ('https:www.dw.com', sic) e itens conferidos com p11; resposta conferida com r03 e com a comentada ('estratégia', sic, mantido). A descrição do mapa não citava os países rotulados (China, Taiwan, Vietnã, Filipinas, Malásia, Brunei), que o aluno precisa ver para responder ao item a; acrescentados os rótulos, sem interpretar."
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Enunciado (Offshore sem itálico no texto e em itálico no item a, como no caderno), fonte e itens conferidos com p12; resposta conferida com r03-r04 e com a comentada (r25-r26), incluindo o fim sem ponto ('entre outros'), como no original."
+  },
+  {
+   "numero": 11,
+   "status": "corrigida",
+   "notas": "Enunciado, fonte e itens conferidos com p13; resposta conferida com r04 e com a comentada (r27). A tabela tem células mescladas e fica como figura, mas a descrição não trazia nenhum dado, e o item a manda analisar a evolução dos dados: a descrição agora traz todos os valores da tabela."
+  },
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "Enunciado, figura p14-c1, fonte e itens conferidos com p14; resposta conferida com r04 e com a comentada (r28-r29). A descrição antiga interpretava o desenho ('correntes de ar convergindo', 'frente entre ar quente e ar frio'), o que adianta parte da resposta do item a (convergência dos alísios na ZCIT); a nova descreve só setas, nuvens, relevo e os rótulos impressos."
+  }
+ ]
+}
