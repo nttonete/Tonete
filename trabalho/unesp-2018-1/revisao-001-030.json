@@ -86,7 +86,7 @@
    "numero": 6,
    "materia": "literatura",
    "materias_extra": [
-    "literatura"
+    "portugues"
    ],
    "texto_base": "t02-08",
    "enunciado": "Em um trecho do “Sermão da Sexagésima”, Antônio Vieira critica o chamado estilo cultista de alguns oradores sacros de sua época nos seguintes termos: “Basta que não havemos de ver num sermão duas palavras em paz? Todas hão de estar sempre em fronteira com o seu contrário?”\n\nPalavras “em fronteira com o seu contrário”, contudo, também foram empregadas por Vieira, conforme se verifica na expressão destacada em:",
@@ -101,9 +101,7 @@
   {
    "numero": 7,
    "materia": "literatura",
-   "materias_extra": [
-    "literatura"
-   ],
+   "materias_extra": [],
    "texto_base": "t02-08",
    "enunciado": "Assinale a alternativa cuja citação se aproxima tematicamente do “Sermão do bom ladrão” de Antônio Vieira.",
    "alternativas": {
@@ -159,9 +157,7 @@
   {
    "numero": 12,
    "materia": "portugues",
-   "materias_extra": [
-    "literatura"
-   ],
+   "materias_extra": [],
    "texto_base": "t10-16",
    "enunciado": "Em “o sentimento da propriedade moderava a ação, porque dinheiro também dói.” (3º parágrafo), a “ação” a que se refere o narrador diz respeito",
    "alternativas": {
@@ -217,9 +213,7 @@
   {
    "numero": 16,
    "materia": "portugues",
-   "materias_extra": [
-    "literatura"
-   ],
+   "materias_extra": [],
    "texto_base": "t10-16",
    "enunciado": "No último parágrafo, “pôr ordem à desordem” significa",
    "alternativas": {
@@ -429,12 +423,12 @@
   {
    "numero": 6,
    "status": "corrigida",
-   "notas": "texto base t02-08: números da frase de abertura estavam sem o negrito do caderno; matéria: portugues → literatura (estilo cultista/barroco de Vieira e antítese no sermão)"
+   "notas": "texto base t02-08: números da frase de abertura estavam sem o negrito do caderno; matéria: portugues (extra literatura) → literatura (extra portugues): a questão cobra o estilo cultista/barroco de Vieira e a identificação da antítese"
   },
   {
    "numero": 7,
    "status": "corrigida",
-   "notas": "texto base t02-08: números da frase de abertura estavam sem o negrito do caderno; matéria: portugues → literatura (interpretação do “Sermão do bom ladrão”, texto literário, como nas demais edições da UNESP)"
+   "notas": "texto base t02-08: números da frase de abertura estavam sem o negrito do caderno; materias_extra: retirado literatura, que passou a ser a matéria principal; matéria: portugues → literatura (aproximação temática do “Sermão do bom ladrão”, texto literário)"
   },
   {
    "numero": 8,
@@ -459,7 +453,7 @@
   {
    "numero": 12,
    "status": "corrigida",
-   "notas": "texto base t10-16: números da frase de abertura estavam sem o negrito do caderno"
+   "notas": "texto base t10-16: números da frase de abertura estavam sem o negrito do caderno; materias_extra: retirado literatura; a questão cobra só leitura e sentido de expressão, sem conhecimento de literatura"
   },
   {
    "numero": 13,
@@ -479,7 +473,7 @@
   {
    "numero": 16,
    "status": "corrigida",
-   "notas": "texto base t10-16: números da frase de abertura estavam sem o negrito do caderno"
+   "notas": "texto base t10-16: números da frase de abertura estavam sem o negrito do caderno; materias_extra: retirado literatura; a questão cobra só leitura e sentido de expressão, sem conhecimento de literatura"
   },
   {
    "numero": 17,
