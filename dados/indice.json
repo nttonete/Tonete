@@ -275,6 +275,43 @@
    }
   },
   {
+   "id": "unesp-2018-1",
+   "vestibular": "unesp",
+   "ano": 2018,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "VERSAO1",
+   "nome": "UNESP (VUNESP) 2018 – 1ª fase",
+   "tabela_periodica": "img/tabela-periodica/unesp-2018-1.webp",
+   "fonte": {
+    "caderno": "UNESP_2018_1Fase.pdf",
+    "gabarito": "UNESP_2018_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unesp-2018-1.json",
+   "total": 87,
+   "validas": 87,
+   "com_resposta": 87,
+   "materias": {
+    "portugues": 14,
+    "literatura": 5,
+    "artes": 1,
+    "ingles": 10,
+    "historia": 12,
+    "geografia": 9,
+    "filosofia": 5,
+    "sociologia": 1,
+    "biologia": 8,
+    "quimica": 7,
+    "fisica": 7,
+    "matematica": 8
+   },
+   "indisponiveis": [
+    46,
+    47,
+    51
+   ]
+  },
+  {
    "id": "unesp-2019-1",
    "vestibular": "unesp",
    "ano": 2019,
