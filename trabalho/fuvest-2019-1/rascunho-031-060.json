@@ -232,6 +232,156 @@
     "E": "B = endosperma e $P_{\\text{final}}$ = 92,0 atm."
    },
    "observacoes": ""
+  },
+  {
+   "numero": 46,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em uma família, o número de irmãs de cada filha é igual à metade do número de irmãos. Cada filho tem o mesmo número de irmãos e irmãs.\n\nO número total de filhos e filhas da família é",
+   "alternativas": {
+    "A": "4",
+    "B": "5",
+    "C": "7",
+    "D": "10",
+    "E": "15"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 47,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Se a função $f: \\mathbb{R} - \\{2\\} \\to \\mathbb{R}$ é definida por $f(x) = \\frac{2x+1}{x-2}$ e a função $g: \\mathbb{R} - \\{2\\} \\to \\mathbb{R}$ é definida por $g(x) = f(f(x))$, então $g(x)$ é igual a",
+   "alternativas": {
+    "A": "$\\frac{x}{2}$",
+    "B": "$x^2$",
+    "C": "$2x$",
+    "D": "$2x+3$",
+    "E": "$x$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 48,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere a função polinomial $f: \\mathbb{R} \\to \\mathbb{R}$ definida por\n\n$$f(x) = ax^2 + bx + c,$$\n\nem que $a, b, c \\in \\mathbb{R}$ e $a \\neq 0$. No plano cartesiano $xy$, a única intersecção da reta $y = 2$ com o gráfico de $f$ é o ponto $(2; 2)$ e a intersecção da reta $x = 0$ com o gráfico de $f$ é o ponto $(0; -6)$. O valor de $a + b + c$ é",
+   "alternativas": {
+    "A": "–2",
+    "B": "0",
+    "C": "2",
+    "D": "4",
+    "E": "6"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 49,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um dono de restaurante assim descreveu a evolução do faturamento quinzenal de seu negócio, ao longo dos dez primeiros meses após a inauguração: “Até o final dos três primeiros meses, tivemos uma velocidade de crescimento mais ou menos constante, quando então sofremos uma queda abrupta, com o faturamento caindo à metade do que tinha sido atingido. Em seguida, voltamos a crescer, igualando, um mês e meio depois dessa queda, o faturamento obtido ao final do terceiro mês. Agora, ao final do décimo mês, estamos estabilizando o faturamento em um patamar 50% acima do faturamento obtido ao final do terceiro mês”.\n\nConsiderando que, na ordenada, o faturamento quinzenal está representado em unidades desconhecidas, porém uniformemente espaçadas, qual dos gráficos é compatível com a descrição do comerciante?",
+   "alternativas": {
+    "A": "![Alternativa A: gráfico do faturamento quinzenal em função do tempo (meses)](fig:p15-c1)",
+    "B": "![Alternativa B: gráfico do faturamento quinzenal em função do tempo (meses)](fig:p15-c3)",
+    "C": "![Alternativa C: gráfico do faturamento quinzenal em função do tempo (meses)](fig:p15-c5)",
+    "D": "![Alternativa D: gráfico do faturamento quinzenal em função do tempo (meses)](fig:p15-c2)",
+    "E": "![Alternativa E: gráfico do faturamento quinzenal em função do tempo (meses)](fig:p15-c4)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 50,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Forma-se uma pilha de folhas de papel, em que cada folha tem 0,1 mm de espessura. A pilha é formada da seguinte maneira: coloca-se uma folha na primeira vez e, em cada uma das vezes seguintes, tantas quantas já houverem sido colocadas anteriormente. Depois de 33 dessas operações, a altura da pilha terá a ordem de grandeza",
+   "alternativas": {
+    "A": "da altura de um poste.",
+    "B": "da altura de um prédio de 30 andares.",
+    "C": "do comprimento da Av. Paulista.",
+    "D": "da distância da cidade de São Paulo (SP) à cidade do Rio de Janeiro (RJ).",
+    "E": "do diâmetro da Terra."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 51,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura mostra uma escada maciça de quatro degraus, todos eles com formato de um paralelepípedo reto-retângulo. A base de cada degrau é um retângulo de dimensões 20 cm por 50 cm, e a diferença de altura entre o piso e o primeiro degrau e entre os degraus consecutivos é de 10 cm. Se essa escada for prolongada para ter 20 degraus, mantendo o mesmo padrão, seu volume será igual a\n\n![Escada de quatro degraus, com as cotas 20 cm (largura da base do degrau), 10 cm (diferença de altura) e 50 cm](fig:p16-f1)",
+   "alternativas": {
+    "A": "$2{,}1\\ \\text{m}^3$",
+    "B": "$2{,}3\\ \\text{m}^3$",
+    "C": "$3{,}0\\ \\text{m}^3$",
+    "D": "$4{,}2\\ \\text{m}^3$",
+    "E": "$6{,}0\\ \\text{m}^3$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 52,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma empresa estuda cobrir um vão entre dois prédios (com formato de paralelepípedos reto-retângulos) que têm paredes laterais paralelas, instalando uma lona na forma de um quadrilátero, com pontas presas nos pontos $A, B, C$ e $D$, conforme indicação da figura.\n\n![Dois prédios em forma de paralelepípedo, com a lona representada pelo quadrilátero de vértices A, B, C e D entre eles](fig:p16-f2)\n\nSabendo que a lateral de um prédio tem 80 m de altura e 28 m de largura, que a lateral do outro prédio tem 60 m de altura e 20 m de largura e que essas duas paredes laterais distam 15 m uma da outra, a área total dessa lona seria de",
+   "alternativas": {
+    "A": "$300\\ \\text{m}^2$",
+    "B": "$360\\ \\text{m}^2$",
+    "C": "$600\\ \\text{m}^2$",
+    "D": "$720\\ \\text{m}^2$",
+    "E": "$1.200\\ \\text{m}^2$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 53,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Se $\\log_2 y = -\\frac{1}{2} + \\frac{2}{3}\\log_2 x$, para $x > 0$, então",
+   "alternativas": {
+    "A": "$y = \\frac{\\sqrt[3]{x^2}}{\\sqrt{2}}$",
+    "B": "$y = \\sqrt{\\frac{x^3}{2}}$",
+    "C": "$y = -\\frac{1}{\\sqrt{2}} + \\sqrt[3]{x^2}$",
+    "D": "$y = \\sqrt{2} \\cdot \\sqrt[3]{x^2}$",
+    "E": "$y = \\sqrt{2x^3}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 54,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um triângulo retângulo com vértices denominados $A$, $B$ e $C$ apoia-se sobre uma linha horizontal, que corresponde ao solo, e gira sem escorregar no sentido horário. Isto é, se a posição inicial é aquela mostrada na figura, o movimento começa com uma rotação em torno do vértice $C$ até o vértice $A$ tocar o solo, após o que passa a ser uma rotação em torno de $A$, até o vértice $B$ tocar o solo, e assim por diante.\n\n![Triângulo retângulo ABC apoiado no solo, com AB = 1 e BC = 2, e posições sucessivas do triângulo girando em torno do vértice C no sentido horário](fig:p16-f3)\n\nUsando as dimensões indicadas na figura ($AB = 1$ e $BC = 2$), qual é o comprimento da trajetória percorrida pelo vértice $B$, desde a posição mostrada, até a aresta $BC$ apoiar-se no solo novamente?",
+   "alternativas": {
+    "A": "$\\frac{3}{2}\\pi$",
+    "B": "$\\frac{3+\\sqrt{3}}{3}\\pi$",
+    "C": "$\\frac{13}{6}\\pi$",
+    "D": "$\\frac{3+\\sqrt{3}}{2}\\pi$",
+    "E": "$\\frac{8+2\\sqrt{3}}{3}\\pi$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 55,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma seta aponta para a posição zero no instante inicial. A cada rodada, ela poderá ficar no mesmo lugar ou mover-se uma unidade para a direita ou mover-se uma unidade para a esquerda, cada uma dessas três possibilidades com igual probabilidade.\n\n![Reta numérica de -5 a +5 com uma seta apontando para a posição 0](fig:p16-c3)\n\nQual é a probabilidade de que, após 5 rodadas, a seta volte à posição inicial?",
+   "alternativas": {
+    "A": "$\\frac{1}{9}$",
+    "B": "$\\frac{17}{81}$",
+    "C": "$\\frac{1}{3}$",
+    "D": "$\\frac{51}{125}$",
+    "E": "$\\frac{125}{243}$"
+   },
+   "observacoes": ""
   }
  ]
 }
