@@ -13,7 +13,9 @@ process.stdin.on("end", () => {
   for (const { ref, texto } of itens) {
     const usadas = [];
     try {
-      Render.renderizar(texto, { figurasUsadas: usadas });
+      const html = Render.renderizar(texto, { figurasUsadas: usadas });
+      // marcação de figura que não virou imagem (descrição com colchetes, por exemplo)
+      if (/\]\(fig:/.test(html)) erros.push({ ref, erro: "figura não renderizada: confira colchetes na descrição" });
     } catch (e) {
       erros.push({ ref, erro: String(e.message || e).slice(0, 300) });
     }

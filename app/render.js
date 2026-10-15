@@ -96,7 +96,8 @@
   }
 
   function inline(s, opc) {
-    var re = /!\[([^\]]*)\]\(fig:([A-Za-z0-9_-]+)\)/g;
+    // a descrição pode ter colchetes, um nível só ("[+ claro]")
+    var re = /!\[((?:[^\[\]]|\[[^\[\]]*\])*)\]\(fig:([A-Za-z0-9_-]+)\)/g;
     var h = "", ultimo = 0, m;
     var trecho = function (t) {
       return separarFormulas(t)
@@ -154,7 +155,7 @@
             return inline(l, opc);
           })
           .join("<br>");
-        if (/^\s*!\[[^\]]*\]\(fig:[^)]+\)\s*$/.test(b)) return '<figure>' + html + "</figure>";
+        if (/^\s*!\[(?:[^\[\]]|\[[^\[\]]*\])*\]\(fig:[^)]+\)\s*$/.test(b)) return '<figure>' + html + "</figure>";
         return temNumeracao ? '<p class="numerado">' + html + "</p>" : "<p>" + html + "</p>";
       })
       .join("");

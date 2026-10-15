@@ -548,7 +548,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Na China, até 1958, grandes populações de pardais se alimentavam de grãos, em especial arroz e trigo. Naquele ano, o governo chinês instituiu uma lei estimulando cidadãos a dizimar as populações dessas aves, objetivando controlar o que era chamado de “peste” dos pardais. Estima-se que quase 2 bilhões de pardais foram mortos nesse período. A consequência do desaparecimento dos pardais, ainda em 1958, foi uma explosão populacional de gafanhotos, que infestaram as mesmas plantações e alteraram os níveis de produção de grãos. Essa alteração da produção afetou a população humana da China. Em 1960, o governo chinês reverteu a lei para evitar mais mortes de pardais, e o país chegou a importar 250 mil pardais da União Soviética para recolonizar seus campos. A partir de então, as populações de gafanhotos declinaram, impactando novamente os sistemas produtivos, o que, por sua vez, afetou também a população humana chinesa.\n\nO gráfico a seguir complementa os dados do texto para o período de 1955 a 1964. A linha pontilhada representa uma estimativa da produção de grãos (em milhões de toneladas), e a linha contínua representa a taxa de mortalidade da população humana (em óbitos por mil habitantes).\n\n![Gráfico de 1955 a 1964: linha pontilhada azul com a produção de grãos (milhões de toneladas) e linha contínua laranja com a taxa de mortalidade (óbitos por mil habitantes), com os valores anotados em cada ano](fig:p20-f1)\n\nA partir desses dados, responda:",
+   "enunciado": "Na China, até 1958, grandes populações de pardais se alimentavam de grãos, em especial arroz e trigo. Naquele ano, o governo chinês instituiu uma lei estimulando cidadãos a dizimar as populações dessas aves, objetivando controlar o que era chamado de “peste” dos pardais. Estima-se que quase 2 bilhões de pardais foram mortos nesse período. A consequência do desaparecimento dos pardais, ainda em 1958, foi uma explosão populacional de gafanhotos, que infestaram as mesmas plantações e alteraram os níveis de produção de grãos. Essa alteração da produção afetou a população humana da China. Em 1960, o governo chinês reverteu a lei para evitar mais mortes de pardais, e o país chegou a importar 250 mil pardais da União Soviética para recolonizar seus campos. A partir de então, as populações de gafanhotos declinaram, impactando novamente os sistemas produtivos, o que, por sua vez, afetou também a população humana chinesa.\n\nO gráfico a seguir complementa os dados do texto para o período de 1955 a 1964. A linha pontilhada representa uma estimativa da produção de grãos (em milhões de toneladas), e a linha contínua representa a taxa de mortalidade da população humana (em óbitos por mil habitantes).\n\n![Gráfico com o eixo “Ano”, de 1955 a 1964, o eixo da esquerda “Produção de grãos (milhões de toneladas)”, de 140 a 200, e o eixo da direita “Taxa de mortalidade (óbitos/1000 habitantes)”, de 5 a 30. Linha pontilhada azul, produção de grãos: 191 (1955), 194 (1956), 195 (1957), 169 (1958), 143 (1959), 133 (1960), 154 (1961), 164 (1962), 180 (1963) e 185 (1964). Linha contínua laranja, taxa de mortalidade: 12,3 (1955), 11,4 (1956), 10,8 (1957), 12,0 (1958), 14,6 (1959), 25,4 (1960), 14,2 (1961), 10,0 (1962), 10,0 (1963) e 11,5 (1964)](fig:p20-f1)\n\nA partir desses dados, responda:",
    "itens": [
     {
      "rotulo": "a",
@@ -558,16 +558,17 @@
     {
      "rotulo": "b",
      "texto": "No gráfico da folha de respostas, represente as curvas que refletem os dados descritos para o tamanho das populações de pardais e de gafanhotos.\n\n*Campo de resolução:* ![Gráfico em branco com o eixo “Tamanho da população” e o eixo “Ano”, de 1955 a 1964](fig:p21-c1)",
-     "resposta_oficial": "![Gráfico do tamanho da população de 1955 a 1964, com uma curva vermelha e uma curva azul](fig:r15-f3)\n\nGafanhotos em vermelho e pardais em azul.\n\nNota: a posição relativa das curvas não precisa ser considerada; basta que esteja representada uma queda seguida por aumento populacional para pardais entre 1958 e 1961 e um aumento seguido por queda populacional para gafanhotos no mesmo período."
+     "resposta_oficial": "![Gráfico do tamanho da população de 1955 a 1964 com duas curvas. A vermelha fica constante até 1958, sobe bruscamente no início de 1958, permanece alta até 1960, desce até o início de 1961 e volta ao nível de antes. A azul, abaixo dela, fica constante até 1958, cai bruscamente em 1958, permanece baixa até 1960, sobe até o início de 1961 e volta ao nível de antes](fig:r15-f3)\n\nGafanhotos em vermelho e pardais em azul.\n\nNota: a posição relativa das curvas não precisa ser considerada; basta que esteja representada uma queda seguida por aumento populacional para pardais entre 1958 e 1961 e um aumento seguido por queda populacional para gafanhotos no mesmo período."
     },
     {
      "rotulo": "c",
      "texto": "Represente graficamente a teia trófica com os organismos envolvidos no processo descrito.",
-     "resposta_oficial": "![Teia trófica com os quadros Ser humano, Pardal, Gafanhoto e Grãos, ligados por setas](fig:r15-f4)"
+     "resposta_oficial": "![Teia trófica com quatro quadros: Grãos embaixo, Pardal à esquerda, Gafanhoto à direita e Ser humano em cima. Setas contínuas saem de Grãos para Pardal, para Gafanhoto e para Ser humano; uma seta contínua vai de Gafanhoto para Pardal; linhas tracejadas ligam Pardal e Gafanhoto a Ser humano](fig:r15-f4)"
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Interpretação de gráfico e correlação de dados, representação gráfica e contextualização de dados apresentados.",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q20",
@@ -576,7 +577,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Os indivíduos da mariposa *Biston betularia* apresentam variação de coloração que vai desde tons mais claros até mais escuros. Populações dessa mariposa na Grã-Bretanha apresentavam uma maior frequência de fenótipos mais claros antes da Revolução Industrial (RI). Com o avanço da RI, a liberação maciça de fuligem pelas máquinas tornou mais escuras as superfícies onde as mariposas pousavam, como as árvores e estruturas urbanas. Com isso, o número de indivíduos de fenótipos mais claros diminuiu. O esquema a seguir sintetiza esse fenômeno.\n\n![Esquema com duas caixas de mariposas, “Antes” e “Depois”, ligadas por uma seta rotulada “Revolução industrial”: antes, a maioria das mariposas é clara e poucas são escuras; depois, a maioria é escura e poucas são claras](fig:p20-f2)\n\nCom base no texto e no esquema, e considerando que o tamanho da população de mariposas permaneceu inalterado depois da RI, responda:",
+   "enunciado": "Os indivíduos da mariposa *Biston betularia* apresentam variação de coloração que vai desde tons mais claros até mais escuros. Populações dessa mariposa na Grã-Bretanha apresentavam uma maior frequência de fenótipos mais claros antes da Revolução Industrial (RI). Com o avanço da RI, a liberação maciça de fuligem pelas máquinas tornou mais escuras as superfícies onde as mariposas pousavam, como as árvores e estruturas urbanas. Com isso, o número de indivíduos de fenótipos mais claros diminuiu. O esquema a seguir sintetiza esse fenômeno.\n\n![Esquema com duas caixas de mariposas, “Antes” e “Depois”, ligadas por uma seta rotulada “Revolução industrial”: antes, 12 mariposas, das quais 10 claras e 2 escuras; depois, 12 mariposas, das quais 10 escuras e 2 claras](fig:p20-f2)\n\nCom base no texto e no esquema, e considerando que o tamanho da população de mariposas permaneceu inalterado depois da RI, responda:",
    "itens": [
     {
      "rotulo": "a",
@@ -590,12 +591,13 @@
     },
     {
      "rotulo": "c",
-     "texto": "No gráfico da folha de respostas, a abcissa indica o fenótipo (de mais claro a mais escuro), e a ordenada indica a frequência de indivíduos. A linha tracejada é a síntese do padrão de distribuição dos fenótipos pré-RI. No mesmo gráfico, represente a curva de distribuição dos fenótipos pós-RI.\n\n*Campo de resolução:* ![Gráfico com os eixos “Frequência de indivíduos” e “Fenótipo”, de “[+ claro]” a “[+ escuro]”, e uma curva pontilhada em forma de sino](fig:p21-c2)",
-     "resposta_oficial": "![Gráfico de frequência de indivíduos por fenótipo, de “[+ claro]” a “[+escuro]”, com uma curva tracejada azul e uma curva vermelha deslocada para o lado dos fenótipos mais escuros](fig:r16-c1)\n\nTrata-se de um padrão de seleção direcional, em que o pico da curva pós-RI se desloca para uma maior frequência de fenótipos mais escuros com o tempo."
+     "texto": "No gráfico da folha de respostas, a abcissa indica o fenótipo (de mais claro a mais escuro), e a ordenada indica a frequência de indivíduos. A linha tracejada é a síntese do padrão de distribuição dos fenótipos pré-RI. No mesmo gráfico, represente a curva de distribuição dos fenótipos pós-RI.\n\n*Campo de resolução:* ![Gráfico com o eixo vertical “Frequência de indivíduos” e o eixo horizontal “Fenótipo”, que vai de “+ claro” (à esquerda) a “+ escuro” (à direita), com uma curva pontilhada em forma de sino cujo pico fica no meio do eixo](fig:p21-c2)",
+     "resposta_oficial": "![Gráfico de frequência de indivíduos por fenótipo, de “+ claro” a “+escuro”, com a curva tracejada azul em forma de sino e uma curva vermelha contínua de mesma forma e altura, deslocada para o lado dos fenótipos mais escuros](fig:r16-c1)\n\nTrata-se de um padrão de seleção direcional, em que o pico da curva pós-RI se desloca para uma maior frequência de fenótipos mais escuros com o tempo."
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Interpretação e correlação de dados representados em figuras de uma série temporal, representação gráfica e contextualização de dados apresentados.",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q21",
@@ -604,7 +606,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A tabela a seguir mostra o resultado de algumas variáveis de um exame de sangue realizado por uma pessoa adulta. Os dados dos exames são relacionados à série vermelha, à série branca e a alguns patógenos.\n\n![Tabela com os elementos averiguados em um exame de sangue, agrupados em série vermelha (eritrócitos, hemoglobina, hematócrito), série branca (leucócitos, neutrófilos, eosinófilos, basófilos, linfócitos, monócitos) e patógenos, todos para anticorpos IgM (citomegalovírus, vírus da COVID-19, vírus da dengue, toxoplasma, herpes simplex 1/2), com o resultado e o intervalo de referência para o estado “normal” de cada um](fig:p22-c1)\n\nCom base nesses dados, responda:",
+   "enunciado": "A tabela a seguir mostra o resultado de algumas variáveis de um exame de sangue realizado por uma pessoa adulta. Os dados dos exames são relacionados à série vermelha, à série branca e a alguns patógenos.\n\n![Tabela com as colunas “Elementos averiguados”, “Resultado” e “Intervalo de referência para o estado normal”. Série vermelha: eritrócitos, 4,58×10⁶ /µL (referência: 4,50 a 5,50×10⁶ /µL); hemoglobina, 15,3 g/dL (13,0 a 17,0 g/dL); hematócrito, 46,5 % (40,0 a 50,0 %). Série branca: leucócitos, 14.180 /µL (4.000 a 10.000 /µL); neutrófilos, 13.457 /µL (1.800 a 7.800 /µL); eosinófilos, 0 /µL (20 a 500 /µL); basófilos, 0 /µL (20 a 100 /µL); linfócitos, 553 /µL (1.000 a 3.000 /µL); monócitos, 170 /µL (200 a 1.000 /µL). Patógeno (todos para anticorpos IgM): citomegalovírus, 0,2 (não reagente: <0,7; reagente: ≥1,0); vírus da COVID-19, 0,4 UA/mL (não reagente: <0,9 UA/mL; reagente: ≥1,1 UA/mL); vírus da dengue, <0,1 (não reagente: <0,8; reagente: ≥1,1); toxoplasma, 35,7 (não reagente: <0,5; reagente: ≥0,6); herpes simplex 1/2, 0,4 (não reagente: <0,9; reagente: ≥1,1)](fig:p22-c1)\n\nCom base nesses dados, responda:",
    "itens": [
     {
      "rotulo": "a",
@@ -623,7 +625,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Interpretação e contextualização de dados quantitativos em tabela.",
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q22",
@@ -651,7 +654,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Interpretação de gráfico e correlação de dados, representação gráfica e contextualização de dados apresentados.",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q23",
@@ -662,7 +666,7 @@
     "geografia"
    ],
    "texto_base": null,
-   "enunciado": "O ciclo de produção e queda de folhas das plantas ao longo do ano, denominado fenologia foliar, é regulado por hormônios, cuja produção é influenciada principalmente pela temperatura e quantidade de horas de luz durante o dia (= fotoperíodo). Numa floresta cujas condições ambientais estão representadas nas figuras I e II, para o ano de 1980, notou-se que, ao longo das últimas quatro décadas, houve alterações na fenologia foliar das árvores, representada na figura III. Os pesquisadores acreditam que essas alterações fenológicas são devidas às mudanças climáticas globais.\n\n![Figura I: gráfico de precipitação (mm), em colunas, e temperatura (°C), em linha, para os meses de janeiro a dezembro](fig:p24-c1)\n\n![Figura II: gráfico do fotoperíodo (horas de luz por dia) para os meses de janeiro a dezembro](fig:p24-c2)\n\n![Figura III: esquema da fenologia foliar ao longo das estações, de primavera a inverno, em 1980 e em 2020, com os períodos de folhas verdes e de queda de folhas](fig:p24-c3)\n\nCom base nos três gráficos apresentados, responda:",
+   "enunciado": "O ciclo de produção e queda de folhas das plantas ao longo do ano, denominado fenologia foliar, é regulado por hormônios, cuja produção é influenciada principalmente pela temperatura e quantidade de horas de luz durante o dia (= fotoperíodo). Numa floresta cujas condições ambientais estão representadas nas figuras I e II, para o ano de 1980, notou-se que, ao longo das últimas quatro décadas, houve alterações na fenologia foliar das árvores, representada na figura III. Os pesquisadores acreditam que essas alterações fenológicas são devidas às mudanças climáticas globais.\n\n![Figura I: gráfico de janeiro a dezembro com a precipitação (mm) em colunas azuis e a temperatura (°C) em linha vermelha. Temperatura, aproximadamente: 24,5 em janeiro, 25 em fevereiro, 23 em março, 20 em abril, 17 em maio, 14 em junho, 14,5 em julho, 15 em agosto, 17 em setembro, 19 em outubro, 21 em novembro e 23 em dezembro. Precipitação, aproximadamente: 100 em janeiro, 110 em fevereiro, 105 em março, 85 em abril, 95 em maio, 135 em junho, 125 em julho, 140 em agosto, 140 em setembro, 115 em outubro, 105 em novembro e 100 em dezembro](fig:p24-c1)\n\n![Figura II: gráfico do fotoperíodo (horas de luz por dia) de janeiro a dezembro, em curva: cerca de 15,7 horas em janeiro, diminuindo até o mínimo de cerca de 10,2 horas em junho e subindo de novo até cerca de 15,7 horas em dezembro](fig:p24-c2)\n\n![Figura III: duas áreas verdes, uma para 1980 e outra para 2020, sobre uma faixa dividida, da esquerda para a direita, em primavera, verão, outono e inverno; sob cada uma, uma seta verde “folhas verdes” e uma seta laranja “queda de folhas”, que corresponde à parte final, hachurada, da área. Em 1980, a área começa a subir no meio da primavera, sobe devagar até o início do verão e depressa durante o verão, fica no nível máximo do fim do verão até o fim do outono e cai a zero no começo do inverno; a seta “folhas verdes” vai do meio da primavera até logo depois do início do inverno, e a seta “queda de folhas”, curta, ocupa só o começo do inverno. Em 2020, a área começa a subir logo no início da primavera, sobe depressa, atinge o nível máximo no fim da primavera, mantém-se até o fim do outono e depois desce aos poucos até perto do fim do inverno; a seta “folhas verdes” vai do início da primavera até a parte final do outono, e a seta “queda de folhas” vai daí até perto do fim do inverno](fig:p24-c3)\n\nCom base nos três gráficos apresentados, responda:",
    "itens": [
     {
      "rotulo": "a",
@@ -681,7 +685,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Leitura e interpretação de dados em gráficos e correlação entre gráficos, contextualização de dados apresentados, previsão de cenários.",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q24",
@@ -690,7 +695,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Ambientes de restinga apresentam diversas zonas de vegetação no trecho entre a linha da maré mais alta e o interior do continente, criando uma zonação, como esquematizado no perfil de vegetação da figura ao lado. As plantas dessas zonas (A, B, C, D, E) apresentam adaptações ao gradiente de condições ambientais em que se encontram.\n\n![Perfil de vegetação de restinga, do mar ao interior do continente, em uma escala de 0 a 200 metros, com as zonas de vegetação rotuladas A, B, C, D e E](fig:p24-f3)\n\nOs gráficos a seguir mostram o aumento de biomassa durante um experimento realizado com duas espécies de plantas: o feijão-da-praia, que se encontra na zona A, e o maracujá-da-praia, que ocorre na zona C. Indivíduos dessas duas plantas foram regados com água destilada ($\\text{H}_2\\text{O}$) e solução salina nas concentrações de 3% e 10%.\n\n![Gráfico do aumento de biomassa (g) do feijão-da-praia ao longo de 56 dias, com três curvas: H2O, 3% e 10%](fig:p24-f4)\n\n![Gráfico do aumento de biomassa (g) do maracujá-da-praia ao longo de 56 dias, com três curvas: H2O, 3% e 10%](fig:p24-f6)",
+   "enunciado": "Ambientes de restinga apresentam diversas zonas de vegetação no trecho entre a linha da maré mais alta e o interior do continente, criando uma zonação, como esquematizado no perfil de vegetação da figura ao lado. As plantas dessas zonas (A, B, C, D, E) apresentam adaptações ao gradiente de condições ambientais em que se encontram.\n\n![Perfil de vegetação de restinga: à esquerda, o mar; à direita, o interior; escala de 0 a 200 metros. O terreno sobe a partir da praia. Zona A, logo depois do mar, perto de 0 metro: plantas muito baixas e esparsas junto ao chão. Zona B: ervas baixas e densas. Zona C, perto de 100 metros: arbustos e pequenas árvores. Zona D: árvores altas. Zona E, perto de 200 metros: árvores ainda mais altas, de copas largas](fig:p24-f3)\n\nOs gráficos a seguir mostram o aumento de biomassa durante um experimento realizado com duas espécies de plantas: o feijão-da-praia, que se encontra na zona A, e o maracujá-da-praia, que ocorre na zona C. Indivíduos dessas duas plantas foram regados com água destilada ($\\text{H}_2\\text{O}$) e solução salina nas concentrações de 3% e 10%.\n\n![Gráfico “Feijão-da-praia”: aumento de biomassa (g), de 0 a 40, em função do tempo, nos dias 0, 7, 14, 28 e 56. Curva H₂O (pontilhada laranja): sobe de 0 até cerca de 12 g no dia 14 e cerca de 36 g no dia 56. Curva 3% (traço e ponto, cinza): sobe de 0 para cerca de 8 g no dia 7, 14 g no dia 14, 21 g no dia 28 e 32 g no dia 56. Curva 10% (contínua azul): fica perto de 1 g até o dia 14 e volta a 0 nos dias 28 e 56](fig:p24-f4)\n\n![Gráfico “Maracujá-da-praia”: aumento de biomassa (g), de 0 a 40, em função do tempo, nos dias 0, 7, 14, 28 e 56. Curva H₂O (pontilhada laranja): sobe de 0 até cerca de 11 g no dia 14 e cerca de 36 g no dia 56. Curva 3% (traço e ponto, cinza): sobe até cerca de 6 g no dia 14, fica em cerca de 6,5 g no dia 28 e cai para cerca de 5 g no dia 56. Curva 10% (contínua azul): fica em 0 durante todo o período](fig:p24-f6)",
    "itens": [
     {
      "rotulo": "a",
@@ -709,14 +714,17 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Interpretação e correlação de dados em esquema e gráficos, representação gráfica e contextualização de dados apresentados.",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q25",
    "numero": 25,
    "codigo": "G01",
    "materia": "geografia",
-   "materias_extra": [],
+   "materias_extra": [
+    "historia"
+   ],
    "texto_base": null,
    "enunciado": "“O Censo Demográfico do ano de 2022, do IBGE, revela que há 1.327.802 (0,65% da população total do país) de indivíduos que pertencem a uma comunidade tradicional em todo o país. A maior parte dessa população, 68,2% (905 mil pessoas), vive nos estados do Nordeste brasileiro. Ao todo, os territórios desse grupo estão em 1.696 municípios. O estado da Bahia é a Unidade da Federação com maior quantidade de pessoas, com 29,90% da população, em seguida, vem o Maranhão, com 20,26% dessa população. É a primeira vez ao longo dos levantamentos censitários que este dado é incluído.”\n\nDisponível em https://agenciadenoticias.ibge.gov.br/. Adaptado.",
    "itens": [
@@ -737,7 +745,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento dos estudantes sobre as comunidades tradicionais brasileiras, seu processo histórico de formação e os impactos das atividades econômicas sobre a dinâmica dessas comunidades.",
-   "revisao": "transcrita"
+   "assunto": "Geografia do Brasil",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q26",
@@ -765,7 +774,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos dos estudantes sobre o mundo multipolar, como o destaque para a participação dos BRICS e sua expansão no contexto geopolítico contemporâneo.",
-   "revisao": "transcrita"
+   "assunto": "Globalização e economia mundial",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q27",
@@ -793,7 +803,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos dos estudantes sobre as relações entre espaço, sociedade, natureza, com foco nas transformações antrópicas no meio físico em diferentes períodos e sociedades.",
-   "revisao": "transcrita"
+   "assunto": "Questões ambientais",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q28",

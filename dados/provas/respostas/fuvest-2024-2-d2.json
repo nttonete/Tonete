@@ -146,8 +146,8 @@
  "19": {
   "itens": {
    "a": "A relação entre a taxa de mortalidade da população humana chinesa e a produção de grãos é inversamente proporcional, isto é, à medida que a produção de grãos cai, a taxa de mortalidade aumenta, e vice-versa.",
-   "b": "![Gráfico do tamanho da população de 1955 a 1964, com uma curva vermelha e uma curva azul](fig:r15-f3)\n\nGafanhotos em vermelho e pardais em azul.\n\nNota: a posição relativa das curvas não precisa ser considerada; basta que esteja representada uma queda seguida por aumento populacional para pardais entre 1958 e 1961 e um aumento seguido por queda populacional para gafanhotos no mesmo período.",
-   "c": "![Teia trófica com os quadros Ser humano, Pardal, Gafanhoto e Grãos, ligados por setas](fig:r15-f4)"
+   "b": "![Gráfico do tamanho da população de 1955 a 1964 com duas curvas. A vermelha fica constante até 1958, sobe bruscamente no início de 1958, permanece alta até 1960, desce até o início de 1961 e volta ao nível de antes. A azul, abaixo dela, fica constante até 1958, cai bruscamente em 1958, permanece baixa até 1960, sobe até o início de 1961 e volta ao nível de antes](fig:r15-f3)\n\nGafanhotos em vermelho e pardais em azul.\n\nNota: a posição relativa das curvas não precisa ser considerada; basta que esteja representada uma queda seguida por aumento populacional para pardais entre 1958 e 1961 e um aumento seguido por queda populacional para gafanhotos no mesmo período.",
+   "c": "![Teia trófica com quatro quadros: Grãos embaixo, Pardal à esquerda, Gafanhoto à direita e Ser humano em cima. Setas contínuas saem de Grãos para Pardal, para Gafanhoto e para Ser humano; uma seta contínua vai de Gafanhoto para Pardal; linhas tracejadas ligam Pardal e Gafanhoto a Ser humano](fig:r15-f4)"
   },
   "resposta": "**Objetivo da questão:** Interpretação de gráfico e correlação de dados, representação gráfica e contextualização de dados apresentados."
  },
@@ -155,7 +155,7 @@
   "itens": {
    "a": "Seleção natural",
    "b": "Biótico: predação; justificativa: a mudança da cor do substrato causou a ineficiência da camuflagem e deixou as mariposas brancas suscetíveis a serem predadas.",
-   "c": "![Gráfico de frequência de indivíduos por fenótipo, de “[+ claro]” a “[+escuro]”, com uma curva tracejada azul e uma curva vermelha deslocada para o lado dos fenótipos mais escuros](fig:r16-c1)\n\nTrata-se de um padrão de seleção direcional, em que o pico da curva pós-RI se desloca para uma maior frequência de fenótipos mais escuros com o tempo."
+   "c": "![Gráfico de frequência de indivíduos por fenótipo, de “+ claro” a “+escuro”, com a curva tracejada azul em forma de sino e uma curva vermelha contínua de mesma forma e altura, deslocada para o lado dos fenótipos mais escuros](fig:r16-c1)\n\nTrata-se de um padrão de seleção direcional, em que o pico da curva pós-RI se desloca para uma maior frequência de fenótipos mais escuros com o tempo."
   },
   "resposta": "**Objetivo da questão:** Interpretação e correlação de dados representados em figuras de uma série temporal, representação gráfica e contextualização de dados apresentados."
  },
