@@ -82,14 +82,14 @@ async function supabase(route) {
     // o aviso do Mercado Pago "chega" na segunda consulta depois da compra
     const minhas = srv.assinaturas.filter((a) => a.user_id === uid);
     if (minhas.some((a) => a.status === "pendente") && ++srv.consultasAssinatura >= 2) {
-      minhas.forEach((a) => { a.status = "ativa"; a.mp_pagamento_id = "555"; a.inicio = "2026-10-15T12:00:00Z"; a.fim = "2027-10-15T12:00:00Z"; });
+      minhas.forEach((a) => { a.status = "ativa"; a.mp_pagamento_id = "555"; a.inicio = "2026-10-15T12:00:00Z"; a.fim = "2027-01-15T12:00:00Z"; });
     }
     return json(minhas);
   }
   if (p === "/rest/v1/rpc/tem_acesso") return json(srv.assinaturas.some((a) => a.user_id === uid && a.status === "ativa"));
   if (p === "/functions/v1/mp-checkout") {
-    if (metodo === "GET") return json({ planos: [{ id: "anual", nome: "Banca Aberta: 12 meses de acesso", centavos: 19900, dias: 365 }] });
-    srv.assinaturas.push({ user_id: uid, plano: corpo.plano, status: "pendente", valor_centavos: 19900, dias: 365, criado_em: "2026-10-15T12:00:00Z", mp_pagamento_id: null });
+    if (metodo === "GET") return json({ planos: [{ id: "lancamento", nome: "Preço de lançamento: 3 meses de acesso", centavos: 4900, dias: 92 }] });
+    srv.assinaturas.push({ user_id: uid, plano: corpo.plano, status: "pendente", valor_centavos: 4900, dias: 92, criado_em: "2026-10-15T12:00:00Z", mp_pagamento_id: null });
     // no lugar do Mercado Pago, volta direto como se o pagamento tivesse sido aprovado
     return json({ endereco: SITE + "?pagamento=aprovado&collection_id=555&status=approved" });
   }
@@ -236,7 +236,7 @@ async function ateSincronizar(page) {
     console.log("\n== assinatura (Mercado Pago simulado)");
     await pg2.click("#nav-conta");
     await pg2.waitForSelector(".planos li");
-    ok(await pg2.isVisible("text=R$ 199,00"), "mostra o preço total do plano");
+    ok(await pg2.isVisible("text=R$ 49,00"), "mostra o preço total do plano");
     ok(await pg2.isVisible("text=sem renovação automática"), "avisa que não há renovação automática");
     ok(await pg2.isVisible("text=desistir da compra em até 7 dias"), "informa o direito de arrependimento");
     await pg2.click(".planos button");

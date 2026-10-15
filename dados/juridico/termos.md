@@ -32,7 +32,7 @@ Pedimos a data de nascimento no cadastro. Até 12 anos incompletos, o uso exige 
 
 ## 7. Compra, renovação e arrependimento
 
-A página de compra mostra o preço total e a duração do acesso. O pagamento é único, feito no site do Mercado Pago, e não há renovação automática: quando o acesso termina, uma nova compra é opcional. Compras feitas durante um acesso ativo começam a contar quando ele termina. Você pode desistir em até 7 dias depois da compra e receber o valor de volta (direito de arrependimento, art. 49 do Código de Defesa do Consumidor), pelo contato indicado na Política de Privacidade. [PREÇO E DURAÇÃO DOS PLANOS A DEFINIR]
+A página de compra mostra o preço total e a duração do acesso. O pagamento é único, feito no site do Mercado Pago, e não há renovação automática: quando o acesso termina, uma nova compra é opcional. Compras feitas durante um acesso ativo começam a contar quando ele termina. Você pode desistir em até 7 dias depois da compra e receber o valor de volta (direito de arrependimento, art. 49 do Código de Defesa do Consumidor), pelo contato indicado na Política de Privacidade. Plano atual: preço de lançamento de R$ 49,00 por 3 meses de acesso (92 dias).
 
 ## 8. Mudanças e foro
 

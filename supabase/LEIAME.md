@@ -67,11 +67,11 @@ Os dois testes de navegador precisam de `PLAYWRIGHT_PATH=$(npm root -g)/playwrig
 3. **Segredos das funções** (nunca no código nem no site):
    ```
    npx supabase secrets set MP_ACCESS_TOKEN=... MP_WEBHOOK_SECRET=... SITE_URL=https://endereco-do-site/ \
-     PLANOS='{"anual":{"nome":"Banca Aberta: 12 meses de acesso","centavos":19900,"dias":365}}'
+     PLANOS='{"lancamento":{"nome":"Preço de lançamento: 3 meses de acesso","centavos":4900,"dias":92}}'
    ```
    - `MP_ACCESS_TOKEN`: Mercado Pago → Suas integrações → Credenciais (use as de teste primeiro).
    - `MP_WEBHOOK_SECRET`: Suas integrações → Webhooks. Cadastre a URL `https://egfglvvjdnrxjsikespe.supabase.co/functions/v1/mp-webhook`, evento "Pagamentos", e copie a "assinatura secreta".
-   - `PLANOS`: preço em centavos e duração em dias. **O valor acima é só exemplo**; sem esse segredo, a tela mostra "A venda ainda não está aberta".
+   - `PLANOS`: preço em centavos e duração em dias. Plano definido: **preço de lançamento, R$ 49,00 por 3 meses**. São 92 dias, para cobrir 3 meses de calendário em qualquer época do ano (o sistema conta o acesso em dias). Sem esse segredo, a tela mostra "A venda ainda não está aberta". Para mudar o preço depois, basta trocar o segredo, sem mexer no código; quem já comprou mantém o que pagou.
 4. **Funções:**
    ```
    npx supabase functions deploy mp-checkout
@@ -84,7 +84,7 @@ Os dois testes de navegador precisam de `PLAYWRIGHT_PATH=$(npm root -g)/playwrig
 
 ## Pendências (decisão humana)
 
-- **Preço e duração** dos planos (segredo `PLANOS`).
+- **Fim do preço de lançamento:** decidir até quando vale e qual será o preço depois. Se a página de compra disser que é preço de lançamento, convém informar a data em que ele acaba (Código de Defesa do Consumidor).
 - **Bloqueio do conteúdo:** hoje tudo continua aberto para quem não assina. Falta decidir o que fica grátis; `tem_acesso()` e `Nuvem.temAcesso()` já respondem.
 - **Registros de compra na exclusão da conta:** a exclusão apaga também as assinaturas (cascata), mas a Política diz que dados de compra ficam pelo prazo legal. Decidir com o advogado se os pagamentos devem ser guardados à parte (sem o vínculo com o aluno) antes de apagar.
 - **Menores de 12 anos:** o cadastro recusa. Aceitar exige um fluxo de consentimento do responsável (por exemplo, o responsável confirma por e-mail).
