@@ -233,9 +233,7 @@
     {
       "numero": 46,
       "materia": "fisica",
-      "materias_extra": [
-        "biologia"
-      ],
+      "materias_extra": [],
       "texto_base": null,
       "enunciado": "As cirurgias corretivas a *laser* para a visão estão cada vez mais eficientes. A técnica corretiva mais moderna é baseada na extração de um pequeno filamento da córnea, modificando a sua curvatura. No caso de uma cirurgia para correção de miopia, o procedimento é feito para deixar a córnea mais plana. Assinale a alternativa que explica corretamente o processo de correção da miopia.",
       "alternativas": {
@@ -245,6 +243,136 @@
         "D": "Na miopia, a imagem do ponto remoto se forma antes da retina e a cirurgia visa a diminuir a distância focal da lente efetiva do olho."
       },
       "observacoes": ""
+    },
+    {
+      "numero": 47,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Nos quadrinhos a seguir, o personagem Garfield questiona a relevância ecológica do animal representado à direita.\n\n![Tirinha do Garfield em três quadrinhos. Quadro 1: Garfield, sentado, observa uma minhoca e pensa: \"Você vive debaixo da terra e come porcarias?\"; a minhoca responde: \"É isso aí.\" Quadro 2: Garfield pensa: \"E que faz pra conseguir comida?\"; a minhoca responde: \"Cavo.\" Quadro 3: Garfield pensa: \"Isso não é muito glamoroso.\"; a minhoca responde: \"Mas é assim que ganho a sujeira de cada dia...\"](fig:p18-f2)\n\n(Disponível em http://www.aprendendocomopenomato.wordpress.com/.)\n\nAssinale a alternativa que descreve corretamente aspectos zoológicos e ecológicos referentes a esse animal.",
+      "alternativas": {
+        "A": "As minhocas são invertebrados do filo dos anelídeos, possuem corpo celomado e segmentado, convertem detritos ingeridos em matéria orgânica e melhoram o arejamento do solo.",
+        "B": "As cobras-cegas são vertebrados do filo dos anelídeos, possuem corpo pseudocelomado e reprodução sexuada, são predadoras de pragas agrícolas e melhoram o arejamento do solo.",
+        "C": "As cobras-cegas são invertebrados do filo dos cordados, possuem corpo celomado e não segmentado e são capazes de controlar ervas daninhas, pois consomem suas raízes.",
+        "D": "As minhocas são invertebrados do filo dos anelídeos, possuem pseudoceloma e reprodução assexuada, são predadoras de pragas agrícolas e melhoram o arejamento do solo."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 48,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A prestigiada revista *Science* elegeu como um dos principais avanços científicos de 2017 um caso de terapia gênica em crianças portadoras de *atrofia muscular espinhal do tipo 1*, uma doença genética caracterizada pela atrofia progressiva dos músculos esqueléticos e morte precoce antes dos 2 anos de idade. A doença é causada por um gene defeituoso, que deixa de codificar uma proteína essencial para o funcionamento dos neurônios. No estudo, vírus não patogênicos que continham uma cópia normal do gene em questão foram injetados em quinze crianças doentes. As crianças tratadas sobreviveram além dos 2 anos e apresentaram melhoras na capacidade de movimento.\n\n(Disponível em https://vis.sciencemag.org/.)\n\nAssinale a alternativa que preenche corretamente as lacunas na frase a seguir.\n\nOs vírus injetados nas crianças foram capazes de (i) ________, restaurando a produção (ii) _________, que passaram, então, a controlar adequadamente (iii) _________.",
+      "alternativas": {
+        "A": "(i) atingir a medula óssea e introduzir nas células-tronco a cópia normal do gene; (ii) de neurônios no cérebro; (iii) a medula espinhal e, portanto, os músculos.",
+        "B": "(i) atingir a medula espinhal e remover dos neurônios a cópia defeituosa do gene; (ii) de hormônios; (iii) a geração de impulsos elétricos e os músculos.",
+        "C": "(i) atingir a medula espinhal e introduzir nos neurônios a cópia normal do gene; (ii) da proteína essencial à função dos neurônios da medula; (iii) os músculos.",
+        "D": "(i) atingir a medula óssea e induzir a produção de linfócitos do sangue; (ii) de anticorpos contra o vírus; (iii) a infecção, restaurando os movimentos das crianças."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 49,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A \"maravilha\" (*Mirabilis jalapa*) é uma planta ornamental que pode apresentar três tipos de fenótipo: plantas com ramos verde-escuro, plantas com ramos brancos e plantas mescladas. Plantas mescladas possuem ramos verde-escuro, ramos brancos e ramos variegados. Como mostra a figura a seguir, todas as células de ramos verde-escuro possuem cloroplastos normais (com clorofila). Todas as células de ramos brancos possuem cloroplastos mutantes (sem clorofila). Ramos variegados contêm células com cloroplastos normais, células com cloroplastos mutantes e células com ambos os tipos de cloroplasto.\n\n![Esquema com duas colunas, \"tipo de ramo\" e \"tipo(s) de célula(s)\": ramo verde-escuro corresponde a célula com cloroplastos normais verdes; ramo branco corresponde a célula com cloroplastos mutantes brancos; ramo variegado corresponde a células com cloroplastos normais, células com cloroplastos mutantes e células com cloroplastos dos dois tipos](fig:p18-f3)\n\n(Disponível em http://www.chegg.com/homework-help/.)\n\nNa formação de sementes, os cloroplastos são herdados apenas dos óvulos. A progênie resultante da fertilização de óvulos de flores presentes em um ramo variegado com pólen proveniente de flores de um ramo verde-escuro conterá",
+      "alternativas": {
+        "A": "apenas plantas com ramos de folhas brancas.",
+        "B": "plantas dos três tipos fenotípicos.",
+        "C": "apenas plantas mescladas.",
+        "D": "apenas plantas com ramos de folhas verde-escuro."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 50,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No ano de 2015, foi descrito o fóssil de um réptil que viveu há 150 milhões de anos onde hoje é a região Nordeste do Brasil. Conforme ilustra a figura a seguir, esse animal apresenta corpo alongado, com muitas vértebras e costelas, e membros anteriores e posteriores reduzidos (a seta indica a região ampliada no canto inferior esquerdo). Por sua anatomia peculiar, um grande debate teve início sobre a posição que esse animal deveria ocupar na árvore da vida.\n\n![Fotografia de um fóssil de réptil de corpo muito alongado, com muitas vértebras e costelas; uma seta indica a região dos membros, ampliada em um quadro no canto inferior esquerdo](fig:p19-f1)\n\n(David M. Martill e outros, A four-legged snake from the Early Cretaceous of Gondwana. *Science*, Nova Iorque, v. 349, fasc. 6246, p. 416-419, jul. 2015.)\n\nSabe-se que os lagartos (que geralmente têm membros) e as serpentes (seres ápodes) que vivem atualmente têm um ancestral comum. Sendo assim, o organismo ilustrado na figura",
+      "alternativas": {
+        "A": "não pode pertencer à linhagem evolutiva das serpentes, pois a perda dos membros anteriores e posteriores levaria a um prejuízo à vida do animal, e a evolução resulta apenas em melhoria dos organismos.",
+        "B": "não pode pertencer à linhagem evolutiva das serpentes, pois a evolução é gradual e incapaz de gerar mudanças drásticas na morfologia de um ser vivo, como a perda de membros anteriores e posteriores.",
+        "C": "pode pertencer à linhagem evolutiva das serpentes, sendo que seu ancestral comum com os lagartos possuía membros, depois perdidos por processos evolutivos, originando as serpentes ápodas atuais.",
+        "D": "pode ser um fóssil de transição, pois os ancestrais das serpentes que não utilizavam seus membros com tanta frequência sofreram atrofia desses membros, deixando de transferir tal característica para seus descendentes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 51,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O acidente radioativo na usina de Chernobyl, na Ucrânia, em 1986, exigiu a evacuação de mais de 100 mil pessoas em um raio de 30 km. Até hoje, a região é isolada e o acesso público, restrito. Pouco tempo após o acidente, muitos estudos indicaram que vários organismos, entre os quais aranhas e insetos, haviam sofrido efeitos negativos da radiação. Porém, estudos recentes, utilizando armadilhas fotográficas e imagens aéreas, mostraram que a cidade-fantasma foi ocupada por diversas espécies de plantas e animais, cuja abundância tem aumentado na região.\n\n(Roland Oliphant, 30 years after Chernobyl disaster, wildlife is flourishing in radioactive wasteland, The Telegraph, 24/04/2016.)\n\nAssinale a alternativa que fornece uma explicação correta para o fenômeno descrito no texto anterior.",
+      "alternativas": {
+        "A": "A radiação diminui a taxa fotossintética de plantas, porém a ação de descontaminação do ambiente pelo homem permite o retorno de populações de plantas e, portanto, dos organismos que delas se alimentam.",
+        "B": "A radiação aumenta a taxa de mutação e acelera o metabolismo de plantas, favorecendo sua taxa reprodutiva, o que leva a aumento de suas populações e, consequentemente, das populações de herbívoros.",
+        "C": "A radiação reduz os tumores de animais e plantas, aumentando a taxa de sobrevivência desses seres vivos e, consequentemente, o tamanho de suas populações e das de seus consumidores.",
+        "D": "A radiação tem impactos negativos sobre animais e plantas, porém a ausência de atividade humana no ambiente contaminado por radiação favorece o crescimento das populações desses organismos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 52,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Recentemente, inúmeros casos de *doping* esportivo foram noticiados, como, por exemplo, aqueles envolvendo a delegação russa nos Jogos Olímpicos do Rio de Janeiro em 2016. Um dos métodos mais utilizados no exame *antidoping* é a coleta e análise da urina de atletas, para verificação da presença de medicamentos proibidos. O composto furosemida foi banido pela Agência Mundial *Antidoping*. Sua principal ação é reduzir a reabsorção de sódio e cloro a partir da alça do néfron (alça de Henle) em direção aos vasos sanguíneos adjacentes.\n\nConsiderando essas informações e os conhecimentos sobre a fisiologia renal e a excreção em seres humanos, é correto afirmar que a furosemida",
+      "alternativas": {
+        "A": "diminui a produção de urina, impedindo que medicamentos proibidos sejam eliminados nas amostras a serem analisadas nos testes *antidoping*.",
+        "B": "diminui a produção de amônia, mas aumenta a eliminação de medicamentos pelo rim, resultando em diluição das amostras analisadas nos testes *antidoping*.",
+        "C": "aumenta a produção de urina, resultando na diminuição da concentração de medicamentos nas amostras, o que dificulta sua detecção nos testes *antidoping*.",
+        "D": "aumenta a produção de ureia, o que resulta na diluição das amostras a serem analisadas nos testes *antidoping* e na diminuição da concentração dos medicamentos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 53,
+      "materia": "biologia",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "A produção de celulose a partir da madeira vem crescendo no Brasil, tendo atingido um volume recorde em 2017, com exportações de 19,5 milhões de toneladas. As paredes das células da madeira contêm celulose e lignina, sendo que a primeira é o principal composto de interesse industrial, enquanto a segunda é um composto indesejável, que precisa ser removido. Geralmente, a remoção da lignina envolve digestão química com $\\text{H}_2\\text{S}$, um reagente altamente poluente.\n\nAs imagens apresentadas a seguir são fotos de microscopia eletrônica, em mesma escala, do tecido vegetal de dois tipos de madeira, que diferem com relação à parede celular.\n\n![Duas micrografias eletrônicas do tecido vegetal, identificadas como \"tipo I\" e \"tipo II\"](fig:p20-f1)\n\nCada tipo (**I** ou **II**) tem ainda dois subtipos, **a** ou **b**. O gráfico a seguir mostra dados sobre esses subtipos de madeira coletados de plantas cultivadas na mesma área geográfica (solo e clima similares).\n\n![Gráfico de barras do conteúdo de lignina (%) nos subtipos Ia, Ib, IIa e IIb](fig:p20-c2)\n\n(Adaptado de Gabriela Mello,Produção de celulose no Brasil cresce 3,8% em 2017 e atinge volume recorde, diz Ibá. UOL, 31/09/2018.)\n\nConsiderando que as quatro amostras no gráfico provêm de plantas com o mesmo tempo de desenvolvimento, qual delas seria mais desejável em termos industriais e ambientais (tendo em vista a poluição e a extensão de área plantada)?",
+      "alternativas": {
+        "A": "Subtipo Ia.",
+        "B": "Subtipo Ib.",
+        "C": "Subtipo IIa.",
+        "D": "Subtipo IIb."
+      },
+      "observacoes": "Na fonte, o caderno traz 'Mello,Produção' sem espaço após a vírgula; mantido. O gráfico não tem escala numérica própria além do eixo de lignina; os valores só podem ser lidos na figura."
+    },
+    {
+      "numero": 54,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A malária representa um dos principais problemas de saúde pública no mundo. Embora a dimensão geográfica da transmissão esteja encolhendo no Brasil, o país ainda registra 42% dos casos da doença nas Américas. A Fundação Oswaldo Cruz, do Rio de Janeiro, recentemente desenvolveu um preparado com alta eficácia antimalárica, agora em fase de ensaios clínicos.\n\n(Fontes: “Desafios para eliminação da malária”, *Agência Fapesp*, 2017; MAÍRA Menezes, “Malária: ensaio clínico aponta alta eficácia e ausência de resistência a medicamento”, *Portal Fiocruz*, 2016.)\n\nLevando em conta seus conhecimentos sobre o ciclo de vida do *Plasmodium*, assinale a alternativa que indica um possível mecanismo de ação do preparado antimalárico.",
+      "alternativas": {
+        "A": "Alterar a morfologia das hemácias dos mosquitos, diminuindo a taxa de infecção pelo parasita.",
+        "B": "Impedir a entrada de parasitas nos linfócitos, reduzindo a carga de gametócitos circulantes.",
+        "C": "Promover a multiplicação de esporozoítos no fígado, reduzindo o número de gametócitos.",
+        "D": "Inibir a multiplicação de merozoítos nos eritrócitos, diminuindo a carga de parasitas circulantes."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 55,
+      "materia": "biologia",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "![Estruturas químicas de quatro compostos: ácido úrico, tirosina, vidarabina e nucleotídeo dAMP (com base adenina)](fig:p20-c5)\n\n(Disponível em: http://www.wikipedia.com. Acessado em 10/06/2018.)\n\nConsiderando as semelhanças e diferenças entre as estruturas químicas dos compostos anteriores e seus conhecimentos sobre os processos bioquímicos da célula, escolha a alternativa que preenche corretamente as lacunas no texto a seguir:\n\n\"O composto (i) __________ pode ser utilizado para inibir (ii) ___________, uma vez que tem estrutura química muito semelhante à do (iii) _________________, sendo, portanto, erroneamente reconhecido (iv) _________________.\"",
+      "alternativas": {
+        "A": "(i) tirosina; (ii) a síntese de proteínas; (iii) nucleotídeo dAMP; (iv) pelo ribossomo como possível precursor na transcrição.",
+        "B": "(i) vidarabina; (ii) a replicação do DNA; (iii) nucleotídeo dAMP; (iv) pela polimerase como possível precursor na síntese do DNA.",
+        "C": "(i) vidarabina; (ii) a síntese de proteínas; (iii) ácido úrico; (iv) pelo ribossomo como possível precursor na tradução.",
+        "D": "(i) tirosina; (ii) a replicação do DNA; (iii) nucleotídeo dAMP; (iv) pela transcritase como possível precursor do DNA."
+      },
+      "observacoes": "Na figura das estruturas químicas, o átomo de oxigênio no alto da molécula do ácido úrico fica encostado na faixa cinza do título 'QUESTÃO 55' no caderno e o recorte o mostra um pouco cortado."
     }
   ]
 }
