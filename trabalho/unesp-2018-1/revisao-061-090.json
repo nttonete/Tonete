@@ -1,0 +1,193 @@
+{
+ "edicao": "unesp-2018-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 81,
+   "materia": "fisica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "Define-se a intensidade de uma onda ($I$) como potência transmitida por unidade de área disposta perpendicularmente à direção de propagação da onda. Porém, essa definição não é adequada para medir nossa percepção de sons, pois nosso sistema auditivo não responde de forma linear à intensidade das ondas incidentes, mas de forma logarítmica. Define-se, então, nível sonoro ($\\beta$) como $\\beta = 10\\,\\log\\frac{I}{I_0}$, sendo $\\beta$ dado em decibels (dB) e $I_0 = 10^{-12}\\ \\text{W/m}^2$.\n\nSupondo que uma pessoa, posicionada de forma que a área de $6{,}0 \\times 10^{-5}\\ \\text{m}^2$ de um de seus tímpanos esteja perpendicular à direção de propagação da onda, ouça um som contínuo de nível sonoro igual a 60 dB durante 5,0 s, a quantidade de energia que atingiu seu tímpano nesse intervalo de tempo foi",
+   "alternativas": {
+    "A": "$1{,}8 \\times 10^{-8}\\ \\text{J}$.",
+    "B": "$3{,}0 \\times 10^{-12}\\ \\text{J}$.",
+    "C": "$3{,}0 \\times 10^{-10}\\ \\text{J}$.",
+    "D": "$1{,}8 \\times 10^{-14}\\ \\text{J}$.",
+    "E": "$6{,}0 \\times 10^{-9}\\ \\text{J}$."
+   }
+  },
+  {
+   "numero": 82,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Para obter experimentalmente a curva da diferença de potencial $U$ em função da intensidade da corrente elétrica $i$ para uma lâmpada, um aluno montou o circuito a seguir. Colocando entre os pontos A e B resistores com diversos valores de resistência, ele obteve diferentes valores de $U$ e de $i$ para a lâmpada.\n\n![Circuito com bateria de 9 V, lâmpada, dois multímetros e, entre os pontos A e B, um resistor](fig:p30-c1)\n\nConsiderando que a bateria de 9,0 V, os aparelhos de medida e os fios de ligação sejam ideais, quando o aluno obteve as medidas $U = 5{,}70\\ \\text{V}$ e $i = 0{,}15\\ \\text{A}$, a resistência do resistor colocado entre os pontos A e B era de",
+   "alternativas": {
+    "A": "100 Ω.",
+    "B": "33 Ω.",
+    "C": "56 Ω.",
+    "D": "68 Ω.",
+    "E": "22 Ω."
+   }
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "corrigida",
+   "notas": "enunciado: a linha \"$I_0 = 10^{-12}$ W/m²\" estava em parágrafo separado, mas no caderno é continuação da mesma frase (\"... dado em decibels (dB) e $I_0 = ...$\"); juntei no mesmo parágrafo."
+  },
+  {
+   "numero": 82,
+   "status": "corrigida",
+   "notas": "figura p30-f1 trazia a linha azul divisória das colunas na borda esquerda; novo recorte p30-c1 sem ela e com o circuito completo."
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
