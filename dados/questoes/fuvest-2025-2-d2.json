@@ -808,7 +808,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Matemática financeira",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q29",
@@ -836,7 +837,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Progressões",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q30",
@@ -864,7 +866,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 2 pontos.\n- item b: 2 pontos.\n- item c: 1 ponto.",
-   "revisao": "transcrita"
+   "assunto": "Trigonometria",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q31",
@@ -878,7 +881,7 @@
     {
      "rotulo": "a",
      "texto": "Preencha, no quadro da folha de respostas, qual deveria ser a massa de cada um desses metais, Cu e Sn, em uma medalha olímpica de 437 g para que ela fosse de fato de bronze?\n\n*Campo de resolução:*\n\n| Metal | Massa (g) |\n|---|---|\n| Cu | |\n| Sn | |",
-     "resposta_oficial": "| Metal | Massa (g) |\n|---|---|\n| Cu | 292,8 |\n| Sn | 144,2 |\n\nMassa de Cu ($M_{\\text{Cu}}$):\n\n$M_{\\text{Cu}} \\times 100\\% = 437\\ \\text{g} \\times 67\\%$\n\n$M_{\\text{Cu}} = 292{,}8\\ \\text{g}$\n\nMassa de Sn ($M_{\\text{Sn}}$):\n\n$M_{\\text{Sn}} \\times 100\\% = 437\\ \\text{g} \\times 33\\%$\n\n$M_{\\text{Sn}} = 144{,}2\\ \\text{g}$"
+     "resposta_oficial": "| Metal | Massa(g) |\n|---|---|\n| Cu | 292,8 |\n| Sn | 144,2 |\n\nMassa de Cu ($M_{\\text{Cu}}$):\n\n$M_{\\text{Cu}} \\times 100\\% = 437\\ \\text{g} \\times 67\\%$\n\n$M_{\\text{Cu}} = 292{,}8\\ \\text{g}$\n\nMassa de Sn ($M_{\\text{Sn}}$):\n\n$M_{\\text{Sn}} \\times 100\\% = 437\\ \\text{g} \\times 33\\%$\n\n$M_{\\text{Sn}} = 144{,}2\\ \\text{g}$"
     },
     {
      "rotulo": "b",
@@ -892,7 +895,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-2-d2-q32",
@@ -920,7 +924,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também $\\text{PO}_4^{3-}$, fosfato de sódio ou íon fosfato.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2025-2-d2-q33",
@@ -943,12 +948,13 @@
     },
     {
      "rotulo": "c",
-     "texto": "Desenhe, na folha de respostas, os isômeros constitucionais de função, cetona e aldeído, da molécula a seguir.\n\n![Fórmula estrutural de uma cadeia com ligação dupla entre carbonos, com um grupo OH e um grupo R ligados a um dos carbonos da dupla](fig:p40-f1)\n\nR = cadeia carbônica para o isômero da cetona\nR = hidrogênio para o isômero do aldeído\n\n*Campo de resolução:*\n\n| Cetona | Aldeído |\n|---|---|\n| | |",
+     "texto": "Desenhe, na folha de respostas, os isômeros constitucionais de função, cetona e aldeído, da molécula a seguir.\n\n![Fórmula estrutural em linhas: dois carbonos unidos por ligação dupla; um deles tem duas ramificações de um carbono cada e o outro está ligado a um grupo OH e a um grupo R](fig:p40-f1)\n\nR = cadeia carbônica para o isômero da cetona\nR = hidrogênio para o isômero do aldeído\n\n*Campo de resolução:*\n\n| Cetona | Aldeído |\n|---|---|\n| | |",
      "resposta_oficial": "![Quadro com duas colunas: Cetona, com a cadeia carbônica terminando em C=O ligado a R, e Aldeído, com a cadeia terminando em C=O ligado a H](fig:r75-c3)"
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também resposta onde, na cetona, o grupo R foi substituído por um grupo metila, etila, ou qualquer outra cadeia carbônica, desde que correta.",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-2-d2-q34",
@@ -967,7 +973,7 @@
     {
      "rotulo": "b",
      "texto": "Considere um mergulho de 10 minutos a uma profundidade constante utilizando um cilindro contendo apenas $\\text{N}_2$ e $\\text{O}_2$. Sabendo que o mergulho foi realizado no limite imposto pela toxicidade do $\\text{O}_2$ ($P_{\\text{O}_2} = 1{,}4$ atm) e pelo risco de embolia por $\\text{N}_2$ ($P_{\\text{N}_2} = 1{,}58$ atm), qual a profundidade do mergulho? Qual a composição porcentual, em mol, da mistura gasosa no cilindro do mergulhador? Desconsidere o tempo de descida e subida do mergulho.",
-     "resposta_oficial": "$P_{\\text{total}} = P\\text{O}_2 + P\\text{N}_2 = 1{,}4 + 1{,}58 = 2{,}98 = 1\\ \\text{atm (atmosfera)} + 1{,}98\\ \\text{atm de pressão de água}$\n\nLogo, a profundidade é 19,80 m.\n\nA relação entre número de mols ($n$) e pressão ($P$) é dada por:\n\n$n_{\\text{O}_2} / n_{\\text{total}} = P_{\\text{O}_2} / P_{\\text{total}} = 1{,}4/2{,}98 = 0{,}47$\n\nPortanto, a composição é 47% $\\text{O}_2$ e 53% $\\text{N}_2$"
+     "resposta_oficial": "$P_{\\text{total}} = P\\text{O}_2 + P\\text{N}_2 = 1{,}4 + 1{,}58 = 2{,}98$ = 1 atm (atmosfera) + 1,98 atm de pressão de água\n\nLogo, a profundidade é 19,80 m.\n\nA relação entre número de mols ($n$) e pressão ($P$) é dada por:\n\n$n_{\\text{O}_2} / n_{\\text{total}} = P_{\\text{O}_2} / P_{\\text{total}} = 1{,}4/2{,}98 = 0{,}47$\n\nPortanto, a composição é 47% $\\text{O}_2$ e 53% $\\text{N}_2$"
     },
     {
      "rotulo": "c",
@@ -976,18 +982,17 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Gases",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-2-d2-q35",
    "numero": 35,
    "codigo": "Q05",
    "materia": "quimica",
-   "materias_extra": [
-    "fisica"
-   ],
+   "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A geração de eletricidade limpa, barata e constante é algo essencial para o desenvolvimento sustentável. Dispositivos eletrônicos portáteis funcionam, em geral, com baterias químicas, que precisam ser constantemente recarregadas e têm vida útil limitada. Uma alternativa promissora para a substituição de baterias químicas em dispositivos portáteis vem surgindo com o desenvolvimento de baterias nucleares, como a mostrada na Figura 1, constituídas por emissor de radiação beta (β), como o $^{63}\\text{Ni}$, e um semicondutor.\n\n![Figura 1: fotografia de uma bateria nuclear em formato de moeda, com o símbolo de radiação e a inscrição \"63 Ni\"](fig:p42-c1)\n\nA energia da radiação beta excita os elétrons do semicondutor, criando lacunas onde antes havia elétrons. Esses pares de lacunas-elétrons geram uma diferença de potencial que pode ser aproveitada na forma de eletricidade.\n\n![Figura 2: radiações alfa, beta, gama e nêutron incidindo sobre placas de papel/pele, alumínio e chumbo; densidade (kg/m³): papel/pele 1500, alumínio 2700, chumbo 11340](fig:p42-c2)\n\n**Note e adote:**\nNo item a), considere que as placas têm a mesma espessura.\nMassa do elétron: $10^{-30}$ kg e, portanto, pode ser desprezada.",
+   "enunciado": "A geração de eletricidade limpa, barata e constante é algo essencial para o desenvolvimento sustentável. Dispositivos eletrônicos portáteis funcionam, em geral, com baterias químicas, que precisam ser constantemente recarregadas e têm vida útil limitada. Uma alternativa promissora para a substituição de baterias químicas em dispositivos portáteis vem surgindo com o desenvolvimento de baterias nucleares, como a mostrada na Figura 1, constituídas por emissor de radiação beta (β), como o $^{63}\\text{Ni}$, e um semicondutor.\n\n![Figura 1: fotografia de uma bateria nuclear em formato de moeda, com o símbolo de radiação, um sinal \"+\" e inscrições do fabricante, com a inscrição \"Ni 63\" destacada por um retângulo vermelho](fig:p42-c1)\n\nA energia da radiação beta excita os elétrons do semicondutor, criando lacunas onde antes havia elétrons. Esses pares de lacunas-elétrons geram uma diferença de potencial que pode ser aproveitada na forma de eletricidade.\n\n![Figura 2: radiações alfa (α), beta (β), gama (γ) e nêutron (n) dirigidas a três placas em sequência: papel/pele, alumínio e chumbo, com densidade (kg/m³) de 1500, 2700 e 11340, respectivamente. A seta da alfa termina na placa de papel/pele; a da beta atravessa o papel/pele e termina no alumínio; a onda gama atravessa o papel/pele e o alumínio e termina no chumbo; a linha do nêutron atravessa as três placas](fig:p42-c2)\n\n**Note e adote:**\nNo item a), considere que as placas têm a mesma espessura.\nMassa do elétron: $10^{-30}$ kg e, portanto, pode ser desprezada.",
    "itens": [
     {
      "rotulo": "a",
@@ -1006,7 +1011,8 @@
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Radioatividade",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2025-2-d2-q36",
@@ -1015,7 +1021,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A lidocaína é um anestésico local muito utilizado por dentistas. Ela atua a partir de sua passagem através da membrana lipídica que envolve os neurônios, que são as células responsáveis pela transmissão do sinal da dor. A eficácia de um anestésico depende da sua capacidade de permear a membrana lipídica, sendo que o efeito anestésico é tanto maior quanto maior a permeação. Em meio ácido, a lidocaína é protonada conforme equação química a seguir.\n\n![Equação química: a estrutura (I), lidocaína, reage com H⁺ e forma a estrutura (II), com o nitrogênio protonado e carga positiva](fig:p42-f2)\n\nConsiderando as informações apresentadas, responda:",
+   "enunciado": "A lidocaína é um anestésico local muito utilizado por dentistas. Ela atua a partir de sua passagem através da membrana lipídica que envolve os neurônios, que são as células responsáveis pela transmissão do sinal da dor. A eficácia de um anestésico depende da sua capacidade de permear a membrana lipídica, sendo que o efeito anestésico é tanto maior quanto maior a permeação. Em meio ácido, a lidocaína é protonada conforme equação química a seguir.\n\n![Equação química em fórmulas de linhas: a estrutura (I), lidocaína, é um anel benzênico com dois grupos metila, ligado a um NH, que se liga a um carbono com dupla ligação a O (C=O); esse carbono se liga a um CH₂, ligado a um nitrogênio que tem dois grupos etila. Sobre a seta, H⁺. A estrutura (II) é igual, com um H a mais e carga positiva nesse último nitrogênio](fig:p42-f2)\n\nConsiderando as informações apresentadas, responda:",
    "itens": [
     {
      "rotulo": "a",
@@ -1029,12 +1035,13 @@
     },
     {
      "rotulo": "c",
-     "texto": "Outro anestésico local muito utilizado é a bupivacaína, cuja estrutura química é apresentada a seguir.\n\n![Fórmula estrutural da bupivacaína](fig:p42-f3)\n\nComparando essa molécula com a molécula da lidocaína (I), e considerando apenas a capacidade de penetrar a membrana lipídica dos neurônios, qual das duas deve ter um maior efeito anestésico? Justifique a sua resposta com base na estrutura das moléculas.",
+     "texto": "Outro anestésico local muito utilizado é a bupivacaína, cuja estrutura química é apresentada a seguir.\n\n![Fórmula estrutural da bupivacaína em linhas: anel benzênico com dois grupos metila, ligado a um NH, que se liga a um carbono com dupla ligação a O (C=O); esse carbono se liga a um anel de seis átomos que contém um nitrogênio, e esse nitrogênio tem uma cadeia de quatro carbonos](fig:p42-f3)\n\nComparando essa molécula com a molécula da lidocaína (I), e considerando apenas a capacidade de penetrar a membrana lipídica dos neurônios, qual das duas deve ter um maior efeito anestésico? Justifique a sua resposta com base na estrutura das moléculas.",
      "resposta_oficial": "A bupivacaína tem um maior poder anestésico, pois é uma molécula mais apolar quando comparada com a lidocaína."
     }
    ],
    "resposta_oficial": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "revisao": "corrigida"
   }
  ]
 }

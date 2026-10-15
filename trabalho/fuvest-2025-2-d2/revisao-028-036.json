@@ -1,0 +1,170 @@
+{
+ "edicao": "fuvest-2025-2-d2",
+ "intervalo": [
+  28,
+  36
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 33,
+   "codigo": "Q03",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O frasco Erlenmeyer tem esse nome por ter sido criado por um químico alemão chamado de Emil Erlenmeyer. As características do frasco Erlenmeyer, como fundo chato para não tombar, corpo cônico que permite agitação sem risco de respingos ou vazamentos, e pescoço cilíndrico, que permite a inserção de uma rolha ou tampa para sua vedação, tornaram o frasco popular.\n\nEmil Erlenmeyer foi também a primeira pessoa a sugerir a formação de ligações duplas e triplas entre átomos de carbono. Além disso, ele descreveu a regra Erlenmeyer, segundo a qual todos os álcoois nos quais o grupo OH esteja ligado a um carbono insaturado convertem-se em seus isômeros constitucionais de função, aldeídos ou cetonas, uma vez que eles são mais estáveis.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Desenhe, no espaço indicado da folha de respostas, um frasco Erlenmeyer."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Desenhe, no quadro da folha de respostas, as fórmulas eletrônicas de Lewis dos hidrocarbonetos com duplas e triplas ligações com a menor massa molar possíveis.\n\n*Campo de resolução:*\n\n| Hidrocarboneto com ligação dupla | Hidrocarboneto com ligação tripla |\n|---|---|\n| | |"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Desenhe, na folha de respostas, os isômeros constitucionais de função, cetona e aldeído, da molécula a seguir.\n\n![Fórmula estrutural em linhas: dois carbonos unidos por ligação dupla; um deles tem duas ramificações de um carbono cada e o outro está ligado a um grupo OH e a um grupo R](fig:p40-f1)\n\nR = cadeia carbônica para o isômero da cetona\nR = hidrogênio para o isômero do aldeído\n\n*Campo de resolução:*\n\n| Cetona | Aldeído |\n|---|---|\n| | |"
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "codigo": "Q05",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A geração de eletricidade limpa, barata e constante é algo essencial para o desenvolvimento sustentável. Dispositivos eletrônicos portáteis funcionam, em geral, com baterias químicas, que precisam ser constantemente recarregadas e têm vida útil limitada. Uma alternativa promissora para a substituição de baterias químicas em dispositivos portáteis vem surgindo com o desenvolvimento de baterias nucleares, como a mostrada na Figura 1, constituídas por emissor de radiação beta (β), como o $^{63}\\text{Ni}$, e um semicondutor.\n\n![Figura 1: fotografia de uma bateria nuclear em formato de moeda, com o símbolo de radiação, um sinal \"+\" e inscrições do fabricante, com a inscrição \"Ni 63\" destacada por um retângulo vermelho](fig:p42-c1)\n\nA energia da radiação beta excita os elétrons do semicondutor, criando lacunas onde antes havia elétrons. Esses pares de lacunas-elétrons geram uma diferença de potencial que pode ser aproveitada na forma de eletricidade.\n\n![Figura 2: radiações alfa (α), beta (β), gama (γ) e nêutron (n) dirigidas a três placas em sequência: papel/pele, alumínio e chumbo, com densidade (kg/m³) de 1500, 2700 e 11340, respectivamente. A seta da alfa termina na placa de papel/pele; a da beta atravessa o papel/pele e termina no alumínio; a onda gama atravessa o papel/pele e o alumínio e termina no chumbo; a linha do nêutron atravessa as três placas](fig:p42-c2)\n\n**Note e adote:**\nNo item a), considere que as placas têm a mesma espessura.\nMassa do elétron: $10^{-30}$ kg e, portanto, pode ser desprezada.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Sabendo que a capacidade de blindar a radiação de um material está relacionada à sua densidade, como mostrado na Figura 2, e que o revestimento da bateria é feito de aço inoxidável, cuja densidade é de $7500\\ \\text{kg/m}^3$, explique se a utilização dessa bateria deixará o usuário exposto a algum risco radiológico."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Desenhe, na folha de respostas, a evolução, ao longo do tempo, do número de átomos de $^{63}\\text{Ni}$ e de $^{63}\\text{Cu}$ presentes em uma bateria nuclear de $^{63}\\text{Ni}$, sabendo que o $^{63}\\text{Cu}$ é um isótopo estável.\n\n*Campo de resolução:*\n\n![Dois pares de eixos vazios: \"n° de átomos de $^{63}\\text{Ni}$\" em função de \"tempo (anos)\" e \"n° de átomos de $^{63}\\text{Cu}$\" em função de \"tempo (anos)\"](fig:p43-c1)"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Assuma que essa bateria é operacional até que 75% da quantidade $^{63}\\text{Ni}$ sejam consumidos. Qual a vida útil da bateria em anos, sabendo que o tempo de meia-vida do $^{63}\\text{Ni}$ é de 100 anos? A massa da bateria aumenta, diminui ou se mantém ao longo do seu tempo de uso?"
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "codigo": "Q06",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A lidocaína é um anestésico local muito utilizado por dentistas. Ela atua a partir de sua passagem através da membrana lipídica que envolve os neurônios, que são as células responsáveis pela transmissão do sinal da dor. A eficácia de um anestésico depende da sua capacidade de permear a membrana lipídica, sendo que o efeito anestésico é tanto maior quanto maior a permeação. Em meio ácido, a lidocaína é protonada conforme equação química a seguir.\n\n![Equação química em fórmulas de linhas: a estrutura (I), lidocaína, é um anel benzênico com dois grupos metila, ligado a um NH, que se liga a um carbono com dupla ligação a O (C=O); esse carbono se liga a um CH₂, ligado a um nitrogênio que tem dois grupos etila. Sobre a seta, H⁺. A estrutura (II) é igual, com um H a mais e carga positiva nesse último nitrogênio](fig:p42-f2)\n\nConsiderando as informações apresentadas, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual o nome da função orgânica que é protonada na molécula de lidocaína?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que processos inflamatórios geram produtos ácidos, a lidocaína, quando aplicada em regiões com inflamação, tem seu efeito reduzido, amplificado ou inalterado? Justifique a sua resposta."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Outro anestésico local muito utilizado é a bupivacaína, cuja estrutura química é apresentada a seguir.\n\n![Fórmula estrutural da bupivacaína em linhas: anel benzênico com dois grupos metila, ligado a um NH, que se liga a um carbono com dupla ligação a O (C=O); esse carbono se liga a um anel de seis átomos que contém um nitrogênio, e esse nitrogênio tem uma cadeia de quatro carbonos](fig:p42-f3)\n\nComparando essa molécula com a molécula da lidocaína (I), e considerando apenas a capacidade de penetrar a membrana lipídica dos neurônios, qual das duas deve ter um maior efeito anestésico? Justifique a sua resposta com base na estrutura das moléculas."
+    }
+   ]
+  }
+ ],
+ "respostas_corrigidas": {
+  "31": {
+   "itens": {
+    "a": "| Metal | Massa(g) |\n|---|---|\n| Cu | 292,8 |\n| Sn | 144,2 |\n\nMassa de Cu ($M_{\\text{Cu}}$):\n\n$M_{\\text{Cu}} \\times 100\\% = 437\\ \\text{g} \\times 67\\%$\n\n$M_{\\text{Cu}} = 292{,}8\\ \\text{g}$\n\nMassa de Sn ($M_{\\text{Sn}}$):\n\n$M_{\\text{Sn}} \\times 100\\% = 437\\ \\text{g} \\times 33\\%$\n\n$M_{\\text{Sn}} = 144{,}2\\ \\text{g}$",
+    "b": "![Esquema da pilha com a medalha de ouro na cuba da esquerda, \"Solução de: $\\text{Au(NO}_3)_3$\", e a medalha de prata na cuba da direita, \"Solução de: $\\text{AgNO}_3$\"](fig:r73-c1)\n\nOuro se deposita na medalha de ouro.",
+    "c": "Em 1000 kg de sedimento, há 8 g de Au.\n\nPortanto, para extrair 6 g de Au, são necessários 750 kg de sedimento (1000 kg de sedimento × 6 g de Au / 8 g de Au).\n\nPara dissolver 1 g de Au e formar uma amálgama, são necessários 3 g de Hg.\n\nLogo, para dissolver 6 g de Au (massa de Au presente em uma medalha de ouro), são necessários 18 g de Hg (3 g de Hg × 6 g de Au / 1 g de Au).\n\nDo total de mercúrio evaporado, 60% alcançam o corpo d’água, ou seja, 10,8 g (0,60 × 18 g de Hg).\n\nA concentração de Hg ($C_{\\text{Hg}}$) em um corpo d’água de 6 milhões de litros é:\n\n$C_{\\text{Hg}} = \\text{massa}_{\\text{Hg}} / V_{\\text{água}} = 10, 8\\ \\text{g} / 6 \\times 10^6\\ \\text{L} = 1{,}8 \\times 10^{-6}\\ \\text{g/L}$.\n\nEssa concentração é maior do que a concentração máxima permitida pela legislação ($1 \\times 10^{-6}$ g/L).\n\nLogo, esse corpo d’água não seria considerado próprio para consumo."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "34": {
+   "itens": {
+    "a": "$PV = nRT$\n\n$P = 140$ atm; $V = 12{,}3$ L; $T = 300$ K; $R = 0{,}082$ atm L/ K mol\n\n$n = 70$ mols\n\nLogo, a massa de $\\text{O}_2$ é 2,24 kg (70 mols de $\\text{O}_2$ × 0,032 kg de $\\text{O}_2$ / 1 mol de $\\text{O}_2$)",
+    "b": "$P_{\\text{total}} = P\\text{O}_2 + P\\text{N}_2 = 1{,}4 + 1{,}58 = 2{,}98$ = 1 atm (atmosfera) + 1,98 atm de pressão de água\n\nLogo, a profundidade é 19,80 m.\n\nA relação entre número de mols ($n$) e pressão ($P$) é dada por:\n\n$n_{\\text{O}_2} / n_{\\text{total}} = P_{\\text{O}_2} / P_{\\text{total}} = 1{,}4/2{,}98 = 0{,}47$\n\nPortanto, a composição é 47% $\\text{O}_2$ e 53% $\\text{N}_2$",
+    "c": "$P_{\\text{cilindro}} V_{\\text{cilindro}} / T_{\\text{cilindro}} = P_{\\text{ambiente}} V_{\\text{ambiente}} / T_{\\text{ambiente}}$\n\nNo ato de inspiração/expiração\n\n$P_{\\text{cilindro}} = 140$ atm\n\n$P_{\\text{“ambiente”}} = 2{,}8$ atm (pressão do pulmão)\n\n$T_{\\text{cilindro}} = T_{\\text{“ambiente”}}$\n\n$V_{\\text{“inspirado”}} = 0{,}5$ L\n\nPara cálculo de $V_{\\text{cilindro}}$:\n\n(2,8 atm × 0,5 L) / 300 K = (140 × $V_{\\text{cilindro}}$) / 300 K\n\n$V_{\\text{cilindro}} = 0{,}01$ L\n\nBolha na superfície ($V_{\\text{sup}}$): $P_{\\text{superfície}} V_{\\text{superfície}} / T_{\\text{superfície}} = P_{\\text{ambiente}} V_{\\text{ambiente}} / T_{\\text{ambiente}}$\n\n$P_{\\text{superfície}} = 1$ atm, $T_{\\text{superfície}} = 300$ K\n\n1 × $V_{\\text{superfície}}$/300 = 2,8 × 0,5/280\n\n$V_{\\text{superfície}} = 1{,}5$ L"
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  }
+ },
+ "complementos": {
+  "28": {
+   "assunto": "Matemática financeira"
+  },
+  "29": {
+   "assunto": "Progressões"
+  },
+  "30": {
+   "assunto": "Trigonometria"
+  },
+  "31": {
+   "assunto": "Eletroquímica"
+  },
+  "32": {
+   "assunto": "Equilíbrio químico"
+  },
+  "33": {
+   "assunto": "Química orgânica"
+  },
+  "34": {
+   "assunto": "Gases"
+  },
+  "35": {
+   "assunto": "Radioatividade"
+  },
+  "36": {
+   "assunto": "Química orgânica"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 28,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p33); resposta conferida com o documento oficial (r65-r66). Contas da banca conferidas (V = 19.294,05; n = −log₁,₀₁ 0,62), sem divergência."
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p35); resposta conferida com o documento oficial (r67). Contas da banca conferidas (PA de razão 1/8; no máximo 2 casas decimais; n = 2^(b+1) − 1), sem divergência."
+  },
+  {
+   "numero": 30,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p35); resposta conferida com o documento oficial (r68-r69). Recortes p35-c1 e p35-c2 completos (rótulos, ângulo α, cotas de 10 m). Contas da banca conferidas (α = 45°; k = 2·tg α; projeção 2,5 m)."
+  },
+  {
+   "numero": 31,
+   "status": "corrigida",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p38-p39); resposta conferida com o documento oficial (r72-r73). Resposta do item a: cabeçalho da tabela da banca é \"Massa(g)\", sem espaço (o rascunho trazia \"Massa (g)\", como no campo do caderno); corrigido. Observações do transcritor decididas: \"8g\" sem espaço no item c está assim no caderno (conferido em ampliação) e \"10, 8 g\" com espaço está assim na resposta oficial (r73); ambos mantidos por fidelidade. Recortes p38-c1, p38-c2, p39-c2 e r73-c1 completos."
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p38); resposta conferida com o documento oficial (r74). Observação do transcritor decidida: os Kps do quadro estão mesmo escritos com a letra x (\"2,0x10⁻²⁹\") no caderno; mantido. Tabela de Kps conferida em ampliação, todos os expoentes certos. Aceitação de \"PO₄³⁻, fosfato de sódio ou íon fosfato\" transcrita."
+  },
+  {
+   "numero": 33,
+   "status": "corrigida",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p40-p41); resposta conferida com o documento oficial (r75). Descrição da molécula do item c (p40-f1) refeita: só dizia que havia OH e R num carbono da dupla, sem dizer que o outro carbono tem duas ramificações; quem usa leitor de tela precisa disso para desenhar os isômeros. Campos de resolução (tabelas) conferidos; recortes r75-c1, r75-c2 e r75-c3 completos."
+  },
+  {
+   "numero": 34,
+   "status": "corrigida",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p40); resposta conferida com o documento oficial (r76-r77). Resposta do item b: frase \"1 atm (atmosfera) + 1,98 atm de pressão de água\" estava dentro do LaTeX com \\text{}; passada para texto comum, sem mudar nada. Na resposta do item c a banca escreve 300 K dos dois lados da primeira igualdade, embora a temperatura seja 7 °C (280 K); como a temperatura se cancela, o resultado (0,01 L) não muda; mantido por fidelidade."
+  },
+  {
+   "numero": 35,
+   "status": "corrigida",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p42-p43); resposta conferida com o documento oficial (r78). Matéria: retirada a extra \"fisica\"; a questão cobra radioatividade (blindagem, decaimento e meia-vida), conteúdo de química, e ler a densidade na figura não exige física. Descrição da Figura 2 (p42-c2) completada com o que o desenho mostra (onde termina cada radiação), necessário para responder o item a sem enxergar a figura. Descrição da Figura 1 corrigida: a inscrição na bateria é \"Ni 63\" (destacada em vermelho), não \"63 Ni\". Recorte r78-c1 conferido."
+  },
+  {
+   "numero": 36,
+   "status": "corrigida",
+   "notas": "Enunciado, itens, figuras e Note e adote conferidos palavra por palavra com a página do caderno (p42); resposta conferida com o documento oficial (r79). Descrições das estruturas da lidocaína (p42-f2) e da bupivacaína (p42-f3) refeitas: a da bupivacaína dizia só \"Fórmula estrutural da bupivacaína\", e o item c pede comparação com base na estrutura; agora descrevem os grupos desenhados, sem nomear funções nem interpretar."
+  }
+ ]
+}

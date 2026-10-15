@@ -1,0 +1,156 @@
+{
+  "edicao": "unicamp-2022-2-cbs",
+  "intervalo": [
+    1,
+    22
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 11,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O levantamento realizado pelo Projeto MapBiomas apresenta o impacto do fogo sobre o território nacional. Aproximadamente 167 milhões de hectares de área foram queimados ao menos uma vez no Brasil entre 1985 e 2020, sendo que 65% da área total queimada era ocupada por vegetação nativa.\n\n![Mapa do Brasil com seis biomas numerados e gráfico de barras da área queimada acumulada nos biomas de 1985 a 2020, em milhão de hectares: 1) 73,3; 2) 69; 3) 8,8; 4) 8,6; 5) 7,1; 6) 0,2](fig:p13-c1)\n\n(Adaptado de https://mapbiomas-br-site.s3.amazonaws.com/Infograficos/MBI-fogo-infografico-PTBR-aprovado.jpg. Acessado em 10/09/2021.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O bioma com maior área queimada acumulada possui uma grande variedade de ambientes e de paisagens (fitofisionomias); cite dois tipos de formação vegetal desse bioma. Explique uma motivação para a ação antrópica associada às queimadas nesse bioma."
+        },
+        {
+          "rotulo": "b",
+          "texto": "“A golpes de machado, derrubam a árvore, à qual, depois de estar no chão, lhe tiram todo o branco; porque no âmago dele está o Brasil”. O trecho retrata o processo de exploração de uma árvore endêmica da floresta, bioma devastado à exaustão desde o início da colonização portuguesa, e que hoje possui a menor cobertura original de vegetação entre todos os biomas brasileiros. Esse bioma abriga o maior número de espécies endêmicas de aves do Brasil, porém muitas estão ameaçadas de extinção. Qual é o bioma retratado no texto? Explique a importância ecológica das aves para a recuperação de áreas degradadas.\n\n(Fonte: A. F. Brandão. *Diálogos das grandezas do Brasil*. Recife. Imprensa Universitária, 1966 [1618]; https://www.nationalgeographicbrasil.com/natgeo-ilustra. Acessado em 19/11/2021.)"
+        }
+      ],
+      "observacoes": "Figura p13-c1 refeita (a automática p13-f2 cortava o início da linha de fonte). A URL da fonte do item b quebra linha depois de \"com/\" no caderno; juntei sem espaço. Na resposta oficial do item a, o PDF traz \"cobertura vegetação original\" (erro de digitação da banca, mantido)."
+    },
+    {
+      "numero": 12,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A queima de biomassa causa intensa produção de poluentes atmosféricos, entre os quais podemos incluir o material particulado. Quanto menor for a partícula, mais ela conseguirá penetrar profundamente no sistema respiratório, chegando aos alvéolos pulmonares. Pesquisadores observaram que a exposição ao material particulado com diâmetro menor que $10\\ \\mu\\text{m}$ (PM$_{10}$) está associado com danos no DNA das células pulmonares.\n\n(Fonte: N. de Oliveira Alves e outros, *Scientific Reports*, Londres, v. 7, n. 1, p.10937, set. 2017.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite duas estruturas do sistema respiratório que compõem o percurso do ar entre a cavidade nasal e os alvéolos pulmonares em humanos. Considerando o ciclo celular, explique como a exposição ao PM$_{10}$ pode promover o desenvolvimento de câncer de pulmão."
+        },
+        {
+          "rotulo": "b",
+          "texto": "O termo “respiração” pode ser empregado para o processo de trocas gasosas com o meio externo através de superfícies respiratórias. Neste sentido, complete a tabela abaixo com o tipo de respiração de cada animal citado.\n\n*Campo de resolução:*\n\n| ANIMAL | TIPO DE RESPIRAÇÃO |\n|---|---|\n| MINHOCA | |\n| CARANGUEJO | |\n| BEIJA-FLOR | |\n| BALEIA AZUL | |"
+        }
+      ],
+      "observacoes": "No PDF o diâmetro vem como \"10 m\" (o símbolo µ some na extração); na imagem do caderno é \"10 µm\". A tabela do item b está no campo de resolução e foi transcrita vazia, como manda a instrução."
+    },
+    {
+      "numero": 13,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "É #FAKENEWS que resultado negativo em teste de anticorpos indique que a vacina Coronavac não funciona. Circula, nos grupos de Whatsapp, um vídeo – de autor não identificado – cujo conteúdo explora conceitos e métodos inexatos de desenvolvimento de vacina, indica remédio sem eficácia comprovada para covid-19 e traz informações incorretas sobre a vacina produzida pelo Butantan.\n\n(Fonte:https://www1.folha.uol.com.br/equilibrioesaude/2021/06/e-mentira-que-resultado-negativo-em-teste-de-anticorpos-indica-que-coronavac-não-funciona.shtml. Acessado em 31/08/2021.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual é a célula responsável pela produção de anticorpos no organismo? Considerando que a resposta imune desenvolvida pela vacinação não depende apenas de anticorpos, explique o mecanismo de resposta imune desconhecido pelo autor do vídeo, incluindo um tipo celular envolvido."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A emergência das variantes do SARS-CoV-2 suscitou preocupação quanto à eficácia das vacinas contra as cepas que estão se tornando predominantes na pandemia. Como um exemplo de evolução convergente, a mutação compartilhada N501Y no gene S está presente nas variantes P.1 (Japão), B.1.351 (África do Sul) e B.1.1.7 (Reino Unido). Defina evolução convergente. Do ponto de vista evolutivo, explique por que as variantes estão se tornando predominantes na pandemia.\n\n(Fonte: https://newslab.com.br/as-variantes-do-coronavirus [...]. Acessado em 31/08/2021.)"
+        }
+      ],
+      "observacoes": "A URL da fonte do enunciado quebra linha em \"funci / ona.shtml\" no caderno; juntei como \"funciona\". Mantido \"Fonte:https\" sem espaço, como no original."
+    },
+    {
+      "numero": 14,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Embora a teoria cromossômica mendeliana da hereditariedade estivesse bem fundamentada na década de 1920, buscavam-se evidências celulares de que os cromossomos trocavam partes (*crossing-over*). Essas evidências justificariam porque algumas observações diferiam do esperado pela segregação independente de cromossomos.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Diversos estudos sobre a genética de milho, conduzidos por Lowell Fitz Randolph, buscaram identificar evidências celulares do *crossing-over* em metáfase I. Entretanto, quando Bárbara McClintock investigou o *crossing-over* em paquíteno (uma das subfases da prófase I), a pesquisadora obteve sucesso junto ao microscópio. Explique uma razão do sucesso nos experimentos de Bárbara McClintock. Cite uma importância do *crossing-over*."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A tabela ao lado representa a proporção fenotípica de indivíduos (geração F1), após o cruzamento, em um experimento realizado em milho. Sendo os genes responsáveis pelos fenótipos F, G e H ligados nesta sequência, o que é possível inferir sobre a distância entre os genes? Justifique. Considere que f, g e h representam estados fenotípicos alternativos para os caracteres controlados pelos genes responsáveis por F, G e H, respectivamente. A partir das informações fornecidas e de seus conhecimentos sobre genética e biologia celular, explique por que as frequências observadas diferem do que seria esperado, considerando-se a Segunda Lei de Mendel.\n\n| Frequência | Fenótipo |\n|---|---|\n| 40% | F G H |\n| 40% | f g h |\n| 2,5% | F g h |\n| 2,5% | f G H |\n| 7,5% | F G h |\n| 7,5% | f g H |"
+        }
+      ],
+      "observacoes": "A tabela do item b está ao lado do texto no caderno; coloquei logo depois do texto do item."
+    },
+    {
+      "numero": 15,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Como parte do complexo ecossistema terrestre, as espécies vegetais devem responder ao aumento da concentração de dióxido de carbono (CO$_2$) atmosférico. Todavia, respostas diferenciais ao aumento da concentração de CO$_2$ são esperadas em função do metabolismo fotossintético. Nas figuras abaixo, as variações relativas da fotossíntese (painel A) e da abertura dos estômatos (painel B) em função do aumento da concentração de CO$_2$ atmosférico (parte por milhão, ppm) são apresentadas para duas espécies. Observe que a fotossíntese máxima da espécie 2 é a metade do valor máximo da espécie 1 e que a abertura estomática máxima é igual nas duas espécies.\n\n![Painel A: gráfico da fotossíntese relativa (%) das espécies 1 e 2 em função da concentração de CO₂ (ppm). Painel B: gráfico da abertura estomática relativa (%) das espécies 1 e 2 em função da concentração de CO₂ (ppm)](fig:p17-c1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considerando que a fotossíntese pode ser expressa como uma reação enzimática de carboxilação, qual espécie possui a enzima fotossintética com maior afinidade pelo substrato CO$_2$? Justifique sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Qual é a principal função dos estômatos? A eficiência do uso da água pelas plantas – calculada pela relação entre a fotossíntese e a abertura estomática – é um critério para selecionar plantas tolerantes à falta de água. Em uma atmosfera com 800 ppm de CO$_2$, qual espécie teria maior eficiência do uso da água? Justifique sua resposta."
+        }
+      ],
+      "observacoes": "Figura p17-c1 refeita (a automática p17-f2 cortava as letras A e B dos painéis)."
+    },
+    {
+      "numero": 16,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na cidade de Yogyakarta (Indonésia), foi aplicado um método que usa bactérias *Wolbachia* em mosquitos. Com isso, reduziram em 77% os casos de dengue. Estudos preliminares com o mesmo método, realizados pela Fundação Oswaldo Cruz (Fiocruz), demonstraram resultados promissores com “redução de até 77% dos casos de dengue [...] nas áreas que receberam os *Aedes aegypti* com *Wolbachia*, quando comparado com áreas que não receberam”. Os resultados sugerem que a bactéria *Wolbachia* compete por recursos e dificulta a replicação do vírus da dengue, sendo, então, menos provável que o mosquito cause a infecção quando pica alguém.\n\n(Fonte: https://g1.globo.com/ciencia-e-saude/noticia/2021/06/11/infeccao-por-dengue-cai-77percent-em-teste-com-bacteria-em-mosquito-aedes-aegypti.ghtml. Acessado em 13/09/2021.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considerando as informações apresentadas no enunciado, qual é o nome do método de controle de vetores utilizado em Yogyakarta para redução dos casos de dengue? Cite duas vantagens desse método."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A malária é transmitida pela picada do mosquito do gênero *Anopheles* e sabe-se que 99% dos casos são registrados na região amazônica\\*. Explique um fator ambiental que favoreça a manutenção do ciclo de transmissão nessa região. Assim como muitos outros insetos, os mosquitos dos gêneros *Anopheles* e *Aedes* possuem uma característica morfológica que lhes permitiu a colonização e a ampla distribuição geográfica. Qual é essa característica morfológica? Justifique a sua resposta.\n\n(\\*Fonte: http://portal.fiocruz.br/noticia/malaria-regiao-amazonica-concentra-99-dos-casos-no-brasil. Acessado em 17/09/2021.)"
+        }
+      ],
+      "observacoes": "A URL da fonte do enunciado quebra linha em \"aegypti.\" / \".ghtml\" no caderno (o ponto se repete na quebra); juntei como \"aegypti.ghtml\"."
+    }
+  ],
+  "respostas": {
+    "11": {
+      "itens": {
+        "a": "Dois tipos de formação vegetal do bioma Cerrado incluem: formações campestres (como os campos rupestres) e formações florestais (como o cerradão). Uma motivação para a ação antrópica é a queima da vegetação do bioma, visando à eliminação da cobertura vegetação original para dar lugar tanto às pastagens e à criação de animais como ao plantio de espécies de importância econômica.",
+        "b": "O bioma retratado no texto é a Mata Atlântica. As aves conseguem se deslocar rapidamente e percorrer grandes distâncias, sendo importantes no processo de recuperação de áreas degradadas, pois atuam como dispersoras de sementes das espécies de árvores nativas em áreas antrópicas e favorecem, assim, o rápido aumento da área coberta por vegetação."
+      }
+    },
+    "12": {
+      "itens": {
+        "a": "Podem ser citadas como estruturas do sistema respiratório que compõem o percurso do ar entre a cavidade nasal e os alvéolos: faringe, laringe, traqueia, brônquios e bronquíolos. Considerando que a exposição ao PM$_{10}$ está associada com danos no DNA, poderão ocorrer mutações no DNA. Como consequência do acúmulo de mutações, possíveis alterações no controle do ciclo celular podem promover o aumento da proliferação celular e/ou a diminuição das taxas de morte celular programada, originando o câncer.",
+        "b": "| ANIMAL | TIPO DE RESPIRAÇÃO |\n|---|---|\n| MINHOCA | Cutânea |\n| CARANGUEJO | Branquial |\n| BEIJA-FLOR | Pulmonar |\n| BALEIA AZUL | Pulmonar |"
+      }
+    },
+    "13": {
+      "itens": {
+        "a": "A célula responsável pela produção de anticorpos é o linfócito B (ou plasmócito). O autor do vídeo desconhece a resposta imune celular, na qual os linfócitos T citotóxicos podem reconhecer e destruir células alteradas como aquelas infectadas por vírus, enquanto os linfócitos T auxiliares podem estimular a atividade dos macrófagos (fagócito).",
+        "b": "Evolução convergente ocorre quando duas espécies desenvolvem estruturas, características morfológicas ou bioquímicas ou ainda funções semelhantes, que os dotam da habilidade de sobrevivência ou reprodução frente à mesma pressão seletiva. As novas variantes virais estão se tornando predominantes na pandemia, pois as mutações encontradas nas cepas determinam características que estabelecem vantagens seletivas em relação a outras cepas, pela maior capacidade de infecção e/ou transmissão e/ou sobrevivência e/ou reprodução do que as variantes virais pré-existentes."
+      }
+    },
+    "14": {
+      "itens": {
+        "a": "A pesquisadora obteve sucesso ao microscópio, pois os cromossomos homólogos em paquíteno da prófase I estão emparelhados e menos condensados do que os cromossomos em metáfase I, sendo possível distinguir as características cromossômicas, e consequentemente identificar a troca de segmentos entre cromossomos homólogos no *crossing-over*. O *crossing-over* resulta em recombinação genética, levando à produção de gametas com composição genética distinta da dos parentais, consequentemente aumentando a variabilidade genética.",
+        "b": "É possível inferir que a distância entre os locos que condicionam as características F e G é de 5 UR (Unidade de Recombinação), enquanto a distância entre os locos envolvidos nos fenótipos G e H é de 15 UR, ou seja, os locos F e G estão mais próximos entre si e os locos G e H estão mais distantes. As frequências observadas diferem do que seria esperado, considerando-se a segunda lei de Mendel, pois se houvesse a segregação independente desses genes em cromossomos diferentes, seriam esperadas as mesmas proporções entre os diferentes fenótipos em F1. Entretanto, os genes F, G e H não segregam independentemente durante a meiose, pois estão ligados em um mesmo cromossomo."
+      }
+    },
+    "15": {
+      "itens": {
+        "a": "A espécie 1 possui a enzima fotossintética com maior afinidade pelo substrato CO$_2$. De acordo com o painel A, em baixa concentração do substrato CO$_2$, quando a disponibilidade de substrato limita a fotossíntese, a espécie 1 apresenta maior fotossíntese. Por exemplo, a 100 ppm de CO$_2$, a fotossíntese da espécie 1 é cinco vezes maior do que a fotossíntese da espécie 2.",
+        "b": "Os estômatos têm função de regular as trocas gasosas entre as plantas e a atmosfera, permitindo a entrada de CO$_2$ para o processo fotossintético e a perda de vapor d’água por transpiração. Em uma atmosfera com 800 ppm de CO$_2$, a espécie 2 tem maior eficiência do uso da água, pois a relação entre a fotossíntese e a abertura estomática da espécie 2 seria de 50/10 (ou 5,0) enquanto que na espécie 1 seria de 100/40 (ou 2,5)."
+      }
+    },
+    "16": {
+      "itens": {
+        "a": "O nome do método empregado na cidade de Yogyakarta é “controle biológico”. Dentre as vantagens desse método, podemos citar a redução do uso de produtos inseticidas, o menor impacto ambiental (visto que o referido método não polui águas e solo), e um menor dano à saúde da população.",
+        "b": "Um fator ambiental da região Amazônica que favorece a manutenção do ciclo de transmissão da malária é o grande volume pluviométrico ao longo do ano, o que aumenta a formação de corpos de água limpa e parada, onde o mosquito deposita seus ovos, favorecendo, assim, a disseminação do vetor. A característica morfológica é a presença de asas; a consequente capacidade de voar favorece o deslocamento e a dispersão, permitindo a ampla colonização e distribuição geográfica dos insetos."
+      }
+    }
+  }
+}
