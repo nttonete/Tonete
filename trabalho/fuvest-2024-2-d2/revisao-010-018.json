@@ -1,0 +1,86 @@
+{
+ "edicao": "fuvest-2024-2-d2",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "10": {
+   "assunto": "Termodinâmica"
+  },
+  "11": {
+   "assunto": "Eletrostática"
+  },
+  "12": {
+   "assunto": "Física moderna"
+  },
+  "13": {
+   "assunto": "Reações e estequiometria"
+  },
+  "14": {
+   "assunto": "Química orgânica"
+  },
+  "15": {
+   "assunto": "Soluções"
+  },
+  "16": {
+   "assunto": "Ligações e interações"
+  },
+  "17": {
+   "assunto": "Equilíbrio químico"
+  },
+  "18": {
+   "assunto": "Química ambiental"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Enunciado, itens, Note e adote e respostas conferidos com p10 e r24. O 'Objetivo da Questão' publicado pela banca para a F04 fala de ondulatória e ondas estacionárias (repetido da F03); confirmado na imagem r24, é erro da banca e foi mantido. Não muda o sentido das respostas dos itens."
+  },
+  {
+   "numero": 11,
+   "status": "atencao",
+   "notas": "Conferido com p12 e r25. O item b do caderno diz mesmo 'o elétron e o pósitron' (confirmado na imagem); pela figura, pelo resto do enunciado e pela resposta da banca ($\\Delta t_P$, $\\vec V_p$, m/M) a segunda partícula é o próton. Mantido como no original, mas o erro muda o sentido literal da pergunta (cita uma partícula que não existe no problema): uma pessoa deve decidir se cabe uma *(Nota da plataforma: ...)* no item b. Também do original: 'de modo que distância entre as duas partículas' (falta 'a'). Figuras p12-f1, p12-c1 e r25-c2 conferidas; descrições não entregam os vetores pedidos no item a."
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": "Conferido com p12 e r26 (ampliação). Na resposta do item a a banca escreve '$10^{-13} + 27$' com o +27 na linha de base (deveria ser expoente $10^{-13+27}$) e 'K = 2 · MeV'; confirmado na imagem, é erro tipográfico da banca e foi mantido. O resultado ($4 \\cdot 10^{14}$, $v = 2 \\cdot 10^7$ m/s) está certo, então não muda o sentido. O Note e adote usa '1,6x10' com a letra x no primeiro dado; transcrito com ×, sem efeito no conteúdo."
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "Conferido com p14, p15 (campo de resolução) e r49. 'folha de repostas' é do original."
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": "Conferido com p14, p15 e r50. Tabelas, figura do esquema (p14-c1) e campo de resolução (p15-c3) completos; a descrição do campo não antecipa a curva pedida. 'são apresentas' é do original."
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": "Conferido com p16 e r51. Figura p16-c1 completa, com o rótulo ampliado."
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": "Conferido com p16, p17 e r52. As descrições das figuras do enunciado e do campo de resolução não indicam quais interações circular. 'suscetíveis à reagir' é do original da resposta."
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "Conferido com p18 e r53. Figura p18-f1 completa."
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "Conferido com p18 (tabela ampliada) e r54. Equações da tabela, estados físicos e coeficientes conferidos."
+  }
+ ]
+}

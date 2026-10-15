@@ -1,0 +1,192 @@
+{
+ "edicao": "fuvest-2024-2-d2",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 2,
+   "codigo": "M02",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma padaria faz parte de um movimento que pretende combater o desperdício de alimentos e vende com descontos seus produtos próximos à data de vencimento. São montados três tipos de kits: A (doces), B (salgados) e C (mistos). No momento da compra, um cliente deve indicar apenas uma preferência entre os kits A, B ou C, mas receberá um kit surpresa (A, B ou C), conforme a disponibilidade de produtos em promoção.\n\nSabendo que 40% dos consumidores preferem o kit A, 30% preferem o kit B e 40% preferem o kit C e que a probabilidade de um cliente ter a sua preferência atendida é de 80% para o kit A, 90% para o kit B e 70% para o kit C, responda:\n\n*(Nota da plataforma: o guia oficial de respostas remetia a um comunicado da FUVEST sobre esta questão, que não está mais disponível no site. Os percentuais do enunciado somam 110%; o guia oficial de respostas aceitou tanto a indicação de que a questão é impossível quanto as resoluções mostradas abaixo.)*",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a probabilidade de um cliente não ter a sua preferência atendida?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Dois amigos fazem uma compra cada um, indicando preferências distintas entre si. Qual a probabilidade de ambos terem as suas preferências atendidas?"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Um cliente teve a sua preferência atendida. Qual a probabilidade de que ele tenha pedido o kit B?"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "codigo": "F01",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um estudo recente feito por pesquisadores do Caltech⁽¹⁾ mostrou que, desde o início do século XXI, o volume de gelo acumulado no oceano Ártico durante o inverno diminuiu em cerca de $6000\\ \\text{km}^3$, redução em grande parte impulsionada pela mudança na espessura do gelo, passando de um padrão denominado “plurianual” para outro padrão conhecido como “gelo marinho sazonal”.\n\nSegundo os autores do estudo, o gelo mais antigo e plurianual tende a ser mais espesso e, portanto, seu derretimento é mais demorado. À medida que esse “reservatório” de gelo “antigo” marinho do Ártico se esgota e o gelo sazonal passa a predominar, espera-se que a espessura e o volume globais do gelo marinho do Ártico diminuam.\n\n**Note e adote:**\nPropriedades do gelo (plurianual ou sazonal):\nDensidade = $0{,}92\\ \\text{g/cm}^3$\nCalor específico = $2 \\times 10^{3}\\ \\text{J/kg.}^\\circ\\text{C}$\nCalor latente de fusão = $3 \\times 10^{5}\\ \\text{J/kg}$\n\n⁽¹⁾ Sahra Kacimi et al, “*Arctic snow depth, ice 3/4 thickness and volume from ICESat-2 and CryoSat-2*: *2018-2021*”, Geophysical Research Letters (2022). DOI: 10.1029/2021GL097448",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Estime, em kg, o acréscimo na massa de água no oceano devido ao degelo no Ártico desde o início do século XXI."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que a área do oceano Ártico é de aproximadamente $1{,}5 \\times 10^{7}\\ \\text{km}^2$, se todo esse gelo perdido formasse uma camada sobre a superfície desse oceano, qual seria a espessura dessa camada?"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Estime a mínima quantidade de energia (em joules) para derreter completamente uma tonelada de gelo inicialmente a uma temperatura de $-20\\ ^\\circ\\text{C}$."
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "codigo": "F02",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No manual de instalação de um filtro de torneira, consta a seguinte mensagem:\n\n**Instruções para obter vazão de água recomendada:**\n\nPara filtração adequada, acima de 100 kPa utilize o **redutor de vazão** que acompanha o produto, encaixando-o no filtro.\n\n**Dica:** Caso não saiba qual a pressão no ponto de uso do filtro, meça o tempo para encher com água um copo de 240 mL. Se o tempo for menor que 6 segundos, recomenda-se encaixar o redutor de vazão na base do filtro.\n\n**Note e adote:**\nA altura padrão de cada andar de um prédio é de 3 metros.\nConsidere a água como um fluido ideal com densidade de $1000\\ \\text{kg/m}^3$.\nA vazão de um fluido em regime de fluxo constante é dada pelo produto da velocidade do fluido pela área da seção reta do tubo de escoamento.\nAceleração da gravidade ($g$) = $10\\ \\text{m/s}^2$\n$1\\ \\text{Pa} = 1\\ \\text{N/m}^2$\nConsidere $\\pi \\approx 3$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Calcule a força sobre um tampão de vedação colocado na ponta de um cano de 40 mm de diâmetro se a pressão da água no interior do cano neste local é de 100 kPa."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere que uma torneira esteja instalada no 4º andar de um prédio de 12 andares (ponto B) e esteja conectada a uma caixa d’água localizada na laje desse prédio (ponto A), conforme a figura. Calcule a distância vertical $h$ e a diferença de pressão entre os pontos B e A.\n\n![Esquema de um prédio em corte, com o 12º andar no alto e o 4º andar embaixo (os andares intermediários estão omitidos por uma linha de quebra), cada um com a marcação de 3m de altura; a caixa d’água fica sobre a laje, com o ponto A no nível da água, a uma distância d acima da laje; um cano desce da caixa até a torneira no 4º andar (ponto B), que está a uma distância d acima do piso desse andar; a altura h é marcada entre B e A](fig:p08-f3)"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Para um filtro instalado em um apartamento de outro andar (sem o redutor de vazão), verifica-se que o tempo para encher um copo de 240 mL é de 5 s. Dado que o diâmetro da saída do filtro é de 4 mm, calcule a velocidade da água na saída do filtro (em m/s)."
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "codigo": "F03",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere uma mesma corda de violoncelo vibrando, em situações distintas, conforme os padrões de ondas estacionárias mostrados nos diagramas a seguir, em que a amplitude das vibrações, por clareza, está grandemente ampliada. No diagrama 1, a corda vibra no comprimento $L$ mostrado na figura. No diagrama 2, a corda está pinçada a 2/3 do comprimento $L$, de modo que não há vibração no terço restante.\n\n![Diagrama 1: violoncelo com uma corda desenhada vibrando entre as duas marcas que delimitam o comprimento L. Diagrama 2: um dedo pressiona a mesma corda; o trecho entre o dedo e a marca inferior, indicado como 2/3 L, aparece vibrando, e o trecho acima do dedo fica parado](fig:p10-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um aluno afirma que, por se tratar de padrões estacionários, a velocidade de propagação de uma onda qualquer na corda é nula. Essa afirmação é correta? Justifique a sua resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere agora a situação mostrada no diagrama 1. Se o comprimento $L$ fosse de 60 cm, qual seria o comprimento de onda da vibração mostrada nesse diagrama?"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Suponha agora que a frequência da vibração da corda no padrão mostrado no diagrama 1 seja de 220 Hz. Determine a frequência de vibração da corda no padrão mostrado no diagrama 2."
+    }
+   ]
+  }
+ ],
+ "respostas_corrigidas": {
+  "1": {
+   "resposta": "**Objetivo da questão:** Avaliar a habilidade de analisar e modelar matematicamente uma situação-problema, formulando equações e estabelecendo estratégias de resolução.",
+   "itens": {
+    "a": "![Móbile I completo, com os valores da banca em vermelho: 64 no triângulo do topo; o número 32 escrito ao lado de cada um dos dois ramos que saem do topo; no ramo da esquerda, o círculo 10 sustenta o círculo 3 e um círculo com 11, e o círculo 3 sustenta um círculo com 4 e o círculo 4 do enunciado; no ramo da direita, um círculo com 16 e um móbile com dois círculos com 8](fig:r40-f3)",
+    "b": "Analisando o lado direito do móbile, temos que o primeiro círculo, de cima para baixo, deve valer $228$, o próximo círculo, deve valer $114$ e por fim, o último, deve valer $57$. Logo temos a seguinte equação $2n+3 = 57$, e portanto $n = 27$.",
+    "c": "Nomeando os círculos em branco como $x$, $y$, $z$, $w$, da esquerda para a direita, temos que:\n\n$$7x = 3y,\\ 2z = 3w$$\n\n$$2 \\cdot (7x+3y) = 5(2z+3w)$$\n\n$$2(7x+3y)+5(2z+3w) = 70$$\n\nResolvendo o sistema acima, obtém-se: $x = \\frac{5}{4}$, $y = \\frac{35}{12}$, $z = \\frac{7}{4}$, $w = \\frac{7}{6}$."
+   }
+  },
+  "2": {
+   "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretar e analisar uma situação real proposta, e formular estratégias para o cálculo de probabilidades.\n\n**Atenção:** Leia o comunicado sobre esta questão no site da FUVEST\n\n**Notação e dados informados no problema**\n\nA: prefere A (doce) $\\qquad P(A) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }A) = 0{,}8$\nB: pretere B (salgado) $\\qquad P(B) = 0{,}3 \\qquad P(\\text{pa}\\text{ dado }B) = 0{,}9$\nC: prefere C (misto) $\\qquad P(C) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }C) = 0{,}7$\npa: o cliente é atendido\nnpa: o cliente não é atendido\n\nO problema pode ser resolvido utilizando-se uma Resolução Única ou a Resolução por Itens, como descrito abaixo.\n\n**Resolução Única**\n\n\"Questão impossível\" com justificativa\n\n**Justificativa:** A soma da probabilidade de eventos disjuntos é maior do que 1 (ou equivalentes)\n**Justificativa aceita:** Disjunto = \"cliente deve indicar apenas uma preferência\"\n\n**Resolução por Itens**\n\n**Nota:** Os critérios listados abaixo são válidos para resoluções utilizando os dados fornecidos no enunciado do problema, resoluções analíticas ou resoluções que utilizem alguma distribuição de probabilidade adequada.",
+   "itens": {
+    "a": "**a.1)** Cálculo direto considerando os dados informados:\n$P(\\text{npa}) = 0{,}4 \\cdot 0{,}2 + 0{,}3 \\cdot 0{,}1 + 0{,}4 \\cdot 0{,}3 = 23/100 = 0{,}23$\n\n**a.2)** Cálculo pelo complementar considerando os dados informados:\n$P(\\text{pa}) = 0{,}4 \\cdot 0{,}8 + 0{,}3 \\cdot 0{,}9 + 0{,}4 \\cdot 0{,}7 = 0{,}87$\nlogo $P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - 0{,}87 = 0{,}13$.\n\n**a.3.i)** Cálculo considerando \"110 e 100\":\n$P(\\text{npa}) = 40/110 \\cdot 20/100 + 30/110 \\cdot 10/100 + 40/110 \\cdot 30/100 = 23/110 = 0{,}2091$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (40/110 \\cdot 80/100 + 30/110 \\cdot 90/100 + 40/110 \\cdot 70/100) = 1 - (32/110 + 27/110 + 36/110) = 1 - 87/110 = 23/110 = 0{,}2091$.\n\n**a.3.ii)** Cálculo considerando \"110 e 110\":\n$P(\\text{npa}) = 40/110 \\cdot 20/110 + 30/110 \\cdot 10/110 + 40/110 \\cdot 30/110 = 0{,}19$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (40/110 \\cdot 80/110 + 30/110 \\cdot 90/110 + 40/110 \\cdot 70/110) = 1 - (4/11 \\cdot 8/11 + 3/11 \\cdot 9/11 + 4/11 \\cdot 7/11) = 1 - (32/121 + 27/121 + 36/121) = 1 - 87/121 = 34/121 = 0{,}281$.\n\n**a.4)** Resolução analítica (fórmula geral):\nSe $P(A) = a$, $P(B) = b$ e $P(C) = c$, então $a + b + c = 1$\nDiretamente $P(\\text{npa}) = 0{,}2a + 0{,}1b + 0{,}3c$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (0{,}8a + 0{,}90b + 0{,}70c)$",
+    "b": "**b.1)** Resolução considerando os dados do problema:\nSeja $E$: \"os amigos têm preferências distintas\" $= \\{(A,B), (B,A), (A,C), (C,A), (B,C), (C,B)\\}$,\n$P(E) = 0{,}4 \\cdot 0{,}3 + 0{,}3 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}4 + 0{,}3 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}3 = 0{,}8$\nAgora seja $F$ = \"Os amigos foram atendidos\".\n$P(F, E) = 2 \\cdot [\\,0{,}4 \\cdot 0{,}8 \\cdot 0{,}3 \\cdot 0{,}9 + 0{,}4 \\cdot 0{,}8 \\cdot 0{,}4 \\cdot 0{,}7 + 0{,}3 \\cdot 0{,}9 \\cdot 0{,}4 \\cdot 0{,}7\\,] = 2 \\cdot 0{,}2516 = 0{,}5032$\nSendo assim\n$P(F\\text{ dado }E) = 0{,}5032/0{,}8 = 0{,}629$\n\n**b.2)** Resolução pela \"média ponderada\":\n$P(F\\text{ dado }E) = 0{,}3 \\cdot (0{,}8 \\cdot 0{,}9) + 0{,}4 \\cdot (0{,}8 \\cdot 0{,}7) + 0{,}3 \\cdot (0{,}9 \\cdot 0{,}7) = 0{,}629$\n\n**b.3)** Resolução analítica (com a notação de b.1):\nSe $P(A)=a$, $P(B)=b$ e $P(C)=c$, então $P(E) = 2 \\cdot (ab + ac + bc)$\n$P(E,F) = 2 \\cdot [\\,0{,}8a \\cdot 0{,}9b + 0{,}8a \\cdot 0{,}7c + 0{,}9b \\cdot 0{,}7c\\,] = 1{,}44ab + 1{,}12ac + 1{,}26bc$\nlogo $P(F\\text{ dado }E) = (0{,}72ab + 0{,}56ac + 0{,}63bc)/(ab + ac + bc)$\n\n**b.4.i)** Resolução considerando denominador \"110 e 100\"\n$P(E) = 40/110 \\cdot 30/110 + 30/110 \\cdot 40/110 + 40/110 \\cdot 40/110 + 40/110 \\cdot 40/110$\n$+ 30/110 \\cdot 40/110 + 4/110 \\cdot 30/110 = 80/121 = 0{,}6612$\n$P(F, E) = 2 \\cdot [\\,40/110 \\cdot 80/100 \\cdot 30/110 \\cdot 90/100 + 40/110 \\cdot 80/100 \\cdot 30/110 \\cdot 70/100$\n$+ 30/110 \\cdot 90/100 \\cdot 30/110 \\cdot 70/100] = 2 \\cdot 0{,}1738 = 0{,}3476$\nLogo $P(F\\text{ dado }E) = 0{,}3476/0{,}6612 = 0{,}5257$\n\n**b.4.ii)** Resolução considerando denominador \"110 e 110\"\n$P(E) = 40/110 \\cdot 30/110 + 30/110 \\cdot 4/110 + 40/110 \\cdot 40/110 + 40/110 \\cdot 40/110$\n$+ 30/110 \\cdot 40/110 + 4/110 \\cdot 30/110$\n$= 2 \\cdot 40/121 = 80/121 = 0{,}6612$\n\n$P(F, E) = 2 \\cdot [\\,40/110 \\cdot 80/110 \\cdot 30/110 \\cdot 90/110 + 40/110 \\cdot 80/110 \\cdot 30/110 \\cdot 70/110$\n$+ 30/110 \\cdot 90/110 \\cdot 30/110 \\cdot 70/110]$\n$= 2 \\cdot 2103/14641 = 2 \\cdot 0{,}1436 = 0{,}2873$\nlogo $P(F\\text{ dado }E) = 0{,}2873/0{,}6612 = 0{,}4345$",
+    "c": "**c.1)** Cálculo direto considerando os dados informados\n**c.1.i)** Se calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = 0{,}9 \\cdot 0{,}3/0{,}77 = 0{,}27/0{,}77 = 0{,}351$\n\n**c.1.ii)** Se calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = 0{,}9 \\cdot 0{,}3/0{,}87 = 0{,}27/0{,}87 = 0{,}31$\n\n**c.2)** Solução analítica\n$P(B\\text{ dado }\\text{pa}) = 0{,}9b/(0{,}8a + 0{,}9b + 0{,}7c)$\n\n**c.3.i)** Resolução considerando \"110 e 100\"\nSe calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = [90/100 \\cdot 30/110]/0{,}77 = (27/110)/0{,}77 = 0{,}2455/0{,}77 = 0{,}3188$\n\nSe calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = [90/100 \\cdot 30/110]/0{,}87 = (27/110)/0{,}87 = 0{,}2821$\n\n**c.3.ii)** Resolução considerando \"110 e 110\"\nSe calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = [90/110 \\cdot 30/110]/0{,}77 = (27/121)/0{,}77 = 0{,}2231/0{,}77 = 0{,}2898$\nSe calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = [90/110 \\cdot 30/110]/0{,}87 = (27/121)/0{,}87 = 0{,}2565$"
+   }
+  }
+ },
+ "complementos": {
+  "1": {
+   "assunto": "Razão, proporção e grandezas"
+  },
+  "2": {
+   "assunto": "Combinatória e probabilidade"
+  },
+  "3": {
+   "assunto": "Geometria analítica"
+  },
+  "4": {
+   "assunto": "Exponencial e logaritmo"
+  },
+  "5": {
+   "assunto": "Geometria espacial"
+  },
+  "6": {
+   "assunto": "Funções"
+  },
+  "7": {
+   "assunto": "Termologia"
+  },
+  "8": {
+   "assunto": "Hidrostática"
+  },
+  "9": {
+   "assunto": "Ondulatória"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "Enunciado, itens e figuras (p02-c1, p02-c3, p03-c6, p03-c2, p03-c3) conferidos com p02/p03; resposta conferida com r40. Corrigido na resposta: a descrição da figura r40-f3 listava os valores vermelhos soltos (“64, 32, 32, 11...”), sem dizer onde ficam, e tratava os dois 32 (anotados ao lado dos ramos, fora de círculos) como se fossem preenchimentos; agora descreve a posição de cada valor, que é a própria resposta do item a. Observação do transcritor (campos de resolução como figuras) confirmada."
+  },
+  {
+   "numero": 2,
+   "status": "corrigida",
+   "notas": "Enunciado conferido com p02 (o caderno não traz aviso de comunicado; o aviso “Atenção: Leia o comunicado sobre esta questão no site da FUVEST” está no guia de respostas, r41–r44). Resposta conferida item a item com r41–r44: notação, Resolução Única (“questão impossível” com as justificativas), nota da Resolução por Itens e todas as resoluções a.1–a.4, b.1–b.4.ii, c.1–c.3.ii estão completas e fiéis. Corrigido: acrescentada a nota da plataforma no fim do enunciado (texto pedido, trocando “o caderno remetia” por “o guia oficial de respostas remetia”, porque o aviso está no guia, não no caderno) e o aviso “Atenção” do guia na resposta, depois do objetivo. Observações do transcritor confirmadas na imagem e mantidas como no original: “pretere B”, “4/110” em b.4.i e b.4.ii, “P(pa dado A)”. Os dados somam 110% (40+30+40): a banca aceitou “questão impossível” e várias resoluções."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Enunciado e itens conferidos com p04; resposta conferida com r45. Observação do transcritor confirmada: a banca escreve a distância sem raiz ((c−b)²+(c²−b²)² = 17, isto é, o quadrado da distância); mantido como impresso."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Enunciado, figura p04-f1 e itens conferidos com p04; resposta conferida com r46, sem divergências."
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "Enunciado, figura p06-f1 e itens conferidos com p06; resposta conferida com r47, sem divergências."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Enunciado e itens conferidos com p06; resposta conferida com r48. Observação do transcritor confirmada: no item c falta o espaço em “equação⌊x²⌋” no caderno; mantido."
+  },
+  {
+   "numero": 7,
+   "status": "corrigida",
+   "notas": "Enunciado, Note e adote e itens conferidos com p08 (o quadro e a nota de rodapé ficam depois dos itens no caderno e foram para o fim do enunciado, como mandam as instruções); resposta conferida com r21. Corrigido: na referência da nota (1), os dois-pontos antes de “2018-2021” não estão em itálico no original."
+  },
+  {
+   "numero": 8,
+   "status": "corrigida",
+   "notas": "Enunciado, quadro do manual, Note e adote e itens conferidos com p08; resposta conferida com r22 (o “Q = 240/5 · 48 mL/s” e o “p·g·h” são do original). Corrigido: a descrição de p08-f3 dizia “prédio de 12 andares” e “distâncias d” sem dizer o que elas medem; agora descreve o que o esquema mostra (12º e 4º andares com quebra, 3m por andar, d entre a laje e A e entre o piso e a torneira, h entre B e A), sem dar o valor de h."
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "Enunciado, figura p10-c1 e itens conferidos com p10; resposta conferida com r23. Corrigido: a descrição do diagrama 2 dizia que a corda vibra “no trecho restante” depois do dedo a 2/3 de L, o que sugere o terço errado; no desenho vibra o trecho de 2/3 L entre o dedo e a base, e o trecho de cima fica parado (como diz o enunciado). A descrição não diz quantos fusos aparecem, que é o que o item b pede."
+  }
+ ]
+}

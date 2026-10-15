@@ -30,7 +30,7 @@
     {
      "rotulo": "a",
      "texto": "Complete o móbile **I**, preenchendo as formas geométricas vazias com os valores que faltam para que ele esteja em equilíbrio.\n\n*Campo de resolução:* ![Móbile I, com um triângulo vazio no topo, um círculo com 10, um círculo com 3, um círculo com 4 e vários círculos vazios](fig:p03-c6)",
-     "resposta_oficial": "![Móbile I completo: os valores preenchidos pela banca aparecem em vermelho (64, 32, 32, 11, 4, 16, 8 e 8), junto com os dados do enunciado (10, 3 e 4)](fig:r40-f3)"
+     "resposta_oficial": "![Móbile I completo, com os valores da banca em vermelho: 64 no triângulo do topo; o número 32 escrito ao lado de cada um dos dois ramos que saem do topo; no ramo da esquerda, o círculo 10 sustenta o círculo 3 e um círculo com 11, e o círculo 3 sustenta um círculo com 4 e o círculo 4 do enunciado; no ramo da direita, um círculo com 16 e um móbile com dois círculos com 8](fig:r40-f3)"
     },
     {
      "rotulo": "b",
@@ -44,7 +44,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar a habilidade de analisar e modelar matematicamente uma situação-problema, formulando equações e estabelecendo estratégias de resolução.",
-   "revisao": "transcrita"
+   "assunto": "Razão, proporção e grandezas",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q02",
@@ -53,7 +54,7 @@
    "materia": "matematica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Uma padaria faz parte de um movimento que pretende combater o desperdício de alimentos e vende com descontos seus produtos próximos à data de vencimento. São montados três tipos de kits: A (doces), B (salgados) e C (mistos). No momento da compra, um cliente deve indicar apenas uma preferência entre os kits A, B ou C, mas receberá um kit surpresa (A, B ou C), conforme a disponibilidade de produtos em promoção.\n\nSabendo que 40% dos consumidores preferem o kit A, 30% preferem o kit B e 40% preferem o kit C e que a probabilidade de um cliente ter a sua preferência atendida é de 80% para o kit A, 90% para o kit B e 70% para o kit C, responda:",
+   "enunciado": "Uma padaria faz parte de um movimento que pretende combater o desperdício de alimentos e vende com descontos seus produtos próximos à data de vencimento. São montados três tipos de kits: A (doces), B (salgados) e C (mistos). No momento da compra, um cliente deve indicar apenas uma preferência entre os kits A, B ou C, mas receberá um kit surpresa (A, B ou C), conforme a disponibilidade de produtos em promoção.\n\nSabendo que 40% dos consumidores preferem o kit A, 30% preferem o kit B e 40% preferem o kit C e que a probabilidade de um cliente ter a sua preferência atendida é de 80% para o kit A, 90% para o kit B e 70% para o kit C, responda:\n\n*(Nota da plataforma: o guia oficial de respostas remetia a um comunicado da FUVEST sobre esta questão, que não está mais disponível no site. Os percentuais do enunciado somam 110%; o guia oficial de respostas aceitou tanto a indicação de que a questão é impossível quanto as resoluções mostradas abaixo.)*",
    "itens": [
     {
      "rotulo": "a",
@@ -71,8 +72,9 @@
      "resposta_oficial": "**c.1)** Cálculo direto considerando os dados informados\n**c.1.i)** Se calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = 0{,}9 \\cdot 0{,}3/0{,}77 = 0{,}27/0{,}77 = 0{,}351$\n\n**c.1.ii)** Se calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = 0{,}9 \\cdot 0{,}3/0{,}87 = 0{,}27/0{,}87 = 0{,}31$\n\n**c.2)** Solução analítica\n$P(B\\text{ dado }\\text{pa}) = 0{,}9b/(0{,}8a + 0{,}9b + 0{,}7c)$\n\n**c.3.i)** Resolução considerando \"110 e 100\"\nSe calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = [90/100 \\cdot 30/110]/0{,}77 = (27/110)/0{,}77 = 0{,}2455/0{,}77 = 0{,}3188$\n\nSe calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = [90/100 \\cdot 30/110]/0{,}87 = (27/110)/0{,}87 = 0{,}2821$\n\n**c.3.ii)** Resolução considerando \"110 e 110\"\nSe calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = [90/110 \\cdot 30/110]/0{,}77 = (27/121)/0{,}77 = 0{,}2231/0{,}77 = 0{,}2898$\nSe calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = [90/110 \\cdot 30/110]/0{,}87 = (27/121)/0{,}87 = 0{,}2565$"
     }
    ],
-   "resposta_oficial": "**Objetivo da questão:** Avaliar a habilidade de interpretar e analisar uma situação real proposta, e formular estratégias para o cálculo de probabilidades.\n\n**Notação e dados informados no problema**\n\nA: prefere A (doce) $\\qquad P(A) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }A) = 0{,}8$\nB: pretere B (salgado) $\\qquad P(B) = 0{,}3 \\qquad P(\\text{pa}\\text{ dado }B) = 0{,}9$\nC: prefere C (misto) $\\qquad P(C) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }C) = 0{,}7$\npa: o cliente é atendido\nnpa: o cliente não é atendido\n\nO problema pode ser resolvido utilizando-se uma Resolução Única ou a Resolução por Itens, como descrito abaixo.\n\n**Resolução Única**\n\n\"Questão impossível\" com justificativa\n\n**Justificativa:** A soma da probabilidade de eventos disjuntos é maior do que 1 (ou equivalentes)\n**Justificativa aceita:** Disjunto = \"cliente deve indicar apenas uma preferência\"\n\n**Resolução por Itens**\n\n**Nota:** Os critérios listados abaixo são válidos para resoluções utilizando os dados fornecidos no enunciado do problema, resoluções analíticas ou resoluções que utilizem alguma distribuição de probabilidade adequada.",
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Avaliar a habilidade de interpretar e analisar uma situação real proposta, e formular estratégias para o cálculo de probabilidades.\n\n**Atenção:** Leia o comunicado sobre esta questão no site da FUVEST\n\n**Notação e dados informados no problema**\n\nA: prefere A (doce) $\\qquad P(A) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }A) = 0{,}8$\nB: pretere B (salgado) $\\qquad P(B) = 0{,}3 \\qquad P(\\text{pa}\\text{ dado }B) = 0{,}9$\nC: prefere C (misto) $\\qquad P(C) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }C) = 0{,}7$\npa: o cliente é atendido\nnpa: o cliente não é atendido\n\nO problema pode ser resolvido utilizando-se uma Resolução Única ou a Resolução por Itens, como descrito abaixo.\n\n**Resolução Única**\n\n\"Questão impossível\" com justificativa\n\n**Justificativa:** A soma da probabilidade de eventos disjuntos é maior do que 1 (ou equivalentes)\n**Justificativa aceita:** Disjunto = \"cliente deve indicar apenas uma preferência\"\n\n**Resolução por Itens**\n\n**Nota:** Os critérios listados abaixo são válidos para resoluções utilizando os dados fornecidos no enunciado do problema, resoluções analíticas ou resoluções que utilizem alguma distribuição de probabilidade adequada.",
+   "assunto": "Combinatória e probabilidade",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q03",
@@ -100,7 +102,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os seguintes conhecimentos de geometria analítica: plano cartesiano, distância, paralelismo, intersecção de lugares geométricos, bem como a habilidade de compreender e manipular as equações de reta e de parábola.",
-   "revisao": "transcrita"
+   "assunto": "Geometria analítica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q04",
@@ -128,7 +131,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar a compreensão dos seguintes aspectos do conceito de função: domínio, imagem, valores e relação com seu gráfico. Avaliar a habilidade de modelar uma situação-problema e de resolver equações exponenciais.",
-   "revisao": "transcrita"
+   "assunto": "Exponencial e logaritmo",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q05",
@@ -156,7 +160,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar a habilidade de visualizar geometricamente figuras plana e espaciais, obtidas através de rotações e intersecções, bem como calcular áreas e volumes destas figuras.",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q06",
@@ -184,7 +189,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Compreender uma definição matemática e resolver problemas relacionados a esta definição.",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q07",
@@ -193,7 +199,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Um estudo recente feito por pesquisadores do Caltech⁽¹⁾ mostrou que, desde o início do século XXI, o volume de gelo acumulado no oceano Ártico durante o inverno diminuiu em cerca de $6000\\ \\text{km}^3$, redução em grande parte impulsionada pela mudança na espessura do gelo, passando de um padrão denominado “plurianual” para outro padrão conhecido como “gelo marinho sazonal”.\n\nSegundo os autores do estudo, o gelo mais antigo e plurianual tende a ser mais espesso e, portanto, seu derretimento é mais demorado. À medida que esse “reservatório” de gelo “antigo” marinho do Ártico se esgota e o gelo sazonal passa a predominar, espera-se que a espessura e o volume globais do gelo marinho do Ártico diminuam.\n\n**Note e adote:**\nPropriedades do gelo (plurianual ou sazonal):\nDensidade = $0{,}92\\ \\text{g/cm}^3$\nCalor específico = $2 \\times 10^{3}\\ \\text{J/kg.}^\\circ\\text{C}$\nCalor latente de fusão = $3 \\times 10^{5}\\ \\text{J/kg}$\n\n⁽¹⁾ Sahra Kacimi et al, “*Arctic snow depth, ice 3/4 thickness and volume from ICESat-2 and CryoSat-2: 2018-2021*”, Geophysical Research Letters (2022). DOI: 10.1029/2021GL097448",
+   "enunciado": "Um estudo recente feito por pesquisadores do Caltech⁽¹⁾ mostrou que, desde o início do século XXI, o volume de gelo acumulado no oceano Ártico durante o inverno diminuiu em cerca de $6000\\ \\text{km}^3$, redução em grande parte impulsionada pela mudança na espessura do gelo, passando de um padrão denominado “plurianual” para outro padrão conhecido como “gelo marinho sazonal”.\n\nSegundo os autores do estudo, o gelo mais antigo e plurianual tende a ser mais espesso e, portanto, seu derretimento é mais demorado. À medida que esse “reservatório” de gelo “antigo” marinho do Ártico se esgota e o gelo sazonal passa a predominar, espera-se que a espessura e o volume globais do gelo marinho do Ártico diminuam.\n\n**Note e adote:**\nPropriedades do gelo (plurianual ou sazonal):\nDensidade = $0{,}92\\ \\text{g/cm}^3$\nCalor específico = $2 \\times 10^{3}\\ \\text{J/kg.}^\\circ\\text{C}$\nCalor latente de fusão = $3 \\times 10^{5}\\ \\text{J/kg}$\n\n⁽¹⁾ Sahra Kacimi et al, “*Arctic snow depth, ice 3/4 thickness and volume from ICESat-2 and CryoSat-2*: *2018-2021*”, Geophysical Research Letters (2022). DOI: 10.1029/2021GL097448",
    "itens": [
     {
      "rotulo": "a",
@@ -212,7 +218,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Nesta questão pedimos para que o estudante aplique conceitos de física, como **ordens de grandeza**, conceitos de **massa, volume e densidade**, além de conhecimentos de **energia térmica e calor latente de fusão**, para resolver um problema prático: estimar o impacto do degelo do ártico no oceano. Desta forma, avaliamos a capacidade do estudante de investigar um problema do mundo real usando ferramentas conceituais além de estimular a reflexão sociocultural sobre o impacto das mudanças climáticas no derretimento do gelo do Ártico.",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q08",
@@ -230,7 +237,7 @@
     },
     {
      "rotulo": "b",
-     "texto": "Considere que uma torneira esteja instalada no 4º andar de um prédio de 12 andares (ponto B) e esteja conectada a uma caixa d’água localizada na laje desse prédio (ponto A), conforme a figura. Calcule a distância vertical $h$ e a diferença de pressão entre os pontos B e A.\n\n![Esquema de um prédio de 12 andares com a caixa d’água no alto (ponto A), um cano vertical até a torneira no 4º andar (ponto B), alturas de 3 m por andar, distâncias d e a altura h](fig:p08-f3)",
+     "texto": "Considere que uma torneira esteja instalada no 4º andar de um prédio de 12 andares (ponto B) e esteja conectada a uma caixa d’água localizada na laje desse prédio (ponto A), conforme a figura. Calcule a distância vertical $h$ e a diferença de pressão entre os pontos B e A.\n\n![Esquema de um prédio em corte, com o 12º andar no alto e o 4º andar embaixo (os andares intermediários estão omitidos por uma linha de quebra), cada um com a marcação de 3m de altura; a caixa d’água fica sobre a laje, com o ponto A no nível da água, a uma distância d acima da laje; um cano desce da caixa até a torneira no 4º andar (ponto B), que está a uma distância d acima do piso desse andar; a altura h é marcada entre B e A](fig:p08-f3)",
      "resposta_oficial": "Se a torneira estiver no 4º andar, significa que há 8 andares até a caixa d'água e a altura da coluna será de, pelo menos, $(8+1) \\cdot 3 = 27\\ m$.\n\nIsso corresponde a uma pressão na saída da torneira de $p \\cdot g \\cdot h = 1000 \\cdot 10 \\cdot 27 = 270\\ kPa$.\n\nOu seja, será, de fato, necessário ter um redutor de pressão."
     },
     {
@@ -240,7 +247,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** A hidrostática é fundamental no funcionamento de muitos sistemas cotidianos, como torneiras, encanamentos e represas. Nesta questão, pedimos para que os estudantes demonstrem habilidades como raciocínio lógico e compreensão de conceitos científicos ao determinar maneiras seguras e eficientes ao interagir com um sistema de filtragem.",
-   "revisao": "transcrita"
+   "assunto": "Hidrostática",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q09",
@@ -249,7 +257,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Considere uma mesma corda de violoncelo vibrando, em situações distintas, conforme os padrões de ondas estacionárias mostrados nos diagramas a seguir, em que a amplitude das vibrações, por clareza, está grandemente ampliada. No diagrama 1, a corda vibra no comprimento $L$ mostrado na figura. No diagrama 2, a corda está pinçada a 2/3 do comprimento $L$, de modo que não há vibração no terço restante.\n\n![Diagrama 1: corda de violoncelo vibrando em todo o comprimento L. Diagrama 2: corda pinçada por um dedo a 2/3 de L, vibrando no trecho restante](fig:p10-c1)",
+   "enunciado": "Considere uma mesma corda de violoncelo vibrando, em situações distintas, conforme os padrões de ondas estacionárias mostrados nos diagramas a seguir, em que a amplitude das vibrações, por clareza, está grandemente ampliada. No diagrama 1, a corda vibra no comprimento $L$ mostrado na figura. No diagrama 2, a corda está pinçada a 2/3 do comprimento $L$, de modo que não há vibração no terço restante.\n\n![Diagrama 1: violoncelo com uma corda desenhada vibrando entre as duas marcas que delimitam o comprimento L. Diagrama 2: um dedo pressiona a mesma corda; o trecho entre o dedo e a marca inferior, indicado como 2/3 L, aparece vibrando, e o trecho acima do dedo fica parado](fig:p10-c1)",
    "itens": [
     {
      "rotulo": "a",
@@ -268,7 +276,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Nesta questão, avaliamos os conhecimentos sobre os conceitos de ondulatória, especialmente: ondas estacionárias, relação entre frequência, comprimento de onda e velocidade, a partir de uma situação-problema que exige a aplicação desses conceitos, a reflexão sobre as implicações práticas e conceituais, e a comunicação dos resultados de forma clara e concisa.",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2024-2-d2-q10",
@@ -296,7 +305,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Nesta questão, avaliamos os conhecimentos sobre os conceitos de ondulatória, especialmente: ondas estacionárias, relação entre frequência, comprimento de onda e velocidade, a partir de uma situação-problema que exige a aplicação desses conceitos, a reflexão sobre as implicações práticas e conceituais, e a comunicação dos resultados de forma clara e concisa.",
-   "revisao": "transcrita"
+   "assunto": "Termodinâmica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q11",
@@ -324,7 +334,9 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento da pessoa candidata sobre: movimento circular uniforme e interação eletrostática (Lei de Coulomb), fazendo uma conexão com um conceito importante em física atômica e molecular. Nesta questão, verificamos se a pessoa candidata é capaz de aplicar seus conhecimentos a um contexto novo, interpretar informações apresentadas em diferentes formatos e comunicar seus resultados de forma clara e concisa.",
-   "revisao": "transcrita"
+   "assunto": "Eletrostática",
+   "revisao": "atencao",
+   "revisao_notas": "Conferido com p12 e r25. O item b do caderno diz mesmo 'o elétron e o pósitron' (confirmado na imagem); pela figura, pelo resto do enunciado e pela resposta da banca ($\\Delta t_P$, $\\vec V_p$, m/M) a segunda partícula é o próton. Mantido como no original, mas o erro muda o sentido literal da pergunta (cita uma partícula que não existe no problema): uma pessoa deve decidir se cabe uma *(Nota da plataforma: ...)* no item b. Também do original: 'de modo que distância entre as duas partículas' (falta 'a'). Figuras p12-f1, p12-c1 e r25-c2 conferidas; descrições não entregam os vetores pedidos no item a."
   },
   {
    "id": "fuvest-2024-2-d2-q12",
@@ -352,7 +364,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** A aurora polar é um fenômeno natural fascinante que ocorre nos céus dos hemisférios norte e sul da Terra. Nesta questão, buscamos avaliar conhecimentos sobre a definição de energia cinética, movimento de elétrons em campos magnéticos, processos de excitação e desexcitação de elétrons em átomos e a relação entre comprimento de onda e energia em radiação eletromagnética.",
-   "revisao": "transcrita"
+   "assunto": "Física moderna",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q13",
@@ -380,7 +393,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de estequiometria, atomística, reação de oxidação, diluição, cálculo de concentração e avaliações quantitativas.",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q14",
@@ -408,7 +422,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos sobre leitura de gráfico e de tabela, compreensão de moléculas e de reações orgânicas seguindo um modelo proposto, estequiometria e isomeria.",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q15",
@@ -436,7 +451,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de precisão, volume, densidade, massa, concentração e pH.",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q16",
@@ -464,7 +480,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de interações intermoleculares, equilíbrio químico, estequiometria.",
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q17",
@@ -492,7 +509,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de equilíbrio químico, catalisador, cálculos estequiométricos e avaliações quantitativas.",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q18",
@@ -520,7 +538,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de composição química, estequiometria, química ambiental, chuva ácida, cristalização, solubilidade, fracionamento de compostos.",
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2024-2-d2-q19",
