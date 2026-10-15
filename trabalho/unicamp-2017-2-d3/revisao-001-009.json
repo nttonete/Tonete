@@ -1,0 +1,131 @@
+{
+ "edicao": "unicamp-2017-2-d3",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 5,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As plantas crescem e se desenvolvem em ambientes com grande variação na disponibilidade de energia luminosa, apresentando importante aclimatação da fotossíntese e da respiração foliar. A figura abaixo representa a variação das trocas gasosas de duas espécies, A e B, em função do aumento da disponibilidade de luz. Valores positivos indicam fotossíntese e valores negativos, respiração.\n\n![Gráfico das trocas gasosas, em µmol O₂ m⁻² s⁻¹ (eixo vertical de −8 a 16), em função da intensidade luminosa, em µmol m⁻² s⁻¹ (eixo horizontal de 0 a 500), com duas curvas de pontos marcados. Curva A (pontos cheios): cerca de −4 em 0, −1 em 50, 2 em 100, 6 em 200 e 10 em 400, subindo até cerca de 11,5 em 500. Curva B (pontos vazios): cerca de −1 em 0, 1,5 em 50, 3 em 100, 4 em 200 e 5 em 400, quase estável até 500. As curvas se cruzam perto de 130, por volta de 3,5](fig:p07-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual espécie estaria mais apta a se desenvolver em ambientes de sub-bosque, onde a luz é um fator limitante e raramente excede $200\\ \\mu\\text{mol}\\ \\text{m}^{-2}\\ \\text{s}^{-1}$? Justifique sua resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Além de modificações fisiológicas como as citadas nas trocas gasosas, cite outras duas características das folhas que tornariam as plantas aptas a se desenvolverem em ambientes sombreados."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 8,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A braquiterapia é uma técnica médica que consiste na introdução de pequenas sementes de material radiativo nas proximidades de um tumor. Essas sementes, mais frequentemente, são de substâncias como $^{192}\\text{Ir}$, $^{103}\\text{Pd}$ ou $^{125}\\text{I}$. Estes três radioisótopos sofrem processos de decaimento através da emissão de partículas ${}^{0}_{-1}\\beta$. A equação de decaimento pode ser genericamente representada por ${}^{\\text{A}}_{\\text{p}}\\text{X} \\rightarrow {}^{\\text{A}'}_{\\text{p}'}\\text{Y} + {}^{0}_{-1}\\beta$, em que X e Y são os símbolos atômicos, A e A’ são os números de massa e p e p’ são os números atômicos dos elementos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Tomando como modelo a equação genérica fornecida, escolha apenas um dos três radioisótopos utilizados na braquiterapia, consulte a tabela periódica e escreva sua equação completa no processo de decaimento."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Os tempos de meia vida de decaimento (em dias) desses radioisótopos são: $^{192}\\text{Ir}$ (74,2), $^{103}\\text{Pd}$ (17) e $^{125}\\text{I}$ (60,2). Com base nessas informações, complete o gráfico que aparece no espaço de resolução, identificando as curvas A, B e C com os respectivos radioisótopos, e colocando os valores nas caixas que aparecem no eixo que indica o tempo.\n\n*Campo de resolução:*\n![Gráfico da quantidade de matéria, em %, em função do tempo, em dias, com grade tracejada: três curvas decrescentes partem de 100% no tempo zero. A curva que cai mais depressa (fica perto de 0 a partir da metade do eixo do tempo) é apontada por uma seta para a caixa vazia “C=”; a curva que cai mais devagar é apontada para a caixa “A=”; a curva intermediária, para a caixa “B=”. Sob o eixo do tempo, sem números, há três caixas vazias alinhadas às três primeiras linhas verticais da grade](fig:p10-c2)"
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas_corrigidas": {
+  "1": {
+   "resposta": "**Objetivo da questão:** Esta questão aborda os subtemas Mecanismos de variabilidade genética e Fundamentos da hereditariedade. Considerando a genética mendeliana e a partir de genótipos parentais conhecidos, os candidatos deveriam prever os genótipos dos descendentes de cada geração, selecionando os indivíduos para novos cruzamentos até alcançar as características desejadas de acordo com o enunciado da questão. Além de fazer os cruzamentos, os candidatos deveriam reconhecer o processo de melhoramento genético e indicar suas vantagens para a produção de alimentos.",
+   "itens": {
+    "a": "Trata-se do processo de melhoramento genético, cujas vantagens são selecionar materiais com características que levem a maior produtividade, tais como resistência à pragas e doenças e tolerância a estresses abióticos.",
+    "b": "Em três gerações.\nF1: AaBb;\nF2: AaBb; Aabb; aaBb; aabb;\nF3: aabb."
+   }
+  }
+ },
+ "complementos": {
+  "1": {
+   "assunto": "Genética"
+  },
+  "2": {
+   "assunto": "Ecologia"
+  },
+  "3": {
+   "assunto": "Microbiologia e doenças"
+  },
+  "4": {
+   "assunto": "Ecologia"
+  },
+  "5": {
+   "assunto": "Botânica"
+  },
+  "6": {
+   "assunto": "Bioquímica"
+  },
+  "7": {
+   "assunto": "Propriedades e estados da matéria"
+  },
+  "8": {
+   "assunto": "Radioatividade"
+  },
+  "9": {
+   "assunto": "Reações e estequiometria"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "resposta do item a: as Respostas esperadas imprimem “resistência à pragas” (com crase, erro do original); o rascunho trazia “a pragas”, versão da prova comentada. Restaurado o texto das Respostas esperadas. Objetivo conferido."
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "enunciado, respostas e objetivo conferidos; sem “(2 pontos)” (só aparece na prova comentada)."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "enunciado, respostas e objetivo conferidos."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "tirinha e diagrama da resposta (r10-c1) conferidos; descrição da tirinha não identifica o animal, que o aluno precisa reconhecer para montar a teia."
+  },
+  {
+   "numero": 5,
+   "status": "corrigida",
+   "notas": "descrição do gráfico só dizia que havia duas curvas; o item a manda comparar as espécies abaixo de 200 µmol m⁻² s⁻¹. A descrição agora traz os pontos lidos do gráfico e o cruzamento, sem dizer qual espécie é a resposta."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "enunciado, respostas e objetivo conferidos."
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "“parêntesis” como no caderno; objetivo sem a frase dos itens do programa; descrição dos símbolos só diz o que se vê."
+  },
+  {
+   "numero": 8,
+   "status": "corrigida",
+   "notas": "descrição do gráfico do campo de resolução não dizia qual curva leva cada caixa (A=, B=, C=), justamente o que o item b manda identificar; agora descreve a posição de cada curva e das caixas do eixo do tempo, sem nomear isótopos nem valores."
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": "observação do transcritor confirmada: a última linha da resposta do item b diz “quantidade (em massa) de CO₂ = 0,055 x 84” nas Respostas esperadas e na prova comentada (erro da banca, deveria ser NaHCO₃); mantido como no original."
+  }
+ ]
+}
