@@ -306,7 +306,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos sobre circuitos em paralelo e sobre campos magnéticos produzidos por fios que transportam correntes elétricas.",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2023-2-d2-q11",
@@ -334,7 +335,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos sobre propagação de ondas sonoras e efeito Doppler com observador e fonte em movimento.",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2023-2-d2-q12",
@@ -352,7 +354,7 @@
     },
     {
      "rotulo": "b",
-     "texto": "Texto para os itens (b) e (c):\n\nEm geral, os tempos de reação dos motoristas não são iguais. Por exemplo, se os primeiros carros estiverem envoltos em neblina ou fumaça, os tempos de reação serão *maiores* para os primeiros carros da fila e *menores* para os últimos carros da fila. Considere a tabela a seguir, que mostra os tempos de reação $T_1$, $T_2$, $\\ldots$, $T_8$ (em segundos) retratando uma situação como essa.\n\n| Índice $j$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n|---|---|---|---|---|---|---|---|---|\n| $T_j$ (s) | 4,5 | 2,3 | 1,6 | 1,0 | 0,90 | 0,75 | 0,64 | 0,56 |\n\nSe o tempo de reação de um dado carro for maior que $T_{\\text{máx}}$, este carro inevitavelmente irá colidir com o carro da frente. Em uma analogia proposta pelos autores do artigo, este carro entra no “horizonte de eventos” de um “buraco negro veicular”.\n\nSuponha agora uma outra velocidade $v_{\\text{ini}}$ tal que $T_{\\text{máx}} = 0{,}89\\ \\text{s}$. Utilizando os dados da tabela, determine, em metros, a posição do “horizonte de eventos”, ou seja, a posição $x_H$ tal que todos os carros com posição inicial $x_j \\le x_H$ inevitavelmente colidirão com o carro da frente.",
+     "texto": "<u>Texto para os itens (b) e (c):</u>\n\nEm geral, os tempos de reação dos motoristas não são iguais. Por exemplo, se os primeiros carros estiverem envoltos em neblina ou fumaça, os tempos de reação serão *maiores* para os primeiros carros da fila e *menores* para os últimos carros da fila. Considere a tabela a seguir, que mostra os tempos de reação $T_1$, $T_2$, $\\ldots$, $T_8$ (em segundos) retratando uma situação como essa.\n\n| Índice $j$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n|---|---|---|---|---|---|---|---|---|\n| $T_j$ (s) | 4,5 | 2,3 | 1,6 | 1,0 | 0,90 | 0,75 | 0,64 | 0,56 |\n\nSe o tempo de reação de um dado carro for maior que $T_{\\text{máx}}$, este carro inevitavelmente irá colidir com o carro da frente. Em uma analogia proposta pelos autores do artigo, este carro entra no “horizonte de eventos” de um “buraco negro veicular”.\n\nSuponha agora uma outra velocidade $v_{\\text{ini}}$ tal que $T_{\\text{máx}} = 0{,}89\\ \\text{s}$. Utilizando os dados da tabela, determine, em metros, a posição do “horizonte de eventos”, ou seja, a posição $x_H$ tal que todos os carros com posição inicial $x_j \\le x_H$ inevitavelmente colidirão com o carro da frente.",
      "resposta_oficial": "Pela tabela, os carros com $T > T_{\\text{max}} = 0{,}89\\ \\text{s}$ são aqueles com índice $j \\le 5$ e estarão dentro do horizonte de eventos de modo que $x_H = 5D = 100\\ \\text{m}$."
     },
     {
@@ -362,7 +364,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos de cinemática em uma situação hipotética na qual se faz uma analogia entre a física de buracos negros e um acontecimento cotidiano.",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2023-2-d2-q13",
@@ -375,7 +378,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "Complete, na folha de respostas, os átomos correspondentes a cada tipo de bolinha do modelo de etano.",
+     "texto": "Complete, na folha de respostas, os átomos correspondentes a cada tipo de bolinha do modelo de etano.\n\n*Campo de resolução:*\n\n| Molécula | Bolinha clara | Bolinha escura |\n|---|---|---|\n| Etano | | |",
      "resposta_oficial": "| Molécula | Bolinha Clara | Bolinha Escura |\n|---|---|---|\n| Etano | H | C |"
     },
     {
@@ -385,12 +388,13 @@
     },
     {
      "rotulo": "c",
-     "texto": "Considere que dois dos átomos representados pelas bolinhas claras foram substituídos por outro átomo distinto (verde) em cada molécula, como na figura a seguir. Em qual das moléculas geradas poderia ocorrer isomeria geométrica? Pinte, na tabela periódica na folha de respostas, três elementos que poderiam representar a bolinha verde.\n\n![Molécula A, modelo do etano, e molécula B, modelo do eteno, cada uma com dois átomos substituídos por bolinhas verdes](fig:p14-c6)",
+     "texto": "Considere que dois dos átomos representados pelas bolinhas claras foram substituídos por outro átomo distinto (verde) em cada molécula, como na figura a seguir. Em qual das moléculas geradas poderia ocorrer isomeria geométrica? Pinte, na tabela periódica na folha de respostas, três elementos que poderiam representar a bolinha verde.\n\n![Dois modelos de bolinhas, rotulados Molécula A e Molécula B, nos quais duas bolinhas claras de cada modelo foram trocadas por bolinhas verdes, uma em cada bolinha escura](fig:p14-c6)\n\n*Campo de resolução:*\n\n![Tabela periódica dos elementos, com os símbolos dos elementos organizados em períodos e grupos](fig:p15-c1)",
      "resposta_oficial": "Poderia ocorrer isomeria geométrica na molécula B. Quaisquer três elementos da família 7a (ou 17) da tabela periódica poderiam representar a bolinha verde."
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos sobre moléculas orgânicas, distribuição eletrônica dos átomos, isomeria geométrica e ligações químicas.",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2023-2-d2-q14",
@@ -418,7 +422,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos sobre gases e alótropos e o entendimento de um processo de obtenção de CO2.",
-   "revisao": "transcrita"
+   "assunto": "Gases",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2023-2-d2-q15",
@@ -436,7 +441,7 @@
     },
     {
      "rotulo": "b",
-     "texto": "O DCC é menos adequado para ser utilizado em solução aquosa do que o EDC por ser menos solúvel. Indique, no quadro da folha de respostas, quais tipos de interações intermoleculares justificam a diferença de solubilidade de cada uma dessas espécies em água.",
+     "texto": "O DCC é menos adequado para ser utilizado em solução aquosa do que o EDC por ser menos solúvel. Indique, no quadro da folha de respostas, quais tipos de interações intermoleculares justificam a diferença de solubilidade de cada uma dessas espécies em água.\n\n*Campo de resolução:*\n\n| | Tipo de interação intermolecular com a água |\n|---|---|\n| EDC | |\n| DCC | |",
      "resposta_oficial": "| | Tipo de interação intermolecular com a água |\n|---|---|\n| EDC | íon - dipolo permanente |\n| DCC | dipolo-permanente - dipolo permanente (London – London) |"
     },
     {
@@ -446,7 +451,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos sobre reações orgânicas, interações intermoleculares, estequiometria e solubilidade.",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2023-2-d2-q16",
@@ -474,7 +480,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos sobre reações químicas e cálculos estequiométricos, bem como a capacidade de analisar problemas atuais relacionados aos combustíveis fósseis.",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2023-2-d2-q17",
@@ -502,7 +509,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos sobre eletroquímica envolvidos na química do cotidiano.",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2023-2-d2-q18",
@@ -530,7 +538,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Avaliar os conhecimentos sobre diluição e cálculos estequiométricos, bem como a capacidade de aplicar conceitos de química analítica para resolução de problemas cotidianos, com uso de representação gráfica para apresentação de resultados.",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2023-2-d2-q19",
