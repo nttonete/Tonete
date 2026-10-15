@@ -1,0 +1,127 @@
+{
+ "edicao": "unicamp-2023-2-cet",
+ "intervalo": [
+  1,
+  10
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 8,
+   "materia": "historia",
+   "materias_extra": [
+    "geografia",
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "“Acontece, porém, que a verdade sobre a fome incomoda os governos e fere as suscetibilidades patrióticas e, por isso mesmo, são frequentemente vedadas ao grande público, pelas respectivas censuras políticas. (...) Será a calamidade da fome um fenômeno natural, inerente à própria vida, uma contingência irremovível como a morte? Ou será a fome uma praga social criada pelo próprio homem?”\n\n(CASTRO, Josué de. *Geopolítica da Fome*. Rio de Janeiro: Casa do Estudante do Brasil, 2ª ed., 1953.)\n\n“Vivemos em um país que produz muito alimento e tem muita gente passando fome. Para além do escândalo ético, isso é uma aberração em termos de organização econômica e social. No plano moral, beira o criminoso: são 33 milhões de pessoas famintas, enquanto exportamos e produzimos mais de três quilos, só de grãos, por pessoa por dia.”\n\n(DOWBOR, Ladislau. Fome, uma decisão política e corporativa. *In:* CAMPELLO, Tereza; BORTOLETTO, Ana Paula (orgs.). *Da fome à fome: diálogos com Josué de Castro*. São Paulo: Elefante, 2022, p. 181.)\n\n![Gráfico de linhas \"Insegurança alimentar no Brasil\", em % da população, com as séries Leve, Moderada e Grave, em 2004, 2009, 2013, 2017/18 e 2020](fig:p10-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para Josué de Castro, há poucos debates sobre a fome. Por que a questão da fome é ocultada dos debates contemporâneos? A insegurança alimentar é uma questão moral e política? A partir dos textos, justifique suas respostas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite um aspecto histórico e um social que explicam a existência da fome no Brasil. Analise, a partir do gráfico, o que houve com a questão da insegurança alimentar no país, desde o início do século XXI."
+    }
+   ],
+   "observacoes": "Questão da prova Interdisciplinar de Ciências Humanas; a prova comentada lista objetivos de História (documentos históricos, conteúdo programático de História e Filosofia). Resposta oficial do item a: o trecho 'sem que medidas efetivas de combate tenham sido pelo Estado' está assim no original (falta um verbo); item b: 'a fome do Brasil' também como impresso."
+  }
+ ],
+ "respostas_corrigidas": {
+  "1": {
+   "itens": {
+    "a": "A área da superfície é de $3 \\times 1 = 3\\ \\text{m}^2$. Como cada metro quadrado do papel de parede custa R\\$ 20,00, o custo total será de R\\$ 60,00.",
+    "b": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo $\\sqrt{10}$ m."
+   }
+  },
+  "5": {
+   "itens": {
+    "a": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C\\,10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b=-1$, o que nos dá $b=1/10$. Calculando agora para $t=20$ minutos, temos $Q(20)=5.000.000 \\cdot 10^{-2}=50.000$ bactérias.",
+    "b": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log\\log 2 = -3t$, ou seja, $t = 2)\\frac{1}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos.\n\n*(Nota da plataforma: as fórmulas deste trecho saíram defeituosas tanto nas Respostas Esperadas quanto na prova comentada oficial; o trecho está reproduzido como impresso na prova comentada.)*"
+   }
+  },
+  "9": {
+   "itens": {
+    "a": "O módulo da força centrípeta é dado por $|\\vec{F}_\\text{cp}| = m_\\text{H}\\,|\\vec{a}_\\text{cp}| = m_\\text{H}\\,\\omega^2 r.$\n\nCom:\n\n$$r = R_\\text{T} + h = 6400\\ \\text{km} + 600\\ \\text{km} = 7000\\ \\text{km} = 7{,}0\\times10^6\\ \\text{m}$$\n\ne\n\n$$\\omega = \\frac{2\\pi}{T_\\text{H}} = \\frac{2\\times 3}{100\\times 60}\\ \\text{rad/s} = \\frac{1}{1000}\\ \\text{rad/s} = 1{,}0\\times10^{-3}\\ \\text{rad/s}$$\n\ntemos:\n\n$$|\\vec{F}_\\text{cp}| = (1{,}1\\times10^4\\ \\text{kg})\\times(1{,}0\\times10^{-3}\\ \\text{rad/s})^2\\times(7{,}0\\times10^6\\ \\text{m}) = 7{,}7\\times10^4\\ \\text{N}.$$",
+    "b": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_w v_w = m_w \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
+   }
+  }
+ },
+ "complementos": {
+  "1": {
+   "assunto": "Geometria espacial"
+  },
+  "2": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "3": {
+   "assunto": "Trigonometria"
+  },
+  "4": {
+   "assunto": "Geometria analítica"
+  },
+  "5": {
+   "assunto": "Exponencial e logaritmo"
+  },
+  "6": {
+   "assunto": "Geometria plana"
+  },
+  "8": {
+   "assunto": "Brasil contemporâneo"
+  },
+  "9": {
+   "assunto": "Dinâmica"
+  },
+  "10": {
+   "assunto": "Óptica"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "Enunciado, figura p03-f2 e itens conferidos com p03. Resposta: as fórmulas que sumiram no PDF das Respostas esperadas (r01) foram completadas com a Resposta Esperada da prova comentada (r13): item a 'A área da superfície é de 3 x 1 = 3 m²' e item b 'no mínimo √10 m'. Resto do texto mantido das Respostas esperadas."
+  },
+  {
+   "numero": 2,
+   "status": "atencao",
+   "notas": "Enunciado conferido com p04; resposta transcrita fielmente de r01. Erro da própria banca nas Respostas esperadas, item b: o sistema auxiliar aparece como '(q-py)+y+z=1' e, simplificado, '(1-p)y+z=1-q', quando a terceira equação é x+y+z=3 (o certo seria '= 3' e '3 - q'); a conclusão '3q=p+3, ou seja, q=10/9' já usa o 3. A prova comentada (r14) traz '(q − py) + y + z = 3.', mas na linha simplificada também perdeu o número ('(1−p)y + z = − q'). Não alterei (não é buraco do PDF, é texto impresso); uma pessoa decide se troca pela versão da comentada."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Enunciado conferido com p05. Resposta conferida com r01 (notação 〖cos〗^2 do Word passada para LaTeX). A comentada (r15–r16) está mais embaralhada ('cos cos', 'sin sin', 'S = −12/8'); as Respostas esperadas estão completas e corretas (S = −3/2 e 1/2; π/6 e 5π/6), então nada a trocar."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Enunciado (índices a₁, b₁, a₂, b₂) conferido com p06. Resposta conferida com r01; a comentada (r17) tem redação um pouco diferente no item a, mas as Respostas esperadas não têm lacuna. Conta do item b confere: (−1, 1)."
+  },
+  {
+   "numero": 5,
+   "status": "atencao",
+   "notas": "Enunciado e 'Dados: log₁₀ 2 ≈ 0,3' conferidos com p07. Resposta a conferida com r02. Item b: o trecho '-□log log 2 =-3t, ou seja, t=2 )1/3≈0,1' está quebrado nas Respostas esperadas (r02) e também na prova comentada (r18: '− log log 2 = − 3t, ou seja, t = 2) 1/3 ≈ 0,1'); o texto do PDF não guarda nada além disso. Substituí pelo trecho da comentada (sem a caixa vazia), em LaTeX, e acrescentei uma Nota da plataforma avisando o defeito. A forma pretendida parece ser '−log 2 = −3t, ou seja, t = (log 2)/3 ≈ 0,1', mas não reconstruí por conta própria; uma pessoa decide se reconstrói."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Enunciado conferido com p08. Resposta conferida com r02, com os parênteses desbalanceados e o ponto faltando ('...,1) No caso') como impresso. A comentada (r18–r19) não traz os intervalos do item b; as Respostas esperadas estão completas."
+  },
+  {
+   "numero": 8,
+   "status": "corrigida",
+   "notas": "Textos, referências (itálicos), gráfico p10-f3 e itens conferidos com p10; respostas conferidas com r02–r03 (a comentada, r24, traz outra redação, mas as Respostas esperadas não têm lacuna; 'tenham sido pelo Estado' sem verbo é do original). Matéria trocada de geografia para historia (extras geografia e sociologia): a prova comentada (r23) define os objetivos da questão como de História (documentos históricos, conteúdo programático de História e Filosofia) e a resposta cobra causas históricas (concentração de terras desde a colônia, ausência de reforma agrária)."
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "Enunciado, aproximações e gráfico p11-c1 conferidos com p11. Resposta: as caixas vazias sobre F, a e p em r03–r04 são setas de vetor, confirmado na comentada (r26–r27), mantidas como \\vec. Corrigido o índice do Webb na resposta b: no original é minúsculo ($m_w v_w$), estava $m_\\text{W} v_\\text{W}$. Figura r04-c1 conferida. Contas conferem: 7,7×10⁴ N e 3×10⁶ kg·m/s."
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Enunciado (≃, ≪, sublinhados de 'frequências' e 'comprimento de onda') e figura p12-c2 conferidos com p12. Resposta conferida com r04–r05: as quatro caixas vazias no item b são '≃', confirmado na comentada (r29–r30), já transcritas como \\simeq. Contas conferem: p' = 7,5 m; D = 3,0×10⁹ anos-luz."
+  }
+ ]
+}
