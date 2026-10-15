@@ -1,0 +1,463 @@
+{
+ "edicao": "fuvest-2021-1",
+ "textos_base": {
+  "t56-58": "*As astronomers gaze into the depths of space, they do so with*\n*unease: They don’t know precisely what the universe is made of.*\n\n*Surprisingly, no one knows the stars’ exact chemical*\n*composition: how many carbon, nitrogen and oxygen atoms*\n[[5]]*they have relative to hydrogen, the most common element.*\n\n*These numbers are crucial, because they affect how stars*\n*live and die, what types of planets form and even how readily*\n*life might arise on other worlds.*\n\n*Twenty years ago, astronomers expressed confidence in the*\n[[10]]*numbers they had been working with. Now, not so much. The*\n*problem lies not in the far corners of the cosmos, but much*\n*closer to home. Astonishingly, scientists don’t know exactly*\n*what the sun is made of. As a result, they don’t know what the*\n*other stars are made of, either.*\n\n[[15]]*“The sun is a fundamental yardstick,” says Martin Asplund,*\n*an astrophysicist at the Max Planck Institute for Astrophysics, in*\n*Germany. “When we determine the abundance of a certain*\n*element in a star or a galaxy or a gas cloud anywhere in the*\n*universe, we use the sun as a reference point.”*\n\n[[20]]*The sun’s location in the Milky Way also makes it a good*\n*representative of the entire galaxy. Most stars reside in giant*\n*galaxies like the Milky Way, which makes the sun a touchstone*\n*for the entire cosmos.*\n\n*For nearly a century, astronomers have judged stars normal*\n[[25]]*or not by seeing whether their chemical compositions match the*\n*sun’s. Most stars near us do; some don’t.*\n\n*Scientific American*. 1 July 2020. Adaptado.",
+  "t59-60": "*I knew TikTok existed, but I didn´t fully understand what it was until a few months ago. I also realized that something radical, yet largely invisible, is happening on the internet – with implications we still don´t understand.*\n\n*When I was growing up, I took it for granted that the people who became famous enough to be listened to by a crowd had worked hard for that accolade and generally operated with the support of an institution or an established industry.*\n\n*The idea that I, as a teenager in my bedroom, might suddenly communicate with 100,000 people or more, would have seemed bizarre.*\n\n*Today´s kids no longer see life in these hierarchical and institutional terms. Yes, their physical worlds are often constrained by parental controls, a lack of access to the outdoors and insane over-scheduling.*\n\n*But despite that (or, more accurately, in reaction to that), they see the internet as a constantly evolving frontier, where it is still possible for a bold and lucky pioneer to grab some land or find a voice. Most voices on the internet never travel beyond a relatively small network, and much of the content that goes viral on platforms such as TikTok, YouTube or Instagram does so because of unseen institutions at work (for example, a public relations team aiming to boost a celebrity´s profile).*\n\n*Fame can suddenly appear – and then just as suddenly be taken away again, because the audience gets bored, the platform´s algorithms change or the cultural trend that a breakout video has tapped into goes out of fashion.*\n\n*For a teenager, social media can seem like a summer garden at dusk filled with fireflies: spots of lights suddenly flare up and then die down, moving in an unpredictable, capricious display.*\n\n*Is this a bad thing? We will not know for several years.*\n\n*Financial Times*. 5 February 2020. Adaptado."
+ },
+ "questoes": [
+  {
+   "numero": 31,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere três espécies de plantas (X, Y e Z) e suas características:\n\n- A planta X não possui flores, mas é polinizada pelo vento. Além disso, não possui frutos, mas suas sementes são dispersas por aves.\n- A planta Y não possui flores, nem sementes, nem frutos.\n- A planta Z possui flores e é polinizada por aves. Além disso, possui frutos e suas sementes são dispersas por aves.\n\nA que grupos pertencem as plantas X, Y e Z, respectivamente?",
+   "alternativas": {
+    "A": "Pteridófitas, angiospermas e gimnospermas.",
+    "B": "Gimnospermas, pteridófitas e angiospermas.",
+    "C": "Pteridófitas, gimnospermas e angiospermas.",
+    "D": "Angiospermas, gimnospermas e pteridófitas.",
+    "E": "Gimnospermas, angiospermas e pteridófitas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 32,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A determinação do sexo em embriões de tartaruga-de-couro depende da temperatura a que o ovo foi exposto. Isso está relacionado à ação da enzima aromatase, que converte a testosterona em estradiol. A expressão gênica e a atividade dessa enzima nas gônadas são dependentes da temperatura, conforme indicado na figura.\n\n![Gráfico da atividade da aromatase (%) em função da temperatura (°C), de cerca de 23 a 31 °C, e dois esquemas de transcrição gênica e da enzima aromatase: um a 28 a 30 °C e outro a 24 a 28 °C, este com a transcrição gênica e a aromatase marcadas com um X](fig:p10-f2)\n\nFonte: doi: 10.3389/fphys.2020.00035\n\nSobre a determinação do sexo em tartarugas-de-couro, é correto afirmar:",
+   "alternativas": {
+    "A": "A atividade máxima da aromatase determina diferenciação sexual masculina.",
+    "B": "O maior nível de transcrição do gene da aromatase coincide com a menor atividade da enzima.",
+    "C": "Em temperaturas entre 28 e 30 °C, a maioria dos embriões diferenciam-se em fêmeas.",
+    "D": "Há equilíbrio no nascimento de machos e fêmeas a 26 °C.",
+    "E": "A atividade da aromatase depende da quantidade de estradiol disponível."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 33,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No que diz respeito a infecções sexualmente transmissíveis (ISTs), identifique a relação correta entre grupo causador, um dos seus sintomas e se possui ou não vacina preventiva.",
+   "alternativas": {
+    "A": "IST: Gonorreia\nCausador: *Neisseria gonorrhoeae* (bactéria)\nUm dos possíveis sintomas: Ardor na uretra e secreção purulenta\nPossui vacina? Sim",
+    "B": "IST: Hepatite C\nCausador: HCV (bactéria)\nUm dos possíveis sintomas: Comprometimento da função do fígado\nPossui vacina? Não",
+    "C": "IST: AIDS\nCausador: HIV (vírus)\nUm dos possíveis sintomas: Erupção cutânea\nPossui vacina? Sim",
+    "D": "IST: Sífilis\nCausador: *Treponema pallidum* (verme)\nUm dos possíveis sintomas: Ferida na genitália externa (cancro)\nPossui vacina? Não",
+    "E": "IST: Condiloma acuminado (crista de galo)\nCausador: HPV (vírus)\nUm dos possíveis sintomas: Verrugas na região genital\nPossui vacina? Sim"
+   },
+   "observacoes": "As alternativas são linhas de uma tabela com colunas IST, Causador, Um dos possíveis sintomas e Possui vacina?; foram escritas em linhas rotuladas com esses cabeçalhos."
+  },
+  {
+   "numero": 34,
+   "materia": "historia",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "*Canto V Estância 81*\n\n*E foi que, de doença crua e feia,*\n*A mais que eu nunca vi, desampararam*\n*Muitos a vida, e em terra estranha e alheia*\n*Os ossos para sempre sepultaram.*\n*Quem haverá que, sem ver, o creia?*\n*Que tão disformemente ali lhe incharam*\n*As gengivas na boca, que crescia*\n*A carne e juntamente apodrecia?*\n\nLuís Vaz de Camões, *Os Lusíadas*.\n\nÉ correto afirmar que Camões, neste trecho, descreveu sintomas de",
+   "alternativas": {
+    "A": "peste bubônica, zoonose transmitida por ratos que assolou populações europeias e asiáticas no século XIV, propagada pelas viagens comerciais.",
+    "B": "escorbuto, deficiência em vitamina C, doença comum nas viagens ultramarinas europeias dos séculos XV e XVI, como a de Vasco da Gama em busca das Índias.",
+    "C": "malária, doença de ampla ocorrência nas viagens de exploradores para a África e Américas nos séculos XV e XVI.",
+    "D": "varíola, doença viral disseminada no Velho Mundo e trazida pelos navegantes dos séculos XV e XVI às colônias, onde dizimou populações nativas.",
+    "E": "leishmaniose, parasitose transmitida por mosquitos e contraída pelos primeiros exploradores da Amazônia e dos Andes durante o século XVI."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 35,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A exploração da prata americana pelos espanhóis no século XVI teve grande importância na história mundial porque",
+   "alternativas": {
+    "A": "incentivou a exploração metálica em outras regiões do globo, como Austrália e Ásia, além de facilitar a Revolução Industrial inglesa.",
+    "B": "contribuiu para o declínio do império asteca, além de causar impacto ambiental no litoral da América com a formação de cidades em áreas até então despovoadas.",
+    "C": "acelerou a extinção de formas de acúmulo de capital mercantil em escala global, substituindo-o pelo capital industrial e financeiro.",
+    "D": "conectou o continente americano com partes do extremo oriente, onde a prata também era explorada, além de atrair grandes contingentes de africanos escravizados ao Caribe.",
+    "E": "aumentou a circulação de moeda nas redes mundiais da economia europeia, além de impactar as estruturas sociais indígenas pelo crescimento da exploração de seu trabalho."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 36,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*A base física do Brasil, ao principiar o século XVIII, era profundamente diversa daquela que, mesmo numa interpretação liberal do Tratado de Tordesilhas, fora assentada no diploma de 1494. A expansão ao longo do litoral levara ao Oiapoc, no norte, e ao Prata, no sul. O* rush *do ouro estava determinando a ampliação da área oeste do mesmo modo por que a “droga do sertão” explicava a façanha da incorporação do mundo amazônico. Toda uma geografia nova, política, social e econômica se estava escrevendo na América portuguesa* [...].\n\nArthur F. Reis. “Os tratados de limites”. *História geral da civilização brasileira*, t.I, v.1, p.396.\n\nA partir da leitura do trecho e de seus conhecimentos, é correto afirmar:",
+   "alternativas": {
+    "A": "O Tratado de Tordesilhas representou uma permanente barreira à exploração econômica dos sertões portugueses da América, e só foi ultrapassada no século XVIII por sertanistas que passaram a agir junto à coroa portuguesa.",
+    "B": "A ocupação da Amazônia foi determinante na formação do território português da América porque as drogas do sertão puderam ser exploradas por longos períodos, ao contrário do efêmero ouro de Minas Gerais, Goiás e Mato Grosso.",
+    "C": "Embora a mineração tenha interiorizado a presença portuguesa no continente, a definição das fronteiras territoriais do Brasil só se completaria definitivamente muito depois, no começo do século XX.",
+    "D": "Mesmo com o *rush* minerador, a economia colonial portuguesa continuou isolada em relação aos principais circuitos econômicos europeus de sua época, situação que só se alteraria na primeira década do século XIX.",
+    "E": "A realidade econômica de Portugal e Espanha nos séculos XVII e XVIII tornou o Tratado de Tordesilhas obsoleto, uma vez que, nesse período, importava menos o comércio extrativista e mais a produção industrial."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 37,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A economia do Império do Brasil foi caracterizada por:",
+   "alternativas": {
+    "A": "Prevalecimento do trabalho assalariado imigrante e investimentos estatais na indústria primária.",
+    "B": "Desenvolvimento de relações comerciais e diplomáticas com países americanos, em detrimento das relações com os países europeus.",
+    "C": "Conjugação entre desenvolvimento agrícola e industrial, responsável por tornar o Brasil a 4ª maior economia do mundo.",
+    "D": "Crescimento progressivo da dívida externa e preponderância de uma economia agroexportadora.",
+    "E": "Redução contínua do tráfico de escravos e políticas públicas voltadas à alfabetização e capacitação profissional de trabalhadores pobres."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 38,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A Cabanagem foi uma revolta social ocorrida no norte do Brasil entre 1835 e 1840 e se insere em um contexto frequentemente chamado de “Período Regencial”. Trata-se de uma revolta que, junto a outras do mesmo período, tipifica",
+   "alternativas": {
+    "A": "o impacto, no Brasil, de conflitos de fronteira com os países hispânicos recém-formados na América.",
+    "B": "a expansão de interesses imperialistas franceses e alemães em meio à geopolítica da Segunda Revolução Industrial.",
+    "C": "a capacidade negociadora das elites imperiais em evitar que questões regionais desembocassem em conflitos armados.",
+    "D": "a persistência, no contexto nacional brasileiro, de disputas entre jesuítas e governantes em torno da exploração do trabalho escravo.",
+    "E": "o caráter violento e socialmente excludente do processo de formação do Estado nacional brasileiro."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 39,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*Uma das folhas de ontem estampou (...) o programa da recepção presidencial em que, diante do corpo diplomático, da mais fina sociedade do Rio de Janeiro, aqueles que deviam dar ao país o exemplo das maneiras mais distintas e dos costumes mais reservados elevaram o Corta-jaca à altura de uma instituição social. Mas o Corta-jaca de que eu ouvira falar há muito tempo, que vem a ser ele, Sr. Presidente? A mais baixa, a mais chula, a mais grosseira de todas as danças selvagens, a irmã gêmea do batuque, do cateretê e do samba. Mas nas recepções presidenciais o “Corta-jaca” é executado com todas as honras da música de Wagner, e não se quer que a consciência deste país se revolte, que as nossas faces se enrubesçam e que a mocidade se ria!*\n\nDiscurso do senador Rui Barbosa, *Diário do Congresso Nacional*, 8/11/1914, p. 2789.\n\nA partir do texto, identifique a alternativa correta:",
+   "alternativas": {
+    "A": "A crítica permite compreender que, apesar da mudança de regime político, as elites republicanas permaneceram adeptas da cultura cosmopolita e europeia.",
+    "B": "O discurso elogia os esforços para compatibilizar a cultura republicana com as práticas e tradições dos grupos populares.",
+    "C": "A eclosão da Primeira Guerra Mundial contribuiu para a difusão de uma política cultural de caráter nacionalista e excludente.",
+    "D": "O programa musical adotado na recepção revelava tendências modernistas ao conferir *status* de arte às danças populares.",
+    "E": "A apresentação do maxixe *Corta-jaca* indicava uma resposta para contornar a xenofobia e eugenia presentes na cultura oficial."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 40,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A ascensão de regimes autoritários na Europa nas primeiras décadas do século XX teve o amparo de milícias que arregimentaram uma legião de indivíduos de origem social heterogênea. Dentre estes grupos, destaca(m)-se:",
+   "alternativas": {
+    "A": "A Tropa de Proteção (SS), que foi uma organização paramilitar incumbida de organizar as manifestações de massa em apoio ao nazismo.",
+    "B": "Os Camisas Negras, que usaram ações violentas, intimidação e assassinatos contra opositores políticos de Mussolini.",
+    "C": "A Seção de Assalto (SA), que foi uma organização paramilitar responsável por assegurar os interesses nazistas nos territórios ocupados.",
+    "D": "As Falanges espanholas, que foram empregadas na realização de atentados contra monarquistas e membros da comunidade judaica.",
+    "E": "As milícias salazaristas, que atuaram para garantir a resistência contra os interesses portugueses na Ásia."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 41,
+   "materia": "artes",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "A imagem é considerada uma das referências do movimento artístico e cultural denominado Renascimento. Analise-a atentamente.\n\n![A Primavera, pintura de Sandro Botticelli: figuras femininas e masculinas em um bosque de laranjeiras, com uma figura feminina vestida de vermelho e branco ao centro e um cupido voando no alto](fig:p12-f3)\n\n*A Primavera*, Sandro Botticelli, século XV.\n\nEssa imagem pode ser considerada renascentista porque",
+   "alternativas": {
+    "A": "representa as personagens de forma simbólica e recorre a temas da doutrina cristã.",
+    "B": "reforça a perspectiva teocêntrica, ao representar a Virgem Maria no centro da composição pictórica.",
+    "C": "retoma o tema da pureza da alma feminina estabelecendo uma releitura da narrativa sobre o pecado original.",
+    "D": "adota o contraste dramático entre tons claros e escuros em sintonia com as tensões religiosas do período.",
+    "E": "utiliza a técnica da perspectiva tridimensional, que provoca a ilusão de profundidade e de espaço."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 42,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia com atenção os dados do quadro e da tabela, relativos à epidemia de gripe espanhola na cidade de São Paulo, em 1918.\n\nQuadro: Município de São Paulo: Características distritais por volta de 1918.\n\n| Grupo Distrital | Distritos | Características Topográficas | Classes Sociais predominantes | Tipos de Moradia | Benefícios Existentes |\n|---|---|---|---|---|---|\n| Central | Sé e Consolação. | Terrenos altos e patamares. | Burguesia e classes médias. | Mansões, sobrados e edifícios administrativos. | Sistemas de água e esgoto abrangentes, luz elétrica, telefone, linhas de bonde, ruas movimentadas e arborizadas. |\n| Intermediário | Liberdade, Bela Vista, Santa Efigênia e Santa Cecília. | Colinas e patamares. | Classes médias e principalmente proletariado. | Sobrados, chalés e cortiços. | Bondes, água, esgoto, luz e telefone apenas nas áreas próximas do distrito anterior. |\n| Periférico | Bom Retiro, Brás, Mooca e Belenzinho. | Terraços fluviais de baixadas relativamente enxutas e planícies sujeitas a inundações periódicas. | Proletariado. | Habitações coletivas e algumas vilas operárias. | Bondes, iluminação elétrica apenas nas principais vias públicas; serviços precários de água e esgoto. |\n\nTabela: Mortalidade Gripal no Município de São Paulo por distrito (15/10 a 19/12/1918).\n\n| Distritos | População | Óbitos gripais | Mortalidade por 1.000 habitantes |\n|---|---|---|---|\n| Consolação | 41.960 | 254 | 6,05 |\n| Sé | 9.993 | 64 | 6,40 |\n| Bela Vista | 40.652 | 312 | 7,67 |\n| Liberdade | 35.368 | 217 | 6,14 |\n| Santa Cecília | 49.285 | 374 | 7,59 |\n| Santa Efigênia | 37.670 | 357 | 9,48 |\n| Belenzinho | 41.698 | 557 | 13,36 |\n| Bom Retiro | 27.101 | 291 | 10,74 |\n| Brás | 61.057 | 674 | 11,04 |\n| Mooca | 62.993 | 860 | 13,65 |\n\nFonte: Claudio Bertolli Filho. *A gripe espanhola em São Paulo, 1918. Epidemia e sociedade*. Rio de Janeiro: Paz e Terra, 2003, p. 47 e p. 91 (adaptado).\n\nConsiderando as informações apresentadas, é correto afirmar:",
+   "alternativas": {
+    "A": "A mortalidade gripal verificada nos distritos do Belenzinho e da Mooca foi resultado da alta concentração demográfica associada às condições de habitação e de serviços.",
+    "B": "Os mais elevados índices de óbitos foram verificados entre os distritos que concentravam o maior contingente demográfico, independentemente do tipo de moradia e dos benefícios existentes.",
+    "C": "O número de óbitos gripais colhido no Bom Retiro atesta que não há correlação entre a topografia, o tipo de moradia e as origens sociais dos infectados.",
+    "D": "Apesar da semelhança entre as condições sanitárias e residenciais nos distritos da Sé e da Liberdade, o índice de mortalidade verificado é significativamente distinto.",
+    "E": "Os dados indicam que a epidemia alastrou-se por toda a cidade, com igual impacto sobre a população, não importando a classe, a profissão ou a topografia do distrito."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 43,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia o texto:\n\n*A corrupção nos costumes das mulheres é ainda uma coisa prejudicial ao fim que se propõe o governo, e à boa conservação das leis do Estado (...). É o que aconteceu em Esparta (...).*\n\n*Tais são as observações feitas entre os lacedemônios: no tempo da sua dominação as mulheres resolviam quase todas as questões. De resto, que diferença existe em que as mulheres governem, ou que os magistrados sejam governados por mulheres? (...) as mulheres dos lacedemônios, mesmo no caso de perigo, fizeram-lhes o maior mal possível*.\n\nAristóteles, *A política*. Rio de Janeiro: Ediouro, s./d., p. 79-80.\n\nÉ correto afirmar sobre as mulheres na Grécia Antiga:",
+   "alternativas": {
+    "A": "Obtiveram o direito à educação e acesso às escolas filosóficas da cidade-Estado de Atenas durante o período clássico.",
+    "B": "Em Esparta, recebiam educação física na infância, tinham direito à herança e administravam as propriedades na ausência dos maridos.",
+    "C": "Adquiriram poderes políticos como cidadãs apenas com o estabelecimento do Império Macedônico, sob a liderança de Alexandre Magno.",
+    "D": "Em Atenas, podiam participar de algumas discussões na Eclésia e possuíam direitos políticos durante o período da democracia.",
+    "E": "Tornaram-se legisladoras e integrantes do conselho dos mais velhos na cidade-Estado de Tebas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 44,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*[No Brasil], a transição da predominância indígena para a africana na composição da força de trabalho escrava ocorreu aos poucos ao longo de aproximadamente meio século. Quando os senhores de engenho, individualmente, acumulavam recursos financeiros suficientes, compravam alguns cativos africanos, e iam acrescentando outros à medida que capital e crédito tornavam-se disponíveis. Em fins do século XVI, a mão de obra dos engenhos era mista do ponto de vista racial, e a proporção foi mudando crescentemente em favor dos africanos importados e sua prole*.\n\nStuart Schwartz, *Segredos internos*. São Paulo: Companhia das Letras, 1988, p.68.\n\nCom base na leitura do trecho e em seus conhecimentos, pode-se afirmar corretamente que, no Brasil,",
+   "alternativas": {
+    "A": "a implementação da escravidão de origem africana não fez desaparecer a escravidão indígena, pois o emprego de ambas podia variar segundo épocas e regiões específicas.",
+    "B": "do ponto de vista senhorial, valia a pena pagar mais caro por escravos africanos porque estes viviam mais do que os escravos indígenas, que eram mais baratos.",
+    "C": "o comércio de escravos africanos foi incompatível com o comércio de indígenas porque eram exercidos por diferentes traficantes, que concorriam entre si.",
+    "D": "havia créditos disponíveis para a compra de escravos africanos, mas não de escravos indígenas, pois a Igreja estava interessada na manutenção de boas relações com os nativos.",
+    "E": "a escravização dos indígenas pelos portugueses foi inviabilizada pelo fato de que os povos nativos americanos eram contrários ao aprisionamento de seres humanos."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 45,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere as seguintes afirmações:\n\nI. Uma pessoa em um trampolim é lançada para o alto. No ponto mais alto de sua trajetória, sua aceleração será nula, o que dá a sensação de “gravidade zero”.\nII. A resultante das forças agindo sobre um carro andando em uma estrada em linha reta a uma velocidade constante tem módulo diferente de zero.\nIII. As forças peso e normal atuando sobre um livro em repouso em cima de uma mesa horizontal formam um par ação-reação.\n\nDe acordo com as Leis de Newton:",
+   "alternativas": {
+    "A": "Somente as afirmações I e II são corretas.",
+    "B": "Somente as afirmações I e III são corretas.",
+    "C": "Somente as afirmações II e III são corretas.",
+    "D": "Todas as afirmações são corretas.",
+    "E": "Nenhuma das afirmações é correta."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 46,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um vídeo bastante popular na Internet mostra um curioso experimento em que uma garrafa de água pendurada por uma corda é mantida suspensa por um palito de dente apoiado em uma mesa.\n\n![Foto de uma garrafa de água pendurada por uma corda presa a um palito apoiado na borda de uma mesa, e esquema lateral do conjunto com o palito 1 apoiado no ponto A, o palito 2, as forças F e P, as distâncias L e d e o ângulo θ](fig:p14-c2)\n\nO “truque” só é possível pelo uso de outros palitos, formando um tipo de treliça. A figura à direita da foto mostra uma visão lateral do conjunto, destacando duas das forças que atuam sobre o palito 1.\n\nNesta figura, $\\vec{\\boldsymbol{F}}$ é a força que o palito 2 exerce sobre o palito 1 (aplicada a uma distância $L$ do ponto $A$ na borda da mesa), $\\vec{\\boldsymbol{P}}$ é a componente vertical da força que a corda exerce sobre o palito 1 (aplicada a uma distância $d$ do ponto A) e $\\theta$ é o ângulo entre a direção da força $\\vec{\\boldsymbol{F}}$ e a vertical. Para que o conjunto se mantenha estático, porém na iminência de rotacionar, a relação entre os módulos de $\\vec{\\boldsymbol{F}}$ e $\\vec{\\boldsymbol{P}}$ deve ser:\n\n**Note e adote:**\n\nDespreze o peso dos palitos em relação aos módulos das forças $\\vec{\\boldsymbol{F}}$ e $\\vec{\\boldsymbol{P}}$.",
+   "alternativas": {
+    "A": "$|\\vec{\\boldsymbol{F}}| = \\frac{|\\vec{\\boldsymbol{P}}|\\,d}{L\\,\\cos(\\theta)}$",
+    "B": "$|\\vec{\\boldsymbol{F}}| = \\frac{|\\vec{\\boldsymbol{P}}|\\,d}{L\\,\\operatorname{sen}(\\theta)}$",
+    "C": "$|\\vec{\\boldsymbol{F}}| = |\\vec{\\boldsymbol{P}}|\\,\\cos(\\theta)$",
+    "D": "$|\\vec{\\boldsymbol{F}}| = \\frac{|\\vec{\\boldsymbol{P}}|\\,L\\,\\cos(\\theta)}{d}$",
+    "E": "$|\\vec{\\boldsymbol{F}}| = \\frac{|\\vec{\\boldsymbol{P}}|\\,L\\,\\operatorname{sen}(\\theta)}{d}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 47,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os *smartphones* modernos vêm equipados com um acelerômetro, dispositivo que mede acelerações a que o aparelho está submetido.\n\nO gráfico foi gerado a partir de dados extraídos por um aplicativo do acelerômetro de um *smartphone* pendurado por um fio e colocado para oscilar sob a ação da gravidade. O gráfico mostra os dados de uma das componentes da aceleração (corrigidos por um valor de referência constante) em função do tempo.\n\n![Gráfico de a_x − a_ref, em m/s², de −0,4 a 0,4, em função do tempo, em segundos, de 20 a 30 s, com uma curva oscilante](fig:p15-f1)\n\nCom base nos dados do gráfico e considerando que o movimento do *smartphone* seja o de um pêndulo simples a ângulos pequenos, o comprimento do fio é de aproximadamente:\n\n**Note e adote:**\n\nUse $\\pi = 3$.\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.",
+   "alternativas": {
+    "A": "5 cm",
+    "B": "10 cm",
+    "C": "50 cm",
+    "D": "100 cm",
+    "E": "150 cm"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 48,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma comunidade rural tem um consumo de energia elétrica de 2 MWh por mês. Para suprir parte dessa demanda, os moradores têm interesse em instalar uma miniusina hidrelétrica em uma queda d’água de 15 m de altura com vazão de 10 litros por segundo. O restante do consumo seria complementado com painéis de energia solar que produzem 40 kWh de energia por mês cada um.\n\nConsiderando que a miniusina hidrelétrica opere 24h por dia com 100% de eficiência, o número mínimo de painéis solares necessários para suprir a demanda da comunidade seria de:\n\n**Note e adote:**\n\nDensidade da água: 1 kg/litro.\n1 mês = 30 dias.\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.",
+   "alternativas": {
+    "A": "12",
+    "B": "23",
+    "C": "30",
+    "D": "45",
+    "E": "50"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 49,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Ondas estacionárias podem ser produzidas de diferentes formas, dentre elas esticando-se uma corda homogênea, fixa em dois pontos separados por uma distância $L$, e pondo-a a vibrar. A extremidade à direita é acoplada a um gerador de frequências, enquanto a outra extremidade está sujeita a uma força tensional produzida ao se pendurar à corda um objeto de massa $m_0$ mantido em repouso. O arranjo experimental é ilustrado na figura. Ajustando a frequência do gerador para $f_1$, obtém-se na corda uma onda estacionária que vibra em seu primeiro harmônico.\n\n![Esquema de uma corda vibrante de comprimento L, presa a um suporte à esquerda e a um gerador de frequência à direita, sobre uma mesa; à esquerda, a corda passa por uma polia e sustenta um objeto de massa m0](fig:p15-f4)\n\nAo trocarmos o objeto pendurado por outro de massa $M$, observa-se que a frequência do gerador para que a corda continue a vibrar no primeiro harmônico deve ser ajustada para $2f_1$. Com isso, é correto concluir que a razão $M/m_0$ deve ser:\n\n**Note e adote:**\n\nA velocidade da onda propagando-se em uma corda é diretamente proporcional à raiz quadrada da tensão sob a qual a corda está submetida.",
+   "alternativas": {
+    "A": "1/4",
+    "B": "1/2",
+    "C": "1",
+    "D": "2",
+    "E": "4"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 50,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um mol de um gás ideal percorre o processo cíclico ABCA em um diagrama $P$-$V$, conforme mostrado na figura, sendo que a etapa AB é isobárica, a etapa BC é isocórica e a etapa CA é isotérmica.\n\n![Diagrama P versus V com os pontos A, B e C, as pressões P1 e P2 no eixo vertical, os volumes V1 e V2 no eixo horizontal e setas indicando o sentido do ciclo ABCA](fig:p15-f6)\n\nConsidere as seguintes afirmações:\n\nI. O gás libera calor tanto na etapa BC quanto na etapa CA.\nII. O módulo do trabalho realizado pelo gás é não nulo tanto na etapa AB quanto na etapa BC.\nIII. O gás tem sua temperatura aumentada tanto na etapa AB quanto na etapa CA.\n\nÉ correto o que se afirma em:",
+   "alternativas": {
+    "A": "Nenhuma delas.",
+    "B": "Apenas I.",
+    "C": "Apenas II.",
+    "D": "Apenas III.",
+    "E": "Apenas I e II."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 51,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O olho humano constitui uma complexa estrutura capaz de controlar a luz recebida e produzir imagens nítidas. Em pessoas com visão normal, o olho é capaz de acomodar o cristalino para focalizar sobre a retina a luz que vem dos objetos, desde que não estejam muito próximos. Pessoas míopes, por outro lado, apresentam dificuldades em enxergar de longe. Ao focalizar objetos situados além do chamado ponto remoto (PR), a imagem forma-se à frente da retina, conforme ilustrado na figura.\n\n![Esquema de um indivíduo míope, com o objeto, o ponto remoto (PR), o cristalino e a retina](fig:p16-f1)\n\nNeste caso, lentes corretivas são necessárias a fim de que o indivíduo observe o objeto de forma nítida.\n\nQual arranjo esquemático melhor descreve a correção realizada por uma lente receitada por um oftalmologista no caso de um indivíduo míope?",
+   "alternativas": {
+    "A": "![Alternativa A: esquema com objeto, ponto remoto (PR), lente e retina](fig:p16-c1)",
+    "B": "![Alternativa B: esquema com objeto, ponto remoto (PR), lente e retina](fig:p16-c2)",
+    "C": "![Alternativa C: esquema com objeto, ponto remoto (PR), lente e retina](fig:p16-c3)",
+    "D": "![Alternativa D: esquema com objeto, ponto remoto (PR), lente e retina](fig:p16-c4)",
+    "E": "![Alternativa E: esquema com objeto, ponto remoto (PR), lente e retina](fig:p16-c5)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 52,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Dois balões negativamente carregados são utilizados para induzir cargas em latas metálicas, alinhadas e em contato, que, <u>inicialmente</u>, estavam eletricamente neutras.\n\n![Dois balões carregados negativamente, um à esquerda e outro à direita, e três latas metálicas alinhadas e em contato entre eles, rotuladas Lata 1, Lata 2 e Lata 3](fig:p16-c8)\n\nConforme mostrado na figura, os balões estão próximos, mas jamais chegam a tocar as latas. Nessa configuração, as latas 1, 2 e 3 terão, respectivamente, carga total:\n\n**Note e adote:**\n\nO contato entre dois objetos metálicos permite a passagem de cargas elétricas entre um e outro.\n\nSuponha que o ar no entorno seja um isolante perfeito.",
+   "alternativas": {
+    "A": "1: zero; 2: negativa; 3: zero.",
+    "B": "1: positiva; 2: zero; 3: positiva.",
+    "C": "1: zero; 2: positiva; 3: zero.",
+    "D": "1: positiva; 2: negativa; 3: positiva.",
+    "E": "1: zero; 2: zero; 3: zero."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 53,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em uma luminária de mesa, há duas lâmpadas que podem ser acesas individualmente ou ambas ao mesmo tempo, com cada uma funcionando sob a tensão nominal determinada pelo fabricante, de modo que a intensidade luminosa de cada lâmpada seja sempre a mesma. Entre os circuitos apresentados, indique aquele que corresponde a um arranjo que permite o funcionamento conforme essa descrição.\n\n![Cinco circuitos elétricos, numerados de (1) a (5), cada um com uma bateria, dois interruptores ou um interruptor e duas lâmpadas](fig:p16-c6)\n\n**Note e adote:**\n\nSuponha que as lâmpadas funcionem de maneira ôhmica, ou seja, da mesma forma que um resistor.",
+   "alternativas": {
+    "A": "Circuito (1)",
+    "B": "Circuito (2)",
+    "C": "Circuito (3)",
+    "D": "Circuito (4)",
+    "E": "Circuito (5)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 54,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma esfera metálica de massa $m$ e carga elétrica $+q$ descansa sobre um piso horizontal isolante, em uma região em que há um campo elétrico uniforme e também horizontal, de intensidade $E$, conforme mostrado na figura. Em certo instante, com auxílio de uma barra isolante, a esfera é erguida ao longo de uma linha vertical, com velocidade constante e contra a ação da gravidade, a uma altura total $h$, sem nunca abandonar a região de campo elétrico uniforme.\n\n![Duas posições da esfera de carga +q presa a uma barra, entre duas placas verticais, uma com sinais positivos e outra com sinais negativos, com linhas de campo elétrico horizontais: a esfera na parte inferior e, à direita, erguida até uma altura h; o vetor g aponta para baixo](fig:p17-f1)\n\nAo longo do movimento descrito, os trabalhos realizados pela força gravitacional e pela força elétrica sobre a esfera são, respectivamente:",
+   "alternativas": {
+    "A": "$mgh$ e $qEh$",
+    "B": "$-mgh$ e $0$",
+    "C": "$0$ e $-qEh$",
+    "D": "$-mgh$ e $-qEh$",
+    "E": "$mgh$ e $0$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 55,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A energia irradiada pelo Sol provém da conversão de massa em energia durante reações de fusão de núcleos de hidrogênio para produzir núcleos de hélio. Atualmente, essas reações permitem ao Sol emitir radiação luminosa a uma potência de aproximadamente $4 \\times 10^{26}$ W. Supondo que essa potência tenha sido mantida desde o nascimento do Sol, cerca de $5 \\times 10^{9}$ anos atrás, a massa correspondente àquela perdida pelo Sol até hoje é mais próxima de\n\n**Note e adote:**\n\nVelocidade da luz no vácuo: $3 \\times 10^{8}$ m/s.\nConsidere que um ano tem cerca de $3 \\times 10^{7}$ s.",
+   "alternativas": {
+    "A": "$10^{7}$kg.",
+    "B": "$10^{17}$kg.",
+    "C": "$10^{27}$kg.",
+    "D": "$10^{37}$kg.",
+    "E": "$10^{47}$kg."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 56,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t56-58",
+   "enunciado": "Segundo o texto, conhecer a composição de elementos químicos que constituem as estrelas é fundamental, pois ela, entre outros aspectos,",
+   "alternativas": {
+    "A": "fornece evidências da ligação entre as idades das estrelas.",
+    "B": "sugere a existência de planetas rochosos formados por elementos pesados.",
+    "C": "influencia na possibilidade de presença de vida em outros locais do universo.",
+    "D": "determina condições cosmológicas da evolução de aglomerados estelares.",
+    "E": "possibilita a síntese de moléculas em nuvens de gás e poeira cósmica."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 57,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t56-58",
+   "enunciado": "No texto, o astrofísico Martin Asplund emprega a frase “The sun is a fundamental yardstick” (L. 15), por considerar o Sol",
+   "alternativas": {
+    "A": "um mistério.",
+    "B": "uma estrutura.",
+    "C": "um processo.",
+    "D": "um sistema.",
+    "E": "um parâmetro."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 58,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t56-58",
+   "enunciado": "Conforme o texto, um critério tradicionalmente utilizado por astrônomos para avaliar estrelas envolve",
+   "alternativas": {
+    "A": "verificar se sua composição se assemelha à do Sol.",
+    "B": "selecionar galáxias compostas por estrelas padrão.",
+    "C": "calcular níveis de radiação estelar e de energia gravitacional.",
+    "D": "medir a densidade e grau de opacidade de nêutrons.",
+    "E": "testar a circulação atmosférica em torno dos astros."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 59,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t59-60",
+   "enunciado": "Conforme o texto, um aspecto associado ao caráter efêmero da popularidade de um usuário da internet, relativo ao uso de plataformas como TikTok, é",
+   "alternativas": {
+    "A": "a falta de conhecimento técnico dos adolescentes para o manejo de *hardware*.",
+    "B": "a perda de interesse do público pelas publicações até então atrativas.",
+    "C": "a competição entre usuários com atitudes pouco éticas.",
+    "D": "a variedade limitada dos vídeos postados, em razão do tratamento precário das imagens.",
+    "E": "a alta capacidade dos vídeos para viralizar entre grupos com interesses conflitantes."
+   },
+   "observacoes": "No texto base, o apóstrofo de “didn´t”, “don´t”, “Today´s”, “celebrity´s” e “platform´s” é um acento agudo (´) no caderno; foi mantido como impresso."
+  },
+  {
+   "numero": 60,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t59-60",
+   "enunciado": "No texto, a referência a um jardim de verão ao entardecer, repleto de vagalumes, sugere que, para os adolescentes, as mídias sociais",
+   "alternativas": {
+    "A": "são fonte de pressão e tensão na família.",
+    "B": "favorecem a comunicação dos mais tímidos.",
+    "C": "são pautadas por certa imprevisibilidade.",
+    "D": "garantem a funcionalidade de grupos.",
+    "E": "promovem igualdade de expressão."
+   },
+   "observacoes": ""
+  }
+ ]
+}
