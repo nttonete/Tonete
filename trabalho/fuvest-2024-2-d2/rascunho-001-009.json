@@ -1,0 +1,291 @@
+{
+  "edicao": "fuvest-2024-2-d2",
+  "intervalo": [
+    1,
+    9
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 1,
+      "codigo": "M01",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um móbile matemático é uma figura que simula móbiles físicos. Ela é formada por segmentos de reta e figuras planas com valores numéricos racionais positivos, de forma a buscar um equilíbrio. A figura 1 ilustra um móbile básico matemático. Para ele estar em equilíbrio, os valores devem cumprir as equações $x = ac + bd$ e $ac = bd$. Quando não aparecem valores para as letras $a$ e $b$, significa que ambas valem 1.\n\n![Figura 1: móbile básico, com um triângulo com a letra x no topo, hastes com as letras a e b e dois círculos com as letras c e d](fig:p02-c1)\n\nUm móbile pode ser composto por diversos móbiles básicos, como a figura 2. Note que, nele, tem-se 5 = 3 + 1 + 1, mantendo o móbile em equilíbrio.\n\n![Figura 2: móbile composto, com um triângulo com o número 10 no topo, um círculo com 5, um círculo com 3 e, abaixo dele, dois círculos com 1](fig:p02-c3)\n\nConsiderando os móbiles **I**, **II** e **III**, apresentados na folha de respostas, responda ao que se pede:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Complete o móbile **I**, preenchendo as formas geométricas vazias com os valores que faltam para que ele esteja em equilíbrio.\n\n*Campo de resolução:* ![Móbile I, com um triângulo vazio no topo, um círculo com 10, um círculo com 3, um círculo com 4 e vários círculos vazios](fig:p03-c6)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Determine $n \\in N$ para que o móbile **II** esteja em equilíbrio.\n\n*Campo de resolução:* ![Móbile II, com um triângulo com 912 no topo, um círculo com 2n+3 e vários círculos vazios](fig:p03-c2)"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Complete o móbile **III**, preenchendo as formas geométricas vazias com os valores que faltam para que ele esteja em equilíbrio.\n\n*Campo de resolução:* ![Móbile III, com um triângulo com 70 no topo, hastes com os números 2, 5, 7, 3, 2 e 3 e quatro círculos vazios](fig:p03-c3)"
+        }
+      ],
+      "observacoes": "Os campos de resolução com os móbiles I, II e III estão na folha de respostas (página 3 do caderno); entraram como figuras recortadas."
+    },
+    {
+      "numero": 2,
+      "codigo": "M02",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma padaria faz parte de um movimento que pretende combater o desperdício de alimentos e vende com descontos seus produtos próximos à data de vencimento. São montados três tipos de kits: A (doces), B (salgados) e C (mistos). No momento da compra, um cliente deve indicar apenas uma preferência entre os kits A, B ou C, mas receberá um kit surpresa (A, B ou C), conforme a disponibilidade de produtos em promoção.\n\nSabendo que 40% dos consumidores preferem o kit A, 30% preferem o kit B e 40% preferem o kit C e que a probabilidade de um cliente ter a sua preferência atendida é de 80% para o kit A, 90% para o kit B e 70% para o kit C, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual a probabilidade de um cliente não ter a sua preferência atendida?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Dois amigos fazem uma compra cada um, indicando preferências distintas entre si. Qual a probabilidade de ambos terem as suas preferências atendidas?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Um cliente teve a sua preferência atendida. Qual a probabilidade de que ele tenha pedido o kit B?"
+        }
+      ],
+      "observacoes": "O documento oficial de respostas traz, nesta questão, o aviso 'Atenção: Leia o comunicado sobre esta questão no site da FUVEST' (com link); o aviso não foi transcrito e o comunicado não está disponível aqui. As respostas da banca têm erros de digitação do original, mantidos: 'B: pretere B (salgado)' (no quadro de notação), '4/110' no lugar de '40/110' em b.4.i e b.4.ii, e 'P(pa dado A)' sem o símbolo de barra."
+    },
+    {
+      "numero": 3,
+      "codigo": "M03",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere a parábola $P$ dada pela equação $y = x^2$ e a reta $r$ dada pela equação $ax + by + c = 0$, onde $a$, $b$, e $c$ são constantes reais. Denote por $O = (0,0)$ a origem do sistema de coordenadas cartesiano $Oxy$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Se $a = 2$, $b = -1$ e $c = 3$, determine todos os pontos do plano cartesiano que pertencem, simultaneamente, à reta $r$ e à parábola $P$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Se $a = 4$, $b = 3$ e $c = -7$, determine o ponto da reta $r$ que está mais próximo de $O$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Considere três pontos $A$, $B$ e $C$ na parábola $P$, tais que $A = (-1,1)$, $B$ pertence ao primeiro quadrante e os segmentos $AB$ e $OC$ são paralelos. Determine $B$ e $C$ de forma que a distância de $B$ até $C$ seja $\\sqrt{17}$."
+        }
+      ],
+      "observacoes": "No documento de respostas, a expressão da distância no item c aparece sem o símbolo de raiz: '(c-b)² + (c²-b²)² = 17' (e, na linha seguinte, '1+(-2b+1)² ... = 17'). Mantido como impresso."
+    },
+    {
+      "numero": 4,
+      "codigo": "M04",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Vamos admitir que uma corda presa nas extremidades de duas hastes paralelas e de mesma altura descreve uma curva que é dada pela equação $y = 2^x + 2^{-x}$. Uma representação gráfica dessa equação, limitada por duas retas verticais paralelas ao eixo $Oy$ e onde o eixo $Ox$ indica o solo, é dada pela figura. A unidade de medida é o metro (m).\n\n![Gráfico de uma curva em forma de U entre duas retas verticais, com os eixos x e y](fig:p04-f1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual a altura mais baixa que a corda assume?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Qual será a altura das hastes se a distância entre elas for de 3 m?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Qual a distância entre dois pontos da corda que estão a uma altura de 4 m do solo?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 5,
+      "codigo": "M05",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir esboça, no plano cartesiano, a região hachurada delimitada pelo eixo $Ox$, pelo eixo $Oy$ e pela reta $x + y = 4$.\n\n![Plano cartesiano com os eixos x e y, a reta x + y = 4 e o triângulo hachurado entre a reta e os eixos](fig:p06-f1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Calcule a área da região determinada pela intersecção do plano $Oxy$ com o sólido de revolução gerado pela rotação da região hachurada quando gira em torno do eixo $Oy$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Calcule o volume do sólido de revolução gerado pela rotação da região hachurada quando gira em torno da reta vertical $x = 4$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Calcule o volume do sólido de revolução gerado pela rotação da região hachurada quando gira em torno da reta $x + y = 4$."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 6,
+      "codigo": "M06",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em matemática, define-se o *piso de* um número real $x$ como sendo o maior número inteiro menor ou igual a $x$. O símbolo para o piso de $x$ é $\\lfloor x \\rfloor$. Por exemplo: $\\lfloor 0{,}8 \\rfloor = 0$ ; $\\lfloor 1{,}2 \\rfloor = 1$ ; $\\lfloor 10 \\rfloor = 10$ ; $\\lfloor -3{,}4 \\rfloor = -4$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Determine $x$ tal que $x\\lfloor x \\rfloor = 10$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Determine todas as soluções reais da equação $\\lfloor 2x \\rfloor + \\lfloor x \\rfloor = 7$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Determine todas as soluções reais da equação$\\lfloor x^2 \\rfloor - 4\\lfloor x \\rfloor + 3 = 0$."
+        }
+      ],
+      "observacoes": "No item c do caderno não há espaço entre 'equação' e a expressão ('equação⌊x²⌋ − 4⌊x⌋ + 3 = 0'); mantido como impresso."
+    },
+    {
+      "numero": 7,
+      "codigo": "F01",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um estudo recente feito por pesquisadores do Caltech⁽¹⁾ mostrou que, desde o início do século XXI, o volume de gelo acumulado no oceano Ártico durante o inverno diminuiu em cerca de $6000\\ \\text{km}^3$, redução em grande parte impulsionada pela mudança na espessura do gelo, passando de um padrão denominado “plurianual” para outro padrão conhecido como “gelo marinho sazonal”.\n\nSegundo os autores do estudo, o gelo mais antigo e plurianual tende a ser mais espesso e, portanto, seu derretimento é mais demorado. À medida que esse “reservatório” de gelo “antigo” marinho do Ártico se esgota e o gelo sazonal passa a predominar, espera-se que a espessura e o volume globais do gelo marinho do Ártico diminuam.\n\n**Note e adote:**\nPropriedades do gelo (plurianual ou sazonal):\nDensidade = $0{,}92\\ \\text{g/cm}^3$\nCalor específico = $2 \\times 10^{3}\\ \\text{J/kg.}^\\circ\\text{C}$\nCalor latente de fusão = $3 \\times 10^{5}\\ \\text{J/kg}$\n\n⁽¹⁾ Sahra Kacimi et al, “*Arctic snow depth, ice 3/4 thickness and volume from ICESat-2 and CryoSat-2: 2018-2021*”, Geophysical Research Letters (2022). DOI: 10.1029/2021GL097448",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Estime, em kg, o acréscimo na massa de água no oceano devido ao degelo no Ártico desde o início do século XXI."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Sabendo que a área do oceano Ártico é de aproximadamente $1{,}5 \\times 10^{7}\\ \\text{km}^2$, se todo esse gelo perdido formasse uma camada sobre a superfície desse oceano, qual seria a espessura dessa camada?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Estime a mínima quantidade de energia (em joules) para derreter completamente uma tonelada de gelo inicialmente a uma temperatura de $-20\\ ^\\circ\\text{C}$."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 8,
+      "codigo": "F02",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No manual de instalação de um filtro de torneira, consta a seguinte mensagem:\n\n**Instruções para obter vazão de água recomendada:**\n\nPara filtração adequada, acima de 100 kPa utilize o **redutor de vazão** que acompanha o produto, encaixando-o no filtro.\n\n**Dica:** Caso não saiba qual a pressão no ponto de uso do filtro, meça o tempo para encher com água um copo de 240 mL. Se o tempo for menor que 6 segundos, recomenda-se encaixar o redutor de vazão na base do filtro.\n\n**Note e adote:**\nA altura padrão de cada andar de um prédio é de 3 metros.\nConsidere a água como um fluido ideal com densidade de $1000\\ \\text{kg/m}^3$.\nA vazão de um fluido em regime de fluxo constante é dada pelo produto da velocidade do fluido pela área da seção reta do tubo de escoamento.\nAceleração da gravidade ($g$) = $10\\ \\text{m/s}^2$\n$1\\ \\text{Pa} = 1\\ \\text{N/m}^2$\nConsidere $\\pi \\approx 3$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Calcule a força sobre um tampão de vedação colocado na ponta de um cano de 40 mm de diâmetro se a pressão da água no interior do cano neste local é de 100 kPa."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considere que uma torneira esteja instalada no 4º andar de um prédio de 12 andares (ponto B) e esteja conectada a uma caixa d’água localizada na laje desse prédio (ponto A), conforme a figura. Calcule a distância vertical $h$ e a diferença de pressão entre os pontos B e A.\n\n![Esquema de um prédio de 12 andares com a caixa d’água no alto (ponto A), um cano vertical até a torneira no 4º andar (ponto B), alturas de 3 m por andar, distâncias d e a altura h](fig:p08-f3)"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Para um filtro instalado em um apartamento de outro andar (sem o redutor de vazão), verifica-se que o tempo para encher um copo de 240 mL é de 5 s. Dado que o diâmetro da saída do filtro é de 4 mm, calcule a velocidade da água na saída do filtro (em m/s)."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 9,
+      "codigo": "F03",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere uma mesma corda de violoncelo vibrando, em situações distintas, conforme os padrões de ondas estacionárias mostrados nos diagramas a seguir, em que a amplitude das vibrações, por clareza, está grandemente ampliada. No diagrama 1, a corda vibra no comprimento $L$ mostrado na figura. No diagrama 2, a corda está pinçada a 2/3 do comprimento $L$, de modo que não há vibração no terço restante.\n\n![Diagrama 1: corda de violoncelo vibrando em todo o comprimento L. Diagrama 2: corda pinçada por um dedo a 2/3 de L, vibrando no trecho restante](fig:p10-c1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Um aluno afirma que, por se tratar de padrões estacionários, a velocidade de propagação de uma onda qualquer na corda é nula. Essa afirmação é correta? Justifique a sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considere agora a situação mostrada no diagrama 1. Se o comprimento $L$ fosse de 60 cm, qual seria o comprimento de onda da vibração mostrada nesse diagrama?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Suponha agora que a frequência da vibração da corda no padrão mostrado no diagrama 1 seja de 220 Hz. Determine a frequência de vibração da corda no padrão mostrado no diagrama 2."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "1": {
+      "resposta": "**Objetivo da questão:** Avaliar a habilidade de analisar e modelar matematicamente uma situação-problema, formulando equações e estabelecendo estratégias de resolução.",
+      "itens": {
+        "a": "![Móbile I completo: os valores preenchidos pela banca aparecem em vermelho (64, 32, 32, 11, 4, 16, 8 e 8), junto com os dados do enunciado (10, 3 e 4)](fig:r40-f3)",
+        "b": "Analisando o lado direito do móbile, temos que o primeiro círculo, de cima para baixo, deve valer $228$, o próximo círculo, deve valer $114$ e por fim, o último, deve valer $57$. Logo temos a seguinte equação $2n+3 = 57$, e portanto $n = 27$.",
+        "c": "Nomeando os círculos em branco como $x$, $y$, $z$, $w$, da esquerda para a direita, temos que:\n\n$$7x = 3y,\\ 2z = 3w$$\n\n$$2 \\cdot (7x+3y) = 5(2z+3w)$$\n\n$$2(7x+3y)+5(2z+3w) = 70$$\n\nResolvendo o sistema acima, obtém-se: $x = \\frac{5}{4}$, $y = \\frac{35}{12}$, $z = \\frac{7}{4}$, $w = \\frac{7}{6}$."
+      }
+    },
+    "2": {
+      "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretar e analisar uma situação real proposta, e formular estratégias para o cálculo de probabilidades.\n\n**Notação e dados informados no problema**\n\nA: prefere A (doce) $\\qquad P(A) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }A) = 0{,}8$\nB: pretere B (salgado) $\\qquad P(B) = 0{,}3 \\qquad P(\\text{pa}\\text{ dado }B) = 0{,}9$\nC: prefere C (misto) $\\qquad P(C) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }C) = 0{,}7$\npa: o cliente é atendido\nnpa: o cliente não é atendido\n\nO problema pode ser resolvido utilizando-se uma Resolução Única ou a Resolução por Itens, como descrito abaixo.\n\n**Resolução Única**\n\n\"Questão impossível\" com justificativa\n\n**Justificativa:** A soma da probabilidade de eventos disjuntos é maior do que 1 (ou equivalentes)\n**Justificativa aceita:** Disjunto = \"cliente deve indicar apenas uma preferência\"\n\n**Resolução por Itens**\n\n**Nota:** Os critérios listados abaixo são válidos para resoluções utilizando os dados fornecidos no enunciado do problema, resoluções analíticas ou resoluções que utilizem alguma distribuição de probabilidade adequada.",
+      "itens": {
+        "a": "**a.1)** Cálculo direto considerando os dados informados:\n$P(\\text{npa}) = 0{,}4 \\cdot 0{,}2 + 0{,}3 \\cdot 0{,}1 + 0{,}4 \\cdot 0{,}3 = 23/100 = 0{,}23$\n\n**a.2)** Cálculo pelo complementar considerando os dados informados:\n$P(\\text{pa}) = 0{,}4 \\cdot 0{,}8 + 0{,}3 \\cdot 0{,}9 + 0{,}4 \\cdot 0{,}7 = 0{,}87$\nlogo $P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - 0{,}87 = 0{,}13$.\n\n**a.3.i)** Cálculo considerando \"110 e 100\":\n$P(\\text{npa}) = 40/110 \\cdot 20/100 + 30/110 \\cdot 10/100 + 40/110 \\cdot 30/100 = 23/110 = 0{,}2091$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (40/110 \\cdot 80/100 + 30/110 \\cdot 90/100 + 40/110 \\cdot 70/100) = 1 - (32/110 + 27/110 + 36/110) = 1 - 87/110 = 23/110 = 0{,}2091$.\n\n**a.3.ii)** Cálculo considerando \"110 e 110\":\n$P(\\text{npa}) = 40/110 \\cdot 20/110 + 30/110 \\cdot 10/110 + 40/110 \\cdot 30/110 = 0{,}19$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (40/110 \\cdot 80/110 + 30/110 \\cdot 90/110 + 40/110 \\cdot 70/110) = 1 - (4/11 \\cdot 8/11 + 3/11 \\cdot 9/11 + 4/11 \\cdot 7/11) = 1 - (32/121 + 27/121 + 36/121) = 1 - 87/121 = 34/121 = 0{,}281$.\n\n**a.4)** Resolução analítica (fórmula geral):\nSe $P(A) = a$, $P(B) = b$ e $P(C) = c$, então $a + b + c = 1$\nDiretamente $P(\\text{npa}) = 0{,}2a + 0{,}1b + 0{,}3c$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (0{,}8a + 0{,}90b + 0{,}70c)$",
+        "b": "**b.1)** Resolução considerando os dados do problema:\nSeja $E$: \"os amigos têm preferências distintas\" $= \\{(A,B), (B,A), (A,C), (C,A), (B,C), (C,B)\\}$,\n$P(E) = 0{,}4 \\cdot 0{,}3 + 0{,}3 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}4 + 0{,}3 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}3 = 0{,}8$\nAgora seja $F$ = \"Os amigos foram atendidos\".\n$P(F, E) = 2 \\cdot [\\,0{,}4 \\cdot 0{,}8 \\cdot 0{,}3 \\cdot 0{,}9 + 0{,}4 \\cdot 0{,}8 \\cdot 0{,}4 \\cdot 0{,}7 + 0{,}3 \\cdot 0{,}9 \\cdot 0{,}4 \\cdot 0{,}7\\,] = 2 \\cdot 0{,}2516 = 0{,}5032$\nSendo assim\n$P(F\\text{ dado }E) = 0{,}5032/0{,}8 = 0{,}629$\n\n**b.2)** Resolução pela \"média ponderada\":\n$P(F\\text{ dado }E) = 0{,}3 \\cdot (0{,}8 \\cdot 0{,}9) + 0{,}4 \\cdot (0{,}8 \\cdot 0{,}7) + 0{,}3 \\cdot (0{,}9 \\cdot 0{,}7) = 0{,}629$\n\n**b.3)** Resolução analítica (com a notação de b.1):\nSe $P(A)=a$, $P(B)=b$ e $P(C)=c$, então $P(E) = 2 \\cdot (ab + ac + bc)$\n$P(E,F) = 2 \\cdot [\\,0{,}8a \\cdot 0{,}9b + 0{,}8a \\cdot 0{,}7c + 0{,}9b \\cdot 0{,}7c\\,] = 1{,}44ab + 1{,}12ac + 1{,}26bc$\nlogo $P(F\\text{ dado }E) = (0{,}72ab + 0{,}56ac + 0{,}63bc)/(ab + ac + bc)$\n\n**b.4.i)** Resolução considerando denominador \"110 e 100\"\n$P(E) = 40/110 \\cdot 30/110 + 30/110 \\cdot 40/110 + 40/110 \\cdot 40/110 + 40/110 \\cdot 40/110$\n$+ 30/110 \\cdot 40/110 + 4/110 \\cdot 30/110 = 80/121 = 0{,}6612$\n$P(F, E) = 2 \\cdot [\\,40/110 \\cdot 80/100 \\cdot 30/110 \\cdot 90/100 + 40/110 \\cdot 80/100 \\cdot 30/110 \\cdot 70/100$\n$+ 30/110 \\cdot 90/100 \\cdot 30/110 \\cdot 70/100] = 2 \\cdot 0{,}1738 = 0{,}3476$\nLogo $P(F\\text{ dado }E) = 0{,}3476/0{,}6612 = 0{,}5257$\n\n**b.4.ii)** Resolução considerando denominador \"110 e 110\"\n$P(E) = 40/110 \\cdot 30/110 + 30/110 \\cdot 4/110 + 40/110 \\cdot 40/110 + 40/110 \\cdot 40/110$\n$+ 30/110 \\cdot 40/110 + 4/110 \\cdot 30/110$\n$= 2 \\cdot 40/121 = 80/121 = 0{,}6612$\n\n$P(F, E) = 2 \\cdot [\\,40/110 \\cdot 80/110 \\cdot 30/110 \\cdot 90/110 + 40/110 \\cdot 80/110 \\cdot 30/110 \\cdot 70/110$\n$+ 30/110 \\cdot 90/110 \\cdot 30/110 \\cdot 70/110]$\n$= 2 \\cdot 2103/14641 = 2 \\cdot 0{,}1436 = 0{,}2873$\nlogo $P(F\\text{ dado }E) = 0{,}2873/0{,}6612 = 0{,}4345$",
+        "c": "**c.1)** Cálculo direto considerando os dados informados\n**c.1.i)** Se calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = 0{,}9 \\cdot 0{,}3/0{,}77 = 0{,}27/0{,}77 = 0{,}351$\n\n**c.1.ii)** Se calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = 0{,}9 \\cdot 0{,}3/0{,}87 = 0{,}27/0{,}87 = 0{,}31$\n\n**c.2)** Solução analítica\n$P(B\\text{ dado }\\text{pa}) = 0{,}9b/(0{,}8a + 0{,}9b + 0{,}7c)$\n\n**c.3.i)** Resolução considerando \"110 e 100\"\nSe calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = [90/100 \\cdot 30/110]/0{,}77 = (27/110)/0{,}77 = 0{,}2455/0{,}77 = 0{,}3188$\n\nSe calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = [90/100 \\cdot 30/110]/0{,}87 = (27/110)/0{,}87 = 0{,}2821$\n\n**c.3.ii)** Resolução considerando \"110 e 110\"\nSe calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = [90/110 \\cdot 30/110]/0{,}77 = (27/121)/0{,}77 = 0{,}2231/0{,}77 = 0{,}2898$\nSe calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = [90/110 \\cdot 30/110]/0{,}87 = (27/121)/0{,}87 = 0{,}2565$"
+      }
+    },
+    "3": {
+      "resposta": "**Objetivo da questão:** Avaliar os seguintes conhecimentos de geometria analítica: plano cartesiano, distância, paralelismo, intersecção de lugares geométricos, bem como a habilidade de compreender e manipular as equações de reta e de parábola.",
+      "itens": {
+        "a": "No caso indicado, temos que $y = 2x + 3$. Então $2x + 3 = x^2$, resolvendo a equação temos $x = -1$ ou $x = 3$. Portanto, os pontos procurados são $(-1\\,,\\,1)$ e $(3\\,,\\,9)$.",
+        "b": "No caso indicado, temos que a equação de $r$ é $4x + 3y = 7$. Seja $s$ a reta que passa pela origem e é perpendicular a $r$. O coeficiente angular de $s$ é $\\frac{3}{4}$ e a equação de $s$ é $y = \\frac{3}{4}x$. O ponto procurado é a intersecção de $r$ com $s$. Então $4x + 9/4x = 7$, e assim o ponto procurado é $\\left(\\frac{28}{25}\\,,\\,\\frac{21}{25}\\right)$.",
+        "c": "Se $B$ e $C$ pertencem a $P$, então $B = (b\\,,\\,b^2)$ e $C = (c\\,,\\,c^2)$. Para que $AB$ seja paralelo a $OC$, temos que $(b^2-1)/(b+1) = c^2/c = c$. Simplificando a expressão, temos que $b - 1 = c$. A distância de $B$ a $C$ é dada pela expressão $(c-b)^2 + (c^2-b^2\\,)^2 = 17$.\n\nSubstituindo $c$ por $b-1$, teremos $(b - 1 - b)^2 + ((b - 1)^2 - b^2)^2 = 1 + (-2b+1)^2 = 1 + 4b^2 - 4b + 1 = 4b^2 - 4b + 2 = 17$. As soluções da equação $4b^2 - 4b - 15 = 0$ são $b = -\\frac{3}{2}$ ou $b = \\frac{5}{2}$. Como $B$ deve estar no primeiro quadrante, segue que $B = \\left(\\frac{5}{2}\\,,\\,\\frac{25}{4}\\right)$ e $C = \\left(\\frac{3}{2}\\,,\\,\\frac{9}{4}\\right)$."
+      }
+    },
+    "4": {
+      "resposta": "**Objetivo da questão:** Avaliar a compreensão dos seguintes aspectos do conceito de função: domínio, imagem, valores e relação com seu gráfico. Avaliar a habilidade de modelar uma situação-problema e de resolver equações exponenciais.",
+      "itens": {
+        "a": "A altura mais baixa é quando $x = 0$. Nesse caso, $f(0) = 2^0 + 2^0 = 1 + 1 = 2$. Portanto a altura mais baixa que a corda assume é de $2$ metros.",
+        "b": "Se a distância entre as hastes é de $3\\text{m}$, a altura de cada haste será $f(\\frac{3}{2})$, isto é, $f(\\frac{3}{2}) = 2^{(3/2)} + 2^{(-3/2)} = \\sqrt{8} + 1/\\sqrt{8} = 9/\\sqrt{8} = (9\\sqrt{8})/8 = (9\\sqrt{2})/4$. Portanto a altura das hastes é de $(9\\sqrt{2})/4$ metros.",
+        "c": "Precisamos encontrar os pontos $x$ tais que $f(x) = 4$ e depois calcular a distância entre eles. Para isso precisa-se resolver a equação: $2^x + 2^{-x} = 4$, $2^x + (1/2^x) - 4 = 0$. Multiplicando por $2^x$ encontramos $2^x \\cdot 2^x + 1 - 4 \\cdot 2^x = 0$. Fazendo $y = 2^x$ temos $y^2 - 4y + 1 = 0$. Logo $y = 2 \\pm \\sqrt{3}$. Portanto $2^x = 2 \\pm \\sqrt{3}$. Aplicando log tem-se $x_1 = \\log(2 + \\sqrt{(3)})/\\log 2$ e $x_2 = \\log(2 - \\sqrt{(3)})/\\log 2$.\n\nA distância solicitada é $x_1 - x_2 = (\\log(2 + \\sqrt{3}) - \\log(2 - \\sqrt{3}))/\\log 2$."
+      }
+    },
+    "5": {
+      "resposta": "**Objetivo da questão:** Avaliar a habilidade de visualizar geometricamente figuras plana e espaciais, obtidas através de rotações e intersecções, bem como calcular áreas e volumes destas figuras.",
+      "itens": {
+        "a": "A intersecção determina um triângulo isósceles de base $8$ e altura relativa $4$. Logo $A = (8 \\cdot 4)/2 = 16$.",
+        "b": "A figura obtida é dada por um cilindro de raio $4$ e altura $4$, retirando-se dele um cone invertido de raio $4$ e altura $4$.\n\nO volume do cilindro é dado por $V(\\text{cilindro}) = \\pi \\cdot 4^2 \\cdot 4 = 64 \\cdot \\pi$.\n\nO volume do cone é dado por $V(\\text{cone}) = 1/3\\ (\\pi \\cdot 4^2 \\cdot 4) = 64\\pi/3$.\n\nO volume pedido é dado por: $V = 64\\pi - 64\\pi/3 = 128/3\\ \\pi$.",
+        "c": "Pela geometria do problema, o sólido de revolução obtido são dois cones unidos pela base, com raio da base de medida $2\\sqrt{2}$ e altura (em cada cone) de $2\\sqrt{2}$. Então o volume pedido é dado por $V = 2 \\cdot 1/3 \\cdot (\\pi(2\\sqrt{2})^2 \\cdot 2\\sqrt{2}) = (32\\sqrt{2}\\,\\pi)/3$."
+      }
+    },
+    "6": {
+      "resposta": "**Objetivo da questão:** Compreender uma definição matemática e resolver problemas relacionados a esta definição.",
+      "itens": {
+        "a": "Se $n \\in N$, temos que se $n \\leq x < n + 1$ então $\\lfloor x \\rfloor = n$. Daí $x\\lfloor x \\rfloor = nx$ e $n^2 \\leq x\\lfloor x \\rfloor < n(n+1)$.\n\nPara $n = 3$ tem-se $9 \\leq x\\lfloor x \\rfloor < 12$. Portanto $3x = 10$, o que implica que $x = 10/3$.",
+        "b": "**b.i)** apresentar que a solução da equação requer que $\\lfloor x \\rfloor = 2$ e $\\lfloor 2x \\rfloor = 5$ e solucionar, apresentando os cálculos, as equações $\\lfloor x \\rfloor = 2$ e $\\lfloor 2x \\rfloor = 5$ para obter o intervalo $[2{,}5\\,,\\,3)$ como conjunto solução.\n\n**b.ii)** escrever $x = \\lfloor x \\rfloor + r$ onde $0 \\leq r < 1$ e considerar as situações\n▪ $0 \\leq r < 1/2$: nesse caso $3\\lfloor x \\rfloor = 7$ o que não pode acontecer pois $\\lfloor x \\rfloor$ é inteiro;\n▪ $1/2 \\leq r < 1$: nesse caso $3\\lfloor x \\rfloor + 1 = 7$ e portanto $\\lfloor x \\rfloor = 2$. Logo $x = \\lfloor x \\rfloor + r \\in [2{,}5\\,,\\,3)$",
+        "c": "Segue da equação dada que $\\lfloor x^2 \\rfloor = 4\\lfloor x \\rfloor - 3$. Se $x < 1$, temos que $4\\lfloor x \\rfloor - 3 \\leq -3$ e $\\lfloor x^2 \\rfloor \\geq 0$ e, se $x \\geq 4$, temos que $\\lfloor x^2 \\rfloor - 4\\lfloor x \\rfloor + 3 \\geq \\lfloor x \\rfloor^2 - 4\\lfloor x \\rfloor + 3 > 0$. Logo, para que $\\lfloor x \\rfloor^2 - 4\\lfloor x \\rfloor + 3 = 0$ restam apenas as opções:\n\n▪ $\\lfloor x \\rfloor = 1$: implica que $\\lfloor x^2 \\rfloor = 1$ e, portanto, $1 \\leq x < \\sqrt{2}$;\n▪ $\\lfloor x \\rfloor = 2$: implica que $\\lfloor x^2 \\rfloor = 5$ e, portanto, $\\sqrt{5} \\leq x < \\sqrt{6}$;\n▪ $\\lfloor x \\rfloor = 3$: implica que $\\lfloor x^2 \\rfloor = 9$ e, portanto, $3 \\leq x < \\sqrt{10}$.\n\nPortanto, as soluções reais da equação são exatamente os elementos do conjunto:\n\n$$[1,\\sqrt{2}) \\cup [\\sqrt{5},\\sqrt{6}) \\cup [3,\\sqrt{10}).$$"
+      }
+    },
+    "7": {
+      "resposta": "**Objetivo da questão:** Nesta questão pedimos para que o estudante aplique conceitos de física, como **ordens de grandeza**, conceitos de **massa, volume e densidade**, além de conhecimentos de **energia térmica e calor latente de fusão**, para resolver um problema prático: estimar o impacto do degelo do ártico no oceano. Desta forma, avaliamos a capacidade do estudante de investigar um problema do mundo real usando ferramentas conceituais além de estimular a reflexão sociocultural sobre o impacto das mudanças climáticas no derretimento do gelo do Ártico.",
+      "itens": {
+        "a": "Dado que o volume é $V = 6000\\ \\text{km}^3$ e a densidade é $d = 0{,}92\\ \\text{g/cm}^3$, o acréscimo $M$ na massa é dado por:\n\n$$M = d \\cdot V = (0{,}92 \\cdot g \\cdot 10^{6} \\cdot m^{-3}) \\cdot (6 \\cdot 10^{3} \\cdot 10^{9} \\cdot m^{3}) = 5{,}52 \\cdot 10^{18}\\ g = 5{,}52 \\cdot 10^{15}\\ kg$$",
+        "b": "A relação entre o volume de gelo $V$, a área do oceano $A$ e a espessura do gelo $h$ é $V = A \\cdot h$. Sendo $V = 6 \\cdot 10^{12}\\ \\text{m}^3$ e $A = 15 \\cdot 10^{12}\\ \\text{m}^2$, encontramos:\n\n$$h = \\frac{6 \\cdot 10^{12} \\cdot m^{3}}{15 \\cdot 10^{12} \\cdot m^{2}} = 0{,}4\\ m = 40\\ cm$$",
+        "c": "O calor necessário para derreter o gelo será a soma do calor necessário para elevar sua temperatura até o ponto de fusão mais o calor latente de fusão:\n\n$$Q = mc\\Delta T + mL = \\left[(10^{3} \\cdot kg) \\cdot \\frac{(2 \\cdot 10^{3} \\cdot J)}{kg \\cdot C} \\cdot (0 - (-20) \\cdot C)\\right] + \\left[(10^{3} \\cdot kg) \\cdot \\frac{(3 \\cdot 10^{5} \\cdot J)}{kg}\\right] = 3{,}4 \\cdot 10^{8}\\ J$$"
+      }
+    },
+    "8": {
+      "resposta": "**Objetivo da questão:** A hidrostática é fundamental no funcionamento de muitos sistemas cotidianos, como torneiras, encanamentos e represas. Nesta questão, pedimos para que os estudantes demonstrem habilidades como raciocínio lógico e compreensão de conceitos científicos ao determinar maneiras seguras e eficientes ao interagir com um sistema de filtragem.",
+      "itens": {
+        "a": "A área $A$ do anel de vedação é de:\n\n$$A = \\pi\\left(\\frac{D}{2}\\right)^2 = 3 \\cdot (20 \\cdot 10^{-3})^2 = 1200 \\cdot 10^{-6} = 1{,}2 \\cdot 10^{-3}\\ m^2$$\n\nLogo, a força $F$ será:\n\n$$F = P \\cdot A = 100 \\cdot 10^{3} \\cdot 1{,}2 \\cdot 10^{-3} = 120\\ N$$",
+        "b": "Se a torneira estiver no 4º andar, significa que há 8 andares até a caixa d'água e a altura da coluna será de, pelo menos, $(8+1) \\cdot 3 = 27\\ m$.\n\nIsso corresponde a uma pressão na saída da torneira de $p \\cdot g \\cdot h = 1000 \\cdot 10 \\cdot 27 = 270\\ kPa$.\n\nOu seja, será, de fato, necessário ter um redutor de pressão.",
+        "c": "Se o tempo para encher um copo de 240 mL é 5 segundos, logo a vazão será $Q = \\frac{240}{5} \\cdot 48\\ mL/s$.\n\nComo $1\\ mL = 10^{-6}\\ m^3$, temos $Q = \\frac{\\Delta V}{\\Delta t} = \\frac{240 \\cdot 10^{-6}}{5} = 48 \\cdot 10^{-6}\\ m^3$.\n\nA área será $A = \\pi \\cdot \\left(\\frac{D^2}{2}\\right) = 3 \\cdot (2 \\cdot 10^{-3})^2 = 1{,}2 \\cdot 10^{-5}\\ m^2$.\n\nA velocidade será $Q = A \\cdot v \\rightarrow v = \\frac{Q}{A} = \\frac{4{,}8 \\cdot 10^{-5}}{1{,}2 \\cdot 10^{-5}} = 4\\ m/s$."
+      }
+    },
+    "9": {
+      "resposta": "**Objetivo da questão:** Nesta questão, avaliamos os conhecimentos sobre os conceitos de ondulatória, especialmente: ondas estacionárias, relação entre frequência, comprimento de onda e velocidade, a partir de uma situação-problema que exige a aplicação desses conceitos, a reflexão sobre as implicações práticas e conceituais, e a comunicação dos resultados de forma clara e concisa.",
+      "itens": {
+        "a": "Uma onda estacionária é produzida pela interferência de duas ondas progressivas propagando-se em sentidos opostos ao longo da corda. Cada uma dessas ondas tem velocidade não nula, e sua combinação produz um padrão estacionário. Logo, a afirmação é falsa.",
+        "b": "A figura mostra que a vibração define $1/2$ comprimento de onda, de modo que cada comprimento de onda mede $2L = 120\\ \\text{cm}$.",
+        "c": "Como a corda é a mesma, a velocidade $v$ de propagação é a mesma. Pela relação $v = \\lambda f$, sendo $\\lambda$ o comprimento de onda e $f$ a frequência, vale $\\lambda_1 \\cdot f_1 = \\lambda_2 \\cdot f_2$, ou seja, $f_2 = f_1 \\cdot (\\lambda_1/\\lambda_2)$.\n\nDado que, no diagrama 2, o comprimento de onda é $2/3$ daquele no diagrama 1, vale $f_2/f_1 = \\lambda_1/\\lambda_2 = 3/2$ e, portanto, $f_2 = 220 \\cdot 3/2 = 330\\ \\text{Hz}$."
+      }
+    }
+  }
+}

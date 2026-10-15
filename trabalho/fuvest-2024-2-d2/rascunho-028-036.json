@@ -143,6 +143,75 @@
         }
       ],
       "observacoes": ""
+    },
+    {
+      "numero": 34,
+      "codigo": "H04",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Capa do álbum No agreement, de Fela Anikulapo-Kuti and Afrika 70, com os dizeres “Black Consciousness”, “Total Emancipation”, “Decolonization”, “No Agreement”, “Justice”, “Black Philosophy”, “Freedom” e “Pan Afrikanism”](fig:p34-f1)\n\nDisponível em https://felakuti.com/us/.\n\nA imagem reproduz a capa do álbum *No agreement* (Sem acordo) do saxofonista e compositor nigeriano Fela Kuti, lançado em 1977. Suas canções trazem forte mensagem de repúdio ao passado colonial e à condição pós-colonial.\n\nA partir das mensagens da capa do álbum, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O que foi o Pan-africanismo?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Como se relacionam as noções de *black consciousness* e *total emancipation*?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Qual o significado da afirmação *No agreement* no cenário das sociedades africanas após as emancipações políticas?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 35,
+      "codigo": "H05",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Fotografia em preto e branco de manifestantes vistos de costas diante de uma multidão; na jaqueta de um deles, um cartaz com o texto legível “Mankind must put an end to war, or”](fig:p36-f1)\n\nTradução do texto legível na imagem: “A Humanidade precisa pôr um fim à guerra, ou... um fim”.\n“Anti-Vietnam war march. Washington”, D.C., USA. October 21st, 1967.\nMarc Riboud / Magnum Photos.\n\n![Fotografia em preto e branco de uma jovem segurando uma flor diante de soldados da Guarda Nacional com fuzis e baionetas](fig:p36-f2)\n\n“Confronting the American National Guard outside the Pentagon during the 1967 anti-Vietnam march”. Washington D.C., 1967.\nMarc Riboud / Magnum Photos.\n\nFonte das imagens: https://www.magnumphotos.com/newsroom/politics/behind-the-image-protesting-vietnam-war-with-flower/.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Que aspecto relativo à Guerra do Vietnã é apresentado nas imagens?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Identifique um elemento de cada imagem que revele a posição dos manifestantes diante da Guerra do Vietnã."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Cite duas razões que contribuíram para o fortalecimento da mobilização política exposta nas imagens."
+        }
+      ],
+      "observacoes": "A foto da esquerda termina cortada no original (a frase do cartaz aparece incompleta); as figuras são as automáticas p36-f1 e p36-f2, conferidas."
+    },
+    {
+      "numero": 36,
+      "codigo": "H06",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "| Indicadores Macroeconômicos Selecionados | 1968 | 1969 | 1970 | 1971 | 1972 | 1973 |\n|---|---|---|---|---|---|---|\n| Crescimento do PIB brasileiro (%) | 9,8 | 9,5 | 10,4 | 11,3 | 11,9 | 14,0 |\n| Inflação brasileira (IGP, % a.a.) | 25,5 | 19,3 | 19,3 | 19,5 | 15,7 | 15,5 |\n| População brasileira (mil habitantes) | 88.337 | 90.733 | 93.139 | 95.551 | 97.975 | 100.417 |\n| Crescimento do PIB mundial (%) | 4,5 | 6,0 | 3,4 | 3,7 | 4,7 | 5,9 |\n| Crescimento do PIB na América Latina (%) | 6,9 | 7,1 | 6,9 | 6,7 | 6,9 | 8,4 |\n\nTabela elaborada a partir dos dados disponíveis em: GIAMBIAGI, F. et alii. (orgs.). *Economia Brasileira Contemporânea*. Rio de Janeiro: Campus, 2005, p. 247.\n\nA partir dos indicadores macroeconômicos selecionados, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual indicador da tabela justifica o argumento de que, à época, o Brasil vivia um “milagre econômico”?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Compare as taxas de crescimento do PIB brasileiro com as taxas de crescimento do PIB nos conjuntos “América Latina” e “mundial”, referidos na tabela, e caracterize o comportamento da inflação no período de 1968 a 1973."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Por que o chamado milagre econômico não foi acompanhado pelo aumento do poder aquisitivo das camadas sociais mais pobres? Indique dois motivos."
+        }
+      ],
+      "observacoes": ""
     }
   ],
   "respostas": {
@@ -193,6 +262,30 @@
         "c": "A extrema violência do bombardeamento de Hiroshima e seus efeitos nefastos geraram negociações para o estabelecimento de tratados de dissuasão e contribuíram para o crescimento de uma consciência acerca da ameaça que o armamentismo representava para sobrevivência humana. A catástrofe também teve desdobramentos relevantes no diz que respeito à agenda ambientalista e pacifista."
       },
       "resposta": "**Objetivo da questão:** Comparar duas destruições de cidades, afastadas por dezenove séculos e provocadas por ações bastante distintas entre si. Refletir sobre o ato extremo do lançamento de uma bomba atômica sobre Hiroshima, ao fim da II Guerra Mundial, e de suas consequências para as estratégias de contenção militar nos conflitos da época conhecida como Guerra Fria."
+    },
+    "34": {
+      "itens": {
+        "a": "O pan-africanismo foi um movimento iniciado no final século XIX que defendia união, solidariedade, valorização cultural e resistência dos povos africanos ante a ação colonialista europeia no continente e, depois, ante o legado colonial, no contexto da diáspora africana.",
+        "b": "O termo “consciência negra” refere-se a uma consciência positiva da negritude em oposição às formas coloniais marcadas pelo preconceito e pelo racismo contra as populações de origem africana. Tal consciência afirmativa contribuiu no projeto de total emancipação política, econômica e cultural dos povos africanos e de origem e ascendência africana",
+        "c": "Ela designa o repúdio às fronteiras artificiais criadas pela ação dos colonizadores e aponta o desencanto diante dos rumos das sociedades africanas pós-emancipação, marcados por guerras civis decorrentes de conflitos étnicos e religiosos. “Sem acordo” indica oposição crítica aos problemas e impasses herdados da experiência colonial."
+      },
+      "resposta": "**Objetivo da questão:** Reconhecer a crítica de um músico nigeriano ao passado colonial e à condição pós-colonial das sociedades africanas. Caracterizar formas de reação e resistência africanas, em meio ao processo de emancipação política e de constituição de identidades."
+    },
+    "35": {
+      "itens": {
+        "a": "O aspecto comum entre as imagens é a emergência de um amplo movimento pacifista e contrário à continuação da guerra.",
+        "b": "Uma jovem se contrapõe à beligerância dos soldados, mostrando-lhes uma flor. Um jovem ostenta palavras de ordem pelo fim da guerra.",
+        "c": "Entre as razões que podem ser citadas: os milhares de mortes de jovens recrutados pelo Exército dos Estados Unidos e as notícias sobre as ações militares empregadas pelas forças norte-americanas na guerra, que atingiam a população civil do Vietnã."
+      },
+      "resposta": "**Objetivo da questão:** Caracterizar a pressão da opinião pública estadunidense sobre as autoridades do país para por fim à Guerra do Vietnã."
+    },
+    "36": {
+      "itens": {
+        "a": "O crescimento do PIB brasileiro foi constante e significativo no período (entre 9,8 e 14%).",
+        "b": "O crescimento do PIB brasileiro foi superior ao dos conjuntos “América Latina” e “Mundial” referidos na tabela, variando 4,2%. A inflação, embora tenha se mantido num patamar elevado, apresentou declínio significativo, com queda de 10% entre 1968 e 1973.",
+        "c": "O crescimento econômico do período do \"milagre brasileiro\" teve como pilares, no campo econômico: forte participação do Estado em setores estratégicos, participação da iniciativa privada brasileira e significativos aportes de capital estrangeiro (com o objetivo de incentivar o crescimento industrial e melhorar a infraestrutura nacional, sem abandonar os setores agroexportador e minerador). Neste contexto, em meio à inflação elevada e ao endividamento do Estado, houve, no campo social, a prática de arrocho salarial com o objetivo de aumentar os lucros privados e esvaziamento de políticas públicas voltadas para a redistribuição de riquezas e a garantia de direitos sociais. Tal quadro foi agravado pelo caráter autoritário do regime, que perseguia a oposição política e diversos movimentos sociais, cenário agravou a histórica desigualdade social e a concentração de renda no país."
+      },
+      "resposta": "**Objetivo da questão:** Refletir sobre as características e contradições do modelo de crescimento econômico verificado no período do regime militar brasileiro."
     }
   }
 }

@@ -239,7 +239,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "No espaço de respostas, a figura A ilustra uma situação imaginária na qual o Sol, um planeta hipotético $P$, e um objeto trans-netuniano *OTN* são representados ao longo de uma linha reta. As distâncias de $P$ e *OTN* ao Sol são apresentadas na figura A em unidades astronômicas, UA (1 UA = distância da Terra ao Sol). Supondo que a razão entre a massa $m_P$ do planeta $P$ e a massa $m_{\\text{Sol}}$ do Sol seja dada por $\\frac{m_P}{m_{\\text{Sol}}} \\simeq 2\\times10^{-5}$, para a situação da figura A, calcule:\n\n![Figura A: o Sol, o planeta P e o objeto OTN representados ao longo de uma linha reta; uma seta indica a distância de 520 UA do Sol até P e outra, a distância de 624 UA do Sol até OTN; duas órbitas curvas passam por P e por OTN](fig:p12-c1)\n\n(i) a distância $d$ entre o objeto *OTN* e o planeta $P$;\n(ii) a razão $q = |\\vec{F}_P|\\,/\\,|\\vec{F}_{\\text{Sol}}|$ entre os módulos das forças gravitacionais que o planeta $P$ $\\left(\\vec{F}_P\\right)$ e o Sol $\\left(\\vec{F}_{\\text{Sol}}\\right)$ exercem sobre *OTN*.",
+     "texto": "No espaço de respostas, a figura A ilustra uma situação imaginária na qual o Sol, um planeta hipotético $P$, e um objeto trans-netuniano *OTN* são representados ao longo de uma linha reta. As distâncias de $P$ e *OTN* ao Sol são apresentadas na figura A em unidades astronômicas, UA (1 UA = distância da Terra ao Sol). Supondo que a razão entre a massa $m_P$ do planeta $P$ e a massa $m_{\\text{Sol}}$ do Sol seja dada por $\\frac{m_P}{m_{\\text{Sol}}} \\simeq 2\\times10^{-5}$, para a situação da figura A, calcule:\n\n(i) a distância $d$ entre o objeto *OTN* e o planeta $P$;\n(ii) a razão $q = |\\vec{F}_P|\\,/\\,|\\vec{F}_{\\text{Sol}}|$ entre os módulos das forças gravitacionais que o planeta $P$ $\\left(\\vec{F}_P\\right)$ e o Sol $\\left(\\vec{F}_{\\text{Sol}}\\right)$ exercem sobre *OTN*.\n\n![Figura A: o Sol, o planeta P e o objeto OTN representados ao longo de uma linha reta; uma seta indica a distância de 520 UA do Sol até P e outra, a distância de 624 UA do Sol até OTN; duas órbitas curvas passam por P e por OTN](fig:p12-c1)",
      "resposta_oficial": "i) $d = d_{\\text{OTN\\_Sol}} - d_{\\text{P\\_Sol}} = (624 - 520)\\ \\text{UA} = 104\\ \\text{UA}$\n\nii) $|\\vec{F}_P| = G\\,\\frac{m_P\\, m_{\\text{OTN}}}{(d)^2}\\,;\\quad |\\vec{F}_{\\text{Sol}}| = G\\,\\frac{m_{\\text{Sol}}\\, m_{\\text{OTN}}}{(d_{\\text{OTN\\_Sol}})^2}$\n\n$$q = \\frac{|\\vec{F}_P|}{|\\vec{F}_{\\text{Sol}}|} = \\frac{\\cancel{G}\\,\\dfrac{m_P\\,\\cancel{m_{\\text{OTN}}}}{(d)^2}}{\\cancel{G}\\,\\dfrac{m_{\\text{Sol}}\\,\\cancel{m_{\\text{OTN}}}}{(d_{\\text{OTN\\_Sol}})^2}} = \\left(\\frac{m_P}{m_{\\text{Sol}}}\\right) \\times \\left(\\frac{d_{\\text{OTN\\_Sol}}}{d}\\right)^2 = \\left(2\\times10^{-5}\\right) \\times \\left(\\frac{624\\ \\text{UA}}{104\\ \\text{UA}}\\right)^2 = \\left(2\\times10^{-5}\\right) \\times (6)^2$$\n\n$$q = \\left(2\\times10^{-5}\\right) \\times 36 = 72\\times10^{-5} = 7{,}2\\times10^{-4}$$"
     },
     {
@@ -249,7 +249,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Gravitação",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q11",
@@ -271,7 +272,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q12",
@@ -283,7 +285,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "A frequência $f_0$ do harmônico fundamental de uma corda é dada por $f_0 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$, sendo $L$ o comprimento, $T$ a tensão e $\\mu$ a densidade linear da corda. No espaço de respostas, a figura A ilustra o *bend* (com o ângulo fora de escala) sendo aplicado no meio de uma corda (ponto $P$) de densidade linear $\\mu = 8{,}0 \\times 10^{-4}\\ \\text{kg/m}$. Na situação da figura A, com o *bend* aplicado, tem-se $L = 0{,}30\\ \\text{m}$ e $f_0 = 500\\ \\text{Hz}$. Qual é o módulo da força que deve ser aplicada sobre a corda no ponto $P$, ao longo da direção $y$, para manter o equilíbrio?\nDados: $\\cos 88{,}9^\\circ \\simeq 0{,}02$; $\\operatorname{sen} 88{,}9^\\circ \\simeq 0{,}99$; $\\operatorname{tg} 88{,}9^\\circ \\simeq 52$.\n\n![Figura A: corda de guitarra com o bend aplicado no ponto P, vista de cima; o eixo y é vertical e passa por P; a corda forma 88,9° com o eixo y de cada lado de P; uma seta indica o trecho à esquerda, de comprimento L = 0,30 m; a tensão T está indicada nos dois trechos](fig:p14-c1)",
+     "texto": "A frequência $f_0$ do harmônico fundamental de uma corda é dada por $f_0 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$, sendo $L$ o comprimento, $T$ a tensão e $\\mu$ a densidade linear da corda. No espaço de respostas, a figura A ilustra o *bend* (com o ângulo fora de escala) sendo aplicado no meio de uma corda (ponto $P$) de densidade linear $\\mu = 8{,}0 \\times 10^{-4}\\ \\text{kg/m}$. Na situação da figura A, com o *bend* aplicado, tem-se $L = 0{,}30\\ \\text{m}$ e $f_0 = 500\\ \\text{Hz}$. Qual é o módulo da força que deve ser aplicada sobre a corda no ponto $P$, ao longo da direção $y$, para manter o equilíbrio?\nDados: $\\cos 88{,}9^\\circ \\simeq 0{,}02$; $\\operatorname{sen} 88{,}9^\\circ \\simeq 0{,}99$; $\\operatorname{tg} 88{,}9^\\circ \\simeq 52$.\n\n![Figura A: corda de guitarra com o bend aplicado no ponto P; um eixo y vertical, com seta para cima, passa por P; abaixo de P, cada trecho da corda forma um ângulo de 88,9° com a vertical; uma seta de duas pontas marca L = 0,30 m no trecho da esquerda, até P; o rótulo “tensão T” aponta para os dois trechos da corda](fig:p14-c1)",
      "resposta_oficial": "$$T = 4L^2 f_0^2 \\mu = 4 \\times \\left(3{,}0\\times10^{-1}\\ \\text{m}\\right)^2 \\times \\left(5{,}0\\times10^{2}\\ \\text{Hz}\\right)^2 \\times \\left(8{,}0\\times10^{-4}\\ \\text{kg/m}\\right) = 72\\ \\text{N}$$\n\n$F_y = 2 \\times T \\times \\cos\\left(88{,}9^\\circ\\right) = 2 \\times 72\\ \\text{N} \\times 0{,}02 = 2{,}88\\ \\text{N}$"
     },
     {
@@ -293,7 +295,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q13",
@@ -315,7 +318,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q14",
@@ -339,15 +343,14 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q15",
    "numero": 15,
    "materia": "quimica",
-   "materias_extra": [
-    "biologia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "As informações quimiossensoriais transmitidas pelos odores corporais (OCs) podem influenciar as relações sociais entre amigos, parceiros e familiares. De modo especial, os OCs contribuem de forma distinta para a comunicação entre pais e filhos em diferentes fases do desenvolvimento. Além disso, os odores podem desempenhar papel importante nas relações entre espécies animais.",
    "itens": [
@@ -358,12 +361,13 @@
     },
     {
      "rotulo": "b",
-     "texto": "As pessoas costumam se perguntar “Por que os mosquitos são mais atraídos por mim do que pelos meus amigos?\". Para responder a essa pergunta, foram realizados dois experimentos identificados como (i) e (ii), na figura ao lado, que investigaram o comportamento do mosquito da malária *Anopheles gambiae*. No campo de resposta, indique o objetivo e a conclusão de cada um dos dois experimentos, que respondem à pergunta mencionada anteriormente.\n\n![Figura com dois experimentos. (i): dois mosquitos, cada um diante de um alvo circular rosa marcado 35 °C, a 1 m de distância; acima do trajeto do primeiro há uma nuvem de pontos coloridos (rosa, pretos e laranja) e uma linha pontilhada leva o mosquito até o alvo; o segundo mosquito, sem a nuvem de pontos, tem um trajeto pontilhado sinuoso que não chega ao alvo, marcado com um X vermelho. (ii): um mosquito diante de uma barra de cores de +1,0 (roxo) a −1,0 (cinza), com 0,0 no meio; uma seta roxa com um coração leva a uma silhueta humana roxa cercada de pontos coloridos e uma seta cinza leva a uma silhueta humana cinza com pontos coloridos ao redor; à direita, três fórmulas estruturais de ácidos carboxílicos, cada uma ligada a uma cor de ponto: rosa, preto e laranja](fig:p17-c1)\n\n*Campo de resolução:*\n\n| Objetivo(s) do experimento | Conclusão(ões) |\n|---|---|\n| (i) | (i) |\n| (ii) | (ii) |",
+     "texto": "As pessoas costumam se perguntar “Por que os mosquitos são mais atraídos por mim do que pelos meus amigos?\". Para responder a essa pergunta, foram realizados dois experimentos identificados como (i) e (ii), na figura ao lado, que investigaram o comportamento do mosquito da malária *Anopheles gambiae*. No campo de resposta, indique o objetivo e a conclusão de cada um dos dois experimentos, que respondem à pergunta mencionada anteriormente.\n\n![Figura com dois experimentos. (i): dois mosquitos, cada um diante de um alvo circular rosa com um termômetro e a marcação 35 °C; entre os dois casos, uma linha tracejada com uma marca de escala de 1 m. Acima do trajeto do primeiro mosquito há uma nuvem de pontos rosa, pretos e laranja, e a linha pontilhada do trajeto chega até o alvo; o segundo mosquito, sem a nuvem de pontos, tem um trajeto pontilhado sinuoso que volta para trás sem chegar ao alvo, e há um X vermelho antes do alvo. (ii): um mosquito diante de uma barra de cores que vai de + 1.0 (roxo), no alto, passa por 0.0 (branco) e chega a − 1.0 (cinza), embaixo; do alto da barra, uma seta roxa com um coração leva a uma silhueta humana roxa cercada por muitos pontos rosa, pretos e laranja; de baixo da barra, uma seta cinza leva a uma silhueta humana cinza com menos pontos ao redor. À direita, três fórmulas estruturais de ácidos carboxílicos, cada uma ao lado de um ponto de cor: rosa, preto e laranja](fig:p17-c1)\n\n*Campo de resolução:*\n\n| Objetivo(s) do experimento | Conclusão(ões) |\n|---|---|\n| (i) | (i) |\n| (ii) | (ii) |",
      "resposta_oficial": "| Objetivo(s) | Conclusão(ões) |\n|---|---|\n| Avaliar se um inseto se direciona a um alvo a 35°C quando o ambiente próximo possui odores corporais. | Sim, os odores corporais direcionam os insetos até o alvo. Na ausência dos odores, os insetos não alcançam o alvo. |\n| Avaliar se a concentração dos odores corporais interfere na intensidade de atração do mosquito causador da malária pelo ser humano. | Quanto maior a concentração de odores exalados pelo ser humano, maior é a atração de mosquitos. |"
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q16",
@@ -385,7 +389,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cet-q17",
@@ -393,7 +398,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O filme *Dark Waters*, ou *O Preço da Verdade*, de 2019, retrata um processo judicial motivado por uma intensa contaminação ambiental pelo descarte inapropriado do C8, única identificação do composto químico que o advogado sabia no início da acusação formal. Essa contaminação havia sido promovida por uma indústria, a partir de um lago de decantação. Hoje, essa substância, assim como alguns de seus “parentes” próximos estão presentes na maioria dos ambientes aquáticos mundo afora. Devido à sua alta estabilidade, essas substâncias apresentam alta persistência ambiental e ausência de vias naturais eficazes de degradação. Além disso, são altamente maléficas à saúde humana e de outros animais, como mostra o filme. Para responder aos itens (a) e (b), considere essas informações e a figura abaixo.\n\n![Ilustração em corte de uma área com indústria, painel solar e árvores sobre o solo, e um lençol de água no subsolo com dois eletrodos ligados por fios a uma bateria com polos − e +; o eletrodo da esquerda está rotulado anodo, com um sinal +, e o da direita, catodo, com um sinal −. À esquerda do anodo, as fórmulas estruturais de dois compostos orgânicos com cadeias de átomos de carbono ligados a átomos de flúor (F), um terminado em ácido carboxílico (COOH) e outro em ácido sulfônico (SO3H); uma seta azul aponta para a direita. À direita do catodo, uma seta azul e as substâncias CO2, SO4 2−, F− e H2O](fig:p19-c1)",
+   "enunciado": "O filme *Dark Waters*, ou *O Preço da Verdade*, de 2019, retrata um processo judicial motivado por uma intensa contaminação ambiental pelo descarte inapropriado do C8, única identificação do composto químico que o advogado sabia no início da acusação formal. Essa contaminação havia sido promovida por uma indústria, a partir de um lago de decantação. Hoje, essa substância, assim como alguns de seus “parentes” próximos estão presentes na maioria dos ambientes aquáticos mundo afora. Devido à sua alta estabilidade, essas substâncias apresentam alta persistência ambiental e ausência de vias naturais eficazes de degradação. Além disso, são altamente maléficas à saúde humana e de outros animais, como mostra o filme. Para responder aos itens (a) e (b), considere essas informações e a figura abaixo.\n\n![Ilustração em corte de uma área com indústria, painel solar e árvores sobre o solo, e um lençol de água no subsolo com dois eletrodos ligados por fios a uma bateria com polos − e +; o eletrodo da esquerda está rotulado anodo, com um sinal +, e o da direita, catodo, com um sinal −. À esquerda do anodo, duas fórmulas estruturais: uma cadeia de átomos de carbono com 15 átomos de flúor (F) terminada no grupo COOH, e outra com 17 átomos de flúor terminada no grupo SO3H; uma seta azul aponta para a direita. À direita do catodo, uma seta azul e as substâncias CO2, SO4 2−, F− e H2O](fig:p19-c1)",
    "itens": [
     {
      "rotulo": "a",
@@ -407,7 +412,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q18",
@@ -431,7 +437,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "revisao": "ok"
   }
  ]
 }

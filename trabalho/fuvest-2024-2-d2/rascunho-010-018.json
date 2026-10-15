@@ -1,0 +1,105 @@
+{
+ "edicao": "fuvest-2024-2-d2",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 10,
+   "codigo": "F04",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere uma amostra de 2 mols de um gás monoatômico, em que cada átomo possui uma massa de aproximadamente $7 \\times 10^{-24}$ gramas. O gás pode ser tratado como ideal.\n\n**Note e adote:**\nNúmero de Avogadro: $6 \\times 10^{23}\\ \\text{mol}^{-1}$\nRelação de Einstein: $E = mc^2$\nVelocidade da luz no vácuo: $3 \\times 10^{8}\\ \\text{m/s}$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine a massa total do gás na amostra, em gramas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A energia interna da amostra a uma temperatura de 300 K é de 7500 J. Quanta energia é preciso transferir para a amostra para que sua temperatura atinja 400 K?"
+    },
+    {
+     "rotulo": "c",
+     "texto": "A descoberta de Einstein sobre a equivalência entre massa e energia é válida mesmo em fenômenos mais familiares, como o aquecimento de um fluido, embora, nesse caso, o efeito seja muito pequeno para ser perceptível. Nesse contexto, calcule a variação na massa da amostra de gás do enunciado quando ela experimenta um processo de expansão ao longo do qual recebe 13500 J de calor do entorno e realiza um trabalho de 4500 J."
+    }
+   ],
+   "observacoes": "No documento oficial de respostas, o texto de 'Objetivo da Questão' da F04 fala de ondulatória, ondas estacionárias e frequência (parece repetido da F03). Foi transcrito como está publicado."
+  },
+  {
+   "numero": 11,
+   "codigo": "F05",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um período da vida do físico J. Robert Oppenheimer pouco retratado no recente filme *Oppenheimer* é o seu Doutorado na Alemanha sob a orientação de Max Born. Em 1927, eles publicaram um trabalho muito importante, que se tornaria uma das bases da física atômica e molecular. A chamada *Aproximação de Born-Oppenheimer* usa o fato de que a massa dos núcleos é muito maior que a massa dos elétrons para justificar um tratamento independente do movimento dos núcleos e o dos elétrons em átomos e moléculas.\n\nPara ilustrar a validade da aproximação, considere um modelo clássico para o átomo de hidrogênio composto de um próton de massa $M$ e carga $+e$ e um elétron de massa $m$ e carga $-e$ separados por uma distância $D$, como mostra a figura.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando o sistema inicialmente estático, desenhe, na folha de respostas, os vetores das forças elétricas que atuam sobre as duas partículas.\n\n![Próton de massa M, com sinal +, e elétron de massa m, com sinal −, separados pela distância D](fig:p12-f1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere agora que as velocidades das cargas estão sempre em sentidos opostos e perpendiculares à linha que une os seus centros, como mostra a figura. Considere também que a única força que atua sobre as partículas é a força elétrica entre elas, de modo que a quantidade de movimento total (ou momento linear total) do sistema é nula. Considere ainda que ambas as cargas estejam em movimento circular uniforme em torno do centro de massa do sistema, de modo que distância entre as duas partículas não se altere.\n\n![Próton de massa M com velocidade Vp e elétron de massa m com velocidade ve, em sentidos opostos e perpendiculares à linha que une os centros, separados pela distância D](fig:p12-c1)\n\nSendo $M/m = 1800$, calcule a razão $\\frac{\\Delta t_e}{\\Delta t_p}$ entre os intervalos de tempo que o elétron e o pósitron, respectivamente, levam para percorrer um arco de circunferência de mesmo comprimento $\\Delta s$."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Na aproximação de Born-Oppenheimer, pode ser feita a hipótese de que o próton permanece em repouso enquanto o elétron gira em torno dele. Utilizando essa hipótese e supondo ainda que a trajetória do elétron seja uma circunferência de raio $D$, calcule a energia cinética do elétron em termos de $e$, de $D$ e da constante eletrostática da Lei de Coulomb $k_0$."
+    }
+   ],
+   "observacoes": "O item b do caderno diz 'o elétron e o pósitron' (o segundo deveria ser o próton, pela figura e pela resposta). Mantido como no original."
+  },
+  {
+   "numero": 12,
+   "codigo": "F06",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O fenômeno da aurora polar, há muito tempo conhecido nos hemisférios norte e sul do planeta Terra, caracteriza-se por um brilho observado no céu em decorrência de colisões entre os átomos da atmosfera, predominantemente oxigênio e nitrogênio, e as partículas (prótons e elétrons) lançadas por erupções solares e canalizadas pelo campo magnético terrestre.\n\n**Note e adote:**\n1eV = $1{,}6 \\times 10^{-19}\\ \\text{J}$; massa do próton = $1{,}6 \\times 10^{-27}\\ \\text{kg}$; massa do elétron = $9 \\times 10^{-31}\\ \\text{kg}$; carga do elétron = $1{,}6 \\times 10^{-19}\\ \\text{C}$\nComprimento de onda da luz verde: $\\lambda = 500\\ \\text{nm}$\nEnergia de um fóton de frequência $f$: $E = hf$, onde $h = 6 \\times 10^{-34}\\ \\text{J.s}$\nVelocidade da luz no vácuo: $3 \\times 10^{8}\\ \\text{m/s}$\nUm processo de desexcitação atômica envolve a passagem de um elétron de um nível atômico de energia mais alta para outro de energia mais baixa.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine a velocidade (em m/s) de um próton com energia cinética de $3{,}2 \\times 10^{-13}\\ \\text{J}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando agora elétrons com velocidade de $1{,}6 \\times 10^{6}\\ \\text{m/s}$ e que descrevam órbitas circulares sob ação do campo magnético terrestre, cuja intensidade é de $10^{-4}\\ \\text{T}$, calcule o módulo da força magnética atuando sobre cada elétron."
+    },
+    {
+     "rotulo": "c",
+     "texto": "As diferentes cores observadas na aurora devem-se à emissão de fótons em processos de desexcitação de átomos presentes nas diferentes camadas da atmosfera. As cores mais comuns da luz associada a esses fótons são a verde e a vermelha, devido à predominância de oxigênio e nitrogênio nas altitudes de 200 km e 100 km, respectivamente.\n\nCalcule (em joules) a variação da energia de um átomo quando este emite um fóton da cor <u>verde</u>."
+    }
+   ],
+   "observacoes": "Na resposta oficial do item a aparece '10^{-13} + 27' (com o +27 fora do expoente) e 'K = 2 · MeV'; mantido como publicado."
+  }
+ ],
+ "respostas": {
+  "10": {
+   "resposta": "**Objetivo da questão:** Nesta questão, avaliamos os conhecimentos sobre os conceitos de ondulatória, especialmente: ondas estacionárias, relação entre frequência, comprimento de onda e velocidade, a partir de uma situação-problema que exige a aplicação desses conceitos, a reflexão sobre as implicações práticas e conceituais, e a comunicação dos resultados de forma clara e concisa.",
+   "itens": {
+    "a": "A massa total é dada por $M = N \\cdot m$, sendo $N$ o número de átomos e $m$ a massa de cada átomo. Como há $n = 2$ mols de átomos na amostra, $N = 2N_A$, sendo $N_A$ o número de Avogadro, ou seja, o número de átomos em um mol de qualquer substância monoatômica. Logo, $M = 2N_A \\cdot m = 8{,}4\\ \\text{g}$ ou $8{,}4 \\cdot 10^{-3}\\ \\text{kg}$.",
+    "b": "A energia interna de um gás ideal é proporcional a sua temperatura absoluta. Em um processo cujo estado inicial tem temperatura absoluta $T_i$ e cujo estado final tem temperatura absoluta $T_f$, as energias correspondentes satisfazem a relação $E_f/E_i = T_f/T_i$. Logo, temos $E_f = 7500 \\cdot 400/300 = 10000\\ \\text{J}$. A energia necessária para produzir essa mudança de temperatura é então $E_f - E_i = 2500\\ \\text{J}$.",
+    "c": "Temos, pela relação de Einstein e pela primeira lei da termodinâmica, $\\Delta m \\cdot c^2 = Q - W$, ou seja, $\\Delta m = (Q - W)/c^2 = (13500 - 4500)/(9 \\cdot 10^{16}) = 1 \\cdot 10^{-13}\\ \\text{kg}$. Note que a variação de massa é 11 ordens de magnitude menor do que a massa da amostra, e portanto essa variação é imperceptível quando são utilizadas balanças comuns."
+   }
+  },
+  "11": {
+   "resposta": "**Objetivo da questão:** Avaliar o conhecimento da pessoa candidata sobre: movimento circular uniforme e interação eletrostática (Lei de Coulomb), fazendo uma conexão com um conceito importante em física atômica e molecular. Nesta questão, verificamos se a pessoa candidata é capaz de aplicar seus conhecimentos a um contexto novo, interpretar informações apresentadas em diferentes formatos e comunicar seus resultados de forma clara e concisa.",
+   "itens": {
+    "a": "![Próton de massa M e elétron de massa m separados pela distância D, com um vetor de força saindo de cada partícula em direção à outra, rotulados F e→p e F p→e](fig:r25-c2)",
+    "b": "Dado que o movimento é circular uniforme, a velocidade escalar é constante de modo que:\n\n$$\\Delta s = |\\vec{V}_p|\\,\\Delta t_p = |\\vec{v}_e|\\,\\Delta t_e$$\n\nLogo:\n\n$$\\frac{\\Delta t_e}{\\Delta t_P} = \\frac{\\vec{V}_p}{\\vec{v}_e} = \\frac{m}{M} = \\frac{1}{1800}$$",
+    "c": "Como, neste caso a força eletrostática é igual à força centrípeta do MCU:\n\n$$F_e = \\frac{k_0 e^2}{D^2} = \\frac{m\\,|\\vec{v}_e|^2}{D}$$\n\nLogo: $m\\,|\\vec{v}_e|^2 = \\frac{k_0 e^2}{D}$, e a energia cinética é dada por $E_c = \\frac{1}{2}m\\,|\\vec{v}_e|^2 = \\frac{k_0 e^2}{2D}$"
+   }
+  },
+  "12": {
+   "resposta": "**Objetivo da questão:** A aurora polar é um fenômeno natural fascinante que ocorre nos céus dos hemisférios norte e sul da Terra. Nesta questão, buscamos avaliar conhecimentos sobre a definição de energia cinética, movimento de elétrons em campos magnéticos, processos de excitação e desexcitação de elétrons em átomos e a relação entre comprimento de onda e energia em radiação eletromagnética.",
+   "itens": {
+    "a": "A velocidade do próton relaciona-se com a energia cinética por meio da expressão $v = (2K/m)^{1/2}$. Substituindo os valores: $K = 2 \\cdot \\text{MeV} = 2 \\cdot 1{,}6 \\cdot 10^{-19+6} = 3{,}2 \\cdot 10^{-13}$, logo $2K/m = (6{,}4/1{,}6) \\cdot 10^{-13} + 27 = 4 \\cdot 10^{14}$ e encontramos $v = 2 \\cdot 10^{7}\\ \\text{m/s}$.",
+    "b": "Como a órbita é circular, necessariamente a velocidade do elétron é perpendicular ao campo magnético. Nesta situação e sendo $v$ a velocidade do elétron e $B$ o campo magnético, a força magnética será dada por $F = e \\cdot v \\cdot B$, logo $F = (1{,}6 \\cdot 10^{-19}) \\cdot (1{,}6 \\cdot 10^{6})(10^{-4}) = 2{,}56 \\cdot 10^{-17}\\ \\text{N}$.",
+    "c": "A variação de energia é dada por $\\Delta E = hc/\\lambda = 6 \\cdot 10^{-34} \\cdot 3 \\cdot 10^{8}/5 \\cdot 10^{-7} = 3{,}6 \\cdot 10^{-19}\\ \\text{J}$."
+   }
+  }
+ }
+}
