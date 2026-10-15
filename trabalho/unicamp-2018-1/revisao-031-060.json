@@ -75,11 +75,11 @@
   },
   "44": {
    "assunto": "Energia e trabalho",
-   "resolucao": "Potência é energia por unidade de tempo, então $\\Delta t = \\frac{E}{P}$.\n\n$\\Delta t = \\frac{7{,}2\\times10^6\\ \\text{J}}{2\\times10^3\\ \\text{W}} = 3{,}6\\times10^3\\ \\text{s} = 3600\\ \\text{s}$, que é 1 hora.\n\nO valor de 144 s aparece para quem esquece de converter o prefixo mega ($10^6$) ou o quilo ($10^3$) de forma consistente.\n\n**Resposta: C**"
+   "resolucao": "Potência é energia por unidade de tempo, então $\\Delta t = \\frac{E}{P}$.\n\n$\\Delta t = \\frac{7{,}2\\times10^6\\ \\text{J}}{2\\times10^3\\ \\text{W}} = 3{,}6\\times10^3\\ \\text{s} = 3600\\ \\text{s}$, que é 1 hora.\n\nCuidado com os prefixos: mega vale $10^6$ e quilo vale $10^3$.\n\n**Resposta: C**"
   },
   "45": {
    "assunto": "Termologia",
-   "resolucao": "A energia elétrica deve ser igual ao calor sensível absorvido pela água: $Q = m c \\Delta T$.\n\nMassa: $500\\ \\text{L} \\times 1{,}0\\ \\text{kg/L} = 500\\ \\text{kg}$; variação de temperatura: $47 - 20 = 27\\ ^\\circ\\text{C}$.\n\n$Q = 500 \\cdot 4{,}0 \\cdot 27 = 54\\,000\\ \\text{kJ} = 5{,}4\\times10^7\\ \\text{J}$.\n\nEm kWh: $\\frac{5{,}4\\times10^7}{3{,}6\\times10^6} = 15\\ \\text{kWh}$.\n\nA alternativa 54.000 kWh é a armadilha de quem não converte kJ para kWh.\n\n**Resposta: A**"
+   "resolucao": "A energia elétrica deve ser igual ao calor sensível absorvido pela água: $Q = m c \\Delta T$.\n\nMassa: $500\\ \\text{L} \\times 1{,}0\\ \\text{kg/L} = 500\\ \\text{kg}$; variação de temperatura: $47 - 20 = 27\\ ^\\circ\\text{C}$.\n\n$Q = 500 \\cdot 4{,}0 \\cdot 27 = 54\\,000\\ \\text{kJ} = 5{,}4\\times10^7\\ \\text{J}$.\n\nEm kWh: $\\frac{5{,}4\\times10^7}{3{,}6\\times10^6} = 15\\ \\text{kWh}$. A alternativa 54.000 kWh é a armadilha de quem não converte kJ para kWh.\n\n**Resposta: A**"
   },
   "46": {
    "assunto": "Eletrodinâmica",
@@ -114,7 +114,7 @@
    "resolucao": "O texto imita a Declaração de Independência dos EUA, mas inclui \"homens e mulheres\" e denuncia o sofrimento das mulheres sob o governo. É a Declaração de Sentimentos da Convenção de Seneca Falls (1848), a primeira convenção pelos direitos das mulheres nos EUA, organizada por Elizabeth Cady Stanton, entre outras.\n\nO documento parte dos princípios liberais de John Locke (direitos naturais, governo pelo consentimento, direito de destituir o governo injusto) e os amplia às mulheres.\n\nA (A) e a (C) confundem o texto com a declaração de 1776. A (D) erra porque Tocqueville não se opunha à democracia na América; ele a analisou.\n\n**Resposta: B**"
   },
   "54": {
-   "assunto": "Primeira República",
+   "assunto": "História da América",
    "resolucao": "O texto mostra a força do movimento operário em São Paulo, Chile e Argentina entre 1917 e 1921, com greves por salário e contra o custo dos alimentos. Na América Latina, esse movimento tinha traços próprios: forte presença anarquista (anarcossindicalismo), muitos imigrantes e pautas imediatas como salário, jornada e carestia.\n\nA (A) erra porque as lideranças do período eram principalmente anarquistas, não marxistas, e mobilizavam muito. A (B) erra porque o fortalecimento veio da urbanização e da industrialização, não da ruralização. A (C) inventa uma colaboração repressiva entre os Estados latino-americanos que o texto não menciona.\n\n**Resposta: D**"
   },
   "55": {
@@ -122,8 +122,8 @@
    "resolucao": "O texto diz que o desenvolvimentismo de JK não era incompatível com os interesses agrários. O Plano de Metas modernizou a agricultura (máquinas, fertilizantes, estradas) sem fazer reforma agrária, e a industrialização ampliou o mercado consumidor urbano para os produtos do campo.\n\nAssim, a oligarquia rural se beneficiou do modelo.\n\nA \"Marcha para o Oeste\" (A) foi de Vargas e não atendeu posseiros e indígenas. A (C) contradiz o texto. A (D) erra a base social do PTB, ligado aos trabalhadores urbanos; os ruralistas estavam sobretudo no PSD.\n\n**Resposta: B**"
   },
   "56": {
-   "assunto": "Guerra Fria",
-   "resolucao": "Os punhos erguidos com luva preta de Tommie Smith e John Carlos, em 1968, ficaram conhecidos como saudação do *Black Power*, símbolo associado ao movimento negro radical, cujo grupo mais conhecido era o Partido dos Panteras Negras, que admitia a autodefesa armada contra a violência racial.\n\nPor isso a banca associa o gesto aos Panteras Negras (C), e não à linha pacifista de Martin Luther King (A).\n\nA (B) é absurda (a Ku Klux Klan é racista e antinegra). Na (D), o Comitê Olímpico Internacional não apoiou o protesto: puniu os atletas, que foram expulsos dos Jogos.\n\n**Resposta: C**"
+   "assunto": "História da América",
+   "resolucao": "Os punhos erguidos com luva preta de Tommie Smith e John Carlos, em 1968, ficaram conhecidos como saudação do *Black Power*, símbolo associado ao movimento negro radical, cujo grupo mais conhecido era o Partido dos Panteras Negras, que admitia a autodefesa armada contra a violência racial.\n\nPor isso a banca associa o gesto aos Panteras Negras (C), e não à linha pacifista de Martin Luther King (A).\n\nA (B) é absurda (a Ku Klux Klan é racista e antinegra). Na (D), o Comitê Olímpico Internacional não apoiou o protesto: pressionou para que os atletas fossem afastados da equipe e da Vila Olímpica.\n\n**Resposta: C**"
   },
   "57": {
    "assunto": "História da América",
@@ -134,7 +134,7 @@
    "resolucao": "Marie-Anne Paulze Lavoisier participou ativamente do trabalho científico do marido: registrava os experimentos, desenhava os aparelhos (como na ilustração, em que ela aparece anotando) e traduzia textos científicos. No século XVIII, algumas mulheres participavam da ciência, ainda que com pouco reconhecimento.\n\nA frase \"na natureza nada se cria, nada se perde, tudo se transforma\" resume a lei de conservação das massas de Antoine Lavoisier.\n\nA (B) erra porque a Revolução Francesa não favoreceu Lavoisier: ele foi guilhotinado em 1794. A (D) erra porque a Revolução não deu cidadania plena às mulheres. A (A) nega a participação de Marie.\n\n**Resposta: C**"
   },
   "59": {
-   "assunto": "Brasil Império",
+   "assunto": "História da América",
    "resolucao": "A Revolução do Haiti (1791-1804), feita por escravizados, criou medo entre as elites escravistas das Américas (o chamado \"haitianismo\"). No Brasil, esse temor influenciou a dura repressão a revoltas escravas, como a Revolta dos Malês, em Salvador (1835), num Império que buscava se afirmar como Estado reconhecido internacionalmente.\n\nA (C) é a distratora mais tentadora: Saint-Domingue era o maior produtor mundial de açúcar e café, não de cacau. A (B) erra ao dizer que as religiões afro foram eliminadas (o vodu persiste no Haiti). A (D) erra porque o Haiti não teve apoio de outras colônias e o imperialismo europeu continuou.\n\n**Resposta: A**"
   },
   "60": {
