@@ -272,7 +272,7 @@
      "resposta_oficial": "Movimento horizontal, retilíneo e uniforme, na Terra:\n\n$$\\left.\\begin{aligned}\\left|\\vec{F}_\\text{sust\\_Terra}\\right| &= m_\\text{Terra}\\,g_\\text{Terra}\\\\ \\text{e}\\\\ \\left|\\vec{F}_\\text{sust\\_Terra}\\right| &= \\mathit{cte}\\,\\Delta P_\\text{Terra}\\end{aligned}\\right\\} \\Rightarrow \\mathit{cte}\\,\\Delta P_\\text{Terra} = m_\\text{Terra}\\,g_\\text{Terra}$$\n\nEm Marte: $\\mathit{cte}\\,\\Delta P_\\text{Marte} = m_\\text{Marte}\\,g_\\text{Marte}$\n\nAssim:\n\n$$\\frac{m_\\text{Marte}\\,g_\\text{Marte}}{m_\\text{Terra}\\,g_\\text{Terra}} = \\frac{\\mathit{cte}\\,\\Delta P_\\text{Marte}}{\\mathit{cte}\\,\\Delta P_\\text{Terra}} \\Rightarrow m_\\text{Marte} = \\left(\\frac{\\Delta P_\\text{Marte}}{\\Delta P_\\text{Terra}}\\right)\\left(\\frac{g_\\text{Terra}}{g_\\text{Marte}}\\right) m_\\text{Terra}$$\n\nMas:\n\n$$\\frac{\\Delta P_\\text{Marte}}{\\Delta P_\\text{Terra}} = \\frac{P_\\text{Marte}}{P_\\text{Terra}} \\Rightarrow m_\\text{Marte} = \\left(\\frac{P_\\text{Marte}}{P_\\text{Terra}}\\right)\\left(\\frac{g_\\text{Terra}}{g_\\text{Marte}}\\right) m_\\text{Terra}$$\n\n$$m_\\text{Marte} = \\left(\\frac{1}{160}\\right) \\times \\left(\\frac{10\\ \\text{m/s}^2}{4\\ \\text{m/s}^2}\\right) \\times 800\\ \\text{g} = 12{,}5\\ \\text{g}$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A Questão 11 explora a Cinemática e a Dinâmica do movimento de objetos próximos à superfície de Marte. O item a) trata do movimento de um projétil lançado horizontalmente, e o item b) trata do equilíbrio entre as forças peso e de sustentação do helicóptero.",
    "assunto": "Cinemática",
    "revisao": "ok"
   },
@@ -295,7 +295,7 @@
      "resposta_oficial": "$$\\beta = (10\\ \\text{dB}) \\times \\log\\left(\\frac{I(r_0)}{I(r_1)}\\right) = 40\\ \\text{dB} \\Rightarrow \\log\\left(\\frac{I(r_0)}{I(r_1)}\\right) = 4 \\Rightarrow \\frac{I(r_0)}{I(r_1)} = 10^4 \\ \\text{ou}\\ \\ I(r_1) = \\frac{I(r_0)}{10^4}$$\n\nSubstituindo $I(r_1) = \\dfrac{\\mathit{cte}}{r_1^2}$ e $I(r_0) = \\dfrac{\\mathit{cte}}{r_0^2}$:\n\n$$\\frac{\\mathit{cte}}{r_1^2} = \\frac{\\mathit{cte}}{10^4\\,r_0^2} \\Rightarrow r_1 = \\sqrt{10^4}\\,r_0 = 100\\,r_0 = 100 \\times 0{,}6\\ \\text{m} = 60\\ \\text{m}.$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** No item a, a Questão 12 faz referência aos conceitos de Dinâmica (equilíbrio de forças), e no item b) aborda a propagação de ondas sonoras com o uso da expressão do nível sonoro em decibéis. Para a resolução do item a, os candidatos devem fazer a identificação e a decomposição de forças presentes no problema e, na condição de equilíbrio, encontrar a força de resistência do ar. No item b, o conceito abordado é o de intensidade sonora, e os candidatos deveriam usar a relação entre a queda de intensidade em função da distância e a fórmula do nível sonoro, ambas fornecidas no enunciado.",
    "assunto": "Dinâmica",
    "revisao": "ok"
   },
@@ -318,7 +318,7 @@
      "resposta_oficial": "$\\theta_B + \\theta_2 = 90^0$. Ao aplicarmos a lei de Snell: $n_1.\\text{sen}\\,\\theta_1 = n_2.\\text{sen}\\,\\theta_2$\n\nPortanto, $1 \\times \\text{sen}\\,\\theta_B = n_2 \\times \\text{sen}\\,\\theta_2 = n_2 \\times \\text{sen}(90^0 - \\theta_B) = n_2 \\times \\cos\\theta_B$\n\nlogo, $n_2 = \\dfrac{\\text{sen}\\,60^\\circ}{\\cos 60^\\circ} = \\text{tg}\\,60^\\circ = 1{,}73$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão 13 aborda no item a o conceito de energia (Dinâmica), amplamente abordado no Ensino Médio. Para resolução do item a, o candidato deve, através do gráfico, obter a constante de mola k do trampolim e, posteriormente, aplicar o teorema de conservação de energia.\n\nNo item b, são abordados conceitos de óptica, também comumente ensinados no Ensino Médio. Para resolução do item b, os candidatos devem fazer a leitura correta dos ângulos indicados na figura e a substituição adequada dos valores na lei de Snell.",
    "assunto": "Energia e trabalho",
    "revisao": "ok"
   },
@@ -341,9 +341,9 @@
      "resposta_oficial": "$f$ = distância focal\n\n$p$ = distância do objeto\n\n$p'$ = distância da imagem\n\n$$\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'} \\ \\rightarrow\\ -\\frac{1}{5} = \\frac{1}{p'} + \\frac{1}{45} \\ \\rightarrow\\ \\frac{1}{p'} = -\\left(\\frac{1}{45} + \\frac{1}{5}\\right) = -\\left(\\frac{45+5}{45 \\times 5}\\right) = -\\left(\\frac{50}{225}\\right)$$\n\n$$p' = -\\left(\\frac{225}{50}\\right) = -4{,}5$$\n\nPortanto,\n\n$$A = -\\frac{p'}{p} = -\\frac{(-4{,}5)}{45} = 0{,}1$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão 14 aborda conceitos de óptica, exemplificados em uma imagem cotidiana muitas vezes despercebida. Para resolução do item a, os candidatos devem usar conceitos básicos de ótica geométrica aplicados a uma lente delgada. Para o item b, basta usar a equação de Gauss e aplicar a fórmula do aumento linear transversal, temas geralmente abordados no Ensino Médio.",
    "assunto": "Óptica",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q15",
@@ -364,9 +364,9 @@
      "resposta_oficial": "☐ concorda totalmente  ☒ concorda parcialmente  ☐ discorda totalmente\n\nPara ser utilizado em exames de diagnóstico, a radiação deve ser capaz de atravessar o corpo humano, ou escapar do corpo humano, a fim de ser detectada por equipamentos externos e específicos para esta finalidade. Portanto, a primeira parte da afirmação está incorreta (incapaz de atravessar o corpo humano). Uma vez que o objetivo do radiofármaco para diagnóstico por imagem é somente identificar as lesões presentes (diagnóstico), é fundamental que a radiação emitida não cause danos às células saudáveis do corpo humano. Portanto, a segunda parte da afirmação está correta."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão tinha dois objetivos bem definidos. O primeiro deles era avaliar a habilidade dos candidatos em expressar o conhecimento sobre química na forma de representação gráfica; o segundo, sua capacidade de interpretação de texto e das informações fornecidas. Como conhecimento químico prévio, a questão exigia o conhecimento do conceito de tempo de meia-vida no decaimento radioativo. Era esperado que os candidatos demonstrassem habilidade na representação gráfica. O tempo de meia-vida, independentemente do valor absoluto, decai de 50% em relação ao valor anterior, sucessivamente. Por essa razão, no campo de resposta, é fornecido um gráfico da variação da porcentagem em função do tempo. O segundo item teve como objetivo específico avaliar a capacidade do candidato em diferenciar a ação da radiação quando o radiofármaco atuou no diagnóstico ou no tratamento, com base nas informações fornecidas no texto inicial e no enunciado do item.",
    "assunto": "Radioatividade",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q16",
@@ -387,9 +387,9 @@
      "resposta_oficial": "i) Parâmetros de análise considerados: quantidade de zinco/m², vida útil das telhas de aço galvanizadas e o ambiente de exposição (ataque químico).\nii) 1) Quanto maior a quantidade de zinco/m², maior é o tempo de vida útil das telhas de aço galvanizadas, para um mesmo ambiente de exposição.\n2) Quanto mais severo o ambiente de exposição, menor a vida útil da telha, para uma mesma quantidade de zinco/m²."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão tinha dois objetivos bem definidos. O primeiro deles era avaliar as habilidades dos candidatos em correlacionar a química e o meio ambiente utilizando materiais do dia a dia, como as telhas utilizadas em coberturas residenciais e industriais. Neste caso, os estudantes deveriam demonstrar, inicialmente, conhecimento sobre as composições químicas dos materiais presentes na fabricação das telhas e suas origens naturais. Era esperado que os estudantes também exemplificassem os impactos da extração desses componentes da natureza. O segundo objetivo foi avaliar a capacidade dos candidatos quanto à interpretação de gráficos. Era esperado que os estudantes demonstrassem habilidade de correlacionar os diferentes parâmetros apresentados no gráfico, tais como quantidade de zinco/m² presente nas composições das telhas, exposição ao meio ambiente e tempo de vida útil.",
    "assunto": "Química ambiental",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q17",
@@ -410,7 +410,7 @@
      "resposta_oficial": "$$(\\text{NH}_2)_2\\text{CO} \\rightarrow 2\\ \\text{NH}_4^+$$\n\nMassas molares aproximadas: ureia 60 g/mol, íon amônio: 18 g/mol. Uma pessoa urina, em média, 2 litros por dia e cada litro de urina contém 23 g de ureia. Portanto, em um dia, uma pessoa urina 46 g de ureia.\n\n$$\\begin{array}{ccc}(\\text{NH}_2)_2\\text{CO} & \\rightarrow & 2\\ \\text{NH}_4^+ \\\\ 60 & & 2 \\times 18 \\\\ 46 & & x \\end{array}$$\n\n$$x = 27{,}6\\ \\text{g}\\ \\text{NH}_4^+$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão teve como objetivo avaliar o conhecimento técnico e específico em Química, ao solicitar a escrita de uma reação química completa em uma célula a combustível microbiana (CCM) e a determinação do número de mols de elétrons envolvidos na transformação total de 1 mol de ureia, a partir da análise do número de oxidação. A questão também procurou explorar a habilidade dos candidatos em extrair as informações necessárias para resolução da questão a partir da ilustração do processo que ocorre na CCM, a qual fornecia todos os reagentes e produtos da reação. Portanto, para escrever a reação química bastava uma leitura atenta da ilustração, associado ao conhecimento químico de balanceamento estequiométrico. No segundo item foi avaliada a habilidade do candidato em realizar um cálculo estequiométrico, associado ao conhecimento de nomenclatura química.",
    "assunto": "Eletroquímica",
    "revisao": "ok"
   },
@@ -433,7 +433,7 @@
      "resposta_oficial": "Com base nas informações fornecidas, temos:\n$\\text{CO}_2\\ \\text{eq (AR4)} = \\text{N}_2\\text{O} \\times 310 + \\text{CH}_4 \\times 21$\n$\\text{CO}_2\\ \\text{eq (AR5)} = \\text{N}_2\\text{O} \\times 265 + \\text{CH}_4 \\times 27{,}75$\n$\\text{CO}_2\\ \\text{eq (AR4)} < \\text{CO}_2\\ \\text{eq (AR5)}$\n\nIndependentemente da metodologia, o valor do PAG do $\\text{N}_2\\text{O}$ é muito superior ao valor do PAG do $\\text{CH}_4$. Assim, pequena quantidade de $\\text{N}_2\\text{O}$ impacta muito o valor do $\\text{CO}_2$ eq ($\\text{CH}_4$ + $\\text{N}_2\\text{O}$) enquanto o $\\text{CH}_4$ precisa estar em grande quantidade para impactar o valor do $\\text{CO}_2$ eq ($\\text{CH}_4$ + $\\text{N}_2\\text{O}$). Ao comparar as metodologias, observa-se que na AR5, o PAG do $\\text{N}_2\\text{O}$ é menor em relação a AR4 em 45 unidades enquanto o PAG do $\\text{CH}_4$ é maior em relação a AR4 em 6,75 unidades. Essas variações fazem com que o $\\text{CO}_2\\ \\text{eq (AR4)} < \\text{CO}_2\\ \\text{eq (AR5)}$; portanto, o gás que foi emitido em maior quantidade neste manejo é o $\\text{CH}_4$."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Nesta questão, o objetivo era avaliar as habilidades dos candidatos em correlacionar uma atividade econômica, neste caso a produção de carne (agropecuária), e os impactos ambientais como a geração de gases do efeito estufa (CH₄, N₂O, CO₂) causados por tal atividade. Trata-se de um tema muito presente atualmente tanto no cenário nacional quanto no internacional pela importância da preservação ambiental e, ao mesmo tempo, pela importância da agropecuária brasileira. Mais especificamente, a banca esperava que os candidatos fossem capazes de correlacionar a atividade agropecuária e o balanço de carbono.",
    "assunto": "Química ambiental",
    "revisao": "ok"
   },
@@ -456,9 +456,9 @@
      "resposta_oficial": "i) De acordo com o diagrama, a energia dos processos em que a energia dos reagentes se encontra num patamar abaixo do patamar dos produtos apresenta um sinal positivo (+), ou seja, são endotérmicas (absorvem energia), que é o que ocorre no processo sob estudo (produção de hidrogênio a partir de glicose). Portanto, o meio reacional tenderá a diminuir a sua temperatura com o tempo.\nii) A entalpia de formação da água é dada para a reação a partir de seus elementos na forma mais estável $\\text{H}_2$ + ½ $\\text{O}_2$ = $\\text{H}_2\\text{O}$. Conforme mostra o diagrama de energia, o processo $12\\ \\text{H}_{2(\\text{g})} + 6\\ \\text{O}_{2(\\text{g})} \\rightarrow 12\\ \\text{H}_2\\text{O}_{(\\text{aq})}$ tem ΔH = -3430 kJ. Assim, para 1 mol de água: ΔH = −3430/12 = −286 kJ/mol."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** O item a da questão 19 tem como objetivo avaliar o conhecimento sobre cinética química e estequiometria. O item pede que se nomeie em que tempo a razão entre as velocidades instantâneas de formação dos produtos se iguala à razão entre os seus coeficientes estequiométricos. Assim é fundamental que se conheça fundamentos de estequiometria já que se pede que se compare a razão entre coeficientes estequiométricos (valores que precedem cada fórmula na equação química) e a razão entre as velocidades instantâneas de formação dos produtos, e também exige conhecimentos básicos de cinética química já que é necessário extrair informações a partir do gráfico de velocidade em função do tempo. O objetivo do item b é avaliar a habilidade em leitura e interpretação de diagrama de energia, assim como testar o conhecimento de conceitos básicos em termoquímica, como convenção de sinais de energia e associação de calor com temperatura. Dessa forma, o item exige que se saiba que numa reação exotérmica há uma liberação de energia e que, portanto, o meio reacional torna-se mais quente com a evolução da reação se essa energia não for liberada para fora do meio reacional. O item também exige que se saiba que um sinal negativo de energia significa que está ocorrendo uma liberação de energia que se denomina calor. O item b também exige que se faça um cálculo de energia de um dado processo a partir de um diagrama de energia. Em suma, o item questiona vários aspectos fundamentais, básicos e importantes no estudo de termoquímica.",
    "assunto": "Termoquímica",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q20",
@@ -479,9 +479,9 @@
      "resposta_oficial": "![figura do ciclo da água com os números 1, 2 e 3 atribuídos a três dos seis círculos: 1 junto de vegetação natural, 2 junto de cidade e 3 no fim do fluxo que chega à água](fig:r13-c1)\n\nA intervenção da Química seria mais apropriada no item 3, ou seja, na prevenção e/ou tratamento da poluição, concebendo processos mais limpos e eficientes para o tratamento de poluentes (indústria, esgoto em cidade)."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** O item a da questão 20 tem como objetivo avaliar o letramento científico ao exigir interpretação de excertos de artigos científicos recentes, relativos à falta de umidade atmosférica em diversos pontos do planeta, associada a problemas advindos do aquecimento global e relativo a técnicas de captura de umidade atmosférica por técnicas não naturais. O item exige uma reflexão de como as preocupações com a falta de umidade do ar atmosférico podem ser aumentadas em vista da invenção de técnicas que visam retirar essa umidade para obter água líquida. Ao mesmo tempo, o item a também questiona como essas técnicas podem contornar parte das preocupações com a falta de umidade. O item b da questão pede uma reflexão sobre três problemas centrais no caso da água que circula globalmente: excesso, falta e poluição e pede que se escolha e discuta o tipo de ação mais apropriada para combater cada um dos problemas citados, lembrando que a pergunta fornece os três problemas e questiona em que ambiente cada ação deve ser feita. O item também pede que se escolha entre os três problemas mencionados, onde e de que forma o conhecimento químico poderia contribuir para amenizá-lo.",
    "assunto": "Química ambiental",
-   "revisao": "corrigida"
+   "revisao": "ok"
   }
  ]
 }
