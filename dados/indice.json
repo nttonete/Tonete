@@ -155,6 +155,37 @@
    }
   },
   {
+   "id": "unesp-2022-1",
+   "vestibular": "unesp",
+   "ano": 2022,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "VERSAO1",
+   "nome": "UNESP (VUNESP) 2022 – 1ª fase",
+   "tabela_periodica": "img/tabela-periodica/unesp-2022-1.webp",
+   "fonte": {
+    "caderno": "UNESP_2022_1Fase.pdf",
+    "gabarito": "UNESP_2022_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unesp-2022-1.json",
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
+   "materias": {
+    "ingles": 11,
+    "literatura": 6,
+    "portugues": 12,
+    "artes": 1,
+    "historia": 12,
+    "geografia": 12,
+    "filosofia": 6,
+    "biologia": 8,
+    "quimica": 7,
+    "fisica": 7,
+    "matematica": 8
+   }
+  },
+  {
    "id": "unesp-2023-1",
    "vestibular": "unesp",
    "ano": 2023,
