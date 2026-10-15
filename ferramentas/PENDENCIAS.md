@@ -15,6 +15,7 @@ O filtro de conteúdo do serviço bloqueia a reprodução literal de alguns text
 | unicamp-2019-1 | 16 | António Gedeão, "Lágrima de Preta" (poema inteiro) |
 | unesp-2018-1 | 46, 47 | Lenine e Lula Queiroga, letra de "Chão" |
 | unesp-2018-1 | 51 | Letra de "Deixe o rio desaguar" |
+| fuvest-2017-1 | 47 | Edu Lobo e Chico Buarque, letra de "Ciranda da bailarina" |
 
 Enquanto não houver decisão, a edição entra na plataforma sem essas questões (lista em `dados/provas/indisponiveis.json`; a prova completa avisa quantas ficaram fora).
 

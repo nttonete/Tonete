@@ -1,6 +1,39 @@
 {
  "edicoes": [
   {
+   "id": "fuvest-2017-1",
+   "vestibular": "fuvest",
+   "ano": 2017,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "V",
+   "nome": "FUVEST (USP) 2017 – 1ª fase",
+   "fonte": {
+    "caderno": "FEVEST_2017_1Fase.pdf",
+    "gabarito": "FEVEST_2017_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/fuvest-2017-1.json",
+   "total": 89,
+   "validas": 89,
+   "com_resposta": 89,
+   "materias": {
+    "artes": 2,
+    "portugues": 7,
+    "literatura": 8,
+    "historia": 11,
+    "geografia": 12,
+    "ingles": 5,
+    "filosofia": 1,
+    "biologia": 10,
+    "fisica": 12,
+    "quimica": 10,
+    "matematica": 11
+   },
+   "indisponiveis": [
+    47
+   ]
+  },
+  {
    "id": "fuvest-2018-1",
    "vestibular": "fuvest",
    "ano": 2018,
