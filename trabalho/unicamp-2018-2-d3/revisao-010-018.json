@@ -1,0 +1,167 @@
+{
+ "edicao": "unicamp-2018-2-d3",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 14,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma das formas de se prevenir a transmissão do vírus H1N1, causador da gripe suína, é usar álcool 70% para higienizar as mãos. É comum observar pessoas portando álcool gel na bolsa ou encontrá-lo em ambientes públicos, como restaurantes, consultórios médicos e hospitais. O álcool 70% também possui ação germicida contra diversas bactérias patogênicas. A tabela abaixo mostra a ação germicida de misturas álcool/água em diferentes proporções contra o *Streptococcus pyogenes*, em função do tempo de contato.\n\n![Tabela. Na primeira coluna, Concentração do Etanol (%); nas demais, Tempo (segundos): 10, 20, 30, 40 e 50. Linha 100: - - - - -. Linha 90: + + + + +. Linha 80: + + + + +. Linha 70: + + + + +. Linha 60: + + + + +. Linha 50: - - + + +. Linha 40: - - - - -. Abaixo, a legenda: - ausência de ação germicida (crescimento bacteriano). + ação germicida (ausência de crescimento bacteriano).](fig:p16-c1)\n\n(Adaptado de G. H. Talbot e outros, 70% alcohol disinfection of transducer heads: experimental trials. *Infect Control*, v. 6, n. 6, p. 237-239, jun. 1985.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Recomenda-se descartar uma garrafa com álcool 70% deixada aberta por um longo período, mesmo que ela esteja dentro do prazo de validade. Justifique essa recomendação levando em conta os dados da tabela ao lado e considerando o que pode acontecer à solução, do ponto de vista químico."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Além da higienização com álcool 70%, também estamos acostumados a utilizar água e sabão. Ambos os procedimentos apresentam vantagens e desvantagens. As desvantagens seriam a desidratação ou a remoção de gorduras protetoras da pele. Correlacione cada procedimento de higienização com as desvantagens citadas. Explique a sua resposta explicitando as possíveis interações químicas envolvidas em cada caso."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 15,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Apesar de ser um combustível alternativo em relação aos combustíveis fósseis, o gás hidrogênio apresenta alguns problemas em seu uso direto. Uma alternativa é produzir o gás hidrogênio por eletrólise da água, para depois utilizá-lo na síntese do ácido fórmico, a partir da hidrogenação catalítica de gás carbônico. A possibilidade de utilizar o ácido fórmico como combustível tem feito crescer a demanda mundial por esse produto. A figura abaixo ilustra como seria o ciclo de produção e consumo do ácido fórmico, conforme indica o texto.\n\n![Diagrama em preto e branco. À esquerda, turbinas eólicas e painéis solares, com uma seta para uma bomba de combustível marcada AF. Um traço liga a bomba a um recipiente rotulado Ácido fórmico, de onde sai uma seta para um ônibus. Do ônibus saem duas setas curvas: uma sobe até uma nuvem rotulada Dióxido de carbono e outra desce até uma gota rotulada H2O. Da nuvem e da gota, setas curvas voltam para a bomba.](fig:p17-f3)\n\n(Adaptado de Team Fast. Disponível em https://www.teamfast.nl/hydrozine/. Acessado em 10/08/2017.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando as informações do texto e a figura ao lado, cite <u>duas vantagens</u> em se adotar a alternativa descrita."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A reação de síntese do ácido fórmico a partir da hidrogenação catalítica de gás carbônico, em fase gasosa, apresenta um valor muito pequeno de constante de equilíbrio. Visando a aumentar o seu rendimento, imagine que sejam promovidos, separadamente, um aumento do volume e um aumento da temperatura da mistura reacional em equilíbrio. Preencha a tabela abaixo de modo a informar o que ocorre com a quantidade de ácido fórmico. Use as palavras <u>aumenta</u> ou <u>diminui</u> e justifique cada escolha no espaço correspondente.\n\nNa temperatura da síntese, considere que as entalpias de formação do gás carbônico, do ácido fórmico e do hidrogênio são (em $\\text{kJ}\\cdot\\text{mol}^{-1}$) -394, -363 e 0, respectivamente.\n\n*Campo de resolução:*\n\n| | Aumento de volume | Aumento de temperatura |\n|---|---|---|\n| Quantidade de ácido fórmico | | |\n| Justificativa | | |"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 16,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Graças a sua alta conversão energética e à baixa geração de resíduos, o gás hidrogênio é considerado um excelente combustível. Sua obtenção a partir da fermentação anaeróbia de biomassas, como bagaço de cana, glicerol, madeira e resíduos do processamento da mandioca, abundantes e de baixo custo, parece ser uma boa alternativa tecnológica para o Brasil. A velocidade da fermentação, bem como os diferentes produtos formados e suas respectivas quantidades, dependem principalmente do tipo de substrato e do tipo de microrganismo que promove a fermentação. As equações e a figura abaixo ilustram aspectos de uma fermentação de 1 litro de solução de glicose efetuada pela bactéria *Clostridium butyricum*.\n\n**Equação 1:** $\\text{C}_6\\text{H}_{12}\\text{O}_6(\\text{aq}) + 2\\text{H}_2\\text{O}(\\ell) \\rightarrow 2\\text{CH}_3\\text{COOH}(\\text{aq}) + 4\\text{H}_2(\\text{g}) + 2\\text{CO}_2(\\text{g})$\n\n**Equação 2:** $\\text{C}_6\\text{H}_{12}\\text{O}_6(\\text{aq}) + 2\\text{H}_2\\text{O}(\\ell) \\rightarrow \\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{COOH}(\\text{aq}) + 2\\text{H}_2(\\text{g}) + 2\\text{CO}_2(\\text{g})$\n\n![Gráfico com dois eixos verticais e o tempo em horas no eixo horizontal, de 0 a 100. À esquerda, concentração em g · L⁻¹, de 0 a 30, com uma curva tracejada que decresce ao longo do tempo; uma seta aponta da curva tracejada para esse eixo. À direita, volume acumulado de H2 em L, de 0 a 10, com uma curva contínua que cresce e depois se estabiliza; uma seta aponta da curva contínua para esse eixo.](fig:p18-c2)\n\nDados: massa molar da glicose: $180\\ \\text{g}\\cdot\\text{mol}^{-1}$; volume molar do hidrogênio: $25\\ \\text{L}\\cdot\\text{mol}^{-1}$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Levando em conta as informações presentes <u>no texto e na figura</u>, e considerando que a fermentação tenha ocorrido, concomitantemente, pelas duas reações indicadas, qual ácido estava presente em maior concentração ($\\text{mol}\\cdot\\text{L}^{-1}$) ao final da fermentação, o <u>butanoico</u> ou o <u>etanoico</u>? Justifique sua resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A velocidade instantânea da fermentação, em qualquer ponto do processo, é dada pela relação entre a <u>variação da quantidade de hidrogênio formado e a variação do tempo</u>. De acordo com o gráfico, quanto tempo após o início da fermentação a velocidade atingiu seu valor máximo? Justifique sua resposta."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 17,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Fertilizantes são empregados na agricultura para melhorar a produtividade agrícola e atender à demanda crescente por alimentos, decorrente do aumento populacional. Porém, o uso de fertilizantes leva a alterações nas características do solo, que passa a necessitar de correções constantes. No Brasil, o nitrogênio é adicionado ao solo principalmente na forma de ureia, $(\\text{NH}_2)_2\\text{CO}$, um fertilizante sólido que, em condições ambiente, apresenta um cheiro muito forte, semelhante ao da urina humana. No solo, a ureia se dissolve e reage com a água conforme a equação\n\n$$(\\text{NH}_2)_2\\text{CO}(\\text{s}) + 2\\text{H}_2\\text{O}(\\text{aq}) \\rightarrow 2\\text{NH}_4^+(\\text{aq}) + \\text{CO}_3^{2-}(\\text{aq}).$$\n\nParte do nitrogênio, na forma de íon amônio, se transforma em amônia, conforme a equação\n\n$$\\text{NH}_4^+(\\text{aq}) + \\text{H}_2\\text{O}(\\text{aq}) \\rightarrow \\text{NH}_3(\\text{aq}) + \\text{H}_3\\text{O}^+(\\text{aq}).$$\n\nParte do nitrogênio permanece no solo, sendo absorvido através do ciclo do nitrogênio.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Na primeira semana após adubação, o solo, nas proximidades dos grânulos de ureia, torna-se mais básico. Considerando que isso se deve essencialmente à solubilização inicial da ureia e à sua reação com a água, explique como as características dos produtos formados explicam esse resultado."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na aplicação da ureia como fertilizante, ocorrem muitos processos que levam à perda e ao não aproveitamento do nitrogênio pelas plantas. Considerando as informações dadas, explique a influência da acidez do solo e da temperatura ambiente na perda do nitrogênio na fertilização por ureia."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas_corrigidas": {
+  "15": {
+   "resposta": "**Objetivo da questão:** Esta questão apresenta um processo para obtenção de energia por uma fonte alternativa. Esperava-se que os candidatos apontassem as vantagens no processo, o que poderia ser feito a partir de uma visão geral sobre o tema a partir de informações envolvendo geração de energia e sustentabilidade, presentes na atualidade. Para responder esta parte da questão, o candidato precisava entender as propriedades das substâncias envolvidas nessa tecnologia. A outra parte da questão é direcionada para a parte de equilíbrio químico, exigindo dos candidatos o estabelecimento da relação entre perturbações em um sistema em equilíbrio e suas consequências na sua composição, dependendo do tipo de perturbação e de acordo com o princípio de Le Chatelier, tema bastante trabalhado no ensino médio. É esperado que tenham também conhecimento de termoquímica, cálculos de entalpia, estequiometria e algumas noções de compostos orgânicos.",
+   "itens": {
+    "a": "De acordo com as informações fornecidas na questão, algumas vantagens da alternativa sugerida podem ser: 1) o uso de energias alternativas e menos poluentes (eólica ou solar) para a produção do ácido fórmico; 2) a (re)síntese do ácido fórmico utilizando o $\\text{CO}_2$ e água que vieram de sua combustão (processo cíclico fechado em relação a materiais), 3) a criação de uma alternativa à utilização de combustíveis fósseis e 4) maior facilidade de armazenamento e transporte do ácido fórmico em relação ao gás hidrogênio.",
+    "b": "| | **aumento de volume** | **aumento de temperatura** |\n|---|---|---|\n| **quantidade de ácido fórmico** | diminui | aumenta |\n| **Justificativa** | $1\\ \\text{H}_2 + 1\\ \\text{CO}_2 = 1\\ \\text{H}_2\\text{CO}_2$<br><br>A equação mostra que a reação ocorre com diminuição no volume do sistema, pois dois moles de reagentes gasosos levam à formação de um mol de produto gasoso. Portanto, o aumento do volume leva a uma diminuição na quantidade de ácido fórmico. | $\\begin{array}{ccccc}\\text{H}_2 & + & \\text{CO}_2 & = & \\text{H}_2\\text{CO}_2 \\\\ 0 & & -394 & & -363\\end{array}$<br>$\\Delta H = H_p - H_r = -363 - (-394) = +31\\ \\text{kJ}\\cdot\\text{mol}^{-1}$<br><br>A equação termoquímica mostra que a reação é endotérmica; portanto, o aumento na temperatura favorece a formação de ácido fórmico. |"
+   }
+  }
+ },
+ "complementos": {
+  "10": {
+   "assunto": "Termologia"
+  },
+  "11": {
+   "assunto": "Eletrostática"
+  },
+  "12": {
+   "assunto": "Óptica"
+  },
+  "13": {
+   "assunto": "Soluções"
+  },
+  "14": {
+   "assunto": "Ligações e interações"
+  },
+  "15": {
+   "assunto": "Equilíbrio químico"
+  },
+  "16": {
+   "assunto": "Reações e estequiometria"
+  },
+  "17": {
+   "assunto": "Equilíbrio químico"
+  },
+  "18": {
+   "assunto": "Química ambiental"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Conferido com p12, r03 e r17-r18. Observações do transcritor aceitas (figura do quadro de resolução no item a; grau em 10^-3 °C^-1; ΔT no objetivo)."
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "Conferido com p13, r03 e r19."
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": "Conferido com p14, r04 e r21."
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "Conferido com p15, r05 e r24-r25."
+  },
+  {
+   "numero": 14,
+   "status": "corrigida",
+   "notas": "Descrição da tabela (p16-c1) dizia só que cada célula traz - ou +, omitindo os dados que o item a manda analisar; agora lista os sinais linha a linha. Tabela mantida como figura (cabeçalho mesclado). Observações do transcritor aceitas (frase extra só na prova comentada não entra; \"sus escolhas\" e \"levado\" são do original)."
+  },
+  {
+   "numero": 15,
+   "status": "corrigida",
+   "notas": "Descrição da figura não dizia o sentido das setas do ciclo que o item a manda considerar; refeita. Na resposta do item b, cabeçalhos da tabela em negrito como no original."
+  },
+  {
+   "numero": 16,
+   "status": "corrigida",
+   "notas": "Descrição do gráfico trazia os valores lidos (cerca de 25 e cerca de 9) que o item a pede para ler; retirados. Na resposta do item a, a linha de coeficientes da 2ª equação traz \"1 1 1\" nas Respostas esperadas (a prova comentada traz \"1 1 2\"); mantido o das Respostas esperadas, fiel ao original."
+  },
+  {
+   "numero": 17,
+   "status": "corrigida",
+   "notas": "As duas equações do enunciado terminam com ponto final no caderno; pontos restaurados."
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "Conferido com p20, r08 e r36. Observações do transcritor aceitas (\"aquecimento da global\" é do original; Observação final mantida no item b)."
+  }
+ ]
+}

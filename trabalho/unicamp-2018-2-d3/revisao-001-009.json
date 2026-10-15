@@ -1,0 +1,205 @@
+{
+ "edicao": "unicamp-2018-2-d3",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 4,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Plantas têm papel crucial na ciclagem de carbono e de água no ambiente, captando e liberando o gás carbônico atmosférico e transferindo água do solo para o ar. Os gráficos abaixo representam padrões anuais de variação nas concentrações de vapor d’água do ar e de gás carbônico em regiões ocupadas por duas florestas tropicais distintas, A e B.\n\n![Dois gráficos de linhas com marcadores, de janeiro (J) a dezembro (D), eixo horizontal “Meses”, para a Floresta A (círculos brancos) e a Floresta B (círculos pretos). Gráfico da esquerda: umidade relativa do ar (%), eixo vertical de 30 a 90. Valores aproximados, de J a D: Floresta A: 70, 80, 80, 70, 50, 40, 40, 50, 70, 80, 80, 70; Floresta B: 60, 63, 63, 60, 50, 48, 48, 50, 60, 63, 63, 60. Gráfico da direita: $\\text{CO}_2$ (ppm), eixo vertical de 300 a 420. Valores aproximados, de J a D: Floresta A: 345, 335, 335, 345, 395, 405, 405, 400, 345, 335, 335, 345; Floresta B: 363, 360, 360, 363, 393, 400, 400, 398, 363, 360, 360, 363.](fig:p06-c1)\n\nAs variações mostradas ocorrem como consequência da presença das florestas. A precipitação nas duas áreas ocorre no período quente do ano (setembro a abril). Além disso, a concentração de $\\text{CO}_2$ atmosférico seria de 380 ppm se não houvesse cobertura vegetal.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando que a transpiração tem relação direta com o consumo hídrico, qual das duas florestas tem maior dependência de disponibilidade de água? Considerando que a fotossíntese e a respiração determinam o padrão anual de variação de $\\text{CO}_2$, qual das duas florestas tem maior produção anual de biomassa? Justifique suas respostas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em um cenário de redução no regime de chuvas, o que aconteceria com as concentrações de vapor d’água do ar e de $\\text{CO}_2$ nas regiões ocupadas pelas florestas? Justifique sua resposta."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 6,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O heredograma abaixo representa o padrão de herança, em uma única família, de uma doença genética humana. Os indivíduos doentes são representados em preto, enquanto os indivíduos não doentes são indicados em branco. Nessa família, a doença é causada por apenas um loco gênico, localizado em um dos dois tipos de cromossomos sexuais. No conjunto dos indivíduos da família, esse loco apresenta dois alelos, $A_1$ e $A_2$.\n\n![Heredograma de quatro gerações, com quadro de legenda: quadrado preto e quadrado branco = homens; círculo preto e círculo branco = mulheres. Geração I: casal formado por homem branco e mulher preta. Geração II, filhos desse casal, da esquerda para a direita: homem preto (casado com mulher branca), mulher branca, mulher preta (casada com homem branco), homem branco e homem preto (casado com mulher branca). Geração III: filhos do homem preto da esquerda com a mulher branca: mulher preta, mulher preta (casada com homem branco) e homem branco; filhos da mulher preta com o homem branco: homem branco (casado com mulher branca), mulher preta e homem preto (casado com mulher branca); filhos do homem preto da direita com a mulher branca: mulher preta, homem branco e mulher preta (esta cortada na borda do desenho). Geração IV: filhos da mulher preta casada com homem branco: homem preto, homem branco e mulher branca; filhos do homem branco casado com mulher branca: mulher branca, homem branco e mulher branca; filhos do homem preto casado com mulher branca: homem branco, mulher preta, homem branco e homem branco.](fig:p08-c1)\n\n(Inspirado em Maria C. N. Marchetto e outros, A model for neural development and treatment of Rett Syndrome using human induced pluripotent stem cells. *Cell*, Cambridge, v. 143, p. 527–539, nov. 2010. Pesquisa realizada pela equipe do brasileiro Alysson Muotri, ex-aluno da UNICAMP e atualmente professor da Universidade da Califórnia, San Diego, EUA.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O loco gênico envolvido nessa doença está no cromossomo X ou no cromossomo Y? Considerando que um dos alelos é dominante, o alelo que promove o aparecimento da doença nos indivíduos afetados (alelo $A_1$) é dominante ou recessivo em relação ao alelo $A_2$ ? Explique como você chegou às suas conclusões."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Pesquisas recentes analisaram as alterações causadas nos neurônios de indivíduos doentes pelo alelo $A_1$. Nessas pesquisas, fibroblastos coletados da pele de pessoas afetadas foram utilizados para produzir células-tronco pluripotentes (iPSC). As iPSC foram então utilizadas para gerar neurônios. Por que células-tronco podem originar neurônios? Por que não seria adequado aos pesquisadores estudar os efeitos neuronais do alelo $A_1$ diretamente nos fibroblastos coletados da pele dos indivíduos afetados?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Importantes estudos sobre o atrito foram feitos por Leonardo da Vinci (1452-1519) e por Guillaume Amontons (1663-1705). A figura (a) é uma ilustração feita por Leonardo da Vinci do estudo sobre a influência da área de contato na força de atrito.\n\n![Figura (a): desenho antigo a traço, em duas partes. À esquerda, uma coluna de cinco blocos quadrados empilhados, ligada por uma corda horizontal a uma polia, da qual pende um bloco. À direita, uma fileira de três blocos retangulares sobre uma superfície horizontal, ligada por uma corda a outra polia, da qual pende outro bloco.](fig:p11-c1)\n\n*(Nota da plataforma: o caderno traz, na página de instruções, a orientação “Quando necessário, use: g = 10 m/s², π = 3”.)*",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Dois blocos de massas $m_1 = 1{,}0\\ \\text{kg}$ e $m_2 = 0{,}5\\ \\text{kg}$ são ligados por uma corda e dispostos como mostra a figura (b). A polia e a corda têm massas desprezíveis, e o atrito nas polias também deve ser desconsiderado. O coeficiente de atrito cinético entre o bloco de massa $m_2$ e a superfície da mesa é $\\mu_c = 0{,}8$. Qual deve ser a distância de deslocamento do conjunto para que os blocos, que partiram do repouso, atinjam a velocidade $v = 2{,}0\\ \\text{m/s}$?\n\n![Figura (b): bloco rosa $m_2$ apoiado sobre uma mesa, perto da quina, ligado por uma corda horizontal a uma polia presa na quina da mesa; da polia pende, ao lado da mesa, um bloco verde $m_1$.](fig:p11-c2)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em certos casos, a lei de Amontons da proporcionalidade entre a força de atrito cinético e a força normal continua válida nas escalas micrométrica e nanométrica. A figura (c) mostra um gráfico do módulo da força de atrito cinético, $F_{\\text{at}}$, em função do módulo da força normal, $N$, entre duas monocamadas moleculares de certa substância, depositadas em substratos de vidro. Considerando $N = 5{,}0\\ \\text{nN}$, qual será o módulo do trabalho da força de atrito se uma das monocamadas se deslocar de uma distância $d = 2{,}0\\ \\mu\\text{m}$ sobre a outra que se mantém fixa?\n\n![Figura (c): gráfico de $F_{\\text{at}}$ (nN), eixo vertical de 0 a 4 com grade a cada 1 nN, em função de $N$ (nN), eixo horizontal de 0 a 10 com grade a cada 2,5 nN. Pontos quadrados que sobem de cerca de 0,1 nN perto da origem até cerca de 2,7 nN perto de $N$ = 9 nN, e uma linha tracejada que acompanha os pontos, quase reta a partir de $N$ ≈ 1,5 nN, e chega a 3 nN em $N$ = 10 nN.](fig:p11-c3)"
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas_corrigidas": {
+  "1": {
+   "resposta": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria saber que: (a) há variabilidade genética entre distintos indivíduos; (b) o DNA é o mesmo em todas as células nucleadas de um indivíduo; (c) os pesquisadores são capazes de realizar análises genéticas a partir de amostras fecais ou qualquer amostra que contenha material celular nucleado.\n\nQuanto às <u>capacidades desejadas</u> no estudante, a questão avaliou: (a) a argumentação lógica do candidato (ao opinar sobre quem tinha razão, o pesquisador ou o crítico); e (b) sua capacidade de interpretar dados.",
+   "itens": {
+    "a": "Comparando-se as sequências fornecidas, nota-se que as amostras 1 e 2 provavelmente pertencem ao tigre de Bengala, pois há menos diferenças entre cada amostra e a sequência do gene *Gapdh* em *Panthera tigris* do que na comparação das amostras com *Panthera pardus*. As amostras 1 e 2 não pertencem ao mesmo indivíduo, pois as sequências do gene *Gapdh* são ligeiramente diferentes nas duas amostras.",
+    "b": "O pesquisador tem razão, pois fezes possuem fragmentos celulares a partir dos quais DNA nuclear pode ser extraído facilmente. Além disso, não há DNA nuclear em hemácias de mamíferos, já que estas são anucleadas."
+   }
+  },
+  "2": {
+   "resposta": "**Objetivo da questão:** <u>Conhecimentos biológicos</u> exigidos do candidato: o importantíssimo conceito de seleção natural; características fundamentais da organização do esqueleto em animais, incluindo comparação entre vertebrados e invertebrados; além de algum conhecimento sobre zoologia (morfologia e função).\n\n<u>Capacidades desejadas</u> no candidato: capacidade de argumentação lógica (extrair informações dos gráficos e relacionar com conteúdo programático do Ensino Médio sobre evolução de seres vivos); habilidade para interpretar dados, gráficos e tabelas.",
+   "itens": {
+    "a": "O esqueleto de artrópodes é do tipo exoesqueleto articulado, constituído predominantemente por quitina. Já os vertebrados possuem endoesqueleto, que é formado por tecido ósseo e/ou cartilaginoso.",
+    "b": "Seleção natural é a sobrevivência ou a reprodução diferencial de tipos distintos de indivíduos em uma população, em um processo em que os mais aptos têm maior sucesso na transferência de seus genes para as gerações seguintes. Os besouros do tipo G, que possuem \"chifres\" maiores, têm maior sucesso reprodutivo do que os tipos P e M. Logo, trata-se de um caso de seleção natural. Como consequência, machos com \"chifres\" maiores conseguem passar seus genes às próximas gerações mais eficientemente. Essa característica torna-se então cada vez mais frequente, constituindo, portanto, uma adaptação."
+   }
+  },
+  "3": {
+   "resposta": "**Objetivo da questão:** <u>Conhecimentos biológicos</u>: relação entre alimentação, saúde humana, metabolismo energético e armazenamento de energia. Além disso, o candidato deveria ter conhecimentos sobre câncer, proliferação de células cancerosas e divisão celular. Foi uma questão abrangente em termos de conteúdo biológico, mas com um forte viés para as áreas de saúde humana e saúde pública.",
+   "itens": {
+    "a": "De acordo com o gráfico, para o sexo masculino observamos maior aumento na faixa etária de 10 a 19 anos (aumento aproximado de 12 vezes). Para o sexo feminino, observamos maior aumento na faixa etária de 5 a 9 anos (aumento aproximado de 6 vezes). Os carboidratos são importantes fontes de energia para o metabolismo. Quando consumidos em excesso (ingestão calórica maior que a demanda energética), podem ser convertidos em lipídeos e armazenados no tecido adiposo, causando obesidade.",
+    "b": "Câncer é uma doença genética caracterizada pela presença de células que perdem a capacidade de regular sua divisão e passam a proliferar descontroladamente (células cancerosas). As hortaliças citadas são importantes pois contêm compostos antimitóticos, inibindo a proliferação celular em geral, incluindo a multiplicação desenfreada da célula cancerosa."
+   }
+  },
+  "4": {
+   "resposta": "**Objetivo da questão:** <u>Conhecimentos biológicos</u>: dois aspectos importantíssimos da fisiologia de plantas — transpiração e balanço fotossíntese-respiração — que têm relevância para a área da agricultura e, portanto, para nosso Estado e nosso país. Em particular, o candidato deveria conhecer a relação entre a transpiração de plantas e a umidade relativa do ar, além da relação entre o balanço fotossíntese-respiração, acúmulo de biomassa e concentração de $\\text{CO}_2$ no ar. A questão relaciona diversos conteúdos, contêm gráficos e demanda elaboração de hipóteses.\n\n<u>Capacidades desejadas</u> no candidato: capacidade de argumentação lógica, pois o candidato deveria resgatar informações de variáveis ambientais fornecidas pelos gráficos e relacioná-las a conteúdo sobre fisiologia vegetal. Além disso, a questão exigia interpretação de gráficos e elaboração de hipóteses. Trata-se de uma questão eficiente para a seleção de bons alunos para a UNICAMP, em qualquer área.",
+   "itens": {
+    "a": "Analisando o gráfico de umidade relativa do ar, conclui-se que a floresta A transpira mais do que a floresta B no período chuvoso, promovendo maior umidade do ar. Uma vez que maior transpiração requer maior consumo hídrico, a floresta A exibe maior dependência de água. Analisando o gráfico de concentração de $\\text{CO}_2$, nota-se que na maior parte do ano o nível de $\\text{CO}_2$ da floresta A é menor do que na floresta B, significando que há mais remoção de $\\text{CO}_2$ da atmosfera pela fotossíntese do que sua liberação em virtude da respiração. Portanto, a floresta A produz mais biomassa, pois tem um balanço mais positivo entre fotossíntese e respiração ao longo do ano.",
+    "b": "O menor volume de chuvas levaria ao fechamento dos estômatos, acarretando menor transpiração e fotossíntese (captação de $\\text{CO}_2$), levando por sua vez à redução na umidade relativa do ar e ao aumento da concentração de $\\text{CO}_2$."
+   }
+  },
+  "5": {
+   "resposta": "**Objetivo da questão:** <u>Conhecimentos biológicos</u>: conhecimentos sobre biologia celular, bioquímica, biotecnologia e, particularmente, sobre tradução, transgenia e antibióticos.\n\n<u>Capacidades desejadas</u> no candidato: a questão exigiu do candidato capacidade de relacionar ideias e, principalmente, de elaborar explicações com concatenação coerente de ideias.",
+   "itens": {
+    "a": "A puromicina tem ação antibiótica sobre bactérias, pois interrompe a tradução (síntese proteica) realizada pelos ribossomos procarióticos, processo bioquímico essencial para tais organismos. Uma vez que a puromicina interrompe o crescimento da cadeia proteica, a massa molecular média de uma dada proteína, na presença do antibiótico, será menor do que na ausência do mesmo.",
+    "b": "Células que receberam o referido gene conseguirão destruir a puromicina por causa da enzima codificada por ele. Não serão, portanto, afetadas pela puromicina e preservarão a integridade de seu processo de tradução, levando a uma maior taxa de sobrevivência em relação às células não transgênicas."
+   }
+  },
+  "6": {
+   "resposta": "**Objetivo da questão:** <u>Conhecimentos biológicos</u>: hereditariedade e padrões de herança; células-tronco. O primeiro é um tema clássico de Genética no Ensino Médio, enquanto o segundo é um tema atual e de relevância social e médica. O primeiro tema, embora clássico, foi cobrado de forma não usual, requerendo capacidade de argumentação lógica e recuperação de informações em um heredograma.\n\n<u>Capacidades desejadas</u> no candidato: a questão exigiu capacidade de argumentação lógica com uso e interpretação dos dados fornecidos.",
+   "itens": {
+    "a": "O loco está no cromossomo X, pois, no heredograma, há homens e mulheres afetados pela doença; se o loco estivesse no cromossomo Y, apenas homens seriam afetados. O alelo $A_1$ é dominante, pois neste caso espera-se que todas as filhas de homens afetados tenham a doença, situação representada no heredograma.",
+    "b": "iPSC são células-tronco pluripotentes e, como tal, podem diferenciar-se em vários outros tipos celulares, inclusive neurônios. Os efeitos neuronais do alelo $A_1$ nunca seriam vistos em fibroblastos, pois estas células não apresentam as características fenotípicas de neurônios, como, por exemplo, a excitabilidade da membrana plasmática e a capacidade de conduzir sinais elétricos."
+   }
+  },
+  "7": {
+   "resposta": "**Objetivo da questão:**\n\n**a)** A questão aborda conceitos de movimento uniforme e velocidade relativa, contextualizados do deslocamento das pessoas nos aeroportos. Neste item, o candidato deveria usar esses conceitos para calcular o tempo necessário para que a pessoa A chegue até a outra extremidade da esteira rolante.\n\n**b)** Nesse item os conceitos de movimento uniforme e velocidade relativa exigidos para o cálculo do tempo necessário até o encontro das pessoas A e B.",
+   "itens": {
+    "a": "O tempo necessário para que a pessoa A chegue até a outra extremidade da esteira rolante é dado por\n\n$$t = \\frac{d}{v} = \\frac{d}{v_e + v_A} = \\frac{120}{1{,}0 + 1{,}5} = 48\\ \\text{s}$$",
+    "b": "As pessoas A e B passam uma pela outra quando\n\n$$(v_A + v_e)\\,t = 120 - (v_B + v_e)\\,t$$\n\n$$2{,}5\\,t = 120 - 1{,}5\\,t$$\n\nAssim:\n\n$$t = \\frac{120}{4{,}0} = 30\\ \\text{s}$$"
+   }
+  },
+  "8": {
+   "resposta": "**Objetivo da questão:**\n\n**a)** Utilizando como contexto o desprendimento recente de gigantesco iceberg, a questão pressupõe neste item o domínio do conceito de equilíbrio entre as forças peso e empuxo que atuam no iceberg. Aplicando esse conceito, o candidato deveria calcular o empuxo sobre o iceberg.\n\n**b)** Nesse item, supondo a fragmentação do iceberg, o candidato deveria usar os conceitos de conservação do momento linear para calcular o módulo da velocidade de um dos fragmentos logo após a ruptura.",
+   "itens": {
+    "a": "O empuxo que mantém o *iceberg* flutuando é igual, em módulo, ao peso do *iceberg*:\n\n$$E = P = mg = (\\text{Volume} \\times \\rho_g)\\,g$$\n\n$$E = (6000 \\times 10^6) \\times 500 \\times 900 \\times 10 = 2{,}7 \\times 10^{16}\\ \\text{N}$$",
+    "b": "Aplicando a lei de conservação do momento linear: $p_A + p_B = 0$\n\n$$m_A \\times v_A + m_B \\times v_B = 0$$\n\n$$2{,}0 \\times 10^5 \\times 0{,}5 + 5{,}0 \\times 10^4 \\times v_B = 0$$\n\n$$v_B = -2{,}0\\ \\text{m/s}$$\n\n$$|v_B| = 2{,}0\\ \\text{m/s}$$"
+   }
+  },
+  "9": {
+   "resposta": "**Objetivo da questão:**\n\n**a)** Utilizando como contexto os importantes estudos sobre o atrito feitos por Leonardo da Vinci e por Guillaume Amontons, esse item exigia o conhecimento dos conceitos de força ou de trabalho-energia, que deveriam ser utilizados de forma concatenada para encontrar a distância de deslocamento do conjunto de blocos.\n\n**b)** Esse item exigia a leitura do gráfico fornecido e o uso do conceito físico de trabalho da força de atrito para a sua solução.",
+   "itens": {
+    "a": "A variação da energia cinética do sistema é igual ao trabalho da força resultante:\n\n$$\\Delta E_{\\text{cin}} = \\tau_{\\text{total}} = \\tau_{\\text{peso}} + \\tau_{\\text{atrito}}$$\n\n$$\\frac{1}{2}(m_1 + m_2)\\,v^2 - 0 = m_1 g d - \\mu_c m_2 g d$$\n\n$$d = \\frac{(m_1 + m_2)\\,v^2}{2(m_1 - \\mu_c m_2)\\,g} = \\frac{1{,}5\\ \\text{kg} \\times (2{,}0\\ \\text{m/s})^2}{2(1{,}0 - 0{,}8 \\times 0{,}5)\\ \\text{kg} \\times 10\\ \\text{m/s}^2} = \\frac{6}{12}\\ \\text{m} = 0{,}5\\ \\text{m}$$",
+    "b": "Do gráfico obtemos que $F_{\\text{at}} = 1{,}5\\ \\text{nN}$ para $N = 5{,}0\\ \\text{nN}$. Portanto,\n\n$$|\\tau_{\\text{atrito}}| = F_{\\text{at}}\\, d = 1{,}5 \\times 10^{-9}\\ \\text{N} \\times 2{,}0 \\times 10^{-6}\\ \\text{m} = 3{,}0 \\times 10^{-15}\\ \\text{J}$$"
+   }
+  }
+ },
+ "complementos": {
+  "1": {
+   "assunto": "Genética"
+  },
+  "2": {
+   "assunto": "Evolução"
+  },
+  "3": {
+   "assunto": "Fisiologia humana"
+  },
+  "4": {
+   "assunto": "Botânica"
+  },
+  "5": {
+   "assunto": "Biotecnologia"
+  },
+  "6": {
+   "assunto": "Genética"
+  },
+  "7": {
+   "assunto": "Cinemática"
+  },
+  "8": {
+   "assunto": "Hidrostática"
+  },
+  "9": {
+   "assunto": "Dinâmica"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "objetivo: separados os dois parágrafos (conhecimento biológico / capacidades), como no original. respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação). Enunciado, sequências de DNA e respostas conferidos."
+  },
+  {
+   "numero": 2,
+   "status": "corrigida",
+   "notas": "respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação). Enunciado, figuras A, B e C e objetivo conferidos."
+  },
+  {
+   "numero": 3,
+   "status": "corrigida",
+   "notas": "objetivo: a frase das “Capacidades desejadas” tinha sido cortada no meio (faltava a oração final “fator que gerou a maior quantidade dos erros nessa questão”, que comenta o desempenho); retirada a frase inteira, pois a regra não permite encurtar frase nem trazer comentário de desempenho. respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação). Valores da descrição do gráfico conferidos (são impressos no gráfico)."
+  },
+  {
+   "numero": 4,
+   "status": "corrigida",
+   "notas": "descrição da figura p06-c1 não trazia as curvas que o item manda comparar; acrescentados os valores aproximados de cada mês para as duas florestas (sem interpretação). respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação). Observação do transcritor (“contêm gráficos” no objetivo) conferida: está assim no original."
+  },
+  {
+   "numero": 5,
+   "status": "corrigida",
+   "notas": "respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação). Enunciado e objetivo conferidos."
+  },
+  {
+   "numero": 6,
+   "status": "corrigida",
+   "notas": "descrição do heredograma (p08-c1) só dizia “quadrados e círculos pretos ou brancos”, omitindo o que o item a manda analisar; reescrita com a composição de cada geração, sem indicar o tipo de herança. respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação). Fonte “(Inspirado em ...)” mantida no fim do enunciado."
+  },
+  {
+   "numero": 7,
+   "status": "corrigida",
+   "notas": "resposta do item a: as Respostas esperadas trazem “é dado por” sem dois-pontos (o rascunho tinha os dois-pontos da prova comentada). respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação). Objetivo com a frase sem verbo do item b mantida como no original."
+  },
+  {
+   "numero": 8,
+   "status": "corrigida",
+   "notas": "respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação). Nota da plataforma com g = 10 m/s² (página de instruções) mantida."
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "descrição do gráfico (c) não trazia a posição dos pontos que o item b manda ler; acrescentada a grade, a faixa dos pontos e o trajeto da linha tracejada, sem dar o valor em N = 5 nN. respostas: retirado “(2 pontos)” dos itens (só existe na prova comentada; as Respostas esperadas não trazem pontuação)."
+  }
+ ]
+}
