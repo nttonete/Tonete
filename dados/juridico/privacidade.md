@@ -37,7 +37,7 @@ Não usamos suas respostas para treinar ou melhorar modelos sem seu consentiment
 
 ## 5. Seus direitos
 
-Você pode, pela própria plataforma [QUANDO HOUVER CONTA]: confirmar se tratamos seus dados, baixar uma cópia, corrigir, pedir a exclusão da conta e dos dados, e revogar consentimentos. Também pode contatar o encarregado pelo tratamento de dados (DPO): **[NOME E E-MAIL DO ENCARREGADO A DEFINIR]**.
+Você pode, pela própria plataforma [QUANDO HOUVER CONTA]: confirmar se tratamos seus dados, baixar uma cópia, corrigir, pedir a exclusão da conta e dos dados, e revogar consentimentos. Também pode contatar o encarregado pelo tratamento de dados (DPO): **[NOME DO ENCARREGADO A DEFINIR]**, contato provisório: **mvtonete@gmail.com** (a trocar antes do lançamento).
 
 ## 6. Quanto tempo guardamos
 

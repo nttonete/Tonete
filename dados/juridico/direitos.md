@@ -10,7 +10,7 @@ A Banca Aberta é uma ferramenta de estudo independente. Ela reúne questões de
 
 ## Quer pedir a remoção de um conteúdo?
 
-Se você é autor, titular de direitos ou representante e quer que um conteúdo seja removido ou corrigido, escreva para **[E-MAIL A DEFINIR]** informando:
+Se você é autor, titular de direitos ou representante e quer que um conteúdo seja removido ou corrigido, escreva para **mvtonete@gmail.com** (endereço provisório, a trocar pelo e-mail oficial antes do lançamento) informando:
 
 - seu nome e um contato;
 - qual é o conteúdo (banca, ano, fase e número da questão, ou o endereço da página);

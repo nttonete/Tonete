@@ -9,7 +9,9 @@ Auditoria feita em 15/10/2026 e plano de adequação. Os textos legais são **RA
 | Respostas esperadas e comentários oficiais das bancas (requisito D) | **Mantidos por ora.** Voltar ao assunto depois do parecer jurídico. Se a decisão mudar: tirar `resposta_oficial` das discursivas e o "Objetivo da questão", e trocar por rubrica própria. |
 | Modo "prova completa" (requisito A3) | **Mantido.** Risco conhecido: reconstrói uma prova original inteira. O teto de 30% vale só para simulados. |
 | Prévia publicada (Artifact, privada) | **Mantida** (e atualizada com as mudanças abaixo). |
-| Backend | Ainda não escolhido; proposta abaixo. |
+| Backend | **Opção A (Supabase, região São Paulo)** escolhida, ainda não construída. Falta criar a conta do projeto e definir provedor de IA e de pagamento. |
+| E-mail de contato | Provisório: mvtonete@gmail.com (pedidos de remoção e contato do encarregado). Trocar pelo oficial antes do lançamento. |
+| Triagem de terceiros | Adiada: não mexer agora. |
 
 ## O que já está feito (sem backend)
 
@@ -51,7 +53,7 @@ Auditoria feita em 15/10/2026 e plano de adequação. Os textos legais são **RA
 
 ## Proposta de backend
 
-- **Opção A (recomendada): Supabase (Postgres + login + arquivos + regras por perfil + funções no servidor), região São Paulo.** O site atual continua estático. A correção por IA roda numa função no servidor, que envia ao provedor só o texto ou a foto e a rubrica, com um identificador sem nome. Rápido de montar, baixo custo inicial, dados no Brasil. Contra: dependência de um fornecedor.
+- **Opção A (ESCOLHIDA): Supabase (Postgres + login + arquivos + regras por perfil + funções no servidor), região São Paulo.** O site atual continua estático. A correção por IA roda numa função no servidor, que envia ao provedor só o texto ou a foto e a rubrica, com um identificador sem nome. Rápido de montar, baixo custo inicial, dados no Brasil. Contra: dependência de um fornecedor.
 - **Opção B: servidor próprio (Python ou Node) com Postgres gerenciado em nuvem no Brasil (AWS, Google Cloud ou Azure).** Mais controle e mais trabalho: login, e-mail e painel ficam por nossa conta.
 - **Opção C: Firebase (Google), região São Paulo.** Bom login, banco menos adequado ao log de moderação e aos relatórios.
 - Pagamento: provedor com checkout hospedado (Asaas, Mercado Pago ou Stripe), para não tocar em dado de cartão. Análise de uso: evitar, ou usar ferramenta sem cookies.
