@@ -1,0 +1,105 @@
+{
+  "edicao": "fuvest-2025-2-d2",
+  "intervalo": [
+    10,
+    18
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 10,
+      "codigo": "F04",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Ondas sísmicas são ondas que se propagam em camadas de rochas no interior do manto da Terra. Essas ondas podem ser longitudinais (como o som, por exemplo) ou transversais (como as ondas que se propagam em uma corda). Um tipo de onda sísmica transversal é a chamada *onda secundária* (ou “onda S” ou “onda de cisalhamento”) e sua velocidade é dada por\n\n$$v_S = \\sqrt{\\frac{\\mu}{\\rho}}\\,,$$\n\nem que $\\mu$ é o módulo de cisalhamento e $\\rho$ é a densidade (ou massa específica), parâmetros da rocha em que a onda se propaga.\n\n**Note e adote:**\nUnidade de densidade (massa específica) no SI: $\\text{kg/m}^3$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Através de uma análise dimensional, determine a unidade do módulo de cisalhamento $\\mu$ no Sistema Internacional de Unidades (SI)."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Na interface entre dois tipos de rocha, pode haver refração das ondas sísmicas, e a mudança de direção é dada pela Lei de Snell, conforme mostra o exemplo da figura a seguir.\n\n![Duas camadas de rocha, camada 1 acima da camada 2, com o raio incidente, o raio refratado e os ângulos θ1 e θ2 medidos em relação à vertical tracejada](fig:p12-f2)\n\n$$\\frac{\\text{sen}\\,\\theta_1}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{v_{S2}}$$\n\nVelocidades de ondas S típicas de alguns materiais comuns no manto terrestre são dadas na tabela a seguir.\n\n| Material | Granito | Basalto | Arenito | Calcário | Argila |\n|---|---|---|---|---|---|\n| Velocidade da onda S (m/s) | 2900 | 2600 | 1400 | 2700 | 700 |\n\nFontes: https://gpg.geosci.xyz/content/physical_properties/seismic_velocity_duplicate.html\nhttps://pburnley.faculty.unlv.edu/GEOL452_652/seismology/notes/SeismicNotes10RVel.html\n\nConsidere uma onda S harmônica de frequência 0,3 Hz propagando-se através de uma interface entre duas camadas com composições diferentes.\n\nSe a camada 1 for predominantemente composta por basalto e a camada 2 por granito, qual será a variação no comprimento de onda, $\\lambda_2 - \\lambda_1$?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Em outra interface, são medidos $\\text{sen}\\,\\theta_1 = 0{,}26$ e $\\text{sen}\\,\\theta_2 = 0{,}52$. Se a camada 1 for composta predominantemente de argila, qual será, dentre os materiais apresentados na tabela, aquele que melhor corresponderá à composição da camada 2? Justifique a sua resposta."
+        }
+      ],
+      "observacoes": "No caderno, o parágrafo da Lei de Snell (com figura, fórmula, tabela e a frase “Considere uma onda S harmônica...”) vem entre os itens a e b e serve aos itens b e c; foi posto no início do texto do item b para manter a ordem."
+    },
+    {
+      "numero": 11,
+      "codigo": "F05",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O “efeito estilingue” é o nome que se dá à modificação do módulo e da direção da velocidade de uma espaçonave quando ela passa nas imediações de um planeta. Ele foi utilizado, por exemplo, para encurtar em mais de 5 anos a duração da viagem da sonda *New Horizons* até Plutão, passando por Júpiter. A figura ao lado ilustra o efeito em uma situação na qual uma sonda de massa 500 kg, viajando inicialmente para a direita, move-se em direção a um planeta de massa $2{,}0\\times10^{27}$ kg que viaja para a esquerda. Como a massa da sonda é desprezível frente à do planeta, a trajetória deste último praticamente não se altera, embora parte de sua energia cinética seja transferida para a sonda. Nos pontos $A$ e $B$ indicados na figura, as distâncias entre a sonda e o planeta são tais que a energia potencial gravitacional associada à interação entre eles pode ser desprezada.\n\n![Gráfico da coordenada y em função da coordenada x, em unidades arbitrárias, com a trajetória da sonda do ponto A ao ponto B e a trajetória do planeta; legendas: “Sonda”, “Planeta”, “planeta se move praticamente em linha reta.” e “velocidade da sonda aumenta pela interação com o planeta”](fig:p14-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "No ponto $A$, a velocidade $\\vec{v}_A$ da sonda em relação ao Sol tem apenas componente $x$, dada por 20 km/s, enquanto essa velocidade no ponto $B$ é $\\vec{v}_B$, com componente $x$ igual a -7 km/s e componente $y$ igual a -24 km/s. De quanto foi o aumento no módulo da velocidade da sonda entre esses dois pontos?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Nas mesmas condições do item anterior, determine as componentes $x$ e $y$ do vetor variação da quantidade de movimento da sonda entre os pontos $A$ e $B$, bem como a tangente do ângulo entre esse vetor e o eixo $x$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Nas mesmas condições dos itens anteriores, qual é a razão entre a variação da energia cinética do planeta e sua energia cinética inicial? Suponha que o módulo da velocidade inicial do planeta, em relação ao Sol, fosse de 5 km/s. Despreze a variação da energia potencial gravitacional associada à interação da sonda e do planeta com o Sol durante o processo."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "codigo": "F06",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Diversos aparelhos, como painéis solares, televisões de LCD e plasma, iluminações urbanas e outros, têm seu funcionamento baseado no efeito fotoelétrico, no qual elétrons são arrancados de uma superfície metálica pela incidência de radiação eletromagnética. Para que ocorra efeito fotoelétrico, a energia de um fóton, dada por $hf$, sendo $h$ a constante de Planck e $f$ a frequência da radiação eletromagnética, deve ser superior a uma energia mínima, conhecida como função trabalho, $\\phi$, que é uma quantidade dependente do material. A tabela a seguir mostra a função trabalho de alguns materiais.\n\n| Material | $\\phi\\ (\\text{eV})$ |\n|---|---|\n| Platina | 5,8 |\n| Tungstênio | 4,5 |\n| Alumínio | 4,2 |\n| Bário | 2,5 |\n| Potássio | 2,3 |\n\n**Note e adote:**\nConstante de Planck: $h = 4\\times10^{-15}$ eV s.\nVelocidade da luz no vácuo: $c = 3\\times10^{8}$ m/s.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considere uma placa de alumínio inicialmente carregada eletricamente. A fim de saber se a placa foi carregada positivamente ou negativamente, incide-se luz ultravioleta sobre sua superfície. Após certo tempo, verifica-se que a placa está neutra. Qual era o sinal da carga elétrica inicialmente na placa? Justifique a sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Deseja-se escolher um material para uma célula fotoelétrica que funcione com luz verde de frequência $f = 6\\times10^{14}$ Hz. Qual(is) dos materiais da tabela funcionaria(m) como uma célula fotoelétrica? Justifique a sua resposta."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Caso a energia de um fóton seja superior à função trabalho, o elétron será emitido com energia cinética adicional. Determine a energia cinética (em eV) de um elétron quando uma luz de comprimento de onda 400 nm incide sobre uma superfície de bário."
+        }
+      ],
+      "observacoes": "Na resposta oficial do item c, o texto traz “a função trabalho , ou seja” (o símbolo φ parece ter sido omitido antes da vírgula) e, no item a, “ter sido descarregado” (concordância do original)."
+    }
+  ],
+  "respostas": {
+    "10": {
+      "itens": {
+        "a": "Fazendo uma análise dimensional da velocidade:\n\n$$v_S^2 = \\frac{\\mu}{\\rho} \\Rightarrow [\\mu] = [\\rho]\\cdot[v_S]^2 \\Rightarrow [\\mu] = \\frac{\\text{kg}}{\\text{m}^3}\\,\\frac{\\text{m}^2}{\\text{s}^2} = \\frac{\\text{kg}}{\\text{m}\\cdot\\text{s}^2} = \\frac{\\text{kg}\\cdot\\left(\\frac{\\text{m}}{\\text{s}^2}\\right)}{\\text{m}^2} = \\frac{\\text{N}}{\\text{m}^2} = \\text{Pa}$$\n\nResposta: Pascal (Pa) ou kg/(m s²)",
+        "b": "A frequência permanece a mesma na interface. Nas camadas, temos $\\lambda_1 = \\frac{v_{s1}}{f}$ e $\\lambda_2 = \\frac{v_{s2}}{f}$.\n\nLogo,\n\n$$\\lambda_2 - \\lambda_1 = \\frac{v_{s2} - v_{s1}}{f} = \\frac{2900 - 2600}{0{,}3} = 1000\\ \\text{m}$$\n\nResposta: $\\lambda_2 - \\lambda_1 = 1000$ m.",
+        "c": "Pela Lei de Snell:\n\n$$\\frac{\\text{sen}\\,\\theta_1}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{v_{S2}} \\Rightarrow \\frac{v_{S2}}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{\\text{sen}\\,\\theta_1} = \\frac{0{,}52}{0{,}26} = 2 \\Rightarrow v_{S2} = 2v_{S1} = 1400\\ \\text{m/s}$$\n\nLogo, a camada 2 deve ser majoritariamente composta de arenito."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+    },
+    "11": {
+      "itens": {
+        "a": "O módulo da velocidade da sonda no ponto $A$ é $v_A = 20$ km/s e o módulo correspondente no ponto $B$ é $v_\\text{B} = \\sqrt{(-7)^2 + 24^2} = 25$ km/s. Logo, a variação do módulo da velocidade da sonda foi de 5 km/s.",
+        "b": "A variação do vetor quantidade de movimento da sonda foi:\n\n$$\\Delta\\vec{Q} = \\vec{Q}_B - \\vec{Q}_A = m(\\vec{v}_B - \\vec{v}_A)$$\n\nA componente $x$ dessa variação vale $Q_x = 500(-7-20) = -13500$ kg.km/s, enquanto a componente $y$ vale $Q_Y = 500(-24-0) = -12000$ kg.km/s.\n\nA tangente do ângulo que o vetor $\\Delta\\vec{Q}$ faz com o eixo $x$ é $tg\\,\\theta = Q_Y/Q_x = 24/27 = 8/9$.",
+        "c": "Como podemos desprezar todas as contribuições de energia potencial gravitacional, a conservação da energia mecânica impõe que as variações de energia cinética da sonda, $\\Delta E_s$, e do planeta, $\\Delta E_p$, relacionam-se por:\n\n$$\\Delta E_p = -\\Delta E_s = \\frac{1}{2}mv_A^2 - \\frac{1}{2}mv_B^2$$\n\nPor outro lado, a energia cinética inicial do planeta é $E_p = \\frac{1}{2}MV^2$, de modo que a razão pedida é:\n\n$$\\Delta E_p/E_p = (m/M)(v_A^2 - v_B^2)/V^2$$\n\nSubstituindo os dados, temos:\n\n$$\\frac{\\Delta E_p}{E_p} = \\frac{500}{2{,}0\\times10^{27}}\\cdot\\frac{20^2 - 25^2}{5^2} = -2{,}25\\times10^{-24}$$\n\nObservação: uma solução alternativa e também aceita (mas bem mais trabalhosa) envolve utilizar a conservação do vetor quantidade de movimento total. Tal solução leva a um resultado igual a:\n\n$$\\frac{\\Delta E_p}{E_p} = -2{,}7\\times10^{-24}$$\n\nA pequena discrepância entre os resultados deve-se ao ajuste feito no valor fornecido da velocidade da sonda no ponto $B$, de modo a facilitar os cálculos."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+    },
+    "12": {
+      "itens": {
+        "a": "O fato de a placa ter sido descarregado pela incidência de radiação indica que nela havia excesso de elétrons, ou seja, a placa estava carregada negativamente.",
+        "b": "A energia do fóton incidente é $E = hf = 4\\times10^{-15}.\\ 6\\times10^{14} = 2{,}4$ eV. O único material que possui uma função trabalho inferior a esse valor, e que, portanto, experimentará efeito fotoelétrico na presença da luz verde, é o potássio.",
+        "c": "A conservação da energia exige que a energia cinética $K$ adquirida pelo elétron seja igual à diferença entre a energia $hf$ do fóton e a função trabalho, ou seja, $K = hf - \\phi$. Sendo $c$ a velocidade da luz no vácuo e $\\lambda$ o comprimento de onda do fóton, temos:\n\n$$hf = \\frac{hc}{\\lambda} = \\frac{4\\times10^{-15}\\cdot3\\times10^{8}}{400\\times10^{-9}} = 3\\ \\text{eV}$$\n\nLogo, $K = 3 - 2{,}5 = 0{,}5$ eV."
+      },
+      "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+ "edicao": "fuvest-2025-2-d2",
+ "intervalo": [
+  28,
+  36
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 28,
+   "codigo": "M04",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O sistema *Price*, também conhecido como Sistema Francês de Amortização, é um modelo muito utilizado para financiamentos, como os de celulares e veículos. A principal característica desse sistema é que as parcelas são fixas durante todo o período do financiamento, ou seja, o valor que se paga periodicamente é o mesmo do início ao fim. A parcela do financiamento no sistema *Price* é composta por duas partes: amortização e juros. Nesse sistema, ao longo do tempo, o valor pago a título de juros diminui à medida que o valor pago a título de amortização aumenta, mantendo o valor total da parcela constante, conforme o modelo matemático:\n\n$$V = \\frac{P}{(1+j)} + \\frac{P}{(1+j)^2} + \\frac{P}{(1+j)^3} + \\cdots + \\frac{P}{(1+j)^n} = \\frac{P}{(1+j)}\\left[1 + \\frac{1}{(1+j)} + \\frac{1}{(1+j)^2} + \\cdots + \\frac{1}{(1+j)^{n-1}}\\right]$$\n\nem que $V$ corresponde ao valor total financiado, $j$ representa a taxa de juros cobrada mensalmente, $n$ é o número de parcelas mensais a serem pagas e $P$ é o valor de cada uma das parcelas.\n\nO valor de $n$ é um número inteiro, dado que é o número de parcelas do financiamento. Contudo, ao modelar matematicamente tal problema, pode-se deparar com valores não inteiros. Existem calculadoras que, por exemplo, mesmo que o valor modelado matematicamente para $n$ não seja inteiro, apresentam como resposta padrão $n$ como sendo o menor inteiro maior que o valor obtido com o modelo matemático. Por exemplo, considerando um valor financiado de R\\$19.000,00, que será cobrado a uma taxa de juros de 1% ao mês, com parcelas fixas de R\\$500,00, a calculadora apresenta como solução $n = 49$.\n\n**Note e adote:**\nNo item (b), utilize, se necessário: $(1{,}01)^{-48} = 0{,}620260$ ; $(1{,}01)^{-49} = 0{,}614119$ ; $(1{,}01)^{-50} = 0{,}608039$.\nNo item (c), a resposta pode ser apresentada em função de logaritmo.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo a ausência de juros, ou seja, uma taxa de juros de 0% ao mês, em quantas parcelas de R\\$500,00 poderia ser quitado o financiamento de R\\$19.000,00?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando uma taxa de juros de 1% ao mês, parcelas fixas de R\\$500,00 e $n = 49$, calcule o valor financiado $V$ obtido por meio do modelo matemático apresentado."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Assumindo que $n$ não precisa ser inteiro no modelo matemático apresentado, encontre $n$ para um valor financiado de R\\$19.000,00 que será pago em parcelas fixas de R\\$500,00 a uma taxa de juros de 1% ao mês."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 29,
+   "codigo": "M05",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere o quociente $(k_n) = \\frac{n}{2^b}$, em que $n, b \\in \\mathbb{N}^*$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para $b = 3$, $(k_n)$ forma uma progressão. Indique se a progressão formada é aritmética ou geométrica e forneça o valor da razão."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Se $n$ é um número par e $b \\leq 3$, qual é o número máximo de casas decimais de $k_n$?"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Qual é o menor $n$, em função de $b$, tal que $k_1 + k_2 + \\cdots + k_n$ é um número inteiro?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 30,
+   "codigo": "M06",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A partir do recorte de um quadrado cujo lado mede 10 m, um artista plástico fez uma obra em metal representada na Figura 1, cuja planificação é mostrada na Figura 2.\n\n![Figura 1: escultura com os pontos A, B, C, D e M, o ângulo $\\alpha$ em C e a sombra externa em cinza](fig:p35-c1)\n\n![Figura 2: planificação em um quadrado de lado 10 m, com os pontos D, C, A e B](fig:p35-c2)\n\nObserve as Figuras 1 e 2 para responder:\n\n**Note e adote:**\n$\\text{sen}\\,(60^\\circ) = \\frac{\\sqrt{3}}{2}$\n$\\cos\\,(60^\\circ) = \\frac{1}{2}$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo que a medida da área da sombra externa da escultura, representada pelo triângulo DMC, seja o dobro da medida da área do triângulo DAC, qual é a medida do ângulo $\\alpha$, indicado na Figura 1?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Supondo que a medida da área do triângulo DMC seja $k$ vezes a medida da área do triângulo DAC, determine o valor de $k$ em função de $\\alpha$."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Qual é a medida da projeção ortogonal do segmento AB no solo, supondo que o ângulo desse segmento em relação ao solo seja 60°?"
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "28": {
+   "itens": {
+    "a": "Supondo uma taxa de juros nula, temos:\n\n$$V = \\frac{P}{(1)} + \\frac{P}{(1)^2} + \\frac{P}{(1)^3} + \\cdots + \\frac{P}{(1)^n} = nP$$\n\nLogo,\n\n$$n = \\frac{19.000}{500} = 38$$",
+    "b": "Substituindo os valores dados na equação, temos:\n\n$$V = \\frac{500}{1{,}01}\\left[1 + \\frac{1}{(1{,}01)^1} + \\cdots + \\frac{1}{(1{,}01)^{48}}\\right]$$\n\nPor se tratar de uma soma de termos de uma P.G., temos:\n\n$$V = \\frac{500}{(1{,}01)}\\left[\\frac{1 - \\frac{1}{(1{,}01)^{49}}}{1 - \\frac{1}{1{,}01}}\\right] = \\frac{500}{(1{,}01)}\\left[\\frac{1 - \\frac{1}{(1{,}01)^{49}}}{\\frac{1{,}01 - 1}{1{,}01}}\\right] = \\frac{500\\,(1{,}01)}{(1{,}01)(0{,}01)}\\left[1 - \\frac{1}{(1{,}01)^{49}}\\right]$$\n\n$$V = \\frac{500}{0{,}01}\\left[1 - 0{,}614119\\right] = 50.000\\,[0{,}385881] = 19.294{,}05$$",
+    "c": "Utilizando a mesma equação, temos:\n\n$$19.000 = \\frac{500}{(1 + 0{,}01)} + \\frac{500}{(1 + 0{,}01)^2} + \\cdots + \\frac{500}{(1 + 0{,}01)^n}$$\n\n$$\\frac{19.000}{500} = \\frac{1}{(1{,}01)} + \\frac{1}{(1{,}01)^2} + \\cdots + \\frac{1}{(1{,}01)^n}$$\n\n$$38 = \\frac{1}{(1{,}01)}\\left[\\frac{1 - \\frac{1}{(1{,}01)^n}}{1 - \\frac{1}{1{,}01}}\\right] = \\frac{1}{(1{,}01)}\\left[\\frac{1 - \\frac{1}{(1{,}01)^n}}{\\frac{1{,}01 - 1}{1{,}01}}\\right] = \\frac{1{,}01}{(1{,}01)(0{,}01)}\\left[1 - \\frac{1}{(1{,}01)^n}\\right]$$\n\n$0{,}38 = 1 - 1{,}01^{-n}$, logo $1{,}01^{-n} = 0{,}62$ e, portanto, $-n = \\log_{1{,}01} 0{,}62$, o que nos dá $n = -\\log_{1{,}01} 0{,}62$"
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "29": {
+   "itens": {
+    "a": "Para $b = 3$:\n\n$$k_n = \\frac{1}{8}, \\frac{2}{8}, \\frac{3}{8}, \\ldots, \\frac{n-1}{8}, \\frac{n}{8}$$\n\nOu seja, uma progressão aritmética de razão $1/8$.",
+    "b": "Para $b = 1$, $k_n = n/2^1$. Se $n$ é par $k$ não possui casas decimais.\n\nPara $b = 2$, $k_n = n/2^2$. Se $n$ é par, então $n = 2a$, em que $a$ é natural.\n\n$k_n = 2a/2^2 = a/2$. Quando $a$ é múltiplo de 2, $k_n$ é natural e, portanto, não possui casas decimais.\n\nQuando $a$ não é múltiplo de 2, pode ser escrito como um número múltiplo de 2 acrescido de 1 unidade. Assim, $k_n$ terá uma casa decimal (0,5). Portanto, o número máximo de casas decimais na condição solicitada é 1.\n\nPara $b = 3$, $k_n = n/2^3 = a/2^2$.\n\nQuando $a$ é múltiplo de 4, $a/4$ é inteiro e não terá casas decimais.\n\nQuando $a$ não é múltiplo de 4, pode ser escrito como um número múltiplo de 4 acrescido de 1 unidade, ou 2 unidades ou 3 unidades. Assim, $k_n$ terá 2 casas decimais (0,25), uma casa decimal (0,5) ou 2 casas decimais (0,75), respectivamente.\n\nPortanto, o número máximo de casas decimais na condição solicitada é 2.",
+    "c": "Para um $b$ qualquer, como enunciado, temos:\n\n$$k_1 + k_2 + \\ldots + k_n = \\frac{1}{2^b} + \\frac{2}{2^b} + \\cdots + \\frac{n}{2^b} = \\frac{1}{2^b}(1 + 2 + \\cdots + n) = \\frac{1}{2^b}\\,\\frac{(1 + n)n}{2} = \\frac{(1 + n)n}{2^{b+1}}$$\n\nSe $n$ é par, então $n + 1$ é ímpar. Logo, o menor $n$ seria $n = 2^{b+1}$.\n\nSe $n$ é ímpar, então $n + 1$ é par e, nesse caso, o menor $n$ seria $n = 2^{b+1} - 1$.\n\nLogo, a solução é $n = 2^{b+1} - 1$."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "30": {
+   "itens": {
+    "a": "Uma maneira de calcular a área de $\\Delta DAC$ é:\n\n$$\\frac{5\\sqrt{2} \\cdot 5\\sqrt{2}}{2} = 25$$\n\nOutra maneira é considerar que essa área é $0{,}25 \\times 100 = 25$.\n\nEntão a área $\\Delta DMC$ é $50$\n\nLogo, $50 = \\frac{\\overline{DC} \\cdot \\overline{MD}}{2} = \\frac{10 \\cdot \\overline{MD}}{2}$, do que resulta $\\overline{MD} = 10$\n\nPortanto, $\\text{tg}(\\alpha) = \\frac{\\overline{MD}}{\\overline{DC}} = 1$, então, $\\alpha = 45^\\circ$.",
+    "b": "Área de $\\Delta DMC = k \\cdot$ área de $\\Delta DAC$\n\nÁrea de $\\Delta DMC = \\frac{\\overline{DC} \\cdot \\overline{MD}}{2} = \\frac{10}{2} \\cdot \\overline{MD}$\n\nPelo enunciado, $5 \\cdot \\overline{MD} = k.25$\n\nEntão, $\\overline{MD} = 5k$\n\n$$\\text{tg}(\\alpha) = \\frac{\\overline{MD}}{\\overline{DC}} = \\frac{5k}{10}$$\n\n$$k(\\alpha) = 2 \\cdot \\text{tg}(\\alpha)$$",
+    "c": "Como $\\overline{AB} = 5$, seja $p$ a projeção de $AB$, temos:\n\n$$\\cos 60^\\circ = \\frac{p}{5} \\quad \\to \\quad p = 5\\cos(60^\\circ) = \\frac{5}{2} = 2{,}5$$\n\nLogo, a medida da projeção é 2,5 m."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 2 pontos.\n- item b: 2 pontos.\n- item c: 1 ponto."
+  }
+ }
+}
