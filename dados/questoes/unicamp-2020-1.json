@@ -608,7 +608,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Cartografia",
+   "resolucao": "Dois pontos antípodas são diametralmente opostos: têm a mesma latitude em hemisférios opostos (N ↔ S) e longitudes que somam $180^\\circ$, em hemisférios opostos (W ↔ E).\n\nPara Coari ($4^\\circ$ S, $63^\\circ$ W), o antípoda fica em $4^\\circ$ N e $180^\\circ - 63^\\circ = 117^\\circ$ E, exatamente a posição de Temon na alternativa C.\n\nA alternativa B é a armadilha: apenas troca W por E, sem fazer $180^\\circ - 63^\\circ$, e isso dá um ponto que não é oposto ao primeiro. Em A acontece o mesmo; em D a latitude também está errada (75° em vez de 15°).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q32",
@@ -625,7 +627,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Chame de $m$ o número de filhas e de $h$ o de filhos. Uma filha não conta a si mesma: ela tem $m - 1$ irmãs e $h$ irmãos. Um filho tem $m$ irmãs e $h - 1$ irmãos.\n\nCondições: $m - 1 = h$ e $m = 2(h - 1)$.\n\nSubstituindo $h = m - 1$ na segunda: $m = 2(m - 2) \\Rightarrow m = 4$ e, então, $h = 3$.\n\nConferindo: cada filha tem 3 irmãs e 3 irmãos; cada filho tem 4 irmãs e 2 irmãos (4 é o dobro de 2). Total: $4 + 3 = 7$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q33",
@@ -642,7 +646,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Conte todas as filas e retire aquelas em que as duas pessoas ficam juntas.\n\nTotal sem restrição: $5! = 120$.\n\nAs duas juntas: trate-as como um bloco; há $4! = 24$ arranjos do bloco com as outras três, e o bloco pode estar em 2 ordens, ou seja, $24 \\cdot 2 = 48$.\n\nPosições permitidas: $120 - 48 = 72$.\n\nCuidado com a alternativa A (48): é justamente o número de casos proibidos.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q34",
@@ -659,7 +665,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Vencer o torneio é ganhar exatamente 2 ou exatamente 3 provas (distribuição binomial com $p = 2/3$ e $q = 1/3$).\n\nExatamente 2 vitórias: há 3 escolhas de qual prova ele perde, então $3 \\cdot \\left(\\frac{2}{3}\\right)^2 \\cdot \\frac{1}{3} = \\frac{12}{27}$.\n\nExatamente 3 vitórias: $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$.\n\nSoma: $\\frac{12}{27} + \\frac{8}{27} = \\frac{20}{27}$.\n\nQuem esquece o fator 3 (as ordens possíveis) chega a $\\frac{4}{27} + \\frac{8}{27}$, que não está entre as alternativas.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q35",
@@ -676,7 +684,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Calcule de dentro para fora.\n\n$f(1) = a \\cdot 1 + 2 = a + 2$.\n\n$f(f(1)) = f(a + 2) = a(a + 2) + 2 = a^2 + 2a + 2$.\n\nImpondo $a^2 + 2a + 2 = 1$: $a^2 + 2a + 1 = 0 \\Rightarrow (a + 1)^2 = 0 \\Rightarrow a = -1$.\n\nConferindo: com $a = -1$, temos $f(1) = 1$ e, portanto, $f(f(1)) = f(1) = 1$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q36",
@@ -693,7 +703,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Polinômios e equações",
+   "resolucao": "Pelas relações de Girard, o produto das raízes de $2x^2 + ax + 10 = 0$ é $\\frac{10}{2} = 5$ e a soma é $-\\frac{a}{2}$.\n\nSe as raízes são inteiras e o produto é 5 (primo), as únicas possibilidades são $\\{1, 5\\}$ ou $\\{-1, -5\\}$.\n\nEm ambos os casos, a soma é $6$ ou $-6$, e o módulo vale $6$ (com $a = -12$ ou $a = 12$).\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q37",
@@ -710,7 +722,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Progressões",
+   "resolucao": "Escreva os termos a partir do terceiro, que é conhecido. Com razão $r$: $a = 3 - 2r$, $b = 3 - r$, $c = 3 + r$.\n\nSoma: $(3 - 2r) + (3 - r) + 3 + (3 + r) = 12 - 2r = 8 \\Rightarrow r = 2$.\n\nA progressão é $(-1, 1, 3, 5)$, e o produto vale $(-1) \\cdot 1 \\cdot 3 \\cdot 5 = -15$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q38",
@@ -727,7 +741,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Em $f(x) = ab^x$, os valores $f(1), f(2), f(3)$ formam uma progressão geométrica de razão $b$; o termo do meio é a média geométrica dos vizinhos.\n\nDe fato: $f(1)f(3) = ab \\cdot ab^3 = a^2b^4 = (ab^2)^2$. Como $a, b > 0$, $\\sqrt{f(1)f(3)} = ab^2 = f(2)$.\n\nAs outras falham: $f(3)/f(0) = b^3$; $f(0)f(1) = a^2b$; $f(0)^3 = a^3$. Nenhuma é $ab^2$ para todos $a, b$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q39",
@@ -744,7 +760,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Uma matriz é singular quando seu determinante é zero.\n\n$A + A^T = \\begin{bmatrix} p & 2 \\\\ 0 & p \\end{bmatrix} + \\begin{bmatrix} p & 0 \\\\ 2 & p \\end{bmatrix} = \\begin{bmatrix} 2p & 2 \\\\ 2 & 2p \\end{bmatrix}$.\n\n$\\det(A + A^T) = 4p^2 - 4 = 0 \\Rightarrow p^2 = 1 \\Rightarrow |p| = 1$.\n\nNote que $A$ sozinha (determinante $p^2$) só seria singular com $p = 0$, a armadilha da alternativa A.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q40",
@@ -761,7 +779,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "No triângulo retângulo $ABD$ (reto em $D$), o ângulo em $B$ mede $30^\\circ$ e $AD = h$ é o cateto oposto a ele.\n\n$\\operatorname{sen} 30^\\circ = \\frac{AD}{AB} \\Rightarrow \\frac{1}{2} = \\frac{h}{AB} \\Rightarrow AB = 2h$.\n\nComo $AB = BC$, a base $BC$ também vale $2h$, e $AD$ é a altura relativa a ela.\n\nÁrea: $\\frac{BC \\cdot AD}{2} = \\frac{2h \\cdot h}{2} = h^2$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q41",
@@ -778,7 +798,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Trigonometria",
+   "resolucao": "Tome $AB = AM = MC = 1$, com o ângulo reto em $A$. Então $AC = 2$.\n\nNo triângulo $ABM$: $\\operatorname{tg}(A\\hat{B}M) = \\frac{AM}{AB} = 1$. No triângulo $ABC$: $\\operatorname{tg}(A\\hat{B}C) = \\frac{AC}{AB} = 2$.\n\nComo $\\theta = A\\hat{B}C - A\\hat{B}M$, use a tangente da diferença:\n\n$\\operatorname{tg}\\theta = \\frac{2 - 1}{1 + 2 \\cdot 1} = \\frac{1}{3}$.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q42",
@@ -795,7 +817,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Polinômios e equações",
+   "resolucao": "O ponto $B$ está sobre o eixo $y$, então sua ordenada é $f(0) = 1$. Os pontos $A$ e $C$ também têm ordenada 1.\n\n$f(x) = 1 \\Rightarrow x^3 - x^2 - 2x = 0 \\Rightarrow x(x^2 - x - 2) = 0 \\Rightarrow x(x - 2)(x + 1) = 0$.\n\nAs abscissas são $-1$ ($A$), $0$ ($B$) e $2$ ($C$). Como $A$ e $C$ estão na mesma horizontal, a distância é $2 - (-1) = 3$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q43",
@@ -812,7 +836,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Geometria analítica",
+   "resolucao": "Complete o quadrado: $x^2 - 2cx + y^2 = 0 \\Rightarrow (x - c)^2 + y^2 = c^2$.\n\nO centro é $(c, 0)$ e o raio é $|c|$.\n\nComo o centro está na reta $x + 2y = 3$: $c + 2 \\cdot 0 = 3 \\Rightarrow c = 3$.\n\nLogo, o raio vale 3.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q44",
@@ -829,7 +855,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "resolucao": "Seja $a$ a aresta do tetraedro e $b$ a do cubo.\n\nO tetraedro regular tem 4 faces triangulares equiláteras: área $4 \\cdot \\frac{a^2\\sqrt{3}}{4} = a^2\\sqrt{3}$. O cubo tem área $6b^2$.\n\n$a^2\\sqrt{3} = 6b^2 \\Rightarrow \\frac{a^2}{b^2} = \\frac{6}{\\sqrt{3}} = 2\\sqrt{3}$.\n\n$\\frac{a}{b} = \\sqrt{2\\sqrt{3}} = \\sqrt{2} \\cdot \\sqrt{\\sqrt{3}} = \\sqrt{2}\\sqrt[4]{3}$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q45",
@@ -846,7 +874,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "O incêndio chegou a 800 °C: acima do ponto de fusão do chumbo (327,5 °C), mas bem abaixo do ponto de ebulição (1750 °C). Então o chumbo derrete, mas não ferve.\n\nA curva esperada: aquecimento do sólido, patamar na fusão, aquecimento do líquido até a temperatura do incêndio, patamar enquanto o fogo dura, resfriamento e um novo patamar na solidificação, que ocorre **na mesma temperatura** da fusão (327,5 °C). Só o gráfico D tem os dois patamares mais baixos na mesma altura. Em A o patamar da descida fica acima do de fusão, em B fica abaixo e em C nem existe.\n\nComo não há ebulição a 800 °C, a contaminação vem da evaporação: a passagem para vapor pela superfície, que acontece abaixo do ponto de ebulição e aumenta com a temperatura.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q46",
@@ -863,7 +893,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "O brinquedo é fechado e contém o líquido e o seu vapor. Ao segurar o bulbo inferior, a mão aquece o líquido, sua pressão de vapor aumenta e a pressão interna aumenta: é essa pressão que empurra o líquido para cima. Portanto, a pressão não fica constante (isso elimina A e C).\n\nNo gráfico, perto da temperatura da mão (cerca de 30–35 °C), o líquido A tem pressão de vapor de 650 a 750 mmHg e varia muito com pequenas mudanças de temperatura; o líquido B fica em torno de 100 mmHg e quase não muda nessa faixa.\n\nCom A, o calor da mão faz subir muito mais líquido, e o brinquedo indicaria \"alta libido\" com mais facilidade, o que venderia mais.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q47",
@@ -882,7 +914,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "Uma bola flutua se for menos densa que o líquido e afunda se for mais densa. Quando a temperatura sobe, o líquido fica menos denso e mais bolas descem. Cada bola é marcada com a temperatura em que sua densidade se iguala à do líquido; a que está mais perto desse equilíbrio é a mais baixa entre as que ainda flutuam no alto do tubo. Ela indica a temperatura.\n\nSensibilidade: entre 10 e 30 °C, a densidade do etanol cai de cerca de 0,798 para 0,781 g/cm³ (variação de cerca de 0,017), enquanto a da água cai só de 1,000 para 0,996 g/cm³ (cerca de 0,004). Como a densidade do etanol muda mais por grau, bolas calibradas com pequenas diferenças separam leituras de temperatura mais próximas.\n\nA alternativa A acerta a leitura, mas escolhe a água, que é o líquido menos sensível.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q48",
@@ -892,7 +926,7 @@
     "fisica"
    ],
    "texto_base": null,
-   "enunciado": "As caldeiras são utilizadas para alimentar máquinas nos mais diversos processos industriais, para esterilização de equipamentos e instrumentos em hospitais, hotéis, lavanderias, entre outros usos. A temperatura elevada da água da caldeira mantém compostos solubilizados na água de alimentação que tendem a se depositar na superfície de troca térmica da caldeira. Esses depósitos, ou incrustações, diminuem a eficiência do equipamento e, além de aumentar o consumo de combustível, podem ainda resultar em explosões. A tabela e a figura a seguir apresentam, respectivamente, informações sobre alguns tipos de incrustações em caldeiras, e a relação entre a espessura da incrustação e o consumo de combustível para uma eficiência constante.\n\n| Tipo de incrustação | Condutividade Térmica (kJ m⁻¹ h⁻¹ ºC⁻¹) |\n|---|---|\n| Base de sílica | 1,3 |\n| Base de carbonato | 2,1 |\n| Base de sulfato | 5,5 |\n\n![Gráfico do incremento do consumo de combustível (%) em função da espessura da incrustação (mm), com as curvas A e B](fig:p15-c2)\n\nConsiderando as informações apresentadas, é correto afirmar que as curvas A e B podem representar, respectivamente, informações sobre incrustações",
+   "enunciado": "As caldeiras são utilizadas para alimentar máquinas nos mais diversos processos industriais, para esterilização de equipamentos e instrumentos em hospitais, hotéis, lavanderias, entre outros usos. A temperatura elevada da água da caldeira mantém compostos solubilizados na água de alimentação que tendem a se depositar na superfície de troca térmica da caldeira. Esses depósitos, ou incrustações, diminuem a eficiência do equipamento e, além de aumentar o consumo de combustível, podem ainda resultar em explosões. A tabela e a figura a seguir apresentam, respectivamente, informações sobre alguns tipos de incrustações em caldeiras, e a relação entre a espessura da incrustação e o consumo de combustível para uma eficiência constante.\n\n| Tipo de incrustação | Condutividade Térmica ($\\text{kJ m}^{-1}\\ \\text{h}^{-1}\\ {}^\\circ\\text{C}^{-1}$) |\n|---|---|\n| Base de sílica | 1,3 |\n| Base de carbonato | 2,1 |\n| Base de sulfato | 5,5 |\n\n![Gráfico do incremento do consumo de combustível (%) em função da espessura da incrustação (mm), com as curvas A e B](fig:p15-c2)\n\nConsiderando as informações apresentadas, é correto afirmar que as curvas A e B podem representar, respectivamente, informações sobre incrustações",
    "alternativas": {
     "A": "de sulfato e de carbonato.",
     "B": "de sulfato e de sílica.",
@@ -901,7 +935,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "A incrustação funciona como uma camada isolante entre a chama e a água. Quanto **menor** a condutividade térmica, pior a passagem de calor e maior o combustível extra gasto para manter a mesma eficiência.\n\nNo gráfico, para a mesma espessura, a curva A exige um incremento de consumo maior que a curva B. Logo, A corresponde a uma incrustação de condutividade menor que a de B.\n\nPela tabela: sílica (1,3) < carbonato (2,1) < sulfato (5,5). Entre as alternativas, a única em que A tem condutividade menor que B é \"sílica e carbonato\". Em D a ordem está invertida; em A e B o sulfato, que conduz melhor, ficaria com a curva de maior consumo.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2020-1-q49",
@@ -920,7 +956,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "O balão não tem defeito: o cliente o viu murcho por causa do frio.\n\nA pressão quase constante, o volume de um gás é proporcional à temperatura absoluta (lei de Charles). Na noite fria, o hélio se contrai e o balão parece murcho; ao voltar para um ambiente mais quente (a loja ou a casa do cliente), o gás se expande e o balão volta ao formato normal.\n\nA alternativa A tem a conclusão parecida, mas a explicação errada: as moléculas não mudam de tamanho; o que muda é o espaço entre elas, porque elas se movem mais rápido com o aquecimento.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q50",
@@ -939,7 +977,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "A dose máxima para a criança é $15\\ \\text{mg/kg} \\times 40\\ \\text{kg} = 600\\ \\text{mg}$.\n\nO comprimido tem 750 mg, mais que o limite, e não pode ser partido. Por isso, ele está fora (o que elimina B e C).\n\nNa suspensão de 100 mg/mL, 600 mg correspondem a $\\frac{600\\ \\text{mg}}{100\\ \\text{mg/mL}} = 6{,}0\\ \\text{mL}$.\n\nA alternativa D (4,0 mL) é segura, mas não é o máximo permitido.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q51",
@@ -958,7 +998,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "resolucao": "A queima de combustíveis fósseis aumenta o $\\text{CO}_2$ da atmosfera. Parte dele se dissolve no mar e forma ácido carbônico: $\\text{CO}_2 + \\text{H}_2\\text{O} \\rightleftharpoons \\text{H}_2\\text{CO}_3 \\rightleftharpoons \\text{H}^+ + \\text{HCO}_3^-$. O pH cai (acidificação dos oceanos).\n\nNos gráficos, a seta indica a qual eixo cada curva pertence. Em C e D, a curva crescente aponta para o eixo do $\\text{CO}_2$ e a decrescente para o do pH: o $\\text{CO}_2$ sobe e o pH desce. Em A e B, as setas estão trocadas.\n\nA solubilidade dos gases na água aumenta quando a temperatura diminui. As águas frias dos polos dissolvem mais $\\text{CO}_2$, e por isso a acidificação é mais intensa ali, e não nos trópicos.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q52",
@@ -975,7 +1017,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "resolucao": "O gráfico mostra que o nanobastão atinge velocidades altas por volta de 120–180 °C, enquanto o nanocubo precisa de cerca de 210–280 °C. Com o nanobastão, a conversão do CO acontece em temperaturas mais baixas.\n\nA reação $\\text{CO} + \\text{H}_2\\text{O} \\rightarrow \\text{CO}_2 + \\text{H}_2$ tem $\\Delta H = -41{,}6\\ \\text{kJ mol}^{-1}$: é exotérmica. Pelo princípio de Le Chatelier, baixar a temperatura desloca o equilíbrio no sentido que libera calor, isto é, para os produtos.\n\nAs duas vantagens apontam para o nanobastão. A alternativa B erra só ao chamar a reação de endotérmica, contrariando o sinal negativo do $\\Delta H$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q53",
@@ -994,14 +1038,16 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "O sal dissolvido eleva a temperatura de ebulição da água (efeito ebulioscópico, uma propriedade coligativa). A solução, portanto, precisa ser aquecida até uma temperatura **maior** que a água pura, o que já elimina A e B.\n\nPara massas iguais, o calor necessário é $Q = m \\cdot c \\cdot \\Delta T$. Mesmo com um $\\Delta T$ maior, a solução poderia chegar à fervura com menos calor (mais rápido) se o seu calor específico $c$ fosse menor que o da água.\n\nPor isso a alternativa diz \"no entanto\": o calor específico menor ajuda, apesar da temperatura de ebulição maior atrapalhar.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q54",
    "numero": 54,
    "materia": "quimica",
    "materias_extra": [
-    "fisica"
+    "matematica"
    ],
    "texto_base": null,
    "enunciado": "Para ser usado em um implante dentário, um metal ou liga precisa apresentar excelente compatibilidade com o organismo, alta resistência mecânica e boa flexibilidade, entre outros atributos. Imagine que dois metais, A e B, tenham sido testados quanto à sua aplicação em um implante, e o metal A foi considerado a melhor opção.\n\n| Metal | Formato em que o metal está disponível | Massa | $E^\\circ_{\\text{red}}$ |\n|---|---|---|---|\n| **A** | Cubo com aresta de comprimento 5 cm. | 500 g | –1,63 V |\n| **B** | Esfera com diâmetro de comprimento 5 cm. | 500 g | –0,44 V |\n\nEsse resultado é compatível com o fato de que o metal A tem",
@@ -1013,7 +1059,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "Densidade: as massas são iguais (500 g), então tem menor densidade o metal de maior volume.\n\nCubo A: $V = 5^3 = 125\\ \\text{cm}^3$, logo $d = \\frac{500}{125} = 4\\ \\text{g/cm}^3$.\n\nEsfera B (raio 2,5 cm): $V = \\frac{4}{3}\\pi (2{,}5)^3 \\approx 65\\ \\text{cm}^3$, logo $d \\approx 7{,}6\\ \\text{g/cm}^3$. A tem menor densidade.\n\nCorrosão: o potencial de redução de A ($-1{,}63\\ \\text{V}$) é mais negativo que o de B ($-0{,}44\\ \\text{V}$). Então A tem maior tendência a se oxidar, ou seja, é menos resistente à corrosão por esse critério. Mesmo assim, ele foi escolhido, daí o \"embora\".\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2020-1-q55",
@@ -1032,7 +1080,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Guerra Fria",
+   "resolucao": "O acidente de 1986 aconteceu no governo Gorbachev, na fase final da URSS. A demora em admitir o desastre e o enorme custo da contenção e da retirada da população expuseram a crise do Estado soviético. O acidente costuma ser lembrado como um marco do desmantelamento da URSS, que se dissolveu em 1991.\n\nO texto mostra que os danos continuam: \"a cada ano\" cresce o número de doentes. Isso é compatível com elementos de meia-vida longa (como o césio-137, com cerca de 30 anos), que continuam emitindo radiação por décadas.\n\nA e D erram ao falar em meia-vida curta e em danos sanados. C erra ao falar em fortalecimento da URSS.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q56",
@@ -1051,7 +1101,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "Fritadeira: $E = P \\cdot t = 1400\\ \\text{W} \\times (18 \\times 60\\ \\text{s}) = 1\\,512\\,000\\ \\text{J} \\approx 1512\\ \\text{kJ}$.\n\nFogão: a massa molar do propano ($\\text{C}_3\\text{H}_8$) é $3 \\cdot 12 + 8 \\cdot 1 = 44\\ \\text{g/mol}$. Assim, $n = \\frac{16}{44} \\approx 0{,}36\\ \\text{mol}$ e a energia liberada é $0{,}36 \\times 2046 \\approx 744\\ \\text{kJ}$.\n\nRazão: $\\frac{1512}{744} \\approx 2$. A fritadeira consumiu cerca de 2 vezes mais energia, apesar de o fogão ser mais rápido.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q57",
@@ -1068,7 +1120,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Quinhentismo e Barroco",
+   "resolucao": "Reboul diz que o verossímil se apoia numa confiança presumida, compartilhada pelo auditório. No segundo \"Sermão da Quarta-feira de Cinza\", Vieira parte do tema bíblico de que o homem é pó e ao pó voltará, e medita sobre a morte e o destino da alma depois dela.\n\nO que torna o discurso confiável para os fiéis do século XVII não é uma qualidade do pregador nem dos ouvintes, mas a crença que todos compartilham: a de que existe uma eternidade de salvação ou de condenação. É sobre essa base comum que a argumentação do sermão se sustenta.\n\nA alternativa D é tentadora, mas a confiança não vem da instituição: vem da fé que pregador e auditório têm em comum.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q58",
@@ -1085,7 +1139,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Literatura portuguesa",
+   "resolucao": "No trecho, o narrador ironiza a ideia de que os narradores \"têm todos os direitos e dispõem de todas as chaves\". Ele finge limitar o próprio saber, mas continua sendo um narrador em terceira pessoa que sabe dos pensamentos de Raimundo Silva e comenta a história com liberdade.\n\nEm *História do Cerco de Lisboa*, esse narrador onisciente e intruso conversa com o leitor, admite outras versões e brinca com a pluralidade de vozes. Mesmo assim, é o seu modo particular de narrar que costura e organiza o romance.\n\nEle não é personagem (C) nem um simples observador neutro (B), e não abre mão do controle da narração (A).\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q59",
@@ -1095,7 +1151,7 @@
     "artes"
    ],
    "texto_base": null,
-   "enunciado": "As palavras organizadas comunicam sempre alguma coisa, que nos toca porque obedece a certa ordem. Quando recebemos o impacto de uma produção literária, oral ou escrita, ele é devido à fusão inextricável da mensagem com a sua organização. Em palavras usuais: o conteúdo de uma obra literária só atua por causa da forma.\n\n(Adaptado de Antonio Candido, “O direito à literatura”, em *Vários escritos*. São Paulo: Ouro sobre azul e Duas Cidades, 2004, p.178.)\n\n![Capa e contracapa do CD Sobrevivendo no inferno, do grupo Racionais Mc’s, com uma cruz, a lista de faixas e trechos do Salmo 23](fig:p18-f2)\n\nA obra *Sobrevivendo no inferno* do grupo Racionais Mc’s é composta pelas canções e pelo projeto editorial da capa e contracapa do CD. Nesse projeto editorial, encontram-se elementos visuais e verbais que estabelecem um jogo de formas e sentidos. Com base na afirmação de Antonio Candido, é correto afirmar que a organização desses elementos",
+   "enunciado": "As palavras organizadas comunicam sempre alguma coisa, que nos toca porque obedece a certa ordem. Quando recebemos o impacto de uma produção literária, oral ou escrita, ele é devido à fusão inextricável da mensagem com a sua organização. Em palavras usuais: o conteúdo de uma obra literária só atua por causa da forma.\n\n(Adaptado de Antonio Candido, “O direito à literatura”, em *Vários escritos*. São Paulo: Ouro sobre azul e Duas Cidades, 2004, p.178.)\n\n![Capa e contracapa do CD Sobrevivendo no inferno, do grupo Racionais Mc’s. Na capa, sobre fundo preto, o nome do grupo, uma cruz branca com um furo redondo no centro, os dizeres “Refrigere minha alma e guia-me pelo caminho da justiça” e “Salmo 23 cap.3”, e o título “Sobrevivendo no inferno”. Na contracapa, sobre a foto em tons de vermelho de um homem de camisa escura segurando uma pistola, a lista de faixas (01 Jorge da Capadócia; 02 Gênesis (Intro); 03 Capítulo 4, Versículo 3; 04 Tô ouvindo alguém me chamar; 05 Rapaz comum; 06 • • •; 07 Diário de um detento; 08 Periferia é periferia (em qualquer lugar); 09 Qual mentira vou acreditar; 10 Mágico de Oz; 11 Fórmula mágica da paz; 12 Salve) e os dizeres “e mesmo que eu ande no Vale da sombra e da morte não temerei mal algum porque tu estás comigo” e “Salmo 23 cap.4”](fig:p18-f2)\n\nA obra *Sobrevivendo no inferno* do grupo Racionais Mc’s é composta pelas canções e pelo projeto editorial da capa e contracapa do CD. Nesse projeto editorial, encontram-se elementos visuais e verbais que estabelecem um jogo de formas e sentidos. Com base na afirmação de Antonio Candido, é correto afirmar que a organização desses elementos",
    "alternativas": {
     "A": "produz uma simetria entre som e sentido, sendo que tal simetria indica que os símbolos religiosos são uma resposta à violência.",
     "B": "configura um sistema de oposições, uma vez que imagens e palavras estabelecem tensões materiais e espirituais, constitutivas do sentido das canções.",
@@ -1104,7 +1160,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Literatura contemporânea",
+   "resolucao": "Para Candido, o sentido de uma obra nasce da forma, isto é, da organização dos seus elementos. No CD, essa organização se faz por contrastes.\n\nNa capa há uma cruz sobre fundo preto e versículos do Salmo 23 (\"Refrigere minha alma e guia-me pelo caminho da justiça\"). Na contracapa, há a imagem de um homem armado, ao lado de outro trecho do salmo (\"não temerei mal algum\") e de faixas como \"Gênesis\", \"Capítulo 4, Versículo 3\" e \"Diário de um detento\". O próprio título fala em sobreviver \"no inferno\".\n\nSagrado e violência, espírito e matéria, aparecem lado a lado, em tensão, e essa tensão dá sentido às canções. A alternativa D erra ao falar em \"vitória do crime\": a obra mantém o conflito, sem resolvê-lo.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2020-1-q60",
@@ -1121,7 +1179,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Realismo e Naturalismo",
+   "resolucao": "Jacobina, sozinho na casa da tia e privado dos olhares que alimentavam a sua \"alma exterior\", vive uma angústia crescente. Na frase, o tempo parece se arrastar (\"de século a século\"), e a repetição do som do pêndulo (\"tic-tac, tic-tac\") \"feria-me a alma interior como um piparote contínuo\".\n\nO tique-taque repetitivo funciona como uma série de pequenos golpes que aumentam o sofrimento do personagem. Ele não expressa a duplicidade da alma (A), nem a longevidade (B), nem o vigor (D): ao contrário, a alma interior está ferida e fragilizada.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q61",
@@ -1138,7 +1198,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "A citação de Anatol Rosenfeld resume a inversão que move a sátira: em Sucupira, para o prefeito Odorico Paraguaçu, a morte (o mal) passa a ser desejada, porque sem defunto não há como inaugurar o cemitério, obra que é a sua vitrine política.\n\nA peça leva essa lógica ao extremo: o primeiro a ser enterrado é o próprio Odorico, morto por Zeca Diabo, e a inauguração vira homenagem ao \"benfeitor da cidade\". A cerimônia que deveria celebrar uma obra pública acaba reverenciando o político que transformou a morte alheia em desejo — é a inversão de valores levada ao cômico.\n\nAs demais alternativas descrevem ações como se fossem corretas e bem-intencionadas (dignidade dos mortos, saúde pública, reinserção do criminoso), sem a inversão que a questão pede; o pistoleiro Zeca Diabo, por exemplo, interessa a Odorico porque o prefeito espera dele um crime, não a sua ressocialização.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q62",
@@ -1155,7 +1217,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "A cabra vadia é a testemunha muda que \"não trai\": diante dela o grã-fino confessa no terreno baldio aquilo que nunca diria em público. Nas \"entrevistas imaginárias\", Nelson Rodrigues põe na boca de figuras conhecidas o que elas pensam mas escondem.\n\nO caráter confessional, portanto, expõe a distância entre a imagem pública e o que as pessoas realmente pensam, ou seja, a impostura (a hipocrisia) dos contemporâneos comentados pelo cronista.\n\nA alternativa A é a armadilha: as entrevistas são imaginárias, então o cronista não \"testemunha\" depoimentos verdadeiros. A D fala em sinceridade dos intelectuais, o contrário do que a cabra revela.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q63",
@@ -1172,7 +1236,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto literário",
+   "resolucao": "O trecho que decide a questão é: \"Eu berro as palavras / no microfone / da mesma maneira com que / as desenho [...] na página. / Para transformá-las em coisas, / em vez de substituírem / as coisas.\"\n\nAntunes declara que seu trabalho, na voz ou na página, busca dar às palavras materialidade (som, forma visual), fazendo delas objetos e não meros substitutos das coisas. Isso muda o estatuto da palavra, que deixa de ser só representação.\n\nA alternativa A erra ao falar em primazia do oral: o poeta trata voz e escrita \"da mesma maneira\". As alternativas B e D ficam presas à brincadeira inicial com \"psia/psiu\" e não descrevem o processo de criação.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q64",
@@ -1189,7 +1255,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O Texto I lembra que a Netflix passou a evitar o termo \"maratonar\" por causa da preocupação com o consumo excessivo e com a saúde dos usuários.\n\nNa tirinha, a avó despreza o novo uso da palavra: para ela, maratona é \"prova de resistência e esforço físico\", e não \"ficar o dia todo no sofá vendo TV\". Ela menospreza, portanto, o \"maratonar\" ligado ao sedentarismo, oposto à maratona esportiva, retomando a ideia de que esse hábito faz mal à saúde.\n\nA alternativa A inverte o sentido (o neologismo não significa esforço físico), e a C atribui à tirinha uma reflexão sobre saúde que ela faz só por meio do humor da avó, sem discutir impactos.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q65",
@@ -1206,7 +1274,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Coesão e coerência",
+   "resolucao": "A conjunção adversativa \"mas\" introduz uma ideia que se contrapõe à anterior. Na matéria, primeiro vem o fato grave (uma mulher brutalmente espancada, com fraturas no rosto); depois, \"mas a boa notícia é que ela saiu da UTI\".\n\nO jornalista reconhece a gravidade da notícia e, em seguida, tenta equilibrá-la com um dado positivo, para manter o \"infotenimento\" de que fala o texto. É exatamente apontar a gravidade e compensá-la.\n\nAs outras alternativas falam em reforçar, acentuar ou enfatizar a notícia ruim, o contrário da função atenuadora do \"mas\".\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q66",
@@ -1223,7 +1293,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Formação de palavras",
+   "resolucao": "\"Infotenimento\" junta \"informação\" e \"entretenimento\", nomeando o telejornal que informa e diverte ao mesmo tempo.\n\nNa fusão, as duas palavras perdem parte de seus sons (\"info-\" + \"-tenimento\"), formando um vocábulo novo com um só acento. Quando há perda de elementos na junção de radicais, o processo é a composição por aglutinação.\n\nNa justaposição (B), as palavras se unem sem alteração, como em \"guarda-chuva\"; derivação prefixal (A) e imprópria (D) não envolvem a união de duas palavras.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q67",
@@ -1231,7 +1303,7 @@
    "materia": "portugues",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "**Texto I**\n\n![Tuíte da conta Go Equal (@GoEqual_13), de 13 de jun, ao lado de foto de uma mulher segurando uma chuteira preta: “#BRAxAUS não é a única rivalidade que as mulheres têm de enfrentar no esporte hoje. Marta está jogando com uma chuteira sem patrocínio e com um símbolo pela equidade no esporte.”](fig:p20-c2)\n\n**Texto II**\n\nO que levou Marta, seis vezes a melhor do mundo, a enfrentar a Austrália de chuteiras pretas? Adianto, não foi o futebol “raiz”. Marta não fechou patrocínio com nenhuma das gigantes do mercado esportivo. Não recebeu nenhuma proposta à altura do seu futebol. Isso diz muito sobre o machismo no esporte. A partir disso, a atleta decidiu calçar a luta pela diversidade.\n\n(Fonte: https://www.hypeness.com.br/2019/06/chuteira-sem-logo-e-com-simbolo-de-igualdade-de-genero-foi-mais-um-golaco-de-marta/. Acessado em 18/06/2019.)\n\nConsiderando o *tweet* e o texto acima, é correto afirmar que a atleta",
+   "enunciado": "**Texto I**\n\n![Tuíte de Go Equal (@GoEqual_), publicado em 13 de jun, ao lado de foto de uma mulher segurando uma chuteira preta: “#BRAxAUS não é a única rivalidade que as mulheres têm de enfrentar no esporte hoje. Marta está jogando com uma chuteira sem patrocínio e com um símbolo pela equidade no esporte.”](fig:p20-c2)\n\n**Texto II**\n\nO que levou Marta, seis vezes a melhor do mundo, a enfrentar a Austrália de chuteiras pretas? Adianto, não foi o futebol “raiz”. Marta não fechou patrocínio com nenhuma das gigantes do mercado esportivo. Não recebeu nenhuma proposta à altura do seu futebol. Isso diz muito sobre o machismo no esporte. A partir disso, a atleta decidiu calçar a luta pela diversidade.\n\n(Fonte: https://www.hypeness.com.br/2019/06/chuteira-sem-logo-e-com-simbolo-de-igualdade-de-genero-foi-mais-um-golaco-de-marta/. Acessado em 18/06/2019.)\n\nConsiderando o *tweet* e o texto acima, é correto afirmar que a atleta",
    "alternativas": {
     "A": "enfrentou o time adversário com chuteiras pretas, mesmo que não tenha sido influenciada pelo futebol “raiz”.",
     "B": "usou chuteiras sem logotipo e luta pela igualdade de gênero no esporte, mesmo sendo considerada seis vezes a melhor do mundo.",
@@ -1240,7 +1312,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "Os dois textos informam que Marta, considerada seis vezes a melhor jogadora do mundo, entrou em campo com chuteiras pretas, sem marca de patrocinador e com um símbolo de igualdade, porque não recebeu proposta à altura do seu futebol, fato que o Texto II associa ao machismo no esporte.\n\nA alternativa B reúne corretamente esses dados: chuteira sem logotipo, luta pela igualdade de gênero e o contraste com o fato de ela ser seis vezes a melhor do mundo.\n\nA D é a distratora mais tentadora, mas usa \"embora\" onde a relação é de causa: a falta de propostas à altura foi o motivo da decisão, não um obstáculo a ela. A A e a C também erram a relação lógica com o futebol \"raiz\", que o texto nega ser o motivo.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2020-1-q68",
@@ -1257,7 +1331,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Variação linguística",
+   "resolucao": "Para defender \"se amostrar\", a personagem dá um exemplo: os vendedores do *shopping*, que moram no mesmo bairro dos meninos dos rolezinhos, os olham com desprezo e se acham superiores; eles são \"exibidos\". Os jovens dos rolezinhos, que vão ao *shopping* para se mostrar uns aos outros, são \"amostrados\".\n\nO exemplo deixa explícito o preconceito social entre jovens do mesmo bairro e usa as duas palavras para distinguir os dois grupos.\n\nA alternativa A erra ao dizer que o exemplo reforça o preconceito: ele o expõe e critica. A C e a D contradizem a personagem, que defende o uso de \"se amostrar\" como inventividade linguística do povo.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q69",
@@ -1274,7 +1350,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto literário",
+   "resolucao": "Os versos do cordel apresentam um impasse: \"Se corres, bicho te pega [...] Se ficas, ele te come\". O bicho é uma força opressora com \"braço e pé de homem\", e não há saída individual.\n\nA charge de Laerte retoma os dois primeiros versos, mas acrescenta um terceiro quadro: uma multidão com o cartaz \"1º de Maio\" e a frase \"Se unir o bicho foge\". Ela mantém o tema do cordel e propõe uma saída coletiva, rompendo o dilema.\n\nPor isso a B está errada: a charge não reafirma o dilema, ela o supera. A C e a D atribuem à charge propósitos (sofisticar versos, reproduzir a versificação) que ela não tem.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q70",
@@ -1291,7 +1369,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "No gráfico velocidade × tempo, aceleração constante aparece como reta inclinada: para cima se positiva, para baixo se negativa; velocidade constante aparece como reta horizontal.\n\nSequência descrita: velocidade constante e positiva até $t_1$ (reta horizontal acima de zero); aceleração positiva de $t_1$ a $t_2$ (reta subindo); aceleração negativa de $t_2$ a $t_3$ (reta descendo); movimento uniforme depois de $t_3$ (reta horizontal).\n\nSó o gráfico da alternativa A tem horizontal, subida, descida e horizontal, nessa ordem. O da D sobe nos dois trechos, e os de B e C começam descendo.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q71",
@@ -1308,7 +1388,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "A energia cinética é $E_c = \\frac{m v^2}{2}$, com a velocidade em m/s.\n\nConvertendo: $v = 6\\ \\text{km/s} = 6 \\times 10^3\\ \\text{m/s}$.\n\n$E_c = \\frac{300 \\times (6 \\times 10^3)^2}{2} = 150 \\times 36 \\times 10^6 = 5{,}4 \\times 10^9\\ \\text{J}$.\n\nQuem esquece de converter km/s para m/s chega a $5{,}4 \\times 10^3\\ \\text{J}$ (alternativa B).\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q72",
@@ -1325,7 +1407,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Durante a colisão, as forças entre sonda e asteroide são internas ao conjunto, e as forças externas são desprezíveis nesse intervalo curto. Por isso o momento linear do conjunto se conserva em qualquer colisão.\n\nO que define a colisão inelástica é a perda de energia cinética: parte dela vira calor, deformação e som. Logo, a energia cinética do conjunto não é conservada.\n\nSó a alternativa B combina as duas afirmações. A conservação simultânea das duas grandezas (A) só ocorre em colisão perfeitamente elástica.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q73",
@@ -1342,7 +1426,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "Em movimento circular uniforme, $a_c = \\omega^2 r$, com $\\omega = \\frac{2\\pi}{T}$.\n\nCom $\\pi = 3{,}0$: $\\omega = \\frac{2 \\times 3}{12\\ \\text{h}} = 0{,}5\\ \\text{h}^{-1}$.\n\n$a_c = (0{,}5)^2 \\times 1{,}6 = 0{,}25 \\times 1{,}6 = 0{,}4\\ \\text{km/h}^2 = 4{,}0 \\times 10^{-1}\\ \\text{km/h}^2$.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q74",
@@ -1359,7 +1445,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Estática",
+   "resolucao": "A escada está em equilíbrio, então a soma das forças é nula em cada direção.\n\nHorizontal: $\\vec{F}_{\\text{P}}$ aponta para a direita e $\\vec{F}_{\\text{C}}$ para a esquerda. Como os ângulos são medidos a partir da horizontal, as componentes horizontais são $F_{\\text{P}}\\cos\\theta_{\\text{P}}$ e $F_{\\text{C}}\\cos\\theta_{\\text{C}}$, e devem ser iguais.\n\nVertical: as componentes verticais das duas forças, $F_{\\text{P}}\\,\\text{sen}\\,\\theta_{\\text{P}}$ e $F_{\\text{C}}\\,\\text{sen}\\,\\theta_{\\text{C}}$, ambas para cima, equilibram o peso: somadas, valem $mg$.\n\nA B troca seno por cosseno; a C e a D somam ou igualam os módulos das forças, o que só valeria se elas fossem paralelas.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q75",
@@ -1376,7 +1464,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Pela equação dos gases perfeitos, $pV = nRT$, logo $n = \\frac{pV}{RT}$.\n\nDados no SI: $p = 2{,}8 \\times 10^5\\ \\text{Pa}$; $V = 24\\ \\text{ml} = 24 \\times 10^{-6}\\ \\text{m}^3$; $T = 7 + 273 = 280\\ \\text{K}$; $R = 8\\ \\text{J/mol}\\cdot\\text{K}$.\n\n$n = \\frac{2{,}8 \\times 10^5 \\times 24 \\times 10^{-6}}{8 \\times 280} = \\frac{6{,}72}{2240} = 3{,}0 \\times 10^{-3}\\ \\text{mol}$.\n\nErros de conversão do volume (ml para m³) ou da temperatura levam às outras alternativas.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q76",
@@ -1393,7 +1483,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Eletrostática",
+   "resolucao": "Sobre a bola atuam o peso $mg$ e a força elétrica $qE$, ambos para baixo (carga positiva e campo para baixo). A aceleração é $a = g + \\frac{qE}{m}$.\n\nCom a mesma carga $q$, a bola de massa $m$ tem $a = g + \\frac{qE}{m}$, e a de massa $2m$ tem $a = g + \\frac{qE}{2m}$, menor.\n\nPartindo do repouso da mesma altura $h$, a velocidade final é $v = \\sqrt{2ah}$; maior aceleração dá maior velocidade. Logo, a bola de massa $m$ chega mais rápido.\n\nA alternativa A seria correta só sem campo elétrico, quando a aceleração seria $g$ para as duas.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q77",
@@ -1410,7 +1502,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "resolucao": "No vácuo, todas as ondas eletromagnéticas têm a mesma velocidade $c$, e $\\lambda = \\frac{c}{f}$. Assim, o comprimento de onda é inversamente proporcional à frequência.\n\n$\\frac{\\lambda_{\\text{rádio}}}{\\lambda_{\\text{infravermelho}}} = \\frac{f_{\\text{infravermelho}}}{f_{\\text{rádio}}} = \\frac{30 \\times 10^{12}\\ \\text{Hz}}{1{,}5 \\times 10^{9}\\ \\text{Hz}} = 2{,}0 \\times 10^4$.\n\nA alternativa A ($5{,}0 \\times 10^{-5}$) é a razão invertida, de quem usa proporcionalidade direta entre $\\lambda$ e $f$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q78",
@@ -1427,7 +1521,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "Na lupa, o objeto fica entre o foco e a lente convergente. Os raios que saem da lente divergem, e seus prolongamentos se cruzam do mesmo lado do objeto, formando imagem virtual, direita e maior, mais longe da lente que o objeto.\n\nNo traçado da alternativa A, o objeto $o$ está entre $f$ e a lente; o raio paralelo ao eixo é refratado passando por $f'$, o raio pelo centro óptico não desvia, e os prolongamentos (tracejados) se encontram em $i$, além de $f$, numa imagem maior e direita.\n\nEm B e D o objeto está além do foco, situação que não dá imagem virtual; em C o raio paralelo refratado passa por $2f'$ e não por $f'$, e a imagem fica mais perto do que deveria.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q79",
@@ -1446,7 +1542,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "Pelo esquema, $r_{\\text{eia}}$ e $r_{\\text{est}}$ estão em série, esse ramo está em paralelo com $r_{\\text{cut}}$, e o conjunto está em série com $r_{\\text{cl}}$.\n\nEspécie 1: série $10 + 30 = 40$; paralelo com 120: $\\frac{40 \\times 120}{40 + 120} = 30$; total $30 + 50 = 80\\ \\text{s/m}$.\n\nEspécie 2: série $30 + 10 = 40$; paralelo com 280: $\\frac{40 \\times 280}{320} = 35$; total $35 + 15 = 50\\ \\text{s/m}$.\n\nMaior resistência total significa menor transpiração: espécie 1. Sua condutância é $\\frac{1}{80} = 0{,}0125 = 125 \\times 10^{-4}\\ \\text{m/s}$. O valor $200 \\times 10^{-4}$ (D) é a condutância da espécie 2, a que transpira mais.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q80",
@@ -1465,7 +1563,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Semântica e sentido das palavras",
+   "resolucao": "No uso cotidiano, \"reduzir\" significa diminuir (reduzir gastos, reduzir a velocidade).\n\nEm \"reduzir ao mesmo denominador\", porém, as frações não ficam menores: elas são reescritas como frações equivalentes com o mesmo denominador, como $\\frac{1}{2} = \\frac{3}{6}$ e $\\frac{1}{3} = \\frac{2}{6}$. O valor se mantém e muda só a forma, ou seja, reduzir aqui é converter.\n\nAs alternativas A, B e C atribuem ao termo matemático ideias de restringir, aumentar ou reverter relações entre números, o que não ocorre.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q81",
@@ -1484,7 +1584,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Modernismo",
+   "resolucao": "Erico Verissimo defende suas personagens caricaturais comparando-as à deformação na pintura moderna de artistas \"inconformados com a sociedade em que vivem\". A deformação, então, é um recurso crítico.\n\nEm *A negra*, Tarsila deforma o corpo (lábios e seio enormes, membros volumosos) e alude à mulher escravizada, à ama de leite, expondo a violência da escravidão. Em *Caminhos cruzados* (1935), as personagens caricaturais de Porto Alegre denunciam as desigualdades sociais. A alternativa A relaciona cada obra à sua crítica.\n\nA C erra ao dizer que as obras refletem os valores da elite cafeeira, quando elas os criticam; B e D trazem anacronismos (Estado Novo) e leituras sem base nas obras.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q82",
@@ -1501,7 +1603,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Antiguidade",
+   "resolucao": "O texto mostra que, no século II, os imperadores se tornaram \"mais abertamente monárquicos e dinásticos\", sobretudo fora de Roma, onde não precisavam \"se preocupar com os humores do Senado\", e que \"o império era governado de onde o imperador estivesse\".\n\nIsso indica a tensão entre o poder do imperador e o do Senado e o esvaziamento do papel do Senado na administração, que passa a acompanhar a corte itinerante do imperador. É o que afirma a alternativa B.\n\nA C é a distratora mais tentadora, porque fala da mobilidade da administração; mas erra ao dizer que o Senado apoiava a centralização: o texto sugere justamente que o imperador se afastava de Roma para escapar da influência senatorial. A A fala em democratização, e a D em desaparecimento do Senado, o que não ocorreu.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q83",
@@ -1518,7 +1622,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Idade Média",
+   "resolucao": "Segundo o texto, a novidade das universidades foi institucional: comunidades autônomas de mestres e estudantes, protegidas \"pelas mais altas autoridades leigas e religiosas\", com maior inserção social das pessoas de saber. A alternativa D resume essas ideias.\n\nA A e a B repetem a visão de que a Idade Média seria atrasada ou que as universidades romperiam com o teocentrismo; na verdade, elas nasceram ligadas à Igreja e à escolástica. A C erra porque os copistas atuavam nos mosteiros muito antes das universidades e não se dedicavam a autores críticos aos dogmas.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q84",
@@ -1535,7 +1641,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Idade Moderna (Europa)",
+   "resolucao": "Thomas Morus (Thomas More), humanista inglês, publicou *Utopia* em 1516 e depois chegou a lorde chanceler (grão-chanceler) de Henrique VIII. Viveu num contexto de crises: guerras, cercamentos dos campos na Inglaterra e as tensões que levariam à Reforma; foi executado em 1535 por não aceitar a ruptura do rei com Roma. A alternativa B descreve esse quadro.\n\nA C erra ao associar *O Príncipe*, de Maquiavel, à ideia de utopia: a obra trata da política real, não de um mundo ideal, e não é um tratado sobre o cortesão. A A e a D afirmam relações de influência (cidades planejadas, esgotamento da utopia) que o texto não sustenta.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q85",
@@ -1552,7 +1660,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Brasil Colônia",
+   "resolucao": "Manuela Carneiro da Cunha mostra que os indígenas tinham sua própria política: tamoios e tupiniquins escolhiam aliar-se a franceses ou portugueses por razões próprias, ligadas às suas rivalidades.\n\nA alternativa A expressa isso: os povos ameríndios eram diversos, e seus conflitos internos, com lógicas e interesses próprios, ajudaram a definir como se davam os contatos com os europeus.\n\nA B erra porque tamoios e tupiniquins eram inimigos (aliados de lados opostos); a C exagera ao dizer que os indígenas anularam o impacto português; a D repete a visão idealizada de povos sem conflitos antes da chegada dos europeus.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q86",
@@ -1571,7 +1681,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Brasil Império",
+   "resolucao": "A comparação das imagens mostra que Debret retratou D. João VI com os mesmos elementos do retrato de Luís XIV por Rigaud: manto real, pose de corpo inteiro, cetro, coroa e cortinas, símbolos do absolutismo francês.\n\nCom a vinda da corte para o Rio de Janeiro (1808), houve um esforço de europeizar a cidade e de afirmar a autoridade do monarca, com a Missão Artística Francesa (1816), da qual Debret fazia parte. A alternativa D sintetiza isso.\n\nA A erra ao dizer que esse recurso à imagem absolutista foi enaltecido pela imprensa liberal constitucional, que combatia o absolutismo; a B justifica o retrato com um suposto \"pouco uso da violência\" da monarquia joanina; e a C supõe um circuito de salões, pinacotecas e museus que o Rio de Janeiro de 1817 não tinha.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q87",
@@ -1588,7 +1700,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Brasil Império",
+   "resolucao": "O texto indica que, com cerca de 700 mil escravizados numa população de quase 10 milhões, a maior parte da população negra já era livre antes da Lei Áurea e havia conquistado a liberdade \"por seus próprios meios\".\n\nIsso se explica pelas alforrias, obtidas por compra (com pecúlio), por negociação, por ações na justiça e por outras estratégias, desde o período colonial. É o que diz a alternativa C.\n\nA A erra porque as províncias cafeeiras do Sudeste foram as que mais resistiram à abolição; a B localiza o fenômeno em províncias com pouca população escravizada, o que não explica o total do país; a D inventa uma abolição promovida por D. Pedro II.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q88",
@@ -1605,7 +1719,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Guerras mundiais e entreguerras",
+   "resolucao": "Hobsbawm chama 1914-1945 de \"Era da Catástrofe\": as guerras mundiais e a crise de 1929 abalaram as instituições e os valores da sociedade liberal.\n\nNa Europa, várias democracias caíram, surgiram regimes totalitários e autoritários (fascismo, nazismo, salazarismo, franquismo) e cresceu a desconfiança no livre-mercado, com o Estado passando a intervir na economia. A alternativa C reúne esses marcos.\n\nA B e a D erram ao dizer que a resposta à crise foi menos Estado: o *New Deal* foi justamente uma política de intervenção estatal. A A erra ao falar em expansão das democracias liberais na África e no Oriente Médio, então sob domínio colonial.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q89",
@@ -1622,7 +1738,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ditadura militar",
+   "resolucao": "A pornochanchada cresceu nos anos 1970, durante a ditadura militar. De um lado, a revolução sexual mudava os costumes; de outro, a censura vigiava sobretudo o conteúdo político, e os filmes eróticos, com pouco teor político, encontravam espaço e grande público. A alternativa D descreve esse contexto.\n\nA A erra ao falar em esvaziamento cultural num período de grande produção na música, no teatro e no cinema; a B erra porque esses filmes eram feitos sobretudo com capital nacional, por produtoras como as da Boca do Lixo, em São Paulo; a C associa a pornochanchada à contracultura e à Tropicália, o que não procede.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-1-q90",
@@ -1641,7 +1759,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "O texto trata da nova ordem mundial depois da queda do Muro de Berlim: fim e surgimento de Estados, expansão da Otan e o terrorismo como questão política central.\n\nA alternativa B identifica a reunificação alemã como decisiva, pois eliminou o maior símbolo da Guerra Fria na Europa, e aponta como marcos a queda do Muro (1989) e os atentados de 11 de setembro de 2001, que colocaram o terrorismo no centro da política internacional.\n\nA A contradiz o texto, que fala em mudanças no mapa mundial; a C e a D trazem afirmações falsas (imperialismo como sistema de Estados iguais; democracia eleitoral em todo o globo; \"terrorismo atlântico\").\n\n**Resposta: B**",
+   "revisao": "ok"
   }
  ]
 }
