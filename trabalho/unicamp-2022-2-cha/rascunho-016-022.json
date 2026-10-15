@@ -1,0 +1,84 @@
+{
+ "edicao": "unicamp-2022-2-cha",
+ "intervalo": [
+  16,
+  22
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 17,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nas últimas décadas, os territórios sul-americanos assistiram a grandes transformações. Uma delas foi a transferência da população para as cidades, o que se deu em velocidade maior do que a que os serviços de infraestrutura conseguiram acompanhar. Isso afetou os ambientes de maneira profunda e contribuiu para o aumento de desastres naturais.\n\n(Adaptado de Luci Hidalgo Nunes, *Urbanização e desastres naturais: abrangência América do Sul*. São Paulo: Oficina de Textos, 2015, p. 25.)\n\nA tabela a seguir – retirada da mesma fonte – apresenta algumas metrópoles sul-americanas, situadas na Cordilheira dos Andes, com população acima de 750.000 habitantes. Apresenta também os riscos de eventos que promovem desastres naturais.\n\n| Metrópoles | População 2011 | Seca | Terremoto | Inundação | Escorregamento | Vulcanismo |\n|---|---|---|---|---|---|---|\n| Bogotá | 8.743.000 | sim | sim | sim | sim | não |\n| Caracas | 3.242.000 | sim | sim | sim | não | não |\n| La Paz | 1.715.000 | sim | sim | sim | sim | não |\n| Lima | 9.130.000 | sim | sim | sim | não | não |\n| Quito | 1.662.000 | sim | sim | sim | sim | sim |\n| Santiago | 6.034.000 | sim | sim | sim | não | não |\n\nA partir do exposto e de seus conhecimentos sobre os fenômenos naturais que podem deflagrar desastres naturais em aglomerados urbanos na América do Sul, responda às questões a seguir:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quais os agentes endógenos e exógenos responsáveis pelos desastres naturais nas metrópoles indicadas na tabela?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte quatro características comuns no processo de urbanização das metrópoles sul-americanas situadas na região Andina."
+    }
+   ],
+   "observacoes": "Na resposta do item a, o documento de respostas esperadas traz \"deflagam\" (a prova comentada traz \"deflagram\"); mantido como no original. Na resposta do item b, o documento diz \"como as mencionadas no quadro\" (o enunciado fala em tabela); mantido."
+  },
+  {
+   "numero": 18,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A água, na natureza, apresenta diversos mecanismos de mobilidade entre os diferentes ambientes da superfície terrestre. Esse processo é sintetizado no ciclo hidrológico. O modelo esquemático abaixo apresenta, por ano, o volume médio de água, mobilizado por diferentes mecanismos de transferência.\n\n![Esquema do ciclo hidrológico com volumes anuais em km³ (Pc 119, Ec 72, Po 458, Eo 505, Toc 47, Fas/Fto 47), infiltração/percolação, rios e oceano, e legenda das siglas](fig:p20-c1)\n\n(Adaptado de J. F. Peterson; D. Sack; R. E. Glaber, *Fundamentos de Geografia Física*. São Paulo: Cengage Learning, 2014.)\n\nCom base na ilustração e em seus conhecimentos sobre o ciclo hidrológico, responda às questões a seguir:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique o processo de transferência de águas atmosféricas dos oceanos para os continentes, citando dois fenômenos meteorológicos decorrentes dessa transferência."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite duas funções que a vegetação desempenha no ciclo hidrológico. Explique de que forma se dá a mobilidade da água subterrânea."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 19,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Tem sido frequente a invasão da Terra Indígena Yanomami para extração mineral ilegal. Valendo-se de técnicas industriais, a mineração acarreta grande impacto ambiental e coloca em risco a vida de aproximadamente 20.000 yanomamis que aí vivem. Ao final de 2020, somavam-se 2.400 hectares de área degradada. Desse total, 500 hectares foram registrados entre janeiro e dezembro de 2020. Tudo isso ocorrendo em plena pandemia da Covid-19, fazendo da mineração, portanto, um vetor de disseminação do vírus entre a comunidade indígena.\n\n(Adaptado de HUTUKARA Associação Yanomami, ASSOCIAÇÃO Wanasseduume Ye’kwana, Cicatrizes na Floresta. Evolução do garimpo ilegal na TI Yanomami em 2020. sd. sl.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Indique em quais unidades da federação se localiza a Terra Indígena Yanomami. Aponte duas características do modo de vida da sociedade Yanomami as quais entram em conflito com a expansão da fronteira econômica no Brasil."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique o minério que vem sendo extraído de modo ilegal na Terra Yanomami e sua forma de exploração. Quais os impactos dessa exploração para os ecossistemas locais?"
+    }
+   ],
+   "observacoes": "Na resposta do item a, o documento de respostas esperadas traz \"e de outros meios\" (a prova comentada traz \"e outros meios\"); mantido o texto das respostas esperadas."
+  }
+ ],
+ "respostas": {
+  "17": {
+   "itens": {
+    "a": "As metrópoles andinas são suscetíveis a desastres, tendo como mecanismo deflagrador agentes endógenos e agentes exógenos. O vulcanismo é deflagrado pela atuação dos agentes endógenos responsáveis pelo extravasamento de magma, gases voláteis e poeira vulcânica. Os terremotos são deflagrados por conta do agente endógeno responsável pela sismicidade. Os escorregamentos ocorrem por conta da ação conjunta do agente exógeno pluvial e dos processos intempéricos. A depender da intensidade dos terremotos, a sismicidade também pode deflagrar escorregamentos. O agente exógeno pluvial atua de maneira distinta para deflagrar dois fenômenos. Por um lado, podem provocar a ausência de chuvas, desencadeando as secas. Mas, por outro, o excesso de chuvas, estas somadas aos transbordamentos, deflagam as inundações.",
+    "b": "Entre as características do processo de urbanização das metrópoles sul-americanas, como as mencionadas no quadro, podemos destacar: acelerado processo de urbanização a partir da segunda metade do século XX, particularmente com a forte migração campo-cidade; concentração da população em áreas metropolitanas; acentuada desigualdade socioespacial, resultando em periferização com habitações subnormais e ausência de serviços públicos; níveis elevados de violência urbana; e problemas ambientais. Pode-se acrescentar, ainda, para a indução da urbanização, a relativa industrialização, sendo que esse processo atingiu de maneira diferenciada as mencionadas metrópoles."
+   }
+  },
+  "18": {
+   "itens": {
+    "a": "O processo de transferência de águas atmosféricas de origem oceânica se dá primeiramente pelo processo de evaporação da água da superfície oceânica, decorrente do aquecimento da água superficial dos oceanos que interceptam a radiação solar, o que faz com que a água líquida se torne vapor d’água. O vapor d’água de origem oceânica pode ser transferido, por conseguinte, para os continentes por conta da formação da zona de convergência intertropical (ZCIT), zona de convergência do Atlântico Sul (ZCAS) e da mobilidade de massas de ar, ciclones, tempestades e furacões.",
+    "b": "A vegetação é responsável pela interceptação das águas das chuvas, bem como pelo escoamento lento da água retida na vegetação pelo solo. A vegetação também é responsável por fornecer vapor d’água para a atmosfera, a partir dos processos de transpiração (decorrentes do metabolismo da planta) e da evaporação (da água retida na superfície da planta – folhas, frutos e caule). A água subterrânea apresenta dois mecanismos de mobilidade: a mobilidade vertical, decorrente da infiltração da água ou da saturação do lençol freático, e a mobilidade horizontal, responsável pelo transporte lateral da água, que se descola poro a poro ou por fissuras nas rochas."
+   }
+  },
+  "19": {
+   "itens": {
+    "a": "No Brasil, a Terra Indígena Yanomami envolve parcelas de terra dos estados de Roraima e Amazonas. A mineração ilegal em terra Yanomami participa do processo de expansão da fronteira econômica no Norte do Brasil, causando forte impacto ambiental, atingindo, por conseguinte, os ecossistemas do bioma da floresta Amazônica. Esses ecossistemas possibilitam o desenvolvimento de formas de modo de vida daquela população, tais como a subsistência alimentar (que se faz por meio da coleta de frutos da floresta, da caça de animais silvestres, da pesca, de pequenos roçados agrícolas e de outros meios) e o desaparecimento de plantas utilizadas pela medicina tradicional Yanomami. Além disso, a organização do garimpo envolve intensa movimentação de embarcações nos rios, abertura de estradas e pistas de pouso, que interferem nas trilhas e rotas historicamente traçadas pelos indígenas, com deterioração dos locais sagrados para aquela população.",
+    "b": "O ouro é o principal minério extraído do território Yanomami e a sua extração ocorre por meio de garimpos clandestinos, ilegais. A extração do ouro de aluvião, na atualidade, se faz crescentemente com técnicas industriais que envolvem inclusive logística empresarial, principalmente por processos de dragagem de sedimentos localizados nos leitos dos rios. Essa atividade ilegal atinge duramente o modo de vida e a saúde do povo Yanomami, uma vez que causa, dentre outros impactos, desmatamento, além de afugentar a caça e levar ao assoreamento e contaminação dos rios. Tudo isso resulta em áreas degradadas que são verdadeiras cicatrizes na floresta, propícias à difusão de doenças. Ademais, a forma de extração de ouro ocasiona a remoção do solo e da vegetação, a contaminação dos solos e da água pelos rejeitos do mercúrio. O mercúrio é um metal pesado que fica retido nos peixes e plantas ao ser absorvido."
+   }
+  }
+ }
+}
