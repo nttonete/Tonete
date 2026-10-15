@@ -1,0 +1,86 @@
+{
+ "edicao": "fuvest-2023-2-d2",
+ "intervalo": [
+  19,
+  27
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "19": {
+   "assunto": "Ecologia"
+  },
+  "20": {
+   "assunto": "Fisiologia humana"
+  },
+  "21": {
+   "assunto": "Genética"
+  },
+  "22": {
+   "assunto": "Botânica"
+  },
+  "23": {
+   "assunto": "Fisiologia humana"
+  },
+  "24": {
+   "assunto": "Ecologia"
+  },
+  "25": {
+   "assunto": "Questões ambientais"
+  },
+  "26": {
+   "assunto": "Geografia do Brasil"
+  },
+  "27": {
+   "assunto": "Clima"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos contra as páginas originais."
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": "Conferido. O eixo horizontal difere entre caderno (néfrons) e resposta oficial (medula renal); mantido como impresso. Campo de resolução do item a (linha) não transcrito, correto."
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos contra as páginas originais."
+  },
+  {
+   "numero": 22,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos contra as páginas originais."
+  },
+  {
+   "numero": 23,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos contra as páginas originais."
+  },
+  {
+   "numero": 24,
+   "status": "ok",
+   "notas": "Conferido. Aspa reta de fechamento depois de 'indivíduos' confere com o original."
+  },
+  {
+   "numero": 25,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos contra as páginas originais."
+  },
+  {
+   "numero": 26,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos contra as páginas originais."
+  },
+  {
+   "numero": 27,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos contra as páginas originais."
+  }
+ ]
+}

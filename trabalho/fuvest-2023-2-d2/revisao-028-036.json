@@ -1,0 +1,110 @@
+{
+ "edicao": "fuvest-2023-2-d2",
+ "intervalo": [
+  28,
+  36
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 36,
+   "codigo": "H06",
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Carta das Estradas de Ferro da Província de S. Paulo, mapa com as linhas ferroviárias e suas estações, com rosa dos ventos e nota sobre as distâncias em quilômetros a partir da capital](fig:p36-c2)\n\nBARDI, Pietro Maria. *Coleção Arte e Cultura*. Vol. VI. São Paulo: Banco Sudameris, 1983. p.59.\n\nCom base na leitura da Carta das Estradas de Ferro da Província de São Paulo (ca. 1880), responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Que atividade econômica subsidia a configuração da rede ferroviária na província de S. Paulo?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique dois elementos que atestam a importância da cidade de Santos nessa rede de transporte."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Relacione o traçado das ferrovias com as dinâmicas econômicas e sociais da província paulista no século XIX."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "28": {
+   "assunto": "Cartografia"
+  },
+  "29": {
+   "assunto": "Geopolítica e conflitos"
+  },
+  "30": {
+   "assunto": "Clima"
+  },
+  "31": {
+   "assunto": "História da América"
+  },
+  "32": {
+   "assunto": "Revoluções e século XIX"
+  },
+  "33": {
+   "assunto": "História da África"
+  },
+  "34": {
+   "assunto": "Ditadura militar"
+  },
+  "35": {
+   "assunto": "Antiguidade"
+  },
+  "36": {
+   "assunto": "Brasil Império"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 28,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos com a página e com o documento de respostas; sem divergência."
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos com a página e com o documento de respostas; sem divergência."
+  },
+  {
+   "numero": 30,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos com a página e com o documento de respostas; sem divergência."
+  },
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos com a página e com o documento de respostas; sem divergência."
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos com a página e com o documento de respostas; sem divergência."
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos com a página e com o documento de respostas; sem divergência."
+  },
+  {
+   "numero": 34,
+   "status": "ok",
+   "notas": "Enunciado, itens, figuras e resposta da banca conferidos com a página e com o documento de respostas; sem divergência."
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": "Enunciado, itens e resposta conferidos. \"Dentro os elementos\" no item c da banca é erro de digitação do original, mantido (já anotado)."
+  },
+  {
+   "numero": 36,
+   "status": "corrigida",
+   "notas": "Texto e resposta da banca conferidos; sem divergência. Figura p36-c1 trazia um pedaço cortado da linha de fonte (BARDI...) colado embaixo do mapa; refeito o recorte (p36-c2), sem a fonte, que já está em texto."
+  }
+ ]
+}
