@@ -1,0 +1,70 @@
+{
+ "edicao": "unicamp-2026-2-cha",
+ "intervalo": [
+  12,
+  18
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "12": {
+   "assunto": "República de 1945 a 1964"
+  },
+  "13": {
+   "assunto": "Brasil contemporâneo"
+  },
+  "14": {
+   "assunto": "Geopolítica e conflitos"
+  },
+  "15": {
+   "assunto": "Geografia do Brasil"
+  },
+  "16": {
+   "assunto": "Urbanização"
+  },
+  "17": {
+   "assunto": "Geologia e relevo"
+  },
+  "18": {
+   "assunto": "Geologia e relevo"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 12,
+   "status": "atencao",
+   "notas": "Enunciado, fonte (itálico só em Superinteressante) e itens conferidos com p14; resposta conferida com r06-r07, palavra por palavra e com os itálicos da banca (A praia radioativa; Revista Super Interessante). Observação do transcritor mantida: 'para a desenvolvimento' é erro do documento oficial. Atenção (erro da própria banca, nada a corrigir na transcrição): no item a, a banca cita entre aspas o texto como “nunca compartilharam tecnologia e segredo atômico com o Brasil”, mas o caderno (p14) imprime “nunca compartilharam tecnologia e conhecimento atômico com o Brasil”. As duas transcrições estão fiéis ao original; uma pessoa decide se vale uma nota da plataforma. A resposta da banca responde ao que os itens pedem."
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "Enunciado, discurso, fonte e itens conferidos com p15. Observações do transcritor confirmadas: URL 'Krenak-em-\\n-defesa' unida com um hífen só (o hífen do fim da linha é de hifenização) e espaço antes do ponto em 'indigenas.pdf .' mantido como no caderno; 'fica explícito a vinculação' (e 'crítica a demarcação', sem crase) são do documento oficial (r07). Resposta conferida com r07-r08."
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": "Enunciado conferido com p16; erros do caderno 'para ao avanço' e 'minas de desses recursos' confirmados na imagem e mantidos. Figura p16-c1 completa (dois mapas e as duas legendas com os dez países); fonte vertical conferida (URL rare-earths-statistics-and-information, o hífen da quebra é de hifenização). Resposta conferida com r08 (itálico em commodities só no item a, como no original)."
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": "Enunciado ('16º. S' como no caderno), itálicos em commodities e em 'Agropecuária brasileira' conferidos com p17. Figura p17-c1 completa (mapa, título, corredores, legenda e escala). Resposta conferida com r09: listas com marcadores e parágrafos na ordem; commodities sem itálico no item b, como no original."
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": "Enunciado, itens e fonte vertical conferidos com p18. Figura p18-c1 completa (título e legenda). Observação do transcritor: a legenda '25,1 - 50,' com vírgula final é do original e aparece na própria imagem; nada a mudar. Resposta conferida com r10."
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "Texto, fonte (itálico em 'Environ Earth', 'Sci' em redondo) e itens conferidos com p19; figura p19-f2 completa (título, três estágios, rótulos e legenda), fonte '*Revista FAPESP*' conferida. Resposta conferida com r10-r11."
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "Enunciado, fonte e itens conferidos com p20; figura p20-c1 completa (título, dois mapas, perfil central e legenda). Resposta conferida com r11."
+  }
+ ]
+}

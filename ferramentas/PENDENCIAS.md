@@ -37,6 +37,7 @@ Decisão de quem responde pela plataforma: essas questões ficam fora do banco. 
 A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma nota da plataforma.
 
 - fuvest-2026-2-d2 q21 (H03), item b: a resposta liga os "Anciãos" a quadros da Revolução Cultural; no texto de Perry Anderson são os veteranos da geração revolucionária (Deng Xiaoping, Chen Yun...), muitos perseguidos na Revolução Cultural.
+- unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ## Para conferência de quem conhece a obra
 

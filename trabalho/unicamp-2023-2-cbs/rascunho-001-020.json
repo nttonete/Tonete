@@ -1,0 +1,129 @@
+{
+  "edicao": "unicamp-2023-2-cbs",
+  "intervalo": [1, 20],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 9,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Retirado ilegalmente do Brasil em 1995, o fóssil do dinossauro *Ubirajara jubatus*, descoberto na Bacia do Araripe – na divisa dos estados do Ceará, Piauí e Pernambuco –, será repatriado da Alemanha. O fóssil – datado do período Cretáceo – serviu de base para a descrição da espécie, que viveu entre 110 e 115 milhões de anos atrás, tornando-se o dinossauro mais antigo da Bacia do Araripe.\n\n(Adaptado de https://www.cnnbrasil.com.br/tecnologia/museu-alemao-tera-de-devolver-fossil-de-dinossauro-levado-ilegalmente-do-brasil/. Acesso em 8/8/2022.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O *Ubirajara jubatus* é um dinossauro que se destacava por seus adornos com elaboradas estruturas tegumentares. A espécie possuía monofilamentos delgados (uma forma rudimentar de penas) associados à base do pescoço – que aumentavam em comprimento ao longo da região dorsal – bem como prolongamentos semelhantes a fitas que presumivelmente emergiam dos ombros. Cite e explique uma possível importância dessas estruturas que possa ser associada ao sucesso evolutivo da espécie.\n\n![Representação do dinossauro Ubirajara jubatus, com monofilamentos longos na base do pescoço e penugem cobrindo o corpo e a cauda](fig:p11-c1)\n\n(Representação do dinossauro *Ubirajara jubatus*, Fonte: https://pt.wikipedia.org/wiki/Ubirajara_jubatus. Acesso em 8/8/2022.)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "A história da Bacia do Araripe começa durante a fragmentação do supercontinente Gondwana. A Bacia do Araripe representa um dos principais afloramentos que permite o estudo dos fósseis do Cretáceo. Defina a deriva continental. Explique como fósseis encontrados na Bacia do Araripe podem auxiliar na comprovação da existência do supercontinente Gondwana."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 11,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sancionada em 2010, a Política Nacional de Resíduos Sólidos (PNRS) previa eliminar lixões a céu aberto no país, aumentar os índices de reaproveitamento dos resíduos recicláveis e responsabilizar os grandes produtores de lixo. Porém, em 2019, dados do Panorama dos Resíduos Sólidos no Brasil relevaram que 40% do lixo foi descartado incorretamente em aterros controlados ou lixões a céu aberto.\n\n(Fonte: https://abrelpe.org.br/panorama/. Acesso em 10/10/2022.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite e explique dois benefícios para o meio ambiente e/ou para a saúde humana que tornam mais adequados para o descarte de resíduos sólidos os aterros sanitários do que os aterros controlados e lixões a céu aberto."
+        },
+        {
+          "rotulo": "b",
+          "texto": "O Protocolo de Kyoto foi um marco no compromisso mundial sobre as alterações climáticas, sendo substituído pelo Acordo de Paris, em vigor desde 2016. Indique o principal gás produzido pela decomposição do lixo orgânico e explique uma forma de utilizá-lo favoravelmente aos compromissos assumidos no âmbito do Acordo de Paris. Indique o nome do processo realizado pelas bactérias para a decomposição da matéria orgânica e obtenção de energia na ausência de oxigênio."
+        }
+      ],
+      "observacoes": "O caderno traz \"relevaram\" (no lugar de \"revelaram\") no enunciado; mantido como no original."
+    },
+    {
+      "numero": 12,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O primeiro órgão semelhante ao coração surgiu em nossa história biológica há mais de 500 milhões de anos e passou por muitas mudanças.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Complete a tabela do quadro de resolução com a indicação da classe de animal vertebrado que apresenta a estrutura do coração correspondente ao esquematizado pelas figuras de I a IV.\n\n![Esquemas de quatro corações, numerados de I a IV, com setas vermelhas indicando sangue com alta pressão parcial de O₂ e setas azuis indicando sangue com baixa pressão parcial de O₂](fig:p14-f2)\n\n(Fonte: KLEYTE, A. L. *et al.* Birth Defects Res Part C-Embryo Today-Rev. *Hoboken*, 102 (3), p. 319–323, set. 2014.)\n\n*Campo de resolução:*\n\n| CLASSE |\n|---|\n| I - |\n| II - |\n| III - |\n| IV - |"
+        },
+        {
+          "rotulo": "b",
+          "texto": "O surgimento do coração de quatro câmaras e suas subestruturas subjacentes foi um evento crítico na evolução dos vertebrados. Indique um benefício do coração com ventrículos totalmente divididos e associe esse benefício com a rápida expansão e sucesso dos mamíferos."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 13,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O crescimento e o desenvolvimento das plantas são dependentes dos hormônios vegetais. A seguir, situações dependentes da presença e da localização de hormônios vegetais são apresentadas nas figuras 1 e 2. Na figura 2, plantas dos grupos controle e tratamento são idênticas no tempo t1 e houve a remoção do ápice caulinar entre t1 e t2 no grupo tratamento.\n\n![Figura 1: planta em t1 e em t2, com uma fonte de luz à direita e o caule curvado em direção a ela em t2. Figura 2: plantas dos grupos controle e tratamento em t1, t2 e t3; no grupo tratamento o ápice caulinar foi removido em t2 e a planta apresenta ramos laterais em t3](fig:p15-c1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Em relação à figura 1, explique o fenômeno observado e indique o hormônio vegetal envolvido. Em relação à figura 2, considerando as plantas no tempo t2, explique o efeito do tratamento."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Uma vez que que o balanço hormonal determina o padrão de ramificação das plantas da figura 2, explique o fenômeno representado no grupo tratamento no tempo t3."
+        }
+      ],
+      "observacoes": "O caderno traz \"que que\" (repetido) no item b; mantido como no original."
+    },
+    {
+      "numero": 14,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A varíola dos macacos é uma zoonose transmitida pelo vírus *monkeypox*, um vírus de DNA de fita dupla. A transmissão ocorre por contato próximo com lesões, fluidos corporais, gotículas respiratórias e materiais contaminados. O diagnóstico da varíola dos macacos é feito por exames moleculares que confirmam a presença do DNA viral em amostras humanas de lesões cutâneas ou mucosas.\n\n(Adaptado de https://bvsms.saude.gov.br/02-6-variola-dos-macacos/. Acesso em 28/8/2022).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O exame de Reação em Cadeia da Polimerase (PCR) convencional baseia-se na amplificação do DNA em três etapas sequenciais: desnaturação, anelamento ou hibridização, e extensão ou polimerização. Explique as três etapas do exame de PCR convencional para a detecção do DNA viral."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Durante a formação dos vírus da família do *monkeypox*, duas formas infectantes com o mesmo DNA de fita dupla são produzidas pela célula hospedeira: o vírus maduro intracelular (IMV) e o vírus envelopado extracelular (EEV). A membrana das cisternas do complexo de Golgi faz parte apenas do envoltório do EEV. A figura ao lado apresenta os resultados de um experimento de infecção de células em que foi adicionado o mesmo número de partículas virais, e foi analisada a porcentagem de entrada, em função do tempo, das formas IMV e EEV. Considerando os dados apresentados, indique a forma viral com maior capacidade de infecção. Justifique a sua resposta. Cite um mecanismo de liberação para cada forma viral da célula hospedeira.\n\n![Gráfico da porcentagem de entrada (%) em função do tempo (min) para as formas EEV (linha contínua, círculos pretos) e IMV (linha tracejada, círculos brancos)](fig:p16-f3)\n\n(Adaptado de LOCKER, J. K. *et al.* *Mol Biol Cell*. Bethesda, 11, p. 2497-2511, jul. 2000.)"
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "9": {
+      "itens": {
+        "a": "A presença de elaboradas estruturas tegumentares pode ser importante enquanto elemento de exibição, com a função de cortejar parceiras sexuais para garantir a reprodução e a continuidade da espécie. Outra possível importância pode estar relacionada à termorregulação, pois as estruturas tegumentares poderiam auxiliar na manutenção do calor ou na dispersão de calor, dependendo da posição das estruturas.",
+        "b": "Deriva continental é uma teoria que afirma que, no passado, as terras emersas do planeta formavam um único bloco continental denominado Pangeia. Esse supercontinente, devido ao movimento das Placas Tectônicas, fragmentou-se várias vezes até proporcionar a configuração atual dos continentes. Se a história da Bacia do Araripe começa na fragmentação do supercontinente Gondwana, a ocorrência de fósseis da mesma espécie, em um mesmo período geológico, nesse sítio e em qualquer região da África, serviria como uma evidência da existência do supercontinente, pois América do Sul e África estavam próximas antes da fragmentação."
+      }
+    },
+    "11": {
+      "itens": {
+        "a": "Os aterros sanitários possuem impermeabilização do solo, o que reduz a possibilidade de contaminação dos lençóis freáticos ou do solo pelo chorume (líquido poluente que resulta da decomposição de matéria orgânica). Nos aterros sanitários, camadas alternadas de lixo são cobertas com terra e compactadas, dificultando a proliferação de vetores de doenças e pragas.",
+        "b": "O principal gás produzido é o metano. O Acordo de Paris visa a reduzir a emissão de gases de efeito estufa; assim, uma forma adequada de usar o metano seria como fonte sustentável na produção de energia. O nome do processo realizado é decomposição anaeróbia."
+      }
+    },
+    "12": {
+      "itens": {
+        "a": "I-anfíbio, II-mamífero, III-réptil e IV-ave.",
+        "b": "Como um benefício do coração com ventrículos totalmente divididos podemos indicar a completa separação do sangue com alta pressão parcial de oxigênio do sangue com baixa pressão parcial de oxigênio. Isso possibilita uma maior eficiência na oxigenação das células e dos tecidos, necessária para suportar uma maior taxa metabólica e a manutenção da temperatura corporal (endotermia). Essa característica é associada à rápida expansão e sucesso dos mamíferos."
+      }
+    },
+    "13": {
+      "itens": {
+        "a": "O fenômeno observado é o fototropismo positivo, em que a planta cresce em direção à luz. Há a migração da auxina para a região não iluminada (lado oposto à fonte de luz), ocasionando expansão celular desigual entre as porções iluminadas e não iluminadas. A auxina é sintetizada no ápice caulinar e a remoção do ápice caulinar – indicada na figura 2 no tempo t2 – impede que a auxina seja translocada para as raízes e promova o crescimento radicular.",
+        "b": "A remoção do ápice caulinar – indicada na figura 2 no tempo t2 – elimina a fonte de auxina, responsável por manter as gemas laterais dormentes. Por sua vez, essas são estimuladas a brotar pela citocinina produzida nas raízes. Dessa forma, a ramificação da planta é ocasionada pela redução da relação auxina/citocinina nas gemas laterais – indicada na figura 2 no tempo t3."
+      }
+    },
+    "14": {
+      "itens": {
+        "a": "A desnaturação consiste na etapa de elevação da temperatura para que as duas cadeias em hélice do DNA se abram. Na etapa seguinte de anelamento, sequências específicas (primers) se ligam às sequências complementares do DNA na região que se pretende amplificar. Finalmente, durante a etapa de extensão, a taq/DNA polimerase promove a inserção das bases nitrogenadas nas cadeias simples do DNA desnaturado, formando uma nova fita dupla de DNA. Essas etapas são repetidas para promover a amplificação do DNA de interesse, com os fragmentos de DNA sendo duplicados a cada ciclo.",
+        "b": "A forma EEV possui maior capacidade de infecção celular comparada à IMV, pois se observa maior velocidade e maior porcentagem de entrada do vírus na célula. A IMV pode ser liberada durante a lise da célula hospedeira, enquanto a EEV pode ser liberada, por exocitose, a partir de fusão da sua membrana externa com a membrana plasmática celular."
+      }
+    }
+  }
+}
