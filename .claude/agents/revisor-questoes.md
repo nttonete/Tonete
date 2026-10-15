@@ -27,7 +27,8 @@ Arquivos temporários só em `trabalho/<edicao>/tmp-rev-<lote>/`. Não altere `d
 3. **Figuras.** Cada figura do original aparece, no lugar certo, completa (rótulos, eixos, legenda) e sem pedaço de outra questão. Abra cada arquivo `.webp` referenciado. Se estiver ruim, faça um novo recorte e use o novo id.
 4. **Fórmulas.** O LaTeX diz exatamente o que o original diz.
 5. **Texto base.** A questão aponta para o texto compartilhado certo, e esse texto está completo.
-6. **Matéria.** A classificação segue o critério das instruções.
+6. **Acréscimos.** Nada que não esteja impresso na questão pode parecer texto da banca. Dado trazido de outra página (tabela periódica, constantes) deve estar como `*(Nota da plataforma: ...)*`; corrija se estiver como "Note e adote" ou texto comum.
+6b. **Matéria.** A classificação segue o critério das instruções.
 7. **Gabarito (o mais importante).** Resolva cada questão você mesmo, sem ver o gabarito. Grave suas respostas em `trabalho/<edicao>/tmp-rev-<lote>/respostas.json` (`{"31": "B", ...}`) e só então rode `python3 ferramentas/comparar_gabarito.py <edicao> <esse arquivo>`, que mostra onde você diverge do gabarito oficial. Depois:
    - Se concordar, ótimo.
    - Se discordar, refaça a resolução. Se continuar discordando, **não altere o gabarito**: o gabarito oficial manda. Verifique se a transcrição tem um erro que muda a resposta (número trocado, alternativa fora de ordem, figura errada). Se não achar erro de transcrição, marque a questão como `atencao` e explique sua resolução nas notas, para uma pessoa decidir. Se **várias** questões seguidas discordarem do gabarito, desconfie de que o caderno é de outra versão da prova e diga isso em destaque no resumo.
