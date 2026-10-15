@@ -1,0 +1,352 @@
+{
+ "edicao": {
+  "id": "unicamp-2026-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2026 – 2ª fase (2º dia: Ciências Humanas e Artes)",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "fonte": {
+   "caderno": "2fase-dia2-cha-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-dia2-cha-respostas.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2026-2-cha-q04",
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma forma de avaliar a produção científica de um pesquisador é pelas citações que seus artigos recebem. A citação de um artigo ocorre quando ele é incluído nas referências bibliográficas de outro artigo.\n\nO **número total de citações** de um pesquisador é a soma das quantidades de citações recebidas por todos os seus artigos. Já o **índice h** de um pesquisador – outro indicador muito utilizado na análise das citações – é definido como o maior número inteiro $k \\geq 0$ para o qual o pesquisador possui $k$ artigos com pelo menos $k$ citações cada um.\n\nPor exemplo, se um pesquisador tem exatamente 3 artigos, sendo um com 2 citações, outro com 3 citações e outro com 5 citações, então seu número total de citações é 10 e seu índice h é 2, pois ele possui 2 artigos com pelo menos 2 citações cada e não possui 3 com pelo menos 3 citações cada um.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um pesquisador tem índice h igual a 8 e tem M citações totais. Qual é o menor valor possível de M? Justifique.",
+     "resposta_oficial": "Como o índice h é 8, esse pesquisador tem pelo menos 8 artigos com pelo menos 8 citações cada uma. Logo, o pesquisador tem pelo menos $M = 64$ citações.\n\nO índice h é 4, pois os artigos A, B, E e F têm pelo menos 4 citações e os artigos C e D têm menos do que 4 citações."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um pesquisador tem exatamente 6 artigos, indicados por A, B, C, D, E e F. O gráfico abaixo apresenta a quantidade de citações recebidas em cada um dos artigos.\n\n![Gráfico de colunas, \"Citações recebidas por cada artigo\": A 30, B 8, C 0, D 2, E 20, F 8](fig:p06-c1)\n\nQual é o índice h deste pesquisador? Qual é o número mínimo de novas citações que este pesquisador precisa receber para atingir um índice h de 6? Justifique.",
+     "resposta_oficial": "Para que o índice h seja 6, o pesquisador precisa ter pelo menos 10 novas citações nos artigos C e D. Portanto, ele precisa de pelo menos 6 novas citações do artigo C e pelo menos 4 novas citações do artigo D. Logo, o pesquisador precisa de 10 novas citações."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q05",
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere as funções polinomiais $p(x)$ e $q(x)$ dadas por $p(x) = x^2 + (b-1)x + c$ e $q(x) = -x^2 + cx + b - 1$, em que $b$ e $c$ são números reais.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Assumindo que $p(x)$ e $q(x)$ têm as mesmas raízes, determine o valor de $b + c$.",
+     "resposta_oficial": "Sejam $m, n$ as raízes de $p(x)$ e $q(x)$. Usando as relações entre raízes de um polinômio e seus coeficientes, obtemos que $m \\cdot n = c$ e também $m \\cdot n = -(b-1)$.\nLogo $c = 1 - b$, ou seja, $b + c = 1$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para $b = 5$ e $c = 3$, determine os pontos de interseção entre os gráficos de $y = p(x)$ e $y = q(x)$.",
+     "resposta_oficial": "Temos que $p(x) = x^2 + 4x + 3$ e $q(x) = -x^2 + 3x + 4$. Temos que se $p(x) = q(x)$ então $x^2 + 4x + 3 = -x^2 + 3x + 4$, ou seja, $2x^2 + x - 1 = 0$. Isso nos dá $x = 1/2$ ou $x = -1$.\n\nSe $x = 1/2$ então $p(1/2) = q(1/2) = 21/4$.\n\nSe $x = -1$ então $p(-1) = q(-1) = 0$.\n\nAssim, os pontos de interseção são $(1/2, 21/4)$ e $(-1, 0)$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q06",
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma fabricante de automóveis produz dois modelos de carro: o Alpha e o Beta.\n\nEm 2023, foram vendidas 400 unidades do Alpha e 300 unidades do Beta, resultando em um total de 68 milhões de reais em vendas.\n\nPara 2024, em função de sua campanha de *marketing*, a empresa manteve os preços dos veículos e conseguiu aumentar as vendas do Alpha em 10% e as vendas do Beta em 20%, obtendo um total de 10,4 milhões de reais a mais com as vendas em 2024 do que em 2023.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quantos automóveis foram vendidos em 2024? Comparando 2024 com 2023, de quanto foi o aumento percentual no valor total obtido com as vendas?",
+     "resposta_oficial": "O veículo Alpha vendeu 10% a mais e o veículo Beta vendeu 20% a mais. Portanto, foram vendidas 440 unidades do Alpha e 360 unidades do Beta. O total de veículos vendidos em 2024 foi de 440+360=800.\n\nEm termos do valor, como $\\frac{10{,}4}{68} \\approx 0{,}1529$, o aumento percentual foi de aproximadamente 15%."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Quais eram os preços dos veículos Alpha e Beta?",
+     "resposta_oficial": "Se $a$ é o preço do veículo Alpha e $b$ é o preço do veículo Beta, ambos em milhares de reais, temos que\n\n$$400a + 300b = 68000$$\n\n$$440a + 360b = 78400$$\n\nPortanto, $a = 80$ e $b = 120$. Assim, o preço do Alpha é R\\$ 80.000,00 e o preço do Beta é de R\\$ 120.000,00."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q07",
+   "numero": 7,
+   "materia": "sociologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Texto 1**\n\nDesigualdade consiste em uma relação entre pessoas ou conjuntos de pessoas na qual a interação gera maiores vantagens para uns do que para outros. Ela resulta do controle desigual sobre recursos que produzem valor. São dois os seus principais mecanismos geradores:\n\n• exploração – quando pessoas que controlam um recurso: (i) recrutam o esforço de outras na produção de valor por meio desse recurso, mas (ii) excluem essas outras do valor total adicionado pelo esforço delas;\n• monopolização de oportunidades – restrição do uso de recursos que produzem valor aos membros de um grupo específico.\n\n(Adaptado de TILLY, C. Relational studies of inequality. *Contemporary Sociology*, v. 29, n. 6, 2000, p. 782-783.)\n\n**Texto 2**\n\nProbabilidade das crianças da parcela mais pobre da população quando adultas (%)\n\n![Gráfico de barras horizontais, de 0 a 100%: estar entre os 10% mais ricos 1,8; estar entre os 25% mais ricos 10,8; estar entre os 50% mais pobres 66,6; ter um percentil relativo 10% maior que dos pais 49,1; concluir o ensino médio 49,9; concluir o ensino superior 1,9. Crédito impresso ao lado: Elaboração COMVEST a partir de Atlas da Mobilidade Social, 2025.](fig:p09-c2)\n\nA partir da leitura do texto 1 e da análise dos dados do texto 2, responda aos itens (a) e (b):",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Defina desigualdade e justifique por que exploração e monopolização de oportunidades são consideradas mecanismos geradores de desigualdades.",
+     "resposta_oficial": "A temática da desigualdade é ampla e pode ser abordada a partir de variadas perspectivas empíricas e teóricas. No caso da questão, ela mobiliza recortes específicos da temática a serem tratados no desenvolvimento da resposta.\n\nDo ponto de vista teórico, o Texto 1 destaca a dimensão relacional da desigualdade, enfatizando o papel das interações entre pessoas ou conjunto de pessoas na produção de padrões assimétricos de distribuição de recursos e de oportunidades. De acordo com o texto de autoria do sociólogo Charles Tilly, tais padrões são produzidos fundamentalmente por dois mecanismos geradores da desigualdade: a exploração e a monopolização de oportunidades. No caso da primeira, trata-se da capacidade que pessoas ou conjuntos de pessoas possuem de limitar a redistribuição dos ganhos e dos benefícios da riqueza entre o conjunto daqueles responsáveis por sua produção. No caso da segunda, trata-se da capacidade de pessoas ou conjuntos de pessoas tornar o acesso a recursos importantes para a produção de valor restrita a membros de grupos específicos, sejam eles étnicos, raciais, de gênero, de classe, de sexualidade etc."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Identifique dois efeitos da exploração e dois da monopolização de oportunidades nos dados apresentados nos gráficos.",
+     "resposta_oficial": "O Texto 2 apresenta dados relativos às probabilidades de ganhos de renda e de obtenção de diplomas escolares entre crianças situadas na parcela mais pobre da população quando estiverem na fase adulta. Desse modo, o Texto 2 desdobra empiricamente um argumento exposto no Texto 1: a reprodução de padrões assimétricos de distribuição de recursos e de monopolização de oportunidades que, neste caso, são vistos do ponto de vista geracional.\n\nOs dados indicam que crianças cujas famílias recebem menos pelo trabalho que realizam – e que, portanto, acessam em menor escala a riqueza que ajudam a produzir – tendem também a possuir rendas menores na fase adulta (como exemplo: 66,6% dessas crianças tendem a estar entre os 50% mais pobres quando adultas e apenas 1,8% tendem a estar entre os 10% mais ricos). Dessa forma, os dados apontam para a manutenção de padrões assimétricos de redistribuição de riquezas e, portanto, de reprodução, entre as gerações, da exploração.\n\nOs dados também apontam que crianças da parcela mais pobre da população tendem a ter menos oportunidades de acesso a diplomas escolares (49,9% tendem a concluir o Ensino Médio, enquanto 1,9% tendem a concluir o Ensino Superior), indicando um padrão de monopolização de oportunidades educacionais que também se dá entre as gerações."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q08",
+   "numero": 8,
+   "materia": "filosofia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Texto 1**\n\n![Ilustração de uma serpente vermelha e dourada que morde a própria cauda, formando um círculo, com a legenda \"(Ouroboros)\"](fig:p10-c2)\n\n**Texto 2**\n\nEm *Capitalismo Canibal* (2024), Nancy Fraser afirma que o capitalismo é uma ordem social que ‘devora’ as suas próprias condições de existência. Para representar o capitalismo, Fraser usa a imagem de Ouroboros, que ilustra a capa do livro.\n\n**Texto 3**\n\nA contradição política inerente ao capitalismo ocorre entre os imperativos da acumulação de capital e a manutenção dos poderes públicos de que a acumulação também depende. O poder público legítimo e eficaz é uma condição de possibilidade para a acumulação sustentada do capital. Afinal, o capital tem uma dependência crucial dos poderes públicos para garantir direitos de propriedade, fazer cumprir contratos, julgar controvérsias, reprimir rebeliões, manter a ordem, administrar a divergência, etc. O ímpeto de acumulação infinita tende, ao longo do tempo, a desestabilizar os mesmos poderes públicos de que depende. Essa contradição está na raiz de nossa atual crise democrática. Graças a sua estrutura inerente, o capitalismo é fundamentalmente antidemocrático. Mesmo no melhor dos casos, a democracia, em uma sociedade capitalista, deve ser forçosamente fraca e limitada.\n\n(Adaptado de FRASER, N. *Capitalismo Canibal*. Cotia (SP): Autonomia Literária, 2024, p.135-138.)\n\nConsiderando os textos 1, 2 e 3, responda aos itens (a) e (b).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique por que Nancy Fraser escolhe o Ouroboros para representar o capitalismo. Na sua resposta, relacione a imagem, o título *Capitalismo Canibal* e o trecho que aponta para a autodestruição do sistema.",
+     "resposta_oficial": "Nancy Fraser escolhe a imagem de ourobouros para representar o capitalismo porque, de acordo com ela, o capitalismo devora as suas próprias condições de existência assim como a serpente devora a própria cauda. Essa ideia de que o capitalismo devora as suas próprias condições de existência aparece no texto 3 quando Fraser afirma que o ímpeto de acumulação infinita tende a desestabilizar os mesmos poderes públicos de que depende, como a serpente devora a própria cauda, da qual depende para existir. É a mesma ideia contida no título do livro: canibal é aquele animal que come outro da mesma espécie, coloca em ameaça a própria espécie, devora a si mesma; como o capitalismo, que se devora e coloca em ameaça os seus próprios imperativos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Segundo Fraser, em que consiste a contradição do capitalismo e por que a autora afirma que o sistema é antidemocrático? Evidencie como essas duas teses estão conectadas.",
+     "resposta_oficial": "Na visão de Fraser, o capitalismo é contraditório porque devora as suas próprias condições de existência. Essa contradição se manifesta na política, por exemplo, na medida em que o capitalismo depende dos poderes públicos, para garantir direito de propriedade e garantir o cumprimento dos contratos, mas tende a desestabilizá-los. Por isso, Fraser defende que o capitalismo é antidemocrático, afinal tende a tornar a democracia fraca e limitada. A relação entre as duas teses: o capitalismo é contraditório porque depende da democracia – afinal, o poder público legítimo e eficaz é uma condição de possibilidade para a acumulação do capital – ao mesmo tempo que tende a enfraquecer a democracia."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q09",
+   "numero": 9,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O açúcar era uma das especiarias mais preciosas e luxuosas da Europa pré-moderna. Há séculos, já era processado e refinado a partir da cana na Índia, no Oriente Médio e na Europa meridional sob o domínio árabe. No Mediterrâneo, os venezianos difundiram seu cultivo no século XII. Consumido como remédio e ingrediente culinário, o açúcar era presença marcante nos banquetes aristocráticos europeus. Na época moderna, a demanda pela especiaria cresceu ainda mais, impulsionada pelo seu uso para adoçar bebidas recém-introduzidas, como o café e o chocolate. Com a colonização do Novo Mundo, a produção de açúcar e seu comércio expandiram-se intensamente, como uma das principais *commodities* do Atlântico no século XVII e elemento central de um sistema de trocas que vinculava a Europa, a África e as Américas. A partir do século XIX, o produto ficou relativamente barato em todo o mundo.\n\n(Adaptado de KERNAN, S. P. Sugar and Power in the Early Modern World. Newberry Library, *Collection Essays*. Disponível em https://dcc.newberry.org/?p=16944. Acesso em 18/03/2021.)\n\nA partir do excerto, responda aos itens (a) e (b).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Aponte um uso dado ao açúcar e seu respectivo significado social no período moderno e um uso e seu significado social no contexto contemporâneo.",
+     "resposta_oficial": "No início da época moderna, o açúcar era um produto raro, com status de especiaria, utilizado tanto na culinária quanto na medicina. Seu consumo ocorria em ocasiões especiais, associava-se ao estilo de vida da nobreza e funcionava como marcador de distinção social. Já na época contemporânea, o açúcar tornou-se um alimento comum, produzido em escala industrial, amplamente acessível e consumido cotidianamente pelas classes populares, perdendo sua função de indicador de status elevado."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando o desenvolvimento do capitalismo no norte da Europa na época moderna, cite e explique dois fatores econômicos que mostram como o açúcar esteve relacionado a esse processo.",
+     "resposta_oficial": "A produção e o comércio do açúcar eram altamente lucrativos, abrindo novos canais de circulação e acumulação de capital para os grupos envolvidos no frete, no refino e na distribuição do produto, etapas concentradas sobretudo nos Países Baixos e na Inglaterra. Esse conjunto de atividades possibilitou um acúmulo expressivo de capital no norte da Europa, onde se consolidava o eixo dinâmico do desenvolvimento do capitalismo. Além disso, a produção açucareira baseava-se em mão de obra escravizada, sobretudo nas colônias, o que intensificou e expandiu o tráfico de pessoas escravizadas, um setor igualmente lucrativo. Por isso, ampliaram-se redes comerciais em escala global, conectando América, Europa e África em circuitos intercontinentais de troca."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q10",
+   "numero": 10,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A partir da leitura da imagem a seguir, produzida por Carlos Julião, agente do império português na segunda metade do século XVIII, responda aos itens (a) e (b).\n\n![Aquarela de Carlos Julião: mulher de vestido amarelo e manto vermelho, com coroa e bengala, sob uma sombrinha vermelha, seguida por seis mulheres de roupas claras e adereços de plumas na cabeça, algumas tocando instrumentos](fig:p12-f2)\n\n(JULIÃO, C. Riscos illuminados de figurinhos de brancos e negros dos uzos do Rio de Janeiro e Serro do Frio [século XVIII]. Rio de Janeiro: Fundação Biblioteca Nacional, 1960.)\n\nLegenda: Prancha 37, Coroação de uma rainha negra na festa de Reis, seguida por um cortejo de mulheres. Minas Gerais, segunda metade do século XVIII.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Descreva a imagem destacando quatro elementos ligados às práticas culturais africanas.",
+     "resposta_oficial": "A prancha documenta instrumentos musicais tipicamente utilizados nas práticas culturais afro-brasileiras promovidas pelas irmandades negras. Observam-se ainda símbolos de prestígio e autoridade política que remetem a culturas africanas, como o cetro e a sombrinha. Os elementos de indumentária — cores, motivos, grafismos e modos de vestir — dialogam com práticas vestimentares difundidas entre a população africana que vivia no Brasil. Nos adereços, destacam-se ornamentos na cabeça e, no pescoço, possíveis patuás, contas e pingentes com conotações ligadas às religiões afro-brasileiras."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite e explique duas evidências da diversidade de *status* social dentro da população negra na colônia.",
+     "resposta_oficial": "A imagem explicita que a população negra não era socialmente homogênea; ao contrário, era composta por pessoas inseridas em diferentes estatutos e posições sociais. À frente, aparece uma mulher (possivelmente forra) vestindo roupas luxuosas e coroa, situando-se em posição hierárquica superior às demais. Em um nível intermediário, duas mulheres parecem atuar como suas damas de companhia ou camareiras, desempenhando funções de serviço. Por fim, um grupo de mulheres com roupas claras toca instrumentos e dança, compondo provavelmente outro segmento social. Além da indumentária, observa-se que algumas figuras estão calçadas enquanto outras estão descalças, outro marcador visual de distinção. Esses elementos que revelam a diversidade interna da população negra relacionam-se às: clivagens que separavam livres e forros de escravizados; aos distintos modos de viver a escravidão em contextos urbanos e rurais; às diferenças entre escravizados domésticos e aqueles que trabalhavam nas ruas ou nos eitos e às variadas formas de inserção e relação com a classe proprietária."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q11",
+   "numero": 11,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os italianos imigrados para o interior de São Paulo, entre o final do século XIX e o começo do século XX, não se reconheciam como pertencentes a uma pátria. Nas fazendas de café, os italianos trabalhavam lado a lado com imigrantes de outros países, portugueses, espanhóis – e com ex-escravizados e seus descendentes que permaneceram nas áreas rurais após a libertação. No Brasil, em vez de calabreses, romanos, napolitanos ou vênetos, eram chamados de italianos. Do outro lado do Atlântico, a unificação italiana ocorreu pouco antes da grande imigração para o Brasil. Até então, a Itália era composta por vários reinos, com sistemas monetários e políticos próprios. O reino do Piemonte-Sardenha, mais rico e industrializado e com interesse em ampliar o mercado e influência, liderou a guerra pela unificação italiana. Apesar de o reino da Itália ter nascido em 1861, o processo só foi concluído após os conflitos que resultaram na anexação de Veneza (1866), Roma (1870) e, bem depois, Trento e Trieste (1918). A resistência de certas partes do território da península em tomar parte do projeto de nação teria postergado a construção do sentimento de italianidade na Itália, enquanto, no Brasil, esse processo teria se iniciado logo nos primeiros anos do século XX.\n\n(Adaptado de QUIEROZ, R. União na distância – De início apegados à cultura de suas regiões de origem, italianos construíram no Brasil a noção de italianidade. *Revista Fapesp*. Edição 248. Out. 2016.)\n\nA partir da leitura do texto, responda aos itens (a) e (b).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a tese do texto sobre a formação da italianidade no Brasil? Cite dois argumentos usados pela reportagem para sustentar a tese mencionada.",
+     "resposta_oficial": "A tese do autor é que, no contexto da imigração italiana para o Brasil, a italianidade se consolidou primeiro aqui. Os imigrantes chegavam trazendo sobretudo identidades regionais e, ao conviver com pessoas de outras origens étnicas e nacionais, passaram a ser percebidos — e a se perceber — como italianos, num processo de reconfiguração identitária. Já no caso da própria Itália, o sentimento de italianidade é comparativamente mais tardio, sendo construído ao longo do século XX, com a criação de uma língua nacional, de símbolos como o hino e a bandeira e, ainda assim, convivendo com a forte persistência das identidades regionais ligadas a seus antigos reinos e unidades políticas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sobre a Unificação Italiana, identifique duas motivações para sua execução e duas resistências a esse processo.",
+     "resposta_oficial": "A unificação italiana, conhecida como *Risorgimento* (que significa \"ressurgimento\" em italiano), foi um processo complexo que durou de 1848 a 1871. Ela não aconteceu por um único motivo, mas sim por uma combinação de fatores políticos, sociais, econômicos e culturais, tais como a ideologia imperialista; emergência da ideologia nacionalista ligada à Revolução Francesa e de Napoleão; fatores Econômicos, pois a fragmentação política dificultava o comércio e o desenvolvimento econômico. Cada estado tinha suas próprias moedas, tarifas alfandegárias e leis, o que era um grande obstáculo para a indústria e o comércio. A burguesia, em ascensão, via na unificação uma forma de criar um mercado nacional unificado, com uma moeda única e sem barreiras comerciais internas, o que impulsionaria a economia. Por fim, destaca-se o papel do Reino do Piemonte-Sardenha, mais rico e industrializado e com interesse em ampliar o mercado e influência, liderou a guerra pela unificação italiana. A Áustria, que controlava grande parte do norte da Itália, era a principal inimiga da unificação. As derrotas militares austríacas e a instabilidade política na Europa enfraqueceram seu poder, facilitando as campanhas de unificação. Da mesma forma, os Estados Papais, que controlavam a região central da Itália, representavam um obstáculo ideológico e territorial. A influência do Papa, que era contra a unificação, diminuiu com o tempo, e a anexação de seus territórios foi um passo decisivo.\n\nA unificação, entretanto, enfrentou resistências de múltiplas frentes. A Igreja Católica foi uma das mais firmes opositoras: condenou a anexação dos Estados Pontifícios, acusando o novo Estado de usurpar seu território e comprometer sua independência. Potências estrangeiras também reagiram, sobretudo a Áustria, interessada em preservar sua influência, e a França de Napoleão III, que oscilou entre apoiar e dificultar etapas do processo conforme seus interesses geopolíticos. Houve ainda forte oposição interna. Muitos monarcas e dinastias locais resistiam para não perder seus Estados ao novo governo centralizado. A população do sul da Itália reagiu intensamente à anexação piemontesa; movimentos como o *brigantaggio* expressaram descontentamento com os impostos, o serviço militar obrigatório e a percepção de exploração econômica. Além disso, muitos habitantes da península se identificavam mais com suas regiões do que com uma identidade nacional italiana recém-construída. Dentro do próprio *Risorgimento*, divergências ideológicas também marcaram o processo: republicanos como Mazzini desejavam uma Itália democrática, enquanto a unificação se consolidou como monarquia constitucional sob a Casa de Saboia."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q12",
+   "numero": 12,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A praia da Areia Preta, no Espírito Santo, é um achado. Ela contém tório, um metal radioativo que, se aquecido, produz uma luz forte e duradoura. Na 2ª Guerra Mundial, cientistas americanos descobriram que era possível usar o tório para produzir o urânio que serviria tanto para reatores nucleares quanto para bombas. Toda a negociação para a compra foi feita sem que o governo brasileiro soubesse exatamente o que os americanos queriam com tantas toneladas de areia. Tudo era inserido na política da boa vizinhança. No entanto, Getúlio acabou percebendo o valor da areia. Em 1951, quando foi criado o Conselho Nacional de Pesquisas (CNPq), a exploração dos principais minérios atômicos passou para a mão do Estado, que proibiu a exportação de tório, a não ser com autorização expressa do governo. As negociações eram desfavoráveis ao Brasil, com a areia radioativa sendo entregue a preços baixos ou transacionada por produtos de valor muito menor. O País até tentou exportar o tório já beneficiado por usinas locais, como forma de garantir mais lucros. A partir dessa atitude do governo brasileiro, os Estados Unidos passaram a taxar o metal em 33%, inviabilizando o negócio. A areia bruta não era taxada. Nos acordos de venda da areia, os EUA nunca compartilharam tecnologia e conhecimento atômico com o Brasil, o que gerou uma tensão política entre os países.\n\n(Adaptado de GARATTONI, B. A praia radioativa. *Superinteressante*, jan. 2018. Disponível em https://super.abril.com.br/historia/a-praia-radioativa/. Acesso em 04/11/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando o contexto da Guerra Fria, cite e explique dois aspectos da postura dos EUA em relação à importação de tório do Brasil no início dos anos 1950.",
+     "resposta_oficial": "A leitura do excerto *A praia radioativa*, texto publicado pela *Revista Super Interessante*, de forma dialogada com o contexto da Guerra Fria, nos permite compreender que a postura dos Estados Unidos em relação à importação do tório e à política nacional brasileira, no início dos anos 1950. A posição norte-americana foi marcada por uma estratégia geopolítica focada na segurança e na manutenção da hegemonia nuclear. Os candidatos poderiam destacar e desenvolver alguns aspectos dessa postura, indicando, por exemplo, a busca estadunidense por matérias primas estratégicas para a desenvolvimento de armas e tecnologias bélicas (corrida armamentista), bem como a busca pelo controle e exclusividade do uso desses recursos (como é o caso da exploração do tório, trazido pela reportagem). Assim como poderia ser indicada e explicada a política de não compartilhamento de tecnologias, em especial àquelas relacionadas à segurança e soberania nacional (“nunca compartilharam tecnologia e segredo atômico com o Brasil”) ou mesmo a formação de grandes blocos de influência norte americano (em oposição à União Soviética). Temas relacionados ao protecionismo e à política de boa vizinhança – vinculadas à busca norte-americana por áreas de influência cultural, política e econômica, em acordos sempre favoráveis aos EUA, citadas no texto, também configuram uma boa resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Quais eram os papéis do Estado no ideário getulista? Utilize dois exemplos do texto para fundamentar sua resposta.",
+     "resposta_oficial": "O ideário de Estado getulista, entre os anos de 1951 e 1954, era embasado na premissa de um Estado forte, nacionalista e desenvolvimentista, com um papel central na economia e na proteção dos interesses nacionais. O Estado era compreendido como um indutor da industrialização do país, como responsável por setores estratégicos, como os minérios (fundamentais para a industrialização), e como financiador do desenvolvimento de novas tecnologias e pesquisas científicas em diferentes áreas do conhecimento (expressa na criação do Conselho Nacional de Pesquisas - CNPq, em 1951). O texto menciona explicitamente o controle e o beneficiamento do Tório e a criação do próprio CNPq, como formas de controle da exploração e comercialização de minérios estratégicos e como forma de produção de conhecimento e tecnologia para o fortalecimento da política e economia da nação."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q13",
+   "numero": 13,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Discurso adaptado de Ailton Krenak em defesa dos direitos dos indígenas, proferido em 4 de setembro de 1987 e acompanhado do gesto de pintar seu rosto de preto:\n\nSr. Presidente, senhores constituintes. Venho manifestar indignação pelas insistentes agressões que o povo indígena tem indiretamente sofrido pela falsa polêmica que se estabeleceu em torno dos direitos fundamentais do povo indígena e que visam atingir gravemente os direitos fundamentais de nosso povo. Não estamos chegando agora a esta Casa. Tivemos a honra de, desde a instalação dos trabalhos da Assembleia Nacional Constituinte, sermos convidados a participar dos trabalhos na Subcomissão dos Negros, Populações Indígenas, Pessoas Deficientes e Minorias. Hoje, somos alvo de uma agressão que pretende atingir, na essência, a nossa fé, a nossa confiança. Ainda existe dignidade, ainda é possível construir uma sociedade que saiba respeitar os mais fracos, que saiba respeitar aqueles que não têm dinheiro; mesmo assim, mantêm uma campanha incessante de difamação. Um povo que sempre viveu à revelia de todas as riquezas, um povo que habita casas cobertas de palhas, que dorme em esteiras no chão, não deve ser de forma nenhuma contra os interesses do Brasil, ou que coloque em risco qualquer desenvolvimento. O povo indígena tem regado com sangue cada hectare dos 8 milhões de quilômetros do Brasil.\n\n(Adaptado de KRENAK, A. Discurso em defesa dos direitos dos indígenas. Disponível em https://acervodigital.cedec.org.br/wp-content/uploads/2022/09/Discurso-de-Ailton-Krenak-em-defesa-dos-direitos-dos-indigenas.pdf . Acesso em 28/07/2024.)\n\nA partir da leitura do discurso responda aos itens (a) e (b).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Como Krenak apresenta a questão da demarcação territorial e da cidadania indígena no processo da Constituinte?",
+     "resposta_oficial": "O discurso adaptado de Ailton Krenak (1987) é um marco na luta pelos direitos indígenas no Brasil, proferido durante o processo de elaboração da Constituição Federal de 1988. No trecho disponibilizado na questão, fica explícito a vinculação da questão territorial e da cidadania indígena, como temas relacionados aos direitos fundamentais dos povos originários. Krenak confronta a oposição que via os direitos dos povos originários como um obstáculo ao desenvolvimento nacional, destaca a fragilidade do conceito de desenvolvimento, indigna-se com as violências sofridas por esses povos, critica os posicionamentos de crítica a demarcação de terras na Assembleia Constituinte e, por fim, indica os povos indígenas como guardiões originais do território. A Constituinte, nesse contexto, se mostra, para o autor, como um espaço de debates e, em especial, como uma possibilidade de uma nova sociedade (“que saiba respeitar os mais fracos, que saiba respeitar aqueles que não têm dinheiro”)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique o que foi a Assembleia Nacional Constituinte de 1987, ressaltando sua função e o seu contexto histórico.",
+     "resposta_oficial": "A Assembleia Nacional Constituinte (ANC) de 1987 foi um marco decisivo no processo de redemocratização do Brasil, culminando na promulgação da Constituição Federal de 1988, conhecida como a \"Constituição Cidadã\". Sua principal função era a de elaborar e promulgar uma nova Constituição Federal, em um amplo debate com diversos setores da sociedade civil, que atuavam de forma ativa para a construção de um novo cenário político no Brasil. O objetivo era substituir a Carta Magna de 1967 (emendada em 1969), que havia sido imposta durante o Regime Militar (1964-1985). A nova Constituição deveria refundar a ordem jurídica e política do país, instituindo um Estado Democrático de Direito com foco na garantia e expansão dos direitos e liberdades civis, sociais e políticos, antes reprimidos pela ditadura."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q14",
+   "numero": 14,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As Terras Raras são compostas por um grupo de 17 elementos químicos essenciais para ao avanço da indústria de produtos de alta tecnologia. A exploração desses recursos minerais exerce o papel que, no passado, foi desempenhado pelo carvão mineral, petróleo e pelos minerais utilizados para a produção de ligas metálicas nas Revoluções Industriais. Os mapas a seguir apresentam os 10 países com as maiores reservas de Terras Raras do mundo, bem como os 10 primeiros países em exploração em toneladas de minas de desses recursos em 2024.\n\n![Dois mapas-múndi: à esquerda, maiores reservas de Terras Raras do mundo em 2024 (1º China, 2º Brasil, 3º Austrália, 4º Índia, 5º Rússia, 6º Vietnã, 7º Estados Unidos, 8º Groenlândia, 9º Tanzânia, 10º África do Sul); à direita, exploração de minas de Terras Raras em toneladas em 2024 (1º China, 2º Austrália, 3º Myanmar (Burma), 4º Tailândia, 5º Nigéria, 6º Estados Unidos, 7º Madagascar, 8º Índia, 9º Rússia, 10º Vietnã)](fig:p16-c1)\n\n(Elaboração COMVEST, 2025, a partir de https://www.usgs.gov/centers/national-minerals-information-center/rare-earths-statistics-and-information Acesso em 05/08/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Aponte dois fatores que posicionam as Terras Raras como recursos naturais estratégicos para novas tensões geopolíticas. Indique dois setores da nova indústria de produtos de alta tecnologia que têm as Terras Raras como insumo fundamental.",
+     "resposta_oficial": "Os fatores que posicionam as Terras Raras como recursos naturais estratégicos para novas tensões geopolíticas são: a distribuição desigual das jazidas com viabilidade econômica de exploração, concentradas em um conjunto restrito de países; a disputa entre China e Estados Unidos por parcerias comerciais para a exploração e/ou o controle das Terras Raras como *commodities* em países que possuem jazidas, mas ainda não as exploram; o aumento da demanda por Terras Raras como insumo para setores estratégicos da indústria de alta tecnologia; e a necessidade de técnicas de extração de alto custo e de refino do minério por meio de processos complexos, para obtenção de recursos naturais essenciais para setores estratégicos, a exemplo da transição energética.\n\nEntre os setores da indústria de produtos de alta tecnologia que têm as Terras Raras como insumo fundamental, destacam-se: a indústria bélica; a indústria de eletrônicos; a indústria de telecomunicações; a indústria aeroespacial; a indústria automotiva; e a indústria do setor energético."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando o Desenvolvimento Geograficamente Desigual para retratar a cadeia produtiva vinculada às Terras Raras, aponte dois aspectos relativos à posição tanto da China quanto dos Estados Unidos, bem como dois aspectos referentes à posição tanto do Brasil quanto da Tanzânia.",
+     "resposta_oficial": "O desenvolvimento geograficamente desigual, ao retratar a cadeia produtiva vinculada às Terras Raras, evidencia uma Divisão Internacional do Trabalho distinta entre China e Estados Unidos, por um lado, e Brasil e Tanzânia, por outro.\n\nNo caso de China e Estados Unidos, ambos os países possuem, em seus territórios, jazidas de Terras Raras já em exploração. A China se destaca nesse cenário, pois, além de apresentar as maiores reservas, é o principal país explorador, o que se explica pelo maior domínio e controle da tecnologia. Os Estados Unidos buscam ampliar sua influência na exploração, no beneficiamento e na produção de bens manufaturados de alta tecnologia que utilizam as Terras Raras como insumo.\n\nBrasil e Tanzânia, na Divisão Internacional do Trabalho desse contexto, reforçam seu papel de países exportadores de recursos minerais com nenhum ou baixo grau de processamento, fornecendo apenas a matéria-prima. Isso ocorre porque ambos apresentam dependência e/ou ausência de tecnologia de refino e beneficiamento associada à indústria de alta tecnologia que tem as Terras Raras como insumo."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q15",
+   "numero": 15,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Brasil é um importante exportador de *commodities* agrícolas e minerais cuja produção nacional, nas últimas décadas, vem impulsionando a fronteira agrícola do país, onde se instala uma rede multimodal de transporte. Esse processo tem gerado corredores logísticos para o escoamento da produção aos portos do denominado Arco Norte, situados ao norte do paralelo 16º. S, como ilustrado pelo mapa a seguir.\n\n![Mapa \"Alguns corredores logísticos do Arco Norte do Brasil\", com os corredores 1 (Rio Madeira), 2 (Cuiabá-Santarém), 3 (Norte-Sul/Carajás) e 4 (Transnordestina); legenda: rodovias, rios navegáveis, ferrovias em operação e ferrovia planejada](fig:p17-c1)\n\n(Adaptado de VIEIRA FILHO, J. E.; GASQUES, J. G. (org). *Agropecuária brasileira*: evolução, resiliência e oportunidades. Brasília, DF: Ipea, jul. 2023, p. 164.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A partir da observação dos corredores logísticos indicados no mapa, aponte duas características que definem a multimodalidade de transporte. Indique as *commodities* que são transportadas prioritariamente nos corredores logísticos Norte-Sul/Carajás e Rio Madeira.",
+     "resposta_oficial": "Podem-se definir como características da multimodalidade de transporte, no contexto dos corredores logísticos:\n• a integração de pelo menos dois tipos de transporte (hidroviário, ferroviário e/ou rodoviário), compondo diferentes modais;\n• a necessidade de implantação de infraestruturas responsáveis pelo embarque e desembarque de cargas e/ou transporte de passageiros, bem como de centros logísticos que interligam os nós das redes.\n\nO corredor logístico Norte-Sul/Carajás transporta predominantemente minérios (ferro, bauxita e manganês) e grãos (milho e soja), enquanto o corredor logístico do rio Madeira transporta principalmente grãos (milho e soja)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Com a instalação dos corredores logísticos do Arco Norte, os produtos brasileiros para exportação têm vantagens competitivas em relação aos corredores logísticos do Centro-Sul do Brasil. Justifique por que essas vantagens competitivas ocorrem. Em seguida, aponte, além dos desmatamentos, dois outros tipos de impactos socioambientais ocasionados pela instalação física dos grandes sistemas de transporte na região do Arco Norte.",
+     "resposta_oficial": "Como vantagens competitivas dos corredores logísticos do Arco Norte, em comparação aos corredores do Centro-Sul do Brasil, pode-se apontar que a integração de três modais de transporte facilita e acelera o escoamento das diferentes commodities agropecuárias e minerais produzidas na região Centro-Norte do país. Além disso, a exportação a partir dos portos situados nas regiões Norte e Nordeste reduz as distâncias em relação aos principais mercados consumidores das commodities brasileiras (países da Ásia, América do Norte e Europa). A partir dessas rotas de navegação, as exportações destinadas à Ásia, por exemplo, podem acessar o canal do Panamá.\n\nOutra consequência do uso desses corredores logísticos é o emprego de sistemas de transporte hidroviário e ferroviário, que reduzem o custo do frete. A infraestrutura portuária mais moderna e recente nessas áreas também contribui para aumentar a velocidade do transporte e da circulação das mercadorias.\n\nEntre os impactos socioambientais ocasionados pela instalação física dos grandes sistemas de transporte na região do Arco Norte, destacam-se:\n• o aumento dos conflitos fundiários, sobretudo em áreas que tangenciam terras de populações tradicionais (indígenas, quilombolas e ribeirinhos);\n• a degradação dos recursos hídricos, com poluição das águas por combustíveis e dejetos das embarcações, alteração do habitat dos peixes e prejuízos à atividade pesqueira, além da aceleração de processos erosivos nas margens, aumentando o assoreamento dos canais afluentes aos rios navegáveis;\n• nas áreas próximas às linhas férreas e às áreas de extração de minérios, a poluição sonora que afeta as comunidades tradicionais;\n• o traçado de linhas férreas que cortam conjuntos de pequenas propriedades, dificultando o deslocamento de populações e animais."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q16",
+   "numero": 16,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Segundo o IBGE (2022), 16.390.790 de brasileiros residem em favelas e comunidades urbanas que estão presentes em todo o território nacional. O mapa indica que há um percentual significativo de residentes em favelas e comunidades urbanas segundo as concentrações urbanas em dois grandes eixos: nas cidades do litoral e suas proximidades e nas cidades situadas na bacia hidrográfica do rio Amazonas.\n\n![Mapa do Brasil \"Pessoas residentes em favelas e comunidades urbanas (2022)\", com círculos de tamanhos e cores diferentes por percentual: < 5,0; 5,1 - 10,0; 10,1 - 25,0; 25,1 - 50; > 50,0](fig:p18-c1)\n\n(Elaboração COMVEST, 2025, a partir de IBGE. Censo Demográfico 2022: Resultados do universo. Tabela 9884 – População residente em favelas e comunidades urbanas, por cor ou raça, sexo e grupos de idade, segundo as Favelas e Comunidades Urbanas. Disponível em https://www.ibge.gov.br/estatisticas/sociais/saude/22827-censo-demografico-2022.html?edicao=41773&t=resultados. Acesso em 01/10/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Apresente dois indicadores que definem as favelas e comunidades urbanas. Por que Manaus e Belém, situadas na bacia hidrográfica do rio Amazonas, têm o maior percentual de moradores residindo em favelas e comunidades?",
+     "resposta_oficial": "Favelas e comunidades urbanas são territórios populares presentes especialmente nas grandes cidades brasileiras. Entre os indicadores que as definem, destacam-se: a insegurança da posse; a infraestrutura urbana incompleta ou ausente (coleta de lixo, rede de energia elétrica, abastecimento de água, esgotamento sanitário, sistemas de drenagem); edificações, arruamento e infraestrutura, em geral, autoconstruídos, muitas vezes em condições de precariedade; localização frequente em áreas com restrição urbanística e ambiental; e a presença de uma economia popular, com pequenos serviços e comércios, entre outros.\n\nAs metrópoles de Manaus e Belém têm o maior percentual de moradores residindo em favelas e comunidades (mais de 50% da população, segundo o Censo do IBGE de 2022) em razão do acelerado processo de urbanização na região Norte do país nas últimas décadas, que tornou essas cidades macrocefálicas e polarizadoras de serviços. Esse crescimento ocorreu sem investimentos públicos adequados, sem ampla oferta de empregos no mercado de trabalho formal e sem políticas de habitação popular, de tal modo que a pobreza e a segregação são marcas da realidade socioespacial."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte dois fatores relacionados à propriedade fundiária urbana e indique dois aspectos da política urbana de responsabilidade do Estado Brasileiro que explicam o grande contingente da sociedade brasileira vivendo em favelas.",
+     "resposta_oficial": "Entre os fatores relacionados à propriedade fundiária urbana, destacam-se: a concentração da propriedade; a especulação imobiliária; a escassez artificial de terras; e a irregularidade fundiária, entre outros.\n\nPor sua vez, entre os fatores da política urbana, de responsabilidade do Estado, que explicam o grande contingente da sociedade brasileira vivendo em favelas, destacam-se: o não cumprimento da função social da propriedade e da cidade; planos diretores que desconsideram a realidade dos territórios populares e, portanto, não fazem valer instrumentos de planejamento adequados ao enfrentamento do problema da moradia (como a delimitação de Zonas Especiais de Interesse Social para implantação de habitação popular); e a falta de uma política habitacional consistente, entre outros fatores."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q17",
+   "numero": 17,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As voçorocas são formações resultantes de um conjunto de processos erosivos que envolvem materiais com características diferentes e que, dependendo do volume de água, das condições geológicas e dos solos, podem se expandir rapidamente. Voçorocas causam impactos severos em áreas urbanas e rurais em diversos países, como Nigéria, Congo, Austrália, Índia e Argélia, entre outros. No Brasil, o processo tem se intensificado com danos em áreas rurais devido à expansão agropecuária e em áreas urbanas marcadas por ocupação desordenada e infraestrutura urbana precária.\n\n(Adaptado de KUHN, C.E.S., REIS, F.A.G.V., LAZARETTI, A.F. et al. The record and trends of natural disasters caused by gullies in Brazil. *Environ Earth* Sci 82, 524 (2023). https://doi.org/10.1007/s12665-023-11213-6.)\n\n![Figura \"Os três estágios da evolução de uma voçoroca\": três blocos-diagrama numerados 1, 2 e 3, com os rótulos Fluxo Superficial, Fluxo Subsuperficial, Túnel Erosivo e Colapso do Solo, e legenda de horizonte do solo menos resistente e mais resistente](fig:p19-f2)\n\n(Adaptado de *Revista FAPESP*, n. 327. São Paulo, maio de 2023, p. 45.)\n\nA partir do texto, da figura e dos seus conhecimentos sobre a evolução das voçorocas e seus impactos, responda aos itens a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explicite em que estágios da evolução das voçorocas formam-se os sulcos e as ravinas. Indique o papel da precipitação e da cobertura vegetal na velocidade de evolução das voçorocas.",
+     "resposta_oficial": "Sulcos e ravinas aparecem nos estágios iniciais da evolução dos processos erosivos associados ao escoamento superficial da água, estando representados no bloco-diagrama nas fases 1 e 2. Os sulcos formam-se primeiro, evoluindo posteriormente para ravinas à medida que o escoamento concentrado aprofunda e alarga os canais.\n\nA precipitação concentrada, de maior intensidade, ao contrário de chuvas de baixa energia, como garoas, tem maior capacidade erosiva, pois não há tempo para que toda a água se infiltre no solo, aumentando o escoamento superficial e, consequentemente, a erosão. A cobertura vegetal, quando presente, retarda o processo erosivo, pois a chuva não incide diretamente sobre o solo e galhos, folhas e troncos reduzem a velocidade do escoamento da água, diminuindo a energia disponível para a formação e a evolução das voçorocas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite um fator de condição natural e um fator da atividade humana responsável pela ocorrência de voçorocas e apresente dois impactos da expansão acelerada de voçorocas em áreas urbanas.",
+     "resposta_oficial": "Entre os fatores de ordem natural que podem levar à ocorrência de voçorocas, destacam-se: a elevada declividade do relevo e a presença de solos suscetíveis à erosão, como os arenosos. Cabe ressaltar que a retirada da cobertura vegetal e a ocorrência de precipitações, isoladamente, não explicam todo o processo de voçorocamento, pois, se assim fosse, toda área desmatada e sujeita a chuvas apresentaria essas feições. Os sedimentos erodidos dessas áreas podem assorear canais fluviais.\n\nQuanto aos fatores antrópicos, destacam-se: a compactação do solo decorrente do manejo inadequado em práticas agrícolas e a alteração da topografia do entorno, seja por cortes ou aterros, o que aumenta o escoamento superficial e, assim, a concentração de água em áreas suscetíveis ao voçorocamento. Outros processos que podem acelerar a evolução das voçorocas são o acúmulo de lixo e entulho e o lançamento de efluentes nessas áreas.\n\nEm áreas urbanas, a expansão acelerada de voçorocas pode destruir ruas e comprometer a estrutura de edificações, levando inclusive ao seu colapso. Além disso, pode danificar infraestruturas de abastecimento de água, coleta de esgoto, redes de drenagem e postes de energia, entre outras estruturas urbanas essenciais."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cha-q18",
+   "numero": 18,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A evolução do relevo da América do Sul, nos últimos 23 milhões de anos, resultou da atuação conjunta de processos endógenos e exógenos, que transformaram a paisagem, modificaram as formas do relevo e alteraram o sentido de escoamento do rio Amazonas, conforme representado na figura a seguir.\n\n![Figura \"Formação dos Andes e erosão alteram sentido do rio Amazonas\": à esquerda, mapa de 23 milhões a 10 milhões de anos (\"Duas bacias hidrográficas\", com lagos e pântanos, divisor de águas, Andes e foz); ao centro, perfil \"Montanhas a oeste, águas a leste\" com chuva, erosão, sedimentos, antigo divisor de águas e oceano; à direita, mapa de 10 milhões a 7 milhões de anos (\"Uma rede única de rios\", com lagos e pântanos que desaparecem gradativamente); legenda: Andes, planaltos, planícies, lagos e áreas alagadas, oceano](fig:p20-c1)\n\n(Adaptado de https://revistapesquisa.fapesp.br/o-passado-remoto-de-um-grande-rio/. Acesso em 27/06/2024.)\n\nA partir da leitura do texto, da análise da figura e dos seus conhecimentos sobre a evolução da paisagem na América do Sul e da bacia hidrográfica do rio Amazonas, responda aos itens (a) e (b) a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Apresente dois processos endógenos que contribuíram para o soerguimento da Cordilheira dos Andes. Em seguida, indique duas consequências diretas da eliminação do antigo divisor de águas na região central do continente que influenciou a formação da bacia hidrográfica do rio Amazonas.",
+     "resposta_oficial": "Os processos endógenos que contribuíram para o soerguimento da Cordilheira dos Andes são, especialmente, os falhamentos inversos e os dobramentos, associados à tectônica de placas.\n\nComo consequências diretas da eliminação do antigo divisor de águas na região central do continente, pode-se apontar que a rede de drenagem da bacia amazônica passou a se organizar preferencialmente no sentido leste, dirigindo-se para o oceano Atlântico, e que se formou uma vasta bacia sedimentar na porção central e oriental da América do Sul, favorecendo a atual configuração da bacia hidrográfica do rio Amazonas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte duas alterações ambientais na paisagem resultantes da mudança no curso do rio Amazonas para o sentido atual. Cite dois benefícios ecológicos ou econômicos, para a ocupação humana, que decorrem da deposição de sedimentos nas planícies da bacia amazônica.",
+     "resposta_oficial": "Com o soerguimento da cordilheira a oeste, o escoamento dos grandes rios deixou de se dirigir nessa direção, o que levou, inicialmente, à formação de uma rede de grandes lagos e extensas áreas alagadas cujo escoamento tendia para o norte, na região onde hoje se encontra, aproximadamente, a bacia do rio Orinoco. Posteriormente, com o estabelecimento do curso atual em direção ao leste, ocorreu a redução de muitas áreas pantanosas e de lagoas internas e o aumento da descarga de sedimentos em direção ao oceano Atlântico, na foz atual do rio Amazonas.\n\nComo benefícios ecológicos ou econômicos para a ocupação humana, destacam-se: a ocorrência de solos mais férteis nas planícies aluviais (várzeas), favorecendo atividades agrícolas; e o aumento da produtividade biológica nesses trechos da bacia, especialmente associado à maior disponibilidade de peixes para a população ribeirinha e para a pesca comercial."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  }
+ ]
+}

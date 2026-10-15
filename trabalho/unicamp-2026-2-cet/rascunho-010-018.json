@@ -1,0 +1,234 @@
+{
+  "edicao": "unicamp-2026-2-cet",
+  "intervalo": [
+    10,
+    18
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 10,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma pesquisa recente revelou um novo objeto astronômico que pode ser o Planeta 9. A hipótese da existência desse planeta foi concebida para explicar características comuns a vários objetos trans-netunianos, isto é, astros com órbitas que alcançam distâncias ao Sol muito maiores do que o planeta Netuno.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "No espaço de respostas, a figura A ilustra uma situação imaginária na qual o Sol, um planeta hipotético $P$, e um objeto trans-netuniano *OTN* são representados ao longo de uma linha reta. As distâncias de $P$ e *OTN* ao Sol são apresentadas na figura A em unidades astronômicas, UA (1 UA = distância da Terra ao Sol). Supondo que a razão entre a massa $m_P$ do planeta $P$ e a massa $m_{\\text{Sol}}$ do Sol seja dada por $\\frac{m_P}{m_{\\text{Sol}}} \\simeq 2\\times10^{-5}$, para a situação da figura A, calcule:\n\n![Figura A: o Sol, o planeta P e o objeto OTN representados ao longo de uma linha reta; uma seta indica a distância de 520 UA do Sol até P e outra, a distância de 624 UA do Sol até OTN; duas órbitas curvas passam por P e por OTN](fig:p12-c1)\n\n(i) a distância $d$ entre o objeto *OTN* e o planeta $P$;\n(ii) a razão $q = |\\vec{F}_P|\\,/\\,|\\vec{F}_{\\text{Sol}}|$ entre os módulos das forças gravitacionais que o planeta $P$ $\\left(\\vec{F}_P\\right)$ e o Sol $\\left(\\vec{F}_{\\text{Sol}}\\right)$ exercem sobre *OTN*."
+        },
+        {
+          "rotulo": "b",
+          "texto": "De acordo com a terceira lei de Kepler, a razão entre o quadrado do período orbital ($T$) e o cubo do semieixo maior ($a$) da órbita elíptica é a mesma para todos os planetas que orbitam o Sol. Se o semieixo maior da órbita elíptica de outro planeta desconhecido $D$ for dado por $a_D \\simeq 400\\ \\text{UA}$, qual será o período $T_D$, em anos terrestres, do movimento orbital do planeta $D$ em torno do Sol? Considere os seguintes dados para o planeta Terra: $a_{\\text{Terra}} = 1\\ \\text{UA}$, $T_{\\text{Terra}} = 1\\ \\text{ano}$."
+        }
+      ],
+      "observacoes": "Na resposta, os riscos de cancelamento do caderno (G, m_OTN, UA) estão reproduzidos com \\cancel."
+    },
+    {
+      "numero": 11,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A caracterização das propriedades térmicas dos materiais é de suma importância para o seu emprego em múltiplas aplicações, bem como para a busca de novos materiais. Uma classe particular desses materiais é chamada de Materiais de Mudança de Fase (PCM, do inglês *Phase Change Materials*) por apresentarem valores elevados do calor latente de fusão, vaporização, etc.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A parafina é um componente encontrado em alguns PCMs. Uma amostra de parafina, inicialmente na sua temperatura de fusão, recebe calor a uma potência líquida, já excluindo-se as perdas, dada por $P = 30\\ \\text{W}$. Sendo $L = 60\\ \\text{cal/g}$ o calor latente de fusão dessa amostra, quanto tempo será necessário para fundir uma massa $m_{\\text{parafina}} = 20\\ \\text{g}$ da parafina?\nDado: $1\\ \\text{cal} \\simeq 4\\ \\text{J}$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "No espaço de respostas, o gráfico representa a temperatura em função do tempo de duas amostras metálicas, Al e Cu, durante o aquecimento de cada uma delas produzido pela absorção de energia de um laser. As amostras, tendo massas idênticas e estando sujeitas a condições de troca de calor similares, apresentam tempos de aquecimento diferentes, uma vez que têm calores específicos bem distintos: $c_{\\text{Al}} \\simeq 900\\ \\text{J}/(\\text{kg}\\cdot{}^\\circ\\text{C})$ e $c_{\\text{Cu}} \\simeq 400\\ \\text{J}/(\\text{kg}\\cdot{}^\\circ\\text{C})$. Se a massa da amostra de Al for dada por $m_{\\text{Al}} = 1{,}5 \\times 10^{-5}\\ \\text{kg}$, qual é o calor $Q$ nela armazenado desde o instante $t = 0$ até $t = 0{,}15\\ \\text{s}$?\n\n![Gráfico da temperatura (°C), de 20,00 a 20,08, em função do tempo (s), de 0,00 a 0,20, sobre uma grade quadriculada; duas curvas crescentes, uma rotulada Cu e outra rotulada Al, partem de 20,00 °C em t = 0](fig:p13-c1)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "*Bend* é uma técnica usada na guitarra para alterar a frequência sonora de uma nota musical. Essa técnica consiste em deslocar, na direção perpendicular ao braço da guitarra, o dedo que prende a corda, aumentando-se a tensão aplicada na corda e a frequência sonora emitida.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A frequência $f_0$ do harmônico fundamental de uma corda é dada por $f_0 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$, sendo $L$ o comprimento, $T$ a tensão e $\\mu$ a densidade linear da corda. No espaço de respostas, a figura A ilustra o *bend* (com o ângulo fora de escala) sendo aplicado no meio de uma corda (ponto $P$) de densidade linear $\\mu = 8{,}0 \\times 10^{-4}\\ \\text{kg/m}$. Na situação da figura A, com o *bend* aplicado, tem-se $L = 0{,}30\\ \\text{m}$ e $f_0 = 500\\ \\text{Hz}$. Qual é o módulo da força que deve ser aplicada sobre a corda no ponto $P$, ao longo da direção $y$, para manter o equilíbrio?\nDados: $\\cos 88{,}9^\\circ \\simeq 0{,}02$; $\\operatorname{sen} 88{,}9^\\circ \\simeq 0{,}99$; $\\operatorname{tg} 88{,}9^\\circ \\simeq 52$.\n\n![Figura A: corda de guitarra com o bend aplicado no ponto P, vista de cima; o eixo y é vertical e passa por P; a corda forma 88,9° com o eixo y de cada lado de P; uma seta indica o trecho à esquerda, de comprimento L = 0,30 m; a tensão T está indicada nos dois trechos](fig:p14-c1)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "No espaço de respostas, a figura B mostra o braço de uma guitarra com uma corda diferente daquela do item anterior. Em cada casa do braço, estão indicadas a nota e a frequência do harmônico fundamental correspondente com a corda presa <u>sem o *bend*</u>. Nesses casos, a tensão na corda é a mesma para todas as notas, dada por $T_1 = 196\\ \\text{N}$. Se um *bend* é feito para elevar a frequência $f_1$ da nota <u>Sol</u> para a frequência $f_2$ da nota <u>Sol sustenido</u> (Sol#), qual é o aumento $\\Delta T$ na tensão da corda?\nUse a relação: $\\frac{\\Delta T}{T_1} = \\frac{2\\left(f_2 - f_1\\right)}{f_1}$\n\n![Figura B: braço de guitarra com cinco casas; acima de cada casa, a frequência do harmônico fundamental, e dentro dela, a nota: 440 Hz, Lá; 415 Hz, Sol #; 392 Hz, Sol; 370 Hz, Fá #; 349 Hz, Fá](fig:p14-c2)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 13,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um LED (do inglês *Light-Emitting Diode*) é um componente eletrônico que emite luz quando sujeito a uma diferença de potencial $U_D$ e percorrido por uma corrente elétrica.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A cor de um LED monocromático depende da frequência $f$ da luz emitida, que, de forma simplificada, é determinada pela expressão $eU_D = hf$, em que $e \\simeq 1{,}6 \\times 10^{-19}\\ \\text{C}$ é a carga do elétron e $h$ é a constante de Planck. Calcule o valor de $h$ considerando um LED que emite luz de comprimento de onda $\\lambda = 600\\ \\text{nm}$ e que opere com $U_D \\simeq 2{,}0\\ \\text{V}$.\nDado: velocidade da luz $c = 3{,}0 \\times 10^{8}\\ \\text{m/s}$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "O índice de refração $n$ de um meio depende do comprimento de onda da luz que o atravessa. Isso permite analisar a composição espectral da luz, como a emitida por um LED. O prisma equilátero (secção reta) do espaço de respostas, imerso em ar ($n_{\\text{ar}} = 1$), foi usado para estudar um raio de luz monocromática para o qual o índice de refração do prisma é $n_{\\text{prisma}} = \\sqrt{3}$. O raio incide na interface 1 (ar–prisma), com ângulo $\\theta_{1i}$, sendo parcialmente refletido e parcialmente refratado.\n\n(i) Calcule o ângulo de refração $\\theta_{1r}$ na interface 1;\nNo prisma no espaço de respostas,\n(ii) desenhe o caminho do raio dentro do prisma e depois de emergir do mesmo, na interface 2 (prisma-ar), explicitando os valores dos ângulos envolvidos;\n(iii) desenhe o raio da primeira reflexão na interface 1, indicando o valor ângulo de reflexão $\\alpha_1$.\n\n*Campo de resolução:*\n\n![Prisma equilátero, em secção reta, com a base na horizontal e o texto “prisma equilátero” e “ar” junto à base; as faces inclinadas estão rotuladas interface 1 (esquerda) e interface 2 (direita); um raio chega à interface 1 vindo de baixo e da esquerda, com a normal tracejada e o ângulo θ1i = 60°](fig:p15-c1)"
+        }
+      ],
+      "observacoes": "O enunciado original diz “indicando o valor ângulo de reflexão α1” (sem “do”); mantido como no caderno."
+    },
+    {
+      "numero": 14,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O mundo está explosivo. Quando uma reação química ocorre, geralmente vem acompanhada de evidências macroscópicas perceptíveis, algumas dessas somente para quem está muito próximo da reação. No entanto, se o calor liberado (Q) for muito grande, assim como o volume de gases (V), como acontece numa explosão em uma guerra convencional, o poder de detonação (Q×V) pode “ser sentido” à longa distância e por muito tempo. Em uma eventual guerra nuclear, as consequências podem ser muito mais devastadoras, ocorrendo antes mesmo da detonação das ogivas. Adicionalmente, as consequências próximas do local da detonação são a contaminação primária do solo e água e o extermínio da vida, mas há os efeitos de longa distância e tempo, geralmente não levados em conta.\n\nA partir dessas informações, responda aos itens (a) e (b).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Calcule o volume (V) de gases liberados na explosão de uma ogiva de 1200 kg do explosivo RDX ($\\text{C}_3\\text{H}_6\\text{N}_6\\text{O}_6$), em uma guerra convencional. Considere que todos os produtos são gasosos e estão nas CNTP. A explosão do RDX, único reagente, produz água, monóxido de carbono e nitrogênio molecular.\n\nDados: Mol RDX = $222\\ \\text{g}\\ \\text{mol}^{-1}$; P = 100 kPa; T = 273 K; R = $8{,}3\\ \\text{Pa}\\cdot\\text{m}^3\\cdot\\text{K}^{-1}\\cdot\\text{mol}^{-1}$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Uma guerra nuclear pode levar a consequências muito graves em médio e longo prazo. Em uma situação extrema, pode gerar até $150\\cdot10^{9}\\ \\text{kg}$ de fuligem. Há muitas verdades tristes sobre uma guerra nuclear, elencamos apenas duas delas:\n\n(i) as armas nucleares prejudicam o meio ambiente, muito antes de serem utilizadas numa guerra;\n\n(ii) após uma guerra nuclear, podemos esperar uma insegurança alimentar mundial gigantesca.\n\nAponte duas justificativas para cada afirmação, no quadro no campo de resposta.\n\n*Campo de resolução:*\n\n| Afirmação i | Afirmação ii |\n|---|---|\n| Razão 1 | Razão 1 |\n| Razão 2 | Razão 2 |"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "As informações quimiossensoriais transmitidas pelos odores corporais (OCs) podem influenciar as relações sociais entre amigos, parceiros e familiares. De modo especial, os OCs contribuem de forma distinta para a comunicação entre pais e filhos em diferentes fases do desenvolvimento. Além disso, os odores podem desempenhar papel importante nas relações entre espécies animais.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Um estudo científico que compara OCs presentes na cabeça de bebês recém-nascidos revela que o nonanal é o aldeído mais abundante no OC tanto nos bebês recém-nascidos (1 hora) quanto nos bebês de 2 ou 3 dias. Nesse período, o nonanal é produzido constantemente, porém sua quantidade permanece praticamente inalterada enquanto a quantidade do ácido nonanóico aumenta cinco vezes no mesmo período. Descreva por que as quantidades das substâncias OCs descritas, comportam-se dessa forma no período de três dias, incluindo a equação química que justifica esse comportamento."
+        },
+        {
+          "rotulo": "b",
+          "texto": "As pessoas costumam se perguntar “Por que os mosquitos são mais atraídos por mim do que pelos meus amigos?\". Para responder a essa pergunta, foram realizados dois experimentos identificados como (i) e (ii), na figura ao lado, que investigaram o comportamento do mosquito da malária *Anopheles gambiae*. No campo de resposta, indique o objetivo e a conclusão de cada um dos dois experimentos, que respondem à pergunta mencionada anteriormente.\n\n![Figura com dois experimentos. (i): dois mosquitos, cada um diante de um alvo circular rosa marcado 35 °C, a 1 m de distância; acima do trajeto do primeiro há uma nuvem de pontos coloridos (rosa, pretos e laranja) e uma linha pontilhada leva o mosquito até o alvo; o segundo mosquito, sem a nuvem de pontos, tem um trajeto pontilhado sinuoso que não chega ao alvo, marcado com um X vermelho. (ii): um mosquito diante de uma barra de cores de +1,0 (roxo) a −1,0 (cinza), com 0,0 no meio; uma seta roxa com um coração leva a uma silhueta humana roxa cercada de pontos coloridos e uma seta cinza leva a uma silhueta humana cinza com pontos coloridos ao redor; à direita, três fórmulas estruturais de ácidos carboxílicos, cada uma ligada a uma cor de ponto: rosa, preto e laranja](fig:p17-c1)\n\n*Campo de resolução:*\n\n| Objetivo(s) do experimento | Conclusão(ões) |\n|---|---|\n| (i) | (i) |\n| (ii) | (ii) |"
+        }
+      ],
+      "observacoes": "O enunciado original fecha a pergunta citada com aspas retas depois de abrir com aspas curvas (“...amigos?\") e traz vírgula em “substâncias OCs descritas, comportam-se”; mantidos como no caderno."
+    },
+    {
+      "numero": 16,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os carros *flex* desempenham um papel crucial na mobilidade sustentável no Brasil. Seus motores a combustão permitem o uso de etanol ou gasolina ou mesmo as suas misturas, dando ao consumidor liberdade de escolha conforme o preço e a disponibilidade dos combustíveis. Além disso, o etanol é uma fonte renovável com menor emissão de gases de efeito estufa, contribuindo para a redução do impacto ambiental.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "No carro *flex*, há um dispositivo chamado sensor lambda, que ajuda a controlar a relação entre a quantidade de ar e a quantidade de combustível. Essa relação é dada pela estequiometria da reação de combustão. Considere duas situações extremas: um carro usando apenas octano (representando a gasolina) como combustível e outro usando apenas etanol. Em qual situação a relação (quantidade de ar/quantidade de combustível) será maior? Justifique sua resposta matematicamente."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Em 2025, o percentual em volume de etanol na gasolina mudou de 27% para 30%. Imagine que se deseje manter o teor de 27% de etanol utilizando a nova gasolina. Para isso, deve-se extrair o etanol da nova gasolina por meio da adição de água, de modo a separar o etanol da mistura (deixando a gasolina com 0% de etanol). Em seguida, deve-se juntar essa gasolina sem álcool a um volume da nova gasolina, para encher completamente o tanque de 60 litros. Calcule o volume mínimo da nova gasolina <u>a ser usado</u> para alcançar êxito. Apresente os cálculos, mostrando claramente cada uma das variáveis.\nDados: Fórmula Molecular: Octano (gasolina): $\\text{C}_8\\text{H}_{18}$; etanol: $\\text{C}_2\\text{H}_6\\text{O}$"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O filme *Dark Waters*, ou *O Preço da Verdade*, de 2019, retrata um processo judicial motivado por uma intensa contaminação ambiental pelo descarte inapropriado do C8, única identificação do composto químico que o advogado sabia no início da acusação formal. Essa contaminação havia sido promovida por uma indústria, a partir de um lago de decantação. Hoje, essa substância, assim como alguns de seus “parentes” próximos estão presentes na maioria dos ambientes aquáticos mundo afora. Devido à sua alta estabilidade, essas substâncias apresentam alta persistência ambiental e ausência de vias naturais eficazes de degradação. Além disso, são altamente maléficas à saúde humana e de outros animais, como mostra o filme. Para responder aos itens (a) e (b), considere essas informações e a figura abaixo.\n\n![Ilustração em corte de uma área com indústria, painel solar e árvores sobre o solo, e um lençol de água no subsolo com dois eletrodos ligados por fios a uma bateria com polos − e +; o eletrodo da esquerda está rotulado anodo, com um sinal +, e o da direita, catodo, com um sinal −. À esquerda do anodo, as fórmulas estruturais de dois compostos orgânicos com cadeias de átomos de carbono ligados a átomos de flúor (F), um terminado em ácido carboxílico (COOH) e outro em ácido sulfônico (SO3H); uma seta azul aponta para a direita. À direita do catodo, uma seta azul e as substâncias CO2, SO4 2−, F− e H2O](fig:p19-c1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Interprete a figura ao lado e indique: (i) objetivo e resultados esperados no processo representado e (ii) método químico utilizado. Além disso, **nomeie** as substâncias do lado esquerdo da figura. Use a nomenclatura usual, não necessariamente a nomenclatura IUPAC."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Estudos mostram que carvão ativo (CA), com ou sem carga, é capaz de adsorver quantidades semelhantes, em meio aquoso e pH 7, das substâncias orgânicas apresentadas à esquerda, na figura acima. Levando em consideração esses fatos e as interações entre essas substâncias e a superfície do CA, complete as figuras no campo de resposta, desenhando a orientação da molécula da substância orgânica em relação à superfície de cada partícula de CA. Escolha uma das substâncias orgânicas de modo a representar corretamente o relatado e nomeie, em cada caso, o <u>tipo de interação química dominante</u>.\nDado: pKa das substâncias orgânicas menor que 4.\n\n*Campo de resolução:*\n\n![Duas partículas esféricas de carvão ativo (CA): a da esquerda tem sinais + ao redor da superfície; a da direita não tem cargas; abaixo de cada uma, a linha “Tipo de Interação:”](fig:p19-c2)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "O cálcio é o elemento metálico mais abundante em nosso corpo. Esse elemento está presente na constituição de nossos ossos, sendo vital em inúmeros processos fisiológicos, atuando, por exemplo, como cofator enzimático e na contração muscular. Dessa forma, conhecer corretamente as diferentes formas em que o cálcio se encontra no sangue torna-se uma ferramenta fundamental na avaliação da saúde humana e animal. Nesse contexto, responda aos itens (a) e (b).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Quando o cálcio iônico (livre) extracelular não está no nível normal, alguns mecanismos internos são disparados para corrigir o problema. Em um dos casos, há um aumento rápido da secreção de PTH (hormônio da paratireoide) e um consequente aumento no nível de mRNA para a síntese de PTH. O PTH mobiliza o cálcio ósseo, aumentando o fluxo de cálcio do osso para a circulação sanguínea; reduz a excreção renal de cálcio, e aumenta a produção do metabólito 1,25$(\\text{OH})_2\\text{D}_3$ a nível renal. Esse metabólito ativo da vitamina D, por sua vez, age no intestino, aumentando a absorção do cálcio proveniente da dieta. Os mecanismos regulatórios internos citados são utilizados para o caso de uma pessoa com problema de hipocalcemia ou hipercalcemia? Justifique."
+        },
+        {
+          "rotulo": "b",
+          "texto": "No cálcio sanguíneo total (<u>$\\text{Ca}^{2+}$ total</u>), há três frações em equilíbrio: o <u>$\\text{Ca}^{2+}$ livre</u>, o <u>$\\text{Ca}^{2+}$ ligado a proteínas</u> e o <u>$\\text{Ca}^{2+}$ ligado a ânions</u> como lactato, fosfato, entre outros. No entanto, apenas o <u>$\\text{Ca}^{2+}$ livre</u> (cerca de 50% do <u>$\\text{Ca}^{2+}$ total</u> em condições normais) é fisiologicamente ativo, sendo um importante fator na avaliação da saúde de uma pessoa. Assim, a concentração de <u>$\\text{Ca}^{2+}$ livre</u>, quando não é medida diretamente, é <u>calculada</u> como sendo 50% da concentração de <u>$\\text{Ca}^{2+}$ total</u>. No entanto, há duas situações clínicas em que esse cálculo não pode ser usado com exatidão: (i) quando a concentração de proteína sérica é anormal e (ii) quando a pessoa apresenta uma perturbação no equilíbrio ácido-base sanguíneo. Justifique, no campo de resposta, por que o <u>$\\text{Ca}^{2+}$ livre</u> não pode ser calculado a partir do <u>$\\text{Ca}^{2+}$ total</u> em cada uma das situações levando em conta o conceito de equilíbrio químico.\nDado: <u>$\\text{Ca}^{2+}$ total</u> = <u>$\\text{Ca}^{2+}$ livre</u> + <u>$\\text{Ca}^{2+}$ ligado a proteínas</u> + <u>$\\text{Ca}^{2+}$ ligado a ânions</u>."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "10": {
+      "itens": {
+        "a": "i) $d = d_{\\text{OTN\\_Sol}} - d_{\\text{P\\_Sol}} = (624 - 520)\\ \\text{UA} = 104\\ \\text{UA}$\n\nii) $|\\vec{F}_P| = G\\,\\frac{m_P\\, m_{\\text{OTN}}}{(d)^2}\\,;\\quad |\\vec{F}_{\\text{Sol}}| = G\\,\\frac{m_{\\text{Sol}}\\, m_{\\text{OTN}}}{(d_{\\text{OTN\\_Sol}})^2}$\n\n$$q = \\frac{|\\vec{F}_P|}{|\\vec{F}_{\\text{Sol}}|} = \\frac{\\cancel{G}\\,\\dfrac{m_P\\,\\cancel{m_{\\text{OTN}}}}{(d)^2}}{\\cancel{G}\\,\\dfrac{m_{\\text{Sol}}\\,\\cancel{m_{\\text{OTN}}}}{(d_{\\text{OTN\\_Sol}})^2}} = \\left(\\frac{m_P}{m_{\\text{Sol}}}\\right) \\times \\left(\\frac{d_{\\text{OTN\\_Sol}}}{d}\\right)^2 = \\left(2\\times10^{-5}\\right) \\times \\left(\\frac{624\\ \\text{UA}}{104\\ \\text{UA}}\\right)^2 = \\left(2\\times10^{-5}\\right) \\times (6)^2$$\n\n$$q = \\left(2\\times10^{-5}\\right) \\times 36 = 72\\times10^{-5} = 7{,}2\\times10^{-4}$$",
+        "b": "Terceira Lei de Kepler: $\\frac{T^2}{a^3} = \\mathit{cte} \\Rightarrow \\frac{T_{\\text{Terra}}^2}{a_{\\text{Terra}}^3} = \\frac{T_P^2}{a_P^3}$\n\n$T_P = \\left(\\frac{a_P}{a_{\\text{Terra}}}\\right)^{3/2} T_{\\text{Terra}} = \\left(\\frac{400\\ \\cancel{\\text{UA}}}{1{,}0\\ \\cancel{\\text{UA}}}\\right)^{3/2} \\times (1\\ \\text{ano})$\n\n$T_P = \\sqrt{(4)^3 \\times \\left(10^2\\right)^3}\\ \\text{anos} = \\sqrt{64\\times10^6}\\ \\text{anos} = 8\\times10^3\\ \\text{anos} = 8000\\ \\text{anos}$"
+      }
+    },
+    "11": {
+      "itens": {
+        "a": "$L = 60\\ \\text{cal/g} = \\left(4\\ \\frac{\\text{J}}{\\text{cal}}\\right) \\times \\left(60\\ \\frac{\\text{cal}}{\\text{g}}\\right) = 240\\ \\text{J/g}$\n\n$$\\left.\\begin{aligned} Q &= m_{\\text{parafina}}L \\\\ Q &= P\\Delta t \\end{aligned}\\right\\} \\Rightarrow \\Delta t = \\frac{m_{\\text{parafina}}L}{P}$$\n\n$$\\Delta t = \\frac{(20\\ \\text{g}) \\times (240\\ \\text{J/g})}{P = 30\\ \\text{W}} = 160\\ \\text{s.}$$",
+        "b": "$Q = m c_{\\text{Al}} \\Delta\\theta$\n\nDo gráfico temos: $\\Delta\\theta = (20{,}06 - 20{,}00)\\ {}^\\circ\\text{C} = 0{,}06\\ {}^\\circ\\text{C}$\n\n$$Q = m c_{\\text{Al}} \\Delta\\theta = \\left(1{,}5\\times10^{-5}\\ \\text{kg}\\right) \\times \\left(900\\ \\frac{\\text{J}}{\\text{kg}\\,{}^\\circ\\text{C}}\\right) \\times \\left(0{,}06\\ {}^\\circ\\text{C}\\right) = 8{,}1\\times10^{-4}\\ \\text{J.}$$"
+      }
+    },
+    "12": {
+      "itens": {
+        "a": "$$T = 4L^2 f_0^2 \\mu = 4 \\times \\left(3{,}0\\times10^{-1}\\ \\text{m}\\right)^2 \\times \\left(5{,}0\\times10^{2}\\ \\text{Hz}\\right)^2 \\times \\left(8{,}0\\times10^{-4}\\ \\text{kg/m}\\right) = 72\\ \\text{N}$$\n\n$F_y = 2 \\times T \\times \\cos\\left(88{,}9^\\circ\\right) = 2 \\times 72\\ \\text{N} \\times 0{,}02 = 2{,}88\\ \\text{N}$",
+        "b": "$\\frac{\\Delta T}{T_0} = \\frac{2\\left(f - f_0\\right)}{f_0}$\n\n$f(\\text{Sol\\#}) = 415\\ \\text{Hz}$\n$f_0(\\text{Sol}) = 392\\ \\text{Hz}$\n\n$\\Delta f = f - f_0 = 415\\ \\text{Hz} - 392\\ \\text{Hz} = 23\\ \\text{Hz}$\n\n$\\frac{\\Delta T}{T_0} = \\frac{2 \\times 23\\ \\text{Hz}}{392\\ \\text{Hz}} = \\frac{46}{392}$\n\n$\\Delta T = \\frac{46}{392} \\times 196 = 23\\ \\text{N}$"
+      }
+    },
+    "13": {
+      "itens": {
+        "a": "Dados: $c = 3{,}0\\times10^{8}\\ \\text{m/s}$\n\n$e = 1{,}6 \\times 10^{-19}\\ \\text{C}$\n\n$\\lambda = 600\\ \\text{nm}$\n\n$U_D = 2{,}0\\ \\text{V}$\n\n$f = c/\\lambda \\qquad f = 3\\times10^{8} / 600\\times10^{-9} = 5\\times10^{14}\\ \\text{s}^{-1}$\n\n$$h = \\frac{eU_D}{f} = \\frac{\\left(1{,}6 \\times 10^{-19}\\ \\text{C}\\right) \\cdot 2{,}0\\ \\text{V}}{5\\times10^{14}\\ \\text{s}^{-1}} = 6{,}4 \\times 10^{-34}\\ \\text{Js}$$",
+        "b": "$\\theta_{1i} = 60^\\circ$\n\n$n_{\\text{ar}}\\operatorname{sen}\\left(\\theta_{1i}\\right) = n_{\\text{prisma}}\\operatorname{sen}\\left(\\theta_{1r}\\right)$\n\n$n_{\\text{ar}}\\operatorname{sen}\\left(60^\\circ\\right) = n_{\\text{prisma}}\\operatorname{sen}\\left(\\theta_{1r}\\right)$\n\n$1\\,\\frac{\\sqrt{3}}{2} = \\sqrt{3}\\operatorname{sen}\\left(\\theta_{1r}\\right)$\n\n$\\operatorname{sen}\\left(\\theta_{1r}\\right) = \\frac{1}{2} \\Rightarrow \\theta_{1r} = 30^\\circ$\n\nPor construção geométrica, o feixe passa dentro do prisma paralelo à base, chegando à interface 2 com ângulo $\\theta_{2i} = 30^\\circ$ em relação à sua normal. Como $\\theta_{2i} = \\theta_{1r} = 30^\\circ \\Leftrightarrow \\theta_{2r} = \\theta_{1i} = 60^\\circ$ pois $n_{\\text{ar}}\\operatorname{sen}\\left(\\theta_{ar}\\right) = n_{\\text{prisma}}\\operatorname{sen}\\left(\\theta_{prisma}\\right)$, independentemente da interface e direção do feixe de luz.\n\n$\\alpha_1 = \\theta_{1i} = 60^\\circ$\n\n![Prisma equilátero com o raio incidente na interface 1 (θ1i = 60°), o raio refletido na interface 1 (α1 = 60°), o raio refratado dentro do prisma, paralelo à base, com θ1r = 30° e θ2i = 30°, e o raio que emerge na interface 2 com θ2r = 60°](fig:r09-c1)"
+      }
+    },
+    "14": {
+      "itens": {
+        "a": "$\\text{C}_3\\text{H}_6\\text{N}_6\\text{O}_6 \\rightarrow 3\\,\\text{H}_2\\text{O} + 3\\,\\text{CO} + 3\\,\\text{N}_2$\n\nPortanto, são formados 9 mols de gases para cada mol de RDX.\n\nEntão: 222 g → 9 mols\n1200000 g → n mols → n = 48.649 mols de gás\n\nPV = nRT → V = (48.649 x 8,3 x 273) / 100000 = **1.102 m³**",
+        "b": "| Item i | Item ii |\n|---|---|\n| Razão 1 – Problemas ambientais devido a extração e purificação das matérias-primas para fabricação da bomba, tais como: mineração, desmatamento. | Razão 1 – O excesso de fuligem na atmosfera pode causar o chamado *inverno nuclear*, bloqueando a entrada de radiação solar. Sem luz suficiente, a fotossíntese é seriamente prejudicada, comprometendo a produção de alimento e afetando toda a cadeia de vida dependente desse processo. |\n| Razão 2 – Testes nucleares que contaminam o meio ambiente, produção de lixo radioativo, produção de rejeitos que podem provocar contaminação dos recursos naturais. | Razão 2 – Contaminação pela radiação nuclear proveniente da explosão da bomba. |"
+      }
+    },
+    "15": {
+      "itens": {
+        "a": "O perfil observado é explicado da seguinte forma: o nonanal é produzido continuamente, mas sua quantidade não apresenta grandes variações porque parte dele é oxidada a ácido nonanóico. Já o ácido nonanóico aumenta justamente por ser o produto dessa oxidação, promovida pelo $\\text{O}_2$ atmosférico ao longo dos primeiros dias após o nascimento.\n\n![Equação química em fórmulas de linhas: nonanal mais 1/2 O2, seta, ácido nonanóico](fig:r10-c1)",
+        "b": "| Objetivo(s) | Conclusão(ões) |\n|---|---|\n| Avaliar se um inseto se direciona a um alvo a 35°C quando o ambiente próximo possui odores corporais. | Sim, os odores corporais direcionam os insetos até o alvo. Na ausência dos odores, os insetos não alcançam o alvo. |\n| Avaliar se a concentração dos odores corporais interfere na intensidade de atração do mosquito causador da malária pelo ser humano. | Quanto maior a concentração de odores exalados pelo ser humano, maior é a atração de mosquitos. |"
+      }
+    },
+    "16": {
+      "itens": {
+        "a": "A reação de combustão do octano é dada por:\n\n$\\text{C}_8\\text{H}_{18} + {}^{25}\\!/_{2}\\,\\text{O}_2 \\rightarrow 8\\,\\text{CO}_2 + 9\\,\\text{H}_2\\text{O}$ ou $2\\,\\text{C}_8\\text{H}_{18} + 25\\,\\text{O}_2 \\rightarrow 16\\,\\text{CO}_2 + 18\\,\\text{H}_2\\text{O}$\n\nA reação de combustão do etanol é dada por:\n\n$\\text{C}_2\\text{H}_5\\text{OH} + 3\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$\n\nO mol do $\\text{C}_8\\text{H}_{18}$ é 114 g/mol, do $\\text{C}_2\\text{H}_5\\text{OH}$ é 46 g/mol e do $\\text{O}_2$ é 32 g/mol.\n\nA relação $\\frac{\\textit{Quantidade de ar}}{\\textit{Quantidade de combustível}}$ de cada combustível é:\n\n(i) Usando apenas octano: $\\frac{25\\ \\textit{mols}\\ \\text{O}_2}{2\\ \\textit{mols}\\ \\text{C}_8\\text{H}_{18}} = 12{,}5$ ou $\\frac{25 \\times 32\\text{g}}{2 \\times 114\\text{g}} = \\frac{800\\text{g de O}_2}{228\\text{g de C}_8\\text{H}_{18}} \\cong 3{,}5$\n\n(ii) Usando apenas etanol: $\\frac{3\\ \\textit{mols}\\ \\text{O}_2}{1\\ \\textit{mol}\\ \\text{C}_2\\text{H}_5\\text{OH}} = 3$ ou $\\frac{3 \\times 32}{46} = \\frac{96\\text{g de O}_2}{46\\text{g de C}_2\\text{H}_5\\text{OH}} \\cong 2{,}1$\n\nPortanto, a relação $\\frac{\\textit{Quantidade de ar}}{\\textit{Quantidade de combustível}}$ do octano ou gasolina é maior do que do etanol.",
+        "b": "Volume total do tanque = 60 L. Portanto, um tanque cheio com gasolina com 27% de etanol tem 16,2 L de etanol.\n\nA nova gasolina possui 30% de etanol. Portanto: 16,2 L de álcool é obtida utilizando um volume de 54 L da nova gasolina (16,2 L ÷ 0,3 = 54 L da nova gasolina). Assim, é necessário adicionar 6 L de gasolina pura à nova gasolina para atingir o percentual de 27% de etanol.\n\nCada 1 L da nova gasolina (com 30% de etanol) tem 0,7 L de gasolina pura. Portanto, são necessários 8,57 L da nova gasolina para se obter 6 L de gasolina pura, após extração do etanol.\n\nAssim, o volume mínimo da nova gasolina que deve ser comprado para completar o tanque com gasolina com 27% de etanol é de 62,57 L (54 L que será adicionado diretamente ao tanque mais 8,57 L, que após extração do etanol, irá render 6 L de gasolina pura, para completar o tanque, diluindo a nova gasolina)."
+      }
+    },
+    "17": {
+      "itens": {
+        "a": "(i) O objetivo é a decomposição de compostos organofluorados, contaminantes presentes na água, altamente tóxicos. O resultado esperado é a eliminação ou minimização da quantidade dessas substâncias maléficas para a saúde humana e animal e a redução do impacto ambiental. (ii) Foi utilizado um método de decomposição eletroquímico empregando energia renovável. As substâncias alvo do processo em questão são ácidos orgânicos polifluoretados, denominados PFAS, no caso o ácido perfluorooctanóico (PFOA) e o ácido perfluoro octanossulfônico (PFOS).",
+        "b": "![À esquerda, partícula de CA com sinais + na superfície e duas moléculas orgânicas fluoradas, com as cadeias de átomos de F afastadas da partícula e os grupos com O, O− e S voltados para a sua superfície. À direita, partícula de CA sem cargas e as duas moléculas dispostas ao lado dela, com as cadeias de átomos de F ao longo da superfície](fig:r12-c1)\n\nTipo de interação: **eletrostática** ou atração entre as cargas negativas dos compostos químicos citados na forma aniônica (pKa < 4) e o CA carregado positivamente.\n\nTipo de interação: **van der Waals** ou interações fracas tais como forças de dispersão de London ou dipolo-dipolo induzido."
+      }
+    },
+    "18": {
+      "itens": {
+        "a": "A partir do texto, fica evidente que os mecanismos regulatórios internos, citados acima, são utilizados para o caso de uma pessoa estar com hipocalcemia, ou seja, aumento do fluxo de cálcio do osso para a circulação sanguínea, redução da excreção renal de $\\text{Ca}^{2+}$ e aumento da produção do metabólito 1,25$(\\text{OH})_2\\text{D}_3$.",
+        "b": "i) Quando a concentração de proteína sérica é anormal. Exemplo com base em equilíbrio químico:\n\n$$\\text{Ca}^{2+} + (\\text{Proteína}) = [\\text{Ca-Proteína}]$$\n\nNesse caso, se a concentração de proteína é anormal, o equilíbrio é afetado. Caso a concentração de proteína aumente, a concentração de $\\text{Ca}^{2+}$ livre diminui. Se a concentração de proteína diminui, então a concentração de $\\text{Ca}^{2+}$ livre será maior.\n\nii) quando a pessoa apresenta uma perturbação no equilíbrio ácido-base sanguíneo: se ocorre um aumento de acidez (acidose), a concentração de ânions livres (fosfato e lactato) no sangue diminui, pois o equilíbrio será deslocado no sentido de formação das espécies protonadas:\n\n$\\text{A}^{-}_{(\\text{aq})} + \\text{H}^{+}_{(\\text{aq})} = \\text{HA}_{(\\text{aq})}$, na qual $\\text{A}^{-}$ representa os ânions fosfato e lactato.\n\nPortanto, a concentração de $\\text{Ca}^{2+}$ livre deve ser maior. Já em um processo de diminuição da acidez (alcalose), ocorre o contrário: diminuição do $\\text{Ca}^{2+}$ livre."
+      }
+    }
+  }
+}

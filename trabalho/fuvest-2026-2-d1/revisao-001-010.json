@@ -1,0 +1,107 @@
+{
+  "edicao": "fuvest-2026-2-d1",
+  "intervalo": [
+    1,
+    10
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 10,
+      "materia": "portugues",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "![Charge de jeangalvão com o título “Crise Climática”: à direita, um boi branco, maior que as árvores, em área de pasto com tocos, segura uma árvore na boca; à esquerda há uma floresta com muitas árvores, pássaros no céu e uma onça pequena](fig:p10-f1)\n\nDisponível em https://cartum.folha.uol.com.br/charges/.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique de que maneira a composição imagética se relaciona com o enunciado verbal “crise climática”."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Identifique dois recursos conotativos (em especial, figuras de linguagem) empregados na construção do bovino e discuta seu funcionamento para a geração do efeito de crítica na charge."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas_corrigidas": {},
+  "complementos": {
+    "1": {
+      "assunto": "Obras de leitura obrigatória"
+    },
+    "2": {
+      "assunto": "Gêneros e tipologia textual"
+    },
+    "3": {
+      "assunto": "Obras de leitura obrigatória"
+    },
+    "4": {
+      "assunto": "Obras de leitura obrigatória"
+    },
+    "6": {
+      "assunto": "Interpretação de texto"
+    },
+    "7": {
+      "assunto": "Obras de leitura obrigatória"
+    },
+    "8": {
+      "assunto": "Obras de leitura obrigatória"
+    },
+    "9": {
+      "assunto": "Semântica e sentido das palavras"
+    },
+    "10": {
+      "assunto": "Figuras de linguagem"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 1,
+      "status": "ok",
+      "notas": "Enunciado, poema, nota de rodapé e resposta da banca conferidos com p02 e r02."
+    },
+    {
+      "numero": 2,
+      "status": "ok",
+      "notas": "Conferido com p02 e r03 (itálicos dos termos em inglês conferidos). Observação do transcritor: a cedilha no lugar da vírgula depois de “cookies” na resposta do item b está mesmo no documento oficial; mantida por fidelidade."
+    },
+    {
+      "numero": 3,
+      "status": "ok",
+      "notas": "Conferido com p04 e r04. Observação do transcritor: “recorrerem” (por “recorrem”) está mesmo impresso no item a do caderno; mantido por fidelidade."
+    },
+    {
+      "numero": 4,
+      "status": "ok",
+      "notas": "Conferido com p04 e r05. Os hífens não separáveis do PDF viraram hífens comuns, sem perda."
+    },
+    {
+      "numero": 6,
+      "status": "ok",
+      "notas": "Conferido com p06 e r07; figura p06-f1 completa. Observação do transcritor: a foto fica ao lado dos dois primeiros parágrafos no caderno; colocá-la depois deles e antes da fonte do g1 é adequado."
+    },
+    {
+      "numero": 7,
+      "status": "ok",
+      "notas": "Conferido com p08 e r08."
+    },
+    {
+      "numero": 8,
+      "status": "ok",
+      "notas": "Conferido com p08 e r09. Observação do transcritor: os dois recortes (p08-c1 e p08-c2) estão completos e sem as legendas, que vão como texto; a decisão está correta."
+    },
+    {
+      "numero": 9,
+      "status": "ok",
+      "notas": "Conferido com p10 e r10. Observação do transcritor: a mistura de aspas curvas e retas em “Encher linguiça\" está mesmo no documento da banca; mantida."
+    },
+    {
+      "numero": 10,
+      "status": "corrigida",
+      "notas": "Descrição da charge passa a dizer que o boi é maior que as árvores (fato visível no desenho e necessário para quem usa leitor de tela acompanhar o item b, que pergunta sobre a construção do bovino; a própria resposta da banca cita isso). Acrescentada geografia em materias_extra: o item a cobra a relação entre desmatamento para pastagem, emissão de gases e crise climática. Texto e resposta conferidos com p10 e r11."
+    }
+  ]
+}

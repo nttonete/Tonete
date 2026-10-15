@@ -1,0 +1,176 @@
+{
+ "edicao": {
+  "id": "unicamp-2026-2-cbs",
+  "vestibular": "unicamp",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2026 – 2ª fase (2º dia: Ciências Biológicas e da Saúde)",
+  "caderno": "2º dia: Ciências Biológicas e da Saúde",
+  "fonte": {
+   "caderno": "2fase-dia2-cbs-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-dia2-cbs-respostas.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2026-2-cbs-q07",
+   "numero": 7,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Medidas para proteger as crianças e os jovens dos cigarros eletrônicos são necessárias. No Brasil, a Agência Nacional de Vigilância Sanitária proíbe a comercialização, a importação e a propaganda de todos os tipos de dispositivos eletrônicos para fumar, como e-*cigs*, *vapes* e *pods*, seja com nicotina ou não. A nicotina causa dependência, podendo influenciar negativamente o desenvolvimento cerebral de crianças e adolescentes, impactando o aprendizado, a memória e a saúde mental.\n\n(Adaptado de https://www.paho.org/pt/noticias/14-12-2023-medidas-urgentes-sao-necessarias-para-proteger-criancas-e-os-jovens-dos. Acesso em 01/07/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A adolescência é um período vulnerável do desenvolvimento, marcado por uma neuroplasticidade elevada. A neuroplasticidade é a capacidade do cérebro de se adaptar e se remodelar em resposta a estímulos e experiências. Qual é a principal função dos dendritos e dos axônios? Explique a importância estrutural e funcional dos neurônios para a neuroplasticidade.\n\n(CASTRO, E.M. et al. *Pharmacological Research*, Londres, abr:190:106716, 2023.)",
+     "resposta_oficial": "A principal função dos dendritos é receber e processar informações de outros neurônios e do ambiente e transmiti-las ao corpo celular. A dos axônios é conduzir e transmitir impulsos nervosos do corpo celular em direção a outras células. A importância estrutural dos neurônios para neuroplasticidade envolve a alteração na forma e número de dendritos e axônios, já a importância funcional está relacionada à capacidade de reorganizar as conexões sinápticas (formando novas conexões sinápticas, fortalecendo as existentes ou eliminando as desnecessárias)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A deposição inicial de aerossóis dos dispositivos eletrônicos para fumar ocorre na cavidade oral e danos no revestimento bucal podem alterar a ação das glândulas salivares, aumentando o risco de doenças bucais. Cite e explique duas funções da saliva.",
+     "resposta_oficial": "Uma função da saliva é a de lubrificação, pois sua composição aquosa (água e glicoproteínas) se mistura com o alimento na mastigação, facilitando a formação do bolo alimentar e sua deglutição. Outra função é a de digestão química dos carboidratos, pois contém a enzima amilase salivar que inicia a decomposição dos carboidratos complexos (amidos) em moléculas mais simples (maltose)."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cbs-q08",
+   "numero": 8,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um rio voador é um rio que flui no ar. Ele não tem margens nem peixes. É um rio metafórico, formado por uma extensa coluna de vapor d’água.\n\n(Adaptado de https://revistapesquisa.fapesp.br/um-rio-que-flui-pelo-ar/. Acesso em 26/05/2025.)\n\n![Ilustração do ciclo da água em um corte de terreno, com os rótulos Transporte, Infiltração, Absorção de plantas e Lençol freático e os processos numerados de 1 a 4](fig:p10-c1)\n\n(Adaptado de https://revistapesquisa.fapesp.br/aquecimento-global-acelera-ciclo-da-agua-... Acesso em 26/05/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Indique, no espaço de resposta, o nome dos processos do ciclo da água numerados de 1 a 4 da figura ao lado.\n\n*Campo de resolução:*\n\n| | Indique o nome de cada processo do Ciclo da Água |\n|---|---|\n| 1 | |\n| 2 | |\n| 3 | |\n| 4 | |",
+     "resposta_oficial": "1 – evaporação; 2 – transpiração; 3 – condensação; 4 – precipitação."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na Amazônia, parte de sua umidade gera correntes aéreas que transportam chuva para o centro-sul do continente. Explique como as plantas participam da formação dos rios voadores. Inclua em sua resposta o nome da estrutura anatômica que regula esse processo.",
+     "resposta_oficial": "As plantas participam da formação dos rios voadores pelo processo de transpiração, elas absorvem grandes volumes de água do solo pelas raízes e nas folhas parte dessa água é liberada na forma de vapor para atmosfera. A estrutura anatômica que regula esse processo é o estômato. O vapor de água liberado se acumula na atmosfera, formando imensas massas de ar úmido, os rios voadores."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cbs-q09",
+   "numero": 9,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Luz e nutrientes são dois elementos ambientais que determinam a abundância de plantas aquáticas. Na eutrofização, a alta disponibilidade de nutrientes pode aumentar o crescimento de algas, mas também reduzir o crescimento de plantas submersas. Quando há alta densidade de organismos na superfície do meio aquático, a intensidade de luz é bastante reduzida em profundidade. Em um ambiente aquático, as interações entre algas, plantas submersas e flutuantes determinam a estrutura e a composição das comunidades. Um estudo avaliou como a presença de plantas flutuantes (*Lemna* spp.) e o teor de nitrogênio na água influenciaram o crescimento e a presença de uma espécie de planta submersa (*Ceratophyllum*), em (A) e também como a presença de plantas flutuantes influencia as algas em (B).\n\n![Dois gráficos: A, taxa de crescimento relativo em função do nitrogênio, com e sem Lemna; B, massa de alga em função da densidade de Lemna](fig:p11-c1)\n\n(Adaptado de SZABÓ, S. et al. *Hydrobiologia*, Dordrecht, jun:851, 2024, p. 2749-2760.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com base nos resultados apresentados pelo estudo (gráficos A e B) e considerando as interações entre as espécies, descreva como a eutrofização e a presença das plantas flutuantes influenciam as plantas submersas e as algas.",
+     "resposta_oficial": "Segundo os resultados do gráfico A, o aumento do teor de nitrogênio no meio aquático reduz o crescimento das plantas submersas enquanto a presença de plantas flutuantes favorece o crescimento das plantas submersas. O gráfico B indica que as plantas flutuantes desfavorecem o crescimento das algas. Uma vez que os três organismos fazem parte da comunidade citada no estudo, pode-se considerar que a eutrofização estimula o crescimento das algas, que por sua vez reduzem a disponibilidade de luz para as plantas submersas. A presença das plantas flutuantes reduz a disponibilidade de luz para as algas, que produzem menos biomassa. Tal condição permite que o recurso luz fique mais disponível para as plantas submersas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Com base nas informações apresentadas, indique uma relação ecológica possível entre dois organismos. Justifique sua resposta citando os dois organismos e classificando a relação ecológica entre eles.",
+     "resposta_oficial": "Como o aumento da população da planta flutuante causa redução da população de algas, a relação ecológica entre a *Lemna* e as algas seria a competição – pois competem por luz no ambiente aquático – e a relação é classificada como interespecífica e desarmônica."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cbs-q10",
+   "numero": 10,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O trato intestinal dos mamíferos possui múltiplos compartimentos com diferentes condições físico-químicas e de nutrientes e, consequentemente, diferentes comunidades microbianas. O intestino delgado é caracterizado por um tempo de trânsito rápido, por uma ampla variação de pH e pela presença de secreções. Além disso, o intestino delgado apresenta níveis relativamente mais altos de oxigênio, que diminuem gradualmente do duodeno ao íleo até que condições de ausência de oxigênio predominem no lúmen do intestino grosso.\n\n(Adaptado de ZHENG, L. et al. *American Journal of Physiology-Cell Physiology*, Bethesda, set:15; 309(6), C350-360, 2015; PEREIRA, F.; BERRY, D. E. *Environmental Microbiology*, Nova Jersey, fev:3;19(4), 2017, p.1366-1378.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a distribuição esperada de bactérias anaeróbias facultativas e anaeróbias obrigatórias nos intestinos delgado e grosso? Justifique sua resposta considerando os processos de respiração e fermentação.",
+     "resposta_oficial": "Bactérias anaeróbias facultativas são dominantes no intestino delgado (mas podem ocorrer em menor proporção no intestino grosso). Isso porque bactérias anaeróbias facultativas, na presença de oxigênio, podem realizar respiração aeróbia, e, na ausência de oxigênio, respiração anaeróbia ou fermentação. As bactérias anaeróbias obrigatórias são dominantes no intestino grosso, onde o oxigênio é ausente (mas podem ocorrer em menor proporção no intestino delgado). Nesse caso, essas bactérias anaeróbias obrigatórias realizam fermentação ou respiração anaeróbica."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O intestino contém secreções próprias, como enzimas e muco, e também recebe secreções de outros órgãos. Cite duas secreções produzidas por outros órgãos que estão presentes no lúmen do intestino delgado. Indique uma função para cada uma dessas secreções.",
+     "resposta_oficial": "O intestino delgado recebe o suco pancreático, produzido no pâncreas, responsável pela digestão de carboidratos, lipídeos e proteínas. Outra secreção é a bile, produzida no fígado e armazenada na vesícula biliar, é responsável pela emulsificação de gorduras."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cbs-q11",
+   "numero": 11,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As populações, e não os organismos individuais, é que evoluem. As mudanças que ocorrem em um indivíduo ao longo de sua vida estão relacionadas ao seu desenvolvimento. Em algumas espécies de aves, os machos adquirem uma plumagem mais colorida à medida que atingem a maturidade sexual.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A espécie de pavão-indiano (*Pavo cristatus*) apresenta dimorfismo sexual: as fêmeas são predominantemente cinzas, e os machos chamam atenção pela longa e colorida cauda que pode chegar a 2 m de comprimento. Cite uma vantagem e uma desvantagem da coloração para os machos da espécie de pavão-indiano. Em relação às fêmeas, explique uma vantagem de sua cor para a reprodução das aves.",
+     "resposta_oficial": "Uma vantagem para o pavão macho é ser atrativo para as fêmeas e garantir maior sucesso reprodutivo; uma desvantagem é a maior facilidade de ser predado por estar mais visível para os predadores ou pela maior dificuldade de fuga devido às penas longas. No caso das fêmeas, a vantagem da sua coloração discreta é a maior facilidade de camuflagem no ambiente e menor detecção por predadores, especialmente importante no período de cuidado à prole (chocando os ovos e cuidando dos filhotes), assim possivelmente aumentando a sobrevivência das fêmeas e dos filhotes."
+    },
+    {
+     "rotulo": "b",
+     "texto": "“A evolução resulta em progresso; os organismos estão sempre melhorando por meio da evolução biológica”. Você concorda com essa afirmação ou discorda dela? Apresente duas justificativas que sustentem sua resposta.\n\n(Adaptado de https://evolution.berkeley.edu/teach-evolution/. Acesso em 04/07/2025.)",
+     "resposta_oficial": "Discordo da afirmação, pois a evolução não implica necessariamente progresso ou melhoria. Os mecanismos de evolução como recombinação, mutação, migração e deriva genética podem fazer com que as populações evoluam de formas que, na verdade, sejam prejudiciais ou as tornem menos aptas a seus ambientes, uma vez que a evolução não possui objetivo, nem direção, nem meta de melhoramento, é ao acaso. Além disso, caso o ambiente apresente mudanças (clima, percurso de rios, novos competidores, entre outros) pode ocorrer que uma população com características mais vantajosas em uma determinada situação possa não sobreviver quando o ambiente mudar."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cbs-q12",
+   "numero": 12,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O arroz apresenta baixos teores de ferro em sua composição, em especial no endosperma da semente (arroz branco). Por ser um doador e aceptor de elétrons, o ferro é um cofator para diversas proteínas envolvidas em vários processos fisiológicos tanto em animais como em plantas. Uma alternativa para aumentar o oferecimento de ferro em dietas seria aumentar a sua disponibilidade nos cereais, em especial nas partes consumíveis, estratégia conhecida como biofortificação.\n\n![Gráfico de barras de µg de ferro em 10 grãos, no embrião e no endosperma, em plantas de arroz não transformada e transformada](fig:p14-c1)\n\n(Adaptado de GOTO, F. *et al.* *Nature Biotechnology*, Nova Iorque, mar:17(3), 1999, p.282-286.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A ferritina é uma proteína que armazena ferro e está presente em animais e plantas. Usando biotecnologia e transformação via *Agrobacterium*, pesquisadores transferiram o gene da ferritina da soja para o arroz e obtiveram os resultados expostos no gráfico ao lado. Com base nos resultados apresentados, por que podemos considerar que a estratégia foi efetiva para a biofortificação? Como se denomina essa tecnologia de transgenia? Explique a importância da *Agrobacterium* para a produção da planta de arroz transgênica.",
+     "resposta_oficial": "A estratégia foi efetiva pois houve um aumento expressivo na quantidade de ferro no endosperma do arroz modificado, parte comestível do grão. A técnica se chama DNA recombinante. Sobre o *Agrobacterium*, o seu plasmídeo carregará o gene alvo da soja para posterior integração ao genoma da planta de arroz, que passará a produzir a ferritina e assim terá os grãos enriquecidos com ferro."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em mamíferos, o ferro encontra-se geralmente associado à hemoglobina. Cite a célula que contém hemoglobina e explique a importância dessa proteína em mamíferos.",
+     "resposta_oficial": "Em mamíferos, a célula que contém hemoglobina é a hemácia (ou eritrócito). A principal forma de transporte do oxigênio ($\\text{O}_2$) dos alvéolos pulmonares para as células do organismo é pelo sangue, ligado à hemoglobina (oxiemoglobina). Parte do dióxido de carbono ($\\text{CO}_2$) produzido pelo metabolismo celular também é transportado ligado à hemoglobina (carbaminohemoglobina) para os alvéolos pulmonares."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-cbs-q13",
+   "numero": 13,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em 2025, um grupo de pesquisadores desenvolveu e aplicou com sucesso uma terapia genética personalizada para tratar um bebê com uma doença rara e grave causada pela deficiência de carbamoil-fosfato sintetase 1 (CPS1). Essa enzima é essencial para o funcionamento do ciclo da ureia. Os principais sintomas do bebê apareceram nas primeiras 48 horas de vida e incluíam sonolência, hipotonia, dificuldade respiratória e níveis extremamente elevados de amônia no sangue.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O bebê apresentava duas mutações diferentes no gene que codifica CPS1, uma herdada do pai e outra da mãe, os quais não apresentavam os sintomas da doença. Para tratar esse bebê, a substituição de uma adenina por uma guanina foi realizada pela técnica de edição de base, uma forma precisa de editar o DNA. O alelo paterno mutado resultava em um códon de parada e foi o alvo na edição de base no bebê. Qual é o significado biológico da mutação resultante em um códon de parada? Considerando o provável genótipo dos pais em relação ao gene *CPS1*, por que eles não apresentam os sintomas da doença?\n\n(Adaptado de https://www.science.org/content/article/gene-editing-therapy-made-just-6-months-helps-baby-life-threatening-disease. Acesso em 25/05/2025.)",
+     "resposta_oficial": "Nesse caso, a mutação resultante em um códon de parada pode causar a interrupção precoce da síntese proteica e a formação de uma proteína de tamanho menor e não funcional. Os pais não apresentam os sintomas da doença, pois devem ter um dos alelos sem a mutação (alelo dominante), sendo este alelo funcional para promover a correta síntese da proteína completa."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A deficiência de CPS1 leva ao acúmulo da amônia, um resíduo altamente tóxico no sangue em humanos. Qual é a origem metabólica da amônia? Em condições fisiológicas, o que ocorre com a amônia até ela ser eliminada do corpo?",
+     "resposta_oficial": "A amônia é formada principalmente do metabolismo de compostos nitrogenados, como a degradação de proteínas e aminoácidos. Em geral, a amônia é convertida em ureia no fígado sendo liberada na corrente sanguínea, filtrada pelos rins e excretada na urina."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  }
+ ]
+}

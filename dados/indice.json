@@ -1022,6 +1022,114 @@
     "literatura": 6,
     "quimica": 7
    }
+  },
+  {
+   "id": "unicamp-2026-2-cbs",
+   "vestibular": "unicamp",
+   "ano": 2026,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2026 – 2ª fase (2º dia: Ciências Biológicas e da Saúde)",
+   "caderno": "2º dia: Ciências Biológicas e da Saúde",
+   "fonte": {
+    "caderno": "2fase-dia2-cbs-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-cbs-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2026-2-cbs.json",
+   "total": 7,
+   "validas": 7,
+   "com_resposta": 7,
+   "materias": {
+    "biologia": 7
+   }
+  },
+  {
+   "id": "unicamp-2026-2-cet",
+   "vestibular": "unicamp",
+   "ano": 2026,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2026 – 2ª fase (2º dia: Ciências Exatas e Tecnológicas)",
+   "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+   "fonte": {
+    "caderno": "2fase-dia2-cet-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-cet-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2026-2-cet.json",
+   "total": 18,
+   "validas": 18,
+   "com_resposta": 18,
+   "materias": {
+    "historia": 1,
+    "sociologia": 1,
+    "matematica": 6,
+    "fisica": 5,
+    "quimica": 5
+   }
+  },
+  {
+   "id": "unicamp-2026-2-cha",
+   "vestibular": "unicamp",
+   "ano": 2026,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2026 – 2ª fase (2º dia: Ciências Humanas e Artes)",
+   "caderno": "2º dia: Ciências Humanas e Artes",
+   "fonte": {
+    "caderno": "2fase-dia2-cha-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-cha-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2026-2-cha.json",
+   "total": 15,
+   "validas": 15,
+   "com_resposta": 15,
+   "materias": {
+    "matematica": 3,
+    "sociologia": 1,
+    "filosofia": 1,
+    "historia": 5,
+    "geografia": 5
+   }
+  },
+  {
+   "id": "unicamp-2026-2-d1",
+   "vestibular": "unicamp",
+   "ano": 2026,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2026 – 2ª fase (1º dia: Português, Literatura e questões interdisciplinares)",
+   "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+   "fonte": {
+    "caderno": "2fase-dia1-red-port-ing-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia1-port-ing-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2026-2-d1.json",
+   "total": 10,
+   "validas": 10,
+   "com_resposta": 10,
+   "materias": {
+    "portugues": 4,
+    "literatura": 2,
+    "ingles": 2,
+    "biologia": 1,
+    "quimica": 1
+   }
   }
  ],
  "formatos": {

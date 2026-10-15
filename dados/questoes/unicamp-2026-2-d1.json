@@ -1,0 +1,248 @@
+{
+ "edicao": {
+  "id": "unicamp-2026-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2026 – 2ª fase (1º dia: Português, Literatura e questões interdisciplinares)",
+  "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+  "fonte": {
+   "caderno": "2fase-dia1-red-port-ing-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-dia1-port-ing-respostas.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2026-2-d1-q01",
+   "numero": 1,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia o texto “A língua do Cafundó” e analise os exemplos para responder aos itens (a) e (b).\n\n**A língua do Cafundó**\n\nA cupópia é uma variedade linguística usada na comunidade quilombola do Cafundó, situada em Salto de Pirapora, a cerca de 150 km de São Paulo. O seu léxico tem em torno de 160 palavras, a maioria de origem africana. Essa variedade, que surgiu provavelmente no período da escravidão, funciona como um código secreto intragrupal para marcar distância entre os seus falantes e as pessoas que não entendem esse código.\n\n(Síntese e adaptação de JON-AND, A.; ÁLVAREZ-LÓPEZ, L. A cupópia do Cafundó: uma análise morfossintática. *Revista de Estudos da Linguagem*, 26, 2018, p. 73-101.)\n\n**Palavras simples na cupópia**\n\n*andaru*: fogo\n*avero*: leite\n*cambererá*: carne\n*injequê*: saco\n*nanga*: roupa\n*ngombe*: boi\n*obiquanga*: tijolo\n*pepa*: farinha\n*vava*: água\n*visó*: olho\n\n**Palavras compostas na cupópia**\n\n*cambererá do vava*: peixe\n*injequê do andaru*: panela\n*injequê do vava*: nuvem\n*nanga do visó*: óculos\n*ngombe de andaru*: carro\n*obiquanga de avero*: queijo\n*obiquanga do pepa*: pão\n\n**Frases na cupópia**\n\n*Curimei vavuro.*\nTrabalhei muito.\n\n*Ele foi cuendar orofim lá no sengue.*\nEle foi pegar lenha lá no mato.\n\n*O vimbundo está cupopiando.*\nO homem preto está falando.\n\n*O cafombe cuendou da ambara.*\nO homem branco veio da cidade.\n\n*Ele cuendou no ngombe de andaru.*\nEle foi embora no carro.\n\n*O cumbe já estava cuendando.*\nO sol já estava se pondo.\n\n(Exemplos adaptados de VOGT, C.; FRY, P. As formas de expressão na “língua” africana do Cafundó. *Ciência e Cultura*, 57. 2005. p. 39-42.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Descreva e exemplifique o mecanismo linguístico que permite expandir o vocabulário da cupópia e mantê-la como um código secreto intragrupal.",
+     "resposta_oficial": "Considerando os exemplos apresentados na questão, o mecanismo linguístico que permite expandir o léxico da cupópia é a formação de substantivos compostos a partir de substantivos simples. A partir de formas como *ngombe* (boi) e *andaru* (fogo), entre outros itens, é possível compor palavras como *ngombe de andaru* (carro), cujo sentido literal é *boi de fogo*. Esse processo contribui para manter a língua do Cafundó como um código secreto intragrupal, pois o significado da forma composta resulta de uma expressão figurada/metafórica, o que dificulta a imediata compreensão do seu exato sentido mesmo quando conhecemos o valor semântico isolado de cada palavra."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Identifique e exemplifique duas características gramaticais do português presentes nas frases da cupópia. Dê a sua resposta na tabela.\n\n*Campo de resolução:*\n\n| Características gramaticais do português presentes na cupópia | Exemplos |\n|---|---|\n| 1) |  |\n| 2) |  |",
+     "resposta_oficial": "Algumas das características gramaticais do português presentes na cupópia estão listadas na tabela a seguir.\n\n|  |  |\n|---|---|\n| Flexão verbal no pretérito perfeito do indicativo | “curim<u>ei</u>”, “cuend<u>ou</u>” |\n| Locução verbal com “ir” | “<u>foi</u> cuendar” |\n| Locução verbal com “estar” | “<u>está</u> cupopiando” |\n| Marca de gerúndio | “cupopi<u>ando</u>” |\n| Marca de infinitivo | “cuend<u>ar</u>” |\n| Uso de artigo definido “o” | “<u>o</u> vimbundo” |\n| Ordem dos termos na oração (por exemplo: Sujeito-Verbo-Complemento) | “Ele foi cuendar orofim” |\n| Uso da preposição “em” com valor locativo | “lá <u>no</u> sengue” |\n| Emprego do pronome pessoal | “<u>Ele</u> foi cuendar” |"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q02",
+   "numero": 2,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia os textos 1 e 2 para responder os itens (a) e (b).\n\n**Texto 1**\n\n![Tirinha de May Solimar em oito quadrinhos. Uma mulher de blusa amarela ouve passos de salto alto, abraça o próprio braço, olha preocupada para o lado e vê, ao fundo, um vulto que se aproxima; depois, os olhares das duas mulheres se encontram. No sexto quadrinho, um balão de pensamento diz: “Nossa, ainda bem. É uma mulher.”; no sétimo, uma legenda diz: “Aquele alívio de ver uma mulher que só outra mulher entende.” No último quadro, os créditos: Arte e Roteiro: May Solimar, @may.solimar; Apoio: Revista Brasil Já, @revistabrasilja.](fig:p08-c1)\n\n(Postagem de May Solimar em seu perfil no Instagram, publicada em 121/11/2024.)\n\n**Texto 2**\n\n**Ginecropolítica**\n\nMargaret Atwood, autora do memorável *O conto da aia*, certa vez perguntou a um amigo o que os homens temiam nas mulheres. Como resposta, ouviu que os homens tinham medo de que as mulheres rissem deles. Ao perguntar a um grupo de mulheres o que elas temiam nos homens, ouviu que elas tinham medo de serem mortas por eles.\n\n(TIBURI, M. *Ginecropolítica*. Disponível em https://revistacult.uol.com.br/home/ginecropolitica/. Acesso em 31/07/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Do ponto de vista das personagens retratadas, o texto 1 se divide em dois momentos. Quais são eles? Que recursos verbais e não verbais são explorados para demarcá-los?",
+     "resposta_oficial": "Do ponto de vista das personagens retratadas, o texto 1 se divide nos seguintes momentos: do primeiro ao quinto quadrinho, em que uma figura feminina mostra apreensão e temor diante da aproximação de uma outra figura; e do sexto ao oitavo quadrinho, em que a referida figura feminina se mostra aliviada diante da descoberta de que a figura que se aproximava também era uma mulher (que, por sua vez, também estava apreensiva e temerosa com a aproximação). Nos quadrinhos referentes ao primeiro momento, vemos a utilização de recursos não verbais para caracterizar a situação, como a postura corporal da mulher (com o braço à frente do peito, sinalizando uma tentativa de autoproteção, no segundo quadrinho) e o seu olhar preocupado (segundo e terceiro quadrinhos), bem como a figura que se aproxima sendo representada como um vulto, sem marcas que permitam determinar a sua identificação (quarto e quinto quadrinhos). No segundo momento, vemos, como recursos não verbais, os olhares que sugerem o reconhecimento da outra figura (sexto quadrinho) e o semblante com sinais de alívio por parte das duas mulheres (sétimo e oitavo quadrinhos), além uma postura corporal mais relaxada, como resultado desse alívio; entre os recursos verbais, temos a frase interna ao balão que reproduz o pensamento de ambas, com marcas interjetivas que indicam alívio – “Nossa, ainda bem. É uma mulher.” –, bem como a frase do último quadrinho, que resume a situação vivenciada pelas duas personagens – “Aquele alívio de ver uma mulher que só outra mulher entende”."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique a formação e o sentido de *ginecropolítica*, que intitula o texto 2. Que relação essa palavra estabelece com o conteúdo dos dois textos?",
+     "resposta_oficial": "A palavra é formada pela junção do elemento/radical *necro-* (morte) à palavra “política”, seguida da junção do elemento/radical *gine-* (mulher) à palavra *necropolítica*. Considerando o significado das partes, a palavra formada – *ginecropolítica* – remete a um conjunto de políticas, estruturas e atitudes que promovem a violência contra mulheres, expondo-as a situações de sofrimento emocional e físico, incluindo sua morte. A palavra se relaciona com os textos 1 e 2 porque ambos abordam o medo que as mulheres têm de serem vítimas da violência masculina e morrerem em razão dessa violência."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q03",
+   "numero": 3,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia o excerto a seguir para responder aos itens (a) e (b).\n\n“Penetramos na sala contígua, onde parei um bocado, a ver os retratos de família. O Mestre não rompera com a tradição, que os quer na sala de visitas. Aí os tinha, e não no seu gabinete de trabalho. Havia uma galeria de mais de seis veneráveis retratos de homens de outros tempos, agaloados\\*, uns, e cheios de veneras\\*\\*, todos; e de algumas senhoras. Sem bigodes, de barba em colar, com um olhar imperioso e sobrecenho carregado, um deles me pareceu que ia erguer o braço de sob a moldura dourada, para sublinhar uma ordem que me dizia respeito. Cri que ia ordenar: *metam-lhe o bacalhau*\\*\\*\\*.”\n\n\\* agaloado = que tem a farda guarnecida de galões, distintivos dourados nos ombros.\n\\*\\* venera = medalha\n\\*\\*\\* bacalhau = chicote, açoite\n\n(BARRETO, L. *Vida e morte de M. J. Gonzaga de Sá*. São Paulo: Edição da Revista do Brasil, 1919, p. 95.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A partir desse excerto e da leitura da obra, indique a origem social de Gonzaga de Sá e de Augusto Machado. Justifique sua resposta com base no excerto.",
+     "resposta_oficial": null
+    },
+    {
+     "rotulo": "b",
+     "texto": "Que percepção cada personagem exprime em relação ao passado ou ao futuro do Brasil? Recupere dois episódios do romance que fundamentem sua resposta, sendo um para cada personagem.",
+     "resposta_oficial": null
+    }
+   ],
+   "resposta_oficial": "No item A, espera-se que o candidato identifique a diferença nas origens sociais dos personagens Gonzaga de Sá e Augusto Machado. O primeiro pertence a uma linhagem aristocrática decadente, descendendo do fundador da cidade do Rio de Janeiro e de militares condecorados, como é possível depreender dos retratos dos antepassados nas paredes de sua casa; no caso de Augusto Machado, é um personagem afrodescendente, cujos familiares eram antigos escravizados, como se vê na identificação com aqueles que recebiam os açoites, ao observar os quadros da família de Gonzaga de Sá.\n\nNo item B, mais uma vez, espera-se que os candidatos percebam a diferença na maneira como cada personagem se relaciona ao passado ou ao futuro do Brasil (não necessariamente aos dois). É preciso que identifiquem que Gonzaga de Sá tem apego ao passado e um olhar conciliador em relação ao futuro do país; Augusto Machado, por sua vez, lembra as injustiças sofridas, é desencantado e pessimista quanto às oportunidades de melhoria. Para obter a pontuação total da questão, é necessário ainda que os candidatos recontem um episódio do romance para cada personagem, no qual fique evidente essa percepção em relação ao futuro ou ao passado.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q04",
+   "numero": 4,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia os textos 1 e 2 para responder aos itens (a) e (b).\n\n**Texto 1**\n\n“Conceição Evaristo, no artigo *Literatura negra: uma poética de nossa afro-brasilidade*, pensa sobre sua própria escrita e afirma que há uma “presença de uma vertente negra feminina” na literatura afro-brasileira. Como escritora, Evaristo também propõe que não se desvencilha de um “corpo-mulher-negra em vivência” e que por ser esse “o meu corpo, e não outro”, viveu e vive experiências que um corpo não negro, não mulher, jamais experimentaria.”\n\n(EVARISTO, C. Literatura negra: uma poética de nossa afro-brasilidade. *Scripta*, Belo Horizonte, v. 13, n. 25, 2º sem. 2009, p. 17-31.)\n\n**Texto 2**\n\n“[...] De repente, naquele minúsculo espaço, coube o mundo. Ana Davenga reconhecera a batida. Ela não havia confundido a senha. O toque prenúncio de samba ou de macumba estava a dizer que tudo estava bem. [...] Davenga não estava ali. Os homens rodearam Ana com cuidado, e as mulheres também. Era preciso cuidado. Davenga era bom. Tinha um coração de Deus, mas, invocado, era o próprio diabo. Todos haviam aprendido a olhar Ana Davenga. Olhavam a mulher buscando não perceber a vida e as delícias que explodiam por todo o seu corpo.”\n\n(EVARISTO, C. Ana Davenga. *Olhos D’água*. Rio de Janeiro: Pallas; Fundação Biblioteca Nacional, 2016, p. 21-22.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A partir da leitura do texto 1, identifique e reconte <u>dois</u> episódios de vivência do “corpo-mulher-negra”, no conto “Ana Davenga”.",
+     "resposta_oficial": "No item A, os candidatos deveriam recontar dois episódios do conto “Ana Davenga” nos quais a vivência do “corpo-mulher-negra”, definido por Conceição Evaristo no texto I do enunciado como situações que marcam e tornam particulares as experiências de mulheres negras, fique evidente. Os episódios deveriam tratar concretamente do enredo do conto, não apenas fazer referências genéricas a temas presentes na narrativa."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere o conceito de “corpo-mulher-negra em vivência”, apresentado no texto 1. Com base nisso, identifique os dois pontos de vista adotados pelo narrador no texto 2. Justifique sua resposta com base no excerto do conto.",
+     "resposta_oficial": "No item B, os candidatos deveriam mobilizar um conceito fundamental, o ponto de vista do narrador, para localizar que, no excerto, há dois pontos de vista, um interior, que se aproxima de Ana Davenga, e um olhar exterior, que observa “de fora” Ana Davenga, o dos homens e mulheres que a rodeiam. Além disso, o candidato deveria escolher adequadamente, no conjunto do enunciado, a citação a ser mobilizada, a partir de cada um dos pontos de vista."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q05",
+   "numero": 5,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia os excertos a seguir para responder aos itens (a) e (b).\n\nI) Banzeiro é como o povo do Xingu chama o território de brabeza do rio. É onde com sorte se pode passar, com azar não. É um lugar de perigo entre o de onde se veio e o aonde se quer chegar. Quem rema espera o banzeiro recolher suas garras ou amainar. E silencia porque o barco pode ser virado ou puxado para baixo de repente. Silencia para não acordar a raiva do rio. Não há sinônimos para banzeiro. Nem tradução. Banzeiro é aquele que é. E só é onde é.\n\n(Adaptado de BRUM, E. Onde começa um círculo. *El País*. 05 nov. 2021.)\n\nII) “Banzeiro” é um termo regionalizado que se utiliza para destacar ou descrever quando o rio se movimenta e causa ondulações na água.\n\n(Adaptado de OLIVEIRA, D. Portal Amazônia responde: o que são os banzeiros? *Portal Amazônia*. 15 jul. 2022.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O excerto I usa a personificação para atribuir características humanas ao fenômeno do “banzeiro”. Identifique duas dessas características e justifique como elas contribuem para personificar o rio.",
+     "resposta_oficial": "No excerto I, o banzeiro é personificado ao receber características humanas como sentir/expressar “brabeza\" e demonstrar “raiva”. Ao atribuir ao fenômeno natural do rio uma espécie de agressividade e imprevisibilidade, por meio desses sentimentos humanos, o excerto sugere um estado emocional atribuído ao território, criando o sentido de que o banzeiro reage às ações humanas, exigindo silêncio e respeito. Adicionalmente, pelo recurso à imagem das “garras”, reforça-se o perigo físico real que ameaça as pessoas que atravessam o rio sem esperar que ele as recolha (ou que ele amaine), como se o rio tivesse capacidade de atacar ou capturar quem atravessa suas águas. Essas personificações contribuem para forjar o clima de tensão, temor e reverência que envolve a travessia, construindo o rio como uma força viva e poderosa, diante da qual se deve cautela."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O excerto I e o excerto II definem “banzeiro” de formas diferentes. Considerando o objetivo de cada texto, argumente por que a definição do excerto II é mais adequada para o gênero notícia jornalística.",
+     "resposta_oficial": "O excerto I, de caráter literário e reflexivo, busca exprimir uma experiência sensível e culturalmente situada, enfatizando o banzeiro como um fenômeno singular e intraduzível, ligado ao modo de vida e à percepção do povo do Xingu. Já o excerto II, voltado ao jornalismo informativo, precisa oferecer ao leitor uma definição objetiva e amplamente compreensível. Por isso, apresenta uma explicação descritiva e denotativa do fenômeno (“movimentação do rio que causa ondulações”), adequada ao propósito de informar de forma acessível, sem ambiguidades. Dessa forma, a definição do excerto II cumpre melhor a função jornalística de esclarecer rapidamente o significado do termo para um público amplo."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q06",
+   "numero": 6,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia o excerto a seguir e responda ao que se pede:\n\nPatrícia Xavier nasceu em 1984, na periferia Sul de São Paulo, onde ela ainda vive. É uma mulher negra, mãe solo de três filhos e empreendedora: faz bolos e doces para festas, dá aulas online de confeitaria, participa de feiras para promover seu trabalho e se conectar com outras mulheres empreendedoras. Sua vida é um incessante “corre” – uma palavra que, como poucas, fornece uma chave de acesso ao cotidiano da maioria dos brasileiros. Para tantos de nós, vida e corre se confundem. Corre e sonho também costumam andar juntos.\n\n(Adaptado de BORTOLUCI, J. H. Geração Democracia: Parte I_A promessa e o corre. *Piauí*. mai. 2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No texto, que sinal de pontuação é usado para introduzir uma sequência de orações que caracterizam o empreendedorismo da personagem? Qual a relação de sentido que esse uso estabelece entre as duas partes do período?",
+     "resposta_oficial": "O sinal de pontuação utilizado para introduzir a sequência de orações é os dois-pontos (:). Esse recurso estabelece uma relação de sentido de especificação e detalhamento entre as partes do período: os dois-pontos anunciam a lista de ações que justificam por que Patrícia Xavier é caracterizada como empreendedora. Dessa forma, o período anterior aos dois-pontos apresenta a informação central (“é empreendedora”) e o período posterior explicita os motivos e exemplos concretos que sustentam essa afirmação."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique como a escolha sintática de orações coordenadas contribui para a construção do sentido da palavra “corre” empregada pelo autor no texto.",
+     "resposta_oficial": "A justaposição das orações, organizadas como uma lista rápida de atividades, ações e responsabilidades, contribui para construir o sentido de “corre” como uma dinâmica rápida e intensa, múltipla e contínua. A ausência de conjunções entre as orações exprime a sensação de fluxo acelerado e acúmulo de tarefas, reforçando a ideia de ritmo frenético próprio do cotidiano de quem vive entre trabalho, cuidado familiar e busca de renda. Desse modo, a estrutura sintática reproduz, na forma, o significado de “corre” no texto: uma sucessão de ações que se encadeiam sem pausa, compondo o modo de vida de muitos brasileiros."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q07",
+   "numero": 7,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia os textos a seguir e responda, <u>em português</u>, às perguntas.\n\n**Texto 1**\n\n“The following case study illustrates how Artificial Intelligence algorithms have impacted people’s lives.\n\n**Case:** In 2020, due to Covid-19, the UK Education Ministry decided to standardize students’ final grades through a computerized system instead of relying solely on teacher-assessed grades.\n**Tool:** Teachers were asked to rank students within each subject based on the estimated grades supplied by those same teachers. Then, an algorithm assigned students’ final grades by looking at student rankings, among other criteria.\n**Consequences:** Thousands of pupils received grades lower than they had anticipated and the whole issue turned into a public scandal.\n**Reasons:** Government officials argued that basing grades on teacher estimates alone would damage the credibility of that year’s results compared to previous years’ results.”\n\n(PONCE DEL CASTILLO, A. (ed.). *Artificial intelligence, labour and society*. Bruxelas: ETUI, 2024, p. 14-15.)\n\n**Texto 2**\n\n*Technochauvinism* is a kind of bias that considers computational solutions superior to all others. It follows the misleading notion that “computers make neutral decisions because they are based on math”. But mathematical fairness and social fairness are different systems of logic, and computers can only calculate the former.\n\n(Adaptado de BROUSSARD, M. *More than a glitch*: confronting race, gender and ability bias in tech. Cambridge, Massachusetts: The MIT Press, 2023, p. 5-6).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Indique, no quadro no campo de respostas, um agente humano e o agente não humano envolvidos no texto 1. Descreva as ações desempenhadas por eles.\n\n*Campo de resolução:*\n\n| AGENTE HUMANO | AÇÕES |\n|---|---|\n|  |  |\n| **AGENTE NÃO HUMANO** | **AÇÕES** |\n|  |  |",
+     "resposta_oficial": "| AGENTE HUMANO | AÇÕES |\n|---|---|\n| professores | Tiveram que ranquear os estudantes no âmbito de cada disciplina com base em notas que eles mesmos estimaram. |\n| **AGENTE NÃO HUMANO** | **AÇÕES** |\n| algoritmo | Atribuiu notas finais dos estudantes a partir do ranqueamento dos estudantes, entre outros critérios. |"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A partir do texto 2, descreva o conceito de *tecnochauvinismo*. Em seguida, justifique por que o argumento apresentado pelas autoridades governamentais no texto 1 pode ser considerado um exemplo desse conceito.",
+     "resposta_oficial": "Segundo o texto 2, tecnochauvinismo é o olhar enviesado que considera soluções computacionais superiores a todas as outras. Essa noção segue a ideia de que computadores tomam decisões neutras porque essas são baseadas em matemática. A partir dessa conceituação, pode-se dizer que o argumento apresentado pelas autoridades no texto 1 é um exemplo de tecnochauvinismo, pois os agentes governamentais privilegiaram o algoritmo em detrimento do professor por acreditarem que avaliar os alunos apenas com base nas notas do professor prejudicaria a credibilidade dos resultados. Evidencia-se, portanto, a crença na noção de que o computador/algoritmo é superior ao humano."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q08",
+   "numero": 8,
+   "materia": "ingles",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Leia os textos a seguir e responda, <u>em português</u>, às perguntas.\n\n![Fotografia de Tamara Klink, de perfil, usando agasalho preto com detalhes amarelos, em uma paisagem coberta de neve.](fig:p14-f2)\n\nTamara Klink is a 28-year-old Brazilian sailor who, on her own, crossed the North Atlantic and spent 8 months in the Arctic ice. She sailed aboard her ten-meter sailboat “Sardinha 2”, towards Greenland.\n\n**Texto 1**\n\nThis is the boat that allowed me to go beyond death. She made me feel miserable for knowing so little and yet taught me to embrace the freedom of being a beginner.\n\n(Adaptado de https://www.unesco.org/en/articles/tamara-klinks-journey-arctic-landscapes-im-seeing-now-could-disappear-next-10-years. Acesso em 23/07/2025.)\n\n**Texto 2**\n\nA simple promenade can become dangerous if a bear appears, if I misread the sea ice. But I also find immense freedom as I am the sole artist and listener, people and prefect of my little floating city. I am aware my life is vulnerable. I have a lot to learn, but as I finish this text, I have the feeling that I couldn’t be happier.\n\n(Adaptado de https://www.un-glaciers.org/zh/articles/tamara-klinks-journey-arctic-one-and-all. Acesso em 23/07/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere que veleiros como o “Sardinha 2” possuem, aproximadamente, uma massa de 600 kg para cada metro do seu comprimento. Dessa forma, utilizando os dados do texto, calcule o módulo do empuxo ($E$) necessário para manter o veleiro flutuando na superfície do mar. Dado: $g = 10\\ \\text{m/s}^2$",
+     "resposta_oficial": "Para o barco flutuar, o empuxo deve ter o mesmo módulo que a força peso, isto é, $E = P$.\n\nDado $M = 600\\ \\text{kg/L}\\ 10\\ \\text{m} = 6000\\ \\text{kg}$.\n\n$E = P = Mg = 6000\\ \\text{kg} \\cdot 10\\ \\text{m/s}^2 = 60000\\ \\text{kg} \\cdot \\text{m/s}^2 = 6\\ \\text{x}\\ 10^4\\ \\text{N}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Descreva os dois lados do vínculo existente entre a autora e o barco no texto 1. Em seguida, descreva, de acordo com o texto 2, a metáfora usada pela autora para se referir ao barco.",
+     "resposta_oficial": "No texto 1, a autora expressa seu vínculo com o barco a partir de dois vieses: o da vulnerabilidade, evidenciado quando ela afirma que o barco a fez se sentir mal ou infeliz por saber tão pouco; e o da liberdade, que está presente quando ela aponta que o barco a ensinou a acolher a liberdade de ser uma aprendiz. No texto 2, a autora se refere ao barco por meio de uma metáfora: uma “pequena cidade flutuante”. É nesse espaço que ela vivencia a imensa liberdade de ser, ao mesmo tempo, a única artista e a única ouvinte, bem como a prefeita e a população dessa “cidade”."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q09",
+   "numero": 9,
+   "materia": "biologia",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "Para prever, regular e compreender os riscos que os produtos farmacêuticos representam para o meio ambiente, é importante determinar seu destino e abundância após sua entrada nesse local. Eles são introduzidos principalmente por meio do descarte de efluentes de estações de tratamento de águas residuais municipais e/ou efluentes hospitalares.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique duas possíveis formas de degradação que os produtos farmacêuticos podem sofrer no ambiente que reduzem sua concentração ou promovem sua eliminação, evitando, assim, que estejam presentes na água tratada para consumo humano ou nas águas subterrâneas, onde poderiam ser absorvidos por organismos.",
+     "resposta_oficial": "Exemplos de redução da concentração ou a eliminação dos produtos farmacêuticos no ambiente:\n\n1. <u>fotodecomposição</u> (fotólise) – degradação da molécula da substância pela absorção da radiação ultravioleta (luz solar);\n2. <u>degradação térmica</u> – a molécula da substância se decompõe por ação direta da temperatura (calor);\n3. <u>oxidação</u> – a molécula da substância reage com oxigênio ou ozônio dissolvido na água;\n4. <u>biodegradação</u> – envolve microrganismos, ou mesmo plantas que metabolizam a substância;\n5. <u>hidrólise</u> – a molécula da substância reage com a água, sendo o processo influenciado por parâmetros como temperatura, pH, íons metálicos etc.;\n6. <u>adsorção</u> – a molécula da sustância adsorve em estruturas como lodos argilosos, ou matéria orgânica pertencentes ao meio.\n\n*Observação: O item pede apenas dois exemplos.*"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Comprovou-se que a contaminação das águas por clobazam, um fármaco ansiolítico, influencia o comportamento e a migração de salmões-do-atlântico juvenis (*Salmo salar*) do Rio Dal, na Suécia, ao Mar Báltico, em um trecho de aproximadamente 28 km: “Os salmões expostos ao clobazam tiveram maior probabilidade de completar sua migração para o mar e passaram por barreiras artificiais, como represas hidrelétricas, mais rapidamente que os peixes que não foram expostos ao fármaco”, segundo evidências do estudo de J.A. Brand e colaboradores. Considerando o relato desse estudo, do ponto de vista ambiental, cite e explique um aspecto positivo para a população de salmões-do-atlântico e um aspecto negativo para o ecossistema.\n\n(Adaptado de BRAND, J.A. e colaboradores. Pharmaceutical pollution influences river-to-sea migration in Atlantic salmon (Salmo salar). *Science*, vol. 388, abr. 2025, p. 217-222.)",
+     "resposta_oficial": "Um possível aspecto positivo para a população de salmões é o crescimento populacional, pois um maior número de indivíduos juvenis chega ao mar, completando seu desenvolvimento e assim maiores chances de haver mais indivíduos adultos para reprodução.\n\nUm possível aspecto negativo para o ecossistema é que a passagem mais rápida e a maior quantidade nos diversos ambientes onde o salmão faz parte de teias alimentares, pode alterar a dinâmica e o equilíbrio ecológico de outras populações."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2026-2-d1-q10",
+   "numero": 10,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "A capacidade de ler e compreender as informações apresentadas nos rótulos de alimentos e bebidas é fundamental para que o cidadão possa fazer suas escolhas alimentares com autonomia e consciência. Nesse sentido, considere os textos 1 e 2:\n\n**Texto 1**\n\n“Em um frasco de maionese pode estar lá ‘*alto em gorduras saturadas*’, mas é importante que o consumidor saiba que esse ‘*alto em*’ é naquela medida de 100 g, ou no volume líquido de 100 mL. Gente, uma colher de sopa de maionese tem 12 g, então para a gente chegar nesse ‘*alto em*’, a gente teria que consumir oito colheres de sopa (diárias) de maionese”, disse uma influenciadora que tem quase um milhão de seguidores.\n\n(Adaptado de https://ojoioeotrigo.com.br/politica-de-republicacao. Acesso em 17/07/2025.)\n\n**Texto 2**\n\n“As empresas de alimentos criam um ambiente que estimula o consumo excessivo de comida, por meio de publicidade, *marketing* indireto, brindes, redes sociais [...]. A indústria de alimentos adotou métodos da indústria tabagista, semeando dúvidas sobre pesquisas e recrutando influenciadores”, disse nutricionista e autoridade em política alimentar nos EUA.\n\n(Adaptado de https://www.bbc.com/portuguese/articles/cwy6zv15yxzo. Acesso em 17/07/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No texto 1, consta a informação de que a maionese é um produto considerado “alto em gorduras saturadas”. Explique o que é gordura saturada e insaturada, apresentando em sua resposta uma estrutura molecular genérica para cada uma dessas gorduras, de modo a diferenciá-las do ponto de vista químico.",
+     "resposta_oficial": "A gordura é um glicerídeo (éster) formado pela esterificação de um glicerol por três ácidos orgânicos de cadeias carbônicas longas (ácidos graxos). Essas cadeias carbônicas podem ter seus átomos de carbono ligados apenas por ligações simples (C-C) (<u>gorduras saturadas</u>) ou ter uma ou mais ligações duplas (C=C) ou mesmo ligações triplas (<u>gorduras insaturadas</u>), mas que são pouco comuns.\n\n![Estruturas moleculares de dois triglicerídeos: à esquerda, glicerol esterificado por três ácidos graxos de cadeia saturada, só com ligações simples; à direita, glicerol esterificado por três ácidos graxos, dois deles com uma ou mais ligações duplas carbono-carbono.](fig:r05-c1)\n\n(Adaptado de *CH105: Chapter 8 - Alkenes, Alkynes and Aromatic Compounds - Chemistry*. Acesso em 07/12/2025.)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Enquanto o texto 1 sugere um determinado raciocínio, o texto 2 nos alerta para uma a necessidade de fazermos uma reflexão crítica sobre as informações que nos chegam diariamente. A partir disso, explique por que a interpretação do ‘*alto em*’ apresentada no texto 1 é preocupante e imprecisa para quem busca uma alimentação saudável e balanceada. E, do ponto de vista de uma alimentação saudável e balanceada, exemplifique duas funções da gordura no organismo.",
+     "resposta_oficial": "O comentário do texto 1 é preocupante e impreciso, pois afirma que a advertência do rótulo somente seria válida se houvesse o consumo de grandes quantidades do produto de uma só vez, além do que a influenciadora não leva em conta que as pessoas podem consumir outros produtos somando-se às suas dietas. Esse é apenas um ponto, o outro é que, no comentário, a influenciadora interpreta o “alto em”, que diz respeito à <u>concentração de gordura</u> na maionese, como uma <u>quantidade limite</u>, o que pode induzir o consumidor a uma decisão alimentar prejudicial à sua saúde. Por outro lado, o texto 2, alerta exatamente sobre informações erradas ou intencionalmente patrocinadas, prejudiciais, que podem influenciar negativamente as tomadas de decisão.\n\nEm uma alimentação saudável e balanceada, as gorduras podem ser utilizadas como fonte de energia, como base para síntese de membranas celulares e de hormônios esteroides e como proteção de órgãos, como isolante térmico, por exemplo."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  }
+ ]
+}
