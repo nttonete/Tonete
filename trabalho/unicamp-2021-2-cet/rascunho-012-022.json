@@ -1,0 +1,132 @@
+{
+ "edicao": "unicamp-2021-2-cet",
+ "intervalo": [
+  12,
+  22
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O rio Amazonas tem a maior vazão $Z$ dentre todos os rios do planeta: $Z \\approx 2{,}1 \\times 10^{5}\\ \\text{m}^3/\\text{s}$. Encontre a velocidade da água em um trecho do rio Amazonas que tem uma largura $L = 10\\ \\text{km}$ e uma profundidade $p = 50\\ \\text{m}$. Observe que o volume de água que atravessa a secção reta do rio num determinado ponto durante um intervalo de tempo $\\Delta t$ é dado por $L \\times p \\times \\Delta x$, sendo $\\Delta x$ a distância que a água percorre durante $\\Delta t$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cada turbina da Usina Hidrelétrica de Tucuruí, no rio Tocantins, recebe um volume de água $V \\approx 900\\ \\text{m}^3$ em um intervalo de tempo $\\Delta t = 1{,}0\\ \\text{s}$. Considerando uma queda d’água do reservatório até a turbina de altura $h = 70\\ \\text{m}$, que potência é transferida à turbina proveniente da energia potencial gravitacional da água no reservatório?\n\nDensidade da água: $\\rho_{\\text{água}} = 1000\\ \\text{kg/m}^3$."
+    }
+   ],
+   "observacoes": "No caderno a questão 12 não tem texto de abertura (só o número e os itens), por isso o enunciado está vazio. A frase “Densidade da água” vem impressa depois do item b e foi colocada no fim do texto do item b, único que usa o dado."
+  },
+  {
+   "numero": 13,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Recentemente, um foguete da empresa americana SpaceX foi lançado na Flórida (EUA), levando dois astronautas à Estação Espacial Internacional (ISS). Este foi o primeiro lançamento tripulado dos EUA em nove anos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A eficiência dos motores de foguetes é representada pelo impulso específico $I_{SP}$, que é medido em segundos. A intensidade da força obtida pelo motor do foguete é dada por $F_M = I_{SP}\\, g\\, \\frac{\\Delta m}{\\Delta t}$, em que $\\frac{\\Delta m}{\\Delta t}$ é a massa de combustível expelida por unidade de tempo e $g$ é a aceleração da gravidade. Considere um foguete de massa total $M_F = 6{,}0 \\times 10^{5}\\ \\text{kg}$ durante o início do seu lançamento da superfície da Terra. Sabendo que o foguete atinge a iminência do seu movimento vertical quando $\\frac{\\Delta m}{\\Delta t} = 2{,}0 \\times 10^{3}\\ \\text{kg/s}$, calcule o $I_{SP}$ desse foguete. Despreze a variação da massa total do foguete durante o início do lançamento."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Usando um princípio físico similar ao do lançamento de um foguete, um menino deseja mover-se sobre um *skate* lançando uma bola que ele segura nas mãos. O conjunto menino+*skate*+bola encontra-se inicialmente em repouso sobre uma superfície plana e horizontal. O menino lança a bola de massa $m_b = 0{,}4\\ \\text{kg}$ com uma velocidade de módulo $v_b = 5\\ \\text{m/s}$ na direção horizontal e frontal do *skate*. Sabendo que a massa do conjunto menino+*skate* (excluindo a bola) é $m_s = 50\\ \\text{kg}$, calcule o módulo da velocidade de recuo do conjunto menino+*skate* imediatamente após o lançamento da bola. Despreze qualquer força resultante externa agindo no conjunto menino+*skate*+bola."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 14,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A estudante gaúcha Juliana Estradioto, uma das vencedoras da 5ª edição do Prêmio Donna, ganhou reconhecimento internacional e convite para acompanhar a cerimônia do prêmio Nobel (2020) pelo seu trabalho, em que transformou casca de macadâmia em plástico biodegradável. Os materiais plásticos tradicionais são bastante utilizados por sua leveza, plasticidade e maleabilidade, mas trazem um impacto significativo ao meio ambiente pela sua lenta decomposição na natureza.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Os materiais podem sofrer deformações em resposta a vários agentes, como, por exemplo, os mecânicos e os térmicos. Considere uma barra plástica de comprimento $L_0 = 50\\ \\text{cm}$ no momento em que sua temperatura é igual a $T_0 = 20\\ ^\\circ\\text{C}$. Calcule o novo comprimento da barra quando ela for aquecida a uma temperatura $T = 50\\ ^\\circ\\text{C}$. O coeficiente de dilatação térmica da barra é $\\alpha = 7{,}0 \\times 10^{-5}\\ ^\\circ\\text{C}^{-1}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "No regime de deformações elásticas, os materiais se deformam de forma análoga a uma mola, recuperando sua forma original quando o agente externo é removido. Considere uma barra de material plástico que é esticada elasticamente, sofrendo uma deformação $\\Delta x = 0{,}2\\ \\text{cm}$ em relação ao seu comprimento de equilíbrio. Calcule a energia potencial elástica acumulada na barra, considerando-a como uma mola de constante elástica $k = 8{,}0 \\times 10^{3}\\ \\text{N/m}$ que sofra a mesma deformação a partir da sua posição relaxada."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 15,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Espelhos inteligentes simulam espelhos convencionais e visam a ampliar sua função de produção de imagens dos objetos. Acoplados a computadores, esses equipamentos apresentam telas com muitas funcionalidades, tais como um modo de realidade ampliada, em que o usuário consegue alterar o tamanho, a orientação e a iluminação da sua própria imagem.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere uma pessoa a uma distância $d_p = 50\\ \\text{cm}$ de um espelho plano convencional que segura um pequeno objeto no nível dos seus olhos a uma distância $d_o = 10\\ \\text{cm}$ do espelho. Faça um desenho esquemático que mostre a posição dos olhos da pessoa, do espelho, do objeto e da sua imagem, e determine a distância entre os olhos da pessoa e a posição da imagem do objeto produzida pelo espelho."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Nas antigas telas de tubos de raios catódicos, as imagens são formadas por elétrons acelerados e defletidos que atingem uma tela composta por um material que emite luz. Uma partícula de carga $q$, na presença de um campo elétrico uniforme $\\vec{E}_0$ de módulo constante, adquire uma aceleração $\\vec{a}_0$ de módulo constante na mesma direção de $\\vec{E}_0$, cujo sentido depende do sinal de $q$. Calcule o módulo de $\\vec{a}_0$ adquirido por uma partícula com carga $q = 3{,}2 \\times 10^{-19}\\ \\text{C}$ e massa $m = 2{,}0 \\times 10^{-26}\\ \\text{kg}$ quando $E_0 = 4000\\ \\text{N/C}$."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 16,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Aconcágua é uma montanha na Cordilheira dos Andes com aproximadamente 7000 m de altitude, a mais alta fora da Ásia.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O gráfico abaixo mostra curvas padronizadas da pressão e da temperatura do ar atmosférico em função da altitude. O ar comporta-se como um gás ideal e pode-se usar $R = 8\\ \\text{J/mol.K}$ para a constante universal dos gases perfeitos. Calcule o volume molar do ar no pico do Aconcágua, que é dado pela razão $(V/n)$, ou seja, pelo volume de ar, $V$, dividido pelo correspondente número de moles, $n$.\n\n![gráfico da pressão (10⁵ Pa) e da temperatura (K) do ar em função da altitude (km), de 0,0 a 10,0 km](fig:p18-c3)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A radiação solar que atinge a superfície da Terra é, em parte, absorvida pelas moléculas e partículas da atmosfera, sendo que a fração transmitida que chega ao nível do mar é menor do que aquela que atinge as altitudes elevadas. A figura abaixo mostra a curva de transmitância em função do comprimento de onda da radiação eletromagnética solar, para um ponto ao nível do mar, nas regiões do visível e do infravermelho. Nessa curva, podem-se ver duas largas janelas de **alta transmitância** no infravermelho. Sabendo que a energia de um fóton é dada por $E = hf$, sendo $h = 4 \\times 10^{-15}\\ \\text{eV.s}$ a constante de Planck e $f$ a frequência da onda eletromagnética, encontre a menor energia dos fótons transmitidos por essas janelas no infravermelho.\n\nVelocidade da luz: $c = 3{,}0 \\times 10^{8}\\ \\text{m/s}$.\n\n![gráfico da transmitância (%) em função do comprimento de onda (µm), com duas janelas de alta transmitância assinaladas](fig:p18-c4)"
+    }
+   ],
+   "observacoes": "Os dois gráficos (itens a e b) estão dentro do quadro de resolução do caderno; foram recortados como figuras. No item b a figura vem depois da frase “Velocidade da luz”, que está impressa antes do quadro."
+  }
+ ],
+ "respostas": {
+  "12": {
+   "itens": {
+    "a": "$$Z = \\frac{Vol}{\\Delta t} = \\frac{L \\times p \\times \\Delta x}{\\Delta t} = L \\times p \\times v$$\n\n$$v = \\frac{Z}{L \\times p} = \\frac{210\\,000\\ \\text{m}^3/\\text{s}}{10000\\ \\text{m} \\times 50\\ \\text{m}} = 0{,}42\\ \\text{m/s}$$",
+    "b": "$$P = \\frac{E_p}{\\Delta t} = \\frac{mgh}{\\Delta t} = \\left(900.000\\ \\text{kg/s}\\right) \\times \\left(10\\ \\text{m/s}^2\\right) \\times 70\\ \\text{m} = 6{,}3 \\times 10^{8}\\ \\text{W}$$"
+   }
+  },
+  "13": {
+   "itens": {
+    "a": "$$F_M = P_F = M_F\\, g$$\n\n$$I_{SP}\\, g\\, \\frac{\\Delta m}{\\Delta t} = M_F\\, g$$\n\n$$I_{SP} = \\frac{M_F}{\\Delta m / \\Delta t} = \\frac{6{,}0 \\times 10^{5}\\ \\text{kg}}{2{,}0 \\times 10^{3}\\ \\text{kg/s}} = 300\\ \\text{s}$$",
+    "b": "$q = mv$ e $q_{\\text{final}} = q_{\\text{inicial}} = 0$\n\n$$0{,}4\\ \\text{kg} \\times 5\\ \\text{m/s} - 50\\ \\text{kg} \\times v_{\\text{menino+skate}} = 0$$\n\n$$v_{\\text{menino+skate}} = \\frac{0{,}4\\ \\text{kg} \\times 5\\ \\text{m/s}}{50\\ \\text{kg}} = 0{,}04\\ \\text{m/s}$$"
+   }
+  },
+  "14": {
+   "itens": {
+    "a": "$$L = L_0 + \\Delta L = L_0 (1 + \\alpha \\Delta T)$$\n\n$$L = 50\\ \\text{cm} \\left(1 + 7{,}0 \\times 10^{-5}\\ ^\\circ\\text{C}^{-1}\\ (50 - 20)\\ ^\\circ\\text{C}\\right) = 50{,}105\\ \\text{cm}$$",
+    "b": "$$E = \\frac{k \\Delta x^2}{2} = \\frac{8{,}0 \\times 10^{3}\\ \\text{N/m} \\times \\left(2{,}0 \\times 10^{-3}\\ \\text{m}\\right)^2}{2} = 0{,}016\\ \\text{J}$$"
+   }
+  },
+  "15": {
+   "itens": {
+    "a": "![esquema com o espelho E como uma reta vertical; à esquerda, o ponto dos olhos da pessoa e o ponto do objeto; à direita, os pontos das imagens; setas indicam as distâncias d_o, d_i, d_p e d_pi](fig:r06-c1)\n\n$$d_{pi} = d_p + d_i = 10\\ \\text{cm} + 50\\ \\text{cm} = 60\\ \\text{cm}$$",
+    "b": "$$a = \\frac{q E_0}{m} = \\frac{3{,}2 \\times 10^{-19}\\ \\text{C} \\cdot 4000\\ \\text{N/C}}{2{,}0 \\times 10^{-26}\\ \\text{kg}} = 6{,}4 \\times 10^{10}\\ \\text{m/s}^2$$"
+   }
+  },
+  "16": {
+   "itens": {
+    "a": "![gráfico da pressão e da temperatura em função da altitude, com dois pontos assinalados em 7,0 km, um sobre cada curva](fig:r07-c1)\n\n$$\\left(\\frac{V}{n}\\right) = \\frac{RT}{P} = \\frac{\\left(8\\ \\dfrac{\\text{J}}{\\text{mol.K}}\\right) \\times 240\\ \\text{K}}{4 \\times 10^{4}\\ \\text{Pa}} = 48 \\times 10^{-3}\\ \\text{m}^3/\\text{mol}$$",
+    "b": "![gráfico da transmitância em função do comprimento de onda, com um ponto assinalado em 14 µm sobre o eixo horizontal](fig:r07-c2)\n\n$$E_{\\min} = h f_{\\min} = h \\left(\\frac{c}{\\lambda_{\\max}}\\right) = 4 \\times 10^{-15}\\ \\text{eV.s} \\times \\frac{3 \\times 10^{8}\\ \\text{m/s}}{14 \\times 10^{-6}\\ \\text{m}} = 0{,}086\\ \\text{eV}$$"
+   }
+  }
+ }
+}

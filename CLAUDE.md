@@ -26,7 +26,7 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 | `ferramentas/` | Pipeline (abaixo) |
 | `.claude/agents/revisor-questoes.md` | Agente revisor |
 | `testes/navegador.js` | Teste de ponta a ponta no Chromium |
-| `trabalho/` | Área de trabalho, fora do git: páginas renderizadas, rascunhos, revisões |
+| `trabalho/` | Área de trabalho. No git ficam só rascunhos, revisões, complementos e recortes manuais (`*-cK.webp`); páginas renderizadas e figuras automáticas se regeneram |
 | `fontes-pdf` | Link para os PDFs oficiais (fora do git) |
 
 ## Pipeline de uma edição
