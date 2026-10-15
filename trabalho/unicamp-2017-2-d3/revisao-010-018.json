@@ -1,0 +1,131 @@
+{
+ "edicao": "unicamp-2017-2-d3",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 15,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os brinquedos de parques de diversões utilizam-se de princípios da Mecânica para criar movimentos aos quais não estamos habituados, gerando novas sensações. Por isso um parque de diversões é um ótimo local para ilustrar princípios básicos da Mecânica.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere uma montanha russa em que um carrinho desce por uma rampa de altura $H = 5\\ \\text{m}$ e, ao final da rampa, passa por um trecho circular de raio $R = 2\\ \\text{m}$, conforme mostra a figura a) abaixo. Calcule o módulo da aceleração no ponto mais baixo do circuito, considerando que o carrinho partiu do repouso.\n\n![Figura a): carrinho no alto de uma rampa de altura H = 5 m, que desce até um trecho circular de raio R = 2 m](fig:p17-c3)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Outro brinquedo comum em parques de diversões é o chapéu mexicano, em que cadeiras são penduradas com correntes na borda de uma estrutura circular que gira com seu eixo de rotação perpendicular ao solo. Considere um chapéu mexicano com estrutura circular de raio $R = 6{,}3\\ \\text{m}$ e correntes de comprimento $L = 2\\ \\text{m}$. Ao girar, as cadeiras se elevam 40 cm, afastando-se 1,2 m do eixo de rotação, conforme mostra a figura b) abaixo. Calcule a velocidade angular de rotação do brinquedo.\n\n![Figura b): disco horizontal com a cota R = 6,3 m, do eixo vertical de rotação até a borda; na borda, uma corrente inclinada com a cota L = 2 m segura a cadeira; uma linha tracejada vertical desce da borda; as cotas 0,4 m (vertical) e 1,2 m (horizontal, entre a linha tracejada e a cadeira) marcam a posição da cadeira](fig:p17-c4)"
+    }
+   ],
+   "observacoes": "As figuras a) e b) estão impressas dentro do quadro de resolução no caderno."
+  },
+  {
+   "numero": 17,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um instrumento importante no estudo de sistemas nanométricos é o microscópio eletrônico. Nos microscópios ópticos, a luz é usada para visualizar a amostra em estudo. Nos microscópios eletrônicos, um feixe de elétrons é usado para estudar a amostra.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A vantagem em se usar elétrons é que é possível acelerá-los até energias em que o seu comprimento de onda é menor que o da luz visível, permitindo uma melhor resolução. O comprimento de onda do elétron é dado por $\\lambda = h/(2m_e E_c)^{1/2}$, em que $E_c$ é a energia cinética do elétron, $m_e \\sim 9 \\times 10^{-31}\\ \\text{kg}$ é a massa do elétron e $h \\sim 6{,}6 \\times 10^{-34}\\ \\text{N}\\cdot\\text{m}\\cdot\\text{s}$ é a constante de Planck. Qual é o comprimento de onda do elétron em um microscópio eletrônico em que os elétrons são acelerados, a partir do repouso, por uma diferença de potencial de $U = 50\\ \\text{kV}$? Caso necessário, use a carga do elétron $e = 1{,}6 \\times 10^{-19}\\ \\text{C}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma forma usada para gerar elétrons em um microscópio eletrônico é aquecer um filamento, processo denominado efeito termiônico. A densidade de corrente gerada é dada por $J = AT^2 e^{(-\\Phi/(k_B T))}$, em que $A$ é a constante de Richardson, $T$ é a temperatura em kelvin, $k_B = 1{,}4 \\times 10^{-23}\\ \\text{J/K}$ é a constante de Boltzmann e $\\Phi$, denominado função trabalho, é a energia necessária para remover um elétron do filamento. A expressão para $J$ pode ser reescrita como $\\ln(J/T^2) = \\ln(A) - (\\Phi/k_B)(1/T)$, que é uma equação de uma reta de $\\ln(J/T^2)$ versus $(1/T)$, em que $\\ln(A)$ é o coeficiente linear e $(\\Phi/k_B)$ é o coeficiente angular da reta. O gráfico da figura abaixo apresenta dados obtidos do efeito termiônico em um filamento de tungstênio. Qual é a função trabalho do tungstênio medida neste experimento?\n\n![Gráfico de ln(J/T²), com eixo vertical de −45 a 0, em função de 1/T, em 10⁻³ K⁻¹, com eixo horizontal de 0,2 a 1,0, sobre grade pontilhada, com uma reta decrescente](fig:p19-c3)"
+    }
+   ],
+   "observacoes": "A figura do item b está impressa dentro do quadro de resolução no caderno."
+  }
+ ],
+ "respostas_corrigidas": {
+  "18": {
+   "resposta": "**Objetivo da questão:** a) A questão aborda conceitos básicos de termodinâmica como calor específico e calor latente. O objetivo era cobrar a aplicação das recorrentes expressões envolvendo tais conceitos a um sistema de refrigeração real.\nb) Este item, apesar de abordar o mesmo tema aquecimento/refrigeração, difere do item **a** uma vez que, aqui, o sistema de aquecimento é elétrico. O candidato deveria dominar os conceitos de potência elétrica e sua relação com resistividade e resistência elétricas.",
+   "itens": {
+    "a": "$$Q_{resf} = Q_{evap} \\Rightarrow m_a c|\\Delta T| = m_v L$$\n$$Q_{evap} = mL = 540 \\times 2000 = 1{,}08 \\times 10^{6}\\ \\text{cal}$$\n$$|\\Delta T| = \\frac{1{,}08 \\times 10^{6}}{108 \\times 10^{3}} = 10\\ ^\\circ\\text{C}$$\n$$T_f = 20\\ ^\\circ\\text{C}$$",
+    "b": "$$P = \\frac{U^2}{R}$$\n$$R = 8{,}8\\ \\Omega = \\frac{\\rho l}{A}$$\n$$l = \\frac{8{,}8 \\times 2{,}5 \\times 10^{-7}}{1{,}1 \\times 10^{-6}} = 2\\ \\text{m}$$"
+   }
+  }
+ },
+ "complementos": {
+  "10": {
+   "assunto": "Termoquímica"
+  },
+  "11": {
+   "assunto": "Química ambiental"
+  },
+  "12": {
+   "assunto": "Equilíbrio químico"
+  },
+  "13": {
+   "assunto": "Gravitação"
+  },
+  "14": {
+   "assunto": "Quantidade de movimento"
+  },
+  "15": {
+   "assunto": "Dinâmica"
+  },
+  "16": {
+   "assunto": "Energia e trabalho"
+  },
+  "17": {
+   "assunto": "Física moderna"
+  },
+  "18": {
+   "assunto": "Termologia"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Enunciado (itálicos do título e da citação, equação com $\\Delta_r H^0$) conferido com p12; resposta conferida com r08; objetivo conferido com a prova comentada (r32). Sem pontuação nas respostas esperadas."
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "Conferido com p13, r08 e objetivo em r35. 'apresentas' é do original (mantido). O '(2 pontos)' só aparece na prova comentada e corretamente não foi trazido."
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": "Conferido com p14, r09 e objetivo em r36. 'Dados' impresso depois dos itens vale para a questão toda: fim do enunciado, como fez o transcritor. Figuras p14-c1 e p14-c2 completas; descrições não entregam a resposta (os nomes 'protonada/desprotonada' já estão no item b)."
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "Conferido com p15, r01 e objetivo em r14. Figura p15-c2 completa (dentro do quadro de resolução no caderno, mas necessária ao item b). 'relativísti cos' do PDF unido em 'relativísticos'; 'd = 9×10⁶' sem unidade é da banca."
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": "Conferido com p16, r02 e objetivo em r16."
+  },
+  {
+   "numero": 15,
+   "status": "corrigida",
+   "notas": "Conferido com p17, r03 e objetivo em r18. Descrição da figura b) corrigida: dizia 'afastada 1,2 m do eixo de rotação', mas na figura a cota de 1,2 m é horizontal entre a vertical tracejada que desce da borda e a cadeira (a banca usa raio 6,3 + 1,2 = 7,5 m). Agora descreve só as cotas como estão desenhadas."
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": "Conferido com p18, r04 e objetivo em r19."
+  },
+  {
+   "numero": 17,
+   "status": "atencao",
+   "notas": "Conferido com p19, r05 e objetivo em r21. Descrição da figura do item b corrigida: trazia as leituras do gráfico (0 em 1/T = 0,25 e −40 em 1/T = 1,0), que são justamente o que o item cobra (leitura do gráfico para obter o coeficiente angular); agora diz só eixos, escalas e que a reta é decrescente. ATENÇÃO: no gráfico do caderno (e no da prova comentada) a reta corta ln = 0 em 1/T ≈ 0,25 e chega a −40 em 1/T = 1,0, o que dá coeficiente angular ≈ 53×10³ K e Φ ≈ 7,5×10⁻¹⁹ J; a banca usa 50×10³ K e Φ = 7×10⁻¹⁹ J (equivale a ler a reta saindo de 0,2). Diferença de ~6%, que parece aproximação ou leitura imprecisa da banca; resposta mantida como publicada. Uma pessoa deve decidir se cabe nota."
+  },
+  {
+   "numero": 18,
+   "status": "corrigida",
+   "notas": "Conferido com p20, r06 e objetivo em r22. No objetivo, o 'a' de 'difere do item a' está em negrito no original; corrigido em respostas_corrigidas."
+  }
+ ]
+}
