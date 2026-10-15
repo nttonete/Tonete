@@ -648,7 +648,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": "t36-37",
-   "enunciado": "A \"pegada de carbono\" – isto é, a quantidade de carbono gerada na produção, transporte e descarte – de 120 folhas de papel é a mesma de um carro a gasolina que se move por 16 km. O *Regulamento sobre Automóveis de Passageiros da Comissão Europeia* estabeleceu como meta que as emissões dos veículos leves não poderão ultrapassar 95 g $\\text{CO}_2$/km a partir de 2020. Levando em conta a combustão completa da gasolina (considere a gasolina como sendo constituída unicamente por $\\text{C}_8\\text{H}_{18}$) e as informações do texto de referência, o uso de um cartucho da tinta Paper Saver®, nas condições estabelecidas pela Comissão Europeia, permitiria reduzir a emissão de aproximadamente\n\nMassas molares em g.mol$^{-1}$: H = 1, C = 12, O = 16.",
+   "enunciado": "A \"pegada de carbono\" – isto é, a quantidade de carbono gerada na produção, transporte e descarte – de 120 folhas de papel é a mesma de um carro a gasolina que se move por 16 km. O *Regulamento sobre Automóveis de Passageiros da Comissão Europeia* estabeleceu como meta que as emissões dos veículos leves não poderão ultrapassar 95 g $\\text{CO}_2$/km a partir de 2020. Levando em conta a combustão completa da gasolina (considere a gasolina como sendo constituída unicamente por $\\text{C}_8\\text{H}_{18}$) e as informações do texto de referência, o uso de um cartucho da tinta Paper Saver®, nas condições estabelecidas pela Comissão Europeia, permitiria reduzir a emissão de aproximadamente\n\nMassas molares em $\\text{g.mol}^{-1}$: H = 1, C = 12, O = 16.",
    "alternativas": {
     "A": "1,5 kg de $\\text{CO}_2$, que é uma massa maior do que a massa de gasolina que foi queimada.",
     "B": "50 kg de $\\text{CO}_2$, que é uma massa menor do que a massa de gasolina que foi queimada.",
@@ -682,7 +682,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Os benefícios da reciclagem são consideráveis e se situam para além de uma sensação de realização pessoal, advinda de uma responsável deposição de embalagens e demais produtos plásticos separados do restante do lixo. A figura a seguir registra o consumo e o destino de materiais plásticos nos Estados Unidos da América, o que não é muito diferente de outros locais ao redor do mundo.\n\n![Gráfico de áreas da quantidade (10⁶ t) de plásticos de 1960 a 2020, dividida em aterro sanitário, combustão para gerar energia e reciclado](fig:p14-c1)\n\nDe acordo com essa figura, o consumo de plásticos vem aumentando,",
+   "enunciado": "Os benefícios da reciclagem são consideráveis e se situam para além de uma sensação de realização pessoal, advinda de uma responsável deposição de embalagens e demais produtos plásticos separados do restante do lixo. A figura a seguir registra o consumo e o destino de materiais plásticos nos Estados Unidos da América, o que não é muito diferente de outros locais ao redor do mundo.\n\n![Gráfico de áreas da quantidade de plásticos (em milhões de toneladas) de 1960 a 2020, dividida em Aterro Sanitário, Combustão para gerar energia e Reciclado](fig:p14-c4)\n\nDe acordo com essa figura, o consumo de plásticos vem aumentando,",
    "alternativas": {
     "A": "mas o percentual de plásticos que vai para os aterros sanitários vem diminuindo assim como os percentuais da reciclagem e da queima.",
     "B": "assim como o percentual de plásticos que vai para os aterros sanitários, pois há um aumento menor dos percentuais de reciclagem e de queima.",
@@ -697,11 +697,9 @@
    "id": "unicamp-2022-1-q40",
    "numero": 40,
    "materia": "quimica",
-   "materias_extra": [
-    "fisica"
-   ],
+   "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O sistema PSA (*Pressure Swing Adsorption*) é uma alternativa à produção de oxigênio para hospitais ou indústrias distantes de fornecedores. Esse sistema é também uma opção para os casos em que a produção por destilação criogênica não supre a demanda. O funcionamento do PSA se baseia na adsorção seletiva do oxigênio ou do nitrogênio. O ar pressurizado é forçado a passar por colunas contendo substâncias sólidas. Tais substâncias adsorvem seletivamente ou o oxigênio ou o nitrogênio. Quando o sólido fica saturado, promove-se uma despressurização do sistema e então o gás se dessorve do sólido. Dessa forma, os dois principais gases do ar são separados um do outro. A figura A esquematiza o sistema de funcionamento do PSA e os gráficos 1 e 2 representam isotermas de adsorção (estudo do equilíbrio a uma temperatura constante) de $\\text{N}_2$ e $\\text{O}_2$ para dois adsorventes distintos. O gráfico 1 diz respeito a um complexo do metal cobalto denominado CoBTTri, enquanto o gráfico 2 diz respeito a um zeólito representado pela fórmula NaX.\n\n![Gráfico 1 (CoBTTri): quantidade adsorvida (mmol g⁻¹) de O₂ e N₂ em função da pressão (bar), e Figura A: esquema do adsorvente com entrada de ar e saída de gás](fig:p14-c2)\n\n![Gráfico 2 (NaX): quantidade adsorvida (mmol g⁻¹) de N₂ e O₂ em função da pressão (bar)](fig:p14-c3)\n\nConsiderando as figuras, é correto afirmar que a separação a que se refere o texto seria possível utilizando-se",
+   "enunciado": "O sistema PSA (*Pressure Swing Adsorption*) é uma alternativa à produção de oxigênio para hospitais ou indústrias distantes de fornecedores. Esse sistema é também uma opção para os casos em que a produção por destilação criogênica não supre a demanda. O funcionamento do PSA se baseia na adsorção seletiva do oxigênio ou do nitrogênio. O ar pressurizado é forçado a passar por colunas contendo substâncias sólidas. Tais substâncias adsorvem seletivamente ou o oxigênio ou o nitrogênio. Quando o sólido fica saturado, promove-se uma despressurização do sistema e então o gás se dessorve do sólido. Dessa forma, os dois principais gases do ar são separados um do outro. A figura A esquematiza o sistema de funcionamento do PSA e os gráficos 1 e 2 representam isotermas de adsorção (estudo do equilíbrio a uma temperatura constante) de $\\text{N}_2$ e $\\text{O}_2$ para dois adsorventes distintos. O gráfico 1 diz respeito a um complexo do metal cobalto denominado CoBTTri, enquanto o gráfico 2 diz respeito a um zeólito representado pela fórmula NaX.\n\n![Gráfico 1, do CoBTTri: quantidade adsorvida (mmol g⁻¹) de O₂ e de N₂ em função da pressão (bar); ao lado, Figura A, esquema do sistema PSA com entrada de ar, adsorvente e saída do gás](fig:p14-c5)\n\n![Gráfico 2, do NaX: quantidade adsorvida (mmol g⁻¹) de N₂ e de O₂ em função da pressão (bar)](fig:p14-c6)\n\nConsiderando as figuras, é correto afirmar que a separação a que se refere o texto seria possível utilizando-se",
    "alternativas": {
     "A": "apenas o material NaX. O oxigênio seria obtido na pressurização do sistema.",
     "B": "qualquer um dos dois materiais. O oxigênio seria obtido na despressurização do sistema apenas no caso do CoBTTri.",
@@ -718,7 +716,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A linha internacional de mudança de data é uma linha imaginária posicionada próximo ao meridiano de 180º ou diametralmente oposta ao meridiano de Greenwich, cortando o Oceano Pacífico. Uma característica dessa linha está na sua forma irregular, o que evita que um país tenha a mesma hora e dias diferentes, conforme ilustra a figura a seguir:\n\n![Globo terrestre centrado no Oceano Pacífico, com a linha internacional de mudança de data, irregular, próxima ao meridiano de 180º](fig:p15-c1)\n\n(Adaptado de Paulo Márcio Leal de Menezes e Manoel do Couto Fernandes, *Roteiros de Cartografia*. São Paulo: Oficina de Textos, 2013. p. 113.)\n\nA partir da leitura do enunciado e da análise da ilustração, podemos concluir que:",
+   "enunciado": "A linha internacional de mudança de data é uma linha imaginária posicionada próximo ao meridiano de 180º ou diametralmente oposta ao meridiano de Greenwich, cortando o Oceano Pacífico. Uma característica dessa linha está na sua forma irregular, o que evita que um país tenha a mesma hora e dias diferentes, conforme ilustra a figura a seguir:\n\n![Globo terrestre centrado no Oceano Pacífico, com o traçado irregular da linha internacional de mudança de data](fig:p15-c2)\n\n(Adaptado de Paulo Márcio Leal de Menezes e Manoel do Couto Fernandes, *Roteiros de Cartografia*. São Paulo: Oficina de Textos, 2013. p. 113.)\n\nA partir da leitura do enunciado e da análise da ilustração, podemos concluir que:",
    "alternativas": {
     "A": "um navio que parte do Japão em direção à costa oeste dos Estados Unidos, ao cruzar a linha internacional de datas, terá que notificar em seus registros que pulou um dia no calendário civil oficial.",
     "B": "cruzeiros turísticos podem antecipar a comemoração do Réveillon, ao cruzarem a linha internacional de datas na noite do dia 30 de dezembro, desde que este deslocamento se dê no sentido oeste.",
@@ -737,7 +735,7 @@
     "biologia"
    ],
    "texto_base": null,
-   "enunciado": "A posição latitudinal do continente africano faz com que ocorra uma diversidade de biomas. Os mapas a seguir indicam a localização e a extensão de quatro biomas com características distintas.\n\n![Quatro mapas da África, rotulados BIOMA 1, BIOMA 2, BIOMA 3 e BIOMA 4, com a área de cada bioma em preto](fig:p15-f3)\n\n(Adaptado de Géraud Magrin, Alain Dubresson e Olivier Ninot, *Atlas de l'Afrique*. Paris: Autrement, 2018.)\n\nA partir do exposto e de seus conhecimentos sobre os fatores abióticos e bióticos dos biomas africanos, assinale a alternativa correta.",
+   "enunciado": "A posição latitudinal do continente africano faz com que ocorra uma diversidade de biomas. Os mapas a seguir indicam a localização e a extensão de quatro biomas com características distintas.\n\n![Quatro mapas da África, Bioma 1, Bioma 2, Bioma 3 e Bioma 4, com a área de cada bioma em preto](fig:p15-f3)\n\n(Adaptado de Géraud Magrin, Alain Dubresson e Olivier Ninot, *Atlas de l'Afrique*. Paris: Autrement, 2018.)\n\nA partir do exposto e de seus conhecimentos sobre os fatores abióticos e bióticos dos biomas africanos, assinale a alternativa correta.",
    "alternativas": {
     "A": "O Bioma 1 corresponde às formações florestais que se situam nas áreas de baixa latitude. Apresentam baixa diversidade vegetal, com predomínio de coníferas. Ocorrem em áreas com excesso de chuvas, elevadas temperaturas e solos profundos de boa drenagem.",
     "B": "O Bioma 2 abarca as formações mediterrâneas desenvolvidas em solos férteis, em climas com verão úmido e inverno seco. Sua fitofisionomia é formada por arbustos baixos, intercalados por gramíneas. As espécies são caducifólias por conta do período seco.",
@@ -771,7 +769,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Gráfico de linhas, intitulado “BRASIL – Evolução da participação relativa das exportações por fator agregado (2005-2015)”, com as séries Básicos, Semimanufaturados e Manufaturados](fig:p16-c1)\n\n(Adaptado de Lisandra Pereira Lamoso, Reprimarização no Território Brasileiro, *Espaço e Economia*, v. 19 , 2020.)\n\nO gráfico anterior indica a tendência de reprimarização do território brasileiro, processo este derivado",
+   "enunciado": "![Gráfico de linhas, BRASIL – Evolução da participação relativa das exportações por fator agregado (2005-2015), com as séries Básicos, Semimanufaturados e Manufaturados](fig:p16-c3)\n\n(Adaptado de Lisandra Pereira Lamoso, Reprimarização no Território Brasileiro, *Espaço e Economia*, v. 19 , 2020.)\n\nO gráfico anterior indica a tendência de reprimarização do território brasileiro, processo este derivado",
    "alternativas": {
     "A": "do declínio da produção e exportação de commodities agrícolas em virtude do avanço da quarta revolução industrial.",
     "B": "do crescimento do mercado interno para produtos industrializados de maior valor agregado, em detrimento das exportações.",
@@ -788,7 +786,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O mapa a seguir apresenta países com mais de 5 milhões de habitantes vivendo em favelas (ou outras formas de habitação precária).\n\n![Dois mapas-múndi sob o título “POPULAÇÃO URBANA VIVENDO EM HABITAÇÕES PRECÁRIAS E FAVELAS”: o primeiro por quantidade (em milhões) e o segundo por participação (em %), cada um com sua legenda](fig:p16-c2)\n\n(Adaptado de: https://espace-mondial-atlas.sciencespo.fr. Acessado em 02/07/2021.)\n\nCom base nas informações do mapa e em seu conhecimento sobre a população urbana que vive em habitações precárias e favelas, assinale a alternativa correta.",
+   "enunciado": "O mapa a seguir apresenta países com mais de 5 milhões de habitantes vivendo em favelas (ou outras formas de habitação precária).\n\n![Dois mapas-múndi, POPULAÇÃO URBANA VIVENDO EM HABITAÇÕES PRECÁRIAS E FAVELAS: o primeiro por quantidade, em milhões de habitantes, e o segundo por participação, em %, com legendas em tons de cinza e hachura para ausência de dados](fig:p16-c4)\n\n(Adaptado de: https://espace-mondial-atlas.sciencespo.fr. Acessado em 02/07/2021.)\n\nCom base nas informações do mapa e em seu conhecimento sobre a população urbana que vive em habitações precárias e favelas, assinale a alternativa correta.",
    "alternativas": {
     "A": "Em grande parte dos países da África Subsaariana, mais de 60% da população urbana vive em favelas ou habitações precárias, um problema social decorrente, entre outros fatores, da inserção do continente na divisão internacional do trabalho.",
     "B": "Na América Latina, entre 5% e 20% da população urbana vive hoje em favelas ou habitações precárias, o que deixou de ser um problema social por conta da industrialização da região no século XX e da disseminação de políticas públicas.",
@@ -824,7 +822,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A Serra do Mar se estende paralelamente ao litoral por cerca de 1.500 km, desde o vale do Rio Itajaí (SC) até a região de Campos dos Goytacazes (RJ). Trata-se de um conjunto de escarpas controladas por falhas e com graus diferenciados de dissecação, que finaliza o Planalto Atlântico na linha de costa com um *horst*. A configuração da Serra do Mar pode ser observada nos perfis a seguir, nos estados de São Paulo e Rio de Janeiro.\n\n![Dois perfis topográficos, com altitude em metros: o primeiro com Planalto Paraitinga, Planalto Juqueriquerê, Rio Camburi e Ilha de São Sebastião; o segundo com Planalto da Bocaina, Rio Mambucaba, Baía da Ilha Grande e Ilha Grande](fig:p17-c1)\n\n(Adaptado de Yociteru Hasui, Celso Dal Ré Carneiro, Fernando Flávio Marques de Almeida e Andrea Bartorelli, *Geologia do Brasil*. São Paulo: Beca, 2012.)\n\nA partir dos seus conhecimentos sobre os aspectos geológicos e geomorfológicos da Serra do Mar, indique a alternativa correta.",
+   "enunciado": "A Serra do Mar se estende paralelamente ao litoral por cerca de 1.500 km, desde o vale do Rio Itajaí (SC) até a região de Campos dos Goytacazes (RJ). Trata-se de um conjunto de escarpas controladas por falhas e com graus diferenciados de dissecação, que finaliza o Planalto Atlântico na linha de costa com um *horst*. A configuração da Serra do Mar pode ser observada nos perfis a seguir, nos estados de São Paulo e Rio de Janeiro.\n\n![Dois perfis topográficos da Serra do Mar, em metros: o primeiro com Planalto Paraitinga, Planalto Juqueriquerê, Rio Camburi e Ilha de São Sebastião; o segundo com Planalto da Bocaina, Rio Mambucaba, Baía da Ilha Grande e Ilha Grande](fig:p17-c2)\n\n(Adaptado de Yociteru Hasui, Celso Dal Ré Carneiro, Fernando Flávio Marques de Almeida e Andrea Bartorelli, *Geologia do Brasil*. São Paulo: Beca, 2012.)\n\nA partir dos seus conhecimentos sobre os aspectos geológicos e geomorfológicos da Serra do Mar, indique a alternativa correta.",
    "alternativas": {
     "A": "A Serra do Mar é formada predominantemente por áreas falhadas compostas por rochas basálticas. A origem dessas rochas está relacionada à ruptura das placas tectônicas, o que resultou na abertura do Oceano Atlântico.",
     "B": "A Serra do Mar é formada por rochas sedimentares que apresentam, em sua estrutura, falhas e fraturas. No período chuvoso, a infiltração aumenta o peso do material, desencadeando processos gravitacionais denominados movimentos de massa.",
@@ -838,9 +836,9 @@
   {
    "id": "unicamp-2022-1-q48",
    "numero": 48,
-   "materia": "sociologia",
+   "materia": "filosofia",
    "materias_extra": [
-    "filosofia"
+    "sociologia"
    ],
    "texto_base": null,
    "enunciado": "Pouco a pouco a noção de “governança” toma o lugar da categoria “soberania”, tornada antiquada e desvalorizada segundo os princípios da disciplina neoliberal da globalização econômica. Para os defensores da governança, um Estado não deve mais ser julgado por sua capacidade de assegurar soberania sobre um território, mas pelo respeito às injunções de organismos internacionais que representam grandes interesses comerciais e financeiros globais.\n\n(Adaptado de Pierre Dardot e Christian Laval, *A nova razão do mundo:* ensaio sobre a sociedade neoliberal. São Paulo: Boitempo, 2016, p. 276.)\n\nSobre os conceitos de “governança” e “soberania”, podemos afirmar que",
@@ -862,7 +860,7 @@
     "artes"
    ],
    "texto_base": null,
-   "enunciado": "![Afresco de Giacomo Borlone de Buschis, O triunfo da morte a reunião dos três vivos e dos três mortos, em Clusone (Itália), século XV](fig:p18-f1)\n\nGiacomo Borlone de Buschis, *O triunfo da morte a reunião dos três vivos e dos três mortos*. Parte superior de afresco na cidade de Clusone (Itália), século XV.\n\nNa Europa medieval cristã, prevalecia a ideia de que a morte era a transição para uma vida espiritual plena. Os ritos fúnebres buscavam assegurar uma passagem organizada para esse outro plano e evita-se mostrar o processo de decomposição dos corpos. A chegada da peste negra rompeu com essa concepção. De acordo com a historiadora Juliana Schmitt, a doença deixava marcas no corpo, as pessoas morriam de repente, algumas em locais públicos. A ideia apaziguadora da morte, na concepção cristã, foi substituída pela ideia de morte caótica, causada pela peste. As imagens cotidianas relacionadas ao surto da doença passaram a ser reapresentadas no campo das imagens e na literatura, no que hoje se conhece como “estética macabra”. O que caracteriza as obras macabras é a ênfase dada aos processos de decomposição do corpo. A estética é anterior ao período medieval, mas foi impulsionada pela peste negra.\n\n(Adaptado de Christina Queiroz, Pandemia como alegoria. *Revista Pesquisa Fapesp*. Edição 294. ago. 2020.)\n\nCom base na imagem e no excerto, assinale a alternativa correta:",
+   "enunciado": "![Afresco O triunfo da morte, de Giacomo Borlone de Buschis: esqueletos coroados sobre um sarcófago aberto, cercados por figuras vestidas à moda medieval](fig:p18-f1)\n\nGiacomo Borlone de Buschis, *O triunfo da morte a reunião dos três vivos e dos três mortos*. Parte superior de afresco na cidade de Clusone (Itália), século XV.\n\nNa Europa medieval cristã, prevalecia a ideia de que a morte era a transição para uma vida espiritual plena. Os ritos fúnebres buscavam assegurar uma passagem organizada para esse outro plano e evita-se mostrar o processo de decomposição dos corpos. A chegada da peste negra rompeu com essa concepção. De acordo com a historiadora Juliana Schmitt, a doença deixava marcas no corpo, as pessoas morriam de repente, algumas em locais públicos. A ideia apaziguadora da morte, na concepção cristã, foi substituída pela ideia de morte caótica, causada pela peste. As imagens cotidianas relacionadas ao surto da doença passaram a ser reapresentadas no campo das imagens e na literatura, no que hoje se conhece como “estética macabra”. O que caracteriza as obras macabras é a ênfase dada aos processos de decomposição do corpo. A estética é anterior ao período medieval, mas foi impulsionada pela peste negra.\n\n(Adaptado de Christina Queiroz, Pandemia como alegoria. *Revista Pesquisa Fapesp*. Edição 294. ago. 2020.)\n\nCom base na imagem e no excerto, assinale a alternativa correta:",
    "alternativas": {
     "A": "A peste negra, enfrentada pela Europa do século XIV, afetou as representações da morte nas artes visuais, propondo reflexões sobre o potencial das ciências modernas para a resolução da peste à época.",
     "B": "A estética do macabro, criada na Idade Média, é acionada pelas artes visuais como elemento valorizador da vida, gerando a negação dos contextos sanitários marcados pela peste e pela morte.",
@@ -911,9 +909,7 @@
    "id": "unicamp-2022-1-q52",
    "numero": 52,
    "materia": "historia",
-   "materias_extra": [
-    "filosofia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "A sociedade é uma benção, mas o governo, mesmo em seu melhor estado, é apenas um mal necessário. No seu pior estado, é um mal intolerável, pois quando sofremos ou ficamos expostos, por causa de um governo, às mesmas desgraças que poderíamos esperar em um país sem governo, nossa calamidade pesa ainda mais ao considerarmos que somos nós que fornecemos os meios pelos quais sofremos. Há algo de muito ridículo na composição da monarquia; primeiro ela exclui um homem dos meios de informação, mas lhe permite agir em casos que requerem capacidade superior de julgamento. A posição de um rei o aparta do mundo; no entanto, a atividade de um rei exige que ele conheça perfeitamente o mundo. Com isso, as diferentes partes, opondo-se de forma antinatural e destruindo uma à outra, provam que essa figura é absurda e inútil.\n\n(Adaptado de Thomas Paine, *Senso comum e os direitos do homem*. L&PM Pocket. Edição do Kindle – posição 32 a 138.)\n\nO trecho acima foi retirado do panfleto *O Senso comum e Os direitos do homem*, publicado de forma anônima, em 1776. Com autoria assumida por Thomas Paine, a obra causou grande reação pública. A partir do texto e das informações fornecidas, é correto dizer que o autor",
    "alternativas": {
@@ -966,7 +962,7 @@
    "materia": "historia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "É uma tarefa difícil realizar um diagnóstico do tempo presente. Definir o presente como “época”? Os marcos canônicos (geralmente de natureza política) variam, sabidamente, ao gosto das experiências nacionais. Na França, na península Ibérica e no Brasil, o marco que define o início da história contemporânea é a Revolução Francesa. Na Alemanha e na Inglaterra, o historiador que se dedica à história contemporânea trabalha preferencialmente com eventos posteriores à II Guerra Mundial. Contemporânea, na Rússia, é a história posterior a 1918. Na Itália, por sua vez, trata-se do período que advém após o Congresso de Viena (1814-1815).\n\n(Adaptado de Helena Miranda Mollo, Sergio da Mata, Mateus Henrique de Faria Pereira e Flávia Varella, *Tempo presente & usos do passado.* Rio de Janeiro: Editora FGV, 2012. Posição Kindle: 107-111.)\n\nA partir da leitura do texto, é correto afirmar que",
+   "enunciado": "É uma tarefa difícil realizar um diagnóstico do tempo presente. Definir o presente como “época”? Os marcos canônicos (geralmente de natureza política) variam, sabidamente, ao gosto das experiências nacionais. Na França, na península Ibérica e no Brasil, o marco que define o início da história contemporânea é a Revolução Francesa. Na Alemanha e na Inglaterra, o historiador que se dedica à história contemporânea trabalha preferencialmente com eventos posteriores à II Guerra Mundial. Contemporânea, na Rússia, é a história posterior a 1918. Na Itália, por sua vez, trata-se do período que advém após o Congresso de Viena (1814-1815).\n\n(Adaptado de Helena Miranda Mollo, Sergio da Mata, Mateus Henrique de Faria Pereira e Flávia Varella, *Tempo presente & usos do passado*. Rio de Janeiro: Editora FGV, 2012. Posição Kindle: 107-111.)\n\nA partir da leitura do texto, é correto afirmar que",
    "alternativas": {
     "A": "o recorte temporal de História Contemporânea é natural e consensual entre as civilizações ocidentais e resume o que podemos definir como História do Tempo Presente.",
     "B": "experiências traumáticas marcadas, por exemplo, pelas duas grandes guerras mundiais, definem nossa experiência de tempo presente e delimitam o início da História Contemporânea.",
@@ -1002,7 +998,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": "t57-58",
-   "enunciado": "Uma sonda viaja a uma velocidade de módulo constante igual a $v = 5\\times10^{5}\\ \\text{km/h}$ (aproximadamente a velocidade atingida pela sonda em abril de 2021), tangenciando a superfície da Terra ao longo da Linha do Equador. Em uma hora, aproximadamente quantas voltas a sonda dá em torno da Terra?\n\nDado: Raio da Terra $R_{\\text{Terra}} = 6{,}0\\times10^{3}\\ \\text{km}$.\n\n**<em>Sempre que necessário aproxime π = 3.</em>**",
+   "enunciado": "Uma sonda viaja a uma velocidade de módulo constante igual a $v = 5 \\times 10^{5}\\ \\text{km/h}$ (aproximadamente a velocidade atingida pela sonda em abril de 2021), tangenciando a superfície da Terra ao longo da Linha do Equador. Em uma hora, aproximadamente quantas voltas a sonda dá em torno da Terra?\n\nDado: Raio da Terra $R_{\\text{Terra}} = 6{,}0 \\times 10^{3}\\ \\text{km}$.\n\n**<em>Sempre que necessário aproxime π = 3.</em>**",
    "alternativas": {
     "A": "83.",
     "B": "30.",
@@ -1019,12 +1015,12 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": "t57-58",
-   "enunciado": "A força gravitacional exercida pelo Sol sobre a sonda *Solar Parker* tem módulo dado por $F_{\\text{Sol}} = GMm/r^2$, sendo $G \\simeq 6{,}7\\times10^{-11}\\ \\text{N}\\cdot\\text{m}^2/\\text{kg}^2$ a constante gravitacional universal, $M = 2{,}0\\times10^{30}\\ \\text{kg}$ a massa do Sol, $m$ a massa da sonda, e $r$ a distância entre a sonda e o centro do Sol. Sendo $r = 1{,}0\\times10^{7}\\ \\text{km}$ (aproximadamente a distância atingida pela sonda em abril de 2021), qual é o módulo da aceleração gravitacional do Sol na referida posição?",
+   "enunciado": "A força gravitacional exercida pelo Sol sobre a sonda *Solar Parker* tem módulo dado por $F_{\\text{Sol}} = GMm/r^2$, sendo $G \\simeq 6{,}7 \\times 10^{-11}\\ \\text{N}\\cdot\\text{m}^2/\\text{kg}^2$ a constante gravitacional universal, $M = 2{,}0 \\times 10^{30}\\ \\text{kg}$ a massa do Sol, $m$ a massa da sonda, e $r$ a distância entre a sonda e o centro do Sol. Sendo $r = 1{,}0 \\times 10^{7}\\ \\text{km}$ (aproximadamente a distância atingida pela sonda em abril de 2021), qual é o módulo da aceleração gravitacional do Sol na referida posição?",
    "alternativas": {
-    "A": "$6{,}7\\times10^{-29}\\ \\text{m/s}^2$.",
+    "A": "$6{,}7 \\times 10^{-29}\\ \\text{m/s}^2$.",
     "B": "$1{,}34\\ \\text{m/s}^2$.",
     "C": "$9{,}8\\ \\text{m/s}^2$.",
-    "D": "$2{,}0\\times10^{10}\\ \\text{m/s}^2$."
+    "D": "$2{,}0 \\times 10^{10}\\ \\text{m/s}^2$."
    },
    "anulada": false,
    "gabarito": "B",
@@ -1055,10 +1051,10 @@
    "texto_base": "t59-60",
    "enunciado": "A viagem desde o Columbia até a superfície da Lua foi realizada no Módulo Lunar Eagle, formado por dois estágios: um usado na descida e outro, na subida. A massa seca do estágio de subida, ou seja, sem contar a massa do combustível (quase totalmente consumido na viagem de volta), era $m \\simeq 2500\\ \\text{kg}$. Considere que o módulo da aceleração gravitacional seja aproximadamente constante e dado por $g \\simeq g_{\\text{orb}} = 1{,}4\\ \\text{m/s}^2$ desde a superfície lunar até a órbita do Columbia, que se situava a uma altitude $h = 110\\ \\text{km}$. Qual é a variação da energia potencial gravitacional do estágio de subida (massa seca que reencontra o Columbia) na viagem de volta?",
    "alternativas": {
-    "A": "$3{,}85\\times10^{5}\\ \\text{J}$.",
-    "B": "$2{,}75\\times10^{8}\\ \\text{J}$.",
-    "C": "$3{,}85\\times10^{8}\\ \\text{J}$.",
-    "D": "$2{,}75\\times10^{9}\\ \\text{J}$."
+    "A": "$3{,}85 \\times 10^{5}\\ \\text{J}$.",
+    "B": "$2{,}75 \\times 10^{8}\\ \\text{J}$.",
+    "C": "$3{,}85 \\times 10^{8}\\ \\text{J}$.",
+    "D": "$2{,}75 \\times 10^{9}\\ \\text{J}$."
    },
    "anulada": false,
    "gabarito": "C",
@@ -1070,7 +1066,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A figura a seguir mostra a temperatura da tigela de uma panela de arroz elétrica em função do tempo de cozimento. Ligando-se a panela, uma resistência elétrica aumenta a temperatura da tigela contendo <u>arroz e água</u> até que a água entre em ebulição. Depois que toda a água é consumida — por evaporação e por absorção pelo arroz —, a temperatura da tigela volta a subir, o que é detectado por um sensor, e a panela é então desligada. A potência elétrica dissipada pela resistência elétrica, na forma de calor, é $P = 400\\ \\text{W}$, constante durante todo o cozimento. Quanto vale a energia elétrica dissipada desde o início do processo até que toda a água seja consumida?\n\n![Gráfico da temperatura (°C) em função do tempo (minutos)](fig:p22-f2)",
+   "enunciado": "A figura a seguir mostra a temperatura da tigela de uma panela de arroz elétrica em função do tempo de cozimento. Ligando-se a panela, uma resistência elétrica aumenta a temperatura da tigela contendo <u>arroz e água</u> até que a água entre em ebulição. Depois que toda a água é consumida — por evaporação e por absorção pelo arroz —, a temperatura da tigela volta a subir, o que é detectado por um sensor, e a panela é então desligada. A potência elétrica dissipada pela resistência elétrica, na forma de calor, é $P = 400\\ \\text{W}$, constante durante todo o cozimento.\n\nQuanto vale a energia elétrica dissipada desde o início do processo até que toda a água seja consumida?\n\n![Gráfico da temperatura (em ºC) em função do tempo (em minutos): sobe de 20 ºC a 100 ºC em 10 minutos, permanece em 100 ºC até 30 minutos, sobe um pouco e depois diminui até 35 minutos](fig:p22-c2)",
    "alternativas": {
     "A": "13,3 kJ.",
     "B": "240 kJ.",
@@ -1087,12 +1083,12 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A autoclave, um equipamento de esterilização de objetos por meio de vapor de água em alta temperatura e pressão, foi inventada por Charles Chamberland, a pedido de Louis Pasteur. A figura a seguir mostra a curva da pressão máxima de vapor da água em função da temperatura. Para temperaturas e pressões do lado esquerdo da curva, a água encontra-se na fase líquida; do lado direito, a água está na fase de vapor. Nos pontos sobre a curva, as fases líquida e de vapor coexistem. A pressão de funcionamento de uma determinada autoclave é $p = 3{,}0\\ \\text{atm}$. Se toda a água está na fase de vapor, o que se pode dizer sobre a sua temperatura $\\theta$?\n\nDado: $1{,}0\\ \\text{atm} = 100\\ \\text{kPa}$.\n\n![Gráfico da pressão máxima de vapor da água (kPa) em função da temperatura θ (°C), com as regiões “fase líquida” e “fase vapor”](fig:p22-c1)",
+   "enunciado": "A autoclave, um equipamento de esterilização de objetos por meio de vapor de água em alta temperatura e pressão, foi inventada por Charles Chamberland, a pedido de Louis Pasteur. A figura a seguir mostra a curva da pressão máxima de vapor da água em função da temperatura. Para temperaturas e pressões do lado esquerdo da curva, a água encontra-se na fase líquida; do lado direito, a água está na fase de vapor. Nos pontos sobre a curva, as fases líquida e de vapor coexistem. A pressão de funcionamento de uma determinada autoclave é $p = 3{,}0\\ \\text{atm}$. Se toda a água está na fase de vapor, o que se pode dizer sobre a sua temperatura $\\theta$?\n\nDado: 1,0 atm = 100 kPa.\n\n![Gráfico da pressão máxima de vapor da água (em kPa) em função da temperatura θ (em ºC), de 80 a 150 ºC, com curva crescente separando a região fase líquida, à esquerda, da região fase vapor, à direita](fig:p22-c3)",
    "alternativas": {
-    "A": "$\\theta$ pode ter qualquer valor maior que $100\\ ^\\circ\\text{C}$.",
-    "B": "$\\theta$ pode ter qualquer valor maior que $100\\ ^\\circ\\text{C}$ e menor que $133\\ ^\\circ\\text{C}$.",
-    "C": "$\\theta$ pode ter qualquer valor menor que $100\\ ^\\circ\\text{C}$ ou maior que $133\\ ^\\circ\\text{C}$.",
-    "D": "$\\theta$ pode ter qualquer valor maior que $133\\ ^\\circ\\text{C}$."
+    "A": "$\\theta$ pode ter qualquer valor maior que 100 ⁰C.",
+    "B": "$\\theta$ pode ter qualquer valor maior que 100 ⁰C e menor que 133 ⁰C.",
+    "C": "$\\theta$ pode ter qualquer valor menor que 100 ⁰C ou maior que 133 ⁰C.",
+    "D": "$\\theta$ pode ter qualquer valor maior que 133 ⁰C."
    },
    "anulada": false,
    "gabarito": "D",
@@ -1104,12 +1100,12 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "As máscaras de proteção N95 e PFF2 se tornaram ferramentas importantes no combate à disseminação do novo coronavírus durante a pandemia da Covid-19. Essas máscaras possuem fibras compostas de um material com campo elétrico permanente e são capazes de realizar uma filtragem eletrostática das partículas ou gotículas dispersas no ar. Considere um campo elétrico uniforme de módulo $E_0 = 4{,}0\\times10^{-2}\\ \\text{V/m}$ em uma região do espaço. A diferença de potencial elétrico entre duas linhas tracejadas paralelas entre si e perpendiculares à direção desse campo elétrico, separadas por uma distância $d$, conforme mostra a figura a seguir, é igual a\n\n![Duas setas horizontais paralelas, indicando o campo elétrico E₀, cortadas por linhas tracejadas verticais; a distância d = 5,0 × 10⁻⁶ m está marcada entre duas das linhas](fig:p22-f5)",
+   "enunciado": "As máscaras de proteção N95 e PFF2 se tornaram ferramentas importantes no combate à disseminação do novo coronavírus durante a pandemia da Covid-19. Essas máscaras possuem fibras compostas de um material com campo elétrico permanente e são capazes de realizar uma filtragem eletrostática das partículas ou gotículas dispersas no ar. Considere um campo elétrico uniforme de módulo $E_0 = 4{,}0 \\times 10^{-2}\\ \\text{V/m}$ em uma região do espaço. A diferença de potencial elétrico entre duas linhas tracejadas paralelas entre si e perpendiculares à direção desse campo elétrico, separadas por uma distância $d$, conforme mostra a figura a seguir, é igual a\n\n![Duas setas horizontais paralelas, a de cima rotulada com o vetor campo elétrico E₀, cortadas por quatro linhas tracejadas verticais; entre a segunda e a terceira, uma seta dupla indica d = 5,0 × 10⁻⁶ m](fig:p22-c4)",
    "alternativas": {
-    "A": "$1{,}6\\times10^{-10}\\ \\text{V}$.",
-    "B": "$2{,}0\\times10^{-7}\\ \\text{V}$.",
-    "C": "$0{,}8\\times10^{-6}\\ \\text{V}$.",
-    "D": "$1{,}2\\times10^{-4}\\ \\text{V}$."
+    "A": "$1{,}6 \\times 10^{-10}\\ \\text{V}$.",
+    "B": "$2{,}0 \\times 10^{-7}\\ \\text{V}$.",
+    "C": "$0{,}8 \\times 10^{-6}\\ \\text{V}$.",
+    "D": "$1{,}2 \\times 10^{-4}\\ \\text{V}$."
    },
    "anulada": false,
    "gabarito": "B",
@@ -1121,7 +1117,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Fotografia em tons de cinza do horizonte de Marte, com uma faixa clara em arco no céu](fig:p22-f6)\n\nUma imagem capturada recentemente pela sonda *Perseverance* na superfície de Marte mostrou o que parece ser um arco-íris no céu daquele planeta. Na Terra, um arco-íris surge como resultado da decomposição da luz branca do Sol por refração nas gotículas quase esféricas de água, suspensas na atmosfera. Em Marte, contudo, não há chuva. Portanto, a origem do arco-íris ainda é controversa. Em relação ao fenômeno de formação do arco-íris na Terra, quando a luz solar incide em uma gotícula de água, é correto afirmar que",
+   "enunciado": "![Fotografia em tons de cinza da superfície de Marte, com um arco tênue no céu](fig:p22-c5)\n\nUma imagem capturada recentemente pela sonda *Perseverance* na superfície de Marte mostrou o que parece ser um arco-íris no céu daquele planeta. Na Terra, um arco-íris surge como resultado da decomposição da luz branca do Sol por refração nas gotículas quase esféricas de água, suspensas na atmosfera. Em Marte, contudo, não há chuva. Portanto, a origem do arco-íris ainda é controversa. Em relação ao fenômeno de formação do arco-íris na Terra, quando a luz solar incide em uma gotícula de água, é correto afirmar que",
    "alternativas": {
     "A": "o índice de refração da água para as diferentes cores da luz branca é <u>menor</u> do que o do ar; assim, no interior das gotículas, os raios de luz das diferentes cores se <u>aproximam</u> mais da reta normal à interface entre os meios de refração, quanto maior for o índice de refração corresponde àquela cor, na água.",
     "B": "o índice de refração da água para as diferentes cores da luz branca é <u>menor</u> do que o do ar; assim, os raios de luz das diferentes cores, no interior das gotículas, se <u>afastam</u> mais da reta normal à interface entre os meios de refração, quanto maior for o índice de refração corresponde àquela cor, na água.",
@@ -1138,7 +1134,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O Programa Mundial de Alimentos da Organização das Nações Unidas (PMA-ONU) foi agraciado com o prêmio Nobel da Paz em 2020. No Brasil, um dos maiores produtores de alimentos do mundo, quatro em cada 10 famílias não tiveram acesso diário, regular, e permanente à quantidade suficiente de comida em 2017 e 2018. A fome é declarada quando a desnutrição é generalizada e quando as pessoas começam a morrer por falta de alimentos nutritivos e suficientes. A diversidade dos alimentos ingeridos garante nutrientes para o desempenho ideal das funções do organismo.\n\n(Fonte: UNITED NATIONS [UN]. World Food Program. *What is famine?* Disponível em https://www.wfp.org/stories/what-is-famine. Acessado em 08/06/ 2021.)\n\nAssinale a alternativa correta sobre os nutrientes e sua importância para a saúde humana.",
+   "enunciado": "O Programa Mundial de Alimentos da Organização das Nações Unidas (PMA-ONU) foi agraciado com o prêmio Nobel da Paz em 2020. No Brasil, um dos maiores produtores de alimentos do mundo, quatro em cada 10 famílias não tiveram acesso diário, regular, e permanente à quantidade suficiente de comida em 2017 e 2018. A fome é declarada quando a desnutrição é generalizada e quando as pessoas começam a morrer por falta de alimentos nutritivos e suficientes. A diversidade dos alimentos ingeridos garante nutrientes para o desempenho ideal das funções do organismo.\n\n(Fonte: UNITED NATIONS [UN]. World Food Program. *What is famine*? Disponível em https://www.wfp.org/stories/what-is-famine. Acessado em 08/06/ 2021.)\n\nAssinale a alternativa correta sobre os nutrientes e sua importância para a saúde humana.",
    "alternativas": {
     "A": "A hidrólise dos carboidratos essenciais fornece aminoácidos para a formação das proteínas, as quais têm função construtora de diferentes tecidos.",
     "B": "Os lipídios contêm desoxirriboses e ácidos graxos, constituem as membranas plasmáticas e participam da síntese de colesterol no organismo.",
@@ -1155,7 +1151,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Após a transformação do meristema vegetativo em meristema floral, há o surgimento da flor. De forma genérica, uma flor é constituída por verticilos florais, que são: o cálice (constituído pelas sépalas), a corola (constituída pelas pétalas), o androceu e o gineceu. Segundo o modelo de determinação genética ABC, a identidade dos verticilos é definida pela interação de pelo menos três genes. A atividade do gene A é necessária para a formação do perianto (verticilos não reprodutivos). A atividade do gene C é necessária para a formação dos verticilos reprodutivos. A atividade do gene B está envolvida na diferenciação entre pétalas (onde o gene B está ativo) e sépalas (onde o gene B está inativo), assim como na diferenciação entre estames (onde o gene B está ativo) e carpelos (onde o gene B está inativo).\n\nUma flor completa de angiosperma e duas flores hipotéticas (Flor I e Flor II) são apresentadas a seguir.\n\n![Silhuetas de três flores, rotuladas Flor completa, Flor I e Flor II](fig:p23-c1)\n\nAssinale a alternativa que apresenta os genes ativos nas flores I e II.",
+   "enunciado": "Após a transformação do meristema vegetativo em meristema floral, há o surgimento da flor. De forma genérica, uma flor é constituída por verticilos florais, que são: o cálice (constituído pelas sépalas), a corola (constituída pelas pétalas), o androceu e o gineceu. Segundo o modelo de determinação genética ABC, a identidade dos verticilos é definida pela interação de pelo menos três genes. A atividade do gene A é necessária para a formação do perianto (verticilos não reprodutivos). A atividade do gene C é necessária para a formação dos verticilos reprodutivos. A atividade do gene B está envolvida na diferenciação entre pétalas (onde o gene B está ativo) e sépalas (onde o gene B está inativo), assim como na diferenciação entre estames (onde o gene B está ativo) e carpelos (onde o gene B está inativo).\n\nUma flor completa de angiosperma e duas flores hipotéticas (Flor I e Flor II) são apresentadas a seguir.\n\n![Três esquemas de flores em cinza e preto, rotulados Flor completa, Flor I e Flor II](fig:p23-c2)\n\nAssinale a alternativa que apresenta os genes ativos nas flores I e II.",
    "alternativas": {
     "A": "flor I: A e B; flor II: B e C.",
     "B": "flor I: B e C; flor II: A e B.",
@@ -1208,7 +1204,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Teorias sobre como o novo coronavírus (SARS-CoV-2) que passou a infectar os humanos surgiram em 2019. Foi aventada a possibilidade de transmissão zoonótica. Um estudo filogenético, com mais de 2 mil genomas únicos de coronavírus, apresentou a provável descendência de alguns coronavírus e alertou sobre a importância de investigar os vírus, como estratégia global de monitoramento de endemias, e não apenas em situações de emergência sanitária.\n\n(Adaptado de Denis Jacob Machado e outros. *Cladistics*, Londres, v. 37, out. 2021, p. 461-488.)\n\nO cladograma a seguir apresenta as relações filogenéticas entre os diversos vírus do gênero *Betacoronavirus* (Beta-CoV), incluindo seus respectivos hospedeiros.\n\n![Cladograma dos vírus do gênero Betacoronavirus (Beta-CoV), com ícones dos hospedeiros, e legenda “Hospedeiros”: artiodáctilos, carnívoros, musaranhos e ouriços, lebres e coelhos, morcegos, roedores, perissodáctilos, pangolins, humanos e primatas](fig:p24-c1)\n\n(Adaptado de https://www1.folha.uol.com.br/ciencia/2021/05/maior-estudo-evolutivo-de-coronavirus [...]. Acessado em 15/06/2021.)\n\nA partir do cladograma, é correto afirmar que os betacoronavírus de",
+   "enunciado": "Teorias sobre como o novo coronavírus (SARS-CoV-2) que passou a infectar os humanos surgiram em 2019. Foi aventada a possibilidade de transmissão zoonótica. Um estudo filogenético, com mais de 2 mil genomas únicos de coronavírus, apresentou a provável descendência de alguns coronavírus e alertou sobre a importância de investigar os vírus, como estratégia global de monitoramento de endemias, e não apenas em situações de emergência sanitária.\n\n(Adaptado de Denis Jacob Machado e outros. *Cladistics*, Londres, v. 37, out. 2021, p. 461-488.)\n\nO cladograma a seguir apresenta as relações filogenéticas entre os diversos vírus do gênero *Betacoronavirus* (Beta-CoV), incluindo seus respectivos hospedeiros.\n\n![Cladograma dos betacoronavírus, com os ramos HCoV-HKU1, HCoV-OC43, HCoV-4408, RaTG13, SARS-CoV-2, SARS-CoV, MERS-CoV e outros Beta-CoV, cada um com ícones dos hospedeiros; abaixo, a legenda Hospedeiros: artiodáctilos, carnívoros, musaranhos e ouriços, lebres e coelhos, morcegos, roedores, perissodáctilos, pangolins, humanos e primatas](fig:p24-c2)\n\n(Adaptado de https://www1.folha.uol.com.br/ciencia/2021/05/maior-estudo-evolutivo-de-coronavirus [...]. Acessado em 15/06/2021.)\n\nA partir do cladograma, é correto afirmar que os betacoronavírus de",
    "alternativas": {
     "A": "artiodáctilos são os grupos irmãos dos HCoV-4408 e SARS-CoV-2 de humanos, por meio de hospedeiros intermediários.",
     "B": "morcegos são os grupos irmãos dos SARS-CoV-2 e HCoV-OC43 de humanos, por meio de hospedeiros intermediários.",
@@ -1225,7 +1221,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Dezenas de espécies de fungos bioluminescentes já foram descritas, sendo 12 encontradas no Brasil. As estruturas fúngicas são capazes de bioluminescer, capacidade esta que tem significância ecológica uma vez que pode atrair dispersores de esporos, repelir fungívoros fotofóbicos ou indicar toxicidade do fungo. O processo de emissão de luz envolve as enzimas redutase e luciferase. Sabe-se que a emissão de luz depende da presença das duas proteínas e as reações são apresentadas a seguir.\n\n![Duas reações: L + NAD(P)H + H⁺, com enzima solúvel (redutase), produz LH₂ + NAD(P)⁺; LH₂ + O₂, com enzima insolúvel (luciferase), produz LO + H₂O + hν](fig:p25-f2)\n\n**L: luciferina; LH<sub>2</sub>: luciferina reduzida; LO: oxiluciferina; hv: luz.**\n\n(Adaptado de Anderson Garbuglio Oliveira e outros. *Química Nova*, São Paulo, v. 36, 2013, p. 314-319.)\n\nConsiderando as estruturas dos fungos e o processo de emissão de luz descrito, assinale a alternativa correta.",
+   "enunciado": "Dezenas de espécies de fungos bioluminescentes já foram descritas, sendo 12 encontradas no Brasil. As estruturas fúngicas são capazes de bioluminescer, capacidade esta que tem significância ecológica uma vez que pode atrair dispersores de esporos, repelir fungívoros fotofóbicos ou indicar toxicidade do fungo. O processo de emissão de luz envolve as enzimas redutase e luciferase. Sabe-se que a emissão de luz depende da presença das duas proteínas e as reações são apresentadas a seguir.\n\n![Esquema de duas reações: L + NAD(P)H + H⁺ → LH₂ + NAD(P)⁺, com enzima solúvel (redutase); e LH₂ + O₂ → LO + H₂O + hv, com enzima insolúvel (luciferase); abaixo, a legenda: L: luciferina; LH₂: luciferina reduzida; LO: oxiluciferina; hv: luz.](fig:p25-c1)\n\n(Adaptado de Anderson Garbuglio Oliveira e outros. *Química Nova*, São Paulo, v. 36, 2013, p. 314-319.)\n\nConsiderando as estruturas dos fungos e o processo de emissão de luz descrito, assinale a alternativa correta.",
    "alternativas": {
     "A": "Corpos de frutificação são estruturas de fixação do fungo ao substrato; a emissão de luz nessas estruturas depende da presença de oxigênio.",
     "B": "Micélios são as estruturas reprodutivas dos fungos; a emissão de luz nessas estruturas dá-se no momento em que a luciferina é reduzida.",
@@ -1246,7 +1242,7 @@
    "alternativas": {
     "A": "O DNA sintético induz a produção da proteína *spike* do SARS-CoV-2, o que estimula a produção de antígenos pelo sistema imune.",
     "B": "O adenovírus, como um vetor viral replicante, carrega o gene da proteína *spike* do SARS-CoV-2 e induz a produção de anticorpos pelo sistema imune.",
-    "C": "A partícula viral ativa do SARS-CoV-2 possui no capsídeo a proteína *spike,* que induz a produção de antígenos pelo sistema imune.",
+    "C": "A partícula viral ativa do SARS-CoV-2 possui no capsídeo a proteína *spike*, que induz a produção de antígenos pelo sistema imune.",
     "D": "O RNAm sintético fornece instruções ao organismo para a produção da proteína *spike* do SARS-CoV-2, o que estimula a produção de anticorpos pelo sistema imune."
    },
    "anulada": false,
@@ -1259,7 +1255,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Imagem de um termômetro infravermelho apontado para a cabeça de um perfil humano com o cérebro destacado, com a palavra “FAKE” e a legenda “É #FAKE que termômetro infravermelho cause dano à glândula pineal”](fig:p25-f3)\n\nA radiação infravermelha é uma radiação não ionizante emitida por todo corpo físico com temperatura acima do zero absoluto.\n\n(Fonte: Portal G1. Acessado em 21/06/2021.)\n\nAssinale a alternativa que preenche corretamente as lacunas no excerto a seguir.\n\nO termômetro capta a radiação infravermelha emitida da superfície da fronte (testa), sendo unicamente um sensor de temperatura. Localizada no interior do cérebro, a glândula pineal faz parte do sistema (i) ____________ e é responsável pela liberação de (ii) ____________ durante a noite. Algumas funções dessa substância estão relacionadas à modulação nos padrões (iii) ____________ e à regulação (iv) ____________.",
+   "enunciado": "![Imagem com a palavra FAKE, um termômetro infravermelho apontado para a cabeça de uma pessoa com o cérebro visível e a manchete: “É #FAKE que termômetro infravermelho cause dano à glândula pineal”](fig:p25-c2)\n\nA radiação infravermelha é uma radiação não ionizante emitida por todo corpo físico com temperatura acima do zero absoluto.\n\n(Fonte: Portal G1. Acessado em 21/06/2021.)\n\nAssinale a alternativa que preenche corretamente as lacunas no excerto a seguir.\n\nO termômetro capta a radiação infravermelha emitida da superfície da fronte (testa), sendo unicamente um sensor de temperatura. Localizada no interior do cérebro, a glândula pineal faz parte do sistema (i) ____________ e é responsável pela liberação de (ii) ____________ durante a noite. Algumas funções dessa substância estão relacionadas à modulação nos padrões (iii) ____________ e à regulação (iv) ____________.",
    "alternativas": {
     "A": "(i) endócrino; (ii) melatonina; (iii) do ciclo circadiano; (iv) da reprodução.",
     "B": "(i) nervoso; (ii) melatonina; (iii) de secreção da tireoide; (iv) da homeostase hídrica.",
