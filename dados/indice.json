@@ -1,6 +1,37 @@
 {
  "edicoes": [
   {
+   "id": "fuvest-2022-1",
+   "vestibular": "fuvest",
+   "ano": 2022,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "V",
+   "nome": "FUVEST (USP) 2022 – 1ª fase",
+   "fonte": {
+    "caderno": "FEVEST_2022_1Fase.pdf",
+    "gabarito": "FEVEST_2022_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/fuvest-2022-1.json",
+   "total": 90,
+   "validas": 89,
+   "com_resposta": 89,
+   "materias": {
+    "biologia": 10,
+    "portugues": 8,
+    "fisica": 11,
+    "geografia": 10,
+    "quimica": 11,
+    "filosofia": 1,
+    "literatura": 8,
+    "matematica": 11,
+    "ingles": 8,
+    "historia": 10,
+    "artes": 1,
+    "sociologia": 1
+   }
+  },
+  {
    "id": "fuvest-2023-1",
    "vestibular": "fuvest",
    "ano": 2023,
