@@ -1,0 +1,293 @@
+{
+  "edicao": "fuvest-2024-2-d2",
+  "intervalo": [
+    19,
+    27
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 19,
+      "codigo": "B01",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na China, até 1958, grandes populações de pardais se alimentavam de grãos, em especial arroz e trigo. Naquele ano, o governo chinês instituiu uma lei estimulando cidadãos a dizimar as populações dessas aves, objetivando controlar o que era chamado de “peste” dos pardais. Estima-se que quase 2 bilhões de pardais foram mortos nesse período. A consequência do desaparecimento dos pardais, ainda em 1958, foi uma explosão populacional de gafanhotos, que infestaram as mesmas plantações e alteraram os níveis de produção de grãos. Essa alteração da produção afetou a população humana da China. Em 1960, o governo chinês reverteu a lei para evitar mais mortes de pardais, e o país chegou a importar 250 mil pardais da União Soviética para recolonizar seus campos. A partir de então, as populações de gafanhotos declinaram, impactando novamente os sistemas produtivos, o que, por sua vez, afetou também a população humana chinesa.\n\nO gráfico a seguir complementa os dados do texto para o período de 1955 a 1964. A linha pontilhada representa uma estimativa da produção de grãos (em milhões de toneladas), e a linha contínua representa a taxa de mortalidade da população humana (em óbitos por mil habitantes).\n\n![Gráfico de 1955 a 1964: linha pontilhada azul com a produção de grãos (milhões de toneladas) e linha contínua laranja com a taxa de mortalidade (óbitos por mil habitantes), com os valores anotados em cada ano](fig:p20-f1)\n\nA partir desses dados, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique a relação entre a taxa de mortalidade da população humana chinesa e a produção de grãos mostrada no gráfico."
+        },
+        {
+          "rotulo": "b",
+          "texto": "No gráfico da folha de respostas, represente as curvas que refletem os dados descritos para o tamanho das populações de pardais e de gafanhotos.\n\n*Campo de resolução:* ![Gráfico em branco com o eixo “Tamanho da população” e o eixo “Ano”, de 1955 a 1964](fig:p21-c1)"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Represente graficamente a teia trófica com os organismos envolvidos no processo descrito."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 20,
+      "codigo": "B02",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os indivíduos da mariposa *Biston betularia* apresentam variação de coloração que vai desde tons mais claros até mais escuros. Populações dessa mariposa na Grã-Bretanha apresentavam uma maior frequência de fenótipos mais claros antes da Revolução Industrial (RI). Com o avanço da RI, a liberação maciça de fuligem pelas máquinas tornou mais escuras as superfícies onde as mariposas pousavam, como as árvores e estruturas urbanas. Com isso, o número de indivíduos de fenótipos mais claros diminuiu. O esquema a seguir sintetiza esse fenômeno.\n\n![Esquema com duas caixas de mariposas, “Antes” e “Depois”, ligadas por uma seta rotulada “Revolução industrial”: antes, a maioria das mariposas é clara e poucas são escuras; depois, a maioria é escura e poucas são claras](fig:p20-f2)\n\nCom base no texto e no esquema, e considerando que o tamanho da população de mariposas permaneceu inalterado depois da RI, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual é o processo evolutivo envolvido nas mudanças da frequência dos fenótipos ao longo do tempo, passando de uma predominância dos mais claros (antes da RI) para uma predominância dos mais escuros (depois da RI)?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite o fator biótico que explica a diminuição de fenótipos mais claros. Justifique a sua resposta."
+        },
+        {
+          "rotulo": "c",
+          "texto": "No gráfico da folha de respostas, a abcissa indica o fenótipo (de mais claro a mais escuro), e a ordenada indica a frequência de indivíduos. A linha tracejada é a síntese do padrão de distribuição dos fenótipos pré-RI. No mesmo gráfico, represente a curva de distribuição dos fenótipos pós-RI.\n\n*Campo de resolução:* ![Gráfico com os eixos “Frequência de indivíduos” e “Fenótipo”, de “[+ claro]” a “[+ escuro]”, e uma curva pontilhada em forma de sino](fig:p21-c2)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 21,
+      "codigo": "B03",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A tabela a seguir mostra o resultado de algumas variáveis de um exame de sangue realizado por uma pessoa adulta. Os dados dos exames são relacionados à série vermelha, à série branca e a alguns patógenos.\n\n![Tabela com os elementos averiguados em um exame de sangue, agrupados em série vermelha (eritrócitos, hemoglobina, hematócrito), série branca (leucócitos, neutrófilos, eosinófilos, basófilos, linfócitos, monócitos) e patógenos, todos para anticorpos IgM (citomegalovírus, vírus da COVID-19, vírus da dengue, toxoplasma, herpes simplex 1/2), com o resultado e o intervalo de referência para o estado “normal” de cada um](fig:p22-c1)\n\nCom base nesses dados, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Que evidências permitem dizer que essa pessoa não tem um quadro de anemia?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite todos os elementos que permitem afirmar que essa pessoa tem um quadro infeccioso e inflamatório."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Qual patógeno gerou esse quadro infeccioso? Cite um sintoma relacionado a essa doença."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 22,
+      "codigo": "B04",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Barata tem cheiro?\n\nEsses insetos são controversos até quanto ao odor que liberam. Há pessoas que garantem sentir cheiro de barata. Essa habilidade é conferida pela presença de uma proteína codificada pelo gene *TAAR5*, que se expressa no epitélio olfativo, e que é ativada pela trimetilamina, uma substância que é liberada por baratas para comunicação entre indivíduos.\n\nO gene *TAAR5* localiza-se no cromossomo 6 humano. Uma mutação que leva à substituição de um aminoácido serina por uma prolina reduz a capacidade do ser humano de detectar a trimetilamina. Somente pessoas que possuem a mutação em homozigose não sentem cheiro de barata.\n\nModificado de https://www.uol.com.br/vivabem/noticias/redacao/2023/08/03/barata-tem-cheiro.amp.htm/.\n\n**Note e adote:**\nConsidere os seguintes códons do RNAm que codificam a Serina: UCU/UCC/UCA/UCG\nConsidere os seguintes códons do RNAm que codificam a Prolina: CCU/CCC/CCA/CCG",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite uma característica morfológica exclusiva e comum a todos os animais da mesma classe das baratas."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Qual é o padrão de herança da habilidade de sentir o cheiro de barata? Justifique a sua resposta."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Em que molécula ocorrem as mutações que repercutem em alteração na estrutura de proteínas? Qual foi o nucleotídeo substituído que gerou a mutação?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 23,
+      "codigo": "B05",
+      "materia": "biologia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "O ciclo de produção e queda de folhas das plantas ao longo do ano, denominado fenologia foliar, é regulado por hormônios, cuja produção é influenciada principalmente pela temperatura e quantidade de horas de luz durante o dia (= fotoperíodo). Numa floresta cujas condições ambientais estão representadas nas figuras I e II, para o ano de 1980, notou-se que, ao longo das últimas quatro décadas, houve alterações na fenologia foliar das árvores, representada na figura III. Os pesquisadores acreditam que essas alterações fenológicas são devidas às mudanças climáticas globais.\n\n![Figura I: gráfico de precipitação (mm), em colunas, e temperatura (°C), em linha, para os meses de janeiro a dezembro](fig:p24-c1)\n\n![Figura II: gráfico do fotoperíodo (horas de luz por dia) para os meses de janeiro a dezembro](fig:p24-c2)\n\n![Figura III: esquema da fenologia foliar ao longo das estações, de primavera a inverno, em 1980 e em 2020, com os períodos de folhas verdes e de queda de folhas](fig:p24-c3)\n\nCom base nos três gráficos apresentados, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual é a zona climática em que ocorre essa floresta?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite duas alterações no padrão fenológico foliar que ocorreram entre 1980 e 2020."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Como essas alterações fenológicas poderiam afetar o balanço de carbono na atmosfera? Justifique a sua resposta."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 24,
+      "codigo": "B06",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Ambientes de restinga apresentam diversas zonas de vegetação no trecho entre a linha da maré mais alta e o interior do continente, criando uma zonação, como esquematizado no perfil de vegetação da figura ao lado. As plantas dessas zonas (A, B, C, D, E) apresentam adaptações ao gradiente de condições ambientais em que se encontram.\n\n![Perfil de vegetação de restinga, do mar ao interior do continente, em uma escala de 0 a 200 metros, com as zonas de vegetação rotuladas A, B, C, D e E](fig:p24-f3)\n\nOs gráficos a seguir mostram o aumento de biomassa durante um experimento realizado com duas espécies de plantas: o feijão-da-praia, que se encontra na zona A, e o maracujá-da-praia, que ocorre na zona C. Indivíduos dessas duas plantas foram regados com água destilada ($\\text{H}_2\\text{O}$) e solução salina nas concentrações de 3% e 10%.\n\n![Gráfico do aumento de biomassa (g) do feijão-da-praia ao longo de 56 dias, com três curvas: H2O, 3% e 10%](fig:p24-f4)\n\n![Gráfico do aumento de biomassa (g) do maracujá-da-praia ao longo de 56 dias, com três curvas: H2O, 3% e 10%](fig:p24-f6)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite uma possível adaptação de uma planta da zona A para sobreviver no solo móvel da duna."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Compare a tolerância de cada uma das plantas à salinidade. Justifique a sua resposta com base nos gráficos."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Complete o gráfico da folha de respostas demonstrando o padrão da curva de biomassa vegetal total ao longo da zonação representada no perfil de vegetação.\n\n*Campo de resolução:* ![Gráfico em branco com o eixo “biomassa” e o eixo “metros”, marcado em 0, 100 e 200](fig:p25-c1)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 25,
+      "codigo": "G01",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“O Censo Demográfico do ano de 2022, do IBGE, revela que há 1.327.802 (0,65% da população total do país) de indivíduos que pertencem a uma comunidade tradicional em todo o país. A maior parte dessa população, 68,2% (905 mil pessoas), vive nos estados do Nordeste brasileiro. Ao todo, os territórios desse grupo estão em 1.696 municípios. O estado da Bahia é a Unidade da Federação com maior quantidade de pessoas, com 29,90% da população, em seguida, vem o Maranhão, com 20,26% dessa população. É a primeira vez ao longo dos levantamentos censitários que este dado é incluído.”\n\nDisponível em https://agenciadenoticias.ibge.gov.br/. Adaptado.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Indique a qual comunidade tradicional o texto faz referência."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Aponte dois fatores que contribuem para a presença de 68,2% desse grupo na região Nordeste do Brasil."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Indique e explique um fator que contribui para a redução das áreas ocupadas por essas comunidades no Brasil atual."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 26,
+      "codigo": "G02",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em agosto de 2023, ocorreu a Cúpula de Johanesburgo, na África do Sul. Entre os principais assuntos, destacou-se o debate sobre a ampliação dos países integrantes dos BRICS. O quadro a seguir traz informações importantes sobre alguns dos países interessados em ingressar no grupo:\n\n**Principais candidatos**\n\n| País | População | PIB (em US\\$) |\n|---|---|---|\n| Arábia Saudita | 35,9 milhões | 833 bilhões |\n| Argentina | 45,8 milhões | 487 bilhões |\n| Egito | 109,3 milhões | 404 bilhões |\n| Emirados Árabes Unidos | 9,3 milhões | 415 bilhões |\n| Irã | 87,9 milhões | 359 bilhões |\n\nFonte: Banco Mundial / Infográfico Estadão, 2023.\n\nA partir dos dados e de seus conhecimentos sobre o tema, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Conceitue BRICS."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando os dados apresentados, indique duas vantagens econômicas, aos atuais países membros, decorrentes da ampliação dos BRICS."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Cite e explique uma mudança geopolítica que a ampliação dos BRICS poderia trazer para a atual ordem mundial."
+        }
+      ],
+      "observacoes": "Na resposta oficial do item c está “influência história dos EUA” (provável erro de digitação de “histórica”); mantido como no documento da banca."
+    },
+    {
+      "numero": 27,
+      "codigo": "G03",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir apresenta a síntese da evolução do tempo em que as atividades humanas começaram a ter impacto significativo nos sistemas do planeta Terra (tempo conhecido por Antropoceno). As fases desse tempo são destacadas na escala apresentada.\n\n![Linha do tempo de 7.000 a.C. a dias atuais, com as fases “Antropoceno Antigo” (até 1.750 d.C.), “Era Industrial” (de 1.750 d.C. a 2000) e “Medidas Mitigadoras” (de 2000 aos dias atuais)](fig:p28-c2)\n\nGOUDIE, A. S.; VILES, H. A. *Geomorphology in the Anthropocene*. Nova York: Cambridge University Press, 2016. Adaptado.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A qual período geológico se refere o Antropoceno?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite duas causas para a aceleração do impacto humano sobre os sistemas do planeta Terra a partir da Era Industrial."
+        },
+        {
+          "rotulo": "c",
+          "texto": "A escala de tempo culmina na fase de Medidas Mitigadoras. Cite e explique uma medida para minimizar o impacto da ação humana sobre os sistemas do planeta Terra."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "19": {
+      "itens": {
+        "a": "A relação entre a taxa de mortalidade da população humana chinesa e a produção de grãos é inversamente proporcional, isto é, à medida que a produção de grãos cai, a taxa de mortalidade aumenta, e vice-versa.",
+        "b": "![Gráfico do tamanho da população de 1955 a 1964, com uma curva vermelha e uma curva azul](fig:r15-f3)\n\nGafanhotos em vermelho e pardais em azul.\n\nNota: a posição relativa das curvas não precisa ser considerada; basta que esteja representada uma queda seguida por aumento populacional para pardais entre 1958 e 1961 e um aumento seguido por queda populacional para gafanhotos no mesmo período.",
+        "c": "![Teia trófica com os quadros Ser humano, Pardal, Gafanhoto e Grãos, ligados por setas](fig:r15-f4)"
+      },
+      "resposta": "**Objetivo da questão:** Interpretação de gráfico e correlação de dados, representação gráfica e contextualização de dados apresentados."
+    },
+    "20": {
+      "itens": {
+        "a": "Seleção natural",
+        "b": "Biótico: predação; justificativa: a mudança da cor do substrato causou a ineficiência da camuflagem e deixou as mariposas brancas suscetíveis a serem predadas.",
+        "c": "![Gráfico de frequência de indivíduos por fenótipo, de “[+ claro]” a “[+escuro]”, com uma curva tracejada azul e uma curva vermelha deslocada para o lado dos fenótipos mais escuros](fig:r16-c1)\n\nTrata-se de um padrão de seleção direcional, em que o pico da curva pós-RI se desloca para uma maior frequência de fenótipos mais escuros com o tempo."
+      },
+      "resposta": "**Objetivo da questão:** Interpretação e correlação de dados representados em figuras de uma série temporal, representação gráfica e contextualização de dados apresentados."
+    },
+    "21": {
+      "itens": {
+        "a": "Pelo intervalo normal apresentado pelos elementos do quadro vermelho ou citar que os elementos eritrócitos, hemoglobina e hematócrito estão normais ou que a série vermelha está normal.",
+        "b": "Leucócitos, Neutrófilos, Eosinófilos, Basófilos, Linfócitos, Monócitos.",
+        "c": "Toxoplasma ou toxoplasmose. Dentre os sintomas, podem ser citados: comprometimento ocular (chegando até a cegueira), cefaleias, abcessos cerebrais, crises convulsivas, perda dos movimentos dos membros, tosse, miocardite, febre, dores pelo corpo, inchaço, convulsões, danos neurológicos, fadiga, mal-estar, manchas na pele, alterações nos gânglios linfáticos."
+      },
+      "resposta": "**Objetivo da questão:** Interpretação e contextualização de dados quantitativos em tabela."
+    },
+    "22": {
+      "itens": {
+        "a": "3 pares de pernas, corpo dividido em cabeça, tórax e abdômen, um par de antenas, aceita-se também mencionar asas.",
+        "b": "A capacidade de sentir o cheiro da barata é autossômica dominante, porque somente pessoas homozigóticas para a mutação são incapazes de sentir cheiro de barata ou porque as pessoas que têm um alelo selvagem são capazes de sentir esse odor.\n\nOU\n\nA mutação é autossômica recessiva, porque o gene se localiza num autossomo e somente quando a mutação está presente nos dois alelos o indivíduo deixa de perceber o odor.",
+        "c": "No DNA. A primeira adenina foi substituída por uma guanina."
+      },
+      "resposta": "**Objetivo da questão:** Interpretação de gráfico e correlação de dados, representação gráfica e contextualização de dados apresentados."
+    },
+    "23": {
+      "itens": {
+        "a": "Zona temperada ou subtropical.",
+        "b": "A produção de folhas foi antecipada ao longo do ano OU a queda de folhas foi antecipada ao longo do ano OU a produção de folhas durou mais tempo (foi prolongada) OU a queda de folhas durou mais tempo (foi prolongada).",
+        "c": "Essas alterações fenológicas poderiam diminuir o carbono atmosférico OU aumentar o sequestro de carbono atmosférico. Justificativa: maior quantidade de folhas verdes demanda mais carbono para seus processos bioquímicos (fotossíntese) OU maior quantidade de folhas verdes aumentam a fotossíntese total do sistema que demandam mais $\\text{CO}_2$ (ou carbono)."
+      },
+      "resposta": "**Objetivo da questão:** Leitura e interpretação de dados em gráficos e correlação entre gráficos, contextualização de dados apresentados, previsão de cenários."
+    },
+    "24": {
+      "itens": {
+        "a": "Raízes adventícias OU caule reptante OU caule estolonífero OU caule rastejante.",
+        "b": "O feijão-da-praia (planta da zona A) apresenta maior tolerância à salinidade, comparado ao maracujá-da-praia (planta da zona C). Justificativa: o feijão-da-praia desenvolve-se bem na concentração de 3%. O maracujá-da-praia apresenta baixo crescimento na concentração de 3% e não se desenvolve nas concentrações de 10%.\n\nOU\n\nO feijão-da-praia consegue se desenvolver muito mais que o maracujá-da praia nas concentrações de 3%.",
+        "c": "![Gráfico de biomassa em função da distância em metros, de 0 a 200, com uma curva reta ascendente e uma curva que sobe e se estabiliza](fig:r20-f3)"
+      },
+      "resposta": "**Objetivo da questão:** Interpretação e correlação de dados em esquema e gráficos, representação gráfica e contextualização de dados apresentados."
+    },
+    "25": {
+      "itens": {
+        "a": "Comunidades Quilombolas.",
+        "b": "Dentre os fatores, estão: concentração de escravizados utilizados na produção canavieira na Região Nordeste no período colonial; resistência negra ao processo de escravidão resultante nos primeiros Quilombos na Região Nordeste, sendo o mais famoso o Quilombo de Palmares; centralidade do Porto de Salvador na chegada das populações escravizadas no Brasil durante o período colonial.",
+        "c": "O avanço das atividades econômicas, com a agricultura comercial e a pecuária extensiva nas áreas destinadas à demarcação de comunidades quilombolas.\n\nInércia do poder público no reconhecimento e demarcação das terras de comunidades quilombolas no país.\n\nSobreposição de áreas de conservação em áreas quilombolas, resultando em conflitos no processo de demarcação dessas comunidades."
+      },
+      "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos estudantes sobre as comunidades tradicionais brasileiras, seu processo histórico de formação e os impactos das atividades econômicas sobre a dinâmica dessas comunidades."
+    },
+    "26": {
+      "itens": {
+        "a": "Primeiramente composto por Brasil, Rússia, Índia e China, o grupo passou a contar com a presença da África do Sul a partir de 2011, completando o acrônimo BRICS.",
+        "b": "Podem ser citadas as seguintes vantagens: ampliação dos mercados consumidores dos produtos dos países membros; maior acesso a importantes áreas produtoras de petróleo, como Arábia Saudita, Emirados Árabes e Irã; ampliação da influência econômica, com redução de barreiras alfandegárias.",
+        "c": "Com a ampliação dos BRICS, amplia-se a influência do Bloco na dinâmica geopolítica e geoeconômica mundial, com maior participação no PIB e no comércio global, além de aumentar a atuação do Bloco em áreas de influência história dos EUA, como o Oriente Médio."
+      },
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos estudantes sobre o mundo multipolar, como o destaque para a participação dos BRICS e sua expansão no contexto geopolítico contemporâneo."
+    },
+    "27": {
+      "itens": {
+        "a": "Quaternário.",
+        "b": "Podem ser citadas como causas a criação da máquina a vapor, o uso de combustíveis fósseis, a ampliação da emissão dos gases do efeito estufa na atmosfera, o aumento da capacidade de transformação da paisagem pelo trabalho humano, o uso intensivo de maquinário.",
+        "c": "Políticas públicas para a definição de metas de emissão de gases do efeito estufa, adoção de práticas conservacionistas na produção em diferentes áreas, ênfase no planejamento voltada a conservação e uso racional dos recursos naturais, elaboração de legislação ambiental voltada à conservação do patrimônio natural para a manutenção da fauna e flora, incentivo à educação ambiental."
+      },
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos estudantes sobre as relações entre espaço, sociedade, natureza, com foco nas transformações antrópicas no meio físico em diferentes períodos e sociedades."
+    }
+  }
+}
