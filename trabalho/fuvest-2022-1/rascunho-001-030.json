@@ -1,0 +1,473 @@
+{
+ "edicao": "fuvest-2022-1",
+ "textos_base": {
+  "t17-18": "No modelo hegemônico, quase todo o treinamento é reservado para o desenvolvimento muscular, sobrando muito pouco tempo para a mobilidade, a flexibilidade, o treino restaurativo, o relaxamento e o treinamento cardiovascular. Na teoria, seria algo em torno de 70% para o fortalecimento, 20% para o cárdio e 10% para a flexibilidade e outros. Na prática, muitos alunos direcionam 100% do tempo para o fortalecimento.\n\nComo a prática cardiovascular é infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável, essa ordem deveria ser revista.\n\nNuno Cobra Jr. “*Fitness* não é saúde”. *Uol*. 06/05/2021. Adaptado.",
+  "t20-22": "I.\n\n*Suave mari magno*$*$\n\nLembra-me que, em certo dia,\nNa rua, ao sol de verão,\nEnvenenado morria\nUm pobre cão.\n\nArfava, espumava e ria,\nDe um riso espúrio e bufão,\nVentre e pernas sacudia\nNa convulsão.\n\nNenhum, nenhum curioso\nPassava, sem se deter,\nSilencioso,\n\nJunto ao cão que ia morrer,\nComo se lhe desse gozo\nVer padecer.\n\nMachado de Assis. *Ocidentais*.\n\n$*$Expressão latina, retirada de Lucrécio (*Da natureza das coisas*), a qual aparece no seguinte trecho: Suave, mari magno, turbantibus aequora ventis/ E terra magnum alterius spectare laborem. (“É agradável, enquanto no mar revoltoso os ventos levantam as águas, observar da terra os grandes esforços de um outro.”).\n\nII.\n\nTão certo é que a paisagem depende do ponto de vista, e que o melhor modo de apreciar o chicote é ter-lhe o cabo na mão.\n\nMachado de Assis. *Quincas Borba*, cap. XVIII.\n\nIII.\n\nSofia soltou um grito de horror e acordou. Tinha ao pé do leito o marido:\n– Que foi? perguntou ele.\n– Ah! respirou Sofia. Gritei, não gritei?\n(...)\n– Sonhei que estavam matando você.\n\nPalha ficou enternecido. Havê-la feito padecer por ele, ainda que em sonhos, encheu-o de piedade, mas de uma piedade gostosa, um sentimento particular, íntimo, profundo, – que o faria desejar outros pesadelos, para que o assassinassem aos olhos dela, e para que ela gritasse angustiada, convulsa, cheia de dor e de pavor.\n\nMachado de Assis. *Quincas Borba*, cap. CLXI.",
+  "t25-26": "A taxação de livros tem um efeito cascata **que** acaba custando caro não apenas ao leitor, como também ao mercado editorial – **que** há anos não anda bem das pernas – e, em última instância, ao desenvolvimento econômico do país. A gente explica. Taxar um produto significa, quase sempre, um aumento no valor do produto final. Isso porque ao menos uma parte desse imposto será repassada ao consumidor, especialmente se considerarmos que as editoras e livrarias enfrentam há anos uma crise **que** agora está intensificada pela pandemia e não poderiam retirar o valor desse imposto de seu já apertado lucro. Livros mais caros também resultam em queda de vendas, **que**, por sua vez, enfraquece ainda mais editoras e as impede de investir em novas publicações – especialmente aquelas de menor apelo comercial, mas igualmente importantes para a pluralidade de ideias. Já deu para perceber a confusão, não é? Mas, além disso, qual seria o custo de uma sociedade com menos leitores e menos livros?\n\nTaís Ilhéu. “Por que taxar os livros pode gerar retrocesso social e econômico no país”. *Guia do Estudante*. Setembro/2020. Adaptado.",
+  "t28-29": "A escrita faz **de tal modo** parte de nossa civilização **que** poderia servir de definição dela própria. A história da humanidade se divide em duas imensas eras: antes e a partir da escrita. Talvez venha o dia de uma terceira era — depois da escrita. Vivemos os séculos da civilização escrita. Todas as nossas sociedades baseiam-se no escrito. A lei escrita substitui a lei oral, o contrato escrito substitui a convenção verbal, a religião escrita se seguiu à tradição lendária. E **sobretudo** não existe história que não se funde sobre textos.\n\nCharles Higounet. *A história da escrita*. Adaptado."
+ },
+ "questoes": [
+  {
+   "numero": 1,
+   "materia": "biologia",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "A deficiência na enzima G6PD é uma condição recessiva ligada ao cromossomo X, que pode ser diagnosticada no teste do pezinho expandido. Pessoas com deficiência nesta enzima são suscetíveis à anemia hemolítica ao serem expostas à cloroquina ou primaquina, drogas amplamente prescritas por médicos no tratamento da malária. No Brasil, a prevalência de deficiência em G6PD na população geral varia de acordo com as áreas mostradas no mapa:\n\n![Mapa do Brasil com a prevalência de deficiência em G6PD: 1%, 3% e 5%](fig:p02-f1)\n\nDombrowski, J G *et al*. (2017), *Malar J*, 16:253, doi:10.1186/s12936-017-1889-6 e Monteiro, W M *et al*. (2014), *Mem Inst Oswaldo Cruz*, 109:5, 553-568, doi:10.1590/0074-0276140123. Adaptados.\n\nIndique a afirmação correta sobre a segurança da prescrição de cloroquina nesse contexto.\n\n**Note e adote:** População de três regiões brasileiras: Norte = 18 milhões; Nordeste = 58 milhões; Centro-Oeste = 17 milhões.",
+   "alternativas": {
+    "A": "Não é necessário fazer o teste do pezinho expandido em filhos de casais da região Nordeste do Brasil que apresentem deficiência da G6PD, já que menos de 3% dos testes serão positivos.",
+    "B": "Aproximadamente 8,5 milhões de pessoas da região Centro-Oeste do Brasil têm somente um alelo recessivo para a deficiência em G6PD, sendo assintomáticas.",
+    "C": "Cerca de 900 mil pessoas da região Norte do Brasil podem desenvolver anemia hemolítica devido ao tratamento com cloroquina, sendo a maioria do sexo masculino.",
+    "D": "Descendentes de casais que não apresentam deficiência em G6PD têm mais de 25% de chance de possuírem o alelo recessivo e podem ser tratados com cloroquina em áreas onde a malária não seja endêmica.",
+    "E": "Os pacientes do sexo masculino devem ser investigados quanto à presença de anemia hemolítica na família paterna caso vivam em regiões onde a malária é endêmica."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 2,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Por mais bem informado que você possa ser, não dá para baixar a guarda. Mas por que as notícias falsas – mesmo aquelas mais improváveis – parecem tão convincentes para tantas pessoas? Van Bavel, professor de psicologia e ciência neural da Universidade de Nova York, se especializou em entender como as crenças políticas e identidades de grupo influenciam a mente, e descobriu que a identificação com posições políticas pode interferir em como o cérebro processa as informações.\n\nTendemos a rejeitar fatos que ameaçam nosso senso de identidade e sempre buscar informações que confirmem nossas próprias crenças, seja por meio de memórias seletivas, leituras de fontes que estão do nosso lado ou mesmo interpretando os fatos de determinada maneira. Isso tudo está relacionado a não querermos ter nossas ideias, gostos, identidade questionados, e por isso temos dificuldade em aceitar o que contradiz aquilo em que acreditamos.\n\nAna Prado. “A ciência explica por que caímos em *fake news*”. *Superinteressante*. 15/06/2018. Adaptado.\n\nDe acordo com o texto,",
+   "alternativas": {
+    "A": "as pessoas bem informadas estão protegidas de polêmicas, uma vez que o modo como processam os fatos tornam suas opiniões mais convincentes.",
+    "B": "o posicionamento político garante a disseminação de notícias verdadeiras e resulta de crenças já estabelecidas socialmente.",
+    "C": "a rejeição a questionamentos impede que se admitam pontos de vista antagônicos, em razão da tendência de se confirmar crenças pessoais.",
+    "D": "as memórias seletivas auxiliam na rejeição de fatos contrários à realidade, já que conduzem à interpretação das reportagens de modo imparcial.",
+    "E": "os fatos hostis normalmente são preteridos por grande parte da sociedade, embora sejam utilizados como identificador cultural."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 3,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nas histórias em quadrinhos, o Pantera Negra ganha habilidades físicas e mentais sobre-humanas ao ingerir ou aplicar sobre seu corpo uma solução da erva em formato de coração, cujos efeitos perduram durante a vida do herói, mas não são transmitidos aos descendentes. Essa planta cresce em Wakanda, região da África equatorial oriental, onde um meteorito contendo um metal chamado Vibranium caiu há 10 mil anos e provocou mutações na planta. Uma explicação coerente com o conhecimento científico para o que ocorreu nessa situação ficcional é que a erva",
+   "alternativas": {
+    "A": "sofreu mutações em células somáticas pela ação do Vibranium na época em que o meteorito atingiu Wakanda.",
+    "B": "promoveu mutações no RNA das células do Pantera Negra.",
+    "C": "provocou mutações dominantes relacionadas aos superpoderes nas células germinativas do Pantera Negra.",
+    "D": "é uma planta característica de ambientes de tundra.",
+    "E": "estava em estação de floração quando o meteorito caiu, causando mutações em suas células germinativas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 4,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Tirinha em três quadros. Primeiro quadro: “Milhões de brasileiros enfrentam péssimas condições de transporte todos os dias.” Segundo quadro: “E alguns ainda dizem...” Terceiro quadro: “...que este é o país da impunidade.”](fig:p03-c1)\n\nDisponível em http://www.malvados.com.br/.\n\nConsiderando a ironia da tirinha, é possível inferir que",
+   "alternativas": {
+    "A": "o serviço de transporte público é gerido pelo Estado.",
+    "B": "a qualidade do transporte é uma forma de punição.",
+    "C": "os responsáveis pelo transporte são punidos no Brasil.",
+    "D": "o brasileiro é um povo que tolera a criminalidade.",
+    "E": "o transporte público é responsável pela mobilidade urbana."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 5,
+   "materia": "fisica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "O gráfico mostra dados coletados na cidade do Rio de Janeiro, entre fevereiro e abril de 2020, período que inclui o início das medidas de restrição de circulação na cidade por causa da pandemia de COVID-19. Para cada dia, representado por um símbolo no gráfico, foram coletadas duas grandezas: uma média da energia de vibração sísmica durante o dia (na abscissa) e o índice $F$ (na ordenada), que é a fração de pessoas que saiu de casa alguma vez naquele dia. A energia sísmica média foi medida em $(\\text{nm/s})^2$ na faixa de frequências que tem causas humanas. Os triângulos representam domingos e feriados; os quadrados referem-se aos sábados; e os círculos correspondem aos dias úteis da semana. Para cada um desses subconjuntos de dados, uma reta média foi obtida, expressando a relação aproximada entre as duas grandezas medidas.\n\n![Gráfico da fração F de pessoas que saíram de casa em função da energia sísmica média, com triângulos vermelhos, quadrados azuis e círculos pretos e uma reta média para cada conjunto](fig:p03-c3)\n\nDias, F L *et al*. (2020), *Geophysical Research Letters*, 47:16, doi:10.1029/2020GL088748. Adaptado.\n\nSobre o estudo descrito, o que é possível inferir a partir dos dados apresentados?",
+   "alternativas": {
+    "A": "Em nenhum sábado, a energia sísmica média registrada superou 380 $(\\text{nm/s})^2$.",
+    "B": "Em todos os dias úteis da semana, pelo menos 20% das pessoas permaneceram o tempo todo em casa.",
+    "C": "Em alguns dos dias de domingo ou feriado, a energia sísmica média foi maior do que 600 $(\\text{nm/s})^2$.",
+    "D": "Em dias úteis da semana, a energia sísmica média foi maior ou igual do que em sábados, domingos e feriados, para o mesmo número de pessoas que saiu de casa em um dia.",
+    "E": "Aos sábados, uma medição de energia sísmica média de 190 $(\\text{nm/s})^2$ indica que mais de 60% das pessoas saíram de casa nesse dia."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 6,
+   "materia": "geografia",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "Os mapas mostram uma parte do município de São Paulo. O mapa I refere-se à população vacinada contra Sars-Cov-2; o mapa II refere-se à taxa de mortalidade por COVID-19; e o mapa III refere-se ao Índice de Desenvolvimento Humano. Tons mais claros indicam valores menores e tons mais escuros, valores maiores.\n\n![Três mapas de parte do município de São Paulo: I, imunização com 2 doses; II, mortalidade por COVID-19; III, Índice de Desenvolvimento Humano (IDH)](fig:p03-f3)\n\nDisponível em https://www.labcidade.fau.usp.br/. Maio/2021. Adaptado.\n\nA partir desses dados, é correto afirmar que",
+   "alternativas": {
+    "A": "a efetividade da campanha de vacinação coincide com as áreas de maior IDH.",
+    "B": "a virulência das variantes de Sars-Cov-2 é menor em áreas de menor IDH.",
+    "C": "as vacinas em áreas de menor IDH demandam maior tempo para a resposta imunológica do indivíduo.",
+    "D": "a taxa de mortalidade varia porque a população no centro do município é maior e mais agregada.",
+    "E": "a prevalência das variantes de Sars-Cov-2 é maior em áreas de maior IDH."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 7,
+   "materia": "geografia",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "Um aumento no consumo de água e produtos agrícolas por parte da população brasileira geralmente vem atrelado a um aumento na pressão exercida sobre o meio ambiente. Selecione a alternativa que apresenta duas soluções sustentáveis, de amplo alcance nacional e economicamente viáveis, para diminuir a expansão dos cultivos sobre a vegetação nativa e para garantir recursos hídricos de qualidade para as gerações futuras.",
+   "alternativas": {
+    "A": "I - Aumento da exportação de produtos agropecuários.\nII - Criação em larga escala de represas de pequeno porte.",
+    "B": "I - Aumento progressivo da produtividade dos cultivos já existentes.\nII - Programa amplo de preservação de matas ciliares.",
+    "C": "I - Diminuição do comércio interno de produtos agrícolas.\nII - Aumento da utilização dos aquíferos para abastecimento dos cultivos.",
+    "D": "I - Aumento da exportação de produtos agropecuários.\nII - Programa amplo de preservação de matas ciliares.",
+    "E": "I - Diminuição do comércio interno de produtos agrícolas.\nII - Criação em larga escala de represas de pequeno porte."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 8,
+   "materia": "biologia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "Os gráficos mostram três trajetórias distintas com relação ao número de espécies animais e vegetais, após desmatamento de áreas da floresta Amazônica:\n\n![Três gráficos (I, II e III) do número de espécies em função do tempo após o desmatamento, em anos](fig:p04-f2)\n\nApós os desmatamentos, os gráficos I, II e III correspondem, respectivamente, a uma área que foi",
+   "alternativas": {
+    "A": "usada para pastagem e depois para cultivo de soja; usada para cultivo de soja nos primeiros 20 anos e depois abandonada; abandonada logo após o desmatamento.",
+    "B": "abandonada logo após o desmatamento; usada como pastagem nos primeiros 20 anos e depois abandonada; usada para pastagem e depois para cultivo de soja.",
+    "C": "usada como pastagem nos primeiros 20 anos e depois abandonada; abandonada logo após o desmatamento; usada para pastagem e depois para cultivo de soja.",
+    "D": "usada como pastagem nos primeiros 20 anos e depois abandonada; usada para pastagem e depois para cultivo de soja; abandonada logo após o desmatamento.",
+    "E": "usada para pastagem e depois para cultivo de soja; abandonada logo após o desmatamento; usada para cultivo de soja nos primeiros 20 anos e depois abandonada."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 9,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico representa o volume celular de um protozoário ciliado em um gradiente de salinidade:\n\n![Gráfico do volume relativo da célula em função da concentração de água do mar no meio, de 100% a 0%](fig:p04-c1)\n\nA partir desses dados, é correto afirmar que o protozoário ciliado é\n\n**Note e adote:** O volume celular do ciliado em seu habitat natural é o referencial 1. 0% corresponde a água doce pura.",
+   "alternativas": {
+    "A": "de água salobra e seu equilíbrio osmótico ocorre por difusão passiva em ambientes hiposmóticos.",
+    "B": "de água doce e possui mecanismos de controle osmótico em ambientes hiperosmóticos.",
+    "C": "marinho e possui mecanismos de controle osmótico em ambientes hiperosmóticos.",
+    "D": "de água doce e não possui mecanismos de controle osmótico em ambientes hiposmóticos.",
+    "E": "marinho e não possui mecanismos de controle osmótico em ambientes hiposmóticos."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 10,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico mostra linhas de tendência de cinco parâmetros da água (eixo y), medidos por pesquisadores, durante os estágios iniciais do processo de eutrofização de uma lagoa, a partir do momento em que começou a haver aporte de esgoto não tratado e antes de haver a estabilização do sistema. Entretanto, os técnicos da companhia de saneamento notaram que nem todas as tendências mostradas no gráfico estão corretas.\n\n![Gráfico com cinco linhas de tendência ao longo do tempo: (1) densidade de algas, (2) concentração de compostos nitrogenados, (3) número de espécies em geral, (4) concentração de O2 e (5) densidade de decompositores](fig:p05-f1)\n\nSão corretas apenas as linhas de tendência representadas em",
+   "alternativas": {
+    "A": "1, 2 e 3.",
+    "B": "1, 2 e 4.",
+    "C": "2, 3 e 5.",
+    "D": "2, 4 e 5.",
+    "E": "3, 4 e 5."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 11,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico representa a proporção de células em diferentes fases do ciclo celular de dois tecidos humanos (1 e 2), bem como o efeito do tratamento do tecido 2 com uma substância que afeta a divisão celular:\n\n![Gráfico de barras da porcentagem de células em intérfase, prófase, metáfase, anáfase e telófase nos tecidos 1, 2 e 2 tratado](fig:p05-f2)\n\nOs tecidos 1 e 2 e uma aplicação médica do efeito do tratamento são, respectivamente:",
+   "alternativas": {
+    "A": "muscular, tumoral e quimioterapia.",
+    "B": "ósseo, ovariano e fertilização *in vitro*.",
+    "C": "nervoso, tumoral e transplante.",
+    "D": "epitelial, ósseo e transfusão sanguínea.",
+    "E": "tumoral, nervoso e radioterapia."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 12,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Analise o esquema e as estruturas (X, Y e Z) da planta para completar a frase a seguir.\n\n![Esquema de uma planta com detalhe de uma célula vegetal, com as estruturas X e Y indicadas, e de estômatos na folha, com a estrutura Z indicada](fig:p05-f3)\n\nÀs 14h de um dia ensolarado, em condições hídricas ótimas, a estrutura identificada por <u>I</u> encontra-se <u>II</u>, possibilitando a absorção de água do solo e entrada de $\\text{CO}_2$, que é utilizado pela estrutura representada por <u>III</u> para realização da fotossíntese.\n\nAs lacunas I, II e III podem ser preenchidas corretamente por:",
+   "alternativas": {
+    "A": "I: Z; II: aberta; III: Y",
+    "B": "I: Z; II: fechada; III: X",
+    "C": "I: Y; II: vazia; III: X",
+    "D": "I: X; II: cheia; III: Z",
+    "E": "I: X; II: vazia; III: Y"
+   },
+   "observacoes": "No caderno as alternativas vêm em tabela com colunas I, II e III; aqui cada linha foi escrita como 'I: ...; II: ...; III: ...'."
+  },
+  {
+   "numero": 13,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O esquema a seguir representa o aparecimento de bactérias mutantes em uma colônia e o resultado de sua exposição a quatro diferentes condições de cultura:\n\n![Esquema de uma colônia de bactérias com mutações X (preta) e Y (branca) e o resultado nas condições I, II, III e IV](fig:p05-f4)\n\nDisponível em https://edepot.wur.nl/376546/. Adaptado.\n\nAssinale a alternativa com a relação correta entre as mutações e as condições de cultura.",
+   "alternativas": {
+    "A": "A mutação X inativa os transportadores de glicose, e a condição I tem esse açúcar como fonte exclusiva de carbono.",
+    "B": "A mutação X promove melhor eficiência do equilíbrio osmótico, e a condição III tem alta salinidade.",
+    "C": "A mutação Y confere resistência ao antibiótico penicilina, e o meio de cultura da condição II contém esse antibiótico.",
+    "D": "As mutações X e Y conferem vantagem adaptativa às bactérias na condição IV.",
+    "E": "A frequência de novas mutações será maior na condição IV."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 14,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "O quadrinho a seguir mostra uma paródia entre situações cotidianas e descobertas científicas.\n\n![Quadrinho de quatro cenas. Primeira: “No jantar dos cientistas, Mendeleev pôs a mesa (e definiu o lugar de cada um).” Segunda: “Watson e Crick levaram o prato principal: fusilli com sopa de letrinhas.” Terceira: “Thomson serviu a sobremesa.” Quarta: “Aff... Pudim de passas?” e “Esse cara nunca ouviu falar em gotas de chocolate?”](fig:p06-f1)\n\nQuais feitos científicos de Mendeleev, de Watson e Crick e de Thomson estão relacionados com o quadrinho?",
+   "alternativas": {
+    "A": "Proposição de um modelo atômico, descoberta da estrutura dos polímeros, descoberta da radioatividade.",
+    "B": "Organização dos elementos químicos em uma Tabela Periódica, descoberta da estrutura do DNA, proposição de um modelo atômico.",
+    "C": "Compreensão da reatividade dos elementos químicos, representação simbólica dos elementos, descoberta das interações moleculares.",
+    "D": "Definição de entalpia, representação simbólica dos elementos, caracterização e propriedades dos coloides.",
+    "E": "Balanceamento de equações químicas, descoberta da pilha, organização dos elementos químicos em uma Tabela Periódica."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 15,
+   "materia": "filosofia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No texto do filósofo francês Maurice Merleau-Ponty é estabelecida uma conexão entre as relações sociais e a racionalidade dos indivíduos:\n\n*A sociedade humana não é uma comunidade de espíritos racionais, só se pode compreendê-la assim nos países favorecidos, em que o equilíbrio vital e econômico foi obtido localmente e por certo tempo.*\n\nMaurice Merleau-Ponty, *Fenomenologia da percepção*, p.89.\n\nQual sentença, se tomada como verdadeira, reforça a posição exprimida pelo filósofo no trecho?",
+   "alternativas": {
+    "A": "A racionalidade é uma potência espiritual que se impõe sobre as circunstâncias históricas.",
+    "B": "O equilíbrio vital e econômico é uma força irracional que se contrapõe aos espíritos racionais.",
+    "C": "Nos países favorecidos, as pessoas são naturalmente mais racionais.",
+    "D": "A racionalidade das relações sociais depende da estabilidade de circunstâncias históricas.",
+    "E": "Os espíritos racionais são responsáveis pelo equilíbrio vital e econômico dos países favorecidos."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 16,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura sintetiza, de forma simplificada, a variação da pressão sanguínea (mmHg), da velocidade de circulação sanguínea (cm/s) e da área total ($\\text{cm}^2$) em relação aos diversos tipos de vasos do sistema sanguíneo humano (artérias, arteríolas, capilares, vênulas e veias):\n\n![Gráfico de pressão sanguínea, velocidade e área total em função dos tipos de vasos: artérias, arteríolas, capilares, vênulas e veias](fig:p06-f2)\n\nCom base na figura, é correto afirmar que",
+   "alternativas": {
+    "A": "a velocidade aumenta nas vênulas, o que permite às hemoglobinas descarregarem o $\\text{O}_2$.",
+    "B": "a pressão sanguínea cai nos capilares, vênulas e veias pela presença de válvulas nesses vasos.",
+    "C": "a pressão diminui a partir dos capilares, o que evita acidentes vasculares em vasos menores.",
+    "D": "a área aumenta na região dos capilares, o que permite maior eficiência nas trocas gasosas.",
+    "E": "a velocidade é inversamente proporcional à área por conta do batimento sistólico do coração."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 17,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t17-18",
+   "enunciado": "Sem alteração de sentido, o segundo parágrafo do texto poderia ser reescrito da seguinte maneira:",
+   "alternativas": {
+    "A": "Ainda que a prática cardiovascular seja infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, essa ordem deveria ser revista, podendo ser considerada o “coração” de um treinamento consciente e saudável.",
+    "B": "Para evitar que a prática cardiovascular se torne infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável, essa ordem deveria ser revista.",
+    "C": "Quando a prática cardiovascular for infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, essa ordem deveria ser revista, podendo ser considerada o “coração” de um treinamento consciente e saudável.",
+    "D": "Quanto mais a prática cardiovascular é infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável, essa ordem deveria ser revista.",
+    "E": "Essa ordem deveria ser revista: a prática cardiovascular é infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 18,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t17-18",
+   "enunciado": "Dentre as expressões destacadas, a que exerce a mesma função sintática do termo sublinhado em “o treino <u>restaurativo</u>, o relaxamento e o treinamento cardiovascular” é:",
+   "alternativas": {
+    "A": "um atleta **de seleção** precisa de treinamento intenso.",
+    "B": "o amor **ao esporte** é fundamental para o atleta.",
+    "C": "a população incorpora **radicalmente** atitudes saudáveis.",
+    "D": "muitas **pessoas** se beneficiam de alimentos verdes.",
+    "E": "todo tipo de atividade física faz **bem** à saúde mental."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 19,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Por narrativas paralelas entende-se um procedimento literário segundo o qual dois ou mais fios narrativos pertencentes a níveis distintos de realidade se desenrolam intercaladamente formando um todo. Considerando-se a sua estrutura, as duas narrativas que podem ser identificadas com base nessa definição são:",
+   "alternativas": {
+    "A": "*Quincas Borba* e *Nove noites*",
+    "B": "*Campo geral* e *Terra sonâmbula*",
+    "C": "*Angústia* e *Campo geral*",
+    "D": "*Nove noites* e *Terra sonâmbula*",
+    "E": "*Quincas Borba* e *Angústia*"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 20,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": "t20-22",
+   "enunciado": "A visão do eu-lírico no texto I",
+   "alternativas": {
+    "A": "volta-se nostálgica para as imagens de uma lembrança.",
+    "B": "centra-se com desprezo na figura do animal agonizante.",
+    "C": "apreende displicentemente o movimento dos transeuntes.",
+    "D": "ganha distância da cena para captar todos os seus aspectos.",
+    "E": "apresenta o espectador da crueldade como um ser incomum."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 21,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": "t20-22",
+   "enunciado": "A analogia consiste em um recurso de expressão comumente utilizado para ilustrar um raciocínio por meio da semelhança que se observa entre dois fatos ou ideias. No texto II, a analogia construída a partir da imagem do chicote pretende sugerir que",
+   "alternativas": {
+    "A": "o instrumento do castigo nem sempre cai em mãos justas.",
+    "B": "o apreço aos objetos independe do uso que se faz deles.",
+    "C": "o cabo é metáfora de mérito, e a ponta, metáfora de culpa.",
+    "D": "o mais fraco, por ser compassivo, é incapaz de desfrutar do poder.",
+    "E": "o prazer verdadeiro se experimenta no lado dos dominantes."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 22,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": "t20-22",
+   "enunciado": "No texto III, ao analisar a interioridade de Palha, o narrador descobre, no pensamento oculto do negociante,",
+   "alternativas": {
+    "A": "a ternura que lhe inspira a mulher, capaz de toda abnegação.",
+    "B": "a piedade que lhe causa a mulher, a quem só guarda desprezo.",
+    "C": "a vaidade que beira o sadismo, ao ver a mulher sofrer por ele.",
+    "D": "o gozo vingativo, visto que a mulher o trai com Carlos Maria.",
+    "E": "o remorso do infiel, pois ele trai a mulher com Maria Benedita."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 23,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Largo em sentir, em respirar sucinto,\nPeno, e calo, tão fino, e tão atento,\nQue fazendo disfarce do tormento\nMostro que o não padeço, e sei que o sinto.\n\nO mal, que fora encubro, ou que desminto,\nDentro no coração é que o sustento:\nCom que, para penar é sentimento,\nPara não se entender, é labirinto.\n\nNinguém sufoca a voz nos seus retiros;\nDa tempestade é o estrondo efeito:\nLá tem ecos a terra, o mar suspiros.\n\nMas oh do meu segredo alto conceito!\nPois não me chegam a vir à boca os tiros\nDos combates que vão dentro no peito.\n\nGregório de Matos e Guerra\n\nNo soneto, o eu lírico:",
+   "alternativas": {
+    "A": "expressa um conflito que confirma a imagem pública do poeta, conhecido pelo epíteto de “o Boca do Inferno”.",
+    "B": "opta por sufocar a própria voz como estratégia apaziguadora de suas perturbações de foro íntimo.",
+    "C": "explora a censura que o autor sofreu em sua época, ao ser impedido de dar expressão aos seus sentimentos.",
+    "D": "estabelece, nos tercetos, um contraponto semântico entre as metáforas da natureza e da guerra.",
+    "E": "revela-se como um ser atormentado, ao mesmo tempo que omite a natureza de seu sofrimento."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 24,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Nun´Álvares Pereira**\n\nQue auréola te cerca?\nÉ a espada que, volteando,\nFaz que o ar alto perca\nSeu azul negro e brando.\n\nMas que espada é que, erguida,\nFaz esse halo no céu?\nÉ Excalibur, a ungida,\nQue o Rei Artur te deu.\n\n´Sperança consumada,\nS. Portugal em ser,\nErgue a luz da tua espada\nPara a estrada se ver!\n\nFernando Pessoa. In: “A Coroa”, Parte I, *Mensagem*.\n\nA primeira parte de *Mensagem*, organizada como um correlativo poético do Brasão das Armas de Portugal, perfila uma série de figuras míticas e históricas que teriam sido responsáveis pela formação nacional portuguesa. A seleção de Nun´Álvares Pereira para ocupar o lugar da Coroa",
+   "alternativas": {
+    "A": "sugere, pela imagem do halo de luz, que a verdadeira nobreza é de espírito.",
+    "B": "destaca, através da referência ao mito arturiano, o seu sangue bretão.",
+    "C": "distingue, por meio do substantivo “´sperança”, um regente digno de seu posto.",
+    "D": "enaltece, pela repetição da palavra espada, a guerra como estrada para o futuro.",
+    "E": "indica, associada ao adjetivo “consumada”, uma visão desenganada da história."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 25,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t25-26",
+   "enunciado": "De acordo com o texto, os eventos sequenciais aos quais alude a expressão “efeito cascata” são:",
+   "alternativas": {
+    "A": "livros mais caros, decréscimo de vendas, estímulo às editoras, supressão de investimento em novas publicações.",
+    "B": "aumento do valor do produto final, queda de vendas, encolhimento das editoras, aumento do investimento em novas obras.",
+    "C": "livros mais caros, instabilidade nas vendas, enfraquecimento das editoras, expansão das publicações.",
+    "D": "aumento do valor do produto final, contração nas vendas, esgotamento das editoras, falta de investimento em novas publicações.",
+    "E": "livros mais caros, equilíbrio nas vendas, diminuição das editoras, carência de investimento em novas publicações."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 26,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t25-26",
+   "enunciado": "No texto, os pronomes em negrito referem-se, respectivamente, a:",
+   "alternativas": {
+    "A": "taxação de livros, mercado editorial, crise, queda de vendas.",
+    "B": "taxação de livros, leitor, crise, queda de vendas.",
+    "C": "efeito cascata, mercado editorial, crise, queda de vendas.",
+    "D": "efeito cascata, mercado editorial, livrarias, livros.",
+    "E": "efeito cascata, leitor, crise, livros."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 27,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*Chega um momento em que a tensão eu/mundo se exprime mediante uma perspectiva crítica, imanente à escrita, o que torna o romance não mais uma variante literária da rotina social, mas o seu avesso; logo, o oposto do discurso ideológico do homem médio. O romancista “imitaria” a vida, sim, mas qual vida? Aquela cujo sentido dramático escapa a homens e mulheres entorpecidos ou automatizados por seus hábitos cotidianos. A vida como objeto de busca e construção, e não a vida como encadeamento de tempos vazios e inertes. Caso essa pobre vida-morte deva ser tematizada, ela aparecerá como tal, degradada, sem a aura positiva com que as palavras “realismo” e “realidade” são usadas nos discursos que fazem a apologia conformista da “vida como ela é”... A escrita da resistência, a narrativa atravessada pela tensão crítica, mostra, sem retórica nem alarde ideológico, que essa “vida como ela é” é, quase sempre, o ramerrão de um mecanismo alienante, precisamente o contrário da vida plena e digna de ser vivida.*\n\n*É nesse sentido que se pode dizer que a narrativa descobre a vida verdadeira, e que esta abraça e transcende a vida real. A literatura, com ser ficção, resiste à mentira. É nesse horizonte que o espaço da literatura, considerado em geral como lugar da fantasia, pode ser o lugar da verdade mais exigente.*\n\nAlfredo Bosi. “Narrativa e resistência”. Adaptado.\n\nO conceito de resistência, expresso pela tensão do indivíduo perante o mundo, adquire perspectiva crítica na escrita do romance quando o autor",
+   "alternativas": {
+    "A": "rompe a superfície enganosa da realidade.",
+    "B": "forja um realismo rente à vida mesquinha.",
+    "C": "é neutro ao figurar a vacuidade do presente.",
+    "D": "conserva o discurso positivo da ordem.",
+    "E": "consegue sobrepor a fantasia à verdade."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 28,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t28-29",
+   "enunciado": "A escrita poderia servir de definição da nossa civilização, uma vez que",
+   "alternativas": {
+    "A": "a terceira era está prestes a acontecer.",
+    "B": "o escrito respalda as atividades humanas.",
+    "C": "as convenções verbais substituíram o escrito.",
+    "D": "a oralidade deixou de ser usada em períodos remotos.",
+    "E": "os textos pararam de se modificar a partir da escrita."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 29,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t28-29",
+   "enunciado": "A locução conjuntiva “de tal modo…que” e o advérbio “sobretudo”, respectivamente, expressam noção de:",
+   "alternativas": {
+    "A": "conformidade e dúvida.",
+    "B": "consequência e realce.",
+    "C": "condição e negação.",
+    "D": "consequência e negação.",
+    "E": "condição e realce."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 30,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Atualmente, no Brasil, coexistem dois sistemas de placas de identificação de automóveis: o *padrão Mercosul* (o mais recente) e aquele que se iniciou em 1990 (o *sistema anterior*, usado ainda pela maioria dos carros em circulação). No sistema anterior, utilizavam-se 3 letras (em um alfabeto de 26 letras) seguidas de 4 algarismos (de 0 a 9). No padrão Mercosul adotado no Brasil para automóveis, são usadas 4 letras e 3 algarismos, com 3 letras nas primeiras 3 posições e a quarta letra na quinta posição, podendo haver repetições de letras ou de números. A figura ilustra os dois tipos de placas.\n\n![Placa do padrão Mercosul com o formato LLLNLNN e placa do sistema anterior com o formato LLL-NNNN, em que L indica letra e N indica número](fig:p09-c1)\n\nDessa forma, o número de placas possíveis do padrão Mercosul brasileiro de automóveis é maior do que o do sistema anterior em",
+   "alternativas": {
+    "A": "1,5 vezes.",
+    "B": "2 vezes.",
+    "C": "2,6 vezes.",
+    "D": "2,8 vezes.",
+    "E": "3 vezes."
+   },
+   "observacoes": ""
+  }
+ ]
+}
