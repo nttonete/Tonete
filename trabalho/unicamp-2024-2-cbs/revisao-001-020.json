@@ -1,0 +1,232 @@
+{
+ "edicao": "unicamp-2024-2-cbs",
+ "intervalo": [
+  1,
+  20
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 10,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Microrganismos podem ser considerados um laboratório biotecnológico. Em *Escherichia coli*, a galactose permease (GalP) e a glicoquinase (Glk) compõem uma via alternativa que permite, respectivamente, a absorção e a posterior fosforilação da glicose pela célula. A partir da glicose, a bactéria produzirá etanol. Plasmídeos contendo os genes *GalP* e *Glk* de *E. coli* podem ser construídos com variantes de promotores, visando ao aumento da expressão gênica.\n\n(Adaptado de: HERNÁNDEX-MONTALVO, V. et al. *Biotechnology and Bioengineering*, Nova Jersey, v. 83, p. 687-694, 2003.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Defina o que são promotores e plasmídeos. Considerando o esquema ao lado, identifique a posição das duas proteínas mencionadas no texto, tendo em vista as possíveis posições de 1 a 4.\n\n![Esquema da via da glicose: GLU, círculo numerado 1 atravessado por duas barras verticais, seta até o número 2, seta de 2 para GLU-6P com o número 4 abaixo dela; o número 3 aparece acima, junto a uma seta de saída para ADP; GLU-6P continua em seta com reticências. Legenda: GLU = glicose; GLU-6P = glicose-6-fosfato; ADP = adenosina difosfato](fig:p12-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "*Zymomonas mobilis* e *Saccharomyces* produzem etanol e $\\text{CO}_2$ por uma rota que usa duas enzimas, a piruvato descarboxilase e a álcool desidrogenase. Todavia, *Z. mobilis* produz mais etanol do que a *Saccharomyces*, e ambas metabolizam uma variedade limitada de açúcares. Com base em seu conhecimento sobre engenharia genética e tendo em vista o texto apresentado, proponha uma estratégia biotecnológica para aumentar a produção de etanol por microrganismos."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 13,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os anfíbios moldam seus membros pelo desenvolvimento diferencial de dedos e regiões interdigitais. Foi demonstrado que a disponibilidade de oxigênio regula a formação dos membros em girinos de *Rana pirica*, sendo essa formação representada esquematicamente na figura a seguir.\n\n![Esquema com dois conjuntos de girinos em água e a forma adulta de *R. pirica* fora d'água; setas ligam cada conjunto a um desenho de membro posterior em quadro tracejado, o da direita com círculos pretos sobre o desenho do membro](fig:p15-c1)\n\n(Adaptado de: S. F. Ono et al. *Zoological Letters*, Londres, v. 9, art. 2, jan. 2023.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Na figura, qual processo celular − que ocorre nas regiões indicadas pelos círculos pretos (●) − é responsável por moldar os membros dos girinos? Justifique a importância desse processo para a formação dos membros desses animais na forma adulta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite e explique a principal modificação respiratória para a conquista do ambiente terrestre que ocorre no processo de transformação do girino para a forma adulta em anuros."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas_corrigidas": {
+  "7": {
+   "resposta": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, foi avaliada a capacidade do candidato em: (a) reconhecer os problemas ligados à poluição do meio ambiente em virtude do garimpo ilegal, com consequências para a saúde humana e para a qualidade de vida das comunidades locais; (b) conhecer a função das proteínas para os organismos; (c) conhecer a importância da função do fígado no processo de digestão dos lipídios; e (d) conhecer e identificar os processos de produção de energia nos seres humanos. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) capacidade de interpretação das informações fornecidas para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "itens": {
+    "a": "Além da contaminação com mercúrio, uma possível justificativa para a escassez de alimentos causada pelo garimpo ilegal é o assoreamento dos rios, o que pode levar à diminuição da quantidade de peixes. Adicionalmente, pode haver escassez de animais para caça, pois com o desmatamento gerado pelo garimpo ilegal, há a redução da biodiversidade local, o que afugenta a fauna e dificulta a caça. As proteínas podem ter função estrutural, sendo componentes do citoesqueleto, da membrana celular e constituintes básicos dos tecidos.",
+    "b": "O fígado produz bile, a qual desempenha papel importante de emulsificação de gorduras, o que facilita a ação de enzimas digestivas do suco pancreático e do suco entérico. O composto orgânico obtido da digestão dos lipídios que, por beta-oxidação, será utilizado para a produção de energia nos seres humanos é o ácido graxo."
+   }
+  },
+  "8": {
+   "resposta": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, esperava-se que o candidato conhecesse: (a) a relação ecológica entre os animais e as plantas; (b) os problemas ligados à pesca excessiva e os impactos na flora; e (c) as características morfológicas dos frutos de angiospermas. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "itens": {
+    "a": "Uma vez que os peixes maiores tendem a consumir frutos maiores, conclui-se que a pesca excessiva pode levar ao menor consumo dos frutos maiores e, consequentemente, à menor dispersão das sementes destas espécies.",
+    "b": "As plantas com flores (fanerógamas) e sementes protegidas por frutos pertencem ao grupo das angiospermas. O epicarpo é morfologicamente a região do fruto responsável por atrair os herbívoros frugívoros."
+   }
+  },
+  "9": {
+   "resposta": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, o candidato foi avaliado quanto à capacidade de: (a) conhecer os conceitos de genótipo, fenótipo e dominância; (b) conhecer a importância do leite materno para a saúde dos bebês; (c) conhecer a resposta imunológica passiva. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "itens": {
+    "a": "De acordo com a figura apresentada, é possível definir que o indivíduo 1 é homozigoto para o alelo C e o indivíduo 3 é homozigoto para o alelo T. Assim, sendo os parentais CC x TT, o(a) filho(a) apresentará genótipo CT, o que significa que ele(a) terá 100% de probabilidade de apresentar alta expressão de lactase ativa devido à presença do alelo T.",
+    "b": "O leite materno fornece anticorpos para o bebê, conferindo imunidade passiva natural, pois nos primeiros meses de vida dos bebês o sistema imunológico não está completamente desenvolvido."
+   }
+  },
+  "10": {
+   "resposta": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, a questão exigia que o candidato: (a) conhecesse conceitos de biotecnologia, especialmente a definição de promotor e de vetor em clonagem plasmidial; e (b) identificasse as vias bioquímicas de absorção e fosforilação da glicose. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida e das informações fornecidas para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "itens": {
+    "a": "Um promotor é uma região regulatória do DNA que controla o processo de transcrição (e, portanto, de expressão gênica) de um dado gene. Plasmídeos são moléculas de DNA circular encontradas naturalmente em bactérias e que podem ser modificados para funcionarem como vetores de clonagem, carregando genes de interesse. Na figura, a galactose permease é identificada na posição 1, enquanto a glicoquinase é representada na posição 4.",
+    "b": "Uma possível abordagem seria identificar e isolar genes de enzimas associadas à síntese de etanol e também de genes capazes de aumentar a oferta de substrato usado para a produção de etanol de microrganismos altamente eficientes e os introduzir em outros microrganismos de interesse."
+   }
+  },
+  "11": {
+   "resposta": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, o candidato deveria: (a) conhecer o processo respiratório; (b) elaborar uma representação esquemática de uma mitocôndria; e (c) conhecer as interações ecológicas entre insetos e plantas. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida e das informações fornecidas para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "itens": {
+    "a": "![Desenho de uma mitocôndria com cristas internas e duas setas numeradas, 1 e 2](fig:r05-c1)\n\nUma crista mitocondrial (membrana interna da mitocôndria) é indicada pelo número 1, onde ocorre a cadeia de transporte de elétrons. O número 2 indica a matriz mitocondrial, onde ocorre o ciclo do ácido tricarboxílico. Os compostos com potencial redutor oriundos das fases iniciais da respiração celular são NADH e $\\text{FADH}_2$.",
+    "b": "O aumento da temperatura das flores leva à maior produção de voláteis, os quais atraem os insetos, em especial as abelhas. A termogênese em plantas pode influenciar a polinização, uma vez que aumenta a visitação por insetos. Para os insetos, a maior produção de voláteis pelas plantas devido à termogênese indicaria uma fonte de alimento."
+   }
+  },
+  "12": {
+   "resposta": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, o candidato foi avaliado quanto a: (a) conhecer os conceitos de evolução e seleção natural; (b) conhecer a composição dos principais filamentos responsáveis pela capacidade de contração do músculo estriado esquelético; e (c) conhecer a estrutura da placa motora e as interações que determinam a contração do músculo estriado esquelético. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) capacidade de interpretação das informações fornecidas para resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "itens": {
+    "a": "A proposta apresentada não está de acordo com a teoria de seleção natural. Na seleção natural, o organismo mais apto sobrevive e se reproduz e, em presas com miopatia da captura, não há possibilidade de seleção vantajosa desses efeitos, pois a presa morre.",
+    "b": "Nas miofibrilas, a actina e a miosina são as proteínas responsáveis pela capacidade de contração do músculo estriado esquelético. Na placa motora forma-se a sinapse química entre o axônio terminal do neurônio motor, responsável por liberar neurotransmissor (acetilcolina), que se liga a receptores específicos na membrana da fibra muscular e estimula a geração do potencial de ação para a contração muscular."
+   }
+  },
+  "13": {
+   "resposta": "**Objetivo da questão:** Em relação ao conhecimento de Biologia, o candidato foi avaliado quanto a: (a) conhecer os processos celulares básicos de proliferação, diferenciação e apoptose; (b) conhecer os conceitos da formação dos membros nos vertebrados; (c) conhecer as formas de respiração em anfíbios. Quanto às capacidades desejadas do candidato, a questão avaliou: (a) a capacidade de interpretação da figura fornecida para a resolução da questão; e (b) a capacidade de elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "itens": {
+    "a": "Nas regiões interdigitais, ocorre extenso processo de apoptose, ou morte celular programada, resultando na separação dos dedos. Esse processo é importante para a locomoção desses animais na sua forma adulta em ambiente terrestre.",
+    "b": "Durante o processo de transformação dos girinos para a forma adulta em anuros, ocorre a involução das brânquias — estrutura capaz de captar o oxigênio presente na água — e o desenvolvimento dos pulmões, o que lhes garante a capacidade de captar o oxigênio presente no ar atmosférico, assegurando, portanto, a sobrevivência no ambiente terrestre."
+   }
+  },
+  "14": {
+   "resposta": "**Objetivo da questão:** Quanto ao conhecimento de Biologia, o candidato deveria conhecer: (a) a definição de código genético; (b) o processo de decodificação da informação no RNAm por RNAt durante a síntese proteica; e (c) o processo de reconhecimento de códons. Quanto às capacidades desejadas do candidato, a questão avaliou a capacidade de: (a) interpretação das informações fornecidas para resolução da questão; e (b) elaboração de hipótese lógica e argumentação coerente com o tema da questão.",
+   "itens": {
+    "a": "Código genético é o nome que se dá para a correspondência entre os códons no RNAm e os aminoácidos que eles representam na proteína que está sendo sintetizada. O código genético é considerado degenerado, pois um mesmo aminoácido pode ser codificado por vários diferentes tipos de códons no RNAm (à exceção da metionina e do triptofano, no caso do código genético universal).",
+    "b": "Ao expandirem o código genético como apresentado, os pesquisadores permitem que alguns códons de terminação da tradução sejam lidos pelo ribossomo para sinalizar a incorporação de um novo aminoácido sintético nas proteínas codificadas. Este processo pode expandir o repertório bioquímico para a síntese de proteínas e eventualmente levar à diversificação artificial das características e funções das proteínas codificadas pelo organismo modificado. Em condições que levam em conta o código genético universal, só há três códons de terminação diferentes, o que significa que uma estratégia como essa só poderia levar à incorporação de três diferentes tipos de aminoácidos sintéticos em um organismo modificado."
+   }
+  }
+ },
+ "complementos": {
+  "7": {
+   "assunto": "Fisiologia humana"
+  },
+  "8": {
+   "assunto": "Ecologia"
+  },
+  "9": {
+   "assunto": "Genética"
+  },
+  "10": {
+   "assunto": "Biotecnologia"
+  },
+  "11": {
+   "assunto": "Citologia"
+  },
+  "12": {
+   "assunto": "Fisiologia humana"
+  },
+  "13": {
+   "assunto": "Embriologia e histologia"
+  },
+  "14": {
+   "assunto": "Genética"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado em resposta"
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado em resposta"
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado em resposta"
+  },
+  {
+   "numero": 10,
+   "status": "corrigida",
+   "notas": "objetivo da prova comentada acrescentado em resposta; descrição da figura reescrita (números 3 e 4 descritos de acordo com o desenho, sem apontar a resposta)"
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado em resposta; texto da resposta segue as Respostas esperadas (a prova comentada traz 'Portanto,' antes de 'a termogênese', que não está no documento de respostas)"
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado em resposta"
+  },
+  {
+   "numero": 13,
+   "status": "corrigida",
+   "notas": "objetivo da prova comentada acrescentado em resposta; descrição da figura não aponta mais a localização das regiões que o item pede para identificar"
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado em resposta"
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": "repetida de outro caderno (unicamp-2024-2-cet); não coberta aqui"
+  }
+ ]
+}

@@ -12,7 +12,8 @@
    "caderno": "2fase-dia1-red-port-ing-caderno.pdf",
    "gabarito": null,
    "respostas": [
-    "2fase-dia1-port-ing-respostas.pdf"
+    "2fase-dia1-port-ing-respostas.pdf",
+    "2fase-dia1-port-ing-comentada.pdf"
    ]
   }
  },
@@ -37,8 +38,9 @@
      "resposta_oficial": "No anúncio, a marca linguística que levou ao equívoco noticiado no texto 2 é a terminação em *e* em *últimes entrades* e *teatre*. A realização dessa marca em palavras como *entrades* e *teatre* (em português, *bilhetes/ingressos* e *teatros*) não pode ser caracterizada como uma estratégia de neutralização de gênero porque esses substantivos apresentam gênero gramatical fixo (ou seja, não podem alternar a sua terminação entre as formas de feminino e masculino), diferentemente, por exemplo, de substantivos que fazem referência a entes humanos.\n\nOBS: Da mesma forma que outros adjetivos da língua, o item *último* pode ter a sua terminação alterada como uma estratégia de neutralização de gênero, mas como concorda, no anúncio em questão, com uma palavra que apresenta gênero fixo, essa neutralização é gramaticalmente impossível."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão partia de uma postagem em catalão publicada no perfil oficial do cantor Djavan para levar o candidato a analisar aspectos morfológicos relacionados à linguagem neutra e à realização da marca gramatical de gênero em substantivos e adjetivos do português. Para responder aos dois itens, era necessário mobilizar conhecimentos de morfologia flexional e entender em que consiste a linguagem neutra, mencionada no texto 2 (trecho de reportagem) e exemplificada no texto 3 (excerto de artigo científico).",
+   "assunto": "Classes de palavras",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-d1-q02",
@@ -46,7 +48,7 @@
    "materia": "portugues",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "**Texto 1**\n\nComecei este livro usando “povos da floresta”, conceito que costumo usar em meus artigos [...]. Povos da floresta implica que os povos pertencem à floresta, e não a floresta pertence aos povos. A crase no “a” faz toda diferença. [...] Quando compreendemos algo das centenas de diferentes povos indígenas, o algo que os une, e quando compreendemos a origem de beiradeiros e quilombolas, alcançamos uma outra camada de conhecimento. Esses povos não possuem a floresta, a formulação está clara. Afirmar apenas que pertencem a ela, porém, ainda não é exato. Eles não pertencem, eles são, porque ser ribeirinho e quilombola e indígena, para além de qualquer estatuto, é se compreender como natureza. Assim, não são povos da floresta, mas povos-floresta. Deletamos a partícula de pertencimento – “da” – para que possam ser reintegrados também na linguagem.\n\n(Adaptado de: BRUM, E. *Banzeiro Òkòtó: uma viagem à Amazônia Centro do Mundo*. São Paulo: Companhia das Letras, p. 96-97, 2021).\n\n**Texto 2**\n\n![Tirinha do Armandinho, em dois quadros. Quadro 1: o menino diz \"PERGUNTARAM SE A TERRA ERA NOSSA...\" e, depois, \"... E MINHA AVÓ DISSE QUE NÃO!\"; o amigo responde \"POR ISSO EXPULSARAM A GENTE\". Quadro 2: o menino diz \"AQUELA TERRA NUNCA FOI \"NOSSA\"...\" e \"... NÓS QUE SOMOS DAQUELA TERRA!\"](fig:p08-c2)\n\n(Tirinha da série do personagem Armandinho, de Alexandre Beck. Disponível em: https://br.pinterest.com/pin/319685273533661898/. Acesso em: 30/08/2023.)",
+   "enunciado": "**Texto 1**\n\nComecei este livro usando “povos da floresta”, conceito que costumo usar em meus artigos [...]. Povos da floresta implica que os povos pertencem à floresta, e não a floresta pertence aos povos. A crase no “a” faz toda diferença. [...] Quando compreendemos algo das centenas de diferentes povos indígenas, o algo que os une, e quando compreendemos a origem de beiradeiros e quilombolas, alcançamos uma outra camada de conhecimento. Esses povos não possuem a floresta, a formulação está clara. Afirmar apenas que pertencem a ela, porém, ainda não é exato. Eles não pertencem, eles são, porque ser ribeirinho e quilombola e indígena, para além de qualquer estatuto, é se compreender como natureza. Assim, não são povos da floresta, mas povos-floresta. Deletamos a partícula de pertencimento – “da” – para que possam ser reintegrados também na linguagem.\n\n(Adaptado de: BRUM, E. *Banzeiro Òkòtó: uma viagem à Amazônia Centro do Mundo*. São Paulo: Companhia das Letras, p. 96-97, 2021).\n\n**Texto 2**\n\n![Tirinha do Armandinho, em dois quadros, com um cachorro, uma criança de cabelo preto e rosto pintado, uma criança de cocar e um sapo. Quadro 1: balões com os textos \"PERGUNTARAM SE A TERRA ERA NOSSA...\" (ligado por um traço ao balão \"... E MINHA AVÓ DISSE QUE NÃO!\") e \"POR ISSO EXPULSARAM A GENTE\". Quadro 2: balões com os textos \"AQUELA TERRA NUNCA FOI \"NOSSA\"...\" e \"... NÓS QUE SOMOS DAQUELA TERRA!\"](fig:p08-c2)\n\n(Tirinha da série do personagem Armandinho, de Alexandre Beck. Disponível em: https://br.pinterest.com/pin/319685273533661898/. Acesso em: 30/08/2023.)",
    "itens": [
     {
      "rotulo": "a",
@@ -59,8 +61,9 @@
      "resposta_oficial": "A reformulação em discurso direto da pergunta feita à avó da personagem no texto 2 seria a seguinte: “Vocês são desta terra?”. Essa reformulação e a mudança de resposta da personagem se dariam porque, relacionando os textos 1 e 2, entendemos que não é possível estabelecer uma relação de posse dos povos indígenas sobre a floresta ou a terra: são esses povos que pertencem à floresta, não o contrário."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A partir da leitura de um excerto de Eliane Brum e de uma tira de Alexandre Beck (com o personagem Armadinho), a questão 2 solicitava uma análise de duas construções resultantes da combinação dos termos “povos” e “florestas”: “povos da floresta” e “povos-floresta”. Para responder às questões, o candidato precisava explorar conhecimentos no campo da sintaxe, atentado para o papel da preposição *de*, bem como o efeito da sua ausência, na elaboração dos dois conceitos. Também era necessário estabelecer relações de sentido entre tipos frásicos distintos (“Perguntaram se a terra era nossa” / “Nós que somos daquela terra”) para reformular, em discurso direto, uma pergunta originalmente feita em discurso direto.",
+   "assunto": "Sintaxe",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-d1-q03",
@@ -81,8 +84,9 @@
      "resposta_oficial": "A/O candidata/o deverá recuperar um episódio da narrativa e descrevê-lo, localizando nele qual seria a atitude de Alice, atitude esta que poderia ser considerada brutal. Para chegar à pontuação máxima, a/o candidata/o deverá ultrapassar a recuperação da narrativa e formular a ideia de incompreensão do ponto de vista do outro, de falta de empatia."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão demandava dos candidatos, em primeiro lugar, a habilidade de leitura e compreensão do enunciado e, na sequência, a compreensão da obra a partir do recorte proposto pelo fragmento de Kincaid. A proposta de relação entre “Alice no País das Maravilhas” e o enunciado convidava os candidatos a refletirem sobre a contradição que marca a protagonista, que acaba sendo vista pelos habitantes do País das Maravilhas como brutal e incapaz de compreendê-los. A questão requeria uma intimidade dos candidatos com a obra, uma vez ter sido solicitado que recuperassem e descrevessem um episódio que ilustrasse o enunciado.",
+   "assunto": "Obras de leitura obrigatória",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-d1-q05",
@@ -105,8 +109,9 @@
      "resposta_oficial": "O diálogo em *discurso direto* exige do candidato o conhecimento das marcas que caracterizam esse discurso: o uso de travessão ou de aspas e a identificação dos interlocutores: o *Coelho Branco* e o *Chapeleiro Maluco*. Para aceitar o desafio de @sebastiao.salgados, era preciso construir o diálogo entre essas duas personagens de *Alice no país das maravilhas* considerando o ato de comer miojo. Para isso era necessário levar em conta ao menos uma característica de cada uma das personagens do livro lido para o Vestibular Unicamp 2024. Assim, uma possibilidade de resposta esperada seria:\n*– Tenho que correr, estou atrasado para o chá. Não vai dar tempo de prepará-lo, Chapeleiro!*\n*– Pare de olhar o relógio, Coelho Branco! Para que tanta pressa se o tempo não passa? Então, vamos fazer um des-chá de miojo! Pelo menos fica pronto em 3 minutos.*"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Trabalhar diversas formas de leitura e escrita(autoria) de textos literários: um poema do romantismo e uma obra indicada pelo Vestibular Unicamp.",
+   "assunto": "Obras de leitura obrigatória",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-d1-q06",
@@ -127,8 +132,9 @@
      "resposta_oficial": "A relação entre a declaração de Paulina Chiziane e a lei 10.639 remete à necessidade de um debate e de uma conscientização sobre *questões raciais*. A autora afirma, no segundo trecho da entrevista, que o racismo experienciado por ela marcou sua obra, levando-a a colocar sua escrita a serviço da construção de um debate sobre o tema. Por sua vez, ao instaurar a obrigatoriedade do ensino da história e da cultura afro-brasileira e africana nas escolas, tal lei possibilita a “ampliação da consciência sobre raças”, o que se associa à declaração de Chiziane. Assim, tanto a declaração quanto a lei buscam a formação de um *senso crítico*, o que promove a *conscientização* e a *desconstrução do racismo*."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Trabalhar diversas formas de leitura e escrita(autoria) de textos jornalísticos que têm como tema obras de mulheres negras e a língua portuguesa: texto 1 – uma entrevista com a escritora moçambicana Paulina Chiziane (autora que está na lista dos indicados no Vestibular Comvest há 4 anos), e texto 2 – uma reportagem sobre o livro de uma autora brasileira, Vilma Piedade. Enquanto no texto 1 Chiziane fala da relação de sua escrita com a língua portuguesa, o texto 2 discute um conceito criado por Piedade para o feminismo negro e a Lei (antirracista) 10.639. Assim, tanto a escrita de Chiziane quanto a lei buscam a formação de um senso crítico de modo a promover a conscientização e a desconstrução do racismo.\n\nOs itens a) e b) têm por objetivo explorar as formas como os textos dialogam. A proposta de substituição do termo “sororidade” por “dororidade” (que remete a vivências e suas dores) deve ser explicada com base no que a autora moçambicana declara sobre seu estilo de escrita e de diferentes vidas marcadas pela língua portuguesa. O item b) pede que se relacione o que Chiziane diz sobre a língua portuguesa e a Lei brasileira antirracismo.",
+   "assunto": "Interpretação de texto",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-d1-q07",
@@ -151,15 +157,16 @@
      "resposta_oficial": "No segundo exemplo, o ChatGPT não conseguiu apresentar a geometria de compostos de coordenação em mais da metade dos exemplos e também não soube, em mais de 2 terços dos casos, codificar estruturas 3D em formato de texto internacionalmente padronizado. A diferença estrutural entre os dois pares de compostos que o programa não soube distinguir é a seguinte:\n\n– alcanos e alcenos são ambos hidrocarbonetos, formados por carbono e hidrogênio, porém os alcanos apresentam somente ligações simples entre átomos de carbono, enquanto os alcenos apresentam uma ou mais ligações duplas entre átomos de carbono;\n\n– benzeno e ciclohexano são ambos hidrocarbonetos de cadeia cíclica com 6 átomos de carbono. O ciclohexano apresenta somente 6 ligações simples entre os átomos de carbono, enquanto o benzeno apresenta 3 ligações simples e 3 ligações duplas entre átomos de carbono."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** O principal objetivo das questões interdisciplinares é aferir a capacidade do candidato em articular conhecimentos em inglês e em outra área do conhecimento (química, no caso da Q7, e sociologia, na Q8), espelhando o contato que o candidato provavelmente terá com a língua inglesa caso ingresse na Unicamp. Em ambas as propostas, os textos são fundamentais para a resolução da questão, o que significa que mesmo que o candidato tenha domínio sobre determinados aspectos de química e/ou sociologia, não há como responder as questões sem acionar conhecimentos em inglês, em uma configuração efetivamente interdisciplinar.",
+   "assunto": "Equilíbrio químico",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-d1-q08",
    "numero": 8,
-   "materia": "filosofia",
+   "materia": "sociologia",
    "materias_extra": [
-    "sociologia",
+    "filosofia",
     "ingles"
    ],
    "texto_base": null,
@@ -176,8 +183,9 @@
      "resposta_oficial": "No regime neoliberal, a liberdade é ilusória, o que leva o indivíduo a uma cobrança pelo seu próprio desempenho e a uma autoexploração. Já na sociedade disciplinar, a liberdade é regulada, e a exploração se dá a partir da ação de terceiros, isto é, da existência de um mestre/chefe, e por isso, há resistência."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** O objetivo dessa questão era avaliar a capacidade do candidato de relacionar conceitos teóricos abordados em um texto e expandi-los com base em seus conhecimentos específicos. A preocupação da banca foi evitar que somente a leitura do texto fosse suficiente para responder à questão; por isso, tanto o item a) como o b) requerem que o candidato discuta sobre aspectos pertinentes à disciplina de sociologia enquanto mobiliza letramentos diversos em língua inglesa, em uma proposta de natureza efetivamente interdisciplinar.",
+   "assunto": "Teoria sociológica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2024-2-d1-q09",
@@ -200,8 +208,9 @@
      "resposta_oficial": "<u>O calor específico</u> é uma grandeza que quantifica o valor de energia (calor) que um corpo ou material recebe por uma dada variação de temperatura (1 grau). Quanto maior o seu valor, maior a quantidade de energia que o material recebe por variação de temperatura. Assim, se o valor dessa grandeza para o plástico for diferente daquele da areia, isso levará a diferenças na amplitude térmica (diferença entre máximo e mínimo de temperatura). A <u>condutividade térmica</u> diz respeito à velocidade com que um material (corpo) troca calor com outro material quando em contato e em diferentes temperaturas. Assim, uma areia contaminada com microplásticos pode se resfriar ou aquecer mais rapidamente do que a areia sem microplásticos caso esses dois materiais tenham diferentes condutividades — lembrando que a areia e os plásticos também trocam calor com o ar atmosférico. Isso pode alterar a velocidade com que o ambiente do ninho esquenta ou esfria. <u>Plásticos de cores diferentes:</u> absorvem a luz de forma diferente, sendo que os pretos absorvem muito mais que os brancos. <u>Variação nas quantidades de microplásticos:</u> se os microplásticos promovem alterações no perfil térmico da areia, quanto maior a sua quantidade (concentração) maior será a mudança no perfil térmico."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** O item a da questão 9 tem como objetivo de um lado avaliar o conhecimento sobre a origem dos microplásticos e de outro avaliar a explanação sobre como a sua deposição ocorre no meio ambiente.\n\nÉ importante ressaltar que não se trata de um item que exige apenas um conhecimento prévio sobre o assunto, como pode parecer numa análise superficial sobre o questionamento; isso porque, como se verifica no texto introdutório da questão, há uma série de informações que permitem inferir possíveis origens e de que forma chega ao ambiente marinho, repositório final. O item b, por outro lado, explora um pouco de termoquímica (primeira lei da termodinâmica) e também o fenômeno da absorção de energia luminosa e a dispersão da energia térmica. O questionamento no item b é diretamente explicitado quando se exige que a resposta considere, comparativamente, apenas as grandezas físicas \"condutividade térmica\" e \"calor específico\", e que se leve em conta a forma como os pesquisadores conduziram seus experimentos. Desse modo, por um lado, o item b exige um conhecimento prévio de conteúdo e, por outro, que se faça uma leitura e interpretação sobre a forma como a Ciência constrói o conhecimento científico.",
+   "assunto": "Ecologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2024-2-d1-q10",
@@ -215,7 +224,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "O gráfico no campo de resolução mostra o sinal elétrico relativo à quantidade de luz detectada por um sensor de fotoplestimografia durante dois ciclos cardíacos. Identifique quais dos quatro pontos (a, b, c e d) correspondem à sístole e quais correspondem à diástole. Justifique a sua escolha levando em conta o funcionamento do sensor de fotoplestimografia.\n\n![Gráfico do sinal registrado no sensor, em mW, em função do tempo, em s, com os pontos a, b, c e d marcados na curva](fig:p16-c2)",
+     "texto": "O gráfico no campo de resolução mostra o sinal elétrico relativo à quantidade de luz detectada por um sensor de fotoplestimografia durante dois ciclos cardíacos. Identifique quais dos quatro pontos (a, b, c e d) correspondem à sístole e quais correspondem à diástole. Justifique a sua escolha levando em conta o funcionamento do sensor de fotoplestimografia.\n\n![Gráfico do sinal registrado no sensor, em mW, em função do tempo, em s, com os pontos a, b, c e d marcados na curva](fig:p16-c4)",
      "resposta_oficial": "Na sístole o músculo do está se contraindo, empurrando o sangue para as artérias e vasos capilares, aumentando o volume de sangue nesses locais. Como informa o texto, quanto maior o volume de sangue, maior a quantidade de luz absorvida pelo sangue e, portanto, menor a quantidade de luz refletida chegando ao sensor como se observa nos pontos b e d. Na diástole o músculo do coração está se relaxando, ocorre uma diminuição do volume de sangue nos vasos e, como informa o texto, quanto menor o volume de sangue, menor a quantidade de luz absorvida pelo sangue e, portanto, maior a quantidade de luz refletida chegando ao sensor como se observa nos pontos a e c."
     },
     {
@@ -224,8 +233,9 @@
      "resposta_oficial": "1- O dispositivo poderia ser utilizado como um medidor da frequência cardíaca, permitindo possíveis alterações na frequência dos ciclos cardíacos, o que seria observado na figura como alterações no intervalo de tempo entre dois pontos consecutivos de sístole (b e d) ou diástole (a e c), como, por exemplo, numa comparação entre o estado de repouso e durante um esforço físico, por exemplo. Neste uso, também poderia ser útil para observar variações irregulares no perfil das curvas registradas (ciclos de registro que apresentam diferentes perfis ao longo do tempo), no caso de um problema de saúde, por exemplo.\n\nOU\n\n2- O dispositivo poderia ser utilizado como um avaliador de pressão, neste caso os valores de pressão sistólica (pontos b e d) ou valores de pressão diastólica (pontos a e c). Neste uso, poderiam ser observadas mudanças nesses valores de máximo e mínimo do registro do aparelho ao longo do tempo, que poderiam evidenciar possíveis anomalias de pressão. No caso de anomalias de pressão em curto espaço de tempo seriam observadas mudanças nos valores de máximo e mínimo entre ciclos próximos. No caso de problemas de pressão mais duradoras, como pressão alta, os valores de máximo e mínimo seriam comparados com os valores para a condição normal.\n\n*Observação: no caso de avaliações de frequência, o uso seria mais simples e universal, para o caso de avaliação de pressão, o uso seria individual e seria necessária uma “calibração” do instrumento para desempenhar corretamente.*"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** O item a da questão 10 tem como objetivo avaliar o conhecimento básico sobre fases do ciclo cardíaco, sístole e diástole, além de avaliar habilidades de leitura e interpretação de informações. É importante observar os vários comandos do item a: inicialmente o texto do item informa que o registro do sinal do dispositivo encontra-se no espaço de resposta, depois ele pede que se identifiquem nesse gráfico os pontos que caracterizem a sístole e a diástole, momento em que é necessário abstrair-se da pergunta e recordar o que significam sístole e diástole. Porém, só isso não basta para se chegar à resposta ao item, já que ele pede que se justifique a escolha, com base no funcionamento do dispositivo, cuja descrição encontra-se no texto principal da questão. Dessa forma, embora o item não exija muito conteúdo, ele exige uma leitura atenta de informações. Na resposta, a justificativa da escolha fica facilitada, pois ela está descrita no texto inicial da questão. O item b, por outro lado, pede que se apresente uma utilidade para o dispositivo na área da saúde, considerando que o mesmo responde fielmente às características do ciclo cardíaco; não só isso, mas que também se expliquem possíveis diferenças no sinal do dispositivo no caso da sua aplicação. Deve ficar claro que o item b não exige conhecimento de doenças, embora isso possa ser utilizado na resposta. O item questiona se o candidato percebe que a amplitude do sinal registrado ou a frequência dos picos podem ser correlacionados com pressão ou frequência cardíaca, respectivamente, qual o significado das grandezas nos eixos x e y e como isso pode ser entendido.",
+   "assunto": "Fisiologia humana",
+   "revisao": "corrigida"
   }
  ]
 }
