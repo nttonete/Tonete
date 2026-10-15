@@ -12,7 +12,8 @@
    "caderno": "2fase-dia2-cet-caderno.pdf",
    "gabarito": null,
    "respostas": [
-    "2fase-dia2-cet-respostas.pdf"
+    "2fase-dia2-cet-respostas.pdf",
+    "2fase-dia2-cet-comentada.pdf"
    ]
   }
  },
@@ -39,9 +40,9 @@
      "resposta_oficial": "A afirmação de Peter Frankopan de que “a glória da Europa e da Índia deu-se às custas das Américas” elucida um processo de integração econômica que está ligado ao início da globalização dos mercados, mas onde o luxo e o florescimento cultural de algumas regiões, como as obras arquitetônicas citadas no excerto, foram financiados pela exploração colonial da América. Como exemplo dessa exploração pode-se apontar que mais da metade da prata no comércio do século XVI advinha das minas de Potosí, nos Andes, atual Bolívia. Esse movimento marca um circuito comercial que estabeleceu pela primeira vez uma rede planetária em que os recursos eram levados à Europa e Ásia, enquanto produtos orientais eram trazidos às regiões colonizadas."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão tem como objetivo avaliar a compreensão do candidato de como a rota transpacífica de Manila, conectada à exploração das minas de Potosí, promoveu o enriquecimento europeu e asiático no século XVI, sobretudo conectando o exemplo ao início da globalização dos mercados.",
    "assunto": "Colonização da América",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q02",
@@ -64,9 +65,9 @@
      "resposta_oficial": "A violência, até 2019, era gradativamente crescente, mas não havia praticamente registro de ataques às escolas. Nos anos de 2020-2021, período afetado pela pandemia de Covid-19, as aulas presenciais foram suspensas em grande parte, com os alunos mais afastados do convívio escolar, sendo que há uma queda nos casos de violência e ataques registrados. A partir de 2022, os dados mostram um aumento acentuado da violência, com recorde de ataques e de sofrimento psíquico, o que pode estar associado ao retorno às aulas, assim como ao agravamento das desigualdades e da violência política na sociedade. O período de polarização política coincide com a ascensão de grupos políticos pró-armas, a diminuição de exigências legais para aquisição e porte de armas de fogo. Houve, ainda, a ampliação do uso das redes sociais e da disseminação de discursos de ódio que tiveram um impacto psicológico prolongado sobre crianças e adolescentes."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão tem como objetivo compreender as causas das violências psíquicas escolares e seu aumento na história recente do país, associados à ascensão dos discursos de ódio, à ampliação do uso das redes sociais e ao aumento das desigualdades.\nEla se correlaciona com as disciplinas de História, Geografia e também com com Matemática, dada a necessidade de leitura de gráficos.",
    "assunto": "Política, Estado e cidadania",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q03",
@@ -87,9 +88,9 @@
      "resposta_oficial": "Como a pessoa ganhou 9 apostas, cada uma de R\\$ 100,00 e uma *odd* de 1,1, o retorno total foi de R\\$ 110,00 por aposta, totalizando R\\$ 990,00. Como o total apostado foi de R\\$ 1.000,00, a pessoa teve um prejuízo de R\\$ 10,00."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão avalia os conhecimentos dos candidatos tanto em contagem/probabilidade (na parte a) quanto em geometria plana (na parte b).",
    "assunto": "Aritmética e porcentagem",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q04",
@@ -110,9 +111,9 @@
      "resposta_oficial": "Se o triângulo APQ é equilátero, então o ângulo RAQ mede 60 graus e o ângulo AQR mede 30 graus, conforme ilustrado a seguir, onde $R = (0,-1)$. A distância de A até Q é $d = \\sqrt{4 + x^2}$.\n\n![Esboço da parábola, da reta y = −1 e dos pontos A, P, Q e R, com ângulos de 60°](fig:r03-f1)\n\nAssim, temos que:\n\n$$1/2 = \\operatorname{sen}(30) = 2/\\sqrt{4 + x^2}$$\n\nou seja, $4 + x^2 = 16$ e daí $x = \\pm 2\\sqrt{3}$. Portanto, os pontos são $(2\\sqrt{3}, 3)$ e $(-2\\sqrt{3}, 3)$."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão envolve conhecimentos de geometria plana e também de geometria analítica, além de entender como é o gráfico de uma parábola. O assunto é cobrado com regularidade no vestibular da Unicamp.\nO candidato deve conseguir construir o gráfico de uma função polinomial a partir de sua descrição algébrica e analisar distâncias e propriedades de segmentos e triângulos definidos a partir do gráfico do polinômio.",
    "assunto": "Geometria analítica",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q05",
@@ -133,9 +134,9 @@
      "resposta_oficial": "O perímetro é obtido percorrendo alguns trechos das circunferências menores e alguns trechos das circunferências maiores. Se $R$ é o raio da circunferência maior e $r$ o raio da circunferência menor (note que $R = 2r$), temos que:\n\n$$p = 2\\left(\\frac{2\\pi r}{6} + \\frac{2\\pi R}{6} + \\frac{2\\pi r}{6}\\right) = \\frac{520\\pi}{3} \\approx 173{,}3 \\cdot \\pi.$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão apresenta uma contextualização histórica das “ovais” e solicita que o candidato faça uma análise matemática desse objeto. O candidato deve calcular a área e o perímetro de figuras planas determinadas por pontos localizados nas ovais presentes na Praça de São Pedro. O candidato precisa usar seus conhecimentos de geometria plana para conseguir fazer a questão.",
    "assunto": "Geometria plana",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q06",
@@ -156,9 +157,9 @@
      "resposta_oficial": "Para $k = 0$ obtemos o sistema homogêneo\n\n$$\\begin{gathered}(\\log_b 2)x + (\\log_4 b)y = 0, \\\\ (\\log_d 4)x + (\\log_2 d)y = 0.\\end{gathered}$$\n\nDa primeira equação obtemos\n\n$$x = -(\\log_4 b)y/(\\log_b 2).$$\n\nSubstituindo na segunda equação, temos:\n\n$$-(\\log_d 4) \\cdot y(\\log_4 b)/(\\log_b 2) + (\\log_2 d)y = 0.$$\n\nPortanto,\n\n$$y\\left(-(\\log_d 4)(\\log_4 b)/(\\log_b 2) + (\\log_2 d)\\right) = 0$$\n\nO sistema terá infinitas soluções caso o coeficiente de $y$ seja igual a zero. Portanto, precisamos que\n\n$$-(\\log_d 4)(\\log_4 b)/(\\log_b 2) + (\\log_2 d) = 0,$$\n\no que nos dá\n\n$$(\\log_d 4)(\\log_4 b) = (\\log_b 2)(\\log_2 d).$$\n\nPassando todos os logaritmos para o logaritmo natural (base $e$), obtemos\n\n$$\\frac{\\ln(4)}{\\ln(d)} \\cdot \\frac{\\ln(b)}{\\ln(4)} = \\frac{\\ln(d)}{\\ln(2)} \\cdot \\frac{\\ln(2)}{\\ln(b)},$$\n\no que nos dá\n\n$$(\\ln(b))^2 = (\\ln(d))^2$$\n\nou\n\n$$\\left(\\frac{\\ln(b)}{\\ln(d)}\\right)^2 = 1.$$\n\nCom isso,\n\n$$\\frac{\\ln(b)}{\\ln(d)} = \\pm 1$$\n\ne\n\n$$b = d \\text{ ou } b = 1/d.$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão trata de sistemas lineares e de logaritmo. O objetivo é resolver o sistema (em (a)) e determinar condições para que ele tenha infinitas soluções (em (b)). O conteúdo é muito visto no ensino médio.",
    "assunto": "Matrizes e sistemas",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q07",
@@ -179,9 +180,9 @@
      "resposta_oficial": "A função não é periódica. Note que $p(0) = -1$ e $p(0 + T) = T^2 - 1$. Para que estes valores sejam iguais, devemos ter $-1 = T^2 - 1$, ou seja, $T = 0$. Como o período precisa ser positivo, a função não é periódica."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda o conceito de periodicidade de função. Apesar da definição de função periódica ser vista no Ensino Médio, a questão apresenta novamente a noção e exige que o candidato decida se certas funções são ou não periódicas.",
    "assunto": "Trigonometria",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q08",
@@ -202,7 +203,7 @@
      "resposta_oficial": "Como\n\n$$B \\cdot \\begin{pmatrix}1\\\\2\\end{pmatrix} = \\begin{pmatrix}0\\\\1\\end{pmatrix} \\text{ e } B \\cdot \\begin{pmatrix}3\\\\1\\end{pmatrix} = \\begin{pmatrix}1\\\\0\\end{pmatrix},$$\n\ntemos que:\n\n$$B^{-1} \\cdot B \\cdot \\begin{pmatrix}1\\\\2\\end{pmatrix} = B^{-1} \\cdot \\begin{pmatrix}0\\\\1\\end{pmatrix} \\text{ e } B^{-1} \\cdot B \\cdot \\begin{pmatrix}3\\\\1\\end{pmatrix} = B^{-1} \\cdot \\begin{pmatrix}1\\\\0\\end{pmatrix},$$\n\nou seja,\n\n$$\\begin{pmatrix}1\\\\2\\end{pmatrix} = B^{-1} \\cdot \\begin{pmatrix}0\\\\1\\end{pmatrix} \\text{ e } \\begin{pmatrix}3\\\\1\\end{pmatrix} = B^{-1} \\cdot \\begin{pmatrix}1\\\\0\\end{pmatrix}.$$\n\nPortanto,\n\n$$B^{-1} \\cdot \\begin{pmatrix}2\\\\6\\end{pmatrix} = B^{-1} \\cdot \\left[\\begin{pmatrix}0\\\\6\\end{pmatrix} + \\begin{pmatrix}2\\\\0\\end{pmatrix}\\right] = 6 \\cdot B^{-1} \\cdot \\begin{pmatrix}0\\\\1\\end{pmatrix} + 2 \\cdot B^{-1} \\cdot \\begin{pmatrix}1\\\\0\\end{pmatrix} = 6\\begin{pmatrix}1\\\\2\\end{pmatrix} + 2\\begin{pmatrix}3\\\\1\\end{pmatrix} = \\begin{pmatrix}12\\\\14\\end{pmatrix}.$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão é trabalhar com sistemas lineares e matrizes, de um ponto de vista teórico, sem contextualização envolvida. As matrizes são 2x2, o que permite que a questão seja trabalhada tanto utilizando explicitamente sistemas lineares quanto utilizando propriedades de matrizes.",
    "assunto": "Matrizes e sistemas",
    "revisao": "corrigida"
   },
@@ -225,9 +226,9 @@
      "resposta_oficial": "i) $m_T = 500$ à 5000 kg\n\nii)\n$p = mv$ e $I = \\Delta p = mv_f - mv_i$\n\n$90\\ \\text{km/h} = 25\\ \\text{m/s}$\n\n$|I| = |m_T v_f - m_T v_i| = m_T|0 - 25\\ \\text{m/s}| = m_T 25\\ \\text{m/s}$\n\n$m_T = 500\\ \\text{kg} \\rightarrow |I| = m_T 25\\ \\text{m/s} = 500\\ \\text{kg}\\ 25\\ \\text{m/s} = 12500\\ \\text{Ns}$\n\n$m_T = 5000\\ \\text{kg} \\rightarrow |I| = m_T 25\\ \\text{m/s} = 5000\\ \\text{kg}\\ 25\\ \\text{m/s} = 125000\\ \\text{Ns}$\n\nii)\n$|I| = |F| \\times \\Delta t \\rightarrow |F| = \\frac{|I|}{\\Delta t}$\n\n$m_T = 500\\ \\text{kg} \\rightarrow \\frac{12500\\ \\text{Ns}}{0{,}2\\ \\text{s}} = 62500\\ \\text{N} = 62.5\\ \\text{kN}$\n\n$m_T = 5000\\ \\text{kg} \\rightarrow \\frac{125000\\ \\text{Ns}}{0{,}2\\ \\text{s}} = 625000\\ \\text{N} = 625\\ \\text{kN}$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Os tópicos do programa de Física abordados na Questão 9 são: a) “Representação gráfica de uma relação funcional entre duas grandezas” e “Cinemática do movimento em uma e duas dimensões” e b) “Quantidade de movimento (momento linear): variação e conservação”. O item (a) explora os instantes iniciais do movimento de um carro elétrico em que sua velocidade aumenta com o tempo, eventualmente atingindo um valor constante. Os dados de velocidade em função do tempo são fornecidos em uma tabela e o candidato deve representar estes dados num gráfico, ligando os pontos de forma apropriada. Ainda nesse item da questão, o candidato deve ler no gráfico a velocidade para um tempo que não consta da tabela fornecida, e com este valor de velocidade encontrar a posição do carro usando uma relação fundamental da cinemática do movimento uniformemente variado. O item (b) trata das grandezas dinâmicas envolvidas num teste de colisão do carro: quantidade de movimento, impulso e força média. Além disso, nesse item o candidato deve estimar um valor razoável para a massa do carro, o que exige do mesmo uma noção dos valores das massas de objetos e corpos que nos rodeiam no dia a dia.",
    "assunto": "Cinemática",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cet-q10",

@@ -1,0 +1,219 @@
+{
+ "edicao": "unicamp-2026-2-cet",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma pesquisa recente revelou um novo objeto astronômico que pode ser o Planeta 9. A hipótese da existência desse planeta foi concebida para explicar características comuns a vários objetos trans-netunianos, isto é, astros com órbitas que alcançam distâncias ao Sol muito maiores do que o planeta Netuno.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No espaço de respostas, a figura A ilustra uma situação imaginária na qual o Sol, um planeta hipotético $P$, e um objeto trans-netuniano *OTN* são representados ao longo de uma linha reta. As distâncias de $P$ e *OTN* ao Sol são apresentadas na figura A em unidades astronômicas, UA (1 UA = distância da Terra ao Sol). Supondo que a razão entre a massa $m_P$ do planeta $P$ e a massa $m_{\\text{Sol}}$ do Sol seja dada por $\\frac{m_P}{m_{\\text{Sol}}} \\simeq 2\\times10^{-5}$, para a situação da figura A, calcule:\n\n(i) a distância $d$ entre o objeto *OTN* e o planeta $P$;\n(ii) a razão $q = |\\vec{F}_P|\\,/\\,|\\vec{F}_{\\text{Sol}}|$ entre os módulos das forças gravitacionais que o planeta $P$ $\\left(\\vec{F}_P\\right)$ e o Sol $\\left(\\vec{F}_{\\text{Sol}}\\right)$ exercem sobre *OTN*.\n\n![Figura A: o Sol, o planeta P e o objeto OTN representados ao longo de uma linha reta; uma seta indica a distância de 520 UA do Sol até P e outra, a distância de 624 UA do Sol até OTN; duas órbitas curvas passam por P e por OTN](fig:p12-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "De acordo com a terceira lei de Kepler, a razão entre o quadrado do período orbital ($T$) e o cubo do semieixo maior ($a$) da órbita elíptica é a mesma para todos os planetas que orbitam o Sol. Se o semieixo maior da órbita elíptica de outro planeta desconhecido $D$ for dado por $a_D \\simeq 400\\ \\text{UA}$, qual será o período $T_D$, em anos terrestres, do movimento orbital do planeta $D$ em torno do Sol? Considere os seguintes dados para o planeta Terra: $a_{\\text{Terra}} = 1\\ \\text{UA}$, $T_{\\text{Terra}} = 1\\ \\text{ano}$."
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*Bend* é uma técnica usada na guitarra para alterar a frequência sonora de uma nota musical. Essa técnica consiste em deslocar, na direção perpendicular ao braço da guitarra, o dedo que prende a corda, aumentando-se a tensão aplicada na corda e a frequência sonora emitida.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A frequência $f_0$ do harmônico fundamental de uma corda é dada por $f_0 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$, sendo $L$ o comprimento, $T$ a tensão e $\\mu$ a densidade linear da corda. No espaço de respostas, a figura A ilustra o *bend* (com o ângulo fora de escala) sendo aplicado no meio de uma corda (ponto $P$) de densidade linear $\\mu = 8{,}0 \\times 10^{-4}\\ \\text{kg/m}$. Na situação da figura A, com o *bend* aplicado, tem-se $L = 0{,}30\\ \\text{m}$ e $f_0 = 500\\ \\text{Hz}$. Qual é o módulo da força que deve ser aplicada sobre a corda no ponto $P$, ao longo da direção $y$, para manter o equilíbrio?\nDados: $\\cos 88{,}9^\\circ \\simeq 0{,}02$; $\\operatorname{sen} 88{,}9^\\circ \\simeq 0{,}99$; $\\operatorname{tg} 88{,}9^\\circ \\simeq 52$.\n\n![Figura A: corda de guitarra com o bend aplicado no ponto P; um eixo y vertical, com seta para cima, passa por P; abaixo de P, cada trecho da corda forma um ângulo de 88,9° com a vertical; uma seta de duas pontas marca L = 0,30 m no trecho da esquerda, até P; o rótulo “tensão T” aponta para os dois trechos da corda](fig:p14-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "No espaço de respostas, a figura B mostra o braço de uma guitarra com uma corda diferente daquela do item anterior. Em cada casa do braço, estão indicadas a nota e a frequência do harmônico fundamental correspondente com a corda presa <u>sem o *bend*</u>. Nesses casos, a tensão na corda é a mesma para todas as notas, dada por $T_1 = 196\\ \\text{N}$. Se um *bend* é feito para elevar a frequência $f_1$ da nota <u>Sol</u> para a frequência $f_2$ da nota <u>Sol sustenido</u> (Sol#), qual é o aumento $\\Delta T$ na tensão da corda?\nUse a relação: $\\frac{\\Delta T}{T_1} = \\frac{2\\left(f_2 - f_1\\right)}{f_1}$\n\n![Figura B: braço de guitarra com cinco casas; acima de cada casa, a frequência do harmônico fundamental, e dentro dela, a nota: 440 Hz, Lá; 415 Hz, Sol #; 392 Hz, Sol; 370 Hz, Fá #; 349 Hz, Fá](fig:p14-c2)"
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As informações quimiossensoriais transmitidas pelos odores corporais (OCs) podem influenciar as relações sociais entre amigos, parceiros e familiares. De modo especial, os OCs contribuem de forma distinta para a comunicação entre pais e filhos em diferentes fases do desenvolvimento. Além disso, os odores podem desempenhar papel importante nas relações entre espécies animais.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um estudo científico que compara OCs presentes na cabeça de bebês recém-nascidos revela que o nonanal é o aldeído mais abundante no OC tanto nos bebês recém-nascidos (1 hora) quanto nos bebês de 2 ou 3 dias. Nesse período, o nonanal é produzido constantemente, porém sua quantidade permanece praticamente inalterada enquanto a quantidade do ácido nonanóico aumenta cinco vezes no mesmo período. Descreva por que as quantidades das substâncias OCs descritas, comportam-se dessa forma no período de três dias, incluindo a equação química que justifica esse comportamento."
+    },
+    {
+     "rotulo": "b",
+     "texto": "As pessoas costumam se perguntar “Por que os mosquitos são mais atraídos por mim do que pelos meus amigos?\". Para responder a essa pergunta, foram realizados dois experimentos identificados como (i) e (ii), na figura ao lado, que investigaram o comportamento do mosquito da malária *Anopheles gambiae*. No campo de resposta, indique o objetivo e a conclusão de cada um dos dois experimentos, que respondem à pergunta mencionada anteriormente.\n\n![Figura com dois experimentos. (i): dois mosquitos, cada um diante de um alvo circular rosa com um termômetro e a marcação 35 °C; entre os dois casos, uma linha tracejada com uma marca de escala de 1 m. Acima do trajeto do primeiro mosquito há uma nuvem de pontos rosa, pretos e laranja, e a linha pontilhada do trajeto chega até o alvo; o segundo mosquito, sem a nuvem de pontos, tem um trajeto pontilhado sinuoso que volta para trás sem chegar ao alvo, e há um X vermelho antes do alvo. (ii): um mosquito diante de uma barra de cores que vai de + 1.0 (roxo), no alto, passa por 0.0 (branco) e chega a − 1.0 (cinza), embaixo; do alto da barra, uma seta roxa com um coração leva a uma silhueta humana roxa cercada por muitos pontos rosa, pretos e laranja; de baixo da barra, uma seta cinza leva a uma silhueta humana cinza com menos pontos ao redor. À direita, três fórmulas estruturais de ácidos carboxílicos, cada uma ao lado de um ponto de cor: rosa, preto e laranja](fig:p17-c1)\n\n*Campo de resolução:*\n\n| Objetivo(s) do experimento | Conclusão(ões) |\n|---|---|\n| (i) | (i) |\n| (ii) | (ii) |"
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O filme *Dark Waters*, ou *O Preço da Verdade*, de 2019, retrata um processo judicial motivado por uma intensa contaminação ambiental pelo descarte inapropriado do C8, única identificação do composto químico que o advogado sabia no início da acusação formal. Essa contaminação havia sido promovida por uma indústria, a partir de um lago de decantação. Hoje, essa substância, assim como alguns de seus “parentes” próximos estão presentes na maioria dos ambientes aquáticos mundo afora. Devido à sua alta estabilidade, essas substâncias apresentam alta persistência ambiental e ausência de vias naturais eficazes de degradação. Além disso, são altamente maléficas à saúde humana e de outros animais, como mostra o filme. Para responder aos itens (a) e (b), considere essas informações e a figura abaixo.\n\n![Ilustração em corte de uma área com indústria, painel solar e árvores sobre o solo, e um lençol de água no subsolo com dois eletrodos ligados por fios a uma bateria com polos − e +; o eletrodo da esquerda está rotulado anodo, com um sinal +, e o da direita, catodo, com um sinal −. À esquerda do anodo, duas fórmulas estruturais: uma cadeia de átomos de carbono com 15 átomos de flúor (F) terminada no grupo COOH, e outra com 17 átomos de flúor terminada no grupo SO3H; uma seta azul aponta para a direita. À direita do catodo, uma seta azul e as substâncias CO2, SO4 2−, F− e H2O](fig:p19-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Interprete a figura ao lado e indique: (i) objetivo e resultados esperados no processo representado e (ii) método químico utilizado. Além disso, **nomeie** as substâncias do lado esquerdo da figura. Use a nomenclatura usual, não necessariamente a nomenclatura IUPAC."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Estudos mostram que carvão ativo (CA), com ou sem carga, é capaz de adsorver quantidades semelhantes, em meio aquoso e pH 7, das substâncias orgânicas apresentadas à esquerda, na figura acima. Levando em consideração esses fatos e as interações entre essas substâncias e a superfície do CA, complete as figuras no campo de resposta, desenhando a orientação da molécula da substância orgânica em relação à superfície de cada partícula de CA. Escolha uma das substâncias orgânicas de modo a representar corretamente o relatado e nomeie, em cada caso, o <u>tipo de interação química dominante</u>.\nDado: pKa das substâncias orgânicas menor que 4.\n\n*Campo de resolução:*\n\n![Duas partículas esféricas de carvão ativo (CA): a da esquerda tem sinais + ao redor da superfície; a da direita não tem cargas; abaixo de cada uma, a linha “Tipo de Interação:”](fig:p19-c2)"
+    }
+   ]
+  }
+ ],
+ "respostas_corrigidas": {
+  "10": {
+   "resposta": "**Objetivo da questão:** A questão evoca resultados científicos recentes relativos à hipótese de existência de um planeta além da órbita de Netuno (o Planeta 9), e no item (a) exige o cálculo da força gravitacional exercida pelo Sol e por esse planeta hipotético sobre outros objetos trans-netunianos conhecidos que orbitam o Sol. O item (b) explora a terceira Lei de Kepler para calcular o período de um planeta desconhecido em movimento em torno do Sol. Para a resolução da questão, o candidato deve conhecer a Lei da Gravitação Universal, enquanto que a terceira Lei de Kepler é descrita no enunciado do item b). Além disso, o candidato deve realizar a leitura de dados no diagrama da figura A.",
+   "itens": {
+    "a": "i) $d = d_{\\text{OTN\\_Sol}} - d_{\\text{P\\_Sol}} = (624 - 520)\\ \\text{UA} = 104\\ \\text{UA}$\n\nii) $|\\vec{F}_P| = G\\,\\frac{m_P\\, m_{\\text{OTN}}}{(d)^2}\\,;\\quad |\\vec{F}_{\\text{Sol}}| = G\\,\\frac{m_{\\text{Sol}}\\, m_{\\text{OTN}}}{(d_{\\text{OTN\\_Sol}})^2}$\n\n$$q = \\frac{|\\vec{F}_P|}{|\\vec{F}_{\\text{Sol}}|} = \\frac{\\cancel{G}\\,\\dfrac{m_P\\,\\cancel{m_{\\text{OTN}}}}{(d)^2}}{\\cancel{G}\\,\\dfrac{m_{\\text{Sol}}\\,\\cancel{m_{\\text{OTN}}}}{(d_{\\text{OTN\\_Sol}})^2}} = \\left(\\frac{m_P}{m_{\\text{Sol}}}\\right) \\times \\left(\\frac{d_{\\text{OTN\\_Sol}}}{d}\\right)^2 = \\left(2\\times10^{-5}\\right) \\times \\left(\\frac{624\\ \\text{UA}}{104\\ \\text{UA}}\\right)^2 = \\left(2\\times10^{-5}\\right) \\times (6)^2$$\n\n$$q = \\left(2\\times10^{-5}\\right) \\times 36 = 72\\times10^{-5} = 7{,}2\\times10^{-4}$$",
+    "b": "Terceira Lei de Kepler: $\\frac{T^2}{a^3} = \\mathit{cte} \\Rightarrow \\frac{T_{\\text{Terra}}^2}{a_{\\text{Terra}}^3} = \\frac{T_P^2}{a_P^3}$\n\n$T_P = \\left(\\frac{a_P}{a_{\\text{Terra}}}\\right)^{3/2} T_{\\text{Terra}} = \\left(\\frac{400\\ \\cancel{\\text{UA}}}{1{,}0\\ \\cancel{\\text{UA}}}\\right)^{3/2} \\times (1\\ \\text{ano})$\n\n$T_P = \\sqrt{(4)^3 \\times \\left(10^2\\right)^3}\\ \\text{anos} = \\sqrt{64\\times10^6}\\ \\text{anos} = 8\\times10^3\\ \\text{anos} = 8000\\ \\text{anos}$"
+   }
+  },
+  "11": {
+   "resposta": "**Objetivo da questão:** A questão ressalta a importância da caracterização das propriedades físicas dos materiais, em particular das propriedades térmicas. No item (a) explora-se as relações entre potência e energia, e entre a quantidade de calor fornecida e a massa de material que sofre transição de fase (no caso, a fusão). Já no item (b) a relação entre o calor fornecido e a variação de temperatura de uma amostra é explorada. Nesse item, para realizar o cálculo o candidato deve ler no gráfico fornecido a variação de temperatura da amostra.",
+   "itens": {
+    "a": "$L = 60\\ \\text{cal/g} = \\left(4\\ \\frac{\\text{J}}{\\text{cal}}\\right) \\times \\left(60\\ \\frac{\\text{cal}}{\\text{g}}\\right) = 240\\ \\text{J/g}$\n\n$$\\left.\\begin{aligned} Q &= m_{\\text{parafina}}L \\\\ Q &= P\\Delta t \\end{aligned}\\right\\} \\Rightarrow \\Delta t = \\frac{m_{\\text{parafina}}L}{P}$$\n\n$$\\Delta t = \\frac{(20\\ \\text{g}) \\times (240\\ \\text{J/g})}{P = 30\\ \\text{W}} = 160\\ \\text{s.}$$",
+    "b": "$Q = m c_{\\text{Al}} \\Delta\\theta$\n\nDo gráfico temos: $\\Delta\\theta = (20{,}06 - 20{,}00)\\ {}^\\circ\\text{C} = 0{,}06\\ {}^\\circ\\text{C}$\n\n$$Q = m c_{\\text{Al}} \\Delta\\theta = \\left(1{,}5\\times10^{-5}\\ \\text{kg}\\right) \\times \\left(900\\ \\frac{\\text{J}}{\\text{kg}\\,{}^\\circ\\text{C}}\\right) \\times \\left(0{,}06\\ {}^\\circ\\text{C}\\right) = 8{,}1\\times10^{-4}\\ \\text{J.}$$"
+   }
+  },
+  "12": {
+   "resposta": "**Objetivo da questão:** A questão 12 trata da física de ondas em cordas e sua relação com uma técnica, usada pelos guitarristas, conhecida como bend. A questão articula conhecimentos de Ondulatória (ondas numa corda e ondas sonoras) com Mecânica (equilíbrio de forças e tensão em uma corda). No item (a), o candidato deve utilizar a expressão do harmônico fundamental fornecida para determinar a tensão na corda e, em seguida, modelar o bend como uma situação de equilíbrio no ponto em que a força é aplicada, decompondo corretamente as tensões nas direções necessárias para o correto desenvolvimento da questão. No item (b), a questão exige o uso de uma relação entre frequência e tensão, fornecida no enunciado, para calcular a variação de tensão necessária para elevar a frequência de uma nota (Sol) para a nota seguinte (Sol#), com base nas frequências indicadas na figura.",
+   "itens": {
+    "a": "$$T = 4L^2 f_0^2 \\mu = 4 \\times \\left(3{,}0\\times10^{-1}\\ \\text{m}\\right)^2 \\times \\left(5{,}0\\times10^{2}\\ \\text{Hz}\\right)^2 \\times \\left(8{,}0\\times10^{-4}\\ \\text{kg/m}\\right) = 72\\ \\text{N}$$\n\n$F_y = 2 \\times T \\times \\cos\\left(88{,}9^\\circ\\right) = 2 \\times 72\\ \\text{N} \\times 0{,}02 = 2{,}88\\ \\text{N}$",
+    "b": "$\\frac{\\Delta T}{T_0} = \\frac{2\\left(f - f_0\\right)}{f_0}$\n\n$f(\\text{Sol\\#}) = 415\\ \\text{Hz}$\n$f_0(\\text{Sol}) = 392\\ \\text{Hz}$\n\n$\\Delta f = f - f_0 = 415\\ \\text{Hz} - 392\\ \\text{Hz} = 23\\ \\text{Hz}$\n\n$\\frac{\\Delta T}{T_0} = \\frac{2 \\times 23\\ \\text{Hz}}{392\\ \\text{Hz}} = \\frac{46}{392}$\n\n$\\Delta T = \\frac{46}{392} \\times 196 = 23\\ \\text{N}$"
+   }
+  },
+  "13": {
+   "resposta": "**Objetivo da questão:** A questão 13 aborda conteúdos de Física Moderna (efeito fotoelétrico e relação entre energia e frequência) e Óptica (refração da luz e aplicação da Lei de Snell). No item (a), o candidato deve relacionar a energia elétrica aplicada ao LED com a energia do fóton emitido, utilizando a expressão fornecida $eU_d = hf$ e combinar essa relação com a expressão da frequência em função do comprimento de onda. Trata-se de um problema que articula conceitos de ondas e habilidade de interpretação das informações contidas no enunciado. No item (b), a questão exige a aplicação da Lei de Snell para determinar o ângulo de refração, além da construção geométrica do trajeto do raio de luz no interior de um prisma equilátero, incluindo reflexão e refração nas interfaces. Esse item mobiliza habilidade de interpretação geométrica associado à aplicação de leis físicas.",
+   "itens": {
+    "a": "Dados: $c = 3{,}0\\times10^{8}\\ \\text{m/s}$\n\n$e = 1{,}6 \\times 10^{-19}\\ \\text{C}$\n\n$\\lambda = 600\\ \\text{nm}$\n\n$U_D = 2{,}0\\ \\text{V}$\n\n$f = c/\\lambda \\qquad f = 3\\times10^{8} / 600\\times10^{-9} = 5\\times10^{14}\\ \\text{s}^{-1}$\n\n$$h = \\frac{eU_D}{f} = \\frac{\\left(1{,}6 \\times 10^{-19}\\ \\text{C}\\right) \\cdot 2{,}0\\ \\text{V}}{5\\times10^{14}\\ \\text{s}^{-1}} = 6{,}4 \\times 10^{-34}\\ \\text{Js}$$",
+    "b": "$\\theta_{1i} = 60^\\circ$\n\n$n_{\\text{ar}}\\operatorname{sen}\\left(\\theta_{1i}\\right) = n_{\\text{prisma}}\\operatorname{sen}\\left(\\theta_{1r}\\right)$\n\n$n_{\\text{ar}}\\operatorname{sen}\\left(60^\\circ\\right) = n_{\\text{prisma}}\\operatorname{sen}\\left(\\theta_{1r}\\right)$\n\n$1\\,\\frac{\\sqrt{3}}{2} = \\sqrt{3}\\operatorname{sen}\\left(\\theta_{1r}\\right)$\n\n$\\operatorname{sen}\\left(\\theta_{1r}\\right) = \\frac{1}{2} \\Rightarrow \\theta_{1r} = 30^\\circ$\n\nPor construção geométrica, o feixe passa dentro do prisma paralelo à base, chegando à interface 2 com ângulo $\\theta_{2i} = 30^\\circ$ em relação à sua normal. Como $\\theta_{2i} = \\theta_{1r} = 30^\\circ \\Leftrightarrow \\theta_{2r} = \\theta_{1i} = 60^\\circ$ pois $n_{\\text{ar}}\\operatorname{sen}\\left(\\theta_{ar}\\right) = n_{\\text{prisma}}\\operatorname{sen}\\left(\\theta_{prisma}\\right)$, independentemente da interface e direção do feixe de luz.\n\n$\\alpha_1 = \\theta_{1i} = 60^\\circ$\n\n![Prisma equilátero com o raio incidente na interface 1 (θ1i = 60°), o raio refletido na interface 1 (α1 = 60°), o raio refratado dentro do prisma, paralelo à base, com θ1r = 30° e θ2i = 30°, e o raio que emerge na interface 2 com θ2r = 60°](fig:r09-c1)"
+   }
+  },
+  "14": {
+   "resposta": "**Objetivo da questão:** Nessa questão, foi avaliado o domínio dos candidatos sobre conteúdos fundamentais do programa, como balanceamento de equações químicas, cálculo estequiométrico, comportamento de gases e aspectos energéticos das reações (termodinâmica), inseridos em um contexto atual relacionado a conflitos geopolíticos e ao uso de explosivos em cenários de guerra.",
+   "itens": {
+    "a": "$\\text{C}_3\\text{H}_6\\text{N}_6\\text{O}_6 \\rightarrow 3\\,\\text{H}_2\\text{O} + 3\\,\\text{CO} + 3\\,\\text{N}_2$\n\nPortanto, são formados 9 mols de gases para cada mol de RDX.\n\nEntão: 222 g → 9 mols\n1200000 g → n mols → n = 48.649 mols de gás\n\nPV = nRT → V = (48.649 x 8,3 x 273) / 100000 = **1.102 m³**",
+    "b": "| Item i | Item ii |\n|---|---|\n| Razão 1 – Problemas ambientais devido a extração e purificação das matérias-primas para fabricação da bomba, tais como: mineração, desmatamento. | Razão 1 – O excesso de fuligem na atmosfera pode causar o chamado *inverno nuclear*, bloqueando a entrada de radiação solar. Sem luz suficiente, a fotossíntese é seriamente prejudicada, comprometendo a produção de alimento e afetando toda a cadeia de vida dependente desse processo. |\n| Razão 2 – Testes nucleares que contaminam o meio ambiente, produção de lixo radioativo, produção de rejeitos que podem provocar contaminação dos recursos naturais. | Razão 2 – Contaminação pela radiação nuclear proveniente da explosão da bomba. |"
+   }
+  },
+  "15": {
+   "resposta": "**Objetivo da questão:** Nessa questão, objetivou avaliar o domínio dos candidatos sobre conteúdos de Química Orgânica, em especial nomenclatura e identificação de funções orgânicas, bem como a compreensão de reações químicas e a capacidade de interpretação de representações gráficas baseadas em dados experimentais. Esperava-se que os candidatos fossem capazes de identificar e diferenciar adequadamente aldeídos e ácidos carboxílicos, além de representar o processo de oxidação do nonanal a ácido nonanoico na presença de oxigênio. Adicionalmente, avaliou-se a capacidade de leitura e interpretação da figura apresentada, com a extração de informações que permitissem evidenciar o papel da presença e da concentração dos odores corporais na atração de insetos a um alvo específico.",
+   "itens": {
+    "a": "O perfil observado é explicado da seguinte forma: o nonanal é produzido continuamente, mas sua quantidade não apresenta grandes variações porque parte dele é oxidada a ácido nonanóico. Já o ácido nonanóico aumenta justamente por ser o produto dessa oxidação, promovida pelo $\\text{O}_2$ atmosférico ao longo dos primeiros dias após o nascimento.\n\n![Equação química em fórmulas de linhas: nonanal mais 1/2 O2, seta, ácido nonanóico](fig:r10-c1)",
+    "b": "| Objetivo(s) | Conclusão(ões) |\n|---|---|\n| Avaliar se um inseto se direciona a um alvo a 35°C quando o ambiente próximo possui odores corporais. | Sim, os odores corporais direcionam os insetos até o alvo. Na ausência dos odores, os insetos não alcançam o alvo. |\n| Avaliar se a concentração dos odores corporais interfere na intensidade de atração do mosquito causador da malária pelo ser humano. | Quanto maior a concentração de odores exalados pelo ser humano, maior é a atração de mosquitos. |"
+   }
+  },
+  "16": {
+   "resposta": "**Objetivo da questão:** Nessa questão, teve como objetivo avaliar o domínio dos candidatos sobre conceitos fundamentais relacionados às transformações dos materiais, com ênfase em cálculos estequiométricos envolvendo relações ponderais e volumétricas em reações químicas, bem como em expressões de concentração, especialmente porcentagem em volume. Adicionalmente, foram mobilizados conhecimentos sobre massas atômicas, massas molares e quantidade de substância, aplicados a um contexto cotidiano relacionado ao uso de combustíveis em veículos flex. Esperava-se que os candidatos fossem capazes de estabelecer relações quantitativas entre reagentes e produtos em processos de combustão, interpretar e manipular dados de composição de misturas e realizar cálculos envolvendo proporções e volumes, integrando diferentes conceitos químicos de forma articulada.",
+   "itens": {
+    "a": "A reação de combustão do octano é dada por:\n\n$\\text{C}_8\\text{H}_{18} + {}^{25}\\!/_{2}\\,\\text{O}_2 \\rightarrow 8\\,\\text{CO}_2 + 9\\,\\text{H}_2\\text{O}$ ou $2\\,\\text{C}_8\\text{H}_{18} + 25\\,\\text{O}_2 \\rightarrow 16\\,\\text{CO}_2 + 18\\,\\text{H}_2\\text{O}$\n\nA reação de combustão do etanol é dada por:\n\n$\\text{C}_2\\text{H}_5\\text{OH} + 3\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$\n\nO mol do $\\text{C}_8\\text{H}_{18}$ é 114 g/mol, do $\\text{C}_2\\text{H}_5\\text{OH}$ é 46 g/mol e do $\\text{O}_2$ é 32 g/mol.\n\nA relação $\\frac{\\textit{Quantidade de ar}}{\\textit{Quantidade de combustível}}$ de cada combustível é:\n\n(i) Usando apenas octano: $\\frac{25\\ \\textit{mols}\\ \\text{O}_2}{2\\ \\textit{mols}\\ \\text{C}_8\\text{H}_{18}} = 12{,}5$ ou $\\frac{25 \\times 32\\text{g}}{2 \\times 114\\text{g}} = \\frac{800\\text{g de O}_2}{228\\text{g de C}_8\\text{H}_{18}} \\cong 3{,}5$\n\n(ii) Usando apenas etanol: $\\frac{3\\ \\textit{mols}\\ \\text{O}_2}{1\\ \\textit{mol}\\ \\text{C}_2\\text{H}_5\\text{OH}} = 3$ ou $\\frac{3 \\times 32}{46} = \\frac{96\\text{g de O}_2}{46\\text{g de C}_2\\text{H}_5\\text{OH}} \\cong 2{,}1$\n\nPortanto, a relação $\\frac{\\textit{Quantidade de ar}}{\\textit{Quantidade de combustível}}$ do octano ou gasolina é maior do que do etanol.",
+    "b": "Volume total do tanque = 60 L. Portanto, um tanque cheio com gasolina com 27% de etanol tem 16,2 L de etanol.\n\nA nova gasolina possui 30% de etanol. Portanto: 16,2 L de álcool é obtida utilizando um volume de 54 L da nova gasolina (16,2 L ÷ 0,3 = 54 L da nova gasolina). Assim, é necessário adicionar 6 L de gasolina pura à nova gasolina para atingir o percentual de 27% de etanol.\n\nCada 1 L da nova gasolina (com 30% de etanol) tem 0,7 L de gasolina pura. Portanto, são necessários 8,57 L da nova gasolina para se obter 6 L de gasolina pura, após extração do etanol.\n\nAssim, o volume mínimo da nova gasolina que deve ser comprado para completar o tanque com gasolina com 27% de etanol é de 62,57 L (54 L que será adicionado diretamente ao tanque mais 8,57 L, que após extração do etanol, irá render 6 L de gasolina pura, para completar o tanque, diluindo a nova gasolina)."
+   }
+  },
+  "17": {
+   "resposta": "**Objetivo da questão:** Essa questão objetivou avaliar o domínio dos candidatos sobre conteúdos de Química Orgânica, em especial o reconhecimento de funções orgânicas — como hidrocarbonetos, compostos halogenados e ácidos carboxílicos — e conceitos relacionados às interações intermoleculares, com destaque para interações de Van der Waals, ligações de hidrogênio e noções de equilíbrio químico em meio aquoso. Esses conteúdos foram contextualizados a partir de uma problemática contemporânea de grande relevância, relacionada à contaminação ambiental por compostos perfluorados (PFOAs), evidenciando o papel da Química na compreensão e mitigação de impactos ambientais.\n\nA questão foi estruturada de modo a explorar, em uma abordagem conceitual aplicada, estratégias de minimização ou remediação de contaminantes persistentes, ressaltando que, uma vez estabelecida a contaminação ambiental, sua reversão completa é inviável, sendo, portanto, fundamental o desenvolvimento de soluções científicas para reduzir seus efeitos. Nesse contexto, foi avaliada a capacidade dos candidatos de reconhecer a identidade química do contaminante e compreender princípios associados a técnicas de tratamento, como processos eletroquímicos potencialmente acoplados a fontes de energia renovável. Adicionalmente, foram explorados conceitos de interações intermoleculares aplicados a processos de adsorção, amplamente utilizados na remoção de poluentes em sistemas líquidos e gasosos, incluindo o uso de materiais adsorventes naturais e modificados.\n\nPor fim, a questão evidenciou o caráter interdisciplinar da Química Ambiental, articulando conhecimentos com áreas como saúde, biologia e física, especialmente no que se refere aos impactos de contaminantes em organismos vivos e aos fundamentos físico-químicos envolvidos em técnicas de remediação, contribuindo para uma formação científica integrada e contextualizada.",
+   "itens": {
+    "a": "(i) O objetivo é a decomposição de compostos organofluorados, contaminantes presentes na água, altamente tóxicos. O resultado esperado é a eliminação ou minimização da quantidade dessas substâncias maléficas para a saúde humana e animal e a redução do impacto ambiental. (ii) Foi utilizado um método de decomposição eletroquímico empregando energia renovável. As substâncias alvo do processo em questão são ácidos orgânicos polifluoretados, denominados PFAS, no caso o ácido perfluorooctanóico (PFOA) e o ácido perfluoro octanossulfônico (PFOS).",
+    "b": "![À esquerda, partícula de CA com sinais + na superfície e duas moléculas orgânicas fluoradas, com as cadeias de átomos de F afastadas da partícula e os grupos com O, O− e S voltados para a sua superfície. À direita, partícula de CA sem cargas e as duas moléculas dispostas ao lado dela, com as cadeias de átomos de F ao longo da superfície](fig:r12-c1)\n\nTipo de interação: **eletrostática** ou atração entre as cargas negativas dos compostos químicos citados na forma aniônica (pKa < 4) e o CA carregado positivamente.\n\nTipo de interação: **van der Waals** ou interações fracas tais como forças de dispersão de London ou dipolo-dipolo induzido."
+   }
+  },
+  "18": {
+   "resposta": "**Objetivo da questão:** Nessa questão, objetivo foi avaliar o letramento científico dos candidatos, articulado ao domínio de conceitos de equilíbrio químico, com ênfase em sistemas em equilíbrio, equilíbrios ácido-base e no Princípio de Le Chatelier, aplicados a um contexto do cotidiano relacionado à regulação do cálcio iônico no sangue. A questão foi construída para explorar, a partir de uma abordagem conceitual e contextualizada, os mecanismos bioquímicos envolvidos no controle da concentração de cálcio no organismo, evidenciando a importância do conhecimento químico para a compreensão de processos associados à saúde humana e animal. Esperava-se que os candidatos fossem capazes de interpretar situações reais à luz dos princípios de equilíbrio químico, reconhecendo como variações em parâmetros do sistema podem deslocar equilíbrios e afetar a disponibilidade de espécies químicas em meio biológico. Adicionalmente, a questão apresenta caráter interdisciplinar, estabelecendo conexões com áreas como biologia e medicina, ainda que os itens não exigissem conhecimentos específicos dessas áreas, mas sim a aplicação de conceitos químicos fundamentais em um contexto biológico. Dessa forma, foi avaliado não apenas o domínio conceitual, mas também a capacidade de transposição e aplicação do conhecimento químico em situações contextualizadas e relevantes.",
+   "itens": {
+    "a": "A partir do texto, fica evidente que os mecanismos regulatórios internos, citados acima, são utilizados para o caso de uma pessoa estar com hipocalcemia, ou seja, aumento do fluxo de cálcio do osso para a circulação sanguínea, redução da excreção renal de $\\text{Ca}^{2+}$ e aumento da produção do metabólito 1,25$(\\text{OH})_2\\text{D}_3$.",
+    "b": "i) Quando a concentração de proteína sérica é anormal. Exemplo com base em equilíbrio químico:\n\n$$\\text{Ca}^{2+} + (\\text{Proteína}) = [\\text{Ca-Proteína}]$$\n\nNesse caso, se a concentração de proteína é anormal, o equilíbrio é afetado. Caso a concentração de proteína aumente, a concentração de $\\text{Ca}^{2+}$ livre diminui. Se a concentração de proteína diminui, então a concentração de $\\text{Ca}^{2+}$ livre será maior.\n\nii) quando a pessoa apresenta uma perturbação no equilíbrio ácido-base sanguíneo: se ocorre um aumento de acidez (acidose), a concentração de ânions livres (fosfato e lactato) no sangue diminui, pois o equilíbrio será deslocado no sentido de formação das espécies protonadas:\n\n$\\text{A}^{-}_{(\\text{aq})} + \\text{H}^{+}_{(\\text{aq})} = \\text{HA}_{(\\text{aq})}$, na qual $\\text{A}^{-}$ representa os ânions fosfato e lactato.\n\nPortanto, a concentração de $\\text{Ca}^{2+}$ livre deve ser maior. Já em um processo de diminuição da acidez (alcalose), ocorre o contrário: diminuição do $\\text{Ca}^{2+}$ livre."
+   }
+  }
+ },
+ "complementos": {
+  "10": {
+   "assunto": "Gravitação"
+  },
+  "11": {
+   "assunto": "Termologia"
+  },
+  "12": {
+   "assunto": "Ondulatória"
+  },
+  "13": {
+   "assunto": "Óptica"
+  },
+  "14": {
+   "assunto": "Reações e estequiometria"
+  },
+  "15": {
+   "assunto": "Química orgânica"
+  },
+  "16": {
+   "assunto": "Reações e estequiometria"
+  },
+  "17": {
+   "assunto": "Ligações e interações"
+  },
+  "18": {
+   "assunto": "Equilíbrio químico"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 10,
+   "status": "corrigida",
+   "notas": "Figura A (p12-c1) movida para depois de (i) e (ii): estava entre 'calcule:' e os subitens que completam a frase; no caderno ela fica no espaço de respostas, depois do texto. Resto conferido com p12 (ampliado). Respostas conferidas com r07 (104 UA; q = 7,2×10⁻⁴; 8000 anos). Observação do transcritor aceita: os riscos de cancelamento (G, m_OTN, UA) são da banca e o \\cancel renderiza. Na resposta b a banca escreve T_P/a_P para o planeta que o enunciado chama de D; mantido como publicado."
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "Enunciado, dados (1 cal ≃ 4 J; J/(kg·°C)) e gráfico p13-c1 (eixos e curvas Cu/Al completos) conferidos com p13. Respostas conferidas com r07–r08 (160 s; Δθ = 0,06 °C lido no gráfico em t = 0,15 s, confere; Q = 8,1×10⁻⁴ J)."
+  },
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "Descrição da figura A (p14-c1) dizia 'vista de cima', interpretação que não está no desenho; reescrita só com o que a figura mostra. Texto, sublinhados ('sem o bend', 'Sol', 'Sol sustenido'), dados e figura B (p14-c2) conferidos com p14. Respostas conferidas com r08 (T = 72 N, F_y = 2,88 N; ΔT = 23 N; a banca usa T_0, f e f_0 no lugar de T_1, f_2 e f_1 do enunciado, mantido)."
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "Conferida com p15 (ampliado): 'ar–prisma' com meia-risca e 'prisma-ar' com hífen, como no caderno; campo de resolução p15-c1 completo. Observação do transcritor aceita: 'o valor ângulo' (sem 'do') é da banca, mantido. Respostas e figura r09-c1 conferidas com r08–r09 (h = 6,4×10⁻³⁴ J·s; θ1r = 30°, θ2r = 60°, α1 = 60°)."
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": "Conferida com p16 (150·10⁹ kg; dados de R e P). Campo de resolução (quadro Afirmação i/ii) transcrito como tabela. Respostas conferidas com r09–r10 (48.649 mol, 1.102 m³ conferem). Matéria extra 'biologia' mantida: a afirmação ii pede justificar a insegurança alimentar, e a resposta da banca usa fotossíntese e cadeia alimentar (ecologia); a decisão é de fronteira."
+  },
+  {
+   "numero": 15,
+   "status": "corrigida",
+   "notas": "Matéria extra 'biologia' retirada: o item a é oxidação de aldeído e o item b pede objetivo e conclusão de experimentos lidos na figura, sem cobrar conteúdo de biologia. Descrição da figura p17-c1 corrigida: dizia que os alvos estavam 'a 1 m de distância' (o 1 m é uma marca de escala na linha que separa os casos) e omitia que a silhueta cinza tem menos pontos que a roxa, informação que quem não enxerga precisa para fazer o item b. Observação do transcritor aceita (aspas mistas e vírgula são do caderno). Respostas e equação r10-c1 conferidas com r10."
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": "Conferida com p18 ('flex' em itálico, 'a ser usado' sublinhado, dados). Respostas conferidas com r11 (relações 12,5/3 em mol e 3,5/2,1 em massa; 54 L + 8,57 L = 62,57 L conferem). A banca escreve 'comprado' onde o enunciado diz 'usado'; mantido."
+  },
+  {
+   "numero": 17,
+   "status": "corrigida",
+   "notas": "Descrição da figura p19-c1 nomeava as funções ('ácido carboxílico', 'ácido sulfônico'), o que adianta parte do item a, que pede o nome das substâncias; passou a descrever só o desenhado (cadeias com 15 e 17 átomos de F, grupos COOH e SO3H, contados em ampliação do PDF). Texto, negrito ('nomeie'), sublinhado e campo de resolução p19-c2 conferidos com p19. Respostas e figura r12-c1 conferidas com r11–r12 (os dois quadros 'Tipo de interação' viraram parágrafos, na ordem esquerda/direita)."
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "Conferida com p20: sublinhados de 'Ca²⁺ total/livre/ligado...' e 'calculada', 1,25(OH)₂D₃. Respostas conferidas com r12. Matéria extra 'biologia' mantida: o item a cobra a regulação hormonal da calcemia (PTH, vitamina D, hipocalcemia), conteúdo de fisiologia humana."
+  }
+ ]
+}

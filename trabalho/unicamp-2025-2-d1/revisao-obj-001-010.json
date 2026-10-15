@@ -1,0 +1,148 @@
+{
+ "edicao": "unicamp-2025-2-d1",
+ "intervalo": [
+  1,
+  10
+ ],
+ "complementos": {
+  "1": {
+   "assunto": "Interpretação de texto"
+  },
+  "2": {
+   "assunto": "Sintaxe"
+  },
+  "3": {
+   "assunto": "Obras de leitura obrigatória"
+  },
+  "5": {
+   "assunto": "Interpretação de texto"
+  },
+  "6": {
+   "assunto": "Variação linguística"
+  },
+  "7": {
+   "assunto": "Ecologia"
+  },
+  "8": {
+   "assunto": "Interpretação de texto"
+  },
+  "9": {
+   "assunto": "Quantidade de movimento"
+  },
+  "10": {
+   "assunto": "Ondulatória"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "Texto 2: o itálico estava aplicado também em “você me disse.”, que no caderno (p07) é redondo; corrigido para “*É necessário preservar o avesso*, você me disse. *Preservar ... vivos.*”. Descrições das figuras: a da charge dizia “Charge” (o item b pergunta o gênero) e “no estilo da Ku Klux Klan” (a marca não verbal que o item pede); reescrita só com o que se vê, incluindo o desenho nas costas do homem (retângulo com losango e círculo) que a resposta da banca cita. A da capa passou a mencionar a sombra das grades nas costas e a claridade da janela na parede, também citadas na resposta. Resposta (r01) conferida palavra por palavra."
+  },
+  {
+   "numero": 2,
+   "status": "corrigida",
+   "notas": "Falas e legendas conferidas com p08. A descrição da tira não dizia o formato dos balões, que a resposta da banca usa como elemento do item b (balões arredondados na cena 4, pontiagudos nas outras); acrescentado, junto com uma descrição mínima de cada cena, sem atribuir as falas. Resposta (r01–r02) conferida."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Conferido com p09 e r02. “Casa Velha” sem itálico na resposta b, como no documento. Matéria literatura com historia em extra mantida: a prova comentada (r11) diz que a questão exige conhecimento da estrutura social do período regencial, “conhecimento da área de Ciências Humanas”."
+  },
+  {
+   "numero": 5,
+   "status": "atencao",
+   "notas": "Corrigida a descrição da figura: dizia “o logotipo da rede social X”, que é a identificação pedida no item a; agora descreve só as formas. Matéria: portugues com sociologia em extra mantida (a questão está na prova de Língua Portuguesa; o item b cobra o conceito de colonialidade/decolonialidade). ATENÇÃO (possível erro da banca, não mexido): o item a, conferido no caderno (p11) e na prova comentada (r15), fala em polêmica entre a plataforma e “o Legislativo”, mas a resposta da banca e o “Objetivo da Questão” tratam da disputa com o Supremo Tribunal Federal (Judiciário). Também, a resposta esperada (r03) diz “em agosto deste ano” e “Rafael Nascimento”; a prova comentada corrige para “agosto de 2024” e “Raphael”. Mantido o texto das Respostas esperadas, por fidelidade; uma pessoa pode decidir se vale usar a versão da prova comentada."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Conferido com p12 e r03–r04. Itálicos da resposta (bacana, mancada, supimpa, tankar, gamer, online) conferem com o documento; no texto do caderno as gírias são redondas, como transcrito."
+  },
+  {
+   "numero": 7,
+   "status": "corrigida",
+   "notas": "Texto em inglês, legenda e fonte conferidos com p13; resposta com r04. A descrição da foto chamava o animal de “água-viva do tipo comb jelly”; comb jelly é ctenóforo, não água-viva, e numa questão de biologia isso confunde. Descrição reescrita de forma neutra (a legenda impressa já diz “comb jelly”). Matéria biologia com ingles em extra confirmada pela prova comentada (r19: “era preciso recorrer a conhecimentos em inglês e em biologia”)."
+  },
+  {
+   "numero": 8,
+   "status": "corrigida",
+   "notas": "Texto e resposta conferidos (p14, r04). Matéria trocada de filosofia (+ingles) para ingles (+filosofia): a prova comentada (r21) diz que “o principal foco da questão, nos dois itens, era avaliar a competência leitora dos candidatos. Não há, nesse sentido, um viés conteudista”, e as duas respostas saem do texto em inglês; filosofia fica em extra pela relação com o cogito no item a."
+  },
+  {
+   "numero": 9,
+   "status": "atencao",
+   "notas": "Texto e resposta conferidos (p15, r04–r05). Matéria: fisica com biologia e, agora, geografia em extra, porque a prova comentada (r24) diz que o item b “exige algum conhecimento básico de Biologia e Geografia”. ATENÇÃO (imprecisão da banca, não mexida): no item a a resposta cita como lei a ser usada “a lei de conservação da energia mecânica” e, na frase seguinte, diz que a energia mecânica não se conserva no choque inelástico. A lei de conservação aplicável é a da energia total; a mecânica é justamente a grandeza que não se conserva. A prova comentada repete o mesmo texto."
+  },
+  {
+   "numero": 10,
+   "status": "corrigida",
+   "notas": "Enunciado, dados e LaTeX conferidos com p16; resposta com r05 (sublinhados dos resultados conferidos). Observação do transcritor sobre “ecossitemas”: confirmado no caderno (item b); mantido como impresso. A descrição da figura não dizia até onde chega cada raio, informação que o item a manda tirar da figura; reescrita descrevendo onde cada seta termina, sem nomear a derme. materias_extra reordenado para biologia, quimica (anatomia da pele no item a e efeitos ecológicos no item b pesam mais que a química)."
+  }
+ ],
+ "respostas_corrigidas": {
+  "1": {
+   "itens": {
+    "a": "O avesso a que o texto 2 se refere diz respeito à identidade interior, que não pode ser reduzida à cor da pele nem ao que associam a ela. Entre os elementos do texto 1 que remetem ao conteúdo do texto 2, podemos citar o homem negro seminu em um trampolim à beira de uma piscina, em referência ao episódio ocorrido na Flórida em 1964, descrito na legenda da imagem: manifestantes negros mergulharam em uma piscina de hotel permitida apenas para pessoas brancas, e o proprietário do estabelecimento jogou ácido na água para barrar o protesto. Essa referência pode ser associada ao que é dito nas duas primeiras linhas do texto 2: “Você sempre dizia que os negros tinham de lutar, pois o mundo branco havia nos tirado quase tudo e que pensar era o que nos restava”. Outro elemento do texto 1 relacionado ao texto 2 é o reflexo das grades da janela sobre a pele do homem negro, lembrando uma prisão que, em termos figurativos, pode ser entendida como uma tentativa do mundo exterior de aniquilar ou aprisionar a identidade interior, em razão do preconceito contra a cor da pele. O reflexo da janela também aparece na parede, projetando uma sombra entre as grades, o que evoca “aquilo que ninguém vê”, também referido no texto 2.",
+    "b": "O texto 3 é uma charge. A intenção do seu autor é criticar a recolha do livro por secretarias de educação, que alegavam haver na obra trechos impróprios a estudantes. O elemento verbal que evidencia a crítica é o próprio título da charge: “O avesso do avesso” é uma referência clara ao nome do livro e reporta ao oposto do que vem a ser a identidade interior ou o “avesso da pele” – ou seja, o avesso do avesso é a própria pele. A charge sugere, assim, que a tentativa de censurar o livro teve motivação racista. Entre os elementos não verbais que corroboram essa visão, podemos citar o indivíduo com as vestes da Ku Klux Klan (movimento supremacista dos Estados Unidos que perseguia e matava negros), o qual empunha uma lança contra um negro seminu que, tal como na capa do livro, se encontra sobre um trampolim. Outro elemento não verbal é a bandeira do Brasil marcada nas costas do negro por quem empunha a lança, na mesma posição em que, na capa do livro, aparece o reflexo das grades de uma janela, o que alude ao fato de estarmos em um país racista."
+   },
+   "resposta": "**Objetivo da questão:** A questão solicita ao candidato uma análise da capa de O avesso da pele, romance de Jeferson Tenório, e um trecho desse romance, além de uma charge do cartunista Benett. Considerando informações apresentadas na introdução da questão, o candidato deveria estabelecer uma relação entre os três textos, a partir da observação de elementos verbais e não verbais. O tema da questão se correlaciona com a área de História, já que as imagens nos textos 1 e 3 fazem alusão a movimentos supremacistas estadunidenses, como a Ku Klux Klan."
+  },
+  "2": {
+   "itens": {
+    "a": "O mecanismo linguístico de referenciação é o vocativo. Nas falas das personagens, ele se realiza nos termos que aparecem depois da vírgula, tal como em: “cambada”; “Bolívia”; “arrombado”, “Vitinho” e “Dona Paola”. Na tirinha, o vocativo é um dos elementos textuais mobilizados para expressar uma visão crítica sobre a diferença entre as condições de trabalho dos personagens das cenas 1 a 3 em comparação com a cena 4.",
+    "b": "A quarta cena difere das demais porque mostra um contexto de trabalho com melhores condições do que os das cenas anteriores, o que fica textualmente expresso em diferentes elementos, tais como: o uso das palavras no diminutivo (“joguinhos”, “Vitinho” e “baratinho”); o formato arredondado dos balões de fala, que indica que as personagens não estão gritando; a referência ao personagem João Vítor como colaborador e a presença de diálogo entre as personagens Dona Paola e João Vítor."
+   },
+   "resposta": "**Objetivo da questão:** A questão solicita ao candidato que reconheça uma estratégia de referenciação presente em todos os quadros da tira, bem como o efeito que produz. Também requer que o candidato liste três aspectos particularizadores do último quadro, na comparação com os outros três. Para desenvolver a questão, o candidato precisava mobilizar conhecimentos sobre sintaxe do português, mais especificamente sobre elementos gramaticais usados na construção de textos. Também era necessário reconhecer efeitos de sentido decorrentes de usos expressivos da língua e, assim como na questão 1, explorar a interação entre texto verbal e não verbal."
+  },
+  "3": {
+   "itens": {
+    "a": "Espera-se que o candidato identifique a distinção social entre as duas personagens femininas, Dona Antônia e Lalau: a primeira, pertencente à classe senhorial, rica e proprietária de escravos, tem influência econômica e política; a segunda, uma agregada, pertencente à categoria de pessoas livres e pobres, recebe benefícios da classe senhorial, mas se mantém em uma posição socialmente subalterna, dependente da primeira. As personagens retratam as relações de dominação que marcam a sociedade brasileira de meados do século XIX.",
+    "b": "Para reconstituir brevemente, em seus elementos essenciais, a intriga central de Casa Velha, o candidato deve identificar as personagens (por seus nomes ou por seus papéis no enredo) e mencionar, pelo menos: a calúnia inventada por Dona Antônia, referente ao suposto incesto; a descoberta da mentira pelo narrador, o padre, com auxílio da parenta de Lalau; a decisão de Lalau recusar o casamento com Félix, reafirmando sua dignidade. Além disso, é necessário, para completar a resposta, identificar a desigualdade social que motiva a oposição ao casamento entre o filho da proprietária e sua agregada."
+   },
+   "resposta": "**Objetivo da questão:** A questão exigia a leitura integral e a análise da novela Casa Velha, assim como habilidades de interpretação do enunciado, a partir da perspectiva apresentada no fragmento de Lúcia Miguel-Pereira e da mobilização de conhecimentos históricos sobre a sociedade brasileira oitocentista. Nesse contexto, a proposta de considerar a casa como um microcosmo da sociedade demandava dos candidatos a reflexão sobre as relações de poder, do modo como foram construídas na narrativa, em particular no que diz respeito a Dona Antônia e Lalau. Além disso, a questão exigia dos candidatos um conhecimento aprofundado do enredo da novela, uma vez que foi solicitada a reconstituição dos eventos que levaram à separação entre a jovem agregada e Félix, assim como a resolução desse conflito.\n\nPara responder bem à questão, o candidato deveria ter intimidade com o texto literário, assim como estar familiarizado com a estrutura social do Brasil do período regencial, conhecimento da área de Ciências Humanas. Os dois itens, ao aproximarem o texto literário de seu contexto, reforçam as relações significativas entre literatura e sociedade, tanto para a compreensão dos textos quanto para um entendimento mais aprofundado de determinado período histórico."
+  },
+  "5": {
+   "itens": {
+    "a": "O “jogo da velha” explorado pela imagem funciona como uma metáfora do episódio de disputa jurídica em torno da suspensão do X (antigo Twitter) no Brasil, em agosto deste ano, depois que Elon Musk, proprietário da empresa mantenedora da rede social, não cumpriu com a determinação do Supremo Tribunal Federal de indicar um representante legal no país, como é requerido de toda empresa de comunicação internacional com sede no Brasil. Na imagem, o jogador X simboliza a própria rede social X (antigo Twitter) e o jogador O representa o Estado brasileiro e seus poderes (inclusive, o Supremo Tribunal Federal). A sequência dos três “O”, representados pelos três círculos que lembram parte da bandeira brasileira, contra os dois “X”, que reproduzem a logomarca da plataforma digital, indica que o Estado brasileiro ganhou o jogo. Essa vitória simboliza o fortalecimento da soberania nacional e o cumprimento da legislação brasileira por uma empresa estrangeira que atua em nosso país.",
+    "b": "Rafael Nascimento batizou a sua arte como “Decolonial” para explicitar sua posição contrária à ideia de um Brasil submisso em relação aos Estados Unidos como país colonizador e imperialista. O prefixo “DE-” tem valor de negação, atribuindo, portanto, o sentido de não concordância ou de ruptura com a tentativa de colonização (digital) e desrespeito à legislação brasileira. Trata-se de um gesto de resistência à tentativa de submissão de um país como o Brasil a uma potência hegemônica como os Estados Unidos."
+   },
+   "resposta": "**Objetivo da questão:** No item a, o objetivo da questão foi verificar a capacidade do candidato de interpretar a imagem/post publicado no perfil de conhecida rede social do designer Raphael Nascimento, um gênero não verbal, relacionando-a com o contexto histórico em que é produzida. A questão requeria o conhecimento de um acontecimento social relevante no contexto político do Brasil de 2024, além do entendimento do funcionamento do jogo da velha. Era preciso que o candidato conseguisse relacionar os símbolos específicos (X e círculo) que ilustravam a disputa entre a empresa X (antigo Twitter), representada por Elon Musk e o Supremo Tribunal Federal, no caso da polêmica de 2024, muitas vezes representado metonimicamente por Alexandre de Moraes.\n\nO item b tinha como objetivo avaliar o conhecimento do conceito de metáfora e a capacidade de relacionar a imagem do jogo da velha explorada pelo artista com o episódio de suspensão da plataforma X no Brasil, em 2024, além de solicitar uma atenção especial ao sentido construído a partir do conhecimento do que significa o título da imagem."
+  },
+  "6": {
+   "itens": {
+    "a": "No texto há três gírias que podem funcionar como marcadores sociais de idade: *bacana*, *mancada* e *supimpa*. Das três, *mancada* e *supimpa* são tidas como antigas, datadas, do passado ou ainda arcaicas, sendo, portanto, um marcador social de idade que pode ser atribuído a pessoas mais velhas que ainda as utilizam. *Bacana* parece ser uma exceção, já que permanece atual e é usada por pessoas de diferentes idades. O verbo *tankar*, usado predominantemente por pessoas mais jovens, sugere o pertencimento de quem o usa ao grupo de jogadores digitais (inseridos no universo *gamer* e das redes sociais *online*).",
+    "b": "Ao relacionar o ciclo de vida humana (nascer, crescer e morrer) com o de gírias (que igualmente nascem, crescem e morrem), o autor estabelece uma analogia entre o percurso de existência – seja ele curto ou longo – das pessoas e das palavras, já que ambas podem viver essas três etapas em sua existência. O enunciado destacado evidencia uma crítica a uma sociedade que discrimina a população mais velha ao considerar que “envelhecer” é uma “espécie de gafe”, como se fosse um equívoco, um erro, algo estética e linguisticamente deselegante. Nessa sociedade que valoriza sobremaneira o novo, as pessoas e as gírias que têm um ciclo de vida mais longo e permanecem em circulação no meio social podem sofrer discriminação por aqueles que as consideram arcaicas ou demasiadamente velhas, configurando etarismo."
+   },
+   "resposta": "**Objetivo da questão:** No item a, o objetivo foi avaliar se o candidato sabia o que é gíria e como é usada na sociedade, além de verificar a compreensão do texto e capacidade de identificar exemplos relativos à idade do falante e ao grupo social (no caso específico, de comunidade gamer/usuários de redes sociais). Era necessário que o candidato soubesse justificar a associação feita em cada caso com base em seu conhecimento sobre o funcionamento social da língua.\n\nNo item b, o objetivo central foi verificar se o candidato era capaz de reconhecer e explicar a figura de linguagem ironia no texto, bem como justificar por que a frase retomada no enunciado entre aspas pode ser vista como um indicador de etarismo. São mobilizados, portanto, dois conceitos cujas relações devem ser explicitadas a partir de uma análise crítica do texto de Sérgio Rodrigues."
+  },
+  "7": {
+   "itens": {
+    "a": "O fenômeno mencionado é a bioluminescência, sendo descrito como a capacidade de produção de luz por organismos vivos por meio de reação química. Para o vaga-lume, a luz atrai parceiros para reprodução; para a água-viva, a luz afasta os predadores, favorecendo sua sobrevivência.",
+    "b": "Uma relação harmônica seria a do mutualismo entre bactérias bioluminescentes e alguns peixes ou lulas. As bactérias ganham proteção dentro do corpo do animal maior e este se beneficia da luz que as bactérias, para atrair suas presas, produzem.\n\nUma relação desarmônica seria a predação dos peixes ou lulas com suas presas, em que esses animais se beneficiam da luz produzida para capturar uma outra espécie e se alimentar dela."
+   },
+   "resposta": "**Objetivo da questão:** Um dos objetivos da questão, especificamente no item a, era avaliar se candidato é capaz de identificar e explicar, por meio da leitura de um texto e da análise de uma imagem, um fenômeno que ocorre em alguns organismos vivos na natureza (“In nature, glowing lights are a matter of survival: (...)”). Para tanto, era preciso recorrer a conhecimentos em inglês e em biologia, pois sem compreender o texto, não seria possível nomear o conceito; da mesma forma, mesmo que a leitura do texto fosse suficiente para compreender o fenômeno, seria preciso identificá-lo. Além disso, para descrever o fenômeno (“the light is produced by a chemical reaction within a living organism and requires two unique chemicals: luciferin and either luciferase or a photoprotein”) e para citar um benefício desse fenômeno para os organismos do texto (“...for fireflies, the light attracts mates; for some jellyfish, the lightshows within their tissue-paper membranes shoo off predators”) a compreensão do texto era fundamental.\n\nJá em b, o objetivo era avaliar os conhecimentos em biologia de maneira mais explícita, já que era preciso nomear e descrever relações harmônicas e desarmônicas tomando por base os organismos marinhos citados no texto. Novamente, apesar do foco em dois conceitos dessa área, observa-se a interrelação entre as disciplinas, uma vez que o candidato deveria demonstrar o conhecimento em inglês para identificar as relações ecológicas (“For certain marine bacteria, making light is the ticket to a cozy home within squids and fish, which use that gifted glow to nullify their moonlit shadows or as a means to catch prey”)."
+  },
+  "8": {
+   "itens": {
+    "a": "De acordo com o texto, os seres humanos são compostos por dois elementos distintos: corpos físicos e estados mentais ou pensamentos. Para Descartes, o elemento essencial para a existência humana é o pensamento. Logo, uma vez que o pensamento é fundamental para os seres humanos, conclui-se que, para existir, basta pensar, conforme indica a frase do filósofo (“Penso, logo existo”).",
+    "b": "Para Descartes, o fator que determina se algo é capaz de pensar é a linguagem. Segundo o filósofo, a linguagem é crucial para que se prove a existência de inteligência em máquinas, ou seja, isso só será possível se uma máquina for capaz de apreender conceitos e expressar pensamentos através da linguagem e fazê-lo de forma autônoma e independente, como nós, humanos, fazemos."
+   },
+   "resposta": "**Objetivo da questão:** A elaboração da Q8 partiu do desejo da banca de abordar um tema atual, que estivesse em circulação nos espaços de diálogo dos candidatos, e relacioná-lo a conceitos e conhecimentos já consolidados. A ideia, com isso, era problematizar a noção rasa de que a disciplina de filosofia se limita a tratar de assuntos situados no passado. Esse raciocínio, portanto, motivou a banca elaboradora a explorar as aproximações entre a teorizações de Descartes e suas implicações para o nosso entendimento de inteligência artificial atualmente.\n\nO principal foco da questão, nos dois itens, era avaliar a competência leitora dos candidatos. Não há, nesse sentido, um viés conteudista na proposta."
+  },
+  "9": {
+   "itens": {
+    "a": "As duas leis de conservação da Física que devem ser utilizadas na descrição da colisão são: a lei de conservação da energia mecânica e a lei da conservação da quantidade de movimento. Num choque inelástico, num sistema isolado como é o fenômeno citado, a quantidade de movimento se conserva, enquanto que a energia mecânica não se conserva, já que parte da energia inicial se transforma em outras formas de energia, como a térmica e a sonora, por exemplo.",
+    "b": "O período que antecede o grande impacto do asteroide com a Terra é o Cretáceo, em que predominavam os grandes répteis, como os dinossauros. O período que sucedeu o evento catastrófico é o Paleógeno, em que ocorreu uma grande expansão das espécies de mamíferos."
+   },
+   "resposta": "**Objetivo da questão:** O item a da questão 9 tem como objetivo avaliar o conhecimento sobre grandezas físicas que descrevem um choque não elástico, tendo como condição de contorno a ausência de forças externas. O item se contextualiza na colisão histórica de um asteroide com a Terra, o que levou a grandes mudanças no ambiente terrestre. Assim, o item a exige conhecimentos básicos sobre conservação ou não de grandezas físicas utilizadas para descrever esse tipo de fenômeno; especificamente, o item pede que sejam citadas uma grandeza que se conserva e uma que não se conserva nesse fenômeno. Já o item b, por sua vez, avalia o conhecimento sobre mudanças que se operaram na fauna terrestre, por conta desse evento de grandes proporções. Embora a resposta ao item exija algum conhecimento básico de Biologia e Geografia, ainda assim, o texto da questão dá pistas que podem ser utilizadas para a resposta."
+  },
+  "10": {
+   "itens": {
+    "a": "Conforme a figura, a derme (camada intermediária da pele) é atingida pelos raios UVA ($\\lambda$ de 320 a 400 nm). A frequência $f$ de uma onda pode ser calculada por: $f = c/\\lambda$, em que $c$ é a velocidade da luz informada ($3 \\times 10^8\\ \\text{m/s}$) e $\\lambda$ é o comprimento de onda.\n\nAssim,\n\npara 320 nm, $f = (3 \\times 10^8\\ \\text{m/s}) / (320 \\times 10^{-9}\\ \\text{m})$; <u>$f \\cong 9{,}4 \\times 10^{14}\\ \\text{Hz}$;</u>\npara 400 nm, $f = (3 \\times 10^8\\ \\text{m/s}) / (400 \\times 10^{-9}\\ \\text{m})$; <u>$f \\cong 7{,}5 \\times 10^{14}\\ \\text{Hz}$.</u>\n\nEntão a faixa de frequência de luz que atinge a derme vai de $7{,}5 \\times 10^{14}\\ \\text{Hz}$ a $9{,}4 \\times 10^{14}\\ \\text{Hz}$.",
+    "b": "Os constituintes químicos dos protetores ou os fotoprodutos de sua decomposição podem ingressar no sistema aquático marinho, principalmente em regiões costeiras com muita população ou fluxo turístico. Uma vez nesse ambiente, podem ter um efeito tóxico diretamente sobre a saúde, o metabolismo e a reprodução de determinada espécie e levar ao seu declínio ou morte, com consequências na cadeia alimentar. Exemplos: em algas podem provocar *stress* oxidativo ou modificações celulares que dificultam sua capacidade de realizar a fotossíntese. Também podem contaminar corais, moluscos, artrópodes e vertebrados pelo contato direto ou pela ingestão, promovendo a biomagnificação."
+   },
+   "resposta": "**Objetivo da questão:** O item a da questão 10 tem como objetivo avaliar o conhecimento sobre ondas eletromagnéticas e também sobre a anatomia da pele humana. O item pede que se calcule a faixa de frequência de luz solar que atinge a camada derme da pele. Para isso, o item fornece uma figura com vários elementos informativos que servem de base para se escolher qual faixa de luz atinge a derme. Então, para se responder ao item a, é necessário conhecimento sobre a anatomia da pele humana, definir qual faixa de luz que atinge a derme e, a partir da figura, transformar os valores dos comprimentos de onda extremos da faixa em frequências. Para isso, é necessário conhecer a equação que permite fazer essa transformação de comprimento de onda em frequência para uma radiação eletromagnética.\n\nO objetivo do item b é avaliar o conhecimento sobre problemas no ecossistema ambiental marinho que podem se desenvolver a partir da adição de substâncias estranhas a esse meio. Especificamente, o item pede que se discutam quais são os possíveis problemas ambientais relacionados ao uso e, consequentemente, à presença de substâncias que compõem protetores solares ou subprodutos de sua decomposição, no ecossistema marinho. O questionamento do item diz respeito à explicação de como essas substâncias chegam ao ambiente marinho e de que forma elas podem interagir maleficamente nesse ecossistema."
+  }
+ }
+}
