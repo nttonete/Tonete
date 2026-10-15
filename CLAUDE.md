@@ -14,6 +14,7 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 |---|---|
 | `pagina.html` | Fonte da página (CSS inline). É publicada como prévia (Artifact) |
 | `index.html` | Gerado por `ferramentas/gerar_index.py` a partir de `pagina.html`, para hospedagem própria. Não edite à mão |
+| `trabalho/previa/` | Gerado por `ferramentas/gerar_previa.py`: arquivos da prévia publicada, com as figuras embutidas no JSON de cada prova (a prévia aceita poucos arquivos) |
 | `app/app.js` | Lógica: modos, sorteio, correção, histórico (localStorage) |
 | `app/render.js` | Markdown simplificado + LaTeX (KaTeX, saída MathML). Roda no navegador e no Node |
 | `dados/provas/edicoes.json` | Cada edição: PDF, gabarito, versão do caderno, nº de questões |
@@ -35,6 +36,9 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 3. `python3 ferramentas/montar_banco.py <edicao>`: junta lotes, acrescenta o **gabarito oficial da versão do caderno**, aplica as correções do revisor e copia as figuras usadas.
 4. Revisão pelo agente `revisor-questoes` (lotes iguais): `trabalho/<edicao>/revisao-NNN-NNN.json`. Depois rode `montar_banco.py` de novo.
 5. `python3 ferramentas/validar.py` (precisa de 0 erros) e `node testes/navegador.js` (precisa de `PLAYWRIGHT_PATH=$(npm root -g)/playwright`).
+6. Prévia: `python3 ferramentas/gerar_previa.py` e publicar `pagina.html` com os arquivos de `trabalho/previa/`.
+
+Situação: as 30 provas de 1ª fase (2017–2026) estão transcritas, revisadas e com resolução comentada. O que depende de decisão humana está em `ferramentas/PENDENCIAS.md`.
 
 ## Recursos da plataforma
 

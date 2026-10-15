@@ -1,5 +1,7 @@
 # Como tocar a produção do banco (roteiro de retomada)
 
+**Estado em 15/10/2026: produção da 1ª fase concluída** (transcrição, revisão e resolução das 30 provas). Use este roteiro para uma prova nova ou para refazer um lote.
+
 Quem cuida do projeto autorizou seguir até a conclusão sem pedir licença a cada passo, inclusive voltando sozinho quando o limite de uso renovar.
 
 ## Ao retomar
