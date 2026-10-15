@@ -89,5 +89,6 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - Busca no INPI (busca.inpi.gov.br, base atualizada até 13/10/2026): "Banca Aberta" (exata e radical) e "Bancaaberta" sem nenhum resultado, em todas as classes.
 - Domínios livres no registro.br: bancaaberta.com.br, bancaaberta.app.br, bancaaberta.net.br.
 - Existe uma conta de cortes no TikTok que se chama "Banca Aberta®" (@clipsdabancaberta), sem registro no INPI e fora da área de educação.
-- A fazer: registrar bancaaberta.com.br; criar @bancaaberta no Instagram; decidir o titular da marca (CPF ou CNPJ da empresa); pedir o registro nas classes 41 (educação) e 42 (plataforma online). A classe 9 (aplicativo) fica para quando houver app.
+- Feito: domínio bancaaberta.com.br registrado e perfil @bancaaberta criado no Instagram.
+- Aguardando (decisão de 15/10/2026): pedido de marca no INPI em nome de pessoa física, classes 41 (educação) e 42 (plataforma online). Uma GRU por classe, código 389 (especificação pré-aprovada), R$ 440 cada com o desconto de 50% (tabela vigente desde set/2025). Depois de pagar: pedido no e-Marcas, apresentação nominativa, natureza serviço. A classe 9 (aplicativo) fica para quando houver app.
 - Risco: o INPI pode considerar "banca" descritivo; a busca vazia não garante o registro.
