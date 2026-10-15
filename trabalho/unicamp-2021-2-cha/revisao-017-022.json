@@ -1,0 +1,62 @@
+{
+ "edicao": "unicamp-2021-2-cha",
+ "intervalo": [
+  17,
+  22
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "17": {
+   "assunto": "Globalização e economia mundial"
+  },
+  "18": {
+   "assunto": "Urbanização"
+  },
+  "19": {
+   "assunto": "Questões ambientais"
+  },
+  "20": {
+   "assunto": "Hidrografia"
+  },
+  "21": {
+   "assunto": "Indústria"
+  },
+  "22": {
+   "assunto": "Cultura e identidade"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "Transcrição conferida contra p19 e r07/r18-r19: enunciado, itens, respostas e Objetivo da prova comentada fiéis; sem pontuação indevida."
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "Conferida contra p20, r07 e r20-r21: sem divergências."
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": "Conferida contra p21, r07 e r22-r23; figura p21-f2 completa; descrição só traz rótulos e a forma do terreno, sem apontar o cenário correto. Sem divergências."
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": "Conferida contra p22, r07 e r24-r25; figura p22-f2 completa. O Objetivo traz \"fisionomias do litoral\", como no original da banca."
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": "Conferida contra p23, r08 e r26-r27; figura p23-c1 completa, fonte como texto. Sem divergências."
+  },
+  {
+   "numero": 22,
+   "status": "ok",
+   "notas": "Conferida contra p24, r08 e r28; \"meios de comunicações\" no caderno e \"serviços feito\" na resposta são do original. Sem divergências."
+  }
+ ]
+}
