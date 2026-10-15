@@ -42,6 +42,9 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - fuvest-2025-2-d2 q16 (G04), item c: a resposta diz que o Irã faz "fronteira entre oito países", mas lista sete (e são sete).
 - unicamp-2023-2-cet q2, item b: a resposta da banca escreve "(q-py)+y+z=1" e "(1-p)y+z=1-q"; pela terceira equação (x+y+z=3) seria 3 e 3−q.
 - unicamp-2023-2-cet q5, item b: a fórmula do logaritmo está quebrada nas respostas esperadas e também na prova comentada; a plataforma mostra o texto oficial com uma nota. Forma pretendida aparente: −log 2 = −3t, t = (log 2)/3 ≈ 0,1. Decidir se reconstrói.
+- unicamp-2023-2-cet q13, item a: a equação em y traz "+5t²" (daria t₂ = −v₀/10); o resultado final está certo. A prova comentada repete o sinal.
+- unicamp-2023-2-cet q15: a resposta diz que HPO₄²⁻ é ácido mais forte que HCO₃⁻; pelos pKa (≈12,3 e ≈10,3) é o contrário.
+- unicamp-2023-2-cet q20: as respostas esperadas dizem "Kow deve ser baixo (o que significa maior hidrofobicidade)", o que contradiz a definição e a própria prova comentada (r49), que está coerente. Decidir se troca pela versão da comentada.
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ## Para conferência de quem conhece a obra

@@ -251,7 +251,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Estática",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q12",
@@ -273,7 +274,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q13",
@@ -295,7 +297,9 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "revisao": "atencao",
+   "revisao_notas": "Enunciado, 'Dado:' e figuras p15-f2/p15-f3 conferidos com p15; resposta conferida com r05–r06 (ampliada). Observação do transcritor decidida: manter como impresso. Erro da própria banca no item a: a equação em y traz '= 0.5v₀t + 5t² = t(0.5v₀ + 5t) = 0' (ponto decimal e sinal +), que daria t₂ = −v₀/10; com a = −10 m/s² o termo seria −5t². A prova comentada (r34) repete o '+ (5 m/s²)t²'. O resultado final (v₀ = 20 m/s) está certo. Não alterei; uma pessoa decide se acrescenta nota da plataforma."
   },
   {
    "id": "unicamp-2023-2-cet-q14",
@@ -317,7 +321,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q15",
@@ -339,7 +344,9 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "revisao": "atencao",
+   "revisao_notas": "Enunciado, citação em itálico com CO₃²⁻, PO₄³⁻, SO₄²⁻ e figura p17-f3 conferidos com p17. Resposta conferida com r07 e com a comentada (r39–r40), que diz o mesmo. Possível erro de química da própria banca no item b: afirma que HPO₄²⁻ é ácido mais forte (menor pKa) que HCO₃⁻, mas os valores de tabela são pKa(HPO₄²⁻) ≈ 12,3 e pKa(HCO₃⁻) ≈ 10,3; a afirmação vale para HSO₄⁻ (pKa ≈ 2). A banca deriva a conclusão do texto do enunciado. Transcrição fiel; uma pessoa decide se acrescenta nota."
   },
   {
    "id": "unicamp-2023-2-cet-q16",
@@ -351,7 +358,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "A partir da figura **A**, indique a finalidade do experimento, nomeie o processo de transformação e descreva como o experimento foi conduzido. Não deixe de citar aspectos químicos representados pelos elementos gráficos da figura.\n\n![Figura A: à esquerda, objetos de plástico (garrafa com símbolo de reciclagem, sacola com cadeia carbônica e frasco); no centro, uma seta com o texto “Em solvente”, uma cadeia de hidrocarboneto, o símbolo Ru e moléculas pequenas; à direita, um barril de combustível, um avião e um caminhão](fig:p18-c1)",
+     "texto": "A partir da figura **A**, indique a finalidade do experimento, nomeie o processo de transformação e descreva como o experimento foi conduzido. Não deixe de citar aspectos químicos representados pelos elementos gráficos da figura.\n\n![Figura A: sobre fundo de água azul; à esquerda, um frasco com o símbolo de reciclagem, uma sacola plástica com uma fórmula estrutural de C e H entre colchetes, com índice n, e um galão; no centro, uma seta grande com o texto “Em solvente”, contendo um modelo de bolas e varetas de uma cadeia longa (bolas cinza ligadas a bolas brancas), uma serra com a inscrição “Ru” sobre a cadeia e pequenos pares de bolas brancas soltos; à direita, um barril com uma gota, um avião e um caminhão](fig:p18-c1)",
      "resposta_oficial": "A finalidade do experimento é transformar materiais poliméricos (plástico descartado), que apresentam uma cadeia orgânica longa, em combustível, que possui uma cadeia orgânica menor. O experimento consiste em quebrar as cadeias poliméricas utilizando um reagente de Ru, que atua como um catalisador da reação. O processo consiste em um craqueamento catalítico empregando um solvente."
     },
     {
@@ -361,7 +368,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cet-q17",
@@ -383,7 +391,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q18",
@@ -391,7 +400,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A linha do tempo ao lado apresenta eventos que ocorreram mundialmente com o objetivo comum de tentar estabelecer acordos entre os diferentes países para a mitigação de problemas ambientais – e algumas normativas (ações) adotadas no âmbito brasileiro (caixas de texto).\n\n![Linha do tempo em forma de seta com os eventos Eco – 92, Rio + 10, Rio + 20 e COP – 27 (este com um ponto de interrogação). Caixas de texto: 1992, obrigatoriedae no uso de catalisadores automotivos; 2003, venda de automóveis com motor a álcool e gasolina (flex); 2012, redução do teor de enxofre no diesel para 10 ppm](fig:p20-f2)",
+   "enunciado": "A linha do tempo ao lado apresenta eventos que ocorreram mundialmente com o objetivo comum de tentar estabelecer acordos entre os diferentes países para a mitigação de problemas ambientais – e algumas normativas (ações) adotadas no âmbito brasileiro (caixas de texto).\n\n![Linha do tempo em forma de seta com os eventos Eco – 92, Rio + 10, Rio + 20 e COP – 27 (este com um ponto de interrogação). Caixas de texto: 1992, obrigatoriedade no uso de catalisadores automotivos; 2003, venda de automóveis com motor a álcool e gasolina (flex); 2012, redução do teor de enxofre no diesel para 10 ppm](fig:p20-f2)",
    "itens": [
     {
      "rotulo": "a",
@@ -405,7 +414,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cet-q19",
@@ -427,7 +437,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q20",
@@ -435,7 +446,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Apesar dos benefícios de proteção que o uso de cosméticos e bloqueadores solares traz à pele, sua presença também se conecta a problemas ambientais e de saúde. Para evitar reaplicações desnecessárias de bloqueadores de UV, a permeabilidade do princípio ativo na pele deve ser relativamente baixa. Essa permeabilidade pode ser descrita quantitativamente pelo coeficiente de permeabilidade, $K_p$ (cm/s), que pode ser calculado a partir da massa molar $M$ do produto químico e de seu coeficiente de partição $K_{ow}$ = [soluto em octanol] / [soluto em água]. A relação empírica entre essas grandezas é dada pela equação:\n\n$$\\log K_p = 0{,}71\\,\\log K_{ow} - 0{,}0061\\,M - 6{,}3$$",
+   "enunciado": "Apesar dos benefícios de proteção que o uso de cosméticos e bloqueadores solares traz à pele, sua presença também se conecta a problemas ambientais e de saúde. Para evitar reaplicações desnecessárias de bloqueadores de UV, a permeabilidade do princípio ativo na pele deve ser relativamente baixa. Essa permeabilidade pode ser descrita quantitativamente pelo coeficiente de permeabilidade, $Kp$ (cm/s), que pode ser calculado a partir da massa molar $M$ do produto químico e de seu coeficiente de partição $Kow$ = [soluto em octanol] / [soluto em água]. A relação empírica entre essas grandezas é dada pela equação:\n\n$$\\boldsymbol{\\log Kp = 0{,}71\\,\\log Kow - 0{,}0061\\,M - 6{,}3}$$",
    "itens": [
     {
      "rotulo": "a",
@@ -444,12 +455,14 @@
     },
     {
      "rotulo": "b",
-     "texto": "Acredita-se que a presença de compostos per- e poli-fluoroalquis (PFAS) em cosméticos pode aumentar o conforto de uso, a durabilidade e a capacidade de espalhamento do cosmético. Sua presença em cosméticos, no entanto, pode vir de transformações de outros componentes presentes e não da adição intencional. A figura ao lado ilustra um trabalho sobre a presença dos PFAS em cosméticos. Interprete a figura levando em conta as informações dadas.\n\n![Ilustração com um rosto, com setas partindo dos olhos, do nariz e da boca e o rótulo PFAS; silhuetas com trajetos de ingestão e de respiração; cosméticos (rímel, base e batom); e um caminhão descartando resíduos no solo, com setas indicando contaminação da água](fig:p22-f2)",
+     "texto": "Acredita-se que a presença de compostos per- e poli-fluoroalquis (PFAS) em cosméticos pode aumentar o conforto de uso, a durabilidade e a capacidade de espalhamento do cosmético. Sua presença em cosméticos, no entanto, pode vir de transformações de outros componentes presentes e não da adição intencional. A figura ao lado ilustra um trabalho sobre a presença dos PFAS em cosméticos. Interprete a figura levando em conta as informações dadas.\n\n![Ilustração em três partes: à esquerda, um rosto com o rótulo “PFAS” ligado a três círculos (no olho, no nariz e na boca), cada um com uma seta branca apontando para um quadro; no centro, três quadros: um olho, uma silhueta com as vias respiratórias e os pulmões e uma silhueta com a boca, o esôfago e o estômago, todos com pequenos pontos brancos; à direita, um balão com rímel, base e gloss labial e, abaixo dele, um caminhão basculante despejando material num buraco no solo, uma seta cinza para baixo, a água sob o solo com pontos escuros e uma seta branca na água apontando para a esquerda](fig:p22-f2)",
      "resposta_oficial": "A figura representa possíveis contaminações pelos componentes dos cosméticos às quais o ser humano pode estar exposto bem como a preocupação com o uso e o descarte das embalagens contendo resíduos do produto. Tais contaminações incluem:\n\n− Contaminação direta pela aplicação (olhos, respiração e ingestão);\n− Contaminação indireta pela ingestão da água que foi contaminada pelo descarte dos produtos no ambiente."
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "revisao": "atencao",
+   "revisao_notas": "Corrigido o enunciado: no caderno o coeficiente é 'Kp' e 'Kow' em itálico, sem subscrito (estava $K_p$, $K_{ow}$), e a equação é em negrito. Corrigida a descrição da figura p22-f2, que interpretava a imagem ('trajetos de ingestão e de respiração', 'setas indicando contaminação da água') num item que pede justamente 'Interprete a figura'. Resposta conferida com r09–r10. Erro da própria banca no item a das Respostas esperadas: diz que o valor de Kow deve ser baixo '(o que significa maior hidrofobicidade)', mas Kow = [octanol]/[água], então Kow baixo significa menor hidrofobicidade. A prova comentada (r49) diz o contrário e de forma coerente: 'quanto maior Kow maior é Kp', Kow 'será tanto maior quanto mais hidrofóbico ele for', logo mais hidrofóbico = menor tempo de reaplicação. Não alterei a resposta (é texto impresso, não buraco do PDF); uma pessoa decide se troca pela versão da comentada ou acrescenta nota."
   }
  ]
 }

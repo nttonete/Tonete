@@ -1,0 +1,204 @@
+{
+  "edicao": "unicamp-2022-2-cha",
+  "intervalo": [
+    1,
+    15
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 6,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Márcia está fazendo um teste de condicionamento físico e corre numa pista circular de 200m de comprimento no sentido anti-horário. A distância, em metros, entre Márcia e um equipamento eletrônico, localizado na parte externa da pista, foi registrada nos primeiros 60 segundos e está representada na Figura 1 abaixo.\n\n![Figura 1: gráfico da distância, em metros, entre Márcia e o equipamento eletrônico em função do tempo, em segundos, de 0 a 60 s. Figura 2: representação ilustrativa da pista circular, com a largada, o centro da pista e o equipamento eletrônico](fig:p08-c1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Determine a distância entre o ponto de largada e o equipamento eletrônico, bem como o tempo que Márcia demora para completar uma volta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Durante o teste, qual a maior distância possível entre Márcia e o equipamento eletrônico?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Heloísa está brincando com uma urna que contém bolinhas azuis, verdes e rosas. Ela resolve construir uma sequência numérica $x_0, x_1, x_2, \\ldots$ de acordo com as cores das bolinhas que sorteia da urna. O primeiro termo da sequência é $x_0 = 1$.\n\nA cada sorteio, um novo termo da sequência é determinado multiplicando-se o termo anterior:\n\n• por 2, se a bolinha sorteada for azul;\n• por 3, se a bolinha sorteada for verde;\n• por 5, se a bolinha sorteada for rosa.\n\nA bolinha sorteada é devolvida para a urna antes do próximo sorteio. Por exemplo, se nos três primeiros sorteios Heloísa retira, respectivamente, uma bolinha rosa, uma verde e uma azul, então a sequência obtida é\n\n• $x_0 = 1$,\n• $x_1 = 5 \\cdot x_0 = 5$,\n• $x_2 = 3 \\cdot x_1 = 15$,\n• $x_3 = 2 \\cdot x_2 = 30$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Sabendo que Heloísa obteve a sequência 1, $x_1$, 4, 20, $x_4$, 180, calcule $x_1$ e $x_4$ e complete o quadro abaixo com as **cores** das bolinhas sorteadas.\n\n*Campo de resolução:*\n\n| 1ª bolinha | 2ª bolinha | 3ª bolinha | 4ª bolinha | 5ª bolinha |\n|---|---|---|---|---|\n| | | rosa | | |"
+        },
+        {
+          "rotulo": "b",
+          "texto": "É possível que Heloísa obtenha uma sequência contendo o termo 189? Justifique."
+        }
+      ],
+      "observacoes": "Resposta do item a: o documento de respostas esperadas imprime \"e a duas primeiras bolinhas são azuis\" (a prova comentada oficial traz \"e as duas primeiras\"); mantido como impresso nas respostas esperadas."
+    },
+    {
+      "numero": 9,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Segundo a Revista Fapesp de maio de 2021, a média trienal de publicações científicas com pelo menos um autor sediado no Brasil passou de 18 mil em 2003-2005 para 64 mil em 2018-2020.\n\nO gráfico abaixo apresenta a participação em porcentagem de grandes áreas do conhecimento no total de publicações com pelo menos um autor sediado no Brasil em médias trienais. Como uma publicação pode ser classificada em mais de uma grande área, a soma dos percentuais de participação de cada grande área é maior que 100%.\n\n![Gráfico de barras \"Participação das áreas (em %)\", com uma barra para 2003-2005 e outra para 2018-2020 em cada área: Ciências Biológicas, Ciências da Saúde, Ciências Agrícolas, Matemática e Ciências da Terra e Engenharias](fig:p11-c1)\n\n(Fonte: Adaptado de “Número de publicações científicas cresceu significativamente nas últimas três décadas”. *Revista Pesquisa Fapesp* 303, maio de 2021, página 11.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Quais foram a porcentagem e a quantidade de publicações da área de Matemática e Ciências da Terra no triênio 2018-2020 com pelo menos um autor sediado no Brasil?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Comparando os triênios 2003-2005 e 2018-2020, o número de publicações da área de Engenharia com pelo menos um autor sediado no Brasil aumentou, diminuiu ou permaneceu igual? Justifique."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 11,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A grande recusa do corpo não se dá apenas no campo da sexualidade. A luxúria passa a ser cada vez mais associada à gula. Por isso, as recomendações da Igreja passam a se dirigir tanto à carne quanto à boca. Os pecados da carne e os pecados da boca passam a caminhar de mãos dadas. Assim, a embriaguez é reprimida também como forma de controlar os “camponeses e os bárbaros\", muito apreciadores de bebedeiras. A indigestão é igualmente associada ao pecado. A abstinência e o jejum dão o ritmo, portanto, do \"homem medieval\". Gordo oposto ao magro, Carnaval que se empanturra contra Quaresma que jejua. A tensão atravessa o corpo medieval.\n\n(Adaptado de Jacques Le Goff e Nicolas Truong, *Uma história do corpo na Idade Média.* Rio de Janeiro: Civilização Brasileira, 2006, p. 58 e 59.)\n\nA partir da leitura do texto e de seus conhecimentos sobre Idade Média, responda às questões.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite e explique as tensões, que o texto menciona, relacionadas, no período medieval, ao corpo."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite e explique duas diferenças, entre a sociedade medieval e a sociedade contemporânea, no que diz respeito à percepção sobre o corpo ideal."
+        }
+      ],
+      "observacoes": "O caderno usa aspas retas em \"homem medieval\" e na aspa de fechamento de “camponeses e os bárbaros\"; mantido como no original."
+    },
+    {
+      "numero": 12,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Mas, enquanto isso, e os escravos? Eles ouviam falar da Revolução e conceberam-na à sua própria imagem. (...) Antes do final de 1789, houve levantes em Guadalupe e na Martinica. Já em outubro, em Forte Dauphin, um dos futuros centros da insurreição de São Domingos, os escravos estavam se agitando e realizando reuniões de massas nas florestas durante a noite. Na Província do Sul, observando a luta entre os seus senhores a favor e contra a Revolução, eles mostraram sinais de inquietação. (...) Pela dura experiência, aprenderam que esforços isolados estavam condenados ao fracasso, e nos primeiros meses de 1791, dentro e nos arredores de Le Cap, eles estavam se organizando para a Revolução. O vodu era o meio da conspiração. Apesar de todas as proibições, os escravos viajavam quilômetros para cantar, dançar, praticar os seus ritos e conversar; e então, desde a Revolução, escutar as novidades políticas e traçar os seus planos.”\n\n(Adaptado de Cyrik Lionel Robert James, *Os Jacobinos Negros.* Toussaint L’Ouverture e a revolução de São Domingos. 1.ed. São Paulo: Boitempo, 2010, p. 87-91.)\n\nCom base no excerto e em seus conhecimentos sobre as revoluções atlânticas de finais do século XVIII e início do XIX,",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "cite e analise dois elementos característicos dos modos de ação política da população escravizada do Haiti (São Domingos)."
+        },
+        {
+          "rotulo": "b",
+          "texto": "identifique e explique dois impactos da revolução haitiana no mundo Atlântico."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 13,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Durante muito tempo – e ainda hoje – despejou-se um discurso moralizante sobre os índios. Considerando os Aimorés, não se trata apenas de uma tribo nem de um mesmo grupo etnolinguístico; trata-se, antes, de uma denominação genérica que podia ser aplicada a vários grupos, em geral Tapuias. Neste rol de Tapuias, incluíam-se os que viriam a ser chamados de Botocudos durante o século XIX e Krenak no século XX. Há uma carência de fontes escritas em relação a esses Aimorés. O nome foi a marca forte que os registros históricos deixaram sobre esses grupos indígenas. Essas nomeações não eram assumidas por eles, sendo uma identidade atribuída pelos adversários.\n\n(Adaptado de Marco Morel, *A Saga dos Botocudos.* Guerra, imagens e resistência indígena. São Paulo: HUCITEC, 2018, p. 44-45.)\n\nDe acordo com a leitura do texto e seus conhecimentos, responda às questões.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Identifique e explique a crítica feita pelo autor do texto ao processo de construção da identidade Aimoré."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Explique a construção das identidades atribuídas pelo romantismo brasileiro aos indígenas no século XIX."
+        }
+      ],
+      "observacoes": "Resposta do item b: o documento de respostas esperadas imprime \"caraterísticas\" (sem o segundo c); mantido como impresso."
+    },
+    {
+      "numero": 14,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Luís Gonzaga Pinto da Gama (1830-1882) foi um abolicionista, orador, jornalista e escritor brasileiro. Nascido de mãe negra e pai branco, foi, contudo, escravizado aos 10 anos de idade e permaneceu analfabeto até os 17 anos. Conquistou judicialmente sua liberdade e atuou na advocacia em prol dos escravizados. Entre seus poemas, lê-se:\n\n*Ciências e letras*\n*Não são para ti*\n*Pretinho da Costa*\n*Não é gente aqui.*\n\nEm 2015, a Ordem dos Advogados do Brasil, Seção São Paulo, concedeu-lhe o título de advogado. Em 2018, seu nome foi inscrito no Livro de Aço dos heróis nacionais, depositado no Panteão da Pátria e da Liberdade Tancredo Neves.\n\n(Adaptado de Ligia Fonseca Ferreira, *Luiz Gama autor, leitor, editor*: revisitando as Primeiras Trovas Burlescas de 1859 e 1861. *Estudos Avançados.* 2019, v. 33, n. 96.)\n\nA partir da leitura do texto e de suas reflexões,",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "liste e explique dois aspectos da relação entre origem social e formas de acesso ao mundo das ciências e letras no período em que Gama atuou;"
+        },
+        {
+          "rotulo": "b",
+          "texto": "cite e analise dois significados, no contexto do Brasil do século XXI, da concessão do título de advogado a Luiz Gama."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Trinta anos atrás, um muro veio abaixo, marcando o início do que parecia ser uma nova era de abertura e internacionalismo. Em 1987, o presidente Ronald Reagan foi ao Portão de Brandemburgo, na Berlim dividida, e desafiou seu homólogo na União Soviética: “Sr. Gorbachev, derrube este muro!”. Dois anos depois, o muro caiu. Berlim, a Alemanha e, por fim, a Europa estavam unidos de novo. Nos últimos anos, o apelo “Derrube este muro!” tem perdido para a “mentalidade de fortaleza”. Pelo menos 65 países, mais de um terço dos Estados-nações do planeta, construíram barreiras ao longo de seus limites; metade das que foram erigidas desde a Segunda Guerra Mundial surgiram entre 2000 e agora.\n\n(Adaptado de Tim Marshall, *A era dos muros.* Rio de Janeiro: Zahar, 2018, p. 4-6.)\n\nA partir do texto e de seus conhecimentos, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite e explique duas características de “Berlim dividida”."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Explique o sentido e as causas da “mentalidade de fortaleza” que, para o autor, tem imperado no mundo. Cite dois exemplos que ilustrem a “mentalidade de fortaleza”."
+        }
+      ],
+      "observacoes": "A resposta do item b nas respostas esperadas não traz exemplos concretos nem a frase final que a prova comentada oficial acrescenta (\"Ela revela os limites e as contradições do discurso e promessas da globalização ao evidenciar as desigualdades sociais, étnicas e econômicas no plano global.\"); mantido o texto das respostas esperadas."
+    }
+  ],
+  "respostas": {
+    "6": {
+      "itens": {
+        "a": "Como o gráfico passa pelo ponto (0,20), no tempo $t = 0$, a distância é de $20\\ \\text{m}$. Então a distância entre o ponto de largada e o equipamento eletrônico é de $20\\ \\text{m}$. Também analisando o gráfico, percebe-se que o tempo necessário para completar uma volta é de 24 s.",
+        "b": "Usando como referência a Figura 2, pode-se dizer que a maior distância acontece quando a reta que liga Márcia e o equipamento eletrônico passa pela origem da circunferência que representa a pista. Nessa situação, a distância é igual ao diâmetro da pista somado à distância entre a pista e o equipamento eletrônico.\n\nA distância entre a pista e o equipamento eletrônico é de 10m, o que pode ser visto pelo gráfico da Figura 1: é o menor valor possível para $y$.\n\nJá o diâmetro da circunferência é $200/\\pi$, já que o comprimento da circunferência é 200m.\n\nPortanto, a maior distância possível é $\\frac{200}{\\pi} + 10$."
+      }
+    },
+    "7": {
+      "itens": {
+        "a": "Como o terceiro termo da sequência é 4, e sua fatoração é $4 = 2 \\cdot 2$, a única possibilidade é terem sido sorteadas 2 bolinhas azuis no começo. Com isso, $x_1 = 2$ e a duas primeiras bolinhas são azuis.\n\nComparando $x_3$ e $x_5$, percebemos que houve multiplicação por 9, cuja fatoração é $9 = 3 \\cdot 3$. Assim, houve duas multiplicações por 3, logo as bolinhas 4 e 5 foram verdes e $x_4 = 60$.\n\n| 1ª bolinha | 2ª bolinha | 3ª bolinha | 4ª bolinha | 5ª bolinha |\n|---|---|---|---|---|\n| **azul** | **azul** | rosa | **verde** | **verde** |",
+        "b": "Não é possível. Os números da sequência de Heloísa são obtidos por meio da multiplicação de $x_0 = 1$ por 2, 3 ou 5, portanto a fatoração de 189 só poderia conter potências desses números. No entanto, a fatoração de 189 é $189 = 3 \\cdot 3 \\cdot 3 \\cdot 7 = 3^3 \\cdot 7$. A presença do 7 faz com que 189 não possa aparecer numa sequência."
+      }
+    },
+    "9": {
+      "itens": {
+        "a": "Observando o gráfico, percebe-se que 30% das publicações no triênio 2018-2020, com pelo menos um autor sediado no Brasil, foi da área de Matemática e Ciências da Terra. Para calcular a quantidade de publicações, calculamos 30% do total, que foi de 64.000. Portanto, 19.200 publicações.",
+        "b": "Apesar do percentual ter se mantido em 20%, o número de publicações da área aumentou, pois como a quantidade total aumentou de 18 mil para 64 mil ao compararmos os dois triênios, a quantidade de publicações da área passou de 3,6 mil para 12,8 mil."
+      }
+    },
+    "11": {
+      "itens": {
+        "a": "O corpo medieval era atravessado pelas tensões geradas pela tentativa de controle da vida cotidiana pela Igreja Católica. Em uma busca por aumentar o seu poder sobre os fiéis, a instituição estabelece normas sobre a alimentação, vestimenta, sexualidade, entre outros campos. Nesta lógica, as práticas cotidianas que transgrediam os valores religiosos católicos eram condenadas como “pecado” pela Igreja. Por exemplo, a embriaguez era confrontada com a abstinência, o jejum com a gula; ademais, o sexo com fins reprodutivos dentro do matrimônio era valorizado.",
+        "b": "Em diferentes contextos históricos distintos, o corpo é submetido a lógicas de poderes diferenciadas. Assim, na Idade Média, as tensões impostas eram regidas por um código religioso: o corpo magro denotava o jejum e a austeridade. Na contemporaneidade, os códigos são múltiplos. A lógica médica e os discursos relativos à saúde, bem como os padrões estéticos divulgados por meios de comunicação podem gerar práticas que vão desde a valorização de corpos magros até o empoderamento e aceitação do corpo como ele é. O basilar da questão era a compreensão das lógicas de poder que imperam sobre a materialidade do corpo humano e suas historicidades."
+      }
+    },
+    "12": {
+      "itens": {
+        "a": "O texto destaca elementos da ação política negra relacionados às culturas africanas e a seus modos de sociabilidade. Como exemplo, podemos citar as práticas sociais e políticas ligadas à religião vodu, como cantar e dançar. Elas propiciavam o planejamento de rebeliões e outras estratégias que demandavam ação coletiva.",
+        "b": "De um lado, as notícias da revolução haitiana e sua ideologia política influenciaram o horizonte de possibilidades de ação política entre a população negra de diversas regiões do Caribe e das Américas. De outro, o mundo atlântico passa a vivenciar o medo de que o processo revolucionário haitiano chegasse a outros lugares. Podemos citar, no caso do Brasil, o chamado Haitianismo, que acabou por levar à elaboração de leis mais rígidas e punições mais severas sobre a população escravizada. No plano econômico, é possível citar a queda na produção de açúcar nas Antilhas e o aumento da produção no Brasil."
+      }
+    },
+    "13": {
+      "itens": {
+        "a": "O texto traz a crítica da denominação genérica feita pelos “adversários” a grupos indígenas, como os Aimorés. Essas nomenclaturas, produzidas sem base em questões etnolinguísticas ou outros elementos culturais, não encontravam correspondências nas formas de identificação étnica dos próprios grupos e acabaram por imperar na documentação histórica. Assim, a forma como acessamos as memórias desses grupos no passado é atravessada pelos olhares dos colonizadores, dificultando a compreensão da diversidade destes grupos.",
+        "b": "Entre as caraterísticas do Romantismo está a idealização do indígena para compor um passado heroico para o Brasil. É importante destacar que essa idealização é marcada pela presença de valores europeus e serve ao Estado brasileiro para a constituição de uma memória nacional. Instituições como o IHGB foram fundamentais para a construção e consolidação desse imaginário."
+      }
+    },
+    "14": {
+      "itens": {
+        "a": "Durante o século XIX, a educação formal era voltada às elites e às famílias de profissionais liberais, que tinham condições materiais de manter tutores para seus filhos e, posteriormente, mandá-los para as universidades europeias – em especial, as portuguesas e as francesas. No caso da população escravizada, liberta ou com pouco poder aquisitivo, o autodidatismo predominava na aquisição da educação informal. É importante destacar que ainda que difícil, o autodidatismo, as leituras compartilhadas e outras formas de construção de conhecimento foram fundamentais para a existência de personalidades como a de Luiz Gama.",
+        "b": "A concessão de título de advogado a Luiz Gama pode ser lida como uma ação de reparação histórica, já que proporciona o reconhecimento, na atualidade, de um título que, no passado, por conta do contexto histórico, não seria possível. Ao mesmo tempo, esse reconhecimento gera uma pluralização da própria narrativa histórica, permitindo a valorização de outros atores sociais, não apenas dos homens brancos e da elite."
+      }
+    },
+    "15": {
+      "itens": {
+        "a": "O contexto histórico da Guerra Fria permite a compreensão da “Berlim dividida” como território que encarnava as disputas entre os sistemas capitalistas e socialistas: o primeiro, marcado pela valorização de uma economia e uma política mais liberal; o segundo, distinto pela economia planificada e pela presença ativa do Estado em todos os setores públicos e alguns privados.",
+        "b": "A mentalidade de fortaleza refere-se ao fenômeno de isolamento e fechamento de fronteiras das nações ao longo dos séculos XX e XXI. Podem ser enumerados como causas deste fenômeno: os crescentes nacionalismos e ultranacionalismos, a xenofobia e o medo das migrações."
+      }
+    }
+  }
+}

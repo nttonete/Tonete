@@ -1,0 +1,146 @@
+{
+  "edicao": "unicamp-2023-2-cet",
+  "intervalo": [
+    11,
+    20
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 16,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em um artigo científico, os autores apresentam a figura **A** com o objetivo de resumir os aspectos mais importantes de um estudo realizado.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A partir da figura **A**, indique a finalidade do experimento, nomeie o processo de transformação e descreva como o experimento foi conduzido. Não deixe de citar aspectos químicos representados pelos elementos gráficos da figura.\n\n![Figura A: sobre fundo de água azul; à esquerda, um frasco com o símbolo de reciclagem, uma sacola plástica com uma fórmula estrutural de C e H entre colchetes, com índice n, e um galão; no centro, uma seta grande com o texto “Em solvente”, contendo um modelo de bolas e varetas de uma cadeia longa (bolas cinza ligadas a bolas brancas), uma serra com a inscrição “Ru” sobre a cadeia e pequenos pares de bolas brancas soltos; à direita, um barril com uma gota, um avião e um caminhão](fig:p18-c1)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "A figura **B** mostra alguns resultados obtidos no referido trabalho. Tendo em vista os dados apresentados, proponha a pressão que deve ser escolhida para a produção com maior proporção de hidrocarbonetos mais leves. Justifique sua escolha.\n\n![Figura B: gráfico de barras empilhadas da distribuição de produto (%) em função da pressão de H2 (bar), de 0 a 60, com as frações C8-C16, C17-C22 e C23-C38](fig:p18-c2)"
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A linha do tempo ao lado apresenta eventos que ocorreram mundialmente com o objetivo comum de tentar estabelecer acordos entre os diferentes países para a mitigação de problemas ambientais – e algumas normativas (ações) adotadas no âmbito brasileiro (caixas de texto).\n\n![Linha do tempo em forma de seta com os eventos Eco – 92, Rio + 10, Rio + 20 e COP – 27 (este com um ponto de interrogação). Caixas de texto: 1992, obrigatoriedade no uso de catalisadores automotivos; 2003, venda de automóveis com motor a álcool e gasolina (flex); 2012, redução do teor de enxofre no diesel para 10 ppm](fig:p20-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite um benefício, do ponto de vista da diminuição de problemas ambientais, obtido com cada uma das ações apontadas na linha do tempo. Proponha uma ação na mesma direção das ações adotadas anteriormente e justifique seu benefício no contexto atual."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Já em 1828, o cientista José Bonifácio de Andrada e Silva, conhecido como Patriarca da Independência, escreveu: “*Nossas preciosas matas desaparecem, vítimas do fogo e do machado, da ignorância e do egoísmo. Sem vegetação, nosso belo Brasil ficará reduzido aos desertos áridos da Líbia. Virá então o dia em que a ultrajada natureza se ache vingada de tantos crimes*”. Associe a visão de José Bonifácio a exemplos de atividades humanas e aponte, para cada atividade, o(s) gás(es) gerado(s), em conformidade com a figura ao lado.\n\n![Ilustração de uma paisagem com três emissões de gases rotuladas CH4, NO2 e CO2](fig:p20-f4)"
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Apesar dos benefícios de proteção que o uso de cosméticos e bloqueadores solares traz à pele, sua presença também se conecta a problemas ambientais e de saúde. Para evitar reaplicações desnecessárias de bloqueadores de UV, a permeabilidade do princípio ativo na pele deve ser relativamente baixa. Essa permeabilidade pode ser descrita quantitativamente pelo coeficiente de permeabilidade, $Kp$ (cm/s), que pode ser calculado a partir da massa molar $M$ do produto químico e de seu coeficiente de partição $Kow$ = [soluto em octanol] / [soluto em água]. A relação empírica entre essas grandezas é dada pela equação:\n\n$$\\boldsymbol{\\log Kp = 0{,}71\\,\\log Kow - 0{,}0061\\,M - 6{,}3}$$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "De acordo com esse modelo matemático, discuta, do ponto de vista quantitativo, como a massa molar e a hidrofobicidade do princípio ativo se correlacionam com o tempo de reaplicação do protetor."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Acredita-se que a presença de compostos per- e poli-fluoroalquis (PFAS) em cosméticos pode aumentar o conforto de uso, a durabilidade e a capacidade de espalhamento do cosmético. Sua presença em cosméticos, no entanto, pode vir de transformações de outros componentes presentes e não da adição intencional. A figura ao lado ilustra um trabalho sobre a presença dos PFAS em cosméticos. Interprete a figura levando em conta as informações dadas.\n\n![Ilustração em três partes: à esquerda, um rosto com o rótulo “PFAS” ligado a três círculos (no olho, no nariz e na boca), cada um com uma seta branca apontando para um quadro; no centro, três quadros: um olho, uma silhueta com as vias respiratórias e os pulmões e uma silhueta com a boca, o esôfago e o estômago, todos com pequenos pontos brancos; à direita, um balão com rímel, base e gloss labial e, abaixo dele, um caminhão basculante despejando material num buraco no solo, uma seta cinza para baixo, a água sob o solo com pontos escuros e uma seta branca na água apontando para a esquerda](fig:p22-f2)"
+        }
+      ]
+    }
+  ],
+  "respostas_corrigidas": {},
+  "complementos": {
+    "11": {
+      "assunto": "Estática"
+    },
+    "12": {
+      "assunto": "Termologia"
+    },
+    "13": {
+      "assunto": "Cinemática"
+    },
+    "14": {
+      "assunto": "Eletrodinâmica"
+    },
+    "15": {
+      "assunto": "Equilíbrio químico"
+    },
+    "16": {
+      "assunto": "Química orgânica"
+    },
+    "17": {
+      "assunto": "Soluções"
+    },
+    "18": {
+      "assunto": "Química ambiental"
+    },
+    "19": {
+      "assunto": "Ligações e interações"
+    },
+    "20": {
+      "assunto": "Química ambiental"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 11,
+      "status": "ok",
+      "notas": "Enunciado (sublinhados de grande/pequena, S, M, s, m, D), figuras A (p13-f3), B (p13-f4) e C (p13-c1, impressa no campo de resolução e citada no item b) conferidos com p13. Resposta conferida com r05: caixas vazias sobre τ, F₁ e F₂ são setas de vetor (confirmado na comentada, r31–r32). A comentada acrescenta '= 5 cm' e um 'Notar que', mas as Respostas esperadas não têm lacuna; mantidas. Contas conferem: d = 0,05 m; F₂ = 4,8×10⁵ N; F₁ = 1,6×10⁵ N."
+    },
+    {
+      "numero": 12,
+      "status": "ok",
+      "notas": "Enunciado, figura p14-f3 e itens (L_F, k, fórmula da condução) conferidos com p14. Resposta conferida com r05. Observação do transcritor decidida: a espessura aparece como 'e' na resposta do item b nas Respostas esperadas e também na comentada (r33); mantido como impresso. Contas conferem: 1,92×10¹⁷ J e 3,3×10⁸ W."
+    },
+    {
+      "numero": 13,
+      "status": "atencao",
+      "notas": "Enunciado, 'Dado:' e figuras p15-f2/p15-f3 conferidos com p15; resposta conferida com r05–r06 (ampliada). Observação do transcritor decidida: manter como impresso. Erro da própria banca no item a: a equação em y traz '= 0.5v₀t + 5t² = t(0.5v₀ + 5t) = 0' (ponto decimal e sinal +), que daria t₂ = −v₀/10; com a = −10 m/s² o termo seria −5t². A prova comentada (r34) repete o '+ (5 m/s²)t²'. O resultado final (v₀ = 20 m/s) está certo. Não alterei; uma pessoa decide se acrescenta nota da plataforma."
+    },
+    {
+      "numero": 14,
+      "status": "ok",
+      "notas": "Questão sem texto antes dos itens (enunciado vazio, como no caderno: '14.' seguido de 'a)'). Itens, gráfico p16-c2 (impresso no campo de resolução e citado no item a) e circuito p16-f3 conferidos com p16. Resposta conferida com r06–r07; a comentada (r36–r37) resolve de outro jeito (tangente do gráfico, correntes nos ramos), mas chega aos mesmos 0,83 e 60 mV, e as Respostas esperadas não têm lacuna."
+    },
+    {
+      "numero": 15,
+      "status": "atencao",
+      "notas": "Enunciado, citação em itálico com CO₃²⁻, PO₄³⁻, SO₄²⁻ e figura p17-f3 conferidos com p17. Resposta conferida com r07 e com a comentada (r39–r40), que diz o mesmo. Possível erro de química da própria banca no item b: afirma que HPO₄²⁻ é ácido mais forte (menor pKa) que HCO₃⁻, mas os valores de tabela são pKa(HPO₄²⁻) ≈ 12,3 e pKa(HCO₃⁻) ≈ 10,3; a afirmação vale para HSO₄⁻ (pKa ≈ 2). A banca deriva a conclusão do texto do enunciado. Transcrição fiel; uma pessoa decide se acrescenta nota."
+    },
+    {
+      "numero": 16,
+      "status": "corrigida",
+      "notas": "Enunciado, itens e figuras conferidos com p18 (no caderno, as figuras A e B vêm depois dos dois itens; mantidas junto do item que cita cada uma). Corrigida a descrição da figura A (p18-c1): chamava o modelo de bolas de 'cadeia de hidrocarboneto', os pares de bolas de 'moléculas pequenas' e a fórmula da sacola de 'cadeia carbônica' (interpretação que o item a pede ao aluno) e omitia a serra com 'Ru'. Resposta conferida com r08 e r42: 'C23-C28' no item b é erro de digitação da banca (a figura diz C23-C38), repetido na comentada; mantido."
+    },
+    {
+      "numero": 17,
+      "status": "ok",
+      "notas": "Enunciado, tabela (figura p19-c1, com células mescladas; a descrição traz todos os valores), notas \\* e \\*\\* e sublinhados do item a conferidos com p19. Observação do transcritor decidida: 'láctea,conforme' sem espaço está no caderno (e na comentada, r42); mantido. Resposta conferida com r08 (itálicos dos rótulos, '60 %' com espaço). Contas conferem: 3,5; 3,5; 9,8; 154."
+    },
+    {
+      "numero": 18,
+      "status": "corrigida",
+      "notas": "Enunciado, citação de José Bonifácio (itálico só no texto, aspas fora) e figuras conferidos com p20. Observação do transcritor descartada: ampliada, a caixa de 1992 diz 'obrigatoriedade' (sem erro); corrigida a descrição da figura p20-f2, que trazia 'obrigatoriedae'. Resposta conferida com r08 e com a comentada (r45); 'O “poema' com aspas sem fechamento é do original (a comentada não tem as aspas); mantido."
+    },
+    {
+      "numero": 19,
+      "status": "ok",
+      "notas": "Enunciado (Spark sem itálico no texto e em itálico no item b; 'um' em negrito sublinhado), figura p21-f2 (cores e linhas da legenda) e fórmulas p21-f4 conferidos com p21. Resposta conferida com r09, com 'Van der Walls'/'Van der Waals' como impresso; figuras r09-c1 e r09-c2 completas. A comentada (r47) tem outra redação e não traz a figura da lisina; as Respostas esperadas estão completas."
+    },
+    {
+      "numero": 20,
+      "status": "atencao",
+      "notas": "Corrigido o enunciado: no caderno o coeficiente é 'Kp' e 'Kow' em itálico, sem subscrito (estava $K_p$, $K_{ow}$), e a equação é em negrito. Corrigida a descrição da figura p22-f2, que interpretava a imagem ('trajetos de ingestão e de respiração', 'setas indicando contaminação da água') num item que pede justamente 'Interprete a figura'. Resposta conferida com r09–r10. Erro da própria banca no item a das Respostas esperadas: diz que o valor de Kow deve ser baixo '(o que significa maior hidrofobicidade)', mas Kow = [octanol]/[água], então Kow baixo significa menor hidrofobicidade. A prova comentada (r49) diz o contrário e de forma coerente: 'quanto maior Kow maior é Kp', Kow 'será tanto maior quanto mais hidrofóbico ele for', logo mais hidrofóbico = menor tempo de reaplicação. Não alterei a resposta (é texto impresso, não buraco do PDF); uma pessoa decide se troca pela versão da comentada ou acrescenta nota."
+    }
+  ]
+}
