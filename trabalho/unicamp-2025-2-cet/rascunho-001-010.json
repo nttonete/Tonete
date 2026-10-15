@@ -1,0 +1,259 @@
+{
+ "edicao": "unicamp-2025-2-cet",
+ "intervalo": [
+  1,
+  10
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 1,
+   "materia": "historia",
+   "materias_extra": [
+    "geografia",
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "![Gráfico de barra horizontal intitulado “População Quilombola no Brasil por regiões”, Brasil 1.327.802 quilombolas: Nordeste 905.415 (68,19%), Sudeste 182.305 (13,73%), Norte 166.069 (12,51%), Centro-Oeste 44.957 (3,39%) e Sul 29.056 (2,19%)](fig:p03-c1)\n\n(Fonte: Censo, IBGE, 2022)\n\n(Disponível em https://www.gov.br/pt-br/noticias/assistencia-social/2023/07/populacao-quilombola-e-de-1-3-milhao-indica-recorte-inedito-do-censo. Acesso em 11/08/2024.)\n\nA partir da leitura do gráfico e de sua legenda, faça o que se pede.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite dois fatores históricos que ocasionaram a maior concentração de quilombolas em uma região brasileira. Explique por que esses fatores impactaram tal concentração."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Identifique e explique – considerando o contexto a partir do século XXI – dois desafios relativos aos territórios quilombolas no país."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 2,
+   "materia": "sociologia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "“O tipo de poder favorecido pela extensão do ciberespaço não é, evidentemente, o poder hierárquico, burocrático ou territorial à antiga. Cada vez mais, será um poder nascido da capacidade de aprender e de trabalhar de maneira cooperativa, relacionado com o grau de confiança e de reconhecimento recíprocos reinantes num contexto social.\n\n(LEVY, P. A Revolução contemporânea em matéria de comunicação. *Revista FAMECOS*, 9, p. 43, dezembro de 1998.)\n\n“Após se consolidar a abertura comercial da internet nas últimas décadas, constata-se que essa rede tem sido apropriada como um sistema global de monitoramento financeiro e civil por onde se desdobra a geopolítica do século XXI. Tanto o comércio global quanto as viagens aéreas são reorganizados para possibilitar a identificação, rastreamento e manutenção dos corpos e circulações sob controle. Telefones celulares e passaportes têm o potencial de transformar em dispositivos de rastreamento o objeto que os porta”.\n\n(Adaptado de GRAHAM, S. *Cidades sitiadas*: O novo urbanismo militar. São Paulo: Boitempo, p. 129, 2016.)\n\nA partir da leitura dos dois excertos acima,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "indique duas funções atribuídas à internet por cada um dos autores. Explique cada uma delas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "relacione o contexto de publicação de cada um dos excertos acima à leitura que os autores fazem sobre a potencialidade da internet."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 3,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Rayssa participou dos Jogos Olímpicos de Paris. Ela visitou quatro pontos turísticos da cidade: o Arco do Triunfo, a Catedral de Notre-Dame, o Museu do Louvre e a Torre Eiffel.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Rayssa escolheu a melhor foto que tirou de cada um desses pontos turísticos e publicará uma por dia em suas redes sociais, ao longo de quatro dias consecutivos, sem repetir nenhuma foto. De quantas maneiras ela pode fazer isso? Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na figura abaixo, o Arco do Triunfo, a Catedral de Notre-Dame, o Museu do Louvre e a Torre Eiffel estão indicados pelos pontos $A$, $N$, $L$ e $E$, respectivamente. Os segmentos de reta na figura representam ruas de Paris. As retas $r,s$ são paralelas e os segmentos de reta $AG$ e $CF$ são paralelos entre si e perpendiculares a $r$ e $s$.\n\nConsidere as distâncias $AB = CN = 0{,}5$, $BL = 2{,}5$, $LC = 1$, $EF = 2{,}7$ e $BE = 1{,}7$, dadas em quilômetros. Rayssa visitou os pontos turísticos na seguinte ordem: Arco do Triunfo, Torre Eiffel, Catedral de Notre-Dame e Museu do Louvre, percorrendo a menor distância possível, nas ruas indicadas na figura. Qual foi a distância que ela percorreu? Justifique.\n\n![Mapa com duas retas paralelas, r e s, e as ruas AG, BE e CF perpendiculares a elas; pontos A (Arco do Triunfo), B, L (Museu do Louvre), C e N (Catedral de Notre-Dame) sobre s ou sobre o segmento CF, e pontos G, E (Torre Eiffel) e F sobre r](fig:p05-f2)"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere as funções $f(x) = x^2 + x + c$ e $g(x) = x + k$, onde $c, k$ são números reais.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine os valores de $k$ e $c$ para que se tenha $f(g(1)) - g(f(1)) < 0$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que a equação $f(x) = 0$ tem uma única solução real, determine o(s) valor(es) de $k$ para que a soma das soluções da equação $f(g^{-1}(x)) = 1/4$ seja igual a 2025, onde $g^{-1}(x)$ denota a função inversa de $g(x)$."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Helena tem um cadeado cuja abertura depende de uma senha composta por 3 dígitos que são números inteiros de 0 a 9. Após definir a senha do cadeado, ela cola um adesivo com certo código no cadeado. Este código, no entanto, não é a senha do cadeado: deixar a senha anotada no cadeado seria um equívoco. Para obter a senha correta, $(x, y, z)$, a partir do código $(a, b, c)$, Helena usa a seguinte relação entre os dígitos do código e os dígitos da senha:\n\n$$\\begin{cases} x + y + z = a, \\\\ x + z = b, \\\\ y + z = c. \\end{cases}$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Se o código anotado por Helena fosse $(9, 6, 3)$, qual seria a senha do cadeado?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Passados alguns meses, Helena se esqueceu da senha. Para seu azar, o adesivo com o código se apagou parcialmente e só sobraram visíveis os dois primeiros dígitos: $(6, 2, ?)$. Quais são todas as possíveis senhas? Justifique."
+    }
+   ],
+   "observacoes": "Na resposta oficial do item b está impresso “c = 6, c = 5 ou c = 6” (o terceiro valor deveria ser c = 4, pois a senha (2, 4, 0) corresponde a c = 4); mantido como no original."
+  },
+  {
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A trave de equilíbrio é um aparelho de ginástica artística, no qual a atleta deve se equilibrar enquanto realiza movimentos coreográficos, saltos e giros. A Figura 1 representa a trave de equilíbrio. A trave é paralela ao solo e os pontos A, B, e C formam um triângulo equilátero. A Figura 2 representa um dos movimentos realizados pela atleta.\n\n![Figura 1: trave de equilíbrio vista de lado, a 110 cm do solo, com os pontos A, B, C e D. Figura 2: salto de saída da trave, com a trajetória parabólica entre P1 (189 cm do chão) e P2 (64 cm do chão), ponto mais alto H, e os pontos E, F e G no solo, com distâncias horizontais de 50 cm (EF) e 125 cm (EG)](fig:p08-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Sabendo que a distância da trave ao solo é de 110 cm, calcule o comprimento do segmento DB."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A atleta realiza um salto de saída da trave, representado na Figura 2. Sabe-se que a trajetória do centro de massa da atleta é uma parábola, conforme ilustrado na figura 2. A distância horizontal entre a saída da trave e o local da aterrisagem é 125 cm e o ponto mais alto da trajetória (ponto H) é alcançado a 50 cm da saída da trave (distância horizontal). Sabe-se que no momento da saída, o centro de massa está a 189 cm do chão (ponto P1) e que no momento da aterrisagem o centro de massa da atleta está situado a 64 cm do chão (ponto P2), como mostra a figura. Calcule a maior altura atingida pelo centro de massa da atleta durante esse movimento."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 7,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Atualmente, em substituição à escala Richter, a escala de magnitude e momento, denotada por $M_w$, é a utilizada para estimar a magnitude de todos os grandes terremotos. Para calcular $M_w$, é necessário conhecer o valor do momento sísmico, $M_0$, o qual é estimado a partir de registros de sismógrafos. O valor de $M_w$ se relaciona com o valor de $M_0$ pela fórmula\n\n$$M_w = -10{,}7 + \\frac{2}{3}\\log M_0.$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é o menor valor de $M_0$ para o qual $M_w \\geq 0$? Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em uma dada ocorrência sísmica, verificou-se que o valor de $M_w$ correspondia a $\\frac{1}{6}\\log M_0$. Nesse caso, quais são os valores de $M_0$ e $M_w$ ? Justifique."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 8,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Seja $Q$ um quadrado de lado medindo 21 cm.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere que $Q$ foi subdividido em 9 quadrados $Q_1,\\ldots,Q_9$, cujos lados medem 7 cm. Quantos triângulos distintos podem ser formados de modo que seus vértices sejam os centros dos quadrados $Q_1,\\ldots,Q_9$ dessa subdivisão? Lembre-se de que dois triângulos são distintos quando seus vértices não coincidem."
+    },
+    {
+     "rotulo": "b",
+     "texto": "É possível escolhermos 10 pontos em $Q$ de modo que a distância entre quaisquer dois desses pontos seja maior do que 10 centímetros? Justifique."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "O vento Föhn, presente nas grandes cordilheiras (Alpes, Andes, Montanhas Rochosas), ocorre quando uma camada de vento é forçada a subir uma montanha, sofrendo expansão devido à redução da pressão atmosférica e resfriando-se a ponto de atingir a condensação (Figura A). Na sequência, o ar desprovido de umidade desce do outro lado a encosta, sofrendo compressão e aquecimento; isso resulta em um vento quente e seco. A Figura B, no espaço de respostas, mostra uma expansão de um gás ideal (linha contínua de $i$ a $f$) num diagrama de pressão $P$ *versus* volume $V$.\n\n![Figura A: desenho de uma montanha com ar frio e úmido subindo pela encosta, condensação no alto e ar quente e seco descendo do outro lado](fig:p11-c1)\n\n![Figura B: diagrama de pressão P (10⁴ Pa) versus volume V (10⁴ m³) com a expansão do ponto i, em θi = 7 °C, até o ponto f, e um retângulo de escala de 1,0 × 10⁴ Pa por 0,5 × 10⁴ m³](fig:p11-c3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a temperatura $\\theta_f$, em graus Celsius ($^\\circ\\text{C}$), do gás no ponto $f$ do diagrama da Figura B?\n\nDado: $T(\\text{K}) - \\theta(^\\circ\\text{C}) \\simeq 273$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é o trabalho realizado pelo gás na expansão (linha contínua) entre os pontos $i$ e $f$ do diagrama da Figura B?"
+    }
+   ],
+   "observacoes": "Na resposta oficial do item a, a temperatura final aparece como θ2 (e não θf); mantido como no original. A figura da resposta do item b foi recortada com o rótulo “b)” do documento oficial dentro da imagem, pois ele se sobrepõe às anotações vermelhas."
+  },
+  {
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Vários dispositivos eletrônicos (*mouses*, *joysticks* etc.) fazem uso do Efeito Hall. A Figura A mostra o esquema de um fluxômetro empregado para medir a vazão $Z$ de um líquido (volume que atravessa a seção reta da tubulação por unidade de tempo) que usa esse princípio: o escoamento do líquido na tubulação gira uma turbina junto com um ímã, o que gera uma diferença de potencial ($V_{\\text{Hall}}$) numa fita condutora.\n\n![Figura A: esquema do fluxômetro, com a fita condutora ao lado da turbina de raio R, que contém um ímã (N, S), sobre a tubulação de área A com a velocidade do líquido](fig:p12-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com a rotação do ímã do fluxômetro, a diferença de potencial $V_{\\text{Hall}}$ varia conforme ilustrado na Figura B no espaço de respostas, sendo máxima quando o polo norte do ímã aponta para a fita. Sendo $A = 70\\ \\text{cm}^2$ a área da seção reta da tubulação e $R = 3{,}0\\ \\text{cm}$ o raio externo da turbina, calcule a vazão $Z$ do líquido. Assuma que a velocidade do líquido, $\\vec{v}_{\\text{liq}}$, seja constante e uniforme e de módulo igual ao da velocidade da extremidade da turbina.\n\n![Figura B: gráfico de VHall em função do tempo t (ms), de 0 a 180 ms, com curva senoidal](fig:p12-c3)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A Figura C mostra uma fita de largura $L = 3{,}0\\ \\text{mm}$ conduzindo corrente elétrica na presença do campo magnético $\\vec{B}$ que sai do papel. A força magnética $\\vec{F}_B$ desvia as cargas elétricas ($q = -1{,}6 \\times 10^{-19}\\ \\text{C}$) responsáveis pela corrente, acumulando-as nas bordas da fita. Isso dá origem à diferença de potencial $V_{\\text{Hall}}$, ao campo elétrico $\\left(\\vec{E}_{\\text{Hall}}\\right)$ e a uma força elétrica $\\vec{F}_{E,\\text{Hall}}$ oposta a $\\vec{F}_B$. Quase instantaneamente o equilíbrio de forças se estabelece e as cargas passam a seguir em linha reta, cessando o acúmulo nas bordas da fita. Para a condição de equilíbrio em que $V_{\\text{Hall}} = 1{,}5 \\times 10^{-7}\\ \\text{V}$, quanto vale $\\left|\\vec{F}_B\\right|$ ?\n\n![Figura C: fita condutora de largura L com sinais de mais na borda direita e de menos na esquerda, campo B saindo do papel, carga q, forças FB e EHall para a esquerda, corrente elétrica para baixo e voltímetro VHall](fig:p12-c2)"
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "1": {
+   "itens": {
+    "a": "Dois importantes fatores históricos que justificam a maior concentração de comunidades quilombolas no nordeste brasileiro, como evidenciado pelo censo de 2022, são, de um lado, a presença de população africana escravizada nessa região, durante a colonização e império, sobretudo em ciclos produtivos ligados à produção de cana-de açúcar e, de outro, a formação de quilombos como forma de resistência. Durante a escravidão, foram recorrentes as fugas e reorganizações das comunidades de escravos, libertos e população negra livre em regiões mais afastadas dos centros urbanos, regiões estas que tinham nos quilombos, como o histórico quilombo de Palmares, um local de resistência sociocultural contra os abusos econômicos, políticos e a exploração colonial. Assim, nessas regiões, historicamente se constituíram a maior parte dos quilombos do território, também pela geografia do Nordeste, com serras, matas e sertões, possibilitando a construção desses espaços de autodeterminação e autonomia, com ênfase na manutenção das tradições culturais e na relação com a terra.",
+    "b": "Os desafios enfrentados pelos quilombos brasileiros no século XXI podem ser organizados a partir de alguns eixos gerais. O primeiro deles está relacionado às ausências de políticas públicas eficientes que garantam a posse do território e mesmo sua proteção frente aos interesses dos latifundiários, mineradores e grileiros. Não há dúvidas de que o direito quilombola avançou a partir da Constituição de 1988, mas os desafios são ainda muito expressivos. A questão da posse do território acaba sendo ampliada pela dificuldade da superação das desigualdades históricas que seguem retalhando ou impedindo que a população quilombola tenha acesso à titulação das terras, pois o processo é lento, burocrático e imerso em insegurança jurídica e racismo estrutural. Pode-se citar desafios de ordem social, pois o racismo, a dificuldade de acesso aos serviços e direitos, perpetuam as desigualdades, estereótipos e preconceitos. Pode-se citar, ainda, o desafio cultural de — mesmo diante de tantas ofensivas violentas contra as comunidades quilombolas — seguirem na luta pela preservação do patrimônio cultural imaterial, suas religiosidades e práticas, da alimentação a saberes partilhados. Inserido nas questões culturais, a preservação da memória se torna uma luta pelo direito ao seu passado, à existência no presente e às projeções e sonhos de futuro. A memória tem função social central na constituição e manutenção dos quilombos brasileiros, pois opera como prática cultural capaz de formar identidades e coletividades em uma história narrada como resistência. A memória, assim, permite a continuidade das práticas culturais por meio da transmissão oral, das tradições compartilhadas e ligadas à ancestralidade africana e diaspórica, ampliando o sentimento de pertencimento à terra e à luta pelos direitos ao território por meio das gerações. Por fim, é possível observar os desafios em implementar e terem respeitadas as políticas públicas específicas para essas comunidades, de escolarização ao acesso à saúde, por exemplo."
+   }
+  },
+  "2": {
+   "itens": {
+    "a": "Para Pierre Lévy, a internet tem como função descentralizar o poder hierárquico ou territorial, pois pode oferecer formas de troca e cooperação entre grupos e sujeitos subalternizados, ao contrário dos antigos sistemas de comunicação, conduzidos pelas elites econômicas. Também, para ele, produzir confiança e aprendizagem colaborativa é uma função da internet, onde o conhecimento passa a ser realizado em forma de rede, com reconhecimento de saberes diversos que compõem o corpo social. Por outro lado, Stephen Graham apresenta uma visão mais crítica, sendo o seu texto mais recente. Ele afirma que a função da internet hoje é realizar o monitoramento e controle financeiro e civil, sendo um braço do poder geopolítico. Isso se realiza mediante identificação e rastreamento dos corpos, em telefones celulares e passaportes, por exemplo. No que tange ao mercado, a internet monitora fluxos financeiros, transações e informações sobre empresas e indivíduos. Essas funções alteram a compreensão espacial urbana, que passa a ser altamente controlada.",
+    "b": "O texto de Lévy foi publicado em 1998, num contexto mais inicial da internet e de sua difusão e formas de uso. No início da popularização, portanto, havia mais otimismo em ver a internet como espaço de democratização de saberes e novas formas de coletividades e de contestar poderes hegemônicos. Portanto, nesta visão, acreditava-se que haveria computadores pessoais mais acessíveis, que o ciberespaço alavancaria a inteligência coletiva e a experimentação. Embora parte dessas visões tenha mesmo se constituído, uma nova esfera de controle e poder foi amplamente estimulada pela internet, como afirma Graham. Ao lado das práticas colaborativas, o autor, que escreveu em 2016, expõe o avanço da militarização e das tecnologias de monitoramento e controle dos corpos, trazendo novos problemas como privacidade, vigilância em tempo real e segurança, sobretudo no momento histórico de Guerra ao Terror, como após o ataque das torres gêmeas em Nova Iorque em 2001."
+   }
+  },
+  "3": {
+   "itens": {
+    "a": "Como são 4 fotos, ela tem 4 opções para postar no primeiro dia, 3 opções no segundo dia, 2 opções no terceiro dia e somente 1 opção no quarto dia. Portanto, pode fazer os posts de $4 \\cdot 3 \\cdot 2 \\cdot 1 = 24$ formas diferentes.",
+    "b": "Existem essencialmente dois caminhos que passam somente uma vez por um mesmo “segmento”: os caminhos ABEFNCL e AGEFNCL.\n\nO trecho ABE tem 0,5 km + 1,7 km = 2,2 km.\n\nNão sabemos qual o comprimento do trecho AGE. Para calcular o comprimento do segmento AG, podemos fazer a construção seguinte:\n\nComo AB = 0,5, BL = 2,5 e LC = 1, temos que AC = 4. Como EF = 2,7, segue-se que GE = 1,3. Seja B’ o ponto da reta r obtido traçando uma reta paralela ao segmento AG que passa por B. Então, como GB’ = 0,5 (pois AB = 0,5), segue que B’E = 0,8, como na figura a seguir.\n\n![Figura do mapa com o segmento tracejado BB’ paralelo a AG e as medidas indicadas: AB = 0,5 (GB’ = 0,5), B’E = 0,8, BE = 1,7, EF = 2,7, LC = 1,0 e CN = 0,5](fig:r03-f1)\n\nUsando o Teorema de Pitágoras no triângulo B’BE, podemos calcular a medida do cateto B’E, obtendo $B'E = \\sqrt{(1{,}7)^2 - (0{,}8)^2} = \\sqrt{2{,}25} = 1{,}5$. Logo, o segmento AG mede 1,5 km, e daí o trecho AGE mede 2,8 km.\n\nComo a medida de FC é a mesma de AG, o caminho ABEFNCL mede 0,5 + 1,7 + 2,7 + 1,5 + 1 = 7,4 km, enquanto o caminho AGEFNCL mede 1,5 + 0,2 + 1,3 + 2,7 + 1,5 + 1,0 = 8,2.\n\nAssim, o menor caminho é ABEFNCL, com 7,4 km."
+   }
+  },
+  "4": {
+   "itens": {
+    "a": "Temos que\n• $f(g(1)) = f(1 + k) = (1 + k)^2 + (1 + k) + c = 2 + c + 3k + k^2$\n• $g(f(1)) = 2 + c + k$\n\nPortanto, $f(g(1)) - g(f(1)) = k^2 + 2k$. Assim, $f(g(1)) - g(f(1)) < 0$ quando $k^2 + 2k < 0$. Como $k^2 + 2k = 0$ quando $k = 0$ ou $k = -2$, segue que $k^2 + 2k < 0$ quando $k \\in (-2, 0)$, independentemente do valor de $c$.",
+    "b": "Como $f(x) = 0$, sabemos que o discriminante dessa equação é zero, ou seja, $1 - 4c = 0$, e daí $c = 1/4$.\n\nVamos então escrever a equação $f(g^{-1}(x)) = 1/4$. Como $g^{-1}(x) = x - k$, temos que $f(g^{-1}(x)) = 1/4 - k + k^2 + x - 2kx + x^2$.\nDa equação $f(g^{-1}(x)) = 1/4$, temos que $-k + k^2 + x - 2kx + x^2 = 0$. As soluções desta equação são $x = k$ e $x = k - 1$; logo a soma das soluções é $2k - 1$. Para que $2k - 1 = 2025$, devemos ter $k = 1013$."
+   }
+  },
+  "5": {
+   "itens": {
+    "a": "Para descobrir a senha a partir do código, basta resolver o sistema\n\n$$\\begin{aligned} x + y + z &= 9, \\\\ x \\phantom{{}+y} {}+ z &= 6, \\\\ y + z &= 3. \\end{aligned}$$\n\nEste sistema é equivalente a\n\n$$\\begin{aligned} x + y + z &= 9, \\\\ \\phantom{x+{}} y \\phantom{{}+z} &= 3, \\\\ x \\phantom{{}+y+z} &= 6, \\end{aligned}$$\n\nlogo $x = 6$, $y = 3$ e $z = 0$ e a senha é $(6, 3, 0)$.",
+    "b": "Neste caso, temos que\n\n$$\\begin{aligned} x + y + z &= 6, \\\\ x \\phantom{{}+y} {}+ z &= 2, \\\\ y + z &= c. \\end{aligned}$$\n\nA solução deste sistema é $y = 4$, $x = 6 - c$, $z = c - 4$. Como sabemos que $x, z, c \\in \\{0, 1, \\ldots, 9\\}$, os únicos valores possíveis de $c$ são $c = 6$, $c = 5$ ou $c = 6$. Logo, as possíveis senhas são $(0, 4, 2)$, $(1, 4, 1)$ ou $(2, 4, 0)$."
+   }
+  },
+  "6": {
+   "itens": {
+    "a": "Na Figura 1, seja R um ponto no “chão”, de modo que o segmento RB é perpendicular ao chão e à trave. Como o triângulo ABC é equilátero, seus ângulos tem 60 graus; daí o ângulo RDB mede 60 graus. Como o triângulo DRB é retângulo, temos que $\\text{sen}(60) = BR/DB$. Assim, $\\sqrt{3}/2 = 110/DB$, ou seja, $DB = (220\\sqrt{3})/3$.",
+    "b": "Considere um sistema de eixos $xy$, em que o eixo $y$ contém o segmento HF e o eixo $x$ passa pelo ponto $P_2$, como indicado na figura a seguir:\n\n![Figura 2 com um eixo y vermelho passando por H e F e um eixo x vermelho passando por P2](fig:r05-f1)\n\nO movimento do centro de massa da atleta é o gráfico de uma parábola $y = f(x)$, e o ponto H é o vértice da parábola. Como $f(75) = 0$, temos também $f(-75) = 0$, pois o eixo $y$ foi colocado de modo que a parábola é simétrica com respeito a ele. Assim, $f(x) = a(x - 75)(x + 75)$. Temos ainda que $f(-50) = 125$, daí $a = -1/25$. Portanto, o ponto H tem coordenadas H = $(0, f(0)) = (0, 225)$. Como o eixo $x$ está localizado a uma altura de 64 cm, a altura do ponto com respeito ao chão é 2,89 m."
+   }
+  },
+  "7": {
+   "itens": {
+    "a": "Para que $M_w \\geq 0$ devemos ter\n\n$$-10{,}7 + \\frac{2}{3}\\log(M_0) \\geq 0.$$\n\nPortanto, $\\frac{2}{3}\\log(M_0) \\geq 10{,}7$, e daí $\\log(M_0) \\geq 16{,}05$. Usando as propriedades de logaritmo, obtemos finalmente que $M_0 \\geq 10^{16{,}05}$.",
+    "b": "Se $M_w = \\frac{1}{6}\\log(M_0)$, então temos que\n\n$$-10{,}7 + \\frac{2}{3}\\log(M_0) = \\frac{1}{6}\\log(M_0).$$\n\nPortanto,\n\n$$10{,}7 = \\frac{1}{2}\\log(M_0)$$\n\ne daí $M_0 = 10^{21{,}4}$.\n\nUsando este valor de $M_0$ na equação $M_w = \\frac{1}{6}\\log(M_0)$, obtemos\n\n$$M_w = \\frac{1}{6}\\log(M_0) = \\frac{1}{6}\\log(10^{21{,}4}) = (21{,}4)/6 = 3{,}5666\\ldots$$"
+   }
+  },
+  "8": {
+   "itens": {
+    "a": "A quantidade de combinações de 3 vértices quaisquer a partir dos 9 centros de quadrados é dada por $9!/(3!\\,6!) = 84$. Porém, nem toda combinação de 3 vértices produz um triângulo: vértices colineares devem ser retirados da conta. Como existem 8 conjuntos de vértices colineares (3 verticais, 3 horizontais e as duas diagonais), a resposta é 84 - 8 = 76.",
+    "b": "Considere a divisão de Q em 9 subquadrados. Pelo princípio da casa dos pombos, para colocarmos 10 pontos em Q, pelo menos um dos subquadrados precisa receber 2 pontos.\n\nComo a diagonal dos subquadrados mede $7\\sqrt{2} < 10$, temos que o décimo ponto necessariamente estará a uma distância menor do que 10 de pelo menos um dos pontos, logo não é possível colocar 10 pontos em Q."
+   }
+  },
+  "9": {
+   "itens": {
+    "a": "Do diagrama da figura B encontramos para os pontos $i$ e $f$:\n\n$$\\begin{cases} P_i = 10{,}0 \\times 10^4\\ \\text{Pa} \\\\ V_i = 12{,}0 \\times 10^4\\ \\text{m}^3 \\\\ T_i = \\left(\\theta_i(^\\circ\\text{C}) + 273\\right)\\ \\text{K} = (7 + 273)\\ \\text{K} = 280\\ \\text{K} \\end{cases} \\qquad \\text{e} \\qquad \\begin{cases} P_f = 7{,}0 \\times 10^4\\ \\text{Pa} \\\\ V_f = 15{,}0 \\times 10^4\\ \\text{m}^3 \\end{cases}$$\n\nUsando a Lei dos gases perfeitos:\n\n$$\\frac{PV}{T} = nR = cte \\Rightarrow \\frac{P_iV_i}{T_i} = \\frac{P_fV_f}{T_f} \\Rightarrow T_f = \\left(\\frac{P_f}{P_i}\\right)\\left(\\frac{V_f}{V_i}\\right)T_i = \\left(\\frac{7}{10}\\right) \\times \\left(\\frac{15}{12}\\right) \\times 280\\ \\text{K} = \\frac{7}{2} \\times \\frac{280}{4}\\ \\text{K} = 245\\ \\text{K}$$\n\nAssim: $\\theta_2(^\\circ\\text{C}) = 245 - 273 \\Rightarrow \\theta_2 = -28\\ ^\\circ\\text{C}$.",
+    "b": "![Figura B anotada pela banca: diagrama P versus V com linhas vermelhas em V = 12,0 e V = 15,0 e tracejada em P = 7,0, com os valores 8 e 42 e a área A sob a curva de i a f](fig:r06-f1)\n\n$W_{if}$ é numericamente igual a $A$.\n\n$$W_{if} = (42 + 8) \\times 0{,}5 \\times 10^4 \\times 1{,}0 \\times 10^4 = 2{,}5 \\times 10^9\\ \\text{J}$$"
+   }
+  },
+  "10": {
+   "itens": {
+    "a": "$$\\begin{cases} Z = A\\left|\\vec{v}_{\\text{liq}}\\right| \\\\ \\left|\\vec{v}_{\\text{liq}}\\right| = \\left|\\vec{v}_{\\text{ext\\_turb}}\\right| = \\omega R \\\\ \\omega = \\dfrac{2\\pi}{T} \\end{cases} \\Rightarrow Z = A\\dfrac{2\\pi}{T}R = 6\\dfrac{AR}{T}$$\n\n$$\\begin{cases} A = 70 \\times 10^{-4}\\ \\text{m}^2 \\\\ R = 3{,}0 \\times 10^{-2}\\ \\text{m} \\\\ \\text{Da figura B: } T = 120\\ \\text{ms} = 12 \\times 10^{-2}\\ \\text{s} \\end{cases} \\Rightarrow Z = 6\\dfrac{\\left(70 \\times 10^{-4}\\ \\text{m}^2\\right) \\times \\left(3{,}0 \\times 10^{-2}\\ \\text{m}\\right)}{12 \\times 10^{-2}\\ \\text{s}} = 105 \\times 10^{-4}\\ \\text{m}^3/\\text{s} = 10{,}5\\ \\text{litros/s}$$",
+    "b": "No equilíbrio de forças:\n\n$$\\left|\\vec{F}_B\\right| = \\left|\\vec{F}_{E\\_\\text{Hall}}\\right| \\quad \\text{e} \\quad \\left|\\vec{F}_{E\\_\\text{Hall}}\\right| = |q|\\left|\\vec{E}_{\\text{Hall}}\\right| = |q|\\left(\\dfrac{V_{\\text{Hall}}}{L}\\right)$$\n\nAssim:\n\n$$\\left|\\vec{F}_B\\right| = |q|\\left(\\dfrac{V_{\\text{Hall}}}{L}\\right) = \\left(1{,}6 \\times 10^{-19}\\ \\text{C}\\right) \\times \\left(\\dfrac{1{,}5 \\times 10^{-7}\\ \\text{V}}{3{,}0 \\times 10^{-3}\\ \\text{m}}\\right) = 8{,}0 \\times 10^{-24}\\ \\text{N}.$$"
+   }
+  }
+ }
+}

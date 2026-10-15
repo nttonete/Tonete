@@ -1,0 +1,103 @@
+{
+  "edicao": "fuvest-2026-2-d2",
+  "intervalo": [
+    1,
+    9
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 2,
+      "codigo": "B02",
+      "materia": "biologia",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "O petróleo é formado por uma mistura de compostos orgânicos, principalmente os hidrocarbonetos, que são compostos lipofílicos, que podem causar problemas de saúde em vários animais, incluindo os seres humanos. A exploração de petróleo na Foz da Bacia Amazônica (Margem Equatorial) está entre um dos planos da Petrobrás, mas questões ligadas aos impactos ao meio ambiente e à saúde humana são preocupantes, pois a exposição aos hidrocarbonetos pode causar, por exemplo, doenças respiratórias, cardiovasculares e dérmicas na população.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Quais são os elementos químicos que compõem os hidrocarbonetos?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Por que a natureza lipofílica dos hidrocarbonetos pode potencializar os seus danos nos seres humanos?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Qual é a principal organela celular que participa do processo de detoxificação (“desintoxicação”) das células contaminadas pelos hidrocarbonetos e qual é o principal órgão nos seres humanos onde este processo ocorre?"
+        }
+      ]
+    }
+  ],
+  "respostas_corrigidas": {},
+  "complementos": {
+    "1": {
+      "assunto": "Ecologia"
+    },
+    "2": {
+      "assunto": "Citologia"
+    },
+    "4": {
+      "assunto": "Botânica"
+    },
+    "5": {
+      "assunto": "Fisiologia humana"
+    },
+    "6": {
+      "assunto": "Zoologia"
+    },
+    "7": {
+      "assunto": "Dinâmica"
+    },
+    "8": {
+      "assunto": "Eletrostática"
+    },
+    "9": {
+      "assunto": "Termodinâmica"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 1,
+      "status": "ok",
+      "notas": "Enunciado e itens conferidos com p03; resposta conferida com r23 (lista de consequências do item c completa, com os hífens do original)."
+    },
+    {
+      "numero": 2,
+      "status": "corrigida",
+      "notas": "Texto conferido com p03 e resposta com r24. Matéria: incluída química em materias_extra, porque o item a cobra a composição dos hidrocarbonetos (C e H), conteúdo de química. O caderno não tem a vírgula antes de “qual é o principal órgão” que aparece no documento de respostas; mantido o texto do caderno."
+    },
+    {
+      "numero": 4,
+      "status": "ok",
+      "notas": "Conferido com p05 e r26; figura p05-f1 completa. Resposta do item a sem dois-pontos depois de “Y” como no original."
+    },
+    {
+      "numero": 5,
+      "status": "ok",
+      "notas": "Conferido com p07 e r27. Observações do transcritor: “Black Sabath” (sic) está mesmo no caderno, mantido; o esquema impresso depois dos itens foi para o fim do enunciado, o que é aceitável, pois serve aos itens a e c (mesma regra do texto que vale para a questão toda). Item c termina em “?” no caderno (o documento de respostas usa ponto final); mantido o caderno."
+    },
+    {
+      "numero": 6,
+      "status": "ok",
+      "notas": "Conferido com p07 e r28; figura p07-f2 completa, com as fases i a iv."
+    },
+    {
+      "numero": 7,
+      "status": "ok",
+      "notas": "Conferido com p10 e r09; figuras p10-f5 (foto) e p10-f1 (gráfico) completas. Observação do transcritor: o parágrafo da força de arrasto, impresso entre os itens b e c, serve só ao item c; mantido no início do item c. Contas da banca conferidas (0,45 m; √5 m/s)."
+    },
+    {
+      "numero": 8,
+      "status": "ok",
+      "notas": "Conferido com p10 e r10; figura p10-c2 completa. Observações do transcritor: a frase “Considere uma situação...” e a figura, impressas entre os itens a e b, ficaram no item b (o item c se refere a “desse campo”, o que continua compreensível); “minima” sem acento está mesmo no documento oficial, mantido. Contas da banca conferidas (6,4 × 10⁻¹⁴ N; 2,65 × 10⁵ V/m)."
+    },
+    {
+      "numero": 9,
+      "status": "ok",
+      "notas": "Conferido com p12 e r11; figura p12-f1 completa. Texto do caderno (“mas também reduzindo perdas”) mantido como no original. Contas conferidas (50 kW; 1,8 × 10⁸ J)."
+    }
+  ]
+}
