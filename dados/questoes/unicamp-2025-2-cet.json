@@ -275,7 +275,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q12",
@@ -297,7 +298,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Dinâmica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q13",
@@ -319,7 +321,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q14",
@@ -327,7 +330,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Quando colocamos água em um copo, ele passa a atuar como uma lente cilíndrica. Ao posicionarmos o objeto atrás do copo com água, as características da imagem dependem de sua posição, a exemplo do que acontece com uma lente delgada. Como observado na Figura A, a imagem produzida é real, invertida e maior que o objeto.\n\n![Figura A: duas fotografias de um copo, sem água (à esquerda) e com água (à direita), com setas vermelhas e os rótulos “ar” e “água”](fig:p16-c1)",
+   "enunciado": "Quando colocamos água em um copo, ele passa a atuar como uma lente cilíndrica. Ao posicionarmos o objeto atrás do copo com água, as características da imagem dependem de sua posição, a exemplo do que acontece com uma lente delgada. Como observado na Figura A, a imagem produzida é real, invertida e maior que o objeto.\n\n![Figura A: duas fotografias de um copo com setas vermelhas ao fundo. À esquerda, copo sem água, rotulado “ar”, com duas setas apontando para a direita. À direita, copo com água até a metade: acima da água, rotulada “ar”, uma seta para a direita; vista através da água, rotulada “água”, uma seta para a esquerda](fig:p16-c1)",
    "itens": [
     {
      "rotulo": "a",
@@ -341,7 +344,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2025-2-cet-q15",
@@ -354,7 +358,7 @@
     {
      "rotulo": "a",
      "texto": "A instrução para a realização desse exame informa que o paciente deve permanecer 1 hora em repouso depois da administração intravenosa do material radioativo $^{18}\\text{F}$-FDG. Imediatamente após o período de repouso, o exame é realizado e finalizado em 30 minutos. Ao final do exame, o paciente é liberado sem restrições dietéticas ou de radioproteção. Considerando as informações dadas até então, construa, no espaço quadriculado em a) no campo de respostas, a curva de decaimento do radiofármaco. Determine a porcentagem restante de radiofármaco, em relação à quantidade inicial de 100%, 4 horas depois de o paciente ter finalizado o exame.\n\n*Campo de resolução:*\n\n![gráfico quadriculado vazio, com eixo vertical “Porcentagem” e eixo horizontal “Tempo (min)”](fig:p17-c1)",
-     "resposta_oficial": "![curva de decaimento do radiofármaco: porcentagem em função do tempo (min), com pontos em 0, 110, 220 e 330 min](fig:r10-c1)\n\nO tempo decorrido desde o momento em que o paciente recebe a medicação até o final do exame é de 90 min. Depois que ele deixa a clínica, devem-se somar 240 min (4h) ao tempo de 90 minutos. Portanto, o tempo total a ser considerado é de 330 minutos. Sendo o tempo de meia vida do $^{18}_{\\;9}\\text{F}$ de 110 min, a porcentagem restante do radiofármaco será de 12,5 % (3 tempos de meia vida)."
+     "resposta_oficial": "![curva de decaimento do radiofármaco: porcentagem em função do tempo (min), com os pontos 100% em 0 min, 50% em 110 min, 25% em 220 min e 12,5% em 330 min, ligados por uma curva](fig:r10-c1)\n\nO tempo decorrido desde o momento em que o paciente recebe a medicação até o final do exame é de 90 min. Depois que ele deixa a clínica, devem-se somar 240 min (4h) ao tempo de 90 minutos. Portanto, o tempo total a ser considerado é de 330 minutos. Sendo o tempo de meia vida do $^{18}_{\\;9}\\text{F}$ de 110 min, a porcentagem restante do radiofármaco será de 12,5 % (3 tempos de meia vida)."
     },
     {
      "rotulo": "b",
@@ -363,7 +367,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Radioatividade",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2025-2-cet-q16",
@@ -376,7 +381,7 @@
     {
      "rotulo": "a",
      "texto": "Considere 2 tipos de telhas: a de fibrocimento e a sanduíche (formada por alumínio e isopor). (i) Informe os recursos naturais utilizados para fabricação de cada tipo de telha. (ii) Comente os potenciais impactos da produção dessas telhas nas mudanças climáticas.",
-     "resposta_oficial": "i) Recursos naturais utilizados. Telha de fibrocimento: calcário e silicatos (cimento) e fibras (tanto de origem vegetal quanto mineral). Telha sanduíche: bauxita – mineral fonte de óxido de alumínio (utilizado na produção do alumínio metálico) e petróleo (derivados, como o isopor, espuma).\nii) Impactos da produção nas mudanças climáticas. Telha de fibrocimento: alta demanda energética, geração de $\\text{CO}_2$, extrativismo mineral e vegetal. Telha sanduíche: mineração da bauxita, extração de petróleo, alta demanda energética."
+     "resposta_oficial": "i) Recursos naturais utilizados. Telha de fibrocimento: calcário e silicatos (cimento) e fibras (tanto de origem vegetal quanto mineral). Telha sanduiche: bauxita – mineral fonte de óxido de alumínio (utilizado na produção do alumínio metálico) e petróleo (derivados, como o isopor, espuma).\nii) Impactos da produção nas mudanças climáticas. Telha de fibrocimento: alta demanda energética, geração de $\\text{CO}_2$, extrativismo mineral e vegetal. Telha sanduíche: mineração da bauxita, extração de petróleo, alta demanda energética."
     },
     {
      "rotulo": "b",
@@ -385,7 +390,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2025-2-cet-q17",
@@ -407,7 +413,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q18",
@@ -429,7 +436,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2025-2-cet-q19",
@@ -446,12 +454,13 @@
     },
     {
      "rotulo": "b",
-     "texto": "Do ponto de vista termodinâmico, para a discussão dos resultados os autores utilizam o diagrama de energia (aqui incompleto) fornecido no campo de respostas. A partir desse diagrama, resolva: (i) no decorrer do processo sob estudo, o meio reacional tenderia a um aumento ou a uma diminuição da temperatura? Justifique. (ii) Calcule o valor da entalpia molar da reação de formação da água.\n\n![diagrama de energia incompleto, com os níveis C₆H₁₂O₆ + 6 H₂O, 6 CO₂ + 12 H₂ e 6 CO₂ + 12 H₂O, e as variações ΔH° = +2808 KJ e ΔH° = −3430 KJ](fig:p21-c3)",
+     "texto": "Do ponto de vista termodinâmico, para a discussão dos resultados os autores utilizam o diagrama de energia (aqui incompleto) fornecido no campo de respostas. A partir desse diagrama, resolva: (i) no decorrer do processo sob estudo, o meio reacional tenderia a um aumento ou a uma diminuição da temperatura? Justifique. (ii) Calcule o valor da entalpia molar da reação de formação da água.\n\n![diagrama de energia com três níveis horizontais: embaixo, “6 CO₂ + 12 H₂O”; no meio, à esquerda, “C₆H₁₂O₆ + 6 H₂O”; no alto, à direita, “6 CO₂ + 12 H₂”. Uma seta curta, sem valor, sobe do nível do meio para o mais alto. À esquerda, uma seta sobe do nível de baixo ao do meio, com “ΔH° = +2808 KJ” e uma pequena seta curva que sai em direção a “6 O₂”. À direita, uma seta desce do nível mais alto ao de baixo, com “ΔH° = −3430 KJ” e uma pequena seta curva que vem de “6 O₂”](fig:p21-c3)",
      "resposta_oficial": "i) De acordo com o diagrama, a energia dos processos em que a energia dos reagentes se encontra num patamar abaixo do patamar dos produtos apresenta um sinal positivo (+), ou seja, são endotérmicas (absorvem energia), que é o que ocorre no processo sob estudo (produção de hidrogênio a partir de glicose). Portanto, o meio reacional tenderá a diminuir a sua temperatura com o tempo.\nii) A entalpia de formação da água é dada para a reação a partir de seus elementos na forma mais estável $\\text{H}_2$ + ½ $\\text{O}_2$ = $\\text{H}_2\\text{O}$. Conforme mostra o diagrama de energia, o processo $12\\ \\text{H}_{2(\\text{g})} + 6\\ \\text{O}_{2(\\text{g})} \\rightarrow 12\\ \\text{H}_2\\text{O}_{(\\text{aq})}$ tem ΔH = -3430 kJ. Assim, para 1 mol de água: ΔH = −3430/12 = −286 kJ/mol."
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2025-2-cet-q20",
@@ -463,17 +472,18 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "“As sociedades humanas estão mudando onde e como a água flui através da atmosfera. No entanto, tais alterações no ciclo atmosférico da água não estão sendo gerenciadas, nem se tem uma ideia real do rumo que estas alterações poderão tomar no futuro.” Essas afirmações fazem parte do artigo intitulado (em tradução livre) “*Céu seco: cenários futuros para modificações humanas do ciclo da água atmosférica*”, publicado na revista *Global Sustainability* em 2024. Num contexto próximo a esse, em 2023, outro artigo, dessa vez intitulado (também em tradução livre) “*Captação de água atmosférica: uma revisão de técnicas, desempenho, soluções de energia renovável e viabilidade*”, foi publicado na revista *Energy*. Considerando essas informações, comente de que forma os <u>objetivos do segundo artigo</u> i) confirmariam as <u>preocupações expressas no primeiro artigo</u> e ii) contemporizariam a principal preocupação expressa no <u>título do primeiro artigo</u>.",
+     "texto": "“As sociedades humanas estão mudando onde e como a água flui através da atmosfera. No entanto, tais alterações no ciclo atmosférico da água não estão sendo gerenciadas, nem se tem uma ideia real do rumo que estas alterações poderão tomar no futuro.” Essas afirmações fazem parte do artigo intitulado (em tradução livre) “*Céu seco: cenários futuros para modificações humanas do ciclo da água atmosférica*”, publicado na revista **<em>Global Sustainability</em>** em 2024. Num contexto próximo a esse, em 2023, outro artigo, dessa vez intitulado (também em tradução livre) “*Captação de água atmosférica: uma revisão de técnicas, desempenho, soluções de energia renovável e viabilidade*”, foi publicado na revista **<em>Energy</em>**. Considerando essas informações, comente de que forma os <u>objetivos do segundo artigo</u> i) confirmariam as <u>preocupações expressas no primeiro artigo</u> e ii) contemporizariam a principal preocupação expressa no <u>título do primeiro artigo</u>.",
      "resposta_oficial": "A preocupação central do primeiro artigo diz respeito a ações humanas no ciclo da água; portanto, a captura da água atmosférica (segundo artigo) pode impactar ainda mais em um problema já existente em relação ao ciclo natural da água.\nii) Técnicas que permitem capturar água no estado gasoso da atmosfera (objetivo do segundo artigo) utilizando energia renovável e sustentável para suprir a escassez de água em locais de seca (céu seco)."
     },
     {
      "rotulo": "b",
-     "texto": "Num dado sentido, a crise mundial da água pode se manifestar por “1) escassez de água, 2) excesso de água ou 3) água muito poluída”, em escala local ou global. No campo de resposta, na figura que representa o ciclo da água, atribua os números 1, 2 e 3 a três dos seis círculos que julgar mais apropriados. Os números só podem ser usados uma única vez. Dentre as atribuições 1, 2 e 3, em qual delas e de que forma a Química pode melhor contribuir para a solução desse problema? Exemplifique e explique sua resposta, levando em conta a sua atribuição dos números na figura oferecida no campo de respostas.\n\n*Campo de resolução:*\n\n![figura do ciclo da água, com os fluxos de precipitação, evapotranspiração, vegetação natural, irrigação natural, agricultura irrigada, indústria e cidade, e seis círculos vazios para receber os números](fig:p22-c3)",
+     "texto": "Num dado sentido, a crise mundial da água pode se manifestar por “1) escassez de água, 2) excesso de água ou 3) água muito poluída”, em escala local ou global. No campo de resposta, na figura que representa o ciclo da água, atribua os números 1, 2 e 3 a três dos seis círculos que julgar mais apropriados. Os números só podem ser usados uma única vez. Dentre as atribuições 1, 2 e 3, em qual delas e de que forma a Química pode melhor contribuir para a solução desse problema? Exemplifique e explique sua resposta, levando em conta a sua atribuição dos números na figura oferecida no campo de respostas.\n\n*Campo de resolução:*\n\n![figura do ciclo da água com setas de fluxo e os rótulos Precipitação (~120,000), Evapotranspiração (~74,000), Vegetação natural (~68,800), Irrigação natural (~5,800), Agricultura irrigada (~1600), Indústria (~400) e Cidade (~350), além dos fluxos ~46,000 e ~18,500 que descem até a água; seis círculos vazios: ao lado da Precipitação, junto da Vegetação natural, junto da Agricultura irrigada, junto da Indústria, junto da Cidade e, embaixo à direita, onde a seta que recolhe a água dessas três atividades chega à água](fig:p22-c6)",
      "resposta_oficial": "![figura do ciclo da água com os números 1, 2 e 3 atribuídos a três dos seis círculos: 1 junto de vegetação natural, 2 junto de cidade e 3 no fim do fluxo que chega à água](fig:r13-c1)\n\nA intervenção da Química seria mais apropriada no item 3, ou seja, na prevenção e/ou tratamento da poluição, concebendo processos mais limpos e eficientes para o tratamento de poluentes (indústria, esgoto em cidade)."
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "revisao": "corrigida"
   }
  ]
 }
