@@ -1,0 +1,70 @@
+{
+  "edicao": "unicamp-2017-2-d1",
+  "intervalo": [
+    1,
+    6
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [],
+  "respostas_corrigidas": {
+    "6": {
+      "resposta": "**Objetivo da questão:** A questão procurou avaliar a capacidade do candidato de ler e interpretar coerentemente um soneto de Camões. A expectativa da banca elaboradora era de que houvesse o reconhecimento dos elementos simbólicos e alegóricos que organizam o percurso figurativo do poema, e da lógica de sentido instaurada por tais elementos. A questão demandava atenção a aspectos linguísticos e estilísticos do texto, como, por exemplo, a compreensão do uso de maiúscula para nomear as divindades, e o jogo de sentido estabelecido em sua alternância com o uso de minúscula, na designação de experiências humanas e sentimentos. Paralelamente ao reconhecimento dessas instâncias, o candidato deveria ser capaz de explicar o movimento de ideias que atribui sentido à ultima parte do poema.",
+      "itens": {
+        "a": "A primeira divindade é a Fortuna, que ajuda o eu lírico a escrever, isto é, a fazer um registro da sua experiência amorosa. A segunda divindade é o Amor, que dificulta o engenho do poeta, produz enganos e sujeita aquele que ama. Portanto, o soneto elabora a tensão entre o ato de criação poética, marcado por certo contentamento e “o gosto de um suave pensamento”, e os efeitos contraditórios que o Amor produz na experiência criativa e amorosa do eu lírico.",
+        "b": "A tese defendida é a de que o entendimento dos versos é possível na medida em que o leitor experimente o amor. Por conseguinte, a escrita do poema é produção dotada de sentido com lastro na experiência e compreensível em um grau proporcional à experiência existencial do possível leitor da obra lírica."
+      }
+    }
+  },
+  "complementos": {
+    "1": {
+      "assunto": "Semântica e sentido das palavras"
+    },
+    "2": {
+      "assunto": "Interpretação de texto"
+    },
+    "3": {
+      "assunto": "Coesão e coerência"
+    },
+    "4": {
+      "assunto": "Obras de leitura obrigatória"
+    },
+    "5": {
+      "assunto": "Obras de leitura obrigatória"
+    },
+    "6": {
+      "assunto": "Literatura portuguesa"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 1,
+      "status": "ok",
+      "notas": "Enunciado, fonte e itens conferidos palavra por palavra com o caderno; resposta conferida com as Respostas esperadas (sem pontuação, como no original); objetivo conferido com a prova comentada (só o texto do objetivo, sem itens do programa e sem comentários de desempenho)."
+    },
+    {
+      "numero": 2,
+      "status": "ok",
+      "notas": "Enunciado, fonte e itens conferidos palavra por palavra com o caderno; resposta conferida com as Respostas esperadas (sem pontuação, como no original); objetivo conferido com a prova comentada (só o texto do objetivo, sem itens do programa e sem comentários de desempenho)."
+    },
+    {
+      "numero": 3,
+      "status": "ok",
+      "notas": "Enunciado, fonte e itens conferidos palavra por palavra com o caderno; resposta conferida com as Respostas esperadas (sem pontuação, como no original); objetivo conferido com a prova comentada (só o texto do objetivo, sem itens do programa e sem comentários de desempenho)."
+    },
+    {
+      "numero": 4,
+      "status": "ok",
+      "notas": "Enunciado, fonte e itens conferidos palavra por palavra com o caderno; resposta conferida com as Respostas esperadas (sem pontuação, como no original); objetivo conferido com a prova comentada (só o texto do objetivo, sem itens do programa e sem comentários de desempenho)."
+    },
+    {
+      "numero": 5,
+      "status": "ok",
+      "notas": "Enunciado, fonte e itens conferidos palavra por palavra com o caderno; resposta conferida com as Respostas esperadas (sem pontuação, como no original); objetivo conferido com a prova comentada (só o texto do objetivo, sem itens do programa e sem comentários de desempenho). Observação do transcritor decidida: a última frase do objetivo na prova comentada (r11) termina truncada em vírgula (“...na linguagem da fala da personagem,”); deixá-la de fora está certo, pois a regra permite omitir frases inteiras e não permite completar."
+    },
+    {
+      "numero": 6,
+      "status": "corrigida",
+      "notas": "Objetivo da questão: a prova comentada (r12) imprime “sentido à ultima parte do poema”, sem acento; o rascunho tinha corrigido para “última”. Restaurado conforme o original (erro de digitação da banca). Resto conferido: soneto, fonte, itens e respostas iguais ao caderno e às Respostas esperadas."
+    }
+  ]
+}
