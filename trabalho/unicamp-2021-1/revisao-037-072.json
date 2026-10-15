@@ -1,0 +1,322 @@
+{
+ "edicao": "unicamp-2021-1",
+ "intervalo": [
+  37,
+  72
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 41,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Brasil ardeu em chamas em 2020. Muitas soluções foram propostas, incluindo o uso do “boi bombeiro”, porém nem todas eliminam de fato um dos três componentes que mantêm o fogo: calor, combustível e comburente. A figura a seguir representa três ações de bombeiros para extinguir o fogo.\n\n![três cenas de bombeiros, marcadas A, B e C: em A, dois bombeiros puxam com ganchos de cabo longo palha em chamas (rótulo PALHA); em B, um bombeiro segura um pano junto a uma panela em chamas sobre um fogão; em C, dois bombeiros lançam um jato de água de mangueira sobre chamas](fig:p12-c1)\n\nNas alternativas a seguir, o componente ausente no triângulo representa o componente eliminado pela ação dos bombeiros para a extinção do fogo. Assinale a alternativa que apresenta a correlação adequada entre as ações A, B e C e o componente eliminado do triângulo do fogo em cada ação, respectivamente.",
+   "alternativas": {
+    "A": "![Alternativa A](fig:p12-c3)",
+    "B": "![Alternativa B](fig:p12-c7)",
+    "C": "![Alternativa C](fig:p12-c8)",
+    "D": "![Alternativa D](fig:p12-c9)"
+   }
+  },
+  {
+   "numero": 43,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A calagem é uma prática de manejo do solo que consiste na utilização de calcário para proporcionar às plantas um ambiente de crescimento radicular adequado. Isso diminui a atividade de elementos potencialmente tóxicos em elevadas concentrações (Al e Mn) e favorece a disponibilidade de elementos essenciais (N, P e K) no solo. O gráfico a seguir apresenta o grau de disponibilidade de diversos elementos de acordo com o pH do solo.\n\n![gráfico do grau de disponibilidade em função do pH, de 5,0 a 8,5, com quatro curvas: A e B começam baixas em pH próximo de 5,2, sobem até cerca de pH 6,5 e se mantêm altas, caindo um pouco perto de 7,6; C começa alta em pH 5,2, cai bruscamente até cerca de pH 6,0 e fica baixa até 7,0; D é uma reta que decresce de forma contínua de pH 5,0 a 8,5](fig:p12-c2)\n\nConsiderando essas informações e os conhecimentos de química, é correto afirmar que a calagem atua em solos",
+   "alternativas": {
+    "A": "ácidos, aumentando o seu pH; a curva D corresponderia a um elemento essencial.",
+    "B": "básicos, diminuindo o seu pH; a curva A corresponderia a um elemento tóxico.",
+    "C": "básicos, diminuindo o seu pH; a curva C corresponderia a um elemento tóxico.",
+    "D": "ácidos, aumentando o seu pH; a curva B corresponderia a um elemento essencial."
+   }
+  },
+  {
+   "numero": 45,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir mostra uma das formas de se contabilizar as tendências no uso de fertilizantes por hectare e por tonelada de grão em uma fazenda no Brasil em determinado período. A partir desse tipo de informação pode-se saber, por exemplo, como a prática agrícola de um sistema de cultivo está influenciando o uso de nutrientes e a produtividade do solo para o cultivo.\n\n![gráfico de duas retas ao longo dos anos de 2004 a 2009: fertilizante NPK em kg/ha (eixo esquerdo, azul), crescente, e fertilizante NPK em kg/t de grão (eixo direito, vermelho), decrescente](fig:p13-c2)\n\nConsiderando o caso representado pela figura, pode-se concluir que o sistema de cultivo adotado está influenciando",
+   "alternativas": {
+    "A": "positivamente o uso dos fertilizantes, aumentando a produtividade de grãos por hectare.",
+    "B": "negativamente o uso dos fertilizantes, diminuindo a produtividade de grãos por hectare.",
+    "C": "positivamente o uso dos fertilizantes, diminuindo a produtividade de grãos por hectare.",
+    "D": "negativamente o uso dos fertilizantes, aumentando a produtividade de grãos por hectare."
+   }
+  },
+  {
+   "numero": 49,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A doença de Huntington, que é progressiva e degenerativa do sistema nervoso central, compromete significativamente a capacidade motora e cognitiva.\nO heredograma a seguir representa o padrão de herança entre os indivíduos, sendo os indivíduos doentes representados em preto, e os indivíduos não doentes, em branco. Homens são representados pelos quadrados e mulheres, pelos círculos.\n\n![heredograma de três gerações. Geração I: homem doente casado com mulher não doente. Geração II, filhos desse casal, da esquerda para a direita: mulher doente (casada com homem não doente), homem doente, homem não doente e mulher doente (casada com homem doente). Geração III: filhos da primeira mulher doente: homem doente e duas mulheres não doentes; filhos da segunda mulher doente com o homem doente: homem doente, mulher não doente, homem não doente e duas mulheres doentes](fig:p14-f3)\n\nConsiderando as informações apresentadas, é correto afirmar que a doença de Huntington",
+   "alternativas": {
+    "A": "é herdada de forma autossômica dominante.",
+    "B": "é herdada de forma autossômica recessiva.",
+    "C": "apresenta herança ligada ao cromossomo X.",
+    "D": "apresenta herança ligada ao cromossomo Y."
+   }
+  },
+  {
+   "numero": 67,
+   "materia": "geografia",
+   "materias_extra": [
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "Em nosso planeta em rápida urbanização, a vida cotidiana da crescente população de urbanoides é cada vez mais sustentada por sistemas vastos e incrivelmente complexos de infraestrutura e tecnologia. Ainda que muitas vezes passem despercebidos – pelo menos quando funcionam –, esses sistemas permitem que a vida urbana moderna exista. Seus encanamentos, dutos, servidores, fios e túneis sustentam os fluxos, as conexões e os metabolismos que são intrínsecos às cidades contemporâneas.\n\n(Adaptado de Stephen Graham, *Cidades sitiadas*. O novo urbanismo militar. São Paulo: Editora Boitempo, 2016, p. 345.)\n\nDepreende-se do texto que",
+   "alternativas": {
+    "A": "a vida na cidade é composta por um conjunto de individualidades autossuficientes, sem a necessidade de interconexões e solidariedades.",
+    "B": "as cidades contemporâneas são dependentes de sistemas técnicos infraestruturais, mas cada vez menos dependentes do trabalho técnico e social.",
+    "C": "os bastidores infraestruturais e sociais da vida urbana cotidiana, em geral ocultos, tornam-se claros e palpáveis em momentos de interrupções sistêmicas.",
+    "D": "a dependência das infraestruturas em rede existe apenas em cidades modernas e tecnologicamente avançadas, as chamadas cidades *hight-tech*."
+   }
+  },
+  {
+   "numero": 70,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A região Nordeste brasileira é marcada por contrastes climáticos: áreas úmidas e áreas com longos períodos de estiagem. O mapa a seguir mostra a variação da umidade por meses em relação à distribuição das chuvas.\n\n![mapa da região Nordeste do Brasil com a variação da umidade, em áreas sem seca e subseca, de 1 a 3 meses secos, de 4 a 5 meses secos, de 6 a 8 meses secos e de 9 a 11 meses secos, com legenda e escala](fig:p21-c1)\n\n(Adaptado de *Mapa de Clima do Brasil*. Coordenação De Recursos Naturais e Estudos Ambientais – CREN. Diretoria de Geociências – DGC. IBGE. Rio de Janeiro, 2006.)\n\nSobre as características climáticas e a distribuição das chuvas na região Nordeste, é correto afirmar:",
+   "alternativas": {
+    "A": "Todas as áreas sem seca ou subsecas recebem umidade da zona de convergência intertropical, além do incremento de vapor d’água do processo de evapotranspiração das florestas tropicais.",
+    "B": "No centro do Estado da Bahia localiza-se a principal área no interior da região Nordeste com 1 a 3 meses secos, devido ao efeito orográfico da Chapada Diamantina na formação de chuvas.",
+    "C": "O período de estiagem das áreas com 4 a 5 meses secos ocorre no verão, enquanto o das áreas com 6 a 8 meses secos ocorre no outono e inverno na Bahia, e na primavera e verão nos demais Estados.",
+    "D": "A distribuição da umidade na região Nordeste tem estreita relação com o tipo de vegetação: nas áreas com 9 a 11 meses secos ocorre a vegetação de caatinga; nas áreas com 6 a 8 meses secos, a vegetação de cerrado."
+   }
+  }
+ ],
+ "complementos": {
+  "37": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "A energia cinética total é a soma das energias de todos os pássaros: $E = N \\cdot \\frac{m_p v_0^2}{2}$, e o número de pássaros vem do volume do cilindro vezes a densidade.\n\nVolume: $V = \\pi R_0^2 h \\approx 3 \\cdot (1{,}45 \\times 10^5)^2 \\cdot 100 \\approx 6{,}3 \\times 10^{12}\\ \\text{m}^3$.\n\nNúmero de pássaros: $N = d_p V = 6{,}0 \\times 10^{-7} \\cdot 6{,}3 \\times 10^{12} \\approx 3{,}8 \\times 10^6$.\n\nEnergia de cada pássaro: $\\frac{0{,}5 \\cdot 20^2}{2} = 100\\ \\text{J}$. Total: $E \\approx 3{,}8 \\times 10^6 \\cdot 100 = 3{,}8 \\times 10^8\\ \\text{J}$ (com $\\pi = 3{,}14$ dá cerca de $4 \\times 10^8\\ \\text{J}$; a alternativa mais próxima continua sendo a mesma).\n\n**Resposta: A**"
+  },
+  "38": {
+   "assunto": "Termologia",
+   "resolucao": "Todo o calor dissipado fica no chip e vira aumento de temperatura: $Q = m\\,c\\,\\Delta T$.\n\nCuidado com as unidades: $m = 2{,}0 \\times 10^{-6}\\ \\text{g} = 2{,}0 \\times 10^{-9}\\ \\text{kg}$ e $Q = 0{,}96\\ \\text{mJ} = 9{,}6 \\times 10^{-4}\\ \\text{J}$.\n\n$\\Delta T = \\frac{Q}{m\\,c} = \\frac{9{,}6 \\times 10^{-4}}{2{,}0 \\times 10^{-9} \\cdot 800} = \\frac{9{,}6 \\times 10^{-4}}{1{,}6 \\times 10^{-6}} = 600\\ ^\\circ\\text{C} = 6{,}0 \\times 10^2\\ ^\\circ\\text{C}$.\n\nQuem esquece de converter gramas para quilogramas encontra um valor mil vezes menor, fora das alternativas.\n\n**Resposta: C**"
+  },
+  "39": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Os trechos A e B estão em paralelo, ligados aos mesmos pontos, então os dois ficam sob a mesma tensão $U = 12\\ \\text{V}$.\n\nNo trecho A: $i_A = \\frac{U}{R_A} = \\frac{12}{24} = 0{,}5\\ \\text{A}$. Logo $i_B = 3 \\cdot 0{,}5 = 1{,}5\\ \\text{A}$.\n\nNo trecho B: $R_B = \\frac{U}{i_B} = \\frac{12}{1{,}5} = 8{,}0\\ \\Omega$. Como os resistores estão em série, $R_{B2} = 8{,}0 - 6{,}0 = 2{,}0\\ \\Omega$.\n\n**Resposta: A**"
+  },
+  "40": {
+   "assunto": "Ondulatória",
+   "resolucao": "Primeiro tiramos o comprimento de onda do diâmetro do feixe dado na figura e depois usamos $c = \\lambda f$.\n\n$d_{\\text{BR}} = 480\\ \\text{nm} \\approx 1{,}2\\,\\lambda_{\\text{BR}} \\Rightarrow \\lambda_{\\text{BR}} = \\frac{480}{1{,}2} = 400\\ \\text{nm} = 4{,}0 \\times 10^{-7}\\ \\text{m}$.\n\n$f = \\frac{c}{\\lambda} = \\frac{3{,}0 \\times 10^8}{4{,}0 \\times 10^{-7}} = 7{,}5 \\times 10^{14}\\ \\text{Hz}$.\n\nFaz sentido: 400 nm fica no limite do violeta/azul, a maior frequência entre os três leitores.\n\n**Resposta: D**"
+  },
+  "41": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "O fogo precisa de combustível, comburente (oxigênio) e calor; cada ação retira um desses lados do triângulo.\n\nA: retirar a palha que está queimando elimina o **combustível**, então o triângulo correto mostra só comburente e calor.\n\nB: cobrir a panela com o pano impede a chegada de oxigênio (abafamento), eliminando o **comburente**: sobram combustível e calor.\n\nC: o jato de água resfria o material abaixo da temperatura de ignição, eliminando o **calor**: sobram combustível e comburente.\n\nSó a alternativa D traz essa sequência de triângulos (sem combustível, sem comburente, sem calor).\n\n**Resposta: D**"
+  },
+  "42": {
+   "assunto": "Soluções",
+   "resolucao": "Para comparar custo/benefício, calcule quanto se paga por grama de princípio ativo (considerando densidade próxima de 1 g/mL, 1 L ≈ 1000 g).\n\nA: $0{,}45\\% \\cdot 1000\\ \\text{g} = 4{,}5\\ \\text{g}$; custo $\\frac{11{,}90}{4{,}5} \\approx$ R\\$ 2,64 por grama.\n\nB: $0{,}17\\% \\cdot 500\\ \\text{g} = 0{,}85\\ \\text{g}$; custo $\\frac{2{,}49}{0{,}85} \\approx$ R\\$ 2,93 por grama.\n\nC: $0{,}33\\% \\cdot 2000\\ \\text{g} = 6{,}6\\ \\text{g}$; custo $\\frac{5{,}19}{6{,}6} \\approx$ R\\$ 0,79 por grama.\n\nEm ordem crescente da razão custo/benefício: C < A < B. Repare que o produto B, o mais barato na prateleira, é o que entrega o princípio ativo mais caro.\n\n**Resposta: B**"
+  },
+  "43": {
+   "assunto": "Funções inorgânicas",
+   "resolucao": "O calcário ($\\text{CaCO}_3$) é um sal de caráter básico: ele neutraliza a acidez do solo, ou seja, a calagem é feita em solos **ácidos** e **aumenta o pH**. Isso já elimina B e C.\n\nO texto diz que, ao subir o pH, os elementos tóxicos (Al, Mn) ficam menos disponíveis e os essenciais (N, P, K) mais disponíveis.\n\nNo gráfico, as curvas C e D caem com o aumento do pH (comportamento de elemento tóxico), e as curvas A e B sobem na faixa de pH 5 a 6,5 (comportamento de elemento essencial).\n\nAssim, a curva B corresponde a um elemento essencial. A alternativa A erra ao dizer que a curva D, que decresce, seria de um elemento essencial.\n\n**Resposta: D**"
+  },
+  "44": {
+   "assunto": "Soluções",
+   "resolucao": "A ideia central é a propriedade coligativa: um soluto dissolvido na água abaixa a temperatura de congelamento, o que permite usar a solução como fluido refrigerante abaixo de 0 °C.\n\nA fermentação da cerveja é exotérmica e precisa ser resfriada; por isso o glicol em água estaria no sistema de **resfriamento**, o que descarta B e D.\n\nEtanol e sal de cozinha também abaixam o ponto de congelamento da água, mas a banca dá preferência ao soluto não volátil: a salmoura (NaCl em água) pode substituir o glicol, enquanto o etanol evapora com facilidade.\n\nA alternativa A erra ao excluir o sal de cozinha, que é justamente um soluto adequado e não tóxico.\n\n**Resposta: C**"
+  },
+  "45": {
+   "assunto": "Química ambiental",
+   "resolucao": "A produtividade (toneladas de grão por hectare) é a razão entre as duas grandezas do gráfico: $\\frac{\\text{kg/ha}}{\\text{kg/t}} = \\text{t/ha}$.\n\nEm 2004: $\\frac{120\\ \\text{kg/ha}}{38\\ \\text{kg/t}} \\approx 3{,}2\\ \\text{t/ha}$. Em 2009: $\\frac{172\\ \\text{kg/ha}}{28\\ \\text{kg/t}} \\approx 6{,}1\\ \\text{t/ha}$.\n\nA produtividade quase dobrou, e cada tonelada de grão passou a exigir menos fertilizante (de 38 para 28 kg/t). O uso do fertilizante ficou mais eficiente: influência positiva.\n\nA distratora mais tentadora é ler o aumento de kg/ha como uso \"negativo\"; mas o fertilizante aplicado por hectare cresce menos que a colheita.\n\n**Resposta: A**"
+  },
+  "46": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Compare a quantidade de $\\text{H}_2\\text{S}$ removida com a que a equação permite para 1,00 kg de $\\text{Fe}_2\\text{O}_3$.\n\nMassas molares: $\\text{Fe}_2\\text{O}_3 = 2 \\cdot 56 + 3 \\cdot 16 = 160\\ \\text{g/mol}$; $\\text{H}_2\\text{S} = 2 + 32 = 34\\ \\text{g/mol}$.\n\n$1000\\ \\text{g} \\div 160 = 6{,}25\\ \\text{mol}$ de óxido, que reagem com $3 \\cdot 6{,}25 = 18{,}75\\ \\text{mol}$ de $\\text{H}_2\\text{S}$, ou seja, $18{,}75 \\cdot 34 \\approx 638\\ \\text{g} = 0{,}638\\ \\text{kg}$.\n\nNa condição máxima foram removidos 0,716 kg, mais do que os 0,638 kg previstos. Não pode ter sobrado óxido (A e B) nem ter havido proporção exata (D).\n\n**Resposta: C**"
+  },
+  "47": {
+   "assunto": "Gases",
+   "resolucao": "O cilindro não esvazia totalmente: o gás só sai enquanto a pressão interna for maior que a externa (1 atm). No fim, sobram 50 L de gás (o volume do cilindro) a 1 atm.\n\nGás disponível, medido a 1 atm: $10\\ \\text{m}^3 = 10\\,000\\ \\text{L}$, dos quais ficam 50 L. Saem $10\\,000 - 50 = 9\\,950\\ \\text{L}$.\n\nNa vazão máxima de 10 L/min: $\\frac{9\\,950}{10} = 995\\ \\text{min} \\approx 16{,}6\\ \\text{h} \\approx 17\\ \\text{h}$.\n\nAs alternativas com 33 h usam a vazão mínima, e as que falam em 0 L ou 0 atm ignoram que o gás não sai abaixo da pressão ambiente.\n\n**Resposta: A**"
+  },
+  "48": {
+   "assunto": "Química ambiental",
+   "resolucao": "Balanço do concreto convencional: emite $439\\ \\text{kg CO}_2/\\text{m}^3$.\n\nBalanço do novo concreto: emite 182 e absorve 195, resultado $182 - 195 = -13\\ \\text{kg CO}_2/\\text{m}^3$.\n\nDiferença: $439 - (-13) = 452\\ \\text{kg}$ por metro cúbico. Quem faz $439 - 182 = 257$ esquece a absorção.\n\nOs testes com $\\text{NO}_x$ e $\\text{SO}_x$ se explicam porque o endurecimento pode ser acelerado com o gás capturado de uma usina térmica, que contém esses óxidos; o texto diz que eles podem reduzir a absorção de $\\text{CO}_2$, ou seja, interferem no **processo de endurecimento**, não na produção de cimento (o material nem usa cimento).\n\n**Resposta: B**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 41,
+   "status": "corrigida",
+   "notas": "descrição da figura das ações dos bombeiros dizia \"abafamento\" na cena B, interpretação que antecipa a resposta (comburente); trocada por descrição do que se vê"
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "corrigida",
+   "notas": "descrição do gráfico só dizia que havia quatro curvas; incluída a forma de cada curva, necessária para quem usa leitor de tela"
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 45,
+   "status": "corrigida",
+   "notas": "materias_extra tinha biologia, mas a questão só exige leitura das razões do gráfico; removida"
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 49,
+   "status": "corrigida",
+   "notas": "descrição do heredograma era genérica; incluída a composição de cada geração (sexo e afetados), necessária para quem usa leitor de tela"
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 54,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 59,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 60,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "corrigida",
+   "notas": "referência: o itálico ia até \"O novo urbanismo militar\"; no caderno só \"Cidades sitiadas\" está em itálico"
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "corrigida",
+   "notas": "materias_extra tinha biologia; o conteúdo de vegetação cobrado é de geografia (biomas); removida"
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
