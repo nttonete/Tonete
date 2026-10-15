@@ -183,6 +183,38 @@
    }
   },
   {
+   "id": "unesp-2020-1",
+   "vestibular": "unesp",
+   "ano": 2020,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "VERSAO1",
+   "nome": "UNESP (VUNESP) 2020 – 1ª fase",
+   "tabela_periodica": "img/tabela-periodica/unesp-2020-1.webp",
+   "fonte": {
+    "caderno": "UNESP_2020_1Fase.pdf",
+    "gabarito": "UNESP_2020_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unesp-2020-1.json",
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
+   "materias": {
+    "portugues": 10,
+    "historia": 12,
+    "literatura": 6,
+    "geografia": 8,
+    "artes": 2,
+    "ingles": 10,
+    "filosofia": 7,
+    "sociologia": 4,
+    "biologia": 11,
+    "quimica": 8,
+    "fisica": 5,
+    "matematica": 7
+   }
+  },
+  {
    "id": "unesp-2021-1",
    "vestibular": "unesp",
    "ano": 2021,

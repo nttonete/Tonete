@@ -325,6 +325,167 @@
         "E": "4 000 m."
       },
       "observacoes": ""
+    },
+    {
+      "numero": 81,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A sensibilidade visual de humanos e animais encontra-se dentro de uma estreita faixa do espectro da radiação eletromagnética, com comprimentos de onda entre 380 nm e 760 nm. É notável que os vegetais também reajam à radiação dentro desse mesmo intervalo, incluindo a fotossíntese e o crescimento fototrópico. A razão para a importância dessa estreita faixa de radiação eletromagnética é o fato de a energia carregada por um fóton ser inversamente proporcional ao comprimento de onda. Assim, os comprimentos de onda mais longos não carregam energia suficiente em cada fóton para produzir um efeito fotoquímico apreciável, e os mais curtos carregam energia em quantidade que danifica os materiais orgânicos.\n\n(Knut Schmidt-Nielsen. *Fisiologia animal: adaptação e meio ambiente*, 2002. Adaptado.)\n\nA tabela apresenta o comprimento de onda de algumas cores do espectro da luz visível:\n\n| Cor | Comprimento de onda (nm) |\n|---|---|\n| Azul | 450 – 495 |\n| Verde | 495 – 570 |\n| Amarela | 570 – 590 |\n| Laranja | 590 – 620 |\n| Vermelha | 620 – 750 |\n\nSabendo que a energia carregada por um fóton de frequência $f$ é dada por $E = h \\times f$, em que $h = 6{,}6 \\times 10^{-34}\\ \\text{J} \\cdot \\text{s}$, que a velocidade da luz é aproximadamente $c = 3 \\times 10^8\\ \\text{m/s}$ e que $1\\ \\text{nm} = 10^{-9}\\ \\text{m}$, a cor da luz cujos fótons carregam uma quantidade de energia correspondente a $3{,}96 \\times 10^{-19}\\ \\text{J}$ é",
+      "alternativas": {
+        "A": "azul.",
+        "B": "verde.",
+        "C": "amarela.",
+        "D": "laranja.",
+        "E": "vermelha."
+      },
+      "observacoes": "Na tabela do caderno cada nome de cor está sobre um fundo da própria cor; a transcrição guarda só os nomes e os valores."
+    },
+    {
+      "numero": 82,
+      "materia": "fisica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "Na maioria dos peixes elétricos as descargas são produzidas por órgãos elétricos constituídos por células, chamadas eletroplacas, empilhadas em colunas. Suponha que cada eletroplaca se comporte como um gerador ideal.\n\n![símbolo de uma eletroplaca (representação de uma pilha), com a legenda: Representação de uma eletroplaca](fig:p28-c1)\n\nSuponha que o sistema elétrico de um poraquê, peixe elétrico de água doce, seja constituído de uma coluna com 5 000 eletroplacas associadas em série, produzindo uma força eletromotriz total de 600 V.\n\n![fotografia de um poraquê com o símbolo das eletroplacas desenhado em série ao longo do corpo](fig:p28-f1)\n\n(https://hypescience.com. Adaptado.)\n\nConsidere que uma raia-torpedo, que vive na água do mar, possua um sistema elétrico formado por uma associação em paralelo de várias colunas, cada uma com 750 eletroplacas iguais às do poraquê, ligadas em série, constituindo mais da metade da massa corporal desse peixe.\n\n![desenho de uma raia-torpedo com várias colunas de eletroplacas associadas em paralelo, cada coluna com 750 eletroplacas](fig:p28-f2)\n\n(www.megatimes.com.br. Adaptado.)\n\nDesconsiderando perdas internas, se em uma descarga a raia-torpedo conseguir produzir uma corrente elétrica total de 50 A durante um curto intervalo de tempo, a potência elétrica gerada por ela, nesse intervalo de tempo, será de",
+      "alternativas": {
+        "A": "3 500 W.",
+        "B": "3 000 W.",
+        "C": "2 500 W.",
+        "D": "4 500 W.",
+        "E": "4 000 W."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 83,
+      "materia": "matematica",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "De acordo com levantamento realizado de janeiro a outubro de 2018, o Brasil apareceu em primeiro lugar como o país em que cada habitante mais recebeu chamadas telefônicas spam, que incluem ligações indesejadas de telemarketing, trotes e golpes. A tabela mostra o número médio de chamadas spam recebidas mensalmente por usuário no Brasil e em outros países.\n\n| Colocação | País | Nº médio de ligações spam mensal por usuário |\n|---|---|---|\n| 1º | Brasil | 37,5 |\n| 2º | Índia | 22,3 |\n| 3º | Chile | 21,9 |\n| 4º | África do Sul | 21,0 |\n| 5º | México | 20,9 |\n| 6º | Peru | 19,8 |\n| 7º | Costa Rica | 18,6 |\n| 8º | Estados Unidos | 16,9 |\n| 9º | Grécia | 13,1 |\n| 10º | Espanha | 12,5 |\n\n(Mariana Alvim. “Quem me liga? Como ligações telefônicas de robôs se tornaram um problema mundial”. www.bbc.com, 13.04.2019. Adaptado.)\n\nA diferença entre o número médio de chamadas spam recebidas mensalmente por usuário no Brasil e a média aritmética do número médio de chamadas spam recebidas mensalmente por usuário nos demais países da América Latina apresentados na tabela é igual a",
+      "alternativas": {
+        "A": "17,2.",
+        "B": "17,4.",
+        "C": "16,7.",
+        "D": "16,6.",
+        "E": "17,9."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 84,
+      "materia": "quimica",
+      "materias_extra": [
+        "historia",
+        "matematica"
+      ],
+      "texto_base": null,
+      "enunciado": "Estudos sobre modelos atômicos foram fundamentais para o desenvolvimento da Química como ciência. Por volta de 450 a.C., os filósofos gregos Leucipo e Demócrito construíram a hipótese de que o mundo e, em consequência, a matéria eram constituídos a partir de unidades idênticas e indivisíveis, chamadas átomos. Contudo, foi somente a partir do século XIX que a realização de experimentos tornou possível a comprovação de hipóteses desenvolvidas ao longo do tempo. Um dos primeiros modelos aceitos foi criado por John Dalton, apresentado em um livro de sua autoria, publicado em 1808. Anos depois, outros dois principais modelos foram desenvolvidos, até que, em 1913, o físico Niels Bohr publicou um livro com sua teoria sobre o modelo atômico.\n\nTomando como referência as datas de publicação dos trabalhos de Dalton e de Bohr, a linha do tempo que apresenta os fatos históricos do desenvolvimento do modelo atômico, com espaço proporcional à distância de tempo entre eles, é:",
+      "alternativas": {
+        "A": "![Alternativa A: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f1)",
+        "B": "![Alternativa B: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f2)",
+        "C": "![Alternativa C: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f3)",
+        "D": "![Alternativa D: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f4)",
+        "E": "![Alternativa E: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f5)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 85,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A Companhia de Engenharia de Tráfego (CET) divulgou um estudo apresentando a mobilidade no sistema viário da cidade de São Paulo. Um dos resultados desse estudo consiste na comparação da velocidade média do tráfego geral, em um importante conjunto de vias, no sentido bairro-centro (BC) e no sentido centro-bairro (CB), nos horários de pico dos períodos da manhã e da tarde, de 2013 a 2017. O gráfico apresenta esse comparativo:\n\n![gráfico de linhas da velocidade média, em km/h, de 2013 a 2017, para quatro séries: BC – Manhã, CB – Manhã, BC – Tarde e CB – Tarde, com os valores marcados em cada ponto](fig:p29-f6)\n\n(CET: *Mobilidade no Sistema Viário Principal – MSVP*, 2017. www.cetsp.com.br, julho de 2018. Adaptado.)\n\nDe acordo com o gráfico, em apenas um dos sentidos e em um determinado período foram registradas seguidas reduções anuais no tempo médio de deslocamento ao longo das vias. Comparando 2017 com 2013, a redução do tempo de deslocamento nessas vias, em porcentagem, é de, aproximadamente,",
+      "alternativas": {
+        "A": "12,9%.",
+        "B": "5,1%.",
+        "C": "21,7%.",
+        "D": "1,8%.",
+        "E": "27,7%."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 86,
+      "materia": "matematica",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "Uma cidade tem sua área territorial dividida em quatro regiões. O esquema apresenta, de modo simplificado, a área territorial e a densidade populacional dessas quatro regiões:\n\n![gráfico de pontos com a área no eixo horizontal e a densidade populacional no eixo vertical, com um ponto para cada região (Norte, Sul, Leste e Oeste)](fig:p30-f1)\n\nA participação das populações dessas regiões na população total da cidade é:",
+      "alternativas": {
+        "A": "![Alternativa A: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f2)",
+        "B": "![Alternativa B: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f3)",
+        "C": "![Alternativa C: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f4)",
+        "D": "![Alternativa D: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f5)",
+        "E": "![Alternativa E: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f6)"
+      },
+      "observacoes": "Alternativas são pictogramas coloridos (a cor indica a região, conforme a legenda do gráfico do enunciado); mantidas como figuras."
+    },
+    {
+      "numero": 87,
+      "materia": "matematica",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "O quilate do ouro é a razão entre a massa de ouro presente e a massa total da peça, multiplicada por 24. Por exemplo, uma amostra com 18 partes em massa de ouro e 6 partes em massa de outro metal (ou liga metálica) é um ouro de 18 quilates.\n\nAssim, um objeto de ouro de 18 quilates tem $\\frac{3}{4}$ de ouro e $\\frac{1}{4}$ de outro metal em massa.\n\nO ouro é utilizado na confecção de muitos objetos, inclusive em premiações esportivas. A taça da copa do mundo de futebol masculino é um exemplo desses objetos.\n\nA FIFA declara que a taça da copa do mundo de futebol masculino é maciça (sem nenhuma parte oca) e sua massa é de pouco mais de 6 kg. Acontece que, se a taça fosse mesmo de ouro e maciça, ela pesaria mais do que o informado.\n\n(“O peso da taça”. https://ipemsp.wordpress.com. Adaptado.)\n\nConsidere que a taça seja feita apenas com ouro 18 quilates, cuja composição é de ouro com densidade $19{,}3\\ \\text{g/cm}^3$ e uma liga metálica com densidade $6{,}1\\ \\text{g/cm}^3$, e que o volume da taça é similar ao de um cilindro reto com 5 cm de raio e 36 cm de altura.\n\nUtilizando $\\pi = 3$, se a taça fosse maciça, sua massa teria um valor entre",
+      "alternativas": {
+        "A": "30 kg e 35 kg.",
+        "B": "15 kg e 20 kg.",
+        "C": "40 kg e 45 kg.",
+        "D": "10 kg e 15 kg.",
+        "E": "20 kg e 25 kg."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 88,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma das finalidades da Ciência Forense é auxiliar nas investigações relativas à justiça civil ou criminal. Observe uma ideia que pode ser empregada na análise de uma cena de crime.\n\nUma gota de sangue que cai perfeitamente na vertical, formando um ângulo de 90º com a horizontal, deixa uma mancha redonda. À medida que o ângulo de impacto com a horizontal diminui, a mancha fica cada vez mais longa.\n\nAs ilustrações mostram o alongamento da gota de sangue e a relação trigonométrica envolvendo o ângulo de impacto e suas dimensões.\n\n![ilustração intitulada Alongamento da gota de sangue, com o ângulo de impacto da gota de sangue sobre uma superfície horizontal e a mancha alongada resultante](fig:p31-c1)\n\n![ilustração intitulada Relação trigonométrica, com a gota de sangue, a largura e o comprimento da mancha e o ângulo do impacto](fig:p31-c2)\n\n(Ana Paula Sebastiany *et al.* “A utilização da Ciência Forense e da Investigação Criminal como estratégia didática na compreensão de conceitos científicos”. *Didáctica de la Química*, 2013. Adaptado.)\n\nConsidere a coleta de uma amostra de gota de sangue e a tabela trigonométrica apresentadas a seguir.\n\n![mancha de sangue desenhada sobre uma malha quadriculada, com a largura em centímetros no eixo horizontal (de 0 a 3) e o comprimento em centímetros no eixo vertical (de 0 a 4)](fig:p31-f3)\n\n| $\\alpha$ | $\\text{sen}\\ \\alpha$ | $\\cos \\alpha$ | $\\text{tg}\\ \\alpha$ |\n|---|---|---|---|\n| 31º | 0,51 | 0,85 | 0,60 |\n| 37º | 0,60 | 0,80 | 0,75 |\n| 53º | 0,80 | 0,60 | 1,32 |\n| 59º | 0,85 | 0,51 | 1,66 |\n| 74º | 0,96 | 0,28 | 3,50 |\n\nDe acordo com as informações, o ângulo de impacto da gota de sangue coletada na amostra foi de",
+      "alternativas": {
+        "A": "37º",
+        "B": "74º",
+        "C": "59º",
+        "D": "53º",
+        "E": "31º"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 89,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em seu artigo “Sal, saúde e doença”, o médico cancerologista Dráuzio Varella aponta que o Ministério da Saúde recomenda que a ingestão diária de sal não ultrapasse 5 g, quantidade muito abaixo dos 12 g, que é a média que o brasileiro ingere todos os dias. Essa recomendação do Ministério da Saúde é a meta que a Organização Mundial da Saúde estabeleceu para até 2025. Além disso, o ministério estima que, para cada grama de sal reduzido na ingestão diária, o SUS economizaria R\\$ 3,2 milhões por ano.\n\n(Dados extraídos de: “Sal, saúde e doença”. https://drauziovarella.uol.com.br, 24.05.2019. Adaptado.)\n\nConsidere que a ingestão média diária de sal no Brasil reduza-se de 12 g, em 2019, para 5 g, em 2025, de forma linear, ano a ano. Nesse cenário, o SUS economizaria, até o final do ano de 2025, um valor entre",
+      "alternativas": {
+        "A": "R\\$ 65 milhões e R\\$ 70 milhões.",
+        "B": "R\\$ 75 milhões e R\\$ 80 milhões.",
+        "C": "R\\$ 15 milhões e R\\$ 20 milhões.",
+        "D": "R\\$ 20 milhões e R\\$ 25 milhões.",
+        "E": "R\\$ 55 milhões e R\\$ 60 milhões."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 90,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere os polinômios $p(x) = \\begin{vmatrix} x & 1 & 0 \\\\ 2 & x & -1 \\\\ m & x & x \\end{vmatrix}$ e $q(x) = \\begin{vmatrix} 1 & 3 \\\\ 1 & x \\end{vmatrix}$.\n\nPara que $p(x)$ seja divisível por $q(x)$, é necessário que $m$ seja igual a",
+      "alternativas": {
+        "A": "30.",
+        "B": "12.",
+        "C": "– 12.",
+        "D": "– 3.",
+        "E": "– 30."
+      },
+      "observacoes": ""
     }
   ]
 }
