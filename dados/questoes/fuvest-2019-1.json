@@ -656,7 +656,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "A ideia central é que o $\\text{CO}_2$ dissolvido torna a água do mar mais ácida, e o meio ácido ataca o carbonato de cálcio ($\\text{CaCO}_3$) do esqueleto dos corais.\n\nO gás reage com a água: $\\text{CO}_2 + \\text{H}_2\\text{O} \\rightarrow \\text{H}_2\\text{CO}_3$. O ácido carbônico libera íons $\\text{H}^+$, o pH cai, e o carbonato de cálcio dos recifes é dissolvido (\"corroído\"). Essa é a explicação da alternativa E.\n\nA alternativa C é a distratora mais tentadora, mas descreve a química de forma incoerente: se os íons $\\text{H}^+$ e carbonato vindos do próprio ácido se ligassem entre si, só desfariam a dissociação, sem efeito sobre os recifes. A diminui o pH com menos $\\text{H}^+$ (contradição), e B e D falam de oxigênio, que não tem relação com a acidificação.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q32",
@@ -674,7 +676,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "Cada característica deve estar presente em todos os animais acima do ponto em que aparece no esquema e ausente nos que ficam abaixo.\n\nI separa a estrela-do-mar dos vertebrados: notocorda. II separa a tainha dos tetrápodes (sapo em diante): pulmão. III separa o sapo dos amniotas: âmnio. IV fica só no tamanduá: pelo. V une crocodilo e tico-tico: ovo com casca.\n\nA alternativa D erra em III (o sapo já tem pulmão) e em V (crocodilo não tem pena); E coloca âmnio na base, mas a tainha e o sapo não têm âmnio.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q33",
@@ -692,7 +696,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "Doença autossômica recessiva: afetado é $aa$.\n\nIII2 é filha de mãe afetada (II3, $aa$), então recebeu obrigatoriamente um $a$; como é normal, é $Aa$ com certeza. III3 não tem ascendência mostrada, então vale a frequência da população: chance de ser $Aa$ igual a $\\frac{1}{50}$.\n\nPara o menino ser $aa$: $1 \\cdot \\frac{1}{50} \\cdot \\frac{1}{4} = \\frac{1}{200}$. O fato de ser menino não muda nada, pois a herança é autossômica.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q34",
@@ -710,7 +716,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "A queda da cobertura vacinal no Brasil desde 2013 está ligada, entre outros fatores, aos movimentos antivacinação, e as vacinas citadas são oferecidas de graça pelo SUS (o que elimina D).\n\nA vacina é imunização **ativa**: introduz antígenos (agente morto, atenuado ou partes dele) em pessoas saudáveis, para que o próprio organismo produza anticorpos e células de memória. Ela previne, não cura.\n\nA e E confundem vacina com soro (anticorpos prontos, imunidade passiva); B e D tratam a vacina como cura de pessoas doentes.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q35",
@@ -728,7 +736,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "resolucao": "O hidrônio se forma quando a água recebe um $\\text{H}^+$: $\\text{H}_2\\text{O} + \\text{HCl} \\rightarrow \\text{H}_3\\text{O}^+ + \\text{Cl}^-$.\n\nO oxigênio da água tem dois pares de elétrons não ligantes; um deles é usado na ligação com o $\\text{H}^+$. Fica, portanto, $\\text{H}_3\\text{O}^+$ com três ligações O–H e **um** par não ligante, com carga $+$, como na estrutura A.\n\nB é só o próton; C não tem carga nem par livre; D tem um só hidrogênio; E mostra dois pares livres, o que daria um total de elétrons errado.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q36",
@@ -746,7 +756,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "A ideia é achar o volume da amostra pela água que ela desloca.\n\nSe a amostra não ocupasse lugar, a massa final seria $350{,}0 + 44{,}0 = 394{,}0\\ \\text{g}$. Foi $389{,}0\\ \\text{g}$, então saíram $5{,}0\\ \\text{g}$ de água, ou seja, $5{,}0\\ \\text{cm}^3$ (densidade da água $1{,}0\\ \\text{g/cm}^3$).\n\nDensidade da amostra: $d = \\frac{44{,}0}{5{,}0} = 8{,}8\\ \\text{g/cm}^3$, que é a do bronze.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q37",
@@ -764,7 +776,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Cinética química",
+   "resolucao": "Compare os tempos em pares.\n\nCom gás ou sem gás, à mesma temperatura, os tempos quase não mudam (36 s e 35 s; 53 s e 55 s): o gás carbônico dissolvido não teve efeito relevante, o que elimina A e B.\n\nJá de 4 °C para 25 °C o tempo cai de cerca de 54 s para cerca de 35 s: a reação ficou mais rápida. O motivo é cinético: com temperatura maior, as partículas colidem com mais frequência e com mais energia, e mais choques são efetivos.\n\nE está errada porque não se trata de deslocar equilíbrio (deslocar para os reagentes nem explicaria uma reação mais rápida); C contradiz os dados.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q38",
@@ -782,7 +796,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "Na reação $2\\ \\text{Li} + \\text{FeS}_2 \\rightarrow \\text{Li}_2\\text{FeS}_2$, o lítio passa de 0 (metal) para $+1$ no produto: perde elétrons, ou seja, é oxidado.\n\nQuem se oxida é o ânodo, não o cátodo (C errada); o ferro não é oxidado (B errada); a descarga consome o lítio metálico em vez de formá-lo (D errada). E também é falsa: se os reagentes estivessem em contato direto, os elétrons não passariam pelo circuito externo e a bateria não geraria corrente útil; por isso há um separador.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q39",
@@ -802,7 +818,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Três aminoácidos diferentes podem ser ordenados de $3! = 6$ maneiras, o que elimina A e B.\n\nA carboxipeptidase solta o aminoácido da ponta com $-\\text{COOH}$ livre: saiu fenilalanina, então ela é a última. A aminopeptidase solta o aminoácido da ponta com $-\\text{NH}_2$ livre: saiu glicina, então ela é a primeira. A sequência é glicina–lisina–fenilalanina.\n\nA estrutura da alternativa C começa em $\\text{H}_2\\text{N}-\\text{CH}_2-$ (glicina), tem no meio a cadeia lateral da lisina e termina na fenilalanina com $-\\text{COOH}$. D e E mostram outras ordens.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q40",
@@ -820,7 +838,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "Em M e X há sólido (retângulos) no fundo em contato com a solução: são soluções **saturadas** de **ácido maleico** (o soluto, sólido nessas temperaturas) em acetona. Em X, a $-78\\ ^\\circ\\text{C}$, há mais sólido no fundo, logo a solubilidade **diminui** com o resfriamento.\n\nA filtração só retira o sólido, sem perda de solvente: a concentração da solução não muda de M para N nem de X para Y (**iguais**).\n\nAs moléculas de ácido maleico aparecem **dissolvidas** na solução ou no estado **sólido** (fundo dos recipientes e resíduo após a destilação). Não podem estar líquidas, pois ele funde a 138 °C, o que elimina E.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q41",
@@ -838,7 +858,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "resolucao": "A temperatura de ebulição cresce com o tamanho da molécula, porque as interações de London ficam mais intensas.\n\nAssim, para cada série a temperatura de ebulição aumenta com $n$ (elimina A e D). Comparando os halogênios, F é o menor e mais leve e I o maior e mais polarizável: os fluoretos fervem abaixo dos brometos e os iodetos acima deles.\n\nNo gráfico dado, os brometos vão de cerca de 0 °C ($n = 1$) a cerca de 130 °C ($n = 5$). Em E, os iodetos (•) ficam acima disso (cerca de 40 °C a 155 °C) e os fluoretos (□) abaixo. Em B os iodetos ficam abaixo dos brometos, e em C a ordem está trocada.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q42",
@@ -856,7 +878,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "O aumento de massa é o oxigênio incorporado: $1{,}20\\ \\text{g}$ de $\\text{O}_2$.\n\n$n(\\text{O}_2) = \\frac{1{,}20}{32} = 0{,}0375\\ \\text{mol}$. Pela equação, 1 mol de cinamaldeído reage com $\\frac{1}{2}$ mol de $\\text{O}_2$, então reagiram $2 \\cdot 0{,}0375 = 0{,}075\\ \\text{mol}$ de cinamaldeído.\n\nMassa oxidada: $0{,}075 \\cdot 132 = 9{,}90\\ \\text{g}$. Porcentagem: $\\frac{9{,}90}{19{,}80} = 50\\%$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q43",
@@ -874,7 +898,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "Os líquidos têm volume definido e forma variável: assumem a forma do recipiente. As fotos mostram gatos \"ocupando\" copos, pias, potes e calhas, como se tomassem a forma de cada um, e daí vem a piada.\n\nD inverte a propriedade: líquidos são praticamente incompressíveis e não mantêm a forma. A, C e E citam propriedades que nem valem para todos os líquidos nem têm relação com as fotos.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q44",
@@ -892,7 +918,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Na polimerização por adição, cada ligação dupla que reage vira ligação simples na cadeia. Basta \"recortar\" o polímero nos monômeros.\n\nA cadeia do EPDM tem trechos $-\\text{CH}_2-\\text{CH}_2-$ (vindos do eteno), trechos com ramificação metil (vindos do propeno) e o biciclo do norborneno, cuja dupla do anel entrou na cadeia, mantendo a dupla externa do grupo etilideno ($=\\text{CH}-\\text{CH}_3$) ligada ao anel.\n\nOs monômeros são, portanto, propeno, eteno e etilideno-norborneno (alternativa D). E traz um grupo vinil ($-\\text{CH}=\\text{CH}_2$) no lugar do etilideno; A e C trazem buteno, que não aparece na cadeia.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q45",
@@ -912,7 +940,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "A região A, que acumula amido para nutrir o embrião, é o endosperma (xilema é tecido de condução). Isso elimina B, C, D e E.\n\nConferindo a pressão: a água em vapor é $9\\%$ de $4{,}5\\ \\text{mg}$, ou $0{,}405\\ \\text{mg}$. Então $n = \\frac{0{,}405 \\cdot 10^{-3}}{18} = 2{,}25 \\cdot 10^{-5}\\ \\text{mol}$, e $T = 177 + 273 = 450\\ \\text{K}$.\n\n$P = \\frac{nRT}{V} = \\frac{2{,}25 \\cdot 10^{-5} \\cdot 0{,}082 \\cdot 450}{0{,}1 \\cdot 10^{-3}} \\approx 8{,}3\\ \\text{atm}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q46",
@@ -930,7 +960,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Polinômios e equações",
+   "resolucao": "Sejam $m$ o número de filhas e $h$ o de filhos.\n\nCada filha tem $m - 1$ irmãs e $h$ irmãos: $m - 1 = \\frac{h}{2}$. Cada filho tem $h - 1$ irmãos e $m$ irmãs: $h - 1 = m$.\n\nSubstituindo $h = m + 1$: $m - 1 = \\frac{m + 1}{2} \\Rightarrow 2m - 2 = m + 1 \\Rightarrow m = 3$ e $h = 4$. O total é $3 + 4 = 7$.\n\nO erro comum é esquecer que a pessoa não conta como irmã de si mesma.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q47",
@@ -948,7 +980,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Basta calcular $f(f(x))$:\n\n$f(f(x)) = \\dfrac{2 \\cdot \\frac{2x+1}{x-2} + 1}{\\frac{2x+1}{x-2} - 2} = \\dfrac{\\frac{4x + 2 + x - 2}{x-2}}{\\frac{2x + 1 - 2x + 4}{x-2}} = \\dfrac{5x}{5} = x$.\n\nOu seja, $f$ é a sua própria inversa, e $g(x) = x$.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q48",
@@ -966,7 +1000,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Se a reta horizontal $y = 2$ toca a parábola em um único ponto, esse ponto é o vértice: $V = (2; 2)$.\n\nEntão $f(x) = a(x - 2)^2 + 2$. Como $f(0) = -6$: $4a + 2 = -6 \\Rightarrow a = -2$.\n\nNote que $a + b + c = f(1) = -2(1 - 2)^2 + 2 = 0$.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q49",
@@ -984,7 +1020,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Confira cada trecho da fala nos gráficos.\n\nAté o 3º mês, crescimento aproximadamente linear desde o início; logo depois, queda brusca para a **metade** do valor atingido; o valor do 3º mês é alcançado de novo um mês e meio após a queda; no 10º mês, estabilização em um patamar **50% acima** do valor do 3º mês.\n\nEm E, o faturamento sobe em linha reta até 4 unidades no 3º mês, cai para 2 logo depois, volta a 4 por volta do 5º mês e se estabiliza perto de 6 ($= 1{,}5 \\cdot 4$).\n\nA cai a zero, B termina abaixo do valor do 3º mês, C não cai à metade e D não tem crescimento constante no início.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q50",
@@ -1002,7 +1040,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Na 1ª operação há 1 folha; em cada operação seguinte o total dobra (coloca-se o mesmo tanto que já havia). Depois de 33 operações há $2^{32}$ folhas.\n\n$2^{32} = 2^{2} \\cdot (2^{10})^3 \\approx 4 \\cdot 10^9$ folhas. Altura: $4 \\cdot 10^9 \\cdot 0{,}1\\ \\text{mm} = 4 \\cdot 10^8\\ \\text{mm} = 400\\ \\text{km}$ (o valor exato é cerca de 429 km).\n\nIsso é da ordem da distância entre São Paulo e Rio de Janeiro (cerca de 400 km). A Av. Paulista tem menos de 3 km e o diâmetro da Terra é de quase 13 mil km.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q51",
@@ -1020,7 +1060,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "resolucao": "Pense a escada como uma soma de colunas: o 1º degrau é um bloco de altura 10 cm, o 2º de altura 20 cm, e assim por diante, todos com base de $20\\ \\text{cm} \\times 50\\ \\text{cm}$.\n\nVolume do degrau $k$: $20 \\cdot 50 \\cdot 10k = 10\\,000k\\ \\text{cm}^3$.\n\nCom 20 degraus: $10\\,000 \\cdot (1 + 2 + \\dots + 20) = 10\\,000 \\cdot 210 = 2\\,100\\,000\\ \\text{cm}^3 = 2{,}1\\ \\text{m}^3$ (pois $1\\ \\text{m}^3 = 10^6\\ \\text{cm}^3$).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q52",
@@ -1038,7 +1080,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "resolucao": "Pela figura, A e B estão no topo da parede do prédio mais alto (80 m), e C e D no topo da parede do mais baixo (60 m). Assim, AB = 28 m e CD = 20 m são horizontais e paralelos: a lona é um trapézio.\n\nA altura do trapézio é a distância entre as retas AB e CD: elas estão afastadas 15 m na horizontal e $80 - 60 = 20$ m na vertical, logo $h = \\sqrt{15^2 + 20^2} = 25\\ \\text{m}$.\n\nÁrea: $\\frac{(28 + 20) \\cdot 25}{2} = 24 \\cdot 25 = 600\\ \\text{m}^2$.\n\nUsar 15 m como altura (esquecendo o desnível) daria 360 m², a alternativa B.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q53",
@@ -1056,7 +1100,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Escreva tudo como um único logaritmo de base 2.\n\n$-\\frac{1}{2} = \\log_2 2^{-1/2}$ e $\\frac{2}{3}\\log_2 x = \\log_2 x^{2/3}$. Então $\\log_2 y = \\log_2 \\left(2^{-1/2} \\cdot x^{2/3}\\right)$.\n\nLogo $y = \\frac{x^{2/3}}{2^{1/2}} = \\frac{\\sqrt[3]{x^2}}{\\sqrt{2}}$.\n\nC é a armadilha de \"tirar o log\" de cada parcela separadamente, o que não vale.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q54",
@@ -1074,7 +1120,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "O ângulo reto está em A, com $AB = 1$ e hipotenusa $BC = 2$; então $\\sin \\hat{C} = \\frac{1}{2}$, $\\hat{C} = 30^\\circ$ e $\\hat{B} = 60^\\circ$.\n\n1ª rotação, em torno de C, até A tocar o solo: o triângulo gira $180^\\circ - 30^\\circ = 150^\\circ$. B descreve um arco de raio $CB = 2$: $2 \\cdot \\frac{5\\pi}{6} = \\frac{5\\pi}{3}$.\n\n2ª rotação, em torno de A, até B tocar o solo: gira $180^\\circ - 90^\\circ = 90^\\circ$; arco de raio $AB = 1$: $\\frac{\\pi}{2}$.\n\n3ª rotação, em torno de B, até C tocar o solo: B é o pivô e não se move. Aí BC volta ao solo.\n\nTotal: $\\frac{5\\pi}{3} + \\frac{\\pi}{2} = \\frac{13\\pi}{6}$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q55",
@@ -1092,7 +1140,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Há $3^5 = 243$ sequências igualmente prováveis. Para voltar ao zero, o número de passos à direita (D) deve ser igual ao de passos à esquerda (E); o resto são paradas (P).\n\n0 pares: PPPPP, 1 sequência. 1 par: $\\frac{5!}{1!\\,1!\\,3!} = 20$. 2 pares: $\\frac{5!}{2!\\,2!\\,1!} = 30$.\n\nTotal favorável: $1 + 20 + 30 = 51$. Probabilidade: $\\frac{51}{243} = \\frac{17}{81}$.\n\nA alternativa D usa 125 no denominador, que não corresponde ao total de sequências.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q56",
@@ -1110,7 +1160,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Estatística",
+   "resolucao": "No gráfico original, os índices andam em sentidos opostos: quando o índice 1 está baixo (cerca de 0,85 a 0,9, no início), o índice 2 está alto (cerca de 1,1); quando o índice 1 chega perto de 1,15 a 1,2, o índice 2 cai até cerca de 0,75 a 0,8.\n\nEssa relação inversa aparece, no gráfico $(x_i, y_i)$, como uma nuvem de pontos descendente: do canto superior esquerdo para o inferior direito, com $x$ entre 0,8 e 1,2. É a alternativa B.\n\nC mostraria correlação positiva; D e E, relações em \"U\" e em \"U invertido\" que não existem nos dados.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q57",
@@ -1118,7 +1170,7 @@
    "materia": "portugues",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Examine o cartum.\n\n![Cartum de Adão Iturrusgarai: uma personagem segura um martelo diante de uma caixa na parede com a inscrição “Em caso de emergência quebre a cara”](fig:p17-f7)\n\nITURRUSGARAI, Adão. A vida como ela yeah. **Folha de S. Paulo**, ago.2018.\n\nO efeito de humor que se obtém no cartum decorre, principalmente,",
+   "enunciado": "Examine o cartum.\n\n![Cartum de Adão Iturrusgarai: um homem sorridente ergue, à altura da cabeça, um martelo preso por um fio a uma caixa de emergência com vidro, na qual está escrito “EM CASO DE EMERGÊNCIA QUEBRE A CARA”](fig:p17-f7)\n\nITURRUSGARAI, Adão. A vida como ela yeah. **Folha de S. Paulo**, ago.2018.\n\nO efeito de humor que se obtém no cartum decorre, principalmente,",
    "alternativas": {
     "A": "da expressão facial da personagem.",
     "B": "do uso de uma ferramenta fora de contexto.",
@@ -1128,7 +1180,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Semântica e sentido das palavras",
+   "resolucao": "O cartum aproveita a placa das caixas de emergência (\"em caso de emergência, quebre o vidro\"), trocando \"o vidro\" por \"a cara\".\n\n\"Quebrar a cara\" tem sentido literal (machucar o rosto, que a personagem parece prestes a fazer com o martelo) e sentido figurado (dar-se mal, fracassar). O humor nasce desse duplo sentido.\n\nO martelo, preso à caixa, é justamente a ferramenta própria dessas caixas, então não está fora de contexto (B); a expressão facial e a linguagem popular apenas acompanham o jogo de palavras.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2019-1-q58",
@@ -1146,7 +1200,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto define o mito político como uma narrativa \"que responde a uma necessidade prática de uma sociedade em determinado período\" (L. 4-6) e que \"ajuda a compreender e suportar o mundo em que vivem\" (L. 12-13). Ou seja, ele atende a situações concretas.\n\nA e D contrariam o texto, que diz que o mito ajuda a entender o mundo e não é mentira. C também: o mito \"coloca em suspenso o problema da verdade\". B erra porque o mito liga o presente a \"uma história em curso\", e não abstrai o tempo.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q59",
@@ -1164,7 +1220,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Sintaxe",
+   "resolucao": "Em \"o mundo em que vivem\", \"que\" é pronome relativo com função de adjunto adverbial de lugar (\"vivem no mundo\"), não de sujeito, o que elimina C.\n\nO sujeito de \"vivem\" está oculto (desinencial) e é recuperado pelo contexto: são \"os indivíduos\" (L. 10), retomados pelo pronome \"os\" em \"fazê-los\" (L. 11).\n\nNão é sujeito indeterminado (A e D), pois o referente é identificável, e não se refere a \"circunstâncias\" (B), já que quem vive no mundo são os indivíduos.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q60",
@@ -1182,7 +1240,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O autor critica os verbos em \"-lizar\" que chegam por meio dos \"maus tradutores de livros de *marketing* e administração\" (L. 4-5), isto é, por influência estrangeira. Dos verbos em \"(i)lizar\" do texto, a maioria (disponibilizar, operacionalizar, reinicializar) se enquadra nesse caso; só \"viabilizar\" e \"desincompatibilizar\" são citados como antigos.\n\nA exagera: a \"campanha\" é irônica e o próprio autor reconhece \"verbos honestos\". B erra porque \"viabilizar\" é apresentado como vítima da \"doença\", não como a doença. D erra porque o uso de \"disponibilizam\", \"operacionalizados\" e \"reinicializando\" no fim do 1º parágrafo é proposital e irônico. E erra porque \"des-\" e \"in-\" têm o mesmo valor de negação.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q61",
