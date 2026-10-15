@@ -1,0 +1,115 @@
+{
+  "edicao": "unicamp-2017-2-d2",
+  "intervalo": [
+    10,
+    18
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 10,
+      "materia": "historia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "![Charge de Carlos Latuff, 2016: uma mulher loira, de roupa estampada com a bandeira do Reino Unido, empurra um carrinho de mão com tijolos. Ao fundo há um muro alto de concreto com uma torre e a bandeira de Israel, rotulado “PALESTINE”, e uma cerca de tela rotulada “U.S.-MEXICO”. À esquerda, um bloco de muro em ruínas rotulado “BERLIN WALL”, do qual sai um balão de fala com a palavra “HYPOCRITES!”. À direita, um operário de capacete assenta tijolos num muro rotulado “CALAIS”. Assinatura: LATUFF2016 - ALTAGREER.COM](fig:p12-c1)\n\n(Disponível em https://desertpeace.wordpress.com/2016/09/09/assorted-toons-for-the-end-of-the-week/cr1n3uyxeaa1o7f. Acessado em 10/11/2016.)\n\nA *charge* de Carlos Latuff, publicada em 2016, faz associações sobre diversos processos do mundo contemporâneo. A primeira-ministra britânica, Theresa May, ouve uma voz enquanto carrega tijolos para a construção de um polêmico muro em Calais, na França.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique qual é a justificativa histórica para a exclamação “hipócritas” oriunda do muro de Berlim."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Por que a questão dos muros tornou-se um assunto recorrente na política internacional do século XXI? Justifique sua resposta a partir de uma das referências da *charge*."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas_corrigidas": {
+    "17": {
+      "resposta": "**Objetivo da questão:** O candidato deveria efetuar operações com os elementos da matriz dos coeficientes de um sistema linear e calcular o quadrado dessa matriz. Deveria ainda encontrar as soluções de um sistema linear indeterminado, analisando o mínimo de uma função quadrática.",
+      "itens": {
+        "a": "A matriz dos coeficientes do sistema linear é dada por $A = \\begin{pmatrix} m & 0 & 2 \\\\ 1 & -1 & 1 \\\\ 2 & 0 & m \\end{pmatrix}$. A soma dos quadrados dos elementos da matriz $A$ é igual a $S_1 = m^2 + 0^2 + 2^2 + 1^2 + (-1)^2 + 1^2 + 2^2 + 0^2 + m^2 = 2m^2 + 11$. Então,\n\n$$A^2 = A \\cdot A = \\begin{pmatrix} m & 0 & 2 \\\\ 1 & -1 & 1 \\\\ 2 & 0 & m \\end{pmatrix} \\cdot \\begin{pmatrix} m & 0 & 2 \\\\ 1 & -1 & 1 \\\\ 2 & 0 & m \\end{pmatrix} = \\begin{pmatrix} m^2 + 4 & 0 & 4m \\\\ m + 1 & 1 & m + 1 \\\\ 4m & 0 & m^2 + 4 \\end{pmatrix}.$$\n\nA soma dos elementos de $A^2$ é, então, $S_2 = m^2 + 4 + 0 + 4m + m + 1 + 1 + m + 1 + 4m + 0 + m^2 + 4 = 2m^2 + 10m + 11$. Para que $S_1 = S_2$, devemos ter $2m^2 + 11 = 2m^2 + 10m + 11$, ou seja, $m = 0$.",
+        "b": "Para $m = 2$, temos o sistema linear\n\n$$\\begin{cases} 2x + 2z = 4, \\\\ x - y + z = 3, \\\\ 2x + 2z = 4. \\end{cases}$$\n\nNote que a primeira e a terceira equações são iguais. Da primeira equação, podemos escrever $z = 2 - x$. Substituindo na segunda equação, concluímos que $y = -1$. Assim, esse sistema tem infinitas soluções: para qualquer número real $a$, $x = a$, $y = -1$ e $z = 2 - a$ é uma solução. Temos então que o produto das variáveis em qualquer solução é dado por $xyz = a.(-1).(2 - a) = a^2 - 2a = (a - 1)^2 - 1$. Esse produto é uma função quadrática na variável $a$, cujo coeficiente quadrático é positivo. O gráfico dessa função é uma parábola com a concavidade voltada para cima, cujo vértice fornece o valor mínimo do produto. O vértice dessa parábola tem abscissa em $a = 1$. Portanto, a solução procurada é $x = a = 1$, $y = -1$ e $z = 2 - a = 1$."
+      }
+    }
+  },
+  "complementos": {
+    "10": {
+      "assunto": "Mundo contemporâneo"
+    },
+    "11": {
+      "assunto": "História da América"
+    },
+    "12": {
+      "assunto": "História da África"
+    },
+    "13": {
+      "assunto": "Aritmética e porcentagem"
+    },
+    "14": {
+      "assunto": "Funções"
+    },
+    "15": {
+      "assunto": "Geometria plana"
+    },
+    "16": {
+      "assunto": "Polinômios e equações"
+    },
+    "17": {
+      "assunto": "Matrizes e sistemas"
+    },
+    "18": {
+      "assunto": "Trigonometria"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 10,
+      "status": "corrigida",
+      "notas": "Figura p12-f1 trazia, na borda inferior, parte da linha da fonte (texto da URL cortado); refeito o recorte (p12-c1) e a descrição passou a citar a torre com a bandeira de Israel no muro “PALESTINE” e a cerca “U.S.-MEXICO”, sem interpretar. Objetivo conferido na prova comentada; “pela conflito” e “Thereza” estão assim no original."
+    },
+    {
+      "numero": 11,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 12,
+      "status": "ok",
+      "notas": "Trecho de Terra sonâmbula com 3 parágrafos curtos (~9 linhas de prosa no caderno, ~130 palavras): curto, transcrição mantida. Objetivo: omitida só a frase inteira sobre o índice de acertos."
+    },
+    {
+      "numero": 13,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 14,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 15,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 16,
+      "status": "ok",
+      "notas": "Resposta a: “= p(r)/r” (sem o cubo) está assim no original das respostas esperadas e da prova comentada; mantido."
+    },
+    {
+      "numero": 17,
+      "status": "corrigida",
+      "notas": "Resposta b: o original escreve o produto como “a.(−1).(2 − a)” (ponto como sinal de multiplicação); estava “a · (−1) · (2 − a)”. Restante conferido."
+    },
+    {
+      "numero": 18,
+      "status": "ok",
+      "notas": ""
+    }
+  ]
+}

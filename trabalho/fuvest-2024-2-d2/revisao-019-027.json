@@ -1,0 +1,240 @@
+{
+  "edicao": "fuvest-2024-2-d2",
+  "intervalo": [
+    19,
+    27
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 19,
+      "codigo": "B01",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na China, até 1958, grandes populações de pardais se alimentavam de grãos, em especial arroz e trigo. Naquele ano, o governo chinês instituiu uma lei estimulando cidadãos a dizimar as populações dessas aves, objetivando controlar o que era chamado de “peste” dos pardais. Estima-se que quase 2 bilhões de pardais foram mortos nesse período. A consequência do desaparecimento dos pardais, ainda em 1958, foi uma explosão populacional de gafanhotos, que infestaram as mesmas plantações e alteraram os níveis de produção de grãos. Essa alteração da produção afetou a população humana da China. Em 1960, o governo chinês reverteu a lei para evitar mais mortes de pardais, e o país chegou a importar 250 mil pardais da União Soviética para recolonizar seus campos. A partir de então, as populações de gafanhotos declinaram, impactando novamente os sistemas produtivos, o que, por sua vez, afetou também a população humana chinesa.\n\nO gráfico a seguir complementa os dados do texto para o período de 1955 a 1964. A linha pontilhada representa uma estimativa da produção de grãos (em milhões de toneladas), e a linha contínua representa a taxa de mortalidade da população humana (em óbitos por mil habitantes).\n\n![Gráfico com o eixo “Ano”, de 1955 a 1964, o eixo da esquerda “Produção de grãos (milhões de toneladas)”, de 140 a 200, e o eixo da direita “Taxa de mortalidade (óbitos/1000 habitantes)”, de 5 a 30. Linha pontilhada azul, produção de grãos: 191 (1955), 194 (1956), 195 (1957), 169 (1958), 143 (1959), 133 (1960), 154 (1961), 164 (1962), 180 (1963) e 185 (1964). Linha contínua laranja, taxa de mortalidade: 12,3 (1955), 11,4 (1956), 10,8 (1957), 12,0 (1958), 14,6 (1959), 25,4 (1960), 14,2 (1961), 10,0 (1962), 10,0 (1963) e 11,5 (1964)](fig:p20-f1)\n\nA partir desses dados, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique a relação entre a taxa de mortalidade da população humana chinesa e a produção de grãos mostrada no gráfico."
+        },
+        {
+          "rotulo": "b",
+          "texto": "No gráfico da folha de respostas, represente as curvas que refletem os dados descritos para o tamanho das populações de pardais e de gafanhotos.\n\n*Campo de resolução:* ![Gráfico em branco com o eixo “Tamanho da população” e o eixo “Ano”, de 1955 a 1964](fig:p21-c1)"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Represente graficamente a teia trófica com os organismos envolvidos no processo descrito."
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "codigo": "B02",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os indivíduos da mariposa *Biston betularia* apresentam variação de coloração que vai desde tons mais claros até mais escuros. Populações dessa mariposa na Grã-Bretanha apresentavam uma maior frequência de fenótipos mais claros antes da Revolução Industrial (RI). Com o avanço da RI, a liberação maciça de fuligem pelas máquinas tornou mais escuras as superfícies onde as mariposas pousavam, como as árvores e estruturas urbanas. Com isso, o número de indivíduos de fenótipos mais claros diminuiu. O esquema a seguir sintetiza esse fenômeno.\n\n![Esquema com duas caixas de mariposas, “Antes” e “Depois”, ligadas por uma seta rotulada “Revolução industrial”: antes, 12 mariposas, das quais 10 claras e 2 escuras; depois, 12 mariposas, das quais 10 escuras e 2 claras](fig:p20-f2)\n\nCom base no texto e no esquema, e considerando que o tamanho da população de mariposas permaneceu inalterado depois da RI, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual é o processo evolutivo envolvido nas mudanças da frequência dos fenótipos ao longo do tempo, passando de uma predominância dos mais claros (antes da RI) para uma predominância dos mais escuros (depois da RI)?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite o fator biótico que explica a diminuição de fenótipos mais claros. Justifique a sua resposta."
+        },
+        {
+          "rotulo": "c",
+          "texto": "No gráfico da folha de respostas, a abcissa indica o fenótipo (de mais claro a mais escuro), e a ordenada indica a frequência de indivíduos. A linha tracejada é a síntese do padrão de distribuição dos fenótipos pré-RI. No mesmo gráfico, represente a curva de distribuição dos fenótipos pós-RI.\n\n*Campo de resolução:* ![Gráfico com o eixo vertical “Frequência de indivíduos” e o eixo horizontal “Fenótipo”, que vai de “+ claro” (à esquerda) a “+ escuro” (à direita), com uma curva pontilhada em forma de sino cujo pico fica no meio do eixo](fig:p21-c2)"
+        }
+      ]
+    },
+    {
+      "numero": 21,
+      "codigo": "B03",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A tabela a seguir mostra o resultado de algumas variáveis de um exame de sangue realizado por uma pessoa adulta. Os dados dos exames são relacionados à série vermelha, à série branca e a alguns patógenos.\n\n![Tabela com as colunas “Elementos averiguados”, “Resultado” e “Intervalo de referência para o estado normal”. Série vermelha: eritrócitos, 4,58×10⁶ /µL (referência: 4,50 a 5,50×10⁶ /µL); hemoglobina, 15,3 g/dL (13,0 a 17,0 g/dL); hematócrito, 46,5 % (40,0 a 50,0 %). Série branca: leucócitos, 14.180 /µL (4.000 a 10.000 /µL); neutrófilos, 13.457 /µL (1.800 a 7.800 /µL); eosinófilos, 0 /µL (20 a 500 /µL); basófilos, 0 /µL (20 a 100 /µL); linfócitos, 553 /µL (1.000 a 3.000 /µL); monócitos, 170 /µL (200 a 1.000 /µL). Patógeno (todos para anticorpos IgM): citomegalovírus, 0,2 (não reagente: <0,7; reagente: ≥1,0); vírus da COVID-19, 0,4 UA/mL (não reagente: <0,9 UA/mL; reagente: ≥1,1 UA/mL); vírus da dengue, <0,1 (não reagente: <0,8; reagente: ≥1,1); toxoplasma, 35,7 (não reagente: <0,5; reagente: ≥0,6); herpes simplex 1/2, 0,4 (não reagente: <0,9; reagente: ≥1,1)](fig:p22-c1)\n\nCom base nesses dados, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Que evidências permitem dizer que essa pessoa não tem um quadro de anemia?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite todos os elementos que permitem afirmar que essa pessoa tem um quadro infeccioso e inflamatório."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Qual patógeno gerou esse quadro infeccioso? Cite um sintoma relacionado a essa doença."
+        }
+      ]
+    },
+    {
+      "numero": 23,
+      "codigo": "B05",
+      "materia": "biologia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "O ciclo de produção e queda de folhas das plantas ao longo do ano, denominado fenologia foliar, é regulado por hormônios, cuja produção é influenciada principalmente pela temperatura e quantidade de horas de luz durante o dia (= fotoperíodo). Numa floresta cujas condições ambientais estão representadas nas figuras I e II, para o ano de 1980, notou-se que, ao longo das últimas quatro décadas, houve alterações na fenologia foliar das árvores, representada na figura III. Os pesquisadores acreditam que essas alterações fenológicas são devidas às mudanças climáticas globais.\n\n![Figura I: gráfico de janeiro a dezembro com a precipitação (mm) em colunas azuis e a temperatura (°C) em linha vermelha. Temperatura, aproximadamente: 24,5 em janeiro, 25 em fevereiro, 23 em março, 20 em abril, 17 em maio, 14 em junho, 14,5 em julho, 15 em agosto, 17 em setembro, 19 em outubro, 21 em novembro e 23 em dezembro. Precipitação, aproximadamente: 100 em janeiro, 110 em fevereiro, 105 em março, 85 em abril, 95 em maio, 135 em junho, 125 em julho, 140 em agosto, 140 em setembro, 115 em outubro, 105 em novembro e 100 em dezembro](fig:p24-c1)\n\n![Figura II: gráfico do fotoperíodo (horas de luz por dia) de janeiro a dezembro, em curva: cerca de 15,7 horas em janeiro, diminuindo até o mínimo de cerca de 10,2 horas em junho e subindo de novo até cerca de 15,7 horas em dezembro](fig:p24-c2)\n\n![Figura III: duas áreas verdes, uma para 1980 e outra para 2020, sobre uma faixa dividida, da esquerda para a direita, em primavera, verão, outono e inverno; sob cada uma, uma seta verde “folhas verdes” e uma seta laranja “queda de folhas”, que corresponde à parte final, hachurada, da área. Em 1980, a área começa a subir no meio da primavera, sobe devagar até o início do verão e depressa durante o verão, fica no nível máximo do fim do verão até o fim do outono e cai a zero no começo do inverno; a seta “folhas verdes” vai do meio da primavera até logo depois do início do inverno, e a seta “queda de folhas”, curta, ocupa só o começo do inverno. Em 2020, a área começa a subir logo no início da primavera, sobe depressa, atinge o nível máximo no fim da primavera, mantém-se até o fim do outono e depois desce aos poucos até perto do fim do inverno; a seta “folhas verdes” vai do início da primavera até a parte final do outono, e a seta “queda de folhas” vai daí até perto do fim do inverno](fig:p24-c3)\n\nCom base nos três gráficos apresentados, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual é a zona climática em que ocorre essa floresta?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite duas alterações no padrão fenológico foliar que ocorreram entre 1980 e 2020."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Como essas alterações fenológicas poderiam afetar o balanço de carbono na atmosfera? Justifique a sua resposta."
+        }
+      ]
+    },
+    {
+      "numero": 24,
+      "codigo": "B06",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Ambientes de restinga apresentam diversas zonas de vegetação no trecho entre a linha da maré mais alta e o interior do continente, criando uma zonação, como esquematizado no perfil de vegetação da figura ao lado. As plantas dessas zonas (A, B, C, D, E) apresentam adaptações ao gradiente de condições ambientais em que se encontram.\n\n![Perfil de vegetação de restinga: à esquerda, o mar; à direita, o interior; escala de 0 a 200 metros. O terreno sobe a partir da praia. Zona A, logo depois do mar, perto de 0 metro: plantas muito baixas e esparsas junto ao chão. Zona B: ervas baixas e densas. Zona C, perto de 100 metros: arbustos e pequenas árvores. Zona D: árvores altas. Zona E, perto de 200 metros: árvores ainda mais altas, de copas largas](fig:p24-f3)\n\nOs gráficos a seguir mostram o aumento de biomassa durante um experimento realizado com duas espécies de plantas: o feijão-da-praia, que se encontra na zona A, e o maracujá-da-praia, que ocorre na zona C. Indivíduos dessas duas plantas foram regados com água destilada ($\\text{H}_2\\text{O}$) e solução salina nas concentrações de 3% e 10%.\n\n![Gráfico “Feijão-da-praia”: aumento de biomassa (g), de 0 a 40, em função do tempo, nos dias 0, 7, 14, 28 e 56. Curva H₂O (pontilhada laranja): sobe de 0 até cerca de 12 g no dia 14 e cerca de 36 g no dia 56. Curva 3% (traço e ponto, cinza): sobe de 0 para cerca de 8 g no dia 7, 14 g no dia 14, 21 g no dia 28 e 32 g no dia 56. Curva 10% (contínua azul): fica perto de 1 g até o dia 14 e volta a 0 nos dias 28 e 56](fig:p24-f4)\n\n![Gráfico “Maracujá-da-praia”: aumento de biomassa (g), de 0 a 40, em função do tempo, nos dias 0, 7, 14, 28 e 56. Curva H₂O (pontilhada laranja): sobe de 0 até cerca de 11 g no dia 14 e cerca de 36 g no dia 56. Curva 3% (traço e ponto, cinza): sobe até cerca de 6 g no dia 14, fica em cerca de 6,5 g no dia 28 e cai para cerca de 5 g no dia 56. Curva 10% (contínua azul): fica em 0 durante todo o período](fig:p24-f6)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite uma possível adaptação de uma planta da zona A para sobreviver no solo móvel da duna."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Compare a tolerância de cada uma das plantas à salinidade. Justifique a sua resposta com base nos gráficos."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Complete o gráfico da folha de respostas demonstrando o padrão da curva de biomassa vegetal total ao longo da zonação representada no perfil de vegetação.\n\n*Campo de resolução:* ![Gráfico em branco com o eixo “biomassa” e o eixo “metros”, marcado em 0, 100 e 200](fig:p25-c1)"
+        }
+      ]
+    },
+    {
+      "numero": 25,
+      "codigo": "G01",
+      "materia": "geografia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "“O Censo Demográfico do ano de 2022, do IBGE, revela que há 1.327.802 (0,65% da população total do país) de indivíduos que pertencem a uma comunidade tradicional em todo o país. A maior parte dessa população, 68,2% (905 mil pessoas), vive nos estados do Nordeste brasileiro. Ao todo, os territórios desse grupo estão em 1.696 municípios. O estado da Bahia é a Unidade da Federação com maior quantidade de pessoas, com 29,90% da população, em seguida, vem o Maranhão, com 20,26% dessa população. É a primeira vez ao longo dos levantamentos censitários que este dado é incluído.”\n\nDisponível em https://agenciadenoticias.ibge.gov.br/. Adaptado.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Indique a qual comunidade tradicional o texto faz referência."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Aponte dois fatores que contribuem para a presença de 68,2% desse grupo na região Nordeste do Brasil."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Indique e explique um fator que contribui para a redução das áreas ocupadas por essas comunidades no Brasil atual."
+        }
+      ]
+    }
+  ],
+  "respostas_corrigidas": {
+    "19": {
+      "itens": {
+        "a": "A relação entre a taxa de mortalidade da população humana chinesa e a produção de grãos é inversamente proporcional, isto é, à medida que a produção de grãos cai, a taxa de mortalidade aumenta, e vice-versa.",
+        "b": "![Gráfico do tamanho da população de 1955 a 1964 com duas curvas. A vermelha fica constante até 1958, sobe bruscamente no início de 1958, permanece alta até 1960, desce até o início de 1961 e volta ao nível de antes. A azul, abaixo dela, fica constante até 1958, cai bruscamente em 1958, permanece baixa até 1960, sobe até o início de 1961 e volta ao nível de antes](fig:r15-f3)\n\nGafanhotos em vermelho e pardais em azul.\n\nNota: a posição relativa das curvas não precisa ser considerada; basta que esteja representada uma queda seguida por aumento populacional para pardais entre 1958 e 1961 e um aumento seguido por queda populacional para gafanhotos no mesmo período.",
+        "c": "![Teia trófica com quatro quadros: Grãos embaixo, Pardal à esquerda, Gafanhoto à direita e Ser humano em cima. Setas contínuas saem de Grãos para Pardal, para Gafanhoto e para Ser humano; uma seta contínua vai de Gafanhoto para Pardal; linhas tracejadas ligam Pardal e Gafanhoto a Ser humano](fig:r15-f4)"
+      },
+      "resposta": "**Objetivo da questão:** Interpretação de gráfico e correlação de dados, representação gráfica e contextualização de dados apresentados."
+    },
+    "20": {
+      "itens": {
+        "a": "Seleção natural",
+        "b": "Biótico: predação; justificativa: a mudança da cor do substrato causou a ineficiência da camuflagem e deixou as mariposas brancas suscetíveis a serem predadas.",
+        "c": "![Gráfico de frequência de indivíduos por fenótipo, de “+ claro” a “+escuro”, com a curva tracejada azul em forma de sino e uma curva vermelha contínua de mesma forma e altura, deslocada para o lado dos fenótipos mais escuros](fig:r16-c1)\n\nTrata-se de um padrão de seleção direcional, em que o pico da curva pós-RI se desloca para uma maior frequência de fenótipos mais escuros com o tempo."
+      },
+      "resposta": "**Objetivo da questão:** Interpretação e correlação de dados representados em figuras de uma série temporal, representação gráfica e contextualização de dados apresentados."
+    }
+  },
+  "complementos": {
+    "19": {
+      "assunto": "Ecologia"
+    },
+    "20": {
+      "assunto": "Evolução"
+    },
+    "21": {
+      "assunto": "Fisiologia humana"
+    },
+    "22": {
+      "assunto": "Genética"
+    },
+    "23": {
+      "assunto": "Ecologia"
+    },
+    "24": {
+      "assunto": "Botânica"
+    },
+    "25": {
+      "assunto": "Geografia do Brasil"
+    },
+    "26": {
+      "assunto": "Globalização e economia mundial"
+    },
+    "27": {
+      "assunto": "Questões ambientais"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 19,
+      "status": "corrigida",
+      "notas": "Descrição do gráfico (p20-f1) refeita: não trazia nenhum dos valores que o item a manda relacionar; agora traz os eixos e os dez valores de cada linha, sem dizer qual é a relação. Descrições das figuras da resposta (r15-f3 e r15-f4) completadas com a forma das curvas e as ligações da teia, que antes só diziam “uma curva vermelha e uma azul” e “ligados por setas”. Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p20, p21); resposta conferida com o documento oficial (r15), sem divergência."
+    },
+    {
+      "numero": 20,
+      "status": "corrigida",
+      "notas": "Descrição do campo de resolução do item c (p21-c2) e da figura da resposta (r16-c1) tinham colchetes (“[+ claro]”, “[+ escuro]”); o colchete fecha a marcação da figura antes da hora e a imagem não aparecia (o renderizador mostrava o texto cru “![...](fig:...)”; conferido com app/render.js). Colchetes retirados e descrições completadas. Descrição do esquema (p20-f2) passou a dar a contagem que se vê (10 claras e 2 escuras antes; 10 escuras e 2 claras depois). Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p20, p21); resposta conferida com o documento oficial (r16), sem divergência."
+    },
+    {
+      "numero": 21,
+      "status": "corrigida",
+      "notas": "Tabela mantida como figura (tem células mescladas), mas a descrição não trazia nenhum valor, e os três itens mandam analisar justamente os resultados e os intervalos de referência; agora a descrição traz todos os valores da tabela, sem dizer quais estão fora do normal. Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p22); resposta conferida com o documento oficial (r17), sem divergência."
+    },
+    {
+      "numero": 22,
+      "status": "ok",
+      "notas": "Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p22); resposta conferida com o documento oficial (r18), sem divergência. Objetivo da questão do B04 é idêntico ao do B01 no documento da banca (repetição da própria banca); mantido."
+    },
+    {
+      "numero": 23,
+      "status": "corrigida",
+      "notas": "Descrições das figuras I, II e III refeitas: diziam só o tipo de gráfico, sem os valores de temperatura, chuva e fotoperíodo (item a) nem a posição das fases de folhas verdes e queda de folhas em 1980 e 2020 (item b). Agora descrevem o que se vê (valores aproximados lidos no gráfico, posição das áreas e das setas em relação às estações), sem nomear a zona climática nem dizer “antecipação” ou “prolongamento”. Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p24); resposta conferida com o documento oficial (r19), sem divergência."
+    },
+    {
+      "numero": 24,
+      "status": "corrigida",
+      "notas": "Descrições do perfil de restinga (p24-f3) e dos dois gráficos (p24-f4, p24-f6) refeitas: o perfil não dizia como é a vegetação de cada zona (item c manda analisar isso) e os gráficos só diziam “três curvas”, sem o comportamento de cada uma (item b); agora trazem a vegetação de cada zona e os valores aproximados das curvas, sem conclusão. “H2O” da descrição passou a H₂O. Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p24, p25); resposta conferida com o documento oficial (r20), sem divergência."
+    },
+    {
+      "numero": 25,
+      "status": "corrigida",
+      "notas": "Matéria extra “historia” acrescentada: o item b cobra a formação histórica dos quilombos (escravidão na produção canavieira, Palmares, porto de Salvador), como mostra a resposta da banca. Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p26); resposta conferida com o documento oficial (r27), sem divergência."
+    },
+    {
+      "numero": 26,
+      "status": "ok",
+      "notas": "Observação do transcritor (“influência história dos EUA” na resposta do item c): conferido na imagem r28, está assim no documento da banca; mantido por fidelidade, sem corrigir. Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p26); resposta conferida com o documento oficial (r28), sem divergência."
+    },
+    {
+      "numero": 27,
+      "status": "ok",
+      "notas": "Enunciado, itens e figuras conferidos palavra por palavra com a página do caderno (p28); resposta conferida com o documento oficial (r29), sem divergência."
+    }
+  ]
+}
