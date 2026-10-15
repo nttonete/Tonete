@@ -1,0 +1,125 @@
+{
+  "edicao": "unicamp-2017-2-d2",
+  "intervalo": [
+    1,
+    9
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 2,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Esboço de quatro blocos de terreno dispostos em sequência, da esquerda para a direita e de cima para baixo, com os rótulos Turfa, Linhito, Hulha e Antracito. O primeiro bloco, com vegetação na superfície, é todo azul-claro; nos outros três, uma faixa azul mais escura, indicada por uma pequena seta, aparece entre camadas claras, cada vez mais abaixo da superfície de um bloco para o seguinte. Abaixo dos blocos, uma seta curva aponta para a direita e para baixo.](fig:p04-c1)\n\n(Fonte: http://cours-examens.org/images/An_2015_1/Etudes_superieures/Agronomie/Geologie/Laval/40_3_3_2.pdf. Acessado em 13/07/2016.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Conforme o esboço acima, explique como se dá o processo de formação do carvão mineral e indique qual dos tipos listados acima possui o menor porcentual de carbono e qual possui o maior porcentual de carbono."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Apresente pelo menos duas formas de uso do carvão mineral."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 8,
+      "materia": "historia",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": null,
+      "enunciado": "Ao analisar *A primeira missa no Brasil*, obra de 1860, feita por Victor Meirelles e exposta atualmente no Museu Nacional de Belas Artes, no Rio de Janeiro, o historiador Rafael Cardoso inseriu o quadro no gênero da pintura histórica. Para o autor, tal gênero “deveria partir de um grande e elevado tema e mostrar o domínio do pintor de um amplo leque de informações não pictóricas. Ou seja, em meados do século XIX, tanto a correção da indumentária representada quanto o espírito cívico da obra eram sujeitos a exame detalhado. O quadro teria grandes formatos, composições complexas e perfeito acabamento. A realização de uma pintura assim poderia levar anos e geralmente correspondia a um atestado de amadurecimento do pintor.”\n\n(Adaptado de Rafael Cardoso, *A arte brasileira em 25 quadros* (1790-1930). Rio de Janeiro/São Paulo: Record, 2008, p. 54-55.)\n\n![Pintura colorida: no centro, na área mais clara do quadro, uma grande cruz de madeira e um altar ao ar livre, onde um homem de vestes claras está de braços erguidos diante de um grupo de homens com roupas europeias e armaduras; ao redor, nas laterais e em primeiro plano, em tons mais escuros, muitas pessoas indígenas, algumas sentadas no chão e outras em pé, e uma pessoa indígena sobre o galho de uma árvore à direita; ao fundo, vegetação, céu e mar.](fig:p10-c1)\n\n(http://mnba.gov.br/portal/colecoes/pintura-brasileira.html. Acessado em 28/09/2016.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique as razões pelas quais podemos considerar que a obra em questão é baseada em uma noção de história oficial e heroica."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Qual era a visão predominante dos integrantes da Semana de Arte Moderna de 1922 em relação à arte acadêmica? Justifique sua resposta."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas_corrigidas": {},
+  "complementos": {
+    "1": {
+      "assunto": "Cartografia"
+    },
+    "2": {
+      "assunto": "Energia"
+    },
+    "3": {
+      "assunto": "Energia"
+    },
+    "4": {
+      "assunto": "Agricultura e espaço rural"
+    },
+    "5": {
+      "assunto": "Urbanização"
+    },
+    "6": {
+      "assunto": "Geopolítica e conflitos"
+    },
+    "7": {
+      "assunto": "Antiguidade"
+    },
+    "8": {
+      "assunto": "Brasil Império"
+    },
+    "9": {
+      "assunto": "Brasil Império"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 1,
+      "status": "ok",
+      "notas": "Enunciado, figura, respostas e objetivo conferidos; sem pontuação indevida."
+    },
+    {
+      "numero": 2,
+      "status": "corrigida",
+      "notas": "Descrição da figura não dizia que a faixa escura (camada de carvão) fica cada vez mais funda de um bloco para o outro, que é o que o item a manda analisar (\"conforme o esboço\"); também dizia que todos os blocos têm faixa escura, mas o da turfa é todo azul-claro. Descrição refeita só com o que se vê. Respostas, objetivo e enunciado conferidos sem erro."
+    },
+    {
+      "numero": 3,
+      "status": "ok",
+      "notas": "Mantido “Girau” no objetivo, como no original (o caderno diz “Jirau”)."
+    },
+    {
+      "numero": 4,
+      "status": "ok",
+      "notas": "Conferido."
+    },
+    {
+      "numero": 5,
+      "status": "ok",
+      "notas": "Conferido."
+    },
+    {
+      "numero": 6,
+      "status": "ok",
+      "notas": "Usada a resposta do documento Respostas esperadas (a da prova comentada é mais longa); sociologia em extra conforme a introdução da prova comentada."
+    },
+    {
+      "numero": 7,
+      "status": "ok",
+      "notas": "Conferido; mantida a frase do objetivo que cita o tema do programa por ser parte da própria frase do objetivo."
+    },
+    {
+      "numero": 8,
+      "status": "corrigida",
+      "notas": "Descrição da pintura omitia a composição de luz e posição (cruz e altar no centro iluminado; indígenas nas laterais e no primeiro plano, mais escuros), que é o que o item a manda analisar segundo a resposta da banca; tirado \"a óleo\", que não está impresso. Texto, fonte e respostas conferidos sem erro."
+    },
+    {
+      "numero": 9,
+      "status": "ok",
+      "notas": "Conferido; aspas só no fechamento da legenda, como no caderno."
+    }
+  ]
+}
