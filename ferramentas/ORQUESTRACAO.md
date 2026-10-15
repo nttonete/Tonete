@@ -35,3 +35,12 @@ Os agentes falham com "You've hit your session limit · resets HH:MM". Agende a 
 ## Ao concluir
 
 Rodar `node testes/navegador.js` (com `PLAYWRIGHT_PATH=$(npm root -g)/playwright`), atualizar a prévia (Artifact `pagina.html`, mesma URL) e escrever o relatório final: números, questões em atenção e o que depende de decisão humana (discursivas, nome, venda).
+
+## Discursivas (2ª fase), em andamento desde 15/10/2026
+
+Escopo: os 45 cadernos com resposta oficial (Unicamp 2017–2026, FUVEST 2023–2026). Ver `ferramentas/DISCURSIVAS.md`.
+
+1. Lotes que faltam: `python3 ferramentas/lotes_discursivas.py` (edição, de, até).
+2. Pedido de cada lote: `python3 ferramentas/prompt_discursiva.py <edicao> <de> <ate>`; agente com `model: sonnet`, até 6 em paralelo, do ano mais recente para o mais antigo.
+3. Quando um lote termina: `python3 ferramentas/validar.py --rascunho <arquivo>`; questões puladas por direito autoral vão para `dados/provas/indisponiveis.json`; commit.
+4. Revisão: agente `revisor-questoes` com "edição <id>, questões <de> a <ate> (discursiva: siga a seção Discursivas)". Depois `montar_banco.py <edicao>` e `validar.py`.

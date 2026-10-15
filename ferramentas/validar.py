@@ -197,7 +197,7 @@ def checar_questoes(rel, dados, ed, final):
             if tb not in textos_base:
                 rel.erro(ref, f"texto base {tb!r} não existe")
             usados.add(tb)
-        if not (q.get("enunciado") or "").strip() and tb is None:
+        if not (q.get("enunciado") or "").strip() and tb is None and not q.get("itens"):
             rel.erro(ref, "sem enunciado")
         if tipo == "objetiva":
             alts = q.get("alternativas") or {}
