@@ -1,0 +1,106 @@
+{
+ "edicao": "unicamp-2023-2-cbs",
+ "intervalo": [
+  1,
+  20
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 9,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Retirado ilegalmente do Brasil em 1995, o fóssil do dinossauro *Ubirajara jubatus*, descoberto na Bacia do Araripe – na divisa dos estados do Ceará, Piauí e Pernambuco –, será repatriado da Alemanha. O fóssil – datado do período Cretáceo – serviu de base para a descrição da espécie, que viveu entre 110 e 115 milhões de anos atrás, tornando-se o dinossauro mais antigo da Bacia do Araripe.\n\n(Adaptado de https://www.cnnbrasil.com.br/tecnologia/museu-alemao-tera-de-devolver-fossil-de-dinossauro-levado-ilegalmente-do-brasil/. Acesso em 8/8/2022.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O *Ubirajara jubatus* é um dinossauro que se destacava por seus adornos com elaboradas estruturas tegumentares. A espécie possuía monofilamentos delgados (uma forma rudimentar de penas) associados à base do pescoço – que aumentavam em comprimento ao longo da região dorsal – bem como prolongamentos semelhantes a fitas que presumivelmente emergiam dos ombros. Cite e explique uma possível importância dessas estruturas que possa ser associada ao sucesso evolutivo da espécie.\n\n![Representação do dinossauro Ubirajara jubatus: animal de pescoço e cauda longos, com o corpo e a cauda cobertos por penugem e quatro hastes longas e finas que se projetam para cima a partir da região dos ombros](fig:p11-c1)\n\n(Representação do dinossauro *Ubirajara jubatus*, Fonte: https://pt.wikipedia.org/wiki/Ubirajara_jubatus. Acesso em 8/8/2022.)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A história da Bacia do Araripe começa durante a fragmentação do supercontinente Gondwana. A Bacia do Araripe representa um dos principais afloramentos que permite o estudo dos fósseis do Cretáceo. Defina a deriva continental. Explique como fósseis encontrados na Bacia do Araripe podem auxiliar na comprovação da existência do supercontinente Gondwana."
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O crescimento e o desenvolvimento das plantas são dependentes dos hormônios vegetais. A seguir, situações dependentes da presença e da localização de hormônios vegetais são apresentadas nas figuras 1 e 2. Na figura 2, plantas dos grupos controle e tratamento são idênticas no tempo t1 e houve a remoção do ápice caulinar entre t1 e t2 no grupo tratamento.\n\n![Figura 1: a mesma planta em t1 e em t2, com um sol desenhado à direita; em t1 o caule está reto e, em t2, a ponta do caule está curvada para o lado do sol. Figura 2: plantas do grupo Controle (em cima) e do grupo Tratamento (embaixo) em t1, t2 e t3. No Controle, de t1 para t3 o caule fica mais alto, surgem folhas novas no alto e as raízes ficam mais longas. No Tratamento, a planta em t1 é igual à do Controle; em t2 o caule aparece cortado no alto e as raízes têm o mesmo tamanho de t1, mais curtas que as do Controle; em t3 saem do caule cortado vários ramos laterais com folhas, e as raízes continuam do tamanho de t1](fig:p15-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em relação à figura 1, explique o fenômeno observado e indique o hormônio vegetal envolvido. Em relação à figura 2, considerando as plantas no tempo t2, explique o efeito do tratamento."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma vez que que o balanço hormonal determina o padrão de ramificação das plantas da figura 2, explique o fenômeno representado no grupo tratamento no tempo t3."
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A varíola dos macacos é uma zoonose transmitida pelo vírus *monkeypox*, um vírus de DNA de fita dupla. A transmissão ocorre por contato próximo com lesões, fluidos corporais, gotículas respiratórias e materiais contaminados. O diagnóstico da varíola dos macacos é feito por exames moleculares que confirmam a presença do DNA viral em amostras humanas de lesões cutâneas ou mucosas.\n\n(Adaptado de https://bvsms.saude.gov.br/02-6-variola-dos-macacos/. Acesso em 28/8/2022).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O exame de Reação em Cadeia da Polimerase (PCR) convencional baseia-se na amplificação do DNA em três etapas sequenciais: desnaturação, anelamento ou hibridização, e extensão ou polimerização. Explique as três etapas do exame de PCR convencional para a detecção do DNA viral."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Durante a formação dos vírus da família do *monkeypox*, duas formas infectantes com o mesmo DNA de fita dupla são produzidas pela célula hospedeira: o vírus maduro intracelular (IMV) e o vírus envelopado extracelular (EEV). A membrana das cisternas do complexo de Golgi faz parte apenas do envoltório do EEV. A figura ao lado apresenta os resultados de um experimento de infecção de células em que foi adicionado o mesmo número de partículas virais, e foi analisada a porcentagem de entrada, em função do tempo, das formas IMV e EEV. Considerando os dados apresentados, indique a forma viral com maior capacidade de infecção. Justifique a sua resposta. Cite um mecanismo de liberação para cada forma viral da célula hospedeira.\n\n![Gráfico da porcentagem de entrada (%), de 0 a 100, em função do tempo (min), de 0 a 60, para as formas EEV (linha contínua, círculos pretos) e IMV (linha tracejada, círculos brancos). Valores aproximados lidos nos pontos: EEV, 0% em 0 min, 30% em cerca de 2 min, 65% em 15 min, 75% em 30 min e 80% em 60 min; IMV, 0% em 0 min, 25% em cerca de 2 min, 35% em 15 min, 50% em 30 min e 66% em 60 min](fig:p16-f3)\n\n(Adaptado de LOCKER, J. K. *et al.* *Mol Biol Cell*. Bethesda, 11, p. 2497-2511, jul. 2000.)"
+    }
+   ]
+  }
+ ],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "9": {
+   "assunto": "Evolução"
+  },
+  "11": {
+   "assunto": "Ecologia"
+  },
+  "12": {
+   "assunto": "Zoologia"
+  },
+  "13": {
+   "assunto": "Botânica"
+  },
+  "14": {
+   "assunto": "Biotecnologia"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "Enunciado, itens, fonte e figura p11-c1 conferidos com p11; resposta conferida com as Respostas esperadas (r03) e com a Resposta Esperada da prova comentada (r23), sem fórmulas e sem diferença de conteúdo. Corrigida a descrição da figura: chamava de 'monofilamentos longos na base do pescoço' as quatro hastes longas, que no desenho saem da região dos ombros (o item as descreve como prolongamentos semelhantes a fitas); a descrição agora só diz o que se vê."
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "Enunciado (com 'relevaram', sic, como no caderno) e itens conferidos com p13; resposta conferida com r03-r04 e com a comentada (r26), idênticas."
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": "Enunciado, figura p14-f2 (com legenda), fonte e tabela do campo de resolução conferidos com p14; resposta conferida com r04 e com a comentada (r27-r28). A descrição da figura não entrega as classes."
+  },
+  {
+   "numero": 13,
+   "status": "corrigida",
+   "notas": "Enunciado e itens ('que que', sic) conferidos com p15; resposta conferida com r04. Corrigida a descrição da figura p15-c1: não dizia o que se vê no tempo t2 do grupo Tratamento (raízes que não crescem como as do Controle), justamente o que o item a manda analisar (a comentada cita entre os erros comuns 'não perceberam que o tratamento promoveu crescimento diferencial das raízes'); a nova descrição diz só o que o desenho mostra. Observação: a Resposta Esperada da prova comentada (r29) tem redação um pouco mais longa no item a ('e a consequente curvatura', 'impede que a auxina seja produzida e então translocada para as raízes, inibindo, assim, o crescimento radicular') e indica '(2 pontos)' por item; mantido o texto das Respostas esperadas, que está completo e diz o mesmo."
+  },
+  {
+   "numero": 14,
+   "status": "corrigida",
+   "notas": "Enunciado, itens, figura p16-f3 e fontes conferidos com p16; resposta conferida com r04 e com a comentada (r30-r31), idênticas. A descrição do gráfico não trazia nenhum valor, e o item b pede para comparar as curvas: acrescentados os valores aproximados de cada ponto lidos no gráfico, sem dizer qual forma infecta mais."
+  }
+ ]
+}
