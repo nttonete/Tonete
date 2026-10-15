@@ -74,6 +74,98 @@
         }
       ],
       "observacoes": ""
+    },
+    {
+      "numero": 31,
+      "codigo": "Q01",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O óxido de cálcio, também conhecido como cal, tem diversas aplicações, sendo muito importante do ponto de vista econômico. Além de ser uma das principais matérias primas na produção de aço e cimento, é também utilizado na agricultura para correção das condições do solo, diminuindo a sua acidez. Esse óxido é produzido pela decomposição do calcário ($\\text{CaCO}_3$) que tem como subproduto o $\\text{CO}_2$.\n\n**Note e adote:**\nMassas molares (g/mol): H=1, C=12, O=16, Ca=40",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Escreva a reação entre cal e água que explica seu uso na alcalinização do solo."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A produção do óxido de cálcio pode gerar impacto ambiental devido à liberação de $\\text{CO}_2$ durante a sua produção, contribuindo para o aumento do efeito estufa. Considerando que a produção anual de óxido de cálcio a partir de $\\text{CaCO}_3$ é de $1{,}12 \\times 10^{10}$ kg, qual a quantidade de $\\text{CO}_2$, em quilograma, liberada anualmente para a atmosfera?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Existe um centro na USP (RCGI – *Research Centre for Greenhouse Gas Innovation*), cuja pesquisa visa encontrar formas de minimizar o impacto ambiental da liberação de $\\text{CO}_2$. Uma das maneiras de realizar essa minimização é utilizar o $\\text{CO}_2$ para gerar materiais de maior valor agregado. Do ponto de vista químico, para que isso ocorra, são necessárias estratégias para aumentar a reatividade do $\\text{CO}_2$. Cite dois fatores experimentais que tornem mais efetivos os processos envolvendo moléculas pouco reativas, como o $\\text{CO}_2$. Justifique sua resposta."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 32,
+      "codigo": "Q02",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O açafrão é uma especiaria com sabor, aroma e coloração muito marcantes. Nessa especiaria estão presentes moléculas como a picrocrocina, responsável pelo sabor, o safranal, responsável pelo aroma, e a crocetina, responsável pela coloração.\n\n![Estruturas químicas da picrocrocina, do safranal e da crocetina](fig:p38-c1)\n\nO safranal pode ser obtido por extração a partir do açafrão. Para realizar esse procedimento, uma certa quantidade de açafrão seco é triturada e adicionada em um frasco e, sobre ela, é adicionada uma solução aquosa diluída de carbonato de sódio de pH levemente elevado. Em seguida, um volume de n-hexano é adicionado ao mesmo frasco que, após tampado, é agitado e deixado em repouso até que duas fases, uma aquosa e outra orgânica, se separem.\n\n**Note e adote:**\nMassa molar do safranal = 150 g/mol",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Preencha a tabela da folha de respostas indicando qual das fases, aquosa ou orgânica, contém maior quantidade dos compostos responsáveis pelo aroma e sabor. Justifique sua resposta.\n\n*Campo de resolução:*\n\n|  | Compostos relativos ao aroma | Compostos relativos ao sabor |\n|---|---|---|\n| Fase com maior quantidade |  |  |"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Caso o procedimento de extração descrito anteriormente seja realizado utilizando apenas água ao invés de solução aquosa de carbonato de sódio, qual das espécies descritas no enunciado terá sua eficiência de extração na fase aquosa mais prejudicada? Justifique sua resposta."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Para determinar o teor de safranal no açafrão, foi realizada uma extração a partir de 500 mg de açafrão seco gerando 10 mL de uma solução contendo safranal em uma concentração de $7{,}0 \\times 10^{-4}$ mol/L. Considerando uma eficiência de 70% nesse procedimento, calcule o teor de safranal, em porcentagem de massa, no açafrão seco."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 33,
+      "codigo": "Q03",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Produtos que contêm íons hipoclorito ($\\text{C}\\ell\\text{O}^-$) e ácido hipocloroso ($\\text{HC}\\ell\\text{O}$) podem ser utilizados para desinfetar ambientes. Para o tratamento de piscinas também pode ser utilizado o dicloroisocianurato de sódio (estrutura representada na folha de respostas), um sal que, ao ser solubilizado em água, produz ácido hipocloroso e um outro produto.\n\n**Note e adote:**\nDistribuição eletrônica para\nN: $1s^2\\,2s^2\\,2p^3$\n$\\text{C}\\ell$: $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^5$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Escreva a estrutura do outro produto formado nessa reação no quadro da folha de respostas.\n\n*Campo de resolução:*\n\n![Estrutura do dicloroisocianurato de sódio, mais 2 H₂O, seguida de seta e de um quadro vazio, mais 2 HCℓO](fig:p41-c1)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Água sanitária é uma solução diluída de íons hipoclorito, gerada a partir da reação de gás cloro com íons hidróxido, formando também íons cloreto e água. Apesar de o gás cloro ser tóxico, usar a água sanitária para limpeza é seguro, porém deve-se tomar cuidado para não a misturar com outros agentes de limpeza, como desinfetantes a base de amoníaco ou vinagre. A mistura com desinfetantes a base de amônia pode gerar cloroaminas tóxicas solúveis em água, como $\\text{NC}\\ell_3$.\n\nEscreva o equilíbrio de formação do íon hipoclorito a partir do gás cloro em meio básico e explique, a partir desse equilíbrio, por que a adição de vinagre à água sanitária pode ser nociva à saúde."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Desenhe a estrutura de Lewis da molécula de $\\text{NC}\\ell_3$ e justifique sua solubilidade em água com base na sua geometria."
+        }
+      ],
+      "observacoes": "No caderno, o parágrafo sobre água sanitária fica entre os itens a e b; foi colocado no início do item b, que ele introduz (e vale também para o item c). O dicloroisocianurato de sódio e o quadro de resposta do item a estão só na folha de respostas e foram recortados como figura."
+    },
+    {
+      "numero": 34,
+      "codigo": "Q04",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Atletas podem acompanhar o andamento de atividades físicas por meio do monitoramento da quantidade de calorias gastas. A medida do número de calorias gastas é feita com base na quantidade de oxigênio consumido durante a atividade física. Além disso, considera-se que toda a energia é proveniente da combustão de moléculas de glicose, de acordo com a reação $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\ \\text{H}_2\\text{O}$. Em termos práticos, é dito que, para obter a quantidade de calorias gastas em kcal/min, o volume de oxigênio consumido em litros por minuto, em determinada temperatura e pressão, deve ser multiplicado por um valor Q.\n\n**Note e adote:**\nEntalpia de combustão da glicose = - 675 kcal/mol de glicose\nEntalpia de formação da glicose = - 300 kcal/mol de glicose\nEntalpia de formação do ácido láctico = -160 kcal/mol de ácido láctico\nVolume molar do $\\text{O}_2$ = 22,5 L/mol",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O gráfico mostra o volume de oxigênio consumido por um atleta ao longo da atividade física. Considerando que o consumo máximo de oxigênio se mantém aproximadamente constante durante a atividade, calcule quantos mols de oxigênio esse atleta consome ao completar a corrida de rua “Volta da USP” em 50 min.\n\n![Gráfico do volume de O₂ (L/min) em função do tempo (s)](fig:p40-c1)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Calcule a energia liberada na combustão da glicose em kcal por mol de $\\text{O}_2$ e obtenha o valor de Q em kcal/L."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Em treinos muito intensos, pode ocorrer produção de ácido láctico, cujo acúmulo leva a dores musculares. Sua produção ocorre a partir da glicose segundo a reação $\\text{C}_6\\text{H}_{12}\\text{O}_6 \\rightarrow 2\\text{C}_3\\text{H}_6\\text{O}_3$. Com base nas entalpias de formação das espécies envolvidas, calcule a variação de entalpia da reação de produção de ácido lático a partir da glicose, em kcal/mol, e quantas vezes mais glicose deve ser consumida para que essa reação gere a mesma quantidade de energia obtida na reação de combustão da glicose."
+        }
+      ],
+      "observacoes": "A resposta oficial do item a escreve “50mm” (provavelmente “50 min”) e, no item c, “m/m”; transcritos como no original."
     }
   ],
   "respostas": {
@@ -96,6 +188,34 @@
         "a": "$f(x) = 1 \\Rightarrow |x| = 1 \\Rightarrow x = \\pm 1$\nOs pontos de interseção são $(1{,}1)$ e $(-1{,}1)$.",
         "b": "A área do triângulo marrom é: $A = \\frac{4 \\times 2}{2} = 4$\n\n![Gráfico de f(x) e da reta y = 2, com a região triangular destacada à direita do eixo Oy](fig:r07-c1)",
         "c": "$\\frac{|x|}{d} = d \\Rightarrow |x| = d^2 \\Rightarrow x = \\pm d^2$\n\n![Gráfico de f(x) e da reta y = d, com a região triangular destacada entre x = −d² e x = d²](fig:r07-c2)\n\nA região marrom formada é um triângulo de base $2d^2$ e altura $d$. Assim, a área é $A = \\frac{2d^2.d}{2} = d^3$."
+      }
+    },
+    "31": {
+      "itens": {
+        "a": "$\\text{CaO(s)} + \\text{H}_2\\text{O}(\\ell) \\rightarrow \\text{Ca}^{2+}\\text{(aq)} + 2\\,\\text{OH}^-\\text{(aq)}$",
+        "b": "$\\text{CaCO}_3(\\Delta) \\rightarrow \\text{CaO(s)} + \\text{CO}_2\\text{(g)}$\n\n1 mol CaO —— 56 g\n$n$ —— $1{,}12 \\times 10^{10} \\times 10^{3}$ g\n\n$n = 20 \\times 10^{10}$ mols\n\nReação 1:1 → $n_{\\text{CO}_2} = 20 \\times 10^{10}$ mols —— $m$\n1 mol —— 44g\n\n$m = 880 \\times 10^{10}$ g $= 8{,}8 \\times 10^{9}$ kg",
+        "c": "Uso de catalisador para diminuir a energia de ativação. Aumento da temperatura do sistema para aumentar a velocidade de reação."
+      }
+    },
+    "32": {
+      "itens": {
+        "a": "| | Compostos relativos ao aroma | Compostos relativos ao sabor |\n|---|---|---|\n| Fase com maior quantidade | Orgânica | Aquosa |\n\nSafranal responsável pelo aroma é apolar, enquanto picrocrocina é polar.",
+        "b": "Crocetina. Na ausência de meio básico, os grupos ácidos da crocetina não serão desprotonados, diminuindo a sua polaridade e, consequentemente, a sua solubilidade na fase aquosa.",
+        "c": "500 mg de açafrão → 0,7 mmol – 1 L logo, $0{,}7 \\times 10^{-5}$ mol de safranal em 10 mL. Considerando 70% de rendimento:\n\n$$\\frac{0{,}7 \\times 10^{-5}}{0{,}7} = 1{,}0 \\times 10^{-5}\\ \\text{mol de safranal}$$\n\nA massa será:\n\n$$1{,}0 \\times 10^{-5}\\ mol \\times 150\\,\\frac{g}{mol} = 1{,}5\\ mg$$\n\nPortanto, o teor:\n\n$$\\left(\\frac{1{,}5\\ mg}{500\\ mg}\\right) \\times 100 = 0{,}3\\%$$"
+      }
+    },
+    "33": {
+      "itens": {
+        "a": "![Reação com a estrutura do dicloroisocianurato de sódio, mais 2 H₂O, seta e, no quadro, a estrutura desenhada com H no lugar dos dois Cℓ ligados aos nitrogênios, mais 2 HCℓO](fig:r18-c1)",
+        "b": "$\\text{C}\\ell_2 + 2\\,\\text{OH}^- \\rightleftharpoons \\text{C}\\ell\\text{O}^- + \\text{C}\\ell^- + \\text{H}_2\\text{O}$\nAdicionar vinagre consome hidróxido deslocando o equilíbrio no sentido do gás cloro que é tóxico.",
+        "c": "![Estrutura da molécula de NCℓ₃ com vetores de dipolo (geometria piramidal) e duas representações da estrutura de Lewis](fig:r18-c2)\n\nDevido à sua geometria, os momentos de dipolo não se anulam, o que faz a molécula polar e solúvel em água."
+      }
+    },
+    "34": {
+      "itens": {
+        "a": "$1{,}5\\ x\\ 50mm = \\frac{75L\\ \\text{O}_2}{22{,}5\\ L/mol} = 3{,}3\\ mols$",
+        "b": "Pela estequiometria da reação tem-se 1 mol de glicose para 6 mols de $\\text{O}_2$. Portanto, a quantidade de energia liberada por mol de $\\text{O}_2$ é de:\n\n$$\\frac{675\\ kcal}{6} = 112{,}5\\ kcal$$\n\nComo 112,5 kcal equivalem a 1 mol de $\\text{O}_2$ e, portanto, 22,5 L, o fator Q será dado por:\n\n$$\\frac{112{,}5}{22{,}5} = 5\\ kcal/L$$",
+        "c": "$$\\Delta rH = 2x\\,(-160) - (-300) = -320 + 300 = -20\\ kcal/mol$$\n\n$$\\frac{m}{m} = \\frac{-675}{-20} = 33{,}75 \\cong 34$$"
       }
     }
   }
