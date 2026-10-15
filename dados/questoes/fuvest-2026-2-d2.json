@@ -49,14 +49,17 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q02",
    "numero": 2,
    "codigo": "B02",
    "materia": "biologia",
-   "materias_extra": [],
+   "materias_extra": [
+    "quimica"
+   ],
    "texto_base": null,
    "enunciado": "O petróleo é formado por uma mistura de compostos orgânicos, principalmente os hidrocarbonetos, que são compostos lipofílicos, que podem causar problemas de saúde em vários animais, incluindo os seres humanos. A exploração de petróleo na Foz da Bacia Amazônica (Margem Equatorial) está entre um dos planos da Petrobrás, mas questões ligadas aos impactos ao meio ambiente e à saúde humana são preocupantes, pois a exposição aos hidrocarbonetos pode causar, por exemplo, doenças respiratórias, cardiovasculares e dérmicas na população.",
    "itens": [
@@ -77,7 +80,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2026-2-d2-q04",
@@ -105,7 +109,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q05",
@@ -133,7 +138,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q06",
@@ -161,7 +167,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q07",
@@ -189,7 +196,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Dinâmica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q08",
@@ -217,7 +225,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Eletrostática",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q09",
@@ -245,7 +254,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Termodinâmica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q10",
