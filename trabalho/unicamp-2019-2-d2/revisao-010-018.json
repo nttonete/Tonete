@@ -1,0 +1,150 @@
+{
+  "edicao": "unicamp-2019-2-d2",
+  "intervalo": [
+    10,
+    18
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [],
+  "respostas_corrigidas": {
+    "10": {
+      "resposta": "**Objetivo da questão:** Avaliar a habilidade dos candidatos em operar com conceitos de Geometria Analítica, abordando equações da reta e da circunferência.",
+      "itens": {
+        "a": "A equação da reta que passa pelos pontos $A = (1,4)$ e $B = (3,2)$ é dada por $\\frac{x-1}{3-1} = \\frac{y-4}{2-4}$, ou seja, $x + y = 5$. A intersecção dessa reta com a reta $r$ pode ser obtida pela resolução do sistema linear\n\n$$\\begin{cases} 2x + y = 1, \\\\ x + y = 5. \\end{cases}$$\n\nSubtraindo as duas equações temos $(2x + y) - (x + y) = 1 - 5$, ou seja, $x = -4$ e, portanto, $y = 5 - x = 9$. Logo, o ponto de intersecção tem coordenadas $(-4,9)$.",
+        "b": "O centro da circunferência é o ponto médio do segmento $\\overline{AB}$, $(x_c, y_c) = \\left(\\frac{1+3}{2}, \\frac{4+2}{2}\\right) = (2,3)$. O raio da circunferência é a metade do comprimento do segmento $\\overline{AB}$, $r = \\frac{1}{2}\\sqrt{(1-3)^2 + (4-2)^2} = \\sqrt{2}$. Logo, a equação da circunferência é dada por $(x - x_c)^2 + (y - y_c)^2 = r^2$, ou seja, $(x-2)^2 + (y-3)^2 = 2$."
+      }
+    },
+    "11": {
+      "resposta": "**Objetivo da questão:** Avaliar a habilidade do candidato na operação com matrizes (transposta e produto) e na resolução de equações que envolvem funções trigonométricas.",
+      "itens": {
+        "a": "Desenvolvendo a igualdade $A^T A = A A^T$, obtemos\n\n$$\\begin{bmatrix} 1 & a \\\\ 1 & b \\end{bmatrix}\\begin{bmatrix} 1 & 1 \\\\ a & b \\end{bmatrix} = \\begin{bmatrix} 1 & 1 \\\\ a & b \\end{bmatrix}\\begin{bmatrix} 1 & a \\\\ 1 & b \\end{bmatrix} \\Rightarrow \\begin{bmatrix} 1+a^2 & 1+ab \\\\ 1+ab & 1+b^2 \\end{bmatrix} = \\begin{bmatrix} 2 & a+b \\\\ a+b & a^2+b^2 \\end{bmatrix}.$$\n\nIgualando elemento a elemento, temos o sistema\n\n$$\\begin{cases} 1 + a^2 = 2, \\\\ 1 + ab = a + b, \\\\ 1 + b^2 = a^2 + b^2. \\end{cases}$$\n\nLogo, $a^2 = 1$ e $1 + ab = a + b$. Para $a = -1$, temos $1 - b = -1 + b$, $b = 2$. Para $a = 1$, temos $1 + b = 1 + b$, ou seja, qualquer $b$ real. Portanto, os valores possíveis para $a$ e $b$ são: $(i)$ $a = -1$ e $b = 2$ ou $(ii)$ $a = 1$ e $b$ igual a qualquer número real.",
+        "b": "Temos que\n\n$$\\begin{bmatrix} 1 & 1 \\\\ 2 & 2 \\end{bmatrix}\\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix} = k\\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix} \\Rightarrow \\begin{cases} \\cos\\theta + \\text{sen}\\,\\theta = k\\,\\cos\\theta, \\\\ 2\\cos\\theta + 2\\,\\text{sen}\\,\\theta = k\\,\\text{sen}\\,\\theta. \\end{cases} \\Rightarrow \\begin{cases} \\cos\\theta + \\text{sen}\\,\\theta = k\\,\\cos\\theta, \\\\ \\cos\\theta + \\text{sen}\\,\\theta = \\frac{k}{2}\\,\\text{sen}\\,\\theta. \\end{cases}$$\n\nLogo, $k\\cos\\theta = \\frac{k}{2}\\,\\text{sen}\\,\\theta$, ou seja, $k(2\\cos\\theta - \\text{sen}\\,\\theta) = 0$. Assim, temos duas possibilidades: (i) $k = 0$, implicando $\\cos\\theta + \\text{sen}\\,\\theta = 0$, ou seja, $\\tan\\theta = -1$, ou (ii) $2\\cos\\theta - \\text{sen}\\,\\theta = 0$, implicando $\\tan\\theta = 2$. Portanto, os possíveis valores para $\\tan\\theta$ são $-1$ e $2$."
+      }
+    },
+    "12": {
+      "resposta": "**Objetivo da questão:** Verificar o domínio dos conceitos de volume e área de superfície de um cilindro, considerando diferentes unidades de medida, bem como avaliar a visualização espacial e a definição de progressão geométrica.",
+      "itens": {
+        "a": "O volume do cilindro é dado por $V = \\pi r^2 h = 4\\pi h = 1\\ l = 1.000\\ \\text{cm}^3$. Logo, $h = \\left(\\frac{250}{\\pi}\\right)\\text{cm}$. A área de superfície total do cilindro é dada por $S = \\pi r^2 + \\pi r^2 + 2\\pi r h = 4\\pi + 4\\pi + 4\\pi \\times \\frac{250}{\\pi} = (8\\pi + 1.000)\\ \\text{cm}^2$.",
+        "b": "Considere o triângulo retângulo com catetos de comprimentos $2r$ e $h$ e hipotenusa de comprimento $d$, como ilustra a figura abaixo.\n\n![Cilindro com bases e lados em linha tracejada e, em linha contínua, um triângulo retângulo com a base de dois raios r, a altura h e a hipotenusa d](fig:r03-f1)\n\nPelo Teorema de Pitágoras, $d^2 = (2r)^2 + h^2 = 16 + h^2$. Como $(r, h, d)$ é uma progressão geométrica, $h/r = d/h$, ou seja, $h^2 = 2d$. Assim, $d^2 = 16 + 2d$. Resolvendo essa equação quadrática, obtemos duas soluções, $d = 1 - \\sqrt{17}$ e $d = 1 + \\sqrt{17}$. Como $d$ deve ser positivo, a solução é $d = (1 + \\sqrt{17})\\ \\text{cm}$."
+      }
+    },
+    "13": {
+      "resposta": "**Objetivo da questão:** A questão foi elaborada a partir dos itens programáticos “Leitura crítica de documento histórico e análise reflexiva dos contextos em questão”, “O surgimento da filosofia e seus pensadores” e “Protagonismos, conquistas femininas e debates de gênero”. A leitura atenta do documento apresentado era fundamental para a produção de uma resposta coerente nos dois itens da questão.",
+      "itens": {
+        "a": "Hipátia, filósofa e matemática, assassinada em 415, associava-se à tradição neoplatônica de pensamento. Defendia o questionamento de ideias pré-concebidas como fundamental para a produção de novos saberes e o axioma do universo geocêntrico. Nesse contexto, a filosofia é compreendida como basilar para a descrição e compreensão do cosmos.",
+        "b": "Justiniano, Imperador Bizantino entre os anos 527 e 565, apresentava-se como herdeiro da tradição cristã imperial e almejava recuperar a suposta grandeza do Império Romano. Justiniano conjugava os poderes políticos e religiosos (cesaropapismo) e, nesse sentido, a perseguição às escolas, aos professores e a todos que questionassem o cristianismo era uma forma de manutenção da ordem político-religiosa instituída."
+      }
+    },
+    "14": {
+      "resposta": "**Objetivo da questão:** A questão explora os seguintes itens programáticos: “Expansão marítima europeia; descobrimentos e choques culturais; formação dos impérios coloniais”, “Conquista e colonização das Américas: religião, política, cultura, economia e sociedade coloniais” e “Indígenas e africanos: missionação, identidades, formas de resistência e de interação no mundo colonial americano”.\n\nA questão aborda o tema clássico da colonização da América a partir do diário de um indígena que descreve contatos culturais. O item **a** exige a compreensão da leitura e interpretação histórica, enquanto o segundo item tem um cunho mais historiográfico ao requisitar reflexões sobre o gênero diário e a produção da memória histórica.",
+      "itens": {
+        "a": "Conforme o texto apresentado, os contatos culturais se caracterizam pela percepção do outro (alteridade) e por sua descrição em termos de referências culturais específicas. Esses elementos podem ser exemplificados pela descrição dos japoneses (suas vestimentas e gestos). O candidato também poderia destacar o caráter planetário da Conquista e os trânsitos culturais materializados em pessoas, exemplificados no conhecimento que Chimalpahim tinha do assassinato do rei da França, em 15 de novembro de 1610, e na própria chegada dos japoneses.",
+        "b": "O diário é um documento histórico que permite a visão de outros grupos culturais e de seu cotidiano. No caso específico do diário do indígena Chimalpahin, observa-se que ele fornece alternativas às narrativas eurocêntricas sobre o processo de colonização da América."
+      }
+    },
+    "15": {
+      "resposta": "**Objetivo da questão:** A questão se fundamenta nos itens programáticos: “A crise dos impérios coloniais, os processos de independência e a formação dos Estados-nações nas Américas”, “A consolidação do Estado burguês; nacionalismo e revoluções no século XIX”, “As transformações do mundo do trabalho: a formação do sistema fabril e do trabalhador assalariado; industrialização e urbanização; as doutrinas socialistas; abolicionismos e a crise do escravismo; permanências e rupturas nas formas de escravidão; as migrações em massa” e “O imperialismo europeu; expansão industrial e nova partilha colonial”. O tema é bastante comum nos programas de História do Ensino Médio. A inovação está na proposta de relacionar o ideário do progresso, construído (por múltiplas narrativas) ao longo do século XIX, à Primeira Guerra Mundial.",
+      "itens": {
+        "a": "São características do *boom* econômico e industrial do Ocidente entre 1840 e 1890: a Revolução Industrial em seu segundo momento, em que se destacam grandes inovações tecnológicas como a eletricidade, o uso do petróleo, o desenvolvimento das ferrovias, etc.; o Imperialismo, com o neocolonialismo avançando sobre territórios como a África e a Ásia; a ampliação de mercados consumidores, especialmente aqueles reconhecidos como periféricos; a primazia da Inglaterra vitoriana como principal Império do período; o crescimento urbano, com intensa exploração das classes operárias e precarização de suas condições de vida nas cidades.",
+        "b": "O ideário de progresso do século XIX poderia ser identificado como uma característica marcante do período. Propunha a permanente evolução das sociedades rumo a um futuro sempre mais promissor que o presente. Nesse sentido, trazia um culto ao desenvolvimento tecnológico e à ciência, que estabeleciam um padrão europeu para se pensar um mundo civilizado. Esse ideário poderia ser relacionado à Primeira Guerra Mundial na medida em que o desenvolvimento tecnológico foi amplamente demonstrado por meio das inovações bélicas. Ele favoreceu também o nacionalismo e a ideia de superioridade europeia, que legitimou a subjugação de múltiplos territórios, levando a conflitos pelo domínio colonial e ao colapso do próprio imperialismo."
+      }
+    },
+    "16": {
+      "resposta": "**Objetivo da questão:** A questão, que propunha um debate aberto entre passado e presente, foi elaborada a partir dos seguintes itens programáticos: “O Brasil entre 1930-1945: política, movimentos sociais, economia, crises e cultura”, “A ditadura civil-militar no Brasil (1964-1985): estado de exceção, processos sociais, políticos, culturais, a questão das memórias e a violação dos direitos humanos”, “O Brasil após-1985: política, movimentos sociais, economia, crises e cultura”, “A noção de cidadania e os direitos civis, sociais e políticos” e “Multiculturalismo, transformações sociais, comportamentais e culturais no século XXI”. A questão aborda o tema clássico do mito da democracia racial a partir de uma análise da sociologia sobre a temática.",
+      "itens": {
+        "a": "O pressuposto da democracia racial é a convivência harmoniosa entre brancos, negros e indígenas na sociedade brasileira, pautada pela ideia de mestiçagem e de um convívio cotidiano para além das relações de força e violência pressupostas pela escravidão. Essa tese possibilita a negação da existência do racismo na sociedade brasileira. Ela tem sido questionada nos dias de hoje por denúncias de sucessivos exemplos de discriminação racial e por dados que revelam, por exemplo, a maior concentração de riqueza e acesso a bens e serviços entre elites brancas.",
+        "b": "Poderiam ser mencionados e explicados casos como os dos movimentos por direitos civis da população negra norte-americana liderados por Martin Luther King e por Malcolm X, o movimento dos Panteras Negras, a luta contra o regime do *apartheid* na África do Sul e os movimentos de luta por independência que ganharam força no continente africano."
+      }
+    },
+    "17": {
+      "resposta": "**Objetivo da questão:** A questão exige a correlação entre dois contextos históricos distintos, o Brasil da Primeira República e a Ditadura Militar no país. O Cinema Novo, no caso, constitui um eixo articulador entre esses contextos. A questão foi elaborada a partir dos seguintes itens programáticos: “Leitura crítica de documento histórico e análise reflexiva dos contextos em questão”, “A República no Brasil até 1930: política, movimentos sociais, economia, crises e cultura”, “A ditadura civil-militar no Brasil (1964-1985): estado de exceção, processos sociais, políticos, culturais, a questão das memórias e a violação dos direitos humanos” e “Cultura de massas, artes, movimentos alternativos, militarismo, ditaduras e redemocratizações na América Latina”.",
+      "itens": {
+        "a": "Elementos do messianismo no Nordeste do Brasil na Primeira República que poderiam ser citados e explicados: a época foi marcada pela existência de líderes carismáticos como Antônio Conselheiro e Padre Cícero, que atraíam seguidores por meio de um discurso religioso ou profético; os movimentos messiânicos tinham um caráter eminentemente rural, relacionado à falta de terras e à pobreza proveniente da crise econômica e política; atraíam camadas populares com promessas de um reino ou um tempo futuro de abundância; opunham-se aos poderes constituídos, fossem o governo central ou o coronelismo e os potentados locais; traziam a ideia de salvação religiosa, pautando-se na promessa de um governo de Deus e não dos homens; representavam uma reação à República recém-instaurada (como é o caso de Canudos) ou retaliações aos potentados locais (como em Juazeiro). Poderia ainda ser explicada a forma como esses movimentos foram tratados pelos poderes públicos e religiosos, com retaliações e repressão.",
+        "b": "O Cinema Novo pode ser descrito como um movimento que inaugurou uma nova estética para o cinema brasileiro. Do ponto de vista cultural, buscou recorrentemente retratar a realidade, a pobreza e as desigualdades sociais no Brasil; foi o primeiro movimento cinematográfico nacional com reconhecimento internacional, obtendo várias premiações internacionais; formou um grupo de cineastas jovens que tinham como modelo a produção com “uma câmara na mão”; constituiu uma reação aos formatos anteriores como a chanchada e produções hollywoodianas. Já no campo político, o Cinema Novo constituiu-se como uma reação à ditadura civil-militar, sendo elemento de impasse para o sistema político, especialmente no que se referia à censura imposta por ele em âmbito nacional, em contraposição ao sucesso e às premiações conquistadas em âmbito internacional. Poderia ainda ser citada sua conexão com o PCB e o Centro Popular de Cultura."
+      }
+    },
+    "18": {
+      "resposta": "**Objetivo da questão:** A questão, de tema bastante atual, foi elaborada a partir dos seguintes itens programáticos: “As guerras mundiais e a formação de um mundo polarizado”, “A guerra fria e as zonas de tensão internacional”, “O processo de globalização: dinâmicas e tensões” e “A noção de cidadania e os direitos civis, sociais e políticos”.",
+      "itens": {
+        "a": "O Alto Comissariado das Nações Unidas para Refugiados, ACNUR, foi criado após a Segunda Guerra Mundial, quando a Europa ainda lidava com boa parte dos problemas decorrentes do conflito. Entre esses problemas, destaca-se o grande número de refugiados que precisaram abandonar seus países de origem. Os candidatos deveriam indicar que, nesse contexto, a ACNUR oferecia assistência aos refugiados europeus; a assistência a um público mais ampliado viria em anos posteriores, como indica o texto.",
+        "b": "Os princípios da ONU garantem que “todos os seres humanos nascem livres e iguais em dignidade e direitos”. Esses princípios são mobilizados pela agência para garantir que refugiados não sejam vítimas da violação de direitos humanos e para assegurar o seu acesso à cidadania e a condições de vida que possam garantir sua integridade física."
+      }
+    }
+  },
+  "complementos": {
+    "10": {
+      "assunto": "Geometria analítica"
+    },
+    "11": {
+      "assunto": "Matrizes e sistemas"
+    },
+    "12": {
+      "assunto": "Geometria espacial"
+    },
+    "13": {
+      "assunto": "Antiguidade"
+    },
+    "14": {
+      "assunto": "Colonização da América"
+    },
+    "15": {
+      "assunto": "Revoluções e século XIX"
+    },
+    "16": {
+      "assunto": "Brasil contemporâneo"
+    },
+    "17": {
+      "assunto": "Primeira República"
+    },
+    "18": {
+      "assunto": "Mundo contemporâneo"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 10,
+      "status": "corrigida",
+      "notas": "faltava o “Objetivo da questão” da prova comentada em resposta; acrescentado. Enunciado, itens e respostas conferidos com o caderno e as respostas esperadas, sem divergência."
+    },
+    {
+      "numero": 11,
+      "status": "atencao",
+      "notas": "Acrescentado o “Objetivo da questão” (prova comentada). ERRO DA BANCA no item a das respostas esperadas, mantido como no original: para a = −1, a equação 1 − b = −1 + b dá b = 1, mas o documento de respostas esperadas escreve “b = 2” (duas vezes: “1 − b = −1 + b, b = 2” e “(i) a = −1 e b = 2”). A própria prova comentada oficial traz o valor correto (“2 = 2b e daí, b = 1” e “(i) a = −1 e b = 1”). Uma pessoa deve decidir se publica a versão da prova comentada ou acrescenta nota."
+    },
+    {
+      "numero": 12,
+      "status": "corrigida",
+      "notas": "faltava o “Objetivo da questão” da prova comentada em resposta; acrescentado. Enunciado, itens e respostas conferidos com o caderno e as respostas esperadas, sem divergência."
+    },
+    {
+      "numero": 13,
+      "status": "corrigida",
+      "notas": "faltava o “Objetivo da questão” da prova comentada em resposta; acrescentado. Enunciado, itens e respostas conferidos com o caderno e as respostas esperadas, sem divergência."
+    },
+    {
+      "numero": 14,
+      "status": "corrigida",
+      "notas": "faltava o “Objetivo da questão” da prova comentada em resposta; acrescentado. Enunciado, itens e respostas conferidos com o caderno e as respostas esperadas, sem divergência. Observação do transcritor (“Chimalpahim” no item a da resposta) conferida: está assim no documento oficial e a grafia foi mantida."
+    },
+    {
+      "numero": 15,
+      "status": "corrigida",
+      "notas": "faltava o “Objetivo da questão” da prova comentada em resposta; acrescentado. Enunciado, itens e respostas conferidos com o caderno e as respostas esperadas, sem divergência."
+    },
+    {
+      "numero": 16,
+      "status": "corrigida",
+      "notas": "faltava o “Objetivo da questão” da prova comentada em resposta; acrescentado. Enunciado, itens e respostas conferidos com o caderno e as respostas esperadas, sem divergência."
+    },
+    {
+      "numero": 17,
+      "status": "corrigida",
+      "notas": "faltava o “Objetivo da questão” da prova comentada em resposta; acrescentado. Enunciado, itens e respostas conferidos com o caderno e as respostas esperadas, sem divergência."
+    },
+    {
+      "numero": 18,
+      "status": "corrigida",
+      "notas": "faltava o “Objetivo da questão” da prova comentada em resposta; acrescentado. Enunciado, itens e respostas conferidos com o caderno e as respostas esperadas, sem divergência."
+    }
+  ]
+}
