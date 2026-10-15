@@ -1,0 +1,180 @@
+{
+ "edicao": "unicamp-2021-2-cet",
+ "intervalo": [
+  12,
+  22
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {
+  "12": {
+   "resposta": "**Objetivo da questão:** A questão 12 trata, no item **a**, do tópico Cinemática do movimento em uma dimensão, e, no item **b**, Energia potencial gravitacional e Potência. No item **a**, a vazão do rio Amazonas é fornecida, e pede-se a velocidade da água em um ponto em que o rio tem determinada largura e profundidade. O candidato precisa usar a relação entre vazão, velocidade e área da secção reta do rio, e o enunciado fornece informações que permitem deduzir essa relação, caso o candidato não a conheça. No item **b**, o candidato deve calcular a potência transferida pela água à turbina de uma hidrelétrica. Para isso, deve calcular a variação da energia potencial gravitacional por unidade de tempo na queda d’água.",
+   "itens": {
+    "a": "$$Z = \\frac{Vol}{\\Delta t} = \\frac{L \\times p \\times \\Delta x}{\\Delta t} = L \\times p \\times v$$\n\n$$v = \\frac{Z}{L \\times p} = \\frac{210\\,000\\ \\text{m}^3/\\text{s}}{10000\\ \\text{m} \\times 50\\ \\text{m}} = 0{,}42\\ \\text{m/s}$$",
+    "b": "$$P = \\frac{E_p}{\\Delta t} = \\frac{mgh}{\\Delta t} = \\left(900.000\\ \\text{kg/s}\\right) \\times \\left(10\\ \\text{m/s}^2\\right) \\times 70\\ \\text{m} = 6{,}3 \\times 10^{8}\\ \\text{W}$$"
+   }
+  },
+  "13": {
+   "resposta": "**Objetivo da questão:** A questão explora o lançamento recente de um foguete da empresa americana SpaceX que levou dois astronautas à Estação Espacial Internacional (ISS). No item **a** espera-se que o candidato utilize corretamente o conceito de iminência de movimento e aplique a fórmula fornecida no enunciado para o cálculo do impulso específico do foguete. O item **b** explora a conservação do momento linear em um sistema isolado (menino+skate+bola) para o cálculo do módulo da velocidade de recuo do conjunto menino+skate.",
+   "itens": {
+    "a": "$$F_M = P_F = M_F\\, g$$\n\n$$I_{SP}\\, g\\, \\frac{\\Delta m}{\\Delta t} = M_F\\, g$$\n\n$$I_{SP} = \\frac{M_F}{\\Delta m / \\Delta t} = \\frac{6{,}0 \\times 10^{5}\\ \\text{kg}}{2{,}0 \\times 10^{3}\\ \\text{kg/s}} = 300\\ \\text{s}$$",
+    "b": "$q = mv$ e $q_{\\text{final}} = q_{\\text{inicial}} = 0$\n\n$$0{,}4\\ \\text{kg} \\times 5\\ \\text{m/s} - 50\\ \\text{kg} \\times v_{\\text{menino+skate}} = 0$$\n\n$$v_{\\text{menino+skate}} = \\frac{0{,}4\\ \\text{kg} \\times 5\\ \\text{m/s}}{50\\ \\text{kg}} = 0{,}04\\ \\text{m/s}$$"
+   }
+  },
+  "14": {
+   "resposta": "**Objetivo da questão:** A questão utiliza como contexto os materiais plásticos e suas deformações. Destaca o trabalho da estudante gaúcha Juliana Estradioto, uma das vencedoras da 5ª edição do Prêmio Donna, que ganhou reconhecimento internacional. Seu trabalho apresenta um método para transformar a casca de macadâmia em plástico biodegradável.\n\nNo item **a** espera-se que o candidato aplique o conceito de dilatação térmica linear de uma barra plástica sujeita a certa variação de temperatura. O item **b** aborda o conceito de energia potencial elástica associado à deformação de uma mola.",
+   "itens": {
+    "a": "$$L = L_0 + \\Delta L = L_0 (1 + \\alpha \\Delta T)$$\n\n$$L = 50\\ \\text{cm} \\left(1 + 7{,}0 \\times 10^{-5}\\ ^\\circ\\text{C}^{-1}\\ (50 - 20)\\ ^\\circ\\text{C}\\right) = 50{,}105\\ \\text{cm}$$",
+    "b": "$$E = \\frac{k \\Delta x^2}{2} = \\frac{8{,}0 \\times 10^{3}\\ \\text{N/m} \\times \\left(2{,}0 \\times 10^{-3}\\ \\text{m}\\right)^2}{2} = 0{,}016\\ \\text{J}$$"
+   }
+  },
+  "15": {
+   "resposta": "**Objetivo da questão:** A questão traz como contexto a utilização de aparelhos conhecidos como espelhos inteligentes, que simulam espelhos convencionais e visam a ampliar sua função de produção de imagens dos objetos. No item **a** espera-se que o candidato mostre seu conhecimento sobre a formação de imagens em um espelho plano. O item **b** exige a utilização da segunda Lei de Newton e o conceito de força elétrica agindo sobre uma partícula carregada em telas de tubos de raios catódicos.",
+   "itens": {
+    "a": "![esquema com o espelho E como uma reta vertical; à esquerda, o ponto dos olhos da pessoa e o ponto do objeto; à direita, os pontos das imagens; setas indicam as distâncias d_o, d_i, d_p e d_pi](fig:r06-c1)\n\n$$d_{pi} = d_p + d_i = 10\\ \\text{cm} + 50\\ \\text{cm} = 60\\ \\text{cm}$$",
+    "b": "$$a = \\frac{q E_0}{m} = \\frac{3{,}2 \\times 10^{-19}\\ \\text{C} \\cdot 4000\\ \\text{N/C}}{2{,}0 \\times 10^{-26}\\ \\text{kg}} = 6{,}4 \\times 10^{10}\\ \\text{m/s}^2$$"
+   }
+  },
+  "16": {
+   "resposta": "**Objetivo da questão:** A questão 16 aborda no item **a** a Lei dos Gases perfeitos, e, no item **b**, o tópico “Óptica e ondas: Caráter ondulatório da luz; Espectro eletromagnético”. Nos dois itens, o candidato deve demonstrar habilidade na leitura de gráficos. No item **a**, o candidato deve calcular o volume molar do ar no pico do Aconcágua fazendo uso da temperatura e da pressão naquela altitude, obtidas do gráfico fornecido. A partir daí, basta usar a lei dos gases perfeitos. Já no item **b**, o candidato deve interpretar o enunciado e concluir que o comprimento de onda em questão é o maior nas faixas das janelas de alta transmitância. Feita a leitura do gráfico, basta usar a relação entre comprimento de onda, frequência e velocidade da onda (velocidade da luz).",
+   "itens": {
+    "a": "![gráfico da pressão e da temperatura em função da altitude, com dois pontos assinalados em 7,0 km, um sobre cada curva](fig:r07-c1)\n\n$$\\left(\\frac{V}{n}\\right) = \\frac{RT}{P} = \\frac{\\left(8\\ \\dfrac{\\text{J}}{\\text{mol.K}}\\right) \\times 240\\ \\text{K}}{4 \\times 10^{4}\\ \\text{Pa}} = 48 \\times 10^{-3}\\ \\text{m}^3/\\text{mol}$$",
+    "b": "![gráfico da transmitância em função do comprimento de onda, com um ponto assinalado em 14 µm sobre o eixo horizontal](fig:r07-c2)\n\n$$E_{\\min} = h f_{\\min} = h \\left(\\frac{c}{\\lambda_{\\max}}\\right) = 4 \\times 10^{-15}\\ \\text{eV.s} \\times \\frac{3 \\times 10^{8}\\ \\text{m/s}}{14 \\times 10^{-6}\\ \\text{m}} = 0{,}086\\ \\text{eV}$$"
+   }
+  },
+  "17": {
+   "resposta": "**Objetivo da questão:** Essa questão envolve conceitos fundamentais de equilíbrio químico e teoria de acidez e basicidade, e indaga como o aumento da concentração de $\\text{CO}_2$ no sangue afeta a sua acidez. No item **a**, é necessário identificar qual curva (hemoglobina fetal ou adulta) apresenta maior afinidade com o oxigênio. Espera-se que o candidato faça uma leitura das curvas e avalie qual apresenta maior porcentagem de saturação de oxigênio em função da pressão parcial de $\\text{O}_2$. No item **b**, o enunciado informa que o efeito Bohr ocorre quando há uma alteração no metabolismo, liberando maior quantidade de $\\text{CO}_2$ no sangue. A partir desta informação, espera-se que o candidato indique a curva do gráfico que representa o resultado do efeito Bohr, analisando as curvas e os dados correspondentes, principalmente os valores de pH associados a cada curva. Espera-se em seguida uma explicação de como se chegou a essa conclusão. Neste item também se espera uma avaliação das curvas fornecidas em associação com os dados nos gráficos e as informações do enunciado.",
+   "itens": {
+    "a": "A hemoglobina fetal tem maior afinidade pelo oxigênio. A porcentagem de saturação para a hemoglobina fetal é maior que a da hemoglobina de adultos em qualquer valor de pressão parcial de oxigênio. Isso indica que a constante de associação para a hemoglobina fetal é maior.",
+    "b": "A curva tracejada representa o resultado final do efeito Bohr. O $\\text{CO}_2$ é um óxido ácido e o aumento da sua concentração diminui o pH do sangue, segundo a equação:\n\n$$\\text{CO}_2\\ (\\text{aq}) + \\text{H}_2\\text{O}\\ (\\text{l}) = \\text{H}^+\\ (\\text{aq}) + \\text{HCO}_3^-\\ (\\text{aq})$$\n\nPela tendência da curva tracejada, em pH mais baixo ocorre uma redução na saturação de oxigênio."
+   }
+  },
+  "18": {
+   "resposta": "**Objetivo da questão:** Essa questão envolve conceitos fundamentais de termoquímica e também conhecimentos acerca do impacto que certos gases têm no meio ambiente. No item **a**, o candidato deve considerar os dados tabelados e identificar a melhor e a pior fonte energética, justificando a resposta. O conjunto de dados permite que seja identificada sem grande dificuldade a melhor fonte energética aplicando-se regra de três, ou seja, multiplicando-se a composição percentual em cada fonte pela eficiência energética relativa de cada componente do gás natural. No item **b**, novamente a partir dos dados fornecidos, neste caso levando em conta a natureza dos gases, deve-se identificar a melhor e a pior fonte de energia do ponto de vista ambiental. Neste caso, além da leitura dos dados é necessário identificar, entre os compostos em cada fonte, os possíveis agentes poluidores.",
+   "itens": {
+    "a": "**MELHOR FONTE:** UTHMANIYAH\n**PIOR FONTE:** UCH\n\n**Justificativa:** Considerando que a composição do gás é dada em V/V%, e é fornecida a eficiência energética relativa em $\\text{MJ/m}^3$, calcula-se a energia gerada por cada fonte levando-se em consideração a composição percentual na fonte:\n\nLaeq = 0,69×37 + 0,03×65 + 0,009×92 + 0,005x120 + 0,153x22 = 33 $\\text{MJ/m}^3$.\nUch = 0,273×37 + 0,007×65 + 0,003×92 + 0,003x120 = 11 $\\text{MJ/m}^3$.\nUthmaniyah = 0,555×37 + 0,18×65 + 0,098×92 + 0,045x120 + 0,016x147 + 0,015x22 = 49 $\\text{MJ/m}^3$.\n\nAssim, a fonte mais energética é Uthmaniyah e a fonte menos energética é Uch.",
+    "b": "**MELHOR FONTE:** UCH\n**PIOR FONTE:** LAEQ\n\n**Justificativa:** Por volume de gás queimado, Laeq é a pior fonte do ponto de vista ambiental, pois apresenta um alto teor de $\\text{H}_2\\text{S}$, cuja queima produz $\\text{SO}_2$, um dos principais gases responsáveis pela chuva ácida. Uch é a melhor fonte, por volume queimado, pois é isenta de $\\text{H}_2\\text{S}$."
+   }
+  },
+  "19": {
+   "resposta": "**Objetivo da questão:** Esta questão aborda temas relacionados com estequiometria, meio ambiente, química e apresenta resultados relativos à produção de biodiesel a partir de duas fontes alternativas – farinha de penas e pó de café para a extração de óleo e posterior processo de transesterificação. O item **a** exige basicamente a capacidade de interpretação do gráfico e extração das informações pertinentes, sendo necessário correlacionar os dois gráficos para justificar a resposta. O gráfico da esquerda fornece a porcentagem de óleo em cada resíduo (%m/m), enquanto o gráfico da direita indica a estimativa de produção mundial de biodiesel ($10^7$L) a partir desses resíduos. O item **b** pede que se aponte e se comente um aspecto positivo e um negativo quanto ao uso dos resíduos de farinha de penas e de pó de café para a produção de biodiesel.",
+   "itens": {
+    "a": "A farinha de pena deve estar disponível em maior quantidade para a produção de biodiesel. Apesar do teor percentual de óleo ser comparativamente maior no resíduo de café, as estimativas para produção mundial de biodiesel apontam que haveria uma produção maior a partir do uso da farinha de pena. Essa maior produção só seria possível se a farinha de pena estivesse disponível em maior quantidade.",
+    "b": "**Aspecto Positivo:**\nOs aspectos positivos em relação a esta proposta para a produção de biodiesel estão relacionados com: 1) o baixo custo das matérias-primas, 2) sua abundância, 3) o fato de serem amigáveis ao meio-ambiente e 4) o reaproveitamento de resíduos da indústria alimentícia.\n\nObs.: Para a resposta, basta apontar apenas um dos aspectos listados acima.\n\n**Aspecto Negativo:**\nUm aspecto negativo seria a dificuldade no processo de separação do óleo, o que, embora factível, envolve um grande número de etapas: secagem, aquecimento com solvente orgânico em ebulição, filtragem e destilação). E quase todas estas etapas envolvem consumo de energia."
+   }
+  },
+  "20": {
+   "resposta": "**Objetivo da questão:** Esta questão aborda tópicos relacionados com estequiometria, compostos orgânicos e química ao explorar um tema da Química Verde, que busca maximizar o rendimento das reações, minimizar a geração de resíduos e de etapas de produção, empregar processos e reagentes mais amigáveis ambientalmente. A questão requer do candidato interpretação e extração de informações do enunciado, não exigindo um conhecimento químico específico e prévio. Na questão é proposta a síntese de um sal imidazólico, cujo cátion é o íon imidazólico (indicado pelo sinal de +) e o ânion pode ser os íons brometo ou cloreto (indicados por $\\text{X}^-$ = $\\text{Br}^-$ ou $\\text{Cl}^-$), sendo que, independentemente do ânion, o sal apresenta as mesmas propriedades. Para maximizar a quantidade de produto em relação ao reagente e minimizar a quantidade de resíduo, são propostas duas métricas simples: parâmetro Fator -E (Fator Ambiental) – quanto menor for o valor, menor a massa de resíduo gerada, e o parâmetro EMR (Eficiência Mássica da Reação) – quanto maior for o valor, maior quantidade de reagentes é incorporada ao produto. Assim, busca-se um Fator-E que tende a zero e o parâmetro EMR que tende a 1. O item **a** exigia que o candidato fizesse essa análise, apresentando-a como justificativa para decidir qual sal deveria ser produzido: brometo ou cloreto de 1-metil-imidazol. A análise da tabela com os parâmetros indica um Fator-E menor e EMR maior quando a síntese é conduzida utilizando-se o reagente com bromo (1-bromo-hexano), portanto, a síntese do sal 2 (brometo de 1-metil-imidazol). O item **a** explora o impacto econômico do processo químico, a partir das métricas Fator-E e EMR, enquanto o item **b** explora o impacto ambiental, ao propor uma análise dos efeitos tóxicos-ambientais dos <u>reagentes</u> empregados na síntese do sal imidazólico, a partir de dados de avaliação qualitativa fornecida em uma tabela específica. Considerando que o reagente 1-metil-imidazol é comum à síntese do sal 1 e à do sal 2, o candidato deveria decidir pela produção do sal 1 ou 2 a partir da toxicidade dos reagentes de X = Cl ou X = Br, concluindo pela recomendação de produção do sal 1, pois ele tem o reagente com menores efeitos tóxicos/ambientais. A questão procura mostrar, embora não fosse alvo de análise, que a avaliação de impacto ambiental e econômico em um dado processo químico pode levar a indicações opostas e que a decisão final depende de um estudo mais abrangente.",
+   "itens": {
+    "a": "O sal 2 seria recomendado para produção considerando-se as métricas Fator-E e EMR. O Fator-E relaciona a massa de resíduos com a massa de produto gerado. Assim, valores menores de Fator-E indicam menor geração de resíduos e maior eficiência do processo. A EMR relaciona a massa do produto com a massa dos reagentes. Assim, valores maiores de EMR indicam melhor rendimento da reação e maior incorporação de reagentes no produto desejado.",
+    "b": "A reação de formação dos sais imidazólicos (X = Cl ou Br) tem um reagente comum, que é o 1-metil-imidazol. Assim, é necessário analisar os efeitos toxico-ambientais do reagente alquilante: 1-cloro-hexano e 1-bromo-hexano. Com base nos dados apresentados no quadro, seria recomendada a produção do sal 1, usando o 1-cloro-hexano, que é o que apresenta os menores efeitos de toxicidade e de persistência."
+   }
+  },
+  "21": {
+   "resposta": "**Objetivo da questão:** A questão aborda conceitos de cinética química, velocidade de reação e expressões de concentração. O candidato deveria ler, analisar, comparar e interpretar informações apresentadas no enunciado e em um gráfico de concentração em função do tempo. A questão se contextualiza num exemplo do cotidiano e sua solução se configura como uma tomada de decisão em relação ao problema apresentado. É importante salientar que a decisão exigida na resposta deve ser tomada apenas por profissional da área de saúde, legalmente constituído. A questão da dosagem de remédios e alimentos se reveste de importância, pois, em geral, diferenças no metabolismo podem ser comprometedores na eficácia de medicações ou dietas. Assim, a questão é oportuna por alertar o cidadão (estudante/vestibulando) sobre possíveis modificações de dosagem sugeridas por médicos ou nutricionistas. O foco dado ao conhecimento de assuntos como quantidades de substância, concentrações e cinética foge, dessa forma, do tradicionalmente apresentado em livros textos e materiais didáticos, contribuindo para um ensino mais “utilizável” pelo cidadão. O assunto contextualiza-se na administração e controle no uso de fármacos, e está presente também na área de Biologia, Medicina e Farmacologia.",
+   "itens": {
+    "a": "| | Curva 1 | Curva 2 | Curva 3 |\n|---|---|---|---|\n| **Metabolismo** | Acelerado | Normal | Lento |\n\nNo metabolismo acelerado, a taxa de metabolização é rápida e não permite que a concentração atinja a janela terapêutica. Já no metabolismo normal, a taxa de metabolização permite que a concentração do fármaco se mantenha dentro da janela terapêutica. Por outro lado, no metabolismo lento, a taxa de metabolização é lenta e faz com que a concentração do fármaco aumente continuamente.",
+    "b": "Para o indivíduo com metabolismo lento, seria possível administrar as doses de fármaco em intervalos de tempo maiores (menor frequência de administração) ou diminuir a concentração da dose administrada. Para o indivíduo com metabolismo acelerado, as doses devem ser administradas em intervalos de tempo mais curtos (maior frequência de administração) ou em doses mais concentradas para atingir a janela terapêutica."
+   }
+  },
+  "22": {
+   "resposta": "**Objetivo da questão:** Esta questão aborda conceitos de gases, equilíbrio químico e cálculos estequiométricos (relações ponderais e volumétricas nas reações químicas). A questão é um exemplo da aplicação do conteúdo, já que trata do desenvolvimento de um dispositivo para armazenamento de gás hidrogênio para ser utilizado como combustível. É um desenvolvimento tecnológico e científico, mas não deixa de ser algo que permeia o dia a dia do cidadão, já que há uma cobrança da sociedade pelo desenvolvimento de alternativas para o uso de combustíveis fosseis. Esse desenvolvimento “esbarra” em algumas dificuldades, duas das quais são retratadas no problema: aumento de volume e aumento de peso nos automóveis com a introdução da tecnologia do combustível à base de hidrogênio. O conhecimento em questão também está presente na área de Física e Engenharia, principalmente no campo profissional. No meio produtivo relacionado ao tema, é usual a presença de equipes multidisciplinares, além de químicos.",
+   "itens": {
+    "a": "A curva B representa o melhor material para se armazenar hidrogênio. Esta curva apresenta, simultaneamente, uma capacidade de armazenamento máxima em pressão constante e uma boa reversibilidade.",
+    "b": "Para a gasolina, temos que:\n\n$$V_{\\text{gasolina}} = m_{\\text{gasolina}}/d_{\\text{gasolina}} = 24\\ \\text{kg}\\,/700\\ \\text{kg m}^{-3} = 0{,}034\\ \\text{m}^3.$$\n\nPara o hidrogênio, temos que:\n\n$$m_{\\text{Mg2Ni}} = 8\\ \\text{kg} / 0{,}036 = 222{,}2\\ \\text{kg}.$$\n\n$$V_{\\text{Mg2Ni}} = m_{\\text{Mg2Ni}}/d_{\\text{Mg2Ni}} = 222{,}2\\ \\text{kg}\\,/3.400\\ \\text{kg m}^{-3} = 0{,}065\\ \\text{m}^3.$$\n\nEm termos de volume, o percentual ocupado pelo tanque de hidrogênio ou de gasolina em relação ao volume total do carro é pequeno, assim como o percentual em massa para a gasolina. Por outro lado, o percentual em massa devido ao material $\\text{Mg}_2\\text{Ni}$ provoca uma aumento de 22% na massa do carro, sendo uma possível desvantagem dessa tecnologia."
+   }
+  }
+ },
+ "complementos": {
+  "12": {
+   "assunto": "Cinemática"
+  },
+  "13": {
+   "assunto": "Quantidade de movimento"
+  },
+  "14": {
+   "assunto": "Termologia"
+  },
+  "15": {
+   "assunto": "Óptica"
+  },
+  "16": {
+   "assunto": "Termodinâmica"
+  },
+  "17": {
+   "assunto": "Equilíbrio químico"
+  },
+  "18": {
+   "assunto": "Termoquímica"
+  },
+  "19": {
+   "assunto": "Reações e estequiometria"
+  },
+  "20": {
+   "assunto": "Química ambiental"
+  },
+  "21": {
+   "assunto": "Cinética química"
+  },
+  "22": {
+   "assunto": "Gases"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "Enunciado, itens e respostas conferidos com p14, r05 e prova comentada. Observação do transcritor mantida: a frase da densidade da água fica no item b. Sem '(2 pontos)'. Faltava o objetivo da questão em resposta; acrescentado da prova comentada."
+  },
+  {
+   "numero": 13,
+   "status": "corrigida",
+   "notas": "Conferido com p15, r06 e prova comentada. Faltava o objetivo; acrescentado. Sem '(2 pontos)'."
+  },
+  {
+   "numero": 14,
+   "status": "corrigida",
+   "notas": "Conferido com p16, r06 e prova comentada. Faltava o objetivo (dois parágrafos no original); acrescentado. Sem '(2 pontos)'."
+  },
+  {
+   "numero": 15,
+   "status": "corrigida",
+   "notas": "Conferido com p17, r06/r07 e prova comentada. Figura r06-c1 confere com o esquema da banca. Faltava o objetivo; acrescentado. Sem '(2 pontos)'."
+  },
+  {
+   "numero": 16,
+   "status": "corrigida",
+   "notas": "Conferido com p18, r07 e prova comentada. Gráficos p18-c3/c4 e r07-c1/c2 completos. Faltava o objetivo; acrescentado. Sem '(2 pontos)'."
+  },
+  {
+   "numero": 17,
+   "status": "corrigida",
+   "notas": "Conferido com p19, r08 e prova comentada. Figuras completas; as descrições não entregam a resposta. Faltava o objetivo; acrescentado sem as frases de dificuldade/interesse geral. Sem '(2 pontos)'."
+  },
+  {
+   "numero": 18,
+   "status": "corrigida",
+   "notas": "Conferido com p20, r08 e prova comentada. Tabela p20-c1 confere. Faltava o objetivo; acrescentado só até a parte sobre o item b, sem as frases de dificuldade e de interdisciplinaridade. Sem '(2 pontos)'."
+  },
+  {
+   "numero": 19,
+   "status": "corrigida",
+   "notas": "Conferido com p21, r08/r09 e prova comentada. Parêntese solto em 'destilação).' confere com o documento oficial. Faltava o objetivo; acrescentado sem as frases de dificuldade e de desempenho. Sem '(2 pontos)'."
+  },
+  {
+   "numero": 20,
+   "status": "corrigida",
+   "notas": "Conferido com p22, r09 e prova comentada. Figura p22-c1 confere e a descrição não entrega a resposta. Faltava o objetivo; acrescentado inteiro ('Fator -E' com espaço e 'reagentes' sublinhado como no original). Sem '(2 pontos)'."
+  },
+  {
+   "numero": 21,
+   "status": "corrigida",
+   "notas": "Conferido com p23, r09 e prova comentada. Aspa reta em 'janela terapêutica\"' confere com o original. Tabela vazia do campo de resolução mantida. Faltava o objetivo; acrescentado. Sem '(2 pontos)'."
+  },
+  {
+   "numero": 22,
+   "status": "corrigida",
+   "notas": "Conferido com p24, r09 e prova comentada. A ordem trocada 'massa e volume ... 6 m³ e 1.000 kg' e 'uma aumento' são erros do original, mantidos. Faltava o objetivo; acrescentado (sem os rótulos do gráfico que se misturaram ao texto). Sem '(2 pontos)'."
+  }
+ ]
+}
