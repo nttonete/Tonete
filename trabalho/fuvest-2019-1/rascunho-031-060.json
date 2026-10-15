@@ -1,6 +1,8 @@
 {
  "edicao": "fuvest-2019-1",
- "textos_base": {},
+ "textos_base": {
+  "t58-59": "*Mito, na acepção aqui empregada, não significa mentira,*\n*falsidade ou mistificação. Tomo de empréstimo a formulação*\n*de Hans Blumenberg do mito político como um processo*\n*contínuo de trabalho de uma narrativa que responde a uma*\n[[5]]*necessidade prática de uma sociedade em determinado*\n*período. Narrativa simbólica que é, o mito político coloca em*\n*suspenso o problema da verdade. Seu discurso não pretende ter*\n*validade factual, mas também não pode ser percebido como*\n*mentira (do contrário, não seria mito). O mito político confere*\n[[10]]*um sentido às circunstâncias que envolvem os indivíduos: ao*\n*fazê-los ver sua condição presente como parte de uma história*\n*em curso, ajuda a compreender e suportar o mundo em que*\n*vivem.*\n\nENGELKE, Antonio. O anjo redentor. **Piauí**, ago. 2018, ed. 143, p. 24."
+ },
  "questoes": [
   {
    "numero": 31,
@@ -382,6 +384,81 @@
     "E": "$\\frac{125}{243}$"
    },
    "observacoes": ""
+  },
+  {
+   "numero": 56,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico mostra a evolução diária, em certo intervalo de tempo não especificado na abscissa, de dois índices econômicos, normalizados para que suas médias, no mesmo período, sejam ambas iguais a 1. O valor do índice 1 no dia $i$ é $x_i$ e o valor do índice 2 no dia $i$ é $y_i$. O gráfico ilustra como cada um dos índices $x_i$ e $y_i$ varia em função de $i$, mostrando os pontos $(i, x_i)$ (pontos escuros) e $(i, y_i)$ (pontos claros).\n\n![Gráfico da evolução diária do Índice 1 (pontos escuros) e do Índice 2 (pontos claros), com valores entre 0,7 e 1,2](fig:p17-f1)\n\nPara entender melhor a relação entre os dois índices, um novo gráfico foi feito com os pares $(x_i, y_i)$, isto é, com o índice 1 na abscissa contra o índice 2 na ordenada. O resultado foi:",
+   "alternativas": {
+    "A": "![Alternativa A: diagrama de dispersão com o índice 1 na abscissa e o índice 2 na ordenada](fig:p17-c1)",
+    "B": "![Alternativa B: diagrama de dispersão com o índice 1 na abscissa e o índice 2 na ordenada](fig:p17-c3)",
+    "C": "![Alternativa C: diagrama de dispersão com o índice 1 na abscissa e o índice 2 na ordenada](fig:p17-c5)",
+    "D": "![Alternativa D: diagrama de dispersão com o índice 1 na abscissa e o índice 2 na ordenada](fig:p17-c2)",
+    "E": "![Alternativa E: diagrama de dispersão com o índice 1 na abscissa e o índice 2 na ordenada](fig:p17-c4)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 57,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Examine o cartum.\n\n![Cartum de Adão Iturrusgarai: uma personagem segura um martelo diante de uma caixa na parede com a inscrição “Em caso de emergência quebre a cara”](fig:p17-f7)\n\nITURRUSGARAI, Adão. A vida como ela yeah. **Folha de S. Paulo**, ago.2018.\n\nO efeito de humor que se obtém no cartum decorre, principalmente,",
+   "alternativas": {
+    "A": "da expressão facial da personagem.",
+    "B": "do uso de uma ferramenta fora de contexto.",
+    "C": "da situação rotineira exposta pela imagem.",
+    "D": "da ambiguidade presente na expressão “quebre a cara”.",
+    "E": "do emprego de linguagem popular."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 58,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t58-59",
+   "enunciado": "De acordo com o texto, o “mito político”",
+   "alternativas": {
+    "A": "prejudica o entendimento do mundo real.",
+    "B": "necessita da abstração do tempo.",
+    "C": "depende da verificação da verdade.",
+    "D": "é uma fantasia desvinculada da realidade.",
+    "E": "atende a situações concretas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 59,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t58-59",
+   "enunciado": "Sobre o sujeito da oração “em que vivem” (L. 12-13), é correto afirmar:",
+   "alternativas": {
+    "A": "Expressa indeterminação, cabendo ao leitor deduzir a quem se refere a ação verbal.",
+    "B": "Está oculto e visa evitar a repetição da palavra “circunstâncias” (L. 10).",
+    "C": "É uma função sintática preenchida pelo pronome “que” (L. 12).",
+    "D": "É indeterminado, tendo em vista que não é possível identificar a quem se refere a ação verbal.",
+    "E": "Está oculto e seu referente é o mesmo do pronome “os” em “fazê-los” (L. 11)."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 60,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*Sim, estou me associando à campanha nacional contra os*\n*verbos que acabam em \"ilizar\". Se nada for feito, daqui a pouco*\n*eles serão mais numerosos do que os terminados simplesmente*\n*em \"ar\". Todos os dias os maus tradutores de livros de*\n[[5]]marketing *e administração disponibilizam mais e mais termos*\n*infelizes, que imediatamente são operacionalizados pela mídia,*\n*reinicializando palavras que já existiam e eram perfeitamente*\n*claras e eufônicas.*\n\n*A doença está tão disseminada que muitos verbos honestos,*\n[[10]]*com currículo de ótimos serviços prestados, estão a ponto de*\n*cair em desgraça entre pessoas de ouvidos sensíveis. Depois que*\n*você fica alérgico a disponibilizar, como você vai admitir,*\n*digamos, \"viabilizar\"? É triste demorar tanto tempo para a*\n*gente se dar conta de que \"desincompatibilizar\" sempre foi um*\n[[15]]*palavrão.*\n\nFREIRE, Ricardo. Complicabilizando. **Época**, ago. 2003.\n\nCom base no texto, é correto afirmar:",
+   "alternativas": {
+    "A": "A “campanha nacional” a que se refere o autor tem por objetivo banir da língua portuguesa os verbos terminados em “ilizar”.",
+    "B": "O autor considera o emprego de verbos como “reinicializando” (L. 7) e “viabilizar” (L. 13) uma verdadeira “doença”.",
+    "C": "A maioria dos verbos terminados em “(i)lizar”, presentes no texto, foi incorporada à língua por influência estrangeira.",
+    "D": "O autor, no final do primeiro parágrafo, acaba usando involuntariamente os verbos que ele condena.",
+    "E": "Os prefixos “des” e “in”, que entram na formação do verbo “desincompatibilizar” (L. 14), têm sentido oposto, por isso o autor o considera um “palavrão”."
+   },
+   "observacoes": "O texto usa aspas retas (\"ilizar\", \"ar\", \"viabilizar\", \"desincompatibilizar\") e, no original, a palavra 'marketing' (linha 5) aparece em letra normal, não em itálico; mantido assim."
   }
  ]
 }
