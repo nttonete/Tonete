@@ -137,6 +137,26 @@
   "70": {
    "assunto": "Termodinâmica",
    "resolucao": "Com volume constante, a pressão do gás é diretamente proporcional à temperatura absoluta (transformação isocórica):\n\n$\\frac{p_1}{T_1} = \\frac{p_2}{T_2} \\Rightarrow \\frac{200}{300} = \\frac{p_2}{1\\,200}$\n\n$p_2 = 200 \\cdot \\frac{1\\,200}{300} = 200 \\cdot 4 = 800\\ \\text{PSI}$\n\nA temperatura em kelvin quadruplicou, então a pressão também quadruplicou.\n\n**Resposta: E**"
+  },
+  "71": {
+   "assunto": "Soluções",
+   "resolucao": "Primeiro, a massa máxima de fluoreto em 100 milhões de litros:\n\n$m_{\\text{F}^-} = 1{,}5\\ \\text{mg/L} \\times 1 \\times 10^8\\ \\text{L} = 1{,}5 \\times 10^8\\ \\text{mg} = 150\\ \\text{kg}$\n\nCom as massas da tabela periódica, $M_{\\text{NaF}} = 23 + 19 = 42\\ \\text{g/mol}$; em cada 42 g de NaF há 19 g de $\\text{F}^-$:\n\n$m_{\\text{NaF}} = 150\\ \\text{kg} \\times \\frac{42}{19} \\approx 331\\ \\text{kg}$\n\nO valor mais próximo é 330 kg. Quem esquece de converter fluoreto em fluoreto de sódio chega a 150 kg, que não está entre as opções.\n\n**Resposta: B**"
+  },
+  "72": {
+   "assunto": "Termoquímica",
+   "resolucao": "Energia fornecida pelo gerador em 1 hora:\n\n$E = P \\cdot \\Delta t = 180\\ \\text{kJ/s} \\times 3\\,600\\ \\text{s} = 648\\,000\\ \\text{kJ}$\n\nMassa de diesel necessária, pelo poder calorífico:\n\n$m = \\frac{648\\,000\\ \\text{kJ}}{45\\,000\\ \\text{kJ/kg}} = 14{,}4\\ \\text{kg} = 14\\,400\\ \\text{g}$\n\nQuantidade de matéria: $n = \\frac{14\\,400}{170} \\approx 84{,}7\\ \\text{mol} \\approx 85\\ \\text{mol}$.\n\n**Resposta: D**"
+  },
+  "73": {
+   "assunto": "Equilíbrio químico",
+   "resolucao": "Com pH = 5, a concentração de íons $\\text{H}^+$ é $[\\text{H}^+] = 10^{-5}\\ \\text{mol/L}$. Pela equação de ionização, $[\\text{CN}^-] = [\\text{H}^+] = 10^{-5}\\ \\text{mol/L}$.\n\nComo o ácido é muito fraco, quase nada se ioniza e $[\\text{HCN}] \\approx 0{,}2\\ \\text{mol/L}$. Então:\n\n$K_a = \\frac{[\\text{H}^+][\\text{CN}^-]}{[\\text{HCN}]} = \\frac{10^{-5} \\cdot 10^{-5}}{0{,}2} = \\frac{10^{-10}}{0{,}2} = 5 \\times 10^{-10}$\n\nA alternativa A ($1 \\times 10^{-10}$) é de quem esquece de dividir pela concentração do ácido.\n\n**Resposta: C**"
+  },
+  "74": {
+   "assunto": "Eletroquímica",
+   "resolucao": "O cério metálico é uma substância simples, então seu número de oxidação é **zero**.\n\nNo $\\text{CeO}_2$, cada oxigênio tem Nox $-2$; como o composto é neutro, $x + 2 \\cdot (-2) = 0$, e o cério tem Nox **+4**.\n\nO cério perde elétrons (o Nox aumenta de 0 para +4): ele se oxida e, por isso, é o **agente redutor**, pois provoca a redução do oxigênio.\n\n**Resposta: A**"
+  },
+  "75": {
+   "assunto": "Química orgânica",
+   "resolucao": "Na unidade que se repete do PET, cada carbonila ($\\text{C=O}$) do anel benzênico está ligada a um oxigênio que, por sua vez, se liga a carbono: o grupo $-\\text{COO}-$ é o grupo funcional **éster**.\n\nComo a cadeia é formada pela repetição de ligações éster, o PET é um **poliéster** (obtido da reação entre o ácido tereftálico e o etilenoglicol).\n\nNão há $-\\text{OH}$ livre (poliálcool), nitrogênio (poliamida) nem oxigênio ligado só a carbonos sem carbonila (poliéter); a carbonila não está entre dois carbonos (policetona).\n\n**Resposta: A**"
   }
  },
  "relatorio": [
