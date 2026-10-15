@@ -39,4 +39,6 @@ Caminhos possíveis: (a) mostrar o texto como imagem recortada do caderno oficia
 - fuvest-2018-1 q80: a resolução cita uma estória contada em "O burrinho pedrês" (Sagarana); o revisor não tinha o livro para conferir quem conta o quê.
 - unicamp-2017-1 q8 (*Lisbela e o prisioneiro*: tiro em Frederico Evandro, balas de festim) e q13 (*Coração, cabeça e estômago*: casamento de Silvestre) — detalhes de enredo não verificados no livro.
 - unicamp-2017-1 q30: a alternativa A associa a febre amarela silvestre ao *Aedes*; o vetor silvestre é sobretudo *Haemagogus*/*Sabethes*. A resolução não repete o erro.
+- unicamp-2017-1 q38: pela física, a potência do vento varia com o cubo da velocidade (daria 975 MWh, fora das alternativas); a banca usou o quadrado. Gabarito B mantido.
+- unicamp-2017-1 q42: o enunciado chama o HPV de "caudovírus" (erro de conteúdo da banca); não muda a resposta.
 - unicamp-2020-1 q27: a resolução atribui à banca a afirmação de que o RN era o maior produtor de petróleo em terra; o dado da época não foi confirmado.
