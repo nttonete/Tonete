@@ -1,0 +1,202 @@
+{
+  "edicao": "unicamp-2020-1",
+  "intervalo": [
+    1,
+    30
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 2,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Tirinha em quatro quadros com dois meninos; um deles veste camiseta com os dizeres “GRINGO POWER! club”. Quadro 1, fala: “Billy, it's pretty rude to come to my house and tell my dad he can't speak Spanish.” Quadro 2, fala: “Hey, this is America! People have the right to say whatever they want!” Quadro 3: os dois meninos diante de uma casa, sem falas. Quadro 4, fala: “As long as, you know, it's in English.”](fig:p03-c2)\n\n(Disponível em https://licensing.andrewsmcmeel.com/features/ba?date=2004-08-03. Acessado em 22/05/2019.)\n\nA tirinha apresentada",
+      "alternativas": {
+        "A": "ironiza uma ideia de liberdade de expressão.",
+        "B": "critica políticas de imigração do governo dos EUA.",
+        "C": "defende uma visão de inglês como língua mundial.",
+        "D": "desaprova o uso da língua materna de imigrantes nos EUA."
+      }
+    },
+    {
+      "numero": 4,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Ícone do Instagram](fig:p03-c4)\n\nWhen 24-year-old fashion blogger Scarlett Dixon posted a picture of herself having breakfast, the internet turned nasty. “The best of days start with a smile and positive thoughts. And pancakes. And strawberries”, Dixon wrote on her Instagram feed. The post was reposted on Twitter. “Instagram is a ridiculous lie factory made to make us all feel inadequate”, wrote Nathan from Cardiff. His post, which has garnered more than 111,000 likes (22 times as many as Dixon’s original) and almost 25,000 retweets, prompted a wave of criticism, with comments going like “Fakelife!”.\n\nInstagram looks like the friendliest social network imaginable. But, for a growing number of users – and mental health experts – the very positivity of Instagram is precisely the problem. The site encourages its users to present an upbeat, attractive image that others may find at best misleading and at worse harmful. Instagram makes you worry that everyone is perfect – except you.\n\n(Adaptado de https://www.theguardian.com/technology/2018/sep/17. Acessado em 19/04/2019).\n\nO texto anterior apresenta uma crítica",
+      "alternativas": {
+        "A": "a Scarlett Dixon, por propagar uma autoimagem excessivamente positiva e irreal.",
+        "B": "ao Instagram, por propiciar postagens que veiculam uma autoimagem irreal das pessoas.",
+        "C": "ao *post* de Scarlett Dixon, por gerar uma onda de comentários negativos em outras mídias sociais.",
+        "D": "à exposição excessiva da vida íntima das pessoas no Instagram e em outras mídias sociais."
+      }
+    },
+    {
+      "numero": 14,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Durante uma visita ao Museu de Zoologia do Instituto de Biologia da UNICAMP, alunos do ensino médio puderam observar a diversidade de formas de vida e a classificação dos vertebrados.\n\n![Cladograma com ilustrações de um anfíbio, uma ave e um primata. A marca i está no ramo que leva ao anfíbio; ii, no ramo comum à ave e ao primata; iii, no ramo que leva à ave; iv, no ramo que leva ao primata](fig:p06-f3)\n\nAssinale a alternativa que indica corretamente as características (i), (ii), (iii) e (iv) apresentadas no cladograma acima.",
+      "alternativas": {
+        "A": "(i) fase larval e adulta no meio terrestre; (ii) cório e alantoide; (iii) quatro câmaras cardíacas; (iv) presença de pelos.",
+        "B": "(i) respiração cutânea; (ii) quatro câmaras cardíacas; (iii) ausência de dentes; (iv) presença de glândulas mamárias.",
+        "C": "(i) fase larval e adulta no meio aquático; (ii) respiração pulmonar; (iii) ausência de dentes; (iv) presença de pelos.",
+        "D": "(i) respiração cutânea; (ii) cório e alantoide; (iii) três câmaras cardíacas; (iv) presença de glândulas mamárias."
+      }
+    }
+  ],
+  "complementos": {},
+  "relatorio": [
+    {
+      "numero": 1,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 2,
+      "status": "corrigida",
+      "notas": "descrição da tirinha: faltava o texto da camiseta (“GRINGO POWER! club”), parte do contexto da ironia, e a menção ao quadro 3 sem falas."
+    },
+    {
+      "numero": 3,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 4,
+      "status": "corrigida",
+      "notas": "figura do ícone do Instagram (p03-c6) cortava a borda esquerda; novo recorte p03-c4."
+    },
+    {
+      "numero": 5,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 6,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 7,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 8,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 9,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 10,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 11,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 12,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 13,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 14,
+      "status": "corrigida",
+      "notas": "descrição do cladograma: as marcas no original são i, ii, iii, iv (sem parênteses) e faltava dizer em que ramo cada uma está, sem o que a questão fica impossível para quem usa leitor de tela."
+    },
+    {
+      "numero": 15,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 16,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 17,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 18,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 19,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 20,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 21,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 22,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 23,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 24,
+      "status": "ok",
+      "notas": "fonte com “etc...,espaço” e “p. 57,2007” sem espaço, conferido: está assim no caderno."
+    },
+    {
+      "numero": 25,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 26,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 27,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 28,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 29,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 30,
+      "status": "ok",
+      "notas": ""
+    }
+  ]
+}
