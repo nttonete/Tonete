@@ -38,7 +38,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Obras de leitura obrigatória",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d1-q02",
@@ -60,7 +61,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Gêneros e tipologia textual",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d1-q03",
@@ -82,7 +84,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Obras de leitura obrigatória",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d1-q04",
@@ -104,7 +107,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Obras de leitura obrigatória",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d1-q06",
@@ -126,7 +130,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d1-q07",
@@ -148,7 +153,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Obras de leitura obrigatória",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d1-q08",
@@ -172,7 +178,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Obras de leitura obrigatória",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d1-q09",
@@ -194,15 +201,18 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Semântica e sentido das palavras",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d1-q10",
    "numero": 10,
    "materia": "portugues",
-   "materias_extra": [],
+   "materias_extra": [
+    "geografia"
+   ],
    "texto_base": null,
-   "enunciado": "![Charge de jeangalvão com o título “Crise Climática”: um boi branco, à direita, em área de pasto com tocos, segura uma árvore na boca; à esquerda há uma floresta com muitas árvores, pássaros no céu e uma onça pequena](fig:p10-f1)\n\nDisponível em https://cartum.folha.uol.com.br/charges/.",
+   "enunciado": "![Charge de jeangalvão com o título “Crise Climática”: à direita, um boi branco, maior que as árvores, em área de pasto com tocos, segura uma árvore na boca; à esquerda há uma floresta com muitas árvores, pássaros no céu e uma onça pequena](fig:p10-f1)\n\nDisponível em https://cartum.folha.uol.com.br/charges/.",
    "itens": [
     {
      "rotulo": "a",
@@ -216,7 +226,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Figuras de linguagem",
+   "revisao": "corrigida"
   }
  ]
 }
