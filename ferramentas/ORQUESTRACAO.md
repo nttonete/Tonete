@@ -44,3 +44,9 @@ Escopo: os 45 cadernos com resposta oficial (Unicamp 2017–2026, FUVEST 2023–
 2. Pedido de cada lote: `python3 ferramentas/prompt_discursiva.py <edicao> <de> <ate>`; agente com `model: sonnet`, até 6 em paralelo, do ano mais recente para o mais antigo.
 3. Quando um lote termina: `python3 ferramentas/validar.py --rascunho <arquivo>`; questões puladas por direito autoral vão para `dados/provas/indisponiveis.json`; commit.
 4. Revisão: agente `revisor-questoes` com "edição <id>, questões <de> a <ate> (discursiva: siga a seção Discursivas)". Depois `montar_banco.py <edicao>` e `validar.py`.
+
+### Pedidos específicos para a revisão das discursivas
+
+- unicamp-2018-2-d2 (1–9): o transcritor reescreveu uma frase do objetivo da Q1 e deixou de fora o parágrafo introdutório das respostas de História (Q1–Q6). Restaurar o texto oficial.
+- Unicamp 2018–2021: alguns lotes trazem "(2 pontos)" tirado da prova comentada no início das respostas; pela regra, retirar quando não estiver nas respostas esperadas.
+- unicamp-2020-2-cet (1–11): o objetivo das Q1, Q2 e Q4 veio com listas de programa e comentários dos revisores; deixar só o objetivo.
