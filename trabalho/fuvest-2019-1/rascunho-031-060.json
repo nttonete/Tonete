@@ -77,7 +77,7 @@
     "D": "![Alternativa D](fig:p11-c4)",
     "E": "![Alternativa E](fig:p11-c5)"
    },
-   "observacoes": "Alternativas são figuras (estruturas de Lewis) recortadas uma a uma."
+   "observacoes": ""
   },
   {
    "numero": 36,
@@ -139,7 +139,7 @@
     "D": "6 combinações e ![Fórmula estrutural do peptídeo da alternativa D](fig:p12-c4)",
     "E": "6 combinações e ![Fórmula estrutural do peptídeo da alternativa E](fig:p12-c5)"
    },
-   "observacoes": "Alternativas A a E: cada fórmula estrutural foi recortada como figura própria. O quadro 'Note e adote' (fórmulas de lisina, glicina e fenilalanina) é figura; o título 'Note e adote:' ficou como texto."
+   "observacoes": ""
   },
   {
    "numero": 40,
@@ -153,6 +153,83 @@
     "C": "I - saturadas\nII - ácido maleico\nIII - diminui\nIV - iguais\nV - dissolvido\nVI - sólido",
     "D": "I - heterogêneas\nII - acetona\nIII - aumenta\nIV - diferentes\nV - sólido\nVI - sólido",
     "E": "I - saturadas\nII - ácido maleico\nIII - diminui\nIV - iguais\nV - sólido\nVI - líquido"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 41,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico a seguir indica a temperatura de ebulição de bromoalcanos ($\\text{C}_n\\text{H}_{2n+1}\\text{Br}$) para diferentes tamanhos de cadeia carbônica.\n\n![Gráfico da temperatura de ebulição (P.E., em °C) em função de n, de 1 a 5, para bromoalcanos, ao lado de um quadro com os halogênios F (9; 18,998), Cℓ (17; 35,453), Br (35; 79,904) e I (53; 126,904)](fig:p13-c1)\n\nConsiderando as propriedades periódicas dos halogênios, a alternativa que descreve adequadamente o comportamento expresso no gráfico de temperaturas de ebulição *versus* tamanho de cadeia carbônica para $\\text{C}_n\\text{H}_{2n+1}\\text{F}$ (□) e $\\text{C}_n\\text{H}_{2n+1}\\text{I}$ (•) é:\n\n**Note e adote:** P.E. = ponto de ebulição",
+   "alternativas": {
+    "A": "![Alternativa A: gráfico de P.E. (°C) em função de n](fig:p13-c2)",
+    "B": "![Alternativa B: gráfico de P.E. (°C) em função de n](fig:p13-c4)",
+    "C": "![Alternativa C: gráfico de P.E. (°C) em função de n](fig:p13-c6)",
+    "D": "![Alternativa D: gráfico de P.E. (°C) em função de n](fig:p13-c3)",
+    "E": "![Alternativa E: gráfico de P.E. (°C) em função de n](fig:p13-c5)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 42,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O cinamaldeído é um dos principais compostos que dão o sabor e o aroma da canela. Quando exposto ao ar, oxida conforme a equação balanceada:\n\n![Equação química da oxidação do cinamaldeído: cinamaldeído + 1/2 O2 → ácido cinâmico](fig:p13-f8)\n\nUma amostra de 19,80 g desse composto puro foi exposta ao ar por 74 dias e depois pesada novamente, sendo que a massa final aumentou em 1,20 g. A porcentagem desse composto que foi oxidada no período foi de\n\n**Note e adote:**\nMassas molares (g/mol):\nCinamaldeído = 132; $\\text{O}_2$ = 32\nConsidere que não houve perda de cinamaldeído ou do produto de oxidação por evaporação.",
+   "alternativas": {
+    "A": "10%",
+    "B": "25%",
+    "C": "50%",
+    "D": "75%",
+    "E": "90%"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 43,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma postagem de humor na internet trazia como título “Provas de que gatos são líquidos” e usava, como essas provas, fotos reais de gatos, como as reproduzidas aqui.\n\n![Cinco fotos de gatos acomodados em recipientes e em uma calha, ocupando a forma do espaço](fig:p13-f10)\n\n**Bored Panda**. https://www.boredpanda.com. Adaptado.\n\nO efeito de humor causado na associação do título com as fotos baseia-se no fato de que líquidos\n\n**Note e adote:**\nConsidere temperatura e pressão ambientes.",
+   "alternativas": {
+    "A": "metálicos, em repouso, formam uma superfície refletora de luz, como os pelos dos gatos.",
+    "B": "têm volume constante e forma variável, propriedade que os gatos aparentam ter.",
+    "C": "moleculares são muito viscosos, como aparentam ser os gatos em repouso.",
+    "D": "são muito compressíveis, mantendo forma mas ajustando o volume ao do recipiente, como os gatos aparentam ser.",
+    "E": "moleculares são voláteis, necessitando estocagem em recipientes fechados, como os gatos aparentam ser."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 44,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A bola de futebol que foi utilizada na Copa de 2018 foi chamada Telstar 18. Essa bola contém uma camada interna de borracha que pertence a uma classe de polímeros genericamente chamada de EPDM. A fórmula estrutural de um exemplo desses polímeros é\n\n![Fórmula estrutural de um polímero EPDM, entre parênteses com o índice n](fig:p14-f1)\n\nPolímeros podem ser produzidos pela polimerização de compostos insaturados (monômeros) como exemplificado para o polipropileno (um homopolímero):\n\n![Equação de polimerização do propileno: n monômeros de propeno originam o polipropileno, entre parênteses com o índice n](fig:p14-f2)\n\nOs monômeros que podem ser utilizados para preparar o copolímero do tipo EPDM, cuja fórmula estrutural foi apresentada, são",
+   "alternativas": {
+    "A": "![Alternativa A: três fórmulas estruturais de monômeros](fig:p14-c2)",
+    "B": "![Alternativa B: três fórmulas estruturais de monômeros](fig:p14-c3)",
+    "C": "![Alternativa C: três fórmulas estruturais de monômeros](fig:p14-c4)",
+    "D": "![Alternativa D: três fórmulas estruturais de monômeros](fig:p14-c5)",
+    "E": "![Alternativa E: três fórmulas estruturais de monômeros](fig:p14-c6)"
+   },
+   "observacoes": "No caderno a palavra quebra a linha em 'co-' / 'polímero'; transcrita como 'copolímero'."
+  },
+  {
+   "numero": 45,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "Um grão de milho de pipoca, visto a olho nu, apresenta duas regiões distintas, representadas por **A** e **B** na figura. Em **A**, ocorre o tecido acumulador de amido, usado, pela planta, para nutrir o embrião. Em **B**, os tecidos vegetais possuem maior teor de água.\n\n![Corte de um grão de milho de pipoca com duas regiões indicadas pelas setas A e B](fig:p14-c1)\n\nAo ser aquecida, parte da água transforma-se em vapor, aumentando a pressão interna do grão. Quando a temperatura atinge 177°C, a pressão se torna suficiente para romper o grão, que vira uma pipoca.\n\nUm estudo feito por um grupo de pesquisadores determinou que o interior do grão tem 4,5 mg de água da qual, no momento imediatamente anterior ao seu rompimento, apenas 9% está na fase vapor, atuando como um gás ideal e ocupando 0,1 mL. Dessa forma, foi possível calcular a pressão $P_{\\text{final}}$ no momento imediatamente anterior ao rompimento do grão.\n\nA associação correta entre região do milho e $P_{\\text{final}}$ é dada por:\n\n**Note e adote:**\nConstante universal dos gases: $R = 0{,}082\\ \\text{L.atm/(K.mol)}$;\nK = °C + 273;\nMassas molares (g/mol): H = 1; O = 16.",
+   "alternativas": {
+    "A": "A = endosperma e $P_{\\text{final}}$ = 8,3 atm.",
+    "B": "B = endosperma e $P_{\\text{final}}$ = 5,9 atm.",
+    "C": "A = xilema e $P_{\\text{final}}$ = 22,1 atm.",
+    "D": "B = xilema e $P_{\\text{final}}$ = 5,9 atm.",
+    "E": "B = endosperma e $P_{\\text{final}}$ = 92,0 atm."
    },
    "observacoes": ""
   }
