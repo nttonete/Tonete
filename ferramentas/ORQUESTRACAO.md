@@ -24,6 +24,7 @@ Os agentes falham com "You've hit your session limit · resets HH:MM". Agende a 
 
 - **Unicamp 2021** (`unicamp-2021-1`): caderno versão E/G sem PDF de gabarito. O gabarito está na prova comentada oficial (`fontes-pdf/UNICAMP/1ª Fase/UNICAMP_2021_1Fase_resol.pdf`, "Alternativa Correta: x" por questão). Transcrever em 2 lotes de 36; extrair o gabarito da prova comentada, conferir que a numeração bate com o caderno e gravá-lo em `dados/provas/gabaritos-transcritos.json` na chave `unicamp-2021-1` / versão `E/G`.
 - **Unicamp 2017–2020**: 90 questões, lotes de 30.
+- Unicamp 2021 já transcrita, com gabarito em `gabaritos-transcritos.json` (extraído da prova comentada; conferido com o BLUEX: 58 de 60 iguais, e nas questões 9 e 54 a prova comentada justifica a letra oficial). Revise em 2 lotes de 36 como as demais.
 
 ## Se um agente for bloqueado pelo filtro de conteúdo
 
