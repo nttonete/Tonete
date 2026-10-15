@@ -32,6 +32,12 @@ Decisão de quem responde pela plataforma: essas questões ficam fora do banco. 
 - unesp-2020-1 q46 (sem atenção marcada): a alternativa oficial A justifica o porto do Itaqui pela "proximidade com o Canal de Suez", argumento discutível; as demais não servem.
 - unesp-2021-1 q82: o último algarismo do medidor está em vermelho (décimos em medidores reais); lido assim daria 5,0 W (E); oficial B = 50 W.
 
+### Discursivas (2ª fase): a resposta publicada pela banca parece discutível
+
+A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma nota da plataforma.
+
+- fuvest-2026-2-d2 q21 (H03), item b: a resposta liga os "Anciãos" a quadros da Revolução Cultural; no texto de Perry Anderson são os veteranos da geração revolucionária (Deng Xiaoping, Chen Yun...), muitos perseguidos na Revolução Cultural.
+
 ## Para conferência de quem conhece a obra
 
 - fuvest-2018-1 q80: a resolução cita uma estória contada em "O burrinho pedrês" (Sagarana); o revisor não tinha o livro para conferir quem conta o quê.

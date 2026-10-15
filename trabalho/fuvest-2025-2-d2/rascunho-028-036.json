@@ -74,6 +74,146 @@
     }
    ],
    "observacoes": ""
+  },
+  {
+   "numero": 31,
+   "codigo": "Q01",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em competições esportivas, os atletas que alcançam as três primeiras posições são condecorados com medalhas denominadas ouro, prata e bronze. Contudo, na Olimpíada e na Paralimpíada de Paris, a composição das medalhas de ouro e de bronze entregues aos atletas, descrita na Figura 1, não corresponde ao que seus nomes sugerem. A medalha de ouro é apenas revestida com esse metal. A medalha de bronze, que deveria ser composta por 67% em massa de cobre e 33% em massa de estanho, possui outra composição.\n\n![Figura 1: medalhas de prata, de ouro e de bronze, com o quadro de massa e composição: \"Medalha de Prata, massa 507 g, composição prata 507 g\"; \"Medalha de Ouro, massa 511 g, composição prata 505 g e ouro 6 g\"; \"Medalha de Bronze, massa 437 g, composição cobre 415 g e zinco 22 g\". Legenda: \"Os hexágonos cravados nas medalhas com o símbolo olímpico são feitos de ferro. Para a resolução da questão, assuma que eles foram retirados das medalhas. A massa dos hexágonos não está considerada na massa das medalhas.\"](fig:p38-c1)\n\n![Figura 2: pilha com duas cubas ligadas por ponte salina (KCl) e por fios condutores a uma lâmpada; na cuba da esquerda, a medalha de ouro; na da direita, a medalha de prata](fig:p38-c2)\n\n**Note e adote:**\n$\\text{Au}^{3+} + 3\\text{e}^- \\rightarrow \\text{Au}^0 \\qquad E^\\circ = +1{,}5\\ \\text{V}$\n$\\text{Ag}^+ + 1\\ \\text{e}^- \\rightarrow \\text{Ag}^0 \\qquad E^\\circ = +0{,}8\\ \\text{V}$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Preencha, no quadro da folha de respostas, qual deveria ser a massa de cada um desses metais, Cu e Sn, em uma medalha olímpica de 437 g para que ela fosse de fato de bronze?\n\n*Campo de resolução:*\n\n| Metal | Massa (g) |\n|---|---|\n| Cu | |\n| Sn | |"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere que a ginasta Rebeca Andrade, condecorada com medalhas de ouro e de prata em Paris, decida utilizá-las para construir uma pilha. Para isso, ela retirou o hexágono de ferro das medalhas e esquematizou a pilha representada na Figura 2. Sabendo que a atleta dispõe de duas soluções, $\\text{AgNO}_3$ e $\\text{Au(NO}_3)_3$, ambas de concentração 1 mol/L, complete, na folha de respostas, em qual compartimento cada solução deve ser adicionada para que a pilha funcione. Com a pilha funcionando, indique qual metal se deposita sobre qual medalha.\n\n*Campo de resolução:*\n\n![Esquema da pilha com as duas cubas, uma com a medalha de ouro e outra com a medalha de prata, e, abaixo de cada cuba, \"Solução de:\" seguido de uma linha em branco](fig:p39-c2)"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Um dos problemas da obtenção de Au é o uso indiscriminado de Hg pelo garimpo. Nesse processo, 3 g de Hg dissolvem 1 g de Au para formar um amálgama. O Au é purificado aquecendo o amálgama e evaporando o Hg. Considerando que cada tonelada de sedimento de determinado rio contenha 8g de Au, qual a massa de sedimento necessária para extrair os 6 g de Au presentes na medalha de Au? Assumindo que 60% do Hg evaporado para a produção dessa medalha alcancem um corpo d’água de 6 milhões de litros e que a legislação brasileira adota a concentração de $1 \\times 10^{-6}$ g de Hg/L como limite, esse corpo d’água seria considerado próprio para consumo em relação ao Hg? Apresente os cálculos."
+    }
+   ],
+   "observacoes": "O caderno traz \"8g\" sem espaço no item c (mantido). Na resposta oficial do item c aparece \"10, 8 g\" com espaço (mantido)."
+  },
+  {
+   "numero": 32,
+   "codigo": "Q02",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Água contendo concentrações superiores a 150 mg/L de íons $\\text{Ca}^{2+}$ e $\\text{Mg}^{2+}$ é chamada de água dura, que é imprópria para algumas aplicações domésticas e industriais, pois esses íons reagem com sabão formando sais insolúveis. Para evitar esse contratempo, alguns processos de tratamento de água envolvem adição de reagentes químicos para precipitação dos íons $\\text{Ca}^{2+}$ e $\\text{Mg}^{2+}$. Avaliando as três situações distintas a seguir, responda:\n\n**Note e adote:**\n\n| Composto | Kps | Composto | Kps |\n|---|---|---|---|\n| Fosfato de cálcio | $2{,}0\\mathrm{x}10^{-29}$ | Hidróxido de cálcio | $5{,}5\\mathrm{x}10^{-6}$ |\n| Fosfato de magnésio | $1{,}0\\mathrm{x}10^{-25}$ | Hidróxido de magnésio | $1{,}8\\mathrm{x}10^{-11}$ |\n| Carbonato de cálcio | $2{,}8\\mathrm{x}10^{-9}$ | Sulfato de cálcio | $9{,}1\\mathrm{x}10^{-6}$ |\n| Carbonato de magnésio | $3{,}5\\mathrm{x}10^{-8}$ | Sulfato de magnésio | $3{,}6\\mathrm{x}10^{2}$ |\n\nMassas molares (g/mol): C = 12; O = 16; Na = 23; Ca = 40.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para o tratamento da água dura, dispõe-se dos seguintes compostos: $\\text{Na}_3\\text{PO}_4$, $\\text{Na}_2\\text{CO}_3$, NaOH e $\\text{Na}_2\\text{SO}_4$. Qual deles seria utilizado em menor quantidade, em mol, para o tratamento de água dura?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um possível procedimento usado para a retirada dos íons $\\text{Ca}^{2+}$ e $\\text{Mg}^{2+}$ da água consiste em adicionar cal apagada [$\\text{Ca(OH)}_2$] até saturar a solução. Posteriormente, adiciona-se $\\text{Na}_2\\text{CO}_3$. Com esse procedimento, qual íon será o primeiro a ser retirado? Escreva as fórmulas químicas dos precipitados formados."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Considere uma caixa d’água com 10.000 L de água contendo 150 mg/L de $\\text{Ca}^{2+}$. Qual a massa de $\\text{Na}_2\\text{CO}_3$, em quilograma, que deve ser adicionada para que a concentração de $\\text{Ca}^{2+}$ seja reduzida a 70 mg/L?"
+    }
+   ],
+   "observacoes": "No quadro Note e adote, o caderno escreve os valores de Kps com a letra x (2,0x10-29); mantido como no original."
+  },
+  {
+   "numero": 33,
+   "codigo": "Q03",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O frasco Erlenmeyer tem esse nome por ter sido criado por um químico alemão chamado de Emil Erlenmeyer. As características do frasco Erlenmeyer, como fundo chato para não tombar, corpo cônico que permite agitação sem risco de respingos ou vazamentos, e pescoço cilíndrico, que permite a inserção de uma rolha ou tampa para sua vedação, tornaram o frasco popular.\n\nEmil Erlenmeyer foi também a primeira pessoa a sugerir a formação de ligações duplas e triplas entre átomos de carbono. Além disso, ele descreveu a regra Erlenmeyer, segundo a qual todos os álcoois nos quais o grupo OH esteja ligado a um carbono insaturado convertem-se em seus isômeros constitucionais de função, aldeídos ou cetonas, uma vez que eles são mais estáveis.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Desenhe, no espaço indicado da folha de respostas, um frasco Erlenmeyer."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Desenhe, no quadro da folha de respostas, as fórmulas eletrônicas de Lewis dos hidrocarbonetos com duplas e triplas ligações com a menor massa molar possíveis.\n\n*Campo de resolução:*\n\n| Hidrocarboneto com ligação dupla | Hidrocarboneto com ligação tripla |\n|---|---|\n| | |"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Desenhe, na folha de respostas, os isômeros constitucionais de função, cetona e aldeído, da molécula a seguir.\n\n![Fórmula estrutural de uma cadeia com ligação dupla entre carbonos, com um grupo OH e um grupo R ligados a um dos carbonos da dupla](fig:p40-f1)\n\nR = cadeia carbônica para o isômero da cetona\nR = hidrogênio para o isômero do aldeído\n\n*Campo de resolução:*\n\n| Cetona | Aldeído |\n|---|---|\n| | |"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 34,
+   "codigo": "Q04",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No mergulho autônomo, usa-se cilindro contendo uma mistura de gases comprimidos que são inspirados pelo mergulhador e expirados para o ambiente, na forma de bolhas. Um risco associado a essa prática é a embolia causada pelo acúmulo de $\\text{N}_2$ nos tecidos do corpo quando esse gás é respirado em pressões parciais elevadas por longos períodos. A embolia pode ser evitada planejando-se a profundidade e o tempo do mergulho. Respirar $\\text{N}_2$ a uma pressão parcial de 1,58 atm por até 10 minutos não é prejudicial à saúde. O tempo de mergulho pode ser aumentado empobrecendo a mistura gasosa do cilindro em $\\text{N}_2$ e enriquecendo em $\\text{O}_2$ até pressão parcial de 1,4 atm, pois, acima desse valor, passa a apresentar caráter tóxico.\n\nConsiderando que a pressão atmosférica ao nível do mar é 1 atm e que, a cada 10 m de coluna de água, a pressão aumenta em 1 atm, responda:\n\n**Note e adote:**\nConstante dos gases ideais: $R = 0{,}082$ atm L/ K mol\n$T(\\text{K}) = T(^\\circ\\text{C}) + 273$\nMassa molar (g/mol): $\\text{O}_2 = 32$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um cilindro de mergulho de 12,3 litros de capacidade foi preenchido apenas com $\\text{O}_2$ a 140 atm a 27 °C. Qual a massa de $\\text{O}_2$ contida no cilindro?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere um mergulho de 10 minutos a uma profundidade constante utilizando um cilindro contendo apenas $\\text{N}_2$ e $\\text{O}_2$. Sabendo que o mergulho foi realizado no limite imposto pela toxicidade do $\\text{O}_2$ ($P_{\\text{O}_2} = 1{,}4$ atm) e pelo risco de embolia por $\\text{N}_2$ ($P_{\\text{N}_2} = 1{,}58$ atm), qual a profundidade do mergulho? Qual a composição porcentual, em mol, da mistura gasosa no cilindro do mergulhador? Desconsidere o tempo de descida e subida do mergulho."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Considere o mergulho descrito na figura ao lado, no qual a pressão nos pulmões do mergulhador é de 2,8 atm e a temperatura é de 7°C. Sabendo que o cilindro está preenchido com uma pressão de 140 atm e que o volume inspirado pelo mergulhador é de 0,5 L e é igual ao volume expirado, qual será o volume de ar consumido do cilindro a cada inspiração? Assuma que, nesse processo, a temperatura do gás se mantém constante a 7°C. Qual o volume da bolha de ar expirado quando ela atinge a superfície, onde a pressão é de 1 atm e a temperatura de 27°C?\n\n![Mergulhador no mar, com as indicações: \"Nível do mar (1 atm)\", \"27°C\" na superfície, \"Profundidade do mergulho\", \"Bolha de ar expirado\" e \"pressão no pulmão (2,8 atm)\" e \"7°C\" junto ao mergulhador](fig:p40-f3)"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 35,
+   "codigo": "Q05",
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "A geração de eletricidade limpa, barata e constante é algo essencial para o desenvolvimento sustentável. Dispositivos eletrônicos portáteis funcionam, em geral, com baterias químicas, que precisam ser constantemente recarregadas e têm vida útil limitada. Uma alternativa promissora para a substituição de baterias químicas em dispositivos portáteis vem surgindo com o desenvolvimento de baterias nucleares, como a mostrada na Figura 1, constituídas por emissor de radiação beta (β), como o $^{63}\\text{Ni}$, e um semicondutor.\n\n![Figura 1: fotografia de uma bateria nuclear em formato de moeda, com o símbolo de radiação e a inscrição \"63 Ni\"](fig:p42-c1)\n\nA energia da radiação beta excita os elétrons do semicondutor, criando lacunas onde antes havia elétrons. Esses pares de lacunas-elétrons geram uma diferença de potencial que pode ser aproveitada na forma de eletricidade.\n\n![Figura 2: radiações alfa, beta, gama e nêutron incidindo sobre placas de papel/pele, alumínio e chumbo; densidade (kg/m³): papel/pele 1500, alumínio 2700, chumbo 11340](fig:p42-c2)\n\n**Note e adote:**\nNo item a), considere que as placas têm a mesma espessura.\nMassa do elétron: $10^{-30}$ kg e, portanto, pode ser desprezada.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Sabendo que a capacidade de blindar a radiação de um material está relacionada à sua densidade, como mostrado na Figura 2, e que o revestimento da bateria é feito de aço inoxidável, cuja densidade é de $7500\\ \\text{kg/m}^3$, explique se a utilização dessa bateria deixará o usuário exposto a algum risco radiológico."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Desenhe, na folha de respostas, a evolução, ao longo do tempo, do número de átomos de $^{63}\\text{Ni}$ e de $^{63}\\text{Cu}$ presentes em uma bateria nuclear de $^{63}\\text{Ni}$, sabendo que o $^{63}\\text{Cu}$ é um isótopo estável.\n\n*Campo de resolução:*\n\n![Dois pares de eixos vazios: \"n° de átomos de $^{63}\\text{Ni}$\" em função de \"tempo (anos)\" e \"n° de átomos de $^{63}\\text{Cu}$\" em função de \"tempo (anos)\"](fig:p43-c1)"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Assuma que essa bateria é operacional até que 75% da quantidade $^{63}\\text{Ni}$ sejam consumidos. Qual a vida útil da bateria em anos, sabendo que o tempo de meia-vida do $^{63}\\text{Ni}$ é de 100 anos? A massa da bateria aumenta, diminui ou se mantém ao longo do seu tempo de uso?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 36,
+   "codigo": "Q06",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A lidocaína é um anestésico local muito utilizado por dentistas. Ela atua a partir de sua passagem através da membrana lipídica que envolve os neurônios, que são as células responsáveis pela transmissão do sinal da dor. A eficácia de um anestésico depende da sua capacidade de permear a membrana lipídica, sendo que o efeito anestésico é tanto maior quanto maior a permeação. Em meio ácido, a lidocaína é protonada conforme equação química a seguir.\n\n![Equação química: a estrutura (I), lidocaína, reage com H⁺ e forma a estrutura (II), com o nitrogênio protonado e carga positiva](fig:p42-f2)\n\nConsiderando as informações apresentadas, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual o nome da função orgânica que é protonada na molécula de lidocaína?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que processos inflamatórios geram produtos ácidos, a lidocaína, quando aplicada em regiões com inflamação, tem seu efeito reduzido, amplificado ou inalterado? Justifique a sua resposta."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Outro anestésico local muito utilizado é a bupivacaína, cuja estrutura química é apresentada a seguir.\n\n![Fórmula estrutural da bupivacaína](fig:p42-f3)\n\nComparando essa molécula com a molécula da lidocaína (I), e considerando apenas a capacidade de penetrar a membrana lipídica dos neurônios, qual das duas deve ter um maior efeito anestésico? Justifique a sua resposta com base na estrutura das moléculas."
+    }
+   ],
+   "observacoes": ""
   }
  ],
  "respostas": {
@@ -100,6 +240,54 @@
     "c": "Como $\\overline{AB} = 5$, seja $p$ a projeção de $AB$, temos:\n\n$$\\cos 60^\\circ = \\frac{p}{5} \\quad \\to \\quad p = 5\\cos(60^\\circ) = \\frac{5}{2} = 2{,}5$$\n\nLogo, a medida da projeção é 2,5 m."
    },
    "resposta": "**Considerações da banca corretora:**\n- item a: 2 pontos.\n- item b: 2 pontos.\n- item c: 1 ponto."
+  },
+  "31": {
+   "itens": {
+    "a": "| Metal | Massa (g) |\n|---|---|\n| Cu | 292,8 |\n| Sn | 144,2 |\n\nMassa de Cu ($M_{\\text{Cu}}$):\n\n$M_{\\text{Cu}} \\times 100\\% = 437\\ \\text{g} \\times 67\\%$\n\n$M_{\\text{Cu}} = 292{,}8\\ \\text{g}$\n\nMassa de Sn ($M_{\\text{Sn}}$):\n\n$M_{\\text{Sn}} \\times 100\\% = 437\\ \\text{g} \\times 33\\%$\n\n$M_{\\text{Sn}} = 144{,}2\\ \\text{g}$",
+    "b": "![Esquema da pilha com a medalha de ouro na cuba da esquerda, \"Solução de: $\\text{Au(NO}_3)_3$\", e a medalha de prata na cuba da direita, \"Solução de: $\\text{AgNO}_3$\"](fig:r73-c1)\n\nOuro se deposita na medalha de ouro.",
+    "c": "Em 1000 kg de sedimento, há 8 g de Au.\n\nPortanto, para extrair 6 g de Au, são necessários 750 kg de sedimento (1000 kg de sedimento × 6 g de Au / 8 g de Au).\n\nPara dissolver 1 g de Au e formar uma amálgama, são necessários 3 g de Hg.\n\nLogo, para dissolver 6 g de Au (massa de Au presente em uma medalha de ouro), são necessários 18 g de Hg (3 g de Hg × 6 g de Au / 1 g de Au).\n\nDo total de mercúrio evaporado, 60% alcançam o corpo d’água, ou seja, 10,8 g (0,60 × 18 g de Hg).\n\nA concentração de Hg ($C_{\\text{Hg}}$) em um corpo d’água de 6 milhões de litros é:\n\n$C_{\\text{Hg}} = \\text{massa}_{\\text{Hg}} / V_{\\text{água}} = 10, 8\\ \\text{g} / 6 \\times 10^6\\ \\text{L} = 1{,}8 \\times 10^{-6}\\ \\text{g/L}$.\n\nEssa concentração é maior do que a concentração máxima permitida pela legislação ($1 \\times 10^{-6}$ g/L).\n\nLogo, esse corpo d’água não seria considerado próprio para consumo."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "32": {
+   "itens": {
+    "a": "$\\text{Na}_3\\text{PO}_4$.",
+    "b": "O primeiro íon retirado é o $\\text{Mg}^{2+}$.\n\nOs precipitados formados são $\\text{Mg(OH)}_2$ e $\\text{CaCO}_3$.",
+    "c": "Massa inicial de $\\text{Ca}^{2+}$: 150 mg/L × 10000 L = 1500 g $\\text{Ca}^{2+}$\n\nMassa final: 70 mg/L × 10000 L = 700 g $\\text{Ca}^{2+}$\n\nPrecisa retirar 800 g $\\text{Ca}^{2+}$\n\nnº de mols de $\\text{Ca}^{2+}$ retirados: 800 g /40 g/mol = 20 mol $\\text{Ca}^{2+}$\n\nMassa molar do $\\text{Na}_2\\text{CO}_3$ = 106 g/mol\n\nNa reação, a estequiometria $\\text{Na}_2\\text{CO}_3$: $\\text{Ca}^{2+}$ é 1:1\n\nLogo, 20 mol×106 g/mol = 2120 g = 2,12 kg de $\\text{Na}_2\\text{CO}_3$"
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também $\\text{PO}_4^{3-}$, fosfato de sódio ou íon fosfato.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "33": {
+   "itens": {
+    "a": "![Desenho de um frasco Erlenmeyer dentro de um quadro](fig:r75-c1)",
+    "b": "![Quadro com duas colunas: hidrocarboneto com ligação dupla, com a fórmula eletrônica de Lewis e a fórmula estrutural do eteno, e hidrocarboneto com ligação tripla, com a fórmula eletrônica de Lewis e a fórmula estrutural do etino](fig:r75-c2)",
+    "c": "![Quadro com duas colunas: Cetona, com a cadeia carbônica terminando em C=O ligado a R, e Aldeído, com a cadeia terminando em C=O ligado a H](fig:r75-c3)"
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também resposta onde, na cetona, o grupo R foi substituído por um grupo metila, etila, ou qualquer outra cadeia carbônica, desde que correta."
+  },
+  "34": {
+   "itens": {
+    "a": "$PV = nRT$\n\n$P = 140$ atm; $V = 12{,}3$ L; $T = 300$ K; $R = 0{,}082$ atm L/ K mol\n\n$n = 70$ mols\n\nLogo, a massa de $\\text{O}_2$ é 2,24 kg (70 mols de $\\text{O}_2$ × 0,032 kg de $\\text{O}_2$ / 1 mol de $\\text{O}_2$)",
+    "b": "$P_{\\text{total}} = P\\text{O}_2 + P\\text{N}_2 = 1{,}4 + 1{,}58 = 2{,}98 = 1\\ \\text{atm (atmosfera)} + 1{,}98\\ \\text{atm de pressão de água}$\n\nLogo, a profundidade é 19,80 m.\n\nA relação entre número de mols ($n$) e pressão ($P$) é dada por:\n\n$n_{\\text{O}_2} / n_{\\text{total}} = P_{\\text{O}_2} / P_{\\text{total}} = 1{,}4/2{,}98 = 0{,}47$\n\nPortanto, a composição é 47% $\\text{O}_2$ e 53% $\\text{N}_2$",
+    "c": "$P_{\\text{cilindro}} V_{\\text{cilindro}} / T_{\\text{cilindro}} = P_{\\text{ambiente}} V_{\\text{ambiente}} / T_{\\text{ambiente}}$\n\nNo ato de inspiração/expiração\n\n$P_{\\text{cilindro}} = 140$ atm\n\n$P_{\\text{“ambiente”}} = 2{,}8$ atm (pressão do pulmão)\n\n$T_{\\text{cilindro}} = T_{\\text{“ambiente”}}$\n\n$V_{\\text{“inspirado”}} = 0{,}5$ L\n\nPara cálculo de $V_{\\text{cilindro}}$:\n\n(2,8 atm × 0,5 L) / 300 K = (140 × $V_{\\text{cilindro}}$) / 300 K\n\n$V_{\\text{cilindro}} = 0{,}01$ L\n\nBolha na superfície ($V_{\\text{sup}}$): $P_{\\text{superfície}} V_{\\text{superfície}} / T_{\\text{superfície}} = P_{\\text{ambiente}} V_{\\text{ambiente}} / T_{\\text{ambiente}}$\n\n$P_{\\text{superfície}} = 1$ atm, $T_{\\text{superfície}} = 300$ K\n\n1 × $V_{\\text{superfície}}$/300 = 2,8 × 0,5/280\n\n$V_{\\text{superfície}} = 1{,}5$ L"
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "35": {
+   "itens": {
+    "a": "Não. A radiação beta já é bloqueada com material de densidade de $2700\\ \\text{kg m}^{-3}$. Portanto, material com densidade de $7500\\ \\text{kg m}^{-3}$ não permite a passagem de radiação beta.",
+    "b": "![Dois gráficos: \"n° de átomos de $^{63}\\text{Ni}$\" em função de \"tempo (anos)\", com curva decrescente, e \"n° de átomos de $^{63}\\text{Cu}$\" em função de \"tempo (anos)\", com curva crescente](fig:r78-c1)",
+    "c": "Após a primeira meia-vida, sobram 50% da quantidade de $^{63}\\text{Ni}$ inicial; após a segunda meia-vida, sobram 25%. Ou seja, em 200 anos (2 meias-vidas), são consumidos 75% da quantidade de $^{63}\\text{Ni}$. Logo, a vida útil da bateria é de 200 anos.\n\nA massa da bateria se mantém."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "36": {
+   "itens": {
+    "a": "Amina.",
+    "b": "Reduzido, pois, em meio ácido, a molécula é protonada e se torna mais polar, portanto, menos lipossolúvel.",
+    "c": "A bupivacaína tem um maior poder anestésico, pois é uma molécula mais apolar quando comparada com a lidocaína."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
   }
  }
 }
