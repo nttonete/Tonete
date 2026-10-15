@@ -1,0 +1,205 @@
+{
+ "edicao": "unicamp-2026-1",
+ "intervalo": [
+  37,
+  72
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 44,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir mostra um trecho do gráfico de $f(g(x))$ em que $f(x) = x^3 + 2x^2 + ax - 1$, $g(x) = 3 - x$ e $a$ é uma constante real.\n\n![Gráfico de uma curva no plano cartesiano com eixos x e y: a curva parte do eixo y, desce passando pelo ponto destacado de abscissa 1 e ordenada 5, corta o eixo x, atinge um ponto mínimo abaixo do eixo x e volta a subir](fig:p17-c2)\n\nQual é o valor da constante $a$ ?",
+   "alternativas": {
+    "A": "$-2$.",
+    "B": "$-3$.",
+    "C": "$-4$.",
+    "D": "$-5$."
+   }
+  }
+ ],
+ "relatorio": [
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 41,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 44,
+   "status": "corrigida",
+   "notas": "Descrição da figura dizia 'curva decrescente', mas a curva desce, corta o eixo x, tem um mínimo e volta a subir; descrição ajustada. Texto e alternativas conferidos."
+  },
+  {
+   "numero": 45,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 49,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 54,
+   "status": "ok",
+   "notas": "Aspas abertas e não fechadas em dois comentários conferidas na página: estão assim no original."
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 59,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 60,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": "Resolvida com pouca margem (cena do sineiro em Casa Velha); minha resposta coincide com o gabarito."
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": "Observação do transcritor: URL da fonte impressa com espaço ('30105 19.article'), mantida como no caderno."
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": "Gabarito D coincide com a minha resolução: só D não afirma nada sobre rendimento (não há dado) e o método proposto usa temperaturas menores; a parte do carbonato não é evidente na figura, mas as demais alternativas são insustentáveis."
+  }
+ ]
+}
