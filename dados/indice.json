@@ -1143,6 +1143,34 @@
    }
   },
   {
+   "id": "unicamp-2023-2-cbs",
+   "vestibular": "unicamp",
+   "ano": 2023,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2023 – 2ª fase (2º dia: Ciências Biológicas e da Saúde)",
+   "caderno": "2º dia: Ciências Biológicas e da Saúde",
+   "fonte": {
+    "caderno": "2fase-dia2-cbs-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-cbs-respostas.pdf",
+     "2fase-dia2-cbs-comentada.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2023-2-cbs.json",
+   "total": 5,
+   "validas": 5,
+   "com_resposta": 5,
+   "materias": {
+    "biologia": 5
+   },
+   "indisponiveis": [
+    10
+   ]
+  },
+  {
    "id": "unicamp-2023-2-cet",
    "vestibular": "unicamp",
    "ano": 2023,
@@ -1171,6 +1199,65 @@
    },
    "indisponiveis": [
     7
+   ]
+  },
+  {
+   "id": "unicamp-2023-2-cha",
+   "vestibular": "unicamp",
+   "ano": 2023,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2023 – 2ª fase (2º dia: Ciências Humanas e Artes)",
+   "caderno": "2º dia: Ciências Humanas e Artes",
+   "fonte": {
+    "caderno": "2fase-dia2-cha-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-cha-respostas.pdf",
+     "2fase-dia2-cha-comentada.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2023-2-cha.json",
+   "total": 17,
+   "validas": 17,
+   "com_resposta": 17,
+   "materias": {
+    "matematica": 5,
+    "geografia": 6,
+    "historia": 6
+   }
+  },
+  {
+   "id": "unicamp-2023-2-d1",
+   "vestibular": "unicamp",
+   "ano": 2023,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2023 – 2ª fase (1º dia: Português, Literatura e questões interdisciplinares)",
+   "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+   "fonte": {
+    "caderno": "2fase-dia1-red-port-ing-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia1-port-ing-respostas.pdf",
+     "2fase-dia1-port-ing-comentada.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2023-2-d1.json",
+   "total": 9,
+   "validas": 9,
+   "com_resposta": 9,
+   "materias": {
+    "literatura": 2,
+    "portugues": 3,
+    "fisica": 2,
+    "geografia": 1,
+    "biologia": 1
+   },
+   "indisponiveis": [
+    3
    ]
   },
   {
