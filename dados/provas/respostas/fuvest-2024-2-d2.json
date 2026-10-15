@@ -1,0 +1,290 @@
+{
+ "1": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de analisar e modelar matematicamente uma situação-problema, formulando equações e estabelecendo estratégias de resolução.",
+  "itens": {
+   "a": "![Móbile I completo: os valores preenchidos pela banca aparecem em vermelho (64, 32, 32, 11, 4, 16, 8 e 8), junto com os dados do enunciado (10, 3 e 4)](fig:r40-f3)",
+   "b": "Analisando o lado direito do móbile, temos que o primeiro círculo, de cima para baixo, deve valer $228$, o próximo círculo, deve valer $114$ e por fim, o último, deve valer $57$. Logo temos a seguinte equação $2n+3 = 57$, e portanto $n = 27$.",
+   "c": "Nomeando os círculos em branco como $x$, $y$, $z$, $w$, da esquerda para a direita, temos que:\n\n$$7x = 3y,\\ 2z = 3w$$\n\n$$2 \\cdot (7x+3y) = 5(2z+3w)$$\n\n$$2(7x+3y)+5(2z+3w) = 70$$\n\nResolvendo o sistema acima, obtém-se: $x = \\frac{5}{4}$, $y = \\frac{35}{12}$, $z = \\frac{7}{4}$, $w = \\frac{7}{6}$."
+  }
+ },
+ "2": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretar e analisar uma situação real proposta, e formular estratégias para o cálculo de probabilidades.\n\n**Notação e dados informados no problema**\n\nA: prefere A (doce) $\\qquad P(A) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }A) = 0{,}8$\nB: pretere B (salgado) $\\qquad P(B) = 0{,}3 \\qquad P(\\text{pa}\\text{ dado }B) = 0{,}9$\nC: prefere C (misto) $\\qquad P(C) = 0{,}4 \\qquad P(\\text{pa}\\text{ dado }C) = 0{,}7$\npa: o cliente é atendido\nnpa: o cliente não é atendido\n\nO problema pode ser resolvido utilizando-se uma Resolução Única ou a Resolução por Itens, como descrito abaixo.\n\n**Resolução Única**\n\n\"Questão impossível\" com justificativa\n\n**Justificativa:** A soma da probabilidade de eventos disjuntos é maior do que 1 (ou equivalentes)\n**Justificativa aceita:** Disjunto = \"cliente deve indicar apenas uma preferência\"\n\n**Resolução por Itens**\n\n**Nota:** Os critérios listados abaixo são válidos para resoluções utilizando os dados fornecidos no enunciado do problema, resoluções analíticas ou resoluções que utilizem alguma distribuição de probabilidade adequada.",
+  "itens": {
+   "a": "**a.1)** Cálculo direto considerando os dados informados:\n$P(\\text{npa}) = 0{,}4 \\cdot 0{,}2 + 0{,}3 \\cdot 0{,}1 + 0{,}4 \\cdot 0{,}3 = 23/100 = 0{,}23$\n\n**a.2)** Cálculo pelo complementar considerando os dados informados:\n$P(\\text{pa}) = 0{,}4 \\cdot 0{,}8 + 0{,}3 \\cdot 0{,}9 + 0{,}4 \\cdot 0{,}7 = 0{,}87$\nlogo $P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - 0{,}87 = 0{,}13$.\n\n**a.3.i)** Cálculo considerando \"110 e 100\":\n$P(\\text{npa}) = 40/110 \\cdot 20/100 + 30/110 \\cdot 10/100 + 40/110 \\cdot 30/100 = 23/110 = 0{,}2091$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (40/110 \\cdot 80/100 + 30/110 \\cdot 90/100 + 40/110 \\cdot 70/100) = 1 - (32/110 + 27/110 + 36/110) = 1 - 87/110 = 23/110 = 0{,}2091$.\n\n**a.3.ii)** Cálculo considerando \"110 e 110\":\n$P(\\text{npa}) = 40/110 \\cdot 20/110 + 30/110 \\cdot 10/110 + 40/110 \\cdot 30/110 = 0{,}19$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (40/110 \\cdot 80/110 + 30/110 \\cdot 90/110 + 40/110 \\cdot 70/110) = 1 - (4/11 \\cdot 8/11 + 3/11 \\cdot 9/11 + 4/11 \\cdot 7/11) = 1 - (32/121 + 27/121 + 36/121) = 1 - 87/121 = 34/121 = 0{,}281$.\n\n**a.4)** Resolução analítica (fórmula geral):\nSe $P(A) = a$, $P(B) = b$ e $P(C) = c$, então $a + b + c = 1$\nDiretamente $P(\\text{npa}) = 0{,}2a + 0{,}1b + 0{,}3c$\nPelo complementar\n$P(\\text{npa}) = 1 - P(\\text{pa}) = 1 - (0{,}8a + 0{,}90b + 0{,}70c)$",
+   "b": "**b.1)** Resolução considerando os dados do problema:\nSeja $E$: \"os amigos têm preferências distintas\" $= \\{(A,B), (B,A), (A,C), (C,A), (B,C), (C,B)\\}$,\n$P(E) = 0{,}4 \\cdot 0{,}3 + 0{,}3 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}4 + 0{,}3 \\cdot 0{,}4 + 0{,}4 \\cdot 0{,}3 = 0{,}8$\nAgora seja $F$ = \"Os amigos foram atendidos\".\n$P(F, E) = 2 \\cdot [\\,0{,}4 \\cdot 0{,}8 \\cdot 0{,}3 \\cdot 0{,}9 + 0{,}4 \\cdot 0{,}8 \\cdot 0{,}4 \\cdot 0{,}7 + 0{,}3 \\cdot 0{,}9 \\cdot 0{,}4 \\cdot 0{,}7\\,] = 2 \\cdot 0{,}2516 = 0{,}5032$\nSendo assim\n$P(F\\text{ dado }E) = 0{,}5032/0{,}8 = 0{,}629$\n\n**b.2)** Resolução pela \"média ponderada\":\n$P(F\\text{ dado }E) = 0{,}3 \\cdot (0{,}8 \\cdot 0{,}9) + 0{,}4 \\cdot (0{,}8 \\cdot 0{,}7) + 0{,}3 \\cdot (0{,}9 \\cdot 0{,}7) = 0{,}629$\n\n**b.3)** Resolução analítica (com a notação de b.1):\nSe $P(A)=a$, $P(B)=b$ e $P(C)=c$, então $P(E) = 2 \\cdot (ab + ac + bc)$\n$P(E,F) = 2 \\cdot [\\,0{,}8a \\cdot 0{,}9b + 0{,}8a \\cdot 0{,}7c + 0{,}9b \\cdot 0{,}7c\\,] = 1{,}44ab + 1{,}12ac + 1{,}26bc$\nlogo $P(F\\text{ dado }E) = (0{,}72ab + 0{,}56ac + 0{,}63bc)/(ab + ac + bc)$\n\n**b.4.i)** Resolução considerando denominador \"110 e 100\"\n$P(E) = 40/110 \\cdot 30/110 + 30/110 \\cdot 40/110 + 40/110 \\cdot 40/110 + 40/110 \\cdot 40/110$\n$+ 30/110 \\cdot 40/110 + 4/110 \\cdot 30/110 = 80/121 = 0{,}6612$\n$P(F, E) = 2 \\cdot [\\,40/110 \\cdot 80/100 \\cdot 30/110 \\cdot 90/100 + 40/110 \\cdot 80/100 \\cdot 30/110 \\cdot 70/100$\n$+ 30/110 \\cdot 90/100 \\cdot 30/110 \\cdot 70/100] = 2 \\cdot 0{,}1738 = 0{,}3476$\nLogo $P(F\\text{ dado }E) = 0{,}3476/0{,}6612 = 0{,}5257$\n\n**b.4.ii)** Resolução considerando denominador \"110 e 110\"\n$P(E) = 40/110 \\cdot 30/110 + 30/110 \\cdot 4/110 + 40/110 \\cdot 40/110 + 40/110 \\cdot 40/110$\n$+ 30/110 \\cdot 40/110 + 4/110 \\cdot 30/110$\n$= 2 \\cdot 40/121 = 80/121 = 0{,}6612$\n\n$P(F, E) = 2 \\cdot [\\,40/110 \\cdot 80/110 \\cdot 30/110 \\cdot 90/110 + 40/110 \\cdot 80/110 \\cdot 30/110 \\cdot 70/110$\n$+ 30/110 \\cdot 90/110 \\cdot 30/110 \\cdot 70/110]$\n$= 2 \\cdot 2103/14641 = 2 \\cdot 0{,}1436 = 0{,}2873$\nlogo $P(F\\text{ dado }E) = 0{,}2873/0{,}6612 = 0{,}4345$",
+   "c": "**c.1)** Cálculo direto considerando os dados informados\n**c.1.i)** Se calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = 0{,}9 \\cdot 0{,}3/0{,}77 = 0{,}27/0{,}77 = 0{,}351$\n\n**c.1.ii)** Se calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = 0{,}9 \\cdot 0{,}3/0{,}87 = 0{,}27/0{,}87 = 0{,}31$\n\n**c.2)** Solução analítica\n$P(B\\text{ dado }\\text{pa}) = 0{,}9b/(0{,}8a + 0{,}9b + 0{,}7c)$\n\n**c.3.i)** Resolução considerando \"110 e 100\"\nSe calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = [90/100 \\cdot 30/110]/0{,}77 = (27/110)/0{,}77 = 0{,}2455/0{,}77 = 0{,}3188$\n\nSe calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = [90/100 \\cdot 30/110]/0{,}87 = (27/110)/0{,}87 = 0{,}2821$\n\n**c.3.ii)** Resolução considerando \"110 e 110\"\nSe calculou $P(\\text{npa})$ diretamente\n$P(B\\text{ dado }\\text{pa}) = [90/110 \\cdot 30/110]/0{,}77 = (27/121)/0{,}77 = 0{,}2231/0{,}77 = 0{,}2898$\nSe calculou $P(\\text{npa})$ pelo complementar\n$P(B\\text{ dado }\\text{pa}) = [90/110 \\cdot 30/110]/0{,}87 = (27/121)/0{,}87 = 0{,}2565$"
+  }
+ },
+ "3": {
+  "resposta": "**Objetivo da questão:** Avaliar os seguintes conhecimentos de geometria analítica: plano cartesiano, distância, paralelismo, intersecção de lugares geométricos, bem como a habilidade de compreender e manipular as equações de reta e de parábola.",
+  "itens": {
+   "a": "No caso indicado, temos que $y = 2x + 3$. Então $2x + 3 = x^2$, resolvendo a equação temos $x = -1$ ou $x = 3$. Portanto, os pontos procurados são $(-1\\,,\\,1)$ e $(3\\,,\\,9)$.",
+   "b": "No caso indicado, temos que a equação de $r$ é $4x + 3y = 7$. Seja $s$ a reta que passa pela origem e é perpendicular a $r$. O coeficiente angular de $s$ é $\\frac{3}{4}$ e a equação de $s$ é $y = \\frac{3}{4}x$. O ponto procurado é a intersecção de $r$ com $s$. Então $4x + 9/4x = 7$, e assim o ponto procurado é $\\left(\\frac{28}{25}\\,,\\,\\frac{21}{25}\\right)$.",
+   "c": "Se $B$ e $C$ pertencem a $P$, então $B = (b\\,,\\,b^2)$ e $C = (c\\,,\\,c^2)$. Para que $AB$ seja paralelo a $OC$, temos que $(b^2-1)/(b+1) = c^2/c = c$. Simplificando a expressão, temos que $b - 1 = c$. A distância de $B$ a $C$ é dada pela expressão $(c-b)^2 + (c^2-b^2\\,)^2 = 17$.\n\nSubstituindo $c$ por $b-1$, teremos $(b - 1 - b)^2 + ((b - 1)^2 - b^2)^2 = 1 + (-2b+1)^2 = 1 + 4b^2 - 4b + 1 = 4b^2 - 4b + 2 = 17$. As soluções da equação $4b^2 - 4b - 15 = 0$ são $b = -\\frac{3}{2}$ ou $b = \\frac{5}{2}$. Como $B$ deve estar no primeiro quadrante, segue que $B = \\left(\\frac{5}{2}\\,,\\,\\frac{25}{4}\\right)$ e $C = \\left(\\frac{3}{2}\\,,\\,\\frac{9}{4}\\right)$."
+  }
+ },
+ "4": {
+  "resposta": "**Objetivo da questão:** Avaliar a compreensão dos seguintes aspectos do conceito de função: domínio, imagem, valores e relação com seu gráfico. Avaliar a habilidade de modelar uma situação-problema e de resolver equações exponenciais.",
+  "itens": {
+   "a": "A altura mais baixa é quando $x = 0$. Nesse caso, $f(0) = 2^0 + 2^0 = 1 + 1 = 2$. Portanto a altura mais baixa que a corda assume é de $2$ metros.",
+   "b": "Se a distância entre as hastes é de $3\\text{m}$, a altura de cada haste será $f(\\frac{3}{2})$, isto é, $f(\\frac{3}{2}) = 2^{(3/2)} + 2^{(-3/2)} = \\sqrt{8} + 1/\\sqrt{8} = 9/\\sqrt{8} = (9\\sqrt{8})/8 = (9\\sqrt{2})/4$. Portanto a altura das hastes é de $(9\\sqrt{2})/4$ metros.",
+   "c": "Precisamos encontrar os pontos $x$ tais que $f(x) = 4$ e depois calcular a distância entre eles. Para isso precisa-se resolver a equação: $2^x + 2^{-x} = 4$, $2^x + (1/2^x) - 4 = 0$. Multiplicando por $2^x$ encontramos $2^x \\cdot 2^x + 1 - 4 \\cdot 2^x = 0$. Fazendo $y = 2^x$ temos $y^2 - 4y + 1 = 0$. Logo $y = 2 \\pm \\sqrt{3}$. Portanto $2^x = 2 \\pm \\sqrt{3}$. Aplicando log tem-se $x_1 = \\log(2 + \\sqrt{(3)})/\\log 2$ e $x_2 = \\log(2 - \\sqrt{(3)})/\\log 2$.\n\nA distância solicitada é $x_1 - x_2 = (\\log(2 + \\sqrt{3}) - \\log(2 - \\sqrt{3}))/\\log 2$."
+  }
+ },
+ "5": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de visualizar geometricamente figuras plana e espaciais, obtidas através de rotações e intersecções, bem como calcular áreas e volumes destas figuras.",
+  "itens": {
+   "a": "A intersecção determina um triângulo isósceles de base $8$ e altura relativa $4$. Logo $A = (8 \\cdot 4)/2 = 16$.",
+   "b": "A figura obtida é dada por um cilindro de raio $4$ e altura $4$, retirando-se dele um cone invertido de raio $4$ e altura $4$.\n\nO volume do cilindro é dado por $V(\\text{cilindro}) = \\pi \\cdot 4^2 \\cdot 4 = 64 \\cdot \\pi$.\n\nO volume do cone é dado por $V(\\text{cone}) = 1/3\\ (\\pi \\cdot 4^2 \\cdot 4) = 64\\pi/3$.\n\nO volume pedido é dado por: $V = 64\\pi - 64\\pi/3 = 128/3\\ \\pi$.",
+   "c": "Pela geometria do problema, o sólido de revolução obtido são dois cones unidos pela base, com raio da base de medida $2\\sqrt{2}$ e altura (em cada cone) de $2\\sqrt{2}$. Então o volume pedido é dado por $V = 2 \\cdot 1/3 \\cdot (\\pi(2\\sqrt{2})^2 \\cdot 2\\sqrt{2}) = (32\\sqrt{2}\\,\\pi)/3$."
+  }
+ },
+ "6": {
+  "resposta": "**Objetivo da questão:** Compreender uma definição matemática e resolver problemas relacionados a esta definição.",
+  "itens": {
+   "a": "Se $n \\in N$, temos que se $n \\leq x < n + 1$ então $\\lfloor x \\rfloor = n$. Daí $x\\lfloor x \\rfloor = nx$ e $n^2 \\leq x\\lfloor x \\rfloor < n(n+1)$.\n\nPara $n = 3$ tem-se $9 \\leq x\\lfloor x \\rfloor < 12$. Portanto $3x = 10$, o que implica que $x = 10/3$.",
+   "b": "**b.i)** apresentar que a solução da equação requer que $\\lfloor x \\rfloor = 2$ e $\\lfloor 2x \\rfloor = 5$ e solucionar, apresentando os cálculos, as equações $\\lfloor x \\rfloor = 2$ e $\\lfloor 2x \\rfloor = 5$ para obter o intervalo $[2{,}5\\,,\\,3)$ como conjunto solução.\n\n**b.ii)** escrever $x = \\lfloor x \\rfloor + r$ onde $0 \\leq r < 1$ e considerar as situações\n▪ $0 \\leq r < 1/2$: nesse caso $3\\lfloor x \\rfloor = 7$ o que não pode acontecer pois $\\lfloor x \\rfloor$ é inteiro;\n▪ $1/2 \\leq r < 1$: nesse caso $3\\lfloor x \\rfloor + 1 = 7$ e portanto $\\lfloor x \\rfloor = 2$. Logo $x = \\lfloor x \\rfloor + r \\in [2{,}5\\,,\\,3)$",
+   "c": "Segue da equação dada que $\\lfloor x^2 \\rfloor = 4\\lfloor x \\rfloor - 3$. Se $x < 1$, temos que $4\\lfloor x \\rfloor - 3 \\leq -3$ e $\\lfloor x^2 \\rfloor \\geq 0$ e, se $x \\geq 4$, temos que $\\lfloor x^2 \\rfloor - 4\\lfloor x \\rfloor + 3 \\geq \\lfloor x \\rfloor^2 - 4\\lfloor x \\rfloor + 3 > 0$. Logo, para que $\\lfloor x \\rfloor^2 - 4\\lfloor x \\rfloor + 3 = 0$ restam apenas as opções:\n\n▪ $\\lfloor x \\rfloor = 1$: implica que $\\lfloor x^2 \\rfloor = 1$ e, portanto, $1 \\leq x < \\sqrt{2}$;\n▪ $\\lfloor x \\rfloor = 2$: implica que $\\lfloor x^2 \\rfloor = 5$ e, portanto, $\\sqrt{5} \\leq x < \\sqrt{6}$;\n▪ $\\lfloor x \\rfloor = 3$: implica que $\\lfloor x^2 \\rfloor = 9$ e, portanto, $3 \\leq x < \\sqrt{10}$.\n\nPortanto, as soluções reais da equação são exatamente os elementos do conjunto:\n\n$$[1,\\sqrt{2}) \\cup [\\sqrt{5},\\sqrt{6}) \\cup [3,\\sqrt{10}).$$"
+  }
+ },
+ "7": {
+  "resposta": "**Objetivo da questão:** Nesta questão pedimos para que o estudante aplique conceitos de física, como **ordens de grandeza**, conceitos de **massa, volume e densidade**, além de conhecimentos de **energia térmica e calor latente de fusão**, para resolver um problema prático: estimar o impacto do degelo do ártico no oceano. Desta forma, avaliamos a capacidade do estudante de investigar um problema do mundo real usando ferramentas conceituais além de estimular a reflexão sociocultural sobre o impacto das mudanças climáticas no derretimento do gelo do Ártico.",
+  "itens": {
+   "a": "Dado que o volume é $V = 6000\\ \\text{km}^3$ e a densidade é $d = 0{,}92\\ \\text{g/cm}^3$, o acréscimo $M$ na massa é dado por:\n\n$$M = d \\cdot V = (0{,}92 \\cdot g \\cdot 10^{6} \\cdot m^{-3}) \\cdot (6 \\cdot 10^{3} \\cdot 10^{9} \\cdot m^{3}) = 5{,}52 \\cdot 10^{18}\\ g = 5{,}52 \\cdot 10^{15}\\ kg$$",
+   "b": "A relação entre o volume de gelo $V$, a área do oceano $A$ e a espessura do gelo $h$ é $V = A \\cdot h$. Sendo $V = 6 \\cdot 10^{12}\\ \\text{m}^3$ e $A = 15 \\cdot 10^{12}\\ \\text{m}^2$, encontramos:\n\n$$h = \\frac{6 \\cdot 10^{12} \\cdot m^{3}}{15 \\cdot 10^{12} \\cdot m^{2}} = 0{,}4\\ m = 40\\ cm$$",
+   "c": "O calor necessário para derreter o gelo será a soma do calor necessário para elevar sua temperatura até o ponto de fusão mais o calor latente de fusão:\n\n$$Q = mc\\Delta T + mL = \\left[(10^{3} \\cdot kg) \\cdot \\frac{(2 \\cdot 10^{3} \\cdot J)}{kg \\cdot C} \\cdot (0 - (-20) \\cdot C)\\right] + \\left[(10^{3} \\cdot kg) \\cdot \\frac{(3 \\cdot 10^{5} \\cdot J)}{kg}\\right] = 3{,}4 \\cdot 10^{8}\\ J$$"
+  }
+ },
+ "8": {
+  "resposta": "**Objetivo da questão:** A hidrostática é fundamental no funcionamento de muitos sistemas cotidianos, como torneiras, encanamentos e represas. Nesta questão, pedimos para que os estudantes demonstrem habilidades como raciocínio lógico e compreensão de conceitos científicos ao determinar maneiras seguras e eficientes ao interagir com um sistema de filtragem.",
+  "itens": {
+   "a": "A área $A$ do anel de vedação é de:\n\n$$A = \\pi\\left(\\frac{D}{2}\\right)^2 = 3 \\cdot (20 \\cdot 10^{-3})^2 = 1200 \\cdot 10^{-6} = 1{,}2 \\cdot 10^{-3}\\ m^2$$\n\nLogo, a força $F$ será:\n\n$$F = P \\cdot A = 100 \\cdot 10^{3} \\cdot 1{,}2 \\cdot 10^{-3} = 120\\ N$$",
+   "b": "Se a torneira estiver no 4º andar, significa que há 8 andares até a caixa d'água e a altura da coluna será de, pelo menos, $(8+1) \\cdot 3 = 27\\ m$.\n\nIsso corresponde a uma pressão na saída da torneira de $p \\cdot g \\cdot h = 1000 \\cdot 10 \\cdot 27 = 270\\ kPa$.\n\nOu seja, será, de fato, necessário ter um redutor de pressão.",
+   "c": "Se o tempo para encher um copo de 240 mL é 5 segundos, logo a vazão será $Q = \\frac{240}{5} \\cdot 48\\ mL/s$.\n\nComo $1\\ mL = 10^{-6}\\ m^3$, temos $Q = \\frac{\\Delta V}{\\Delta t} = \\frac{240 \\cdot 10^{-6}}{5} = 48 \\cdot 10^{-6}\\ m^3$.\n\nA área será $A = \\pi \\cdot \\left(\\frac{D^2}{2}\\right) = 3 \\cdot (2 \\cdot 10^{-3})^2 = 1{,}2 \\cdot 10^{-5}\\ m^2$.\n\nA velocidade será $Q = A \\cdot v \\rightarrow v = \\frac{Q}{A} = \\frac{4{,}8 \\cdot 10^{-5}}{1{,}2 \\cdot 10^{-5}} = 4\\ m/s$."
+  }
+ },
+ "9": {
+  "resposta": "**Objetivo da questão:** Nesta questão, avaliamos os conhecimentos sobre os conceitos de ondulatória, especialmente: ondas estacionárias, relação entre frequência, comprimento de onda e velocidade, a partir de uma situação-problema que exige a aplicação desses conceitos, a reflexão sobre as implicações práticas e conceituais, e a comunicação dos resultados de forma clara e concisa.",
+  "itens": {
+   "a": "Uma onda estacionária é produzida pela interferência de duas ondas progressivas propagando-se em sentidos opostos ao longo da corda. Cada uma dessas ondas tem velocidade não nula, e sua combinação produz um padrão estacionário. Logo, a afirmação é falsa.",
+   "b": "A figura mostra que a vibração define $1/2$ comprimento de onda, de modo que cada comprimento de onda mede $2L = 120\\ \\text{cm}$.",
+   "c": "Como a corda é a mesma, a velocidade $v$ de propagação é a mesma. Pela relação $v = \\lambda f$, sendo $\\lambda$ o comprimento de onda e $f$ a frequência, vale $\\lambda_1 \\cdot f_1 = \\lambda_2 \\cdot f_2$, ou seja, $f_2 = f_1 \\cdot (\\lambda_1/\\lambda_2)$.\n\nDado que, no diagrama 2, o comprimento de onda é $2/3$ daquele no diagrama 1, vale $f_2/f_1 = \\lambda_1/\\lambda_2 = 3/2$ e, portanto, $f_2 = 220 \\cdot 3/2 = 330\\ \\text{Hz}$."
+  }
+ },
+ "10": {
+  "resposta": "**Objetivo da questão:** Nesta questão, avaliamos os conhecimentos sobre os conceitos de ondulatória, especialmente: ondas estacionárias, relação entre frequência, comprimento de onda e velocidade, a partir de uma situação-problema que exige a aplicação desses conceitos, a reflexão sobre as implicações práticas e conceituais, e a comunicação dos resultados de forma clara e concisa.",
+  "itens": {
+   "a": "A massa total é dada por $M = N \\cdot m$, sendo $N$ o número de átomos e $m$ a massa de cada átomo. Como há $n = 2$ mols de átomos na amostra, $N = 2N_A$, sendo $N_A$ o número de Avogadro, ou seja, o número de átomos em um mol de qualquer substância monoatômica. Logo, $M = 2N_A \\cdot m = 8{,}4\\ \\text{g}$ ou $8{,}4 \\cdot 10^{-3}\\ \\text{kg}$.",
+   "b": "A energia interna de um gás ideal é proporcional a sua temperatura absoluta. Em um processo cujo estado inicial tem temperatura absoluta $T_i$ e cujo estado final tem temperatura absoluta $T_f$, as energias correspondentes satisfazem a relação $E_f/E_i = T_f/T_i$. Logo, temos $E_f = 7500 \\cdot 400/300 = 10000\\ \\text{J}$. A energia necessária para produzir essa mudança de temperatura é então $E_f - E_i = 2500\\ \\text{J}$.",
+   "c": "Temos, pela relação de Einstein e pela primeira lei da termodinâmica, $\\Delta m \\cdot c^2 = Q - W$, ou seja, $\\Delta m = (Q - W)/c^2 = (13500 - 4500)/(9 \\cdot 10^{16}) = 1 \\cdot 10^{-13}\\ \\text{kg}$. Note que a variação de massa é 11 ordens de magnitude menor do que a massa da amostra, e portanto essa variação é imperceptível quando são utilizadas balanças comuns."
+  }
+ },
+ "11": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento da pessoa candidata sobre: movimento circular uniforme e interação eletrostática (Lei de Coulomb), fazendo uma conexão com um conceito importante em física atômica e molecular. Nesta questão, verificamos se a pessoa candidata é capaz de aplicar seus conhecimentos a um contexto novo, interpretar informações apresentadas em diferentes formatos e comunicar seus resultados de forma clara e concisa.",
+  "itens": {
+   "a": "![Próton de massa M e elétron de massa m separados pela distância D, com um vetor de força saindo de cada partícula em direção à outra, rotulados F e→p e F p→e](fig:r25-c2)",
+   "b": "Dado que o movimento é circular uniforme, a velocidade escalar é constante de modo que:\n\n$$\\Delta s = |\\vec{V}_p|\\,\\Delta t_p = |\\vec{v}_e|\\,\\Delta t_e$$\n\nLogo:\n\n$$\\frac{\\Delta t_e}{\\Delta t_P} = \\frac{\\vec{V}_p}{\\vec{v}_e} = \\frac{m}{M} = \\frac{1}{1800}$$",
+   "c": "Como, neste caso a força eletrostática é igual à força centrípeta do MCU:\n\n$$F_e = \\frac{k_0 e^2}{D^2} = \\frac{m\\,|\\vec{v}_e|^2}{D}$$\n\nLogo: $m\\,|\\vec{v}_e|^2 = \\frac{k_0 e^2}{D}$, e a energia cinética é dada por $E_c = \\frac{1}{2}m\\,|\\vec{v}_e|^2 = \\frac{k_0 e^2}{2D}$"
+  }
+ },
+ "12": {
+  "resposta": "**Objetivo da questão:** A aurora polar é um fenômeno natural fascinante que ocorre nos céus dos hemisférios norte e sul da Terra. Nesta questão, buscamos avaliar conhecimentos sobre a definição de energia cinética, movimento de elétrons em campos magnéticos, processos de excitação e desexcitação de elétrons em átomos e a relação entre comprimento de onda e energia em radiação eletromagnética.",
+  "itens": {
+   "a": "A velocidade do próton relaciona-se com a energia cinética por meio da expressão $v = (2K/m)^{1/2}$. Substituindo os valores: $K = 2 \\cdot \\text{MeV} = 2 \\cdot 1{,}6 \\cdot 10^{-19+6} = 3{,}2 \\cdot 10^{-13}$, logo $2K/m = (6{,}4/1{,}6) \\cdot 10^{-13} + 27 = 4 \\cdot 10^{14}$ e encontramos $v = 2 \\cdot 10^{7}\\ \\text{m/s}$.",
+   "b": "Como a órbita é circular, necessariamente a velocidade do elétron é perpendicular ao campo magnético. Nesta situação e sendo $v$ a velocidade do elétron e $B$ o campo magnético, a força magnética será dada por $F = e \\cdot v \\cdot B$, logo $F = (1{,}6 \\cdot 10^{-19}) \\cdot (1{,}6 \\cdot 10^{6})(10^{-4}) = 2{,}56 \\cdot 10^{-17}\\ \\text{N}$.",
+   "c": "A variação de energia é dada por $\\Delta E = hc/\\lambda = 6 \\cdot 10^{-34} \\cdot 3 \\cdot 10^{8}/5 \\cdot 10^{-7} = 3{,}6 \\cdot 10^{-19}\\ \\text{J}$."
+  }
+ },
+ "13": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de estequiometria, atomística, reação de oxidação, diluição, cálculo de concentração e avaliações quantitativas.",
+  "itens": {
+   "a": "O teor é maior no $\\text{P}_4\\text{O}_{10}$\n\nTeor no $\\text{Ca}_5(\\text{PO}_4)_3\\text{F} = 93/504 = 18\\%$\n\nTeor no $\\text{P}_4\\text{O}_{10} = 124/284 = 44\\%$",
+   "b": "$\\text{P}_4 + 5\\,\\text{O}_2 + 6\\,\\text{H}_2\\text{O} \\Longrightarrow 4\\,\\text{H}_3\\text{PO}_4$\n\n| NOX do P no $\\text{P}_4$ | NOX do P no $\\text{H}_3\\text{PO}_4$ |\n|---|---|\n| zero | +5 |",
+   "c": "$0{,}2\\ \\text{g/L}$ para solução $50\\ \\text{mL}$.\n\n$10\\ \\text{mL}$ de refrigerante inicial logo $1\\ \\text{g/L}$ na solução inicial.\n\nMáx permitido $= 0{,}7\\ \\text{g/L}$. Logo, fora do limite recomendado."
+  }
+ },
+ "14": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos sobre leitura de gráfico e de tabela, compreensão de moléculas e de reações orgânicas seguindo um modelo proposto, estequiometria e isomeria.",
+  "itens": {
+   "a": "![Gráfico de glicemia em função do tempo, com a curva do paciente capaz de digerir lactose (preta, crescente) e, em vermelho, a curva esperada para o exame positivo, que parte do mesmo ponto e sobe menos](fig:r50-c5)",
+   "b": "O valor será de 2,3 g de glicose. Da comparação da galactose sabemos que foram produzidos 2,0 g de galactose a partir da lactose. Como galactose e glicose são dois isômeros produzidos em uma proporção de 1:1 da lactose, a massa de glicose produzida deve ser igual, ou seja, 2,0 g. Como já existia 0,3 g no leite, o leite tratado contém 2,3 g de glicose.",
+   "c": "![Estrutura da sacarose (glicose ligada à frutose por um oxigênio) no quadro rotulado \"Sacarose\", seguida de + H2O e das estruturas de glicose e frutose](fig:r50-c4)"
+  }
+ },
+ "15": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de precisão, volume, densidade, massa, concentração e pH.",
+  "itens": {
+   "a": "$0{,}15/250 = 0{,}0006 \\Longrightarrow 0{,}06\\%$",
+   "b": "Em 10°C, a massa de NaCl será a mesma, mas o volume, maior, logo a concentração será menor que 0,1 mol/L.",
+   "c": "Concentração inicial de $\\text{OH}^- = 10^{-1} \\Longrightarrow \\text{pOH} = 1 \\Longrightarrow \\text{pH} = 13$\n\nConcentração final de $\\text{OH}^- = 10^{-2} \\Longrightarrow \\text{pOH} = 2 \\Longrightarrow \\text{pH} = 12$\n\nLogo, o pH diminui de 13 para 12 $\\Longrightarrow \\Delta\\text{pH} = 1$"
+  }
+ },
+ "16": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de interações intermoleculares, equilíbrio químico, estequiometria.",
+  "itens": {
+   "a": "![Estruturas do par A-T nos modelos de Watson-Crick e de Hoogsteen, com as duas interações entre as bases de cada modelo circuladas em laranja](fig:r52-c2)",
+   "b": "Menor que 1, pois no equilíbrio existe menos produto do que reagente.",
+   "c": "A adenina consome maior quantidade de agente alquilante, pois possui um maior número de aminas (3 aminas no total), que são suscetíveis à reagir. Já a timina não possui aminas, mas apenas 2 grupos amidas, que não devem reagir."
+  }
+ },
+ "17": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de equilíbrio químico, catalisador, cálculos estequiométricos e avaliações quantitativas.",
+  "itens": {
+   "a": "Considerando o equilíbrio $\\text{HbCO} + \\text{O}_2 \\rightleftharpoons \\text{HbO}_2 + \\text{CO}$, o aumento da concentração de $\\text{O}_2$ desloca o equilíbrio para a direita, favorecendo a liberação do CO ligado à hemoglobina.",
+   "b": "Não, pois o sal original foi consumido, ou reagiu, ou sofreu transformação química e isso não é característica de catalisador.",
+   "c": "Volume da garagem $= 6 \\cdot 4 \\cdot 2 = 48\\ \\text{m}^3 = 48000\\ \\text{L}$\n\nMassa de CO nessa garagem na concentração tóxica: $V = 48000\\ \\text{L}$, concentração tóxica $0{,}01\\ \\text{g/L} \\Longrightarrow 480\\text{g}$\n\nTaxa de produção pelo motor do carro $200\\ \\text{g/h} \\Longrightarrow 2{,}4\\ \\text{h}$."
+  }
+ },
+ "18": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos candidatos sobre os conceitos de composição química, estequiometria, química ambiental, chuva ácida, cristalização, solubilidade, fracionamento de compostos.",
+  "itens": {
+   "a": "Temos as seguintes relações:\n\nOlivina: 1:4 $\\text{H}^+$, Si:O $= 1/4$\n\nAnortita: 1:2 $\\text{H}^+$, Si:O $= 1/4$\n\nAlbita: 1:1 $\\text{H}^+$, Si:O $= 3/8$\n\nOlivina e anortita têm a mesma relação Si:O.\n\nContudo, olivina tira mais $\\text{H}^+$ que os demais minerais: 1 olivina reage com $4\\text{H}^+$ e 1 anortita reage só com $2\\text{H}^+$. Portanto, o melhor mineral é olivina.",
+   "b": "Sim, neutralizam a água de chuva. O mineral consome $\\text{H}^+$ da água do mar, desloca o equilíbrio da reação $\\text{CO}_2 + \\text{H}_2\\text{O} \\rightleftharpoons \\text{H}^+ + \\text{HCO}_3^-$ para direita, dissolve mais $\\text{CO}_2$ da atmosfera na água do mar.",
+   "c": "Ordem de cristalização, 1º Anortita, 2º Olivina e 3º Albita. A ordem de precipitação ocorreu a partir do maior ponto de fusão."
+  }
+ },
+ "19": {
+  "itens": {
+   "a": "A relação entre a taxa de mortalidade da população humana chinesa e a produção de grãos é inversamente proporcional, isto é, à medida que a produção de grãos cai, a taxa de mortalidade aumenta, e vice-versa.",
+   "b": "![Gráfico do tamanho da população de 1955 a 1964, com uma curva vermelha e uma curva azul](fig:r15-f3)\n\nGafanhotos em vermelho e pardais em azul.\n\nNota: a posição relativa das curvas não precisa ser considerada; basta que esteja representada uma queda seguida por aumento populacional para pardais entre 1958 e 1961 e um aumento seguido por queda populacional para gafanhotos no mesmo período.",
+   "c": "![Teia trófica com os quadros Ser humano, Pardal, Gafanhoto e Grãos, ligados por setas](fig:r15-f4)"
+  },
+  "resposta": "**Objetivo da questão:** Interpretação de gráfico e correlação de dados, representação gráfica e contextualização de dados apresentados."
+ },
+ "20": {
+  "itens": {
+   "a": "Seleção natural",
+   "b": "Biótico: predação; justificativa: a mudança da cor do substrato causou a ineficiência da camuflagem e deixou as mariposas brancas suscetíveis a serem predadas.",
+   "c": "![Gráfico de frequência de indivíduos por fenótipo, de “[+ claro]” a “[+escuro]”, com uma curva tracejada azul e uma curva vermelha deslocada para o lado dos fenótipos mais escuros](fig:r16-c1)\n\nTrata-se de um padrão de seleção direcional, em que o pico da curva pós-RI se desloca para uma maior frequência de fenótipos mais escuros com o tempo."
+  },
+  "resposta": "**Objetivo da questão:** Interpretação e correlação de dados representados em figuras de uma série temporal, representação gráfica e contextualização de dados apresentados."
+ },
+ "21": {
+  "itens": {
+   "a": "Pelo intervalo normal apresentado pelos elementos do quadro vermelho ou citar que os elementos eritrócitos, hemoglobina e hematócrito estão normais ou que a série vermelha está normal.",
+   "b": "Leucócitos, Neutrófilos, Eosinófilos, Basófilos, Linfócitos, Monócitos.",
+   "c": "Toxoplasma ou toxoplasmose. Dentre os sintomas, podem ser citados: comprometimento ocular (chegando até a cegueira), cefaleias, abcessos cerebrais, crises convulsivas, perda dos movimentos dos membros, tosse, miocardite, febre, dores pelo corpo, inchaço, convulsões, danos neurológicos, fadiga, mal-estar, manchas na pele, alterações nos gânglios linfáticos."
+  },
+  "resposta": "**Objetivo da questão:** Interpretação e contextualização de dados quantitativos em tabela."
+ },
+ "22": {
+  "itens": {
+   "a": "3 pares de pernas, corpo dividido em cabeça, tórax e abdômen, um par de antenas, aceita-se também mencionar asas.",
+   "b": "A capacidade de sentir o cheiro da barata é autossômica dominante, porque somente pessoas homozigóticas para a mutação são incapazes de sentir cheiro de barata ou porque as pessoas que têm um alelo selvagem são capazes de sentir esse odor.\n\nOU\n\nA mutação é autossômica recessiva, porque o gene se localiza num autossomo e somente quando a mutação está presente nos dois alelos o indivíduo deixa de perceber o odor.",
+   "c": "No DNA. A primeira adenina foi substituída por uma guanina."
+  },
+  "resposta": "**Objetivo da questão:** Interpretação de gráfico e correlação de dados, representação gráfica e contextualização de dados apresentados."
+ },
+ "23": {
+  "itens": {
+   "a": "Zona temperada ou subtropical.",
+   "b": "A produção de folhas foi antecipada ao longo do ano OU a queda de folhas foi antecipada ao longo do ano OU a produção de folhas durou mais tempo (foi prolongada) OU a queda de folhas durou mais tempo (foi prolongada).",
+   "c": "Essas alterações fenológicas poderiam diminuir o carbono atmosférico OU aumentar o sequestro de carbono atmosférico. Justificativa: maior quantidade de folhas verdes demanda mais carbono para seus processos bioquímicos (fotossíntese) OU maior quantidade de folhas verdes aumentam a fotossíntese total do sistema que demandam mais $\\text{CO}_2$ (ou carbono)."
+  },
+  "resposta": "**Objetivo da questão:** Leitura e interpretação de dados em gráficos e correlação entre gráficos, contextualização de dados apresentados, previsão de cenários."
+ },
+ "24": {
+  "itens": {
+   "a": "Raízes adventícias OU caule reptante OU caule estolonífero OU caule rastejante.",
+   "b": "O feijão-da-praia (planta da zona A) apresenta maior tolerância à salinidade, comparado ao maracujá-da-praia (planta da zona C). Justificativa: o feijão-da-praia desenvolve-se bem na concentração de 3%. O maracujá-da-praia apresenta baixo crescimento na concentração de 3% e não se desenvolve nas concentrações de 10%.\n\nOU\n\nO feijão-da-praia consegue se desenvolver muito mais que o maracujá-da praia nas concentrações de 3%.",
+   "c": "![Gráfico de biomassa em função da distância em metros, de 0 a 200, com uma curva reta ascendente e uma curva que sobe e se estabiliza](fig:r20-f3)"
+  },
+  "resposta": "**Objetivo da questão:** Interpretação e correlação de dados em esquema e gráficos, representação gráfica e contextualização de dados apresentados."
+ },
+ "25": {
+  "itens": {
+   "a": "Comunidades Quilombolas.",
+   "b": "Dentre os fatores, estão: concentração de escravizados utilizados na produção canavieira na Região Nordeste no período colonial; resistência negra ao processo de escravidão resultante nos primeiros Quilombos na Região Nordeste, sendo o mais famoso o Quilombo de Palmares; centralidade do Porto de Salvador na chegada das populações escravizadas no Brasil durante o período colonial.",
+   "c": "O avanço das atividades econômicas, com a agricultura comercial e a pecuária extensiva nas áreas destinadas à demarcação de comunidades quilombolas.\n\nInércia do poder público no reconhecimento e demarcação das terras de comunidades quilombolas no país.\n\nSobreposição de áreas de conservação em áreas quilombolas, resultando em conflitos no processo de demarcação dessas comunidades."
+  },
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos estudantes sobre as comunidades tradicionais brasileiras, seu processo histórico de formação e os impactos das atividades econômicas sobre a dinâmica dessas comunidades."
+ },
+ "26": {
+  "itens": {
+   "a": "Primeiramente composto por Brasil, Rússia, Índia e China, o grupo passou a contar com a presença da África do Sul a partir de 2011, completando o acrônimo BRICS.",
+   "b": "Podem ser citadas as seguintes vantagens: ampliação dos mercados consumidores dos produtos dos países membros; maior acesso a importantes áreas produtoras de petróleo, como Arábia Saudita, Emirados Árabes e Irã; ampliação da influência econômica, com redução de barreiras alfandegárias.",
+   "c": "Com a ampliação dos BRICS, amplia-se a influência do Bloco na dinâmica geopolítica e geoeconômica mundial, com maior participação no PIB e no comércio global, além de aumentar a atuação do Bloco em áreas de influência história dos EUA, como o Oriente Médio."
+  },
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos estudantes sobre o mundo multipolar, como o destaque para a participação dos BRICS e sua expansão no contexto geopolítico contemporâneo."
+ },
+ "27": {
+  "itens": {
+   "a": "Quaternário.",
+   "b": "Podem ser citadas como causas a criação da máquina a vapor, o uso de combustíveis fósseis, a ampliação da emissão dos gases do efeito estufa na atmosfera, o aumento da capacidade de transformação da paisagem pelo trabalho humano, o uso intensivo de maquinário.",
+   "c": "Políticas públicas para a definição de metas de emissão de gases do efeito estufa, adoção de práticas conservacionistas na produção em diferentes áreas, ênfase no planejamento voltada a conservação e uso racional dos recursos naturais, elaboração de legislação ambiental voltada à conservação do patrimônio natural para a manutenção da fauna e flora, incentivo à educação ambiental."
+  },
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos estudantes sobre as relações entre espaço, sociedade, natureza, com foco nas transformações antrópicas no meio físico em diferentes períodos e sociedades."
+ },
+ "28": {
+  "itens": {
+   "a": "Indica, em percentual, quanto a população cresceu ao ano durante o período indicado.",
+   "b": "Aumento de fluxo de migrantes para o país, diminuição da taxa de mortalidade, aumento da expectativa de vida, melhoria das condições de vida, com maior acesso a serviços de saúde, aumento da urbanização da sociedade brasileira.",
+   "c": "Diminuição da população economicamente ativa (PEA), com impactos sobre o PIB e as contas públicas; envelhecimento populacional, ampliando a necessidade de investimentos nos setores de saúde e na previdência públicas."
+  },
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos estudantes sobre estrutura, dinâmica e mobilidade geográfica da população brasileira."
+ },
+ "29": {
+  "itens": {
+   "a": "O nome desse processo é superexploração dos recursos naturais, o qual pode também apresentar outras denominações, como, por exemplo, exploração não sustentável (não planejada / destrutiva / predatória), degradação ambiental (socioambiental / antrópica), destruição do ecossistema, esgotamento dos recursos e/ou recursos naturais, extração de recursos naturais (minerais), retirada excessiva de minerais.",
+   "b": "Recursos naturais e justificativas que poderiam ser apresentadas:\n\nOuro, em decorrência a exploração excessiva no contexto do ciclo da mineração ou em processos mais atuais, como o caso de Serra Pelada, PA. Causa degradação do meio ambiente, visto que, para a retirada do ouro, ocorre a retirada da floresta (desmatamento), proporcionando erosão do solo devido à perda de cobertura vegetal e formação de cavas, contaminação do solo e da água por metais pesados como o mercúrio.\n\nLátex para a produção da borracha na Amazônia Brasileira. A maior parte dos seringais estavam em áreas ocupadas por povos indígenas, esse contato causou conflitos entre indígenas e seringueiros, expulsão dos povos originais, epidemias de sarampo, conflito entre diferentes povos pela pressão territorial, massacres e escravização de indígenas\n\nO Pau Brasil durante a exploração nos primeiros 30 anos de colonização brasileira. Essa matéria prima foi comercializada por portugueses, franceses e holandeses, que utilizavam principalmente sua resina e corante, além da própria madeira, por volta de 1875 poucas árvores podiam ser encontradas em território nacional, não sendo mais rentável esse extrativismo\n\nManganês e ferro: superexploração desses recursos na Serra do Navio – AP. Essa atividade ocasionou o esgotamento da reserva, além de ter causado desmatamento da vegetação local, alterações morfológicas, declínio econômico e despejo de resíduos contaminantes, como o arsênio, que contaminou rios e lençóis freáticos.\n\nAmianto: a primeira mina de amianto no Brasil foi construída em Bom Jesus da Serra – BA, sendo que as atividades foram encerradas em 1967, ocasionando empobrecimento da população local, com contaminação ambiental decorrente do processo produtivo e uma área enorme de erosão.\n\nChumbo: exploração do recurso nos municípios de Boquinha e Santo Amaro — BA, com deposição inadequada dos rejeitos, que contaminaram o solo e os mananciais, causando degradação ambiental e danos à saúde da população.\n\nUrânio: exploração do recurso nos municípios de Caldas e Poços de Caldas — MG, promovendo a contaminação pelos resíduos, provocando drenagem ácida na cava, assim como a contaminação das bacias hidrográficas da região.\n\nSal gema: extração predatória de sal gema no município de Maceió — AL, ocasionando o afundamento do solo, considerado um grande desastre ambiental em área urbana. A exploração de sal gema nesse município ocorre desde a década de 1960, atingindo direta e indiretamente a população que vive e trabalha nessa região.\n\nMinério de Ferro: superexploração nas regiões de Mariana e Brumadinho — MG, ocasionando o maior desastre ambiental de contaminação por rejeito de mineração no país, com dezoito mortes confirmadas e trinta e cinco municípios atingidos nos estados de Minas Gerais e Espírito Santo. Com a decadência da exploração do ouro, a exploração do minério de ferro tornou--se alternativa para as mineradoras, sendo atualmente responsável por aproximadamente 70% da produção nacional do minério de ferro.\n\n-Garimpo (ouro e cassiterita): superexploração de minérios (ouro e cassiterita) nas terras indígenas. Durante a primeira “Corrida do Ouro”, entre 1987 e 1990, estima--se que 14% da população Yanomami de Roraima tenha morrido em decorrência de doenças associadas ao garimpo. Recentemente, entre os anos de 2018 e 2022, a taxa de mortalidade voltou a subir, atingindo diversas populações indígenas, devido ao impacto causado pelo garimpo, principalmente as comunidades Yanomamis.",
+   "c": "As medidas que podem ser citadas são:\n\n• Investimentos em infraestrutura básica do país com foco na utilização racional dos recursos.\n• Combate a corrupção, com vistas a ampliar os benefícios sociais da utilização dos recursos naturais.\n• Implementação de legislação ambiental com foco em práticas conservacionistas.\n• Diversificação da economia: investimento em atividades econômicas diversas e sustentável como alternativa de trabalho e renda para a população local.\n• Educação ambiental: promoção de práticas educativas que incentivem o uso sustentável dos recursos naturais.\n• Exploração sustentável: limitação de retirada do recurso natural, destinação correta dos resíduos/rejeitos, preservação dos recursos naturais, incluindo a vegetação nativa.\n• Fiscalização ambiental: ações de controle da exploração do recurso natural que favoreça a sua continuidade no meio ambiente.\n• Incentivo à pesquisa científica: melhoria das práticas de extração mineral, assim como a destinação correta dos resíduos/rejeitos e criação de novas tecnologias para aproveitamento total do recurso.\n• Turismo sustentável: incentivo a atividade de turismo, capacitando a população local para o trabalho com o turismo sustentável como alternativa de renda."
+  },
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos estudantes sobre a utilização da natureza como recurso para o desenvolvimento das atividades econômicas e os possíveis impactos ambientais, com foco no conceito de superexploração dos recursos naturais."
+ },
+ "30": {
+  "itens": {
+   "a": "Planície costeira e planície litorânea.",
+   "b": "Podem ser mencionadas como consequências favoráveis: aumento da atividade ou aproveitamento turístico; incremento à economia do município; valorização imobiliária; aumento da especulação imobiliária; expansão do mercado imobiliário; desenvolvimento da construção civil; desenvolvimento do comércio; indicações de desenvolvimento de economia formal (estabelecimentos comerciais, por exemplo) ou de economia informal (ambulantes, por exemplo).",
+   "c": "Uma consequência desfavorável é o prejuízo à fauna marinha costeira associada à deposição de sedimentos remobilizados, que acabam por ser utilizados como material de aterro. Além disso, apesar do alargamento da zona de praia, a erosão costeira ao longo dos anos avançará sobre a faixa aterrada. Pode ocorrer também contaminação da areia da praia em decorrência do material de origem utilizado na ampliação da faixa estar comprometido."
+  },
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos estudantes sobre modificações e processos na paisagem costeira do Brasil."
+ },
+ "31": {
+  "itens": {
+   "a": "O palácio medieval é residência do rei ou do príncipe. O excerto menciona as funções \"militar e residencial\", especificando que o palácio privilegia a função de residência real – moradia – ou pelo menos principesca.",
+   "b": "A presença do fosso e de muralhas, bem como de arqueiros e cavaleiros, reforçam a função militar atribuída a esta edificação que se caracteriza, assim, como um castelo medieval.",
+   "c": "A função militar dos castelos indicava a autoridade dos senhores feudais exercida em nível local . Diversos reinos medievais na Europa ocidental dividiam-se em feudos, unidades produtivas relativamente autônomas, nos quais os senhores, integrantes da nobreza, exerciam grande poder . Essa estrutura era constituída a partir das relações de suserania e vassalagem e de alianças militares, segundo as quais o senhor feudal tinha ainda a obrigação de proteger o feudo e todos que lá viviam."
+  },
+  "resposta": "**Objetivo da questão:** Refletir sobre as especificidades de dois modelos de edificação presentes no mundo medieval, associando-as às estruturas de poder vigentes."
+ },
+ "32": {
+  "itens": {
+   "a": "Ela traduz o distanciamento do povo em relação à Proclamação da República, que, no excerto, é caracterizada como uma mobilização de um grupo restrito de pessoas. Daí o espanto e a passividade dos espectadores – caracterizados no excerto como “bestializados ”.",
+   "b": "A imagem da parada militar é usada para indicar o protagonismo de militares na mudança de regime (tomada de poder) e para destacar a dimensão simbólica do ato (demonstração de poder); ou seja, a noção de “parada militar” pressupõe uma manifestação na qual apenas os militares exerciam um papel ativo, estabelecendo um distanciamento entre os protagonistas e os meros observadores passivos do processo político.",
+   "c": "Rural: Canudos (1896-97) expunha as expectativas de criar espaço de autonomia por parte das populações pobres do sertão da Bahia diante das relações de poder profundamente desiguais ;\n\nUrbano: Revolta da Armada (1891-1894), marcada pelo ativismo de marinheiros que reivindicavam maior participação na vida política republicana e contra a hegemonia do Exército. Revolta da Vacina (1904) contra a obrigatoriedade da vacina contra a varíola, um protesto que revelava insatisfações sociais mais profundas."
+  },
+  "resposta": "**Objetivo da questão:** Analisar impasses, tensões contradições, reações e resistências ocorridos no processo de implantação do regime republicano no Brasil."
+ },
+ "33": {
+  "itens": {
+   "a": "Em Pompeia, ocorreu uma catástrofe decorrente da erupção de um vulcão, enquanto que a cidade de Hiroshima foi vítima de uma ação de guerra deliberada das Forças Armadas estadunidenses.",
+   "b": "O lançamento da bomba em Hiroshima – assim como o bombardeio em Nagasaki – foi uma estratégia militar empregada para abreviar o conflito, já vitorioso no fronte europeu. A ação também buscava demonstrar o poder militar e tecnológico dos Estados Unidos, de forma a desenhar o espaço de liderança internacional estadunidense no pós-guerra.",
+   "c": "A extrema violência do bombardeamento de Hiroshima e seus efeitos nefastos geraram negociações para o estabelecimento de tratados de dissuasão e contribuíram para o crescimento de uma consciência acerca da ameaça que o armamentismo representava para sobrevivência humana. A catástrofe também teve desdobramentos relevantes no diz que respeito à agenda ambientalista e pacifista."
+  },
+  "resposta": "**Objetivo da questão:** Comparar duas destruições de cidades, afastadas por dezenove séculos e provocadas por ações bastante distintas entre si. Refletir sobre o ato extremo do lançamento de uma bomba atômica sobre Hiroshima, ao fim da II Guerra Mundial, e de suas consequências para as estratégias de contenção militar nos conflitos da época conhecida como Guerra Fria."
+ },
+ "34": {
+  "itens": {
+   "a": "O pan-africanismo foi um movimento iniciado no final século XIX que defendia união, solidariedade, valorização cultural e resistência dos povos africanos ante a ação colonialista europeia no continente e, depois, ante o legado colonial, no contexto da diáspora africana.",
+   "b": "O termo “consciência negra” refere-se a uma consciência positiva da negritude em oposição às formas coloniais marcadas pelo preconceito e pelo racismo contra as populações de origem africana. Tal consciência afirmativa contribuiu no projeto de total emancipação política, econômica e cultural dos povos africanos e de origem e ascendência africana",
+   "c": "Ela designa o repúdio às fronteiras artificiais criadas pela ação dos colonizadores e aponta o desencanto diante dos rumos das sociedades africanas pós-emancipação, marcados por guerras civis decorrentes de conflitos étnicos e religiosos. “Sem acordo” indica oposição crítica aos problemas e impasses herdados da experiência colonial."
+  },
+  "resposta": "**Objetivo da questão:** Reconhecer a crítica de um músico nigeriano ao passado colonial e à condição pós-colonial das sociedades africanas. Caracterizar formas de reação e resistência africanas, em meio ao processo de emancipação política e de constituição de identidades."
+ },
+ "35": {
+  "itens": {
+   "a": "O aspecto comum entre as imagens é a emergência de um amplo movimento pacifista e contrário à continuação da guerra.",
+   "b": "Uma jovem se contrapõe à beligerância dos soldados, mostrando-lhes uma flor. Um jovem ostenta palavras de ordem pelo fim da guerra.",
+   "c": "Entre as razões que podem ser citadas: os milhares de mortes de jovens recrutados pelo Exército dos Estados Unidos e as notícias sobre as ações militares empregadas pelas forças norte-americanas na guerra, que atingiam a população civil do Vietnã."
+  },
+  "resposta": "**Objetivo da questão:** Caracterizar a pressão da opinião pública estadunidense sobre as autoridades do país para por fim à Guerra do Vietnã."
+ },
+ "36": {
+  "itens": {
+   "a": "O crescimento do PIB brasileiro foi constante e significativo no período (entre 9,8 e 14%).",
+   "b": "O crescimento do PIB brasileiro foi superior ao dos conjuntos “América Latina” e “Mundial” referidos na tabela, variando 4,2%. A inflação, embora tenha se mantido num patamar elevado, apresentou declínio significativo, com queda de 10% entre 1968 e 1973.",
+   "c": "O crescimento econômico do período do \"milagre brasileiro\" teve como pilares, no campo econômico: forte participação do Estado em setores estratégicos, participação da iniciativa privada brasileira e significativos aportes de capital estrangeiro (com o objetivo de incentivar o crescimento industrial e melhorar a infraestrutura nacional, sem abandonar os setores agroexportador e minerador). Neste contexto, em meio à inflação elevada e ao endividamento do Estado, houve, no campo social, a prática de arrocho salarial com o objetivo de aumentar os lucros privados e esvaziamento de políticas públicas voltadas para a redistribuição de riquezas e a garantia de direitos sociais. Tal quadro foi agravado pelo caráter autoritário do regime, que perseguia a oposição política e diversos movimentos sociais, cenário agravou a histórica desigualdade social e a concentração de renda no país."
+  },
+  "resposta": "**Objetivo da questão:** Refletir sobre as características e contradições do modelo de crescimento econômico verificado no período do regime militar brasileiro."
+ }
+}

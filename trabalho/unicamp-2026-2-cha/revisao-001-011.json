@@ -1,0 +1,120 @@
+{
+  "edicao": "unicamp-2026-2-cha",
+  "intervalo": [
+    1,
+    11
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 8,
+      "materia": "filosofia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Texto 1**\n\n![Ilustração de uma serpente com patas, vermelha e dourada, que morde a própria cauda, formando um círculo, com a legenda \"(Ouroboros)\"](fig:p10-c2)\n\n**Texto 2**\n\nEm *Capitalismo Canibal* (2024), Nancy Fraser afirma que o capitalismo é uma ordem social que ‘devora’ as suas próprias condições de existência. Para representar o capitalismo, Fraser usa a imagem de Ouroboros, que ilustra a capa do livro.\n\n**Texto 3**\n\nA contradição política inerente ao capitalismo ocorre entre os imperativos da acumulação de capital e a manutenção dos poderes públicos de que a acumulação também depende. O poder público legítimo e eficaz é uma condição de possibilidade para a acumulação sustentada do capital. Afinal, o capital tem uma dependência crucial dos poderes públicos para garantir direitos de propriedade, fazer cumprir contratos, julgar controvérsias, reprimir rebeliões, manter a ordem, administrar a divergência, etc. O ímpeto de acumulação infinita tende, ao longo do tempo, a desestabilizar os mesmos poderes públicos de que depende. Essa contradição está na raiz de nossa atual crise democrática. Graças a sua estrutura inerente, o capitalismo é fundamentalmente antidemocrático. Mesmo no melhor dos casos, a democracia, em uma sociedade capitalista, deve ser forçosamente fraca e limitada.\n\n(Adaptado de FRASER, N. *Capitalismo Canibal*. Cotia (SP): Autonomia Literária, 2024, p.135-138.)\n\nConsiderando os textos 1, 2 e 3, responda aos itens (a) e (b).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique por que Nancy Fraser escolhe o Ouroboros para representar o capitalismo. Na sua resposta, relacione a imagem, o título *Capitalismo Canibal* e o trecho que aponta para a autodestruição do sistema."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Segundo Fraser, em que consiste a contradição do capitalismo e por que a autora afirma que o sistema é antidemocrático? Evidencie como essas duas teses estão conectadas."
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A partir da leitura da imagem a seguir, produzida por Carlos Julião, agente do império português na segunda metade do século XVIII, responda aos itens (a) e (b).\n\n![Aquarela de Carlos Julião. À esquerda, uma mulher negra de vestido amarelo estampado, com coroa na cabeça, bastão na mão e um manto vermelho; logo atrás dela, duas mulheres de saia azul, faixa amarela e plumas vermelhas na cabeça, descalças: uma segura uma sombrinha vermelha sobre a mulher coroada e a outra segura a cauda do manto. À direita, cinco mulheres de blusa branca, saia clara com faixa azul, plumas na cabeça e calçados vermelhos: uma leva um tambor sobre a cabeça, outra segura um instrumento comprido, outra ergue as mãos, outra estende as mãos à frente e a última toca com duas baquetas um instrumento preso à cintura](fig:p12-f2)\n\n(JULIÃO, C. Riscos illuminados de figurinhos de brancos e negros dos uzos do Rio de Janeiro e Serro do Frio [século XVIII]. Rio de Janeiro: Fundação Biblioteca Nacional, 1960.)\n\nLegenda: Prancha 37, Coroação de uma rainha negra na festa de Reis, seguida por um cortejo de mulheres. Minas Gerais, segunda metade do século XVIII.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Descreva a imagem destacando quatro elementos ligados às práticas culturais africanas."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite e explique duas evidências da diversidade de *status* social dentro da população negra na colônia."
+        }
+      ]
+    }
+  ],
+  "respostas_corrigidas": {
+    "4": {
+      "itens": {
+        "a": "Como o índice h é 8, esse pesquisador tem pelo menos 8 artigos com pelo menos 8 citações cada uma. Logo, o pesquisador tem pelo menos $M = 64$ citações.",
+        "b": "O índice h é 4, pois os artigos A, B, E e F têm pelo menos 4 citações e os artigos C e D têm menos do que 4 citações.\n\nPara que o índice h seja 6, o pesquisador precisa ter pelo menos 10 novas citações nos artigos C e D. Portanto, ele precisa de pelo menos 6 novas citações do artigo C e pelo menos 4 novas citações do artigo D. Logo, o pesquisador precisa de 10 novas citações."
+      }
+    }
+  },
+  "complementos": {
+    "4": {
+      "assunto": "Aritmética e porcentagem"
+    },
+    "5": {
+      "assunto": "Polinômios e equações"
+    },
+    "6": {
+      "assunto": "Matrizes e sistemas"
+    },
+    "7": {
+      "assunto": "Desigualdade e estratificação"
+    },
+    "8": {
+      "assunto": "Filosofia política"
+    },
+    "9": {
+      "assunto": "Idade Moderna (Europa)"
+    },
+    "10": {
+      "assunto": "Brasil Colônia"
+    },
+    "11": {
+      "assunto": "Revoluções e século XIX"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 4,
+      "status": "corrigida",
+      "notas": "Enunciado (negritos, travessões, $k$ em itálico), itens e gráfico p06-c1 (título, valores 30/8/0/2/20/8 e letras A–F completos) conferidos com p06. Resposta conferida com r02 (contas certas: h = 4; 6 + 4 = 10 novas citações). Correção: no documento da banca, o parágrafo 'O índice h é 4, pois os artigos A, B, E e F...' vem impresso sob o item a), mas responde à 1ª pergunta do item b (o gráfico dos artigos A–F só existe no item b, e o texto do b) da banca começa direto na 2ª pergunta). Movido para o início da resposta do item b, sem mudar nenhuma palavra; decide a observação do transcritor, que o tinha mantido no item a."
+    },
+    {
+      "numero": 5,
+      "status": "ok",
+      "notas": "Enunciado e itens conferidos com p07 (sinais, expoentes, $b-1$). Resposta conferida com r02: relações de Girard e interseções (1/2, 21/4) e (−1, 0) conferidas por conta."
+    },
+    {
+      "numero": 6,
+      "status": "ok",
+      "notas": "Enunciado (itálico em marketing, 10%, 20%, 10,4 milhões) conferido com p08. Resposta conferida com r03; sistema 400a+300b=68000 e 440a+360b=78400 dá a=80, b=120 e 10,4/68 ≈ 0,1529, como na banca."
+    },
+    {
+      "numero": 7,
+      "status": "ok",
+      "notas": "Texto 1 (marcadores, (i)/(ii), fonte com itálico em Contemporary Sociology), Texto 2 e itens conferidos com p09; gráfico p09-c2 completo (eixo 0–100 e seis barras). O crédito vertical fica dentro do recorte porque se sobrepõe na horizontal ao rótulo '100' do eixo; não dá para separar num retângulo, e a descrição traz o crédito. Comando 'A partir da leitura...' posto depois do Texto 2, antes dos itens: decisão do transcritor aceita. Resposta conferida com r03–r04."
+    },
+    {
+      "numero": 8,
+      "status": "corrigida",
+      "notas": "Textos 1, 2 e 3, fonte e itens conferidos com p10 (aspas simples em ‘devora’, itálicos em Capitalismo Canibal). Recorte p10-c2 completo, com a legenda. Correção só na descrição da figura: o animal tem quatro patas ('serpente com patas'). Resposta conferida com r04; 'ourobouros' na resposta da banca mantido como impresso (observação do transcritor aceita)."
+    },
+    {
+      "numero": 9,
+      "status": "ok",
+      "notas": "Texto, fonte (itálico só em Collection Essays e commodities) e itens conferidos com p11. Resposta conferida com r04–r05."
+    },
+    {
+      "numero": 10,
+      "status": "corrigida",
+      "notas": "Enunciado, legenda, itens (status em itálico) e crédito vertical (sem itálico; posto como parágrafo depois da figura, decisão do transcritor aceita) conferidos com p12. Correção na descrição da figura p12-f2, que dizia 'seguida por seis mulheres de roupas claras': na aquarela há duas acompanhantes de saia azul (uma com a sombrinha, outra segurando o manto) e cinco mulheres de roupas claras com instrumentos. Como o item a pede justamente a descrição da imagem, a nova descrição só enumera o que se vê, sem interpretar. Resposta conferida com r05."
+    },
+    {
+      "numero": 11,
+      "status": "ok",
+      "notas": "Texto, fonte e itens conferidos com p13; 'QUIEROZ' está assim no caderno (mantido, observação aceita); travessão de fechamento sem abertura ('espanhóis – e com') também é do original. Resposta conferida com r05–r06 (itálicos em Risorgimento e brigantaggio; aspas retas em \"ressurgimento\", como impresso)."
+    }
+  ]
+}
