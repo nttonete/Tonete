@@ -1,0 +1,62 @@
+{
+ "edicao": "unicamp-2020-2-cha",
+ "intervalo": [
+  17,
+  22
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "17": {
+   "assunto": "Geopolítica e conflitos"
+  },
+  "18": {
+   "assunto": "Geopolítica e conflitos"
+  },
+  "19": {
+   "assunto": "Biomas e vegetação"
+  },
+  "20": {
+   "assunto": "Geologia e relevo"
+  },
+  "21": {
+   "assunto": "Indústria"
+  },
+  "22": {
+   "assunto": "Movimentos sociais"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "Resposta e objetivo conferidos com r07 e r18; figura e texto conferidos com p19."
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "Conferido com p20, r07, r19."
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": "Conferido com p21, r07, r20; mapa completo, sem a fonte."
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": "Conferido com p22, r08, r20-r21; figura completa."
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": "Conferido com p23, r08, r21-r23; gráfico completo."
+  },
+  {
+   "numero": 22,
+   "status": "ok",
+   "notas": "Conferido com p24, r08, r23."
+  }
+ ]
+}
