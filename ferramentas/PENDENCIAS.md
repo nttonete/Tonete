@@ -50,6 +50,7 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2025-2-d1 q9, item a: a resposta cita a "conservação da energia mecânica" e logo depois diz que ela não se conserva no choque (o correto seria a energia total).
 - unicamp-2025-2-cet q3: a resposta chama de "cateto B'E" o cateto BB' (1,5) e soma o caminho AGEFNCL como 8,2 (o certo é 8,0 km); a resposta final, 7,4 km, está certa.
 - unicamp-2025-2-cet q5: a resposta escreve "c = 6, c = 5 ou c = 6" (o certo é 4, 5 ou 6); as senhas listadas estão corretas.
+- fuvest-2024-2-d1 q1, item a: a resposta cita "o comentário que traz os termos 'business' e 'meetings'", que não está entre os três comentários impressos no caderno.
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ### Discursivas: trecho curto de poema protegido mantido
