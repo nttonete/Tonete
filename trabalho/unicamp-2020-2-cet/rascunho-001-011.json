@@ -1,0 +1,268 @@
+{
+ "edicao": "unicamp-2020-2-cet",
+ "intervalo": [
+  1,
+  11
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 1,
+   "materia": "historia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "Um dos eixos da bipolaridade escravista que unia a África à América portuguesa girava, justamente, na rota aberta entre as duas margens do mar por correntezas e ventos complementares. Na ida, a rota principal seguia o inverso dos ponteiros do relógio, no sentido dos ventos oeste-leste, entre o Trópico de Capricórnio e 30º5. Na volta, a rota principal seguia no sentido dos alísios de sudeste, abaixo da linha do Equador. Na medida em que se zarpava com facilidade de Pernambuco, da Bahia e do Rio de Janeiro até Luanda ou a Costa da Mina, e vice-versa, a navegação luso-brasileira que se desenvolveu naquelas rotas foi transatlântica e negreira. Vários tipos de trocas uniam as duas margens do oceano.\n\n(Adaptado de Luiz Felipe de Alencastro, *O trato dos viventes*: formação do Brasil no Atlântico Sul. São Paulo: Companhia das Letras, 2000, p. 61 - 63.)\n\nCom base no excerto e em seus conhecimentos, responda às questões.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique a direção dos ventos alísios no Atlântico Sul e a sua funcionalidade no transporte marítimo da África para o Brasil."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite e explique um exemplo de relação estabelecida entre o Brasil e a África na época da colonização portuguesa na América."
+    }
+   ],
+   "observacoes": "O caderno traz \"30º5\" no texto (também na prova comentada oficial), provavelmente \"30º S\"; mantido como impresso."
+  },
+  {
+   "numero": 2,
+   "materia": "historia",
+   "materias_extra": [
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "Até hoje, a formação das classes médias esteve ligada à expansão da indústria e à elevação de seus níveis de produtividade. Historicamente, a indústria permitiu estruturar a representação política e sindical das categorias mais desfavorecidas da população em torno dos interesses que afetavam as grandes massas de trabalhadores. Já no contexto atual, marcado por um mundo menos industrializado e orientado para uma economia em que os serviços tendem a ser mais fragmentados e frequentemente artesanais ou informais, os interesses comuns dos trabalhadores são evidentemente muito mais difíceis de emergir. Considerando este quadro, a desindustrialização prematura dos países do Hemisfério Sul (com exceção do Leste Asiático) não é muito favorável a uma consolidação democrática.\n\n(Adaptado de Pierre Veltz, *La société hyper-industrielle*. Le nouveau capitalisme productif. Paris: Éditions du Seuil, 2017, p. 16.)\n\nCom base no texto e em seus conhecimentos, responda às questões.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Que decreto-lei garantiu os principais direitos trabalhistas na Era Vargas e por que a menor presença de uma classe trabalhadora na indústria enfraquece os processos democráticos na contemporaneidade?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique e explique qual foi a principal mudança estrutural ocorrida na economia brasileira nas duas últimas décadas."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 4,
+   "materia": "biologia",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "Um dos pratos mais apreciados pelos brasileiros é o tradicional arroz com feijão, uma combinação balanceada de diversos nutrientes importantes para a saúde humana.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A combinação de arroz e feijão fornece todos os aminoácidos essenciais ao organismo. A tabela abaixo apresenta variações na quantidade de alguns aminoácidos essenciais por categorias de alimentos.\n\n![Tabela de aminoácidos essenciais (metionina, isoleucina, leucina, lisina, fenilalanina, treonina, triptofano e valina) por categorias de alimentos (milho, arroz, feijão, soja, verduras e gelatina), com os símbolos ↑↑, ↓↓ e ✓ explicados na legenda: alta quantidade, baixa quantidade e quantidade ideal do aminoácido presente no alimento](fig:p06-c1)\n\n(Adaptado de Marchini e outros, *Aminoácidos*. São Paulo: ILSI Brasil-International Life Sciences Institute do Brasil, 2016, p. 18.)\n\nConsidere uma época de escassez em que é necessário substituir o feijão do combinado “arroz e feijão” por outro alimento. Tendo como base as informações fornecidas, que alimento da tabela poderia ser escolhido? Justifique sua resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere a seguinte afirmação: “O arroz, embora seja um alimento saudável, deve ser consumido por uma pessoa com diabetes tipo 2 sob orientação profissional para controle de glicemia.” Explique a afirmação, levando em consideração as transformações que o arroz sofre na digestão e as características do diabetes tipo 2."
+    }
+   ],
+   "observacoes": "A tabela do item a foi recortada como figura (células mescladas e símbolos)."
+  },
+  {
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Dois tipos de exames para a detecção de certo vírus foram aplicados em um grupo de 80 pacientes, dos quais, com certeza, 60 são portadores desse vírus e 20 não são. Os resultados dos exames estão organizados nas tabelas abaixo.\n\n| EXAME 1 | PORTADOR | NÃO PORTADOR | TOTAL |\n|---|---|---|---|\n| RESULTADO POSITIVO | 42 | 06 | 48 |\n| RESULTADO NEGATIVO | 18 | 14 | 32 |\n\n| EXAME 2 | PORTADOR | NÃO PORTADOR | TOTAL |\n|---|---|---|---|\n| RESULTADO POSITIVO | 56 | 07 | 63 |\n| RESULTADO NEGATIVO | 04 | 13 | 17 |\n\nNote que em cada exame ocorrem tanto **falsos positivos** (pacientes não portadores do vírus com resultado positivo no exame) quanto **falsos negativos** (pacientes portadores do vírus com resultado negativo no exame).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Calcule a porcentagem de pacientes portadores do vírus no grupo em estudo."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando os resultados positivos em cada exame, qual dos dois exames tem a menor porcentagem de **falsos positivos**? Justifique sua resposta."
+    }
+   ],
+   "observacoes": "Na resposta oficial do item b está impresso \"no p Exame 2\" (erro de digitação do original, mantido)."
+  },
+  {
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo exibe um triângulo isósceles com dois lados de comprimento $a = 5\\ \\text{cm}$ e um dos ângulos internos igual a $\\theta$, em que $\\cos\\theta = 3/5$.\n\n![Triângulo isósceles com os dois lados iguais indicados por a e o ângulo θ marcado no vértice entre eles](fig:p08-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Calcule a área desse triângulo."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine o comprimento do raio da circunferência circunscrita a esse triângulo."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 7,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Seja a matriz de ordem $2 \\times 3$, dada por $A = \\begin{bmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\end{bmatrix}$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Seja $C$ a matriz de ordem $3 \\times 2$, cujos elementos são dados por $c_{ij} = (-1)^{i+j}$, para $i = 1{,}2{,}3$ e $j = 1{,}2$. Determine o produto $AC$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine a solução do sistema linear $A\\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 6 \\\\ 6 \\end{bmatrix}$, nas variáveis reais $x$, $y$ e $z$, em que $(x, y, z)$ é uma progressão aritmética."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 8,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo exibe, no plano cartesiano, o gráfico de $y = \\sqrt{x}$ para $x \\geq 0$, em que os pontos $A$ e $B$ têm abscissas $x_A = a > 0$ e $x_B = b > a$, e $O$ é a origem do sistema de coordenadas.\n\n![Gráfico da curva y = √x no plano cartesiano, com os pontos A e B sobre a curva, as abscissas a e b marcadas no eixo x por linhas tracejadas e a origem O](fig:p10-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Prove que os pontos $A$, $B$ e $C = (-\\sqrt{ab}, 0)$ são colineares."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para $b = 3$, determine o valor de $a$ para o qual a distância da origem ao ponto $A$ é igual à distância do ponto $A$ ao ponto $B$."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 9,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Seja a função $f(x) = \\dfrac{2 + \\text{sen}\\,x}{2 + \\cos x}$, definida para todo número real $x$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Mostre que $f(\\pi/2) + f(-\\pi/2) = f(\\pi)\\,f(\\pi/4)$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Seja $\\theta$ um número real tal que $f(\\theta) = 2$. Determine os possíveis valores para $\\text{sen}\\,\\theta$."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 10,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo exibe a planificação de um poliedro convexo, com faces triangulares congruentes e faces retangulares, em que são indicados os comprimentos $a$, $b$ e $c$.\n\n![Planificação formada por uma fileira de quatro retângulos, com um triângulo sobre o lado superior de cada um, e um retângulo abaixo do primeiro; à esquerda, as medidas a, b e c indicadas de cima para baixo](fig:p12-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine o número de vértices e de arestas desse poliedro."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para $a = 13\\ \\text{cm}$, $b = 16\\ \\text{cm}$ e $c = 10\\ \\text{cm}$, calcule o volume desse poliedro."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Estudos indicam que uma massa $m = 1000\\ \\text{kg}$ de poeira cósmica, composta por minúsculas partículas, colide com a superfície da Terra a cada intervalo $\\Delta t = 20\\ \\text{min}$. Considere, para simplificar, que as partículas de poeira têm velocidade média nula antes de serem arrastadas pela Terra no seu movimento em torno do Sol. Logo após colidirem com a superfície do nosso planeta, elas passam a se deslocar juntamente com a Terra, com velocidade média de módulo igual a $v_{\\text{Terra}} = 30\\ \\text{km/s}$. Considere também que o movimento da Terra num intervalo $\\Delta t = 20\\ \\text{min}$ é retilíneo e uniforme.\n\n![Esquema com duas posições da Terra, separadas pela distância percorrida em Δt = 20 min; entre elas, um cilindro tracejado rotulado “cilindro correspondente ao volume varrido pela Terra”; vetor v_Terra apontando para a direita e a indicação “área da seção reta do cilindro: A = 1,25x10^14 m²”](fig:p13-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a densidade da poeira na região do espaço atravessada pela Terra? Ver ilustração ao lado."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é o módulo da força média aplicada pela Terra sobre a massa de poeira cósmica que ela intercepta durante um intervalo $\\Delta t = 20\\ \\text{min}$?"
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "1": {
+   "resposta": "**Objetivo da questão:** O objetivo da questão é a compreensão das relações entre África e América portuguesa, abordando o contexto e a dinâmica geral da atmosfera. O item **a** explora as condições atmosféricas do Atlântico para a navegação, especialmente durante a colonização portuguesa. Mobiliza, assim, os conteúdos \"expansão marítima europeia\" e \"os oceanos e os mares\", e as habilidades de cotejar estudos historiográficos, aprimorar o raciocínio geográfico e elaborar resposta escrita com base nos conteúdos programáticos de Geografia e História. O item **b** foca os intercâmbios entre Brasil e África, mobilizando conteúdos de História, especificamente \"africanos: interação no mundo colonial americano\". Quanto às habilidades, exige as mesmas elencadas no item anterior, referentes à História.\n\nFaz parte da vida cotidiana a questão do clima – enchentes nas cidades; secas nos campos etc – e a herança escravocrata na sociedade brasileira hoje. O estudo das relações Brasil-África tem potencial para uma educação antirracista, substituindo por conhecimento histórico estereótipos racilizados sobre o continente africano e a escravidão.\n\nA questão 1 aborda habilidades que permitem elaborar respostas escritas envolvendo descrição, exposição e argumentação com base nas informações e conhecimentos listados no conteúdo programático de História e de Geografia. O eixo central da questão estabelece relações entre temas clássicos do ensino fundamental e médio: expansão marítima europeia; descobrimentos e choques culturais; formação dos impérios coloniais; conquista e colonização das Américas: religião, política, cultura, economia e sociedade coloniais; protagonismos indígenas e africanos. Ela foi formulada com base em profícuo diálogo entre História e Geografia, já que as condições naturais, como a direção dos ventos e das correntes marítimos condicionaram – e ainda condicionam – o transporte marítimo. A exploração do tema da escravidão e do tráfico de escravos foi de fundamental importância para esse diálogo interdisciplinar.",
+   "itens": {
+    "a": "A direção dos ventos alísios no litoral brasileiro é de sudeste para noroeste; no litoral africano, é de noroeste para sudeste. O desenvolvimento das técnicas de navegação naquele contexto estava relacionado ao aproveitamento do regime dos ventos, dado que as embarcações eram movidas a vela. Nesse sentido, a navegação da África para o Brasil era facilitada.",
+    "b": "O comércio de pessoas escravizadas desempenhou papel fundamental na dinamização de vários tipos de trocas estabelecidas entre Brasil e África no contexto da colonização. Por meio de uma multiplicidade de relações potencializadas pelo tráfico, formou-se um amplo complexo histórico e cultural afro-brasileiro."
+   }
+  },
+  "2": {
+   "resposta": "**Objetivo da questão:** A questão 2 trabalha a habilidade 3 do programa da área de História, \"compreender as relações entre os tempos históricos (passado, presente e futuro)\", enfocando dois temas interrelacionados do conteúdo programático dessa mesma área \"o processo de globalização: dinâmicas e tensões\" e \"As transformações do mundo do trabalho\".\n\nO seu objetivo é abordar, em perspectiva histórica, as relações entre o mundo do trabalho e a construção dos processo democráticos com ênfase nas dimensões econômicas e sociais. Para tanto, o candidato deveria desenvolver o tema situando-o tanto no cenário brasileiro como em sua dimensão internacional, relacionando as duas escalas por meio de exemplos. O foco central da resposta deveria considerar, portanto, a perspectiva macroanalítica, buscando os elementos estruturais das transformações dos processos de organização dos trabalhadores e suas conexões com as mudanças estruturais da economia brasileira.\n\nNo campo da geografia, situa essas questões no campo da geopolítica contemporânea.\n\nO cotidiano de emprego e desemprego e os direitos trabalhistas vividos nas grandes cidades brasileiras, chamando atenção para a dimensão histórica da questão e suas transformações no tempo.\n\nO cerne da questão toca a dimensão histórica das transformações do mundo do trabalho tanto no âmbito nacional como internacional, ou seja, mobiliza de forma relacionada tópicos da Geografia e da História.",
+   "itens": {
+    "a": "O decreto-lei nº 5.452, de 1º de maio de 1943, que unificou as leis trabalhistas e ficou conhecido como Consolidação das Leis Trabalhistas (CLT).\n\nO processo de desindustrialização e terciarização da economia, em razão da fragmentação dos postos de trabalho, enfraquece a representatividade dos trabalhadores através de associações, representações de classe e sindicatos, impactando de modo geral os ganhos da sociedade civil e sua capacidade de reivindicações políticas e sociais.",
+    "b": "Nas duas últimas décadas, a economia brasileira passou por um acentuado processo de desindustrialização, com expansão dos empregos no setor de serviços e aumento do peso da exportação de matérias-primas (*commodities*) no PIB. Destaca-se ainda o impacto do neoliberalismo nas dinâmicas econômicas, com aumento da informalidade e precarização do trabalho em todos os setores."
+   }
+  },
+  "4": {
+   "resposta": "**Objetivo da questão:** Essa questão trata de aspectos relativos à alimentação e saúde, estando próxima ao binômio ciência/sociedade. Ela se contextualiza em aspectos que dizem respeito ao consumo saudável de arroz com feijão, componentes centrais da alimentação dos brasileiros, no sentido de promover a saúde ou evitar que problemas sejam agravados por uma alimentação inadequada. O item **a** pede que se estabeleça um substituto alimentício ao feijão de modo a manter o balanceamento da dieta em termos de aminoácidos essenciais. Nesse sentido, o item questiona o conhecimento sobre proteínas e aminoácidos complementares e sua promoção da saúde alimentar. O item **b** da questão exige que se reconheça que o arroz é rico em amido, um componente que no processo digestivo leva à formação de glicose, uma substância com restrições alimentares para pessoas portadoras de diabetes. Dessa forma, o item exige um conhecimento específico de química (reação de transformação de carboidratos) e um conhecimento específico da biologia (diabetes). De certa forma, o conteúdo exigido na questão é bem básico e fundamental, mas a questão aborda de uma forma integradora e interdisciplinar um tema geral e bem conhecido.\n\n**Itens dos programas abordados:**\n\n**Química:**\n• Noções sobre carboidratos, lipídios, proteínas e enzimas\n\n**Biologia:**\n• Componentes bioquímicos da célula\n• O que é saúde?\n\nA questão foi considerada de dificuldade média pela Banca Elaboradora e pelos revisores de áreas. Os revisores destacaram que as questões integravam o conhecimento de química e biologia na saúde e nutrição, sendo que cada um deles – devido à característica interdisciplinar – teve a preocupação de analisar aspectos relevantes sobre as perguntas e possíveis respostas. As duas análises de cada revisor permitiram que a Banca Elaboradora realizasse modificações estruturais significativas, de modo a enfatizar o que realmente se buscava na essência de cada questão. Elas também indicaram, de forma indireta, que em alguns questionamentos o escopo da resposta, não estava claro inicialmente, uma vez que os revisores deram importância a aspectos outros que não os pretendidos. Não houve sinalização no sentido de questionar outros assuntos integrados de biologia ou química, assim como não houve nenhum comentário de que algum assunto questionado não fosse relevante ou significativo.\n\nPara a questão 4, destacou-se que ela dependia de leitura atenta e associação de tabelas de composição bioquímica de aminoácidos, e posteriormente processos bioquímicos de conversão de macromoléculas como o amido em glicose e sua importância na saúde humana, como no caso de pacientes com diabetes do tipo 2. Na visão dos revisores, no item **a**, baseado nas composições em termos de aminoácidos essenciais fornecidas para o arroz, feijão e outros alimentos, era necessário identificar qual alimento poderia substituir o feijão. Essa habilidade era esperada na identificação da similaridade da composição em termos de aminoácidos de diferentes alimentos que demandavam a leitura e interpretação da tabela, como os dados de feijão e soja/verdura são muito parecidos e complementares aos do arroz. E a expectativa era de que não fosse difícil chegar à resposta correta. Já o item **b** dizia respeito ao processo bioquímico que pode produzir glicose a partir da digestão do arroz, rico em amido, outra macromolécula, e ser prejudicial para pessoas com diabetes tipo 2 que possuem baixa produção ou resistência à ação da insulina, elevando a glicemia desses indivíduos. Esse item foi um pouco mais difícil, pois demandava conhecimento sobre metabolismo, saúde e bioquímica. Além disso, foi dificultado por não apresentar relação com as informações destacadas na tabela de dados.\n\nOs revisores consideraram no final que a questão continha informações e conceitos que fazem parte das associações esperadas e presentes no programa das áreas de conhecimento.\n\n**Aplicação no cotidiano e interdisciplinaridade**\n\nInicialmente, a proposta foi envolver diferentes classes de macromoléculas (proteínas e carboidratos), onde era esperado que o candidato comparasse uma tabela contendo aminoácidos essenciais e compreendesse a importância da ingestão de todos para uma dieta balanceada, bem como que o arroz – além de possuir proteínas – é composto por carboidrato (amido) que, quando digerido (hidrolisado), resultava em glicose (monossacarídeo). Não se esperava, por exemplo, conceitos complexos de química orgânica e fórmulas estruturais para elaborar reações ou cálculos estequiométricos para se estabelecer quantidades adequadas.\n\nNa sequência, ao se solicitar uma justificativa à afirmação “O arroz, embora seja um alimento, saudável, deve ser consumido por uma pessoa com diabetes tipo 2 sob orientação profissional para controle de glicemia” levando em consideração transformações que o arroz sofre na digestão e as características do diabetes tipo 2, era esperado que a resposta contivesse informações gerais ao invés de biologia molecular que caracteriza essa doença. É importante destacar que a digestão do amido do arroz poderia contribuir para o agravamento da saúde. Nesse sentido, o que se exige é que se explique que a doença é caracterizada pela baixa produção de insulina ou pelo não reconhecimento celular de seu papel no transporte da glicose através da membrana celular e que o arroz é um alimento rico em amido, uma substância que na digestão leva à formação de glicose e elevação da glicemia consequentemente.",
+   "itens": {
+    "a": "Para substituir o feijão do combinado “arroz e feijão”, sabendo que se trata de uma combinação balanceada de aminoácidos essenciais, a soja ou as verduras poderiam ser escolhidas, conforme a tabela apresentada. O arroz contém baixa quantidade de lisina e treonina, sendo essa deficiência compensada pelo feijão. De acordo com a tabela, a soja contém altas quantidades de lisina e treonina, assim como as verduras possuem quantidades ideais desses aminoácidos essenciais. Os alimentos milho e gelatina, assim como o arroz, têm baixa quantidade de lisina e treonina, o que não asseguraria uma dieta balanceada.",
+    "b": "O arroz é rico em amido (carboidrato complexo - polissacarídeo), que deve sofrer hidrólise por enzimas durante a digestão, o que levará à formação de glicose (monossacarídeo). A pessoa com diabetes do tipo 2 pode ter uma resistência aos efeitos da insulina (hormônio que regula a entrada de glicose nas células), ou não produzir insulina suficiente para manter o nível de glicose normal (glicemia); a glicose produzida pela hidrólise do amido do arroz em excesso não será importada para a célula e permanecerá em alta concentração no sangue (hiperglicemia), caso o alimento não seja consumido sob orientação."
+   }
+  },
+  "5": {
+   "resposta": "**Objetivo da questão:** Avaliar a capacidade do candidato em interpretar dados e manipular porcentagens.",
+   "itens": {
+    "a": "De acordo com o enunciado, dos 80 pacientes, 60 são portadores do vírus. Logo, a porcentagem de pacientes portadores do vírus é igual a\n\n$$\\frac{60}{80} \\times 100\\% = 0{,}75 \\times 100\\% = 75\\%.$$",
+    "b": "Considerando os resultados positivos, no Exame 1, a porcentagem de falsos positivos é igual a $\\frac{6}{48} \\times 100\\% = 0{,}125 \\times 100\\% = 12{,}5\\%$, e, no p Exame 2 é igual a $\\frac{7}{63} \\times 100 \\approx 0{,}111 \\times 100\\% = 11{,}1\\%$. Portanto, o Exame 2 tem a menor porcentagem de falsos positivos."
+   }
+  },
+  "6": {
+   "resposta": "**Objetivo da questão:** Explorar os conceitos de área e circunferência circunscrita em um triângulo.",
+   "itens": {
+    "a": "Sendo $h$ o comprimento da altura em relação a um dos lados de comprimento $a$, temos $\\text{sen}\\,\\theta = h/a$ e, portanto, a área do triângulo pode ser calculada como $A = 1/2 \\times a \\times h = 1/2 \\times a \\times a \\times \\text{sen}\\,\\theta$.\nComo $0 < \\theta < 180^{o}$, da equação fundamental $(\\text{sen}\\,\\theta)^2 + (\\cos\\theta)^2 = 1$, temos $\\text{sen}\\,\\theta = \\sqrt{1 - (\\cos\\theta)^2} = \\sqrt{1 - (3/5)^2} = \\sqrt{16/25} = 4/5$. Assim, a área é igual a $A = 1/2 \\times 5 \\times 5 \\times 4/5 = 10\\ \\text{cm}^2$.",
+    "b": "Observe a figura abaixo, em que $O$ é o centro da circunferência circunscrita ao triângulo e $r$ é o comprimento do raio dessa circunferência.\n\n![Circunferência circunscrita ao triângulo isósceles, com centro O; segmentos r de O até os três vértices, lados a, ângulos θ/2 e θ/2 no vértice superior, π − θ em O e θ/2 em um vértice da base](fig:r02-c1)\n\nAplicando a Lei dos Cossenos, temos $a^2 = r^2 + r^2 - 2 \\times r \\times r \\times \\cos(\\pi - \\theta)$. Como $\\cos(\\pi - \\theta) = \\cos\\pi \\times \\cos\\theta + \\text{sen}\\,\\pi \\times \\text{sen}\\,\\theta = -\\cos\\theta + 0 = -\\cos\\theta$, então temos $a^2 = 2r^2 + 2r^2\\cos\\theta = 2r^2(1 + \\cos\\theta)$. Logo, obtemos a equação $25 = 2r^2(1 + 3/5) = 16/5\\ r^2$ e, portanto, $r^2 = 125/16$, ou seja, $r = 5\\sqrt{5}/4\\ \\text{cm}$."
+   }
+  },
+  "7": {
+   "resposta": "**Objetivo da questão:** Abordar operações com matrizes e resolução de sistemas lineares com menos equações do que incógnitas, como também explorar o conceito básico de progressão aritmética.",
+   "itens": {
+    "a": "Primeiramente, devemos calcular os elementos da matriz $C$ de ordem $3 \\times 2$:\n\n$$\\begin{aligned} c_{11} &= (-1)^{1+1} = (-1)^2 = 1, & c_{12} &= (-1)^{1+2} = (-1)^3 = -1, \\\\ c_{21} &= (-1)^{2+1} = (-1)^3 = -1, & c_{22} &= (-1)^{2+2} = (-1)^2 = 1, \\\\ c_{31} &= (-1)^{3+1} = (-1)^4 = 1, & c_{32} &= (-1)^{3+2} = (-1)^5 = -1. \\end{aligned}$$\n\nPortanto, $C = \\begin{bmatrix} 1 & -1 \\\\ -1 & 1 \\\\ 1 & -1 \\end{bmatrix}$ e o produto $AC$ é dado por\n\n$$AC = \\begin{bmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\end{bmatrix} \\begin{bmatrix} 1 & -1 \\\\ -1 & 1 \\\\ 1 & -1 \\end{bmatrix} =$$\n\n$$\\begin{bmatrix} 1 \\times 1 + 1 \\times (-1) + 1 \\times 1 & 1 \\times (-1) + 1 \\times 1 + 1 \\times (-1) \\\\ 1 \\times 1 + 2 \\times (-1) + 3 \\times 1 & 1 \\times (-1) + 2 \\times 1 + 3 \\times (-1) \\end{bmatrix} =$$\n\n$$\\begin{bmatrix} 1 - 1 + 1 & -1 + 1 - 1 \\\\ 1 - 2 + 3 & -1 + 2 - 3 \\end{bmatrix} = \\begin{bmatrix} 1 & -1 \\\\ 2 & -2 \\end{bmatrix}.$$",
+    "b": "O sistema linear $A\\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 6 \\\\ 6 \\end{bmatrix}$ pode ser expresso como $\\begin{cases} x + y + z = 6, \\\\ x + 2y + 3z = 6. \\end{cases}$\nSendo $(x, y, z)$ uma progressão aritmética, então $y - x = z - y$, ou seja, $2y = x + z$. Substituindo essa relação na primeira equação do sistema linear, obtemos $2y + y = 6$, ou seja, $3y = 6$ e, portanto, $y = 2$. Substituindo $y = 2$ no sistema linear e subtraindo a primeira equação da segunda, obtemos $2 + 2z = 0$, ou seja, $z = -1$. Substituindo na primeira equação, obtemos $x + 2 - 1 = 6$ e, portanto, $x = 5$. Concluindo, a solução que é uma progressão aritmética é dada por $(x, y, z) = (5{,}2{,}-1)$."
+   }
+  },
+  "8": {
+   "resposta": "**Objetivo da questão:** Interpretar o gráfico de uma função, aplicando os conceitos de alinhamento e distância entre pontos no plano cartesiano.",
+   "itens": {
+    "a": "Como os pontos $A$ e $B$ pertencem ao gráfico de $y = \\sqrt{x}$, eles têm coordenadas $A = (a, \\sqrt{a})$ e $B = (b, \\sqrt{b})$. Para provar que os pontos $A, B$ e $C$ são colineares basta verificar que o determinante da matriz $\\begin{bmatrix} a & \\sqrt{a} & 1 \\\\ b & \\sqrt{b} & 1 \\\\ -\\sqrt{ab} & 0 & 1 \\end{bmatrix}$ é nulo. Assim,\n\n$$\\begin{vmatrix} a & \\sqrt{a} & 1 \\\\ b & \\sqrt{b} & 1 \\\\ -\\sqrt{ab} & 0 & 1 \\end{vmatrix} = a\\sqrt{b} - \\sqrt{a}\\sqrt{ab} + 0 + \\sqrt{b}\\sqrt{ab} - b\\sqrt{a} - 0 =$$\n\n$$a\\sqrt{b} - \\sqrt{a}\\sqrt{a}\\sqrt{b} + \\sqrt{b}\\sqrt{a}\\sqrt{b} - b\\sqrt{a} = a\\sqrt{b} - a\\sqrt{b} + b\\sqrt{a} - b\\sqrt{a} = 0.$$",
+    "b": "A distância da origem $O = (0,0)$ ao ponto $A = (a, \\sqrt{a})$ é igual a\n\n$$d_{OA} = \\sqrt{(0 - a)^2 + \\left(0 - \\sqrt{a}\\right)^2} = \\sqrt{a^2 + a}$$\n\ne a distância do ponto $A = (a, \\sqrt{a})$ ao ponto $B = (b, \\sqrt{b}) = (3, \\sqrt{3})$ é igual a\n\n$$d_{AB} = \\sqrt{(a - 3)^2 + \\left(\\sqrt{a} - \\sqrt{3}\\right)^2}.$$\n\nAssim, se $d_{OA} = d_{AB}$, temos também que $(d_{OA})^2 = (d_{AB})^2$ e, portanto, $a^2 + a = (a - 3)^2 + \\left(\\sqrt{a} - \\sqrt{3}\\right)^2$. Assim,\n\n$$a^2 + a = a^2 - 6a + 9 + a - 2\\sqrt{a}\\sqrt{3} + 3,$$\n\nou seja, $6a + 2\\sqrt{3a} - 12 = 0$. Dividindo essa equação por 2 e definindo $c = \\sqrt{3a}$, obtemos a equação quadrática na variável $c$, $c^2 + c - 6 = 0$. Logo, $c = \\frac{-1 \\pm \\sqrt{1^2 - 4 \\times 1 \\times (-6)}}{2 \\times 1} = \\frac{-1 \\pm \\sqrt{25}}{2} = \\frac{-1 \\pm 5}{2}$. Como $c$ deve ser positivo, concluímos que $c = \\frac{-1 + 5}{2} = 2$. Portanto, $2 = \\sqrt{3a}$, ou seja, $a = 4/3$."
+   }
+  },
+  "9": {
+   "resposta": "**Objetivo da questão:** Avaliar o conhecimento dos valores da função seno e da função cosseno nos arcos notáveis e da identidade fundamental para resolver uma equação trigonométrica simples.",
+   "itens": {
+    "a": "Temos que $f(\\pi/2) = \\dfrac{2 + \\text{sen}(\\pi/2)}{2 + \\cos(\\pi/2)} = \\dfrac{2 + 1}{2 + 0} = \\dfrac{3}{2}$, $f(-\\pi/2) = \\dfrac{2 + \\text{sen}(-\\pi/2)}{2 + \\cos(-\\pi/2)} = \\dfrac{2 - 1}{2 + 0} = \\dfrac{1}{2}$, $f(\\pi) = \\dfrac{2 + \\text{sen}(\\pi)}{2 + \\cos(\\pi)} = \\dfrac{2 + 0}{2 - 1} = 2$ e $f(\\pi/4) = \\dfrac{2 + \\text{sen}(\\pi/4)}{2 + \\cos(\\pi/4)} = \\dfrac{2 + \\sqrt{2}/2}{2 + \\sqrt{2}/2} = 1$. Logo,\n\n$$f(\\pi/2) + f(-\\pi/2) = \\frac{3}{2} + \\frac{1}{2} = 2, \\qquad f(\\pi)\\,f(\\pi/4) = 2 \\times 1 = 2$$\n\ne, portanto, a igualdade é válida.",
+    "b": "Da igualdade $\\dfrac{2 + \\text{sen}\\,\\theta}{2 + \\cos\\theta} = 2$, obtemos $2 + \\text{sen}\\,\\theta = 4 + 2\\cos\\theta$, ou seja, $2\\cos\\theta = \\text{sen}\\,\\theta - 2$. Elevando ambos os membros dessa equação ao quadrado, temos $4(\\cos\\theta)^2 = (\\text{sen}\\,\\theta)^2 - 4\\,\\text{sen}\\,\\theta + 4$. Lembrando que $(\\text{sen}\\,\\theta)^2 + (\\cos\\theta)^2 = 1$, concluímos que $4(1 - (\\text{sen}\\,\\theta)^2) = (\\text{sen}\\,\\theta)^2 - 4\\,\\text{sen}\\,\\theta + 4$, ou seja, $5(\\text{sen}\\,\\theta)^2 - 4\\,\\text{sen}\\,\\theta = 0$, ou ainda $\\text{sen}\\,\\theta\\,(5\\,\\text{sen}\\,\\theta - 4) = 0$. Portanto, $\\text{sen}\\,\\theta = 0$ ou $\\text{sen}\\,\\theta = 4/5$. Substituindo esses valores na equação original, verificamos que ambos são soluções possíveis: para $\\text{sen}\\,\\theta = 0$, temos $\\cos\\theta = -1$, e para $\\text{sen}\\,\\theta = 4/5$, temos $\\cos\\theta = -3/5$."
+   }
+  },
+  "10": {
+   "resposta": "**Objetivo da questão:** Analisar os elementos de um poliedro convexo a partir da sua planificação e calcular o seu volume.",
+   "itens": {
+    "a": "De acordo com o enunciado, como as faces triangulares são congruentes e o poliedro é convexo, temos a representação espacial exibida na figura abaixo. **Temos, então, um total de** 9 **vértices e** 16 **arestas.**\n\n![Poliedro formado por um prisma de base quadrada com uma pirâmide sobre a base superior; arestas ocultas tracejadas e vértices marcados por pontos](fig:r04-c1)",
+    "b": "O volume do poliedro pode ser calculado pela soma do volume de um paralelepípedo com o volume de uma pirâmide. O volume do paralelepípedo é dado por $b \\times c \\times c = 16 \\times 10 \\times 10 = 1.600\\ \\text{cm}^3$. Para calcular o volume da pirâmide, devemos primeiramente determinar sua altura. Observando a figura abaixo, em que $h$ é o comprimento da altura, e aplicando o Teorema de Pitágoras, temos $h^2 + (c/2)^2 = a^2$, ou seja, $h^2 = 13^2 - 5^2 = 169 - 25 = 144$ e, portanto, $h = 12\\ \\text{cm}$.\n\n![Pirâmide de base quadrada com a altura h, a medida a de uma aresta lateral até o ponto médio de um lado da base e c/2 indicado na base, com um ângulo reto](fig:r04-c4)\n\nAssim, o volume da pirâmide é dado por $1/3 \\times c \\times c \\times h = 1/3 \\times 10 \\times 10 \\times 12 = 400\\ \\text{cm}^3$. Portanto, o volume do poliedro é igual a $1.600 + 400 = 2.000\\ \\text{cm}^3$."
+   }
+  },
+  "11": {
+   "resposta": "**Objetivo da questão:** A questão explora a captura da poeira cósmica pela Terra no seu movimento em torno do Sol. No item **a)** o candidato precisa calcular a distância percorrida pela Terra num dado intervalo de tempo (Cinemática em uma dimensão) para encontrar a densidade de poeira cósmica. O item **b)** aborda o teorema do impulso (Mecânica), que deve ser usado para encontrar a força média aplicada pela Terra na massa de poeira.",
+   "itens": {
+    "a": "$$\\rho = \\frac{m}{\\Delta t \\times v_{\\text{Terra}} \\times A} = 2{,}2 \\times 10^{-19}\\ \\text{kg/m}^3$$",
+    "b": "Impulso $\\left|\\vec{J}\\right| = m_{\\text{poeira}} \\left|\\vec{v}_{\\text{final}} - \\vec{v}_{\\text{inicial}}\\right| = \\bar{F}\\,\\Delta t$\n\n$$\\bar{F} = \\frac{m_{\\text{poeira}}\\, v_{\\text{Terra}}}{\\Delta t} = 2{,}5 \\times 10^{4}\\ \\text{N}$$"
+   }
+  }
+ }
+}
