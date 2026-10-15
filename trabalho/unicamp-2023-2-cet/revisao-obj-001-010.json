@@ -1,0 +1,155 @@
+{
+ "edicao": "unicamp-2023-2-cet",
+ "intervalo": [
+  1,
+  10
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {
+  "1": {
+   "resposta": "**Objetivo da questão:** O objetivo da questão é medir o conhecimento dos candidatos sobre geometria espacial e planificação, por meio da apresentação de um problema concreto e comum: a compra de papel de parede para enrolar uma pilastra. É um conhecimento útil em muitos momentos. Os candidatos deveriam decidir o custo do papel de parede, com base nas dimensões mínimas necessárias para enrolá-lo numa pilastra, bem como decidir o menor comprimento possível para enrolar uma fita de led na pilastra.",
+   "itens": {
+    "a": "A área da superfície é de $3 \\times 1 = 3\\ \\text{m}^2$. Como cada metro quadrado do papel de parede custa R\\$ 20,00, o custo total será de R\\$ 60,00.",
+    "b": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo $\\sqrt{10}$ m."
+   }
+  },
+  "2": {
+   "resposta": "**Objetivo da questão:** O objetivo da questão foi medir o conhecimento dos candidatos na solução dos sistemas de equações lineares, um conteúdo muito importante, visto no ensino médio e necessário para a maioria dos cursos de exatas. A questão foi apresentada de forma descontextualizada, pois a alternativa (b) exigia do candidato uma análise qualitativa sobre o sistema, o que leva algum tempo; então, a questão “teórica” ajuda neste aspecto, evitando que se gaste tempo fazendo modelagem matemática.",
+   "itens": {
+    "a": "Para $p=q=1$, a primeira equação indica que $x+y=1$. Substituindo esta informação na última equação, teremos que $1+z=3$, ou seja, $z=2$. Usando essa informação na segunda equação, obtemos que $2x-2=1$, ou seja, $x=3/2$. Voltando com esse valor na primeira equação, temos que $y=-1/2$.",
+    "b": "Para que o sistema tenha infinitas soluções, é preciso fazer substituições. Isolando o valor de $x$ na primeira equação e substituindo este valor nas outras duas equações, obtemos o sistema auxiliar:\n\n$2(q-py)-z=p,\\ (q-py)+y+z=1.$\n\nSimplificando, obtemos:\n$2py+z=-p+2q,\\ (1-p)y+z=1-q.$\n\nComo queremos infinitas soluções, essas equações precisam ser múltiplas. Como o coeficiente do $z$ é o mesmo, deveremos ter os outros coeficientes iguais também, ou seja, $1-p=2p$, o que nos dá $p=1/3$, e $3q=p+3$, ou seja, $q=10/9$."
+   }
+  },
+  "3": {
+   "resposta": "**Objetivo da questão:** O objetivo da questão foi avaliar o conhecimento dos candidatos sobre funções trigonométricas e a resolução de equações envolvendo funções trigonométricas.",
+   "itens": {
+    "a": "Basta substituir o valor $\\pi/4$ na função $f(x)$, o que nos dará $-\\sqrt{2}$.",
+    "b": "A equação $f(x)=-1/2$ é equivalente a $\\cos(2x) - 2\\,\\text{sen}(x) = -1/2$. Como $\\cos(2x) = \\cos^2(x) - \\text{sen}^2(x)$, ficamos com a equação $\\cos^2(x) - \\text{sen}^2(x) - 2\\,\\text{sen}\\,x = -1/2$. Usando a identidade trigonométrica fundamental, e fazendo agora $S = \\text{sen}\\,x$, ficamos com a equação quadrática:\n\n$1-2S^2-2S=-1/2.$\n\nEssa equação tem duas soluções, $S=-3/2$ e $S=1/2$, mas só uma delas nos interessa. Finalmente, resolvendo $\\text{sen}\\,x = 1/2$, obtemos dois valores: $\\pi/6$ e $5\\pi/6$."
+   }
+  },
+  "4": {
+   "resposta": "**Objetivo da questão:** A questão abordou dois conteúdos: probabilidade/contagem e geometria analítica. O objetivo era avaliar o conhecimento do candidato nestes dois tópicos.",
+   "itens": {
+    "a": "A partir do sorteio dos coeficientes da primeira reta, para que elas não tenham um ponto em comum, ou elas são paralelas, ou elas são iguais. Isto dá 5/6 das vezes, pois basta que o coeficiente angular não seja o mesmo da reta original (os coeficientes são resultados dos dados, então temos 6 opções).",
+    "b": "A partir dos resultados dos lançamentos dos dados, obtemos as retas $y=2x+3$ e $y=5x+6$. Para determinar o ponto de encontro destas retas, resolvemos primeiro a equação $2x+3=5x+6$ e obtemos $-3x=3$, ou seja, $x=-1$, o que nos dá $y=1$, e o ponto $(-1,1)$."
+   }
+  },
+  "5": {
+   "resposta": "**Objetivo da questão:** O objetivo da questão é avaliar o entendimento do candidato a cerca da modelagem matemática de fenômenos do mundo real, no caso a quantidade de bactérias numa amostra após um tempo t. Em termos matemáticos, trata-se de uma função exponencial. A questão (a) exige que o candidato calcule o valor da função num certo tempo, e a (b) exige que o candidato faça algumas manipulações algébricas e resolva a equação.",
+   "itens": {
+    "a": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C\\,10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b=-1$, o que nos dá $b=1/10$. Calculando agora para $t=20$ minutos, temos $Q(20)=5.000.000 \\cdot 10^{-2}=50.000$ bactérias.",
+    "b": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log\\log 2 = -3t$, ou seja, $t = 2)\\frac{1}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos.\n\n*(Nota da plataforma: as fórmulas deste trecho saíram defeituosas tanto nas Respostas Esperadas quanto na prova comentada oficial; o trecho está reproduzido como impresso na prova comentada.)*"
+   }
+  },
+  "6": {
+   "resposta": "**Objetivo da questão:** A questão envolvia geometria plana, em particular condições para existência de triângulos, sendo que a primeira pergunta era sobre área em triângulos retângulos.",
+   "itens": {
+    "a": "Sejam $a, b, c$ as medidas dos lados do triângulo, com $c$ a medida da hipotenusa. Temos que $a+b+7=16$ e que $a^2+b^2=49$. Para calcular a área, precisamos encontrar o valor de $ab/2$. Como $a+b=9$, segue que $(a+b)^2=81$, e, por outro lado, $(a+b)^2=a^2+2ab+b^2=2ab+49$. Logo $2ab=32$, o que nos dá $ab/2=8$, que é a área procurada.",
+    "b": "Utilizando a informação fornecida, temos que, no caso $a>1$, o maior lado é $a^3$, e, portanto, $a^3<a+a^2$. Resolvendo essa desigualdade, temos que $a \\in (1,(1+\\sqrt{5})/2))$. Já no caso $a<1$, o maior lado será $a$, e, portanto, temos $a<a^2+a^3$, o que nos dá $a \\in ((-1+\\sqrt{5})/2),1)$ No caso $a=1$ todos os lados são iguais, e este é um valor possível para $a$. Portanto, a resposta é a união desses intervalos, ou seja, $a \\in ((-1+\\sqrt{5})/2,(1+\\sqrt{5})/2))$."
+   }
+  },
+  "8": {
+   "resposta": "**Objetivo da questão:** A questão 8 teve como tema a fome no Brasil. Seu objetivo direto era que o aluno fosse capaz de, ao ler a coletânea, entender que a fome é um problema histórico no Brasil e que a solução para ela passa pela implementação de políticas públicas. Desde sua primeira concepção, este era o objetivo e assim foi percebido pelo revisor específico.\n\nRelacionando a leitura histórica e sociológica do problema da fome, o item A da questão exigia a leitura de um texto de Josué de Castro sobre a fome décadas atrás; no texto, retoricamente, se perguntava se a fome era um fenômeno natural ou criado pelo homem. O segundo trecho, de Ladislau Dowbor, praticamente respondia às perguntas retóricas do texto anterior, ao relacionar a produção massiva de alimentos no Brasil, a existência da fome e a ausência de políticas públicas eficientes.\n\nPor fim, no item B, havia um gráfico do IBGE (publicado pela DW) que demonstrava como os índices de insegurança alimentar tiveram oscilação ao longo dos anos 2000 no Brasil, atingindo ponto mais baixo em 2013, com aumento de todos os graus dali em diante, até o ano 2020. O vestibulando, por meio do gráfico e de seus conhecimentos prévios, teria de elencar uma razão história e outra social para a fome no Brasil.\n\nO objetivo era que o vestibulando fosse capaz de atestar a existência da fome como fenômeno social, as contradições advindas do fato de o Brasil ser um produtor de alimento e ter insegurança alimentar em níveis alarmantes, bem como perceber, por meio do gráfico e da leitura do segundo excerto, como políticas públicas eficientes podem mitigar muito o problema ou ignorá-lo e exacerbá-lo.",
+   "itens": {
+    "a": "Josué de Castro discutiu profundamente o problema da fome no Brasil, mostrando como tal problema, por afetar negativamente a legitimidade dos Estados e de seus governantes, foi ocultado da esfera pública, o que o configura, portanto, como uma questão política. Mostrar a fome afetaria a imagem e a identidade nacional, ferindo ainda a visão patriótica. A invisibilidade da fome é também uma questão moral criminosa, já por afetar, por exemplo na atualidade brasileira, um contingente de 33 milhões de pessoas, com o país tendo retornado ao Mapa da Fome da ONU sem que medidas efetivas de combate tenham sido pelo Estado – não obstante o fato de o Brasil ser um grande exportador de alimentos. A segurança alimentar é um direito e a fome atenta contra a vida e contra condições dignas de sobrevivência.",
+    "b": "A fome da população, segundo o trecho de Ladislau Dowbor, é resultado de decisões políticas e corporativas. Trata-se, portanto, de uma questão de responsabilidade do Estado, que deve gerir a organização econômica e social, não sendo um fenômeno da natureza. Pode-se citar, como aspectos históricos e sociais que contribuíram para a existência da fome do Brasil, na longa duração, a ausência de políticas de distribuição de terras, posto que por meio do processo colonial houve no Brasil concentração de terras para monoculturas de exportação. A desigualdade econômica, assim, jogou a maior parcela da população brasileira, historicamente, para uma situação de vulnerabilidade social e, muitas vezes, de fome, ligada à extrema pobreza. Podemos citar, também, como causas da fome, as secas do início do século XX, as migrações massivas campo-cidade que afastaram as comunidades das culturas de subsistência, a ausência de políticas de assistência social até o início do século XXI – quando, segundo o gráfico, a fome diminui no Brasil graças a políticas assistenciais criadas no período. A situação da insegurança alimentar regrediu a partir de 2013 e se intensificou depois de 2018. O aumento vertiginoso da fome em 2017/2018 é associado à adoção de políticas governamentais como o desmonte de políticas públicas de combate à pobreza, tais como os cortes de verbas para programas sociais, os cortes de incentivos à agricultura familiar, além da má gestão na pandemia da covid-19 no Brasil, resultando em inflação, altos níveis de desemprego, ataque a direitos trabalhistas e carestia."
+   }
+  },
+  "9": {
+   "resposta": "**Objetivo da questão:** A Questão 9 faz referência ao movimento dos Telescópios Espaciais Hubble e James Webb. No item a) pede-se o módulo da força centrípeta que age sobre o Hubble no seu movimento circular em torno da Terra. São fornecidos o período e o raio da órbita, a partir dos quais o candidato deve encontrar o módulo da aceleração centrípeta. O módulo da força centrípeta pode ser encontrado a partir da massa fornecida do Hubble. Trata-se, portanto, de um problema de Dinâmica do movimento em duas dimensões, especificamente do movimento circular uniforme. No item b) o candidato deve calcular o módulo da quantidade de movimento linear do Webb em um trecho da trajetória logo após o seu lançamento. Para isso, deve fazer uma leitura de gráfico, calcular o módulo da velocidade média e, em seguida, encontrar o módulo da quantidade de movimento. É um problema de Dinâmica de uma partícula.",
+   "itens": {
+    "a": "O módulo da força centrípeta é dado por $|\\vec{F}_\\text{cp}| = m_\\text{H}\\,|\\vec{a}_\\text{cp}| = m_\\text{H}\\,\\omega^2 r.$\n\nCom:\n\n$$r = R_\\text{T} + h = 6400\\ \\text{km} + 600\\ \\text{km} = 7000\\ \\text{km} = 7{,}0\\times10^6\\ \\text{m}$$\n\ne\n\n$$\\omega = \\frac{2\\pi}{T_\\text{H}} = \\frac{2\\times 3}{100\\times 60}\\ \\text{rad/s} = \\frac{1}{1000}\\ \\text{rad/s} = 1{,}0\\times10^{-3}\\ \\text{rad/s}$$\n\ntemos:\n\n$$|\\vec{F}_\\text{cp}| = (1{,}1\\times10^4\\ \\text{kg})\\times(1{,}0\\times10^{-3}\\ \\text{rad/s})^2\\times(7{,}0\\times10^6\\ \\text{m}) = 7{,}7\\times10^4\\ \\text{N}.$$",
+    "b": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_w v_w = m_w \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
+   }
+  },
+  "10": {
+   "resposta": "**Objetivo da questão:** A Questão 10 faz referência ao espelho primário do Telescópio Espacial James Webb, tanto em relação ao seu formato (côncavo) quanto em relação ao seu maior diâmetro, o que permite a observação de galáxias cada vez mais distantes. Os dois itens da questão exploram conceitos simples de física ligados a esses aspectos: no item a), o traçado de raios luminosos incidentes em um espelho esférico côncavo, o cálculo da posição, orientação e tamanho da imagem formada pelo espelho para um dado objeto; no item b), o uso da Lei de Hubble (fornecida no enunciado) para calcular a distância a uma galáxia cuja luz apresenta efeito Doppler. Trata-se, portanto, de uma questão de Óptica Geométrica (item a) e da relação entre velocidade, comprimento de onda e frequência de uma onda eletromagnética (item b). No segundo item, o candidato precisa mostrar a habilidade de interpretar corretamente o enunciado e fazer o uso adequado das informações fornecidas.",
+   "itens": {
+    "a": "$f = \\frac{R}{2} = \\frac{10\\ \\text{m}}{2} = 5{,}0\\ \\text{m}$\n$\\frac{1}{p'} = \\frac{1}{f} - \\frac{1}{p} = \\frac{1}{5{,}0\\ \\text{m}} - \\frac{1}{15\\ \\text{m}} = \\frac{3-1}{15\\ \\text{m}} = \\frac{2}{15\\ \\text{m}}$\n$p' = 7{,}5\\ \\text{m} \\Rightarrow$ imagem real\n\n$A = \\frac{i}{o} = -\\frac{p'}{p} = -\\frac{7{,}5\\ \\text{m}}{15\\ \\text{m}} = -0{,}5$\n$\\Rightarrow$ imagem real invertida e reduzida",
+    "b": "Efeito Doppler: $\\frac{f_\\text{obser}}{f_\\text{emit}} \\simeq 1 - \\frac{v}{c}$\n\n$\\frac{v}{c} \\simeq 1 - \\frac{f_\\text{obser}}{f_\\text{emit}} = 1 - \\frac{\\lambda_\\text{emit}}{\\lambda_\\text{obser}} = 1 - \\frac{1}{1{,}25} = \\frac{1{,}25-1}{1{,}25} = \\frac{0{,}25}{1{,}25} = \\frac{1}{5} = 0{,}2$\n\n$v \\simeq 0{,}2 \\times c = 0{,}2 \\times (3{,}0\\times10^8\\ \\text{m/s}) = 6{,}0\\times10^7\\ \\text{m/s}$\n\nLei de Hubble: $v = H_0 D \\Rightarrow D = \\frac{v}{H_0} \\simeq \\frac{6{,}0\\times10^7\\ \\text{m/s}}{\\left(\\frac{2\\times10^{-2}\\ \\text{m/s}}{\\text{ano-luz}}\\right)} = 3{,}0\\times10^9$ anos-luz."
+   }
+  }
+ },
+ "complementos": {
+  "1": {
+   "assunto": "Geometria espacial"
+  },
+  "2": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "3": {
+   "assunto": "Trigonometria"
+  },
+  "4": {
+   "assunto": "Geometria analítica"
+  },
+  "5": {
+   "assunto": "Exponencial e logaritmo"
+  },
+  "6": {
+   "assunto": "Geometria plana"
+  },
+  "8": {
+   "assunto": "Brasil contemporâneo"
+  },
+  "9": {
+   "assunto": "Dinâmica"
+  },
+  "10": {
+   "assunto": "Óptica"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "fora do banco"
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "objetivo da prova comentada acrescentado"
+  }
+ ]
+}

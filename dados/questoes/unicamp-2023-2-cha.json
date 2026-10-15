@@ -38,7 +38,7 @@
      "resposta_oficial": "O estudante deverá analisar o segundo gráfico, identificar o percentual de 15% de respondentes da Austrália e Nova Zelândia e calcular o número de respondentes, levando em conta o total de respondentes de 31 mil pessoas. Obterá 4.650 respondentes. Na segunda parte, deverá utilizar o primeiro gráfico para perceber que 50% destes respondentes escolheram “sim”, ou seja, 2.325 pessoas."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão envolvia analisar e extrair informações de dois gráficos que representavam resultados de uma pesquisa feita por uma empresa. Trata-se de uma habilidade muito importante. Na pergunta (a), era necessário consultar um dos gráficos, analisar o percentual e comparar com os demais. Na pergunta (b), era necessário utilizar o segundo gráfico para calcular o número de respondentes com base no percentual representado no gráfico e também a quantidade total de respondentes, o que estava no enunciado.",
    "assunto": "Estatística",
    "revisao": "corrigida"
   },
@@ -61,9 +61,9 @@
      "resposta_oficial": "Para obter o valor que Rodrigo gastou, será preciso primeiro calcular o valor de cada um dos pratos vendidos pela barraca. Para isto, precisaremos montar um sistema. Seja $x$ o preço do sanduíche, $y$ o preço do pastel e $z$ o preço do cachorro-quente. Da tabela apresentada, podemos construir o seguinte sistema, que leva em conta os valores vendidos em cada um dos dias:\n$10x + 20y = 500$\n$20y + 40z = 1000$\n$20x + 40y + 20z = 1300$\n\nEsse sistema pode ser resolvido de várias formas, e uma delas é isolar a variável $x$ na primeira equação, obtendo $x = 50 - 2y$, e substituindo nas outras duas equações, obtendo as equações $y + 2z = 50$ e $z = 15$. Logo, $y = 20$ e daí, fazendo a substituição na primeira equação, chegamos a $x = 10$. Portanto, Rodrigo gastou $10 + 15 + 20 = 45$ reais."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão media a capacidade dos candidatos de elaborar um problema matemático a partir de uma situação concreta e resolvê-lo. A contextualização, em termos de vendas de produtos numa festa junina, traz o conteúdo abstrato dos sistemas lineares para a realidade dos candidatos.",
    "assunto": "Matrizes e sistemas",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cha-q03",
@@ -84,9 +84,9 @@
      "resposta_oficial": "Como 81% utilizam o Instagram, somente 19% não o utilizam. Caso estes 19% utilizem o Snapchat, teríamos que 77%-19% utilizam ambas as redes sociais, ou seja, 58%, o que nos dá 5.220 jovens.\nOutra solução: como 77% utilizam o Snapchat, 23% não o utilizam. Se todos os 23% utilizassem o Instagram, teríamos 81%-23% = 58% que usariam ambas as redes sociais."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão abordava o assunto de conjuntos, mas também poderia ser resolvida utilizando proporções ou até mesmo sistemas lineares.\n\nO objetivo da questão era medir o conhecimento dos candidatos em termos de questões envolvendo diagramas de Venn, além de união/interseção/complemento de conjuntos. A contextualização, em termos do uso de redes sociais, buscou aproximar, dos vestibulandos — em sua maioria jovens que utilizam tais aplicativos —, o conteúdo.",
    "assunto": "Lógica e conjuntos",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cha-q04",
@@ -107,9 +107,9 @@
      "resposta_oficial": "Para que a parábola e a reta se encontrem em dois pontos distintos, precisamos que a equação $-2x^2 + bx - 3 = 2x - 1$ tenha duas soluções distintas. Isto acontecerá se $\\Delta > 0$. Assim, da equação $-2x^2 + (b-2)x - 2 = 0$, obtemos que $\\Delta = (b-2)^2 - 16$. Para que $\\Delta > 0$ devemos ter $b > 6$ ou $b < -2$."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão media o conhecimento dos candidatos sobre polinômios e geometria analítica, e poderia ser totalmente resolvida utilizando a bem conhecida fórmula de Bháskara e suas aplicações.",
    "assunto": "Funções",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cha-q09",
@@ -130,7 +130,7 @@
      "resposta_oficial": "Entre os recursos naturais disputados no Mar da China Meridional, constam: recursos pesqueiros e reservas de combustíveis fósseis, como petróleo e gás natural. Transportam-se pela região sobretudo produtos industrializados e petróleo e seus derivados."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão teve por objetivo abordar conteúdo relativo ao tópico do programa da prova: “Geopolítica e geoeconomia mundial: poder estatal, militar e econômico”, problematizando o acirramento de conflitos geopolíticos envolvendo a região do Mar da China Meridional. Buscou-se, especificamente, cobrar do candidato conhecimento a respeito das disputas político-econômicas entre EUA e China. O candidato deveria também conhecer a geografia regional do sudeste da Ásia para responder à questão, com destaque para a centralidade de Taiwan nesse contexto. Deveria, outrossim, conhecer as disputas por recursos naturais existentes no Mar do China Meridional, bem como as disputas pelas importantes rotas comerciais marítimas que integram oriente e ocidente e perpassam o mar mencionado. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da ciência política e das relações internacionais. Trata-se de um conhecimento fundamental ao campo da diplomacia e das relações internacionais.",
    "assunto": "Geopolítica e conflitos",
    "revisao": "corrigida"
   },
@@ -153,9 +153,9 @@
      "resposta_oficial": "São exemplos: Ilhas Virgens Britânicas, Ilhas Cayman, Bahrein, Bahamas, entre outros. Investimentos em paraísos fiscais são feitos para se burlar as barreiras tributárias dos Estados nacionais, acarretando severa evasão fiscal; desse modo, os governos deixam de regular parte dos fluxos financeiros e arrecadar os impostos necessários à execução de políticas públicas de combate à desigualdade social."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão teve por objetivo abordar conteúdo relativo aos tópicos do programa da prova: “Globalização financeira e produtiva e a divisão territorial do trabalho” e “Geografia das redes: fluxos materiais e imateriais na globalização”. Buscou-se, especificamente, cobrar do candidato conhecimento a respeito das relações entre finanças e território no mundo contemporâneo, problematizando o enfraquecimento da soberania dos países. O candidato deveria conhecer especificamente a temática dos Centros financeiros offshore ou paraísos fiscais envolvendo: os países exercem esta função no mundo globalizado, as normas (ou ausência delas) que os regem; os sujeitos e instituições envolvidos; os sistemas técnicos que permitem a fluidez dos capitais e os problemas políticos, econômicos e sociais implicados. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da sociologia e da economia. Trata-se de um conhecimento fundamental ao campo do direito, por exemplo.",
    "assunto": "Globalização e economia mundial",
-   "revisao": "ok"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cha-q11",
@@ -176,7 +176,7 @@
      "resposta_oficial": "O Estado brasileiro tem sido um importante agente para a modernização técnica do campo no país. A execução de políticas públicas voltadas para a modernização do campo incluiu, entre outros fatores, subsídios agrícolas – sobretudo para os setores de médios e grandes produtores – com ampla política de créditos subsidiados, destinada à aquisição de maquinários e insumos agrícolas. Além disso, foi responsável pela implantação de infraestrutura espacial, especialmente para atender o escoamento da produção, como é o caso de melhoramento de transportes, energia e comunicação. Embora a produção de alimentos tenha aumentado com os importantes investimentos na produção agropecuária, a má distribuição de renda e a falta de uma política estatal permanente de apoio à população para aquisição de alimentos mais baratos dificultam o acesso à dieta alimentar básica por parte das pessoas mais pobres, gerando situação de fome e subnutrição."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão tratou do item “Produção agropecuária e questão agrária no Brasil”, item que integra o grupo de conteúdos “Brasil: dinâmica territorial”, a partir do componente “Economia e Território”. O objetivo da questão é analisar a evolução da mecanização no campo no Brasil e as políticas públicas que fomentaram o avanço da mecanização e o aumento da produção de alimentos no país. Os conceitos e indicadores abordados na questão fazem parte das políticas econômicas no campo, sistematizando uma série histórica de dados. Trata-se de um conhecimento fundamental à execução de políticas públicas.",
    "assunto": "Agricultura e espaço rural",
    "revisao": "corrigida"
   },
@@ -199,7 +199,7 @@
      "resposta_oficial": "O tipo de chuva 3 ocorre quando duas grandes massas de ar que diferem em temperatura, umidade e densidade colidem; a massa de ar mais quente, menos densa, é levantada para cima da massa de ar com ar mais frio. Esse tipo de chuva é mais frequente no inverno. O Planalto da Borborema funciona como uma barreira natural, e força o ar a elevar-se acima dessa barreira. As massas de ar são resfriadas por expansão e, à medida que ascendem sobre os vertentes barlaventos, as chuvas ocorrem, tornando a vegetação dessa área mais densa. A massa de ar, ao se deslocar no sentido da vertente sotavento, desce a encosta e aumenta a temperatura; a condensação cessa, desenvolvendo uma vegetação adaptada a longos períodos de estiagem."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão tratou do item “Dinâmicas atmosféricas, a zonalidade climática e os tempos associados”, item do tema “Os componentes físico-naturais constituintes do espaço geográfico: do território brasileiro à escala global”, que integra o componente “Mecanismos da interação Hidrosfera x Atmosfera x Criosfera para a dinâmica terrestre”. A questão aborda uma questão clássica na Geografia: a diferenciação dos tipos de chuvas, suas características e as suas consequências, em especial, a diferenciação da vegetação na região do Planalto da Borborema.",
    "assunto": "Clima",
    "revisao": "corrigida"
   },

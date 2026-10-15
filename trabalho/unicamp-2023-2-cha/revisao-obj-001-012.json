@@ -1,0 +1,133 @@
+{
+ "edicao": "unicamp-2023-2-cha",
+ "intervalo": [
+  1,
+  12
+ ],
+ "respostas_corrigidas": {
+  "1": {
+   "itens": {
+    "a": "O estudante deverá comparar os valores que estão indicados no primeiro gráfico, entre as seis barras, e perceber que a América Latina tem a maior porcentagem de pessoas que responderam “sim”.\nNa segunda parte, precisará comparar novamente os valores com o valor da primeira barra e obterá que a opção Ásia/Ilhas do Pacífico, que tem percentual de 57%, é a que mais se aproxima da média global, de 55%.",
+    "b": "O estudante deverá analisar o segundo gráfico, identificar o percentual de 15% de respondentes da Austrália e Nova Zelândia e calcular o número de respondentes, levando em conta o total de respondentes de 31 mil pessoas. Obterá 4.650 respondentes. Na segunda parte, deverá utilizar o primeiro gráfico para perceber que 50% destes respondentes escolheram “sim”, ou seja, 2.325 pessoas."
+   },
+   "resposta": "**Objetivo da questão:** A questão envolvia analisar e extrair informações de dois gráficos que representavam resultados de uma pesquisa feita por uma empresa. Trata-se de uma habilidade muito importante. Na pergunta (a), era necessário consultar um dos gráficos, analisar o percentual e comparar com os demais. Na pergunta (b), era necessário utilizar o segundo gráfico para calcular o número de respondentes com base no percentual representado no gráfico e também a quantidade total de respondentes, o que estava no enunciado."
+  },
+  "2": {
+   "itens": {
+    "a": "O valor arrecadado em 2021 foi de R\\$ 2.240,00, como dado no enunciado. O valor arrecadado em 2022 foi de R\\$ 500,00 + R\\$ 1.000,00 + R\\$ 1.300,00, portanto R\\$ 2.800,00. Como $2.800/2.240 = 1{,}25$, este valor foi de 25% maior que o arrecadado em 2021.",
+    "b": "Para obter o valor que Rodrigo gastou, será preciso primeiro calcular o valor de cada um dos pratos vendidos pela barraca. Para isto, precisaremos montar um sistema. Seja $x$ o preço do sanduíche, $y$ o preço do pastel e $z$ o preço do cachorro-quente. Da tabela apresentada, podemos construir o seguinte sistema, que leva em conta os valores vendidos em cada um dos dias:\n$10x + 20y = 500$\n$20y + 40z = 1000$\n$20x + 40y + 20z = 1300$\n\nEsse sistema pode ser resolvido de várias formas, e uma delas é isolar a variável $x$ na primeira equação, obtendo $x = 50 - 2y$, e substituindo nas outras duas equações, obtendo as equações $y + 2z = 50$ e $z = 15$. Logo, $y = 20$ e daí, fazendo a substituição na primeira equação, chegamos a $x = 10$. Portanto, Rodrigo gastou $10 + 15 + 20 = 45$ reais."
+   },
+   "resposta": "**Objetivo da questão:** A questão media a capacidade dos candidatos de elaborar um problema matemático a partir de uma situação concreta e resolvê-lo. A contextualização, em termos de vendas de produtos numa festa junina, traz o conteúdo abstrato dos sistemas lineares para a realidade dos candidatos."
+  },
+  "3": {
+   "itens": {
+    "a": "Como 73% utilizam o TikTok, 27% dos jovens entrevistados não utilizam esta rede social. Como 27% de 9.000 é 2.430, essa é a quantidade de jovens que não utilizam o TikTok.",
+    "b": "Como 81% utilizam o Instagram, somente 19% não o utilizam. Caso estes 19% utilizem o Snapchat, teríamos que 77%-19% utilizam ambas as redes sociais, ou seja, 58%, o que nos dá 5.220 jovens.\nOutra solução: como 77% utilizam o Snapchat, 23% não o utilizam. Se todos os 23% utilizassem o Instagram, teríamos 81%-23% = 58% que usariam ambas as redes sociais."
+   },
+   "resposta": "**Objetivo da questão:** A questão abordava o assunto de conjuntos, mas também poderia ser resolvida utilizando proporções ou até mesmo sistemas lineares.\n\nO objetivo da questão era medir o conhecimento dos candidatos em termos de questões envolvendo diagramas de Venn, além de união/interseção/complemento de conjuntos. A contextualização, em termos do uso de redes sociais, buscou aproximar, dos vestibulandos — em sua maioria jovens que utilizam tais aplicativos —, o conteúdo."
+  },
+  "4": {
+   "itens": {
+    "a": "Para que o vértice da parábola seja o ponto indicado, primeiro é necessário obter as coordenadas do vértice, dependendo de $a, b$. Como estas coordenadas são $(-b/2a, -\\Delta/4a)$, onde $\\Delta = b^2 + 12a$, precisamos que $b = 2a$ e $b^2 + 12a = 16a$, ou seja, $b^2 - 4a = 0$, o que nos dá $b^2 - 2b = 0$, ou seja, $b = 0$ ou $b = 2$. Como $b = 0$ leva a $a = 0$, que é uma resposta inválida, segue que $b = 2$ e daí $a = 1$.",
+    "b": "Para que a parábola e a reta se encontrem em dois pontos distintos, precisamos que a equação $-2x^2 + bx - 3 = 2x - 1$ tenha duas soluções distintas. Isto acontecerá se $\\Delta > 0$. Assim, da equação $-2x^2 + (b-2)x - 2 = 0$, obtemos que $\\Delta = (b-2)^2 - 16$. Para que $\\Delta > 0$ devemos ter $b > 6$ ou $b < -2$."
+   },
+   "resposta": "**Objetivo da questão:** A questão media o conhecimento dos candidatos sobre polinômios e geometria analítica, e poderia ser totalmente resolvida utilizando a bem conhecida fórmula de Bháskara e suas aplicações."
+  },
+  "9": {
+   "itens": {
+    "a": "Entre os conflitos existentes na região, destacam-se: a disputa pelo controle da navegação e pela instalação de bases militares no mar do sul da China. Há uma reivindicação da China pela manutenção da soberania territorial das águas marítimas e controle dos arquipélagos localizados na região; os EUA, por seu turno, reivindicam a manutenção da região com o *status* de águas internacionais, o que possibilita a livre navegação; há ainda uma disputa pela área de influência de Taiwan, denominada pela China de “província rebelde”, com a China reivindicando aquele espaço como fazendo parte de seu território nacional. Além disso, os Estados Unidos, que apoiam a independência de Taiwan, têm interesses geopolíticos e econômicos associados à ampliação do comércio internacional com a ilha, sobretudo porque Taiwan possui uma localização estratégia no sul da Ásia – área de intenso fluxo marítimo –, e uma base produtiva industrial de elevada inovação que atende a demanda de diversos setores industriais.",
+    "b": "Entre os recursos naturais disputados no Mar da China Meridional, constam: recursos pesqueiros e reservas de combustíveis fósseis, como petróleo e gás natural. Transportam-se pela região sobretudo produtos industrializados e petróleo e seus derivados."
+   },
+   "resposta": "**Objetivo da questão:** Esta questão teve por objetivo abordar conteúdo relativo ao tópico do programa da prova: “Geopolítica e geoeconomia mundial: poder estatal, militar e econômico”, problematizando o acirramento de conflitos geopolíticos envolvendo a região do Mar da China Meridional. Buscou-se, especificamente, cobrar do candidato conhecimento a respeito das disputas político-econômicas entre EUA e China. O candidato deveria também conhecer a geografia regional do sudeste da Ásia para responder à questão, com destaque para a centralidade de Taiwan nesse contexto. Deveria, outrossim, conhecer as disputas por recursos naturais existentes no Mar do China Meridional, bem como as disputas pelas importantes rotas comerciais marítimas que integram oriente e ocidente e perpassam o mar mencionado. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da ciência política e das relações internacionais. Trata-se de um conhecimento fundamental ao campo da diplomacia e das relações internacionais."
+  },
+  "10": {
+   "itens": {
+    "a": "Centros financeiros *Offshore* têm políticas fiscais e regulatórias flexíveis, permitindo a transferência de capital sem tributação e, por isso, atraem grande quantidade de fundos de investimento. São também lugares que concentram sofisticados serviços financeiros. Alguns centros *Offshore* funcionam como paraísos fiscais voltados a burlar completamente as legislações tributárias dos Estados nacionais, permitindo que grandes fortunas individuais e poderosas corporações escapem, por exemplo, da cobrança de impostos. Oferecem aos investidores sigilo e anonimato e podem favorecer atividades ilícitas, como a lavagem do dinheiro derivado do comércio ilegal de armas e drogas. No sistema técnico de telecomunicações que permitem aos fundos eletrônicos cruzarem as fronteiras nacionais com facilidade, destacam-se os seguintes elementos: cabos submarinos, rede de fibra óptica terrestre, satélites, internet; entre outros",
+    "b": "São exemplos: Ilhas Virgens Britânicas, Ilhas Cayman, Bahrein, Bahamas, entre outros. Investimentos em paraísos fiscais são feitos para se burlar as barreiras tributárias dos Estados nacionais, acarretando severa evasão fiscal; desse modo, os governos deixam de regular parte dos fluxos financeiros e arrecadar os impostos necessários à execução de políticas públicas de combate à desigualdade social."
+   },
+   "resposta": "**Objetivo da questão:** Esta questão teve por objetivo abordar conteúdo relativo aos tópicos do programa da prova: “Globalização financeira e produtiva e a divisão territorial do trabalho” e “Geografia das redes: fluxos materiais e imateriais na globalização”. Buscou-se, especificamente, cobrar do candidato conhecimento a respeito das relações entre finanças e território no mundo contemporâneo, problematizando o enfraquecimento da soberania dos países. O candidato deveria conhecer especificamente a temática dos Centros financeiros offshore ou paraísos fiscais envolvendo: os países exercem esta função no mundo globalizado, as normas (ou ausência delas) que os regem; os sujeitos e instituições envolvidos; os sistemas técnicos que permitem a fluidez dos capitais e os problemas políticos, econômicos e sociais implicados. O conhecimento abordado na questão pode estabelecer correlação especialmente com as áreas da sociologia e da economia. Trata-se de um conhecimento fundamental ao campo do direito, por exemplo."
+  },
+  "11": {
+   "itens": {
+    "a": "A partir dos dados da tabela, observam-se os seguintes fenômenos: de ordem técnica, o aumento da mecanização no processo produtivo agropecuário brasileiro e, de ordem social, a redução do emprego (ou das ocupações) nas áreas rurais. Como consequência, há o aumento do êxodo da população rural em direção às cidades, impulsionando a pobreza e a crise urbana. Além disso, a modernização do campo vem beneficiando, especialmente, os grandes proprietários de terras produtores de *commodities* (como a soja) para atender o mercado externo, entre outras consequências.",
+    "b": "O Estado brasileiro tem sido um importante agente para a modernização técnica do campo no país. A execução de políticas públicas voltadas para a modernização do campo incluiu, entre outros fatores, subsídios agrícolas – sobretudo para os setores de médios e grandes produtores – com ampla política de créditos subsidiados, destinada à aquisição de maquinários e insumos agrícolas. Além disso, foi responsável pela implantação de infraestrutura espacial, especialmente para atender o escoamento da produção, como é o caso de melhoramento de transportes, energia e comunicação. Embora a produção de alimentos tenha aumentado com os importantes investimentos na produção agropecuária, a má distribuição de renda e a falta de uma política estatal permanente de apoio à população para aquisição de alimentos mais baratos dificultam o acesso à dieta alimentar básica por parte das pessoas mais pobres, gerando situação de fome e subnutrição."
+   },
+   "resposta": "**Objetivo da questão:** Esta questão tratou do item “Produção agropecuária e questão agrária no Brasil”, item que integra o grupo de conteúdos “Brasil: dinâmica territorial”, a partir do componente “Economia e Território”. O objetivo da questão é analisar a evolução da mecanização no campo no Brasil e as políticas públicas que fomentaram o avanço da mecanização e o aumento da produção de alimentos no país. Os conceitos e indicadores abordados na questão fazem parte das políticas econômicas no campo, sistematizando uma série histórica de dados. Trata-se de um conhecimento fundamental à execução de políticas públicas."
+  },
+  "12": {
+   "itens": {
+    "a": "O tipo de chuva 1 é a chuva convectiva. Destacam-se, como características desse tipo de chuva, o aquecimento do ar próximo à superfície e a formação de precipitações intensas acompanhadas de trovões, relâmpagos e granizo. A chuva 2, por sua vez, é denominada de chuva ciclônica; é formada pela convergência dos ventos alísios na Zona de Convergência Intertropical (ZCIT). No verão, ocorre um deslocamento da Zona de Convergência Intertropical no sentido sul, coincidindo com áreas do semiárido nordestino.",
+    "b": "O tipo de chuva 3 ocorre quando duas grandes massas de ar que diferem em temperatura, umidade e densidade colidem; a massa de ar mais quente, menos densa, é levantada para cima da massa de ar com ar mais frio. Esse tipo de chuva é mais frequente no inverno. O Planalto da Borborema funciona como uma barreira natural, e força o ar a elevar-se acima dessa barreira. As massas de ar são resfriadas por expansão e, à medida que ascendem sobre os vertentes barlaventos, as chuvas ocorrem, tornando a vegetação dessa área mais densa. A massa de ar, ao se deslocar no sentido da vertente sotavento, desce a encosta e aumenta a temperatura; a condensação cessa, desenvolvendo uma vegetação adaptada a longos períodos de estiagem."
+   },
+   "resposta": "**Objetivo da questão:** Esta questão tratou do item “Dinâmicas atmosféricas, a zonalidade climática e os tempos associados”, item do tema “Os componentes físico-naturais constituintes do espaço geográfico: do território brasileiro à escala global”, que integra o componente “Mecanismos da interação Hidrosfera x Atmosfera x Criosfera para a dinâmica terrestre”. A questão aborda uma questão clássica na Geografia: a diferenciação dos tipos de chuvas, suas características e as suas consequências, em especial, a diferenciação da vegetação na região do Planalto da Borborema."
+  }
+ },
+ "complementos": {
+  "1": {
+   "assunto": "Estatística"
+  },
+  "2": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "3": {
+   "assunto": "Lógica e conjuntos"
+  },
+  "4": {
+   "assunto": "Funções"
+  },
+  "9": {
+   "assunto": "Geopolítica e conflitos"
+  },
+  "10": {
+   "assunto": "Globalização e economia mundial"
+  },
+  "11": {
+   "assunto": "Agricultura e espaço rural"
+  },
+  "12": {
+   "assunto": "Clima"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "acrescentado o objetivo da prova comentada"
+  },
+  {
+   "numero": 2,
+   "status": "corrigida",
+   "notas": "acrescentado o objetivo da prova comentada"
+  },
+  {
+   "numero": 3,
+   "status": "corrigida",
+   "notas": "acrescentado o objetivo da prova comentada"
+  },
+  {
+   "numero": 4,
+   "status": "corrigida",
+   "notas": "acrescentado o objetivo da prova comentada"
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "acrescentado o objetivo da prova comentada"
+  },
+  {
+   "numero": 10,
+   "status": "corrigida",
+   "notas": "acrescentado o objetivo da prova comentada"
+  },
+  {
+   "numero": 11,
+   "status": "corrigida",
+   "notas": "acrescentado o objetivo da prova comentada"
+  },
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "acrescentado o objetivo da prova comentada"
+  }
+ ]
+}
