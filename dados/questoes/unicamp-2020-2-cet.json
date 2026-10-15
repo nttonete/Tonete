@@ -275,8 +275,9 @@
      "resposta_oficial": "$$m = \\rho_{\\text{gasolina}} V = 750\\ \\text{kg/m}^3 \\times 40 \\times 10^{-3}\\ \\text{m}^3 = 30\\ \\text{kg}$$\n\n$$\\Delta E_{\\text{mec}} = mgh + \\frac{1}{2} m \\text{v}^2 == 30\\ \\text{kg} \\times (10\\ \\text{m/s}^2) \\times 3{,}0\\ \\text{m} + \\frac{1}{2}\\, 30\\ \\text{kg} \\times (0{,}8\\ \\text{m/s})^2 = 909{,}6\\ \\text{J}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda o conceito de empuxo e o equilíbrio entre o mesmo e a força peso (Hidrostática, item a), e a variação de energia mecânica, dada pela soma da energia potencial gravitacional e da energia cinética (Mecânica, item b). O problema proposto baseia-se em caso prático do cotidiano, que é o monitoramento da qualidade do álcool combustível em postos de abastecimento.",
+   "assunto": "Hidrostática",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q13",
@@ -297,8 +298,9 @@
      "resposta_oficial": "Do gráfico, para $I = 0{,}5\\ \\text{W/m}^2 \\rightarrow R_{LDR} = 7{,}0\\ \\text{k}\\Omega$\n\n$$i_{LDR} = \\frac{\\varepsilon}{R_1 + R_{LDR}} = \\frac{5{,}0\\ \\text{V}}{(3{,}0 + 7{,}0)\\ \\text{k}\\Omega} = 0{,}5\\ \\text{mA}$$\n\n$$V_{LDR} = R_{LDR}\\, i_{LDR} = 7{,}0\\ \\text{k}\\Omega \\times 0{,}5\\ \\text{mA} = 3{,}5\\ \\text{V}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão explora, no item a, o conceito de energia potencial elástica (Mecânica). No item b, pede-se a leitura de um gráfico e o uso do valor de resistência lido para complementar os dados de um circuito elétrico simples. Para resolver o circuito elétrico é preciso fazer uso da lei de Ohm (Eletricidade, tensão e corrente elétrica).",
+   "assunto": "Eletrodinâmica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q14",
@@ -319,8 +321,9 @@
      "resposta_oficial": "$$E = hf = h\\frac{c}{\\lambda} = 6{,}6 \\times 10^{-34}\\ \\text{J}\\cdot\\text{s} \\times \\frac{3{,}0 \\times 10^{8}\\ \\text{m/s}}{3{,}0 \\times 10^{-6}\\ \\text{m}} = 6{,}6 \\times 10^{-20}\\ \\text{J}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** No item a, fora, exploradas a leitura de gráfico e a manipulação de funções logarítmicas. No item b, esperava-se do candidato o conhecimento de conceitos básicos de ondulatória por relacionar frequência e comprimento de onda. Foram testadas também a habilidade de interpretar os prefixos do sistema internacional de unidades e a manipulação de potência de base 10.",
+   "assunto": "Ondulatória",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q15",
@@ -341,8 +344,9 @@
      "resposta_oficial": "$$\\Delta T = \\frac{P}{m \\cdot c}\\,\\Delta t = \\frac{60\\ \\text{W}}{200 \\times 10^{-3}\\ \\text{kg} \\times 480\\ \\text{J}/(\\text{kg} \\times {}^\\circ\\text{C})}\\, 32\\ \\text{s} = 20\\ {}^\\circ\\text{C}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda dois conceitos distintos em física. No item a, foram explorados conceitos de óptica geométrica. O candidato deve completar os raios luminosos em um espelho côncavo e entender que a intensidade dos raios solares é máxima na posição do foco principal do espelho. Já o item b explora o conceito de potência e calor absorvido, fazendo o uso da equação fundamental da calorimetria para obter a variação de temperatura do objeto.",
+   "assunto": "Óptica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q16",
@@ -363,8 +367,9 @@
      "resposta_oficial": "$$F = qVB = F_{cp} = \\frac{mV^2}{R} \\Rightarrow m = \\frac{qBR}{V}$$\n\n$$m = \\frac{(1{,}6 \\times 10^{-19}\\ \\text{C}) \\times (0{,}4\\ \\text{T}) \\times (0{,}36\\ \\text{m})}{(3{,}2 \\times 10^{5}\\ \\text{m/s})} = 7{,}2 \\times 10^{-26}\\ \\text{kg}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão é abordar conceitos básicos de cinemática e mecânica, usando o movimento em queda livre de um corpo no item a, e o movimento de uma partícula carregada numa região de campo magnético, cuja força magnética faz o papel de força centrípeta no item b.",
+   "assunto": "Cinemática",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q17",
@@ -385,8 +390,9 @@
      "resposta_oficial": "A solubilidade do composto A. Na presença do hidrogenocarbonato de sódio, ocorre a neutralização do ácido carboxílico, o que leva à formação do íon carboxilato. A interação entre o íon carboxilato e o dipolo da água (interação íon-dipolo) aumenta a solubilidade."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Essa questão envolve conceitos fundamentais de teoria de ácidos e bases e de interações intermoleculares, e como essas interações se relacionam com a solubilidade dos compostos. No item a, era necessário identificar as funções orgânicas presentes nas estruturas químicas apresentadas, saber se bicarbonato de sódio se comporta como um ácido ou base, escrever uma reação química de neutralização com o bicarbonato de sódio e descrever o processo de liberação de gás carbônico. No item b, o processo de neutralização é analisado mais a fundo no sentido de se avaliar se as alterações moleculares ocorridas nos compostos orgânicos afetarão ou não a sua solubilidade.",
+   "assunto": "Química orgânica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q18",
@@ -407,8 +413,9 @@
      "resposta_oficial": "A corrosão do encanamento de ferro corresponde à reação de oxidação do ferro metálico. Com a exceção dos íons cloreto (agente redutor), a corrosão poderia ter sido promovida pelas demais espécies presentes na água.\n\nEquação considerando o cloro molecular:\n\n$\\text{Fe}(\\text{s}) + \\text{Cl}_2(\\text{aq}) \\rightarrow \\text{Fe}^{2+}(\\text{aq}) + 2\\ \\text{Cl}^{-}(\\text{aq})$.\n\nEquação considerando o oxigênio dissolvido:\n\n$\\text{Fe}(\\text{s}) + \\frac{1}{2}\\ \\text{O}_2(\\text{aq}) \\rightarrow \\text{FeO}(\\text{s})$.\n\nEquação considerando o pH abaixo do recomendado:\n\n$\\text{Fe}(\\text{s}) + 2\\ \\text{H}^{+}(\\text{aq}) \\rightarrow \\text{Fe}^{2+}(\\text{aq}) + \\text{H}_2(\\text{g})$.\n\n$2\\ \\text{Fe}(\\text{s}) + \\frac{3}{2}\\ \\text{O}_2(\\text{aq}) + 6\\ \\text{H}^{+}(\\text{aq}) \\rightarrow 2\\ \\text{Fe}^{3+}(\\text{aq}) + 3\\ \\text{H}_2\\text{O}(\\text{l})$.\n\n**Observação:** Para a resposta, bastava apontar um agente oxidante e sua equação correspondente."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Essa questão abordou equilíbrio de solubilidade e eletroquímica (reações de oxido-redução). Na letra a, o candidato deveria identificar, dentre as alternativas, qual substância deveria ser adicionada à água para evitar a corrosão dos canos de chumbo, considerando o equilíbrio químico. Para ajudar nessa escolha, foi informado que o fosfato de chumbo é um sal pouco solúvel em água e que, nos canos novos, há uma camada protetora desse sal. No item b, o candidato deveria apontar qual espécie presente na água teria sido responsável pela corrosão de canos de ferro. Esta escolha deveria ser acompanhada de uma equação química adequada.",
+   "assunto": "Eletroquímica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q19",
@@ -429,8 +436,9 @@
      "resposta_oficial": "As pilhas podem ser apenas recicladas e a dificuldade técnica, neste caso, está relacionada com a separação de seus múltiplos componentes químicos, principalmente metais pesados. Os plásticos podem ser reutilizados, reaproveitados e reciclados, encontrando-se a maior dificuldade no último processo: a separação dos diferentes tipos de plásticos, se não for feita de forma correta, pode alterar a composição e, consequentemente, as propriedades físico-químicas do produto, assim como o reprocessamento do polímero, o que também afeta as propriedades."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Essa questão trata de um assunto presente no cotidiano: a reciclagem de materiais e o conhecimento de sua composição química e suas propriedades. A questão teve o objetivo de abordar dois pontos principais: o conhecimento sobre a composição química dos materiais de uso cotidiano e seu impacto ambiental e, a partir desse conhecimento, analisar as dificuldades em reutilizar, reaproveitar ou reciclar os materiais. Para medir esse conhecimento, a questão utilizou uma tabela de Tempo de Decomposição dos Materiais, informação amplamente difundida nas mídias sociais e em ambientes que difundem a preservação ambiental. A questão teve, também, o objetivo de chamar a atenção para o fato de que os tempos de decomposição, sem as demais informações químicas do material, podem induzir ao erro sobre o impacto ambiental dos materiais. Esse fato fica claro quando se analisam os resultados da pesquisa utilizada como base para compor a questão. Os alunos do ensino médio envolvidos na pesquisa, ao responderem o questionário Q1 (que não apresenta os tempos de decomposição), escolheram a barra preta, pois, com base em informações prévias, a pilha (por conter metais pesados) é o material mais prejudicial ao meio ambiente, seguido do plástico (material derivado de petróleo), por fim, o vidro (material inerte constituído basicamente de sílica e outros óxidos metálicos). Entretanto, quando os mesmos alunos foram confrontados com o questionário Q2 (que apresenta os tempos de decomposição), a ordem das respostas foi alterada, passando a indicar – erroneamente, como sendo o vidro o material mais prejudicial ao meio ambiente o a pilha o menos prejudicial.",
+   "assunto": "Química ambiental",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q20",
@@ -451,8 +459,9 @@
      "resposta_oficial": "A principal vantagem, no caso, seria efetuar a lavagem em temperatura mais baixa, sem a necessidade de aquecimento da água. Como mostra a Figura 1, o sabão multienzimático na temperatura de 15 ºC apresenta a mesma eficiência do sabão convencional a 30 ºC. De acordo com a Figura 2, quando não se aquece a água de lavagem, há uma considerável redução na geração de $\\text{CO}_2$ equivalente (cerca de 300 g de $\\text{CO}_2$ eq por lavagem), gás responsável pelo aquecimento global."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Essa questão abordou temas relacionados a compostos orgânicos, termoquímica e aspectos relacionados a Química e Sociedade, como o impacto ao meio ambiente pelo uso de sabões. A questão exigiu do candidato leitura atenta do enunciado, interpretação de gráficos e correlação de dados apresentados nos mesmos para que ele pudesse inferir que a adoção de uma mistura multienzimática tornava esse sabão tão eficiente a 15 ºC quanto o sabão convencional a 30 ºC, eliminando a necessidade de aquecimento, o que por sua vez impacta positivamente o meio ambiente, pela redução da emissão de $\\text{CO}_2$. Entendimento de texto e capacidade de extrair informações coerentes de figuras, gráficos e tabelas são habilidades esperadas dos futuros graduandos da Unicamp. A questão também teve como objetivo mostrar aos candidatos que a adoção de alternativas mais tecnológicas pode diminuir os impactos negativos da atividade humana na Terra, principalmente a geração de $\\text{CO}_2$, gás responsável pelo efeito estufa.",
+   "assunto": "Química ambiental",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2020-2-cet-q21",
@@ -460,7 +469,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "*De volta Para o Futuro* ou *O Túnel do Tempo* são obras de ficção em que personagens são transportadas para o passado. Imagine que você voltasse no tempo algumas décadas, no Brasil. Duas situações com que você se depararia estão resumidas nos **Textos 1** e **2** abaixo. É claro que ninguém iria acreditar que você veio do futuro, mas considerando o que você conhece hoje, que sugestões você daria aos administradores da época? Descreva cada uma delas no item correspondente.\n\n![Texto 1: gráfico \"Preço do Petróleo\", de 1950 a 1992 (eixo vertical de 0 $ a 140 $). A linha azul fica baixa até cerca de 1971, sobe em 1974, atinge o ponto mais alto em 1980 e depois cai, com oscilações, até 1992. Um círculo laranja envolve a região de 1971 em diante, e uma seta cinza com o texto \"aumento do preço nos EUA\" aponta para a linha](fig:p23-c1)\n\n![Texto 2: recorte de jornal com o título \"Lixo fica em saco plástico\" e o subtítulo \"Do serviço local\". Texto: \"Sacos plásticos que custam barato e evitam o mau cheiro, a presença de ratos e moscas, além de vira-latas, poderão ser usados em São Paulo como depósito de lixo domiciliar. O sistema alcançou resultados satisfatórios nos Estados Unidos e na Europa e tornará mais rápida a coleta de lixo, porque os lixeiros não precisarão mais depositar nas calçadas os velhos latões ou caixotes atualmente em uso.\"](fig:p23-c2)",
+   "enunciado": "*De volta Para o Futuro* ou *O Túnel do Tempo* são obras de ficção em que personagens são transportadas para o passado. Imagine que você voltasse no tempo algumas décadas, no Brasil. Duas situações com que você se depararia estão resumidas nos **Textos 1** e **2** abaixo. É claro que ninguém iria acreditar que você veio do futuro, mas considerando o que você conhece hoje, que sugestões você daria aos administradores da época? Descreva cada uma delas no item correspondente.\n\n![Texto 1: gráfico \"Preço do Petróleo\", de 1950 a 1992 (eixo vertical de 0 $ a 140 $). A linha azul fica baixa até cerca de 1971, sobe em 1974, atinge o ponto mais alto em 1980 e depois cai, com oscilações, até 1992. Um círculo laranja envolve a parte do gráfico a partir de cerca de 1968, e uma seta cinza com o texto \"aumento do preço nos EUA\" aponta para a linha](fig:p23-c1)\n\n![Texto 2: recorte de jornal com o título \"Lixo fica em saco plástico\" e o subtítulo \"Do serviço local\". Texto: \"Sacos plásticos que custam barato e evitam o mau cheiro, a presença de ratos e moscas, além de vira-latas, poderão ser usados em São Paulo como depósito de lixo domiciliar. O sistema alcançou resultados satisfatórios nos Estados Unidos e na Europa e tornará mais rápida a coleta de lixo, porque os lixeiros não precisarão mais depositar nas calçadas os velhos latões ou caixotes atualmente em uso.\"](fig:p23-c2)",
    "itens": [
     {
      "rotulo": "a",
@@ -473,8 +482,9 @@
      "resposta_oficial": "A adoção de sacos de polietileno para a coleta de lixo eliminaria os problemas relacionados ao barulho próximo às residências e diminuiria a presença de moscas e ratos. No entanto, um novo problema seria gerado num futuro breve, uma vez que o descarte inapropriado de sacos de polietileno levará à formação de um “lixo” não degradável, com impactos negativos ao meio ambiente.\n\n**Observação:** para a resposta correta, bastava apontar uma vantagem e uma desvantagem na adoção da tecnologia, entre as possibilidades abaixo:\n\n**Vantagens:** baixo custo do plástico; evita mau cheiro, barulho e contaminação; evita a presença de ratos e insetos; facilita a coleta do lixo; evita a transmissão de doenças.\n\n**Desvantagens:** geração do lixo adicional que é o próprio saco plástico; obtido de fonte não renovável (derivado do petróleo); tempo de decomposição elevado; não é biodegradável."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Essa questão trata de aspectos relativos ao uso do petróleo e de seus derivados. Nela, são explorados aspectos positivos e negativos na utilização desse insumo. A questão se contextualiza em épocas passadas, sobretudo nos anos 1970. A ideia da questão é a de resgatar alguns aspectos históricos do uso do petróleo, aspectos esses que perduram nos dias atuais. Podem ser aspectos que evidenciem que uma boa perspectiva de uso de um dado produto ou insumo pode parecer uma solução ideal de problemas, ou a mais indicada num momento, mas que está sujeita a trazer problemas adicionais no futuro, sendo que, muitas vezes, esses problemas sequer são imagináveis. Assim, o item a da questão, por exemplo, mostra de que forma ocorreu o grande impacto no preço do petróleo na década de 1970, quando a OPEP reduziu a sua produção, e o seu preço aumentou muito, provocando uma crise mundial. É importante ressaltar que o vai e vem do preço do petróleo continua nos dias atuais e, para não ficarmos distantes, basta ver a “briga” que se estabeleceu recentemente (março de 2020) entre a OPEP e a Rússia. De certa forma, a questão tenta restaurar o caminho que o Brasil adotou para tentar superar a crise do preço do petróleo na década de 1970, com a adoção do programa Proálcool, é hoje uma realidade e exemplo mundial de combustíveis alternativos. Em outra direção, o item b da questão pede que se faça uma reflexão sobre o uso de embalagens plásticas que tanto modificou os hábitos da população a partir dos anos 1970. É claro que as gerações mais novas não viveram essas alterações de comportamento da sociedade, mas estão vivenciando alguns dos problemas gerados por elas. O item b, nesse sentido, pede uma reflexão para os benefícios e malefícios que determinada modificação de comportamento pode originar. O que se exige na questão é bem básico e fundamental. A questão pode ser considerada bem geral, e se insere perfeitamente no contexto de CTSA, questionando alguns aspectos relativos do uso do petróleo. Essa questão poderia ser interdisciplinar a muitas áreas de conhecimento de Ciências da Natureza, História e Geografia e, havendo possibilidade, da Economia.",
+   "assunto": "Química ambiental",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2020-2-cet-q22",
@@ -486,7 +496,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "Alguns processos naturais de interação entre uma mancha de petróleo e o ambiente marinho estão resumidos na figura ao lado. Complete **a tabela no espaço de respostas** com os nomes dos respectivos processos numerados na figura.\n\n![Desenho em corte do mar, em preto e branco: uma mancha escura de óleo na superfície, com o sol e um raio tracejado no canto superior esquerdo; uma seta larga apontando para cima sobre a mancha; gotículas e pontos sob a mancha; pontos escuros na superfície, à direita da mancha; moléculas dispersas na água; camarões e rochas junto à costa, à esquerda. Seis caixas numeradas de 1 a 6 marcam: 1, junto ao raio do sol sobre a mancha; 2, sobre a seta; 3, nas gotículas sob a mancha; 4, nos pontos escuros à direita; 5, entre as moléculas dispersas na água; 6, junto ao fundo e aos camarões](fig:p24-c1)\n\n*Campo de resolução:*\n\n| (a) Processos | |\n|---|---|\n| 1. | 4. |\n| 2. | 5. |\n| 3. | 6. |",
+     "texto": "Alguns processos naturais de interação entre uma mancha de petróleo e o ambiente marinho estão resumidos na figura ao lado. Complete **a tabela no espaço de respostas** com os nomes dos respectivos processos numerados na figura.\n\n![Desenho em corte do mar, em preto e branco: uma mancha escura de óleo na superfície, com o sol e um raio tracejado no canto superior esquerdo; uma seta larga apontando para cima sobre a mancha; gotículas e pontos sob a mancha; pontos escuros na superfície, à direita da mancha; moléculas espalhadas na água; camarões e rochas junto à costa, à esquerda. Seis caixas numeradas de 1 a 6 marcam: 1, junto ao raio do sol sobre a mancha; 2, sobre a seta; 3, nas gotículas sob a mancha; 4, nos pontos escuros à direita; 5, entre as moléculas espalhadas na água; 6, junto ao fundo e aos camarões](fig:p24-c1)\n\n*Campo de resolução:*\n\n| (a) Processos | |\n|---|---|\n| 1. | 4. |\n| 2. | 5. |\n| 3. | 6. |",
      "resposta_oficial": "| **Processos** | **Processos** |\n|---|---|\n| **1.** fotoxidação | **4.** emulsificação |\n| **2.** evaporação | **5.** dissolução (dispersão) |\n| **3.** dispersão (dissolução) | **6.** biodegradação (sedimentação) |\n\n**Observação:** A resolução do item **a** exigia a correta identificação dos processos envolvidos no fenômeno, a partir da leitura do enunciado da questão e de sua representação na figura. A figura possibilita o reconhecimento de diferentes processos em referência a um mesmo número na representação. Deste modo, mais de um processo foi aceito como resposta correta (indicado entre parênteses na tabela acima)."
     },
     {
@@ -495,8 +505,9 @@
      "resposta_oficial": "**Processo 1.** evaporação. **Processo 2.** dissolução\n\n**Situações:**\n( X ) Mais intensos para petróleos mais leves.\n\n**Justificativa:** Petróleos mais leves contêm substâncias de menor massa molar em maior quantidade. Substâncias de menor massa molar apresentam menos interações intermoleculares, facilitando sua volatilização e solubilização.\n\nOU\n\n( X ) Mais intensos para derramamentos em águas tropicais.\n\n**Justificativa:** Em águas tropicais, a temperatura mais alta diminui a interação intermolecular entre as espécies (água-água, água-hidrocarbonetos e hidrocarbonetos-hidrocarbonetos), levando ao aumento da evaporação e solubilização dos hidrocarbonetos na água do mar."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Essa questão trata de aspectos relativos ao derramamento de petróleo na costa brasileira em agosto de 2019. Nela, se exploram aspectos relativos à forma como ocorre a interação entre o petróleo e o ambiente marinho. A questão se contextualiza num desastre bem recente, que está longe de ser o único ou o último, sendo apenas o mais recente. O objetivo da questão é investigar o conhecimento a respeito de algumas formas como o petróleo interage com o ambiente marinho em função do tempo e também de que forma a constituição do petróleo e as variáveis ambientais contribuem para a interação desse petróleo com o ambiente. O desastre focado na questão ainda será bem atual, já que os problemas associados a ele não desaparecerão por muito tempo. Há que se ressaltar que muito foi investigado pelas autoridades brasileiras, mas até hoje não se determinou qual navio verdadeiramente esteve envolvido no derramamento, o que não deixa de ser “um desastre”. O item a da questão objetiva o entendimento de como a mancha de petróleo se dissipa no ambiente marinho. É importante verificar que este item solicita a nomeação de seis processos, sendo que o próprio texto fornece o nome de quatro desses processos, restando apenas dois para que se chegue à resposta esperada. O item b, por sua vez, informa que os dois processos iniciais que levam à diminuição da mancha de petróleo são mais intensos quando o petróleo é do tipo leve e também quando o derramamento ocorre em águas tropicais (mais quentes). O objetivo desse item é verificar o conhecimento sobre os tipos de interações que ocorrem entre as moléculas das diferentes substâncias presentes no petróleo, bem como as interações intermoleculares entre essas substâncias e a água do mar. Objetivamente, interações intermoleculares mais fracas com o petróleo e mais fortes com a água facilitam a diminuição do tamanho da mancha. A questão pode se relacionar a um conhecimento bem específico, mas se insere perfeitamente no contexto de questões ambientais. Ela poderia ser interdisciplinar a muitas áreas de conhecimento, como Ciências da Natureza, Geografia e Economia.",
+   "assunto": "Ligações e interações",
+   "revisao": "corrigida"
   }
  ]
 }
