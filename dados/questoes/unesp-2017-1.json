@@ -21,8 +21,8 @@
   "t21-23": "Examine a tira e o texto, para responder às questões de **21** a **23**.\n\n![Tira Lola Lollipop em três quadrinhos. Primeiro quadrinho, a mãe diz: “Lola! It’s midnight! What are you doing up?!”. Segundo quadrinho, Lola diz: “Mom – research shows that kids perform better in school when they get 7 hours of sleep instead of 9!”, e a mãe responde: “But you just went to bed 2 hours ago!”. Terceiro quadrinho, Lola diz: “Well YEAH. Imagine what a GENIUS I’ll be from only getting 2 instead of 7!”](fig:p10-c1)\n\n“A study from Brigham Young University reported that teenagers ____**23**____ sleep seven hours, compared to nine hours of sleep, perform better academically. This study contradicts federal guidelines, stating teenagers should sleep as much as they need to.” – THESTATECOLUMN.COM\n\n(http://lolalollipop.com. Adaptado.)",
   "t24-29": "Leia o texto para responder às questões de **24** a **29**.\n\nQuestion: Is there anything I can do to train my body to need less sleep?\n\nKaren Weintraub\nJune 17, 2016\n\n![Fotografia de um homem sentado diante de um notebook, com a mão na testa, segurando os óculos; ao lado do computador há um pequeno vaso de planta. Crédito: iStock](fig:p11-f1)\n\nMany people think they can teach themselves to need less sleep, but they’re wrong, said Dr. Sigrid Veasey, a professor at the Center for Sleep and Circadian Neurobiology at the University of Pennsylvania’s Perelman School of Medicine. We might feel that we’re getting by fine on less sleep, but we’re deluding ourselves, Dr. Veasey said, largely because lack of sleep skews our self-awareness. “The more you deprive yourself of sleep over long periods of time, the less accurate you are of judging your own sleep perception,” she said.\n\nMultiple studies have shown that people don’t functionally adapt to less sleep than their bodies need. There is a range of normal sleep times, with most healthy adults naturally needing seven to nine hours of sleep per night, according to the National Sleep Foundation. Those over 65 need about seven to eight hours, on average, while teenagers need eight to 10 hours, and school-age children nine to 11 hours. People’s performance continues to be poor while they are sleep deprived, Dr. Veasey said.\n\nHealth issues like pain, sleep apnea or autoimmune disease can increase people’s need for sleep, said Andrea Meredith, a neuroscientist at the University of Maryland School of Medicine. A misalignment of the clock that governs our sleep-wake cycle can also drive up the need for sleep, Dr. Meredith said. The brain’s clock can get misaligned by being stimulated at the wrong time of day, she said, such as from caffeine in the afternoon or evening, digital screen use too close to bedtime, or even exercise at a time of day when the body wants to be winding down.\n\n(http://well.blogs.nytimes.com. Adaptado.)",
   "t38-39": "Leia o texto para responder às questões **38** e **39**.\n\nA industrialização contemporânea requer investimentos vultosos. No Brasil, esses investimentos não podiam ser feitos pelo setor privado, devido à escassez de capital que caracteriza as nações em desenvolvimento. Além disso, o crescimento econômico do Brasil, um recém-chegado ao processo de modernização, processou-se em condições socioeconômicas diferentes. Um efeito internacional de demonstração, na forma de imitação de padrões de vida, entre países ricos e pobres, e entre classes ricas e pobres dentro das nações, resultou em pressões significativas sobre as taxas de crescimento para diminuir a diferença entre nações desenvolvidas e em desenvolvimento. Em vista das aspirações de melhores padrões de vida, o governo desempenhou um papel importante no crescimento econômico recente do Brasil.\n\n(Carlos Manuel Peláez e Wilson Suzigan. *História monetária do Brasil*, 1981. Adaptado.)",
-  "t72-73": "Leia o texto para responder às questões 72 e 73.\n\nO gluconato de cálcio (massa molar = 430 g/mol) é um medicamento destinado principalmente ao tratamento da deficiência de cálcio. Na forma de solução injetável 10%, ou seja, 100 mg/mL, este medicamento é destinado ao tratamento da hipocalcemia aguda.\n\n(www.medicinanet.com.br. Adaptado.)\n\n![Fotografia de uma ampola de vidro de solução injetável de gluconato de cálcio 10%](fig:p28-f1)\n\n(www.hospitalardistribuidora.com.br)\n\n![Fórmula estrutural do gluconato de cálcio: dois ânions gluconato e um cátion Ca²⁺](fig:p28-c1)",
-  "t74-75": "Leia o texto para responder às questões 74 e 75.\n\nO estireno, matéria-prima indispensável para a produção do poliestireno, é obtido industrialmente pela desidrogenação catalítica do etilbenzeno, que se dá por meio do seguinte equilíbrio químico:\n\n![Equação química: etilbenzeno (g) em equilíbrio, com catalisador, com estireno (g) + H₂ (g), ΔH = 121 kJ/mol](fig:p28-c2)"
+  "t72-73": "Leia o texto para responder às questões **72** e **73**.\n\nO gluconato de cálcio (massa molar = 430 g/mol) é um medicamento destinado principalmente ao tratamento da deficiência de cálcio. Na forma de solução injetável 10%, ou seja, 100 mg/mL, este medicamento é destinado ao tratamento da hipocalcemia aguda.\n\n(www.medicinanet.com.br. Adaptado.)\n\n![Fotografia de uma ampola de vidro de solução injetável de gluconato de cálcio 10%](fig:p28-f1)\n\n(www.hospitalardistribuidora.com.br)\n\n![Fórmula estrutural do gluconato de cálcio: dois ânions gluconato e um cátion Ca²⁺](fig:p28-c1)",
+  "t74-75": "Leia o texto para responder às questões **74** e **75**.\n\nO estireno, matéria-prima indispensável para a produção do poliestireno, é obtido industrialmente pela desidrogenação catalítica do etilbenzeno, que se dá por meio do seguinte equilíbrio químico:\n\n![Equação química: etilbenzeno (g) em equilíbrio, com catalisador, com estireno (g) + H₂ (g), ΔH = 121 kJ/mol](fig:p28-c2)"
  },
  "questoes": [
   {
@@ -1257,7 +1257,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Dengue, zika e chikungunya são transmitidas pelo mesmo vetor (o mosquito *Aedes aegypti*), pelo mesmo modo (picada) e nas mesmas regiões. O que muda de uma para outra é o vírus causador.\n\nCada vírus tem suas próprias características: as células que prefere infectar, a velocidade com que se multiplica e os tecidos que atinge (o zika, por exemplo, tem mais afinidade com o tecido nervoso). Isso explica os quadros clínicos diferentes do quadro.\n\nAs alternativas A, C e D apontam fatores que são iguais para as três doenças. A E fala em \"mesmo agente\", mas os agentes são diferentes.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q62",
@@ -1275,7 +1277,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "A matéria fala da fotossíntese, que retira $\\text{CO}_2$ do ar e usa o carbono para formar a matéria orgânica da planta, inclusive a do tronco.\n\nO erro está em dizer que o $\\text{O}_2$ devolvido vem do $\\text{CO}_2$. Na fase clara, o gás oxigênio liberado vem da quebra da água (fotólise): $2\\,\\text{H}_2\\text{O} \\to 4\\,\\text{H}^+ + 4\\,e^- + \\text{O}_2$. O oxigênio do $\\text{CO}_2$ fica na glicose e na água formada.\n\nA alternativa B é a armadilha: aceita a ideia errada de que o $\\text{O}_2$ sai do $\\text{CO}_2$. A C erra porque a celulose e a lignina do tronco são, sim, feitas com o carbono fixado.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q63",
@@ -1293,7 +1297,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Para cada pessoa, procure uma doença do quadro que se pegue daquele jeito.\n\n- Júlio (transfusão de sangue): o HIV e o *Treponema pallidum* circulam no sangue, então aids ou sífilis.\n- Paulo (no útero da mãe): a sífilis congênita é a transmissão clássica pela placenta. O HIV também pode passar.\n- Adriano (só por relação sexual): o cancro mole é transmitido apenas pelo contato sexual com as lesões.\n\nA única combinação possível é aids, sífilis e cancro mole. A gonorreia, que aparece em outras alternativas, também passa ao bebê na hora do parto, e não só por relação sexual.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q64",
@@ -1311,7 +1317,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "Nos dois gráficos o eixo horizontal vai de 100% a 0%, ou seja, mostra o processo andando: a cauda diminuindo (A) e o lipídio sendo gasto (B).\n\nGráfico A: a cauda do girino regride porque os lisossomos digerem as próprias células (autólise). Quanto mais a cauda já regrediu, mais intensa está a digestão: a atividade sobe ao longo do eixo, como na curva 1.\n\nGráfico B: na germinação, os peroxissomos (glioxissomos) convertem a gordura de reserva em açúcar. O consumo de lipídios vem justamente do aumento da atividade dessas organelas: de novo, a curva 1.\n\nA curva 2 (atividade constante) não explicaria a mudança, e a 3 diria que a atividade cai justamente enquanto o processo avança.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q65",
@@ -1329,7 +1337,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "A ideia central é a dominância apical: a auxina produzida na gema apical (a ponta do ramo) inibe o desenvolvimento das gemas laterais.\n\nQuando se poda a gema apical, essa inibição acaba. As gemas laterais passam a se desenvolver e a produzir auxina, e a planta ramifica para os lados. O resultado é uma planta mais baixa e mais densa, que é o que se quer na cerca-viva.\n\nPodar as gemas laterais (B e D) faria o contrário: a planta cresceria para cima, com poucos ramos.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q66",
@@ -1347,7 +1357,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "A enxertia não mistura material genético. Cada parte da planta mantém o seu DNA: o porta-enxerto (abóbora) só fornece raiz, água e nutrientes.\n\nFlores e frutos se formam no enxerto, que é de pepino. Então os frutos são pepinos, e as sementes, formadas a partir das flores do pepino, darão origem a novas plantas de *Cucumis sativus*.\n\nA alternativa B é a pegadinha: não há fecundação entre as duas espécies, então não se forma híbrido.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q67",
@@ -1365,7 +1377,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "O gene é recessivo e fica no cromossomo X ($X^d$).\n\n- Luísa é daltônica, então é $X^dX^d$: recebeu um $X^d$ do pai e outro da mãe. Logo o pai é daltônico ($X^dY$).\n- A mãe tem pelo menos um $X^d$. Se fosse daltônica ($X^dX^d$), o pai dela também teria de ser, e seriam três daltônicos além dos gêmeos. Como são só dois, a mãe é portadora ($X^DX^d$).\n- Então o $X^d$ da mãe veio do avô materno (daltônico) ou da avó materna (portadora). Como falta só uma pessoa daltônica, ela é o avô materno.\n\nAs duas pessoas são o pai e o avô materno. A alternativa D (pai e mãe) exigiria um terceiro daltônico, o avô materno.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q68",
@@ -1383,7 +1397,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "Tubarão, peixe, pinguim, foca e golfinho são de grupos bem distantes, mas todos têm corpo hidrodinâmico e membros em forma de nadadeira. Isso é convergência adaptativa: grupos diferentes ficam parecidos porque vivem no mesmo tipo de ambiente.\n\nQuem produz essa semelhança é a seleção natural. No meio aquático, sobrevivem e se reproduzem mais os indivíduos com corpo que facilita o nado.\n\nAs alternativas A e D erram ao dizer que a mutação surge \"em resposta\" ao ambiente ou que leva à irradiação, que é o processo oposto (um grupo se diversifica). A B erra porque os ambientes são parecidos, e não diferentes.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q69",
@@ -1401,7 +1417,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Ao misturar duas soluções, o precipitado é o sal pouco solúvel formado pela troca de íons. Nitratos e sais de sódio são solúveis, então nunca são o precipitado.\n\n- 1 + 2: $\\text{Ba(NO}_3\\text{)}_2 + \\text{Na}_2\\text{CrO}_4 \\to \\text{BaCrO}_4\\downarrow + 2\\,\\text{NaNO}_3$. O ppt 1 é o $\\text{BaCrO}_4$.\n- 2 + 3: $\\text{Na}_2\\text{CrO}_4 + 2\\,\\text{AgNO}_3 \\to \\text{Ag}_2\\text{CrO}_4\\downarrow + 2\\,\\text{NaNO}_3$. O ppt 2 é o $\\text{Ag}_2\\text{CrO}_4$.\n\nO quadro confirma: as misturas que só podem formar nitratos (1 + 3, 1 + 4, 3 + 4) ou sais de sódio (2 + 4) não precipitam.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q70",
@@ -1421,7 +1439,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "Primeiro, a energia de 2,6 mL de azeite. Por proporção: $Q = \\frac{2{,}6}{13} \\cdot 108 = 0{,}2 \\cdot 108 = 21{,}6\\ \\text{kcal}$.\n\nTodo esse calor aquece 500 g = 0,5 kg de água: $Q = m \\cdot c \\cdot \\Delta T \\Rightarrow 21{,}6 = 0{,}5 \\cdot 1 \\cdot \\Delta T \\Rightarrow \\Delta T = 43{,}2\\ ^\\circ\\text{C}$.\n\nA temperatura final é $20{,}0 + 43{,}2 = 63{,}2\\ ^\\circ\\text{C}$. A alternativa A (21,6 °C) usa o valor da energia como se fosse a temperatura.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q71",
@@ -1439,7 +1459,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "A carga que passou é $Q = i \\cdot t = 0{,}200 \\cdot 965 = 193\\ \\text{C}$.\n\nEm mol de elétrons: $n_{e^-} = \\frac{193}{96\\,500} = 0{,}002\\ \\text{mol}$.\n\nNo cátodo: $2\\,\\text{H}^+ + 2\\,e^- \\to \\text{H}_2$. São 2 mol de elétrons para cada 1 mol de $\\text{H}_2$, então $n_{\\text{H}_2} = 0{,}001\\ \\text{mol}$.\n\nO volume nas CATP é $V = 0{,}001 \\cdot 25\\,000 = 25{,}0\\ \\text{mL}$. A alternativa E (50,0 mL) esquece que cada $\\text{H}_2$ consome 2 elétrons.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q72",
@@ -1457,7 +1479,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Conte os hidrogênios de um ânion gluconato, seguindo a cadeia de 6 carbonos:\n\n- $\\text{HO–CH}_2$: 1 H na hidroxila e 2 H no carbono, total 3;\n- 4 grupos $\\text{CH(OH)}$: 2 H em cada, total 8;\n- $\\text{COO}^-$: nenhum H.\n\nCada ânion tem 11 H ($\\text{C}_6\\text{H}_{11}\\text{O}_7^-$). Como o sal tem dois ânions para um $\\text{Ca}^{2+}$, o total é $2 \\cdot 11 = 22$. Cuidado para não contar só um ânion (11 H) nem esquecer os hidrogênios das hidroxilas.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2017-1-q73",
@@ -1475,7 +1499,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "A solução tem 100 mg/mL. Em 10 mL há $10 \\cdot 100 = 1\\,000\\ \\text{mg} = 1\\ \\text{g}$ de gluconato de cálcio.\n\nEm mol: $n = \\frac{1}{430} \\approx 2{,}33 \\times 10^{-3}\\ \\text{mol}$. Cada fórmula do sal tem um único $\\text{Ca}^{2+}$, então essa também é a quantidade de íons cálcio.\n\nNúmero de íons: $2{,}33 \\times 10^{-3} \\cdot 6{,}0 \\times 10^{23} \\approx 1{,}4 \\times 10^{21}$.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2017-1-q74",
@@ -1493,7 +1519,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Os dois compostos têm só carbono e hidrogênio e um anel benzênico: são hidrocarbonetos aromáticos.\n\nAs outras não servem. Nenhum carbono está ligado a quatro outros carbonos, então não há carbono quaternário (B). Também não há carbono com quatro ligantes diferentes, então não há carbono assimétrico (D). E as fórmulas são diferentes ($\\text{C}_8\\text{H}_{10}$ e $\\text{C}_8\\text{H}_8$), então não são isômeros (C e E).\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2017-1-q75",
@@ -1511,7 +1539,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "resolucao": "O $\\Delta H = +121\\ \\text{kJ/mol}$ é positivo: a formação de estireno é endotérmica.\n\nPelo princípio de Le Châtelier, aquecer favorece o sentido que absorve calor, ou seja, a formação de estireno.\n\nO catalisador só acelera a reação e não muda a entalpia (A e B). A pressão interfere, porque há 1 mol de gás nos reagentes e 2 mol nos produtos: aumentar a pressão desloca o equilíbrio para o etilbenzeno (D).\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2017-1-q76",
@@ -1531,7 +1561,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Bioquímica",
+   "resolucao": "Basta identificar o tipo de reação de cada enzima.\n\n- Álcool desidrogenase: o etanol perde hidrogênios e vira acetaldeído ($\\text{CH}_3\\text{CH}_2\\text{OH} \\to \\text{CH}_3\\text{CHO}$). Perder H é uma oxidação, então a enzima é uma óxido-redutase (classe 1).\n- Sacarase: quebra a sacarose com a entrada de uma molécula de água, formando glicose e frutose. Isso é uma hidrólise (classe 3).\n\nA alternativa D é a tentadora, mas a sacarase não transfere grupos entre moléculas: ela usa água para romper a ligação.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q77",
@@ -1549,7 +1581,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Dinâmica",
+   "resolucao": "O objeto faz um movimento circular uniforme num plano horizontal, preso à corda: é um pêndulo cônico. O raio da circunferência é metade do diâmetro, $R = 7{,}5\\ \\text{m}$.\n\nNa vertical, a componente da tração equilibra o peso: $T\\cos\\theta = mg$. Na horizontal, a outra componente é a resultante centrípeta: $T\\,\\text{sen}\\,\\theta = m\\omega^2 R$.\n\nDividindo uma pela outra: $\\text{tg}\\,\\theta = \\frac{\\omega^2 R}{g} \\Rightarrow \\frac{0{,}6}{0{,}8} = \\frac{\\omega^2 \\cdot 7{,}5}{10} \\Rightarrow 0{,}75 = 0{,}75\\,\\omega^2 \\Rightarrow \\omega = 1{,}0\\ \\text{rad/s}$.\n\nCuidado para não usar o diâmetro (15 m) como raio.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q78",
@@ -1567,7 +1601,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Dinâmica",
+   "resolucao": "A esteira exerce duas forças sobre a caixa: a normal, para cima, e o atrito.\n\nA esteira anda para a esquerda e a caixa está parada. Então, em relação à esteira, a caixa escorrega para a direita. O atrito cinético se opõe a esse escorregamento e aponta para a esquerda, como se a esteira tentasse arrastar a caixa junto.\n\nSomando a normal (para cima) com o atrito (para a esquerda), a resultante das forças da esteira aponta para cima e para a esquerda.\n\nA alternativa B mostra só a normal e esquece o atrito. A A põe o atrito no sentido errado.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q79",
@@ -1585,7 +1621,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "Sem resistência do ar, a componente horizontal da velocidade não muda: $v_x = v_0\\cos\\alpha$. No ponto mais alto, a componente vertical é zero, então a velocidade ali é só $v_0\\cos\\alpha$.\n\nA energia cinética no topo é $E = \\frac{m(v_0\\cos\\alpha)^2}{2} = \\frac{m v_0^2}{2}\\cos^2\\alpha = E_0\\cos^2\\alpha$.\n\nA alternativa B esquece que a energia cinética depende do quadrado da velocidade.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q80",
@@ -1603,7 +1641,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "Um ponto do tubo só é visto de fora se a sua luz sai da água. Para isso, ela precisa chegar à superfície fora da boia e com ângulo menor que o ângulo limite $L$.\n\n$\\text{sen}\\,L = \\frac{n_{\\text{ar}}}{n_{\\text{água}}} = \\frac{1{,}00}{1{,}25} = 0{,}8$, então $\\cos L = 0{,}6$ e $\\text{tg}\\,L = \\frac{4}{3}$.\n\nO raio que passa rente à borda da boia (a 20 cm do tubo) e incide exatamente com o ângulo limite vem de uma profundidade $d$ tal que $\\text{tg}\\,L = \\frac{20}{d} \\Rightarrow d = \\frac{20 \\cdot 3}{4} = 15\\ \\text{cm}$.\n\nOs pontos acima dessa profundidade só mandariam luz para a borda com ângulo maior que $L$ (reflexão total) ou para a boia opaca. Ficam escondidos os primeiros 15 cm, e a parte visível é $100 - 15 = 85\\ \\text{cm}$. A alternativa C (15 cm) é justamente a parte que não se vê.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q81",
@@ -1621,7 +1661,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "resolucao": "Quando uma onda passa de um meio para outro, mudam a velocidade e o comprimento de onda, mas a frequência continua a mesma, porque quem a define é a fonte. Isso vale para as ondas de rádio e para o som.\n\nAs outras estão erradas. As ondas de rádio são eletromagnéticas e o som é mecânico (A está invertida). As ondas de rádio se propagam no vácuo (B). O som é longitudinal e as ondas de rádio são transversais (C está invertida). E a onda de rádio no ar (cerca de $3 \\times 10^8\\ \\text{m/s}$) é muito mais rápida que o som na água (cerca de 1 500 m/s), o que derruba a E.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q82",
@@ -1639,7 +1681,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Eletrostática",
+   "resolucao": "As três cargas estão à mesma distância $r$ do centro C.\n\nPotencial (grandeza escalar, basta somar): $V_C = \\frac{k_0 Q}{r} + \\frac{k_0 Q}{r} + \\frac{k_0(-2Q)}{r} = 0$.\n\nCampo (grandeza vetorial): $q_1$ e $q_2$ são iguais e estão em pontas opostas de um diâmetro. Seus campos em C têm o mesmo módulo e sentidos opostos, e se anulam. Sobra o campo de $q_3$: $E_C = \\frac{k_0 \\cdot 2Q}{r^2}$.\n\nA alternativa C é a armadilha: o potencial nulo não significa campo nulo.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q83",
@@ -1657,15 +1701,15 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Magnetismo",
+   "resolucao": "Um atalho decide a questão. Inverter a pilha inverte a corrente, e inverter o polo X inverte o campo. Cada uma dessas trocas, sozinha, inverte o sentido de giro.\n\nCom isso, A, B, C e D descrevem a mesma situação física. Por exemplo, a D é a A com a pilha e o ímã invertidos ao mesmo tempo, o que mantém o sentido. Se uma delas estivesse certa, as quatro estariam, então a correta só pode ser a E.\n\nConfirmando com a força magnética: com A negativo e B positivo, a corrente no trecho da espira mais próximo do ímã vai em direção à extremidade A. Com X norte, o campo ali aponta para cima. Pela regra da mão direita ($\\vec{F} = i\\,\\vec{L} \\times \\vec{B}$), esse trecho é empurrado para o lado que faz a hélice girar no sentido horário. A parte semirraspada corta a corrente na outra meia-volta, para a força não frear o giro.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q84",
    "numero": 84,
    "materia": "matematica",
-   "materias_extra": [
-    "geografia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "O hexágono marcado na malha quadriculada sobre a fotografia representa o contorno do câmpus da Unesp de Rio Claro, que é aproximadamente plano.\n\n![Fotografia aérea do câmpus da Unesp de Rio Claro com uma malha quadriculada, em que cada lado de quadrado mede 160 m, e o contorno do câmpus marcado em amarelo](fig:p33-f1)\n\nA área aproximada desse câmpus, em km², é um número pertencente ao intervalo",
    "alternativas": {
@@ -1677,7 +1721,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "Cada quadrado da malha tem 160 m de lado, ou seja, 0,16 km. A área de um quadrado é $0{,}16^2 = 0{,}0256\\ \\text{km}^2$.\n\nConte os quadrados dentro do hexágono: os inteiros e os pedaços cortados pelos lados, juntando as partes que se completam. Também dá para dividir a figura em triângulos e trapézios usando os vértices na malha. O total fica perto de 42 quadrados.\n\nÁrea: $42 \\cdot 0{,}0256 \\approx 1{,}1\\ \\text{km}^2$, que está no intervalo $[0{,}8;\\ 1{,}3[$.\n\nAtenção para não usar 160 m como se fosse 0,16 km² por quadrado: assim o resultado sairia muito maior.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2017-1-q85",
@@ -1695,7 +1741,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Chame de $L$ a massa do cubo laranja e de $A$ a do azul. As balanças em equilíbrio dão:\n\n- 1ª balança: $L + 2A = 2$;\n- 2ª balança: $A + 3 = 2L$, ou seja, $A = 2L - 3$.\n\nSubstituindo: $L + 2(2L - 3) = 2 \\Rightarrow 5L = 8 \\Rightarrow L = 1{,}6\\ \\text{kg}$. Daí $A = 3{,}2 - 3 = 0{,}2\\ \\text{kg}$.\n\nA diferença é $1{,}6 - 0{,}2 = 1{,}4\\ \\text{kg}$. A alternativa E (1,6 kg) é a massa do cubo laranja, e não a diferença.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q86",
@@ -1713,7 +1761,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Seja $M$ o total monitorado em março. Os 25% de março correspondem aos mesmos 200 km de abril: $0{,}25M = 200 \\Rightarrow M = 800\\ \\text{km}$.\n\nEm abril o total cresceu 10%: $800 \\cdot 1{,}1 = 880\\ \\text{km}$.\n\nEm porcentagem, os 200 km de abril valem $\\frac{200}{880} \\approx 0{,}227$, ou seja, cerca de 23%.\n\nA alternativa A (25%) esquece que o total aumentou. Mesma quantidade de quilômetros sobre um total maior dá uma porcentagem menor.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q87",
@@ -1731,7 +1781,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Progressões",
+   "resolucao": "Pela figura, a pilha tem uma parte fixa e uma parte que cresce: 48 cm do chão até o assento da cadeira de baixo, 44 cm do assento da cadeira de cima até o topo do encosto e 3 cm a mais para cada cadeira encaixada.\n\nCom $n$ cadeiras há $n - 1$ encaixes: $h = 48 + 44 + 3(n - 1)$ (em cm), uma progressão aritmética de razão 3. Conferindo com 3 cadeiras: $92 + 6 = 98$ cm.\n\nPara 1,4 m = 140 cm: $92 + 3(n - 1) = 140 \\Rightarrow 3(n - 1) = 48 \\Rightarrow n - 1 = 16 \\Rightarrow n = 17$.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q88",
@@ -1749,7 +1801,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Polinômios e equações",
+   "resolucao": "Uma fração é zero quando o numerador é zero e o denominador existe e não é zero.\n\nNumerador: $x^2 - 13x + 40 = (x-5)(x-8)$ e $x^2 - 13x + 42 = (x-6)(x-7)$. Os candidatos são 5, 6, 7 e 8.\n\nDenominador: a raiz quadrada precisa de radicando positivo (ele não pode ser zero, pois está no denominador). $x^2 - 12x + 35 = (x-5)(x-7) > 0$ vale para $x < 5$ ou $x > 7$.\n\nDos candidatos, 5 e 7 zeram o denominador e 6 dá radicando negativo. Só sobra $x = 8$. A alternativa D (quatro números) esquece de verificar o denominador.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q89",
@@ -1767,7 +1821,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "Os dois losangos têm o ângulo do vértice C em comum, então são semelhantes. A área de cada um é proporcional ao quadrado do lado.\n\nA região verde é o que sobra de ABCD quando se tira FGCE. Se FGCE tem a mesma área da região verde, cada um ocupa metade de ABCD.\n\nSendo $s$ o lado de FGCE: $\\left(\\frac{s}{6}\\right)^2 = \\frac{1}{2} \\Rightarrow s^2 = 18 \\Rightarrow s = 3\\sqrt{2}\\ \\text{cm}$.\n\nA tentação é achar que a razão entre os lados também é $\\frac{1}{2}$ (o que daria 3 cm). Mas a razão entre áreas é o quadrado da razão entre lados.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2017-1-q90",
@@ -1785,7 +1841,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Pela figura, a bomba está 6 casas à frente do peão. São 36 resultados igualmente prováveis em cada lançamento.\n\n- Caso 1, números diferentes com soma 6: (1,5), (5,1), (2,4), (4,2). Probabilidade $\\frac{4}{36}$.\n- Caso 2, dupla e depois o total chega a 6. Com (1,1), a soma 2 pede soma 4 no 2º lançamento: (1,3), (3,1), (2,2), que dá $\\frac{1}{36} \\cdot \\frac{3}{36}$. Com (2,2), a soma 4 pede soma 2: (1,1), que dá $\\frac{1}{36} \\cdot \\frac{1}{36}$. A dupla (3,3) já soma 6 e o 2º lançamento passaria da bomba.\n\nTotal: $\\frac{4}{36} + \\frac{3}{1296} + \\frac{1}{1296} = \\frac{144 + 4}{1296} = \\frac{148}{1296} = \\frac{37}{324}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   }
  ]
 }
