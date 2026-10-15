@@ -151,6 +151,308 @@
         "E": "1,2."
       },
       "observacoes": ""
+    },
+    {
+      "numero": 71,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "De acordo com o Relatório Anual de 2016 da Qualidade da Água, publicado pela Sabesp, a concentração de cloro na água potável da rede de distribuição deve estar entre 0,2 mg/L, limite mínimo, e 5,0 mg/L, limite máximo. Considerando que a densidade da água potável seja igual à da água pura, calcula-se que o valor médio desses limites, expresso em partes por milhão, seja",
+      "alternativas": {
+        "A": "5,2 ppm.",
+        "B": "18 ppm.",
+        "C": "2,6 ppm.",
+        "D": "26 ppm.",
+        "E": "1,8 ppm."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 72,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sob temperatura constante, acrescentou-se cloreto de sódio em água até sobrar sal sem se dissolver, como corpo de fundo. Estabeleceu-se assim o seguinte equilíbrio:\n\n$$\\text{NaC}\\ell\\ (s) \\rightleftharpoons \\text{Na}^+\\ (aq) + \\text{C}\\ell^-\\ (aq)$$\n\nMantendo a temperatura constante, foi acrescentada mais uma porção de $\\text{NaC}\\ell\\ (s)$. Com isso, observa-se que a condutibilidade elétrica da solução sobrenadante ______________, a quantidade de corpo de fundo ______________ e a concentração de íons em solução ______________.\n\nAs lacunas do texto devem ser preenchidas, respectivamente, por:",
+      "alternativas": {
+        "A": "não se altera – aumenta – aumenta",
+        "B": "não se altera – não se altera – não se altera",
+        "C": "não se altera – aumenta – não se altera",
+        "D": "aumenta – diminui – aumenta",
+        "E": "diminui – aumenta – aumenta"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 73,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Analise os três diagramas de entalpia.\n\n![Três diagramas de entalpia em kJ: 2C(s) + H2(g) (0) para C2H2(g) (+227); C(s) + O2(g) (0) para CO2(g) (–393); H2(g) + 1/2 O2(g) (0) para H2O(ℓ) (–286)](fig:p27-f1)\n\nO $\\Delta H$ da combustão completa de 1 mol de acetileno, $\\text{C}_2\\text{H}_2\\ (g)$, produzindo $\\text{CO}_2\\ (g)$ e $\\text{H}_2\\text{O}\\ (\\ell)$ é",
+      "alternativas": {
+        "A": "+ 1 140 kJ.",
+        "B": "+ 820 kJ.",
+        "C": "– 1 299 kJ.",
+        "D": "– 510 kJ.",
+        "E": "– 635 kJ."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 74,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O ciclo do enxofre é fundamental para os solos dos manguezais. Na fase anaeróbica, bactérias reduzem o sulfato para produzir o gás sulfeto de hidrogênio. Os processos que ocorrem são os seguintes:\n\n$$\\text{SO}_4^{2-}\\ (aq) \\xrightarrow{\\text{ação bacteriana}} \\text{S}^{2-}\\ (aq)$$\n\n$$\\text{S}^{2-}\\ (aq) \\xrightarrow{\\text{meio ácido}} \\text{H}_2\\text{S}\\ (g)$$\n\n(Gilda Schmidt. *Manguezal de Cananeia*, 1989. Adaptado.)\n\nNa produção de sulfeto de hidrogênio por esses processos nos manguezais, o número de oxidação do elemento enxofre",
+      "alternativas": {
+        "A": "diminui 8 unidades.",
+        "B": "mantém-se o mesmo.",
+        "C": "aumenta 4 unidades.",
+        "D": "aumenta 8 unidades.",
+        "E": "diminui 4 unidades."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 75,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Examine as estruturas do ortocresol e do álcool benzílico.\n\n![Fórmulas estruturais do ortocresol e do álcool benzílico](fig:p27-c1)\n\nO ortocresol e o álcool benzílico",
+      "alternativas": {
+        "A": "apresentam a mesma função orgânica.",
+        "B": "são isômeros.",
+        "C": "são compostos alifáticos.",
+        "D": "apresentam heteroátomo.",
+        "E": "apresentam carbono quiral."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 76,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Juliana pratica corridas e consegue correr 5,0 km em meia hora. Seu próximo desafio é participar da corrida de São Silvestre, cujo percurso é de 15 km. Como é uma distância maior do que a que está acostumada a correr, seu instrutor orientou que diminuísse sua velocidade média habitual em 40% durante a nova prova. Se seguir a orientação de seu instrutor, Juliana completará a corrida de São Silvestre em",
+      "alternativas": {
+        "A": "2h40min.",
+        "B": "3h00min.",
+        "C": "2h15min.",
+        "D": "2h30min.",
+        "E": "1h52min."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 77,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma minicama elástica é constituída por uma superfície elástica presa a um aro lateral por 32 molas idênticas, como mostra a figura. Quando uma pessoa salta sobre esta minicama, transfere para ela uma quantidade de energia que é absorvida pela superfície elástica e pelas molas.\n\n![Silhueta de uma pessoa saltando sobre uma minicama elástica](fig:p28-f1)\n\nConsidere que, ao saltar sobre uma dessas minicamas, uma pessoa transfira para ela uma quantidade de energia igual a 160 J, que 45% dessa energia seja distribuída igualmente entre as 32 molas e que cada uma delas se distenda 3,0 mm. Nessa situação, a constante elástica de cada mola, em N/m, vale",
+      "alternativas": {
+        "A": "$5{,}0 \\times 10^{5}$.",
+        "B": "$1{,}6 \\times 10^{1}$.",
+        "C": "$3{,}2 \\times 10^{3}$.",
+        "D": "$5{,}0 \\times 10^{3}$.",
+        "E": "$3{,}2 \\times 10^{0}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 78,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura mostra a trajetória de um projétil lançado obliquamente e cinco pontos equidistantes entre si e localizados sobre o solo horizontal. Os pontos e a trajetória do projétil estão em um mesmo plano vertical.\n\n![Trajetória parabólica de um projétil lançado do ponto II, fragmentado no ponto mais alto, acima do ponto IV, em A e B, com o vetor velocidade de B horizontal para a direita; pontos I a V sobre o solo, separados pela distância d](fig:p28-f2)\n\nNo instante em que atingiu o ponto mais alto da trajetória, o projétil explodiu, dividindo-se em dois fragmentos, A e B, de massas $M_A$ e $M_B$, respectivamente, tal que $M_A = 2M_B$. Desprezando a resistência do ar e considerando que a velocidade do projétil imediatamente antes da explosão era $V_H$ e que, imediatamente após a explosão, o fragmento B adquiriu velocidade $V_B = 5V_H$, com mesma direção e sentido de $V_H$, o fragmento A atingiu o solo no ponto",
+      "alternativas": {
+        "A": "IV.",
+        "B": "III.",
+        "C": "V.",
+        "D": "I.",
+        "E": "II."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 79,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O gráfico mostra o fluxo térmico do ser humano em função da temperatura ambiente em um experimento no qual o metabolismo basal foi mantido constante. A linha azul representa o calor trocado com o meio por evaporação (E) e a linha vermelha, o calor trocado com o meio por radiação e convecção (RC).\n\n![Gráfico do fluxo térmico em kcal/m² em função da temperatura ambiente em °C, de 40 a 16, com a curva azul E e a curva vermelha RC](fig:p29-c1)\n\n(Eduardo A. C. Garcia. *Biofísica*, 1997. Adaptado.)\n\nSabendo que os valores positivos indicam calor recebido pelo corpo e os valores negativos indicam o calor perdido pelo corpo, conclui-se que:",
+      "alternativas": {
+        "A": "em temperaturas entre 36 °C e 40 °C, o corpo recebe mais calor do ambiente do que perde.",
+        "B": "à temperatura de 20 °C, a perda de calor por evaporação é maior que por radiação e convecção.",
+        "C": "a maior perda de calor ocorre à temperatura de 32 °C.",
+        "D": "a perda de calor por evaporação se aproxima de zero para temperaturas inferiores a 20 °C.",
+        "E": "à temperatura de 36 °C, não há fluxo de calor entre o corpo e o meio."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 80,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um dos fatores que contribuíram para a aceitação do modelo atômico proposto por Niels Bohr em 1913 foi a explicação dos espectros da luz emitida por átomos de gases aquecidos, que podem ser observados por meio de um aparelho chamado espectroscópio, cujo esquema está representado na figura. Nesse equipamento, a luz emitida por um gás atravessa uma fenda em um anteparo opaco, forma um estreito feixe que incide em um elemento óptico, no qual sofre dispersão. Essa luz dispersada incide em um detector, onde é realizado o registro do espectro.\n\n![Esquema de um espectroscópio: gás sob alta tensão, fenda, feixe de luz, peça que contém o elemento óptico e detector com o espectro](fig:p29-f2)\n\n(Bruce H. Mahan. *Química*, 1972. Adaptado.)\n\nO elemento óptico desse espectroscópio pode ser",
+      "alternativas": {
+        "A": "um espelho convexo.",
+        "B": "um prisma.",
+        "C": "uma lente divergente.",
+        "D": "uma lente convergente.",
+        "E": "um espelho plano."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 81,
+      "materia": "fisica",
+      "materias_extra": [
+        "matematica"
+      ],
+      "texto_base": null,
+      "enunciado": "Define-se a intensidade de uma onda ($I$) como potência transmitida por unidade de área disposta perpendicularmente à direção de propagação da onda. Porém, essa definição não é adequada para medir nossa percepção de sons, pois nosso sistema auditivo não responde de forma linear à intensidade das ondas incidentes, mas de forma logarítmica. Define-se, então, nível sonoro ($\\beta$) como $\\beta = 10\\,\\log\\frac{I}{I_0}$, sendo $\\beta$ dado em decibels (dB) e\n\n$I_0 = 10^{-12}\\ \\text{W/m}^2$.\n\nSupondo que uma pessoa, posicionada de forma que a área de $6{,}0 \\times 10^{-5}\\ \\text{m}^2$ de um de seus tímpanos esteja perpendicular à direção de propagação da onda, ouça um som contínuo de nível sonoro igual a 60 dB durante 5,0 s, a quantidade de energia que atingiu seu tímpano nesse intervalo de tempo foi",
+      "alternativas": {
+        "A": "$1{,}8 \\times 10^{-8}\\ \\text{J}$.",
+        "B": "$3{,}0 \\times 10^{-12}\\ \\text{J}$.",
+        "C": "$3{,}0 \\times 10^{-10}\\ \\text{J}$.",
+        "D": "$1{,}8 \\times 10^{-14}\\ \\text{J}$.",
+        "E": "$6{,}0 \\times 10^{-9}\\ \\text{J}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 82,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Para obter experimentalmente a curva da diferença de potencial $U$ em função da intensidade da corrente elétrica $i$ para uma lâmpada, um aluno montou o circuito a seguir. Colocando entre os pontos A e B resistores com diversos valores de resistência, ele obteve diferentes valores de $U$ e de $i$ para a lâmpada.\n\n![Circuito com bateria de 9 V, lâmpada, dois multímetros e, entre os pontos A e B, um resistor](fig:p30-f1)\n\nConsiderando que a bateria de 9,0 V, os aparelhos de medida e os fios de ligação sejam ideais, quando o aluno obteve as medidas $U = 5{,}70\\ \\text{V}$ e $i = 0{,}15\\ \\text{A}$, a resistência do resistor colocado entre os pontos A e B era de",
+      "alternativas": {
+        "A": "100 Ω.",
+        "B": "33 Ω.",
+        "C": "56 Ω.",
+        "D": "68 Ω.",
+        "E": "22 Ω."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 83,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O ibuprofeno é uma medicação prescrita para dor e febre, com meia-vida de aproximadamente 2 horas. Isso significa que, por exemplo, depois de 2 horas da ingestão de 200 mg de ibuprofeno, permanecerão na corrente sanguínea do paciente apenas 100 mg da medicação. Após mais 2 horas (4 horas no total), apenas 50 mg permanecerão na corrente sanguínea e, assim, sucessivamente.\n\nSe um paciente recebe 800 mg de ibuprofeno a cada 6 horas, a quantidade dessa medicação que permanecerá na corrente sanguínea na 14ª hora após a ingestão da primeira dose será",
+      "alternativas": {
+        "A": "12,50 mg.",
+        "B": "456,25 mg.",
+        "C": "114,28 mg.",
+        "D": "6,25 mg.",
+        "E": "537,50 mg."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 84,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura indica um trapézio ABCD no plano cartesiano.\n\n![Trapézio ABCD no plano cartesiano, com A(0, 3), B(0, 15), C(20, 9) e D(10, 0)](fig:p31-f1)\n\nA área desse trapézio, na unidade quadrada definida pelos eixos coordenados, é igual a",
+      "alternativas": {
+        "A": "160.",
+        "B": "175.",
+        "C": "180.",
+        "D": "170.",
+        "E": "155."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 85,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os estudantes 1, 2 e 3 concorreram a um mesmo cargo da diretoria do grêmio de uma faculdade da UNESP, sendo que 1 obteve 6,25% do total de votos que os três receberam para esse cargo. Na figura, a área de cada um dos três retângulos representa a porcentagem de votos obtidos pelo candidato correspondente. Juntos, os retângulos compõem um quadrado, cuja área representa o total dos votos recebidos pelos três candidatos.\n\n![Quadrado formado por três retângulos: candidato 1, de 4,5 cm de largura e 2 cm de altura, no canto superior esquerdo; candidato 3, abaixo dele; candidato 2, ocupando o restante à direita](fig:p31-f2)\n\nDo total de votos recebidos pelos três candidatos, o candidato 2 obteve",
+      "alternativas": {
+        "A": "61,75%.",
+        "B": "62,75%.",
+        "C": "62,50%.",
+        "D": "62,00%.",
+        "E": "62,25%."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 86,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Dois dos materiais mais utilizados para fazer pistas de rodagem de veículos são o concreto e o asfalto. Uma pista nova de concreto reflete mais os raios solares do que uma pista nova de asfalto; porém, com os anos de uso, ambas tendem a refletir a mesma porcentagem de raios solares, conforme mostram os segmentos de retas nos gráficos.\n\n![Gráfico da reflexão solar (%) em função dos anos: a pista de concreto vai de 35 a 25 em 6 anos e a pista de asfalto vai de 10 a 16 em 6 anos](fig:p32-f1)\n\n(www.epa.gov. Adaptado.)\n\nMantidas as relações lineares expressas nos gráficos ao longo dos anos de uso, duas pistas novas, uma de concreto e outra de asfalto, atingirão pela primeira vez a mesma porcentagem de reflexão dos raios solares após",
+      "alternativas": {
+        "A": "8,225 anos.",
+        "B": "9,375 anos.",
+        "C": "10,025 anos.",
+        "D": "10,175 anos.",
+        "E": "9,625 anos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 87,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A sequência de figuras, desenhadas em uma malha quadriculada, indica as três primeiras etapas de formação de um fractal. Cada quadradinho dessa malha tem área de 1 cm².\n\n![Figuras 1, 2 e 3 de um fractal em malha quadriculada: um quadrado, depois cinco quadrados em formato de X, depois a repetição do padrão em cada quadrado; seguem reticências](fig:p32-c1)\n\nDado que as áreas das figuras, seguindo o padrão descrito por esse fractal, formam uma progressão geométrica, a área da figura 5, em cm², será igual a",
+      "alternativas": {
+        "A": "$\\frac{625}{81}$",
+        "B": "$\\frac{640}{81}$",
+        "C": "$\\frac{125}{27}$",
+        "D": "$\\frac{605}{81}$",
+        "E": "$\\frac{215}{27}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 88,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os pontos P e Q(3, 3) pertencem a uma circunferência centrada na origem do plano cartesiano. P também é ponto de intersecção da circunferência com o eixo $y$.\n\n![Circunferência centrada na origem com os pontos P, no eixo y, e Q(3, 3), e o gráfico de y = raiz de x; uma reta tracejada horizontal parte de P para a direita](fig:p33-c12)\n\nConsidere o ponto R, do gráfico de $y = \\sqrt{x}$, que possui ordenada $y$ igual à do ponto P. A abscissa $x$ de R é igual a",
+      "alternativas": {
+        "A": "9.",
+        "B": "16.",
+        "C": "15.",
+        "D": "12.",
+        "E": "18."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 89,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura indica os gráficos das funções I, II e III. Os pontos A($72^\\circ$, 0,309), B($x_B$, –0,309) e C($x_C$, 0,309) são alguns dos pontos de intersecção dos gráficos.\n\n![Gráficos de y = cos x (função I), y = 0,309 (função II) e y = –0,309 (função III), com os pontos A, B e C e as abscissas x_A = 72°, x_B e x_C](fig:p33-c1)\n\nNas condições dadas, $x_B + x_C$ é igual a",
+      "alternativas": {
+        "A": "$538^\\circ$",
+        "B": "$488^\\circ$",
+        "C": "$540^\\circ$",
+        "D": "$432^\\circ$",
+        "E": "$460^\\circ$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 90,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Renata escolhe aleatoriamente um número real de –4 a 2 e diferente de zero, denotando-o por $x$. Na reta real, o intervalo numérico que necessariamente contém o número $\\frac{2-x}{x}$ é",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p33-c7)",
+        "B": "![Alternativa B](fig:p33-c8)",
+        "C": "![Alternativa C](fig:p33-c9)",
+        "D": "![Alternativa D](fig:p33-c10)",
+        "E": "![Alternativa E](fig:p33-c11)"
+      },
+      "observacoes": ""
     }
   ]
 }

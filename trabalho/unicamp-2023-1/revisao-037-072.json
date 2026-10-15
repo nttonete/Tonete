@@ -148,6 +148,106 @@
   "47": {
    "assunto": "Estatística",
    "resolucao": "Leia o radar (cada anel vale 5): Romance 35 em 2020 e 20 em 2021; Ficção 25 e 35; Infantil 30 e 30; Tecnologia 10 e 20 (como o enunciado confirma); Biografias 30 e 30.\n\nSomando os dois anos: Infantil $30 + 30 = 60$ e Biografias $30 + 30 = 60$, a mesma quantidade.\n\nAs outras falham: Biografias empata com Ficção e Infantil (60) e vendeu o dobro, não o triplo, de Tecnologia (30) (A); Tecnologia também cresceu, e Infantil ficou igual (B); Romance caiu de 35 para 20 (C).\n\n**Resposta: D**"
+  },
+  "48": {
+   "assunto": "Progressões",
+   "resolucao": "Seja $r$ a razão comum: $b = a + r$ e $c = a + 2r$, com $r \\neq 0$, pois os números são distintos.\n\nNa segunda PA: $bc - ab = b(c - a) = b \\cdot 2r = r \\Rightarrow b = \\frac{1}{2}$.\nE também: $ca - bc = c(a - b) = c \\cdot (-r) = r \\Rightarrow c = -1$.\n\nEntão $r = c - b = -\\frac{3}{2}$ e $a = b - r = 2$. Conferindo: $2, \\frac12, -1$ e $1, -\\frac12, -2$ são PAs de razão $-\\frac32$.\n\n$abc = 2 \\cdot \\frac{1}{2} \\cdot (-1) = -1$.\n\n**Resposta: C**"
+  },
+  "49": {
+   "assunto": "Funções",
+   "resolucao": "Fatore 2023: $2023 = 7 \\cdot 289 = 7 \\cdot 17^2$.\n\nAplicando a propriedade $f(x \\cdot y) = f(x) + f(y)$ duas vezes:\n$f(2023) = f(7) + f(17 \\cdot 17) = f(7) + f(17) + f(17) = 2 + 3 + 3 = 8$.\n\nÉ a mesma propriedade dos logaritmos, mas não é preciso saber qual é a função para resolver.\n\n**Resposta: B**"
+  },
+  "50": {
+   "assunto": "Geometria espacial",
+   "resolucao": "Como nenhuma água se perde, o quanto a água sobe corresponde exatamente ao volume da esfera. O cilindro tem raio $2R$, então uma subida $\\Delta h$ ocupa o volume $\\pi (2R)^2 \\Delta h = 4\\pi R^2 \\Delta h$.\n\n$4\\pi R^2 \\Delta h = \\frac{4}{3}\\pi R^3 \\Rightarrow \\Delta h = \\frac{R}{3}$.\n\n**Resposta: C**"
+  },
+  "51": {
+   "assunto": "Funções",
+   "resolucao": "Para achar a inversa, troque $x$ por $y$ e isole $y$:\n$x = \\frac{y+1}{y-1} \\Rightarrow xy - x = y + 1 \\Rightarrow y(x - 1) = x + 1 \\Rightarrow y = \\frac{x+1}{x-1}$.\n\nA inversa tem a mesma fórmula de $f$: $f^{-1}(x) = f(x)$, para $x \\neq 1$. Conferindo com um número: $f(2) = 3$ e $f(3) = \\frac{4}{2} = 2$.\n\n**Resposta: A**"
+  },
+  "52": {
+   "assunto": "Funções",
+   "resolucao": "Como $f^{-1} = f$ (questão anterior), aplicar $f$ duas vezes devolve o número inicial: $f(f(x)) = x$. A sequência só alterna dois valores:\n$x_1 = 6$, $x_2 = \\frac{7}{5}$, $x_3 = f\\left(\\frac{7}{5}\\right) = \\frac{12/5}{2/5} = 6$, $x_4 = \\frac{7}{5}$, e assim por diante.\n\nOs 100 primeiros termos formam 50 pares de soma $6 + \\frac{7}{5} = \\frac{37}{5}$:\n$S = 50 \\cdot \\frac{37}{5} = 370$.\n\n**Resposta: B**"
+  },
+  "53": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Um sistema $2 \\times 2$ tem infinitas soluções quando o determinante é zero e as equações são proporcionais, inclusive nos termos independentes.\n\nDeterminante: $a \\cdot a - (-1)(4 - 5a^2) = 4 - 4a^2 = 0 \\Rightarrow a = \\pm 1$.\n\n- $a = 1$: $x - y = 1$ e $-x + y = 1$ (isto é, $x - y = -1$). Equações contraditórias: nenhuma solução.\n- $a = -1$: $-x - y = 1$ e $-x - y = 1$. É a mesma equação: infinitas soluções.\n\n**Resposta: C**"
+  },
+  "54": {
+   "assunto": "Geometria plana",
+   "resolucao": "Num triângulo retângulo, o ponto médio da hipotenusa fica à mesma distância dos três vértices: $MA = MB = MC = 5$.\n\nNo triângulo isósceles $AMC$ ($MA = MC = 5$ e $AC = 6$), a lei dos cossenos dá:\n$6^2 = 5^2 + 5^2 - 2 \\cdot 5 \\cdot 5 \\cos(A\\hat{M}C) \\Rightarrow \\cos(A\\hat{M}C) = \\frac{14}{50} = \\frac{7}{25}$.\n\nComo $\\alpha = 180^\\circ - A\\hat{M}C$, os senos são iguais: $\\text{sen}\\,\\alpha = \\sqrt{1 - \\left(\\frac{7}{25}\\right)^2} = \\frac{24}{25}$.\n\nOutro caminho: $BC = 8$, e a área de $AMC$ é metade da de $ABC$: $\\frac{1}{2} \\cdot \\frac{6 \\cdot 8}{2} = 12 = \\frac{1}{2} \\cdot 5 \\cdot 5 \\cdot \\text{sen}\\,\\alpha$.\n\n**Resposta: A**"
+  },
+  "55": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "João compra as cartelas que têm os algarismos 2 e 5 ao mesmo tempo. A 2000 não tem 5, então contam só as de 0001 a 1999: primeiro algarismo 0 ou 1, e os três últimos precisam conter o 2 e o 5.\n\nTrincas de algarismos com 2 e 5: $1000 - 9^3 - 9^3 + 8^3 = 1000 - 729 - 729 + 512 = 54$. Total: $2 \\cdot 54 = 108$. **I é verdadeira.**\n\nII: com 1 e 5, as cartelas que começam com 1 já têm o 1 e só precisam de um 5 nas três últimas casas: $1000 - 729 = 271$; as que começam com 0 dão mais 54. São 325, mais que 108. **II é falsa.**\n\nIII: com 2, 5 e 3, as três últimas casas são uma permutação de 2, 3 e 5: $3! = 6$, vezes 2 para o primeiro algarismo, o que dá 12, não 18. **III é falsa.**\n\n**Resposta: B**"
+  },
+  "56": {
+   "assunto": "Geometria analítica",
+   "resolucao": "A parábola corta o eixo $x$ em $-2$ e $1$ e passa por $(0, 2)$: $y = k(x + 2)(x - 1)$, com $-2k = 2 \\Rightarrow k = -1$. Então $y = -x^2 - x + 2$.\n\nA reta passa por $(-1, 0)$ e $(0, 2)$: $y = 2x + 2$.\n\nInterseção: $-x^2 - x + 2 = 2x + 2 \\Rightarrow x^2 + 3x = 0 \\Rightarrow x = 0$ ou $x = -3$. O ponto $(0, 2)$ é o outro cruzamento; $P$ é o de $x = -3$, com $b = 2 \\cdot (-3) + 2 = -4$.\n\n$a + b = -3 + (-4) = -7$.\n\n**Resposta: B**"
+  },
+  "57": {
+   "assunto": "Colonização da América",
+   "resolucao": "A gravura é uma alegoria: a América aparece como uma mulher indígena nua numa rede, e o navegador europeu, com estandarte com cruz e astrolábio, a \"descobre\". O texto lembra que essas imagens eram feitas por quem nunca tinha pisado no Novo Mundo: os artistas juntavam os relatos escritos dos viajantes à tradição visual europeia, que costumava representar os continentes como figuras femininas.\n\nA erra ao dizer que o continente foi simbolizado por Vespúcio. B chama de medieval uma obra do século XVI e trata a rede, objeto indígena, como artefato europeu. D erra porque a indígena não aparece armada nem como opositora.\n\n**Resposta: C**"
+  },
+  "58": {
+   "assunto": "Brasil Colônia",
+   "resolucao": "A crônica descreve várias \"cidades e povoações\": o Macaco, capital com mais de 1500 casas, e Sirbupira, com mais de oitocentas, todas fortificadas com paliçadas, estrepes e buracos. Há um rei, Ganga Zumba (\"Senhor Grande\"), obedecido por todos, e um irmão dele governando outra cidade. Isso mostra Palmares como uma **rede de povoações fortificadas** unidas por uma chefia política de inspiração africana.\n\nAs outras inventam origens que o texto não sustenta: Palmares não ocupou vilas portuguesas abandonadas (A) nem estruturas erguidas por Nassau (C), e nada no texto indica que a população fosse majoritariamente crioula e inspirada em redes urbanas europeias (D).\n\n**Resposta: B**"
+  },
+  "59": {
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "Para Lynn Hunt, ler romances epistolares fazia o leitor se identificar com personagens de outras condições sociais, como as protagonistas de Richardson e Rousseau: nascia a **empatia**, a percepção de que todos têm uma vida interior semelhante. Esse sentimento, somado à rejeição da tortura, sustentou a ideia de direitos iguais e universais proclamada no fim do século XVIII.\n\nB inventa \"romances policiais\" e uma defesa da tortura pelo Terceiro Estado. C atribui a crítica à tortura a uma \"concepção cristã de corpo\", quando o texto fala de uma nova visão do corpo, ligada ao indivíduo. D diz o contrário da Declaração, que não defendia um cidadão indiferente à violência.\n\n**Resposta: A**"
+  },
+  "60": {
+   "assunto": "Brasil Império",
+   "resolucao": "As duas telas, ligadas à Academia Imperial de Belas Artes e a projetos oficiais de memória, dão ao Brasil uma narrativa de origem: a primeira missa, que marca o nascimento cristão da terra, e o grito do Ipiranga, que marca a nação independente. No século XIX, a pintura histórica funcionava como **política de memória**: ensinava aos cidadãos as origens da nação e criava símbolos de identidade.\n\nA erra ao dizer que as telas valorizam a Europa e a \"história global\", pois o foco é a nação. B atribui a visão de passado aos trabalhadores retratados, quando ela era a das elites. C fala em identidades \"coloniais\" e em valorização da diversidade e da igualdade, ideias alheias a essas obras.\n\n**Resposta: D**"
+  },
+  "61": {
+   "assunto": "Primeira República",
+   "resolucao": "A greve geral de 1917 começou no Cotonifício Crespi e se espalhou por São Paulo num quadro de carestia (preços em alta durante a Primeira Guerra), salários baixos, multas, jornadas longas, acidentes e exploração de crianças, sem leis que regulassem o trabalho. O próprio excerto cita jornadas extenuantes, acidentes e o trabalho de menores.\n\nAs outras são anacrônicas: a CLT é de 1943 (A); o governo de Venceslau Brás não criou igualdade salarial nem proibiu o trabalho infantil depois da greve (B); e o trabalho infantil não era ilegal em 1917, pois as primeiras regras vieram com o Código de Menores, de 1927, e depois com as leis da Era Vargas (D).\n\n**Resposta: C**"
+  },
+  "62": {
+   "assunto": "Ditadura militar",
+   "resolucao": "O Movimento do Custo de Vida nasceu em clubes de mães e comunidades ligadas à Igreja na periferia de São Paulo e protestava contra a **carestia**: preços em alta e salários comprimidos pela política econômica da ditadura (arrocho salarial e inflação). A letra citada fala justamente de fome, de salário baixo e de \"carestia\".\n\nB erra porque o movimento foi às ruas, com abaixo-assinados e atos públicos, como o da Praça da Sé em 1978. C erra porque ele nunca aderiu à luta armada. D erra porque as Comunidades Eclesiais de Base continuaram atuando nos anos 1980.\n\n**Resposta: A**"
+  },
+  "63": {
+   "assunto": "História da América",
+   "resolucao": "O texto trata de políticas de memória compartilhadas pelos países do Mercosul, ligadas a processos de verdade e justiça sobre crimes cometidos pelo Estado no passado. Isso remete às **ditaduras militares** que Argentina, Brasil, Paraguai e Uruguai viveram na segunda metade do século XX. Embora o bloco tenha nascido como acordo econômico, esse passado comum forma uma memória regional.\n\nB inverte a relação: a memória não pauta a agenda econômica. C inventa tribunais supranacionais do Mercosul, quando os julgamentos ocorrem em cada país. D reduz os lugares de memória a patrimônios edificados para \"pacificar o passado\", enquanto o texto fala em evocar memórias e torná-las inteligíveis.\n\n**Resposta: A**"
+  },
+  "64": {
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "O texto define o Antropoceno como a época em que a ação humana passou a alterar o planeta em escala global, com marco simbólico em 1784: máquina a vapor, início da Revolução Industrial e dos combustíveis fósseis. No século XX, sobretudo depois de 1945, a difusão do modo de vida e de consumo norte-americano (automóveis, energia barata, produção em massa) acelerou muito esses impactos.\n\nA erra porque os impactos cresceram nos séculos XX e XXI. B confunde Antropoceno (uma época marcada pela ação humana) com antropocentrismo (uma visão de mundo). C desloca o início para o século XVI e diz que as mudanças preocupam pouco a ciência, o oposto do que o texto mostra.\n\n**Resposta: D**"
+  },
+  "65": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O Texto A noticia o ataque a tiros numa escola primária de Uvalde, no Texas, com 14 crianças e uma professora mortas. O Texto B noticia que o Canadá planeja proibir a venda de pistolas e a posse de armas de assalto, e cita Trudeau: \"We need only look south of the border\" (\"basta olhar para o sul da fronteira\"), ou seja, para os Estados Unidos. O massacre de A é o exemplo que justifica a medida noticiada em B.\n\nB inverte a relação. C erra porque A não trata de mudança na lei. D erra porque o Canadá já tem um controle de armas \"already stringent\" (já rigoroso).\n\n**Resposta: A**"
+  },
+  "66": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "A narradora afirma que \"forgiveness too is a power\" (o perdão também é um poder): pedir perdão é poder, e conceder ou negar perdão também é, \"perhaps the greatest\" (talvez o maior). E conclui: \"Maybe it’s about who can do what to whom and be forgiven for it.\" A relação explicitada é entre **poder e perdão**.\n\nA distratora A usa \"temptation\", que aparece no texto, mas só como a tentação de achar que é preciso perdoar; o eixo do trecho é o poder do perdão. Feminismo e violência não são o tema explícito do trecho.\n\n**Resposta: C**"
+  },
+  "67": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O primeiro parágrafo define *audism*: uma atitude que gera estigma contra quem não ouve, comparável ao racismo e ao sexismo. Depois, \"Audism occurs when one:\" abre uma lista de **exemplos de atitudes ouvintistas**, como pedir que a pessoa surda leia lábios ou \"tone down\" (atenue) suas expressões faciais.\n\nA erra: o texto diz que o ouvintismo *reflete* a visão médica, e a lista é de atitudes ouvintistas, não de modos de evitá-lo. C erra porque a lista não traz ações recomendadas. D erra porque o texto critica, em vez de exaltar, o tempo gasto com leitura labial.\n\n**Resposta: B**"
+  },
+  "68": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O Texto 1 diz que os ativistas usam a arte de rua para \"reclaim their communities’ stolen narratives\" (recuperar as narrativas roubadas de suas comunidades) e que essa arte \"combats the virulent systems of oppression\" (combate os sistemas de opressão). É um estilo artístico que materializa a luta de grupos contra mecanismos que apagam suas vozes.\n\nA erra porque a arte de rua não nasceu na Califórnia: ela \"has spread to the Bay Area\" (chegou à região). B fala em união entre classes, mas o texto trata do conflito com moradores brancos de classe alta que deslocaram famílias pobres. C confunde \"street art\" com a defesa de pessoas em situação de rua.\n\n**Resposta: D**"
+  },
+  "69": {
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "Na foto, as letras ING de PARKING estão desbotadas e uma menina brinca num balanço pendurado na letra A. A palavra passa a ser lida como PARK: em vez de \"estacionamento\", evoca \"parque\", lugar de brincar. Há **exploração da polissemia** (i).\n\nIsso ilustra **uma prática** citada no Texto 1 pela artista Nancypili Hernandez: transformar \"locations that feel like a parking lot\" em espaços comunitários (ii).\n\nA distratora C atrai porque o sufixo -ing foi apagado, mas o efeito de sentido vem do duplo significado de *park*, e a foto não retrata a supremacia branca.\n\n**Resposta: B**"
+  },
+  "70": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O estudo de 2021 acompanhou 100 pessoas que tiveram casos leves de COVID-19 no início da pandemia. Mais de um ano depois, \"7% of those who had been infected still had total smell loss, or ‘anosmia’, at the end of the year\" (7% ainda tinham perda total do olfato ao fim do ano).\n\nA inverte a tendência: a chance de problemas de olfato caiu de uma variante para outra (50%, 44%, 17%). B erra porque esteroides e plasma ainda estão em testes clínicos (\"undergoing clinical trials\"). D confunde os 500 milhões de casos confirmados com as \"tens of millions\" (dezenas de milhões) de pessoas que provavelmente têm problemas persistentes.\n\n**Resposta: C**"
+  },
+  "71": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Sojourner Truth retoma a fala de um homem segundo a qual as mulheres precisam ser ajudadas a subir em carruagens e ter o melhor lugar. Ela observa que ninguém faz isso por ela: trabalhou na roça como um homem, foi chicoteada e viu os filhos vendidos como escravos. Ao perguntar \"And ain’t I a woman?\", mostra que o tratamento dado às mulheres (brancas) não valia para ela, mulher negra e ex-escravizada. A pergunta problematiza essa **diferença de tratamento**.\n\nC é a distratora mais tentadora, porque o discurso foi feito num encontro sobre os direitos das mulheres, mas a pergunta repetida não opõe homens e mulheres: ela questiona quem era incluído na ideia de \"mulher\" usada pelo orador.\n\n**Resposta: B**"
+  },
+  "72": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Confira cada informação da fala no gráfico: (1) alguns meses com mais de 2 mil mortes por dia; (2) um pico de 3 mil \"last year\" (2021), o maior de todos; (3) queda contínua depois dele; (4) uma pequena alta em 2022 que quase chegou aos níveis do começo da pandemia.\n\nO gráfico A atende a tudo: passa de 2K entre março e julho de 2021, com pico perto de 3K, cai até o início de 2022 e sobe para perto de 1K, o patamar de meados de 2020.\n\nB nunca chega a 2 mil. C tem pico acima de 4 mil. D tem o pico em janeiro de 2021 e volta a passar de 2 mil no fim de 2021 e em 2022, sem a queda contínua.\n\n**Resposta: A**"
   }
  },
  "relatorio": [

@@ -18,7 +18,7 @@
   "t30-32": "O balonismo, um esporte aeronáutico com adeptos em todo o mundo, oferece um belo espetáculo para os observadores no solo. Um maçarico é usado para aquecer o ar no interior do balão, o que faz variar a densidade do ar, permitindo o controle do movimento de subida e descida do balão.",
   "t39-40": "A proteína verde fluorescente, do inglês *green fluorescence protein* (GFP) – observada pela primeira vez na água-viva (Aequorea victoria) –, tornou-se uma das ferramentas mais importantes usadas na biociência contemporânea. Evolutivamente, a distribuição filogenética dos genes homólogos de GFP foi encontrada apenas nos filos Cnidaria, Arthropoda e Chordata.\n\n(Adaptado de MACEL, Marie-Lyne et al. *Zoological Letters*, Londres. v. 6, p.2-11, 2020.)",
   "t51-52": "Uma transformação de Möbius é um quociente de polinômios de grau 1. Essas transformações são muito importantes em computação gráfica e também na área da engenharia conhecida como “processamento de sinais”.\n\nConsidere a função\n\n$$y = f(x) = \\frac{x+1}{x-1},$$\n\ndefinida para $x \\in \\mathbb{R}$, $x \\neq 1$, que é uma versão simplificada de uma transformação de Möbius.",
-  "t68-69": "**Texto 1**\n\nIn history, the rise of street art around the world has mirrored multiple waves of political unrest. The use of this avant-garde art style for political activism has spread to the Bay Area, California. As an influx of white upper-class residents displaced low-income households, the anger of local people fueled a movement to take back the streets via spray paint, video projections, stenciling — any street art medium. Bay Area activists are weaponizing street art to unite the masses and reclaim their communities’ stolen narratives, re-imagining better futures alongside comrades across the nation. Their freeing and colorful art combats the virulent systems of oppression that white supremacy has entrenched in our society, those same systems which mark their craft as illegal under the guise of vandalism. Street art democratizes public spaces and takes back the streets as effectively as physical protests. As a street artist, Nancypili Hernandez says that her art transforms “locations that feel like a parking lot or private property, to feeling like a collective community commons.”\n\n(Adaptado de: https://harvardpolitics.com/street-art-activism/. Acesso em 20/06/2022.)\n\n**Texto 2**\n\n![Fotografia de um muro branco ao lado de um estacionamento, com a palavra PARKING pintada em vermelho e as letras ING desbotadas; um desenho de uma criança em um balanço está pendurado na letra K](fig:p23-c1)\n\n(Disponível em: https://banksy.co.uk/out.html. Acesso em 07/07/2022.)"
+  "t68-69": "**Texto 1**\n\nIn history, the rise of street art around the world has mirrored multiple waves of political unrest. The use of this avant-garde art style for political activism has spread to the Bay Area, California. As an influx of white upper-class residents displaced low-income households, the anger of local people fueled a movement to take back the streets via spray paint, video projections, stenciling — any street art medium. Bay Area activists are weaponizing street art to unite the masses and reclaim their communities’ stolen narratives, re-imagining better futures alongside comrades across the nation. Their freeing and colorful art combats the virulent systems of oppression that white supremacy has entrenched in our society, those same systems which mark their craft as illegal under the guise of vandalism. Street art democratizes public spaces and takes back the streets as effectively as physical protests. As a street artist, Nancypili Hernandez says that her art transforms “locations that feel like a parking lot or private property, to feeling like a collective community commons.”\n\n(Adaptado de: https://harvardpolitics.com/street-art-activism/. Acesso em 20/06/2022.)\n\n**Texto 2**\n\n![Fotografia de um muro branco ao lado de um estacionamento, com a palavra PARKING pintada em vermelho, com as letras ING desbotadas; o desenho de uma menina em um balanço está pendurado na letra A](fig:p23-c1)\n\n(Disponível em: https://banksy.co.uk/out.html. Acesso em 07/07/2022.)"
  },
  "questoes": [
   {
@@ -734,7 +734,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O HPV é transmitido principalmente por contato sexual, pelo contato direto de pele e mucosas. A principal forma de prevenção é a vacina, que protege contra os tipos de maior risco, como o 16 e o 18, e funciona melhor quando aplicada antes do início da vida sexual, ou seja, antes da exposição ao vírus. Por isso ela é indicada para crianças e adolescentes.\n\nAs outras alternativas exageram: o preservativo reduz o risco, mas não elimina a infecção nem impede as doenças, porque o vírus pode estar em áreas de pele que ele não cobre (A e D). A vacina previne, mas não trata uma infecção já instalada (B).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q38",
@@ -751,7 +753,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Bioquímica",
+   "resolucao": "Na fase fotoquímica (fase clara) da fotossíntese, a luz excita a clorofila, que perde elétrons. Esses elétrons são repostos pela quebra da água (fotólise), que libera o $\\text{O}_2$: a **água** é o doador primário. Os elétrons percorrem a cadeia transportadora nas membranas dos tilacoides até o $\\text{NADP}^+$, que é reduzido a **NADPH**, o aceptor final.\n\nO ATP também é produzido na fase clara, mas por fosforilação, sem receber os elétrons da cadeia. O gás carbônico e a glicose pertencem à fase química (ciclo de Calvin), e o oxigênio é produto, não doador.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q39",
@@ -768,7 +772,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "Os genes homólogos da GFP aparecem em filos muito distantes entre si: Cnidaria (um grupo basal dos animais), Arthropoda (protostômios) e Chordata (deuterostômios). Por serem homólogos, o mais provável é que o gene já existisse num **ancestral comum dos metazoários** e tenha sido **perdido de forma independente** nas várias linhagens que hoje não o possuem.\n\nAs alternativas com \"ancestrais distintos\" (B e D) contradizem a ideia de homologia. As que falam em \"manutenção do gene em todos os metazoários marinhos\" (B e C) contradizem o texto, que diz que o gene só foi encontrado em três filos; muitos animais marinhos, como esponjas e moluscos, não o têm.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q40",
@@ -785,7 +791,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "Pela escala da figura, quanto mais escuro, maior a concentração de MRTFA-GFP. Em 0 min o núcleo está claro e o citoplasma acinzentado: a proteína está no citoplasma, onde foi traduzida pelos ribossomos. Com o tempo, o núcleo escurece e o citoplasma clareia (20 min), menos nos nucléolos, que continuam claros: a proteína migra para o núcleo, atravessando os complexos de poro nuclear.\n\nA e C estão erradas porque proteína não é \"transcrita\": a transcrição produz RNA. B erra duas vezes: a tradução não ocorre no núcleo, e o movimento é do citoplasma para o núcleo, não o contrário.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q41",
@@ -802,7 +810,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "O texto diz que cada gene tem duas cópias (dois alelos) e que a síndrome aparece quando **apenas uma** delas não funciona. A pessoa é, portanto, **heterozigota**: tem um alelo normal e um mutado, e por isso os cientistas tentam fazer a cópia funcional produzir mais proteína. A mutação é uma alteração na sequência de bases nitrogenadas do DNA, que muda a proteína traduzida.\n\nHomozigose (B e D) exigiria as duas cópias defeituosas. Cromátides (C e D) são as duas cópias idênticas de um cromossomo já duplicado, não os dois alelos do gene, e \"mutação da cromatina\" não descreve uma mutação gênica.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q42",
@@ -819,7 +829,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "Em cada nível, a energia assimilada se divide em manutenção (respiração) e produção líquida. Da produção líquida, uma parte passa ao nível seguinte (seta) e o resto vai para os decompositores.\n\n- Produtores: manutenção $1000 - 500 = 500$; para os decompositores, $500 - 200 = 300$.\n- Consumidor primário: manutenção $200 - 100 = 100$; para os decompositores, $100 - 60 = 40$.\n- Consumidor secundário: manutenção $60 - 20 = 40$; para os decompositores, $20 - 10 = 10$.\n- Consumidor terciário: manutenção $10 - 2 = 8$; para os decompositores, $2$.\n\nTotal para os decompositores: $300 + 40 + 10 + 2 = 352\\ \\text{kcal/m}^2\\text{/ano}$. As outras erram: a manutenção do consumidor primário é 100 (o 40 é a do secundário), a dos autotróficos é 500, e os carnívoros assimilam $60 + 10 = 70$.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q43",
@@ -836,7 +848,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "resolucao": "O Parkinson é uma doença neurodegenerativa: a alfa-sinucleína se agrega nos **neurônios** (i), sobretudo nos que produzem dopamina nos centros motores do encéfalo. A mucosa intestinal é revestida por tecido **epitelial** (ii), e algumas de suas células podem produzir essa proteína. A microbiota intestinal é formada principalmente por **bactérias** (iii), e a disbiose é o desequilíbrio entre as espécies dela. A proteína agregada no intestino pode subir pelos nervos até o encéfalo, que faz parte do **sistema nervoso central** (iv), onde ficam os centros motores citados no enunciado.\n\nLinfonodos são órgãos do sistema linfático, não o local da degeneração; o tecido conjuntivo não reveste a mucosa; e o sistema nervoso autônomo não contém os centros motores do cérebro.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q44",
@@ -853,7 +867,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Questões ambientais",
+   "resolucao": "Leia o mapa e associe cada bioma à mineração típica dele. Na **Amazônia**, o garimpo (101.051 ha) supera a mineração industrial (48.342 ha). O garimpo de ouro avança sobre unidades de conservação e terras indígenas e contamina rios como o Tapajós com mercúrio.\n\nAs outras falham: em A, o dado do mapa está certo (MI 29.157 > G 1.121 na Mata Atlântica), mas a maior bacia hidrográfica do país é a Amazônica, e o \"arco do desmatamento\" fica na borda da Amazônia. Em C, no Cerrado a mineração industrial (15.392 ha) supera o garimpo (5.117 ha). Em D, a Caatinga não se caracteriza pela exploração de níquel nem é banhada pelo rio Tocantins.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q45",
@@ -870,7 +886,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "A quantidade de álcool não muda; só entra água. Com 14 partes de álcool para 1 de água, os 30 L têm $\\frac{14}{15} \\cdot 30 = 28$ L de álcool e 2 L de água.\n\nPara que 28 L sejam 70% do total:\n$\\frac{28}{30 + x} = 0{,}7 \\Rightarrow 30 + x = 40 \\Rightarrow x = 10$ L.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q46",
@@ -887,7 +905,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Trigonometria",
+   "resolucao": "Simplifique cada função e procure valores fáceis de ver no gráfico.\n\n- $f(x) = \\text{sen}(x) + \\pi/4$: é a senoide deslocada cerca de $0{,}79$ para cima; $f(0) \\approx 0{,}79$ e o máximo é $\\approx 1{,}79$. Gráfico (iii).\n- $g(x)$: como $\\cos\\theta - \\text{sen}\\,\\theta = \\sqrt{2}\\cos(\\theta + \\pi/4)$, com $\\theta = x + \\pi/4$ vem $g(x) = \\sqrt{2}\\cos(x + \\pi/2) = -\\sqrt{2}\\,\\text{sen}(x)$. Passa pela origem descendo, com amplitude $\\approx 1{,}41$. Gráfico (ii).\n- $h(x) = \\text{sen}(x - \\pi/4)$: amplitude 1, $h(0) \\approx -0{,}71$ e zero em $x \\approx 0{,}79$. Gráfico (i).\n- $p(x) = \\cos x + \\text{sen}\\,x = \\sqrt{2}\\,\\text{sen}(x + \\pi/4)$: $p(0) = 1$ e máximo $\\approx 1{,}41$ em $x \\approx 0{,}79$. Gráfico (iv).\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q47",
@@ -904,7 +924,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Estatística",
+   "resolucao": "Leia o radar (cada anel vale 5): Romance 35 em 2020 e 20 em 2021; Ficção 25 e 35; Infantil 30 e 30; Tecnologia 10 e 20 (como o enunciado confirma); Biografias 30 e 30.\n\nSomando os dois anos: Infantil $30 + 30 = 60$ e Biografias $30 + 30 = 60$, a mesma quantidade.\n\nAs outras falham: Biografias empata com Ficção e Infantil (60) e vendeu o dobro, não o triplo, de Tecnologia (30) (A); Tecnologia também cresceu, e Infantil ficou igual (B); Romance caiu de 35 para 20 (C).\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q48",
@@ -921,7 +943,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Progressões",
+   "resolucao": "Seja $r$ a razão comum: $b = a + r$ e $c = a + 2r$, com $r \\neq 0$, pois os números são distintos.\n\nNa segunda PA: $bc - ab = b(c - a) = b \\cdot 2r = r \\Rightarrow b = \\frac{1}{2}$.\nE também: $ca - bc = c(a - b) = c \\cdot (-r) = r \\Rightarrow c = -1$.\n\nEntão $r = c - b = -\\frac{3}{2}$ e $a = b - r = 2$. Conferindo: $2, \\frac12, -1$ e $1, -\\frac12, -2$ são PAs de razão $-\\frac32$.\n\n$abc = 2 \\cdot \\frac{1}{2} \\cdot (-1) = -1$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q49",
@@ -938,7 +962,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Fatore 2023: $2023 = 7 \\cdot 289 = 7 \\cdot 17^2$.\n\nAplicando a propriedade $f(x \\cdot y) = f(x) + f(y)$ duas vezes:\n$f(2023) = f(7) + f(17 \\cdot 17) = f(7) + f(17) + f(17) = 2 + 3 + 3 = 8$.\n\nÉ a mesma propriedade dos logaritmos, mas não é preciso saber qual é a função para resolver.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q50",
@@ -955,7 +981,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "resolucao": "Como nenhuma água se perde, o quanto a água sobe corresponde exatamente ao volume da esfera. O cilindro tem raio $2R$, então uma subida $\\Delta h$ ocupa o volume $\\pi (2R)^2 \\Delta h = 4\\pi R^2 \\Delta h$.\n\n$4\\pi R^2 \\Delta h = \\frac{4}{3}\\pi R^3 \\Rightarrow \\Delta h = \\frac{R}{3}$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q51",
@@ -972,7 +1000,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Para achar a inversa, troque $x$ por $y$ e isole $y$:\n$x = \\frac{y+1}{y-1} \\Rightarrow xy - x = y + 1 \\Rightarrow y(x - 1) = x + 1 \\Rightarrow y = \\frac{x+1}{x-1}$.\n\nA inversa tem a mesma fórmula de $f$: $f^{-1}(x) = f(x)$, para $x \\neq 1$. Conferindo com um número: $f(2) = 3$ e $f(3) = \\frac{4}{2} = 2$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q52",
@@ -989,7 +1019,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Como $f^{-1} = f$ (questão anterior), aplicar $f$ duas vezes devolve o número inicial: $f(f(x)) = x$. A sequência só alterna dois valores:\n$x_1 = 6$, $x_2 = \\frac{7}{5}$, $x_3 = f\\left(\\frac{7}{5}\\right) = \\frac{12/5}{2/5} = 6$, $x_4 = \\frac{7}{5}$, e assim por diante.\n\nOs 100 primeiros termos formam 50 pares de soma $6 + \\frac{7}{5} = \\frac{37}{5}$:\n$S = 50 \\cdot \\frac{37}{5} = 370$.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q53",
@@ -1006,7 +1038,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Um sistema $2 \\times 2$ tem infinitas soluções quando o determinante é zero e as equações são proporcionais, inclusive nos termos independentes.\n\nDeterminante: $a \\cdot a - (-1)(4 - 5a^2) = 4 - 4a^2 = 0 \\Rightarrow a = \\pm 1$.\n\n- $a = 1$: $x - y = 1$ e $-x + y = 1$ (isto é, $x - y = -1$). Equações contraditórias: nenhuma solução.\n- $a = -1$: $-x - y = 1$ e $-x - y = 1$. É a mesma equação: infinitas soluções.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q54",
@@ -1023,7 +1057,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "Num triângulo retângulo, o ponto médio da hipotenusa fica à mesma distância dos três vértices: $MA = MB = MC = 5$.\n\nNo triângulo isósceles $AMC$ ($MA = MC = 5$ e $AC = 6$), a lei dos cossenos dá:\n$6^2 = 5^2 + 5^2 - 2 \\cdot 5 \\cdot 5 \\cos(A\\hat{M}C) \\Rightarrow \\cos(A\\hat{M}C) = \\frac{14}{50} = \\frac{7}{25}$.\n\nComo $\\alpha = 180^\\circ - A\\hat{M}C$, os senos são iguais: $\\text{sen}\\,\\alpha = \\sqrt{1 - \\left(\\frac{7}{25}\\right)^2} = \\frac{24}{25}$.\n\nOutro caminho: $BC = 8$, e a área de $AMC$ é metade da de $ABC$: $\\frac{1}{2} \\cdot \\frac{6 \\cdot 8}{2} = 12 = \\frac{1}{2} \\cdot 5 \\cdot 5 \\cdot \\text{sen}\\,\\alpha$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q55",
@@ -1040,7 +1076,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "João compra as cartelas que têm os algarismos 2 e 5 ao mesmo tempo. A 2000 não tem 5, então contam só as de 0001 a 1999: primeiro algarismo 0 ou 1, e os três últimos precisam conter o 2 e o 5.\n\nTrincas de algarismos com 2 e 5: $1000 - 9^3 - 9^3 + 8^3 = 1000 - 729 - 729 + 512 = 54$. Total: $2 \\cdot 54 = 108$. **I é verdadeira.**\n\nII: com 1 e 5, as cartelas que começam com 1 já têm o 1 e só precisam de um 5 nas três últimas casas: $1000 - 729 = 271$; as que começam com 0 dão mais 54. São 325, mais que 108. **II é falsa.**\n\nIII: com 2, 5 e 3, as três últimas casas são uma permutação de 2, 3 e 5: $3! = 6$, vezes 2 para o primeiro algarismo, o que dá 12, não 18. **III é falsa.**\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q56",
@@ -1057,7 +1095,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Geometria analítica",
+   "resolucao": "A parábola corta o eixo $x$ em $-2$ e $1$ e passa por $(0, 2)$: $y = k(x + 2)(x - 1)$, com $-2k = 2 \\Rightarrow k = -1$. Então $y = -x^2 - x + 2$.\n\nA reta passa por $(-1, 0)$ e $(0, 2)$: $y = 2x + 2$.\n\nInterseção: $-x^2 - x + 2 = 2x + 2 \\Rightarrow x^2 + 3x = 0 \\Rightarrow x = 0$ ou $x = -3$. O ponto $(0, 2)$ é o outro cruzamento; $P$ é o de $x = -3$, com $b = 2 \\cdot (-3) + 2 = -4$.\n\n$a + b = -3 + (-4) = -7$.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q57",
@@ -1065,7 +1105,7 @@
    "materia": "historia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Gravura de Jan van der Straet em que um homem de armadura, com uma bandeira e um astrolábio, está diante de uma mulher nua deitada em uma rede, em meio a uma paisagem com árvores, animais e navios](fig:p19-f1)\n\n(*Vespúcio descobre a América.* Gravura de Jan van der Straet, cerca de 1540.)\n\nAs gravuras eram um importante e significativo meio de comunicação nas sociedades europeias. Os ecos do Novo Mundo chegavam à Europa rapidamente pelas mãos daqueles que nunca tinham pisado no continente recém-descoberto.\n\n(Adaptado de TATSCH, Flavia Galli. A construção visual da América em gravuras: códigos de Percepção e suas transformações. In: *III Encontro Nacional de Estudos da Imagem*, 03 a 06 de maio de 2011, Londrina – PR.)\n\nA partir da leitura da imagem e do texto acima – que versam, ambos, sobre a construção visual, em gravuras, da América do início da Era Moderna –, é correto afirmar que",
+   "enunciado": "![Gravura de Jan van der Straet: à esquerda, um homem em pé, de manto longo, segura um estandarte com uma cruz e um astrolábio diante de uma mulher nua que se ergue de uma rede presa às árvores; ao fundo, navios, animais e pessoas em volta de uma fogueira](fig:p19-c1)\n\n(*Vespúcio descobre a América.* Gravura de Jan van der Straet, cerca de 1540.)\n\nAs gravuras eram um importante e significativo meio de comunicação nas sociedades europeias. Os ecos do Novo Mundo chegavam à Europa rapidamente pelas mãos daqueles que nunca tinham pisado no continente recém-descoberto.\n\n(Adaptado de TATSCH, Flavia Galli. A construção visual da América em gravuras: códigos de Percepção e suas transformações. In: *III Encontro Nacional de Estudos da Imagem*, 03 a 06 de maio de 2011, Londrina – PR.)\n\nA partir da leitura da imagem e do texto acima – que versam, ambos, sobre a construção visual, em gravuras, da América do início da Era Moderna –, é correto afirmar que",
    "alternativas": {
     "A": "a gravura traz elementos greco-romanos para representar a descoberta do Novo Mundo. Nela, o continente foi simbolizado pela paisagem típica da América e pela presença de Américo Vespúcio.",
     "B": "o código visual da gravura, produzido em um contexto medieval, traz o encontro de Américo Vespúcio com as terras americanas, representado pelos artefatos europeus, como, por exemplo, a rede.",
@@ -1074,7 +1114,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Colonização da América",
+   "resolucao": "A gravura é uma alegoria: a América aparece como uma mulher indígena nua numa rede, e o navegador europeu, com estandarte com cruz e astrolábio, a \"descobre\". O texto lembra que essas imagens eram feitas por quem nunca tinha pisado no Novo Mundo: os artistas juntavam os relatos escritos dos viajantes à tradição visual europeia, que costumava representar os continentes como figuras femininas.\n\nA erra ao dizer que o continente foi simbolizado por Vespúcio. B chama de medieval uma obra do século XVI e trata a rede, objeto indígena, como artefato europeu. D erra porque a indígena não aparece armada nem como opositora.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-1-q58",
@@ -1091,7 +1133,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Brasil Colônia",
+   "resolucao": "A crônica descreve várias \"cidades e povoações\": o Macaco, capital com mais de 1500 casas, e Sirbupira, com mais de oitocentas, todas fortificadas com paliçadas, estrepes e buracos. Há um rei, Ganga Zumba (\"Senhor Grande\"), obedecido por todos, e um irmão dele governando outra cidade. Isso mostra Palmares como uma **rede de povoações fortificadas** unidas por uma chefia política de inspiração africana.\n\nAs outras inventam origens que o texto não sustenta: Palmares não ocupou vilas portuguesas abandonadas (A) nem estruturas erguidas por Nassau (C), e nada no texto indica que a população fosse majoritariamente crioula e inspirada em redes urbanas europeias (D).\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q59",
@@ -1108,7 +1152,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "Para Lynn Hunt, ler romances epistolares fazia o leitor se identificar com personagens de outras condições sociais, como as protagonistas de Richardson e Rousseau: nascia a **empatia**, a percepção de que todos têm uma vida interior semelhante. Esse sentimento, somado à rejeição da tortura, sustentou a ideia de direitos iguais e universais proclamada no fim do século XVIII.\n\nB inventa \"romances policiais\" e uma defesa da tortura pelo Terceiro Estado. C atribui a crítica à tortura a uma \"concepção cristã de corpo\", quando o texto fala de uma nova visão do corpo, ligada ao indivíduo. D diz o contrário da Declaração, que não defendia um cidadão indiferente à violência.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q60",
@@ -1116,7 +1162,7 @@
    "materia": "historia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Observe abaixo duas pinturas históricas oitocentistas que se tornaram cânones visuais da História do Brasil, e que são acionadas, por exemplo, nas comemorações do Bicentenário da Independência.\n\n![Pintura Primeira Missa do Brasil, de Victor Meirelles, 1861: um padre celebra a missa diante de uma grande cruz de madeira, cercado por portugueses e indígenas](fig:p20-f1)\n\n(*Primeira Missa do Brasil*, Victor Meirelles, 1861.)\n\n![Pintura Independência ou Morte, de Pedro Américo, 1888: cavaleiros uniformizados, com espadas erguidas, em uma estrada de terra](fig:p20-f2)\n\n(*Independência ou Morte*, Pedro Américo, 1888.)\n\nA partir de seus conhecimentos, assinale a alternativa correta a respeito da produção do passado histórico.",
+   "enunciado": "Observe abaixo duas pinturas históricas oitocentistas que se tornaram cânones visuais da História do Brasil, e que são acionadas, por exemplo, nas comemorações do Bicentenário da Independência.\n\n![Pintura Primeira Missa do Brasil, de Victor Meirelles, 1861: um padre celebra a missa diante de uma grande cruz de madeira, cercado por portugueses e indígenas](fig:p20-c1)\n\n(*Primeira Missa do Brasil*, Victor Meirelles, 1861.)\n\n![Pintura Independência ou Morte, de Pedro Américo, 1888: cavaleiros uniformizados, alguns com espadas erguidas, em uma estrada de terra; à esquerda, um homem a pé conduz um carro de bois](fig:p20-f2)\n\n(*Independência ou Morte*, Pedro Américo, 1888.)\n\nA partir de seus conhecimentos, assinale a alternativa correta a respeito da produção do passado histórico.",
    "alternativas": {
     "A": "As duas telas encenam dois fatos históricos fundamentais da memória nacional: o descobrimento do Brasil e a fundação da nação independente. Inseridas no panteão histórico nacional, elas valorizam a história global e a Europa.",
     "B": "Prática do ideário nacionalista oitocentista, a celebração, na pintura histórica, dos fatos nacionais estava associada à produção – do ponto de vista dos trabalhadores retratados na tela – de uma visão de passado da nação.",
@@ -1125,7 +1171,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Brasil Império",
+   "resolucao": "As duas telas, ligadas à Academia Imperial de Belas Artes e a projetos oficiais de memória, dão ao Brasil uma narrativa de origem: a primeira missa, que marca o nascimento cristão da terra, e o grito do Ipiranga, que marca a nação independente. No século XIX, a pintura histórica funcionava como **política de memória**: ensinava aos cidadãos as origens da nação e criava símbolos de identidade.\n\nA erra ao dizer que as telas valorizam a Europa e a \"história global\", pois o foco é a nação. B atribui a visão de passado aos trabalhadores retratados, quando ela era a das elites. C fala em identidades \"coloniais\" e em valorização da diversidade e da igualdade, ideias alheias a essas obras.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-1-q61",
@@ -1133,7 +1181,7 @@
    "materia": "historia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Na Greve de 1917 em São Paulo, os conflitos propagaram-se a partir do Cotonifício* Crespi, com cerca de 2 mil trabalhadores; em pouco tempo, congregaram 50 mil pessoas numa cidade de 400 mil habitantes. Entre sociedades de classes, as quais eram combativas, políticas e de identidade étnica, havia sido organizado em março daquele ano, pouco antes da eclosão da greve, o Comitê Popular de Agitação contra a exploração das crianças. Por meio de enquetes, reuniões e palestras, o Comitê procurava revelar as relações de trabalho a que os menores estavam sujeitos: jornadas extenuantes e graves acidentes. Nas notícias de jornais, era comum encontrar casos como o de José, de 12 anos, que teve o braço esmagado por uma máquina amassadeira da fábrica de biscoitos “A Fidelidade”, e Henrique Guido, de 8 anos, que teve os dedos decepados numa oficina da Barra Funda.\n\n(Adaptado de FRACCARO, Glaucia. Mulheres, sindicato e organização política nas greves de 1917 em São Paulo. *Revista Brasileira de História*, São Paulo, v. 37, n. 76, p. 76-77, 2017.)\n\n***Cotonifício:** algodoaria.\n\nCom base no excerto e em seus conhecimentos sobre a história do trabalho no Brasil, é correto afirmar que",
+   "enunciado": "Na Greve de 1917 em São Paulo, os conflitos propagaram-se a partir do Cotonifício\\* Crespi, com cerca de 2 mil trabalhadores; em pouco tempo, congregaram 50 mil pessoas numa cidade de 400 mil habitantes. Entre sociedades de classes, as quais eram combativas, políticas e de identidade étnica, havia sido organizado em março daquele ano, pouco antes da eclosão da greve, o Comitê Popular de Agitação contra a exploração das crianças. Por meio de enquetes, reuniões e palestras, o Comitê procurava revelar as relações de trabalho a que os menores estavam sujeitos: jornadas extenuantes e graves acidentes. Nas notícias de jornais, era comum encontrar casos como o de José, de 12 anos, que teve o braço esmagado por uma máquina amassadeira da fábrica de biscoitos “A Fidelidade”, e Henrique Guido, de 8 anos, que teve os dedos decepados numa oficina da Barra Funda.\n\n(Adaptado de FRACCARO, Glaucia. Mulheres, sindicato e organização política nas greves de 1917 em São Paulo. *Revista Brasileira de História*, São Paulo, v. 37, n. 76, p. 76-77, 2017.)\n\n**\\*Cotonifício:** algodoaria.\n\nCom base no excerto e em seus conhecimentos sobre a história do trabalho no Brasil, é correto afirmar que",
    "alternativas": {
     "A": "as mobilizações da greve de 1917 tinham por objetivo implementar a Consolidação das Leis Trabalhistas (CLT), base legal da igualdade salarial entre homens, mulheres e crianças, reconhecida nos anos de 1990.",
     "B": "em resposta à greve de 1917, o presidente Venceslau Brás institui, no ano seguinte, para a indústria brasileira, a igualdade de salário entre homens e mulheres e torna ilegal o trabalho infantil no setor têxtil de todo o país.",
@@ -1142,7 +1190,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Primeira República",
+   "resolucao": "A greve geral de 1917 começou no Cotonifício Crespi e se espalhou por São Paulo num quadro de carestia (preços em alta durante a Primeira Guerra), salários baixos, multas, jornadas longas, acidentes e exploração de crianças, sem leis que regulassem o trabalho. O próprio excerto cita jornadas extenuantes, acidentes e o trabalho de menores.\n\nAs outras são anacrônicas: a CLT é de 1943 (A); o governo de Venceslau Brás não criou igualdade salarial nem proibiu o trabalho infantil depois da greve (B); e o trabalho infantil não era ilegal em 1917, pois as primeiras regras vieram com o Código de Menores, de 1927, e depois com as leis da Era Vargas (D).\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-1-q62",
@@ -1159,7 +1209,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Ditadura militar",
+   "resolucao": "O Movimento do Custo de Vida nasceu em clubes de mães e comunidades ligadas à Igreja na periferia de São Paulo e protestava contra a **carestia**: preços em alta e salários comprimidos pela política econômica da ditadura (arrocho salarial e inflação). A letra citada fala justamente de fome, de salário baixo e de \"carestia\".\n\nB erra porque o movimento foi às ruas, com abaixo-assinados e atos públicos, como o da Praça da Sé em 1978. C erra porque ele nunca aderiu à luta armada. D erra porque as Comunidades Eclesiais de Base continuaram atuando nos anos 1980.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q63",
@@ -1176,7 +1228,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "História da América",
+   "resolucao": "O texto trata de políticas de memória compartilhadas pelos países do Mercosul, ligadas a processos de verdade e justiça sobre crimes cometidos pelo Estado no passado. Isso remete às **ditaduras militares** que Argentina, Brasil, Paraguai e Uruguai viveram na segunda metade do século XX. Embora o bloco tenha nascido como acordo econômico, esse passado comum forma uma memória regional.\n\nB inverte a relação: a memória não pauta a agenda econômica. C inventa tribunais supranacionais do Mercosul, quando os julgamentos ocorrem em cada país. D reduz os lugares de memória a patrimônios edificados para \"pacificar o passado\", enquanto o texto fala em evocar memórias e torná-las inteligíveis.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q64",
@@ -1186,7 +1240,7 @@
     "geografia"
    ],
    "texto_base": null,
-   "enunciado": "A palavra Antropoceno aparece hoje no título de centenas de livros e artigos científicos, em milhares de citações, e seu uso continua a crescer nos meios de comunicação. Referindo-se à época em que as ações humanas começaram a provocar alterações biofísicas em escala planetária, o termo foi criado nos anos de 1980 e popularizado na década de 2000. Grupos de especialistas constataram que essas alterações afetavam o Sistema Terra do relativo equilíbrio observado desde o início do Holoceno, há 11.700 anos. Para marcar o início dessa nova era, tais grupos escolheram simbolicamente o ano de 1784, momento do aperfeiçoamento da máquina a vapor e sua popularização. O contexto também corresponde ao início da revolução industrial e da utilização dos combustíveis fósseis.\n\n(Adaptado de LÉNA, Philippe; ISSBERNER, Liz-Rejane. Antropoceno: os desafios essenciais de um debate científico. *Correio da Unesco*. Suplemento online. *Unesco Courrier*. 2018-2. Disponível em: https://pt.unesco.org/courier/2018-2/antropoceno-os-desafios-essenciais-um-debate-cientifico . Acesso em 03/05/2022.)\n\nCom base na leitura do texto acima e em seus conhecimentos, assinale a alternativa correta.",
+   "enunciado": "A palavra Antropoceno aparece hoje no título de centenas de livros e artigos científicos, em milhares de citações, e seu uso continua a crescer nos meios de comunicação. Referindo-se à época em que as ações humanas começaram a provocar alterações biofísicas em escala planetária, o termo foi criado nos anos de 1980 e popularizado na década de 2000. Grupos de especialistas constataram que essas alterações afetavam o Sistema Terra do relativo equilíbrio observado desde o início do Holoceno, há 11.700 anos. Para marcar o início dessa nova era, tais grupos escolheram simbolicamente o ano de 1784, momento do aperfeiçoamento da máquina a vapor e sua popularização. O contexto também corresponde ao início da revolução industrial e da utilização dos combustíveis fósseis.\n\n(Adaptado de LÉNA, Philippe; ISSBERNER, Liz-Rejane. Antropoceno: os desafios essenciais de um debate científico. *Correio da Unesco*. Suplemento online. Unesco Courrier. 2018-2. Disponível em: https://pt.unesco.org/courier/2018-2/antropoceno-os-desafios-essenciais-um-debate-cientifico . Acesso em 03/05/2022.)\n\nCom base na leitura do texto acima e em seus conhecimentos, assinale a alternativa correta.",
    "alternativas": {
     "A": "A partir do século XVIII, com o Iluminismo, a crença da superioridade humana sobre a natureza foi amplamente questionada, o que diminuiu os impactos das ações humanas sobre o Planeta em todo o século XX e XXI.",
     "B": "A partir da Era Moderna, o antropocentrismo pautou a crença na superioridade humana sobre a natureza; essa ideia foi consolidada em 1784, mantendo-se nas ciências até o presente com o nome de Antropoceno.",
@@ -1195,7 +1249,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "O texto define o Antropoceno como a época em que a ação humana passou a alterar o planeta em escala global, com marco simbólico em 1784: máquina a vapor, início da Revolução Industrial e dos combustíveis fósseis. No século XX, sobretudo depois de 1945, a difusão do modo de vida e de consumo norte-americano (automóveis, energia barata, produção em massa) acelerou muito esses impactos.\n\nA erra porque os impactos cresceram nos séculos XX e XXI. B confunde Antropoceno (uma época marcada pela ação humana) com antropocentrismo (uma visão de mundo). C desloca o início para o século XVI e diz que as mudanças preocupam pouco a ciência, o oposto do que o texto mostra.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-1-q65",
@@ -1212,7 +1268,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O Texto A noticia o ataque a tiros numa escola primária de Uvalde, no Texas, com 14 crianças e uma professora mortas. O Texto B noticia que o Canadá planeja proibir a venda de pistolas e a posse de armas de assalto, e cita Trudeau: \"We need only look south of the border\" (\"basta olhar para o sul da fronteira\"), ou seja, para os Estados Unidos. O massacre de A é o exemplo que justifica a medida noticiada em B.\n\nB inverte a relação. C erra porque A não trata de mudança na lei. D erra porque o Canadá já tem um controle de armas \"already stringent\" (já rigoroso).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q66",
@@ -1229,7 +1287,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "A narradora afirma que \"forgiveness too is a power\" (o perdão também é um poder): pedir perdão é poder, e conceder ou negar perdão também é, \"perhaps the greatest\" (talvez o maior). E conclui: \"Maybe it’s about who can do what to whom and be forgiven for it.\" A relação explicitada é entre **poder e perdão**.\n\nA distratora A usa \"temptation\", que aparece no texto, mas só como a tentação de achar que é preciso perdoar; o eixo do trecho é o poder do perdão. Feminismo e violência não são o tema explícito do trecho.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q67",
@@ -1246,7 +1306,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O primeiro parágrafo define *audism*: uma atitude que gera estigma contra quem não ouve, comparável ao racismo e ao sexismo. Depois, \"Audism occurs when one:\" abre uma lista de **exemplos de atitudes ouvintistas**, como pedir que a pessoa surda leia lábios ou \"tone down\" (atenue) suas expressões faciais.\n\nA erra: o texto diz que o ouvintismo *reflete* a visão médica, e a lista é de atitudes ouvintistas, não de modos de evitá-lo. C erra porque a lista não traz ações recomendadas. D erra porque o texto critica, em vez de exaltar, o tempo gasto com leitura labial.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q68",
@@ -1263,7 +1325,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O Texto 1 diz que os ativistas usam a arte de rua para \"reclaim their communities’ stolen narratives\" (recuperar as narrativas roubadas de suas comunidades) e que essa arte \"combats the virulent systems of oppression\" (combate os sistemas de opressão). É um estilo artístico que materializa a luta de grupos contra mecanismos que apagam suas vozes.\n\nA erra porque a arte de rua não nasceu na Califórnia: ela \"has spread to the Bay Area\" (chegou à região). B fala em união entre classes, mas o texto trata do conflito com moradores brancos de classe alta que deslocaram famílias pobres. C confunde \"street art\" com a defesa de pessoas em situação de rua.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-1-q69",
@@ -1282,7 +1346,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "Na foto, as letras ING de PARKING estão desbotadas e uma menina brinca num balanço pendurado na letra A. A palavra passa a ser lida como PARK: em vez de \"estacionamento\", evoca \"parque\", lugar de brincar. Há **exploração da polissemia** (i).\n\nIsso ilustra **uma prática** citada no Texto 1 pela artista Nancypili Hernandez: transformar \"locations that feel like a parking lot\" em espaços comunitários (ii).\n\nA distratora C atrai porque o sufixo -ing foi apagado, mas o efeito de sentido vem do duplo significado de *park*, e a foto não retrata a supremacia branca.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-1-q70",
@@ -1299,7 +1365,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "O estudo de 2021 acompanhou 100 pessoas que tiveram casos leves de COVID-19 no início da pandemia. Mais de um ano depois, \"7% of those who had been infected still had total smell loss, or ‘anosmia’, at the end of the year\" (7% ainda tinham perda total do olfato ao fim do ano).\n\nA inverte a tendência: a chance de problemas de olfato caiu de uma variante para outra (50%, 44%, 17%). B erra porque esteroides e plasma ainda estão em testes clínicos (\"undergoing clinical trials\"). D confunde os 500 milhões de casos confirmados com as \"tens of millions\" (dezenas de milhões) de pessoas que provavelmente têm problemas persistentes.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q71",
@@ -1316,7 +1384,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "Sojourner Truth retoma a fala de um homem segundo a qual as mulheres precisam ser ajudadas a subir em carruagens e ter o melhor lugar. Ela observa que ninguém faz isso por ela: trabalhou na roça como um homem, foi chicoteada e viu os filhos vendidos como escravos. Ao perguntar \"And ain’t I a woman?\", mostra que o tratamento dado às mulheres (brancas) não valia para ela, mulher negra e ex-escravizada. A pergunta problematiza essa **diferença de tratamento**.\n\nC é a distratora mais tentadora, porque o discurso foi feito num encontro sobre os direitos das mulheres, mas a pergunta repetida não opõe homens e mulheres: ela questiona quem era incluído na ideia de \"mulher\" usada pelo orador.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-1-q72",
@@ -1326,14 +1396,16 @@
    "texto_base": null,
    "enunciado": "O *Coronavirus Resource Center* (CRC) da Johns Hopkins *University* é uma importante plataforma de dados sobre a COVID-19, com atualizações frequentes sobre a evolução da pandemia. Os gráficos apresentados nas alternativas que respondem a esta questão foram retirados desta plataforma. Considere, agora, o contexto fictício de uma palestra ministrada em uma universidade estrangeira por um pesquisador brasileiro. Na ocasião, o cientista fez comentários sobre a situação da pandemia no Brasil, valendo-se de dados da plataforma do CRC:\n\n“As I speak now, in June of 2022, I can say we’ve had a tough time during these past two years in our country. **This chart, indicating the number of daily deaths over time**, shows how we’ve had a couple of months during the pandemic in which the number of daily deaths was over two thousand. Despite having the number of deaths spike to 3 thousand last year – our highest peak to date – levels had been steadily decreasing ever since. This year, though, there was a slight increase in the number of daily deaths, which nearly reached levels attained towards the beginning of the pandemic.”\n\n(Fonte dos gráficos: https://coronavirus.jhu.edu. Acesso em 11/06/2022.)\n\nQual dos gráficos a seguir ilustraria corretamente a fala do pesquisador?",
    "alternativas": {
-    "A": "![Alternativa A: gráfico de linha do número diário de mortes, de 4/2020 a 4/2022, com eixo vertical de 0 a 3K](fig:p24-f2)",
-    "B": "![Alternativa B: gráfico de linha do número diário de mortes, de 4/2020 a 4/2022, com eixo vertical de 0 a 1K](fig:p24-f3)",
-    "C": "![Alternativa C: gráfico de linha do número diário de mortes, de 4/2020 a 4/2022, com eixo vertical de 0 a 4K](fig:p24-f4)",
-    "D": "![Alternativa D: gráfico de linha do número diário de mortes, de 4/2020 a 4/2022, com eixo vertical de 0 a 3K](fig:p24-f5)"
+    "A": "![Alternativa A: gráfico de linha do número diário de mortes, de 4/2020 a 4/2022, com eixo vertical de 0 a 3K](fig:p24-c1)",
+    "B": "![Alternativa B: gráfico de linha do número diário de mortes, de 4/2020 a 4/2022, com eixo vertical de 0 a 1K](fig:p24-c2)",
+    "C": "![Alternativa C: gráfico de linha do número diário de mortes, de 4/2020 a 4/2022, com eixo vertical de 0 a 4K](fig:p24-c3)",
+    "D": "![Alternativa D: gráfico de linha do número diário de mortes, de 4/2020 a 4/2022, com eixo vertical de 0 a 3K](fig:p24-c4)"
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Interpretação de texto",
+   "resolucao": "Confira cada informação da fala no gráfico: (1) alguns meses com mais de 2 mil mortes por dia; (2) um pico de 3 mil \"last year\" (2021), o maior de todos; (3) queda contínua depois dele; (4) uma pequena alta em 2022 que quase chegou aos níveis do começo da pandemia.\n\nO gráfico A atende a tudo: passa de 2K entre março e julho de 2021, com pico perto de 3K, cai até o início de 2022 e sobe para perto de 1K, o patamar de meados de 2020.\n\nB nunca chega a 2 mil. C tem pico acima de 4 mil. D tem o pico em janeiro de 2021 e volta a passar de 2 mil no fim de 2021 e em 2022, sem a queda contínua.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   }
  ]
 }
