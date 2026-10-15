@@ -1,0 +1,185 @@
+{
+  "edicao": "unicamp-2019-2-d2",
+  "intervalo": [
+    1,
+    9
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 3,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A movimentação das massas de ar é responsável pelas mudanças no tempo atmosférico. O mapa abaixo mostra a dinâmica dos sistemas atmosféricos na América do Sul em maio de 2018. Observe o deslocamento dessas massas de ar sobre o território brasileiro e responda às questões a seguir.\n\n![Mapa intitulado Sistemas atmosféricos da América do Sul, 20 de maio de 2018, com coordenadas de 80°O a 20°O e de 10°N a 50°S e legenda dos sistemas atmosféricos (frente quente, frente fria, frente estacionária e Zona de Convergência Intertropical - ZCIT). Uma linha de frente fria vem do oceano Atlântico, a sudeste, entra no continente pelo litoral do Sudeste do Brasil e se estende em arco pelo interior até o oeste da Amazônia, perto de 10°S. No oceano, por volta de 35°S, há trechos de frente estacionária e de frente quente. Outras linhas de frente fria aparecem no extremo sul do continente. A faixa da ZCIT aparece sobre o Atlântico, ao norte do litoral brasileiro, e sobre o Pacífico, perto de 10°N.](fig:p05-c1)\n\n(Adaptado de CPTE/INPE, 2018.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique o que é uma frente fria e, considerando o alcance e o deslocamento da frente fria até a região Norte do Brasil, indique qual é o fenômeno representado no mapa."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A Zona de Convergência Intertropical resulta do encontro dos ventos alísios. Onde se originam os ventos alísios? Qual sua principal consequência para as condições meteorológicas da faixa equatorial?"
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Esquema em corte de um terreno dividido em dois cenários. À esquerda, Cenário A: terreno plano, com uma árvore grande e árvores menores, camada de detritos sobre o solo e uma seta que desce da superfície através do solo; setas rotuladas Precipitação, Interceptação e evapotranspiração e Precipitação não interceptada. À direita, Cenário B: terreno em declive, sem vegetação, com setas rotuladas Precipitação, Interceptação e evaporação de detritos/solo e Corrente, esta descendo a encosta. Abaixo, camadas rotuladas Detritos, Solo e Leito rochoso](fig:p06-f1)\n\n(Fonte: James F. Petersen, Dorothy Sack e Robert E. Glabler, *Fundamentos de Geografia Física*. São Paulo: Cengage Learning, 2014, p. 332.)\n\nConsiderando a figura acima, responda às questões a seguir.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Em qual dos cenários indicados na figura é possível identificar baixa infiltração da água e alto escoamento superficial? Aponte uma característica da superfície que é responsável por esse processo."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Em uma situação de chuvas torrenciais nas áreas urbanas podem ocorrer alagamentos e inundações. Defina inundação, e indique em que outros corpos hídricos, além dos rios, esse fenômeno pode ocorrer."
+        }
+      ]
+    }
+  ],
+  "respostas_corrigidas": {
+    "1": {
+      "resposta": "**Objetivo da questão:** O revisor específico considerou a questão bem formulada e destacou a importância do tema para a reflexão sobre a produção agrícola brasileira associada às questões do emprego no campo, da irrigação e das políticas governamentais para o setor.",
+      "itens": {
+        "a": "A principal atividade agrícola irrigada no Rio Grande do Sul está ligada à produção de grãos, destacando-se o arroz, com aproximadamente 80% de área irrigada (irrigação por inundação).\n\nNo Semiárido nordestino destaca-se a irrigação da fruticultura, especialmente voltada para o mercado externo.",
+        "b": "Desde a década de 1960, adota-se uma política de incentivo de créditos bancários subsidiados pelo Estado brasileiro voltados para a modernização técnica da agricultura, destacando-se, entre outras medidas, o estímulo ao uso de equipamentos tecnicamente modernos.\n\nNa região Sudeste, esse processo de modernização da agricultura predominou nas médias e grandes propriedades agrícolas, especialmente em culturas agrícolas como a da cana-de-açúcar."
+      }
+    },
+    "2": {
+      "resposta": "**Objetivo da questão:** Segundo o revisor específico, a questão possibilitava ao candidato tratar das áreas de conflitos no território espanhol e buscar associação entre nacionalismo e globalização.\n\nO conhecimento exigido na questão é importante para a compreensão da divisão regional do mundo, em que se distinguem nação, país e região.",
+      "itens": {
+        "a": "As duas principais regiões autônomas espanholas que reivindicam independência são a Catalunha e o País Basco.",
+        "b": "Podemos citar como expressões de nacionalismo o avanço do discurso de identidade nacional marcado pela valorização da língua e da cultura nacional, e o aumento da xenofobia e das políticas econômicas protecionistas. Em relação a essa manifestação, associada sobretudo à presença de populações estrangeiras dentro dos países, destaca-se a emergência do discurso de aversão a determinados grupos de imigrantes em condições socioeconômicas desfavoráveis, originários de países pobres."
+      }
+    },
+    "3": {
+      "resposta": "**Objetivo da questão:** O revisor específico observou que a questão demandava habilidade para articular diferentes aspectos do fenômeno climático, especialmente os que se associam ao movimento de massas de ar e às dinâmicas atmosféricas nas diferentes zonas climáticas.",
+      "itens": {
+        "a": "Frente fria é uma massa de ar frio que avança em direção a uma região ocupada por ar mais quente.\n\nO fenômeno representado no mapa é a friagem. Com a chegada das frentes frias ocorre a mudança da intensidade e da direção dos ventos, com a formação de nuvens cumulonimbus, ocasionando chuvas e redução da temperatura média.",
+        "b": "Os ventos alísios se originam nos trópicos e promovem a formação de grandes volumes de chuva."
+      }
+    },
+    "4": {
+      "resposta": "**Objetivo da questão:** O revisor específico considerou a questão bem elaborada. Observou que ela trata de um tema amplamente explorado no ensino de geografia desde o ensino fundamental, exigindo conhecimento sobre a infiltração de água em terrenos com características distintas de afloramento rochoso e sobre formas de transbordamento de canais de drenagem em áreas urbanas.",
+      "itens": {
+        "a": "O cenário correto é o B. Nesse cenário, a tendência de aumento do escoamento é consequência da presença da maior inclinação do terreno.",
+        "b": "A inundação é causada por transbordamento ou acumulação de água por drenagem deficiente em áreas não habitualmente submersas.\n\nA inundação pode ocorrer por transbordamento de água de lagos, açudes e barragens."
+      }
+    },
+    "5": {
+      "resposta": "**Objetivo da questão:** Segundo o revisor específico, a questão resgata dados do processo de urbanização brasileiro identificados pelos Censos Demográficos desde a década de 1970 e destaca também a razão pela qual as cidades adquiriram centralidade na rede urbana nacional.",
+      "itens": {
+        "a": "O processo em questão é a interiorização da urbanização do país. Ou seja, trata-se de uma desconcentração da urbanização brasileira, com o crescimento de cidades fora do eixo Atlântico.\n\nA atividade econômica motora do processo de urbanização na região Centro-Oeste do Brasil é o agronegócio, representado pelas atividades agrícolas e pela pecuária.",
+        "b": "Rede urbana é o conjunto de vários centros (as cidades) que passam a funcionar articulados (pelas redes de transporte e comunicação), permitindo conexões cada vez mais amplas para pessoas, mercadorias, serviços e ideias. Goiânia cumpre o papel de metrópole regional ou intermediária."
+      }
+    },
+    "6": {
+      "resposta": "**Objetivo da questão:** O revisor específico salientou que a questão aborda um tema de grande atualidade – o processo de terceirização e precarização do trabalho, especialmente a redução dos direitos dos trabalhadores.",
+      "itens": {
+        "a": "Terceirização é o processo de repassar a outras empresas atividades produtivas ou de serviços que poderiam ser realizadas pela própria empresa. Significa, portanto, que a empresa não contrata diretamente trabalhadores, mas uma terceira empresa.\n\nA precarização corresponde à supressão de direitos trabalhistas, como final de semana remunerado, férias e décimo terceiro salário. Além disso, associa-se a condições insalubres de trabalho e superexploração da carga horário de trabalho, comprometendo os direitos sociais.",
+        "b": "As atividades-meio são aquelas que não são centrais para o processo produtivo de uma fábrica, como, por exemplo, a segurança das instalações fabris ou a limpeza.\n\nAs atividades-fim são aquelas centrais no processo produtivo."
+      }
+    },
+    "7": {
+      "resposta": "**Objetivo da questão:** Avaliar a capacidade do candidato para interpretar gráficos e realizar cálculos simples.",
+      "itens": {
+        "a": "De acordo com o gráfico, a uma velocidade de 100 km/h, o veículo percorre 15 km por litro de combustível. Logo, para percorrer 60 km são necessários $\\frac{60\\ \\text{km}}{15\\ \\text{km}/l} = 4$ litros de combustível.",
+        "b": "Analisando o gráfico, concluímos que a uma velocidade constante de 80 km/h temos a maior quilometragem por litro, 20 km/l. Assim, a maior distância que pode ser percorrida consumindo-se totalmente 50 l de combustível do tanque é igual a $50\\ l \\times 20\\ \\text{km}/l = 1.000\\ \\text{km}$."
+      }
+    },
+    "8": {
+      "resposta": "**Objetivo da questão:** Avaliar o domínio de noções básicas de contagem e probabilidade, além de exigir conhecimento sobre o conceito de números primos.",
+      "itens": {
+        "a": "As possíveis somas obtidas em dois lançamentos de um dado tetraédrico são:\n\n$$\\begin{array}{cccc} 1 + 1 = 2, & 1 + 2 = 3, & 1 + 3 = 4, & 1 + 4 = 5, \\\\ 2 + 1 = 3, & 2 + 2 = 4, & 2 + 3 = 5, & 2 + 4 = 6, \\\\ 3 + 1 = 4, & 3 + 2 = 5, & 3 + 3 = 6, & 3 + 4 = 7, \\\\ 4 + 1 = 5, & 4 + 2 = 6, & 4 + 3 = 7, & 4 + 4 = 8. \\end{array}$$\n\nAs somas que resultam em um número primo são: 2 (uma ocorrência), 3 (duas ocorrências), 5 (quatro ocorrências) e 7 (duas ocorrências). Logo, temos um total de $1 + 2 + 4 + 2 = 9$ maneiras de a soma resultar em um número primo.",
+        "b": "A soma de todas as probabilidades deve ser igual a um: $p_1 + p_2 + p_3 + p_4 = 1$. Escrevendo as probabilidades em função de $p_4$, temos $p_1 = 4p_4$, $p_2 = 2p_4$ e $p_3 = 4/3\\, p_4$. Logo, $4p_4 + 2p_4 + \\frac{4}{3}p_4 + p_4 = 1$, o que implica que $p_4\\left(4 + 2 + \\frac{4}{3} + 1\\right) = 1$, ou seja, $p_4 = \\frac{3}{25}$. Com esse resultado, podemos calcular as outras probabilidades: $p_1 = 4 \\times \\frac{3}{25} = \\frac{12}{25}$, $p_2 = 2 \\times \\frac{3}{25} = \\frac{6}{25}$ e $p_3 = \\frac{4}{3} \\times \\frac{3}{25} = \\frac{4}{25}$."
+      }
+    },
+    "9": {
+      "resposta": "**Objetivo da questão:** Verificar a habilidade do candidato na avaliação de uma função em diferentes pontos de seu domínio, na resolução e fatoração de equações quadráticas, e em operações com números inteiros.",
+      "itens": {
+        "a": "Calculando $f(-1) = 2 + 3 + c = c + 5$ e $f(1) = 2 - 3 + c = c - 1$, temos $f(-1)f(1) = (c + 5)(c - 1) = c^2 + 4c - 5$ e $f(-1) + f(1) = c + 5 + c - 1 = 2c + 4$. A igualdade $f(-1)f(1) = f(-1) + f(1)$ implica $c^2 + 4c - 5 = 2c + 4$, ou seja, $c^2 + 2c - 9 = 0$. Resolvendo essa equação quadrática, obtemos $c = \\frac{-2 \\pm \\sqrt{40}}{2} = -1 \\pm \\sqrt{10}$. Portanto, $c = -1 - \\sqrt{10}$ ou $c = -1 + \\sqrt{10}$.",
+        "b": "Da igualdade $f(p) = f(q)$ obtemos $2p^2 - 3p + c = 2q^2 - 3q + c$, ou seja, $2(p^2 - q^2) = 3(p - q)$. Fatorando essa expressão, temos $2(p - q)(p + q) = 3(p - q)$. Como $p$ e $q$ são distintos, $p - q \\neq 0$ e, portanto, podemos dividir ambos os lados da equação por $p - q$, obtendo $2(p + q) = 3$, ou, ainda, $p + q = 3/2$. Logo, como a soma de dois números inteiros é um número inteiro, $p$ e $q$ não podem ser ambos inteiros."
+      }
+    }
+  },
+  "complementos": {
+    "1": {
+      "assunto": "Agricultura e espaço rural"
+    },
+    "2": {
+      "assunto": "Geopolítica e conflitos"
+    },
+    "3": {
+      "assunto": "Clima"
+    },
+    "4": {
+      "assunto": "Hidrografia"
+    },
+    "5": {
+      "assunto": "Urbanização"
+    },
+    "6": {
+      "assunto": "Globalização e economia mundial"
+    },
+    "7": {
+      "assunto": "Razão, proporção e grandezas"
+    },
+    "8": {
+      "assunto": "Combinatória e probabilidade"
+    },
+    "9": {
+      "assunto": "Funções"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 1,
+      "status": "corrigida",
+      "notas": "objetivo da questão acrescentado (prova comentada; geografia não traz frase de objetivo, só 'Itens do programa' e comentário do revisor: copiadas as frases inteiras do comentário que dizem o que a questão cobra). Enunciado, figura, fonte e resposta conferidos; não havia '(2 pontos)'."
+    },
+    {
+      "numero": 2,
+      "status": "corrigida",
+      "notas": "objetivo da questão acrescentado (prova comentada; geografia não traz frase de objetivo, só 'Itens do programa' e comentário do revisor: copiadas as frases inteiras do comentário que dizem o que a questão cobra). Enunciado e resposta conferidos."
+    },
+    {
+      "numero": 3,
+      "status": "corrigida",
+      "notas": "faltava a fonte '(Adaptado de CPTE/INPE, 2018.)' como texto (está fora do desenho, embora o recorte a inclua); descrição do mapa não dizia o que o item a manda analisar (alcance e deslocamento da frente fria até o Norte): passou a descrever o traçado das frentes, sem nomear o fenômeno; objetivo da questão acrescentado (prova comentada; geografia não traz frase de objetivo, só 'Itens do programa' e comentário do revisor: copiadas as frases inteiras do comentário que dizem o que a questão cobra)."
+    },
+    {
+      "numero": 4,
+      "status": "corrigida",
+      "notas": "descrição da figura não dizia o que distingue os cenários (A plano e com vegetação; B em declive e sem vegetação), que é o que o item a manda analisar: passou a descrever, sem dizer qual cenário tem baixa infiltração; objetivo da questão acrescentado (prova comentada; geografia não traz frase de objetivo, só 'Itens do programa' e comentário do revisor: copiadas as frases inteiras do comentário que dizem o que a questão cobra). 'Glabler' está assim no caderno."
+    },
+    {
+      "numero": 5,
+      "status": "corrigida",
+      "notas": "objetivo da questão acrescentado (prova comentada; geografia não traz frase de objetivo, só 'Itens do programa' e comentário do revisor: copiadas as frases inteiras do comentário que dizem o que a questão cobra). Enunciado, figura e resposta conferidos."
+    },
+    {
+      "numero": 6,
+      "status": "corrigida",
+      "notas": "resposta a: 'carga horária' corrigido para 'carga horário', como está nas respostas esperadas (r05; erro do original mantido); objetivo da questão acrescentado (prova comentada; geografia não traz frase de objetivo, só 'Itens do programa' e comentário do revisor: copiadas as frases inteiras do comentário que dizem o que a questão cobra)."
+    },
+    {
+      "numero": 7,
+      "status": "corrigida",
+      "notas": "objetivo da questão acrescentado (prova comentada). Enunciado, gráfico e resposta conferidos."
+    },
+    {
+      "numero": 8,
+      "status": "corrigida",
+      "notas": "resposta b: '$p_3 = \\frac{4}{3}p_4$' passou a '$p_3 = 4/3\\, p_4$', como impresso nas respostas esperadas; objetivo da questão acrescentado (prova comentada)."
+    },
+    {
+      "numero": 9,
+      "status": "corrigida",
+      "notas": "objetivo da questão acrescentado (prova comentada). Enunciado e resposta conferidos."
+    }
+  ]
+}
