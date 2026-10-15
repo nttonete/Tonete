@@ -1,8 +1,8 @@
 {
  "1": {
   "itens": {
-   "a": "A área da superfície é de . Como cada metro quadrado do papel de parede custa R\\$ 20,00, o custo total será de R\\$ 60,00.",
-   "b": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo  m."
+   "a": "A área da superfície é de $3 \\times 1 = 3\\ \\text{m}^2$. Como cada metro quadrado do papel de parede custa R\\$ 20,00, o custo total será de R\\$ 60,00.",
+   "b": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo $\\sqrt{10}$ m."
   }
  },
  "2": {
@@ -26,7 +26,7 @@
  "5": {
   "itens": {
    "a": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C\\,10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b=-1$, o que nos dá $b=1/10$. Calculando agora para $t=20$ minutos, temos $Q(20)=5.000.000 \\cdot 10^{-2}=50.000$ bactérias.",
-   "b": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que -□log log 2 =-3t, ou seja, t=2 )1/3≈0,1 minutos, ou cerca de 6 segundos."
+   "b": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log\\log 2 = -3t$, ou seja, $t = 2)\\frac{1}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos.\n\n*(Nota da plataforma: as fórmulas deste trecho saíram defeituosas tanto nas Respostas Esperadas quanto na prova comentada oficial; o trecho está reproduzido como impresso na prova comentada.)*"
   }
  },
  "6": {
@@ -44,7 +44,7 @@
  "9": {
   "itens": {
    "a": "O módulo da força centrípeta é dado por $|\\vec{F}_\\text{cp}| = m_\\text{H}\\,|\\vec{a}_\\text{cp}| = m_\\text{H}\\,\\omega^2 r.$\n\nCom:\n\n$$r = R_\\text{T} + h = 6400\\ \\text{km} + 600\\ \\text{km} = 7000\\ \\text{km} = 7{,}0\\times10^6\\ \\text{m}$$\n\ne\n\n$$\\omega = \\frac{2\\pi}{T_\\text{H}} = \\frac{2\\times 3}{100\\times 60}\\ \\text{rad/s} = \\frac{1}{1000}\\ \\text{rad/s} = 1{,}0\\times10^{-3}\\ \\text{rad/s}$$\n\ntemos:\n\n$$|\\vec{F}_\\text{cp}| = (1{,}1\\times10^4\\ \\text{kg})\\times(1{,}0\\times10^{-3}\\ \\text{rad/s})^2\\times(7{,}0\\times10^6\\ \\text{m}) = 7{,}7\\times10^4\\ \\text{N}.$$",
-   "b": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_\\text{W} v_\\text{W} = m_\\text{W} \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
+   "b": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_w v_w = m_w \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
   }
  },
  "10": {

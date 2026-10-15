@@ -30,16 +30,17 @@
     {
      "rotulo": "a",
      "texto": "Sabendo que o metro quadrado do papel de parede custa R\\$ 20,00, determine quanto Márcia terá que gastar em papel de parede para cobrir a pilastra como ela quer.",
-     "resposta_oficial": "A área da superfície é de . Como cada metro quadrado do papel de parede custa R\\$ 20,00, o custo total será de R\\$ 60,00."
+     "resposta_oficial": "A área da superfície é de $3 \\times 1 = 3\\ \\text{m}^2$. Como cada metro quadrado do papel de parede custa R\\$ 20,00, o custo total será de R\\$ 60,00."
     },
     {
      "rotulo": "b",
      "texto": "Qual é o menor comprimento que a fita de *led* precisa ter para ser possível esta instalação?",
-     "resposta_oficial": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo  m."
+     "resposta_oficial": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo $\\sqrt{10}$ m."
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cet-q02",
@@ -61,7 +62,9 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "revisao": "atencao",
+   "revisao_notas": "Enunciado conferido com p04; resposta transcrita fielmente de r01. Erro da própria banca nas Respostas esperadas, item b: o sistema auxiliar aparece como '(q-py)+y+z=1' e, simplificado, '(1-p)y+z=1-q', quando a terceira equação é x+y+z=3 (o certo seria '= 3' e '3 - q'); a conclusão '3q=p+3, ou seja, q=10/9' já usa o 3. A prova comentada (r14) traz '(q − py) + y + z = 3.', mas na linha simplificada também perdeu o número ('(1−p)y + z = − q'). Não alterei (não é buraco do PDF, é texto impresso); uma pessoa decide se troca pela versão da comentada."
   },
   {
    "id": "unicamp-2023-2-cet-q03",
@@ -83,7 +86,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Trigonometria",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q04",
@@ -105,7 +109,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Geometria analítica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q05",
@@ -123,11 +128,13 @@
     {
      "rotulo": "b",
      "texto": "Numa outra amostra, onde foi descoberto experimentalmente que $b = 3$, quanto tempo levará para que a quantidade de bactérias fique reduzida à metade?",
-     "resposta_oficial": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que -□log log 2 =-3t, ou seja, t=2 )1/3≈0,1 minutos, ou cerca de 6 segundos."
+     "resposta_oficial": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log\\log 2 = -3t$, ou seja, $t = 2)\\frac{1}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos.\n\n*(Nota da plataforma: as fórmulas deste trecho saíram defeituosas tanto nas Respostas Esperadas quanto na prova comentada oficial; o trecho está reproduzido como impresso na prova comentada.)*"
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Exponencial e logaritmo",
+   "revisao": "atencao",
+   "revisao_notas": "Enunciado e 'Dados: log₁₀ 2 ≈ 0,3' conferidos com p07. Resposta a conferida com r02. Item b: o trecho '-□log log 2 =-3t, ou seja, t=2 )1/3≈0,1' está quebrado nas Respostas esperadas (r02) e também na prova comentada (r18: '− log log 2 = − 3t, ou seja, t = 2) 1/3 ≈ 0,1'); o texto do PDF não guarda nada além disso. Substituí pelo trecho da comentada (sem a caixa vazia), em LaTeX, e acrescentei uma Nota da plataforma avisando o defeito. A forma pretendida parece ser '−log 2 = −3t, ou seja, t = (log 2)/3 ≈ 0,1', mas não reconstruí por conta própria; uma pessoa decide se reconstrói."
   },
   {
    "id": "unicamp-2023-2-cet-q06",
@@ -149,14 +156,15 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q08",
    "numero": 8,
-   "materia": "geografia",
+   "materia": "historia",
    "materias_extra": [
-    "historia",
+    "geografia",
     "sociologia"
    ],
    "texto_base": null,
@@ -174,7 +182,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Brasil contemporâneo",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cet-q09",
@@ -192,11 +201,12 @@
     {
      "rotulo": "b",
      "texto": "A figura no espaço de respostas mostra a distância percorrida pelo Webb durante as duas primeiras semanas após o lançamento. Assuma que o módulo da velocidade do Webb é aproximadamente constante no período que vai do início do 9º ao início do 19º dia de viagem (10 dias completos). Calcule, em unidades do <u>SI</u>, o módulo da quantidade de movimento do telescópio ao longo desse período. Aproxime $1\\ \\text{dia} \\simeq 8\\times10^4\\ \\text{s}$.\n\n![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, do início do 1º dia (25/12/2021) ao início do 16º dia (09/01)](fig:p11-c1)",
-     "resposta_oficial": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_\\text{W} v_\\text{W} = m_\\text{W} \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
+     "resposta_oficial": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_w v_w = m_w \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Dinâmica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2023-2-cet-q10",
@@ -218,7 +228,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q11",

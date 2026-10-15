@@ -40,6 +40,8 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - fuvest-2025-2-d2 q6 (B06), item c: a resposta diz que o CO₂ é fixado "(ciclo de Krebs)"; na fotossíntese é o ciclo de Calvin.
 - fuvest-2024-2-d2 q2 (M02): o caderno manda ler "o comunicado sobre esta questão no site da FUVEST", que não está mais publicado. Os dados do enunciado somam 110%, e o guia oficial de respostas aceitou "questão impossível" ou várias resoluções. A questão deve levar uma nota da plataforma explicando isso.
 - fuvest-2025-2-d2 q16 (G04), item c: a resposta diz que o Irã faz "fronteira entre oito países", mas lista sete (e são sete).
+- unicamp-2023-2-cet q2, item b: a resposta da banca escreve "(q-py)+y+z=1" e "(1-p)y+z=1-q"; pela terceira equação (x+y+z=3) seria 3 e 3−q.
+- unicamp-2023-2-cet q5, item b: a fórmula do logaritmo está quebrada nas respostas esperadas e também na prova comentada; a plataforma mostra o texto oficial com uma nota. Forma pretendida aparente: −log 2 = −3t, t = (log 2)/3 ≈ 0,1. Decidir se reconstrói.
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ## Para conferência de quem conhece a obra
