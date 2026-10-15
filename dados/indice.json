@@ -1,6 +1,34 @@
 {
  "edicoes": [
   {
+   "id": "fuvest-2018-1",
+   "vestibular": "fuvest",
+   "ano": 2018,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "V",
+   "nome": "FUVEST (USP) 2018 – 1ª fase",
+   "fonte": {
+    "caderno": "FEVEST_2018_1Fase.pdf",
+    "gabarito": "FEVEST_2018_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/fuvest-2018-1.json",
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
+   "materias": {
+    "fisica": 11,
+    "quimica": 13,
+    "matematica": 11,
+    "biologia": 11,
+    "geografia": 11,
+    "historia": 11,
+    "portugues": 10,
+    "literatura": 7,
+    "ingles": 5
+   }
+  },
+  {
    "id": "fuvest-2019-1",
    "vestibular": "fuvest",
    "ano": 2019,
