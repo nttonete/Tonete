@@ -73,3 +73,4 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2017-1 q42: o enunciado chama o HPV de "caudovírus" (erro de conteúdo da banca); não muda a resposta.
 - unicamp-2020-1 q27: a resolução atribui à banca a afirmação de que o RN era o maior produtor de petróleo em terra; o dado da época não foi confirmado.
 - unicamp-2022-2-d1 q7: o post de Chico César reproduz um poema curto de Titá Moura (autora viva). Mantida por ser duas frases e o item b depender delas; decidir se vai para indisponiveis.json.
+- unicamp-2022-2-cet q20 item b: a banca (respostas esperadas e prova comentada) traz "Carbono NEGATIVO: Fonte 1 ou Combustível Fóssil", mas a justificativa atribui ao biocombustível (fonte 2). Provável erro da banca; transcrito como publicado.

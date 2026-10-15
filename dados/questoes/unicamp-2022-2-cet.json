@@ -297,8 +297,9 @@
      "resposta_oficial": "O módulo do impulso que agiu sobre o asteróide durante a colisão com a Terra é numericamente igual à área abaixo da curva do Módulo da Força em função do Tempo:\n\n$$I = 2{,}0 \\times 10^{21}\\ \\text{N} \\times 1{,}2\\ \\text{s} = 2{,}4 \\times 10^{21}\\ \\text{Ns}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão explora estudos recentes de cientistas internacionais sobre as opções para evitar um possível impacto de um asteroide com a Terra. No item (a), espera-se que o candidato utilize os conceitos de momento linear e energia cinética para calcular a variação da energia cinética do asteroide como resultado da operação que tenta desviá-lo. No item b), o candidato deve analisar o gráfico fornecido e calcular o módulo do impulso que agiu sobre o asteroide durante a sua colisão com a Terra.",
+   "assunto": "Quantidade de movimento",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2022-2-cet-q13",
@@ -319,8 +320,9 @@
      "resposta_oficial": "A pedra se desloca com velocidade constante, portanto a força resultante agindo sobre ela é nula. Assim, o trabalho realizado pela força horizontal aplicada sobre a pedra é numericamente igual ao trabalho realizado pela força de atrito que age na pedra durante o seu deslocamento:\n\n$$\\tau = \\mu_C N d = 0{,}6 \\times \\left(1{,}8 \\times 10^{4} \\times 10\\right) \\times 2{,}0 \\times 10^{4} = 2{,}16 \\times 10^{9}\\ \\text{J} = 600\\ \\text{kWh}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda os mistérios sobre a construção do círculo de pedras de Stonehenge, emblemático monumento situado na Grã-Bretanha. No item (a) o candidato deve interpretar corretamente o enunciado e utilizar seus conhecimentos sobre equilíbrio de forças para calcular o módulo do torque resultante na situação da figura B. No item (b) é exigida do candidato, para a resolução do item, a aplicação correta dos conceitos de força de atrito e do trabalho da força resultante.",
+   "assunto": "Estática",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2022-2-cet-q14",
@@ -341,8 +343,9 @@
      "resposta_oficial": "Como o elevador se desloca com movimento retilíneo uniforme, o equilíbrio de forças que agem sobre o elevador é dado por:\n\n$F_{\\text{base}} - F_{\\text{teto}} - P = 0$\n\nAssim,\n\n$p_0 A_{\\text{base}} - p_{\\text{sup}} A_{\\text{teto}} - mg = 0 \\Rightarrow p_{\\text{sup}} = p_0 - \\dfrac{mg}{A_{\\text{base}}}$\n\n$$p_{\\text{sup}} = 100\\ \\text{kPa} - \\frac{(300\\ \\text{kg}) \\times \\left(10\\ \\text{m/s}^2\\right)}{1{,}5\\ \\text{m}^2} = 98\\ \\text{kPa}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão 14 versa sobre Hidrostática. O item a) trata da pressão exercida por uma coluna de óleo. Já o item b) relaciona, no contexto do princípio de funcionamento de um elevador hidráulico, a força exercida por um fluido com a sua pressão e a área da superfície em que a força é aplicada.",
+   "assunto": "Hidrostática",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2022-2-cet-q15",
@@ -363,8 +366,9 @@
      "resposta_oficial": "O tempo necessário para fundir a massa de sal é:\n\n$$\\Delta t = \\frac{mL}{P_{\\text{lumin}}} = \\frac{\\left(25 \\times 10^{6}\\ \\text{kg}\\right) \\times \\left(160 \\times 10^{3}\\ \\text{J/kg}\\right)}{4{,}0 \\times 10^{8}\\ \\text{W}} = 10000\\ \\text{s} = 2{,}77\\ \\text{h}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão 15 trata, no item a), da relação entre potência $P$, energia $\\Delta E$ e tempo $\\Delta t$. Para obter o valor da energia, o candidato deve entender o conceito de insolação diária apresentado na questão, e assim multiplicar essa densidade de energia por unidade de área pela correspondente área do terreno. O item b), de Termologia, envolve o conceito de calor latente de fusão e sua relação com a energia necessária para fundir certa massa de sal.",
+   "assunto": "Termologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2022-2-cet-q16",
@@ -385,8 +389,9 @@
      "resposta_oficial": "Considerando a conservação de energia mecânica da massa na extremidade do pêndulo:\n\n$$\\left(E_{\\text{cin}} + E_{\\text{pot}}\\right)_{\\text{inicial}} = \\left(E_{\\text{cin}} + E_{\\text{pot}}\\right)_{\\text{final}}$$\n\ntemos:\n\n$$0 + mgh = \\frac{1}{2} m v^2 + 0$$\n\nAssim, a velocidade da massa quando ela passa pelo ponto mais baixo da trajetória é:\n\n$$\\begin{aligned}v = \\sqrt{2gh} &= \\sqrt{2gL\\left(1 - \\cos\\theta_0\\right)} = \\sqrt{2 \\times \\left(10\\ \\text{m/s}^2\\right) \\times (2{,}0\\ \\text{m}) \\times \\left(1 - \\cos\\left(26^\\circ\\right)\\right)} \\\\ &= \\sqrt{2 \\times \\left(10\\ \\text{m/s}^2\\right) \\times (2{,}0\\ \\text{m}) \\times (1 - 0{,}90)} = 2{,}0\\ \\text{m/s}\\end{aligned}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão 16 aborda, no item a), os conceitos de velocidade média e de velocidade escalar média (Cinemática em Uma Dimensão). A leitura do gráfico da figura A fornece os dados necessários para o cálculo da velocidade escalar média, enquanto que a velocidade média num período do movimento oscilatório é nula. O item b) trata das energias cinética e potencial gravitacional de um pêndulo simples. A conservação da energia mecânica deve ser aplicada na solução do problema.",
+   "assunto": "Cinemática",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2022-2-cet-q17",
@@ -407,8 +412,9 @@
      "resposta_oficial": "$\\text{H}_2$ verde: o hidrogênio verde é produzido por eletrólise da água, eletrólise esta alimentada só por fontes renováveis de energia. Considerando que na matriz energética do Brasil a energia renovável brasileira representa 13% do total e, acrescentando-se a isso a crise hídrica de 2021, conclui-se que esse seria o grande desafio para se adotar o $\\text{H}_2$ verde. Além desse fato, a forte dependência da matriz elétrica vinculada à fonte hidráulica exige a expansão de outras fontes de energia renovável.\n\n$\\text{H}_2$ azul: o hidrogênio azul é uma variante do marrom ou do cinza (produto da gaseificação de carvão mineral ou da reforma do gás natural) quando se captura e se armazena o dióxido de carbono. Os grandes desafios enfrentados para sua implementação são as tecnologias e o custo de captura e armazenamento do $\\text{CO}_2$ e, particularmente no Brasil em 2021, o alto custo dos combustíveis de origem fóssil."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão se baseia num exemplo prático de aplicação de um conhecimento químico, dentro do contexto de química e sociedade, ao retratar a produção de gás hidrogênio, um combustível alternativo que vem crescendo em aplicação no transporte. Um dos objetivos da questão era evidenciar as possíveis formas de produção desse gás (fonte de matéria prima e de energia) e, ao mesmo tempo, alertar para o fato de que as possíveis fontes de energia para essa produção impactam diretamente a matriz energética brasileira e mundial. As consequências dessa produção para o país e o meio ambiente são igualmente preocupantes e isso pode ser abstraído nas entrelinhas do texto apresentado. A questão é bem genérica, não se inserindo em nenhuma área específica das Ciências da Natureza. A estrutura da questão privilegia a leitura e interpretação de texto, ao mesmo tempo que chama o candidato para uma leitura crítica das vantagens e consequências da utilização desse combustível alternativo.",
+   "assunto": "Química ambiental",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2022-2-cet-q18",
@@ -416,7 +422,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O pH do rúmen de bovinos varia entre 5,7 e 7,3, valores diretamente dependentes da alimentação. Em vacas leiteiras de alta produção, a acidose (pH ruminal < 6,0) é um problema comum, o que pode levar à acidose láctica, a abscessos hepáticos, à redução na digestão de fibras e à redução da gordura no leite. Isso ocorre quando a vaca ingere alimentos com muitos grãos, alimentos estes que contêm amido ou açúcar rapidamente digerível. Um alto valor de pH (> 7) será observado em dietas com forrageiras de baixa qualidade, suplementadas com ureia. A maior parte do tampão no rúmen vem na forma de saliva, que é gerada quando a vaca mastiga o alimento. A figura abaixo mostra esquematicamente o que ocorre com a produção de saliva, a depender do tipo de alimentação. A tabela mostra a composição média da saliva bovina.\n\n![esquema de uma vaca com as glândulas salivares: a alimentação com forragens leva à produção de 150 L de saliva e a alimentação com grãos, à produção de 40 L](fig:p20-f2)\n\n| Composição da Saliva | Concentração (mmol L⁻¹) |\n|---|---|\n| sódio | 160 |\n| potássio | 6,2 |\n| cloreto | 7,1 |\n| hidrogenocarbonato | 126 |\n| fosfato | 26 |\n| matéria seca | 1,0 |",
+   "enunciado": "O pH do rúmen de bovinos varia entre 5,7 e 7,3, valores diretamente dependentes da alimentação. Em vacas leiteiras de alta produção, a acidose (pH ruminal < 6,0) é um problema comum, o que pode levar à acidose láctica, a abscessos hepáticos, à redução na digestão de fibras e à redução da gordura no leite. Isso ocorre quando a vaca ingere alimentos com muitos grãos, alimentos estes que contêm amido ou açúcar rapidamente digerível. Um alto valor de pH (> 7) será observado em dietas com forrageiras de baixa qualidade, suplementadas com ureia. A maior parte do tampão no rúmen vem na forma de saliva, que é gerada quando a vaca mastiga o alimento. A figura abaixo mostra esquematicamente o que ocorre com a produção de saliva, a depender do tipo de alimentação. A tabela mostra a composição média da saliva bovina.\n\n![esquema de uma vaca com as glândulas salivares indicadas; uma seta contínua vai de Forragens a um recipiente graduado rotulado 150 L e uma seta tracejada vai de Grãos a outro recipiente rotulado 40 L](fig:p20-f2)\n\n| Composição da Saliva | Concentração (mmol L⁻¹) |\n|---|---|\n| sódio | 160 |\n| potássio | 6,2 |\n| cloreto | 7,1 |\n| hidrogenocarbonato | 126 |\n| fosfato | 26 |\n| matéria seca | 1,0 |",
    "itens": [
     {
      "rotulo": "a",
@@ -429,8 +435,9 @@
      "resposta_oficial": "Não poderiam ser utilizados: $\\text{NH}_4\\text{Cl}$ e NaCl. A substância $\\text{NH}_4\\text{Cl}$ é um sal que sofre hidrólise, resultando no aumento da concentração de íons $\\text{H}^+$; portanto, ao ser dissolvida em água, o $\\text{NH}_4\\text{Cl}$ ocasiona um aumento da acidez do meio. O NaCl é um sal que não sofre hidrólise; portanto, não influencia o equilíbrio iônico da água; logo, não interfere no pH do meio. Seria indicado: $\\text{Na}_2\\text{CO}_3.\\text{NaHCO}_3.2\\text{H}_2\\text{O}$. Tanto carbonato quanto o hidrogenocarbonato são espécies que reagem com íons $\\text{H}^+$ em solução, diminuindo sua concentração, o que resulta no aumento do pH, de acordo com as equações abaixo:\n\n$$\\begin{aligned}\\text{HCO}_3^- + \\text{H}^+ &\\rightleftharpoons \\text{H}_2\\text{O} + \\text{CO}_2 \\\\ \\text{CO}_3^{2-} + 2\\text{H}^+ &\\rightleftharpoons \\text{H}_2\\text{O} + \\text{CO}_2\\end{aligned}$$"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** Por meio de um exemplo presente em nosso cotidiano, visto o Brasil ter uma agropecuária de importância mundial, a questão explora, dentro do contexto de química e sociedade, o tema do equilíbrio químico e de conceitos ácido-base. A questão aborda o conceito da acidose ruminal e como o tipo de alimentação influencia no seu controle, considerando o volume de produção de saliva e as reações químicas envolvidas nos alimentos. Com base nas informações fornecidas no enunciado e na figura, questiona-se, como do ponto de vista químico, uma alimentação rica em grãos pode conduzir a acidose ruminal. A segunda parte da questão (item b), são fornecidos os suplementos alimentares que poderiam ser utilizados para controlar o acidose e se questiona, do ponto de vista químico, quais poderiam e quais não poderiam ser utilizados. O enunciado traz informações importantes para a resolução da questão, a qual exige conhecimentos básicos de conceitos ácido-base e de reação química.",
+   "assunto": "Equilíbrio químico",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2022-2-cet-q19",
@@ -442,7 +449,7 @@
    "itens": [
     {
      "rotulo": "a",
-     "texto": "Considerando as informações do texto e utilizando as fórmulas estruturais dadas pela figura no campo de resposta, complete a referida figura, de forma a transformá-la na equação de equilíbrio entre o cloridrato de cocaína e a pasta base, identificando, na equação, as duas espécies químicas. Explique, levando em conta as interações intermoleculares envolvidas na solubilização, as diferenças de solubilidades descritas no texto.\n\n*Campo de resolução:*\n\n![duas fórmulas estruturais da cocaína, a da esquerda com o nitrogênio ligado a um grupo metila e a da direita com o nitrogênio protonado, com H e íon Cl⁻, cada uma com um retângulo vazio abaixo, dentro de um quadro](fig:p21-c2)",
+     "texto": "Considerando as informações do texto e utilizando as fórmulas estruturais dadas pela figura no campo de resposta, complete a referida figura, de forma a transformá-la na equação de equilíbrio entre o cloridrato de cocaína e a pasta base, identificando, na equação, as duas espécies químicas. Explique, levando em conta as interações intermoleculares envolvidas na solubilização, as diferenças de solubilidades descritas no texto.\n\n*Campo de resolução:*\n\n![duas fórmulas estruturais lado a lado, dentro de um quadro, cada uma com um retângulo vazio abaixo; a da direita traz H, sinal + junto ao nitrogênio e Cl⁻](fig:p21-c2)",
      "resposta_oficial": "![equação de equilíbrio entre a pasta-base (fórmula estrutural à esquerda) e o cloridrato de cocaína (fórmula estrutural à direita, com H, N⁺ e Cl⁻), com “+ HCl” e a seta de equilíbrio entre elas](fig:r09-c1)\n\nO cloridrato de cocaína apresenta uma carga iônica. A principal interação intermolecular entre o cloridrato de cocaína e o solvente é do tipo íon-dipolo. Assim, quanto maior a polaridade do solvente (água > álcool > éter), maior a interação e, portanto, maior a solubilidade. No caso da pasta base, as interações soluto-solvente são de baixa energia (dipolo-dipolo induzido e dipolo induzido-dipolo induzido), enquanto que as energias solvente-solvente estão na ordem água > álcool > éter, sendo altas no caso da água e do álcool (dipolo-dipolo) e mais baixa no caso do éter (dipolo induzido-dipolo induzido). Dessa forma, pode-se supor que as diferenças entre as energias, soluto-solvente e solvente-solvente, sejam mais favoráveis na ordem éter, álcool, água, o que explicaria as diferenças de solubilidade para a pasta base."
     },
     {
@@ -451,8 +458,9 @@
      "resposta_oficial": "O mais adulterado é o cloridrato de cocaína. Os percentuais de pureza do cloridrato de cocaína situam-se na faixa de 0 a 20 %, sendo que 80% das amostras apresentam pureza entre 5 e 10%. No caso da pasta base, os percentuais de pureza se situam entre 10 e 40%, com aproximadamente 90% das amostras com pureza acima de 20% (sendo 50% das amostras na faixa de 30 a 40% de pureza). Isso leva a concluir que a droga mais adulterada é o cloridrato de cocaína.\n\nOBS: É possível construir esta resposta, utilizando uma média ponderada entre as informações dos dois gráficos."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** As Habilidades gerais exploradas pela questão e descritas no programa foram: ler, analisar, comparar e interpretar informações em textos variados, gráficos, figuras, imagens etc.; resolver problemas de Química que envolvam: aplicação de conceitos e informações a situações; e elaborar respostas escritas que envolvam a descrição, exposição e argumentação crítica com base no conteúdo programático da Química. A questão envolve diferentes conteúdos do programa a saber: Compostos Orgânicos, Equilíbrios Químicos, Polaridade molecular, forças intermoleculares, reações químicas e análise de gráficos. A questão envolveu a aplicação dos diferentes conceitos na análise de uma situação específica da química (análise de uma equação que descreve uma reação em equilíbrio) e, no item b, a análise gráfica, explorando uma situação mais ampla, com aplicação direta no cotidiano. A questão exigiu dos estudantes a interpretação da distribuição de uma análise química com uma amostragem ampla, algo comum não apenas na química, mas em diferentes áreas do conhecimento, como a geografia e a biologia. Os candidatos deveriam ter conhecimentos sobre o reconhecimento de estruturas da química orgânica e sobre como a solubilidade de compostos é afetada pela polaridade dos mesmos. No item b, a questão cobra a interpretação de um histograma que descreve uma situação cotidiana, tendo forte relação com a matemática. Os conceitos relacionados à polaridade são fundamentais para a compreensão de diferentes situações cotidianas; a interpretação de histogramas permite compreender como amostras estão distribuídas em um determinado contexto, não sendo um conhecimento específico da Química, uma vez que tais modelos gráficos são utilizados em todas as áreas do conhecimento.",
+   "assunto": "Ligações e interações",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2022-2-cet-q20",
@@ -460,7 +468,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Navios cargueiros são responsáveis por 3% de todas as emissões de $\\text{CO}_2$. Utilizando células de combustível de óxido sólido (SOFC) associadas à captura de $\\text{CO}_2$ “on board”, pesquisadores propõem tornar carbono neutro ou mesmo carbono negativo os navios. A SOFC funciona a partir da oxidação do combustível com oxigênio puro, extraído do ar, numa célula eletroquímica que dá origem a uma corrente elétrica. Nesse caso específico, o $\\text{CO}_2$ produzido é, então, armazenado no estado líquido, no espaço deixado pelo combustível queimado, num tanque com partição móvel. Esse $\\text{CO}_2$ deve ser reutilizado ou então armazenado adequadamente na natureza. A figura ao lado mostra como funciona o esquema proposto.\n\n![esquema da proposta: as fontes de combustível 1 (combustível fóssil) e 2 (biocombustível) abastecem a estação de reabastecimento, que fornece combustível ao navio e recebe o CO₂, enviado para captura de carbono; a célula SOFC do navio consome o combustível CxHyOz e o CO₂ produzido é armazenado no mesmo tanque, separado por uma partição móvel](fig:p22-f2)",
+   "enunciado": "Navios cargueiros são responsáveis por 3% de todas as emissões de $\\text{CO}_2$. Utilizando células de combustível de óxido sólido (SOFC) associadas à captura de $\\text{CO}_2$ “on board”, pesquisadores propõem tornar carbono neutro ou mesmo carbono negativo os navios. A SOFC funciona a partir da oxidação do combustível com oxigênio puro, extraído do ar, numa célula eletroquímica que dá origem a uma corrente elétrica. Nesse caso específico, o $\\text{CO}_2$ produzido é, então, armazenado no estado líquido, no espaço deixado pelo combustível queimado, num tanque com partição móvel. Esse $\\text{CO}_2$ deve ser reutilizado ou então armazenado adequadamente na natureza. A figura ao lado mostra como funciona o esquema proposto.\n\n![esquema com vários quadros: no alto, Fonte 1 (Combustível fóssil, com uma gota preta e seta para baixo) e Fonte 2 (Biocombustível, com uma folha, uma gota cinza, uma seta curva ligando CO₂ à folha e seta para baixo); abaixo, Estação de reabastecimento com os reservatórios Combustível e CO₂; à esquerda, Produção eletrolítica de combustível (turbina eólica, painel solar e fábrica), com setas duplas; abaixo, Captura de carbono (CO₂), com seta para baixo; à direita, um navio com a célula SOFC (ciclo com Combustível e CO₂) e, ampliado, um tanque com Combustível CxHyOz e CO₂ separados por uma Partição móvel, com setas laterais SOFC](fig:p22-f2)",
    "itens": [
     {
      "rotulo": "a",
@@ -473,8 +481,10 @@
      "resposta_oficial": "Carbono NEUTRO: Fonte 1 ou Combustível Fóssil.\nCarbono NEGATIVO: Fonte 1 ou Combustível Fóssil.\n\nO combustível fóssil é uma fonte de carbono neutro, na proposta, pois o $\\text{CO}_2$ gerado é capturado, devendo ser estocado ou reutilizado. O biocombustível, por sua vez, é uma fonte de carbono negativo, na proposta, pois, além do $\\text{CO}_2$ produzido na sua queima ser capturado, estocado ou reutilizado, o biocombustível é produzido a partir da captura de $\\text{CO}_2$ atmosférico."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A busca por combustíveis alternativos e ambientalmente amigáveis tem levado à busca também de novos métodos de produção. inclusive embarcados nos próprios veículos. Esta questão aborda aspectos de química e sociedade, materiais e conceitos de gases, explorando a produção e tecnologias para tornar os combustíveis utilizados fontes de carbono neutro ou mesmo negativo, tendo um navio como exemplo. No item a, questiona-se qual a importância para o bom funcionamento da proposta de carbono neutro (reutilizado ou armazenado) do uso das células a combustível em relação aos motores de combustão interna e quais a condições para estocar o $\\text{CO}_2$, explorando aqui o conhecimento da equação geral dos gases. O item b explora o conhecimento do candidato sobre conceitos bastante explorados quando se trata de sustentabilidade e combustíveis, que é a busca do carbono neutro ou carbono negativo, cuja diferenciação está esquematizada na figura apresentada no enunciado. O carbono neutro envolve um ciclo do combustível que não contribui para o aumento da concentração de $\\text{CO}_2$ atmosférico mas não atua também em sua redução. Já o conceito de carbono negativo envolve um ciclo do combustível que proporciona uma redução na concentração de $\\text{CO}_2$ atmosférico. Esta questão é bastante elaborada e traz temas de grande relevância para a sociedade.",
+   "assunto": "Química ambiental",
+   "revisao": "atencao",
+   "revisao_notas": "Descrição da figura ampliada (faltavam a folha com seta de CO2 junto ao biocombustível, a produção eletrolítica e a captura de carbono, tudo necessário ao item b). Acrescentado o objetivo. Atenção: no documento oficial (Respostas esperadas e prova comentada) a linha 'Carbono NEGATIVO' diz 'Fonte 1 ou Combustível Fóssil', igual à linha do neutro, embora a justificativa atribua o carbono negativo ao biocombustível (fonte 2). Transcrito como está; erro provável da banca, decisão humana."
   },
   {
    "id": "unicamp-2022-2-cet-q21",
@@ -491,12 +501,13 @@
     },
     {
      "rotulo": "b",
-     "texto": "O processo de obtenção de metais provenientes de resíduos eletrônicos consiste na mineração urbana, que se baseia no conceito de economia circular. O fluxograma do campo de resposta apresenta uma forma de recuperação de metais do lixo eletrônico. Complete o fluxograma, utilizando os códigos para processos (números) e espécies (letras), apresentados no quadro ao lado do fluxograma do campo de resposta, de modo a tornar correto o processo representado pelo fluxograma. Cada processo ou espécie pode ser representado por um ou mais códigos que podem ser repetidos em campos diferentes.\n\n*Campo de resolução:*\n\n![fluxograma do processo a completar, partindo do resíduo eletrônico, com círculos para os processos e retângulos para as espécies (alguns já preenchidos: o processo 2→5, o processo 1, a espécie D e a espécie F), ao lado do quadro de códigos. Processos: 1 - Dissolução; 2 - Moagem; 3 - Eletrodeposição; 4 - Precipitação; 5 - Decantação. Espécies: A - M1^x+(aq); B - M1(OH)x(s); C - M1(s); D - M2^y+(aq); E - Não-Metais; F - M2(s)](fig:p23-c4)",
+     "texto": "O processo de obtenção de metais provenientes de resíduos eletrônicos consiste na mineração urbana, que se baseia no conceito de economia circular. O fluxograma do campo de resposta apresenta uma forma de recuperação de metais do lixo eletrônico. Complete o fluxograma, utilizando os códigos para processos (números) e espécies (letras), apresentados no quadro ao lado do fluxograma do campo de resposta, de modo a tornar correto o processo representado pelo fluxograma. Cada processo ou espécie pode ser representado por um ou mais códigos que podem ser repetidos em campos diferentes.\n\n*Campo de resolução:*\n\n![fluxograma a completar, com a foto de um resíduo eletrônico seguida do círculo 2→5, que leva a dois retângulos vazios, um acima e outro abaixo; o de baixo segue para o círculo 1, depois para um retângulo vazio e para um círculo vazio, do qual saem uma seta para cima, até o retângulo D, e uma seta para um retângulo vazio à direita; D segue para um círculo vazio e então para o retângulo F. Ao lado, quadro de códigos. Processos (círculo): 1 - Dissolução; 2 - Moagem; 3 - Eletrodeposição; 4 - Precipitação; 5 - Decantação. Espécies (retângulo): A - M1^x+(aq); B - M1(OH)x(s); C - M1(s); D - M2^y+(aq); E - Não-Metais; F - M2(s)](fig:p23-c4)",
      "resposta_oficial": "![fluxograma preenchido: do resíduo eletrônico, o processo 2→5 leva à espécie E e à espécie C, F; C, F segue para o processo 1, depois para a espécie A, D e para o processo 4; o processo 4 leva à espécie B e à espécie D, que segue para o processo 3 e então para a espécie F](fig:r10-c1)"
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** A questão se contextualiza numa situação prática real, qual seja, a coleta de lixo e reciclagem, focando questões mais centrais desse assunto como o consumismo e suas consequências para a sociedade e o meio ambiente. Também foca o processo de reciclagem específico para materiais elétricos e eletrônicos. A questão apresenta duas características principais, mostra aspectos gerais do hábito humano de consumo exagerado e suas consequências para a vida e também evidencia aspectos técnicos na recuperação de metais de circuitos eletrônicos. Assim, o item a) é genérico e se aplica a um conhecimento cientifico geral e desejável ao cidadão, o que permite concluir que pode ser explorado em áreas como a Biologia, Física e Geografia.",
+   "assunto": "Química ambiental",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2022-2-cet-q22",
@@ -504,7 +515,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Recentemente, pesquisadores desenvolveram uma célula eletroquímica que usa glicose como combustível para gerar eletricidade (figura ao lado). Na célula usam-se enzimas adsorvidas em eletrodos de papel, onde ocorrem as reações que geram a corrente elétrica. O eletrodo da esquerda é previamente mergulhado em solução de glicose ($20 \\times 10^{-3}$ mol/L) e, depois de retirado dessa solução, a célula está pronta para funcionar. No seu funcionamento (no gráfico, no campo de resposta), observa-se uma queda da corrente ao longo do tempo, um reflexo da diminuição da concentração da glicose. Assim, para efeito de cálculo, pode-se considerar que a intensidade da corrente elétrica é diretamente proporcional à concentração de glicose.\n\n![esquema da célula: o eletrodo da esquerda, com glicose oxidase, converte glicose em gluconolactona + 2H⁺ + 2e⁻; o eletrodo da direita, com lacase, converte O₂ + 4H⁺ + 4e⁻ em 2H₂O; setas de H⁺ vão de um eletrodo ao outro e um circuito externo indica a direção dos elétrons](fig:p24-f3)\n\nDado: massa molar da glicose = 180 g/mol. Constante de Faraday: 96500 C/mol (1 C = A·s)",
+   "enunciado": "Recentemente, pesquisadores desenvolveram uma célula eletroquímica que usa glicose como combustível para gerar eletricidade (figura ao lado). Na célula usam-se enzimas adsorvidas em eletrodos de papel, onde ocorrem as reações que geram a corrente elétrica. O eletrodo da esquerda é previamente mergulhado em solução de glicose ($20 \\times 10^{-3}$ mol/L) e, depois de retirado dessa solução, a célula está pronta para funcionar. No seu funcionamento (no gráfico, no campo de resposta), observa-se uma queda da corrente ao longo do tempo, um reflexo da diminuição da concentração da glicose. Assim, para efeito de cálculo, pode-se considerar que a intensidade da corrente elétrica é diretamente proporcional à concentração de glicose.\n\n![esquema da célula: o eletrodo da esquerda, com glicose oxidase, converte glicose em gluconolactona + 2H⁺ + 2e⁻; o eletrodo da direita, com lacase, converte O₂ + 4H⁺ + 4e⁻ em 2H₂O; setas de H⁺ vão de um eletrodo ao outro e um circuito externo indica a direção dos elétrons](fig:p24-f3)\n\nDado: massa molar da glicose = 180 g/mol. Constante de Faraday: 96500 C/moL (1 C = A·s)",
    "itens": [
     {
      "rotulo": "a",
@@ -517,8 +528,9 @@
      "resposta_oficial": "Em 3 horas, a carga é a área abaixo da curva do gráfico (área do trapézio). A unidade foi convertida para Coulomb.\n\n$$Q = \\frac{(80 + 70) \\cdot 3 \\cdot 10^{-6} \\cdot 3600}{2} = 0{,}81\\ C$$\n\nConvertendo a carga na quantidade equivalente de mols de elétrons :\n\n$$n_{\\text{elétrons}} = 0{,}81\\ C \\cdot \\frac{1\\ \\text{mol de elétrons}}{96500\\ C} = 8{,}39 \\cdot 10^{-6}\\ \\text{mol de elétrons}$$\n\nPela equação química, 2 mols de elétrons são utilizados no consumo de 1 mol de glicose\n\n$$n_{\\text{mols de glicose}} = 8{,}39 \\cdot 10^{-6}\\ \\text{mol de elétrons} \\cdot \\frac{1\\ \\text{mol de glicose}}{2\\ \\text{mol de elétrons}} = 4{,}2 \\cdot 10^{-6}\\ \\text{mol de glicose}$$\n\nPortanto, a quantidade que foi consumida durante as primeiras 3 horas de funcionamento é $4{,}2 \\cdot 10^{-6}\\ \\text{mol de glicose}$."
     }
    ],
-   "resposta_oficial": null,
-   "revisao": "transcrita"
+   "resposta_oficial": "**Objetivo da questão:** As habilidades gerais cobradas na questão foram: ler, analisar, comparar e interpretar informações em textos variados, gráficos, figuras, imagens etc.; resolver problemas de Química que envolvam: aplicação de conceitos e informações a situações; descrever, analisar e relacionar conceitos fundamentais da Química e elaborar respostas escritas que envolvam a descrição, exposição e argumentação crítica com base no conteúdo programático da Química. Os conteúdos programáticos envolvidos na questão foram: Transformação geral dos materiais, estequiometria, eletroquímica, cálculos de concentração de soluções e composição geral dos materiais. A questão aborda uma aplicação direta de sistemas químicos na área da saúde, envolvendo transformações químicas e o desenvolvimento de produtos para uso e melhoria da qualidade de vida dos seres humanos. Diferente da aplicação convencional da eletroquímica na produção de energia elétrica em pilhas e baterias, a questão explora o potencial desta área de conhecimento na produção de dispositivos de medição de propriedades relacionadas ao corpo humano e, portanto, tem relação com a área das Ciências Biológicas. Os objetivos da questão envolvem a interpretação de situações onde o conhecimento químico é aplicado. Foi exigido que os estudantes compreendessem como a produção de elétrons em uma transformação química pode gerar uma medida que, associada a outras variáveis, gera um dado que possibilita a tomada de decisão frente a uma situação. A questão também cobrou dos candidatos, conhecimentos procedimentais para a execução de cálculos estequiométricos e a correlação dos resultados com outras medidas na elaboração de um gráfico, pressupondo assim o uso de representações distintas.",
+   "assunto": "Eletroquímica",
+   "revisao": "corrigida"
   }
  ]
 }
