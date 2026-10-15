@@ -1,0 +1,159 @@
+{
+ "edicao": "unicamp-2025-2-cet",
+ "intervalo": [
+  11,
+  20
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 14,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Quando colocamos água em um copo, ele passa a atuar como uma lente cilíndrica. Ao posicionarmos o objeto atrás do copo com água, as características da imagem dependem de sua posição, a exemplo do que acontece com uma lente delgada. Como observado na Figura A, a imagem produzida é real, invertida e maior que o objeto.\n\n![Figura A: duas fotografias de um copo com setas vermelhas ao fundo. À esquerda, copo sem água, rotulado “ar”, com duas setas apontando para a direita. À direita, copo com água até a metade: acima da água, rotulada “ar”, uma seta para a direita; vista através da água, rotulada “água”, uma seta para a esquerda](fig:p16-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "As posições do centro de curvatura e do foco de uma lente delgada estão representadas no eixo óptico ilustrado na Figura B no espaço de respostas. Para que a imagem produzida pela lente seja real, invertida e maior que o objeto, faça o que se pede:\n\ni) represente uma lente delgada no ponto O, explicitando se ela é divergente ou convergente.\nii) posicione o objeto corretamente, representando-o como uma seta apontando para cima, com a base no eixo óptico.\niii) usando o comportamento de dois raios notáveis, encontre a imagem com as características acima, representando-a como uma seta apontando para baixo e com a base no eixo óptico.\n\n*Campo de resolução:*\n\n![Figura B: eixo óptico horizontal com os pontos C′, F′, O, F e C, sobre uma malha quadriculada](fig:p16-c2)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere agora uma lente divergente delgada com distância focal $f = -5\\ \\text{cm}$. Um objeto está posicionado a uma distância $p = 45\\ \\text{cm}$ dessa lente. Qual é o aumento linear transversal $A$ da imagem gerada?"
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A produção enzimática de hidrogênio a partir da glicose e água foi estudada do ponto de vista cinético e termodinâmico, revelando ser possível obter alto rendimento de $\\text{H}_2$ em condições suaves de reação: temperatura ambiente e pressão atmosférica. Com melhorias tecnológicas e integração com células de combustível, essa tecnologia também permitiria resolver alguns dos desafios associados ao armazenamento, à distribuição e à infraestrutura na economia baseada no $\\text{H}_2$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A figura ao lado mostra a velocidade instantânea de formação de hidrogênio e dióxido de carbono em função do tempo do processo estudado. A equação química que representa quantitativamente o resultado desse processo é dada por:\n\n$$\\text{C}_6\\text{H}_{12}\\text{O}_{6(\\text{aq})} + 6\\ \\text{H}_2\\text{O}_{(\\text{aq})} \\rightarrow 12\\ \\text{H}_{2(\\text{g})} + 6\\ \\text{CO}_{2(\\text{g})}$$\n\nLevando em conta essas informações, em que tempo a razão entre as velocidades instantâneas de formação dos produtos se iguala à razão entre seus coeficientes estequiométricos? Justifique.\n\n![gráfico da velocidade instantânea (mmol h⁻¹) em função do tempo (h), com uma curva contínua (H₂) e uma curva tracejada (CO₂)](fig:p21-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Do ponto de vista termodinâmico, para a discussão dos resultados os autores utilizam o diagrama de energia (aqui incompleto) fornecido no campo de respostas. A partir desse diagrama, resolva: (i) no decorrer do processo sob estudo, o meio reacional tenderia a um aumento ou a uma diminuição da temperatura? Justifique. (ii) Calcule o valor da entalpia molar da reação de formação da água.\n\n![diagrama de energia com três níveis horizontais: embaixo, “6 CO₂ + 12 H₂O”; no meio, à esquerda, “C₆H₁₂O₆ + 6 H₂O”; no alto, à direita, “6 CO₂ + 12 H₂”. Uma seta curta, sem valor, sobe do nível do meio para o mais alto. À esquerda, uma seta sobe do nível de baixo ao do meio, com “ΔH° = +2808 KJ” e uma pequena seta curva que sai em direção a “6 O₂”. À direita, uma seta desce do nível mais alto ao de baixo, com “ΔH° = −3430 KJ” e uma pequena seta curva que vem de “6 O₂”](fig:p21-c3)"
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "De acordo com a ONU, i) um terço da população mundial não tem acesso a água potável, ii) as águas transfronteiriças são responsáveis por 60% dos fluxos de água doce do mundo e iii) nos últimos 50 anos os desastres relacionados à água representam 70% de todas as mortes relacionadas a desastres naturais.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "“As sociedades humanas estão mudando onde e como a água flui através da atmosfera. No entanto, tais alterações no ciclo atmosférico da água não estão sendo gerenciadas, nem se tem uma ideia real do rumo que estas alterações poderão tomar no futuro.” Essas afirmações fazem parte do artigo intitulado (em tradução livre) “*Céu seco: cenários futuros para modificações humanas do ciclo da água atmosférica*”, publicado na revista **<em>Global Sustainability</em>** em 2024. Num contexto próximo a esse, em 2023, outro artigo, dessa vez intitulado (também em tradução livre) “*Captação de água atmosférica: uma revisão de técnicas, desempenho, soluções de energia renovável e viabilidade*”, foi publicado na revista **<em>Energy</em>**. Considerando essas informações, comente de que forma os <u>objetivos do segundo artigo</u> i) confirmariam as <u>preocupações expressas no primeiro artigo</u> e ii) contemporizariam a principal preocupação expressa no <u>título do primeiro artigo</u>."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Num dado sentido, a crise mundial da água pode se manifestar por “1) escassez de água, 2) excesso de água ou 3) água muito poluída”, em escala local ou global. No campo de resposta, na figura que representa o ciclo da água, atribua os números 1, 2 e 3 a três dos seis círculos que julgar mais apropriados. Os números só podem ser usados uma única vez. Dentre as atribuições 1, 2 e 3, em qual delas e de que forma a Química pode melhor contribuir para a solução desse problema? Exemplifique e explique sua resposta, levando em conta a sua atribuição dos números na figura oferecida no campo de respostas.\n\n*Campo de resolução:*\n\n![figura do ciclo da água com setas de fluxo e os rótulos Precipitação (~120,000), Evapotranspiração (~74,000), Vegetação natural (~68,800), Irrigação natural (~5,800), Agricultura irrigada (~1600), Indústria (~400) e Cidade (~350), além dos fluxos ~46,000 e ~18,500 que descem até a água; seis círculos vazios: ao lado da Precipitação, junto da Vegetação natural, junto da Agricultura irrigada, junto da Indústria, junto da Cidade e, embaixo à direita, onde a seta que recolhe a água dessas três atividades chega à água](fig:p22-c6)"
+    }
+   ]
+  }
+ ],
+ "respostas_corrigidas": {
+  "15": {
+   "itens": {
+    "a": "![curva de decaimento do radiofármaco: porcentagem em função do tempo (min), com os pontos 100% em 0 min, 50% em 110 min, 25% em 220 min e 12,5% em 330 min, ligados por uma curva](fig:r10-c1)\n\nO tempo decorrido desde o momento em que o paciente recebe a medicação até o final do exame é de 90 min. Depois que ele deixa a clínica, devem-se somar 240 min (4h) ao tempo de 90 minutos. Portanto, o tempo total a ser considerado é de 330 minutos. Sendo o tempo de meia vida do $^{18}_{\\;9}\\text{F}$ de 110 min, a porcentagem restante do radiofármaco será de 12,5 % (3 tempos de meia vida).",
+    "b": "☐ concorda totalmente  ☒ concorda parcialmente  ☐ discorda totalmente\n\nPara ser utilizado em exames de diagnóstico, a radiação deve ser capaz de atravessar o corpo humano, ou escapar do corpo humano, a fim de ser detectada por equipamentos externos e específicos para esta finalidade. Portanto, a primeira parte da afirmação está incorreta (incapaz de atravessar o corpo humano). Uma vez que o objetivo do radiofármaco para diagnóstico por imagem é somente identificar as lesões presentes (diagnóstico), é fundamental que a radiação emitida não cause danos às células saudáveis do corpo humano. Portanto, a segunda parte da afirmação está correta."
+   }
+  },
+  "16": {
+   "itens": {
+    "a": "i) Recursos naturais utilizados. Telha de fibrocimento: calcário e silicatos (cimento) e fibras (tanto de origem vegetal quanto mineral). Telha sanduiche: bauxita – mineral fonte de óxido de alumínio (utilizado na produção do alumínio metálico) e petróleo (derivados, como o isopor, espuma).\nii) Impactos da produção nas mudanças climáticas. Telha de fibrocimento: alta demanda energética, geração de $\\text{CO}_2$, extrativismo mineral e vegetal. Telha sanduíche: mineração da bauxita, extração de petróleo, alta demanda energética.",
+    "b": "i) Parâmetros de análise considerados: quantidade de zinco/m², vida útil das telhas de aço galvanizadas e o ambiente de exposição (ataque químico).\nii) 1) Quanto maior a quantidade de zinco/m², maior é o tempo de vida útil das telhas de aço galvanizadas, para um mesmo ambiente de exposição.\n2) Quanto mais severo o ambiente de exposição, menor a vida útil da telha, para uma mesma quantidade de zinco/m²."
+   }
+  }
+ },
+ "complementos": {
+  "11": {
+   "assunto": "Cinemática"
+  },
+  "12": {
+   "assunto": "Dinâmica"
+  },
+  "13": {
+   "assunto": "Energia e trabalho"
+  },
+  "14": {
+   "assunto": "Óptica"
+  },
+  "15": {
+   "assunto": "Radioatividade"
+  },
+  "16": {
+   "assunto": "Química ambiental"
+  },
+  "17": {
+   "assunto": "Eletroquímica"
+  },
+  "18": {
+   "assunto": "Química ambiental"
+  },
+  "19": {
+   "assunto": "Termoquímica"
+  },
+  "20": {
+   "assunto": "Química ambiental"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "Enunciado, fórmulas (ampliadas) e resposta conferidos; contas da banca verificadas (12 m; 12,5 g). O caderno imprime a unidade de “800 g” em itálico (parece a aceleração g); mantido em fonte normal, como unidade, porque a resposta da banca confirma que é grama."
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": "Enunciado e resposta conferidos; contas verificadas (504 N; 60 m)."
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "Observação do transcritor confirmada: as Respostas esperadas trazem “[(−0,4)² − 0)” (colchete fechado com parêntese) e “90⁰” (expoente zero no lugar do sinal de grau) no item b; a prova comentada também usa “90⁰”. Mantidos como no original, conforme a regra de fidelidade. Figuras A (p15-c1) e B (p15-c3) completas; contas verificadas (k = 20 000 N/m; 1440 J; h = 2 m; n₂ = 1,73)."
+  },
+  {
+   "numero": 14,
+   "status": "corrigida",
+   "notas": "Descrição da Figura A (p16-c1) só dizia “com setas vermelhas”; agora diz o que se vê (duas setas para a direita no copo vazio; no copo com água, seta para a direita acima e seta para a esquerda vista através da água), sem antecipar o que o item pede. Figura B e resposta (r09-c1; conta A = 0,1) conferidas."
+  },
+  {
+   "numero": 15,
+   "status": "corrigida",
+   "notas": "Descrição da figura da resposta (r10-c1) passou a trazer os valores dos pontos (100, 50, 25 e 12,5% em 0, 110, 220 e 330 min), para quem usa leitor de tela. Enunciado (núcleos ¹⁸₉F e ¹⁸₈O ampliados), campo de resolução e resposta conferidos."
+  },
+  {
+   "numero": 16,
+   "status": "corrigida",
+   "notas": "Resposta, item a(i): o original traz “Telha sanduiche” sem acento (no item ii vem “sanduíche”); o rascunho tinha corrigido; voltou como no original. Sublinhados do enunciado e gráfico p18-c1 conferidos."
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "“Dados” impressos depois do item b valem para a questão toda e estão no fim do enunciado, como manda a regra. Figura p19-c1 completa. Resposta conferida (6 mol de elétrons; 27,6 g de NH₄⁺)."
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "Tabela, negritos (AR4/AR5) e campo de resolução conferidos; resposta conferida (lógica da banca verificada: 45·N₂O < 6,75·CH₄)."
+  },
+  {
+   "numero": 19,
+   "status": "corrigida",
+   "notas": "A descrição do diagrama de energia (p21-c3), que o item b(i) manda analisar, não dizia a posição dos níveis nem os “6 O₂” com setas curvas; agora descreve o que se vê (níveis, setas e valores) sem dizer se o processo é endo ou exotérmico. Restante conferido; “H₂O(aq)” e “KJ” estão assim no caderno."
+  },
+  {
+   "numero": 20,
+   "status": "corrigida",
+   "notas": "Observação do transcritor resolvida: novo recorte p22-c6 sem os traços das linhas de resposta na borda direita (conferido pixel a pixel); o círculo inferior direito não é cortado no original e saiu inteiro. Descrição da figura agora localiza os seis círculos e traz os rótulos e números, para quem usa leitor de tela. Nomes das revistas (Global Sustainability, Energy) estão em negrito-itálico no caderno; corrigido. Resposta conferida (sem “i)” no início do item a nas Respostas esperadas, como no original)."
+  }
+ ]
+}

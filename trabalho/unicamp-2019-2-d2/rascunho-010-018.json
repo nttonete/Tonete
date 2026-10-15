@@ -1,0 +1,84 @@
+{
+  "edicao": "unicamp-2019-2-d2",
+  "intervalo": [
+    10,
+    18
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 10,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No plano cartesiano, considere a reta $r$ de equação $2x + y = 1$ e os pontos de coordenadas $A = (1,4)$ e $B = (3,2)$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Encontre as coordenadas do ponto de intersecção entre a reta $r$ e a reta que passa pelos pontos $A$ e $B$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Determine a equação da circunferência na qual um dos diâmetros é o segmento $\\overline{AB}$."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 11,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sabendo que $a$ e $b$ são números reais, considere a matriz quadrada de ordem 2,\n\n$$A = \\begin{bmatrix} 1 & 1 \\\\ a & b \\end{bmatrix}.$$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Determine todos os valores de $a$ e $b$ para os quais $A^T A = A A^T$, em que $A^T$ é a transposta da matriz $A$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Para $a = b = 2$, sejam $k$ e $\\theta$ números reais tais que\n\n$$A \\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix} = k \\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix}.$$\n\nDetermine os possíveis valores de $\\tan\\theta$."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Seja um cilindro circular reto com raio da base de comprimento $r = 2$ cm e altura de comprimento $h$. Seja $d$ a maior distância entre dois pontos desse cilindro, como ilustra a figura abaixo.\n\n![Cilindro circular reto com a diagonal d ligando dois pontos de bases opostas, a altura h ao lado e o raio r da base indicados](fig:p14-f1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Supondo que o cilindro tenha volume igual a um litro, calcule sua área de superfície total."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Determine o valor de $d$ no caso em que $(r, h, d)$ seja uma progressão geométrica."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "10": {
+      "itens": {
+        "a": "A equação da reta que passa pelos pontos $A = (1,4)$ e $B = (3,2)$ é dada por $\\frac{x-1}{3-1} = \\frac{y-4}{2-4}$, ou seja, $x + y = 5$. A intersecção dessa reta com a reta $r$ pode ser obtida pela resolução do sistema linear\n\n$$\\begin{cases} 2x + y = 1, \\\\ x + y = 5. \\end{cases}$$\n\nSubtraindo as duas equações temos $(2x + y) - (x + y) = 1 - 5$, ou seja, $x = -4$ e, portanto, $y = 5 - x = 9$. Logo, o ponto de intersecção tem coordenadas $(-4,9)$.",
+        "b": "O centro da circunferência é o ponto médio do segmento $\\overline{AB}$, $(x_c, y_c) = \\left(\\frac{1+3}{2}, \\frac{4+2}{2}\\right) = (2,3)$. O raio da circunferência é a metade do comprimento do segmento $\\overline{AB}$, $r = \\frac{1}{2}\\sqrt{(1-3)^2 + (4-2)^2} = \\sqrt{2}$. Logo, a equação da circunferência é dada por $(x - x_c)^2 + (y - y_c)^2 = r^2$, ou seja, $(x-2)^2 + (y-3)^2 = 2$."
+      }
+    },
+    "11": {
+      "itens": {
+        "a": "Desenvolvendo a igualdade $A^T A = A A^T$, obtemos\n\n$$\\begin{bmatrix} 1 & a \\\\ 1 & b \\end{bmatrix}\\begin{bmatrix} 1 & 1 \\\\ a & b \\end{bmatrix} = \\begin{bmatrix} 1 & 1 \\\\ a & b \\end{bmatrix}\\begin{bmatrix} 1 & a \\\\ 1 & b \\end{bmatrix} \\Rightarrow \\begin{bmatrix} 1+a^2 & 1+ab \\\\ 1+ab & 1+b^2 \\end{bmatrix} = \\begin{bmatrix} 2 & a+b \\\\ a+b & a^2+b^2 \\end{bmatrix}.$$\n\nIgualando elemento a elemento, temos o sistema\n\n$$\\begin{cases} 1 + a^2 = 2, \\\\ 1 + ab = a + b, \\\\ 1 + b^2 = a^2 + b^2. \\end{cases}$$\n\nLogo, $a^2 = 1$ e $1 + ab = a + b$. Para $a = -1$, temos $1 - b = -1 + b$, $b = 2$. Para $a = 1$, temos $1 + b = 1 + b$, ou seja, qualquer $b$ real. Portanto, os valores possíveis para $a$ e $b$ são: $(i)$ $a = -1$ e $b = 2$ ou $(ii)$ $a = 1$ e $b$ igual a qualquer número real.",
+        "b": "Temos que\n\n$$\\begin{bmatrix} 1 & 1 \\\\ 2 & 2 \\end{bmatrix}\\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix} = k\\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix} \\Rightarrow \\begin{cases} \\cos\\theta + \\text{sen}\\,\\theta = k\\,\\cos\\theta, \\\\ 2\\cos\\theta + 2\\,\\text{sen}\\,\\theta = k\\,\\text{sen}\\,\\theta. \\end{cases} \\Rightarrow \\begin{cases} \\cos\\theta + \\text{sen}\\,\\theta = k\\,\\cos\\theta, \\\\ \\cos\\theta + \\text{sen}\\,\\theta = \\frac{k}{2}\\,\\text{sen}\\,\\theta. \\end{cases}$$\n\nLogo, $k\\cos\\theta = \\frac{k}{2}\\,\\text{sen}\\,\\theta$, ou seja, $k(2\\cos\\theta - \\text{sen}\\,\\theta) = 0$. Assim, temos duas possibilidades: (i) $k = 0$, implicando $\\cos\\theta + \\text{sen}\\,\\theta = 0$, ou seja, $\\tan\\theta = -1$, ou (ii) $2\\cos\\theta - \\text{sen}\\,\\theta = 0$, implicando $\\tan\\theta = 2$. Portanto, os possíveis valores para $\\tan\\theta$ são $-1$ e $2$."
+      }
+    },
+    "12": {
+      "itens": {
+        "a": "O volume do cilindro é dado por $V = \\pi r^2 h = 4\\pi h = 1\\ l = 1.000\\ \\text{cm}^3$. Logo, $h = \\left(\\frac{250}{\\pi}\\right)\\text{cm}$. A área de superfície total do cilindro é dada por $S = \\pi r^2 + \\pi r^2 + 2\\pi r h = 4\\pi + 4\\pi + 4\\pi \\times \\frac{250}{\\pi} = (8\\pi + 1.000)\\ \\text{cm}^2$.",
+        "b": "Considere o triângulo retângulo com catetos de comprimentos $2r$ e $h$ e hipotenusa de comprimento $d$, como ilustra a figura abaixo.\n\n![Cilindro com bases e lados em linha tracejada e, em linha contínua, um triângulo retângulo com a base de dois raios r, a altura h e a hipotenusa d](fig:r03-f1)\n\nPelo Teorema de Pitágoras, $d^2 = (2r)^2 + h^2 = 16 + h^2$. Como $(r, h, d)$ é uma progressão geométrica, $h/r = d/h$, ou seja, $h^2 = 2d$. Assim, $d^2 = 16 + 2d$. Resolvendo essa equação quadrática, obtemos duas soluções, $d = 1 - \\sqrt{17}$ e $d = 1 + \\sqrt{17}$. Como $d$ deve ser positivo, a solução é $d = (1 + \\sqrt{17})\\ \\text{cm}$."
+      }
+    }
+  }
+}
