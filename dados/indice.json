@@ -337,6 +337,66 @@
    ]
   },
   {
+   "id": "fuvest-2025-2-d1",
+   "vestibular": "fuvest",
+   "ano": 2025,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "FUVEST (USP) 2025 – 2ª fase (1º dia: Português)",
+   "caderno": "1º dia: Português",
+   "fonte": {
+    "caderno": "2fase-dia1-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/fuvest-2025-2-d1.json",
+   "total": 9,
+   "validas": 9,
+   "com_resposta": 9,
+   "materias": {
+    "literatura": 4,
+    "portugues": 5
+   },
+   "indisponiveis": [
+    1
+   ]
+  },
+  {
+   "id": "fuvest-2025-2-d2",
+   "vestibular": "fuvest",
+   "ano": 2025,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "FUVEST (USP) 2025 – 2ª fase (2º dia: Matemática, Física, Química, Biologia, Geografia e História)",
+   "caderno": "2º dia: Matemática, Física, Química, Biologia, Geografia e História",
+   "fonte": {
+    "caderno": "2fase-dia2-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/fuvest-2025-2-d2.json",
+   "total": 35,
+   "validas": 35,
+   "com_resposta": 35,
+   "materias": {
+    "biologia": 6,
+    "fisica": 6,
+    "geografia": 6,
+    "historia": 5,
+    "matematica": 6,
+    "quimica": 6
+   },
+   "indisponiveis": [
+    21
+   ]
+  },
+  {
    "id": "fuvest-2026-2-d1",
    "vestibular": "fuvest",
    "ano": 2026,

@@ -1,0 +1,1012 @@
+{
+ "edicao": {
+  "id": "fuvest-2025-2-d2",
+  "vestibular": "fuvest",
+  "ano": 2025,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "FUVEST (USP) 2025 – 2ª fase (2º dia: Matemática, Física, Química, Biologia, Geografia e História)",
+  "caderno": "2º dia: Matemática, Física, Química, Biologia, Geografia e História",
+  "fonte": {
+   "caderno": "2fase-dia2-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-respostas.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "fuvest-2025-2-d2-q01",
+   "numero": 1,
+   "codigo": "B01",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Diretor-Geral da OMS declara o surto de mpox uma emergência de saúde pública de importância internacional. Após o surgimento de uma nova variação de mpox, a sua rápida propagação no leste da República Democrática do Congo e a notificação de casos em vários países vizinhos, está claro que é necessária uma resposta internacional coordenada para deter esses surtos e salvar vidas.\n\nO vírus da mpox possui DNA como material genético, envolto em uma estrutura de proteínas, dentro de uma membrana lipoproteica, conforme esquema ao lado.\n\n![Esquema do vírus da mpox, com legendas apontando para lipídeos, proteínas, DNA e proteínas](fig:p03-f1)\n\nAté agosto de 2024, havia apenas uma vacina aprovada para uso contra a mpox na União Europeia e nos países do Espaço Econômico Europeu, assim como no Reino Unido, Estados Unidos, Suíça e Canadá. No Brasil, a Universidade Federal de Minas Gerais está desenvolvendo a primeira vacina contra mpox, utilizando vírus inativado.”\n\nDisponível em https://g1.globo.com/saude/noticia/2024/08/20/.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite uma forma de prevenção contra a mpox.",
+     "resposta_oficial": "Não tocar nas feridas, evitar contato com pessoa infectada."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é a classe de moléculas específica do vírus que gera resposta imunológica em indivíduos vacinados? Justifique a sua resposta.",
+     "resposta_oficial": "Proteína/peptídeo. Após a imunização, a pessoa passa a produzir anticorpos que reconhecem as proteínas específicas dos vírus (ou células passam a produzir receptores que reconhecem as proteínas específicas do vírus expressas em células infectadas)."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Que tipo de evento influencia o surgimento de novas variantes de vírus? Justifique a sua resposta.",
+     "resposta_oficial": "Mutações. Os vírus que possuem mutações que conferem alguma vantagem se sobressaem e se fixam na população."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também uso de máscaras, álcool 70% e sabão para higienização das mãos, isolamento/distanciamento social, vacinação, não compartilhar utensílios pessoais.\n- item b: 2 pontos. Aceitou-se também glicoproteína, ativação de linfócitos, ativação de células de memória ou memória imunológica.\n- item c: 2 pontos. Aceitou-se também alteração/mudança do material genético, seleção dos adaptados, variabilidade genética, possibilidade de gerar de novas proteínas/estruturas e resistência, características diferentes da original.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q02",
+   "numero": 2,
+   "codigo": "B02",
+   "materia": "biologia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "Leia a tirinha e responda:\n\n![Tirinha em quatro quadros. Quadro 1: “No decorrer das eras, a Amazônia e o Cerrado mantiveram um delicado equilíbrio...”. Quadro 2: “Nos períodos mais secos, vastas áreas de Cerrado avançaram sobre a floresta...”. Quadro 3: “Já nos períodos úmidos, se deu o contrário...” e “E a floresta avançou sobre o Cerrado!”. Quadro 4: “Atualmente esse equilíbrio foi rompido...” e “E o agronegócio avança sobre os dois biomas!”](fig:p03-f2)\n\nDisponível em: @cerrado.em.quadrinhos.oficial (Instagram).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Além da Amazônia, o Cerrado faz fronteira com quais outros biomas terrestres brasileiros?",
+     "resposta_oficial": "O Cerrado faz fronteira, além da Amazônia, com a Caatinga, a Mata Atlântica e o Pantanal."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A tirinha faz referência a períodos úmidos e secos ao longo do tempo geológico. Considerando o período de um ano, como se apresenta o clima nas regiões centrais do Cerrado? Explique.",
+     "resposta_oficial": "O clima se apresenta sazonal, com verões chuvosos (geralmente entre outubro a março) e invernos secos (geralmente entre abril a setembro)."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Com o desmatamento da floresta tem avançado o processo denominado de “savanização da Amazônia”. Cite uma maneira pela qual as mudanças climáticas globais causam a savanização da Amazônia e uma maneira pela qual a savanização desse bioma afeta as mudanças climáticas globais.",
+     "resposta_oficial": "A diminuição no volume e no regime de chuvas faz com que o clima amazônico fique mais seco, aumentando a savanização. Com isso, a capacidade da floresta de regular o clima e as temperaturas é afetada, de maneira que o planeta se torna mais quente."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também diminuição dos rios voadores, da evapotranspiração, amenização da temperatura pela cobertura florestal, diminuição do sequestro de $\\text{CO}_2$.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q03",
+   "numero": 3,
+   "codigo": "B03",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Pacientes com hemofilia B não produzem o fator IX de coagulação devido a uma mutação no gene que codifica esse fator localizado no cromossomo X. O tratamento mais antigo é a reposição semanal da proteína via corrente sanguínea. Atualmente, há duas opções para o tratamento da hemofilia B: o transplante de fígado, que é o órgão que produz o fator IX, ou a terapia gênica. Para que haja indicação do transplante de fígado, o paciente deve apresentar quadro de insuficiência hepática terminal. Os pacientes hemofílicos com insuficiência hepática que foram submetidos ao transplante foram curados das duas doenças. Em 2022, empresas de biotecnologia desenvolveram produtos que levam uma cópia do gene do fator IX diretamente ao fígado dos pacientes com hemofilia B. Uma cópia do gene do fator IX sem a mutação é encapsulado em vírus que entram especificamente nas células hepáticas, fazendo com que a pessoa passe a produzir o fator IX.\n\nA genealogia ao lado representa uma família em que ocorre hemofilia B.\n\n![Genealogia de uma família com hemofilia B, com legenda de homem portador do alelo mutante, homem não portador, mulher não portadora e mulher portadora](fig:p05-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A mulher III.3 está grávida do homem III.4. Já se sabe que o bebê é um menino. Qual é a probabilidade de esse bebê nascer com hemofilia B?",
+     "resposta_oficial": "$X^{H}X^{h}$ x $X^{H}Y$ = filhos homens $X^{H}Y$ ou $X^{h}Y$ 50% de chance de ter hemofilia."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere que o homem I.1 recebeu transplante de fígado antes de II.2 ter sido concebida e que ele não apresenta mais os sintomas da hemofilia B. Nesse caso, qual será a probabilidade de o filho menino do casal III.3 x III.4 nascer com hemofilia B? Justifique a sua resposta.",
+     "resposta_oficial": "A probabilidade não muda, continua sendo 50%, pois as células germinativas não foram afetadas, o alelo mutado continua passando para as gerações seguintes."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Explique como os vírus carregando uma cópia do gene do fator IX podem fazer com que a pessoa passe a produzir o fator IX.",
+     "resposta_oficial": "Os vírus integram o gene no genoma da célula hepática que transcreve o gene com sua maquinaria de transcrição."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q04",
+   "numero": 4,
+   "codigo": "B04",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na Olimpíada de Paris, realizada em 2024, a atleta Victória Borges, da equipe de Ginástica Artística, apresentou um quadro de contratura muscular na panturrilha, que prejudicou o seu desempenho durante a apresentação. Nos episódios de contratura muscular, o músculo, ou um grupo de músculos, fica permanentemente contraído, levando à dor localizada. Várias são as causas que podem levar à contratura muscular, dentre elas lesões, falta ou excesso de atividade física, distúrbios neuromusculares.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No processo de contração muscular, quais são as principais proteínas contráteis envolvidas?",
+     "resposta_oficial": "Actina e Miosina."
+    },
+    {
+     "rotulo": "b",
+     "texto": "No caso de a contratura muscular da Victória Borges ter ocorrido devido a um distúrbio neuromuscular, quais teriam sido os tecidos envolvidos nessa lesão?",
+     "resposta_oficial": "Nervoso e Muscular."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Um dos motivos de a contratura muscular ocorrer por excesso de atividade física é a falta de ATP (Trifosfato de Adenosina). Por que a falta de ATP pode levar à contratura muscular? Justifique a sua resposta.",
+     "resposta_oficial": "A falta de ATP pode impedir o relaxamento muscular, levando a uma contratura. O ATP é necessário para a ligação entre as proteínas envolvidas na contração muscular."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também: interrupção do funcionamento da bomba de cálcio dos retículos sarcoplasmáticos impedindo a remoção do cálcio citoplasmático e, consequentemente, o relaxamento muscular; e interrupção do funcionamento de bombas de sódio/potássio da membrana celular, impedindo a repolarização da membrana plasmática e, consequentemente, o relaxamento muscular.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q05",
+   "numero": 5,
+   "codigo": "B05",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O governo de São Paulo proibiu a venda de mariscos, ostras e mexilhões, na Baixada Santista, no litoral de São Paulo. O comércio de estoques desses alimentos, produzidos a partir de 30 de julho, foi proibido nas cidades de Itanhaém, Cananeia e Praia Grande. A medida acontece após amostras de água coletadas pela Companhia Ambiental do Estado de São Paulo (CETESB) apontarem quantidades da microalga *Dinophysis acuminata* acima do valor máximo permitido.\n\nDisponível em https://www.cnnbrasil.com.br/nacional/ (Adaptado).\n\nEssa notícia circulou nos principais veículos de imprensa na primeira quinzena do mês de agosto de 2024, prejudicando o setor de vendas de frutos do mar nas regiões litorâneas do estado de São Paulo.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quantos filos de animais são mencionados na notícia?",
+     "resposta_oficial": "Um (1)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é o aspecto fisiológico que explica a proibição ocorrer apenas para os mariscos, ostras e mexilhões? Justifique a sua resposta.",
+     "resposta_oficial": "Porque os moluscos bivalves são filtradores. Dessa forma, acumulam e concentram os componentes presentes na água."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Cite uma causa para o aumento da quantidade de microalgas no ambiente aquático e uma consequência de tal aumento para esse mesmo ambiente.",
+     "resposta_oficial": "Causas: Eutrofização; ou mudanças climáticas; ou temperaturas elevadas; estagnação da água; ou luz solar intensa; ou redução de predadores naturais das microalgas. Consequências: hipóxia; ou morte de organismos aquáticos; ou produção de toxinas; ou alterações na cadeia alimentar; ou impactos no turismo e recreação."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q06",
+   "numero": 6,
+   "codigo": "B06",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura representa a estrutura molecular do pigmento clorofila *a*.\n\n![Estrutura molecular da clorofila a, com átomo de magnésio ao centro do anel de porfirina e cadeia lateral longa](fig:p07-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "De que modo a clorofila *a* participa do processo de fotossíntese?",
+     "resposta_oficial": "A clorofila *a* tem sua função ligada à captação de energia solar (absorvendo comprimentos de onda específicos)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "De onde provém originalmente o magnésio presente nas moléculas de clorofila de folhas de uma angiosperma? Explique sucintamente como esse elemento chega até a folha.",
+     "resposta_oficial": "O magnésio provém do solo por meio da absorção de água e nutrientes pelas raízes e chega às folhas pelo transporte de fluxo de massa pelo xilema."
+    },
+    {
+     "rotulo": "c",
+     "texto": "De maneira simplificada, afirma-se que *a fotossíntese produz glicose para a planta e libera oxigênio*. No processo fotossintético, a sequência de eventos é a mesma que aparece nessa frase, ou seja, primeiro a glicose é produzida e, em seguida, o gás oxigênio é liberado? Justifique a sua resposta sucintamente.",
+     "resposta_oficial": "Não. Na fotossíntese, primeiro ocorre a liberação de oxigênio no processo de fotólise da água (ocorrido na chamada fase clara da fotossíntese), que libera $\\text{O}_2$, íons $\\text{H}^+$ e elétrons. Em seguida, na fase bioquímica (ou fase escura, ou fase enzimática), o $\\text{CO}_2$ captado da atmosfera pela planta é fixado por processos enzimáticos (ciclo de Krebs) e ocorre a produção de compostos orgânicos, em especial, glicose."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q07",
+   "numero": 7,
+   "codigo": "F01",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em seu projeto para uma feira de ciências, uma estudante decide reproduzir o experimento histórico de Joule sobre o “equivalente mecânico do calor”. Ela então monta o aparato esquematizado na figura ao lado. No experimento, a estudante deixa cair um bloco preso a uma corda que passa por uma roldana e cujo movimento faz girar pás que agitam o líquido contido em um calorímetro termicamente isolado.\n\n![Esquema do aparato: bloco preso a uma corda que passa por uma roldana e faz girar pás dentro de um calorímetro com líquido e termômetro](fig:p10-f3)\n\n**Note e adote:**\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.\nSuponha que a corda seja inextensível e que a roldana tenha massa desprezível.\nDespreze todos os atritos, exceto a resistência do líquido ao movimento das pás.\nDespreze as dimensões do bloco.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O bloco, de massa igual a 5 kg, cai com velocidade praticamente constante. Qual é a força de tração na corda?",
+     "resposta_oficial": "Nessas condições, a força resultante sobre o bloco tem que ser nula. Como essa força é a soma da força peso $mg$, para baixo, com a força de tensão $T$ na corda, para cima, temos $T = mg = 5 \\times 10 = 50\\ \\text{N}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Suponha que o bloco caia até o chão, partindo de uma altura de 50 cm. Entre o início e o final da queda, determine o trabalho mecânico realizado pela força peso sobre o bloco e a variação da energia potencial gravitacional do sistema formado pelo bloco e pela Terra.",
+     "resposta_oficial": "Entre o início e o final da queda, tanto a força peso quanto o deslocamento do bloco apontam para baixo. Logo, o trabalho da força peso é $W = mgh = 50 \\times 0{,}5 = 25\\ \\text{J}$. Já a variação da energia potencial gravitacional é $\\Delta U = mg \\times 0 - mgh = -25\\ \\text{J}$."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Suponha agora que o bloco seja substituído por outro e que, durante a queda desse novo bloco, a força peso atuando sobre ele realize um trabalho de módulo igual a 70 J. Suponha ainda que o líquido no calorímetro tenha massa de 10 kg, que seu calor específico seja de $2000\\ \\text{J kg}^{-1}\\ \\text{K}^{-1}$ e que o termômetro utilizado pela estudante tenha precisão de 0,1 K. A estudante conseguirá medir a variação de temperatura do líquido provocada pela queda do bloco? Justifique a sua resposta.",
+     "resposta_oficial": "Pela conservação da energia, o trabalho $W$ transferido ao calorímetro, igual ao trabalho da força peso sobre o bloco, deve ser também igual à variação da energia interna do líquido, dada por $Mc\\Delta T$, sendo $M$ a massa de líquido, $c$ seu calor específico e $\\Delta T$ a variação de sua temperatura. Com isso, temos $W = Mc\\Delta T$, de modo que $\\Delta T = W/Mc = 70/20000 = 3{,}5 \\times 10^{-3}\\ \\text{K}$, que é muito menor do que a precisão do termômetro. Logo, a estudante não conseguirá medir a variação de temperatura."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q08",
+   "numero": 8,
+   "codigo": "F02",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um carro percorre uma estrada que passa por uma colina cujo formato, no trecho próximo do alto, é praticamente circular, como indicado na figura, em que o ponto C corresponde ao centro do círculo de raio $R = 90\\ \\text{m}$.\n\n![Colina de formato circular com um carro no alto; pontos A e B sobre a colina, centro C, raio R e ângulo θ entre os segmentos CA e CB](fig:p10-f4)\n\n**Note e adote:**\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No ponto mais alto da trajetória, a motorista do carro em movimento sente-se “mais leve” do que se estivesse sentada em um carro parado. Nessas condições, o módulo da força normal, $N$, sobre a motorista é maior, menor ou igual ao módulo de seu peso, $P$? Justifique a sua resposta.",
+     "resposta_oficial": "A sensação de “peso” ao sentarmos vem da força vertical de contato com o assento, ou seja, da força normal. Se a pessoa se sente mais leve, conclui-se que a força normal diminui (torna-se menor do que o peso)\n\nOutra argumentação possível é de que, como o carro está percorrendo uma circunferência com velocidade de módulo constante, deve haver uma resultante centrípeta atuando sobre a motorista. No ponto mais alto, essa resultante aponta verticalmente para baixo e equivale à soma vetorial do peso (para baixo) e da normal (para cima), de modo que o módulo desta última deve ser menor que o do peso."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Calcule o tempo $\\Delta t$ necessário para que o carro percorra a distância entre os pontos A e B, indicados no desenho, supondo que sua velocidade tenha módulo constante e igual a 72 km/h e que o ângulo $\\theta$ seja igual a 2 radianos.",
+     "resposta_oficial": "O tempo de percurso é $\\Delta t = \\Delta s / v$, sendo $\\Delta s = R\\theta$ o comprimento do arco de circunferência entre $A$ e $B$ e $v = 72\\ \\text{km/h} = 20\\ \\text{m/s}$. Logo, temos $\\Delta t = R\\theta / v = 90 \\times 2/20 = 9\\ \\text{s}$."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Calcule a máxima velocidade que o carro pode ter para que, no ponto mais alto da colina, não perca o contato com a pista.",
+     "resposta_oficial": "O limite para que o carro perca o contato com a pista no alto da colina, ainda em trajetória localmente circular, ocorre quando a força normal se anula apenas naquele ponto. Isso implica que a força centrípeta é fornecida pela força gravitacional. Logo, temos $mg = mv^2/R$, ou seja, $v = \\sqrt{gR} = 30\\ \\text{m/s}$."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q09",
+   "numero": 9,
+   "codigo": "F03",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma membrana celular, situada entre o meio externo e o interior de uma célula, pode ser tratada de forma aproximada como um capacitor, cujas superfícies interna e externa apresentam excesso de ânions (cargas negativas) e de cátions (cargas positivas), respectivamente. Considere uma membrana celular cujas superfícies têm praticamente a mesma área $A = 1{,}2\\times10^{-9}\\ \\text{m}^2$ e densidades superficiais de carga de mesmo módulo $\\sigma = 7\\times10^{-4}\\ \\text{C/m}^2$.\n\n**Note e adote:**\nUma esfera de raio $R$ tem área superficial igual a $4\\pi R^2$ e volume $4\\pi R^3/3$.\nConsidere $\\pi \\simeq 3$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Tratando, de forma aproximada, a membrana celular como uma casca esférica de espessura desprezível frente ao raio, encontre o volume da “célula” que essa membrana delimita.",
+     "resposta_oficial": "A área da superfície da membrana é $A = 4\\pi r^2 = 1{,}2 \\times 10^{-9}\\ \\text{m}^2$, de forma que o raio da membrana é:\n\n$$r = \\sqrt{A/4\\pi} \\simeq 10^{-5}\\ \\text{m}$$\n\nDessa forma, o volume da membrana é:\n\n$$V = \\frac{4\\pi r^3}{3} = 4 \\times 10^{-15}\\ \\text{m}^3$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine, em coulombs, o valor do módulo da carga elétrica em cada superfície.",
+     "resposta_oficial": "Da definição de densidade superficial de carga, $Q = \\sigma A = 7 \\times 10^{-4} \\times 1{,}2 \\times 10^{-9} = 8{,}4 \\times 10^{-13}\\ \\text{C}$."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Supondo que as cargas das superfícies têm agora módulo igual a $7\\times10^{-14}\\ \\text{C}$ e que a diferença de potencial entre as superfícies externa e interna vale $V = 70\\ \\text{mV}$, encontre a capacitância da membrana.",
+     "resposta_oficial": "Da relação entre capacitância, carga e diferença de potencial, temos:\n\n$$C = \\frac{Q}{V} = \\frac{7 \\times 10^{-14}}{70 \\times 10^{-3}} = 1 \\times 10^{-12}\\ \\text{F}$$"
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 2 pontos.\n- item b: 1 ponto.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q10",
+   "numero": 10,
+   "codigo": "F04",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Ondas sísmicas são ondas que se propagam em camadas de rochas no interior do manto da Terra. Essas ondas podem ser longitudinais (como o som, por exemplo) ou transversais (como as ondas que se propagam em uma corda). Um tipo de onda sísmica transversal é a chamada *onda secundária* (ou “onda S” ou “onda de cisalhamento”) e sua velocidade é dada por\n\n$$v_S = \\sqrt{\\frac{\\mu}{\\rho}}\\,,$$\n\nem que $\\mu$ é o módulo de cisalhamento e $\\rho$ é a densidade (ou massa específica), parâmetros da rocha em que a onda se propaga.\n\n**Note e adote:**\nUnidade de densidade (massa específica) no SI: $\\text{kg/m}^3$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Através de uma análise dimensional, determine a unidade do módulo de cisalhamento $\\mu$ no Sistema Internacional de Unidades (SI).",
+     "resposta_oficial": "Fazendo uma análise dimensional da velocidade:\n\n$$v_S^2 = \\frac{\\mu}{\\rho} \\Rightarrow [\\mu] = [\\rho]\\cdot[v_S]^2 \\Rightarrow [\\mu] = \\frac{\\text{kg}}{\\text{m}^3}\\,\\frac{\\text{m}^2}{\\text{s}^2} = \\frac{\\text{kg}}{\\text{m}\\cdot\\text{s}^2} = \\frac{\\text{kg}\\cdot\\left(\\frac{\\text{m}}{\\text{s}^2}\\right)}{\\text{m}^2} = \\frac{\\text{N}}{\\text{m}^2} = \\text{Pa}$$\n\nResposta: Pascal (Pa) ou kg/(m s²)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na interface entre dois tipos de rocha, pode haver refração das ondas sísmicas, e a mudança de direção é dada pela Lei de Snell, conforme mostra o exemplo da figura a seguir.\n\n![Duas camadas de rocha, camada 1 acima da camada 2, com o raio incidente, o raio refratado e os ângulos θ1 e θ2 medidos em relação à vertical tracejada](fig:p12-f2)\n\n$$\\frac{\\text{sen}\\,\\theta_1}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{v_{S2}}$$\n\nVelocidades de ondas S típicas de alguns materiais comuns no manto terrestre são dadas na tabela a seguir.\n\n| Material | Granito | Basalto | Arenito | Calcário | Argila |\n|---|---|---|---|---|---|\n| Velocidade da onda S (m/s) | 2900 | 2600 | 1400 | 2700 | 700 |\n\nFontes: https://gpg.geosci.xyz/content/physical_properties/seismic_velocity_duplicate.html\nhttps://pburnley.faculty.unlv.edu/GEOL452_652/seismology/notes/SeismicNotes10RVel.html\n\nConsidere uma onda S harmônica de frequência 0,3 Hz propagando-se através de uma interface entre duas camadas com composições diferentes.\n\nSe a camada 1 for predominantemente composta por basalto e a camada 2 por granito, qual será a variação no comprimento de onda, $\\lambda_2 - \\lambda_1$?",
+     "resposta_oficial": "A frequência permanece a mesma na interface. Nas camadas, temos $\\lambda_1 = \\frac{v_{s1}}{f}$ e $\\lambda_2 = \\frac{v_{s2}}{f}$.\n\nLogo,\n\n$$\\lambda_2 - \\lambda_1 = \\frac{v_{s2} - v_{s1}}{f} = \\frac{2900 - 2600}{0{,}3} = 1000\\ \\text{m}$$\n\nResposta: $\\lambda_2 - \\lambda_1 = 1000$ m."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Em outra interface, são medidos $\\text{sen}\\,\\theta_1 = 0{,}26$ e $\\text{sen}\\,\\theta_2 = 0{,}52$. Se a camada 1 for composta predominantemente de argila, qual será, dentre os materiais apresentados na tabela, aquele que melhor corresponderá à composição da camada 2? Justifique a sua resposta.",
+     "resposta_oficial": "Pela Lei de Snell:\n\n$$\\frac{\\text{sen}\\,\\theta_1}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{v_{S2}} \\Rightarrow \\frac{v_{S2}}{v_{S1}} = \\frac{\\text{sen}\\,\\theta_2}{\\text{sen}\\,\\theta_1} = \\frac{0{,}52}{0{,}26} = 2 \\Rightarrow v_{S2} = 2v_{S1} = 1400\\ \\text{m/s}$$\n\nLogo, a camada 2 deve ser majoritariamente composta de arenito."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q11",
+   "numero": 11,
+   "codigo": "F05",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O “efeito estilingue” é o nome que se dá à modificação do módulo e da direção da velocidade de uma espaçonave quando ela passa nas imediações de um planeta. Ele foi utilizado, por exemplo, para encurtar em mais de 5 anos a duração da viagem da sonda *New Horizons* até Plutão, passando por Júpiter. A figura ao lado ilustra o efeito em uma situação na qual uma sonda de massa 500 kg, viajando inicialmente para a direita, move-se em direção a um planeta de massa $2{,}0\\times10^{27}$ kg que viaja para a esquerda. Como a massa da sonda é desprezível frente à do planeta, a trajetória deste último praticamente não se altera, embora parte de sua energia cinética seja transferida para a sonda. Nos pontos $A$ e $B$ indicados na figura, as distâncias entre a sonda e o planeta são tais que a energia potencial gravitacional associada à interação entre eles pode ser desprezada.\n\n![Gráfico da coordenada y em função da coordenada x, em unidades arbitrárias, com a trajetória da sonda do ponto A ao ponto B e a trajetória do planeta; legendas: “Sonda”, “Planeta”, “planeta se move praticamente em linha reta.” e “velocidade da sonda aumenta pela interação com o planeta”](fig:p14-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No ponto $A$, a velocidade $\\vec{v}_A$ da sonda em relação ao Sol tem apenas componente $x$, dada por 20 km/s, enquanto essa velocidade no ponto $B$ é $\\vec{v}_B$, com componente $x$ igual a -7 km/s e componente $y$ igual a -24 km/s. De quanto foi o aumento no módulo da velocidade da sonda entre esses dois pontos?",
+     "resposta_oficial": "O módulo da velocidade da sonda no ponto $A$ é $v_A = 20$ km/s e o módulo correspondente no ponto $B$ é $v_\\text{B} = \\sqrt{(-7)^2 + 24^2} = 25$ km/s. Logo, a variação do módulo da velocidade da sonda foi de 5 km/s."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Nas mesmas condições do item anterior, determine as componentes $x$ e $y$ do vetor variação da quantidade de movimento da sonda entre os pontos $A$ e $B$, bem como a tangente do ângulo entre esse vetor e o eixo $x$.",
+     "resposta_oficial": "A variação do vetor quantidade de movimento da sonda foi:\n\n$$\\Delta\\vec{Q} = \\vec{Q}_B - \\vec{Q}_A = m(\\vec{v}_B - \\vec{v}_A)$$\n\nA componente $x$ dessa variação vale $Q_x = 500(-7-20) = -13500$ kg.km/s, enquanto a componente $y$ vale $Q_Y = 500(-24-0) = -12000$ kg.km/s.\n\nA tangente do ângulo que o vetor $\\Delta\\vec{Q}$ faz com o eixo $x$ é $tg\\,\\theta = Q_Y/Q_x = 24/27 = 8/9$."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Nas mesmas condições dos itens anteriores, qual é a razão entre a variação da energia cinética do planeta e sua energia cinética inicial? Suponha que o módulo da velocidade inicial do planeta, em relação ao Sol, fosse de 5 km/s. Despreze a variação da energia potencial gravitacional associada à interação da sonda e do planeta com o Sol durante o processo.",
+     "resposta_oficial": "Como podemos desprezar todas as contribuições de energia potencial gravitacional, a conservação da energia mecânica impõe que as variações de energia cinética da sonda, $\\Delta E_s$, e do planeta, $\\Delta E_p$, relacionam-se por:\n\n$$\\Delta E_p = -\\Delta E_s = \\frac{1}{2}mv_A^2 - \\frac{1}{2}mv_B^2$$\n\nPor outro lado, a energia cinética inicial do planeta é $E_p = \\frac{1}{2}MV^2$, de modo que a razão pedida é:\n\n$$\\Delta E_p/E_p = (m/M)(v_A^2 - v_B^2)/V^2$$\n\nSubstituindo os dados, temos:\n\n$$\\frac{\\Delta E_p}{E_p} = \\frac{500}{2{,}0\\times10^{27}}\\cdot\\frac{20^2 - 25^2}{5^2} = -2{,}25\\times10^{-24}$$\n\nObservação: uma solução alternativa e também aceita (mas bem mais trabalhosa) envolve utilizar a conservação do vetor quantidade de movimento total. Tal solução leva a um resultado igual a:\n\n$$\\frac{\\Delta E_p}{E_p} = -2{,}7\\times10^{-24}$$\n\nA pequena discrepância entre os resultados deve-se ao ajuste feito no valor fornecido da velocidade da sonda no ponto $B$, de modo a facilitar os cálculos."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q12",
+   "numero": 12,
+   "codigo": "F06",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Diversos aparelhos, como painéis solares, televisões de LCD e plasma, iluminações urbanas e outros, têm seu funcionamento baseado no efeito fotoelétrico, no qual elétrons são arrancados de uma superfície metálica pela incidência de radiação eletromagnética. Para que ocorra efeito fotoelétrico, a energia de um fóton, dada por $hf$, sendo $h$ a constante de Planck e $f$ a frequência da radiação eletromagnética, deve ser superior a uma energia mínima, conhecida como função trabalho, $\\phi$, que é uma quantidade dependente do material. A tabela a seguir mostra a função trabalho de alguns materiais.\n\n| Material | $\\phi\\ (\\text{eV})$ |\n|---|---|\n| Platina | 5,8 |\n| Tungstênio | 4,5 |\n| Alumínio | 4,2 |\n| Bário | 2,5 |\n| Potássio | 2,3 |\n\n**Note e adote:**\nConstante de Planck: $h = 4\\times10^{-15}$ eV s.\nVelocidade da luz no vácuo: $c = 3\\times10^{8}$ m/s.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere uma placa de alumínio inicialmente carregada eletricamente. A fim de saber se a placa foi carregada positivamente ou negativamente, incide-se luz ultravioleta sobre sua superfície. Após certo tempo, verifica-se que a placa está neutra. Qual era o sinal da carga elétrica inicialmente na placa? Justifique a sua resposta.",
+     "resposta_oficial": "O fato de a placa ter sido descarregado pela incidência de radiação indica que nela havia excesso de elétrons, ou seja, a placa estava carregada negativamente."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Deseja-se escolher um material para uma célula fotoelétrica que funcione com luz verde de frequência $f = 6\\times10^{14}$ Hz. Qual(is) dos materiais da tabela funcionaria(m) como uma célula fotoelétrica? Justifique a sua resposta.",
+     "resposta_oficial": "A energia do fóton incidente é $E = hf = 4\\times10^{-15}.\\ 6\\times10^{14} = 2{,}4$ eV. O único material que possui uma função trabalho inferior a esse valor, e que, portanto, experimentará efeito fotoelétrico na presença da luz verde, é o potássio."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Caso a energia de um fóton seja superior à função trabalho, o elétron será emitido com energia cinética adicional. Determine a energia cinética (em eV) de um elétron quando uma luz de comprimento de onda 400 nm incide sobre uma superfície de bário.",
+     "resposta_oficial": "A conservação da energia exige que a energia cinética $K$ adquirida pelo elétron seja igual à diferença entre a energia $hf$ do fóton e a função trabalho, ou seja, $K = hf - \\phi$. Sendo $c$ a velocidade da luz no vácuo e $\\lambda$ o comprimento de onda do fóton, temos:\n\n$$hf = \\frac{hc}{\\lambda} = \\frac{4\\times10^{-15}\\cdot3\\times10^{8}}{400\\times10^{-9}} = 3\\ \\text{eV}$$\n\nLogo, $K = 3 - 2{,}5 = 0{,}5$ eV."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q13",
+   "numero": 13,
+   "codigo": "G01",
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "Leia o texto e observe a imagem.\n\nResiste, ainda, em meio à densa vegetação do local, a Calçada construída em 1792, com curioso traçado em ziguezague e calçamento com laje de pedra, técnica de pavimentação que veio assegurar o trânsito permanente de tropas de muares. Situada entre o rio das Pedras e o rio Cubatão, trecho mais árduo da ligação de São Paulo com o Porto de Cubatão, essa estrada destinava-se a dar escoamento aos produtos das terras interiores. A iniciativa da sua construção coube ao governador da capitania de São Paulo, entre 1788 e 1798, tendo sua execução ficado a cargo do Real Corpo de Engenheiros. A obra ficou conhecida por Calçada do Lorena, empreendimento que assinalou o início da constituição de uma infraestrutura destinada a colocar São Paulo no comércio internacional. Essa Calçada veio romper o isolamento em que se encontravam os paulistas devido às péssimas ligações com o litoral.\n\nDisponível em https://doi.org/10.11606/issn.2317-2762.v0i8p150-167 (Adaptado).\n\n![Mapa “Os caminhos mais usados entre a capital e o litoral”, com o trajeto entre São Paulo e Santos, os rios, as rodovias Caminho do Mar, Anchieta e dos Imigrantes, a Represa Billings e o destaque para a Calçada do Lorena](fig:p17-c1)\n\nDisponível em https://revistapesquisa.fapesp.br/ (Adaptado).\n\nA partir do texto e da figura, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a principal estrutura do meio físico que teve de ser vencida durante a construção da Calçada do Lorena?",
+     "resposta_oficial": "A principal estrutura do meio físico a ser vencida na construção da Calçada do Lorena foi a Escarpa da Serra do Mar."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique um produto e um destino quanto ao comércio internacional. Justifique a construção da obra do ponto de vista da formação territorial.",
+     "resposta_oficial": "Os principais produtos comerciais do Brasil, naquele momento histórico, eram o ouro e, principalmente, o açúcar e tinham como destino o mercado europeu. A construção da obra se justificou pelo isolamento da cidade de São Paulo do Litoral, pela proximidade dos portos de Cubatão e Santos ou por ser o caminho de exportação dos principais produtos naquela época."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Explique um fator da natureza que dificultou a construção da obra e um fator social que ajudou a viabilizá-la.",
+     "resposta_oficial": "O volume elevado de chuvas da região, que dificultava a construção da obra, ou a elevada declividade e altitude (cerca de 800 m) que deveria ser vencida pela construção, ou a presença de muitos rios que dificultavam o trajeto da calçada. O uso de mão de obra escrava ajudou a viabilizar a construção da calçada do Lorena naquele momento histórico."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também Serra do Mar, relevo da Serra do Mar, escarpa Atlântica, topografia da Serra do Mar e declividade da escarpa.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também volume da pluviosidade, ocorrência de neblina, extensão da estrada, deslizamentos de encosta, Floresta Densa, afloramento de blocos rochosos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q14",
+   "numero": 14,
+   "codigo": "G02",
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "A rodovia Rio-Santos, trecho da BR-101, foi construída ao longo da região litorânea paulista e sul-fluminense como parte de um projeto nacional vigente e imposto naquele período. Desde então, uma série de empreendimentos foram instalados, como a Usina Nuclear de Angra dos Reis (RJ) e o Porto e Terminal Almirante Barroso da Petrobrás (SP). O discurso de que a Rio-Santos estaria favorecendo uma região praticamente desabitada também está presente nas publicações oficiais do Ministério dos Transportes. Na Biblioteca Nacional, é possível ter acesso a uma publicação, elaborada em 1973 na Escola Superior de Guerra, que caracteriza a Rio-Santos como rodovia com aspectos pioneiros de colonização.\n\nFONTANELLI, Marina de Mello. Revista Tempos Históricos, vol. 22, 2018 (Adaptado).\n\n![Mapa do litoral entre Ubatuba, Paraty, Angra dos Reis e Rio de Janeiro, com a rodovia Rio-Santos, as comunidades quilombolas e áreas de proteção ambiental; legenda: comunidades quilombolas e rodovia Rio-Santos](fig:p17-c2)\n\nLocalização de comunidades Quilombolas em Ubatuba (SP), Paraty, Angra dos Reis e Rio de Janeiro (RJ).\nDisponível em https://censo2022.ibge.gov.br/ (Adaptado).\n\nRelacione o excerto e o mapa para responder:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite um aspecto econômico atrativo no eixo considerado.",
+     "resposta_oficial": "O principal aspecto econômico atrativo na Rodovia Rio-Santos foi o turismo ou ligação entre os municípios do litoral paulista e sul-fluminense."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique um impacto cultural negativo da construção da rodovia.",
+     "resposta_oficial": "A construção da rodovia apresentou como impacto negativo a especulação imobiliária, afetando a cultura da população quilombola, caiçara e indígena na região do litoral de Ubatuba (SP), Paraty e Angra dos Reis (RJ), pois as estruturas estabelecidas pelo Estado não consideraram seus territórios, como observado no mapa e no discurso que negava a existência dessa população."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Aponte e explique um aspecto do contexto histórico no qual ocorreu a construção da rodovia em questão.",
+     "resposta_oficial": "A integração nacional foi uma meta estabelecida pelas ações da Ditadura Militar caracterizadas pela combinação de fundamentos nacionalistas, inserção na divisão internacional do trabalho e disponibilidade de crédito no mercado internacional. As ações estiveram voltadas para instalação de equipamentos de infraestrutura e setores de bens de produção, onde foi construído o trecho entre Rio de Janeiro e Santos da BR101."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também interligação entre empreendimentos (portos, usinas) com facilitação de circulação de insumos, infraestrutura e pessoas entre eles; facilitação para instalação e interligação do empreendimentos mencionados no enunciado (Usinas, Porto, Terminal etc).\n- item b: 2 pontos. Aceitou-se também destruição ambiental ou da biodiversidade afetando os meios de vida das comunidades tradicionais.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q15",
+   "numero": 15,
+   "codigo": "G03",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Desde o período colonial, a exploração de minérios é o motor da economia da República Democrática do Congo (RDC). Atualmente, a mineração contribui com 80% das receitas de exportação e alimenta um forte crescimento do PIB, de acordo com o Banco Mundial. No entanto, a RDC enfrenta problemas com a flutuação dos preços mundiais dos minérios, assim como outros países cuja economia é baseada no setor primário. Com um PIB *per capita* de 1.143 dólares em 2019, a população está entre as mais pobres do planeta. A esperança de vida atinge pico aos 60 anos e apenas um terço das famílias tem acesso à água potável. Nas atividades de mineração, os trabalhadores recebem de 1 a 2 dólares por dia, havendo o risco de intoxicação e o trabalho infantil nas minas. Os problemas continuam com os mercados clandestinos de minérios, que financiam conflitos internos e o aumento da violência na região.\n\nAtlas Géopolitique Mondial, 2022 (Adaptado).\n\n![Figura 1. Exploração de minérios e conflitos na RDC, 2020: mapa da República Democrática do Congo com áreas de mineração de ouro, minas de diamante, região contendo estanho, região contendo cobre e cobalto, áreas onde as atividades de mineração são proibidas, zona de conflito e de bloqueios de estradas, estradas principais e estradas não pavimentadas](fig:p19-c1)\n\n![Figura 2. Incidentes notificados no leste da RDC entre novembro/2018 e dezembro/2019: gráfico de barras do número de incidentes por categoria (exploração de minério, atos de violência, trabalho infantil, outros, problemas ambientais, corrupção ou fraude e bloqueios de estradas)](fig:p19-c2)\n\nCom base no texto, nas figuras e em seus conhecimentos, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite um dos recursos minerais cuja exploração está ligada a conflitos na RDC.",
+     "resposta_oficial": "Ouro, diamante e estanho são recursos minerais ligados a conflitos na RDC."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte duas razões para os incidentes indicados no gráfico.",
+     "resposta_oficial": "Dentre as razões dos incidentes mencionados no gráfico, podem ser citadas: condições de trabalho sem segurança, exploração ilegal de recursos minerais, mercado clandestino de minerais e falta de controle do Estado em áreas proibidas por motivos de segurança nacional, da população e proteção ambiental."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Explique duas razões pelas quais a RDC apresenta um baixo nível de desenvolvimento socioeconômico apesar das riquezas minerais encontradas.",
+     "resposta_oficial": "As razões que levam a RDC a ter um baixo nível socioeconômico são enfrentamento de problemas com o preço mundial dos minérios e flutuação dos valores; economia estruturada no setor primário, gerando empregos precários; e concentração de renda em grupos minoritários que dominam a produção dos minérios."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q16",
+   "numero": 16,
+   "codigo": "G04",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "China e Irã estabeleceram acordos econômicos e estratégicos há um ano, reforçando compromissos comerciais em função da Nova Rota da Seda. Segundo o pacto, a China investiria bilhões de dólares no Irã, em setores de petróleo, gás e petroquímica, no sistema de transporte e na infraestrutura fabril. Em troca, a China seria favorecida na compra de petróleo, gás e petroquímicos do Irã, por meio de descontos e outras vantagens econômicas. O acordo permite contornar o sistema dolarizado de pagamentos bancários, controlado pelos Estados Unidos, bem como os embargos implementados contra o Irã. O pacto entre China e Irã também prevê a aproximação deste com a Arábia Saudita, mediada pela China. Em paralelo, cabe destacar o ingresso recente nos BRICS do Irã, Arábia Saudita, Emirados Árabes e Egito, que estabeleceram uma estratégia geopolítica em relação aos EUA e à União Europeia. Em conjunto, essas ações movimentam o eixo geopolítico para a porção mais oriental do globo.\n\n![Infográfico “Relações comerciais entre China e Irã”: barras das exportações chinesas para o Irã e das exportações iranianas para a China, em bilhões de dólares, de 1995 a 2018, com a linha do tempo dos embargos e sanções econômicas. Carto #63, 2021 Areion/Capri. Fonte: Observatório da Complexidade Econômica, 2020](fig:p19-c3)\n\nCarto *Le monde en cartes*, n.63, 2021 (Adaptado).\n\nO infográfico ao lado trata das relações comerciais entre China e Irã entre 1995 e 2018, além de apresentar a linha do tempo dos embargos e sanções econômicas.\n\nRelacione o infográfico com o texto para responder:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Por que o pacto entre China e Irã ameniza as sanções econômicas que ocorrem desde 1995?",
+     "resposta_oficial": "O pacto com a China diminui o isolamento do Irã, colocando-o em uma posição geopolítica melhor no Oriente Médio, por conta das fronteiras e localização; alinha-se ao projeto multigeracional da Nova Rota da Seda e permite transação comercial com as moedas locais, pois o Irã foi excluído do sistema de dolarização."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando as relações comerciais entre China e Irã, cite uma razão para o fortalecimento das exportações e uma razão para a diminuição destas entre os dois países.",
+     "resposta_oficial": "O motivo para o fortalecimento das exportações entre os dois países consiste no início das sanções internacionais (2006, 2008 e 2010). O motivo para a diminuição das relações comerciais entre China e Irã é a suspensão das sanções econômicas, tais como as que ocorreram em 2014, 2015 e 2016, além do acordo nuclear entre EUA e Irã em 2015, que foi suspenso em 2018."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Para além do fornecimento de gás e petróleo do Irã, cite dois interesses geopolíticos da China em reforçar o acordo com o país iraniano.",
+     "resposta_oficial": "O interesse da China no Irã é geopolítico e econômico e, ainda, está associado à sua localização e fronteiras; há a localização estratégica, que inclui o controle do Estreito de Ormuz, por onde passam 20% do petróleo mundial, conferindo-lhe grande influência nas rotas energéticas globais; e há o fato de o Irã ser um país localizado no Oriente Médio com fronteira entre oito países (Armênia, Azerbaijão, Turcomenistão, Afeganistão, Paquistão, Turquia e Iraque), além de ser banhado pelo Mar Cáspio, ao norte, e pelo Mar Arábico, ao sul, permitindo rotas comerciais pela água."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também contra hegemonia dos EUA, fortalecimento de Ordem multipolar, expansão dos Brics, fortalecimento da Rota da Seda, ampliar influência no Oriente Médio.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q17",
+   "numero": 17,
+   "codigo": "G05",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Mais da metade do deserto do Saara recebe menos de 25 mm de precipitação ao longo do ano. Porém, devido a uma anomalia de precipitação, grande parte desse deserto apresentou neste ano (2024) chuvas muito acima do normal, potencialmente atingindo um máximo de 500% da média anual e mais de 1000% da precipitação normal nas regiões centrais. Embora essa quantidade possa não parecer alta, consideradas as médias históricas, o volume de chuvas de poucos dias em algumas áreas foi equivalente aos totais anuais.\n\nDisponível em https://metsul.com/ (Adaptado).\n\n![Duas imagens de satélite lado a lado de uma região do deserto do Saara entre Marrocos e Argélia, com as localidades Abadla e Sebkha el Melah, escala de 100 km e legenda de corpos hídricos; a da esquerda mostra a área antes das chuvas e a da direita, após as chuvas](fig:p21-c1)\n\nÁrea do deserto do Saara antes das chuvas, em 14 de agosto de 2024, e após as chuvas, em 10 de setembro de 2024.\nDisponível em NASA, 2024.\n\nSobre as chuvas na região do deserto do Saara e as imagens de satélite, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual o principal sistema atmosférico responsável pela formação de chuva para essa região do deserto do Saara?",
+     "resposta_oficial": "Zona de Convergência Intertropical (ZCIT) é o principal sistema atmosférico responsável pela formação de chuvas nessa área do Deserto do Saara."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique dois aspectos positivos resultantes desse aumento de precipitações.",
+     "resposta_oficial": "O aumento das chuvas nessa região resulta em maior produção agrícola e melhores condições de dessedentação animal. Além disso, aumenta a disponibilidade do uso da água para consumo humano e reduz custos com irrigação."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Explique um impacto ambiental observado após a ocorrência anômala de chuvas nessa região do Saara.",
+     "resposta_oficial": "Impactos ambientais que podem ser observados após ocorrência de chuvas incluem o aumento dos processos erosivos em função do elevado volume de chuvas; alagamentos e inundações que podem prejudicar as comunidades locais; e impactos climáticos em outras regiões do globo com redução de chuvas."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q18",
+   "numero": 18,
+   "codigo": "G06",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Perguntar qual a extensão do Brasil a quem frequentou uma escola e aprendeu noções básicas de nossa geografia levará à resposta de 8,5 milhões de quilômetros quadrados. Esse dado, porém, está bem abaixo do que se considera hoje o tamanho real do território nacional. Desde 16 de novembro de 1994, com a entrada em vigor da Convenção das Nações Unidas sobre o Direito do Mar (CNUDM), aos 8.514.877 $\\text{km}^2$ indicados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) no mapa do Brasil, somam-se 3,5 milhões de $\\text{km}^2$ de espaços marítimos, um vasto território ainda pouco considerado.\n\nASSAD, Leonor. *Revista Ciência e Cultura*, vol.62, n.3, 2010 (Adaptado).\n\nEm 27 de agosto de 2024, o IBGE apresentou o novo limite leste do Sistema Costeiro-Marinho do país.\n\n![Mapa do Brasil com os estados e os países vizinhos, com área hachurada no oceano Atlântico que representa o Sistema Costeiro-Marinho](fig:p21-c2)\n\nEstados e Sistema Costeiro-Marinho do Brasil. IBGE, 2024 (Adaptado).\n\nCom base no texto e no mapa, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a denominação da área que compreende o limite marítimo em destaque?",
+     "resposta_oficial": "O limite em destaque no mapa é a Amazônia Azul."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite dois aspectos que promoveram a necessidade para o novo mapeamento.",
+     "resposta_oficial": "A garantia dos limites territoriais, a soberania nacional e a proteção e uso dos recursos na Zona Econômica Exclusiva são motivos que justificam esse novo mapeamento."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Explique qual a razão para o acréscimo das áreas de cobertura territorial nos extremos leste e nordeste do litoral brasileiro e indique o nome de uma delas.",
+     "resposta_oficial": "O motivo é o desenvolvimento de pesquisas científicas na área marítima, que correspondem a arquipélagos marinhos que representam refúgios oceânicos de biodiversidade e proteção da fauna oceânica. Dentre eles, destacam-se as Ilhas de Trindade e Martim Vaz, os Arquipélagos de São Pedro e São Paulo, além de Fernando de Noronha."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q19",
+   "numero": 19,
+   "codigo": "H01",
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As coisas mudaram drasticamente logo que o controle das mulheres sobre a reprodução começou a ser percebido como uma ameaça à estabilidade econômica e social, tal como ocorreu no período subsequente à catástrofe demográfica produzida pela Peste Negra, a praga apocalíptica que, entre 1347 e 1352, destruiu mais de um terço da população europeia. Depois da disseminação da praga, os aspectos sexuais da heresia adquiriram maior importância em sua perseguição. Coincidindo com este processo, que marcou a transição da perseguição à heresia para a caça às bruxas, a figura do herege se tornou, cada vez mais, a de uma mulher, de forma que, no início do século XV, a bruxa se transformou no principal alvo de perseguição aos hereges.\n\nFEDERICI, Silvia. *Calibã e a bruxa*. Mulheres, corpo e acumulação primitiva. São Paulo: Ed. Elefante, 2017. p.85-86 (Adaptado).\n\nConsiderando o texto, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O que fez com que as mulheres se tornassem os principais alvos da perseguição às heresias?",
+     "resposta_oficial": "O texto sugere que o controle das mulheres sobre a reprodução em um contexto de crise demográfica ocasionada pela Peste Negra transformou-as em alvos preferenciais da perseguição às heresias. Para a autora, portanto, a \"caça às bruxas\" representaria uma reação ao controle do próprio corpo que as mulheres passaram a exercer."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite dois elementos da crise do século XIV mencionados no excerto.",
+     "resposta_oficial": "Os elementos da crise do século XIV citados são a peste negra e a diminuição demográfica."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Indique qual foi a principal instituição responsável pela condenação das heresias e explique seu papel na chamada “caça às bruxas”.",
+     "resposta_oficial": "O Tribunal do Santo Ofício (ou Tribunal da Inquisição) era responsável por acusações, julgamentos e punições, inclusive com condenação à fogueira, das mulheres consideradas feiticeiras ou bruxas, por considerar que elas representavam um desvio nas orientações normativas e religiosas da Igreja Católica."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos. Aceitou-se também peste bubônica.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q20",
+   "numero": 20,
+   "codigo": "H02",
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Pintura (I) de Albert Eckhout: Mulher Tupi, 1641](fig:p24-f1)\n\n![Pintura (II) de Albert Eckhout: Mulher Tapuia, 1641](fig:p24-f2)\n\n(I) Mulher Tupi, 1641.\n(II) Mulher Tapuia, 1641.\n\nAs imagens são reproduções de pinturas de Albert Eckhout, um artista holandês que viveu no nordeste do Brasil no século XVII.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite um fator que explique a presença de Eckhout no Brasil.",
+     "resposta_oficial": "A vinda de Albert Eckout ao Brasil ocorreu no século XVII, durante o período de ocupação holandesa no Nordeste. Eckout integrou a comitiva de Mauricio de Nassau, que chegou em 1637, e recebeu a tarefa de retratar o Brasil para os europeus."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Mencione dois elementos na imagem (I) que indiquem a presença de padrões europeus.",
+     "resposta_oficial": "Entre as marcas que indicam, na imagem I, a presença de padrões europeus, é possível citar: o tecido que cobre o corpo da mulher tupi da cintura até os joelhos; a paisagem de fundo, que mostra formas europeias de organização do cultivo; a presença da bananeira, planta não nativa da América e que foi trazida pelos colonizadores; a caixa ordenada de artefatos de uso cotidiano."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Indique dois aspectos constantes na imagem (II) que caracterizem a mulher tapuia como “selvagem”.",
+     "resposta_oficial": "Entre os elementos que caracterizam, na imagem II, a mulher tapuia como “selvagem”, é possível destacar: a alusão ao canibalismo (membros humanos decepados na mão dela e no cesto); corpo desnudo, coberto apenas por folhas; paisagem rústica, sem marcas da ação europeia."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q22",
+   "numero": 22,
+   "codigo": "H04",
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Propaganda vitoriana do sabão Pears' Soap, com a frase “I have found PEARS' SOAP matchless for the Hands and Complexion.” e uma assinatura, os dizeres “By special appointment to H.R.H. the Prince of Wales”, “For the complexion”, “Established 1789”, “Pure, fragrant and durable.” e “Sold everywhere”, e dois círculos que se tocam, cada um com um menino branco em pé ao lado de um menino negro sentado em uma banheira](fig:p26-f1)\n\nA imagem apresentada é uma propaganda vitoriana de sabão (*Pears´ Soap*). Ao analisá-la, Anne McClintock, historiadora zimbabuense-sul-africana, afirma que, no espelho do menino branco, “o menino negro testemunha seu destino predeterminado de metamorfose imperial, mas continua um híbrido racial passivo, parte branco, parte negro, levado à beira da civilização pelos fetiches mercantis gêmeos do sabão e do espelho”.\n\nMcCLINTOCK, Anne. *Couro imperial. Raça, gênero e sexualidade no embate colonial*. São Paulo: Editora da Unicamp, 2010. p.317.\n\nA partir da análise da imagem e da leitura do excerto, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual o fundamento pseudo-científico usado para justificar a eficácia do produto propagandeado?",
+     "resposta_oficial": "O branqueamento provocado pelo uso, na propaganda, do sabonete é uma alegoria da noção eugenista que indicava formas de integração e submissão de africanos à sociedade branca europeia."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual o significado das expressões “metamorfose imperial” e “híbrido racial passivo”?",
+     "resposta_oficial": "“Metamorfose imperial” sugere a promessa de transformação das áreas colonizadas da África por meio da ação e dos valores europeus. “Híbrido racial passivo” associa, preconceituosamente, as noções de branqueamento e limpeza, estabelecendo a hierarquia racista da relação entre europeus e africanos."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Cite e explique um fator de tensão entre duas nações europeias que participaram da colonização da África do Sul.",
+     "resposta_oficial": "Entre os fatores de tensão presentes na colonização da África do Sul, é possível citar: a campanha britânica pelo fim do tráfico, que gerou conflitos com colonizadores de origem holandesa e francesa; a disputa, para obtenção de riquezas, por áreas agrícolas, minas de ouro e diamante no interior do território."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também determinismo, darwinismo social, racismo científico, teorias raciais, branqueamento da população, superioridade da raça branca.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também rotas comerciais e marítimas como fatores de tensão.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q23",
+   "numero": 23,
+   "codigo": "H05",
+   "materia": "historia",
+   "materias_extra": [
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "Ao analisar as formas de dominação entre homens livres na zona rural do Vale do Paraíba no século XIX, a socióloga Maria Sylvia de Carvalho Franco afirmou:\n\n“O compadrio é uma instituição que permite essa aparente quebra de barreiras sociais entre as pessoas por ela ligadas. (...) Para que se tenha presente o quanto esse recurso foi explorado, basta lembrar o significado que ‘apadrinhar’ adquiriu na vida pública e o suporte político representado pelos ‘afilhados’. Ampliando-se as trocas do compadrio para situações sociais, compreende-se como deriva dele toda uma intrincada rede de dívidas e obrigações, infindáveis porque sempre renovadas em cada uma de suas amortizações, num processo que se regenera em cada um dos momentos em que se consome.”\n\nFRANCO, Maria Sylvia de Carvalho. *Homens livres na ordem escravocrata*. São Paulo: Ática, 1974, p.78-79.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual era a principal atividade econômica desenvolvida no Vale do Paraíba no século XIX?",
+     "resposta_oficial": "A principal atividade econômica no Vale do Paraíba era a produção cafeeira."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite um exemplo de subordinação política e um exemplo de obrigação social derivados da relação de “apadrinhamento” analisada no excerto.",
+     "resposta_oficial": "A subordinação política manifestava-se nas práticas do clientelismo político-eleitoral, do mandonismo e do coronelismo. Já entre as formas de obrigação social podem ser observadas a prestação de serviços e a assistência econômica, dadas em troca de proteção pessoal."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Diferencie a dominação vigente sob o regime da escravidão da forma de dominação social exercida pelo “apadrinhamento”.",
+     "resposta_oficial": "As formas de dominação previstas nas relações de “apadrinhamento” eram baseadas em favorecimento de ordem política e pessoal, já as relações entre os homens livres e os escravizados eram justificadas pelo direito de propriedade."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q24",
+   "numero": 24,
+   "codigo": "H06",
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Assim como os Maias, os demais povos da Mesoamérica também cultivavam o cacau com duas finalidades; a primeira e provavelmente mais antiga, era produzir uma bebida tônica e refrescante, dissolvendo em água as amêndoas torradas e moídas e adicionando-lhes diversas especiarias, inclusive pimenta; a segunda, que iria encher de surpresa os europeus, era produzir as próprias amêndoas, uma vez que elas, como veremos a seguir, eram a moeda corrente na região. Não havia qualquer contradição entre esses valores de uso e de troca, pois o cacau-bebida era consumido exclusivamente pelas elites (nobres, guerreiros e ricos comerciantes). Um dos principais objetivos da expansão imperial dos Astecas na direção sudeste, durante o século XV, havia sido o de controlar as regiões produtoras de cacau no istmo de Tehuantepec e no litoral sul da Guatemala.”\n\nPORRO, Antonio. *Cacau e chocolate*: dos hieroglifos maias à cozinha ocidental. *Anais do Museu Paulista*. v. 5. Jan/Dez 1997. p.281.\n\nSegundo o excerto,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "de que modo o cacau era consumido pelos povos mesoamericanos antes da chegada dos europeus à América?",
+     "resposta_oficial": "De acordo com o excerto, o cacau era consumido na forma de bebida preparada com as sementes e especiarias."
+    },
+    {
+     "rotulo": "b",
+     "texto": "cite os dois usos do cacau mencionados no texto.",
+     "resposta_oficial": "Segundo o excerto, o cacau era um importante produto de consumo e suas “amêndoas” eram utilizadas como moeda."
+    },
+    {
+     "rotulo": "c",
+     "texto": "explique o papel do cacau como fator de distinção social e como motivação para o expansionismo territorial asteca.",
+     "resposta_oficial": "O excerto afirma que o cacau era um fator de distinção social, pois apenas as elites o consumiam (\"valor de uso\") e suas \"amêndoas\" eram utilizadas como moedas (\"valor de troca\"), e que parte da expansão territorial asteca se deveu ao esforço de controlar mais áreas de produção cacaueira."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também o consumo do cacau de forma ritual, sendo considerado sagrado pelos povos mesoamericanos.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q25",
+   "numero": 25,
+   "codigo": "M01",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma papelaria oferece três diferentes promoções:\n\n|  | Composição | Valor total (R\\$) |\n|---|---|---|\n| Promoção I | 2 Cadernos de capa dura + 1 Caixa de lápis de cor + 1 Conjunto de canetas | 86,00 |\n| Promoção II | 3 Cadernos de capa dura + 3 Caixas de lápis de cor + 3 Conjuntos de canetas | 174,00 |\n| Promoção III | 3 Cadernos de capa dura + 2 Caixas de lápis de cor + 2 Conjuntos de canetas | 142,00 |\n\nCom base nessas informações, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Escreva um sistema de três equações cujas incógnitas **C**, **L** e **N** representam, respectivamente, os preços do caderno de capa dura, da caixa de lápis de cor e do conjunto de canetas.",
+     "resposta_oficial": "Denotando, como solicitado, $C$ o preço do caderno capa dura, $L$ o preço da caixa de lápis de cor e $N$ o preço do conjunto de canetas, em cada uma das promoções, temos:\n\n$$\\begin{cases} 2C + L + N = 86 & \\text{(eq1)} \\\\ 3C + 3L + 3N = 174 & \\text{(eq2)} \\\\ 3C + 2L + 2N = 142 & \\text{(eq3)} \\end{cases}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando apenas as promoções II e III, qual é a soma dos preços da caixa de lápis de cor e do conjunto de canetas?",
+     "resposta_oficial": "Como serão consideradas apenas as promoções II e III, temos:\n\n$$\\begin{cases} 3C + 3L + 3N = 174 & \\text{(eq2)} \\\\ 3C + 2L + 2N = 142 & \\text{(eq3)} \\end{cases}$$\n\nSubtraindo-se a segunda equação da primeira, obtém-se $L + N = 32$.\n\nLogo, a soma dos preços da caixa de lápis de cor e do conjunto de canetas é R\\$32,00."
+    },
+    {
+     "rotulo": "c",
+     "texto": "A soma dos preços da caixa de lápis de cor e do conjunto de canetas é a mesma nas três promoções e o valor dessa soma depende do preço do caderno de capa dura. Suponha que, em apenas duas das promoções, o preço do caderno de capa dura seja o mesmo, sendo esse preço maior que a soma dos preços da caixa de lápis de cor e do conjunto de canetas. Nessas condições, quais promoções possuem o mesmo preço para o caderno de capa dura?",
+     "resposta_oficial": "Denotando $K = L + N$, temos:\n\n$$\\begin{cases} 2C + L + N = 86 & \\text{(eq1)} \\\\ 3C + 3L + 3N = 174 & \\text{(eq2)} \\\\ 3C + 2L + 2N = 142 & \\text{(eq3)} \\end{cases} \\quad \\text{logo} \\quad \\begin{cases} 2C + K = 86 & \\text{(eq1)} \\\\ 3C + 3K = 174 & \\text{(eq2)} \\\\ 3C + 2K = 142 & \\text{(eq3)} \\end{cases}$$\n\nAnálise das opções possíveis:\n\nOpção 1) Supondo $C_I = C_{II} = C$, o sistema formado por (eq1) e (eq2) traz:\n\n$$\\begin{cases} 2C + K = 86 \\\\ 3C + 3K = 174 \\end{cases}$$\n\nDe (eq1), tem-se $K = 86 - 2C$\n\nSubstituindo-se na (eq2):\n\n$$\\begin{aligned} 3C + 3(86 - 2C) &= 174 \\\\ 258 - 174 &= 3C \\\\ C = 28 \\ \\text{e} \\ K &= 30 \\end{aligned}$$\n\nUtilizando (eq3): $3C_{III} + 60 = 142$. Logo, $C_I = C_{II} = 28$, $C_{III} = 27{,}33$ e $K = 30$.\n\nOpção 2) Supondo $C_I = C_{III} = C$, o sistema formado por (eq1) e (eq3) traz:\n\n$$\\begin{cases} 2C + K = 86 \\\\ 3C + 2K = 142 \\end{cases} \\qquad \\text{da (eq1), temos } K = 86 - 2C$$\n\nSubstituindo-se na (eq3):\n\n$$\\begin{aligned} 3C + 2(86 - 2C) &= 142 \\\\ 172 - 142 &= C \\\\ C = 30 \\ \\text{e} \\ K &= 26 \\end{aligned}$$\n\nLogo, pela (eq2):\n\n$3C_{II} + 3K = 174$\n\n$3C_{II} + 78 = 174$\n\n$C_{II} = 32$\n\nPortanto, $C_I = C_{III} = 30$, $C_{II} = 32$ e $K = 26$.\n\nOpção 3) Supondo $C_{II} = C_{III} = C$, o sistema formado por (eq2) e (eq3) traz:\n\n$$\\begin{cases} 3C + 3K = 174 \\\\ 3C + 2K = 142 \\end{cases}$$\n\nSubtraindo-se, temos $K = 32$. Logo,\n\n$$3C + 64 = 142 \\rightarrow C = \\frac{78}{3} = 26$$\n\nUtilizando (eq1): $2C_I + 32 = 86$\n\n$$C_I = 54/2 = 27$$\n\nLogo, $C_{II} = C_{III} = 26$, $C_I = 27$ e $K = 32$.\n\nNessas condições, as promoções que possuem o mesmo preço para o caderno de capa dura, sendo este mais caro que a soma dos preços da caixa de lápis de cor e do conjunto de canetas, são as promoções I e III (opção 2)."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 1 ponto.\n- item c: 3 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q26",
+   "numero": 26,
+   "codigo": "M02",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O risco relativo (RR) é um termo estatístico utilizado para comparar as probabilidades condicionais de um determinado evento ocorrer, dado que um grupo está exposto a determinado fenômeno, enquanto outro não está exposto a esse mesmo fenômeno. Em termos matemáticos, tem-se que:\n\n$$RR = \\frac{P(\\textit{evento} \\mid \\textit{exposto})}{P(\\textit{evento} \\mid \\textit{não exposto})}$$\n\nUm grupo de pessoas foi exposto, durante um longo período de tempo, a um determinado agente químico que pode representar um fator de risco para uma determinada doença. Outro grupo de pessoas não sofreu essa exposição. Em ambos os grupos, houve indivíduos que desenvolveram essa doença e outros não, como mostra a tabela a seguir.\n\n| **Pessoas** | **Com a doença** | **Sem a doença** | **Total** |\n|---|---|---|---|\n| Expostas | 500 | 300 | 800 |\n| Não expostas | 100 | 23.100 | 23.200 |\n| Total | 600 | 23.400 | 24.000 |\n\nCom base nesses dados, qual é a estimativa para",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "a probabilidade de que um indivíduo qualquer desenvolva a doença?",
+     "resposta_oficial": "P(Ter a doença) = 600/24.000=0,025."
+    },
+    {
+     "rotulo": "b",
+     "texto": "a probabilidade de que um indivíduo tenha sido exposto, dado que desenvolveu a doença?",
+     "resposta_oficial": "P(Exposto| Ter a doença) = 500/600=0,833."
+    },
+    {
+     "rotulo": "c",
+     "texto": "o risco relativo de que um indivíduo desenvolva a doença, dado que foi exposto ao agente químico?",
+     "resposta_oficial": "Evento: ter a doença.\n\nP(Ter a doença| Exposto) = (500/24.000) / (800/24.000) = 500/800\n\nP(Ter a doença| Não Exposto) = (100/24.000) / (23.200/24.000) = 100/23.200\n\nLogo,\n\n$$RR = \\frac{500}{800} \\times \\frac{23.200}{100}$$\n\n$$RR = 145$$"
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q27",
+   "numero": 27,
+   "codigo": "M03",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Após uma proposta de atividade de uma professora que incentivava estudantes de sua turma a explorar, em uma tabela numérica, o pensamento matemático por meio de atividades investigativas, a turma percebeu diversos padrões interessantes.\n\nConsidere uma tabela com 10 colunas, em que os números naturais estão dispostos sequencialmente a partir da primeira linha. Nessa tabela, a professora destacou um retângulo, como mostra a figura:\n\n![Tabela numérica com 10 colunas, com os números naturais dispostos sequencialmente a partir da primeira linha; está destacado o retângulo formado pelos números 6, 7, 16 e 17](fig:p33-c1)\n\nPosteriormente, definiu como $S$ a soma dos elementos do retângulo e como $D$ o módulo da diferença do produto dos elementos das diagonais. Para o retângulo destacado, temos:\n\n$$S = 6 + 7 + 16 + 17 = 46.$$\n\n$$D = \\lvert 7 \\times 16 - 6 \\times 17 \\rvert = \\lvert 112 - 102 \\rvert = 10.$$\n\nSe esse retângulo for deslocado <u>uma coluna para a direita</u>, teremos $S = 50$, e se for deslocado <u>uma linha para baixo</u>, teremos $S = 86$.\n\nA partir das informações apresentadas, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Se o retângulo destacado da tabela for deslocado $n$ linhas para baixo, qual será o valor de $S$?",
+     "resposta_oficial": "Deslocando $n$ linhas para baixo, temos:\n\n$$S = (6 + 10n) + (7 + 10n) + (16 + 10n) + (17 + 10n) = 46 + 40n$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Se o retângulo destacado da tabela for deslocado $n$ linhas para baixo, qual será o valor de $D$?",
+     "resposta_oficial": "Basta observar que\n\n$$D = \\lvert (7 + 10n)(16 + 10n) - (6 + 10n)(17 + 10n) \\rvert = \\lvert (112 + 230n + 100n^2) - (102 + 230n + 100n^2) \\rvert = \\lvert 112 - 102 \\rvert = 10$$"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Considere agora que a tabela foi construída com $n$ colunas, sendo $n \\geq 2$. Qual é o valor de $D$ para um retângulo cujo menor elemento é $k$, com $k \\neq pn$ ($p \\in \\mathbb{N}$)?",
+     "resposta_oficial": "O retângulo destacado que possui $k$ como menor elemento pode ser representado por:\n\n| $k$ | $k + 1$ |\n|---|---|\n| $k + n$ | $(k + n) + 1$ |\n\nAssim:\n\n$$D = \\lvert (k + 1)(k + n) - k[(k + n) + 1] \\rvert = \\lvert (k^2 + kn + k + n) - (k^2 + kn + k) \\rvert = \\lvert k^2 + kn + k + n - k^2 - kn - k \\rvert = \\lvert n \\rvert = n$$"
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q28",
+   "numero": 28,
+   "codigo": "M04",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O sistema *Price*, também conhecido como Sistema Francês de Amortização, é um modelo muito utilizado para financiamentos, como os de celulares e veículos. A principal característica desse sistema é que as parcelas são fixas durante todo o período do financiamento, ou seja, o valor que se paga periodicamente é o mesmo do início ao fim. A parcela do financiamento no sistema *Price* é composta por duas partes: amortização e juros. Nesse sistema, ao longo do tempo, o valor pago a título de juros diminui à medida que o valor pago a título de amortização aumenta, mantendo o valor total da parcela constante, conforme o modelo matemático:\n\n$$V = \\frac{P}{(1+j)} + \\frac{P}{(1+j)^2} + \\frac{P}{(1+j)^3} + \\cdots + \\frac{P}{(1+j)^n} = \\frac{P}{(1+j)}\\left[1 + \\frac{1}{(1+j)} + \\frac{1}{(1+j)^2} + \\cdots + \\frac{1}{(1+j)^{n-1}}\\right]$$\n\nem que $V$ corresponde ao valor total financiado, $j$ representa a taxa de juros cobrada mensalmente, $n$ é o número de parcelas mensais a serem pagas e $P$ é o valor de cada uma das parcelas.\n\nO valor de $n$ é um número inteiro, dado que é o número de parcelas do financiamento. Contudo, ao modelar matematicamente tal problema, pode-se deparar com valores não inteiros. Existem calculadoras que, por exemplo, mesmo que o valor modelado matematicamente para $n$ não seja inteiro, apresentam como resposta padrão $n$ como sendo o menor inteiro maior que o valor obtido com o modelo matemático. Por exemplo, considerando um valor financiado de R\\$19.000,00, que será cobrado a uma taxa de juros de 1% ao mês, com parcelas fixas de R\\$500,00, a calculadora apresenta como solução $n = 49$.\n\n**Note e adote:**\nNo item (b), utilize, se necessário: $(1{,}01)^{-48} = 0{,}620260$ ; $(1{,}01)^{-49} = 0{,}614119$ ; $(1{,}01)^{-50} = 0{,}608039$.\nNo item (c), a resposta pode ser apresentada em função de logaritmo.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo a ausência de juros, ou seja, uma taxa de juros de 0% ao mês, em quantas parcelas de R\\$500,00 poderia ser quitado o financiamento de R\\$19.000,00?",
+     "resposta_oficial": "Supondo uma taxa de juros nula, temos:\n\n$$V = \\frac{P}{(1)} + \\frac{P}{(1)^2} + \\frac{P}{(1)^3} + \\cdots + \\frac{P}{(1)^n} = nP$$\n\nLogo,\n\n$$n = \\frac{19.000}{500} = 38$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando uma taxa de juros de 1% ao mês, parcelas fixas de R\\$500,00 e $n = 49$, calcule o valor financiado $V$ obtido por meio do modelo matemático apresentado.",
+     "resposta_oficial": "Substituindo os valores dados na equação, temos:\n\n$$V = \\frac{500}{1{,}01}\\left[1 + \\frac{1}{(1{,}01)^1} + \\cdots + \\frac{1}{(1{,}01)^{48}}\\right]$$\n\nPor se tratar de uma soma de termos de uma P.G., temos:\n\n$$V = \\frac{500}{(1{,}01)}\\left[\\frac{1 - \\frac{1}{(1{,}01)^{49}}}{1 - \\frac{1}{1{,}01}}\\right] = \\frac{500}{(1{,}01)}\\left[\\frac{1 - \\frac{1}{(1{,}01)^{49}}}{\\frac{1{,}01 - 1}{1{,}01}}\\right] = \\frac{500\\,(1{,}01)}{(1{,}01)(0{,}01)}\\left[1 - \\frac{1}{(1{,}01)^{49}}\\right]$$\n\n$$V = \\frac{500}{0{,}01}\\left[1 - 0{,}614119\\right] = 50.000\\,[0{,}385881] = 19.294{,}05$$"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Assumindo que $n$ não precisa ser inteiro no modelo matemático apresentado, encontre $n$ para um valor financiado de R\\$19.000,00 que será pago em parcelas fixas de R\\$500,00 a uma taxa de juros de 1% ao mês.",
+     "resposta_oficial": "Utilizando a mesma equação, temos:\n\n$$19.000 = \\frac{500}{(1 + 0{,}01)} + \\frac{500}{(1 + 0{,}01)^2} + \\cdots + \\frac{500}{(1 + 0{,}01)^n}$$\n\n$$\\frac{19.000}{500} = \\frac{1}{(1{,}01)} + \\frac{1}{(1{,}01)^2} + \\cdots + \\frac{1}{(1{,}01)^n}$$\n\n$$38 = \\frac{1}{(1{,}01)}\\left[\\frac{1 - \\frac{1}{(1{,}01)^n}}{1 - \\frac{1}{1{,}01}}\\right] = \\frac{1}{(1{,}01)}\\left[\\frac{1 - \\frac{1}{(1{,}01)^n}}{\\frac{1{,}01 - 1}{1{,}01}}\\right] = \\frac{1{,}01}{(1{,}01)(0{,}01)}\\left[1 - \\frac{1}{(1{,}01)^n}\\right]$$\n\n$0{,}38 = 1 - 1{,}01^{-n}$, logo $1{,}01^{-n} = 0{,}62$ e, portanto, $-n = \\log_{1{,}01} 0{,}62$, o que nos dá $n = -\\log_{1{,}01} 0{,}62$"
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q29",
+   "numero": 29,
+   "codigo": "M05",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere o quociente $(k_n) = \\frac{n}{2^b}$, em que $n, b \\in \\mathbb{N}^*$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para $b = 3$, $(k_n)$ forma uma progressão. Indique se a progressão formada é aritmética ou geométrica e forneça o valor da razão.",
+     "resposta_oficial": "Para $b = 3$:\n\n$$k_n = \\frac{1}{8}, \\frac{2}{8}, \\frac{3}{8}, \\ldots, \\frac{n-1}{8}, \\frac{n}{8}$$\n\nOu seja, uma progressão aritmética de razão $1/8$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Se $n$ é um número par e $b \\leq 3$, qual é o número máximo de casas decimais de $k_n$?",
+     "resposta_oficial": "Para $b = 1$, $k_n = n/2^1$. Se $n$ é par $k$ não possui casas decimais.\n\nPara $b = 2$, $k_n = n/2^2$. Se $n$ é par, então $n = 2a$, em que $a$ é natural.\n\n$k_n = 2a/2^2 = a/2$. Quando $a$ é múltiplo de 2, $k_n$ é natural e, portanto, não possui casas decimais.\n\nQuando $a$ não é múltiplo de 2, pode ser escrito como um número múltiplo de 2 acrescido de 1 unidade. Assim, $k_n$ terá uma casa decimal (0,5). Portanto, o número máximo de casas decimais na condição solicitada é 1.\n\nPara $b = 3$, $k_n = n/2^3 = a/2^2$.\n\nQuando $a$ é múltiplo de 4, $a/4$ é inteiro e não terá casas decimais.\n\nQuando $a$ não é múltiplo de 4, pode ser escrito como um número múltiplo de 4 acrescido de 1 unidade, ou 2 unidades ou 3 unidades. Assim, $k_n$ terá 2 casas decimais (0,25), uma casa decimal (0,5) ou 2 casas decimais (0,75), respectivamente.\n\nPortanto, o número máximo de casas decimais na condição solicitada é 2."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Qual é o menor $n$, em função de $b$, tal que $k_1 + k_2 + \\cdots + k_n$ é um número inteiro?",
+     "resposta_oficial": "Para um $b$ qualquer, como enunciado, temos:\n\n$$k_1 + k_2 + \\ldots + k_n = \\frac{1}{2^b} + \\frac{2}{2^b} + \\cdots + \\frac{n}{2^b} = \\frac{1}{2^b}(1 + 2 + \\cdots + n) = \\frac{1}{2^b}\\,\\frac{(1 + n)n}{2} = \\frac{(1 + n)n}{2^{b+1}}$$\n\nSe $n$ é par, então $n + 1$ é ímpar. Logo, o menor $n$ seria $n = 2^{b+1}$.\n\nSe $n$ é ímpar, então $n + 1$ é par e, nesse caso, o menor $n$ seria $n = 2^{b+1} - 1$.\n\nLogo, a solução é $n = 2^{b+1} - 1$."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q30",
+   "numero": 30,
+   "codigo": "M06",
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A partir do recorte de um quadrado cujo lado mede 10 m, um artista plástico fez uma obra em metal representada na Figura 1, cuja planificação é mostrada na Figura 2.\n\n![Figura 1: escultura com os pontos A, B, C, D e M, o ângulo $\\alpha$ em C e a sombra externa em cinza](fig:p35-c1)\n\n![Figura 2: planificação em um quadrado de lado 10 m, com os pontos D, C, A e B](fig:p35-c2)\n\nObserve as Figuras 1 e 2 para responder:\n\n**Note e adote:**\n$\\text{sen}\\,(60^\\circ) = \\frac{\\sqrt{3}}{2}$\n$\\cos\\,(60^\\circ) = \\frac{1}{2}$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo que a medida da área da sombra externa da escultura, representada pelo triângulo DMC, seja o dobro da medida da área do triângulo DAC, qual é a medida do ângulo $\\alpha$, indicado na Figura 1?",
+     "resposta_oficial": "Uma maneira de calcular a área de $\\Delta DAC$ é:\n\n$$\\frac{5\\sqrt{2} \\cdot 5\\sqrt{2}}{2} = 25$$\n\nOutra maneira é considerar que essa área é $0{,}25 \\times 100 = 25$.\n\nEntão a área $\\Delta DMC$ é $50$\n\nLogo, $50 = \\frac{\\overline{DC} \\cdot \\overline{MD}}{2} = \\frac{10 \\cdot \\overline{MD}}{2}$, do que resulta $\\overline{MD} = 10$\n\nPortanto, $\\text{tg}(\\alpha) = \\frac{\\overline{MD}}{\\overline{DC}} = 1$, então, $\\alpha = 45^\\circ$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Supondo que a medida da área do triângulo DMC seja $k$ vezes a medida da área do triângulo DAC, determine o valor de $k$ em função de $\\alpha$.",
+     "resposta_oficial": "Área de $\\Delta DMC = k \\cdot$ área de $\\Delta DAC$\n\nÁrea de $\\Delta DMC = \\frac{\\overline{DC} \\cdot \\overline{MD}}{2} = \\frac{10}{2} \\cdot \\overline{MD}$\n\nPelo enunciado, $5 \\cdot \\overline{MD} = k.25$\n\nEntão, $\\overline{MD} = 5k$\n\n$$\\text{tg}(\\alpha) = \\frac{\\overline{MD}}{\\overline{DC}} = \\frac{5k}{10}$$\n\n$$k(\\alpha) = 2 \\cdot \\text{tg}(\\alpha)$$"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Qual é a medida da projeção ortogonal do segmento AB no solo, supondo que o ângulo desse segmento em relação ao solo seja 60°?",
+     "resposta_oficial": "Como $\\overline{AB} = 5$, seja $p$ a projeção de $AB$, temos:\n\n$$\\cos 60^\\circ = \\frac{p}{5} \\quad \\to \\quad p = 5\\cos(60^\\circ) = \\frac{5}{2} = 2{,}5$$\n\nLogo, a medida da projeção é 2,5 m."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 2 pontos.\n- item b: 2 pontos.\n- item c: 1 ponto.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q31",
+   "numero": 31,
+   "codigo": "Q01",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em competições esportivas, os atletas que alcançam as três primeiras posições são condecorados com medalhas denominadas ouro, prata e bronze. Contudo, na Olimpíada e na Paralimpíada de Paris, a composição das medalhas de ouro e de bronze entregues aos atletas, descrita na Figura 1, não corresponde ao que seus nomes sugerem. A medalha de ouro é apenas revestida com esse metal. A medalha de bronze, que deveria ser composta por 67% em massa de cobre e 33% em massa de estanho, possui outra composição.\n\n![Figura 1: medalhas de prata, de ouro e de bronze, com o quadro de massa e composição: \"Medalha de Prata, massa 507 g, composição prata 507 g\"; \"Medalha de Ouro, massa 511 g, composição prata 505 g e ouro 6 g\"; \"Medalha de Bronze, massa 437 g, composição cobre 415 g e zinco 22 g\". Legenda: \"Os hexágonos cravados nas medalhas com o símbolo olímpico são feitos de ferro. Para a resolução da questão, assuma que eles foram retirados das medalhas. A massa dos hexágonos não está considerada na massa das medalhas.\"](fig:p38-c1)\n\n![Figura 2: pilha com duas cubas ligadas por ponte salina (KCl) e por fios condutores a uma lâmpada; na cuba da esquerda, a medalha de ouro; na da direita, a medalha de prata](fig:p38-c2)\n\n**Note e adote:**\n$\\text{Au}^{3+} + 3\\text{e}^- \\rightarrow \\text{Au}^0 \\qquad E^\\circ = +1{,}5\\ \\text{V}$\n$\\text{Ag}^+ + 1\\ \\text{e}^- \\rightarrow \\text{Ag}^0 \\qquad E^\\circ = +0{,}8\\ \\text{V}$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Preencha, no quadro da folha de respostas, qual deveria ser a massa de cada um desses metais, Cu e Sn, em uma medalha olímpica de 437 g para que ela fosse de fato de bronze?\n\n*Campo de resolução:*\n\n| Metal | Massa (g) |\n|---|---|\n| Cu | |\n| Sn | |",
+     "resposta_oficial": "| Metal | Massa (g) |\n|---|---|\n| Cu | 292,8 |\n| Sn | 144,2 |\n\nMassa de Cu ($M_{\\text{Cu}}$):\n\n$M_{\\text{Cu}} \\times 100\\% = 437\\ \\text{g} \\times 67\\%$\n\n$M_{\\text{Cu}} = 292{,}8\\ \\text{g}$\n\nMassa de Sn ($M_{\\text{Sn}}$):\n\n$M_{\\text{Sn}} \\times 100\\% = 437\\ \\text{g} \\times 33\\%$\n\n$M_{\\text{Sn}} = 144{,}2\\ \\text{g}$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere que a ginasta Rebeca Andrade, condecorada com medalhas de ouro e de prata em Paris, decida utilizá-las para construir uma pilha. Para isso, ela retirou o hexágono de ferro das medalhas e esquematizou a pilha representada na Figura 2. Sabendo que a atleta dispõe de duas soluções, $\\text{AgNO}_3$ e $\\text{Au(NO}_3)_3$, ambas de concentração 1 mol/L, complete, na folha de respostas, em qual compartimento cada solução deve ser adicionada para que a pilha funcione. Com a pilha funcionando, indique qual metal se deposita sobre qual medalha.\n\n*Campo de resolução:*\n\n![Esquema da pilha com as duas cubas, uma com a medalha de ouro e outra com a medalha de prata, e, abaixo de cada cuba, \"Solução de:\" seguido de uma linha em branco](fig:p39-c2)",
+     "resposta_oficial": "![Esquema da pilha com a medalha de ouro na cuba da esquerda, \"Solução de: $\\text{Au(NO}_3)_3$\", e a medalha de prata na cuba da direita, \"Solução de: $\\text{AgNO}_3$\"](fig:r73-c1)\n\nOuro se deposita na medalha de ouro."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Um dos problemas da obtenção de Au é o uso indiscriminado de Hg pelo garimpo. Nesse processo, 3 g de Hg dissolvem 1 g de Au para formar um amálgama. O Au é purificado aquecendo o amálgama e evaporando o Hg. Considerando que cada tonelada de sedimento de determinado rio contenha 8g de Au, qual a massa de sedimento necessária para extrair os 6 g de Au presentes na medalha de Au? Assumindo que 60% do Hg evaporado para a produção dessa medalha alcancem um corpo d’água de 6 milhões de litros e que a legislação brasileira adota a concentração de $1 \\times 10^{-6}$ g de Hg/L como limite, esse corpo d’água seria considerado próprio para consumo em relação ao Hg? Apresente os cálculos.",
+     "resposta_oficial": "Em 1000 kg de sedimento, há 8 g de Au.\n\nPortanto, para extrair 6 g de Au, são necessários 750 kg de sedimento (1000 kg de sedimento × 6 g de Au / 8 g de Au).\n\nPara dissolver 1 g de Au e formar uma amálgama, são necessários 3 g de Hg.\n\nLogo, para dissolver 6 g de Au (massa de Au presente em uma medalha de ouro), são necessários 18 g de Hg (3 g de Hg × 6 g de Au / 1 g de Au).\n\nDo total de mercúrio evaporado, 60% alcançam o corpo d’água, ou seja, 10,8 g (0,60 × 18 g de Hg).\n\nA concentração de Hg ($C_{\\text{Hg}}$) em um corpo d’água de 6 milhões de litros é:\n\n$C_{\\text{Hg}} = \\text{massa}_{\\text{Hg}} / V_{\\text{água}} = 10, 8\\ \\text{g} / 6 \\times 10^6\\ \\text{L} = 1{,}8 \\times 10^{-6}\\ \\text{g/L}$.\n\nEssa concentração é maior do que a concentração máxima permitida pela legislação ($1 \\times 10^{-6}$ g/L).\n\nLogo, esse corpo d’água não seria considerado próprio para consumo."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q32",
+   "numero": 32,
+   "codigo": "Q02",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Água contendo concentrações superiores a 150 mg/L de íons $\\text{Ca}^{2+}$ e $\\text{Mg}^{2+}$ é chamada de água dura, que é imprópria para algumas aplicações domésticas e industriais, pois esses íons reagem com sabão formando sais insolúveis. Para evitar esse contratempo, alguns processos de tratamento de água envolvem adição de reagentes químicos para precipitação dos íons $\\text{Ca}^{2+}$ e $\\text{Mg}^{2+}$. Avaliando as três situações distintas a seguir, responda:\n\n**Note e adote:**\n\n| Composto | Kps | Composto | Kps |\n|---|---|---|---|\n| Fosfato de cálcio | $2{,}0\\mathrm{x}10^{-29}$ | Hidróxido de cálcio | $5{,}5\\mathrm{x}10^{-6}$ |\n| Fosfato de magnésio | $1{,}0\\mathrm{x}10^{-25}$ | Hidróxido de magnésio | $1{,}8\\mathrm{x}10^{-11}$ |\n| Carbonato de cálcio | $2{,}8\\mathrm{x}10^{-9}$ | Sulfato de cálcio | $9{,}1\\mathrm{x}10^{-6}$ |\n| Carbonato de magnésio | $3{,}5\\mathrm{x}10^{-8}$ | Sulfato de magnésio | $3{,}6\\mathrm{x}10^{2}$ |\n\nMassas molares (g/mol): C = 12; O = 16; Na = 23; Ca = 40.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para o tratamento da água dura, dispõe-se dos seguintes compostos: $\\text{Na}_3\\text{PO}_4$, $\\text{Na}_2\\text{CO}_3$, NaOH e $\\text{Na}_2\\text{SO}_4$. Qual deles seria utilizado em menor quantidade, em mol, para o tratamento de água dura?",
+     "resposta_oficial": "$\\text{Na}_3\\text{PO}_4$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um possível procedimento usado para a retirada dos íons $\\text{Ca}^{2+}$ e $\\text{Mg}^{2+}$ da água consiste em adicionar cal apagada [$\\text{Ca(OH)}_2$] até saturar a solução. Posteriormente, adiciona-se $\\text{Na}_2\\text{CO}_3$. Com esse procedimento, qual íon será o primeiro a ser retirado? Escreva as fórmulas químicas dos precipitados formados.",
+     "resposta_oficial": "O primeiro íon retirado é o $\\text{Mg}^{2+}$.\n\nOs precipitados formados são $\\text{Mg(OH)}_2$ e $\\text{CaCO}_3$."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Considere uma caixa d’água com 10.000 L de água contendo 150 mg/L de $\\text{Ca}^{2+}$. Qual a massa de $\\text{Na}_2\\text{CO}_3$, em quilograma, que deve ser adicionada para que a concentração de $\\text{Ca}^{2+}$ seja reduzida a 70 mg/L?",
+     "resposta_oficial": "Massa inicial de $\\text{Ca}^{2+}$: 150 mg/L × 10000 L = 1500 g $\\text{Ca}^{2+}$\n\nMassa final: 70 mg/L × 10000 L = 700 g $\\text{Ca}^{2+}$\n\nPrecisa retirar 800 g $\\text{Ca}^{2+}$\n\nnº de mols de $\\text{Ca}^{2+}$ retirados: 800 g /40 g/mol = 20 mol $\\text{Ca}^{2+}$\n\nMassa molar do $\\text{Na}_2\\text{CO}_3$ = 106 g/mol\n\nNa reação, a estequiometria $\\text{Na}_2\\text{CO}_3$: $\\text{Ca}^{2+}$ é 1:1\n\nLogo, 20 mol×106 g/mol = 2120 g = 2,12 kg de $\\text{Na}_2\\text{CO}_3$"
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também $\\text{PO}_4^{3-}$, fosfato de sódio ou íon fosfato.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q33",
+   "numero": 33,
+   "codigo": "Q03",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O frasco Erlenmeyer tem esse nome por ter sido criado por um químico alemão chamado de Emil Erlenmeyer. As características do frasco Erlenmeyer, como fundo chato para não tombar, corpo cônico que permite agitação sem risco de respingos ou vazamentos, e pescoço cilíndrico, que permite a inserção de uma rolha ou tampa para sua vedação, tornaram o frasco popular.\n\nEmil Erlenmeyer foi também a primeira pessoa a sugerir a formação de ligações duplas e triplas entre átomos de carbono. Além disso, ele descreveu a regra Erlenmeyer, segundo a qual todos os álcoois nos quais o grupo OH esteja ligado a um carbono insaturado convertem-se em seus isômeros constitucionais de função, aldeídos ou cetonas, uma vez que eles são mais estáveis.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Desenhe, no espaço indicado da folha de respostas, um frasco Erlenmeyer.",
+     "resposta_oficial": "![Desenho de um frasco Erlenmeyer dentro de um quadro](fig:r75-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Desenhe, no quadro da folha de respostas, as fórmulas eletrônicas de Lewis dos hidrocarbonetos com duplas e triplas ligações com a menor massa molar possíveis.\n\n*Campo de resolução:*\n\n| Hidrocarboneto com ligação dupla | Hidrocarboneto com ligação tripla |\n|---|---|\n| | |",
+     "resposta_oficial": "![Quadro com duas colunas: hidrocarboneto com ligação dupla, com a fórmula eletrônica de Lewis e a fórmula estrutural do eteno, e hidrocarboneto com ligação tripla, com a fórmula eletrônica de Lewis e a fórmula estrutural do etino](fig:r75-c2)"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Desenhe, na folha de respostas, os isômeros constitucionais de função, cetona e aldeído, da molécula a seguir.\n\n![Fórmula estrutural de uma cadeia com ligação dupla entre carbonos, com um grupo OH e um grupo R ligados a um dos carbonos da dupla](fig:p40-f1)\n\nR = cadeia carbônica para o isômero da cetona\nR = hidrogênio para o isômero do aldeído\n\n*Campo de resolução:*\n\n| Cetona | Aldeído |\n|---|---|\n| | |",
+     "resposta_oficial": "![Quadro com duas colunas: Cetona, com a cadeia carbônica terminando em C=O ligado a R, e Aldeído, com a cadeia terminando em C=O ligado a H](fig:r75-c3)"
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também resposta onde, na cetona, o grupo R foi substituído por um grupo metila, etila, ou qualquer outra cadeia carbônica, desde que correta.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q34",
+   "numero": 34,
+   "codigo": "Q04",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No mergulho autônomo, usa-se cilindro contendo uma mistura de gases comprimidos que são inspirados pelo mergulhador e expirados para o ambiente, na forma de bolhas. Um risco associado a essa prática é a embolia causada pelo acúmulo de $\\text{N}_2$ nos tecidos do corpo quando esse gás é respirado em pressões parciais elevadas por longos períodos. A embolia pode ser evitada planejando-se a profundidade e o tempo do mergulho. Respirar $\\text{N}_2$ a uma pressão parcial de 1,58 atm por até 10 minutos não é prejudicial à saúde. O tempo de mergulho pode ser aumentado empobrecendo a mistura gasosa do cilindro em $\\text{N}_2$ e enriquecendo em $\\text{O}_2$ até pressão parcial de 1,4 atm, pois, acima desse valor, passa a apresentar caráter tóxico.\n\nConsiderando que a pressão atmosférica ao nível do mar é 1 atm e que, a cada 10 m de coluna de água, a pressão aumenta em 1 atm, responda:\n\n**Note e adote:**\nConstante dos gases ideais: $R = 0{,}082$ atm L/ K mol\n$T(\\text{K}) = T(^\\circ\\text{C}) + 273$\nMassa molar (g/mol): $\\text{O}_2 = 32$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um cilindro de mergulho de 12,3 litros de capacidade foi preenchido apenas com $\\text{O}_2$ a 140 atm a 27 °C. Qual a massa de $\\text{O}_2$ contida no cilindro?",
+     "resposta_oficial": "$PV = nRT$\n\n$P = 140$ atm; $V = 12{,}3$ L; $T = 300$ K; $R = 0{,}082$ atm L/ K mol\n\n$n = 70$ mols\n\nLogo, a massa de $\\text{O}_2$ é 2,24 kg (70 mols de $\\text{O}_2$ × 0,032 kg de $\\text{O}_2$ / 1 mol de $\\text{O}_2$)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere um mergulho de 10 minutos a uma profundidade constante utilizando um cilindro contendo apenas $\\text{N}_2$ e $\\text{O}_2$. Sabendo que o mergulho foi realizado no limite imposto pela toxicidade do $\\text{O}_2$ ($P_{\\text{O}_2} = 1{,}4$ atm) e pelo risco de embolia por $\\text{N}_2$ ($P_{\\text{N}_2} = 1{,}58$ atm), qual a profundidade do mergulho? Qual a composição porcentual, em mol, da mistura gasosa no cilindro do mergulhador? Desconsidere o tempo de descida e subida do mergulho.",
+     "resposta_oficial": "$P_{\\text{total}} = P\\text{O}_2 + P\\text{N}_2 = 1{,}4 + 1{,}58 = 2{,}98 = 1\\ \\text{atm (atmosfera)} + 1{,}98\\ \\text{atm de pressão de água}$\n\nLogo, a profundidade é 19,80 m.\n\nA relação entre número de mols ($n$) e pressão ($P$) é dada por:\n\n$n_{\\text{O}_2} / n_{\\text{total}} = P_{\\text{O}_2} / P_{\\text{total}} = 1{,}4/2{,}98 = 0{,}47$\n\nPortanto, a composição é 47% $\\text{O}_2$ e 53% $\\text{N}_2$"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Considere o mergulho descrito na figura ao lado, no qual a pressão nos pulmões do mergulhador é de 2,8 atm e a temperatura é de 7°C. Sabendo que o cilindro está preenchido com uma pressão de 140 atm e que o volume inspirado pelo mergulhador é de 0,5 L e é igual ao volume expirado, qual será o volume de ar consumido do cilindro a cada inspiração? Assuma que, nesse processo, a temperatura do gás se mantém constante a 7°C. Qual o volume da bolha de ar expirado quando ela atinge a superfície, onde a pressão é de 1 atm e a temperatura de 27°C?\n\n![Mergulhador no mar, com as indicações: \"Nível do mar (1 atm)\", \"27°C\" na superfície, \"Profundidade do mergulho\", \"Bolha de ar expirado\" e \"pressão no pulmão (2,8 atm)\" e \"7°C\" junto ao mergulhador](fig:p40-f3)",
+     "resposta_oficial": "$P_{\\text{cilindro}} V_{\\text{cilindro}} / T_{\\text{cilindro}} = P_{\\text{ambiente}} V_{\\text{ambiente}} / T_{\\text{ambiente}}$\n\nNo ato de inspiração/expiração\n\n$P_{\\text{cilindro}} = 140$ atm\n\n$P_{\\text{“ambiente”}} = 2{,}8$ atm (pressão do pulmão)\n\n$T_{\\text{cilindro}} = T_{\\text{“ambiente”}}$\n\n$V_{\\text{“inspirado”}} = 0{,}5$ L\n\nPara cálculo de $V_{\\text{cilindro}}$:\n\n(2,8 atm × 0,5 L) / 300 K = (140 × $V_{\\text{cilindro}}$) / 300 K\n\n$V_{\\text{cilindro}} = 0{,}01$ L\n\nBolha na superfície ($V_{\\text{sup}}$): $P_{\\text{superfície}} V_{\\text{superfície}} / T_{\\text{superfície}} = P_{\\text{ambiente}} V_{\\text{ambiente}} / T_{\\text{ambiente}}$\n\n$P_{\\text{superfície}} = 1$ atm, $T_{\\text{superfície}} = 300$ K\n\n1 × $V_{\\text{superfície}}$/300 = 2,8 × 0,5/280\n\n$V_{\\text{superfície}} = 1{,}5$ L"
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q35",
+   "numero": 35,
+   "codigo": "Q05",
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "A geração de eletricidade limpa, barata e constante é algo essencial para o desenvolvimento sustentável. Dispositivos eletrônicos portáteis funcionam, em geral, com baterias químicas, que precisam ser constantemente recarregadas e têm vida útil limitada. Uma alternativa promissora para a substituição de baterias químicas em dispositivos portáteis vem surgindo com o desenvolvimento de baterias nucleares, como a mostrada na Figura 1, constituídas por emissor de radiação beta (β), como o $^{63}\\text{Ni}$, e um semicondutor.\n\n![Figura 1: fotografia de uma bateria nuclear em formato de moeda, com o símbolo de radiação e a inscrição \"63 Ni\"](fig:p42-c1)\n\nA energia da radiação beta excita os elétrons do semicondutor, criando lacunas onde antes havia elétrons. Esses pares de lacunas-elétrons geram uma diferença de potencial que pode ser aproveitada na forma de eletricidade.\n\n![Figura 2: radiações alfa, beta, gama e nêutron incidindo sobre placas de papel/pele, alumínio e chumbo; densidade (kg/m³): papel/pele 1500, alumínio 2700, chumbo 11340](fig:p42-c2)\n\n**Note e adote:**\nNo item a), considere que as placas têm a mesma espessura.\nMassa do elétron: $10^{-30}$ kg e, portanto, pode ser desprezada.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Sabendo que a capacidade de blindar a radiação de um material está relacionada à sua densidade, como mostrado na Figura 2, e que o revestimento da bateria é feito de aço inoxidável, cuja densidade é de $7500\\ \\text{kg/m}^3$, explique se a utilização dessa bateria deixará o usuário exposto a algum risco radiológico.",
+     "resposta_oficial": "Não. A radiação beta já é bloqueada com material de densidade de $2700\\ \\text{kg m}^{-3}$. Portanto, material com densidade de $7500\\ \\text{kg m}^{-3}$ não permite a passagem de radiação beta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Desenhe, na folha de respostas, a evolução, ao longo do tempo, do número de átomos de $^{63}\\text{Ni}$ e de $^{63}\\text{Cu}$ presentes em uma bateria nuclear de $^{63}\\text{Ni}$, sabendo que o $^{63}\\text{Cu}$ é um isótopo estável.\n\n*Campo de resolução:*\n\n![Dois pares de eixos vazios: \"n° de átomos de $^{63}\\text{Ni}$\" em função de \"tempo (anos)\" e \"n° de átomos de $^{63}\\text{Cu}$\" em função de \"tempo (anos)\"](fig:p43-c1)",
+     "resposta_oficial": "![Dois gráficos: \"n° de átomos de $^{63}\\text{Ni}$\" em função de \"tempo (anos)\", com curva decrescente, e \"n° de átomos de $^{63}\\text{Cu}$\" em função de \"tempo (anos)\", com curva crescente](fig:r78-c1)"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Assuma que essa bateria é operacional até que 75% da quantidade $^{63}\\text{Ni}$ sejam consumidos. Qual a vida útil da bateria em anos, sabendo que o tempo de meia-vida do $^{63}\\text{Ni}$ é de 100 anos? A massa da bateria aumenta, diminui ou se mantém ao longo do seu tempo de uso?",
+     "resposta_oficial": "Após a primeira meia-vida, sobram 50% da quantidade de $^{63}\\text{Ni}$ inicial; após a segunda meia-vida, sobram 25%. Ou seja, em 200 anos (2 meias-vidas), são consumidos 75% da quantidade de $^{63}\\text{Ni}$. Logo, a vida útil da bateria é de 200 anos.\n\nA massa da bateria se mantém."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2025-2-d2-q36",
+   "numero": 36,
+   "codigo": "Q06",
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A lidocaína é um anestésico local muito utilizado por dentistas. Ela atua a partir de sua passagem através da membrana lipídica que envolve os neurônios, que são as células responsáveis pela transmissão do sinal da dor. A eficácia de um anestésico depende da sua capacidade de permear a membrana lipídica, sendo que o efeito anestésico é tanto maior quanto maior a permeação. Em meio ácido, a lidocaína é protonada conforme equação química a seguir.\n\n![Equação química: a estrutura (I), lidocaína, reage com H⁺ e forma a estrutura (II), com o nitrogênio protonado e carga positiva](fig:p42-f2)\n\nConsiderando as informações apresentadas, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual o nome da função orgânica que é protonada na molécula de lidocaína?",
+     "resposta_oficial": "Amina."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que processos inflamatórios geram produtos ácidos, a lidocaína, quando aplicada em regiões com inflamação, tem seu efeito reduzido, amplificado ou inalterado? Justifique a sua resposta.",
+     "resposta_oficial": "Reduzido, pois, em meio ácido, a molécula é protonada e se torna mais polar, portanto, menos lipossolúvel."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Outro anestésico local muito utilizado é a bupivacaína, cuja estrutura química é apresentada a seguir.\n\n![Fórmula estrutural da bupivacaína](fig:p42-f3)\n\nComparando essa molécula com a molécula da lidocaína (I), e considerando apenas a capacidade de penetrar a membrana lipídica dos neurônios, qual das duas deve ter um maior efeito anestésico? Justifique a sua resposta com base na estrutura das moléculas.",
+     "resposta_oficial": "A bupivacaína tem um maior poder anestésico, pois é uma molécula mais apolar quando comparada com a lidocaína."
+    }
+   ],
+   "resposta_oficial": "**Considerações da banca corretora:**\n- item a : 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos.",
+   "revisao": "transcrita"
+  }
+ ]
+}
