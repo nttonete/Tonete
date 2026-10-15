@@ -1,0 +1,467 @@
+{
+ "edicao": "fuvest-2022-1",
+ "textos_base": {
+  "t42-44": "![Ilustração “Beware the fatberg”: duas pessoas assustadas diante de uma massa verde com olhos amarelos e canos](fig:p12-f2)\n\n*Fatbergs are a growing scourge infesting cities around the world—some are more than 800 feet long and weigh more than four humpback whales. These gross globs, which can cause sewer systems to block up and even overflow, have been plaguing the U.S., Great Britain and Australia for the past decade, forcing governments and utilities companies to send workers down into the sewers armed with water hoses, vacuums and scrapers with the unenviable task of prying them loose.*\n\n*\"It is hard not to think of [fatbergs] as a tangible symbol of the way we live now, the ultimate product of our disposable, out of sight, out of mind culture,\" wrote journalist Tim Adams in The Guardian.*\n\n*At their core, fatbergs are the accumulation of oil and grease that's been poured down the drain, congealing around flushed nonbiological waste like tampons, condoms and baby wipes. When fat sticks to the side of sewage pipes, the wipes and other detritus get stuck, accumulating layer upon layer of gunk in a sort of slimy snowball effect.*\n\n*Fatbergs also collect other kinds of debris—London fatbergs have been cracked open to reveal pens, false teeth and even watches.*\n\n*Restaurants are a big contributor to fatbergs: Thames Water, the London utilities company, found nine out of 10 fast-food eateries lacked adequate grease traps to stop fat from entering the sewers. Homeowners also contribute to the problem by pouring grease and fat down the sink.*\n\n*Even though its component materials are soft, fatbergs themselves can be tough as rocks. Researchers have found a host of dangerous bacteria in fatbergs, including listeria and e.coli.*\n\n*Fatbergs are notorious for their fetid smell, which can make even the hardiest sewer workers gag, and chipping away at one can release noxious gases.*\n\n*The key to fatberg prevention is remembering the four Ps: Pee, poo, puke and (toilet) paper are the only things that should be flushed.*\n\n**Newsweek**, 14 March, 2019. Adaptado.",
+  "t45-47": "*If you take a look at my smartphone, you’ll know that I like to order out. But am I helping the small local businesses? You would think that if you own a restaurant you’d be thrilled to have an outsourced service that would take care of your delivery operations while leveraging their marketing might to expand your businesses’ brand. However, restaurant owners have complained of lack of quality control once their food goes out the door. They don’t like that the delivery people are the face of their product when it gets into the customer’s hand. Some of the delivery services have been accused of listing restaurants on their apps without the owners’ permission, and oftentimes publish menu items and prices that are incorrect or out of date.*\n\n*But there is another reason why restaurant owners aren’t fond of delivery services. It’s the costs, which, for some, are becoming unsustainable. Even with the increased revenues from the delivery services, the fees wind up killing a restaurant’s margins to the extent that it’s at best marginally profitable. Therefore, some restaurants are pushing harder to drive orders from their own websites and offering special deals for customers that use their in-house delivery people.*\n\n*The simple fact is that these delivery apps are here to stay. They are enormously popular and have significantly grown. I believe that restaurant owners that resist these apps are hurting their brands by missing out on potential customers. The good news is that the delivery platforms are not as evil as some would portray them. They have some skin in the game. They are competing against other services. They want their listed restaurants to profit. Maybe instead of fighting, the nation’s restaurant industry needs to proactively embrace the delivery service industry and figure out ways to profitably work together.*\n\n**The Guardian**. 02 December, 2020. Adaptado."
+ },
+ "questoes": [
+  {
+   "numero": 31,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O sistema de numeração conhecido como chinês científico (ou em barras) surgiu provavelmente há mais de dois milênios. O sistema é essencialmente posicional, de base 10, com o primeiro algarismo à direita representando a unidade. A primeira linha horizontal de símbolos da figura mostra como se representam os algarismos 1, 2, 3, 4, 5, 6, 7, 8 e 9 quando aparecem em posições ímpares (unidades, centenas etc.), e a segunda linha quando tais algarismos aparecem em posições pares (dezenas, milhares etc.). Nesse sistema, passou-se a usar um círculo para representar o algarismo zero a partir da Dinastia Sung (960-1126).\n\n![Duas linhas de símbolos em barras verdes, uma para cada tipo de posição, representando os algarismos de 1 a 9](fig:p10-f1)\n\nHoward Eves, *Introdução à História da Matemática*. Tradução: Hygino H. Domingues. Editora Unicamp, 2011 (5ª ed.).\n\nAssinale a alternativa que representa o número 91625 nesse sistema de numeração.",
+   "alternativas": {
+    "A": "![Alternativa A](fig:p10-c1)",
+    "B": "![Alternativa B](fig:p10-c2)",
+    "C": "![Alternativa C](fig:p10-c3)",
+    "D": "![Alternativa D](fig:p10-c4)",
+    "E": "![Alternativa E](fig:p10-c5)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 32,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um vídeo tem três minutos de duração. Se o vídeo for reproduzido, desde o seu início, com velocidade de 1,5 vezes a velocidade original, o tempo de reprodução do vídeo inteiro será de",
+   "alternativas": {
+    "A": "1min30s.",
+    "B": "1min50s.",
+    "C": "2min00s.",
+    "D": "2min30s.",
+    "E": "2min50s."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 33,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma indústria produz três modelos de cadeiras (indicadas por $M_1$, $M_2$ e $M_3$), cada um deles em duas opções de cores: preta e vermelha (indicadas por P e V, respectivamente). A tabela mostra o número de cadeiras produzidas semanalmente conforme a cor e o modelo:\n\n| | P | V |\n|---|---|---|\n| $M_1$ | 500 | 200 |\n| $M_2$ | 400 | 220 |\n| $M_3$ | 250 | 300 |\n\nAs porcentagens de cadeiras com defeito são de 2% do modelo $M_1$, 5% do modelo $M_2$ e 8% do modelo $M_3$. As cadeiras que não apresentam defeito são denominadas boas.\n\nA tabela que indica o número de cadeiras produzidas semanalmente com defeito (D) e boas (B), de acordo com a cor, é:",
+   "alternativas": {
+    "A": "![Tabela com as linhas D (P 55, V 39) e B (P 1095, V 681)](fig:p10-c6)",
+    "B": "![Tabela com as linhas D (P 51, V 40) e B (P 1099, V 680)](fig:p10-c7)",
+    "C": "![Tabela com as linhas D (P 50, V 39) e B (P 1100, V 681)](fig:p10-c8)",
+    "D": "![Tabela com as linhas D (P 50, V 37) e B (P 1100, V 683)](fig:p10-c9)",
+    "E": "![Tabela com as linhas D (P 51, V 39) e B (P 1099, V 681)](fig:p10-c10)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 34,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os funcionários de um salão de beleza compraram um presente no valor de R\\$ 200,00 para a recepcionista do estabelecimento. No momento da divisão igualitária do valor, dois deles desistiram de participar e, por causa disso, cada pessoa que ficou no grupo precisou pagar R\\$ 5,00 a mais que a quantia originalmente prevista. O valor pago por pessoa que permaneceu na divisão do custo do presente foi:",
+   "alternativas": {
+    "A": "R\\$ 10,00",
+    "B": "R\\$ 15,00",
+    "C": "R\\$ 20,00",
+    "D": "R\\$ 25,00",
+    "E": "R\\$ 40,00"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 35,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma empresa construiu um poço para armazenar água de reúso. O custo para construir o primeiro metro foi de R\\$ 1.000,00, e cada novo metro custou R\\$ 200,00 a mais do que o imediatamente anterior. Se o custo total da construção foi de R\\$ 48.600,00, a profundidade do poço é:",
+   "alternativas": {
+    "A": "15 m",
+    "B": "18 m",
+    "C": "21 m",
+    "D": "24 m",
+    "E": "27 m"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 36,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um *deltaedro* é um poliedro cujas faces são todas triângulos equiláteros. Se um deltaedro convexo possui 8 vértices, então o número de faces desse deltaedro é:\n\n**Note e adote:** Em poliedros convexos, vale a relação de Euler $F - A + V = 2$, em que $F$ é o número de faces, $A$ é o número de arestas e $V$ é o número de vértices do poliedro.",
+   "alternativas": {
+    "A": "4",
+    "B": "6",
+    "C": "8",
+    "D": "10",
+    "E": "12"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 37,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura mostra um quadrado e um círculo, ambos com centro no ponto $O$. O quadrado tem lado medindo 1 unidade de medida (u.m.) e o círculo tem raio igual a 2 u.m. O ponto $A$ está sobre o contorno do quadrado, o ponto $B$ está sobre o contorno do círculo, e o segmento $AB$ tem tamanho 2 u.m.\n\n![Quadrado e círculo com centro em O, com os pontos A e B, o segmento AB, o ângulo θ e as medidas 1 e 2](fig:p11-f2)\n\nQuando o ângulo $\\theta = A\\hat{O}B$ for máximo, seu cosseno será:",
+   "alternativas": {
+    "A": "$\\frac{1}{8}$",
+    "B": "$\\frac{1}{4}$",
+    "C": "$\\frac{1}{2}$",
+    "D": "$\\frac{\\sqrt{2}}{2}$",
+    "E": "$\\frac{\\sqrt{3}}{2}$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 38,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Suponha que o polinômio $p(x) = x^3 + mx - 2$, em que $m$ é um número real, tenha uma raiz real dupla $a$ e uma raiz real simples $b$. O valor da soma de $m$ com $a$ é:",
+   "alternativas": {
+    "A": "$0$",
+    "B": "$-1$",
+    "C": "$-2$",
+    "D": "$-3$",
+    "E": "$-4$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 39,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Quatro tanques cilíndricos são vistos de cima (em planta baixa) conforme a figura. Todos têm 10 m de raio e seus centros se posicionam em vértices dos dois quadrados tracejados adjacentes, ambos com 30 m de lado. Uma fita de isolamento, esticada e paralela ao solo, envolve os 4 tanques, dando uma volta completa (linha em laranja na figura).\n\n![Planta baixa de quatro tanques circulares de 10 m de raio, envolvidos por uma linha laranja, com os quadrados tracejados e as cotas de 30 m](fig:p11-f3)\n\nO comprimento da fita, em metros, é:",
+   "alternativas": {
+    "A": "$20\\pi + 30(3 + \\sqrt{2})$",
+    "B": "$20\\pi + 30(4 + \\sqrt{2})$",
+    "C": "$25\\pi + 15(4 + \\sqrt{2})$",
+    "D": "$25\\pi + 30(4 + \\sqrt{2})$",
+    "E": "$25\\pi + 30(4 + 2\\sqrt{2})$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 40,
+   "materia": "fisica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "Em fevereiro de 2021, um grupo de físicos da Universidade Federal de Minas Gerais (UFMG) publicou um artigo que foi capa da importante revista *Nature*. O texto a seguir foi retirado de uma reportagem do *site* da UFMG sobre o artigo:\n\n*O nanoscópio, prossegue Ado Jorio (professor da UFMG), ilumina a amostra com um microscópio óptico usual. O foco da luz tem o tamanho de um círculo de 1 micrômetro de diâmetro. “O que o nanoscópio faz é inserir uma nanoantena, que tem uma ponta com diâmetro de 10 nanômetros, dentro desse foco de 1 micrômetro e escanear essa ponta. A imagem com resolução nanométrica é formada por esse processo de escaneamento da nanoantena, que localiza o campo eletromagnético da luz em seu ápice”, afirma o professor.*\n\nItamar Rigueira Jr. “Nanoscópio da UFMG possibilita compreender estrutura que torna grafeno supercondutor”. Adaptado. Disponível em https://ufmg.br/comunicacao/noticias/.\nGadelha A C *et al*. (2021), *Nature*, 590, 405-409, doi: 10.1038/s41586-021-03252-5.\n\nCom base nos dados mencionados no texto, a razão entre o diâmetro do foco da luz de um microscópio óptico usual e o diâmetro da ponta da nanoantena utilizada no nanoscópio é da ordem de:",
+   "alternativas": {
+    "A": "0,0001",
+    "B": "0,01",
+    "C": "1",
+    "D": "100",
+    "E": "10000"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 41,
+   "materia": "matematica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "A quantidade de bactérias em um líquido é diretamente proporcional à medida da *turbidez* desse líquido. O gráfico mostra, em escala logarítmica, o crescimento da turbidez $x$ de um líquido ao longo do tempo $t$ (medido em minutos), isto é, mostra $\\log_{10} x$ em função de $t$. Os dados foram coletados de 30 em 30 minutos, e uma curva de interpolação foi obtida para inferir valores intermediários.\n\n![Gráfico de log₁₀ x em função de t (min), com curva crescente e os instantes t₀ e t₁ marcados](fig:p12-c1)\n\nDisponível em https://fankhauserblog.wordpress.com/.\n\nCom base no gráfico, em quantas vezes a população de bactérias aumentou, do instante $t_0$ para o instante $t_1$?",
+   "alternativas": {
+    "A": "2",
+    "B": "4",
+    "C": "5",
+    "D": "10",
+    "E": "100"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 42,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t42-44",
+   "enunciado": "O texto informa que, na opinião do jornalista Tim Adams, os *fatbergs*",
+   "alternativas": {
+    "A": "integram a paisagem londrina, causando impacto em razão de suas dimensões.",
+    "B": "constituem representação real dos hábitos humanos atuais.",
+    "C": "simbolizam aspectos culturais submetidos a análises racionais.",
+    "D": "desafiam o repertório tecnológico da engenharia de águas.",
+    "E": "demonstram incentivo para que moradores consolidem seus costumes."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 43,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t42-44",
+   "enunciado": "De acordo com o texto, o processo de bloqueio do fluxo de esgoto, provocado pelos *fatbergs*, ocorre",
+   "alternativas": {
+    "A": "por falha no sistema de limpeza das galerias a cargo das prefeituras.",
+    "B": "por conta do diâmetro estreito dos canos antigos.",
+    "C": "pela solidificação da água na tubulação, em virtude das baixas temperaturas.",
+    "D": "pela aderência da gordura e outros detritos nas laterais da tubulação.",
+    "E": "pelo descolamento de placas de concreto dentro da rede de abastecimento de água."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 44,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t42-44",
+   "enunciado": "Considerado o contexto, os quatro elementos associados à prevenção dos *fatbergs* têm em comum o fato de",
+   "alternativas": {
+    "A": "conterem pouca gordura.",
+    "B": "ocorrerem em quantidade reduzida.",
+    "C": "serem considerados matéria orgânica.",
+    "D": "terem sua frequência controlada.",
+    "E": "estarem livres de bactérias."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 45,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t45-47",
+   "enunciado": "De acordo com o texto, para os proprietários de restaurante, a principal vantagem dos aplicativos de entrega de comida é que eles",
+   "alternativas": {
+    "A": "procuram oferecer taxas atraentes para a utilização de sua tecnologia.",
+    "B": "demonstram preocupação crescente com a qualidade do serviço que oferecem.",
+    "C": "melhoram a avaliação dos restaurantes pela imprensa especializada.",
+    "D": "garantem que suas listas de restaurantes e menus sejam atualizadas de modo criterioso.",
+    "E": "possuem uma estrutura de marketing que possibilita expansão do círculo de clientes."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 46,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t45-47",
+   "enunciado": "Segundo o texto, uma das soluções encontradas pelos donos de restaurante para amenizar os problemas com os serviços de entrega é",
+   "alternativas": {
+    "A": "o contato telefônico com clientes para ouvir comentários e reclamações.",
+    "B": "a verificação constante das páginas dos aplicativos para evitar erros e imprecisões.",
+    "C": "o oferecimento de vantagens para clientes que usam os serviços de entrega do próprio restaurante.",
+    "D": "a listagem de seus restaurantes em diversos aplicativos para encorajar a competição entre eles.",
+    "E": "a disseminação, junto aos clientes, de uma imagem relativa aos serviços de aplicativos como incompetentes."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 47,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": "t45-47",
+   "enunciado": "Em “I believe that restaurant owners that resist these apps are hurting their brands by <u>missing out</u> on potential customers” (3º parágrafo), a expressão sublinhada pode ser substituída, sem prejuízo de sentido, por:",
+   "alternativas": {
+    "A": "harming.",
+    "B": "deceiving.",
+    "C": "challenging.",
+    "D": "losing.",
+    "E": "disturbing."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 48,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*Lying, thinking\nLast night\nHow to find my soul a home\nWhere water is not thirsty\nAnd bread loaf is not stone\nI came up with one thing\nAnd I don't believe I'm wrong\nThat nobody,\nBut nobody\nCan make it out here alone*\n\n*Alone* - Maya Angelou\n\nOs versos do poema",
+   "alternativas": {
+    "A": "afirmam os sentimentos de autonomia e autossuficiência.",
+    "B": "mostram a derrota diante das dificuldades.",
+    "C": "expressam o resultado das reflexões feitas.",
+    "D": "indicam a distância intransponível entre amigos.",
+    "E": "mostram arrependimento em relação às decisões do passado."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 49,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Tirinha de BizarroComics.com: um homem olhando para o celular, à esquerda, e uma mulher sentada à mesa diante dele, à direita. Balão: “Do you mind if I strap your phone to my forehead so I can pretend you're looking at me when I talk?”](fig:p14-f1)\n\nConsiderando os elementos visuais e verbais da figura, é possível interpretar a fala da mulher como",
+   "alternativas": {
+    "A": "sinal da sua insatisfação com o local escolhido para o encontro.",
+    "B": "sentimento de inferioridade, por não possuir um telefone celular.",
+    "C": "constatação de que relações pessoais acarretam exclusão das redes sociais.",
+    "D": "resposta aos apelos pela troca equitativa de informações.",
+    "E": "expressão sarcástica em protesto pela ausência de interlocução."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 50,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um bom café deve ser preparado a uma temperatura pouco acima de 80 °C. Para evitar queimaduras na boca, deve ser consumido a uma temperatura mais baixa. Uma xícara contém 60 mL de café a uma temperatura de 80 °C. Qual a quantidade de leite gelado (a uma temperatura de 5 °C) deve ser misturada ao café para que a temperatura final do café com leite seja de 65 °C?\n\n**Note e adote:** Considere que o calor específico e a densidade do café e do leite sejam idênticos.",
+   "alternativas": {
+    "A": "5 mL",
+    "B": "10 mL",
+    "C": "15 mL",
+    "D": "20 mL",
+    "E": "25 mL"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 51,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma criança deixa cair de uma mesma altura duas maçãs, uma delas duas vezes mais pesada do que a outra. Ignorando a resistência do ar e desprezando as dimensões das maçãs frente à altura inicial, o que é correto afirmar a respeito das energias cinéticas das duas maçãs na iminência de atingirem o solo?",
+   "alternativas": {
+    "A": "A maçã mais pesada possui tanta energia cinética quanto a maçã mais leve.",
+    "B": "A maçã mais pesada possui o dobro da energia cinética da maçã mais leve.",
+    "C": "A maçã mais pesada possui a metade da energia cinética da maçã mais leve.",
+    "D": "A maçã mais pesada possui o quádruplo da energia cinética da maçã mais leve.",
+    "E": "A maçã mais pesada possui um quarto da energia cinética da maçã mais leve."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 52,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma bola de bilhar vermelha está inicialmente em repouso a 40 cm de duas das bordas (lateral e superior da figura) de uma mesa de bilhar, como mostra a figura. Uma bola branca de mesma massa e tamanho é lançada em direção à vermelha com velocidade $\\vec{v}_0$ paralela à borda lateral.\n\nAs duas bolas colidem e, algum tempo depois, a bola vermelha está prestes a cair na caçapa posicionada na junção das duas bordas. No mesmo instante, a bola branca toca a borda superior da mesa a uma distância $d$ da bola vermelha, conforme figura.\n\n![Duas mesas de bilhar vistas de cima, rotuladas “antes” e “depois”, com as bolas vermelha e branca, a velocidade v₀, as distâncias de 40 cm e a distância d](fig:p14-f3)\n\nO valor de $d$ é aproximadamente:\n\n**Note e adote:** Despreze efeitos dissipativos (como deslizamentos com atrito) e considere a colisão entre as bolas como sendo perfeitamente elástica.\nConsidere que o diâmetro das bolas seja muito menor que as distâncias mencionadas e que não ocorram outras colisões intermediárias.",
+   "alternativas": {
+    "A": "20 cm",
+    "B": "40 cm",
+    "C": "60 cm",
+    "D": "80 cm",
+    "E": "100 cm"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 53,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Esquema com um motor no solo e uma polia presa ao teto, com uma caixa suspensa por um cabo e setas verticais indicando subida e descida](fig:p14-f5)\n\nConsidere a situação indicada na figura, em que um motor, com o auxílio de uma polia, ergue verticalmente uma caixa de massa 12 kg. A caixa contém materiais frágeis e deve ser erguida com velocidade constante. Qual é a magnitude da força vertical que o motor deve exercer para realizar a tarefa?\n\n**Note e adote:** Despreze efeitos de atrito.\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.",
+   "alternativas": {
+    "A": "0 N",
+    "B": "30 N",
+    "C": "60 N",
+    "D": "120 N",
+    "E": "240 N"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 54,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Dois fios muito longos transportam, cada um deles, uma corrente elétrica de intensidade $\\boldsymbol{I}$, conforme indicado na figura. Uma partícula de carga $\\boldsymbol{+Q}$, situada a uma distância $\\boldsymbol{R}$ de cada um dos fios, *move-se* com velocidade constante ao longo da direção z.\n\n![Eixos x, y e z e dois fios verticais com correntes, com a partícula de carga +Q entre eles, a velocidade v e a distância R indicadas](fig:p15-f1)\n\nO módulo e sentido da força magnética atuando sobre a carga devido ao campo magnético produzido pelos fios são dados por:\n\n**Note e adote:** O campo magnético produzido por um fio muito longo transportando uma corrente de valor $\\boldsymbol{I}$ tem módulo aproximadamente dado por $\\boldsymbol{\\mu_0 I/2\\pi r}$, sendo $\\boldsymbol{r}$ a distância do fio até o ponto e $\\boldsymbol{\\mu_0}$ corresponde a constante de permeabilidade magnética.",
+   "alternativas": {
+    "A": "$0$",
+    "B": "$Q\\mu_0 I/\\pi R$ e aponta na direção $-y$",
+    "C": "$Q\\mu_0 I/\\pi R$ e aponta na direção $y$",
+    "D": "$Q\\mu_0 I/\\pi R$ e aponta na direção $-x$",
+    "E": "$Q\\mu_0 I/\\pi R$ e aponta na direção $x$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 55,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um componente eletrônico tem curva característica mostrada no gráfico a seguir:\n\n![Gráfico da diferença de potencial (V) em função da corrente (A), com curva crescente](fig:p15-c1)\n\nA resistência elétrica do componente na região em que ele se comporta como um resistor ôhmico vale aproximadamente:",
+   "alternativas": {
+    "A": "0,4 Ω",
+    "B": "0,6 Ω",
+    "C": "0,8 Ω",
+    "D": "1,0 Ω",
+    "E": "1,2 Ω"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 56,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O canhão de Newton, esquematizado na figura, é um experimento mental imaginado por Isaac Newton para mostrar que sua lei da gravitação era universal. Disparando o canhão horizontalmente do alto de uma montanha, a bala cairia na Terra em virtude da força da gravidade. Com uma maior velocidade inicial, a bala iria mais longe antes de retornar à Terra. Com a velocidade certa, o projétil daria uma volta completa em torno da Terra, sempre “caindo” sob ação da gravidade, mas nunca alcançando a Terra. Newton concluiu que esse movimento orbital seria da mesma natureza do movimento da Lua em torno da Terra.\n\n![Esquema do canhão de Newton: canhão no alto de uma montanha sobre a Terra, com trajetórias da bala](fig:p15-f4)\n\nQual deveria ser a velocidade inicial de um projétil lançado horizontalmente do alto do Everest (a uma distância aproximada de 6.400 km do centro da Terra) para colocá-lo em órbita em torno da Terra?\n\n**Note e adote:** Despreze a resistência do ar.\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.",
+   "alternativas": {
+    "A": "8 km/s",
+    "B": "11,2 km/s",
+    "C": "80 km/s",
+    "D": "112 km/s",
+    "E": "8.000 km/s"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 57,
+   "materia": "fisica",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "Em virtude do movimento das placas tectônicas, a distância entre a América do Sul e a África aumenta, nos dias atuais, cerca de 2,0 cm a cada ano. Supondo que essa velocidade tivesse sido constante ao longo do tempo, e tomando uma distância atual de cerca de 5.000 km entre os limites dessas duas massas continentais, indique a melhor estimativa para quanto tempo teria transcorrido desde quando ambas estavam unidas em um único supercontinente.\n\n**Note e adote:** O valor obtido, embora da ordem de magnitude correta, não é o mesmo calculado por estimativas mais precisas.",
+   "alternativas": {
+    "A": "250.000 anos",
+    "B": "2.500.000 anos",
+    "C": "25.000.000 anos",
+    "D": "250.000.000 anos",
+    "E": "2.500.000.000 anos"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 58,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma mancha de petróleo com mais de 3000 km de extensão se espalhou por praias e manguezais da costa da região nordeste e parte do sudeste, atingindo áreas marinhas protegidas como o Parque Nacional Marinho de Abrolhos, um dos principais bancos de corais e berço de biodiversidade do Atlântico Sul. Desde que foi detectada pela primeira vez, no dia 30 de agosto de 2019, a mancha de petróleo atingiu cerca de 900 locais em mais de 127 municípios em 11 estados. A origem do petróleo está estimada em algum local a leste do litoral do estado de Pernambuco, distante, aproximadamente, 600 km da linha de costa.\n\nDisponível em https://www.wwf.org.br/. 2019. Adaptado.\n\nCom base em seus conhecimentos sobre o litoral brasileiro e as correntes marítimas superficiais que margeiam a costa, assinale a alternativa correta que aponta o fator que contribuiu para a dispersão do petróleo.",
+   "alternativas": {
+    "A": "As reentrâncias e os recortes do litoral brasileiro, com sua geomorfologia costeira, foram responsáveis pelo impacto ambiental causado pelo derramamento de petróleo.",
+    "B": "A presença de correntes marítimas frias em superfície, características dessa região, com elevado potencial de transporte de sedimentos, acentuou a dispersão do petróleo.",
+    "C": "A corrente marítima das Falkland (Malvinas), que margeia a costa brasileira até o litoral da região nordeste, com águas frias em superfície, potencializou a dispersão do petróleo.",
+    "D": "A reduzida profundidade média do litoral brasileiro favoreceu a dispersão do petróleo ao longo da costa de norte a sul, resultando em impactos negativos, em especial para a fauna marinha.",
+    "E": "A corrente marítima do Brasil, que é caracterizada pelo movimento de águas superficiais quentes ao longo da linha de costa e provenientes do Atlântico Equatorial, espalhou o petróleo."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 59,
+   "materia": "geografia",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "A escala cartográfica expressa as dimensões presentes em um mapa e a sua correspondência no terreno, ou seja, é uma abstração adotada que permite transpor a realidade terrestre para o mapa mantendo as proporções. Considerando a distância de 6 cm entre dois municípios em um mapa com escala numérica de 1 : 1.000.000, qual é a distância, em linha reta, entre eles?",
+   "alternativas": {
+    "A": "0,6 km",
+    "B": "6 km",
+    "C": "6,6 km",
+    "D": "60 km",
+    "E": "600 km"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 60,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Eventos climáticos extremos marcaram este ano com vários exemplos no mundo, atingindo populações inteiras, tanto em ambientes rurais como urbanos. Dentre esses eventos, pode-se destacar as inundações na Alemanha no mês de julho, com regiões acometidas por fortes chuvas.\n\n![Duas fotografias aéreas lado a lado da área urbana de Schuld, antes (à esquerda) e depois (à direita) da inundação](fig:p16-f1)\n\nÁrea urbana de Schuld, Oeste da Alemanha, antes (à esquerda) e depois (à direita) da inundação de julho/2021. Disponível em https://www.dw.com/.\n\nUm dos motivos que podem ser relacionados ao evento de inundação da área destacada é:",
+   "alternativas": {
+    "A": "O fato de o rio meandrante desviar da área urbana instalada nas suas margens, pois o vale estreito é periodicamente inundado, em especial nos eventos climáticos extremos, que submergem os morros na cidade.",
+    "B": "A extensão do assentamento urbano que não respeitou os limites do canal fluvial, acabando por aterrá-lo, o que levou à inundação diante de um evento climático extremo, já que os rios não podem ser encobertos.",
+    "C": "A área urbana, que se encontra em um fundo de vale plano onde há a presença de um canal de rio meandrante, o qual pode ter suas águas periodicamente extravasadas para a planície de inundação.",
+    "D": "O insucesso da prevenção da inundação por meio da retificação do rio, pois se esperava que, mesmo com volumes excessivos de chuvas, as águas do canal fluvial não poderiam ser extravasadas para as margens.",
+    "E": "Como a área urbana se encontra em um fundo de vale rugoso, existe maior facilidade para o assentamento, porém com o risco de o rio entrelaçado desviar seu curso único, causando inundações laterais."
+   },
+   "observacoes": ""
+  }
+ ]
+}
