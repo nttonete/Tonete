@@ -1296,7 +1296,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "Na eutrofização, o excesso de nutrientes (esgoto, fertilizantes) provoca a proliferação de algas. Quando elas morrem, a matéria orgânica alimenta **microrganismos aeróbicos** decompositores, que consomem o oxigênio dissolvido; é essa falta de oxigênio que mata os peixes.\n\nCom a água já sem oxigênio, a matéria orgânica (incluindo os peixes mortos) passa a ser degradada por **decomposição anaeróbica**, que libera gases como o sulfídrico, responsável pelo cheiro forte.\n\nA alternativa A erra a segunda parte: depois da mortandade não há oxigênio para decomposição aeróbica. Em E, a ordem está invertida.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q62",
@@ -1316,7 +1318,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O trecho dá as pistas de época: o professor de Urbino foi Adrien Proust (1834–1903), pai do romancista Marcel Proust, e as grandes epidemias na França tinham ocorrido \"há apenas trinta anos\" (as de 1832 e 1849). A história se passa, portanto, entre o fim do século XIX e o início do XX.\n\nAo voltar, Urbino associa o risco de nova epidemia aos esgotos expostos e às crianças nas poças: o cólera é causado por uma **bactéria** (*Vibrio cholerae*) e transmitido por água e alimentos contaminados por fezes.\n\nAs demais erram o agente (vírus em D, eucarioto em B), a transmissão (urina de ratos em A) ou a época (Idade Média em C, século XVIII em D).\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q63",
@@ -1336,7 +1340,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O texto diz que o *Aedes aegypti* transmite 7 doenças: os quatro tipos de dengue, zika, chikungunya e febre amarela.\n\nA pessoa já teve febre amarela e dengue tipo 2 e ficou imune a elas. Sobram 5 doenças possíveis: dengue 1, 3 e 4, zika e chikungunya.\n\nEla contrai duas, em sequência. A primeira precisa ser uma dengue: $\\frac{3}{5}$. Depois, restam 4 doenças e a segunda precisa ser chikungunya: $\\frac{1}{4}$.\n\n$P = \\frac{3}{5} \\cdot \\frac{1}{4} = \\frac{3}{20} = 15\\%$\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q64",
@@ -1348,15 +1354,17 @@
    "texto_base": null,
    "enunciado": "O Brasil já é o segundo país que mais realiza a cirurgia bariátrica, que reduz o tamanho do estômago.\n\nO paciente consegue emagrecer porque perde a fome radicalmente — a quantidade de comida consumida cai a um quarto, em média, por falta de espaço. Apesar dos avanços técnicos e das facilidades, a cirurgia está longe de ser uma intervenção simples.\n\n(Natalia Cuminale. “Emagrecer na faca”. *Veja*, 13.03.2019. Adaptado.)\n\nAlém de aumentar a sensação de saciedade, mesmo com pequena ingestão de alimentos, a redução do estômago também reduz a quantidade de suco gástrico secretado pela parede estomacal, comprometendo a digestão do alimento nessa porção do aparelho digestório.\n\nA principal enzima digestória do suco gástrico e a estrutura química dos monômeros das moléculas sobre as quais atua são",
    "alternativas": {
-    "A": "tripsina e ![fórmula estrutural H–O–C(=O)–R](fig:p21-c6)",
-    "B": "pepsina e ![fórmula estrutural com grupo aldeído, H–C–OH e CH2OH](fig:p21-c2)",
-    "C": "pepsina e ![fórmula estrutural de aminoácido: grupo amino, carbono com R, grupo carboxila](fig:p21-c3)",
-    "D": "tripsina e ![fórmula estrutural de pentose ligada a grupo fosfato e a R](fig:p21-c7)",
-    "E": "peptidase e ![fórmula estrutural H–C–C–O–H, com hidrogênios nos dois carbonos](fig:p21-c5)"
+    "A": "tripsina e ![fórmula estrutural: H–O–C(=O)–R](fig:p21-c6)",
+    "B": "pepsina e ![fórmula estrutural: um carbono com H e dupla ligação com O, ligado a um carbono com H e OH, ligado a CH2OH](fig:p21-c2)",
+    "C": "pepsina e ![fórmula estrutural: N ligado a dois H e a um carbono que tem H e R; esse carbono está ligado a C(=O)–O–H](fig:p21-c3)",
+    "D": "tripsina e ![fórmula estrutural: O=P(OH)2–O–CH2 ligado a um anel de cinco átomos com um oxigênio; no anel, um carbono tem HO, outro tem só H e o carbono vizinho ao oxigênio do anel está ligado a O–R](fig:p21-c7)",
+    "E": "peptidase e ![fórmula estrutural: H–C–C–O–H, com mais dois H em cada carbono](fig:p21-c5)"
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "resolucao": "A principal enzima do suco gástrico é a **pepsina**, que atua em meio ácido e começa a digestão das **proteínas**. A tripsina é do suco pancreático e age no intestino delgado, o que elimina A e D.\n\nOs monômeros das proteínas são os **aminoácidos**: um carbono ligado a um grupo amino ($-\\text{NH}_2$), a um grupo carboxila ($-\\text{COOH}$), a um H e a um radical R. É a fórmula da alternativa C.\n\nEm B, a fórmula é de um açúcar simples (gliceraldeído), monômero de carboidratos, que não são digeridos pela pepsina.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2020-1-q65",
@@ -1374,7 +1382,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "Na espécie humana, a mulher é XX e todos os óvulos levam um cromossomo X. O homem é XY e forma espermatozoides com X ou com Y. Por isso, quem define o sexo da prole é o **espermatozoide**.\n\nA separação de X e Y acontece na **meiose I**, quando os cromossomos homólogos (o par sexual) se separam. Na meiose II separam-se as cromátides-irmãs, que já são do mesmo tipo.\n\nA alternativa C acerta o gameta, mas erra a fase da meiose.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q66",
@@ -1394,7 +1404,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "A **respiração celular** acontece o tempo todo, dia e noite: dura 24 horas nos dois arbustos, em qualquer data. A **fotossíntese** só ocorre com luz, ou seja, entre o nascer e o pôr do Sol.\n\nEm Macapá, sobre o equador, o dia tem cerca de 12 horas o ano todo. Em São Paulo, em 22 de dezembro (verão), o dia vai de 5h18 a 18h51: 13h33 de luz, mais do que em Macapá. Logo, a fotossíntese dura mais em São Paulo e a respiração é igual nos dois.\n\nA alternativa A erra porque em 21 de junho (inverno) o dia em São Paulo dura só 10h39, menos que em Macapá. A alternativa C erra porque a respiração (24 h) é sempre mais longa que a fotossíntese, e isso não se inverte.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q67",
@@ -1414,7 +1426,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "Na casa, a água sobe até a caixa d'água porque a rede pública a **empurra** com pressão a partir do nível do solo.\n\nNo coqueiro, a seiva bruta (água e sais) sobe pelo **xilema**, puxada de cima: a transpiração nas folhas cria uma **sucção** (tensão) que, graças à coesão das moléculas de água, puxa a coluna desde as raízes.\n\nAssim, há impulsão no cano, a partir do solo, e sucção no xilema, a partir do alto. O floema (A e C) conduz seiva elaborada e não é o caminho da água que vem do solo.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q68",
@@ -1422,7 +1436,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Os insetos da ordem Coleoptera têm dois pares de asas, mas as asas do par anterior, chamadas de élitros, são espessas e curvadas, protegendo as delicadas asas membranosas do par posterior. Além disso, os élitros podem apresentar manchas e cores específicas, contribuindo para a camuflagem do inseto no ambiente, como é o caso do *Penthea pardalis* (besouro leopardo).\n\n![fotografia de um besouro leopardo, com élitros manchados](fig:p23-f3)\n\n(www.fiocruz.br)\n\nUm pesquisador coletou amostras representativas de três populações de besouros leopardo e classificou-os segundo a quantidade e a distribuição de manchas escuras nos élitros. Em cada uma das três populações, a variabilidade fenotípica pôde ser representada pela mesma curva, conforme o gráfico:\n\n![gráfico do percentual de indivíduos na população em função das categorias de manchas escuras no élitro, de menos manchas escuras a mais manchas escuras, com uma curva única em forma de sino para as populações 1, 2 e 3](fig:p23-f4)\n\nDez anos após a primeira coleta, o pesquisador voltou aos locais anteriormente visitados e coletou novas amostras representativas das mesmas populações. As proporções fenotípicas da população 1 não sofreram alterações, mas as populações 2 e 3 apresentaram novas proporções de fenótipo, como mostram as curvas do gráfico:\n\n![gráfico do percentual de indivíduos na população em função das categorias de manchas escuras no élitro, com uma curva para cada uma das populações 1, 2 e 3](fig:p23-f5)\n\nAo longo dos dez anos de intervalo entre as coletas, a população",
+   "enunciado": "Os insetos da ordem Coleoptera têm dois pares de asas, mas as asas do par anterior, chamadas de élitros, são espessas e curvadas, protegendo as delicadas asas membranosas do par posterior. Além disso, os élitros podem apresentar manchas e cores específicas, contribuindo para a camuflagem do inseto no ambiente, como é o caso do *Penthea pardalis* (besouro leopardo).\n\n![fotografia de um besouro leopardo, com élitros manchados](fig:p23-f3)\n\n(www.fiocruz.br)\n\nUm pesquisador coletou amostras representativas de três populações de besouros leopardo e classificou-os segundo a quantidade e a distribuição de manchas escuras nos élitros. Em cada uma das três populações, a variabilidade fenotípica pôde ser representada pela mesma curva, conforme o gráfico:\n\n![gráfico do percentual de indivíduos na população em função das categorias de manchas escuras no élitro, de menos manchas escuras a mais manchas escuras, com uma curva única em forma de sino para as populações 1, 2 e 3](fig:p23-f4)\n\nDez anos após a primeira coleta, o pesquisador voltou aos locais anteriormente visitados e coletou novas amostras representativas das mesmas populações. As proporções fenotípicas da população 1 não sofreram alterações, mas as populações 2 e 3 apresentaram novas proporções de fenótipo, como mostram as curvas do gráfico:\n\n![gráfico do percentual de indivíduos na população em função das categorias de manchas escuras no élitro, de menos manchas escuras a mais manchas escuras, com uma curva para cada população: população 1 (azul) em forma de sino, como no gráfico anterior; população 2 (rosa) com um único pico, alto e estreito, no centro; população 3 (verde) com dois picos menores, um de cada lado, e um vale no centro](fig:p23-f5)\n\nAo longo dos dez anos de intervalo entre as coletas, a população",
    "alternativas": {
     "A": "3 se estabeleceu em novos nichos ecológicos, nos quais foram selecionadas mutações que levaram à formação de duas novas espécies.",
     "B": "1 não se modificou porque sobre ela não houve ação de seleção natural sobre a variabilidade fenotípica.",
@@ -1432,7 +1446,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "Compare as curvas antes e depois:\n\n- População 1: curva igual. A seleção natural continua agindo, mas mantém a mesma distribuição (por isso B e D erram).\n- População 2: a curva ficou mais alta e estreita no centro. Os fenótipos extremos (menos e mais escuros) diminuíram e os intermediários aumentaram: é a **seleção estabilizadora**.\n- População 3: surgiram dois picos e um vale no centro (seleção disruptiva). Mas os intermediários diminuíram, não foram eliminados, e nada indica formação de novas espécies; por isso A e C erram.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2020-1-q69",
@@ -1450,7 +1466,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "Compare cada valor com o que se sabe das águas:\n\n- Oceano: cerca de 3,5% de sais, então 3,6% (m/V) está certo.\n- Mar Morto: é famoso pela salinidade altíssima (cerca de 30%). O valor 1,2 g/L é baixo demais.\n- Água mineral: 120 mg/L é um valor típico.\n- Lago Titicaca: é um lago de água doce (pouco salobra); 30% é absurdo.\n\nOs valores de 2 e 4 foram trocados: o Mar Morto tem 30% e o Titicaca, cerca de 1,2 g/L.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q70",
@@ -1470,7 +1488,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "Energia do parque em 1 hora a 150 MW:\n\n$E = P \\cdot \\Delta t = 150 \\times 10^6\\ \\text{W} \\times 3600\\ \\text{s} = 5{,}4 \\times 10^{11}\\ \\text{J} = 5{,}4 \\times 10^{8}\\ \\text{kJ}$\n\nCada mol de metano libera cerca de $9 \\times 10^2\\ \\text{kJ}$:\n\n$n = \\frac{5{,}4 \\times 10^{8}}{9 \\times 10^{2}} = 6 \\times 10^{5}\\ \\text{mol}$\n\nCom $M(\\text{CH}_4) = 16\\ \\text{g/mol}$: $m = 6 \\times 10^5 \\times 16 = 9{,}6 \\times 10^6\\ \\text{g} \\approx 9{,}6\\ \\text{t}$, da ordem de 10 t.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q71",
@@ -1490,7 +1510,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "As clorofilas ficam nos **cloroplastos** (nas membranas dos tilacoides); o complexo golgiense não tem relação com a fotossíntese.\n\nA clorofila **a** é o pigmento principal: está no centro de reação dos fotossistemas. A clorofila b é acessória.\n\nO magnésio está como íon $\\text{Mg}^{2+}$, coordenado aos quatro nitrogênios do anel.\n\nNa clorofila b, no lugar de um grupo metil ($-\\text{CH}_3$) aparece $-\\text{CHO}$ (carbono com H e dupla ligação com O), que é o grupo da função **aldeído**. Não é cetona, porque a carbonila está na ponta da cadeia, ligada a um H.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q72",
@@ -1508,7 +1530,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Cinética química",
+   "resolucao": "Como $\\text{pH} = -\\log[\\text{H}^+]$, passar de pH 1 para pH 5 significa ir de $[\\text{H}^+] = 10^{-1}$ para $10^{-5}\\ \\text{mol/L}$. A concentração **diminuiu** $\\frac{10^{-1}}{10^{-5}} = 10^4 = 10\\,000$ vezes. Quem pensa que a concentração cai só 5 vezes esquece que a escala de pH é logarítmica.\n\nQuanto maior a energia de ativação, mais lenta é a etapa. A mais lenta (horas) é a **terceira**, e é ela que limita a rapidez do processo todo.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q73",
@@ -1526,7 +1550,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "Volume de cobre: 6 faces de $1\\ \\text{cm}^2$ com espessura de $10^{-2}\\ \\text{cm}$:\n\n$V = 6 \\times 1 \\times 10^{-2} = 0{,}06\\ \\text{cm}^3$, então $m = 9 \\times 0{,}06 = 0{,}54\\ \\text{g}$\n\nCom $M(\\text{Cu}) \\approx 63{,}5\\ \\text{g/mol}$: $n = \\frac{0{,}54}{63{,}5} \\approx 8{,}5 \\times 10^{-3}\\ \\text{mol}$\n\nPara $\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$, são 2 mol de elétrons por mol de cobre:\n\n$Q = 2 \\times 8{,}5 \\times 10^{-3} \\times 10^5 = 1\\,700\\ \\text{C}$\n\n$t = \\frac{Q}{i} = \\frac{1\\,700}{0{,}2} = 8\\,500\\ \\text{s}$\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q74",
@@ -1546,7 +1572,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "resolucao": "O mercúrio lançado no ambiente é convertido por microrganismos em compostos orgânicos (como o metilmercúrio), que são absorvidos pelos seres vivos e não são eliminados com facilidade. Por isso ele se **acumula ao longo das cadeias alimentares** (bioacumulação e biomagnificação): peixes predadores e as pessoas que os comem recebem as maiores doses.\n\nA alternativa C descreve um fato real, mas o HgS insolúvel é justamente uma forma menos perigosa. Mercúrio não intensifica o efeito estufa (A), é um líquido muito denso (D) e não é inerte (E).\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q75",
@@ -1564,7 +1592,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "O nitrogênio, do grupo 15, é mais eletronegativo que alumínio e gálio e tende a receber 3 elétrons: número de oxidação $-3$.\n\nAlumínio e gálio são do grupo 13 e formam cátions $+3$. Como a fórmula combina um N para cada metal (AℓN e GaN), a soma dos números de oxidação dá zero: $(+3) + (-3) = 0$.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q76",
@@ -1582,7 +1612,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "A distância percorrida num ciclo é a área sob o gráfico velocidade × tempo, entre 0 e 1,0 s.\n\n- De 0 a 0,4 s: velocidade de 1,8 m/s, área $1{,}8 \\times 0{,}4 = 0{,}72\\ \\text{m}$.\n- De 0,4 a 0,8 s: a velocidade cai a zero e volta a 1,8 m/s, formando quase um triângulo: $\\frac{0{,}4 \\times 1{,}8}{2} = 0{,}36\\ \\text{m}$.\n- De 0,8 a 1,0 s: $1{,}8 \\times 0{,}2 = 0{,}36\\ \\text{m}$.\n\nCada ciclo avança cerca de $1{,}44\\ \\text{m}$. Em 36 m: $\\frac{36}{1{,}44} = 25$ braçadas.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q77",
@@ -1602,7 +1634,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Idade Moderna (Europa)",
+   "resolucao": "A razão $\\frac{T^2}{D^3}$ constante para todos os planetas é a **terceira lei de Kepler**. Johannes Kepler (1571–1630) viveu no período da Revolução Científica, que acompanhou o Renascimento. Ele usou as observações de Tycho Brahe, sobretudo da órbita de **Marte**, para chegar às suas **três leis** do movimento planetário.\n\nKepler defendia o heliocentrismo de Copérnico (C erra) e foi **anterior** a Newton, que depois usou as leis de Kepler na teoria da gravitação (B inverte a ordem). A Idade Média (A, E) também está fora do período.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q78",
@@ -1622,7 +1656,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "Sem atrito, a energia mecânica se conserva. O trecho A está na altura máxima da curva: $y = \\cos 0 = 1\\ \\text{m}$.\n\nEm $x = \\frac{5\\pi}{4}$: $y = \\cos\\frac{5\\pi}{4} = -\\frac{\\sqrt{2}}{2} \\approx -0{,}7\\ \\text{m}$. O desnível é $h = 1 - (-0{,}7) = 1{,}7\\ \\text{m}$.\n\n$\\frac{v^2}{2} = \\frac{v_0^2}{2} + g h \\Rightarrow v^2 = 4^2 + 2 \\cdot 10 \\cdot 1{,}7 = 16 + 34 = 50$\n\n$v = \\sqrt{50} = 5\\sqrt{2} \\approx 5 \\times 1{,}4 = 7\\ \\text{m/s}$\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q79",
@@ -1642,7 +1678,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "Pela lei de Hess, $\\Delta H = \\sum H_{\\text{produtos}} - \\sum H_{\\text{reagentes}}$:\n\n$\\Delta H = [4(-393) + 5(-286)] - [(-126) + 0] = -1\\,572 - 1\\,430 + 126 = -2\\,876\\ \\text{kJ}$\n\nA combustão de 1 mol libera $2\\,876\\ \\text{kJ} = 2{,}876 \\times 10^6\\ \\text{J}$, que derretem o gelo:\n\n$m = \\frac{Q}{L} = \\frac{2{,}876 \\times 10^6}{320} \\approx 8\\,990\\ \\text{g} \\approx 9\\ \\text{kg}$\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q80",
@@ -1660,7 +1698,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "Na lente, a razão entre os tamanhos da imagem e do objeto é igual à razão entre as distâncias da imagem e do objeto até a lente:\n\n$\\frac{i}{o} = \\frac{p'}{p} \\Rightarrow \\frac{1}{5\\,000} = \\frac{20\\ \\text{cm}}{p}$\n\n$p = 5\\,000 \\times 20 = 100\\,000\\ \\text{cm} = 1\\,000\\ \\text{m}$\n\nO objeto fotografado é a superfície, então a altura do balão é $h = 1\\,000\\ \\text{m}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q81",
@@ -1678,15 +1718,15 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Física moderna",
+   "resolucao": "Como $f = \\frac{c}{\\lambda}$, a energia do fóton é $E = \\frac{h c}{\\lambda}$, e então $\\lambda = \\frac{h c}{E}$:\n\n$\\lambda = \\frac{6{,}6 \\times 10^{-34} \\times 3 \\times 10^{8}}{3{,}96 \\times 10^{-19}} = \\frac{1{,}98 \\times 10^{-25}}{3{,}96 \\times 10^{-19}} = 5 \\times 10^{-7}\\ \\text{m} = 500\\ \\text{nm}$\n\nPela tabela, 500 nm fica na faixa de 495 a 570 nm: luz **verde**.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q82",
    "numero": 82,
    "materia": "fisica",
-   "materias_extra": [
-    "biologia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "Na maioria dos peixes elétricos as descargas são produzidas por órgãos elétricos constituídos por células, chamadas eletroplacas, empilhadas em colunas. Suponha que cada eletroplaca se comporte como um gerador ideal.\n\n![símbolo de uma eletroplaca (representação de uma pilha), com a legenda: Representação de uma eletroplaca](fig:p28-c1)\n\nSuponha que o sistema elétrico de um poraquê, peixe elétrico de água doce, seja constituído de uma coluna com 5 000 eletroplacas associadas em série, produzindo uma força eletromotriz total de 600 V.\n\n![fotografia de um poraquê com o símbolo das eletroplacas desenhado em série ao longo do corpo](fig:p28-f1)\n\n(https://hypescience.com. Adaptado.)\n\nConsidere que uma raia-torpedo, que vive na água do mar, possua um sistema elétrico formado por uma associação em paralelo de várias colunas, cada uma com 750 eletroplacas iguais às do poraquê, ligadas em série, constituindo mais da metade da massa corporal desse peixe.\n\n![desenho de uma raia-torpedo com várias colunas de eletroplacas associadas em paralelo, cada coluna com 750 eletroplacas](fig:p28-f2)\n\n(www.megatimes.com.br. Adaptado.)\n\nDesconsiderando perdas internas, se em uma descarga a raia-torpedo conseguir produzir uma corrente elétrica total de 50 A durante um curto intervalo de tempo, a potência elétrica gerada por ela, nesse intervalo de tempo, será de",
    "alternativas": {
@@ -1698,7 +1738,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "No poraquê, 5 000 eletroplacas em série dão 600 V, então cada uma tem $\\varepsilon = \\frac{600}{5\\,000} = 0{,}12\\ \\text{V}$.\n\nNa raia, cada coluna tem 750 eletroplacas em série: $750 \\times 0{,}12 = 90\\ \\text{V}$. Colunas iguais em paralelo mantêm a mesma tensão, 90 V, e somam as correntes.\n\nSem perdas internas: $P = U \\cdot i = 90 \\times 50 = 4\\,500\\ \\text{W}$.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2020-1-q83",
@@ -1718,7 +1760,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Estatística",
+   "resolucao": "Os outros países da América Latina na tabela são Chile, México, Peru e Costa Rica. Índia, África do Sul, Estados Unidos, Grécia e Espanha ficam de fora.\n\nMédia: $\\frac{21{,}9 + 20{,}9 + 19{,}8 + 18{,}6}{4} = \\frac{81{,}2}{4} = 20{,}3$\n\nDiferença: $37{,}5 - 20{,}3 = 17{,}2$\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q84",
@@ -1731,15 +1775,17 @@
    "texto_base": null,
    "enunciado": "Estudos sobre modelos atômicos foram fundamentais para o desenvolvimento da Química como ciência. Por volta de 450 a.C., os filósofos gregos Leucipo e Demócrito construíram a hipótese de que o mundo e, em consequência, a matéria eram constituídos a partir de unidades idênticas e indivisíveis, chamadas átomos. Contudo, foi somente a partir do século XIX que a realização de experimentos tornou possível a comprovação de hipóteses desenvolvidas ao longo do tempo. Um dos primeiros modelos aceitos foi criado por John Dalton, apresentado em um livro de sua autoria, publicado em 1808. Anos depois, outros dois principais modelos foram desenvolvidos, até que, em 1913, o físico Niels Bohr publicou um livro com sua teoria sobre o modelo atômico.\n\nTomando como referência as datas de publicação dos trabalhos de Dalton e de Bohr, a linha do tempo que apresenta os fatos históricos do desenvolvimento do modelo atômico, com espaço proporcional à distância de tempo entre eles, é:",
    "alternativas": {
-    "A": "![Alternativa A: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f1)",
-    "B": "![Alternativa B: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f2)",
-    "C": "![Alternativa C: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f3)",
-    "D": "![Alternativa D: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f4)",
-    "E": "![Alternativa E: linha do tempo graduada com os rótulos Leucipo e Demócrito, Dalton, Thomson, Rutherford, Bohr, 1808 e 1913](fig:p29-f5)"
+    "A": "![Alternativa A: linha do tempo dividida em cerca de 23 segmentos iguais, com Leucipo e Demócrito marcados cerca de 9 segmentos após a extremidade esquerda, antes do meio da linha; 1808 e 1913 marcados no início e no fim do último segmento, à direita; acima, o trecho de 1808 a 1913 aparece ampliado, com Dalton na ponta esquerda e, junto à ponta direita, Rutherford, Thomson e Bohr, nessa ordem, da esquerda para a direita](fig:p29-f1)",
+    "B": "![Alternativa B: linha do tempo dividida em cerca de 23 segmentos iguais, com Leucipo e Demócrito marcados cerca de 9 segmentos após a extremidade esquerda, antes do meio da linha; 1808 e 1913 marcados no início e no fim do último segmento, à direita; acima, o trecho de 1808 a 1913 aparece ampliado, com Dalton na ponta esquerda e, junto à ponta direita, Thomson, Rutherford e Bohr, nessa ordem, da esquerda para a direita](fig:p29-f2)",
+    "C": "![Alternativa C: linha do tempo dividida em cerca de 23 segmentos iguais, com Leucipo e Demócrito marcados cerca de 10 segmentos após a extremidade esquerda, antes do meio da linha; 1808 e 1913 marcados no início e no fim do último segmento, à direita; acima, o trecho de 1808 a 1913 aparece ampliado, com Dalton na ponta esquerda e, junto à ponta direita, Thomson, Rutherford e Bohr, nessa ordem, da esquerda para a direita](fig:p29-f3)",
+    "D": "![Alternativa D: linha do tempo dividida em cerca de 23 segmentos iguais, com Leucipo e Demócrito marcados na extremidade esquerda da linha; 1808 e 1913 marcados no início e no fim do último segmento, à direita; acima, o trecho de 1808 a 1913 aparece ampliado, com Dalton na ponta esquerda e, junto à ponta direita, Rutherford, Thomson e Bohr, nessa ordem, da esquerda para a direita](fig:p29-f4)",
+    "E": "![Alternativa E: linha do tempo dividida em cerca de 23 segmentos iguais, com Leucipo e Demócrito marcados na extremidade esquerda da linha; 1808 e 1913 marcados no início e no fim do último segmento, à direita; acima, o trecho de 1808 a 1913 aparece ampliado, com Dalton na ponta esquerda e, junto à ponta direita, Thomson, Rutherford e Bohr, nessa ordem, da esquerda para a direita](fig:p29-f5)"
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "Dois pontos decidem a questão.\n\n1. Ordem dos modelos: Dalton (1808), Thomson (fim do século XIX, com a descoberta do elétron), Rutherford (1911) e Bohr (1913). Thomson vem antes de Rutherford.\n2. Proporção: de 1808 a 1913 são 105 anos, e de 450 a.C. a 1808 são cerca de 2 258 anos, mais de 20 vezes mais. Na escala, cada segmento vale cerca de um século, então Leucipo e Demócrito precisam estar quase na extremidade esquerda da linha, e não perto do meio.\n\nSó a alternativa E tem Leucipo e Demócrito na ponta esquerda e Thomson antes de Rutherford. D tem a posição certa, mas a ordem trocada.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2020-1-q85",
@@ -1747,7 +1793,7 @@
    "materia": "matematica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A Companhia de Engenharia de Tráfego (CET) divulgou um estudo apresentando a mobilidade no sistema viário da cidade de São Paulo. Um dos resultados desse estudo consiste na comparação da velocidade média do tráfego geral, em um importante conjunto de vias, no sentido bairro-centro (BC) e no sentido centro-bairro (CB), nos horários de pico dos períodos da manhã e da tarde, de 2013 a 2017. O gráfico apresenta esse comparativo:\n\n![gráfico de linhas da velocidade média, em km/h, de 2013 a 2017, para quatro séries: BC – Manhã, CB – Manhã, BC – Tarde e CB – Tarde, com os valores marcados em cada ponto](fig:p29-f6)\n\n(CET: *Mobilidade no Sistema Viário Principal – MSVP*, 2017. www.cetsp.com.br, julho de 2018. Adaptado.)\n\nDe acordo com o gráfico, em apenas um dos sentidos e em um determinado período foram registradas seguidas reduções anuais no tempo médio de deslocamento ao longo das vias. Comparando 2017 com 2013, a redução do tempo de deslocamento nessas vias, em porcentagem, é de, aproximadamente,",
+   "enunciado": "A Companhia de Engenharia de Tráfego (CET) divulgou um estudo apresentando a mobilidade no sistema viário da cidade de São Paulo. Um dos resultados desse estudo consiste na comparação da velocidade média do tráfego geral, em um importante conjunto de vias, no sentido bairro-centro (BC) e no sentido centro-bairro (CB), nos horários de pico dos períodos da manhã e da tarde, de 2013 a 2017. O gráfico apresenta esse comparativo:\n\n![gráfico de linhas da velocidade média, em km/h, de 2013 a 2017, para quatro séries: BC – Manhã, CB – Manhã, BC – Tarde e CB – Tarde, com os valores marcados em cada ponto](fig:p29-f6)\n\n(*CET: Mobilidade no Sistema Viário Principal – MSVP*, 2017. www.cetsp.com.br, julho de 2018. Adaptado.)\n\nDe acordo com o gráfico, em apenas um dos sentidos e em um determinado período foram registradas seguidas reduções anuais no tempo médio de deslocamento ao longo das vias. Comparando 2017 com 2013, a redução do tempo de deslocamento nessas vias, em porcentagem, é de, aproximadamente,",
    "alternativas": {
     "A": "12,9%.",
     "B": "5,1%.",
@@ -1757,7 +1803,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "Num mesmo trecho de vias, o tempo de deslocamento é inversamente proporcional à velocidade média. Reduções anuais seguidas no tempo correspondem a aumentos anuais seguidos na velocidade. Isso só ocorre em BC – Manhã: 18,4; 20,7; 22,1; 23,4; 23,5 km/h.\n\n$\\frac{t_{2017}}{t_{2013}} = \\frac{v_{2013}}{v_{2017}} = \\frac{18{,}4}{23{,}5} \\approx 0{,}783$\n\nO tempo caiu cerca de $1 - 0{,}783 = 0{,}217$, ou seja, 21,7%. Quem calcula o aumento da velocidade, $\\frac{23{,}5}{18{,}4} - 1 \\approx 27{,}7\\%$, cai na alternativa E.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2020-1-q86",
@@ -1767,17 +1815,19 @@
     "geografia"
    ],
    "texto_base": null,
-   "enunciado": "Uma cidade tem sua área territorial dividida em quatro regiões. O esquema apresenta, de modo simplificado, a área territorial e a densidade populacional dessas quatro regiões:\n\n![gráfico de pontos com a área no eixo horizontal e a densidade populacional no eixo vertical, com um ponto para cada região (Norte, Sul, Leste e Oeste)](fig:p30-f1)\n\nA participação das populações dessas regiões na população total da cidade é:",
+   "enunciado": "Uma cidade tem sua área territorial dividida em quatro regiões. O esquema apresenta, de modo simplificado, a área territorial e a densidade populacional dessas quatro regiões:\n\n![gráfico de pontos em malha quadriculada, com a área no eixo horizontal (de 0 a 15) e a densidade populacional no eixo vertical (de 0 a 10); legenda: Norte em vermelho, Sul em azul, Leste em verde e Oeste em laranja; pontos: Norte na área 7,5 e densidade 6; Sul na área 2 e densidade 5; Leste na área 5 e densidade 8; Oeste na área 12 e densidade 2,5](fig:p30-f1)\n\nA participação das populações dessas regiões na população total da cidade é:",
    "alternativas": {
-    "A": "![Alternativa A: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f2)",
-    "B": "![Alternativa B: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f3)",
-    "C": "![Alternativa C: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f4)",
-    "D": "![Alternativa D: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f5)",
-    "E": "![Alternativa E: pictograma de figuras humanas coloridas em cinco colunas, nas cores vermelha, verde, azul e laranja](fig:p30-f6)"
+    "A": "![Alternativa A: pictograma com 25 figuras humanas, em 5 linhas de 5: 7 vermelhas, 9 verdes, 6 azuis e 3 laranja](fig:p30-f2)",
+    "B": "![Alternativa B: pictograma com 25 figuras humanas, em 5 linhas de 5: 9 vermelhas, 4 verdes, 2 azuis e 10 laranja](fig:p30-f3)",
+    "C": "![Alternativa C: pictograma com 25 figuras humanas, em 5 linhas de 5: 7 vermelhas, 5 verdes, 2 azuis e 11 laranja](fig:p30-f4)",
+    "D": "![Alternativa D: pictograma com 25 figuras humanas, em 5 linhas de 5: 9 vermelhas, 8 verdes, 2 azuis e 6 laranja](fig:p30-f5)",
+    "E": "![Alternativa E: pictograma com 25 figuras humanas, em 5 linhas de 5: 7 vermelhas, 8 verdes, 4 azuis e 6 laranja](fig:p30-f6)"
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "População = densidade × área. Do gráfico:\n\n- Norte: $7{,}5 \\times 6 = 45$\n- Sul: $2 \\times 5 = 10$\n- Leste: $5 \\times 8 = 40$\n- Oeste: $12 \\times 2{,}5 = 30$\n\nTotal: 125. Cada pictograma tem 25 figuras, e cada figura vale $\\frac{125}{25} = 5$. Então são 9 figuras do Norte (vermelhas), 2 do Sul (azuis), 8 do Leste (verdes) e 6 do Oeste (laranja). Só a alternativa D tem essa contagem.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2020-1-q87",
@@ -1797,7 +1847,10 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "resolucao": "Volume do cilindro: $V = \\pi r^2 h = 3 \\times 5^2 \\times 36 = 2\\,700\\ \\text{cm}^3$.\n\nA resposta oficial combina as densidades com os pesos 3/4 e 1/4:\n\n$d = \\frac{3}{4} \\times 19{,}3 + \\frac{1}{4} \\times 6{,}1 = 14{,}475 + 1{,}525 = 16\\ \\text{g/cm}^3$\n\n$m = 16 \\times 2\\,700 = 43\\,200\\ \\text{g} = 43{,}2\\ \\text{kg}$, entre 40 kg e 45 kg.\n\n**Observação:** essa média só vale se 3/4 e 1/4 forem frações de **volume**, mas o enunciado diz que são frações em **massa**. Com frações em massa, $\\frac{1}{d} = \\frac{0{,}75}{19{,}3} + \\frac{0{,}25}{6{,}1}$, o que dá $d \\approx 12{,}5\\ \\text{g/cm}^3$ e $m \\approx 33{,}8\\ \\text{kg}$ (alternativa A). A banca manteve a alternativa C.\n\n**Resposta: C**",
+   "revisao": "atencao",
+   "revisao_notas": "ATENÇÃO: minha resolução dá A; gabarito oficial C. Transcrição conferida (o caderno diz \"3/4 de ouro e 1/4 de outro metal em massa\"). Com frações em massa, a densidade da liga é 1/(0,75/19,3 + 0,25/6,1) ≈ 12,5 g/cm³ e a massa ≈ 2700 × 12,5 ≈ 33,8 kg (alternativa A). O gabarito C (40 a 45 kg) corresponde a usar as frações como se fossem de volume: 0,75 × 19,3 + 0,25 × 6,1 = 16 g/cm³, 2700 × 16 = 43,2 kg. Uma pessoa deve decidir."
   },
   {
    "id": "unesp-2020-1-q88",
@@ -1805,7 +1858,7 @@
    "materia": "matematica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Uma das finalidades da Ciência Forense é auxiliar nas investigações relativas à justiça civil ou criminal. Observe uma ideia que pode ser empregada na análise de uma cena de crime.\n\nUma gota de sangue que cai perfeitamente na vertical, formando um ângulo de 90º com a horizontal, deixa uma mancha redonda. À medida que o ângulo de impacto com a horizontal diminui, a mancha fica cada vez mais longa.\n\nAs ilustrações mostram o alongamento da gota de sangue e a relação trigonométrica envolvendo o ângulo de impacto e suas dimensões.\n\n![ilustração intitulada Alongamento da gota de sangue, com o ângulo de impacto da gota de sangue sobre uma superfície horizontal e a mancha alongada resultante](fig:p31-c1)\n\n![ilustração intitulada Relação trigonométrica, com a gota de sangue, a largura e o comprimento da mancha e o ângulo do impacto](fig:p31-c2)\n\n(Ana Paula Sebastiany *et al.* “A utilização da Ciência Forense e da Investigação Criminal como estratégia didática na compreensão de conceitos científicos”. *Didáctica de la Química*, 2013. Adaptado.)\n\nConsidere a coleta de uma amostra de gota de sangue e a tabela trigonométrica apresentadas a seguir.\n\n![mancha de sangue desenhada sobre uma malha quadriculada, com a largura em centímetros no eixo horizontal (de 0 a 3) e o comprimento em centímetros no eixo vertical (de 0 a 4)](fig:p31-f3)\n\n| $\\alpha$ | $\\text{sen}\\ \\alpha$ | $\\cos \\alpha$ | $\\text{tg}\\ \\alpha$ |\n|---|---|---|---|\n| 31º | 0,51 | 0,85 | 0,60 |\n| 37º | 0,60 | 0,80 | 0,75 |\n| 53º | 0,80 | 0,60 | 1,32 |\n| 59º | 0,85 | 0,51 | 1,66 |\n| 74º | 0,96 | 0,28 | 3,50 |\n\nDe acordo com as informações, o ângulo de impacto da gota de sangue coletada na amostra foi de",
+   "enunciado": "Uma das finalidades da Ciência Forense é auxiliar nas investigações relativas à justiça civil ou criminal. Observe uma ideia que pode ser empregada na análise de uma cena de crime.\n\nUma gota de sangue que cai perfeitamente na vertical, formando um ângulo de 90º com a horizontal, deixa uma mancha redonda. À medida que o ângulo de impacto com a horizontal diminui, a mancha fica cada vez mais longa.\n\nAs ilustrações mostram o alongamento da gota de sangue e a relação trigonométrica envolvendo o ângulo de impacto e suas dimensões.\n\n![ilustração intitulada Alongamento da gota de sangue, com o ângulo de impacto da gota de sangue sobre uma superfície horizontal e a mancha alongada resultante](fig:p31-c1)\n\n![ilustração intitulada Relação trigonométrica, com a gota de sangue, a largura e o comprimento da mancha e o ângulo do impacto](fig:p31-c2)\n\n(Ana Paula Sebastiany *et al.* “A utilização da Ciência Forense e da Investigação Criminal como estratégia didática na compreensão de conceitos científicos”. *Didáctica de la Química*, 2013. Adaptado.)\n\nConsidere a coleta de uma amostra de gota de sangue e a tabela trigonométrica apresentadas a seguir.\n\n![mancha de sangue desenhada sobre uma malha quadriculada com divisões de 0,5 cm, com a largura em centímetros no eixo horizontal (de 0 a 3) e o comprimento em centímetros no eixo vertical (de 0 a 4); a mancha vai de 1 cm a 2,5 cm na largura e de 1 cm a 3,5 cm no comprimento](fig:p31-f3)\n\n| $\\alpha$ | $\\text{sen}\\ \\alpha$ | $\\cos \\alpha$ | $\\text{tg}\\ \\alpha$ |\n|---|---|---|---|\n| 31º | 0,51 | 0,85 | 0,60 |\n| 37º | 0,60 | 0,80 | 0,75 |\n| 53º | 0,80 | 0,60 | 1,32 |\n| 59º | 0,85 | 0,51 | 1,66 |\n| 74º | 0,96 | 0,28 | 3,50 |\n\nDe acordo com as informações, o ângulo de impacto da gota de sangue coletada na amostra foi de",
    "alternativas": {
     "A": "37º",
     "B": "74º",
@@ -1815,7 +1868,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Trigonometria",
+   "resolucao": "Pela figura da relação trigonométrica, a largura da mancha é o cateto oposto ao ângulo de impacto, e o comprimento é a hipotenusa: $\\text{sen}\\ \\alpha = \\frac{\\text{largura}}{\\text{comprimento}}$.\n\nNa malha, a mancha vai de 1 cm a 2,5 cm na largura (1,5 cm) e de 1 cm a 3,5 cm no comprimento (2,5 cm):\n\n$\\text{sen}\\ \\alpha = \\frac{1{,}5}{2{,}5} = 0{,}60$\n\nNa tabela, $\\text{sen}\\ \\alpha = 0{,}60$ corresponde a 37º. Cuidado: 0,60 também aparece como $\\cos 53º$ e $\\text{tg}\\ 31º$, mas a razão certa é o seno.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2020-1-q89",
@@ -1833,7 +1888,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Progressões",
+   "resolucao": "A ingestão cai 7 g em 6 anos, de forma linear: $\\frac{7}{6}$ g por ano. Em relação aos 12 g de 2019, a redução diária em cada ano forma uma progressão aritmética:\n\n2020: $\\frac{7}{6}$; 2021: $\\frac{14}{6}$; ... ; 2025: $\\frac{42}{6} = 7$ g.\n\nSomando as reduções dos seis anos: $\\frac{7}{6}(1 + 2 + 3 + 4 + 5 + 6) = \\frac{7}{6} \\times 21 = 24{,}5$ g.\n\nEconomia: $24{,}5 \\times 3{,}2 = 78{,}4$ milhões de reais, entre R\\$ 75 milhões e R\\$ 80 milhões.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2020-1-q90",
@@ -1851,7 +1908,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Polinômios e equações",
+   "resolucao": "Calculando os determinantes (regra de Sarrus):\n\n$p(x) = x \\cdot x \\cdot x + 1 \\cdot (-1) \\cdot m + 0 - [0 + x \\cdot (-1) \\cdot x + 1 \\cdot 2 \\cdot x] = x^3 - m + x^2 - 2x$\n\n$q(x) = x - 3$\n\nPelo teorema do resto, $p(x)$ é divisível por $x - 3$ quando $p(3) = 0$:\n\n$27 + 9 - 6 - m = 0 \\Rightarrow m = 30$\n\n**Resposta: A**",
+   "revisao": "ok"
   }
  ]
 }
