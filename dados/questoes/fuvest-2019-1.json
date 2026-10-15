@@ -26,8 +26,7 @@
    "numero": 1,
    "materia": "geografia",
    "materias_extra": [
-    "quimica",
-    "historia"
+    "quimica"
    ],
    "texto_base": null,
    "enunciado": "A figura exemplifica o comportamento de povos indígenas que viveram no Brasil há 1.000 anos. Eles construíam suas casas escavadas na terra, faziam fogueiras e manuseavam objetos.\n\n![Ilustração de uma aldeia indígena com casas escavadas na terra, com duas legendas: “A casa era escavada na terra para proteger do frio, com até 8 m de profundidade e diâmetro entre 4 e 20 m, abrigando até 8 pessoas.” e “Na ‘cozinha’, havia fogueira e cerâmicas de diferentes tamanhos para cozinhar e guardar alimentos.”](fig:p02-f1)\n\nEscavações revelam hábitos de antigos povos que ocuparam o Sul do país.\n**Folha de S.Paulo**. 20/03/2016. Adaptado.\n\nCom base nos dados apresentados e em seus conhecimentos, assinale a alternativa correta quanto à época geológica desses sítios arqueológicos, quanto ao elemento químico analisado coerente com as práticas humanas exemplificadas na figura e quanto ao método de datação.",
@@ -40,7 +39,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geologia e relevo",
+   "resolucao": "Ocupações humanas de 1.000 anos atrás estão no **Holoceno**, a época geológica atual, iniciada há cerca de 11.700 anos. O Jurássico terminou há mais de 140 milhões de anos, muito antes de existirem seres humanos.\n\nAs fogueiras e os restos de cozinha deixam carvão e matéria orgânica, ricos em **carbono**. A datação usa o carbono-14, isótopo radioativo cuja quantidade cai pela metade a cada cerca de 5.730 anos: medir o que sobrou indica a idade (datação por **decaimento radioativo**). O silício não tem relação com essas atividades, e isótopos estáveis não servem de \"relógio\", porque não decaem.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2019-1-q02",
@@ -60,7 +61,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "O neoliberalismo, adotado a partir dos governos Thatcher e Reagan, defende Estado mínimo, privatizações, abertura e livre circulação de capitais.\n\nNa prática, isso trouxe a **financeirização** da economia (o mercado financeiro cresce mais que a produção), mais concentração de renda e a redução de direitos sociais e trabalhistas, o que é descrito na alternativa B.\n\nAs alternativas C e D descrevem o contrário: controle de capitais e Estado forte no bem-estar social são marcas do modelo keynesiano anterior. A agricultura (A) tem peso pequeno no PIB dos países ricos.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q03",
@@ -78,7 +81,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geologia e relevo",
+   "resolucao": "Leia os eixos: a precipitação diminui da esquerda (2.000 mm) para a direita (250 mm), e a temperatura aumenta de cima (–12 °C) para baixo (27 °C).\n\n- Antártida: muito fria e muito seca, então fica em cima e à direita.\n- Deserto do Saara: muito quente e muito seco, então fica embaixo e à direita.\n- Floresta tropical: quente e muito chuvosa, então fica embaixo e à esquerda.\n\nSó o gráfico da alternativa A tem essa distribuição.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q04",
@@ -96,7 +101,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "Normalmente a temperatura do ar cai com a altitude. No gráfico há uma faixa (entre os tracejados) em que ela **aumenta** com a altura: uma camada de ar quente fica sobre o ar frio junto ao solo.\n\nEssa é a **inversão térmica**, mais comum no outono e no inverno, quando o solo perde calor depressa nas noites longas. O ar frio, mais denso, não sobe, e os poluentes ficam presos perto da superfície, como mostra a fumaça da ilustração.\n\nO *smog* fotoquímico (E) pode até se agravar nessas condições, mas é uma poluição formada pela luz solar e não é o que a curva de temperatura mostra.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q05",
@@ -114,7 +121,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "População e migrações",
+   "resolucao": "A tabela mostra que os maiores grupos de refugiados vêm da Síria e do Afeganistão (Oriente Médio e Ásia), do Sudão do Sul, da Somália e do Sudão (África) e de Myanmar (Ásia), fugindo de guerras e perseguições.\n\nOs principais destinos são países vizinhos: a Turquia e o Líbano recebem sírios; o Paquistão e o Irã, afegãos; Uganda, sul-sudaneses. Isso confirma a alternativa E.\n\nA alternativa B erra a causa: o que move esses fluxos são conflitos armados, não a desertificação. Também não é verdade que a maioria vem da África.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q06",
@@ -132,7 +141,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Geologia e relevo",
+   "resolucao": "Os mapas mostram os continentes unidos no Carbonífero e se afastando até a posição atual.\n\nWegener partiu de uma observação simples: o contorno da costa leste da América do Sul **se encaixa** no da costa oeste da África, como peças de um quebra-cabeça. Depois juntou outras evidências, como fósseis iguais e rochas parecidas nos dois lados do Atlântico.\n\nAs demais alternativas falam de situações atuais ou que não aparecem nos mapas.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q07",
@@ -150,7 +161,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "O texto da FAO separa duas formas de perda de alimentos. O **desperdício** (comida boa jogada fora) é maior nos países ricos. A **perda na cadeia produtiva** (colheita, transporte e armazenagem ruins) é maior nos países em desenvolvimento.\n\nA tabela mostra fome grave muito maior na África (29,8%) do que na América Setentrional e na Europa (1,4%). Os dois tipos de perda, portanto, acompanham a desigualdade econômica entre os continentes (E).\n\nA alternativa D erra porque é justamente nas regiões ricas que o desperdício é maior. A alternativa B erra porque, nos países desenvolvidos, a perda no transporte é pequena.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q08",
@@ -170,7 +183,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geografia do Brasil",
+   "resolucao": "Leia o gráfico de 2000 a 2017:\n\n- os produtos **básicos** (soja, minério, petróleo bruto) sobem de cerca de 24% para cerca de 47%;\n- os **manufaturados**, de maior valor agregado, caem de 60% para cerca de 37%;\n- os semimanufaturados ficam por volta de 15%.\n\nHá, portanto, fortalecimento do setor primário e queda dos manufaturados (C). A alternativa D erra ao dizer \"pela primeira vez\": durante a maior parte de sua história, o Brasil exportou sobretudo produtos primários.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q09",
@@ -188,7 +203,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "Use a latitude e o hemisfério de cada cidade:\n\n- **São Luís**, perto do Equador: temperatura quase constante, em torno de 26 °C (□);\n- **Buenos Aires**, no Hemisfério Sul: quente em janeiro (cerca de 25 °C) e fria em julho (cerca de 11 °C) (○);\n- **Santos**, no Sul, mas tropical: varia pouco, entre cerca de 26 °C e 19 °C (●);\n- **Alexandria** e **Barcelona**, no Hemisfério Norte: mais quentes em julho e agosto. Alexandria, mais perto do Equador, é mais quente (de 13 °C a 26 °C, ◆) do que Barcelona (de 9 °C a 23 °C, ▲).\n\nNa ordem do enunciado: ◆ ▲ ○ ● □.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q10",
@@ -208,7 +225,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Urbanização",
+   "resolucao": "O texto diz que a indústria saiu em parte da metrópole e que o terciário avançado (finanças, serviços corporativos) passou a ocupar os edifícios corporativos.\n\nO mapa mostra os conjuntos comerciais concentrados em poucos distritos, ao longo da Av. Paulista, da Av. Faria Lima, da Av. Berrini e da Marginal Pinheiros, enquanto a maior parte do município tem pouco ou nenhum. Isso confirma a alternativa D.\n\nA alternativa E erra porque o terciário avançado se concentrou em vez de se espalhar. As alternativas B e C confundem edifícios corporativos (escritórios) com produção industrial.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q11",
@@ -226,7 +245,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geologia e relevo",
+   "resolucao": "O traçado A–B vai do interior de São Paulo até o litoral.\n\n- **Trecho 1:** altitudes altas (de 800 a 1.300 m) e relativamente estáveis por cerca de 30 km. É o **planalto** Atlântico.\n- **Trecho 2:** queda brusca de cerca de 1.000 m para perto de 150 m em poucos quilômetros. É a **escarpa** da Serra do Mar.\n- **Trecho 3:** terreno baixo e plano junto ao mar. É a **planície litorânea**.\n\nA depressão periférica fica no interior do estado, longe deste traçado.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q12",
@@ -236,7 +257,7 @@
     "fisica"
    ],
    "texto_base": null,
-   "enunciado": "À medida que a parcela de ar se eleva na atmosfera, nos limites da troposfera, a temperatura do ar decai a uma razão de 1 °C a cada 100 metros (Razão Adiabática Seca - RAS) ou 0,6 °C a cada 100 metros (Razão Adiabática Úmida - RAU).\n\n![Esquema de uma montanha com vertente a barlavento e vertente a sotavento, mostrando a condensação, nuvem cumulus, ar quente e úmido, altura de 400 m e 200 m, temperatura do ar de 20 °C, altura de 1.400 m, T1 no topo, T2 ao nível médio do mar](fig:p05-f3)\n\nConsiderando os conceitos e a ilustração, é correto afirmar que as temperaturas do ar, em graus Celsius, $T_1$ e $T_2$, são, respectivamente,\n\n**Note e adote:**\nUtilize RAS ou RAU de acordo com a presença ou não de ar saturado.\n$T_\\text{ar}$: temperatura do ar.",
+   "enunciado": "À medida que a parcela de ar se eleva na atmosfera, nos limites da troposfera, a temperatura do ar decai a uma razão de 1 °C a cada 100 metros (Razão Adiabática Seca - RAS) ou 0,6 °C a cada 100 metros (Razão Adiabática Úmida - RAU).\n\n![Esquema de uma montanha com vertente a barlavento e vertente a sotavento, mostrando a condensação, nuvem cumulus, ar quente e úmido, altura de 400 m e 200 m, temperatura do ar de 20 °C, altura de 1.400 m, T1 no topo, T2 ao nível médio do mar](fig:p05-f3)\n\nConsiderando os conceitos e a ilustração, é correto afirmar que as temperaturas do ar, em graus Celsius, T1 e T2, são, respectivamente,\n\n**Note e adote:**\nUtilize RAS ou RAU de acordo com a presença ou não de ar saturado.\n$T_\\text{ar}$: temperatura do ar.",
    "alternativas": {
     "A": "8,0 e 26,0.",
     "B": "12,8 e 28,0.",
@@ -246,7 +267,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "O ar sobe pela vertente a barlavento e desce pela vertente a sotavento.\n\n1. Dos 200 m (20 °C) até a condensação, a 400 m, o ar não está saturado e usa a RAS: $20 - 2 \\times 1 = 18\\ ^\\circ\\text{C}$.\n2. Dos 400 m até o topo, a 1.400 m, o ar está saturado (há nuvem) e usa a RAU: $18 - 10 \\times 0{,}6 = 12\\ ^\\circ\\text{C}$. Então T1 = 12,0 °C.\n3. Na descida, o ar já perdeu a umidade na chuva e aquece pela RAS por 1.400 m: $12 + 14 \\times 1 = 26\\ ^\\circ\\text{C}$. Então T2 = 26,0 °C.\n\nEsse ar quente e seco a sotavento é o efeito Föhn.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2019-1-q13",
@@ -266,15 +289,15 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Hidrostática",
+   "resolucao": "A força na janela vem da diferença de pressão entre o lado de dentro e o de fora: $F = \\Delta p \\cdot A$.\n\nPelo gráfico:\n\n- dentro da cabine (pressão de 2.000 m): $p_{int} \\approx 80.000\\ \\text{Pa}$;\n- fora, a 10.000 m: $p_{ext} \\approx 26.000\\ \\text{Pa}$;\n- $\\Delta p \\approx 54.000\\ \\text{Pa}$.\n\nA área da janela é $A = 0{,}20 \\times 0{,}30 = 0{,}06\\ \\text{m}^2$.\n\n$F \\approx 54.000 \\times 0{,}06 \\approx 3.200\\ \\text{N}$.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q14",
    "numero": 14,
    "materia": "matematica",
-   "materias_extra": [
-    "biologia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "O consumo calórico de um animal de sangue quente é proporcional à área superficial de seu corpo. Um animal com massa 3,5 kg consome 250 kcal diárias. O gráfico relaciona a área superficial desse animal com sua massa.\n\n![Gráfico da área superficial (m²) em função da massa (kg)](fig:p06-f2)\n\nConsiderando o gráfico, conclui-se que, se a massa deste animal dobrar, o seu novo consumo diário de energia, em kcal, será, aproximadamente,",
    "alternativas": {
@@ -286,7 +309,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "O consumo é proporcional à área, então o novo consumo é $250 \\times \\frac{A_{\\text{novo}}}{A_{\\text{antigo}}}$.\n\nPelo gráfico:\n\n- para 3,5 kg, $A \\approx 0{,}135\\ \\text{m}^2$;\n- para 7 kg (a massa dobrada), $A \\approx 0{,}21\\ \\text{m}^2$.\n\nNovo consumo: $250 \\times \\frac{0{,}21}{0{,}135} \\approx 250 \\times 1{,}56 \\approx 390\\ \\text{kcal}$.\n\nA armadilha é a alternativa E (500): a área não dobra quando a massa dobra.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2019-1-q15",
@@ -304,7 +329,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "A mancha parece parada quando, entre dois *flashes*, a polia dá um número inteiro de voltas: $f_{\\text{polia}} = n \\cdot f_{\\text{flash}}$.\n\nAo aumentar a frequência dos *flashes*, a próxima imagem parada aparece com uma volta a menos entre os *flashes*:\n\n$f = 9n = 12(n-1) \\Rightarrow 3n = 12 \\Rightarrow n = 4$\n\nEntão $f = 36\\ \\text{Hz} = 36 \\times 60 = 2.160\\ \\text{rpm}$.\n\nA alternativa E (36) é o valor em Hz, sem a conversão para rpm.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q16",
@@ -322,7 +349,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "Sem atrito, a energia mecânica se conserva, e os dois corpos partem da mesma altura e terminam na mesma altura $h_2$.\n\n- I. Falsa: a mesma queda de altura dá a mesma energia cinética final.\n- II. Verdadeira: as energias mecânicas são iguais em qualquer ponto.\n- III e IV. Falsas: em (A), o trecho longo $x_1$ é percorrido embaixo, com a velocidade maior, e o curto $x_2$ em cima. Em (B), é o contrário. Por isso (A) chega antes.\n- V. Verdadeira: o trabalho do peso é $mg(h_1 - h_2)$ nos dois casos.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q17",
@@ -340,7 +369,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Resolva em duas etapas.\n\n1. **Subida da rampa** (sem perdas): $\\frac{1}{2}(m_1+m_2)v'^2 = (m_1+m_2)gh \\Rightarrow v' = \\sqrt{2gh}$.\n2. **Colisão** do rapaz com o *skate*: é inelástica, então a energia não se conserva, mas a quantidade de movimento sim. Vale $m_1 v = (m_1+m_2)v'$.\n\nPortanto $v = \\frac{(m_1+m_2)}{m_1}\\sqrt{2gh}$.\n\nO erro comum é usar conservação de energia também na colisão.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q18",
@@ -348,7 +379,7 @@
    "materia": "fisica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Três pequenas esferas carregadas com carga positiva $Q$ ocupam os vértices de um triângulo, como mostra a figura. Na parte interna do triângulo, está afixada outra pequena esfera, com carga negativa $q$. As distâncias dessa carga às outras três podem ser obtidas a partir da figura.\n\n![Triângulo com uma carga Q em cada vértice e a carga q no interior; as distâncias d entre q e as cargas Q e entre as cargas Q da base estão indicadas, com os eixos x e y](fig:p07-f2)\n\nSendo $Q = 2 \\times 10^{-4}\\ \\text{C}$, $q = -2 \\times 10^{-5}\\ \\text{C}$ e $d = 6\\ \\text{m}$, a força elétrica resultante sobre a carga $q$\n\n**Note e adote:**\nA constante $k_0$ da lei de Coulomb vale $9 \\times 10^{9}\\ \\text{N m}^2/\\text{C}^2$",
+   "enunciado": "Três pequenas esferas carregadas com carga positiva $Q$ ocupam os vértices de um triângulo, como mostra a figura. Na parte interna do triângulo, está afixada outra pequena esfera, com carga negativa $q$. As distâncias dessa carga às outras três podem ser obtidas a partir da figura.\n\n![Triângulo com uma carga Q em cada vértice e a carga q no interior, sobre a reta vertical que liga o vértice de cima ao ponto médio da base; estão marcadas com d a distância de q à carga Q de cima, a distância de q à base e cada metade da base; eixos x (para a direita) e y (para cima)](fig:p07-f2)\n\nSendo $Q = 2 \\times 10^{-4}\\ \\text{C}$, $q = -2 \\times 10^{-5}\\ \\text{C}$ e $d = 6\\ \\text{m}$, a força elétrica resultante sobre a carga $q$\n\n**Note e adote:**\nA constante $k_0$ da lei de Coulomb vale $9 \\times 10^{9}\\ \\text{N m}^2/\\text{C}^2$",
    "alternativas": {
     "A": "é nula.",
     "B": "tem direção do eixo y, sentido para baixo e módulo 1,8 N.",
@@ -358,7 +389,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Eletrostática",
+   "resolucao": "A carga $q$ é negativa, então é **atraída** por cada carga $Q$.\n\n- Carga de cima, à distância $d$: $F_1 = \\frac{kQ|q|}{d^2} = \\frac{9 \\times 10^9 \\cdot 2 \\times 10^{-4} \\cdot 2 \\times 10^{-5}}{36} = 1{,}0\\ \\text{N}$, para cima.\n- Cada carga da base fica a $d\\sqrt{2}$, a 45° abaixo: $F_2 = \\frac{kQ|q|}{2d^2} = 0{,}5\\ \\text{N}$.\n- As componentes horizontais das duas forças da base se anulam. As verticais somam $2 \\times 0{,}5 \\cos 45^\\circ \\approx 0{,}71\\ \\text{N}$, para baixo.\n\nResultante: $1{,}0 - 0{,}71 \\approx 0{,}3\\ \\text{N}$, no eixo y, para cima.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2019-1-q19",
@@ -376,7 +409,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "Com o objeto entre a lente convergente e o foco, os raios que saem da lente divergem e não se cruzam. O olho os vê como se viessem de um ponto atrás da vela, do mesmo lado dela.\n\nPor isso a imagem é **virtual**, **direita** e **maior**. É o funcionamento da lupa.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q20",
@@ -394,7 +429,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Em série, a corrente atravessa as duas resistências: $i = \\frac{V}{R + R_i}$.\n\nA potência no resistor externo é $P = R i^2 = \\frac{V^2 R}{(R+R_i)^2}$.\n\nA alternativa A ($V^2/R$) só valeria se toda a tensão $V$ ficasse sobre $R$, isto é, com $R_i = 0$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q21",
@@ -412,7 +449,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Primeiro, veja se a água consegue derreter todo o gelo.\n\n- Aquecer o gelo de –10 °C a 0 °C: $50 \\cdot 0{,}5 \\cdot 10 = 250\\ \\text{cal}$.\n- Derreter o gelo: $50 \\cdot 80 = 4.000\\ \\text{cal}$.\n- A água pode ceder até $200 \\cdot 1 \\cdot 30 = 6.000\\ \\text{cal}$ ao esfriar até 0 °C. Isso basta, então todo o gelo derrete.\n\nEquilíbrio (calor cedido = calor recebido): $200(30 - T) = 250 + 4.000 + 50T$\n\n$6.000 - 200T = 4.250 + 50T \\Rightarrow 250T = 1.750 \\Rightarrow T = 7\\ ^\\circ\\text{C}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q22",
@@ -430,7 +469,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Termodinâmica",
+   "resolucao": "A energia interna depende só do estado do gás. As três transformações ligam os mesmos estados I e II, então $\\Delta U_A = \\Delta U_B = \\Delta U_C$.\n\nO trabalho é a área sob o caminho no diagrama P x V.\n\n- **C** se expande com a pressão alta, então tem a maior área.\n- **A** primeiro baixa a pressão e depois se expande com a pressão baixa, então tem a menor área.\n- **B**, na diagonal, fica no meio.\n\nLogo $W_C > W_B > W_A$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q23",
@@ -448,7 +489,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "A poça funciona como uma lente plano-convexa, e a palha deve ficar no foco.\n\nO raio da calota sai do triângulo retângulo com meia corda $a = 7\\ \\text{cm}$ e flecha $h = 1\\ \\text{cm}$:\n\n$R^2 = 7^2 + (R-1)^2 \\Rightarrow 0 = 49 - 2R + 1 \\Rightarrow R = 25\\ \\text{cm}$.\n\nDistância focal: $\\frac{1}{f} = (1{,}33 - 1)\\frac{1}{25} \\Rightarrow f = \\frac{25}{0{,}33} \\approx 75\\ \\text{cm}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q24",
@@ -466,7 +509,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Com a mesma tensão, a potência é $P = \\frac{U^2}{R}$. Reduzir a resistência de 22 Ω para 11 Ω **dobra** a potência.\n\nCom o mesmo fluxo de água, o aquecimento é proporcional à potência ($P = \\dot{m} c \\Delta T$). Logo $\\Delta T$ também dobra: $2 \\times 5 = 10\\ ^\\circ\\text{C}$.\n\nQuem usa $P = Ri^2$ com corrente fixa conclui, por engano, que a potência cai pela metade (alternativa A).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q25",
@@ -484,7 +529,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "A cadeia é capim (produtor) → gafanhoto (consumidor primário) → passarinho (consumidor secundário) → gavião.\n\nA lama matou o capim, o primeiro nível trófico. Sem alimento, os gafanhotos diminuem. Os passarinhos comem só gafanhotos e só vivem naquele ambiente, então também diminuem.\n\nO efeito sobre o consumidor secundário é **indireto**: a lama não o atingiu, mas faltou alimento na base da cadeia (B). A alternativa D ignora que o efeito se propaga pela cadeia.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q26",
@@ -504,7 +551,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "Associe cada linha a um bioma.\n\n- **I:** vegetação arbórea, chuva de moderada a grande, zona tropical e subtropical. É a **Mata Atlântica**, que vai do Nordeste ao Sul.\n- **II:** vegetação herbácea (campos), em zona temperada. São os **Pampas**, no sul do Rio Grande do Sul.\n- **III:** vegetação arbórea, chuva grande, zona equatorial. É a **Floresta Amazônica**.\n- **IV:** mistura de árvores, arbustos e gramíneas, chuva moderada, zona tropical. É o **Cerrado**.\n\nA Caatinga não entra porque tem chuva escassa.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q27",
@@ -525,7 +574,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "I. A radiação do Sol chega sobretudo como luz visível e ultravioleta, de **comprimento de onda menor**, que atravessa a atmosfera. A Terra aquecida emite infravermelho, de **comprimento de onda maior**, que é absorvido por gases como $\\text{CO}_2$, $\\text{CH}_4$ e vapor-d'água.\n\nII. A destruição de florestas nativas, por queimadas e decomposição, libera $\\text{CO}_2$ diretamente e reduz a absorção desse gás.\n\nA alternativa A reúne as duas afirmações corretas. A D tem um item II correto (combustíveis fósseis), mas inverte os comprimentos de onda no item I.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q28",
@@ -543,7 +594,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "As características citadas eliminam os outros grupos.\n\n- Ter sistema vascular elimina algas e briófitas.\n- Não ter sementes elimina gimnospermas e angiospermas.\n- Não ter frutos também elimina as angiospermas.\n\nPlanta vascular sem sementes é **pteridófita**, como samambaias e avencas.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q29",
@@ -561,7 +614,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "A esquistossomose é causada pelo *Schistosoma mansoni*, um verme achatado (**platelminto**).\n\nSeu hospedeiro intermediário é o caramujo *Biomphalaria*, um **molusco**. Do caramujo saem as cercárias, larvas que nadam na água e **penetram pela pele** de quem entra em lagoas contaminadas.\n\nA alternativa B erra só o grupo do parasita: nematódeos são vermes cilíndricos, como a lombriga.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q30",
@@ -579,7 +634,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "resolucao": "Na gravidez, a gonadotrofina coriônica sobe no início para manter o corpo lúteo. Depois, a **placenta** passa a produzir **progesterona** e **estrógeno**, que aumentam até o fim da gestação: são H1 e H2.\n\nNo parto, a placenta é eliminada, e as concentrações desses hormônios caem de repente.\n\nFSH e LH ficam baixos durante a gravidez, o que descarta as alternativas que os citam.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2019-1-q31",
