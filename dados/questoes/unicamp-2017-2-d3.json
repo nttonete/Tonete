@@ -34,7 +34,7 @@
     {
      "rotulo": "a",
      "texto": "O processo descrito por Mendel está relacionado com que prática amplamente usada na agricultura? Quais as vantagens da utilização desse processo na agricultura?",
-     "resposta_oficial": "Trata-se do processo de melhoramento genético, cujas vantagens são selecionar materiais com características que levem a maior produtividade, tais como resistência a pragas e doenças e tolerância a estresses abióticos."
+     "resposta_oficial": "Trata-se do processo de melhoramento genético, cujas vantagens são selecionar materiais com características que levem a maior produtividade, tais como resistência à pragas e doenças e tolerância a estresses abióticos."
     },
     {
      "rotulo": "b",
@@ -43,7 +43,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Esta questão aborda os subtemas Mecanismos de variabilidade genética e Fundamentos da hereditariedade. Considerando a genética mendeliana e a partir de genótipos parentais conhecidos, os candidatos deveriam prever os genótipos dos descendentes de cada geração, selecionando os indivíduos para novos cruzamentos até alcançar as características desejadas de acordo com o enunciado da questão. Além de fazer os cruzamentos, os candidatos deveriam reconhecer o processo de melhoramento genético e indicar suas vantagens para a produção de alimentos.",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-2-d3-q02",
@@ -65,7 +66,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Abordando os subitens Ecossistemas, populações, comunidades e Saúde ambiental, a questão teve como objetivo avaliar o conhecimento dos candidatos sobre o impacto ecológico após um desastre ambiental do porte do que ocorreu em Mariana. Usando o raciocínio lógico, o candidato teria que integrar conhecimento sobre desequilíbrio na cadeia alimentar (níveis tróficos) com a biodiversidade do ambiente marinho por onde a lama com metais pesados passou. A questão também pergunta como poderia ser feita a recuperação da população de peixes no rio Doce após o desastre.",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q03",
@@ -87,7 +89,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** A questão explora os subitens Agressões à saúde das populações e Biologia dos animais e teve como objetivo avaliar o conhecimento dos candidatos sobre uma parte do ciclo biológico de uma parasitose ainda bastante prevalente no Brasil e no mundo, a esquistossomose, conhecida popularmente como barriga d’água. O conhecimento do ciclo biológico devia ser associado aos métodos profiláticos individuais e globais contra essa parasitose.",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q04",
@@ -109,7 +112,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Esta questão demanda dos candidatos a compreensão do processo de digestão e metabolismo dos alimentos, de forma integrada à compreensão das relações alimentares entre os seres vivos. A representação da teia alimentar envolve a construção de um diagrama que também leve em consideração os produtores e decompositores.",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q05",
@@ -117,7 +121,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "As plantas crescem e se desenvolvem em ambientes com grande variação na disponibilidade de energia luminosa, apresentando importante aclimatação da fotossíntese e da respiração foliar. A figura abaixo representa a variação das trocas gasosas de duas espécies, A e B, em função do aumento da disponibilidade de luz. Valores positivos indicam fotossíntese e valores negativos, respiração.\n\n![Gráfico das trocas gasosas, em µmol de O₂ por m² por s, em função da intensidade luminosa, de 0 a 500 µmol m⁻² s⁻¹, com duas curvas, A e B](fig:p07-f2)",
+   "enunciado": "As plantas crescem e se desenvolvem em ambientes com grande variação na disponibilidade de energia luminosa, apresentando importante aclimatação da fotossíntese e da respiração foliar. A figura abaixo representa a variação das trocas gasosas de duas espécies, A e B, em função do aumento da disponibilidade de luz. Valores positivos indicam fotossíntese e valores negativos, respiração.\n\n![Gráfico das trocas gasosas, em µmol O₂ m⁻² s⁻¹ (eixo vertical de −8 a 16), em função da intensidade luminosa, em µmol m⁻² s⁻¹ (eixo horizontal de 0 a 500), com duas curvas de pontos marcados. Curva A (pontos cheios): cerca de −4 em 0, −1 em 50, 2 em 100, 6 em 200 e 10 em 400, subindo até cerca de 11,5 em 500. Curva B (pontos vazios): cerca de −1 em 0, 1,5 em 50, 3 em 100, 4 em 200 e 5 em 400, quase estável até 500. As curvas se cruzam perto de 130, por volta de 3,5](fig:p07-f2)",
    "itens": [
     {
      "rotulo": "a",
@@ -131,7 +135,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Explorando o subtema Biologia das plantas, a questão tem como objetivo verificar o conhecimento dos candidatos sobre ecologia e fisiologia vegetal, avaliando sua capacidade de interpretar um gráfico e concluir sobre a resposta das plantas à variação da disponibilidade de luz e como o aproveitamento de energia luminosa poderia ser melhorado em condições sombreadas. Como habilidades, a questão exigiu raciocínio lógico, integração de conhecimento e compreensão de gráficos. Como plantas adaptadas ao sol e à sombra existem na natureza, busca-se uma melhor compreensão do metabolismo de carbono nos vegetais, processo chave para a existência de vida em nosso planeta devido à produção de oxigênio e de alimentos.",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-2-d3-q06",
@@ -153,7 +158,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Abordando os subtemas Organização celular da vida, Biologia das plantas, Biologia dos animais e Manutenção da vida, fluxos de energia e matéria, a questão tem como objetivo avaliar o conhecimento dos candidatos em citologia, fermentação e respiração, sendo necessário integrar o conhecimento para a compreensão de processos bioquímicos dos quais a nossa sociedade é dependente. A biotecnologia para a produção de alimentos e energia está presente no cotidiano do candidato e a questão visava a realçar a importância dessa tecnologia na matriz energética do nosso país. Assim, a questão tem um caráter interdisciplinar, envolvendo Biologia e Geografia.",
-   "revisao": "transcrita"
+   "assunto": "Bioquímica",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q07",
@@ -175,7 +181,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** O objetivo da questão era verificar o conhecimento dos candidatos quanto aos símbolos usados em rótulos de recipientes de produtos familiares a eles. Também foram contempladas as noções gerais sobre a composição, a utilização de recursos naturais e as consequências dessa utilização. O próprio texto da questão e seus itens retratam situações do cotidiano que envolvem esse assunto e sua correlação com a física e a biologia.",
-   "revisao": "transcrita"
+   "assunto": "Propriedades e estados da matéria",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q08",
@@ -192,12 +199,13 @@
     },
     {
      "rotulo": "b",
-     "texto": "Os tempos de meia vida de decaimento (em dias) desses radioisótopos são: $^{192}\\text{Ir}$ (74,2), $^{103}\\text{Pd}$ (17) e $^{125}\\text{I}$ (60,2). Com base nessas informações, complete o gráfico que aparece no espaço de resolução, identificando as curvas A, B e C com os respectivos radioisótopos, e colocando os valores nas caixas que aparecem no eixo que indica o tempo.\n\n*Campo de resolução:*\n![Gráfico da quantidade de matéria, em %, em função do tempo, em dias: três curvas decrescentes a partir de 100%, apontadas por setas para caixas vazias rotuladas A=, B= e C=, e três caixas vazias sobre o eixo do tempo](fig:p10-c2)",
+     "texto": "Os tempos de meia vida de decaimento (em dias) desses radioisótopos são: $^{192}\\text{Ir}$ (74,2), $^{103}\\text{Pd}$ (17) e $^{125}\\text{I}$ (60,2). Com base nessas informações, complete o gráfico que aparece no espaço de resolução, identificando as curvas A, B e C com os respectivos radioisótopos, e colocando os valores nas caixas que aparecem no eixo que indica o tempo.\n\n*Campo de resolução:*\n![Gráfico da quantidade de matéria, em %, em função do tempo, em dias, com grade tracejada: três curvas decrescentes partem de 100% no tempo zero. A curva que cai mais depressa (fica perto de 0 a partir da metade do eixo do tempo) é apontada por uma seta para a caixa vazia “C=”; a curva que cai mais devagar é apontada para a caixa “A=”; a curva intermediária, para a caixa “B=”. Sob o eixo do tempo, sem números, há três caixas vazias alinhadas às três primeiras linhas verticais da grade](fig:p10-c2)",
      "resposta_oficial": "No decaimento radioativo, o tempo de meia-vida define-se como o tempo necessário para a concentração da espécie cair à metade de seu valor inicial. Assim, a linha que apresenta uma queda mais acentuada corresponde à substância com menor tempo de meia-vida, o Pd (curva C), o I (curva B) e o Ir (curva A).\n\nAplicando-se o conceito de tempo de meia-vida a cada uma das curvas (substâncias), obtêm-se os seguintes valores aproximados para as caixas que aparecem no eixo do tempo, em ordem crescente: **30, 60** e **90**."
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** Esta questão explora os conhecimentos dos candidatos sobre radioatividade e radioisótopos; equações químicas e cinética de decaimento. Estes conhecimentos são muito importantes e são aplicados no combate ao câncer de próstata e mama, sendo um conteúdo interdisciplinar que envolve Física, Biologia e Matemática.",
-   "revisao": "transcrita"
+   "assunto": "Radioatividade",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2017-2-d3-q09",
@@ -219,7 +227,8 @@
     }
    ],
    "resposta_oficial": "**Objetivo da questão:** A questão abordou a equação geral dos gases ideais, leis de Boyle e de Gay-Lussac, símbolos e fórmulas na representação de átomos, moléculas e íons. Indiretamente, estavam envolvidas também as massas atômicas, massas molares e quantidade de substância. Além disso, também tratou de cálculos estequiométricos e relações ponderais e volumétricas nas reações químicas. O próprio texto da questão demonstra uma aplicação corriqueira do conteúdo abordado.",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2017-2-d3-q10",
