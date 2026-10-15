@@ -37,4 +37,6 @@ Caminhos possíveis: (a) mostrar o texto como imagem recortada do caderno oficia
 ## Para conferência de quem conhece a obra
 
 - fuvest-2018-1 q80: a resolução cita uma estória contada em "O burrinho pedrês" (Sagarana); o revisor não tinha o livro para conferir quem conta o quê.
+- unicamp-2017-1 q8 (*Lisbela e o prisioneiro*: tiro em Frederico Evandro, balas de festim) e q13 (*Coração, cabeça e estômago*: casamento de Silvestre) — detalhes de enredo não verificados no livro.
+- unicamp-2017-1 q30: a alternativa A associa a febre amarela silvestre ao *Aedes*; o vetor silvestre é sobretudo *Haemagogus*/*Sabethes*. A resolução não repete o erro.
 - unicamp-2020-1 q27: a resolução atribui à banca a afirmação de que o RN era o maior produtor de petróleo em terra; o dado da época não foi confirmado.

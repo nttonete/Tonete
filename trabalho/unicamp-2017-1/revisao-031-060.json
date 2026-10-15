@@ -1,0 +1,323 @@
+{
+ "edicao": "unicamp-2017-1",
+ "intervalo": [
+  31,
+  60
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 36,
+   "materia": "literatura",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "**Ironia ao natural**\n\nÉ natural,\né bom\ne quanto mais melhor,\ncomo os cogumelos\nvermelhos,\nas rãs azuis\nou o suco de serpente...\nÉ químico,\nprocessado,\né mau,\ncomo a\naspirina,\num perfume\nou o plástico\nda válvula\ncardíaca\nde um coração...\n\n(João Paiva, *quase poesia quase química*. Sociedade Portuguesa de Química, 2012, p.15. Disponível em www.spq.pt/files/docs/boletim/poesia/quase-poesia-quase-quimica-jpaiva2012.pdf. Acessado em 06/07/2016.)\n\nNesse poema, há",
+   "alternativas": {
+    "A": "inversão dos atributos do que seria bom na natureza e do que seria ruim nos processados, de modo a, ironicamente, ressaltar a importância da química.",
+    "B": "comparação entre o lado bom dos produtos naturais e o lado ruim dos produtos processados, de modo a ressaltar, efusivamente, o perigo da química.",
+    "C": "demonstração do lado bom dos produtos naturais e o lado ruim dos produtos processados, sem, contudo, realizar uma crítica em relação à química.",
+    "D": "elogio aos produtos naturais, reforçando-se a ideia de consumirmos mais desses produtos em detrimento de produtos processados com o auxílio da química."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 41,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O gráfico a seguir representa a variação do índice glicêmico após a ingestão de dois alimentos (mesma quantidade, pela mesma pessoa, mas em momentos diferentes). A linha pontilhada representa o alimento A, enquanto a linha contínua representa o alimento B. A análise do gráfico nos permite afirmar corretamente que:\n\n![Gráfico da glicemia em função das horas após a ingestão do alimento (marcas 1 e 2 no eixo horizontal). A curva pontilhada do alimento A sobe rapidamente até um pico alto antes de 1 hora e depois cai, terminando abaixo da outra. A curva contínua do alimento B sobe pouco, fica quase estável até cerca de 1,5 hora e depois desce lentamente](fig:p12-c1)",
+   "alternativas": {
+    "A": "O alimento B não afeta a concentração de glicose na circulação sanguínea.",
+    "B": "O alimento A não possui carboidratos em sua composição.",
+    "C": "O alimento B ajuda a emagrecer, pois estimula a liberação de adrenalina.",
+    "D": "O alimento A estimula a liberação de insulina na circulação sanguínea."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 43,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O cladograma abaixo representa relações evolutivas entre membros da Superfamília Hominoidea, onde se observa que\n\n![Cladograma com os níveis superfamília, família, subfamília, tribo e gênero. Hominoidea (superfamília) se divide em Hominidae e Hylobatidae (famílias). Hominidae se divide em Homininae e Ponginae (subfamílias). Homininae se divide em Hominini e Gorillini (tribos). Gêneros: Homo e Pan, ligados a Hominini; Gorilla, ligado a Gorillini; Pongo, ligado a Ponginae; Hylobates, ligado a Hylobatidae](fig:p13-f1)",
+   "alternativas": {
+    "A": "homens e gibões (Hylobatidae) não possuem ancestral comum.",
+    "B": "homens, gorilas (*Gorilla*) e orangotangos (*Pongo*) pertencem a famílias diferentes.",
+    "C": "homens, gibões e chimpanzés (*Pan*) possuem um ancestral comum.",
+    "D": "homens, orangotangos (*Pongo*) e gibões (Hylobatidae) são primatas pertencentes à mesma família."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 45,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir ilustra fragmentos de um gene presente em 4 espécies identificadas com os números de 1 a 4 entre parênteses.\n\nCACTTGTAAAACCAGTATAGACCCTAG(1)\nCACTTGTAAAACCAGGATAGACGCTAG(2)\nCACTTGTAAAACCAGTATAGACGCTAG(3)\nCATTTTTAACACCAGGATAGACGCTAT(4)\n\nAssinale a alternativa correta.",
+   "alternativas": {
+    "A": "As espécies 1 e 4 são mais próximas entre si do que as espécies 1 e 3.",
+    "B": "As espécies 2 e 3 são mais próximas entre si do que as espécies 1 e 3.",
+    "C": "As espécies 1 e 3 são mais próximas entre si do que as espécies 3 e 4.",
+    "D": "As espécies 2 e 4 são mais próximas entre si do que as espécies 1 e 2."
+   },
+   "observacoes": "As sequências de DNA são texto digitado no caderno (não imagem); conferidas ampliando a página."
+  },
+  {
+   "numero": 46,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O corpo humano é composto por pelo menos dois tipos de gordura. A mais comum é o tecido adiposo branco, um tipo perigoso que se acumula ao redor das vísceras e debaixo da pele, podendo causar obesidade e desencadear complicações metabólicas, como o diabetes tipo 2. A outra é o tecido adiposo marrom, que regula a produção de calor e, consequentemente, a temperatura corporal.\n\nAssinale a alternativa correta.",
+   "alternativas": {
+    "A": "O tecido adiposo branco produz mais energia que o tecido adiposo marrom.",
+    "B": "O tecido adiposo marrom não produz ATP, mas produz calor.",
+    "C": "O tecido adiposo branco não produz ATP, mas produz calor.",
+    "D": "O tecido adiposo branco produz ATP e calor."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 48,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Mosaico romano: à esquerda, um homem de tanga azul ataca com uma longa haste de pontas; à direita, outro homem, de capacete, protege-se com um grande escudo retangular; entre os dois, um homem de túnica amarela segura uma vara](fig:p14-c1)\n\nA imagem acima retrata parte do mosaico romano de Nennig, um dos mais bem conservados que se encontram até o momento no norte da Europa. A composição conta com mais de 160 m² e apresenta como tema cenas próprias de um anfiteatro romano.\n\n(https://fr.wikipedia.org/wiki/Perl_(Sarre)#/media/File:Retiarius_stabs_secutor_(color).jpg. Acessado em 12/08/2016.)\n\nA partir da leitura da imagem e do conhecimento sobre o período em questão, pode-se afirmar corretamente que a imagem representa",
+   "alternativas": {
+    "A": "uma luta entre três gladiadores, prática popular entre membros da elite romana do século III d. C, que foi criticada pelos cristãos.",
+    "B": "a popularidade das atividades circenses entre os romanos, prática de cunho religioso que envolvia os prisioneiros de guerra.",
+    "C": "uma das ações da política do pão e do circo, estratégia da elite romana que usava cidadãos romanos na arena, para lutarem entre si e, assim, divertir o povo.",
+    "D": "uma luta entre gladiadores, prática que tinha inúmeras funções naquela sociedade, como a diversão, a tentativa de controle social e a valorização da guerra."
+   },
+   "observacoes": "Na impressão o endereço da fonte quebra em '(c' / 'olor)'; reunido como '(color)'."
+  },
+  {
+   "numero": 51,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O escritor José de Alencar relata como ocorriam as reuniões do Clube da Maioridade, realizadas na casa de seu pai em 1840. Discutia-se nessas ocasiões a antecipação da maioridade do imperador D. Pedro II, então com apenas 14 anos, para que ele pudesse assumir o trono antes do tempo determinado pela Constituição. No fim da vida, José de Alencar rememora os episódios de sua infância e chega a uma surpreendente conclusão: os políticos que frequentavam sua casa na ocasião iam lá não porque estavam pensando no futuro do país, mas apenas para devorar tabletes e bombons de chocolate. Conforme o relato do escritor, os membros do Clube da Maioridade, discutindo altos assuntos na sala de sua casa, pareciam realmente gente séria e preocupada com os destinos do Brasil, até que chegava a hora do chocolate.\n\nPara Alencar, a discussão política no Brasil se resumia a um “devorar de chocolate”, isto é, cada um defendia apenas seus interesses particulares e nada mais.\n\n(Adaptado de Daniel Pinha Silva, “O império do chocolate”, em http://www.revistadehistoria.com.br/secao/leituras/o-imperio-do-chocolate. Acessado em 01/08/2016.)\n\nSobre o Golpe da Maioridade e a visão de José de Alencar a esse respeito, é correto afirmar que:",
+   "alternativas": {
+    "A": "O golpe foi uma manobra das elites políticas, que criaram uma forma de alterar a Constituição e contemplar os seus interesses durante o período regencial, fato criticado por Alencar ao fazer uma anedota com o chocolate.",
+    "B": "Ao entregar o poder a um jovem de 14 anos, alegando ser maior de 18, os políticos do Império manifestavam uma ousada visão política para evitar a influência da Inglaterra nos assuntos brasileiros, preservando seus interesses como donos de escravos.",
+    "C": "O golpe foi uma resposta dos conservadores às propostas liberais que pretendiam estabelecer a República no país, e Alencar apontou uma prática política dos parlamentares que é recorrente na história do país.",
+    "D": "José de Alencar expressou sua decepção com os políticos e, ao registrar sua visão sobre o Clube da Maioridade, o escritor contribuiu para inibir procedimentos semelhantes durante o Império, assegurando uma transição pacífica e legal para a República, em 1889."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 53,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Compare as duas ilustrações de Angelo Agostini (1843-1910) sobre o reconhecimento da República brasileira pela Argentina (fig.1) e pela França (fig.2).\n\n![Fig. 1, gravura de Angelo Agostini: duas figuras femininas de mesma altura, de pé e frente a frente, apertam as mãos sobre um pedestal com um brasão oval; bandeiras ao fundo; na barra do vestido da esquerda lê-se “ARGENTINA” e na da direita, “REPUBLICA BRAZILEIRA”](fig:p16-c1)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela Argentina*, em *Revista Ilustrada*, dez.1889.)\n\n![Fig. 2, gravura de Angelo Agostini: duas figuras femininas abraçadas, cada uma segurando uma bandeira; a da esquerda, mais alta, olha para a frente; a da direita, menor, segura uma bandeira com um círculo ao centro e olha para cima, em direção ao rosto da outra; ao fundo, uma inscrição em arco parcialmente encoberta, começando por “14”](fig:p16-c2)\n\n(Ângelo Agostini, *Reconhecimento da República brasileira pela França*, em *Revista Ilustrada*, dez.1889.)\n\nAssinale a alternativa correta.",
+   "alternativas": {
+    "A": "As alegorias expressam visões diferentes sobre o imaginário da República brasileira: na primeira ela é representada com um olhar de proximidade, e, na segunda o olhar expressa admiração, remetendo à visão corrente do gravurista sobre as relações entre Brasil, França e Argentina.",
+    "B": "O reconhecimento da França traz a confraternização entre dois países com tradições políticas muito diferentes, porém unidos pelo constitucionalismo monárquico e posteriormente pelo ideário republicano.",
+    "C": "No reconhecimento da Argentina ao regime republicano brasileiro, as duas repúblicas ocupam a mesma posição, indicando ter a mesma idade de fundação do regime e a similaridade de suas histórias de passado colonial ibérico.",
+    "D": "As duas imagens usam a figura feminina para representar as três repúblicas, característica não usual para a representação artística do ideário republicano, protagonizado por lideranças masculinas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 54,
+   "materia": "historia",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "“O tropicalismo buscava revolucionar a linguagem e o comportamento na vida cotidiana, incorporando-se simultaneamente à sociedade de massa e aos mecanismos do mercado de produção cultural. Criticava ao mesmo tempo a ditadura e uma estética de esquerda acusada de menosprezar a forma artística. Articulava aspectos modernos e arcaicos, buscava retomar criticamente a tradição brasileira e absorver influências estrangeiras de modo ‘antropofágico’.”\n\n(Marcelo Ridenti, “Cultura”, em Daniel Aarão Reis (org.), *Modernização, ditadura e democracia*: 1964-2010. Rio de Janeiro: Objetiva, 2014, p. 256.)\n\nO tropicalismo, no contexto cultural brasileiro dos anos 1960 e 1970,",
+   "alternativas": {
+    "A": "foi influenciado pelo manifesto antropofágico e propunha digerir aspectos da cultura mundial – como a guitarra elétrica e a televisão – para difundir o ideal de uma sociedade alinhada com os interesses da modernização econômica da ditadura.",
+    "B": "era um movimento que criticava a ditadura, associada à Jovem Guarda, e a esquerda, identificada com a Bossa Nova, propondo uma leitura imparcial para a cultura, como se observa na música popular e na dramaturgia do Teatro Oficina.",
+    "C": "criticava o Cinema Novo e a glamorização da “estética da fome”, preferindo abrir-se para os movimentos internacionais, como fizeram o modernismo em relação ao futurismo e a vanguarda do grupo do Teatro Opinião.",
+    "D": "usava referências eruditas e populares, incorporava aspectos da música pop mesclada a aspectos regionais e expressava críticas à ditadura e ao patrulhamento praticado por alguns fãs das canções de protesto."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 58,
+   "materia": "fisica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "O semáforo é um dos recursos utilizados para organizar o tráfego de veículos e de pedestres nas grandes cidades. Considere que um carro trafega em um trecho de uma via retilínea, em que temos 3 semáforos. O gráfico abaixo mostra a velocidade do carro, em função do tempo, ao passar por esse trecho em que o carro teve que parar nos três semáforos. A distância entre o primeiro e o terceiro semáforo é de\n\n![Gráfico da velocidade (m/s, de 0 a 14) em função do tempo (s, de 0 a 70), com grade a cada 5 s e 2 m/s. A velocidade é zero até 5 s, sobe em linha reta até 10 m/s em 10 s, fica constante até 20 s e cai em linha reta até zero em 25 s. Volta a ser zero até 45 s, sobe em linha reta até 12 m/s em 50 s, fica constante até 60 s e cai em linha reta até zero em 65 s](fig:p17-c1)",
+   "alternativas": {
+    "A": "330 m.",
+    "B": "440 m.",
+    "C": "150 m.",
+    "D": "180 m."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 59,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Hoje é comum encontrarmos equipamentos de exercício físico em muitas praças públicas do Brasil. Esses equipamentos são voltados para pessoas de todas as idades, mas, em particular, para pessoas da terceira idade. São equipamentos exclusivamente mecânicos, sem uso de partes elétricas, em que o esforço consiste usualmente em levantar o próprio peso do praticante. Considere o esquema abaixo, em que uma pessoa de massa $m = 65\\ \\text{kg}$ está parada e com a perna esticada em um equipamento tipicamente encontrado nessas praças. O módulo da força $\\vec{F}$ exercida pela perna da pessoa em razão de sua massa $m$ é\n(Se necessário, utilize $g = 10\\ \\text{m/s}^2$.)\n\n![Esquema: uma pessoa sentada num assento preso a uma barra que pende de uma articulação no alto de um poste; a barra forma 30° com a vertical tracejada; a perna esticada apoia o pé num suporte fixo ao poste; o vetor F está desenhado ao longo da perna, com marca de ângulo reto entre F e a barra](fig:p18-f2)",
+   "alternativas": {
+    "A": "1300 N.",
+    "B": "750 N.",
+    "C": "325 N.",
+    "D": "560 N."
+   },
+   "observacoes": ""
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 34,
+   "status": "ok",
+   "notas": "Grafias do original conferidas: \"Rudolphh\", \"geopolotik\". Nota do asterisco (Dogma) vem depois das alternativas no caderno; mantida após a fonte, como pedem as instruções."
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 36,
+   "status": "corrigida",
+   "notas": "matéria: portugues -> literatura (interpretação de poema), química mantida como extra"
+  },
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": "\"agua\" sem acento (duas vezes) conferido no caderno."
+  },
+  {
+   "numero": 38,
+   "status": "ok",
+   "notas": "A potência eólica é proporcional a $v^3$ (daria 975 MWh, fora das alternativas); a banca usou a energia cinética $\\propto v^2$. Gabarito oficial B concorda com essa leitura."
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": "Espaço em \"21 /insetos\" conferido no caderno."
+  },
+  {
+   "numero": 40,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 41,
+   "status": "corrigida",
+   "notas": "descrição da figura ampliada com a forma das curvas, necessária para quem usa leitor de tela"
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "corrigida",
+   "notas": "descrição do cladograma agora traz a estrutura dos ramos (antes só citava os níveis)"
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": "\"ornitorinco\" (alternativa A) e \"características ?\" no balão conferidos no caderno."
+  },
+  {
+   "numero": 45,
+   "status": "corrigida",
+   "notas": "sequências: no caderno o número vem colado, \"...CCCTAG(1)\"; havia espaço a mais"
+  },
+  {
+   "numero": 46,
+   "status": "corrigida",
+   "notas": "\"Assinale a alternativa correta.\" é parágrafo próprio no caderno; estava com quebra simples"
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "corrigida",
+   "notas": "descrição da figura interpretava a cena (\"luta entre gladiadores\", palavras da alternativa D); trocada por descrição visual neutra"
+  },
+  {
+   "numero": 49,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "corrigida",
+   "notas": "\"Para Alencar...\" é parágrafo novo no caderno; estava com quebra simples"
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "corrigida",
+   "notas": "descrições das gravuras: incluídas as inscrições \"ARGENTINA\"/\"REPUBLICA BRAZILEIRA\" e a posição/olhar das figuras, que a questão compara"
+  },
+  {
+   "numero": 54,
+   "status": "corrigida",
+   "notas": "materias_extra: literatura -> artes (as alternativas cobram música, teatro e cinema)"
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "corrigida",
+   "notas": "descrição do gráfico agora traz os pontos do gráfico v x t"
+  },
+  {
+   "numero": 59,
+   "status": "corrigida",
+   "notas": "descrição da figura estava errada (a perna não empurra a barra inclinada; empurra o suporte fixo); incluída a marca de ângulo reto entre F e a barra"
+  },
+  {
+   "numero": 60,
+   "status": "ok",
+   "notas": "Alternativas sem sinal de multiplicação, como no caderno."
+  }
+ ]
+}
