@@ -64,6 +64,7 @@ def montar(ed):
     if not rascunhos:
         return None
     terceiros = conformidade.carregar_terceiros()
+    ajustes = json.loads((RAIZ / "dados/provas/ajustes.json").read_text())
     textos_base, questoes = {}, {}
     for arq in rascunhos:
         dados = json.loads(arq.read_text())
@@ -122,6 +123,9 @@ def montar(ed):
             item["assunto"] = comp["assunto"]
         if comp.get("resolucao"):
             item["resolucao"] = comp["resolucao"]
+        for extra in ajustes.get("materias_extra_add", {}).get(item["id"], []):
+            if extra not in item.get("materias_extra", []) and extra != item["materia"]:
+                item["materias_extra"] = item.get("materias_extra", []) + [extra]
         atrib = conformidade.atribuicoes(terceiros, item["id"])
         if atrib:
             item["terceiros"] = atrib

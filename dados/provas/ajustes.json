@@ -1,0 +1,11 @@
+{
+ "_explicacao": "Ajustes de classificação aplicados ao montar o banco, sem mexer na transcrição. materias_extra_add acrescenta matérias à questão (aparecem na etiqueta e entram no treino por matéria).",
+ "materias_extra_add": {
+  "fuvest-2025-1-q29": ["ingles"],
+  "fuvest-2026-1-q67": ["ingles"],
+  "fuvest-2026-1-q70": ["ingles"],
+  "fuvest-2026-1-q81": ["ingles"],
+  "unesp-2023-1-q26": ["ingles"],
+  "unesp-2023-1-q55": ["ingles"]
+ }
+}

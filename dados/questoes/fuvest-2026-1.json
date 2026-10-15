@@ -1386,7 +1386,9 @@
    "id": "fuvest-2026-1-q67",
    "numero": 67,
    "materia": "quimica",
-   "materias_extra": [],
+   "materias_extra": [
+    "ingles"
+   ],
    "texto_base": "t66-67",
    "enunciado": "A espectrometria de massas, utilizada para a identificação das proteínas no estudo apresentado no texto, é uma técnica que permite determinar com precisão a massa molecular de moléculas carregadas. A determinação da massa exata da molécula é feita a partir do conhecimento da sua carga e da razão massa/carga ($m/z$), parâmetro que influencia no movimento das espécies, permitindo sua determinação. Caso a carga das moléculas seja unitária, a razão $m/z$ é numericamente igual à massa da espécie a ser identificada. Caso a carga seja 2, a razão $m/z$ detectada é metade da massa da molécula.\n\nA imagem a seguir representa, na forma de um gráfico, o resultado de uma análise por espectrometria de massas de uma amostra pura contendo apenas uma espécie intacta com fórmula molecular $[\\text{C}_{44}\\text{H}_{69}\\text{NO}_{12}\\text{Ca}]^{2+}$ e massa exata, considerando os isótopos mais abundantes, de 843,444 g/mol, detectada como $m/z$ 421,722.\n\n![Gráfico da abundância em porcentagem em função de m/z, com sinais em 421,722, 422,223, 422,725, 423,226, 423,720 e 424,221](fig:p29-f1)\n\nA presença de outros sinais além do sinal de $m/z$ 421,722, mesmo em uma amostra pura não contendo nenhuma outra espécie além do $[\\text{C}_{44}\\text{H}_{69}\\text{NO}_{12}\\text{Ca}]^{2+}$, deve-se",
    "alternativas": {
@@ -1446,7 +1448,9 @@
    "id": "fuvest-2026-1-q70",
    "numero": 70,
    "materia": "biologia",
-   "materias_extra": [],
+   "materias_extra": [
+    "ingles"
+   ],
    "texto_base": "t68-70",
    "enunciado": "*Nós sentimos o sabor dos alimentos com o cérebro!*\n\nEsta afirmação à primeira vista nos parece estranha. No entanto, assim como ocorre em todos os sentidos do sistema sensorial, no caso do paladar, a percepção consciente do sabor só acontece quando sinais específicos chegam ao cérebro. Assinale a alternativa que apresenta corretamente a informação descrita neste processo.",
    "alternativas": {
@@ -1668,7 +1672,9 @@
    "id": "fuvest-2026-1-q81",
    "numero": 81,
    "materia": "quimica",
-   "materias_extra": [],
+   "materias_extra": [
+    "ingles"
+   ],
    "texto_base": "t79-81",
    "enunciado": "O processo de comunicação entre plantas discutido no texto pode ocorrer de diversas formas. Uma delas baseia-se na emissão de moléculas por uma planta atacada, chamada de emissor, e a recepção dessas moléculas por uma outra planta, chamada de receptor. Dependendo do tipo de ataque e das espécies envolvidas, essa comunicação pode acontecer tanto por via aérea, quanto por via do solo, facilitada pela água presente.\n\n![Esquema com duas plantas, Emissor e Receptor, e moléculas liberadas pelo emissor que chegam ao receptor pelo ar (Via aérea) e pelo solo (Via solo)](fig:p34-f1)\n\nConsiderando os processos de sinalização entre plantas descritos, é correto afirmar:",
    "alternativas": {
