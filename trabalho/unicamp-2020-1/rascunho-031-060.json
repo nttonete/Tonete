@@ -1,0 +1,446 @@
+{
+ "edicao": "unicamp-2020-1",
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 31,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As coordenadas geográficas são um sistema de linhas imaginárias traçadas sobre o globo terrestre ou um mapa. Através da interseção de um meridiano com um paralelo, podemos localizar cada ponto da superfície da Terra. Como a Terra apresenta uma superfície quase esférica, é possível determinar dois pontos diametralmente opostos, denominados antípodas. Apenas algumas cidades brasileiras têm uma cidade antípoda, como Coari (AM) e Pontes e Lacerda (MT). Assinale a alternativa que indica duas cidades antípodas.",
+   "alternativas": {
+    "A": "Pontes e Lacerda (Brasil) – 15º latitude S e 60º longitude W; Candelária (Filipinas) – 15º latitude N e 60º longitude E.",
+    "B": "Coari (Brasil) – 4º latitude S e 63° longitude W; Temon (Malásia) – 4º latitude N e 63º longitude E.",
+    "C": "Coari (Brasil) – 4º latitude S e 63° longitude W; Temon (Malásia) – 4º latitude N e 117º longitude E.",
+    "D": "Pontes e Lacerda (Brasil) – 15º latitude S e 60º longitude W; Candelária (Filipinas) – 75º latitude N e 120º longitude E."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 32,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em uma família, cada filha tem o mesmo número de irmãs e irmãos, e cada filho tem um número de irmãs igual ao dobro do número de irmãos. O número total de filhos e filhas dessa família é igual a",
+   "alternativas": {
+    "A": "11.",
+    "B": "9.",
+    "C": "7.",
+    "D": "5."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 33,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Cinco pessoas devem ficar em pé, uma ao lado da outra, para tirar uma fotografia, sendo que duas delas se recusam a ficar lado a lado. O número de posições distintas para as cinco pessoas serem fotografadas juntas é igual a",
+   "alternativas": {
+    "A": "48.",
+    "B": "72.",
+    "C": "96.",
+    "D": "120."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 34,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um atleta participa de um torneio composto por três provas. Em cada prova, a probabilidade de ele ganhar é de $2/3$, independentemente do resultado das outras provas. Para vencer o torneio, é preciso ganhar pelo menos duas provas. A probabilidade de o atleta vencer o torneio é igual a",
+   "alternativas": {
+    "A": "$2/3$.",
+    "B": "$4/9$.",
+    "C": "$20/27$.",
+    "D": "$16/81$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 35,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $a$ é um número real, considere a função $f(x) = ax + 2$, definida para todo número real $x$. Se $f\\big(f(1)\\big) = 1$, então",
+   "alternativas": {
+    "A": "$a = -1$.",
+    "B": "$a = -1/2$.",
+    "C": "$a = 1/2$.",
+    "D": "$a = 1$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 36,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $a$ é um número real, considere a equação quadrática $2x^2 + ax + 10 = 0$. Se as soluções dessa equação são números inteiros, o módulo da soma das soluções é igual a",
+   "alternativas": {
+    "A": "3.",
+    "B": "4.",
+    "C": "5.",
+    "D": "6."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 37,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere que $(a, b, 3, c)$ é uma progressão aritmética de números reais, e que a soma de seus elementos é igual a 8. O produto dos elementos dessa progressão é igual a",
+   "alternativas": {
+    "A": "30.",
+    "B": "10.",
+    "C": "$-15$.",
+    "D": "$-20$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 38,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Tendo em vista que $a$ e $b$ são números reais positivos, $a \\neq b$, considere a função $f(x) = ab^x$, definida para todo número real $x$. Logo, $f(2)$ é igual a",
+   "alternativas": {
+    "A": "$\\sqrt{f(1)f(3)}$.",
+    "B": "$f(3)/f(0)$.",
+    "C": "$f(0)f(1)$.",
+    "D": "$f(0)^3$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 39,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $p$ é um número real, considere a matriz $A = \\begin{bmatrix} p & 2 \\\\ 0 & p \\end{bmatrix}$ e sua transposta $A^T$. Se $A + A^T$ é singular (não invertível), então",
+   "alternativas": {
+    "A": "$p = 0$.",
+    "B": "$|p| = 1$.",
+    "C": "$|p| = 2$.",
+    "D": "$p = 3$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 40,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo exibe o triângulo $ABC$, em que $AB = BC$ e $\\overline{AD}$ é uma altura de comprimento $h$. A área do triângulo $ABC$ é igual a\n\n![Triângulo ABC isósceles com AB = BC, ângulo de 30° no vértice B e altura AD de comprimento h](fig:p13-f1)",
+   "alternativas": {
+    "A": "$h^2$.",
+    "B": "$\\sqrt{2}h^2$.",
+    "C": "$\\sqrt{3}h^2$.",
+    "D": "$2h^2$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 41,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo exibe o triângulo retângulo $ABC$, em que $AB = AM = MC$. Então, $\\operatorname{tg}\\theta$ é igual a\n\n![Triângulo retângulo ABC com ângulo reto em A, ponto M sobre AC e ângulo θ entre BM e BC](fig:p13-f2)",
+   "alternativas": {
+    "A": "$1/2$.",
+    "B": "$1/3$.",
+    "C": "$1/4$.",
+    "D": "$1/5$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 42,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Seja a função polinomial do terceiro grau $f(x) = x^3 - x^2 - 2x + 1$, definida para todo número real $x$. A figura abaixo exibe o gráfico de $y = f(x)$, no plano cartesiano, em que os pontos $A$, $B$ e $C$ têm a mesma ordenada. A distância entre os pontos $A$ e $C$ é igual a\n\n![Gráfico da função cúbica com os pontos A, B e C marcados sobre uma reta horizontal tracejada](fig:p13-f4)",
+   "alternativas": {
+    "A": "2.",
+    "B": "$2\\sqrt{2}$.",
+    "C": "3.",
+    "D": "$3\\sqrt{2}$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 43,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $c$ é um número real, considere, no plano cartesiano, a circunferência de equação $x^2 + y^2 = 2cx$. Se o centro dessa circunferência pertence à reta de equação $x + 2y = 3$, então seu raio é igual a",
+   "alternativas": {
+    "A": "$\\sqrt{2}$.",
+    "B": "$\\sqrt{3}$.",
+    "C": "2.",
+    "D": "3."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 44,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Se um tetraedro regular e um cubo têm áreas de superfície iguais, a razão entre o comprimento das arestas do tetraedro e o comprimento das arestas do cubo é igual a",
+   "alternativas": {
+    "A": "$\\sqrt{2}\\sqrt{3}$.",
+    "B": "$\\sqrt[4]{2}\\sqrt{3}$.",
+    "C": "$\\sqrt{2}\\sqrt[4]{3}$.",
+    "D": "$\\sqrt[4]{2}\\sqrt[4]{3}$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 45,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em 15 de abril de 2019, a Catedral de Notre-Dame de Paris ardeu em chamas, atingindo temperaturas de 800 °C. Estima-se que, na construção da catedral, foram empregadas pelo menos 300 toneladas de chumbo. Material usual à época, o chumbo é um metal pesado com elevado potencial de contaminação em altas temperaturas. Sabendo que o ponto de fusão do chumbo é de 327,5 °C e seu ponto de ebulição é de 1750 °C, identifique a curva que pode representar o histórico da temperatura de uma porção de chumbo presente na catedral ao longo do incêndio, bem como o fenômeno corretamente relacionado ao potencial de contaminação.",
+   "alternativas": {
+    "A": "![Gráfico da temperatura em função do tempo, alternativa A](fig:p14-c1)\n\nO potencial de contaminação estaria associado à evaporação do chumbo em alta temperatura.",
+    "B": "![Gráfico da temperatura em função do tempo, alternativa B](fig:p14-c2)\n\nO potencial de contaminação estaria associado à ebulição do chumbo em alta temperatura.",
+    "C": "![Gráfico da temperatura em função do tempo, alternativa C](fig:p14-c3)\n\nO potencial de contaminação estaria associado à ebulição do chumbo em alta temperatura.",
+    "D": "![Gráfico da temperatura em função do tempo, alternativa D](fig:p14-c4)\n\nO potencial de contaminação estaria associado à evaporação do chumbo em alta temperatura."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 46,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O “Ebulidor de Franklin” é um brinquedo constituído de dois bulbos de vidro conectados por um tubo espiralado, preenchido com líquido colorido. Seu uso consiste em encostar a mão na base do bulbo inferior, fazendo com que o líquido seja aquecido e ascenda para o bulbo superior. Popularmente, a libido de uma pessoa é avaliada com base na quantidade de líquido que ascende. O sucesso de venda, obviamente, é maior quanto mais positivamente o brinquedo indicar uma “alta libido”. Abaixo apresenta-se um gráfico da pressão de vapor em função da temperatura para dois líquidos, A e B, que poderiam ser utilizados para preencher o “Ebulidor de Franklin”.\n\n![Fotografia de dois ebulidores de Franklin, um em repouso e outro sendo segurado por uma mão](fig:p14-f6)\n\n![Gráfico da pressão de vapor (mmHg) em função da temperatura (°C) para os líquidos A e B](fig:p14-c5)\n\nConsiderando essas informações, é correto afirmar que a pressão no interior do brinquedo",
+   "alternativas": {
+    "A": "não se altera durante o seu uso, e o ebulidor com o líquido A teria mais sucesso de vendas.",
+    "B": "aumenta durante o seu uso, e o ebulidor com o líquido A teria mais sucesso de vendas.",
+    "C": "não se altera durante o seu uso, e o ebulidor com o líquido B teria mais sucesso de vendas.",
+    "D": "aumenta durante o seu uso, e o ebulidor com o líquido B teria mais sucesso de vendas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 47,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "O Termômetro de Galileu (Figura A) é uma forma criativa de se estimar a temperatura ambiente. Ele consiste em uma coluna de vidro preenchida com um líquido. Em seu interior, são colocadas várias bolas de vidro colorido calibradas e marcadas para a leitura da temperatura. As bolas de vidro sobem ou descem em função da temperatura. A sensibilidade do Termômetro de Galileu reside na sua capacidade de separar duas leituras de temperaturas. A figura B é um gráfico de densidade em função da temperatura para água e etanol, dois líquidos que poderiam ser usados no termômetro.\n\n![Figura A: termômetro de Galileu, coluna de vidro com bolas coloridas. Figura B: gráfico da densidade (g/cm³) em função da temperatura (°C) para água e etanol](fig:p15-c1)\n\nDe acordo com essas informações e os conhecimentos de química, a leitura correta da temperatura do termômetro representado na Figura A pode ser indicada pela bola de vidro que se situa",
+   "alternativas": {
+    "A": "mais abaixo entre as que se encontram na parte de cima do tubo, sendo que a água proporcionaria um termômetro mais sensível.",
+    "B": "mais acima entre as que se encontram na parte de baixo do tubo, sendo que a água proporcionaria um termômetro mais sensível.",
+    "C": "mais acima entre as que se encontram na parte de cima do tubo, sendo que o etanol proporcionaria um termômetro mais sensível.",
+    "D": "mais abaixo entre as que se encontram na parte de cima do tubo, sendo que o etanol proporcionaria um termômetro mais sensível."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 48,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "As caldeiras são utilizadas para alimentar máquinas nos mais diversos processos industriais, para esterilização de equipamentos e instrumentos em hospitais, hotéis, lavanderias, entre outros usos. A temperatura elevada da água da caldeira mantém compostos solubilizados na água de alimentação que tendem a se depositar na superfície de troca térmica da caldeira. Esses depósitos, ou incrustações, diminuem a eficiência do equipamento e, além de aumentar o consumo de combustível, podem ainda resultar em explosões. A tabela e a figura a seguir apresentam, respectivamente, informações sobre alguns tipos de incrustações em caldeiras, e a relação entre a espessura da incrustação e o consumo de combustível para uma eficiência constante.\n\n| Tipo de incrustação | Condutividade Térmica (kJ m⁻¹ h⁻¹ ºC⁻¹) |\n|---|---|\n| Base de sílica | 1,3 |\n| Base de carbonato | 2,1 |\n| Base de sulfato | 5,5 |\n\n![Gráfico do incremento do consumo de combustível (%) em função da espessura da incrustação (mm), com as curvas A e B](fig:p15-c2)\n\nConsiderando as informações apresentadas, é correto afirmar que as curvas A e B podem representar, respectivamente, informações sobre incrustações",
+   "alternativas": {
+    "A": "de sulfato e de carbonato.",
+    "B": "de sulfato e de sílica.",
+    "C": "de sílica e de carbonato.",
+    "D": "de carbonato e de sílica."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 49,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Balões de Mylar metalizados são bastante comuns em festas, sendo comercializados em lojas e parques. Ascendem na atmosfera quando preenchidos com gás hélio e só murcham definitivamente se apresentarem algum vazamento. Imagine que um cliente tenha comprado um desses balões e, após sair da loja, retorna para reclamar, dizendo: “não bastasse a noite fria que está lá fora, ainda tenho que voltar para trocar o balão com defeito”. O vendedor da loja, depois de conversar um pouco com o cliente, sugere não trocá-lo e afirma que o balão está",
+   "alternativas": {
+    "A": "como saiu da loja; garante que estará normal na casa do cliente, pois as moléculas do gás irão aumentar de tamanho, voltando ao normal num ambiente mais quente.",
+    "B": "como saiu da loja; garante que não há vazamento e que o balão estará normal na casa do cliente, considerando que o gás irá se expandir num ambiente mais quente.",
+    "C": "murcho; propõe enchê-lo com ar, pois o balão é menos permeável ao ar, o que garantirá que ele não irá murchar lá fora e, na casa do cliente, irá se comportar como se estivesse cheio com hélio.",
+    "D": "murcho; propõe enchê-lo novamente com hélio e garante que o balão não voltará a murchar quando for retirado da loja, mantendo o formato na casa do cliente."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 50,
+   "materia": "quimica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "Um medicamento se apresenta na forma de comprimidos de 750 mg ou como suspensão oral na concentração de 100 mg/mL. A bula do remédio informa que o comprimido não pode ser partido, aberto ou mastigado e que, para crianças abaixo de 12 anos, a dosagem máxima é de 15 mg/kg/dose. Considerando apenas essas informações, conclui-se que uma criança de 11 anos, pesando 40 kg, poderia ingerir com segurança, no máximo,",
+   "alternativas": {
+    "A": "6,0 mL da suspensão oral em uma única dose.",
+    "B": "7,5 mL da suspensão oral, ou um comprimido em uma única dose.",
+    "C": "um comprimido em uma única dose.",
+    "D": "4,0 mL da suspensão oral em uma única dose."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 51,
+   "materia": "quimica",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "A atividade humana tem grande impacto na biosfera; um exemplo é o que vem ocorrendo na água dos oceanos nas últimas décadas. Assinale a alternativa que corretamente evidencia a influência da atividade humana no pH da água dos oceanos e como ela se acentua em função da região do planeta.",
+   "alternativas": {
+    "A": "![Gráfico da concentração de CO₂ e do pH em função do ano, alternativa A](fig:p16-c1)\n\nEssa influência se acentua na região dos polos, em razão da temperatura da água do mar.",
+    "B": "![Gráfico da concentração de CO₂ e do pH em função do ano, alternativa B](fig:p16-c2)\n\nEssa influência se acentua na região dos trópicos, em razão da temperatura da água do mar.",
+    "C": "![Gráfico da concentração de CO₂ e do pH em função do ano, alternativa C](fig:p16-c3)\n\nEssa influência se acentua na região dos polos, em razão da temperatura da água do mar.",
+    "D": "![Gráfico da concentração de CO₂ e do pH em função do ano, alternativa D](fig:p16-c4)\n\nEssa influência se acentua na região dos trópicos, em razão da temperatura da água do mar."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 52,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um dos pilares da nanotecnologia é o fato de as propriedades dos materiais dependerem do seu tamanho e da sua morfologia. Exemplo: a maior parte do $\\text{H}_2$ produzido industrialmente advém da reação de reforma de hidrocarbonetos: $\\text{CH}_4\\text{(g)} + \\text{H}_2\\text{O(g)} \\rightarrow 3\\text{H}_2\\text{(g)} + \\text{CO(g)}$. Uma forma de promover a descontaminação do hidrogênio é reagir o CO com largo excesso de água:\n\n$\\text{CO(g)} + \\text{H}_2\\text{O(g)} \\rightarrow \\text{CO}_2\\text{(g)} + \\text{H}_2\\text{(g)};\\ \\Delta H = -41{,}6\\ \\text{kJ mol}^{-1}.$\n\nA figura abaixo mostra resultados da velocidade (em unidade arbitrária, ua) dessa conversão em função da temperatura, empregando-se um nanocatalisador com duas diferentes morfologias.\n\n![Gráfico da velocidade de reação (ua) em função da temperatura (°C) para o nanobastão e o nanocubo](fig:p16-c5)\n\nConsiderando essas informações, é correto afirmar que, com essa tecnologia, a descontaminação do hidrogênio por CO é mais eficiente na presença do catalisador em forma de",
+   "alternativas": {
+    "A": "nanobastão, pois a transformação do CO ocorreria em temperaturas mais baixas, o que também favoreceria o equilíbrio da reação no sentido dos produtos, uma vez que a reação é exotérmica.",
+    "B": "nanobastão, pois a transformação do CO ocorreria em temperaturas mais baixas, o que também favoreceria o equilíbrio da reação no sentido dos produtos, uma vez que a reação é endotérmica.",
+    "C": "nanocubo, pois a transformação do CO ocorreria em temperaturas mais elevadas, o que também favoreceria o equilíbrio da reação no sentido dos produtos, uma vez que a reação é exotérmica.",
+    "D": "nanocubo, pois a transformação do CO ocorreria em temperaturas mais elevadas, o que também favoreceria o equilíbrio da reação no sentido dos produtos, uma vez que a reação é endotérmica."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 53,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "“O sal faz a água ferver mais rápido?” Essa é uma pergunta frequente na internet, mas não tente responder com os argumentos lá apresentados. Seria muito difícil responder à pergunta tal como está formulada, pois isso exigiria o conhecimento de vários parâmetros termodinâmicos e cinéticos no aquecimento desses líquidos. Do ponto de vista termodinâmico, entre tais parâmetros, caberia analisar os valores de calor específico e de temperatura de ebulição da solução em comparação com a água pura. Considerando massas iguais (água pura e solução), se apenas esses parâmetros fossem levados em consideração, a solução ferveria mais rapidamente se o seu calor específico fosse",
+   "alternativas": {
+    "A": "menor que o da água pura, observando-se ainda que a temperatura de ebulição da solução é menor.",
+    "B": "maior que o da água pura, observando-se ainda que a temperatura de ebulição da solução é menor.",
+    "C": "menor que o da água pura, observando-se, no entanto, que a temperatura de ebulição da solução é maior.",
+    "D": "maior que o da água pura, observando-se, no entanto, que a temperatura de ebulição da solução é maior."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 54,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Para ser usado em um implante dentário, um metal ou liga precisa apresentar excelente compatibilidade com o organismo, alta resistência mecânica e boa flexibilidade, entre outros atributos. Imagine que dois metais, A e B, tenham sido testados quanto à sua aplicação em um implante, e o metal A foi considerado a melhor opção.\n\n| Metal | Formato em que o metal está disponível | Massa | $E^\\circ_{\\text{red}}$ |\n|---|---|---|---|\n| **A** | Cubo com aresta de comprimento 5 cm. | 500 g | –1,63 V |\n| **B** | Esfera com diâmetro de comprimento 5 cm. | 500 g | –0,44 V |\n\nEsse resultado é compatível com o fato de que o metal A tem",
+   "alternativas": {
+    "A": "menor densidade, embora seja menos resistente à corrosão.",
+    "B": "menor densidade e é mais resistente à corrosão.",
+    "C": "maior densidade, embora seja menos resistente à corrosão.",
+    "D": "maior densidade e é mais resistente à corrosão."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 55,
+   "materia": "historia",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "A catástrofe de Tchernóbil (1986) foi o mais grave desastre tecnológico do século XX. As explosões lançaram na atmosfera diversos elementos radioativos. Hoje, uma em cada cinco pessoas nas fronteiras da Bielorússia vive em território contaminado. Em consequência da ação constante de pequenas doses de radiação, a cada ano, cresce no país o número de doentes de câncer, de deficientes mentais, de pessoas com disfunções neuropsicológicas e com mutações genéticas.\n\n(Adaptado de Svetlana Aleksiévitch, *Vozes de Tchernóbil*. São Paulo: Companhia das Letras, 1997, p.10.)\n\nA partir do documento acima e de seus conhecimentos, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "A construção da Central Elétrica Atômica de Tchernóbil ocorreu em um momento de embate da URSS com o mundo ocidental capitalista. Tendo em vista que os elementos lançados ao ambiente têm tempos de meia-vida curtos, novas tecnologias químicas conseguiram sanar os danos ambientais e humanos gerados pelo acidente.",
+    "B": "O acidente de Tchernóbil é um marco do desmantelamento da URSS. O acidente gerou danos ambientais e humanos que não foram solucionados até hoje, uma vez que os elementos lançados ao ambiente têm tempos de meia-vida longos.",
+    "C": "O acidente de Tchernóbil é um marco do fortalecimento da URSS. Ele gerou danos ambientais e humanos que não foram solucionados até hoje, uma vez que os elementos lançados ao ambiente têm tempos de meia-vida longos.",
+    "D": "A construção da Central Elétrica Atômica de Tchernóbil ocorreu em um contexto de expansão das relações da URSS com a Coreia do Norte e a China. Tendo em vista que os elementos lançados ao ambiente têm tempos de meia-vida curtos, novas tecnologias químicas conseguiram sanar os danos ambientais e humanos gerados pelo acidente."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 56,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Numa fritadeira a ar com potência de 1400 W, um pedaço de carne ficou pronto para ser consumido após 18 minutos de funcionamento do equipamento. Um cozimento semelhante foi realizado em menor tempo em um fogão a gás. Nesse caso, foram consumidos 16 gramas de gás propano, cuja reação de combustão é dada por:\n\n$\\text{C}_3\\text{H}_8\\text{(g)} + \\text{O}_2\\text{(g)} \\rightarrow 3\\text{CO}_2\\text{(g)} + 4\\text{H}_2\\text{O(g)};\\ \\Delta H = -2046\\ \\text{kJ mol}^{-1}.$\n\nComparando os dois processos de cozimento, o consumo de energia foi maior empregando-se",
+   "alternativas": {
+    "A": "o fogão a gás, sendo cerca de 1,5 vezes maior que o consumo da fritadeira a ar.",
+    "B": "o fogão a gás, sendo cerca de 12 vezes maior que o consumo da fritadeira a ar.",
+    "C": "a fritadeira a ar, sendo cerca de 6 vezes maior que o consumo do fogão a gás.",
+    "D": "a fritadeira a ar, sendo cerca de 2 vezes maior que o consumo do fogão a gás."
+   },
+   "observacoes": "A equação de combustão aparece no caderno sem balanceamento do O₂ (sem coeficiente), exatamente como transcrita."
+  },
+  {
+   "numero": 57,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“O que é então o verossímil? Para encurtar: tudo aquilo em que a confiança é presumida. Por exemplo, os juízes nem sempre são independentes, os médicos nem sempre capazes, os oradores nem sempre sinceros. Mas presume-se que o sejam; e, se alguém afirmar o contrário, cabe-lhe o ônus da prova. Sem esse tipo de presunção, a vida seria impossível; e é a própria vida que rejeita o ceticismo.”\n\n(Olivier Reboul, *Introdução à retórica*. São Paulo: Martins Fontes, 1998, p. 97-98.)\n\nConsiderando o segundo “Sermão da Quarta-feira de Cinza” (1673), de Antonio Vieira, é correto afirmar que a presunção de confiança por parte do auditório cristão do século XVII decorre da",
+   "alternativas": {
+    "A": "habilidade política do pregador.",
+    "B": "atenção disciplinada dos ouvintes.",
+    "C": "crença na salvação e na danação eternas.",
+    "D": "defesa institucional da Igreja Católica feita pelo clero."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 58,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Ao descrever a rotina do protagonista Raimundo Silva, o narrador da *História do Cerco de Lisboa* afirma que só restaram fragmentos dos sonhos noturnos, “imagens insensatas aonde a luz não chega, indevassáveis até para os narradores, que as pessoas mal informadas acreditam terem todos os direitos e disporem de todas as chaves.”\n\n(José Saramago, *História do Cerco de Lisboa*. São Paulo: Companhia das Letras, 1989, p.122.)\n\nCom base nesse excerto e relacionando-o ao conjunto do romance, é correto afirmar que o narrador é",
+   "alternativas": {
+    "A": "polifônico, pois, ao considerar todos os pontos de vista das personagens, relativiza a visão de mundo e respeita a privacidade delas.",
+    "B": "observador, pois dissimula sua avaliação política da realidade ao se mostrar empático ao mundo das personagens.",
+    "C": "protagonista, pois, ao fazer parte da própria narrativa, assemelha-se às demais personagens e não pode duvidar dos protocolos necessários para contar a história de Portugal.",
+    "D": "onisciente, pois simula ser tolerante com a pluralidade de vozes narrativas, mas é a singularidade de seu modo de narrar que produz a coesão e a autonomia da narração."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 59,
+   "materia": "literatura",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "As palavras organizadas comunicam sempre alguma coisa, que nos toca porque obedece a certa ordem. Quando recebemos o impacto de uma produção literária, oral ou escrita, ele é devido à fusão inextricável da mensagem com a sua organização. Em palavras usuais: o conteúdo de uma obra literária só atua por causa da forma.\n\n(Adaptado de Antonio Candido, “O direito à literatura”, em *Vários escritos*. São Paulo: Ouro sobre azul e Duas Cidades, 2004, p.178.)\n\n![Capa e contracapa do CD Sobrevivendo no inferno, do grupo Racionais Mc’s, com uma cruz, a lista de faixas e trechos do Salmo 23](fig:p18-f2)\n\nA obra *Sobrevivendo no inferno* do grupo Racionais Mc’s é composta pelas canções e pelo projeto editorial da capa e contracapa do CD. Nesse projeto editorial, encontram-se elementos visuais e verbais que estabelecem um jogo de formas e sentidos. Com base na afirmação de Antonio Candido, é correto afirmar que a organização desses elementos",
+   "alternativas": {
+    "A": "produz uma simetria entre som e sentido, sendo que tal simetria indica que os símbolos religiosos são uma resposta à violência.",
+    "B": "configura um sistema de oposições, uma vez que imagens e palavras estabelecem tensões materiais e espirituais, constitutivas do sentido das canções.",
+    "C": "configura uma sintaxe poética de ordem espiritual. Essa sintaxe espelha o caos e as injustiças vividos na periferia das grandes cidades.",
+    "D": "produz uma lógica poética racional. Essa lógica se explicita na vitória do crime sobre a visão de mundo presente nos versículos bíblicos transcritos."
+   },
+   "observacoes": "A capa do CD é figura recortada; a imagem contém o texto impresso na capa (trechos do Salmo 23 e lista de faixas)."
+  },
+  {
+   "numero": 60,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No conto “O espelho”, de Machado de Assis, o esboço de uma nova teoria sobre a dupla natureza da alma humana é apresentado por Jacobina. A personagem narra a situação em que se viu sozinha na casa da tia Marcolina.\n\n“As horas batiam de século a século no velho relógio da sala, cuja pêndula, *tic-tac, tic-tac*, feria-me a alma interior como um piparote contínuo da eternidade.”\n\nConsiderando os indicadores da passagem do tempo na citação, é correto afirmar que",
+   "alternativas": {
+    "A": "o movimento oscilante do pêndulo do relógio expressa a duplicidade da alma interior.",
+    "B": "o som do velho relógio da sala materializa acusticamente a longevidade da alma interior.",
+    "C": "a sonoridade repetitiva do pêndulo intensifica as aflições da alma interior.",
+    "D": "o contínuo batimento das horas sugere o vigor da alma interior."
+   },
+   "observacoes": ""
+  }
+ ]
+}
