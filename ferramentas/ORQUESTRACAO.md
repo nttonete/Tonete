@@ -1,6 +1,6 @@
 # Como tocar a produção do banco (roteiro de retomada)
 
-A dona do projeto autorizou seguir até a conclusão sem pedir licença a cada passo, inclusive voltando sozinho quando o limite de uso renovar.
+Quem cuida do projeto autorizou seguir até a conclusão sem pedir licença a cada passo, inclusive voltando sozinho quando o limite de uso renovar.
 
 ## Ao retomar
 
@@ -26,4 +26,4 @@ Os agentes falham com "You've hit your session limit · resets HH:MM". Agende a 
 
 ## Ao concluir
 
-Rodar `node testes/navegador.js` (com `PLAYWRIGHT_PATH=$(npm root -g)/playwright`), atualizar a prévia (Artifact `pagina.html`, mesma URL) e escrever o relatório final para a dona: números, questões em atenção e o que depende dela (discursivas, nome, venda).
+Rodar `node testes/navegador.js` (com `PLAYWRIGHT_PATH=$(npm root -g)/playwright`), atualizar a prévia (Artifact `pagina.html`, mesma URL) e escrever o relatório final: números, questões em atenção e o que depende dela (discursivas, nome, venda).
