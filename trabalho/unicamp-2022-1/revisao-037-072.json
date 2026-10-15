@@ -1,0 +1,366 @@
+{
+ "edicao": "unicamp-2022-1",
+ "intervalo": [
+  37,
+  72
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 49,
+   "materia": "historia",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "![Afresco O triunfo da morte, de Giacomo Borlone de Buschis: três esqueletos, o do centro com coroa e manto, de pé sobre um sarcófago aberto, cercados por muitas figuras humanas em trajes de época](fig:p18-f1)\n\nGiacomo Borlone de Buschis, *O triunfo da morte a reunião dos três vivos e dos três mortos*. Parte superior de afresco na cidade de Clusone (Itália), século XV.\n\nNa Europa medieval cristã, prevalecia a ideia de que a morte era a transição para uma vida espiritual plena. Os ritos fúnebres buscavam assegurar uma passagem organizada para esse outro plano e evita-se mostrar o processo de decomposição dos corpos. A chegada da peste negra rompeu com essa concepção. De acordo com a historiadora Juliana Schmitt, a doença deixava marcas no corpo, as pessoas morriam de repente, algumas em locais públicos. A ideia apaziguadora da morte, na concepção cristã, foi substituída pela ideia de morte caótica, causada pela peste. As imagens cotidianas relacionadas ao surto da doença passaram a ser reapresentadas no campo das imagens e na literatura, no que hoje se conhece como “estética macabra”. O que caracteriza as obras macabras é a ênfase dada aos processos de decomposição do corpo. A estética é anterior ao período medieval, mas foi impulsionada pela peste negra.\n\n(Adaptado de Christina Queiroz, Pandemia como alegoria. *Revista Pesquisa Fapesp*. Edição 294. ago. 2020.)\n\nCom base na imagem e no excerto, assinale a alternativa correta:",
+   "alternativas": {
+    "A": "A peste negra, enfrentada pela Europa do século XIV, afetou as representações da morte nas artes visuais, propondo reflexões sobre o potencial das ciências modernas para a resolução da peste à época.",
+    "B": "A estética do macabro, criada na Idade Média, é acionada pelas artes visuais como elemento valorizador da vida, gerando a negação dos contextos sanitários marcados pela peste e pela morte.",
+    "C": "A estética do macabro declinou no período medieval, ficando restrita a um ambiente religioso, católico e temente ao juízo final, como apresenta a obra através das figuras dos reis e das autoridades religiosas.",
+    "D": "A peste negra tornou-se uma referência presente na estética do macabro, que faz alusão a caveiras e cadáveres entre os vivos, compondo um ambiente festivo e aterrador."
+   }
+  },
+  {
+   "numero": 61,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir mostra a temperatura da tigela de uma panela de arroz elétrica em função do tempo de cozimento. Ligando-se a panela, uma resistência elétrica aumenta a temperatura da tigela contendo <u>arroz e água</u> até que a água entre em ebulição. Depois que toda a água é consumida — por evaporação e por absorção pelo arroz —, a temperatura da tigela volta a subir, o que é detectado por um sensor, e a panela é então desligada. A potência elétrica dissipada pela resistência elétrica, na forma de calor, é $P = 400\\ \\text{W}$, constante durante todo o cozimento.\n\nQuanto vale a energia elétrica dissipada desde o início do processo até que toda a água seja consumida?\n\n![Gráfico da temperatura da tigela (em ºC, de 20 a 120) em função do tempo (em minutos, de 0 a 35)](fig:p22-c2)",
+   "alternativas": {
+    "A": "13,3 kJ.",
+    "B": "240 kJ.",
+    "C": "720 kJ.",
+    "D": "2000 kJ."
+   }
+  }
+ ],
+ "complementos": {
+  "37": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Primeiro, calcula-se quantos quilômetros de carro equivalem a um cartucho: 4000 folhas correspondem a $\\frac{4000}{120} \\times 16 \\approx 533\\ \\text{km}$.\n\nCom o limite europeu de 95 g de $\\text{CO}_2$ por km: $533 \\times 95 \\approx 50\\,700\\ \\text{g} \\approx 50\\ \\text{kg}$ de $\\text{CO}_2$.\n\nPara comparar com a massa de gasolina, use a combustão completa: $\\text{C}_8\\text{H}_{18} + \\frac{25}{2}\\,\\text{O}_2 \\rightarrow 8\\,\\text{CO}_2 + 9\\,\\text{H}_2\\text{O}$. Cada 114 g de octano gera $8 \\times 44 = 352$ g de $\\text{CO}_2$, cerca de 3 vezes mais. Isso acontece porque o $\\text{CO}_2$ incorpora o oxigênio do ar.\n\nLogo, a emissão evitada é de cerca de 50 kg de $\\text{CO}_2$, massa maior que a da gasolina queimada.\n\n**Resposta: D**"
+  },
+  "38": {
+   "assunto": "Química ambiental",
+   "resolucao": "O bioetanol de primeira geração vem do açúcar; o de segunda geração vem das fibras. A comparação justa é a produção por hectare (t/ha), não os teores.\n\nFibra: 45 t/ha na cana de energia contra 11 t/ha na cana de açúcar, aumento de cerca de 4 vezes. Açúcar: 14 t/ha contra 11 t/ha, aumento de cerca de 27%.\n\nPortanto, a cana de energia produz mais etanol das duas gerações, e o ganho maior está na segunda geração. As alternativas que olham só os teores se enganam: o teor de açúcar é menor (8% contra 14%), mas a massa de açúcar por hectare é maior.\n\n**Resposta: A**"
+  },
+  "39": {
+   "assunto": "Química ambiental",
+   "resolucao": "É preciso separar quantidade absoluta de percentual.\n\nNo gráfico, a área do aterro sanitário cresce sempre: de menos de 1 milhão de toneladas em 1960 para cerca de 28 milhões em 2018. Logo, a quantidade que vai para aterros aumenta, o que elimina as alternativas A e C.\n\nAo mesmo tempo, as faixas de combustão para gerar energia e de reciclagem, que eram nulas antes de 1980, passam a ocupar uma fatia cada vez maior do total. Assim, os percentuais de reciclagem e queima aumentam. Mesmo assim, o total consumido cresce tanto que a quantidade aterrada continua subindo.\n\n**Resposta: D**"
+  },
+  "40": {
+   "assunto": "Ligações e interações",
+   "resolucao": "Para separar $\\text{O}_2$ de $\\text{N}_2$, o adsorvente precisa reter um gás muito mais que o outro. Isso acontece nos dois materiais.\n\n- CoBTTri (gráfico 1): adsorve muito mais $\\text{O}_2$. Na pressurização, o $\\text{O}_2$ fica retido e o $\\text{N}_2$ sai; o oxigênio só é recolhido na despressurização, quando se dessorve do sólido.\n- NaX (gráfico 2): adsorve mais $\\text{N}_2$. O $\\text{O}_2$ atravessa a coluna e sai já na pressurização; na despressurização sai o nitrogênio.\n\nLogo, qualquer um dos dois materiais serve, e o oxigênio vem da despressurização apenas no caso do CoBTTri.\n\n**Resposta: B**"
+  },
+  "41": {
+   "assunto": "Movimentos da Terra",
+   "resolucao": "Quem cruza a linha internacional de data **para oeste** (da América em direção à Ásia) avança um dia no calendário. Quem cruza **para leste** (da Ásia para a América) volta um dia e repete a data.\n\nUm cruzeiro que atravessa a linha na noite de 30 de dezembro, rumo a oeste, passa direto para 31 de dezembro. Assim, chega ao Réveillon um dia antes do previsto.\n\nAs outras alternativas invertem esse efeito. O navio que vai do Japão para os EUA viaja para leste e repete um dia, não pula. O que vai dos EUA para o Japão viaja para oeste e avança um dia, não atrasa. No sentido leste, o Réveillon fica mais distante.\n\n**Resposta: B**"
+  },
+  "42": {
+   "assunto": "Biomas e vegetação",
+   "resolucao": "A banca anulou esta questão, e o caderno não informa o motivo. Uma razão possível aparece no próprio mapa: a área do Bioma 3 é uma faixa ao sul do Saara (Sahel), com trechos no leste e no sudoeste do continente, e não cobre o grande deserto. Assim, ela não corresponde bem às \"áreas de desertos\" descritas na alternativa C."
+  },
+  "43": {
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "A questão cobra a geografia econômica do Chile, articulando recursos naturais e modelo econômico.\n\nO Deserto do Atacama, no norte, concentra as grandes minas de cobre, principal exportação do país. Os fiordes frios da Patagônia, no sul, abrigam a salmonicultura, em que o Chile é um dos maiores produtores do mundo.\n\nDesde a ditadura de Pinochet, o país adotou um modelo neoliberal, centrado no mercado, com privatizações amplas (previdência, serviços, empresas públicas). As outras alternativas trocam as regiões (cobre na Patagônia, salmão no Atacama), citam bauxita ou carcinicultura, ou descrevem uma economia estatizada.\n\n**Resposta: D**"
+  },
+  "44": {
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "Reprimarização é o aumento do peso dos produtos básicos (commodities agrícolas e minerais) na economia e na pauta de exportações.\n\nNo gráfico, os básicos passam de cerca de 30% em 2005 para quase 50%. Os manufaturados caem de cerca de 55% para menos de 40%, e os semimanufaturados ficam estáveis em torno de 13%.\n\nPortanto, a reprimarização resulta da maior participação das commodities, junto com o declínio dos industrializados. A alternativa A contradiz o gráfico (as commodities crescem). A D erra ao atribuir o processo à estagnação dos semimanufaturados.\n\n**Resposta: C**"
+  },
+  "45": {
+   "assunto": "Urbanização",
+   "resolucao": "No segundo mapa (participação, em %), grande parte da África Subsaariana aparece nas classes mais escuras, de 42% a 96%, e muitos países passam de 60%.\n\nA explicação histórica passa pela forma como o continente se insere na divisão internacional do trabalho. Como exportador de produtos primários, tem urbanização rápida sem industrialização nem emprego formal suficientes, o que alimenta as favelas.\n\nAs demais erram. Na América Latina, a habitação precária continua um problema social grave. China e Índia seguem se urbanizando rapidamente. No Oriente Médio, a renda do petróleo não eliminou as moradias precárias.\n\n**Resposta: A**"
+  },
+  "46": {
+   "assunto": "Geografia do Brasil",
+   "resolucao": "O direito dos quilombolas à propriedade das terras que ocupam foi reconhecido pela primeira vez na Constituição de 1988 (art. 68 do Ato das Disposições Constitucionais Transitórias).\n\nDesde então, a regularização é lenta. Das milhares de comunidades citadas no texto (cerca de 3.500), poucas receberam o título definitivo, e o processo segue em curso. Isso coincide com o texto, que fala em territórios disputados e conflitos.\n\nA Lei de Terras de 1850 fez o contrário: restringiu o acesso à terra à compra, excluindo escravizados e libertos. A alternativa D erra ao dizer que a titulação rural foi finalizada.\n\n**Resposta: B**"
+  },
+  "47": {
+   "assunto": "Geologia e relevo",
+   "resolucao": "A Serra do Mar é uma escarpa de falha, formada por rochas cristalinas antigas (granitos e gnaisses). Sua origem está nos esforços de tração que acompanharam a separação entre América do Sul e África e a abertura do Atlântico.\n\nEsses esforços partiram a crosta em blocos: os soerguidos (*horsts*) formam as serras e as ilhas altas, e os rebaixados (*grabens*) foram ocupados pelo mar. Os perfis mostram isso, com a Ilha de São Sebastião e a Ilha Grande separadas do continente por áreas baixas inundadas.\n\nA alternativa A erra ao falar em basaltos, a B em rochas sedimentares, e a D confunde o processo com a convergência de placas que formou os Andes.\n\n**Resposta: C**"
+  },
+  "48": {
+   "assunto": "Filosofia política",
+   "resolucao": "O texto opõe as duas noções. A soberania é a capacidade do Estado de decidir sobre seu território em nome do interesse público nacional. A governança mede o Estado pela obediência às exigências de organismos internacionais ligados aos interesses comerciais e financeiros globais.\n\nComo o texto diz que uma noção toma o lugar da outra, elas representam lógicas opostas: o interesse público nacional e as exigências da globalização neoliberal.\n\nAs alternativas A e D dizem o contrário, ao tratar os termos como sinônimos ou como algo favorável às soberanias nacionais. A B fala em menor importância das privatizações, o que nada tem a ver com o texto.\n\n**Resposta: C**"
+  },
+  "49": {
+   "assunto": "Idade Média",
+   "resolucao": "O texto explica que a peste negra, no século XIV, rompeu com a imagem cristã da morte serena e impulsionou a \"estética macabra\", que mostra a decomposição dos corpos.\n\nO afresco de Clusone mostra exatamente isso: esqueletos triunfantes, um deles coroado, no meio dos vivos (reis, papas, nobres), numa cena ao mesmo tempo de celebração da morte e de terror.\n\nA alternativa A erra ao falar em ciências modernas resolvendo a peste. A B diz que a estética foi criada na Idade Média, mas o texto afirma que ela é anterior, e também erra ao falar em valorização da vida. A C contradiz o texto: a estética foi impulsionada, e não declinou.\n\n**Resposta: D**"
+  },
+  "50": {
+   "assunto": "Idade Moderna (Europa)",
+   "resolucao": "O texto desmonta um mito. Desde a Antiguidade, os gregos sabiam que a Terra era redonda. A ideia de que, na época dos Descobrimentos, se acreditava numa Terra plana foi difundida por Irving e Letronne entre o fim do século XIX e o início do XX, aplicada à história de Colombo e de D. João II, e \"prevaleceu\", ou seja, ainda encontra público.\n\nA alternativa A resume isso corretamente. A B subordina os Descobrimentos à Revolução Científica do século XVII, justamente a visão que o autor critica. A C diz que a mentalidade empírica \"reafirma\" a Terra plana, o que é o oposto. A D atribui pouco significado histórico aos Descobrimentos, o que o texto não sustenta.\n\n**Resposta: A**"
+  },
+  "51": {
+   "assunto": "História da África",
+   "resolucao": "Nzinga resistiu à conquista portuguesa combinando guerra e diplomacia. O texto cita competência militar, diplomacia e uso dos conflitos entre potências europeias.\n\nHistoricamente, ela se aliou aos holandeses quando estes ocuparam Luanda (1641-1648), buscou alianças regionais como a do Congo, controlou rotas e mercados do tráfico de escravizados e atraiu chefes (sobas) para sua causa.\n\nAs demais erram. Ela não expulsou os portugueses de Angola nem aboliu o tráfico, do qual também participava. A D é falsa, pois o texto destaca seus feitos e seu longo reinado; e Elizabeth I também teve grande sucesso político.\n\n**Resposta: A**"
+  },
+  "52": {
+   "assunto": "História da América",
+   "resolucao": "Paine parte da distinção entre sociedade (uma bênção) e governo (um mal necessário, ou até intolerável quando mau). Daí critica a monarquia como absurda.\n\nO panfleto *Senso comum* (1776) defendia a separação das colônias inglesas e a república. Foi lido em massa e se tornou uma das bases ideológicas da independência dos Estados Unidos.\n\nA alternativa A erra duas vezes: Paine chama o governo, e não a monarquia, de mal necessário, e foi um defensor da Revolução Americana, não um opositor. As alternativas C e D contradizem o texto.\n\n**Resposta: B**"
+  },
+  "53": {
+   "assunto": "Brasil Império",
+   "resolucao": "Segundo o texto, as memórias, corografias e roteiros produzidos pelos engenheiros da Sociedade Real Marítima e Militar serviram à diplomacia do Império brasileiro nos tribunais internacionais e às expedições de conquista territorial. Isso ajuda a explicar a preservação da unidade territorial.\n\nPortanto, essa documentação foi usada na formação do Estado e na delimitação do território nacional.\n\nA alternativa A contradiz o texto, que opõe a unidade brasileira à fragmentação hispano-americana. A B fala em livros didáticos sem nenhum apoio no texto, e a D nega o diálogo com a engenharia militar que o texto descreve.\n\n**Resposta: C**"
+  },
+  "54": {
+   "assunto": "Primeira República",
+   "resolucao": "Em 1922, a República usou a Exposição do Centenário para mostrar um Brasil moderno, com reformas urbanas no Rio de Janeiro e, pela primeira vez, documentários financiados pelo Estado.\n\nAssociar o cinema, uma tecnologia nova, à exposição mostra a intenção de propaganda de um país moderno e civilizado.\n\nA alternativa A fala em exibir de modo tradicional um país ibérico. A D liga o evento à monarquia, que já não existia desde 1889. A B não tem relação com o texto.\n\n**Resposta: C**"
+  },
+  "55": {
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "O texto mostra que o marco inicial da \"História Contemporânea\" muda de país para país: Revolução Francesa (França, península Ibérica, Brasil), II Guerra (Alemanha, Inglaterra), 1918 (Rússia), Congresso de Viena (Itália). E afirma que esses marcos canônicos são em geral de natureza política e variam \"ao gosto das experiências nacionais\".\n\nA alternativa C repete essa ideia.\n\nA A diz que o recorte é \"natural e consensual\", o oposto do texto. A B toma as guerras mundiais como marco geral, o que vale só para alguns países. A D propõe balizas universais, o que o texto não defende.\n\n**Resposta: C**"
+  },
+  "56": {
+   "assunto": "Ditadura militar",
+   "resolucao": "O texto diz que os movimentos LGBTQIA+ surgiram durante a ditadura civil-militar e que a busca por visibilidade, com acesso aos meios de comunicação e à livre expressão, era vista como essencial para conquistar a cidadania.\n\nA alternativa B traduz isso: desde a década de 1970, as mídias são ferramenta de cidadania, e a visibilidade é uma estratégia do movimento.\n\nA A diz que os movimentos foram silenciados e só voltaram com a democracia, mas o texto afirma que eles eclodiram justamente como resistência em plena ditadura. A C usa o mito da \"democracia racial\". A D inverte a pauta da visibilidade.\n\n**Resposta: B**"
+  },
+  "57": {
+   "assunto": "Cinemática",
+   "resolucao": "Basta comparar a distância percorrida em uma hora com o comprimento de uma volta.\n\nUma volta ao redor da Terra, rente à superfície: $C = 2\\pi R = 2 \\times 3 \\times 6{,}0 \\times 10^{3} = 3{,}6 \\times 10^{4}\\ \\text{km}$.\n\nEm 1 h, a sonda percorre $5 \\times 10^{5}\\ \\text{km}$.\n\nNúmero de voltas: $\\frac{5 \\times 10^{5}}{3{,}6 \\times 10^{4}} \\approx 13{,}9 \\approx 14$.\n\n**Resposta: C**"
+  },
+  "58": {
+   "assunto": "Gravitação",
+   "resolucao": "A aceleração gravitacional é a força por unidade de massa: $a = \\frac{F_{\\text{Sol}}}{m} = \\frac{GM}{r^2}$. A massa da sonda não importa.\n\nConverta a distância para metros: $r = 1{,}0 \\times 10^{7}\\ \\text{km} = 1{,}0 \\times 10^{10}\\ \\text{m}$.\n\n$a = \\frac{6{,}7 \\times 10^{-11} \\times 2{,}0 \\times 10^{30}}{(1{,}0 \\times 10^{10})^2} = \\frac{13{,}4 \\times 10^{19}}{10^{20}} = 1{,}34\\ \\text{m/s}^2$.\n\nQuem esquece de converter km em m chega a valores absurdos, como os das outras alternativas.\n\n**Resposta: B**"
+  },
+  "59": {
+   "assunto": "Gravitação",
+   "resolucao": "Na órbita circular, a aceleração gravitacional é a centrípeta: $g_{\\text{orb}} = \\frac{v^2}{r}$, logo $r = \\frac{v^2}{g_{\\text{orb}}}$.\n\nO período é $T = \\frac{2\\pi r}{v} = \\frac{2\\pi v}{g_{\\text{orb}}}$.\n\n$T = \\frac{2 \\times 3 \\times 1600}{1{,}4} = \\frac{9600}{1{,}4} \\approx 6{,}9 \\times 10^{3}\\ \\text{s}$.\n\nComo 1 h = 3600 s, $T \\approx 1{,}9\\ \\text{h} \\approx 2{,}0\\ \\text{h}$.\n\n**Resposta: B**"
+  },
+  "60": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "Com $g$ praticamente constante, a variação de energia potencial gravitacional é $\\Delta E_p = m\\,g\\,h$.\n\nConverta a altitude: $h = 110\\ \\text{km} = 1{,}1 \\times 10^{5}\\ \\text{m}$.\n\n$\\Delta E_p = 2500 \\times 1{,}4 \\times 1{,}1 \\times 10^{5} = 3500 \\times 1{,}1 \\times 10^{5} = 3{,}85 \\times 10^{8}\\ \\text{J}$.\n\nA alternativa A resulta de usar $h$ em quilômetros sem converter.\n\n**Resposta: C**"
+  },
+  "61": {
+   "assunto": "Termologia",
+   "resolucao": "A água acaba quando termina o patamar de 100 °C, porque depois disso a temperatura da tigela volta a subir. No gráfico, isso acontece em $t = 30$ min.\n\nCom potência constante, a energia é $E = P \\cdot \\Delta t$, com o tempo em segundos: $\\Delta t = 30 \\times 60 = 1800\\ \\text{s}$.\n\n$E = 400 \\times 1800 = 720\\,000\\ \\text{J} = 720\\ \\text{kJ}$.\n\nA alternativa B (240 kJ) corresponde a apenas 10 min, o tempo de aquecimento até a fervura.\n\n**Resposta: C**"
+  },
+  "62": {
+   "assunto": "Termologia",
+   "resolucao": "Converta a pressão: $p = 3{,}0\\ \\text{atm} = 300\\ \\text{kPa}$.\n\nNo gráfico, a curva passa por 300 kPa em cerca de 133 °C. Nessa pressão, temperaturas abaixo de 133 °C correspondem à fase líquida (à esquerda da curva) e temperaturas acima correspondem ao vapor (à direita).\n\nSe toda a água está como vapor a 3,0 atm, sua temperatura precisa ser maior que 133 °C. O valor de 100 °C vale só para a pressão de 1 atm.\n\n**Resposta: D**"
+  },
+  "63": {
+   "assunto": "Eletrostática",
+   "resolucao": "Num campo elétrico uniforme, a diferença de potencial entre duas superfícies perpendiculares ao campo, separadas por $d$ na direção do campo, é $U = E\\,d$.\n\nCom $d = 5{,}0 \\times 10^{-6}\\ \\text{m}$ (indicado na figura):\n\n$U = 4{,}0 \\times 10^{-2} \\times 5{,}0 \\times 10^{-6} = 20 \\times 10^{-8} = 2{,}0 \\times 10^{-7}\\ \\text{V}$.\n\n**Resposta: B**"
+  },
+  "64": {
+   "assunto": "Óptica",
+   "resolucao": "A água é mais refringente que o ar: seu índice de refração é maior para todas as cores. Pela lei de Snell, $n_{\\text{ar}}\\,\\text{sen}\\,\\theta_{\\text{ar}} = n_{\\text{água}}\\,\\text{sen}\\,\\theta_{\\text{água}}$. Ao entrar na gota, a luz se aproxima da normal.\n\nO índice da água varia com a cor (dispersão). Quanto maior o índice para uma cor, menor o ângulo de refração, isto é, mais o raio se aproxima da normal. É essa separação que decompõe a luz branca e forma o arco-íris.\n\nAs alternativas A e B erram ao dizer que a água tem índice menor que o ar. A D erra ao dizer que os raios se afastam da normal.\n\n**Resposta: C**"
+  },
+  "65": {
+   "assunto": "Bioquímica",
+   "resolucao": "Sais minerais são substâncias inorgânicas indispensáveis ao metabolismo. Muitos atuam como cofatores de enzimas: o magnésio e o potássio participam das reações de síntese de glicogênio e de proteínas, o cobalto faz parte da vitamina $\\text{B}_{12}$ e o enxofre faz parte de aminoácidos e de vitaminas.\n\nAs outras alternativas têm erros conceituais. Proteínas são formadas por aminoácidos, que não vêm da hidrólise de carboidratos (A). Lipídios não contêm desoxirribose, que é o açúcar do DNA (B). Vitaminas não são fonte de energia nem fornecem glicídios (D).\n\n**Resposta: C**"
+  },
+  "66": {
+   "assunto": "Botânica",
+   "resolucao": "Pelo modelo ABC: sépalas = A; pétalas = A + B; estames = B + C; carpelos = C.\n\nA Flor I tem apenas sépalas (verticilo externo, preto) e pétalas (cinza-escuro), sem estames nem gineceu. É formada só pelo perianto: genes A e B ativos.\n\nA Flor II tem sépalas e o gineceu (carpelo, cinza-claro), sem pétalas nem estames. Sépalas exigem A, e carpelos exigem C sem B. Genes ativos: A e C.\n\n**Resposta: C**"
+  },
+  "67": {
+   "assunto": "Zoologia",
+   "resolucao": "Mexilhões são moluscos bivalves, com concha de duas valvas, e não crustáceos. Vivem fixos no fundo ou em rochas (bentônicos) e se alimentam filtrando a água.\n\nPor filtrarem grandes volumes de água, retêm metais pesados como arsênico e chumbo, sem conseguir eliminá-los. Esses metais se acumulam nos tecidos e nas conchas (bioacumulação), o que explica a intoxicação da artista ao manipular as conchas.\n\nAs alternativas A e C erram ao chamá-los de predadores ativos e ao dizer que excretam os metais. A D erra o grupo animal.\n\n**Resposta: B**"
+  },
+  "68": {
+   "assunto": "Ecologia",
+   "resolucao": "O Pantanal fica na bacia do rio Paraguai. As cheias dependem das chuvas nas cabeceiras dos rios dessa bacia, que transbordam sobre a planície. O Cuiabá é apenas um dos afluentes.\n\nA vegetação do Pantanal mistura formações de floresta, cerrado e campos inundáveis; a caatinga é típica do semiárido nordestino.\n\nProdutividade primária é a conversão de energia luminosa em biomassa pelos produtores (fotossíntese), que sustenta os demais níveis tróficos. A produtividade secundária é a dos consumidores e não converte luz solar.\n\n**Resposta: A**"
+  },
+  "69": {
+   "assunto": "Evolução",
+   "resolucao": "Grupos irmãos são os ramos que partem do mesmo nó, ou seja, compartilham o ancestral comum mais próximo.\n\nNo cladograma, cada vírus humano do grupo SARS/MERS tem como irmão um vírus de morcego. O SARS-CoV-2 é irmão do RaTG13, de morcego. O SARS-CoV é irmão de \"Outros Beta-CoV\" de morcego. O MERS-CoV também é irmão de \"Outros Beta-CoV\" de morcego.\n\nOs vírus de artiodáctilos aparecem associados a HCoV-OC43 e HCoV-4408, e não aos três vírus da alternativa D. Além disso, o cladograma não mostra hospedeiros intermediários, informação que as alternativas A e B introduzem sem base.\n\n**Resposta: D**"
+  },
+  "70": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Pelas reações, a luz só é emitida na segunda etapa: a luciferina reduzida ($\\text{LH}_2$) reage com $\\text{O}_2$, catalisada pela luciferase, e forma oxiluciferina. Portanto, a emissão depende da presença de $\\text{LH}_2$ (e de oxigênio).\n\nSobre as estruturas: hifas são os filamentos do fungo, com parede de quitina, que crescem no substrato e absorvem nutrientes. A alternativa C está correta.\n\nAs demais erram. O corpo de frutificação é estrutura reprodutiva, não de fixação (A). Micélio é o conjunto de hifas, e a luz não sai na redução da luciferina (B). A oxiluciferina é o produto final, e não é ela que se oxida (D).\n\n**Resposta: C**"
+  },
+  "71": {
+   "assunto": "Biotecnologia",
+   "resolucao": "Nas vacinas de RNA mensageiro (como a da Pfizer/BioNTech), o RNAm sintético entra nas células e serve de molde para produzir a proteína *spike*. O sistema imune reconhece essa proteína como antígeno e produz anticorpos e células de memória.\n\nAs outras alternativas confundem conceitos. Antígeno é o que estimula o sistema imune, e não o que ele produz (A e C). As vacinas de adenovírus usam vetor não replicante (B). As vacinas de vírus inteiro usam o vírus inativado, e não uma partícula ativa (C).\n\n**Resposta: D**"
+  },
+  "72": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "A glândula pineal (epífise) é uma glândula endócrina. Ela secreta melatonina, sobretudo no escuro, à noite.\n\nA melatonina regula o ciclo circadiano (sono e vigília) e participa da regulação da reprodução, influenciando a atividade das gônadas.\n\nA ocitocina é produzida no hipotálamo e liberada pela neuro-hipófise, e não pela pineal. A secreção da tireoide e a homeostase hídrica dependem de outros hormônios (TSH e ADH).\n\n**Resposta: A**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 41,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": "Questão anulada pela banca; conferida no caderno (p. 13 da prova). Texto, mapas e alternativas conferidos."
+  },
+  {
+   "numero": 43,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 45,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 49,
+   "status": "corrigida",
+   "notas": "Descrição da figura imprecisa: dizia 'esqueletos coroados', mas só o esqueleto do centro tem coroa. Descrição refeita sem interpretar a cena."
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 54,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 59,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 60,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 61,
+   "status": "corrigida",
+   "notas": "A descrição da figura lia o gráfico para o aluno (patamar de 100 °C até 30 minutos), entregando o dado que decide a resposta. Trocada por descrição neutra (grandezas e escalas dos eixos)."
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}

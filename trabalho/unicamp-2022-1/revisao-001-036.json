@@ -135,6 +135,78 @@
   "18": {
    "assunto": "Aritmética e porcentagem",
    "resolucao": "Com $R_0 = 2$: $I = \\frac{100(2 - 1)}{2} = 50\\%$ da população precisa estar imune.\n\nComo só 80% dos vacinados ficam imunes, a fração vacinada $v$ deve satisfazer $0{,}8\\,v = 50\\%$, ou seja, $v = \\frac{50\\%}{0{,}8} = 62{,}5\\%$.\n\nEsse valor está entre 56% e 65%.\n\n**Resposta: B**"
+  },
+  "19": {
+   "assunto": "Geometria plana",
+   "resolucao": "Em um quadrilátero com círculo inscrito, as somas dos lados opostos são iguais (as tangentes de um mesmo vértice têm o mesmo comprimento): $AB + CD = BC + DA$.\n\nCom a PA $AB = x - r$, $BC = x$, $CD = x + r$: $2x = x + 3$, logo $BC = 3$. Restam A (1, 3, 5) e B (2, 3, 4).\n\nSeja $TA = t$ (inteiro). Então a tangente por $D$ vale $3 - t$, e $0 < t < 3$, isto é, $t = 1$ ou $2$. A tangente por $B$ vale $AB - t$, que precisa ser positiva: com $AB = 1$ isso é impossível, mas com $AB = 2$ e $t = 1$ temos tangentes $1, 1, 2, 2$, que dão $AB = 2$, $BC = 3$, $CD = 4$, $DA = 3$.\n\n**Resposta: B**"
+  },
+  "20": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "$A^T = \\begin{pmatrix} 1 & 3 \\\\ k & k^2 \\end{pmatrix}$, então $B = \\begin{pmatrix} 2 & k + 3 \\\\ k + 3 & 2k^2 \\end{pmatrix}$ e $\\det B = 4k^2 - (k + 3)^2$.\n\n$k = 0$: $\\det B = -9 \\neq 0$, solução única (A falsa).\n\n$k = -1$: $B = \\begin{pmatrix} 2 & 2 \\\\ 2 & 2 \\end{pmatrix}$, e o sistema fica $2x + 2y = 2021$ e $2x + 2y = 2022$, contraditório: não tem solução (C certa, B falsa).\n\n$k = 3$: $\\det B = 36 - 36 = 0$, mas as equações $2x + 6y = 2021$ e $6x + 18y = 2022$ também são incompatíveis ($3 \\cdot 2021 \\neq 2022$), então D é falsa.\n\n**Resposta: C**"
+  },
+  "21": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Em cada partida, o empate acontece quando o segundo jogador repete o símbolo do primeiro: probabilidade $\\frac{1}{3}$. A chance de não empatar é $\\frac{2}{3}$.\n\nUse o evento complementar (nenhum empate nas três partidas independentes): $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$.\n\nLogo, $P(\\text{pelo menos um empate}) = 1 - \\frac{8}{27} = \\frac{19}{27}$.\n\n**Resposta: D**"
+  },
+  "22": {
+   "assunto": "Funções",
+   "resolucao": "Interceptar uma única vez significa que a equação da interseção tem discriminante zero.\n\nCom $y = 2x + 1$: $-x^2 + (b - 2)x + (c - 1) = 0$, então $(b - 2)^2 + 4(c - 1) = 0$.\n\nCom $y = 1 - \\frac{x}{2}$: $-x^2 + \\left(b + \\frac{1}{2}\\right)x + (c - 1) = 0$, então $\\left(b + \\frac{1}{2}\\right)^2 + 4(c - 1) = 0$.\n\nIgualando: $(b - 2)^2 = \\left(b + \\frac{1}{2}\\right)^2$, o que dá $b - 2 = -\\left(b + \\frac{1}{2}\\right)$, isto é, $b = \\frac{3}{4}$. As raízes $p$ e $q$ de $-x^2 + bx + c = 0$ têm soma $p + q = b = \\frac{3}{4}$.\n\n**Resposta: B**"
+  },
+  "23": {
+   "assunto": "Polinômios e equações",
+   "resolucao": "Se $p(x)$ é divisível por $2x^2 - x + 4$, o quociente é de grau 1 com coeficiente líder 1: $p(x) = (2x^2 - x + 4)(x + m)$.\n\nExpandindo: $2x^3 + (2m - 1)x^2 + (4 - m)x + 4m$. Logo $a = 2m - 1$, $b = 4 - m$ e $c = 4m$.\n\n$c + 2b - a = 4m + 8 - 2m - 2m + 1 = 9$, qualquer que seja $m$.\n\n**Resposta: A**"
+  },
+  "24": {
+   "assunto": "Trigonometria",
+   "resolucao": "A largura $L$ é a distância horizontal entre o canto da popa (na margem esquerda) e a proa (na margem direita). Desse canto, andamos 30 m pela popa até o eixo do navio e depois 400 m ao longo do eixo, que é perpendicular à popa.\n\nA popa faz ângulo $\\alpha$ com a margem, então sua projeção horizontal é $30\\operatorname{sen}\\alpha$; o eixo faz ângulo $\\alpha$ com a horizontal, e sua projeção é $400\\cos\\alpha$. Assim, $L = 400\\cos\\alpha + 30\\operatorname{sen}\\alpha$.\n\nCom $\\alpha = 67{,}5^\\circ$ e $2\\alpha = 135^\\circ$: $\\cos^2\\alpha = \\frac{1 + \\cos 135^\\circ}{2} = \\frac{2 - \\sqrt{2}}{4}$, logo $\\cos\\alpha = \\frac{\\sqrt{2 - \\sqrt{2}}}{2}$; do mesmo modo, $\\operatorname{sen}\\alpha = \\frac{\\sqrt{2 + \\sqrt{2}}}{2}$.\n\n$L = 200\\sqrt{2 - \\sqrt{2}} + 15\\sqrt{2 + \\sqrt{2}} \\approx 153{,}1 + 27{,}7 \\approx 180{,}8$ m, menos que os 200 m do canal, como esperado.\n\n**Resposta: C**"
+  },
+  "25": {
+   "assunto": "Classes de palavras",
+   "resolucao": "Nos exemplos do \"Dicionário Informal\", \"cringe\" aparece como adjetivo: \"foi muito *cringe*\", \"situação *cringe*\", \"de tão *cringe*\" (aceita intensificador e qualifica um substantivo).\n\nNo \"Cambridge Dictionary\", *cringe* é verbo (\"to feel very embarrassed\"; \"I *cringed*\"). O sentido de constrangimento, de vergonha, é o mesmo nas duas línguas; o que muda é a classe gramatical.\n\nPor isso C está errada (a classe não é a mesma) e B não se aplica, pois em português a palavra não é verbo e não tem tempo verbal.\n\n**Resposta: A**"
+  },
+  "26": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Budhrani não contesta a amostra; ao contrário, parte dela (\"If, assuming this survey is done with a truly representative sample...\"). Ele questiona a conclusão de que artista seria o trabalho menos essencial.\n\nEm seguida, \"desafia\" o país a apagar o Netflix, cancelar o Spotify, vender a TV, parar de ouvir música e de ver vídeos. Essas ações irônicas mostram o quanto todos dependem do trabalho dos artistas, ou seja, ratificam a relevância da profissão. A alternativa A erra ao dizer que ele critica a representatividade; C erra ao dizer que as medidas depreciariam a arte.\n\n**Resposta: D**"
+  },
+  "27": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Phoenix fala de \"an egocentric worldview: the belief that we’re the center of the universe\" (a arrogância humana) e a ilustra com a exploração das vacas: inseminação artificial, o bezerro tirado da mãe e o leite usado \"in our coffee and our cereal\".\n\nIsso corresponde à alternativa B. A inverte a ordem do discurso, que começa pelas desigualdades sociais e só depois chega à natureza; C fala de trabalhadores rurais, que não são citados; D reduz o discurso a racismo e gênero, quando o foco é a ideia de dominação em geral, inclusive sobre outras espécies.\n\n**Resposta: B**"
+  },
+  "28": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto diz que, naquela noite, a comunidade LGBTQIA+ \"decided to fight back\" contra a batida policial e que, embora o movimento \"didn't begin at Stonewall\", a revolta \"did mark a turning point\".\n\nUm \"ponto de virada\" provocado pela recusa em aceitar a ação da polícia é o que afirma B. A erra ao dizer que foi o início da luta; C fala em grupos \"homofóbicos\", quando os grupos citados eram mais radicais na defesa dos direitos; D troca os papéis, pois os bares eram operados pela máfia, que pagava policiais.\n\n**Resposta: B**"
+  },
+  "29": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O título pergunta por que o Congresso ainda discute a hidroxicloroquina, se não há evidência de que ela funcione. O autor responde ao descrever a audiência: o senador e as testemunhas não mostraram interesse pelas evidências, e \"Intuition and the personal experiences of individual doctors were the guiding principles\"; Trump disse \"I feel good about it\".\n\nOu seja, a discussão política se apoia em impressões subjetivas, não em dados empíricos (D). C contradiz o texto, que afirma não haver evidência de benefício; A e B citam especialistas confusos e a grande mídia, que o texto não menciona.\n\n**Resposta: D**"
+  },
+  "30": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "No trecho, cada figo é um futuro possível (marido e filhos, poeta, professora...). A narradora quer todos, mas escolher um significa perder os outros; enquanto ela hesita, os figos apodrecem e caem.\n\nA reflexão central é a paralisia diante da escolha entre caminhos. A imagem C, de uma mulher parada com a mala numa bifurcação da estrada, representa essa indecisão. As imagens A (família), B (escritório) e D (escrita) mostram, cada uma, só um dos futuros possíveis.\n\n**Resposta: C**"
+  },
+  "31": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Pelo texto, *gaslighting* é o abuso psicológico em que alguém faz a outra pessoa duvidar da própria sanidade, da percepção da realidade ou da memória.\n\nNa alternativa A, o homem nega os sentimentos da mulher e a convence de que tudo é \"um exagero meu, uma invenção\", que \"estava na minha cabeça\": é exatamente isso. As outras descrevem práticas diferentes: B é o homem que explica à mulher o que ela já sabe; C, a interrupção constante; D, a apropriação da ideia de uma mulher por um homem.\n\n**Resposta: A**"
+  },
+  "32": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O verso que abre o poema e volta depois diz: \"my body was a TV’d massacre / that had to fit into sound-bites and word limits\". O massacre dos palestinos chega ao mundo pela televisão, reduzido a frases de efeito e a um limite de palavras; daí o verso \"No sound-bite will fix this\".\n\nIsso confirma A. O poema não diz que os bombardeios são motivados por imagens da TV (B), rejeita a ideia de que se ensina ódio às crianças (\"We teach life, sir\"), o que exclui C, e mostra que dominar o inglês e as resoluções da ONU não impediu a violência (D).\n\n**Resposta: A**"
+  },
+  "33": {
+   "assunto": "Química ambiental",
+   "resolucao": "Identifique a função de cada componente no tratamento da água:\n\n$\\text{Ca(OCl)}_2$ (hipoclorito de cálcio): libera cloro ativo, agente antimicrobiano (é o \"cloro livre\" que evita recontaminação). $\\text{KMnO}_4$: agente oxidante. $\\text{Fe}_2(\\text{SO}_4)_3$: coagulante, forma $\\text{Fe(OH)}_3$, que arrasta impurezas. Poliacrilamida: floculante, agrega os flocos (fotos D e E). Argila bentonítica: adsorvente.\n\nA alternativa A traz antimicrobiano, oxidante, floculante e adsorvente, todos presentes. B e D trazem \"microbiano\", o oposto da função do cloro; C e D trazem \"redutor\", mas o permanganato é oxidante.\n\n**Resposta: A**"
+  },
+  "34": {
+   "assunto": "Química ambiental",
+   "resolucao": "Use o texto: o metano vem de *processos* termoquímicos ou biológicos, a partir de *substratos* orgânicos ou inorgânicos.\n\nAs colunas 3 e 4 trazem os processos: metanogênese (feita por micro-organismos) é biológica (3); pirólise e síntese são termoquímicas (4). Então 2 = processos.\n\nAs linhas 5 e 6 trazem os substratos: acetato, álcool, hidrocarbonetos e querogênio são orgânicos (5); $\\text{CO}_2$, $\\text{H}_2$, CO, grafite, carbonatos e água são inorgânicos (6). Então 1 = substratos.\n\nSequência: substratos, processos, biológicos, termoquímicos, orgânicos e inorgânicos.\n\n**Resposta: B**"
+  },
+  "35": {
+   "assunto": "Termoquímica",
+   "resolucao": "Fora da casa, as setas entre gases e partículas são iguais (equilíbrio). Dentro do ambiente climatizado (20-25 °C), no lado A predomina a passagem de partículas para gases; no lado B, a de gases para partículas.\n\nNo lado A, o interior favorece a dessorção e a sublimação; se o interior está mais quente que a rua, é inverno, e esses processos são favorecidos pelo aquecimento, logo são endotérmicos (princípio de Le Chatelier). No lado B, o interior favorece o processo inverso: o interior é mais frio que a rua, ou seja, verão.\n\nPortanto: A = inverno, B = verão, e dessorção e sublimação são endotérmicas (sublimar e dessorver exigem energia para vencer as interações).\n\n**Resposta: A**"
+  },
+  "36": {
+   "assunto": "Equilíbrio químico",
+   "resolucao": "Na tinta (cartucho), o indicador está roxo, em meio básico. No papel, a tinta absorve $\\text{CO}_2$ e água, formando ácido carbônico: o pH abaixa e a cor desaparece.\n\nA forma A tem um anel quinoide conjugado e o grupo carboxilato ($\\text{COO}^-$): é a forma desprotonada e colorida (roxa). A forma B é a lactona, sem essa conjugação: é a forma incolor, que predomina em meio ácido.\n\nNa mudança de roxo para incolor, portanto, o pH abaixa e as moléculas passam da forma A para a forma B.\n\n**Resposta: C**"
   }
  },
  "relatorio": [
