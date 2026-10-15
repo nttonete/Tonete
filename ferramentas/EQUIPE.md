@@ -9,7 +9,7 @@ Situações: **Em uso** (trabalhando agora), **Automático** (roda sozinho por a
 | Quem | Papel |
 |---|---|
 | Marcos | Dono do projeto: decide produto, preço e o que vai ao ar. Aprova as branches do robô de editais e as questões em `atencao` |
-| Jurídico (Nayara ou advogado indicado) | Parecer sobre respostas da banca e prova completa; revisão dos rascunhos em `dados/juridico/`; marca no INPI |
+| Jurídico (advogado indicado) | Parecer sobre respostas da banca e prova completa; revisão dos rascunhos em `dados/juridico/`; marca no INPI |
 | Professores (a contratar) | Revisão pedagógica dos guias das obras; amostra das correções por IA |
 
 ## Coordenação
