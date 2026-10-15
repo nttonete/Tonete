@@ -50,3 +50,4 @@ Escopo: os 45 cadernos com resposta oficial (Unicamp 2017–2026, FUVEST 2023–
 - unicamp-2018-2-d2 (1–9): o transcritor reescreveu uma frase do objetivo da Q1 e deixou de fora o parágrafo introdutório das respostas de História (Q1–Q6). Restaurar o texto oficial.
 - Unicamp 2018–2021: alguns lotes trazem "(2 pontos)" tirado da prova comentada no início das respostas; pela regra, retirar quando não estiver nas respostas esperadas.
 - unicamp-2020-2-cet (1–11): o objetivo das Q1, Q2 e Q4 veio com listas de programa e comentários dos revisores; deixar só o objetivo.
+- Padronização do "Objetivo da questão" na Unicamp: as revisões passam a acrescentá-lo (da prova comentada) quando o lote não tem. Já revisados sem ele: unicamp-2023 e 2026 (todos os cadernos), unicamp-2025-2-d1 e unicamp-2025-2-cet. Fazer uma passada só de objetivos nesses, no fim.

@@ -1,0 +1,187 @@
+{
+  "edicao": "unicamp-2025-2-cha",
+  "intervalo": [
+    1,
+    12
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 4,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Delegação do Brasil para Olimpíada tem maioria feminina pela 1ª vez na história**\n\nPela primeira vez na história, a delegação do Brasil para uma Olimpíada tem maioria feminina. O COB (Comitê Olímpico Brasileiro) informou que a comitiva para Paris contou com 277 atletas: 153 mulheres e 124 homens.\n\n(Adaptado de “Delegacão do Brasil para Olimpíada tem maioria feminina pela 1ª vez na história”. Disponível em cnnbrasil.com.br. Acesso em 10/07/2024.)\n\n![Gráfico de colunas: quantidade de atletas homens e mulheres na delegação brasileira nas últimas 4 edições dos Jogos Olímpicos. Paris 2024: homens 124, mulheres 153. Tóquio 2020: homens 161, mulheres 140. Rio 2016: homens 256, mulheres 209. Londres 2012: homens 136, mulheres 123.](fig:p06-f2)\n\nO gráfico mostra a quantidade de homens e mulheres na delegação brasileira nas últimas 4 edições dos Jogos Olímpicos.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Ordene as edições dos Jogos Olímpicos pelo tamanho da delegação brasileira, do maior para o menor.\n\n*Campo de resolução:*\n\n| 1º | 2º | 3º | 4º |\n|---|---|---|---|\n|  |  |  |  |"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Comparando as edições de Londres 2012 e de Paris 2024, de quanto foi o aumento percentual no número de mulheres? Justifique."
+        }
+      ],
+      "observacoes": "Na fonte, o caderno grafa “Delegacão” (com c sem cedilha), embora o título acima traga “Delegação”; mantido como no original."
+    },
+    {
+      "numero": 11,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 1888, George Eastman (1854-1932) pôs em circulação a primeira câmera simples com filme transparente em rolo, acompanhando-a com o slogan *You press the button, we do the rest* (‘Você aperta o botão, nós fazemos o resto’). Eastman registrou a patente desta câmera com o nome “Kodak”, com a intenção de que funcionasse em várias línguas ao prever sua atuação num mercado global.\n\n(Adaptado de AQUINO, L. *Picture ahead*: a Kodak e a construção do turista-fotógrafo. Campinas: Ed. da autora, p. 54, 2016.)\n\n![Cartaz publicitário da Kodak: uma mulher de vestido listrado, com uma câmera fotográfica presa à cintura por uma alça, desce sozinha uma encosta com vegetação, apoiando-se nas plantas; abaixo, uma praia com banhistas, guarda-sol, cabines listradas e pessoas a cavalo no mar; na base, o texto “Take a ‘Kodak’ with you”.](fig:p13-c1)\n\nPropaganda *Take a Kodak with you* (‘Leve uma Kodak com você’), 1921.\n\n![Cartaz publicitário da Kodak: na parte superior, um cervo à margem de um lago e um quadro com o texto “If you want it – take it – with a Kodak”; abaixo, um homem barbudo ajoelhado, com uma câmera nas mãos, uma arma e um chapéu no chão; na base, o texto “If it isn’t an Eastman it isn’t a Kodak”.](fig:p13-c2)\n\nPropaganda: *If you want it, take it with a Kodak. If it isn’t an Eastman, it isn’t a Kodak* (‘Se você quiser – pegue/fotográfe – com uma Kodak. Se não é um Eastman, não é um Kodak’), 1920.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Com base no texto e nas imagens acima, identifique duas características do projeto de fotografia amadora elaborado por George Eastman. Ao analisar as imagens, caracterize a figura da Kodak Girl (“Garota Kodak”) criada pela empresa, contrastando-a com o que se apresenta na segunda propaganda."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Identifique uma nova característica fundamental da fotografia amadora contemporânea – considerando-se o contexto a partir dos anos 2000. Compare o modo como as fotografias passam a ser produzidas e consumidas a partir desse momento e como isso ocorria antes. Por fim, identifique um impacto sociocultural pelas mudanças apontadas por você no decorrer de sua resposta."
+        }
+      ],
+      "observacoes": "A legenda da segunda propaganda traz “fotográfe” no original (grafia mantida). Legendas das duas propagandas (impressas na vertical no caderno) transcritas como texto, abaixo de cada cartaz."
+    }
+  ],
+  "respostas_corrigidas": {
+    "4": {
+      "resposta": "**Objetivo da questão:** É uma questão cujo objetivo principal é medir a capacidade do candidato de extrair informações de um gráfico. As informações para a parte **a** podem ser obtidas diretamente dos dados que estão no gráfico, simplesmente somando alguns números, e as informações para a parte **b** também estão no gráfico, mas um cálculo simples de percentual precisa ser feito.",
+      "itens": {
+        "a": "Para responder à questão, basta analisar os dados do gráfico apresentado. Em 2024 foram 277 participantes, em 2020 foram 301, em 2016 foram 465, e em 2012 foram 259. Portanto, ordenando do maior para o menor, fica:\n\n2016 — 2020 — 2024 — 2012\nRio — Tóquio — Paris — Londres",
+        "b": "Em Londres, foram 123 mulheres. Em Paris, foram 153. Como $153/123$ é aproximadamente $1{,}2439$, segue que o aumento foi de aproximadamente 24%."
+      }
+    },
+    "5": {
+      "resposta": "**Objetivo da questão:** A questão aborda os conteúdos de média aritmética e média ponderada, além de algum conhecimento sobre inequações.",
+      "itens": {
+        "a": "Devemos calcular as quatro médias e verificar se as notas são maiores ou iguais a 5.\n\n![Tabela preenchida: Amélia, N = 9, aprovada; Bruno, N = 3,67, não aprovado; Laura, N = 5,34, aprovada; Mário, N = 3,67, não aprovado](fig:r04-c1)",
+        "b": "Para que todos os alunos sejam aprovados, é preciso garantir que:\n\n$$\\begin{gathered}9k + 8 + 10m \\geq 5k + 5 + 5m \\\\ 3k + 2 + 6m \\geq 5k + 5 + 5m \\\\ 5k + 4 + 7m \\geq 5k + 5 + 5m \\\\ k + 3 + 7m \\geq 5k + 5 + 5m\\end{gathered}$$\n\nNote que a primeira e a terceira inequação são desnecessárias, pois $k, m$ estão entre 1 e 6. Portanto, ficamos com as inequações\n\n$$\\begin{gathered}3k + 2 + 6m \\geq 5k + 5 + 5m \\\\ k + 3 + 7m \\geq 5k + 5 + 5m\\end{gathered}$$\n\nque são equivalentes a\n\n$$\\begin{gathered}-2k + m \\geq 3 \\\\ -4k + 2m \\geq 2\\end{gathered}$$\n\nPortanto, devemos ter $-2k + m \\geq 3$. Considerando as opções possíveis para $k$ e $m$, as únicas possibilidades são $k = 1$ e $m = 5$ ou $k = 1$ e $m = 6$."
+      }
+    },
+    "6": {
+      "resposta": "**Objetivo da questão:** A questão trata do assunto de funções polinomiais de forma contextualizada num assunto que é da realidade de muitos dos candidatos, que é o número de visualizações de um vídeo na internet. Em termos matemáticos, é esperado que o candidato entenda como calcular valores de uma função, além de entender o comportamento de gráficos de funções polinomiais de grau 2.",
+      "itens": {
+        "a": "Temos que $f(8) = -100 \\cdot 8^2 + 3200 \\cdot 8 + 3300 = 22500$, que é a quantidade de visualizações.\n\nComo para cada mil visualizações são pagos R\\$ 1,20, o total recebido é de R\\$ 27,00.",
+        "b": "O valor de $x$ que resulta no maior valor de $f(x)$ é exatamente o valor da abscissa do vértice da parábola. Como $x_V = -b/2a$, temos que $x_V = (-3200)/(-200) = 16$. Portanto, a maior quantidade de visualizações foi obtida no dia 16. A quantidade de visualizações foi de $f(16) = 28900$, que resultou em R\\$ 34,68."
+      }
+    },
+    "7": {
+      "resposta": "**Objetivo da questão:** A questão permite aos/às candidatos/as compreender as dinâmicas de poder e as transformações que ele produz na organização da vida social, de modo geral, e seus impactos para os indivíduos, de modo particular.\n\nNesta questão eram esperadas respostas que demonstrassem a compreensão da especificidade do conceito de colônias trazido pelo Texto 1, destacando sua processualidade e reconhecendo a existência de relações coloniais de poder. Era esperada a habilidade de distinguir o conceito apresentado no Texto 1 daqueles que definem as experiências, por exemplo, do Brasil colônia ou formas de associação auto-organizadas.\n\nTambém eram esperadas respostas capazes de identificar e descrever as relações de poder imbricadas no contexto colonial, distinguindo-os daqueles existentes em qualquer tipo de formação social (ex. regras, normas e hierarquias arbitrariamente instituídas por meio da violência versus regras, normas e hierarquias presentes em qualquer sociedade, a existência de pactos sociais que são constantemente negociados).\n\nPor fim, a questão propôs a relação de uma experiência social específica (Texto 2) com uma conceituação abstrata (Texto 1), solicitando que os/as candidatos/as fossem capazes de relacionar a descrição das situações do Texto 2 com as categorias e conceitos do Texto 1.",
+      "itens": {
+        "a": "A colônia é um conceito político porque expressa uma relação de poder constituída pelo controle externo exercido sobre uma população que, no processo, é transformada em outros tipos sociais: de cidadãos a pessoas reassentadas, refugiadas, com sua mobilidade e autonomia limitadas. A restrição da circulação de bens essenciais, a exposição permanente à violência, ao medo e à fome são exemplos de como o poder colonial opera. Essa definição indica que a colônia não é uma experiência social que deva ser definida unicamente como um espaço fixo, controlado administrativamente por uma metrópole.",
+        "b": "O Texto 2 apresenta uma transformação na organização social de Gaza e as consequências para sua população civil. É possível compreender como o poder colonial opera a partir da experiência do cercamento territorial de Gaza, realizado em um contexto de guerra, que teve como efeito, entre outras consequências, a restrição da circulação de pessoas e mercadorias, privando a população de bens essenciais e cerceando suas liberdades civis e seu direito à autodeterminação."
+      }
+    },
+    "8": {
+      "resposta": "**Objetivo da questão:** Em vista do conteúdo programático da disciplina de filosofia, o objetivo da questão era avaliar as capacidades dos candidatos e candidatas de 1. analisar os excertos filosóficos levando em consideração os contextos histórico e filosófico abordados na questão; 2. compreender, interpretar e relacionar os excertos elencados de forma crítica; 3. identificar as teses, conceitos e definições apresentadas, mobilizando-as na construção da resposta; e 4. construir respostas argumentativas e reflexivas. Os itens programáticos mobilizados na prova foram: Fundamentos da ética e formação de sujeitos éticos, em especial: autonomia, justiça, dignidade e princípio racional. Também se refere aos Fundamentos da política e formação de sujeitos políticos, em especial justiça, cidadania, poder e gênero.",
+      "itens": {
+        "a": "Tanto Aristóteles quanto Tomás de Aquino entendem que, por natureza, a mulher é inferior ao homem. Para Aristóteles, a mulher não tem as mesmas qualidades e virtudes do homem, tais como moderação, coragem e justiça. Por isso o homem é o governante e a mulher, a governada. Tomás de Aquino, por sua vez, afirma que a natureza particular da mulher a torna deficiente e falha, vinculando essa deficiência à falta da virtude ativa presente no sêmen. Para Aristóteles, a relação entre o homem e a mulher é de permanente desigualdade porque a inferioridade da mulher é determinada pela natureza, portanto não passível de transformação. Ao dizer que “o silêncio dá encanto à mulher”, Aristóteles quer comunicar que a mulher, por ser inferior ao homem, deve ser governada por ele, de tal modo que cabe a ela apenas o silêncio e a obediência, enquanto a ele cabe o poder de falar e de governar.",
+        "b": "Ao afirmar que filósofos, poetas e moralistas “parecem falar com a mesma voz”, Pizan refere-se ao fato deles compartilharem a mesma opinião a respeito da inferioridade da mulher em relação ao homem, da sua falta de virtude e inclinação para o vício. Os textos 1 e 2 são exemplares dessa opinião persistente a respeito da inferioridade da mulher; nesse sentido, “falam com mesma voz”. Considerando os textos 1 e 2, notamos ainda que essa opinião se mantém ao longo do tempo, tendo sido sustentada no século IV a.c por Aristóteles, assim como no século XIII por Tomás de Aquino. Ao examinar a sua própria conduta e a de outras mulheres de posições sociais distintas, Pizan encontra exemplos que contrariam esse julgamento persistente a respeito da natureza da mulher, o que o torna ilegítimo e falso."
+      }
+    },
+    "9": {
+      "resposta": "**Objetivo da questão:** A questão tem como objetivo a compreensão de um acontecimento histórico central às guerras religiosas europeias no século XVI: a noite de São Bartolomeu, na França, ocorrida no contexto da Reforma Protestante. De uma forma geral, a partir do contexto e do fato histórico, as alternativas abordavam temas como intolerância, violência e instituições religiosas no século XVI. A questão refere-se ao conteúdo do Período Moderno, especificamente “Renascimento e Reformas: fundamentos artísticos, científicos e religiosos; conflitos culturais e religiosos”.",
+      "itens": {
+        "a": "Segundo o excerto, a Noite de São Bartolomeu, em 1572, manifestou a extrema intolerância religiosa na França, dada a proporção do massacre. Até aquele momento, houve múltiplos acontecimentos de repressão e tentativas de negociação com as práticas calvinistas por parte do Absolutismo Francês, no contexto de temores perante a Reforma Protestante. Por razões religiosas, portanto, católicos atacaram protestantes huguenotes, mesmo perante a tentativa monárquica da união política entre Henrique de Navarra, líder huguenote, e Margarita Valois, pertencente à dinastia de tradição católica. Procurava-se, por meio da união, selar a paz entre os grupos e reconduzir o reino à estabilidade; no entanto, as tensões políticas e sociais da sociedade francesa no século XVI não foram solucionadas. Apesar dessa tentativa, evidenciou-se a força da intolerância e das motivações políticas. Há que se destacar que, além da questão religiosa, havia também interesses políticos e dinásticos em jogo, como a disputa pelo poder entre diferentes facções da nobreza. O massacre teve também múltiplos desdobramentos políticos na Europa, aprofundando as Guerras de Religião.",
+        "b": "A Reforma Protestante propôs uma série de mudanças sobre as práticas de compreensão da Bíblia e dos sacramentos. Com lideranças como Martinho Lutero na Alemanha e João Calvino na França, pretendiam afrontar a percepção católica de que era necessária a mediação da autoridade eclesiástica para que o fiel compreendesse os saberes religiosos, sobretudo pela leitura da Bíblia, que era em latim, o que limitava a interpretação ao viés da Igreja Católica. Para os protestantes do século XVI, o fiel deveria poder individualmente ler o texto bíblico e interpretá-lo, traduzido para línguas vernáculas, o que representava uma ruptura com a autoridade religiosa, rompendo com a ideia de intermediação do clero. No que se refere aos sacramentos, a Reforma buscou reinterpretá-los à luz da nova doutrina, questionando alguns dos sacramentos católicos como confissão e extrema-unção, e modificando a interpretação de outros como o batismo e a eucaristia, essa última vista a partir do prisma protestante como simbólica e não mais como a literalidade do corpo e sangue de Cristo. Tais mudanças fizeram parte da chamada doutrina da justificação pela fé, central na Reforma, que enfatizava a ideia de salvação pela fé e não por meio de obras, indulgências ou rituais. No que se refere ao impacto social e político, essas mudanças contribuíram para a fragmentação do poder católico e transformaram a vida religiosa, na medida em que permitiram o surgimento de novas igrejas e formas de interpretação do cristianismo em novas denominações protestantes."
+      }
+    },
+    "10": {
+      "resposta": "**Objetivo da questão:** A questão tem como objetivo a compreensão da perspectiva analítica de Hannah Arendt a respeito das contradições das revoluções modernas, em especial, a Revolução Americana, e a respeito do liberalismo. Alude ao eixo norteador “a noção de cidadania e os direitos civis, sociais e políticos”. Insere-se no conteúdo programático do período Moderno na passagem ao Contemporâneo, em especial A crise do Antigo Regime europeu: Liberalismo e revoluções atlânticas. Quanto às habilidades, exige: descrever, analisar e relacionar conceitos básicos da História em suas múltiplas temporalidades; cotejar fontes e estudos historiográficos entre si, notando a capacidade de percepção das relações tecidas ou não entre os processos históricos e suas operações de memória e esquecimento; e, elaborar respostas escritas que envolvam descrição, exposição e argumentação com base nas informações e conhecimentos listados no conteúdo programático de História. Por fim, como recorte temático, insere-se nos conteúdos da História dos Estados Unidos, com um diálogo bastante aberto com à filosofia, dada a própria natureza do texto.",
+      "itens": {
+        "a": "Segundo Hannah Arendt, o que é fundamental na experiência moderna revolucionária é a convergência entre a ideia de liberdade e a experiência de um novo início, ou seja, mesmo que as revoluções possam se opor a formas anteriores de governo, o que as define enquanto experiência social legítima é se apresentarem como uma nova ordem política baseada na liberdade que rompe com o passado, buscando se constituir sob princípios diferentes do anterior. Nessa obra, a filósofa problematiza especificamente a experiência da fundação dos EUA em fins do século XVIII, em que esse preceito aparece fortemente, pois a Revolução Americana esteve inspirada em seus ideais no conceito de liberdade de inspiração iluminista. Para se constituir como nação, institui-se a narrativa de um novo começo, livre do controle colonial britânico e da tirania monárquica, construindo uma narrativa de si mesma baseada nas noções de liberdade individual, valores democráticos como soberania popular, mesmo que em contradição com práticas antidemocráticas como escravidão e limites ao sufrágio universal.",
+        "b": "A contradição social que prevaleceu na ideia de liberdade da cultura política e constitucional da fundação dos EUA, como discutiu Hannah Arendt, foi a coexistência na nação de preceitos de liberdade individual junto à instituição da escravidão. A cultura política estava, portanto, moldada pelos valores da elite que defendia a liberdade de propriedade, mas baseadas em práticas de opressão e injustiças sociais que negou direitos básicos à população afrodescendente nos EUA. Essas contradições levam a profundos debates e às mudanças a partir da Guerra Civil Americana (1861-1865), onde parte da sociedade passa a confrontar a escravidão, levando à sua proibição com a promulgação da 13a. Emenda à Constituição. No entanto, a parte da sociedade interessada nos ganhos econômicos da escravidão e antiabolicionista, de racionalidade racista, opõe-se a tais mudanças, levando à Guerra. Após a abolição, essa resistência à ampliação da liberdade para o corpo político se expressa, por exemplo, na formação de leis de segregação racial em Estados, sobretudo do sul dos EUA, que procuraram manter as estruturas racistas. Outras contradições que podemos citar são as exclusões das mulheres e dos indígenas da participação política."
+      }
+    },
+    "11": {
+      "resposta": "**Objetivo da questão:** A questão teve como objetivo a compreensão de documentos históricos sobre a Kodak e a democratização da fotografia amadora na contemporaneidade. Estava inserida no conteúdo programático do período Contemporâneo, em especial, na temática das representações e práticas culturais e políticas no século XIX e XX. Exigiu do candidato: compreender de forma crítica documentos históricos de múltiplas naturezas (textual, iconográfico, cartográfico e material), produzidos por diferentes atores sociais; relacionar os documentos históricos aos seus contextos de produção e sentidos em relação aos tempos históricos em que estão inseridos, estabelecendo relações e conceitos com aderência e pertinência histórica; descrever, analisar e relacionar conceitos básicos da História em suas múltiplas temporalidades; cotejar fontes e estudos historiográficos entre si, notando a capacidade de percepção das relações tecidas ou não entre os processos históricos e suas operações de memória e esquecimento; e, elaborar respostas escritas que envolvam descrição, exposição e argumentação com base nas informações e conhecimentos listados no conteúdo programático de História.",
+      "itens": {
+        "a": "Duas características que fizeram parte do projeto de fotografia amadora de George Eastman foram a simplicidade na facilidade de fazer fotos do cotidiano, com maior acessibilidade e a visão global da Kodak, com a estratégia de criar um nome que funcionasse em várias línguas e a ambição de alcançar um mercado internacional. Isso se apresenta, por exemplo, no slogan do enunciado \"Você aperta o botão, nós fazemos o resto\", que demonstra as características acima citadas, por tornar a fotografia acessível mesmo para aqueles que não possuíam conhecimentos das técnicas fotográficas, tornando a experiência simples, já que as fotos eram reveladas pela empresa. A proposta de Eastman era tornar a câmera um produto de grande apelo no mercado global, popularizando a fotografia amadora, como afirma o enunciado. Essa ambição também se estendia à visão publicitária de que a câmera poderia ser utilizada por homens e mulheres em diferentes contextos. Isso visava produzir a democratização da fotografia, mostrando que qualquer pessoa, inclusive mulheres, poderia usar a câmera para registrar suas próprias experiências. Assim, a caracterização da Kodak Girl contrastava com a figura masculina do discurso publicitário presente nas imagens, sendo a garota retratada como moderna e ativa, em passeios ao ar livre, sendo a câmera um acessório de estilo, que permite retratar o seu cotidiano, assim como a vida doméstica e a manutenção dos lugares sociais como a maternidade. Por outro lado, a figura masculina é retratada como um caçador, transmitindo uma ideia de domínio e controle, em consonância com as concepções heteronormativas da época. No slogan, “If you want, take it”, a câmera se torna a arma do \"caçador\" moderno.",
+        "b": "Uma nova característica da fotografia amadora contemporânea a partir dos anos 2000 é a instantaneidade e o compartilhamento em tempo real, com o surgimento da fotografia digital, em smartphones e câmeras digitais integradas, com o advento das redes sociais e da intensificação do uso da internet. Assim, a fotografia amadora passa a registrar o cotidiano e desdobra-se no hábito social de publicização da vida íntima, transformando a constituição das subjetividades, com grande acento nas práticas de exposição do eu, como em “selfies” e busca por seguidores em tempo real na era digital. A proposta de Eastman de democratizar a fotografia se intensificou na era digital, com a fotografia amadora se tornando ainda mais acessível e presente no cotidiano das pessoas."
+      }
+    },
+    "12": {
+      "resposta": "**Objetivo da questão:** A questão tem como objetivo a compreensão de uma análise da economista Maria da Conceição Tavares, a respeito da industrialização brasileira entre 1914 e 1945 e posterior, no período JK. Refere-se ao conteúdo programático do Período Contemporâneo, em especial, de acordo com o Manual do Candidato 2025: \"O Brasil entre 1930-1945: política, movimentos sociais, economia, crises e cultura\"; e \"A crise do liberalismo político e econômico após 1929\". A questão exige habilidade de descrever, analisar e relacionar conceitos básicos da História em suas múltiplas temporalidades, além da habilidade de cotejar fontes e estudos historiográficos entre si, notando a capacidade de percepção das relações tecidas ou não entre os processos históricos e suas operações de memória e esquecimento. Destaca-se a habilidade de elaborar respostas escritas que envolvam descrição, exposição e argumentação com base nas informações e conhecimentos listados no conteúdo programático de História.",
+      "itens": {
+        "a": "O Estado passou a fomentar a diversificação econômica, com ênfase no incentivo à industrialização em detrimento do setor cafeeiro, visando a produção nacional de bens que antes eram importados. Isso ocorreu por meio de protecionismo (como a reforma tributária de 1934), crédito e legislação trabalhista. Como resultado, houve maior diversificação econômica, redução da dependência do setor agroexportador e a consolidação de um mercado consumidor interno.",
+        "b": "O modelo de industrialização da era Juscelino Kubitschek gerou distorções no plano nacional, na medida em que concentrava o desenvolvimento industrial no Sudeste, aprofundando desigualdades regionais; gerou urbanização sem planejamento; abandono das ferrovias e foco nas rodovias; o investimento no setor de energia gerou impactos ambientais significativos e deslocamentos de populações tradicionais. Esse plano tinha como objetivo acelerar e modernizar o país, abrangendo ações em setores como energia, infraestrutura e bens de consumo. O projeto contava com financiamento governamental na infraestrutura e abertura ao capital estrangeiro, principalmente na vinda de grandes empresas multinacionais. Um destaque foi o incentivo à indústria automobilística, com a instalação de fábricas estrangeiras, alinhada à expansão da infraestrutura de transportes. Entretanto, além do aumento da dívida externa, a abertura ao capital estrangeiro gerou outros impactos, como a desnacionalização de alguns setores econômicos e a crescente dependência tecnológica. Internacionalmente, a política de industrialização de JK inseriu o Brasil de forma mais intensa na economia global."
+      }
+    }
+  },
+  "complementos": {
+    "4": {
+      "assunto": "Estatística"
+    },
+    "5": {
+      "assunto": "Estatística"
+    },
+    "6": {
+      "assunto": "Funções"
+    },
+    "7": {
+      "assunto": "Política, Estado e cidadania"
+    },
+    "8": {
+      "assunto": "Filosofia política"
+    },
+    "9": {
+      "assunto": "Idade Moderna (Europa)"
+    },
+    "10": {
+      "assunto": "Revoluções e século XIX"
+    },
+    "11": {
+      "assunto": "Mundo contemporâneo"
+    },
+    "12": {
+      "assunto": "Era Vargas"
+    }
+  },
+  "relatorio": [
+    {
+      "numero": 4,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r23), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Fonte do texto: o caderno traz “Delegacão” (erro de digitação do original) e o rascunho tinha corrigido para “Delegação”; restaurado e anotado em observacoes. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas. Figura p06-f2 completa; descrição dá os valores impressos sem entregar a ordenação. Contas da banca conferidas (277, 301, 465, 259; 153/123 ≈ 1,2439)."
+    },
+    {
+      "numero": 5,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r24), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas. Tabela do enunciado e campo de resolução p07-c1 (inclui o rótulo “a)”, que não dá para separar sem cortar a tabela) conferidos; tabela da resposta r04-c1 conferida. Obs.: a banca dá N = 5,34 para Laura (16/3 = 5,33…); mantido como no original."
+    },
+    {
+      "numero": 6,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r25), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas. Contas conferidas (f(8) = 22500, R\\$ 27,00; vértice x = 16, f(16) = 28900, R\\$ 34,68)."
+    },
+    {
+      "numero": 7,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r27; sem a lista de programa, o parecer da revisão e as correlações), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Observação do transcritor decidida: o parágrafo de expectativa (“Nesta questão eram esperadas...”) das Respostas esperadas é o “O que se espera” da regra, e passou a vir sob o rótulo **Objetivo da questão:**, depois do objetivo da comentada. A “Resposta Esperada” da prova comentada tem redação diferente; mantida a das Respostas esperadas, como manda a regra. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas."
+    },
+    {
+      "numero": 8,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r30; sem a frase final do revisor sobre o nível de dificuldade), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas."
+    },
+    {
+      "numero": 9,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r33), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas. A resposta da banca grafa “Margarita Valois” (o enunciado diz “Margarida”); mantido como no original."
+    },
+    {
+      "numero": 10,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r34; “com à filosofia” está assim no original), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas. Observação do transcritor confirmada: o asterisco antes de “afirmou” é chamada de nota do original e está escapado (\\*)."
+    },
+    {
+      "numero": 11,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r36), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Descrição da figura p13-c1 completada: omitia a câmera presa à cintura da mulher e as pessoas na praia, elementos que o item a manda analisar ao caracterizar a Kodak Girl; a nova descrição só diz o que se vê, sem interpretar. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas. Observação do transcritor confirmada: “fotográfe” está assim na legenda do caderno (mantido); legendas verticais transcritas como texto abaixo de cada cartaz."
+    },
+    {
+      "numero": 12,
+      "status": "corrigida",
+      "notas": "Acrescentado em `resposta` o “Objetivo da questão” da prova comentada (r37), só o texto do objetivo, como manda a regra das discursivas da Unicamp; o rascunho não o trazia. Enunciado, itens e resposta conferidos palavra por palavra com o caderno e as Respostas esperadas."
+    }
+  ]
+}
