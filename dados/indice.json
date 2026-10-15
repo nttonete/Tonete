@@ -247,6 +247,35 @@
    }
   },
   {
+   "id": "unicamp-2023-1",
+   "vestibular": "unicamp",
+   "ano": 2023,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "Q/Z",
+   "nome": "Unicamp 2023 – 1ª fase",
+   "fonte": {
+    "caderno": "UNICAMP_2023_1Fase.pdf",
+    "gabarito": "UNICAMP_2023_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unicamp-2023-1.json",
+   "total": 72,
+   "validas": 71,
+   "com_resposta": 71,
+   "materias": {
+    "portugues": 6,
+    "literatura": 5,
+    "historia": 9,
+    "biologia": 8,
+    "quimica": 7,
+    "geografia": 8,
+    "filosofia": 1,
+    "fisica": 8,
+    "matematica": 12,
+    "ingles": 8
+   }
+  },
+  {
    "id": "unicamp-2024-1",
    "vestibular": "unicamp",
    "ano": 2024,
