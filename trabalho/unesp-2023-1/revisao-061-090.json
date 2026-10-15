@@ -157,6 +157,66 @@
   "75": {
    "assunto": "Química orgânica",
    "resolucao": "Na unidade que se repete do PET, cada carbonila ($\\text{C=O}$) do anel benzênico está ligada a um oxigênio que, por sua vez, se liga a carbono: o grupo $-\\text{COO}-$ é o grupo funcional **éster**.\n\nComo a cadeia é formada pela repetição de ligações éster, o PET é um **poliéster** (obtido da reação entre o ácido tereftálico e o etilenoglicol).\n\nNão há $-\\text{OH}$ livre (poliálcool), nitrogênio (poliamida) nem oxigênio ligado só a carbonos sem carbonila (poliéter); a carbonila não está entre dois carbonos (policetona).\n\n**Resposta: A**"
+  },
+  "76": {
+   "assunto": "Termologia",
+   "resolucao": "Para comparar os termopares, fixe uma diferença de potencial no eixo vertical e veja em que temperatura cada curva a atinge.\n\nPor exemplo, para $U = 40\\ \\text{mV}$, a reta E chega lá perto de 550 °C, enquanto a curva N só chega por volta de 1 100 °C. Como a curva N fica sempre abaixo da E, para a mesma diferença de potencial o termopar N indica uma temperatura maior: C está correta.\n\nE tem a reta mais inclinada, logo a maior sensibilidade e a maior diferença de potencial para a mesma temperatura, o que elimina A, B e E. Entre 600 °C e 1 200 °C as curvas K e N são praticamente paralelas, então não se pode afirmar que K seja mais sensível (D).\n\n**Resposta: C**"
+  },
+  "77": {
+   "assunto": "Cinemática",
+   "resolucao": "Como andam em sentidos opostos, a cada encontro os dois juntos completam uma volta (1 000 m). No terceiro encontro, a soma das distâncias é $3 \\times 1\\,000 = 3\\,000\\ \\text{m}$.\n\nNo mesmo tempo, Bernardo, três vezes mais rápido, percorre o triplo da distância de Alberto: $d_A + 3d_A = 3\\,000 \\Rightarrow d_A = 750\\ \\text{m}$ e $d_B = 2\\,250\\ \\text{m}$.\n\nA alternativa A (250 m e 750 m) corresponde só ao primeiro encontro.\n\n**Resposta: D**"
+  },
+  "78": {
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Velocidade do pacote ao atingir o prato, depois de cair 0,45 m a partir do repouso (Torricelli):\n\n$v^2 = 2gh = 2 \\cdot 10 \\cdot 0{,}45 = 9 \\Rightarrow v = 3\\ \\text{m/s}$\n\nNa colisão inelástica o sistema é isolado, então a quantidade de movimento se conserva (o prato estava parado):\n\n$m \\cdot 3 = (m + 0{,}2) \\cdot 2 \\Rightarrow 3m = 2m + 0{,}4 \\Rightarrow m = 0{,}4\\ \\text{kg} = 400\\ \\text{g}$\n\n**Resposta: E**"
+  },
+  "79": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "Pelo gráfico, para pernas de comprimento $L = 1\\ \\text{m} = 100\\ \\text{cm}$, a frequência é $f = 1$ passo/s.\n\nSe cada passo desloca a pessoa 0,9 m, a velocidade é $v = 0{,}9\\ \\text{m/passo} \\times 1\\ \\text{passo/s} = 0{,}9\\ \\text{m/s}$.\n\nEnergia cinética: $E_c = \\frac{m v^2}{2} = \\frac{80 \\cdot 0{,}9^2}{2} = 40 \\cdot 0{,}81 = 32{,}4\\ \\text{J}$.\n\nA alternativa A (40,0 J) é o que se obtém usando $v = 1\\ \\text{m/s}$.\n\n**Resposta: B**"
+  },
+  "80": {
+   "assunto": "Óptica",
+   "resolucao": "O ângulo $\\alpha$ é medido a partir da superfície; o ângulo de refração $r$, medido a partir da normal, vale $90^\\circ - \\alpha$. Assim, $\\alpha$ é mínimo quando $r$ é máximo.\n\nPela lei de Snell, $n_{\\text{ar}} \\operatorname{sen} i = n \\operatorname{sen} r$: com o mesmo ângulo de incidência, $r$ é maior quando o índice de refração $n$ do líquido é **menor**, isto é, quando o raio se desvia menos.\n\nO menor índice da tabela é o da propanona (acetona), 1,35. A propanona é uma cetona: $\\text{CH}_3-\\text{CO}-\\text{CH}_3$, com a carbonila no carbono central, que é a estrutura da alternativa C.\n\nAs outras estruturas são o isopropanol (A), o propanal (B), o ácido propanoico (D) e o propanotriol (E).\n\n**Resposta: C**"
+  },
+  "81": {
+   "assunto": "Ondulatória",
+   "resolucao": "No modo fundamental de uma corda com extremidades fixas, $\\lambda = 2L$ e $f = \\frac{v}{2L}$.\n\nAs duas cordas têm a mesma densidade linear e a mesma tração, então a velocidade da onda $v = \\sqrt{T/\\mu}$ é igual nas duas. Logo, a frequência é inversamente proporcional ao comprimento:\n\n$\\frac{f_1}{f_2} = \\frac{L_2}{L_1} = 150 \\Rightarrow L_2 = 150 \\times 5\\ \\text{cm} = 750\\ \\text{cm} = 7{,}5\\ \\text{m}$\n\n**Resposta: A**"
+  },
+  "82": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Num resistor, a queda de potencial é $U = R \\cdot i$, e a corrente no circuito em série é a indicada pelo amperímetro, $i = 2\\ \\text{A}$.\n\nNo gráfico, o potencial cai de 80 V para 30 V entre T e U (resistor $\\text{R}_1$) e de 30 V para 0 entre X e Y (resistor $\\text{R}_2$):\n\n$\\text{R}_1 = \\frac{80 - 30}{2} = 25\\ \\Omega \\qquad \\text{R}_2 = \\frac{30 - 0}{2} = 15\\ \\Omega$\n\nO salto de 0 para 80 V entre Q e S é a força eletromotriz do gerador ideal.\n\n**Resposta: D**"
+  },
+  "83": {
+   "assunto": "Funções",
+   "resolucao": "O gráfico começa em R\\$ 4,00 (valor fixo) e, até 12 m³, é uma reta que chega a R\\$ 40,00. Então:\n\n$4 + 12M = 40 \\Rightarrow 12M = 36 \\Rightarrow M = 3$\n\nDepois de 12 m³, a reta passa por (12; 40) e (14; 60): cada m³ excedente custa\n\n$N = \\frac{60 - 40}{14 - 12} = \\frac{20}{2} = 10$\n\nConfere com o ponto (16; 80): $40 + 4 \\cdot 10 = 80$. Logo, M = 3 e N = 10.\n\n**Resposta: E**"
+  },
+  "84": {
+   "assunto": "Geometria plana",
+   "resolucao": "O comprimento da circunferência é proporcional ao raio. Se a de Júpiter é 11 vezes a da Terra, o raio de Júpiter é $11x$.\n\nA menor distância ocorre com os dois planetas alinhados do mesmo lado do Sol. Medindo a partir da superfície do Sol (ponto S):\n\ncentro de Júpiter até S: $11x + 5{,}2y$; centro da Terra até S: $x + y$.\n\nDistância entre os centros: $(11x + 5{,}2y) - (x + y) = 10x + 4{,}2y$.\n\nA alternativa A ($12x + 4{,}2y$) soma os raios em vez de subtrair.\n\n**Resposta: E**"
+  },
+  "85": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "O trecho diz que, dos 40% de entrevistados que pediram aumento (*asked for a pay rise*), pouco mais de um quarto (*just over a quarter*) conseguiu.\n\nPorcentagem de porcentagem é uma multiplicação:\n\n$\\frac{1}{4} \\times 40\\% = 10\\%$\n\nComo é \"pouco mais\" de um quarto, o resultado é cerca de 10% do total de entrevistados. A alternativa B (25%) é a fração em relação a quem pediu aumento, e não ao total.\n\n**Resposta: C**"
+  },
+  "86": {
+   "assunto": "Geometria plana",
+   "resolucao": "Seja $w$ a medida de $\\overline{UL}$ (base) e $h$ a de $\\overline{BU}$ (altura). No triângulo BUL, $\\operatorname{tg} 30^\\circ = \\frac{h}{w}$, logo $h = \\frac{w}{\\sqrt{3}}$.\n\nNo losango, $\\text{BE} = \\text{EL} = 2$. Como E está em $\\overline{BA}$, $\\text{EA} = w - 2$, e no triângulo retângulo EAL:\n\n$(w - 2)^2 + h^2 = 4 \\Rightarrow w^2 - 4w + 4 + \\frac{w^2}{3} = 4 \\Rightarrow \\frac{4w^2}{3} = 4w \\Rightarrow w = 3$\n\nEntão $h = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$ e a área do retângulo é $3 \\cdot \\sqrt{3} = 3\\sqrt{3}\\ \\text{cm}^2$.\n\n**Resposta: B**"
+  },
+  "87": {
+   "assunto": "Geometria plana",
+   "resolucao": "Como PR é diâmetro, o triângulo PQR é retângulo em Q. Então $\\text{QR} = \\sqrt{10^2 - 6^2} = 8\\ \\text{m}$.\n\nA volta de R para P é uma semicircunferência de raio 5 m: $\\pi r = 3 \\cdot 5 = 15\\ \\text{m}$. O percurso total é $6 + 8 + 15 = 29\\ \\text{m}$.\n\nCom aceleração escalar constante, pela equação de Torricelli:\n\n$v^2 = v_0^2 + 2a\\Delta s \\Rightarrow 10^2 = 8^2 + 2 \\cdot a \\cdot 29 \\Rightarrow 36 = 58a \\Rightarrow a = \\frac{18}{29}\\ \\text{m/s}^2$\n\n**Resposta: D**"
+  },
+  "88": {
+   "assunto": "Estatística",
+   "resolucao": "No gráfico radar, cada eixo é uma propriedade e o valor cresce do centro para fora. Compare o polígono do alumínio (azul) com os pontos dos outros metais em cada eixo.\n\nNo eixo 4 (densidade), o ponto do alumínio é o mais próximo do centro: ele tem a menor densidade, que é o desejável. Nos demais eixos há sempre outro metal melhor: o chumbo tem temperatura de fusão menor (eixo 1), o cobre conduz melhor eletricidade e calor (eixos 2 e 3) e o titânio tem maior resistência tênsil (eixo 5).\n\nO alumínio, portanto, é o mais vantajoso apenas na propriedade 4. A alternativa A é tentadora porque o texto diz que ele tem baixa temperatura de fusão, mas \"baixa\" não é \"a menor\" entre os cinco metais.\n\n**Resposta: C**"
+  },
+  "89": {
+   "assunto": "Geometria espacial",
+   "resolucao": "Os dois cubos estão em cantos opostos da mesma face quadrada, de lado $6\\sqrt{2}$ cm. Para não se sobreporem, cada um pode ocupar no máximo metade do lado: $x_{\\text{máx}} = \\frac{6\\sqrt{2}}{2} = 3\\sqrt{2}$ cm.\n\nVolume do paralelepípedo: $20 \\cdot 6\\sqrt{2} \\cdot 6\\sqrt{2} = 20 \\cdot 72 = 1\\,440\\ \\text{cm}^3$.\n\nVolume de cada cubo: $(3\\sqrt{2})^3 = 27 \\cdot 2\\sqrt{2} = 54\\sqrt{2}\\ \\text{cm}^3$; dos dois: $108\\sqrt{2}\\ \\text{cm}^3$.\n\nVolume restante: $1\\,440 - 108\\sqrt{2} = 36(40 - 3\\sqrt{2})\\ \\text{cm}^3$.\n\n**Resposta: A**"
+  },
+  "90": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "O time 1 chega à final se vencer o grupo A (60%) e depois o grupo E (50%): $0{,}6 \\times 0{,}5 = 0{,}3$.\n\nO adversário sai do lado C/D. O time 5 chega à final com $0{,}5 \\times 0{,}5 = 0{,}25$, e o time 7 com $0{,}45 \\times 0{,}5 = 0{,}225$. São casos que não acontecem juntos, então se somam: $0{,}25 + 0{,}225 = 0{,}475$.\n\nComo os dois lados da chave são independentes:\n\n$P = 0{,}3 \\times 0{,}475 = 0{,}1425 = 14{,}25\\%$\n\n**Resposta: B**"
   }
  },
  "relatorio": [
