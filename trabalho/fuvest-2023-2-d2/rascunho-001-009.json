@@ -1,0 +1,291 @@
+{
+  "edicao": "fuvest-2023-2-d2",
+  "intervalo": [
+    1,
+    9
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 1,
+      "codigo": "M01",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Duas empresas de entrega de mercadorias, $A$ e $B$, são concorrentes. A empresa $A$ cobra R\\$ 4,00 por quilo da encomenda e mais R\\$ 30,00 de taxa fixa. Já a tarifa da empresa $B$ é de R\\$ 6,00 por quilo, sem taxa fixa, para encomendas de até 30 quilos; para encomendas de mais de 30 quilos, a empresa $B$ cobra R\\$ 2,00 por quilo, mais uma taxa fixa de R\\$ 120,00.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Dê a expressão da função que descreve a tarifa cobrada pela empresa $A$ em termos do peso $x$ da encomenda."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Para qual intervalo de pesos é mais barato pedir uma entrega pela empresa $A$ do que pela empresa $B$?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Um cliente solicitou duas encomendas: uma entregue pela empresa $A$, e outra, pela empresa $B$, com peso total de 200 quilos. Quais são as possíveis maneiras de distribuir esse peso entre as duas empresas, sabendo que a tarifa de entrega total foi de R\\$ 850,00?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 2,
+      "codigo": "M02",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere $a, b, c \\in \\mathbb{R}$ e a função $f: \\mathbb{R} \\to \\mathbb{R}$ dada por $f(x) = ax^2 + bx + c$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Determine os valores de $a$, $b$ e $c$ para que $f(1) = 1$, $f(0) = 0$ e $f(-1) = 1$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Para $a = -1$ e $b = 4$, determine o valor de $c$ de modo que a área do triângulo $ABV$ da figura seja igual a 32 u.a., onde $V$ é o vértice da parábola representada por $f$.\n\n![Gráfico de uma parábola com concavidade para baixo e vértice V; o ponto A é a projeção de V no eixo x, o ponto B é a raiz à direita, e o triângulo ABV está traçado](fig:p02-f1)"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Considere $g: \\mathbb{R} \\to \\mathbb{R}$ a função dada por $g(t) = \\cos t$. Se $a = 3$ e $c = -8$, determine para quais valores de $b$ a equação $f(g(t)) = 0$ possui ao menos uma solução real."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 3,
+      "codigo": "M03",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considerando $A = \\{1,2,3,4\\}$ e $B = \\{1,2,3,4,5,6\\}$,\n\n**Note e adote:**\nDizemos que $n \\in B$ é um *ponto fixo* de $f$ se $f(n) = n$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "quantas funções $f: A \\to A$ (não necessariamente sobrejetoras) existem?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "quantas são as funções $f: B \\to B$ que satisfazem $f(f(n)) = n$, para todo $n \\in B$?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "escolhendo aleatoriamente uma função $f: B \\to B$ bijetora, qual é a probabilidade de $f$ ter ao menos um ponto fixo?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 4,
+      "codigo": "M04",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere as circunferências $C, C_1, C_2, C_3, \\ldots, C_n, \\ldots$ e a reta s satisfazendo as seguintes propriedades:\n\n![Figura com as circunferências C, C₁, C₂, C₃ e C₄ e a reta s, em um plano cartesiano com os pontos Q, P e a origem (0,0); a região entre C e as circunferências Cₙ está sombreada, e um ângulo de 60° está marcado entre o eixo x e o segmento do centro de C₁ ao ponto de tangência de s](fig:p04-f2)\n\n• A circunferência $C_1$tem centro $(0,0)$ e raio $r = 4$. Os centros das demais circunferências pertencem ao eixo $Ox$.\n• A circunferência $C_2$ é tangente a $C_1$ e a $C_3$, a circunferência $C_3$ é tangente a $C_2$ e a $C_4$, e assim por diante.\n• A reta $s$ é tangente a cada circunferência $C_n$ para $n \\ge 1$.\n• O segmento que liga o centro de $C_1$ ao ponto em que s tangencia $C_1$ forma um ângulo de $60^\\circ$ com o eixo $Ox$.\n• A circunferência $C$ é tangente a $C_1$ no ponto $Q = (-4,0)$ e passa pelo ponto $P = (x_0, 0)$.\n\nCom base nessas informações,",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "determine o raio da circunferência $C$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "dado $n \\ge 1$, determine a razão entre os raios das circunferências consecutivas $C_{n+1}$ e $C_n$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "determine a área da região sombreada na figura."
+        }
+      ],
+      "observacoes": "Erro de digitação do original mantido: falta espaço em 'C₁tem' no primeiro marcador."
+    },
+    {
+      "numero": 5,
+      "codigo": "M05",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Segundo as normas da NBR 9077, uma escada deve ter todos os degraus com a mesma altura e a mesma largura. Além disso, indicando por $L$ a largura de um degrau e por $A$ a sua altura, ambas em centímetros, as seguintes desigualdades devem ser satisfeitas:\n\n$$63 \\le 2A + L \\le 64$$\n\n$$16 \\le A \\le 18$$\n\n![Desenho em perspectiva de uma escada de cinco degraus, com a largura L e a altura A de um degrau indicadas](fig:p06-f2)\n\n**Note e adote:**\nA figura é meramente ilustrativa e não representa a escada do enunciado.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Se $A = 16$, quais são os possíveis valores de $L$?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "A altura do primeiro andar de um sobrado é 2,52 metros, medido de um pavimento ao outro. O arquiteto projetou a escada para ter o maior comprimento (soma das larguras dos degraus) possível, respeitando as normas citadas. Dessa forma, quantos degraus terá a escada e qual é a altura e largura de cada um?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Quais são o maior e o menor valor possível para a tangente do ângulo de inclinação de uma escada construída de acordo com essa norma?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 6,
+      "codigo": "M06",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um número complexo é da forma $z = x + yi$, onde $x, y \\in \\mathbb{R}$ e $i^2 = -1$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Determine o valor de $b \\in \\mathbb{R}$ para que a parte real do número complexo $\\frac{2+bi}{1+i}$ seja igual a zero."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Determine a solução da equação $|z| - z = 1 + 2i$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Determine o valor de $a \\in \\mathbb{R}$, $a \\ne 0$, para que a equação\n\n$$az\\overline{z} + (1+i)z + \\overline{(1+i)z} + 1 = 0$$\n\ndescreva uma circunferência no plano cartesiano."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "codigo": "F01",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Usinas hidrelétricas convertem energia mecânica em energia elétrica, que depois é transportada por linhas de transmissão até residências, indústrias etc.\n\n**Note e adote:**\nDespreze a resistência do ar e adote o valor de $10\\ \\text{m/s}^2$ para a aceleração da gravidade.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A potência aproximada da usina hidrelétrica de Itaipu, a maior do Brasil, é de 15 GW. A potência dissipada por um aparelho de TV em modo de espera (*stand by*) é de cerca de 6 W. Supondo que, em média, cada um dos cerca de 75 milhões de domicílios brasileiros tenha 1 aparelho de TV em modo de espera, que percentagem da potência de Itaipu é consumida apenas para manter TVs brasileiras nesse modo?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Uma versão simples de usina hidrelétrica utiliza a queda livre da água para girar uma turbina. Supondo que a água inicie, praticamente do repouso, uma queda de 20 m até a turbina, com que velocidade a água atinge a turbina?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "O impulso da água faz girar a turbina, que por sua vez aciona um gerador. A presença de um campo magnético no gerador em movimento leva ao surgimento de uma força eletromotriz que varia no tempo. Após o transporte da eletricidade até uma residência, o gráfico da força eletromotriz tem o aspecto mostrado na figura ao lado. Se conectarmos à tomada da residência um ferro de passar com um resistor ôhmico de 40 Ω, qual será a máxima corrente elétrica que percorrerá o resistor do ferro durante sua operação?\n\n![Gráfico da força eletromotriz (fem, em V) em função do tempo t (em segundos), de 0,00 a 0,10 s](fig:p08-f4)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 8,
+      "codigo": "F02",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O telescópio espacial James Webb lançado em 2021 é, em muitos sentidos, um aprimoramento do antigo telescópico Hubble. Uma das diferenças mais notáveis está nas dimensões e nas propriedades ópticas dos espelhos principais destes dois telescópios. Por exemplo: enquanto o espelho principal do Hubble tem uma distância focal de aproximadamente 58 m, a distância focal do espelho principal do James Webb é de aproximadamente o dobro (131 metros). Tratando de maneira aproximada o funcionamento destes telescópios, consideraremos aqui a reflexão por somente um espelho esférico.\n\nSuponha um sistema binário de estrelas separadas por uma distância $H$, e localizado a uma distância $D$ do espelho do telescópio que as observa, conforme mostra a figura. A distância entre o foco do espelho (ponto $F$) e o vértice do espelho (ponto $V$) é a chamada distância focal do espelho ($d_f$).\n\n![Esquema com a estrela A e a estrela B separadas pela distância H, a distância D até o espelho esférico, os pontos F e V sobre o eixo do espelho e a distância focal d_f entre eles](fig:p08-c1)\n\n**Note e adote:**\nAs estrelas podem ser consideradas fontes luminosas pontuais.\nPara espelhos esféricos, o inverso da distância focal é igual à soma do inverso da distância do objeto com o inverso da distância em que a imagem se forma (todas em relação ao centro do espelho).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Dois raios luminosos (“raio 1” e “ raio 2”) partindo da estrela A atingem o espelho. O “raio 1” é paralelo ao eixo do espelho, enquanto o “raio 2” passa pelo ponto $F$. Na figura da folha de respostas, trace os raios refletidos pelo espelho.\n\n*Campo de resolução:* ![Esquema com a estrela A e a estrela B, o espelho esférico, o ponto F e os raios 1 e 2 incidentes sobre o espelho, em uma grade](fig:p09-c1)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considere que o sistema está sendo observado pelo telescópio Hubble, para o qual $d_f = d$. Calcule a razão $A = \\frac{H_I}{H}$ onde $H_I$ é a distância entre as imagens das estrelas formadas pelo espelho. Essa razão é também chamada de “aumento” do espelho, embora esta razão possa ser menor do que 1. Expresse sua resposta em termos de $D$ e $d$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Considere agora que o sistema esteja sendo observado pelo telescópio James Webb, para o qual $d_f = 2d$. Calcule a razão entre os aumentos dos dois espelhos. Expresse sua resposta em termos de $D$ e $d$."
+        }
+      ],
+      "observacoes": "Erros de digitação do original mantidos: 'telescópico Hubble' no enunciado e “ raio 2” com espaço depois da abertura de aspas no item a. A figura do campo de resolução do item a vem da folha de respostas do caderno (página 9)."
+    },
+    {
+      "numero": 9,
+      "codigo": "F03",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere um mergulhador em um lago de águas calmas.\n\n**Note e adote:**\nA densidade da água é de 1,0 kg/L.\nAdote como aceleração da gravidade o valor $10\\ \\text{m/s}^2$ e como densidade da água o valor $1{,}0 \\times 10^3\\ \\text{kg/m}^3$ e utilize $1{,}0\\ \\text{atm} = 1{,}0 \\times 10^5\\ \\text{Pa}$.\nTrate o ar na bolha como um gás ideal e suponha que não escape ar da bolha durante a subida.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Esse mergulhador possui massa de 75 kg e volume corporal de 70 L. Para um mergulho, ele acopla a si um cilindro de ar de 15 kg e volume de 10 L. Estando completamente imersos na água (mergulhador e cilindro), o mergulhador para de nadar. Ele afundará ou subirá até a superfície? Justifique sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Durante um mergulho, o mergulhador consulta seu manômetro de pulso e verifica que a pressão absoluta local é de 2,0 atm. A que profundidade o mergulhador está?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Finalmente, considere que o mergulhador está no fundo do lago, onde a temperatura da água é de 7 °C e a pressão é de 2,8 atm. Ele produz uma bolha de ar volume $V_1$, que sobe em direção à superfície. Quando a bolha houver subido até a iminência de atingir a superfície, onde a temperatura da água é 27 °C, seu volume será $V_0$. Determine a razão $V_0/V_1$."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "1": {
+      "resposta": "**Objetivo da questão:** Avaliar a habilidade de resolver sistemas de equações e inequações e de modelar um problema real.",
+      "itens": {
+        "a": "A expressão da função é dada por $f_A(x) = 4x + 30$.",
+        "b": "De acordo com o enunciado,\n\n$$f_B(x) = \\begin{cases} 6x, & 0 \\le x \\le 30, \\\\ 2x + 120, & 30 < x \\end{cases}$$\n\nDisso, decorrem duas possibilidades:\nPara $0 \\le x \\le 30$, temos $4x + 30 \\le 6x$ se, e somente se, $15 \\le x \\le 30$.\nPara $x > 30$, temos $4x + 30 \\le 2x + 120$ se, e somente se, $30 \\le x \\le 45$.\nO intervalo pedido é, portanto, $[15, 45]$.",
+        "c": "Denotando por $x \\in [0, 200]$ o peso entregue pela empresa B, precisamos encontrar as soluções da equação\n\n$$f_A(200 - x) + f_B(x) = 850.$$\n\nNovamente, temos duas possibilidades:\nPara $x \\in [0, 30]$, devemos ter $800 - 4x + 30 + 6x = 850$, isto é, $x = 10$.\nPara $x \\in [30, 200]$, devemos ter $830 - 4x + 2x + 120 = 850$, isto é, $x = 50$.\n\n| Peso da empresa A | Peso da empresa B |\n|---|---|\n| 10 | 190 |\n| 50 | 150 |"
+      }
+    },
+    "2": {
+      "resposta": "**Objetivo da questão:** Avaliar a capacidade de analisar um polinômio de segundo grau a partir de seus coeficientes e de relacionar com propriedades algébricas",
+      "itens": {
+        "a": "Os valores são: $a = 1, b = c = 0$",
+        "b": "Para se obter o valor de $c$, temos $f(x) = -x^2 + 4x + c$, $V = (2, 4+c)$ (vértice de $f$), $A = (2, 0)$ e $B = 2 + \\sqrt{4+c}$ é a maior raiz. Assim,\n\n$$32 = \\frac{(4+c)\\sqrt{4+c}}{2}, \\quad c = 12.$$",
+        "c": "Do enunciado, temos $f(x) = 3x^2 + bx - 8$, $\\Delta = b^2 + 96$, raízes $x_i = \\frac{-b \\pm \\sqrt{b^2+96}}{6}$.\n\nA maior raiz é estritamente positiva e a menor raiz é estritamente negativa. A equação $f(g(t))$ admite solução real se, e somente se, $f$ possui ao menos uma raiz no intervalo $[-1, 1]$.\n\n$$x_1 = \\frac{-b - \\sqrt{b^2+96}}{6} \\ge -1 \\ \\text{se, e somente se,} \\ b \\le -5.$$\n\n$$x_2 = \\frac{-b + \\sqrt{b^2+96}}{6} \\le 1 \\ \\text{se, e somente se,} \\ b \\ge 5.$$"
+      }
+    },
+    "3": {
+      "resposta": "**Objetivo da questão:** Avaliar a compreensão da linguagem matemática e medir o conhecimento de combinatória, probabilidade e conceitos de funções injetoras e sobrejetoras.",
+      "itens": {
+        "a": "O número de funções possíveis é igual a $4^4 = 256$.",
+        "b": "Permutando 0 par: 1 opção (identidade).\nPermutando 1 par: $\\frac{6 \\times 5}{2} = 15$ combinações.\nPermutando 2 pares: $\\frac{\\frac{6 \\times 5}{2} \\times \\frac{4 \\times 3}{2}}{2} = 45$ combinações.\nPermutando 3 pares: $\\frac{\\frac{6 \\times 5}{2} \\times \\frac{4 \\times 3}{2}}{6} = 15$ combinações.\nTotal: 76 funções.",
+        "c": "O diagrama em árvore a seguir ilustra as sequências sem repetição e que **não** possuem ponto fixo.\n\n![Diagrama em árvore com números nos nós, partindo de 2 (3,4,5,6)](fig:r19-c1)\n\nEntre parênteses, estão as opções que são análogas, em número de casos. Cada nível da árvore representa o possível valor da função em um número, começando do 1, no nível superior, e terminando em 6, no nível inferior. Cada nó é feito escolhendo algum valor diferente do nível correspondente e que ainda não apareceu na sequência. Por exemplo: o valor de $f(1)$ pode ser 2,3,4,5 ou 6. Se escolhemos $f(1) = 2$ (e os outros casos são análogos), podemos ter $f(2) = 1$ ou $f(2) = 3$ (ou 4,5,6, que são casos análogos). Somando todas essas combinações, não se esquecendo de multiplicar pelo número de possibilidades análogas em cada nó, obtêm-se 265 funções sem ponto fixo. Como o total de funções bijetoras é $6! = 720$, são $720 - 265 = 455$ funções com ponto fixo. Logo, a probabilidade é $455/720$, ou $91/144$."
+      }
+    },
+    "4": {
+      "resposta": "**Objetivo da questão:** Avaliar o conhecimento de geometria analítica, trigonometria e progressão geométrica, a capacidade de reconhecer padrões e a compreensão da linguagem matemática.",
+      "itens": {
+        "a": "Considere o triângulo retângulo de vértices no centro de $C_1$, no ponto em que $s$ tangencia $C_1$ e em $P$; temos\n\n$$\\cos(60^\\circ) = \\frac{4}{x_0} \\Leftrightarrow x_0 = 8.$$\n\nComo o diâmetro de $C$ é igual a $4 + x_0$, seu raio é igual a 6.",
+        "b": "Para cada $n \\ge 1$, seja $r_n$ o raio de $C_n$ e considere, de forma análoga ao item anterior, o triângulo retângulo de vértices no centro de $C_n$, no ponto em que $s$ tangencia $C_n$ e em $P$. Argumentando como antes, concluímos que a distância do centro de $C_{n+1}$ a $P$ é igual a $2r_{n+1}$. Agora, como a distância entre os centros de $C_n$ e $C_{n+1}$ é igual à soma de seus raios e os triângulos considerados são semelhantes, obtemos\n\n$$\\frac{2r_{n+1}}{r_n + 3r_{n+1}} = \\frac{r_{n+1}}{r_n} \\Leftrightarrow \\frac{r_{n+1}}{r_n} = \\frac{1}{3}.$$",
+        "c": "A área pedida é a diferença entre a área de $C$ e a soma das áreas de $C_n$, $n \\ge 1$. De acordo com o item a), a área de $C$ é igual a $36\\pi$ u.a. Por outro lado, a soma das áreas de $C_n$, $n \\ge 1$, corresponde à soma da PG de primeiro termo $16\\pi$ e razão $\\frac{1}{9}$, isto é, $\\sum_{n=1}^{\\infty} \\frac{16\\pi}{9^{n-1}} = \\frac{16\\pi}{1 - \\frac{1}{9}} = 18\\pi$. A resposta é, portanto, $18\\pi$ u.a."
+      }
+    },
+    "5": {
+      "resposta": "**Objetivo da questão:** Avaliar a compreensão do uso da linguagem matemática para resolver problemas reais, a capacidade de visualização de formas geométricas espaciais, o conhecimento de trigonometria e a resolução de problemas de otimização.",
+      "itens": {
+        "a": "Do enunciado, temos:\n$63 \\le 2 \\cdot 16 + L \\le 64 \\Leftrightarrow 31 \\le L \\le 32$.\nLogo, os possíveis valores de $L$ são todos entre 31 cm e 32 cm.",
+        "b": "Dividindo 252 por 16 e 18, obtemos, respectivamente, 15,75 e 14. Como os degraus devem ser todos iguais e o número deles deve ser inteiro, podemos ter 14 ou 15 degraus, resultando em $A = 18$, no primeiro caso, e $A = 16{,}8$, no segundo. Para a soma das larguras ser a maior possível, $L$ deve ser o maior possível e, portanto, $2A + L = 64$, o que dá $L = 28$, no primeiro caso, e $L = 30{,}4$, no segundo. Logo, o segundo caso resulta no maior comprimento, pois tem mais degraus e com maior largura. Assim, a escada terá 15 degraus, cada um com altura de 16,8 cm e largura de 30,4 cm.",
+        "c": "A tangente da inclinação da escada será dada por $x = \\frac{A}{L}$. Dividindo a primeira desigualdade por $L$ e usando que $\\frac{1}{L} = \\frac{x}{A}$, obtemos $\\frac{63x}{A} \\le 2x + 1 \\le \\frac{64x}{A}$. Os casos extremos são $\\frac{63x}{18} = 2x + 1$ e $\\frac{64x}{16} = 2x + 1$. Resolvendo essas equações, obtemos as soluções $x = \\frac{1}{2}$ (inclinação mínima) e $x = \\frac{2}{3}$ (inclinação máxima)."
+      }
+    },
+    "6": {
+      "resposta": "**Objetivo da questão:** Avaliar o conhecimento em números complexos, sistemas de equações e geometria analítica, bem como a habilidade de manipular expressões algébricas.",
+      "itens": {
+        "a": "$b = -2$",
+        "b": "A solução da equação é dada por $x = \\frac{3}{2}$ e $y = -2$",
+        "c": "Manipulando a equação dada, obtemos\n\n$$a(x^2 + y^2) + 2(x - y) + 1 = 0$$\n\n$$a\\left(x^2 + \\frac{2}{a}x + \\frac{1}{a^2}\\right) + a\\left(y^2 - \\frac{2}{a}y + \\frac{1}{a^2}\\right) - \\frac{2}{a} + 1 = 0$$\n\n$$a < 2, a \\ne 0$$"
+      }
+    },
+    "7": {
+      "resposta": "**Objetivo da questão:** Avaliar conhecimentos de potência, energia e habilidade de leitura de gráficos e de realização de cálculos de grandezas físicas envolvendo potências de 10.",
+      "itens": {
+        "a": "A potência total consumida por todas as TVs é $P = (75 \\times 10^6) \\times 6\\ \\text{W} = 450 \\times 10^6\\ \\text{W}$.\nIsso corresponde a uma fração $f = (450 \\times 10^6)/(15 \\times 10^9) = 3 \\times 10^{-2}$, ou 3% da potência de Itaipu.",
+        "b": "Por conservação da energia, temos que, para uma dada massa de água $m$, a energia cinética final é igual à energia potencial inicial $\\frac{mv^2}{2} = mgh$. Logo, $v = \\sqrt{2gh} = \\sqrt{20 \\times 20} = 20\\ \\text{m/s}$.",
+        "c": "Para uma resistência ôhmica, vale a Lei de Ohm $V = Ri$, ou seja, $i = V/R$. O máximo valor da corrente alternada corresponde ao máximo valor da fem, que, segundo o gráfico, é igual a 180 V. Logo $i_{\\text{max}} = 180/40 = 4{,}5\\ \\text{A}$."
+      }
+    },
+    "8": {
+      "resposta": "**Objetivo da questão:** Avaliar conhecimentos de potência, energia e habilidade de leitura de gráficos e de realização de cálculos de grandezas físicas envolvendo potências de 10.",
+      "itens": {
+        "a": "![Esquema com a estrela A e a estrela B, o espelho esférico, o ponto F, os raios 1 e 2 e, em magenta, os dois raios refletidos pelo espelho](fig:r25-c1)",
+        "b": "A altura da imagem estará no ponto de cruzamento dos dois raios refletidos. Por relações trigonométricas ou pelas “lei dos espelhos esféricos”(equação de Gauss), temos que a distância $D_I$ em que a imagem se forma é dada por\n\n$$\\frac{1}{d} = \\frac{1}{D_I} + \\frac{1}{D} \\Rightarrow \\frac{D_I}{D} = \\frac{d}{D - d}.$$\n\nPor semelhança de triângulos,\n\n$$A = \\frac{H_I}{H} = \\frac{D_I}{D} = \\frac{d}{D - d}.$$",
+        "c": "Se o segundo espelho tiver distância focal $2d$, o aumento será:\n\n$$A_2 = \\frac{2d}{D - 2d}.$$\n\nde modo que a razão entre os aumentos será:\n\n$$\\frac{A_2}{A} = 2\\,\\frac{(D - d)}{D - 2d}.$$"
+      }
+    },
+    "9": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos de hidrostática e do comportamento de gases ideais.",
+      "itens": {
+        "a": "Calcula-se a densidade total do conjunto mergulhador+cilindro, que resulta em 9/8 kg/L = 1,125 kg/L, de onde se conclui que, sendo essa densidade maior do que a da água (1,0 kg/L), o conjunto **afunda**",
+        "b": "Sendo $p_0$ a pressão na superfície da água, a pressão varia com a profundidade segundo a Lei de Stevin $p = p_0 + \\rho g h$, de modo que $h = (p - p_0)/\\rho g = 1{,}0 \\times 10^5 / (1{,}0 \\times 10^3 \\cdot 10) = 10\\ \\text{m}$.",
+        "c": "Não havendo perda de ar na bolha durante a subida, temos, pela Lei dos Gases Ideais, $p_0 V_0/T_0 = p_1 V_1/T_1$. Logo, $V_0/V_1 = (p_1/p_0) \\times (T_0/T_1)$. Lembrando que as temperaturas nessas expressões devem ser absolutas (em Kelvin), temos $T_0 = 273 + 27 = 300\\ \\text{K}$ e $T_1 = 273 + 7 = 280\\ \\text{K}$, portanto $V_0/V_1 = (2{,}8/1{,}0) \\times (300/280) = 3{,}0$."
+      }
+    }
+  }
+}

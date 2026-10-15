@@ -142,7 +142,76 @@
           "texto": "Um dos métodos utilizados para quantificar proteínas é o método de Kjeldahl, no qual é realizada a determinação da quantidade de matéria nitrogenada total em uma amostra. Esse método consiste em degradar toda a proteína de forma que todos os átomos de nitrogênio da amostra sejam convertidos em sulfato de amônio.\n\nConsidere uma amostra de 550,2 mg de um peptídeo de fórmula molecular $\\text{C}_{123}\\text{H}_{193}\\text{N}_{35}\\text{O}_{37}$ que foi submetida ao método de Kjeldahl. Calcule a quantidade total máxima de mols de sulfato de amônio ($(\\text{NH}_4)_2\\text{SO}_4$) que seria produzida pela análise dessa amostra utilizando esse método."
         }
       ],
-      "observacoes": "O parágrafo sobre o método de Kjeldahl é impresso entre os itens b e c; foi colocado no início do texto do item c para manter a ordem do caderno. A fórmula C123H193N35O37 aparece em tamanho diferente no \"Note e adote\" do caderno, mas é a mesma fórmula."
+      "observacoes": "O parágrafo sobre o método de Kjeldahl é impresso entre os itens b e c; foi colocado no início do texto do item c para manter a ordem do caderno."
+    },
+    {
+      "numero": 16,
+      "codigo": "Q04",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os acontecimentos globais recentes mostraram a importância da oferta de fertilizantes nitrogenados, como amônia e ureia, para a manutenção da segurança alimentar da população mundial. As mudanças na disponibilidade de gás natural impactam diretamente a produção de fertilizantes nitrogenados. As reações a seguir mostram o processo de formação de amônia e ureia a partir do gás natural:\n\n(I) $\\text{CH}_4(\\text{g}) + \\text{H}_2\\text{O}(\\text{g}) \\rightarrow \\text{CO}(\\text{g}) + 3\\text{H}_2(\\text{g})$\n(II) $\\text{N}_2(\\text{g}) + 3\\text{H}_2(\\text{g}) \\rightarrow 2\\text{NH}_3(\\text{g})$\n(III) $\\text{CO}_2(\\text{g}) + 2\\text{NH}_3(\\text{g}) \\rightarrow \\text{CO(NH}_2)_2(\\text{s}) + \\text{H}_2\\text{O}(\\text{g})$\n\nCom base nessas informações e seus conhecimentos, responda:\n\n**Note e adote:** Massas molares (g/mol): H = 1; C = 12; N = 14; O = 16.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual o principal componente do gás natural utilizado na produção de fertilizantes nitrogenados?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Uma outra forma de gerar $\\text{H}_2$ para a reação II é por meio da eletrólise da água utilizando energia solar. Escreva a equação balanceada da reação de eletrólise da água. Dê um argumento que justifique essa fonte de hidrogênio tornar o processo mais sustentável."
+        },
+        {
+          "rotulo": "c",
+          "texto": "O Brasil consome cerca de 6 milhões de toneladas de ureia por ano. Considerando que toda a produção de ureia tenha o metano como partida, qual a massa, em toneladas, de gás natural necessária para a obtenção de 6 milhões de toneladas de ureia? Considere que o metano corresponde a 50%, em massa, de gás natural."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "codigo": "Q05",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O escurecimento de joias e artigos de prata ocorre devido à reação da prata, na presença de oxigênio atmosférico, com compostos de enxofre presentes no próprio ambiente, formando o sulfeto de prata, que é um composto de coloração preta. Essa reação é representada a seguir:\n\n$4\\text{Ag}(\\text{s}) + \\text{O}_2(\\text{g}) + 2\\text{S}^{2-}(\\text{aq}) + 4\\text{H}^+(\\text{aq}) \\rightarrow 2\\text{Ag}_2\\text{S}(\\text{s}) + 2\\text{H}_2\\text{O}(\\ell)$\n\nUma das receitas caseiras para o clareamento da prata é descrita a seguir:\n1. Adicionar uma solução aquecida de água, sal de cozinha e bicarbonato de sódio em um recipiente forrado internamente com papel alumínio;\n2. Adicionar o objeto de prata no recipiente com a solução e deixar reagir por 3 minutos;\n3. Retirar o objeto de prata, lavar com água em abundância e secar.\n\nConsiderando que os potenciais padrão de redução do $\\text{A}\\ell^{3+}$ e do $\\text{Ag}_2\\text{S}$ são:\n\n$\\text{A}\\ell^{3+}(\\text{aq}) + 3\\text{e}^- \\rightleftharpoons \\text{A}\\ell(\\text{s}) \\qquad E^\\circ = -1{,}66\\ \\text{V}$\n$\\text{Ag}_2\\text{S}(\\text{s}) + 2\\text{e}^- \\rightleftharpoons 2\\text{Ag}(\\text{s}) + \\text{S}^{2-}(\\text{aq}) \\qquad E^\\circ = -0{,}69\\ \\text{V}$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Escreva, no quadro da folha de respostas, o número de oxidação da prata antes do escurecimento e no composto formado depois do escurecimento."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Escreva a equação global balanceada e calcule a diferença de potencial da reação de clareamento da prata (restituição da prata metálica)."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Outra receita caseira envolve o uso de pasta de dente, que contém fluoreto, na limpeza de objetos de prata por abrasão e polimento da sua superfície. Considerando que o potencial de redução ($E^\\circ$) do flúor é de $+2{,}87\\ \\text{V}$, a presença de fluoreto contribui para a limpeza da prata? Justifique com base no potencial da reação global."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "codigo": "Q06",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um processo típico de adulteração do leite envolve uma simples diluição com água. Essa adulteração pode ser avaliada pela quantidade de proteína na amostra. Segundo pesquisadores do CENA-USP (Centro de Energia Nuclear na Agricultura da Universidade São Paulo), as proteínas do leite podem ser precipitadas com sulfato de cobre em meio salino por efeito dos íons $\\text{Cu}^{2+}$. Pela quantidade de $\\text{Cu}^{2+}$ remanescente em solução, é possível calcular, por diferença, a quantidade de proteína na amostra.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Esboce, na folha de respostas, um gráfico da variação da concentração de proteína em função do volume de água adicionado ao leite."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Suponha que uma amostra de 1L de leite não adulterado foi tratada com uma certa quantidade de sulfato de cobre, de modo que toda a proteína presente na amostra fosse precipitada. Se essa mesma quantidade de sulfato de cobre for utilizada em 1L de uma amostra de leite adulterado por diluição, a solução remanescente terá menor, maior ou a mesma concentração de $\\text{Cu}^{2+}$ livre em solução? Justifique."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Uma forma de quantificar os íons $\\text{Cu}^{2+}$ na solução remanescente é por meio de titulação utilizando um agente complexante como o EDTA, que se liga ao $\\text{Cu}^{2+}$ formando um complexo estável de coloração azul. Sabendo que o ponto final da titulação de 10 mL da solução remanescente ocorre quando 25 mL de EDTA 0,01 mol/L são utilizados para complexar o $\\text{Cu}^{2+}$, calcule a concentração de $\\text{Cu}^{2+}$, em mol/L, nessa solução, considerando que a estequiometria do $\\text{Cu}^{2+}$ com EDTA é de 1:1, ou seja, na viragem, o número de mols de EDTA e de $\\text{Cu}^{2+}$ são iguais."
+        }
+      ],
+      "observacoes": ""
     }
   ],
   "respostas": {
@@ -192,6 +261,30 @@
         "a": "![Estrutura do subproduto: dois anéis de seis carbonos ligados, cada um, a um grupo NH, com os dois NH unidos a um carbono com ligação dupla a oxigênio](fig:r37-c1)",
         "b": "| | Tipo de interação intermolecular com a água |\n|---|---|\n| EDC | íon - dipolo permanente |\n| DCC | dipolo-permanente - dipolo permanente (London – London) |",
         "c": "Cálculo da quantidade (q) total máxima de mols de sulfato de amônio:\nMols de peptídeo = 0,5502/ 2751 = 2.10⁻⁴.\nMols de N por peptídeo = 35 × 2.10⁻⁴ = 7 × 10⁻³\nCada sulfato de amônio possui 2 N: $(\\text{NH}_4)_2\\text{SO}_4$.\nLogo, q = 3,5 × 10⁻³ mols de sulfato de amônio."
+      }
+    },
+    "16": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre reações químicas e cálculos estequiométricos, bem como a capacidade de analisar problemas atuais relacionados aos combustíveis fósseis.",
+      "itens": {
+        "a": "O metano ($\\text{CH}_4$) é o principal componente do gás natural utilizado na produção de fertilizantes nitrogenados.",
+        "b": "Equação balanceada da reação de eletrólise da água:\n$2\\ \\text{H}_2\\text{O}(\\ell) \\rightarrow 2\\ \\text{H}_2(\\text{g}) + 1\\ \\text{O}_2(\\text{g})$\n\nO processo é mais sustentável porque não utiliza combustíveis fósseis, mas sim energia solar.",
+        "c": "Cálculo da massa (m) de gás natural:\n$6 \\times 10^{12}$ g de ureia (MM = 60 g/mol) = $1 \\times 10^{11}$ mol\n1 ureia : 1 $\\text{CH}_4$ (MM = 16 g/mol)\n$1 \\times 10^{11}$ mol de $\\text{CH}_4$ = $1{,}6 \\times 10^{12}$ g = $1{,}6 \\times 10^6$ t de $\\text{CH}_4$.\nComo o metano corresponde a 50%, em massa, de gás natural, m = $3{,}2 \\times 10^6$ t."
+      }
+    },
+    "17": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre eletroquímica envolvidos na química do cotidiano.",
+      "itens": {
+        "a": "![Tabela com o título Número de oxidação e duas colunas: antes do escurecimento, 0; depois do escurecimento, +1](fig:r40-c1)",
+        "b": "Equação global balanceada da reação de clareamento da prata:\n$2\\ \\text{A}\\ell(\\text{s}) + 3\\ \\text{Ag}_2\\text{S}(\\text{s}) \\rightarrow 2\\ \\text{A}\\ell^{3+}(\\text{aq}) + 3\\ \\text{S}^{2-}(\\text{aq}) + 6\\ \\text{Ag}(\\text{s})$\n\nDiferença de potencial: $E^\\circ = +1{,}66 - 0{,}69 = +0{,}97\\ \\text{V}$",
+        "c": "A presença de fluoreto não contribui para a limpeza da prata, pois o potencial da reação global de redução do $\\text{Ag}_2\\text{S}$ com $\\text{F}^-$ é negativo, o que significa que ela não é espontânea.\n\n$\\text{Ag}_2\\text{S}(\\text{s}) + 2\\text{F}^-(\\text{aq}) \\rightarrow 2\\ \\text{Ag}(\\text{s}) + \\text{S}^{2-}(\\text{aq}) + \\text{F}_2(\\text{g})$\n\n$E^\\circ = -2{,}87 - 0{,}69 = -3{,}56\\ \\text{V}$"
+      }
+    },
+    "18": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre diluição e cálculos estequiométricos, bem como a capacidade de aplicar conceitos de química analítica para resolução de problemas cotidianos, com uso de representação gráfica para apresentação de resultados.",
+      "itens": {
+        "a": "A concentração de proteína diminui conforme aumenta o volume de água adicionado. Qualquer gráfico com curva descendente é aceito para representar essa diluição.\n\n![Gráfico com eixo vertical Concentração de proteína e eixo horizontal Volume de água adicionado, com curva descendente partindo de um valor positivo em 0](fig:r41-c1)",
+        "b": "A solução terá maior concentração de $\\text{Cu}^{2+}$ livre, pois a quantidade de proteína presente será menor, necessitando de menos $\\text{Cu}^{2+}$ e, portanto, sobrará $\\text{Cu}^{2+}$ livre em solução.",
+        "c": "Cálculo da concentração (c) de $\\text{Cu}^{2+}$:\nComo a estequiometria da reação é de 1:1, então n $\\text{Cu}^{2+}$ = n EDTA, ou seja,\n0,01 mol/L × 0,025 L = 0,00025 mol de $\\text{Cu}^{2+}$ na solução remanescente.\nLogo, c = 0,00025 mol de $\\text{Cu}^{2+}$ /0,001 L = 0,25 mol/L."
       }
     }
   }
