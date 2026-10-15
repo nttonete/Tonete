@@ -1,0 +1,237 @@
+{
+ "edicao": "unicamp-2019-2-d3",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 1,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A fermentação de alimentos ricos em açúcares é um processo prejudicial à saúde bucal, pois promove um ataque químico ao esmalte dos dentes. A parte inorgânica dos dentes é formada por uma substância chamada hidroxiapatita, que, em um ambiente bucal saudável, apresenta baixa solubilidade. Essa solubilidade pode ser equacionada da seguinte forma:\n\n$$\\text{Ca}_5(\\text{PO}_4)_3\\text{OH(s)} + \\text{aq} = 5\\,\\text{Ca}^{2+}\\text{(aq)} + 3\\,\\text{PO}_4^{3-}\\text{(aq)} + \\text{OH}^{-}\\text{(aq)}; \\quad K_{\\text{ps}} = 1{,}8 \\times 10^{-58}.$$\n\n![Gráfico do pH em função do tempo decorrido após a ingestão de alimento (min), de 0 a 40 min, com três curvas: x em linha contínua, y tracejada e z pontilhada](fig:p03-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Algumas características da saliva se alteram na presença de alimentos. Considerando que o prejuízo aos dentes causado pela ingestão de diferentes fontes de açúcar obedece à ordem cana > frutas > mel, preencha com as palavras <u>cana</u>, <u>frutas</u> e <u>mel</u> a tabela do espaço de respostas e <u>explique</u> em que se baseou a sua escolha.\n\n*Campo de resolução:*\n\n| Curva | Alimento |\n|---|---|\n| x | |\n| y | |\n| z | |"
+    },
+    {
+     "rotulo": "b",
+     "texto": "O uso de água fluoretada e de produtos com flúor é recomendado para a saúde bucal. Explique a vantagem do uso do fluoreto levando em conta a equação informada acima e a equação de dissolução da fluoroapatita abaixo; indique também possíveis correlações entre essas equações.\n\n$$\\text{Ca}_5(\\text{PO}_4)_3\\text{F(s)} + \\text{aq} = 5\\,\\text{Ca}^{2+}\\text{(aq)} + 3\\,\\text{PO}_4^{3-}\\text{(aq)} + \\text{F}^{-}\\text{(aq)}; \\quad K_{\\text{ps}} = 8 \\times 10^{-60}$$"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 2,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A pesquisa em alimentos está sempre à procura de novos produtos, ou novas formulações para antigos produtos, tanto para melhorar sua qualidade quanto para ampliar as opções do consumidor. Um estudo recente, realizado pela Faculdade de Engenharia de Alimentos da UNICAMP, avaliou a preparação de mortadela com diferentes formulações (F). Alguns resultados desse trabalho são apresentados na tabela abaixo.\n\n![Tabela “Contagem total de bactérias (UFC/g) para três formulações em função do tempo”: formulações F1, F2 e F3 nos tempos de 15, 30 e 60 dias. F1: <10; 1,3x10²; 7,2x10⁴. F2: <10; 3,5x10²; 5,6x10⁵. F3: 4,5x10²; 3,0x10²; 3,1x10⁶](fig:p04-c1)\n\n**Dados:**\n**F1:** 2% de NaCl; controle.\n**F2:** 1% de NaCl, 0,5% de KCl e 0,5% de $\\text{CaCl}_2$.\n**F3:** 1% de NaCl.\n**UFC:** unidades formadoras de colônias (tomar como sinônimo de quantidade de microrganismos).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando os resultados apresentados e seus conhecimentos, cite e comente <u>dois objetivos</u> possíveis desse estudo com relação ao NaCl."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique <u>uma conclusão</u> que se pode extrair desse estudo. Escolha e compare duas formulações para justificar sua resposta."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 3,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O bioplástico PLA (poliácido lático) é obtido pela polimerização do ácido lático ($\\text{C}_3\\text{H}_6\\text{O}_3$), um insumo que geralmente se origina da fermentação de açúcares provenientes do milho ou da cana-de-açúcar. Esse bioplástico é fabricado em larga escala em plantas industriais que funcionam à base de óleo cru, carvão ou gás natural. O PLA já é hoje uma realidade comercial, logo é importante que ele seja claramente identificado na embalagem para facilitar a sua distinção entre outros plásticos. Ao ser descartado em ambientes com muito oxigênio e na presença de microrganismos, esse bioplástico é rapidamente oxidado a gás carbônico e água. Contudo, em ambientes com pouco oxigênio, como aterros sanitários, o PLA se decompõe muito lentamente ao reagir com a umidade, formando gás carbônico e metano.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Levando em conta as informações do texto, cite e comente <u>uma desvantagem da produção do PLA</u> e escreva a equação química para a formação do dímero desse ácido, sabendo que ele é obtido por uma condensação (com a liberação de água)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Levando em conta as informações do texto, cite e comente <u>uma desvantagem do pós-consumo do PLA</u> e escreva a equação química para uma das formas de decomposição do dímero do ácido lático."
+    }
+   ],
+   "observacoes": "No objetivo da prova comentada, a frase “A análise um problema oriundo da atividade humana...” está assim no original (falta uma preposição)."
+  },
+  {
+   "numero": 4,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em um estudo recente, que avaliou a toxicidade em células humanas de pesticidas eficazes no combate a pragas, comenta-se: “pesticidas são usados no mundo todo como misturas denominadas formulações. Essas misturas contêm adjuvantes, frequentemente mantidos como confidenciais e chamados de inertes pela indústria produtora. As formulações também incluem um princípio ativo, que é frequentemente testado sozinho.” A figura a seguir mostra parte dos resultados obtidos no referido estudo.\n\n![Três gráficos lado a lado, Pesticida A, Pesticida B e Pesticida C, da porcentagem de células vivas em função da concentração (ppm de princípio ativo); cada gráfico tem uma curva contínua (formulação), uma tracejada (princípio ativo puro) e linhas horizontais pontilhadas em 100 e em 50](fig:p06-c1)\n\n(Adaptado de *BioMed Research International* 2014, 1-8.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando as informações dadas, indique em qual condição experimental as células humanas foram mais afetadas. Justifique sua resposta com base nos gráficos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O parágrafo 11 do artigo 3º do PL Nº 6.299, de 2002 (conhecido como “Lei do Veneno”), estabelece: “As condições a serem observadas para a autorização de uso de pesticidas de controle ambiental e afins deverão considerar os limites máximos de resíduos estabelecidos nas monografias de ingrediente ativo publicadas pelo órgão federal de saúde.” Pensando na saúde humana, que recomendação técnica você daria a um deputado que fosse votar essa lei, especificamente para esse parágrafo? Justifique levando em conta as informações dos gráficos e do enunciado."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 5,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O abacateiro é originário do México e da América Central, sendo uma das plantas mais produtivas por unidade de área de cultivo. Nas diferentes variedades encontradas no Brasil, os frutos têm composição bem variada. A tabela abaixo mostra alguns atributos dos frutos de duas diferentes espécies (informações relativas a 100 g de polpa). A energia a que se refere a tabela, popularmente conhecida como conteúdo (valor) energético, corresponde à energia de metabolismo dos ingredientes presentes na polpa do abacate.\n\n| Atributo | Avocado | Guatemala |\n|---|---|---|\n| proteínas / g | 1,1 | 1,8 |\n| lipídios / g | 10,2 | 7,4 |\n| carboidratos / g | 8,9 | 7,3 |\n| energia / kJ | 544 | 412 |\n\n(Adaptado de *Ciência e Tecnologia de Alimentos*, Campinas, v. 32, n. 2, p. 274-280, abr.-jun., 2012.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Levando em conta a tabela, calcule os valores de energias associadas a carboidratos e a lipídios em kJ por grama, considerando que as energias correspondentes a proteínas e a carboidratos são aproximadamente iguais. Apresente seus cálculos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma antiga receita de sabão de abacate propõe, entre outros ingredientes e procedimentos, o aquecimento da polpa da fruta na presença de soda cáustica (NaOH). Levando em conta as informações dadas, escolha um dos componentes presentes no abacate que leve à formação do produto desejado e escreva a equação química correspondente, empregando a estrutura química apropriada.\n\nEstruturas químicas dos componentes do abacate:\n\n![Três estruturas químicas: uma cadeia repetida entre colchetes, com átomos de N, O e grupos R; um composto com três carbonos ligados a átomos de H, cada um com um grupo O–C(=O)–R; e uma cadeia repetida entre colchetes de dois anéis de seis membros ligados por oxigênio, com grupos CH₂OH, OH e H](fig:p07-c3)"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 6,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A reação de evolução de oxigênio (REO) e a reação de evolução de cloro (REC) são dois processos eletroquímicos de alta relevância na decomposição da água para a conversão da energia solar e na produção de insumos químicos, respectivamente. Realizar esses dois processos separadamente é um grande desafio quando se trata do uso de água do mar.\n\nAssim começa o resumo de um estudo recente, em que pesquisadores investigaram a construção de um eletrodo para a eletrólise da água do mar em baixo valor de pH. Sabe-se que, nas condições avaliadas, o IrOx promove as duas reações (REO e REC) e é permeável a todas as espécies presentes na água do mar, ao passo que o MnOx não promove nenhuma das duas reações e é impermeável aos íons cloreto.\n\n(Adaptado de *The Journal of the American Chemical Society*, v. 140, p. 10270-10281, 2018.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Do ponto de vista químico, por que utilizar a água do mar seria um desafio? E por que vencer esse desafio seria útil à sociedade?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Os pesquisadores foram bem sucedidos no objetivo experimental ao empregar os dois óxidos na construção do anodo para a eletrólise da água do mar. Complete os espaços em branco da figura abaixo utilizando as opções fornecidas, de forma a ilustrar corretamente o resultado obtido nesse estudo.\n\n*Campo de resolução:*\n\n![Esquema de um anodo com carbono vítreo na base, coberto por uma camada clara e outra escura; duas setas ligam as camadas a duas caixas em branco. À direita, caixas em branco para Reagente(s) e Produto(s), com o texto “Equação da semirreação” e a frase “Completar utilizando as seguintes opções: IrOx, MnOx, H2O, H+, H2, Cl2, Cl-, e-, O2.”](fig:p08-c2)"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 7,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nos cruzamentos de avenidas das grandes cidades é comum encontrarmos, além dos semáforos tradicionais de controle de tráfego de carros, semáforos de fluxo de pedestres, com cronômetros digitais que marcam o tempo para a travessia na faixa de pedestres.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No instante em que o semáforo de pedestres se torna verde e o cronômetro inicia a contagem regressiva, uma pessoa encontra-se a uma distância $d = 20\\ \\text{m}$ do ponto de início da faixa de pedestres, caminhando a uma velocidade inicial $v_0 = 0{,}5\\ \\text{m/s}$. Sabendo que ela inicia a travessia da avenida com velocidade $v = 1{,}5\\ \\text{m/s}$, calcule a sua aceleração constante no seu deslocamento em linha reta até o início da faixa."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere agora uma pessoa que atravessa a avenida na faixa de pedestres, partindo de um lado da avenida com velocidade inicial $v_0 = 0{,}4\\ \\text{m/s}$ e chegando ao outro lado com velocidade final $v = 1{,}2\\ \\text{m/s}$. O pedestre realiza todo o percurso com aceleração constante em um intervalo de tempo de $t = 15\\ \\text{s}$. Construa o gráfico da velocidade do pedestre em função do tempo e, a partir do gráfico, calcule a largura da avenida."
+    }
+   ],
+   "observacoes": "Na prova comentada oficial, o objetivo do item b diz “gráfico da posição do pedestre em função do tempo”, embora o enunciado peça o gráfico da velocidade; mantido como está no original."
+  },
+  {
+   "numero": 8,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em agosto de 2018 a Nasa lançou a Sonda Solar Parker, destinada a investigar o Sol, passando pela coroa solar. A sonda seguirá uma trajetória dando várias voltas em torno do Sol, em órbitas elípticas com grande excentricidade.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere um corpo que descreve uma órbita elíptica em torno do Sol, como ilustra a figura A. A área da elipse varrida pela linha que liga o corpo ao Sol no trecho 2 é o dobro da área varrida no trecho 1 ($A_2 = 2 \\times A_1$); já as distâncias percorridas nos trechos são tais que $d_2 = 0{,}8 \\times d_1$. Se a velocidade escalar média do corpo no trecho 1 é igual a $v_1 = 172.000\\ \\text{km/h}$, quanto vale a velocidade escalar média no trecho 2?\n\n![Figura A: elipse com o Sol em um dos focos; região sombreada A₁ do lado esquerdo, com distância d₁, e região sombreada A₂ do lado direito, com distância d₂](fig:p10-f2)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A sonda terá sua velocidade modificada (sem consumo adicional de combustível) nas passagens próximas ao planeta Vênus, explorando o efeito conhecido como catapulta gravitacional. Para ilustrar esse efeito, considere dois corpos de massas $M$ e $m$, inicialmente com velocidades de mesmo módulo ($v_0$), mesma direção e sentidos contrários. Após a aproximação, os corpos se afastam com velocidades de módulos $V_A$ e $V_B$, seguindo na mesma direção inicial, conforme mostra a figura B. Como a energia cinética se conserva, a velocidade de afastamento dos corpos é igual à de aproximação: $2v_0 = V_B - V_A$. Encontre a velocidade $V_B$ da massa $m$ em termos de $M$, $m$ e $v_0$. Em seguida, use $M = 100m$ e encontre a razão $V_B/v_0$.\n\n![Figura B: dois esquemas, “antes” e “depois”, com a massa M à esquerda e a massa m à direita; antes, M tem velocidade v₀ para a direita e m tem velocidade −v₀ para a esquerda; depois, M tem velocidade V_A para a direita e m tem velocidade V_B para a direita](fig:p10-f3)"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nas proximidades do Sol, a Sonda Solar Parker estará exposta a altas intensidades de radiação e a altas temperaturas. Diversos dispositivos serão usados para evitar o aquecimento excessivo dos equipamentos a bordo da sonda, entre eles um sistema de refrigeração. Um refrigerador opera através da execução de ciclos termodinâmicos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere o ciclo termodinâmico representado abaixo para um gás ideal, em que $V_2 = 1{,}5\\ V_1$ e $T_1 = 200\\ \\text{K}$. Calcule a temperatura $T_3$.\n\n![Gráfico do ciclo termodinâmico, com pressão no eixo vertical (P₁ e P₄ indicados) e volume no eixo horizontal (V₁ e V₂ indicados), sobre uma grade tracejada: quatro pontos numerados de 1 a 4 ligados por setas, com o trecho entre os pontos 2 e 3 rotulado “isoterma”](fig:p11-c2)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A partir do gráfico, estime o módulo do trabalho realizado sobre o gás em um ciclo, em termos apenas de $V_1$, $V_2$, $P_1$ e $P_4$."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "1": {
+   "resposta": "**Objetivo da questão:** Essa questão trata de um assunto do cotidiano, o ataque químico ao esmalte dos dentes e seu combate pelo uso de fluoreto na higiene bucal. O item a aponta uma sequência de prejuízo aos dentes, relativos à ingestão de diferentes fontes de açúcares. A fermentação desses açúcares pode modificar o pH bucal pela geração de espécies ácidas e, com isso, é possível avaliar a extensão do ataque químico dos ácidos ao esmalte natural dos dentes. O item b destaca uma das possíveis formas de diminuir esse ataque ao esmalte dos dentes pela formação de uma camada protetora de fluorapatita pelo uso de fluoreto.",
+   "itens": {
+    "a": "(2 pontos)\n\n| Curva | Alimento |\n|---|---|\n| x | mel |\n| y | frutas |\n| z | cana |\n\nConforme o enunciado da questão, a fermentação do açúcar leva ao ataque químico da hidroxiapatita. Sabendo que a fermentação leva à formação de ácidos, conclui-se que o meio ácido promove a dissolução da hidroxiapatita. Ainda de acordo com o enunciado, o prejuízo ao esmalte segue a ordem cana > frutas > mel. No gráfico, a curva z é a que representa maior acidez (menor valor de pH), por um período maior de tempo após a sua ingestão, devendo, desta forma, corresponder à cana. Na sequência viriam as curvas y e x, correspondentes às frutas e ao mel, respectivamente.",
+    "b": "(2 pontos)\n\nO uso de fluoreto tem como vantagem a formação da fluoroapatita, uma substância com menor solubilidade que a hidroxiapatita, como indicam os valores de $K_{\\text{ps}}$. Conforme as equações, a dissolução da hidroxiapatita (primeira equação) leva à formação de íons cálcio e fosfato. Na presença de íons fluoreto, forma-se a fluoroapatita, como mostra a segunda equação."
+   }
+  },
+  "2": {
+   "resposta": "**Objetivo da questão:** Essa questão exige fundamentalmente leitura e interpretação de informações, no sentido de entender uma das formas de se conduzir uma pesquisa científica e interpretar os resultados obtidos por ela; ou seja, ela trata do método científico. A questão se baseia numa pesquisa em que se estuda a possibilidade de diminuição da quantidade de NaCl em formulações de mortadela, ou na substituição desse sal por outros. É provável que a motivação inicial da pesquisa tenha sido diminuir o consumo de NaCl por parte da população, no sentido de contribuir para a diminuição dos casos de doenças associadas ao uso excessivo de sal. A questão, em si, não exige essa leitura ou interpretação nas respostas aos itens. O texto fornece apenas informações sobre o crescimento bacteriano nas diversas formulações do produto, o que significa que as respostas exigem apenas interpretações desses dados. No entanto, em sala de aula, seria interessante que a questão da saúde associada ao consumo excessivo de sódio também viesse à tona, tanto no sentido de tornar o assunto multidisciplinar, como também na discussão do papel da Ciência para a sociedade e de sua forma de construção do conhecimento.",
+   "itens": {
+    "a": "(2 pontos)\n\nDe acordo com os dados fornecidos, a formulação F1 é o controle e, portanto, as formulações F2 e F3 contemplariam as modificações do produto (mortadela) para a avaliação de algumas variáveis relativas aos objetivos do estudo. Assim, comparando-se F1 e F2, observa-se que um objetivo é avaliar a substituição de NaCl por outros sais. Comparando-se F1 e F3, observa-se que outro objetivo é avaliar a diminuição da quantidade de NaCl. Esses objetivos foram avaliados pelo acompanhamento do crescimento bacteriano na mortadela em função do tempo.",
+    "b": "(2 pontos)\n\nPode-se chegar a uma conclusão comparando-se o crescimento bacteriano em função do tempo nas formulações F1 e F2. Nesse caso, com a substituição do NaCl por outros sais observa-se um maior crescimento bacteriano na F2 em períodos mais longos que 15 dias.\n\nOU\n\nPode-se chegar a uma conclusão comparando-se o crescimento bacteriano em função do tempo nas formulações F1 e F3. Nesse caso, com a diminuição da quantidade de NaCl, observa-se um maior crescimento bacteriano na F3 em períodos mais longos que 15 dias."
+   }
+  },
+  "3": {
+   "resposta": "**Objetivo da questão:** A análise um problema oriundo da atividade humana não é tão trivial como se pode imaginar. Uma análise superficial pode levar a conclusões totalmente erradas, quando não se baseia em dados robustos. A questão ambiental da produção, consumo e deposição de plásticos é um problema sério para o ambiente e de análise bem complexa. Uma das opções que a sociedade moderna tem procurado para diminuir o problema dos plásticos oriundos do petróleo é buscar alternativas nos bioplásticos, materiais oriundos de matérias primas renováveis. No entanto, quando se analisam todas as condições de produção e deposição desse material, os resultados podem não ser tão animadores. Nesse sentido, essa questão mostra algumas possíveis vantagens e desvantagens na substituição dos plásticos convencionais por bioplásticos. Afinal, a Ciência e a Tecnologia propõem soluções, mas é a sociedade (o cidadão) que deve decidir se a solução proposta atende aos seus anseios. O texto da questão 3 dá algumas informações sobre a forma de produção do PLA (poli ácido lático) e de sua deposição em aterros sanitários ou sua reciclagem. A questão é bem enfática ao relatar aspectos negativos e positivos na utilização desse produto e deixa por conta do leitor destacar e discorrer sobre essas vantagens e desvantagens, cabendo a ele o julgamento final sobre sua adoção ou não. É desse modo que o ensino de Ciências contribui para a formação do cidadão. É claro que é preciso dar informações e ensinar a forma adequada de processá-las, mas cabe ao cidadão decidir o que pode ser bom ou não coletivamente. Vale notar que muitas coisas que parecem ser boas individualmente são altamente prejudiciais coletivamente.",
+   "itens": {
+    "a": "(2 pontos)\n\n**Desvantagem:** O PLA é fabricado em plantas industriais que funcionam à base de óleo cru, carvão ou gás natural, ou seja, com o uso de recursos não renováveis. A queima desses combustíveis libera gases prejudiciais ao meio ambiente.\n\n**Equação:**\n\n$2\\,\\text{C}_5\\text{H}_{10}\\text{O}_3 \\rightarrow \\text{C}_{10}\\text{H}_{18}\\text{O}_5 + \\text{H}_2\\text{O}$ (fórmula do PLA fornecida no texto)\n\nOU\n\n$2\\,\\text{C}_3\\text{H}_6\\text{O}_3 \\rightarrow \\text{C}_6\\text{H}_{10}\\text{O}_5 + \\text{H}_2\\text{O}$ (fórmula correta do PLA)",
+    "b": "(2 pontos)\n\n**Desvantagem:** Em ambientes com pouco oxigênio, o PLA se degrada formando metano, um gás associado ao efeito estufa.\n\n**Equação:**\n\n$\\text{C}_{10}\\text{H}_{18}\\text{O}_5 + 12\\,\\text{O}_2 \\rightarrow 10\\,\\text{CO}_2 + 9\\,\\text{H}_2\\text{O}$ (fórmula do PLA fornecida no texto)\n\nOU\n\n$\\text{C}_6\\text{H}_{10}\\text{O}_5 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$ (fórmula correta do PLA)\n\nOU\n\n$\\text{C}_{10}\\text{H}_{18}\\text{O}_5 + 3\\,\\text{H}_2\\text{O} \\rightarrow 4\\,\\text{CO}_2 + 6\\,\\text{CH}_4$ (fórmula do PLA fornecida no texto)\n\nOU\n\n$\\text{C}_6\\text{H}_{10}\\text{O}_5 + \\text{H}_2\\text{O} \\rightarrow 3\\,\\text{CO}_2 + 3\\,\\text{CH}_4$ (fórmula correta do PLA)"
+   }
+  },
+  "4": {
+   "resposta": "**Objetivo da questão:** Há pouco tempo, o congresso nacional esteve às voltas com a aprovação de um novo projeto de lei para regulamentar o uso de defensivos agrícolas no Brasil, conhecido como “lei do veneno”. Observou-se um embate político entre diversas frentes parlamentares, mormente entre os grupos dos ruralistas e o grupo dos ambientalistas. A discussão se origina das inúmeras visões e interesses que permeiam o tema, sendo que questões econômicas estão entre os fatores que promoveram a elaboração desse novo projeto. A prova de Química traz uma pequena contribuição à formação do nosso aluno no ensino médio, no momento em que introduz o tema na forma de um questionamento e traz informações relevantes sobre o cerne da lei. A questão toca num ponto nevrálgico dessa discussão quando dá informações sobre um estudo em que se avaliou a toxicidade de alguns pesticidas em células humanas. A questão traz um trecho resumido do estudo, relativo às conclusões a que os autores chegaram a partir dos resultados experimentais. O estudo original traz muitas outras informações, inclusive com identificações dos pesticidas utilizados.",
+   "itens": {
+    "a": "(2 pontos)\n\nAs células humanas foram mais afetadas pela aplicação dos pesticidas como formulação. Os gráficos mostram que, em relação aos três pesticidas, ocorreu maior porcentagem de morte celular com menores valores de concentração do princípio ativo quando se usa a formulação, mais do que quando se usa o princípio ativo puro.\n\nOU\n\nAs células humanas foram mais afetadas pela aplicação do pesticida C. Comparando-se os três gráficos, observa-se que, com o uso do pesticida C, ocorreu maior porcentagem de morte celular empregando-se menores valores de concentração do princípio ativo quando se usa a formulação.",
+    "b": "(2 pontos)\n\nSugestão: acrescentar ao parágrafo que os estudos sobre os pesticidas deveriam se basear em testes que empregam a formulação do pesticida e não apenas o princípio ativo puro. Isso porque o estudo científico mencionado na questão indicou que princípios ativos em conjunto com outros ingredientes presentes na formulação do produto comercial podem ser mais prejudiciais do que os princípios ativos puros."
+   }
+  },
+  "5": {
+   "resposta": "**Objetivo da questão:** A questão apresenta dados de conteúdo energético, ou seja, a energia associada ao metabolismo dos ingredientes contidos nos alimentos, em particular duas espécies de abacate, Avocado e Guatemala. Tal informação é facilmente encontrada em embalagens de alimentos e tem sido cada vez mais levada em consideração pelas pessoas, visando o consumo de alimentos menos calóricos. Esta questão aborda o tema termoquímica e estequiometria através da análise dos componentes proteínas, lipídios e carboidratos, os quais são compostos orgânicos.",
+   "itens": {
+    "a": "(2 pontos)\n\nSeja x a energia por grama associada a proteínas e y a energia por grama associada a lipídios. Usando os dados da tabela, pode-se montar um sistema de equações. Considerando que as energias associadas a proteínas e carboidratos são iguais (x):\n\n$(1{,}1 + 8{,}9)\\,x + 10{,}2\\,y = 544$ (Avocado)\n\n$(1{,}8 + 7{,}3)\\,x + 7{,}4\\,y = 412$ (Guatemala)\n\nResolvendo esse sistema de equações, obtém-se:\n\n$x = 9{,}4\\ \\text{kJ g}^{-1}$ (energia associada a carboidratos),\n\n$y = 44{,}1\\ \\text{kJ g}^{-1}$ (energia associada a lipídios).",
+    "b": "(2 pontos)\n\nO produto desejado é o sabão. Ele pode ser obtido pela reação de saponificação, que é uma reação de hidrólise de lipídios em meio básico para produzir glicerina e sais de ácido graxo (sabão). Portanto, deve ser escolhida a segunda estrutura fornecida (lipídio).\n\nA equação genérica da produção do sabão é:\n\n![Equação química: triéster de glicerol (três grupos O–C(=O)–R ligados a três carbonos) + 3 NaOH, seta, glicerol (três grupos OH) + 3 sais de sódio de ácido graxo (NaO–C(=O)–R)](fig:r07-c1)"
+   }
+  },
+  "6": {
+   "resposta": "**Objetivo da questão:** A questão está inserida no tema eletroquímica e apresenta um trabalho científico que visa a utilização da água do mar para realização de eletrólise, tema que tem aplicação direta na vida das pessoas. Tal processo pode ser utilizado, por exemplo, para a produção de energia limpa e insumos químicos, com impactos imediatos na sociedade. Esta questão tem por objetivo que se analise os possíveis problemas da utilização de água do mar para a eletrólise e exigiu do candidato uma análise crítica sobre tais problemas, em particular da presença de altas concentrações de íons cloreto na água do mar. Um outro aspecto da questão visa avaliar o entendimento do candidato sobre este problema e sobre a possível solução proposta pelos autores do trabalho (utilizar materiais que permitam que apenas uma das reações ocorra de forma seletiva).",
+   "itens": {
+    "a": "(2 pontos)\n\nO desafio em utilizar a água do mar está na realização dos dois processos (REO e REC) separadamente, considerando as altas concentrações de íons cloreto presentes na água do mar. Nesse caso, ocorreria a produção concomitante de $\\text{O}_2$ e de $\\text{Cl}_2$, o que não seria desejável. Portanto, o desafio é produzir $\\text{O}_2$ separadamente de $\\text{Cl}_2$. Isso permitiria, por exemplo, realizar separadamente a decomposição da água para a geração (transformação ou transferência) de energia limpa (hidrogênio produzido no cátodo é um combustível limpo). Por outro lado, a produção de $\\text{Cl}_2$ puro seria importante para a produção de vários insumos químicos.",
+    "b": "(2 pontos)\n\n![Esquema preenchido: a caixa da camada escura contém MnOx e a da camada clara contém IrOx; Reagente(s): 2 H2O; Produto(s): O2 + 4 H+ + 4 e-](fig:r08-c1)"
+   }
+  },
+  "7": {
+   "resposta": "**Objetivo da questão:**\n\n**a)** A questão aborda conceitos de movimento uniformemente acelerado contextualizados na utilização de cronômetros digitais para o controle de fluxo de pedestres nas grandes cidades. Nesse item, o candidato deveria calcular a aceleração de uma pessoa durante a travessia de uma avenida pela faixa de pedestres.\n\n**b)** Nesse item os mesmos conceitos são explorados de forma gráfica, devendo o candidato construir um gráfico da posição do pedestre em função do tempo, desde a posição inicial até chegar ao final da faixa de pedestres e, a partir do gráfico, calcular a largura da avenida.",
+   "itens": {
+    "a": "(2 pontos)\n\nA aceleração constante $a$ do pedestre no seu deslocamento em linha reta até o início da faixa de pedestres é\n\n$$a = \\frac{v^2 - v_0^2}{2d} = \\frac{1{,}5^2 - 0{,}5^2}{2 \\times 20} = \\frac{2}{2 \\times 20} = 0{,}05\\ \\text{m/s}^2.$$",
+    "b": "(2 pontos)\n\nO gráfico da velocidade do pedestre em função do tempo é mostrado na figura abaixo.\n\n![Gráfico da velocidade v (m/s) em função do tempo t (s), de 0 a 15 s: reta de 0,4 m/s em t = 0 até 1,2 m/s em t = 15 s, com a área abaixo da reta hachurada e rotulada A](fig:r01-c1)\n\nNo gráfico, a largura da avenida $d$ é dada pela área $A$ abaixo da curva que descreve a velocidade do pedestre em função do tempo:\n\n$$d = \\frac{0{,}4 + 1{,}2}{2} \\times 15 = 12\\ \\text{m}.$$"
+   }
+  },
+  "8": {
+   "resposta": "**Objetivo da questão:**\n\n**a)** Utilizando como contexto o lançamento de Sonda Solar Parker pela Nasa em agosto de 2018, esse item da questão exige conhecimento e utilização da segunda lei de Kepler sobre o movimento dos planetas em torno do Sol.\n\n**b)** Esse item explora os conceitos de conservação de energia e momento linear durante o efeito de catapulta gravitacional utilizado para alterar a velocidade da sonda.",
+   "itens": {
+    "a": "(2 pontos)\n\nA segunda lei de Kepler nos diz que a razão $\\frac{A}{\\Delta t}$, entre a área $A$ descrita por um vetor que liga o corpo ao Sol durante um intervalo de tempo $\\Delta t$, é uma constante. Assim, $\\frac{A_1}{\\Delta t_1} = \\frac{A_2}{\\Delta t_2}$. Desse modo, a velocidade escalar média no trecho 2 é dada por\n\n$$v_2 = \\frac{d_2}{\\Delta t_2} = \\left(\\frac{A_1}{A_2 \\Delta t_1}\\right)(0{,}8\\,d_1) = \\frac{A_1 \\times 0{,}8}{2A_1}\\,172000 = 68800\\ \\text{km/h}.$$",
+    "b": "(2 pontos)\n\nComo a energia cinética se conserva, a velocidade de afastamento dos corpos é igual à de aproximação: $2v_0 = V_B - V_A$. Assim, $V_A = V_B - 2v_0$. Além disso, pela conservação do momento linear, temos:\n\n$Mv_0 - mv_0 = MV_A + mV_B$,\n\n$Mv_0 - mv_0 = MV_B - 2Mv_0 + mV_B$,\n\n$3Mv_0 - mv_0 = MV_B + mV_B$,\n\n$$V_B = \\frac{3M - m}{M + m}\\,v_0.$$\n\nUsando $M = 100m$, temos\n\n$$\\frac{V_B}{v_0} = \\frac{299}{101} = 2{,}96.$$"
+   }
+  },
+  "9": {
+   "resposta": "**Objetivo da questão:**\n\n**a)** Ainda sobre o lançamento de Sonda Solar Parker, essa questão aborda a necessidade de refrigeração da sonda por causa do aquecimento decorrente da alta intensidade de radiação nas proximidades do Sol. Esse item da questão exige a utilização da lei dos gases ideais para se calcular a temperatura de um determinado estado em um ciclo termodinâmico.\n\n**b)** Esse item explora o conceito de trabalho em um ciclo termodinâmico, solicitando ao candidato que estime a área no interior desse ciclo.",
+   "itens": {
+    "a": "(2 pontos)\n\nPara o caso do gás ideal, podemos escrever $\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}$. Como $P_1 = P_2$ e $T_2 = T_3$, temos\n\n$$\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2} = \\frac{P_1V_2}{T_3},$$\n\n$$T_3 = \\left(\\frac{V_2}{V_1}\\right)T_1 = 1{,}5\\,T_1 = 1{,}5 \\times 200\\ \\text{K} = 300\\ \\text{K}.$$",
+    "b": "(2 pontos)\n\nA área de um dos retângulos da grade do gráfico onde o ciclo termodinâmico é representado é dada por\n\n$$A = \\frac{(P_4 - P_1)}{5}\\,\\frac{(V_2 - V_1)}{5} = \\frac{(P_4 - P_1)(V_2 - V_1)}{25}.$$\n\nO módulo do trabalho no ciclo ($W$) é dado pela área delimitada pelo ciclo:\n\n$$W \\sim 19\\ \\text{retângulos} \\times A = \\frac{19}{25}(P_4 - P_1)(V_2 - V_1) = 0{,}76 \\times (P_4 - P_1)(V_2 - V_1).$$"
+   }
+  }
+ }
+}
