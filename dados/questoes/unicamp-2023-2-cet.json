@@ -38,9 +38,9 @@
      "resposta_oficial": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo $\\sqrt{10}$ m."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão é medir o conhecimento dos candidatos sobre geometria espacial e planificação, por meio da apresentação de um problema concreto e comum: a compra de papel de parede para enrolar uma pilastra. É um conhecimento útil em muitos momentos. Os candidatos deveriam decidir o custo do papel de parede, com base nas dimensões mínimas necessárias para enrolá-lo numa pilastra, bem como decidir o menor comprimento possível para enrolar uma fita de led na pilastra.",
    "assunto": "Geometria espacial",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q02",
@@ -61,10 +61,9 @@
      "resposta_oficial": "Para que o sistema tenha infinitas soluções, é preciso fazer substituições. Isolando o valor de $x$ na primeira equação e substituindo este valor nas outras duas equações, obtemos o sistema auxiliar:\n\n$2(q-py)-z=p,\\ (q-py)+y+z=1.$\n\nSimplificando, obtemos:\n$2py+z=-p+2q,\\ (1-p)y+z=1-q.$\n\nComo queremos infinitas soluções, essas equações precisam ser múltiplas. Como o coeficiente do $z$ é o mesmo, deveremos ter os outros coeficientes iguais também, ou seja, $1-p=2p$, o que nos dá $p=1/3$, e $3q=p+3$, ou seja, $q=10/9$."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão foi medir o conhecimento dos candidatos na solução dos sistemas de equações lineares, um conteúdo muito importante, visto no ensino médio e necessário para a maioria dos cursos de exatas. A questão foi apresentada de forma descontextualizada, pois a alternativa (b) exigia do candidato uma análise qualitativa sobre o sistema, o que leva algum tempo; então, a questão “teórica” ajuda neste aspecto, evitando que se gaste tempo fazendo modelagem matemática.",
    "assunto": "Matrizes e sistemas",
-   "revisao": "atencao",
-   "revisao_notas": "Enunciado conferido com p04; resposta transcrita fielmente de r01. Erro da própria banca nas Respostas esperadas, item b: o sistema auxiliar aparece como '(q-py)+y+z=1' e, simplificado, '(1-p)y+z=1-q', quando a terceira equação é x+y+z=3 (o certo seria '= 3' e '3 - q'); a conclusão '3q=p+3, ou seja, q=10/9' já usa o 3. A prova comentada (r14) traz '(q − py) + y + z = 3.', mas na linha simplificada também perdeu o número ('(1−p)y + z = − q'). Não alterei (não é buraco do PDF, é texto impresso); uma pessoa decide se troca pela versão da comentada."
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q03",
@@ -85,7 +84,7 @@
      "resposta_oficial": "A equação $f(x)=-1/2$ é equivalente a $\\cos(2x) - 2\\,\\text{sen}(x) = -1/2$. Como $\\cos(2x) = \\cos^2(x) - \\text{sen}^2(x)$, ficamos com a equação $\\cos^2(x) - \\text{sen}^2(x) - 2\\,\\text{sen}\\,x = -1/2$. Usando a identidade trigonométrica fundamental, e fazendo agora $S = \\text{sen}\\,x$, ficamos com a equação quadrática:\n\n$1-2S^2-2S=-1/2.$\n\nEssa equação tem duas soluções, $S=-3/2$ e $S=1/2$, mas só uma delas nos interessa. Finalmente, resolvendo $\\text{sen}\\,x = 1/2$, obtemos dois valores: $\\pi/6$ e $5\\pi/6$."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão foi avaliar o conhecimento dos candidatos sobre funções trigonométricas e a resolução de equações envolvendo funções trigonométricas.",
    "assunto": "Trigonometria",
    "revisao": "ok"
   },
@@ -108,7 +107,7 @@
      "resposta_oficial": "A partir dos resultados dos lançamentos dos dados, obtemos as retas $y=2x+3$ e $y=5x+6$. Para determinar o ponto de encontro destas retas, resolvemos primeiro a equação $2x+3=5x+6$ e obtemos $-3x=3$, ou seja, $x=-1$, o que nos dá $y=1$, e o ponto $(-1,1)$."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão abordou dois conteúdos: probabilidade/contagem e geometria analítica. O objetivo era avaliar o conhecimento do candidato nestes dois tópicos.",
    "assunto": "Geometria analítica",
    "revisao": "ok"
   },
@@ -131,10 +130,9 @@
      "resposta_oficial": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que $-\\log\\log 2 = -3t$, ou seja, $t = 2)\\frac{1}{3} \\approx 0{,}1$ minutos, ou cerca de 6 segundos.\n\n*(Nota da plataforma: as fórmulas deste trecho saíram defeituosas tanto nas Respostas Esperadas quanto na prova comentada oficial; o trecho está reproduzido como impresso na prova comentada.)*"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da questão é avaliar o entendimento do candidato a cerca da modelagem matemática de fenômenos do mundo real, no caso a quantidade de bactérias numa amostra após um tempo t. Em termos matemáticos, trata-se de uma função exponencial. A questão (a) exige que o candidato calcule o valor da função num certo tempo, e a (b) exige que o candidato faça algumas manipulações algébricas e resolva a equação.",
    "assunto": "Exponencial e logaritmo",
-   "revisao": "atencao",
-   "revisao_notas": "Enunciado e 'Dados: log₁₀ 2 ≈ 0,3' conferidos com p07. Resposta a conferida com r02. Item b: o trecho '-□log log 2 =-3t, ou seja, t=2 )1/3≈0,1' está quebrado nas Respostas esperadas (r02) e também na prova comentada (r18: '− log log 2 = − 3t, ou seja, t = 2) 1/3 ≈ 0,1'); o texto do PDF não guarda nada além disso. Substituí pelo trecho da comentada (sem a caixa vazia), em LaTeX, e acrescentei uma Nota da plataforma avisando o defeito. A forma pretendida parece ser '−log 2 = −3t, ou seja, t = (log 2)/3 ≈ 0,1', mas não reconstruí por conta própria; uma pessoa decide se reconstrói."
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q06",
@@ -155,7 +153,7 @@
      "resposta_oficial": "Utilizando a informação fornecida, temos que, no caso $a>1$, o maior lado é $a^3$, e, portanto, $a^3<a+a^2$. Resolvendo essa desigualdade, temos que $a \\in (1,(1+\\sqrt{5})/2))$. Já no caso $a<1$, o maior lado será $a$, e, portanto, temos $a<a^2+a^3$, o que nos dá $a \\in ((-1+\\sqrt{5})/2),1)$ No caso $a=1$ todos os lados são iguais, e este é um valor possível para $a$. Portanto, a resposta é a união desses intervalos, ou seja, $a \\in ((-1+\\sqrt{5})/2,(1+\\sqrt{5})/2))$."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão envolvia geometria plana, em particular condições para existência de triângulos, sendo que a primeira pergunta era sobre área em triângulos retângulos.",
    "assunto": "Geometria plana",
    "revisao": "ok"
   },
@@ -181,9 +179,9 @@
      "resposta_oficial": "A fome da população, segundo o trecho de Ladislau Dowbor, é resultado de decisões políticas e corporativas. Trata-se, portanto, de uma questão de responsabilidade do Estado, que deve gerir a organização econômica e social, não sendo um fenômeno da natureza. Pode-se citar, como aspectos históricos e sociais que contribuíram para a existência da fome do Brasil, na longa duração, a ausência de políticas de distribuição de terras, posto que por meio do processo colonial houve no Brasil concentração de terras para monoculturas de exportação. A desigualdade econômica, assim, jogou a maior parcela da população brasileira, historicamente, para uma situação de vulnerabilidade social e, muitas vezes, de fome, ligada à extrema pobreza. Podemos citar, também, como causas da fome, as secas do início do século XX, as migrações massivas campo-cidade que afastaram as comunidades das culturas de subsistência, a ausência de políticas de assistência social até o início do século XXI – quando, segundo o gráfico, a fome diminui no Brasil graças a políticas assistenciais criadas no período. A situação da insegurança alimentar regrediu a partir de 2013 e se intensificou depois de 2018. O aumento vertiginoso da fome em 2017/2018 é associado à adoção de políticas governamentais como o desmonte de políticas públicas de combate à pobreza, tais como os cortes de verbas para programas sociais, os cortes de incentivos à agricultura familiar, além da má gestão na pandemia da covid-19 no Brasil, resultando em inflação, altos níveis de desemprego, ataque a direitos trabalhistas e carestia."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão 8 teve como tema a fome no Brasil. Seu objetivo direto era que o aluno fosse capaz de, ao ler a coletânea, entender que a fome é um problema histórico no Brasil e que a solução para ela passa pela implementação de políticas públicas. Desde sua primeira concepção, este era o objetivo e assim foi percebido pelo revisor específico.\n\nRelacionando a leitura histórica e sociológica do problema da fome, o item A da questão exigia a leitura de um texto de Josué de Castro sobre a fome décadas atrás; no texto, retoricamente, se perguntava se a fome era um fenômeno natural ou criado pelo homem. O segundo trecho, de Ladislau Dowbor, praticamente respondia às perguntas retóricas do texto anterior, ao relacionar a produção massiva de alimentos no Brasil, a existência da fome e a ausência de políticas públicas eficientes.\n\nPor fim, no item B, havia um gráfico do IBGE (publicado pela DW) que demonstrava como os índices de insegurança alimentar tiveram oscilação ao longo dos anos 2000 no Brasil, atingindo ponto mais baixo em 2013, com aumento de todos os graus dali em diante, até o ano 2020. O vestibulando, por meio do gráfico e de seus conhecimentos prévios, teria de elencar uma razão história e outra social para a fome no Brasil.\n\nO objetivo era que o vestibulando fosse capaz de atestar a existência da fome como fenômeno social, as contradições advindas do fato de o Brasil ser um produtor de alimento e ter insegurança alimentar em níveis alarmantes, bem como perceber, por meio do gráfico e da leitura do segundo excerto, como políticas públicas eficientes podem mitigar muito o problema ou ignorá-lo e exacerbá-lo.",
    "assunto": "Brasil contemporâneo",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q09",
@@ -204,9 +202,9 @@
      "resposta_oficial": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_w v_w = m_w \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A Questão 9 faz referência ao movimento dos Telescópios Espaciais Hubble e James Webb. No item a) pede-se o módulo da força centrípeta que age sobre o Hubble no seu movimento circular em torno da Terra. São fornecidos o período e o raio da órbita, a partir dos quais o candidato deve encontrar o módulo da aceleração centrípeta. O módulo da força centrípeta pode ser encontrado a partir da massa fornecida do Hubble. Trata-se, portanto, de um problema de Dinâmica do movimento em duas dimensões, especificamente do movimento circular uniforme. No item b) o candidato deve calcular o módulo da quantidade de movimento linear do Webb em um trecho da trajetória logo após o seu lançamento. Para isso, deve fazer uma leitura de gráfico, calcular o módulo da velocidade média e, em seguida, encontrar o módulo da quantidade de movimento. É um problema de Dinâmica de uma partícula.",
    "assunto": "Dinâmica",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q10",
@@ -227,7 +225,7 @@
      "resposta_oficial": "Efeito Doppler: $\\frac{f_\\text{obser}}{f_\\text{emit}} \\simeq 1 - \\frac{v}{c}$\n\n$\\frac{v}{c} \\simeq 1 - \\frac{f_\\text{obser}}{f_\\text{emit}} = 1 - \\frac{\\lambda_\\text{emit}}{\\lambda_\\text{obser}} = 1 - \\frac{1}{1{,}25} = \\frac{1{,}25-1}{1{,}25} = \\frac{0{,}25}{1{,}25} = \\frac{1}{5} = 0{,}2$\n\n$v \\simeq 0{,}2 \\times c = 0{,}2 \\times (3{,}0\\times10^8\\ \\text{m/s}) = 6{,}0\\times10^7\\ \\text{m/s}$\n\nLei de Hubble: $v = H_0 D \\Rightarrow D = \\frac{v}{H_0} \\simeq \\frac{6{,}0\\times10^7\\ \\text{m/s}}{\\left(\\frac{2\\times10^{-2}\\ \\text{m/s}}{\\text{ano-luz}}\\right)} = 3{,}0\\times10^9$ anos-luz."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A Questão 10 faz referência ao espelho primário do Telescópio Espacial James Webb, tanto em relação ao seu formato (côncavo) quanto em relação ao seu maior diâmetro, o que permite a observação de galáxias cada vez mais distantes. Os dois itens da questão exploram conceitos simples de física ligados a esses aspectos: no item a), o traçado de raios luminosos incidentes em um espelho esférico côncavo, o cálculo da posição, orientação e tamanho da imagem formada pelo espelho para um dado objeto; no item b), o uso da Lei de Hubble (fornecida no enunciado) para calcular a distância a uma galáxia cuja luz apresenta efeito Doppler. Trata-se, portanto, de uma questão de Óptica Geométrica (item a) e da relação entre velocidade, comprimento de onda e frequência de uma onda eletromagnética (item b). No segundo item, o candidato precisa mostrar a habilidade de interpretar corretamente o enunciado e fazer o uso adequado das informações fornecidas.",
    "assunto": "Óptica",
    "revisao": "ok"
   },
@@ -250,7 +248,7 @@
      "resposta_oficial": "De acordo com o enunciado,\n\n$$\\left|\\vec{\\tau}_O\\right| = Mg\\,x_1 - \\left|\\vec{F}_2\\right|(x_1 + x_2) = 0$$\n\n$$\\left|\\vec{F}_2\\right| = \\frac{x_1}{(x_1 + x_2)}Mg = \\frac{1{,}8\\ \\text{m}}{2{,}4\\ \\text{m}} \\times \\left(6{,}4\\times10^4\\ \\text{kg}\\right) \\times \\left(10\\ \\text{m/s}^2\\right) = 4{,}8\\times10^5\\ \\text{N}$$\n\n$$Mg - \\left|\\vec{F}_1\\right| - \\left|\\vec{F}_2\\right| = 0$$\n\n$$\\left|\\vec{F}_1\\right| = Mg - \\left|\\vec{F}_2\\right| = 6{,}4\\times10^5\\ \\text{N} - 4{,}8\\times10^5\\ \\text{N} = 1{,}6\\times10^5\\ \\text{N}$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A Questão 11 faz referência ao aspecto dos membros dos animais em função de seu porte. A força peso que um membro consegue suportar, sem ruptura, é, em geral, proporcional à área da seção reta do referido membro. Por outro lado, a força peso exercida sobre o membro é, aproximadamente, proporcional ao volume do animal. Isso se relaciona ao fato de que, na natureza, a proporção entre o diâmetro dos membros e a altura de um certo animal depende de seu porte: os insetos, por exemplo, têm patas extremamente finas, se comparadas com o aspecto das pernas de um ser humano. Usando-se um exemplo simplificado para ilustrar este fato, o item a) pede que o candidato calcule a pressão exercida pela força peso de uma caixa em uma coluna de sustentação. Essa pressão é responsável pela deformação da coluna, e, eventualmente, pela sua ruptura, dependendo do seu valor. O resultado do cálculo mostra que, quando a dimensão lateral da caixa é reduzida por um fator 4, a dimensão lateral da coluna deve ser reduzida por um fator 8 para preservar o valor da pressão, ou seja, a caixa menor deve ter “perna” relativamente mais fina. O tópico do item a) é Mecânica, em particular o cálculo da pressão (relação entre pressão, força e área) na condição de equilíbrio estático. Ainda na condição de equilíbrio estático, o item b) aborda outro caso em que uma caixa é sustentada por duas colunas fora de centro. O candidato deve aplicar a condição de equilíbrio, ou seja, igualar a zero tanto a soma das forças quanto a soma dos torques. Note-se que a expressão para o módulo do torque é fornecida no enunciado com o propósito de facilitar a resolução da questão.",
    "assunto": "Estática",
    "revisao": "ok"
   },
@@ -273,7 +271,7 @@
      "resposta_oficial": "$$P = \\frac{Q}{\\Delta t} = \\frac{kA\\left(\\theta_{\\text{água}} - \\theta_{\\text{ar}}\\right)}{e} = \\frac{\\left(2{,}2\\ \\text{W/m}\\ ^\\circ\\text{C}\\right) \\times \\left(50\\times10^6\\ \\text{m}^2\\right) \\times \\left(15\\ ^\\circ\\text{C}\\right)}{5{,}0\\ \\text{m}} = 3{,}3\\times10^8\\ \\text{W}.$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Os lagos subglaciais na Antártida, essenciais ao bioma local, são usados na Questão 12 para contextualizar a aplicação de conceitos básicos de Termologia, como o congelamento da água. No item a), espera-se que o candidato aplique o conceito de calor latente, um assunto comumente explorado em termologia no Ensino Médio. No item b), espera-se que o candidato identifique o conceito de potência, dado, no caso, pela razão entre a quantidade de calor Q conduzido e o intervalo de tempo $\\Delta t$, grandezas estas embutidas na equação fornecida no enunciado.",
    "assunto": "Termologia",
    "revisao": "ok"
   },
@@ -296,10 +294,9 @@
      "resposta_oficial": "Podemos escrever que a força de atrito é dada por $f_{at} = -ma_x = mg\\mu_c \\Rightarrow a_x = -\\mu_c g.$\n\nComo\n\n$$v_x^2 = v_{0,x}^2 + 2a_xd = v_{0,x}^2 - 2\\mu_c gd = 0,$$\n\ntemos:\n\n$$\\mu_c = \\frac{v_{0,x}^2}{2gd} = \\frac{16^2}{2\\times10\\times25{,}6} = 0{,}5.$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** O objetivo da Questão 13 é abordar conceitos básicos de cinemática, muito discutidos no Ensino Médio e que foram ilustrados no jogo de malha, bastante popular no país. No item a), tratou-se do lançamento oblíquo de um disco metálico aterrissando em uma pista horizontal (movimento de projétil). No item b), era esperado que os candidatos identificassem o conceito de trabalho da força de atrito e o teorema do trabalho e energia cinética, muito explorados no Ensino Médio.",
    "assunto": "Cinemática",
-   "revisao": "atencao",
-   "revisao_notas": "Enunciado, 'Dado:' e figuras p15-f2/p15-f3 conferidos com p15; resposta conferida com r05–r06 (ampliada). Observação do transcritor decidida: manter como impresso. Erro da própria banca no item a: a equação em y traz '= 0.5v₀t + 5t² = t(0.5v₀ + 5t) = 0' (ponto decimal e sinal +), que daria t₂ = −v₀/10; com a = −10 m/s² o termo seria −5t². A prova comentada (r34) repete o '+ (5 m/s²)t²'. O resultado final (v₀ = 20 m/s) está certo. Não alterei; uma pessoa decide se acrescenta nota da plataforma."
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q14",
@@ -320,7 +317,7 @@
      "resposta_oficial": "Como\n\n$$V_a = V_0\\frac{R + \\Delta R}{(R + \\Delta R) + (R - \\Delta R)} = V_0\\frac{R + \\Delta R}{2R}$$\n\ne\n\n$$V_b = V_0\\frac{R - \\Delta R}{(R + \\Delta R) + (R - \\Delta R)} = V_0\\frac{R - \\Delta R}{2R},$$\n\ntemos\n\n$$\\Delta V = V_a - V_b = \\left(V_0\\frac{R + \\Delta R}{2R}\\right) - \\left(V_0\\frac{R - \\Delta R}{2R}\\right) = V_0\\frac{2\\Delta R}{2R} = 24\\ \\text{V}\\,\\frac{0{,}25\\ \\Omega}{100\\ \\Omega} = 0{,}06\\ \\text{V} = 60\\ \\text{mV}.$$"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Com o uso diário da internet, as fibras ópticas passaram a ser bastante divulgadas por serem muito utilizadas no transporte de dados e informações. O item a) da Questão 14 versa sobre aplicações de fibras ópticas em sensores. Nesse item, o objetivo era a obtenção de informações no gráfico seguida do uso das referidas informações, bem como de outros dados do texto, nas equações fornecidas. O item b) abordou outro tipo de sensor, o extensômetro, dispositivo bastante aplicado em engenharia civil para verificar deslocamentos de grandes estruturas. O objetivo no item b) foi explorar eletricidade básica, com a aplicação da lei de Ohm para a resolução de malhas de circuitos.",
    "assunto": "Eletrodinâmica",
    "revisao": "ok"
   },
@@ -343,10 +340,9 @@
      "resposta_oficial": "Os equilíbrios ácido-base associados aos ânions citados no texto são:\n\n$\\text{CO}_3^{2-} + \\text{H}_3\\text{O}^+ = \\text{HCO}_3^- + \\text{H}_2\\text{O}$\n\n$\\text{PO}_4^{3-} + \\text{H}_3\\text{O}^+ = \\text{HPO}_4^{2-} + \\text{H}_2\\text{O}$\n\n$\\text{SO}_4^{2-} + \\text{H}_3\\text{O}^+ = \\text{HSO}_4^- + \\text{H}_2\\text{O}$\n\nDe acordo com o texto, o ânion carbonato ($\\text{CO}_3^{2-}$) está disponível em valores de pH mais elevados enquanto os ânions sulfato ($\\text{SO}_4^{2-}$) e fosfato ($\\text{PO}_4^{3-}$) estão disponíveis em valores de pH menores. Portanto, pode se concluir que o ácido $\\text{HSO}_4^-$ e o ácido $\\text{HPO}_4^{2-}$ são ácidos mais fortes (apresentam maiores valores de Ka) que o ácido $\\text{HCO}_3^-$. Deste modo, o pKa do ácido $\\text{HCO}_3^-$ tende a ser maior do que dos ácidos $\\text{HPO}_4^{2-}$ e $\\text{HSO}_4^-$.\n\n*Observação:* considerações semelhantes levando em conta $\\text{H}_2\\text{CO}_3$, $\\text{H}_2\\text{SO}_4$ e $\\text{H}_3\\text{PO}_4$ serão igualmente aceitas."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** De modo direto, a questão trabalha com uma temática vinculada à construção civil e à aplicação de uma técnica bioquímica para a resolução de um problema comumente relatado nesta área, mostrando como a utilização do conhecimento químico pode servir para a solução de questões econômicas e sociais. Uma vez que a questão aborda a produção bioquímica de uma substância e sua utilização, há relação direta com a biologia, apesar de não haver a necessidade do uso de conhecimentos desta área para a sua resolução.",
    "assunto": "Equilíbrio químico",
-   "revisao": "atencao",
-   "revisao_notas": "Enunciado, citação em itálico com CO₃²⁻, PO₄³⁻, SO₄²⁻ e figura p17-f3 conferidos com p17. Resposta conferida com r07 e com a comentada (r39–r40), que diz o mesmo. Possível erro de química da própria banca no item b: afirma que HPO₄²⁻ é ácido mais forte (menor pKa) que HCO₃⁻, mas os valores de tabela são pKa(HPO₄²⁻) ≈ 12,3 e pKa(HCO₃⁻) ≈ 10,3; a afirmação vale para HSO₄⁻ (pKa ≈ 2). A banca deriva a conclusão do texto do enunciado. Transcrição fiel; uma pessoa decide se acrescenta nota."
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q16",
@@ -367,9 +363,9 @@
      "resposta_oficial": "Deve ser escolhida a pressão de 20 ou 30 bar. Para ambas as pressões, não se observa a produção da fração mais pesada (C23-C28), sendo que as pressões apresentam uma maior proporção de hidrocarbonetos leves (C8-C16), em torno de 80%."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão teve por objetivo central avaliar a capacidade do candidato em identificar, a partir de uma figura, vários itens do programa de química, tais como: simbologia química, noções gerais sobre a composição, a utilização de recursos naturais da crosta terrestre, da atmosfera, da biosfera e da hidrosfera e as consequências dessa utilização; química de compostos orgânicos; noções de polímeros; efeito do estado de agregação, da concentração, da pressão, da temperatura, e do catalisador na velocidade das transformações das substâncias.",
    "assunto": "Química orgânica",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q17",
@@ -390,7 +386,7 @@
      "resposta_oficial": "O cálculo considera, na composição, 60 % de soro e 40% de leite integral. Deste modo, para verificar se os dados estão coincidentes, é necessário realizar o cálculo da média ponderada para cada nutriente, seguindo a seguinte relação:\n\n*Quantidade de nutriente* = {[0,6 x (quantidade presente no soro)] + [0,4 x (quantidade presente no leite integral)]}.\n\nPara cada nutriente temos:\n\n*Proteínas* = {[0,6 x (1,5)] + [0,4 x (6,6)]} = 3,5\n\n*Gorduras* = {[0,6 x (0,5)] + [0,4 x (8,0)]} = 3,5\n\n*Lactose* = {[0,6 x (9,8)] + [0,4 x (9,8)]} = 9,8\n\n*Cálcio* = {[0,6 x (70)] + [0,4 x (280)]} = 154\n\nPortanto, sim, há erro nos dados em relação às quantidades de proteínas, gorduras e cálcio."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão, por si só, é um problema prático enfrentado pelo cidadão brasileiro em 2022 e que continua a existir em proporções cada vez maiores. Com o elevado valor dos produtos derivados do leite, as indústrias passaram a oferecer ao consumidor produtos similares aos convencionais, porém de qualidade e preços inferiores. Além disso, os supermercados colocam esses produtos nas mesmas gôndolas dos produtos convencionais, o que dificulta para o consumidor na hora da compra. Outras estratégias — como manter uma embalagem muito parecida com a do produto convencional, manter o volume da embalagem do produto, mas diminuir a quantidade em seu interior, mantendo-se o preço — são, no mínimo, mal intencionadas, mas que devem ser levadas em conta pelo cliente durante uma compra.",
    "assunto": "Soluções",
    "revisao": "ok"
   },
@@ -413,9 +409,9 @@
      "resposta_oficial": "O “poema de José Bonifácio se contemporiza pelas queimadas (fogo) e pelo desmatamento (machado). Exemplos de ações humanas geradoras dos gases incluem:\n\n● produção de carvão vegetal: geração de $\\text{CO}_2$;\n● expansão imobiliária e ocupação do solo: geração de $\\text{CO}_2$;\n● produção de energia hidrelétrica: não captura de $\\text{CO}_2$ e geração de $\\text{CH}_4$;\n● expansão agropecuária, produção de alimentos e biocombustíveis: não captura de $\\text{CO}_2$, emissão de $\\text{CH}_4$ e $\\text{NO}_2$."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** Esta questão teve por objetivo central avaliar a capacidade do candidato em correlacionar ações de mitigação de problemas ambientais, propostos ao longo nos anos em fóruns internacionais, com os processos e fenômenos químicos diretamente relacionados, estando associado, dentre outros, com o tópico da utilização de recursos naturais da crosta terrestre, da atmosfera, da biosfera e da hidrosfera e as consequências dessa utilização.",
    "assunto": "Química ambiental",
-   "revisao": "corrigida"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2023-2-cet-q19",
@@ -436,7 +432,7 @@
      "resposta_oficial": "A interação entre a tirosina (501) e o aminoácido vizinho, também tirosina (449), é uma ligação química que faz parte da estrutura da proteína, proteína esta denominada ligação peptídica, que se estabelece entre o N do grupo amina de um dos aminoácidos e o O do grupo carboxila de outro aminoácido:\n\n![Reação entre duas moléculas de tirosina: o OH do grupo carboxila de uma e o H do grupo amina da outra (circulados) são retirados, formando o dipeptídeo, com a ligação peptídica (grupo C(=O)NH) circulada](fig:r09-c1)\n\nA interação da tirosina da proteína Spark com a lisina do receptor é uma interação entre moléculas (forças intermoleculares, sendo: ligação de hidrogênio e interações de Van der Waals):\n\n![Duas representações da tirosina e da lisina, com uma linha pontilhada vermelha entre o OH do grupo carboxila da tirosina e a lisina (esquerda) e entre o HO do anel da tirosina e o grupo carboxila da lisina (direita)](fig:r09-c2)"
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão trabalha com a temática das mutações virais do novo coronavírus, trazendo um estudo atual realizado por pesquisadores de uma universidade pública do estado de São Paulo. Portanto, a temática é atual e presente no cotidiano dos estudantes. De forma direta há uma relação com a biologia uma vez que relaciona as proteínas presentes nos vírus com os tipos de interação intermoleculares e ligações químicas. A questão apresenta, marcadamente, aspectos bioquímicos.",
    "assunto": "Ligações e interações",
    "revisao": "ok"
   },
@@ -459,10 +455,9 @@
      "resposta_oficial": "A figura representa possíveis contaminações pelos componentes dos cosméticos às quais o ser humano pode estar exposto bem como a preocupação com o uso e o descarte das embalagens contendo resíduos do produto. Tais contaminações incluem:\n\n− Contaminação direta pela aplicação (olhos, respiração e ingestão);\n− Contaminação indireta pela ingestão da água que foi contaminada pelo descarte dos produtos no ambiente."
     }
    ],
-   "resposta_oficial": null,
+   "resposta_oficial": "**Objetivo da questão:** A questão, por si só, é um problema prático uma vez que aponta para problemas de saúde e ambientais no uso de cosméticos. O item (a) da questão é convencional dentro do ensino e mostra como um cientista pode prever algumas características do produto que deseja desenvolver; trata-se, portanto, de uma forma de modelagem das propriedades de um cosmético. O item (b), por outro lado, questiona os possíveis problemas ambientais e de saúde que o uso de cosméticos pode trazer, se certos cuidados na utilização dos produtos e no descarte das embalagens não forem observados. Dessa forma, essa questão explora dois tipos diferentes de avaliação, o item (a) exige conhecimentos em química e habilidades matemáticas e o item (b) exige habilidades de leitura e interpretação. A questão também se insere na área de biologia, saúde e ambiental.",
    "assunto": "Química ambiental",
-   "revisao": "atencao",
-   "revisao_notas": "Corrigido o enunciado: no caderno o coeficiente é 'Kp' e 'Kow' em itálico, sem subscrito (estava $K_p$, $K_{ow}$), e a equação é em negrito. Corrigida a descrição da figura p22-f2, que interpretava a imagem ('trajetos de ingestão e de respiração', 'setas indicando contaminação da água') num item que pede justamente 'Interprete a figura'. Resposta conferida com r09–r10. Erro da própria banca no item a das Respostas esperadas: diz que o valor de Kow deve ser baixo '(o que significa maior hidrofobicidade)', mas Kow = [octanol]/[água], então Kow baixo significa menor hidrofobicidade. A prova comentada (r49) diz o contrário e de forma coerente: 'quanto maior Kow maior é Kp', Kow 'será tanto maior quanto mais hidrofóbico ele for', logo mais hidrofóbico = menor tempo de reaplicação. Não alterei a resposta (é texto impresso, não buraco do PDF); uma pessoa decide se troca pela versão da comentada ou acrescenta nota."
+   "revisao": "ok"
   }
  ]
 }

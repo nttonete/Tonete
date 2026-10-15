@@ -78,6 +78,88 @@
    }
   }
  },
- "complementos": {},
- "relatorio": []
+ "complementos": {
+  "11": {
+   "assunto": "Estática"
+  },
+  "12": {
+   "assunto": "Termologia"
+  },
+  "13": {
+   "assunto": "Cinemática"
+  },
+  "14": {
+   "assunto": "Eletrodinâmica"
+  },
+  "15": {
+   "assunto": "Equilíbrio químico"
+  },
+  "16": {
+   "assunto": "Química orgânica"
+  },
+  "17": {
+   "assunto": "Soluções"
+  },
+  "18": {
+   "assunto": "Química ambiental"
+  },
+  "19": {
+   "assunto": "Ligações e interações"
+  },
+  "20": {
+   "assunto": "Química ambiental"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": "passada de objetivos"
+  }
+ ]
 }
