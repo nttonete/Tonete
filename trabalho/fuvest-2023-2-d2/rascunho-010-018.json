@@ -1,0 +1,105 @@
+{
+  "edicao": "fuvest-2023-2-d2",
+  "intervalo": [
+    10,
+    18
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 10,
+      "codigo": "F04",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um circuito é formado por dois resistores em paralelo imersos no vácuo, separados por uma distância $d$ ligados a uma bateria de força eletromotriz $V$. Cada resistor é formado por um fio muito longo, de mesmo comprimento e área de seção transversal, mas com resistividades elétricas $\\rho_1$ e $\\rho_2$ diferentes entre si, conforme ilustrado na figura.\n\n![Circuito com dois resistores em paralelo, 1 com resistividade ρ1 e 2 com resistividade ρ2, separados pela distância d, ligados a uma bateria de força eletromotriz V com corrente I; o ponto C fica entre os resistores](fig:p10-f2)\n\n**Note e adote:** A resistência elétrica é diretamente proporcional ao comprimento, à resistividade e inversamente proporcional à área da seção transversal. O módulo do campo magnético produzido por um fio muito longo transportando uma corrente $I$ a uma distância $r$ é dado por $\\mu_0 I/2\\pi r$, onde $\\mu_0$ é a constante de permeabilidade do vácuo.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Sendo $P_1$ e $P_2$ as potências dissipadas nos resistores 1 e 2, respectivamente, calcule a razão $P_1/P_2$. Expresse sua resposta em termos de $\\rho_1$ e $\\rho_2$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando que a corrente total no circuito seja $I$, obtenha, em função de $I$, $\\rho_1$ e $\\rho_2$, o valor das correntes $I_1$ e $I_2$ que atravessam os resistores 1 e 2, respectivamente."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Obtenha a expressão para o módulo do campo magnético no ponto $C$, mostrado na figura, equidistante dos dois resistores, considerando $I_1 = I_2/4$. Expresse sua resposta somente em termos de $d$, $\\mu_0$ (constante de permeabilidade magnética do vácuo) e da corrente total $I$."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 11,
+      "codigo": "F05",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O efeito Doppler é caracterizado pela detecção de uma frequência diferente daquela emitida pela fonte, devido ao movimento relativo entre fonte e observador. Ele possui diversas aplicações, seja na medicina, astronomia ou ainda em sonares de velocidade, nos quais a velocidade de um objeto é medida comparando-se a frequência sonora emitida com aquela que é detectada. Considere um sonar de velocidade que envia ondas sonoras de $0{,}10\\ \\text{MHz}$ em direção a um veículo que se aproxima com velocidade desconhecida.\n\n**Note e adote:** Considere a velocidade do som como $300\\ \\text{m/s}$. No efeito Doppler, a frequência $f_d$ detectada pelo observador e a frequência $f_e$ emitida pela fonte se relacionam de acordo com a expressão: $\\dfrac{f_d}{v_s \\pm v_d} = \\dfrac{f_e}{v_s \\pm v_e}$, onde $v_s$ é a velocidade do som, $v_d$ é a velocidade do observador e $v_e$ é a velocidade da fonte de emissão. Os sinais \" + \" e \" − \" são escolhidos de acordo com o movimento relativo entre fonte e observador.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Calcule o comprimento de onda emitido pelo sonar."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Suponha que exista um detector de ondas sonoras no carro. Calcule a frequência detectada por este detector considerando que o carro se aproxima do sonar com velocidade de $30\\ \\text{m/s}$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Encontre a velocidade do veículo sabendo que o sonar detecta uma frequência de $0{,}15\\ \\text{MHz}$ refletida de volta, do carro para o sonar."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "codigo": "F06",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em artigo publicado em 2022, uma física e um físico brasileiros propuseram uma interessante analogia entre congestionamentos de carros e a física de buracos negros (Luanna K. de Souza, George E. A. Matsas, “Black-hole analog in vehicular traffic”, *American J. of Phys.* **90**, 692 (2022)).\n\nConsidere uma fila de 9 carros inicialmente em posições $x_0, x_1, x_2, \\ldots., x_8$ separados um do outro por uma distância $D$ e se movendo com velocidade constante $v$ na direção negativa de um eixo x.\n\nNo instante inicial, o carro 0 freia, acionando sua luz de freio. Após um tempo de reação $T_1$, o carro 1 freia, acionando agora a sua luz de freio. O carro 2, por sua vez, freia e aciona sua luz de freio um tempo $T_2$ após o carro 1 acionar a sua luz de freio e assim sucessivamente.\n\n![Três carros em fila, com vetores velocidade v apontando para a esquerda, nas posições x0, x1 e x2, separados pela distância D](fig:p12-f1)\n\nPara este problema, considere que no instante da primeira frenagem (instante inicial): (i) o carro 0 esteja localizado na origem ($x_0 = 0$); (ii) a distância entre os carros seja de $D = 20\\ \\text{m}$; e (iii) todos os carros tenham a mesma velocidade escalar $|\\vec{v}| = v_{\\text{ini}}$.\n\n**Note e adote:** Assuma que a distância entre os carros $D$ seja muito maior que o comprimento dos carros. Considere que, dada a velocidade $v_{\\text{ini}}$, após o acionamento dos freios, todos os carros que não colidem percorrem uma mesma distância até atingirem o repouso. **Tempo de reação:** O intervalo de tempo que o motorista demora para acionar o freio após ver o sinal emitido pelo carro da frente. **Horizonte de eventos de um buraco negro**: Superfície teórica em torno de seu centro a partir da qual nenhum outro evento pode fazer com que um objeto ou radiação escape de, eventualmente, ser sugado em direção ao centro do buraco negro. No caso do “buraco negro veicular” é o ponto a partir do qual um carro inevitavelmente irá colidir com o carro da frente e não pode escapar de uma colisão em seu futuro do mesmo modo que nada (nem a luz) escapa de um buraco negro real.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Dada a velocidade $v_{\\text{ini}} = 72\\ \\text{km/h}$, calcule o tempo de reação máximo $T_{\\text{máx}}$ para que não ocorram colisões entre quaisquer dois carros."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Texto para os itens (b) e (c):\n\nEm geral, os tempos de reação dos motoristas não são iguais. Por exemplo, se os primeiros carros estiverem envoltos em neblina ou fumaça, os tempos de reação serão *maiores* para os primeiros carros da fila e *menores* para os últimos carros da fila. Considere a tabela a seguir, que mostra os tempos de reação $T_1$, $T_2$, $\\ldots$, $T_8$ (em segundos) retratando uma situação como essa.\n\n| Índice $j$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n|---|---|---|---|---|---|---|---|---|\n| $T_j$ (s) | 4,5 | 2,3 | 1,6 | 1,0 | 0,90 | 0,75 | 0,64 | 0,56 |\n\nSe o tempo de reação de um dado carro for maior que $T_{\\text{máx}}$, este carro inevitavelmente irá colidir com o carro da frente. Em uma analogia proposta pelos autores do artigo, este carro entra no “horizonte de eventos” de um “buraco negro veicular”.\n\nSuponha agora uma outra velocidade $v_{\\text{ini}}$ tal que $T_{\\text{máx}} = 0{,}89\\ \\text{s}$. Utilizando os dados da tabela, determine, em metros, a posição do “horizonte de eventos”, ou seja, a posição $x_H$ tal que todos os carros com posição inicial $x_j \\le x_H$ inevitavelmente colidirão com o carro da frente."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Calcule o intervalo de velocidades $v_{\\text{ini}}$ compatível com $x_H = 60\\ \\text{m}$."
+        }
+      ],
+      "observacoes": "O caderno imprime o \"Texto para os itens (b) e (c)\" (com a tabela) entre os itens a e b; ele foi colocado no início do texto do item b para manter a ordem do caderno, mas vale também para o item c."
+    }
+  ],
+  "respostas": {
+    "10": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre circuitos em paralelo e sobre campos magnéticos produzidos por fios que transportam correntes elétricas.",
+      "itens": {
+        "a": "Como os resistores possuem mesmo comprimento e área da seção transversal, a razão entre suas resistências é dada por $R_1/R_2 = \\rho_1/\\rho_2$. Como eles estão em paralelo, a razão entre as potências dissipadas é inversamente proporcional à razão entre suas resistências: $P_1/P_2 = R_2/R_1 = \\rho_2/\\rho_1$.",
+        "b": "Tendo em vista que $I = I_1 + I_2$ e $R_1 I_1 = R_2 I_2 = V$, segue que $I_1 = IR_2/(R_2 + R_1)$ e $I_2 = IR_1/(R_2 + R_1)$. Como os resistores possuem mesmo comprimento e mesma área de seção transversal, $I_1 = I\\rho_2/(\\rho_2 + \\rho_1)$ e $I_2 = I\\rho_1/(\\rho_2 + \\rho_1)$.",
+        "c": "No centro, os campos magnéticos gerados pelas correntes $I_1$ e $I_2$ apontam para fora e para dentro da página, respectivamente. Como $I_1 = I_2/4$ e $I = I_1 + I_2$, segue que $I_1 = I/5$ e $I_2 = 4I/5$. Cada fio dista $d/2$ do ponto C, de forma que o módulo do campo magnético resultante é dado por $|\\vec{B}| = \\mu_0 (I_2 - I_1)/\\pi d = 3\\mu_0 I/5\\pi d$."
+      }
+    },
+    "11": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre propagação de ondas sonoras e efeito Doppler com observador e fonte em movimento.",
+      "itens": {
+        "a": "Tendo em vista que $f = 0{,}1\\ \\text{MHz} = 10^5\\ \\text{Hz}$ e $v = 300\\ \\text{m/s}$, obtemos $\\lambda = \\dfrac{v}{f} = 3 \\times 10^{-3}\\ \\text{m}$.",
+        "b": "Neste item, o sonar representa a fonte e o carro representa o observador, que se aproxima da fonte, de modo que a relação a ser utilizada para a frequência detectada pelo carro é $\\dfrac{f_c}{v + v_c} = \\dfrac{f}{v}$. Segue então que a frequência detectada pelo veículo é $f_c = \\dfrac{f(v + v_c)}{v} = 10^5 \\times \\dfrac{300 + 30}{300} = 1{,}1 \\times 10^5\\ \\text{Hz}$.",
+        "c": "Sejam $f$ a frequência emitida pelo sonar e $v$ a velocidade de propagação do som no ar em repouso. A frequência refletida de volta é obtida a partir de um raciocínio em duas etapas. A primeira etapa segue as condições do item anterior, logo $f_c = \\dfrac{f(v + v_c)}{v}$. Na segunda etapa, o carro funciona como fonte em movimento, emitindo ondas de frequência $f_c$, e o sonar funciona como observador em repouso. A expressão para a frequência detectada pelo sonar é $f_s = \\dfrac{f_c v}{v - v_c}$, que pode ser reescrita como $f_c = f\\,\\dfrac{v + v_c}{v - v_c}$. Isolando $v_c$, obtemos $v_c = \\dfrac{v(f_d - f)}{f_d + f} = 300 \\times \\dfrac{0{,}15 - 0{,}1}{0{,}1 + 0{,}15} = \\dfrac{300}{5} = 60\\ \\text{m/s}$."
+      }
+    },
+    "12": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos de cinemática em uma situação hipotética na qual se faz uma analogia entre a física de buracos negros e um acontecimento cotidiano.",
+      "itens": {
+        "a": "O tempo de reação máximo será $T_{\\text{max}} = \\dfrac{D}{v} = \\dfrac{0{,}02}{72} \\times 3600 = 1\\ \\text{s}$.",
+        "b": "Pela tabela, os carros com $T > T_{\\text{max}} = 0{,}89\\ \\text{s}$ são aqueles com índice $j \\le 5$ e estarão dentro do horizonte de eventos de modo que $x_H = 5D = 100\\ \\text{m}$.",
+        "c": "Pela definição de $x_H$, o último carro em uma posição menor ou igual a $x_H = 60\\ \\text{m}$ colidirá, enquanto o primeiro carro em uma posição maior do que $x_H$ não colidirá. Logo, como $x_3 = 60\\ \\text{m} = x_H$ e $x_4 = 80\\ \\text{m} > x_H$, o tempo de reação máximo compatível tem que estar no intervalo $T_4 < T_{\\text{max}} \\le T_3$. Portanto, o intervalo de velocidades compatível é $\\dfrac{D}{T_3} \\le v_{\\text{ini}} < \\dfrac{D}{T_4}$, ou seja, $12{,}5\\ \\text{m/s} \\le v_{\\text{ini}} < 20\\ \\text{m/s}$."
+      }
+    }
+  }
+}

@@ -308,6 +308,36 @@
    }
   },
   {
+   "id": "fuvest-2023-2-d1",
+   "vestibular": "fuvest",
+   "ano": 2023,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "FUVEST (USP) 2023 – 2ª fase (1º dia: Português)",
+   "caderno": "1º dia: Português",
+   "fonte": {
+    "caderno": "2fase-dia1-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/fuvest-2023-2-d1.json",
+   "total": 7,
+   "validas": 7,
+   "com_resposta": 7,
+   "materias": {
+    "portugues": 5,
+    "literatura": 2
+   },
+   "indisponiveis": [
+    5,
+    8,
+    10
+   ]
+  },
+  {
    "id": "fuvest-2024-2-d1",
    "vestibular": "fuvest",
    "ano": 2024,
