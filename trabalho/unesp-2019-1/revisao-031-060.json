@@ -1,0 +1,221 @@
+{
+ "edicao": "unesp-2019-1",
+ "intervalo": [
+  31,
+  60
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 40,
+   "materia": "geografia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "Os gráficos indicam a expansão das redes de transporte ferroviário e rodoviário no Brasil (em km) em função do tempo (ano).\n\n![Dois gráficos de pontos ligados por linhas, “Rede ferroviária” (eixo vertical em km, de 0 a 50 000) e “Rede rodoviária” (eixo vertical em km, de 0 a 500 000), com o tempo em anos, de 1910 a 1960, no eixo horizontal; cada gráfico tem três pontos](fig:p16-c1)\n\n(Dados extraídos de: Paul Singer. “Interpretação do Brasil: uma experiência histórica de desenvolvimento”. *In*: Boris Fausto (org.). *História geral da civilização brasileira*, tomo III, vol. 4, 1986.)\n\nAs informações dos dois gráficos estão traduzidas na tabela:",
+   "alternativas": {
+    "A": "| | Rede ferroviária | Rede rodoviária |\n|---|---|---|\n| 1928 | 31.851,2 | 113.570,0 |\n| 1938/39 | 34.206,6 | 258.390,0 |\n| 1955 | 37.092,0 | 459.714,0 |",
+    "B": "| | Rede ferroviária | Rede rodoviária |\n|---|---|---|\n| 1928 | 36.441,4 | 98.673,0 |\n| 1938/39 | 25.004,0 | 240.221,0 |\n| 1955 | 32.533,8 | 501.342,0 |",
+    "C": "| | Rede ferroviária | Rede rodoviária |\n|---|---|---|\n| 1928 | 31.851,2 | 254.722,0 |\n| 1938/39 | 41.436,3 | 213.870,0 |\n| 1955 | 21.984,6 | 440.657,0 |",
+    "D": "| | Rede ferroviária | Rede rodoviária |\n|---|---|---|\n| 1928 | 22.389,6 | 302.793,0 |\n| 1938/39 | 44.376,0 | 266.134,0 |\n| 1955 | 50.328,9 | 115.681,0 |",
+    "E": "| | Rede ferroviária | Rede rodoviária |\n|---|---|---|\n| 1928 | 32.231,0 | 109.273,0 |\n| 1938/39 | 30.579,2 | 260.991,0 |\n| 1955 | 27.774,6 | 155.832,0 |"
+   }
+  },
+  {
+   "numero": 41,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "– Então, todos os alemães dessa época são culpados?\n– Esta pergunta surgiu depois da guerra e permanece até hoje. Nenhum povo é coletivamente culpado. Os alemães contrários ao nazismo foram perseguidos, presos em campos de concentração, forçados ao exílio. A Alemanha estava, como muitos outros países da Europa, impregnada de antissemitismo, ainda que os antissemitas ativos, assassinos, fossem apenas uma minoria. Estima-se hoje que cerca de 100 000 alemães participaram de forma ativa do genocídio. Mas o que dizer dos outros, os que viram seus vizinhos judeus serem presos ou os que os levaram para os trens de deportação?\n\n(Annette Wieviorka. *Auschwitz explicado à minha filha*, 2000. Adaptado.)\n\nAo tratar da atitude dos alemães frente à perseguição nazista aos judeus, o texto defende a ideia de que",
+   "alternativas": {
+    "A": "os alemães comportaram-se de forma diversa perante o genocídio, mas muitos mostraram-se tolerantes diante do que acontecia no país.",
+    "B": "esse tema continua presente no debate político alemão, pois inexistem fontes documentais que comprovem a ocorrência do genocídio.",
+    "C": "esse tema foi bastante discutido no período do pós-guerra, mas é inadequado abordá-lo hoje, pois acentua as divergências políticas no país.",
+    "D": "os alemães foram coletivamente responsáveis pelo genocídio judaico, pois a maioria da população teve participação direta na ação.",
+    "E": "os alemães defendem hoje a participação de seus ancestrais no genocídio, pois consideram que tal atitude foi uma estratégia de sobrevivência."
+   }
+  },
+  {
+   "numero": 47,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Analise o mapa.\n\n![Mapa do Brasil com a divisão dos estados e manchas coloridas no centro do país, em rosa, azul, amarelo, vermelho e verde; a legenda indica rosa para Goiânia, azul para Belo Horizonte e amarelo para Brasília; as manchas vermelha e verde, sem legenda, ficam entre as demais](fig:p18-f2)\n\n(Hervé Théry e Neli A. de Mello. *Atlas do Brasil*, 2008.)\n\nConsiderando a dinâmica urbana brasileira, as áreas vermelha e verde no mapa correspondem a",
+   "alternativas": {
+    "A": "cinturões entre as áreas industriais de duas cidades.",
+    "B": "intersecções entre as áreas periurbanas de duas cidades.",
+    "C": "conurbações entre as regiões metropolitanas de duas cidades.",
+    "D": "integrações entre as áreas de conservação de duas cidades.",
+    "E": "sobreposições entre as áreas de influência de duas cidades."
+   }
+  },
+  {
+   "numero": 54,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A generalização cartográfica é o processo que permite reconstruir em um mapa a realidade, mantendo seus traços essenciais.\n\n![Quadro “Processos de generalização cartográfica”, com três linhas e três colunas de desenhos: na primeira linha, um rio sinuoso; na segunda, quarteirões e ruas; na terceira, um trecho de rio com ilhas e pontos. Em cada linha, da esquerda para a direita, o mesmo desenho aparece cada vez menor e com menos detalhes](fig:p21-c1)\n\n(Paulo M. L. Menezes e Manoel C. Fernandes. *Roteiro de cartografia*, 2013. Adaptado.)\n\nUm fator importante nesse processo de generalização cartográfica é",
+   "alternativas": {
+    "A": "a orientação, pois os elementos do mapa devem se manter proporcionalmente distantes entre si.",
+    "B": "a topografia, pois a precisão na análise das informações depende de relevos pouco acidentados.",
+    "C": "a escala, pois sua diminuição promove restrições que geram a perda de informações.",
+    "D": "a simbolização, pois elementos naturais e antrópicos devem ser representados em mapas diferentes.",
+    "E": "a altimetria, pois a determinação das curvas de nível é influenciada pelo ponto de observação do cartógrafo."
+   }
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 34,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 36,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "corrigida",
+   "notas": "tabelas das alternativas conferidas número a número com o caderno e renderizadas com app/render.js (saem como tabelas com cabeçalho vazio na 1ª coluna, como no original); descrição da figura ganhou as escalas dos eixos, sem os valores dos pontos."
+  },
+  {
+   "numero": 41,
+   "status": "corrigida",
+   "notas": "alternativa D: faltava a palavra “judaico” (“responsáveis pelo genocídio judaico, pois...”)."
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 45,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 47,
+   "status": "corrigida",
+   "notas": "descrição da figura dizia “áreas em torno de Goiânia/BH/Brasília”, o que o mapa não mostra (é interpretação da legenda); reescrita descrevendo cores e legenda."
+  },
+  {
+   "numero": 48,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 49,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 54,
+   "status": "corrigida",
+   "notas": "descrição da figura não dizia que, em cada linha, o desenho fica menor e mais simplificado da esquerda para a direita, informação de que o aluno com leitor de tela precisa para acompanhar."
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 59,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 60,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}

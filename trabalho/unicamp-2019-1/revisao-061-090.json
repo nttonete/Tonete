@@ -1,0 +1,336 @@
+{
+ "edicao": "unicamp-2019-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 63,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sejam $a$ e $b$ números reais positivos. Considere a função quadrática $f(x) = x(ax + b)$, definida para todo número real $x$. No plano cartesiano, qual figura corresponde ao gráfico de $y = f(x)$?",
+   "alternativas": {
+    "A": "![Parábola com concavidade para cima que corta o eixo x na origem e em um ponto à direita da origem](fig:p22-f2)",
+    "B": "![Parábola com concavidade para cima que corta o eixo x em um ponto à esquerda da origem e na origem](fig:p22-f3)",
+    "C": "![Parábola com concavidade para baixo que corta o eixo x na origem e em um ponto à direita da origem](fig:p22-f4)",
+    "D": "![Parábola com concavidade para baixo que corta o eixo x em um ponto à esquerda da origem e na origem](fig:p22-f5)"
+   }
+  },
+  {
+   "numero": 67,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir exibe um pentágono em que quatro lados consecutivos têm comprimentos $a$, $b$, $c$ e $d$. Se a sequência $(a, b, c, d)$ é uma progressão geométrica de razão $q > 1$, então $\\tan\\theta$ é igual a\n\n![Pentágono com o lado c vertical à esquerda, o lado b horizontal em cima, o lado a vertical descendo da ponta direita de b e o lado d horizontal embaixo; há ângulos retos marcados entre c e b, entre b e a e entre c e d; o quinto lado, inclinado, liga a ponta de baixo de a à ponta direita de d, onde fica o ângulo θ](fig:p23-f3)",
+   "alternativas": {
+    "A": "$1/q$.",
+    "B": "$q$.",
+    "C": "$q^2$.",
+    "D": "$\\sqrt{q}$."
+   }
+  },
+  {
+   "numero": 88,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**‘Yes, I’m Italian – but I’m not loud, I don’t gesticulate and I’m not good with pizza’**\n\nElena Ferrante\n\nI love my country, but I have no patriotic spirit and no national pride. What’s more, I digest pizza poorly, I eat very little spaghetti, I don’t speak in a loud voice, I don’t gesticulate, I hate all mafias, I don’t exclaim “Mamma mia!” National characteristics are simplifications that should be contested. Being Italian, for me, begins and ends with the fact that I speak and write in the Italian language.\n\nPut that way it doesn’t seem like much, but really it’s a lot. A language is a compendium of the history, geography, material and spiritual life, the vices and virtues, not only of those who speak it, but also of those who have spoken it through the centuries. When I say that I’m Italian because I write in Italian, I mean that I’m fully Italian in the only way that I’m willing to attribute to myself a nationality. I don’t like the other ways, especially when they become nationalism, chauvinism, and imperialism.\n\n(Adaptado de Elena Ferrante, ‘Yes, I´m Italian – but I´m not loud, I don´t gesticulate and I´m not good with pizza’, *The Guardian*, 24/02/2018.)\n\nTranscrevem-se, a seguir, versos de canções brasileiras e de um poema de Vinícius de Moraes. Assinale a alternativa que melhor exemplifica as afirmações de Elena Ferrante.",
+   "alternativas": {
+    "A": "“Eu me sinto um estrangeiro.” (Engenheiros do Hawaii, “A revolta dos dândis”.)",
+    "B": "“Pátria Amada, é pra você esta canção/Desesperada, canção de desilusão.” (Inocentes, “Pátria amada”.)",
+    "C": "“Minha pátria é minha língua.” (Caetano Veloso, “Língua”.)",
+    "D": "“Se me perguntarem o que é a minha pátria, direi:/ Não sei. De fato, não sei (...).” (Vinícius de Moraes, “Pátria minha”.)"
+   }
+  },
+  {
+   "numero": 90,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Genetic Fortune-Telling**\n\n![Fotografia de uma esfera de vidro com uma hélice de DNA em seu interior, sobre um pedestal branco](fig:p30-f2)\n\nOne day, babies will get DNA report cards at birth. These reports will offer predictions about their chances of suffering a heart attack or cancer, of getting hooked on tobacco, and of being smarter than average.\n\nThough the new DNA tests offer probabilities, not diagnoses, they could greatly benefit medicine. For example, if women at high risk for breast cancer got more mammograms and those at low risk got fewer, those exams might catch more real cancers and set off fewer false alarms. The trouble is, the predictions are far from perfect. What if someone with a low risk score for cancer puts off being screened, and then develops cancer anyway? Polygenic scores are also controversial because they can predict any trait, not only diseases. For instance, they can now forecast about 10 percent of a person’s performance on IQ tests. But how will parents and educators use that information?\n\n(Adaptado de Derek Brahney, Genetic Fortune-Telling. MIT Technology Review, Março/Abril 2018)\n\nDe acordo com o texto, um dos riscos do prognóstico genético dos indivíduos desde o nascimento seria o de",
+   "alternativas": {
+    "A": "empresas usarem as informações para não contratar pessoas que teriam predisposição a certas doenças ou vícios.",
+    "B": "algumas mulheres descuidarem da prevenção de problemas de saúde para os quais pareciam não estar predispostas.",
+    "C": "governos usarem as informações genéticas para negar a certos cidadãos o acesso a serviços de saúde pública.",
+    "D": "pais e educadores passarem a desconsiderar dados sobre o coeficiente de inteligência de seus filhos ou alunos."
+   }
+  }
+ ],
+ "complementos": {
+  "61": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Escreva o número como $10a + b$, com $a$ o algarismo das dezenas ($1 \\le a \\le 9$) e $b$ o das unidades ($0 \\le b \\le 9$).\n\nA condição é $3(a + b) = 10a + b$, ou seja, $3a + 3b = 10a + b$, o que dá $2b = 7a$.\n\nComo $a$ e $b$ são algarismos, a única solução é $a = 2$ e $b = 7$: o número é 27 (de fato, $3 \\cdot (2 + 7) = 27$). Com $a = 4$ teríamos $b = 14$, que não é algarismo.\n\nO produto dos algarismos é $2 \\cdot 7 = 14$.\n\n**Resposta: C**"
+  },
+  "62": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "O caminho mais curto é pelo evento complementar: \"pelo menos uma inspeção\" é o contrário de \"nenhuma inspeção\".\n\nTratando as duas inspeções como independentes, a probabilidade de escapar da primeira é $1 - \\frac{3}{5} = \\frac{2}{5}$ e a de escapar da segunda é $1 - \\frac{1}{4} = \\frac{3}{4}$.\n\n$P(\\text{nenhuma}) = \\frac{2}{5} \\cdot \\frac{3}{4} = \\frac{6}{20} = \\frac{3}{10}$, logo $P(\\text{pelo menos uma}) = 1 - \\frac{3}{10} = \\frac{7}{10}$.\n\nCuidado com a distratora $\\frac{3}{10}$: ela é a probabilidade de não ser inspecionado nenhuma vez.\n\n**Resposta: B**"
+  },
+  "63": {
+   "assunto": "Funções",
+   "resolucao": "Desenvolvendo, $f(x) = ax^2 + bx$. Como $a > 0$, a parábola tem concavidade para cima, o que elimina as alternativas C e D.\n\nAs raízes vêm de $x(ax + b) = 0$: $x = 0$ ou $x = -\\frac{b}{a}$. Como $a$ e $b$ são positivos, $-\\frac{b}{a} < 0$, isto é, a segunda raiz fica à esquerda da origem.\n\nA figura com concavidade para cima que corta o eixo $x$ num ponto negativo e na origem é a da alternativa B. A alternativa A teria a segunda raiz positiva, o que exigiria $a$ e $b$ de sinais opostos.\n\n**Resposta: B**"
+  },
+  "64": {
+   "assunto": "Trigonometria",
+   "resolucao": "Pelas relações de Girard na equação $2x^2 + x + k = 0$: soma das raízes $\\operatorname{sen}\\theta + \\cos\\theta = -\\frac{1}{2}$ e produto $\\operatorname{sen}\\theta \\cos\\theta = \\frac{k}{2}$.\n\nElevando a soma ao quadrado e usando $\\operatorname{sen}^2\\theta + \\cos^2\\theta = 1$:\n\n$(\\operatorname{sen}\\theta + \\cos\\theta)^2 = 1 + 2\\operatorname{sen}\\theta\\cos\\theta \\Rightarrow \\frac{1}{4} = 1 + k \\Rightarrow k = -\\frac{3}{4}$.\n\nO valor é possível (o discriminante $1 - 8k = 7$ é positivo) e $-\\frac{3}{4}$ é racional, mas não inteiro.\n\n**Resposta: B**"
+  },
+  "65": {
+   "assunto": "Geometria plana",
+   "resolucao": "Chame de $2\\alpha$ o ângulo em $A$. Como $AD$ é bissetriz, $B\\hat{A}D = \\alpha$.\n\nComo $AD = DB$, o triângulo $ABD$ é isósceles de base $AB$, então o ângulo em $B$ também mede $\\alpha$.\n\nSoma dos ângulos internos do triângulo $ABC$: $2\\alpha + \\alpha + 60^\\circ = 180^\\circ$, logo $3\\alpha = 120^\\circ$ e $\\alpha = 40^\\circ$.\n\nO ângulo interno em $A$ mede $2\\alpha = 80^\\circ$.\n\n**Resposta: C**"
+  },
+  "66": {
+   "assunto": "Geometria plana",
+   "resolucao": "A ideia é comparar áreas de triângulos com a mesma altura.\n\nOs triângulos $ABN$ e $ABC$ têm o mesmo vértice $B$ e bases $AN$ e $AC$ sobre a mesma reta; como $AN = \\frac{AC}{2}$, a área de $ABN$ é metade da área de $ABC$.\n\nDo mesmo modo, $MBN$ e $ABN$ têm o vértice $N$ em comum e bases $MB$ e $AB$ na mesma reta; como $MB = \\frac{AB}{2}$, a área de $MBN$ é metade da de $ABN$.\n\nAssim, $t = \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\text{área}(ABC)$, e a área de $ABC$ é $4t$.\n\n**Resposta: C**"
+  },
+  "67": {
+   "assunto": "Progressões",
+   "resolucao": "Complete o desenho com um triângulo retângulo: trace pela ponta de baixo do lado $a$ uma reta paralela a $d$.\n\nO cateto vertical desse triângulo é $c - a$ (altura total $c$ menos o trecho $a$) e o cateto horizontal é $d - b$. Então $\\tan\\theta = \\frac{c - a}{d - b}$.\n\nNa PG de razão $q$: $b = aq$, $c = aq^2$, $d = aq^3$. Daí\n\n$\\tan\\theta = \\frac{aq^2 - a}{aq^3 - aq} = \\frac{a(q^2 - 1)}{aq(q^2 - 1)} = \\frac{1}{q}$ (podemos simplificar porque $q > 1$, logo $q^2 - 1 \\neq 0$).\n\n**Resposta: A**"
+  },
+  "68": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "As somas das linhas são $2 + a$, $1 + a + b$ e $4 + b$. Igualando:\n\n$2 + a = 1 + a + b \\Rightarrow b = 1$ e $1 + a + b = 4 + b \\Rightarrow a = 3$.\n\nA matriz fica $A = \\begin{pmatrix} 1 & 3 & 1 \\\\ 1 & 1 & 3 \\\\ 2 & 1 & 2 \\end{pmatrix}$. Pela regra de Sarrus:\n\n$\\det A = (1 \\cdot 1 \\cdot 2 + 3 \\cdot 3 \\cdot 2 + 1 \\cdot 1 \\cdot 1) - (1 \\cdot 1 \\cdot 2 + 1 \\cdot 3 \\cdot 1 + 3 \\cdot 1 \\cdot 2) = 21 - 11 = 10$.\n\n**Resposta: D**"
+  },
+  "69": {
+   "assunto": "Geometria analítica",
+   "resolucao": "Da parábola, $y = 3x^2 + 1$, ou seja, $x^2 = \\frac{y - 1}{3}$ (só vale para $y \\ge 1$).\n\nSubstituindo na circunferência: $\\frac{y - 1}{3} + y^2 - 4y + 3 = 0 \\Rightarrow 3y^2 - 11y + 8 = 0$, cujas raízes são $y = 1$ e $y = \\frac{8}{3}$.\n\nPara $y = 1$: $x^2 = 0$, um único ponto, $(0, 1)$.\n\nPara $y = \\frac{8}{3}$: $x^2 = \\frac{5}{9}$, logo $x = \\pm\\frac{\\sqrt{5}}{3}$, dois pontos.\n\nNo total, as curvas se interceptam em três pontos. A distratora \"dois pontos\" aparece se o ponto de tangência $(0, 1)$ for esquecido.\n\n**Resposta: C**"
+  },
+  "70": {
+   "assunto": "Polinômios e equações",
+   "resolucao": "Sejam $r_1, r_2, r_3$ as raízes, com $r_1 + r_2 = -1$ e $r_1 r_2 = -1$. Use as relações de Girard de $x^3 + ax^2 + x + b$.\n\nSoma dos produtos dois a dois: $r_1r_2 + r_3(r_1 + r_2) = 1 \\Rightarrow -1 - r_3 = 1 \\Rightarrow r_3 = -2$.\n\nSoma das raízes: $r_1 + r_2 + r_3 = -a \\Rightarrow -1 - 2 = -a \\Rightarrow a = 3$.\n\nProduto das raízes: $r_1 r_2 r_3 = -b \\Rightarrow (-1)(-2) = -b \\Rightarrow b = -2$.\n\nEntão $p(1) = 1 + 3 + 1 - 2 = 3$.\n\n**Resposta: D**"
+  },
+  "71": {
+   "assunto": "Geometria espacial",
+   "resolucao": "Coloque um vértice do paralelepípedo na origem, com arestas de 6, 8 e 10 cm nos eixos. Os centros de três faces vizinhas são $(3, 4, 0)$, $(3, 0, 5)$ e $(0, 4, 5)$.\n\nCada lado do triângulo liga os centros de duas faces e é a hipotenusa de um triângulo retângulo cujos catetos são metades de arestas:\n\n$\\sqrt{4^2 + 5^2} = \\sqrt{41} \\approx 6{,}40$; $\\sqrt{3^2 + 5^2} = \\sqrt{34} \\approx 5{,}83$; $\\sqrt{3^2 + 4^2} = 5$.\n\n$P \\approx 6{,}40 + 5{,}83 + 5 = 17{,}23\\ \\text{cm}$, ou seja, $16\\ \\text{cm} < P < 18\\ \\text{cm}$.\n\n**Resposta: C**"
+  },
+  "72": {
+   "assunto": "Idade Média",
+   "resolucao": "O texto apresenta o império árabe-islâmico como herdeiro de um legado científico multicultural (mesopotâmico, egípcio, grego, persa e indiano), ao qual os estudiosos muçulmanos acrescentaram suas contribuições.\n\nA alternativa D segue essa ideia: o mundo islâmico medieval difundiu saberes de várias origens, como o sistema de numeração indiano (que chegou à Europa como \"algarismos arábicos\") e obras da filosofia grega, traduzidas e comentadas por sábios muçulmanos.\n\nA alternativa C contradiz o texto ao dizer que esses conhecimentos foram ignorados; a A fala em \"cosmologia ocidental\", quando o texto destaca a mistura de tradições; a B reduz a expansão a um domínio \"ditatorial\", juízo que o texto não faz.\n\n**Resposta: D**"
+  },
+  "73": {
+   "assunto": "Idade Moderna (Europa)",
+   "resolucao": "O texto destaca a matemática como chave para Leonardo transformar observações em teorias, e o Homem Vitruviano mostra o corpo humano inscrito num círculo e num quadrado, segundo proporções descritas pelo arquiteto romano Vitrúvio.\n\nA alternativa B faz essa ligação: o desenho reúne estudos de proporção do artista, inclusive a leitura de Vitrúvio, e expressa a harmonia entre o homem e o mundo por meio da geometria, ideia central do humanismo renascentista.\n\nA A atribui a base à alquimia; a C troca a geometria pela aritmética e põe Deus, e não o homem, no centro; a D é anacrônica, pois Newton viveu cerca de dois séculos depois de Leonardo.\n\n**Resposta: B**"
+  },
+  "74": {
+   "assunto": "Colonização da América",
+   "resolucao": "A petição mostra Juan Garrido, homem negro, como conquistador, participante das campanhas de Cortés e *vecino* (membro reconhecido da comunidade) da Cidade do México.\n\nIsso contraria a ideia de que a presença africana na América espanhola se limitou ao trabalho escravo. A alternativa B reconhece essa variedade: escravizados, fugitivos, forros, auxiliares na conquista e também conquistadores, proprietários e *vecinos*.\n\nA A nega exatamente o que o documento mostra; a C ignora que a \"limpeza de sangue\" era critério de discriminação também no mundo espanhol; a D erra ao dizer que a presença africana foi tardia, já que Garrido atuava desde o início da conquista.\n\n**Resposta: B**"
+  },
+  "75": {
+   "assunto": "Brasil Colônia",
+   "resolucao": "O texto mostra que a Coroa incentivou missionários e filhos de colonos a aprender o nheengatu, a língua geral falada por diversos povos da Amazônia.\n\nDominar essa língua era instrumento de colonização: permitia catequizar, negociar e controlar a mão de obra indígena. Por isso a alternativa C está correta ao ligar o aprendizado da língua ao controle da mão de obra por missionários, colonos e autoridades.\n\nA B fala do período pombalino, quando, ao contrário, o Diretório dos Índios impôs o português; a D é falsa porque o nheengatu não desapareceu (é falado até hoje no Alto Rio Negro); a A atribui aos jesuítas um dicionário usado \"nos dois lados do Atlântico\", o que o texto não sustenta.\n\n**Resposta: C**"
+  },
+  "76": {
+   "assunto": "Brasil Colônia",
+   "resolucao": "Antonil descreve como o ouro atraiu mercadorias de todo o Brasil e do Reino para as Minas: boiadas de Paranaguá e dos campos da Bahia, gêneros de várias regiões.\n\nA mineração criou um grande mercado consumidor no interior, que passou a ligar regiões antes pouco integradas, como o sul pecuarista, o Nordeste e o Rio de Janeiro. É o que afirma a alternativa A.\n\nA B erra porque Sorocaba e suas feiras de muares ganharam importância justamente com o abastecimento das Minas no século XVIII; a C erra porque a capital foi transferida em 1763 para o Rio de Janeiro, não para Ouro Preto; a D exagera, pois a região também desenvolveu agricultura e pecuária de abastecimento.\n\n**Resposta: A**"
+  },
+  "77": {
+   "assunto": "História da África",
+   "resolucao": "O texto critica o conceito de *tribo*: os europeus reduziram identidades múltiplas a um rótulo que sugeria inferioridade e política \"primitiva\" diante do Estado-nação.\n\nA alternativa A liga corretamente esse conceito ao colonialismo do século XIX: a ideia de povos \"tribais\" serviu para justificar o domínio europeu, apresentado como obra de nações \"civilizadas\".\n\nAs alternativas B, C e D aceitam o conceito como descrição real da África (ausência de grandes formações políticas, fragmentação, identidades estáticas e homogêneas), justamente o que o texto questiona. Além disso, a África teve reinos e impérios extensos, como Mali, Songai e Congo.\n\n**Resposta: A**"
+  },
+  "78": {
+   "assunto": "Guerras mundiais e entreguerras",
+   "resolucao": "A foto mostra a sede do partido fascista coberta de \"SI\" e com o rosto de Mussolini: é propaganda que exibe a adesão das massas ao líder, marca do fascismo. *Bella Ciao*, ao contrário, é canção da resistência antifascista.\n\nA alternativa C relaciona corretamente as duas fontes: a música se tornou internacional e é cantada em diversos contextos de resistência ao fascismo, regime caracterizado pela adesão das massas ao líder, como a fotografia mostra.\n\nA A inverte o sentido da canção (ela era cantada contra o fascismo, não para demonstrar adesão a ele); a B chama a foto de neutra, quando ela é propaganda política; a D chama a canção de nacionalista, quando seu sentido é de resistência.\n\n**Resposta: C**"
+  },
+  "79": {
+   "assunto": "Guerra Fria",
+   "resolucao": "O texto e a foto destacam as pichações como forma de expressão do Maio de 1968, e a inscrição \"Liberem a expressão\" resume uma das bandeiras do movimento.\n\nO Maio de 68 nasceu do movimento estudantil, num contexto cultural da Guerra Fria marcado pela contracultura e pela crítica tanto ao capitalismo quanto ao modelo soviético. Liberdade de expressão política e sexual estava entre suas palavras de ordem, como diz a alternativa B.\n\nA A erra ao atribuir a origem à política soviética e aos operários (a greve geral veio depois da revolta estudantil); a C cita o movimento *punk*, que surgiu só nos anos 1970; a D erra ao restringir o movimento às camadas populares, quando os estudantes foram protagonistas.\n\n**Resposta: B**"
+  },
+  "80": {
+   "assunto": "Ditadura militar",
+   "resolucao": "O texto descreve a crise econômica do governo Figueiredo: desvalorização da moeda, inflação acima de 100% ao ano e recessão. Esses anos 1980 ficaram conhecidos como \"década perdida\".\n\nA alternativa D completa o quadro: além da grave crise econômica, a década trouxe a transição para a democracia, a volta gradual das instituições democráticas, o fortalecimento dos movimentos sociais e uma efervescência cultural.\n\nA B erra ao falar em silenciamento das *Diretas Já*, movimento que levou multidões às ruas em 1984; a C erra ao dizer que o governo incentivou greves e garantiu eleições \"lenta, gradual e segura\" (essa expressão descreve a abertura política, e as greves foram reprimidas); a A erra porque os fatores citados agravaram a crise, em vez de superá-la.\n\n**Resposta: D**"
+  },
+  "81": {
+   "assunto": "Idade Moderna (Europa)",
+   "resolucao": "O texto explica que Kepler rompeu com a cosmologia de esferas e órbitas circulares, herdada de Aristóteles e Platão, ao perceber que a lei das áreas só vale numa órbita elíptica.\n\nNuma órbita circular, a distância entre o planeta e o Sol é constante; numa elipse, ela varia. Portanto, o que Kepler abandonou foi o modelo de distância constante. Isso elimina B e C, que descrevem a órbita circular com distância variável.\n\nEntre A e D, a A está correta: a Revolução Científica rompeu com explicações especulativas de base aristotélica e tomista e propôs análises apoiadas na observação. A D é falsa ao dizer que a Igreja incentivou esse movimento para manter o pensamento medieval.\n\n**Resposta: A**"
+  },
+  "82": {
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "O texto conta que voluntários manusearam papel com BPA marcado isotopicamente e que os pesquisadores acompanharam esse BPA e seus metabólitos na urina por dias e uma semana depois. O objetivo foi ver como o manuseio do papel térmico contamina a pessoa e por quanto tempo o BPA fica no corpo.\n\n\"Deuterated\" quer dizer que átomos de hidrogênio comum, $^{1}\\text{H}$, foram trocados por deutério, $^{2}\\text{H}$, um isótopo mais pesado. Assim, só o BPA do experimento é medido, sem confusão com outras exposições. É exatamente o que diz a alternativa A.\n\nA C é a distratora mais tentadora, mas erra a fonte da contaminação: as luvas foram colocadas depois do contato com o papel, e a contaminação veio do papel, não das luvas.\n\n**Resposta: A**"
+  },
+  "83": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Pelo texto, um primo de Mersenne é obtido multiplicando 2 por ele mesmo várias vezes e subtraindo 1, ou seja, tem a forma $2^n - 1$, e precisa ser primo.\n\nOs números da forma $2^n - 1$ próximos das alternativas são $2^4 - 1 = 15$, $2^5 - 1 = 31$ e $2^6 - 1 = 63$.\n\nEntre 23, 29, 31 e 37, todos primos, só 31 é uma potência de 2 menos 1: $31 = 2^5 - 1$. Os outros não são: $23 + 1 = 24$, $29 + 1 = 30$ e $37 + 1 = 38$ não são potências de 2.\n\n**Resposta: C**"
+  },
+  "84": {
+   "assunto": "População e migrações",
+   "resolucao": "O *post* lista produtos e heranças culturais de vários países presentes no dia a dia de uma pessoa (carro alemão, café brasileiro, eletrônicos chineses, números arábicos...) e termina perguntando: \"E VOCÊ reclama que o SEU vizinho é imigrante?\".\n\nA crítica tem duas partes: mostrar como a globalização já mistura origens no cotidiano e apontar a contradição do preconceito contra imigrantes. É o que diz a alternativa C.\n\nA A erra ao falar em \"problemas causados pela imigração\", o contrário da mensagem; a B atribui à migração um impacto negativo que o *post* não afirma; a D fala em consumo excessivo, tema que o *post* não discute.\n\n**Resposta: C**"
+  },
+  "85": {
+   "assunto": "Trabalho",
+   "resolucao": "O personagem diz que é sinal de recuperação econômica ter conseguido um emprego de meio período, com salário mínimo e sem benefícios, e ainda precisar vencer outros 500 candidatos para obtê-lo.\n\nA ironia está no contraste entre o discurso otimista (\"recuperação econômica\") e a realidade de um emprego precário e muito disputado. O cartum critica, portanto, a precarização do trabalho nas sociedades atuais.\n\nAs demais alternativas leem o cartum ao pé da letra: ele não defende a meritocracia (A), não apresenta o salário mínimo como proteção suficiente (B) nem diz que esse tipo de emprego traz justiça social (D).\n\n**Resposta: C**"
+  },
+  "86": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O trecho decisivo é o final: \"And they grow up – and this is the worst thing we do to girls – to be women who turn pretense into an art form\", isto é, elas crescem e se tornam mulheres que transformam o fingimento (\"pretense\") numa forma de arte.\n\nOu seja, criadas para agradar aos homens, as mulheres passam a ver a dissimulação como algo normal, como diz a alternativa B.\n\nA D é a distratora mais tentadora, mas o texto diz que as mulheres \"silence themselves\", ou seja, silenciam a si mesmas, e não que são silenciadas pelos homens. A C também distorce: quem se sentiria ameaçado é o homem (\"you will threaten the man\").\n\n**Resposta: B**"
+  },
+  "87": {
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "A frase da camiseta junta *through*, *tough*, *thorough*, *thought* e *though*: palavras escritas de modo muito parecido (todas com \"ough\"), mas pronunciadas de maneiras bem diferentes.\n\nO humor vem dessa irregularidade do sistema ortográfico inglês, em que a mesma sequência de letras pode ter vários sons. É o que diz a alternativa D.\n\nA A erra porque as pronúncias não são semelhantes; a B fala em ambiguidade de sentido, mas cada palavra tem sentido próprio na frase, que é perfeitamente compreensível; a C exagera, pois a frase afirma que o inglês \"can be understood\".\n\n**Resposta: D**"
+  },
+  "88": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Elena Ferrante diz que não tem orgulho nacional nem os traços do estereótipo italiano e que, para ela, ser italiana \"begins and ends with the fact that I speak and write in the Italian language\". A língua é a única forma de nacionalidade que ela aceita atribuir a si mesma.\n\nO verso de Caetano Veloso, \"Minha pátria é minha língua\", expressa exatamente essa ideia de identificar a pátria com o idioma.\n\nAs outras alternativas falam de se sentir estrangeiro (A), de desilusão com a pátria (B) e de não saber o que é a pátria (D), ideias que não correspondem à tese da autora.\n\n**Resposta: C**"
+  },
+  "89": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Os versos 7 e 8 decidem a questão: \"Yet many a man is making friends with death / Even as I speak, for lack of love alone\", ou seja, muitos homens estão fazendo amizade com a morte, neste exato momento, só por falta de amor.\n\nIsso corresponde à alternativa B: há quem busque a companhia da morte por falta de amor.\n\nA D é a armadilha: o eu lírico admite que, num momento difícil, poderia trocar o amor por paz, mas conclui \"I do not think I would\" (acho que não trocaria). A A e a C não têm apoio no poema.\n\n**Resposta: B**"
+  },
+  "90": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto aponta que as previsões genéticas estão longe de ser perfeitas e pergunta: \"What if someone with a low risk score for cancer puts off being screened, and then develops cancer anyway?\". O exemplo dado é o das mulheres com baixo risco de câncer de mama, que fariam menos mamografias.\n\nO risco, portanto, é que pessoas com pontuação baixa deixem de fazer exames preventivos e acabem desenvolvendo a doença, como diz a alternativa B.\n\nA A e a C (empresas e governos usando os dados) não aparecem no texto. A D inverte a dúvida do texto sobre QI: ele pergunta como pais e educadores vão usar essa informação, e não diz que eles a desconsiderariam.\n\n**Resposta: B**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "corrigida",
+   "notas": "descrições das figuras-alternativas eram só “Alternativa A/B/C/D”; agora descrevem cada parábola (concavidade e pontos em que corta o eixo x), para quem usa leitor de tela poder responder"
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "corrigida",
+   "notas": "descrição da figura dizia “lados consecutivos de comprimentos b, a, c e d”, o que não corresponde ao desenho (a ordem é c, b, a, lado inclinado, d); descrição refeita"
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "corrigida",
+   "notas": "materias_extra: retirada “literatura”; a questão cobra só leitura do texto em inglês e relação com os versos, sem conteúdo de literatura"
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "corrigida",
+   "notas": "materias_extra: retirada “biologia”; a resposta sai direto do texto em inglês, sem conhecimento de biologia"
+  }
+ ]
+}
