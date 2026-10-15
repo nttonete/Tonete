@@ -1,0 +1,467 @@
+{
+  "edicao": "fuvest-2020-1",
+  "textos_base": {
+    "t25-27": "*Assigning female genders to digital assistants such as Apple’s Siri and Amazon’s Alexa is helping entrench harmful gender biases, according to a UN agency.*\n\n*Research released by Unesco claims that the often submissive and flirty responses offered by the systems to many queries – including outright abusive ones – reinforce ideas of women as subservient.*\n\n*“Because the speech of most voice assistants is female, it sends a signal that women are obliging, docile and eager-to-please helpers, available at the touch of a button or with a blunt voice command like ‘hey’ or ‘OK’”, the report said.*\n\n*“The assistant holds no power of agency beyond what the commander asks of it. It honours commands and responds to queries regardless of their tone or hostility. In many communities, this reinforces commonly held gender biases that women are subservient and tolerant of poor treatment.”*\n\n*The Unesco publication was entitled “I’d Blush if I Could”; a reference to the response Apple’s Siri assistant offers to the phrase: “You’re a slut.” Amazon’s Alexa will respond: “Well, thanks for the feedback.”*\n\n*The paper said such firms were “staffed by overwhelmingly male engineering teams” and have built AI (Artificial Intelligence) systems that “cause their feminised digital assistants to greet verbal abuse with catch-me-if-you-can flirtation”.*\n\n*Saniye Gülser Corat, Unesco’s director for gender equality, said: “The world needs to pay much closer attention to how, when and whether AI technologies are gendered and, crucially, who is gendering them.”*\n\n*The Guardian*, May, 2019. Adaptado.",
+    "t29-30": "*Scientists have long touted DNA’s potential as an ideal storage medium; it’s dense, easy to replicate, and stable over millennia. But in order to replace existing silicon-chip or magnetic-tape storage technologies, DNA will have to get a lot cheaper to predictably read, write, and package.*\n\n*That’s where scientists like Hyunjun Park come in. He and the other cofounders of Catalog, an MIT DNA-storage spinoff emerging out of stealth on Tuesday, are building a machine that will write a terabyte of data a day, using 500 trillion molecules of DNA.*\n\n*If successful, DNA storage could be the answer to a uniquely 21st-century problem: information overload. Five years ago humans had produced 4.4 zettabytes of data; that's set to explode to 160 zettabytes (each year!) by 2025. Current infrastructure can handle only a fraction of the coming data deluge, which is expected to consume all the world's microchip-grade silicon by 2040.*\n\n*“Today’s technology is already close to the physical limits of scaling,” says Victor Zhirnov, chief scientist of the Semiconductor Research Corporation. “DNA has an information-storage density several orders of magnitude higher than any other known storage technology.”*\n\n*How dense exactly? Imagine formatting every movie ever made into DNA; it would be smaller than the size of a sugar cube. And it would last for 10,000 years.*\n\n*Wired*, June, 2018. Disponível em https://www.wired.com/. Adaptado."
+  },
+  "questoes": [
+    {
+      "numero": 1,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em Xangai, uma loja especializada em café oferece uma opção diferente para adoçar a bebida. A chamada *sweet little rain* consiste em uma xícara de café sobre a qual é pendurado um algodão-doce, material rico em sacarose, o que passa a impressão de existir uma nuvem pairando sobre o café, conforme ilustrado na imagem.\n\n![fotografia de uma xícara de café com um algodão-doce pendurado acima dela, como se fosse uma nuvem](fig:p02-f1)\n\nDisponível em https://www.boredpanda.com/.\n\nO café quente é então adicionado na xícara e, passado um tempo, gotículas começam a pingar sobre a bebida, simulando uma chuva doce e reconfortante. A adição de café quente inicia o processo descrito, pois\n\n**Note e adote:**\n\nTemperatura de fusão da sacarose à pressão ambiente = 186 °C;\nSolubilidade da sacarose a 20 °C = 1,97 kg/L de água.",
+      "alternativas": {
+        "A": "a temperatura do café é suficiente para liquefazer a sacarose do algodão-doce, fazendo com que este goteje na forma de sacarose líquida.",
+        "B": "o vapor de água que sai do café quente irá condensar na superfície do algodão-doce, gotejando na forma de água pura.",
+        "C": "a sacarose que evapora do café quente condensa na superfície do algodão-doce e goteja na forma de uma solução de sacarose em água.",
+        "D": "o vapor de água encontra o algodão-doce e solubiliza a sacarose, que goteja na forma de uma solução de sacarose em água.",
+        "E": "o vapor de água encontra o algodão-doce e vaporiza a sacarose, que goteja na forma de uma solução de sacarose em água."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 2,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Equipamentos domésticos chamados de vaporizadores para roupa utilizam o vapor de água gerado por um sistema de resistências elétricas a partir de água líquida. Um equipamento com potência nominal de 1.600 W foi utilizado para passar roupas por 20 minutos, consumindo 540 mL de água. Em relação ao gasto total de energia do equipamento, o gasto de energia utilizado apenas para vaporizar a água, após ela já ter atingido a temperatura de ebulição, equivale a, aproximadamente,\n\n**Note e adote:**\n\nEntalpia de vaporização da água a 100 °C = 40 kJ/mol;\nMassa molar da água = 18 g/mol;\nDensidade da água = 1 g/mL.",
+      "alternativas": {
+        "A": "0,04%.",
+        "B": "0,062%.",
+        "C": "4,6%.",
+        "D": "40%.",
+        "E": "62%."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 3,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![tabela periódica dos elementos, com o sódio (Na) e o césio (Cs) destacados em cinza](fig:p02-f4)\n\n*Pesquisadores (...) conseguiram controlar reações químicas de*\n*um modo inovador. Usaram feixes de* laser *para promover um*\n*esbarrão entre dois átomos e uni-los, criando uma molécula.*\n*Utilizando pinças ópticas (feixes de* laser *altamente focados*\n[[5]] *capazes de aprisionar objetos microscópicos), os*\n*pesquisadores empurraram um átomo do elemento químico*\n*césio (Cs) contra um átomo de sódio (Na) até que colidissem.*\n*Um terceiro* laser *foi lançado sobre ambos, fornecendo*\n*energia extra para criar a molécula NaCs. Na natureza, as*\n[[10]] *moléculas formam-se a partir da interação de átomos por*\n*acaso. Por suas características químicas, césio e sódio jamais*\n*originariam uma molécula espontaneamente. (...)*\n\n*Molécula criada em laboratório*. Disponível em http://revistapesquisa.fapesp.br/. Adaptado.\n\nCom base nas informações do texto e em seus conhecimentos, é correto afirmar que",
+      "alternativas": {
+        "A": "o Cs é um elemento químico radioativo e, devido a essa característica química, a molécula de NaCs não se formaria sem esse modo inovador (L.2), que estabiliza o decaimento.",
+        "B": "o raio atômico do Na é maior que o do Cs, portanto, a sua energia de ionização também é maior. O esbarrão (L.3) entre os átomos retira um elétron do Na, permitindo a ligação.",
+        "C": "o terceiro *laser* (L.8) usado no experimento serviu para retirar um nêutron do Cs, tornando-o um cátion e possibilitando a reação com o Na.",
+        "D": "na natureza, com esses elementos se esbarrando por acaso (L.10-11), a tendência seria formar CsNa, e não NaCs, justificando o caráter inovador do experimento.",
+        "E": "o Cs e o Na não formariam uma molécula espontaneamente (L.11-12), uma vez que ambos têm grande tendência a formarem cátions e ligações iônicas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 4,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Ao se preparar molho de tomate (considere apenas a fervura de tomate batido com água e azeite), é possível observar que a fração aquosa (fase inferior) fica vermelha logo no início e a fração oleosa (fase superior), inicialmente com a cor característica do azeite, começa a ficar avermelhada conforme o preparo do molho. Por outro lado, ao se preparar uma sopa de beterraba (considere apenas a fervura de beterraba batida com água e azeite), a fração aquosa (fase inferior) fica com a cor rosada e a fração oleosa (fase superior) permanece com sua coloração típica durante todo o processo, não tendo sua cor alterada.\n\n![quadro com duas panelas, uma de molho de tomate e outra de sopa de beterraba, com as fases oleosa e aquosa indicadas, e as estruturas do licopeno (principal corante do tomate) e da betanina (principal corante da beterraba)](fig:p03-f1)\n\nConsiderando as informações apresentadas no texto e no quadro, a principal razão para a diferença de coloração descrita é que a fração oleosa\n\n**Note e adote:**\n\nMassas molares (g/mol):\nLicopeno = 537; betanina = 551.",
+      "alternativas": {
+        "A": "fica mais quente do que a aquosa, degradando a betanina; o mesmo não é observado com o licopeno, devido à sua cadeia carbônica longa.",
+        "B": "está mais exposta ao ar, que oxida a betanina; o mesmo não é observado com o licopeno, devido à grande quantidade de duplas ligações.",
+        "C": "é apolar e a betanina, polar, havendo pouca interação; o mesmo não é observado com o licopeno, que é apolar e irá interagir com o azeite.",
+        "D": "é apolar e a aquosa, polar, mantendo-se separadas; o licopeno age como um surfactante misturando as fases, colorindo a oleosa, enquanto a betanina não.",
+        "E": "tem alta viscosidade, facilitando a difusão do licopeno, composto de menor massa molar; o mesmo não é observado para a betanina, com maior massa."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 5,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Numa determinada condição experimental e com o catalisador adequado, ocorre uma reação, conforme representada no gráfico, que relaciona porcentagem do composto pelo tempo de reação.\n\n![gráfico da quantidade (%) de limoneno, p-cimeno e α-terpineno em função do tempo (minutos), de 0 a 20 minutos](fig:p03-c1)\n\nUma representação adequada para esse processo é:",
+      "alternativas": {
+        "A": "$\\text{limoneno} \\rightleftharpoons p\\text{-cimeno} \\rightarrow \\alpha\\text{-terpineno}$",
+        "B": "$\\text{limoneno} \\xrightarrow{\\substack{p\\text{-cimeno} \\\\ \\text{(catalisador)}}} \\alpha\\text{-terpineno}$",
+        "C": "$\\text{limoneno} + p\\text{-cimeno} \\rightleftharpoons \\alpha\\text{-terpineno}$",
+        "D": "$\\text{limoneno} \\xrightarrow{\\substack{\\alpha\\text{-terpineno} \\\\ \\text{(catalisador)}}} p\\text{-cimeno}$",
+        "E": "$\\text{limoneno} \\rightarrow \\alpha\\text{-terpineno} \\rightarrow p\\text{-cimeno}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 6,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os chamados “remédios homeopáticos” são produzidos seguindo a farmacotécnica homeopática, que se baseia em diluições sequenciais de determinados compostos naturais. A dosagem utilizada desses produtos é da ordem de poucos mL. Uma das técnicas de diluição homeopática é chamada de diluição centesimal (CH), ou seja, uma parte da solução é diluída em 99 partes de solvente e a solução resultante é homogeneizada (ver esquema).\n\n![esquema de diluições centesimais sequenciais: a solução de partida (P) passa 1,0 mL para um tubo com 99 mL (1CH), depois para o tubo 2CH, 3CH e assim n vezes até o tubo nCH](fig:p03-f4)\n\nAlguns desses produtos homeopáticos são produzidos com até 200 diluições centesimais sequenciais (200CH).\n\nConsiderando uma solução de partida de 100 mL com concentração 1 mol/L de princípio ativo, a partir de qual diluição centesimal a solução passa a não ter, em média, nem mesmo uma molécula do princípio ativo?\n\n**Note e adote:**\n\nNúmero de Avogadro = $6{\\times}10^{23}$.",
+      "alternativas": {
+        "A": "12ª diluição (12CH).",
+        "B": "24ª diluição (24CH).",
+        "C": "51ª diluição (51CH).",
+        "D": "99ª diluição (99CH).",
+        "E": "200ª diluição (200CH)."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O gás hélio disponível comercialmente pode ser gerado pelo decaimento radioativo, sobretudo do urânio, conforme esquematizado pela série de decaimento. Desde a formação da Terra, há 4,5 bilhões de anos, apenas metade do $^{238}\\text{U}$ decaiu para a formação de He.\n\n![série de decaimento radioativo do urânio-238 até o chumbo-206, com as emissões alfa e beta indicadas sobre as setas](fig:p04-f1)\n\nCom base nessas informações e em seus conhecimentos, é correto afirmar:",
+      "alternativas": {
+        "A": "O decaimento de um átomo de $^{238}\\text{U}$ produz, ao final da série de decaimento, apenas um átomo de He.",
+        "B": "O decaimento do $^{238}\\text{U}$ para $^{234}\\text{U}$ gera a mesma quantidade de He que o decaimento do $^{234}\\text{U}$ para $^{230}\\text{Th}$.",
+        "C": "Daqui a 4,5 bilhões de anos, a quantidade de He no planeta Terra será o dobro da atual.",
+        "D": "O decaimento do $^{238}\\text{U}$ para $^{234}\\text{U}$ gera a mesma quantidade de He que o decaimento do $^{214}\\text{Pb}$ para $^{214}\\text{Po}$.",
+        "E": "A produção de He ocorre pela sequência de decaimento a partir do $^{206}\\text{Pb}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 8,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Os movimentos das moléculas antes e depois de uma reação química obedecem aos princípios físicos de colisões. Para tanto, cada átomo é representado como um corpo pontual com uma certa massa, ocupando uma posição no espaço e com uma determinada velocidade (representada na forma vetorial). Costumeiramente, os corpos pontuais são representados como esferas com diâmetros proporcionais à massa atômica. As colisões ocorrem conservando a quantidade de movimento.\n\nConsiderando um referencial no qual as moléculas neutras encontram-se paradas antes e após a colisão, a alternativa que melhor representa o arranjo de íons e moléculas instantes antes e instantes depois de uma colisão que leva à reação\n\n$$\\text{F}^- + \\text{H}_3\\text{CC}\\ell \\rightarrow \\text{CH}_3\\text{F} + \\text{C}\\ell^-$$\n\né\n\n![cabeçalho das colunas das alternativas: antes da colisão (íon, neutro) e após a colisão (neutro, íon)](fig:p04-c1)\n\n**Note e adote:**\n\nMassas atômicas: H = 1 u.m.a., C = 12 u.m.a., F = 19 u.m.a. e Cℓ = 35 u.m.a.\nConsidere que apenas o isótopo de cloro Cℓ = 35 u.m.a. participa da reação.",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p04-c2)",
+        "B": "![Alternativa B](fig:p04-c3)",
+        "C": "![Alternativa C](fig:p04-c4)",
+        "D": "![Alternativa D](fig:p04-c5)",
+        "E": "![Alternativa E](fig:p04-c6)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 9,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Quando o nosso corpo é lesionado por uma pancada, logo se cria um hematoma que, ao longo do tempo, muda de cor. Inicialmente, o hematoma torna-se avermelhado pelo acúmulo de hemoglobina. Em seguida, surge uma coloração azulada, decorrente da perda do $\\text{O}_2$ ligado ao Fe do grupo heme. Essa coloração torna-se, então, esverdeada (biliverdina) e, após isso, surge um tom amarelado na pele (bilirrubina). Essa sequência de cores ocorre pela transformação do grupo heme da hemoglobina, como representado a seguir:\n\n![transformação do grupo heme em biliverdina e depois em bilirrubina, com as estruturas químicas, as cores (esverdeado, amarelado) e a indicação: O₂ presente - avermelhado; O₂ ausente - azulado](fig:p04-c7)\n\nCom base nas informações e nas representações, é correto afirmar:",
+      "alternativas": {
+        "A": "A conversão da biliverdina em bilirrubina ocorre por meio de uma redução.",
+        "B": "A biliverdina, assim como a hemoglobina, é capaz de transportar $\\text{O}_2$ para as células do corpo, pois há oxigênio ligado na molécula.",
+        "C": "As três estruturas apresentadas contêm o grupo funcional amida.",
+        "D": "A degradação do grupo heme para a formação da biliverdina produz duas cetonas.",
+        "E": "O grupo heme, a biliverdina e a bilirrubina são isômeros."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 10,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A reação de cetonas com hidrazinas, representada pela equação química\n\n![equação química: cetona (com grupos R₁ e R₂ ligados ao carbono da carbonila) mais hidrazina (H₂N–NH₂) formando um produto com ligação C=N–NH₂ e água](fig:p05-f1)\n\npode ser explorada para a quantificação de compostos cetônicos gerados, por exemplo, pela respiração humana. Para tanto, uma hidrazina específica, a 2,4-dinitrofenilhidrazina, é utilizada como reagente, gerando um produto que possui cor intensa.\n\n![equação: cetona mais 2,4-dinitrofenilhidrazina formando um produto colorido](fig:p05-f2)\n\nConsidere que a 2,4-dinitrofenilhidrazina seja utilizada para quantificar o seguinte composto:\n\n![fórmula estrutural de uma cetona com uma ligação dupla carbono-carbono em uma extremidade](fig:p05-f3)\n\nNesse caso, a estrutura do composto colorido formado será:",
+      "alternativas": {
+        "A": "![Alternativa A](fig:p05-f4)",
+        "B": "![Alternativa B](fig:p05-f5)",
+        "C": "![Alternativa C](fig:p05-f6)",
+        "D": "![Alternativa D](fig:p05-f7)",
+        "E": "![Alternativa E](fig:p05-f8)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 11,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em supermercados, é comum encontrar alimentos chamados de liofilizados, como frutas, legumes e carnes. Alimentos liofilizados continuam próprios para consumo após muito tempo, mesmo sem refrigeração. O termo “liofilizado”, nesses alimentos, refere-se ao processo de congelamento e posterior desidratação por sublimação da água. Para que a sublimação da água ocorra, é necessária uma combinação de condições, como mostra o gráfico de pressão por temperatura, em que as linhas representam transições de fases.\n\n![diagrama de fases da água: pressão (p, em atm) em função da temperatura (θ, em °C), com as regiões sólido, líquido e vapor](fig:p05-c1)\n\nApesar de ser um processo que requer, industrialmente, uso de certa tecnologia, existem evidências de que os povos pré-colombianos que viviam nas regiões mais altas dos Andes conseguiam liofilizar alimentos, possibilitando estocá-los por mais tempo. Assinale a alternativa que explica como ocorria o processo de liofilização natural:",
+      "alternativas": {
+        "A": "A sublimação da água ocorria devido às baixas temperaturas e à alta pressão atmosférica nas montanhas.",
+        "B": "Os alimentos, após congelados naturalmente nos períodos frios, eram levados para a parte mais baixa das montanhas, onde a pressão atmosférica era menor, o que possibilitava a sublimação.",
+        "C": "Os alimentos eram expostos ao sol para aumentar a temperatura, e a baixa pressão atmosférica local favorecia a solidificação.",
+        "D": "As temperaturas eram baixas o suficiente nos períodos frios para congelar os alimentos, e a baixa pressão atmosférica nas altas montanhas possibilitava a sublimação.",
+        "E": "Os alimentos, após congelados naturalmente, eram prensados para aumentar a pressão, de forma que a sublimação ocorresse."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "quimica",
+      "materias_extra": [
+        "matematica"
+      ],
+      "texto_base": null,
+      "enunciado": "Para exemplificar probabilidade, um grupo de estudantes fez uma atividade envolvendo química, conforme o procedimento descrito.\n\nCada estudante recebeu um recipiente contendo 800 mL de água destilada com algumas gotas do indicador de pH alaranjado de metila e soluções de HCℓ e NaOH em diversas concentrações.\n\nCada estudante deveria jogar apenas uma vez dois dados, um amarelo e um vermelho, ambos contendo os números de 1 a 6.\n\n• Ao jogar o dado vermelho, o estudante deveria adicionar ao recipiente 100 mL de solução do ácido clorídrico na concentração $10^{-n}$ mol/L, sendo $n$ o número marcado no dado (por exemplo, se saísse o número 1 no dado, a solução seria de $10^{-1}$ mol/L; se saísse 6, a solução seria de $10^{-6}$ mol/L).\n\n• Ao jogar o dado amarelo, o estudante deveria executar o mesmo procedimento, mas substituindo o ácido por NaOH, totalizando assim 1,0 L de solução.\n\n• O estudante deveria observar a cor da solução ao final do experimento.\n\nA professora mostrou a tabela com alguns valores de pH resultantes conforme os números tirados nos dados. Ela pediu, então, aos estudantes que utilizassem seus conhecimentos e a tabela para prever em quais combinações de dados a cor final do indicador seria vermelha.\n\n![tabela dupla entrada com o número tirado no dado vermelho (adição de ácido), de 1 a 6, nas linhas, e no dado amarelo (adição de base), de 1 a 6, nas colunas; algumas células têm valores de pH: 7,0; 2,1; 2,0; 3,1; 7,0; 4,1; 7,0; 11,9; 8,9; 7,9; 7,0](fig:p06-f1)\n\nA probabilidade de, após realizar o procedimento descrito, a solução final preparada por um estudante ser vermelha é de:\n\n**Note e adote:**\n\nConsidere a seguinte relação entre pH do meio e coloração do indicador alaranjado de metila:\n\n| Menor que 3,3 | 3,3 a 4,4 | Maior que 4,4 |\n|---|---|---|\n| Vermelho | Laranja | Amarelo |\n\n![escala de pH de 0 a 14 com faixas coloridas em vermelho, laranja e amarelo](fig:p06-c2)",
+      "alternativas": {
+        "A": "1/12",
+        "B": "1/6",
+        "C": "1/4",
+        "D": "11/36",
+        "E": "5/12"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 13,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Carros que saem da cidade A rumo a alguma das cidades turísticas E, F e G fazem caminhos diversos, passando por pelo menos uma das cidades B, C e D, apenas no sentido indicado pelas setas, como mostra a figura. Os números indicados nas setas são as probabilidades, dentre esses carros, de se ir de uma cidade a outra.\n\n![diagrama com as cidades A, B, C, D, E, F e G ligadas por setas com probabilidades: A para B 0,8; A para C 0,2; B para C 0,1; B para D 0,9; C para E 0,4; C para F 0,6; D para F 0,3; D para G 0,7](fig:p06-c1)\n\nNesse cenário, a probabilidade de um carro ir de A a F é",
+      "alternativas": {
+        "A": "0,120.",
+        "B": "0,216.",
+        "C": "0,264.",
+        "D": "0,336.",
+        "E": "0,384."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 14,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Se, em 15 anos, o salário mínimo teve um aumento nominal de 300% e a inflação foi de 100%, é correto afirmar que o aumento real do salário mínimo, nesse período, foi de",
+      "alternativas": {
+        "A": "50%.",
+        "B": "100%.",
+        "C": "150%.",
+        "D": "200%.",
+        "E": "250%."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O cilindro de papelão central de uma fita crepe tem raio externo de 3 cm. A fita tem espessura de 0,01 cm e dá 100 voltas completas. Considerando que, a cada volta, o raio externo do rolo é aumentado no valor da espessura da fita, o comprimento total da fita é de, aproximadamente,\n\n![rolo de fita crepe com o raio externo do cilindro central de 3 cm e a espessura da fita de 0,01 cm indicados](fig:p06-f4)\n\n**Note e adote:**\n\n$\\pi \\cong 3{,}14$.",
+      "alternativas": {
+        "A": "9,4 m.",
+        "B": "11,0 m.",
+        "C": "18,8 m.",
+        "D": "22,0 m.",
+        "E": "25,1 m."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 16,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um objeto é formado por 4 hastes rígidas conectadas em seus extremos por articulações, cujos centros são os vértices de um paralelogramo. As hastes movimentam-se de tal forma que o paralelogramo permanece sempre no mesmo plano. A cada configuração desse objeto, associa-se $\\theta$, a medida do menor ângulo interno do paralelogramo. A área da região delimitada pelo paralelogramo quando $\\theta = 90^\\circ$ é $A$.\n\n![à esquerda, o objeto formado por quatro hastes na forma de um retângulo (ângulo de 90°); à direita, o mesmo objeto deformado em um paralelogramo, com o menor ângulo interno θ indicado](fig:p07-c1)\n\nPara que a área da região delimitada pelo paralelogramo seja $A/2$, o valor de $\\theta$ é, necessariamente, igual a",
+      "alternativas": {
+        "A": "$15^\\circ$.",
+        "B": "$22{,}5^\\circ$.",
+        "C": "$30^\\circ$.",
+        "D": "$45^\\circ$.",
+        "E": "$60^\\circ$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A menor esfera na qual um paralelepípedo reto-retângulo de medidas 7 cm × 4 cm × 4 cm está inscrito tem diâmetro de",
+      "alternativas": {
+        "A": "9 cm.",
+        "B": "10 cm.",
+        "C": "11 cm.",
+        "D": "12 cm.",
+        "E": "15 cm."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A dona de uma lanchonete observou que, vendendo um *combo* a R\\$ 10,00, 200 deles são vendidos por dia, e que, para cada redução de R\\$ 1,00 nesse preço, ela vende 100 *combos* a mais. Nessas condições, qual é a máxima arrecadação diária que ela espera obter com a venda desse *combo*?",
+      "alternativas": {
+        "A": "R\\$ 2.000,00",
+        "B": "R\\$ 3.200,00",
+        "C": "R\\$ 3.600,00",
+        "D": "R\\$ 4.000,00",
+        "E": "R\\$ 4.800,00"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 19,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A função $E$ de Euler determina, para cada número natural $n$, a quantidade de números naturais menores do que $n$ cujo máximo divisor comum com $n$ é igual a 1. Por exemplo, $E(6) = 2$ pois os números menores do que 6 com tal propriedade são 1 e 5. Qual o valor máximo de $E(n)$, para $n$ de 20 a 25?",
+      "alternativas": {
+        "A": "19",
+        "B": "20",
+        "C": "22",
+        "D": "24",
+        "E": "25"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 20,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Se $3x^2 - 9x + 7 = (x - a)^3 - (x - b)^3$, para todo número real $x$, o valor de $a + b$ é",
+      "alternativas": {
+        "A": "3.",
+        "B": "5.",
+        "C": "6.",
+        "D": "9.",
+        "E": "12."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 21,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma agência de turismo vendeu um total de 78 passagens para os destinos: Lisboa, Paris e Roma. Sabe-se que o número de passagens vendidas para Paris foi o dobro do número de passagens vendidas para os outros dois destinos conjuntamente. Sabe-se também que, para Roma, foram vendidas duas passagens a mais que a metade das vendidas para Lisboa. Qual foi o total de passagens vendidas, conjuntamente, para Paris e Roma?",
+      "alternativas": {
+        "A": "26",
+        "B": "38",
+        "C": "42",
+        "D": "62",
+        "E": "68"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 22,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um ponto $(x, y)$ do plano cartesiano pertence ao conjunto $F$ se é equidistante dos eixos $OX$ e $OY$ e pertence ao círculo de equação $x^2 + y^2 - 2x - 6y + 2 = 0$. É correto afirmar que $F$",
+      "alternativas": {
+        "A": "é um conjunto vazio.",
+        "B": "tem exatamente 2 pontos, um no primeiro quadrante e outro no segundo quadrante.",
+        "C": "tem exatamente 2 pontos, ambos no primeiro quadrante.",
+        "D": "tem exatamente 3 pontos, sendo dois no primeiro quadrante e outro no segundo quadrante.",
+        "E": "tem exatamente 4 pontos, sendo dois no primeiro quadrante e dois no segundo quadrante."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 23,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma cidade é dividida em dois Setores: o Setor Sul, com área de $10\\ \\text{km}^2$, e o Setor Norte, com área de $30\\ \\text{km}^2$. Após um final de semana, foram divulgados os seguintes totais pluviométricos:\n\n| Dia | Sul | Norte |\n|---|---|---|\n| sábado | 7 mm | 11 mm |\n| domingo | 9 mm | 17 mm |\n\nÉ correto afirmar que o total pluviométrico desse final de semana na cidade inteira foi de",
+      "alternativas": {
+        "A": "15 mm.",
+        "B": "17 mm.",
+        "C": "22 mm.",
+        "D": "25 mm.",
+        "E": "28 mm."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 24,
+      "materia": "matematica",
+      "materias_extra": [
+        "ingles"
+      ],
+      "texto_base": null,
+      "enunciado": "![tirinha de Calvin and Hobbes em quatro quadros: no primeiro, o balão diz “Point A is twice as far from point C as point B is from A. If the distance from point B to point C is 5 inches, how far is point A from C?”; nos dois seguintes, Calvin aparece primeiro zangado e depois gritando; no último, ele caminha de braços estendidos e diz “The living dead don’t need to solve word problems.”](fig:p08-f1)\n\nBill Waterson, *Calvin and Hobbes*. Disponível em https://www.gocomics.com/.\n\nAs possíveis soluções, em polegadas (*inches*, em inglês), para o problema matemático proposto no quadrinho, no caso em que os pontos $A$, $B$ e $C$ estão em uma mesma reta, são",
+      "alternativas": {
+        "A": "$\\frac{10}{3}$ e 10.",
+        "B": "$\\frac{10}{3}$, 5 e 10.",
+        "C": "$\\frac{5}{3}$, $\\frac{10}{3}$ e 10.",
+        "D": "$\\frac{5}{3}$ e 10.",
+        "E": "$\\frac{10}{3}$ e 5."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 25,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t25-27",
+      "enunciado": "Conforme o texto, em relação às mulheres, um efeito decorrente do fato de assistentes digitais reforçarem estereótipos de gênero é",
+      "alternativas": {
+        "A": "a inclusão de uma única voz nos dispositivos.",
+        "B": "a normalização de formas de assédio sexista.",
+        "C": "o poder de influência positiva sobre as pessoas.",
+        "D": "o incremento de vendas e customização de robôs.",
+        "E": "a busca por formas que reflitam problemas sociais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 26,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t25-27",
+      "enunciado": "Segundo o texto, o título do relatório publicado pela Unesco - “I´d Blush if I Could” -, no que diz respeito aos assistentes digitais, indica",
+      "alternativas": {
+        "A": "resposta padrão para comandos que incluem impropérios.",
+        "B": "capacidade tecnológica para selecionar temas sensíveis ao grande público.",
+        "C": "preocupação dos fabricantes de dispositivos eletrônicos com usuários conservadores.",
+        "D": "perda de controle das formas de interação entre seres humanos e máquinas.",
+        "E": "necessidade de elaboração de sistemas integrados de reconhecimento de voz."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 27,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t25-27",
+      "enunciado": "De acordo com o texto, na opinião de Saniye Gülser Corat, tecnologias que envolvem Inteligência Artificial, entre outros aspectos,",
+      "alternativas": {
+        "A": "são desenvolvidas segundo normas prescritas em convenções internacionais.",
+        "B": "devem ser monitoradas por empresas multinacionais geridas por mulheres.",
+        "C": "funcionam melhor quando associadas a dispositivos sincronizados em escala mundial.",
+        "D": "dependem de atualização constante para garantia de desempenho satisfatório.",
+        "E": "requerem avaliação ampla, quanto à possível presença de elementos tendenciosos em sua concepção."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 28,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![meme com o texto “Therapist: Your wife says you never buy her flowers is that true?” e “Him: To be honest, I never knew she sold flowers.”, acima de uma fotografia de um homem gesticulando e uma mulher com as mãos na cabeça, sentados em um sofá diante de uma terapeuta](fig:p09-f1)\n\nDisponível em https://www.facebook.com/groups/englishmemes/.\n\nO efeito de comicidade que se obtém do meme decorre, sobretudo, da",
+      "alternativas": {
+        "A": "repetição da palavra “never”.",
+        "B": "ambiguidade gerada pela expressão “buy her flowers”.",
+        "C": "asserção “your wife says”.",
+        "D": "contradição presente na frase “To be honest”.",
+        "E": "pergunta “is that true?”."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 29,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t29-30",
+      "enunciado": "Afirma-se no texto que, no futuro, a tecnologia de gravação em moléculas de DNA",
+      "alternativas": {
+        "A": "será utilizada para sequenciar trilhões de moléculas destinadas à pesquisa médica.",
+        "B": "deverá ter seu uso expandido no campo da genética e áreas afins.",
+        "C": "continuará sendo inviável comparada a tecnologias convencionais.",
+        "D": "terá de ser adaptada para o propósito de ler, codificar e guardar dados.",
+        "E": "poderá ser a solução para o problema de espaço de armazenamento de informação digital."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 30,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": "t29-30",
+      "enunciado": "Conforme o texto, cientistas preveem que, em pouco mais de 20 anos,",
+      "alternativas": {
+        "A": "a geração de dados pela humanidade chegará à marca de 160 zettabytes.",
+        "B": "a armazenagem de todos os dados produzidos esgotará o estoque mundial de microchips de silício.",
+        "C": "a densidade das moléculas de DNA terá aumentado exponencialmente.",
+        "D": "o custo para gravação de dados digitais será maior que hoje.",
+        "E": "as novas tecnologias de informação serão bem mais duradouras que as atuais."
+      },
+      "observacoes": ""
+    }
+  ]
+}
