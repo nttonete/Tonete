@@ -4,6 +4,7 @@ Quem cuida do projeto autorizou seguir até a conclusão sem pedir licença a ca
 
 ## Ao retomar
 
+0. Se `fontes-pdf/` ou `trabalho/<edicao>/paginas/` não existirem (contêiner reciclado), rode `sh ferramentas/restaurar_fontes.sh`.
 1. `cd /home/user/Tonete && git status --short` — faça commit e push do que tiver ficado pendente.
 2. Confira os rascunhos/revisões que chegaram enquanto a sessão estava parada: para cada edição com arquivos novos, `python3 ferramentas/validar.py --rascunho <rascunho>` (ou `--complementos <edicao> <arquivo>`), depois `python3 ferramentas/montar_banco.py <edicao>` e `python3 ferramentas/validar.py` (precisa de 0 erros).
    - Um rascunho pode ter ficado pela metade se o agente caiu no meio: confira que tem todas as questões do intervalo; se não tiver, apague-o e refaça o lote.
@@ -26,4 +27,4 @@ Os agentes falham com "You've hit your session limit · resets HH:MM". Agende a 
 
 ## Ao concluir
 
-Rodar `node testes/navegador.js` (com `PLAYWRIGHT_PATH=$(npm root -g)/playwright`), atualizar a prévia (Artifact `pagina.html`, mesma URL) e escrever o relatório final: números, questões em atenção e o que depende dela (discursivas, nome, venda).
+Rodar `node testes/navegador.js` (com `PLAYWRIGHT_PATH=$(npm root -g)/playwright`), atualizar a prévia (Artifact `pagina.html`, mesma URL) e escrever o relatório final: números, questões em atenção e o que depende de decisão humana (discursivas, nome, venda).
