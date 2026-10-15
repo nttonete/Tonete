@@ -1,0 +1,219 @@
+{
+ "edicao": "fuvest-2022-1",
+ "intervalo": [
+  31,
+  60
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 41,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A quantidade de bactérias em um líquido é diretamente proporcional à medida da *turbidez* desse líquido. O gráfico mostra, em escala logarítmica, o crescimento da turbidez $x$ de um líquido ao longo do tempo $t$ (medido em minutos), isto é, mostra $\\log_{10} x$ em função de $t$. Os dados foram coletados de 30 em 30 minutos, e uma curva de interpolação foi obtida para inferir valores intermediários.\n\n![Gráfico de log₁₀ x em função de t (min), com curva crescente e os instantes t₀ e t₁ marcados](fig:p12-c1)\n\nDisponível em https://fankhauserblog.wordpress.com/.\n\nCom base no gráfico, em quantas vezes a população de bactérias aumentou, do instante $t_0$ para o instante $t_1$?",
+   "alternativas": {
+    "A": "2",
+    "B": "4",
+    "C": "5",
+    "D": "10",
+    "E": "100"
+   }
+  },
+  {
+   "numero": 49,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Cartum de BizarroComics.com: à esquerda, um homem sentado à mesa olha para o celular que segura; à direita, uma mulher sentada diante dele, com uma xícara, olha para ele. Balão: “Do you mind if I strap your phone to my forehead so I can pretend you’re looking at me when I talk?”](fig:p14-f1)\n\nConsiderando os elementos visuais e verbais da figura, é possível interpretar a fala da mulher como",
+   "alternativas": {
+    "A": "sinal da sua insatisfação com o local escolhido para o encontro.",
+    "B": "sentimento de inferioridade, por não possuir um telefone celular.",
+    "C": "constatação de que relações pessoais acarretam exclusão das redes sociais.",
+    "D": "resposta aos apelos pela troca equitativa de informações.",
+    "E": "expressão sarcástica em protesto pela ausência de interlocução."
+   }
+  },
+  {
+   "numero": 57,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em virtude do movimento das placas tectônicas, a distância entre a América do Sul e a África aumenta, nos dias atuais, cerca de 2,0 cm a cada ano. Supondo que essa velocidade tivesse sido constante ao longo do tempo, e tomando uma distância atual de cerca de 5.000 km entre os limites dessas duas massas continentais, indique a melhor estimativa para quanto tempo teria transcorrido desde quando ambas estavam unidas em um único supercontinente.\n\n**Note e adote:** O valor obtido, embora da ordem de magnitude correta, não é o mesmo calculado por estimativas mais precisas.",
+   "alternativas": {
+    "A": "250.000 anos",
+    "B": "2.500.000 anos",
+    "C": "25.000.000 anos",
+    "D": "250.000.000 anos",
+    "E": "2.500.000.000 anos"
+   }
+  },
+  {
+   "numero": 60,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Eventos climáticos extremos marcaram este ano com vários exemplos no mundo, atingindo populações inteiras, tanto em ambientes rurais como urbanos. Dentre esses eventos, pode-se destacar as inundações na Alemanha no mês de julho, com regiões acometidas por fortes chuvas.\n\n![Duas fotografias aéreas lado a lado da área urbana de Schuld, antes (à esquerda) e depois (à direita) da inundação](fig:p16-c1)\n\nÁrea urbana de Schuld, Oeste da Alemanha, antes (à esquerda) e depois (à direita) da inundação de julho/2021. Disponível em https://www.dw.com/.\n\nUm dos motivos que podem ser relacionados ao evento de inundação da área destacada é:",
+   "alternativas": {
+    "A": "O fato de o rio meandrante desviar da área urbana instalada nas suas margens, pois o vale estreito é periodicamente inundado, em especial nos eventos climáticos extremos, que submergem os morros na cidade.",
+    "B": "A extensão do assentamento urbano que não respeitou os limites do canal fluvial, acabando por aterrá-lo, o que levou à inundação diante de um evento climático extremo, já que os rios não podem ser encobertos.",
+    "C": "A área urbana, que se encontra em um fundo de vale plano onde há a presença de um canal de rio meandrante, o qual pode ter suas águas periodicamente extravasadas para a planície de inundação.",
+    "D": "O insucesso da prevenção da inundação por meio da retificação do rio, pois se esperava que, mesmo com volumes excessivos de chuvas, as águas do canal fluvial não poderiam ser extravasadas para as margens.",
+    "E": "Como a área urbana se encontra em um fundo de vale rugoso, existe maior facilidade para o assentamento, porém com o risco de o rio entrelaçado desviar seu curso único, causando inundações laterais."
+   }
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 34,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 36,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 41,
+   "status": "corrigida",
+   "notas": "classificação: retirado \"biologia\" de materias_extra (a relação bactérias–turbidez é dada no enunciado; a questão cobra só logaritmo e leitura de gráfico)."
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 45,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 49,
+   "status": "corrigida",
+   "notas": "descrição da figura: era \"Tirinha\", mas é um cartum de um quadro só; apóstrofo de \"you’re\" igualado ao do balão; descrição dos elementos visuais completada sem interpretar."
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 54,
+   "status": "ok",
+   "notas": "questão anulada pela banca; está no caderno e a transcrição confere."
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "corrigida",
+   "notas": "classificação: retirado \"geografia\" de materias_extra (o contexto das placas é dado no enunciado; a questão cobra só movimento uniforme e conversão de unidades)."
+  },
+  {
+   "numero": 58,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 59,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 60,
+   "status": "corrigida",
+   "notas": "figura p16-f1 trazia no topo um resto da última linha do texto (\"...fortes chuvas\"); refeito o recorte como p16-c1, só com as duas fotos."
+  }
+ ]
+}

@@ -130,5 +130,156 @@
    "resolucao": "Pelo princípio multiplicativo, cada posição contribui com o número de opções: 26 para letra e 10 para algarismo, com repetição permitida.\n\nSistema anterior (3 letras e 4 algarismos): $26^3 \\cdot 10^4$ placas.\n\nPadrão Mercosul (4 letras e 3 algarismos, em qualquer ordem fixa): $26^4 \\cdot 10^3$ placas.\n\nA razão entre eles é $\\frac{26^4 \\cdot 10^3}{26^3 \\cdot 10^4} = \\frac{26}{10} = 2{,}6$. Logo, o padrão Mercosul permite 2,6 vezes o número de placas do sistema anterior. A posição da quarta letra não muda a contagem.\n\n**Resposta: C**"
   }
  },
- "relatorio": []
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 20,
+   "status": "corrigida",
+   "notas": "texto base t20-22: o asterisco de nota após o título \"Suave mari magno\" e no início da nota de rodapé estava como fórmula LaTeX ($*$); trocado por asterisco literal (\\*), como mandam as instruções. Resto do texto conferido com a página 7, sem outras diferenças."
+  },
+  {
+   "numero": 21,
+   "status": "corrigida",
+   "notas": "texto base t20-22: o asterisco de nota após o título \"Suave mari magno\" e no início da nota de rodapé estava como fórmula LaTeX ($*$); trocado por asterisco literal (\\*), como mandam as instruções. Resto do texto conferido com a página 7, sem outras diferenças."
+  },
+  {
+   "numero": 22,
+   "status": "corrigida",
+   "notas": "texto base t20-22: o asterisco de nota após o título \"Suave mari magno\" e no início da nota de rodapé estava como fórmula LaTeX ($*$); trocado por asterisco literal (\\*), como mandam as instruções. Resto do texto conferido com a página 7, sem outras diferenças."
+  },
+  {
+   "numero": 23,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 24,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 25,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 26,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 27,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 28,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 30,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
 }
