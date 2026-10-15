@@ -166,6 +166,52 @@
         }
       ],
       "observacoes": "A resposta oficial do item a escreve “50mm” (provavelmente “50 min”) e, no item c, “m/m”; transcritos como no original."
+    },
+    {
+      "numero": 35,
+      "codigo": "Q05",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em um momento da trilogia de filmes “De volta para o futuro”, a máquina do tempo, que é um automóvel, é abastecida com restos de alimentos e uma latinha de alumínio. A possibilidade de usar alumínio como combustível em automóveis foi proposta por pesquisadores da Universidade Politécnica da Catalunha. Neste caso, o automóvel seria movido pela combustão do hidrogênio gerado na reação das latas de alumínio com hidróxido de sódio, de acordo com a seguinte reação balanceada:\n\n$$2\\,\\text{A}\\ell\\text{(s)} + 2\\,\\text{OH}^-\\text{(aq)} + 6\\,\\text{H}_2\\text{O}(\\ell) \\rightarrow 2\\,\\text{A}\\ell(\\text{OH})_4^-\\text{(aq)} + 3\\,\\text{H}_2\\text{(g)}.$$\n\n**Note e adote:**\nEntalpia de combustão do etanol hidratado = - $2{,}5 \\times 10^4$ kJ/L\nEntalpia de combustão do gás hidrogênio = - 285 kJ/mol\nMassa molar do Aℓ = 27 g/mol",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Escreva, no quadro da folha de respostas, o número de oxidação dos átomos de Aℓ e H nas espécies indicadas.\n\n*Campo de resolução:*\n\n![Tabela com as colunas Alumínio (Aℓ(s) e Aℓ(OH)₄⁻(aq)) e Hidrogênio (OH⁻(aq) e H₂(g)), com a linha de resposta vazia](fig:p43-c1)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando um automóvel movido a hidrogênio gerado pela reação anterior, qual massa de Aℓ, em quilogramas, é necessária para produzir a mesma quantidade de energia liberada pela combustão de 57 L de etanol contidos no tanque de um carro convencional."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Grande parte do custo de produção das latas de alumínio, tanto a partir de seu óxido ($\\text{A}\\ell_2\\text{O}_3$), quanto por meio da reciclagem do Aℓ metálico, advém dos processos de fusão desses materiais. No caso do óxido, a fusão é necessária para a realização da eletrólise ígnea, enquanto no caso do Aℓ reciclado, a fusão é necessária para a remoldagem. Responda quais tipos de ligação química existem no alumínio e no óxido de alumínio sólidos e explique por que é necessário realizar a fusão do óxido de alumínio para sua eletrólise."
+        }
+      ],
+      "observacoes": "A tabela do item a (colunas agrupadas em Alumínio e Hidrogênio) está só na folha de respostas e foi recortada como figura."
+    },
+    {
+      "numero": 36,
+      "codigo": "Q06",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O petróleo é uma mistura de hidrocarbonetos predominantemente apolares e seu derramamento no oceano traz grandes prejuízos do ponto de vista ambiental e econômico. Quando há derramamento, deve ser feita a contenção do material seguida pela limpeza, que pode ocorrer por meio da queima controlada, autorizada no Brasil em 2017.\n\n![Fotografia de uma queima controlada de derramamento de petróleo no mar, com grande coluna de fumaça escura e chamas na superfície](fig:p42-c1)\n\nFonte: FINGAS, 2012",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "A figura mostra a queima controlada de um derramamento de petróleo. Explique o que pode ocorrer em uma combustão para gerar uma grande quantidade de fuligem como a exibida na foto."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Outra possibilidade para a limpeza do derramamento é a remediação química, como a realizada por gelificantes, que não poluem a atmosfera. Por exemplo, um derivado do manitol com cadeias carbônicas laterais (R) pode atuar como gelificante. Quando uma solução aquosa dessa espécie é adicionada a um meio não-aquoso, como o petróleo, ligações de hidrogênio entre as cadeias do gelificante são estabelecidas, promovendo a formação do gel, conforme a representação a seguir. O gel formado pode interagir com o petróleo, resultando em um gel impregnado de óleo que pode ser facilmente separado e fisicamente removido do oceano.\n\n![Representação do derivado do manitol antes da gelificação e da estrutura do gel formado, com ligações de hidrogênio entre as cadeias](fig:p42-c3)\n\nDada a molécula de gelificante desenhada na folha de respostas, circule em sua estrutura quais partes interagem predominantemente com os compostos que constituem o petróleo. Quando se diminui a quantidade de carbonos da cadeia lateral da molécula desenhada, na folha de respostas, de $\\text{C}_7\\text{H}_{15}$ para $\\text{C}_3\\text{H}_7$, a eficiência de remoção de petróleo é maior, menor ou igual? Justifique sua resposta com base nas interações intermoleculares.\n\n*Campo de resolução:*\n\n![Molécula de gelificante com duas cadeias laterais de carbono e quatro grupos OH na cadeia central](fig:p43-f1)"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Explique, com base em interações intermoleculares, por que a molécula de gelificante em água não está na forma gelatinosa, que é formada apenas quando o gelificante entra em contato com o óleo."
+        }
+      ],
+      "observacoes": "No caderno, o parágrafo sobre gelificantes e o esquema ficam entre os itens a e b; foram colocados no início do item b, que eles introduzem (e valem também para o item c). A foto do item a fica no enunciado, como no caderno."
     }
   ],
   "respostas": {
@@ -216,6 +262,20 @@
         "a": "$1{,}5\\ x\\ 50mm = \\frac{75L\\ \\text{O}_2}{22{,}5\\ L/mol} = 3{,}3\\ mols$",
         "b": "Pela estequiometria da reação tem-se 1 mol de glicose para 6 mols de $\\text{O}_2$. Portanto, a quantidade de energia liberada por mol de $\\text{O}_2$ é de:\n\n$$\\frac{675\\ kcal}{6} = 112{,}5\\ kcal$$\n\nComo 112,5 kcal equivalem a 1 mol de $\\text{O}_2$ e, portanto, 22,5 L, o fator Q será dado por:\n\n$$\\frac{112{,}5}{22{,}5} = 5\\ kcal/L$$",
         "c": "$$\\Delta rH = 2x\\,(-160) - (-300) = -320 + 300 = -20\\ kcal/mol$$\n\n$$\\frac{m}{m} = \\frac{-675}{-20} = 33{,}75 \\cong 34$$"
+      }
+    },
+    "35": {
+      "itens": {
+        "a": "![Tabela preenchida: Aℓ(s) = 0; Aℓ(OH)₄⁻(aq) = +3; OH⁻(aq) = +1; H₂(g) = 0](fig:r20-c1)",
+        "b": "$$mAl = \\frac{2(mol) \\times 57(l) \\times 2{,}5 \\times 10^4 \\left(\\frac{kJ}{L}\\right) \\times 27 \\left(\\frac{g}{mol}\\right)}{3 \\times 285 \\left(\\frac{kJ}{mol}\\right)} = 90.000\\ g = 90\\ kg$$",
+        "c": "No óxido de alumínio existe ligação iônica e, no alumínio, ligação metálica. É necessário realizar a fusão para geração de íons $\\text{A}\\ell^{3+}$ que sofrerão eletrólise."
+      }
+    },
+    "36": {
+      "itens": {
+        "a": "A combustão incompleta do óleo gera uma grande quantidade de fuligem.",
+        "b": "![Molécula de gelificante com as duas cadeias laterais circuladas em vermelho](fig:r21-c1)\n\nMenor porque, ao diminuir a cadeia, a eficiência é reduzida, já que a interação intermolecular com o petróleo é menos efetiva.",
+        "c": "Em água, a molécula de gelificante forma ligações de hidrogênio com água, mantendo-se solúvel. Ao ser adicionada em óleo, a água não está disponível e, portanto, não pode mais fazer ligação de hidrogênio com a água e passa a interagir entre si, formando o gel."
       }
     }
   }

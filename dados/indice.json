@@ -337,6 +337,71 @@
    ]
   },
   {
+   "id": "fuvest-2026-2-d1",
+   "vestibular": "fuvest",
+   "ano": 2026,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "FUVEST (USP) 2026 – 2ª fase (1º dia: Português)",
+   "caderno": "1º dia: Português",
+   "fonte": {
+    "caderno": "2fase-dia1-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia1-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/fuvest-2026-2-d1.json",
+   "total": 9,
+   "validas": 9,
+   "com_resposta": 9,
+   "materias": {
+    "literatura": 5,
+    "portugues": 4
+   },
+   "indisponiveis": [
+    5
+   ]
+  },
+  {
+   "id": "fuvest-2026-2-d2",
+   "vestibular": "fuvest",
+   "ano": 2026,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "FUVEST (USP) 2026 – 2ª fase (2º dia: Matemática, Física, Química, Biologia, Geografia e História)",
+   "caderno": "2º dia: Matemática, Física, Química, Biologia, Geografia e História",
+   "fonte": {
+    "caderno": "2fase-dia2-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-matematica-respostas.pdf",
+     "2fase-dia2-fisica-respostas.pdf",
+     "2fase-dia2-quimica-respostas.pdf",
+     "2fase-dia2-biologia-respostas.pdf",
+     "2fase-dia2-geografia-respostas.pdf",
+     "2fase-dia2-historia-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/fuvest-2026-2-d2.json",
+   "total": 35,
+   "validas": 35,
+   "com_resposta": 35,
+   "materias": {
+    "biologia": 5,
+    "fisica": 6,
+    "geografia": 6,
+    "historia": 6,
+    "matematica": 6,
+    "quimica": 6
+   },
+   "indisponiveis": [
+    3
+   ]
+  },
+  {
    "id": "unesp-2017-1",
    "vestibular": "unesp",
    "ano": 2017,

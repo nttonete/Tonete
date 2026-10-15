@@ -1,0 +1,247 @@
+{
+ "1": {
+  "itens": {
+   "a": "Invertebrados marinhos, tartarugas e peixes.",
+   "b": "Ectotérmicos. Os animais ectotérmicos dependem de uma fonte externa de calor, por este motivo são mais afetados pelas alterações de temperatura externa.",
+   "c": "-Diminuição da concentração de oxigênio. Consequência: Hipóxia dos animais com possíveis consequências no crescimento e aspectos fisiológicos em geral;\n-Branqueamento de corais. Consequência: perda da biodiversidade;\n-Alteração das rotas migratórias. Consequência: Alteração dos padrões de reprodução e/ou alimentação;\n-Alteração na reprodução. Consequência: Alteração no tamanho da população e desequilíbrio da cadeia alimentar;\n-Floração de algas e/ou desequilíbrio planctônico. Consequência: hipóxia dos organismos, eutrofização, contaminação (no caso de algas que produzem substâncias tóxicas), desequilíbrio alimentar;"
+  }
+ },
+ "2": {
+  "itens": {
+   "a": "Carbono e hidrogênio.",
+   "b": "Porque atravessam a bicamada lipídica das membranas celulares, sendo absorvidos mais facilmente.",
+   "c": "Organela: peroxissomos, retículo endoplasmático liso; órgão: fígado."
+  }
+ },
+ "4": {
+  "itens": {
+   "a": "Y Fotossíntese; Z: Respiração",
+   "b": "A taxa de respiração independe da intensidade luminosa, ou seja, a planta respira o tempo todo, na presença ou na ausência de luz.",
+   "c": "1. Ponto de compensação fótica. 2. Ponto de saturação luminosa. No ponto de saturação luminosa (seta 2), o nível de intensidade de luz no qual a taxa de fotossíntese atinge seu máximo, não aumentando, mesmo com o aumento da luz (ponto em que todas as moléculas de clorofila estão saturadas de luz)."
+  }
+ },
+ "5": {
+  "itens": {
+   "a": "Neurônio.",
+   "b": "Transportar sinais químicos (\"mensagens\") de um neurônio para uma célula-alvo, que pode ser outro neurônio, uma célula muscular ou uma glândula.",
+   "c": "1: Fenda sináptica; 2: membrana pós-sináptica (ou neurônio pós-sináptico); 3:vesículas com neurotransmissores (ou mediadores químicos); 4: neurotransmissores."
+  }
+ },
+ "6": {
+  "itens": {
+   "a": "W: todos os animais que não possuem exoesqueleto.",
+   "b": "Fases i e iii.",
+   "c": "Ambos possuem quitina. Nos artrópodes, ela está presente no exoesqueleto e, nos fungos, na parede celular."
+  }
+ },
+ "7": {
+  "itens": {
+   "a": "Pelo gráfico, podemos considerar que o deslocamento vertical máximo é de $\\Delta y = y_{max} - y_0 \\cong 0{,}42 - 0{,}02 = 0{,}4\\ \\text{m}$.",
+   "b": "Sendo $v_{0y} = 3\\ \\text{m/s}$, o deslocamento máximo na ausência de arrasto seria dado por $\\Delta y = y_{max} - y_0 = \\frac{v_{0y}^2}{2g} = \\frac{9}{20} = 0{,}45\\ \\text{m}$.",
+   "c": "Para a velocidade terminal, temos $mg = bv^2 \\Rightarrow v = \\sqrt{\\frac{mg}{b}} = \\sqrt{\\frac{0{,}2\\,.\\,10}{0{,}4}} = \\sqrt{5}\\ \\text{m/s}$."
+  }
+ },
+ "8": {
+  "itens": {
+   "a": "Se a partícula perde 100 keV/micron = 0,1 MeV/micron, então ela perderia toda a sua energia em 5,3/0,1 = 53 microns = $5{,}3 \\times 10^{-5}\\ \\text{m}$ = 0,053 mm, de modo que não conseguiria penetrar na epiderme.\n\nResposta alternativa:\n\nSe a partícula perde 100 keV/micron = 0,1 MeV/micron e a epiderme mede $0{,}1\\ \\text{mm} = 10^{-4}\\ \\text{m} = 100\\ \\mu\\text{m}$, então a energia minima necessária para atravessar a epiderme seria $E_{\\text{min}} = 0{,}1\\,.\\,100 = 10\\ \\text{MeV} > 5{,}3\\ \\text{MeV}$. Logo, a partícula $\\alpha$ não conseguiria atravessar a epiderme.",
+   "b": "A magnitude da força elétrica atuando sobre a partícula alfa será:\n\n$$F_e = 2\\,q_P\\,.\\,E = 3{,}2 \\times 10^{-19}\\,.\\,2 \\times 10^{5} = 6{,}4 \\times 10^{-14}\\ \\text{N}$$",
+   "c": "O trabalho da força atuando sobre a partícula alfa será negativo e igual a 1% de 5,3 MeV\n\n$$W = -F_e d = -0{,}053\\ \\text{MeV} \\Rightarrow 2\\,q_P\\,.\\,E\\,.\\,d = 5{,}3 \\times 10^{+4}\\ \\text{eV}$$\n\n$$E = \\frac{5{,}3}{2} \\times 10^{+5}\\ \\text{V/m}$$\n\nLogo, $E = 2{,}65 \\times 10^{+5}\\ \\text{V/m}$."
+  }
+ },
+ "9": {
+  "itens": {
+   "a": "A compressão isotérmica corresponde à etapa D-A.",
+   "b": "O sistema recebeu calor durante as etapas A-B (por aumento de temperatura/energia interna e sem realização de trabalho) e B-C (sem variação de temperatura/energia interna e com realização de trabalho).",
+   "c": "A taxa de conversão $r$ é dada pela razão entre a potência elétrica $P_{el}$ convertida e a potência solar fornecida $P_{sol}$. Neste caso, temos $P_{sol} = P_{el} / r = 50\\ \\text{kW}$. Uma vez que a potência relaciona-se com o trabalho médio por unidade de tempo, a energia solar média transferida durante 1 hora (3600 s) vale $\\Delta E_{sol} = 50\\,.\\,10^3\\,.\\,3600 = 300\\,.\\,60\\,.\\,10^4 = 1{,}8\\,.\\,10^8\\ \\text{J}$."
+  }
+ },
+ "10": {
+  "itens": {
+   "a": "Considerando que o ponto mais baixo da trajetória está a 1 m do chão, vamos colocar o referencial do movimento nesta altura. A energia inicial do Homem-Aranha é $E_0 = Mgh_0 + (1/2)Mv_0^2$, onde a altura inicial $h_o = 20\\ \\text{m}$, a velocidade inicial $v_0 = 0\\ \\text{m/s}$ (suposição (iii) da professora) e massa $M$, portanto $E_0 = Mgh_0$. Sendo o movimento conservativo (movimento pendular bidimensional), no mínimo da trajetória ($E_0 = E_a = (1/2)Mv_a^2$) toda a energia potencial inicial foi transformada em energia cinética. Assim, $v_a^2 = 2gh_0 = 2 \\times 10 \\times 20 = 400 \\Rightarrow v_a = 20\\ \\text{m/s}$.",
+   "b": "Considerando a colisão perfeitamente inelástica, há conservação de momento linear ($p_a = p_d$), mas não de energia. Assim, o momento linear antes da colisão é apenas o do Homem-Aranha, pois a pessoa está parada, $p_a = Mv_i$, e, depois da colisão, os dois, de mesma massa, movimentam-se juntos com a mesma velocidade, $p_d = (M+M)v_d = 2Mv_d$. Então, $Mv_a = (M+M)v_d \\Rightarrow v_a = 2v_d \\Rightarrow v_d/v_a = 0{,}5$.",
+   "c": "Após a colisão, o movimento continua conservativo, considerando agora as duas pessoas juntas de massa total $2M$, então toda a energia cinética após a colisão, $E_d = (1/2)2Mv_d^2 = Mv_d^2 = Mv_a^2/4 = M(gh_0/2)$, transforma-se em energia potencial no máximo da trajetória, $E_m = 2Mgh_m$. Assim, $E_d = E_m \\Rightarrow Mgh_0/2 = 2Mgh_m$. Então, $h_m = h_0/4 = 20/4 = 5\\ \\text{m}$. Desse modo, a altura máxima é de 5 m no referencial do mínimo da trajetória. Porém, no referencial do chão, a altura máxima é de 6 m."
+  }
+ },
+ "11": {
+  "itens": {
+   "a": "Do gráfico, podemos extrair a resistência fazendo $R = \\frac{\\Delta V}{\\Delta I}$. Das curvas para o resistor, $R = 2\\ \\Omega$.",
+   "b": "Da curva característica do fusível, obtemos $R_F = \\frac{\\Delta V}{\\Delta I} = \\frac{5}{6}\\ \\Omega$. Logo, a variação de tensão (ddp) no fusível quando $I = 6\\ \\text{A}$ será de $V_F = \\frac{5}{6}\\,6 = 5\\ \\text{V}$. Como a ddp do circuito vale 15 Volts, a ddp na parte do circuito em paralelo será\n\n$$V_{\\text{par}} = 15 - V_F = 10\\ \\text{V}$$",
+   "c": "Se a corrente total é $I_{\\text{tot}} = 6\\ \\text{A}$ e a ddp no circuito é 15 V, então\n\n$$R_{\\text{equiv}} = \\frac{15}{6} = \\frac{5}{2}\\ \\Omega$$\n\nReposta alternativa:\n\nDo gráfico, extraímos $I_L = 0{,}5\\ \\text{A}$ para $V_L = 5$ Volts. Sendo a lâmpada aproximadamente ôhmica neste regime, temos $R_L = \\frac{5}{0{,}5} = 10\\ \\Omega$. Logo, a resistência equivalente do circuito paralelo será\n\n$$\\frac{1}{R_{\\text{par}}} = \\frac{1}{R_L} + \\frac{1}{R} = \\frac{1}{10} + \\frac{1}{2} = \\frac{3}{5} \\Rightarrow R_{\\text{par}} = \\frac{5}{3}\\ \\Omega$$\n\nA resistência equivalente do circuito será\n\n$$R_{\\text{equiv}} = R_{\\text{par}} + R_F = \\frac{5}{3} + \\frac{5}{6} = \\frac{5}{2}\\ \\Omega$$"
+  }
+ },
+ "12": {
+  "itens": {
+   "a": "Usando a definição da irradiância, temos que a potência $P/A = I_r\\,\\lambda$. Como a irradiância é aproximadamente constante, a maior potência será da cor com maior comprimento de onda, ou seja, a cor vermelha.",
+   "b": "A energia absorvida pela água do mar será 5/6 da energia solar, ou seja:\n\n$$E_{\\text{abs}} = \\frac{5}{6} \\cdot I \\cdot A \\cdot \\lambda \\cdot \\Delta t = \\frac{5}{6} \\cdot 1{,}2 \\cdot 1 \\cdot 800 \\cdot 3600 = 2{,}88 \\cdot 10^6\\ \\text{J}$$\n\nSe toda a energia for absorvida pela água do mar, a quantidade de calor $Q = mC\\Delta T$ será a quantidade de energia passada da luz para a água.\n\nUsando a densidade de $1000\\ \\text{kg/m}^3$, temos uma massa de $m = 200\\ \\text{kg} = 2 \\times 10^5\\ \\text{g}$ em um volume de $0{,}2\\ \\text{m}^3$ ($= 1\\text{m} \\times 1\\text{m} \\times 0{,}2\\text{m}$) de água do mar. Logo,\n\n$$Q = E_{\\text{abs}} = 2 \\cdot 10^5 \\cdot 4 \\cdot \\Delta T \\Rightarrow \\Delta T = \\frac{288 \\cdot 10^4}{80 \\cdot 10^4} = 3{,}6\\ ^\\circ\\text{C}$$",
+   "c": "A energia do fóton da luz vermelha é $E = hc/\\lambda_{\\text{vermelho}} = 6{,}6 \\times 10^{-34} \\times 3 \\times 10^8 / 800 \\times 10^{-9} = 2{,}5 \\times 10^{-19}\\ \\text{J}$.\n\n$$E_{\\text{fóton}} = \\frac{hc}{\\lambda_{\\text{vermelho}}} = \\frac{2 \\cdot 10^{-16}}{800} = 2{,}5 \\cdot 10^{-19}\\ \\text{J}$$\n\nA potência $P = I_r\\,\\lambda = 1{,}2 \\times 800 = 960\\ \\text{W/m}^2 = 960\\ \\text{J/s.m}^2 = N_{\\text{fótons}} E_{\\text{fóton}} / (\\Delta t \\times \\text{área})$, onde $\\Delta t = 1\\ \\text{s}$ e área = $1\\ \\text{m}^2$.\n\nAssim,\n\n$$N_{\\text{fótons}} = \\frac{960}{2{,}5 \\cdot 10^{-19}} = 960 \\cdot \\frac{2}{5} \\cdot 10^{19} = 384 \\cdot 10^{19} = 3{,}84 \\cdot 10^{21} \\approx 4 \\cdot 10^{21}$$\n\nLogo, cerca de $4 \\times 10^{21}$ fótons de luz vermelha de 800 nm atingirão uma área de $1\\ \\text{m}^2$ em 1 segundo na superfície da Terra."
+  }
+ },
+ "13": {
+  "itens": {
+   "a": "Elevação do nível médio do mar; redução das áreas emersas e aumento das áreas submersas.",
+   "b": "Perda de moradias da população local pelo avanço da água do mar, perda de áreas agricultáveis, piora da qualidade da agua doce pela contaminação subsuperficial da água do mar, redução do turismo, erosão costeira em determinados locais.",
+   "c": "Como <u>ação ambiental</u> pode ser indicada a redução e o controle de água e alimentos quanto ao uso e consumo. Como <u>ação política</u>, pode ser indicada a adoção de práticas sustentáveis que garantem água potável e saneamento, por exemplo."
+  }
+ },
+ "14": {
+  "itens": {
+   "a": "Tratar o esgoto separando sólidos e líquidos para retornar a água ao rio.",
+   "b": "Um problema seria a poluição dos corpos d’água, diminuindo o oxigênio disponível e afetando a vida aquática. Outro problema seria a contaminação dos corpos d’água, potencializando a proliferação de doenças de veiculação hídrica.",
+   "c": "É possível perceber que há apenas três estações de tratamento de esgoto acima de 900 mil habitantes, concentradas na capital paulista. Enquanto isso, há diversas outras estações para atender, em sua maioria, populações de até 20.000 habitantes em outros municípios do Estado."
+  }
+ },
+ "15": {
+  "itens": {
+   "a": "Manguezal ou mangue.",
+   "b": "Poluição por esgotos domésticos e industriais, uso da madeira para diversos fins, assoreamento por sedimentos oriundos do continente, elevação do nível do mar e dinâmica costeira etc.",
+   "c": "Os manguezais são importantes centros naturais de estoques de carbono, assim como importante barreira à erosão costeira."
+  }
+ },
+ "16": {
+  "itens": {
+   "a": "Aumento da demanda por tecnologia digital.",
+   "b": "Aumento do uso de fontes de energia renováveis e aumento do uso de matéria-prima mineral para os componentes eletrônicos.",
+   "c": "Tornar os data centers mais eficientes, com a instalação em locais frios ou organizar de modo que o ar flua, evitando alto aquecimento. Elevar a eficiência energética de hardwares e softwares, permitindo que realizem as mesmas operações consumindo menos energia. Projetar sistemas mais duradouros, reparáveis e recicláveis, que reduzam a geração de lixo eletrônico; uso de energias renováveis."
+  }
+ },
+ "17": {
+  "itens": {
+   "a": "A tonalidade, a cor e contornos dos elementos representados.",
+   "b": "Pode ser utilizado o atributo do arranjo ou configurações territoriais para verificar as modificações na paisagem envolvida de 2021 a 2024. Há permanência na estrutura do arranjo espacial (território) das formas da produção agrícola e, à esquerda da linha divisória, observa-se uma profunda devastação na área urbana entre 2021 e 2024.",
+   "c": "A linha vermelha divisória indica os padrões de uso de terra diferenciados nas imagens, em clara degradação de 2021 para 2024, em função de conflitos étnico-territoriais."
+  }
+ },
+ "18": {
+  "itens": {
+   "a": "Sul e Sudeste da Amazônia, onde há pressão do desmatamento, exploração madeireira e terras indígenas.",
+   "b": "No Leste e Sudeste da Amazônia, por exemplo, há atividade garimpeira e extração ilegal da madeira dentro de terras indígenas, o que, por si só, já caracteriza a interferência na região.",
+   "c": "Há pressões atuais e futuras para a extração de petróleo em áreas próximas a terras indígenas, que já sofrem exploração madeireira e atividade minerária ilegais, demostrando o conflito de interesses."
+  }
+ },
+ "19": {
+  "itens": {
+   "a": "Entre outros exemplos, pode-se mencionar:\n- a invenção de instrumentos de navegação baseados em pressupostos lógicos, como a bússola ou o astrolábio;\n- o desenvolvimento de técnicas de navegação proporcionadas pelo desenvolvimento de cálculos a partir da observação do céu ou da curvatura da Terra;\n- a invenção de embarcações adequadas para viagens de longa duração e para atravessar oceanos.",
+   "b": "Entre outras realizações, pode-se mencionar:\n- a descoberta de rotas de navegação oceânica para a Índia;\n- a ocupação e exploração de outras áreas do planeta – América, África e parte da Índia;\n- o conhecimento e a consequente representação cartográfica de terras até então ignoradas.",
+   "c": "A primeira frase do excerto caracteriza a dimensão racional do expansionismo e da conquista, enquanto seu segundo parágrafo expõe a persistência do pensamento mágico. A coexistência das duas mentalidades e percepções do mundo indica a impossibilidade de supor o prevalecimento do pensamento racional no período."
+  }
+ },
+ "20": {
+  "itens": {
+   "a": "O alto índice de analfabetos.",
+   "b": "O exercício do voto, em grande medida, estava subordinado ao Clientelismo (ética do favor, práticas do controle e dependência) e ao Mandonismo (subordinação ao poder pessoal).",
+   "c": "O letramento e o conhecimento do texto constitucional ou dos direitos políticos não era pré-requisito para o exercício da cidadania, posto que a Constituição imperial previa o voto censitário. A Lei Saraiva, instituída em 1881, exigia que o eleitor soubesse ler e escrever."
+  }
+ },
+ "21": {
+  "itens": {
+   "a": "O massacre da Praça da Paz Celestial foi um episódio de repressão violenta, ocorrido em Pequim, entre 3 e 4 de junho de 1989, quando o governo chinês enviou tropas e tanques para dispersar manifestações pró-democracia que ocorriam desde abril daquele ano na mesma praça, protagonizadas sobretudo por estudantes. Desde o final dos anos 1970. Deng Xiaoping vinha promovendo reformas econômicas, com maior abertura de mercado, mas com rígido controle político pelo Partido Comunista Chinês. Os estudantes pediam por liberdade de expressão e de imprensa e reformas políticas. Dados de organizações internacionais registram que, na ocasião, houve milhares de mortos. Até hoje o episódio é um tabu na sociedade chinesa. Houve toda uma crítica internacional, mas o regime permaneceu estável e reforçou seu controle.",
+   "b": "A Revolução Cultural chinesa teve lugar entre 1966 e 1976. No entanto, alguns de seus quadros políticos em 1989 ocupavam cargos no Partido Comunista Chinês e influenciaram a repressão havida em relação aos protestos da Praça da Paz Celestial. É possível falar, na ocasião, que a juventude se contrapunha à perspectiva da geração mais velha, que Perry Anderson aqui chama de Anciões.",
+   "c": "Socialismo com características chinesas é o nome que o Partido Comunista Chinês dá ao modelo de desenvolvimento adotado desde o fim dos anos 70 e intensificado após 1989. O objetivo era modernizar a economia, aumentar a produtividade e melhorar o padrão de vida sem adotar o modelo democrático liberal ocidental. Assim, adotou-se uma economia mista, com a coexistência de empresas estatais com um dinâmico setor privado. O papel do Estado, entretanto, se mantém muito forte em setores estratégicos, há propriedade privada além da propriedade estatal e na forma de cooperativas. E existe grande abertura para o comércio exterior."
+  }
+ },
+ "22": {
+  "itens": {
+   "a": "Uma característica das formas de transmissão do conhecimento universitário na Idade Média e que aparece claramente no excerto era a competitividade. No período em que esse texto foi escrito, vivia-se o surgimento das primeiras universidades europeias. Abelardo é considerado fundador da Universidade de Paris e o trecho revela que havia disputa de posições teóricas na vida universitária. Como uma característica suplementar, poder-se-ia falar em arrogância no tocante ao domínio do conhecimento erudito. As aulas, na vida universitária medieval, estruturavam-se em lectio, quaestio e disputatio. Nas lições, o professor expunha o conteúdo do texto para os alunos tomarem notas. A partir daí, os alunos faziam questões. E a disputa era o momento do debate, que conferia dinâmica à aula, com a maior participação dos estudantes. Mas havia na Baixa Idade Média inúmeras outras formas de transmissão do saber. Existia um conhecimento transmitido cuja característica era a de ser oral, não ser letrado. Esse era, por exemplo, o conhecimento das corporações de ofícios e da cavalaria. Havia também o conhecimento que persistia sendo transmitido pela ação da Igreja, fosse nos monastérios que ainda existiam, fosse nas escolas episcopais.",
+   "b": "As universidades tinham autonomia jurídica e organizacional. Universitas é o termo latino que significava corporação ou associação, referindo-se, no caso, à comunidade de mestres e estudantes. O texto de Abelardo mostra que havia alguma improvisação na consolidação das novas instituições, que se organizavam movidas especialmente pelos interesses e a partir até dos conflitos que havia entre professores entre si e destes com os estudantes. Do ponto de vista do método de ensino, havia a leitura comentada de alguma autoridade (lectio) e o debate (disputatio) como formas principais de ensino.",
+   "c": "O professor universitário, mais que transmitir conhecimentos, deveria se constituir em uma autoridade moral e intelectual no âmbito da comunidade acadêmica. Os atributos esperados dele se ligavam à sua competência erudita, mas também à sua conduta pessoal. Deveria ser capar de usar o método escolástico, de interpretar textos de autoridade, clareza para expor o pensamento dos autores clássicos, capacidade de equilibrar argumentos racionais e acompanhamento no aprendizado. Deveria ser leal a seus estudantes, paciente e rigoroso no trato de seus ensinamentos. Como demonstra o excerto, deveria ter carisma e autoridade, capacidade para atrair estudantes dotados de diferentes níveis de aprendizado e oriundos de diversas regiões. Por seu saber e caráter, deveria usufruir de uma boa reputação. Tendo por principal instrumento a palavra, precisaria demonstrar eloquência e habilidade retórica."
+  }
+ },
+ "23": {
+  "itens": {
+   "a": "Grande Depressão.",
+   "b": "Êxodo rural, crise da produção agrícola (superprodução), diminuição do número de trabalhadores e trabalho remunerado por jornada.",
+   "c": "Na pequena propriedade marcada pelo emprego do trabalho familiar, de arrendatários e de meeiros, a concepção de propriedade fundiária estava baseada no trabalho e na ancestralidade. Já, com a Grande Depressão, se estabelece uma concepção legal e privada de propriedade com o emprego de relações assalariadas."
+  }
+ },
+ "24": {
+  "itens": {
+   "a": "Moçambique e Angola eram colônias de Portugal.",
+   "b": "Patriarcalismo, manifesto na supremacia masculina em relação à mulher, e poligamia, caracterizada pela permissão de que o líder político possuísse diversas esposas.",
+   "c": "As relações de trabalho eram marcadas pela intensa exploração e pela ausência de qualquer regulação ou controle. No aspecto religioso, o excerto enfatiza a mistura entre a religiosidade nativa e popular – expressa na figura do curandeiro – e o catolicismo imposto pelo colonialismo português."
+  }
+ },
+ "25": {
+  "itens": {
+   "a": "Dada a equiprobabilidade, a probabilidade de sair a letra A é de $\\frac{3}{5}$ e posteriormente de $\\frac{2}{4}$ de sair R, ou seja, a probabilidade de sair AR é $\\frac{3}{5} \\cdot \\frac{1}{2} = \\frac{3}{10} = 30\\%$.",
+   "b": "Novamente dada a equiprobabilidade, temos respectivamente os seguintes valores $\\frac{3}{5}$, $\\frac{2}{4}$, $\\frac{2}{3}$, $\\frac{1}{2}$ e $\\frac{1}{1}$. Portanto a probabilidade é $\\frac{3}{5} \\cdot \\frac{2}{4} \\cdot \\frac{2}{3} \\cdot \\frac{1}{2} \\cdot \\frac{1}{1} = \\frac{1}{10} = 10\\%$.",
+   "c": "Nesse caso, temos os seguintes valores $\\frac{1}{5}$, $\\frac{1}{4}$, $\\frac{1}{3}$, $\\frac{1}{2}$ e $\\frac{1}{1}$ para os respectivos sorteios. Portanto, a probabilidade é $\\frac{1}{5} \\cdot \\frac{1}{4} \\cdot \\frac{1}{3} \\cdot \\frac{1}{2} \\cdot \\frac{1}{1} = \\frac{1}{120} = 0{,}8333 \\ldots \\%$."
+  }
+ },
+ "26": {
+  "itens": {
+   "a": "Considerando $\\mathbf{X}$ = número de frascos de 1 litro e $\\mathbf{Y}$ = número de frascos de 2 litros temos o seguinte sistema:\n\n$$\\begin{cases} \\mathbf{X} + \\mathbf{Y} = 50 \\\\ 6{,}00\\mathbf{X} + 10{,}00\\mathbf{Y} = 320 \\end{cases}$$\n\nResolvendo o sistema por substituição, podemos expressar $\\mathbf{X}$ em função de $\\mathbf{Y}$ a partir da primeira equação $\\mathbf{X} = 50 - \\mathbf{Y}$. Substituindo na segunda equação temos $6{,}00(50 - \\mathbf{Y}) + 10{,}00\\mathbf{Y} = 320$ que resulta em $300 - 6{,}00\\mathbf{Y} + 10{,}00\\mathbf{Y} = 320$. Logo, $\\mathbf{Y} = 5$ e $\\mathbf{X} = 45$. Portanto foram vendidos 45 frascos de 1 litro e 5 frascos de 2 litros.",
+   "b": "Se o supermercado vender 25 frascos de 1 litro por R\\$125,00 temos o seguinte sistema:\n\n$$\\begin{cases} 25 + \\mathbf{Y} = 50 \\\\ 5 \\times 25 + b\\mathbf{Y} = 320 \\end{cases}$$\n\nDa primeira equação temos que $\\mathbf{Y} = 25$. Logo, $5 \\times 25 + 25b = 320 \\Rightarrow b = \\frac{(320 - 125)}{25} = 7{,}80$.\nPortanto, o valor do frasco de 2 litros deve ser de R\\$7,80.",
+   "c": "Dado que o novo valor do frasco de 2 litros é igual ao de 1 litro, ou seja, R\\$6,00, e o valor arrecado é de R\\$320,00, o novo sistema é dado por:\n\n$$\\begin{cases} \\mathbf{X} + \\mathbf{Y} = 50 \\\\ 6{,}00\\mathbf{X} + 6{,}00\\mathbf{Y} = 320 \\end{cases} \\Rightarrow \\begin{cases} 6{,}00\\mathbf{X} + 6{,}00\\mathbf{Y} = 300 \\\\ 6{,}00\\mathbf{X} + 6{,}00\\mathbf{Y} = 320 \\end{cases}$$\n\n**Não é possível que o gerente venda a mesma quantidade de frascos arrecadando o mesmo valor porque o sistema é impossível.**"
+  }
+ },
+ "27": {
+  "itens": {
+   "a": "A distância mínima é o comprimento do raio do sonar, ou seja, 3 m.",
+   "b": "Como o objeto está localizado a 45º acima da linha horizontal temos a situação de um triângulo retângulo. Assim, para descobrir $\\text{dv}$, temos que $\\text{sen}(45^\\circ) = \\frac{\\text{dv}}{10}$. Logo $\\text{dv} = 10 \\times \\text{sen}(45^\\circ) = 10\\frac{\\sqrt{2}}{2} = 5\\sqrt{2} \\cong 7{,}07$ m. Dado que a distância da superfície da água até o centro é de 120 m, então a profundidade do objeto é de $120 - 7{,}07 = 112{,}93$ m.\n\n![Diagrama do sonar como um círculo, com o objeto a 10 m do centro, a 45° acima da linha horizontal do submarino, e o segmento dv até essa linha; a seta indica 120 m desde a superfície da água](fig:r04-c1)",
+   "c": "Como ângulo é de 30º em relação à linha horizontal do sonar e o objeto está a uma profundidade de 170 m, ou seja, 50 m abaixo da linha horizontal que passa pelo centro do sonar, temos que $\\text{sen}(30^\\circ) = \\frac{50}{d}$. Logo, $d = \\frac{50}{\\text{sen}(30^\\circ)} = 100$ m. Sendo assim, a distância entre o objeto e o centro do sonar é de 100 m.\n\n![Diagrama do sonar como um círculo, com o objeto a 30° abaixo da linha horizontal do submarino, a 50 m abaixo dessa linha e a distância d até o centro; a seta indica 120 m desde a superfície da água](fig:r04-c2)"
+  }
+ },
+ "28": {
+  "itens": {
+   "a": "Um produto com valor $P$, que sofre um reajuste de 50%, passa a custar $1{,}50P$ e para que volte a custar $P$, temos\n\n$P = 1{,}50P(1 - y\\%) \\Rightarrow 1 - y\\% = \\frac{P}{1{,}5P} = 0{,}666\\ldots \\Rightarrow y\\% = 0{,}333\\ldots$, ou seja, $y = 33{,}33\\%$.",
+   "b": "Temos\n\n$P = P(1 + x\\%)(1 - y\\%) = P\\left(\\frac{100+x}{100}\\right)\\left(\\frac{100-y}{100}\\right) \\Rightarrow 10.000 = (100 + x)(100 - y)$, sendo assim\n\n$$\\frac{10000}{100 + x} = 100 - y \\Rightarrow y = 100 - \\frac{10000}{100 + x} = \\frac{100x}{100 + x}$$",
+   "c": "Para este item, pode-se ou não utilizar o anterior. Sem utilizar, podemos verificar que o primeiro valor inteiro positivo de $m$ que torna $n$ também inteiro positivo é *25* (tornando $n = 20$)."
+  }
+ },
+ "29": {
+  "itens": {
+   "a": "Como o ponto Q é uma projeção da luminária no plano do chão temos o triângulo retângulo PQB. Além disso, o ponto Q é a intersecção das diagonais do quadrado ABEF, cuja diagonal é $d = l\\sqrt{2} = 4\\sqrt{2}$ m. Logo, QB é $2\\sqrt{2}$ m. Como a aresta da pirâmide mede 3 m, aplicando Pitágoras, $3^2 = h^2 + (2\\sqrt{2})^2$ e, portanto, a altura PQ é 1 m.\n\n![Triângulo retângulo PQB, com PB = 3 m e QB = 2√2 m](fig:r06-c3)",
+   "b": "A diagonal do quadrado ABEF é $d = l\\sqrt{2} = 4\\sqrt{2}$ m. Como a projeção da luminária no quadrado ABEF está na intersecção das diagonais do quadrado (ponto Q) então a distância QB é dada por $2\\sqrt{2}$ m. Se o ângulo entre a aresta da pirâmide e o chão é de 45º, então o triângulo retângulo PBQ é isóscele. Logo, a altura da luminária até o chão (PQ) é de $2\\sqrt{2}$ m e, portanto, aplicando Pitágoras, cada aresta mede 4 m.",
+   "c": "A projeção do ponto Q no plano EFGH localiza-se no ponto médio da aresta EF. Denotando por M esse ponto médio, temos que $\\mathrm{MF} = 2$ m. Assim, temos um triângulo retângulo SMF. Como a projeção SM é igual à altura PQ então $\\mathrm{SM} = 2\\sqrt{2}$ m. Aplicando Pitágoras, temos que $\\mathrm{SF} = \\sqrt{12} = 2\\sqrt{3}$ m.\n\n![Triângulo retângulo SMF, com SM = 2√2 e MF = 2 m](fig:r06-c4)"
+  }
+ },
+ "30": {
+  "itens": {
+   "a": "$f(x) = 1 \\Rightarrow |x| = 1 \\Rightarrow x = \\pm 1$\nOs pontos de interseção são $(1{,}1)$ e $(-1{,}1)$.",
+   "b": "A área do triângulo marrom é: $A = \\frac{4 \\times 2}{2} = 4$\n\n![Gráfico de f(x) e da reta y = 2, com a região triangular destacada à direita do eixo Oy](fig:r07-c1)",
+   "c": "$\\frac{|x|}{d} = d \\Rightarrow |x| = d^2 \\Rightarrow x = \\pm d^2$\n\n![Gráfico de f(x) e da reta y = d, com a região triangular destacada entre x = −d² e x = d²](fig:r07-c2)\n\nA região marrom formada é um triângulo de base $2d^2$ e altura $d$. Assim, a área é $A = \\frac{2d^2.d}{2} = d^3$."
+  }
+ },
+ "31": {
+  "itens": {
+   "a": "$\\text{CaO(s)} + \\text{H}_2\\text{O}(\\ell) \\rightarrow \\text{Ca}^{2+}\\text{(aq)} + 2\\,\\text{OH}^-\\text{(aq)}$",
+   "b": "$\\text{CaCO}_3(\\Delta) \\rightarrow \\text{CaO(s)} + \\text{CO}_2\\text{(g)}$\n\n1 mol CaO —— 56 g\n$n$ —— $1{,}12 \\times 10^{10} \\times 10^{3}$ g\n\n$n = 20 \\times 10^{10}$ mols\n\nReação 1:1 → $n_{\\text{CO}_2} = 20 \\times 10^{10}$ mols —— $m$\n1 mol —— 44g\n\n$m = 880 \\times 10^{10}$ g $= 8{,}8 \\times 10^{9}$ kg",
+   "c": "Uso de catalisador para diminuir a energia de ativação. Aumento da temperatura do sistema para aumentar a velocidade de reação."
+  }
+ },
+ "32": {
+  "itens": {
+   "a": "| | Compostos relativos ao aroma | Compostos relativos ao sabor |\n|---|---|---|\n| Fase com maior quantidade | Orgânica | Aquosa |\n\nSafranal responsável pelo aroma é apolar, enquanto picrocrocina é polar.",
+   "b": "Crocetina. Na ausência de meio básico, os grupos ácidos da crocetina não serão desprotonados, diminuindo a sua polaridade e, consequentemente, a sua solubilidade na fase aquosa.",
+   "c": "500 mg de açafrão → 0,7 mmol – 1 L logo, $0{,}7 \\times 10^{-5}$ mol de safranal em 10 mL. Considerando 70% de rendimento:\n\n$$\\frac{0{,}7 \\times 10^{-5}}{0{,}7} = 1{,}0 \\times 10^{-5}\\ \\text{mol de safranal}$$\n\nA massa será:\n\n$$1{,}0 \\times 10^{-5}\\ mol \\times 150\\,\\frac{g}{mol} = 1{,}5\\ mg$$\n\nPortanto, o teor:\n\n$$\\left(\\frac{1{,}5\\ mg}{500\\ mg}\\right) \\times 100 = 0{,}3\\%$$"
+  }
+ },
+ "33": {
+  "itens": {
+   "a": "![Reação com a estrutura do dicloroisocianurato de sódio, mais 2 H₂O, seta e, no quadro, a estrutura desenhada com H no lugar dos dois Cℓ ligados aos nitrogênios, mais 2 HCℓO](fig:r18-c1)",
+   "b": "$\\text{C}\\ell_2 + 2\\,\\text{OH}^- \\rightleftharpoons \\text{C}\\ell\\text{O}^- + \\text{C}\\ell^- + \\text{H}_2\\text{O}$\nAdicionar vinagre consome hidróxido deslocando o equilíbrio no sentido do gás cloro que é tóxico.",
+   "c": "![Estrutura da molécula de NCℓ₃ com vetores de dipolo (geometria piramidal) e duas representações da estrutura de Lewis](fig:r18-c2)\n\nDevido à sua geometria, os momentos de dipolo não se anulam, o que faz a molécula polar e solúvel em água."
+  }
+ },
+ "34": {
+  "itens": {
+   "a": "$1{,}5\\ x\\ 50mm = \\frac{75L\\ \\text{O}_2}{22{,}5\\ L/mol} = 3{,}3\\ mols$",
+   "b": "Pela estequiometria da reação tem-se 1 mol de glicose para 6 mols de $\\text{O}_2$. Portanto, a quantidade de energia liberada por mol de $\\text{O}_2$ é de:\n\n$$\\frac{675\\ kcal}{6} = 112{,}5\\ kcal$$\n\nComo 112,5 kcal equivalem a 1 mol de $\\text{O}_2$ e, portanto, 22,5 L, o fator Q será dado por:\n\n$$\\frac{112{,}5}{22{,}5} = 5\\ kcal/L$$",
+   "c": "$$\\Delta rH = 2x\\,(-160) - (-300) = -320 + 300 = -20\\ kcal/mol$$\n\n$$\\frac{m}{m} = \\frac{-675}{-20} = 33{,}75 \\cong 34$$"
+  }
+ },
+ "35": {
+  "itens": {
+   "a": "![Tabela preenchida: Aℓ(s) = 0; Aℓ(OH)₄⁻(aq) = +3; OH⁻(aq) = +1; H₂(g) = 0](fig:r20-c1)",
+   "b": "$$mAl = \\frac{2(mol) \\times 57(l) \\times 2{,}5 \\times 10^4 \\left(\\frac{kJ}{L}\\right) \\times 27 \\left(\\frac{g}{mol}\\right)}{3 \\times 285 \\left(\\frac{kJ}{mol}\\right)} = 90.000\\ g = 90\\ kg$$",
+   "c": "No óxido de alumínio existe ligação iônica e, no alumínio, ligação metálica. É necessário realizar a fusão para geração de íons $\\text{A}\\ell^{3+}$ que sofrerão eletrólise."
+  }
+ },
+ "36": {
+  "itens": {
+   "a": "A combustão incompleta do óleo gera uma grande quantidade de fuligem.",
+   "b": "![Molécula de gelificante com as duas cadeias laterais circuladas em vermelho](fig:r21-c1)\n\nMenor porque, ao diminuir a cadeia, a eficiência é reduzida, já que a interação intermolecular com o petróleo é menos efetiva.",
+   "c": "Em água, a molécula de gelificante forma ligações de hidrogênio com água, mantendo-se solúvel. Ao ser adicionada em óleo, a água não está disponível e, portanto, não pode mais fazer ligação de hidrogênio com a água e passa a interagir entre si, formando o gel."
+  }
+ }
+}
