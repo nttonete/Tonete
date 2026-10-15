@@ -1,8 +1,8 @@
 {
  "4": {
   "itens": {
-   "a": "Como o índice h é 8, esse pesquisador tem pelo menos 8 artigos com pelo menos 8 citações cada uma. Logo, o pesquisador tem pelo menos $M = 64$ citações.\n\nO índice h é 4, pois os artigos A, B, E e F têm pelo menos 4 citações e os artigos C e D têm menos do que 4 citações.",
-   "b": "Para que o índice h seja 6, o pesquisador precisa ter pelo menos 10 novas citações nos artigos C e D. Portanto, ele precisa de pelo menos 6 novas citações do artigo C e pelo menos 4 novas citações do artigo D. Logo, o pesquisador precisa de 10 novas citações."
+   "a": "Como o índice h é 8, esse pesquisador tem pelo menos 8 artigos com pelo menos 8 citações cada uma. Logo, o pesquisador tem pelo menos $M = 64$ citações.",
+   "b": "O índice h é 4, pois os artigos A, B, E e F têm pelo menos 4 citações e os artigos C e D têm menos do que 4 citações.\n\nPara que o índice h seja 6, o pesquisador precisa ter pelo menos 10 novas citações nos artigos C e D. Portanto, ele precisa de pelo menos 6 novas citações do artigo C e pelo menos 4 novas citações do artigo D. Logo, o pesquisador precisa de 10 novas citações."
   }
  },
  "5": {

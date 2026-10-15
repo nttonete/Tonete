@@ -29,16 +29,17 @@
     {
      "rotulo": "a",
      "texto": "Um pesquisador tem índice h igual a 8 e tem M citações totais. Qual é o menor valor possível de M? Justifique.",
-     "resposta_oficial": "Como o índice h é 8, esse pesquisador tem pelo menos 8 artigos com pelo menos 8 citações cada uma. Logo, o pesquisador tem pelo menos $M = 64$ citações.\n\nO índice h é 4, pois os artigos A, B, E e F têm pelo menos 4 citações e os artigos C e D têm menos do que 4 citações."
+     "resposta_oficial": "Como o índice h é 8, esse pesquisador tem pelo menos 8 artigos com pelo menos 8 citações cada uma. Logo, o pesquisador tem pelo menos $M = 64$ citações."
     },
     {
      "rotulo": "b",
      "texto": "Um pesquisador tem exatamente 6 artigos, indicados por A, B, C, D, E e F. O gráfico abaixo apresenta a quantidade de citações recebidas em cada um dos artigos.\n\n![Gráfico de colunas, \"Citações recebidas por cada artigo\": A 30, B 8, C 0, D 2, E 20, F 8](fig:p06-c1)\n\nQual é o índice h deste pesquisador? Qual é o número mínimo de novas citações que este pesquisador precisa receber para atingir um índice h de 6? Justifique.",
-     "resposta_oficial": "Para que o índice h seja 6, o pesquisador precisa ter pelo menos 10 novas citações nos artigos C e D. Portanto, ele precisa de pelo menos 6 novas citações do artigo C e pelo menos 4 novas citações do artigo D. Logo, o pesquisador precisa de 10 novas citações."
+     "resposta_oficial": "O índice h é 4, pois os artigos A, B, E e F têm pelo menos 4 citações e os artigos C e D têm menos do que 4 citações.\n\nPara que o índice h seja 6, o pesquisador precisa ter pelo menos 10 novas citações nos artigos C e D. Portanto, ele precisa de pelo menos 6 novas citações do artigo C e pelo menos 4 novas citações do artigo D. Logo, o pesquisador precisa de 10 novas citações."
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cha-q05",
@@ -60,7 +61,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Polinômios e equações",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cha-q06",
@@ -82,7 +84,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cha-q07",
@@ -104,7 +107,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Desigualdade e estratificação",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cha-q08",
@@ -112,7 +116,7 @@
    "materia": "filosofia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "**Texto 1**\n\n![Ilustração de uma serpente vermelha e dourada que morde a própria cauda, formando um círculo, com a legenda \"(Ouroboros)\"](fig:p10-c2)\n\n**Texto 2**\n\nEm *Capitalismo Canibal* (2024), Nancy Fraser afirma que o capitalismo é uma ordem social que ‘devora’ as suas próprias condições de existência. Para representar o capitalismo, Fraser usa a imagem de Ouroboros, que ilustra a capa do livro.\n\n**Texto 3**\n\nA contradição política inerente ao capitalismo ocorre entre os imperativos da acumulação de capital e a manutenção dos poderes públicos de que a acumulação também depende. O poder público legítimo e eficaz é uma condição de possibilidade para a acumulação sustentada do capital. Afinal, o capital tem uma dependência crucial dos poderes públicos para garantir direitos de propriedade, fazer cumprir contratos, julgar controvérsias, reprimir rebeliões, manter a ordem, administrar a divergência, etc. O ímpeto de acumulação infinita tende, ao longo do tempo, a desestabilizar os mesmos poderes públicos de que depende. Essa contradição está na raiz de nossa atual crise democrática. Graças a sua estrutura inerente, o capitalismo é fundamentalmente antidemocrático. Mesmo no melhor dos casos, a democracia, em uma sociedade capitalista, deve ser forçosamente fraca e limitada.\n\n(Adaptado de FRASER, N. *Capitalismo Canibal*. Cotia (SP): Autonomia Literária, 2024, p.135-138.)\n\nConsiderando os textos 1, 2 e 3, responda aos itens (a) e (b).",
+   "enunciado": "**Texto 1**\n\n![Ilustração de uma serpente com patas, vermelha e dourada, que morde a própria cauda, formando um círculo, com a legenda \"(Ouroboros)\"](fig:p10-c2)\n\n**Texto 2**\n\nEm *Capitalismo Canibal* (2024), Nancy Fraser afirma que o capitalismo é uma ordem social que ‘devora’ as suas próprias condições de existência. Para representar o capitalismo, Fraser usa a imagem de Ouroboros, que ilustra a capa do livro.\n\n**Texto 3**\n\nA contradição política inerente ao capitalismo ocorre entre os imperativos da acumulação de capital e a manutenção dos poderes públicos de que a acumulação também depende. O poder público legítimo e eficaz é uma condição de possibilidade para a acumulação sustentada do capital. Afinal, o capital tem uma dependência crucial dos poderes públicos para garantir direitos de propriedade, fazer cumprir contratos, julgar controvérsias, reprimir rebeliões, manter a ordem, administrar a divergência, etc. O ímpeto de acumulação infinita tende, ao longo do tempo, a desestabilizar os mesmos poderes públicos de que depende. Essa contradição está na raiz de nossa atual crise democrática. Graças a sua estrutura inerente, o capitalismo é fundamentalmente antidemocrático. Mesmo no melhor dos casos, a democracia, em uma sociedade capitalista, deve ser forçosamente fraca e limitada.\n\n(Adaptado de FRASER, N. *Capitalismo Canibal*. Cotia (SP): Autonomia Literária, 2024, p.135-138.)\n\nConsiderando os textos 1, 2 e 3, responda aos itens (a) e (b).",
    "itens": [
     {
      "rotulo": "a",
@@ -126,7 +130,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Filosofia política",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cha-q09",
@@ -148,7 +153,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Idade Moderna (Europa)",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cha-q10",
@@ -156,7 +162,7 @@
    "materia": "historia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A partir da leitura da imagem a seguir, produzida por Carlos Julião, agente do império português na segunda metade do século XVIII, responda aos itens (a) e (b).\n\n![Aquarela de Carlos Julião: mulher de vestido amarelo e manto vermelho, com coroa e bengala, sob uma sombrinha vermelha, seguida por seis mulheres de roupas claras e adereços de plumas na cabeça, algumas tocando instrumentos](fig:p12-f2)\n\n(JULIÃO, C. Riscos illuminados de figurinhos de brancos e negros dos uzos do Rio de Janeiro e Serro do Frio [século XVIII]. Rio de Janeiro: Fundação Biblioteca Nacional, 1960.)\n\nLegenda: Prancha 37, Coroação de uma rainha negra na festa de Reis, seguida por um cortejo de mulheres. Minas Gerais, segunda metade do século XVIII.",
+   "enunciado": "A partir da leitura da imagem a seguir, produzida por Carlos Julião, agente do império português na segunda metade do século XVIII, responda aos itens (a) e (b).\n\n![Aquarela de Carlos Julião. À esquerda, uma mulher negra de vestido amarelo estampado, com coroa na cabeça, bastão na mão e um manto vermelho; logo atrás dela, duas mulheres de saia azul, faixa amarela e plumas vermelhas na cabeça, descalças: uma segura uma sombrinha vermelha sobre a mulher coroada e a outra segura a cauda do manto. À direita, cinco mulheres de blusa branca, saia clara com faixa azul, plumas na cabeça e calçados vermelhos: uma leva um tambor sobre a cabeça, outra segura um instrumento comprido, outra ergue as mãos, outra estende as mãos à frente e a última toca com duas baquetas um instrumento preso à cintura](fig:p12-f2)\n\n(JULIÃO, C. Riscos illuminados de figurinhos de brancos e negros dos uzos do Rio de Janeiro e Serro do Frio [século XVIII]. Rio de Janeiro: Fundação Biblioteca Nacional, 1960.)\n\nLegenda: Prancha 37, Coroação de uma rainha negra na festa de Reis, seguida por um cortejo de mulheres. Minas Gerais, segunda metade do século XVIII.",
    "itens": [
     {
      "rotulo": "a",
@@ -170,7 +176,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Brasil Colônia",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-2-cha-q11",
@@ -192,7 +199,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Revoluções e século XIX",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-2-cha-q12",
