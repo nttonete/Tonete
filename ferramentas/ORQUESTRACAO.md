@@ -25,6 +25,10 @@ Os agentes falham com "You've hit your session limit · resets HH:MM". Agende a 
 - **Unicamp 2021** (`unicamp-2021-1`): caderno versão E/G sem PDF de gabarito. O gabarito está na prova comentada oficial (`fontes-pdf/UNICAMP/1ª Fase/UNICAMP_2021_1Fase_resol.pdf`, "Alternativa Correta: x" por questão). Transcrever em 2 lotes de 36; extrair o gabarito da prova comentada, conferir que a numeração bate com o caderno e gravá-lo em `dados/provas/gabaritos-transcritos.json` na chave `unicamp-2021-1` / versão `E/G`.
 - **Unicamp 2017–2020**: 90 questões, lotes de 30.
 
+## Se um agente for bloqueado pelo filtro de conteúdo
+
+"Output blocked by content filtering policy" em dois agentes seguidos no mesmo trecho costuma ser texto protegido (letra de música, trecho longo de romance). Não tente contornar. Ache o trecho (veja as páginas), refaça o lote pulando essas questões e registre em `ferramentas/PENDENCIAS.md`.
+
 ## Ao concluir
 
 Rodar `node testes/navegador.js` (com `PLAYWRIGHT_PATH=$(npm root -g)/playwright`), atualizar a prévia (Artifact `pagina.html`, mesma URL) e escrever o relatório final: números, questões em atenção e o que depende de decisão humana (discursivas, nome, venda).
