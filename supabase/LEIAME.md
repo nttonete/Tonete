@@ -2,34 +2,91 @@
 
 Projeto `banca-aberta`, região São Paulo (sa-east-1), código `egfglvvjdnrxjsikespe`.
 
+## Situação
+
+O código está pronto e testado, mas **ainda não foi aplicado no projeto**: o `SUPABASE_ACCESS_TOKEN` do ambiente de nuvem não é um token pessoal válido (o Supabase respondeu "JWT could not be decoded"; um token pessoal começa com `sbp_`). Veja "Como colocar no ar".
+
 ## O que existe
 
-`migrations/20261015000000_inicial.sql` cria:
+### Banco (`migrations/`)
+
+| Arquivo | O que faz |
+|---|---|
+| `20261015000000_inicial.sql` | Tabelas `perfis`, `dados_aluno` e `assinaturas`, regras por aluno (RLS) e `tem_acesso()` |
+| `20261015010000_assinatura_dias.sql` | Coluna `dias` na assinatura (a duração comprada fica gravada) e acesso explícito do papel do servidor (`service_role`) às tabelas |
 
 | Tabela | Para quê | Quem escreve |
 |---|---|---|
 | `perfis` | Nome, nascimento, responsável (menores), versão e data de aceite dos Termos e da Privacidade | Criado sozinho junto com a conta; o aluno pode corrigir o próprio |
-| `dados_aluno` | O que hoje fica no localStorage: `historico`, `sessao`, `plano`, `obras-lidas`, `redacoes` | O próprio aluno |
-| `assinaturas` | Pagamentos do Mercado Pago (status, valor, início e fim) | Só o servidor (webhook) |
+| `dados_aluno` | O que fica no localStorage: `historico`, `sessao`, `plano`, `obras-lidas`, `redacoes` | O próprio aluno |
+| `assinaturas` | Pagamentos do Mercado Pago (status, valor, dias, início e fim) | Só o servidor (funções) |
 
-`tem_acesso()` responde se o aluno logado tem assinatura ativa.
+Segurança: RLS em todas as tabelas (cada aluno só vê o que é dele) e nenhuma tabela exposta sem `grant` explícito. Excluir a conta apaga perfil, dados e assinaturas em cascata.
 
-Segurança: RLS em todas as tabelas (cada aluno só vê o que é dele) e nenhuma tabela exposta sem `grant` explícito. Excluir a conta apaga perfil, dados e assinaturas em cascata (exclusão a pedido do titular, LGPD).
+Testado num Postgres 16 local com as partes do Supabase simuladas: as duas migrações entram sem erro, aluno não lê nem grava dados de outro, não grava assinatura, `tem_acesso()` responde certo e a exclusão apaga tudo.
 
-Testado num Postgres 16 local com as partes do Supabase simuladas: aluno não lê nem grava dados de outro, não grava assinatura e não muda o perfil de outro.
+### Funções de servidor (`functions/`)
 
-## Como aplicar
+Escritas sem bibliotecas de fora (só `fetch` e `crypto`). Cada uma tem `index.ts` (entrada no Deno) e `tratar.ts` (a lógica, testável no Node).
 
-Com `SUPABASE_ACCESS_TOKEN` no ambiente e `api.supabase.com` liberado na rede:
+| Função | O que faz |
+|---|---|
+| `mp-checkout` | `GET`: planos à venda (nome, preço total, dias). `POST {plano}`: cria a assinatura `pendente` e a preferência do Checkout Pro; devolve o endereço de pagamento. Exige login |
+| `mp-webhook` | Recebe o aviso do Mercado Pago, confere a assinatura do aviso (`x-signature`), **consulta o pagamento na API do Mercado Pago** e atualiza a assinatura. Aprovado: ativa por `dias` (se já houver acesso ativo, começa quando ele termina). Devolvido ou estornado: encerra o acesso. Valor diferente do combinado: não ativa |
+| `excluir-conta` | Apaga a conta de quem está logado (com a confirmação "EXCLUIR"); o resto vai em cascata |
+
+A cópia dos dados ("Baixar meus dados") não precisa de função: o próprio site lê, com o login do aluno, o perfil, os dados de estudo e as assinaturas.
+
+Compra: pagamento único, **sem renovação automática**. A tela mostra o preço total, a duração e o direito de arrependimento de 7 dias. A devolução é feita pelo painel do Mercado Pago; o aviso de devolução encerra o acesso sozinho.
+
+### No site (`app/config.js`, `app/nuvem.js` e a tela "Conta" em `app/app.js`)
+
+- **Login:** e-mail e senha, link de acesso por e-mail e "esqueci a senha". Cadastro com nome, nascimento e aceite dos Termos e da Privacidade; de 12 a 17 anos pede nome e e-mail do responsável; abaixo de 12, o cadastro não é aceito (ver Pendências).
+- **Sincronização:** o aparelho continua sendo a fonte do dia a dia e funciona sem internet. Cada gravação marca a chave como pendente e sobe 3 s depois (ou quando a internet volta). Na leitura, se só a conta mudou, o aparelho recebe; se só o aparelho mudou, a conta recebe; se os dois mudaram, junta: histórico e obras lidas somam os dois lados, redações ficam com a versão editada por último, o plano fica com o criado por último (somando as tarefas feitas) e a prova em andamento fica com a começada por último. O envio só vale se a conta não mudou desde a leitura (`atualizado_em`); se mudou, lê e junta de novo.
+- Ao entrar pela primeira vez, o que foi feito no aparelho sem conta vai para a conta. Ao sair, os dados de estudo são apagados do aparelho (continuam na conta); se algo ainda não subiu, a tela avisa antes.
+- **Sem a chave em `app/config.js`, nada disso aparece** e a plataforma não faz nenhum pedido ao servidor (é assim que está hoje e na prévia).
+
+### Testes
 
 ```
-npx supabase link --project-ref egfglvvjdnrxjsikespe
-npx supabase db push
+node --test supabase/testes/*.test.ts     # funções de servidor (16 testes, sem rede)
+node testes/nuvem.js                       # conta e sincronização no Chromium, com Supabase simulado
+node testes/navegador.js                   # plataforma inteira (continua passando)
 ```
 
-## Próximos passos
+Os dois testes de navegador precisam de `PLAYWRIGHT_PATH=$(npm root -g)/playwright`.
 
-1. Login e cadastro na plataforma (e-mail e senha ou link mágico), com data de nascimento e dados do responsável para menores.
-2. Sincronizar o localStorage com `dados_aluno` (o aparelho continua funcionando sem internet).
-3. Função de servidor `mp-checkout` (cria a preferência no Checkout Pro) e `mp-webhook` (confirma o pagamento e grava em `assinaturas`). O token do Mercado Pago fica só como segredo das funções (`MP_ACCESS_TOKEN`), nunca no site.
-4. Função de exclusão de conta e de exportação dos dados (direitos do titular).
+## Como colocar no ar
+
+1. **Token:** em supabase.com, Account → Access Tokens, gere um token pessoal (começa com `sbp_`) e coloque-o como `SUPABASE_ACCESS_TOKEN` nas variáveis do ambiente de nuvem (substituindo o atual). Para o `db push` também é preciso a senha do banco em `SUPABASE_DB_PASSWORD`.
+2. **Banco:**
+   ```
+   npx supabase link --project-ref egfglvvjdnrxjsikespe
+   npx supabase db push
+   ```
+3. **Segredos das funções** (nunca no código nem no site):
+   ```
+   npx supabase secrets set MP_ACCESS_TOKEN=... MP_WEBHOOK_SECRET=... SITE_URL=https://endereco-do-site/ \
+     PLANOS='{"anual":{"nome":"Banca Aberta: 12 meses de acesso","centavos":19900,"dias":365}}'
+   ```
+   - `MP_ACCESS_TOKEN`: Mercado Pago → Suas integrações → Credenciais (use as de teste primeiro).
+   - `MP_WEBHOOK_SECRET`: Suas integrações → Webhooks. Cadastre a URL `https://egfglvvjdnrxjsikespe.supabase.co/functions/v1/mp-webhook`, evento "Pagamentos", e copie a "assinatura secreta".
+   - `PLANOS`: preço em centavos e duração em dias. **O valor acima é só exemplo**; sem esse segredo, a tela mostra "A venda ainda não está aberta".
+4. **Funções:**
+   ```
+   npx supabase functions deploy mp-checkout
+   npx supabase functions deploy mp-webhook      # o config.toml desliga a exigência de login só nesta
+   npx supabase functions deploy excluir-conta
+   ```
+5. **Login:** no painel, Authentication → URL Configuration: "Site URL" e "Redirect URLs" com o endereço do site (os links de e-mail voltam para lá). Ative a confirmação de e-mail e, de preferência, um SMTP próprio com remetente da Banca Aberta (o padrão do Supabase tem limite baixo de envios).
+6. **Site:** em `app/config.js`, preencha `supabaseChave` com a chave **pública** do projeto (Settings → API Keys → "publishable" ou "anon"). Depois rode `python3 ferramentas/gerar_index.py`.
+7. Teste uma compra com as credenciais de teste do Mercado Pago antes de trocar pelas de produção.
+
+## Pendências (decisão humana)
+
+- **Preço e duração** dos planos (segredo `PLANOS`).
+- **Bloqueio do conteúdo:** hoje tudo continua aberto para quem não assina. Falta decidir o que fica grátis; `tem_acesso()` e `Nuvem.temAcesso()` já respondem.
+- **Registros de compra na exclusão da conta:** a exclusão apaga também as assinaturas (cascata), mas a Política diz que dados de compra ficam pelo prazo legal. Decidir com o advogado se os pagamentos devem ser guardados à parte (sem o vínculo com o aluno) antes de apagar.
+- **Menores de 12 anos:** o cadastro recusa. Aceitar exige um fluxo de consentimento do responsável (por exemplo, o responsável confirma por e-mail).
+- **Versão dos termos:** o aceite grava `2026-10-15-rascunho`; trocar em `app/app.js` (`VERSAO_TERMOS`, `VERSAO_PRIVACIDADE`) quando o texto final for aprovado.
+- Correção por IA (ainda sem provedor escolhido).
