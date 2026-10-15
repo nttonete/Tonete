@@ -1,0 +1,469 @@
+{
+ "edicao": {
+  "id": "unicamp-2025-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2025,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2025 – 2ª fase (2º dia: Ciências Exatas e Tecnológicas)",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "fonte": {
+   "caderno": "2fase-dia2-cet-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-dia2-cet-respostas.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2025-2-cet-q01",
+   "numero": 1,
+   "materia": "historia",
+   "materias_extra": [
+    "geografia",
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "![Gráfico de barra horizontal intitulado “População Quilombola no Brasil por regiões”, Brasil 1.327.802 quilombolas: Nordeste 905.415 (68,19%), Sudeste 182.305 (13,73%), Norte 166.069 (12,51%), Centro-Oeste 44.957 (3,39%) e Sul 29.056 (2,19%)](fig:p03-c1)\n\n(Fonte: Censo, IBGE, 2022)\n\n(Disponível em https://www.gov.br/pt-br/noticias/assistencia-social/2023/07/populacao-quilombola-e-de-1-3-milhao-indica-recorte-inedito-do-censo. Acesso em 11/08/2024.)\n\nA partir da leitura do gráfico e de sua legenda, faça o que se pede.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite dois fatores históricos que ocasionaram a maior concentração de quilombolas em uma região brasileira. Explique por que esses fatores impactaram tal concentração.",
+     "resposta_oficial": "Dois importantes fatores históricos que justificam a maior concentração de comunidades quilombolas no nordeste brasileiro, como evidenciado pelo censo de 2022, são, de um lado, a presença de população africana escravizada nessa região, durante a colonização e império, sobretudo em ciclos produtivos ligados à produção de cana-de açúcar e, de outro, a formação de quilombos como forma de resistência. Durante a escravidão, foram recorrentes as fugas e reorganizações das comunidades de escravos, libertos e população negra livre em regiões mais afastadas dos centros urbanos, regiões estas que tinham nos quilombos, como o histórico quilombo de Palmares, um local de resistência sociocultural contra os abusos econômicos, políticos e a exploração colonial. Assim, nessas regiões, historicamente se constituíram a maior parte dos quilombos do território, também pela geografia do Nordeste, com serras, matas e sertões, possibilitando a construção desses espaços de autodeterminação e autonomia, com ênfase na manutenção das tradições culturais e na relação com a terra."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Identifique e explique – considerando o contexto a partir do século XXI – dois desafios relativos aos territórios quilombolas no país.",
+     "resposta_oficial": "Os desafios enfrentados pelos quilombos brasileiros no século XXI podem ser organizados a partir de alguns eixos gerais. O primeiro deles está relacionado às ausências de políticas públicas eficientes que garantam a posse do território e mesmo sua proteção frente aos interesses dos latifundiários, mineradores e grileiros. Não há dúvidas de que o direito quilombola avançou a partir da Constituição de 1988, mas os desafios são ainda muito expressivos. A questão da posse do território acaba sendo ampliada pela dificuldade da superação das desigualdades históricas que seguem retalhando ou impedindo que a população quilombola tenha acesso à titulação das terras, pois o processo é lento, burocrático e imerso em insegurança jurídica e racismo estrutural. Pode-se citar desafios de ordem social, pois o racismo, a dificuldade de acesso aos serviços e direitos, perpetuam as desigualdades, estereótipos e preconceitos. Pode-se citar, ainda, o desafio cultural de — mesmo diante de tantas ofensivas violentas contra as comunidades quilombolas — seguirem na luta pela preservação do patrimônio cultural imaterial, suas religiosidades e práticas, da alimentação a saberes partilhados. Inserido nas questões culturais, a preservação da memória se torna uma luta pelo direito ao seu passado, à existência no presente e às projeções e sonhos de futuro. A memória tem função social central na constituição e manutenção dos quilombos brasileiros, pois opera como prática cultural capaz de formar identidades e coletividades em uma história narrada como resistência. A memória, assim, permite a continuidade das práticas culturais por meio da transmissão oral, das tradições compartilhadas e ligadas à ancestralidade africana e diaspórica, ampliando o sentimento de pertencimento à terra e à luta pelos direitos ao território por meio das gerações. Por fim, é possível observar os desafios em implementar e terem respeitadas as políticas públicas específicas para essas comunidades, de escolarização ao acesso à saúde, por exemplo."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q02",
+   "numero": 2,
+   "materia": "sociologia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "“O tipo de poder favorecido pela extensão do ciberespaço não é, evidentemente, o poder hierárquico, burocrático ou territorial à antiga. Cada vez mais, será um poder nascido da capacidade de aprender e de trabalhar de maneira cooperativa, relacionado com o grau de confiança e de reconhecimento recíprocos reinantes num contexto social.\n\n(LEVY, P. A Revolução contemporânea em matéria de comunicação. *Revista FAMECOS*, 9, p. 43, dezembro de 1998.)\n\n“Após se consolidar a abertura comercial da internet nas últimas décadas, constata-se que essa rede tem sido apropriada como um sistema global de monitoramento financeiro e civil por onde se desdobra a geopolítica do século XXI. Tanto o comércio global quanto as viagens aéreas são reorganizados para possibilitar a identificação, rastreamento e manutenção dos corpos e circulações sob controle. Telefones celulares e passaportes têm o potencial de transformar em dispositivos de rastreamento o objeto que os porta”.\n\n(Adaptado de GRAHAM, S. *Cidades sitiadas*: O novo urbanismo militar. São Paulo: Boitempo, p. 129, 2016.)\n\nA partir da leitura dos dois excertos acima,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "indique duas funções atribuídas à internet por cada um dos autores. Explique cada uma delas.",
+     "resposta_oficial": "Para Pierre Lévy, a internet tem como função descentralizar o poder hierárquico ou territorial, pois pode oferecer formas de troca e cooperação entre grupos e sujeitos subalternizados, ao contrário dos antigos sistemas de comunicação, conduzidos pelas elites econômicas. Também, para ele, produzir confiança e aprendizagem colaborativa é uma função da internet, onde o conhecimento passa a ser realizado em forma de rede, com reconhecimento de saberes diversos que compõem o corpo social. Por outro lado, Stephen Graham apresenta uma visão mais crítica, sendo o seu texto mais recente. Ele afirma que a função da internet hoje é realizar o monitoramento e controle financeiro e civil, sendo um braço do poder geopolítico. Isso se realiza mediante identificação e rastreamento dos corpos, em telefones celulares e passaportes, por exemplo. No que tange ao mercado, a internet monitora fluxos financeiros, transações e informações sobre empresas e indivíduos. Essas funções alteram a compreensão espacial urbana, que passa a ser altamente controlada."
+    },
+    {
+     "rotulo": "b",
+     "texto": "relacione o contexto de publicação de cada um dos excertos acima à leitura que os autores fazem sobre a potencialidade da internet.",
+     "resposta_oficial": "O texto de Lévy foi publicado em 1998, num contexto mais inicial da internet e de sua difusão e formas de uso. No início da popularização, portanto, havia mais otimismo em ver a internet como espaço de democratização de saberes e novas formas de coletividades e de contestar poderes hegemônicos. Portanto, nesta visão, acreditava-se que haveria computadores pessoais mais acessíveis, que o ciberespaço alavancaria a inteligência coletiva e a experimentação. Embora parte dessas visões tenha mesmo se constituído, uma nova esfera de controle e poder foi amplamente estimulada pela internet, como afirma Graham. Ao lado das práticas colaborativas, o autor, que escreveu em 2016, expõe o avanço da militarização e das tecnologias de monitoramento e controle dos corpos, trazendo novos problemas como privacidade, vigilância em tempo real e segurança, sobretudo no momento histórico de Guerra ao Terror, como após o ataque das torres gêmeas em Nova Iorque em 2001."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q03",
+   "numero": 3,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Rayssa participou dos Jogos Olímpicos de Paris. Ela visitou quatro pontos turísticos da cidade: o Arco do Triunfo, a Catedral de Notre-Dame, o Museu do Louvre e a Torre Eiffel.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Rayssa escolheu a melhor foto que tirou de cada um desses pontos turísticos e publicará uma por dia em suas redes sociais, ao longo de quatro dias consecutivos, sem repetir nenhuma foto. De quantas maneiras ela pode fazer isso? Justifique.",
+     "resposta_oficial": "Como são 4 fotos, ela tem 4 opções para postar no primeiro dia, 3 opções no segundo dia, 2 opções no terceiro dia e somente 1 opção no quarto dia. Portanto, pode fazer os posts de $4 \\cdot 3 \\cdot 2 \\cdot 1 = 24$ formas diferentes."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na figura abaixo, o Arco do Triunfo, a Catedral de Notre-Dame, o Museu do Louvre e a Torre Eiffel estão indicados pelos pontos $A$, $N$, $L$ e $E$, respectivamente. Os segmentos de reta na figura representam ruas de Paris. As retas $r,s$ são paralelas e os segmentos de reta $AG$ e $CF$ são paralelos entre si e perpendiculares a $r$ e $s$.\n\nConsidere as distâncias $AB = CN = 0{,}5$, $BL = 2{,}5$, $LC = 1$, $EF = 2{,}7$ e $BE = 1{,}7$, dadas em quilômetros. Rayssa visitou os pontos turísticos na seguinte ordem: Arco do Triunfo, Torre Eiffel, Catedral de Notre-Dame e Museu do Louvre, percorrendo a menor distância possível, nas ruas indicadas na figura. Qual foi a distância que ela percorreu? Justifique.\n\n![Mapa com duas retas paralelas, r e s, e as ruas AG, BE e CF perpendiculares a elas; pontos A (Arco do Triunfo), B, L (Museu do Louvre), C e N (Catedral de Notre-Dame) sobre s ou sobre o segmento CF, e pontos G, E (Torre Eiffel) e F sobre r](fig:p05-f2)",
+     "resposta_oficial": "Existem essencialmente dois caminhos que passam somente uma vez por um mesmo “segmento”: os caminhos ABEFNCL e AGEFNCL.\n\nO trecho ABE tem 0,5 km + 1,7 km = 2,2 km.\n\nNão sabemos qual o comprimento do trecho AGE. Para calcular o comprimento do segmento AG, podemos fazer a construção seguinte:\n\nComo AB = 0,5, BL = 2,5 e LC = 1, temos que AC = 4. Como EF = 2,7, segue-se que GE = 1,3. Seja B’ o ponto da reta r obtido traçando uma reta paralela ao segmento AG que passa por B. Então, como GB’ = 0,5 (pois AB = 0,5), segue que B’E = 0,8, como na figura a seguir.\n\n![Figura do mapa com o segmento tracejado BB’ paralelo a AG e as medidas indicadas: AB = 0,5 (GB’ = 0,5), B’E = 0,8, BE = 1,7, EF = 2,7, LC = 1,0 e CN = 0,5](fig:r03-f1)\n\nUsando o Teorema de Pitágoras no triângulo B’BE, podemos calcular a medida do cateto B’E, obtendo $B'E = \\sqrt{(1{,}7)^2 - (0{,}8)^2} = \\sqrt{2{,}25} = 1{,}5$. Logo, o segmento AG mede 1,5 km, e daí o trecho AGE mede 2,8 km.\n\nComo a medida de FC é a mesma de AG, o caminho ABEFNCL mede 0,5 + 1,7 + 2,7 + 1,5 + 1 = 7,4 km, enquanto o caminho AGEFNCL mede 1,5 + 0,2 + 1,3 + 2,7 + 1,5 + 1,0 = 8,2.\n\nAssim, o menor caminho é ABEFNCL, com 7,4 km."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q04",
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere as funções $f(x) = x^2 + x + c$ e $g(x) = x + k$, onde $c, k$ são números reais.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine os valores de $k$ e $c$ para que se tenha $f(g(1)) - g(f(1)) < 0$.",
+     "resposta_oficial": "Temos que\n• $f(g(1)) = f(1 + k) = (1 + k)^2 + (1 + k) + c = 2 + c + 3k + k^2$\n• $g(f(1)) = 2 + c + k$\n\nPortanto, $f(g(1)) - g(f(1)) = k^2 + 2k$. Assim, $f(g(1)) - g(f(1)) < 0$ quando $k^2 + 2k < 0$. Como $k^2 + 2k = 0$ quando $k = 0$ ou $k = -2$, segue que $k^2 + 2k < 0$ quando $k \\in (-2, 0)$, independentemente do valor de $c$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que a equação $f(x) = 0$ tem uma única solução real, determine o(s) valor(es) de $k$ para que a soma das soluções da equação $f(g^{-1}(x)) = 1/4$ seja igual a 2025, onde $g^{-1}(x)$ denota a função inversa de $g(x)$.",
+     "resposta_oficial": "Como $f(x) = 0$, sabemos que o discriminante dessa equação é zero, ou seja, $1 - 4c = 0$, e daí $c = 1/4$.\n\nVamos então escrever a equação $f(g^{-1}(x)) = 1/4$. Como $g^{-1}(x) = x - k$, temos que $f(g^{-1}(x)) = 1/4 - k + k^2 + x - 2kx + x^2$.\nDa equação $f(g^{-1}(x)) = 1/4$, temos que $-k + k^2 + x - 2kx + x^2 = 0$. As soluções desta equação são $x = k$ e $x = k - 1$; logo a soma das soluções é $2k - 1$. Para que $2k - 1 = 2025$, devemos ter $k = 1013$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q05",
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Helena tem um cadeado cuja abertura depende de uma senha composta por 3 dígitos que são números inteiros de 0 a 9. Após definir a senha do cadeado, ela cola um adesivo com certo código no cadeado. Este código, no entanto, não é a senha do cadeado: deixar a senha anotada no cadeado seria um equívoco. Para obter a senha correta, $(x, y, z)$, a partir do código $(a, b, c)$, Helena usa a seguinte relação entre os dígitos do código e os dígitos da senha:\n\n$$\\begin{cases} x + y + z = a, \\\\ x + z = b, \\\\ y + z = c. \\end{cases}$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Se o código anotado por Helena fosse $(9, 6, 3)$, qual seria a senha do cadeado?",
+     "resposta_oficial": "Para descobrir a senha a partir do código, basta resolver o sistema\n\n$$\\begin{aligned} x + y + z &= 9, \\\\ x \\phantom{{}+y} {}+ z &= 6, \\\\ y + z &= 3. \\end{aligned}$$\n\nEste sistema é equivalente a\n\n$$\\begin{aligned} x + y + z &= 9, \\\\ \\phantom{x+{}} y \\phantom{{}+z} &= 3, \\\\ x \\phantom{{}+y+z} &= 6, \\end{aligned}$$\n\nlogo $x = 6$, $y = 3$ e $z = 0$ e a senha é $(6, 3, 0)$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Passados alguns meses, Helena se esqueceu da senha. Para seu azar, o adesivo com o código se apagou parcialmente e só sobraram visíveis os dois primeiros dígitos: $(6, 2, ?)$. Quais são todas as possíveis senhas? Justifique.",
+     "resposta_oficial": "Neste caso, temos que\n\n$$\\begin{aligned} x + y + z &= 6, \\\\ x \\phantom{{}+y} {}+ z &= 2, \\\\ y + z &= c. \\end{aligned}$$\n\nA solução deste sistema é $y = 4$, $x = 6 - c$, $z = c - 4$. Como sabemos que $x, z, c \\in \\{0, 1, \\ldots, 9\\}$, os únicos valores possíveis de $c$ são $c = 6$, $c = 5$ ou $c = 6$. Logo, as possíveis senhas são $(0, 4, 2)$, $(1, 4, 1)$ ou $(2, 4, 0)$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q06",
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A trave de equilíbrio é um aparelho de ginástica artística, no qual a atleta deve se equilibrar enquanto realiza movimentos coreográficos, saltos e giros. A Figura 1 representa a trave de equilíbrio. A trave é paralela ao solo e os pontos A, B, e C formam um triângulo equilátero. A Figura 2 representa um dos movimentos realizados pela atleta.\n\n![Figura 1: trave de equilíbrio vista de lado, a 110 cm do solo, com os pontos A, B, C e D. Figura 2: salto de saída da trave, com a trajetória parabólica entre P1 (189 cm do chão) e P2 (64 cm do chão), ponto mais alto H, e os pontos E, F e G no solo, com distâncias horizontais de 50 cm (EF) e 125 cm (EG)](fig:p08-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Sabendo que a distância da trave ao solo é de 110 cm, calcule o comprimento do segmento DB.",
+     "resposta_oficial": "Na Figura 1, seja R um ponto no “chão”, de modo que o segmento RB é perpendicular ao chão e à trave. Como o triângulo ABC é equilátero, seus ângulos tem 60 graus; daí o ângulo RDB mede 60 graus. Como o triângulo DRB é retângulo, temos que $\\text{sen}(60) = BR/DB$. Assim, $\\sqrt{3}/2 = 110/DB$, ou seja, $DB = (220\\sqrt{3})/3$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A atleta realiza um salto de saída da trave, representado na Figura 2. Sabe-se que a trajetória do centro de massa da atleta é uma parábola, conforme ilustrado na figura 2. A distância horizontal entre a saída da trave e o local da aterrisagem é 125 cm e o ponto mais alto da trajetória (ponto H) é alcançado a 50 cm da saída da trave (distância horizontal). Sabe-se que no momento da saída, o centro de massa está a 189 cm do chão (ponto P1) e que no momento da aterrisagem o centro de massa da atleta está situado a 64 cm do chão (ponto P2), como mostra a figura. Calcule a maior altura atingida pelo centro de massa da atleta durante esse movimento.",
+     "resposta_oficial": "Considere um sistema de eixos $xy$, em que o eixo $y$ contém o segmento HF e o eixo $x$ passa pelo ponto $P_2$, como indicado na figura a seguir:\n\n![Figura 2 com um eixo y vermelho passando por H e F e um eixo x vermelho passando por P2](fig:r05-f1)\n\nO movimento do centro de massa da atleta é o gráfico de uma parábola $y = f(x)$, e o ponto H é o vértice da parábola. Como $f(75) = 0$, temos também $f(-75) = 0$, pois o eixo $y$ foi colocado de modo que a parábola é simétrica com respeito a ele. Assim, $f(x) = a(x - 75)(x + 75)$. Temos ainda que $f(-50) = 125$, daí $a = -1/25$. Portanto, o ponto H tem coordenadas H = $(0, f(0)) = (0, 225)$. Como o eixo $x$ está localizado a uma altura de 64 cm, a altura do ponto com respeito ao chão é 2,89 m."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q07",
+   "numero": 7,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Atualmente, em substituição à escala Richter, a escala de magnitude e momento, denotada por $M_w$, é a utilizada para estimar a magnitude de todos os grandes terremotos. Para calcular $M_w$, é necessário conhecer o valor do momento sísmico, $M_0$, o qual é estimado a partir de registros de sismógrafos. O valor de $M_w$ se relaciona com o valor de $M_0$ pela fórmula\n\n$$M_w = -10{,}7 + \\frac{2}{3}\\log M_0.$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é o menor valor de $M_0$ para o qual $M_w \\geq 0$? Justifique.",
+     "resposta_oficial": "Para que $M_w \\geq 0$ devemos ter\n\n$$-10{,}7 + \\frac{2}{3}\\log(M_0) \\geq 0.$$\n\nPortanto, $\\frac{2}{3}\\log(M_0) \\geq 10{,}7$, e daí $\\log(M_0) \\geq 16{,}05$. Usando as propriedades de logaritmo, obtemos finalmente que $M_0 \\geq 10^{16{,}05}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em uma dada ocorrência sísmica, verificou-se que o valor de $M_w$ correspondia a $\\frac{1}{6}\\log M_0$. Nesse caso, quais são os valores de $M_0$ e $M_w$ ? Justifique.",
+     "resposta_oficial": "Se $M_w = \\frac{1}{6}\\log(M_0)$, então temos que\n\n$$-10{,}7 + \\frac{2}{3}\\log(M_0) = \\frac{1}{6}\\log(M_0).$$\n\nPortanto,\n\n$$10{,}7 = \\frac{1}{2}\\log(M_0)$$\n\ne daí $M_0 = 10^{21{,}4}$.\n\nUsando este valor de $M_0$ na equação $M_w = \\frac{1}{6}\\log(M_0)$, obtemos\n\n$$M_w = \\frac{1}{6}\\log(M_0) = \\frac{1}{6}\\log(10^{21{,}4}) = (21{,}4)/6 = 3{,}5666\\ldots$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q08",
+   "numero": 8,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Seja $Q$ um quadrado de lado medindo 21 cm.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere que $Q$ foi subdividido em 9 quadrados $Q_1,\\ldots,Q_9$, cujos lados medem 7 cm. Quantos triângulos distintos podem ser formados de modo que seus vértices sejam os centros dos quadrados $Q_1,\\ldots,Q_9$ dessa subdivisão? Lembre-se de que dois triângulos são distintos quando seus vértices não coincidem.",
+     "resposta_oficial": "A quantidade de combinações de 3 vértices quaisquer a partir dos 9 centros de quadrados é dada por $9!/(3!\\,6!) = 84$. Porém, nem toda combinação de 3 vértices produz um triângulo: vértices colineares devem ser retirados da conta. Como existem 8 conjuntos de vértices colineares (3 verticais, 3 horizontais e as duas diagonais), a resposta é 84 - 8 = 76."
+    },
+    {
+     "rotulo": "b",
+     "texto": "É possível escolhermos 10 pontos em $Q$ de modo que a distância entre quaisquer dois desses pontos seja maior do que 10 centímetros? Justifique.",
+     "resposta_oficial": "Considere a divisão de Q em 9 subquadrados. Pelo princípio da casa dos pombos, para colocarmos 10 pontos em Q, pelo menos um dos subquadrados precisa receber 2 pontos.\n\nComo a diagonal dos subquadrados mede $7\\sqrt{2} < 10$, temos que o décimo ponto necessariamente estará a uma distância menor do que 10 de pelo menos um dos pontos, logo não é possível colocar 10 pontos em Q."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q09",
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "O vento Föhn, presente nas grandes cordilheiras (Alpes, Andes, Montanhas Rochosas), ocorre quando uma camada de vento é forçada a subir uma montanha, sofrendo expansão devido à redução da pressão atmosférica e resfriando-se a ponto de atingir a condensação (Figura A). Na sequência, o ar desprovido de umidade desce do outro lado a encosta, sofrendo compressão e aquecimento; isso resulta em um vento quente e seco. A Figura B, no espaço de respostas, mostra uma expansão de um gás ideal (linha contínua de $i$ a $f$) num diagrama de pressão $P$ *versus* volume $V$.\n\n![Figura A: desenho de uma montanha com ar frio e úmido subindo pela encosta, condensação no alto e ar quente e seco descendo do outro lado](fig:p11-c1)\n\n![Figura B: diagrama de pressão P (10⁴ Pa) versus volume V (10⁴ m³) com a expansão do ponto i, em θi = 7 °C, até o ponto f, e um retângulo de escala de 1,0 × 10⁴ Pa por 0,5 × 10⁴ m³](fig:p11-c3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a temperatura $\\theta_f$, em graus Celsius ($^\\circ\\text{C}$), do gás no ponto $f$ do diagrama da Figura B?\n\nDado: $T(\\text{K}) - \\theta(^\\circ\\text{C}) \\simeq 273$.",
+     "resposta_oficial": "Do diagrama da figura B encontramos para os pontos $i$ e $f$:\n\n$$\\begin{cases} P_i = 10{,}0 \\times 10^4\\ \\text{Pa} \\\\ V_i = 12{,}0 \\times 10^4\\ \\text{m}^3 \\\\ T_i = \\left(\\theta_i(^\\circ\\text{C}) + 273\\right)\\ \\text{K} = (7 + 273)\\ \\text{K} = 280\\ \\text{K} \\end{cases} \\qquad \\text{e} \\qquad \\begin{cases} P_f = 7{,}0 \\times 10^4\\ \\text{Pa} \\\\ V_f = 15{,}0 \\times 10^4\\ \\text{m}^3 \\end{cases}$$\n\nUsando a Lei dos gases perfeitos:\n\n$$\\frac{PV}{T} = nR = cte \\Rightarrow \\frac{P_iV_i}{T_i} = \\frac{P_fV_f}{T_f} \\Rightarrow T_f = \\left(\\frac{P_f}{P_i}\\right)\\left(\\frac{V_f}{V_i}\\right)T_i = \\left(\\frac{7}{10}\\right) \\times \\left(\\frac{15}{12}\\right) \\times 280\\ \\text{K} = \\frac{7}{2} \\times \\frac{280}{4}\\ \\text{K} = 245\\ \\text{K}$$\n\nAssim: $\\theta_2(^\\circ\\text{C}) = 245 - 273 \\Rightarrow \\theta_2 = -28\\ ^\\circ\\text{C}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é o trabalho realizado pelo gás na expansão (linha contínua) entre os pontos $i$ e $f$ do diagrama da Figura B?",
+     "resposta_oficial": "![Figura B anotada pela banca: diagrama P versus V com linhas vermelhas em V = 12,0 e V = 15,0 e tracejada em P = 7,0, com os valores 8 e 42 e a área A sob a curva de i a f](fig:r06-f1)\n\n$W_{if}$ é numericamente igual a $A$.\n\n$$W_{if} = (42 + 8) \\times 0{,}5 \\times 10^4 \\times 1{,}0 \\times 10^4 = 2{,}5 \\times 10^9\\ \\text{J}$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q10",
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Vários dispositivos eletrônicos (*mouses*, *joysticks* etc.) fazem uso do Efeito Hall. A Figura A mostra o esquema de um fluxômetro empregado para medir a vazão $Z$ de um líquido (volume que atravessa a seção reta da tubulação por unidade de tempo) que usa esse princípio: o escoamento do líquido na tubulação gira uma turbina junto com um ímã, o que gera uma diferença de potencial ($V_{\\text{Hall}}$) numa fita condutora.\n\n![Figura A: esquema do fluxômetro, com a fita condutora ao lado da turbina de raio R, que contém um ímã (N, S), sobre a tubulação de área A com a velocidade do líquido](fig:p12-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com a rotação do ímã do fluxômetro, a diferença de potencial $V_{\\text{Hall}}$ varia conforme ilustrado na Figura B no espaço de respostas, sendo máxima quando o polo norte do ímã aponta para a fita. Sendo $A = 70\\ \\text{cm}^2$ a área da seção reta da tubulação e $R = 3{,}0\\ \\text{cm}$ o raio externo da turbina, calcule a vazão $Z$ do líquido. Assuma que a velocidade do líquido, $\\vec{v}_{\\text{liq}}$, seja constante e uniforme e de módulo igual ao da velocidade da extremidade da turbina.\n\n![Figura B: gráfico de VHall em função do tempo t (ms), de 0 a 180 ms, com curva senoidal](fig:p12-c3)",
+     "resposta_oficial": "$$\\begin{cases} Z = A\\left|\\vec{v}_{\\text{liq}}\\right| \\\\ \\left|\\vec{v}_{\\text{liq}}\\right| = \\left|\\vec{v}_{\\text{ext\\_turb}}\\right| = \\omega R \\\\ \\omega = \\dfrac{2\\pi}{T} \\end{cases} \\Rightarrow Z = A\\dfrac{2\\pi}{T}R = 6\\dfrac{AR}{T}$$\n\n$$\\begin{cases} A = 70 \\times 10^{-4}\\ \\text{m}^2 \\\\ R = 3{,}0 \\times 10^{-2}\\ \\text{m} \\\\ \\text{Da figura B: } T = 120\\ \\text{ms} = 12 \\times 10^{-2}\\ \\text{s} \\end{cases} \\Rightarrow Z = 6\\dfrac{\\left(70 \\times 10^{-4}\\ \\text{m}^2\\right) \\times \\left(3{,}0 \\times 10^{-2}\\ \\text{m}\\right)}{12 \\times 10^{-2}\\ \\text{s}} = 105 \\times 10^{-4}\\ \\text{m}^3/\\text{s} = 10{,}5\\ \\text{litros/s}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A Figura C mostra uma fita de largura $L = 3{,}0\\ \\text{mm}$ conduzindo corrente elétrica na presença do campo magnético $\\vec{B}$ que sai do papel. A força magnética $\\vec{F}_B$ desvia as cargas elétricas ($q = -1{,}6 \\times 10^{-19}\\ \\text{C}$) responsáveis pela corrente, acumulando-as nas bordas da fita. Isso dá origem à diferença de potencial $V_{\\text{Hall}}$, ao campo elétrico $\\left(\\vec{E}_{\\text{Hall}}\\right)$ e a uma força elétrica $\\vec{F}_{E,\\text{Hall}}$ oposta a $\\vec{F}_B$. Quase instantaneamente o equilíbrio de forças se estabelece e as cargas passam a seguir em linha reta, cessando o acúmulo nas bordas da fita. Para a condição de equilíbrio em que $V_{\\text{Hall}} = 1{,}5 \\times 10^{-7}\\ \\text{V}$, quanto vale $\\left|\\vec{F}_B\\right|$ ?\n\n![Figura C: fita condutora de largura L com sinais de mais na borda direita e de menos na esquerda, campo B saindo do papel, carga q, forças FB e EHall para a esquerda, corrente elétrica para baixo e voltímetro VHall](fig:p12-c2)",
+     "resposta_oficial": "No equilíbrio de forças:\n\n$$\\left|\\vec{F}_B\\right| = \\left|\\vec{F}_{E\\_\\text{Hall}}\\right| \\quad \\text{e} \\quad \\left|\\vec{F}_{E\\_\\text{Hall}}\\right| = |q|\\left|\\vec{E}_{\\text{Hall}}\\right| = |q|\\left(\\dfrac{V_{\\text{Hall}}}{L}\\right)$$\n\nAssim:\n\n$$\\left|\\vec{F}_B\\right| = |q|\\left(\\dfrac{V_{\\text{Hall}}}{L}\\right) = \\left(1{,}6 \\times 10^{-19}\\ \\text{C}\\right) \\times \\left(\\dfrac{1{,}5 \\times 10^{-7}\\ \\text{V}}{3{,}0 \\times 10^{-3}\\ \\text{m}}\\right) = 8{,}0 \\times 10^{-24}\\ \\text{N}.$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q11",
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O *Ingenuity*, enviado ao planeta Marte pela NASA, foi o primeiro helicóptero, de pequenas dimensões, a operar fora da atmosfera terrestre. Na superfície de Marte, a aceleração gravitacional tem módulo dado por $g_\\text{Marte} \\simeq 4\\ \\text{m/s}^2$, e a pressão atmosférica é muito menor do que na superfície da Terra. Isso impõe desafios adicionais ao voo de pequenos helicópteros, hoje de uso corriqueiro na atmosfera terrestre (*drones*).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Um pequeno helicóptero desloca-se em movimento horizontal, retilíneo e uniforme, com velocidade de módulo $v_0 = 6{,}0\\ \\text{m/s}$ e a uma altura $h = 8{,}0\\ \\text{m}$ a partir da superfície de Marte. Em dado momento, o helicóptero solta uma pequena massa que carregava, deixando-a cair livremente. Qual é o deslocamento horizontal dessa pequena massa desde que se desprendeu do helicóptero até atingir o solo marciano?",
+     "resposta_oficial": "Movimento horizontal: $x(t) = v_0\\,t$\n\nMovimento vertical: $y(t) = h - \\frac{1}{2}\\,g_\\text{Marte}\\,t^2$\n\nAo atingir o solo marciano $y(t) = 0 \\Rightarrow t_q = \\sqrt{\\frac{2h}{g_\\text{Marte}}} = \\sqrt{\\frac{2 \\times 8{,}0\\ \\text{m}}{4\\ \\text{m/s}^2}} = 2\\ \\text{s}$\n\nNesse instante o deslocamento horizontal será:\n\n$$x(t_q) = v_0\\,t_q = (6{,}0\\ \\text{m/s}) \\times (2\\ \\text{s}) = 12\\ \\text{m}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A força de sustentação de um helicóptero é proporcional à diferença de pressão $\\Delta P$ entre as partes inferior e superior da hélice. Um pequeno helicóptero, em dada condição de operação, sustenta uma massa total $m_\\text{Terra} = 800\\ \\text{g}$, incluindo seu próprio peso, permanecendo em movimento horizontal, retilíneo e uniforme, na atmosfera terrestre. Considere que esse helicóptero seja colocado para operar em Marte. Assuma, por simplicidade, que a diferença de pressão entre as partes inferior e superior da hélice, na mesma condição de operação, seja proporcional à própria pressão atmosférica, ou seja: $\\dfrac{\\Delta P_\\text{Marte}}{\\Delta P_\\text{Terra}} = \\dfrac{P_\\text{Marte}}{P_\\text{Terra}}$. Sendo $P_\\text{Terra} = 160\\,P_\\text{Marte}$, calcule a massa $m_\\text{Marte}$ que o helicóptero sustentaria em movimento horizontal, retilíneo e uniforme, na atmosfera de Marte.",
+     "resposta_oficial": "Movimento horizontal, retilíneo e uniforme, na Terra:\n\n$$\\left.\\begin{aligned}\\left|\\vec{F}_\\text{sust\\_Terra}\\right| &= m_\\text{Terra}\\,g_\\text{Terra}\\\\ \\text{e}\\\\ \\left|\\vec{F}_\\text{sust\\_Terra}\\right| &= \\mathit{cte}\\,\\Delta P_\\text{Terra}\\end{aligned}\\right\\} \\Rightarrow \\mathit{cte}\\,\\Delta P_\\text{Terra} = m_\\text{Terra}\\,g_\\text{Terra}$$\n\nEm Marte: $\\mathit{cte}\\,\\Delta P_\\text{Marte} = m_\\text{Marte}\\,g_\\text{Marte}$\n\nAssim:\n\n$$\\frac{m_\\text{Marte}\\,g_\\text{Marte}}{m_\\text{Terra}\\,g_\\text{Terra}} = \\frac{\\mathit{cte}\\,\\Delta P_\\text{Marte}}{\\mathit{cte}\\,\\Delta P_\\text{Terra}} \\Rightarrow m_\\text{Marte} = \\left(\\frac{\\Delta P_\\text{Marte}}{\\Delta P_\\text{Terra}}\\right)\\left(\\frac{g_\\text{Terra}}{g_\\text{Marte}}\\right) m_\\text{Terra}$$\n\nMas:\n\n$$\\frac{\\Delta P_\\text{Marte}}{\\Delta P_\\text{Terra}} = \\frac{P_\\text{Marte}}{P_\\text{Terra}} \\Rightarrow m_\\text{Marte} = \\left(\\frac{P_\\text{Marte}}{P_\\text{Terra}}\\right)\\left(\\frac{g_\\text{Terra}}{g_\\text{Marte}}\\right) m_\\text{Terra}$$\n\n$$m_\\text{Marte} = \\left(\\frac{1}{160}\\right) \\times \\left(\\frac{10\\ \\text{m/s}^2}{4\\ \\text{m/s}^2}\\right) \\times 800\\ \\text{g} = 12{,}5\\ \\text{g}$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q12",
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Cerca de cinquenta modalidades esportivas estiveram presentes nos Jogos Olímpicos de Paris em 2024, dentre elas o “tiro esportivo”. Outra dezena de modalidades, no gelo ou na neve, fez parte dos Jogos Olímpicos de Inverno de Pequim em 2022, dentre elas o “esqui alpino”, incluído nesses jogos em 1936.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em uma competição de esqui alpino, um atleta de massa total $m = 90\\ \\text{kg}$, incluindo os esquis, desce, com velocidade constante, um plano inclinado que forma um ângulo $\\theta = 37^\\circ$ com a horizontal. O coeficiente de atrito cinético entre o esqui e o gelo é $\\mu_\\text{c} = 0{,}05$. Qual é o módulo da força de resistência do ar, $\\left|\\vec{F}_\\text{res, ar}\\right|$, paralela ao plano inclinado, que age sobre o atleta na descida?\n\nDados: $\\text{sen}\\,37^\\circ = 0{,}6$; $\\cos 37^\\circ = 0{,}8$; $\\text{tg}\\,37^\\circ = 0{,}75$.",
+     "resposta_oficial": "Atleta com velocidade constante: $\\vec{F}_\\text{resultante} = 0$\n\n$\\parallel$ ao plano inclinado: $mg\\,\\text{sen}\\,\\theta - |\\vec{F}_\\text{atr}| - |\\vec{F}_\\text{res\\_ar}| = 0$\n\n$\\perp$ ao plano inclinado: $|\\vec{N}| - mg\\cos\\theta = 0$\n\nAlém disso: $|\\vec{F}_\\text{atr}| = \\mu_c\\,|\\vec{N}|$\n\nDessa forma: $|\\vec{F}_\\text{res\\_ar}| = mg\\,\\text{sen}\\,\\theta - \\mu_c\\,mg\\cos\\theta = mg\\,(\\text{sen}\\,\\theta - \\mu_c\\cos\\theta)$\n\n$$|\\vec{F}_\\text{res\\_ar}| = (90\\ \\text{kg}) \\times (10\\ \\text{m/s}^2) \\times [0{,}6 - 0{,}05 \\times 0{,}8] = (900\\ \\text{N}) \\times (0{,}6 - 0{,}04) = (900\\ \\text{N}) \\times (0{,}56)$$\n\n$$|\\vec{F}_\\text{res\\_ar}| = 504\\ \\text{N}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em uma competição de tiro esportivo um atirador usa protetores auriculares que atenuam a intensidade sonora em $\\beta = 40\\ \\text{dB}$. Um disparo ocorre, tomando como referência os ouvidos do atirador, a uma distância dada por $r_0 = 0{,}6\\ \\text{m}$. Considere que a intensidade sonora $I(r)$ para um espectador situado a uma distância $r$ ao ponto de disparo é dada por $I(r) = \\dfrac{\\mathit{cte}}{r^2}$. A que distância do disparo deve estar o espectador para que ele ouça o tiro com intensidade sonora equivalente àquela ouvida pelo atirador que usa protetores auriculares?\n\nDado: A atenuação em decibéis (dB) de uma onda sonora, cuja intensidade é reduzida de $I(r_0)$ para $I(r_1)$, é dada por\n\n$$\\beta = (10\\ \\text{dB}) \\times \\log_{10}\\left(\\frac{I(r_0)}{I(r_1)}\\right).$$",
+     "resposta_oficial": "$$\\beta = (10\\ \\text{dB}) \\times \\log\\left(\\frac{I(r_0)}{I(r_1)}\\right) = 40\\ \\text{dB} \\Rightarrow \\log\\left(\\frac{I(r_0)}{I(r_1)}\\right) = 4 \\Rightarrow \\frac{I(r_0)}{I(r_1)} = 10^4 \\ \\text{ou}\\ \\ I(r_1) = \\frac{I(r_0)}{10^4}$$\n\nSubstituindo $I(r_1) = \\dfrac{\\mathit{cte}}{r_1^2}$ e $I(r_0) = \\dfrac{\\mathit{cte}}{r_0^2}$:\n\n$$\\frac{\\mathit{cte}}{r_1^2} = \\frac{\\mathit{cte}}{10^4\\,r_0^2} \\Rightarrow r_1 = \\sqrt{10^4}\\,r_0 = 100\\,r_0 = 100 \\times 0{,}6\\ \\text{m} = 60\\ \\text{m}.$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q13",
+   "numero": 13,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nas Olimpíadas de 2024, os atletas foram avaliados – com o emprego de metodologias modernas e conceitos de Física – em diferentes modalidades esportivas, para análise dos movimentos e diagnose de desempenho.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Nos saltos ornamentais, os atletas saltam da ponta da prancha, causando uma flexão que os impulsiona para cima. A Figura A ilustra a relação entre a força aplicada pelos atletas e o deslocamento gerado na prancha, a qual atua como uma mola sobre o atleta. Considere uma perda por atrito de 10% na energia potencial elástica. Qual a altura vertical máxima que um atleta de massa $m = 72\\ \\text{kg}$ atinge ao flexionar a prancha de modo a deslocar sua ponta de uma distância $\\Delta x = 40\\ \\text{cm}$ em relação à sua posição de repouso?\n\n![Figura A: gráfico de pontos da força (10³ N) em função do deslocamento (cm)](fig:p15-c1)",
+     "resposta_oficial": "Através do gráfico obtemos a constante de mola do trampolim\n\n$$k = \\text{coef. angular} = \\frac{y_f - y_i}{x_f - x_i} = \\frac{(8000 - 4000)\\ \\text{N}}{(0{,}4 - 0{,}2)\\ \\text{m}} = 20.000\\ \\text{N/m} \\qquad F = -k.x$$\n\nA energia potencial elástica do trampolim é:\n\n$$E_{el} = \\frac{k.\\Delta x^2}{2} = \\frac{k}{2}\\left(x_f^2 - x_i^2\\right) = \\frac{20.000}{2}\\,[(-0{,}4)^2 - 0) = 1.600\\ \\text{J}$$\n\nconsiderando uma perda de 10% $\\rightarrow$ $E_{el10\\%} = (1.600 - 160) = 1440\\ \\text{J}$\n\nA energia potencial gravitacional quando o atleta é projetado para cima é:\n\n$$E_{pot} = m.g.h = 72x10xh = 720h$$\n\nPor conservação de energia:\n\n$$E_{el10\\%} \\sim E_{pot} \\rightarrow m.g.h = -\\frac{k.\\Delta x^2}{2}$$\n\n$$h = -\\frac{k.\\Delta x^2}{2mg} = \\frac{1.440\\ \\text{J}}{720} = 2\\ \\text{m}$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Câmeras em diferentes posições facilitam a análise dos movimentos e trajetórias nas diferentes modalidades esportivas. Algumas câmeras usam polarizadores para facilitar a visualização do objeto em movimento, com a redução de reflexões vindas das vizinhanças. A função dos polarizadores é otimizada quando essas reflexões indesejadas ocorrem na condição em que o raio refletido e o raio refratado formam um ângulo de $90^\\circ$. Neste caso, o ângulo de incidência é conhecido como ângulo de Brewster $(\\theta_\\text{B})$. A Figura B, no espaço de respostas, mostra um raio que incide na interface entre o ar e um meio de índice de refração $n_2$. O ângulo de incidência do raio é $\\theta_1 = \\theta_\\text{B} = 60^\\circ$. Calcule o índice de refração $n_2$.\n\nDados: $\\text{sen}\\,60^\\circ = 0{,}87$; $\\cos 60^\\circ = 0{,}50$; $\\text{tg}\\,60^\\circ = 1{,}73$.\n\n![Figura B: raio incidente com ângulo θ₁, raio refletido com ângulo θ′₁ e raio refratado com ângulo θ₂ na interface entre n₁ = 1 (ar) e o meio n₂; ângulo reto indicado entre o raio refletido e o raio refratado](fig:p15-c3)",
+     "resposta_oficial": "$\\theta_B + \\theta_2 = 90^0$. Ao aplicarmos a lei de Snell: $n_1.\\text{sen}\\,\\theta_1 = n_2.\\text{sen}\\,\\theta_2$\n\nPortanto, $1 \\times \\text{sen}\\,\\theta_B = n_2 \\times \\text{sen}\\,\\theta_2 = n_2 \\times \\text{sen}(90^0 - \\theta_B) = n_2 \\times \\cos\\theta_B$\n\nlogo, $n_2 = \\dfrac{\\text{sen}\\,60^\\circ}{\\cos 60^\\circ} = \\text{tg}\\,60^\\circ = 1{,}73$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q14",
+   "numero": 14,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Quando colocamos água em um copo, ele passa a atuar como uma lente cilíndrica. Ao posicionarmos o objeto atrás do copo com água, as características da imagem dependem de sua posição, a exemplo do que acontece com uma lente delgada. Como observado na Figura A, a imagem produzida é real, invertida e maior que o objeto.\n\n![Figura A: duas fotografias de um copo, sem água (à esquerda) e com água (à direita), com setas vermelhas e os rótulos “ar” e “água”](fig:p16-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "As posições do centro de curvatura e do foco de uma lente delgada estão representadas no eixo óptico ilustrado na Figura B no espaço de respostas. Para que a imagem produzida pela lente seja real, invertida e maior que o objeto, faça o que se pede:\n\ni) represente uma lente delgada no ponto O, explicitando se ela é divergente ou convergente.\nii) posicione o objeto corretamente, representando-o como uma seta apontando para cima, com a base no eixo óptico.\niii) usando o comportamento de dois raios notáveis, encontre a imagem com as características acima, representando-a como uma seta apontando para baixo e com a base no eixo óptico.\n\n*Campo de resolução:*\n\n![Figura B: eixo óptico horizontal com os pontos C′, F′, O, F e C, sobre uma malha quadriculada](fig:p16-c2)",
+     "resposta_oficial": "![Esquema da resposta esperada: eixo óptico com os pontos 2F′, F′, O, F e 2F, lente convergente em O, objeto, raios notáveis e imagem](fig:r09-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere agora uma lente divergente delgada com distância focal $f = -5\\ \\text{cm}$. Um objeto está posicionado a uma distância $p = 45\\ \\text{cm}$ dessa lente. Qual é o aumento linear transversal $A$ da imagem gerada?",
+     "resposta_oficial": "$f$ = distância focal\n\n$p$ = distância do objeto\n\n$p'$ = distância da imagem\n\n$$\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'} \\ \\rightarrow\\ -\\frac{1}{5} = \\frac{1}{p'} + \\frac{1}{45} \\ \\rightarrow\\ \\frac{1}{p'} = -\\left(\\frac{1}{45} + \\frac{1}{5}\\right) = -\\left(\\frac{45+5}{45 \\times 5}\\right) = -\\left(\\frac{50}{225}\\right)$$\n\n$$p' = -\\left(\\frac{225}{50}\\right) = -4{,}5$$\n\nPortanto,\n\n$$A = -\\frac{p'}{p} = -\\frac{(-4{,}5)}{45} = 0{,}1$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q15",
+   "numero": 15,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A exposição do ser humano à radioatividade é possível desde que feita de forma segura e em ambiente controlado. Os radiofármacos, que são medicamentos radioativos, são utilizados, em medicina, tanto no diagnóstico quanto no tratamento de doenças. Atualmente, o $^{18}_{\\;9}\\text{F}$ é um dos principais radionuclídeos utilizados, sob a forma do fármaco 2−desoxi−2−($^{18}\\text{F}$) fluoro−D−glicose ($^{18}\\text{F}$-FDG), em exames de diagnóstico de doenças no cérebro, como tumores. Uma vez aplicado, esse radiofármaco entra na célula e, com isso, torna lesões, como tumores, mais visíveis ao exame de tomografia por emissão de pósitrons (partículas $\\beta^+$), gerando o núcleo estável $^{18}_{\\;8}\\text{O}$. Nesse processo de decaimento, o tempo de meia-vida do $^{18}_{\\;9}\\text{F}$ é de aproximadamente 110 minutos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A instrução para a realização desse exame informa que o paciente deve permanecer 1 hora em repouso depois da administração intravenosa do material radioativo $^{18}\\text{F}$-FDG. Imediatamente após o período de repouso, o exame é realizado e finalizado em 30 minutos. Ao final do exame, o paciente é liberado sem restrições dietéticas ou de radioproteção. Considerando as informações dadas até então, construa, no espaço quadriculado em a) no campo de respostas, a curva de decaimento do radiofármaco. Determine a porcentagem restante de radiofármaco, em relação à quantidade inicial de 100%, 4 horas depois de o paciente ter finalizado o exame.\n\n*Campo de resolução:*\n\n![gráfico quadriculado vazio, com eixo vertical “Porcentagem” e eixo horizontal “Tempo (min)”](fig:p17-c1)",
+     "resposta_oficial": "![curva de decaimento do radiofármaco: porcentagem em função do tempo (min), com pontos em 0, 110, 220 e 330 min](fig:r10-c1)\n\nO tempo decorrido desde o momento em que o paciente recebe a medicação até o final do exame é de 90 min. Depois que ele deixa a clínica, devem-se somar 240 min (4h) ao tempo de 90 minutos. Portanto, o tempo total a ser considerado é de 330 minutos. Sendo o tempo de meia vida do $^{18}_{\\;9}\\text{F}$ de 110 min, a porcentagem restante do radiofármaco será de 12,5 % (3 tempos de meia vida)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando o que está no texto principal e nas informações do item a), faz-se a seguinte afirmação: um radiofármaco para diagnóstico por imagem deve emitir uma radiação “incapaz de atravessar o corpo humano e, ao contrário de um radiofármaco terapêutico (para tratamento), deve promover o mínimo possível de interações lesivas aos tecidos vivos”. Assinale, no campo de resposta, se você concorda totalmente, se concorda parcialmente ou se discorda totalmente dessa afirmação. Justifique sua escolha.\n\n*Campo de resolução:* ☐ concorda totalmente  ☐ concorda parcialmente  ☐ discorda totalmente",
+     "resposta_oficial": "☐ concorda totalmente  ☒ concorda parcialmente  ☐ discorda totalmente\n\nPara ser utilizado em exames de diagnóstico, a radiação deve ser capaz de atravessar o corpo humano, ou escapar do corpo humano, a fim de ser detectada por equipamentos externos e específicos para esta finalidade. Portanto, a primeira parte da afirmação está incorreta (incapaz de atravessar o corpo humano). Uma vez que o objetivo do radiofármaco para diagnóstico por imagem é somente identificar as lesões presentes (diagnóstico), é fundamental que a radiação emitida não cause danos às células saudáveis do corpo humano. Portanto, a segunda parte da afirmação está correta."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q16",
+   "numero": 16,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Ao construir uma moradia, uma pessoa leva em conta uma série de parâmetros para a escolha dos materiais: preço, conforto, durabilidade, beleza e harmonia na composição do projeto final. Se for mais além, ela também pode usar, ainda no que diz respeito à escolha dos materiais, critérios como as <u>condições de produção</u> e os <u>potenciais impactos ambientais</u> desses materiais ao longo de seu ciclo de vida. Com isso, as escolhas feitas podem contribuir para uma maior sustentabilidade do planeta.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere 2 tipos de telhas: a de fibrocimento e a sanduíche (formada por alumínio e isopor). (i) Informe os recursos naturais utilizados para fabricação de cada tipo de telha. (ii) Comente os potenciais impactos da produção dessas telhas nas mudanças climáticas.",
+     "resposta_oficial": "i) Recursos naturais utilizados. Telha de fibrocimento: calcário e silicatos (cimento) e fibras (tanto de origem vegetal quanto mineral). Telha sanduíche: bauxita – mineral fonte de óxido de alumínio (utilizado na produção do alumínio metálico) e petróleo (derivados, como o isopor, espuma).\nii) Impactos da produção nas mudanças climáticas. Telha de fibrocimento: alta demanda energética, geração de $\\text{CO}_2$, extrativismo mineral e vegetal. Telha sanduíche: mineração da bauxita, extração de petróleo, alta demanda energética."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A figura abaixo foi obtida de um estudo sobre telhas de aço revestidas com zinco (galvanizadas). Considerando as informações contidas na figura a seguir, (i) aponte os parâmetros de análise considerados nesse caso e (ii) cite duas conclusões que podem ser obtidas.\n\n![gráfico da vida útil (anos) em função de gramas de zinco/m², com quatro curvas: Rural, Marinha, Industrial e Industrial severa, sob o título “Ambiente de exposição indicado nas curvas”](fig:p18-c1)",
+     "resposta_oficial": "i) Parâmetros de análise considerados: quantidade de zinco/m², vida útil das telhas de aço galvanizadas e o ambiente de exposição (ataque químico).\nii) 1) Quanto maior a quantidade de zinco/m², maior é o tempo de vida útil das telhas de aço galvanizadas, para um mesmo ambiente de exposição.\n2) Quanto mais severo o ambiente de exposição, menor a vida útil da telha, para uma mesma quantidade de zinco/m²."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q17",
+   "numero": 17,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Células a combustível microbianas (CCMs) surgiram para contribuir como uma fonte alternativa para a geração de energia. As CCMs utilizam microrganismos eletroativos para transferir elétrons de moléculas orgânicas para um eletrodo. Dentre os substratos orgânicos utilizados para alimentar o compartimento anódico das CCMs e produzir eletricidade, destaca-se o uso da urina humana como fonte alternativa para geração de energia elétrica. Dos sólidos dissolvidos na urina, a ureia é o componente majoritário, podendo chegar a 23 gramas por litro. Como cada pessoa urina em média 2 litros por dia, a produção mundial média de urina chega aos $1{,}6\\text{x}10^{10}$ litros/dia, tornando-se um recurso inestimável.\n\nDados:\nFórmula da ureia $(\\text{NH}_2)_2\\text{CO}$\nNúmero de oxidação (NOX) do nitrogênio na ureia = -3",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A figura ao lado ilustra uma CCM. Em seu compartimento anódico, há um microrganismo agregado ao eletrodo, onde ocorre a transformação da ureia em alguns produtos, entre eles a água. Essa água produzida também sai do sistema, através de uma membrana semipermeável, juntamente com a água da própria urina. Observando a figura ao lado (i) escreva a equação química da reação global que ocorre na CCM e (ii) determine quantos mols de elétrons passam pelo circuito na transformação total de 1 mol de ureia.\n\n![esquema de uma célula a combustível microbiana: compartimento com urina humana e microrganismos agregados ao eletrodo, membrana, entrada de urina humana (ureia), saída de CO₂ e N₂, entrada de O₂, saída de H₂O e circuito com “Bioeletricidade”](fig:p19-c1)",
+     "resposta_oficial": "$(\\text{NH}_2)_2\\text{CO}_{(\\text{aq})} + \\tfrac{3}{2}\\,\\text{O}_{2(\\text{g})} \\rightarrow \\text{CO}_{2(\\text{g})} + \\text{N}_{2(\\text{g})} + 2\\,\\text{H}_2\\text{O}_{(\\text{l})}$\n(ii) O estado de oxidação do N na ureia é -3 e a ureia é convertida em $\\text{N}_2$, onde o estado de oxidação do N é zero. Portanto, a conversão de 1 N da ureia para 1 N do $\\text{N}_2$ envolve 3 elétrons. Como a reação envolve a conversão de 2 N, portanto, 6 mols de elétrons passam pelo circuito na transformação total de 1 mol de ureia."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A ureia, presente na urina, pode ser convertida em fertilizante na forma de íons amônio, se adicionada ao solo. Considerando as informações do texto inicial, qual seria a massa de íons amônio obtida a partir da conversão de 100% da ureia da urina de uma pessoa em um dia?",
+     "resposta_oficial": "$$(\\text{NH}_2)_2\\text{CO} \\rightarrow 2\\ \\text{NH}_4^+$$\n\nMassas molares aproximadas: ureia 60 g/mol, íon amônio: 18 g/mol. Uma pessoa urina, em média, 2 litros por dia e cada litro de urina contém 23 g de ureia. Portanto, em um dia, uma pessoa urina 46 g de ureia.\n\n$$\\begin{array}{ccc}(\\text{NH}_2)_2\\text{CO} & \\rightarrow & 2\\ \\text{NH}_4^+ \\\\ 60 & & 2 \\times 18 \\\\ 46 & & x \\end{array}$$\n\n$$x = 27{,}6\\ \\text{g}\\ \\text{NH}_4^+$$"
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q18",
+   "numero": 18,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Recentemente, um grupo de pesquisadores da Embrapa investigou a associação entre a produtividade de carne bovina e o balanço de carbono gerado para quatro tipos diferentes de manejo, conforme tabela abaixo. Na determinação do balanço de carbono ($\\text{CO}_2$ total), os pesquisadores levaram em conta, além da própria emissão de $\\text{CO}_2$ e do seu sequestro pela plantação consorciada de árvores, as emissões de metano entérico ($\\text{CH}_4$) e óxido nitroso ($\\text{N}_2\\text{O}$). A tabela abaixo informa alguns resultados alcançados, sendo que o $\\text{CO}_2$ total foi obtido pela diferença entre a quantidade de gases de efeito estufa removidos da atmosfera e a quantidade de gases de efeito estufa emitidos.\n\n| | **Pastagem irrigada com alta lotação** | **Pastagem sem irrigação com alta lotação** | **Pastagem sem irrigação com lotação média** | **Pastagem degradada** |\n|---|---|---|---|---|\n| **$\\text{CO}_2$ total (t $\\text{CO}_2$ ha$^{-1}$ ano$^{-1}$)** | −13,40 | 0,14 | 1,30 | − 6,23 |\n| **Produtividade de carne (kg ha$^{-1}$)** | 1386 | 867 | 656 | 221 |",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere que você seja um pecuarista que visa a maximizar seu rendimento financeiro, mas que ao mesmo tempo se preocupa em não impactar, com sua atividade econômica, o meio ambiente. Levando em conta esses pressupostos, assinale, no campo de respostas, a condição que seria a mais adequada em seu caso. Justifique sua resposta, levando em conta os dados da tabela acima e as informações do texto inicial.\n\n*Campo de resolução:*\n☐ Pastagem irrigada com alta lotação\n☐ Pastagem sem irrigação com alta lotação\n☐ Pastagem sem irrigação com lotação média\n☐ Pastagem degradada",
+     "resposta_oficial": "☐ Pastagem irrigada com alta lotação\n☒ Pastagem sem irrigação com alta lotação\n☐ Pastagem sem irrigação com lotação média\n☐ Pastagem degradada\n\nPara maximizar seu rendimento financeiro, a produtividade deve ser a maior possível, porém, o valor de $\\text{CO}_2$ total não deve ser negativo. Nessa condição, a quantidade de gases retirados da atmosfera é igual ou maior do que a quantidade emitida, não impactando o meio ambiente. A pastagem sem irrigação com alta lotação combina a maior produtividade com valor de $\\text{CO}_2$ total maior que zero."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cada gás do efeito estufa é capaz de reter calor em determinada intensidade. Tal capacidade pode ser comparada à capacidade do $\\text{CO}_2$ de realizar a mesma função, denominado $\\text{CO}_2\\text{eq}$. Para calcular o $\\text{CO}_2\\text{eq}$, basta multiplicar a quantidade de um gás de efeito estufa pelo seu potencial de aquecimento global (PAG). Na pesquisa feita pela Embrapa, para um mesmo manejo, duas metodologias (com diferentes valores de PAG) foram usadas para fazer a conversão da quantidade de gases $\\text{CH}_4$ e $\\text{N}_2\\text{O}$ em $\\text{CO}_2\\text{eq}$: **AR4** (PAG $\\text{CH}_4$ = 21, $\\text{N}_2\\text{O}$ = 310) e **AR5** (PAG $\\text{CH}_4$ = 27,75, $\\text{N}_2\\text{O}$ = 265). O valor do $\\text{CO}_2\\text{eq}$ ($\\text{CH}_4$ + $\\text{N}_2\\text{O}$) calculado por **AR4** foi menor do que o valor encontrado aplicando **AR5**. Considerando todas essas informações, qual gás foi emitido em maior quantidade neste manejo: $\\text{CH}_4$ ou $\\text{N}_2\\text{O}$? Explique.",
+     "resposta_oficial": "Com base nas informações fornecidas, temos:\n$\\text{CO}_2\\ \\text{eq (AR4)} = \\text{N}_2\\text{O} \\times 310 + \\text{CH}_4 \\times 21$\n$\\text{CO}_2\\ \\text{eq (AR5)} = \\text{N}_2\\text{O} \\times 265 + \\text{CH}_4 \\times 27{,}75$\n$\\text{CO}_2\\ \\text{eq (AR4)} < \\text{CO}_2\\ \\text{eq (AR5)}$\n\nIndependentemente da metodologia, o valor do PAG do $\\text{N}_2\\text{O}$ é muito superior ao valor do PAG do $\\text{CH}_4$. Assim, pequena quantidade de $\\text{N}_2\\text{O}$ impacta muito o valor do $\\text{CO}_2$ eq ($\\text{CH}_4$ + $\\text{N}_2\\text{O}$) enquanto o $\\text{CH}_4$ precisa estar em grande quantidade para impactar o valor do $\\text{CO}_2$ eq ($\\text{CH}_4$ + $\\text{N}_2\\text{O}$). Ao comparar as metodologias, observa-se que na AR5, o PAG do $\\text{N}_2\\text{O}$ é menor em relação a AR4 em 45 unidades enquanto o PAG do $\\text{CH}_4$ é maior em relação a AR4 em 6,75 unidades. Essas variações fazem com que o $\\text{CO}_2\\ \\text{eq (AR4)} < \\text{CO}_2\\ \\text{eq (AR5)}$; portanto, o gás que foi emitido em maior quantidade neste manejo é o $\\text{CH}_4$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q19",
+   "numero": 19,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A produção enzimática de hidrogênio a partir da glicose e água foi estudada do ponto de vista cinético e termodinâmico, revelando ser possível obter alto rendimento de $\\text{H}_2$ em condições suaves de reação: temperatura ambiente e pressão atmosférica. Com melhorias tecnológicas e integração com células de combustível, essa tecnologia também permitiria resolver alguns dos desafios associados ao armazenamento, à distribuição e à infraestrutura na economia baseada no $\\text{H}_2$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A figura ao lado mostra a velocidade instantânea de formação de hidrogênio e dióxido de carbono em função do tempo do processo estudado. A equação química que representa quantitativamente o resultado desse processo é dada por:\n\n$$\\text{C}_6\\text{H}_{12}\\text{O}_{6(\\text{aq})} + 6\\ \\text{H}_2\\text{O}_{(\\text{aq})} \\rightarrow 12\\ \\text{H}_{2(\\text{g})} + 6\\ \\text{CO}_{2(\\text{g})}$$\n\nLevando em conta essas informações, em que tempo a razão entre as velocidades instantâneas de formação dos produtos se iguala à razão entre seus coeficientes estequiométricos? Justifique.\n\n![gráfico da velocidade instantânea (mmol h⁻¹) em função do tempo (h), com uma curva contínua (H₂) e uma curva tracejada (CO₂)](fig:p21-c1)",
+     "resposta_oficial": "A estequiometria da equação química informa que a transformação de 1 mol de glicose leva à formação de 12 mols de $\\text{H}_2$ e 6 mols de $\\text{CO}_2$, o que corresponde a uma relação $\\text{H}_2/\\text{CO}_2$ igual a 2:1. A figura das velocidades instantâneas de formação dos produtos em função do tempo mostra que a velocidade instantânea de formação do $\\text{H}_2$ é o dobro da velocidade de formação do $\\text{CO}_2$ no tempo aproximado de 4 horas de reação, já que $v_{\\text{H}_2} = 0{,}42\\ \\text{mmol h}^{-1}$ e $v_{\\text{CO}_2} = 0{,}21\\ \\text{mmol h}^{-1}$, o que corresponde a uma relação de 2:1."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Do ponto de vista termodinâmico, para a discussão dos resultados os autores utilizam o diagrama de energia (aqui incompleto) fornecido no campo de respostas. A partir desse diagrama, resolva: (i) no decorrer do processo sob estudo, o meio reacional tenderia a um aumento ou a uma diminuição da temperatura? Justifique. (ii) Calcule o valor da entalpia molar da reação de formação da água.\n\n![diagrama de energia incompleto, com os níveis C₆H₁₂O₆ + 6 H₂O, 6 CO₂ + 12 H₂ e 6 CO₂ + 12 H₂O, e as variações ΔH° = +2808 KJ e ΔH° = −3430 KJ](fig:p21-c3)",
+     "resposta_oficial": "i) De acordo com o diagrama, a energia dos processos em que a energia dos reagentes se encontra num patamar abaixo do patamar dos produtos apresenta um sinal positivo (+), ou seja, são endotérmicas (absorvem energia), que é o que ocorre no processo sob estudo (produção de hidrogênio a partir de glicose). Portanto, o meio reacional tenderá a diminuir a sua temperatura com o tempo.\nii) A entalpia de formação da água é dada para a reação a partir de seus elementos na forma mais estável $\\text{H}_2$ + ½ $\\text{O}_2$ = $\\text{H}_2\\text{O}$. Conforme mostra o diagrama de energia, o processo $12\\ \\text{H}_{2(\\text{g})} + 6\\ \\text{O}_{2(\\text{g})} \\rightarrow 12\\ \\text{H}_2\\text{O}_{(\\text{aq})}$ tem ΔH = -3430 kJ. Assim, para 1 mol de água: ΔH = −3430/12 = −286 kJ/mol."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2025-2-cet-q20",
+   "numero": 20,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "De acordo com a ONU, i) um terço da população mundial não tem acesso a água potável, ii) as águas transfronteiriças são responsáveis por 60% dos fluxos de água doce do mundo e iii) nos últimos 50 anos os desastres relacionados à água representam 70% de todas as mortes relacionadas a desastres naturais.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "“As sociedades humanas estão mudando onde e como a água flui através da atmosfera. No entanto, tais alterações no ciclo atmosférico da água não estão sendo gerenciadas, nem se tem uma ideia real do rumo que estas alterações poderão tomar no futuro.” Essas afirmações fazem parte do artigo intitulado (em tradução livre) “*Céu seco: cenários futuros para modificações humanas do ciclo da água atmosférica*”, publicado na revista *Global Sustainability* em 2024. Num contexto próximo a esse, em 2023, outro artigo, dessa vez intitulado (também em tradução livre) “*Captação de água atmosférica: uma revisão de técnicas, desempenho, soluções de energia renovável e viabilidade*”, foi publicado na revista *Energy*. Considerando essas informações, comente de que forma os <u>objetivos do segundo artigo</u> i) confirmariam as <u>preocupações expressas no primeiro artigo</u> e ii) contemporizariam a principal preocupação expressa no <u>título do primeiro artigo</u>.",
+     "resposta_oficial": "A preocupação central do primeiro artigo diz respeito a ações humanas no ciclo da água; portanto, a captura da água atmosférica (segundo artigo) pode impactar ainda mais em um problema já existente em relação ao ciclo natural da água.\nii) Técnicas que permitem capturar água no estado gasoso da atmosfera (objetivo do segundo artigo) utilizando energia renovável e sustentável para suprir a escassez de água em locais de seca (céu seco)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Num dado sentido, a crise mundial da água pode se manifestar por “1) escassez de água, 2) excesso de água ou 3) água muito poluída”, em escala local ou global. No campo de resposta, na figura que representa o ciclo da água, atribua os números 1, 2 e 3 a três dos seis círculos que julgar mais apropriados. Os números só podem ser usados uma única vez. Dentre as atribuições 1, 2 e 3, em qual delas e de que forma a Química pode melhor contribuir para a solução desse problema? Exemplifique e explique sua resposta, levando em conta a sua atribuição dos números na figura oferecida no campo de respostas.\n\n*Campo de resolução:*\n\n![figura do ciclo da água, com os fluxos de precipitação, evapotranspiração, vegetação natural, irrigação natural, agricultura irrigada, indústria e cidade, e seis círculos vazios para receber os números](fig:p22-c3)",
+     "resposta_oficial": "![figura do ciclo da água com os números 1, 2 e 3 atribuídos a três dos seis círculos: 1 junto de vegetação natural, 2 junto de cidade e 3 no fim do fluxo que chega à água](fig:r13-c1)\n\nA intervenção da Química seria mais apropriada no item 3, ou seja, na prevenção e/ou tratamento da poluição, concebendo processos mais limpos e eficientes para o tratamento de poluentes (indústria, esgoto em cidade)."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  }
+ ]
+}

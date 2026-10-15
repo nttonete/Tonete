@@ -1024,6 +1024,117 @@
    }
   },
   {
+   "id": "unicamp-2025-2-cbs",
+   "vestibular": "unicamp",
+   "ano": 2025,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2025 – 2ª fase (2º dia: Ciências Biológicas e da Saúde)",
+   "caderno": "2º dia: Ciências Biológicas e da Saúde",
+   "fonte": {
+    "caderno": "2fase-dia2-cbs-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-cbs-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2025-2-cbs.json",
+   "total": 8,
+   "validas": 8,
+   "com_resposta": 8,
+   "materias": {
+    "biologia": 8
+   }
+  },
+  {
+   "id": "unicamp-2025-2-cet",
+   "vestibular": "unicamp",
+   "ano": 2025,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2025 – 2ª fase (2º dia: Ciências Exatas e Tecnológicas)",
+   "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+   "fonte": {
+    "caderno": "2fase-dia2-cet-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-cet-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2025-2-cet.json",
+   "total": 20,
+   "validas": 20,
+   "com_resposta": 20,
+   "materias": {
+    "historia": 1,
+    "sociologia": 1,
+    "matematica": 6,
+    "fisica": 6,
+    "quimica": 6
+   }
+  },
+  {
+   "id": "unicamp-2025-2-cha",
+   "vestibular": "unicamp",
+   "ano": 2025,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2025 – 2ª fase (2º dia: Ciências Humanas e Artes)",
+   "caderno": "2º dia: Ciências Humanas e Artes",
+   "fonte": {
+    "caderno": "2fase-dia2-cha-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia2-cha-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2025-2-cha.json",
+   "total": 17,
+   "validas": 17,
+   "com_resposta": 17,
+   "materias": {
+    "matematica": 3,
+    "sociologia": 1,
+    "filosofia": 1,
+    "historia": 6,
+    "geografia": 6
+   }
+  },
+  {
+   "id": "unicamp-2025-2-d1",
+   "vestibular": "unicamp",
+   "ano": 2025,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "Unicamp 2025 – 2ª fase (1º dia: Português, Literatura e questões interdisciplinares)",
+   "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+   "fonte": {
+    "caderno": "2fase-dia1-red-port-ing-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-dia1-port-ing-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/unicamp-2025-2-d1.json",
+   "total": 9,
+   "validas": 9,
+   "com_resposta": 9,
+   "materias": {
+    "portugues": 4,
+    "literatura": 1,
+    "biologia": 1,
+    "filosofia": 1,
+    "fisica": 2
+   },
+   "indisponiveis": [
+    4
+   ]
+  },
+  {
    "id": "unicamp-2026-2-cbs",
    "vestibular": "unicamp",
    "ano": 2026,

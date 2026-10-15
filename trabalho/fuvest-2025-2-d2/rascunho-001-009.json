@@ -1,0 +1,293 @@
+{
+ "edicao": "fuvest-2025-2-d2",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 1,
+   "codigo": "B01",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Diretor-Geral da OMS declara o surto de mpox uma emergência de saúde pública de importância internacional. Após o surgimento de uma nova variação de mpox, a sua rápida propagação no leste da República Democrática do Congo e a notificação de casos em vários países vizinhos, está claro que é necessária uma resposta internacional coordenada para deter esses surtos e salvar vidas.\n\nO vírus da mpox possui DNA como material genético, envolto em uma estrutura de proteínas, dentro de uma membrana lipoproteica, conforme esquema ao lado.\n\n![Esquema do vírus da mpox, com legendas apontando para lipídeos, proteínas, DNA e proteínas](fig:p03-f1)\n\nAté agosto de 2024, havia apenas uma vacina aprovada para uso contra a mpox na União Europeia e nos países do Espaço Econômico Europeu, assim como no Reino Unido, Estados Unidos, Suíça e Canadá. No Brasil, a Universidade Federal de Minas Gerais está desenvolvendo a primeira vacina contra mpox, utilizando vírus inativado.”\n\nDisponível em https://g1.globo.com/saude/noticia/2024/08/20/.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite uma forma de prevenção contra a mpox."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é a classe de moléculas específica do vírus que gera resposta imunológica em indivíduos vacinados? Justifique a sua resposta."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Que tipo de evento influencia o surgimento de novas variantes de vírus? Justifique a sua resposta."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 2,
+   "codigo": "B02",
+   "materia": "biologia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "Leia a tirinha e responda:\n\n![Tirinha em quatro quadros. Quadro 1: “No decorrer das eras, a Amazônia e o Cerrado mantiveram um delicado equilíbrio...”. Quadro 2: “Nos períodos mais secos, vastas áreas de Cerrado avançaram sobre a floresta...”. Quadro 3: “Já nos períodos úmidos, se deu o contrário...” e “E a floresta avançou sobre o Cerrado!”. Quadro 4: “Atualmente esse equilíbrio foi rompido...” e “E o agronegócio avança sobre os dois biomas!”](fig:p03-f2)\n\nDisponível em: @cerrado.em.quadrinhos.oficial (Instagram).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Além da Amazônia, o Cerrado faz fronteira com quais outros biomas terrestres brasileiros?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A tirinha faz referência a períodos úmidos e secos ao longo do tempo geológico. Considerando o período de um ano, como se apresenta o clima nas regiões centrais do Cerrado? Explique."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Com o desmatamento da floresta tem avançado o processo denominado de “savanização da Amazônia”. Cite uma maneira pela qual as mudanças climáticas globais causam a savanização da Amazônia e uma maneira pela qual a savanização desse bioma afeta as mudanças climáticas globais."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 3,
+   "codigo": "B03",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Pacientes com hemofilia B não produzem o fator IX de coagulação devido a uma mutação no gene que codifica esse fator localizado no cromossomo X. O tratamento mais antigo é a reposição semanal da proteína via corrente sanguínea. Atualmente, há duas opções para o tratamento da hemofilia B: o transplante de fígado, que é o órgão que produz o fator IX, ou a terapia gênica. Para que haja indicação do transplante de fígado, o paciente deve apresentar quadro de insuficiência hepática terminal. Os pacientes hemofílicos com insuficiência hepática que foram submetidos ao transplante foram curados das duas doenças. Em 2022, empresas de biotecnologia desenvolveram produtos que levam uma cópia do gene do fator IX diretamente ao fígado dos pacientes com hemofilia B. Uma cópia do gene do fator IX sem a mutação é encapsulado em vírus que entram especificamente nas células hepáticas, fazendo com que a pessoa passe a produzir o fator IX.\n\nA genealogia ao lado representa uma família em que ocorre hemofilia B.\n\n![Genealogia de uma família com hemofilia B, com legenda de homem portador do alelo mutante, homem não portador, mulher não portadora e mulher portadora](fig:p05-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A mulher III.3 está grávida do homem III.4. Já se sabe que o bebê é um menino. Qual é a probabilidade de esse bebê nascer com hemofilia B?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere que o homem I.1 recebeu transplante de fígado antes de II.2 ter sido concebida e que ele não apresenta mais os sintomas da hemofilia B. Nesse caso, qual será a probabilidade de o filho menino do casal III.3 x III.4 nascer com hemofilia B? Justifique a sua resposta."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Explique como os vírus carregando uma cópia do gene do fator IX podem fazer com que a pessoa passe a produzir o fator IX."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 4,
+   "codigo": "B04",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na Olimpíada de Paris, realizada em 2024, a atleta Victória Borges, da equipe de Ginástica Artística, apresentou um quadro de contratura muscular na panturrilha, que prejudicou o seu desempenho durante a apresentação. Nos episódios de contratura muscular, o músculo, ou um grupo de músculos, fica permanentemente contraído, levando à dor localizada. Várias são as causas que podem levar à contratura muscular, dentre elas lesões, falta ou excesso de atividade física, distúrbios neuromusculares.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No processo de contração muscular, quais são as principais proteínas contráteis envolvidas?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "No caso de a contratura muscular da Victória Borges ter ocorrido devido a um distúrbio neuromuscular, quais teriam sido os tecidos envolvidos nessa lesão?"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Um dos motivos de a contratura muscular ocorrer por excesso de atividade física é a falta de ATP (Trifosfato de Adenosina). Por que a falta de ATP pode levar à contratura muscular? Justifique a sua resposta."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 5,
+   "codigo": "B05",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O governo de São Paulo proibiu a venda de mariscos, ostras e mexilhões, na Baixada Santista, no litoral de São Paulo. O comércio de estoques desses alimentos, produzidos a partir de 30 de julho, foi proibido nas cidades de Itanhaém, Cananeia e Praia Grande. A medida acontece após amostras de água coletadas pela Companhia Ambiental do Estado de São Paulo (CETESB) apontarem quantidades da microalga *Dinophysis acuminata* acima do valor máximo permitido.\n\nDisponível em https://www.cnnbrasil.com.br/nacional/ (Adaptado).\n\nEssa notícia circulou nos principais veículos de imprensa na primeira quinzena do mês de agosto de 2024, prejudicando o setor de vendas de frutos do mar nas regiões litorâneas do estado de São Paulo.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quantos filos de animais são mencionados na notícia?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é o aspecto fisiológico que explica a proibição ocorrer apenas para os mariscos, ostras e mexilhões? Justifique a sua resposta."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Cite uma causa para o aumento da quantidade de microalgas no ambiente aquático e uma consequência de tal aumento para esse mesmo ambiente."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 6,
+   "codigo": "B06",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura representa a estrutura molecular do pigmento clorofila *a*.\n\n![Estrutura molecular da clorofila a, com átomo de magnésio ao centro do anel de porfirina e cadeia lateral longa](fig:p07-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "De que modo a clorofila *a* participa do processo de fotossíntese?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "De onde provém originalmente o magnésio presente nas moléculas de clorofila de folhas de uma angiosperma? Explique sucintamente como esse elemento chega até a folha."
+    },
+    {
+     "rotulo": "c",
+     "texto": "De maneira simplificada, afirma-se que *a fotossíntese produz glicose para a planta e libera oxigênio*. No processo fotossintético, a sequência de eventos é a mesma que aparece nessa frase, ou seja, primeiro a glicose é produzida e, em seguida, o gás oxigênio é liberado? Justifique a sua resposta sucintamente."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 7,
+   "codigo": "F01",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em seu projeto para uma feira de ciências, uma estudante decide reproduzir o experimento histórico de Joule sobre o “equivalente mecânico do calor”. Ela então monta o aparato esquematizado na figura ao lado. No experimento, a estudante deixa cair um bloco preso a uma corda que passa por uma roldana e cujo movimento faz girar pás que agitam o líquido contido em um calorímetro termicamente isolado.\n\n![Esquema do aparato: bloco preso a uma corda que passa por uma roldana e faz girar pás dentro de um calorímetro com líquido e termômetro](fig:p10-f3)\n\n**Note e adote:**\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.\nSuponha que a corda seja inextensível e que a roldana tenha massa desprezível.\nDespreze todos os atritos, exceto a resistência do líquido ao movimento das pás.\nDespreze as dimensões do bloco.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O bloco, de massa igual a 5 kg, cai com velocidade praticamente constante. Qual é a força de tração na corda?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Suponha que o bloco caia até o chão, partindo de uma altura de 50 cm. Entre o início e o final da queda, determine o trabalho mecânico realizado pela força peso sobre o bloco e a variação da energia potencial gravitacional do sistema formado pelo bloco e pela Terra."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Suponha agora que o bloco seja substituído por outro e que, durante a queda desse novo bloco, a força peso atuando sobre ele realize um trabalho de módulo igual a 70 J. Suponha ainda que o líquido no calorímetro tenha massa de 10 kg, que seu calor específico seja de $2000\\ \\text{J kg}^{-1}\\ \\text{K}^{-1}$ e que o termômetro utilizado pela estudante tenha precisão de 0,1 K. A estudante conseguirá medir a variação de temperatura do líquido provocada pela queda do bloco? Justifique a sua resposta."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 8,
+   "codigo": "F02",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um carro percorre uma estrada que passa por uma colina cujo formato, no trecho próximo do alto, é praticamente circular, como indicado na figura, em que o ponto C corresponde ao centro do círculo de raio $R = 90\\ \\text{m}$.\n\n![Colina de formato circular com um carro no alto; pontos A e B sobre a colina, centro C, raio R e ângulo θ entre os segmentos CA e CB](fig:p10-f4)\n\n**Note e adote:**\nAceleração da gravidade: $g = 10\\ \\text{m/s}^2$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No ponto mais alto da trajetória, a motorista do carro em movimento sente-se “mais leve” do que se estivesse sentada em um carro parado. Nessas condições, o módulo da força normal, $N$, sobre a motorista é maior, menor ou igual ao módulo de seu peso, $P$? Justifique a sua resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Calcule o tempo $\\Delta t$ necessário para que o carro percorra a distância entre os pontos A e B, indicados no desenho, supondo que sua velocidade tenha módulo constante e igual a 72 km/h e que o ângulo $\\theta$ seja igual a 2 radianos."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Calcule a máxima velocidade que o carro pode ter para que, no ponto mais alto da colina, não perca o contato com a pista."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 9,
+   "codigo": "F03",
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma membrana celular, situada entre o meio externo e o interior de uma célula, pode ser tratada de forma aproximada como um capacitor, cujas superfícies interna e externa apresentam excesso de ânions (cargas negativas) e de cátions (cargas positivas), respectivamente. Considere uma membrana celular cujas superfícies têm praticamente a mesma área $A = 1{,}2\\times10^{-9}\\ \\text{m}^2$ e densidades superficiais de carga de mesmo módulo $\\sigma = 7\\times10^{-4}\\ \\text{C/m}^2$.\n\n**Note e adote:**\nUma esfera de raio $R$ tem área superficial igual a $4\\pi R^2$ e volume $4\\pi R^3/3$.\nConsidere $\\pi \\simeq 3$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Tratando, de forma aproximada, a membrana celular como uma casca esférica de espessura desprezível frente ao raio, encontre o volume da “célula” que essa membrana delimita."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine, em coulombs, o valor do módulo da carga elétrica em cada superfície."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Supondo que as cargas das superfícies têm agora módulo igual a $7\\times10^{-14}\\ \\text{C}$ e que a diferença de potencial entre as superfícies externa e interna vale $V = 70\\ \\text{mV}$, encontre a capacitância da membrana."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "1": {
+   "itens": {
+    "a": "Não tocar nas feridas, evitar contato com pessoa infectada.",
+    "b": "Proteína/peptídeo. Após a imunização, a pessoa passa a produzir anticorpos que reconhecem as proteínas específicas dos vírus (ou células passam a produzir receptores que reconhecem as proteínas específicas do vírus expressas em células infectadas).",
+    "c": "Mutações. Os vírus que possuem mutações que conferem alguma vantagem se sobressaem e se fixam na população."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto. Aceitou-se também uso de máscaras, álcool 70% e sabão para higienização das mãos, isolamento/distanciamento social, vacinação, não compartilhar utensílios pessoais.\n- item b: 2 pontos. Aceitou-se também glicoproteína, ativação de linfócitos, ativação de células de memória ou memória imunológica.\n- item c: 2 pontos. Aceitou-se também alteração/mudança do material genético, seleção dos adaptados, variabilidade genética, possibilidade de gerar de novas proteínas/estruturas e resistência, características diferentes da original."
+  },
+  "2": {
+   "itens": {
+    "a": "O Cerrado faz fronteira, além da Amazônia, com a Caatinga, a Mata Atlântica e o Pantanal.",
+    "b": "O clima se apresenta sazonal, com verões chuvosos (geralmente entre outubro a março) e invernos secos (geralmente entre abril a setembro).",
+    "c": "A diminuição no volume e no regime de chuvas faz com que o clima amazônico fique mais seco, aumentando a savanização. Com isso, a capacidade da floresta de regular o clima e as temperaturas é afetada, de maneira que o planeta se torna mais quente."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também diminuição dos rios voadores, da evapotranspiração, amenização da temperatura pela cobertura florestal, diminuição do sequestro de $\\text{CO}_2$."
+  },
+  "3": {
+   "itens": {
+    "a": "$X^{H}X^{h}$ x $X^{H}Y$ = filhos homens $X^{H}Y$ ou $X^{h}Y$ 50% de chance de ter hemofilia.",
+    "b": "A probabilidade não muda, continua sendo 50%, pois as células germinativas não foram afetadas, o alelo mutado continua passando para as gerações seguintes.",
+    "c": "Os vírus integram o gene no genoma da célula hepática que transcreve o gene com sua maquinaria de transcrição."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "4": {
+   "itens": {
+    "a": "Actina e Miosina.",
+    "b": "Nervoso e Muscular.",
+    "c": "A falta de ATP pode impedir o relaxamento muscular, levando a uma contratura. O ATP é necessário para a ligação entre as proteínas envolvidas na contração muscular."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos. Aceitou-se também: interrupção do funcionamento da bomba de cálcio dos retículos sarcoplasmáticos impedindo a remoção do cálcio citoplasmático e, consequentemente, o relaxamento muscular; e interrupção do funcionamento de bombas de sódio/potássio da membrana celular, impedindo a repolarização da membrana plasmática e, consequentemente, o relaxamento muscular."
+  },
+  "5": {
+   "itens": {
+    "a": "Um (1).",
+    "b": "Porque os moluscos bivalves são filtradores. Dessa forma, acumulam e concentram os componentes presentes na água.",
+    "c": "Causas: Eutrofização; ou mudanças climáticas; ou temperaturas elevadas; estagnação da água; ou luz solar intensa; ou redução de predadores naturais das microalgas. Consequências: hipóxia; ou morte de organismos aquáticos; ou produção de toxinas; ou alterações na cadeia alimentar; ou impactos no turismo e recreação."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "6": {
+   "itens": {
+    "a": "A clorofila *a* tem sua função ligada à captação de energia solar (absorvendo comprimentos de onda específicos).",
+    "b": "O magnésio provém do solo por meio da absorção de água e nutrientes pelas raízes e chega às folhas pelo transporte de fluxo de massa pelo xilema.",
+    "c": "Não. Na fotossíntese, primeiro ocorre a liberação de oxigênio no processo de fotólise da água (ocorrido na chamada fase clara da fotossíntese), que libera $\\text{O}_2$, íons $\\text{H}^+$ e elétrons. Em seguida, na fase bioquímica (ou fase escura, ou fase enzimática), o $\\text{CO}_2$ captado da atmosfera pela planta é fixado por processos enzimáticos (ciclo de Krebs) e ocorre a produção de compostos orgânicos, em especial, glicose."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "7": {
+   "itens": {
+    "a": "Nessas condições, a força resultante sobre o bloco tem que ser nula. Como essa força é a soma da força peso $mg$, para baixo, com a força de tensão $T$ na corda, para cima, temos $T = mg = 5 \\times 10 = 50\\ \\text{N}$.",
+    "b": "Entre o início e o final da queda, tanto a força peso quanto o deslocamento do bloco apontam para baixo. Logo, o trabalho da força peso é $W = mgh = 50 \\times 0{,}5 = 25\\ \\text{J}$. Já a variação da energia potencial gravitacional é $\\Delta U = mg \\times 0 - mgh = -25\\ \\text{J}$.",
+    "c": "Pela conservação da energia, o trabalho $W$ transferido ao calorímetro, igual ao trabalho da força peso sobre o bloco, deve ser também igual à variação da energia interna do líquido, dada por $Mc\\Delta T$, sendo $M$ a massa de líquido, $c$ seu calor específico e $\\Delta T$ a variação de sua temperatura. Com isso, temos $W = Mc\\Delta T$, de modo que $\\Delta T = W/Mc = 70/20000 = 3{,}5 \\times 10^{-3}\\ \\text{K}$, que é muito menor do que a precisão do termômetro. Logo, a estudante não conseguirá medir a variação de temperatura."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "8": {
+   "itens": {
+    "a": "A sensação de “peso” ao sentarmos vem da força vertical de contato com o assento, ou seja, da força normal. Se a pessoa se sente mais leve, conclui-se que a força normal diminui (torna-se menor do que o peso)\n\nOutra argumentação possível é de que, como o carro está percorrendo uma circunferência com velocidade de módulo constante, deve haver uma resultante centrípeta atuando sobre a motorista. No ponto mais alto, essa resultante aponta verticalmente para baixo e equivale à soma vetorial do peso (para baixo) e da normal (para cima), de modo que o módulo desta última deve ser menor que o do peso.",
+    "b": "O tempo de percurso é $\\Delta t = \\Delta s / v$, sendo $\\Delta s = R\\theta$ o comprimento do arco de circunferência entre $A$ e $B$ e $v = 72\\ \\text{km/h} = 20\\ \\text{m/s}$. Logo, temos $\\Delta t = R\\theta / v = 90 \\times 2/20 = 9\\ \\text{s}$.",
+    "c": "O limite para que o carro perca o contato com a pista no alto da colina, ainda em trajetória localmente circular, ocorre quando a força normal se anula apenas naquele ponto. Isso implica que a força centrípeta é fornecida pela força gravitacional. Logo, temos $mg = mv^2/R$, ou seja, $v = \\sqrt{gR} = 30\\ \\text{m/s}$."
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 1 ponto.\n- item b: 2 pontos.\n- item c: 2 pontos."
+  },
+  "9": {
+   "itens": {
+    "a": "A área da superfície da membrana é $A = 4\\pi r^2 = 1{,}2 \\times 10^{-9}\\ \\text{m}^2$, de forma que o raio da membrana é:\n\n$$r = \\sqrt{A/4\\pi} \\simeq 10^{-5}\\ \\text{m}$$\n\nDessa forma, o volume da membrana é:\n\n$$V = \\frac{4\\pi r^3}{3} = 4 \\times 10^{-15}\\ \\text{m}^3$$",
+    "b": "Da definição de densidade superficial de carga, $Q = \\sigma A = 7 \\times 10^{-4} \\times 1{,}2 \\times 10^{-9} = 8{,}4 \\times 10^{-13}\\ \\text{C}$.",
+    "c": "Da relação entre capacitância, carga e diferença de potencial, temos:\n\n$$C = \\frac{Q}{V} = \\frac{7 \\times 10^{-14}}{70 \\times 10^{-3}} = 1 \\times 10^{-12}\\ \\text{F}$$"
+   },
+   "resposta": "**Considerações da banca corretora:**\n- item a: 2 pontos.\n- item b: 1 ponto.\n- item c: 2 pontos."
+  }
+ }
+}
