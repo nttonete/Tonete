@@ -1,0 +1,193 @@
+{
+ "edicao": "fuvest-2020-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 66,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "<em>Documentos da Agência Central de Inteligência Americana (CIA) mostram que o Brasil quis liderar a Operação Condor e só não conseguiu porque enfrentou resistência dos outros países membros – Argentina, Chile, Uruguai, Paraguai e Bolívia. (...) Os documentos da CIA fazem parte do Projeto de Desclassificação Argentina (</em>The Dirty War<em>, 1976-1983), do governo americano, e incluem mais de 40 mil páginas. Duas dezenas delas fazem menções ao Brasil (...).</em>\n\nMarcelo Godoy, *O Estado de São Paulo*. Abril/2019.\n\nA respeito da Operação Condor, é correto afirmar:",
+   "alternativas": {
+    "A": "Ainda que tivesse um alvo comum de repressão política, ela não implicava o alinhamento automático dos regimes ditatoriais de cada país.",
+    "B": "Ao encontrar resistência dos demais países que dela participavam, o Brasil passou a criticar publicamente suas ações.",
+    "C": "Em vista da oposição norte-americana à iniciativa, a cooperação entre os países membros não foi implantada.",
+    "D": "O governo ditatorial paraguaio assumiu a posição de liderança no acordo firmado entre seus países fundadores.",
+    "E": "Limitou-se à troca de informações sobre os opositores políticos que buscaram exílio em cada um desses países."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 80,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Segundo o Instituto Nacional de Meteorologia (INMET), foram registradas temperaturas reduzidas no mês de junho de 2016, tal como na madrugada do dia 13, em que se alcançou a mínima de 3,5°C na estação meteorológica da Serra da Cantareira, na cidade de São Paulo. Além disso, de acordo com o Instituto, também ocorreram precipitações acima da média, com mais de 200 mm no total daquele mês.\n\n![representação esquemática com uma massa de ar rotulada “Frio”, à esquerda, com uma seta apontando para a direita, e o ar rotulado “Quente”, à direita, com setas curvas subindo até nuvens altas com chuva](fig:p21-f7)\n\nDisponível em https://www.meteo.psu.edu/. Adaptado.\n\nAssociando a representação esquemática aos eventos descritos, analise as seguintes afirmações:\n\nI. O ar mais frio e denso eleva o ar mais quente, podendo originar nuvens com potencial para tempestades e precipitações.\nII. Instabilidades atmosféricas podem ser geradas em razão de o ar quente ser elevado rapidamente pelo sistema frontal.\nIII. O encontro de massas de ar estabiliza as condições atmosféricas com o avanço e dissipação da massa de ar tropical.\n\nÉ correto apenas o que se afirma em",
+   "alternativas": {
+    "A": "I.",
+    "B": "II.",
+    "C": "I e II.",
+    "D": "I e III.",
+    "E": "II e III."
+   },
+   "observacoes": ""
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "corrigida",
+   "notas": "Ênfase: na citação em itálico, “The Dirty War” está em redondo no caderno (destaque invertido de termo estrangeiro, não defeito); o rascunho punha tudo em itálico. Agora só “The Dirty War” fica sem itálico."
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "corrigida",
+   "notas": "Descrição da figura p21-f7 interpretava o esquema (“frente fria”, ar frio “avançando sob” o quente), o que antecipa a afirmação I. Trocada por descrição neutra dos rótulos e setas."
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
