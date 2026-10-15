@@ -338,6 +338,35 @@
    ]
   },
   {
+   "id": "fuvest-2023-2-d2",
+   "vestibular": "fuvest",
+   "ano": 2023,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "FUVEST (USP) 2023 – 2ª fase (2º dia: Matemática, Física, Química, Biologia, Geografia e História)",
+   "caderno": "2º dia: Matemática, Física, Química, Biologia, Geografia e História",
+   "fonte": {
+    "caderno": "2fase-dia2-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/fuvest-2023-2-d2.json",
+   "total": 36,
+   "validas": 36,
+   "com_resposta": 36,
+   "materias": {
+    "matematica": 6,
+    "fisica": 6,
+    "quimica": 6,
+    "biologia": 6,
+    "geografia": 6,
+    "historia": 6
+   }
+  },
+  {
    "id": "fuvest-2024-2-d1",
    "vestibular": "fuvest",
    "ano": 2024,

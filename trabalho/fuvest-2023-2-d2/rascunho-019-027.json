@@ -1,0 +1,293 @@
+{
+ "edicao": "fuvest-2023-2-d2",
+ "intervalo": [
+  19,
+  27
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 19,
+   "codigo": "B01",
+   "materia": "biologia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "O gráfico mostra a cobertura do solo em 1985 e 2021 em seis estados brasileiros. Em cada barra, o azul escuro representa vegetação nativa e o azul claro, ambientes antrópicos.\n\n![Gráfico de barras da porcentagem de cobertura do solo natural e antrópica em 1985 e 2021 nos estados de Rondônia, Pará, Acre, Paraná, Espírito Santo e Rio de Janeiro](fig:p20-c1)\n\nDados obtidos em: Projeto MapBiomas - Mapeamento Anual de Cobertura e Uso da Terra no Brasil - Coleção 7.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual bioma brasileiro predomina nos estados do Paraná, Espírito Santo e Rio de Janeiro?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite uma característica abiótica típica do bioma brasileiro no qual estão inseridos os estados de Rondônia, Pará e Acre? Cite uma consequência, para a biodiversidade, da perda da vegetação natural que vem ocorrendo nesse mesmo bioma."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Considerando os seis estados, cite os dois onde houve maior diminuição na proporção de vegetação nativa entre 1985 e 2021. Qual causa histórico-temporal explica a predominância de ambientes antrópicos já em 1985 nos estados do Paraná, Espírito Santo e Rio de Janeiro?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 20,
+   "codigo": "B02",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os rins em vertebrados são órgãos do sistema excretor e osmorregulador com estruturas filtrantes, chamadas néfrons, que são capazes de regular a quantidade de água e sais a serem excretados ou reabsorvidos. A função e a anatomia renal podem ser moduladas a depender das diferentes condições ambientais e fisiológicas.\n\n![Representação de células epiteliais (1 a 7) em diferentes segmentos de um néfron de rim de vertebrado: esquema do néfron com sete células epiteliais numeradas](fig:p20-c3)\n\nDisponível em https://basicmedicalkey.com/. Adaptado.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O que acontece com o volume de urina produzido quando há liberação do hormônio antidiurético (ADH)?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Observando a ilustração das células epiteliais de cada segmento do néfron (1 a 7), indique aquele que mais reabsorve o conteúdo filtrado. Justifique a sua resposta."
+    },
+    {
+     "rotulo": "c",
+     "texto": "O castor e o rato canguru são dois roedores com habitats distintos. O castor é semiaquático e vive nas proximidades de rios em florestas temperadas, já o rato canguru vive nos desertos da América do Norte. Considerando a relação entre a área ocupada pelos néfrons e a concentração da urina nessas duas espécies, complete o gráfico da folha de respostas com as respectivas posições ocupadas pelo rato canguru e pelo castor.\n\n*Campo de resolução:* ![Eixos vazios: concentração de urina no eixo vertical e proporção da área ocupada pelos néfrons no eixo horizontal](fig:p21-c2)"
+    }
+   ],
+   "observacoes": "O eixo horizontal do campo de resolução do caderno diz “Proporção da área ocupada pelos néfrons”; na figura da resposta oficial o mesmo eixo diz “Proporção da área ocupada pela medula renal”. Mantido cada um como impresso."
+  },
+  {
+   "numero": 21,
+   "codigo": "B03",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Um homem que vive com HIV desde a década de 1980 foi curado. Este é apenas o quarto caso do tipo no mundo. Ele recebeu um transplante de medula óssea para tratar uma leucemia que desenvolveu aos 63 anos, e o doador era naturalmente resistente ao vírus. A equipe médica responsável pelo seu tratamento decidiu que ele precisava do transplante para substituir sua medula óssea doente por células normais. O HIV entra nos glóbulos brancos do nosso corpo usando uma porta microscópica - uma proteína chamada CCR5. No entanto, algumas pessoas, incluindo o doador, têm mutações no gene *CCR5* que fecham essa porta e impedem a entrada do vírus.”\n\nDisponível em https://www.bbc.com/portuguese/geral-62324526. Adaptado.\n\nO HIV liga-se ao receptor CCR5 durante o processo de infecção dos glóbulos brancos. A mutação delta 32 do *CCR5* inviabiliza sua inserção na membrana plasmática impedindo a entrada do HIV conforme ilustrado a seguir:\n\n![Esquema do receptor CCR5 selvagem, com a sequência de trincas de bases e aminoácidos, e do receptor CCR5 com a mutação delta 32, com a deleção de trincas de bases; glóbulos brancos com e sem receptor CCR5 e vírus HIV](fig:p22-f1)\n\nDisponível em https://doi.org/10.1007/s40011-021-01237-y/. Adaptado.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite outra infecção sexualmente transmissível, além da AIDS."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um laboratório de análises clínicas possui amostras de sangue e mucosa bucal colhidas do paciente antes do transplante e após 1 ano do procedimento. Qual dessas 4 amostras é a indicada para confirmar a presença da mutação no gene *CCR5* no paciente curado? Justifique sua resposta."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Considerando a estrutura dos genes eucarióticos, a deleção de 32 pares de bases aconteceu em que parte do gene *CCR5*? Justifique sua resposta."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 22,
+   "codigo": "B04",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em um experimento, pesquisadores filmaram os folíolos da leguminosa *Mimosa pudica* (popularmente conhecida como “dormideira” ou “sensitiva”) ao serem estimulados mecanicamente no tempo 0 s e seu comportamento durante os 12 minutos seguintes, conforme a sequência de fotos:\n\n![Sequência de doze fotos de um folíolo de Mimosa pudica nos tempos 0 s, 0,5 s, 1,0 s, 1,5 s, 2,0 s, 5,0 s, 60 s, 90 s, 150 s, 270 s, 390 s e 720 s](fig:p22-c1)\n\nAdaptado de DOI: 10.1111/j.1365-3040.2009.02066.x\n\n**Note e adote:** Para o item b), considere os folíolos totalmente abertos e totalmente fechados como 0% e 100%, respectivamente.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O mecanismo do movimento de fechamento dos folíolos nas dormideiras difere de qualquer mecanismo de movimentos que ocorre em animais. Cite um tipo de célula envolvida em movimentos nos animais, mas que não está presente em plantas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Represente, nos gráficos da folha de respostas, as curvas resultantes dos processos de fechamento (Gráfico I) e de reabertura (Gráfico II) dos folíolos.\n\n*Campo de resolução:* ![Gráfico I, porcentagem de fechamento dos folíolos de 0 a 100 em função do tempo de 0 a 5 s, e Gráfico II, porcentagem de fechamento dos folíolos de 0 a 100 em função do tempo de 0 a 12 min, ambos vazios](fig:p23-c1)"
+    },
+    {
+     "rotulo": "c",
+     "texto": "O comportamento de fechamento dos folíolos tem um papel no balanço energético da planta, isto é, quanta energia a planta produz e gasta. Cite um processo envolvido nesse balanço energético e justifique sua resposta."
+    }
+   ],
+   "observacoes": "O campo de resolução do item a (“Tipo celular = ____”) não foi transcrito por ser só uma linha para escrever."
+  },
+  {
+   "numero": 23,
+   "codigo": "B05",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir mostra uma composição ideal e balanceada de sete grupos alimentares em uma dieta considerada saudável para uma pessoa de 30 anos (I) e os valores médios correspondentes às dietas que ocorrem em países da América Latina (II), Estados Unidos e Canadá (III) e África Subsaariana (IV). Esse mesmo estudo vai além e considera importante que a saúde humana seja conjugada à saúde planetária, para que haja uma produção sustentável de alimentos para uma população mundial crescente. Ou seja, é importante entender que a produção de alimentos tem uma demanda ambiental que deve ser considerada para se conseguir um sistema de produção global sustentável.\n\n![Figura com quatro conjuntos de picos coloridos, um para cada grupo alimentar, em gramas por dia: (I) dieta saudável, (II) América Latina e Caribe, (III) EUA e Canadá, (IV) África Subsaariana; os grupos da dieta saudável são amido, proteína animal, laticínios, vegetais, grãos integrais, frutas e proteína vegetal](fig:p24-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em qual grupo alimentar espera-se encontrar alimentos com maior teor de vitamina C (ácido ascórbico)?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Dentre os 21 picos das regiões II, III e IV, aponte aquele que apresenta a maior diferença proporcional em relação à dieta considerada como saudável (I). Cite uma consequência negativa à saúde que este consumo inadequado pode causar.\n\n*Campo de resolução:*\n\n| Região | Grupo alimentar | Consequência negativa do consumo excessivo |\n|---|---|---|\n| | | |"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Escolha dois grupos alimentares e cite, para cada um: um exemplo de produto deste grupo alimentar e um impacto ambiental decorrente da produção não sustentável deste produto. Utilize a tabela específica da folha de respostas.\n\n*Campo de resolução:*\n\n| Grupo alimentar | Produto | Impacto ambiental |\n|---|---|---|\n| | | |\n| | | |"
+    }
+   ],
+   "observacoes": "O campo de resolução do item a (linha em branco) não foi transcrito."
+  },
+  {
+   "numero": 24,
+   "codigo": "B06",
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Quem mora ou já visitou Alagoas sabe que o sururu é uma tradição na culinária local e uma fonte de renda para quem vive às margens da lagoa Mundaú. Mas o tradicional molusco alagoano sumiu da lagoa. Desde as chuvas de junho, o sururu não é mais encontrado, deixando pelo menos 3.000 pessoas sem o sustento gerado pela pesca e tratamento do molusco. Ao mesmo tempo, uma espécie de bivalve invasor (classe de moluscos à qual também pertence o sururu), com origem na América Central e distribuída em diversos ambientes estuarinos pelo mundo, ganhou terreno e ameaça tomar o local, numa disputa com a espécie nativa. Segundo um biólogo explicou, “há um grande risco de essa espécie invasora se adaptar bem e começar a disputar e dominar o alimento e o espaço do sururu, cuja população está em queda no número de indivíduos\". O bivalve invasor não tem valor de mercado e, quando pescado, é descartado de volta. O “sururu já vinha sofrendo com uma forte pressão por conta dos poluentes e pesca sem controle, mas as fortes chuvas em junho e julho em Alagoas diminuíram a salinidade da água e uma grande quantidade de matéria orgânica, lixo, esgotos, resíduos e principalmente sedimentos levados pelo rio Mundaú se acumularam lá”, afirma o biólogo. Sem o sururu, a comunidade está apreensiva porque a população da orla sofre com prejuízos e falta de renda, já que, na comunidade, uma parte das pessoas saía nos barcos para pescar e outra tratava o sururu em um processo chamado de despinicar (que é tirar o produto do molusco de dentro da casca).\n\nAdaptado de “Patrimônio de Alagoas, sururu sofre com espécie invasora e some de lagoa”, publicado no UOL em 28/08/2022.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A que parte do indivíduo corresponde o “produto do molusco” que é referido no texto no processo de “despinicar”?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Baseado no texto, cite, no espaço reservado na folha de respostas, um fator biótico e um fator abiótico, com suas respectivas causas, que estão relacionados ao desaparecimento do sururu na lagoa Mundaú.\n\n*Campo de resolução:*\n\n| | Fator | Causa |\n|---|---|---|\n| **Biótico** | | |\n| **Abiótico** | | |"
+    },
+    {
+     "rotulo": "c",
+     "texto": "Cite um risco para a saúde humana associado ao consumo de espécies de bivalves e uma forma de prevenir esse risco ao consumir essa iguaria."
+    }
+   ],
+   "observacoes": "No caderno, a aspa de fechamento depois de “indivíduos” é a aspa reta (\"), e não a curva; mantida como no original. O campo de resolução do item a (“produto” = ____) não foi transcrito."
+  },
+  {
+   "numero": 25,
+   "codigo": "G01",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Da fossa das Marianas, no oceano Pacífico, aos Alpes; das praias de Fernando de Noronha às grandes metrópoles, os microplásticos estão em toda parte, em geral sem serem vistos. Como tema de estudo é algo relativamente novo e ganhou impulso somente neste século, com mais força nos últimos anos.\n\nDisponível em https://revistapesquisa.fapesp.br/a-ameaca-dos-microplasticos/. Adaptado.\n\nBaseado no texto e em seus conhecimentos sobre os microplásticos, responda:",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite uma fonte de liberação dos microplásticos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique e explique em quais ambientes ocorre a maior concentração de microplásticos no planeta."
+    },
+    {
+     "rotulo": "c",
+     "texto": "Indique duas estratégias que podem ser adotadas pela população para reduzir a produção de microplásticos."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 26,
+   "codigo": "G02",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Observe o gráfico a seguir:\n\n![Gráfico de linhas da tendência da segurança e insegurança alimentar no Brasil, Escala Brasileira de Insegurança Alimentar (2004 a 2022), com as séries Segurança Alimentar, Insegurança Alimentar Leve, Moderada e Grave, em percentual, nas pesquisas PNDA 2004, PNDA 2009, PNDA 2013, POF 2018, I VIGISAN 2020 e II VIGISAN 2021/2022](fig:p26-c1)\n\nA partir dos seus conhecimentos sobre o tema,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "conceitue Segurança Alimentar."
+    },
+    {
+     "rotulo": "b",
+     "texto": "explique duas medidas socioeconômicas que poderiam ser adotadas para ampliar a segurança alimentar no Brasil."
+    },
+    {
+     "rotulo": "c",
+     "texto": "explique a tendência da Segurança Alimentar no Brasil entre 2004 e 2022, indicando uma causa para o aumento da Insegurança Alimentar grave a partir de 2013."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 27,
+   "codigo": "G03",
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Observe as imagens relativas a uma grande inundação que atingiu o Paquistão a aproximadamente 1000 km da cadeia montanhosa do Himalaia, em agosto de 2022.\n\n![Imagens de satélite da inundação no Paquistão em 04/08/2022 e 24/08/2022, com a área destacada em vermelho, e mapa de localização com Afeganistão, Irã, Paquistão, Índia e Mar arábico, com legenda de corpos d’água](fig:p28-c2)\n\nhttps://earthobservatory.nasa.gov/images/150279/devastating-floods-in-pakistan/.\nhttps://earthobservatory.nasa.gov/.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Indique o principal regime climático associado à inundação de tal magnitude."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite e explique outra causa que pode estar associada a essa grande inundação no Paquistão."
+    },
+    {
+     "rotulo": "c",
+     "texto": "A partir das imagens de satélite, indique e explique uma das características da paisagem que permitem apontar que a área destacada é suscetível à inundação."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "19": {
+   "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretação de gráficos, conhecimentos sobre os biomas e seus fatores bióticos e abióticos, além do impacto de ações antrópicas sobre a biodiversidade.",
+   "itens": {
+    "a": "O bioma predominante nos estados mencionados é a Mata Atlântica ou Floresta Atlântica ou Bioma Atlântico.",
+    "b": "Dentre as características abióticas, encontram-se pluviosidade, umidade, temperaturas e/ou radiação solar altas, baixa sazonalidade em variáveis climáticas, baixa amplitude térmica, clima tropical ou equatorial, solo pobre em nutrientes, lixiviado e/ou arenoso, solo rico em matéria orgânica na camada superficial, densa rede de drenagem, relevo plano, planície. Dentre as consequências para a biodiversidade, podem ser citadas a diminuição da biodiversidade, morte ou extinção dos organismos, falta de recursos para os organismos, migração para outros locais, aumento ou diminuição de interações biológicas com explicação da causa, perda e/ou fragmentação de habitats, perda de diversidade genética, estabelecimento de espécies invasoras, erosão, empobrecimento, ressecamento ou lixiviação do solo, desertificação, assoreamento de corpos d'água, mudanças no clima local, modificação e erosão de cadeias tróficas com a devida explicação do que causou, diminuição da decomposição, impossibilidade/dificuldade de regeneração da vegetação.",
+    "c": "Estados de Rondônia e Pará. Como causa histórico-temporal, o período colonial, com a ocupação antrópica do Brasil que se deu com maior intensidade nas regiões costeiras e onde houve extração de madeira, agricultura (café, cana de açúcar, ciclos desses produtos), urbanização e, posteriormente, industrialização, que tornaram esses estados mais densamente povoados, ao passo que apenas nas últimas décadas ocorreu maior ocupação humana e desenvolvimento nos estados amazônicos."
+   }
+  },
+  "20": {
+   "resposta": "**Objetivo da questão:** Avaliar a habilidade de representar fenômenos biológicos graficamente e interpretar esquemas representativos de diferenças morfológicas, conhecimentos de fisiologia renal, biologia celular e adaptações fisiológicas do organismo a diferentes condições ambientais.",
+   "itens": {
+    "a": "Há diminuição do volume de urina.",
+    "b": "Aquele que mais reabsorve o conteúdo filtrado está ilustrado no Segmento 1, caracterizado pelo aumento da superfície celular pelas microvilosidades da membrana celular.",
+    "c": "Em termos gráficos, a posição do castor deve ser no quadrante inferior esquerdo, e a do rato canguru deve ser no quadrante superior direito.\n\n![Gráfico com concentração da urina no eixo vertical e proporção da área ocupada pela medula renal no eixo horizontal: Castor no canto inferior esquerdo e Rato canguru no canto superior direito](fig:r44-c1)"
+   }
+  },
+  "21": {
+   "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretação de esquemas representativos, conhecimentos do código genético e as consequências de mutações para o organismo humano, e conhecimentos sobre ISTs.",
+   "itens": {
+    "a": "Outras infecções sexualmente transmissíveis são: sífilis, gonorreia, cancro mole, condiloma acuminado, candidíase, tricomoníase, herpes e HPV, entre outras.",
+    "b": "A amostra adequada para identificação da mutação é a de sangue após 1 ano do procedimento de transplante. Assim, a medula óssea transplantada terá produzido glóbulos brancos que terão a mutação no gene que codifica para o receptor.",
+    "c": "A mutação ocorreu no éxon ou região codificadora para o receptor. Tal mutação leva à formação de um polipeptídeo menor e não funcional."
+   }
+  },
+  "22": {
+   "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretar resultados de um experimento biológico e representá-los graficamente, avaliar os conhecimentos de processos celulares dos movimentos animal e vegetal, e aspectos de fisiologia vegetal.",
+   "itens": {
+    "a": "Variações conceitualmente equivalentes a “célula nervosa” ou “célula muscular”.",
+    "b": "![Gráfico I, curva de fechamento dos folíolos de 0 a 100% em 5 s, e Gráfico II, curva de reabertura dos folíolos de 100 a 0% em 12 min, com pontos marcados](fig:r48-c1)",
+    "c": "Respiração celular, que fornece energia para o movimento dos folíolos; fotossíntese, que é afetada pelo movimento dos folíolos (em termos de captação de luz solar); herbivoria, evitando gasto de energia para repor os tecidos danificados."
+   }
+  },
+  "23": {
+   "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretação de gráficos, conhecimentos sobre nutrição humana, impactos ambientais no contexto da produção agropecuária.",
+   "itens": {
+    "a": "O grupo alimentar é o das frutas.",
+    "b": "| Região | Grupo alimentar | Consequência negativa do consumo |\n|---|---|---|\n| África Subsaariana (IV) | Amido | Possibilidades de resposta: constipação, obesidade, aumento de peso, alteração na glicemia, diabetes, alteração do sistema imunológico, aumento de colesterol. |",
+    "c": "Possibilidades de resposta:\n\n| Grupo alimentar | Produto | Impacto ambiental |\n|---|---|---|\n| Amido | Milho | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, desgaste do solo; uso excessivo de água; perda de biodiversidade. |\n| Proteína animal | Carne (vaca, peixe, frango, porco) | Poluição ambiental; emissão de gás de efeito estufa, desmatamento; perda de áreas para pastagem, perda de biodiversidade. |\n| Laticínios | Leite/queijo e derivados | Poluição ambiental; emissão de gás de efeito estufa, desmatamento; perda de áreas para pastagem, perda de biodiversidade. |\n| Vegetais | Vegetais nomeados adequadamente | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, desgaste do solo; uso excessivo de água; perda de biodiversidade. |\n| Grãos | Grãos integrais nomeados adequadamente | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, desgaste do solo; uso excessivo de água; perda de biodiversidade. |\n| Frutas | Frutas nomeadas adequadamente | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, desgaste do solo; uso excessivo de água; perda de biodiversidade. |\n| Proteína vegetal | Soja | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, uso excessivo de água; perda de biodiversidade. |"
+   }
+  },
+  "24": {
+   "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretação de texto, conhecimentos sobre zoologia, ecologia e saúde pública.",
+   "itens": {
+    "a": "“produto” = corpo OU manto OU massa visceral.",
+    "b": "Preenchimento adequado da tabela, incluindo uma das alternativas (i-iii):\n\n| | Fator | Causa |\n|---|---|---|\n| **Biótico** | i - aumento de competição<br>ii - predação excessiva | i - espécie invasora<br>ii - exploração pesqueira, pressão socioeconômica |\n| **Abiótico** | i - diminuição da salinidade<br>ii - aumento dos sedimentos<br>iii - presença de poluentes/lixo | i - chuvas intensas<br>ii - carreamento pelo rio<br>iii - carreamento pelo rio ou falta de tratamento e/ou saneamento |",
+    "c": "Considerando-se que são animais filtradores, o risco estaria em ingerir elementos tóxicos presentes no ambiente poluído e que podem estar acumulados nesses animais. As formas de prevenção incluem: saneamento/tratamento de efluentes depositados na lagoa; monitoramento ambiental da poluição da lagoa; monitoramento microbiológico dos bivalves coletados; depuração adequada ou cozimento dos bivalves antes do consumo."
+   }
+  },
+  "25": {
+   "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos(as) candidatos(as) sobre temas relacionados a problemas ambientais contemporâneos e seus impactos na sociedade.",
+   "itens": {
+    "a": "Pneus de veículos e roupas sintéticas são os dois principais contribuintes para a poluição por microplásticos. Há também outras possibilidades que podem ser mencionadas, como derivados de plásticos de um modo geral. Diversos exemplos podem ser citados, como: pellets, indústria de plásticos, plataforma de petróleo, embalagens plásticas, roupas sintéticas (nylon, acrílico, poliéster, dry fit), carpetes ou tapetes plásticos, redes ou linhas de pesca, tarrafas, sacolas plásticas, telas de sombreamento, filmes para cobertura de solo, pneus, material plástico, tintas plásticas ou acrílicas, abrasivos encontrados em produtos de limpeza, copos\\pratos\\talheres plásticos, isopor, espuma, esponja, pneus, garrafas plásticas ou PET; especificar produtos de higiene ou cosméticos: pasta de dente, esfoliantes, gel de banho, peelings, desodorante, creme de barbear, produtos para higiene de bebês, fraldas e absorventes descartáveis, loções de banho de espuma, coloração de cabelo, esmaltes, repelentes de insetos e protetor solar, maquiagem, sombra para os olhos, blush em pó, base de maquiagem, rímel, glitter, purpurina; objetos feitos com plástico: eletrônicos, celulares; componentes plásticos: petrolato, polietileno tereftalato (PET), polipropileto (PP), poliestireno (PS), poliuretano (PU), polietileno (PE), policloreto de vinila (PVC), acetato de vinila (PVA), Bisfenol-A (BPA), náilon (PA), polímero politetrafluoretileno (PTFE ou TEFLON), polietileno de baixa densidade (PEBD ou LDPE).",
+    "b": "Em decorrência do descarte inadequado dos plásticos e seus derivados, a maior concentração de microplásticos ocorre em canais fluviais, rios, lagos e oceanos, ambientes marinhos, ambientes aquáticos, córregos, lagos, lagoas, litoral, áreas costeiras, praias, manguezais, fossas/cânions/depressões marinhas, recifes de coral.",
+    "c": "Dentre as estratégias que podem ser indicadas, encontram-se: diminuir o consumo de plásticos; adotar práticas de reciclagem, reutilizar e reaproveitar; descartar adequadamente plásticos e seus derivados; optar pelo consumo de produtos feitos em empresas ambientalmente responsáveis, com foco no retorno do plástico utilizado à cadeia de produção produção; consumir produtos com materiais biodegradáveis; substituir materiais plásticos por produtos de origem orgânica, biodegradável e/ou duráveis (vidro/metal); descartar de modo seletivo os resíduos plásticos; evitar o uso de tintas látex e acrílicas; utilizar fibra natural e algodão ao invés de tecidos sintético; usar embalagens de vidro ou papel; pressionar o governo para diminuir o uso do plástico."
+   }
+  },
+  "26": {
+   "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos(as) candidatos(as) sobre leitura e interpretação de gráficos e de conceitos básicos sobre segurança / insegurança alimentar.",
+   "itens": {
+    "a": "Segurança alimentar é a garantia de todas as dimensões que inibem a ocorrência da fome, como disponibilidade e acesso permanente de alimentos, pleno consumo sob o ponto de vista nutricional e sustentabilidade em processos produtivos (que podem incluir a conservação da agrobiodiversidade, solos, água, entre outros).",
+    "b": "Dentre as medidas que podem ser adotadas, é possível citar e explicar as seguintes: ampliação de programas de distribuição de renda, garantindo recursos financeiros para que a população tenha acesso aos alimentos; fomento à agricultura familiar, contribuindo para a ampliação da oferta de alimentos que constituem a cesta básica; consolidação dos programas de reforma agrária, ampliando o acesso à terra e a produção direta de alimentos; ampliação de programas de alimentação (merenda) escolar, permitindo acesso a todos os estudantes da educação básica a uma alimentação saudável com qualidades nutricionais; ampliação de programas de assistência social; melhoria na governança e a coordenação entre os setores e atores envolvidos no combate a fome; criação de políticas públicas para o controle do desperdício de alimentos; investimento em infraestrutura, como estradas, armazéns e portos; ampliação do acesso a financiamentos e créditos por agricultores e empreendedores rurais; estímulo à agricultura urbana; estabelecimento de políticas para o aumento da renda dos agricultores e o equilíbrio da oferta e demanda dos alimentos; isenção de impostos sobre os alimentos da cesta básica.",
+    "c": "Entre 2004 e 2013, houve um avanço do percentual de pessoas em segurança alimentar no país, o que começou a mudar a partir de 2013, com o avanço do percentual de pessoas em insegurança alimentar grave. Entre os fatores que podem estar associados a esse aumento, podemos citar o aumento do desemprego e subemprego; a diminuição dos programas de distribuição de renda; o pouco avanço dos programas de reforma agrária; a produção agrícola voltada, principalmente, para o mercado externo; menores incentivos à agricultura familiar, além dos impactos agravados pela pandemia da Covid-19, que aumentaram o desemprego, a pobreza, a inflação dos alimentos."
+   }
+  },
+  "27": {
+   "resposta": "**Objetivo da questão:** Verificar aptidão do(a) candidato(a) quanto ao conhecimento dos principais regimes climáticos sazonais, bem como leitura de imagens de satélite e dinâmicas naturais associadas às planícies fluviais.",
+   "itens": {
+    "a": "A esse tipo de inundação associa-se principalmente o Clima de Monções (Monções ou Regime de Monções ou ainda Chuva de Monções).",
+    "b": "Além do regime climático, outra causa para essa grande inundação é o derretimento de geleiras em razão das mudanças climáticas globais, o que aumenta o volume d’água dos rios nas planícies fluviais, incrementando a grande inundação.",
+    "c": "É possível identificar, nas imagens, a presença de meandros abandonados ao longo do curso fluvial meandrante principal e secundário do centro ao Leste das figuras, que coincidem com as áreas mais afetadas pela grande inundação, mostrando que a planície fluvial ou terrenos planos são de grande extensão em áreas naturalmente inundáveis. Também, no Oeste das figuras, é possível verificar o aumento do volume d’água dos rios após as intensas precipitações nos terrenos aplainados com a presença de grandes lagos."
+   }
+  }
+ }
+}

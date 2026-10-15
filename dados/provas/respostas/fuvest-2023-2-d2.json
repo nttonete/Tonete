@@ -1,0 +1,290 @@
+{
+ "1": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de resolver sistemas de equações e inequações e de modelar um problema real.",
+  "itens": {
+   "a": "A expressão da função é dada por $f_A(x) = 4x + 30$.",
+   "b": "De acordo com o enunciado,\n\n$$f_B(x) = \\begin{cases} 6x, & 0 \\le x \\le 30, \\\\ 2x + 120, & 30 < x \\end{cases}$$\n\nDisso, decorrem duas possibilidades:\nPara $0 \\le x \\le 30$, temos $4x + 30 \\le 6x$ se, e somente se, $15 \\le x \\le 30$.\nPara $x > 30$, temos $4x + 30 \\le 2x + 120$ se, e somente se, $30 \\le x \\le 45$.\nO intervalo pedido é, portanto, $[15, 45]$.",
+   "c": "Denotando por $x \\in [0, 200]$ o peso entregue pela empresa B, precisamos encontrar as soluções da equação\n\n$$f_A(200 - x) + f_B(x) = 850.$$\n\nNovamente, temos duas possibilidades:\nPara $x \\in [0, 30]$, devemos ter $800 - 4x + 30 + 6x = 850$, isto é, $x = 10$.\nPara $x \\in [30, 200]$, devemos ter $830 - 4x + 2x + 120 = 850$, isto é, $x = 50$.\n\n| Peso da empresa A | Peso da empresa B |\n|---|---|\n| 10 | 190 |\n| 50 | 150 |"
+  }
+ },
+ "2": {
+  "resposta": "**Objetivo da questão:** Avaliar a capacidade de analisar um polinômio de segundo grau a partir de seus coeficientes e de relacionar com propriedades algébricas",
+  "itens": {
+   "a": "Os valores são: $a = 1, b = c = 0$",
+   "b": "Para se obter o valor de $c$, temos $f(x) = -x^2 + 4x + c$, $V = (2, 4+c)$ (vértice de $f$), $A = (2, 0)$ e $B = 2 + \\sqrt{4+c}$ é a maior raiz. Assim,\n\n$$32 = \\frac{(4+c)\\sqrt{4+c}}{2}, \\quad c = 12.$$",
+   "c": "Do enunciado, temos $f(x) = 3x^2 + bx - 8$, $\\Delta = b^2 + 96$, raízes $x_i = \\frac{-b \\pm \\sqrt{b^2+96}}{6}$.\n\nA maior raiz é estritamente positiva e a menor raiz é estritamente negativa. A equação $f(g(t))$ admite solução real se, e somente se, $f$ possui ao menos uma raiz no intervalo $[-1, 1]$.\n\n$$x_1 = \\frac{-b - \\sqrt{b^2+96}}{6} \\ge -1 \\ \\text{se, e somente se,} \\ b \\le -5.$$\n\n$$x_2 = \\frac{-b + \\sqrt{b^2+96}}{6} \\le 1 \\ \\text{se, e somente se,} \\ b \\ge 5.$$"
+  }
+ },
+ "3": {
+  "resposta": "**Objetivo da questão:** Avaliar a compreensão da linguagem matemática e medir o conhecimento de combinatória, probabilidade e conceitos de funções injetoras e sobrejetoras.",
+  "itens": {
+   "a": "O número de funções possíveis é igual a $4^4 = 256$.",
+   "b": "Permutando 0 par: 1 opção (identidade).\nPermutando 1 par: $\\frac{6 \\times 5}{2} = 15$ combinações.\nPermutando 2 pares: $\\frac{\\frac{6 \\times 5}{2} \\times \\frac{4 \\times 3}{2}}{2} = 45$ combinações.\nPermutando 3 pares: $\\frac{\\frac{6 \\times 5}{2} \\times \\frac{4 \\times 3}{2}}{6} = 15$ combinações.\nTotal: 76 funções.",
+   "c": "O diagrama em árvore a seguir ilustra as sequências sem repetição e que **não** possuem ponto fixo.\n\n![Diagrama em árvore com números nos nós, partindo de 2 (3,4,5,6)](fig:r19-c1)\n\nEntre parênteses, estão as opções que são análogas, em número de casos. Cada nível da árvore representa o possível valor da função em um número, começando do 1, no nível superior, e terminando em 6, no nível inferior. Cada nó é feito escolhendo algum valor diferente do nível correspondente e que ainda não apareceu na sequência. Por exemplo: o valor de $f(1)$ pode ser 2,3,4,5 ou 6. Se escolhemos $f(1) = 2$ (e os outros casos são análogos), podemos ter $f(2) = 1$ ou $f(2) = 3$ (ou 4,5,6, que são casos análogos). Somando todas essas combinações, não se esquecendo de multiplicar pelo número de possibilidades análogas em cada nó, obtêm-se 265 funções sem ponto fixo. Como o total de funções bijetoras é $6! = 720$, são $720 - 265 = 455$ funções com ponto fixo. Logo, a probabilidade é $455/720$, ou $91/144$."
+  }
+ },
+ "4": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento de geometria analítica, trigonometria e progressão geométrica, a capacidade de reconhecer padrões e a compreensão da linguagem matemática.",
+  "itens": {
+   "a": "Considere o triângulo retângulo de vértices no centro de $C_1$, no ponto em que $s$ tangencia $C_1$ e em $P$; temos\n\n$$\\cos(60^\\circ) = \\frac{4}{x_0} \\Leftrightarrow x_0 = 8.$$\n\nComo o diâmetro de $C$ é igual a $4 + x_0$, seu raio é igual a 6.",
+   "b": "Para cada $n \\ge 1$, seja $r_n$ o raio de $C_n$ e considere, de forma análoga ao item anterior, o triângulo retângulo de vértices no centro de $C_n$, no ponto em que $s$ tangencia $C_n$ e em $P$. Argumentando como antes, concluímos que a distância do centro de $C_{n+1}$ a $P$ é igual a $2r_{n+1}$. Agora, como a distância entre os centros de $C_n$ e $C_{n+1}$ é igual à soma de seus raios e os triângulos considerados são semelhantes, obtemos\n\n$$\\frac{2r_{n+1}}{r_n + 3r_{n+1}} = \\frac{r_{n+1}}{r_n} \\Leftrightarrow \\frac{r_{n+1}}{r_n} = \\frac{1}{3}.$$",
+   "c": "A área pedida é a diferença entre a área de $C$ e a soma das áreas de $C_n$, $n \\ge 1$. De acordo com o item a), a área de $C$ é igual a $36\\pi$ u.a. Por outro lado, a soma das áreas de $C_n$, $n \\ge 1$, corresponde à soma da PG de primeiro termo $16\\pi$ e razão $\\frac{1}{9}$, isto é, $\\sum_{n=1}^{\\infty} \\frac{16\\pi}{9^{n-1}} = \\frac{16\\pi}{1 - \\frac{1}{9}} = 18\\pi$. A resposta é, portanto, $18\\pi$ u.a."
+  }
+ },
+ "5": {
+  "resposta": "**Objetivo da questão:** Avaliar a compreensão do uso da linguagem matemática para resolver problemas reais, a capacidade de visualização de formas geométricas espaciais, o conhecimento de trigonometria e a resolução de problemas de otimização.",
+  "itens": {
+   "a": "Do enunciado, temos:\n$63 \\le 2 \\cdot 16 + L \\le 64 \\Leftrightarrow 31 \\le L \\le 32$.\nLogo, os possíveis valores de $L$ são todos entre 31 cm e 32 cm.",
+   "b": "Dividindo 252 por 16 e 18, obtemos, respectivamente, 15,75 e 14. Como os degraus devem ser todos iguais e o número deles deve ser inteiro, podemos ter 14 ou 15 degraus, resultando em $A = 18$, no primeiro caso, e $A = 16{,}8$, no segundo. Para a soma das larguras ser a maior possível, $L$ deve ser o maior possível e, portanto, $2A + L = 64$, o que dá $L = 28$, no primeiro caso, e $L = 30{,}4$, no segundo. Logo, o segundo caso resulta no maior comprimento, pois tem mais degraus e com maior largura. Assim, a escada terá 15 degraus, cada um com altura de 16,8 cm e largura de 30,4 cm.",
+   "c": "A tangente da inclinação da escada será dada por $x = \\frac{A}{L}$. Dividindo a primeira desigualdade por $L$ e usando que $\\frac{1}{L} = \\frac{x}{A}$, obtemos $\\frac{63x}{A} \\le 2x + 1 \\le \\frac{64x}{A}$. Os casos extremos são $\\frac{63x}{18} = 2x + 1$ e $\\frac{64x}{16} = 2x + 1$. Resolvendo essas equações, obtemos as soluções $x = \\frac{1}{2}$ (inclinação mínima) e $x = \\frac{2}{3}$ (inclinação máxima)."
+  }
+ },
+ "6": {
+  "resposta": "**Objetivo da questão:** Avaliar o conhecimento em números complexos, sistemas de equações e geometria analítica, bem como a habilidade de manipular expressões algébricas.",
+  "itens": {
+   "a": "$b = -2$",
+   "b": "A solução da equação é dada por $x = \\frac{3}{2}$ e $y = -2$",
+   "c": "Manipulando a equação dada, obtemos\n\n$$a(x^2 + y^2) + 2(x - y) + 1 = 0$$\n\n$$a\\left(x^2 + \\frac{2}{a}x + \\frac{1}{a^2}\\right) + a\\left(y^2 - \\frac{2}{a}y + \\frac{1}{a^2}\\right) - \\frac{2}{a} + 1 = 0$$\n\n$$a < 2, a \\ne 0$$"
+  }
+ },
+ "7": {
+  "resposta": "**Objetivo da questão:** Avaliar conhecimentos de potência, energia e habilidade de leitura de gráficos e de realização de cálculos de grandezas físicas envolvendo potências de 10.",
+  "itens": {
+   "a": "A potência total consumida por todas as TVs é $P = (75 \\times 10^6) \\times 6\\ \\text{W} = 450 \\times 10^6\\ \\text{W}$.\nIsso corresponde a uma fração $f = (450 \\times 10^6)/(15 \\times 10^9) = 3 \\times 10^{-2}$, ou 3% da potência de Itaipu.",
+   "b": "Por conservação da energia, temos que, para uma dada massa de água $m$, a energia cinética final é igual à energia potencial inicial $\\frac{mv^2}{2} = mgh$. Logo, $v = \\sqrt{2gh} = \\sqrt{20 \\times 20} = 20\\ \\text{m/s}$.",
+   "c": "Para uma resistência ôhmica, vale a Lei de Ohm $V = Ri$, ou seja, $i = V/R$. O máximo valor da corrente alternada corresponde ao máximo valor da fem, que, segundo o gráfico, é igual a 180 V. Logo $i_{\\text{max}} = 180/40 = 4{,}5\\ \\text{A}$."
+  }
+ },
+ "8": {
+  "resposta": "**Objetivo da questão:** Avaliar conhecimentos de potência, energia e habilidade de leitura de gráficos e de realização de cálculos de grandezas físicas envolvendo potências de 10.",
+  "itens": {
+   "a": "![Esquema com a estrela A e a estrela B, o espelho esférico, o ponto F, os raios 1 e 2 e, em magenta, os dois raios refletidos pelo espelho](fig:r25-c1)",
+   "b": "A altura da imagem estará no ponto de cruzamento dos dois raios refletidos. Por relações trigonométricas ou pelas “lei dos espelhos esféricos”(equação de Gauss), temos que a distância $D_I$ em que a imagem se forma é dada por\n\n$$\\frac{1}{d} = \\frac{1}{D_I} + \\frac{1}{D} \\Rightarrow \\frac{D_I}{D} = \\frac{d}{D - d}.$$\n\nPor semelhança de triângulos,\n\n$$A = \\frac{H_I}{H} = \\frac{D_I}{D} = \\frac{d}{D - d}.$$",
+   "c": "Se o segundo espelho tiver distância focal $2d$, o aumento será:\n\n$$A_2 = \\frac{2d}{D - 2d}.$$\n\nde modo que a razão entre os aumentos será:\n\n$$\\frac{A_2}{A} = 2\\,\\frac{(D - d)}{D - 2d}.$$"
+  }
+ },
+ "9": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos de hidrostática e do comportamento de gases ideais.",
+  "itens": {
+   "a": "Calcula-se a densidade total do conjunto mergulhador+cilindro, que resulta em 9/8 kg/L = 1,125 kg/L, de onde se conclui que, sendo essa densidade maior do que a da água (1,0 kg/L), o conjunto **afunda**",
+   "b": "Sendo $p_0$ a pressão na superfície da água, a pressão varia com a profundidade segundo a Lei de Stevin $p = p_0 + \\rho g h$, de modo que $h = (p - p_0)/\\rho g = 1{,}0 \\times 10^5 / (1{,}0 \\times 10^3 \\cdot 10) = 10\\ \\text{m}$.",
+   "c": "Não havendo perda de ar na bolha durante a subida, temos, pela Lei dos Gases Ideais, $p_0 V_0/T_0 = p_1 V_1/T_1$. Logo, $V_0/V_1 = (p_1/p_0) \\times (T_0/T_1)$. Lembrando que as temperaturas nessas expressões devem ser absolutas (em Kelvin), temos $T_0 = 273 + 27 = 300\\ \\text{K}$ e $T_1 = 273 + 7 = 280\\ \\text{K}$, portanto $V_0/V_1 = (2{,}8/1{,}0) \\times (300/280) = 3{,}0$."
+  }
+ },
+ "10": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre circuitos em paralelo e sobre campos magnéticos produzidos por fios que transportam correntes elétricas.",
+  "itens": {
+   "a": "Como os resistores possuem mesmo comprimento e área da seção transversal, a razão entre suas resistências é dada por $R_1/R_2 = \\rho_1/\\rho_2$. Como eles estão em paralelo, a razão entre as potências dissipadas é inversamente proporcional à razão entre suas resistências: $P_1/P_2 = R_2/R_1 = \\rho_2/\\rho_1$.",
+   "b": "Tendo em vista que $I = I_1 + I_2$ e $R_1 I_1 = R_2 I_2 = V$, segue que $I_1 = IR_2/(R_2 + R_1)$ e $I_2 = IR_1/(R_2 + R_1)$. Como os resistores possuem mesmo comprimento e mesma área de seção transversal, $I_1 = I\\rho_2/(\\rho_2 + \\rho_1)$ e $I_2 = I\\rho_1/(\\rho_2 + \\rho_1)$.",
+   "c": "No centro, os campos magnéticos gerados pelas correntes $I_1$ e $I_2$ apontam para fora e para dentro da página, respectivamente. Como $I_1 = I_2/4$ e $I = I_1 + I_2$, segue que $I_1 = I/5$ e $I_2 = 4I/5$. Cada fio dista $d/2$ do ponto C, de forma que o módulo do campo magnético resultante é dado por $|\\vec{B}| = \\mu_0 (I_2 - I_1)/\\pi d = 3\\mu_0 I/5\\pi d$."
+  }
+ },
+ "11": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre propagação de ondas sonoras e efeito Doppler com observador e fonte em movimento.",
+  "itens": {
+   "a": "Tendo em vista que $f = 0{,}1\\ \\text{MHz} = 10^5\\ \\text{Hz}$ e $v = 300\\ \\text{m/s}$, obtemos $\\lambda = \\dfrac{v}{f} = 3 \\times 10^{-3}\\ \\text{m}$.",
+   "b": "Neste item, o sonar representa a fonte e o carro representa o observador, que se aproxima da fonte, de modo que a relação a ser utilizada para a frequência detectada pelo carro é $\\dfrac{f_c}{v + v_c} = \\dfrac{f}{v}$. Segue então que a frequência detectada pelo veículo é $f_c = \\dfrac{f(v + v_c)}{v} = 10^5 \\times \\dfrac{300 + 30}{300} = 1{,}1 \\times 10^5\\ \\text{Hz}$.",
+   "c": "Sejam $f$ a frequência emitida pelo sonar e $v$ a velocidade de propagação do som no ar em repouso. A frequência refletida de volta é obtida a partir de um raciocínio em duas etapas. A primeira etapa segue as condições do item anterior, logo $f_c = \\dfrac{f(v + v_c)}{v}$. Na segunda etapa, o carro funciona como fonte em movimento, emitindo ondas de frequência $f_c$, e o sonar funciona como observador em repouso. A expressão para a frequência detectada pelo sonar é $f_s = \\dfrac{f_c v}{v - v_c}$, que pode ser reescrita como $f_c = f\\,\\dfrac{v + v_c}{v - v_c}$. Isolando $v_c$, obtemos $v_c = \\dfrac{v(f_d - f)}{f_d + f} = 300 \\times \\dfrac{0{,}15 - 0{,}1}{0{,}1 + 0{,}15} = \\dfrac{300}{5} = 60\\ \\text{m/s}$."
+  }
+ },
+ "12": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos de cinemática em uma situação hipotética na qual se faz uma analogia entre a física de buracos negros e um acontecimento cotidiano.",
+  "itens": {
+   "a": "O tempo de reação máximo será $T_{\\text{max}} = \\dfrac{D}{v} = \\dfrac{0{,}02}{72} \\times 3600 = 1\\ \\text{s}$.",
+   "b": "Pela tabela, os carros com $T > T_{\\text{max}} = 0{,}89\\ \\text{s}$ são aqueles com índice $j \\le 5$ e estarão dentro do horizonte de eventos de modo que $x_H = 5D = 100\\ \\text{m}$.",
+   "c": "Pela definição de $x_H$, o último carro em uma posição menor ou igual a $x_H = 60\\ \\text{m}$ colidirá, enquanto o primeiro carro em uma posição maior do que $x_H$ não colidirá. Logo, como $x_3 = 60\\ \\text{m} = x_H$ e $x_4 = 80\\ \\text{m} > x_H$, o tempo de reação máximo compatível tem que estar no intervalo $T_4 < T_{\\text{max}} \\le T_3$. Portanto, o intervalo de velocidades compatível é $\\dfrac{D}{T_3} \\le v_{\\text{ini}} < \\dfrac{D}{T_4}$, ou seja, $12{,}5\\ \\text{m/s} \\le v_{\\text{ini}} < 20\\ \\text{m/s}$."
+  }
+ },
+ "13": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre moléculas orgânicas, distribuição eletrônica dos átomos, isomeria geométrica e ligações químicas.",
+  "itens": {
+   "a": "| Molécula | Bolinha Clara | Bolinha Escura |\n|---|---|---|\n| Etano | H | C |",
+   "b": "Notação de Lewis para a molécula de etino (ou acetileno): H-C≡C-H\n\nA molécula de etino não apresenta isomeria, pois possui uma única conformação possível.",
+   "c": "Poderia ocorrer isomeria geométrica na molécula B. Quaisquer três elementos da família 7a (ou 17) da tabela periódica poderiam representar a bolinha verde."
+  }
+ },
+ "14": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre gases e alótropos e o entendimento de um processo de obtenção de CO2.",
+  "itens": {
+   "a": "A temperatura de fusão do $\\text{N}_2$ é menor do que a do $\\text{CO}_2$.",
+   "b": "A quantidade de $\\text{CO}_2$ formado será menor, pois, ao utilizar o mesmo volume de diamante, que é mais denso, uma menor massa e menor quantidade de matéria de C será utilizada e, consequentemente, uma menor quantidade de $\\text{CO}_2$ será gerada.",
+   "c": "Cálculo da massa (m) de gelo seco obtida:\n3 g de diamante = 0,25 mol de carbono\nComo nC:nCO$_2$ = 1:1, forma-se 0,25 mol de $\\text{CO}_2$ (MM = 44 g/mol). Logo, m = 11 g.\n\nCálculo da pressão (P) gerada:\nP = 0,25 × 0,082 × 300 = 6,15 atm"
+  }
+ },
+ "15": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre reações orgânicas, interações intermoleculares, estequiometria e solubilidade.",
+  "itens": {
+   "a": "![Estrutura do subproduto: dois anéis de seis carbonos ligados, cada um, a um grupo NH, com os dois NH unidos a um carbono com ligação dupla a oxigênio](fig:r37-c1)",
+   "b": "| | Tipo de interação intermolecular com a água |\n|---|---|\n| EDC | íon - dipolo permanente |\n| DCC | dipolo-permanente - dipolo permanente (London – London) |",
+   "c": "Cálculo da quantidade (q) total máxima de mols de sulfato de amônio:\nMols de peptídeo = 0,5502/ 2751 = 2.10⁻⁴.\nMols de N por peptídeo = 35 × 2.10⁻⁴ = 7 × 10⁻³\nCada sulfato de amônio possui 2 N: $(\\text{NH}_4)_2\\text{SO}_4$.\nLogo, q = 3,5 × 10⁻³ mols de sulfato de amônio."
+  }
+ },
+ "16": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre reações químicas e cálculos estequiométricos, bem como a capacidade de analisar problemas atuais relacionados aos combustíveis fósseis.",
+  "itens": {
+   "a": "O metano ($\\text{CH}_4$) é o principal componente do gás natural utilizado na produção de fertilizantes nitrogenados.",
+   "b": "Equação balanceada da reação de eletrólise da água:\n$2\\ \\text{H}_2\\text{O}(\\ell) \\rightarrow 2\\ \\text{H}_2(\\text{g}) + 1\\ \\text{O}_2(\\text{g})$\n\nO processo é mais sustentável porque não utiliza combustíveis fósseis, mas sim energia solar.",
+   "c": "Cálculo da massa (m) de gás natural:\n$6 \\times 10^{12}$ g de ureia (MM = 60 g/mol) = $1 \\times 10^{11}$ mol\n1 ureia : 1 $\\text{CH}_4$ (MM = 16 g/mol)\n$1 \\times 10^{11}$ mol de $\\text{CH}_4$ = $1{,}6 \\times 10^{12}$ g = $1{,}6 \\times 10^6$ t de $\\text{CH}_4$.\nComo o metano corresponde a 50%, em massa, de gás natural, m = $3{,}2 \\times 10^6$ t."
+  }
+ },
+ "17": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre eletroquímica envolvidos na química do cotidiano.",
+  "itens": {
+   "a": "![Tabela com o título Número de oxidação e duas colunas: antes do escurecimento, 0; depois do escurecimento, +1](fig:r40-c1)",
+   "b": "Equação global balanceada da reação de clareamento da prata:\n$2\\ \\text{A}\\ell(\\text{s}) + 3\\ \\text{Ag}_2\\text{S}(\\text{s}) \\rightarrow 2\\ \\text{A}\\ell^{3+}(\\text{aq}) + 3\\ \\text{S}^{2-}(\\text{aq}) + 6\\ \\text{Ag}(\\text{s})$\n\nDiferença de potencial: $E^\\circ = +1{,}66 - 0{,}69 = +0{,}97\\ \\text{V}$",
+   "c": "A presença de fluoreto não contribui para a limpeza da prata, pois o potencial da reação global de redução do $\\text{Ag}_2\\text{S}$ com $\\text{F}^-$ é negativo, o que significa que ela não é espontânea.\n\n$\\text{Ag}_2\\text{S}(\\text{s}) + 2\\text{F}^-(\\text{aq}) \\rightarrow 2\\ \\text{Ag}(\\text{s}) + \\text{S}^{2-}(\\text{aq}) + \\text{F}_2(\\text{g})$\n\n$E^\\circ = -2{,}87 - 0{,}69 = -3{,}56\\ \\text{V}$"
+  }
+ },
+ "18": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre diluição e cálculos estequiométricos, bem como a capacidade de aplicar conceitos de química analítica para resolução de problemas cotidianos, com uso de representação gráfica para apresentação de resultados.",
+  "itens": {
+   "a": "A concentração de proteína diminui conforme aumenta o volume de água adicionado. Qualquer gráfico com curva descendente é aceito para representar essa diluição.\n\n![Gráfico com eixo vertical Concentração de proteína e eixo horizontal Volume de água adicionado, com curva descendente partindo de um valor positivo em 0](fig:r41-c1)",
+   "b": "A solução terá maior concentração de $\\text{Cu}^{2+}$ livre, pois a quantidade de proteína presente será menor, necessitando de menos $\\text{Cu}^{2+}$ e, portanto, sobrará $\\text{Cu}^{2+}$ livre em solução.",
+   "c": "Cálculo da concentração (c) de $\\text{Cu}^{2+}$:\nComo a estequiometria da reação é de 1:1, então n $\\text{Cu}^{2+}$ = n EDTA, ou seja,\n0,01 mol/L × 0,025 L = 0,00025 mol de $\\text{Cu}^{2+}$ na solução remanescente.\nLogo, c = 0,00025 mol de $\\text{Cu}^{2+}$ /0,001 L = 0,25 mol/L."
+  }
+ },
+ "19": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretação de gráficos, conhecimentos sobre os biomas e seus fatores bióticos e abióticos, além do impacto de ações antrópicas sobre a biodiversidade.",
+  "itens": {
+   "a": "O bioma predominante nos estados mencionados é a Mata Atlântica ou Floresta Atlântica ou Bioma Atlântico.",
+   "b": "Dentre as características abióticas, encontram-se pluviosidade, umidade, temperaturas e/ou radiação solar altas, baixa sazonalidade em variáveis climáticas, baixa amplitude térmica, clima tropical ou equatorial, solo pobre em nutrientes, lixiviado e/ou arenoso, solo rico em matéria orgânica na camada superficial, densa rede de drenagem, relevo plano, planície. Dentre as consequências para a biodiversidade, podem ser citadas a diminuição da biodiversidade, morte ou extinção dos organismos, falta de recursos para os organismos, migração para outros locais, aumento ou diminuição de interações biológicas com explicação da causa, perda e/ou fragmentação de habitats, perda de diversidade genética, estabelecimento de espécies invasoras, erosão, empobrecimento, ressecamento ou lixiviação do solo, desertificação, assoreamento de corpos d'água, mudanças no clima local, modificação e erosão de cadeias tróficas com a devida explicação do que causou, diminuição da decomposição, impossibilidade/dificuldade de regeneração da vegetação.",
+   "c": "Estados de Rondônia e Pará. Como causa histórico-temporal, o período colonial, com a ocupação antrópica do Brasil que se deu com maior intensidade nas regiões costeiras e onde houve extração de madeira, agricultura (café, cana de açúcar, ciclos desses produtos), urbanização e, posteriormente, industrialização, que tornaram esses estados mais densamente povoados, ao passo que apenas nas últimas décadas ocorreu maior ocupação humana e desenvolvimento nos estados amazônicos."
+  }
+ },
+ "20": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de representar fenômenos biológicos graficamente e interpretar esquemas representativos de diferenças morfológicas, conhecimentos de fisiologia renal, biologia celular e adaptações fisiológicas do organismo a diferentes condições ambientais.",
+  "itens": {
+   "a": "Há diminuição do volume de urina.",
+   "b": "Aquele que mais reabsorve o conteúdo filtrado está ilustrado no Segmento 1, caracterizado pelo aumento da superfície celular pelas microvilosidades da membrana celular.",
+   "c": "Em termos gráficos, a posição do castor deve ser no quadrante inferior esquerdo, e a do rato canguru deve ser no quadrante superior direito.\n\n![Gráfico com concentração da urina no eixo vertical e proporção da área ocupada pela medula renal no eixo horizontal: Castor no canto inferior esquerdo e Rato canguru no canto superior direito](fig:r44-c1)"
+  }
+ },
+ "21": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretação de esquemas representativos, conhecimentos do código genético e as consequências de mutações para o organismo humano, e conhecimentos sobre ISTs.",
+  "itens": {
+   "a": "Outras infecções sexualmente transmissíveis são: sífilis, gonorreia, cancro mole, condiloma acuminado, candidíase, tricomoníase, herpes e HPV, entre outras.",
+   "b": "A amostra adequada para identificação da mutação é a de sangue após 1 ano do procedimento de transplante. Assim, a medula óssea transplantada terá produzido glóbulos brancos que terão a mutação no gene que codifica para o receptor.",
+   "c": "A mutação ocorreu no éxon ou região codificadora para o receptor. Tal mutação leva à formação de um polipeptídeo menor e não funcional."
+  }
+ },
+ "22": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretar resultados de um experimento biológico e representá-los graficamente, avaliar os conhecimentos de processos celulares dos movimentos animal e vegetal, e aspectos de fisiologia vegetal.",
+  "itens": {
+   "a": "Variações conceitualmente equivalentes a “célula nervosa” ou “célula muscular”.",
+   "b": "![Gráfico I, curva de fechamento dos folíolos de 0 a 100% em 5 s, e Gráfico II, curva de reabertura dos folíolos de 100 a 0% em 12 min, com pontos marcados](fig:r48-c1)",
+   "c": "Respiração celular, que fornece energia para o movimento dos folíolos; fotossíntese, que é afetada pelo movimento dos folíolos (em termos de captação de luz solar); herbivoria, evitando gasto de energia para repor os tecidos danificados."
+  }
+ },
+ "23": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretação de gráficos, conhecimentos sobre nutrição humana, impactos ambientais no contexto da produção agropecuária.",
+  "itens": {
+   "a": "O grupo alimentar é o das frutas.",
+   "b": "| Região | Grupo alimentar | Consequência negativa do consumo |\n|---|---|---|\n| África Subsaariana (IV) | Amido | Possibilidades de resposta: constipação, obesidade, aumento de peso, alteração na glicemia, diabetes, alteração do sistema imunológico, aumento de colesterol. |",
+   "c": "Possibilidades de resposta:\n\n| Grupo alimentar | Produto | Impacto ambiental |\n|---|---|---|\n| Amido | Milho | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, desgaste do solo; uso excessivo de água; perda de biodiversidade. |\n| Proteína animal | Carne (vaca, peixe, frango, porco) | Poluição ambiental; emissão de gás de efeito estufa, desmatamento; perda de áreas para pastagem, perda de biodiversidade. |\n| Laticínios | Leite/queijo e derivados | Poluição ambiental; emissão de gás de efeito estufa, desmatamento; perda de áreas para pastagem, perda de biodiversidade. |\n| Vegetais | Vegetais nomeados adequadamente | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, desgaste do solo; uso excessivo de água; perda de biodiversidade. |\n| Grãos | Grãos integrais nomeados adequadamente | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, desgaste do solo; uso excessivo de água; perda de biodiversidade. |\n| Frutas | Frutas nomeadas adequadamente | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, desgaste do solo; uso excessivo de água; perda de biodiversidade. |\n| Proteína vegetal | Soja | Excesso de fertilizantes, eutrofização, poluição ambiental; perda de áreas para plantio/monoculturas, desmatamento; contaminação ambiental por agrotóxicos/fertilizantes, uso excessivo de água; perda de biodiversidade. |"
+  }
+ },
+ "24": {
+  "resposta": "**Objetivo da questão:** Avaliar a habilidade de interpretação de texto, conhecimentos sobre zoologia, ecologia e saúde pública.",
+  "itens": {
+   "a": "“produto” = corpo OU manto OU massa visceral.",
+   "b": "Preenchimento adequado da tabela, incluindo uma das alternativas (i-iii):\n\n| | Fator | Causa |\n|---|---|---|\n| **Biótico** | i - aumento de competição<br>ii - predação excessiva | i - espécie invasora<br>ii - exploração pesqueira, pressão socioeconômica |\n| **Abiótico** | i - diminuição da salinidade<br>ii - aumento dos sedimentos<br>iii - presença de poluentes/lixo | i - chuvas intensas<br>ii - carreamento pelo rio<br>iii - carreamento pelo rio ou falta de tratamento e/ou saneamento |",
+   "c": "Considerando-se que são animais filtradores, o risco estaria em ingerir elementos tóxicos presentes no ambiente poluído e que podem estar acumulados nesses animais. As formas de prevenção incluem: saneamento/tratamento de efluentes depositados na lagoa; monitoramento ambiental da poluição da lagoa; monitoramento microbiológico dos bivalves coletados; depuração adequada ou cozimento dos bivalves antes do consumo."
+  }
+ },
+ "25": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos(as) candidatos(as) sobre temas relacionados a problemas ambientais contemporâneos e seus impactos na sociedade.",
+  "itens": {
+   "a": "Pneus de veículos e roupas sintéticas são os dois principais contribuintes para a poluição por microplásticos. Há também outras possibilidades que podem ser mencionadas, como derivados de plásticos de um modo geral. Diversos exemplos podem ser citados, como: pellets, indústria de plásticos, plataforma de petróleo, embalagens plásticas, roupas sintéticas (nylon, acrílico, poliéster, dry fit), carpetes ou tapetes plásticos, redes ou linhas de pesca, tarrafas, sacolas plásticas, telas de sombreamento, filmes para cobertura de solo, pneus, material plástico, tintas plásticas ou acrílicas, abrasivos encontrados em produtos de limpeza, copos\\pratos\\talheres plásticos, isopor, espuma, esponja, pneus, garrafas plásticas ou PET; especificar produtos de higiene ou cosméticos: pasta de dente, esfoliantes, gel de banho, peelings, desodorante, creme de barbear, produtos para higiene de bebês, fraldas e absorventes descartáveis, loções de banho de espuma, coloração de cabelo, esmaltes, repelentes de insetos e protetor solar, maquiagem, sombra para os olhos, blush em pó, base de maquiagem, rímel, glitter, purpurina; objetos feitos com plástico: eletrônicos, celulares; componentes plásticos: petrolato, polietileno tereftalato (PET), polipropileto (PP), poliestireno (PS), poliuretano (PU), polietileno (PE), policloreto de vinila (PVC), acetato de vinila (PVA), Bisfenol-A (BPA), náilon (PA), polímero politetrafluoretileno (PTFE ou TEFLON), polietileno de baixa densidade (PEBD ou LDPE).",
+   "b": "Em decorrência do descarte inadequado dos plásticos e seus derivados, a maior concentração de microplásticos ocorre em canais fluviais, rios, lagos e oceanos, ambientes marinhos, ambientes aquáticos, córregos, lagos, lagoas, litoral, áreas costeiras, praias, manguezais, fossas/cânions/depressões marinhas, recifes de coral.",
+   "c": "Dentre as estratégias que podem ser indicadas, encontram-se: diminuir o consumo de plásticos; adotar práticas de reciclagem, reutilizar e reaproveitar; descartar adequadamente plásticos e seus derivados; optar pelo consumo de produtos feitos em empresas ambientalmente responsáveis, com foco no retorno do plástico utilizado à cadeia de produção produção; consumir produtos com materiais biodegradáveis; substituir materiais plásticos por produtos de origem orgânica, biodegradável e/ou duráveis (vidro/metal); descartar de modo seletivo os resíduos plásticos; evitar o uso de tintas látex e acrílicas; utilizar fibra natural e algodão ao invés de tecidos sintético; usar embalagens de vidro ou papel; pressionar o governo para diminuir o uso do plástico."
+  }
+ },
+ "26": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos(as) candidatos(as) sobre leitura e interpretação de gráficos e de conceitos básicos sobre segurança / insegurança alimentar.",
+  "itens": {
+   "a": "Segurança alimentar é a garantia de todas as dimensões que inibem a ocorrência da fome, como disponibilidade e acesso permanente de alimentos, pleno consumo sob o ponto de vista nutricional e sustentabilidade em processos produtivos (que podem incluir a conservação da agrobiodiversidade, solos, água, entre outros).",
+   "b": "Dentre as medidas que podem ser adotadas, é possível citar e explicar as seguintes: ampliação de programas de distribuição de renda, garantindo recursos financeiros para que a população tenha acesso aos alimentos; fomento à agricultura familiar, contribuindo para a ampliação da oferta de alimentos que constituem a cesta básica; consolidação dos programas de reforma agrária, ampliando o acesso à terra e a produção direta de alimentos; ampliação de programas de alimentação (merenda) escolar, permitindo acesso a todos os estudantes da educação básica a uma alimentação saudável com qualidades nutricionais; ampliação de programas de assistência social; melhoria na governança e a coordenação entre os setores e atores envolvidos no combate a fome; criação de políticas públicas para o controle do desperdício de alimentos; investimento em infraestrutura, como estradas, armazéns e portos; ampliação do acesso a financiamentos e créditos por agricultores e empreendedores rurais; estímulo à agricultura urbana; estabelecimento de políticas para o aumento da renda dos agricultores e o equilíbrio da oferta e demanda dos alimentos; isenção de impostos sobre os alimentos da cesta básica.",
+   "c": "Entre 2004 e 2013, houve um avanço do percentual de pessoas em segurança alimentar no país, o que começou a mudar a partir de 2013, com o avanço do percentual de pessoas em insegurança alimentar grave. Entre os fatores que podem estar associados a esse aumento, podemos citar o aumento do desemprego e subemprego; a diminuição dos programas de distribuição de renda; o pouco avanço dos programas de reforma agrária; a produção agrícola voltada, principalmente, para o mercado externo; menores incentivos à agricultura familiar, além dos impactos agravados pela pandemia da Covid-19, que aumentaram o desemprego, a pobreza, a inflação dos alimentos."
+  }
+ },
+ "27": {
+  "resposta": "**Objetivo da questão:** Verificar aptidão do(a) candidato(a) quanto ao conhecimento dos principais regimes climáticos sazonais, bem como leitura de imagens de satélite e dinâmicas naturais associadas às planícies fluviais.",
+  "itens": {
+   "a": "A esse tipo de inundação associa-se principalmente o Clima de Monções (Monções ou Regime de Monções ou ainda Chuva de Monções).",
+   "b": "Além do regime climático, outra causa para essa grande inundação é o derretimento de geleiras em razão das mudanças climáticas globais, o que aumenta o volume d’água dos rios nas planícies fluviais, incrementando a grande inundação.",
+   "c": "É possível identificar, nas imagens, a presença de meandros abandonados ao longo do curso fluvial meandrante principal e secundário do centro ao Leste das figuras, que coincidem com as áreas mais afetadas pela grande inundação, mostrando que a planície fluvial ou terrenos planos são de grande extensão em áreas naturalmente inundáveis. Também, no Oeste das figuras, é possível verificar o aumento do volume d’água dos rios após as intensas precipitações nos terrenos aplainados com a presença de grandes lagos."
+  }
+ },
+ "28": {
+  "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos(as) candidatos(as) sobre projeções cartográficas e suas características.",
+  "itens": {
+   "a": "Trata-se do contexto de formação do mercantilismo, expansão das navegações e constituição do sistema colonial moderno, entre os séculos XV e XVII.",
+   "b": "Por se tratar de uma projeção cilíndrica conforme produz a distorção dos tamanhos das áreas representadas, principalmente as áreas das superfícies de altas latitudes, próximas aos polos e distantes da Linha do Equador. Este tipo de projeção tem maior fidelidade para baixas latitudes, cujos paralelos e meridianos cruzam-se em ângulos retos e os polos apresentam-se em exagero. A projeção em disco aberto busca reduzir essas distorções, por exemplo, a Groenlândia, o norte do Canadá, da Europa e da Ásia e a Antártida em relação à proporcionalidade de suas áreas.",
+   "c": "É possível citar a Projeção de Gall-Peters, que é uma projeção cartográfica cilíndrica equivalente, ou seja, mantém a proporção das áreas representadas, mas altera as suas formas; OU também a Projeção de Robinson, que corresponde a uma projeção afilática e pseudocilíndrica, apesar de não possuir nenhuma superfície de projeção, cujas características assemelham-se à projeção cilíndrica: nesta projeção, há alteração das formas e das áreas; OU Projeção cônica, que corresponde à projeção da superfície terrestre em um cone, no qual os meridianos convergem para os polos e os paralelos formam arcos concêntricos e apresenta maiores distorções conforme as superfícies representadas se distanciam do paralelo em contato com o cone; OU Projeção plana ou azimutal, que corresponde à projeção da superfície terrestre em um plano, de modo que os paralelos e meridianos formam círculos concêntricos e apresenta maiores distorções nas áreas mais afastadas da tangência e menos na área central."
+  }
+ },
+ "29": {
+  "resposta": "**Objetivo da questão:** Verificar aptidão do(a) candidato(a) na leitura de mapas, associados às questões geopolíticas e atualização quanto a questões de geografia geral e de recursos energéticos.",
+  "itens": {
+   "a": "O aumento do preço do gás natural nesse período foi resultado da intensificação dos conflitos, entre Rússia e Ucrânia, com a eclosão da guerra, provocada pela invasão russa em fevereiro de 2022.",
+   "b": "Com a construção dos gasodutos de *Nord Stream 1* e *Nord Stream 2* na região do Mar Báltico, a Rússia amplia seu acesso ao seu principal mercado consumidor (a União Europeia, particularmente a Alemanha), evitando áreas de conflito.",
+   "c": "Os gasodutos *Blue Stream* e *Turkstream* atravessam ou estão muito próximos de zonas de conflito, impondo negociações com vários países, alguns deles pertencentes à OTAN. Embora nenhum desses gasodutos passe diretamente pelo território da Ucrânia, com a qual a Rússia está em guerra, ambos passam muito próximos da Crimeia, o que impõe mais ainda a necessidade do controle russo sobre essa região, agravando o conflito já existente com a Ucrânia."
+  }
+ },
+ "30": {
+  "resposta": "**Objetivo da questão:** Avaliar as competências dos(as) candidatos(as) relacionados a conhecimentos sobre a circulação das correntes marítimas e sua influência sobre a dinâmica climática global.",
+  "itens": {
+   "a": "Sentido Nordeste ou NE ou entre Norte e Leste.",
+   "b": "A corrente oceânica do Golfo origina-se no golfo do México, região de clima tropical, com elevada insolação, resultado da maior intensidade de radiação solar; localizada na Zona Intertropical ou Equatorial, entre a Linha do Equador e o Trópico de Câncer; possui temperaturas das águas superficiais elevadas, com menor salinidade e com reduzida profundidade das águas oceânicas, derivado de seu relevo submarino. Essa combinação torna essa corrente um verdadeiro rio de águas quentes com temperaturas, no local de origem, da ordem de 28°C.",
+   "c": "As águas quentes da região do golfo do México margeiam a costa leste dos EUA levando água quente para então atravessar o Atlântico e se dividir em duas: uma parte banha a Europa, enquanto a outra vai até a Groenlândia e o Oceano Ártico. Ela é um grande mecanismo de distribuição de calor, diretamente responsável pela regulação do clima na Terra – inclusive porque funciona conectada a outros fluxos oceânicos. Com isso, produz temperaturas mais elevadas na região, deixando os invernos mais amenos, com amplitudes térmicas menores e com maior quantidade de chuvas. Dessa forma, há uma regulação do clima da Europa Setentrional que, caso não houvesse a atuação dessa corrente levando calor do trópico para as médias latitudes, a região apresentaria temperaturas menores."
+  }
+ },
+ "31": {
+  "resposta": "**Objetivo da questão:** Discutir o tema das independências na América do Sul a partir de duas fontes visuais e de um texto historiográfico.\nEstimular a interpretação a partir da leitura que inter-relacione documentos de natureza diversa.",
+  "itens": {
+   "a": "O tema da tela refere-se à luta iniciada por forças políticas uruguaias (então província Cisplatina), lideradas por Juan Antonio Lavalleja, para se emancipar do jugo do Império brasileiro. Os homens reunidos nesse movimento que, finda a Guerra Cisplatina, levou à independência do Uruguai, compuseram o grupo chamado de “trinta e três orientais”.",
+   "b": "Na pintura de Pedro Américo, as personagens centrais estão montadas a cavalo, vestindo uniformes, em um terreno em declive que estabelece hierarquias. Nessa tela, a luz vem de cima, iluminando D. Pedro, príncipe regente autor do grito “independência ou morte”, futuro imperador, investido de um poder que vem de fora. A representação confere grandiosidade ao acontecimento histórico.\n\nNa pintura de Blanes, em contraste, as personagens usam roupas mais despojadas, estão apeadas e sobre um terreno plano, que sugere igualdade entre elas. A luz que incide sobre a cena vem de baixo, conferindo destaque à ação humana.",
+   "c": "Na visão da autora, na tela de Pedro Américo, os paramentos das personagens, sua disposição espacial e a posição da luz reforçam a ideia de hierarquia e da centralidade do imperador, forjando uma representação da monarquia, regime que foi implementado no Brasil. Na pintura de Blanes, a horizontalidade das lideranças políticas e o protagonismo de todas elas reforça a ideia de um poder compartilhado que se associa ao projeto republicano que viria a ser implementado no Uruguai ao fim da Guerra Cisplatina."
+  }
+ },
+ "32": {
+  "resposta": "**Objetivo da questão:** Pensar de que maneira a representação literária dialoga com o processo de formação da classe trabalhadora na França da segunda metade do século XIX, valendo-se de uma obra canônica nesse âmbito.",
+  "itens": {
+   "a": "Os temas que podem ser indicados são luta de classe; exploração do trabalhador/operário/proletariado; condições degradantes de trabalho; lutas operárias; consciência de classe; revoltas e revoluções operárias; movimento operário.",
+   "b": "Poderiam ser citados os seguintes elementos: tomada de consciência dos trabalhadores a respeito da própria situação; organização dos trabalhadores; organização sindical; surgimento de ideias socialistas/anarquistas; greves.",
+   "c": "A referência à Revolução Francesa carrega um tom de ironia, pois ela supostamente suprimiria as injustiças e desigualdades entre os homens. Contudo, as expectativas geradas pela Revolução não foram plenamente satisfeitas. Além disso, os princípios revolucionários contribuíram para explicitar as contradições do liberalismo diante da persistência das assimetrias entre os cidadãos no século XIX."
+  }
+ },
+ "33": {
+  "resposta": "**Objetivo da questão:** Relacionar um texto sobre os contatos entre europeus e africanos com uma imagem da época.",
+  "itens": {
+   "a": "A imagem caracteriza essa sociedade hierarquizada, por exemplo, através da presença do rei em patamar mais elevado do que os demais, do rei situado junto a uma construção grandiosa e também pelos nativos reverenciando a realeza.",
+   "b": "Dentre os elementos que podem ser citados encontram-se o emprego da coroa, do cetro, o trono e a construção semelhante a um castelo europeu medieval.",
+   "c": "A imagem dispõe os europeus em plano inferior ao das autoridades africanas, indicando deferência e busca de entendimento mútuo. Ao fundo, podem ser vistos, também, um europeu e um africano dando um aperto de mão."
+  }
+ },
+ "34": {
+  "resposta": "**Objetivo da questão:** Identificar a diversidade da produção cultural no contexto social e político brasileiro dos anos 1960.",
+  "itens": {
+   "a": "Os(as) artistas que podem ser citados, entre outras possibilidades, são: Gilberto Gil; Caetano Veloso; Os Mutantes; Tom Zé, Gal Costa, Helio Oiticica. Como exemplos de canção podem ser citadas *Panes et circenses; É proibido proibir; Tropicália, Bay, Geleia Geral.*",
+   "b": "Duas características podem ser apontadas dentre as seguintes: apropriação da linguagem pop; coloquialidade da linguagem; referências às histórias em quadrinhos; emprego de instrumentos elétricos; fusão de elementos identificados à brasilidade com o *rock and roll*; bricolagem e paródia como elementos compositivos; apresentação entendida como performance; letras em diálogo com o programa modernista; usos estéticos e políticos da alegoria.",
+   "c": "A canção de protesto convidava para o engajamento político direto na luta contra a ditadura. Sua poética era menos experimental e mais nacionalista. O Tropicalismo fazia uma crítica alegórica, com viés cultural e crítico, frente aos hábitos e costumes tradicionais da cultura e da sociabilidade, era experimentalista e se reivindicava antropofágica. A Jovem Guarda assumia os padrões corriqueiros da música comercial internacional e mantinha-se alheia às discussões políticas."
+  }
+ },
+ "35": {
+  "resposta": "**Objetivo da questão:** Refletir sobre o papel da biblioteca como lugar de memória, tendo permitido a reunião e a conservação de textos da Antiguidade oriental e da Antiguidade clássica, e sua posterior apropriação por pensadores humanistas no Renascimento Cultural.",
+  "itens": {
+   "a": "O helenismo resulta de apropriações e da fusão de elementos das culturas orientais e gregas na época da expansão macedônica e do processo de difusão dessas práticas e concepções culturais no mundo mediterrâneo.",
+   "b": "A própria criação da Biblioteca de Alexandria e todos os processos a ela inerentes, como as ideias de “repertório”, “coleção”, preservação de “acervos”, “mapas”, “manuscritos”, “textos”; “tradução para o grego” de textos em aramaico, hebraico, árabe, etc.",
+   "c": "Dentro os elementos que podem ser indicados estão a preservação dos excertos de textos antigos e sua tradução para o latim, a reprodução dos textos por monges copistas e a circulação das obras em outras bibliotecas monásticas. Como resultado desses processos, a apropriação desse repertório por pensadores humanistas foi fundamental para os paradigmas filosóficos, culturais e científicos modernos."
+  }
+ },
+ "36": {
+  "resposta": "**Objetivo da questão:** Avaliar a capacidade de reflexão sobre as relações entre a construção de ferrovias, a atividade cafeeira e a imigração.",
+  "itens": {
+   "a": "A configuração da rede ferroviária na província de São Paulo está relacionada à atividade cafeeira.",
+   "b": "Santos tinha um papel fundamental como porto, como polo exportador de café e, ao mesmo tempo, como polo para o desembarque da mão-de-obra de imigrantes que buscava oportunidades de trabalho no país e para a entrada de mercadorias e insumos importados.",
+   "c": "Essa relação pode ser estabelecida mencionando os seguintes fatos: a transição do trabalho escravocrata para o trabalho livre; o emprego da mão de obra escravizada e formas de recrutamento da mão de obra livre como o colonato e a parceria. Enquanto as linhas férreas a Oeste foram financiadas pelo capital cafeeiro, a estrada de ferro Santos-Jundiaí era controlada pelo capital britânico e a estrada de ferro que cruzava o Vale do Paraíba foi construída com investimento estatal. A expansão cafeeira começou pelo Vale do Paraíba e depois rumou para o Oeste."
+  }
+ }
+}
