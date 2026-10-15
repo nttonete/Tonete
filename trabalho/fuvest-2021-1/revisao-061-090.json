@@ -1,0 +1,173 @@
+{
+ "edicao": "fuvest-2021-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {
+  "t63-65": "*Uma última gargalhada estrondosa. E depois, o silêncio. O palhaço*\n*jazia imóvel no chão. Mas seu rosto continua sorrindo, para*\n*sempre. Porque a carreira original do Coringa era para durar*\n*apenas 30 páginas. O tempo de envenenar Gotham, sequestrar*\n*Robin, enfiar um par de sopapos no Homem-Morcego e disparar*\n*o primeiro “vou te matar” da sua relação. Na briga final do*\nBatman nº 1<em>, o “horripilante bufão” sofria um final digno de sua</em>\n*desumana ironia: ao tropeçar, cravava sua própria adaga no*\n*peito. Assim decidiram e desenharam seus pais, os artistas Bill*\n*Finger, Bob Kane e Jerry Robinson. Entretanto, o criminoso*\n*mostrou, já em sua primeira aventura, um enorme talento para*\n*se rebelar contra a ordem estabelecida. Seu carisma seduziu a*\n*editora DC Comics, que impôs o acréscimo de um quadrinho. Já*\n*dentro da ambulância, vinha à tona “um dado desconcertante”.*\n*E então um médico sentenciava: “Continua vivo. E vai*\n*sobreviver!”.*\n\nTommaso Koch. “O Coringa completa 80 anos e na Espanha ganha duas HQs, que inspiram debates filosóficos sobre a liberdade”. *El País*. Junho/2020."
+ },
+ "questoes_corrigidas": [
+  {
+   "numero": 82,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Classificação periódica dos elementos, com os elementos Ti, Cu, Ru, Rh, Pd, Re, Os, Ir, Pt e Au destacados em cinza](fig:p23-f3)\n\nUm experimento expôs uma barra de titânio (Ti) pura e ligas desse material com 0,01% de diferentes metais nobres a soluções de ácido sulfúrico em ebulição para entender o efeito anticorrosivo desses metais no titânio. O resultado é mostrado na tabela a seguir:\n\n![Tabela da taxa de corrosão do titânio em H₂SO₄ em ebulição (em quantidade por tempo), conforme o metal presente na liga com o Ti (0,01%), com os valores para H₂SO₄ 1% e H₂SO₄ 10%: Paládio (Pd), < 2 e 26; Ródio (Rh), < 2 e 145; Platina (Pt), < 2 e 166; Rutênio (Ru), < 2 e 187; Irídio (Ir), < 2 e 359; Ósmio (Os), 5 e 480; Rênio (Re), 235 e \\*; Cobre (Cu), 470 e \\*; Ouro (Au), 1050 e \\*; Ti Puro, 460 e 3950](fig:p23-c1)\n\n\\*Não foi possível medir.\n\nCom base nessas informações, é correto afirmar:",
+   "alternativas": {
+    "A": "O aumento na concentração de ácido sulfúrico nos experimentos fez com que o titânio puro fosse mais corroído e o titânio com Pd, Rh e Pt fosse menos corroído.",
+    "B": "Para Re, Cu e Au, espera-se que a reação com ácido sulfúrico mais concentrado demore muito para acontecer e, por isso, não foi possível medir.",
+    "C": "A escala de potencial anticorrosivo, segundo esse experimento, é dada por Au > Cu > Re > Os > Ir > Ru > Pt > Pd > Rh.",
+    "D": "Pd, Rh, Pt e Ru apresentaram os melhores resultados como anticorrosivos, enquanto Cu e Au apresentaram os piores.",
+    "E": "O titânio puro é muito resistente ao ácido, e a adição de outros metais não faz nenhuma diferença para a taxa de corrosão."
+   }
+  },
+  {
+   "numero": 88,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A reação de Maillard, que ocorre entre aminoácidos e carboidratos redutores, é a responsável por formar espécies que geram compostos coloridos que conferem o sabor característico de diversos alimentos assados. Um exemplo é a reação entre a glicina e um carboidrato redutor mostrada na equação em que R representa uma cadeia genérica:\n\n![Equação química: glicina (H₂N–CH₂–COOH) mais carboidrato redutor (H–CO–CO–R) formando o intermediário CH₃–N=CH–CO–R, mais H₂O e CO₂](fig:p26-c2)\n\nUm aminoácido específico (Composto 1), ao reagir com o carboidrato redutor, pode gerar o Composto 2, levando à formação de acrilamida, uma espécie potencialmente carcinogênica, conforme mostrado na equação:\n\n![Equação química: Composto 1 (quadro vazio) mais carboidrato redutor (H–CO–CO–R) formando o Composto 2, H₂N–CO–CH₂–CH₂–N=CH–CO–R, mais H₂O e CO₂](fig:p26-f2)\n\nA estrutura do aminoácido marcado como Composto 1 e que é capaz de gerar esse intermediário de espécies carcinogênicas é:",
+   "alternativas": {
+    "A": "![Alternativa A: fórmula estrutural HOOC–CH(NH₂)–CO–NH₂](fig:p26-f3)",
+    "B": "![Alternativa B: fórmula estrutural H₂N–CO–CH₂–C(=NH)–CHO](fig:p26-f5)",
+    "C": "![Alternativa C: fórmula estrutural H₂N–CO–CH₂–CH₂–OH](fig:p26-f7)",
+    "D": "![Alternativa D: fórmula estrutural H₂N–CO–CH₂–CO–NH₂](fig:p26-f4)",
+    "E": "![Alternativa E: fórmula estrutural H₂N–CO–CH₂–CH(NH₂)–COOH](fig:p26-f6)"
+   }
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial. O quadro dos provérbios é imagem no PDF; mantido como figura (descrição traz os três provérbios)."
+  },
+  {
+   "numero": 63,
+   "status": "corrigida",
+   "notas": "corrigida pelo texto base t63-65: o transcritor pôs números de linha [[5]], [[10]], [[15]] que o caderno não imprime; removidos (quebras de linha mantidas). A contagem das linhas citadas (L. 1, 2-3, 8-9, 12-13 etc.) foi conferida e bate. Minha resolução coincide com o gabarito."
+  },
+  {
+   "numero": 64,
+   "status": "corrigida",
+   "notas": "corrigida pelo texto base t63-65 (números de linha não impressos removidos). Enunciado e alternativas conferidos, inclusive a aspa reta em “cautelosamente.\". Minha resolução coincide com o gabarito."
+  },
+  {
+   "numero": 65,
+   "status": "corrigida",
+   "notas": "corrigida pelo texto base t63-65 (números de linha não impressos removidos). Referências L. 2, 5, 9, 12, 15 conferidas. Minha resolução coincide com o gabarito."
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial. O caderno não numera os versos; contando os versos impressos sem as linhas em branco, v. 4, v. 12 e v. 20 batem com os trechos citados (explicado na resolução)."
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial. Falas dos dois balões conferidas na ampliação."
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial. Sublinhado de “a usina o leva a sublimar em cristal / o pardo do xarope” conferido."
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial. O caderno não numera os versos; v. 1, 2, 4 e 10 conferem com a contagem dos versos impressos (explicado na resolução)."
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 82,
+   "status": "corrigida",
+   "notas": "alternativa D: “apresentam” corrigido para “apresentaram”, como no caderno. Descrição da tabela (figura) passou a trazer os valores, para quem usa leitor de tela. Minha resolução coincide com o gabarito."
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 88,
+   "status": "corrigida",
+   "notas": "figura da 1ª equação (p26-f1) trazia no alto um pedaço da linha de texto anterior: recortada de novo (p26-c2). As descrições das cinco alternativas (A e E eram idênticas: “COOH, NH₂ e CONH₂”) passaram a dar a fórmula de cada estrutura. Minha resolução coincide com o gabarito."
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": "Texto, alternativas e figuras conferidos com a página ampliada. Minha resolução coincide com o gabarito oficial."
+  }
+ ]
+}
