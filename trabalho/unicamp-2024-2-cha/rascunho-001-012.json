@@ -113,6 +113,60 @@
     }
    ],
    "observacoes": "O caderno tem “o equívocos” no título do texto 1, “Portal Portal G1” e “Diponível” na fonte do texto 2 (grafias originais mantidas)."
+  },
+  {
+   "numero": 10,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A extraordinária história de Catalina de Erauso (1585? – 1650) é bem conhecida. Quando jovem, escapou do convento para buscar aventuras no Novo Mundo. Para poder realizar suas façanhas, se vestiu e viveu como homem por quase vinte anos, adotando o nome de Erauso. Erauso era um soldado sanguinário e conquistador, lutava contra os indígenas araucanos. Por seus feitos, conseguiu o título de alferes. Quando, por fim, sua identidade primeira foi descoberta, recebeu do rei Felipe IV, por seu heroísmo, uma pensão alimentar e do Papa Urbano VIII uma dispensa e uma permissão para se vestir de homem pelo resto de sua vida.\n\n(Traduzido e adaptado de: GÓMEZ, M. A. “El problemático ‘feminismo’ de La Monja Alférez de Domingo Miras”. Em: *Espéculo: Revista de Estudios Literarios*, nº. 41, 2009.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Com base em seus conhecimentos sobre o mundo moderno europeu e as instituições citadas no texto, explique por que a autora classifica a história de Catalina de Erauso como extraordinária."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O chamado *novo mundo* trouxe mudanças práticas e simbólicas para a vida no Atlântico. Nesse contexto, explique duas funções das monarquias europeias e o papel desenvolvido pela Igreja na expansão territorial europeia moderna."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 11,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Texto 1**\n\nSomente mais tarde, aprendendo com a prática, principalmente depois da introdução dos primeiros escravos africanos, que já na sua pátria se tinham ocupado com lavagem do ouro, e de cuja experiência o natural espírito inventivo e esclarecido dos portugueses e brasileiros logo tirou proveito, foi que os mineiros aperfeiçoaram esses processos de extração. Deve-se principalmente aos negros a adoção das bateias de madeira, redondas e de pouco fundo, de dois a três palmos de diâmetro, que permitem a separação rápida do ouro da terra, quando o cascalho é bastante rico. A eles se devem, também, as chamadas canoas, nas quais se estende um couro peludo de boi, ou uma flanela, cuja função é reter o ouro, que se apura depois em bateias.\n\n(ESCHWEGE, W. L. *Pluto Brasiliensis*. Belo Horizonte/São Paulo: Itatiaia/EDUSP, p. 167-168, v. 1, 1979 [1833]).\n\n**Texto 2**\n\n![Fotografia de uma bateia de madeira, vasilha redonda e rasa](fig:p13-f3)\n\nBateia. Museu do Ouro, Sabará, MG.\n\nTendo em vista seus conhecimentos gerais e com base no relato de Eschwege, geólogo e metalurgista alemão que esteve no Brasil entre 1809 e 1821, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "De que modo a presença da bateia em Minas Gerais, na época da mineração, está relacionada à circulação de saberes da África para o Brasil? Usando o conceito de diáspora, explique o valor histórico das técnicas citadas por Eschewege."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Tendo como contexto o período colonial, analise uma diferença entre a escravidão nas áreas urbanas da mineração e a escravidão nas áreas monocultoras de açúcar das capitanias do Nordeste. Explique como os povos escravizados utilizaram a seu favor as técnicas e saberes aprendidos com tradições culturais africanas ."
+    }
+   ],
+   "observacoes": "O caderno escreve “Eschewege” no item a (o enunciado e o texto dizem “Eschwege”) e “africanas .” com espaço antes do ponto no item b; grafias originais mantidas. O texto 1 e o texto 2 ficam lado a lado no caderno; a legenda da foto está fora do recorte da figura e foi transcrita como texto."
+  },
+  {
+   "numero": 12,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Quando completei dez anos, comecei a adestrar bois. Foi assim que aprendi que adestrar e colonizar são a mesma coisa. Tanto o adestrador quanto o colonizador começam por desterritorializar o ente atacado quebrando-lhe a identidade, tirando-o de sua cosmologia, distanciando-se de seu sagrado, impondo-lhe novos modos de vida e colocando-lhe outro nome. O processo de denominação é uma tentativa de apagamento de uma memória para que outra possa ser composta. Há adestradores que batem e há adestradores que fazem carinho.\n\n(Disponível em: SANTOS, Antônio Bispo dos. *A terra dá, a terra quer*. São Paulo: Ubu Editora/PISEAGRAMA, p.11 – 12, 2023.)\n\nAntônio Bispo dos Santos, nascido no Piauí, é escritor, mestre, quilombola e lavrador. A partir de conhecimentos em História que você adquiriu ao longo de sua formação e da reflexão apresentada no texto,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "explique a comparação entre o “adestrar” e o “colonizar” feita por Antônio Bispo dos Santos. Indique um processo histórico do período colonial em que “adestradores fazem carinho” e justifique sua resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "mencione um grupo minoritário brasileiro da segunda metade século XX cuja luta possa ser compreendida a partir das reflexões de Antônio Bispo dos Santos. Explique como duas ações citadas pelo autor podem ser identificadas na trajetória desse movimento."
+    }
+   ],
+   "observacoes": "O item b do caderno diz “segunda metade século XX” (sem “do”); grafia original mantida."
   }
  ],
  "respostas": {
@@ -151,6 +205,24 @@
    "itens": {
     "a": "Durante o processo colonial, os povos indígenas foram continuamente violados física e simbolicamente, por meio da conversão à fé cristã e da inferiorização de seu sistema de crenças. Um desses modos foi a formação de aldeamentos com as missões jesuíticas, que trataram de propagar, por meio da educação, o culto às imagens cristãs, numa estrutura escolar baseada na escolástica. A catequese, assim, pode ser considerada um dos principais modos de conversão à fé cristã junto aos povos originários. Outro modo de conversão foi a política indigenista, com a fragmentação da população autóctone, o que levava à formação de povos aliados e inimigos aos portugueses, com contínuas práticas de subjugação política e militar. Nesse processo histórico, houve a destruição de tradições locais e expropriação de objetos e artefatos de valor ritual, como os mantos tupinambás citados no enunciado. Com isso, a descaracterização e dissolução dos traços culturais e de pertencimento étnico geraram o desaparecimento desses povos, ainda que seus herdeiros tenham passado a ser reconhecidos na atualidade, como afirmado no Texto 1. Outras formas de desaparecimento foram guerras de extermínio, tomada do território, escravização, conversão religiosa e a imposição da língua portuguesa.",
     "b": "Os mantos tupinambás têm significado ritual, tendo sido usados por meio de sabedoria ancestral para momentos de grande importância das sociedades indígenas como enterros, assembleias e rituais religiosos. Como afirma o trecho do enunciado, os mantos não têm, para as comunidades indígenas na atualidade, apenas o aspecto artístico vinculado à tradição; antes, conjugam conexão com ancestralidade e luta pela existência simbólica e histórica. A política de repatriação, no caso do manto tupinambá que se encontra em Copenhague há três séculos, indica um processo de mobilização e de maior conscientização sobre os danos culturais, simbólicos e políticos causados pela expropriação de artefatos dos povos originários em contextos coloniais ou imperiais. Assim, a reivindicação de que esses itens retornem ao território de origem, com acompanhamento dos povos a eles relacionados, compõe uma política de memória e desejo de justiça histórica."
+   }
+  },
+  "10": {
+   "itens": {
+    "a": "O texto discute a vida de Erauso, que consegue vivenciar a virilidade e os papeis culturais masculinos no século XVII, sendo reconhecido por seus feitos de conquistas coloniais até mesmo pelo rei e recebendo autorização do Papa para viver sua identidade masculina. A aceitação dessa figura pela sociedade da época — inclusive pela Igreja Católica — mostra-se extraordinária. Vale destacar que tal aceitação se deve ao fato de que não havia disseminado na sociedade europeia, daquele contexto, um modelo normativo sobre as sexualidades tal qual reconhecido a partir da sociedade vitoriana (que dá origem à moralidade burguesa e reforça os binarismos de gênero). A ousadia da personagem — indo contra os ditames de instituições cujas práticas opressivas são conhecidas, como os conventos religiosos ou o exército — também é destacada.",
+    "b": "No século XVII, a Igreja e o Estado são instituições aliadas na formação do Absolutismo Monárquico na Espanha. A Instituição religiosa, assim, legitimava o poder real e era capaz de julgar e prescrever condutas sociais — como, por exemplo, em relação à sexualidade e ao gênero (lembremos das perseguições clericais e inquisitoriais às personagens que desviavam das prescrições religiosas). Outras funções que podemos citar e explicar são (i) o poder político — ao promover, inclusive financeira e ideologicamente, o processo de colonização —; (ii) e a expansão da fé cristã no Novo Mundo, como parte do projeto de dominação colonial."
+   }
+  },
+  "11": {
+   "itens": {
+    "a": "O geólogo Eschwege, no início do século XIX, reconhece que o artefato bateia, usado na mineração no contexto colonial na América Portuguesa, é de origem africana, sendo uma técnica apropriada na colônia para maior efetividade no processo de extração do ouro. Essa e outras técnicas ligadas à cultura, à religiosidade e ao trabalho estavam presentes em terras brasileiras, comprovando que, a partir da diáspora africana dada pelo tráfico transatlântico, os povos escravizados ajudaram e contribuíram com práticas e inovação no desenvolvimento do país. São fatores desse processo, assim, a própria resistência e continuidade de práticas culturais ancestrais e a criação de novas relações culturais em uma sociedade impactada pela cultura africana.",
+    "b": "Nas áreas urbanas, o desenvolvimento econômico ligado à mineração fez com que surgissem espaços de trabalho ligados à especialização técnica como ourives, ferreiros, cutelaria, mas também arquitetura e escultura. Também houve o desenvolvimento de maior mobilidade social, por exemplo, e até mesmo possibilidades de associativismo negro que deram acesso à liberdade para sujeitos africanos ou de ancestralidade africana. Essa mobilidade social um pouco mais presente nas áreas urbanas — ligadas à possibilidade técnica de sujeitos africanos, como os da Costa da Mina — é uma diferença em relação à escravidão nas áreas rurais, por exemplo nas regiões monocultoras de açúcar. Também é possível destacar que os espaços de resistência foram diferentes nas áreas de mineração e nas áreas monocultoras, já que há consenso historiográfico de que uma maior liberdade de ação e acúmulo de renda permitiu um novo alcance de status social entre libertos no contexto urbano, sobretudo ligado ao ciclo de exploração do ouro. Eles puderam, por exemplo, criar irmandades e grupos para proteger seus interesses, assim como auxiliar na compra de alforrias."
+   }
+  },
+  "12": {
+   "itens": {
+    "a": "Antônio Bispo dos Santos alude em sua narrativa e reflexão históricas aos mecanismos de ação da colonização, formulando uma comparação com o processo de adestramento de bois, a saber: 1) a desterritorialização dos povos, como ocorrido com o tráfico transatlântico na escravidão moderna; 2) o distanciamento dos elementos culturais ligados ao sagrado, como nos processos de proibição dos cultos africanos no Brasil colonial, ou a tentativa de cristianização desses sujeitos, a exemplo das missões jesuíticas; 3) o estabelecimento do trabalho forçado que imprime outro modo de vida ao sujeito colonizado e escravizado e 4) o apagamento da memória, advindo de processos de despersonalização, desconexão com a família e sociedade de origem, assim como perda de conexão com a ancestralidade. O colonizado seria, portanto, adestrado como um animal, na tentativa de garantir sua docilidade frente ao colonizador. Como exemplo, o candidato poderia indicar a ação catequética da Igreja Católica durante o período colonial, a abolição da escravidão, em 1888, realizada de forma a manter o racismo e a desigualdade social no país, entre outros.",
+    "b": "No século XX, ocorreram diferentes movimentos históricos contrários ao processo de colonização. Pode-se citar, por exemplo no Brasil, a formação do Movimento Negro Unificado, fundado em 1978. Por meio de atividades como ativismo político, cultural e social, foram realizados atos públicos contrários ao racismo, organização de peças de teatro, oficinas, cursos e concursos de beleza que incentivaram a cultura de matriz africana e lutaram contra a colonização e apagamento da cultura negra brasileira. Os movimentos sociais indígenas que lutam pela representatividade política, opondo-se a séculos de práticas violentas contra diferentes etnias, também se configuram como reações de luta contra o colonialismo. Por fim, poderíamos citar o movimento quilombola contemporâneo, que, por meio da luta pela terra, expressa a resistência político-cultural que se confronta com as formas de apagamento da identidade negra e procura preservar a memória e o direito à existência desses grupos."
    }
   }
  }
