@@ -1251,7 +1251,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "Nomes populares não dizem nada sobre gênero ou espécie: duas aves com nomes diferentes podem ser da mesma espécie, e um mesmo nome pode designar espécies diferentes. Assim, não dá para afirmar que há 23 gêneros nem 23 espécies.\n\nA única certeza que o trecho permite é que todos os animais citados são aves, e todas as aves pertencem a uma mesma classe (Aves). Como a classe é um nível amplo, abaixo dela pode haver qualquer número de ordens, famílias, gêneros e espécies.\n\nAs alternativas B, C e D afirmam um gênero ou uma família únicos, o que nada no texto sustenta.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q62",
@@ -1269,7 +1271,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "A peste bubônica é causada pela bactéria *Yersinia pestis*, o que já elimina D e E (infecções virais; a D descreve a leptospirose, que aliás é bacteriana, e a E lembra dengue ou febre amarela).\n\nA forma bubônica é transmitida principalmente pela picada de pulgas de roedores infectados (ou pelo contato e mordida desses animais). Como é uma doença bacteriana, o tratamento é feito com antibióticos.\n\nA alternativa A descreve transmissão fecal-oral, típica de cólera ou febre tifoide. A C descreve a inalação, que corresponde à forma pneumônica, e não à bubônica citada no texto.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q63",
@@ -1289,7 +1293,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Biotecnologia",
+   "resolucao": "Cada quimera combina duas espécies diferentes, e \"crocopato\" e \"patocrocodilo\" são a mesma combinação. Logo, a ordem não importa e o número de quimeras é uma combinação de 20 espécies tomadas 2 a 2:\n\n$C_{20,2} = \\frac{20 \\cdot 19}{2} = 190$\n\nCom uma quimera por dia, todos os dias, o cientista levaria 190 dias.\n\nBactérias que produzem insulina humana recebem o gene humano da insulina: são organismos transgênicos, obtidos pela técnica de transgenia (DNA recombinante). Terapia gênica é a introdução de genes em células de um paciente para tratar uma doença, e clonagem produz cópias geneticamente idênticas, sem incorporar genes de outra espécie.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q64",
@@ -1307,7 +1313,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "A água destilada é hipotônica em relação ao interior das células, então a água entra nelas por osmose.\n\nAs hemácias não têm parede celular: incham até romper (hemólise) e liberam a hemoglobina na solução. Por isso, ao microscópio não há hemácias íntegras, e a hemoglobina aparece na análise da solução.\n\nAs algas verdes têm parede celular de celulose, que resiste à pressão interna e impede o rompimento. Elas continuam íntegras e precipitam na centrifugação, e a clorofila fica dentro dos cloroplastos, sem passar para a solução.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q65",
@@ -1325,7 +1333,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "Em mamíferos, machos (XY) e fêmeas (XX) da mesma espécie têm o mesmo número diploide de cromossomos: a diferença está só no tipo do segundo cromossomo sexual, não na quantidade. Já espécies diferentes do mesmo gênero podem ter números diferentes (no cavalo, $2n = 64$; no jumento, $2n = 62$).\n\nPor isso a D está correta. A A erra ao dizer que fêmeas e machos têm números diferentes. A B e a E falham porque o cromossomo Y é menor e tem morfologia diferente do X, então macho e fêmea não compartilham cromossomos sexuais iguais. A C erra porque os autossomos são iguais em machos e fêmeas da mesma espécie.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q66",
@@ -1343,7 +1353,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "O \"mensageiro\" produzido no ápice do coleóptilo é a auxina, hormônio responsável pelo fototropismo.\n\nA luz faz a auxina migrar para o lado não iluminado do caule. Ali, ela estimula o alongamento das células (e não a multiplicação), e esse lado cresce mais que o iluminado. O resultado é a curvatura do caule em direção à luz.\n\nAs alternativas B e C trocam alongamento por multiplicação ou erram o lado do caule. As giberelinas (grafadas \"giberilina\" no caderno) atuam no crescimento do caule e na germinação, mas não são o mensageiro do fototropismo descrito por Darwin.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q67",
@@ -1351,7 +1363,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Analise o esquema, que representa um mecanismo para o controle e manutenção da temperatura ambiente em um determinado cômodo de uma residência.\n\n![Esquema do controle de temperatura de um cômodo: um termômetro ao centro, rotulado “Temperatura no equilíbrio”, e setas ligando os rótulos “Temperatura ambiente aumenta”, “Resposta: aquecimento ligado”, “Estímulo: termostato detecta temperatura mais baixa que do equilíbrio”, “Temperatura ambiente diminui”, “Resposta: aquecimento desligado” e “Estímulo: termostato detecta temperatura mais alta que a do equilíbrio”](fig:p22-f1)\n\nO organismo humano possui mecanismos fisiológicos análogos ao representado no esquema, os quais mantêm a homeostase ou equilíbrio interno do corpo.\n\nDois exemplos de mecanismos fisiológicos que atuam de modo análogo ao representado no esquema são",
+   "enunciado": "Analise o esquema, que representa um mecanismo para o controle e manutenção da temperatura ambiente em um determinado cômodo de uma residência.\n\n![Esquema do controle de temperatura de um cômodo: um termômetro ao centro, rotulado “Temperatura no equilíbrio”, e setas ligando os rótulos “Temperatura ambiente aumenta”, “Resposta: aquecimento ligado”, “Estímulo: termostato detecta temperatura mais baixa que a do equilíbrio”, “Temperatura ambiente diminui”, “Resposta: aquecimento desligado” e “Estímulo: termostato detecta temperatura mais alta que a do equilíbrio”](fig:p22-f1)\n\nO organismo humano possui mecanismos fisiológicos análogos ao representado no esquema, os quais mantêm a homeostase ou equilíbrio interno do corpo.\n\nDois exemplos de mecanismos fisiológicos que atuam de modo análogo ao representado no esquema são",
    "alternativas": {
     "A": "a determinação da intensidade e frequência das contrações uterinas durante o parto, e a produção de hormônios pela tireoide, sob controle hipotalâmico.",
     "B": "a determinação da intensidade e frequência das contrações uterinas durante o parto, e a concentração de dióxido de carbono no líquido extracelular.",
@@ -1361,7 +1373,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "resolucao": "O termostato funciona por retroalimentação negativa: quando a temperatura se afasta do equilíbrio, a resposta age no sentido contrário e a traz de volta.\n\nA produção de hormônios da tireoide é regulada assim: excesso de $\\text{T}_3$ e $\\text{T}_4$ inibe o hipotálamo e a hipófise (menos TRH e TSH), e a falta deles estimula a produção. A glicemia também: glicose alta leva à liberação de insulina, que a reduz; glicose baixa leva ao glucagon, que a eleva.\n\nAs contrações do parto e a secreção de leite são exemplos clássicos de retroalimentação positiva (o estímulo amplifica a resposta), assim como o agravamento cardíaco na perda excessiva de sangue. Isso elimina A, B, C e D.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "unesp-2022-1-q68",
@@ -1379,7 +1393,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "Família A: a mulher I-1 é daltônica ($X^dX^d$), então toda filha dela recebe um $X^d$. A mulher II-3 não é daltônica: é portadora, $X^DX^d$. Como não há acondroplasia na família, ela é $aa$.\n\nFamília B: o homem II-1 tem acondroplasia (dominante), mas a mãe I-1 é normal ($aa$), então ele é $Aa$. Sem daltonismo na família, ele é $X^DY$.\n\nAcondroplasia: $Aa \\times aa$ dá $\\frac{1}{2}$ de filhos normais ($aa$).\n\nMenina: probabilidade $\\frac{1}{2}$; ela recebe o $X^D$ do pai e nunca é daltônica. Logo, $\\frac{1}{2} \\cdot 1 \\cdot \\frac{1}{2} = \\frac{1}{4} = 25\\%$.\n\nMenino: probabilidade $\\frac{1}{2}$; recebe o $X^D$ da mãe com probabilidade $\\frac{1}{2}$. Logo, $\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{8} = 12{,}5\\%$.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q69",
@@ -1397,7 +1413,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "Os íons citados são $\\text{Na}^+$, $\\text{Mg}^{2+}$ e $\\text{K}^+$.\n\n$\\text{Na}^+$ e $\\text{Mg}^{2+}$ são isoeletrônicos (10 elétrons, duas camadas). O magnésio tem mais prótons (12 contra 11), atrai mais a eletrosfera e por isso é o menor dos dois.\n\nO $\\text{K}^+$ tem 18 elétrons distribuídos em três camadas, então é o maior.\n\nOrdem crescente: $\\text{Mg}^{2+} < \\text{Na}^+ < \\text{K}^+$, ou seja, magnésio – sódio – potássio.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q70",
@@ -1415,7 +1433,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Massas molares: $\\text{SiO}_2 = 60$ g/mol, C = 12 g/mol, SiC = 40 g/mol.\n\nQuantidades: $\\frac{6{,}0 \\times 10^6\\ \\text{g}}{60} = 1{,}0 \\times 10^5$ mol de $\\text{SiO}_2$ e $\\frac{3{,}6 \\times 10^6\\ \\text{g}}{12} = 3{,}0 \\times 10^5$ mol de C. A proporção 1 : 3 da equação é respeitada exatamente, então não há excesso.\n\nCom rendimento de 100%, formariam $1{,}0 \\times 10^5$ mol de SiC, isto é, $1{,}0 \\times 10^5 \\cdot 40 = 4{,}0 \\times 10^6$ g = 4,0 t.\n\nCom rendimento de 75%: $0{,}75 \\cdot 4{,}0 = 3{,}0$ t. A alternativa B (4,0 t) é a armadilha de quem esquece o rendimento.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q71",
@@ -1433,7 +1453,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "O abaixamento da temperatura de congelamento é uma propriedade coligativa: depende do número de partículas dissolvidas. Quanto mais partículas, menor a temperatura de congelamento.\n\nPara a mesma concentração em mol/L, compare quantas partículas cada soluto gera:\n- $\\text{C}_6\\text{H}_{12}\\text{O}_6$ (glicose): não se dissocia, 1 partícula;\n- $\\text{K}_2\\text{SO}_4 \\to 2\\text{K}^+ + \\text{SO}_4^{2-}$: 3 partículas;\n- $\\text{NH}_4\\text{C}\\ell$ e $\\text{CuSO}_4$: 2 partículas cada;\n- $\\text{CH}_3\\text{COOH}$: ácido fraco, pouco ionizado, pouco mais de 1 partícula.\n\nO $\\text{K}_2\\text{SO}_4$ gera mais partículas e congela na menor temperatura.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q72",
@@ -1451,7 +1473,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "Massa do princípio ativo em 50 mL: $10\\ \\text{mg/mL} \\cdot 50\\ \\text{mL} = 500\\ \\text{mg} = 0{,}5\\ \\text{g}$.\n\nQuantidade em mol: $n = \\frac{0{,}5}{5{,}0 \\times 10^2} = 1{,}0 \\times 10^{-3}$ mol.\n\nNúmero de moléculas: $1{,}0 \\times 10^{-3} \\cdot 6{,}0 \\times 10^{23} = 6{,}0 \\times 10^{20}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q73",
@@ -1469,7 +1493,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Funções inorgânicas",
+   "resolucao": "A ideia de Tachenius corresponde à reação de deslocamento: um ácido mais forte, misturado ao sal de um ácido mais fraco, forma o ácido mais fraco.\n\nO ácido nítrico é forte e o ácido acético é fraco. Misturando ácido nítrico com acetato de sódio:\n\n$\\text{HNO}_3 + \\text{CH}_3\\text{COONa} \\to \\text{NaNO}_3 + \\text{CH}_3\\text{COOH}$\n\nO ácido forte desloca o ácido acético do seu sal. Na C ocorre o contrário (ácido fraco com sal de ácido forte, sem reação significativa); A e D envolvem bases, e na B o ácido e o sal têm o mesmo ânion, sem deslocamento.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q74",
@@ -1487,7 +1513,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "resolucao": "Use o princípio de Le Chatelier em cada procedimento:\n\n1. Aumento de pressão favorece o lado com menos mols de gás. Reagentes: 2 mol; produtos: 4 mol. O equilíbrio vai para os reagentes e o rendimento de $\\text{H}_2$ cai.\n2. A reação direta é endotérmica ($\\Delta\\text{H} > 0$). Aquecer desloca o equilíbrio para os produtos: mais $\\text{H}_2$.\n3. Catalisador só acelera a chegada ao equilíbrio; não muda o rendimento.\n4. Retirar CO (produto) faz o sistema repor esse produto, deslocando-se para a direita: mais $\\text{H}_2$.\n\nFavorecem o rendimento: 2 e 4.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q75",
@@ -1505,7 +1533,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Os aromas são ésteres, formados por esterificação: ácido carboxílico + álcool → éster + água.\n\nBanana: o éster tem a parte do álcool vinda da cadeia da leucina (–$\\text{CH}_2$–O–) e a parte ácida $\\text{CH}_3$–CO–, que é o grupo acetila. Então X, que reage com o álcool, é o ácido acético.\n\nMaçã: o éster tem a parte ácida vinda da cadeia da leucina (–CO–O–) e a parte do álcool –$\\text{CH}_2$–$\\text{CH}_3$, um grupo etila. Então Y, que reage com o ácido, é o etanol.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q76",
@@ -1523,7 +1553,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "Todos os pontos do barbante esticado giram juntos em torno do ponto fixo, com a mesma velocidade angular $\\omega$; a velocidade escalar de cada ponto é $v = \\omega R$.\n\nO barbante varre $30^\\circ = \\frac{\\pi}{6} = \\frac{3}{6} = 0{,}5$ rad em 3 s, então $\\omega = \\frac{0{,}5}{3} = \\frac{1}{6}$ rad/s.\n\nO ponto A está 18 cm mais longe do centro que o ponto B. Assim:\n\n$v_\\text{A} - v_\\text{B} = \\omega (R_\\text{A} - R_\\text{B}) = \\frac{1}{6} \\cdot 18 = 3{,}0\\ \\text{cm/s}$\n\nNão é preciso saber o comprimento do barbante: só a diferença de raios importa.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q77",
@@ -1541,7 +1573,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Gravitação",
+   "resolucao": "Use a lei da gravitação universal, $F = \\frac{G M m}{d^2}$.\n\nMassa da estrela: $M = 0{,}025 \\cdot 2 \\times 10^{30} = 5 \\times 10^{28}$ kg.\nMassa do exoplaneta: $m = 5 \\cdot 2 \\times 10^{27} = 1 \\times 10^{28}$ kg.\nDistância: $d = 40 \\cdot 1{,}5 \\times 10^{11} = 6 \\times 10^{12}$ m, então $d^2 = 3{,}6 \\times 10^{25}\\ \\text{m}^2$.\n\n$F = \\frac{6 \\times 10^{-11} \\cdot 5 \\times 10^{28} \\cdot 1 \\times 10^{28}}{3{,}6 \\times 10^{25}} = \\frac{3 \\times 10^{46}}{3{,}6 \\times 10^{25}} \\approx 8{,}3 \\times 10^{20}\\ \\text{N}$\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q78",
@@ -1559,7 +1593,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Pelo teorema do impulso, o impulso da força resultante é igual à variação da quantidade de movimento. No gráfico $F_\\text{R} \\times t$, o impulso é a área sob a curva.\n\nÁrea: $F \\cdot T_1 + 2F \\cdot T_2 = F(T_1 + 2T_2)$.\n\nComo o veículo parte do repouso: $M v - 0 = F(T_1 + 2T_2)$, logo\n\n$v = \\frac{F(T_1 + 2T_2)}{M}$\n\nA alternativa D troca os valores da força nos dois intervalos (o gráfico mostra $F$ em $T_1$ e $2F$ em $T_2$).\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q79",
@@ -1577,7 +1613,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Calcule quanto calor as águas liberam até chegar a 0 °C e quanto o gelo precisa para virar água a 0 °C.\n\nCalor cedido pelas águas até 0 °C: $600 \\cdot 1 \\cdot 10 + 800 \\cdot 1 \\cdot 5 = 6\\,000 + 4\\,000 = 10\\,000$ cal.\n\nCalor que o gelo absorve:\n- aquecer de –40 °C até 0 °C: $100 \\cdot 0{,}5 \\cdot 40 = 2\\,000$ cal;\n- derreter tudo: $100 \\cdot 80 = 8\\,000$ cal.\nTotal: $10\\,000$ cal.\n\nOs dois valores coincidem: o gelo derrete por completo exatamente quando toda a água chega a 0 °C. O equilíbrio é $600 + 800 + 100 = 1\\,500$ g de água líquida a 0 °C.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q80",
@@ -1595,7 +1633,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "Os raios do Sol chegam praticamente paralelos, então a imagem real do Sol se forma no foco: $f = 40$ cm.\n\nImagem direita (não invertida) e duas vezes maior num espelho côncavo: o objeto fica entre o foco e o espelho e a imagem é virtual. Pela ampliação, $A = \\frac{f}{f - p}$:\n\n$2 = \\frac{40}{40 - p} \\Rightarrow 80 - 2p = 40 \\Rightarrow p = 20\\ \\text{cm}$\n\nConferindo: $\\frac{1}{p'} = \\frac{1}{40} - \\frac{1}{20} = -\\frac{1}{40}$, então $p' = -40$ cm (virtual) e $A = -\\frac{p'}{p} = 2$.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q81",
@@ -1613,7 +1653,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "resolucao": "Luz visível e raios gama são ondas eletromagnéticas e, no vácuo, todas se propagam com a mesma velocidade, $c \\approx 3 \\times 10^8$ m/s. O que muda entre elas é a frequência e o comprimento de onda.\n\nPor isso a E está correta. A A erra porque ondas eletromagnéticas também se propagam em meios materiais (a luz atravessa o ar e a água). A B e a C invertem as características: os raios gama têm frequência maior e comprimento de onda menor que a luz visível, são muito energéticos e perigosos, e não são mais rápidos no vácuo. A D erra porque, saindo juntos da mesma fonte, chegam ao mesmo tempo.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q82",
@@ -1631,7 +1673,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "A energia consumida é $E = P \\cdot \\Delta t$.\n\nConsumo diário: $\\frac{42\\ \\text{kWh}}{30} = 1{,}4\\ \\text{kWh}$ por dia.\n\nCom potência $P = 7\\,000\\ \\text{W} = 7\\ \\text{kW}$:\n\n$\\Delta t = \\frac{1{,}4\\ \\text{kWh}}{7\\ \\text{kW}} = 0{,}2\\ \\text{h} = 0{,}2 \\cdot 60 = 12\\ \\text{min}$\n\nA tensão de 220 V não é necessária para o cálculo.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q83",
@@ -1649,7 +1693,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "No mapa, o caminho de P a Q é a hipotenusa de um triângulo retângulo de catetos 3 cm e 4 cm:\n\n$\\overline{PQ}^2 = 3^2 + 4^2 = 25 \\Rightarrow \\overline{PQ} = 5\\ \\text{cm}$\n\nPela escala gráfica, 1,6 cm no mapa correspondem a 200 m. Então:\n\n$\\frac{5}{1{,}6} \\cdot 200 = 3{,}125 \\cdot 200 = 625\\ \\text{m}$\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q84",
@@ -1667,7 +1713,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Estatística",
+   "resolucao": "Teste cada alternativa com os dados da tabela.\n\nA: palavras + figuras $= 84 + 90 = 174$; $\\frac{174}{250} = 69{,}6\\%$, e não 73%.\nB: totais em ordem: 20, 23, 23, 24, 24, 26, 27, 27, 28, 28. Mediana $= \\frac{24 + 26}{2} = 25$, e não 24.\nC: a criança 2 acertou mais figuras (10) que palavras (9), mas acertou 9 números, o mesmo que palavras. Falsa.\nD: figuras em ordem: 7, 8, 8, 9, 9, 9, 10, 10, 10, 10, mediana $= 9$. Números em ordem: 5, 6, 7, 7, 8, 8, 8, 9, 9, 9, mediana $= 8$. A criança 5 acertou 9 figuras e 8 números. Verdadeira.\nE: o máximo possível é $10 \\cdot 30 = 300$ acertos; $\\frac{250}{300} \\approx 83\\%$, e não 80%.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q85",
@@ -1685,7 +1733,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Pelo gráfico, 1990 corresponde a $x = 1$ e cada ano marcado avança 5 anos por unidade (2020 é $x = 7$). Então 2025 corresponde a $x = 8$.\n\nEscreva $15649 = 100 \\cdot 156{,}49 = 100 \\cdot e^{5{,}053}$. Assim:\n\n$y = 100 \\cdot e^{5{,}053} \\cdot e^{-0{,}687 \\cdot 8} = 100 \\cdot e^{5{,}053 - 5{,}496} = 100 \\cdot e^{-0{,}443}$\n\n$y = \\frac{100}{e^{0{,}443}} = \\frac{100}{1{,}56} \\approx 64$\n\nO preço previsto é de cerca de US\\$ 64 por kWh.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q86",
@@ -1703,7 +1753,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geometria analítica",
+   "resolucao": "Traduza as condições:\n- soma: $x + y \\geq 10$, ou seja, a região acima da reta $x + y = 10$, incluindo a reta (linha cheia);\n- diferença menor que 4 em qualquer ordem: $|x - y| < 4$, isto é, $x - 4 < y < x + 4$, a faixa entre as retas $y = x + 4$ e $y = x - 4$, sem as retas (linhas tracejadas).\n\nA solução é a parte da faixa entre as tracejadas que fica acima da reta $x + y = 10$: uma faixa inclinada que começa no segmento dessa reta entre os pontos (3, 7) e (7, 3) e segue para cima.\n\nÉ o que mostra a alternativa A. A C pinta a região fora da faixa, e a D, a região abaixo de $x + y = 10$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q87",
@@ -1721,7 +1773,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Encontre $k$ com um ponto do gráfico. A curva passa por (4, 4): $4 = k\\sqrt{4} = 2k$, então $k = 2$. (Confira com (16, 8): $2\\sqrt{16} = 8$.)\n\nPara $x = 28$ m:\n\n$y = 2\\sqrt{28} = 2\\sqrt{4 \\cdot 7} = 2 \\cdot 2\\sqrt{7} = 4\\sqrt{7}\\ \\text{s}$\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q88",
@@ -1739,7 +1793,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "É uma probabilidade condicional: já se sabe que Renato tem excesso de peso, então o espaço amostral passa a ser só a coluna \"Peso em excesso\".\n\nNessa coluna: 15% com pressão normal e 10% com pressão elevada, total de 25%.\n\n$P(\\text{elevada} \\mid \\text{excesso}) = \\frac{10\\%}{25\\%} = 0{,}4 = 40\\%$\n\nA alternativa E (10%) é a armadilha de quem usa a porcentagem do grupo todo, sem condicionar.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q89",
@@ -1757,7 +1813,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "resolucao": "A base é o retângulo BCDE com um \"recorte\" no formato do quadrado AHGF. Área da base: $3 \\cdot 4 - 3 = 9\\ \\text{m}^2$.\n\nO quadrado tem área 3, então $HG = \\sqrt{3}$ m. A altura VH é perpendicular à base, e o triângulo VHG é retângulo em H:\n\n$VH = HG \\cdot \\text{tg}\\,60^\\circ = \\sqrt{3} \\cdot \\sqrt{3} = 3\\ \\text{m}$\n\nVolume: $V = \\frac{1}{3} \\cdot 9 \\cdot 3 = 9\\ \\text{m}^3 = 9\\,000$ litros.\n\nCusto: $9\\,000 \\cdot 5 = 45\\,000$, isto é, R\\$ 45.000,00.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "unesp-2022-1-q90",
@@ -1775,7 +1833,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Escreva 2021 como soma de potências de 2, sempre tirando a maior que cabe:\n\n$2021 = 1024 + 512 + 256 + 128 + 64 + 32 + 4 + 1$\n\nIsso usa $2^{10}, 2^9, 2^8, 2^7, 2^6, 2^5, 2^2$ e $2^0$; faltam $2^4$, $2^3$ e $2^1$. Em binário:\n\n$2021 = 11111100101$\n\nSão 11 algarismos: 8 iguais a 1 e 3 iguais a 0. A diferença é $8 - 3 = 5$.\n\n**Resposta: C**",
+   "revisao": "ok"
   }
  ]
 }
