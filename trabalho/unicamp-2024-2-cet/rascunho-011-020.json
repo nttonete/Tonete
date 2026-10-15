@@ -59,6 +59,60 @@
         }
       ],
       "observacoes": ""
+    },
+    {
+      "numero": 14,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O controle da interação entre uma superfície (hidrofílica ou hidrofóbica) e a água é de suma importância em muitas aplicações, como o tratamento de impermeabilização de superfícies. Em um estudo recente, observou-se que gotas de água projetadas sobre superfícies extremamente hidrofóbicas são rebatidas como se fossem bolas de borracha.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual a altura $h$ da qual uma gota deve se desprender, a partir do repouso, para chegar, com velocidade de módulo $v = 40\\ \\text{cm/s}$, ao ponto de impacto com a superfície hidrofóbica? Desconsidere o atrito da gota com o ar."
+        },
+        {
+          "rotulo": "b",
+          "texto": "No estudo citado, gotas de água de diferentes diâmetros chegam à superfície hidrofóbica com velocidade de módulo $\\left|\\vec{v}_{\\text{inicial}}\\right| = 0{,}3\\ \\text{m/s}$, e afastam-se logo após a colisão, com coeficiente de restituição $e \\simeq 1$. O gráfico no espaço de respostas mostra o intervalo de tempo $\\Delta t$ durante o qual as gotas ficam em contato com a superfície em função da massa $m$ da gota. Qual o módulo da força média, $\\left|\\vec{F}_{\\text{média}}\\right|$, exercida pela superfície sobre uma gota de massa $m = 8 \\times 10^{-6}\\ \\text{kg}$?\n\n*Campo de resolução:*\n\n![Gráfico do intervalo de tempo Δt (10⁻³ s) em função da massa m (10⁻⁶ kg) da gota, com seis pontos experimentais; o eixo Δt vai de 9 a 18 e o eixo m, de 4 a 19](fig:p16-c3)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O garimpo artesanal de ouro é responsável por 37% da emissão global antropogênica de mercúrio, mercúrio este proveniente do processo de recuperação do ouro a partir do aquecimento da amálgama (liga metálica entre o Hg e o Au) usada para separar o ouro do solo. Conforme representado na figura ao lado, em um dos processos de contaminação do meio ambiente, o mercúrio metálico reage com o gás ozônio, formando gás oxigênio e óxido de mercúrio (processo 1). Esse óxido formado reage com a água, gerando hidróxido de mercúrio (processo 2), o qual se deposita em ambientes aquáticos e no solo, atingindo o ser humano.\n\n![Esquema da contaminação por mercúrio: amálgama aquecida numa fogueira libera vapor de mercúrio (Hg⁰) e separa o ouro (Au); o Hg⁰ passa a Hg²⁺ no processo (1), sob a luz do sol, e o Hg²⁺ vai para a água no processo (2); o Hg⁰ também é captado pela vegetação e chega ao solo, e gotas com Hg²⁺ caem sobre o solo](fig:p17-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Nomeie o tipo de reação que ocorre nos processos 1 e 2 identificados na figura acima e escreva as respectivas equações químicas balanceadas."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A política, a ciência e a sociedade civil têm seu papel na preservação ambiental. Oportunidades de pesquisa química para reduzir os impactos da mineração artesanal de ouro passam pelo desenvolvimento de: (1) filtros de ar e máscaras para prevenção de inalação de vapores de mercúrio; (2) ajustes do solo para evitar a absorção de mercúrio nas culturas; (3) processos químicos específicos para extrair ouro de rejeitos e (4) diagnósticos pontuais para exposição e envenenamento por mercúrio. Preencha a tabela no campo de resposta, associando o número de cada desenvolvimento à correspondente oportunidade de pesquisa. Justifique sua escolha para o desenvolvimento atribuído <u>somente</u> à oportunidade **“Mitigação de riscos”**.\n\n*Campo de resolução:*\n\n![Tabela a preencher: título \"Oportunidades de pesquisa química para reduzir os impactos da mineração artesanal de ouro\", com as colunas Detecção de mercúrio, Mitigação de riscos, Remediação e Mineração sem mercúrio; a linha \"Desenvolvimento de:\" traz um par de parênteses vazios em cada coluna](fig:p17-c1)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 16,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "De acordo com a Organização Meteorológica Mundial, a temperatura média global para julho de 2023 foi a mais alta já registrada, e este ano poderá ser o mais quente da história. Alguns cientistas afirmam que o sistema climático da Terra está fora do seu balanço energético, com um contínuo acúmulo de calor observado nas últimas décadas. Com base no texto e nas informações apresentadas na figura, responda às questões a seguir:\n\n![Figura \"Inventário de calor da Terra, 2006–2020\": radiação solar incidente, radiação de saída e ganho total de calor de 381 ZJ, distribuído entre oceano 89%, terra 5%, criosfera 4% e atmosfera 2%](fig:p18-f2)\n\nDados: Massa de água dos oceanos: $1{,}4 \\times 10^{21}\\ \\text{kg}$; calor específico da água: $4180\\ \\text{J/kg} \\cdot \\text{K}$; entalpia de fusão da água: $3{,}3 \\times 10^5\\ \\text{J/kg}$; $\\text{ZJ} = 1 \\times 10^{21}\\ \\text{J}$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Para o período de 2006-2020, calcule quantas toneladas de água foram acrescidas aos oceanos por conta do derretimento do gelo, considerando que este tenha sido o único evento térmico ocorrido na criosfera. Calcule o aumento da temperatura média dos oceanos, desconsiderando a água proveniente do derretimento do gelo e considerando a água do mar como sendo água pura."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Observando a figura, explique o mecanismo e as causas que levaram ao ganho total extra de energia (381 ZJ) da Terra no período considerado."
+        }
+      ],
+      "observacoes": ""
     }
   ],
   "respostas": {
@@ -78,6 +132,24 @@
       "itens": {
         "a": "i)\n\n$$C = (K\\varepsilon_0)\\left(\\frac{A}{d}\\right) = 4 \\times (9 \\times 10^{-12}\\ \\text{F/m}) \\times \\left(\\frac{2{,}0\\ \\mu\\text{m}^2}{0{,}1\\ \\mu\\text{m}}\\right) = 4 \\times (9 \\times 10^{-12}\\ \\text{F/m}) \\times \\left(\\frac{2{,}0 \\times (10^{-6}\\ \\text{m})^2}{0{,}1 \\times 10^{-6}\\ \\text{m}}\\right) = 7{,}2 \\times 10^{-16}\\ \\text{F}$$\n\nii)\n\n$$Q = CV = (7{,}2 \\times 10^{-16}\\ \\text{F}) \\times (5{,}0\\ \\text{V}) = 3{,}6 \\times 10^{-15}\\ \\text{C}$$",
         "b": "i)\n\n$\\text{tg}\\,\\theta_1 = \\dfrac{y_1}{D} = \\dfrac{0{,}28\\ \\text{m}}{0{,}5\\ \\text{m}} = 0{,}56$; usando a Tabela 1, encontramos $\\text{sen}\\,\\theta_1 = 0{,}48$.\n\n$$d\\,\\text{sen}\\,\\theta_1 = m_1\\lambda_1 \\Rightarrow d = \\frac{2 \\times \\lambda_1}{\\text{sen}\\,\\theta_1} = \\frac{2 \\times 192\\ \\text{nm}}{0{,}48} = 800\\ \\text{nm}.$$\n\nii) Do diagrama, $y_2 = 0{,}17\\ \\text{m}$\n\n$\\text{tg}\\,\\theta_2 = \\dfrac{y_2}{D} = \\dfrac{0{,}17\\ \\text{m}}{0{,}5\\ \\text{m}} = 0{,}34$; usando a Tabela 1, encontramos $\\text{sen}\\,\\theta_2 = 0{,}33$.\n\n$$d\\,\\text{sen}\\,\\theta_2 = m_2\\lambda_2 \\Rightarrow \\lambda_2 = \\frac{d\\,\\text{sen}\\,\\theta_2}{m_2} = \\frac{800\\ \\text{nm} \\times 0{,}33}{1} = 264\\ \\text{nm}.$$\n\n![Tabela 2 preenchida: λ1 = 192 nm, m = 2, y = 0,28 m, tg θ = 0,56, sen θ = 0,48, d = 800 nm; λ2 = 264 nm, m = 1, y = 0,17 m, tg θ = 0,34, sen θ = 0,33; os valores acrescentados à tabela estão em azul](fig:r08-c1)"
+      }
+    },
+    "14": {
+      "itens": {
+        "a": "Conservação da energia mecânica:\n\n$$E_{\\text{m, inicial}} = E_{\\text{m, final}} \\Rightarrow \\left(\\cancel{\\frac{mv^2}{2}} + mgh\\right)_{\\text{inicial}} = \\left(\\frac{mv^2}{2} + \\cancel{mgh}\\right)_{\\text{final}}$$\n\n$$\\cancel{m}gh_{\\text{inicial}} = \\frac{\\cancel{m}v_{\\text{final}}^2}{2} \\Rightarrow h_{\\text{inicial}} = \\frac{v_{\\text{final}}^2}{2g} = \\frac{(0{,}4\\ \\text{m/s})^2}{2 \\times 10\\ \\text{m/s}^2} = 8{,}0 \\times 10^{-3}\\ \\text{m} = 8{,}0\\ \\text{mm}$$",
+        "b": "Para uma massa $m = 8 \\times 10^{-6}\\ \\text{kg}$, o gráfico fornece $\\Delta t = 12 \\times 10^{-3}\\ \\text{s}$.\n\n$$\\vec{I} = \\Delta\\vec{p} = \\vec{F}_{\\text{média}}\\Delta t \\Rightarrow \\left|\\vec{F}_{\\text{média}}\\right| = \\frac{\\left|\\Delta\\vec{p}\\right|}{\\Delta t}$$\n\nComo $e \\simeq 1$, $\\vec{v}_{\\text{final}} = -\\vec{v}_{\\text{inicial}} \\Rightarrow \\vec{p}_{\\text{final}} = -\\vec{p}_{\\text{inicial}} \\Rightarrow \\left|\\Delta\\vec{p}\\right| = 2 \\times \\left|\\vec{p}_{\\text{inicial}}\\right| = 2 \\times m \\times \\left|\\vec{v}_{\\text{inicial}}\\right|$.\n\nAssim:\n\n$$\\left|\\vec{F}_{\\text{média}}\\right| = \\frac{\\left|\\Delta\\vec{p}\\right|}{\\Delta t} = \\frac{2 \\times m \\times \\left|\\vec{v}_{\\text{inicial}}\\right|}{\\Delta t} = \\frac{2 \\times (8 \\times 10^{-6}\\ \\text{kg}) \\times (0{,}3\\ \\text{m/s})}{12 \\times 10^{-3}\\ \\text{s}} = \\frac{4{,}8}{12} \\times 10^{-3}\\ \\text{N} = 4 \\times 10^{-4}\\ \\text{N}$$"
+      }
+    },
+    "15": {
+      "itens": {
+        "a": "Processo 1 – reação de oxirredução\n\n$$\\text{Hg}^0\\ \\text{(g)} + \\text{O}_3\\ \\text{(g)} \\rightarrow \\text{HgO}\\ \\text{(s)} + \\text{O}_2\\ \\text{(g)}$$\n\nProcesso 2 – reação de hidrólise\n\n$$\\text{HgO}\\ \\text{(s)} + \\text{H}_2\\text{O}\\ \\text{(l)} \\rightarrow \\text{Hg(OH)}_2\\ \\text{(s)}$$",
+        "b": "![Tabela preenchida: Detecção de mercúrio (4); Mitigação de riscos (1); Remediação (2); Mineração sem mercúrio (3)](fig:r09-c1)\n\nMitigação de riscos significa uma ação para diminuir a intensidade ou reduzir os riscos de exposição. Assim, o uso de filtros de ar e máscaras cumprem esse papel."
+      }
+    },
+    "16": {
+      "itens": {
+        "a": "$381\\ \\text{ZJ} = 381 \\times 10^{21}\\ \\text{J}$. A criosfera absorve 4% do calor ganho, portanto: $381 \\times 10^{21}\\ \\text{J} \\times 0{,}04 =$ $\\mathbf{1{,}52 \\times 10^{22}\\ J}$ **absorvidos (ou ganhos) pela criosfera**.\n\n$\\Delta H_{\\text{fusão}} = 3{,}3 \\times 10^5\\ \\text{J/kg}$\n\n$3{,}3 \\times 10^5\\ \\text{J}$ — $1{,}0\\ \\text{kg H}_2\\text{O}$\n$1{,}52 \\times 10^{22}\\ \\text{J}$ — $Y$\n\nForam acrescidas $4{,}62 \\times 10^{16}$ Kg ou $4{,}62 \\times 10^{13}$ toneladas de $\\text{H}_2\\text{O}$ aos oceanos.\n\nQuanto ao cálculo do aumento de temperatura média dos oceanos, o oceano absorve 89% do total do calor ganho, portanto: $381 \\times 10^{21}\\ \\text{J} \\times 0{,}89 = 3{,}39 \\times 10^{23}\\ \\text{J}$\n\n$Q = m \\cdot c \\cdot \\Delta T$\n\n$3{,}39 \\times 10^{23}\\ \\text{J} = (1{,}4 \\times 10^{21}\\ \\text{kg}) \\times (4180\\ \\text{J/kg} \\cdot \\text{K}) \\times \\cdot \\Delta T$\n\nIsso significa que o aumento da temperatura média dos oceanos seria de $\\Delta T = 0{,}06\\ \\text{K}$ ($0{,}06\\ ^\\circ\\text{C}$).",
+        "b": "<u>Causas principais</u>: urbanização, atividade agroindustrial, industrialização, uso de combustíveis fósseis.\n<u>Mecanismo</u>: aumento dos gases do efeito estufa provocando aumento do calor retido na atmosfera e o desbalanço energético."
       }
     }
   }
