@@ -437,6 +437,13 @@
       ]));
     }
     caixa.appendChild(el("div", { class: "texto enunciado", html: render(q.enunciado, ed.id) }));
+    var usaQuimica = q.materia === "quimica" || (q.materias_extra || []).indexOf("quimica") >= 0;
+    if (ed.tabela_periodica && usaQuimica) {
+      caixa.appendChild(el("details", { class: "tabela-periodica" }, [
+        el("summary", { text: "Tabela periódica desta prova" }),
+        el("img", { src: ed.tabela_periodica, alt: "Classificação periódica impressa no caderno da prova", loading: "lazy" }),
+      ]));
+    }
     var chave = idRef(ref);
 
     if (q.itens) {

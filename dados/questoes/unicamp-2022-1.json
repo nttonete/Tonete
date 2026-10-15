@@ -1,0 +1,644 @@
+{
+ "edicao": {
+  "id": "unicamp-2022-1",
+  "vestibular": "unicamp",
+  "ano": 2022,
+  "fase": 1,
+  "tipo": "objetiva",
+  "versao": "Q/X",
+  "nome": "Unicamp 2022 – 1ª fase",
+  "fonte": {
+   "caderno": "UNICAMP_2022_1Fase.pdf",
+   "gabarito": "UNICAMP_2022_1Fase_gab.pdf"
+  }
+ },
+ "textos_base": {
+  "t7-8": "**Texto I**\n\n![Mural de Denilson Baniwa: parede de sala de exposição com figuras recortadas de animais, aves, peixes e insetos que saem de uma flor soprada por uma figura humana agachada à direita](fig:p04-c1)\n\n(Denilson Baniwa, *Repovoamento da memória de uma cidade-floresta*, 2021, Mural Lambe-lambe, 3,80m x 12m. Disponível em https://www.premiopipa.com/wp-content/uploads/2019/03/23-Denilson-Baniwa.jpeg .Acessado em 05/07/2021.)\n\n**Texto II**\n\nPara que as memórias e tradições permaneçam vivas, o Museu da Pessoa, a Rádio Yandê e Ailton Krenak vão realizar uma formação virtual em memória e mídias para que jovens das comunidades originárias registrem as histórias de vida de seus anciãos e anciãs.\n\nO ditado “Cada ancião que morre é uma biblioteca que se queima” é válido para os povos indígenas, portanto nosso lema é “Cada ancião que se preserva é uma biblioteca que se salva”. Na tradição dos povos indígenas, todo conhecimento de plantas, de cura, de mitos e narrativas é produzido de maneira oral. “A gente não sabe até quando que vão ter esse conhecimento completo. A gente vai morrendo e vai se apagando tudo. A gente não é igual vocês, que fica tudo guardado em algum lugar (...)” (Awapataku Waura, ancião e pajé do povo Waura).\n\n(Adaptado de “Projeto Vidas Indígenas”, vídeo institucional do Museu da Pessoa, sobre registro de narrativas orais indígenas. Disponível em: https://benfeitoria.com/vidasindigenas. Acessado em 04/04/2021.)",
+  "t17-18": "Para conter uma certa epidemia viral, uma vacina será aplicada a uma população. Sabe-se que:\n\n• a efetividade de uma vacina pode ser entendida como sendo a porcentagem dos indivíduos vacinados que estarão imunes à doença; e\n• para controlar a epidemia, a porcentagem mínima de uma dada população a ser imunizada é dada pela fórmula $I(R_0) = 100(R_0 - 1)/R_0$, em que $R_0 > 1$ é um valor associado às características da epidemia.\n\nAssume-se, ainda, que uma eventual imunização somente é adquirida por meio da vacina.",
+  "t36-37": "Resíduos de papel contribuem para que o clima mude mais do que a maioria das pessoas pensam. A Blue Planet Ink anunciou que sua tinta de impressora autoapagável Paper Saver® agora está disponível em cartuchos remanufaturados para uso em impressoras de uma determinada marca. A tinta autoapagável (economizadora de papel) é uma tinta roxa de base aquosa, que pode ser impressa em papel sulfite normal. Um cartucho rende a impressão de até 4000 folhas. Com a exposição ao ar, ao absorver dióxido de carbono e vapor de água, o componente ativo (corante) da tinta perde sua cor, a impressão torna-se não visível e o papel fica branco, tornando possível sua reutilização."
+ },
+ "questoes": [
+  {
+   "id": "unicamp-2022-1-q01",
+   "numero": 1,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Tudo na vida é mortal, tudo se apaga. Se a tua chama se apaga é em ti que está a falta. Faz o que te digo e magia nenhuma te derrubará nesta vida. Tu és feitiço por excelência e não deves procurar mais magia nenhuma. Corpo de mulher é magia. Força. Fraqueza. Salvação. Perdição. O universo inteiro cabe nas curvas de uma mulher.\n\n(Paulina Chiziane, *Niketche:* uma história de poligamia. São Paulo: Companhia das Letras, 2021. p. 38.)\n\nO excerto acima corresponde a uma das primeiras lições que a conselheira amorosa oferece a Rami, a personagem principal do romance. Tendo em vista as várias peripécias vividas por Rami, essa lição é",
+   "alternativas": {
+    "A": "aceita pela protagonista, mas sua trajetória lhe ensina que o corpo feminino é, no fim das contas, perdição.",
+    "B": "abandonada pela personagem principal, uma vez que seu marido não se encanta com seus novos ardis.",
+    "C": "frustrada, pois Rami, ao conhecer suas rivais, percebe que não possui todos os atributos desejáveis.",
+    "D": "confrontada com a experiência pessoal de Rami e de suas rivais, transformando-as de modo significativo."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q02",
+   "numero": 2,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Tenho horror a de aqui a pouco vos ter já dito o que vos vou dizer. As minhas palavras presentes, mal eu as diga, pertencerão logo ao passado, ficarão fora de mim, não sei onde, rígidas e fatais... Falo, e penso nisto na minha garganta, e as minhas palavras parecem-me gente...\n\n(Fernando Pessoa, *O marinheiro*. Campinas: Editora da Unicamp, 2020, p. 51.)\n\nO que eu era outrora já não se lembra de quem sou... Às vezes, à beira dos lagos, debruçava-me e fitava-me... Quando eu sorria, os meus dentes eram misteriosos na água... Tinham um sorriso só deles, independentes do meu...\n\n(Idem, p. 52.)\n\nNos excertos acima, dois fenômenos são apresentados ao leitor e constituem o principal problema dramático da peça de Fernando Pessoa. Assinale a alternativa que identifica e explica corretamente esses fenômenos.",
+   "alternativas": {
+    "A": "As palavras e as imagens tornam-se independentes da pessoa humana. Isso significa a cisão entre o sujeito e o mundo ou, ainda, a crise de identidade pessoal reiterada nos diálogos.",
+    "B": "Proferir um discurso e ver-se refletido em um lago são situações dramáticas que sugerem a unidade entre ser e existir. A questão central, quem eu sou, é resolvida no desfecho da peça.",
+    "C": "Lembrar e esquecer são dois aspectos inseparáveis da estrutura dramática da peça. Se a imagem refletida no lago não se assemelha à pessoa que a contempla, as palavras, por sua vez, garantem a conexão entre o eu e a realidade exterior.",
+    "D": "O horror e o mistério das coisas são elementos básicos desse drama. Eles produzem, nas personagens, a convicção de que é útil narrar as experiências do passado porque assim se revela o seu verdadeiro significado."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q03",
+   "numero": 3,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**As Ondas**\n\nEntre as trêmulas mornas ardentias,\nA noite no alto-mar anima as ondas.\nSobem das fundas úmidas Golcondas,\nPérolas vivas, as nereidas frias:\n\nEntrelaçam-se, correm fugidias,\nVoltam, cruzando-se; e, em lascivas rondas,\nVestem as formas alvas e redondas\nDe algas roxas e glaucas pedrarias.\n\nCoxas de vago ônix, ventres polidos\nDe alabastro, quadris de argêntea espuma,\nSeios de dúbia opala ardem na treva;\n\nE bocas verdes, cheias de gemidos,\nQue o fósforo incendeia e o âmbar perfuma,\nSoluçam beijos vãos que o vento leva...\n\n(Olavo Bilac, *Tarde.* Rio de Janeiro: Francisco Alves, 1919, p.48)\n\nEm relação ao soneto de Olavo Bilac (no contexto de sua época), é correto afirmar que a seleção lexical favorece a\n\n*Ardentia*: s.f. fosforescência sobre as ondas do mar, à noite.\n*Golconda*: s. f. (fig.) mina de riquezas.\n*Nereida*: s.f. cada uma das ninfas do mar, filhas de Nereu.\n\n(Disponíveis em www.aulete.com.br/ Acessado em 30/07/2021.)",
+   "alternativas": {
+    "A": "descrição objetiva que o eu lírico faz da fantasia amorosa recorrendo à riqueza mineral dos oceanos.",
+    "B": "representação estética que o eu lírico faz do desejo amoroso associado a fenômenos naturais.",
+    "C": "descrição científica que o eu lírico faz do corpo feminino recorrendo a fenômenos da natureza.",
+    "D": "representação natural que o eu lírico faz do jogo de sensualidade associado à mitologia grega."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q04",
+   "numero": 4,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na ribeira do Eufrates assentado,\nDiscorrendo me achei pela memória\nAquele breve bem, aquela glória,\nQue em ti, doce Sião, tinha passado.\n\nDa causa de meus males perguntado\nMe foi: Como não cantas a história\nDe teu passado bem e da vitória\nQue sempre de teu mal hás alcançado?\n\nNão sabes, que a quem canta se lhe esquece\nO mal, inda que grave e rigoroso?\nCanta, pois, e não chores dessa sorte.\n\nRespondi com suspiros: Quando cresce\nA muita saudade, o piedoso\nRemédio é não cantar senão a morte.\n\n(Luís de Camões, *20 sonetos.* Org. Sheila Hue. Campinas: Editora da Unicamp, 2018, p.113).\n\nConsiderando as características formais e o núcleo temático, é correto afirmar que o poema retoma o dito popular",
+   "alternativas": {
+    "A": "“longe dos olhos, perto do coração”.",
+    "B": "“mais vale cantar mal que chorar bem”.",
+    "C": "“a cada canto seu Espírito Santo”.",
+    "D": "“quem canta seus males espanta”."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q05",
+   "numero": 5,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "(...) eu sou um pobre relojoeiro que, cansado de ver que os relógios deste mundo não marcam a mesma hora, descri do ofício. (...) Um exemplo. O Partido Liberal, segundo li, estava encasacado e pronto para sair, com o relógio na mão, porque a hora pingava. Faltava-lhe só o chapéu, que seria o chapéu Dantas, ou o chapéu Saraiva (ambos da chapelaria Aristocrata); era só pô-lo na cabeça, e sair. Nisto passa o carro do paço com outra pessoa, e ele descobre que ou o seu relógio está adiantado, ou o de Sua Alteza é que se atrasara. Quem os porá de acordo?\n\n(Machado de Assis, *Bons dias*. Introdução e notas John Gledson. 3. ed. Campinas: Editora da Unicamp, 2008, p. 79.)\n\nCom relação ao excerto da crônica de Machado de Assis, publicada em 05 de abril de 1888 na *Gazeta de Notícias*, é correto afirmar que a metáfora mecânica faz referência à passagem do tempo, aludindo à expectativa de mudança de",
+   "alternativas": {
+    "A": "regime a partir de discordâncias políticas que levaram à eleição do governo imperial.",
+    "B": "século, marcada pela perspectiva da chegada do meteorito de Bendegó na corte imperial.",
+    "C": "mentalidade escravagista, com um pacto político para suspensão de costumes imperiais.",
+    "D": "legislação, com a alternância entre partidos para a formação de um novo ministério do governo imperial."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q06",
+   "numero": 6,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No ano seguinte, o Ateneu revelou-se-me noutro aspecto. Conhecera-o interessante, com as seduções do que é novo, com as projeções obscuras de perspectiva, desafiando curiosidade e receio; conhecera-o insípido e banal como os mistérios resolvidos, caiado de tédio; conhecia-o agora intolerável como um cárcere, murado de desejos e privações.\n\n(Raul Pompeia, *O Ateneu*. 7ª. ed. São Paulo: Ática, 1980, p. 98.)\n\nCom base no excerto que inicia o capítulo VIII do romance de Raul Pompéia e no seu subtítulo – crônica de saudades –, é correto afirmar que a obra é",
+   "alternativas": {
+    "A": "um relato, em primeira pessoa, de experiências coletivas e íntimas, no qual o protagonista mostra aspectos da realidade social, valorizando o sistema escolar e prisional.",
+    "B": "um romance de formação, no qual o protagonista revela condutas e intrigas no ambiente escolar, com elogios à pedagogia corretiva e aos valores morais da burguesia.",
+    "C": "uma narrativa memorialista de experiências vividas num internato, na qual o protagonista revela aspectos do sistema educacional da época, com críticas à hipocrisia burguesa.",
+    "D": "um relato saudosista de experiências vividas no internato, no qual o protagonista mostra o poder de sedução e corrupção das amizades, com críticas à falsidade da burguesia."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q07",
+   "numero": 7,
+   "materia": "portugues",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": "t7-8",
+   "enunciado": "O mural criado pelo artista Denilson Baniwa (texto I) e o excerto da apresentação do *Projeto Vidas Indígenas* (texto II) tratam da memória dos povos indígenas. Assinale a alternativa que sintetiza os dois textos.",
+   "alternativas": {
+    "A": "Os conhecimentos produzidos por narrativas orais são facilmente perdidos, por isso os povos indígenas não conseguem transmitir sua memória.",
+    "B": "A produção de imagens e o uso de mídias tecnológicas em comunidades indígenas são atualmente o único meio de esses povos contarem suas histórias.",
+    "C": "Os textos orais indígenas dão forma a memórias, saberes e visões de mundo desses povos, por isso devem ser registrados e mantidos.",
+    "D": "O mural ressalta a perda da memória dos povos indígenas e o excerto propõe meios de modernização da produção de narrativas e saberes."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q08",
+   "numero": 8,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t7-8",
+   "enunciado": "No texto II (*Projeto Vidas Indígenas*), é utilizada uma metáfora que relaciona “ancião” e “biblioteca”. As citações a seguir tratam da importância de anciãos e anciãs indígenas para a transmissão do conhecimento. Assinale aquela que também faz uso de uma metáfora.",
+   "alternativas": {
+    "A": "“Perder um ancião é o mesmo que fechar um livro. Ou mesmo queimar um livro” (Comissão Pró-Índio, *Twitter*, via @g1).",
+    "B": "“Morte de anciãos indígenas na pandemia pode fazer línguas inteiras desaparecerem” (manchete da BBC Brasil News).",
+    "C": "“A morte de uma anciã ou um ancião é tratada como se uma biblioteca fosse perdida” (site “Racismo Ambiental”).",
+    "D": "“Nikaiti Mekranotire é mais uma vítima do covid-19. Perdemos uma enciclopédia” (Mayalú Txucarramãe, *Twitter*)."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q09",
+   "numero": 9,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia, a seguir, o título e subtítulo de uma reportagem.\n\n![Título e subtítulo de reportagem: “Roça-office: dobra procura por imóveis no interior baiano durante pandemia”; “Reflexão sobre vivência urbana tem causado um novo êxodo urbano; conheça histórias e veja quando vale a pena se mudar”](fig:p05-f2)\n\n(Fonte: *Correio 24horas*. 21/06/2021.)\n\nAo longo da pandemia da Covid-19 tornou-se cada vez mais recorrente o uso da expressão de língua inglesa *home office* (em tradução literal, “escritório em casa”) para se referir a trabalho a distância ou a teletrabalho. Indique a alternativa que descreve o processo de composição do neologismo “roça-office”, conforme empregado no título da reportagem.",
+   "alternativas": {
+    "A": "A substituição do vocábulo em inglês “home” por “roça” torna o uso desse estrangeirismo mais adequado à grafia do português.",
+    "B": "A justaposição de “roça” e “office” produz um efeito cômico pelo contraste entre os meios rural e urbano na formação do neologismo.",
+    "C": "A justaposição de “roça” e do neologismo “office” baseia-se na similaridade fonético-fonológica entre os vocábulos “home” e “roça”.",
+    "D": "A aglutinação dos radicais “roça” e “office” adapta o neologismo aos imóveis brasileiros e produz o efeito de humor na manchete."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q10",
+   "numero": 10,
+   "materia": "portugues",
+   "materias_extra": [
+    "literatura"
+   ],
+   "texto_base": null,
+   "enunciado": "**Texto I**\n\n![Bandeira de tecido branco com a silhueta de uma figura humana caída e os dizeres “fique off-line / seja herói”](fig:p05-c3)\n\n(André Vallias, 2020. Disponível em: https://gramho.com/media/2412019968340930281. Acessado em 20/06/2021.)\n\n**Texto II**\n\n![Bandeira de tecido vermelho com a silhueta de uma figura humana caída e os dizeres “seja marginal / seja herói”](fig:p05-c2)\n\n(Hélio Oiticica, Bandeira-poema [Seja marginal, seja herói], 1968. Disponível em: https://enciclopedia.itaucultural.org.br/obra2638/bandeira-poema. Acessado em 24/08/2021.)\n\nConsidere o diálogo intertextual entre os dois poemas e assinale a alternativa correta.",
+   "alternativas": {
+    "A": "O texto II parodia o texto I ao deslocar o tema da conectividade no meio digital para o elogio da marginalidade como ato heroico.",
+    "B": "O texto I parafraseia o texto II ao chamar atenção para a posição marginal imposta a quem resiste à pressão de viver conectado às redes.",
+    "C": "O texto II alude ao texto I para reforçar a equivalência entre as condições de ficar “*off-line*” e ser “marginal” em cada contexto.",
+    "D": "O texto I parodia o texto II para situar como heroico e transgressivo o ato de se desconectar das redes sociais no contexto atual."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q11",
+   "numero": 11,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No conjunto de seus diferentes usos, a palavra “cultura” pode significar um valor individual do sujeito que “tem cultura”; um valor coletivo de povos, etnias e grupos sociais que produzem bens culturais que podem tornar-se propriedade de alguns; um valor de produto comercializado, como um livro, um quadro, uma peça teatral. O controle da circulação de bens começa com a invenção da imprensa no século XV, seguida da regulação dos direitos autorais e de reprodução. Hoje, a expansão da tecnologia digital, o compartilhamento nas redes e seu monopólio resultam em condições ainda mais complexas de produção, circulação e comercialização de bens culturais. Além disso, tradições milenares no Extremo Oriente e em alguns povos originários da América Latina mostram que o mundo não é só o que chamamos de Ocidente e que as noções de cópia, original, livre e coletivo diferem entre culturas diversas. Nesse contexto, pergunta o autor, como defender uma cultura livre?\n\n(Adaptado de Leonardo Foleto, Introdução ao livro *A cultura é livre: uma história da resistência antipropriedade*. Disponível em https://outraspalavras.net/alemdamercadoria/cultura-seus-tres-significados-e-sua-libertacao/ . Acessado em 10/04/2021.)\n\nCom base no que afirma o autor, a defesa de uma cultura livre dependeria",
+   "alternativas": {
+    "A": "da produção e circulação de bens culturais por grupos sociais.",
+    "B": "da atenção dada aos valores individuais e aos direitos autorais.",
+    "C": "da consideração de experiências e valores de outras culturas.",
+    "D": "do compartilhamento de bens culturais via tecnologia digital."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q12",
+   "numero": 12,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O texto a seguir faz parte de um glossário publicado nas redes sociais do Alto-comissariado das Nações Unidas para os Refugiados (ACNUR).\n\n![Glossário do ACNUR com os verbetes “Refugiado”: “Pessoas refugiadas são aquelas que estão fora de seu país de origem por medo de perseguição relacionada a questões de raça, religião, nacionalidade, opinião política ou pertencimento a determinado grupo social, como também à grave violação de direitos humanos e violência generalizada (conceito este aplicado pela Declaração de Cartagena de 1984).” e “Migrante”: “Refere-se à pessoa que se desloca dentro de seu próprio país, mas também pode ser usada para falar dos deslocamentos internacionais, sobre quem busca melhores condições de vida, motivada por fatores econômicos ou educacionais, podendo retornar com segurança ao seu país de origem, caso assim desejem.”](fig:p06-f1)\n\n(Fonte: Perfil de Instagram do ACNUR Brasil: Disponível em: https://www.instagram.com/acnurbrasil. Acessado em 26/06/2021.)\n\nSobre os verbetes do glossário do ACNUR, é correto dizer que",
+   "alternativas": {
+    "A": "contextualizam os usos dos dois termos pela agência.",
+    "B": "enfatizam a sinonímia dos termos no uso pela agência.",
+    "C": "evidenciam uma antonímia dos significados dos termos.",
+    "D": "informam as acepções figuradas de cada um dos termos."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q13",
+   "numero": 13,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Certo país adquiriu 5.000.000 de doses das vacinas Alfa, Beta e Gama, pagando um preço de \\$40.000.000,00 pelo total. Cada dose das vacinas Alfa, Beta e Gama custou \\$5,00, \\$10,00 e \\$20,00, respectivamente. Sabendo que o número de doses adquiridas da vacina Beta é o triplo do número de doses adquiridas da vacina Gama, o número de doses adquiridas da vacina Alfa foi de:",
+   "alternativas": {
+    "A": "1.500.000.",
+    "B": "2.000.000.",
+    "C": "2.500.000.",
+    "D": "3.000.000."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q14",
+   "numero": 14,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Certo modelo de carro é vendido em duas versões: uma a gasolina e outra híbrida. Essa última versão conta com um motor elétrico para funcionar em baixas velocidades, reduzindo, assim, o consumo de combustível e também os índices de poluição.\n\nA versão a gasolina custa R\\$ 150.000,00 e a versão híbrida custa R\\$ 180.000,00. A tabela a seguir indica o consumo de combustível de cada uma das versões:\n\n| | Uso na cidade | Uso na estrada |\n|---|---|---|\n| Versão a gasolina | 12 km/l | 14 km/l |\n| Versão híbrida | 18 km/l | 16 km/l |\n\nNote que a versão híbrida é mais econômica, porém custa mais caro.\n\nUm motorista faz diariamente um percurso de 36 km na cidade e de 56 km na estrada. Considerando que cada litro de gasolina custa R\\$ 5,00 e que, ao longo do tempo, esse preço será constante e o percurso não se alterará, quantos anos de uso serão necessários para que a economia no abastecimento compense o preço mais alto pago inicialmente pelo carro híbrido?",
+   "alternativas": {
+    "A": "Mais que 8 e menos que 10 anos.",
+    "B": "Mais que 10 e menos que 12 anos.",
+    "C": "Mais que 12 e menos que 14 anos.",
+    "D": "Mais que 14 e menos que 16 anos."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q15",
+   "numero": 15,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "As figuras abaixo ilustram, respectivamente, os gráficos das funções $y = f(x)$ e $y = g(x)$.\n\n![Gráfico da função y = f(x), com eixos x e y](fig:p07-f2)\n\n![Gráfico da função y = g(x), com eixos x e y](fig:p07-f3)\n\nEntão $f\\big(g(-1)\\big) - g\\big(f(1)\\big)$ vale:",
+   "alternativas": {
+    "A": "1.",
+    "B": "2.",
+    "C": "3.",
+    "D": "4."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q16",
+   "numero": 16,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Dados os números reais positivos $a_1, a_2, \\ldots, a_n$, a média geométrica $M$ destes termos é calculada por:\n\n$$M = \\sqrt[n]{a_1 \\ldots a_n}.$$\n\nA média geométrica de $1, 10, 100, \\ldots, 10^{22}$ é:",
+   "alternativas": {
+    "A": "$10^{11}$.",
+    "B": "$10^{12}$.",
+    "C": "$10^{13}$.",
+    "D": "$10^{14}$."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q17",
+   "numero": 17,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": "t17-18",
+   "enunciado": "Em relação à epidemia e à vacinação, é correto afirmar que",
+   "alternativas": {
+    "A": "a porcentagem mínima da população que deve ser vacinada para controlar a epidemia é sempre maior que 50%.",
+    "B": "para uma vacina, quanto maior $R_0$, menor a porcentagem mínima da população que deve ser vacinada para controlar a epidemia.",
+    "C": "para uma vacina, quanto maior $R_0$, maior a porcentagem mínima da população que deve ser vacinada para controlar a epidemia.",
+    "D": "para um dado $R_0$, quanto maior a efetividade da vacina, maior a porcentagem mínima da população que deve ser vacinada para controlar a epidemia."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q18",
+   "numero": 18,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": "t17-18",
+   "enunciado": "Assuma que $R_0 = 2$. Sabendo que uma dada vacina tem 80% de efetividade, em qual dos intervalos se encontra a porcentagem mínima da população que deve ser vacinada para controlar a epidemia?",
+   "alternativas": {
+    "A": "Entre 46% e 55%.",
+    "B": "Entre 56% e 65%.",
+    "C": "Entre 66% e 75%.",
+    "D": "Entre 76% e 85%."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q19",
+   "numero": 19,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um círculo está inscrito em um quadrilátero $ABCD$. Seja $T$ o ponto de tangência do lado $DA$ com o círculo. Sabe-se que as medidas dos lados $AB$, $BC$ e $CD$ formam, nesta ordem, uma progressão aritmética crescente de números inteiros e que a medida do lado $DA$ é 3. Considerando que a medida do segmento $TA$ é um número inteiro, as medidas dos lados $AB$, $BC$ e $CD$ são, respectivamente:",
+   "alternativas": {
+    "A": "$1, 3, 5$.",
+    "B": "$2, 3, 4$.",
+    "C": "$2, 4, 6$.",
+    "D": "$3, 4, 5$."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q20",
+   "numero": 20,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere a matriz\n\n$$A = \\begin{pmatrix} 1 & k \\\\ 3 & k^2 \\end{pmatrix}$$\n\ne seja $B = A + A^T$, onde $A^T$ é a transposta da matriz $A$.\n\nSobre o sistema\n\n$$B\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 2021 \\\\ 2022 \\end{pmatrix}$$\n\né correto afirmar que:",
+   "alternativas": {
+    "A": "se $k = 0$, o sistema não tem solução.",
+    "B": "se $k = -1$, o sistema tem infinitas soluções.",
+    "C": "se $k = -1$, o sistema não tem solução.",
+    "D": "se $k = 3$, o sistema tem infinitas soluções."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q21",
+   "numero": 21,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Pedra-papel-tesoura, também chamado *jankenpon* ou *jokempô*, é um jogo recreativo para duas pessoas. Nesse jogo, os participantes usam as mãos para representar os símbolos de pedra, papel e tesoura, conforme mostrado nos *emojis* a seguir:\n\n![Três emojis de mão: Pedra (punho fechado), Papel (mão aberta) e Tesoura (dois dedos estendidos)](fig:p08-c1)\n\nPelas regras do jogo, o participante que escolher “pedra” ganha do que escolher tesoura; o participante que escolher tesoura ganha do que escolher papel; por fim, o que escolher papel ganha do que escolher pedra. Se ambos escolherem os mesmos símbolos, eles empatam.\n\nAdmitindo que os participantes escolhem os símbolos com igual probabilidade, qual a chance de acontecer pelo menos um empate em três partidas?",
+   "alternativas": {
+    "A": "16/27.",
+    "B": "17/27.",
+    "C": "18/27.",
+    "D": "19/27."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q22",
+   "numero": 22,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A parábola $y = -x^2 + bx + c$ intercepta o eixo $x$ nos pontos $(p, 0)$ e $(q, 0)$. Sabe-se que ela intercepta uma única vez cada uma das retas dadas pelas equações $y = 2x + 1$ e $y = 1 - \\frac{x}{2}$. O valor de $p + q$ é:",
+   "alternativas": {
+    "A": "2/3.",
+    "B": "3/4.",
+    "C": "4/3.",
+    "D": "3/2."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q23",
+   "numero": 23,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O polinômio $p(x) = 2x^3 + ax^2 + bx + c$ é divisível por $2x^2 - x + 4$. O valor de $c + 2b - a$ é:",
+   "alternativas": {
+    "A": "9.",
+    "B": "15.",
+    "C": "21.",
+    "D": "25."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q24",
+   "numero": 24,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No dia 23 de março de 2021, um navio encalhou no canal de Suez, no Egito. A embarcação tinha 400 metros de comprimento e 60 metros de largura. No ponto onde aconteceu o acidente, o canal de Suez não tem mais do que 200 metros de largura. Abaixo apresentamos uma foto de satélite e uma figura representando a situação. O ângulo $\\alpha$ indicado na figura abaixo mede $67{,}5^\\circ$.\n\n![Foto de satélite do navio encalhado no canal de Suez e, abaixo, figura esquemática do navio entre as margens do canal, com comprimento de 400 m, dois trechos de 30 m, o ângulo alfa e a largura L do canal](fig:p08-f4)\n\nA largura do canal, medida em metros e indicada por $L$ na figura anterior, é:\n\nDados:\n• $\\cos(2\\theta) = 2\\cos^2(\\theta) - 1$\n• $\\operatorname{sen}(2\\theta) = 2\\operatorname{sen}(\\theta)\\cos(\\theta)$.",
+   "alternativas": {
+    "A": "$400\\sqrt{2 - \\sqrt{2}} - 60\\sqrt{2 + \\sqrt{2}} \\approx 195{,}3$",
+    "B": "$200\\sqrt{2 - \\sqrt{2}} - 15\\sqrt{2 + \\sqrt{2}} \\approx 125{,}4$",
+    "C": "$200\\sqrt{2 - \\sqrt{2}} + 15\\sqrt{2 + \\sqrt{2}} \\approx 180{,}8$",
+    "D": "$200\\sqrt{3 - \\sqrt{3}} - 15\\sqrt{3 + \\sqrt{3}} \\approx 192{,}6$"
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q25",
+   "numero": 25,
+   "materia": "portugues",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "A palavra “*cringe*” viralizou nas redes sociais no Brasil em 2021. Observe sua definição, em português, apontada pelo “Dicionário Informal” on-line:\n\nVergonha alheia;\n\n**Exemplo de uso da palavra cringe:**\n<em>A cena que presenciamos ontem foi muito **cringe**.</em>\n<em>É cada situação **cringe** que presenciamos.</em>\n<em>Não consigo nem ver, de tão **cringe**.</em>\n\nVeja, agora, a definição da mesma palavra pelo “Cambridge Dictionary”, também em versão on-line:\n\nto suddenly move away from someone or something because you are frightened\n\nto feel very embarrassed:\n• <em>I **cringed** at the sight of my dad dancing.</em>\n\n(Disponível em: https://www.dicionarioinformal.com.br/diferenca-entre/cringe/inglês/; https://dictionary.cambridge.org/us/dictionary/english/cringe. Acessado em 05/07/2021.)\n\nCom base nessas duas definições, pode-se dizer que, em português, a palavra “cringe”",
+   "alternativas": {
+    "A": "é empregada numa classe gramatical diferente da empregada em inglês, apesar de os sentidos serem semelhantes nas duas línguas.",
+    "B": "figura no mesmo tempo verbal que figura em inglês, apesar de assumir sentidos diferentes nas duas línguas.",
+    "C": "é empregada na mesma classe gramatical em que é empregada em inglês, apesar de assumir sentidos diferentes nas duas línguas.",
+    "D": "figura em um gênero textual diferente do gênero em que figura em inglês, apesar de os sentidos serem semelhantes nas duas línguas."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q26",
+   "numero": 26,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em artigo publicado em 14 de junho de 2020, o jornal *The Straits Times*, de Singapura, apresentou os resultados de uma pesquisa sobre a percepção dos respondentes a respeito das profissões mais essenciais durante a pandemia. A imagem a seguir revela algumas estatísticas obtidas com base nessas respostas.\n\n![Infográfico com dois quadros: Top 5 essential jobs, com 1 Doctor/Nurse 86% e 2 Cleaner 78%; e Top 5 non-essential jobs, com 1 Artist 71% e 2 Telemarketer 69%](fig:p09-f4)\n\nEm um *post* em sua rede social, o comediante Rishi Budhrani comentou esses resultados:\n\n![Captura de post de Rishi Budhrani em rede social, com o texto: “There are MANY talking points in this survey compilation; but let’s just address ONE! If, assuming this survey is done with a truly “representative sample across gender and income groups in SG”, and 70% of the nationally representative respondents feel that the No. 1 non-essential job is that of an artist, then I would challenge the nation to do the following; 1. Delete Netflix 2. Cancel Spotify 3. Sell all your TV’s 4. Stop showing your kids the ipad to occupy them 5. Stop listening to music during your workouts/ break times 6. Stop watching any movies/music videos on YouTube”](fig:p09-c2)\n\n(Disponível em https://creativefolk.co.uk/artists-topping-poll-as-non-essential-sparks-outrage/. Acessado em 09/06/2021.)\n\nPode-se dizer que Budhrani",
+   "alternativas": {
+    "A": "critica a baixa representatividade da amostra, e apresenta uma série de recomendações que podem valorizar a profissão de artistas.",
+    "B": "questiona a ausência de muitos pontos que poderiam ter sido discutidos na pesquisa, e sugere várias medidas para aumentar o debate em torno da arte.",
+    "C": "levanta uma série de dúvidas quanto à validade da pesquisa, e indica medidas que podem contribuir para uma depreciação da arte.",
+    "D": "problematiza os dados revelados pela pesquisa, e recomenda algumas ações cujos resultados ratificam a relevância da profissão de artistas."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q27",
+   "numero": 27,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em 2020, Joaquin Phoenix ganhou o Oscar de melhor ator por sua interpretação no filme “Coringa”, de 2019. Apresenta-se, a seguir, um trecho de seu discurso na ocasião.\n\n![Fotografia de Joaquin Phoenix de smoking, segurando a estatueta do Oscar](fig:p09-f6)\n\n“I think whether we’re talking about gender inequality or racism or queer rights or indigenous rights or animal rights, we’re talking about the fight against injustice. We’re talking about the fight against the belief that one nation, one people, one race, one gender, or one species has the right to dominate, control, and use and exploit another with impunity. I think that we’ve become very disconnected from the natural world, and many of us, what we’re guilty of, is an egocentric worldview: the belief that we’re the center of the universe. We go into the natural world, and we plunder it for its resources. We feel entitled to artificially inseminate a cow, and when she gives birth, we steal her baby even though her cries of anguish are unmistakable. Then we take her milk that’s intended for her calf, and we put it in our coffee and our cereal”.\n\n(Adaptado de https://www.rev.com/blog/transcripts/joaquin-phoenix-oscar-acceptance-speech-transcript-phoenix-wins-for-joker. Acessado em 02/07/2021.)\n\nEm seu discurso, o ator",
+   "alternativas": {
+    "A": "inicia pela crítica à destruição da natureza para, então, defender a luta contra as desigualdades sociais.",
+    "B": "destaca a arrogância do ser humano ao mencionar a exploração cruel dos animais.",
+    "C": "usa exemplos práticos para ilustrar a opressão sofrida pelos trabalhadores rurais a partir da industrialização.",
+    "D": "centraliza seus argumentos na necessidade de lutarmos contra o racismo e a desigualdade de gênero."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q28",
+   "numero": 28,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Foto em preto e branco de manifestantes com uma faixa com os dizeres “Stonewall means fight back! Smash gay oppression!” e, ao fundo, “Gay Caucus against war & fascism”](fig:p10-f1)\n\nOn a summer night in 1969, police raided the Stonewall Inn, a bar in New York City that served as a haven for the city’s gay, lesbian, and transgender community. Back then, homosexual acts were illegal in every state in the USA except Illinois, and bars and restaurants could get shut down for having gay employees or serving gay patrons. Most gay bars in New York at the time (including the Stonewall) were operated by the Mafia, who paid corruptible police officers to look the other way and blackmailed wealthy gay patrons by threatening to “out” them. Police raids on gay bars were common, but on that particular night, members of the city’s LGBTQIA+ community decided to fight back, sparking an uprising that would launch a new era of resistance and revolution. Though the gay rights movement didn’t begin at Stonewall, the uprising did mark a turning point, as earlier “homophile” organizations like the Mattachine Society gave way to more radical groups like the Gay Liberation Front and the Gay Activists Alliance.\n\n(Adaptado de https://www.history.com/news/stonewall-riots-timeline. Acessado em 04/06/2021.)\n\nDe acordo com o texto, os protestos de Stonewall representaram",
+   "alternativas": {
+    "A": "o início da luta da comunidade LGBTQIA+ pela igualdade de direitos, impulsionando o surgimento de grupos defensores dessa comunidade.",
+    "B": "um novo rumo na luta pelos direitos LGBTQIA+, especialmente pela recusa dos clientes do bar em acatar as ações da polícia naquela noite.",
+    "C": "a consolidação da busca da comunidade LGBTQIA+ por igualdade de direitos, apesar de ter levado à formação de alguns grupos radicais homofóbicos.",
+    "D": "um ato de resistência da população LGBTQIA+, apesar de muitos bares gays de Nova York serem financiados por policiais corruptos da cidade."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q29",
+   "numero": 29,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**There is no evidence that hydroxychloroquine helps Covid-19 patients. So why is Congress still discussing it?**\n\nBy Ashish Jha\nDean of the Brown University School of Public Health\nNov 24, 2020\n\nLast week, in the United States Senate, the conversation was all about the drug hydroxychloroquine. There has been no evidence that hydroxychloroquine improves outcomes for Covid-19 patients; some studies have found that it causes more harm than good. The hearing and the theater around it reflect the disinformation campaigns that have undermined belief in science. Neither Ron Johnson, the Wisconsin senator who is the chairman of the committee, nor his chosen witnesses showed more than a passing interest in evidence. Intuition and the personal experiences of individual doctors were the guiding principles. Early in the pandemic, President Trump referred to hydroxychloroquine as a “game changer”; “I feel good about it”, he said.\n\nThat’s not how we practice medicine. We have to protect lives through public health measures while we await widespread vaccinations. By endorsing unfounded therapies, we risk jeopardizing a century’s work of medical progress. Do we really want to go back to not using the best evidence to decide which treatments work? Do we want to let politicians prescribe our medications? Science and evidence are the tools we use to know what is true. They are the foundation of modern medicine and public health.\n\n(Adaptado de https://www.nytimes.com/2020/11/24/opinion/hydroxychloroquine-covid.html. Acessado em 06/06/2021.)\n\nCom base no texto, assinale a alternativa que responde à pergunta apresentada no título do artigo.",
+   "alternativas": {
+    "A": "Porque a propagação de notícias falsas confunde os especialistas e fomenta discussões prejudiciais ao avanço da medicina moderna.",
+    "B": "Porque a grande mídia se sobrepõe às evidências da ciência, o que leva a tomada de decisões para um âmbito político.",
+    "C": "Porque faltam estudos que comprovem a ineficácia da hidroxicloroquina como tratamento para Covid-19, o que demanda novas pesquisas.",
+    "D": "Porque algumas discussões no âmbito político e administrativo são pautadas por aspectos subjetivos e não por dados empíricos."
+   },
+   "anulada": false,
+   "gabarito": "D",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q30",
+   "numero": 30,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O trecho a seguir pertence ao romance “The Bell Jar” (A Redoma de Vidro), da escritora estadunidense Sylvia Plath.\n\n“From the tip of every branch, like a fat purple fig, a wonderful future beckoned and winked. One fig was a husband and a happy home and children, and another fig was a famous poet and another fig was a brilliant professor, (…) and beyond and above these figs were many more figs I couldn't quite make out. (…) I wanted each and every one of them, but choosing one meant losing all the rest, and, as I sat there, unable to decide, the figs began to wrinkle and go black, and, one by one, they plopped to the ground at my feet.”\n\n(Disponível em https://www.ted.com/talks/iseult_gillespie_why_should_you_ read_sylvia _plath. Acessado em 20/07/2021.)\n\nQual das imagens representa melhor a reflexão principal do excerto?",
+   "alternativas": {
+    "A": "![Alternativa A: ilustração em preto e branco de um porta-retrato com a foto de um homem com uma criança no colo, sobre uma prateleira entre castiçais e vasos](fig:p11-f2)",
+    "B": "![Alternativa B: ilustração em preto e branco de um escritório com mulheres trabalhando em mesas, uma delas datilografando, com prédios de uma cidade ao fundo](fig:p11-f3)",
+    "C": "![Alternativa C: ilustração em preto e branco de uma mulher com uma mala parada em uma bifurcação de estrada de terra, com postes de eletricidade e céu nublado](fig:p11-f4)",
+    "D": "![Alternativa D: ilustração em preto e branco de uma mão escrevendo com uma caneta em uma folha de papel com texto manuscrito](fig:p11-f5)"
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q31",
+   "numero": 31,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Fotografia em preto e branco de uma mão segurando uma cruzeta de marionete com fios](fig:p11-f6)\n\n**Gaslighting** is a form of psychological abuse where a person or group makes someone question their sanity, perception of reality, or memories. People experiencing gaslighting often feel confused, anxious, and unable to trust themselves. The term gaslighting derives from the 1938 play and 1944 film “*Gaslight*”, in which a husband manipulates his wife into thinking she has a mental illness by dimming their gas-fueled lights and telling her she is hallucinating. While anyone can experience gaslighting, it is especially common in intimate relationships and in social interactions where there is an imbalance of power. A person who is on the receiving end of this behavior is experiencing abuse.\n\n(Disponível em https://www.medicalnewstoday.com/articles/signs-of-gaslighting. Acessado em 02/06/2021.)\n\nAssinale o depoimento feminino que ilustra a prática discutida no texto.\n\n(Alternativas adaptadas de https://brasil.elpais.com/brasil/2017/09/15/internacional/1505472042_655999.html; https://revistamarieclaire.globo.com/Comportamento/noticia/2019/03; https://emais.estadao.com.br/noticias/comportamento,vocabulario-feminista-conheca-dez-termos-importantes-para-o-movimento,70 002805322; https://www.justificando.com/2017/11/16/meu-cerebro-minhas-ideias/.)",
+   "alternativas": {
+    "A": "“Ele discutia sobre tudo, até coisas que não têm discussão, como meu estado de espírito ou meus sentimentos. Tudo era um exagero meu, uma invenção. Tudo estava na minha cabeça.”",
+    "B": "“Os homens explicam coisas para mim, e para outras mulheres, quer saibam ou não do que estão falando. Um desconhecido na farmácia já quis me explicar o que era um AVC. Eu sou médica”.",
+    "C": "“Um amigo me perguntou qual era a diferença entre feminismo radical e liberal. Eu tentei explicar e toda vez que eu avançava um pouco, ele me interrompia pra falar que já sabia ou para complementar alguma coisa\".",
+    "D": "“É algo que acontece muito em reuniões, quando um homem expressa uma opinião anteriormente dada por uma mulher e, ao contrário da primeira, é ouvido e aplaudido”."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q32",
+   "numero": 32,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A poeta e ativista palestina Rafeef Ziadah estava participando da cobertura jornalística do massacre em Gaza quando um jornalista não-palestino perguntou-lhe se as coisas não seriam melhores se os palestinos parassem de ensinar o ódio às suas crianças. Em resposta a essa pergunta, Ziadah compôs o poema “We teach life, sir”, transcrito a seguir:\n\nToday, my body was a TV’d massacre\nthat had to fit into sound-bites and word limits.\nAnd I perfected my English and I learned my UN resolutions.\nBut still, he asked me, Ms. Ziadah, don’t you think that everything would be resolved\nif you would just stop teaching so much hatred to your children?\nPause.\nI look inside of me for strength to be patient\nbut patience is not at the tip of my tongue as the bombs drop over Gaza.\nToday, my body was a TV’d massacre made to fit into sound-bites and word limits\nand move those that are desensitized to terrorist blood.\nAnd these are not two equal sides: occupier and occupied.\nAnd a hundred dead, two hundred dead, and a thousand dead.\nAnd between that, war crime, and massacre,\nI vent out words and smile “not exotic”, “not terrorist”.\nNo sound-bite will fix this.\nWe teach life, sir.\n\n(Adaptado de https://blissonature.wordpress.com/2011/11/17/rafeef-ziadah-we-teach-life-sir-text-transcription-lyrics-words-of-poem/. Acessado em 01/07/2021.)\n\nA partir da leitura do texto, depreende-se que",
+   "alternativas": {
+    "A": "a violência contra palestinos chega ao mundo reduzida a pequenas frases e a um certo limite de palavras.",
+    "B": "os bombardeamentos em Gaza são motivados por imagens estereotipadas da população na televisão.",
+    "C": "o ensino dos conflitos históricos em Gaza é baseado em sentimentos como o ódio e a insensibilidade.",
+    "D": "o aprendizado de inglês e das resoluções da ONU está associado ao fim da violência na Palestina."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q33",
+   "numero": 33,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Purificador de Água P&GTM (anteriormente conhecido como PUR) é um pacote único de pó que usa as mesmas técnicas, princípios e produtos químicos usados no tratamento de água numa estação convencional. Um sachê do produto trata, em 30 minutos de ação, 10 litros de água, sendo que a água tratada contém cloro livre de resíduos, o qual serve para proteger contra recontaminação. A tecnologia P&GTM de purificação de água em ação é mostrada na figura a seguir.\n\n![Seis fotografias, de (A) a (F), de baldes transparentes com água: (A) pó sendo despejado em água turva, (B) a água sendo mexida com uma haste, (C) mexida com uma colher de pau, (D) a água com flocos se depositando, (E) a água mais clara com sedimento no fundo, (F) a água transparente com um sachê ao lado](fig:p12-f1)\n\nO pacote contém: $\\text{Ca(OCl)}_2$, $\\text{KMnO}_4$, $\\text{Fe}_2(\\text{SO}_4)_3$, poliacrilamida aniônica de alto peso molecular e argila bentonítica. Levando em conta as informações dadas, pode-se concluir que o produto é capaz de tratar a água, pois contém agentes",
+   "alternativas": {
+    "A": "antimicrobiano, oxidante, floculante e adsorvente.",
+    "B": "microbiano, oxidante, floculante e adsorvente.",
+    "C": "antimicrobiano, redutor, coagulante, floculante.",
+    "D": "microbiano, redutor, coagulante, floculante."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q34",
+   "numero": 34,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "Na natureza, o metano pode se originar de processos termoquímicos ou biológicos. A atividade microbiana é o principal responsável pela biodegradação anaeróbia subterrânea de substratos orgânicos, sendo, assim, de importância fundamental no ciclo do carbono. Por outro lado, não se pode desconsiderar a importância de substratos inorgânicos na geração desse mesmo metano na natureza. A figura a seguir, <u>incompleta</u>, é uma forma sintética de classificar essas possíveis formas de origem natural de gás metano.\n\n![Quadro de classificação com os rótulos numerados 1 a 6: 1 (coluna da esquerda), 2 (cabeçalho superior), 3 e 4 (colunas), 5 e 6 (linhas). Células: Metanogênese, Acetato, álcool, metilaminas, mercaptanas; Pirólise, Hidrocarbonetos, querogênio; Metanogênese, CO2, H2, CO; Síntese, CO2, H2, grafite, carbonatos, H2O](fig:p12-f3)\n\nLevando em conta as informações anteriores, para que a figura fique completa e correta, os números 1, 2, 3, 4, 5 e 6 devem ser substituídos, respectivamente, pelos termos:",
+   "alternativas": {
+    "A": "processos, substratos, termoquímicos, biológicos, inorgânicos e orgânicos.",
+    "B": "substratos, processos, biológicos, termoquímicos, orgânicos e inorgânicos.",
+    "C": "processos, substratos, termoquímicos, biológicos, orgânicos e inorgânicos.",
+    "D": "substratos, processos, biológicos, termoquímicos, inorgânicos e orgânicos."
+   },
+   "anulada": false,
+   "gabarito": "B",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q35",
+   "numero": 35,
+   "materia": "quimica",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Usando um modelo típico da termodinâmica, os autores de um trabalho científico fazem previsões sobre a exposição de pessoas a vapores de substâncias adsorvidas em material sólido particulado (MP) ou a vapores de MP semivolátil. O estudo se refere a exposições aos vapores (gases) no interior climatizado (20-25°C) de residências e escritórios em países industrializados, já que essas pessoas passam 90% de seu tempo nesses ambientes. O estudo considerou também as condições climáticas do ambiente interno e externo. Levando-se em conta as informações dadas, pode-se concluir que os lados A e B da figura a seguir, correspondem, respectivamente, a\n\n![Esquema de uma casa com ambiente climatizado, com os lados A e B; em cada lado há nuvens de gases e elipses de partículas ligadas por setas, e setas largas indicando o sentido da exterior para o interior](fig:p12-c2)",
+   "alternativas": {
+    "A": "inverno e verão, e que a dessorção dos gases que ocorre nos MPs e a sublimação dos MPs são processos endotérmicos.",
+    "B": "inverno e verão, e que a dessorção dos gases que ocorre nos MPs e a sublimação dos MPs são processos exotérmicos.",
+    "C": "verão e inverno, e que a dessorção dos gases que ocorre nos MPs é um processo exotérmico, ao passo que a sublimação dos MPs é endotérmica.",
+    "D": "verão e inverno, e que a dessorção dos gases que ocorre nos MPs é um processo endotérmico, ao passo que a sublimação dos MPs é exotérmica."
+   },
+   "anulada": false,
+   "gabarito": "A",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2022-1-q36",
+   "numero": 36,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": "t36-37",
+   "enunciado": "Sabe-se que o componente ativo da tinta Paper Saver® é o indicador o-cresolftaleína. As formas estruturais A e B, a seguir, representam o componente ativo quando se mostra incolor e quando se mostra roxo, não necessariamente nessa sequência.\n\n![Fórmulas estruturais (A) e (B) do indicador o-cresolftaleína](fig:p13-c1)\n\nDessa forma, pode-se afirmar que na mudança da cor roxa para incolor ocorreu um",
+   "alternativas": {
+    "A": "abaixamento do pH, e a maioria das moléculas do indicador que estava no cartucho mudou da forma B para a forma A.",
+    "B": "aumento do pH, e a maioria das moléculas do indicador que estava no cartucho mudou da forma B para a forma A.",
+    "C": "abaixamento do pH, e a maioria das moléculas do indicador que estava no cartucho mudou da forma A para a forma B.",
+    "D": "aumento do pH, e a maioria das moléculas do indicador que estava no cartucho mudou da forma A para a forma B."
+   },
+   "anulada": false,
+   "gabarito": "C",
+   "revisao": "transcrita"
+  }
+ ]
+}

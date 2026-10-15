@@ -108,6 +108,9 @@ def montar(ed):
 
     meta = {k: ed[k] for k in ("id", "vestibular", "ano", "fase", "tipo", "versao")}
     meta["nome"] = f"{NOMES[ed['vestibular']]} {ed['ano']} – {ed['fase']}ª fase"
+    tabela = RAIZ / "img/tabela-periodica" / f"{ed['id']}.webp"
+    if tabela.exists():
+        meta["tabela_periodica"] = f"img/tabela-periodica/{ed['id']}.webp"
     meta["fonte"] = {
         "caderno": Path(ed["pdf"]).name,
         "gabarito": Path(ed["gabarito"]).name if ed.get("gabarito") else None,
@@ -118,9 +121,13 @@ def montar(ed):
 
 
 def indice():
+    esperado = {e["id"]: e["questoes"] for e in json.loads((RAIZ / "dados/provas/edicoes.json").read_text())}
     edicoes = []
     for arq in sorted((RAIZ / "dados/questoes").glob("*.json")):
         d = json.loads(arq.read_text())
+        if d["edicao"]["tipo"] == "objetiva" and len(d["questoes"]) < esperado[d["edicao"]["id"]]:
+            print(f"{d['edicao']['id']}: incompleta ({len(d['questoes'])} de {esperado[d['edicao']['id']]}), fica fora da plataforma")
+            continue
         materias = {}
         for q in d["questoes"]:
             materias[q["materia"]] = materias.get(q["materia"], 0) + 1

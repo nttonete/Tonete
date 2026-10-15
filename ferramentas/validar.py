@@ -163,7 +163,7 @@ def main():
             numeros = checar_questoes(rel, dados, ed, final=True)
             faltam = sorted(set(range(1, ed["questoes"] + 1)) - numeros)
             if faltam and ed["tipo"] == "objetiva":
-                rel.erro(ed["id"], f"faltam as questões {faltam}")
+                rel.aviso(ed["id"], f"incompleta, fora da plataforma até terminar: faltam {len(faltam)} questões")
     for linha in rel.erros + rel.avisos:
         print(linha)
     print(f"\n{len(rel.erros)} erro(s), {len(rel.avisos)} aviso(s)")
