@@ -30,7 +30,7 @@ Os agentes falham com "You've hit your session limit · resets HH:MM". Agende a 
 
 ## Se um agente for bloqueado pelo filtro de conteúdo
 
-"Output blocked by content filtering policy" em dois agentes seguidos no mesmo trecho costuma ser texto protegido (letra de música, trecho longo de romance). Não tente contornar. Ache o trecho (veja as páginas), refaça o lote pulando essas questões e registre em `ferramentas/PENDENCIAS.md`.
+"Output blocked by content filtering policy" em dois agentes seguidos no mesmo trecho costuma ser texto protegido (letra de música, trecho longo de romance). Não tente contornar. Ache o trecho (veja as páginas), refaça o lote pulando essas questões e acrescente-as a `dados/provas/indisponiveis.json` e à tabela de `ferramentas/PENDENCIAS.md`. Decisão já tomada: essas questões ficam fora do banco.
 
 ## Ao concluir
 

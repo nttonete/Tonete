@@ -2,9 +2,9 @@
 
 Lista viva. Cada item diz o que está parado e por quê.
 
-## Textos protegidos que o modelo não reproduz
+## Textos protegidos que o modelo não reproduz — DECIDIDO (15/10/2026): ficam de fora
 
-O filtro de conteúdo do serviço bloqueia a reprodução literal de alguns textos protegidos por direito autoral (letras de música, trechos longos de romances). As questões abaixo não foram transcritas, e ficam fora do banco até a decisão.
+O filtro de conteúdo do serviço bloqueia a reprodução literal de alguns textos protegidos por direito autoral (letras de música, trechos longos de romances). As questões abaixo não foram transcritas.
 
 | Edição | Questões | Texto |
 |---|---|---|
@@ -17,9 +17,7 @@ O filtro de conteúdo do serviço bloqueia a reprodução literal de alguns text
 | unesp-2018-1 | 51 | Letra de "Deixe o rio desaguar" |
 | fuvest-2017-1 | 47 | Edu Lobo e Chico Buarque, letra de "Ciranda da bailarina" |
 
-Enquanto não houver decisão, a edição entra na plataforma sem essas questões (lista em `dados/provas/indisponiveis.json`; a prova completa avisa quantas ficaram fora).
-
-Caminhos possíveis: (a) mostrar o texto como imagem recortada do caderno oficial, como já se faz com figuras; (b) deixar essas questões fora do banco e liberar o resto da edição; (c) licenciar os textos. A escolha envolve direito autoral e é de quem responde pela plataforma.
+Decisão de quem responde pela plataforma: essas questões ficam fora do banco. A edição entra sem elas (lista em `dados/provas/indisponiveis.json`), e a prova completa avisa quantas ficaram fora. Novos casos seguem a mesma regra: pular a questão e acrescentá-la a essa lista.
 
 ## Questões em atenção (revisor discorda do gabarito ou falta dado)
 
