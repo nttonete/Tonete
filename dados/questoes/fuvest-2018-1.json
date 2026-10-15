@@ -40,7 +40,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Primeiro converta a taxa de 90 kcal/hora para J/s, a unidade do gráfico.\n\n$90\\ \\text{kcal/h} = \\frac{90\\,000 \\times 4\\ \\text{J}}{3\\,600\\ \\text{s}} = 100\\ \\text{J/s}$\n\nNa condução, quanto mais grossa a espuma, menor o fluxo de calor (a curva cai). A pessoa dorme confortavelmente se o colchão deixar passar no máximo 100 J/s. No gráfico, a taxa vale 100 J/s quando a espessura é 1,5 cm (a curva é do tipo $k/x$: em 3 cm ela vale cerca de 50 J/s, metade). Espessuras maiores dão taxa ainda menor, então 1,5 cm é a menor espessura que serve.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q02",
@@ -58,7 +60,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Óptica",
+   "resolucao": "Use a equação de Gauss para lentes, com $f = 20\\ \\text{mm}$ e objeto a $p = 2\\ \\text{m} = 2\\,000\\ \\text{mm}$:\n\n$\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'} \\Rightarrow \\frac{1}{p'} = \\frac{1}{20} - \\frac{1}{2\\,000} = \\frac{99}{2\\,000}$\n\n$p' = \\frac{2\\,000}{99} \\approx 20{,}2\\ \\text{mm}$\n\nComo o objeto está muito longe em comparação com a distância focal, a imagem se forma praticamente no foco. O sensor fica a cerca de 20 mm da lente.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q03",
@@ -76,7 +80,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "A energia vem do calor latente liberado na condensação da água que cai como chuva. Calcule a massa de chuva em um dia:\n\n$V = \\pi r^2 h = 3 \\times (6{,}6 \\times 10^5)^2 \\times 1{,}5 \\times 10^{-2} \\approx 1{,}96 \\times 10^{10}\\ \\text{m}^3$, então $m = \\rho V \\approx 1{,}96 \\times 10^{13}\\ \\text{kg}$.\n\nEnergia liberada por dia: $Q = mL \\approx 1{,}96 \\times 10^{13} \\times 2 \\times 10^6 \\approx 3{,}9 \\times 10^{19}\\ \\text{J}$.\n\nPotência: $P = \\frac{Q}{\\Delta t} = \\frac{3{,}9 \\times 10^{19}}{8{,}6 \\times 10^4} \\approx 4{,}6 \\times 10^{14}\\ \\text{W}$.\n\nCuidado com o raio: 660 km são $6{,}6 \\times 10^5$ m; errar essa conversão leva às outras ordens de grandeza.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q04",
@@ -94,7 +100,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Cinemática",
+   "resolucao": "O tempo total tem duas partes: a queda do jovem e a volta do som até o alto do penhasco.\n\nQueda livre a partir do repouso: $h = \\frac{g t_1^2}{2} \\Rightarrow 45 = 5 t_1^2 \\Rightarrow t_1 = 3\\ \\text{s}$.\n\nSom subindo 45 m com velocidade constante: $t_2 = \\frac{45}{360} = 0{,}125\\ \\text{s}$.\n\nTotal: $t = 3 + 0{,}125 \\approx 3{,}1\\ \\text{s}$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q05",
@@ -112,7 +120,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Ondulatória",
+   "resolucao": "Quando a onda muda de profundidade, a frequência não muda (ela é fixada pela fonte); o que muda é a velocidade, e o comprimento de onda acompanha: $\\lambda = \\frac{v}{f}$, ou seja, $\\lambda$ é proporcional a $v$.\n\nPelo gráfico: em $h = 4{,}0\\ \\text{m}$, $v \\approx 6{,}3\\ \\text{m/s}$; em $h = 1{,}0\\ \\text{m}$, $v \\approx 3{,}1\\ \\text{m/s}$ (a velocidade cai à metade, pois $v = \\sqrt{gh}$).\n\n$\\lambda_2 = \\lambda_1 \\cdot \\frac{v_2}{v_1} = 50 \\times \\frac{3{,}1}{6{,}3} \\approx 25\\ \\text{m}$\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q06",
@@ -130,7 +140,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Quantidade de movimento",
+   "resolucao": "Resolva de trás para a frente. Depois da batida, o bloco de 3.000 kg desliza 10 m até parar, freado pelo atrito: a desaceleração é $a = \\mu g = 0{,}5 \\times 10 = 5\\ \\text{m/s}^2$.\n\nTorricelli: $0 = V^2 - 2 a d \\Rightarrow V^2 = 2 \\times 5 \\times 10 = 100 \\Rightarrow V = 10\\ \\text{m/s}$ (velocidade logo após o choque).\n\nNa colisão, a quantidade de movimento se conserva:\n\n$2\\,000 \\cdot v = 3\\,000 \\cdot 10 \\Rightarrow v = 15\\ \\text{m/s} = 54\\ \\text{km/h}$\n\nBem mais do que os 20 km/h alegados pelo motorista.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q07",
@@ -148,7 +160,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Dinâmica",
+   "resolucao": "A tensão é máxima no ponto mais baixo. Pela conservação da energia, a velocidade ali é $v^2 = 2gh = 2 \\times 10 \\times 1{,}2 = 24\\ \\text{m}^2/\\text{s}^2$.\n\nNo ponto mais baixo, a resultante é centrípeta:\n\n$T - mg = \\frac{m v^2}{L} \\Rightarrow T = 600 + \\frac{60 \\times 24}{2} = 600 + 720 = 1\\,320\\ \\text{N}$\n\nCom o fator de segurança 7, a corda precisa suportar $7 \\times 1\\,320 = 9\\,240\\ \\text{N}$. Só as cordas III (12.400 N), IV e V passam; a II (7.500 N) não basta.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q08",
@@ -166,7 +180,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Física moderna",
+   "resolucao": "A meia-vida do césio-137 é de 30 anos: a cada 30 anos, a quantidade cai pela metade.\n\nEm 120 anos cabem $\\frac{120}{30} = 4$ meias-vidas:\n\n$\\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16} = 0{,}0625 \\approx 6{,}3\\%$\n\nA data de 2017 citada no texto não entra na conta, porque a pergunta conta os 120 anos a partir do acidente, em 1987.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q09",
@@ -184,7 +200,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Eletrostática",
+   "resolucao": "O trabalho da força elétrica depende só da diferença de potencial entre o início e o fim, não do caminho: $W = q\\,(V_A - V_B)$.\n\nI. Correta: $W = (-1{,}6 \\times 10^{-19}) \\times (-2{,}0 \\times 10^4) = 3{,}2 \\times 10^{-15}\\ \\text{J}$. Partindo do repouso, essa é a energia cinética ao chegar em B (o elétron é atraído para o potencial maior).\n\nII. Correta: pelo teorema da energia cinética, $\\Delta E_c = W$, que é o mesmo nas duas trajetórias.\n\nIII. Errada: a força elétrica é conservativa, então o trabalho é igual nos caminhos 1 e 2.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q10",
@@ -202,7 +220,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Para o LED operar com seus valores nominais, ele deve receber 4 V e 8 W. A corrente é\n\n$i = \\frac{P}{U} = \\frac{8}{4} = 2\\ \\text{A}$\n\nO resistor está em série com o LED, então recebe a tensão que sobra da fonte: $6 - 4 = 2\\ \\text{V}$, com a mesma corrente de 2 A.\n\n$R = \\frac{U_R}{i} = \\frac{2}{2} = 1{,}0\\ \\Omega$\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q11",
@@ -220,7 +240,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Compare os gastos durante 10.000 h, a vida útil da fluorescente.\n\nFluorescente: energia $= 0{,}028\\ \\text{kW} \\times 10\\,000\\ \\text{h} = 280\\ \\text{kWh}$, que custam $280 \\times 0{,}25$ = R\\$ 70,00; somando o preço da lâmpada, R\\$ 90,00.\n\nIncandescentes: energia $= 0{,}1\\ \\text{kW} \\times 10\\,000\\ \\text{h} = 1\\,000\\ \\text{kWh}$, que custam R\\$ 250,00; são necessárias 10 lâmpadas (10.000 h ÷ 1.000 h), que custam R\\$ 40,00. Total: R\\$ 290,00.\n\nEconomia: 290,00 − 90,00 = R\\$ 200,00. As alternativas A e E são os gastos de cada opção, não a diferença.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q12",
@@ -238,7 +260,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "O perácido reage com a água e forma peróxido de hidrogênio ($\\text{H}_2\\text{O}_2$) e o composto 1. Fazendo o balanço dos átomos:\n\n$\\text{CH}_3\\text{CO}_3\\text{H} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{CH}_3\\text{COOH} + \\text{H}_2\\text{O}_2$\n\nO composto 1 é o ácido acético (ácido etanoico), que tem o cheiro característico do vinagre. Por isso, ao abrir o frasco, sente-se cheiro de vinagre. Nenhuma das outras substâncias (amônia, etanol, acetato de etila, cloro) pode se formar a partir do perácido e da água.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q13",
@@ -256,7 +280,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "A 25 °C, o $\\text{H}_3\\text{CC}\\ell$ é gás (ferve a −23,8 °C), então não está no líquido coletado. A fase líquida é uma mistura homogênea (uma só fase) de $\\text{H}_2\\text{CC}\\ell_2$, $\\text{HCC}\\ell_3$ e $\\text{CC}\\ell_4$.\n\nLíquidos miscíveis com pontos de ebulição diferentes (39,6 °C, 61,2 °C e 76,7 °C) se separam por destilação fracionada. O primeiro a sair é o de menor ponto de ebulição, o $\\text{H}_2\\text{CC}\\ell_2$.\n\nDecantação exigiria fases separadas, e o $\\text{CC}\\ell_4$, de maior ponto de ebulição, seria o último a destilar.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q14",
@@ -274,7 +300,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "O gráfico mostra o HCN caindo de cerca de 150 mg/kg (amostra II) para cerca de 70 mg/kg (amostra III) e quase zero (amostra IV).\n\nEtapa 2: o HCN é uma molécula polar, solúvel em água; parte dele sai junto com o líquido espremido (a manipueira). Por isso a massa prensada tem menos HCN.\n\nEtapa 3: o HCN é muito volátil (ferve perto de 26 °C); a 160 °C ele evapora e vai para o ar. Por isso a farinha torrada quase não tem HCN.\n\nAs alternativas com \"insolúvel\" contradizem a queda na Etapa 2, e as que dizem que o HCN \"permanece\" contradizem a queda na Etapa 3.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q15",
@@ -292,7 +320,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Soluções",
+   "resolucao": "A base KOH reage com o ácido oleico: é uma titulação ácido-base, que vai até a **neutralização** total (a fenolftaleína indica o ponto final).\n\nQuantidade de KOH: $n = 0{,}020 \\times 0{,}0350 = 7{,}0 \\times 10^{-4}\\ \\text{mol}$. Como a proporção é 1 : 1, há também $7{,}0 \\times 10^{-4}$ mol de ácido oleico.\n\nMassa de ácido: $7{,}0 \\times 10^{-4} \\times 282{,}5 \\approx 0{,}198\\ \\text{g}$ em 20,00 g de azeite.\n\nAcidez: $\\frac{0{,}198}{20{,}00} \\times 100\\% \\approx 0{,}99\\%$, que fica entre 0,8% e 1,5%: azeite **virgem fino**.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q16",
@@ -310,7 +340,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "Use a posição do enxofre na tabela: grupo 16, 3º período.\n\nI. Errada: o selênio está logo abaixo do enxofre no mesmo grupo; tem mais prótons e nêutrons, portanto massa atômica maior.\n\nII. Correta: o enxofre tem 6 elétrons de valência e completa o octeto com duas ligações covalentes, formando $\\text{H}_2\\text{S}$.\n\nIII. Correta: no mesmo período, a energia de ionização cresce da esquerda para a direita; o S (grupo 16) segura seus elétrons mais do que o Na (grupo 1).\n\nIV. Errada: o Na forma $\\text{Na}^+$ e o S forma $\\text{S}^{2-}$; o composto é $\\text{Na}_2\\text{S}$, não $\\text{Na}_3\\text{S}$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q17",
@@ -328,7 +360,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "Pela lei de Hess, a fotossíntese seguida da fermentação e da queima do etanol volta às substâncias iniciais ($\\text{CO}_2$ e $\\text{H}_2\\text{O}$). Então a soma dos três $\\Delta\\text{H}$ é zero.\n\nA queima precisa ser multiplicada por 2, pois a fermentação produz 2 mol de etanol:\n\n$\\Delta\\text{H}_{\\text{fotossíntese}} + (-70) + 2 \\times (-1\\,235) = 0$\n\n$\\Delta\\text{H}_{\\text{fotossíntese}} = 70 + 2\\,470 = +2\\,540\\ \\text{kJ/mol}$\n\nO sinal positivo faz sentido: a fotossíntese absorve energia solar. Quem esquece de multiplicar a queima por 2 chega a 1.305 kJ/mol.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q18",
@@ -346,7 +380,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "O metal de sacrifício precisa se oxidar mais facilmente que o ferro (o aço), para ser corroído no lugar dele.\n\nNa tabela, o \"+\" indica que o metal X deslocou o metal do sal, ou seja, X é mais reativo. O ferro não reage com $\\text{A}\\ell\\text{C}\\ell_3$ nem com $\\text{ZnC}\\ell_2$: alumínio e zinco são mais reativos que o ferro. O alumínio reage com $\\text{FeC}\\ell_3$, e o zinco também: os dois oxidam no lugar do ferro.\n\nO estanho não reage com nenhuma das soluções, então é menos reativo que o ferro e aceleraria a corrosão do tanque em vez de protegê-lo.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q19",
@@ -364,7 +400,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Siga as pistas dos testes.\n\nTeste II: o sólido branco reage com etanol e forma benzoato de etila, um éster. Então o sólido é o ácido benzoico ($\\text{C}_6\\text{H}_5\\text{COOH}$), o que também explica o pH = 4 e a solubilidade só em água quente (teste I).\n\nTeste I: o ácido benzoico veio da oxidação do Composto Alfa. Álcool primário oxida a ácido carboxílico, e o grupo $-\\text{CH}_2\\text{OH}$ ligado ao anel vira $-\\text{COOH}$. Logo o composto é o álcool benzílico, $\\text{C}_6\\text{H}_5\\text{CH}_2\\text{OH}$, com a fórmula $\\text{C}_7\\text{H}_8\\text{O}$ do rótulo e solução neutra.\n\nO cresol (D) tem a mesma fórmula, mas é um fenol (levemente ácido) e, oxidado, manteria o OH no anel, sem dar benzoato de etila. O éter da E não se oxida a ácido benzoico.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q20",
@@ -382,7 +420,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "Classifique cada sistema pelo tipo de partícula: substância pura tem um só tipo de partícula; mistura tem mais de um.\n\nSistema 2: um só tipo de molécula (dois átomos iguais), bem agrupadas: substância molecular. Sistema 5: átomos isolados de tamanhos diferentes, ou seja, elementos diferentes que não se ligam, como os gases nobres: mistura de gases nobres. Então C está correta.\n\nAs outras falham: o sistema 4 tem um só tipo de molécula (é substância pura, não mistura, e não é simples, pois tem átomos diferentes); o sistema 5 é mistura, não substância pura; o sistema 1 tem moléculas com átomos de tamanhos diferentes, então é substância composta.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q21",
@@ -402,7 +442,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "resolucao": "O $\\text{CO}_2$ dissolvido deixa a água ácida: $\\text{CO}_2 + \\text{H}_2\\text{O} \\rightleftharpoons \\text{H}^+ + \\text{HCO}_3^-$.\n\nDurante o dia, a fotossíntese consome $\\text{CO}_2$ mais rápido do que a respiração o produz: o equilíbrio se desloca para a esquerda, a acidez cai e o pH sobe, chegando ao máximo no fim do dia.\n\nÀ noite, só há respiração, que libera $\\text{CO}_2$: o pH cai e chega ao mínimo no fim da noite.\n\nO gráfico C mostra exatamente isso: pH descendo na noite, subindo durante todo o dia e voltando a cair na noite seguinte. O gráfico D é o oposto.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q22",
@@ -412,7 +454,7 @@
     "biologia"
    ],
    "texto_base": null,
-   "enunciado": "O hormônio melatonina é responsável pela sensação de sonolência. Em nosso organismo, a concentração de melatonina começa a aumentar ao anoitecer, atinge o máximo no meio da noite e decresce com a luz do dia. A melatonina é sintetizada a partir do aminoácido triptofano, em quatro etapas catalisadas por diferentes enzimas, sendo que a enzima 3 é degradada em presença de luz.\n\n![Esquema da síntese da melatonina: triptofano, enzima 1 (etapa 1), serotonina precursora com grupo HO, enzima 2 (etapa 2), serotonina, enzima 3 (etapa 3), N-acetil-serotonina, enzima 4 (etapa 4), melatonina](fig:p09-f1)\n\nConsidere as seguintes afirmações a respeito desse processo:\n\nI. Na etapa 2, há perda de dióxido de carbono e, na etapa 3, a serotonina é transformada em uma amida.\nII. A manipulação de objetos que emitem luz, como celulares e *tablets*, pode interromper ou tornar muito lento o processo de transformação da serotonina em N-acetil-serotonina.\nIII. O aumento da concentração de triptofano na corrente sanguínea pode fazer com que a pessoa adormeça mais lentamente ao anoitecer.\n\nÉ correto o que se afirma em",
+   "enunciado": "O hormônio melatonina é responsável pela sensação de sonolência. Em nosso organismo, a concentração de melatonina começa a aumentar ao anoitecer, atinge o máximo no meio da noite e decresce com a luz do dia. A melatonina é sintetizada a partir do aminoácido triptofano, em quatro etapas catalisadas por diferentes enzimas, sendo que a enzima 3 é degradada em presença de luz.\n\n![Esquema da síntese da melatonina: triptofano, enzima 1 (etapa 1), composto intermediário com grupo HO no anel, enzima 2 (etapa 2), serotonina, enzima 3 (etapa 3), N-acetil-serotonina, enzima 4 (etapa 4), melatonina](fig:p09-f1)\n\nConsidere as seguintes afirmações a respeito desse processo:\n\nI. Na etapa 2, há perda de dióxido de carbono e, na etapa 3, a serotonina é transformada em uma amida.\nII. A manipulação de objetos que emitem luz, como celulares e *tablets*, pode interromper ou tornar muito lento o processo de transformação da serotonina em N-acetil-serotonina.\nIII. O aumento da concentração de triptofano na corrente sanguínea pode fazer com que a pessoa adormeça mais lentamente ao anoitecer.\n\nÉ correto o que se afirma em",
    "alternativas": {
     "A": "I e II, apenas.",
     "B": "I e III, apenas.",
@@ -422,7 +464,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Analise cada afirmação com o esquema.\n\nI. Correta: na etapa 2, o grupo $-\\text{CO}_2\\text{H}$ desaparece (descarboxilação, perda de $\\text{CO}_2$); na etapa 3, o grupo $-\\text{NH}_2$ vira $-\\text{NH}-\\text{CO}-\\text{CH}_3$, uma amida.\n\nII. Correta: a enzima 3, que catalisa a passagem de serotonina a N-acetil-serotonina, é degradada pela luz. A luz das telas pode, então, frear essa etapa e a produção de melatonina.\n\nIII. Errada: mais triptofano disponível favorece a produção de melatonina, o que ajudaria a pessoa a adormecer mais depressa, não mais lentamente.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2018-1-q23",
@@ -440,7 +484,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "O autor diz que a radioatividade revelou duas \"esferas\" no átomo: uma superficial, responsável pela reatividade e pela combinação química, e uma profunda, inacessível aos agentes químicos, onde qualquer mudança altera a identidade do elemento.\n\nIsso corresponde à eletrosfera (os elétrons participam das ligações) e ao núcleo (a mudança no número de prótons transforma um elemento em outro, como no decaimento radioativo).\n\nA alternativa C erra porque mudar elétrons internos não muda a identidade do elemento. A D inverte o texto: pequenas são as energias dos agentes químicos comuns, insuficientes para alterar o núcleo. A E confunde a transformação nuclear com a formação de compostos.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q24",
@@ -458,7 +504,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Chame de $a$, $b$ e $v$ as quantidades de bolas amarelas, brancas e vermelhas.\n\nI: $v = 2a$.\n\nII: tirando 4 amarelas, $\\frac{v}{a + b + v - 4} = \\frac{1}{2} \\Rightarrow v = a + b - 4$. Com $v = 2a$: $a = b - 4$.\n\nIII: tirando 12 vermelhas, $\\frac{b}{a + b + v - 12} = \\frac{1}{2} \\Rightarrow b = a + v - 12 = 3a - 12$.\n\nSubstituindo $a = b - 4$: $b = 3(b - 4) - 12 \\Rightarrow 2b = 24 \\Rightarrow b = 12$.\n\nConferindo: $a = 8$, $v = 16$, total 36. Sem 4 amarelas: $\\frac{16}{32} = \\frac{1}{2}$; sem 12 vermelhas: $\\frac{12}{24} = \\frac{1}{2}$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q25",
@@ -476,7 +524,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Monte a composta usando as propriedades do logaritmo:\n\n$(g \\circ f)(x) = \\log_{10}\\left(\\frac{1}{2} \\cdot 5^x\\right) = \\log_{10} 5^x - \\log_{10} 2 = x \\log_{10} 5 - \\log_{10} 2$\n\nÉ uma função do 1º grau, com gráfico de reta.\n\nCoeficiente angular: $\\log_{10} 5 \\approx 0{,}70 > 0$, então a reta é crescente.\n\nCoeficiente linear: $-\\log_{10} 2 \\approx -0{,}30 < 0$, então a reta corta o eixo $y$ abaixo da origem.\n\nO único gráfico com reta crescente cortando o eixo $y$ na parte negativa é o da alternativa A (o da D corta na parte positiva).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q26",
@@ -494,7 +544,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Conte todos os trios de pontos e tire os que estão alinhados (não formam triângulo).\n\nTotal de trios: $C_{12,3} = \\frac{12 \\cdot 11 \\cdot 10}{6} = 220$.\n\nNa figura, dois segmentos têm 4 pontos cada e os outros dois têm 2 pontos cada. Os trios alinhados estão todos em um mesmo segmento: $C_{4,3} = 4$ em cada segmento de 4 pontos, e nenhum nos de 2 pontos.\n\nTriângulos: $220 - 2 \\times 4 = 212$.\n\nPontos de segmentos diferentes não ficam alinhados: o enunciado garante isso para três segmentos distintos, e a figura mostra que nenhum ponto está no prolongamento de outro segmento.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q27",
@@ -512,7 +564,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Lógica e conjuntos",
+   "resolucao": "Use o princípio da inclusão-exclusão para os conjuntos M, P e I de reprovados (sem nota mínima) em cada matéria:\n\n$n(M \\cup P \\cup I) = 14 + 16 + 12 - 5 - 3 - 7 + 2 = 29$\n\nEsses 29 candidatos não alcançaram a nota mínima em pelo menos uma disciplina. Os outros 20 alcançaram nas três.\n\nTotal: $29 + 20 = 49$.\n\nO erro comum é somar 14 + 16 + 12 sem descontar as interseções, contando duas ou três vezes quem foi mal em mais de uma matéria.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q28",
@@ -530,7 +584,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Fatore o polinômio: $x^3 + 2x^2 - 4x - 8 = x^2(x+2) - 4(x+2) = (x+2)^2(x-2)$.\n\nFunção $f$: o radicando é $\\frac{(x+2)^2(x-2)}{x-2} = (x+2)^2 \\geq 0$ para $x \\neq 2$. Então $D_f = \\mathbb{R} - \\{2\\}$ e $f(x) = |x+2|$, com imagem $I_f = [0, +\\infty)$ (o valor 4, perdido em $x = 2$, é atingido em $x = -6$).\n\nFunção $g$: é preciso $x - 2 > 0$ (raiz no denominador), e então o numerador também é positivo. $D_g = (2, +\\infty)$ e $g(x) = x + 2$, com imagem $I_g = (4, +\\infty)$.\n\nOs domínios diferem em todo $(-\\infty, 2)$ e as imagens em todo $[0, 4]$: em mais de um ponto nos dois casos.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q29",
@@ -548,7 +604,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "Cada ponta da estrela é formada pelo prolongamento de dois lados do octógono separados por dois lados. Por exemplo, $\\alpha_2$ fica entre as retas DC e HA, que têm entre si os lados CB e BA.\n\nAo passar de um lado para o seguinte, a direção gira o ângulo externo do vértice. Entre as retas DC e HA a direção gira $e_C + e_B + e_A$, então $\\alpha_2 = 180^\\circ - (e_C + e_B + e_A)$.\n\nSomando as 8 pontas, cada ângulo externo aparece 3 vezes, e a soma dos externos de um polígono convexo é $360^\\circ$:\n\n$\\alpha_1 + \\cdots + \\alpha_8 = 8 \\times 180^\\circ - 3 \\times 360^\\circ = 1\\,440^\\circ - 1\\,080^\\circ = 360^\\circ$\n\nQuem supõe que as pontas são formadas por lados separados por um só lado chega a $720^\\circ$, mas a figura não mostra isso.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2018-1-q30",
@@ -556,7 +614,7 @@
    "materia": "matematica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Gráfico com eixos x e y: uma linha pontilhada de senoide de período menor e uma linha contínua de senoide de menor frequência e amplitude menor](fig:p11-f2)\n\nAdmitindo que a linha pontilhada represente o gráfico da função $f(x) = \\mathit{sen}(x)$ e que a linha contínua represente o gráfico da função $g(x) = \\alpha\\,\\mathit{sen}(\\beta x)$, segue que",
+   "enunciado": "![Gráfico com eixos x e y e duas curvas senoidais que passam pela origem, uma em linha pontilhada e outra em linha contínua](fig:p11-f2)\n\nAdmitindo que a linha pontilhada represente o gráfico da função $f(x) = \\mathit{sen}(x)$ e que a linha contínua represente o gráfico da função $g(x) = \\alpha\\,\\mathit{sen}(\\beta x)$, segue que",
    "alternativas": {
     "A": "$0 < \\alpha < 1$ e $0 < \\beta < 1$.",
     "B": "$\\alpha > 1$ e $0 < \\beta < 1$.",
@@ -566,7 +624,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Trigonometria",
+   "resolucao": "Em $g(x) = \\alpha\\,\\mathit{sen}(\\beta x)$, $\\alpha$ controla a amplitude e $\\beta$ controla o período, que vale $\\frac{2\\pi}{\\beta}$.\n\nAmplitude: a curva contínua sobe menos que a pontilhada (que vai até 1), então $0 < \\alpha < 1$. Ela também começa subindo a partir da origem, como o seno, então $\\alpha > 0$.\n\nPeríodo: a curva contínua completa um ciclo enquanto a pontilhada completa dois. Seu período é maior que $2\\pi$, então $\\frac{2\\pi}{\\beta} > 2\\pi$, isto é, $0 < \\beta < 1$.\n\nA distratora D confunde período maior com $\\beta$ maior; é o contrário.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2018-1-q31",
