@@ -1,0 +1,123 @@
+{
+ "edicao": "fuvest-2025-2-d1",
+ "intervalo": [
+  1,
+  10
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 7,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Tirinha de Nanquim em três quadros. Quadro 1: um jovem digita no computador e pensa: “Fiz o trabalho usando inteligência artificial, e o professor me deu nota total!”. Quadro 2: o jovem, de beca e capelo e com o diploma na mão, pensa: “Me formei com louvor usando inteligência artificial na minha monografia!”. Quadro 3: o jovem, de boca aberta e com gotas de suor, diante de um empregador de terno que lhe diz: “Suas notas são boas, mas infelizmente não temos vagas de emprego no momento!”; ao fundo, num escritório, um robô junto a um computador](fig:p05-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique de que forma humor e crítica se combinam, na tirinha, para tratar do uso da inteligência artificial na sociedade contemporânea."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Construções adversativas e concessivas desempenham funções lógico-semânticas similares. Transforme a fala do empregador, presente no último quadro, em um período com estrutura concessiva, fazendo as alterações necessárias para que o sentido seja mantido em coerência com a tirinha."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 9,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A composição ao lado é parte de uma campanha de incentivo à coleta seletiva promovida pela Secretaria do Meio Ambiente do Distrito Federal. Campanhas dessa natureza se valem de uma diversidade de recursos imagéticos e verbais para atrair a atenção do público-alvo e persuadi-lo a adotar novos hábitos em relação a alguma pauta de relevância social; no caso, em relação ao meio ambiente.\n\n![Peça da campanha de coleta seletiva da Secretaria do Meio Ambiente do Distrito Federal: num parque, um canudo e um coco, ambos com olhos. No alto, o texto “Eles se conheceram no parque. Agora, um será RECICLADO e o outro irá para o lixo orgânico.”, com “RECICLADO” em destaque numa tira branca de bordas rasgadas. Embaixo, “SEPA” (junto ao canudo) e “RADOS” (junto ao coco), em blocos separados, seguidos de “pelo DESTINO”, com “DESTINO” em letras laranja e o símbolo de reciclagem dentro do “O”. No rodapé, logotipos de Adasa, SLU, Brasília Ambiental, Secretaria do Meio Ambiente e GDF](fig:p06-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique como os recursos imagéticos e verbais são combinados para persuadir o público-alvo da campanha a fazer a coleta seletiva."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma das estratégias para captar a atenção do público-alvo é o humor, e um dos recursos eficazes para gerar esse efeito é a polissemia. Explique como a polissemia da palavra “destino” gera efeito humorístico e capta a atenção do leitor."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "2": {
+   "assunto": "Obras de leitura obrigatória"
+  },
+  "3": {
+   "assunto": "Obras de leitura obrigatória"
+  },
+  "4": {
+   "assunto": "Obras de leitura obrigatória"
+  },
+  "5": {
+   "assunto": "Obras de leitura obrigatória"
+  },
+  "6": {
+   "assunto": "Variação linguística"
+  },
+  "7": {
+   "assunto": "Interpretação de texto"
+  },
+  "8": {
+   "assunto": "Figuras de linguagem"
+  },
+  "9": {
+   "assunto": "Semântica e sentido das palavras"
+  },
+  "10": {
+   "assunto": "Interpretação de texto"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "Enunciado, itens e resposta conferidos com p02 e r13 (itálicos de Água funda conferidos). Observação do transcritor: a falta de ponto final no item b da resposta está mesmo no documento oficial; mantida por fidelidade."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Conferido com p03, r14 e r15. Observação do transcritor: o recorte p03-c1 está completo, com o círculo vermelho do destaque, e sem a legenda (que vai como texto); decisão correta. “Quincas Borba” sem itálico na resposta b, como no documento."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Conferido com p03 e r16. “Os ratos” sem itálico na resposta, como no documento da banca."
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "Conferido com p04 e r17. Observação do transcritor: o recorte p04-c1 está completo; pôr a imagem depois do primeiro parágrafo (no caderno ela fica ao lado do texto) e antes da legenda e do comando é adequado. O documento de respostas diz “A partir da imagem” onde o caderno diz “Com base na imagem”; vale o caderno."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Conferido com p04 e r20."
+  },
+  {
+   "numero": 7,
+   "status": "corrigida",
+   "notas": "Descrição da tirinha: trocado “aflito” (interpretação) pelo que o desenho mostra (boca aberta, gotas de suor) e informado que o robô está num escritório, junto a um computador, fato visível e necessário para quem usa leitor de tela acompanhar o item a (a própria resposta da banca cita o robô). Texto e resposta conferidos com p05 e r21. Observação do transcritor: “AI” no item a está mesmo no documento oficial; mantido."
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": "Conferido com p05 e r22 (título em negrito, subtítulo e expressões dos itens em itálico; “Folha de S. Paulo” sem itálico no caderno; travessão colado em “—e estou” como no original)."
+  },
+  {
+   "numero": 9,
+   "status": "corrigida",
+   "notas": "Descrição da figura p06-f1: dizia que o “O” de “DESTINO” tinha “forma de” símbolo de reciclagem (o símbolo está dentro do “O”) e omitia elementos visuais que o item a manda analisar: “RECICLADO” numa tira de bordas rasgadas, “SEPA” junto ao canudo e “RADOS” junto ao coco, “DESTINO” em laranja. Observação do transcritor: manter “SEPA” e “RADOS” separados na descrição está correto. Resposta conferida com r23 (sem ponto final no item a, como no documento)."
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Conferido com p06 e r24 (fake news, necro e política em itálico, como no original)."
+  }
+ ]
+}

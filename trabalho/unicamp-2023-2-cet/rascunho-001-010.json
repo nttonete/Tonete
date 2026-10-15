@@ -1,0 +1,231 @@
+{
+ "edicao": "unicamp-2023-2-cet",
+ "intervalo": [
+  1,
+  10
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 1,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Márcia está decorando sua casa para o Natal e pretende cobrir uma pilastra com um papel de parede de temas natalinos e depois enrolar uma fita de lâmpadas de *led* na pilastra coberta, dando uma única volta, de modo que o ponto em que a fita começa a ser enrolada esteja exatamente embaixo do ponto onde ela termina, como ilustrado na figura a seguir.\n\n![Cilindro com a fita de led enrolada em uma volta, do início da fita, na base, ao fim da fita, no topo](fig:p03-f2)\n\nA pilastra tem o formato de um cilindro circular reto com 3 m de altura; a medida do perímetro da circunferência da base é 1 m, e sua lateral será coberta completamente com papel de parede colado sem sobreposição.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Sabendo que o metro quadrado do papel de parede custa R\\$ 20,00, determine quanto Márcia terá que gastar em papel de parede para cobrir a pilastra como ela quer."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é o menor comprimento que a fita de *led* precisa ter para ser possível esta instalação?"
+    }
+   ],
+   "observacoes": "Resposta oficial: o PDF de respostas perdeu as fórmulas (o texto fica 'A área da superfície é de . Como...' e 'A fita precisará medir no mínimo  m.'). Transcrito como impresso, sem completar."
+  },
+  {
+   "numero": 2,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere o sistema\n\n$$\\begin{cases} x + py = q, \\\\ 2x - z = p, \\\\ x + y + z = 3. \\end{cases}$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para $p = q = 1$, resolva o sistema."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine os valores de $p$, $q$ para que o sistema tenha infinitas soluções."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 3,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere a função real $f(x) = \\cos(2x) - 2\\,\\text{sen}(x)$, definida para $x \\in [0, 2\\pi]$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Calcule $f\\left(\\frac{\\pi}{4}\\right)$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Encontre todos os valores de $x \\in [0, 2\\pi]$ tais que $f(x) = -1/2$."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma estudante está praticando suas habilidades de geometria. Para isso, lança simultaneamente dois dados, um amarelo e um branco, e desenha a reta $r$ dada por $y = a_1 x + b_1$, sendo $a_1$ o resultado obtido no lançamento do dado amarelo e $b_1$ o resultado obtido no lançamento do dado branco.\n\nEla repete este processo, lançando novamente ambos os dados, e desenha assim uma segunda reta $s$ dada por $y = a_2 x + b_2$, com $a_2$ sendo o resultado obtido no segundo lançamento do dado amarelo e $b_2$ o resultado obtido no segundo lançamento do dado branco.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a probabilidade de as retas $r$ e $s$ terem apenas um ponto em comum?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Numa rodada do jogo, os resultados dos dados foram $a_1 = 2$, $b_1 = 3$, $a_2 = 5$ e $b_2 = 6$. Determine o ponto de interseção das retas encontradas."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma pesquisadora está testando o efeito de um medicamento em uma bactéria. Sabe-se que a função que descreve a quantidade de bactérias vivas na amostra em um tempo $t$, dado em minutos, é $Q(t) = C \\cdot 10^{-bt}$, com $b$ e $C$ dependendo de características da bactéria e do medicamento.\n\nDados: $\\log_{10} 2 \\approx 0{,}3$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para uma certa amostra com 5 milhões de bactérias, verificou-se que, nos primeiros 10 minutos, 9/10 da quantidade de bactérias na amostra morreram. Qual é a quantidade de bactérias vivas que restaram após 20 minutos?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Numa outra amostra, onde foi descoberto experimentalmente que $b = 3$, quanto tempo levará para que a quantidade de bactérias fique reduzida à metade?"
+    }
+   ],
+   "observacoes": "A linha 'Dados' vem depois dos itens no caderno; foi colocada no fim do enunciado. Resposta oficial do item b: o trecho da equação com o logaritmo saiu embaralhado no PDF ('-□log log 2 =-3t' e 't=2 )1/3≈0,1'); transcrito como impresso, sem reconstruir."
+  },
+  {
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere um triângulo ABC.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo que ABC é um triângulo retângulo com perímetro igual a 16 cm e hipotenusa de comprimento 7 cm, calcule sua área."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sabendo que em um triângulo qualquer a soma dos comprimentos de quaisquer dois lados é sempre maior que o comprimento do terceiro lado e assumindo que as medidas dos lados de um certo triângulo são $a$, $a^2$, $a^3$, calcule os possíveis valores de $a$."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 8,
+   "materia": "geografia",
+   "materias_extra": [
+    "historia",
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "“Acontece, porém, que a verdade sobre a fome incomoda os governos e fere as suscetibilidades patrióticas e, por isso mesmo, são frequentemente vedadas ao grande público, pelas respectivas censuras políticas. (...) Será a calamidade da fome um fenômeno natural, inerente à própria vida, uma contingência irremovível como a morte? Ou será a fome uma praga social criada pelo próprio homem?”\n\n(CASTRO, Josué de. *Geopolítica da Fome*. Rio de Janeiro: Casa do Estudante do Brasil, 2ª ed., 1953.)\n\n“Vivemos em um país que produz muito alimento e tem muita gente passando fome. Para além do escândalo ético, isso é uma aberração em termos de organização econômica e social. No plano moral, beira o criminoso: são 33 milhões de pessoas famintas, enquanto exportamos e produzimos mais de três quilos, só de grãos, por pessoa por dia.”\n\n(DOWBOR, Ladislau. Fome, uma decisão política e corporativa. *In:* CAMPELLO, Tereza; BORTOLETTO, Ana Paula (orgs.). *Da fome à fome: diálogos com Josué de Castro*. São Paulo: Elefante, 2022, p. 181.)\n\n![Gráfico de linhas \"Insegurança alimentar no Brasil\", em % da população, com as séries Leve, Moderada e Grave, em 2004, 2009, 2013, 2017/18 e 2020](fig:p10-f3)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para Josué de Castro, há poucos debates sobre a fome. Por que a questão da fome é ocultada dos debates contemporâneos? A insegurança alimentar é uma questão moral e política? A partir dos textos, justifique suas respostas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Cite um aspecto histórico e um social que explicam a existência da fome no Brasil. Analise, a partir do gráfico, o que houve com a questão da insegurança alimentar no país, desde o início do século XXI."
+    }
+   ],
+   "observacoes": "Questão da prova Interdisciplinar de Ciências Humanas; matéria principal e extras são sugestão. Resposta oficial do item a: o trecho 'sem que medidas efetivas de combate tenham sido pelo Estado' está assim no original (falta um verbo); item b: 'a fome do Brasil' também como impresso."
+  },
+  {
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em meados de 2022 o Telescópio Espacial James Webb entrou em operação. Ele foi chamado inicialmente de Telescópio Espacial de Nova Geração por ser desenvolvido com novas tecnologias e ter o objetivo de substituir parcialmente as funções do Telescópio Espacial Hubble, lançado em 1990. O telescópio Hubble possui uma massa $m_\\text{H} \\simeq 11000\\ \\text{kg}$ e se move numa órbita circular em torno da Terra, a uma altura aproximada $h \\simeq 600\\ \\text{km}$ da superfície terrestre. Já o Webb não orbita em torno da Terra, e sim em torno de um ponto mais distante do que a Lua; sua massa é pouco mais da metade da massa do Hubble, e pode ser aproximada por $m_\\text{W} \\simeq 6000\\ \\text{kg}$.\n\nQuando necessário, use as aproximações:\n$g \\approx 10\\ \\text{m/s}^2$\n$\\pi \\approx 3$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O período orbital do Hubble em torno da Terra pode ser aproximado por $T_\\text{H} \\simeq 100\\ \\text{min}$, e o raio da Terra por $R_\\text{T} \\simeq 6400\\ \\text{km}$. Qual o módulo da força centrípeta que atua no telescópio Hubble?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A figura no espaço de respostas mostra a distância percorrida pelo Webb durante as duas primeiras semanas após o lançamento. Assuma que o módulo da velocidade do Webb é aproximadamente constante no período que vai do início do 9º ao início do 19º dia de viagem (10 dias completos). Calcule, em unidades do <u>SI</u>, o módulo da quantidade de movimento do telescópio ao longo desse período. Aproxime $1\\ \\text{dia} \\simeq 8\\times10^4\\ \\text{s}$.\n\n![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, do início do 1º dia (25/12/2021) ao início do 16º dia (09/01)](fig:p11-c1)"
+    }
+   ],
+   "observacoes": "A instrução 'Quando necessário, use as aproximações: g ≈ 10 m/s², π ≈ 3' vem impressa uma vez só, na página 2 do caderno; foi repetida aqui porque a resposta usa π ≈ 3. Resposta oficial: as setas de vetor sobre F e a saíram como caixas vazias no PDF; escritas aqui como \\vec."
+  },
+  {
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O espelho primário do Telescópio Espacial James Webb é côncavo e tem diâmetro de aproximadamente seis metros – cerca de três vezes o do espelho do Telescópio Espacial Hubble. Isso permite a observação de objetos celestes ainda mais distantes.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A figura, no espaço de respostas, apresenta um espelho esférico de raio de curvatura $R_\\text{C} = 10\\ \\text{m}$. Um objeto $O$ está posicionado no eixo óptico a uma distância $p = 15\\ \\text{m}$ do vértice do espelho, e dois raios incidentes no espelho são assinalados como (1) e (2). Encontre a distância $p'$ da imagem ao vértice do espelho. A imagem é real ou é virtual? É direita ou é invertida? É ampliada ou é reduzida?\n\n![Espelho esférico com vértice e eixo óptico, objeto O sobre o eixo e raios incidentes (1) e (2), sobre quadriculado com escala de 1,0 m](fig:p12-c2)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em 1929, o astrônomo Edwin Hubble observou que a velocidade $v$ de afastamento de uma galáxia é proporcional à sua distância $D$ até a Terra, estabelecendo a chamada lei de Hubble: $v = H_0 D$, sendo $H_0 \\simeq \\frac{2\\times10^{-2}\\ \\text{m/s}}{\\text{ano-luz}}$ a constante de Hubble. Para a determinação da velocidade de afastamento, os astrônomos usaram o efeito Doppler, que produz um deslocamento da frequência da luz proveniente das galáxias, de forma que, para $v \\ll c$, tem-se: $\\frac{f_\\text{obser}}{f_\\text{emit}} \\simeq 1 - \\frac{v}{c}$, sendo $f_\\text{obser}$ e $f_\\text{emit}$ respectivamente as <u>frequências</u> observada e emitida, e $c = 3{,}0\\times10^8\\ \\text{m/s}$ a velocidade da luz no vácuo. A que distância $D$ fica uma galáxia para a qual certo <u>comprimento de onda</u> da luz observada é 25% maior que o da luz emitida, ou seja, $\\frac{\\lambda_\\text{obser}}{\\lambda_\\text{emit}} \\simeq 1{,}25$?"
+    }
+   ],
+   "observacoes": "Resposta oficial do item b: o símbolo de aproximado saiu como caixa vazia no PDF em três pontos; escrito aqui como \\simeq, como no enunciado. A resposta continua na página seguinte do documento (lei de Hubble, D = 3,0×10⁹ anos-luz)."
+  }
+ ],
+ "respostas": {
+  "1": {
+   "itens": {
+    "a": "A área da superfície é de . Como cada metro quadrado do papel de parede custa R\\$ 20,00, o custo total será de R\\$ 60,00.",
+    "b": "Na planificação da figura, a fita de led enrolada na pilastra se torna a hipotenusa de um triângulo retângulo de lados medindo 1 e 3. Portanto, basta calcular a medida da hipotenusa deste triângulo, usando o Teorema de Pitágoras. A fita precisará medir no mínimo  m."
+   }
+  },
+  "2": {
+   "itens": {
+    "a": "Para $p=q=1$, a primeira equação indica que $x+y=1$. Substituindo esta informação na última equação, teremos que $1+z=3$, ou seja, $z=2$. Usando essa informação na segunda equação, obtemos que $2x-2=1$, ou seja, $x=3/2$. Voltando com esse valor na primeira equação, temos que $y=-1/2$.",
+    "b": "Para que o sistema tenha infinitas soluções, é preciso fazer substituições. Isolando o valor de $x$ na primeira equação e substituindo este valor nas outras duas equações, obtemos o sistema auxiliar:\n\n$2(q-py)-z=p,\\ (q-py)+y+z=1.$\n\nSimplificando, obtemos:\n$2py+z=-p+2q,\\ (1-p)y+z=1-q.$\n\nComo queremos infinitas soluções, essas equações precisam ser múltiplas. Como o coeficiente do $z$ é o mesmo, deveremos ter os outros coeficientes iguais também, ou seja, $1-p=2p$, o que nos dá $p=1/3$, e $3q=p+3$, ou seja, $q=10/9$."
+   }
+  },
+  "3": {
+   "itens": {
+    "a": "Basta substituir o valor $\\pi/4$ na função $f(x)$, o que nos dará $-\\sqrt{2}$.",
+    "b": "A equação $f(x)=-1/2$ é equivalente a $\\cos(2x) - 2\\,\\text{sen}(x) = -1/2$. Como $\\cos(2x) = \\cos^2(x) - \\text{sen}^2(x)$, ficamos com a equação $\\cos^2(x) - \\text{sen}^2(x) - 2\\,\\text{sen}\\,x = -1/2$. Usando a identidade trigonométrica fundamental, e fazendo agora $S = \\text{sen}\\,x$, ficamos com a equação quadrática:\n\n$1-2S^2-2S=-1/2.$\n\nEssa equação tem duas soluções, $S=-3/2$ e $S=1/2$, mas só uma delas nos interessa. Finalmente, resolvendo $\\text{sen}\\,x = 1/2$, obtemos dois valores: $\\pi/6$ e $5\\pi/6$."
+   }
+  },
+  "4": {
+   "itens": {
+    "a": "A partir do sorteio dos coeficientes da primeira reta, para que elas não tenham um ponto em comum, ou elas são paralelas, ou elas são iguais. Isto dá 5/6 das vezes, pois basta que o coeficiente angular não seja o mesmo da reta original (os coeficientes são resultados dos dados, então temos 6 opções).",
+    "b": "A partir dos resultados dos lançamentos dos dados, obtemos as retas $y=2x+3$ e $y=5x+6$. Para determinar o ponto de encontro destas retas, resolvemos primeiro a equação $2x+3=5x+6$ e obtemos $-3x=3$, ou seja, $x=-1$, o que nos dá $y=1$, e o ponto $(-1,1)$."
+   }
+  },
+  "5": {
+   "itens": {
+    "a": "Como após 10 minutos restaram somente 1/10 do total inicial de bactérias, temos que $C/10 = C\\,10^{-10b}$, ou seja, $10^{-1} = 10^{-10b}$ e, com isso, temos a equação $-10b=-1$, o que nos dá $b=1/10$. Calculando agora para $t=20$ minutos, temos $Q(20)=5.000.000 \\cdot 10^{-2}=50.000$ bactérias.",
+    "b": "Sabendo que $b=3$, queremos determinar o tempo $t$ para que $C/2 = C\\,10^{-3t}$, ou seja, $1/2 = 10^{-3t}$. Aplicando logaritmo na base 10 em ambos os lados da equação, temos que -□log log 2 =-3t, ou seja, t=2 )1/3≈0,1 minutos, ou cerca de 6 segundos."
+   }
+  },
+  "6": {
+   "itens": {
+    "a": "Sejam $a, b, c$ as medidas dos lados do triângulo, com $c$ a medida da hipotenusa. Temos que $a+b+7=16$ e que $a^2+b^2=49$. Para calcular a área, precisamos encontrar o valor de $ab/2$. Como $a+b=9$, segue que $(a+b)^2=81$, e, por outro lado, $(a+b)^2=a^2+2ab+b^2=2ab+49$. Logo $2ab=32$, o que nos dá $ab/2=8$, que é a área procurada.",
+    "b": "Utilizando a informação fornecida, temos que, no caso $a>1$, o maior lado é $a^3$, e, portanto, $a^3<a+a^2$. Resolvendo essa desigualdade, temos que $a \\in (1,(1+\\sqrt{5})/2))$. Já no caso $a<1$, o maior lado será $a$, e, portanto, temos $a<a^2+a^3$, o que nos dá $a \\in ((-1+\\sqrt{5})/2),1)$ No caso $a=1$ todos os lados são iguais, e este é um valor possível para $a$. Portanto, a resposta é a união desses intervalos, ou seja, $a \\in ((-1+\\sqrt{5})/2,(1+\\sqrt{5})/2))$."
+   }
+  },
+  "8": {
+   "itens": {
+    "a": "Josué de Castro discutiu profundamente o problema da fome no Brasil, mostrando como tal problema, por afetar negativamente a legitimidade dos Estados e de seus governantes, foi ocultado da esfera pública, o que o configura, portanto, como uma questão política. Mostrar a fome afetaria a imagem e a identidade nacional, ferindo ainda a visão patriótica. A invisibilidade da fome é também uma questão moral criminosa, já por afetar, por exemplo na atualidade brasileira, um contingente de 33 milhões de pessoas, com o país tendo retornado ao Mapa da Fome da ONU sem que medidas efetivas de combate tenham sido pelo Estado – não obstante o fato de o Brasil ser um grande exportador de alimentos. A segurança alimentar é um direito e a fome atenta contra a vida e contra condições dignas de sobrevivência.",
+    "b": "A fome da população, segundo o trecho de Ladislau Dowbor, é resultado de decisões políticas e corporativas. Trata-se, portanto, de uma questão de responsabilidade do Estado, que deve gerir a organização econômica e social, não sendo um fenômeno da natureza. Pode-se citar, como aspectos históricos e sociais que contribuíram para a existência da fome do Brasil, na longa duração, a ausência de políticas de distribuição de terras, posto que por meio do processo colonial houve no Brasil concentração de terras para monoculturas de exportação. A desigualdade econômica, assim, jogou a maior parcela da população brasileira, historicamente, para uma situação de vulnerabilidade social e, muitas vezes, de fome, ligada à extrema pobreza. Podemos citar, também, como causas da fome, as secas do início do século XX, as migrações massivas campo-cidade que afastaram as comunidades das culturas de subsistência, a ausência de políticas de assistência social até o início do século XXI – quando, segundo o gráfico, a fome diminui no Brasil graças a políticas assistenciais criadas no período. A situação da insegurança alimentar regrediu a partir de 2013 e se intensificou depois de 2018. O aumento vertiginoso da fome em 2017/2018 é associado à adoção de políticas governamentais como o desmonte de políticas públicas de combate à pobreza, tais como os cortes de verbas para programas sociais, os cortes de incentivos à agricultura familiar, além da má gestão na pandemia da covid-19 no Brasil, resultando em inflação, altos níveis de desemprego, ataque a direitos trabalhistas e carestia."
+   }
+  },
+  "9": {
+   "itens": {
+    "a": "O módulo da força centrípeta é dado por $|\\vec{F}_\\text{cp}| = m_\\text{H}\\,|\\vec{a}_\\text{cp}| = m_\\text{H}\\,\\omega^2 r.$\n\nCom:\n\n$$r = R_\\text{T} + h = 6400\\ \\text{km} + 600\\ \\text{km} = 7000\\ \\text{km} = 7{,}0\\times10^6\\ \\text{m}$$\n\ne\n\n$$\\omega = \\frac{2\\pi}{T_\\text{H}} = \\frac{2\\times 3}{100\\times 60}\\ \\text{rad/s} = \\frac{1}{1000}\\ \\text{rad/s} = 1{,}0\\times10^{-3}\\ \\text{rad/s}$$\n\ntemos:\n\n$$|\\vec{F}_\\text{cp}| = (1{,}1\\times10^4\\ \\text{kg})\\times(1{,}0\\times10^{-3}\\ \\text{rad/s})^2\\times(7{,}0\\times10^6\\ \\text{m}) = 7{,}7\\times10^4\\ \\text{N}.$$",
+    "b": "![Gráfico da distância percorrida pelo Webb, em 10⁸ m, em função do tempo, com marcações em vermelho e azul: Δt = 10 dias e Δs = 4,0 x 10⁸ m](fig:r04-c1)\n\nO módulo da quantidade de movimento do telescópio ao longo do período especificado no enunciado da questão é dado por:\n\n$$|\\vec{p}| = m_\\text{W} v_\\text{W} = m_\\text{W} \\times \\left(\\frac{\\Delta s}{\\Delta t}\\right) = (6{,}0\\times10^3\\ \\text{kg})\\left(\\frac{4{,}0\\times10^8\\ \\text{m}}{8\\times10^5\\ \\text{s}}\\right) = 3\\times10^6\\ \\text{kg}\\cdot\\text{m/s}.$$"
+   }
+  },
+  "10": {
+   "itens": {
+    "a": "$f = \\frac{R}{2} = \\frac{10\\ \\text{m}}{2} = 5{,}0\\ \\text{m}$\n$\\frac{1}{p'} = \\frac{1}{f} - \\frac{1}{p} = \\frac{1}{5{,}0\\ \\text{m}} - \\frac{1}{15\\ \\text{m}} = \\frac{3-1}{15\\ \\text{m}} = \\frac{2}{15\\ \\text{m}}$\n$p' = 7{,}5\\ \\text{m} \\Rightarrow$ imagem real\n\n$A = \\frac{i}{o} = -\\frac{p'}{p} = -\\frac{7{,}5\\ \\text{m}}{15\\ \\text{m}} = -0{,}5$\n$\\Rightarrow$ imagem real invertida e reduzida",
+    "b": "Efeito Doppler: $\\frac{f_\\text{obser}}{f_\\text{emit}} \\simeq 1 - \\frac{v}{c}$\n\n$\\frac{v}{c} \\simeq 1 - \\frac{f_\\text{obser}}{f_\\text{emit}} = 1 - \\frac{\\lambda_\\text{emit}}{\\lambda_\\text{obser}} = 1 - \\frac{1}{1{,}25} = \\frac{1{,}25-1}{1{,}25} = \\frac{0{,}25}{1{,}25} = \\frac{1}{5} = 0{,}2$\n\n$v \\simeq 0{,}2 \\times c = 0{,}2 \\times (3{,}0\\times10^8\\ \\text{m/s}) = 6{,}0\\times10^7\\ \\text{m/s}$\n\nLei de Hubble: $v = H_0 D \\Rightarrow D = \\frac{v}{H_0} \\simeq \\frac{6{,}0\\times10^7\\ \\text{m/s}}{\\left(\\frac{2\\times10^{-2}\\ \\text{m/s}}{\\text{ano-luz}}\\right)} = 3{,}0\\times10^9$ anos-luz."
+   }
+  }
+ }
+}

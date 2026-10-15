@@ -89,7 +89,7 @@
     "12": {
       "itens": {
         "a": "Como $Q = mL_\\text{F}$ e $m = \\rho A y$, temos:\n\n$$Q = mL_\\text{F} = \\left[\\left(1{,}0\\times10^3\\ \\frac{\\text{kg}}{\\text{m}^3}\\right) \\times \\left(50\\times10^6\\ \\text{m}^2\\right) \\times 12\\ \\text{m}\\right] \\times \\left(80\\ \\frac{\\text{cal}}{\\text{g}} \\times \\frac{4\\ \\text{J}}{\\text{cal}} \\times \\frac{1000\\ \\text{g}}{\\text{kg}}\\right) = 1{,}92\\times10^{17}\\ \\text{J}.$$",
-        "b": "$$P = \\frac{Q}{\\Delta t} = \\frac{kA\\left(\\theta_{\\text{água}} - \\theta_{\\text{ar}}\\right)}{e} = \\frac{\\left(2{,}2\\ \\text{W/m}\\,^\\circ\\text{C}\\right) \\times \\left(50\\times10^6\\ \\text{m}^2\\right) \\times \\left(15\\ ^\\circ\\text{C}\\right)}{5{,}0\\ \\text{m}} = 3{,}3\\times10^8\\ \\text{W}.$$"
+        "b": "$$P = \\frac{Q}{\\Delta t} = \\frac{kA\\left(\\theta_{\\text{água}} - \\theta_{\\text{ar}}\\right)}{e} = \\frac{\\left(2{,}2\\ \\text{W/m}\\ ^\\circ\\text{C}\\right) \\times \\left(50\\times10^6\\ \\text{m}^2\\right) \\times \\left(15\\ ^\\circ\\text{C}\\right)}{5{,}0\\ \\text{m}} = 3{,}3\\times10^8\\ \\text{W}.$$"
       }
     },
     "13": {
