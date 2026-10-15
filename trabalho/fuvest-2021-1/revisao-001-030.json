@@ -101,7 +101,7 @@
    "resolucao": "Ponha o ângulo reto na origem, com os catetos nos eixos: a hipotenusa é a reta $\\frac{x}{35} + \\frac{y}{12} = 1$.\n\nO quadrado de lado $s$ com um vértice na origem tem o vértice oposto em $(s, s)$, que deve estar sobre a hipotenusa:\n\n$\\frac{s}{35} + \\frac{s}{12} = 1 \\Rightarrow s = \\frac{35 \\cdot 12}{35 + 12} = \\frac{420}{47} \\approx 8{,}94$ cm.\n\nO valor mais próximo é 9,0 cm. (Semelhança de triângulos leva à mesma conta: $\\frac{12 - s}{12} = \\frac{s}{35}$.)\n\n**Resposta: C**"
   },
   "13": {
-   "assunto": "Geometria plana",
+   "assunto": "Geometria espacial",
    "resolucao": "Com a Terra esférica, cada meridiano do Polo Norte até o Equador é um quarto da circunferência máxima: $\\frac{40\\,000}{4} = 10\\,000$ km.\n\nNo Equador, ir de $0^\\circ$ (Greenwich) até $45^\\circ$L corresponde a $\\frac{45}{360} = \\frac{1}{8}$ da volta: $\\frac{40\\,000}{8} = 5\\,000$ km.\n\nTotal: $10\\,000 + 5\\,000 + 10\\,000 = 25\\,000$ km.\n\n**Resposta: C**"
   },
   "14": {
@@ -122,7 +122,7 @@
   },
   "18": {
    "assunto": "Urbanização",
-   "resolucao": "O texto compara duas \"fronteiras\" da expansão do capital nos EUA: no século XIX, a expansão absoluta sobre o território, rumo ao oeste; no fim do século XX, a renovação urbana, que revaloriza áreas centrais degradadas das cidades (a gentrificação, tema do livro de Neil Smith).\n\nAs imagens que correspondem a esses dois momentos são a \"Marcha para o Oeste\" e a \"Revitalização de áreas centrais\".\n\nAs outras pares trazem fatos do século XVIII (Independência, Festa do Chá), do período colonial (chegada dos europeus) ou fenômenos urbanos diferentes da renovação de áreas centrais (suburbanização, Vale do Silício, gueto).\n\n**Resposta: A**"
+   "resolucao": "O texto compara duas \"fronteiras\" da expansão do capital nos EUA: no século XIX, a expansão absoluta sobre o território, rumo ao oeste; no fim do século XX, a renovação urbana, que revaloriza áreas centrais degradadas das cidades (a gentrificação, tema do livro de Neil Smith).\n\nAs imagens que correspondem a esses dois momentos são a \"Marcha para o Oeste\" e a \"Revitalização de áreas centrais\".\n\nOs outros pares trazem fatos do século XVIII (Independência, Festa do Chá), do período colonial (chegada dos europeus) ou fenômenos urbanos diferentes da renovação de áreas centrais (suburbanização, Vale do Silício, gueto).\n\n**Resposta: A**"
   },
   "19": {
    "assunto": "Mundo contemporâneo",
@@ -131,6 +131,46 @@
   "20": {
    "assunto": "Globalização e economia mundial",
    "resolucao": "O próprio enunciado indica o motivo: o Parlamento Europeu condicionou a ratificação ao compromisso do Mercosul com o Acordo de Paris, que trata de mudanças climáticas.\n\nEm 2020, o aumento do desmatamento e das queimadas na Amazônia e no Pantanal levou países como França, Áustria, Irlanda e Holanda a resistir ao acordo, alegando que ele estimularia a expansão agropecuária sobre florestas no Brasil (pesou também a pressão de agricultores europeus contra a concorrência).\n\nAs outras alternativas não têm relação com o Acordo de Paris nem com a resistência europeia.\n\n**Resposta: E**"
+  },
+  "21": {
+   "assunto": "Hidrografia",
+   "resolucao": "Aquífero é uma formação geológica subterrânea (rochas porosas ou fraturadas, como os arenitos do Guarani) que armazena água em quantidade significativa e permite que ela circule e seja extraída.\n\nEssa água é usada para abastecimento público (várias cidades paulistas, como Ribeirão Preto, dependem do Guarani) e, em áreas onde é aquecida ou mineralizada em profundidade, em estâncias de águas minerais e termais.\n\nAs demais erram a definição (não são reservatórios superficiais nem formados pelo vento) ou negam um uso que existe de fato, por meio de poços com tecnologia comum no país.\n\n**Resposta: A**"
+  },
+  "22": {
+   "assunto": "Clima",
+   "resolucao": "A temperatura do ar diminui com a altitude (cerca de $0{,}6\\ ^\\circ\\text{C}$ a cada 100 m), e a pressão atmosférica também cai, porque há menos ar acima.\n\nA 8.430 m a pressão é cerca de um terço da pressão ao nível do mar, então cada inspiração traz muito menos oxigênio, o que limita o esforço físico e o tempo de trabalho da equipe; somam-se a isso o frio intenso e os ventos.\n\nA alternativa (E) erra ao falar em pressão elevada: no alto ela é baixa. As chuvas e a umidade elevada também não caracterizam essa altitude, onde o ar é frio e seco.\n\n**Resposta: C**"
+  },
+  "23": {
+   "assunto": "Biomas e vegetação",
+   "resolucao": "Os pontos de ocorrência se concentram no leste e no sudeste do país, sobre a área verde-clara da Mata Atlântica, com alguns registros no Cerrado, na Caatinga e no Pampa. No mapa de elevação, muitos pontos ficam em áreas de planalto e serras, chegando à faixa de 750 a 1000 m.\n\nA Mata Atlântica é o bioma mais devastado do país: ocupa a faixa onde vive a maior parte da população e estão as maiores cidades, e restam pequenos fragmentos da cobertura original.\n\nAs demais contrariam o mapa: não há registros no Pantanal nem na Amazônia, e a espécie não se concentra na Caatinga.\n\n**Resposta: E**"
+  },
+  "24": {
+   "assunto": "Botânica",
+   "resolucao": "O Cerrado é uma savana com árvores baixas e esparsas, de caules e galhos tortuosos, casca grossa (adaptação ao fogo) e folhas muitas vezes coriáceas, num ambiente com muita luz e período seco marcado.\n\nA Mata Atlântica é uma floresta úmida e densa: as árvores crescem retas e altas, disputando luz, e no sub-bosque sombreado predominam plantas de folhas largas, que captam melhor a pouca luz.\n\nAssim, na transição diminuem os caules tortuosos e aumentam as folhas largas. Pelo mesmo raciocínio, as plantas adaptadas a queimadas e as que precisam de sol direto diminuem, e as epífitas aumentam, o que descarta (B), (D) e (E).\n\n**Resposta: C**"
+  },
+  "25": {
+   "assunto": "Ecologia",
+   "resolucao": "O grupo X se decompõe em até cerca de 100 anos; o grupo Y leva de aproximadamente 200 a mais de 500 anos.\n\nPlásticos como o PET levam séculos para se decompor, então pertencem ao grupo Y. Por isso, o melhor destino para eles é o reuso e a reciclagem, que evitam o acúmulo no ambiente e reaproveitam a matéria-prima.\n\nO papel se decompõe em poucos meses ou anos (grupo X). O vidro leva tempo indeterminado, muito acima de 500 anos, e não se queima; deve ser reciclado. A incineração e o aterro não são os destinos recomendados para materiais recicláveis.\n\n**Resposta: A**"
+  },
+  "26": {
+   "assunto": "Ecologia",
+   "resolucao": "O tamanho de uma população aumenta com natalidade ($N$) e imigração ($I$) e diminui com mortalidade ($M$) e emigração ($E$). A variação por ano é $N + I - M - E$.\n\nPelos gráficos, $N = 200$ e $E = 200$ indivíduos/ano o tempo todo, e se anulam. Imigração e mortalidade crescem juntas e com os mesmos valores, de 100 a 300 indivíduos/ano, então $I - M = 0$ em todos os instantes.\n\nAssim, $N + I - M - E = 0$: as entradas compensam exatamente as saídas e a população fica constante durante os 20 anos.\n\n**Resposta: D**"
+  },
+  "27": {
+   "assunto": "Biotecnologia",
+   "resolucao": "O milho Bt produz a própria proteína inseticida, reduzindo o ataque de lagartas: a lavoura perde menos plantas e fica mais produtiva, com menos uso de inseticidas.\n\nO aspecto negativo é evolutivo: a exposição contínua à proteína Cry seleciona lagartas que, por mutação, já eram resistentes a ela. Com o tempo, a resistência se espalha e a tecnologia perde eficácia. Por isso se recomendam áreas de refúgio com milho comum.\n\nAs outras alternativas atribuem à modificação efeitos que ela não tem, como aumento do valor nutricional, maturação mais rápida, polinização facilitada ou economia de água.\n\n**Resposta: E**"
+  },
+  "28": {
+   "assunto": "Genética",
+   "resolucao": "Só homens são afetados, e o filho afetado III.1 nasceu de pais não afetados: o alelo é recessivo e vem da mãe, II.2, que é portadora. O padrão é de herança ligada ao X recessiva (não é ligada ao Y, pois II.3, pai de III.1, não é afetado).\n\nII.2 é $X^AX^a$ e II.3 é $X^AY$. A filha III.2 recebeu $X^A$ do pai e tem probabilidade $\\frac{1}{2}$ de ter recebido $X^a$ da mãe.\n\nSe for portadora, metade de seus filhos homens serão afetados (o marido III.3 é normal). Para um menino: $\\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4} = 25\\%$.\n\nA alternativa (A) esquece que não é certo que III.2 seja portadora.\n\n**Resposta: B**"
+  },
+  "29": {
+   "assunto": "Citologia",
+   "resolucao": "Imediatamente antes da metáfase (fim da prófase e prometáfase), a membrana nuclear (carioteca) já se desfez, então só se vê a membrana plasmática. Os cromossomos já se duplicaram e cada um tem duas cromátides-irmãs, que são cópias idênticas: carregam o mesmo alelo no mesmo lugar.\n\nA célula é diploide e heterozigota: um cromossomo com $A$ nas duas cromátides, seu homólogo com $a$ nas duas, e o mesmo para $B$ e $b$. É o que mostra (A).\n\n(B) põe alelos diferentes em cromátides-irmãs; (C) põe genes de cromossomos diferentes no mesmo cromossomo; (D) e (E) mostram só um cromossomo de cada par e ainda a membrana nuclear intacta.\n\n**Resposta: A**"
+  },
+  "30": {
+   "assunto": "Química ambiental",
+   "resolucao": "Mais $\\text{CO}_2$ na atmosfera desloca o equilíbrio (I) para a direita: forma-se mais $\\text{H}_2\\text{CO}_3$, que libera $\\text{H}^+$. A água do mar fica menos alcalina (o pH diminui), fenômeno chamado acidificação dos oceanos.\n\nOs íons $\\text{H}^+$ reagem com o carbonato ($\\text{CO}_3^{2-} + \\text{H}^+ \\rightarrow \\text{HCO}_3^-$, solúvel), diminuindo a concentração de $\\text{CO}_3^{2-}$. Isso desloca o equilíbrio (II) para a esquerda e dificulta a formação de $\\text{CaCO}_3$, que forma o esqueleto dos corais e as conchas.\n\n(C) erra ao dizer que a alcalinidade não muda; (D) se contradiz, pois menor alcalinidade significa pH menor, não maior.\n\n**Resposta: A**"
   }
  },
  "relatorio": [

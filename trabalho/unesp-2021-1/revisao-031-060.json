@@ -1,0 +1,195 @@
+{
+  "edicao": "unesp-2021-1",
+  "intervalo": [
+    31,
+    60
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 41,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": "t41-42",
+      "enunciado": "No contexto descrito,",
+      "alternativas": {
+        "A": "a industrialização no Ocidente expandiu-se 12% no período de 1973 a 1980, o que refletiu a plena independência da indústria ocidental em relação ao petróleo produzido e exportado pelo Oriente Médio.",
+        "B": "o crescimento da riqueza foi menor no período de 1973 a 1980, em relação às décadas anteriores, demonstrando o impacto da crise do petróleo na economia norte-americana e na do Ocidente europeu.",
+        "C": "a taxa de produção industrial cresceu 132% no período de 1953 a 1975, o que fortaleceu a economia norte-americana e permitiu investimentos nos países do Ocidente europeu.",
+        "D": "a produção industrial norte-americana manteve-se estável no período de 1953 a 1975, o que impediu que os Estados Unidos abalassem a liderança econômica mundial da China e da União Soviética.",
+        "E": "a riqueza *per capita* sofreu redução de 2,5% no período de 1973 a 1980, o que fragilizou a posição norte-americana na disputa pelos mercados dos países do Ocidente europeu."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 49,
+      "materia": "geografia",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "![mapa-múndi com a distribuição das espécies do gênero Tapirus: anta-malaia (Tapirus indicus), na Ásia; anta-de-baird (Tapirus bairdu), anta-brasileira (Tapirus terrestris) e anta-da-montanha (Tapirus pinchaque), nas Américas; e setas indicando a migração do Protapirus (extinto) da América do Norte para a Europa e a Ásia](fig:p16-c3)\n\n(Adriano Figueiró. *Biogeografia*, 2015.)\n\nA distribuição do gênero *Tapirus* no tempo e no espaço indica que",
+      "alternativas": {
+        "A": "classes naturalmente modificadas exemplificam a pluralidade ecológica do determinismo geográfico.",
+        "B": "famílias deslocadas terão suas existências comprometidas com os limites meridionais dos continentes.",
+        "C": "espécies de um mesmo gênero podem surgir conforme as mudanças ambientais na escala do tempo geológico.",
+        "D": "espécies em distribuição contínua registram fácil adaptação devido à ausência de barreiras geográficas.",
+        "E": "famílias derivadas de um mesmo gênero demonstram a adaptação dos seres vivos às características locais."
+      },
+      "observacoes": "Na figura o nome científico está grafado \"Tapirus bairdu\" (erro do original; o correto seria bairdii)."
+    }
+  ],
+  "complementos": {},
+  "relatorio": [
+    {
+      "numero": 31,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 32,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 33,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 34,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 35,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 36,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 37,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 38,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 39,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 40,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 41,
+      "status": "corrigida",
+      "notas": "materias_extra: retirada \"geografia\"; a questão cobra só leitura do texto e história do pós-guerra."
+    },
+    {
+      "numero": 42,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 43,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 44,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 45,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 46,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 47,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 48,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 49,
+      "status": "corrigida",
+      "notas": "descrição da figura: \"Tapirus bairdii\" trocado por \"Tapirus bairdu\", como está impresso no mapa (erro do original, anotado em observacoes)."
+    },
+    {
+      "numero": 50,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 51,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 52,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 53,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 54,
+      "status": "ok",
+      "notas": "Símbolo º do caderno transcrito como ° (grau), conforme observação do transcritor; ok."
+    },
+    {
+      "numero": 55,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 56,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 57,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 58,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 59,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 60,
+      "status": "ok",
+      "notas": ""
+    }
+  ]
+}

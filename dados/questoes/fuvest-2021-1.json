@@ -37,7 +37,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "Basta contar os lados de quadradinho percorridos em cada caminho. De $X$ até $Y$ há 10 unidades na horizontal e 6 na vertical.\n\nO caminho $c$ desce 6 e anda 10 para a direita: $c = 16$. O caminho $b$ é uma escada que só anda para a direita e para baixo; somando os trechos horizontais dá 10 e os verticais dá 6, logo $b = 16$.\n\nO caminho $a$ primeiro sobe 2, depois anda 10 para a direita e desce 8: $a = 2 + 10 + 8 = 20$.\n\nPortanto $b = c < a$. A distratora $a = b = c$ esquece que $a$ sobe antes de descer, o que acrescenta 4 unidades.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q02",
@@ -55,7 +57,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Queremos uma função estritamente decrescente: em todo o domínio mostrado, quando $x$ aumenta, $y$ diminui.\n\n(A) é constante; (B) cai e depois fica constante; (C) cai e depois sobe; (D) sobe no começo e só depois cai.\n\nEm (E) todos os trechos do gráfico descem, alguns mais e outros menos inclinados, mas nenhum é horizontal ou crescente. Só ele atende a \"sempre diminui\".\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q03",
@@ -73,7 +77,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Analisemos cada afirmação sobre números primos.\n\n(A) Falsa: 2 é primo e par (a piada da tirinha).\n(B) Falsa: existem infinitos primos (teorema de Euclides).\n(C) Falsa: para $n = 3$, $2^3 + 1 = 9 = 3 \\cdot 3$.\n(D) Verdadeira: entre 24 e 36 os primos são apenas 29 e 31.\n(E) Falsa: $143 = 11 \\cdot 13$.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q04",
@@ -91,7 +97,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "As cinco figuras têm um vértice comum $V$ ($3 \\cdot 60^\\circ + 2 \\cdot 90^\\circ = 360^\\circ$) e o mesmo lado. Dois polígonos regulares vizinhos têm o centro sobre a mediatriz do lado comum, então o lado do pentágono que liga seus centros corta esse lado no ponto médio.\n\nAssim, dentro de cada polígono, o pentágono ocupa o quadrilátero formado por $V$, os pontos médios dos dois lados que saem de $V$ e o centro.\n\nNo quadrado, esse quadrilátero é um quadradinho de área $\\frac{Q}{4}$. No triângulo equilátero, os segmentos do centro aos pontos médios dividem-no em 3 partes iguais, cada uma de área $\\frac{T}{3}$.\n\nÁrea do pentágono: $3 \\cdot \\frac{T}{3} + 2 \\cdot \\frac{Q}{4} = T + \\frac{1}{2}Q$.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q05",
@@ -109,7 +117,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "A operadora fica com 6% do valor de venda, então o comerciante recebe $94\\%$ de $V$. Ele quer continuar recebendo $P$:\n\n$0{,}94 \\cdot V = P \\Rightarrow V = \\dfrac{P}{0{,}94}$.\n\nA alternativa (B) parece natural (aumentar 6% e descontar 6%), mas dá $0{,}9964\\,P$, menos que $P$: um aumento de 6% não compensa um desconto de 6% sobre o valor maior.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q06",
@@ -127,7 +137,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Sejam $a$ os acertos e $e$ os erros. Temos o sistema:\n\n$a + e = 50$ e $5a - 2e = 124$.\n\nSubstituindo $e = 50 - a$: $5a - 100 + 2a = 124 \\Rightarrow 7a = 224 \\Rightarrow a = 32$ e $e = 18$.\n\nA diferença é $32 - 18 = 14$. Cuidado com a alternativa (D): 18 é o número de erros, não a diferença.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q07",
@@ -145,7 +157,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Para usar o menor número de cubos, a aresta deve ser a maior possível que divida as três dimensões: o máximo divisor comum.\n\n$\\text{mdc}(60, 24, 18) = 6$ cm.\n\nCabem $\\frac{60}{6} = 10$, $\\frac{24}{6} = 4$ e $\\frac{18}{6} = 3$ cubos em cada direção, ou seja, $10 \\cdot 4 \\cdot 3 = 120$ cubos.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q08",
@@ -163,7 +177,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Cada uma das 10 posições pode receber qualquer das 26 letras: há $26^{10}$ códigos.\n\nComo $26 = 2 \\cdot 13$: $26^{10} = 2^{10} \\cdot 13^{10}$. Temos $2^{10} = 1024 \\approx 10^{3{,}01}$ e $\\log 13^{10} = 10 \\cdot 1{,}114 = 11{,}14$.\n\nLogo $\\log 26^{10} \\approx 3{,}01 + 11{,}14 = 14{,}15$, isto é, $26^{10} \\approx 1{,}4 \\cdot 10^{14}$.\n\nUm trilhão é $10^{12}$, então $10^{14}$ são 100 trilhões e $10^{15}$ é 1 quatrilhão. O número está entre eles.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q09",
@@ -181,7 +197,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "Como $ABE$ é equilátero e $AE = 6$, temos $AB = 6$ e $AF = FB = 3$. A altura do triângulo cai no ponto médio $F$ e mede $\\frac{6\\sqrt{3}}{2} = 3\\sqrt{3}$.\n\n$DE$ é paralelo a $AC$, então $D$ está à mesma altura de $E$; e $CD$ é perpendicular a $AC$, então $D$ fica bem acima de $C$, com $CD = 3\\sqrt{3}$.\n\nNo triângulo retângulo $FCD$: $FC = FB + BC = 3 + 10 = 13$.\n\n$DF^2 = 13^2 + (3\\sqrt{3})^2 = 169 + 27 = 196 \\Rightarrow DF = 14$.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q10",
@@ -199,7 +217,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria analítica",
+   "resolucao": "A região hachurada fica entre o arco do círculo no 2º quadrante e a corda que liga $(-1, 0)$ a $(0, 1)$.\n\nEssa corda está na reta $y = x + 1$, ou $y - x = 1$. A região fica acima da reta (teste o ponto $(-0{,}5;\\ 0{,}8)$: $0{,}8 + 0{,}5 = 1{,}3 \\geq 1$), portanto $y - x \\geq 1$.\n\nAlém disso, ela está dentro do círculo: $x^2 + y^2 \\leq 1$.\n\nA alternativa (D) usa a reta $y + x = 1$, que liga $(1, 0)$ a $(0, 1)$, no 1º quadrante.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q11",
@@ -217,7 +237,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "resolucao": "Os gráficos se cruzam quando existe $x$ real com $f(x) = g(x)$:\n\n$c + x^2 = x \\iff x^2 - x + c = 0$.\n\nEssa equação do 2º grau tem raiz real quando o discriminante não é negativo:\n\n$\\Delta = (-1)^2 - 4 \\cdot 1 \\cdot c = 1 - 4c \\geq 0 \\iff c \\leq \\frac{1}{4}$.\n\nPara $c = \\frac{1}{4}$ a parábola apenas toca a reta (raiz dupla $x = \\frac{1}{2}$); para $c$ maior, fica toda acima dela.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q12",
@@ -235,7 +257,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria plana",
+   "resolucao": "Ponha o ângulo reto na origem, com os catetos nos eixos: a hipotenusa é a reta $\\frac{x}{35} + \\frac{y}{12} = 1$.\n\nO quadrado de lado $s$ com um vértice na origem tem o vértice oposto em $(s, s)$, que deve estar sobre a hipotenusa:\n\n$\\frac{s}{35} + \\frac{s}{12} = 1 \\Rightarrow s = \\frac{35 \\cdot 12}{35 + 12} = \\frac{420}{47} \\approx 8{,}94$ cm.\n\nO valor mais próximo é 9,0 cm. (Semelhança de triângulos leva à mesma conta: $\\frac{12 - s}{12} = \\frac{s}{35}$.)\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q13",
@@ -253,15 +277,15 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "resolucao": "Com a Terra esférica, cada meridiano do Polo Norte até o Equador é um quarto da circunferência máxima: $\\frac{40\\,000}{4} = 10\\,000$ km.\n\nNo Equador, ir de $0^\\circ$ (Greenwich) até $45^\\circ$L corresponde a $\\frac{45}{360} = \\frac{1}{8}$ da volta: $\\frac{40\\,000}{8} = 5\\,000$ km.\n\nTotal: $10\\,000 + 5\\,000 + 10\\,000 = 25\\,000$ km.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q14",
    "numero": 14,
    "materia": "geografia",
-   "materias_extra": [
-    "historia"
-   ],
+   "materias_extra": [],
    "texto_base": null,
    "enunciado": "![Mapa-múndi na projeção de Mercator, com a legenda “Apresentada pela primeira vez no século XVI.”](fig:p04-c1)\n\n![Mapa-múndi na projeção de Gall-Peters, com a legenda “Elaborada pela primeira vez no século XIX.”](fig:p04-c2)\n\n![Mapa-múndi na projeção de Robinson, com a legenda “Elaborada em 1963.”](fig:p04-c3)\n\nSobre as projeções cartográficas apresentadas, suas formas e dimensões, é correto afirmar:",
    "alternativas": {
@@ -273,7 +297,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Cartografia",
+   "resolucao": "Toda projeção cartográfica transfere uma superfície curva (a Terra, de forma aproximada a um geoide) para um plano, e isso sempre gera alguma distorção de área, forma, distância ou direção. O que muda de uma projeção para outra é qual propriedade ela preserva.\n\nMercator conserva os ângulos (útil à navegação) e exagera as áreas em altas latitudes; Gall-Peters conserva as áreas e deforma os contornos; Robinson não preserva nenhuma propriedade de forma exata, mas equilibra as deformações.\n\nAs outras alternativas atribuem as distorções a falta de técnica, a descobertas posteriores ou ao desconhecimento da forma da Terra, o que é falso: a distorção é inevitável em qualquer época.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2021-1-q15",
@@ -293,7 +319,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ditadura militar",
+   "resolucao": "A SUDAM e o Banco da Amazônia, com incentivos fiscais para atrair capital do Sudeste à agropecuária amazônica, fazem parte da \"Operação Amazônia\" de 1966, no início da Ditadura Militar.\n\nA política fez grandes empresas comprarem terras de forma especulativa, o que estimulou a grilagem (apropriação ilegal de terras públicas com títulos falsos) e a derrubada da floresta para abrir pastos.\n\nA concentração de terras opôs grandes proprietários a posseiros, indígenas e pequenos agricultores, aumentando os conflitos violentos no campo.\n\nAs demais combinam períodos errados (Império, Primeira República, Estado Novo, Nova República) com efeitos que não ocorreram, como preservação da floresta ou reforma agrária massiva.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q16",
@@ -311,7 +339,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Energia",
+   "resolucao": "Os países destacados (Venezuela, Argélia, Líbia, Nigéria, Guiné Equatorial, Gabão, Congo, Angola, Iraque, Irã, Kuwait, Arábia Saudita e Emirados Árabes Unidos) são os 13 membros da Organização dos Países Exportadores de Petróleo em 2020.\n\nO que eles têm em comum é a grande produção e exportação de petróleo, concentrada no Oriente Médio, no norte e no oeste da África.\n\nOs BRICS são Brasil, Rússia, Índia, China e África do Sul; a OTAN reúne EUA, Canadá e países europeus; nenhum desses grupos aparece no mapa.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q17",
@@ -329,7 +359,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Geologia e relevo",
+   "resolucao": "O Brasil está no interior da placa Sul-Americana, longe das bordas onde ocorrem os grandes sismos. Mesmo assim, há tremores de baixa ou moderada magnitude, causados pelo acúmulo de tensões que se liberam em falhas geológicas antigas da crosta.\n\nPor isso, registrar e estudar esses terremotos, como o de magnitude 4,6 no Recôncavo Baiano, ajuda a conhecer as falhas e a estrutura geológica do território brasileiro.\n\nAs demais erram a causa (maremotos são consequência, não causa; não houve divergência de crosta no Brasil) ou o local (Bacia Amazônica, Serra Gaúcha), ou dizem que o núcleo da Terra é \"explorado\" na região.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q18",
@@ -349,7 +381,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Urbanização",
+   "resolucao": "O texto compara duas \"fronteiras\" da expansão do capital nos EUA: no século XIX, a expansão absoluta sobre o território, rumo ao oeste; no fim do século XX, a renovação urbana, que revaloriza áreas centrais degradadas das cidades (a gentrificação, tema do livro de Neil Smith).\n\nAs imagens que correspondem a esses dois momentos são a \"Marcha para o Oeste\" e a \"Revitalização de áreas centrais\".\n\nOs outros pares trazem fatos do século XVIII (Independência, Festa do Chá), do período colonial (chegada dos europeus) ou fenômenos urbanos diferentes da renovação de áreas centrais (suburbanização, Vale do Silício, gueto).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q19",
@@ -369,7 +403,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "No esquema de Lefebvre, a \"zona crítica\" é a etapa final da urbanização, perto de 100%: a sociedade se torna urbana e o agrário fica completamente subordinado ao urbano. Ela corresponde ao período atual, de fins do século XX em diante.\n\nFazem parte desse contexto o neoliberalismo (a partir dos anos 1980), a urbanização elevada e a crise hipotecária de 2008, que nasceu justamente do mercado imobiliário urbano dos EUA.\n\nAs demais misturam elementos de épocas anteriores: Revolução Industrial e lei Bill Aberdeen (século XIX), *New Deal* e quebra da Bolsa de Nova Iorque (anos 1930), mercantilismo e Paz de Vestfália (séculos XVI-XVII).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q20",
@@ -387,7 +423,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "O próprio enunciado indica o motivo: o Parlamento Europeu condicionou a ratificação ao compromisso do Mercosul com o Acordo de Paris, que trata de mudanças climáticas.\n\nEm 2020, o aumento do desmatamento e das queimadas na Amazônia e no Pantanal levou países como França, Áustria, Irlanda e Holanda a resistir ao acordo, alegando que ele estimularia a expansão agropecuária sobre florestas no Brasil (pesou também a pressão de agricultores europeus contra a concorrência).\n\nAs outras alternativas não têm relação com o Acordo de Paris nem com a resistência europeia.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q21",
@@ -405,7 +443,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Hidrografia",
+   "resolucao": "Aquífero é uma formação geológica subterrânea (rochas porosas ou fraturadas, como os arenitos do Guarani) que armazena água em quantidade significativa e permite que ela circule e seja extraída.\n\nEssa água é usada para abastecimento público (várias cidades paulistas, como Ribeirão Preto, dependem do Guarani) e, em áreas onde é aquecida ou mineralizada em profundidade, em estâncias de águas minerais e termais.\n\nAs demais erram a definição (não são reservatórios superficiais nem formados pelo vento) ou negam um uso que existe de fato, por meio de poços com tecnologia comum no país.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q22",
@@ -423,14 +463,16 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "A temperatura do ar diminui com a altitude (cerca de $0{,}6\\ ^\\circ\\text{C}$ a cada 100 m), e a pressão atmosférica também cai, porque há menos ar acima.\n\nA 8.430 m a pressão é cerca de um terço da pressão ao nível do mar, então cada inspiração traz muito menos oxigênio, o que limita o esforço físico e o tempo de trabalho da equipe; somam-se a isso o frio intenso e os ventos.\n\nA alternativa (E) erra ao falar em pressão elevada: no alto ela é baixa. As chuvas e a umidade elevada também não caracterizam essa altitude, onde o ar é frio e seco.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q23",
    "numero": 23,
-   "materia": "biologia",
+   "materia": "geografia",
    "materias_extra": [
-    "geografia"
+    "biologia"
    ],
    "texto_base": null,
    "enunciado": "Segundo o Atlas de Serpentes Brasileiras, a jararaca (nome científico *Bothrops jararaca*) encontra-se com as ocorrências registradas em uma extensa faixa do Brasil relativa a diferentes Biomas, onde se alimenta de anfíbios, roedores e outros animais. A espécie ocorre nas áreas apontadas, sendo encontrada em zonas florestadas ou modificadas pela ação humana.\n\n![Brasil: Distribuição da Bothrops jararaca. Dois mapas do Brasil: à esquerda, mapa de biomas (Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa e Pantanal); à direita, mapa de elevação em metros (acima de 1000, 750-1000, 500-750, 250-500 e abaixo de 250). Os dois mapas trazem pontos de ocorrência da espécie (Bothrops jararaca)](fig:p08-c1)\n\nFonte: Atlas de Serpentes Brasileiras (2019) e IBGE (2020). Adaptado.\n\nSobre as serpentes *Bothrops jararaca* e os principais biomas de ocorrência, é correto afirmar:",
@@ -443,7 +485,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Biomas e vegetação",
+   "resolucao": "Os pontos de ocorrência se concentram no leste e no sudeste do país, sobre a área verde-clara da Mata Atlântica, com alguns registros no Cerrado, na Caatinga e no Pampa. No mapa de elevação, muitos pontos ficam em áreas de planalto e serras, chegando à faixa de 750 a 1000 m.\n\nA Mata Atlântica é o bioma mais devastado do país: ocupa a faixa onde vive a maior parte da população e estão as maiores cidades, e restam pequenos fragmentos da cobertura original.\n\nAs demais contrariam o mapa: não há registros no Pantanal nem na Amazônia, e a espécie não se concentra na Caatinga.\n\n**Resposta: E**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2021-1-q24",
@@ -461,7 +505,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "O Cerrado é uma savana com árvores baixas e esparsas, de caules e galhos tortuosos, casca grossa (adaptação ao fogo) e folhas muitas vezes coriáceas, num ambiente com muita luz e período seco marcado.\n\nA Mata Atlântica é uma floresta úmida e densa: as árvores crescem retas e altas, disputando luz, e no sub-bosque sombreado predominam plantas de folhas largas, que captam melhor a pouca luz.\n\nAssim, na transição diminuem os caules tortuosos e aumentam as folhas largas. Pelo mesmo raciocínio, as plantas adaptadas a queimadas e as que precisam de sol direto diminuem, e as epífitas aumentam, o que descarta (B), (D) e (E).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q25",
@@ -481,7 +527,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "O grupo X se decompõe em até cerca de 100 anos; o grupo Y leva de aproximadamente 200 a mais de 500 anos.\n\nPlásticos como o PET levam séculos para se decompor, então pertencem ao grupo Y. Por isso, o melhor destino para eles é o reuso e a reciclagem, que evitam o acúmulo no ambiente e reaproveitam a matéria-prima.\n\nO papel se decompõe em poucos meses ou anos (grupo X). O vidro leva tempo indeterminado, muito acima de 500 anos, e não se queima; deve ser reciclado. A incineração e o aterro não são os destinos recomendados para materiais recicláveis.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q26",
@@ -499,7 +547,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "O tamanho de uma população aumenta com natalidade ($N$) e imigração ($I$) e diminui com mortalidade ($M$) e emigração ($E$). A variação por ano é $N + I - M - E$.\n\nPelos gráficos, $N = 200$ e $E = 200$ indivíduos/ano o tempo todo, e se anulam. Imigração e mortalidade crescem juntas e com os mesmos valores, de 100 a 300 indivíduos/ano, então $I - M = 0$ em todos os instantes.\n\nAssim, $N + I - M - E = 0$: as entradas compensam exatamente as saídas e a população fica constante durante os 20 anos.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q27",
@@ -517,7 +567,9 @@
    },
    "anulada": false,
    "gabarito": "E",
-   "revisao": "transcrita"
+   "assunto": "Biotecnologia",
+   "resolucao": "O milho Bt produz a própria proteína inseticida, reduzindo o ataque de lagartas: a lavoura perde menos plantas e fica mais produtiva, com menos uso de inseticidas.\n\nO aspecto negativo é evolutivo: a exposição contínua à proteína Cry seleciona lagartas que, por mutação, já eram resistentes a ela. Com o tempo, a resistência se espalha e a tecnologia perde eficácia. Por isso se recomendam áreas de refúgio com milho comum.\n\nAs outras alternativas atribuem à modificação efeitos que ela não tem, como aumento do valor nutricional, maturação mais rápida, polinização facilitada ou economia de água.\n\n**Resposta: E**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q28",
@@ -525,7 +577,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A genealogia a seguir representa uma família em que aparecem pessoas afetadas por adrenoleucodistrofia. A mulher III.2 está grávida e ainda não sabe o sexo do bebê.\n\n![Heredograma de três gerações (I, II e III) com legenda: quadrado vazio, homem não afetado; círculo vazio, mulher não afetada; quadrado preenchido, homem afetado. Geração I: homem 1 e mulher 2. Geração II: homem afetado 1, mulher 2 e homem 3. Geração III: homem afetado 1, mulher 2 e homem 3](fig:p09-f3)\n\nA relação correta entre o padrão de herança desta forma de adrenoleucodistrofia e a probabilidade de que a criança seja afetada é:",
+   "enunciado": "A genealogia a seguir representa uma família em que aparecem pessoas afetadas por adrenoleucodistrofia. A mulher III.2 está grávida e ainda não sabe o sexo do bebê.\n\n![Heredograma de três gerações (I, II e III) com legenda: quadrado vazio, homem não afetado; círculo vazio, mulher não afetada; quadrado preenchido, homem afetado. Geração I: o casal formado pelo homem 1 e pela mulher 2, que tem dois filhos, o homem afetado II.1 e a mulher II.2. Geração II: a mulher 2 é casada com o homem 3; o casal tem dois filhos, o homem afetado III.1 e a mulher III.2. Geração III: a mulher 2 é casada com o homem 3](fig:p09-f3)\n\nA relação correta entre o padrão de herança desta forma de adrenoleucodistrofia e a probabilidade de que a criança seja afetada é:",
    "alternativas": {
     "A": "Padrão de herança: Ligado ao X recessivo\nProbabilidade de ser afetada: 50% caso seja menino",
     "B": "Padrão de herança: Ligado ao X recessivo\nProbabilidade de ser afetada: 25% caso seja menino",
@@ -535,7 +587,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "Só homens são afetados, e o filho afetado III.1 nasceu de pais não afetados: o alelo é recessivo e vem da mãe, II.2, que é portadora. O padrão é de herança ligada ao X recessiva (não é ligada ao Y, pois II.3, pai de III.1, não é afetado).\n\nII.2 é $X^AX^a$ e II.3 é $X^AY$. A filha III.2 recebeu $X^A$ do pai e tem probabilidade $\\frac{1}{2}$ de ter recebido $X^a$ da mãe.\n\nSe for portadora, metade de seus filhos homens serão afetados (o marido III.3 é normal). Para um menino: $\\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4} = 25\\%$.\n\nA alternativa (A) esquece que não é certo que III.2 seja portadora.\n\n**Resposta: B**",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2021-1-q29",
@@ -553,7 +607,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Citologia",
+   "resolucao": "Imediatamente antes da metáfase (fim da prófase e prometáfase), a membrana nuclear (carioteca) já se desfez, então só se vê a membrana plasmática. Os cromossomos já se duplicaram e cada um tem duas cromátides-irmãs, que são cópias idênticas: carregam o mesmo alelo no mesmo lugar.\n\nA célula é diploide e heterozigota: um cromossomo com $A$ nas duas cromátides, seu homólogo com $a$ nas duas, e o mesmo para $B$ e $b$. É o que mostra (A).\n\n(B) põe alelos diferentes em cromátides-irmãs; (C) põe genes de cromossomos diferentes no mesmo cromossomo; (D) e (E) mostram só um cromossomo de cada par e ainda a membrana nuclear intacta.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q30",
@@ -571,7 +627,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Química ambiental",
+   "resolucao": "Mais $\\text{CO}_2$ na atmosfera desloca o equilíbrio (I) para a direita: forma-se mais $\\text{H}_2\\text{CO}_3$, que libera $\\text{H}^+$. A água do mar fica menos alcalina (o pH diminui), fenômeno chamado acidificação dos oceanos.\n\nOs íons $\\text{H}^+$ reagem com o carbonato ($\\text{CO}_3^{2-} + \\text{H}^+ \\rightarrow \\text{HCO}_3^-$, solúvel), diminuindo a concentração de $\\text{CO}_3^{2-}$. Isso desloca o equilíbrio (II) para a esquerda e dificulta a formação de $\\text{CaCO}_3$, que forma o esqueleto dos corais e as conchas.\n\n(C) erra ao dizer que a alcalinidade não muda; (D) se contradiz, pois menor alcalinidade significa pH menor, não maior.\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2021-1-q31",
