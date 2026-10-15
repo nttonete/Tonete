@@ -41,7 +41,7 @@ Se algum texto do caderno for letra de canção ou trecho literário longo que v
 
 Confira cada página na imagem, não confie só no texto extraído; isso vale em dobro para as respostas, que têm muitas fórmulas. Grave o arquivo aos poucos (depois de cada duas ou três questões), para não perder trabalho se for interrompido. Ao terminar, rode `python3 ferramentas/validar.py --rascunho {arq}` (a partir de /home/user/Tonete) e corrija até não haver erros. Não altere nenhum arquivo fora de trabalho/{ed_id}/ (exceto criar figuras com a ferramenta de recorte). Não faça commits.
 
-Responda com um resumo curto (até 10 linhas): quantas questões gravou, quantas respostas oficiais, recortes refeitos e dúvidas que ficaram."""
+Responda em português, com um resumo curto (até 10 linhas): quantas questões gravou, quantas respostas oficiais, recortes refeitos e dúvidas que ficaram."""
 
 
 if __name__ == "__main__":

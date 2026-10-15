@@ -77,7 +77,7 @@ Grave `trabalho/<edicao>/revisao-<inicio>-<fim>.json` (por exemplo `revisao-031-
 - Figuras de tirinha e charge: a descrição traz as falas dos balões. Se a questão pergunta justamente quem diz o quê, ou o que a imagem mostra, descreva só o necessário para quem não enxerga acompanhar, sem atribuir as falas nem interpretar.
 - Antes de terminar, valide suas correções. Rode também `python3 ferramentas/validar.py --complementos <edicao> <seu-arquivo-de-revisao>`, que confere assuntos, resoluções e a letra da resposta. Grave as questões corrigidas e os textos base num arquivo de rascunho temporário no formato das instruções (`{"edicao": ..., "textos_base": {...}, "questoes": [...]}`, incluindo os textos base que elas usam) e rode `python3 ferramentas/validar.py --rascunho <arquivo>`. Corrija até não haver erros.
 
-Responda com um resumo curto: quantas questões revisou, quantas corrigiu (e o tipo de erro mais comum), quais ficaram em atenção e por quê.
+Responda em português, com um resumo curto: quantas questões revisou, quantas corrigiu (e o tipo de erro mais comum), quais ficaram em atenção e por quê.
 
 ## Discursivas (2ª fase)
 
