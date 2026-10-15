@@ -155,6 +155,37 @@
    }
   },
   {
+   "id": "unesp-2021-1",
+   "vestibular": "unesp",
+   "ano": 2021,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "VERSAO1",
+   "nome": "UNESP (VUNESP) 2021 – 1ª fase",
+   "tabela_periodica": "img/tabela-periodica/unesp-2021-1.webp",
+   "fonte": {
+    "caderno": "UNESP_2021_1Fase.pdf",
+    "gabarito": "UNESP_2021_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unesp-2021-1.json",
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
+   "materias": {
+    "ingles": 12,
+    "portugues": 11,
+    "historia": 14,
+    "literatura": 4,
+    "sociologia": 2,
+    "geografia": 12,
+    "filosofia": 6,
+    "biologia": 7,
+    "fisica": 6,
+    "quimica": 8,
+    "matematica": 8
+   }
+  },
+  {
    "id": "unesp-2022-1",
    "vestibular": "unesp",
    "ano": 2022,

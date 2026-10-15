@@ -146,7 +146,7 @@
    "resolucao": "Como o preço é proporcional à área, quatro pizzas individuais devem ter, juntas, a mesma área da pizza grande (raio 10 cm).\n\n$4 \\cdot \\pi \\left(\\frac{d}{2}\\right)^2 = \\pi \\cdot 10^2 \\Rightarrow \\pi d^2 = 100\\pi \\Rightarrow d^2 = 100 \\Rightarrow d = 10\\ \\text{cm}$.\n\nCuidado com a tentação de dividir o diâmetro por 4 (5 cm): a área depende do quadrado do diâmetro, por isso dividir a área por 4 só divide o diâmetro por 2.\n\n**Resposta: C**"
   },
   "55": {
-   "assunto": "Aritmética e porcentagem",
+   "assunto": "Lógica e conjuntos",
    "resolucao": "A segunda regra diz que Bruna anda de patins **apenas quando** Carol anda de bicicleta, ou seja: \"se Bruna anda de patins, então Carol anda de bicicleta\".\n\nPela contrapositiva: se Carol **não** anda de bicicleta (andou de patins), então Bruna não anda de patins. Logo, é necessariamente verdade que Bruna não andou de patins.\n\nSobre Ana não se conclui nada: a primeira regra só diz o que acontece com Carol quando Ana anda de patins, e Carol andar de patins não obriga Ana a nada. A alternativa A é a falácia de afirmar o consequente.\n\n**Resposta: D**"
   },
   "56": {
@@ -167,7 +167,7 @@
   },
   "60": {
    "assunto": "Combinatória e probabilidade",
-   "resolucao": "Conte todas as escolhas de 2 itens entre os 10 e retire as que desobedecem ao pai.\n\nTotal: $C_{10,2} = \\frac{10 \\cdot 9}{2} = 45$.\n\nEscolhas proibidas (com pirulito e sem fruta): dois pirulitos, $C_{3,2} = 3$; um pirulito e um bolo, $3 \\cdot 2 = 6$. São $9$.\n\nFormas permitidas: $45 - 9 = 36$.\n\nA alternativa C (45) ignora a restrição do pai.\n\n**Resposta: B**"
+   "resolucao": "Conte todas as escolhas de 2 itens entre os 10 e retire as que desobedecem ao pai.\n\nTotal: $C_{10,2} = \\frac{10 \\cdot 9}{2} = 45$.\n\nEscolhas proibidas (com pirulito e sem fruta): dois pirulitos, $C_{3,2} = 3$; um pirulito e um bolo, $3 \\cdot 2 = 6$. São $9$. Formas permitidas: $45 - 9 = 36$.\n\nA alternativa C (45) ignora a restrição do pai.\n\n**Resposta: B**"
   },
   "61": {
    "assunto": "Combinatória e probabilidade",
@@ -175,7 +175,7 @@
   },
   "62": {
    "assunto": "Progressões",
-   "resolucao": "Cada parcela é $p(kx) = kx + 2024$, para $k = 1, 2, \\ldots, 2024$. Somando:\n\n$x(1 + 2 + \\ldots + 2024) + 2024 \\cdot 2024 = 0$.\n\nA soma da PA é $\\frac{2024 \\cdot 2025}{2}$. Então $x \\cdot \\frac{2024 \\cdot 2025}{2} = -2024^2$, e\n\n$x = -\\frac{2 \\cdot 2024}{2025} = -\\frac{4048}{2025} \\approx -1{,}999$.\n\nEsse valor é negativo e um pouco maior que $-2$, logo $-2 < x < 0$.\n\n**Resposta: B**"
+   "resolucao": "Cada parcela é $p(kx) = kx + 2024$, para $k = 1, 2, \\ldots, 2024$. Somando:\n\n$x(1 + 2 + \\ldots + 2024) + 2024 \\cdot 2024 = 0$.\n\nA soma da PA é $\\frac{2024 \\cdot 2025}{2}$. Então $x \\cdot \\frac{2024 \\cdot 2025}{2} = -2024^2$, e\n\n$x = -\\frac{2 \\cdot 2024}{2025} = -\\frac{4048}{2025} \\approx -1{,}999$. Esse valor é negativo e um pouco maior que $-2$, logo $-2 < x < 0$.\n\n**Resposta: B**"
   },
   "63": {
    "assunto": "Geometria plana",
@@ -187,7 +187,7 @@
   },
   "65": {
    "assunto": "Geometria plana",
-   "resolucao": "Use coordenadas com D na origem e DC sobre o eixo $x$. No losango, o ângulo em D vale $180^\\circ - 60^\\circ = 120^\\circ$. Seja $\\ell$ o lado.\n\nEntão $A = \\ell(\\cos 120^\\circ;\\ \\sin 120^\\circ) = \\left(-\\frac{\\ell}{2};\\ \\frac{\\ell\\sqrt{3}}{2}\\right)$ e $B = A + (\\ell;\\ 0) = \\left(\\frac{\\ell}{2};\\ \\frac{\\ell\\sqrt{3}}{2}\\right)$.\n\nF é o pé da perpendicular de B sobre DC, logo $DF = \\frac{\\ell}{2} = 3$, e $\\ell = 6$: $B = (3;\\ 3\\sqrt{3})$.\n\nE está sobre DA, a 2 de D: $E = 2(\\cos 120^\\circ;\\ \\sin 120^\\circ) = (-1;\\ \\sqrt{3})$.\n\n$BE^2 = (3 + 1)^2 + (3\\sqrt{3} - \\sqrt{3})^2 = 16 + 12 = 28 \\Rightarrow BE = \\sqrt{28}$.\n\n**Resposta: C**"
+   "resolucao": "Use coordenadas com D na origem e DC sobre o eixo $x$. No losango, o ângulo em D vale $180^\\circ - 60^\\circ = 120^\\circ$. Seja $\\ell$ o lado. Então $A = \\ell(\\cos 120^\\circ;\\ \\sin 120^\\circ) = \\left(-\\frac{\\ell}{2};\\ \\frac{\\ell\\sqrt{3}}{2}\\right)$ e $B = A + (\\ell;\\ 0) = \\left(\\frac{\\ell}{2};\\ \\frac{\\ell\\sqrt{3}}{2}\\right)$.\n\nF é o pé da perpendicular de B sobre DC, logo $DF = \\frac{\\ell}{2} = 3$, e $\\ell = 6$: $B = (3;\\ 3\\sqrt{3})$.\n\nE está sobre DA, a 2 de D: $E = 2(\\cos 120^\\circ;\\ \\sin 120^\\circ) = (-1;\\ \\sqrt{3})$.\n\n$BE^2 = (3 + 1)^2 + (3\\sqrt{3} - \\sqrt{3})^2 = 16 + 12 = 28 \\Rightarrow BE = \\sqrt{28}$.\n\n**Resposta: C**"
   },
   "66": {
    "assunto": "Interpretação de texto",

@@ -67,11 +67,6 @@
   function textoInline(s, opc) {
     var h = escapar(s);
     h = h.replace(TAGS_PERMITIDAS, "<$1$2>");
-    h = h.replace(/!\[([^\]]*)\]\(fig:([A-Za-z0-9_-]+)\)/g, function (_, alt, id) {
-      var src = opc.figura ? opc.figura(id) : id;
-      if (opc.figurasUsadas) opc.figurasUsadas.push(id);
-      return '<img class="fig" src="' + src + '" alt="' + alt + '" loading="lazy">';
-    });
     h = h.replace(/\\\*/g, "&#42;"); // \* é um asterisco literal (nota de rodapé)
     h = h.replace(/\[\[(\d{1,3})\]\]/g, '<span class="ln" aria-hidden="true">$1</span>');
     h = h.replace(/\*\*(?=\S)([\s\S]*?\S)\*\*/g, "<strong>$1</strong>");
@@ -79,12 +74,42 @@
     return h;
   }
 
-  function inline(s, opc) {
-    return separarFormulas(s)
-      .map(function (p) {
-        return p.tipo === "formula" ? formula(p.valor, p.bloco) : textoInline(p.valor, opc);
+  // A descrição da figura vira texto puro: fórmulas e marcações dentro dela
+  // não podem ser interpretadas, senão a imagem se perde.
+  function textoAlt(alt) {
+    return alt
+      .replace(/\\\$/g, "\u0000")
+      .replace(/\$+([^$]*)\$+/g, function (_, f) {
+        return f
+          .replace(/\\circ/g, "°").replace(/\\cdot/g, "·").replace(/\\times/g, "×")
+          .replace(/\\(?:text|mathrm|mathbf)\{([^}]*)\}/g, "$1")
+          .replace(/\\[,;! ]/g, " ").replace(/[{}^_]/g, "").replace(/\\/g, "");
       })
-      .join("");
+      .replace(/\u0000/g, "$")
+      .replace(/\\\*/g, "\u0001").replace(/\*/g, "").replace(/\u0001/g, "*");
+  }
+
+  function figura(alt, id, opc) {
+    var src = opc.figura ? opc.figura(id) : id;
+    if (opc.figurasUsadas) opc.figurasUsadas.push(id);
+    return '<img class="fig" src="' + escapar(src) + '" alt="' + escapar(textoAlt(alt)) + '" loading="lazy">';
+  }
+
+  function inline(s, opc) {
+    var re = /!\[([^\]]*)\]\(fig:([A-Za-z0-9_-]+)\)/g;
+    var h = "", ultimo = 0, m;
+    var trecho = function (t) {
+      return separarFormulas(t)
+        .map(function (p) {
+          return p.tipo === "formula" ? formula(p.valor, p.bloco) : textoInline(p.valor, opc);
+        })
+        .join("");
+    };
+    while ((m = re.exec(s))) {
+      h += trecho(s.slice(ultimo, m.index)) + figura(m[1], m[2], opc);
+      ultimo = re.lastIndex;
+    }
+    return h + trecho(s.slice(ultimo));
   }
 
   function tabela(linhas, opc) {

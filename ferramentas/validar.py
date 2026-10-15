@@ -136,7 +136,8 @@ def checar_questoes(rel, dados, ed, final):
             for letra, t in alts.items():
                 if not str(t).strip():
                     rel.erro(ref, f"alternativa {letra} vazia")
-                elif re.match(r"^\s*\(?[A-Ea-e][\).]\s", str(t)):
+                # "A) ..." repete o rótulo; "A. R." (iniciais de um nome) é texto legítimo
+                elif re.match(rf"^\s*(\(?[{letra}{letra.lower()}]\)|[{letra}{letra.lower()}]\.(?!\s?[A-Z]\.))\s", str(t)):
                     rel.erro(ref, f"alternativa {letra} começa com a letra")
             valores = [re.sub(r"\s+", " ", str(t)).strip() for t in alts.values()]
             if len(set(valores)) != len(valores):
