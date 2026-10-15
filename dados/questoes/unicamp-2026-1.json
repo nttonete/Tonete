@@ -658,7 +658,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q38",
@@ -675,7 +675,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q39",
@@ -692,7 +692,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q40",
@@ -709,7 +709,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q41",
@@ -726,7 +726,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q42",
@@ -743,7 +743,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q43",
@@ -760,7 +760,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q44",
@@ -768,7 +768,7 @@
    "materia": "matematica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "A figura a seguir mostra um trecho do gráfico de $f(g(x))$ em que $f(x) = x^3 + 2x^2 + ax - 1$, $g(x) = 3 - x$ e $a$ é uma constante real.\n\n![Gráfico de uma curva decrescente no plano cartesiano com eixos x e y, que passa pelo ponto de abscissa 1 e ordenada 5 e corta o eixo x](fig:p17-c2)\n\nQual é o valor da constante $a$ ?",
+   "enunciado": "A figura a seguir mostra um trecho do gráfico de $f(g(x))$ em que $f(x) = x^3 + 2x^2 + ax - 1$, $g(x) = 3 - x$ e $a$ é uma constante real.\n\n![Gráfico de uma curva no plano cartesiano com eixos x e y: a curva parte do eixo y, desce passando pelo ponto destacado de abscissa 1 e ordenada 5, corta o eixo x, atinge um ponto mínimo abaixo do eixo x e volta a subir](fig:p17-c2)\n\nQual é o valor da constante $a$ ?",
    "alternativas": {
     "A": "$-2$.",
     "B": "$-3$.",
@@ -777,7 +777,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2026-1-q45",
@@ -794,7 +794,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q46",
@@ -811,7 +811,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q47",
@@ -828,7 +828,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q48",
@@ -845,7 +845,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q49",
@@ -862,7 +862,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q50",
@@ -879,7 +879,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q51",
@@ -896,7 +896,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q52",
@@ -913,7 +913,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q53",
@@ -930,7 +930,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q54",
@@ -947,7 +947,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q55",
@@ -964,7 +964,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q56",
@@ -981,7 +981,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q57",
@@ -998,7 +998,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q58",
@@ -1015,7 +1015,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q59",
@@ -1032,7 +1032,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q60",
@@ -1049,7 +1049,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q61",
@@ -1066,7 +1066,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q62",
@@ -1083,7 +1083,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q63",
@@ -1100,7 +1100,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q64",
@@ -1117,7 +1117,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q65",
@@ -1134,7 +1134,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q66",
@@ -1151,7 +1151,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q67",
@@ -1168,7 +1168,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q68",
@@ -1185,7 +1185,7 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q69",
@@ -1202,7 +1202,7 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q70",
@@ -1219,7 +1219,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q71",
@@ -1236,7 +1236,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2026-1-q72",
@@ -1253,7 +1253,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "revisao": "ok"
   }
  ]
 }
