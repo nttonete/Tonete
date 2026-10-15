@@ -1,0 +1,291 @@
+{
+  "edicao": "fuvest-2023-2-d2",
+  "intervalo": [
+    28,
+    36
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 28,
+      "codigo": "G04",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Observe a reportagem a seguir:\n\n**UM PLANETA SEM DISTORÇÕES: FÍSICOS PROPÕEM A ADOÇÃO DE UM NOVO MAPA-MÚNDI**\n\nO astrofísico Richard Gott, o matemático Robert Vanderbei e o cosmólogo David Goldberg chegaram ao conceito do disco aberto, mostrado abaixo, com o intuito de corrigir os equívocos do modelo usado da mesma forma há mais de quatro séculos, baseado na projeção de Mercator.\n\n![Mapa-múndi em disco aberto: dois discos lado a lado, um centrado no polo Norte, com Moscou, Paris, Londres, Nova York, Los Angeles e Cidade do México, e outro centrado no polo Sul, com Buenos Aires, Rio de Janeiro e São Paulo](fig:p28-c1)\n\n*Revista Veja*, 05 de março de 2021. Adaptado.\n\nA notícia faz alusão às distorções produzidas pela projeção de Mercator. A partir dos seus conhecimentos sobre cartografia,",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "cite o contexto no qual foi proposta a projeção de Mercator."
+        },
+        {
+          "rotulo": "b",
+          "texto": "cite e explique uma dessas distorções que podem ser evitadas pela projeção apresentada na reportagem."
+        },
+        {
+          "rotulo": "c",
+          "texto": "indique e explique outra projeção cartográfica que apresenta distorção diferente daquela encontrada na projeção de Mercator."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 29,
+      "codigo": "G05",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em diversos países da Europa o preço do gás aumentou mais de 50%. Energia fóssil considerada abundante e menos prejudicial ao ambiente do que o petróleo ou o carvão, o gás natural continua a ser um recurso essencial no quadro energético europeu e no centro das questões estratégicas entre os países produtores e os países consumidores.\n\n*Magazine Carto*, Agosto de 2022. Adaptado.\n\n![Legenda do mapa: reservas de gás, gasodutos principais, gasodutos planejados, rotas marítimas de gás natural liquefeito, nome do gasoduto, pontos de conexão transfronteiriços, União Europeia, principais países fornecedores de gás à União Europeia e países dependentes do gás russo em 2020](fig:p30-c2)\n\n![Mapa “Geopolítica do gás natural” da Europa e arredores, com reservas de gás, gasodutos e rotas marítimas, países da União Europeia, principais fornecedores de gás e países dependentes do gás russo](fig:p30-c1)\n\nhttps://www.areion24.news/2022/08/01/geopolitique-du-gaz-une-europe-trop-dependante/\n\nA reportagem refere-se ao período de 2021-2022, em que questões geopolíticas envolvendo a Rússia, maior produtora de gás natural da Europa, resultaram na elevação do preço desse recurso energético. Com base no texto, na interpretação do mapa e em seus conhecimentos, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual evento, envolvendo a Rússia, resultou no aumento do preço do gás natural nos anos 2021-2022?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite e explique uma consequência positiva para a Rússia relacionada à construção dos gasodutos *Nord Stream 1* e *Nord Stream 2* na região do Mar Báltico."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Cite e explique uma consequência negativa para a Rússia relacionada à localização dos gasodutos *Blue Stream* e *Turkstream* na região do Mar Negro."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 30,
+      "codigo": "G06",
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 4 de março de 1513, o espanhol Juan Ponce de León saiu da ilha de Porto Rico com três navios e cerca de 200 homens para explorar o Norte. No dia 2 de abril, quase um mês mais tarde, ele conquistou um novo território: a Flórida. Ficou lá por cinco dias e depois recomeçou a expedição, agora indo na direção Sul. Mas dessa vez o movimento foi diferente. Havia uma corrente nas águas do mar tão forte que, mesmo com vento a favor, os navios eram empurrados para trás – o San Cristóbal, o menor dos três, chegou a se perder dos outros por dois dias.\n\nPonce de León e seus marinheiros não sabiam, mas estavam bem no meio da Corrente Marítima do Golfo – que é especialmente forte entre a Flórida e as Bahamas, onde eles estavam. Com o tempo, os navegadores espanhóis aprenderam a usar aquilo a seu favor: a corrente dava um belo empurrão na volta das expedições, permitindo retornar à Europa mais depressa.\n\nDisponível em https://super.abril.com.br/sociedade/. Adaptado.\n\nBaseado no texto e em seus conhecimentos, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Tendo Flórida e Europa como referência, indique para qual sentido a corrente marítima do Golfo levava os navios."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Indique duas razões por que essa corrente oceânica, em seu local de origem, é quente na superfície."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Cite e explique um efeito dessa corrente oceânica sobre o clima da Europa Setentrional."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 31,
+      "codigo": "H01",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Pintura “Independência ou morte”, de Pedro Américo (1888)](fig:p32-f1)\n\n“Independência ou morte”, óleo sobre tela, de Pedro Américo (1888).\n\nhttps://www.gov.br/.\n\n![Pintura “El Juramento de los treinta y tres orientales”, de Blanes (entre 1875 e 1878)](fig:p32-c1)\n\n“El Juramento de los treinta y tres orientales”, óleo sobre tela, de Blanes (entre 1875 e 1878).\n\nhttps://blanes.montevideo.gub.uy/.\n\n“O quadro *Independência ou Morte* retrata o momento em que D. Pedro levanta a espada e proclama a independência do Brasil. Saliento, nessa obra, a pompa em sua composição que sobressai em todos os detalhes. Além disso, note-se que a luz esplendorosa que ilumina os personagens vem do alto, do céu.\n\nA tela do maçom Blanes representa o juramento de 33 homens que, em 25 de agosto de 1825, deram início à reconquista militar da Província Oriental [que] culminou com a independência nacional uruguaia. Enfatizo nesta pintura que os homens pisam num terreno plano e usam roupas comuns. Uma forte luz, que brota da terra, os ilumina, mostrando sua força e determinação interiores.\n\nAssim, Pedro Américo revestiu seu tema com grandeza, ressaltando as aparências exteriores. De outra parte, o uruguaio salienta as virtudes que vinham de dentro dos heróis, fazendo dos trajes apenas acessórios menores que não ofuscam a magnitude da cena histórica. Na minha visão, as escolhas pictóricas de Pedro Américo estão relacionadas ao imaginário simbólico da monarquia e as de Blanes foram inspiradas pelo ideário republicano. São as afinidades políticas que nos fazem entender as concepções diferentes dos dois pintores sobre o mesmo tema da independência.”\n\nPRADO, Maria Ligia C. “A pintura e a construção das identidades nacionais na América Latina”. *Nossa América, Revista do Memorial da América Latina*, n. 59, 2022; p. 22 e 23. Adaptado.\n\nCom base no texto e na leitura das imagens, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Como, no tema da tela pintada por Blanes, se articulam as histórias do Brasil e do Uruguai?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Que elementos corroboram a ideia de pompa na pintura de Pedro Américo e de despojamento na de Blanes? Indique um elemento de cada imagem."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Como, na visão da autora, as pinturas se relacionam com os regimes políticos adotados, após as independências, no Brasil e no Uruguai?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 32,
+      "codigo": "H02",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“Os operários não deviam ser proibidos de pensar. Na época do velho, o mineiro vivia como um animal, enterrado na mina, sem se dar conta do que acontecia. Por isso os ricos podiam chupar o sangue dos operários. Mas esses já estavam acordando. No fundo da terra germinava uma semente, e um belo dia os homens brotariam da terra, um exército de homens que viria restabelecer a justiça. Desde a Revolução Francesa todos os cidadãos não eram considerados iguais?”\n\nZOLA, Émile. *Germinal*. São Paulo: Companhia das Letras, 2008, p.58-59.\n\nCom base na leitura do excerto do romance naturalista *Germinal* publicado na França em 1885,",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "indique um tema presente no excerto."
+        },
+        {
+          "rotulo": "b",
+          "texto": "cite dois elementos que evidenciem as mudanças em curso na condição dos operários."
+        },
+        {
+          "rotulo": "c",
+          "texto": "exponha duas razões pelas quais a Revolução Francesa é mencionada na denúncia das injustiças."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 33,
+      "codigo": "H03",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Gravura do século XVII: audiência de portugueses com o rei do Congo](fig:p34-f1)\n\nAudiência de portugueses com o rei do Congo, século XVII.\n\nLOPES, David. “The destruction of the Kingdom of Kongo”. *Civil Rights Journal* (Vol. 6, Issue 1). p. 35. Winter 2002.\n\nO reino do Congo se formou a partir da mistura, por meio de casamentos, de uma elite tradicional com uma elite nova, descendente dos estrangeiros que vieram do outro lado do rio. Isso ocorreu no início do século XV, e quando os portugueses a ele chegaram (o primeiro contato se deu em 1483), encontraram uma sociedade hierarquizada, com aglomerados populacionais que funcionavam como capitais regionais e uma capital central, na qual o mani Congo, como o obá do Benin e muitos outros chefes de grupos diversos, vivia em construções grandiosas, cercado de suas mulheres e filhos, conselheiros, escravos e ritos.\n\nSOUZA, Marina de Mello e. *África e Brasil africano*. São Paulo: Ática, 2008. p. 38.\n\nA partir da leitura da imagem e do texto, responda às questões a seguir:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "De que forma a caracterização do reino do Congo como uma sociedade hierarquizada é representada na imagem?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite dois elementos da imagem que remetem a símbolos europeus de realeza."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Como a imagem representa as relações entre as nações europeias e os reinos africanos no início da Idade Moderna?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 34,
+      "codigo": "H04",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Sobre o movimento cultural denominado Tropicália que se desenvolveu nos anos 1960 associado à era dos Festivais, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite o nome de um(a) artista ou de uma canção identificada com o movimento."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Aponte duas características do movimento."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Indique uma diferença da Tropicália em relação às denominadas canções de protesto e outro em relação à Jovem Guarda."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 35,
+      "codigo": "H05",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "“A Biblioteca de Alexandria cria um espaço abstrato do qual sábios de origens diversas vão poder apropriar-se. Esse espaço é o do helenismo, horizonte comum de textos, crenças, modelos intelectuais e tradições, que dependem, doravante, de tarefas coletivas – arquivar, editar, comentar, elaborar mapas, escrever a história, recensear. Poder-se-ia dizer que uma das chaves da cultura alexandrina é a relação paradoxal que ela mantém com a memória. A ausência de uma tradição e de uma memória locais explica talvez como a biblioteca, esse lugar de memória artificial, criado por uma política voluntarista, terá podido atrair e reter gregos de todas as origens.”\n\nJACOB, Christian. “Ler para escrever: navegações alexandrinas”. *In*: BARATIN, Marc e JACOB, Christian. *O poder das bibliotecas*. Rio de Janeiro: Ed.UERJ, 2000, p.53-54. Adaptado.\n\nCom base na leitura do texto, responda às questões:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O que foi o helenismo?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite dois exemplos que indicam a relação entre a cultura alexandrina e a memória."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Indique dois elementos que tornaram possível aos pensadores humanistas (séculos XIV-XVI) se apropriarem do patrimônio cultural clássico."
+        }
+      ],
+      "observacoes": "Na resposta oficial do item c, o texto da banca traz \"Dentro os elementos\" (provável erro de digitação do original, mantido)."
+    },
+    {
+      "numero": 36,
+      "codigo": "H06",
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Carta das Estradas de Ferro da Província de S. Paulo, mapa com as linhas ferroviárias e suas estações, com rosa dos ventos e nota sobre as distâncias em quilômetros a partir da capital](fig:p36-c1)\n\nBARDI, Pietro Maria. *Coleção Arte e Cultura*. Vol. VI. São Paulo: Banco Sudameris, 1983. p.59.\n\nCom base na leitura da Carta das Estradas de Ferro da Província de São Paulo (ca. 1880), responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Que atividade econômica subsidia a configuração da rede ferroviária na província de S. Paulo?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Indique dois elementos que atestam a importância da cidade de Santos nessa rede de transporte."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Relacione o traçado das ferrovias com as dinâmicas econômicas e sociais da província paulista no século XIX."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "28": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos dos(as) candidatos(as) sobre projeções cartográficas e suas características.",
+      "itens": {
+        "a": "Trata-se do contexto de formação do mercantilismo, expansão das navegações e constituição do sistema colonial moderno, entre os séculos XV e XVII.",
+        "b": "Por se tratar de uma projeção cilíndrica conforme produz a distorção dos tamanhos das áreas representadas, principalmente as áreas das superfícies de altas latitudes, próximas aos polos e distantes da Linha do Equador. Este tipo de projeção tem maior fidelidade para baixas latitudes, cujos paralelos e meridianos cruzam-se em ângulos retos e os polos apresentam-se em exagero. A projeção em disco aberto busca reduzir essas distorções, por exemplo, a Groenlândia, o norte do Canadá, da Europa e da Ásia e a Antártida em relação à proporcionalidade de suas áreas.",
+        "c": "É possível citar a Projeção de Gall-Peters, que é uma projeção cartográfica cilíndrica equivalente, ou seja, mantém a proporção das áreas representadas, mas altera as suas formas; OU também a Projeção de Robinson, que corresponde a uma projeção afilática e pseudocilíndrica, apesar de não possuir nenhuma superfície de projeção, cujas características assemelham-se à projeção cilíndrica: nesta projeção, há alteração das formas e das áreas; OU Projeção cônica, que corresponde à projeção da superfície terrestre em um cone, no qual os meridianos convergem para os polos e os paralelos formam arcos concêntricos e apresenta maiores distorções conforme as superfícies representadas se distanciam do paralelo em contato com o cone; OU Projeção plana ou azimutal, que corresponde à projeção da superfície terrestre em um plano, de modo que os paralelos e meridianos formam círculos concêntricos e apresenta maiores distorções nas áreas mais afastadas da tangência e menos na área central."
+      }
+    },
+    "29": {
+      "resposta": "**Objetivo da questão:** Verificar aptidão do(a) candidato(a) na leitura de mapas, associados às questões geopolíticas e atualização quanto a questões de geografia geral e de recursos energéticos.",
+      "itens": {
+        "a": "O aumento do preço do gás natural nesse período foi resultado da intensificação dos conflitos, entre Rússia e Ucrânia, com a eclosão da guerra, provocada pela invasão russa em fevereiro de 2022.",
+        "b": "Com a construção dos gasodutos de *Nord Stream 1* e *Nord Stream 2* na região do Mar Báltico, a Rússia amplia seu acesso ao seu principal mercado consumidor (a União Europeia, particularmente a Alemanha), evitando áreas de conflito.",
+        "c": "Os gasodutos *Blue Stream* e *Turkstream* atravessam ou estão muito próximos de zonas de conflito, impondo negociações com vários países, alguns deles pertencentes à OTAN. Embora nenhum desses gasodutos passe diretamente pelo território da Ucrânia, com a qual a Rússia está em guerra, ambos passam muito próximos da Crimeia, o que impõe mais ainda a necessidade do controle russo sobre essa região, agravando o conflito já existente com a Ucrânia."
+      }
+    },
+    "30": {
+      "resposta": "**Objetivo da questão:** Avaliar as competências dos(as) candidatos(as) relacionados a conhecimentos sobre a circulação das correntes marítimas e sua influência sobre a dinâmica climática global.",
+      "itens": {
+        "a": "Sentido Nordeste ou NE ou entre Norte e Leste.",
+        "b": "A corrente oceânica do Golfo origina-se no golfo do México, região de clima tropical, com elevada insolação, resultado da maior intensidade de radiação solar; localizada na Zona Intertropical ou Equatorial, entre a Linha do Equador e o Trópico de Câncer; possui temperaturas das águas superficiais elevadas, com menor salinidade e com reduzida profundidade das águas oceânicas, derivado de seu relevo submarino. Essa combinação torna essa corrente um verdadeiro rio de águas quentes com temperaturas, no local de origem, da ordem de 28°C.",
+        "c": "As águas quentes da região do golfo do México margeiam a costa leste dos EUA levando água quente para então atravessar o Atlântico e se dividir em duas: uma parte banha a Europa, enquanto a outra vai até a Groenlândia e o Oceano Ártico. Ela é um grande mecanismo de distribuição de calor, diretamente responsável pela regulação do clima na Terra – inclusive porque funciona conectada a outros fluxos oceânicos. Com isso, produz temperaturas mais elevadas na região, deixando os invernos mais amenos, com amplitudes térmicas menores e com maior quantidade de chuvas. Dessa forma, há uma regulação do clima da Europa Setentrional que, caso não houvesse a atuação dessa corrente levando calor do trópico para as médias latitudes, a região apresentaria temperaturas menores."
+      }
+    },
+    "31": {
+      "resposta": "**Objetivo da questão:** Discutir o tema das independências na América do Sul a partir de duas fontes visuais e de um texto historiográfico.\nEstimular a interpretação a partir da leitura que inter-relacione documentos de natureza diversa.",
+      "itens": {
+        "a": "O tema da tela refere-se à luta iniciada por forças políticas uruguaias (então província Cisplatina), lideradas por Juan Antonio Lavalleja, para se emancipar do jugo do Império brasileiro. Os homens reunidos nesse movimento que, finda a Guerra Cisplatina, levou à independência do Uruguai, compuseram o grupo chamado de “trinta e três orientais”.",
+        "b": "Na pintura de Pedro Américo, as personagens centrais estão montadas a cavalo, vestindo uniformes, em um terreno em declive que estabelece hierarquias. Nessa tela, a luz vem de cima, iluminando D. Pedro, príncipe regente autor do grito “independência ou morte”, futuro imperador, investido de um poder que vem de fora. A representação confere grandiosidade ao acontecimento histórico.\n\nNa pintura de Blanes, em contraste, as personagens usam roupas mais despojadas, estão apeadas e sobre um terreno plano, que sugere igualdade entre elas. A luz que incide sobre a cena vem de baixo, conferindo destaque à ação humana.",
+        "c": "Na visão da autora, na tela de Pedro Américo, os paramentos das personagens, sua disposição espacial e a posição da luz reforçam a ideia de hierarquia e da centralidade do imperador, forjando uma representação da monarquia, regime que foi implementado no Brasil. Na pintura de Blanes, a horizontalidade das lideranças políticas e o protagonismo de todas elas reforça a ideia de um poder compartilhado que se associa ao projeto republicano que viria a ser implementado no Uruguai ao fim da Guerra Cisplatina."
+      }
+    },
+    "32": {
+      "resposta": "**Objetivo da questão:** Pensar de que maneira a representação literária dialoga com o processo de formação da classe trabalhadora na França da segunda metade do século XIX, valendo-se de uma obra canônica nesse âmbito.",
+      "itens": {
+        "a": "Os temas que podem ser indicados são luta de classe; exploração do trabalhador/operário/proletariado; condições degradantes de trabalho; lutas operárias; consciência de classe; revoltas e revoluções operárias; movimento operário.",
+        "b": "Poderiam ser citados os seguintes elementos: tomada de consciência dos trabalhadores a respeito da própria situação; organização dos trabalhadores; organização sindical; surgimento de ideias socialistas/anarquistas; greves.",
+        "c": "A referência à Revolução Francesa carrega um tom de ironia, pois ela supostamente suprimiria as injustiças e desigualdades entre os homens. Contudo, as expectativas geradas pela Revolução não foram plenamente satisfeitas. Além disso, os princípios revolucionários contribuíram para explicitar as contradições do liberalismo diante da persistência das assimetrias entre os cidadãos no século XIX."
+      }
+    },
+    "33": {
+      "resposta": "**Objetivo da questão:** Relacionar um texto sobre os contatos entre europeus e africanos com uma imagem da época.",
+      "itens": {
+        "a": "A imagem caracteriza essa sociedade hierarquizada, por exemplo, através da presença do rei em patamar mais elevado do que os demais, do rei situado junto a uma construção grandiosa e também pelos nativos reverenciando a realeza.",
+        "b": "Dentre os elementos que podem ser citados encontram-se o emprego da coroa, do cetro, o trono e a construção semelhante a um castelo europeu medieval.",
+        "c": "A imagem dispõe os europeus em plano inferior ao das autoridades africanas, indicando deferência e busca de entendimento mútuo. Ao fundo, podem ser vistos, também, um europeu e um africano dando um aperto de mão."
+      }
+    },
+    "34": {
+      "resposta": "**Objetivo da questão:** Identificar a diversidade da produção cultural no contexto social e político brasileiro dos anos 1960.",
+      "itens": {
+        "a": "Os(as) artistas que podem ser citados, entre outras possibilidades, são: Gilberto Gil; Caetano Veloso; Os Mutantes; Tom Zé, Gal Costa, Helio Oiticica. Como exemplos de canção podem ser citadas *Panes et circenses; É proibido proibir; Tropicália, Bay, Geleia Geral.*",
+        "b": "Duas características podem ser apontadas dentre as seguintes: apropriação da linguagem pop; coloquialidade da linguagem; referências às histórias em quadrinhos; emprego de instrumentos elétricos; fusão de elementos identificados à brasilidade com o *rock and roll*; bricolagem e paródia como elementos compositivos; apresentação entendida como performance; letras em diálogo com o programa modernista; usos estéticos e políticos da alegoria.",
+        "c": "A canção de protesto convidava para o engajamento político direto na luta contra a ditadura. Sua poética era menos experimental e mais nacionalista. O Tropicalismo fazia uma crítica alegórica, com viés cultural e crítico, frente aos hábitos e costumes tradicionais da cultura e da sociabilidade, era experimentalista e se reivindicava antropofágica. A Jovem Guarda assumia os padrões corriqueiros da música comercial internacional e mantinha-se alheia às discussões políticas."
+      }
+    },
+    "35": {
+      "resposta": "**Objetivo da questão:** Refletir sobre o papel da biblioteca como lugar de memória, tendo permitido a reunião e a conservação de textos da Antiguidade oriental e da Antiguidade clássica, e sua posterior apropriação por pensadores humanistas no Renascimento Cultural.",
+      "itens": {
+        "a": "O helenismo resulta de apropriações e da fusão de elementos das culturas orientais e gregas na época da expansão macedônica e do processo de difusão dessas práticas e concepções culturais no mundo mediterrâneo.",
+        "b": "A própria criação da Biblioteca de Alexandria e todos os processos a ela inerentes, como as ideias de “repertório”, “coleção”, preservação de “acervos”, “mapas”, “manuscritos”, “textos”; “tradução para o grego” de textos em aramaico, hebraico, árabe, etc.",
+        "c": "Dentro os elementos que podem ser indicados estão a preservação dos excertos de textos antigos e sua tradução para o latim, a reprodução dos textos por monges copistas e a circulação das obras em outras bibliotecas monásticas. Como resultado desses processos, a apropriação desse repertório por pensadores humanistas foi fundamental para os paradigmas filosóficos, culturais e científicos modernos."
+      }
+    },
+    "36": {
+      "resposta": "**Objetivo da questão:** Avaliar a capacidade de reflexão sobre as relações entre a construção de ferrovias, a atividade cafeeira e a imigração.",
+      "itens": {
+        "a": "A configuração da rede ferroviária na província de São Paulo está relacionada à atividade cafeeira.",
+        "b": "Santos tinha um papel fundamental como porto, como polo exportador de café e, ao mesmo tempo, como polo para o desembarque da mão-de-obra de imigrantes que buscava oportunidades de trabalho no país e para a entrada de mercadorias e insumos importados.",
+        "c": "Essa relação pode ser estabelecida mencionando os seguintes fatos: a transição do trabalho escravocrata para o trabalho livre; o emprego da mão de obra escravizada e formas de recrutamento da mão de obra livre como o colonato e a parceria. Enquanto as linhas férreas a Oeste foram financiadas pelo capital cafeeiro, a estrada de ferro Santos-Jundiaí era controlada pelo capital britânico e a estrada de ferro que cruzava o Vale do Paraíba foi construída com investimento estatal. A expansão cafeeira começou pelo Vale do Paraíba e depois rumou para o Oeste."
+      }
+    }
+  }
+}
