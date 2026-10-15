@@ -95,6 +95,102 @@
         }
       ],
       "observacoes": "Na resposta oficial do item a, as aspas de “brabeza\" fecham com aspas retas no original (mantido)."
+    },
+    {
+      "numero": 6,
+      "materia": "portugues",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia o excerto a seguir e responda ao que se pede:\n\nPatrícia Xavier nasceu em 1984, na periferia Sul de São Paulo, onde ela ainda vive. É uma mulher negra, mãe solo de três filhos e empreendedora: faz bolos e doces para festas, dá aulas online de confeitaria, participa de feiras para promover seu trabalho e se conectar com outras mulheres empreendedoras. Sua vida é um incessante “corre” – uma palavra que, como poucas, fornece uma chave de acesso ao cotidiano da maioria dos brasileiros. Para tantos de nós, vida e corre se confundem. Corre e sonho também costumam andar juntos.\n\n(Adaptado de BORTOLUCI, J. H. Geração Democracia: Parte I_A promessa e o corre. *Piauí*. mai. 2025.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "No texto, que sinal de pontuação é usado para introduzir uma sequência de orações que caracterizam o empreendedorismo da personagem? Qual a relação de sentido que esse uso estabelece entre as duas partes do período?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Explique como a escolha sintática de orações coordenadas contribui para a construção do sentido da palavra “corre” empregada pelo autor no texto."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "materia": "ingles",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Leia os textos a seguir e responda, <u>em português</u>, às perguntas.\n\n**Texto 1**\n\n“The following case study illustrates how Artificial Intelligence algorithms have impacted people’s lives.\n\n**Case:** In 2020, due to Covid-19, the UK Education Ministry decided to standardize students’ final grades through a computerized system instead of relying solely on teacher-assessed grades.\n**Tool:** Teachers were asked to rank students within each subject based on the estimated grades supplied by those same teachers. Then, an algorithm assigned students’ final grades by looking at student rankings, among other criteria.\n**Consequences:** Thousands of pupils received grades lower than they had anticipated and the whole issue turned into a public scandal.\n**Reasons:** Government officials argued that basing grades on teacher estimates alone would damage the credibility of that year’s results compared to previous years’ results.”\n\n(PONCE DEL CASTILLO, A. (ed.). *Artificial intelligence, labour and society*. Bruxelas: ETUI, 2024, p. 14-15.)\n\n**Texto 2**\n\n*Technochauvinism* is a kind of bias that considers computational solutions superior to all others. It follows the misleading notion that “computers make neutral decisions because they are based on math”. But mathematical fairness and social fairness are different systems of logic, and computers can only calculate the former.\n\n(Adaptado de BROUSSARD, M. *More than a glitch*: confronting race, gender and ability bias in tech. Cambridge, Massachusetts: The MIT Press, 2023, p. 5-6).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Indique, no quadro no campo de respostas, um agente humano e o agente não humano envolvidos no texto 1. Descreva as ações desempenhadas por eles.\n\n*Campo de resolução:*\n\n| AGENTE HUMANO | AÇÕES |\n|---|---|\n|  |  |\n| **AGENTE NÃO HUMANO** | **AÇÕES** |\n|  |  |"
+        },
+        {
+          "rotulo": "b",
+          "texto": "A partir do texto 2, descreva o conceito de *tecnochauvinismo*. Em seguida, justifique por que o argumento apresentado pelas autoridades governamentais no texto 1 pode ser considerado um exemplo desse conceito."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 8,
+      "materia": "ingles",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Leia os textos a seguir e responda, <u>em português</u>, às perguntas.\n\n![Fotografia de Tamara Klink, de perfil, usando agasalho preto com detalhes amarelos, em uma paisagem coberta de neve.](fig:p14-f2)\n\nTamara Klink is a 28-year-old Brazilian sailor who, on her own, crossed the North Atlantic and spent 8 months in the Arctic ice. She sailed aboard her ten-meter sailboat “Sardinha 2”, towards Greenland.\n\n**Texto 1**\n\nThis is the boat that allowed me to go beyond death. She made me feel miserable for knowing so little and yet taught me to embrace the freedom of being a beginner.\n\n(Adaptado de https://www.unesco.org/en/articles/tamara-klinks-journey-arctic-landscapes-im-seeing-now-could-disappear-next-10-years. Acesso em 23/07/2025.)\n\n**Texto 2**\n\nA simple promenade can become dangerous if a bear appears, if I misread the sea ice. But I also find immense freedom as I am the sole artist and listener, people and prefect of my little floating city. I am aware my life is vulnerable. I have a lot to learn, but as I finish this text, I have the feeling that I couldn’t be happier.\n\n(Adaptado de https://www.un-glaciers.org/zh/articles/tamara-klinks-journey-arctic-one-and-all. Acesso em 23/07/2025.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considere que veleiros como o “Sardinha 2” possuem, aproximadamente, uma massa de 600 kg para cada metro do seu comprimento. Dessa forma, utilizando os dados do texto, calcule o módulo do empuxo ($E$) necessário para manter o veleiro flutuando na superfície do mar. Dado: $g = 10\\ \\text{m/s}^2$"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Descreva os dois lados do vínculo existente entre a autora e o barco no texto 1. Em seguida, descreva, de acordo com o texto 2, a metáfora usada pela autora para se referir ao barco."
+        }
+      ],
+      "observacoes": "A URL do texto 1 quebra de linha no meio de “could” no caderno; foi unida sem espaço."
+    },
+    {
+      "numero": 9,
+      "materia": "biologia",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "Para prever, regular e compreender os riscos que os produtos farmacêuticos representam para o meio ambiente, é importante determinar seu destino e abundância após sua entrada nesse local. Eles são introduzidos principalmente por meio do descarte de efluentes de estações de tratamento de águas residuais municipais e/ou efluentes hospitalares.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique duas possíveis formas de degradação que os produtos farmacêuticos podem sofrer no ambiente que reduzem sua concentração ou promovem sua eliminação, evitando, assim, que estejam presentes na água tratada para consumo humano ou nas águas subterrâneas, onde poderiam ser absorvidos por organismos."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Comprovou-se que a contaminação das águas por clobazam, um fármaco ansiolítico, influencia o comportamento e a migração de salmões-do-atlântico juvenis (*Salmo salar*) do Rio Dal, na Suécia, ao Mar Báltico, em um trecho de aproximadamente 28 km: “Os salmões expostos ao clobazam tiveram maior probabilidade de completar sua migração para o mar e passaram por barreiras artificiais, como represas hidrelétricas, mais rapidamente que os peixes que não foram expostos ao fármaco”, segundo evidências do estudo de J.A. Brand e colaboradores. Considerando o relato desse estudo, do ponto de vista ambiental, cite e explique um aspecto positivo para a população de salmões-do-atlântico e um aspecto negativo para o ecossistema.\n\n(Adaptado de BRAND, J.A. e colaboradores. Pharmaceutical pollution influences river-to-sea migration in Atlantic salmon (Salmo salar). *Science*, vol. 388, abr. 2025, p. 217-222.)"
+        }
+      ],
+      "observacoes": "Na resposta oficial do item a, o ponto 6 traz “sustância” (erro de digitação do original, mantido)."
+    },
+    {
+      "numero": 10,
+      "materia": "quimica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "A capacidade de ler e compreender as informações apresentadas nos rótulos de alimentos e bebidas é fundamental para que o cidadão possa fazer suas escolhas alimentares com autonomia e consciência. Nesse sentido, considere os textos 1 e 2:\n\n**Texto 1**\n\n“Em um frasco de maionese pode estar lá ‘*alto em gorduras saturadas*’, mas é importante que o consumidor saiba que esse ‘*alto em*’ é naquela medida de 100 g, ou no volume líquido de 100 mL. Gente, uma colher de sopa de maionese tem 12 g, então para a gente chegar nesse ‘*alto em*’, a gente teria que consumir oito colheres de sopa (diárias) de maionese”, disse uma influenciadora que tem quase um milhão de seguidores.\n\n(Adaptado de https://ojoioeotrigo.com.br/politica-de-republicacao. Acesso em 17/07/2025.)\n\n**Texto 2**\n\n“As empresas de alimentos criam um ambiente que estimula o consumo excessivo de comida, por meio de publicidade, *marketing* indireto, brindes, redes sociais [...]. A indústria de alimentos adotou métodos da indústria tabagista, semeando dúvidas sobre pesquisas e recrutando influenciadores”, disse nutricionista e autoridade em política alimentar nos EUA.\n\n(Adaptado de https://www.bbc.com/portuguese/articles/cwy6zv15yxzo. Acesso em 17/07/2025.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "No texto 1, consta a informação de que a maionese é um produto considerado “alto em gorduras saturadas”. Explique o que é gordura saturada e insaturada, apresentando em sua resposta uma estrutura molecular genérica para cada uma dessas gorduras, de modo a diferenciá-las do ponto de vista químico."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Enquanto o texto 1 sugere um determinado raciocínio, o texto 2 nos alerta para uma a necessidade de fazermos uma reflexão crítica sobre as informações que nos chegam diariamente. A partir disso, explique por que a interpretação do ‘*alto em*’ apresentada no texto 1 é preocupante e imprecisa para quem busca uma alimentação saudável e balanceada. E, do ponto de vista de uma alimentação saudável e balanceada, exemplifique duas funções da gordura no organismo."
+        }
+      ],
+      "observacoes": "No item b do caderno está “para uma a necessidade” (erro de digitação do original, mantido)."
     }
   ],
   "respostas": {
@@ -123,6 +219,36 @@
       "itens": {
         "a": "No excerto I, o banzeiro é personificado ao receber características humanas como sentir/expressar “brabeza\" e demonstrar “raiva”. Ao atribuir ao fenômeno natural do rio uma espécie de agressividade e imprevisibilidade, por meio desses sentimentos humanos, o excerto sugere um estado emocional atribuído ao território, criando o sentido de que o banzeiro reage às ações humanas, exigindo silêncio e respeito. Adicionalmente, pelo recurso à imagem das “garras”, reforça-se o perigo físico real que ameaça as pessoas que atravessam o rio sem esperar que ele as recolha (ou que ele amaine), como se o rio tivesse capacidade de atacar ou capturar quem atravessa suas águas. Essas personificações contribuem para forjar o clima de tensão, temor e reverência que envolve a travessia, construindo o rio como uma força viva e poderosa, diante da qual se deve cautela.",
         "b": "O excerto I, de caráter literário e reflexivo, busca exprimir uma experiência sensível e culturalmente situada, enfatizando o banzeiro como um fenômeno singular e intraduzível, ligado ao modo de vida e à percepção do povo do Xingu. Já o excerto II, voltado ao jornalismo informativo, precisa oferecer ao leitor uma definição objetiva e amplamente compreensível. Por isso, apresenta uma explicação descritiva e denotativa do fenômeno (“movimentação do rio que causa ondulações”), adequada ao propósito de informar de forma acessível, sem ambiguidades. Dessa forma, a definição do excerto II cumpre melhor a função jornalística de esclarecer rapidamente o significado do termo para um público amplo."
+      }
+    },
+    "6": {
+      "itens": {
+        "a": "O sinal de pontuação utilizado para introduzir a sequência de orações é os dois-pontos (:). Esse recurso estabelece uma relação de sentido de especificação e detalhamento entre as partes do período: os dois-pontos anunciam a lista de ações que justificam por que Patrícia Xavier é caracterizada como empreendedora. Dessa forma, o período anterior aos dois-pontos apresenta a informação central (“é empreendedora”) e o período posterior explicita os motivos e exemplos concretos que sustentam essa afirmação.",
+        "b": "A justaposição das orações, organizadas como uma lista rápida de atividades, ações e responsabilidades, contribui para construir o sentido de “corre” como uma dinâmica rápida e intensa, múltipla e contínua. A ausência de conjunções entre as orações exprime a sensação de fluxo acelerado e acúmulo de tarefas, reforçando a ideia de ritmo frenético próprio do cotidiano de quem vive entre trabalho, cuidado familiar e busca de renda. Desse modo, a estrutura sintática reproduz, na forma, o significado de “corre” no texto: uma sucessão de ações que se encadeiam sem pausa, compondo o modo de vida de muitos brasileiros."
+      }
+    },
+    "7": {
+      "itens": {
+        "a": "| AGENTE HUMANO | AÇÕES |\n|---|---|\n| professores | Tiveram que ranquear os estudantes no âmbito de cada disciplina com base em notas que eles mesmos estimaram. |\n| **AGENTE NÃO HUMANO** | **AÇÕES** |\n| algoritmo | Atribuiu notas finais dos estudantes a partir do ranqueamento dos estudantes, entre outros critérios. |",
+        "b": "Segundo o texto 2, tecnochauvinismo é o olhar enviesado que considera soluções computacionais superiores a todas as outras. Essa noção segue a ideia de que computadores tomam decisões neutras porque essas são baseadas em matemática. A partir dessa conceituação, pode-se dizer que o argumento apresentado pelas autoridades no texto 1 é um exemplo de tecnochauvinismo, pois os agentes governamentais privilegiaram o algoritmo em detrimento do professor por acreditarem que avaliar os alunos apenas com base nas notas do professor prejudicaria a credibilidade dos resultados. Evidencia-se, portanto, a crença na noção de que o computador/algoritmo é superior ao humano."
+      }
+    },
+    "8": {
+      "itens": {
+        "a": "Para o barco flutuar, o empuxo deve ter o mesmo módulo que a força peso, isto é, $E = P$.\n\nDado $M = 600\\ \\text{kg/L}\\ 10\\ \\text{m} = 6000\\ \\text{kg}$.\n\n$E = P = Mg = 6000\\ \\text{kg} \\cdot 10\\ \\text{m/s}^2 = 60000\\ \\text{kg} \\cdot \\text{m/s}^2 = 6\\ \\text{x}\\ 10^4\\ \\text{N}$.",
+        "b": "No texto 1, a autora expressa seu vínculo com o barco a partir de dois vieses: o da vulnerabilidade, evidenciado quando ela afirma que o barco a fez se sentir mal ou infeliz por saber tão pouco; e o da liberdade, que está presente quando ela aponta que o barco a ensinou a acolher a liberdade de ser uma aprendiz. No texto 2, a autora se refere ao barco por meio de uma metáfora: uma “pequena cidade flutuante”. É nesse espaço que ela vivencia a imensa liberdade de ser, ao mesmo tempo, a única artista e a única ouvinte, bem como a prefeita e a população dessa “cidade”."
+      }
+    },
+    "9": {
+      "itens": {
+        "a": "Exemplos de redução da concentração ou a eliminação dos produtos farmacêuticos no ambiente:\n\n1. <u>fotodecomposição</u> (fotólise) – degradação da molécula da substância pela absorção da radiação ultravioleta (luz solar);\n2. <u>degradação térmica</u> – a molécula da substância se decompõe por ação direta da temperatura (calor);\n3. <u>oxidação</u> – a molécula da substância reage com oxigênio ou ozônio dissolvido na água;\n4. <u>biodegradação</u> – envolve microrganismos, ou mesmo plantas que metabolizam a substância;\n5. <u>hidrólise</u> – a molécula da substância reage com a água, sendo o processo influenciado por parâmetros como temperatura, pH, íons metálicos etc.;\n6. <u>adsorção</u> – a molécula da sustância adsorve em estruturas como lodos argilosos, ou matéria orgânica pertencentes ao meio.\n\n*Observação: O item pede apenas dois exemplos.*",
+        "b": "Um possível aspecto positivo para a população de salmões é o crescimento populacional, pois um maior número de indivíduos juvenis chega ao mar, completando seu desenvolvimento e assim maiores chances de haver mais indivíduos adultos para reprodução.\n\nUm possível aspecto negativo para o ecossistema é que a passagem mais rápida e a maior quantidade nos diversos ambientes onde o salmão faz parte de teias alimentares, pode alterar a dinâmica e o equilíbrio ecológico de outras populações."
+      }
+    },
+    "10": {
+      "itens": {
+        "a": "A gordura é um glicerídeo (éster) formado pela esterificação de um glicerol por três ácidos orgânicos de cadeias carbônicas longas (ácidos graxos). Essas cadeias carbônicas podem ter seus átomos de carbono ligados apenas por ligações simples (C-C) (<u>gorduras saturadas</u>) ou ter uma ou mais ligações duplas (C=C) ou mesmo ligações triplas (<u>gorduras insaturadas</u>), mas que são pouco comuns.\n\n![Estruturas moleculares de dois triglicerídeos: à esquerda, glicerol esterificado por três ácidos graxos de cadeia saturada, só com ligações simples; à direita, glicerol esterificado por três ácidos graxos, dois deles com uma ou mais ligações duplas carbono-carbono.](fig:r05-c1)\n\n(Adaptado de *CH105: Chapter 8 - Alkenes, Alkynes and Aromatic Compounds - Chemistry*. Acesso em 07/12/2025.)",
+        "b": "O comentário do texto 1 é preocupante e impreciso, pois afirma que a advertência do rótulo somente seria válida se houvesse o consumo de grandes quantidades do produto de uma só vez, além do que a influenciadora não leva em conta que as pessoas podem consumir outros produtos somando-se às suas dietas. Esse é apenas um ponto, o outro é que, no comentário, a influenciadora interpreta o “alto em”, que diz respeito à <u>concentração de gordura</u> na maionese, como uma <u>quantidade limite</u>, o que pode induzir o consumidor a uma decisão alimentar prejudicial à sua saúde. Por outro lado, o texto 2, alerta exatamente sobre informações erradas ou intencionalmente patrocinadas, prejudiciais, que podem influenciar negativamente as tomadas de decisão.\n\nEm uma alimentação saudável e balanceada, as gorduras podem ser utilizadas como fonte de energia, como base para síntese de membranas celulares e de hormônios esteroides e como proteção de órgãos, como isolante térmico, por exemplo."
       }
     }
   }
