@@ -72,3 +72,4 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2017-1 q38: pela física, a potência do vento varia com o cubo da velocidade (daria 975 MWh, fora das alternativas); a banca usou o quadrado. Gabarito B mantido.
 - unicamp-2017-1 q42: o enunciado chama o HPV de "caudovírus" (erro de conteúdo da banca); não muda a resposta.
 - unicamp-2020-1 q27: a resolução atribui à banca a afirmação de que o RN era o maior produtor de petróleo em terra; o dado da época não foi confirmado.
+- unicamp-2022-2-d1 q7: o post de Chico César reproduz um poema curto de Titá Moura (autora viva). Mantida por ser duas frases e o item b depender delas; decidir se vai para indisponiveis.json.
