@@ -1,0 +1,444 @@
+{
+ "edicao": "unicamp-2019-1",
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 61,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A representação decimal de certo número inteiro positivo tem dois algarismos. Se o triplo da soma desses algarismos é igual ao próprio número, então o produto dos algarismos é igual a",
+   "alternativas": {
+    "A": "10.",
+    "B": "12.",
+    "C": "14.",
+    "D": "16."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 62,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O sistema de segurança de um aeroporto consiste de duas inspeções. Na primeira delas, a probabilidade de um passageiro ser inspecionado é de 3/5. Na segunda, a probabilidade se reduz para 1/4. A probabilidade de um passageiro ser inspecionado pelo menos uma vez é igual a",
+   "alternativas": {
+    "A": "17/20.",
+    "B": "7/10.",
+    "C": "3/10.",
+    "D": "3/20."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 63,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sejam $a$ e $b$ números reais positivos. Considere a função quadrática $f(x) = x(ax + b)$, definida para todo número real $x$. No plano cartesiano, qual figura corresponde ao gráfico de $y = f(x)$?",
+   "alternativas": {
+    "A": "![Alternativa A](fig:p22-f2)",
+    "B": "![Alternativa B](fig:p22-f3)",
+    "C": "![Alternativa C](fig:p22-f4)",
+    "D": "![Alternativa D](fig:p22-f5)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 64,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sejam $k$ e $\\theta$ números reais tais que sen $\\theta$ e cos $\\theta$ são soluções da equação quadrática $2x^2 + x + k = 0$. Então, $k$ é um número",
+   "alternativas": {
+    "A": "irracional.",
+    "B": "racional não inteiro.",
+    "C": "inteiro positivo.",
+    "D": "inteiro negativo"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 65,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No triângulo $ABC$ exibido na figura a seguir, $AD$ é a bissetriz do ângulo interno em $A$, e $\\overline{AD} = \\overline{DB}$. O ângulo interno em $A$ é igual a\n\n![Triângulo ABC com o segmento tracejado AD, de A até o ponto D do lado BC; o ângulo em C mede 60°](fig:p23-f1)",
+   "alternativas": {
+    "A": "$60^\\circ$.",
+    "B": "$70^\\circ$.",
+    "C": "$80^\\circ$.",
+    "D": "$90^\\circ$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 66,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No triângulo $ABC$ exibido na figura a seguir, $M$ é o ponto médio do lado $AB$, e $N$ é o ponto médio do lado $AC$. Se a área do triângulo $MBN$ é igual a $t$, então a área do triângulo $ABC$ é igual a\n\n![Triângulo ABC com os pontos M, em AB, e N, em AC, e o triângulo MBN sombreado](fig:p23-f2)",
+   "alternativas": {
+    "A": "$3t$.",
+    "B": "$2\\sqrt{3}\\,t$.",
+    "C": "$4t$.",
+    "D": "$3\\sqrt{2}\\,t$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 67,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura a seguir exibe um pentágono em que quatro lados consecutivos têm comprimentos $a$, $b$, $c$ e $d$. Se a sequência $(a, b, c, d)$ é uma progressão geométrica de razão $q > 1$, então $\\tan\\theta$ é igual a\n\n![Pentágono com lados consecutivos de comprimentos b, a, c e d e ângulo θ junto ao lado d](fig:p23-f3)",
+   "alternativas": {
+    "A": "$1/q$.",
+    "B": "$q$.",
+    "C": "$q^2$.",
+    "D": "$\\sqrt{q}$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 68,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $a$ e $b$ são números reais, considere a matriz quadrada de ordem 3,\n\n$$A = \\begin{pmatrix} 1 & a & 1 \\\\ b & 1 & a \\\\ 2 & b & 2 \\end{pmatrix}.$$\n\nSe a soma dos elementos em cada linha da matriz $A$ tem sempre o mesmo valor, então o determinante de $A$ é igual a",
+   "alternativas": {
+    "A": "0.",
+    "B": "2.",
+    "C": "5.",
+    "D": "10."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 69,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No plano cartesiano, considere a circunferência de equação $x^2 + y^2 - 4y + 3 = 0$ e a parábola de equação $3x^2 - y + 1 = 0$. Essas duas curvas se interceptam em",
+   "alternativas": {
+    "A": "um ponto.",
+    "B": "dois pontos.",
+    "C": "três pontos.",
+    "D": "quatro pontos."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 70,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $a$ e $b$ são números reais, considere o polinômio cúbico $p(x) = x^3 + ax^2 + x + b$. Se a soma e o produto de duas de suas raízes são iguais a $-1$, então $p(1)$ é igual a",
+   "alternativas": {
+    "A": "0.",
+    "B": "1.",
+    "C": "2.",
+    "D": "3."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 71,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere um paralelepípedo retângulo, cujas arestas têm comprimento $6\\ \\text{cm}$, $8\\ \\text{cm}$ e $10\\ \\text{cm}$, e um triângulo cujos vértices são os centros (intersecção das diagonais) de três faces de dimensões distintas, como ilustra a figura a seguir. O perímetro $P$ desse triângulo é tal que\n\n![Paralelepípedo retângulo com um triângulo sombreado cujos vértices são centros de três de suas faces](fig:p23-f4)",
+   "alternativas": {
+    "A": "$P < 14\\ \\text{cm}$.",
+    "B": "$14\\ \\text{cm} < P < 16\\ \\text{cm}$.",
+    "C": "$16\\ \\text{cm} < P < 18\\ \\text{cm}$.",
+    "D": "$P > 18\\ \\text{cm}$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 72,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os estudiosos muçulmanos adaptaram a herança recebida dos povos arabizados. Entre os domínios conquistados pelos muçulmanos estavam a Mesopotâmia e o antigo Egito, civilizações que desde cedo observaram os fenômenos astronômicos. O estudo dos fenômenos naturais no Crescente Fértil possibilitou a agricultura e perdurou por milênios. Nas costas do Mar Egeu, na região da Jônia, surgiram no século VI a.C. as primeiras explicações dos fenômenos naturais desvinculadas dos desígnios divinos. E as conquistas de Alexandre permitiram o início do intercâmbio entre o conhecimento grego, de um lado, e o dos antigos impérios egípcio, babilônico e persa, de outro. Além disso, houve trocas científicas e culturais com os indianos. O império árabe-islâmico foi, a partir do século VII, o herdeiro desse legado científico multicultural, ao qual os estudiosos muçulmanos deram seus aportes ao longo da Idade Média.\n\n(Adaptado de Beatriz Bissio, *O mundo falava árabe*. Rio de Janeiro: Civilização Brasileira, 2012, p. 200-201.)\n\nConsiderando o texto acima sobre o Islã Medieval e seus conhecimentos, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "A extensão do território sob domínio islâmico e a liberdade religiosa e cultural implementada nessas áreas aceleraram a construção de novos conhecimentos pautados na cosmologia ocidental.",
+    "B": "A partir do século VII, o avanço dos exércitos islâmicos garantiu a expansão do império de forma ditatorial sobre antigos núcleos culturais da Índia até as terras gregas do Império Bizantino, chegando à Espanha.",
+    "C": "Os conhecimentos sobre os fenômenos naturais construídos pelos mesopotâmicos, egípcios, macedônicos, babilônicos, persas, entre outros povos, foram ignorados pelo Islã Medieval, marcado pelo fundamentalismo religioso.",
+    "D": "A difusão de saberes multiculturais foi uma das marcas do Império árabe-islâmico, sendo ele a via de transmissão do sistema numérico indiano para o Ocidente e de obras da filosofia greco-romana para o Oriente."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 73,
+   "materia": "historia",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "Leia o texto a seguir e observe a figura do Homem Vitruviano.\n\nAo longo da vida, cada vez mais, Leonardo da Vinci passou a perceber que a matemática era a chave para transformar suas observações em teorias. Não existe certeza na ciência em que a matemática não possa ser aplicada, declarou.\n\n(Adaptado de Walter Isaacson, *Leonardo da Vinci*. Rio de Janeiro: Intrínseca, 2017, p. 52.)\n\n![Desenho O Homem Vitruviano, de Leonardo da Vinci: figura masculina nua com braços e pernas em duas posições, inscrita em um círculo e em um quadrado](fig:p24-c2)\n\nO Homem Vitruviano, Leonardo Da Vinci, 1490.\n\nAssinale a alternativa que expressa adequadamente a correlação entre o texto e a imagem.",
+   "alternativas": {
+    "A": "Figura emblemática do Renascimento, Leonardo da Vinci destaca-se pela sua obra pictórica e por seu desenho do Homem Vitruviano. Para ele, arte e ciência se baseavam nas relações análogas entre homem e natureza preconizadas pela alquimia.",
+    "B": "O Homem Vitruviano de Leonardo da Vinci condensa uma série de estudos do artista, e mesmo a leitura de uma cópia manuscrita da obra de Vitrúvio. O desenho sintetiza uma relação harmônica entre homem e mundo pautada pela analogia geométrica.",
+    "C": "Na linhagem dos artistas-arquitetos-engenheiros renascentistas, Leonardo da Vinci dedicou-se ao estudo da perspectiva e especialmente da aritmética, buscando harmonizar as relações entre o homem e Deus no Homem Vitruviano.",
+    "D": "Leitor assíduo da física newtoniana, Leonardo da Vinci reconhecia que tanto a aritmética quanto a geometria poderiam ser usadas na arte, arquitetura e engenharia. Na elaboração do desenho do Homem Vitruviano, ele comprovou esta hipótese."
+   },
+   "observacoes": "Recorte refeito (p24-c2): o automático incluía parte da legenda; a legenda foi mantida como texto."
+  },
+  {
+   "numero": 74,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A seguir, leia um trecho da petição ao rei de Espanha escrita por Juan Garrido, conquistador residente na cidade do México, em 27 de Setembro de 1538.\n\nEu, Juan Garrido, de cor negra, membro desta comunidade [*vecino*], e residente nesta cidade, trago um relato de como servi à Vossa Majestade na conquista e pacificação desta Nova Espanha. Desde quando Cortés entrou nela, estive presente em todas as invasões, conquistas e pacificações realizadas no sul do Pacífico, nas ilhas de Porto Rico e de Cuba. Fiz tudo às minhas custas, sem receber nem salário nem *repartimiento* de índios ou qualquer outra coisa. De todas estas formas, durante trinta anos, servi e continuo a servir à Vossa Majestade.\n\n(Traduzido e adaptado de Matthew Restall, Probanza of Juan Garrido. Black Conquistadors: Armed Africans in Early Spanish America. *The Americas*, Cambridge, v. 57, n. 2, out. 2000, p. 171.)\n\nAssinale a alternativa correta.",
+   "alternativas": {
+    "A": "A presença de negros nos processos de conquista e colonização das Américas limitou-se à atuação como mão de obra escravizada em plantações, em serviços domésticos ou como trabalhadores sem especialização em núcleos urbanos.",
+    "B": "A presença de afrodescendentes na América espanhola pode ser distribuída nas categorias: escravos, fugitivos ou forros, em meio rural e urbano, auxiliares nos processos de conquista e ainda como conquistadores, proprietários e *vecinos*.",
+    "C": "A presença de negros nos exércitos de Cortez é um exemplo da ausência de critérios discriminatórios de limpeza de sangue no processo de conquista da América espanhola, diferentemente do que ocorria nas Américas portuguesa e inglesa.",
+    "D": "A presença de afrodescendentes no mundo espanhol foi tardia e concentrou-se no espaço caribenho, onde atuaram como parte da mão de obra escravizada, mas também atuaram como conquistadores e *vecinos* cidadãos."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 75,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Entre os séculos XVII e XVIII, o nheengatu se tornou a língua de comunicação interétnica falada por diversos povos da Amazônia. Em 1722, a Coroa exortou os carmelitas e os franciscanos a capacitarem seus missionários a falarem esta língua geral amazônica tão fluentemente como os jesuítas, já que em 1689 havia determinado seu ensino aos filhos de colonos.\n\n(Adaptado de José Bessa Freire, Da “fala boa” ao português na Amazônia brasileira. *Ameríndia*, Paris, n. 8, 1983, p.25.)\n\nCom base na passagem acima, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "Os jesuítas criaram um dicionário baseado em línguas indígenas entre os séculos XVI e XIX, que foi amplamente usado na correspondência e na administração colonial nos dois lados do Atlântico.",
+    "B": "O texto permite compreender a necessidade de o colonizador português conhecer e dominar a língua para poder disciplinar os índios em toda a Amazônia durante o período pombalino e no século XIX.",
+    "C": "O aprendizado dessa língua associava-se aos projetos de colonização, visando ao controle da mão de obra indígena pelos agentes coloniais, como missionários, colonos e autoridades.",
+    "D": "A experiência do nheengatu desapareceu no processo de exploração da mão de obra indígena na Amazônia e em função da interferência da Coroa, que defendia o uso da língua portuguesa."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 76,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Tanto que se viu a abundância do ouro que se tirava e a largueza com que se pagava tudo o que lá ia, logo se fizeram estalagens e logo começaram os mercadores a mandar às Minas Gerais o melhor que chega nos navios do Reino e de outras partes. De todas as partes do Brasil, se começou a enviar tudo o que dá a terra, com lucro não somente grande, mas excessivo. Daqui se seguiu, mandarem-se às Minas Gerais as boiadas de Paranaguá, e às do rio das Velhas, as boiadas dos campos da Bahia, e tudo o mais que os moradores imaginaram poderia apetecer-se de qualquer gênero de cousas naturais e industriais, adventícias e próprias.\n\n(Adaptado de André Antonil, *Cultura e Opulência do Brasil*. Belo Horizonte: Itatiaia-Edusp, 1982, p. 169-171.)\n\nSobre os efeitos da descoberta das grandes jazidas de metais e pedras preciosas no interior da América portuguesa na formação histórica do centro-sul do Brasil, é correto afirmar que:",
+   "alternativas": {
+    "A": "A demanda do mercado consumidor criado na zona mineradora permitiu a conexão entre diferentes partes da Colônia que até então eram pouco integradas.",
+    "B": "A partir da criação de rotas de comércio entre os campos do sul da Colônia e a região mineradora, Sorocaba e suas feiras perderam a relevância econômica adquirida no século XVII.",
+    "C": "O desenvolvimento socioeconômico da região das minas e do centro-sul levou a Coroa a deslocar a capital da Colônia de Salvador para Ouro Preto em 1763.",
+    "D": "Como o solo da região mineradora era infértil, durante todo o século XVIII sua população importava os produtos alimentares de Portugal ou de outras capitanias."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 77,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os viajantes, missionários, administradores coloniais e etnógrafos europeus, no passado, tenderam a fundir múltiplas identidades em um único conceito de *tribo*. O uso da palavra *tribo* para descrever as sociedades africanas surgiu de um desejo de enaltecer o Estado-nação, ao mesmo tempo em que sugeria a inferioridade inerente de outros. Em resumo, conotava políticas primitivas que eram menos desenvolvidas do que as políticas dos Estados-nação.\n\n(Adaptado de John Parker e Richard Rathbone, “A ideia de África”, em *História da África*. Lisboa: Quimera, 2016, p. 56-58.)\n\nBaseado no texto acima e em seus conhecimentos, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "A formação e a difusão do conceito de *tribo* no pensamento europeu acompanharam os avanços do colonialismo na África no século XIX, legitimando o domínio de seus povos por agentes oriundos de nações que se consideravam civilizadas e superiores.",
+    "B": "O conceito de *tribo* ganhou força no pensamento ocidental, porque na África não havia formações políticas que cobriam grandes extensões territoriais como na Europa. Ou seja, os europeus não encontraram estruturas políticas acima das unidades tribais.",
+    "C": "As sociedades africanas eram organizadas a partir de pequenas *tribos* lideradas por chefes guerreiros, o que gerava fragmentação política e guerras, inviabilizando nesse continente a formação de unidades políticas complexas nos moldes europeus.",
+    "D": "Em razão das tradições milenares e do respeito aos ancestrais, as *tribos* eram unidades sociais e políticas estáticas assentadas em uma identidade homogênea. Os europeus comumente desrespeitavam todas essas características na colonização."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 78,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Fotografia da fachada de um prédio coberto por dezenas de letreiros “SI” e por uma grande máscara de rosto](fig:p26-c1)\n\nPartido Nacional Fascista de Benito Mussolini em 1934\n\n\\*<em>si</em> – significa “sim” em italiano.\n\n*Bella Ciao*\n\nQuerida, adeus\n\nEsta manhã, eu acordei\nQuerida, adeus! Querida, adeus! Querida, adeus, adeus, adeus!\nEsta manhã, eu acordei\nE encontrei um invasor\n\nOh, membro da Resistência, leve-me embora\nQuerida, adeus! Querida, adeus! Querida, adeus, adeus, adeus!\nOh, membro da Resistência, leve-me embora\nPorque sinto que vou morrer\n\nE se eu morrer como um membro da Resistência\nQuerida, adeus! Querida, adeus! Querida, adeus, adeus, adeus!\nE se eu morrer como um membro da Resistência\nVocê deve me enterrar\n\nE me enterre no alto da montanha\nQuerida, adeus! Querida, adeus! Querida, adeus, adeus, adeus!\nE me enterre no alto da montanha\nSob a sombra de uma bela flor. (...).\n\nA fotografia anterior registra a fachada do Partido Nacional Fascista de Benito Mussolini em 1934. A música *Bella Ciao* foi um hino cantado contra o fascismo de Mussolini e as tropas nazistas durante a Segunda Guerra Mundial. Em 25 de abril de 2018, quando a Itália celebrou 73 anos de sua libertação do nazifascismo, a canção foi entoada em várias partes do país.\n\nSobre os usos da imagem e da música, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "Através de vários mecanismos de propaganda ideológica e coerção física, os italianos foram forçados a entoar a música *Bella Ciao*, a fim de demonstrar publicamente sua adesão ao fascismo. Este caráter umbilical da relação da massa com o líder aparece retratado na fotografia.",
+    "B": "Por se tratar de um produto da indústria cultural com forte apelo comercial, compreende-se a circulação e o consumo desta música em plano global e em várias mídias (*shows* musicais, novelas e séries). Neste sentido, a imagem é um cartaz caracterizado pela neutralidade política.",
+    "C": "Trata-se de uma música de alcance internacional entoada em várias partes do mundo, em diferentes contextos de resistência política contra o fascismo, regime caracterizado pela adesão da massa em relação ao seu líder, como explicita a fotografia.",
+    "D": "O gesto que recupera em 2018 esta canção sugere uma semelhança entre o tempo de antes (do fascismo) e o de hoje, aproximando Silvio Berlusconi de Mussolini, dirigente retratado na fotografia. Antes, como agora, *Bella Ciao* exalta a resistência, identificando-se como uma canção nacionalista."
+   },
+   "observacoes": "Recorte refeito (p26-c1): o automático incluía parte da legenda; a legenda foi mantida como texto. A letra de Bella Ciao (tradução em português impressa no caderno) está transcrita inteira."
+  },
+  {
+   "numero": 79,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A propaganda através de inscrições e desenhos em muros e paredes é uma parte integrante da Paris revolucionária de Maio de 1968. Ela se tornou uma atividade de massa, parte e parcela do método de autoexpressão da Revolução.\n\n(Adaptado de SOLIDARITY, *Paris: maio de 68*. São Paulo: Conrad, 2008, p. 15.)\n\n![Fotografia em preto e branco de uma estátua sentada sobre um pedestal pichado com os dizeres “LIBEREZ L’EXPRESSION”](fig:p26-c2)\n\nInscrição: Liberem a expressão\n\n(Philippe Gras, Paris, 28/05/1968. Disponível em http://proxy.handle.net/.)\n\nConsiderando o texto e a imagem anteriores, assinale a alternativa correta sobre o movimento de Maio de 1968.",
+   "alternativas": {
+    "A": "Influenciado pela política de Estado da União Soviética, as manifestações de 1968 foram desencadeadas pelos operários franceses, que exigiam melhores condições de trabalho, por meio das pichações em muros espalhados pela cidade.",
+    "B": "Influenciado pelo contexto cultural da Guerra Fria, as manifestações de 1968 tinham como palavras de ordem a liberdade de expressão política e sexual, como se via nas inscrições nos muros de Paris.",
+    "C": "Influenciado pelos movimentos *punk*-anarquistas ingleses, as manifestações de 1968 na França foram responsáveis pelo enfraquecimento do então presidente Charles De Gaulle e seu lema aparecia em inscrições nos muros.",
+    "D": "Influenciado por ideias esquerdistas, comunistas e anarquistas, as manifestações de 1968 ficaram restritas às camadas populares francesas, sendo que as inscrições nos muros das cidades indicavam o grupo social responsável."
+   },
+   "observacoes": "Recorte refeito (p26-c2): o automático incluía parte do crédito. A caixa \"Inscrição: Liberem a expressão\" está como texto, depois da figura."
+  },
+  {
+   "numero": 80,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A crise levaria o último governo da ditadura, chefiado pelo general João Figueiredo (1979-85), a tomar medidas drásticas. O objetivo inicial era deter a depreciação da moeda nacional, incentivar as exportações e fazer frente ao aumento do *deficit* em conta corrente. Assim, a moeda foi desvalorizada em 30% no final de 1979. A medida acentuou a desaceleração econômica, o descontrole inflacionário e o desarranjo nas contas públicas. Em 1980, a inflação batia a simbólica marca de 100% ao ano e em 1981 o país entrava em uma recessão.\n\n(Adaptado de Gilberto Marangoni, Anos 1980, década perdida ou ganha? *Revista Desafios do Desenvolvimento*, São Paulo, Ano 9, Edição 72, 2012.)\n\nA partir do texto acima e de seus conhecimentos sobre a Nova República no Brasil, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "A concentração de renda gerada pelo milagre econômico, as bolhas especulativas no mercado financeiro brasileiro, as flutuações no preço do petróleo e a alta internacional dos juros ao longo da década de 1970 foram elementos decisivos para a superação da crise econômica dos anos de 1980.",
+    "B": "No Brasil dos anos de 1980, a desaceleração econômica, o descontrole inflacionário e o desarranjo nas contas públicas foram acompanhados pelo silenciamento dos movimentos pelas *Diretas Já* e dos direitos civis, sendo essa década conhecida como a “década perdida”.",
+    "C": "A crise econômica que se instalou no Brasil a partir de meados dos anos de 1970 gerou pressão sobre o governo militar do General Figueiredo, que, em resposta, aprovou a Lei da Anistia e a Lei Orgânica dos Partidos, incentivou o movimento grevista e garantiu a realização de eleições de forma lenta, gradual e segura.",
+    "D": "A chamada década perdida no Brasil foi marcada por grave crise econômica, pela transição para o regime democrático, pela gradual normalização das instituições políticas próprias da democracia, pelo fortalecimento dos movimentos sociais e civis e pela efervescência cultural."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 81,
+   "materia": "historia",
+   "materias_extra": [
+    "fisica"
+   ],
+   "texto_base": null,
+   "enunciado": "Antes de Copérnico, Kepler e Galileu, os cosmólogos elaboravam sistemas que representavam os corpos celestes por meio de esferas encaixadas umas nas outras, propostas e desenvolvidas por Eudoxo e Aristóteles, de modo a distinguir os mundos celeste e terrestre. É nesse contexto, caracterizado pela tese de que o cosmo é composto de dois mundos distintos (céu e Terra), e pelo axioma platônico, que deve ser entendido o conteúdo da carta de Kepler (1604). Ele apresenta uma etapa do processo de rompimento com essa distinção e com o axioma platônico. Na carta, Kepler apresenta os procedimentos para obter as duas primeiras leis dos movimentos planetários. A importância disso é tão grande que a segunda lei aparece antes da primeira, e a lei das áreas só se torna operante numa órbita elíptica, não podendo ser aplicada às órbitas circulares sem produzir discrepâncias com relação aos dados observacionais de Tycho Brahe.\n\n(Adaptado de Claudemir Roque Tossato, Os primórdios da primeira lei dos movimentos planetários na carta de 14 de dezembro de 1604 de Kepler a Mästlin. *Scientiae Studia*, São Paulo, v. 1, n. 2, p. 199-201, jun. 2003.)\n\nConsiderando o contexto histórico descrito e as leis físicas apresentadas por Kepler, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "Copérnico, Kepler e Galileu fazem parte da chamada Revolução Científica que rompe com leituras especulativas do Universo, baseadas em premissas aristotélicas e tomistas, e propõe análises empiristas do mundo natural. O conceito de órbitas circulares para o movimento dos planetas em torno do Sol, em que a distância entre o planeta e o Sol permanece constante durante o movimento, foi abandonado por Kepler.",
+    "B": "A Revolução Científica da época Moderna propõe a ruptura com o ideal divino, sendo, por isso, combatida pela Igreja Católica, que defendia a orquestração divina sobre o mundo humano e natural. O conceito de órbitas circulares para o movimento dos planetas em torno do Sol, em que a distância entre o planeta e o Sol é variável durante o movimento, foi abandonado por Kepler.",
+    "C": "Copérnico, Kepler e Galileu foram perseguidos pela Igreja Católica do período Moderno, por representarem o questionamento dos ideais medievais sobre a organização do céu e da Terra e sobre a onipresença divina. O conceito de órbitas circulares para o movimento dos planetas em torno do Sol, para as quais a distância entre o planeta e o Sol é variável durante o movimento, foi abandonado por Kepler.",
+    "D": "A Revolução Científica da época Moderna, incentivada pela Igreja Católica, propõe a manutenção do antropocentrismo medieval, associado aos conhecimentos empíricos para a leitura e representação do mundo natural. O conceito de órbitas circulares para o movimento dos planetas em torno do Sol, para as quais a distância entre o planeta e o Sol permanece constante durante o movimento, foi abandonado por Kepler."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 82,
+   "materia": "quimica",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "**Touching thermal-paper receipts could extend BPA retention in the body**\n\n![Fotografia em preto e branco de mãos manuseando um recibo impresso](fig:p28-c3)\n\nWhen people handle receipts printed on thermal paper containing the endocrine disruptor bisphenol A (BPA), the toxic chemical could linger in the body for a week or more. Jonathan W. Martin of Stockholm University and Jiaying Liu of the University of Alberta asked six male volunteers to handle paper containing isotopically labeled BPA for five minutes. The volunteers then put on nitrile gloves, wore them for two hours, removed them, and washed their hands with soap. Afterward, the researchers measured the labeled BPA and its metabolites in the volunteers’ urine regularly for two days and then once again a week later. The study only traced the isotopically labeled (deuterated) BPA and its metabolites, so any additional BPA exposure from other sources was not monitored.\n\n(Deirdre Lockwood, Touching thermal-paper receipts could extend BPA retention in the body. Chemical & Engineering News, 04/09/2017.)\n\nO texto discorre sobre uma pesquisa cujo objetivo foi",
+   "alternativas": {
+    "A": "determinar como o manuseio de papel térmico pode contaminar uma pessoa com bisfenol A, considerando que a concentração foi monitorada utilizando-se um BPA em que átomos de $^{1}\\text{H}$ foram substituídos por $^{2}\\text{H}$.",
+    "B": "analisar de que forma o uso de luvas nitrílicas lavadas com sabão e contendo BPA deuterado pode contaminar receitas impressas em papel térmico que contém um disruptor endócrino.",
+    "C": "monitorar, durante uma semana ou mais, a cinética de eliminação de um disruptor endócrino, bisfenol A (BPA), do corpo humano que foi contaminado pelo uso de luvas nitrílicas.",
+    "D": "verificar como um papel térmico deteriorado por átomos de $^{2}\\text{H}$ poderia contaminar as mãos de uma pessoa, mesmo que ela estivesse usando luvas nitrílicas durante duas horas e depois as removesse."
+   },
+   "observacoes": "Recorte da foto refeito (p28-c3): o automático (p28-f1) pegava texto. Cabeçalho em negrito transcrito como texto."
+  },
+  {
+   "numero": 83,
+   "materia": "matematica",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "**Largest prime number discovered: with more than 23m digits**\n\nKnown simply as M77232917, the figure is arrived at by calculating two to the power of 77,232,917 and subtracting one, leaving a gargantuan string of 23,249,425 digits. The result is nearly one million digits longer than the previous record holder discovered in January 2016. The number belongs to a rare group of so-called Mersenne prime numbers, named after the 17th century French monk Marin Mersenne. Like any prime number, a Mersenne prime is divisible only by itself and one, but is derived by multiplying twos together over and over before taking away one. The previous record-holding number was the 49th Mersenne prime ever found, making the new one the 50th.\n\n(Adaptado de Ian Sample, “Largest prime number discovered: with more than 23m digits”. *The Guardian*, 04/ 01/2018.)\n\nConsiderando as informações contidas no excerto anterior, qual dos números a seguir é um primo de Mersenne?",
+   "alternativas": {
+    "A": "23.",
+    "B": "29.",
+    "C": "31.",
+    "D": "37."
+   },
+   "observacoes": "A data da fonte vem impressa como \"04/ 01/2018\" (com espaço), mantida."
+  },
+  {
+   "numero": 84,
+   "materia": "geografia",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "![Post com o título “Immigration...” e fotografia em preto e branco de pessoas de costas, em fila, com as mãos no alto de um muro. Abaixo, o texto: “Your Car is German. Your Vodka is Russian. Your Pizza is Italian. Your Democracy is Greek. Your Coffee is Brazilian. Your Movies are American. Your Shirt is Indian. Your Oil is Saudi Arabian. Your Electronics are Chinese. Your Numbers Arabic, your Letters Latin. And YOU complain that YOUR Neighbor is an Immigrant?”](fig:p28-c1)\n\n(Adaptado de https://br.pinterest.com. Acessado em 10/06/2018.)\n\nO *post* anterior aponta",
+   "alternativas": {
+    "A": "as vantagens da globalização para o consumidor e os problemas causados pela imigração.",
+    "B": "o impacto negativo dos processos migratórios no modo como as culturas vêm sendo globalizadas.",
+    "C": "os efeitos da globalização no nosso cotidiano e o preconceito contra imigrantes.",
+    "D": "o consumo excessivo de produtos estrangeiros no mundo capitalista contemporâneo."
+   },
+   "observacoes": "Recorte refeito (p28-c1): o automático (p28-f2) incluía o cabeçalho da questão."
+  },
+  {
+   "numero": 85,
+   "materia": "sociologia",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "![Cartum em três quadros com um cozinheiro de chapéu e avental segurando uma espátula. Balão do 1º quadro: “It’s a sign of economic recovery...”. Balão do 2º quadro: “I finally got this part time, minimum wage job with no benefits...”. Balão do 3º quadro: “And I had to beat only 500 other applicants to get it...”](fig:p29-c1)\n\n(Disponível em https://www.creators.com/read/bruce-beattie/01/11/70433. Acessado em 18/03/2018.)\n\nEste cartum foi criado pelo norte-americano Bruce Beattie, em 2011. Nele, o cartunista faz uso da ironia para",
+   "alternativas": {
+    "A": "justificar a meritocracia como princípio de reconhecimento de igualdade de oportunidades.",
+    "B": "identificar a garantia do salário mínimo como condição suficiente para a proteção da classe trabalhadora.",
+    "C": "abordar os efeitos da precarização do trabalho nas sociedades contemporâneas.",
+    "D": "propor que a empregabilidade leva à recuperação da economia e à justiça social."
+   },
+   "observacoes": "Recorte refeito (p29-c1): o automático (p29-f1) incluía o cabeçalho da questão e parte da fonte."
+  },
+  {
+   "numero": 86,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Fotografia do rosto de uma mulher com um lenço colorido na cabeça](fig:p29-f2)\n\nWe raise girls to cater to the fragile egos of men. We teach girls do shrink themselves, to make themselves smaller. We tell girls ‘You can have ambition, but not too much’. ‘You should aim to be successful, but not too successful, otherwise you will threaten the man’. (…) We teach girls shame – ‘Close your legs, cover yourself!’. We make them feel as though by being born female, they’re already guilty of something. And so, girls grow up to be women who cannot see they have desire. They grow up to be women who silence themselves. They grow up to be women who cannot say what they truly think. And they grow up – and this is the worst thing we do to girls – to be women who turn pretense into an art form.\n\n(Adaptado da palestra “We should all be feminists”, 15/07/2009. Disponível em https://www.youtube.com/watch?v=hg3umXU_qWc&t=797s. Acessado em 14/05/2018.)\n\nO texto anterior reproduz trechos de uma palestra proferida pela escritora nigeriana Chimamanda Adichie em 2009. Segundo a autora, o fato de serem criadas para agradar aos homens faz com que as mulheres",
+   "alternativas": {
+    "A": "valorizem sua sexualidade ao longo de suas vidas.",
+    "B": "cresçam vendo a dissimulação como algo normal.",
+    "C": "sejam ameaçadas, caso se tornem bem-sucedidas.",
+    "D": "tenham suas vozes silenciadas pelos homens."
+   },
+   "observacoes": "O original traz \"We teach girls do shrink themselves\" (\"do\" em vez de \"to\"); mantido como no caderno."
+  },
+  {
+   "numero": 87,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Camiseta cinza com os dizeres: “ENGLISH IS WEIRD. IT CAN BE UNDERSTOOD THROUGH TOUGH, THOROUGH THOUGHT, THOUGH.”](fig:p29-f3)\n\n(Adaptado de https://www.teachersloungeshop.com. Acessado em 30/04/2018.)\n\nOs dizeres da camiseta",
+   "alternativas": {
+    "A": "brincam com palavras do inglês que têm grafias e pronúncias semelhantes.",
+    "B": "criam um efeito de humor explorando a ambiguidade de certas palavras do inglês.",
+    "C": "brincam com o fato de o inglês ser uma língua irracional e incompreensível.",
+    "D": "criam um efeito de humor a partir da complexidade do sistema ortográfico do inglês."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 88,
+   "materia": "ingles",
+   "materias_extra": [
+    "literatura"
+   ],
+   "texto_base": null,
+   "enunciado": "**‘Yes, I’m Italian – but I’m not loud, I don’t gesticulate and I’m not good with pizza’**\n\nElena Ferrante\n\nI love my country, but I have no patriotic spirit and no national pride. What’s more, I digest pizza poorly, I eat very little spaghetti, I don’t speak in a loud voice, I don’t gesticulate, I hate all mafias, I don’t exclaim “Mamma mia!” National characteristics are simplifications that should be contested. Being Italian, for me, begins and ends with the fact that I speak and write in the Italian language.\n\nPut that way it doesn’t seem like much, but really it’s a lot. A language is a compendium of the history, geography, material and spiritual life, the vices and virtues, not only of those who speak it, but also of those who have spoken it through the centuries. When I say that I’m Italian because I write in Italian, I mean that I’m fully Italian in the only way that I’m willing to attribute to myself a nationality. I don’t like the other ways, especially when they become nationalism, chauvinism, and imperialism.\n\n(Adaptado de Elena Ferrante, ‘Yes, I´m Italian – but I´m not loud, I don´t gesticulate and I´m not good with pizza’, *The Guardian*, 24/02/2018.)\n\nTranscrevem-se, a seguir, versos de canções brasileiras e de um poema de Vinícius de Moraes. Assinale a alternativa que melhor exemplifica as afirmações de Elena Ferrante.",
+   "alternativas": {
+    "A": "“Eu me sinto um estrangeiro.” (Engenheiros do Hawaii, “A revolta dos dândis”.)",
+    "B": "“Pátria Amada, é pra você esta canção/Desesperada, canção de desilusão.” (Inocentes, “Pátria amada”.)",
+    "C": "“Minha pátria é minha língua.” (Caetano Veloso, “Língua”.)",
+    "D": "“Se me perguntarem o que é a minha pátria, direi:/ Não sei. De fato, não sei (...).” (Vinícius de Moraes, “Pátria minha”.)"
+   },
+   "observacoes": "Na fonte, o original usa acento agudo no lugar do apóstrofo (I´m, don´t); mantido."
+  },
+  {
+   "numero": 89,
+   "materia": "ingles",
+   "materias_extra": [
+    "literatura"
+   ],
+   "texto_base": null,
+   "enunciado": "**Love is not all**\n\nBy Edna St. Vincent Millay\n\nLove is not all: It is not meat nor drink\nNor slumber nor a roof against the rain;\nNor yet a floating spar to men that sink\nAnd rise and sink and rise and sink again;\nLove cannot fill the thickened lung with breath,\nNor clean the blood, nor set the fractured bone;\nYet many a man is making friends with death\nEven as I speak, for lack of love alone.\nIt well may be that in a difficult hour,\nPinned down by need and moaning for release,\nOr nagged by want past resolution's power,\nI might be driven to sell your love for peace,\nOr trade the memory of this night for food.\nIt may well be. I do not think I would.\n\n(Disponível em https://www.poemhunter.com/. Acessado em 28/05/2018.)\n\nDe acordo com o poema,",
+   "alternativas": {
+    "A": "por falta de amor, somos derrotados pelas dificuldades da vida.",
+    "B": "há quem busque a companhia da morte por falta de amor.",
+    "C": "a rotina diária a que somos submetidos é capaz de pôr fim ao amor.",
+    "D": "é melhor trocar as incertezas do amor por paz de espírito."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 90,
+   "materia": "ingles",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "**Genetic Fortune-Telling**\n\n![Fotografia de uma esfera de vidro com uma hélice de DNA em seu interior, sobre um pedestal branco](fig:p30-f2)\n\nOne day, babies will get DNA report cards at birth. These reports will offer predictions about their chances of suffering a heart attack or cancer, of getting hooked on tobacco, and of being smarter than average.\n\nThough the new DNA tests offer probabilities, not diagnoses, they could greatly benefit medicine. For example, if women at high risk for breast cancer got more mammograms and those at low risk got fewer, those exams might catch more real cancers and set off fewer false alarms. The trouble is, the predictions are far from perfect. What if someone with a low risk score for cancer puts off being screened, and then develops cancer anyway? Polygenic scores are also controversial because they can predict any trait, not only diseases. For instance, they can now forecast about 10 percent of a person’s performance on IQ tests. But how will parents and educators use that information?\n\n(Adaptado de Derek Brahney, Genetic Fortune-Telling. MIT Technology Review, Março/Abril 2018)\n\nDe acordo com o texto, um dos riscos do prognóstico genético dos indivíduos desde o nascimento seria o de",
+   "alternativas": {
+    "A": "empresas usarem as informações para não contratar pessoas que teriam predisposição a certas doenças ou vícios.",
+    "B": "algumas mulheres descuidarem da prevenção de problemas de saúde para os quais pareciam não estar predispostas.",
+    "C": "governos usarem as informações genéticas para negar a certos cidadãos o acesso a serviços de saúde pública.",
+    "D": "pais e educadores passarem a desconsiderar dados sobre o coeficiente de inteligência de seus filhos ou alunos."
+   },
+   "observacoes": "Na página, a foto fica ao lado do 1º parágrafo; aqui foi posta logo após o título."
+  }
+ ]
+}
