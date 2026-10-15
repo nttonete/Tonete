@@ -1,0 +1,86 @@
+{
+ "edicao": "fuvest-2025-2-d2",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "1": {
+   "assunto": "Microbiologia e doenças"
+  },
+  "2": {
+   "assunto": "Ecologia"
+  },
+  "3": {
+   "assunto": "Genética"
+  },
+  "4": {
+   "assunto": "Fisiologia humana"
+  },
+  "5": {
+   "assunto": "Zoologia"
+  },
+  "6": {
+   "assunto": "Botânica"
+  },
+  "7": {
+   "assunto": "Energia e trabalho"
+  },
+  "8": {
+   "assunto": "Dinâmica"
+  },
+  "9": {
+   "assunto": "Eletrostática"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta conferida com o documento oficial (respostas esperadas), sem divergência. Sem observações do transcritor."
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta conferida com o documento oficial (respostas esperadas), sem divergência. Tirinha recortada completa; a descrição traz as falas dos quatro quadros. Matéria extra geografia mantida (itens a e b cobram biomas e clima do Cerrado)."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta conferida com o documento oficial (respostas esperadas), sem divergência. \"Uma cópia [...] é encapsulado\" está assim no caderno (concordância do original, mantida)."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta conferida com o documento oficial (respostas esperadas), sem divergência. Nota para quem decidir: a 2ª frase da resposta da banca no item c (\"O ATP é necessário para a ligação entre as proteínas\") é imprecisa, já que a falta de ATP impede justamente o desligamento da miosina da actina; mas a 1ª frase e as respostas aceitas pela banca estão corretas. Transcrito fielmente, sem alteração."
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta conferida com o documento oficial (respostas esperadas), sem divergência."
+  },
+  {
+   "numero": 6,
+   "status": "atencao",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta transcrita fielmente do documento oficial. Possível erro da própria banca no item c: a resposta diz que o CO2 é fixado por processos enzimáticos \"(ciclo de Krebs)\", mas a fixação do CO2 na fotossíntese ocorre no ciclo de Calvin (Calvin-Benson); o ciclo de Krebs é etapa da respiração celular. Não alterei; uma pessoa deve decidir se acrescenta nota da plataforma."
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta conferida com o documento oficial (respostas esperadas), sem divergência."
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta conferida com o documento oficial (respostas esperadas), sem divergência. Na resposta do item a, a primeira frase termina sem ponto final no documento oficial (\"menor do que o peso)\"); mantido."
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": "Enunciado, itens e figura conferidos com a página do caderno; resposta conferida com o documento oficial (respostas esperadas), sem divergência. Contas da banca conferidas: r = 10^-5 m, V = 4×10^-15 m³, Q = 8,4×10^-13 C, C = 10^-12 F."
+  }
+ ]
+}

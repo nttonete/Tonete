@@ -109,6 +109,7 @@ As discursivas seguem todas as regras acima, com estas diferenças.
 - `respostas/rNN.png`: páginas do documento oficial de respostas ("Respostas esperadas" da Unicamp; "Abordagens esperadas"/"Guia de respostas" da FUVEST). `respostas-anotadas/rNN.png` traz a grade e as figuras candidatas (`r05-f1`).
 - `respostas.md`: o texto dessas páginas, no mesmo formato de `texto.md`. Em alguns anos o texto sai embaralhado: aí leia direto da imagem.
 - Recorte de figura da resposta: `python3 ferramentas/recortar.py <edicao> r<pagina> <x0> <y0> <x1> <y1>` (gera `rNN-cK`).
+- **Unicamp:** depois das "Respostas esperadas", o mesmo `respostas.pdf` traz a **prova comentada oficial** (cada questão com "Objetivo da Questão" e "Resposta Esperada"). Transcreva a resposta das "Respostas esperadas"; quando ali faltar algo (fórmula que sumiu no PDF, como "A área da superfície é de ." ou um "□" no lugar de símbolo, texto cortado ou embaralhado), use o trecho correspondente da "Resposta Esperada" da prova comentada e anote em `observacoes` de onde veio. Nunca deixe a resposta com o buraco do PDF, e nunca complete por conta própria.
 - O documento de respostas pode cobrir mais de um caderno (a FUVEST junta os dois dias até 2025; a Unicamp traz as questões repetidas entre cadernos). Procure a questão certa pelo número e confira se o enunciado resumido no documento bate com o do caderno.
 
 **Formato do lote.** O mesmo arquivo do lote leva as questões e as respostas:

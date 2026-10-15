@@ -24,7 +24,7 @@
           "texto": "Transcreva o trecho do texto 2 que traduz o sentimento da Laerte em relação ao quadro, após a visita ao Museu Paulista. Como esse sentimento se reflete na releitura que faz do quadro?"
         }
       ],
-      "observacoes": ""
+      "observacoes": "A resposta oficial traz “ao, mesmo” (item a) e “em contraste com ato da ‘Independência’” (item b), como no original."
     },
     {
       "numero": 2,
@@ -60,7 +60,7 @@
           "texto": "Relacione o trecho acima com a crítica institucional que o romance realiza, comentando o episódio central do desfecho."
         }
       ],
-      "observacoes": ""
+      "observacoes": "O enunciado grafa “Pompeia” e o item a, “Pompéia”; mantido como no caderno."
     },
     {
       "numero": 5,
@@ -137,6 +137,44 @@
         }
       ],
       "observacoes": ""
+    },
+    {
+      "numero": 9,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Após analisar os resultados de um exame, o médico faz um breve resumo para sua paciente:\n\n— “O resultado do seu HDL foi de 55 mg/dL e seu LDL foi de 135 mg/dL”.\n— “E isso é ruim ou bom, doutor?”, pergunta a paciente.\n— “No seu caso, considerando que você é uma mulher que tem 20 anos, e que seu índice de massa corporal (IMC) é de $30\\ \\text{kg/m}^2$, o limite utilizado como referência para HDL é de aproximadamente 40 mg/dL, e para o LDL é de 100 mg/dL”, responde o médico.\n\nEm relação a este diálogo fictício, responda às questões a seguir.\n\n**Dado:** O IMC é uma métrica adotada pela OMS para classificar questões de saúde relacionadas ao peso, tais como desnutrição e obesidade. O resultado do cálculo indica a faixa em que o indivíduo se encontra, considerando-se a classificação ao lado.\n\n| Classificação | IMC |\n|---|---|\n| Abaixo do peso | $< 18{,}5\\ \\text{kg/m}^2$ |\n| Peso normal | $18{,}5 \\text{ a } 24{,}9\\ \\text{kg/m}^2$ |\n| Acima do peso | $25{,}0 \\text{ a } 29{,}9\\ \\text{kg/m}^2$ |\n| Obesidade grau I | $30{,}0 \\text{ a } 34{,}9\\ \\text{kg/m}^2$ |\n| Obesidade grau II | $35{,}0 \\text{ a } 39{,}9\\ \\text{kg/m}^2$ |\n| Obesidade grau III | $> 40\\ \\text{kg/m}^2$ |",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Que tipo de exame o médico está comentando com sua paciente? Descreva o significado das siglas HDL e LDL, e aponte o órgão responsável por remover o HDL e o LDL do organismo."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando que a dieta desta paciente é majoritariamente composta por proteínas, lipídios e açúcares, que dieta o médico deveria recomendar-lhe tendo em vista os resultados de seu exame e de seu IMC? Justifique sua resposta."
+        }
+      ],
+      "observacoes": "O quadro “Dado” e a tabela de IMC aparecem no caderno depois dos itens; foram colocados no fim do enunciado, pois valem para a questão toda."
+    },
+    {
+      "numero": 10,
+      "materia": "fisica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "A energia eólica tem sido apontada como uma das principais alternativas para a geração de energia limpa. No Brasil, esta fonte de energia representa aproximadamente 10% da matriz energética do país. A potência $P$ gerada num parque eólico depende da velocidade do ar, $\\nu$, e da área total de pás dos aerogeradores no parque, $A$, de forma que\n\n$$P = \\frac{1}{2}\\,\\rho A \\nu^{3},$$\n\nonde $\\rho$ representa a densidade do ar.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considere dois locais possíveis para a instalação de um parque eólico: o local A, onde a velocidade média do vento é de 7,5 m/s, comportando 10 aerogeradores com 3 pás de 60 m de comprimento cada; e o local B, onde a velocidade média do vento é de 6,0 m/s, comportando 10 aerogeradores com 3 pás, no mesmo formato dos aerogeradores do local A, porém com 75 m de comprimento cada. Com o objetivo de obter maior potência energética, qual dos dois locais você indicaria? Explique sua escolha."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A figura ao lado mostra a quantidade de estudos relativos aos impactos da geração de energia eólica e de combustíveis fósseis. Considerando que a quantidade de publicações científicas reflete o impacto dos problemas causados ao meio ambiente, aponte três desvantagens ambientais da geração de energia eólica, dispondo-as em ordem de relevância, sendo 1 a mais importante e 3 a menos importante. Explique como essas desvantagens impactam o meio ambiente.\n\n![Gráfico de barras empilhadas do número de publicações científicas, de 0 a 80, sobre energia eólica e combustíveis fósseis em três categorias: mortalidade, fragmentação e perda de habitat, e poluição sonora; legenda: pássaros e morcegos, ungulados, humanos e outros mamíferos, plantas, anfíbios e répteis](fig:p16-c1)\n\n(Figura modificada a partir de JONES et al., BioScience, vol. 65, 2015.)"
+        }
+      ],
+      "observacoes": ""
     }
   ],
   "respostas": {
@@ -180,6 +218,18 @@
       "itens": {
         "a": "Tanto o texto A quanto o B citam o aumento do nível do mar como um efeito do aquecimento global, o que também tem impactado fenômenos extremos, como os furacões. A placa maior, na charge, contém a seguinte afirmação: “mudança climática é uma farsa”; isso evidencia uma contradição em relação a outros elementos da imagem que ratificam a existência e os efeitos de mudanças climáticas, como a representação da inundação, e o próprio enunciado de uma das personagens que explicitamente menciona o aumento dos oceanos.",
         "b": "Uma condição do oceano que leva à formação de furacões é a temperatura da água do mar, que deve estar acima de 27 °C; uma condição da atmosfera é o fato de que furacões ocorrem em zonas de baixa pressão atmosférica.\n\nDe acordo com o texto, as comunidades podem se tornar mais resilientes frente a fenômenos climáticos extremos a partir de medidas <u>individuais</u>, tais como: os residentes podem comprar seguros contra enchentes; podem se preparar para uma tempestade reforçando suas janelas, limpando o terreno para descartar possíveis detritos e tendo um plano de evacuação. Além disso, pode-se tomar medidas <u>coletivas</u>, como preservar pântanos, dunas e recifes para absorver o impacto de tempestades; reabastecer praias e melhorar a infraestrutura da proteção costeira."
+      }
+    },
+    "9": {
+      "itens": {
+        "a": "Trata-se de um exame de sangue. As siglas HDL e LDL se referem à taxa de colesterol no sangue, representando colesterol “bom” e “ruim”, respectivamente. Especificamente, HDL e LDL significam lipoproteína de alta e baixa densidade, respectivamente, na língua inglesa. O órgão que elimina essas substâncias no nosso organismo é o fígado.",
+        "b": "De acordo com a tabela, o IMC da paciente equivale a sobrepeso ou obesidade grau I. Pelas informações do texto, conclui-se que é necessário abaixar o LDL para, pelo menos, < 100 mg/dL, o que pode ser atingido diminuindo o consumo de lipídios (gorduras) e açúcares. Também é desejável aumentar ou pelo menos manter o HDL acima do limiar 40 mg/dL; para isso, é necessária uma dieta moderada de proteínas, ou com o consumo de alimentos ricos em fibras, como vegetais."
+      }
+    },
+    "10": {
+      "itens": {
+        "a": "O local A é o mais indicado, pois tem a maior velocidade média. Pela equação dada, a potência depende linearmente da área, mas aumenta com a velocidade ao cubo. Embora não seja possível calcular explicitamente a área total das pás (pois o enunciado informa que as pás nos dois locais têm o mesmo formato, mas não diz qual é o formato), a área dependeria, no máximo, do comprimento das pás ao quadrado. Logo, a velocidade é mais relevante para atingir a maior potência gerada no parque eólico.",
+        "b": "De acordo com o gráfico, as principais desvantagens ambientais da geração eólica são, em ordem de relevância: mortalidade, fragmentação e perda de habitat, e poluição sonora. Todas essas desvantagens podem afetar diretamente processos ecossistêmicos. A mortalidade causa a redução das espécies atingidas (principalmente pássaros e morcegos) e, no seu limite, pode levar à extinção de espécies. A fragmentação e perda de habitat leva a mudanças na polinização e predação de insetos, e dispersão das sementes que gera a migração da biodiversidade. Já a poluição sonora causada pelo movimento das pás afeta a comunicação de diversos animais (principalmente humanos e outros mamíferos) que dependem do som para se comunicar; no caso dos seres humanos, a poluição sonora ainda afeta a qualidade de vida, podendo inclusive aumentar o estresse."
       }
     }
   }
