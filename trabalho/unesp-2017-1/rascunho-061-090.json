@@ -1,0 +1,465 @@
+{
+  "edicao": "unesp-2017-1",
+  "textos_base": {
+    "t72-73": "Leia o texto para responder às questões 72 e 73.\n\nO gluconato de cálcio (massa molar = 430 g/mol) é um medicamento destinado principalmente ao tratamento da deficiência de cálcio. Na forma de solução injetável 10%, ou seja, 100 mg/mL, este medicamento é destinado ao tratamento da hipocalcemia aguda.\n\n(www.medicinanet.com.br. Adaptado.)\n\n![Fotografia de uma ampola de vidro de solução injetável de gluconato de cálcio 10%](fig:p28-f1)\n\n(www.hospitalardistribuidora.com.br)\n\n![Fórmula estrutural do gluconato de cálcio: dois ânions gluconato e um cátion Ca²⁺](fig:p28-c1)",
+    "t74-75": "Leia o texto para responder às questões 74 e 75.\n\nO estireno, matéria-prima indispensável para a produção do poliestireno, é obtido industrialmente pela desidrogenação catalítica do etilbenzeno, que se dá por meio do seguinte equilíbrio químico:\n\n![Equação química: etilbenzeno (g) em equilíbrio, com catalisador, com estireno (g) + H₂ (g), ΔH = 121 kJ/mol](fig:p28-c2)"
+  },
+  "questoes": [
+    {
+      "numero": 61,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O quadro apresenta alguns dos sinais clínicos que ajudam a distinguir os casos de dengue, de zika e de chikungunya.\n\n![Quadro “Variações sutis” com sintomas (febre, manchas vermelhas na pele, dor nos músculos, dor nas articulações, inchaço nas articulações, conjuntivite, cefaleia, coceira, hipertrofia dos gânglios, tendência a sangramento e acometimento neurológico) e suas variações na dengue, na zika e na chikungunya](fig:p23-f1)\n\n(*Pesquisa Fapesp*, janeiro de 2016. Adaptado.)\n\nAs diferenças no quadro clínico de cada uma dessas doenças devem-se",
+      "alternativas": {
+        "A": "às características dos diferentes vetores dos agentes causadores da dengue, da zika e da chikungunya.",
+        "B": "às características e estratégias infecciosas dos diferentes agentes causadores da dengue, da zika e da chikungunya.",
+        "C": "às características climáticas das diferentes regiões geográficas onde ocorrem a dengue, a zika e a chikungunya.",
+        "D": "aos diferentes modos de transmissão dos agentes causadores da dengue, da zika e da chikungunya.",
+        "E": "às diferenças na resposta imunológica dos infectados em resposta ao mesmo agente causador da dengue, da zika e da chikungunya."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 62,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em uma matéria sobre o papel das plantas na redução da concentração atmosférica dos gases do efeito estufa, consta a seguinte informação:\n\nO vegetal “arranca” o carbono, que é o C do $\\text{CO}_2$, para usar de matéria-prima para o seu tronco, e devolve para a atmosfera o $\\text{O}_2$, ou seja, oxigênio.\n\n(*Superinteressante*, maio de 2016. Adaptado.)\n\nTal informação refere-se à",
+      "alternativas": {
+        "A": "respiração celular e está correta, uma vez que, nas mitocôndrias, o carbono do $\\text{CO}_2$ é disponibilizado para a síntese de tecidos vegetais e o $\\text{O}_2$ é devolvido para a atmosfera.",
+        "B": "fotossíntese e está correta, uma vez que, através desse processo, a planta utiliza o carbono na síntese de seus tecidos, devolvendo para a atmosfera o oxigênio do $\\text{CO}_2$.",
+        "C": "fotossíntese e está incorreta, uma vez que o carbono do $\\text{CO}_2$ é utilizado na síntese de carboidratos que serão consumidos na respiração celular, mas não como matéria-prima do tronco.",
+        "D": "fotossíntese e está incorreta, uma vez que o oxigênio liberado para atmosfera provém da reação de decomposição da água, e não do $\\text{CO}_2$ que a planta capta da atmosfera.",
+        "E": "respiração celular e está incorreta, uma vez que o $\\text{O}_2$ liberado para atmosfera tem origem na quebra de carboidratos na glicólise, da qual também resulta o carbono que irá compor os tecidos vegetais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 63,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "As chamadas Doenças Sexualmente Transmissíveis (DSTs) também são transmitidas por outras vias, além da relação sexual. O quadro apresenta algumas DSTs.\n\n| DST | Agente infeccioso | Sintomas |\n|---|---|---|\n| **Sífilis** | bactéria *Treponema pallidum* | Lesões nos órgãos genitais, na pele e nas mucosas. Pode afetar o sistema nervoso. |\n| **Cancro mole** (cancro venéreo simples, cavalo) | bactéria *Haemophilus ducreyi* | Lesões nos órgãos genitais, mais frequentemente no homem. |\n| **Aids** (síndrome da imunodeficiência adquirida) | vírus da imunodeficiência humana – HIV | Ataque às células do sistema imunitário ocasionando imunodeficiência e infecções oportunistas. |\n| **Gonorreia** (blenorragia) | bactéria *Neisseria gonorrhoeae* | Ardor ao urinar e secreção uretral de cor amarelada. Nos bebês, pode levar à cegueira. |\n| **Condiloma acuminado** (crista de galo, HPV) | papiloma vírus humano – HPV | Lesões em forma de crista nos órgãos genitais. Pode levar ao câncer nos órgãos genitais e no ânus. |\n\nSuponha que Júlio adquiriu uma DST através de transfusão sanguínea, que Paulo adquiriu uma DST ainda no ventre materno e que Adriano teve uma DST que só se adquire por relação sexual.\n\nAs DSTs de Júlio, Paulo e Adriano podem ser, respectivamente,",
+      "alternativas": {
+        "A": "cancro mole, aids e condiloma acuminado.",
+        "B": "condiloma acuminado, gonorreia e sífilis.",
+        "C": "aids, sífilis e cancro mole.",
+        "D": "gonorreia, condiloma acuminado e aids.",
+        "E": "sífilis, cancro mole e gonorreia."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 64,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em cada um dos gráficos A e B, há três curvas, porém apenas uma delas, em cada gráfico, representa corretamente o fenômeno estudado.\n\n![Gráfico A: três curvas, numeradas 1, 2 e 3, da atividade dos lisossomos (eixo vertical, de menos a mais) em função do comprimento relativo da cauda do girino, em % (eixo horizontal, de 100 a 0)](fig:p25-c1)\n\n![Gráfico B: três curvas, numeradas 1, 2 e 3, da atividade dos peroxissomos (eixo vertical, de menos a mais) em função da quantidade relativa de lipídios na semente, em % (eixo horizontal, de 100 a 0)](fig:p25-c2)\n\nNo gráfico A, o fenômeno estudado é a atividade dos lisossomos na regressão da cauda de girinos na metamorfose. No gráfico B, o fenômeno estudado é a atividade dos peroxissomos na conversão dos lipídios em açúcares que serão consumidos durante a germinação das sementes.\n\nA curva que representa corretamente o fenômeno descrito pelo gráfico A e a curva que representa corretamente o fenômeno descrito pelo gráfico B são, respectivamente,",
+      "alternativas": {
+        "A": "1 e 1.",
+        "B": "3 e 3.",
+        "C": "3 e 1.",
+        "D": "1 e 2.",
+        "E": "2 e 2."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 65,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma gimnosperma conhecida como cedrinho (*Cupressus lusitanica*) é uma opção de cerca-viva para quem deseja delimitar o espaço de uma propriedade. Para isso, mudas dessa espécie são plantadas a intervalos regulares. Podas periódicas garantem que o espaço entre as mudas seja preenchido, resultando em uma cerca como a ilustrada na imagem.\n\n![Fotografia de uma cerca-viva de cedrinho, com folhagem verde densa e podada, ao lado de um gramado](fig:p25-f3)\n\n(www.mariplantas.com.br)\n\nPara se obter uma cerca-viva de altura controlada, que crie uma barreira física e visual, deve-se",
+      "alternativas": {
+        "A": "estimular a produção de auxinas pelas gemas laterais das plantas, podando periodicamente a gema apical.",
+        "B": "estimular a produção de auxinas pela gema apical das plantas, podando periodicamente as gemas laterais.",
+        "C": "inibir a produção de auxinas pela gema apical e pelas gemas laterais das plantas, podando periodicamente as gemas laterais e a gema apical.",
+        "D": "inibir a produção de auxinas pela gema apical das plantas, podando periodicamente as gemas laterais.",
+        "E": "inibir a produção de auxinas pelas gemas laterais das plantas, podando periodicamente a gema apical."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 66,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A enxertia consiste em implantar parte de uma planta viva em outra planta de igual ou diferente espécie. A planta introduzida (enxerto) produz folhas, flores e frutos, enquanto a planta receptora (porta-enxerto) capta água e nutrientes do solo.\n\nA figura esquematiza uma das técnicas indicadas para a enxertia entre espécies de hortaliças, tais como pepino, abóbora, melão e melancia.\n\n![Esquema da técnica de enxertia: corte do enxerto, corte do porta-enxerto, colocação de um tubo para fixação do enxerto e inserção do enxerto no tubo de fixação, com as superfícies do enxerto e do porta-enxerto em contato firme](fig:p26-f1)\n\n(Roberta Marins Peil. “A enxertia na produção de mudas de hortaliças”. *Ciência rural*, novembro/dezembro de 2003.)\n\nSuponha que um enxerto de pepino (*Cucumis sativus*) tenha sido introduzido em um porta-enxerto de abóbora (*Cucurbita moschata*).\n\nOs frutos produzidos por essa enxertia serão",
+      "alternativas": {
+        "A": "pepinos cujas sementes darão origem a exemplares de *Cucurbita moschata*.",
+        "B": "híbridos estéreis com características de *Cucumis sativus* e de *Cucurbita moschata*.",
+        "C": "abóboras cujas sementes darão origem a exemplares de *Cucumis sativus*.",
+        "D": "abóboras cujas sementes darão origem a exemplares de *Cucurbita moschata*.",
+        "E": "pepinos cujas sementes darão origem a exemplares de *Cucumis sativus*."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 67,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma professora de Biologia explicava a seus alunos que o daltonismo para a cor verde é determinado por um gene recessivo ligado ao sexo.\n\nPaulo e Luísa, um casal de gêmeos que estudava na mesma sala, disseram que eram daltônicos para a cor verde. A professora perguntou se outras pessoas da família também eram daltônicas e os gêmeos responderam que outras duas pessoas tinham o mesmo tipo de daltonismo. Para descobrir quais eram essas pessoas, a professora fez mais algumas perguntas aos gêmeos e descobriu que eles não tinham outros irmãos, que seus pais eram filhos únicos e que seus avós ainda eram vivos.\n\nAs outras duas pessoas daltônicas da família eram",
+      "alternativas": {
+        "A": "o pai e o avô materno dos gêmeos.",
+        "B": "a mãe e a avó materna dos gêmeos.",
+        "C": "a mãe e a avó paterna dos gêmeos.",
+        "D": "o pai e a mãe dos gêmeos.",
+        "E": "o avô materno e a avó paterna dos gêmeos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 68,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na figura estão representados exemplares de peixes, de aves e de mamíferos.\n\n![Ilustração de dois peixes, um pinguim, uma foca e um golfinho](fig:p26-f2)\n\n(http://biologoemcena.blogspot.com.br)\n\nAs semelhanças de formato dos corpos e dos membros locomotores nos animais representados decorrem",
+      "alternativas": {
+        "A": "da mutação que ocorre nos indivíduos em resposta às exigências adaptativas de ambientes com diferentes características, o que leva à irradiação adaptativa.",
+        "B": "da ação da seleção natural atuando sobre indivíduos em ambientes com diferentes características, o que leva à convergência adaptativa.",
+        "C": "da ação da seleção natural atuando sobre indivíduos em ambientes com as mesmas características, o que leva à convergência adaptativa.",
+        "D": "da mutação que ocorre casualmente em indivíduos que vivem em ambientes com as mesmas características, o que leva à irradiação adaptativa.",
+        "E": "da ação da deriva genética, que permite a fixação de diferentes fenótipos em ambientes com diferentes características, o que leva à convergência adaptativa."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 69,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Analise o quadro 1, que apresenta diferentes soluções aquosas com a mesma concentração em mol/L e à mesma temperatura.\n\nQuadro 1\n\n| Solução | Nome | Fórmula |\n|---|---|---|\n| 1 | nitrato de bário | $\\text{Ba(NO}_3\\text{)}_2$ |\n| 2 | cromato de sódio | $\\text{Na}_2\\text{CrO}_4$ |\n| 3 | nitrato de prata | $\\text{AgNO}_3$ |\n| 4 | nitrato de sódio | $\\text{NaNO}_3$ |\n\nO quadro 2 apresenta o resultado das misturas, de volumes iguais, de cada duas dessas soluções.\n\nQuadro 2\n\n| Mistura | Resultado |\n|---|---|\n| 1 + 2 | formação de precipitado (ppt 1) |\n| 1 + 3 | não ocorre formação de precipitado |\n| 1 + 4 | não ocorre formação de precipitado |\n| 2 + 3 | formação de precipitado (ppt 2) |\n| 2 + 4 | não ocorre formação de precipitado |\n| 3 + 4 | não ocorre formação de precipitado |\n\nDe acordo com essas informações, os precipitados formados, ppt 1 e ppt 2, são, respectivamente,",
+      "alternativas": {
+        "A": "$\\text{BaCrO}_4$ e $\\text{NaNO}_3$",
+        "B": "$\\text{BaCrO}_4$ e $\\text{Ag}_2\\text{CrO}_4$",
+        "C": "$\\text{Ba(NO}_3\\text{)}_2$ e $\\text{AgNO}_3$",
+        "D": "$\\text{Na}_2\\text{CrO}_4$ e $\\text{Ag}_2\\text{CrO}_4$",
+        "E": "$\\text{NaNO}_3$ e $\\text{Ag}_2\\text{CrO}_4$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 70,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "O esquema representa um calorímetro utilizado para a determinação do valor energético dos alimentos.\n\n![Esquema de um calorímetro, com agitador, terminais elétricos (+ e –) para ignição da amostra, termômetro, recipiente termicamente isolado, câmara de reação, água e cápsula contendo a amostra](fig:p27-c1)\n\n(https://quimica2bac.wordpress.com. Adaptado.)\n\nA tabela nutricional de determinado tipo de azeite de oliva traz a seguinte informação: “Uma porção de 13 mL (1 colher de sopa) equivale a 108 kcal.”\n\nConsidere que o calor específico da água seja $1\\ \\text{kcal} \\cdot \\text{kg}^{-1} \\cdot {}^\\circ\\text{C}^{-1}$ e que todo o calor liberado na combustão do azeite seja transferido para a água. Ao serem queimados 2,6 mL desse azeite, em um calorímetro contendo 500 g de água inicialmente a 20,0 °C e à pressão constante, a temperatura da água lida no termômetro deverá atingir a marca de",
+      "alternativas": {
+        "A": "21,6 °C.",
+        "B": "33,2 °C.",
+        "C": "45,2 °C.",
+        "D": "63,2 °C.",
+        "E": "52,0 °C."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 71,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em um experimento, um estudante realizou, nas Condições Ambiente de Temperatura e Pressão (CATP), a eletrólise de uma solução aquosa de ácido sulfúrico, utilizando uma fonte de corrente elétrica contínua de 0,200 A durante 965 s. Sabendo que a constante de Faraday é 96 500 C/mol e que o volume molar de gás nas CATP é 25 000 mL/mol, o volume de $\\text{H}_2$ (*g*) desprendido durante essa eletrólise foi igual a",
+      "alternativas": {
+        "A": "30,0 mL.",
+        "B": "45,0 mL.",
+        "C": "10,0 mL.",
+        "D": "25,0 mL.",
+        "E": "50,0 mL."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 72,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": "t72-73",
+      "enunciado": "O número total de átomos de hidrogênio presentes na estrutura do gluconato de cálcio é",
+      "alternativas": {
+        "A": "14.",
+        "B": "20.",
+        "C": "16.",
+        "D": "10.",
+        "E": "22."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 73,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": "t72-73",
+      "enunciado": "Considere que a constante de Avogadro seja $6{,}0 \\times 10^{23}\\ \\text{mol}^{-1}$ e que uma pessoa receba uma dose de 10 mL de uma solução injetável de gluconato de cálcio a 10%. O número total de íons $\\text{Ca}^{2+}$ que entrará no organismo dessa pessoa após ela receber essa dose será",
+      "alternativas": {
+        "A": "$7{,}1 \\times 10^{22}$.",
+        "B": "$1{,}0 \\times 10^{23}$.",
+        "C": "$5{,}5 \\times 10^{25}$.",
+        "D": "$1{,}4 \\times 10^{21}$.",
+        "E": "$4{,}3 \\times 10^{24}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 74,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": "t74-75",
+      "enunciado": "O etilbenzeno e o estireno",
+      "alternativas": {
+        "A": "são hidrocarbonetos aromáticos.",
+        "B": "apresentam átomos de carbono quaternário.",
+        "C": "são isômeros funcionais.",
+        "D": "apresentam átomos de carbono assimétrico.",
+        "E": "são isômeros de cadeia."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 75,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": "t74-75",
+      "enunciado": "Analisando-se a equação de obtenção do estireno e considerando o princípio de Le Châtelier, é correto afirmar que",
+      "alternativas": {
+        "A": "a entalpia da reação aumenta com o emprego do catalisador.",
+        "B": "a entalpia da reação diminui com o emprego do catalisador.",
+        "C": "o aumento de temperatura favorece a formação de estireno.",
+        "D": "o aumento de pressão não interfere na formação de estireno.",
+        "E": "o aumento de temperatura não interfere na formação de estireno."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 76,
+      "materia": "biologia",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "Analise o quadro, que mostra seis classes de enzimas e os tipos de reações que catalisam.\n\n| Classe de enzima | Tipo de reação que catalisa |\n|---|---|\n| **1.** óxido-redutases | óxido-redução |\n| **2.** transferases | transferência de grupos |\n| **3.** hidrolases | hidrólise |\n| **4.** liases | adição de grupos a duplas ligações ou remoção de grupos, formando dupla ligação |\n| **5.** isomerases | rearranjos intramoleculares |\n| **6.** ligases | condensação de duas moléculas, associada à hidrólise de uma ligação de alta energia (em geral, do ATP) |\n\n(Anita Marzzoco e Bayardo Baptista Torres. *Bioquímica básica*,1999. Adaptado.)\n\nA enzima álcool desidrogenase catalisa a transformação de etanol em acetaldeído e a enzima sacarase catalisa a reação de sacarose com água, produzindo glicose e frutose. Portanto, essas duas enzimas pertencem, respectivamente, às classes",
+      "alternativas": {
+        "A": "6 e 5.",
+        "B": "1 e 3.",
+        "C": "4 e 5.",
+        "D": "1 e 2.",
+        "E": "3 e 6."
+      },
+      "observacoes": "Fonte impressa sem espaço depois da vírgula (“básica,1999”), mantido como no caderno."
+    },
+    {
+      "numero": 77,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em um edifício em construção, João lança para José um objeto amarrado a uma corda inextensível e de massa desprezível, presa no ponto O da parede. O objeto é lançado perpendicularmente à parede e percorre, suspenso no ar, um arco de circunferência de diâmetro igual a 15 m, contido em um plano horizontal e em movimento uniforme, conforme a figura. O ponto O está sobre a mesma reta vertical que passa pelo ponto C, ponto médio do segmento que une João a José. O ângulo $\\theta$, formado entre a corda e o segmento de reta OC, é constante.\n\n![Esquema de um edifício com João e José em janelas de um mesmo andar; O é um ponto da parede acima do ponto C, ponto médio entre João e José; o ângulo θ está entre a corda e o segmento OC; figura fora de escala](fig:p29-f1)\n\nConsiderando $\\text{sen}\\ \\theta = 0{,}6$, $\\text{cos}\\ \\theta = 0{,}8$, $g = 10\\ \\text{m/s}^2$ e desprezando a resistência do ar, a velocidade angular do objeto, em seu movimento de João a José, é igual a",
+      "alternativas": {
+        "A": "1,0 rad/s.",
+        "B": "1,5 rad/s.",
+        "C": "2,5 rad/s.",
+        "D": "2,0 rad/s.",
+        "E": "3,0 rad/s."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 78,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na linha de produção de uma fábrica, uma esteira rolante movimenta-se no sentido indicado na figura 1, e com velocidade constante, transportando caixas de um setor a outro. Para fazer uma inspeção, um funcionário detém uma das caixas, mantendo-a parada diante de si por alguns segundos, mas ainda apoiada na esteira que continua rolando, conforme a figura 2.\n\n![Figura 1: funcionário diante de uma esteira rolante; uma caixa à direita dele, com seta indicando o movimento da caixa para a esquerda](fig:p30-c1)\n\n![Figura 2: funcionário segurando uma caixa parada sobre a esteira; seta indicando o movimento da esteira para a esquerda](fig:p30-c2)\n\nNo intervalo de tempo em que a esteira continua rolando com velocidade constante e a caixa é mantida parada em relação ao funcionário (figura 2), a resultante das forças aplicadas pela esteira sobre a caixa está corretamente representada na alternativa",
+      "alternativas": {
+        "A": "![Alternativa A: caixa com uma seta apontando para cima e para a direita](fig:p30-c9)",
+        "B": "![Alternativa B: caixa com uma seta apontando para cima](fig:p30-c10)",
+        "C": "![Alternativa C: caixa com uma seta apontando para cima e para a esquerda](fig:p30-c11)",
+        "D": "![Alternativa D: caixa com uma seta horizontal apontando para a direita](fig:p30-c12)",
+        "E": "![Alternativa E: caixa com uma seta horizontal apontando para a esquerda](fig:p30-c13)"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 79,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um garoto arremessa uma bola com velocidade inicial inclinada de um ângulo $\\alpha$ com a horizontal. A bola abandona a mão do garoto com energia cinética $E_0$ e percorre uma trajetória parabólica contida em um plano vertical, representada parcialmente na figura.\n\n![Garoto arremessando uma bola, com o ângulo α entre a velocidade inicial e a horizontal, e a trajetória parabólica da bola, representada parcialmente](fig:p30-c8)\n\nDesprezando-se a resistência do ar, a energia cinética da bola no ponto mais alto de sua trajetória é",
+      "alternativas": {
+        "A": "$E_0 \\cdot \\text{sen}\\ \\alpha$",
+        "B": "$E_0 \\cdot \\text{cos}\\ \\alpha$",
+        "C": "$E_0 \\cdot \\text{cos}^2\\ \\alpha$",
+        "D": "$E_0 \\cdot \\text{sen}^2\\ \\alpha$",
+        "E": "$\\dfrac{E_0 \\cdot \\text{sen}^2\\ \\alpha}{2}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 80,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Dentro de uma piscina, um tubo retilíneo luminescente, com 1 m de comprimento, pende, verticalmente, a partir do centro de uma boia circular opaca, de 20 cm de raio. A boia flutua, em equilíbrio, na superfície da água da piscina, como representa a figura.\n\n![Esquema de um tubo vertical de 1 m pendendo do centro de uma boia de raio 20 cm na superfície da água; figura fora de escala](fig:p31-f1)\n\nSabendo que o índice de refração absoluto do ar é 1,00 e que o índice de refração absoluto da água da piscina é 1,25, a parte visível desse tubo, para as pessoas que estiverem fora da piscina, terá comprimento máximo igual a",
+      "alternativas": {
+        "A": "45 cm.",
+        "B": "85 cm.",
+        "C": "15 cm.",
+        "D": "35 cm.",
+        "E": "65 cm."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 81,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Radares são emissores e receptores de ondas de rádio e têm aplicações, por exemplo, na determinação de velocidades de veículos nas ruas e rodovias. Já os sonares são emissores e receptores de ondas sonoras, sendo utilizados no meio aquático para determinação da profundidade dos oceanos, localização de cardumes, dentre outras aplicações.\n\nComparando-se as ondas emitidas pelos radares e pelos sonares, temos que:",
+      "alternativas": {
+        "A": "as ondas emitidas pelos radares são mecânicas e as ondas emitidas pelos sonares são eletromagnéticas.",
+        "B": "ambas as ondas exigem um meio material para se propagarem e, quanto mais denso for esse meio, menores serão suas velocidades de propagação.",
+        "C": "as ondas de rádio têm oscilações longitudinais e as ondas sonoras têm oscilações transversais.",
+        "D": "as frequências de oscilação de ambas as ondas não dependem do meio em que se propagam.",
+        "E": "a velocidade de propagação das ondas dos radares pela atmosfera é menor do que a velocidade de propagação das ondas dos sonares pela água."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 82,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Três esferas puntiformes, eletrizadas com cargas elétricas $q_1 = q_2 = +Q$ e $q_3 = -2Q$, estão fixas e dispostas sobre uma circunferência de raio $r$ e centro C, em uma região onde a constante eletrostática é igual a $k_0$, conforme representado na figura.\n\n![Circunferência de raio r e centro C, com as cargas q₁, q₂ e q₃ sobre ela; q₂ está alinhada verticalmente com q₃ e q₁ está alinhada horizontalmente com q₃](fig:p32-f1)\n\nConsidere $V_C$ o potencial eletrostático e $E_C$ o módulo do campo elétrico no ponto C devido às três cargas. Os valores de $V_C$ e $E_C$ são, respectivamente,",
+      "alternativas": {
+        "A": "zero e $\\dfrac{4 \\cdot k_0 \\cdot Q}{r^2}$",
+        "B": "$\\dfrac{4 \\cdot k_0 \\cdot Q}{r}$ e $\\dfrac{k_0 \\cdot Q}{r^2}$",
+        "C": "zero e zero",
+        "D": "$\\dfrac{2 \\cdot k_0 \\cdot Q}{r}$ e $\\dfrac{2 \\cdot k_0 \\cdot Q}{r^2}$",
+        "E": "zero e $\\dfrac{2 \\cdot k_0 \\cdot Q}{r^2}$"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 83,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um motor elétrico é construído com uma espira retangular feita com um fio de cobre esmaltado semirraspado em uma extremidade e totalmente raspado na outra, apoiada em dois mancais soldados aos polos A e B de uma pilha. Presa a essa espira, uma hélice leve pode girar livremente no sentido horário ou anti-horário. Um ímã é fixo à pilha com um de seus polos magnéticos (X) voltado para cima, criando o campo magnético responsável pela força magnética que atua sobre a espira, conforme ilustrado na figura.\n\n![Esquema de um motor elétrico: espira de fio de cobre com extremidade raspada e extremidade semirraspada, apoiada em dois mancais sobre uma pilha com polos A e B, ímã com polo X voltado para cima, hélice presa à espira e setas indicando os sentidos horário e anti-horário](fig:p32-f2)\n\n(www.feiradeciencias.com.br. Adaptado.)\n\nSe A for um polo ____________, B um polo ____________ e X um polo ____________, dado um impulso inicial na espira, ela mantém-se girando no sentido ____________.\n\nAssinale a alternativa que completa, correta e respectivamente, as lacunas do texto.",
+      "alternativas": {
+        "A": "negativo – positivo – sul – horário",
+        "B": "negativo – positivo – norte – anti-horário",
+        "C": "positivo – negativo – sul – anti-horário",
+        "D": "positivo – negativo – norte – horário",
+        "E": "negativo – positivo – norte – horário"
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 84,
+      "materia": "matematica",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "O hexágono marcado na malha quadriculada sobre a fotografia representa o contorno do câmpus da Unesp de Rio Claro, que é aproximadamente plano.\n\n![Fotografia aérea do câmpus da Unesp de Rio Claro com uma malha quadriculada, em que cada lado de quadrado mede 160 m, e o contorno do câmpus marcado em amarelo](fig:p33-f1)\n\nA área aproximada desse câmpus, em km², é um número pertencente ao intervalo",
+      "alternativas": {
+        "A": "[0,8 ; 1,3[",
+        "B": "[1,8 ; 2,3[",
+        "C": "[2,3 ; 2,8[",
+        "D": "[1,3 ; 1,8[",
+        "E": "[0,3 ; 0,8["
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 85,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Três cubos laranjas idênticos e três cubos azuis idênticos estão equilibrados em duas balanças de pratos, também idênticas, conforme indicam as figuras.\n\n![Balança de pratos em equilíbrio: em um prato, um cubo laranja sobre dois cubos azuis; no outro, uma massa de 2 kg](fig:p33-f3)\n\n![Balança de pratos em equilíbrio: em um prato, um cubo azul e uma massa de 3 kg; no outro, dois cubos laranjas](fig:p33-f2)\n\nA massa de um cubo laranja supera a de um cubo azul em exato",
+      "alternativas": {
+        "A": "1,3 kg.",
+        "B": "1,5 kg.",
+        "C": "1,2 kg.",
+        "D": "1,4 kg.",
+        "E": "1,6 kg."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 86,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma companhia de engenharia de trânsito divulga o índice de lentidão das ruas por ela monitoradas de duas formas distintas, porém equivalentes. Em uma delas, divulga-se a quantidade de quilômetros congestionados e, na outra, a porcentagem de quilômetros congestionados em relação ao total de quilômetros monitorados.\n\nO índice de lentidão divulgado por essa companhia no dia 10 de março foi de 25% e, no mesmo dia e horário de abril, foi de 200 km. Sabe-se que o total de quilômetros monitorados pela companhia aumentou em 10% de março para abril, e que os dois dados divulgados, coincidentemente, representavam uma mesma quantidade de quilômetros congestionados na cidade. Nessas condições, o índice de congestionamento divulgado no dia 10 de abril foi de, aproximadamente,",
+      "alternativas": {
+        "A": "25%.",
+        "B": "23%.",
+        "C": "27%.",
+        "D": "29%.",
+        "E": "20%."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 87,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura indica o empilhamento de três cadeiras idênticas e perfeitamente encaixadas umas nas outras, sendo $h$ a altura da pilha em relação ao chão.\n\n![Fotografia de uma pilha de três cadeiras encaixadas, com a altura h da pilha em relação ao chão e as cotas 44 cm, 3 cm e 48 cm](fig:p34-c1)\n\n(www.habto.com. Adaptado.)\n\nA altura, em relação ao chão, de uma pilha de $n$ cadeiras perfeitamente encaixadas umas nas outras, será igual a 1,4 m se $n$ for igual a",
+      "alternativas": {
+        "A": "14.",
+        "B": "17.",
+        "C": "13.",
+        "D": "15.",
+        "E": "18."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 88,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No universo dos números reais, a equação\n\n$\\dfrac{(x^2 - 13x + 40)(x^2 - 13x + 42)}{\\sqrt{x^2 - 12x + 35}} = 0$ é satisfeita por apenas",
+      "alternativas": {
+        "A": "três números.",
+        "B": "dois números.",
+        "C": "um número.",
+        "D": "quatro números.",
+        "E": "cinco números."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 89,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na figura, o losango FGCE possui dois lados sobrepostos aos do losango ABCD e sua área é igual à área indicada em verde.\n\n![Losango ABCD com o losango FGCE sobreposto a dois de seus lados; a região em verde está indicada](fig:p34-f2)\n\nSe o lado do losango ABCD mede 6 cm, o lado do losango FGCE mede",
+      "alternativas": {
+        "A": "$2\\sqrt{5}$ cm.",
+        "B": "$2\\sqrt{6}$ cm.",
+        "C": "$4\\sqrt{2}$ cm.",
+        "D": "$3\\sqrt{3}$ cm.",
+        "E": "$3\\sqrt{2}$ cm."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 90,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em um jogo de tabuleiro, o jogador desloca seu peão nas casas por meio dos pontos obtidos no lançamento de um par de dados convencionais e não viciados. Se o jogador obtém números diferentes nos dados, ele avança um total de casas igual à soma dos pontos obtidos nos dados, encerrando-se a jogada. Por outro lado, se o jogador obtém números iguais nos dados, ele lança novamente o par de dados e avança seu peão pela soma dos pontos obtidos nos dois lançamentos, encerrando-se a jogada.\n\nA figura a seguir indica a posição do peão no tabuleiro desse jogo antes do início de uma jogada.\n\n![Tabuleiro em linha com casas em sequência, com o peão na casa da esquerda e uma bomba em uma das casas à direita; uma seta indica o sentido do deslocamento](fig:p34-c2)\n\nIniciada a jogada, a probabilidade de que o peão encerre a jogada na casa indicada na figura com a bomba é igual a",
+      "alternativas": {
+        "A": "$\\dfrac{37}{324}$",
+        "B": "$\\dfrac{49}{432}$",
+        "C": "$\\dfrac{23}{144}$",
+        "D": "$\\dfrac{23}{135}$",
+        "E": "$\\dfrac{23}{216}$"
+      },
+      "observacoes": ""
+    }
+  ]
+}

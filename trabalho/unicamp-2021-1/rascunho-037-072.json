@@ -1,0 +1,248 @@
+{
+ "edicao": "unicamp-2021-1",
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 37,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em fevereiro de 2020, a estação meteorológica de Key West, na Flórida (EUA), registrou uma revoada de pássaros migrantes que se assemelhava a uma grande tempestade. Considere uma nuvem de pássaros de forma cilíndrica, de raio $R_0 = 145000\\ \\text{m}$ e altura $h = 100\\ \\text{m}$, e densidade de pássaros $d_p = 6{,}0 \\times 10^{-7}\\ \\text{pássaros/m}^3$. Suponha ainda que cada pássaro tenha massa $m_p = 0{,}5\\ \\text{kg}$ e velocidade $v_0 = 20\\ \\text{m/s}$, todos voando na mesma direção e sentido. Assim, a energia cinética da revoada de pássaros é igual a",
+   "alternativas": {
+    "A": "$3{,}8 \\times 10^{8}\\ \\text{J}$.",
+    "B": "$1{,}9 \\times 10^{7}\\ \\text{J}$.",
+    "C": "$5{,}2 \\times 10^{3}\\ \\text{J}$.",
+    "D": "$1{,}3 \\times 10^{1}\\ \\text{J}$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 38,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um microchip de massa $m = 2{,}0 \\times 10^{-6}\\ \\text{g}$ é composto majoritariamente de silício. Durante um minuto de funcionamento, o circuito elétrico do dispositivo dissipa, na forma térmica, uma quantidade de energia $Q = 0{,}96\\ \\text{mJ}$. Considere que o calor específico do silício é $c_{\\text{Si}} = 800\\ \\text{J/kg}\\,^\\circ\\text{C}$. Caso não houvesse nenhum mecanismo de escoamento de calor para fora do dispositivo, em quanto sua temperatura aumentaria após esse tempo de funcionamento?",
+   "alternativas": {
+    "A": "$4{,}8 \\times 10^{1}\\ ^\\circ\\text{C}$.",
+    "B": "$1{,}6 \\times 10^{2}\\ ^\\circ\\text{C}$.",
+    "C": "$6{,}0 \\times 10^{2}\\ ^\\circ\\text{C}$.",
+    "D": "$1{,}2 \\times 10^{3}\\ ^\\circ\\text{C}$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 39,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A diferença de potencial elétrico, $U$, é proporcional à corrente elétrica, $i$, em um trecho de um circuito elétrico resistivo, com constante de proporcionalidade dada pela resistência equivalente, $R_{\\text{eq}}$, no trecho do circuito. Além disso, no caso de resistores dispostos em série, a resistência equivalente é dada pela soma das resistências $\\left(R_{\\text{eq}} = R_1 + R_2 + ...\\right)$. A corrente elétrica, $i_B$, no trecho $B$ do circuito abaixo é três vezes maior que a corrente elétrica no trecho $A$, ou seja, $i_B/i_A = 3$. Quanto vale a resistência $R_{B2}$?\n\n![circuito elétrico com tensão U = 12 V aplicada a dois trechos em paralelo: o trecho A tem um resistor R_A = 24 ohms e corrente i_A; o trecho B tem dois resistores em série, R_B1 = 6,0 ohms e R_B2, e corrente i_B](fig:p11-f2)",
+   "alternativas": {
+    "A": "$2{,}0\\ \\Omega$.",
+    "B": "$14\\ \\Omega$.",
+    "C": "$18\\ \\Omega$.",
+    "D": "$66\\ \\Omega$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 40,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um dos fatores que determinam a capacidade de armazenamento de dados nos discos *laser* é o comprimento de onda do *laser* usado para gravação e leitura (ver figura abaixo). Isto porque o diâmetro $d$ do feixe *laser* no ponto de leitura no disco é diretamente proporcional ao comprimento de onda, $\\lambda$. No caso do Blu-Ray, usa-se um comprimento de onda na faixa azul (daí o nome, em inglês), que é menor que o do CD e o do DVD. As lentes usadas no leitor de Blu-Ray são tais que vale a relação $d_{\\text{BR}} \\approx 1{,}2\\,\\lambda_{\\text{BR}}$.\n\n![esquema comparando CD, DVD e Blu-Ray: d_CD = 1600 nm, d_DVD = 1100 nm, d_BR = 480 nm, com ondas de comprimentos decrescentes e a indicação λ_CD > λ_DVD > λ_BR](fig:p11-f3)\n\nA partir das informações da figura, conclui-se que a frequência do *laser* usado no leitor Blu-Ray é",
+   "alternativas": {
+    "A": "$3{,}2 \\times 10^{14}\\ \\text{Hz}$.",
+    "B": "$5{,}2 \\times 10^{14}\\ \\text{Hz}$.",
+    "C": "$6{,}2 \\times 10^{14}\\ \\text{Hz}$.",
+    "D": "$7{,}5 \\times 10^{14}\\ \\text{Hz}$."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 41,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O Brasil ardeu em chamas em 2020. Muitas soluções foram propostas, incluindo o uso do “boi bombeiro”, porém nem todas eliminam de fato um dos três componentes que mantêm o fogo: calor, combustível e comburente. A figura a seguir representa três ações de bombeiros para extinguir o fogo.\n\n![três ações de bombeiros: A, retirada de palha em chamas com ferramentas; B, abafamento de fogo em panela sobre fogão com um pano; C, combate a chamas com jato de água de mangueira](fig:p12-c1)\n\nNas alternativas a seguir, o componente ausente no triângulo representa o componente eliminado pela ação dos bombeiros para a extinção do fogo. Assinale a alternativa que apresenta a correlação adequada entre as ações A, B e C e o componente eliminado do triângulo do fogo em cada ação, respectivamente.",
+   "alternativas": {
+    "A": "![Alternativa A](fig:p12-c3)",
+    "B": "![Alternativa B](fig:p12-c7)",
+    "C": "![Alternativa C](fig:p12-c8)",
+    "D": "![Alternativa D](fig:p12-c9)"
+   },
+   "observacoes": "Alternativas são imagens de três triângulos do fogo cada, com os lados rotulados COMBUSTÍVEL, COMBURENTE e CALOR (um deles ausente em cada triângulo)."
+  },
+  {
+   "numero": 42,
+   "materia": "quimica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "É comum encontrarmos, nos supermercados, produtos semelhantes em suas finalidades, porém em quantidades, concentrações de ingredientes e preços bem variados. Imagine três produtos com propriedades desinfetantes, com o mesmo princípio ativo. Os produtos têm as seguintes características:\n**Produto A:** 0,45% (massa/massa) do princípio ativo, conteúdo de 1 L, valor R\\$ 11,90;\n**Produto B:** 0,17% (massa/massa) do princípio ativo, conteúdo de 0,5 L, valor R\\$ 2,49;\n**Produto C:** 0,33% (massa/massa) do princípio ativo, conteúdo de 2 L, valor R\\$ 5,19.\nOs produtos que oferecem a melhor relação custo/benefício seriam, em ordem crescente,",
+   "alternativas": {
+    "A": "A, B, C.",
+    "B": "C, A, B.",
+    "C": "C, B, A.",
+    "D": "B, C, A."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 43,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A calagem é uma prática de manejo do solo que consiste na utilização de calcário para proporcionar às plantas um ambiente de crescimento radicular adequado. Isso diminui a atividade de elementos potencialmente tóxicos em elevadas concentrações (Al e Mn) e favorece a disponibilidade de elementos essenciais (N, P e K) no solo. O gráfico a seguir apresenta o grau de disponibilidade de diversos elementos de acordo com o pH do solo.\n\n![gráfico do grau de disponibilidade em função do pH, de 5,0 a 8,5, com quatro curvas rotuladas A, B, C e D](fig:p12-c2)\n\nConsiderando essas informações e os conhecimentos de química, é correto afirmar que a calagem atua em solos",
+   "alternativas": {
+    "A": "ácidos, aumentando o seu pH; a curva D corresponderia a um elemento essencial.",
+    "B": "básicos, diminuindo o seu pH; a curva A corresponderia a um elemento tóxico.",
+    "C": "básicos, diminuindo o seu pH; a curva C corresponderia a um elemento tóxico.",
+    "D": "ácidos, aumentando o seu pH; a curva B corresponderia a um elemento essencial."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 44,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em 2020, o Brasil foi impactado com a notícia de que muitas pessoas haviam se contaminado ao ingerir cerveja. Como se apurou mais tarde, a bebida havia sido contaminada por dietilenoglicol. O fabricante argumentou que havia comprado monoetilenoglicol, e que o dietilenoglicol chegou ao produto por contaminação ou por engano. A respeito desse episódio, pode-se afirmar que, se o dietilenoglicol, que estava dissolvido em água, fosse utilizado no sistema de",
+   "alternativas": {
+    "A": "resfriamento na linha de produção de cerveja, esse material poderia ser substituído por etanol, mas não por sal de cozinha.",
+    "B": "aquecimento na linha de produção de cerveja, esse material poderia ser substituído por etanol.",
+    "C": "resfriamento na linha de produção de cerveja, esse material poderia ser substituído por sal de cozinha.",
+    "D": "aquecimento na linha de produção de cerveja, esse material poderia ser substituído por etanol, mas não por sal de cozinha."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 45,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "A figura a seguir mostra uma das formas de se contabilizar as tendências no uso de fertilizantes por hectare e por tonelada de grão em uma fazenda no Brasil em determinado período. A partir desse tipo de informação pode-se saber, por exemplo, como a prática agrícola de um sistema de cultivo está influenciando o uso de nutrientes e a produtividade do solo para o cultivo.\n\n![gráfico de duas retas ao longo dos anos de 2004 a 2009: fertilizante NPK em kg/ha (eixo esquerdo, azul), crescente, e fertilizante NPK em kg/t de grão (eixo direito, vermelho), decrescente](fig:p13-c2)\n\nConsiderando o caso representado pela figura, pode-se concluir que o sistema de cultivo adotado está influenciando",
+   "alternativas": {
+    "A": "positivamente o uso dos fertilizantes, aumentando a produtividade de grãos por hectare.",
+    "B": "negativamente o uso dos fertilizantes, diminuindo a produtividade de grãos por hectare.",
+    "C": "positivamente o uso dos fertilizantes, diminuindo a produtividade de grãos por hectare.",
+    "D": "negativamente o uso dos fertilizantes, aumentando a produtividade de grãos por hectare."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 46,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A remoção de sulfeto de hidrogênio presente em amostras de biogás é essencial, já que ele é altamente corrosivo para tubulações metálicas. A queima desse $\\text{H}_2\\text{S}$ também é muito prejudicial ao meio ambiente, pois leva à formação de dióxido de enxofre. Um estudo de 2014 sugere que a remoção do $\\text{H}_2\\text{S}$ pode ser realizada pelo uso de esponjas de óxido de ferro, que reage com esse gás, mas pode ser regenerado. Segundo o estudo, no dispositivo utilizado, 1,00 kg de óxido de ferro foi capaz de remover entre 0,200 e 0,716 kg de sulfeto de hidrogênio. Considere que apenas a reação abaixo equacionada esteja ocorrendo nessa remoção.\n\n$$\\text{Fe}_2\\text{O}_3\\text{(s)}\\ +\\ 3\\ \\text{H}_2\\text{S(g)} \\rightarrow \\text{Fe}_2\\text{S}_3\\text{(s)}\\ +\\ 3\\ \\text{H}_2\\text{O(l)}$$\n\nA partir desses dados, pode-se afirmar que, na condição de remoção máxima de sulfeto de hidrogênio relatada no estudo,\n\nMassas molares ($\\text{g mol}^{-1}$): Fe = 56, H = 1, O = 16 e S = 32.",
+   "alternativas": {
+    "A": "restaram cerca de 33% de óxido de ferro para reagir, tomando por base a estequiometria da equação química fornecida.",
+    "B": "restaram cerca de 67% de óxido de ferro para reagir, tomando por base a estequiometria da equação química fornecida.",
+    "C": "foi removida uma quantidade maior de $\\text{H}_2\\text{S}$ que a prevista pela estequiometria da equação química fornecida.",
+    "D": "as quantidades reagiram na proporção estequiométrica da equação química fornecida."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 47,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Hospital Municipal de Juruti (PA) recebe mais de 70 cilindros de oxigênio para tratar pacientes com Covid-19” (*site* G1, 01/06/2020). A oxigenoterapia é indicada para todos os pacientes graves, inicialmente variando de 5 a 10 L de $\\text{O}_2$/min. Para uma vazão constante e máxima na faixa considerada, o cilindro de cada paciente deverá, necessariamente, ser trocado após aproximadamente\n\nDados: volume interno do cilindro = 50 L; volume aproximado do gás a 1 atm de pressão em cada cilindro = 10 m³; pressão inicial no cilindro = ~200 atm.",
+   "alternativas": {
+    "A": "17 horas de uso, sendo o volume de gás restante no cilindro igual a 50 L e a pressão 1 atm.",
+    "B": "33 horas de uso, sendo o volume de gás restante no cilindro igual a 50 L e a pressão 0 atm.",
+    "C": "33 horas de uso, sendo o volume de gás restante no cilindro igual a 0 L e a pressão 0 atm.",
+    "D": "17 horas de uso, sendo o volume de gás restante no cilindro igual a 0 L e a pressão 1 atm."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 48,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um estudo científico desenvolveu um novo concreto ecológico capaz de alcançar uma emissão de $\\text{CO}_2$ a um nível abaixo de zero. Esse material é composto de uma mistura especial à base de um silicato duplo de cálcio, em vez de cimento. Além de sua produção apresentar baixa emissão de $\\text{CO}_2$, o endurecimento do concreto ocorre pela absorção de $\\text{CO}_2$. Esse processo de endurecimento, apesar de lento quando realizado na atmosfera, pode ser acelerado ao se capturar o gás numa usina térmica de energia, por exemplo. Também observou-se que a absorção de $\\text{NO}_x$ e $\\text{SO}_x$ pode diminuir a absorção de $\\text{CO}_2$.\n\n![gráfico de barras da emissão de CO₂ em kg CO₂/m³: concreto convencional, 439; novo concreto ecológico, emissão de 182 e absorção de CO₂ de −195](fig:p14-c1)\n\n(Adaptado de I. Yoshioka e outros. *Energy Procedia* 37, 2013, 6018-6025.)\n\nDe acordo com o estudo, comparando-se o balanço final de $\\text{CO}_2$ entre o concreto comum e o novo concreto ecológico, após o processo de cura haveria uma diferença no $\\text{CO}_2$ de cerca de",
+   "alternativas": {
+    "A": "452 kg por metro cúbico de concreto. Testes com $\\text{NO}_x$ e $\\text{SO}_x$ foram realizados, pois esses gases podem compor o gás utilizado na produção do cimento.",
+    "B": "452 kg por metro cúbico de concreto. Testes com $\\text{NO}_x$ e $\\text{SO}_x$ foram realizados, pois esses gases podem compor o gás utilizado no processo de endurecimento.",
+    "C": "257 kg por metro cúbico de concreto. Testes com $\\text{NO}_x$ e $\\text{SO}_x$ foram realizados, pois esses gases podem compor o gás utilizado no processo de endurecimento.",
+    "D": "257 kg por metro cúbico de concreto. Testes com $\\text{NO}_x$ e $\\text{SO}_x$ foram realizados, pois esses gases podem compor o gás utilizado na produção do cimento."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 49,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A doença de Huntington, que é progressiva e degenerativa do sistema nervoso central, compromete significativamente a capacidade motora e cognitiva.\nO heredograma a seguir representa o padrão de herança entre os indivíduos, sendo os indivíduos doentes representados em preto, e os indivíduos não doentes, em branco. Homens são representados pelos quadrados e mulheres, pelos círculos.\n\n![heredograma de três gerações: o casal inicial tem o homem doente e a mulher não doente; a segunda geração tem quatro filhos do casal inicial (mulher doente, homem doente, homem não doente, mulher doente) casados com um homem não doente e um homem doente; a terceira geração tem oito indivíduos, entre doentes e não doentes](fig:p14-f3)\n\nConsiderando as informações apresentadas, é correto afirmar que a doença de Huntington",
+   "alternativas": {
+    "A": "é herdada de forma autossômica dominante.",
+    "B": "é herdada de forma autossômica recessiva.",
+    "C": "apresenta herança ligada ao cromossomo X.",
+    "D": "apresenta herança ligada ao cromossomo Y."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 50,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A dupla fecundação é um processo característico em angiospermas, resultando na formação do zigoto e do núcleo triploide. As sementes com cotilédones, embrião, endosperma e casca são formadas e protegidas no interior dos frutos. Considerando a origem e a ploidia das estruturas citadas, assinale a alternativa correta.",
+   "alternativas": {
+    "A": "O núcleo triploide (3n) é formado pela junção dos núcleos polares com o núcleo espermático.",
+    "B": "O zigoto (2n) é formado a partir dos núcleos polares e da oosfera, oriundos dos sacos embrionário e polínico.",
+    "C": "Os carpelos originam o ovário, que se transforma nos cotilédones (2n) e na casca da semente.",
+    "D": "O endosperma (3n) origina-se do núcleo triploide, formando posteriormente os cotilédones da semente."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 51,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A necrose pancreática infecciosa (NPi) é uma doença viral que causa elevada mortalidade em salmões de água doce e água salgada. Em 2007, descobriu-se que a resistência à doença era hereditária, e as empresas de criação começaram a implementar a seleção familiar. Em 2008, estudos genéticos identificaram um único *locus* no cromossomo 26 que poderia explicar de 80 a 100% da variação na resistência ao vírus da NPi. Desde 2009, a resistência à NPi do salmão pode ser avaliada por marcadores do alelo de resistência. O número de mortes dos salmões em decorrência dos surtos de NPi diminuiu significativamente de 2009 a 2015. O potencial da produção de peixes para alimentar uma crescente população global pode ser aumentado por avanços na genética e na biotecnologia.\n\n(R. D. Houston e outros. *Nature Reviews Genetics*, Londres, v. 21, p. 381-409, abr. 2020.)\n\nConsiderando as informações apresentadas no texto, assinale a alternativa que justifica corretamente a diminuição na mortalidade dos salmões.",
+   "alternativas": {
+    "A": "Por meio da transgenia, o alelo de resistência foi inserido no cromossomo 26 em salmões, sendo gerados organismos geneticamente modificados e mais resistentes.",
+    "B": "Por meio do melhoramento genético, os salmões portadores do alelo de resistência foram selecionados e cruzados entre si, gerando maior proporção de indivíduos resistentes.",
+    "C": "Por meio da seleção natural, os salmões com alelo de resistência foram os mais adaptados a transferir o gene às gerações seguintes por reprodução diferencial.",
+    "D": "Por meio das mutações randômicas, o alelo de resistência foi selecionado por isolamento entre a população de salmão de água doce e de água salgada ao longo do tempo."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 52,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Arbovírus são assim designados porque parte de seu ciclo de replicação ocorre nos insetos; esses vírus podem ser transmitidos aos seres humanos. O Ministério da Saúde alertou para o controle das arboviroses e o risco de epidemias sazonais no Brasil em 2020.\n\nAssinale a alternativa correta.",
+   "alternativas": {
+    "A": "O vírus da febre amarela e o zika vírus podem ser transmitidos pela picada do mosquito *Culex*. Para ambos os casos não existe vacina, sendo considerada profilática a erradicação do inseto vetor e de suas larvas.",
+    "B": "O vírus da dengue e o zika vírus podem ser transmitidos pela picada do mosquito *Aedes aegypti*. A eliminação do inseto vetor e a eliminação dos focos de criação das larvas são medidas profiláticas.",
+    "C": "O vírus da febre amarela e o da chikungunya podem ser transmitidos pela picada do mosquito *Aedes aegypti*. Para ambos os casos, foram desenvolvidas vacinas e o controle do inseto vetor não é considerado uma medida profilática.",
+    "D": "O vírus da chikungunya e o da dengue podem ser transmitidos pela picada do mosquito *Culex*. A erradicação do inseto vetor e a eliminação das larvas são consideradas medidas profiláticas."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 53,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O epitélio nasal e o bronquial apresentam receptores às proteínas virais do novo coronavírus (SARS-CoV-2). A secreção mucosa liberada pelas células das vias respiratórias é importante para a formação de um gel viscoso e lubrificante com grande quantidade de água, que funciona como uma barreira adesiva para muitas partículas e patógenos. Entretanto, há vírus capazes de penetrar essa barreira formada pelo muco.\n\n(W. Sungnak e outros. *Nature Medicine*, Londres, v. 26, p. 681-687, abr. 2020.)\n\nUtilize a figura abaixo e seus conhecimentos de biologia celular para assinalar a alternativa que preenche corretamente as lacunas na frase a seguir.\n\n![esquema de célula caliciforme: núcleo à esquerda, organela (i) ao lado do núcleo com pontos na superfície, organela (ii) formada por pilhas de sacos achatados, vesículas, grânulos de muco e a membrana plasmática à direita](fig:p15-f2)\n\n(Adaptado de A. Pompa e outros. *International Journal of Molecular Sciences*, Basel, v. 18, p. 703, mar. 2017.)\n\nPresente na cavidade nasal, na traqueia e nos brônquios, a célula caliciforme apresenta as organelas (i) __________ e (ii) __________ bem desenvolvidas, as quais são responsáveis pela (iii) __________ e (iv) __________, respectivamente, necessárias para a produção do muco.",
+   "alternativas": {
+    "A": "(i) mitocôndria; (ii) retículo endoplasmático agranular; (iii) síntese de ATP; (iv) detoxificação.",
+    "B": "(i) complexo de Golgi; (ii) retículo endoplasmático granular; (iii) adição de açúcares; (iv) síntese proteica.",
+    "C": "(i) retículo endoplasmático agranular; (ii) mitocôndria; (iii) detoxificação; (iv) síntese de ATP.",
+    "D": "(i) retículo endoplasmático granular; (ii) complexo de Golgi; (iii) síntese proteica; (iv) adição de açúcares."
+   },
+   "observacoes": ""
+  }
+ ]
+}
