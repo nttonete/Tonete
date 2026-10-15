@@ -1,0 +1,25 @@
+{
+  "edicao": "unicamp-2026-2-cbs",
+  "intervalo": [1, 18],
+  "textos_base": {},
+  "questoes_corrigidas": [],
+  "respostas_corrigidas": {},
+  "complementos": {
+    "7": {"assunto": "Fisiologia humana"},
+    "8": {"assunto": "Ecologia"},
+    "9": {"assunto": "Ecologia"},
+    "10": {"assunto": "Fisiologia humana"},
+    "11": {"assunto": "Evolução"},
+    "12": {"assunto": "Biotecnologia"},
+    "13": {"assunto": "Genética"}
+  },
+  "relatorio": [
+    {"numero": 7, "status": "ok", "notas": "Enunciado, itens, fonte (e-cigs/vapes/pods em itálico; et al. sem itálico no original) e resposta da banca (r04-r05) conferidos com as imagens."},
+    {"numero": 8, "status": "ok", "notas": "Figura p10-c1 completa (rótulos 1 a 4, Transporte, Infiltração, Absorção de plantas, Lençol freático); campo de resolução do item a transcrito como tabela; resposta (r05) confere."},
+    {"numero": 9, "status": "ok", "notas": "Gráficos A e B (p11-c1) completos, com eixos, unidades e legenda; itálicos de Lemna/Ceratophyllum/Hydrobiologia conferidos; resposta (r05) confere, inclusive Lemna em itálico."},
+    {"numero": 10, "status": "ok", "notas": "Enunciado e referência dupla (ZHENG; PEREIRA e BERRY) conferidos; resposta (r05-r06) confere."},
+    {"numero": 11, "status": "ok", "notas": "Itens e fonte conferidos; resposta (r06) confere."},
+    {"numero": 12, "status": "ok", "notas": "Gráfico p14-c1 completo; et al. em itálico nesta referência, como no original; resposta (r06) confere, O2 e CO2 com subscrito."},
+    {"numero": 13, "status": "ok", "notas": "CPS1 em itálico só onde é o gene (item a), como no original; resposta (r07) confere."}
+  ]
+}
