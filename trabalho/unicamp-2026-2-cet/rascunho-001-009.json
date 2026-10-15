@@ -1,0 +1,232 @@
+{
+ "edicao": "unicamp-2026-2-cet",
+ "intervalo": [
+  1,
+  9
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 1,
+   "materia": "historia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "Em 1571, a fundação de Manila pelos espanhóis mudou o ritmo do comércio global. O assentamento logo se tornou uma metrópole e um importante ponto de conexão entre a Ásia e as Américas. Os bens, como especiarias e seda, começaram a se mover pelo Pacífico sem passar primeiro pela Europa. A prata era um dos bens que não pagava tributos nessa rota. A mina de Potosí, nos Andes, na atual Bolívia, mostrou ser a maior descoberta de jazida de prata da história, respondendo por mais da metade da produção global durante mais de um século. Mas não foi só na Europa que a fase áurea despontou. Grandes programas de construções foram empreendidos pelo mundo otomano, dos Bálcãs ao Norte da África. Na Índia, construíram o Taj Mahal, o monumento mais romântico do mundo. A glória da Europa e da Índia ocorreu às custas das Américas.\n\n(Adaptado de FRANKOPAN, P. *O coração do mundo: uma nova história universal a partir da rota da seda*, o encontro do Oriente com o Ocidente. São Paulo: Planeta, 2019, p. 261-268.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "As marcações A, B, C, D e E, no mapa ao lado, remetem a localidades mencionadas no texto, que são importantes para a compreensão do contexto descrito no século XVI. Identifique, para cada letra, no espaço de resposta, as seguintes localidades: Calicute, Istambul, Manila, Madri e Potosí. Em seguida, responda: por que Manila tornou-se estratégica para o comércio da prata pelos espanhóis? Exemplifique como o ritmo do comércio global se alterou depois de sua fundação.\n\n![Mapa-múndi com cinco pontos marcados pelas letras A, B, C, D e E](fig:p03-f2)\n\n*Campo de resolução:*\n\n| | |\n|---|---|\n| A | |\n| B | |\n| C | |\n| D | |\n| E | |"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique a afirmação de Frankopan de que a \"glória da Europa e da Índia ocorreu às custas das Américas”, relacionando-a com o início da globalização dos mercados."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 2,
+   "materia": "sociologia",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "O Brasil enfrenta novo cenário de violência em instituições de ensino, marcado por uma escalada nos casos de agressões na comunidade escolar e pelos ataques a essas instituições. Dados da Secretaria da Educação do Estado de São Paulo mostram que, entre 2019 e 2023, o número de ocorrências relacionadas ao sofrimento psíquico de alunos da rede estadual pulou de 117 para 3,1 mil. Outros dados referentes a essa violência são apresentados nos gráficos ao lado:\n\n![Dois gráficos: \"Violências no ambiente escolar\" (pessoas atendidas em serviços públicos e privados de saúde com lesões autoprovocadas, vítimas de agressões físicas e verbais, de 2013 a 2023) e \"Ataques em escolas do Brasil\" (casos por ano, de 2001 a 2024; fonte: Observadh, Governo Federal)](fig:p04-c1)\n\n(Adaptado de QUEIROZ, C. “Violência escolar aumenta nos últimos dez anos no Brasil”. In: *Revista Fapesp*. n. 350, S. Paulo: abril de 2025. Disponível em https://revistapesquisa.fapesp.br/violencia-escolar-aumenta-nos-ultimos-10-anos-no-brasil/. Acesso em 15/10/2025.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O crescimento de 117 para 3,1 mil casos de sofrimento psíquico nas escolas paulistas, entre 2019 e 2023, aponta para a existência de um problema a ser discutido pela sociedade. Cite e explique dois exemplos de sofrimento psíquico entre estudantes no ambiente escolar."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Descreva o que os gráficos informam sobre a violência escolar em três períodos (até 2019, 2020–2021 e depois de 2022). O que aconteceu no Brasil nos mesmos períodos? Em seguida, relacione os processos sociais e políticos à evolução dos números apresentados."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 3,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "**Por que você quase sempre vai perder dinheiro com *bets*, segundo a matemática.**\n\n\"Eu conheço uma pessoa que vive só de *bets*\", \"eu vejo muito futebol e quase sempre acerto o vencedor\", \"é só estudar bastante, que você vai conseguir ganhar\". Essas são frases comuns ditas hoje em dia em conversas de bar, redes sociais ou até mesmo em canais de internet dedicados a apostas esportivas. Mas a realidade do mundo das apostas é muito diferente, segundo matemáticos e especialistas que estudam o fenômeno. A grande maioria inevitavelmente vai perder dinheiro se continuar apostando. É só uma questão de tempo.\n\n(Adaptado de GALLAS, D. *BBC News*. 30/11/2024.)\n\nPara entender as *bets*, primeiro é preciso entender o que são as *odds*. As *odds* expressam quanto cada apostador ganhará caso sua aposta seja vencedora e podem ser expressas no formato decimal ou no formato britânico.\n\nUma *odd* britânica de 7|4 indica que, para cada 4 reais apostados, o apostador terá um retorno de 7 reais, além dos 4 reais apostados, em caso de acerto. Ou seja, o retorno total será de 11 reais.\n\nUma *odd* decimal de 2,75 indica que o retorno total será 2,75 vezes o valor apostado. Ou seja: uma aposta de 4 reais que é vencedora com essa *odd* dá um retorno total de 11 reais.\n\nCaso a aposta seja perdedora, o jogador perde todo o valor apostado.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O *site* ComBet apresenta suas *odds* na forma britânica e o site BetCamp apresenta suas *odds* como decimais. Para um mesmo jogo, a *odd* correspondente à vitória de um time é de 5|3 na ComBet e de 1,5 na BetCamp. Qual dos sites está pagando mais pela vitória do time? Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma pessoa fez 10 apostas de 100 reais cada em eventos cujas *odds* decimais são todas iguais a 1,1. Das dez apostas, ganhou em 9. Ela teve lucro ou prejuízo? De quanto? Justifique."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 4,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere o gráfico da parábola $y = x^2/4$, a reta $r$ dada por $y = -1$ e o ponto $A = (0,1)$. Seja $P$ um ponto qualquer da parábola e $Q$ o ponto de interseção da reta r com uma reta perpendicular à reta $r$ que passa pelo ponto $P$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Mostre que a distância entre $P$ e $A$ é igual à distância entre $P$ e $Q$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Encontre o(s) ponto(s) $P$ tais que o triângulo $APQ$ é equilátero."
+    }
+   ],
+   "observacoes": "No enunciado, o caderno escreve \"reta r\" sem itálico na primeira ocorrência de \"interseção da reta r com\"; mantido como impresso (r sem formatação matemática)."
+  },
+  {
+   "numero": 5,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na arquitetura, uma “oval” é uma figura formada por dois pares de arcos de circunferência com raios distintos. Esses arcos se conectam nos pontos de tangência entre as circunferências.\n\n(Adaptado de Oval. *Wikipedia*)\n\n![Foto aérea da Praça de São Pedro e esquema geométrico com quatro circunferências, os pontos A, B, C e D e a oval em vermelho](fig:p07-c1)\n\n(Imagem adaptada de Google Maps. Acesso em 08/09/2025.)\n\nA Praça de São Pedro, no Vaticano, concebida pelo renomado artista italiano Gian Lorenzo Bernini, é um exemplo notável do uso desse formato na arquitetura. As duas circunferências menores têm o mesmo raio, e o mesmo acontece com as duas circunferências maiores. Os centros das duas circunferências menores (pontos B e D) estão situados nos chamados “centro del colonnato”, distam 65 metros um do outro e o centro de uma circunferência está contido na outra circunferência, e vice-versa. Os centros das circunferências maiores (pontos A e C), por sua vez, estão posicionados nas interseções das circunferências menores, conforme ilustrado na imagem. Os centros das quatro circunferências formam um losango ABCD.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Calcule a área do losango ABCD."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Calcule o perímetro da oval (curva em vermelho na imagem)."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 6,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sejam $b$ e $d$ números positivos distintos de 1 e considere o sistema linear nas variáveis $x$ e $y$:\n\n$$\\begin{gathered}(\\log_b 2)x + (\\log_4 b)y = k \\\\ (\\log_d 4)x + (\\log_2 d)y = 0\\end{gathered}$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para $k = 1$, $b = 2$ e $d = 4$, determine $x$ e $y$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para $k = 0$, determine para quais valores de $b$ e $d$ o sistema admite infinitas soluções."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 7,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Dizemos que uma função não-constante $f(x)$ é periódica se existe $T > 0$ tal que $f(x) = f(x + T)$ para todo número $x$ real.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A função $h(x) = \\cos(5x) + \\operatorname{sen}(x/7)$ é periódica? Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A função $p(x) = x^2 - 1$ é periódica? Justifique."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 8,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere $A$ uma matriz 2x2 com entradas reais e denote por Id a matriz identidade 2x2, isto é:\n\n$$\\text{Id} = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}.$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo que todas as entradas de $A$ sejam **números inteiros não negativos**, encontre todas as possibilidades de $A$ de modo que $A^2 = \\text{Id}$. Justifique."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Seja $B$ uma matriz $2 \\times 2$ tal que $B \\cdot \\begin{pmatrix}1\\\\2\\end{pmatrix} = \\begin{pmatrix}0\\\\1\\end{pmatrix}$ e $B \\cdot \\begin{pmatrix}3\\\\1\\end{pmatrix} = \\begin{pmatrix}1\\\\0\\end{pmatrix}$. Calcule $B^{-1} \\cdot \\begin{pmatrix}2\\\\6\\end{pmatrix}$.\n\nNotação: $B^{-1}$ denota a matriz inversa de $B$."
+    }
+   ],
+   "observacoes": "Na resposta oficial do item a, o caderno de respostas escreve \"Se b = 0 ,então\" (espaço antes da vírgula) e \"Como são ambos positivos\" onde o correto seria \"não-negativos\"; mantidos como impressos."
+  },
+  {
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os carros elétricos são veículos movidos por motores elétricos e baterias recarregáveis, eliminando a necessidade de combustíveis fósseis e reduzindo emissões poluentes. Esses veículos têm baixo custo de manutenção e tecnologia avançada. Apesar de desafios como tempo de recarga e infraestrutura limitada, sua popularidade cresce graças a benefícios ambientais e eficiência energética.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A tabela A apresenta a velocidade de um carro nos instantes iniciais de um percurso, em linha reta, em que ele parte do repouso de uma posição $s_0 = 0$.\n\nTabela A\n\n| tempo $t$ (s) | velocidade $v$ (m/s) |\n|---|---|\n| 0 | 0,0 |\n| 3 | 4,5 |\n| 6 | 9,0 |\n| 9 | 13,5 |\n| 12 | 18,0 |\n| 15 | 18,0 |\n\n(i) No gráfico do espaço de respostas, represente todos os dados da tabela;\n(ii) Ainda nesse gráfico, trace uma linha passando pelos pontos que represente a velocidade do carro em função do tempo considerando que a aceleração do carro é constante entre cada par de pontos da tabela;\n(iii) Qual era a posição $s(t)$ do carro em $t = 10$ s?\n\n*Campo de resolução:*\n\n![Gráfico em branco de velocidade (m/s) em função do tempo (s), com eixo vertical de 0 a 18 e eixo horizontal de 0 a 16](fig:p11-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em um teste de segurança para avaliar a resistência da bateria em colisões, um carro elétrico, com velocidade inicial $v_0 = 90$ km/h, colide com um obstáculo, atingindo a parada total ao final do impacto, que tem duração $\\Delta t = 0{,}2$ s. Considerando esses dados:\n(i) Estime um valor razoável para a massa total $m_\\text{T}$ do carro;\n(ii) Calcule o módulo $\\boldsymbol{I}$ do impulso recebido pelo carro até parar;\n(iii) Encontre o módulo $F_\\text{m}$ da força média que atua sobre o carro durante o impacto."
+    }
+   ],
+   "observacoes": "Na resposta oficial do item b, o caderno de respostas rotula como \"ii)\" tanto o cálculo do impulso quanto o da força média (o segundo deveria ser iii)); mantido como impresso. Também mantidos \"500 à 5000 kg\", \"62.5 kN\" e \"(0−15) m/s sobre (0−10) s\" como impressos. A instrução geral do caderno (g ≈ 10 m/s², π ≈ 3) não foi repetida aqui porque nem o enunciado nem a resposta usam g ou π."
+  }
+ ],
+ "respostas": {
+  "1": {
+   "itens": {
+    "a": "A) Potosí; B) Madri; C) Istanbul; D) Calicute e E) Manila.\nManila, nas Filipinas, foi um ponto importantíssimo de conexão entre a Ásia e as Américas, o que alterou profundamente o movimento de circulação de bens e de prata pelo Pacífico. A rota permitiu que a prata extraída de Potosí fosse diretamente trocada por produtos asiáticos, sem a necessidade de passar pela Europa. Conforme o texto, isso gerou uma fase áurea de crescimento da Índia, por meio de um circuito intercontinental que trouxe novo dinamismo para as trocas comerciais mundiais e muito enriquecimento para a Espanha. Esse trajeto transpacífico é considerado um marco do início da globalização dos mercados, pois uniu de forma inédita América, Ásia e Europa.",
+    "b": "A afirmação de Peter Frankopan de que “a glória da Europa e da Índia deu-se às custas das Américas” elucida um processo de integração econômica que está ligado ao início da globalização dos mercados, mas onde o luxo e o florescimento cultural de algumas regiões, como as obras arquitetônicas citadas no excerto, foram financiados pela exploração colonial da América. Como exemplo dessa exploração pode-se apontar que mais da metade da prata no comércio do século XVI advinha das minas de Potosí, nos Andes, atual Bolívia. Esse movimento marca um circuito comercial que estabeleceu pela primeira vez uma rede planetária em que os recursos eram levados à Europa e Ásia, enquanto produtos orientais eram trazidos às regiões colonizadas."
+   }
+  },
+  "2": {
+   "itens": {
+    "a": "Um dos fenômenos que gera violência psíquica em ambiente escolar, dentre outros, é a escalada dos discursos de ódio na sociedade em geral, que se desdobram em uma atmosfera mais competitiva e violenta, submetendo os jovens ao aumento da ansiedade e ao aumento de casos de depressão e automutilação. Também podemos citar a ampliação do uso das redes sociais que, além de amplificar essas mensagens de competição e intimidação, favorecem mediante o funcionamento algorítmico, a formação de discursos mais extremistas que produzem casos de *bullying* e a intimidação perante as diferenças (sejam essas de gênero, corporalidade, religiosas, raciais, de classe etc.). Assim, a escola está impactada e imersa pelo aumento das tensões sociais diversas, desde a misoginia, o racismo e a lgbtfobia, por exemplo, além de absorver de modo intenso os discursos de ódio, as polarizações políticas e os embates expressos nas redes sociais. Podemos citar, ainda, fenômenos como desigualdades sociais, pressões por desempenho, estrutura escolar degradada e fragilidade das políticas públicas de cuidado mental.",
+    "b": "A violência, até 2019, era gradativamente crescente, mas não havia praticamente registro de ataques às escolas. Nos anos de 2020-2021, período afetado pela pandemia de Covid-19, as aulas presenciais foram suspensas em grande parte, com os alunos mais afastados do convívio escolar, sendo que há uma queda nos casos de violência e ataques registrados. A partir de 2022, os dados mostram um aumento acentuado da violência, com recorde de ataques e de sofrimento psíquico, o que pode estar associado ao retorno às aulas, assim como ao agravamento das desigualdades e da violência política na sociedade. O período de polarização política coincide com a ascensão de grupos políticos pró-armas, a diminuição de exigências legais para aquisição e porte de armas de fogo. Houve, ainda, a ampliação do uso das redes sociais e da disseminação de discursos de ódio que tiveram um impacto psicológico prolongado sobre crianças e adolescentes."
+   }
+  },
+  "3": {
+   "itens": {
+    "a": "No site Combet, para uma aposta de valor $x$, o retorno total é de $x + (5/3)x = 8x/3$.\nJá no site BetCamp, para uma aposta no valor de $x$, o retorno total é de $1{,}5x = 3x/2$.\n\nComo $8/3 > 3/2$, o site que paga mais pela vitória é o Combet.",
+    "b": "Como a pessoa ganhou 9 apostas, cada uma de R\\$ 100,00 e uma *odd* de 1,1, o retorno total foi de R\\$ 110,00 por aposta, totalizando R\\$ 990,00. Como o total apostado foi de R\\$ 1.000,00, a pessoa teve um prejuízo de R\\$ 10,00."
+   }
+  },
+  "4": {
+   "itens": {
+    "a": "Sejam $A = (0,1)$, $P = (x, x^2/4)$ e $Q = (x, -1)$.\n\nDados dois pontos $(a,b)$ e $(c,d)$, a distância entre eles é dada por\n\n$$d = \\sqrt{(a-c)^2 + (b-d)^2}.$$\n\nVamos calcular as distâncias entre P e Q, e entre A e P, e mostrar que são iguais.\n\nA distância de P até Q é dada por\n\n$$d(P,Q) = 1 + x^2/4.$$\n\nA distância de A até P é dada por\n\n$$D(A,P) = \\sqrt{(x-0)^2 + (x^2/4 - 1)^2} = \\sqrt{x^2/2 + x^4/16 + 1} = \\sqrt{(x^2/4 + 1)^2} = x^2/4 + 1$$\n\nPortanto, as distâncias são iguais.",
+    "b": "Se o triângulo APQ é equilátero, então o ângulo RAQ mede 60 graus e o ângulo AQR mede 30 graus, conforme ilustrado a seguir, onde $R = (0,-1)$. A distância de A até Q é $d = \\sqrt{4 + x^2}$.\n\n![Esboço da parábola, da reta y = −1 e dos pontos A, P, Q e R, com ângulos de 60°](fig:r03-f1)\n\nAssim, temos que:\n\n$$1/2 = \\operatorname{sen}(30) = 2/\\sqrt{4 + x^2}$$\n\nou seja, $4 + x^2 = 16$ e daí $x = \\pm 2\\sqrt{3}$. Portanto, os pontos são $(2\\sqrt{3}, 3)$ e $(-2\\sqrt{3}, 3)$."
+   }
+  },
+  "5": {
+   "itens": {
+    "a": "A distância entre D e B é o raio das circunferências menores, que mede 65 m. A área do losango ABCD é o dobro da área do triângulo ADB. Assim,\n\n$$A_{ABCD} = 2 \\cdot A_{ABD} = \\frac{2r^2\\sqrt{3}}{4} = \\frac{65^2\\sqrt{3}}{2} = \\frac{4225\\sqrt{3}}{2} \\approx 2112{,}5 \\cdot \\sqrt{3}\\,.$$",
+    "b": "O perímetro é obtido percorrendo alguns trechos das circunferências menores e alguns trechos das circunferências maiores. Se $R$ é o raio da circunferência maior e $r$ o raio da circunferência menor (note que $R = 2r$), temos que:\n\n$$p = 2\\left(\\frac{2\\pi r}{6} + \\frac{2\\pi R}{6} + \\frac{2\\pi r}{6}\\right) = \\frac{520\\pi}{3} \\approx 173{,}3 \\cdot \\pi.$$"
+   }
+  },
+  "6": {
+   "itens": {
+    "a": "Para $k = 1$, $b = 2$ e $d = 4$, obtemos o sistema\n\n$$\\begin{gathered}(\\log_2 2)x + (\\log_4 2)y = k, \\\\ (\\log_4 4)x + (\\log_2 4)y = 0,\\end{gathered}$$\n\nou seja,\n\n$$\\begin{gathered}x + (1/2)y = 1, \\\\ x + 2y = 0.\\end{gathered}$$\n\nResolvendo o sistema, obtemos $x = 4/3$ e $y = -2/3$.",
+    "b": "Para $k = 0$ obtemos o sistema homogêneo\n\n$$\\begin{gathered}(\\log_b 2)x + (\\log_4 b)y = 0, \\\\ (\\log_d 4)x + (\\log_2 d)y = 0.\\end{gathered}$$\n\nDa primeira equação obtemos\n\n$$x = -(\\log_4 b)y/(\\log_b 2).$$\n\nSubstituindo na segunda equação, temos:\n\n$$-(\\log_d 4) \\cdot y(\\log_4 b)/(\\log_b 2) + (\\log_2 d)y = 0.$$\n\nPortanto,\n\n$$y\\left(-(\\log_d 4)(\\log_4 b)/(\\log_b 2) + (\\log_2 d)\\right) = 0$$\n\nO sistema terá infinitas soluções caso o coeficiente de $y$ seja igual a zero. Portanto, precisamos que\n\n$$-(\\log_d 4)(\\log_4 b)/(\\log_b 2) + (\\log_2 d) = 0,$$\n\no que nos dá\n\n$$(\\log_d 4)(\\log_4 b) = (\\log_b 2)(\\log_2 d).$$\n\nPassando todos os logaritmos para o logaritmo natural (base $e$), obtemos\n\n$$\\frac{\\ln(4)}{\\ln(d)} \\cdot \\frac{\\ln(b)}{\\ln(4)} = \\frac{\\ln(d)}{\\ln(2)} \\cdot \\frac{\\ln(2)}{\\ln(b)},$$\n\no que nos dá\n\n$$(\\ln(b))^2 = (\\ln(d))^2$$\n\nou\n\n$$\\left(\\frac{\\ln(b)}{\\ln(d)}\\right)^2 = 1.$$\n\nCom isso,\n\n$$\\frac{\\ln(b)}{\\ln(d)} = \\pm 1$$\n\ne\n\n$$b = d \\text{ ou } b = 1/d.$$"
+   }
+  },
+  "7": {
+   "itens": {
+    "a": "A função é periódica. Note que ela é soma de duas funções, $f(x) = \\cos(5x)$ que é uma função periódica de período $2\\pi/5$, e $g(x) = \\sin(x/7)$, que é uma função periódica de período $14\\pi$.\n\nPodemos procurar um $T$ tal que $h(x) = h(x + T)$.\n\n$$\\begin{gathered}\\cos(5(x + T)) = \\cos(5x + 5T) = \\cos(5x)\\cos(5T) - \\sin(5x)\\sin(5T) \\\\ \\sin((x + T)/7) = \\cos(x/7)\\sin(T/7) + \\cos(T/7)\\sin(x/7)\\end{gathered}$$\n\nPara que $h(x + T) = h(x)$, uma possibilidade é termos\n\n$$\\cos(5x + 5T) = \\cos(5x)\\cos(5T) - \\sin(5x)\\sin(5T) = \\cos(5x)$$\n\ne\n\n$$\\cos(x/7)\\sin(T/7) + \\cos(T/7)\\sin(x/7) = \\sin(x/7)$$\n\nPortanto, devemos ter $\\cos(T/7) = 1$ e $\\sin(T/7) = 0$, bem como $\\cos(5T) = 1$ e $\\sin(5T) = 0$.\n\nAnalisando estas equações, obtemos que uma possibilidade é se o período for $T = 14\\pi$, pois\n\n$$h(x + 14\\pi) = \\cos(5x + 70\\pi) + \\sin(x/7 + 2\\pi) = \\cos(5x) + \\sin(x/7) = h(x).$$\n\nPortanto, existe $T > 0$ tal que $h(x) = h(x + T)$ para todo número real $x$.",
+    "b": "A função não é periódica. Note que $p(0) = -1$ e $p(0 + T) = T^2 - 1$. Para que estes valores sejam iguais, devemos ter $-1 = T^2 - 1$, ou seja, $T = 0$. Como o período precisa ser positivo, a função não é periódica."
+   }
+  },
+  "8": {
+   "itens": {
+    "a": "Considere a matriz $A = \\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$. Então\n\n$$A^2 = \\begin{pmatrix}a^2+bc&ab+bd\\\\ca+cd&cb+d^2\\end{pmatrix}.$$\n\nQueremos que\n\n$$\\begin{pmatrix}a^2+bc&ab+bd\\\\ca+cd&cb+d^2\\end{pmatrix} = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}.$$\n\nPortanto:\n$a^2 + bc = 1$,\n$cb + d^2 = 1$,\n$ab + bd = 0$ e\n$ca + cd = 0$.\n\nDa 3ª equação, $b(a + d) = 0$, portanto $b = 0$ ou $a = -d$.\n\nSe $b = 0$ ,então, $a^2 = 1$, $d^2 = 1$. Como são ambos positivos, precisa ser $a = 1$ e $d = 1$. Substituindo na última equação, obtemos $c = 0$. Portanto, obtemos a matriz\n\n$$A = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}.$$\n\nPor outro lado, se $a = -d$, como $a, d$ precisam ser não-negativos, temos que $a = d = 0$. Logo, $bc = 1$. Como ambos precisam ser não-negativos, temos que $b = c = 1$. Dessa forma, obtemos a matriz\n\n$$A = \\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}.$$",
+    "b": "Como\n\n$$B \\cdot \\begin{pmatrix}1\\\\2\\end{pmatrix} = \\begin{pmatrix}0\\\\1\\end{pmatrix} \\text{ e } B \\cdot \\begin{pmatrix}3\\\\1\\end{pmatrix} = \\begin{pmatrix}1\\\\0\\end{pmatrix},$$\n\ntemos que:\n\n$$B^{-1} \\cdot B \\cdot \\begin{pmatrix}1\\\\2\\end{pmatrix} = B^{-1} \\cdot \\begin{pmatrix}0\\\\1\\end{pmatrix} \\text{ e } B^{-1} \\cdot B \\cdot \\begin{pmatrix}3\\\\1\\end{pmatrix} = B^{-1} \\cdot \\begin{pmatrix}1\\\\0\\end{pmatrix},$$\n\nou seja,\n\n$$\\begin{pmatrix}1\\\\2\\end{pmatrix} = B^{-1} \\cdot \\begin{pmatrix}0\\\\1\\end{pmatrix} \\text{ e } \\begin{pmatrix}3\\\\1\\end{pmatrix} = B^{-1} \\cdot \\begin{pmatrix}1\\\\0\\end{pmatrix}.$$\n\nPortanto,\n\n$$B^{-1} \\cdot \\begin{pmatrix}2\\\\6\\end{pmatrix} = B^{-1} \\cdot \\left[\\begin{pmatrix}0\\\\6\\end{pmatrix} + \\begin{pmatrix}2\\\\0\\end{pmatrix}\\right] = 6 \\cdot B^{-1} \\cdot \\begin{pmatrix}0\\\\1\\end{pmatrix} + 2 \\cdot B^{-1} \\cdot \\begin{pmatrix}1\\\\0\\end{pmatrix} = 6\\begin{pmatrix}1\\\\2\\end{pmatrix} + 2\\begin{pmatrix}3\\\\1\\end{pmatrix} = \\begin{pmatrix}12\\\\14\\end{pmatrix}.$$"
+   }
+  },
+  "9": {
+   "itens": {
+    "a": "![Gráfico de velocidade (m/s) em função do tempo (s), com os pontos da tabela ligados por segmentos e um ponto adicional em t = 10 s](fig:r06-f2)\n\nA Aceleração na região entre 0 e 10 s: $a = \\frac{(0-15)\\ \\text{m/s}}{(0-10)\\ \\text{s}} = 1{,}5\\ \\text{m/s}^2$\n\n$s(t) = s_0 + v_0 t + \\frac{1}{2}at^2 = \\frac{1}{2}(1{,}5\\ \\text{m/s}^2) \\times (10\\ \\text{s})^2 = 75\\ \\text{m}$ (ponto para $t = 10$ s foi adicionado ao gráfico)",
+    "b": "i) $m_T = 500$ à 5000 kg\n\nii)\n$p = mv$ e $I = \\Delta p = mv_f - mv_i$\n\n$90\\ \\text{km/h} = 25\\ \\text{m/s}$\n\n$|I| = |m_T v_f - m_T v_i| = m_T|0 - 25\\ \\text{m/s}| = m_T 25\\ \\text{m/s}$\n\n$m_T = 500\\ \\text{kg} \\rightarrow |I| = m_T 25\\ \\text{m/s} = 500\\ \\text{kg}\\ 25\\ \\text{m/s} = 12500\\ \\text{Ns}$\n\n$m_T = 5000\\ \\text{kg} \\rightarrow |I| = m_T 25\\ \\text{m/s} = 5000\\ \\text{kg}\\ 25\\ \\text{m/s} = 125000\\ \\text{Ns}$\n\nii)\n$|I| = |F| \\times \\Delta t \\rightarrow |F| = \\frac{|I|}{\\Delta t}$\n\n$m_T = 500\\ \\text{kg} \\rightarrow \\frac{12500\\ \\text{Ns}}{0{,}2\\ \\text{s}} = 62500\\ \\text{N} = 62.5\\ \\text{kN}$\n\n$m_T = 5000\\ \\text{kg} \\rightarrow \\frac{125000\\ \\text{Ns}}{0{,}2\\ \\text{s}} = 625000\\ \\text{N} = 625\\ \\text{kN}$"
+   }
+  }
+ }
+}
