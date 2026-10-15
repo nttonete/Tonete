@@ -863,7 +863,7 @@
    "anulada": false,
    "gabarito": "C",
    "assunto": "Energia e trabalho",
-   "resolucao": "Potência é energia por unidade de tempo, então $\\Delta t = \\frac{E}{P}$.\n\n$\\Delta t = \\frac{7{,}2\\times10^6\\ \\text{J}}{2\\times10^3\\ \\text{W}} = 3{,}6\\times10^3\\ \\text{s} = 3600\\ \\text{s}$, que é 1 hora.\n\nO valor de 144 s aparece para quem esquece de converter o prefixo mega ($10^6$) ou o quilo ($10^3$) de forma consistente.\n\n**Resposta: C**",
+   "resolucao": "Potência é energia por unidade de tempo, então $\\Delta t = \\frac{E}{P}$.\n\n$\\Delta t = \\frac{7{,}2\\times10^6\\ \\text{J}}{2\\times10^3\\ \\text{W}} = 3{,}6\\times10^3\\ \\text{s} = 3600\\ \\text{s}$, que é 1 hora.\n\nCuidado com os prefixos: mega vale $10^6$ e quilo vale $10^3$.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -882,7 +882,7 @@
    "anulada": false,
    "gabarito": "A",
    "assunto": "Termologia",
-   "resolucao": "A energia elétrica deve ser igual ao calor sensível absorvido pela água: $Q = m c \\Delta T$.\n\nMassa: $500\\ \\text{L} \\times 1{,}0\\ \\text{kg/L} = 500\\ \\text{kg}$; variação de temperatura: $47 - 20 = 27\\ ^\\circ\\text{C}$.\n\n$Q = 500 \\cdot 4{,}0 \\cdot 27 = 54\\,000\\ \\text{kJ} = 5{,}4\\times10^7\\ \\text{J}$.\n\nEm kWh: $\\frac{5{,}4\\times10^7}{3{,}6\\times10^6} = 15\\ \\text{kWh}$.\n\nA alternativa 54.000 kWh é a armadilha de quem não converte kJ para kWh.\n\n**Resposta: A**",
+   "resolucao": "A energia elétrica deve ser igual ao calor sensível absorvido pela água: $Q = m c \\Delta T$.\n\nMassa: $500\\ \\text{L} \\times 1{,}0\\ \\text{kg/L} = 500\\ \\text{kg}$; variação de temperatura: $47 - 20 = 27\\ ^\\circ\\text{C}$.\n\n$Q = 500 \\cdot 4{,}0 \\cdot 27 = 54\\,000\\ \\text{kJ} = 5{,}4\\times10^7\\ \\text{J}$.\n\nEm kWh: $\\frac{5{,}4\\times10^7}{3{,}6\\times10^6} = 15\\ \\text{kWh}$. A alternativa 54.000 kWh é a armadilha de quem não converte kJ para kWh.\n\n**Resposta: A**",
    "revisao": "ok"
   },
   {
@@ -1054,7 +1054,7 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "assunto": "Primeira República",
+   "assunto": "História da América",
    "resolucao": "O texto mostra a força do movimento operário em São Paulo, Chile e Argentina entre 1917 e 1921, com greves por salário e contra o custo dos alimentos. Na América Latina, esse movimento tinha traços próprios: forte presença anarquista (anarcossindicalismo), muitos imigrantes e pautas imediatas como salário, jornada e carestia.\n\nA (A) erra porque as lideranças do período eram principalmente anarquistas, não marxistas, e mobilizavam muito. A (B) erra porque o fortalecimento veio da urbanização e da industrialização, não da ruralização. A (C) inventa uma colaboração repressiva entre os Estados latino-americanos que o texto não menciona.\n\n**Resposta: D**",
    "revisao": "ok"
   },
@@ -1092,8 +1092,8 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "assunto": "Guerra Fria",
-   "resolucao": "Os punhos erguidos com luva preta de Tommie Smith e John Carlos, em 1968, ficaram conhecidos como saudação do *Black Power*, símbolo associado ao movimento negro radical, cujo grupo mais conhecido era o Partido dos Panteras Negras, que admitia a autodefesa armada contra a violência racial.\n\nPor isso a banca associa o gesto aos Panteras Negras (C), e não à linha pacifista de Martin Luther King (A).\n\nA (B) é absurda (a Ku Klux Klan é racista e antinegra). Na (D), o Comitê Olímpico Internacional não apoiou o protesto: puniu os atletas, que foram expulsos dos Jogos.\n\n**Resposta: C**",
+   "assunto": "História da América",
+   "resolucao": "Os punhos erguidos com luva preta de Tommie Smith e John Carlos, em 1968, ficaram conhecidos como saudação do *Black Power*, símbolo associado ao movimento negro radical, cujo grupo mais conhecido era o Partido dos Panteras Negras, que admitia a autodefesa armada contra a violência racial.\n\nPor isso a banca associa o gesto aos Panteras Negras (C), e não à linha pacifista de Martin Luther King (A).\n\nA (B) é absurda (a Ku Klux Klan é racista e antinegra). Na (D), o Comitê Olímpico Internacional não apoiou o protesto: pressionou para que os atletas fossem afastados da equipe e da Vila Olímpica.\n\n**Resposta: C**",
    "revisao": "ok"
   },
   {
@@ -1151,7 +1151,7 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "assunto": "Brasil Império",
+   "assunto": "História da América",
    "resolucao": "A Revolução do Haiti (1791-1804), feita por escravizados, criou medo entre as elites escravistas das Américas (o chamado \"haitianismo\"). No Brasil, esse temor influenciou a dura repressão a revoltas escravas, como a Revolta dos Malês, em Salvador (1835), num Império que buscava se afirmar como Estado reconhecido internacionalmente.\n\nA (C) é a distratora mais tentadora: Saint-Domingue era o maior produtor mundial de açúcar e café, não de cacau. A (B) erra ao dizer que as religiões afro foram eliminadas (o vodu persiste no Haiti). A (D) erra porque o Haiti não teve apoio de outras colônias e o imperialismo europeu continuou.\n\n**Resposta: A**",
    "revisao": "ok"
   },
@@ -1189,7 +1189,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Cada seta indica um modo de troca de calor; basta olhar de onde ela sai e para onde vai.\n1: seta do corpo do cão para o chão em que ele está sentado, contato direto entre sólidos: **condução**.\n2: seta que sai da boca/língua do cão: perda de calor pela **evaporação** da saliva.\n3: seta curva no ar sobre o cão, representando o ar aquecido que circula: **convecção**.\n4: seta ondulada que vem do Sol até o cão: **radiação**.\n5: seta ondulada que sai do corpo do cão para o ambiente: **radiação** (infravermelho emitido pelo corpo quente).\nA sequência é condução, evaporação, convecção, radiação e radiação. A alternativa D troca 2 e 5, mas a evaporação acontece na língua, de onde parte a seta 2.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q62",
@@ -1208,7 +1210,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Energia e trabalho",
+   "resolucao": "Siga o esquema do aquecedor até a torre de transmissão.\nTransformação química: só a **combustão** no aquecedor (o combustível queima). Transformações físicas: a água **vaporiza** na caldeira e o vapor **condensa** no condensador, ou seja, duas.\nTipos de energia envolvidos: química (combustível), térmica (vapor), cinética/mecânica (turbina) e elétrica (gerador). São pelo menos três.\nAssim: uma transformação química, duas físicas e pelo menos três tipos de energia. As alternativas com \"duas transformações químicas\" erram ao tratar a mudança de estado da água como reação química.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q63",
@@ -1225,7 +1229,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Termologia",
+   "resolucao": "Enquanto há gelo e água em equilíbrio, o calor recebido é usado na mudança de estado (calor latente), e a temperatura fica constante em 0 °C.\nA água é uma exceção: o gelo é menos denso que a água líquida (por isso os icebergs flutuam). A mesma massa ocupa menos volume depois de derreter.\nLogo, a temperatura permanece constante e o volume do sistema diminui. A alternativa A seria verdadeira para a maioria das substâncias, mas não para a água.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q64",
@@ -1233,7 +1239,7 @@
    "materia": "quimica",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "O livro *O Pequeno Príncipe*, de Antoine de Saint-Exupéry, uma das obras literárias mais traduzidas no mundo, traz ilustrações inspiradas na experiência do autor como aviador no norte da África. Uma delas, a figura (a), parece representar um chapéu ou um elefante engolido por uma jiboia, dependendo de quem a interpreta.\n\n![Figura a: desenho de um chapéu e, abaixo, de um elefante engolido por uma jiboia. Figura b: diagrama de entalpia em função da coordenada da reação, com curva de duas elevações e linha tracejada no nível dos reagentes](fig:p20-c1)\n\nPara um químico, no entanto, essa figura pode se assemelhar a um diagrama de entalpia, em função da coordenada da reação (figura b). Se a comparação for válida, a variação de entalpia dessa reação seria",
+   "enunciado": "O livro *O Pequeno Príncipe*, de Antoine de Saint-Exupéry, uma das obras literárias mais traduzidas no mundo, traz ilustrações inspiradas na experiência do autor como aviador no norte da África. Uma delas, a figura (a), parece representar um chapéu ou um elefante engolido por uma jiboia, dependendo de quem a interpreta.\n\n![Figura a: desenho de um chapéu e, abaixo, de um elefante engolido por uma jiboia. Figura b: diagrama de entalpia em função da coordenada da reação, com uma curva de duas elevações que começa e termina na altura de uma linha tracejada horizontal](fig:p20-c1)\n\nPara um químico, no entanto, essa figura pode se assemelhar a um diagrama de entalpia, em função da coordenada da reação (figura b). Se a comparação for válida, a variação de entalpia dessa reação seria",
    "alternativas": {
     "A": "praticamente nula, com a formação de dois produtos.",
     "B": "altamente exotérmica, com a formação de dois produtos.",
@@ -1242,7 +1248,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "Na figura b, a curva começa e termina na mesma altura (a linha tracejada): a entalpia dos produtos é praticamente igual à dos reagentes, então $\\Delta H \\approx 0$.\nAs duas elevações correspondem a dois estados de transição, isto é, a uma reação em **duas etapas** com um intermediário no \"vale\" entre elas.\nO diagrama mostra energia em função do caminho da reação; ele não informa quantas espécies formam o produto. Por isso não se pode concluir que se formam \"dois produtos\".\nAs alternativas B e C erram ao dizer que a reação é exotérmica, e A confunde as duas etapas com dois produtos.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2018-1-q65",
@@ -1252,14 +1260,16 @@
    "texto_base": null,
    "enunciado": "Em 12 de maio de 2017 o Metrô de São Paulo trocou 240 metros de trilhos de uma de suas linhas, numa operação feita de madrugada, em apenas três horas. Na solda entre o trilho novo e o usado empregou-se uma reação química denominada térmita, que permite a obtenção de uma temperatura local de cerca de 2.000 °C. A reação utilizada foi entre um óxido de ferro e o alumínio metálico. De acordo com essas informações, uma possível equação termoquímica do processo utilizado seria",
    "alternativas": {
-    "A": "$\\text{Fe}_2\\text{O}_3 + 2\\text{Al} \\longrightarrow 2\\text{Fe} + \\text{Al}_2\\text{O}_3\\ ;\\ \\Delta\\text{H} = +\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$",
-    "B": "$\\text{FeO}_3 + \\text{Al} \\longrightarrow \\text{Fe} + \\text{AlO}_3\\ ;\\ \\Delta\\text{H} = -\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$",
-    "C": "$\\text{FeO}_3 + \\text{Al} \\longrightarrow \\text{Fe} + \\text{AlO}_3\\ ;\\ \\Delta\\text{H} = +\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$",
-    "D": "$\\text{Fe}_2\\text{O}_3 + 2\\text{Al} \\longrightarrow 2\\text{Fe} + \\text{Al}_2\\text{O}_3\\ ;\\ \\Delta\\text{H} = -\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$"
+    "A": "$\\text{Fe}_2\\text{O}_3 + 2\\text{Al} \\longrightarrow 2\\text{Fe} + \\text{Al}_2\\text{O}_3\\ ;\\ \\Delta\\text{H} = +\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$.",
+    "B": "$\\text{FeO}_3 + \\text{Al} \\longrightarrow \\text{Fe} + \\text{AlO}_3\\ ;\\ \\Delta\\text{H} = -\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$.",
+    "C": "$\\text{FeO}_3 + \\text{Al} \\longrightarrow \\text{Fe} + \\text{AlO}_3\\ ;\\ \\Delta\\text{H} = +\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$.",
+    "D": "$\\text{Fe}_2\\text{O}_3 + 2\\text{Al} \\longrightarrow 2\\text{Fe} + \\text{Al}_2\\text{O}_3\\ ;\\ \\Delta\\text{H} = -\\,852\\ \\text{kJ}{\\cdot}\\text{mol}^{-1}$."
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "resolucao": "A térmita é a reação entre óxido de ferro(III) e alumínio, que libera muito calor (atinge cerca de 2.000 °C), portanto $\\Delta H < 0$.\nAs fórmulas precisam respeitar as valências: ferro(III) e oxigênio formam $\\text{Fe}_2\\text{O}_3$, e o alumínio (3+) forma $\\text{Al}_2\\text{O}_3$. \"$\\text{FeO}_3$\" e \"$\\text{AlO}_3$\" não existem.\nEquação balanceada: $\\text{Fe}_2\\text{O}_3 + 2\\,\\text{Al} \\longrightarrow 2\\,\\text{Fe} + \\text{Al}_2\\text{O}_3$ (2 Fe, 2 Al e 3 O de cada lado), com $\\Delta H$ negativo.\nA alternativa A tem a equação certa, mas $\\Delta H$ positivo, o que indicaria absorção de calor.\n\n**Resposta: D**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2018-1-q66",
@@ -1276,7 +1286,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "resolucao": "Compare o antes e o depois de cada espécie.\nA glicose tem um grupo aldeído ($-\\text{CHO}$) que vira ácido carboxílico ($-\\text{COOH}$) no ácido glucônico: ganha oxigênio, o carbono aumenta seu número de oxidação. A glicose **se oxida**.\nO ferro passa de $\\text{Fe(CN)}_6^{3-}$ (ferro +3) para $\\text{Fe(CN)}_6^{4-}$ (ferro +2): ganha elétron, ou seja, **se reduz**.\nEm toda reação redox uma espécie se oxida enquanto outra se reduz, o que já descarta as alternativas C e D.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q67",
@@ -1293,7 +1305,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Química orgânica",
+   "resolucao": "Divida a massa média da molécula do polímero pela massa de um monômero.\nMassa do monômero $\\text{C}_5\\text{H}_8$: $5 \\cdot 12 + 8 \\cdot 1 = 68$ Da.\nMassa do polímero: $1.310\\ \\text{kDa} = 1.310.000$ Da.\nNúmero de monômeros: $\\dfrac{1.310.000}{68} \\approx 19.300$, ou seja, cerca de 19.000 monômeros por molécula.\nA alternativa A (19) aparece se a pessoa esquecer de converter kDa em Da.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q68",
@@ -1310,7 +1324,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "resolucao": "A reação entre os íons é $\\text{Cu}^{2+} + 2\\,\\text{OH}^- \\longrightarrow \\text{Cu(OH)}_2$: cada cobre consome duas hidroxilas.\nCobre: $\\dfrac{100}{250} = 0{,}4$ mol de $\\text{CuSO}_4\\cdot 5\\text{H}_2\\text{O}$, logo $0{,}4$ mol de $\\text{Cu}^{2+}$.\nHidroxila: $\\dfrac{100}{74} \\approx 1{,}35$ mol de $\\text{Ca(OH)}_2$, que dá $2 \\cdot 1{,}35 = 2{,}7$ mol de $\\text{OH}^-$.\nO cobre precisa de $2 \\cdot 0{,}4 = 0{,}8$ mol de $\\text{OH}^-$. Sobram $2{,}7 - 0{,}8 \\approx 1{,}9$ mol de hidroxila.\nA alternativa B (2,3 mol) esquece que cada $\\text{Cu}^{2+}$ reage com duas hidroxilas ($2{,}7 - 0{,}4$).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q69",
@@ -1327,7 +1343,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Equilíbrio químico",
+   "resolucao": "O teste mostra que a calda ácida ataca o ferro da faca (mancha marrom). Para corrigir, adiciona-se mais cal, então a cal precisa **aumentar o pH**: o $\\text{Ca(OH)}_2$ é uma base.\nQuem deixa a calda ácida é o sulfato de cobre(II): o íon $\\text{Cu}^{2+}$ sofre hidrólise, $\\text{Cu}^{2+} + \\text{H}_2\\text{O} \\longrightarrow \\text{Cu(OH)}^+ + \\text{H}^+$, liberando $\\text{H}^+$ e diminuindo o pH.\nO sulfato, ânion de ácido forte, praticamente não sofre hidrólise; por isso a reação com $\\text{SO}_4^{2-}$ (alternativa D) não explica a acidez.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q70",
@@ -1344,7 +1362,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Geologia e relevo",
+   "resolucao": "Siga o trajeto de oeste para leste e elimine os relevos que não ficam na Rússia.\nSaindo de Moscou, a ferrovia cruza a Planície Russa (ou do Leste Europeu) e transpõe os Montes Urais, limite entre Europa e Ásia. Depois segue pela Sibéria, pela borda sul do Planalto Central Siberiano, e, no Extremo Oriente, pela região do Planalto de Aldan, até chegar a Vladivostok.\nAs outras alternativas citam relevos de fora da Rússia: Planalto da Anatólia (Turquia), Planalto do Decã (Índia) e Planalto dos Bálcãs (sudeste da Europa). Elas também põem as unidades fora da ordem do trajeto.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q71",
@@ -1361,7 +1381,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "No plano nacional, a Escócia votou majoritariamente pela permanência na União Europeia e, após o Brexit, seu governo voltou a defender um novo referendo de independência (o de 2014 tinha sido rejeitado).\nNo plano continental, a saída do bloco ameaça a livre circulação de pessoas, um dos pilares da UE, entre o Reino Unido e os demais países.\nAs alternativas A e B erram ao falar em circulação do euro: o Reino Unido nunca adotou o euro, manteve a libra esterlina. E a alternativa D cita o País de Gales, que votou pela saída.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q72",
@@ -1378,7 +1400,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Questões ambientais",
+   "resolucao": "No Acordo de Paris, cada país define suas próprias metas de redução de emissões (as contribuições nacionalmente determinadas). O acordo é **propositivo**: não há multas nem punições por descumprimento.\nO governo Trump justificou a saída dizendo que o acordo prejudicava a economia americana e que não aceitava compromissos ou controles externos sobre suas fontes poluidoras.\nAs alternativas A e C falam em multas e punições, que o acordo não prevê. A D erra ao chamar a Índia de maior poluidor do planeta (posto da China).\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q73",
@@ -1395,7 +1419,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Indústria",
+   "resolucao": "A crise de Detroit é típica da passagem do fordismo para o **regime de acumulação flexível** (toyotismo), a partir dos anos 1970.\nCom a **liberalização econômica** e a globalização, as montadoras americanas perderam mercado para a concorrência asiática (sobretudo japonesa e depois coreana). Para cortar custos, transferiram fábricas para **outros países** (México, Ásia), com mão de obra mais barata.\nO resultado foi desemprego, perda de população e falência da cidade. A alternativa B descreve justamente o período de auge de Detroit (fordismo), não a sua crise.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q74",
@@ -1403,7 +1429,7 @@
    "materia": "geografia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "![Mapa do Brasil intitulado “Domínio morfoclimático brasileiro”, com uma área hachurada no Nordeste, entre o interior da Bahia, de Pernambuco e do Piauí; escala em km e fonte: Aziz Nacib Ab'Saber](fig:p23-f1)\n\nA figura anterior destaca um domínio natural marcado por especificidades físicas e de ocupação pela população. Assinale a alternativa que indica corretamente as características naturais e humanas predominantes nesse domínio.\n\n(Adaptado de Azis Ab´Saber, *Os domínios de natureza no Brasil*: potencialidades paisagísticas. São Paulo: Ateliêr Editorial, 2003, p. 159.)",
+   "enunciado": "![Mapa do Brasil intitulado “Domínio morfoclimático brasileiro”, com uma área pontilhada que cobre grande parte do interior do Nordeste e se estende até o norte de Minas Gerais; escala em km e fonte: Aziz Nacib Ab'Saber](fig:p23-f1)\n\nA figura anterior destaca um domínio natural marcado por especificidades físicas e de ocupação pela população. Assinale a alternativa que indica corretamente as características naturais e humanas predominantes nesse domínio.\n\n(Adaptado de Azis Ab´Saber, *Os domínios de natureza no Brasil*: potencialidades paisagísticas. São Paulo: Ateliêr Editorial, 2003, p. 159.)",
    "alternativas": {
     "A": "Relevo de Mares de Morro; solos de tipo latossolos; grande concentração da população ao longo dos cursos d’água da região.",
     "B": "Relevo de Altiplanos Basálticos; solos de tipo podzólicos; grande dispersão da população pelos diversos ecossistemas regionais.",
@@ -1412,7 +1438,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Biomas e vegetação",
+   "resolucao": "A área destacada, no interior do Nordeste e no norte de Minas Gerais, é o domínio das **Caatingas** (sertão semiárido).\nAli predominam depressões interplanálticas com relevo residual, morros isolados (inselbergs) e afloramentos rochosos; o clima semiárido limita o intemperismo químico e gera solos rasos e pedregosos, os **litólicos**.\nA ocupação humana é marcada pela dispersão da população pelo sertão, ligada à pecuária extensiva e à agricultura de subsistência.\n\"Mares de morros\" e latossolos (A) descrevem o domínio da Mata Atlântica, e as terras baixas inundáveis (D), o Pantanal.\n\n**Resposta: C**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2018-1-q75",
@@ -1429,7 +1457,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Urbanização",
+   "resolucao": "Em Santa Catarina, a lei estadual criou Regiões Metropolitanas que cobrem praticamente todo o território, inclusive áreas de cidades médias e pequenas sem conurbação nem uma metrópole de fato.\nO processo real de metropolização se concentra em poucas áreas (como Florianópolis e o Vale do Itajaí). A criação de onze RMs serviu mais a interesses políticos, como o acesso a recursos e prestígio regional, do que a critérios técnicos.\nAs alternativas A e C supõem uma metropolização generalizada no estado, o que não ocorre.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q76",
@@ -1446,7 +1476,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Clima",
+   "resolucao": "Leia o climograma em duas partes. A linha de temperatura fica entre cerca de 24 °C e 27 °C o ano todo: temperaturas altas e com pouca amplitude térmica.\nAs barras de chuva são altas de outubro a março e muito baixas de junho a agosto. A temperatura cai um pouco em junho e julho, o que indica um lugar do Hemisfério Sul, onde o verão vai de dezembro a março. As chuvas, portanto, se concentram no verão, e o inverno é seco.\nEsse é o clima **tropical**. O subtropical e o temperado teriam invernos bem mais frios, e o polar, temperaturas baixas.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q77",
@@ -1463,7 +1495,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "O pacote tecnológico do agronegócio, com sementes transgênicas (soja e milho, por exemplo) e uso intenso de agrotóxicos, busca aumentar a produtividade e se expandiu sobretudo nas áreas de fronteira agrícola, como o Cerrado e o sul da Amazônia.\nAs outras alternativas são falsas: a União Europeia tem restrições a transgênicos e a resíduos de agrotóxicos (B); os transgênicos, muitos resistentes a herbicidas, aumentaram o uso de agrotóxicos em vez de substituí-los (C); e o Brasil está entre os maiores consumidores de agrotóxicos do mundo (D).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q78",
@@ -1480,7 +1514,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "O texto define o terrorismo pelo objetivo político: aterrorizar para influenciar, em nome de reivindicações sociais, econômicas ou religiosas. Ele se distingue do crime comum, cujo objetivo principal é o ganho financeiro.\nO terrorismo age tanto dentro de um país (grupos separatistas, ataques internos) quanto no plano internacional.\nAs alternativas C e D invertem os papéis ao atribuir objetivos ideológicos à criminalidade. As alternativas A e C erram ao restringir o terrorismo ao âmbito internacional.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q79",
@@ -1497,7 +1533,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Cartografia",
+   "resolucao": "Divida a grade. São 4 colunas para $54^\\circ - 44^\\circ = 10^\\circ$ de longitude, ou seja, $2{,}5^\\circ$ por coluna, de $54^\\circ$ O (esquerda) até $44^\\circ$ O (direita). São 2 linhas para $25^\\circ - 20^\\circ = 5^\\circ$ de latitude, $2{,}5^\\circ$ por linha.\nO ponto está na 3ª coluna, entre $49^\\circ$ e $46{,}5^\\circ$ O, a pouco mais da metade dela, perto de $47{,}5^\\circ$ O. Portanto, entre $46^\\circ$ e $48^\\circ$ O.\nEle está na linha de baixo, logo abaixo da divisa, por volta de $23^\\circ$ S. Isso exclui as faixas de latitude das alternativas A ($24^\\circ$ a $25^\\circ$) e B ($21^\\circ$ a $22^\\circ$).\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q80",
@@ -1514,7 +1552,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "O mapa mostra muitas usinas no Centro-Oeste (GO, MS, MT), em áreas que eram de Cerrado e foram ocupadas pela expansão da cana.\nA vinhaça é rica em matéria orgânica. Se chega aos rios, alimenta a proliferação de micro-organismos decompositores, que consomem o oxigênio dissolvido e causam a morte dos peixes.\nAs demais estão erradas: no Sudeste, a cana se concentra no interior paulista, e não no Vale do Paraíba, e a vinhaça é usada como fertilizante (B); no Nordeste, as usinas ficam na Zona da Mata litorânea, não no Agreste (C); a destilação não elimina os nutrientes da vinhaça (D).\n\n**Resposta: A**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q81",
@@ -1522,7 +1562,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Os eixos do gráfico a seguir representam duas variáveis, uma delas não identificada no gráfico. Uma curva representa animais endotérmicos e a outra, animais ectotérmicos.\n\n![Gráfico com duas curvas, A e B, e eixo horizontal “Temperatura (ºC)” com marcas em 10, 20, 30 e 40; a curva A desce e depois sobe levemente, e a curva B fica baixa e cresce suavemente](fig:p25-c1)\n\n(Adaptado de KHAN ACADEMY, Endotherms and ectotherms. Disponível em www.khanacademy.org. Acessado em 10/08/17.)\n\nA curva que corretamente se aplica ao ser humano é",
+   "enunciado": "Os eixos do gráfico a seguir representam duas variáveis, uma delas não identificada no gráfico. Uma curva representa animais endotérmicos e a outra, animais ectotérmicos.\n\n![Gráfico com duas curvas, A e B, e eixo horizontal “Temperatura (ºC)” com marcas em 10, 20, 30 e 40; a curva A começa alta, desce até cerca de 28, fica horizontal até cerca de 37 e depois sobe; a curva B fica junto ao eixo horizontal e cresce suavemente](fig:p25-c1)\n\n(Adaptado de KHAN ACADEMY, Endotherms and ectotherms. Disponível em www.khanacademy.org. Acessado em 10/08/17.)\n\nA curva que corretamente se aplica ao ser humano é",
    "alternativas": {
     "A": "a curva A, sendo que o eixo horizontal representa a temperatura externa e o eixo vertical, o consumo de $\\text{O}_2$.",
     "B": "a curva A, sendo que o eixo horizontal representa a temperatura interna e o eixo vertical, o consumo de $\\text{O}_2$.",
@@ -1531,7 +1571,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Fisiologia humana",
+   "resolucao": "O ser humano é **endotérmico**: mantém a temperatura do corpo constante produzindo calor pelo metabolismo.\nQuando a temperatura do ambiente (externa) cai, o corpo aumenta o metabolismo e o consumo de $\\text{O}_2$ para gerar calor. Por isso a curva A desce conforme a temperatura externa sobe, fica estável numa faixa confortável e volta a subir no calor intenso (gasto com resfriamento).\nA curva B é a do ectotérmico, cujo metabolismo é baixo e acompanha a temperatura do ambiente.\nO eixo horizontal não pode ser a temperatura interna (B), porque no endotérmico ela quase não varia.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2018-1-q82",
@@ -1548,7 +1590,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "A pele dos anfíbios é fina, úmida e muito permeável, porque participa da respiração (respiração cutânea): gases passam por ela com facilidade.\nPela mesma via entram poluentes dissolvidos na água e agentes infecciosos, como o fungo quitrídio, responsável pelo declínio de muitas espécies.\nAs outras alternativas são falsas: os pulmões dos anfíbios são simples, e não \"bem desenvolvidos\"; e os predadores ou a ectotermia não explicam a suscetibilidade a contaminação e fungos.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q83",
@@ -1565,7 +1609,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "Os plastídios podem se converter uns nos outros. Se a planta faz muita fotossíntese, mas não cresce nem tem drenos (flores e frutos) para onde enviar os açúcares, o excesso fica armazenado.\nA planta guarda o açúcar como **amido**, e os cloroplastos acumulam tanto amido que passam a funcionar como **amiloplastos**.\nCromoplastos (D) acumulam pigmentos como os carotenoides, o que ocorre no amadurecimento de frutos, e não pelo excesso de fotossíntese. Protoplasto (A) nem é organela, é a célula sem parede.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q84",
@@ -1582,7 +1628,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Sífilis (*Treponema pallidum*), gonorreia (*Neisseria gonorrhoeae*) e clamídia (*Chlamydia trachomatis*) são causadas por **bactérias**, tratadas com antibióticos.\nAs novas diretrizes da OMS responderam à resistência crescente, sobretudo da gonorreia, causada pelo uso excessivo ou inadequado de antibióticos.\nA alternativa C confunde prevenção e tratamento: o preservativo evita a transmissão, mas não cura uma infecção já instalada.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q85",
@@ -1590,7 +1638,7 @@
    "materia": "biologia",
    "materias_extra": [],
    "texto_base": null,
-   "enunciado": "Fósseis do organismo *Spriggina* (em vista dorsal na figura a seguir), que viveu há 550 milhões de anos, foram descobertos nas montanhas de Ediacara, na Austrália. Tais fósseis estão entre os mais antigos vestígios de seres multicelulares já encontrados.\n\n![Ilustração do organismo Spriggina em vista dorsal: corpo alongado e segmentado, com uma região anterior em forma de escudo](fig:p26-f1)\n\n(Fonte: https://museumvictoria.com.au/melbournemuseum/discoverycentre/600-million-years/timeline/ediacaran/spriggina. Acessado em 10/07/2017.)\n\nEsse animal primitivo, cuja classificação desafia os pesquisadores, possui algumas características ainda encontradas na maioria dos animais existentes hoje. Esse animal apresenta",
+   "enunciado": "Fósseis do organismo *Spriggina* (em vista dorsal na figura a seguir), que viveu há 550 milhões de anos, foram descobertos nas montanhas de Ediacara, na Austrália. Tais fósseis estão entre os mais antigos vestígios de seres multicelulares já encontrados.\n\n![Ilustração do organismo Spriggina em vista dorsal: corpo alongado e segmentado, com uma das extremidades arredondada, em forma de escudo](fig:p26-f1)\n\n(Fonte: https://museumvictoria.com.au/melbournemuseum/discoverycentre/600-million-years/timeline/ediacaran/spriggina. Acessado em 10/07/2017.)\n\nEsse animal primitivo, cuja classificação desafia os pesquisadores, possui algumas características ainda encontradas na maioria dos animais existentes hoje. Esse animal apresenta",
    "alternativas": {
     "A": "simetria bilateral, com eixo ântero-posterior bem definido, características não encontradas em cnidários, poríferos e equinodermos.",
     "B": "simetria radial, com eixo dorsoventral bem definido, características não encontradas em cnidários, moluscos e equinodermos.",
@@ -1599,7 +1647,9 @@
    },
    "anulada": false,
    "gabarito": "A",
-   "revisao": "transcrita"
+   "assunto": "Zoologia",
+   "resolucao": "A figura mostra um corpo alongado, com uma extremidade diferenciada (cabeça) e segmentos repetidos dispostos dos dois lados de uma linha central. Isso indica **simetria bilateral** e um **eixo ântero-posterior** bem definido.\nEssas características aparecem na maioria dos animais atuais (bilatérios), mas não em poríferos (sem simetria definida), cnidários (simetria radial) e equinodermos adultos (simetria pentarradial).\nAs alternativas C e D citam os cordados e os moluscos, que são bilaterais. \"Simetria dorsoventral\" nem é um tipo de simetria.\n\n**Resposta: A**",
+   "revisao": "corrigida"
   },
   {
    "id": "unicamp-2018-1-q86",
@@ -1616,7 +1666,9 @@
    },
    "anulada": false,
    "gabarito": "B",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "Vamos às definições:\n(i) **Genoma**: conjunto de toda a informação genética de um organismo.\n(ii) **Gene**: trecho do DNA com instruções para fabricar um produto (RNA ou proteína).\n(iii) **Genótipo**: os alelos que o indivíduo tem em um loco. \"Homozigoto\" é apenas um tipo de genótipo.\n(iv) **Código genético**: a correspondência entre códons e aminoácidos. O tRNA só leva os aminoácidos, não é a correspondência em si.\n\n**Resposta: B**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q87",
@@ -1633,7 +1685,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Genética",
+   "resolucao": "É um caso de **efeito materno**: o tipo de concha do filho depende do genótipo da mãe, isto é, de quem fornece o óvulo.\nA mãe é **Aa**, então toda a prole tem concha **dextrógira**, qualquer que seja o seu próprio genótipo.\nGenótipos do cruzamento $\\text{Aa} \\times \\text{aa}$: $\\frac{1}{2}$ Aa e $\\frac{1}{2}$ aa.\nAssim: Aa dextrógiros $= \\frac{1}{2}$, Aa levógiros $= 0$, aa dextrógiros $= \\frac{1}{2}$, aa levógiros $= 0$.\nA alternativa B seria a resposta se o fenótipo dependesse do genótipo do próprio indivíduo, o que o enunciado nega.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q88",
@@ -1650,7 +1704,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Evolução",
+   "resolucao": "A formação do istmo do Panamá (há cerca de 3 milhões de anos) separou o Caribe (A) do Pacífico (B). Cada população ancestral de camarão-pistola ficou dividida em duas.\nIsoladas, sem fluxo gênico, as duas metades acumularam diferenças até formar espécies distintas: **especiação alopátrica**. Por isso cada espécie de A tem uma espécie-irmã em B.\nO canal do Panamá (A) é uma obra humana do século XX, recente demais para explicar a especiação. As explicações por mutagênicos vulcânicos (B) e pelo asteroide (D) não explicam os pares de espécies-irmãs separados por uma barreira.\n\n**Resposta: C**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q89",
@@ -1667,7 +1723,9 @@
    },
    "anulada": false,
    "gabarito": "D",
-   "revisao": "transcrita"
+   "assunto": "Ecologia",
+   "resolucao": "Metais pesados como chumbo e mercúrio não são eliminados e se acumulam nos tecidos (bioacumulação). Ao longo da cadeia alimentar, a concentração aumenta a cada nível trófico (**biomagnificação**).\nPor isso os maiores teores aparecem nos predadores do topo da teia e nos animais que vivem mais tempo (longevos), como aves de rapina e peixes predadores.\nA alternativa B põe esses animais no \"meio\" da teia, e a C cita o ferro, que é nutriente essencial e não um poluente que se magnifica.\n\n**Resposta: D**",
+   "revisao": "ok"
   },
   {
    "id": "unicamp-2018-1-q90",
@@ -1684,7 +1742,9 @@
    },
    "anulada": false,
    "gabarito": "C",
-   "revisao": "transcrita"
+   "assunto": "Botânica",
+   "resolucao": "As plantas CAM abrem os estômatos à noite e fixam o $\\text{CO}_2$ em ácidos orgânicos, o que economiza água. De dia, com os estômatos fechados, esses ácidos liberam o $\\text{CO}_2$ para o ciclo de Calvin.\nA **fotossíntese** depende de luz (fase clara, que fornece ATP e NADPH, e ciclo de Calvin, que produz açúcar), por isso só ocorre no **período diurno**. A captação noturna de $\\text{CO}_2$ é apenas uma etapa de armazenamento, não é fotossíntese.\nA **respiração** celular ocorre o tempo todo, de dia e de noite, como em qualquer ser vivo.\nA alternativa D é a armadilha: confunde a fixação noturna do $\\text{CO}_2$ com fotossíntese.\n\n**Resposta: C**",
+   "revisao": "ok"
   }
  ]
 }
