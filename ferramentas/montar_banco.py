@@ -21,6 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from gabaritos import ler_gabarito  # noqa: E402
+import conformidade  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 NOMES = {"fuvest": "FUVEST (USP)", "unicamp": "Unicamp", "unesp": "UNESP (VUNESP)"}
@@ -62,6 +63,7 @@ def montar(ed):
     rascunhos = sorted(pasta.glob("rascunho-*.json"))
     if not rascunhos:
         return None
+    terceiros = conformidade.carregar_terceiros()
     textos_base, questoes = {}, {}
     for arq in rascunhos:
         dados = json.loads(arq.read_text())
@@ -93,6 +95,11 @@ def montar(ed):
         for r in rev.get("relatorio", []):
             status[r["numero"]] = {"status": r["status"], "notas": r.get("notas", "")}
 
+    # exclusão definitiva (moderar.py excluir) e texto protegido: a questão não entra no banco
+    fora = json.loads((RAIZ / "dados/provas/indisponiveis.json").read_text()).get(ed["id"], {})
+    for n in [n for n in questoes if str(n) in fora]:
+        del questoes[n]
+
     gab = gabarito_oficial(ed) if ed["tipo"] == "objetiva" else None
     respostas = respostas_discursivas(ed, pasta) if ed["tipo"] == "discursiva" else {}
     saida = []
@@ -115,6 +122,9 @@ def montar(ed):
             item["assunto"] = comp["assunto"]
         if comp.get("resolucao"):
             item["resolucao"] = comp["resolucao"]
+        atrib = conformidade.atribuicoes(terceiros, item["id"])
+        if atrib:
+            item["terceiros"] = atrib
         rev = status.get(n)
         item["revisao"] = rev["status"] if rev else "transcrita"
         if rev and rev["status"] == "atencao":
@@ -134,6 +144,9 @@ def montar(ed):
 
     meta = {k: ed.get(k) for k in ("id", "vestibular", "ano", "fase", "tipo", "versao")}
     meta["nome"] = f"{NOMES[ed['vestibular']]} {ed['ano']} – {ed['fase']}ª fase"
+    # citação da fonte exigida pela banca e link oficial: toda questão sai com eles
+    meta["citacao"] = conformidade.citacao(ed["vestibular"], ed["ano"], ed["fase"])
+    meta["link_oficial"] = ed.get("url_pdf") or conformidade.link_oficial(ed["vestibular"])
     if ed.get("caderno"):
         meta["caderno"] = ed["caderno"]
         meta["nome"] += f" ({ed['caderno']})"
@@ -158,20 +171,29 @@ def indice():
     # questões que dependem de texto protegido ficam fora, mas não impedem a edição de entrar
     fora = json.loads((RAIZ / "dados/provas/indisponiveis.json").read_text())
     edicoes = []
+    moderacao = conformidade.carregar_moderacao()
+    terceiros = conformidade.carregar_terceiros()
     for arq in sorted((RAIZ / "dados/questoes").glob("*.json")):
         d = json.loads(arq.read_text())
         ind = sorted(int(n) for n in fora.get(d["edicao"]["id"], {}))
         if len(d["questoes"]) + len(ind) < esperado[d["edicao"]["id"]]:
             print(f"{d['edicao']['id']}: incompleta ({len(d['questoes'])} de {esperado[d['edicao']['id']]}), fica fora da plataforma")
             continue
+        # questões ocultas (regra de moderação ou conteúdo pendente com o bloqueio ligado) não contam
+        ocultas = conformidade.ocultas_da_edicao(d, moderacao, terceiros)
+        visiveis = [q for q in d["questoes"] if q["numero"] not in ocultas]
+        if not visiveis:
+            print(f"{d['edicao']['id']}: toda oculta, fica fora da plataforma")
+            continue
         materias = {}
-        for q in d["questoes"]:
+        for q in visiveis:
             materias[q["materia"]] = materias.get(q["materia"], 0) + 1
-        validas = [q for q in d["questoes"] if not q.get("anulada")]
+        validas = [q for q in visiveis if not q.get("anulada")]
         edicoes.append({
             **d["edicao"],
             "arquivo": f"dados/questoes/{arq.name}",
-            "total": len(d["questoes"]),
+            "total": len(visiveis),
+            **({"ocultas": ocultas} if ocultas else {}),
             "validas": len(validas),
             "com_resposta": sum(1 for q in validas if q.get("gabarito") or q.get("resposta_oficial")
                                 or any(i.get("resposta_oficial") for i in q.get("itens", []))),
@@ -181,7 +203,8 @@ def indice():
     edicoes.sort(key=lambda e: (e["vestibular"], e["fase"], e["ano"]))
     formatos = json.loads((RAIZ / "dados/provas/formatos.json").read_text())
     formatos.pop("_fonte", None)
-    (RAIZ / "dados/indice.json").write_text(json.dumps({"edicoes": edicoes, "formatos": formatos}, ensure_ascii=False, indent=1))
+    regras = formatos.pop("_regras", {})
+    (RAIZ / "dados/indice.json").write_text(json.dumps({"edicoes": edicoes, "formatos": formatos, "regras": regras}, ensure_ascii=False, indent=1))
     print(f"índice: {len(edicoes)} edições, {sum(e['total'] for e in edicoes)} questões")
 
 

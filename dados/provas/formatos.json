@@ -16,7 +16,18 @@
   "alternativas": 4,
   "datas": "1ª fase em 18/10/2026",
   "resumo": "72 questões com 4 alternativas e 5 horas de prova: 12 de Português e Literatura, 12 de Matemática, 7 de cada uma entre História, Geografia, Física, Química, Biologia e Inglês, e 3 de Filosofia e 3 de Sociologia.",
-  "distribuicao": {"portugues+literatura": 12, "matematica": 12, "historia": 7, "geografia": 7, "filosofia": 3, "sociologia": 3, "fisica": 7, "quimica": 7, "biologia": 7, "ingles": 7},
+  "distribuicao": {
+   "portugues+literatura": 12,
+   "matematica": 12,
+   "historia": 7,
+   "geografia": 7,
+   "filosofia": 3,
+   "sociologia": 3,
+   "fisica": 7,
+   "quimica": 7,
+   "biologia": 7,
+   "ingles": 7
+  },
   "segunda_fase": "Questões dissertativas e redação."
  },
  "unesp": {
@@ -27,5 +38,9 @@
   "datas": "1ª fase de 2027 em 22/11/2026; 2ª fase em 13 e 14/12/2026",
   "resumo": "90 questões de Conhecimentos Gerais com 5 alternativas e 5 horas de prova, no formato das últimas edições. O formato de 2027 será confirmado no edital.",
   "segunda_fase": "Questões discursivas e redação."
+ },
+ "_regras": {
+  "_explicacao": "Regras do simulado. limite_mesma_prova = fração máxima de questões de uma mesma prova original num simulado (A3 do plano de conformidade; 0 desliga).",
+  "limite_mesma_prova": 0.3
  }
 }

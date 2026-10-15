@@ -5,9 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Banca Aberta</title>
 <meta name="description" content="Treine com as questões reais da FUVEST, Unicamp e UNESP dos últimos 10 anos, com gabarito oficial ao final.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+/* Fontes hospedadas aqui (licença OFL, ver app/fontes/LICENCAS.txt): nenhum pedido a servidores de terceiros */
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 500 700; font-display: swap; src: url("app/fontes/bricolage-grotesque-latin-wght-normal.woff2") format("woff2"); }
+@font-face { font-family: "Literata"; font-style: normal; font-weight: 400 600; font-display: swap; src: url("app/fontes/literata-latin-wght-normal.woff2") format("woff2"); }
+@font-face { font-family: "Literata"; font-style: italic; font-weight: 400 600; font-display: swap; src: url("app/fontes/literata-latin-wght-italic.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url("app/fontes/ibm-plex-mono-latin-500-normal.woff2") format("woff2"); }
+</style>
+</head>
+<body>
 <style>
 /* Layout: caderno de prova numa coluna de leitura; no computador, o cartão-resposta fica fixo ao lado */
 :root {
@@ -247,6 +253,20 @@ textarea { width: 100%; min-height: 7rem; padding: .7rem; border: 1px solid var(
 .rodape { max-width: 72rem; margin: 0 auto; padding: 2rem 1rem 3rem; color: var(--tinta-2); font-size: .82rem; border-top: 1px solid var(--linha); }
 .rodape p { margin: 0 0 .4rem; max-width: 60rem; }
 
+/* fonte da questão, páginas legais */
+.fonte { margin: 1rem 0 0; font-size: .82rem; color: var(--tinta-2); border-top: 1px dashed var(--linha); padding-top: .6rem; }
+.fonte a { color: inherit; }
+.terceiros { margin: .3rem 0 0; font-size: .8rem; color: var(--tinta-2); }
+.rodape strong { color: var(--tinta); }
+.rodape-links { display: flex; flex-wrap: wrap; gap: .3rem 1.25rem; }
+button.link { background: none; border: 0; padding: 0; color: var(--caneta); text-decoration: underline; cursor: pointer; font-size: inherit; }
+.pagina-legal { max-width: 46rem; }
+.pagina-legal h1 { font-size: 1.7rem; margin-bottom: .5rem; }
+.pagina-legal h2 { font-size: 1.15rem; margin: 1.6rem 0 .4rem; }
+.pagina-legal p, .pagina-legal li { font-family: var(--f-texto); line-height: 1.6; }
+.pagina-legal ul { padding-left: 1.2rem; }
+.faixa-rascunho { background: var(--aviso-fundo); color: var(--aviso); border: 1px solid var(--aviso); border-radius: 8px; padding: .6rem .9rem; font-weight: 500; margin: 0 0 1.25rem; }
+
 @media (max-width: 40rem) {
   .alt { grid-template-columns: 2rem minmax(0, 1fr); gap: .6rem; padding: .55rem .6rem; }
   .alt .bolha { width: 1.8rem; height: 1.8rem; }
@@ -256,8 +276,7 @@ textarea { width: 100%; min-height: 7rem; padding: .7rem; border: 1px solid var(
   .alt, .grade button, .botao { transition: background-color .12s, border-color .12s; }
 }
 </style>
-</head>
-<body>
+
 <header class="topo">
   <div class="topo-int">
     <button class="marca" id="ir-inicio" type="button"><span class="marca-bolinha" aria-hidden="true"></span>Banca Aberta</button>
@@ -273,11 +292,17 @@ textarea { width: 100%; min-height: 7rem; padding: .7rem; border: 1px solid var(
 </main>
 
 <footer class="rodape">
-  <p>Questões reproduzidas dos cadernos oficiais da FUVEST, da Comvest (Unicamp) e da VUNESP (UNESP), com o gabarito oficial de cada edição. Questões anuladas pela banca aparecem marcadas e não contam no resultado.</p>
-  <p>As respostas das discursivas são as divulgadas pelas bancas, quando divulgadas.</p>
+  <p><strong>Ferramenta de estudo independente.</strong> A Banca Aberta não tem vínculo, parceria nem aprovação da FUVEST/USP, da Comvest/Unicamp, da UNESP ou da VUNESP. Esses nomes aparecem só para identificar a origem de cada questão.</p>
+  <p>Questões reproduzidas dos cadernos oficiais, sempre com a citação da fonte, e o gabarito oficial de cada edição. Questões anuladas pela banca aparecem marcadas e não contam no resultado. As respostas das discursivas são as divulgadas pelas bancas, quando divulgadas.</p>
+  <p>Resultados, notas e relatórios são estimativas para fins de estudo: não são nota oficial, previsão de resultado nem garantia de aprovação.</p>
+  <p class="rodape-links">
+    <button type="button" class="link" data-pagina="direitos">Direitos autorais e remoção de conteúdo</button>
+    <button type="button" class="link" data-pagina="termos">Termos de Uso (rascunho)</button>
+    <button type="button" class="link" data-pagina="privacidade">Política de Privacidade (rascunho)</button>
+  </p>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js"></script>
+<script src="app/vendor/katex.min.js"></script>
 <script src="app/render.js"></script>
 <script src="app/app.js"></script>
 </body>

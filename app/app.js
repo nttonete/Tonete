@@ -77,7 +77,12 @@
   function carregarEdicoes(lista) {
     return Promise.all(lista.map(function (ed) {
       if (estado.cache[ed.id]) return estado.cache[ed.id];
-      return carregarJSON(ed.arquivo).then(function (d) { estado.cache[ed.id] = d; return d; });
+      return carregarJSON(ed.arquivo).then(function (d) {
+        // questões ocultas por moderação ou pendentes de revisão de direitos (ver dados/provas/moderacao.json)
+        if (ed.ocultas && ed.ocultas.length) d.questoes = d.questoes.filter(function (q) { return ed.ocultas.indexOf(q.numero) < 0; });
+        estado.cache[ed.id] = d;
+        return d;
+      });
     }));
   }
   function edicoesFiltradas(filtro) {
@@ -112,6 +117,34 @@
   }
 
   // ---------- montagem das sessões ----------
+  // Regra de conformidade: num simulado, no máximo uma fração (padrão 30%) das questões pode vir
+  // de uma mesma prova original. Vem de dados/provas/formatos.json (_regras.limite_mesma_prova).
+  function tetoMesmaProva(n) {
+    var f = estado.indice && estado.indice.regras && estado.indice.regras.limite_mesma_prova;
+    return f ? Math.max(1, Math.floor(f * n)) : Infinity;
+  }
+  function pegar(grupo, cota, contagem, teto) {
+    var saida = [];
+    embaralhar(grupo).forEach(function (r) {
+      if (saida.length >= cota || (contagem[r.ed] || 0) >= teto) return;
+      contagem[r.ed] = (contagem[r.ed] || 0) + 1;
+      saida.push(r);
+    });
+    return saida;
+  }
+  // completa até n: primeiro respeitando o teto; se faltar prova de outras edições, relaxa o teto
+  function completar(escolhidas, pool, n, contagem, teto) {
+    var usadas = {};
+    escolhidas.forEach(function (r) { usadas[r.ed + r.n] = true; });
+    var resto = embaralhar(pool.filter(function (r) { return !usadas[r.ed + r.n]; }));
+    for (var i = 0; i < resto.length && escolhidas.length < n; i++) {
+      if ((contagem[resto[i].ed] || 0) >= teto) continue;
+      contagem[resto[i].ed] = (contagem[resto[i].ed] || 0) + 1;
+      escolhidas.push(resto[i]); resto[i] = null;
+    }
+    resto.forEach(function (r) { if (r && escolhidas.length < n) escolhidas.push(r); });
+    return escolhidas;
+  }
   // Sorteia n questões mantendo a proporção de matérias do conjunto.
   function sortearProporcional(pool, n) {
     var porMateria = {};
@@ -124,8 +157,9 @@
     var soma = cotas.reduce(function (s, c) { return s + c.base; }, 0);
     cotas.sort(function (a, b) { return b.resto - a.resto; });
     for (var i = 0; soma < n && i < cotas.length; i++, soma++) cotas[i].base++;
-    var escolhidas = [];
-    cotas.forEach(function (c) { escolhidas = escolhidas.concat(embaralhar(porMateria[c.m]).slice(0, c.base)); });
+    var escolhidas = [], contagem = {}, teto = tetoMesmaProva(n);
+    cotas.forEach(function (c) { escolhidas = escolhidas.concat(pegar(porMateria[c.m], c.base, contagem, teto)); });
+    escolhidas = completar(escolhidas, pool, n, contagem, teto);
     escolhidas.sort(function (a, b) {
       return ORDEM_MATERIAS.indexOf(a.materia) - ORDEM_MATERIAS.indexOf(b.materia);
     });
@@ -134,19 +168,15 @@
   // Sorteia respeitando a distribuição oficial do edital ({"portugues+literatura": 12, ...}).
   function sortearComCotas(pool, distribuicao, n) {
     var total = Object.keys(distribuicao).reduce(function (s, k) { return s + distribuicao[k]; }, 0);
-    var escolhidas = [];
+    var escolhidas = [], contagem = {}, teto = tetoMesmaProva(n);
     Object.keys(distribuicao).forEach(function (chave) {
       var materias = chave.split("+");
       var cota = Math.round((distribuicao[chave] / total) * n);
       var grupo = pool.filter(function (r) { return materias.indexOf(r.materia) >= 0; });
-      escolhidas = escolhidas.concat(embaralhar(grupo).slice(0, cota));
+      escolhidas = escolhidas.concat(pegar(grupo, cota, contagem, teto));
     });
     // completa (ou corta) até n com as demais questões, se o arredondamento não fechar
-    var usadas = {};
-    escolhidas.forEach(function (r) { usadas[r.ed + r.n] = true; });
-    var resto = embaralhar(pool.filter(function (r) { return !usadas[r.ed + r.n]; }));
-    while (escolhidas.length < n && resto.length) escolhidas.push(resto.pop());
-    escolhidas = escolhidas.slice(0, n);
+    escolhidas = completar(escolhidas, pool, n, contagem, teto).slice(0, n);
     escolhidas.sort(function (a, b) { return ORDEM_MATERIAS.indexOf(a.materia) - ORDEM_MATERIAS.indexOf(b.materia); });
     return escolhidas;
   }
@@ -173,7 +203,7 @@
         var dist = cfg.distribuicao;
         refs = dist ? sortearComCotas(referencias(dados), dist, cfg.quantidade) : sortearProporcional(referencias(dados), cfg.quantidade);
       } else if (cfg.modo === "erros") {
-        refs = cfg.refs;
+        refs = cfg.refs.filter(function (r) { return buscarQuestao(r); }); // some se foi ocultada depois
       } else {
         refs = embaralhar(referencias(dados, function (q, d) {
           var naMateria = !cfg.materias.length || cfg.materias.indexOf(q.materia) >= 0 ||
@@ -271,6 +301,7 @@
     if (estado.tela === "prova" && estado.sessao) telaProva();
     else if (estado.tela === "resultado" && estado.sessao) telaResultado();
     else if (estado.tela === "historico") telaHistorico();
+    else if (estado.tela === "pagina") telaPagina();
     else telaInicio();
   }
 
@@ -318,8 +349,8 @@
     var anos = anosDisponiveis("objetiva");
 
     app.appendChild(el("section", { class: "abertura" }, [
-      el("h1", { text: "Treine com as provas de verdade da FUVEST, Unicamp e UNESP." }),
-      el("p", { text: "Faça simulados com questões sorteadas entre as provas dos últimos anos ou treine uma matéria. As respostas aparecem só quando você termina, junto com o gabarito oficial." }),
+      el("h1", { text: "Treine com questões reais da FUVEST, Unicamp e UNESP." }),
+      el("p", { text: "Ferramenta de estudo: faça simulados com questões sorteadas entre as provas dos últimos anos ou treine uma matéria. As respostas aparecem só quando você termina, junto com o gabarito oficial." }),
       el("ul", { class: "cifras" }, [
         el("li", {}, [el("strong", { text: totalObj.toLocaleString("pt-BR") }), " questões objetivas"]),
         totalDisc ? el("li", {}, [el("strong", { text: totalDisc.toLocaleString("pt-BR") }), " discursivas"]) : null,
@@ -482,6 +513,20 @@
   }
 
   // ---------- tela da prova (e da revisão) ----------
+  // Citação da fonte, sempre junto da questão, e a autoria de conteúdos de terceiros já conferidos.
+  function fonteDaQuestao(ed, q) {
+    var filhos = [
+      "Fonte: ", ed.citacao || nomeEdicao(ed), ", questão " + (q.codigo || q.numero) + ". ",
+      el("a", { href: ed.link_oficial, target: "_blank", rel: "noopener noreferrer", text: "Site oficial da banca" }),
+    ];
+    var caixa = el("p", { class: "fonte" }, filhos);
+    if (q.terceiros && q.terceiros.length) {
+      caixa.appendChild(el("span", { class: "terceiros", text: " · Conteúdo de terceiros: " + q.terceiros.map(function (t) {
+        return [t.tipo, t.autor, t.obra].filter(Boolean).join(", ");
+      }).join("; ") + "." }));
+    }
+    return caixa;
+  }
   function blocoQuestao(ref, idx, total, revisao) {
     var achado = buscarQuestao(ref);
     var s = estado.sessao;
@@ -508,6 +553,7 @@
       ]));
     }
     caixa.appendChild(el("div", { class: "texto enunciado", html: render(q.enunciado, ed.id) }));
+    caixa.appendChild(fonteDaQuestao(ed, q));
     var usaQuimica = q.materia === "quimica" || (q.materias_extra || []).indexOf("quimica") >= 0;
     if (ed.tabela_periodica && usaQuimica) {
       caixa.appendChild(el("details", { class: "tabela-periodica" }, [
@@ -999,6 +1045,47 @@
       ]);
     }))]));
   }
+
+  // ---------- páginas legais ----------
+  // Textos em dados/juridico/*.md (markdown simples: #, ##, listas com "- " e **negrito**).
+  var PAGINAS = { direitos: "Direitos autorais e remoção de conteúdo", termos: "Termos de Uso", privacidade: "Política de Privacidade" };
+  function inlineMd(texto) {
+    var partes = texto.split(/(\*\*[^*]+\*\*)/);
+    return partes.map(function (p) {
+      return /^\*\*[^*]+\*\*$/.test(p) ? el("strong", { text: p.slice(2, -2) }) : p;
+    });
+  }
+  function blocosMd(md) {
+    var saida = [], lista = null, par = [];
+    function fechaPar() { if (par.length) { saida.push(el("p", {}, inlineMd(par.join(" ")))); par = []; } }
+    function fechaLista() { if (lista) { saida.push(lista); lista = null; } }
+    md.split("\n").forEach(function (linha) {
+      var m;
+      if ((m = /^(#{1,2}) (.*)$/.exec(linha))) { fechaPar(); fechaLista(); saida.push(el(m[1].length === 1 ? "h1" : "h2", {}, inlineMd(m[2]))); }
+      else if ((m = /^- (.*)$/.exec(linha))) { fechaPar(); lista = lista || el("ul"); lista.appendChild(el("li", {}, inlineMd(m[1]))); }
+      else if (!linha.trim()) { fechaPar(); fechaLista(); }
+      else { fechaLista(); par.push(linha.trim()); }
+    });
+    fechaPar(); fechaLista();
+    return saida;
+  }
+  function telaPagina() {
+    var nome = estado.pagina;
+    var caixa = el("article", { class: "pagina-legal" }, [el("p", { class: "aviso-carregando", text: "Carregando…" })]);
+    app.appendChild(caixa);
+    fetch("dados/juridico/" + nome + ".md").then(function (r) {
+      if (!r.ok) throw new Error("Não foi possível abrir esta página (" + r.status + ").");
+      return r.text();
+    }).then(function (md) {
+      caixa.innerHTML = "";
+      caixa.appendChild(el("p", { class: "faixa-rascunho", role: "note", text: "RASCUNHO PARA REVISÃO JURÍDICA: este texto ainda não foi revisado por advogado e não vale como documento final." }));
+      blocosMd(md).forEach(function (b) { caixa.appendChild(b); });
+      caixa.appendChild(el("p", {}, [el("button", { type: "button", class: "botao discreto", text: "Voltar", onclick: function () { irPara("inicio"); } })]));
+    }).catch(function (e) { caixa.innerHTML = ""; caixa.appendChild(el("p", { class: "erro-carga", role: "alert", text: e.message })); });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("[data-pagina]"), function (b) {
+    b.addEventListener("click", function () { estado.pagina = b.getAttribute("data-pagina"); document.title = PAGINAS[estado.pagina] + " · Banca Aberta"; irPara("pagina"); });
+  });
 
   // ---------- teclado ----------
   document.addEventListener("keydown", function (ev) {

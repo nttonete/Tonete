@@ -43,6 +43,8 @@ async function formulasCruas(page) {
 async function fluxo(browser, nome, opcoes) {
   console.log(`\n== ${nome}`);
   const { ctx, page, erros } = await sessao(browser, nome, opcoes);
+  const externos = [];
+  page.on("request", (r) => { if (!/^(http:\/\/127\.0\.0\.1|data:|blob:)/.test(r.url())) externos.push(r.url()); });
   await page.goto("http://127.0.0.1:8765/index.html");
   await page.waitForSelector(".modos");
   ok(await page.isVisible("text=Simulado da prova"), "tela inicial mostra os modos");
@@ -50,12 +52,31 @@ async function fluxo(browser, nome, opcoes) {
   const largura = await page.evaluate(() => [document.documentElement.scrollWidth, window.innerWidth]);
   ok(largura[0] <= largura[1], `sem rolagem horizontal (${largura[0]} <= ${largura[1]})`);
 
+  // conformidade: rodapé de independência, páginas legais e nenhum pedido a servidores de terceiros
+  ok(await page.isVisible("text=não tem vínculo, parceria nem aprovação"), "rodapé informa que a plataforma é independente das bancas");
+  ok(await page.isVisible("text=estimativas para fins de estudo"), "rodapé diz que resultados são estimativas para estudo");
+  for (const [pagina, titulo] of [["direitos", "Direitos autorais e remoção de conteúdo"], ["termos", "Termos de Uso"], ["privacidade", "Política de Privacidade"]]) {
+    await page.click(`[data-pagina=${pagina}]`);
+    await page.waitForSelector(".pagina-legal h1");
+    ok((await page.textContent(".pagina-legal h1")).includes(titulo.split(" ")[0]), `página "${titulo}" abre`);
+    ok(await page.isVisible(".faixa-rascunho"), `página "${titulo}" marcada como rascunho para revisão jurídica`);
+    await page.click(".pagina-legal >> text=Voltar");
+    await page.waitForSelector(".modos");
+  }
+
   // simulado com 15 questões sorteadas
   await page.selectOption("#sim-qtd", "15");
   await page.click("#form-simulado button[type=submit]");
   await page.waitForSelector(".questao");
   ok(await page.locator(".grade button").count() === 15, "simulado com 15 questões no cartão-resposta");
   ok(await page.locator(".alt.correta").count() === 0, "gabarito escondido durante a prova");
+  ok(await page.locator(".questao .fonte").first().textContent().then((t) => /Fonte: .*(Fuvest|Comvest|Vunesp)/.test(t)), "questão mostra a citação da fonte");
+  const porProva = await page.evaluate(() => {
+    const c = {};
+    window.BancaAberta.estado.sessao.refs.forEach((r) => { c[r.ed] = (c[r.ed] || 0) + 1; });
+    return Math.max(...Object.values(c));
+  });
+  ok(porProva <= 4, `simulado de 15 usa no máximo 30% de uma mesma prova (${porProva} <= 4)`);
   // responde 10 questões com a primeira alternativa, percorrendo todas
   for (let i = 0; i < 15; i++) {
     if (i < 10) await page.locator(".alt").first().click();
@@ -157,6 +178,7 @@ async function fluxo(browser, nome, opcoes) {
   }
 
   ok(erros.length === 0, "sem erros de JavaScript " + erros.slice(0, 3).join(" | "));
+  ok(externos.length === 0, "nenhum pedido a servidores de terceiros " + externos.slice(0, 3).join(" | "));
   await ctx.close();
 }
 

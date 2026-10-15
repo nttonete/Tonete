@@ -240,6 +240,42 @@ def checar_questoes(rel, dados, ed, final):
     return numeros
 
 
+def checar_conformidade(rel):
+    """Citação da fonte em toda edição, registro de terceiros coerente e regras de ocultação válidas."""
+    sys.path.insert(0, str(RAIZ / "ferramentas"))
+    import conformidade
+    ids, edicoes_ok = set(), set()
+    for arq in sorted((RAIZ / "dados/questoes").glob("*.json")):
+        d = json.loads(arq.read_text())
+        ed = d["edicao"]
+        edicoes_ok.add(ed["id"])
+        esperada = conformidade.citacao(ed["vestibular"], ed["ano"], ed["fase"])
+        if ed.get("citacao") != esperada:
+            rel.erro(ed["id"], f"citação da fonte ausente ou fora do formato da banca (esperado {esperada!r})")
+        if not str(ed.get("link_oficial", "")).startswith("https://"):
+            rel.erro(ed["id"], "edição sem link oficial")
+        ids |= {q["id"] for q in d["questoes"]}
+    ter = conformidade.carregar_terceiros()
+    for qid, itens in ter.get("itens", {}).items():
+        if qid not in ids:
+            rel.erro(qid, "terceiros.json cita uma questão que não está no banco")
+        for it in itens:
+            if it.get("status") not in conformidade.STATUS:
+                rel.erro(qid, f"status de conteúdo de terceiros inválido: {it.get('status')!r}")
+            if it.get("tipo") not in conformidade.TIPOS:
+                rel.erro(qid, f"tipo de conteúdo de terceiros inválido: {it.get('tipo')!r}")
+            if it.get("status") in ("dominio_publico", "citacao_com_autoria") and not (it.get("autor") and it.get("obra")):
+                rel.erro(qid, "conteúdo liberado sem autor e obra")
+            if it.get("status") == "dominio_publico" and not it.get("ano_morte"):
+                rel.erro(qid, "domínio público exige o ano de morte do autor")
+    mod = conformidade.carregar_moderacao()
+    for r in mod["regras"]:
+        if r.get("escopo") not in ("banca", "ano", "banca_ano", "edicao", "questao") or not r.get("motivo") or not r.get("por") or not r.get("quando"):
+            rel.erro("moderacao.json", f"regra incompleta: {r}")
+    if mod["regras"] and not mod["log"]:
+        rel.erro("moderacao.json", "há regras mas o log está vazio")
+
+
 def main():
     eds = edicoes()
     rel = Relatorio()
@@ -298,6 +334,7 @@ def main():
             faltam = sorted(set(range(1, (ed["questoes"] or 0) + 1)) - numeros - ind - repetidas)
             if faltam:
                 rel.aviso(ed["id"], f"incompleta, fora da plataforma até terminar: faltam {len(faltam)} questões")
+        checar_conformidade(rel)
     for linha in rel.erros + rel.avisos:
         print(linha)
     print(f"\n{len(rel.erros)} erro(s), {len(rel.avisos)} aviso(s)")

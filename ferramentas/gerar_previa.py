@@ -14,11 +14,19 @@ SAIDA = RAIZ / "trabalho/previa"
 
 shutil.rmtree(SAIDA, ignore_errors=True)
 (SAIDA / "dados/questoes").mkdir(parents=True)
-(SAIDA / "app").mkdir()
+(SAIDA / "app/fontes").mkdir(parents=True)
+(SAIDA / "app/vendor").mkdir()
+(SAIDA / "dados/juridico").mkdir()
 (SAIDA / "img/tabela-periodica").mkdir(parents=True)
 
 for js in ("app.js", "render.js"):
     shutil.copy(RAIZ / "app" / js, SAIDA / "app" / js)
+for f in (RAIZ / "app/fontes").glob("*.woff2"):
+    shutil.copy(f, SAIDA / "app/fontes" / f.name)
+shutil.copy(RAIZ / "app/fontes/LICENCAS.txt", SAIDA / "app/fontes/LICENCAS.txt")
+shutil.copy(RAIZ / "app/vendor/katex.min.js", SAIDA / "app/vendor/katex.min.js")
+for f in (RAIZ / "dados/juridico").glob("*.md"):
+    shutil.copy(f, SAIDA / "dados/juridico" / f.name)
 shutil.copy(RAIZ / "dados/indice.json", SAIDA / "dados/indice.json")
 for img in (RAIZ / "img/tabela-periodica").glob("*.webp"):
     shutil.copy(img, SAIDA / "img/tabela-periodica" / img.name)

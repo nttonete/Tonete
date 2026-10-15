@@ -27,6 +27,8 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 | `.claude/agents/revisor-questoes.md` | Agente revisor |
 | `testes/navegador.js` | Teste de ponta a ponta no Chromium |
 | `trabalho/` | Área de trabalho. No git ficam só rascunhos, revisões, complementos e recortes manuais (`*-cK.webp`); páginas renderizadas e figuras automáticas se regeneram |
+| `dados/provas/terceiros.json`, `moderacao.json` | Conteúdo de terceiros por questão (status, autor, obra) e regras de ocultação com log. Ver `ferramentas/CONFORMIDADE.md` |
+| `dados/juridico/` | Rascunhos de Termos, Privacidade e Direitos autorais (para revisão jurídica) |
 | `fontes-pdf` | Link para os PDFs oficiais (fora do git) |
 
 ## Pipeline de uma edição
@@ -60,6 +62,12 @@ Situação: as 30 provas de 1ª fase (2017–2026) estão transcritas, revisadas
 - **Nunca invente resposta de discursiva.** Só entra resposta publicada pela banca.
 - Texto fiel ao caderno, inclusive erros de digitação do original (anote em `observacoes`).
 - Questões anuladas ficam no banco marcadas e fora dos simulados e da nota.
+
+## Conformidade jurídica
+
+- Toda edição leva `citacao` no formato da banca e `link_oficial`; o validador recusa sem eles. A plataforma não faz pedidos a servidores de terceiros (fontes e KaTeX são locais; o teste de navegador confere).
+- Simulados limitam a 30% as questões de uma mesma prova (`_regras` em `formatos.json`). Ocultar/restaurar/excluir questões: `ferramentas/moderar.py` (com log). Terceiros: `ferramentas/conformidade.py`. Decisões e pendências: `ferramentas/CONFORMIDADE.md`.
+- Textos legais são sempre **RASCUNHO PARA REVISÃO JURÍDICA**.
 
 ## Fontes
 
