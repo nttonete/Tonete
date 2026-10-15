@@ -104,7 +104,52 @@
    }
   }
  ],
- "complementos": {},
+ "complementos": {
+  "37": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O HPV é transmitido principalmente por contato sexual, pelo contato direto de pele e mucosas. A principal forma de prevenção é a vacina, que protege contra os tipos de maior risco, como o 16 e o 18, e funciona melhor quando aplicada antes do início da vida sexual, ou seja, antes da exposição ao vírus. Por isso ela é indicada para crianças e adolescentes.\n\nAs outras alternativas exageram: o preservativo reduz o risco, mas não elimina a infecção nem impede as doenças, porque o vírus pode estar em áreas de pele que ele não cobre (A e D). A vacina previne, mas não trata uma infecção já instalada (B).\n\n**Resposta: C**"
+  },
+  "38": {
+   "assunto": "Bioquímica",
+   "resolucao": "Na fase fotoquímica (fase clara) da fotossíntese, a luz excita a clorofila, que perde elétrons. Esses elétrons são repostos pela quebra da água (fotólise), que libera o $\\text{O}_2$: a **água** é o doador primário. Os elétrons percorrem a cadeia transportadora nas membranas dos tilacoides até o $\\text{NADP}^+$, que é reduzido a **NADPH**, o aceptor final.\n\nO ATP também é produzido na fase clara, mas por fosforilação, sem receber os elétrons da cadeia. O gás carbônico e a glicose pertencem à fase química (ciclo de Calvin), e o oxigênio é produto, não doador.\n\n**Resposta: C**"
+  },
+  "39": {
+   "assunto": "Evolução",
+   "resolucao": "Os genes homólogos da GFP aparecem em filos muito distantes entre si: Cnidaria (um grupo basal dos animais), Arthropoda (protostômios) e Chordata (deuterostômios). Por serem homólogos, o mais provável é que o gene já existisse num **ancestral comum dos metazoários** e tenha sido **perdido de forma independente** nas várias linhagens que hoje não o possuem.\n\nAs alternativas com \"ancestrais distintos\" (B e D) contradizem a ideia de homologia. As que falam em \"manutenção do gene em todos os metazoários marinhos\" (B e C) contradizem o texto, que diz que o gene só foi encontrado em três filos; muitos animais marinhos, como esponjas e moluscos, não o têm.\n\n**Resposta: A**"
+  },
+  "40": {
+   "assunto": "Citologia",
+   "resolucao": "Pela escala da figura, quanto mais escuro, maior a concentração de MRTFA-GFP. Em 0 min o núcleo está claro e o citoplasma acinzentado: a proteína está no citoplasma, onde foi traduzida pelos ribossomos. Com o tempo, o núcleo escurece e o citoplasma clareia (20 min), menos nos nucléolos, que continuam claros: a proteína migra para o núcleo, atravessando os complexos de poro nuclear.\n\nA e C estão erradas porque proteína não é \"transcrita\": a transcrição produz RNA. B erra duas vezes: a tradução não ocorre no núcleo, e o movimento é do citoplasma para o núcleo, não o contrário.\n\n**Resposta: D**"
+  },
+  "41": {
+   "assunto": "Genética",
+   "resolucao": "O texto diz que cada gene tem duas cópias (dois alelos) e que a síndrome aparece quando **apenas uma** delas não funciona. A pessoa é, portanto, **heterozigota**: tem um alelo normal e um mutado, e por isso os cientistas tentam fazer a cópia funcional produzir mais proteína. A mutação é uma alteração na sequência de bases nitrogenadas do DNA, que muda a proteína traduzida.\n\nHomozigose (B e D) exigiria as duas cópias defeituosas. Cromátides (C e D) são as duas cópias idênticas de um cromossomo já duplicado, não os dois alelos do gene, e \"mutação da cromatina\" não descreve uma mutação gênica.\n\n**Resposta: A**"
+  },
+  "42": {
+   "assunto": "Ecologia",
+   "resolucao": "Em cada nível, a energia assimilada se divide em manutenção (respiração) e produção líquida. Da produção líquida, uma parte passa ao nível seguinte (seta) e o resto vai para os decompositores.\n\n- Produtores: manutenção $1000 - 500 = 500$; para os decompositores, $500 - 200 = 300$.\n- Consumidor primário: manutenção $200 - 100 = 100$; para os decompositores, $100 - 60 = 40$.\n- Consumidor secundário: manutenção $60 - 20 = 40$; para os decompositores, $20 - 10 = 10$.\n- Consumidor terciário: manutenção $10 - 2 = 8$; para os decompositores, $2$.\n\nTotal para os decompositores: $300 + 40 + 10 + 2 = 352\\ \\text{kcal/m}^2\\text{/ano}$. As outras erram: a manutenção do consumidor primário é 100 (o 40 é a do secundário), a dos autotróficos é 500, e os carnívoros assimilam $60 + 10 = 70$.\n\n**Resposta: B**"
+  },
+  "43": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "O Parkinson é uma doença neurodegenerativa: a alfa-sinucleína se agrega nos **neurônios** (i), sobretudo nos que produzem dopamina nos centros motores do encéfalo. A mucosa intestinal é revestida por tecido **epitelial** (ii), e algumas de suas células podem produzir essa proteína. A microbiota intestinal é formada principalmente por **bactérias** (iii), e a disbiose é o desequilíbrio entre as espécies dela. A proteína agregada no intestino pode subir pelos nervos até o encéfalo, que faz parte do **sistema nervoso central** (iv), onde ficam os centros motores citados no enunciado.\n\nLinfonodos são órgãos do sistema linfático, não o local da degeneração; o tecido conjuntivo não reveste a mucosa; e o sistema nervoso autônomo não contém os centros motores do cérebro.\n\n**Resposta: A**"
+  },
+  "44": {
+   "assunto": "Questões ambientais",
+   "resolucao": "Leia o mapa e associe cada bioma à mineração típica dele. Na **Amazônia**, o garimpo (101.051 ha) supera a mineração industrial (48.342 ha). O garimpo de ouro avança sobre unidades de conservação e terras indígenas e contamina rios como o Tapajós com mercúrio.\n\nAs outras falham: em A, o dado do mapa está certo (MI 29.157 > G 1.121 na Mata Atlântica), mas a maior bacia hidrográfica do país é a Amazônica, e o \"arco do desmatamento\" fica na borda da Amazônia. Em C, no Cerrado a mineração industrial (15.392 ha) supera o garimpo (5.117 ha). Em D, a Caatinga não se caracteriza pela exploração de níquel nem é banhada pelo rio Tocantins.\n\n**Resposta: B**"
+  },
+  "45": {
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "A quantidade de álcool não muda; só entra água. Com 14 partes de álcool para 1 de água, os 30 L têm $\\frac{14}{15} \\cdot 30 = 28$ L de álcool e 2 L de água.\n\nPara que 28 L sejam 70% do total:\n$\\frac{28}{30 + x} = 0{,}7 \\Rightarrow 30 + x = 40 \\Rightarrow x = 10$ L.\n\n**Resposta: B**"
+  },
+  "46": {
+   "assunto": "Trigonometria",
+   "resolucao": "Simplifique cada função e procure valores fáceis de ver no gráfico.\n\n- $f(x) = \\text{sen}(x) + \\pi/4$: é a senoide deslocada cerca de $0{,}79$ para cima; $f(0) \\approx 0{,}79$ e o máximo é $\\approx 1{,}79$. Gráfico (iii).\n- $g(x)$: como $\\cos\\theta - \\text{sen}\\,\\theta = \\sqrt{2}\\cos(\\theta + \\pi/4)$, com $\\theta = x + \\pi/4$ vem $g(x) = \\sqrt{2}\\cos(x + \\pi/2) = -\\sqrt{2}\\,\\text{sen}(x)$. Passa pela origem descendo, com amplitude $\\approx 1{,}41$. Gráfico (ii).\n- $h(x) = \\text{sen}(x - \\pi/4)$: amplitude 1, $h(0) \\approx -0{,}71$ e zero em $x \\approx 0{,}79$. Gráfico (i).\n- $p(x) = \\cos x + \\text{sen}\\,x = \\sqrt{2}\\,\\text{sen}(x + \\pi/4)$: $p(0) = 1$ e máximo $\\approx 1{,}41$ em $x \\approx 0{,}79$. Gráfico (iv).\n\n**Resposta: B**"
+  },
+  "47": {
+   "assunto": "Estatística",
+   "resolucao": "Leia o radar (cada anel vale 5): Romance 35 em 2020 e 20 em 2021; Ficção 25 e 35; Infantil 30 e 30; Tecnologia 10 e 20 (como o enunciado confirma); Biografias 30 e 30.\n\nSomando os dois anos: Infantil $30 + 30 = 60$ e Biografias $30 + 30 = 60$, a mesma quantidade.\n\nAs outras falham: Biografias empata com Ficção e Infantil (60) e vendeu o dobro, não o triplo, de Tecnologia (30) (A); Tecnologia também cresceu, e Infantil ficou igual (B); Romance caiu de 35 para 20 (C).\n\n**Resposta: D**"
+  }
+ },
  "relatorio": [
   {
    "numero": 37,
@@ -229,7 +274,7 @@
   {
    "numero": 61,
    "status": "corrigida",
-   "notas": "asterisco literal sem escape: \"Cotonifício* Crespi\" e \"***Cotonifício:**\" viravam itálico/negrito; agora \"Cotonifício\\\\* Crespi\" e \"**\\\\*Cotonifício:**\"."
+   "notas": "asterisco literal sem escape: \"Cotonifício* Crespi\" e \"***Cotonifício:**\" viravam itálico/negrito; agora \"Cotonifício\\* Crespi\" e \"**\\*Cotonifício:**\"."
   },
   {
    "numero": 62,
