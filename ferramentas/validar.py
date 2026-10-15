@@ -211,7 +211,9 @@ def main():
                                         q.get("gabarito"), q.get("anulada"))
         intervalo = dados.get("intervalo")
         if intervalo:
-            faltam = [n for n in range(intervalo[0], intervalo[1] + 1) if str(n) not in (dados.get("complementos") or {})]
+            fora = json.loads((RAIZ / "dados/provas/indisponiveis.json").read_text()).get(dados.get("edicao"), {})
+            faltam = [n for n in range(intervalo[0], intervalo[1] + 1)
+                      if str(n) not in (dados.get("complementos") or {}) and str(n) not in fora]
             if faltam:
                 rel.erro(ed_id, f"faltam complementos das questões {faltam}")
         checar_render(rel, itens)

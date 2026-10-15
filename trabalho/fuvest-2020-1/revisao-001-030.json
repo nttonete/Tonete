@@ -1,0 +1,316 @@
+{
+ "edicao": "fuvest-2020-1",
+ "intervalo": [
+  1,
+  30
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 12,
+   "materia": "quimica",
+   "materias_extra": [
+    "matematica"
+   ],
+   "texto_base": null,
+   "enunciado": "Para exemplificar probabilidade, um grupo de estudantes fez uma atividade envolvendo química, conforme o procedimento descrito.\n\nCada estudante recebeu um recipiente contendo 800 mL de água destilada com algumas gotas do indicador de pH alaranjado de metila e soluções de HCℓ e NaOH em diversas concentrações.\n\nCada estudante deveria jogar apenas uma vez dois dados, um amarelo e um vermelho, ambos contendo os números de 1 a 6.\n\n• Ao jogar o dado vermelho, o estudante deveria adicionar ao recipiente 100 mL de solução do ácido clorídrico na concentração $10^{-n}$ mol/L, sendo $n$ o número marcado no dado (por exemplo, se saísse o número 1 no dado, a solução seria de $10^{-1}$ mol/L; se saísse 6, a solução seria de $10^{-6}$ mol/L).\n\n• Ao jogar o dado amarelo, o estudante deveria executar o mesmo procedimento, mas substituindo o ácido por NaOH, totalizando assim 1,0 L de solução.\n\n• O estudante deveria observar a cor da solução ao final do experimento.\n\nA professora mostrou a tabela com alguns valores de pH resultantes conforme os números tirados nos dados. Ela pediu, então, aos estudantes que utilizassem seus conhecimentos e a tabela para prever em quais combinações de dados a cor final do indicador seria vermelha.\n\n![tabela de dupla entrada com o número tirado no dado vermelho (adição de ácido), de 1 a 6, nas linhas, e no dado amarelo (adição de base), de 1 a 6, nas colunas; as células preenchidas trazem o pH: vermelho 1 e amarelo 1: 7,0; vermelho 1 e amarelo 2: 2,1; vermelho 1 e amarelo 6: 2,0; vermelho 2 e amarelo 3: 3,1; vermelho 3 e amarelo 3: 7,0; vermelho 3 e amarelo 6: 4,1; vermelho 4 e amarelo 4: 7,0; vermelho 5 e amarelo 1: 11,9; vermelho 5 e amarelo 4: 8,9; vermelho 6 e amarelo 5: 7,9; vermelho 6 e amarelo 6: 7,0; as demais células estão vazias](fig:p06-f1)\n\nA probabilidade de, após realizar o procedimento descrito, a solução final preparada por um estudante ser vermelha é de:\n\n**Note e adote:**\n\nConsidere a seguinte relação entre pH do meio e coloração do indicador alaranjado de metila:\n\n| Menor que 3,3 | 3,3 a 4,4 | Maior que 4,4 |\n|---|---|---|\n| Vermelho | Laranja | Amarelo |\n\n![escala de pH de 0 a 14 com faixas coloridas em vermelho, laranja e amarelo](fig:p06-c2)",
+   "alternativas": {
+    "A": "1/12",
+    "B": "1/6",
+    "C": "1/4",
+    "D": "11/36",
+    "E": "5/12"
+   }
+  },
+  {
+   "numero": 24,
+   "materia": "matematica",
+   "materias_extra": [
+    "ingles"
+   ],
+   "texto_base": null,
+   "enunciado": "![tirinha de Calvin and Hobbes em quatro quadros: no primeiro, Calvin sorri diante de um livro aberto, e o quadro de texto diz “Point A is twice as far from point C as point B is from A. If the distance from point B to point C is 5 inches, how far is point A from point C?”; no segundo, Calvin aparece zangado; no terceiro, gritando; no último, ele se afasta da mesa de braços estendidos e diz “THE LIVING DEAD DON’T NEED TO SOLVE WORD PROBLEMS.”, com a palavra NEED em destaque](fig:p08-f1)\n\nBill Waterson, *Calvin and Hobbes*. Disponível em https://www.gocomics.com/.\n\nAs possíveis soluções, em polegadas (*inches*, em inglês), para o problema matemático proposto no quadrinho, no caso em que os pontos $A$, $B$ e $C$ estão em uma mesma reta, são",
+   "alternativas": {
+    "A": "$\\frac{10}{3}$ e 10.",
+    "B": "$\\frac{10}{3}$, 5 e 10.",
+    "C": "$\\frac{5}{3}$, $\\frac{10}{3}$ e 10.",
+    "D": "$\\frac{5}{3}$ e 10.",
+    "E": "$\\frac{10}{3}$ e 5."
+   }
+  }
+ ],
+ "complementos": {
+  "1": {
+   "assunto": "Soluções",
+   "resolucao": "O café quente libera vapor de água. Esse vapor sobe, encontra o algodão-doce (mais frio) e condensa sobre ele.\n\nA água líquida dissolve a sacarose, que é muito solúvel (1,97 kg por litro de água, segundo o Note e adote). Forma-se uma solução de sacarose em água, que pinga no café.\n\nA alternativa A está errada: a sacarose só funde a 186 °C, e o café está bem abaixo disso. A alternativa B erra ao dizer que pinga água pura, porque a água dissolve o açúcar. As alternativas C e E erram porque a sacarose não evapora nessas condições.\n\n**Resposta: D**"
+  },
+  "2": {
+   "assunto": "Termoquímica",
+   "resolucao": "Compare a energia gasta para vaporizar a água com a energia total consumida pelo aparelho.\n\nMassa de água: $540\\ \\text{mL} \\times 1\\ \\text{g/mL} = 540\\ \\text{g}$, ou seja, $n = \\frac{540}{18} = 30\\ \\text{mol}$.\n\nEnergia de vaporização: $30 \\times 40 = 1200\\ \\text{kJ}$.\n\nEnergia total: $E = P \\cdot \\Delta t = 1600\\ \\text{W} \\times 1200\\ \\text{s} = 1{,}92 \\times 10^6\\ \\text{J} = 1920\\ \\text{kJ}$.\n\nFração: $\\frac{1200}{1920} = 0{,}625$, cerca de 62%.\n\n**Resposta: E**"
+  },
+  "3": {
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "Sódio e césio são metais alcalinos (grupo 1). Os dois têm baixa energia de ionização e tendem a perder elétrons e formar cátions. Por isso, não fazem entre si nem ligação iônica (falta um átomo que receba o elétron) nem ligação covalente comum. É isso que diz a alternativa E.\n\nAs outras alternativas estão erradas:\n- A: o Cs comum não é radioativo.\n- B: o raio do Cs é maior que o do Na, e não o contrário.\n- C: tirar um nêutron não forma cátion. Cátion se forma quando o átomo perde elétrons.\n- D: \"NaCs\" e \"CsNa\" são só duas formas de escrever a mesma espécie.\n\n**Resposta: E**"
+  },
+  "4": {
+   "assunto": "Ligações e interações",
+   "resolucao": "A ideia central é que semelhante dissolve semelhante.\n\nO licopeno é um hidrocarboneto de cadeia longa, só com C e H, e portanto apolar. Ele se dissolve no azeite (apolar), e por isso a fase oleosa fica avermelhada.\n\nA betanina tem muitos grupos OH, grupos carboxila e carga elétrica. É polar e fica na água: a fase aquosa fica rosada e o azeite não muda de cor.\n\nA alternativa E é a distratora: a diferença de massa molar entre os corantes é pequena (537 e 551) e não explica nada. O que decide é a polaridade.\n\n**Resposta: C**"
+  },
+  "5": {
+   "assunto": "Cinética química",
+   "resolucao": "Leia as curvas do gráfico:\n- o limoneno é consumido desde o início;\n- o $\\alpha$-terpineno sobe um pouco, passa por um máximo e depois é consumido;\n- o $p$-cimeno cresce até quase 100%.\n\nUma substância que se forma e depois desaparece é um intermediário. Ela fica entre o reagente (limoneno) e o produto final ($p$-cimeno).\n\nO processo, portanto, é $\\text{limoneno} \\rightarrow \\alpha\\text{-terpineno} \\rightarrow p\\text{-cimeno}$.\n\n**Resposta: E**"
+  },
+  "6": {
+   "assunto": "Soluções",
+   "resolucao": "Conte as moléculas a cada diluição.\n\nA solução de partida tem $0{,}1\\ \\text{L} \\times 1\\ \\text{mol/L} = 0{,}1\\ \\text{mol}$, ou seja, $6 \\times 10^{22}$ moléculas. Em 1 mL dela há $6 \\times 10^{20}$ moléculas. É isso que vai para o tubo 1CH.\n\nCada diluição seguinte transfere 1% do conteúdo, dividindo por 100 o número de moléculas. No tubo $n$CH há $6 \\times 10^{22-2n}$ moléculas.\n- 11CH: $6 \\times 10^{0} = 6$ moléculas.\n- 12CH: $6 \\times 10^{-2}$, menos de uma molécula em média.\n\n**Resposta: A**"
+  },
+  "7": {
+   "assunto": "Radioatividade",
+   "resolucao": "Cada emissão $\\alpha$ é um núcleo de hélio. Por isso, conte as setas $\\alpha$ em cada trecho da série.\n- De $^{238}\\text{U}$ a $^{234}\\text{U}$: uma $\\alpha$ (U→Th) e duas $\\beta$. Isso dá 1 He.\n- De $^{234}\\text{U}$ a $^{230}\\text{Th}$: uma $\\alpha$. Isso também dá 1 He. A alternativa B está certa.\n\nAs outras estão erradas:\n- A: a série inteira tem 8 emissões $\\alpha$, e não uma.\n- D: de $^{214}\\text{Pb}$ a $^{214}\\text{Po}$ só há emissões $\\beta$, que não produzem He.\n- C: em mais uma meia-vida decai metade do urânio que resta (1/4 do inicial). O He aumenta 50%, e não dobra.\n- E: o $^{206}\\text{Pb}$ é estável e encerra a série.\n\n**Resposta: B**"
+  },
+  "8": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Use a conservação da quantidade de movimento. As moléculas neutras estão paradas, então o íon que chega e o íon que sai têm a mesma quantidade de movimento.\n\nAntes da colisão, o íon é o $\\text{F}^-$ (19 u), uma esfera pequena. Ele se move em direção ao $\\text{CH}_3\\text{C}\\ell$, que tem a esfera grande do cloro.\n\nDepois, sai o $\\text{C}\\ell^-$ (35 u), uma esfera maior. Como $19\\,v = 35\\,v'$, temos $v' \\approx 0{,}54\\,v$: a seta do $\\text{C}\\ell^-$ é mais curta. A molécula neutra que fica parada é o $\\text{CH}_3\\text{F}$.\n\nSó a alternativa C mostra esfera pequena com seta longa antes e esfera grande com seta curta depois.\n\n**Resposta: C**"
+  },
+  "9": {
+   "assunto": "Química orgânica",
+   "resolucao": "Compare a biliverdina com a bilirrubina. A ponte central $=\\text{CH}-$, que liga dois anéis, vira $-\\text{CH}_2-$, e um N do anel passa a ter H (NH). A molécula ganha hidrogênios, e isso é uma redução.\n\nAs outras estão erradas:\n- B: o O da biliverdina faz parte de grupos C=O do anel e não transporta $\\text{O}_2$.\n- C: o grupo heme não tem amida.\n- D: os grupos C=O formados estão ligados a N, então são amidas (lactamas), e não cetonas.\n- E: as três estruturas têm fórmulas diferentes, então não são isômeros.\n\n**Resposta: A**"
+  },
+  "10": {
+   "assunto": "Química orgânica",
+   "resolucao": "Pela equação dada, a hidrazina reage só com a carbonila. O $\\text{C=O}$ vira $\\text{C=N-NH-}$, liberando água, e o resto da molécula não muda.\n\nO composto analisado é $\\text{CH}_2\\text{=C(CH}_3)\\text{-CH}_2\\text{-CO-CH}_2\\text{CH}_3$. No produto:\n- a ligação dupla $\\text{C=C}$ da ponta continua lá;\n- a carbonila vira $\\text{C=N-NH-}$, ligada ao anel 2,4-dinitrofenil;\n- não sobra C=O.\n\nA única estrutura assim é a da alternativa B. A e C ainda têm C=O. D e E ligam a cadeia ao anel por um grupo $\\text{NO}_2$, o que não é o que a reação faz.\n\n**Resposta: B**"
+  },
+  "11": {
+   "assunto": "Soluções",
+   "resolucao": "No diagrama de fases, o gelo passa direto a vapor (sublima) quando a temperatura e a pressão estão abaixo do ponto triplo.\n\nNo alto dos Andes, as noites frias congelavam os alimentos. A pressão atmosférica, baixa por causa da altitude, permitia que o gelo sublimasse.\n\nA alternativa B erra ao dizer que a pressão é menor nas partes baixas, quando na verdade é o contrário. A e E pedem pressão alta, que favorece o estado sólido ou líquido, e não a sublimação. C fala em solidificação.\n\n**Resposta: D**"
+  },
+  "12": {
+   "assunto": "Soluções",
+   "resolucao": "O indicador fica vermelho quando pH < 3,3. Para isso é preciso que sobre ácido, e bastante.\n\nSeja $r$ o número do dado vermelho e $a$ o do amarelo. Num litro, o excesso de $\\text{H}^+$ vale $[\\text{H}^+] = \\frac{10^{-r} - 10^{-a}}{10}$.\n\n- $r = 1$: se $a = 1$, o meio fica neutro. Se $a \\geq 2$, $[\\text{H}^+] \\approx 10^{-2}$ e o pH ≈ 2, vermelho: 5 casos.\n- $r = 2$: se $a \\leq 2$, o meio fica neutro ou básico. Se $a \\geq 3$, $[\\text{H}^+] \\approx 9 \\times 10^{-4}$ a $10^{-3}$ e o pH ≈ 3,0–3,1, vermelho: 4 casos.\n- $r \\geq 3$: o $[\\text{H}^+]$ máximo é $10^{-4}$, então o pH ≥ 4: nunca vermelho.\n\nSão 9 casos favoráveis em 36: $\\frac{9}{36} = \\frac{1}{4}$.\n\n**Resposta: C**"
+  },
+  "13": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Para cada caminho de A até F, multiplique as probabilidades das setas. Depois, some os caminhos.\n\n- A → C → F: $0{,}2 \\times 0{,}6 = 0{,}120$\n- A → B → C → F: $0{,}8 \\times 0{,}1 \\times 0{,}6 = 0{,}048$\n- A → B → D → F: $0{,}8 \\times 0{,}9 \\times 0{,}3 = 0{,}216$\n\nTotal: $0{,}120 + 0{,}048 + 0{,}216 = 0{,}384$.\n\nAs alternativas A e B são armadilhas: cada uma é a probabilidade de um único caminho.\n\n**Resposta: E**"
+  },
+  "14": {
+   "assunto": "Matemática financeira",
+   "resolucao": "Aumentos se compõem por multiplicação, e não por subtração.\n\nUm aumento nominal de 300% multiplica o salário por 4. Uma inflação de 100% multiplica os preços por 2.\n\nO poder de compra fica multiplicado por $\\frac{4}{2} = 2$, ou seja, o aumento real é de 100%.\n\nA distratora D (200%) vem de fazer $300\\% - 100\\%$, o que está errado.\n\n**Resposta: B**"
+  },
+  "15": {
+   "assunto": "Progressões",
+   "resolucao": "Cada volta é uma circunferência, e o raio cresce 0,01 cm a cada volta. Os comprimentos formam uma progressão aritmética.\n\nOs raios vão de cerca de 3 cm a 4 cm. Somando os 100 raios, $3{,}01 + 3{,}02 + \\dots + 4{,}00 = \\frac{(3{,}01 + 4{,}00) \\cdot 100}{2} = 350{,}5\\ \\text{cm}$.\n\nComprimento total: $2\\pi \\cdot 350{,}5 \\approx 2 \\times 3{,}14 \\times 350{,}5 \\approx 2201\\ \\text{cm} \\approx 22{,}0\\ \\text{m}$.\n\nSe a primeira volta tiver raio 3 cm, a soma dá 349,5 cm e o comprimento continua ≈ 22,0 m.\n\n**Resposta: D**"
+  },
+  "16": {
+   "assunto": "Trigonometria",
+   "resolucao": "As hastes não mudam de tamanho: os lados $a$ e $b$ são fixos.\n\nA área do paralelogramo é $a \\cdot b \\cdot \\sin\\theta$. Com $\\theta = 90^\\circ$, ela vale $A = ab$.\n\nPara a área ser $A/2$: $ab\\sin\\theta = \\frac{ab}{2}$, então $\\sin\\theta = \\frac{1}{2}$.\n\nComo $\\theta$ é o menor ângulo interno, $\\theta \\leq 90^\\circ$, e portanto $\\theta = 30^\\circ$.\n\n**Resposta: C**"
+  },
+  "17": {
+   "assunto": "Geometria espacial",
+   "resolucao": "A menor esfera que contém o paralelepípedo passa pelos seus vértices. O diâmetro dela é a diagonal do paralelepípedo.\n\n$d = \\sqrt{7^2 + 4^2 + 4^2} = \\sqrt{49 + 16 + 16} = \\sqrt{81} = 9\\ \\text{cm}$.\n\n**Resposta: A**"
+  },
+  "18": {
+   "assunto": "Funções",
+   "resolucao": "Seja $x$ o número de reduções de R\\$ 1,00.\n\nO preço é $10 - x$ e a quantidade vendida é $200 + 100x$. A arrecadação é:\n$R(x) = (10 - x)(200 + 100x) = -100x^2 + 800x + 2000$.\n\nÉ uma parábola com a concavidade para baixo. O máximo está no vértice, $x = \\frac{-800}{2 \\cdot (-100)} = 4$.\n\n$R(4) = 6 \\times 600 = 3600$, ou seja, R\\$ 3.600,00 (preço de R\\$ 6,00 e 600 combos).\n\n**Resposta: C**"
+  },
+  "19": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Calcule $E(n)$ para cada $n$, contando os números menores que $n$ que não têm fator primo em comum com ele.\n\n- $E(20) = 8$, $E(21) = 12$, $E(22) = 10$.\n- $E(23) = 22$: como 23 é primo, todos os números de 1 a 22 servem.\n- $E(24) = 8$.\n- $E(25) = 20$: só os 4 múltiplos de 5 (5, 10, 15, 20) ficam de fora.\n\nO máximo é 22.\n\n**Resposta: C**"
+  },
+  "20": {
+   "assunto": "Polinômios e equações",
+   "resolucao": "Desenvolva o lado direito:\n\n$(x-a)^3 - (x-b)^3 = 3(b-a)x^2 + 3(a^2-b^2)x + (b^3 - a^3)$.\n\nCompare os coeficientes com os de $3x^2 - 9x + 7$:\n- termo em $x^2$: $3(b-a) = 3$, então $b - a = 1$;\n- termo em $x$: $3(a^2 - b^2) = -9$, então $(a-b)(a+b) = -3$, ou seja, $-1 \\cdot (a+b) = -3$ e $a + b = 3$.\n\nConferindo o termo constante: com $a = 1$ e $b = 2$, $b^3 - a^3 = 8 - 1 = 7$. ✓\n\n**Resposta: A**"
+  },
+  "21": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Sejam $L$, $P$ e $R$ as passagens para Lisboa, Paris e Roma.\n\n- Paris vendeu o dobro das outras duas juntas: $P = 2(L + R)$. Como $L + P + R = 78$, temos $3(L + R) = 78$, então $L + R = 26$ e $P = 52$.\n- Roma vendeu duas a mais que metade de Lisboa: $R = \\frac{L}{2} + 2$. Assim, $L + \\frac{L}{2} + 2 = 26$, o que dá $L = 16$ e $R = 10$.\n\nParis e Roma juntas: $52 + 10 = 62$.\n\n**Resposta: D**"
+  },
+  "22": {
+   "assunto": "Geometria analítica",
+   "resolucao": "Ser equidistante dos eixos significa $|x| = |y|$, isto é, estar na reta $y = x$ ou na reta $y = -x$.\n\n- Com $y = x$: $2x^2 - 8x + 2 = 0$, ou seja, $x^2 - 4x + 1 = 0$, e $x = 2 \\pm \\sqrt{3}$. São dois valores positivos: dois pontos no 1º quadrante.\n- Com $y = -x$: $2x^2 + 4x + 2 = 0$, ou seja, $(x+1)^2 = 0$, e $x = -1$, $y = 1$. É um único ponto, no 2º quadrante (a reta é tangente ao círculo).\n\nNo total, $F$ tem 3 pontos.\n\n**Resposta: D**"
+  },
+  "23": {
+   "assunto": "Estatística",
+   "resolucao": "O total pluviométrico é a altura de chuva por unidade de área. Para a cidade inteira, faça a média ponderada pelas áreas dos setores.\n\nNo fim de semana:\n- Setor Sul: $7 + 9 = 16$ mm;\n- Setor Norte: $11 + 17 = 28$ mm.\n\nMédia ponderada: $\\frac{16 \\cdot 10 + 28 \\cdot 30}{10 + 30} = \\frac{160 + 840}{40} = 25\\ \\text{mm}$.\n\nA distratora C (22 mm) é a média simples, que ignora as áreas.\n\n**Resposta: D**"
+  },
+  "24": {
+   "assunto": "Geometria plana",
+   "resolucao": "O problema diz que $AC = 2 \\cdot AB$ e $BC = 5$, com os três pontos na mesma reta. Ponha $A$ na origem, $B$ em $b$ e $C$ em $c$, com $|c| = 2|b|$.\n\n- $B$ e $C$ do mesmo lado de $A$: $c = 2b$, então $BC = |b| = 5$ e $AC = 10$.\n- $B$ e $C$ em lados opostos: $c = -2b$, então $BC = 3|b| = 5$, $|b| = \\frac{5}{3}$ e $AC = \\frac{10}{3}$.\n\nAs soluções são $\\frac{10}{3}$ e 10.\n\n**Resposta: A**"
+  },
+  "25": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto diz que as respostas submissas e de flerte dos assistentes a pedidos \"including outright abusive ones\" reforçam a ideia de mulheres subservientes, \"tolerant of poor treatment\".\n\nTambém cita a resposta da Siri a um insulto (\"I'd blush if I could\"), que trata a ofensa com flerte (\"greet verbal abuse with catch-me-if-you-can flirtation\").\n\nO efeito descrito é tornar normal o assédio sexista.\n\n**Resposta: B**"
+  },
+  "26": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto explica que o título \"I'd Blush if I Could\" é \"a reference to the response Apple's Siri assistant offers to the phrase: 'You're a slut.'\"\n\nÉ, portanto, a resposta pronta do assistente a um comando ofensivo, com um impropério. Nenhuma das outras alternativas tem apoio no texto.\n\n**Resposta: A**"
+  },
+  "27": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Saniye Gülser Corat diz que o mundo precisa prestar \"much closer attention to how, when and whether AI technologies are gendered and, crucially, who is gendering them\".\n\nEla pede, portanto, uma avaliação ampla de como essas tecnologias são concebidas e de quem as concebe, para identificar vieses de gênero (elementos tendenciosos).\n\nA alternativa B pode atrair por falar em mulheres, mas o texto não propõe monitoramento por empresas geridas por mulheres.\n\n**Resposta: E**"
+  },
+  "28": {
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "A graça do meme está no duplo sentido de \"buy her flowers\".\n\nA terapeuta quis dizer \"comprar flores para ela\", ou seja, dar flores à esposa. O marido entendeu \"comprar flores dela\", como se a esposa vendesse flores. Daí a resposta \"I never knew she sold flowers\".\n\nO humor vem dessa ambiguidade, e não da repetição de \"never\" nem das outras expressões.\n\n**Resposta: B**"
+  },
+  "29": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O terceiro parágrafo diz: \"If successful, DNA storage could be the answer to a uniquely 21st-century problem: information overload\".\n\nOu seja, o armazenamento em DNA pode resolver o excesso de dados digitais, que a infraestrutura atual não dá conta de guardar.\n\nA alternativa D pode confundir: o texto diz que o DNA precisa ficar mais barato para ler, gravar e empacotar, e não que precise ser adaptado a esse propósito.\n\n**Resposta: E**"
+  },
+  "30": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto é de 2018. \"Pouco mais de 20 anos\" depois leva a 2040, ano citado em: \"the coming data deluge, which is expected to consume all the world's microchip-grade silicon by 2040\".\n\nIsso é o que diz a alternativa B: armazenar todos os dados vai esgotar o silício próprio para microchips.\n\nA alternativa A é a distratora: a marca de 160 zettabytes é prevista para 2025, ou seja, cerca de 7 anos depois, e não 20.\n\n**Resposta: B**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 12,
+   "status": "corrigida",
+   "notas": "descrição da figura p06-f1 (tabela de pH) listava os valores sem dizer em que célula cada um está; agora dá linha (dado vermelho) e coluna (dado amarelo) de cada valor, para quem usa leitor de tela"
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 22,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 23,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 24,
+   "status": "corrigida",
+   "notas": "fala da tirinha: “how far is point A from C?” estava sem a palavra “point”; o original diz “how far is point A from point C?”. Descrição refeita: o primeiro quadro é um quadro de texto (não balão) e a fala final segue o original em maiúsculas, com NEED em destaque"
+  },
+  {
+   "numero": 25,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 26,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 27,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 28,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 30,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
