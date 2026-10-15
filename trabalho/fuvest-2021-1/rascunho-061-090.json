@@ -1,0 +1,405 @@
+{
+ "edicao": "fuvest-2021-1",
+ "textos_base": {
+  "t63-65": "*Uma última gargalhada estrondosa. E depois, o silêncio. O palhaço*\n*jazia imóvel no chão. Mas seu rosto continua sorrindo, para*\n*sempre. Porque a carreira original do Coringa era para durar*\n*apenas 30 páginas. O tempo de envenenar Gotham, sequestrar*\n[[5]]*Robin, enfiar um par de sopapos no Homem-Morcego e disparar*\n*o primeiro “vou te matar” da sua relação. Na briga final do*\nBatman nº 1<em>, o “horripilante bufão” sofria um final digno de sua</em>\n*desumana ironia: ao tropeçar, cravava sua própria adaga no*\n*peito. Assim decidiram e desenharam seus pais, os artistas Bill*\n[[10]]*Finger, Bob Kane e Jerry Robinson. Entretanto, o criminoso*\n*mostrou, já em sua primeira aventura, um enorme talento para*\n*se rebelar contra a ordem estabelecida. Seu carisma seduziu a*\n*editora DC Comics, que impôs o acréscimo de um quadrinho. Já*\n*dentro da ambulância, vinha à tona “um dado desconcertante”.*\n[[15]]*E então um médico sentenciava: “Continua vivo. E vai*\n*sobreviver!”.*\n\nTommaso Koch. “O Coringa completa 80 anos e na Espanha ganha duas HQs, que inspiram debates filosóficos sobre a liberdade”. *El País*. Junho/2020.",
+  "t68-69": "Romance LIII ou Das Palavras Aéreas\n\n*Ai, palavras, ai, palavras,*\n*que estranha potência, a vossa!*\n*Ai, palavras, ai, palavras,*\n*sois de vento, ides no vento,*\n*no vento que não retorna,*\n*e, em tão rápida existência,*\n*tudo se forma e transforma!*\n\n*Sois de vento, ides no vento,*\n*e quedais, com sorte nova! (...)*\n\n*Ai, palavras, ai, palavras,*\n*que estranha potência, a vossa!*\n*Perdão podíeis ter sido!*\n*– sois madeira que se corta,*\n*– sois vinte degraus de escada,*\n*– sois um pedaço de corda...*\n*– sois povo pelas janelas,*\n*cortejo, bandeiras, tropa...*\n\n*Ai, palavras, ai, palavras,*\n*que estranha potência, a vossa!*\n*Éreis um sopro na aragem...*\n*– sois um homem que se enforca!*\n\nCecília Meireles, *Romanceiro da Inconfidência*.",
+  "t78-80": "Psicanálise do açúcar\n\n*O açúcar cristal, ou açúcar de usina,*\n*mostra a mais instável das brancuras:*\n*quem do Recife sabe direito o quanto,*\n*e o pouco desse quanto, que ela dura.*\n*Sabe o mínimo do pouco que o cristal*\n*se estabiliza cristal sobre o açúcar,*\n*por cima do fundo antigo, de mascavo,*\n*do mascavo barrento que se incuba;*\n*e sabe que tudo pode romper o mínimo*\n*em que o cristal é capaz de censura:*\n*pois o tal fundo mascavo logo aflora*\n*quer inverno ou verão mele o açúcar.*\n\n*Só os banguês\\* que-ainda purgam ainda*\n*o açúcar bruto com barro, de mistura;*\n*a usina já não o purga: da infância,*\n*não de depois de adulto, ela o educa;*\n*em enfermarias, com vácuos e turbinas,*\n*em mãos de metal de gente indústria,*\n*<u>a usina o leva a sublimar em cristal</u>*\n*<u>o pardo do xarope</u>: não o purga, cura.*\n*Mas como a cana se cria ainda hoje,*\n*em mãos de barro de gente agricultura,*\n*o barrento da pré-infância logo aflora*\n*quer inverno ou verão mele o açúcar.*\n\nJoão Cabral de Melo Neto, *A Educação pela Pedra*.\n\n\\*banguê: engenho de açúcar primitivo movido a força animal.",
+  "t83-84": "Um dos indicadores de qualidade de mel é a presença do composto orgânico hidroximetilfurfural (HMF), formado a partir de certos açúcares, como a frutose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$). A tabela resume os teores de HMF permitidos de acordo com a legislação brasileira e recomendações internacionais.\n\n![Tabela com os teores de HMF (mg de HMF por kg de mel) e a utilização conforme a legislação: até 40 mg/kg, mel de mesa, utilizado para consumo humano direto; até 60 mg/kg, mel industrial e/ou subprodutos (legislação brasileira, Portaria Nº 6 do Ministério da Agricultura de 1985); até 80 mg/kg, para utilização de mel produzido em países com clima tropical (recomendação internacional contida no Codex Alimentarius, FAO)](fig:p24-c1)\n\nUma das possíveis rotas para a formação do HMF a partir da frutose é mostrada, de forma simplificada, no esquema:\n\n![Esquema da rota da frutose ao HMF: frutose, espécie 1, espécie 2 (com perda de H₂O entre 1 e 2), perda I, espécie 3, perda II e HMF; as perdas são indicadas por setas vermelhas](fig:p24-c2)\n\nNas setas, são mostradas as perdas de moléculas ou grupos químicos em cada etapa. Por exemplo, entre as espécies 1 e 2, ocorrem a saída de uma molécula de água e a formação de uma ligação dupla entre carbonos."
+ },
+ "questoes": [
+  {
+   "numero": 62,
+   "materia": "ingles",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia os provérbios:\n\n![Quadro com três provérbios em inglês: 1. Don´t count your chickens before they lay eggs. 2. Don´t bite the hand that feeds you. 3. Every cloud has a silver lining.](fig:p18-f1)\n\nA alternativa que melhor expressa a ideia contida em cada um dos três provérbios, na ordem em que aparecem, é:",
+   "alternativas": {
+    "A": "Esperteza; desconfiança; foco.",
+    "B": "Precipitação; ingratidão; esperança.",
+    "C": "Observação; certeza; experiência.",
+    "D": "Exagero; harmonia; desaprovação.",
+    "E": "Orgulho; desprezo; teimosia."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 63,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t63-65",
+   "enunciado": "No fragmento “**ao tropeçar**, cravava sua própria adaga no peito.” (L. 8-9), a oração em negrito abrange, simultaneamente, as noções de",
+   "alternativas": {
+    "A": "proporção e explicação.",
+    "B": "causa e proporção.",
+    "C": "tempo e consequência.",
+    "D": "explicação e consequência.",
+    "E": "tempo e causa."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 64,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t63-65",
+   "enunciado": "As vírgulas em “E depois, o silêncio.” (L. 1) e em “Mas seu rosto continua sorrindo, para sempre.” (L. 2-3) são usadas, respectivamente, com a mesma finalidade que as vírgulas em",
+   "alternativas": {
+    "A": "“Após a queda, tomaram mais cuidado.” e “Quanto mais espaço, mais liberdade.”.",
+    "B": "“Aos estrangeiros, ofereceram iguarias.” e “Limpavam a casa, e preparávamos as refeições.”.",
+    "C": "“Colheram trigo e nós, algodão.” e “Eles se encontraram nas férias, mas não viajaram.”.",
+    "D": "“Para meus amigos, o melhor.” e “Organizava tudo, cautelosamente.\".",
+    "E": "“Viu o espetáculo, considerado o maior fenômeno de bilheteria.” e “‘Conheço muito bem’, afirmou o rapaz.”."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 65,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t63-65",
+   "enunciado": "Em “Seu carisma seduziu a editora DC Comics, que impôs o acréscimo de um quadrinho.” (L. 12-13), o vocábulo “que” possui a mesma função sintática desempenhada no texto por",
+   "alternativas": {
+    "A": "“imóvel” (L. 2).",
+    "B": "“Robin” (L. 5).",
+    "C": "“seus pais” (L. 9).",
+    "D": "“se” (L. 12).",
+    "E": "“vivo” (L. 15)."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 66,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*– Posso furar os olhos do povo?*\n*Esta frase besta foi repetida muitas vezes e, em falta de coisa melhor, aceitei-a. Sem dúvida. As mulheres hoje não vivem como antigamente, escondidas, evitando os homens. Tudo é descoberto, cara a cara. Uma pessoa topa outra. Se gostou, gostou; se não gostou, até logo. E eu de fato não tinha visto nada. As aparências mentem. A terra não é redonda? Esta prova da inocência de Marina me pareceu considerável. Tantos indivíduos condenados injustamente neste mundo ruim! O retirante que fora encontrado violando a filha de quatro anos – estava aí um exemplo. As vizinhas tinham visto o homem afastando as pernas da menina, todo o mundo pensava que ele era um monstro. Engano. Quem pode lá jurar que isto é assim ou assado? Procurei mesmo capacitar-me de que Julião Tavares não existia. Julião Tavares era uma sensação. Uma sensação desagradável, que eu pretendia afastar de minha casa quando me juntasse àquela sensação agradável que ali estava a choramingar.*\n\nGraciliano Ramos, *Angústia*.\n\nEm termos críticos, esse fragmento permite observar que, no plano maior do romance *Angústia*, o ponto de vista",
+   "alternativas": {
+    "A": "se acomoda nos limites da vulgaridade.",
+    "B": "tenta imitar a retórica dos dominantes.",
+    "C": "reproduz a lógica do determinismo social.",
+    "D": "atinge a neutralidade do espírito maduro.",
+    "E": "revira os lados contrários da opinião."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 67,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*Terça é dia de Veneza revelar as atrações de seu festival anual, cuja 77ª edição começa no dia 2 de setembro, com a dramédia “Lacci”, do romano Daniele Luchetti, seguindo até 12/9, com 50 produções internacionais e uma expectativa (extraoficial) de colocar “West Side Story”, de Steven Spielberg, na ribalta.*\n\nRodrigo Fonseca. “À espera dos rugidos de Veneza”. *O Estado de S. Paulo*. Julho/2020. Adaptado.\n\nUm processo de formação de palavras em língua portuguesa é o *cruzamento vocabular*, em que são misturadas pelo menos duas palavras na formação de uma terceira. A força expressiva dessa nova palavra resulta da síntese de significados e do inesperado da combinação, como é o caso de “dramédia” no texto. Ocorre esse mesmo tipo de formação em",
+   "alternativas": {
+    "A": "“deleitura” e “namorido”.",
+    "B": "“passatempo” e “microvestido”.",
+    "C": "“hidrelétrica” e “sabiamente”.",
+    "D": "“arenista” e “girassol”.",
+    "E": "“planalto” e “multicor”."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 68,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t68-69",
+   "enunciado": "Ao substituir a pessoa verbal utilizada para se referir ao substantivo \"palavras\" pela 3ª pessoa do plural, os verbos dos versos “**sois** de vento, **ides** no vento,” (v. 4) / “Perdão **podíeis** ter sido!” (v. 12) / “**Éreis** um sopro na aragem...” (v. 20) seriam conjugados conforme apresentado na alternativa:",
+   "alternativas": {
+    "A": "são, vão, podiam, eram.",
+    "B": "seriam, iriam, podiam, serão.",
+    "C": "eram, foram, poderiam, seriam.",
+    "D": "são, vão, poderiam, eram.",
+    "E": "eram, iriam, podiam, seriam."
+   },
+   "observacoes": "Os versos não vêm numerados no caderno; a questão 68 cita v. 4, v. 12 e v. 20 (contagem sem as linhas em branco)."
+  },
+  {
+   "numero": 69,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": "t68-69",
+   "enunciado": "A “estranha potência” que a voz lírica ressalta nas palavras decorre de uma combinação entre",
+   "alternativas": {
+    "A": "fluidez nos ventos do presente e conteúdo fixo no passado.",
+    "B": "forma abstrata no espaço e presença concreta na história.",
+    "C": "leveza impalpável na arte e vigor nos documentos antigos.",
+    "D": "sonoridade ruidosa nos ares e significado estável no papel.",
+    "E": "lirismo irrefletido da poesia e peso justo dos acontecimentos."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 70,
+   "materia": "literatura",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "*Alferes, Ouro Preto em sombras*\n*Espera pelo batizado,*\n*Ainda que tarde sobre a morte do sonhador*\n*Ainda que tarde sobre as bocas do traidor.*\n*Raios de sol brilharão nos sinos:*\n*Dez vias dar.*\n\n*Ai Marília, as liras e o amor*\n*Não posso mais sufocar*\n*E a minha voz irá*\n*Pra muito além do desterro e do sal,*\n*Maior que a voz do rei.*\n\nAldir Blanc e João Bosco, trecho da canção “Alferes”, de 1973.\n\nA imagem de Tiradentes – a quem Cecília Meireles qualificou “o Alferes imortal, radiosa expressão dos mais altos sonhos desta cidade, do Brasil e do próprio mundo”, em palestra feita em Ouro Preto – torna a aparecer como símbolo da luta pela liberdade em vários momentos da cultura nacional. Os versos do letrista Aldir Blanc evocam, em novo contexto, o mártir sonhador para resistir ao discurso",
+   "alternativas": {
+    "A": "da doutrina revolucionária de ligas politicamente engajadas.",
+    "B": "da historiografia, que minimizou a importância de Tiradentes.",
+    "C": "de autoritarismo e opressão, próprio da ditadura militar.",
+    "D": "dos poetas árcades, que se dedicavam às suas liras amorosas.",
+    "E": "da tirania portuguesa sobre os mineradores no ciclo do ouro."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 71,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "I\n\n*– Traíste-me, Sem Medo. Tu traíste-me.*\n*(...)*\n*Sabes o que tu és afinal, Sem Medo? És um ciumento. Chego a pensar se não és homossexual. Tu querias-me só, como tu. Um solitário do Mayombe. (...) Desprezo-te. (...) Nunca me verás atrás de uma garrafa vazia. (...) Cada sucesso que eu tiver, será a paga da tua bofetada, pois não serei um falhado como tu.*\n\nPepetela, *Mayombe*. Adaptado.\n\nII\n\n*– Peço-te perdão, Sem Medo. Não te compreendi, fui um imbecil. E quis igualar o inigualável.*\n\nPepetela, *Mayombe*.\n\nEsses excertos de *Mayombe* referem-se a conversas entre as personagens Comissário e Sem Medo em momentos distintos do romance. Em I e II, as falas do Comissário revelam, respectivamente,",
+   "alternativas": {
+    "A": "incompatibilidade étnica entre ele e Sem Medo, por pertencerem a linhagens diferentes, e superação de sua hostilidade tribal.",
+    "B": "decepção, por Sem Medo não ter intercedido a seu favor na conversa com Ondina, e desespero diante do companheiro baleado.",
+    "C": "suspeita de traição de Ondina e tomada de consciência de que isso não passara de uma crise de ciúme dele.",
+    "D": "forte tensão homoafetiva entre ele e Sem Medo, e aceitação da verdadeira orientação sexual do companheiro.",
+    "E": "ira, diante do anticatolicismo de Sem Medo, e culpa que o atinge ao perceber que sua demonstração de coragem colocara o companheiro em risco."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 75,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "*Rubião fitava a enseada, – eram oito horas da manhã. Quem o visse, com os polegares metidos no cordão do chambre, à janela de uma grande casa de Botafogo, cuidaria que ele admirava aquele pedaço de água quieta; mas em verdade vos digo que pensava em outra coisa. Cotejava o passado com o presente. Que era, há um ano? Professor. Que é agora! Capitalista. Olha para si, para as chinelas (umas chinelas de Túnis, que lhe deu recente amigo, Cristiano Palha), para a casa, para o jardim, para a enseada, para os morros e para o céu; e tudo, desde as chinelas até o céu, tudo entra na mesma sensação de propriedade.*\n*– Vejam como Deus escreve direito por linhas tortas, pensa ele. Se mana Piedade tem casado com Quincas Borba, apenas me daria uma esperança colateral. Não casou; ambos morreram, e aqui está tudo comigo; de modo que o que parecia uma desgraça...*\n\nMachado de Assis, *Quincas Borba*.\n\nO primeiro capítulo de *Quincas Borba* já apresenta ao leitor um elemento que será fundamental na construção do romance:",
+   "alternativas": {
+    "A": "a contemplação das paisagens naturais, como se lê em “ele admirava aquele pedaço de água quieta”.",
+    "B": "a presença de um narrador-personagem, como se lê em “em verdade vos digo que pensava em outra coisa”.",
+    "C": "a sobriedade do protagonista ao avaliar o seu percurso, como se lê em “Cotejava o passado com o presente”.",
+    "D": "o sentido místico e fatalista que rege os destinos, como se lê em “Deus escreve direito por linhas tortas”.",
+    "E": "a reversibilidade entre o cômico e o trágico, como se lê em “de modo que o que parecia uma desgraça...”."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 76,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Remissão\n\n*Tua memória, pasto de poesia,*\n*tua poesia, pasto dos vulgares,*\n*vão se engastando numa coisa fria*\n*a que tu chamas: vida, e seus pesares.*\n\n*Mas, pesares de quê? perguntaria,*\n*se esse travo de angústia nos cantares,*\n*se o que dorme na base da elegia*\n*vai correndo e secando pelos ares,*\n\n*e nada resta, mesmo, do que escreves*\n*e te forçou ao exílio das palavras,*\n*senão contentamento de escrever,*\n\n*enquanto o tempo, e suas formas breves*\n*ou longas, que sutil interpretavas,*\n*se evapora no fundo do teu ser?*\n\nCarlos Drummond de Andrade, *Claro enigma*.\n\n*Claro enigma* apresenta, por meio do lirismo reflexivo, o posicionamento do escritor perante a sua condição no mundo. Considerando-o como representativo desse seu aspecto, o poema “Remissão”",
+   "alternativas": {
+    "A": "traduz a melancolia e o recolhimento do eu lírico em face da sensação de incomunicabilidade com uma realidade indiferente à sua poesia.",
+    "B": "revela uma perspectiva inconformada, mesclando-a, livre da indulgência dos anos anteriores, a um novo formalismo estético.",
+    "C": "propõe, como reação do poeta à vulgaridade do mundo, uma poética capaz de interferir na realidade pelo viés nostálgico.",
+    "D": "reflete a visão idealizada do trabalho do poeta e a consciência da perenidade da poesia, resistente à passagem do tempo.",
+    "E": "realiza a transição do lirismo social para o lirismo metafísico, caracterizado pela adesão ao conforto espiritual e ao escapismo imaginativo."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 77,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Tirinha de Quino com Mafalda e um menino sentado. O menino pergunta: “E você? O que você toma pra ficar melhor?”. Mafalda responde: “Eu tomo distância.”](fig:p22-c4)\n\n*Mafalda*, Quino.\n\nO efeito de humor presente nas falas das personagens decorre",
+   "alternativas": {
+    "A": "da quebra de expectativa gerada pela polissemia.",
+    "B": "da ambiguidade causada pela antonímia.",
+    "C": "do contraste provocado pela fonética.",
+    "D": "do contraste introduzido pela neologia.",
+    "E": "do estranhamento devido à morfologia."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 78,
+   "materia": "literatura",
+   "materias_extra": [],
+   "texto_base": "t78-80",
+   "enunciado": "Os últimos quatro versos do poema rompem com a série de contrapontos entre a usina e o banguê, pois",
+   "alternativas": {
+    "A": "negam haver diferença química entre o açúcar cristal e o açúcar mascavo.",
+    "B": "esclarecem que a aparência do açúcar varia com a espécie de cana cultivada.",
+    "C": "revelam que na base de toda empresa açucareira está o trabalhador rural.",
+    "D": "denunciam a exploração do trabalho infantil nos canaviais nordestinos.",
+    "E": "explicam que a estação do ano define em qualquer processo o tipo de açúcar."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 79,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": "t78-80",
+   "enunciado": "Na oração “que <u>ela</u> dura” (v. 4), o pronome sublinhado",
+   "alternativas": {
+    "A": "não tem referente.",
+    "B": "retoma a palavra \"usina\" (v. 1).",
+    "C": "pode ser substituído por “ele”, referindo-se a “açúcar” (v. 1).",
+    "D": "refere-se à \"mais instável das brancuras\" (v. 2).",
+    "E": "equivale à palavra \"censura\" (v. 10)."
+   },
+   "observacoes": "Os versos não vêm numerados no caderno; a questão 79 cita v. 1, v. 2, v. 4 e v. 10 (contagem sem as linhas em branco)."
+  },
+  {
+   "numero": 80,
+   "materia": "quimica",
+   "materias_extra": [
+    "literatura"
+   ],
+   "texto_base": "t78-80",
+   "enunciado": "Observe o diagrama que mostra, de forma simplificada, o processo de fabricação do açúcar.\n\n![Diagrama do processo de fabricação do açúcar: cana de açúcar, por moagem, vira caldo bruto; por purificação, vira xarope; por cozimento e cristalização, vira cristais + xarope; por centrifugação, vira açúcar + melaço](fig:p23-c2)\n\nDisponível em https://sistemas.eel.usp.br/. Adaptado.\n\nConsiderando essas informações e seu conhecimento sobre separação de misturas e transformações químicas e físicas, no trecho grifado no poema, o termo sublimar é usado",
+   "alternativas": {
+    "A": "corretamente para mostrar como do líquido (xarope) é extraído o cristal de açúcar através do processo de evaporação do sólido e secagem.",
+    "B": "em um sentido amplo do processo, já que não corresponde ao que ocorre com o cristal de açúcar, e sim com o melaço, que se separa do xarope.",
+    "C": "metaforicamente, já que ocorre a precipitação do açúcar com o cozimento do xarope, que é separado por centrifugação.",
+    "D": "incorretamente, já que a obtenção do açúcar a partir do xarope é uma reação química direta que não necessita de processo de separação.",
+    "E": "em seu sentido literal, já que o açúcar está na fase sólida, no xarope, e passa à fase vapor com o cozimento, formando então cristais de açúcar puro."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 81,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Meme com fundo escuro e o texto “Atenção Família — Há 1 impostor entre nós”, com personagens do jogo Among Us carregando os símbolos Cs, H, K, Na, Li, Rb e Fr; assinatura Dr. Química](fig:p23-f2)\n\nDisponível em: https://twitter.com/DoutorQuimica/.\n\nO meme ao lado brinca com conceitos de química em um jogo popular, cujo objetivo é que os jogadores descubram o impostor entre os tripulantes de naves e estações espaciais. Nele, um dos elementos é considerado o impostor por sua característica química diferente.\n\nNesse contexto, é correto afirmar que o impostor seria o elemento:",
+   "alternativas": {
+    "A": "H, por ser um elemento com grande tendência a fazer ligação covalente em uma família com tendência a fazer ligação iônica.",
+    "B": "Na, por ser o único que pode ser obtido em sua forma metálica, ao contrário dos demais membros da família, que formam apenas óxidos.",
+    "C": "K, por ter raio atômico atipicamente grande, sendo maior do que os elementos abaixo dele na tabela periódica.",
+    "D": "Cs, por pertencer à família 2 da tabela periódica, enquanto os demais pertencem à 1, formando cátions +2.",
+    "E": "Fr, por reagir violentamente com a água, devido ao seu pequeno raio atômico, liberando muito calor, diferentemente dos demais elementos da família."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 82,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Classificação periódica dos elementos, com os elementos Ti, Cu, Ru, Rh, Pd, Re, Os, Ir, Pt e Au destacados em cinza](fig:p23-f3)\n\nUm experimento expôs uma barra de titânio (Ti) pura e ligas desse material com 0,01% de diferentes metais nobres a soluções de ácido sulfúrico em ebulição para entender o efeito anticorrosivo desses metais no titânio. O resultado é mostrado na tabela a seguir:\n\n![Tabela da taxa de corrosão do titânio em H₂SO₄ em ebulição (em quantidade por tempo), para H₂SO₄ 1% e H₂SO₄ 10%, conforme o metal presente na liga com o Ti (0,01%): Pd, Rh, Pt, Ru, Ir, Os, Re, Cu, Au e Ti puro](fig:p23-c1)\n\n\\*Não foi possível medir.\n\nCom base nessas informações, é correto afirmar:",
+   "alternativas": {
+    "A": "O aumento na concentração de ácido sulfúrico nos experimentos fez com que o titânio puro fosse mais corroído e o titânio com Pd, Rh e Pt fosse menos corroído.",
+    "B": "Para Re, Cu e Au, espera-se que a reação com ácido sulfúrico mais concentrado demore muito para acontecer e, por isso, não foi possível medir.",
+    "C": "A escala de potencial anticorrosivo, segundo esse experimento, é dada por Au > Cu > Re > Os > Ir > Ru > Pt > Pd > Rh.",
+    "D": "Pd, Rh, Pt e Ru apresentam os melhores resultados como anticorrosivos, enquanto Cu e Au apresentaram os piores.",
+    "E": "O titânio puro é muito resistente ao ácido, e a adição de outros metais não faz nenhuma diferença para a taxa de corrosão."
+   },
+   "observacoes": "A Classificação Periódica aparece impressa no alto da coluna, antes do enunciado da 82 (com os elementos da questão em cinza); foi mantida como figura da questão."
+  },
+  {
+   "numero": 83,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": "t83-84",
+   "enunciado": "De acordo com o esquema mostrado, as perdas indicadas como I e II correspondem a:",
+   "alternativas": {
+    "A": "1 × $\\text{H}_2\\text{O}$ e 1 × $-\\text{CH}_2$",
+    "B": "2 × $\\text{OH}^-$",
+    "C": "2 × $\\text{H}_2\\text{O}$",
+    "D": "1 × $-\\text{CH}_2$ e 1 × $\\text{OH}^-$",
+    "E": "1 × $\\text{H}_2\\text{O}$ e 1 × $\\text{OH}^-$"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 84,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": "t83-84",
+   "enunciado": "Um frasco contendo 500 g de mel produzido no Brasil foi analisado e concluiu-se que 0,2 milimol de frutose foi convertido em HMF. Considerando apenas esse parâmetro de qualidade e tendo como referência os teores recomendados por órgãos nacionais e internacionais, mostrados na tabela, é correto afirmar que esse mel\n\n**Note e adote:**\nMassa molar (g/mol): HMF = 126\nDesconsidere qualquer possibilidade de contaminação do mel por fonte externa de HMF.",
+   "alternativas": {
+    "A": "é recomendado como mel de mesa, assim como para outros usos que se façam necessários, segundo a legislação brasileira.",
+    "B": "não pode ser usado como mel de mesa, mas pode ser usado para fins industriais, segundo a legislação brasileira.",
+    "C": "pode ser usado para fins industriais, segundo a legislação brasileira, mas não deveria ser usado para nenhum fim, segundo a recomendação internacional.",
+    "D": "não pode ser usado nem como mel de mesa nem para fins industriais, segundo a legislação brasileira, mas poderia ser utilizado segundo a recomendação internacional.",
+    "E": "não pode ser usado para qualquer aplicação, tanto segundo a legislação brasileira quanto segundo a recomendação internacional."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 85,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Observe a representação a seguir, em que os círculos brancos representam uma espécie química (molécula ou íon molecular) e os círculos coloridos, outra.\n\n![Três quadros ligados por setas: no primeiro, círculos brancos e coloridos dispersos; no segundo, círculos brancos e coloridos parcialmente unidos em pequenas cadeias; no terceiro, círculos brancos e coloridos unidos formando uma rede](fig:p24-f3)\n\nEssa representação pode ser corretamente associada à",
+   "alternativas": {
+    "A": "combustão de um hidrocarboneto com oxigênio em fase gasosa.",
+    "B": "formação de um polímero a partir de duas espécies de monômeros.",
+    "C": "fusão de uma mistura de dois sais com aumento da temperatura.",
+    "D": "solidificação da água pura com diminuição da temperatura.",
+    "E": "produção de anéis aromáticos em solvente orgânico."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 86,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No fragmento a seguir, o autor explora conceitos químicos na forma de poesia:\n\n![Poema “Químico apaixonado”, com nove linhas numeradas: 1. Sua presença é “C₂H₅OH(l)+3O₂(g) → 2CO₂(g)+3H₂O(g)” de sentimento; 2. É explosão de “C₆H₁₂O₆(aq)+6O₂(g) → 6CO₂(g)+6H₂O(l)+ATP”; 3. É [duas estruturas de ressonância do ozônio, ligadas por seta de duas pontas] de pensamento; 4. Sinergia; 5. Sua ausência, meu desalento; 6. “4Fe(s)+3O₂(g) → 2Fe₂O₃(s)” o meu ser; 7. Um modelo incompleto, [desenho de um elétron em trajetória espiral em direção a um núcleo positivo]; 8. Impede-me de viver; 9. Morte em pleno deserto.](fig:p25-c1)\n\nWilmo Ernesto Francisco Junior, *Ciência em prosa e verso - Acepipes para quem ousa gostar (ou ensinar)*, 2018 (adaptado), apud Lopes, M.J.M. Dissertação de Mestrado, 2019. Disponível em http://www.repositorio.ufal.br/.\n\nSobre os conceitos mencionados, foram feitas as seguintes afirmações:\n\nI. A equação química mostrada na linha 2 pode ser associada à liberação de energia, pois corresponde à reação de fotossíntese com consumo de gás carbônico.\nII. A equação química apresentada na linha 6 representa uma reação na qual o número de oxidação das espécies é alterado, sendo associada a corrosão.\nIII. O modelo incompleto referido na linha 7 refere-se ao proposto por Thomson, que identificava a presença de partículas com carga negativa dentro de uma esfera.\n\nEstá correto o que se afirma no(s) item(ns):",
+   "alternativas": {
+    "A": "I, apenas.",
+    "B": "II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "observacoes": "Item II: 'sendo associada a corrosão' (sem crase) é como está impresso."
+  },
+  {
+   "numero": 87,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Para estudar equilíbrio químico de íons $\\text{Co}^{2+}$ em solução, uma turma de estudantes realizou uma série de experimentos explorando a seguinte reação:\n\n![Equação química do equilíbrio: [Co(H₂O)₆]²⁺(aq) em vermelho, rotulado “Vermelho”, mais 4 Cℓ⁻(aq), em equilíbrio com [CoCℓ₄]²⁻(aq) em azul, rotulado “Azul”, mais 6 H₂O(ℓ)](fig:p25-c2)\n\nNesse equilíbrio, o composto de cobalto com água, $[\\text{Co}(\\text{H}_2\\text{O})_6]^{2+}$(aq), apresenta coloração vermelha, enquanto o composto com cloretos, $[\\text{CoC}\\ell_4]^{2-}$(aq), possui coloração azul.\n\nPara verificar o efeito de ânions de diferentes sais nessa mudança de cor, 7 ensaios diferentes foram realizados. Aos tubos contendo apenas alguns mL de uma solução de nitrato de cobalto II, de coloração vermelha, foram adicionadas pequenas quantidades de diferentes sais em cada tubo, como apresentado na tabela, com exceção do ensaio 1, no qual nenhum sal foi adicionado.\n\nApós agitação, os tubos foram deixados em repouso por um tempo, e a cor final foi observada.\n\n| Ensaio | Sal adicionado | Cor inicial | Cor final |\n|---|---|---|---|\n| 1 | Nenhum | Vermelha | Vermelha |\n| 2 | KCℓ | Vermelha | Azul |\n| 3 | $\\text{Na}_2\\text{SO}_4$ | Vermelha | Vermelha |\n| 4 | CuCℓ | Vermelha | Vermelha |\n| 5 | $\\text{K}_2\\text{SO}_4$ | Vermelha | ? |\n| 6 | AgCℓ | Vermelha | ? |\n| 7 | NaCℓ | Vermelha | ? |\n\nA alternativa que representa a cor final observada nos ensaios 5, 6 e 7, respectivamente, é:\n\n**Note e adote:**\nSolubilidade dos sais em g/100 mL de água a 20 °C\nAgCℓ: $1{,}9\\times10^{-4}$\nCuCℓ: $9{,}9\\times10^{-3}$\nKCℓ: 34,2\nNaCℓ: 35,9\n$\\text{Na}_2\\text{SO}_4$: 13,9\n$\\text{K}_2\\text{SO}_4$: 11,1",
+   "alternativas": {
+    "A": "Ensaio 5 (adição de $\\text{K}_2\\text{SO}_4$): Azul; Ensaio 6 (adição de AgCℓ): Azul; Ensaio 7 (adição de NaCℓ): Vermelha",
+    "B": "Ensaio 5 (adição de $\\text{K}_2\\text{SO}_4$): Azul; Ensaio 6 (adição de AgCℓ): Vermelha; Ensaio 7 (adição de NaCℓ): Azul",
+    "C": "Ensaio 5 (adição de $\\text{K}_2\\text{SO}_4$): Vermelha; Ensaio 6 (adição de AgCℓ): Azul; Ensaio 7 (adição de NaCℓ): Azul",
+    "D": "Ensaio 5 (adição de $\\text{K}_2\\text{SO}_4$): Vermelha; Ensaio 6 (adição de AgCℓ): Vermelha; Ensaio 7 (adição de NaCℓ): Azul",
+    "E": "Ensaio 5 (adição de $\\text{K}_2\\text{SO}_4$): Vermelha; Ensaio 6 (adição de AgCℓ): Azul; Ensaio 7 (adição de NaCℓ): Vermelha"
+   },
+   "observacoes": "As alternativas são uma tabela no caderno (colunas Ensaio 5, 6 e 7, sob o título 'Cor final obtida no:'); foram escritas em linha, com o cabeçalho de cada coluna repetido em cada alternativa. As solubilidades do 'Note e adote' (tabela de 3 linhas e 4 colunas) foram escritas como lista."
+  },
+  {
+   "numero": 88,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A reação de Maillard, que ocorre entre aminoácidos e carboidratos redutores, é a responsável por formar espécies que geram compostos coloridos que conferem o sabor característico de diversos alimentos assados. Um exemplo é a reação entre a glicina e um carboidrato redutor mostrada na equação em que R representa uma cadeia genérica:\n\n![Equação química: glicina mais carboidrato redutor, formando o intermediário mais H₂O e CO₂ (R representa uma cadeia genérica)](fig:p26-f1)\n\nUm aminoácido específico (Composto 1), ao reagir com o carboidrato redutor, pode gerar o Composto 2, levando à formação de acrilamida, uma espécie potencialmente carcinogênica, conforme mostrado na equação:\n\n![Equação química: Composto 1 (representado por um quadro vazio) mais carboidrato redutor, formando o Composto 2 mais H₂O e CO₂](fig:p26-f2)\n\nA estrutura do aminoácido marcado como Composto 1 e que é capaz de gerar esse intermediário de espécies carcinogênicas é:",
+   "alternativas": {
+    "A": "![Alternativa A: estrutura química com grupos ácido carboxílico (COOH), amina (NH₂) e amida (CONH₂)](fig:p26-f3)",
+    "B": "![Alternativa B: estrutura química com grupos amida (H₂N–C=O), imina (=NH) e aldeído (CHO)](fig:p26-f5)",
+    "C": "![Alternativa C: estrutura química da 3-hidroxipropanamida, H₂N–C(=O)–CH₂–CH₂–OH](fig:p26-f7)",
+    "D": "![Alternativa D: estrutura química com dois grupos amida (CONH₂) ligados a um CH₂](fig:p26-f4)",
+    "E": "![Alternativa E: estrutura química com grupos amida (CONH₂), amina (NH₂) e ácido carboxílico (COOH)](fig:p26-f6)"
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 89,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em aquários de água marinha, é comum o uso do equipamento chamado “*Skimmer*”, aparato em que a água recebe uma torrente de bolhas de ar, como representado na figura, levando a matéria orgânica até a superfície, onde pode ser removida. Essa matéria orgânica eliminada é composta por moléculas orgânicas com parte apolar e parte polar, enquanto as bolhas formadas têm caráter apolar. Esse aparelho, no entanto, tem rendimento muito menor em aquários de água doce (retira menos quantidade de material orgânico por período de uso).\n\n![Esquema do aparelho Skimmer, com entrada de água à esquerda e saída de água à direita](fig:p26-c1)\n\nDisponível em https://blog.marinedepot.com/. Adaptado.\n\nConsiderando que todas as outras condições são mantidas, o menor rendimento desse aparato em água doce do que em água salgada pode ser explicado porque",
+   "alternativas": {
+    "A": "a polaridade da molécula de água na água doce é maior do que na água salgada, tornando as partes apolares das moléculas orgânicas mais solúveis.",
+    "B": "a menor concentração de sais na água doce torna as regiões apolares das moléculas orgânicas mais solúveis do que na água salgada, prejudicando a interação com as bolhas de ar.",
+    "C": "a água doce é mais polar do que água salgada por ser mais concentrada em moléculas polares como a do açúcar, levando as partes polares das moléculas orgânicas a interagir mais com a água doce.",
+    "D": "a reatividade de matéria orgânica em água salgada é maior do que em água doce, fazendo com que exista uma menor quantidade de material dissolvido para interação com as bolhas de ar.",
+    "E": "a concentração de sais na água marinha é maior, o que torna as partes apolares das moléculas orgânicas mais propensas a interagir com os sais dissolvidos, promovendo menor interação com as bolhas de ar."
+   },
+   "observacoes": "No caderno a figura fica à direita do primeiro parágrafo (texto contornando a figura); foi posta depois do parágrafo."
+  },
+  {
+   "numero": 90,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A destilação é um processo utilizado para separar compostos presentes em uma mistura com base nas suas propriedades físicas como, por exemplo, a diferença de temperatura de ebulição, a uma dada pressão, entre os componentes da mistura.\n\nRecentemente esse termo passou a figurar em estudos de poluição ambiental, nos quais o termo “destilação global” é utilizado para explicar a presença de compostos voláteis, como os pesticidas organoclorados, em águas e gelos de regiões polares, ainda que estes compostos nunca tenham sido produzidos ou utilizados nessas regiões. Com base no princípio da técnica da destilação, como pode ser explicada a presença desses pesticidas na Antártica e no Ártico?",
+   "alternativas": {
+    "A": "Eles são destilados nas águas aquecidas dos oceanos e levados pelas correntes marinhas para as regiões polares, onde se precipitam devido às águas frias dessas regiões.",
+    "B": "Eles evaporam nas regiões mais quentes e são levados pelas correntes atmosféricas para regiões mais frias como os polos, onde se condensam e voltam para a superfície.",
+    "C": "Após destilados, eles se tornam resistentes à degradação, de forma que alcançam todo o planeta, pela ação de correntes marinhas, inclusive as regiões polares.",
+    "D": "Os pesticidas organoclorados destilados, por conta da eletronegatividade dos átomos de cloro, têm afinidade com o gelo, o que faz com que eles se acumulem na Antártica ou no Ártico.",
+    "E": "Por serem hidrofílicos, eles são condensados juntamente com a água nas regiões quentes do planeta e se precipitam nos polos juntamente com o gelo."
+   },
+   "observacoes": ""
+  }
+ ]
+}
