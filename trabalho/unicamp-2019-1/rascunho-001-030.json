@@ -131,9 +131,7 @@
     {
       "numero": 12,
       "materia": "literatura",
-      "materias_extra": [
-        "historia"
-      ],
+      "materias_extra": [],
       "texto_base": null,
       "enunciado": "Sobre as representações históricas da morte no Ocidente, Philippe Ariès e Alcir Pécora comentam:\n\n“O moribundo está deitado, cercado por seus amigos e familiares. Está prestes a executar os ritos que bem conhecemos. (...) Seres sobrenaturais invadiram o quarto e se comprimem na cabeceira do ‘jacente’. A grande reunião que nos séculos XII e XIII tinha lugar no final dos tempos se faz, então, a partir do século XV, no quarto do enfermo.”\n\n(Philippe Ariès, *História da morte no Ocidente:* da Idade Média aos nossos dias. Rio de Janeiro: Nova Fronteira, 2012, p. 53.)\n\n“(...) essa espécie de arte de morrer de Vieira se opõe à tradição das *artes moriendi* fundadas na preparação para a ‘última prova’ que acontece apenas no quarto do moribundo. Não é mais lá que se decide a salvação ou a condenação do cristão, mas no exato momento de suas escolhas e ações ao longo da vida, vale dizer, na resolução adequada a ser tomada *hic et nunc* (aqui e agora).”\n\n(Alcir Pécora, A arte de morrer, segundo Vieira, em Antonio Vieira, *Sermões de quarta-feira de cinza*. Campinas, SP: Editora da Unicamp, 2016. p.51.)\n\nCom base nos excertos anteriores e na leitura dos três Sermões de Quarta-feira de Cinza, assinale a alternativa correta.",
       "alternativas": {
@@ -177,9 +175,7 @@
     {
       "numero": 15,
       "materia": "fisica",
-      "materias_extra": [
-        "literatura"
-      ],
+      "materias_extra": [],
       "texto_base": null,
       "enunciado": "Na opinião de Klaus R. Mecke, professor no Instituto de Física Teórica da Universidade de Stuttgart, Alemanha, o uso da linguagem da física na literatura obedeceria ao seguinte propósito:\n\nUma função literária central da fórmula seria simbolizar a violência. A fórmula torna-se metáfora para a violência, para o calculismo desumano, para a morte e para a fria mecânica - para o golpe de força. Recorde-se também *O Pêndulo de Foucault*, de Umberto Eco, em que a fórmula do pêndulo caracteriza o estrangulamento de um ser humano. Passo a citar: “O período de oscilação, $T$, é independente da massa do corpo suspenso (igualdade de todos os homens perante Deus)...”. Também aqui a fórmula constitui uma referência irônica à marginalização do sujeito, reduzido à “massa inerte” suspensa.\n\n(Adaptado de Klaus R. Mecke, A imagem da Física na Literatura. *Gazeta de Física*, 2004, p. 6-7.)\n\nSegundo Mecke, a função literária de algumas noções da Física, presentes em determinados romances, expressa",
       "alternativas": {
@@ -187,6 +183,209 @@
         "B": "a revogação parcial das leis da natureza, e o uso da independência do período do pêndulo simples com a massa do corpo suspenso, feito por Umberto Eco, está correto.",
         "C": "a concordância quanto ao modo como representamos a natureza, mas o uso da independência do período do pêndulo simples com a massa do corpo suspenso, feito por Umberto Eco, está incorreto.",
         "D": "a privação da liberdade do ser humano, e o uso da independência do período do pêndulo simples com a massa do corpo suspenso, feito por Umberto Eco, está correto."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 17,
+      "materia": "biologia",
+      "materias_extra": [
+        "quimica"
+      ],
+      "texto_base": null,
+      "enunciado": "O refluxo gastroesofágico é o retorno do conteúdo do estômago para o esôfago, em direção à boca, podendo causar dor e inflamação. A pHmetria esofágica de longa duração é um dos exames que permitem avaliar essa doença, baseando-se em um resultado como o que é mostrado a seguir.\n\n![Gráfico do pH no esôfago em função do horário, das 10:00 às 08:00 do dia seguinte, com valores entre 0 e 7](fig:p08-f1)\n\nDados: O pH normal no esôfago mantém-se em torno de 4 e o pH da saliva entre 6,8-7,2.\n\nAssim, episódios de refluxo gastroesofágico acontecem quando o valor de pH medido é",
+      "alternativas": {
+        "A": "menor que 4; no exemplo dado eles ocorreram com maior frequência durante o dia.",
+        "B": "maior que 4; no exemplo dado eles ocorreram com maior frequência à noite.",
+        "C": "menor que 4; no exemplo eles não ocorreram nem durante o dia nem à noite.",
+        "D": "maior que 4; no exemplo eles ocorreram durante o período do exame."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Dois estudantes, de massa corporal em torno de 75 kg, da Universidade de Northumbria, no Reino Unido, quase morreram ao participar de um experimento científico no qual seriam submetidos a determinada dose de cafeína e a um teste físico posterior. Por um erro técnico, ambos receberam uma dose de cafeína 100 vezes maior que a dose planejada. A dose planejada era de 0,3 g de cafeína, equivalente a três xícaras de café. Sabe-se que a União Europeia, onde o teste ocorreu, classifica a toxicidade de uma dada substância conforme tabela a seguir.\n\n| Categoria | $\\text{DL}_{50}$ (mg/kg de massa corporal) |\n|---|---|\n| muito tóxica | menor que 25 |\n| tóxica | de 25 a 200 |\n| nociva | de 200 a 2000 |\n\nConsiderando que a $\\text{DL}_{50}$ – dose necessária de uma dada substância para matar 50% de uma população – da cafeína é de 192 mg/kg, no teste realizado a dose aplicada foi cerca de",
+      "alternativas": {
+        "A": "100 vezes maior que a $\\text{DL}_{50}$ da cafeína, substância que deve ser classificada como nociva.",
+        "B": "duas vezes maior que a $\\text{DL}_{50}$ da cafeína, substância que deve ser classificada como tóxica.",
+        "C": "100 vezes maior que a $\\text{DL}_{50}$ da cafeína, substância que deve ser classificada como tóxica.",
+        "D": "duas vezes maior que a $\\text{DL}_{50}$ da cafeína, substância que deve ser classificada como nociva."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 19,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "*Fake News* ou não? Hoje em dia, a disponibilidade de informações é muito grande, mas precisamos saber interpretá-las corretamente. Um artigo na internet tem o seguinte título: “Glutamato monossódico, o sabor que mata!”. Em determinado ponto do texto, afirma-se:\n\n“Só para você ter ideia dos riscos, organizações internacionais de saúde indicam que a ingestão diária de sódio para cada pessoa seja de 2,3 gramas. <u>O glutamato é composto por 21% de sódio</u> e, com certeza, não será o único tempero a ser acrescentado ao seu almoço ou jantar. <u>Além disso, o realçador (glutamato) só conta um terço do nutriente que é encontrado no sal de cozinha.</u>”\n\nDados de massas molares em $\\text{g}\\cdot\\text{mol}^{-1}$: sódio = 23, cloreto = 35,5, glutamato monossódico = 169.\n\nPara tornar a argumentação do artigo mais consistente do ponto de vista químico, você sugeriria a seguinte reescrita dos trechos destacados:",
+      "alternativas": {
+        "A": "“A porcentagem em massa de sódio no realçador (glutamato) é de 13,6%.”; “Por outro lado, o realçador só conta com cerca de um terço do nutriente que é encontrado no sal de cozinha.”.",
+        "B": "“A porcentagem em massa de sódio no realçador (glutamato) é de 39,3%.”; “Além disso, o realçador contém cerca de três vezes mais nutriente do que o encontrado no sal de cozinha.”.",
+        "C": "“A porcentagem em massa de sódio no realçador (glutamato) é de 11,2%.”; “Por outro lado, o realçador conta com cerca de um terço do nutriente que é encontrado no sal de cozinha.”.",
+        "D": "“A porcentagem em massa de sódio no realçador (glutamato) é de 21,0%.”; “Além disso, o realçador contém cerca de três vezes mais nutriente do que o encontrado no sal de cozinha.”."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 20,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "De tempos em tempos, o mundo se choca com notícias sobre o uso de armas químicas em conflitos. O sarin é um composto organofosforado líquido, insípido, incolor e inodoro, altamente volátil, que se transforma em gás quando exposto ao ar, sendo um dos principais alvos dessas notícias. Em 1955, um projeto confidencial do exército americano estudou a eficiência de hipoclorito na eliminação de sarin em ambientes contaminados. A tabela a seguir mostra alguns resultados obtidos nesse estudo.\n\n| pH | $[\\text{ClO}^-]$ ($\\text{milimol}\\cdot\\text{L}^{-1}$) | $t_{1/2}$ (min) |\n|---|---|---|\n| 5 | 2,8 | 96 |\n| 6 | 2,8 | 11 |\n| 7 | 0,4 | 13 |\n| 8 | 0,04 | 33 |\n| 9 | 0,04 | 18 |\n\nSendo $t_{1/2}$ o tempo para a concentração do sarin cair à metade, de acordo com a tabela a reação é mais rápida em",
+      "alternativas": {
+        "A": "maiores concentrações de hipoclorito, mas não há elementos suficientes para analisar a influência da acidez do meio reacional.",
+        "B": "menores concentrações de hipoclorito, mas não há elementos suficientes para analisar a influência da acidez do meio reacional.",
+        "C": "meios mais ácidos, mas não há elementos suficientes para analisar a influência da concentração do hipoclorito.",
+        "D": "meios menos ácidos, mas não há elementos suficientes para analisar a influência da concentração do hipoclorito."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 21,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A adição de biodiesel ao diesel tradicional é uma medida voltada para a diminuição das emissões de gases poluentes. Segundo um estudo da FIPE, graças a um aumento no uso de biodiesel no Brasil, entre 2008 e 2011, evitou-se a emissão de 11 milhões de toneladas de $\\text{CO}_2$ (gás carbônico).\n\n(Adaptado de Guilherme Profeta, “Da cozinha para o seu carro: cúrcuma utilizada como aditivo de biodiesel”. *Cruzeiro do Sul*, 10/04/2018.)\n\nDados de massas molares em $\\text{g}\\cdot\\text{mol}^{-1}$: H=1, C=12, O=16.\n\nConsiderando as informações dadas e levando em conta que o diesel pode ser caracterizado pela fórmula mínima ($\\text{C}_n\\text{H}_{2n}$), é correto afirmar que entre 2008 e 2011 o biodiesel substituiu aproximadamente",
+      "alternativas": {
+        "A": "3,5 milhões de toneladas de diesel.",
+        "B": "11 milhões de toneladas de diesel.",
+        "C": "22 milhões de toneladas de diesel.",
+        "D": "35 milhões de toneladas de diesel."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 22,
+      "materia": "quimica",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Em um estudo científico, uma fina camada de um novo filtro protetor solar foi exposta previamente à radiação UVA e UVB durante diferentes intervalos de tempo, testando-se em seguida a sua eficiência em barrar essa mesma radiação. A figura a seguir mostra apenas dois dos resultados obtidos no experimento, sendo uma das curvas referente a uma exposição por 10 minutos e, a outra, a uma exposição de 30 minutos.\n\n![Gráfico da eficiência do protetor solar em função do comprimento de onda, de 250 a 450 nm, com duas curvas, A e B](fig:p09-c2)\n\nDe acordo com essa figura, na faixa de 300 a 320 nm, ao triplicar o tempo de exposição prévia, o protetor apresentou uma eficiência",
+      "alternativas": {
+        "A": "menor, e a curva A diz respeito aos 30 minutos de exposição prévia.",
+        "B": "menor, e a curva A diz respeito aos 10 minutos de exposição prévia.",
+        "C": "menor, e a curva B diz respeito aos 10 minutos de exposição prévia.",
+        "D": "maior, e a curva B diz respeito aos 30 minutos de exposição prévia."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 23,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Episódios recentes de erupções vulcânicas têm trazido consequências trágicas para a sociedade e para o meio ambiente. Ativo desde 1983, o Vulcão Kilauea apresentou, em 2018, a sua maior erupção já registrada. Quase ao mesmo tempo, foi a vez do Vulcão Fuego da Guatemala mostrar sua força. No Kilauea não houve explosões, ao contrário do que ocorreu no Fuego. Os especialistas afirmam que a ocorrência de uma erupção explosiva depende da concentração e do tipo de gases dissolvidos no magma, como $\\text{SO}_2$, HF e HCl, além de vapor de água e $\\text{CO}_2$ aprisionados. A figura a seguir dá informações sobre a relação entre quantidades (em mol) de $\\text{SO}_2$, HF e HCl no magma de três vulcões distintos.\n\n![Gráfico de dispersão, em escala logarítmica, da razão nSO₂/nHF em função da razão nSO₂/nHCl para os vulcões Colima, Erta Ale e Kilauea, com uma reta tracejada diagonal](fig:p10-f1)\n\nDe acordo com a figura, em relação às quantidades de gases dissolvidos no magma, é correto afirmar que as concentrações de $\\text{SO}_2$ são maiores que as de HF e de HCl",
+      "alternativas": {
+        "A": "nos três vulcões e, neles, HF e HCl são aproximadamente iguais.",
+        "B": "em apenas dois vulcões e, neles, HF e HCl são aproximadamente iguais.",
+        "C": "nos três vulcões, mas em apenas dois deles HF e HCl são aproximadamente iguais.",
+        "D": "em apenas dois vulcões, mas nos três vulcões HF e HCl são aproximadamente iguais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 24,
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Recentemente, o FDA aprovou nos EUA a primeira terapia para o tratamento da fenilcetonúria, doença que pode ser identificada pelo teste do pezinho. Resumidamente, a doença leva ao acúmulo de fenilalanina no corpo, já que ela deixa de ser transformada em tirosina, em função da deficiência da enzima fenilalanina hidroxilase (PAH). As curvas do gráfico a seguir podem representar o processo metabólico da conversão de fenilalanina em tirosina em dois indivíduos: um normal e outro que apresenta a fenilcetonúria.\n\n![Gráfico da concentração em função do tempo com duas curvas crescentes, 1 e 2](fig:p10-f2)\n\nConsiderando o gráfico e as características da doença, é correto afirmar que o eixo $y$ corresponde à concentração de",
+      "alternativas": {
+        "A": "tirosina e a curva 1 pode ser correlacionada a um indivíduo que apresenta a fenilcetonúria.",
+        "B": "fenilalanina e a curva 1 pode ser correlacionada a um indivíduo que apresenta a fenilcetonúria.",
+        "C": "tirosina e a curva 2 pode ser correlacionada a um indivíduo que apresenta a fenilcetonúria.",
+        "D": "fenilalanina e a curva 2 pode ser correlacionada a um indivíduo que apresenta a fenilcetonúria."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 25,
+      "materia": "fisica",
+      "materias_extra": [
+        "quimica",
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "Pesquisas mostram que a curcumina — substância extraída da cúrcuma — pode ser usada como fotossensibilizador na terapia fotodinâmica (TFD). Nessa técnica, se houver absorção de luz pelo fotossensibilizador, que está na célula, ocorre reação com o oxigênio molecular gerando espécies químicas citotóxicas, que promovem a oxidação de lipídios, aminoácidos e proteínas, levando à morte celular. Deste modo, a TFD pode ser usada para o tratamento de câncer, lesões pré-malignas, etc. O gráfico a seguir mostra a intensidade de absorção de luz pela curcumina e a intensidade de emissão de luz de dois LEDs, um vermelho e um branco, em função do comprimento de onda da luz.\n\n(Adaptado de http://cepof.ifsc.usp.br/pesquisa/terapia-fotodinamica. Acessado em 15/07/2018.)\n\n![Gráfico da intensidade (un. arbitr.) em função do comprimento de onda (nm), com as curvas do LED branco, do LED vermelho e da absorção da curcumina](fig:p10-f3)\n\nLevando em conta o gráfico e os princípios da TFD apresentados no enunciado, para o uso de curcumina na TFD,",
+      "alternativas": {
+        "A": "somente o LED vermelho seria adequado.",
+        "B": "somente o LED branco seria adequado.",
+        "C": "os dois LEDs seriam adequados.",
+        "D": "nenhum dos LEDs seria adequado."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 26,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Mapa do Brasil com a localização dos 10 portos brasileiros que mais exportaram para o mundo em 2017: Vila do Conde, Itaqui, Vitória, São João da Barra, Itaguaí, Angra dos Reis, Santos, Paranaguá, São Francisco do Sul e Rio Grande](fig:p11-c1)\n\n(Adaptado de ANTAQ, 2018. Disponível em http://antaq.gov.br/Portal/pdf/PortosOrganizados.pdf. Acessado em 20/08/2018.)\n\nConsiderando o mapa anterior e seus conhecimentos sobre o mercado externo brasileiro, componente fundamental da economia nacional, assinale a alternativa que associa corretamente um porto brasileiro, a principal mercadoria exportada e seu destino.",
+      "alternativas": {
+        "A": "Angra dos Reis: soja *in natura*, destinada primordialmente ao mercado do leste europeu.",
+        "B": "Vitória: automóveis, destinados primordialmente ao mercado do Oriente Médio.",
+        "C": "Itaqui: minério de ferro, destinado primordialmente ao mercado asiático.",
+        "D": "Vila do Conde: motocicletas, destinadas primordialmente ao mercado africano."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 27,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O gráfico a seguir mostra que o Brasil tem registrado, nos últimos anos, crescimento da violência no campo. Assinale a alternativa que indica corretamente o que vem motivando esse fenômeno e em que região tem predominado esse tipo de ocorrência.\n\n![Gráfico de colunas dos assassinatos de trabalhadores rurais no Brasil, de 2003 a 2017](fig:p11-f2)\n\n(Fonte: Centro de Documentação Dom Tomás Balduino – CPT.)",
+      "alternativas": {
+        "A": "A expulsão de agricultores familiares pelo avanço das culturas da cana-de-açúcar e do algodão tem gerado conflitos entre pequenos e grandes proprietários de terra; região Centro-Oeste.",
+        "B": "A fragmentação da propriedade em áreas de colonização dirigida e a disputa pela posse da terra entre herdeiros vêm produzindo violência agrária; região Norte.",
+        "C": "A rivalidade entre trabalhadores rurais e criadores extensivos de gado bovino no Pantanal e nas chapadas mato-grossenses tem resultado em violência agrária; região Centro-Oeste.",
+        "D": "A disputa pela terra envolvendo grileiros contra posseiros em áreas de expansão de monocultivos e de projetos de exploração mineral e madeireira tem gerado violência; região Norte."
+      },
+      "observacoes": "No caderno o comando da questão vem antes do gráfico; a ordem foi mantida."
+    },
+    {
+      "numero": 28,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A figura a seguir retrata a variação latitudinal dos padrões espaciais de distribuição dos principais biomas terrestres.\n\n![Esquema em forma de pirâmide com a distribuição dos biomas terrestres por latitude, de 0° a 90°, com temperatura decrescente em direção ao topo e precipitação decrescente em direção à direita](fig:p11-f3)\n\n(Fonte: James F. Petersen, Dorothy Sack e Robert E. Glabler, *Fundamentos de Geografia Física*. São Paulo: Cengage, 2015, p. 158.)\n\nConsidere a figura anterior e assinale a alternativa correta.",
+      "alternativas": {
+        "A": "As florestas têm um aumento na diversidade de suas espécies à medida que a precipitação aumenta e as temperaturas apresentam declínio.",
+        "B": "Os desertos e as savanas ocorrem em todos os continentes, em áreas com temperaturas elevadas e baixo volume de precipitação.",
+        "C": "A taiga apresenta espécies arbóreas de maior porte em razão da umidade proveniente das baixas pressões de médias latitudes do Hemisfério Norte.",
+        "D": "As savanas e as florestas de monções dependem da sazonalidade climática: invernos frios e chuvosos, verões quentes e secos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 29,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Compreender a dinâmica de vazão dos rios é fundamental para o gerenciamento dos recursos hídricos, pois a captação de água atende a diferentes necessidades da sociedade e pode ser comprometida em caso de estiagem extrema. Os gráficos de Regime Fluvial a seguir mostram a vazão de dois rios brasileiros ao longo do ano.\n\n![Gráficos do regime fluvial dos rios A e B, com a vazão em m³/seg de janeiro a dezembro](fig:p12-c1)\n\n(Fonte: Agência Nacional de Águas, ANA.)\n\nConsiderando as informações dos gráficos e seus conhecimentos, assinale a alterativa correta.",
+      "alternativas": {
+        "A": "O volume correspondente à vazão dos dois rios é similar, e o volume de chuvas responsáveis pela recarga desses cursos d’água é o mesmo.",
+        "B": "Os dois rios possibilitam, durante todo o ano, o abastecimento humano, a geração de energia, a navegação e a pesca.",
+        "C": "A captação de água nos rios A e B pode ocorrer durante todo o ano, pois em ambos há excesso de água no verão e *deficit* no inverno.",
+        "D": "Os rios apresentam regimes fluviais diferentes: o rio A corresponde ao Regime Pluvial Tropical e o rio B representa o Regime Pluvial Semiárido."
+      },
+      "observacoes": "O enunciado do caderno traz “alterativa” (erro de digitação do original), mantido."
+    },
+    {
+      "numero": 30,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Gráfico de colunas “Habitação - Brasil e São Paulo - 2015 (em unidades de habitações)”, com domicílios vagos em condições de serem ocupados e em construção em áreas urbanas e deficit habitacional urbano de domicílios, para Brasil, Região Sudeste, Estado de São Paulo e Região Metropolitana de São Paulo](fig:p12-c2)\n\n(Fonte: *Deficit* Habitacional no Brasil, 2015. Belo Horizonte: Fundação João Pinheiro, 2018.)\n\nCom base em seus conhecimentos e nos dados do gráfico, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O *deficit* habitacional no Brasil vem sendo enfrentado com a construção de novos domicílios, o que tem resolvido satisfatoriamente a questão da moradia.",
+        "B": "Os dados do gráfico confirmam que, em qualquer área do território brasileiro, há mais domicílios vagos em condições de serem ocupados que *deficit* habitacional.",
+        "C": "É muito provável que todas as classes sociais moradoras nas cidades no Brasil sejam igualmente atingidas pelo fenômeno urbano de *deficit* habitacional.",
+        "D": "A correlação entre domicílios vagos e *deficit* habitacional explica-se, em grande medida, pela especulação imobiliária, que mantém imóveis fechados."
       },
       "observacoes": ""
     }

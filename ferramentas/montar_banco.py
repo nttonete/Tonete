@@ -133,10 +133,13 @@ def montar(ed):
 
 def indice():
     esperado = {e["id"]: e["questoes"] for e in json.loads((RAIZ / "dados/provas/edicoes.json").read_text())}
+    # questões que dependem de texto protegido ficam fora, mas não impedem a edição de entrar
+    fora = json.loads((RAIZ / "dados/provas/indisponiveis.json").read_text())
     edicoes = []
     for arq in sorted((RAIZ / "dados/questoes").glob("*.json")):
         d = json.loads(arq.read_text())
-        if d["edicao"]["tipo"] == "objetiva" and len(d["questoes"]) < esperado[d["edicao"]["id"]]:
+        ind = sorted(int(n) for n in fora.get(d["edicao"]["id"], {}))
+        if d["edicao"]["tipo"] == "objetiva" and len(d["questoes"]) + len(ind) < esperado[d["edicao"]["id"]]:
             print(f"{d['edicao']['id']}: incompleta ({len(d['questoes'])} de {esperado[d['edicao']['id']]}), fica fora da plataforma")
             continue
         materias = {}
@@ -151,6 +154,7 @@ def indice():
             "com_resposta": sum(1 for q in validas if q.get("gabarito") or q.get("resposta_oficial")
                                 or any(i.get("resposta_oficial") for i in q.get("itens", []))),
             "materias": materias,
+            **({"indisponiveis": ind} if ind else {}),
         })
     edicoes.sort(key=lambda e: (e["vestibular"], e["fase"], e["ano"]))
     formatos = json.loads((RAIZ / "dados/provas/formatos.json").read_text())

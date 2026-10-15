@@ -4,12 +4,17 @@ Lista viva. Cada item diz o que está parado e por quê.
 
 ## Textos protegidos que o modelo não reproduz
 
-O filtro de conteúdo do serviço bloqueia a reprodução literal de alguns textos protegidos por direito autoral (letras de música, trechos longos de romances). As questões abaixo não foram transcritas, e a edição fica fora da plataforma até a decisão.
+O filtro de conteúdo do serviço bloqueia a reprodução literal de alguns textos protegidos por direito autoral (letras de música, trechos longos de romances). As questões abaixo não foram transcritas, e ficam fora do banco até a decisão.
 
 | Edição | Questões | Texto |
 |---|---|---|
 | fuvest-2021-1 | 61 | Bob Dylan, letra de "Maggie's Farm" (três estrofes) |
 | fuvest-2021-1 | 72, 73, 74 | Trecho de romance (Leusipo e a aldeia) |
+| unicamp-2019-1 | 7 | Caetano Veloso, letra de "Festa imodesta" |
+| unicamp-2019-1 | 10 | Ana Cristina Cesar, trecho de "A teus pés" |
+| unicamp-2019-1 | 16 | António Gedeão, "Lágrima de Preta" (poema inteiro) |
+
+Enquanto não houver decisão, a edição entra na plataforma sem essas questões (lista em `dados/provas/indisponiveis.json`; a prova completa avisa quantas ficaram fora).
 
 Caminhos possíveis: (a) mostrar o texto como imagem recortada do caderno oficial, como já se faz com figuras; (b) deixar essas questões fora do banco e liberar o resto da edição; (c) licenciar os textos. A escolha envolve direito autoral e é de quem responde pela plataforma.
 

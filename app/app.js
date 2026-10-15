@@ -357,7 +357,10 @@
       selAno.appendChild(el("option", { value: "", text: "Sorteadas entre todos os anos" }));
       estado.indice.edicoes.filter(function (e) { return e.vestibular === v && e.tipo === "objetiva"; })
         .sort(function (a, b) { return b.ano - a.ano; })
-        .forEach(function (e) { selAno.appendChild(el("option", { value: e.id, text: "Prova completa de " + e.ano + " (" + e.total + " questões)" })); });
+        .forEach(function (e) {
+          var fora = e.indisponiveis ? "; " + plural(e.indisponiveis.length, "fora por direito autoral", "fora por direito autoral") : "";
+          selAno.appendChild(el("option", { value: e.id, text: "Prova completa de " + e.ano + " (" + e.total + " questões" + fora + ")" }));
+        });
       selQtd.disabled = !!selAno.value;
     }
     var selQtd = el("select", { id: "sim-qtd" });

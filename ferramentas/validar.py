@@ -209,7 +209,10 @@ def main():
             dados = json.loads(arq.read_text())
             ed = eds[dados["edicao"]["id"]]
             numeros = checar_questoes(rel, dados, ed, final=True)
-            faltam = sorted(set(range(1, ed["questoes"] + 1)) - numeros)
+            ind = {int(n) for n in json.loads((RAIZ / "dados/provas/indisponiveis.json").read_text()).get(ed["id"], {})}
+            if ind & numeros:
+                rel.erro(ed["id"], f"questões marcadas como indisponíveis estão no banco: {sorted(ind & numeros)}")
+            faltam = sorted(set(range(1, ed["questoes"] + 1)) - numeros - ind)
             if faltam and ed["tipo"] == "objetiva":
                 rel.aviso(ed["id"], f"incompleta, fora da plataforma até terminar: faltam {len(faltam)} questões")
     for linha in rel.erros + rel.avisos:

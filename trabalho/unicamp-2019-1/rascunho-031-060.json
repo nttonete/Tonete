@@ -1,6 +1,9 @@
 {
   "edicao": "unicamp-2019-1",
-  "textos_base": {},
+  "textos_base": {
+    "t40-42": "Drones vêm sendo utilizados por empresas americanas para monitorar o ambiente subaquático. Esses drones podem substituir mergulhadores, sendo capazes de realizar mergulhos de até cinquenta metros de profundidade e operar por até duas horas e meia.",
+    "t43-45": "A depilação a laser é um procedimento de eliminação dos pelos que tem se tornado bastante popular na indústria de beleza e no mundo dos esportes. O número de sessões do procedimento depende, entre outros fatores, da coloração da pele, da área a ser tratada e da quantidade de pelos nessa área."
+  },
   "questoes": [
     {
       "numero": 31,
@@ -140,6 +143,106 @@
         "B": "O dobro do peso da boia.",
         "C": "O peso do peixe menos o peso da boia.",
         "D": "O peso do peixe menos o dobro do peso da boia."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 40,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t40-42",
+      "enunciado": "Considere um drone que utiliza uma bateria com carga total $q = 900\\ \\text{mAh}$. Se o drone operar por um intervalo de tempo igual a $\\Delta t = 90\\ \\text{min}$, a corrente média fornecida pela bateria nesse intervalo de tempo será igual a",
+      "alternativas": {
+        "A": "10 mA.",
+        "B": "600 mA.",
+        "C": "1350 mA.",
+        "D": "81000 mA."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 41,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t40-42",
+      "enunciado": "Frequentemente esses drones são usados para medir a temperatura da água ($T$) em função da profundidade ($d$), a partir da superfície ($d = 0$), como no caso ilustrado no gráfico a seguir (dados adaptados).\n\n![Gráfico da temperatura T (em °C) em função da profundidade d (em metros), de 0 a 7 m, com pontos marcados e uma reta tracejada ajustada aos primeiros pontos](fig:p16-f2)\n\nConsidere que a densidade da água é $\\rho = 1000\\ \\text{kg/m}^3$ e constante para todas as profundidades medidas pelo drone. Qual é a diferença de pressão hidrostática entre a superfície e uma profundidade para a qual a temperatura da água é $T = 19\\ ^\\circ\\text{C}$?\n\n**Nas questões seguintes, sempre que necessário, use aceleração da gravidade $g = 10\\ \\text{m/s}^2$, aproxime $\\pi = 3{,}0$ e $1\\ \\text{atm} = 10^5\\ \\text{Pa}$.**",
+      "alternativas": {
+        "A": "$1{,}4 \\text{ x } 10^{3}\\ \\text{Pa}$.",
+        "B": "$2{,}0 \\text{ x } 10^{4}\\ \\text{Pa}$.",
+        "C": "$4{,}0 \\text{ x } 10^{4}\\ \\text{Pa}$.",
+        "D": "$7{,}0 \\text{ x } 10^{4}\\ \\text{Pa}$."
+      },
+      "observacoes": "A instrução sobre g, pi e atm, impressa uma vez no caderno antes da questão 38, foi repetida aqui."
+    },
+    {
+      "numero": 42,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t40-42",
+      "enunciado": "Leve em conta ainda os dados mostrados no gráfico da questão anterior, referentes à temperatura da água ($T$) em função da profundidade ($d$). Considere um volume cilíndrico de água cuja base tem área $A = 2\\ \\text{m}^2$, a face superior está na superfície a uma temperatura constante $T_A$ e a face inferior está a uma profundidade $d$ a uma temperatura constante $T_B$, como mostra a figura a seguir. Na situação estacionária, nas proximidades da superfície, a temperatura da água decai linearmente em função de $d$, de forma que a taxa de transferência de calor por unidade de tempo ($\\Phi$), por condução da face superior para a face inferior, é aproximadamente constante e dada por $\\Phi = \\kappa A \\frac{T_A - T_B}{d}$, em que $\\kappa = 0{,}6\\ \\frac{\\text{W}}{\\text{m} \\times {}^\\circ\\text{C}}$ é a condutividade térmica da água. Assim, a razão $\\frac{T_A - T_B}{d}$ é constante para todos os pontos da região de queda linear da temperatura da água mostrados no gráfico apresentado.\n\nUtilizando as temperaturas da água na superfície e na profundidade $d$ do gráfico e a fórmula fornecida, conclui-se que, na região de queda linear da temperatura da água em função de $d$, $\\Phi$ é igual a\n\n![Cilindro de água de base com área A, com altura d; a face superior está a temperatura T_A, a face inferior a temperatura T_B, e uma seta indica o fluxo de calor Φ de cima para baixo](fig:p17-c2)",
+      "alternativas": {
+        "A": "0,03 W.",
+        "B": "0,05 W.",
+        "C": "0,40 W.",
+        "D": "1,20 W."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 43,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t43-45",
+      "enunciado": "Uma sessão de depilação a *laser* utiliza pulsos de alta potência e curta duração. O tempo total da sessão depende da área tratada. Considere certa situação em que a luz do *laser* incide perpendicularmente em uma área $A = 2\\ \\text{mm}^2$ com uma intensidade média igual a $I = 2{,}0 \\times 10^4\\ \\text{W/m}^2$. A energia luminosa que incide nessa área durante um intervalo de tempo $\\Delta t = 3\\ \\text{ms}$ é igual a",
+      "alternativas": {
+        "A": "$1{,}3 \\text{ x } 10^{-1}\\ \\text{J}$.",
+        "B": "$1{,}2 \\text{ x } 10^{-4}\\ \\text{J}$.",
+        "C": "$3{,}0 \\text{ x } 10^{7}\\ \\text{J}$.",
+        "D": "$3{,}0 \\text{ X } 10^{-13}\\ \\text{J}$."
+      },
+      "observacoes": "Na alternativa D o caderno usa 'X' maiúsculo no lugar de 'x'; mantido."
+    },
+    {
+      "numero": 44,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t43-45",
+      "enunciado": "Na depilação, o *laser* age no interior da pele, produzindo uma lesão térmica que queima a raiz do pelo. Considere uma raiz de pelo de massa $m = 2{,}0 \\times 10^{-10}\\ \\text{kg}$ inicialmente a uma temperatura $T_i = 36\\ ^\\circ\\text{C}$ que é aquecida pelo *laser* a uma temperatura final $T_f = 46\\ ^\\circ\\text{C}$. Se o calor específico da raiz é igual a $c = 3000\\ \\text{J/(kg}\\ ^\\circ\\text{C)}$, o calor absorvido pela raiz do pelo durante o aquecimento é igual a",
+      "alternativas": {
+        "A": "$6{,}0 \\text{ x } 10^{-6}\\ \\text{J}$.",
+        "B": "$6{,}0 \\text{ x } 10^{-8}\\ \\text{J}$.",
+        "C": "$1{,}3 \\text{ x } 10^{-12}\\ \\text{J}$.",
+        "D": "$6{,}0 \\text{ x } 10^{-13}\\ \\text{J}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 45,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": "t43-45",
+      "enunciado": "Três tipos de *laser* comumente utilizados para depilação têm comprimentos de onda $\\lambda_1 \\approx 760\\ \\text{nm}$, $\\lambda_2 \\approx 800\\ \\text{nm}$ e $\\lambda_3 \\approx 1060\\ \\text{nm}$, respectivamente. Se a velocidade da luz vale $c = 3{,}0 \\times 10^8\\ \\text{m/s}$, o *laser* de maior frequência tem uma frequência de aproximadamente",
+      "alternativas": {
+        "A": "$3{,}9 \\text{ x } 10^{14}\\ \\text{Hz}$.",
+        "B": "$2{,}8 \\text{ x } 10^{5}\\ \\text{Hz}$.",
+        "C": "$2{,}5 \\text{ x } 10^{15}\\ \\text{Hz}$.",
+        "D": "$3{,}7 \\text{ x } 10^{12}\\ \\text{Hz}$."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 46,
+      "materia": "fisica",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "As cirurgias corretivas a *laser* para a visão estão cada vez mais eficientes. A técnica corretiva mais moderna é baseada na extração de um pequeno filamento da córnea, modificando a sua curvatura. No caso de uma cirurgia para correção de miopia, o procedimento é feito para deixar a córnea mais plana. Assinale a alternativa que explica corretamente o processo de correção da miopia.",
+      "alternativas": {
+        "A": "Na miopia, a imagem do ponto remoto se forma antes da retina e a cirurgia visa a aumentar a distância focal da lente efetiva do olho.",
+        "B": "Na miopia, a imagem do ponto remoto se forma depois da retina e a cirurgia visa a aumentar a distância focal da lente efetiva do olho.",
+        "C": "Na miopia, a imagem do ponto remoto se forma depois da retina e a cirurgia visa a diminuir a distância focal da lente efetiva do olho.",
+        "D": "Na miopia, a imagem do ponto remoto se forma antes da retina e a cirurgia visa a diminuir a distância focal da lente efetiva do olho."
       },
       "observacoes": ""
     }
