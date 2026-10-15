@@ -1,0 +1,178 @@
+{
+ "edicao": "unesp-2022-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 67,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Analise o esquema, que representa um mecanismo para o controle e manutenção da temperatura ambiente em um determinado cômodo de uma residência.\n\n![Esquema do controle de temperatura de um cômodo: um termômetro ao centro, rotulado “Temperatura no equilíbrio”, e setas ligando os rótulos “Temperatura ambiente aumenta”, “Resposta: aquecimento ligado”, “Estímulo: termostato detecta temperatura mais baixa que a do equilíbrio”, “Temperatura ambiente diminui”, “Resposta: aquecimento desligado” e “Estímulo: termostato detecta temperatura mais alta que a do equilíbrio”](fig:p22-f1)\n\nO organismo humano possui mecanismos fisiológicos análogos ao representado no esquema, os quais mantêm a homeostase ou equilíbrio interno do corpo.\n\nDois exemplos de mecanismos fisiológicos que atuam de modo análogo ao representado no esquema são",
+   "alternativas": {
+    "A": "a determinação da intensidade e frequência das contrações uterinas durante o parto, e a produção de hormônios pela tireoide, sob controle hipotalâmico.",
+    "B": "a determinação da intensidade e frequência das contrações uterinas durante o parto, e a concentração de dióxido de carbono no líquido extracelular.",
+    "C": "a secreção de leite pelas glândulas mamárias, e o controle dos batimentos cardíacos e pressão sanguínea quando da perda excessiva de sangue por hemorragia.",
+    "D": "o controle dos batimentos cardíacos e pressão sanguínea quando da perda excessiva de sangue por hemorragia, e o controle da quantidade de glicose no sangue.",
+    "E": "a produção de hormônios pela tireoide, sob controle hipotalâmico, e o controle da quantidade de glicose no sangue."
+   },
+   "observacoes": ""
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": "Versos em duas colunas no caderno, transcritos coluna esquerda e depois direita; conferidos verso a verso."
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": "O caderno grafa \"giberilina\" (em vez de giberelina) nas alternativas D e E; mantido como no original."
+  },
+  {
+   "numero": 67,
+   "status": "corrigida",
+   "notas": "Descrição da figura: o rótulo citado entre aspas dizia \"mais baixa que do equilíbrio\"; no esquema está \"mais baixa que a do equilíbrio\"."
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": "Equação quebrada em duas linhas no caderno, transcrita numa linha só; conferida."
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": "Os dois créditos ficam cada um sob sua imagem no caderno; mantidos juntos abaixo da figura."
+  },
+  {
+   "numero": 82,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": "Alternativa B traz \"é igual 24\" (sem \"a\") no caderno; mantido. Tabela conferida na figura."
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": "Crédito traz \"E.Trancik\" sem espaço no caderno; mantido."
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": "\"CD = 4\" sem unidade no caderno; mantido."
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": "Figura conferida: a linha de 1110 traz um \"·\" sobrando depois de 2², como no original."
+  }
+ ]
+}
