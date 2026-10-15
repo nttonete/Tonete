@@ -1,0 +1,123 @@
+{
+ "edicao": "unicamp-2021-2-cet",
+ "intervalo": [
+  1,
+  11
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 1,
+   "materia": "historia",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "As imagens produzidas por artistas europeus, tal como vemos na pintura do holandês Jan Davidsz de Heem, tiveram um papel importante na construção do conceito de *exótico* no imaginário da Europa na época moderna.\n\n![Pintura a óleo *Natureza Morta com Papagaios*, de Jan Davidsz de Heem: sobre uma mesa coberta por tecido vermelho com franjas, uma jarra e uma grande taça com tampa, ambas de metal, uvas, pêssegos, um melão aberto, um limão descascado, ostras, uma lagosta e conchas; à esquerda, uma arara de penas vermelhas, azuis e verdes e, no alto, sob uma cortina escura, um papagaio cinza-azulado](fig:p03-c1)\n\n(Jan Davidsz de Heem. **Natureza Morta com Papagaios**. The Ringling Museum, fim da década de 1640.)\n\nNaquele contexto, a pintura apresentava itens obtidos quando se exploravam e se colonizavam países em cantos distantes do mundo. A natureza (os elementos que a representam) é, assim, quase um estudo científico e, novamente, uma alusão à abundância obtida graças ao vitorioso comércio holandês.\n\n(Adaptado de Rolf Winkes. Natura Morta. *Revista do Museu de Arqueologia e Etnologia*, São Paulo, 10: 145-161, 2000. p. 149.)\n\nOs colonizadores exerceram diversas operações que levaram à configuração de um novo universo de relações intersubjetivas de dominação entre a Europa e as demais regiões e populações do mundo, às quais estavam sendo atribuídas, no mesmo processo, novas identidades geoculturais.\n\n(Adaptado e traduzido de Anibal Quijano. Colonialismo, eurocentrismo y América Latina. *In Colonialidad del saber:* eurocentrismos e ciencias sociales. Buenos Aires, CLACSO. 2005, p. 209.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O exótico é estabelecido a partir de uma relação assimétrica entre universos diferentes. Justifique por que a imagem ao lado apresentaria características “exóticas” e relacione essa adjetivação ao pensamento colonial da época."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Apresente uma semelhança e uma diferença entre a experiência colonial holandesa e a portuguesa."
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas_corrigidas": {},
+ "complementos": {
+  "1": {
+   "assunto": "Colonização da América"
+  },
+  "2": {
+   "assunto": "História da África"
+  },
+  "3": {
+   "assunto": "Cinética química"
+  },
+  "4": {
+   "assunto": "Cinética química"
+  },
+  "5": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "6": {
+   "assunto": "Combinatória e probabilidade"
+  },
+  "7": {
+   "assunto": "Matrizes e sistemas"
+  },
+  "8": {
+   "assunto": "Geometria plana"
+  },
+  "9": {
+   "assunto": "Geometria analítica"
+  },
+  "10": {
+   "assunto": "Geometria analítica"
+  },
+  "11": {
+   "assunto": "Eletrodinâmica"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "corrigida",
+   "notas": "Enunciado, itens e respostas conferidos com p03 e r01 e com a prova comentada. Correção: a descrição da figura omitia elementos que o item a manda analisar (tecido, objetos de metal, frutas, conchas) e trazia o gênero \"natureza-morta\"; reescrita só com o que se vê. Objetivo: o parágrafo sobre conteúdos programáticos é o próprio objetivo enumerando temas, mantido (\"politica\" sem acento como no original). \"fornecer de luxo\" confere com o original. Sem \"(2 pontos)\"."
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": "Conferido com p04, r01 e prova comentada. \"africado\" no objetivo é erro do original. Sem \"(2 pontos)\". Figura ok."
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": "Conferido com p05, r02 e comentada; gráfico com tabela vazia ok. Resposta é a das Respostas esperadas (mais curta que a da comentada), como decidido pelo transcritor. Sem \"(2 pontos)\"."
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": "Conferido com p06, r02 e comentada. Gráfico ok (eixos e unidades). Resposta das Respostas esperadas mantida. Sem \"(2 pontos)\"."
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": "Tabela conferida célula a célula com p07 (células vazias = cinza); respostas conferidas com r02 e objetivo com a comentada."
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": "Conferido com p08, r03 e comentada."
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": "Matriz e respostas conferidas com p09, r03 (t = 3π/4 ou 7π/4 confere)."
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": "Conferido com p10, r03/r04; figura completa (rótulos a/n, b/n, Figuras 1 a 5)."
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": "Conferido com p11, r04; figura completa. No item b a resposta chama F e G de A e B, como no documento oficial; mantido."
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": "Conferido com p12, r04/r05."
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": "Conferido com p13, r05 e objetivo da comentada."
+  }
+ ]
+}
