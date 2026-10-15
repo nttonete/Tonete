@@ -83,3 +83,11 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - **Temas de redação** (dados/conteudo/redacao-temas.json): FUVEST e UNESP com as palavras da banca; Unicamp com resumo da equipe (a banca não dá tema explícito). FUVEST 2021 e 2022 foram lidas pela imagem da página. UNESP só 2026 (é o único caderno de 2ª fase que temos).
 - **UNESP no robô de editais**: o site da Vunesp recusa acesso automatizado; comunicados novos da UNESP precisam ser conferidos à mão. O manual oficial (no portal da Unesp) é monitorado.
 - **Plano de estudos**: sem backend, fica só no aparelho; ao trocar de celular, o aluno perde o plano.
+
+## Nome e marca (15/10/2026)
+
+- Busca no INPI (busca.inpi.gov.br, base atualizada até 13/10/2026): "Banca Aberta" (exata e radical) e "Bancaaberta" sem nenhum resultado, em todas as classes.
+- Domínios livres no registro.br: bancaaberta.com.br, bancaaberta.app.br, bancaaberta.net.br.
+- Existe uma conta de cortes no TikTok que se chama "Banca Aberta®" (@clipsdabancaberta), sem registro no INPI e fora da área de educação.
+- A fazer: registrar bancaaberta.com.br; criar @bancaaberta no Instagram; decidir o titular da marca (CPF ou CNPJ da empresa); pedir o registro nas classes 41 (educação) e 42 (plataforma online). A classe 9 (aplicativo) fica para quando houver app.
+- Risco: o INPI pode considerar "banca" descritivo; a busca vazia não garante o registro.
