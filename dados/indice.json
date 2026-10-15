@@ -528,6 +528,34 @@
    }
   },
   {
+   "id": "unicamp-2018-1",
+   "vestibular": "unicamp",
+   "ano": 2018,
+   "fase": 1,
+   "tipo": "objetiva",
+   "versao": "Q/X",
+   "nome": "Unicamp 2018 – 1ª fase",
+   "fonte": {
+    "caderno": "UNICAMP_2018_1Fase.pdf",
+    "gabarito": "UNICAMP_2018_1Fase_gab.pdf"
+   },
+   "arquivo": "dados/questoes/unicamp-2018-1.json",
+   "total": 90,
+   "validas": 90,
+   "com_resposta": 90,
+   "materias": {
+    "portugues": 8,
+    "literatura": 8,
+    "matematica": 13,
+    "ingles": 7,
+    "biologia": 11,
+    "fisica": 14,
+    "historia": 11,
+    "quimica": 7,
+    "geografia": 11
+   }
+  },
+  {
    "id": "unicamp-2019-1",
    "vestibular": "unicamp",
    "ano": 2019,
