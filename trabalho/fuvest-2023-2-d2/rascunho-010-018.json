@@ -74,6 +74,75 @@
         }
       ],
       "observacoes": "O caderno imprime o \"Texto para os itens (b) e (c)\" (com a tabela) entre os itens a e b; ele foi colocado no início do texto do item b para manter a ordem do caderno, mas vale também para o item c."
+    },
+    {
+      "numero": 13,
+      "codigo": "Q01",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma das formas de se compreender estruturas de moléculas orgânicas é utilizando modelos como os apresentados a seguir para as moléculas de etano e de eteno.\n\n![Modelos de bolinhas das moléculas de etano e de eteno, com bolinhas escuras e bolinhas claras](fig:p14-c3)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Complete, na folha de respostas, os átomos correspondentes a cada tipo de bolinha do modelo de etano."
+        },
+        {
+          "rotulo": "b",
+          "texto": "O etino, também conhecido como acetileno, é um composto usado como gás de solda e como matéria prima para centenas de outros compostos. Usando a notação de Lewis, desenhe, na folha de respostas, a molécula de acetileno. Essa molécula apresenta algum tipo de isomeria?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Considere que dois dos átomos representados pelas bolinhas claras foram substituídos por outro átomo distinto (verde) em cada molécula, como na figura a seguir. Em qual das moléculas geradas poderia ocorrer isomeria geométrica? Pinte, na tabela periódica na folha de respostas, três elementos que poderiam representar a bolinha verde.\n\n![Molécula A, modelo do etano, e molécula B, modelo do eteno, cada uma com dois átomos substituídos por bolinhas verdes](fig:p14-c6)"
+        }
+      ],
+      "observacoes": "A questão manda completar a tabela e pintar a tabela periódica \"na folha de respostas\"; esses campos não fazem parte do caderno de questões e não foram transcritos."
+    },
+    {
+      "numero": 14,
+      "codigo": "Q02",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O diamante, uma estrutura cristalina de carbono, é o material mais duro encontrado na natureza. Mastigar diamantes provavelmente quebraria os dentes e a sua ingestão causaria desconforto. Entretanto, há uma forma extravagante de ingerir um diamante, que é utilizá-lo para produzir água com gás, como no seguinte procedimento:\n\n1 – O diamante triturado foi inserido dentro de um tubo de vidro;\n2 – Foi injetado oxigênio gasoso no tubo de vidro, que foi aquecido com um maçarico;\n3 – O gás produzido foi recolhido dentro de um tubo de ensaio imerso em nitrogênio líquido;\n4 – Todo o sólido formado dentro do tubo de ensaio foi transferido para um cilindro de gás de volume interno de 1 L com a válvula fechada. Todo o $\\text{CO}_2$ sublimou dentro desse cilindro;\n5 – O cilindro de gás foi então conectado a uma garrafa de água, que foi gaseificada com a abertura da válvula do cilindro.\n\n![Esquema do procedimento: tubo de vidro com diamante triturado, entrada de O2(g), maçarico, saída de CO2(g) para tubo de ensaio com CO2(s) imerso em N2(l), e cilindro de CO2(g) conectado a uma garrafa de água que produz água gaseificada](fig:p14-c5)\n\n**Note e adote:** Densidade (g/cm³): Grafite = 2,0; Diamante = 3,5. Massas molares (g/mol): C = 12; O = 16. Constante universal dos gases ideais: R = $0{,}082\\ \\text{atm.L.mol}^{-1}\\text{.K}^{-1}$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Com base no esquema, a temperatura de fusão do $\\text{N}_2$ é maior, menor ou igual a temperatura de fusão do $\\text{CO}_2$?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Se um experimento exatamente igual for realizado trocando o volume de diamante utilizado pelo mesmo volume de grafite, a quantidade de $\\text{CO}_2$ formado ao fim do processo será menor, igual ou maior? Explique."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Partindo-se de 3 g de diamante, qual a massa de gelo seco obtida? Qual será a pressão gerada pelo $\\text{CO}_2(\\text{g})$ dentro do cilindro de gás a 27 °C? Considere que o rendimento do experimento é de 100%."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 15,
+      "codigo": "Q03",
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em laboratório, os peptídeos podem ser sintetizados com reagentes que promovem a ligação entre diferentes aminoácidos. O EDC é um composto que pode ser utilizado em solução aquosa com essa finalidade, como representado a seguir:\n\n![Esquema da reação entre ácido carboxílico (R1-COOH) e EDC, com formação de intermediário e, com amina primária H2N-R2, de peptídeo e subproduto; ao lado, a estrutura do DCC. Legenda: R1 e R2 = cadeia carbônica](fig:p16-c1)\n\nUm reagente similar chamado de DCC, representado acima, também pode ser utilizado para promover o mesmo tipo de reação, mas não é indicado para o uso em meios polares, como soluções aquosas.\n\n**Note e adote:** Massa molar do $\\text{C}_{123}\\text{H}_{193}\\text{N}_{35}\\text{O}_{37}$: 2751 g/mol.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Escreva, no quadro da folha de respostas, a estrutura do subproduto formado quando DCC é utilizado em substituição ao EDC."
+        },
+        {
+          "rotulo": "b",
+          "texto": "O DCC é menos adequado para ser utilizado em solução aquosa do que o EDC por ser menos solúvel. Indique, no quadro da folha de respostas, quais tipos de interações intermoleculares justificam a diferença de solubilidade de cada uma dessas espécies em água."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Um dos métodos utilizados para quantificar proteínas é o método de Kjeldahl, no qual é realizada a determinação da quantidade de matéria nitrogenada total em uma amostra. Esse método consiste em degradar toda a proteína de forma que todos os átomos de nitrogênio da amostra sejam convertidos em sulfato de amônio.\n\nConsidere uma amostra de 550,2 mg de um peptídeo de fórmula molecular $\\text{C}_{123}\\text{H}_{193}\\text{N}_{35}\\text{O}_{37}$ que foi submetida ao método de Kjeldahl. Calcule a quantidade total máxima de mols de sulfato de amônio ($(\\text{NH}_4)_2\\text{SO}_4$) que seria produzida pela análise dessa amostra utilizando esse método."
+        }
+      ],
+      "observacoes": "O parágrafo sobre o método de Kjeldahl é impresso entre os itens b e c; foi colocado no início do texto do item c para manter a ordem do caderno. A fórmula C123H193N35O37 aparece em tamanho diferente no \"Note e adote\" do caderno, mas é a mesma fórmula."
     }
   ],
   "respostas": {
@@ -99,6 +168,30 @@
         "a": "O tempo de reação máximo será $T_{\\text{max}} = \\dfrac{D}{v} = \\dfrac{0{,}02}{72} \\times 3600 = 1\\ \\text{s}$.",
         "b": "Pela tabela, os carros com $T > T_{\\text{max}} = 0{,}89\\ \\text{s}$ são aqueles com índice $j \\le 5$ e estarão dentro do horizonte de eventos de modo que $x_H = 5D = 100\\ \\text{m}$.",
         "c": "Pela definição de $x_H$, o último carro em uma posição menor ou igual a $x_H = 60\\ \\text{m}$ colidirá, enquanto o primeiro carro em uma posição maior do que $x_H$ não colidirá. Logo, como $x_3 = 60\\ \\text{m} = x_H$ e $x_4 = 80\\ \\text{m} > x_H$, o tempo de reação máximo compatível tem que estar no intervalo $T_4 < T_{\\text{max}} \\le T_3$. Portanto, o intervalo de velocidades compatível é $\\dfrac{D}{T_3} \\le v_{\\text{ini}} < \\dfrac{D}{T_4}$, ou seja, $12{,}5\\ \\text{m/s} \\le v_{\\text{ini}} < 20\\ \\text{m/s}$."
+      }
+    },
+    "13": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre moléculas orgânicas, distribuição eletrônica dos átomos, isomeria geométrica e ligações químicas.",
+      "itens": {
+        "a": "| Molécula | Bolinha Clara | Bolinha Escura |\n|---|---|---|\n| Etano | H | C |",
+        "b": "Notação de Lewis para a molécula de etino (ou acetileno): H-C≡C-H\n\nA molécula de etino não apresenta isomeria, pois possui uma única conformação possível.",
+        "c": "Poderia ocorrer isomeria geométrica na molécula B. Quaisquer três elementos da família 7a (ou 17) da tabela periódica poderiam representar a bolinha verde."
+      }
+    },
+    "14": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre gases e alótropos e o entendimento de um processo de obtenção de CO2.",
+      "itens": {
+        "a": "A temperatura de fusão do $\\text{N}_2$ é menor do que a do $\\text{CO}_2$.",
+        "b": "A quantidade de $\\text{CO}_2$ formado será menor, pois, ao utilizar o mesmo volume de diamante, que é mais denso, uma menor massa e menor quantidade de matéria de C será utilizada e, consequentemente, uma menor quantidade de $\\text{CO}_2$ será gerada.",
+        "c": "Cálculo da massa (m) de gelo seco obtida:\n3 g de diamante = 0,25 mol de carbono\nComo nC:nCO$_2$ = 1:1, forma-se 0,25 mol de $\\text{CO}_2$ (MM = 44 g/mol). Logo, m = 11 g.\n\nCálculo da pressão (P) gerada:\nP = 0,25 × 0,082 × 300 = 6,15 atm"
+      }
+    },
+    "15": {
+      "resposta": "**Objetivo da questão:** Avaliar os conhecimentos sobre reações orgânicas, interações intermoleculares, estequiometria e solubilidade.",
+      "itens": {
+        "a": "![Estrutura do subproduto: dois anéis de seis carbonos ligados, cada um, a um grupo NH, com os dois NH unidos a um carbono com ligação dupla a oxigênio](fig:r37-c1)",
+        "b": "| | Tipo de interação intermolecular com a água |\n|---|---|\n| EDC | íon - dipolo permanente |\n| DCC | dipolo-permanente - dipolo permanente (London – London) |",
+        "c": "Cálculo da quantidade (q) total máxima de mols de sulfato de amônio:\nMols de peptídeo = 0,5502/ 2751 = 2.10⁻⁴.\nMols de N por peptídeo = 35 × 2.10⁻⁴ = 7 × 10⁻³\nCada sulfato de amônio possui 2 N: $(\\text{NH}_4)_2\\text{SO}_4$.\nLogo, q = 3,5 × 10⁻³ mols de sulfato de amônio."
       }
     }
   }
