@@ -1,0 +1,374 @@
+<title>Equipe Banca Aberta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --papel: #f4f4f1; --folha: #ffffff; --folha-2: #f8f8f6;
+  --tinta: #14161b; --tinta-2: #565b65; --tinta-3: #868b94;
+  --linha: #e6e5e1; --linha-forte: #c9c8c2;
+  --caneta: #2f5fe0; --caneta-fundo: #ecf1fe;
+  --certo: #13704a; --certo-fundo: #e5f3ec;
+  --aviso: #8a5a00; --aviso-fundo: #fff3d6;
+  --neutro-fundo: #efefec;
+  --banda: #464a53; --banda-tx: #ffffff; --banda-tx2: #d0d3d9; --banda-linha: #5c606a;
+  --sombra: 0 1px 2px rgba(20,22,27,.04), 0 8px 24px rgba(20,22,27,.06);
+  --f-ui: "Instrument Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --f-texto: "Literata", Georgia, "Times New Roman", serif;
+  --f-num: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --raio: 14px; --raio-p: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papel: #0e1014; --folha: #161920; --folha-2: #1b1f27;
+    --tinta: #eceef2; --tinta-2: #a5abb6; --tinta-3: #8a909b;
+    --linha: #262b34; --linha-forte: #3d4350;
+    --caneta: #8fa8ff; --caneta-fundo: #1b2544;
+    --certo: #4fc98a; --certo-fundo: #11291d;
+    --aviso: #f0c35a; --aviso-fundo: #30260e;
+    --neutro-fundo: #22262e;
+    --banda: #343842; --banda-tx: #f4f5f8; --banda-tx2: #c2c6ce; --banda-linha: #484d58;
+    --sombra: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papel: #0e1014; --folha: #161920; --folha-2: #1b1f27;
+  --tinta: #eceef2; --tinta-2: #a5abb6; --tinta-3: #8a909b;
+  --linha: #262b34; --linha-forte: #3d4350;
+  --caneta: #8fa8ff; --caneta-fundo: #1b2544;
+  --certo: #4fc98a; --certo-fundo: #11291d;
+  --aviso: #f0c35a; --aviso-fundo: #30260e;
+  --neutro-fundo: #22262e;
+  --banda: #343842; --banda-tx: #f4f5f8; --banda-tx2: #c2c6ce; --banda-linha: #484d58;
+  --sombra: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--papel); color: var(--tinta);
+  font-family: var(--f-ui); font-size: 15px; line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.pagina {
+  max-width: 1320px; margin: 0 auto;
+  padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 28px;
+}
+
+/* cabeçalho */
+.topo { display: grid; gap: 14px; max-width: 62rem; }
+.selo { font-family: var(--f-num); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-3); }
+h1 { font-family: var(--f-texto); font-weight: 600; font-size: clamp(28px, 4.2vw, 44px); line-height: 1.12; margin: 0; text-wrap: balance; letter-spacing: -.01em; }
+.topo p { margin: 0; color: var(--tinta-2); max-width: 60ch; font-size: 16px; }
+
+.numeros { display: flex; flex-wrap: wrap; gap: 10px; }
+.numero { background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio-p); padding: 10px 14px; display: grid; gap: 2px; min-width: 120px; }
+.numero b { font-family: var(--f-num); font-weight: 500; font-size: 22px; line-height: 1.1; }
+.numero span { font-size: 12.5px; color: var(--tinta-2); }
+
+/* filtros */
+.barra { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+.filtros { display: flex; flex-wrap: wrap; gap: 6px; }
+.filtros button {
+  font: inherit; font-size: 13.5px; font-weight: 500; cursor: pointer;
+  border: 1px solid var(--linha-forte); background: var(--folha); color: var(--tinta-2);
+  padding: 7px 14px; border-radius: 999px;
+}
+.filtros button[aria-pressed="true"] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+.legenda { display: flex; flex-wrap: wrap; gap: 10px 14px; font-size: 12.5px; color: var(--tinta-2); }
+.legenda span { display: inline-flex; align-items: center; gap: 6px; }
+.legenda i { font-style: normal; }
+
+/* situação */
+.sit { display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 600; padding: 2px 8px; border-radius: 999px; white-space: nowrap; letter-spacing: .01em; }
+.sit::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.sit.uso { color: var(--caneta); background: var(--caneta-fundo); }
+.sit.auto { color: var(--certo); background: var(--certo-fundo); }
+.sit.pronto { color: var(--tinta-2); background: var(--neutro-fundo); }
+.sit.futuro { color: var(--tinta-2); background: transparent; border: 1px dashed var(--linha-forte); }
+.sit.futuro::before { background: transparent; border: 1px solid currentColor; }
+.sit.adiado { color: var(--aviso); background: var(--aviso-fundo); }
+
+/* árvore */
+.arvore { display: grid; justify-items: center; gap: 0; }
+.nivel-pessoas { position: relative; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; padding-bottom: 14px; }
+/* linha que junta as três pessoas antes de descer ao Coordenador */
+.nivel-pessoas::after { content: ""; position: absolute; bottom: 0; left: calc(50% - 262px); right: calc(50% - 262px); height: 2px; background: var(--linha-forte); }
+.pessoa { position: relative; }
+.pessoa::after { content: ""; position: absolute; bottom: -15px; left: 50%; width: 2px; height: 14px; background: var(--linha-forte); }
+.pessoa {
+  background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio);
+  padding: 12px 16px; width: 250px; max-width: 100%; display: grid; gap: 4px; box-shadow: var(--sombra);
+}
+.pessoa.contratar { border-style: dashed; box-shadow: none; background: transparent; }
+.pessoa .rotulo { font-family: var(--f-num); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-3); }
+.pessoa strong { font-size: 15.5px; }
+.pessoa p { margin: 0; font-size: 13px; color: var(--tinta-2); }
+
+.tronco { width: 2px; height: 28px; background: var(--linha-forte); }
+
+.coordenador {
+  background: var(--banda); color: var(--banda-tx); border-radius: var(--raio);
+  padding: 18px 22px; width: min(560px, 100%); display: grid; gap: 8px; box-shadow: var(--sombra);
+}
+.coordenador .rotulo { font-family: var(--f-num); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--banda-tx2); }
+.coordenador h2 { margin: 0; font-family: var(--f-texto); font-weight: 600; font-size: 24px; }
+.coordenador p { margin: 0; color: var(--banda-tx2); font-size: 14px; }
+.coordenador .meta { display: flex; flex-wrap: wrap; gap: 8px; font-family: var(--f-num); font-size: 12px; color: var(--banda-tx2); }
+.coordenador .meta span { border: 1px solid var(--banda-linha); border-radius: 6px; padding: 2px 8px; }
+
+.areas { position: relative; width: 100%; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; padding-top: 28px; }
+/* barra horizontal que liga as áreas */
+.areas::before { content: ""; position: absolute; top: 0; left: 10%; right: 10%; height: 2px; background: var(--linha-forte); }
+.area { position: relative; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.area::before { content: ""; position: absolute; top: -28px; left: 50%; width: 2px; height: 28px; background: var(--linha-forte); }
+.area-cab { background: var(--folha-2); border: 1px solid var(--linha); border-radius: var(--raio-p); padding: 10px 12px; display: grid; gap: 2px; }
+.area-cab .num { font-family: var(--f-num); font-size: 11px; color: var(--tinta-3); letter-spacing: .06em; }
+.area-cab h3 { margin: 0; font-size: 15.5px; font-weight: 600; text-wrap: balance; }
+.area-cab p { margin: 0; font-size: 12.5px; color: var(--tinta-2); }
+
+/* cartão de agente */
+.agente { background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio-p); box-shadow: var(--sombra); }
+.agente.futuro, .agente.adiado { background: transparent; box-shadow: none; border-style: dashed; border-color: var(--linha-forte); }
+.agente summary { list-style: none; cursor: pointer; padding: 11px 12px; display: grid; gap: 6px; }
+.agente summary::-webkit-details-marker { display: none; }
+.agente .linha1 { display: flex; justify-content: space-between; align-items: start; gap: 8px; }
+.agente .nome { font-weight: 600; font-size: 14.5px; line-height: 1.3; }
+.agente .resumo { font-size: 13px; color: var(--tinta-2); line-height: 1.4; }
+.agente .modelo { font-family: var(--f-num); font-size: 11.5px; color: var(--tinta-3); }
+.agente .mais { font-size: 12px; color: var(--caneta); }
+.agente[open] .mais { display: none; }
+.agente .detalhe { padding: 0 12px 12px; display: grid; gap: 8px; font-size: 13px; color: var(--tinta-2); border-top: 1px solid var(--linha); padding-top: 10px; margin-top: 2px; }
+.agente .detalhe p { margin: 0; }
+.agente .detalhe code { font-family: var(--f-num); font-size: 12px; background: var(--neutro-fundo); color: var(--tinta); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+.agente .detalhe b { color: var(--tinta); font-weight: 600; }
+.agente:focus-within { outline: none; }
+.agente summary:focus-visible { outline: 2px solid var(--caneta); outline-offset: 2px; border-radius: var(--raio-p); }
+.escondido { display: none !important; }
+
+/* rodapé: portões e regras */
+.base { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; }
+.caixa { background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); padding: 18px 20px; display: grid; gap: 10px; align-content: start; }
+.caixa h2 { margin: 0; font-size: 16px; font-weight: 600; }
+.caixa p { margin: 0; color: var(--tinta-2); font-size: 13.5px; }
+.portoes { display: flex; flex-wrap: wrap; gap: 8px; }
+.portao { border: 1px solid var(--linha-forte); border-radius: 8px; padding: 8px 10px; display: grid; gap: 2px; font-size: 12.5px; color: var(--tinta-2); max-width: 100%; }
+.portao code { font-family: var(--f-num); font-size: 12.5px; color: var(--tinta); }
+.regras { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 13.5px; color: var(--tinta-2); }
+.regras b { color: var(--tinta); }
+.nota { font-size: 12.5px; color: var(--tinta-3); }
+
+@media (max-width: 1180px) {
+  .areas { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 28px; }
+  .areas::before { left: 16%; right: 16%; }
+  .area:nth-child(n+4)::before { display: none; }
+}
+@media (max-width: 760px) {
+  .pagina { padding-block: 28px 48px; gap: 22px; }
+  .areas { grid-template-columns: minmax(0, 1fr); gap: 18px; padding-top: 0; padding-left: 18px; border-left: 2px solid var(--linha-forte); margin-top: 0; }
+  .areas::before { display: none; }
+  .area::before { display: block !important; top: 20px; left: -18px; width: 14px; height: 2px; }
+  .tronco.ultimo { height: 20px; }
+  .base { grid-template-columns: minmax(0, 1fr); }
+  .pessoa { width: 100%; }
+  .nivel-pessoas { padding-bottom: 0; }
+  .nivel-pessoas::after, .pessoa::after { display: none; }
+  .coordenador h2 { font-size: 21px; }
+}
+</style>
+
+<div class="pagina">
+  <header class="topo">
+    <span class="selo">Banca Aberta · estrutura em 15/10/2026</span>
+    <h1>Equipe virtual da Banca Aberta</h1>
+    <p>Quem faz o quê no projeto: as pessoas que decidem, o coordenador que distribui o trabalho e os agentes de cada área. Toque em um cartão para ver modelo, arquivos e regras.</p>
+    <div class="numeros" id="numeros"></div>
+  </header>
+
+  <div class="barra">
+    <div class="filtros" role="group" aria-label="Filtrar agentes">
+      <button type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+      <button type="button" data-filtro="ativos" aria-pressed="false">Em uso e automáticos</button>
+      <button type="button" data-filtro="prontos" aria-pressed="false">Prontos</button>
+      <button type="button" data-filtro="futuros" aria-pressed="false">Futuros e adiados</button>
+    </div>
+    <div class="legenda" aria-label="Legenda">
+      <span><i class="sit uso">Em uso</i></span>
+      <span><i class="sit auto">Automático</i></span>
+      <span><i class="sit pronto">Pronto</i></span>
+      <span><i class="sit futuro">Futuro</i></span>
+      <span><i class="sit adiado">Adiado</i></span>
+    </div>
+  </div>
+
+  <section class="arvore" aria-label="Organograma">
+    <div class="nivel-pessoas">
+      <div class="pessoa">
+        <span class="rotulo">Decide</span>
+        <strong>Marcos</strong>
+        <p>Dono do projeto. Produto, preço, o que vai ao ar. Aprova as mudanças do robô e as questões em atenção.</p>
+      </div>
+      <div class="pessoa">
+        <span class="rotulo">Jurídico</span>
+        <strong>Nayara ou advogado indicado</strong>
+        <p>Parecer sobre respostas da banca e prova completa, textos legais, marca no INPI.</p>
+      </div>
+      <div class="pessoa contratar">
+        <span class="rotulo">A contratar</span>
+        <strong>Professores</strong>
+        <p>Revisão dos guias das obras e amostra das correções por IA.</p>
+      </div>
+    </div>
+    <div class="tronco"></div>
+    <div class="coordenador">
+      <span class="rotulo">Coordenação</span>
+      <h2>Coordenador</h2>
+      <p>Divide o trabalho, chama os agentes, confere o que entregam, junta tudo, publica a prévia e mantém a memória do projeto (CLAUDE.md, pendências, esta equipe).</p>
+      <div class="meta"><span>Opus · esforço alto</span><span>Sessão “Plataforma de questões vestibular”</span><span>ORQUESTRACAO.md</span></div>
+    </div>
+    <div class="tronco ultimo"></div>
+    <div class="areas" id="areas"></div>
+  </section>
+
+  <section class="base">
+    <div class="caixa">
+      <h2>Portões de qualidade</h2>
+      <p>Scripts, não agentes. Nenhum agente passa por cima deles: se um falha, nada vai ao ar.</p>
+      <div class="portoes">
+        <div class="portao"><code>gabaritos.py</code>gabarito só do PDF oficial</div>
+        <div class="portao"><code>validar.py</code>precisa de 0 erros</div>
+        <div class="portao"><code>testes/navegador.js</code>a plataforma de ponta a ponta</div>
+        <div class="portao"><code>comparar_bluex.py</code>conferência independente</div>
+      </div>
+    </div>
+    <div class="caixa">
+      <h2>Regras que valem para todos</h2>
+      <ol class="regras">
+        <li><b>Gabarito só do PDF oficial.</b> Agente nunca escreve gabarito; se discorda, a questão vai para uma pessoa.</li>
+        <li><b>Discursiva só com resposta publicada pela banca.</b> Nunca inventar.</li>
+        <li><b>Fiel ao caderno</b>, inclusive erros do original; nada de trecho protegido.</li>
+        <li><b>Português do Brasil</b>; texto legal é rascunho até a revisão jurídica.</li>
+        <li><b>Volume repetitivo → Sonnet. Julgamento, revisão, jurídico e código → Opus.</b></li>
+      </ol>
+      <p class="nota">Registro completo em <code>ferramentas/EQUIPE.md</code>.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+const SIT = { uso: "Em uso", auto: "Automático", pronto: "Pronto", futuro: "Futuro", adiado: "Adiado" };
+const AREAS = [
+  { titulo: "Banco de questões", sub: "Provas reais, fiéis ao caderno", agentes: [
+    { nome: "Transcritor de objetivas", sit: "pronto", modelo: "Sonnet", resumo: "Transcreve as provas de 1ª fase em lotes de 30 a 36 questões.",
+      faz: "Copia enunciado, textos, alternativas, figuras e fórmulas exatamente como no caderno. Até 6 trabalhando ao mesmo tempo.",
+      onde: ["prompt_lote.py", "INSTRUCOES-TRANSCRICAO.md"], estado: "30 provas prontas (2017–2026). Volta quando saírem as provas de 2027." },
+    { nome: "Transcritor de discursivas", sit: "pronto", modelo: "Sonnet", resumo: "Enunciado da 2ª fase + a resposta oficial publicada pela banca.",
+      faz: "Só entra o que a banca publicou como resposta esperada; nada de resolução de cursinho.",
+      onde: ["prompt_discursiva.py", "DISCURSIVAS.md"], estado: "45 cadernos prontos (FUVEST 2023–2026, Unicamp 2017–2026)." },
+    { nome: "Revisor de questões", sit: "pronto", modelo: "Opus", resumo: "Confere cada questão com a página original e resolve.",
+      faz: "Parte do princípio de que há erro. Compara a própria resposta com o gabarito oficial; se discorda, marca a questão em atenção para uma pessoa decidir. Escreve assunto e resolução comentada.",
+      onde: [".claude/agents/revisor-questoes.md", "prompt_revisao_discursiva.py"], estado: "Revisou todo o banco. Volta a cada edição nova." },
+    { nome: "Comentarista", sit: "pronto", modelo: "Opus", resumo: "Assunto e resolução comentada dos lotes antigos.",
+      faz: "A resolução sempre termina na letra do gabarito oficial; o validador recusa se divergir.",
+      onde: ["prompt_complementos.py"], estado: "Concluído." },
+    { nome: "Corretor de discursivas por IA", sit: "futuro", modelo: "Opus", resumo: "Compara a resposta do aluno com a resposta oficial.",
+      faz: "Dá uma estimativa para estudo, com aviso claro de que não é nota oficial.",
+      onde: ["depende do backend"], estado: "Planejado para depois do login." }
+  ]},
+  { titulo: "Conteúdo de estudo", sub: "Calendário, obras, redação", agentes: [
+    { nome: "Pesquisador de editais", sit: "pronto", modelo: "Opus", resumo: "Datas, horários e regras do dia da prova.",
+      faz: "Usa só documentos oficiais das bancas, com fonte e data de conferência.",
+      onde: ["dados/provas/calendario.json", "formatos.json"], estado: "Calendário de 2027 completo." },
+    { nome: "Robô de editais", sit: "auto", modelo: "Opus", resumo: "Confere os editais toda segunda e quinta, às 7h59.",
+      faz: "Se um documento oficial muda, prepara a atualização numa branch separada e avisa. Nada entra sem a sua aprovação.",
+      onde: ["sessão “Robô de editais (sessão fixa)”", "robo_editais.py"], estado: "Funcionando; última conferência sem novidades." },
+    { nome: "Redator de guias das obras", sit: "pronto", modelo: "Opus", resumo: "Guias das 18 leituras obrigatórias.",
+      faz: "Texto da equipe, nunca trechos das obras. Cada guia liga às questões do banco sobre a obra.",
+      onde: ["dados/conteudo/obras.json", "ligar_obras.py"], estado: "Pronto; aguarda revisão de um professor." },
+    { nome: "Curador de temas de redação", sit: "pronto", modelo: "Opus", resumo: "Propostas de redação de anos anteriores.",
+      faz: "32 propostas com fonte, para treino.", onde: ["dados/conteudo/redacao-temas.json"], estado: "Concluído." },
+    { nome: "Corretor de redação por IA", sit: "futuro", modelo: "Opus", resumo: "Correção com a rubrica própria da equipe.",
+      faz: "Estimativa para estudo, opt-in, sem uso dos textos para treinar modelos; amostra revisada por professores.",
+      onde: ["depende do backend"], estado: "Planejado." },
+    { nome: "Tutor de dúvidas", sit: "futuro", modelo: "Opus", resumo: "Explica a resolução quando o aluno não entendeu.",
+      faz: "Conversa sobre a questão sem nunca mudar o gabarito oficial.", onde: ["depende do backend"], estado: "A avaliar." }
+  ]},
+  { titulo: "Produto e tecnologia", sub: "Site, dados e pagamento", agentes: [
+    { nome: "Designer de interface", sit: "uso", modelo: "Opus", resumo: "Layout, gráficos de desempenho e prévia.",
+      faz: "Papel exercido pelo Coordenador. Cores e gráficos validados para daltonismo e modo escuro.",
+      onde: ["pagina.html", "app/"], estado: "Redesign aprovado." },
+    { nome: "Engenheiro de backend", sit: "uso", modelo: "Opus · alto", resumo: "Supabase, login, sincronização e Mercado Pago.",
+      faz: "Cada aluno vê só os próprios dados; assinatura gravada só pelo servidor; chaves nunca no site.",
+      onde: ["sessão “Migração Supabase e backend”", "supabase/LEIAME.md"], estado: "Começou hoje." },
+    { nome: "Testador e segurança", sit: "futuro", modelo: "Opus", resumo: "Confere tudo antes de cada publicação.",
+      faz: "Validador, teste de navegador, revisão de código e de segurança.", onde: ["validar.py", "testes/navegador.js"], estado: "Entra com o backend no ar." },
+    { nome: "Analista de dados", sit: "futuro", modelo: "Sonnet", resumo: "Uso, conversão e ranking semanal.",
+      faz: "Também aponta questões com taxa de erro fora do normal, que podem ter erro de transcrição.", onde: ["depende do backend"], estado: "Depois do lançamento." }
+  ]},
+  { titulo: "Jurídico e conformidade", sub: "Direito autoral, LGPD, consumidor", agentes: [
+    { nome: "Auditor de conformidade", sit: "pronto", modelo: "Opus", resumo: "Auditoria A–I e rascunhos legais.",
+      faz: "Papel exercido pelo Coordenador. Todo texto legal sai como RASCUNHO PARA REVISÃO JURÍDICA.",
+      onde: ["CONFORMIDADE.md", "dados/juridico/"], estado: "Rascunhos prontos; aguardam o jurídico." },
+    { nome: "Triagem de direitos de terceiros", sit: "adiado", modelo: "Opus", resumo: "Charges, fotos e textos nas questões.",
+      faz: "Registra autor, obra e domínio público; o que ficar pendente sai da plataforma sem apagar nada.",
+      onde: ["conformidade.py", "terceiros.json"], estado: "Adiado por decisão sua." },
+    { nome: "Atendente LGPD", sit: "futuro", modelo: "Sonnet", resumo: "Pedidos do titular dos dados.",
+      faz: "Cópia, correção e exclusão de dados, junto com o encarregado humano.", onde: ["privacidade@bancaaberta.com.br"], estado: "Entra com o login." },
+    { nome: "Moderador do fórum", sit: "futuro", modelo: "Sonnet", resumo: "Comentários dos alunos.",
+      faz: "Fila de revisão; ocultar e restaurar sempre com registro.", onde: ["moderar.py"], estado: "Entra com o fórum." }
+  ]},
+  { titulo: "Negócio e relacionamento", sub: "Alunos, divulgação, dinheiro", agentes: [
+    { nome: "Marketing e Instagram", sit: "futuro", modelo: "Sonnet", resumo: "Posts e calendário do @bancaaberta.",
+      faz: "Artes, legendas e agendamento, no mesmo modelo que já funciona para o Primeiro Contato.", onde: ["@bancaaberta"], estado: "Perfil criado." },
+    { nome: "Suporte ao aluno", sit: "futuro", modelo: "Sonnet", resumo: "Dúvidas de acesso e pagamento.",
+      faz: "Erro em questão reportado por aluno vai direto para a fila do Revisor.", onde: ["suporte@bancaaberta.com.br"], estado: "Entra com o lançamento." },
+    { nome: "Financeiro", sit: "futuro", modelo: "Sonnet", resumo: "Conciliação do Mercado Pago.",
+      faz: "Reembolso no prazo de arrependimento (7 dias) e relatórios mensais.", onde: ["depende do backend"], estado: "Entra com o pagamento." }
+  ]}
+];
+
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+const areasEl = document.getElementById("areas");
+AREAS.forEach((a, i) => {
+  const area = el("div", "area");
+  const cab = el("div", "area-cab");
+  cab.append(el("span", "num", String(i + 1).padStart(2, "0")), el("h3", null, a.titulo), el("p", null, a.sub));
+  area.append(cab);
+  a.agentes.forEach(g => {
+    const d = el("details", "agente " + g.sit);
+    d.dataset.sit = g.sit;
+    const s = el("summary");
+    const l1 = el("div", "linha1");
+    l1.append(el("span", "nome", g.nome), el("span", "sit " + g.sit, SIT[g.sit]));
+    s.append(l1, el("span", "resumo", g.resumo), el("span", "modelo", g.modelo));
+    s.append(el("span", "mais", "Ver detalhes"));
+    const det = el("div", "detalhe");
+    det.append(el("p", null, g.faz));
+    const onde = el("p"); onde.append(el("b", null, "Onde: "));
+    g.onde.forEach((o, k) => { if (k) onde.append(" "); onde.append(el("code", null, o)); });
+    const est = el("p"); est.append(el("b", null, "Situação: "), g.estado);
+    det.append(onde, est);
+    d.append(s, det);
+    area.append(d);
+  });
+  areasEl.append(area);
+});
+
+const todos = AREAS.flatMap(a => a.agentes);
+const conta = s => todos.filter(g => s.includes(g.sit)).length;
+const numeros = document.getElementById("numeros");
+[[todos.length + 1, "agentes no total"], [conta(["uso", "auto"]) + 1, "trabalhando agora"], [conta(["pronto"]), "prontos, voltam quando preciso"], [conta(["futuro", "adiado"]), "planejados"]]
+  .forEach(([n, t]) => { const c = el("div", "numero"); c.append(el("b", null, n), el("span", null, t)); numeros.append(c); });
+
+const GRUPOS = { todos: null, ativos: ["uso", "auto"], prontos: ["pronto"], futuros: ["futuro", "adiado"] };
+document.querySelectorAll(".filtros button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".filtros button").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  const g = GRUPOS[b.dataset.filtro];
+  document.querySelectorAll(".agente").forEach(c => c.classList.toggle("escondido", !!g && !g.includes(c.dataset.sit)));
+}));
+</script>

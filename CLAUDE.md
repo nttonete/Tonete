@@ -25,6 +25,7 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 | `img/questoes/<edicao>/` | Figuras das questões (WebP) |
 | `ferramentas/` | Pipeline (abaixo) |
 | `.claude/agents/revisor-questoes.md` | Agente revisor |
+| `ferramentas/EQUIPE.md`, `organograma.html` | Equipe virtual: cada agente, modelo, situação e arquivos. Atualize quando um agente entrar ou mudar |
 | `testes/navegador.js` | Teste de ponta a ponta no Chromium |
 | `trabalho/` | Área de trabalho. No git ficam só rascunhos, revisões, complementos e recortes manuais (`*-cK.webp`); páginas renderizadas e figuras automáticas se regeneram |
 | `dados/provas/terceiros.json`, `moderacao.json` | Conteúdo de terceiros por questão (status, autor, obra) e regras de ocultação com log. Ver `ferramentas/CONFORMIDADE.md` |
