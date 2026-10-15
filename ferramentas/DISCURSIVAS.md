@@ -17,3 +17,12 @@ Observações:
 Regra do projeto: discursiva só entra com a resposta publicada pela banca (`dados/provas/respostas/<edicao>.json`). Por isso a ordem de trabalho é:
 1. Unicamp 2017–2026 e FUVEST 2023–2026 (têm resposta oficial).
 2. FUVEST 2017–2022 e UNESP: dependem de decisão (publicar o enunciado sem resposta ou deixar de fora).
+
+## UNESP (levantamento de 15/10/2026)
+
+- `vestibular.unesp.br` abre, mas é só o portal da universidade: não traz provas nem respostas.
+- `vunesp.com.br` (onde ficam provas e gabaritos) nega o acesso pelo próprio servidor da VUNESP (403 "Access Denied"), mesmo com o domínio liberado na rede do ambiente. Não tentamos contornar a proteção.
+- Busca na web: nenhuma "resposta esperada" ou "espelho" da 2ª fase divulgado pela VUNESP. Só há o gabarito oficial das objetivas e os cadernos.
+- Existem resoluções comentadas de cursinhos (Curso Objetivo, Estratégia, Oficina do Estudante). **Não usamos:** não são respostas publicadas pela banca (regra do projeto) e têm autoria e direitos próprios.
+- A 2ª fase da UNESP mudou de formato: teve questões objetivas por três edições e voltou às discursivas em 2024.
+- Decisão: a UNESP fica só com objetivas por enquanto. A plataforma avisa isso no cartão de discursivas. Revisar se a VUNESP passar a publicar respostas esperadas ou se alguém conseguir baixar o material do site dela.

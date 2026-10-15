@@ -499,6 +499,7 @@
     form.appendChild(el("fieldset", {}, [el("legend", { text: "Vestibulares" }), chips("disc-vest", opcoesVestibulares("discursiva"), Object.keys(VESTIBULARES))]));
     form.appendChild(el("label", { class: "campo", for: "disc-qtd" }, [el("span", { text: "Quantidade" }), selQtd]));
     form.appendChild(el("p", { class: "dica", text: "Sem matéria marcada, valem todas." }));
+    form.appendChild(el("p", { class: "dica", text: "Só entram questões com resposta esperada publicada pela banca. FUVEST: de 2023 a 2026 (nos anos anteriores a banca não divulgou as respostas). UNESP: ainda sem questões discursivas, porque não encontramos resposta oficial publicada pela banca." }));
     form.appendChild(el("button", { class: "botao", type: "submit", text: "Começar discursivas" }));
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();

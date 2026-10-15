@@ -40,7 +40,7 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 5. `python3 ferramentas/validar.py` (precisa de 0 erros) e `node testes/navegador.js` (precisa de `PLAYWRIGHT_PATH=$(npm root -g)/playwright`).
 6. Prévia: `python3 ferramentas/gerar_previa.py` e publicar `pagina.html` com os arquivos de `trabalho/previa/`.
 
-Situação: as 30 provas de 1ª fase (2017–2026) estão transcritas, revisadas e com resolução comentada. As 45 discursivas de 2ª fase com resposta oficial publicada (FUVEST 2023–2026, Unicamp 2017–2026) também estão transcritas e revisadas, com assunto e, na Unicamp, o objetivo da questão (inventário em `ferramentas/DISCURSIVAS.md`); FUVEST 2017–2022 e UNESP ficam de fora por não ter resposta oficial. O que depende de decisão humana está em `ferramentas/PENDENCIAS.md`.
+Situação: as 30 provas de 1ª fase (2017–2026) estão transcritas, revisadas e com resolução comentada. As 45 discursivas de 2ª fase com resposta oficial publicada (FUVEST 2023–2026, Unicamp 2017–2026) também estão transcritas e revisadas, com assunto e, na Unicamp, o objetivo da questão (inventário em `ferramentas/DISCURSIVAS.md`); FUVEST 2017–2022 e UNESP ficam de fora por não ter resposta oficial (UNESP: o site da VUNESP nega acesso daqui e não achamos respostas esperadas publicadas; resoluções de cursinhos não valem; ver `ferramentas/DISCURSIVAS.md`). O que depende de decisão humana está em `ferramentas/PENDENCIAS.md`.
 
 ## Recursos da plataforma
 
