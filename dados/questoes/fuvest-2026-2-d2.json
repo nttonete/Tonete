@@ -806,7 +806,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Aritmética e porcentagem",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q29",
@@ -834,7 +835,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Geometria espacial",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q30",
@@ -853,16 +855,17 @@
     {
      "rotulo": "b",
      "texto": "Qual a área da região obtida à direita do eixo $Oy$, abaixo da reta $y = 2$ e acima do gráfico de $f(x)$ para $d = 2$?",
-     "resposta_oficial": "A área do triângulo marrom é: $A = \\frac{4 \\times 2}{2} = 4$\n\n![Gráfico de f(x) e da reta y = 2, com a região triangular destacada à direita do eixo Oy](fig:r07-c1)"
+     "resposta_oficial": "A área do triângulo marrom é: $A = \\frac{4 \\times 2}{2} = 4$\n\n![Gráfico de f(x) e da reta y = 2, com a região triangular destacada em marrom à direita do eixo Oy](fig:r07-c1)"
     },
     {
      "rotulo": "c",
      "texto": "Qual é a área da região formada abaixo da reta $y = d$ e acima do gráfico de $f(x)$?",
-     "resposta_oficial": "$\\frac{|x|}{d} = d \\Rightarrow |x| = d^2 \\Rightarrow x = \\pm d^2$\n\n![Gráfico de f(x) e da reta y = d, com a região triangular destacada entre x = −d² e x = d²](fig:r07-c2)\n\nA região marrom formada é um triângulo de base $2d^2$ e altura $d$. Assim, a área é $A = \\frac{2d^2.d}{2} = d^3$."
+     "resposta_oficial": "$\\frac{|x|}{d} = d \\Rightarrow |x| = d^2 \\Rightarrow x = \\pm d^2$\n\n![Gráfico de f(x) e da reta y = d, com a região triangular destacada em marrom entre x = −d² e x = d²](fig:r07-c2)\n\nA região marrom formada é um triângulo de base $2d^2$ e altura $d$. Assim, a área é $A = \\frac{2d^2.d}{2} = d^3$."
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Funções",
+   "revisao": "corrigida"
   },
   {
    "id": "fuvest-2026-2-d2-q31",
@@ -890,7 +893,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Reações e estequiometria",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q32",
@@ -918,7 +922,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q33",
@@ -946,7 +951,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q34",
@@ -974,7 +980,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Termoquímica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q35",
@@ -1002,7 +1009,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Eletroquímica",
+   "revisao": "ok"
   },
   {
    "id": "fuvest-2026-2-d2-q36",
@@ -1030,7 +1038,8 @@
     }
    ],
    "resposta_oficial": null,
-   "revisao": "transcrita"
+   "assunto": "Ligações e interações",
+   "revisao": "ok"
   }
  ]
 }

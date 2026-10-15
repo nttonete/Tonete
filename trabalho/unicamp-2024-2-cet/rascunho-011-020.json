@@ -1,0 +1,84 @@
+{
+  "edicao": "unicamp-2024-2-cet",
+  "intervalo": [
+    11,
+    20
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 11,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A fabricação da próxima geração de *chips*, previstos para entrada no mercado em 2024, com maior velocidade de processamento e menor consumo de energia, é baseada na tecnologia de litografia com luz na região do ultravioleta extremo. Nesse processo, gotas de estanho são bombardeadas com pulsos de laser, o que dá origem a um plasma que emite radiação com comprimento de onda na região do ultravioleta extremo.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Para a formação do plasma, inicialmente eleva-se a temperatura da gota de estanho através do bombardeamento com um primeiro pulso de laser. O estanho tem densidade $\\rho \\simeq 7{,}0 \\times 10^3\\ \\text{kg/m}^3$ e calor específico $c_{\\text{Sn}} \\simeq 200\\ \\dfrac{\\text{J}}{\\text{kg} \\cdot {}^\\circ\\text{C}}$, e o volume da gota é $V = 2{,}0 \\times 10^{-14}\\ \\text{m}^3$. Qual a energia que um pulso de laser deve conter para elevar a temperatura da gota de 25 °C para 175 °C?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Um pulso de laser de comprimento de onda $\\lambda = 10{,}5\\ \\mu\\text{m}$ é usado em um experimento de teste para a formação de plasma. A potência do laser, em função do tempo, tem o perfil de um triângulo retângulo, como representado na figura, de forma que a energia total do pulso é dada pela área sob a curva. Sabendo-se que a energia $E$ de um fóton é dada por $E = hf$, sendo $h \\simeq 7 \\times 10^{-34}\\ \\text{J·s}$ e $f$ a frequência da radiação, quantos fótons contém o pulso de laser?\nDado: Velocidade da luz no vácuo: $c = 3 \\times 10^8\\ \\text{m/s}$.\n\n![Gráfico da potência do laser (10⁶ W) em função do tempo (10⁻⁹ s): perfil de triângulo retângulo, com pontos experimentais dispersos ao redor](fig:p13-f3)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Num processo de produção de *chips*, usa-se luz gerada pelo plasma de uma gota de estanho. Essa luz é usada para gravar o desenho dos dispositivos em uma superfície.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Para garantir que uma gota não interfira no plasma de outra, elas devem ser injetadas, em intervalos de tempo bem definidos, na máquina que faz a escrita dos *chips*. Sabendo que a velocidade das gotas é $v = 80\\ \\text{m/s}$, e que elas são injetadas a uma frequência $f = 50\\ \\text{kHz}$, qual a distância $\\Delta s$ entre duas gotas consecutivas?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Para a escrita dos *chips*, uma lente objetiva é utilizada na focalização de um feixe luminoso na superfície. A figura A ilustra dois raios luminosos incidindo paralelamente ao eixo óptico de uma lente convergente de diâmetro $D = 6{,}0\\ \\text{mm}$ e distância focal $F = 4{,}0\\ \\text{mm}$, imersa no ar ($n_{\\text{ar}} = 1$). Para mudar a trajetória do feixe luminoso e melhorar o processo de gravação, usa-se um líquido entre a lente e a superfície. A figura B representa uma situação similar à da figura A, com os raios que emergem da lente adentrando um meio líquido. Qual é o índice de refração $n_2$ do líquido?\n\n![Figuras A e B. Figura A: dois raios paralelos ao eixo óptico, no ar, de largura D, incidem numa lente convergente e se cruzam no eixo óptico, formando o ângulo θ1 com o eixo. Figura B: os raios emergem da lente, no ar, com ângulo θ1 e entram num líquido, onde se cruzam no eixo com ângulo θ2; estão indicados a distância h ao longo do raio no líquido, a distância c entre o raio e o eixo no ponto de cruzamento, c = 2 mm e h = 4 mm](fig:p14-f2)"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 13,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Parte de um dispositivo pertencente a um *chip* pode ser descrita como sendo formada por duas placas condutoras paralelas de área $A = 2{,}0\\ \\mu\\text{m}^2$, separadas por um material dielétrico de espessura $e = 0{,}1\\ \\mu\\text{m}$ e constante dielétrica $K \\simeq 4$. Esse conjunto forma um capacitor (ver figura), cuja capacitância $C$ é diretamente proporcional à área das placas ($A$) e inversamente proporcional à espessura do dielétrico ($e$), sendo o fator de proporcionalidade dado por $K\\varepsilon_0$, com $\\varepsilon_0 \\simeq 9 \\times 10^{-12}\\ \\text{F/m}$. Pede-se:\n\n![Capacitor de placas paralelas ligado a uma fonte de tensão V = 5,0 V, com a área A das placas, o dielétrico entre elas e a espessura e indicados](fig:p15-f3)\n\ni) a capacitância $C$ do referido capacitor;\nii) a carga armazenada nas placas quando o capacitor é submetido a uma diferença de potencial $V = 5{,}0\\ \\text{V}$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Na gravação de *chips*, grades de difração são usadas para a seleção de comprimentos de onda de feixes luminosos. A grade é formada por reentrâncias que dispersam a luz em diferentes direções (ângulos $\\theta$ no diagrama apresentado no espaço de resposta) em função do comprimento de onda. Quando a luz incide perpendicularmente à grade, a relação entre o comprimento de onda $\\lambda$ e o ângulo de difração $\\theta$ é dada por $d \\cdot \\text{sen}\\,\\theta = m\\lambda$, sendo $d$ o espaçamento entre as reentrâncias da grade e $m = 1, 2, 3...$ No diagrama, são representados dois feixes de laser, um deles de comprimento de onda $\\lambda_1 = 192\\ \\text{nm}$, e outro de comprimento $\\lambda_2$ a ser determinado. Fazendo uso do diagrama e da Tabela 1, complete corretamente a Tabela 2, apresentada no espaço de respostas, da seguinte maneira:\n\ni) preencha a primeira linha e determine $d$;\nii) preencha a segunda linha e determine o comprimento de onda $\\lambda_2$.\n\nTabela 1\n\n| $\\theta$ (graus) | $\\text{tg}\\,\\theta$ | $\\text{sen}\\,\\theta$ |\n|---|---|---|\n| 17 | 0,31 | 0,29 |\n| 19 | 0,34 | 0,33 |\n| 21 | 0,38 | 0,36 |\n| 23 | 0,42 | 0,39 |\n| 25 | 0,47 | 0,42 |\n| 27 | 0,51 | 0,45 |\n| 29 | 0,56 | 0,48 |\n| 31 | 0,60 | 0,52 |\n\n*Campo de resolução:*\n\n![Diagrama da difração: os feixes de comprimentos de onda λ1 e λ2 incidem na grade e atingem o anteparo, a D = 0,5 m; no anteparo, a escala y (m) vai de 0 a 0,4 e estão indicadas as direções m = 1, λ1; m = 1, λ2; m = 2, λ1; m = 2, λ2, com os ângulos θ](fig:p15-c5)\n\n![Tabela 2, a ser completada: colunas λ (nm), m, y (m), tg θ, sen θ e d (nm); primeira linha com λ1 = 192, m = 2 e y = 0,28; segunda linha com λ2 = (em branco) e m = 1; a célula de d da segunda linha está sombreada](fig:p15-c4)"
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "11": {
+      "itens": {
+        "a": "$$m = \\rho V = 7{,}0 \\times 10^3\\ \\frac{\\text{kg}}{\\text{m}^3} \\times 2{,}0 \\times 10^{-14}\\ \\text{m}^3 = 1{,}4 \\times 10^{-10}\\ \\text{kg}$$\n\n$$Q = mc\\Delta T = 1{,}4 \\times 10^{-10}\\ \\text{kg} \\times 200\\ \\frac{\\text{J}}{\\text{Kg}\\ ^\\circ\\text{C}} \\times (175\\ ^\\circ\\text{C} - 25\\ ^\\circ\\text{C}) = 4{,}2 \\times 10^{-6}\\ \\text{J}$$",
+        "b": "Energia do pulso:\n\n$$E_{\\text{pulso}} = \\text{área sob a curva} = \\frac{(175 \\times 10^{-9}\\ \\text{s}) \\times (8 \\times 10^6\\ \\text{W})}{2} = 0{,}7\\ \\text{J}$$\n\nEnergia de um fóton:\n\n$$E_{\\text{fóton}} = hf = h\\frac{c}{\\lambda} = 7 \\times 10^{-34}\\ \\text{J·s} \\times \\frac{3 \\times 10^8\\ \\text{m/s}}{10{,}5 \\times 10^{-6}\\ \\text{m}} = 2 \\times 10^{-20}\\ \\text{J}$$\n\nNúmero de fótons:\n\n$$N = \\frac{E_{\\text{pulso}}}{E_{\\text{fóton}}} = \\frac{0{,}7\\ \\text{J}}{2 \\times 10^{-20}\\ \\text{J}} = 3{,}5 \\times 10^{19}\\ \\text{fótons}$$"
+      }
+    },
+    "12": {
+      "itens": {
+        "a": "Tempo entre duas gotas:\n\n$$\\Delta t = \\frac{1}{f} = \\frac{1}{5 \\times 10^4} = 2 \\times 10^{-5}\\ \\text{s}$$\n\nDistância entre gotas:\n\n$$\\Delta x = v \\times \\Delta t = 80\\ \\text{m/s} \\times 2 \\times 10^{-5}\\ \\text{s} = 1{,}6 \\times 10^{-3}\\ \\text{m} = 1{,}6\\ \\text{mm}$$",
+        "b": "Lei de Snell-Descartes: $n_1\\,\\text{sen}\\,\\theta_1 = n_2\\,\\text{sen}\\,\\theta_2$.\n\nDa figura A, temos: $\\text{sen}\\,\\theta_1 = \\dfrac{3}{5} = 0{,}6$ (triângulo 3, 4 e 5).\n\nDa figura B, temos $\\text{sen}\\,\\theta_2 = \\dfrac{c}{h} = \\dfrac{2\\ \\text{mm}}{4\\ \\text{mm}} = 0{,}5$. Assim:\n\n$$n_2 = \\frac{n_1\\,\\text{sen}\\,\\theta_1}{\\text{sen}\\,\\theta_2} = \\frac{\\text{sen}\\,\\theta_1}{\\text{sen}\\,\\theta_2} = \\frac{0{,}6}{0{,}5} = 1{,}2.$$"
+      }
+    },
+    "13": {
+      "itens": {
+        "a": "i)\n\n$$C = (K\\varepsilon_0)\\left(\\frac{A}{d}\\right) = 4 \\times (9 \\times 10^{-12}\\ \\text{F/m}) \\times \\left(\\frac{2{,}0\\ \\mu\\text{m}^2}{0{,}1\\ \\mu\\text{m}}\\right) = 4 \\times (9 \\times 10^{-12}\\ \\text{F/m}) \\times \\left(\\frac{2{,}0 \\times (10^{-6}\\ \\text{m})^2}{0{,}1 \\times 10^{-6}\\ \\text{m}}\\right) = 7{,}2 \\times 10^{-16}\\ \\text{F}$$\n\nii)\n\n$$Q = CV = (7{,}2 \\times 10^{-16}\\ \\text{F}) \\times (5{,}0\\ \\text{V}) = 3{,}6 \\times 10^{-15}\\ \\text{C}$$",
+        "b": "i)\n\n$\\text{tg}\\,\\theta_1 = \\dfrac{y_1}{D} = \\dfrac{0{,}28\\ \\text{m}}{0{,}5\\ \\text{m}} = 0{,}56$; usando a Tabela 1, encontramos $\\text{sen}\\,\\theta_1 = 0{,}48$.\n\n$$d\\,\\text{sen}\\,\\theta_1 = m_1\\lambda_1 \\Rightarrow d = \\frac{2 \\times \\lambda_1}{\\text{sen}\\,\\theta_1} = \\frac{2 \\times 192\\ \\text{nm}}{0{,}48} = 800\\ \\text{nm}.$$\n\nii) Do diagrama, $y_2 = 0{,}17\\ \\text{m}$\n\n$\\text{tg}\\,\\theta_2 = \\dfrac{y_2}{D} = \\dfrac{0{,}17\\ \\text{m}}{0{,}5\\ \\text{m}} = 0{,}34$; usando a Tabela 1, encontramos $\\text{sen}\\,\\theta_2 = 0{,}33$.\n\n$$d\\,\\text{sen}\\,\\theta_2 = m_2\\lambda_2 \\Rightarrow \\lambda_2 = \\frac{d\\,\\text{sen}\\,\\theta_2}{m_2} = \\frac{800\\ \\text{nm} \\times 0{,}33}{1} = 264\\ \\text{nm}.$$\n\n![Tabela 2 preenchida: λ1 = 192 nm, m = 2, y = 0,28 m, tg θ = 0,56, sen θ = 0,48, d = 800 nm; λ2 = 264 nm, m = 1, y = 0,17 m, tg θ = 0,34, sen θ = 0,33; os valores acrescentados à tabela estão em azul](fig:r08-c1)"
+      }
+    }
+  }
+}

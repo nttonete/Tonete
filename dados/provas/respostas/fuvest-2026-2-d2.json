@@ -198,8 +198,8 @@
  "30": {
   "itens": {
    "a": "$f(x) = 1 \\Rightarrow |x| = 1 \\Rightarrow x = \\pm 1$\nOs pontos de interseção são $(1{,}1)$ e $(-1{,}1)$.",
-   "b": "A área do triângulo marrom é: $A = \\frac{4 \\times 2}{2} = 4$\n\n![Gráfico de f(x) e da reta y = 2, com a região triangular destacada à direita do eixo Oy](fig:r07-c1)",
-   "c": "$\\frac{|x|}{d} = d \\Rightarrow |x| = d^2 \\Rightarrow x = \\pm d^2$\n\n![Gráfico de f(x) e da reta y = d, com a região triangular destacada entre x = −d² e x = d²](fig:r07-c2)\n\nA região marrom formada é um triângulo de base $2d^2$ e altura $d$. Assim, a área é $A = \\frac{2d^2.d}{2} = d^3$."
+   "b": "A área do triângulo marrom é: $A = \\frac{4 \\times 2}{2} = 4$\n\n![Gráfico de f(x) e da reta y = 2, com a região triangular destacada em marrom à direita do eixo Oy](fig:r07-c1)",
+   "c": "$\\frac{|x|}{d} = d \\Rightarrow |x| = d^2 \\Rightarrow x = \\pm d^2$\n\n![Gráfico de f(x) e da reta y = d, com a região triangular destacada em marrom entre x = −d² e x = d²](fig:r07-c2)\n\nA região marrom formada é um triângulo de base $2d^2$ e altura $d$. Assim, a área é $A = \\frac{2d^2.d}{2} = d^3$."
   }
  },
  "31": {
