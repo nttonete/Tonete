@@ -1,0 +1,40 @@
+{
+ "edicao": "fuvest-2022-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 61,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O mapa mostra a topografia, os aspectos da paisagem e o tipo de cobertura vegetal da superfície numa determinada área, com um observador que, localizado próximo ao leito do rio, vê a paisagem direcionando seu olhar para o quadrante nordeste.\n\n![Mapa topográfico com cobertura vegetal (mata ciliar e pastagem), observador junto a um lago ou represa, edificações, cursos d’água, pontos cotados e curvas de nível a cada 5 m; escala de 1 km e legenda](fig:p17-f1)\n\nO cenário a ser visto pelo observador, considerando os aspectos evidenciados no mapa, é:",
+   "alternativas": {
+    "A": "![Fotografia A: rio com corredeira em primeiro plano e morro coberto de pasto ao fundo](fig:p17-c2)",
+    "B": "![Fotografia B: rio de águas turvas com vegetação nas margens e morro com casa ao fundo](fig:p17-c3)",
+    "C": "![Fotografia C: rio entre vegetação, com montanhas ao fundo](fig:p17-c4)",
+    "D": "![Fotografia D: morros com mata e pasto, sem rio visível](fig:p17-c5)",
+    "E": "![Fotografia E: pasto em primeiro plano e morro com mata ao fundo, com uma pequena construção branca ao pé do morro](fig:p17-c6)"
+   }
+  },
+  {
+   "numero": 76,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O hidróxido de alumínio ($\\text{A}\\ell(\\text{OH})_3$), ao precipitar em solução aquosa, forma um sólido gelatinoso que pode ser usado como agente floculante no tratamento de água. Essa precipitação pode ocorrer pela adição de um hidróxido solúvel a uma solução aquosa ácida contendo um sal de alumínio solúvel, como o $\\text{A}\\ell\\text{C}\\ell_3$. Entretanto, adicionando-se excesso de hidróxido ao meio, há a formação de íons $\\text{A}\\ell(\\text{OH})_4^-$, espécie solúvel em água, e o precipitado se solubiliza novamente. Dessa forma, dependendo do pH do meio, uma dentre as espécies $\\text{A}\\ell(\\text{OH})_4^-(\\text{aq})$, $\\text{A}\\ell(\\text{OH})_3(\\text{s})$ e $\\text{A}\\ell^{3+}(\\text{aq})$ estará presente na solução em quantidade maior que as demais, como exemplificado no esquema.\n\n![Escala de pH do meio de 4 a 9 com três faixas identificadas como Espécie A (à esquerda), Espécie B (ao centro) e Espécie C (à direita)](fig:p22-c1)\n\nA alternativa que mostra corretamente qual das espécies estará em quantidade maior que as duas outras em cada faixa de pH é:",
+   "alternativas": {
+    "A": "![Alternativa A: escala de pH do meio de 4 a 9 com Aℓ(OH)₄⁻(aq) na faixa da esquerda, Aℓ(OH)₃(s) na faixa do centro e Aℓ³⁺(aq) na faixa da direita](fig:p22-c2)",
+    "B": "![Alternativa B: escala de pH do meio de 4 a 9 com Aℓ³⁺(aq) na faixa da esquerda, Aℓ(OH)₄⁻(aq) na faixa do centro e Aℓ(OH)₃(s) na faixa da direita](fig:p22-c3)",
+    "C": "![Alternativa C: escala de pH do meio de 4 a 9 com Aℓ(OH)₃(s) na faixa da esquerda, Aℓ(OH)₄⁻(aq) na faixa do centro e Aℓ³⁺(aq) na faixa da direita](fig:p22-c4)",
+    "D": "![Alternativa D: escala de pH do meio de 4 a 9 com Aℓ(OH)₃(s) na faixa da esquerda, Aℓ³⁺(aq) na faixa do centro e Aℓ(OH)₄⁻(aq) na faixa da direita](fig:p22-c5)",
+    "E": "![Alternativa E: escala de pH do meio de 4 a 9 com Aℓ³⁺(aq) na faixa da esquerda, Aℓ(OH)₃(s) na faixa do centro e Aℓ(OH)₄⁻(aq) na faixa da direita](fig:p22-c6)"
+   }
+  }
+ ],
+ "complementos": {},
+ "relatorio": []
+}
