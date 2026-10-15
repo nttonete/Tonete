@@ -1,0 +1,68 @@
+{
+ "edicao": "unicamp-2020-1",
+ "intervalo": [
+  31,
+  60
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [],
+ "complementos": {
+  "31": {
+   "assunto": "Cartografia",
+   "resolucao": "Dois pontos antípodas são diametralmente opostos: têm a mesma latitude em hemisférios opostos (N ↔ S) e longitudes que somam $180^\\circ$, em hemisférios opostos (W ↔ E).\n\nPara Coari ($4^\\circ$ S, $63^\\circ$ W), o antípoda fica em $4^\\circ$ N e $180^\\circ - 63^\\circ = 117^\\circ$ E, exatamente a posição de Temon na alternativa C.\n\nA alternativa B é a armadilha: apenas troca W por E, sem fazer $180^\\circ - 63^\\circ$, e isso dá um ponto que não é oposto ao primeiro. Em A acontece o mesmo; em D a latitude também está errada (75° em vez de 15°).\n\n**Resposta: C**"
+  },
+  "32": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Chame de $m$ o número de filhas e de $h$ o de filhos. Uma filha não conta a si mesma: ela tem $m - 1$ irmãs e $h$ irmãos. Um filho tem $m$ irmãs e $h - 1$ irmãos.\n\nCondições: $m - 1 = h$ e $m = 2(h - 1)$.\n\nSubstituindo $h = m - 1$ na segunda: $m = 2(m - 2) \\Rightarrow m = 4$ e, então, $h = 3$.\n\nConferindo: cada filha tem 3 irmãs e 3 irmãos; cada filho tem 4 irmãs e 2 irmãos (4 é o dobro de 2). Total: $4 + 3 = 7$.\n\n**Resposta: C**"
+  },
+  "33": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Conte todas as filas e retire aquelas em que as duas pessoas ficam juntas.\n\nTotal sem restrição: $5! = 120$.\n\nAs duas juntas: trate-as como um bloco; há $4! = 24$ arranjos do bloco com as outras três, e o bloco pode estar em 2 ordens, ou seja, $24 \\cdot 2 = 48$.\n\nPosições permitidas: $120 - 48 = 72$.\n\nCuidado com a alternativa A (48): é justamente o número de casos proibidos.\n\n**Resposta: B**"
+  },
+  "34": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Vencer o torneio é ganhar exatamente 2 ou exatamente 3 provas (distribuição binomial com $p = 2/3$ e $q = 1/3$).\n\nExatamente 2 vitórias: há 3 escolhas de qual prova ele perde, então $3 \\cdot \\left(\\frac{2}{3}\\right)^2 \\cdot \\frac{1}{3} = \\frac{12}{27}$.\n\nExatamente 3 vitórias: $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$.\n\nSoma: $\\frac{12}{27} + \\frac{8}{27} = \\frac{20}{27}$.\n\nQuem esquece o fator 3 (as ordens possíveis) chega a $\\frac{4}{27} + \\frac{8}{27}$, que não está entre as alternativas.\n\n**Resposta: C**"
+  },
+  "35": {
+   "assunto": "Funções",
+   "resolucao": "Calcule de dentro para fora.\n\n$f(1) = a \\cdot 1 + 2 = a + 2$.\n\n$f(f(1)) = f(a + 2) = a(a + 2) + 2 = a^2 + 2a + 2$.\n\nImpondo $a^2 + 2a + 2 = 1$: $a^2 + 2a + 1 = 0 \\Rightarrow (a + 1)^2 = 0 \\Rightarrow a = -1$.\n\nConferindo: com $a = -1$, temos $f(1) = 1$ e, portanto, $f(f(1)) = f(1) = 1$.\n\n**Resposta: A**"
+  },
+  "36": {
+   "assunto": "Polinômios e equações",
+   "resolucao": "Pelas relações de Girard, o produto das raízes de $2x^2 + ax + 10 = 0$ é $\\frac{10}{2} = 5$ e a soma é $-\\frac{a}{2}$.\n\nSe as raízes são inteiras e o produto é 5 (primo), as únicas possibilidades são $\\{1, 5\\}$ ou $\\{-1, -5\\}$.\n\nEm ambos os casos, a soma é $6$ ou $-6$, e o módulo vale $6$ (com $a = -12$ ou $a = 12$).\n\n**Resposta: D**"
+  },
+  "37": {
+   "assunto": "Progressões",
+   "resolucao": "Escreva os termos a partir do terceiro, que é conhecido. Com razão $r$: $a = 3 - 2r$, $b = 3 - r$, $c = 3 + r$.\n\nSoma: $(3 - 2r) + (3 - r) + 3 + (3 + r) = 12 - 2r = 8 \\Rightarrow r = 2$.\n\nA progressão é $(-1, 1, 3, 5)$, e o produto vale $(-1) \\cdot 1 \\cdot 3 \\cdot 5 = -15$.\n\n**Resposta: C**"
+  },
+  "38": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Em $f(x) = ab^x$, os valores $f(1), f(2), f(3)$ formam uma progressão geométrica de razão $b$; o termo do meio é a média geométrica dos vizinhos.\n\nDe fato: $f(1)f(3) = ab \\cdot ab^3 = a^2b^4 = (ab^2)^2$. Como $a, b > 0$, $\\sqrt{f(1)f(3)} = ab^2 = f(2)$.\n\nAs outras falham: $f(3)/f(0) = b^3$; $f(0)f(1) = a^2b$; $f(0)^3 = a^3$. Nenhuma é $ab^2$ para todos $a, b$.\n\n**Resposta: A**"
+  },
+  "39": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Uma matriz é singular quando seu determinante é zero.\n\n$A + A^T = \\begin{bmatrix} p & 2 \\\\ 0 & p \\end{bmatrix} + \\begin{bmatrix} p & 0 \\\\ 2 & p \\end{bmatrix} = \\begin{bmatrix} 2p & 2 \\\\ 2 & 2p \\end{bmatrix}$.\n\n$\\det(A + A^T) = 4p^2 - 4 = 0 \\Rightarrow p^2 = 1 \\Rightarrow |p| = 1$.\n\nNote que $A$ sozinha (determinante $p^2$) só seria singular com $p = 0$, a armadilha da alternativa A.\n\n**Resposta: B**"
+  },
+  "40": {
+   "assunto": "Geometria plana",
+   "resolucao": "No triângulo retângulo $ABD$ (reto em $D$), o ângulo em $B$ mede $30^\\circ$ e $AD = h$ é o cateto oposto a ele.\n\n$\\operatorname{sen} 30^\\circ = \\frac{AD}{AB} \\Rightarrow \\frac{1}{2} = \\frac{h}{AB} \\Rightarrow AB = 2h$.\n\nComo $AB = BC$, a base $BC$ também vale $2h$, e $AD$ é a altura relativa a ela.\n\nÁrea: $\\frac{BC \\cdot AD}{2} = \\frac{2h \\cdot h}{2} = h^2$.\n\n**Resposta: A**"
+  },
+  "41": {
+   "assunto": "Trigonometria",
+   "resolucao": "Tome $AB = AM = MC = 1$, com o ângulo reto em $A$. Então $AC = 2$.\n\nNo triângulo $ABM$: $\\operatorname{tg}(A\\hat{B}M) = \\frac{AM}{AB} = 1$. No triângulo $ABC$: $\\operatorname{tg}(A\\hat{B}C) = \\frac{AC}{AB} = 2$.\n\nComo $\\theta = A\\hat{B}C - A\\hat{B}M$, use a tangente da diferença:\n\n$\\operatorname{tg}\\theta = \\frac{2 - 1}{1 + 2 \\cdot 1} = \\frac{1}{3}$.\n\n**Resposta: B**"
+  },
+  "42": {
+   "assunto": "Polinômios e equações",
+   "resolucao": "O ponto $B$ está sobre o eixo $y$, então sua ordenada é $f(0) = 1$. Os pontos $A$ e $C$ também têm ordenada 1.\n\n$f(x) = 1 \\Rightarrow x^3 - x^2 - 2x = 0 \\Rightarrow x(x^2 - x - 2) = 0 \\Rightarrow x(x - 2)(x + 1) = 0$.\n\nAs abscissas são $-1$ ($A$), $0$ ($B$) e $2$ ($C$). Como $A$ e $C$ estão na mesma horizontal, a distância é $2 - (-1) = 3$.\n\n**Resposta: C**"
+  },
+  "43": {
+   "assunto": "Geometria analítica",
+   "resolucao": "Complete o quadrado: $x^2 - 2cx + y^2 = 0 \\Rightarrow (x - c)^2 + y^2 = c^2$.\n\nO centro é $(c, 0)$ e o raio é $|c|$.\n\nComo o centro está na reta $x + 2y = 3$: $c + 2 \\cdot 0 = 3 \\Rightarrow c = 3$.\n\nLogo, o raio vale 3.\n\n**Resposta: D**"
+  },
+  "44": {
+   "assunto": "Geometria espacial",
+   "resolucao": "Seja $a$ a aresta do tetraedro e $b$ a do cubo.\n\nO tetraedro regular tem 4 faces triangulares equiláteras: área $4 \\cdot \\frac{a^2\\sqrt{3}}{4} = a^2\\sqrt{3}$. O cubo tem área $6b^2$.\n\n$a^2\\sqrt{3} = 6b^2 \\Rightarrow \\frac{a^2}{b^2} = \\frac{6}{\\sqrt{3}} = 2\\sqrt{3}$.\n\n$\\frac{a}{b} = \\sqrt{2\\sqrt{3}} = \\sqrt{2} \\cdot \\sqrt{\\sqrt{3}} = \\sqrt{2}\\sqrt[4]{3}$.\n\n**Resposta: C**"
+  }
+ },
+ "relatorio": []
+}
