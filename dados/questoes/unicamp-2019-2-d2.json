@@ -1,0 +1,425 @@
+{
+ "edicao": {
+  "id": "unicamp-2019-2-d2",
+  "vestibular": "unicamp",
+  "ano": 2019,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2019 – 2ª fase (2º dia: Matemática, Geografia e História)",
+  "caderno": "2º dia: Matemática, Geografia e História",
+  "fonte": {
+   "caderno": "2fase-mat-geo-his-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-matematica-respostas.pdf",
+    "2fase-geografia-respostas.pdf",
+    "2fase-historia-respostas.pdf",
+    "2fase-matematica-comentada.pdf",
+    "2fase-geografia-comentada.pdf",
+    "2fase-historia-comentada.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2019-2-d2-q01",
+   "numero": 1,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Gráfico de linhas intitulado Evolução da área total irrigada por região geográfica do Brasil, em milhões de hectares, de 1960 a 2015, com uma linha para cada região: Sudeste (2.709.342), Sul (1.693.743), Nordeste (1.216.061), Centro-Oeste (1.183.973) e Norte (194.001)](fig:p03-c1)\n\n(Adaptado *de Conjuntura de Recursos Hídricos no Brasil 2017*: Relatório Pleno. Agência Nacional de Águas (ANA), p. 59.)\n\nO gráfico acima apresenta a evolução da área irrigada nas cinco regiões geográficas brasileiras. De acordo com a Agência Nacional de Águas (ANA), a irrigação constitui atualmente o principal uso hídrico do país, tanto no total de retirada (46,2%) quanto no de consumo (67,2%). Nas regiões Sul e Nordeste, a incorporação de áreas irrigadas foi especialmente importante no Rio Grande do Sul e no Semiárido, respectivamente.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Indique a principal atividade agrícola irrigada no Rio Grande do Sul e no Semiárido nordestino, respectivamente.",
+     "resposta_oficial": "A principal atividade agrícola irrigada no Rio Grande do Sul está ligada à produção de grãos, destacando-se o arroz, com aproximadamente 80% de área irrigada (irrigação por inundação).\n\nNo Semiárido nordestino destaca-se a irrigação da fruticultura, especialmente voltada para o mercado externo."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte uma importante política governamental, adotada desde a década de 1960, que se destina à expansão da modernização agrícola brasileira. Do ponto de vista da estrutura fundiária, qual é a principal característica das propriedades que utilizam a irrigação no Sudeste brasileiro?",
+     "resposta_oficial": "Desde a década de 1960, adota-se uma política de incentivo de créditos bancários subsidiados pelo Estado brasileiro voltados para a modernização técnica da agricultura, destacando-se, entre outras medidas, o estímulo ao uso de equipamentos tecnicamente modernos.\n\nNa região Sudeste, esse processo de modernização da agricultura predominou nas médias e grandes propriedades agrícolas, especialmente em culturas agrícolas como a da cana-de-açúcar."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q02",
+   "numero": 2,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A Espanha é um Estado unitário multinacional constituído por grupos étnicos regionais. Entretanto, em diversos momentos a unidade territorial espanhola esteve ameaçada, sobretudo com as reivindicações de independência de comunidades autônomas. A questão nacional espanhola, e de muitos outros países onde avançam movimentos separatistas, reacende o debate contemporâneo sobre os Estados nacionais e o nacionalismo em suas distintas facetas, especialmente em um contexto de globalização.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Identifique as duas principais regiões autônomas espanholas que historicamente reivindicam independência e sua constituição como Estados nacionais.",
+     "resposta_oficial": "As duas principais regiões autônomas espanholas que reivindicam independência são a Catalunha e o País Basco."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Além de movimentos nacionalistas que reivindicam independência e a formação de novos países, aponte duas outras expressões de nacionalismo que se tornaram mais frequentes com a globalização.",
+     "resposta_oficial": "Podemos citar como expressões de nacionalismo o avanço do discurso de identidade nacional marcado pela valorização da língua e da cultura nacional, e o aumento da xenofobia e das políticas econômicas protecionistas. Em relação a essa manifestação, associada sobretudo à presença de populações estrangeiras dentro dos países, destaca-se a emergência do discurso de aversão a determinados grupos de imigrantes em condições socioeconômicas desfavoráveis, originários de países pobres."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q03",
+   "numero": 3,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A movimentação das massas de ar é responsável pelas mudanças no tempo atmosférico. O mapa abaixo mostra a dinâmica dos sistemas atmosféricos na América do Sul em maio de 2018. Observe o deslocamento dessas massas de ar sobre o território brasileiro e responda às questões a seguir.\n\n![Mapa Sistemas atmosféricos da América do Sul, 20 de maio de 2018, com legenda dos sistemas atmosféricos (frente quente, frente fria, frente estacionária e Zona de Convergência Intertropical - ZCIT) e linhas com esses símbolos traçadas sobre o continente e o oceano.](fig:p05-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique o que é uma frente fria e, considerando o alcance e o deslocamento da frente fria até a região Norte do Brasil, indique qual é o fenômeno representado no mapa.",
+     "resposta_oficial": "Frente fria é uma massa de ar frio que avança em direção a uma região ocupada por ar mais quente.\n\nO fenômeno representado no mapa é a friagem. Com a chegada das frentes frias ocorre a mudança da intensidade e da direção dos ventos, com a formação de nuvens cumulonimbus, ocasionando chuvas e redução da temperatura média."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A Zona de Convergência Intertropical resulta do encontro dos ventos alísios. Onde se originam os ventos alísios? Qual sua principal consequência para as condições meteorológicas da faixa equatorial?",
+     "resposta_oficial": "Os ventos alísios se originam nos trópicos e promovem a formação de grandes volumes de chuva."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q04",
+   "numero": 4,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Esquema em corte de um terreno, dividido em Cenário A e Cenário B, com árvores, camadas de detritos, solo e leito rochoso, e setas rotuladas Precipitação, Interceptação e evapotranspiração, Precipitação não interceptada, Interceptação e evaporação de detritos/solo e Corrente](fig:p06-f1)\n\n(Fonte: James F. Petersen, Dorothy Sack e Robert E. Glabler, *Fundamentos de Geografia Física*. São Paulo: Cengage Learning, 2014, p. 332.)\n\nConsiderando a figura acima, responda às questões a seguir.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em qual dos cenários indicados na figura é possível identificar baixa infiltração da água e alto escoamento superficial? Aponte uma característica da superfície que é responsável por esse processo.",
+     "resposta_oficial": "O cenário correto é o B. Nesse cenário, a tendência de aumento do escoamento é consequência da presença da maior inclinação do terreno."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Em uma situação de chuvas torrenciais nas áreas urbanas podem ocorrer alagamentos e inundações. Defina inundação, e indique em que outros corpos hídricos, além dos rios, esse fenômeno pode ocorrer.",
+     "resposta_oficial": "A inundação é causada por transbordamento ou acumulação de água por drenagem deficiente em áreas não habitualmente submersas.\n\nA inundação pode ocorrer por transbordamento de água de lagos, açudes e barragens."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q05",
+   "numero": 5,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Gráfico de barras intitulado Evolução da urbanização brasileira por regiões, com a taxa de urbanização (%) das regiões 1. Sudeste, 2. Centro-Oeste, 3. Sul, 4. Nordeste e 5. Norte nos anos de 1940, 1950, 1960, 1970, 1980, 1991, 2000 e 2010](fig:p07-c1)\n\n(Fonte: Instituto de Geografia e Estatística (IBGE).)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Até o Censo de 1970, verificava-se uma clara concentração regional do fenômeno de urbanização. A partir do Censo de 1980, outro processo é observado na dinâmica urbana brasileira. Que processo é esse?\nO Censo de 1950 indicava a região Centro-Oeste como a menos urbanizada do país; o Censo de 2010 a coloca na segunda posição em taxa de urbanização. Qual foi a atividade econômica responsável por essa urbanização?",
+     "resposta_oficial": "O processo em questão é a interiorização da urbanização do país. Ou seja, trata-se de uma desconcentração da urbanização brasileira, com o crescimento de cidades fora do eixo Atlântico.\n\nA atividade econômica motora do processo de urbanização na região Centro-Oeste do Brasil é o agronegócio, representado pelas atividades agrícolas e pela pecuária."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Como reflexo da expansão das atividades econômicas, a rede urbana brasileira se tornou mais complexa a partir dos anos 1970. Explique o que é rede urbana e indique qual o papel de Goiânia na hierarquia da rede urbana do Centro-Oeste.",
+     "resposta_oficial": "Rede urbana é o conjunto de vários centros (as cidades) que passam a funcionar articulados (pelas redes de transporte e comunicação), permitindo conexões cada vez mais amplas para pessoas, mercadorias, serviços e ideias. Goiânia cumpre o papel de metrópole regional ou intermediária."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q06",
+   "numero": 6,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O capitalismo financeirizado e globalizado, particularmente nas últimas quatro décadas, vem apresentando um movimento tendencial em que *informalidade* e *precarização* tornaram-se mecanismos recorrentes. E a *terceirização irrestrita* do trabalho vem se consolidando como uma ferramenta que elimina a distinção entre atividades-meio e atividades-fim.\n\n(Adaptado de Ricardo Antunes, A sociedade da terceirização total. *Revista da ABET*, v. 14, n. 1, jan./jun. 2015, p. 9.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Terceirização e precarização são fenômenos interligados, porém distintos. O que é terceirização e o que é precarização do trabalho?",
+     "resposta_oficial": "Terceirização é o processo de repassar a outras empresas atividades produtivas ou de serviços que poderiam ser realizadas pela própria empresa. Significa, portanto, que a empresa não contrata diretamente trabalhadores, mas uma terceira empresa.\n\nA precarização corresponde à supressão de direitos trabalhistas, como final de semana remunerado, férias e décimo terceiro salário. Além disso, associa-se a condições insalubres de trabalho e superexploração da carga horária de trabalho, comprometendo os direitos sociais."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Na atividade industrial ou setor secundário, o que são atividades-meio e atividades-fim?",
+     "resposta_oficial": "As atividades-meio são aquelas que não são centrais para o processo produtivo de uma fábrica, como, por exemplo, a segurança das instalações fabris ou a limpeza.\n\nAs atividades-fim são aquelas centrais no processo produtivo."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q07",
+   "numero": 7,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A eficiência de um veículo pode ser avaliada pela quantidade de quilômetros que ele é capaz de percorrer com um litro de combustível. Tal eficiência depende de vários fatores, entre eles a velocidade adotada. O gráfico abaixo exibe o número de quilômetros percorridos por litro de combustível, para um determinado veículo, em função da velocidade.\n\n![Gráfico de uma curva da quilometragem por litro (km/l), de 0 a 25, em função da velocidade (km/h), de 0 a 140, com malha quadriculada](fig:p09-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo que o veículo trafegue com velocidade constante de 100 km/h, determine quantos litros de combustível ele consome para percorrer 60 km.",
+     "resposta_oficial": "De acordo com o gráfico, a uma velocidade de 100 km/h, o veículo percorre 15 km por litro de combustível. Logo, para percorrer 60 km são necessários $\\frac{60\\ \\text{km}}{15\\ \\text{km}/l} = 4$ litros de combustível."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere que o veículo tenha 50 litros de combustível em seu tanque. Determine a sua autonomia máxima, isto é, a maior distância que ele pode percorrer, supondo que ele trafegue a uma velocidade constante.",
+     "resposta_oficial": "Analisando o gráfico, concluímos que a uma velocidade constante de 80 km/h temos a maior quilometragem por litro, 20 km/l. Assim, a maior distância que pode ser percorrida consumindo-se totalmente 50 l de combustível do tanque é igual a $50\\ l \\times 20\\ \\text{km}/l = 1.000\\ \\text{km}$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q08",
+   "numero": 8,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo representa um dado na forma de um tetraedro regular com os vértices numerados de 1 a 4. Em um lançamento desse dado, deve ser observado o número estampado no vértice superior.\n\n![Fotografia de um dado preto em forma de tetraedro, com números brancos estampados nas faces e nos vértices](fig:p10-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere a soma dos números obtidos em dois lançamentos de um dado tetraédrico. Determine de quantas maneiras essa soma pode resultar em um número primo.",
+     "resposta_oficial": "As possíveis somas obtidas em dois lançamentos de um dado tetraédrico são:\n\n$$\\begin{array}{cccc} 1 + 1 = 2, & 1 + 2 = 3, & 1 + 3 = 4, & 1 + 4 = 5, \\\\ 2 + 1 = 3, & 2 + 2 = 4, & 2 + 3 = 5, & 2 + 4 = 6, \\\\ 3 + 1 = 4, & 3 + 2 = 5, & 3 + 3 = 6, & 3 + 4 = 7, \\\\ 4 + 1 = 5, & 4 + 2 = 6, & 4 + 3 = 7, & 4 + 4 = 8. \\end{array}$$\n\nAs somas que resultam em um número primo são: 2 (uma ocorrência), 3 (duas ocorrências), 5 (quatro ocorrências) e 7 (duas ocorrências). Logo, temos um total de $1 + 2 + 4 + 2 = 9$ maneiras de a soma resultar em um número primo."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Seja $p_n$ a probabilidade de se observar o número $n$ no lançamento de um dado tetraédrico tendencioso para o qual $p_1 = 2p_2 = 3p_3 = 4p_4$. Calcule essas quatro probabilidades.",
+     "resposta_oficial": "A soma de todas as probabilidades deve ser igual a um: $p_1 + p_2 + p_3 + p_4 = 1$. Escrevendo as probabilidades em função de $p_4$, temos $p_1 = 4p_4$, $p_2 = 2p_4$ e $p_3 = \\frac{4}{3}p_4$. Logo, $4p_4 + 2p_4 + \\frac{4}{3}p_4 + p_4 = 1$, o que implica que $p_4\\left(4 + 2 + \\frac{4}{3} + 1\\right) = 1$, ou seja, $p_4 = \\frac{3}{25}$. Com esse resultado, podemos calcular as outras probabilidades: $p_1 = 4 \\times \\frac{3}{25} = \\frac{12}{25}$, $p_2 = 2 \\times \\frac{3}{25} = \\frac{6}{25}$ e $p_3 = \\frac{4}{3} \\times \\frac{3}{25} = \\frac{4}{25}$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q09",
+   "numero": 9,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $c$ é um número real, considere a função quadrática $f(x) = 2x^2 - 3x + c$, definida para todo número real $x$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine todos os valores de $c$ para os quais $f(-1)f(1) = f(-1) + f(1)$.",
+     "resposta_oficial": "Calculando $f(-1) = 2 + 3 + c = c + 5$ e $f(1) = 2 - 3 + c = c - 1$, temos $f(-1)f(1) = (c + 5)(c - 1) = c^2 + 4c - 5$ e $f(-1) + f(1) = c + 5 + c - 1 = 2c + 4$. A igualdade $f(-1)f(1) = f(-1) + f(1)$ implica $c^2 + 4c - 5 = 2c + 4$, ou seja, $c^2 + 2c - 9 = 0$. Resolvendo essa equação quadrática, obtemos $c = \\frac{-2 \\pm \\sqrt{40}}{2} = -1 \\pm \\sqrt{10}$. Portanto, $c = -1 - \\sqrt{10}$ ou $c = -1 + \\sqrt{10}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Sejam $p$ e $q$ números reais distintos tais que $f(p) = f(q)$. Prove que $p$ e $q$ não podem ser ambos números inteiros.",
+     "resposta_oficial": "Da igualdade $f(p) = f(q)$ obtemos $2p^2 - 3p + c = 2q^2 - 3q + c$, ou seja, $2(p^2 - q^2) = 3(p - q)$. Fatorando essa expressão, temos $2(p - q)(p + q) = 3(p - q)$. Como $p$ e $q$ são distintos, $p - q \\neq 0$ e, portanto, podemos dividir ambos os lados da equação por $p - q$, obtendo $2(p + q) = 3$, ou, ainda, $p + q = 3/2$. Logo, como a soma de dois números inteiros é um número inteiro, $p$ e $q$ não podem ser ambos inteiros."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q10",
+   "numero": 10,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No plano cartesiano, considere a reta $r$ de equação $2x + y = 1$ e os pontos de coordenadas $A = (1,4)$ e $B = (3,2)$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Encontre as coordenadas do ponto de intersecção entre a reta $r$ e a reta que passa pelos pontos $A$ e $B$.",
+     "resposta_oficial": "A equação da reta que passa pelos pontos $A = (1,4)$ e $B = (3,2)$ é dada por $\\frac{x-1}{3-1} = \\frac{y-4}{2-4}$, ou seja, $x + y = 5$. A intersecção dessa reta com a reta $r$ pode ser obtida pela resolução do sistema linear\n\n$$\\begin{cases} 2x + y = 1, \\\\ x + y = 5. \\end{cases}$$\n\nSubtraindo as duas equações temos $(2x + y) - (x + y) = 1 - 5$, ou seja, $x = -4$ e, portanto, $y = 5 - x = 9$. Logo, o ponto de intersecção tem coordenadas $(-4,9)$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine a equação da circunferência na qual um dos diâmetros é o segmento $\\overline{AB}$.",
+     "resposta_oficial": "O centro da circunferência é o ponto médio do segmento $\\overline{AB}$, $(x_c, y_c) = \\left(\\frac{1+3}{2}, \\frac{4+2}{2}\\right) = (2,3)$. O raio da circunferência é a metade do comprimento do segmento $\\overline{AB}$, $r = \\frac{1}{2}\\sqrt{(1-3)^2 + (4-2)^2} = \\sqrt{2}$. Logo, a equação da circunferência é dada por $(x - x_c)^2 + (y - y_c)^2 = r^2$, ou seja, $(x-2)^2 + (y-3)^2 = 2$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q11",
+   "numero": 11,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $a$ e $b$ são números reais, considere a matriz quadrada de ordem 2,\n\n$$A = \\begin{bmatrix} 1 & 1 \\\\ a & b \\end{bmatrix}.$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine todos os valores de $a$ e $b$ para os quais $A^T A = A A^T$, em que $A^T$ é a transposta da matriz $A$.",
+     "resposta_oficial": "Desenvolvendo a igualdade $A^T A = A A^T$, obtemos\n\n$$\\begin{bmatrix} 1 & a \\\\ 1 & b \\end{bmatrix}\\begin{bmatrix} 1 & 1 \\\\ a & b \\end{bmatrix} = \\begin{bmatrix} 1 & 1 \\\\ a & b \\end{bmatrix}\\begin{bmatrix} 1 & a \\\\ 1 & b \\end{bmatrix} \\Rightarrow \\begin{bmatrix} 1+a^2 & 1+ab \\\\ 1+ab & 1+b^2 \\end{bmatrix} = \\begin{bmatrix} 2 & a+b \\\\ a+b & a^2+b^2 \\end{bmatrix}.$$\n\nIgualando elemento a elemento, temos o sistema\n\n$$\\begin{cases} 1 + a^2 = 2, \\\\ 1 + ab = a + b, \\\\ 1 + b^2 = a^2 + b^2. \\end{cases}$$\n\nLogo, $a^2 = 1$ e $1 + ab = a + b$. Para $a = -1$, temos $1 - b = -1 + b$, $b = 2$. Para $a = 1$, temos $1 + b = 1 + b$, ou seja, qualquer $b$ real. Portanto, os valores possíveis para $a$ e $b$ são: $(i)$ $a = -1$ e $b = 2$ ou $(ii)$ $a = 1$ e $b$ igual a qualquer número real."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para $a = b = 2$, sejam $k$ e $\\theta$ números reais tais que\n\n$$A \\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix} = k \\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix}.$$\n\nDetermine os possíveis valores de $\\tan\\theta$.",
+     "resposta_oficial": "Temos que\n\n$$\\begin{bmatrix} 1 & 1 \\\\ 2 & 2 \\end{bmatrix}\\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix} = k\\begin{bmatrix} \\cos\\theta \\\\ \\text{sen}\\,\\theta \\end{bmatrix} \\Rightarrow \\begin{cases} \\cos\\theta + \\text{sen}\\,\\theta = k\\,\\cos\\theta, \\\\ 2\\cos\\theta + 2\\,\\text{sen}\\,\\theta = k\\,\\text{sen}\\,\\theta. \\end{cases} \\Rightarrow \\begin{cases} \\cos\\theta + \\text{sen}\\,\\theta = k\\,\\cos\\theta, \\\\ \\cos\\theta + \\text{sen}\\,\\theta = \\frac{k}{2}\\,\\text{sen}\\,\\theta. \\end{cases}$$\n\nLogo, $k\\cos\\theta = \\frac{k}{2}\\,\\text{sen}\\,\\theta$, ou seja, $k(2\\cos\\theta - \\text{sen}\\,\\theta) = 0$. Assim, temos duas possibilidades: (i) $k = 0$, implicando $\\cos\\theta + \\text{sen}\\,\\theta = 0$, ou seja, $\\tan\\theta = -1$, ou (ii) $2\\cos\\theta - \\text{sen}\\,\\theta = 0$, implicando $\\tan\\theta = 2$. Portanto, os possíveis valores para $\\tan\\theta$ são $-1$ e $2$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q12",
+   "numero": 12,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Seja um cilindro circular reto com raio da base de comprimento $r = 2$ cm e altura de comprimento $h$. Seja $d$ a maior distância entre dois pontos desse cilindro, como ilustra a figura abaixo.\n\n![Cilindro circular reto com a diagonal d ligando dois pontos de bases opostas, a altura h ao lado e o raio r da base indicados](fig:p14-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Supondo que o cilindro tenha volume igual a um litro, calcule sua área de superfície total.",
+     "resposta_oficial": "O volume do cilindro é dado por $V = \\pi r^2 h = 4\\pi h = 1\\ l = 1.000\\ \\text{cm}^3$. Logo, $h = \\left(\\frac{250}{\\pi}\\right)\\text{cm}$. A área de superfície total do cilindro é dada por $S = \\pi r^2 + \\pi r^2 + 2\\pi r h = 4\\pi + 4\\pi + 4\\pi \\times \\frac{250}{\\pi} = (8\\pi + 1.000)\\ \\text{cm}^2$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine o valor de $d$ no caso em que $(r, h, d)$ seja uma progressão geométrica.",
+     "resposta_oficial": "Considere o triângulo retângulo com catetos de comprimentos $2r$ e $h$ e hipotenusa de comprimento $d$, como ilustra a figura abaixo.\n\n![Cilindro com bases e lados em linha tracejada e, em linha contínua, um triângulo retângulo com a base de dois raios r, a altura h e a hipotenusa d](fig:r03-f1)\n\nPelo Teorema de Pitágoras, $d^2 = (2r)^2 + h^2 = 16 + h^2$. Como $(r, h, d)$ é uma progressão geométrica, $h/r = d/h$, ou seja, $h^2 = 2d$. Assim, $d^2 = 16 + 2d$. Resolvendo essa equação quadrática, obtemos duas soluções, $d = 1 - \\sqrt{17}$ e $d = 1 + \\sqrt{17}$. Como $d$ deve ser positivo, a solução é $d = (1 + \\sqrt{17})\\ \\text{cm}$."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q13",
+   "numero": 13,
+   "materia": "historia",
+   "materias_extra": [
+    "filosofia"
+   ],
+   "texto_base": null,
+   "enunciado": "Havia em Alexandria uma filósofa chamada Hipátia que foi admitida na escola de Platão, demonstrando competência para ensinar as ciências a todos os que o desejassem. Hipátia interrogava: “Por que as estrelas não caem do céu?” E respondia: “Porque seguem a rota mais perfeita, que é o círculo do céu em torno da Terra, que, por sua vez, é centro do cosmos.” Acreditando nesta tradição e movida pela curiosidade, ela instigava: “Se você não questiona aquilo em que acredita, não pode acreditar.” Além disso, acrescentava: “Eu acredito na filosofia e é preciso nos livrarmos de todas as ideias preconcebidas de qualquer natureza.” Na história da filosofia, Hipátia é considerada uma expoente do neoplatonismo. A oposição entre o neoplatonismo e o cristianismo teria marcado o tempo em que ela viveu. Para o filósofo Pierre Hadot, o neoplatonismo foi um foco de resistência ao cristianismo. Essa resistência continuou até 529, quando o imperador Justiniano proibiu os pagãos de ensinar, fechou as escolas filosóficas de Atenas e passou a perseguir filósofos em Alexandria. Nesse contexto, a matemática Hipátia foi assassinada em 415, em Alexandria, por cristãos fanáticos.\n\n(Adaptado de Salma Tannus Muchail, Notícias de Hipátia. *Labrys, estudos feministas*, v. 23, jan./jun. 2013. Disponível em https://www.labrys.net.br/ labrys23/ filosofia/salma.htm. Acessado em 10/07/2017.)\n\nA partir do texto acima e de seus conhecimentos históricos e filosóficos,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "identifique dois princípios filosóficos defendidos por Hipátia;",
+     "resposta_oficial": "Hipátia, filósofa e matemática, assassinada em 415, associava-se à tradição neoplatônica de pensamento. Defendia o questionamento de ideias pré-concebidas como fundamental para a produção de novos saberes e o axioma do universo geocêntrico. Nesse contexto, a filosofia é compreendida como basilar para a descrição e compreensão do cosmos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "aponte e explique uma motivação do imperador Justiniano para perseguir correntes de pensamento não cristãs.",
+     "resposta_oficial": "Justiniano, Imperador Bizantino entre os anos 527 e 565, apresentava-se como herdeiro da tradição cristã imperial e almejava recuperar a suposta grandeza do Império Romano. Justiniano conjugava os poderes políticos e religiosos (cesaropapismo) e, nesse sentido, a perseguição às escolas, aos professores e a todos que questionassem o cristianismo era uma forma de manutenção da ordem político-religiosa instituída."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q14",
+   "numero": 14,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sobre o diário do indígena Chimalpahin, o historiador Serge Gruzinski escreveu:\n\nToda a obra do cronista transborda de anotações que desenham um imaginário planetário, cujas referências nos parecem muitas vezes inesperadas. Dois meses depois de ter evocado o assassinato do rei de França, em 15 de novembro de 1610, Chimalpahin dirige seu olhar para o Japão e anota: “Dom Rodrigo de Vivero, vindo do Japão, perto da China, fez sua entrada na Cidade do México. Fez-se amigo do imperador japonês e este lhe emprestou a fortuna que Rodrigo trouxe à Cidade do México; ele trouxe, além disso, alguns japoneses com ele. Todos estavam vestidos como se vestiam lá, com uma espécie de colete e um cinto em torno da cintura, onde levavam sua katana de aço, uma espécie de espada. Não se mostravam tímidos, não eram pessoas calmas ou humildes, tinham, ao contrário, o aspecto de águias ferozes.”\n\n(Adaptado de Serge Gruzinski, *As quatro partes do mundo*: história de uma mundialização. Belo Horizonte: Editora UFMG, São Paulo: Edusp, 2014, p. 36.)\n\nConsiderando o estudo histórico de Gruzinski e seus conhecimentos,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "identifique, a partir do texto, dois aspectos que caracterizam os contatos culturais;",
+     "resposta_oficial": "Conforme o texto apresentado, os contatos culturais se caracterizam pela percepção do outro (alteridade) e por sua descrição em termos de referências culturais específicas. Esses elementos podem ser exemplificados pela descrição dos japoneses (suas vestimentas e gestos). O candidato também poderia destacar o caráter planetário da Conquista e os trânsitos culturais materializados em pessoas, exemplificados no conhecimento que Chimalpahim tinha do assassinato do rei da França, em 15 de novembro de 1610, e na própria chegada dos japoneses."
+    },
+    {
+     "rotulo": "b",
+     "texto": "explique a importância do diário de Chimalpahin para a compreensão do processo de colonização da América.",
+     "resposta_oficial": "O diário é um documento histórico que permite a visão de outros grupos culturais e de seu cotidiano. No caso específico do diário do indígena Chimalpahin, observa-se que ele fornece alternativas às narrativas eurocêntricas sobre o processo de colonização da América."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q15",
+   "numero": 15,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O período de 1840 a 1890 é o do triunfo da ideologia do progresso, simultaneamente ao grande *boom* econômico e industrial do Ocidente.\n\n(Adaptado de Jacques Le Goff, *História e memória*. Campinas: Editora da Unicamp, 1990, p. 204-245.)\n\nCom base no texto e em seus conhecimentos históricos,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "apresente duas características importantes do *boom* econômico e industrial do Ocidente entre 1840 e 1890;",
+     "resposta_oficial": "São características do *boom* econômico e industrial do Ocidente entre 1840 e 1890: a Revolução Industrial em seu segundo momento, em que se destacam grandes inovações tecnológicas como a eletricidade, o uso do petróleo, o desenvolvimento das ferrovias, etc.; o Imperialismo, com o neocolonialismo avançando sobre territórios como a África e a Ásia; a ampliação de mercados consumidores, especialmente aqueles reconhecidos como periféricos; a primazia da Inglaterra vitoriana como principal Império do período; o crescimento urbano, com intensa exploração das classes operárias e precarização de suas condições de vida nas cidades."
+    },
+    {
+     "rotulo": "b",
+     "texto": "explique o ideário do progresso e o relacione com a Primeira Guerra Mundial.",
+     "resposta_oficial": "O ideário de progresso do século XIX poderia ser identificado como uma característica marcante do período. Propunha a permanente evolução das sociedades rumo a um futuro sempre mais promissor que o presente. Nesse sentido, trazia um culto ao desenvolvimento tecnológico e à ciência, que estabeleciam um padrão europeu para se pensar um mundo civilizado. Esse ideário poderia ser relacionado à Primeira Guerra Mundial na medida em que o desenvolvimento tecnológico foi amplamente demonstrado por meio das inovações bélicas. Ele favoreceu também o nacionalismo e a ideia de superioridade europeia, que legitimou a subjugação de múltiplos territórios, levando a conflitos pelo domínio colonial e ao colapso do próprio imperialismo."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q16",
+   "numero": 16,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Desde a publicação do livro *Casa-grande e senzala*, em 1933, até o início da década de 1960, Gilberto Freyre gozou de um prestígio que poucos autores alcançaram em toda a história das letras brasileiras. A “questão racial” se constituiu em um dos capítulos essenciais da intervenção do autor, contribuindo na maneira como o país pensou a sua diversidade, que o sociólogo chamou de “democracia étnica e social”.\n\n(Adaptado de Alberto Luiz Schneider, Iberismo e luso-tropicalismo na obra de Gilberto Freyre. *Revista de História da historiografia*, v.1, n.1, dez. 2012, p. 75-93.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Identifique o pressuposto da tese da democracia racial e explique por que ela tem sido questionada no Brasil atual.",
+     "resposta_oficial": "O pressuposto da democracia racial é a convivência harmoniosa entre brancos, negros e indígenas na sociedade brasileira, pautada pela ideia de mestiçagem e de um convívio cotidiano para além das relações de força e violência pressupostas pela escravidão. Essa tese possibilita a negação da existência do racismo na sociedade brasileira. Ela tem sido questionada nos dias de hoje por denúncias de sucessivos exemplos de discriminação racial e por dados que revelam, por exemplo, a maior concentração de riqueza e acesso a bens e serviços entre elites brancas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considerando o contexto internacional entre 1960 e 1990, identifique e descreva um movimento social cujas reivindicações políticas centraram-se em questões raciais.",
+     "resposta_oficial": "Poderiam ser mencionados e explicados casos como os dos movimentos por direitos civis da população negra norte-americana liderados por Martin Luther King e por Malcolm X, o movimento dos Panteras Negras, a luta contra o regime do *apartheid* na África do Sul e os movimentos de luta por independência que ganharam força no continente africano."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q17",
+   "numero": 17,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O cineasta Orlando Senna conta a experiência de ver a primeira exibição do filme *Deus e o Diabo na Terra do Sol* de Glauber Rocha em 1964: “era uma plateia pequena e nós vimos pela primeira vez, pronto, o *Deus e o Diabo na Terra do Sol*, e foi aquele impacto pra vida inteira. Eu me lembro que quando o filme terminou de ser exibido, foi um silêncio enorme. Teve um silêncio, e depois de um tempo enorme, toda essa plateia chorando.”\n\n(Adaptado do filme *O Guarani*. Direção de Cláudio Marques e Marília Hughes. Salvador, 2008.)\n\nA partir do relato acima e de seus conhecimentos históricos, responda às questões.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O filme de Glauber Rocha trata da figura do sertanejo, privilegiando o messianismo. Cite e explique dois elementos fundamentais do messianismo no Nordeste brasileiro entre as décadas de 1890 e 1930.",
+     "resposta_oficial": "Elementos do messianismo no Nordeste do Brasil na Primeira República que poderiam ser citados e explicados: a época foi marcada pela existência de líderes carismáticos como Antônio Conselheiro e Padre Cícero, que atraíam seguidores por meio de um discurso religioso ou profético; os movimentos messiânicos tinham um caráter eminentemente rural, relacionado à falta de terras e à pobreza proveniente da crise econômica e política; atraíam camadas populares com promessas de um reino ou um tempo futuro de abundância; opunham-se aos poderes constituídos, fossem o governo central ou o coronelismo e os potentados locais; traziam a ideia de salvação religiosa, pautando-se na promessa de um governo de Deus e não dos homens; representavam uma reação à República recém-instaurada (como é o caso de Canudos) ou retaliações aos potentados locais (como em Juazeiro). Poderia ainda ser explicada a forma como esses movimentos foram tratados pelos poderes públicos e religiosos, com retaliações e repressão."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O depoimento registra o impacto produzido pelo filme em sua primeira exibição, no dia 17 de março de 1964. Explique o significado cultural e político do Cinema Novo no Brasil dos anos 60.",
+     "resposta_oficial": "O Cinema Novo pode ser descrito como um movimento que inaugurou uma nova estética para o cinema brasileiro. Do ponto de vista cultural, buscou recorrentemente retratar a realidade, a pobreza e as desigualdades sociais no Brasil; foi o primeiro movimento cinematográfico nacional com reconhecimento internacional, obtendo várias premiações internacionais; formou um grupo de cineastas jovens que tinham como modelo a produção com “uma câmara na mão”; constituiu uma reação aos formatos anteriores como a chanchada e produções hollywoodianas. Já no campo político, o Cinema Novo constituiu-se como uma reação à ditadura civil-militar, sendo elemento de impasse para o sistema político, especialmente no que se referia à censura imposta por ele em âmbito nacional, em contraposição ao sucesso e às premiações conquistadas em âmbito internacional. Poderia ainda ser citada sua conexão com o PCB e o Centro Popular de Cultura."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d2-q18",
+   "numero": 18,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A Agência da ONU para Refugiados (ACNUR) foi criada em dezembro de 1950 por resolução da Assembleia Geral das Nações Unidas. Iniciou suas atividades em janeiro de 1951. O Protocolo de 1967 reformou a Convenção de 1951 e expandiu o mandato da ACNUR para além das fronteiras europeias e das pessoas afetadas pela Segunda Guerra Mundial. Em 1995, a Assembleia Geral designou a ACNUR como responsável pela proteção e assistência dos apátridas em todo o mundo. Nas últimas décadas, os deslocamentos forçados atingiram níveis sem precedentes. Estatísticas recentes revelam que mais de 67 milhões de pessoas no mundo todo deixaram seus locais de origem por causa de conflitos, perseguições e graves violações de direitos humanos.\n\n(Adaptado de http://www.acnur.org/portugues/convencao-de-1951/. Acessado em 31/08/2018.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique o contexto de criação da ACNUR e seu principal objetivo.",
+     "resposta_oficial": "O Alto Comissariado das Nações Unidas para Refugiados, ACNUR, foi criado após a Segunda Guerra Mundial, quando a Europa ainda lidava com boa parte dos problemas decorrentes do conflito. Entre esses problemas, destaca-se o grande número de refugiados que precisaram abandonar seus países de origem. Os candidatos deveriam indicar que, nesse contexto, a ACNUR oferecia assistência aos refugiados europeus; a assistência a um público mais ampliado viria em anos posteriores, como indica o texto."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Levando em consideração os princípios da ONU, relacione a condição de refugiado com a noção de cidadania e de direitos humanos.",
+     "resposta_oficial": "Os princípios da ONU garantem que “todos os seres humanos nascem livres e iguais em dignidade e direitos”. Esses princípios são mobilizados pela agência para garantir que refugiados não sejam vítimas da violação de direitos humanos e para assegurar o seu acesso à cidadania e a condições de vida que possam garantir sua integridade física."
+    }
+   ],
+   "resposta_oficial": null,
+   "revisao": "transcrita"
+  }
+ ]
+}

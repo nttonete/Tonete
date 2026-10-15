@@ -1,0 +1,423 @@
+{
+ "edicao": {
+  "id": "unicamp-2019-2-d3",
+  "vestibular": "unicamp",
+  "ano": 2019,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2019 – 2ª fase (3º dia: Física, Química e Biologia)",
+  "caderno": "3º dia: Física, Química e Biologia",
+  "fonte": {
+   "caderno": "2fase-fis-bio-qui-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-fisica-respostas.pdf",
+    "2fase-quimica-respostas.pdf",
+    "2fase-biologia-respostas.pdf",
+    "2fase-fisica-comentada.pdf",
+    "2fase-quimica-comentada.pdf",
+    "2fase-biologia-comentada.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2019-2-d3-q01",
+   "numero": 1,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A fermentação de alimentos ricos em açúcares é um processo prejudicial à saúde bucal, pois promove um ataque químico ao esmalte dos dentes. A parte inorgânica dos dentes é formada por uma substância chamada hidroxiapatita, que, em um ambiente bucal saudável, apresenta baixa solubilidade. Essa solubilidade pode ser equacionada da seguinte forma:\n\n$$\\text{Ca}_5(\\text{PO}_4)_3\\text{OH(s)} + \\text{aq} = 5\\,\\text{Ca}^{2+}\\text{(aq)} + 3\\,\\text{PO}_4^{3-}\\text{(aq)} + \\text{OH}^{-}\\text{(aq)}; \\quad K_{\\text{ps}} = 1{,}8 \\times 10^{-58}.$$\n\n![Gráfico do pH em função do tempo decorrido após a ingestão de alimento (min), de 0 a 40 min, com três curvas: x em linha contínua, y tracejada e z pontilhada](fig:p03-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Algumas características da saliva se alteram na presença de alimentos. Considerando que o prejuízo aos dentes causado pela ingestão de diferentes fontes de açúcar obedece à ordem cana > frutas > mel, preencha com as palavras <u>cana</u>, <u>frutas</u> e <u>mel</u> a tabela do espaço de respostas e <u>explique</u> em que se baseou a sua escolha.\n\n*Campo de resolução:*\n\n| Curva | Alimento |\n|---|---|\n| x | |\n| y | |\n| z | |",
+     "resposta_oficial": "(2 pontos)\n\n| Curva | Alimento |\n|---|---|\n| x | mel |\n| y | frutas |\n| z | cana |\n\nConforme o enunciado da questão, a fermentação do açúcar leva ao ataque químico da hidroxiapatita. Sabendo que a fermentação leva à formação de ácidos, conclui-se que o meio ácido promove a dissolução da hidroxiapatita. Ainda de acordo com o enunciado, o prejuízo ao esmalte segue a ordem cana > frutas > mel. No gráfico, a curva z é a que representa maior acidez (menor valor de pH), por um período maior de tempo após a sua ingestão, devendo, desta forma, corresponder à cana. Na sequência viriam as curvas y e x, correspondentes às frutas e ao mel, respectivamente."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O uso de água fluoretada e de produtos com flúor é recomendado para a saúde bucal. Explique a vantagem do uso do fluoreto levando em conta a equação informada acima e a equação de dissolução da fluoroapatita abaixo; indique também possíveis correlações entre essas equações.\n\n$$\\text{Ca}_5(\\text{PO}_4)_3\\text{F(s)} + \\text{aq} = 5\\,\\text{Ca}^{2+}\\text{(aq)} + 3\\,\\text{PO}_4^{3-}\\text{(aq)} + \\text{F}^{-}\\text{(aq)}; \\quad K_{\\text{ps}} = 8 \\times 10^{-60}$$",
+     "resposta_oficial": "(2 pontos)\n\nO uso de fluoreto tem como vantagem a formação da fluoroapatita, uma substância com menor solubilidade que a hidroxiapatita, como indicam os valores de $K_{\\text{ps}}$. Conforme as equações, a dissolução da hidroxiapatita (primeira equação) leva à formação de íons cálcio e fosfato. Na presença de íons fluoreto, forma-se a fluoroapatita, como mostra a segunda equação."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Essa questão trata de um assunto do cotidiano, o ataque químico ao esmalte dos dentes e seu combate pelo uso de fluoreto na higiene bucal. O item a aponta uma sequência de prejuízo aos dentes, relativos à ingestão de diferentes fontes de açúcares. A fermentação desses açúcares pode modificar o pH bucal pela geração de espécies ácidas e, com isso, é possível avaliar a extensão do ataque químico dos ácidos ao esmalte natural dos dentes. O item b destaca uma das possíveis formas de diminuir esse ataque ao esmalte dos dentes pela formação de uma camada protetora de fluorapatita pelo uso de fluoreto.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q02",
+   "numero": 2,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A pesquisa em alimentos está sempre à procura de novos produtos, ou novas formulações para antigos produtos, tanto para melhorar sua qualidade quanto para ampliar as opções do consumidor. Um estudo recente, realizado pela Faculdade de Engenharia de Alimentos da UNICAMP, avaliou a preparação de mortadela com diferentes formulações (F). Alguns resultados desse trabalho são apresentados na tabela abaixo.\n\n![Tabela “Contagem total de bactérias (UFC/g) para três formulações em função do tempo”: formulações F1, F2 e F3 nos tempos de 15, 30 e 60 dias. F1: <10; 1,3x10²; 7,2x10⁴. F2: <10; 3,5x10²; 5,6x10⁵. F3: 4,5x10²; 3,0x10²; 3,1x10⁶](fig:p04-c1)\n\n**Dados:**\n**F1:** 2% de NaCl; controle.\n**F2:** 1% de NaCl, 0,5% de KCl e 0,5% de $\\text{CaCl}_2$.\n**F3:** 1% de NaCl.\n**UFC:** unidades formadoras de colônias (tomar como sinônimo de quantidade de microrganismos).",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando os resultados apresentados e seus conhecimentos, cite e comente <u>dois objetivos</u> possíveis desse estudo com relação ao NaCl.",
+     "resposta_oficial": "(2 pontos)\n\nDe acordo com os dados fornecidos, a formulação F1 é o controle e, portanto, as formulações F2 e F3 contemplariam as modificações do produto (mortadela) para a avaliação de algumas variáveis relativas aos objetivos do estudo. Assim, comparando-se F1 e F2, observa-se que um objetivo é avaliar a substituição de NaCl por outros sais. Comparando-se F1 e F3, observa-se que outro objetivo é avaliar a diminuição da quantidade de NaCl. Esses objetivos foram avaliados pelo acompanhamento do crescimento bacteriano na mortadela em função do tempo."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique <u>uma conclusão</u> que se pode extrair desse estudo. Escolha e compare duas formulações para justificar sua resposta.",
+     "resposta_oficial": "(2 pontos)\n\nPode-se chegar a uma conclusão comparando-se o crescimento bacteriano em função do tempo nas formulações F1 e F2. Nesse caso, com a substituição do NaCl por outros sais observa-se um maior crescimento bacteriano na F2 em períodos mais longos que 15 dias.\n\nOU\n\nPode-se chegar a uma conclusão comparando-se o crescimento bacteriano em função do tempo nas formulações F1 e F3. Nesse caso, com a diminuição da quantidade de NaCl, observa-se um maior crescimento bacteriano na F3 em períodos mais longos que 15 dias."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Essa questão exige fundamentalmente leitura e interpretação de informações, no sentido de entender uma das formas de se conduzir uma pesquisa científica e interpretar os resultados obtidos por ela; ou seja, ela trata do método científico. A questão se baseia numa pesquisa em que se estuda a possibilidade de diminuição da quantidade de NaCl em formulações de mortadela, ou na substituição desse sal por outros. É provável que a motivação inicial da pesquisa tenha sido diminuir o consumo de NaCl por parte da população, no sentido de contribuir para a diminuição dos casos de doenças associadas ao uso excessivo de sal. A questão, em si, não exige essa leitura ou interpretação nas respostas aos itens. O texto fornece apenas informações sobre o crescimento bacteriano nas diversas formulações do produto, o que significa que as respostas exigem apenas interpretações desses dados. No entanto, em sala de aula, seria interessante que a questão da saúde associada ao consumo excessivo de sódio também viesse à tona, tanto no sentido de tornar o assunto multidisciplinar, como também na discussão do papel da Ciência para a sociedade e de sua forma de construção do conhecimento.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q03",
+   "numero": 3,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O bioplástico PLA (poliácido lático) é obtido pela polimerização do ácido lático ($\\text{C}_3\\text{H}_6\\text{O}_3$), um insumo que geralmente se origina da fermentação de açúcares provenientes do milho ou da cana-de-açúcar. Esse bioplástico é fabricado em larga escala em plantas industriais que funcionam à base de óleo cru, carvão ou gás natural. O PLA já é hoje uma realidade comercial, logo é importante que ele seja claramente identificado na embalagem para facilitar a sua distinção entre outros plásticos. Ao ser descartado em ambientes com muito oxigênio e na presença de microrganismos, esse bioplástico é rapidamente oxidado a gás carbônico e água. Contudo, em ambientes com pouco oxigênio, como aterros sanitários, o PLA se decompõe muito lentamente ao reagir com a umidade, formando gás carbônico e metano.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Levando em conta as informações do texto, cite e comente <u>uma desvantagem da produção do PLA</u> e escreva a equação química para a formação do dímero desse ácido, sabendo que ele é obtido por uma condensação (com a liberação de água).",
+     "resposta_oficial": "(2 pontos)\n\n**Desvantagem:** O PLA é fabricado em plantas industriais que funcionam à base de óleo cru, carvão ou gás natural, ou seja, com o uso de recursos não renováveis. A queima desses combustíveis libera gases prejudiciais ao meio ambiente.\n\n**Equação:**\n\n$2\\,\\text{C}_5\\text{H}_{10}\\text{O}_3 \\rightarrow \\text{C}_{10}\\text{H}_{18}\\text{O}_5 + \\text{H}_2\\text{O}$ (fórmula do PLA fornecida no texto)\n\nOU\n\n$2\\,\\text{C}_3\\text{H}_6\\text{O}_3 \\rightarrow \\text{C}_6\\text{H}_{10}\\text{O}_5 + \\text{H}_2\\text{O}$ (fórmula correta do PLA)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Levando em conta as informações do texto, cite e comente <u>uma desvantagem do pós-consumo do PLA</u> e escreva a equação química para uma das formas de decomposição do dímero do ácido lático.",
+     "resposta_oficial": "(2 pontos)\n\n**Desvantagem:** Em ambientes com pouco oxigênio, o PLA se degrada formando metano, um gás associado ao efeito estufa.\n\n**Equação:**\n\n$\\text{C}_{10}\\text{H}_{18}\\text{O}_5 + 12\\,\\text{O}_2 \\rightarrow 10\\,\\text{CO}_2 + 9\\,\\text{H}_2\\text{O}$ (fórmula do PLA fornecida no texto)\n\nOU\n\n$\\text{C}_6\\text{H}_{10}\\text{O}_5 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$ (fórmula correta do PLA)\n\nOU\n\n$\\text{C}_{10}\\text{H}_{18}\\text{O}_5 + 3\\,\\text{H}_2\\text{O} \\rightarrow 4\\,\\text{CO}_2 + 6\\,\\text{CH}_4$ (fórmula do PLA fornecida no texto)\n\nOU\n\n$\\text{C}_6\\text{H}_{10}\\text{O}_5 + \\text{H}_2\\text{O} \\rightarrow 3\\,\\text{CO}_2 + 3\\,\\text{CH}_4$ (fórmula correta do PLA)"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A análise um problema oriundo da atividade humana não é tão trivial como se pode imaginar. Uma análise superficial pode levar a conclusões totalmente erradas, quando não se baseia em dados robustos. A questão ambiental da produção, consumo e deposição de plásticos é um problema sério para o ambiente e de análise bem complexa. Uma das opções que a sociedade moderna tem procurado para diminuir o problema dos plásticos oriundos do petróleo é buscar alternativas nos bioplásticos, materiais oriundos de matérias primas renováveis. No entanto, quando se analisam todas as condições de produção e deposição desse material, os resultados podem não ser tão animadores. Nesse sentido, essa questão mostra algumas possíveis vantagens e desvantagens na substituição dos plásticos convencionais por bioplásticos. Afinal, a Ciência e a Tecnologia propõem soluções, mas é a sociedade (o cidadão) que deve decidir se a solução proposta atende aos seus anseios. O texto da questão 3 dá algumas informações sobre a forma de produção do PLA (poli ácido lático) e de sua deposição em aterros sanitários ou sua reciclagem. A questão é bem enfática ao relatar aspectos negativos e positivos na utilização desse produto e deixa por conta do leitor destacar e discorrer sobre essas vantagens e desvantagens, cabendo a ele o julgamento final sobre sua adoção ou não. É desse modo que o ensino de Ciências contribui para a formação do cidadão. É claro que é preciso dar informações e ensinar a forma adequada de processá-las, mas cabe ao cidadão decidir o que pode ser bom ou não coletivamente. Vale notar que muitas coisas que parecem ser boas individualmente são altamente prejudiciais coletivamente.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q04",
+   "numero": 4,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em um estudo recente, que avaliou a toxicidade em células humanas de pesticidas eficazes no combate a pragas, comenta-se: “pesticidas são usados no mundo todo como misturas denominadas formulações. Essas misturas contêm adjuvantes, frequentemente mantidos como confidenciais e chamados de inertes pela indústria produtora. As formulações também incluem um princípio ativo, que é frequentemente testado sozinho.” A figura a seguir mostra parte dos resultados obtidos no referido estudo.\n\n![Três gráficos lado a lado, Pesticida A, Pesticida B e Pesticida C, da porcentagem de células vivas em função da concentração (ppm de princípio ativo); cada gráfico tem uma curva contínua (formulação), uma tracejada (princípio ativo puro) e linhas horizontais pontilhadas em 100 e em 50](fig:p06-c1)\n\n(Adaptado de *BioMed Research International* 2014, 1-8.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando as informações dadas, indique em qual condição experimental as células humanas foram mais afetadas. Justifique sua resposta com base nos gráficos.",
+     "resposta_oficial": "(2 pontos)\n\nAs células humanas foram mais afetadas pela aplicação dos pesticidas como formulação. Os gráficos mostram que, em relação aos três pesticidas, ocorreu maior porcentagem de morte celular com menores valores de concentração do princípio ativo quando se usa a formulação, mais do que quando se usa o princípio ativo puro.\n\nOU\n\nAs células humanas foram mais afetadas pela aplicação do pesticida C. Comparando-se os três gráficos, observa-se que, com o uso do pesticida C, ocorreu maior porcentagem de morte celular empregando-se menores valores de concentração do princípio ativo quando se usa a formulação."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O parágrafo 11 do artigo 3º do PL Nº 6.299, de 2002 (conhecido como “Lei do Veneno”), estabelece: “As condições a serem observadas para a autorização de uso de pesticidas de controle ambiental e afins deverão considerar os limites máximos de resíduos estabelecidos nas monografias de ingrediente ativo publicadas pelo órgão federal de saúde.” Pensando na saúde humana, que recomendação técnica você daria a um deputado que fosse votar essa lei, especificamente para esse parágrafo? Justifique levando em conta as informações dos gráficos e do enunciado.",
+     "resposta_oficial": "(2 pontos)\n\nSugestão: acrescentar ao parágrafo que os estudos sobre os pesticidas deveriam se basear em testes que empregam a formulação do pesticida e não apenas o princípio ativo puro. Isso porque o estudo científico mencionado na questão indicou que princípios ativos em conjunto com outros ingredientes presentes na formulação do produto comercial podem ser mais prejudiciais do que os princípios ativos puros."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Há pouco tempo, o congresso nacional esteve às voltas com a aprovação de um novo projeto de lei para regulamentar o uso de defensivos agrícolas no Brasil, conhecido como “lei do veneno”. Observou-se um embate político entre diversas frentes parlamentares, mormente entre os grupos dos ruralistas e o grupo dos ambientalistas. A discussão se origina das inúmeras visões e interesses que permeiam o tema, sendo que questões econômicas estão entre os fatores que promoveram a elaboração desse novo projeto. A prova de Química traz uma pequena contribuição à formação do nosso aluno no ensino médio, no momento em que introduz o tema na forma de um questionamento e traz informações relevantes sobre o cerne da lei. A questão toca num ponto nevrálgico dessa discussão quando dá informações sobre um estudo em que se avaliou a toxicidade de alguns pesticidas em células humanas. A questão traz um trecho resumido do estudo, relativo às conclusões a que os autores chegaram a partir dos resultados experimentais. O estudo original traz muitas outras informações, inclusive com identificações dos pesticidas utilizados.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q05",
+   "numero": 5,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O abacateiro é originário do México e da América Central, sendo uma das plantas mais produtivas por unidade de área de cultivo. Nas diferentes variedades encontradas no Brasil, os frutos têm composição bem variada. A tabela abaixo mostra alguns atributos dos frutos de duas diferentes espécies (informações relativas a 100 g de polpa). A energia a que se refere a tabela, popularmente conhecida como conteúdo (valor) energético, corresponde à energia de metabolismo dos ingredientes presentes na polpa do abacate.\n\n| Atributo | Avocado | Guatemala |\n|---|---|---|\n| proteínas / g | 1,1 | 1,8 |\n| lipídios / g | 10,2 | 7,4 |\n| carboidratos / g | 8,9 | 7,3 |\n| energia / kJ | 544 | 412 |\n\n(Adaptado de *Ciência e Tecnologia de Alimentos*, Campinas, v. 32, n. 2, p. 274-280, abr.-jun., 2012.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Levando em conta a tabela, calcule os valores de energias associadas a carboidratos e a lipídios em kJ por grama, considerando que as energias correspondentes a proteínas e a carboidratos são aproximadamente iguais. Apresente seus cálculos.",
+     "resposta_oficial": "(2 pontos)\n\nSeja x a energia por grama associada a proteínas e y a energia por grama associada a lipídios. Usando os dados da tabela, pode-se montar um sistema de equações. Considerando que as energias associadas a proteínas e carboidratos são iguais (x):\n\n$(1{,}1 + 8{,}9)\\,x + 10{,}2\\,y = 544$ (Avocado)\n\n$(1{,}8 + 7{,}3)\\,x + 7{,}4\\,y = 412$ (Guatemala)\n\nResolvendo esse sistema de equações, obtém-se:\n\n$x = 9{,}4\\ \\text{kJ g}^{-1}$ (energia associada a carboidratos),\n\n$y = 44{,}1\\ \\text{kJ g}^{-1}$ (energia associada a lipídios)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma antiga receita de sabão de abacate propõe, entre outros ingredientes e procedimentos, o aquecimento da polpa da fruta na presença de soda cáustica (NaOH). Levando em conta as informações dadas, escolha um dos componentes presentes no abacate que leve à formação do produto desejado e escreva a equação química correspondente, empregando a estrutura química apropriada.\n\nEstruturas químicas dos componentes do abacate:\n\n![Três estruturas químicas: uma cadeia repetida entre colchetes, com átomos de N, O e grupos R; um composto com três carbonos ligados a átomos de H, cada um com um grupo O–C(=O)–R; e uma cadeia repetida entre colchetes de dois anéis de seis membros ligados por oxigênio, com grupos CH₂OH, OH e H](fig:p07-c3)",
+     "resposta_oficial": "(2 pontos)\n\nO produto desejado é o sabão. Ele pode ser obtido pela reação de saponificação, que é uma reação de hidrólise de lipídios em meio básico para produzir glicerina e sais de ácido graxo (sabão). Portanto, deve ser escolhida a segunda estrutura fornecida (lipídio).\n\nA equação genérica da produção do sabão é:\n\n![Equação química: triéster de glicerol (três grupos O–C(=O)–R ligados a três carbonos) + 3 NaOH, seta, glicerol (três grupos OH) + 3 sais de sódio de ácido graxo (NaO–C(=O)–R)](fig:r07-c1)"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão apresenta dados de conteúdo energético, ou seja, a energia associada ao metabolismo dos ingredientes contidos nos alimentos, em particular duas espécies de abacate, Avocado e Guatemala. Tal informação é facilmente encontrada em embalagens de alimentos e tem sido cada vez mais levada em consideração pelas pessoas, visando o consumo de alimentos menos calóricos. Esta questão aborda o tema termoquímica e estequiometria através da análise dos componentes proteínas, lipídios e carboidratos, os quais são compostos orgânicos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q06",
+   "numero": 6,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A reação de evolução de oxigênio (REO) e a reação de evolução de cloro (REC) são dois processos eletroquímicos de alta relevância na decomposição da água para a conversão da energia solar e na produção de insumos químicos, respectivamente. Realizar esses dois processos separadamente é um grande desafio quando se trata do uso de água do mar.\n\nAssim começa o resumo de um estudo recente, em que pesquisadores investigaram a construção de um eletrodo para a eletrólise da água do mar em baixo valor de pH. Sabe-se que, nas condições avaliadas, o IrOx promove as duas reações (REO e REC) e é permeável a todas as espécies presentes na água do mar, ao passo que o MnOx não promove nenhuma das duas reações e é impermeável aos íons cloreto.\n\n(Adaptado de *The Journal of the American Chemical Society*, v. 140, p. 10270-10281, 2018.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Do ponto de vista químico, por que utilizar a água do mar seria um desafio? E por que vencer esse desafio seria útil à sociedade?",
+     "resposta_oficial": "(2 pontos)\n\nO desafio em utilizar a água do mar está na realização dos dois processos (REO e REC) separadamente, considerando as altas concentrações de íons cloreto presentes na água do mar. Nesse caso, ocorreria a produção concomitante de $\\text{O}_2$ e de $\\text{Cl}_2$, o que não seria desejável. Portanto, o desafio é produzir $\\text{O}_2$ separadamente de $\\text{Cl}_2$. Isso permitiria, por exemplo, realizar separadamente a decomposição da água para a geração (transformação ou transferência) de energia limpa (hidrogênio produzido no cátodo é um combustível limpo). Por outro lado, a produção de $\\text{Cl}_2$ puro seria importante para a produção de vários insumos químicos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Os pesquisadores foram bem sucedidos no objetivo experimental ao empregar os dois óxidos na construção do anodo para a eletrólise da água do mar. Complete os espaços em branco da figura abaixo utilizando as opções fornecidas, de forma a ilustrar corretamente o resultado obtido nesse estudo.\n\n*Campo de resolução:*\n\n![Esquema de um anodo com carbono vítreo na base, coberto por uma camada clara e outra escura; duas setas ligam as camadas a duas caixas em branco. À direita, caixas em branco para Reagente(s) e Produto(s), com o texto “Equação da semirreação” e a frase “Completar utilizando as seguintes opções: IrOx, MnOx, H2O, H+, H2, Cl2, Cl-, e-, O2.”](fig:p08-c2)",
+     "resposta_oficial": "(2 pontos)\n\n![Esquema preenchido: a caixa da camada escura contém MnOx e a da camada clara contém IrOx; Reagente(s): 2 H2O; Produto(s): O2 + 4 H+ + 4 e-](fig:r08-c1)"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão está inserida no tema eletroquímica e apresenta um trabalho científico que visa a utilização da água do mar para realização de eletrólise, tema que tem aplicação direta na vida das pessoas. Tal processo pode ser utilizado, por exemplo, para a produção de energia limpa e insumos químicos, com impactos imediatos na sociedade. Esta questão tem por objetivo que se analise os possíveis problemas da utilização de água do mar para a eletrólise e exigiu do candidato uma análise crítica sobre tais problemas, em particular da presença de altas concentrações de íons cloreto na água do mar. Um outro aspecto da questão visa avaliar o entendimento do candidato sobre este problema e sobre a possível solução proposta pelos autores do trabalho (utilizar materiais que permitam que apenas uma das reações ocorra de forma seletiva).",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q07",
+   "numero": 7,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nos cruzamentos de avenidas das grandes cidades é comum encontrarmos, além dos semáforos tradicionais de controle de tráfego de carros, semáforos de fluxo de pedestres, com cronômetros digitais que marcam o tempo para a travessia na faixa de pedestres.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "No instante em que o semáforo de pedestres se torna verde e o cronômetro inicia a contagem regressiva, uma pessoa encontra-se a uma distância $d = 20\\ \\text{m}$ do ponto de início da faixa de pedestres, caminhando a uma velocidade inicial $v_0 = 0{,}5\\ \\text{m/s}$. Sabendo que ela inicia a travessia da avenida com velocidade $v = 1{,}5\\ \\text{m/s}$, calcule a sua aceleração constante no seu deslocamento em linha reta até o início da faixa.",
+     "resposta_oficial": "(2 pontos)\n\nA aceleração constante $a$ do pedestre no seu deslocamento em linha reta até o início da faixa de pedestres é\n\n$$a = \\frac{v^2 - v_0^2}{2d} = \\frac{1{,}5^2 - 0{,}5^2}{2 \\times 20} = \\frac{2}{2 \\times 20} = 0{,}05\\ \\text{m/s}^2.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere agora uma pessoa que atravessa a avenida na faixa de pedestres, partindo de um lado da avenida com velocidade inicial $v_0 = 0{,}4\\ \\text{m/s}$ e chegando ao outro lado com velocidade final $v = 1{,}2\\ \\text{m/s}$. O pedestre realiza todo o percurso com aceleração constante em um intervalo de tempo de $t = 15\\ \\text{s}$. Construa o gráfico da velocidade do pedestre em função do tempo e, a partir do gráfico, calcule a largura da avenida.",
+     "resposta_oficial": "(2 pontos)\n\nO gráfico da velocidade do pedestre em função do tempo é mostrado na figura abaixo.\n\n![Gráfico da velocidade v (m/s) em função do tempo t (s), de 0 a 15 s: reta de 0,4 m/s em t = 0 até 1,2 m/s em t = 15 s, com a área abaixo da reta hachurada e rotulada A](fig:r01-c1)\n\nNo gráfico, a largura da avenida $d$ é dada pela área $A$ abaixo da curva que descreve a velocidade do pedestre em função do tempo:\n\n$$d = \\frac{0{,}4 + 1{,}2}{2} \\times 15 = 12\\ \\text{m}.$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:**\n\n**a)** A questão aborda conceitos de movimento uniformemente acelerado contextualizados na utilização de cronômetros digitais para o controle de fluxo de pedestres nas grandes cidades. Nesse item, o candidato deveria calcular a aceleração de uma pessoa durante a travessia de uma avenida pela faixa de pedestres.\n\n**b)** Nesse item os mesmos conceitos são explorados de forma gráfica, devendo o candidato construir um gráfico da posição do pedestre em função do tempo, desde a posição inicial até chegar ao final da faixa de pedestres e, a partir do gráfico, calcular a largura da avenida.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q08",
+   "numero": 8,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em agosto de 2018 a Nasa lançou a Sonda Solar Parker, destinada a investigar o Sol, passando pela coroa solar. A sonda seguirá uma trajetória dando várias voltas em torno do Sol, em órbitas elípticas com grande excentricidade.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere um corpo que descreve uma órbita elíptica em torno do Sol, como ilustra a figura A. A área da elipse varrida pela linha que liga o corpo ao Sol no trecho 2 é o dobro da área varrida no trecho 1 ($A_2 = 2 \\times A_1$); já as distâncias percorridas nos trechos são tais que $d_2 = 0{,}8 \\times d_1$. Se a velocidade escalar média do corpo no trecho 1 é igual a $v_1 = 172.000\\ \\text{km/h}$, quanto vale a velocidade escalar média no trecho 2?\n\n![Figura A: elipse com o Sol em um dos focos; região sombreada A₁ do lado esquerdo, com distância d₁, e região sombreada A₂ do lado direito, com distância d₂](fig:p10-f2)",
+     "resposta_oficial": "(2 pontos)\n\nA segunda lei de Kepler nos diz que a razão $\\frac{A}{\\Delta t}$, entre a área $A$ descrita por um vetor que liga o corpo ao Sol durante um intervalo de tempo $\\Delta t$, é uma constante. Assim, $\\frac{A_1}{\\Delta t_1} = \\frac{A_2}{\\Delta t_2}$. Desse modo, a velocidade escalar média no trecho 2 é dada por\n\n$$v_2 = \\frac{d_2}{\\Delta t_2} = \\left(\\frac{A_1}{A_2 \\Delta t_1}\\right)(0{,}8\\,d_1) = \\frac{A_1 \\times 0{,}8}{2A_1}\\,172000 = 68800\\ \\text{km/h}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A sonda terá sua velocidade modificada (sem consumo adicional de combustível) nas passagens próximas ao planeta Vênus, explorando o efeito conhecido como catapulta gravitacional. Para ilustrar esse efeito, considere dois corpos de massas $M$ e $m$, inicialmente com velocidades de mesmo módulo ($v_0$), mesma direção e sentidos contrários. Após a aproximação, os corpos se afastam com velocidades de módulos $V_A$ e $V_B$, seguindo na mesma direção inicial, conforme mostra a figura B. Como a energia cinética se conserva, a velocidade de afastamento dos corpos é igual à de aproximação: $2v_0 = V_B - V_A$. Encontre a velocidade $V_B$ da massa $m$ em termos de $M$, $m$ e $v_0$. Em seguida, use $M = 100m$ e encontre a razão $V_B/v_0$.\n\n![Figura B: dois esquemas, “antes” e “depois”, com a massa M à esquerda e a massa m à direita; antes, M tem velocidade v₀ para a direita e m tem velocidade −v₀ para a esquerda; depois, M tem velocidade V_A para a direita e m tem velocidade V_B para a direita](fig:p10-f3)",
+     "resposta_oficial": "(2 pontos)\n\nComo a energia cinética se conserva, a velocidade de afastamento dos corpos é igual à de aproximação: $2v_0 = V_B - V_A$. Assim, $V_A = V_B - 2v_0$. Além disso, pela conservação do momento linear, temos:\n\n$Mv_0 - mv_0 = MV_A + mV_B$,\n\n$Mv_0 - mv_0 = MV_B - 2Mv_0 + mV_B$,\n\n$3Mv_0 - mv_0 = MV_B + mV_B$,\n\n$$V_B = \\frac{3M - m}{M + m}\\,v_0.$$\n\nUsando $M = 100m$, temos\n\n$$\\frac{V_B}{v_0} = \\frac{299}{101} = 2{,}96.$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:**\n\n**a)** Utilizando como contexto o lançamento de Sonda Solar Parker pela Nasa em agosto de 2018, esse item da questão exige conhecimento e utilização da segunda lei de Kepler sobre o movimento dos planetas em torno do Sol.\n\n**b)** Esse item explora os conceitos de conservação de energia e momento linear durante o efeito de catapulta gravitacional utilizado para alterar a velocidade da sonda.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q09",
+   "numero": 9,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nas proximidades do Sol, a Sonda Solar Parker estará exposta a altas intensidades de radiação e a altas temperaturas. Diversos dispositivos serão usados para evitar o aquecimento excessivo dos equipamentos a bordo da sonda, entre eles um sistema de refrigeração. Um refrigerador opera através da execução de ciclos termodinâmicos.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere o ciclo termodinâmico representado abaixo para um gás ideal, em que $V_2 = 1{,}5\\ V_1$ e $T_1 = 200\\ \\text{K}$. Calcule a temperatura $T_3$.\n\n![Gráfico do ciclo termodinâmico, com pressão no eixo vertical (P₁ e P₄ indicados) e volume no eixo horizontal (V₁ e V₂ indicados), sobre uma grade tracejada: quatro pontos numerados de 1 a 4 ligados por setas, com o trecho entre os pontos 2 e 3 rotulado “isoterma”](fig:p11-c2)",
+     "resposta_oficial": "(2 pontos)\n\nPara o caso do gás ideal, podemos escrever $\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}$. Como $P_1 = P_2$ e $T_2 = T_3$, temos\n\n$$\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2} = \\frac{P_1V_2}{T_3},$$\n\n$$T_3 = \\left(\\frac{V_2}{V_1}\\right)T_1 = 1{,}5\\,T_1 = 1{,}5 \\times 200\\ \\text{K} = 300\\ \\text{K}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A partir do gráfico, estime o módulo do trabalho realizado sobre o gás em um ciclo, em termos apenas de $V_1$, $V_2$, $P_1$ e $P_4$.",
+     "resposta_oficial": "(2 pontos)\n\nA área de um dos retângulos da grade do gráfico onde o ciclo termodinâmico é representado é dada por\n\n$$A = \\frac{(P_4 - P_1)}{5}\\,\\frac{(V_2 - V_1)}{5} = \\frac{(P_4 - P_1)(V_2 - V_1)}{25}.$$\n\nO módulo do trabalho no ciclo ($W$) é dado pela área delimitada pelo ciclo:\n\n$$W \\sim 19\\ \\text{retângulos} \\times A = \\frac{19}{25}(P_4 - P_1)(V_2 - V_1) = 0{,}76 \\times (P_4 - P_1)(V_2 - V_1).$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:**\n\n**a)** Ainda sobre o lançamento de Sonda Solar Parker, essa questão aborda a necessidade de refrigeração da sonda por causa do aquecimento decorrente da alta intensidade de radiação nas proximidades do Sol. Esse item da questão exige a utilização da lei dos gases ideais para se calcular a temperatura de um determinado estado em um ciclo termodinâmico.\n\n**b)** Esse item explora o conceito de trabalho em um ciclo termodinâmico, solicitando ao candidato que estime a área no interior desse ciclo.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q10",
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A levitação acústica consiste no emprego de ondas acústicas para exercer força sobre objetos e com isso mantê-los suspensos no ar, como a formiga representada na figura A, ou movimentá-los de forma controlada. Uma das técnicas utilizadas baseia-se na formação de ondas acústicas estacionárias entre duas placas, como ilustra a figura B, que mostra a amplitude da pressão em função da posição vertical.\n\n![Figura A: fotografia de uma formiga suspensa entre duas peças metálicas, ao lado de uma régua graduada em centímetros, de 0 a 4. Figura B: esquema de duas placas, uma acima da outra, com um eixo z vertical, curvas de pressão entre as placas, uma esfera marcada junto de uma das curvas e a distância Δz entre a esfera e o ponto de cruzamento das curvas indicada por setas](fig:p12-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "As frequências de ressonância acústica entre duas placas, ou num tubo fechado nas duas extremidades, são dadas por $f_n = \\frac{nv}{2L}$, sendo $L$ a distância entre as placas, $v = 340\\ \\text{m/s}$ a velocidade do som no ar, e $n$ um número inteiro positivo e não nulo que designa o modo. Qual é a frequência do modo ilustrado na figura B?",
+     "resposta_oficial": "(2 pontos)\n\nPela interpretação da imagem temos $n = 3$ e $L = 3{,}4\\ \\text{cm} = 3{,}4\\times10^{-2}\\ \\text{m}$. Assim,\n\n$$f_3 = \\frac{3\\times340\\ \\text{m/s}}{2\\times3{,}4\\times10^{-2}\\ \\text{m}} = 15000\\ \\text{Hz} = 15\\ \\text{kHz}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A força acústica aplicada numa pequena esfera aponta sempre na direção $z$ e no sentido do nó de pressão mais próximo. Nas proximidades de cada nó, a força acústica pode ser aproximada por $F_{\\text{ac}} = -k\\Delta z$, sendo $k$ uma constante e $\\Delta z = z - z_{\\text{nó}}$. Ou seja, a força aponta para cima (positiva) quando a esfera está abaixo do nó ($\\Delta z$ negativo), e vice-versa. Se $k = 6{,}0\\times10^{-2}\\ \\text{N/m}$ e uma esfera de massa $m = 1{,}5\\times10^{-6}\\ \\text{kg}$ é solta a partir do repouso na posição de um nó, qual será a menor distância percorrida pela esfera até que ela volte a ficar instantaneamente em repouso? Despreze o atrito viscoso da esfera com o ar.",
+     "resposta_oficial": "(2 pontos)\n\nPelo princípio de conservação de energia, $mgd = \\frac{kd^2}{2}$. Assim,\n\n$$d = \\frac{2mg}{k} = \\frac{2\\times1{,}5\\times10^{-6}\\times10}{6{,}0\\times10^{-2}} = 5\\times10^{-4}\\ \\text{m} = 0{,}5\\ \\text{mm}.$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O item **a** versa sobre ondulatória, abordando as frequências de ressonância acústicas em um tubo fechado. A expressão para as frequências de ressonância foi dada, e o candidato deveria fazer a leitura do diagrama e encontrar o modo (valor de n).\n\nNo item **b** a força acústica é aproximada por uma força elástica (válida nas proximidades dos nós de pressão). A partir daí, através da conservação da energia mecânica (potencial elástica e potencial gravitacional), o candidato deveria encontrar o ponto de retorno da esfera.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q11",
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Capacitores são componentes de circuitos elétricos que têm a função de armazenar carga. O tempo necessário para carregar ou descarregar um capacitor depende da sua capacitância $C$, bem como das características dos outros componentes a que ele está ligado no circuito. É a relativa demora na descarga dos capacitores que faz com que o desligamento de certos eletrodomésticos não seja instantâneo. O circuito da figura A apresenta um capacitor de capacitância $C = 20\\ \\frac{\\mu\\text{C}}{\\text{V}} = 20\\ \\mu\\text{F}$ ligado a dois resistores de resistências $R_A = 40\\ \\text{k}\\Omega$ e $R_B = 60\\ \\text{k}\\Omega$, e a uma bateria de força eletromotriz $\\varepsilon = 12\\ \\text{V}$. A chave S é ligada no instante $t = 0$ e o gráfico da figura B mostra a carga $q(t)$ no capacitor em função do tempo.\n\n![Figura A: circuito com uma bateria de força eletromotriz ε e uma chave S em série com o resistor R_A, percorrido pela corrente i_A; em seguida, em paralelo, o resistor R_B, percorrido pela corrente i_B, e o capacitor C, percorrido pela corrente i_C](fig:p13-c3)\n\n![Figura B: gráfico da carga no capacitor, em 10⁻⁶ C, em função do tempo, em segundos, de 0,0 a 1,0, com uma curva crescente que parte da origem](fig:p13-c2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a diferença de potencial no capacitor em $t = 0{,}2\\ \\text{s}$?",
+     "resposta_oficial": "(2 pontos)\n\nPelo gráfico temos $q(0{,}2\\ \\text{s}) = 50\\times10^{-6}\\ \\text{C}$. Assim,\n\n$$V_C = \\frac{q}{C} = \\frac{50\\times10^{-6}\\ \\text{C}}{20\\times10^{-6}\\ \\text{C/V}} = 2{,}5\\ \\text{V}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Num outro instante, a corrente no capacitor é $i_C = 150\\ \\mu\\text{A}$. Quanto vale a corrente $i_B$ no resistor $R_B$ nesse instante?",
+     "resposta_oficial": "(2 pontos)\n\nUsando as leis de Kirchhoff das malhas e dos nós para o circuito da figura A, temos $\\varepsilon = V_{R_A} + V_{R_B}$ e $i_A = i_B + i_C$. Assim,\n\n$\\varepsilon - R_A i_A - R_B i_B = 0$,\n$\\varepsilon - R_A (i_B + i_C) - R_B i_B = 0$,\n\n$$i_B = \\frac{\\varepsilon - R_A i_C}{R_A + R_B} = \\frac{12\\ \\text{V} - (40\\times10^3\\ \\Omega)\\times(150\\times10^{-6}\\ \\text{A})}{(40+60)\\times10^3\\ \\Omega} = 60\\ \\mu\\text{A}.$$"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda o tema de circuitos elétricos, em particular a lei das malhas e a lei dos nós. As correntes nos diferentes ramos do circuito variam com o tempo. A queda de tensão em resistores e num capacitor também foi exigida na resolução. O candidato deveria ler num gráfico a carga armazenada no capacitor num dado instante.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q12",
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Todos os corpos emitem radiação, e quanto maior a temperatura do corpo, maior a potência por ele radiada. Idealmente, os corpos que têm a capacidade de absorver toda a radiação que recebem são também os melhores emissores de radiação. Esses corpos são chamados de corpos negros e apresentam espectros de emissão de radiação que dependem somente de suas temperaturas. Além disso, o comprimento de onda de máxima radiação relaciona-se com a temperatura do corpo da seguinte forma: $\\lambda_{\\text{max}} = \\frac{b}{T}$, sendo $b = 3\\times10^{-3}\\ \\text{m}\\times\\text{K}$. O Sol tem um espectro de emissão similar ao espectro do corpo negro mostrado na figura A. Os valores de emitância estão divididos pelo valor máximo; já a escala de comprimentos de onda está em nanômetros ($1{,}0\\ \\text{nm} = 1{,}0\\times10^{-9}\\ \\text{m}$). Quanto vale a temperatura do corpo negro?\n\n![Figura A: gráfico da emitância, de 0,0 a 1,0, em função do comprimento de onda λ, em nm, de 0 a 1500, com uma curva que sobe até um ponto mais alto e depois decresce](fig:p14-c3)",
+     "resposta_oficial": "(2 pontos)\n\nPelo gráfico, $\\lambda_{\\text{max}} = 500\\ \\text{nm}$. Assim,\n\n$$T = \\frac{b}{\\lambda_{\\text{max}}} = \\frac{3\\times10^{-3}\\ \\text{m}\\times\\text{K}}{500\\times10^{-9}\\ \\text{m}} = 6000\\ \\text{K}.$$"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A separação da radiação luminosa nos diferentes comprimentos de onda é usualmente feita pelo emprego de uma grade de difração ou de um prisma. Quando um feixe luminoso incide numa das faces de um prisma, parte dele é refletida, e outra parte é refratada. Considere que o feixe luminoso, composto das cores azul e vermelha, incide na face do prisma conforme mostra a figura B. Trace os raios refletidos e os raios refratados na primeira face do prisma, lembrando que o índice de refração depende do comprimento de onda.\n\n*Campo de resolução:* ![Figura B: prisma de base triangular com um feixe incidente chegando à face esquerda, a normal tracejada nesse ponto e o ângulo θ₁ indicado entre o feixe incidente e a normal](fig:p14-c2)",
+     "resposta_oficial": "(2 pontos)\n\nConforme a lei da reflexão, o ângulo de reflexão é igual ao ângulo de incidência, independentemente do comprimento de onda da luz incidente. A lei de Snell-Descartes diz que, nesse caso, quanto maior o índice de refração do prisma, menor o ângulo de refração. Além disso, o índice de refração do prisma para a cor azul (menor comprimento de onda) é maior do que para a cor vermelha (maior comprimento de onda).\n\n![Figura B com a resposta: feixe incidente formando o ângulo θ₁ com a normal, feixe refletido saindo da face com o mesmo ângulo θ₁ do outro lado da normal e, dentro do prisma, dois raios refratados, um vermelho e um azul, com o raio azul mais próximo da normal que o vermelho](fig:r04-c1)"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Trata-se de uma questão sobre Física moderna e óptica geométrica.\n\nNo item **a**, o candidato deveria calcular a temperatura de um corpo negro com espectro de emissão similar ao do Sol. Para isso, foi fornecida a lei de Wien, que relaciona o comprimento de máxima emissão, $\\lambda_{\\text{max}}$, com a temperatura do corpo. O candidato deveria identificar $\\lambda_{\\text{max}}$ no gráfico do espectro de emissão do corpo negro.\n\nO item **b** aborda as leis de refração e de reflexão de forma qualitativa, para a incidência de dois comprimentos de onda no visível na primeira interface ar-vidro de um prisma.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q13",
+   "numero": 13,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Em 2017, um grupo de astrônomos europeus detectou sete planetas orbitando uma estrela da Via Láctea denominada TRAPPIST-1. Reproduzimos abaixo algumas informações extraídas desse estudo.\n\nAs estimativas das massas dos seis planetas mais próximos da estrela sugerem fortemente uma composição rochosa.\nEm especial, três planetas têm irradiações estelares\\* muito próximas das de Vênus, Terra e Marte.\nSupondo condições atmosféricas semelhantes às da Terra, deduziu-se que um desses três planetas, denominado TRAPPIST-1f, pode ter oceanos de água em forma líquida na superfície.\n\n\\* irradiação estelar é a potência de energia recebida da estrela por unidade de área do planeta.\n\nResponda às questões a seguir.\n\n(Fonte: Michael Gillon e outros, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1. *Nature*, Cambridge, v. 542, p. 456–460, fev. 2017.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O estudo sugere que o planeta TRAPPIST-1f pode ter sido palco do surgimento de formas de vida semelhantes às da Terra. Levando em conta apenas as características encontradas atualmente em todos os organismos vivos, explique a importância de duas características físicas ou químicas presentes no planeta TRAPPIST-1f para a biologia dos organismos vivos como nós os conhecemos.",
+     "resposta_oficial": "(2 pontos)\n\nO planeta TRAPPIST-1f apresenta composição rochosa, sugerindo a presença de minerais, alguns dos quais são componentes fundamentais das células e importantes para uma variedade de processos bioquímicos e fisiológicos nos organismos vivos. Além disso, o planeta tem água no estado líquido na superfície, o que seria crucial para o desenvolvimento da vida nesse planeta, já que a água é um componente essencial de todas as formas de vida que conhecemos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma teoria altamente controversa, denominada panspermia, sugere que a vida existe em vários lugares do Universo e pode ter-se disseminado entre planetas e sistemas estelares, carregada por meteoros. Considerando plausível tal teoria, se dois planetas com características semelhantes fossem semeados simultaneamente pelos mesmos micro-organismos, não necessariamente possuiriam as mesmas formas de vida bilhões de anos depois. Explique por que, incluindo em sua resposta pelo menos um fator que leva a evolução biológica a ser imprevisível.\nQual a relação entre mutações e variabilidade genética, condição essencial para a evolução biológica?",
+     "resposta_oficial": "(2 pontos)\n\nDois planetas com características semelhantes semeados simultaneamente pelos mesmos micro-organismos não necessariamente apresentarão as mesmas formas de vida bilhões de anos depois, já que variados processos aleatórios caracterizam a evolução biológica, incluindo o surgimento de mutações (mudanças no material genético), os processos de deriva genética (variações randômicas nas frequências dos genes ao longo do tempo), a ocorrência de eventos geológicos locais ou em escala planetária, além de possíveis diferenças no resultado da seleção natural. Em última análise, as mutações resultantes de mudanças no material genético são a fonte da variabilidade genética existente na natureza."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria: (a) conhecer os componentes bioquímicos das células; (b) saber que o material genético sofre mutações, as quais estão na origem de toda a variabilidade genética; (c) saber que o processo de mutação, aliado à deriva genética e a outros processos evolutivos, torna a evolução biológica imprevisível.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou: (a) argumentação lógica (necessária para explicar por que o processo evolutivo é imprevisível); e (b) interpretação de dados (fornecidos no estudo dos planetas de outro sistema estelar).",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q14",
+   "numero": 14,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Nos últimos anos, foram desenvolvidos vários processos tecnológicos para a biodegradação dos plásticos PE (polietileno) e PET (polietilenotereftalato), amplamente utilizados na fabricação de embalagens. Em países desenvolvidos, apenas ¼ do total de PE produzido é reciclado; o restante é descartado em aterros sanitários ou queimado por combustão, resultando em enorme ônus ambiental.\n\n(Fontes: Paolo Bombelli e outros, Polyethylene bio-degradation by caterpillars of the wax moth *Galleria mellonella*. *Current Biology*, Cambridge, v. 27, p. R283–R293, abr. 2017. Harry P. Austin e outros, Characterization and engineering of a plastic-degrading aromatic polyesterase. *Proceedings of the National Academy of Sciences of the USA*, Washington, v. 115, p. E4350-E4357, maio 2018. Esse estudo teve a participação do grupo liderado pelo Prof. Dr. Munir Skaf, Pró-Reitor de Pesquisa da UNICAMP.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Em um estudo inicial, verificou-se que lagartas vivas da mariposa *Galleria mellonella* são capazes de reduzir a massa de sacolas plásticas de PE. Posteriormente, lagartas dessa espécie foram maceradas para produzir um extrato líquido, que foi então depositado por 10 horas sobre um pedaço de PE. O gráfico abaixo mostra a massa restante por $\\text{cm}^2$ de PE na ausência e na presença do extrato após 10 horas.\n\n![Gráfico de barras da massa de PE por cm² após 10 h, em mg/cm², com eixo de 0,8 a 1,1 e duas barras: sem extrato e com extrato](fig:p16-f1)\n\nPor que os dados do gráfico confirmam que a redução da massa das sacolas plásticas causada pela presença das lagartas vivas não é resultado apenas da mastigação mecânica pelos insetos? Considerando que a taxa de degradação de PE definida no gráfico permanece constante, quantas horas seriam necessárias para uma quantidade suficiente de extrato degradar todo o pedaço de PE? Explique.",
+     "resposta_oficial": "(2 pontos)\n\nO macerado produzido a partir das lagartas foi capaz de reduzir a massa de polietileno (PE). Logo, a redução na massa das sacolas plásticas na presença das lagartas vivas não pode ter sido resultado apenas de mastigação mecânica pelo inseto. Uma vez que 10% (ou 0,1 mg/$\\text{cm}^2$ de PE) da massa do pedaço de PE foi degradada ao longo de 10 horas pelo macerado das lagartas, seriam necessárias 100 horas no total para degradar completamente o pedaço (ou 1,0 mg/$\\text{cm}^2$ de PE), considerando que a taxa de degradação de PE permanece constante."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Mais recentemente, um grupo de pesquisadores descobriu uma bactéria encontrada em aterros sanitários no Japão, denominada *Ideonella sakaiensis*, capaz de fragmentar o PET em unidades menores, processo que depende de uma enzima específica, chamada PETase. Foi sugerido que o genoma da *I. sakaiensis* poderia ser utilizado para a criação de uma bactéria transgênica a ser empregada em processos industriais de reciclagem de resíduos plásticos. O que é transgenia? Para criar tal bactéria transgênica, que parte do genoma da *I. sakaiensis* seria essencial?",
+     "resposta_oficial": "(2 pontos)\n\nTransgenia é o processo biotecnológico através do qual são gerados organismos transgênicos (organismos geneticamente modificados pela introdução de um trecho de material genético exógeno, proveniente de fora do organismo). Para a criação de uma bactéria transgênica capaz de ser empregada em processos industriais de reciclagem de resíduos plásticos, o genoma de tal bactéria deve ser geneticamente modificado pela introdução do gene que codifica a enzima PETase proveniente da *Ideonella sakaiensis*."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria conhecer o importantíssimo conceito de transgenia, normalmente confundido com o simples processo de mutação ou ainda com melhoramento genético. Também costuma haver confusão entre os termos transgenia, biotecnologia e organismo geneticamente modificado (o resultado da transgenia). A questão também exigiu do candidato conhecimento sobre o conceito de gene e sobre o processo biotecnológico de geração de animais transgênicos para benefício da humanidade.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou a capacidade de interpretação de dados e gráficos, necessária para a resolução do item **a**.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q15",
+   "numero": 15,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Organismos vivos são classificados em grupos taxonômicos, que devem preferencialmente refletir as relações de parentesco evolutivo entre as espécies.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A tabela apresentada abaixo (parte **a** do espaço de resposta) contém características presentes em anelídeos, platelmintos e moluscos. Preencha corretamente todos os espaços em cinza na tabela, referentes às características listadas na primeira coluna, de acordo com as opções indicadas na segunda coluna. Atenção: há duas colunas denominadas X e Y; uma representa moluscos e a outra representa platelmintos.\n\n*Campo de resolução:* ![Tabela com as colunas Característica, Opções, X, Anelídeos e Y e as linhas Celoma, Simetria, Larva, Sistema circulatório, Sistema digestório, Carapaça calcárea, Eixo ântero-posterior, Segmentação e Exemplo de organismo (nome comum); algumas células já vêm preenchidas e as células em cinza estão em branco](fig:p17-c3)",
+     "resposta_oficial": "(2 pontos)\n\nPreenchimento correto dos retângulos em cinza na tabela:\n\n![Tabela preenchida. Anelídeos: Celoma, Celomados; Simetria, Bilateral; Sistema digestório, Completo; Segmentação, Presente. Coluna X: Sistema circulatório, Presente. Coluna Y: Sistema circulatório, Ausente; Eixo ântero-posterior, Definido. Na linha Exemplo de organismo, as três colunas, X, Anelídeos e Y, trazem a palavra Exemplo](fig:r09-c1)\n\nPossíveis exemplos de moluscos (coluna X): lesma, caracol, polvo, lula, sépia, mexilhão, etc.\nPossíveis exemplos de anelídeos: minhoca, poliqueto, sanguessuga, etc.\nPossíveis exemplos de platelmintos (coluna Y): planária, tênia, verme do *Schistosoma*, etc."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Um dos critérios para a construção do diagrama abaixo (parte **b** do espaço de resposta) é o número de características compartilhadas entre pares de grupos taxonômicos. Preencha os retângulos em branco do diagrama com o nome de um dos dois grupos ― moluscos ou platelmintos. Utilize as linhas em branco para explicar o que representa esse tipo de diagrama.\n\n*Campo de resolução:* ![Diagrama em forma de árvore ramificada, com três ramos na parte de cima: um retângulo em branco à esquerda, o rótulo Anelídeos no meio e outro retângulo em branco à direita](fig:p17-c4)",
+     "resposta_oficial": "(2 pontos)\n\nPreenchimento correto dos retângulos no diagrama:\n\n![Diagrama preenchido: retângulo da esquerda com Platelmintos, rótulo Anelídeos no meio e retângulo da direita com Moluscos](fig:r10-c1)\n\nO diagrama é um cladograma, que representa a hipótese sobre as relações de parentesco evolutivo entre grupos taxonômicos. No caso, o cladograma indica que moluscos são mais proximamente aparentados com anelídeos do que com platelmintos."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria revelar conhecimento sobre zoologia e as principais características de três grupos de grande importância econômica, médica e social para o ser humano.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou o conhecimento sobre o sistema de classificação dos organismos vivos e a capacidade de elaborar hipóteses para a definição dos níveis de parentesco evolutivo entre os grupos mencionados no item **a**.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q16",
+   "numero": 16,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Plantas são capazes de absorver nutrientes do solo pelas raízes. Em muitas espécies vegetais, as raízes são infectadas por fungos, estabelecendo uma interação entre organismos denominada micorriza.\n\n![Três gráficos, A, B e C. A: altura da planta, em cm, em função do tempo de crescimento, em semanas (3, 5 e 10), com duas linhas, com micorriza e sem micorriza. B: emissões do gás-estufa N₂O, em kg por hectare, em função do uso de fertilizantes, em kg de nitrogênio por hectare, com três pontos e uma reta tracejada. C: características químicas da água em lago próximo de área de plantio agrícola, de abril a agosto, com duas curvas: O₂ dissolvido, em mg/L, e fósforo proveniente de fertilizantes, em mg/L](fig:p18-f1)\n\n(Fonte: D. S. Hayman e outros, Plant Growth Responses to Vesicular-Arbuscular Mycorrhiza. VI. Effect of Light and Temperature. *The New Phytologist*, Lancaster, v. 73, p. 71-80, jan. 1974.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Os efeitos das micorrizas sobre o crescimento vegetal podem ser avaliados a partir da figura A. Utilizando os dados fornecidos na figura, explique as consequências da micorriza para a planta. Que tipo de interação ecológica caracteriza a micorriza? Justifique, informando em sua resposta se a interação é positiva, negativa ou neutra para cada organismo envolvido.",
+     "resposta_oficial": "(2 pontos)\n\nPela análise do gráfico, fica evidente que, na presença de micorrizas, o crescimento inicial da planta é favorecido, o que sugere que o processo de absorção de nutrientes pelas raízes é facilitado pela interação ecológica com os fungos. Tal interação é do tipo mutualismo, já que tem consequências positivas óbvias para a planta, além de oferecer vantagens para o fungo, que recebe nutrientes orgânicos da planta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "O Brasil é um dos países que mais consomem fertilizantes sintéticos no mundo. Com base nas figuras A, B e C, explique por que a bioinoculação de fungos no solo pode ser uma alternativa ao uso de fertilizantes. Indique em sua explicação ao menos um efeito para as plantas e um efeito para o ambiente.",
+     "resposta_oficial": "(2 pontos)\n\nA bioinoculação de fungos no solo aumenta a chance de formação de micorrizas, oferecendo uma alternativa ao uso de fertilizantes sintéticos, já que promove aumento no crescimento da planta, como sugere o gráfico A, por facilitar a absorção de nutrientes. A bioinoculação seria vantajosa também para o ambiente, uma vez que a redução no uso de fertilizantes sintéticos poderia reduzir a emissão de gases de efeito estufa $\\text{N}_2\\text{O}$, como mostra o gráfico B. Além disso, a contaminação de corpos d'água com fertilizantes seria reduzida, o que poderia levar a um aumento na oxigenação da água, como sugere o gráfico C, com efeitos benéficos para os organismos vivos aeróbicos que ali vivem."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria revelar conhecimento sobre tipos de interações ecológicas, particularmente sobre os benefícios ou prejuízos para as espécies envolvidas. Além disso, deveria mobilizar conteúdos sobre fisiologia vegetal e o papel das raízes na absorção de nutrientes e no crescimento das plantas. Tais assuntos têm relevância para a área da agricultura e, portanto, para nosso Estado e país. Em particular, o candidato deveria conhecer a relação entre absorção de nutrientes, uso de fertilizantes e as consequências para o ambiente. A questão relaciona diversos conteúdos, contém gráficos e exige elaboração de hipóteses, ou seja, não se trata de uma questão fácil e o desempenho geral na questão provou isso.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou a capacidade de argumentação lógica, pois o candidato precisava resgatar informações de diversos gráficos e argumentar baseado em um possível cenário. Além disso, havia forte exigência de interpretação de gráficos e elaboração de hipóteses. Dessa forma, a questão contém elementos essenciais para a seleção de bons alunos ingressantes para a UNICAMP, mesmo fora da área biológica.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q17",
+   "numero": 17,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os microtúbulos, parte do citoesqueleto, estão envolvidos em diversas etapas da diferenciação de neurônios, incluindo a origem e a função de seus prolongamentos celulares ― dendritos e axônios.\nAs proteínas associadas aos microtúbulos (MAPs) têm funções essenciais nas células neuronais, podendo ser divididas em três famílias ― MAP1, MAP2 e tau.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite pelo menos dois papéis dos microtúbulos em uma célula eucariótica, diferentes daqueles mencionados acima.\nAs distribuições subcelulares de tau, MAP2 e um tipo de MAP1 (MAP1B) durante a diferenciação neuronal são representadas na figura abaixo. Na fase 4, qual MAP é encontrada em maior quantidade nos dendritos?\n\n![Três painéis, (A) fase 1-2, (B) fase 3 e (C) fase 4, com desenhos de neurônios. Em cada painel há gráficos de barras com três colunas, ligados por linhas a regiões do neurônio. Legenda no painel C: preto, tau; cinza, MAP2; branco, MAP1B](fig:p19-c1)\n\n**Legenda**: Fase 1-2: célula precursora neural, com prolongamentos do tipo lamelipódio e futuros neuritos; Fase 3: neurônio com polaridade, com axônio e neuritos; Fase 4: neurônio maduro, com dendritos formados a partir dos neuritos e axônio ramificado. Os gráficos de barras representam a quantidade das MAPs, conforme legenda no painel C.\n\n(Fonte: L. Penazzi e outros, Chapter Three - Microtubule Dynamics in Neuronal Development, Plasticity, and Neurodegeneration. *International Review of Cell and Molecular Biology*, Kidlington, v. 321, p. 89–169, 2016.)",
+     "resposta_oficial": "(2 pontos)\n\nMicrotúbulos, componentes do citoesqueleto das células eucarióticas constituídos de subunidades da proteína tubulina, são importantes em diversos processos celulares, tais como a organização do citoesqueleto para que a célula adquira seu formato apropriado, o transporte de organelas e outros componentes da célula, o movimento dos cromossomos e a organização do fuso durante a mitose e a meiose, a mobilidade de alguns tipos celulares (cílios e flagelos). Na fase 4, os dendritos (localizados na parte esquerda da representação esquemática do neurônio) apresentam a proteína MAP2 em maior quantidade do que as demais proteínas MAP."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual é a principal função dos axônios?\nPlasticidade neuronal é a capacidade do sistema nervoso de se modificar estrutural e funcionalmente ao longo de seu desenvolvimento, ou quando sujeito a novas experiências. De que forma os dendritos e os axônios participam ativamente desse processo?",
+     "resposta_oficial": "(2 pontos)\n\nA principal função dos axônios é a condução (transmissão) dos impulsos nervosos gerados pela célula neuronal até a célula pós-sináptica. Dendritos (especializados em receber estímulos nervosos) e axônios participam ativamente do processo de plasticidade neuronal, pois são os responsáveis pelo estabelecimento das conexões dos circuitos neuronais por meio das sinapses, as quais não somente transmitem os impulsos nervosos de uma célula para outra, mas também podem sofrer alterações derivadas da plasticidade neuronal."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria revelar conhecimento sobre biologia celular e fisiologia do sistema nervoso. Em especial, a questão exigia conhecimentos sobre a natureza e as funções dos processos celulares das células neuronais, dendritos e axônios.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão avaliou a capacidade de relacionar ideias e de elaborar explicações com base em informações de gráficos e imagens.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2019-2-d3-q18",
+   "numero": 18,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Recentemente, foi criado um sistema que emprega moléculas sintéticas de DNA para armazenar dados de textos, imagens ou vídeos simples. Nesse sistema, qualquer trecho compreendido entre 5 bases **A** na sequência da molécula sintética de DNA é chamado **códex**, o qual tem a estrutura genérica abaixo.\n\n![Esquema da sequência AAAAAGTTTATTTTCGTTTTTCGCGCTCGCCGTTCGCGTTGCCGAAAAA, com um colchete rotulado códex sobre a parte entre as cinco bases A do início e as cinco do fim, uma seta rotulada pixet apontando para a primeira base do códex (G em negrito) e as letras de a até s sob os pares de bases seguintes](fig:p20-c1)\n\nA primeira base de cada códex é o **pixet**, que indica qual das três linhas de *pixels* da imagem o códex representa: **G** indica a primeira linha (1), **C** indica a segunda linha (2) e **T** indica a terceira linha (3).\nApós o **pixet**, o códex inclui 19 conjuntos de duas bases **(dupletos)**, nomeados de **a** até **s**; cada **dupleto** representa um *pixel* gráfico na imagem.\n\nPor exemplo, a imagem abaixo foi codificada pela sequência de DNA a seguir (apenas a sequência de uma das fitas de DNA é apresentada): AAAAACTTTATTTTCCTTTTTTACACTTGGTTTTGTGTTTGGTTAAAAATCCTTTGTTAGCCTTCCTTTTTTCATTTTGTGTTTAGAGAAAAAGTTTATTTTCGTTTTTCGCGCTCGCCGTTCGCGTTGCCGAAAAA.\n\n![Imagem formada por uma grade de 3 linhas, numeradas 1, 2 e 3, e 19 colunas, rotuladas de a até s, em que cada célula é branca, preta ou tem um triângulo preto](fig:p20-c2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a sequência de bases do **dupleto** que representa os *pixels* do tipo ◣? Explique, em termos da deterioração da imagem, por que a inserção de uma base extra logo após o primeiro dupleto de um códex da sequência de DNA acima é mais grave que a deleção do último dupleto desse códex.",
+     "resposta_oficial": "(2 pontos)\n\nO dupleto que representa o tipo de *pixel* gráfico indicado no enunciado possui a sequência CG (nucleotídeo com a base nitrogenada citosina seguido de nucleotídeo com a base guanina). A inserção de uma base logo após o primeiro dupleto de um códex modifica a matriz de leitura, ou seja, todos os dupletos a partir do ponto de inserção serão modificados, causando possíveis mudanças em quase todos os *pixels* da linha correspondente ao códex na imagem. Em contraste, a deleção do último dupleto de um códex tem como consequência a supressão de apenas um *pixel* da linha correspondente ao códex na imagem."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Compare o funcionamento dos dupletos do sistema descrito acima com o funcionamento dos códons na codificação de aminoácidos em organismos vivos. Qual organela catalisa o processo de tradução?",
+     "resposta_oficial": "(2 pontos)\n\nNo sistema descrito no enunciado, cada dupleto (conjunto de duas bases) simboliza um *pixel* gráfico, enquanto, em organismos vivos, cada códon (conjunto de três bases encontrado na região codificadora do mRNA) codifica um aminoácido na cadeia proteica ou o término da tradução. Tal processo é catalisado pelo ribossomo."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Quanto ao <u>conhecimento biológico</u>, o candidato deveria revelar conhecimento sobre o código genético, sobre a síntese proteica através do processo de tradução de ácidos nucleicos pelo ribossomo e sobre o funcionamento dos códons. Além disso, deveria deduzir a influência de vários tipos de mutação na sequência codificadora durante esse processo.\n\nQuanto às <u>habilidades desejadas</u> no candidato, a questão exigiu argumentação lógica a partir de dados fornecidos e interpretação de imagens e esquemas.",
+   "revisao": "transcrita"
+  }
+ ]
+}
