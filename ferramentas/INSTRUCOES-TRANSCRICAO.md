@@ -98,3 +98,56 @@ Grave **um arquivo JSON** no caminho que a tarefa indicar, com esta estrutura:
 7. Responda só com um resumo curto: quantas questões gravou, quais recortes refez e qualquer dúvida que ficou (as mesmas das `observacoes`).
 
 Não invente nada. Se um trecho estiver ilegível no PDF, transcreva o que dá para ler e explique em `observacoes`.
+
+## Discursivas (2ª fase)
+
+As discursivas seguem todas as regras acima, com estas diferenças.
+
+**O que transcrever.** O enunciado e os itens de cada questão do caderno e, do documento oficial de respostas da banca, a resposta esperada. Não transcreva a proposta de redação, as instruções do caderno, o quadro "Resolução (será considerado apenas...)", as linhas de resposta nem "RASCUNHO".
+
+**Material a mais** (em `trabalho/<edicao>/`):
+- `respostas/rNN.png`: páginas do documento oficial de respostas ("Respostas esperadas" da Unicamp; "Abordagens esperadas"/"Guia de respostas" da FUVEST). `respostas-anotadas/rNN.png` traz a grade e as figuras candidatas (`r05-f1`).
+- `respostas.md`: o texto dessas páginas, no mesmo formato de `texto.md`. Em alguns anos o texto sai embaralhado: aí leia direto da imagem.
+- Recorte de figura da resposta: `python3 ferramentas/recortar.py <edicao> r<pagina> <x0> <y0> <x1> <y1>` (gera `rNN-cK`).
+- O documento de respostas pode cobrir mais de um caderno (a FUVEST junta os dois dias até 2025; a Unicamp traz as questões repetidas entre cadernos). Procure a questão certa pelo número e confira se o enunciado resumido no documento bate com o do caderno.
+
+**Formato do lote.** O mesmo arquivo do lote leva as questões e as respostas:
+
+```json
+{
+  "edicao": "unicamp-2024-2-cet",
+  "intervalo": [3, 8],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 4,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere a função $f(x) = \\frac{ax - 1}{2x + 3}$.",
+      "itens": [
+        {"rotulo": "a", "texto": "Para $a = 0$, calcule $f^{-1}(3/5)$."},
+        {"rotulo": "b", "texto": "Determine o(s) valor(es) de $a$ para que $f(f(1)) = 1$."}
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "4": {
+      "itens": {
+        "a": "Para $a = 0$, temos que $f(x) = \\frac{-1}{2x+3}$. ...",
+        "b": "Temos que $f(1) = \\frac{a-1}{5}$ e daí ..."
+      }
+    }
+  }
+}
+```
+
+- `itens`: os itens como impressos (`a`, `b`, `c`; o rótulo sem parênteses). Se a questão não tem itens, use `"itens": []` e deixe tudo no `enunciado`.
+- `codigo` (só na FUVEST, 2º dia): o código impresso da questão (`"M03"`, `"B01"`). O `numero` é a posição da questão no caderno, de 1 a 36; a tarefa traz a lista de códigos na ordem.
+- `respostas`: uma entrada por questão do lote, com a chave igual ao número. Use `"itens": {"a": "...", "b": "..."}` com a resposta de cada item. Se a banca escreveu um comentário geral da questão (ou respondeu a questão inteira sem separar os itens), ponha esse texto em `"resposta"`. Pode haver os dois.
+- **A resposta é a da banca, transcrita fielmente**, com as mesmas regras de fidelidade do enunciado (fórmulas em LaTeX, figuras, tabelas, listas). Não resuma, não complete, não corrija e não acrescente nada seu. Se a banca dá alternativas de resposta ("Também será aceito..."), "Critérios de correção" ou a pontuação de cada parte, transcreva também.
+- Não transcreva o cabeçalho do documento de respostas (nome do vestibular, "RESPOSTAS ESPERADAS", número de página) nem o enunciado que o documento repete antes da resposta.
+- Se o documento de respostas não traz a questão (ou um item), não escreva resposta: use `"5": {"indisponivel": "o documento oficial não traz a resposta do item b"}` e explique também em `observacoes`. **Nunca escreva uma resposta própria.**
+- Não informe `assunto` nem `resolucao`: na discursiva, o aluno vê só a resposta publicada pela banca.
+- Questões listadas na tarefa como repetidas de outro caderno não entram no lote.

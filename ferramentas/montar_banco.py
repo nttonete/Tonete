@@ -7,6 +7,10 @@ Para cada edição com rascunhos em trabalho/<edicao>/rascunho-*.json:
   - grava dados/questoes/<edicao>.json.
 Depois gera dados/indice.json, que a plataforma lê ao abrir.
 
+Discursivas: os lotes trazem também "respostas" (a resposta esperada publicada
+pela banca, transcrita do PDF oficial). Elas são juntadas, com as correções do
+revisor ("respostas_corrigidas"), em dados/provas/respostas/<edicao>.json.
+
 Uso: python3 ferramentas/montar_banco.py [edicao ...]   (sem argumentos: todas)
 """
 import json
@@ -37,9 +41,20 @@ def gabarito_oficial(ed):
     return {int(k): v for k, v in g.items()}
 
 
-def respostas_discursivas(ed):
-    arq = RAIZ / "dados/provas/respostas" / f"{ed['id']}.json"
-    return json.loads(arq.read_text()) if arq.exists() else {}
+def respostas_discursivas(ed, pasta):
+    """Respostas oficiais transcritas nos lotes; as do revisor substituem as do transcritor."""
+    respostas = {}
+    for padrao in ("rascunho-*.json", "revisao-*.json"):
+        for arq in sorted(pasta.glob(padrao)):
+            dados = json.loads(arq.read_text())
+            respostas.update(dados.get("respostas") or {})
+            respostas.update(dados.get("respostas_corrigidas") or {})
+    destino = RAIZ / "dados/provas/respostas" / f"{ed['id']}.json"
+    if respostas:
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        ordem = dict(sorted(respostas.items(), key=lambda kv: int(kv[0])))
+        destino.write_text(json.dumps(ordem, ensure_ascii=False, indent=1) + "\n")
+    return respostas
 
 
 def montar(ed):
@@ -79,7 +94,7 @@ def montar(ed):
             status[r["numero"]] = {"status": r["status"], "notas": r.get("notas", "")}
 
     gab = gabarito_oficial(ed) if ed["tipo"] == "objetiva" else None
-    respostas = respostas_discursivas(ed) if ed["tipo"] == "discursiva" else {}
+    respostas = respostas_discursivas(ed, pasta) if ed["tipo"] == "discursiva" else {}
     saida = []
     for n in sorted(questoes):
         q = dict(questoes[n])
@@ -117,8 +132,11 @@ def montar(ed):
         if origem.exists():
             shutil.copy2(origem, destino / origem.name)
 
-    meta = {k: ed[k] for k in ("id", "vestibular", "ano", "fase", "tipo", "versao")}
+    meta = {k: ed.get(k) for k in ("id", "vestibular", "ano", "fase", "tipo", "versao")}
     meta["nome"] = f"{NOMES[ed['vestibular']]} {ed['ano']} – {ed['fase']}ª fase"
+    if ed.get("caderno"):
+        meta["caderno"] = ed["caderno"]
+        meta["nome"] += f" ({ed['caderno']})"
     tabela = RAIZ / "img/tabela-periodica" / f"{ed['id']}.webp"
     if tabela.exists():
         meta["tabela_periodica"] = f"img/tabela-periodica/{ed['id']}.webp"
@@ -126,20 +144,24 @@ def montar(ed):
         "caderno": Path(ed["pdf"]).name,
         "gabarito": Path(ed["gabarito"]).name if ed.get("gabarito") else None,
     }
+    if ed.get("respostas"):
+        meta["fonte"]["respostas"] = [Path(r).name for r in ed["respostas"]]
     final = {"edicao": meta, "textos_base": textos_base, "questoes": saida}
     (RAIZ / "dados/questoes" / f"{ed['id']}.json").write_text(json.dumps(final, ensure_ascii=False, indent=1))
     return final
 
 
 def indice():
-    esperado = {e["id"]: e["questoes"] for e in json.loads((RAIZ / "dados/provas/edicoes.json").read_text())}
+    # questões repetidas de outro caderno do mesmo ano (Unicamp) não entram de novo
+    esperado = {e["id"]: (e["questoes"] or 0) - len(e.get("repetidas") or {})
+                for e in json.loads((RAIZ / "dados/provas/edicoes.json").read_text())}
     # questões que dependem de texto protegido ficam fora, mas não impedem a edição de entrar
     fora = json.loads((RAIZ / "dados/provas/indisponiveis.json").read_text())
     edicoes = []
     for arq in sorted((RAIZ / "dados/questoes").glob("*.json")):
         d = json.loads(arq.read_text())
         ind = sorted(int(n) for n in fora.get(d["edicao"]["id"], {}))
-        if d["edicao"]["tipo"] == "objetiva" and len(d["questoes"]) + len(ind) < esperado[d["edicao"]["id"]]:
+        if len(d["questoes"]) + len(ind) < esperado[d["edicao"]["id"]]:
             print(f"{d['edicao']['id']}: incompleta ({len(d['questoes'])} de {esperado[d['edicao']['id']]}), fica fora da plataforma")
             continue
         materias = {}

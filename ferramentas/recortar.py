@@ -5,6 +5,7 @@ Use quando a figura candidata gerada automaticamente cortou parte do desenho
 
 Uso:
   python3 ferramentas/recortar.py <edicao> <pagina> <x0> <y0> <x1> <y1>
+  (discursivas: página "r5" é a 5ª página de trabalho/<edicao>/respostas.pdf)
   python3 ferramentas/recortar.py --conferir <pasta> <edicao> <pagina> <x0> <y0> <x1> <y1>
 
 Com --conferir, só gera uma ampliação (300 dpi) em <pasta>/ para ler detalhes,
@@ -30,25 +31,27 @@ def main():
     if args and args[0] == "--conferir":
         conferir = Path(args[1])
         args = args[2:]
-    ed_id, pagina = args[0], int(args[1])
+    ed_id, pagina = args[0], args[1]
+    prefixo = "r" if pagina.lower().startswith("r") else "p"
+    pagina = int(pagina.lstrip("rRpP"))
     x0, y0, x1, y1 = map(float, args[2:6])
     ed = carregar_edicao(ed_id)
     pasta = RAIZ / "trabalho" / ed_id / "figuras"
-    pdf = pymupdf.open(RAIZ / ed["pdf"])
+    pdf = pymupdf.open(RAIZ / "trabalho" / ed_id / "respostas.pdf" if prefixo == "r" else RAIZ / ed["pdf"])
     pag = pdf[pagina - 1]
     clip = pymupdf.Rect(x0, y0, x1, y1) & pag.rect
     if clip.is_empty:
         raise SystemExit("região vazia: confira as coordenadas")
     if conferir:
         conferir.mkdir(parents=True, exist_ok=True)
-        saida = conferir / f"zoom-p{pagina:02d}-{int(x0)}-{int(y0)}.png"
+        saida = conferir / f"zoom-{prefixo}{pagina:02d}-{int(x0)}-{int(y0)}.png"
         pag.get_pixmap(dpi=300, clip=clip).save(saida)
         print(saida)
         return
     # reserva o nome de forma atômica (vários agentes podem recortar ao mesmo tempo)
     k = 1
     while True:
-        fig_id = f"p{pagina:02d}-c{k}"
+        fig_id = f"{prefixo}{pagina:02d}-c{k}"
         try:
             with open(pasta / f"{fig_id}.webp", "x"):
                 break

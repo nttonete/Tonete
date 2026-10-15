@@ -117,6 +117,57 @@ def checar_render(rel, itens):
     return saida["figuras"]
 
 
+def checar_discursiva(rel, ref, q, ed, dados, final, para_render):
+    """Itens, código da questão (FUVEST), repetidas (Unicamp) e resposta oficial."""
+    n = q.get("numero")
+    itens = q.get("itens")
+    if not isinstance(itens, list):
+        rel.erro(ref, "discursiva sem campo itens")
+        itens = []
+    rotulos = [i.get("rotulo") for i in itens]
+    if len(set(rotulos)) != len(rotulos) or any(not r for r in rotulos):
+        rel.erro(ref, f"rótulos de itens vazios ou repetidos: {rotulos}")
+    if q.get("alternativas"):
+        rel.erro(ref, "discursiva com alternativas")
+    if q.get("resolucao"):
+        rel.erro(ref, "discursiva não leva resolução nossa: só a resposta publicada pela banca")
+    codigos = ed.get("codigos")
+    if codigos and isinstance(n, int) and 1 <= n <= len(codigos) and q.get("codigo") != codigos[n - 1]:
+        rel.erro(ref, f"código {q.get('codigo')!r}; a questão {n} do caderno é {codigos[n - 1]}")
+    if str(n) in (ed.get("repetidas") or {}):
+        rel.erro(ref, f"questão repetida de {ed['repetidas'][str(n)]}: não deve ser transcrita de novo")
+    if final:
+        tem = q.get("resposta_oficial") or any(i.get("resposta_oficial") for i in itens)
+        if not tem:
+            rel.aviso(ref, "discursiva sem resposta oficial")
+        elif itens and not q.get("resposta_oficial") and not all(i.get("resposta_oficial") for i in itens):
+            rel.aviso(ref, "item sem resposta oficial")
+        return
+    r = (dados.get("respostas") or {}).get(str(n))
+    if not r:
+        rel.erro(ref, "falta a resposta oficial em \"respostas\"")
+        return
+    if r.get("indisponivel"):
+        rel.aviso(ref, "resposta oficial indisponível: " + str(r["indisponivel"])[:150])
+    sobra = set(r) - {"resposta", "itens", "indisponivel"}
+    if sobra:
+        rel.erro(ref, f"campos desconhecidos na resposta: {sorted(sobra)}")
+    por_item = r.get("itens") or {}
+    estranhos = set(por_item) - set(rotulos)
+    if estranhos:
+        rel.erro(ref, f"resposta de itens que a questão não tem: {sorted(estranhos)}")
+    if not r.get("indisponivel") and not r.get("resposta") and (not itens or set(por_item) != set(rotulos)):
+        rel.erro(ref, "resposta oficial incompleta: falta resposta geral ou de algum item")
+    textos = ([("resposta oficial", r["resposta"])] if r.get("resposta") else []) + \
+             [(f"resposta {k}", v) for k, v in por_item.items()]
+    for rotulo, t in textos:
+        if not isinstance(t, str) or not t.strip():
+            rel.erro(ref, f"{rotulo} vazia")
+            continue
+        checar_texto(rel, f"{ref} {rotulo}", t)
+        para_render.append({"ref": f"{ref} {rotulo}", "texto": t})
+
+
 def checar_questoes(rel, dados, ed, final):
     vest = ed["vestibular"]
     tipo = ed["tipo"]
@@ -131,7 +182,7 @@ def checar_questoes(rel, dados, ed, final):
     for q in dados.get("questoes", []):
         n = q.get("numero")
         ref = f"{ed['id']} q{n}"
-        if not isinstance(n, int) or not 1 <= n <= ed.get("questoes", 999):
+        if not isinstance(n, int) or not 1 <= n <= (ed.get("questoes") or 999):
             rel.erro(ref, "número de questão inválido")
         if n in numeros:
             rel.erro(ref, "questão repetida")
@@ -169,8 +220,7 @@ def checar_questoes(rel, dados, ed, final):
                 elif g not in alts:
                     rel.erro(ref, f"gabarito {g!r} fora das alternativas")
         else:
-            if "itens" not in q:
-                rel.erro(ref, "discursiva sem campo itens")
+            checar_discursiva(rel, ref, q, ed, dados, final, para_render)
         if final and (q.get("assunto") or q.get("resolucao")):
             para_render += checar_complemento(rel, ref, q.get("materia"), q.get("assunto"), q.get("resolucao"),
                                               q.get("gabarito"), q.get("anulada"))
@@ -205,15 +255,22 @@ def main():
                 rel.erro(f"{ed_id} q{n}", "complemento de questão que não está no banco")
                 continue
             materia = (corrigidas.get(int(n)) or q)["materia"]
-            if not c.get("assunto") or not c.get("resolucao"):
+            if eds[ed_id]["tipo"] == "discursiva":
+                if not c.get("assunto"):
+                    rel.erro(f"{ed_id} q{n}", "complemento sem assunto")
+                if c.get("resolucao"):
+                    rel.erro(f"{ed_id} q{n}", "discursiva não leva resolução nossa: só a resposta publicada pela banca")
+                    c = dict(c, resolucao=None)
+            elif not c.get("assunto") or not c.get("resolucao"):
                 rel.erro(f"{ed_id} q{n}", "complemento sem assunto ou sem resolução")
             itens += checar_complemento(rel, f"{ed_id} q{n}", materia, c.get("assunto"), c.get("resolucao"),
                                         q.get("gabarito"), q.get("anulada"))
         intervalo = dados.get("intervalo")
         if intervalo:
             fora = json.loads((RAIZ / "dados/provas/indisponiveis.json").read_text()).get(dados.get("edicao"), {})
+            repetidas = eds[ed_id].get("repetidas") or {}
             faltam = [n for n in range(intervalo[0], intervalo[1] + 1)
-                      if str(n) not in (dados.get("complementos") or {}) and str(n) not in fora]
+                      if str(n) not in (dados.get("complementos") or {}) and str(n) not in fora and str(n) not in repetidas]
             if faltam:
                 rel.erro(ed_id, f"faltam complementos das questões {faltam}")
         checar_render(rel, itens)
@@ -225,6 +282,10 @@ def main():
                 rel.erro(arq, f"edição desconhecida: {dados.get('edicao')!r}")
                 continue
             checar_questoes(rel, dados, ed, final=False)
+            numeros = {q.get("numero") for q in dados.get("questoes", [])}
+            for n in dados.get("respostas") or {}:
+                if not n.isdigit() or int(n) not in numeros:
+                    rel.erro(arq, f"resposta da questão {n}, que não está no lote")
     else:
         for arq in sorted((RAIZ / "dados/questoes").glob("*.json")):
             dados = json.loads(arq.read_text())
@@ -233,8 +294,9 @@ def main():
             ind = {int(n) for n in json.loads((RAIZ / "dados/provas/indisponiveis.json").read_text()).get(ed["id"], {})}
             if ind & numeros:
                 rel.erro(ed["id"], f"questões marcadas como indisponíveis estão no banco: {sorted(ind & numeros)}")
-            faltam = sorted(set(range(1, ed["questoes"] + 1)) - numeros - ind)
-            if faltam and ed["tipo"] == "objetiva":
+            repetidas = {int(n) for n in ed.get("repetidas") or {}}
+            faltam = sorted(set(range(1, (ed["questoes"] or 0) + 1)) - numeros - ind - repetidas)
+            if faltam:
                 rel.aviso(ed["id"], f"incompleta, fora da plataforma até terminar: faltam {len(faltam)} questões")
     for linha in rel.erros + rel.avisos:
         print(linha)

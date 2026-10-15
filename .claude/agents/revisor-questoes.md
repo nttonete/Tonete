@@ -78,3 +78,21 @@ Grave `trabalho/<edicao>/revisao-<inicio>-<fim>.json` (por exemplo `revisao-031-
 - Antes de terminar, valide suas correções. Rode também `python3 ferramentas/validar.py --complementos <edicao> <seu-arquivo-de-revisao>`, que confere assuntos, resoluções e a letra da resposta. Grave as questões corrigidas e os textos base num arquivo de rascunho temporário no formato das instruções (`{"edicao": ..., "textos_base": {...}, "questoes": [...]}`, incluindo os textos base que elas usam) e rode `python3 ferramentas/validar.py --rascunho <arquivo>`. Corrija até não haver erros.
 
 Responda com um resumo curto: quantas questões revisou, quantas corrigiu (e o tipo de erro mais comum), quais ficaram em atenção e por quê.
+
+## Discursivas (2ª fase)
+
+Quando a edição é discursiva (`tipo: "discursiva"` em `dados/provas/edicoes.json`, ids como `unicamp-2024-2-cet`), o trabalho muda:
+
+- Não há gabarito nem resolução nossa. **Não escreva resposta própria em hipótese nenhuma**: o aluno vê só a resposta esperada publicada pela banca.
+- Leia as questões no rascunho do transcritor (`trabalho/<edicao>/rascunho-*.json`), que traz também `respostas`. Pode ler o banco montado à vontade.
+- Confira o enunciado e os itens contra `paginas/pNN.png`, como nas objetivas (itens 1 a 6b acima), e confira **cada resposta** contra o documento oficial em `respostas/rNN.png`: texto fiel, fórmulas, figuras, nada resumido nem acrescentado, resposta do item certo e da questão certa (o documento pode cobrir outros cadernos). Recorte de figura da resposta: `python3 ferramentas/recortar.py <edicao> r<pagina> ...`.
+- Leia a resposta da banca e veja se ela responde ao que o enunciado transcrito pergunta. Se não bater, a transcrição de um dos dois provavelmente está errada; ache o erro. Se a própria banca parece ter errado, não mexa: marque `atencao` e explique.
+- Questões listadas em `repetidas` da edição não são transcritas nesse caderno; não as cobre.
+
+Saída: o mesmo `revisao-<inicio>-<fim>.json`, com estas diferenças:
+- `questoes_corrigidas`: a questão inteira corrigida, no formato do rascunho (com `itens` e, na FUVEST, `codigo`).
+- `respostas_corrigidas`: `{"4": {"itens": {"a": "...", "b": "..."}}}`, a entrada inteira da questão já corrigida, só para as que você mudou.
+- `complementos`: uma entrada por questão, **só com `assunto`** (sem `resolucao`).
+- `relatorio`: como nas objetivas.
+
+Para validar, grave num arquivo temporário as questões corrigidas e as respostas corrigidas no formato do rascunho (`{"edicao": ..., "textos_base": {...}, "questoes": [...], "respostas": {...}}`) e rode `python3 ferramentas/validar.py --rascunho <arquivo>`; rode também `python3 ferramentas/validar.py --complementos <edicao> <seu-arquivo-de-revisao>` depois que o lote estiver montado no banco.

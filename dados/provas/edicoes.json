@@ -328,5 +328,968 @@
   "gabarito": "fontes-pdf/UNESP/1ª Fase/UNESP_2026_1Fase_gab.pdf",
   "versao": "VERSAO1",
   "questoes": 90
+ },
+ {
+  "id": "unicamp-2017-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2017,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português e Literatura",
+  "pdf": "fontes-oficiais/unicamp/2017/2fase-red-port-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2017/2fase-portugues-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 6
+ },
+ {
+  "id": "unicamp-2017-2-d2",
+  "vestibular": "unicamp",
+  "ano": 2017,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Matemática, Geografia e História",
+  "pdf": "fontes-oficiais/unicamp/2017/2fase-geo-his-mat-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2017/2fase-matematica-respostas.pdf",
+   "fontes-oficiais/unicamp/2017/2fase-geografia-respostas.pdf",
+   "fontes-oficiais/unicamp/2017/2fase-historia-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18
+ },
+ {
+  "id": "unicamp-2017-2-d3",
+  "vestibular": "unicamp",
+  "ano": 2017,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "3º dia: Física, Química e Biologia",
+  "pdf": "fontes-oficiais/unicamp/2017/2fase-bio-qui-fis-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2017/2fase-fisica-respostas.pdf",
+   "fontes-oficiais/unicamp/2017/2fase-quimica-respostas.pdf",
+   "fontes-oficiais/unicamp/2017/2fase-biologia-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18
+ },
+ {
+  "id": "unicamp-2018-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2018,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português e Literatura",
+  "pdf": "fontes-oficiais/unicamp/2018/2fase-red-port-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2018/2fase-portugues-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 6
+ },
+ {
+  "id": "unicamp-2018-2-d2",
+  "vestibular": "unicamp",
+  "ano": 2018,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Matemática, Geografia e História",
+  "pdf": "fontes-oficiais/unicamp/2018/2fase-mat-geo-his-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2018/2fase-matematica-respostas.pdf",
+   "fontes-oficiais/unicamp/2018/2fase-geografia-respostas.pdf",
+   "fontes-oficiais/unicamp/2018/2fase-historia-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18
+ },
+ {
+  "id": "unicamp-2018-2-d3",
+  "vestibular": "unicamp",
+  "ano": 2018,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "3º dia: Física, Química e Biologia",
+  "pdf": "fontes-oficiais/unicamp/2018/2fase-fis-bio-qui-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2018/2fase-fisica-respostas.pdf",
+   "fontes-oficiais/unicamp/2018/2fase-quimica-respostas.pdf",
+   "fontes-oficiais/unicamp/2018/2fase-biologia-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18
+ },
+ {
+  "id": "unicamp-2019-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2019,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português e Literatura",
+  "pdf": "fontes-oficiais/unicamp/2019/2fase-red-port-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2019/2fase-portugues-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 6
+ },
+ {
+  "id": "unicamp-2019-2-d2",
+  "vestibular": "unicamp",
+  "ano": 2019,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Matemática, Geografia e História",
+  "pdf": "fontes-oficiais/unicamp/2019/2fase-mat-geo-his-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2019/2fase-matematica-respostas.pdf",
+   "fontes-oficiais/unicamp/2019/2fase-geografia-respostas.pdf",
+   "fontes-oficiais/unicamp/2019/2fase-historia-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18
+ },
+ {
+  "id": "unicamp-2019-2-d3",
+  "vestibular": "unicamp",
+  "ano": 2019,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "3º dia: Física, Química e Biologia",
+  "pdf": "fontes-oficiais/unicamp/2019/2fase-fis-bio-qui-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2019/2fase-fisica-respostas.pdf",
+   "fontes-oficiais/unicamp/2019/2fase-quimica-respostas.pdf",
+   "fontes-oficiais/unicamp/2019/2fase-biologia-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18
+ },
+ {
+  "id": "unicamp-2020-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2020,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+  "pdf": "fontes-oficiais/unicamp/2020/2fase-dia1-red-port-ing-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2020/2fase-dia1-red-port-ing-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "unicamp-2020-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2020,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "pdf": "fontes-oficiais/unicamp/2020/2fase-dia2-cet-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2020/2fase-dia2-cet-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22
+ },
+ {
+  "id": "unicamp-2020-2-cbs",
+  "vestibular": "unicamp",
+  "ano": 2020,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Biológicas e da Saúde",
+  "pdf": "fontes-oficiais/unicamp/2020/2fase-dia2-cbs-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2020/2fase-dia2-cbs-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22,
+  "repetidas": {
+   "1": "unicamp-2020-2-cet-q01",
+   "2": "unicamp-2020-2-cet-q02",
+   "3": "unicamp-2020-2-cet-q03",
+   "4": "unicamp-2020-2-cet-q04",
+   "5": "unicamp-2020-2-cet-q05",
+   "6": "unicamp-2020-2-cet-q06",
+   "7": "unicamp-2020-2-cet-q07",
+   "8": "unicamp-2020-2-cet-q08",
+   "9": "unicamp-2020-2-cet-q09",
+   "10": "unicamp-2020-2-cet-q10",
+   "17": "unicamp-2020-2-cet-q17",
+   "18": "unicamp-2020-2-cet-q18",
+   "19": "unicamp-2020-2-cet-q19",
+   "20": "unicamp-2020-2-cet-q20",
+   "21": "unicamp-2020-2-cet-q21",
+   "22": "unicamp-2020-2-cet-q22"
+  }
+ },
+ {
+  "id": "unicamp-2020-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2020,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "pdf": "fontes-oficiais/unicamp/2020/2fase-dia2-cha-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2020/2fase-dia2-cha-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22,
+  "repetidas": {
+   "1": "unicamp-2020-2-cet-q01",
+   "2": "unicamp-2020-2-cet-q02",
+   "3": "unicamp-2020-2-cet-q03",
+   "4": "unicamp-2020-2-cet-q04",
+   "5": "unicamp-2020-2-cet-q05",
+   "6": "unicamp-2020-2-cet-q06",
+   "7": "unicamp-2020-2-cet-q07",
+   "8": "unicamp-2020-2-cet-q08",
+   "9": "unicamp-2020-2-cet-q09",
+   "10": "unicamp-2020-2-cet-q10"
+  }
+ },
+ {
+  "id": "unicamp-2021-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2021,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+  "pdf": "fontes-oficiais/unicamp/2021/2fase-dia1-red-port-ing-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2021/2fase-dia1-port-ing-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "unicamp-2021-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2021,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "pdf": "fontes-oficiais/unicamp/2021/2fase-dia2-cet-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2021/2fase-dia2-cet-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22
+ },
+ {
+  "id": "unicamp-2021-2-cbs",
+  "vestibular": "unicamp",
+  "ano": 2021,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Biológicas e da Saúde",
+  "pdf": "fontes-oficiais/unicamp/2021/2fase-dia2-cbs-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2021/2fase-dia2-cbs-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22,
+  "repetidas": {
+   "1": "unicamp-2021-2-cet-q01",
+   "2": "unicamp-2021-2-cet-q02",
+   "3": "unicamp-2021-2-cet-q03",
+   "4": "unicamp-2021-2-cet-q04",
+   "5": "unicamp-2021-2-cet-q05",
+   "6": "unicamp-2021-2-cet-q06",
+   "7": "unicamp-2021-2-cet-q07",
+   "8": "unicamp-2021-2-cet-q08",
+   "9": "unicamp-2021-2-cet-q09",
+   "10": "unicamp-2021-2-cet-q10",
+   "17": "unicamp-2021-2-cet-q17",
+   "18": "unicamp-2021-2-cet-q18",
+   "19": "unicamp-2021-2-cet-q19",
+   "20": "unicamp-2021-2-cet-q20",
+   "21": "unicamp-2021-2-cet-q21",
+   "22": "unicamp-2021-2-cet-q22"
+  }
+ },
+ {
+  "id": "unicamp-2021-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2021,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "pdf": "fontes-oficiais/unicamp/2021/2fase-dia2-cha-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2021/2fase-dia2-cha-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22,
+  "repetidas": {
+   "1": "unicamp-2021-2-cet-q01",
+   "2": "unicamp-2021-2-cet-q02",
+   "3": "unicamp-2021-2-cet-q03",
+   "4": "unicamp-2021-2-cet-q04",
+   "5": "unicamp-2021-2-cet-q05",
+   "6": "unicamp-2021-2-cet-q06",
+   "7": "unicamp-2021-2-cet-q07",
+   "8": "unicamp-2021-2-cet-q08",
+   "9": "unicamp-2021-2-cet-q09",
+   "10": "unicamp-2021-2-cet-q10"
+  }
+ },
+ {
+  "id": "unicamp-2022-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2022,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+  "pdf": "fontes-oficiais/unicamp/2022/2fase-dia1-red-port-ing-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2022/2fase-dia1-port-ing-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "unicamp-2022-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2022,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "pdf": "fontes-oficiais/unicamp/2022/2fase-dia2-cet-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2022/2fase-dia2-cet-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22
+ },
+ {
+  "id": "unicamp-2022-2-cbs",
+  "vestibular": "unicamp",
+  "ano": 2022,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Biológicas e da Saúde",
+  "pdf": "fontes-oficiais/unicamp/2022/2fase-dia2-cbs-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2022/2fase-dia2-cbs-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22,
+  "repetidas": {
+   "1": "unicamp-2022-2-cet-q01",
+   "2": "unicamp-2022-2-cet-q02",
+   "3": "unicamp-2022-2-cet-q03",
+   "4": "unicamp-2022-2-cet-q04",
+   "5": "unicamp-2022-2-cet-q05",
+   "6": "unicamp-2022-2-cet-q06",
+   "7": "unicamp-2022-2-cet-q07",
+   "8": "unicamp-2022-2-cet-q08",
+   "9": "unicamp-2022-2-cet-q09",
+   "10": "unicamp-2022-2-cet-q10",
+   "17": "unicamp-2022-2-cet-q17",
+   "18": "unicamp-2022-2-cet-q18",
+   "19": "unicamp-2022-2-cet-q19",
+   "20": "unicamp-2022-2-cet-q20",
+   "21": "unicamp-2022-2-cet-q21",
+   "22": "unicamp-2022-2-cet-q22"
+  }
+ },
+ {
+  "id": "unicamp-2022-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2022,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "pdf": "fontes-oficiais/unicamp/2022/2fase-dia2-cha-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2022/2fase-dia2-cha-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 22,
+  "repetidas": {
+   "1": "unicamp-2022-2-cet-q01",
+   "2": "unicamp-2022-2-cet-q02",
+   "3": "unicamp-2022-2-cet-q03",
+   "4": "unicamp-2022-2-cet-q04",
+   "5": "unicamp-2022-2-cet-q05",
+   "8": "unicamp-2022-2-cet-q08",
+   "10": "unicamp-2022-2-cet-q10"
+  }
+ },
+ {
+  "id": "unicamp-2023-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2023,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+  "pdf": "fontes-oficiais/unicamp/2023/2fase-dia1-red-port-ing-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2023/2fase-dia1-port-ing-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "unicamp-2023-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2023,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "pdf": "fontes-oficiais/unicamp/2023/2fase-dia2-cet-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2023/2fase-dia2-cet-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20
+ },
+ {
+  "id": "unicamp-2023-2-cbs",
+  "vestibular": "unicamp",
+  "ano": 2023,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Biológicas e da Saúde",
+  "pdf": "fontes-oficiais/unicamp/2023/2fase-dia2-cbs-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2023/2fase-dia2-cbs-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20,
+  "repetidas": {
+   "1": "unicamp-2023-2-cet-q01",
+   "2": "unicamp-2023-2-cet-q02",
+   "3": "unicamp-2023-2-cet-q03",
+   "4": "unicamp-2023-2-cet-q04",
+   "5": "unicamp-2023-2-cet-q05",
+   "6": "unicamp-2023-2-cet-q06",
+   "7": "unicamp-2023-2-cet-q07",
+   "8": "unicamp-2023-2-cet-q08",
+   "15": "unicamp-2023-2-cet-q15",
+   "16": "unicamp-2023-2-cet-q16",
+   "17": "unicamp-2023-2-cet-q17",
+   "18": "unicamp-2023-2-cet-q18",
+   "19": "unicamp-2023-2-cet-q19",
+   "20": "unicamp-2023-2-cet-q20"
+  }
+ },
+ {
+  "id": "unicamp-2023-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2023,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "pdf": "fontes-oficiais/unicamp/2023/2fase-dia2-cha-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2023/2fase-dia2-cha-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20,
+  "repetidas": {
+   "5": "unicamp-2023-2-cet-q01",
+   "7": "unicamp-2023-2-cet-q07",
+   "8": "unicamp-2023-2-cet-q08"
+  }
+ },
+ {
+  "id": "unicamp-2024-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2024,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+  "pdf": "fontes-oficiais/unicamp/2024/2fase-dia1-red-port-ing-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2024/2fase-dia1-port-ing-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "unicamp-2024-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2024,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "pdf": "fontes-oficiais/unicamp/2024/2fase-dia2-cet-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2024/2fase-dia2-cet-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20
+ },
+ {
+  "id": "unicamp-2024-2-cbs",
+  "vestibular": "unicamp",
+  "ano": 2024,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Biológicas e da Saúde",
+  "pdf": "fontes-oficiais/unicamp/2024/2fase-dia2-cbs-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2024/2fase-dia2-cbs-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20,
+  "repetidas": {
+   "1": "unicamp-2024-2-cet-q01",
+   "2": "unicamp-2024-2-cet-q02",
+   "3": "unicamp-2024-2-cet-q03",
+   "4": "unicamp-2024-2-cet-q04",
+   "5": "unicamp-2024-2-cet-q05",
+   "6": "unicamp-2024-2-cet-q06",
+   "15": "unicamp-2024-2-cet-q15",
+   "16": "unicamp-2024-2-cet-q16",
+   "17": "unicamp-2024-2-cet-q17",
+   "18": "unicamp-2024-2-cet-q18",
+   "19": "unicamp-2024-2-cet-q19",
+   "20": "unicamp-2024-2-cet-q20"
+  }
+ },
+ {
+  "id": "unicamp-2024-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2024,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "pdf": "fontes-oficiais/unicamp/2024/2fase-dia2-cha-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2024/2fase-dia2-cha-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20,
+  "repetidas": {
+   "1": "unicamp-2024-2-cet-q01",
+   "2": "unicamp-2024-2-cet-q02",
+   "3": "unicamp-2024-2-cet-q03"
+  }
+ },
+ {
+  "id": "unicamp-2025-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2025,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+  "pdf": "fontes-oficiais/unicamp/2025/2fase-dia1-red-port-ing-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2025/2fase-dia1-port-ing-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "unicamp-2025-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2025,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "pdf": "fontes-oficiais/unicamp/2025/2fase-dia2-cet-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2025/2fase-dia2-cet-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20
+ },
+ {
+  "id": "unicamp-2025-2-cbs",
+  "vestibular": "unicamp",
+  "ano": 2025,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Biológicas e da Saúde",
+  "pdf": "fontes-oficiais/unicamp/2025/2fase-dia2-cbs-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2025/2fase-dia2-cbs-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20,
+  "repetidas": {
+   "1": "unicamp-2025-2-cet-q01",
+   "2": "unicamp-2025-2-cet-q02",
+   "3": "unicamp-2025-2-cet-q03",
+   "4": "unicamp-2025-2-cet-q04",
+   "5": "unicamp-2025-2-cet-q05",
+   "6": "unicamp-2025-2-cet-q06",
+   "15": "unicamp-2025-2-cet-q15",
+   "16": "unicamp-2025-2-cet-q16",
+   "17": "unicamp-2025-2-cet-q17",
+   "18": "unicamp-2025-2-cet-q18",
+   "19": "unicamp-2025-2-cet-q19",
+   "20": "unicamp-2025-2-cet-q20"
+  }
+ },
+ {
+  "id": "unicamp-2025-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2025,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "pdf": "fontes-oficiais/unicamp/2025/2fase-dia2-cha-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2025/2fase-dia2-cha-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 20,
+  "repetidas": {
+   "1": "unicamp-2025-2-cet-q01",
+   "2": "unicamp-2025-2-cet-q02",
+   "3": "unicamp-2025-2-cet-q03"
+  }
+ },
+ {
+  "id": "unicamp-2026-2-d1",
+  "vestibular": "unicamp",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português, Literatura e questões interdisciplinares",
+  "pdf": "fontes-oficiais/unicamp/2026/2fase-dia1-red-port-ing-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2026/2fase-dia1-port-ing-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "unicamp-2026-2-cet",
+  "vestibular": "unicamp",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Exatas e Tecnológicas",
+  "pdf": "fontes-oficiais/unicamp/2026/2fase-dia2-cet-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2026/2fase-dia2-cet-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18
+ },
+ {
+  "id": "unicamp-2026-2-cbs",
+  "vestibular": "unicamp",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Biológicas e da Saúde",
+  "pdf": "fontes-oficiais/unicamp/2026/2fase-dia2-cbs-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2026/2fase-dia2-cbs-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18,
+  "repetidas": {
+   "1": "unicamp-2026-2-cet-q01",
+   "2": "unicamp-2026-2-cet-q02",
+   "3": "unicamp-2026-2-cet-q03",
+   "4": "unicamp-2026-2-cet-q04",
+   "5": "unicamp-2026-2-cet-q05",
+   "6": "unicamp-2026-2-cet-q06",
+   "14": "unicamp-2026-2-cet-q14",
+   "15": "unicamp-2026-2-cet-q15",
+   "16": "unicamp-2026-2-cet-q16",
+   "17": "unicamp-2026-2-cet-q17",
+   "18": "unicamp-2026-2-cet-q18"
+  }
+ },
+ {
+  "id": "unicamp-2026-2-cha",
+  "vestibular": "unicamp",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Ciências Humanas e Artes",
+  "pdf": "fontes-oficiais/unicamp/2026/2fase-dia2-cha-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/unicamp/2026/2fase-dia2-cha-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 18,
+  "repetidas": {
+   "1": "unicamp-2026-2-cet-q01",
+   "2": "unicamp-2026-2-cet-q02",
+   "3": "unicamp-2026-2-cet-q03"
+  }
+ },
+ {
+  "id": "fuvest-2023-2-d1",
+  "vestibular": "fuvest",
+  "ano": 2023,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português",
+  "pdf": "fontes-oficiais/fuvest/2023/2fase-dia1-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/fuvest/2023/2fase-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "fuvest-2023-2-d2",
+  "vestibular": "fuvest",
+  "ano": 2023,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Matemática, Física, Química, Biologia, Geografia e História",
+  "pdf": "fontes-oficiais/fuvest/2023/2fase-dia2-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/fuvest/2023/2fase-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 36,
+  "codigos": [
+   "M01",
+   "M02",
+   "M03",
+   "M04",
+   "M05",
+   "M06",
+   "F01",
+   "F02",
+   "F03",
+   "F04",
+   "F05",
+   "F06",
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06",
+   "G01",
+   "G02",
+   "G03",
+   "G04",
+   "G05",
+   "G06",
+   "H01",
+   "H02",
+   "H03",
+   "H04",
+   "H05",
+   "H06"
+  ]
+ },
+ {
+  "id": "fuvest-2024-2-d1",
+  "vestibular": "fuvest",
+  "ano": 2024,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português",
+  "pdf": "fontes-oficiais/fuvest/2024/2fase-dia1-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/fuvest/2024/2fase-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "fuvest-2024-2-d2",
+  "vestibular": "fuvest",
+  "ano": 2024,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Matemática, Física, Química, Biologia, Geografia e História",
+  "pdf": "fontes-oficiais/fuvest/2024/2fase-dia2-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/fuvest/2024/2fase-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 36,
+  "codigos": [
+   "M01",
+   "M02",
+   "M03",
+   "M04",
+   "M05",
+   "M06",
+   "F01",
+   "F02",
+   "F03",
+   "F04",
+   "F05",
+   "F06",
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06",
+   "G01",
+   "G02",
+   "G03",
+   "G04",
+   "G05",
+   "G06",
+   "H01",
+   "H02",
+   "H03",
+   "H04",
+   "H05",
+   "H06"
+  ]
+ },
+ {
+  "id": "fuvest-2025-2-d1",
+  "vestibular": "fuvest",
+  "ano": 2025,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português",
+  "pdf": "fontes-oficiais/fuvest/2025/2fase-dia1-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/fuvest/2025/2fase-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "fuvest-2025-2-d2",
+  "vestibular": "fuvest",
+  "ano": 2025,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Matemática, Física, Química, Biologia, Geografia e História",
+  "pdf": "fontes-oficiais/fuvest/2025/2fase-dia2-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/fuvest/2025/2fase-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 36,
+  "codigos": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06",
+   "F01",
+   "F02",
+   "F03",
+   "F04",
+   "F05",
+   "F06",
+   "G01",
+   "G02",
+   "G03",
+   "G04",
+   "G05",
+   "G06",
+   "H01",
+   "H02",
+   "H03",
+   "H04",
+   "H05",
+   "H06",
+   "M01",
+   "M02",
+   "M03",
+   "M04",
+   "M05",
+   "M06",
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06"
+  ]
+ },
+ {
+  "id": "fuvest-2026-2-d1",
+  "vestibular": "fuvest",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "1º dia: Português",
+  "pdf": "fontes-oficiais/fuvest/2026/2fase-dia1-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/fuvest/2026/2fase-dia1-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 10
+ },
+ {
+  "id": "fuvest-2026-2-d2",
+  "vestibular": "fuvest",
+  "ano": 2026,
+  "fase": 2,
+  "tipo": "discursiva",
+  "caderno": "2º dia: Matemática, Física, Química, Biologia, Geografia e História",
+  "pdf": "fontes-oficiais/fuvest/2026/2fase-dia2-caderno.pdf",
+  "respostas": [
+   "fontes-oficiais/fuvest/2026/2fase-dia2-matematica-respostas.pdf",
+   "fontes-oficiais/fuvest/2026/2fase-dia2-fisica-respostas.pdf",
+   "fontes-oficiais/fuvest/2026/2fase-dia2-quimica-respostas.pdf",
+   "fontes-oficiais/fuvest/2026/2fase-dia2-biologia-respostas.pdf",
+   "fontes-oficiais/fuvest/2026/2fase-dia2-geografia-respostas.pdf",
+   "fontes-oficiais/fuvest/2026/2fase-dia2-historia-respostas.pdf"
+  ],
+  "versao": null,
+  "questoes": 36,
+  "codigos": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06",
+   "F01",
+   "F02",
+   "F03",
+   "F04",
+   "F05",
+   "F06",
+   "G01",
+   "G02",
+   "G03",
+   "G04",
+   "G05",
+   "G06",
+   "H01",
+   "H02",
+   "H03",
+   "H04",
+   "H05",
+   "H06",
+   "M01",
+   "M02",
+   "M03",
+   "M04",
+   "M05",
+   "M06",
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06"
+  ]
  }
 ]

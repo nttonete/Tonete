@@ -8,6 +8,10 @@ Gera em trabalho/<edicao>/:
   figuras.json         posição de cada figura candidata
   mapa.json            em que página aparece cada marcador de questão
 
+Nas discursivas, os PDFs de respostas oficiais ("respostas" na edição) são
+juntados em respostas.pdf e preparados do mesmo jeito: respostas/rNN.png,
+respostas-anotadas/rNN.png, figuras rNN-fK e o texto em respostas.md.
+
 Uso: python3 ferramentas/preparar_prova.py <id-da-edicao>   (ids em dados/provas/edicoes.json)
 """
 import json
@@ -118,16 +122,18 @@ def figuras_da_pagina(pagina):
 MARCADOR = re.compile(r"^\s*(?:QUEST[ÃA]O\s+(\d{1,2})|([BFGHMQ]\d{2})|(\d{1,2}))\s*$", re.I)
 
 
-def preparar(ed):
-    pdf = pymupdf.open(RAIZ / ed["pdf"])
-    copia = pymupdf.open(RAIZ / ed["pdf"])  # recebe as anotações; o texto é lido do original
-    pasta = RAIZ / "trabalho" / ed["id"]
-    for sub in ("paginas", "anotadas", "figuras"):
+def processar(pdf_path, pasta, prefixo, texto, figuras_json, mapa, sub_paginas="paginas", sub_anotadas="anotadas"):
+    """Renderiza as páginas, recorta figuras candidatas e extrai o texto de um PDF.
+
+    prefixo "p" para o caderno; "r" para as respostas oficiais (discursivas).
+    """
+    pdf = pymupdf.open(pdf_path)
+    copia = pymupdf.open(pdf_path)  # recebe as anotações; o texto é lido do original
+    for sub in (sub_paginas, sub_anotadas, "figuras"):
         (pasta / sub).mkdir(parents=True, exist_ok=True)
-    texto, figuras_json, mapa = [], {}, {}
     for n, pagina in enumerate(pdf, start=1):
-        nome = f"p{n:02d}"
-        pagina.get_pixmap(dpi=DPI_PAGINA).save(pasta / "paginas" / f"{nome}.png")
+        nome = f"{prefixo}{n:02d}"
+        pagina.get_pixmap(dpi=DPI_PAGINA).save(pasta / sub_paginas / f"{nome}.png")
         figs = figuras_da_pagina(pagina)
         lista = []
         for k, r in enumerate(figs, start=1):
@@ -155,7 +161,7 @@ def preparar(ed):
             forma.finish(color=(1, 0, 0), width=1.2)
             forma.insert_text((r.x0 + 2, r.y0 + 9), f["id"], fontsize=8, color=(1, 0, 0))
         forma.commit()
-        anot.get_pixmap(dpi=DPI_PAGINA).save(pasta / "anotadas" / f"{nome}.png")
+        anot.get_pixmap(dpi=DPI_PAGINA).save(pasta / sub_anotadas / f"{nome}.png")
 
         texto.append(f"\n\n======== PÁGINA {n} ({nome}) ========")
         if lista:
@@ -163,15 +169,41 @@ def preparar(ed):
         for b in blocos_ordenados(pagina):
             t = b[4].strip()
             texto.append(f"[x={b[0]:.0f} y={b[1]:.0f}] {t}")
+            if mapa is None:
+                continue
             for linha in t.splitlines():
                 m = MARCADOR.match(linha)
                 if m:
                     chave = m.group(1) or m.group(2) or m.group(3)
                     mapa.setdefault(chave.upper().lstrip("0") or "0", []).append(n)
+    return len(pdf)
+
+
+def juntar_respostas(ed, pasta):
+    """Discursivas: junta os PDFs de respostas oficiais num só (trabalho/<edicao>/respostas.pdf)."""
+    destino = pymupdf.open()
+    for arq in ed["respostas"]:
+        destino.insert_pdf(pymupdf.open(RAIZ / arq))
+    destino.save(pasta / "respostas.pdf")
+    return pasta / "respostas.pdf"
+
+
+def preparar(ed):
+    pasta = RAIZ / "trabalho" / ed["id"]
+    pasta.mkdir(parents=True, exist_ok=True)
+    texto, figuras_json, mapa = [], {}, {}
+    paginas = processar(RAIZ / ed["pdf"], pasta, "p", texto, figuras_json, mapa)
     (pasta / "texto.md").write_text("\n".join(texto))
-    (pasta / "figuras.json").write_text(json.dumps(figuras_json, ensure_ascii=False, indent=1))
     (pasta / "mapa.json").write_text(json.dumps(mapa, ensure_ascii=False))
-    print(f"{ed['id']}: {len(pdf)} páginas, {sum(len(v) for v in figuras_json.values())} figuras candidatas")
+    extra = ""
+    if ed.get("respostas"):
+        resp = juntar_respostas(ed, pasta)
+        texto_r = []
+        n_r = processar(resp, pasta, "r", texto_r, figuras_json, None, "respostas", "respostas-anotadas")
+        (pasta / "respostas.md").write_text("\n".join(texto_r))
+        extra = f", {n_r} páginas de respostas oficiais"
+    (pasta / "figuras.json").write_text(json.dumps(figuras_json, ensure_ascii=False, indent=1))
+    print(f"{ed['id']}: {paginas} páginas{extra}, {sum(len(v) for v in figuras_json.values())} figuras candidatas")
 
 
 if __name__ == "__main__":

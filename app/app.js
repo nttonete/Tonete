@@ -63,7 +63,7 @@
       " às " + new Date(ts).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
   }
   function nomeEdicao(ed) {
-    return VESTIBULARES[ed.vestibular].nome + " " + ed.ano + (ed.fase === 2 ? " · 2ª fase" : "");
+    return VESTIBULARES[ed.vestibular].nome + " " + ed.ano + (ed.fase === 2 ? " · 2ª fase" : "") + (ed.caderno ? " · " + ed.caderno : "");
   }
   function plural(n, um, varios) { return n + " " + (n === 1 ? um : varios); }
 
@@ -496,7 +496,7 @@
       el("span", { class: "q-num", id: "q-titulo", text: String(idx + 1).padStart(2, "0") }),
       el("span", { text: "de " + total }),
       el("span", { class: "selo", text: materias }),
-      el("span", { text: nomeEdicao(ed) + ", questão " + q.numero }),
+      el("span", { text: nomeEdicao(ed) + ", questão " + (q.codigo || q.numero) }),
       q.anulada ? el("span", { class: "selo anulada", text: "Anulada pela banca" }) : null,
     ]));
     if (q.texto_base && d.textos_base[q.texto_base]) {
