@@ -17,6 +17,8 @@ shutil.rmtree(SAIDA, ignore_errors=True)
 (SAIDA / "app/fontes").mkdir(parents=True)
 (SAIDA / "app/vendor").mkdir()
 (SAIDA / "dados/juridico").mkdir()
+(SAIDA / "dados/provas").mkdir()
+(SAIDA / "dados/conteudo").mkdir()
 (SAIDA / "img/tabela-periodica").mkdir(parents=True)
 
 for js in ("app.js", "render.js"):
@@ -28,6 +30,9 @@ shutil.copy(RAIZ / "app/vendor/katex.min.js", SAIDA / "app/vendor/katex.min.js")
 for f in (RAIZ / "dados/juridico").glob("*.md"):
     shutil.copy(f, SAIDA / "dados/juridico" / f.name)
 shutil.copy(RAIZ / "dados/indice.json", SAIDA / "dados/indice.json")
+shutil.copy(RAIZ / "dados/provas/calendario.json", SAIDA / "dados/provas/calendario.json")
+for f in (RAIZ / "dados/conteudo").glob("*.json"):
+    shutil.copy(f, SAIDA / "dados/conteudo" / f.name)
 for img in (RAIZ / "img/tabela-periodica").glob("*.webp"):
     shutil.copy(img, SAIDA / "img/tabela-periodica" / img.name)
 

@@ -76,3 +76,10 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2022-2-cet q20 item b: a banca (respostas esperadas e prova comentada) traz "Carbono NEGATIVO: Fonte 1 ou Combustível Fóssil", mas a justificativa atribui ao biocombustível (fonte 2). Provável erro da banca; transcrito como publicado.
 - unicamp-2024-2-cha q5 item b: caderno diz b = -3 mas a resposta esperada e a prova comentada resolvem com b = 3 (erro da banca); mantida como publicada.
 - fuvest-2023-2-d2 F02 (q8): o objetivo publicado pela banca é cópia do da F01 (potência, energia e gráficos) e não trata de espelhos esféricos; transcrito como está. M04 item c: o PDF imprime 9n−1 (expoente achatado); transcrito como 9^(n-1).
+
+## Plano de estudos e guias (15/10/2026)
+
+- **Guias das 18 obras obrigatórias** (dados/conteudo/obras.json): escritos pela equipe, todos com `revisao: "pendente"`. Pedem conferência de um professor de literatura, em especial: temas das canções de Paulo César Pinheiro; Geografia (Sophia de Mello Breyner); Prosas seguidas de odes mínimas; contos de Morangos mofados; Memórias de Martha (morte do pai como causa do empobrecimento); Balada de Amor ao Vento (casamento polígamo de Sarnau, educação de Mwando na missão); ano de nascimento de Narcisa Amália (1852 ou 1856).
+- **Temas de redação** (dados/conteudo/redacao-temas.json): FUVEST e UNESP com as palavras da banca; Unicamp com resumo da equipe (a banca não dá tema explícito). FUVEST 2021 e 2022 foram lidas pela imagem da página. UNESP só 2026 (é o único caderno de 2ª fase que temos).
+- **UNESP no robô de editais**: o site da Vunesp recusa acesso automatizado; comunicados novos da UNESP precisam ser conferidos à mão. O manual oficial (no portal da Unesp) é monitorado.
+- **Plano de estudos**: sem backend, fica só no aparelho; ao trocar de celular, o aluno perde o plano.

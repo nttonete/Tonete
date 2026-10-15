@@ -216,7 +216,7 @@
         modo: cfg.modo, titulo: cfg.titulo, tipo: cfg.filtro.tipo, refs: refs,
         respostas: {}, escritas: {}, autoav: {}, atual: 0, inicio: Date.now(), fim: null,
         edicoes: eds.map(function (e) { return e.id; }), horas: cfg.horas || null,
-        limite: cfg.limite || null,
+        limite: cfg.limite || null, tarefa: cfg.tarefa || null,
       };
       salvarSessao();
       irPara("prova");
@@ -261,6 +261,7 @@
     s.atual = 0;
     salvarSessao();
     if (s.tipo !== "discursiva") registrarHistorico(s);
+    if (s.tarefa) marcarTarefa(s.tarefa, true);
     estado.confirmando = false;
     irPara("resultado");
   }
@@ -289,8 +290,11 @@
   function irPara(tela) {
     estado.tela = tela;
     estado.revendo = null;
-    document.getElementById("nav-inicio").setAttribute("aria-current", tela === "historico" ? "false" : "page");
-    document.getElementById("nav-historico").setAttribute("aria-current", tela === "historico" ? "page" : "false");
+    var aba = { historico: "nav-historico", plano: "nav-plano", erros: "nav-plano", guias: "nav-guias", redacao: "nav-guias" }[tela] || "nav-inicio";
+    ["nav-inicio", "nav-plano", "nav-guias", "nav-historico"].forEach(function (id) {
+      var b = document.getElementById(id);
+      if (b) b.setAttribute("aria-current", id === aba ? "page" : "false");
+    });
     desenhar();
     window.scrollTo(0, 0);
   }
@@ -302,6 +306,10 @@
     else if (estado.tela === "resultado" && estado.sessao) telaResultado();
     else if (estado.tela === "historico") telaHistorico();
     else if (estado.tela === "pagina") telaPagina();
+    else if (estado.tela === "plano") telaPlano();
+    else if (estado.tela === "erros") telaErros();
+    else if (estado.tela === "guias") telaGuias();
+    else if (estado.tela === "redacao") telaRedacao();
     else telaInicio();
   }
 
@@ -371,6 +379,19 @@
       ]),
       cartaoDemo,
     ]));
+
+    // próximas provas (o calendário carrega à parte; sem ele, a faixa não aparece)
+    var faixaProvas = el("div", { class: "faixa-provas" });
+    app.appendChild(faixaProvas);
+    carregarExtras().then(function () {
+      var provas = proximasProvas().filter(function (p) { return p.f.id === "f1"; });
+      if (!provas.length || !faixaProvas.isConnected) return;
+      faixaProvas.appendChild(el("span", { class: "rotulo-sec", text: "Próximas provas" }));
+      provas.forEach(function (p) {
+        faixaProvas.appendChild(el("span", { class: "fp-item" }, [el("strong", { text: p.dias === 0 ? "Hoje" : p.dias + (p.dias === 1 ? " dia" : " dias") }), " " + VESTIBULARES[p.v].nome + " · " + dataCurtaIso(p.f.data)]));
+      });
+      faixaProvas.appendChild(el("button", { type: "button", class: "botao pequeno", text: lerPlano() ? "Ver meu plano" : "Montar plano de estudos", onclick: function () { irPara("plano"); } }));
+    });
 
     var aberta = ler(CHAVE_SESSAO, null);
     if (aberta && !aberta.fim) {
@@ -1306,6 +1327,707 @@
     ]));
   }
 
+  // ---------- datas ----------
+  var MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+  var SEMANA = ["dom", "seg", "ter", "qua", "qui", "sex", "sáb"];
+  var SEMANA_LONGA = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"];
+  function iso(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function deIso(s) { var p = s.split("-"); return new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2])); }
+  function hojeIso() { return iso(new Date()); }
+  function somaDias(s, n) { var d = deIso(s); d.setDate(d.getDate() + n); return iso(d); }
+  function diasEntre(a, b) { return Math.round((deIso(b) - deIso(a)) / DIA); }
+  function dataExtensa(s) { var d = deIso(s); return SEMANA_LONGA[d.getDay()] + ", " + d.getDate() + " de " + MESES[d.getMonth()]; }
+  function dataCurtaIso(s) { var d = deIso(s); return d.getDate() + " " + MESES[d.getMonth()]; }
+  function horaTexto(h) { return h ? h.replace(":00", "h").replace(":", "h") : ""; }
+
+  // ---------- dados extras (calendário, obras, temas de redação) ----------
+  function carregarExtras() {
+    if (estado.extras) return Promise.resolve(estado.extras);
+    if (estado.carregandoExtras) return estado.carregandoExtras;
+    function opcional(url) { return carregarJSON(url).catch(function () { return null; }); }
+    estado.carregandoExtras = Promise.all([
+      opcional("dados/provas/calendario.json"), opcional("dados/conteudo/obras.json"), opcional("dados/conteudo/redacao-temas.json"),
+    ]).then(function (r) {
+      estado.extras = { calendario: r[0], obras: r[1], temas: r[2] };
+      return estado.extras;
+    });
+    return estado.carregandoExtras;
+  }
+  // Próximas provas (fase a fase) dos vestibulares pedidos, da mais próxima para a mais distante.
+  function proximasProvas(vests, desde) {
+    var cal = estado.extras && estado.extras.calendario;
+    if (!cal) return [];
+    var hoje = desde || hojeIso();
+    var lista = [];
+    (vests || Object.keys(cal.vestibulares)).forEach(function (v) {
+      var c = cal.vestibulares[v];
+      if (!c) return;
+      c.fases.forEach(function (f) { if (f.data >= hoje) lista.push({ v: v, f: f, dias: diasEntre(hoje, f.data) }); });
+    });
+    return lista.sort(function (a, b) { return a.f.data < b.f.data ? -1 : a.f.data > b.f.data ? 1 : 0; });
+  }
+  function rotuloDias(n) { return n === 0 ? "hoje" : n === 1 ? "amanhã" : "em " + n + " dias"; }
+
+  // ---------- caderno de erros (revisão espaçada) ----------
+  // Cada questão que o aluno já errou volta para revisão: 1 dia depois do erro, e depois de 3, 7 e 21 dias
+  // a cada acerto seguido. Três acertos seguidos depois do erro: a questão está dominada.
+  var INTERVALOS = [1, 3, 7, 21];
+  function cadernoDeErros(hist) {
+    var tent = {};
+    hist.forEach(function (h) {
+      (h.questoes || []).forEach(function (q) {
+        var t = tent[q.id] = tent[q.id] || { q: q, lista: [] };
+        t.lista.push({ quando: h.quando, ok: q.ok });
+      });
+    });
+    var agora = Date.now(), saida = [];
+    Object.keys(tent).forEach(function (id) {
+      var t = tent[id];
+      var l = t.lista.sort(function (a, b) { return a.quando - b.quando; });
+      if (!l.some(function (x) { return !x.ok; })) return;
+      var seguidos = 0;
+      for (var i = l.length - 1; i >= 0 && l[i].ok; i--) seguidos++;
+      var ultima = l[l.length - 1].quando;
+      var item = { id: id, ed: t.q.ed, n: t.q.n, v: t.q.v, m: t.q.m, a: t.q.a, tentativas: l.length, erros: l.filter(function (x) { return !x.ok; }).length, seguidos: seguidos, ultima: ultima };
+      if (seguidos >= 3) { item.estado = "dominada"; item.proxima = null; }
+      else {
+        var alvo = new Date(ultima); alvo.setHours(0, 0, 0, 0); alvo.setDate(alvo.getDate() + INTERVALOS[seguidos]);
+        item.proxima = alvo.getTime();
+        item.estado = alvo.getTime() <= agora ? "vencida" : "agendada";
+      }
+      saida.push(item);
+    });
+    return saida;
+  }
+  function revisarErros(itens, titulo, tarefa) {
+    var refs = itens.slice(0, 20).map(function (q) { return { ed: q.ed, n: q.n, materia: q.m, v: q.v }; });
+    return iniciarSessao({ modo: "erros", refs: refs, titulo: titulo || "Revisão do caderno de erros · " + refs.length + " questões", filtro: { tipo: "objetiva" }, tarefa: tarefa });
+  }
+
+  // ---------- plano de estudos ----------
+  var CHAVE_PLANO = "banca-aberta:plano";
+  var MIN_POR_QUESTAO = 10 / 3; // 3min20, o ritmo das provas
+  function lerPlano() { return ler(CHAVE_PLANO, null); }
+  function gravarPlano(p) { gravar(CHAVE_PLANO, p); }
+
+  // Peso de cada matéria no vestibular: a cota do edital (Unicamp) ou a proporção no banco de questões.
+  function pesosMaterias(v) {
+    var f = VESTIBULARES[v] && VESTIBULARES[v].formato, pesos = {};
+    if (f && f.distribuicao) {
+      Object.keys(f.distribuicao).forEach(function (k) {
+        var ms = k.split("+");
+        ms.forEach(function (m) { pesos[m] = (pesos[m] || 0) + f.distribuicao[k] / ms.length; });
+      });
+    } else {
+      estado.indice.edicoes.forEach(function (e) {
+        if (e.vestibular !== v || e.tipo !== "objetiva") return;
+        Object.keys(e.materias).forEach(function (m) { pesos[m] = (pesos[m] || 0) + e.materias[m]; });
+      });
+    }
+    var total = Object.keys(pesos).reduce(function (s, m) { return s + pesos[m]; }, 0) || 1;
+    Object.keys(pesos).forEach(function (m) { pesos[m] /= total; });
+    return pesos;
+  }
+  // Acerto por matéria e assuntos fracos, a partir do histórico.
+  function retrato(hist, v) {
+    var feitas = questoesDoRecorte(recorte(hist, { periodo: "tudo", vest: v }));
+    var mat = {}, grupos = {};
+    feitas.forEach(function (q) {
+      var x = mat[q.m] = mat[q.m] || { certas: 0, total: 0 }; x.total++; if (q.ok) x.certas++;
+      if (q.a) { var g = grupos[q.m + "|" + q.a] = grupos[q.m + "|" + q.a] || { m: q.m, a: q.a, certas: 0, total: 0 }; g.total++; if (q.ok) g.certas++; }
+    });
+    var fracos = Object.keys(grupos).map(function (k) { return grupos[k]; })
+      .filter(function (g) { return g.total >= 3 && g.certas / g.total < 0.6; })
+      .sort(function (a, b) { return a.certas / a.total - b.certas / b.total || b.total - a.total; });
+    return { materias: mat, fracos: fracos };
+  }
+
+  // Gera as tarefas de cada dia de estudo, do início do plano até a última prova escolhida.
+  // Os dias até hoje ficam guardados como foram gerados; os seguintes se ajustam ao desempenho atual.
+  function gerarPlano(plano, hist) {
+    var cfg = plano.config, cal = estado.extras.calendario;
+    var provas = proximasProvas(cfg.vests, cfg.inicio).filter(function (p) { return cfg.segundaFase || p.f.id === "f1"; });
+    if (!provas.length) return { dias: [], provas: [] };
+    var fim = provas[provas.length - 1].f.data;
+    var minutosDia = Math.round((cfg.horas * 60) / cfg.dias.length);
+    var info = {};
+    cfg.vests.forEach(function (v) { info[v] = { pesos: pesosMaterias(v), r: retrato(hist, v), dado: {}, fraco: 0 }; });
+    var temErros = cadernoDeErros(hist).length > 0;
+    var obras = estado.extras.obras, lidas = ler("banca-aberta:obras-lidas", {});
+    var filaObras = [];
+    cfg.vests.slice().sort(function (a, b) { return a === provas[0].v ? -1 : b === provas[0].v ? 1 : 0; }).forEach(function (v) {
+      var lista = obras && obras.listas[v] ? obras.listas[v].obras : [];
+      lista.forEach(function (id) { if (!lidas[id] && filaObras.indexOf(id) < 0) filaObras.push(id); });
+    });
+    var leituras = [];
+    filaObras.forEach(function (id) { leituras.push({ id: id, parte: 1 }, { id: id, parte: 2 }); });
+    var temas = estado.extras.temas ? estado.extras.temas.propostas.filter(function (p) { return cfg.vests.indexOf(p.vestibular) >= 0 && p.tema; }) : [];
+    var dias = [], k = 0, semanaSimulado = {}, semanaRedacao = {}, nTema = 0;
+    for (var d = cfg.inicio; d <= fim; d = somaDias(d, 1)) {
+      var prova = provas.filter(function (p) { return p.f.data === d; });
+      if (prova.length) { dias.push({ data: d, prova: prova, tarefas: [] }); continue; }
+      var wd = deIso(d).getDay();
+      if (cfg.dias.indexOf(wd) < 0) continue;
+      var prox = provas.filter(function (p) { return p.f.data > d; })[0];
+      var faltam = diasEntre(d, prox.f.data);
+      var v = prox.v;
+      var semana = Math.floor(diasEntre(cfg.inicio, d) / 7);
+      var tarefas = [];
+      if (faltam === 1) {
+        tarefas.push({ tipo: "vespera", titulo: "Véspera da prova: confira o que levar e descanse", detalhe: VESTIBULARES[v].nome + " · " + prox.f.nome + " amanhã às " + horaTexto(prox.f.inicio) + ". Nada de maratona hoje.", min: 20, acao: { guia: "dia", v: v } });
+        dias.push({ data: d, tarefas: tarefas, prox: prox });
+        k++;
+        continue;
+      }
+      var resta = minutosDia;
+      var discursiva = prox.f.id !== "f1";
+      // vestibular do dia: o mais próximo pesa mais, os outros entram em rodízio
+      if (cfg.vests.length > 1 && faltam > 21 && k % 3 === 2) v = cfg.vests[(k / 3 | 0) % cfg.vests.length];
+      var I = info[v];
+      // 1) simulado no horário real, uma vez por semana, no último dia de estudo da semana
+      var ultimoDiaSemana = cfg.dias.slice().sort(function (a, b) { return (a || 7) - (b || 7); }).pop();
+      if (!discursiva && !semanaSimulado[semana] && wd === ultimoDiaSemana && resta >= 60) {
+        semanaSimulado[semana] = true;
+        var qtd = Math.min(VESTIBULARES[v].tamanho, Math.max(15, Math.floor(resta / MIN_POR_QUESTAO / 15) * 15));
+        var cheio = qtd >= VESTIBULARES[v].tamanho;
+        var fase = estado.extras.calendario.vestibulares[v].fases[0];
+        tarefas.push({ tipo: "simulado", titulo: (cheio ? "Simulado completo " : "Simulado ") + VESTIBULARES[v].nome + " · " + qtd + " questões",
+          detalhe: "Comece às " + horaTexto(fase.inicio) + ", como no dia da prova, com o cronômetro ligado.", min: Math.round(qtd * MIN_POR_QUESTAO), acao: { simulado: { v: v, qtd: qtd } } });
+        resta -= Math.round(qtd * MIN_POR_QUESTAO);
+      }
+      // 2) revisão do caderno de erros, a cada 3 dias de estudo
+      if (temErros && k % 3 === 0 && resta >= 25) {
+        tarefas.push({ tipo: "erros", titulo: "Revisão do caderno de erros", detalhe: "Refaça as questões que venceram a data de revisão.", min: 25, acao: { erros: true } });
+        resta -= 25;
+      }
+      // 3) assunto fraco, em dias alternados
+      if (!discursiva && I.r.fracos.length && k % 2 === 1 && resta >= 35) {
+        var g = I.r.fracos[I.fraco++ % I.r.fracos.length];
+        tarefas.push({ tipo: "fraco", titulo: g.a + " (" + MATERIAS[g.m] + ")", detalhe: "Assunto em que você acertou " + pct(g.certas, g.total) + "% na " + VESTIBULARES[v].nome + ". 10 questões.", min: 35,
+          acao: { treino: { v: v, materias: [g.m], assunto: g.a, qtd: 10 } } });
+        resta -= 35;
+      }
+      // 4) leitura de obra obrigatória, em dias alternados
+      if (leituras.length && k % 2 === 0 && resta >= 40) {
+        var l = leituras.shift();
+        var ob = obras.obras[l.id];
+        tarefas.push({ tipo: "leitura", titulo: "Leitura: " + (ob ? ob.titulo : l.id) + " (" + l.parte + "/2)", detalhe: (ob ? ob.autor + ". " : "") + (l.parte === 1 ? "Leia a primeira metade e o guia da obra." : "Termine a leitura e responda às perguntas do guia."), min: 45, acao: { obra: l.id } });
+        resta -= 45;
+      }
+      // 5) redação, uma por semana, se a 2ª fase está no plano
+      if (cfg.segundaFase && temas.length && !semanaRedacao[semana] && resta >= 60 && (discursiva || k % 4 === 3)) {
+        semanaRedacao[semana] = true;
+        var t = temas[nTema++ % temas.length];
+        tarefas.push({ tipo: "redacao", titulo: "Redação: " + VESTIBULARES[t.vestibular].nome + " " + t.ano, detalhe: t.tema, min: 60, acao: { redacao: { v: t.vestibular, ano: t.ano, proposta: t.proposta } } });
+        resta -= 60;
+      }
+      // 6) discursivas na reta da 2ª fase
+      if (discursiva && resta >= 40) {
+        tarefas.push({ tipo: "discursiva", titulo: "Discursivas " + VESTIBULARES[v].nome, detalhe: "3 questões da 2ª fase, comparando com a resposta esperada pela banca.", min: 40, acao: { discursiva: { v: v, qtd: 3 } } });
+        resta -= 40;
+      }
+      // 7) o resto do tempo: matérias na proporção do edital, puxando mais as de menor acerto
+      var guarda = 0;
+      while (resta >= 15 && guarda++ < 4) {
+        var melhor = null, nota = -1;
+        Object.keys(I.pesos).forEach(function (m) {
+          var x = I.r.materias[m], acerto = x && x.total >= 5 ? x.certas / x.total : 0.5;
+          var alvo = I.pesos[m] * (1.5 - acerto), feito = (I.dado[m] || 0) + 1;
+          if (alvo / feito > nota) { nota = alvo / feito; melhor = m; }
+        });
+        if (!melhor) break;
+        var q = resta >= 35 ? 10 : 5;
+        I.dado[melhor] = (I.dado[melhor] || 0) + 1;
+        tarefas.push({ tipo: "materia", titulo: MATERIAS[melhor] + " · " + q + " questões", detalhe: "Questões da " + VESTIBULARES[v].nome + ", de todos os anos.", min: Math.round(q * MIN_POR_QUESTAO),
+          acao: { treino: { v: v, materias: [melhor], qtd: q } } });
+        resta -= Math.round(q * MIN_POR_QUESTAO);
+      }
+      dias.push({ data: d, tarefas: tarefas, prox: prox });
+      k++;
+    }
+    // ids estáveis por dia e posição
+    dias.forEach(function (dia) { dia.tarefas.forEach(function (t, i) { t.id = dia.data + ":" + i + ":" + t.tipo; }); });
+    // dias até hoje: usa o que já foi gerado
+    var hoje = hojeIso(), mudou = false;
+    plano.dias = plano.dias || {};
+    dias.forEach(function (dia) {
+      if (dia.data > hoje) return;
+      if (plano.dias[dia.data]) dia.tarefas = plano.dias[dia.data];
+      else { plano.dias[dia.data] = dia.tarefas; mudou = true; }
+    });
+    if (mudou) gravarPlano(plano);
+    return { dias: dias, provas: provas };
+  }
+  function tarefaFeita(plano, id) { return !!(plano.feitas && plano.feitas[id]); }
+  function marcarTarefa(id, feita) {
+    var p = lerPlano();
+    if (!p) return;
+    p.feitas = p.feitas || {};
+    if (feita) p.feitas[id] = Date.now(); else delete p.feitas[id];
+    gravarPlano(p);
+  }
+  function executarTarefa(t) {
+    var a = t.acao || {};
+    if (a.treino) {
+      return iniciarSessao({ modo: "materia", quantidade: a.treino.qtd, materias: a.treino.materias, assunto: a.treino.assunto, anoMin: 0,
+        titulo: (a.treino.assunto ? "Treino · " + a.treino.assunto : "Treino · " + MATERIAS[a.treino.materias[0]]) + " · " + VESTIBULARES[a.treino.v].nome,
+        filtro: { vestibulares: [a.treino.v], tipo: "objetiva" }, tarefa: t.id }).catch(erroGeral);
+    }
+    if (a.simulado) {
+      var info = VESTIBULARES[a.simulado.v], qtd = a.simulado.qtd;
+      return iniciarSessao({ modo: "simulado", titulo: "Simulado " + info.nome + " · " + qtd + " questões", quantidade: qtd,
+        filtro: { vestibulares: [a.simulado.v], tipo: "objetiva" }, horas: qtd === info.tamanho ? info.horas : null,
+        distribuicao: info.formato && info.formato.distribuicao, limite: Math.round((info.horas * 3600000 * qtd) / info.tamanho), tarefa: t.id }).catch(erroGeral);
+    }
+    if (a.discursiva) {
+      return iniciarSessao({ modo: "materia", quantidade: a.discursiva.qtd, materias: [], anoMin: 0, titulo: "Discursivas · " + VESTIBULARES[a.discursiva.v].nome,
+        filtro: { vestibulares: [a.discursiva.v], tipo: "discursiva" }, tarefa: t.id }).catch(erroGeral);
+    }
+    if (a.erros) {
+      var venc = cadernoDeErros(ler(CHAVE_HIST, [])).filter(function (q) { return q.estado === "vencida"; });
+      if (!venc.length) { marcarTarefa(t.id, true); desenhar(); return; }
+      return revisarErros(embaralhar(venc), null, t.id).catch(erroGeral);
+    }
+    if (a.obra) { estado.guia = { aba: "obras", obra: a.obra }; return irPara("guias"); }
+    if (a.redacao) { estado.redacao = { v: a.redacao.v, ano: a.redacao.ano, proposta: a.redacao.proposta, tarefa: t.id }; return irPara("redacao"); }
+    if (a.guia) { estado.guia = { aba: "dia", v: a.guia.v }; return irPara("guias"); }
+  }
+
+  // Contagem regressiva das próximas provas (faixa de destaque).
+  function faixaContagem(vests, titulo, semBotao) {
+    var provas = proximasProvas(vests);
+    if (!provas.length) return null;
+    var p = provas[0];
+    var outras = provas.slice(1).filter(function (x) { return x.f.id === "f1" || x.v === p.v; }).slice(0, 3);
+    return el("section", { class: "banda contagem", "aria-label": "Contagem regressiva" }, [
+      el("div", { class: "banda-topo" }, [
+        el("div", { class: "heroi" }, [
+          el("span", { class: "rotulo-sec", text: titulo || "Próxima prova" }),
+          el("div", { class: "heroi-num" }, p.dias === 0 ? ["Hoje"] : [String(p.dias), el("small", { text: p.dias === 1 ? " dia" : " dias" })]),
+          el("div", { class: "delta" }, [el("b", { text: VESTIBULARES[p.v].nome + " · " + p.f.nome }), " " + dataExtensa(p.f.data) + ", às " + horaTexto(p.f.inicio) + ". Portões abrem às " + horaTexto(p.f.abertura_portoes) + "."]),
+        ]),
+        el("div", { class: "proximas" }, [
+          el("span", { class: "rotulo-sec", text: "Depois" }),
+          el("ol", {}, outras.map(function (x) {
+            return el("li", {}, [el("span", { class: "pr-dias", text: x.dias + (x.dias === 1 ? " dia" : " dias") }), el("span", { text: VESTIBULARES[x.v].nome + " · " + x.f.nome }), el("span", { class: "pr-data", text: dataCurtaIso(x.f.data) })]);
+          })),
+          semBotao ? null : el("button", { type: "button", class: "botao claro pequeno", text: "Ver o dia da prova", onclick: function () { estado.guia = { aba: "dia", v: p.v }; irPara("guias"); } }),
+        ]),
+      ]),
+    ]);
+  }
+
+  function telaPlano() {
+    app.appendChild(el("p", { class: "aviso-carregando", text: "Carregando o plano…" }));
+    carregarExtras().then(function () {
+      app.innerHTML = "";
+      if (!estado.extras.calendario) { app.appendChild(el("p", { class: "erro-carga", text: "Não foi possível carregar o calendário das provas." })); return; }
+      var plano = lerPlano();
+      if (!plano || estado.editandoPlano) return formularioPlano(plano);
+      mostrarPlano(plano);
+    }).catch(erroGeral);
+  }
+
+  function formularioPlano(plano) {
+    var cfg = (plano && plano.config) || { vests: [], horas: 10, dias: [1, 2, 3, 4, 6], segundaFase: true };
+    app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: plano ? "Ajustar o plano" : "Monte seu plano de estudos" }),
+      el("p", { class: "sub", text: "Diga para qual vestibular, quanto tempo tem e em que dias estuda. O plano distribui as matérias pelo peso do edital, puxa os assuntos em que você mais erra e traz de volta as questões erradas para revisar." })]));
+    var form = el("form", { class: "painel plano-form", id: "form-plano" });
+    var vests = Object.keys(VESTIBULARES).map(function (v) {
+      var prox = proximasProvas([v])[0];
+      return { valor: v, rotulo: VESTIBULARES[v].nome + (prox ? " · " + rotuloDias(prox.dias) : "") };
+    });
+    form.appendChild(el("fieldset", {}, [el("legend", { text: "Vestibulares" }), chips("plano-vest", vests, cfg.vests.length ? cfg.vests : ["fuvest"])]));
+    var selH = el("select", { id: "plano-horas" });
+    [3, 5, 8, 10, 12, 15, 20, 25, 30].forEach(function (h) { selH.appendChild(el("option", { value: h, text: h + " horas por semana", selected: h === cfg.horas })); });
+    form.appendChild(el("label", { class: "campo", for: "plano-horas" }, [el("span", { text: "Tempo de estudo na plataforma" }), selH]));
+    form.appendChild(el("fieldset", {}, [el("legend", { text: "Dias de estudo" }), chips("plano-dia", [1, 2, 3, 4, 5, 6, 0].map(function (d) { return { valor: String(d), rotulo: SEMANA[d] }; }), cfg.dias.map(String))]));
+    form.appendChild(el("label", { class: "marcar", for: "plano-2fase" }, [el("input", { type: "checkbox", id: "plano-2fase", checked: cfg.segundaFase }), el("span", { text: "Incluir a 2ª fase: redação e questões discursivas depois da 1ª fase" })]));
+    form.appendChild(el("p", { class: "dica", text: "O plano fica guardado neste aparelho. Você pode mudar tudo depois." }));
+    form.appendChild(el("div", { class: "acoes-form" }, [
+      el("button", { class: "botao", type: "submit", text: plano ? "Salvar e refazer o plano" : "Criar meu plano" }),
+      plano ? el("button", { class: "botao discreto", type: "button", text: "Cancelar", onclick: function () { estado.editandoPlano = false; desenhar(); } }) : null,
+    ]));
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var vs = marcados(form, "plano-vest"), ds = marcados(form, "plano-dia").map(Number);
+      if (!vs.length) return mostrarErro(form, "Escolha pelo menos um vestibular.");
+      if (!ds.length) return mostrarErro(form, "Escolha pelo menos um dia de estudo.");
+      var novo = { config: { vests: vs, horas: Number(selH.value), dias: ds, segundaFase: document.getElementById("plano-2fase").checked, inicio: hojeIso() },
+        criado: Date.now(), dias: {}, feitas: (plano && plano.feitas) || {} };
+      // mantém os dias já vividos do plano anterior (com o que foi feito), refaz daqui para frente
+      if (plano && plano.dias) Object.keys(plano.dias).forEach(function (d) { if (d < hojeIso()) novo.dias[d] = plano.dias[d]; });
+      if (plano && plano.config.inicio < hojeIso()) novo.config.inicio = plano.config.inicio;
+      gravarPlano(novo);
+      estado.editandoPlano = false;
+      desenhar();
+    });
+    app.appendChild(form);
+  }
+
+  function linhaTarefa(plano, t, opc) {
+    var feita = tarefaFeita(plano, t.id);
+    var icones = { simulado: "◎", erros: "↺", fraco: "▲", leitura: "❡", redacao: "✎", discursiva: "¶", materia: "●", vespera: "☾" };
+    var manual = t.tipo === "leitura" || t.tipo === "vespera" || t.tipo === "redacao";
+    return el("li", { class: "tarefa" + (feita ? " feita" : "") }, [
+      el("label", { class: "tarefa-marca", title: feita ? "Desmarcar" : "Marcar como feita" }, [
+        el("input", { type: "checkbox", checked: feita, "aria-label": "Marcar como feita: " + t.titulo, onchange: function (ev) { marcarTarefa(t.id, ev.target.checked); desenhar(); } }),
+        el("span", { class: "tarefa-bolha", "aria-hidden": "true" }),
+      ]),
+      el("div", { class: "tarefa-corpo" }, [
+        el("span", { class: "tarefa-tipo", text: (icones[t.tipo] || "●") + " " + ({ simulado: "Simulado", erros: "Revisão", fraco: "Ponto fraco", leitura: "Leitura", redacao: "Redação", discursiva: "2ª fase", materia: "Treino", vespera: "Véspera" }[t.tipo] || "") + " · " + t.min + " min" }),
+        el("strong", { text: t.titulo }),
+        t.detalhe ? el("span", { class: "tarefa-det", text: t.detalhe }) : null,
+      ]),
+      opc && opc.semBotao ? null : el("button", { type: "button", class: "botao " + (feita ? "discreto" : "") + " pequeno", text: feita ? "Fazer de novo" : (manual ? "Abrir" : "Começar"), onclick: function () { executarTarefa(t); } }),
+    ]);
+  }
+
+  function mostrarPlano(plano) {
+    var hist = ler(CHAVE_HIST, []);
+    var g = gerarPlano(plano, hist);
+    var hoje = hojeIso();
+    var cab = el("div", { class: "prova-cab" }, [el("h1", { text: "Seu plano de estudos" }),
+      el("button", { type: "button", class: "botao discreto pequeno", text: "Ajustar plano", onclick: function () { estado.editandoPlano = true; desenhar(); } }),
+      el("p", { class: "sub", text: plano.config.vests.map(function (v) { return VESTIBULARES[v].nome; }).join(", ") + " · " + plano.config.horas + " h por semana · " + plano.config.dias.slice().sort(function (a, b) { return (a || 7) - (b || 7); }).map(function (d) { return SEMANA[d]; }).join(", ") })]);
+    app.appendChild(cab);
+    var faixa = faixaContagem(plano.config.vests, "Faltam");
+    if (faixa) app.appendChild(faixa);
+    if (!g.dias.length) {
+      app.appendChild(el("div", { class: "painel", style: "margin-top:1rem" }, [el("p", { class: "vazio", text: "As provas escolhidas já passaram. Ajuste o plano para o próximo vestibular." })]));
+      return;
+    }
+    // hoje e atrasadas
+    var diaHoje = g.dias.filter(function (d) { return d.data === hoje; })[0];
+    var atrasadas = [];
+    g.dias.forEach(function (d) {
+      if (d.data < hoje && diasEntre(d.data, hoje) <= 7) d.tarefas.forEach(function (t) { if (!tarefaFeita(plano, t.id) && !(plano.dispensadas || {})[t.id]) atrasadas.push({ t: t, data: d.data }); });
+    });
+    var proximo = g.dias.filter(function (d) { return d.data > hoje && d.tarefas.length; })[0];
+    var colHoje = el("section", { class: "painel" }, [el("div", { class: "painel-cab" }, [el("h2", { text: "Hoje" }), el("p", { text: dataExtensa(hoje) })])]);
+    if (diaHoje && diaHoje.prova) {
+      colHoje.appendChild(el("p", { class: "dia-prova", text: "Dia de prova: " + diaHoje.prova.map(function (p) { return VESTIBULARES[p.v].nome + " · " + p.f.nome + " às " + horaTexto(p.f.inicio); }).join("; ") + ". Boa prova!" }));
+    } else if (diaHoje && diaHoje.tarefas.length) {
+      var feitasHoje = diaHoje.tarefas.filter(function (t) { return tarefaFeita(plano, t.id); }).length;
+      colHoje.appendChild(el("div", { class: "progresso-dia" }, [
+        el("span", { class: "medidor" }, [el("i", { style: "width:" + Math.round((feitasHoje / diaHoje.tarefas.length) * 100) + "%" })]),
+        el("span", { text: feitasHoje + " de " + diaHoje.tarefas.length + " feitas · cerca de " + diaHoje.tarefas.reduce(function (s, t) { return s + t.min; }, 0) + " min" }),
+      ]));
+      colHoje.appendChild(el("ol", { class: "tarefas" }, diaHoje.tarefas.map(function (t) { return linhaTarefa(plano, t); })));
+    } else {
+      colHoje.appendChild(el("p", { class: "vazio", text: "Hoje não é dia de estudo no seu plano." + (proximo ? " Próximo: " + dataExtensa(proximo.data) + "." : "") }));
+      if (proximo) colHoje.appendChild(el("ol", { class: "tarefas previa" }, proximo.tarefas.map(function (t) { return linhaTarefa(plano, t); })));
+    }
+    if (atrasadas.length) {
+      colHoje.appendChild(el("details", { class: "atrasadas" }, [
+        el("summary", { text: plural(atrasadas.length, "tarefa ficou para trás", "tarefas ficaram para trás") + " nos últimos 7 dias" }),
+        el("ol", { class: "tarefas" }, atrasadas.map(function (x) { return linhaTarefa(plano, x.t); })),
+        el("button", { type: "button", class: "botao discreto pequeno", text: "Dispensar as atrasadas", onclick: function () {
+          var p = lerPlano(); p.dispensadas = p.dispensadas || {};
+          atrasadas.forEach(function (x) { p.dispensadas[x.t.id] = Date.now(); }); gravarPlano(p); desenhar();
+        } }),
+      ]));
+    }
+    // semana: os próximos 7 dias
+    var semana = el("ol", { class: "semana" });
+    for (var i = 0; i < 7; i++) {
+      var d = somaDias(hoje, i);
+      var dia = g.dias.filter(function (x) { return x.data === d; })[0];
+      var feitas = dia ? dia.tarefas.filter(function (t) { return tarefaFeita(plano, t.id); }).length : 0;
+      semana.appendChild(el("li", { class: "dia" + (i === 0 ? " hoje" : "") + (dia && dia.prova ? " dia-de-prova" : "") + (!dia ? " folga" : "") }, [
+        el("span", { class: "dia-nome", text: i === 0 ? "Hoje" : SEMANA[deIso(d).getDay()] + " " + deIso(d).getDate() }),
+        dia && dia.prova ? el("span", { class: "dia-prova-tag", text: dia.prova.map(function (p) { return VESTIBULARES[p.v].nome; }).join(" · ") })
+          : dia ? el("ul", {}, dia.tarefas.map(function (t) { return el("li", { class: tarefaFeita(plano, t.id) ? "ok" : "", text: t.titulo }); }))
+          : el("span", { class: "dia-folga", text: "Folga" }),
+        dia && !dia.prova ? el("span", { class: "dia-min", text: dia.tarefas.reduce(function (s, t) { return s + t.min; }, 0) + " min" + (feitas ? " · " + feitas + "/" + dia.tarefas.length : "") }) : null,
+      ]));
+    }
+    app.appendChild(el("div", { class: "grade-painel duas" }, [colHoje,
+      el("section", { class: "painel" }, [el("div", { class: "painel-cab" }, [el("h2", { text: "Próximos 7 dias" }), el("p", { text: "O plano se ajusta ao seu desempenho todos os dias." })]), semana]),
+    ]));
+    // calendário até a prova
+    app.appendChild(calendarioPlano(g, plano));
+    // caderno de erros (resumo)
+    var cad = cadernoDeErros(hist);
+    var venc = cad.filter(function (q) { return q.estado === "vencida"; }).length;
+    app.appendChild(el("section", { class: "painel", style: "margin-top:1rem" }, [
+      el("div", { class: "painel-cab" }, [el("h2", { text: "Caderno de erros" }), el("p", { text: "Cada questão errada volta para revisão em 1, 3, 7 e 21 dias." })]),
+      cad.length ? el("div", { class: "refazer" }, [
+        el("p", {}, [el("strong", { text: plural(venc, "questão para revisar hoje", "questões para revisar hoje") }), " · " + plural(cad.length, "questão no caderno", "questões no caderno")]),
+        el("button", { class: "botao pequeno", type: "button", text: "Abrir o caderno", onclick: function () { irPara("erros"); } }),
+      ]) : el("p", { class: "dica", text: "As questões que você errar entram aqui automaticamente." }),
+    ]));
+  }
+
+  // Calendário mês a mês até a última prova: bolinhas por dia de estudo, provas marcadas.
+  function calendarioPlano(g, plano) {
+    var porData = {};
+    g.dias.forEach(function (d) { porData[d.data] = d; });
+    var hoje = hojeIso(), ini = deIso(hoje), fim = deIso(g.dias[g.dias.length - 1].data);
+    var meses = el("div", { class: "meses" });
+    for (var m = new Date(ini.getFullYear(), ini.getMonth(), 1); m <= fim; m = new Date(m.getFullYear(), m.getMonth() + 1, 1)) {
+      var grade = el("div", { class: "mes-grade" }, ["D", "S", "T", "Q", "Q", "S", "S"].map(function (l) { return el("span", { class: "mes-sem", text: l }); }));
+      for (var b = 0; b < m.getDay(); b++) grade.appendChild(el("span"));
+      var nDias = new Date(m.getFullYear(), m.getMonth() + 1, 0).getDate();
+      for (var dd = 1; dd <= nDias; dd++) {
+        var s = iso(new Date(m.getFullYear(), m.getMonth(), dd));
+        var info = porData[s];
+        var cls = "mes-dia" + (s === hoje ? " d-hoje" : "") + (s < hoje ? " d-passado" : "");
+        var titulo = dataExtensa(s);
+        if (info && info.prova) { cls += " d-prova"; titulo += ": " + info.prova.map(function (p) { return VESTIBULARES[p.v].nome + " " + p.f.nome; }).join(", "); }
+        else if (info && info.tarefas.length) {
+          var feitas = info.tarefas.filter(function (t) { return tarefaFeita(plano, t.id); }).length;
+          cls += feitas === info.tarefas.length ? " d-estudo d-completo" : feitas ? " d-estudo d-parcial" : " d-estudo";
+          titulo += ": " + info.tarefas.map(function (t) { return t.titulo; }).join("; ");
+        }
+        grade.appendChild(el("span", { class: cls, title: titulo, "aria-label": titulo, text: String(dd) }));
+      }
+      meses.appendChild(el("div", { class: "mes" }, [el("strong", { text: m.toLocaleDateString("pt-BR", { month: "long", year: "numeric" }) }), grade]));
+    }
+    return el("section", { class: "painel", style: "margin-top:1rem" }, [
+      el("div", { class: "painel-cab" }, [el("h2", { text: "Até a prova" }), el("ul", { class: "legenda" }, [
+        el("li", {}, [el("span", { class: "k-cal estudo" }), "dia de estudo"]), el("li", {}, [el("span", { class: "k-cal completo" }), "concluído"]), el("li", {}, [el("span", { class: "k-cal prova" }), "prova"]),
+      ])]),
+      meses,
+    ]);
+  }
+
+  // ---------- caderno de erros (tela) ----------
+  function telaErros() {
+    var hist = ler(CHAVE_HIST, []);
+    var cad = cadernoDeErros(hist);
+    app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: "Caderno de erros" }),
+      el("p", { class: "sub", text: "As questões que você errou voltam em 1, 3, 7 e 21 dias. Acertou três vezes seguidas depois do erro, a questão sai da revisão." })]));
+    if (!cad.length) { app.appendChild(el("div", { class: "painel" }, [el("p", { class: "vazio", text: "Nenhuma questão errada ainda. Faça um simulado ou treino: os erros entram aqui sozinhos." })])); return; }
+    var venc = cad.filter(function (q) { return q.estado === "vencida"; });
+    var agend = cad.filter(function (q) { return q.estado === "agendada"; });
+    var dom = cad.filter(function (q) { return q.estado === "dominada"; });
+    app.appendChild(el("section", { class: "banda" }, [
+      el("div", { class: "banda-topo" }, [
+        el("div", { class: "heroi" }, [el("span", { class: "rotulo-sec", text: "Para revisar hoje" }), el("div", { class: "heroi-num", text: String(venc.length) }),
+          el("div", { class: "delta", text: venc.length ? "Revise agora: refazer na hora certa é o que fixa o conteúdo." : "Tudo em dia. A próxima revisão aparece aqui quando vencer." })]),
+        el("div", { class: "proximas" }, [
+          el("span", { class: "rotulo-sec", text: "No caderno" }),
+          el("ol", {}, [
+            el("li", {}, [el("span", { class: "pr-dias", text: String(venc.length) }), el("span", { text: "vencidas" })]),
+            el("li", {}, [el("span", { class: "pr-dias", text: String(agend.length) }), el("span", { text: "agendadas" })]),
+            el("li", {}, [el("span", { class: "pr-dias", text: String(dom.length) }), el("span", { text: "dominadas" })]),
+          ]),
+          venc.length ? el("button", { type: "button", class: "botao claro pequeno", text: "Revisar " + Math.min(20, venc.length) + " questões", onclick: function () { revisarErros(embaralhar(venc)).catch(erroGeral); } }) : null,
+        ]),
+      ]),
+    ]));
+    // por matéria e assunto
+    var grupos = {};
+    cad.filter(function (q) { return q.estado !== "dominada"; }).forEach(function (q) {
+      var k = q.m + "|" + (q.a || "Sem assunto");
+      var g = grupos[k] = grupos[k] || { m: q.m, a: q.a || "Sem assunto", itens: [] };
+      g.itens.push(q);
+    });
+    var lista = Object.keys(grupos).map(function (k) { return grupos[k]; }).sort(function (a, b) {
+      return ORDEM_MATERIAS.indexOf(a.m) - ORDEM_MATERIAS.indexOf(b.m) || b.itens.length - a.itens.length;
+    });
+    var corpo = el("tbody");
+    lista.forEach(function (g) {
+      var v = g.itens.filter(function (q) { return q.estado === "vencida"; }).length;
+      var prox = g.itens.map(function (q) { return q.proxima; }).sort()[0];
+      corpo.appendChild(el("tr", {}, [
+        el("td", {}, [el("strong", { text: g.a }), el("small", { text: " " + MATERIAS[g.m] })]),
+        el("td", { class: "n", text: String(g.itens.length) }),
+        el("td", { class: "n", text: v ? v + " hoje" : "em " + dataCurtaIso(iso(new Date(prox))) }),
+        el("td", { class: "n" }, [el("button", { type: "button", class: "botao discreto pequeno", text: "Revisar", onclick: function () { revisarErros(g.itens, "Revisão · " + g.a).catch(erroGeral); } })]),
+      ]));
+    });
+    app.appendChild(el("section", { class: "secao" }, [el("h2", { text: "Por assunto" }), el("div", { class: "painel tabela-caixa" }, [el("table", { class: "historico" }, [
+      el("thead", {}, [el("tr", {}, [el("th", { text: "Assunto" }), el("th", { class: "n", text: "Questões" }), el("th", { class: "n", text: "Próxima revisão" }), el("th", { class: "n", text: "" })])]),
+      corpo,
+    ])])]));
+  }
+
+  // ---------- guias: dia da prova, obras, redação ----------
+  var DICAS_EQUIPE = [
+    "Na véspera, separe documento original, canetas e o que é permitido levar. Confira o endereço e o horário do portão.",
+    "Durma cedo nos dois dias antes da prova. A última noite pesa menos que a semana inteira de sono.",
+    "Planeje chegar quando o portão abre: o trânsito e a fila de identificação costumam atrasar.",
+    "Faça uma refeição leve antes e leve água e algo leve para comer, se o edital permitir.",
+    "Distribua o tempo: na 1ª fase, cerca de 3 minutos por questão deixa folga para passar o gabarito.",
+    "Comece pelo que você domina e marque as difíceis para voltar depois. Uma questão travada não vale mais que as outras.",
+    "Passe as respostas para o cartão aos poucos, não tudo nos últimos minutos.",
+    "Na 2ª fase, leia o enunciado inteiro, responda exatamente ao que foi pedido e mostre o raciocínio nos cálculos.",
+  ];
+  function telaGuias() {
+    app.appendChild(el("p", { class: "aviso-carregando", text: "Carregando…" }));
+    carregarExtras().then(function () {
+      app.innerHTML = "";
+      var gs = estado.guia = estado.guia || { aba: "dia" };
+      app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: "Guias" }), el("p", { class: "sub", text: "O dia da prova de cada vestibular, as obras de leitura obrigatória e a redação." })]));
+      app.appendChild(el("div", { class: "filtros" }, [segmento("Guia", [["dia", "Dia da prova"], ["obras", "Obras obrigatórias"], ["redacao", "Redação"]], gs.aba, function (a) { estado.guia = { aba: a }; desenhar(); })]));
+      if (gs.aba === "obras") guiaObras(gs);
+      else if (gs.aba === "redacao") guiaRedacao(gs);
+      else guiaDiaProva(gs);
+    }).catch(erroGeral);
+  }
+  function listaIcone(itens, classe) { return el("ul", { class: "lista-icone " + classe }, itens.map(function (t) { return el("li", { text: t }); })); }
+  function guiaDiaProva(gs) {
+    var cal = estado.extras.calendario;
+    if (!cal) { app.appendChild(el("p", { class: "erro-carga", text: "Não foi possível carregar o calendário." })); return; }
+    var plano = lerPlano();
+    var v = gs.v || (plano && plano.config.vests[0]) || (proximasProvas()[0] || {}).v || "fuvest";
+    app.appendChild(el("div", { class: "filtros" }, [segmento("Vestibular", Object.keys(cal.vestibulares).map(function (x) { return [x, VESTIBULARES[x].nome]; }), v, function (x) { estado.guia = { aba: "dia", v: x }; desenhar(); })]));
+    var c = cal.vestibulares[v];
+    var faixa = faixaContagem([v], VESTIBULARES[v].nome + " " + c.edicao, true);
+    if (faixa) app.appendChild(faixa);
+    var tabela = el("table", { class: "historico" }, [
+      el("thead", {}, [el("tr", {}, [el("th", { text: "Fase" }), el("th", { text: "Data" }), el("th", { class: "n", text: "Portões" }), el("th", { class: "n", text: "Início" }), el("th", { class: "n", text: "Duração" }), el("th", { class: "n", text: "Saída a partir de" })])]),
+      el("tbody", {}, c.fases.map(function (f) {
+        return el("tr", {}, [el("td", {}, [el("strong", { text: f.nome }), el("small", { class: "bloco", text: f.prova })]), el("td", { class: "d", text: dataExtensa(f.data) }),
+          el("td", { class: "n", text: horaTexto(f.abertura_portoes) + (f.fechamento_portoes ? " às " + horaTexto(f.fechamento_portoes) : "") }), el("td", { class: "n", text: horaTexto(f.inicio) }),
+          el("td", { class: "n", text: f.duracao_horas + " h" }), el("td", { class: "n", text: horaTexto(f.saida_a_partir) })]);
+      })),
+    ]);
+    app.appendChild(el("section", { class: "painel", style: "margin-top:1rem" }, [el("div", { class: "painel-cab" }, [el("h2", { text: "Datas e horários" }), el("p", { text: "Horário de Brasília." })]), el("div", { class: "tabela-caixa" }, [tabela])]));
+    app.appendChild(el("div", { class: "grade-painel tres" }, [
+      el("section", { class: "painel" }, [el("h2", { text: "Leve" }), listaIcone(c.levar, "sim")]),
+      el("section", { class: "painel" }, [el("h2", { text: "Pode" }), listaIcone(c.permitido, "pode")]),
+      el("section", { class: "painel" }, [el("h2", { text: "Não pode" }), listaIcone(c.proibido, "nao")]),
+    ]));
+    app.appendChild(el("section", { class: "painel", style: "margin-top:1rem" }, [el("h2", { text: "Atenção" }), listaIcone(c.avisos, "aviso"),
+      el("p", { class: "fontes" }, ["Regras oficiais tiradas de: "].concat(c.fontes.map(function (f, i) {
+        return el("span", {}, [i ? " · " : "", el("a", { href: f.url, target: "_blank", rel: "noopener noreferrer", text: f.titulo })]);
+      })).concat([". Conferido em " + dataCurtaIso(cal.conferido_em) + " " + cal.conferido_em.slice(0, 4) + ". Na dúvida, vale o edital."])),
+    ]));
+    app.appendChild(el("section", { class: "painel", style: "margin-top:1rem" }, [el("div", { class: "painel-cab" }, [el("h2", { text: "Dicas da equipe" }), el("p", { text: "Recomendações gerais, não são regra da banca." })]), el("ol", { class: "dicas" }, DICAS_EQUIPE.map(function (t) { return el("li", { text: t }); }))]));
+  }
+  function guiaObras(gs) {
+    var O = estado.extras.obras;
+    if (!O) { app.appendChild(el("div", { class: "painel" }, [el("p", { class: "vazio", text: "Os guias das obras ainda estão sendo preparados." })])); return; }
+    var lidas = ler("banca-aberta:obras-lidas", {});
+    if (gs.obra && O.obras[gs.obra]) return detalheObra(gs.obra, O.obras[gs.obra], lidas);
+    var v = gs.v || "fuvest";
+    app.appendChild(el("div", { class: "filtros" }, [segmento("Lista", [["fuvest", "FUVEST 2027"], ["unicamp", "Unicamp 2027"], ["unesp", "UNESP"]], v, function (x) { estado.guia = { aba: "obras", v: x }; desenhar(); })]));
+    var lista = O.listas[v];
+    if (!lista || !lista.obras.length) { app.appendChild(el("div", { class: "painel" }, [el("p", { class: "vazio", text: (lista && lista.nota) || "Sem lista de leitura obrigatória." })])); return; }
+    var nLidas = lista.obras.filter(function (id) { return lidas[id]; }).length;
+    app.appendChild(el("p", { class: "dica", style: "margin-bottom:.8rem" }, ["Lista oficial: ", lista.fonte ? el("a", { href: lista.fonte.url, target: "_blank", rel: "noopener noreferrer", text: lista.fonte.titulo }) : "", ". Você marcou " + nLidas + " de " + lista.obras.length + " como lidas."]));
+    app.appendChild(el("ul", { class: "obras" }, lista.obras.map(function (id) {
+      var ob = O.obras[id];
+      if (!ob) return null;
+      return el("li", { class: lidas[id] ? "lida" : "" }, [el("button", { type: "button", onclick: function () { estado.guia = { aba: "obras", v: v, obra: id }; desenhar(); window.scrollTo(0, 0); } }, [
+        el("span", { class: "obra-ano", text: ob.ano + " · " + ob.genero }),
+        el("strong", { class: "obra-titulo", text: ob.titulo }),
+        el("span", { class: "obra-autor", text: ob.autor }),
+        el("span", { class: "obra-estado", text: lidas[id] ? "✓ lida" : "Ler o guia" }),
+      ])]);
+    })));
+  }
+  function detalheObra(id, ob, lidas) {
+    var voltar = el("button", { type: "button", class: "botao discreto pequeno", text: "← Todas as obras", onclick: function () { estado.guia = { aba: "obras", v: estado.guia.v }; desenhar(); } });
+    app.appendChild(el("p", {}, [voltar]));
+    var lida = !!lidas[id];
+    app.appendChild(el("article", { class: "painel obra-guia" }, [
+      el("span", { class: "rotulo-sec", text: ob.genero + " · " + ob.ano + (ob.origem ? " · " + ob.origem : "") }),
+      el("h2", { class: "obra-h", text: ob.titulo }),
+      el("p", { class: "obra-autor", text: ob.autor }),
+      Array.isArray(ob.recorte) ? el("section", {}, [el("h3", { text: "O que cai (recorte da banca)" }), el("p", { text: ob.recorte.join(" · ") })]) : null,
+      el("div", { class: "obra-acoes" }, [
+        el("label", { class: "marcar" }, [el("input", { type: "checkbox", id: "obra-lida", checked: lida, onchange: function (ev) { var l = ler("banca-aberta:obras-lidas", {}); if (ev.target.checked) l[id] = Date.now(); else delete l[id]; gravar("banca-aberta:obras-lidas", l); } }), el("span", { text: "Já li esta obra" })]),
+        ob.dominio_publico ? el("a", { href: "http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.jsp", target: "_blank", rel: "noopener noreferrer", text: "Leitura gratuita: obra em domínio público (Biblioteca Domínio Público, MEC)" }) : null,
+      ]),
+      secaoGuia("Sobre o autor", ob.sobre_autor), secaoGuia("Contexto", ob.contexto), secaoGuia("Do que trata", ob.enredo_ou_conteudo),
+      ob.temas && ob.temas.length ? el("section", {}, [el("h3", { text: "Temas" }), el("div", { class: "chips-fixos" }, ob.temas.map(function (t) { return el("span", { text: t }); }))]) : null,
+      secaoGuia("Como costuma cair", ob.como_cai),
+      ob.perguntas_para_estudo ? el("section", {}, [el("h3", { text: "Para pensar depois de ler" }), el("ol", { class: "dicas" }, ob.perguntas_para_estudo.map(function (p) { return el("li", { text: p }); }))]) : null,
+      el("p", { class: "nota-rodape", text: "Guia escrito pela equipe Banca Aberta para estudo. Ele não substitui a leitura da obra." }),
+    ]));
+    var qs = ob.questoes || [];
+    var obj = qs.filter(function (q) { return q.tipo === "objetiva"; }), disc = qs.filter(function (q) { return q.tipo === "discursiva"; });
+    var caixa = el("section", { class: "painel", style: "margin-top:1rem" }, [el("h2", { text: "Questões do banco sobre a obra" })]);
+    function botao(lista, rotulo, tipo) {
+      return el("button", { type: "button", class: "botao pequeno", text: rotulo, onclick: function () {
+        var refs = lista.slice(0, 20).map(function (q) { return { ed: q.ed, n: q.n, materia: "literatura" }; });
+        iniciarSessao({ modo: "erros", refs: refs, titulo: "Obra · " + ob.titulo, filtro: { tipo: tipo } }).catch(erroGeral);
+      } });
+    }
+    if (!qs.length) caixa.appendChild(el("p", { class: "dica", text: "Ainda não há questões desta obra no banco. Obras que entraram há pouco na lista costumam aparecer nas provas a partir deste ano." }));
+    else caixa.appendChild(el("div", { class: "refazer" }, [
+      el("p", {}, [el("strong", { text: plural(qs.length, "questão", "questões") }), " de provas anteriores (" + qs.map(function (q) { return q.ano; }).filter(function (x, i, a) { return a.indexOf(x) === i; }).sort().join(", ") + ") falam da obra."]),
+      el("span", { class: "acoes-form" }, [obj.length ? botao(obj, "Treinar " + plural(obj.length, "objetiva", "objetivas"), "objetiva") : null, disc.length ? botao(disc, "Treinar " + plural(disc.length, "discursiva", "discursivas"), "discursiva") : null]),
+    ]));
+    app.appendChild(caixa);
+  }
+  function secaoGuia(titulo, texto) { return texto ? el("section", {}, [el("h3", { text: titulo }), el("p", { text: texto })]) : null; }
+
+  var REDACAO_INFO = {
+    fuvest: { formato: "No 1º dia da 2ª fase, junto com 10 questões de Português. Há mais de uma proposta (como em 2026) e o candidato escolhe uma; quem não indicar a escolha tem nota zero. Redação com nota zero elimina.", criterios: { titulo: "Guia de Provas FUVEST 2027", url: "https://www.fuvest.br/wp-content/uploads/fuvest2027-guia-provas.pdf" } },
+    unicamp: { formato: "No 1º dia da 2ª fase. São duas propostas de gêneros diferentes (carta, artigo de opinião, discurso, entre outros) e o candidato escolhe uma. Respeitar o gênero e a situação de produção conta muito.", criterios: { titulo: "Diretrizes de avaliação da Redação (Comvest)", url: "https://www.comvest.unicamp.br/wp-content/uploads/2025/05/Diretrizes-de-Avaliacao-da-Redacao-site.pdf" } },
+    unesp: { formato: "No 2º dia da 2ª fase, com 12 questões de Linguagens. Texto em gênero dissertativo.", criterios: { titulo: "Manual do Candidato Unesp 2027 (critérios da redação)", url: "https://vestibular.unesp.br/Home/noticias/2026/08/251/manualdocandidatovnsp25141.pdf" } },
+  };
+  var CHECKLIST_REDACAO = [
+    "Respondi exatamente ao que a proposta pede (tema e recorte).",
+    "Respeitei o gênero pedido e a situação de produção (quem escreve, para quem, onde).",
+    "Tenho uma tese clara logo no começo.",
+    "Cada parágrafo traz um argumento desenvolvido, não só afirmado.",
+    "Usei a coletânea a meu favor, sem copiar trechos.",
+    "A conclusão retoma a tese e fecha o texto sem ideia nova solta.",
+    "Revisei ortografia, concordância e pontuação.",
+    "Respeitei o limite de linhas e escrevi com letra legível.",
+  ];
+  function guiaRedacao(gs) {
+    var v = gs.v || "fuvest";
+    app.appendChild(el("div", { class: "filtros" }, [segmento("Vestibular", [["fuvest", "FUVEST"], ["unicamp", "Unicamp"], ["unesp", "UNESP"]], v, function (x) { estado.guia = { aba: "redacao", v: x }; desenhar(); })]));
+    var info = REDACAO_INFO[v];
+    app.appendChild(el("div", { class: "grade-painel duas" }, [
+      el("section", { class: "painel" }, [el("h2", { text: "Como é a redação" }), el("p", { text: info.formato }),
+        el("p", { class: "fontes" }, ["Critérios oficiais: ", el("a", { href: info.criterios.url, target: "_blank", rel: "noopener noreferrer", text: info.criterios.titulo }), "."])]),
+      el("section", { class: "painel" }, [el("h2", { text: "Checklist antes de entregar" }), listaIcone(CHECKLIST_REDACAO, "sim")]),
+    ]));
+    var temas = estado.extras.temas ? estado.extras.temas.propostas.filter(function (p) { return p.vestibular === v && p.tema; }) : [];
+    var rascunhos = ler("banca-aberta:redacoes", []);
+    var sec = el("section", { class: "secao" }, [el("h2", { text: "Propostas de anos anteriores" })]);
+    if (!temas.length) sec.appendChild(el("p", { class: "dica", text: "Ainda não temos as propostas deste vestibular." }));
+    else sec.appendChild(el("ul", { class: "temas" }, temas.map(function (t) {
+      var feito = rascunhos.filter(function (r) { return r.v === v && r.ano === t.ano && r.proposta === t.proposta; })[0];
+      return el("li", {}, [
+        el("span", { class: "tema-ano", text: t.ano + (temas.filter(function (x) { return x.ano === t.ano; }).length > 1 ? " · proposta " + t.proposta : "") + (t.genero ? " · " + t.genero : "") }),
+        el("strong", { text: t.tema }),
+        t.situacao ? el("span", { class: "tema-sit", text: t.situacao }) : null,
+        el("button", { type: "button", class: "botao " + (feito ? "discreto" : "") + " pequeno", text: feito ? "Continuar texto" : "Escrever", onclick: function () { estado.redacao = { v: v, ano: t.ano, proposta: t.proposta }; irPara("redacao"); } }),
+      ]);
+    })));
+    app.appendChild(sec);
+  }
+  // Editor de redação: texto guardado no aparelho, contagem de palavras e linhas, checklist.
+  function telaRedacao() {
+    carregarExtras().then(function () {
+      app.innerHTML = "";
+      var r = estado.redacao || {};
+      var t = estado.extras.temas ? estado.extras.temas.propostas.filter(function (p) { return p.vestibular === r.v && p.ano === r.ano && p.proposta === r.proposta; })[0] : null;
+      var lista = ler("banca-aberta:redacoes", []);
+      var atual = lista.filter(function (x) { return x.v === r.v && x.ano === r.ano && x.proposta === r.proposta; })[0];
+      if (!atual) { atual = { v: r.v, ano: r.ano, proposta: r.proposta, texto: "", checklist: {}, criado: Date.now() }; lista.push(atual); }
+      function salvar() { atual.atualizado = Date.now(); gravar("banca-aberta:redacoes", lista); }
+      app.appendChild(el("div", { class: "prova-cab" }, [el("h1", { text: "Redação · " + (VESTIBULARES[r.v] ? VESTIBULARES[r.v].nome : "") + " " + (r.ano || "") }),
+        el("button", { type: "button", class: "botao discreto pequeno", text: "← Propostas", onclick: function () { estado.guia = { aba: "redacao", v: r.v }; irPara("guias"); } })]));
+      if (t) app.appendChild(el("section", { class: "painel tema-atual" }, [el("span", { class: "rotulo-sec", text: (t.genero || "Proposta") + (t.fonte ? "" : "") }), el("p", { class: "tema-grande", text: t.tema }), t.situacao ? el("p", { class: "dica", text: t.situacao }) : null,
+        el("p", { class: "nota-rodape", text: "Leia a proposta completa, com a coletânea, no caderno oficial da prova." })]));
+      var contagem = el("span", { class: "contagem" });
+      var ta = el("textarea", { id: "redacao-texto", class: "redacao-texto", "aria-label": "Sua redação", placeholder: "Escreva aqui. O texto fica guardado neste aparelho." });
+      ta.value = atual.texto || "";
+      function contar() { var p = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0; contagem.textContent = p + " palavras · cerca de " + Math.ceil(ta.value.length / 70) + " linhas de caderno"; }
+      ta.addEventListener("input", function () { atual.texto = ta.value; contar(); salvar(); });
+      contar();
+      var check = el("ul", { class: "checklist" }, CHECKLIST_REDACAO.map(function (c, i) {
+        return el("li", {}, [el("label", { class: "marcar" }, [el("input", { type: "checkbox", checked: !!atual.checklist[i], onchange: function (ev) { atual.checklist[i] = ev.target.checked; salvar(); } }), el("span", { text: c })])]);
+      }));
+      app.appendChild(el("div", { class: "grade-painel duas" }, [
+        el("section", { class: "painel" }, [ta, contagem]),
+        el("section", { class: "painel" }, [el("h2", { text: "Antes de dar por terminada" }), check,
+          el("p", { class: "nota-rodape", text: "A correção automática da redação ainda não está disponível. Use o checklist e os critérios oficiais para se autoavaliar." }),
+          r.tarefa ? el("button", { type: "button", class: "botao", text: "Concluir a tarefa do plano", onclick: function () { salvar(); marcarTarefa(r.tarefa, true); irPara("plano"); } }) : null]),
+      ]));
+    }).catch(erroGeral);
+  }
+
   // ---------- páginas legais ----------
   // Textos em dados/juridico/*.md (markdown simples: #, ##, listas com "- " e **negrito**).
   var PAGINAS = { direitos: "Direitos autorais e remoção de conteúdo", termos: "Termos de Uso", privacidade: "Política de Privacidade" };
@@ -1368,6 +2090,8 @@
   document.getElementById("ir-inicio").addEventListener("click", function () { irPara("inicio"); });
   document.getElementById("nav-inicio").addEventListener("click", function () { irPara(estado.sessao && !estado.sessao.fim ? "prova" : "inicio"); });
   document.getElementById("nav-historico").addEventListener("click", function () { irPara("historico"); });
+  document.getElementById("nav-plano").addEventListener("click", function () { estado.editandoPlano = false; irPara("plano"); });
+  document.getElementById("nav-guias").addEventListener("click", function () { estado.guia = null; irPara("guias"); });
 
   carregarJSON("dados/indice.json").then(function (indice) {
     estado.indice = indice;

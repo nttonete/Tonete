@@ -28,6 +28,9 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 | `testes/navegador.js` | Teste de ponta a ponta no Chromium |
 | `trabalho/` | Área de trabalho. No git ficam só rascunhos, revisões, complementos e recortes manuais (`*-cK.webp`); páginas renderizadas e figuras automáticas se regeneram |
 | `dados/provas/terceiros.json`, `moderacao.json` | Conteúdo de terceiros por questão (status, autor, obra) e regras de ocultação com log. Ver `ferramentas/CONFORMIDADE.md` |
+| `dados/provas/calendario.json` | Datas, horários e regras do dia da prova de cada vestibular, só de documentos oficiais (com fonte e data de conferência) |
+| `dados/conteudo/obras.json`, `redacao-temas.json` | Obras de leitura obrigatória com guia da equipe e questões ligadas (`ferramentas/ligar_obras.py`); temas de redação anteriores |
+| `ferramentas/robo_editais.py` | Robô que confere os documentos oficiais e avisa mudanças (roda sozinho segundas e quintas; prepara a atualização numa branch para aprovação) |
 | `dados/juridico/` | Rascunhos de Termos, Privacidade e Direitos autorais (para revisão jurídica) |
 | `fontes-pdf` | Link para os PDFs oficiais (fora do git) |
 
@@ -50,6 +53,13 @@ Situação: as 30 provas de 1ª fase (2017–2026) estão transcritas, revisadas
 - Desempenho (guardado no aparelho): evolução, mapa de assuntos por vestibular, "onde focar", medalhas e "refazer questões que errei".
 - Tabela periódica da prova nas questões de química da UNESP (`img/tabela-periodica/`).
 - Ainda sem servidor: fórum de comentários, ranking semanal, login e pagamento dependem de backend.
+
+## Plano de estudos e guias
+
+- Telas: Treinar, Plano (plano de estudos + caderno de erros), Guias (dia da prova, obras, redação) e Desempenho. Tudo guardado no aparelho do aluno (localStorage) até haver backend.
+- O plano gera as tarefas de cada dia até a prova: matérias pelo peso do edital puxando as de menor acerto, assuntos fracos, revisão espaçada de erros (1, 3, 7 e 21 dias), simulado semanal no horário real, leituras e redação. Dias passados ficam como foram gerados; os futuros se ajustam ao desempenho.
+- Regras do dia da prova vêm só do edital/manual oficial. Dicas gerais ficam separadas como "Dicas da equipe".
+- Guias das obras são texto da equipe (nunca trechos das obras) e ficam com `revisao: "pendente"` até um professor revisar.
 
 ## Assunto e resolução
 

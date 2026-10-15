@@ -276,6 +276,38 @@ def checar_conformidade(rel):
         rel.erro("moderacao.json", "há regras mas o log está vazio")
 
 
+def checar_conteudo(rel):
+    """Calendário das provas, obras e temas de redação: formato e fontes."""
+    import datetime as _dt
+    cal = json.loads((RAIZ / "dados/provas/calendario.json").read_text())
+    for v, c in cal["vestibulares"].items():
+        if not c.get("fontes") or not all(str(f.get("url", "")).startswith("https://") for f in c["fontes"]):
+            rel.erro(f"calendario {v}", "toda regra do dia da prova precisa de fonte oficial com link")
+        for f in c["fases"]:
+            try:
+                _dt.date.fromisoformat(f["data"])
+            except Exception:
+                rel.erro(f"calendario {v}", f"data inválida: {f.get('data')!r}")
+            for k in ("inicio", "abertura_portoes"):
+                if not re.fullmatch(r"\d{2}:\d{2}", str(f.get(k, ""))):
+                    rel.erro(f"calendario {v}", f"{f.get('nome')}: horário {k} inválido")
+    arq = RAIZ / "dados/conteudo/obras.json"
+    if arq.exists():
+        ob = json.loads(arq.read_text())
+        for v, l in ob["listas"].items():
+            for oid in l.get("obras", []):
+                if oid not in ob["obras"]:
+                    rel.erro(f"obras {v}", f"obra da lista sem guia: {oid}")
+        pend = [k for k, o in ob["obras"].items() if o.get("revisao") == "pendente"]
+        if pend:
+            rel.aviso("obras", f"{len(pend)} guia(s) de obra aguardando revisão de um professor")
+    arq = RAIZ / "dados/conteudo/redacao-temas.json"
+    if arq.exists():
+        for p in json.loads(arq.read_text())["propostas"]:
+            if p.get("tema") and len(p["tema"]) > 300:
+                rel.erro(f"redação {p['vestibular']} {p['ano']}", "tema longo demais: só o tema curto, sem copiar a coletânea")
+
+
 def main():
     eds = edicoes()
     rel = Relatorio()
@@ -335,6 +367,7 @@ def main():
             if faltam:
                 rel.aviso(ed["id"], f"incompleta, fora da plataforma até terminar: faltam {len(faltam)} questões")
         checar_conformidade(rel)
+        checar_conteudo(rel)
     for linha in rel.erros + rel.avisos:
         print(linha)
     print(f"\n{len(rel.erros)} erro(s), {len(rel.avisos)} aviso(s)")

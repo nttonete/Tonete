@@ -1,0 +1,317 @@
+{
+ "_explicacao": "Propostas de redação de anos anteriores da FUVEST e da Unicamp (2017 a 2026) e da UNESP (só 2026, o único caderno de 2ª fase disponível), tiradas dos cadernos oficiais em PDF. Guarda só o tema, o gênero e a situação de produção em palavras nossas; a coletânea de textos não é reproduzida (direito autoral). Quando a banca dá um tema explícito, ele vem nas palavras dela; na Unicamp não há tema explícito (a banca descreve uma situação e um gênero), então o tema é resumo nosso. Na FUVEST 2017-2025 havia uma única proposta; em 2026 houve duas à escolha. Na Unicamp há duas propostas por ano (uma à escolha; em 2017 e 2018 as duas eram obrigatórias). Ordem: vestibular e ano, do mais recente ao mais antigo. Campo 'fonte': caminho do PDF (pasta fora do git) e página.",
+ "propostas": [
+  {
+   "vestibular": "fuvest",
+   "ano": 2026,
+   "proposta": 1,
+   "genero": "texto dissertativo-argumentativo",
+   "tema": "O perdão é um ato que pode ser condicionado ou limitado.",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2026/2fase-dia1-caderno.pdf, p. 13"
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2026,
+   "proposta": 2,
+   "genero": "carta",
+   "tema": "Carta a uma personagem hipotética que acusou o candidato falsamente de um ato moralmente reprovável, explicando se lhe concede ou não o perdão.",
+   "situacao": "Carta a uma personagem hipotética que acusou falsamente o candidato; deve ter as partes de uma carta e ser assinada com o termo \"Nome\".",
+   "fonte": "fontes-oficiais/fuvest/2026/2fase-dia1-caderno.pdf, p. 13",
+   "observacao": "A prova de 2026 teve duas propostas à escolha (coletânea de apoio nas p. 12-13)."
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2025,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "As relações sociais por meio da solidariedade.",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2025/2fase-dia1-caderno.pdf, p. 7"
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2024,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "Educação básica e formação profissional: entre a multitarefa e a reflexão.",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2024/2fase-dia1-caderno.pdf, p. 12"
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2023,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "Refugiados ambientais e vulnerabilidade social.",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2023/2fase-dia1-caderno.pdf, p. 12"
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2022,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "As diferentes faces do riso.",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2022/2fase-dia1-caderno.pdf, p. 12",
+   "observacao": "Texto do caderno lido na imagem da página (o texto extraído do PDF não é legível)."
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2021,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "O mundo contemporâneo está fora da ordem?",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2021/2fase-dia1-caderno.pdf, p. 12",
+   "observacao": "Texto do caderno lido na imagem da página (o texto extraído do PDF não é legível)."
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2020,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "O papel da ciência no mundo contemporâneo.",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2020/2fase-dia1-caderno.pdf, p. 12"
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2019,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "De que maneira o passado contribui para a compreensão do presente?",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2019/2fase-dia1-caderno.pdf, p. 12"
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2018,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "Devem existir limites para a arte?",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2018/2fase-dia1-caderno.pdf, p. 12"
+  },
+  {
+   "vestibular": "fuvest",
+   "ano": 2017,
+   "proposta": 1,
+   "genero": "dissertação",
+   "tema": "O homem saiu de sua menoridade?",
+   "situacao": null,
+   "fonte": "fontes-oficiais/fuvest/2017/2fase-dia1-caderno.pdf, p. 12"
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2026,
+   "proposta": 1,
+   "genero": "depoimento pessoal (primeiro texto de uma série de reportagens)",
+   "tema": "Combate aos discursos de ódio contra mulheres em comunidades da \"machosfera\" (manosfera) nas redes sociais.",
+   "situacao": "Jovem jornalista que participou de uma comunidade virtual para investigar o ambiente; escreve um depoimento para uma série de reportagens em jornal impresso, narrando um episódio violento que testemunhou e argumentando contra o ódio dirigido às mulheres.",
+   "fonte": "fontes-oficiais/unicamp/2026/2fase-dia1-red-port-ing-caderno.pdf, p. 3",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2026,
+   "proposta": 2,
+   "genero": "nota de esclarecimento institucional",
+   "tema": "O significado e a importância histórica do regime CLT, e seus efeitos para o país, diante do uso pejorativo da expressão entre jovens.",
+   "situacao": "Profissional do setor de Recursos Humanos de uma empresa escreve uma nota formal a todos os estagiários, depois de ouvir um estagiário usar \"virar CLT\" como xingamento.",
+   "fonte": "fontes-oficiais/unicamp/2026/2fase-dia1-red-port-ing-caderno.pdf, p. 4",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2025,
+   "proposta": 1,
+   "genero": "texto de apresentação de projeto de lei de iniciativa popular",
+   "tema": "Os efeitos da desigualdade de gênero no Congresso e como uma representação mais igualitária levaria a maior justiça social.",
+   "situacao": "Integrante de um coletivo pela igualdade de gênero escreve o texto de apresentação de um projeto de lei de iniciativa popular que pede igualdade de gêneros nas cadeiras do Congresso Nacional, a ser lido na Câmara dos Deputados.",
+   "fonte": "fontes-oficiais/unicamp/2025/2fase-dia1-red-port-ing-caderno.pdf, p. 3",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2025,
+   "proposta": 2,
+   "genero": "comunicado",
+   "tema": "Os riscos das apostas online (bets) feitas por celular para crianças e pré-adolescentes e seus efeitos no comportamento escolar.",
+   "situacao": "Diretor(a) de escola pública escreve um comunicado aos responsáveis dos alunos do Ensino Fundamental, depois de ver os estudantes apostando dinheiro em jogo de azar pelo celular.",
+   "fonte": "fontes-oficiais/unicamp/2025/2fase-dia1-red-port-ing-caderno.pdf, p. 4",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2024,
+   "proposta": 1,
+   "genero": "carta-denúncia",
+   "tema": "Defesa dos direitos de uma empregada doméstica que vive e trabalha na casa dos patrões em condições que podem configurar crime.",
+   "situacao": "Estudante que viu, na casa de um colega, uma empregada doméstica trabalhando de dia e de noite escreve uma carta de denúncia ao Ministério Público do Trabalho.",
+   "fonte": "fontes-oficiais/unicamp/2024/2fase-dia1-red-port-ing-caderno.pdf, p. 3",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2024,
+   "proposta": 2,
+   "genero": "discurso",
+   "tema": "Defesa do acolhimento a refugiados, rebatendo a posição de um país contrário a essa política.",
+   "situacao": "Em uma simulação da ONU no Ensino Médio (MONUEM), o aluno representa a delegação brasileira e responde em plenário ao discurso do delegado da Hungria.",
+   "fonte": "fontes-oficiais/unicamp/2024/2fase-dia1-red-port-ing-caderno.pdf, p. 4",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2023,
+   "proposta": 1,
+   "genero": "texto de convocação para reunião de moradores",
+   "tema": "Perigos de um clube de tiro no bairro e crítica à política de segurança pública baseada no armamento da população.",
+   "situacao": "Estudante cuja amiga morreu em disparo acidental convoca a associação de moradores para discutir a abertura de um clube de tiro perto de casa.",
+   "fonte": "fontes-oficiais/unicamp/2023/2fase-dia1-red-port-ing-caderno.pdf, p. 3",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2023,
+   "proposta": 2,
+   "genero": "depoimento",
+   "tema": "Racismo e diversidade étnico-racial no ambiente escolar: identificação racial, experiências vividas e como o colégio trata o tema.",
+   "situacao": "Aluno do 3º ano do Ensino Médio envia, em sigilo, seu depoimento a um colégio que vai criar um projeto de educação antirracista.",
+   "fonte": "fontes-oficiais/unicamp/2023/2fase-dia1-red-port-ing-caderno.pdf, p. 4",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2022,
+   "proposta": 1,
+   "genero": "post em rede social (\"textão\")",
+   "tema": "Crianças e adolescentes atuando como influenciadores digitais, a partir da trajetória de um adolescente que ganhou quase um milhão de seguidores.",
+   "situacao": "Adolescente de 15 anos que virou digital influencer escreve um post longo em seu perfil, narrando sua trajetória e tomando posição sobre o tema, diante de opiniões divergentes de parentes e amigos.",
+   "fonte": "fontes-oficiais/unicamp/2022/2fase-dia1-red-port-ing-caderno.pdf, p. 3",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2022,
+   "proposta": 2,
+   "genero": "manifesto",
+   "tema": "Cortes de verba para ciência e pesquisa no Brasil, seus prejuízos e a convocação da comunidade científica a repudiá-los.",
+   "situacao": "Estudante de Geografia cujo projeto de Iniciação Científica foi aprovado, mas ficou sem financiamento, escreve com outros jovens pesquisadores um manifesto coletivo a ser lido na reunião anual da SBPC.",
+   "fonte": "fontes-oficiais/unicamp/2022/2fase-dia1-red-port-ing-caderno.pdf, p. 4",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2021,
+   "proposta": 1,
+   "genero": "discurso político",
+   "tema": "Retirada ou manutenção, no pátio de uma escola pública, das estátuas de um bandeirante e de um missionário jesuíta.",
+   "situacao": "Candidato a vereador, ex-aluno da escola, prepara um discurso para a assembleia estudantil, apresentando as duas visões em disputa e assumindo uma posição.",
+   "fonte": "fontes-oficiais/unicamp/2021/2fase-dia1-red-port-ing-caderno.pdf, p. 3",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2021,
+   "proposta": 2,
+   "genero": "diário (entrada de diário)",
+   "tema": "A necropolítica de um Estado negligente com a saúde dos mais vulneráveis durante a pandemia de Covid-19, a partir de um episódio de risco no trabalho.",
+   "situacao": "Trabalhador em situação de vulnerabilidade escreve um diário como testemunho para as gerações futuras sobre a pandemia.",
+   "fonte": "fontes-oficiais/unicamp/2021/2fase-dia1-red-port-ing-caderno.pdf, p. 4",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2020,
+   "proposta": 1,
+   "genero": "texto para podcast",
+   "tema": "Relação entre biodiversidade e sociodiversidade e a importância de preservar o patrimônio cultural e ambiental para um crescimento sustentável do Brasil.",
+   "situacao": "Colunista de revista eletrônica acessada por ambientalistas escreve o texto que lerá na gravação de um podcast encomendado pelo editor.",
+   "fonte": "fontes-oficiais/unicamp/2020/2fase-dia1-red-port-ing-caderno.pdf, p. 3",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2020,
+   "proposta": 2,
+   "genero": "crônica",
+   "tema": "Reflexão pessoal sobre um episódio de micromachismo vivido pelo próprio autor e os sentimentos de reconhecê-lo.",
+   "situacao": "Escritor que publica crônica em revista semanal percebe, ao ler uma matéria, que já viveu e aceitou como normal uma atitude micromachista, e faz disso o tema da crônica da semana.",
+   "fonte": "fontes-oficiais/unicamp/2020/2fase-dia1-red-port-ing-caderno.pdf, p. 4",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2019,
+   "proposta": 1,
+   "genero": "abaixo-assinado",
+   "tema": "Defesa de uma professora de Filosofia ameaçada por suposta doutrinação e da manutenção das aulas sobre Direitos Humanos.",
+   "situacao": "Estudante de escola pública estadual escreve, em nome dos colegas, um abaixo-assinado à direção da escola, que ainda não se manifestou sobre as ofensas e ameaças anônimas à professora.",
+   "fonte": "fontes-oficiais/unicamp/2019/2fase-red-port-caderno.pdf, p. 3",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2019,
+   "proposta": 2,
+   "genero": "postagem em fórum virtual",
+   "tema": "Comparação entre IDH e crescimento do PIB como indicadores de desenvolvimento e as consequências de priorizar o consumo.",
+   "situacao": "Aluno posta em um fórum da disciplina de Geografia, a pedido da professora, indicando em qual ranking o Brasil subiria se priorizasse qualidade de vida e igualdade, e argumentando seu ponto de vista.",
+   "fonte": "fontes-oficiais/unicamp/2019/2fase-red-port-caderno.pdf, p. 7",
+   "observacao": "Coletânea de textos própria da proposta; o candidato escolhe uma das duas propostas."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2018,
+   "proposta": 1,
+   "genero": "texto-base de palestra",
+   "tema": "Pós-verdade: o que é, sua relação com as redes sociais, exemplos de notícias falsas e consequências sociais.",
+   "situacao": "Estudante do Ensino Médio convidado pelo Grêmio Estudantil escreve o texto, a ser lido em voz alta, de uma palestra aos colegas.",
+   "fonte": "fontes-oficiais/unicamp/2018/2fase-red-port-caderno.pdf, p. 3",
+   "observacao": "Nesse ano os dois textos eram de execução obrigatória (não havia escolha). Coletânea própria de cada texto."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2018,
+   "proposta": 2,
+   "genero": "artigo de opinião",
+   "tema": "\"Há limite para a liberdade de expressão?\"",
+   "situacao": "Estudante escolhido por um jornal de grande circulação escreve um artigo de opinião para um caderno especial sobre liberdade de expressão, após repercussão de uma mensagem de ódio contra nordestinos nas redes.",
+   "fonte": "fontes-oficiais/unicamp/2018/2fase-red-port-caderno.pdf, p. 7",
+   "observacao": "Nesse ano os dois textos eram de execução obrigatória (não havia escolha). Coletânea própria de cada texto."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2017,
+   "proposta": 1,
+   "genero": "carta do leitor",
+   "tema": "A relação entre o conceito de \"Brasil cordial\" e a presença de estrangeiros no Brasil, a partir de um artigo sobre imigrantes no Rio de Janeiro.",
+   "situacao": "Estudante do Ensino Médio escreve à Seção do Leitor da revista Rio Pesquisa, comentando o artigo \"A volta de um Rio que faz sonhar\".",
+   "fonte": "fontes-oficiais/unicamp/2017/2fase-red-port-caderno.pdf, p. 3",
+   "observacao": "Nesse ano os dois textos eram de execução obrigatória (não havia escolha). Coletânea própria de cada texto."
+  },
+  {
+   "vestibular": "unicamp",
+   "ano": 2017,
+   "proposta": 2,
+   "genero": "texto de apresentação de campanha de arrecadação",
+   "tema": "Histórico e ações de uma biblioteca comunitária e a importância das doações para que ela continue funcionando.",
+   "situacao": "Voluntário(a) da biblioteca comunitária Barca dos Livros escreve o texto de apresentação de uma campanha de arrecadação de fundos, a ser publicado no site da biblioteca.",
+   "fonte": "fontes-oficiais/unicamp/2017/2fase-red-port-caderno.pdf, p. 7",
+   "observacao": "Nesse ano os dois textos eram de execução obrigatória (não havia escolha). Coletânea própria de cada texto."
+  },
+  {
+   "vestibular": "unesp",
+   "ano": 2026,
+   "proposta": 1,
+   "genero": "texto dissertativo-argumentativo",
+   "tema": "Vivemos hoje uma epidemia da solidão?",
+   "situacao": null,
+   "fonte": "fontes-pdf/UNESP/2ª Fase/UNESP_2026_2Fase.pdf, p. 18",
+   "observacao": "Única proposta da prova de 2ª fase de 2026 (Linguagens e suas Tecnologias); a banca pede norma-padrão e uso dos textos da coletânea e de conhecimentos próprios."
+  }
+ ]
+}

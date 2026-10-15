@@ -359,6 +359,118 @@ textarea { width: 100%; min-height: 7rem; padding: .75rem; border: 1px solid var
   .cartela-bolhas { gap: 2px; }
 }
 
+/* ---------- plano, caderno de erros e guias ---------- */
+.botao.claro { background: var(--banda-tx); color: var(--banda); border-color: var(--banda-tx); }
+.faixa-provas { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.1rem; margin: -1.25rem 0 1.5rem; padding: .7rem .9rem; border: 1px solid var(--linha); border-radius: 999px; background: var(--folha); font-size: .9rem; color: var(--tinta-2); }
+.faixa-provas:empty { display: none; }
+.faixa-provas .botao { margin-left: auto; }
+.fp-item strong { color: var(--tinta); font-weight: 650; }
+@media (max-width: 40rem) { .faixa-provas { border-radius: var(--raio); } .faixa-provas .botao { margin-left: 0; } }
+.proximas { display: grid; gap: .8rem; align-content: start; }
+.proximas ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.proximas li { display: grid; grid-template-columns: 5.2rem minmax(0, 1fr) auto; gap: .8rem; padding: .6rem 0; border-top: 1px solid var(--banda-linha); align-items: baseline; }
+.proximas li:first-child { border-top: 0; }
+.pr-dias { font-size: 1.15rem; font-weight: 600; letter-spacing: -.01em; }
+.pr-data { color: var(--banda-tx2); font-size: .85rem; font-variant-numeric: tabular-nums; }
+.proximas .botao { justify-self: start; }
+.banda.contagem .heroi-num { font-size: clamp(4.4rem, 11vw, 8rem); }
+.banda.contagem .heroi-num small { font-size: .26em; }
+.banda.contagem .delta b { color: var(--banda-tx); }
+.plano-form { display: grid; gap: 1.25rem; max-width: 40rem; }
+.acoes-form { display: flex; flex-wrap: wrap; gap: .5rem; }
+.tarefas { list-style: none; margin: 0; padding: 0; display: grid; }
+.tarefa { display: grid; grid-template-columns: 1.8rem minmax(0, 1fr) auto; gap: .2rem .8rem; align-items: center; padding: .8rem 0; border-top: 1px solid var(--linha); }
+.tarefa:first-child { border-top: 0; }
+.tarefa-marca { position: relative; width: 1.6rem; height: 1.6rem; cursor: pointer; }
+.tarefa-marca input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.tarefa-bolha { display: block; width: 1.6rem; height: 1.6rem; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--tinta-3); }
+.tarefa-marca input:checked + .tarefa-bolha { background: var(--grafite); box-shadow: none; }
+.tarefa-marca input:focus-visible + .tarefa-bolha { outline: 2px solid var(--caneta); outline-offset: 2px; }
+.tarefa-corpo { display: grid; gap: .1rem; min-width: 0; }
+.tarefa-tipo { font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-3); }
+.tarefa-corpo strong { font-weight: 600; font-size: .98rem; }
+.tarefa-det { font-size: .84rem; color: var(--tinta-2); }
+.tarefa.feita strong { text-decoration: line-through; text-decoration-color: var(--tinta-3); color: var(--tinta-2); }
+.tarefas.previa { opacity: .7; }
+@media (max-width: 40rem) { .tarefa { grid-template-columns: 1.8rem minmax(0, 1fr); } .tarefa > .botao { grid-column: 2; justify-self: start; margin-top: .3rem; } }
+.progresso-dia { display: flex; align-items: center; gap: .8rem; font-size: .85rem; color: var(--tinta-2); margin-bottom: .4rem; }
+.progresso-dia .medidor { flex: 0 0 7rem; height: 6px; border-radius: 3px; background: var(--grade); overflow: hidden; }
+.progresso-dia .medidor i { display: block; height: 100%; background: var(--dado); }
+.dia-prova { font-weight: 600; font-size: 1.05rem; margin: 0; }
+.atrasadas { margin-top: 1rem; border-top: 1px solid var(--linha); padding-top: .8rem; }
+.atrasadas summary { cursor: pointer; color: var(--aviso); font-weight: 550; font-size: .9rem; }
+.atrasadas .botao { margin-top: .6rem; }
+.semana { list-style: none; margin: 0; padding: 0; display: grid; }
+.semana > li { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr) auto; gap: .8rem; padding: .6rem 0; border-top: 1px solid var(--linha); align-items: start; }
+.semana > li:first-child { border-top: 0; }
+.dia-nome { font-weight: 600; font-size: .88rem; text-transform: capitalize; }
+.semana .hoje .dia-nome { color: var(--caneta); }
+.semana ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .15rem; font-size: .84rem; color: var(--tinta-2); min-width: 0; }
+.semana ul li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.semana ul li::before { content: "○ "; color: var(--tinta-3); }
+.semana ul li.ok { color: var(--tinta-3); text-decoration: line-through; }
+.semana ul li.ok::before { content: "● "; }
+.dia-min, .dia-folga { font-size: .78rem; color: var(--tinta-3); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.dia-prova-tag { font-size: .84rem; font-weight: 600; color: var(--errado); }
+.meses { display: grid; grid-template-columns: repeat(auto-fill, minmax(14.5rem, 1fr)); gap: 1.5rem; }
+.mes strong { display: block; font-size: .86rem; font-weight: 600; text-transform: capitalize; margin-bottom: .5rem; }
+.mes-grade { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.mes-sem { font-size: .66rem; color: var(--tinta-3); text-align: center; font-weight: 600; }
+.mes-dia { aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%; font-size: .72rem; color: var(--tinta-3); font-variant-numeric: tabular-nums; }
+.mes-dia.d-estudo { box-shadow: inset 0 0 0 1.5px var(--dado); color: var(--tinta); }
+.mes-dia.d-estudo.d-parcial { background: var(--dado-lavado); }
+.mes-dia.d-estudo.d-completo { background: var(--dado); color: #fff; box-shadow: none; }
+.mes-dia.d-prova { background: var(--grafite); color: var(--grafite-texto); font-weight: 700; }
+.mes-dia.d-hoje { outline: 2px solid var(--caneta); outline-offset: 1px; }
+.mes-dia.d-passado:not(.d-completo):not(.d-prova) { opacity: .55; }
+.k-cal { display: inline-block; width: .8rem; height: .8rem; border-radius: 50%; }
+.k-cal.estudo { box-shadow: inset 0 0 0 1.5px var(--dado); }
+.k-cal.completo { background: var(--dado); }
+.k-cal.prova { background: var(--grafite); }
+@media (min-width: 60rem) { .grade-painel.tres { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.grade-painel .painel h2 { margin-bottom: .7rem; }
+.lista-icone { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+.lista-icone li { display: grid; grid-template-columns: 1.4rem minmax(0, 1fr); gap: .5rem; font-size: .93rem; line-height: 1.45; }
+.lista-icone li::before { width: 1.25rem; height: 1.25rem; border-radius: 50%; display: grid; place-items: center; font-size: .7rem; font-weight: 700; margin-top: .05rem; }
+.lista-icone.sim li::before { content: "✓"; background: var(--certo-fundo); color: var(--certo); }
+.lista-icone.pode li::before { content: "+"; background: var(--caneta-fundo); color: var(--caneta); }
+.lista-icone.nao li::before { content: "✕"; background: var(--errado-fundo); color: var(--errado); }
+.lista-icone.aviso li::before { content: "!"; background: var(--aviso-fundo); color: var(--aviso); }
+.painel > h2 + .lista-icone, .painel > h2 + .dicas { margin-top: .75rem; }
+.fontes { font-size: .8rem; color: var(--tinta-3); margin: 1rem 0 0; }
+.fontes a { color: var(--tinta-2); }
+.dicas { margin: 0; padding-left: 1.2rem; display: grid; gap: .5rem; font-size: .93rem; }
+.historico small.bloco { display: block; color: var(--tinta-3); font-size: .78rem; margin-top: .15rem; }
+.obras { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .8rem; }
+.obras button { width: 100%; height: 100%; text-align: left; display: grid; gap: .25rem; align-content: start; background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); padding: 1.1rem; cursor: pointer; }
+.obras button:hover { border-color: var(--linha-forte); }
+.obra-ano { font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-3); }
+.obra-titulo { font-family: var(--f-texto); font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
+.obra-autor { color: var(--tinta-2); font-size: .9rem; margin: 0; }
+.obra-estado { margin-top: .5rem; font-size: .8rem; color: var(--caneta); font-weight: 550; }
+.obras li.lida .obra-estado { color: var(--certo); }
+.obra-guia { display: grid; gap: 1rem; max-width: 50rem; }
+.obra-guia .obra-h { font-family: var(--f-texto); font-size: clamp(1.6rem, 4vw, 2.2rem); letter-spacing: -.01em; }
+.obra-guia h3 { font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-3); margin-bottom: .35rem; }
+.obra-guia p { margin: 0; font-family: var(--f-texto); line-height: 1.65; }
+.obra-acoes { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; font-size: .88rem; }
+.chips-fixos { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chips-fixos span { padding: .25rem .7rem; border-radius: 999px; background: var(--folha-2); border: 1px solid var(--linha); font-size: .84rem; }
+.temas { list-style: none; margin: 0; padding: 0; display: grid; gap: .6rem; }
+.temas li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; align-items: center; background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio-p); padding: .85rem 1rem; }
+.temas .tema-ano { grid-column: 1; font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-3); }
+.temas strong { grid-column: 1; font-family: var(--f-texto); font-weight: 600; }
+.temas .tema-sit { grid-column: 1; font-size: .84rem; color: var(--tinta-2); }
+.temas .botao { grid-column: 2; grid-row: 1 / span 3; }
+.tema-atual .tema-grande { font-family: var(--f-texto); font-size: 1.3rem; line-height: 1.4; margin: .3rem 0; }
+.redacao-texto { min-height: 26rem; font-size: 1.02rem; line-height: 1.8; background: var(--folha); background-image: linear-gradient(transparent calc(1.8em - 1px), var(--grade) calc(1.8em - 1px)); background-size: 100% 1.8em; background-attachment: local; }
+.checklist { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: .55rem; }
+@media (max-width: 30rem) {
+  .topo nav button { padding: .36rem .62rem; font-size: .84rem; }
+  .marca { font-size: 0; gap: 0; }
+  .marca-bolinha { font-size: 1rem; }
+}
+
 /* gráfico de evolução */
 .grafico-caixa { position: relative; }
 .grafico { width: 100%; height: auto; display: block; overflow: visible; touch-action: pan-y; }
@@ -509,6 +621,8 @@ button.link { background: none; border: 0; padding: 0; color: var(--tinta-2); te
     <button class="marca" id="ir-inicio" type="button"><span class="marca-bolinha" aria-hidden="true"></span>Banca Aberta</button>
     <nav aria-label="Principal">
       <button type="button" id="nav-inicio" aria-current="page">Treinar</button>
+      <button type="button" id="nav-plano">Plano</button>
+      <button type="button" id="nav-guias">Guias</button>
       <button type="button" id="nav-historico">Desempenho</button>
     </nav>
   </div>

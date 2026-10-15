@@ -1,0 +1,81 @@
+{
+ "_explicacao": "Datas, horários e regras do dia da prova de cada vestibular, tirados só de documentos oficiais. Cada vestibular traz as fontes e a data em que foram conferidas. Quem atualiza: ferramentas/robo_editais.py (detecta mudança) + revisão humana. Horários de Brasília.",
+ "conferido_em": "2026-10-15",
+ "vestibulares": {
+  "fuvest": {
+   "edicao": 2027,
+   "fases": [
+    {"id": "f1", "nome": "1ª fase", "data": "2026-11-01", "abertura_portoes": "12:00", "inicio": "13:00", "duracao_horas": 5, "saida_a_partir": "16:00",
+     "prova": "Conhecimentos gerais: 80 questões de múltipla escolha, com 5 alternativas"},
+    {"id": "f2d1", "nome": "2ª fase · 1º dia", "data": "2026-12-06", "abertura_portoes": "12:00", "inicio": "13:00", "duracao_horas": 4, "saida_a_partir": "15:00",
+     "prova": "10 questões discursivas de Português (inclui as obras de leitura obrigatória) e redação"},
+    {"id": "f2d2", "nome": "2ª fase · 2º dia", "data": "2026-12-07", "abertura_portoes": "12:00", "inicio": "13:00", "duracao_horas": 4, "saida_a_partir": "15:00",
+     "prova": "12 questões discursivas de 2 a 4 disciplinas, conforme a carreira"}
+   ],
+   "levar": ["Documento original de identidade com foto", "Caneta esferográfica de tinta azul ou preta"],
+   "permitido": ["Lápis para rascunho, borracha, apontador e régua transparente", "Água e alimentos leves durante a prova"],
+   "proibido": ["Usar ou manipular celular ou qualquer outro equipamento em qualquer área do prédio", "Relógio de qualquer tipo (a FUVEST informa o tempo restante)"],
+   "avisos": [
+    "O portão fecha às 13h, quando a prova começa.",
+    "O local da 2ª fase pode não ser o mesmo da 1ª fase: confira no site da FUVEST.",
+    "Na 2ª fase, quem tirar zero na redação ou errar todas as questões de um dos dias é eliminado.",
+    "Nas questões discursivas com cálculo, é preciso mostrar a resolução, não só a resposta final."
+   ],
+   "fontes": [
+    {"titulo": "Guia de Jornada FUVEST 2027", "url": "https://www.fuvest.br/wp-content/uploads/fuvest2027-guia-jornada.pdf", "publicado": "2026-08-10"},
+    {"titulo": "Guia de Provas FUVEST 2027", "url": "https://www.fuvest.br/wp-content/uploads/fuvest2027-guia-provas.pdf", "publicado": "2026-08-17"},
+    {"titulo": "Página do Vestibular FUVEST", "url": "https://www.fuvest.br/vestibular-da-usp/"}
+   ]
+  },
+  "unicamp": {
+   "edicao": 2027,
+   "fases": [
+    {"id": "f1", "nome": "1ª fase", "data": "2026-10-18", "abertura_portoes": "08:00", "inicio": "09:00", "duracao_horas": 5, "saida_a_partir": "11:00",
+     "prova": "Conhecimentos gerais: 72 questões objetivas, incluindo interdisciplinares"},
+    {"id": "f2d1", "nome": "2ª fase · 1º dia", "data": "2026-11-29", "abertura_portoes": "08:00", "inicio": "09:00", "duracao_horas": 5, "saida_a_partir": "11:00",
+     "prova": "Redação (duas propostas, escolher uma), 6 questões de Língua Portuguesa e Literaturas e 4 questões interdisciplinares"},
+    {"id": "f2d2", "nome": "2ª fase · 2º dia", "data": "2026-11-30", "abertura_portoes": "08:00", "inicio": "09:00", "duracao_horas": 5, "saida_a_partir": "11:00",
+     "prova": "Matemática, 2 interdisciplinares de Ciências Humanas e as provas da área do curso"}
+   ],
+   "levar": ["Original do documento de identidade indicado na inscrição", "Caneta de tinta preta em material transparente", "Lápis preto e borracha"],
+   "permitido": ["Régua transparente e compasso", "Água em garrafa própria, refrigerante, suco, doces, balas e alimentos leves", "Bermuda e roupas leves"],
+   "proibido": ["Celular, relógio de qualquer tipo e qualquer equipamento eletrônico", "Óculos inteligentes ou armações com componentes eletrônicos", "Corretivo líquido, lapiseira e caneta marca-texto", "Boné, chapéu e materiais estranhos à prova"],
+   "avisos": [
+    "Os acessos fecham às 9h, quando a prova começa, e retardatários não entram em hipótese alguma. A Comvest recomenda chegar às 8h.",
+    "Só é possível sair depois de duas horas de prova.",
+    "Na 2ª fase há identificação civil: assinatura, impressões digitais e/ou identificação facial.",
+    "A Comvest pode usar detector de metais e de aparelhos eletrônicos durante a prova.",
+    "A cidade escolhida na inscrição vale para as duas fases, com algumas exceções listadas pela Comvest."
+   ],
+   "fontes": [
+    {"titulo": "Manual do Ingresso Unicamp 2027", "url": "https://www.comvest.unicamp.br/wp-content/uploads/2026/07/VU2027-Manual-do-Ingresso.pdf", "publicado": "2026-07"},
+    {"titulo": "Página do Vestibular Unicamp 2027", "url": "https://www.comvest.unicamp.br/ingresso-2027/vestibular-2027/"}
+   ]
+  },
+  "unesp": {
+   "edicao": 2027,
+   "fases": [
+    {"id": "f1", "nome": "1ª fase", "data": "2026-11-22", "abertura_portoes": "11:30", "fechamento_portoes": "12:30", "inicio": "13:00", "duracao_horas": 5, "saida_a_partir": "16:00",
+     "prova": "Conhecimentos gerais: 90 questões objetivas, com 5 alternativas"},
+    {"id": "f2d1", "nome": "2ª fase · 1º dia", "data": "2026-12-13", "abertura_portoes": "11:30", "fechamento_portoes": "12:30", "inicio": "13:00", "duracao_horas": 5, "saida_a_partir": "16:00",
+     "prova": "24 questões discursivas de Ciências Humanas, Ciências da Natureza e Matemática"},
+    {"id": "f2d2", "nome": "2ª fase · 2º dia", "data": "2026-12-14", "abertura_portoes": "11:30", "fechamento_portoes": "12:30", "inicio": "13:00", "duracao_horas": 5, "saida_a_partir": "16:00",
+     "prova": "12 questões discursivas de Linguagens e redação em gênero dissertativo"}
+   ],
+   "levar": ["Original de um documento de identificação aceito (RG, CIN, CNH, passaporte, entre outros listados no manual)", "Caneta esferográfica de tinta preta", "Régua transparente"],
+   "permitido": ["Adereços culturais e religiosos, se pedidos na inscrição"],
+   "proibido": ["Celular, relógio e reprodutor de áudio", "Protetor auricular e calculadora (salvo pedido prévio com indicação médica)", "Boné, gorro, chapéu e óculos de sol", "Qualquer material não fornecido pela Fundação Vunesp"],
+   "avisos": [
+    "Os portões abrem às 11h30 e fecham às 12h30; a prova começa às 13h. Não são admitidos retardatários.",
+    "Caneta de outra cor pode fazer suas marcações não serem lidas pelo sistema.",
+    "Só é possível sair depois de 3 horas de prova.",
+    "Protocolo ou cópia de documento não vale: sem documento original aceito, o candidato é eliminado.",
+    "A Vunesp recomenda deixar as orelhas visíveis durante a prova."
+   ],
+   "fontes": [
+    {"titulo": "Manual do Candidato Vestibular Unesp 2027", "url": "https://vestibular.unesp.br/Home/noticias/2026/08/251/manualdocandidatovnsp25141.pdf", "publicado": "2026-08"},
+    {"titulo": "Portal do Vestibular Unesp", "url": "https://vestibular.unesp.br/"}
+   ]
+  }
+ }
+}

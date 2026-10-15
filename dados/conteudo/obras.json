@@ -1,0 +1,1058 @@
+{
+ "_explicacao": "Listas oficiais de leitura obrigatória dos vestibulares de 2027 e um guia de estudo de cada obra, escrito pela equipe da plataforma (texto autoral: não reproduz trechos das obras, só cita títulos). 'listas' diz quais obras cada vestibular cobra, pela ordem do documento oficial; 'obras' guarda o guia, por identificador. 'recorte' é \"obra completa\" ou a lista dos textos cobrados. 'dominio_publico' é true só para autores mortos há mais de 70 anos. 'palavras_chave' serve para achar no banco as questões que falam da obra. 'revisao' = \"pendente\" enquanto um professor de literatura não conferir o texto.",
+ "conferido_em": "2026-10-15",
+ "listas": {
+  "fuvest": {
+   "edicao": 2027,
+   "fonte": {
+    "titulo": "Guia de Provas FUVEST 2027",
+    "url": "https://www.fuvest.br/wp-content/uploads/fuvest2027-guia-provas.pdf"
+   },
+   "obras": [
+    "opusculo-humanitario",
+    "nebulosas",
+    "memorias-de-martha",
+    "caminho-de-pedras",
+    "a-paixao-segundo-gh",
+    "geografia",
+    "balada-de-amor-ao-vento",
+    "cancao-para-ninar-menino-grande",
+    "a-visao-das-plantas"
+   ]
+  },
+  "unicamp": {
+   "edicao": 2027,
+   "fonte": {
+    "titulo": "Lista de obras de leitura obrigatória – Vestibular Unicamp 2027 (Comvest)",
+    "url": "https://www.comvest.unicamp.br/lista-de-obras/"
+   },
+   "obras": [
+    "prosas-seguidas-de-odes-minimas",
+    "cancoes-escolhidas-paulo-cesar-pinheiro",
+    "os-funerais-da-mamae-grande",
+    "morangos-mofados",
+    "olhos-dagua",
+    "no-seu-pescoco",
+    "vida-e-morte-de-mj-gonzaga-de-sa",
+    "memorias-postumas-de-bras-cubas",
+    "a-vida-nao-e-util"
+   ]
+  },
+  "unesp": {
+   "edicao": 2027,
+   "obras": [],
+   "nota": "A UNESP não adota lista de leitura obrigatória. A prova de literatura usa textos variados, apresentados no próprio caderno."
+  }
+ },
+ "obras": {
+  "opusculo-humanitario": {
+   "titulo": "Opúsculo Humanitário",
+   "autor": "Nísia Floresta",
+   "ano": 1853,
+   "genero": "ensaio",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": true,
+   "sobre_autor": "Nísia Floresta é o pseudônimo de Dionísia Gonçalves Pinto (1810–1885), nascida no Rio Grande do Norte. Educadora e escritora, dirigiu no Rio de Janeiro um colégio para meninas e é considerada uma das pioneiras do feminismo no Brasil. Viveu muitos anos na Europa, onde morreu.",
+   "contexto": "O livro saiu em 1853, no Segundo Reinado, quando a educação das meninas se limitava quase sempre a prendas domésticas e preparo para o casamento. Os textos foram publicados antes na imprensa do Rio de Janeiro e depois reunidos em livro. É uma obra de intervenção: quer convencer o leitor e as autoridades de uma ideia.",
+   "enredo_ou_conteudo": "Não há enredo: é uma série de artigos curtos que formam um ensaio sobre a educação da mulher. A autora percorre a situação das mulheres em diferentes povos e épocas e chega ao Brasil do seu tempo. Ela defende que o atraso de um país está ligado ao abandono da instrução feminina e cobra dos governantes uma educação séria para as mulheres. A obra também aponta como o acesso ao ensino era desigual conforme a origem social e étnica.",
+   "temas": [
+    "educação da mulher",
+    "direitos das mulheres",
+    "civilização e progresso",
+    "crítica à educação limitada ao lar",
+    "desigualdade no acesso ao ensino",
+    "papel social da mulher no século XIX"
+   ],
+   "como_cai": "Por ser um texto argumentativo, a banca pede para identificar a tese e os argumentos, e para comparar com outros textos: na FUVEST 2026 ele apareceu ao lado de Memórias de Martha e até em questão de sociologia, junto com Durkheim. Também aparece com imagens de escolas do século XIX, para discutir quem tinha direito à educação. Vale saber situar a obra no seu tempo e perceber o que ela tem de atual.",
+   "perguntas_para_estudo": [
+    "Quais são os principais argumentos de Nísia Floresta para defender a educação das mulheres?",
+    "Por que a autora relaciona a instrução feminina ao progresso do país?",
+    "Que limites do seu tempo aparecem no próprio texto, mesmo sendo uma obra avançada para a época?",
+    "Como as ideias do Opúsculo dialogam com a personagem Martha, de Julia Lopes de Almeida?",
+    "O que mudou e o que ainda permanece, hoje, no debate sobre educação e desigualdade de gênero?"
+   ],
+   "palavras_chave": [
+    "Opúsculo",
+    "Opúsculo humanitário",
+    "Nísia Floresta",
+    "educação da mulher"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2026-1-q11",
+     "ed": "fuvest-2026-1",
+     "n": 11,
+     "ano": 2026,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2026-2-d1-q08",
+     "ed": "fuvest-2026-2-d1",
+     "n": 8,
+     "ano": 2026,
+     "tipo": "discursiva"
+    }
+   ]
+  },
+  "nebulosas": {
+   "titulo": "Nebulosas",
+   "autor": "Narcisa Amália",
+   "ano": 1872,
+   "genero": "poesia",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": true,
+   "sobre_autor": "Narcisa Amália (1852–1924; algumas fontes dão 1856 como ano de nascimento) nasceu em São João da Barra, no estado do Rio de Janeiro, e viveu boa parte da vida em Resende. Foi poeta, tradutora e jornalista, considerada uma das primeiras mulheres a atuar profissionalmente na imprensa brasileira. Nebulosas, publicado quando ela era muito jovem, é seu único livro de poemas e foi elogiado por escritores da época, como Machado de Assis.",
+   "contexto": "O livro pertence ao Romantismo brasileiro. Mistura a poesia íntima e melancólica, típica do movimento, com a poesia social que marcou a fase de Castro Alves, voltada para a liberdade e para a abolição da escravidão. Depois de um período esquecido, a obra foi reeditada e voltou a ser estudada nos últimos anos.",
+   "enredo_ou_conteudo": "É uma coletânea de poemas. Há poemas de tom pessoal, sobre tristeza, saudade e a busca de consolo na natureza e no céu, de onde vem a imagem das nebulosas do título. Há também poemas sobre a pátria, a história e a política, que defendem a liberdade e a abolição. A condição da mulher que escreve num meio dominado por homens também aparece como tema.",
+   "temas": [
+    "melancolia e subjetividade romântica",
+    "natureza e cosmos",
+    "abolicionismo e liberdade",
+    "nacionalismo",
+    "condição da mulher escritora",
+    "fraternidade entre os povos"
+   ],
+   "como_cai": "Questões de poesia pedem leitura atenta de imagens e metáforas, identificação do eu lírico e das marcas do Romantismo. Na 2ª fase da FUVEST 2026, um poema do livro foi comparado a um texto de divulgação científica sobre o cosmos, e a banca perguntou também sobre as ideias políticas e sociais da obra. Saber separar os poemas íntimos dos poemas sociais ajuda muito.",
+   "perguntas_para_estudo": [
+    "Que sentidos a imagem das nebulosas ganha ao longo do livro?",
+    "Como a natureza e o céu funcionam como refúgio para o eu lírico?",
+    "Quais traços aproximam Narcisa Amália da poesia social de Castro Alves?",
+    "De que forma o livro trata a escravidão e a ideia de liberdade?",
+    "Por que uma obra tão elogiada em 1872 pode ter sido esquecida depois?"
+   ],
+   "palavras_chave": [
+    "Nebulosas",
+    "Narcisa Amália"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2026-2-d1-q01",
+     "ed": "fuvest-2026-2-d1",
+     "n": 1,
+     "ano": 2026,
+     "tipo": "discursiva"
+    }
+   ]
+  },
+  "memorias-de-martha": {
+   "titulo": "Memórias de Martha",
+   "autor": "Julia Lopes de Almeida",
+   "ano": 1899,
+   "genero": "romance",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": true,
+   "sobre_autor": "Julia Lopes de Almeida (1862–1934), carioca, foi uma das escritoras mais lidas do seu tempo, com romances, contos, crônicas e livros para a educação de meninas. Participou do grupo de intelectuais que planejou a Academia Brasileira de Letras, mas ficou de fora por ser mulher. Seu romance mais conhecido é A falência.",
+   "contexto": "Foi o primeiro romance da autora: saiu em folhetim no fim da década de 1880 e em livro em 1899. A história se passa no Rio de Janeiro do Império e se aproxima do Naturalismo ao mostrar a vida num cortiço, antes mesmo de O cortiço, de Aluísio Azevedo. O livro aparece em edições com as grafias Martha e Marta.",
+   "enredo_ou_conteudo": "Martha, já adulta, conta a própria vida em primeira pessoa. Depois da morte do pai, ela e a mãe empobrecem e vão morar num cortiço, onde a menina convive com a miséria e com vizinhos de todo tipo. A relação com a mãe é central na narrativa. Pelos estudos, Martha consegue se tornar professora, o que permite às duas deixar o cortiço e melhorar de vida.",
+   "temas": [
+    "educação como caminho de ascensão",
+    "trabalho feminino",
+    "pobreza urbana e cortiço",
+    "relação entre mãe e filha",
+    "memória",
+    "condição da mulher no século XIX"
+   ],
+   "como_cai": "A banca costuma comparar o romance com outras obras do século XIX: com O cortiço, de Aluísio Azevedo (o papel do ambiente na vida das personagens), e com o Opúsculo Humanitário (a educação feminina). Na 2ª fase da FUVEST 2026, perguntou-se se o cortiço é o centro da história e qual força muda a vida da protagonista. Atenção ao narrador em primeira pessoa, que olha o passado de longe.",
+   "perguntas_para_estudo": [
+    "Por que o cortiço é, para Martha, mais um lugar de passagem do que o centro da história?",
+    "Qual é o papel da educação na mudança de vida da protagonista?",
+    "Como a narradora adulta avalia a menina que foi?",
+    "Em que o cortiço deste romance se parece e se diferencia do de Aluísio Azevedo?",
+    "Que trabalhos eram possíveis para uma mulher pobre no Rio de Janeiro do fim do século XIX, segundo o livro?"
+   ],
+   "palavras_chave": [
+    "Memórias de Martha",
+    "Memórias de Marta",
+    "Martha",
+    "Julia Lopes",
+    "Júlia Lopes"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2026-1-q11",
+     "ed": "fuvest-2026-1",
+     "n": 11,
+     "ano": 2026,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2026-2-d1-q07",
+     "ed": "fuvest-2026-2-d1",
+     "n": 7,
+     "ano": 2026,
+     "tipo": "discursiva"
+    },
+    {
+     "id": "unicamp-2020-2-d1-q03",
+     "ed": "unicamp-2020-2-d1",
+     "n": 3,
+     "ano": 2020,
+     "tipo": "discursiva"
+    },
+    {
+     "id": "unicamp-2021-1-q05",
+     "ed": "unicamp-2021-1",
+     "n": 5,
+     "ano": 2021,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2021-2-d1-q03",
+     "ed": "unicamp-2021-2-d1",
+     "n": 3,
+     "ano": 2021,
+     "tipo": "discursiva"
+    }
+   ]
+  },
+  "caminho-de-pedras": {
+   "titulo": "Caminho de Pedras",
+   "autor": "Rachel de Queiroz",
+   "ano": 1937,
+   "genero": "romance",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": false,
+   "sobre_autor": "Rachel de Queiroz (1910–2003), cearense, estreou muito jovem com O Quinze (1930), sobre a seca. Foi jornalista e cronista e a primeira mulher eleita para a Academia Brasileira de Letras, em 1977. No começo dos anos 1930 teve contato com a militância de esquerda, experiência que aparece neste livro.",
+   "contexto": "O livro faz parte do chamado romance de 30, a segunda fase do Modernismo, que olhou para os problemas sociais do Brasil. Saiu em 1937, ano do golpe que criou o Estado Novo de Getúlio Vargas, num clima de perseguição aos comunistas. Diferente de O Quinze, a ação se passa na cidade, em Fortaleza.",
+   "enredo_ou_conteudo": "Em Fortaleza, nos anos 1930, um pequeno grupo de militantes comunistas tenta organizar trabalhadores. Noemi, casada com João Jacques e mãe de um menino pequeno, participa das reuniões e se aproxima de Roberto, militante enviado para ajudar a formar o grupo. A relação entre os dois cresce junto com a militância e leva Noemi a romper com o casamento, enfrentando o julgamento da sociedade e dos próprios companheiros. O livro acompanha o preço pessoal dessas escolhas, num ambiente de repressão política.",
+   "temas": [
+    "militância política",
+    "condição feminina e liberdade",
+    "casamento e julgamento moral",
+    "repressão política nos anos 1930",
+    "vida urbana e trabalhadores",
+    "relação entre vida pública e vida privada"
+   ],
+   "como_cai": "As questões ligam a obra ao contexto político (Era Vargas, comunismo, repressão) e à condição da mulher. Na FUVEST 2026, o livro foi comparado com As meninas, de Lygia Fagundes Telles, por misturar política e vida privada de personagens femininas. Saber situar o romance de 30 e reconhecer o olhar crítico da autora sobre a própria esquerda também ajuda.",
+   "perguntas_para_estudo": [
+    "Como a política e o amor se misturam na trajetória de Noemi?",
+    "Que tipo de julgamento Noemi sofre, e de quem?",
+    "O que o título sugere sobre o caminho das personagens?",
+    "Em que este romance se diferencia de O Quinze, da mesma autora?",
+    "Como o livro mostra o clima político do Brasil em 1937?"
+   ],
+   "palavras_chave": [
+    "Caminho de pedras",
+    "Rachel de Queiroz",
+    "Noemi",
+    "Roberto",
+    "João Jacques"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2026-1-q12",
+     "ed": "fuvest-2026-1",
+     "n": 12,
+     "ano": 2026,
+     "tipo": "objetiva"
+    }
+   ]
+  },
+  "a-paixao-segundo-gh": {
+   "titulo": "A Paixão Segundo G.H.",
+   "autor": "Clarice Lispector",
+   "ano": 1964,
+   "genero": "romance",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": false,
+   "sobre_autor": "Clarice Lispector (1920–1977) nasceu na Ucrânia, chegou ao Brasil ainda bebê e cresceu no Recife, depois se mudou para o Rio de Janeiro. Escreveu romances, contos e crônicas, como Perto do coração selvagem, Laços de família e A hora da estrela. É conhecida pela prosa introspectiva, que acompanha de perto o pensamento das personagens.",
+   "contexto": "Clarice faz parte da geração de 1945, a terceira fase do Modernismo, que renovou a linguagem e olhou para o mundo interior. A Paixão Segundo G.H. é um dos seus livros mais radicais: quase não há ação externa, e a narrativa é a própria experiência de pensar e sentir. O título remete às narrativas da Paixão de Cristo nos Evangelhos.",
+   "enredo_ou_conteudo": "G.H. é uma escultora de classe média alta que mora numa cobertura no Rio de Janeiro. Um dia depois de a empregada, Janair, ir embora, ela decide arrumar o quarto de serviço e o encontra limpo e vazio, com um desenho na parede. Ali ela se depara com uma barata, e esse encontro provoca uma crise profunda, que abala a imagem que ela tinha de si mesma, da vida e de Deus. Tudo é narrado depois, em primeira pessoa, a um interlocutor imaginário.",
+   "temas": [
+    "crise de identidade",
+    "busca do sentido da existência",
+    "linguagem e seus limites",
+    "relação entre patroa e empregada",
+    "o humano e o não humano",
+    "experiência mística e religiosa"
+   ],
+   "como_cai": "A banca explora o fluxo de consciência, o narrador em primeira pessoa e a escrita que tenta dizer o que é difícil de pôr em palavras. Também pergunta sobre a construção do livro (capítulos que começam retomando a frase final do anterior) e sobre o lado social da obra: a patroa que não enxergava a empregada. Excertos curtos pedem leitura cuidadosa de imagens e paradoxos.",
+   "perguntas_para_estudo": [
+    "Por que um acontecimento tão pequeno provoca uma crise tão grande em G.H.?",
+    "O que a descoberta do quarto da empregada revela sobre a relação entre G.H. e Janair?",
+    "Qual é o papel do interlocutor imaginário a quem G.H. se dirige?",
+    "Como o livro mostra a dificuldade de transformar a experiência em linguagem?",
+    "Que relação o título estabelece com a Paixão de Cristo?"
+   ],
+   "palavras_chave": [
+    "Paixão segundo G.H.",
+    "G.H.",
+    "Clarice Lispector",
+    "Janair"
+   ],
+   "revisao": "pendente",
+   "questoes": []
+  },
+  "geografia": {
+   "titulo": "Geografia",
+   "autor": "Sophia de Mello Breyner Andresen",
+   "ano": 1967,
+   "genero": "poesia",
+   "recorte": "obra completa",
+   "origem": "Portugal",
+   "dominio_publico": false,
+   "sobre_autor": "Sophia de Mello Breyner Andresen (1919–2004) nasceu no Porto e é uma das maiores poetas de língua portuguesa do século XX. Foi a primeira mulher a receber o Prêmio Camões, em 1999. Opôs-se à ditadura de Salazar e, depois da Revolução dos Cravos (1974), foi deputada; também escreveu livros infantis, como A menina do mar.",
+   "contexto": "Geografia foi publicado em Portugal em 1967, ainda durante a ditadura salazarista. A poesia de Sophia é conhecida pela linguagem clara, pela presença do mar, da luz e da Grécia antiga, e por um forte sentido de justiça. No Brasil, uma edição recente reúne Geografia e O Cristo cigano num só volume.",
+   "enredo_ou_conteudo": "É um livro de poemas organizado em torno de lugares: paisagens, viagens, cidades, a Grécia e lembranças da infância. Há poemas ligados a uma viagem da autora ao Brasil, além de homenagem ao poeta Manuel Bandeira. Em meio às paisagens, aparecem também reflexões sobre o tempo, a morte e a condição humana.",
+   "temas": [
+    "lugares e viagens",
+    "mar e luz",
+    "Grécia e mundo clássico",
+    "Brasil visto por uma poeta portuguesa",
+    "infância e memória",
+    "tempo e morte"
+   ],
+   "como_cai": "Em poesia, a banca pede interpretação de imagens, do eu lírico e da relação entre o poema e o lugar que ele descreve. Também compara com outras artes e com a filosofia: na FUVEST 2026, um poema de Sophia foi lido ao lado de um texto de Heidegger sobre a morte. Vale prestar atenção ao diálogo da autora com o Brasil e com a tradição clássica.",
+   "perguntas_para_estudo": [
+    "Por que um livro de poemas pode se chamar Geografia?",
+    "Como o mar e a luz aparecem nos poemas e o que eles representam?",
+    "Que imagem do Brasil aparece nos poemas ligados à viagem da autora?",
+    "De que maneira a Grécia antiga é usada para falar do presente?",
+    "Como os lugares despertam no eu lírico reflexões sobre o tempo e a morte?"
+   ],
+   "palavras_chave": [
+    "Geografia",
+    "Sophia de Mello Breyner",
+    "Sophia"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2026-1-q46",
+     "ed": "fuvest-2026-1",
+     "n": 46,
+     "ano": 2026,
+     "tipo": "objetiva"
+    }
+   ]
+  },
+  "balada-de-amor-ao-vento": {
+   "titulo": "Balada de Amor ao Vento",
+   "autor": "Paulina Chiziane",
+   "ano": 1990,
+   "genero": "romance",
+   "recorte": "obra completa",
+   "origem": "Moçambique",
+   "dominio_publico": false,
+   "sobre_autor": "Paulina Chiziane nasceu em 1955 em Moçambique e é apontada como a primeira mulher moçambicana a publicar um romance, justamente este. Ela prefere se dizer contadora de histórias. Em 2021 recebeu o Prêmio Camões; outro livro seu muito estudado é Niketche.",
+   "contexto": "O romance saiu em 1990, quando Moçambique, independente de Portugal desde 1975, ainda vivia a guerra civil. A história se passa no sul do país e mergulha em costumes tradicionais, como o lobolo (bens entregues pela família do noivo à da noiva) e a poligamia. A escrita mistura a narrativa com a tradição oral e um tom poético.",
+   "enredo_ou_conteudo": "Sarnau conta, em primeira pessoa, a sua história de amor com Mwando, um jovem educado numa missão religiosa. O amor é intenso, mas os dois se separam, e Sarnau é levada a um casamento arranjado, dentro de uma família polígama. A narrativa acompanha o sofrimento, as escolhas e a resistência dela ao longo de muitos anos, mostrando como os costumes e as relações de poder pesam sobre a vida das mulheres.",
+   "temas": [
+    "amor e desejo",
+    "poligamia e lobolo",
+    "condição da mulher em sociedade patriarcal",
+    "tradição e mudança",
+    "religião cristã e cultura local",
+    "colonialismo"
+   ],
+   "como_cai": "As questões pedem leitura de imagens poéticas e símbolos (na FUVEST 2026, um trecho retomava a história bíblica de Adão e Eva para falar do despertar de Mwando). Também cobram o contexto moçambicano, os costumes tradicionais e o ponto de vista feminino da narradora. Comparações com outras obras africanas de língua portuguesa são comuns.",
+   "perguntas_para_estudo": [
+    "Como a voz de Sarnau, contando sua própria história, muda a forma como vemos os costumes descritos?",
+    "Que papel o lobolo e a poligamia têm no destino da protagonista?",
+    "Como o romance mostra o choque entre a educação religiosa de Mwando e a cultura local?",
+    "Que elementos da tradição oral aparecem na forma de narrar?",
+    "O livro apenas critica a tradição ou também a mostra por dentro, com suas contradições?"
+   ],
+   "palavras_chave": [
+    "Balada de amor ao vento",
+    "Paulina Chiziane",
+    "Chiziane",
+    "Sarnau",
+    "Mwando",
+    "lobolo"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2024-1-q82",
+     "ed": "fuvest-2024-1",
+     "n": 82,
+     "ano": 2024,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2024-1-q83",
+     "ed": "fuvest-2024-1",
+     "n": 83,
+     "ano": 2024,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2026-1-q48",
+     "ed": "fuvest-2026-1",
+     "n": 48,
+     "ano": 2026,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2022-1-q01",
+     "ed": "unicamp-2022-1",
+     "n": 1,
+     "ano": 2022,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2024-2-d1-q06",
+     "ed": "unicamp-2024-2-d1",
+     "n": 6,
+     "ano": 2024,
+     "tipo": "discursiva"
+    }
+   ]
+  },
+  "cancao-para-ninar-menino-grande": {
+   "titulo": "Canção para Ninar Menino Grande",
+   "autor": "Conceição Evaristo",
+   "ano": 2018,
+   "genero": "romance",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": false,
+   "sobre_autor": "Conceição Evaristo nasceu em 1946 em Belo Horizonte, numa família pobre, e trabalhou como empregada doméstica antes de se mudar para o Rio de Janeiro, onde foi professora e se tornou doutora em Literatura. É uma das vozes mais importantes da literatura negra brasileira. Criou o conceito de escrevivência: a escrita que nasce da vivência, sobretudo das mulheres negras.",
+   "contexto": "O romance foi publicado em 2018 e ganhou nova edição depois. Faz parte da literatura brasileira contemporânea escrita por autoras negras, que coloca no centro histórias antes deixadas de lado. Aqui, a autora volta o olhar para um homem negro e para os efeitos do machismo e do racismo na vida dele e das mulheres que o cercam.",
+   "enredo_ou_conteudo": "Fio Jasmim é um ferroviário negro, bonito e sedutor, que se envolve com mulheres nas várias cidades por onde o trem passa, enquanto mantém a esposa em casa. A história é contada por uma narradora que ouve e reúne as lembranças dessas mulheres, cada uma com sua dor e seu afeto. O livro também volta à infância de Fio Jasmim para entender as feridas, inclusive de racismo, que ajudaram a formar o homem que ele se tornou.",
+   "temas": [
+    "masculinidade negra",
+    "machismo e relações afetivas",
+    "racismo e suas marcas",
+    "memória e testemunho",
+    "vozes femininas",
+    "escrevivência"
+   ],
+   "como_cai": "As questões exploram o comportamento de Fio Jasmim como reprodução de um modelo tradicional de masculinidade e o papel da narradora como testemunha que recolhe histórias. Na FUVEST 2026, o livro foi comparado com As meninas, de Lygia Fagundes Telles, a partir do tema da memória. Também pode aparecer em questões de sociologia sobre gênero e raça.",
+   "perguntas_para_estudo": [
+    "Por que a história de Fio Jasmim é contada pelas mulheres e não por ele mesmo?",
+    "Como o romance relaciona as atitudes de Fio Jasmim às experiências que ele viveu na infância?",
+    "O que o título sugere sobre a forma como as mulheres veem esse homem?",
+    "Como o livro mostra, ao mesmo tempo, o machismo de Fio Jasmim e a violência racial que ele sofre?",
+    "Que papel a memória e a escuta têm na construção da narrativa?"
+   ],
+   "palavras_chave": [
+    "Canção para ninar menino grande",
+    "Conceição Evaristo",
+    "Evaristo",
+    "Fio Jasmim",
+    "escrevivência"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2026-1-q90",
+     "ed": "fuvest-2026-1",
+     "n": 90,
+     "ano": 2026,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2026-2-d1-q03",
+     "ed": "fuvest-2026-2-d1",
+     "n": 3,
+     "ano": 2026,
+     "tipo": "discursiva"
+    }
+   ]
+  },
+  "a-visao-das-plantas": {
+   "titulo": "A Visão das Plantas",
+   "autor": "Djaimilia Pereira de Almeida",
+   "ano": 2019,
+   "genero": "romance",
+   "recorte": "obra completa",
+   "origem": "Angola/Portugal",
+   "dominio_publico": false,
+   "sobre_autor": "Djaimilia Pereira de Almeida nasceu em 1982 em Luanda, Angola, e cresceu em Portugal, onde vive e escreve. É uma das principais autoras portuguesas contemporâneas. Seus livros tratam de memória, identidade e das marcas deixadas pelo colonialismo; o primeiro romance foi Esse cabelo.",
+   "contexto": "Publicado em Portugal em 2019 (no Brasil, pouco depois), o livro faz parte de uma literatura contemporânea que revisita o passado colonial e escravista português. A autora partiu de uma personagem citada por Raul Brandão em Os pescadores, livro do começo do século XX, e imaginou a velhice desse homem.",
+   "enredo_ou_conteudo": "Celestino foi capitão de navio negreiro e pirata, e cometeu crimes terríveis no mar. Já velho, volta para a casa da família em Portugal e passa os últimos anos cuidando de um jardim, cercado pela desconfiança dos vizinhos. O romance alterna a calma do presente, entre as plantas, com lembranças da violência do passado. As plantas, que não julgam ninguém, contrastam com a culpa que o leitor espera e com o silêncio do próprio Celestino.",
+   "temas": [
+    "memória da escravidão",
+    "culpa e silêncio",
+    "violência colonial",
+    "natureza indiferente ao humano",
+    "velhice e solidão",
+    "o mal e a possibilidade de redenção"
+   ],
+   "como_cai": "A banca pede leitura do contraste entre passado e presente, entre o navio e o jardim, e do olhar das plantas, que não julgam Celestino. Na FUVEST 2026, a 1ª fase perguntou sobre esse olhar sem julgamento da natureza, e a 2ª fase comparou a frieza do jovem capitão com o estado de espírito do velho, e a casa com o porão do navio. Também pode cair a relação com o passado colonial de Portugal.",
+   "perguntas_para_estudo": [
+    "Por que o jardim é um lugar tão importante para Celestino na velhice?",
+    "Como o romance relaciona o espaço da casa ao espaço do navio negreiro?",
+    "As plantas parecem julgar Celestino? O que isso diz sobre a natureza e sobre os humanos?",
+    "O livro mostra arrependimento? Como o silêncio do protagonista pode ser interpretado?",
+    "Por que uma autora contemporânea escolheria contar a velhice de um traficante de escravizados?"
+   ],
+   "palavras_chave": [
+    "A visão das plantas",
+    "Djaimilia",
+    "Pereira de Almeida",
+    "Celestino"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2026-1-q87",
+     "ed": "fuvest-2026-1",
+     "n": 87,
+     "ano": 2026,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2026-2-d1-q04",
+     "ed": "fuvest-2026-2-d1",
+     "n": 4,
+     "ano": 2026,
+     "tipo": "discursiva"
+    }
+   ]
+  },
+  "prosas-seguidas-de-odes-minimas": {
+   "titulo": "Prosas seguidas de odes mínimas",
+   "autor": "José Paulo Paes",
+   "ano": 1992,
+   "genero": "poesia",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": false,
+   "sobre_autor": "José Paulo Paes (1926–1998) nasceu em Taquaritinga, no interior de São Paulo, formou-se em química e trabalhou muitos anos no mercado editorial. Foi poeta, ensaísta e um tradutor muito respeitado. É conhecido pelos poemas curtos, irônicos e bem-humorados, e também escreveu poesia para crianças.",
+   "contexto": "O livro saiu em 1992, numa fase madura do poeta. Herda do Modernismo o gosto pela linguagem coloquial, pelo humor e pela brevidade, e conversa com a tradição ao reinventar a ode, forma antiga de poema de louvor. É uma poesia que trata de assuntos sérios, como a morte e a perda, com leveza e ironia.",
+   "enredo_ou_conteudo": "O livro tem duas partes. Em Prosas, o poeta revisita a memória pessoal e familiar, falando de pessoas próximas, de amigos que se foram e do envelhecimento. Em Odes mínimas, ele faz o contrário da ode tradicional: em vez de louvar algo grandioso, escreve poemas curtos dirigidos a objetos e coisas comuns do dia a dia, como os óculos, e até à própria perna, que precisou amputar. O resultado mistura humor, ternura e reflexão sobre a vida.",
+   "temas": [
+    "memória e família",
+    "morte e envelhecimento",
+    "o cotidiano e os objetos comuns",
+    "ironia e humor",
+    "o corpo e a doença",
+    "reinvenção de formas poéticas tradicionais"
+   ],
+   "como_cai": "A Unicamp gosta de perguntar sobre forma e gênero: na prova de 2026, pediu para comparar uma ode mínima (aos óculos) com a definição de ode clássica. Também cobra o título, a ironia, o tom coloquial e a passagem do grandioso ao banal. Saber o que é uma ode e o que muda na versão mínima é essencial.",
+   "perguntas_para_estudo": [
+    "O que muda quando a ode, poema de louvor a algo grandioso, é dirigida a um objeto comum?",
+    "Por que o livro se chama Prosas, se é um livro de poemas?",
+    "Como o humor ajuda o poeta a falar de assuntos difíceis, como a perda da perna e a morte?",
+    "Que relação existe entre a primeira e a segunda parte do livro?",
+    "Que objetos do seu cotidiano mereceriam uma ode mínima, e por quê?"
+   ],
+   "palavras_chave": [
+    "Odes mínimas",
+    "Prosas seguidas",
+    "José Paulo Paes",
+    "ode"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "unicamp-2026-1-q61",
+     "ed": "unicamp-2026-1",
+     "n": 61,
+     "ano": 2026,
+     "tipo": "objetiva"
+    }
+   ]
+  },
+  "cancoes-escolhidas-paulo-cesar-pinheiro": {
+   "titulo": "Canções escolhidas",
+   "autor": "Paulo César Pinheiro",
+   "ano": null,
+   "genero": "poesia",
+   "recorte": [
+    "Canto das três raças (com Mauro Duarte)",
+    "Cordilheira (com Sueli Costa)",
+    "Desenredo (com Dori Caymmi)",
+    "Estrela da terra (com Dori Caymmi)",
+    "Evangelho (com Dori Caymmi)",
+    "Mordaça (com Eduardo Gudin)",
+    "Na volta que o mundo dá (com Vicente Barreto)",
+    "Navio fantasma (com Francis Hime)",
+    "O dia em que o morro descer e não for carnaval (com Wilson das Neves)",
+    "Pesadelo (com Maurício Tapajós)",
+    "Velho arvoredo (com Hélio Delmiro)",
+    "Vento bravo (com Edu Lobo)",
+    "Viagem (com João de Aquino)",
+    "Vontade de chorar (com Ivor Lancelotti)"
+   ],
+   "origem": "Brasil",
+   "dominio_publico": false,
+   "sobre_autor": "Paulo César Pinheiro nasceu em 1949 no Rio de Janeiro e é um dos letristas mais importantes da música popular brasileira, com uma produção enorme de canções. Começou a compor ainda adolescente e fez parcerias com grandes músicos, como Baden Powell, João Nogueira, Edu Lobo e Dori Caymmi. Também publica livros de poemas.",
+   "contexto": "As canções escolhidas pela Unicamp foram compostas em épocas diferentes, por isso não há um ano único. Várias são dos anos 1960 e 1970, durante a ditadura militar, quando a canção popular foi um espaço de resistência à censura. O conjunto passa pelo samba, pela cultura do sertão e pela música de raiz brasileira; Canto das três raças, por exemplo, ficou famosa na voz de Clara Nunes.",
+   "enredo_ou_conteudo": "São letras de canção, lidas aqui como poesia. Algumas tratam da formação do povo brasileiro e das dores herdadas da história, como Canto das três raças. Outras falam de silêncio imposto, medo e resistência, como sugerem títulos como Mordaça e Pesadelo, ou da desigualdade social, como O dia em que o morro descer e não for carnaval. Há ainda canções sobre o sertão, a natureza, a religiosidade popular, a passagem do tempo e o amor.",
+   "temas": [
+    "formação do povo brasileiro",
+    "resistência à ditadura e à censura",
+    "desigualdade social",
+    "cultura popular e sertão",
+    "religiosidade",
+    "amor, tempo e perda"
+   ],
+   "como_cai": "A Unicamp trata as letras como poemas: pede figuras de linguagem, ritmo, rimas, escolha de palavras e o diálogo com o contexto histórico. Como a prova não toca a música, a análise parte do texto, mas vale conhecer as gravações. Espere perguntas que relacionem a canção à ditadura, à história do Brasil ou a outras obras da lista.",
+   "perguntas_para_estudo": [
+    "O que muda quando lemos uma letra de canção como poema, sem a melodia?",
+    "Como a ditadura militar aparece, de forma direta ou disfarçada, em algumas dessas canções?",
+    "Que retrato do povo brasileiro aparece em Canto das três raças?",
+    "Que imagens do sertão e da natureza se repetem nas parcerias com Dori Caymmi?",
+    "Como a crítica social aparece em O dia em que o morro descer e não for carnaval?"
+   ],
+   "palavras_chave": [
+    "Paulo César Pinheiro",
+    "Canto das três raças",
+    "Mordaça",
+    "Pesadelo",
+    "Navio fantasma",
+    "Vento bravo",
+    "Desenredo",
+    "Cordilheira"
+   ],
+   "revisao": "pendente",
+   "questoes": []
+  },
+  "os-funerais-da-mamae-grande": {
+   "titulo": "Os funerais da Mamãe Grande",
+   "autor": "Gabriel García Márquez",
+   "ano": 1962,
+   "genero": "contos",
+   "recorte": "obra completa",
+   "origem": "Colômbia",
+   "dominio_publico": false,
+   "sobre_autor": "Gabriel García Márquez (1927–2014) nasceu na Colômbia e foi jornalista antes de se tornar um dos escritores mais lidos do mundo. Recebeu o Prêmio Nobel de Literatura em 1982. Seu livro mais famoso é Cem anos de solidão (1967), marco do realismo mágico.",
+   "contexto": "O livro saiu em 1962, antes de Cem anos de solidão, e reúne contos ambientados em pequenas cidades do Caribe colombiano, incluindo Macondo, a cidade imaginária do autor. Ao fundo está o período conhecido como La Violencia, de conflitos políticos sangrentos na Colômbia. A maioria dos contos é realista; o exagero e o fantástico aparecem com força no conto que dá título ao livro.",
+   "enredo_ou_conteudo": "São contos sobre gente comum de povoados pobres e quentes, às voltas com a pobreza, o calor, o poder local e a violência. Em A sesta da terça-feira, uma mãe chega de trem com a filha a uma cidade desconhecida para visitar o túmulo do filho, morto como ladrão, e enfrenta com dignidade o olhar dos moradores. O conto final narra, com exagero e humor, o enterro da Mamãe Grande, matriarca que mandava em Macondo, ao qual comparecem até as maiores autoridades do país e da Igreja. O livro mostra como o poder, a religião e a tradição moldam a vida dessas comunidades.",
+   "temas": [
+    "vida em pequenos povoados",
+    "poder político e oligarquias",
+    "violência e medo",
+    "religião e Igreja",
+    "dignidade dos pobres",
+    "exagero e realismo mágico"
+   ],
+   "como_cai": "A banca pergunta sobre o narrador, a construção do espaço (calor, silêncio, povoado) e a crítica ao poder. No conto-título, é importante reconhecer a hipérbole e a sátira. Também podem aparecer questões sobre o realismo mágico e sobre como esses contos preparam o mundo de Cem anos de solidão.",
+   "perguntas_para_estudo": [
+    "Como o calor e o silêncio ajudam a criar o clima dos contos?",
+    "Que papel a Igreja e as autoridades locais têm na vida dos povoados?",
+    "Como o exagero no conto Os funerais da Mamãe Grande serve para criticar o poder?",
+    "Que atitude da mãe em A sesta da terça-feira chama atenção diante dos moradores?",
+    "Quais contos parecem mais realistas e quais se aproximam do realismo mágico?"
+   ],
+   "palavras_chave": [
+    "Mamãe Grande",
+    "García Márquez",
+    "Macondo",
+    "A sesta da terça-feira"
+   ],
+   "revisao": "pendente",
+   "questoes": []
+  },
+  "morangos-mofados": {
+   "titulo": "Morangos mofados",
+   "autor": "Caio Fernando Abreu",
+   "ano": 1982,
+   "genero": "contos",
+   "recorte": [
+    "Diálogo",
+    "Além do Ponto",
+    "Terça-Feira Gorda",
+    "Pêra, uva ou maçã?",
+    "O dia em que Júpiter encontrou Saturno",
+    "Aqueles dois"
+   ],
+   "origem": "Brasil",
+   "dominio_publico": false,
+   "sobre_autor": "Caio Fernando Abreu (1948–1996) nasceu no Rio Grande do Sul e foi escritor e jornalista. Sua obra fala de solidão, desejo, amor entre homens e da sensação de não pertencer, com linguagem próxima da fala e muitas referências à cultura pop. Morreu em 1996, em decorrência da aids.",
+   "contexto": "O livro saiu em 1982, no fim da ditadura militar, durante a abertura política. Retrata uma geração que viveu os sonhos da contracultura dos anos 1960 e 1970 e chegou aos anos 1980 desiludida, como sugere a imagem de morangos que mofaram. Tratar da homossexualidade com franqueza, como em Aqueles dois, era corajoso para a época.",
+   "enredo_ou_conteudo": "Os contos escolhidos acompanham personagens solitários, em busca de afeto e de sentido. Em Aqueles dois, dois colegas de repartição criam uma amizade íntima que o ambiente de trabalho não aceita. Terça-Feira Gorda mostra um encontro de dois homens no carnaval que termina em violência. Além do Ponto acompanha, num monólogo ansioso, alguém indo ao encontro de outra pessoa. Os demais exploram o diálogo, a memória e encontros e desencontros amorosos, com experimentação na forma.",
+   "temas": [
+    "solidão e busca de afeto",
+    "desejo e homoafetividade",
+    "preconceito e violência",
+    "desilusão de uma geração",
+    "repressão e ditadura",
+    "linguagem coloquial e fluxo de consciência"
+   ],
+   "como_cai": "A Unicamp costuma cobrar a forma: pontuação, ritmo da frase, tempos e modos verbais. Nas provas de 2025 e 2026, as questões pediram para relacionar a escrita acelerada e sem pausas, ou o uso do subjuntivo, ao estado emocional dos personagens. Também cobram o contexto (fim da ditadura, contracultura) e o tema do preconceito.",
+   "perguntas_para_estudo": [
+    "O que a imagem de morangos mofados sugere sobre a geração retratada no livro?",
+    "Como a pontuação e o ritmo das frases expressam a ansiedade dos narradores?",
+    "De que forma o preconceito aparece em Aqueles dois e em Terça-Feira Gorda?",
+    "Como o conto Diálogo constrói sentido quase só com falas?",
+    "Que traços desses contos dialogam com a juventude de hoje?"
+   ],
+   "palavras_chave": [
+    "Morangos mofados",
+    "Caio Fernando Abreu",
+    "Aqueles dois",
+    "Terça-feira gorda",
+    "Além do ponto"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "unicamp-2025-1-q44",
+     "ed": "unicamp-2025-1",
+     "n": 44,
+     "ano": 2025,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2026-1-q63",
+     "ed": "unicamp-2026-1",
+     "n": 63,
+     "ano": 2026,
+     "tipo": "objetiva"
+    }
+   ]
+  },
+  "olhos-dagua": {
+   "titulo": "Olhos d'água",
+   "autor": "Conceição Evaristo",
+   "ano": 2014,
+   "genero": "contos",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": false,
+   "sobre_autor": "Conceição Evaristo nasceu em 1946 em Belo Horizonte, numa família pobre, e trabalhou como empregada doméstica antes de se mudar para o Rio de Janeiro, onde foi professora e se tornou doutora em Literatura. É uma das vozes mais importantes da literatura negra brasileira. Criou o conceito de escrevivência: a escrita que nasce da vivência, sobretudo das mulheres negras.",
+   "contexto": "Publicado em 2014, o livro foi premiado no Prêmio Jabuti de 2015, na categoria contos e crônicas. Faz parte da literatura afro-brasileira contemporânea e dá protagonismo a personagens negros das periferias, sobretudo mulheres, que raramente ocupavam o centro da literatura. É um bom exemplo de escrevivência.",
+   "enredo_ou_conteudo": "São quinze contos sobre mulheres, homens e crianças negras pobres, marcados pela violência urbana, pela desigualdade e pelo racismo, mas também pelo afeto, pela memória e pela força das relações familiares. No conto que dá título ao livro, uma filha tenta lembrar a cor dos olhos da mãe, e essa busca leva a uma reflexão sobre ancestralidade. Outros contos, como Ana Davenga, Maria e Duzu-Querença, acompanham destinos atravessados pela violência e pelo abandono. A linguagem é poética mesmo diante da dureza dos fatos.",
+   "temas": [
+    "ancestralidade e maternidade",
+    "violência urbana",
+    "racismo e desigualdade",
+    "experiência das mulheres negras",
+    "memória",
+    "escrevivência"
+   ],
+   "como_cai": "As questões pedem para recontar episódios dos contos e relacioná-los a conceitos, como fez a Unicamp em 2026 com Ana Davenga e a ideia de corpo-mulher-negra. O ponto de vista do narrador (de dentro ou de fora da personagem) é muito cobrado. Também caem comparações com outras autoras negras e africanas.",
+   "perguntas_para_estudo": [
+    "Por que a busca pela cor dos olhos da mãe é tão importante no conto que dá título ao livro?",
+    "Como a violência urbana atravessa a vida das personagens em contos como Maria e Ana Davenga?",
+    "De que forma o narrador se aproxima ou se afasta das personagens?",
+    "Como a linguagem poética convive com a dureza dos fatos narrados?",
+    "O que significa escrevivência e como ela aparece nesses contos?"
+   ],
+   "palavras_chave": [
+    "Olhos d'água",
+    "Olhos d’água",
+    "Conceição Evaristo",
+    "Evaristo",
+    "Ana Davenga",
+    "Duzu-Querença",
+    "escrevivência"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2025-2-d1-q02",
+     "ed": "fuvest-2025-2-d1",
+     "n": 2,
+     "ano": 2025,
+     "tipo": "discursiva"
+    },
+    {
+     "id": "unicamp-2024-1-q08",
+     "ed": "unicamp-2024-1",
+     "n": 8,
+     "ano": 2024,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2025-1-q43",
+     "ed": "unicamp-2025-1",
+     "n": 43,
+     "ano": 2025,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2026-2-d1-q04",
+     "ed": "unicamp-2026-2-d1",
+     "n": 4,
+     "ano": 2026,
+     "tipo": "discursiva"
+    }
+   ]
+  },
+  "no-seu-pescoco": {
+   "titulo": "No seu pescoço",
+   "autor": "Chimamanda Ngozi Adichie",
+   "ano": 2009,
+   "genero": "contos",
+   "recorte": "obra completa",
+   "origem": "Nigéria",
+   "dominio_publico": false,
+   "sobre_autor": "Chimamanda Ngozi Adichie nasceu em 1977 na Nigéria, cresceu na cidade universitária de Nsukka e foi estudar nos Estados Unidos. É autora de romances como Hibisco roxo, Meio sol amarelo e Americanah. Ficou mundialmente conhecida também pelas palestras O perigo de uma história única e Sejamos todos feministas.",
+   "contexto": "O livro saiu em inglês em 2009 (The Thing Around Your Neck) e no Brasil alguns anos depois. Os contos se passam na Nigéria e nos Estados Unidos e mostram a experiência de nigerianos dentro do país, marcado por ditaduras, violência política e conflitos religiosos, e fora dele, na imigração. A autora escreve contra os estereótipos sobre a África.",
+   "enredo_ou_conteudo": "São doze contos, a maioria com protagonistas mulheres. Alguns mostram nigerianos que emigraram para os Estados Unidos e enfrentam solidão, racismo e choque cultural, como em Réplica, em que uma mãe vive nos Estados Unidos com os filhos enquanto o marido passa a maior parte do tempo na Nigéria. Outros se passam na própria Nigéria e tratam de violência política, prisão e conflitos religiosos. O conto que dá título ao livro é narrado em segunda pessoa, o que aproxima o leitor da protagonista.",
+   "temas": [
+    "imigração e diáspora",
+    "choque cultural",
+    "racismo",
+    "condição da mulher",
+    "violência política na Nigéria",
+    "estereótipos sobre a África"
+   ],
+   "como_cai": "A Unicamp pergunta sobre a situação das personagens entre duas culturas (em 2026, sobre Réplica e o choque cultural), o ponto de vista e o uso da segunda pessoa. As alternativas erradas costumam inventar temas que o conto não tem, então é importante conhecer bem cada enredo. Relações com O perigo de uma história única também são comuns.",
+   "perguntas_para_estudo": [
+    "Como a imigração para os Estados Unidos muda a vida e a identidade das personagens?",
+    "Que efeito a narração em segunda pessoa produz no conto que dá título ao livro?",
+    "Como o livro desmonta ideias prontas sobre a África e os africanos?",
+    "Que formas de violência aparecem nos contos ambientados na Nigéria?",
+    "Como as mulheres dos contos lidam com o machismo, dentro e fora da Nigéria?"
+   ],
+   "palavras_chave": [
+    "No seu pescoço",
+    "Chimamanda",
+    "Adichie",
+    "Réplica",
+    "Nkem",
+    "A embaixada americana",
+    "Os casamenteiros"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "unicamp-2026-1-q62",
+     "ed": "unicamp-2026-1",
+     "n": 62,
+     "ano": 2026,
+     "tipo": "objetiva"
+    }
+   ]
+  },
+  "vida-e-morte-de-mj-gonzaga-de-sa": {
+   "titulo": "Vida e morte de M.J. Gonzaga de Sá",
+   "autor": "Lima Barreto",
+   "ano": 1919,
+   "genero": "romance",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": true,
+   "sobre_autor": "Lima Barreto (1881–1922), carioca e neto de escravizados, trabalhou como funcionário público e escreveu romances, contos e crônicas muito críticos à sociedade da Primeira República. Denunciou o racismo, a burocracia e a hipocrisia das elites. Seu livro mais conhecido é Triste fim de Policarpo Quaresma.",
+   "contexto": "Escrito em grande parte na década de 1900 e publicado em 1919, o romance pertence ao Pré-Modernismo. Ao fundo estão as reformas urbanas do Rio de Janeiro no começo do século XX, que derrubaram a cidade antiga e afastaram os pobres do centro. O livro tem uma advertência em que o próprio autor finge apenas apresentar uma biografia escrita por outra pessoa.",
+   "enredo_ou_conteudo": "O narrador, Augusto Machado, um jovem funcionário público negro, conta a vida do amigo mais velho Gonzaga de Sá, funcionário da Secretaria dos Cultos e descendente de uma família aristocrática decadente, ligada à fundação do Rio. Quase não há ação: o livro é feito de passeios pela cidade e conversas sobre o Rio, a história do Brasil, a burocracia e o preconceito. Gonzaga olha com saudade para o passado, enquanto Augusto é marcado pela lembrança das injustiças da escravidão e pelo desencanto com o futuro. Como o título indica, a narrativa acompanha o protagonista até a morte.",
+   "temas": [
+    "racismo e herança da escravidão",
+    "crítica à burocracia",
+    "transformações do Rio de Janeiro",
+    "decadência das elites",
+    "amizade e solidão",
+    "passado e futuro do Brasil"
+   ],
+   "como_cai": "As questões pedem para reconhecer a ironia contra a burocracia e a diferença entre os dois personagens. Na Unicamp 2025, um trecho satirizava a Secretaria dos Cultos; na 2ª fase de 2026, pediu-se a origem social de Gonzaga de Sá e de Augusto Machado e a visão de cada um sobre o Brasil. Também cai o contexto das reformas urbanas e do Pré-Modernismo.",
+   "perguntas_para_estudo": [
+    "Em que a origem social de Gonzaga de Sá e a de Augusto Machado são diferentes, e como isso aparece no livro?",
+    "Como cada um deles enxerga o passado e o futuro do Brasil?",
+    "De que forma o romance critica a burocracia do Estado?",
+    "Como a cidade do Rio de Janeiro, em plena transformação, aparece nos passeios dos dois amigos?",
+    "Por que o autor finge, na advertência, que o livro foi escrito por outra pessoa?"
+   ],
+   "palavras_chave": [
+    "Gonzaga de Sá",
+    "Lima Barreto",
+    "Augusto Machado",
+    "Secretaria dos Cultos"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "unicamp-2025-1-q42",
+     "ed": "unicamp-2025-1",
+     "n": 42,
+     "ano": 2025,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2026-2-d1-q03",
+     "ed": "unicamp-2026-2-d1",
+     "n": 3,
+     "ano": 2026,
+     "tipo": "discursiva"
+    }
+   ]
+  },
+  "memorias-postumas-de-bras-cubas": {
+   "titulo": "Memórias Póstumas de Brás Cubas",
+   "autor": "Machado de Assis",
+   "ano": 1881,
+   "genero": "romance",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": true,
+   "sobre_autor": "Machado de Assis (1839–1908) nasceu no Rio de Janeiro, filho de família pobre, neto de escravizados libertos, e se formou praticamente sozinho. Foi romancista, contista, cronista, poeta e crítico, e fundou e presidiu a Academia Brasileira de Letras. É considerado o maior escritor brasileiro.",
+   "contexto": "Publicado em folhetim em 1880 e em livro em 1881, o romance é o marco inicial do Realismo no Brasil. Rompe com a narrativa romântica ao apresentar um narrador irônico, que conversa com o leitor e expõe o egoísmo e a hipocrisia da elite do Segundo Reinado, ainda escravocrata.",
+   "enredo_ou_conteudo": "Brás Cubas é um defunto autor: depois de morto, decide escrever suas memórias, livre de qualquer preocupação com a opinião dos vivos. Ele conta sua vida de homem rico e ocioso no Rio de Janeiro do século XIX, a juventude com Marcela, o longo caso com Virgília, mulher casada, e os projetos que nunca chegou a realizar. Aparecem também personagens como Quincas Borba, criador da filosofia do Humanitismo, e Prudêncio, que fora escravizado pela família de Brás. Em capítulos curtos e cheios de digressões, ele faz um balanço de uma vida sem grandes realizações.",
+   "temas": [
+    "ironia e crítica social",
+    "egoísmo e vaidade",
+    "escravidão e relações de poder",
+    "elite do Segundo Reinado",
+    "morte e sentido da vida",
+    "adultério e aparências"
+   ],
+   "como_cai": "É uma das obras mais cobradas da história dos vestibulares. As questões exploram o narrador defunto e não confiável, a conversa com o leitor, a ironia, os capítulos curtos e as digressões, além da crítica à elite escravocrata (o episódio de Prudêncio é muito citado). Comparações com o Romantismo e com outros romances de Machado também são frequentes.",
+   "perguntas_para_estudo": [
+    "Que liberdade o fato de estar morto dá ao narrador, e por que devemos desconfiar dele?",
+    "Como a ironia de Brás Cubas revela a hipocrisia da elite do seu tempo?",
+    "O que o episódio de Prudêncio mostra sobre a escravidão?",
+    "Para que servem as conversas com o leitor e as digressões?",
+    "Por que este livro marca a passagem do Romantismo para o Realismo?"
+   ],
+   "palavras_chave": [
+    "Brás Cubas",
+    "Memórias póstumas",
+    "Machado de Assis",
+    "Virgília",
+    "Marcela",
+    "Quincas Borba",
+    "Prudêncio",
+    "Humanitismo"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2017-1-q10",
+     "ed": "fuvest-2017-1",
+     "n": 10,
+     "ano": 2017,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2017-1-q11",
+     "ed": "fuvest-2017-1",
+     "n": 11,
+     "ano": 2017,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2017-1-q12",
+     "ed": "fuvest-2017-1",
+     "n": 12,
+     "ano": 2017,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2018-1-q72",
+     "ed": "fuvest-2018-1",
+     "n": 72,
+     "ano": 2018,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2018-1-q73",
+     "ed": "fuvest-2018-1",
+     "n": 73,
+     "ano": 2018,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2019-1-q64",
+     "ed": "fuvest-2019-1",
+     "n": 64,
+     "ano": 2019,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2019-1-q71",
+     "ed": "fuvest-2019-1",
+     "n": 71,
+     "ano": 2019,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "fuvest-2019-1-q72",
+     "ed": "fuvest-2019-1",
+     "n": 72,
+     "ano": 2019,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2017-1-q09",
+     "ed": "unicamp-2017-1",
+     "n": 9,
+     "ano": 2017,
+     "tipo": "objetiva"
+    }
+   ]
+  },
+  "a-vida-nao-e-util": {
+   "titulo": "A vida não é útil",
+   "autor": "Ailton Krenak",
+   "ano": 2020,
+   "genero": "ensaio",
+   "recorte": "obra completa",
+   "origem": "Brasil",
+   "dominio_publico": false,
+   "sobre_autor": "Ailton Krenak nasceu em 1953, em Minas Gerais, na região do Rio Doce, e é uma das principais lideranças indígenas do Brasil. Ficou conhecido em 1987, quando discursou na Assembleia Constituinte em defesa dos direitos indígenas, pintando o rosto com tinta de jenipapo. Em 2023 foi eleito o primeiro indígena da Academia Brasileira de Letras; outro livro seu muito lido é Ideias para adiar o fim do mundo.",
+   "contexto": "O livro saiu em 2020, durante a pandemia de covid-19, e reúne textos que nasceram de falas e entrevistas do autor, adaptados para a escrita. Faz parte do pensamento indígena contemporâneo, que questiona o modo de vida baseado no consumo e na exploração da natureza, num momento de crise climática.",
+   "enredo_ou_conteudo": "Não há enredo: são ensaios curtos, em tom de conversa. Krenak critica a ideia de que a vida precisa ser útil e produtiva, e a separação entre humanidade e natureza, que trata a Terra como recurso a ser explorado. Ele fala dos rios e montanhas como parentes, lembra a destruição do Rio Doce pela mineração e usa a pandemia como alerta sobre o modo de vida atual. O livro propõe imaginar outras formas de viver, mais ligadas à Terra.",
+   "temas": [
+    "relação entre humanidade e natureza",
+    "crítica ao consumo e ao produtivismo",
+    "pensamento indígena",
+    "crise ambiental",
+    "pandemia",
+    "futuro da humanidade"
+   ],
+   "como_cai": "Krenak aparece em questões de literatura, filosofia, sociologia e atualidades. A Unicamp já comparou trechos do livro com poemas modernistas e com textos sobre catástrofes ambientais. Saiba identificar a tese do autor, a crítica à ideia de utilidade e a visão indígena da natureza.",
+   "perguntas_para_estudo": [
+    "O que Krenak quer dizer ao afirmar, já no título, que a vida não é útil?",
+    "Como o autor critica a separação entre humanidade e natureza?",
+    "Por que a pandemia aparece no livro como um alerta?",
+    "Que diferenças existem entre o modo de ver a Terra dos povos indígenas e o da sociedade de consumo?",
+    "O fato de os textos virem de falas muda a forma como o livro se comunica com o leitor?"
+   ],
+   "palavras_chave": [
+    "A vida não é útil",
+    "Krenak",
+    "Ailton Krenak"
+   ],
+   "revisao": "pendente",
+   "questoes": [
+    {
+     "id": "fuvest-2024-2-d1-q03",
+     "ed": "fuvest-2024-2-d1",
+     "n": 3,
+     "ano": 2024,
+     "tipo": "discursiva"
+    },
+    {
+     "id": "fuvest-2025-2-d1-q10",
+     "ed": "fuvest-2025-2-d1",
+     "n": 10,
+     "ano": 2025,
+     "tipo": "discursiva"
+    },
+    {
+     "id": "unicamp-2022-1-q07",
+     "ed": "unicamp-2022-1",
+     "n": 7,
+     "ano": 2022,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2022-1-q08",
+     "ed": "unicamp-2022-1",
+     "n": 8,
+     "ano": 2022,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2025-1-q45",
+     "ed": "unicamp-2025-1",
+     "n": 45,
+     "ano": 2025,
+     "tipo": "objetiva"
+    },
+    {
+     "id": "unicamp-2026-1-q60",
+     "ed": "unicamp-2026-1",
+     "n": 60,
+     "ano": 2026,
+     "tipo": "objetiva"
+    }
+   ]
+  }
+ }
+}
