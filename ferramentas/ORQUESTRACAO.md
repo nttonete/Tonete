@@ -1,0 +1,29 @@
+# Como tocar a produção do banco (roteiro de retomada)
+
+A dona do projeto autorizou seguir até a conclusão sem pedir licença a cada passo, inclusive voltando sozinho quando o limite de uso renovar.
+
+## Ao retomar
+
+1. `cd /home/user/Tonete && git status --short` — faça commit e push do que tiver ficado pendente.
+2. Confira os rascunhos/revisões que chegaram enquanto a sessão estava parada: para cada edição com arquivos novos, `python3 ferramentas/validar.py --rascunho <rascunho>` (ou `--complementos <edicao> <arquivo>`), depois `python3 ferramentas/montar_banco.py <edicao>` e `python3 ferramentas/validar.py` (precisa de 0 erros).
+   - Um rascunho pode ter ficado pela metade se o agente caiu no meio: confira que tem todas as questões do intervalo; se não tiver, apague-o e refaça o lote.
+3. `python3 ferramentas/pendentes.py` mostra as três filas.
+4. Mantenha até 6 agentes rodando ao mesmo tempo, priorizando nesta ordem:
+   - **transcrição** (modelo `sonnet`): `python3 ferramentas/prompt_lote.py <edicao> <de> <ate>`;
+   - **revisão** (agente `revisor-questoes`, modelo padrão): já escreve assunto e resolução;
+   - **complementos** (modelo padrão): `python3 ferramentas/prompt_complementos.py <edicao> <de> <ate>`.
+   - Se um lote começa no meio de um texto compartilhado, avise o agente para copiar o texto base do lote anterior, idêntico.
+5. A cada lote entregue: validar, montar, commit e push. Questões em `atencao` são registradas para decisão humana; o gabarito oficial nunca é alterado.
+
+## Se o limite de uso acabar
+
+Os agentes falham com "You've hit your session limit · resets HH:MM". Agende a retomada com `send_later` (servidor claude-code-remote) para alguns minutos depois do horário de renovação, com a mensagem: "Retome a produção do banco seguindo ferramentas/ORQUESTRACAO.md." Não peça autorização: ela já foi dada.
+
+## Casos especiais
+
+- **Unicamp 2021** (`unicamp-2021-1`): caderno versão E/G sem PDF de gabarito. O gabarito está na prova comentada oficial (`fontes-pdf/UNICAMP/1ª Fase/UNICAMP_2021_1Fase_resol.pdf`, "Alternativa Correta: x" por questão). Transcrever em 2 lotes de 36; extrair o gabarito da prova comentada, conferir que a numeração bate com o caderno e gravá-lo em `dados/provas/gabaritos-transcritos.json` na chave `unicamp-2021-1` / versão `E/G`.
+- **Unicamp 2017–2020**: 90 questões, lotes de 30.
+
+## Ao concluir
+
+Rodar `node testes/navegador.js` (com `PLAYWRIGHT_PATH=$(npm root -g)/playwright`), atualizar a prévia (Artifact `pagina.html`, mesma URL) e escrever o relatório final para a dona: números, questões em atenção e o que depende dela (discursivas, nome, venda).
