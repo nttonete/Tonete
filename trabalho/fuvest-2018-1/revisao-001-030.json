@@ -1,0 +1,195 @@
+{
+ "edicao": "fuvest-2018-1",
+ "intervalo": [
+  1,
+  30
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 22,
+   "materia": "quimica",
+   "materias_extra": [
+    "biologia"
+   ],
+   "texto_base": null,
+   "enunciado": "O hormônio melatonina é responsável pela sensação de sonolência. Em nosso organismo, a concentração de melatonina começa a aumentar ao anoitecer, atinge o máximo no meio da noite e decresce com a luz do dia. A melatonina é sintetizada a partir do aminoácido triptofano, em quatro etapas catalisadas por diferentes enzimas, sendo que a enzima 3 é degradada em presença de luz.\n\n![Esquema da síntese da melatonina: triptofano, enzima 1 (etapa 1), composto intermediário com grupo HO no anel, enzima 2 (etapa 2), serotonina, enzima 3 (etapa 3), N-acetil-serotonina, enzima 4 (etapa 4), melatonina](fig:p09-f1)\n\nConsidere as seguintes afirmações a respeito desse processo:\n\nI. Na etapa 2, há perda de dióxido de carbono e, na etapa 3, a serotonina é transformada em uma amida.\nII. A manipulação de objetos que emitem luz, como celulares e *tablets*, pode interromper ou tornar muito lento o processo de transformação da serotonina em N-acetil-serotonina.\nIII. O aumento da concentração de triptofano na corrente sanguínea pode fazer com que a pessoa adormeça mais lentamente ao anoitecer.\n\nÉ correto o que se afirma em",
+   "alternativas": {
+    "A": "I e II, apenas.",
+    "B": "I e III, apenas.",
+    "C": "II e III, apenas.",
+    "D": "III, apenas.",
+    "E": "I, II e III."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 30,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Gráfico com eixos x e y e duas curvas senoidais que passam pela origem, uma em linha pontilhada e outra em linha contínua](fig:p11-f2)\n\nAdmitindo que a linha pontilhada represente o gráfico da função $f(x) = \\mathit{sen}(x)$ e que a linha contínua represente o gráfico da função $g(x) = \\alpha\\,\\mathit{sen}(\\beta x)$, segue que",
+   "alternativas": {
+    "A": "$0 < \\alpha < 1$ e $0 < \\beta < 1$.",
+    "B": "$\\alpha > 1$ e $0 < \\beta < 1$.",
+    "C": "$\\alpha = 1$ e $\\beta > 1$.",
+    "D": "$0 < \\alpha < 1$ e $\\beta > 1$.",
+    "E": "$0 < \\alpha < 1$ e $\\beta = 1$."
+   },
+   "observacoes": ""
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 1,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 2,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 3,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 4,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 5,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 6,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 7,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 8,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 9,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 10,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 11,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 12,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 13,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 14,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 15,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 16,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 17,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 18,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 19,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 20,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 21,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 22,
+   "status": "corrigida",
+   "notas": "descrição da figura chamava o intermediário sem nome do esquema de \"serotonina precursora\" (nome que não está no caderno); trocado por \"composto intermediário com grupo HO no anel\""
+  },
+  {
+   "numero": 23,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 24,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 25,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 26,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 27,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 28,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 29,
+   "status": "ok",
+   "notas": "minha primeira resolução deu D (720°), supondo pontas formadas por lados separados por um lado; refeita com a figura: cada ponta é formada por lados separados por dois lados (ex.: α2 entre as retas DC e HA), o que dá 360°, de acordo com o gabarito oficial B. Transcrição conferida."
+  },
+  {
+   "numero": 30,
+   "status": "corrigida",
+   "notas": "descrição da figura entregava a resposta (\"menor frequência e amplitude menor\"); trocada por descrição neutra das duas curvas"
+  }
+ ]
+}
