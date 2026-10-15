@@ -1,0 +1,87 @@
+{
+ "edicao": "unicamp-2019-2-d3",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 10,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A levitação acústica consiste no emprego de ondas acústicas para exercer força sobre objetos e com isso mantê-los suspensos no ar, como a formiga representada na figura A, ou movimentá-los de forma controlada. Uma das técnicas utilizadas baseia-se na formação de ondas acústicas estacionárias entre duas placas, como ilustra a figura B, que mostra a amplitude da pressão em função da posição vertical.\n\n![Figura A: fotografia de uma formiga suspensa entre duas peças metálicas, ao lado de uma régua graduada em centímetros, de 0 a 4. Figura B: esquema de duas placas, uma acima da outra, com um eixo z vertical, curvas de pressão entre as placas, uma esfera marcada junto de uma das curvas e a distância Δz entre a esfera e o ponto de cruzamento das curvas indicada por setas](fig:p12-c1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "As frequências de ressonância acústica entre duas placas, ou num tubo fechado nas duas extremidades, são dadas por $f_n = \\frac{nv}{2L}$, sendo $L$ a distância entre as placas, $v = 340\\ \\text{m/s}$ a velocidade do som no ar, e $n$ um número inteiro positivo e não nulo que designa o modo. Qual é a frequência do modo ilustrado na figura B?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A força acústica aplicada numa pequena esfera aponta sempre na direção $z$ e no sentido do nó de pressão mais próximo. Nas proximidades de cada nó, a força acústica pode ser aproximada por $F_{\\text{ac}} = -k\\Delta z$, sendo $k$ uma constante e $\\Delta z = z - z_{\\text{nó}}$. Ou seja, a força aponta para cima (positiva) quando a esfera está abaixo do nó ($\\Delta z$ negativo), e vice-versa. Se $k = 6{,}0\\times10^{-2}\\ \\text{N/m}$ e uma esfera de massa $m = 1{,}5\\times10^{-6}\\ \\text{kg}$ é solta a partir do repouso na posição de um nó, qual será a menor distância percorrida pela esfera até que ela volte a ficar instantaneamente em repouso? Despreze o atrito viscoso da esfera com o ar."
+    }
+   ],
+   "observacoes": "A figura (fotografia e esquema) vem impressa dentro do quadro de resolução do caderno; foi recortada sem as linhas de resposta."
+  },
+  {
+   "numero": 11,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Capacitores são componentes de circuitos elétricos que têm a função de armazenar carga. O tempo necessário para carregar ou descarregar um capacitor depende da sua capacitância $C$, bem como das características dos outros componentes a que ele está ligado no circuito. É a relativa demora na descarga dos capacitores que faz com que o desligamento de certos eletrodomésticos não seja instantâneo. O circuito da figura A apresenta um capacitor de capacitância $C = 20\\ \\frac{\\mu\\text{C}}{\\text{V}} = 20\\ \\mu\\text{F}$ ligado a dois resistores de resistências $R_A = 40\\ \\text{k}\\Omega$ e $R_B = 60\\ \\text{k}\\Omega$, e a uma bateria de força eletromotriz $\\varepsilon = 12\\ \\text{V}$. A chave S é ligada no instante $t = 0$ e o gráfico da figura B mostra a carga $q(t)$ no capacitor em função do tempo.\n\n![Figura A: circuito com uma bateria de força eletromotriz ε e uma chave S em série com o resistor R_A, percorrido pela corrente i_A; em seguida, em paralelo, o resistor R_B, percorrido pela corrente i_B, e o capacitor C, percorrido pela corrente i_C](fig:p13-c3)\n\n![Figura B: gráfico da carga no capacitor, em 10⁻⁶ C, em função do tempo, em segundos, de 0,0 a 1,0, com uma curva crescente que parte da origem](fig:p13-c2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a diferença de potencial no capacitor em $t = 0{,}2\\ \\text{s}$?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Num outro instante, a corrente no capacitor é $i_C = 150\\ \\mu\\text{A}$. Quanto vale a corrente $i_B$ no resistor $R_B$ nesse instante?"
+    }
+   ],
+   "observacoes": "A figura B vem impressa dentro do quadro de resolução do caderno; foi recortada sem as linhas de resposta."
+  },
+  {
+   "numero": 12,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Todos os corpos emitem radiação, e quanto maior a temperatura do corpo, maior a potência por ele radiada. Idealmente, os corpos que têm a capacidade de absorver toda a radiação que recebem são também os melhores emissores de radiação. Esses corpos são chamados de corpos negros e apresentam espectros de emissão de radiação que dependem somente de suas temperaturas. Além disso, o comprimento de onda de máxima radiação relaciona-se com a temperatura do corpo da seguinte forma: $\\lambda_{\\text{max}} = \\frac{b}{T}$, sendo $b = 3\\times10^{-3}\\ \\text{m}\\times\\text{K}$. O Sol tem um espectro de emissão similar ao espectro do corpo negro mostrado na figura A. Os valores de emitância estão divididos pelo valor máximo; já a escala de comprimentos de onda está em nanômetros ($1{,}0\\ \\text{nm} = 1{,}0\\times10^{-9}\\ \\text{m}$). Quanto vale a temperatura do corpo negro?\n\n![Figura A: gráfico da emitância, de 0,0 a 1,0, em função do comprimento de onda λ, em nm, de 0 a 1500, com uma curva que sobe até um ponto mais alto e depois decresce](fig:p14-c3)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A separação da radiação luminosa nos diferentes comprimentos de onda é usualmente feita pelo emprego de uma grade de difração ou de um prisma. Quando um feixe luminoso incide numa das faces de um prisma, parte dele é refletida, e outra parte é refratada. Considere que o feixe luminoso, composto das cores azul e vermelha, incide na face do prisma conforme mostra a figura B. Trace os raios refletidos e os raios refratados na primeira face do prisma, lembrando que o índice de refração depende do comprimento de onda.\n\n*Campo de resolução:* ![Figura B: prisma de base triangular com um feixe incidente chegando à face esquerda, a normal tracejada nesse ponto e o ângulo θ₁ indicado entre o feixe incidente e a normal](fig:p14-c2)"
+    }
+   ],
+   "observacoes": "As figuras A e B vêm impressas dentro do quadro de resolução do caderno; foram recortadas sem as linhas de resposta. A figura B é a base sobre a qual o item b manda traçar os raios (campo de resolução)."
+  }
+ ],
+ "respostas": {
+  "10": {
+   "resposta": "**Objetivo da questão:** O item **a** versa sobre ondulatória, abordando as frequências de ressonância acústicas em um tubo fechado. A expressão para as frequências de ressonância foi dada, e o candidato deveria fazer a leitura do diagrama e encontrar o modo (valor de n).\n\nNo item **b** a força acústica é aproximada por uma força elástica (válida nas proximidades dos nós de pressão). A partir daí, através da conservação da energia mecânica (potencial elástica e potencial gravitacional), o candidato deveria encontrar o ponto de retorno da esfera.",
+   "itens": {
+    "a": "(2 pontos)\n\nPela interpretação da imagem temos $n = 3$ e $L = 3{,}4\\ \\text{cm} = 3{,}4\\times10^{-2}\\ \\text{m}$. Assim,\n\n$$f_3 = \\frac{3\\times340\\ \\text{m/s}}{2\\times3{,}4\\times10^{-2}\\ \\text{m}} = 15000\\ \\text{Hz} = 15\\ \\text{kHz}.$$",
+    "b": "(2 pontos)\n\nPelo princípio de conservação de energia, $mgd = \\frac{kd^2}{2}$. Assim,\n\n$$d = \\frac{2mg}{k} = \\frac{2\\times1{,}5\\times10^{-6}\\times10}{6{,}0\\times10^{-2}} = 5\\times10^{-4}\\ \\text{m} = 0{,}5\\ \\text{mm}.$$"
+   }
+  },
+  "11": {
+   "resposta": "**Objetivo da questão:** A questão aborda o tema de circuitos elétricos, em particular a lei das malhas e a lei dos nós. As correntes nos diferentes ramos do circuito variam com o tempo. A queda de tensão em resistores e num capacitor também foi exigida na resolução. O candidato deveria ler num gráfico a carga armazenada no capacitor num dado instante.",
+   "itens": {
+    "a": "(2 pontos)\n\nPelo gráfico temos $q(0{,}2\\ \\text{s}) = 50\\times10^{-6}\\ \\text{C}$. Assim,\n\n$$V_C = \\frac{q}{C} = \\frac{50\\times10^{-6}\\ \\text{C}}{20\\times10^{-6}\\ \\text{C/V}} = 2{,}5\\ \\text{V}.$$",
+    "b": "(2 pontos)\n\nUsando as leis de Kirchhoff das malhas e dos nós para o circuito da figura A, temos $\\varepsilon = V_{R_A} + V_{R_B}$ e $i_A = i_B + i_C$. Assim,\n\n$\\varepsilon - R_A i_A - R_B i_B = 0$,\n$\\varepsilon - R_A (i_B + i_C) - R_B i_B = 0$,\n\n$$i_B = \\frac{\\varepsilon - R_A i_C}{R_A + R_B} = \\frac{12\\ \\text{V} - (40\\times10^3\\ \\Omega)\\times(150\\times10^{-6}\\ \\text{A})}{(40+60)\\times10^3\\ \\Omega} = 60\\ \\mu\\text{A}.$$"
+   }
+  },
+  "12": {
+   "resposta": "**Objetivo da questão:** Trata-se de uma questão sobre Física moderna e óptica geométrica.\n\nNo item **a**, o candidato deveria calcular a temperatura de um corpo negro com espectro de emissão similar ao do Sol. Para isso, foi fornecida a lei de Wien, que relaciona o comprimento de máxima emissão, $\\lambda_{\\text{max}}$, com a temperatura do corpo. O candidato deveria identificar $\\lambda_{\\text{max}}$ no gráfico do espectro de emissão do corpo negro.\n\nO item **b** aborda as leis de refração e de reflexão de forma qualitativa, para a incidência de dois comprimentos de onda no visível na primeira interface ar-vidro de um prisma.",
+   "itens": {
+    "a": "(2 pontos)\n\nPelo gráfico, $\\lambda_{\\text{max}} = 500\\ \\text{nm}$. Assim,\n\n$$T = \\frac{b}{\\lambda_{\\text{max}}} = \\frac{3\\times10^{-3}\\ \\text{m}\\times\\text{K}}{500\\times10^{-9}\\ \\text{m}} = 6000\\ \\text{K}.$$",
+    "b": "(2 pontos)\n\nConforme a lei da reflexão, o ângulo de reflexão é igual ao ângulo de incidência, independentemente do comprimento de onda da luz incidente. A lei de Snell-Descartes diz que, nesse caso, quanto maior o índice de refração do prisma, menor o ângulo de refração. Além disso, o índice de refração do prisma para a cor azul (menor comprimento de onda) é maior do que para a cor vermelha (maior comprimento de onda).\n\n![Figura B com a resposta: feixe incidente formando o ângulo θ₁ com a normal, feixe refletido saindo da face com o mesmo ângulo θ₁ do outro lado da normal e, dentro do prisma, dois raios refratados, um vermelho e um azul, com o raio azul mais próximo da normal que o vermelho](fig:r04-c1)"
+   }
+  }
+ }
+}
