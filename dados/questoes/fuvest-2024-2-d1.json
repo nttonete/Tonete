@@ -1,0 +1,202 @@
+{
+ "edicao": {
+  "id": "fuvest-2024-2-d1",
+  "vestibular": "fuvest",
+  "ano": 2024,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "FUVEST (USP) 2024 – 2ª fase (1º dia: Português)",
+  "caderno": "1º dia: Português",
+  "fonte": {
+   "caderno": "2fase-dia1-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-respostas.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "fuvest-2024-2-d1-q01",
+   "numero": 1,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere o anúncio jornalístico e os comentários do X (antigo Twitter) para responder à questão.\n\n![Publicação do perfil @Estadão no X (antigo Twitter): “>@mahpaes: Museu da Língua Portuguesa abre café em seu rooftop.”, com foto da torre do relógio da Estação da Luz e a chamada “Museu da Língua Portuguesa abre café em seu rooftop. O espaço tem vista para o relógio da Estação da Luz, do Parque da Luz e da estação Júlio Prestes.”](fig:p02-f1)\n\n![Três comentários do X (antigo Twitter), de 21 de junho, com os nomes dos usuários ocultados: “Pode traduzir pra Língua Portuguesa, por favor?”; “Sabe que estamos no Brasil e a língua portuguesa é a oficial, né?”; “Pode ser TERRAÇO, \"LAJE\", COBERTURA? Meu, tão falando com anglicismo do MUSEU DA LINGUA PORTUGUESA.”](fig:p02-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O anúncio da abertura de um café no Museu da Língua Portuguesa causou muita agitação nas redes sociais. Considerando os comentários retirados do antigo Twitter, como se caracteriza a postura dos usuários em relação à reportagem e ao próprio idioma?",
+     "resposta_oficial": "A postura dos usuários se caracteriza por meio do incômodo causado pela escolha de um estrangeirismo para nomear um espaço de um museu cujo título traz o nome de Língua Portuguesa. A exemplo do que compõe os comentários, o incômodo é reforçado por ser um espaço no Brasil, sendo a língua oficial o português, e não se tratar mais de uma colônia. Agrega-se a isso a referência a outros casos de estrangeirismos, como o empresarial, no caso do comentário que traz os termos “business\" e “meetings”. Ao se fazer referência ao próprio idioma, cuja origem se relaciona a um processo de colonização marcado por conflitos de diferentes naturezas, tendo a língua como instrumento de poder, o incômodo apresenta-se ainda mais intenso."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Os comentários apresentados revelam o registro informal da língua. Identifique dois exemplos de registros informais e explique de que maneira colaboram para a construção de sentido do texto.",
+     "resposta_oficial": "Nos comentários do Twitter, observa-se o uso de diversos registros informais, entre eles, “né” e “meu”. Esses registros, típicos da oralidade, utilizados em uma rede social, contribuem para reforçar o caráter interativo e informal do texto, chamando atenção dos leitores, como “meu”, e/ou reforçando e instigando o que foi mencionado, a exemplo de “né”."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Considerando a comunicação por meio de redes sociais, explorar a distinção entre variedades do português e a implicação do uso de registros informais da língua na construção de sentido dos textos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2024-2-d1-q02",
+   "numero": 2,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia o texto para responder à questão.\n\n“Tudo que nos acontece, especialmente nesta era da (Des)Informação, pode ser sintetizado pelas imagens que passam, céleres, pela internet, com destaque para as que estão nas redes sociais. Os textos vão ficando cada vez mais curtos, os vídeos, minúsculos, porém, mais numerosos e cheios de efeitos. As fotos, cada vez mais sofisticadas, mais ‘nítidas’ ou elaboradas com técnicas de inteligência artificial, fazem com que duvidemos do que vemos, o que nos torna cada vez mais incrédulos e inseguros daquilo que nos acontece. Quem não se chocou com as imagens de destruição dos prédios dos Três Poderes brasileiros por conta do ataque de vândalos no dia 8 de janeiro? E o que dizer das fotos e vídeos dos Yanomami, exibindo o descaso, o descuido, a crueldade, o genocídio em curso, como já afirmam as diversas instituições responsáveis pelos direitos humanos no Brasil e no mundo? Muitos de nós realmente ficamos sem palavras, e não porque ‘uma imagem vale mais do que mil palavras’, mas sobretudo porque ainda há quem questione se estamos vendo o que estamos vendo e, o que é mais preocupante, saindo em defesa ou contrapondo essas imagens com outras, ‘fakes’ e eivadas de teorias conspiratórias. Olhar, no mundo em que vivemos, mais do que nunca é buscar e ‘fabricar uma significação’. Nesses tempos em que reinam a desinformação e as teorias conspiratórias, ter ‘olhos de ver’ é mais um dos desafios que temos de enfrentar no nosso cotidiano, especialmente se estamos nas mídias sociais. Está cada dia mais complicado pensar sobre o que vemos.”\n\nJanuária Cristina Alves. Uma imagem é sempre muito mais do que uma imagem. 02/02/2023. Disponível em https://www.nexojornal.com.br/. Adaptado.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual o significado no texto da expressão “olhos de ver”? Relacione o seu sentido com a sua importância em tempos de “(Des)Informação”.",
+     "resposta_oficial": "A expressão “olhos de ver” remete a um significado que vai além do simples ato físico, inclui também o “buscar e fabricar sentidos”, isto é, significa analisar tudo que acontece e circula na internet, principalmente imagens e vídeos, considerando outros aspectos, como a realidade social, os problemas culturais, diferenciando o que é de fato importante e coerente do que é resultado de fake news ou manipulação tecnológica, por exemplo. Em tempos de (Des)informação, a sua importância se concretiza pela necessidade de haver filtros para analisar com segurança as informações que chegam às pessoas, de forma cada vez mais rápida, numerosa e até mesmo criminosa."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Mantendo o sentido do texto, escreva três palavras que podem substituir, respectivamente, “céleres”, “incrédulos\" e “eivadas”.",
+     "resposta_oficial": "As três palavras, entre outras, podem ser:\n\n\"Céleres\"\n\n- rápidas\n- ligerias\n- velozes\n- aceleradas\n- apressadas\n- fugazes\n- efêmera\n- ágeis\n- breves\n\n\"Incrédulos\"\n\n- descrentes\n- céticos\n- desconfiados\n\n\"Eivadas\"\n\n- repletas\n- contaminadas\n- maculadas\n- cheias\n- carregadas\n- permeadas\n- impregnadas"
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Avaliar a capacidade de interpretação e a identificação de sentido de expressões do texto. Considerando o contexto, a mobilização de vocábulos do repertório dos candidatos que se adequam sinonimamente.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2024-2-d1-q03",
+   "numero": 3,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia o texto para responder à questão.\n\n“Quando falo de humanidade não estou falando só do *Homo sapiens*, me refiro a uma imensidão de seres que nós excluímos desde sempre: caçamos baleia, tiramos barbatana de tubarão, matamos leão e o penduramos na parede para mostrar que somos mais bravos que ele. Além da matança de todos os outros humanos que a gente achou que não tinham nada, que estavam aí só para nos suprir com roupa, comida, abrigo. Somos a praga do planeta, uma espécie de ameba gigante. Ao longo da história, os humanos, aliás, esse clube exclusivo da humanidade — que está na declaração universal dos direitos humanos e nos protocolos das instituições —, foram devastando tudo ao seu redor. É como se tivessem elegido uma casta, a humanidade, e todos que estão fora dela são a sub-humanidade. Não são só os caiçaras, quilombolas e povos indígenas, mas toda vida que deliberadamente largamos à margem do caminho. E o caminho é o progresso: essa ideia prospectiva de que estamos indo para algum lugar. Há um horizonte, estamos indo para lá, e vamos largando no percurso tudo que não interessa, o que sobra, a sub-humanidade — alguns de nós fazemos parte dela.\n\nÉ incrível que esse vírus que está aí agora esteja atingindo só as pessoas. Foi uma manobra fantástica do organismo da Terra tirar a teta da nossa boca e dizer: ‘Respirem agora, quero ver’. Isso denuncia o artifício do tipo de vida que nós criamos, porque chega uma hora que você precisa de uma máscara, de um aparelho para respirar, mas, em algum lugar, o aparelho precisa de uma usina hidrelétrica, nuclear ou de um gerador de energia qualquer.\n\nE o gerador também pode apagar, independentemente do nosso decreto, da nossa disposição. Estamos sendo lembrados de que somos tão vulneráveis que, se cortarem nosso ar por alguns minutos, a gente morre. Não é preciso nenhum sistema bélico complexo para apagar essa tal de humanidade: se extingue com a mesma facilidade que os mosquitos de uma sala depois de aplicado um aerossol. Nós não estamos com nada: essa é a declaração da Terra.”\n\nAilton Krenak. A vida não é útil. 2020.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Identifique o processo de formação das palavras “humanidade” e “sub-humanidade”, bem como o seu sentido no texto.",
+     "resposta_oficial": "“Humanidade” e “sub-humanidade” são palavras derivadas de “humano”. A primeira por meio do acréscimo do sufixo -idade; a segunda, do prefixo sub-. “Humano”, no texto, é um termo que possui caráter dúbio, particularizado pelos determinantes “os\" e “outros\", entre “os humanos” e os “outros humanos”. Os primeiros, aqueles que compõem a tal casta da humanidade; os segundos, a representação de pessoas desprovidas de qualquer tipo de condição, a não ser a de serviçal, \"que estavam aí só para nos suprir com roupa, comida, abrigo”. Já “Humanidade”, primeiramente, é apresentada com algo mais genérico, incluindo seres humanos e animais; depois, como uma espécie de casta, um grupo social fechado, composto basicamente por parte da sociedade, aqueles com poder para caçar, devastar, excluir e ainda ser protegido pelo sistema, dos direitos humanos e das instituições. Nesse sentido, o sufixo - idade, que corresponderia à qualidade do que é humano, à sua natureza e condição humana, é limitado apenas à sua condição de prestígio, isto é, parte dos humanos. “Sub-Humanidade” equivale ao sentido de “outros humanos”, ou seja, todos aqueles que sofrem, de alguma forma, violência ou discriminação e não estão protegidos pelo sistema em uma situação de prestígio. Trata-se aqui de uma construção de palavra que realmente é coerente com o significado do prefixo -sub, usado para enfatizar o caráter de inferioridade abrangido pelo sentido da palavra no texto."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Mantendo a correlação verbal, reescreva, na folha de respostas, o trecho a seguir iniciando por “Estávamos”.\n\n*Estamos sendo lembrados de que somos tão vulneráveis que, se cortarem nosso ar por alguns minutos, a gente morre.*",
+     "resposta_oficial": "Estávamos sendo lembrados de que éramos tão vulneráveis que, se cortassem nosso ar por alguns minutos, a gente morreria."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Avaliar a capacidade de identificação de elementos estruturais e processos de formação das palavras na construção de sentido do texto. Além disso, a produção textual tendo em vista correlações entre tempos verbais.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2024-2-d1-q04",
+   "numero": 4,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Considere os dois verbetes a seguir para responder à questão.\n\n**travesti**\ns.m. + s. f.\n\n1 Pessoa que se veste com roupas do sexo oposto, geralmente, em espetáculos teatrais ou para ter satisfação psicológica.\n2 *p. ext.* Homossexual que se veste de mulher; traveca, travecão, traveco.\n\nDicionário Michaelis, *online*.\n\n**Travesti**\nÉ uma identidade de gênero tipicamente latinoamericana que possui história e características sociopolíticas próprias. “Travesti” não é um termo pejorativo, é uma identidade que a comunidade ostenta com orgulho. O termo “Traveco”, por sua vez, é ofensivo e não deve ser utilizado. A travestilidade não se restringe ao binarismo de gênero, mas as travestis apresentam expressão de gênero feminina e devem ser tratadas com pronomes femininos, bem como devem ter seus nomes sociais respeitados. Portanto, não existe “o” travesti, e sim “a” travesti.\n\nGlossário Antidiscriminatório.\nMinistério Público do Estado de Minas Gerais, 2022. *online.*",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual o tratamento dado ao termo \"traveco\", na segunda acepção do Dicionário *Michaelis*, e no Glossário Antidiscriminatório? De que modo os sentidos desse termo, no Dicionário e no Glossário, se aproximam ou se afastam?",
+     "resposta_oficial": "No Dicionário Michaelis, o termo 'traveco' é listado como sinônimo de 'travesti', enquanto no Glossário, ressalta-se que o termo 'traveco' é ofensivo e não deve ser utilizado. Ou seja, 'traveco' não pode ser apresentado como sinônimo de 'travesti'. Assim, os sentidos desse termo se afastam nas obras referidas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Redija uma atualização do verbete “travesti” para o Dicionário *Michaelis*, incluindo sua classe e gênero gramaticais.",
+     "resposta_oficial": "travesti - s.f.\n\nRefere-se a uma identidade de gênero, cuja expressão se associa à feminilidade, apesar de não se restringir ao binarismo de gênero."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão traz à tona um tema social importante na atualidade, qual seja a questão trans, e expõe como certos preconceitos se cristalizam em obras de referência. Exige da/do candidato uma leitura crítica da contemporaneidade e a capacidade de interpretar e escrever definições para termos sensíveis",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2024-2-d1-q05",
+   "numero": 5,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia o texto para responder à questão.\n\n“A Dinamarca vai devolver ao Brasil um manto tupinambá que está em Copenhague desde pelo menos 1699. A peça, considerada extremamente rara, será doada para o Museu Nacional, no Rio de Janeiro, pelo Museu Nacional da Dinamarca. O manto é feito de penas vermelhas de guará. Artista, Glicéria Tupinambá está completando sua formação em antropologia no Museu Nacional e vem realizando um trabalho de encontro e pesquisa dos mantos e outros artefatos de seus ancestrais junto às instituições europeias. Em 2006, Glicéria estava trabalhando na composição de um novo manto tupinambá como forma de agradecimento a entidades sagradas, os Encantados, pelo processo de retomada do território indígena. Por meio de fotos, ela vinha tentando entender a técnica para fazer a trama dos mantos da mesma forma que era feita por seus antepassados. ‘Eu fui entendendo a questão do ponto, que é o ponto do jereré, que as mulheres tupinambá utilizam para fazer instrumentos de pesca. Só duas mulheres sabiam fazer esse ponto na aldeia, minha madrinha de 97 anos e minha prima de 78 anos. Mulheres detentoras de um saber que está quase extinto’, conta ela. O primeiro manto que Glicéria teve oportunidade de conhecer pessoalmente está — ainda — na França. ‘Eu quero ver o avesso’, disse ela à equipe do museu parisiense, em 2018. ‘O pessoal fica muito ligado na cor da pena, mas eu queria entender a malha, a técnica, ver o avesso’. Mas não só isso. Glicéria também queria escutar o manto. ‘O manto fala comigo. A gente tem uma relação ancestral’, explica ela. ‘Sei que para quem passou a vida inteira ouvindo que objetos não falam, eu pareço uma pessoa louca. Mas eu venho de um contexto de aldeia, e a gente entende que os objetos não são simplesmente objetos, ainda mais quando se tratam de vestimentas usadas no ambiente religioso’. Glicéria conta que, na ocasião, o manto mostrou a ela três imagens: ‘Uma quando ele estava dentro do território, eu via mulheres, crianças, as penas, a feitura. Outra imagem que ele me apresenta era ele dentro de uma embarcação, as pessoas na margem. Eu podia sentir a areia nos meus pés e ver a embarcação sumindo no fio do horizonte. E, depois, eu vejo esse manto saindo da embarcação e desaparecendo por uma viela escura’.”\n\nIsabel Seta. Raríssimo manto tupinambá que está na Dinamarca será devolvido ao Brasil; peça vai ficar no Museu Nacional. 28/06/2023. Disponível em: https://g1.globo.com/.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Justifique o uso de \"ainda\" no trecho \"O primeiro manto que Glicéria teve oportunidade de conhecer pessoalmente está — ainda — na França.\". Reescreva a frase, substituindo apenas a palavra \"ainda\", sem prejuízo do sentido.",
+     "resposta_oficial": "O advérbio \"ainda\" é utilizado para explicitar uma provável recuperação do manto tupinambá, salvaguardado pela instituição francesa atualmente. Assim como aconteceu com o manto devolvido pelo museu dinamarquês, pressupõe-se uma atitude semelhante, tendo em vista o rastreamento dos artefatos indígenas efetuado pela pela antropóloga Glicéria.\n\nReescrita: O primeiro manto que Glicéria teve oportunidade de conhecer pessoalmente está — até o momento / até agora — na França."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique o sentido do trecho \"os objetos não são simplesmente objetos\" no texto.",
+     "resposta_oficial": "Segundo Glicéria, o manto não pode ser entendido apenas como um objeto, no sentido de um item de uma coleção de um museu, mas sim como um artefato que permite uma relação simbólica com o sagrado, com a ancestralidade e com a cosmovisão indígena."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão trata da interpretação de palavras gramaticais, como “ainda”, e sua contribuição na construção de sentidos do texto. Além disso, exige uma interpretação mais ampla do excerto para que se explique o sentido de um trecho em específico naquele contexto. O tema da questão suscita reflexões importantes acerca do patrimônio material.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2024-2-d1-q06",
+   "numero": 6,
+   "materia": "portugues",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Examine a charge para responder à questão.\n\n![Charge de Alberto Benett: um policial de capacete e farda cinza aponta uma arma e dispara (“Pow Pow”). Setas com legendas apontam para o policial (“acusação”), a arma (“julgamento”), a bala (“condenação”) e uma mancha vermelha de sangue à direita (“execução”).](fig:p06-f1)\n\nAlberto Benett. Folha de S. Paulo. 01/08/2023.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual a crítica social explorada pela charge?",
+     "resposta_oficial": "A charge ilustra o abuso de poder que resulta em assassinatos de civis. Na figura, é o mesmo indivíduo que acusa, julga, condena e mata; contrariando as instâncias do Estado Democrático de Direito, em que a Justiça deve zelar pela vida de seus cidadãos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Explique a polissemia expressa pela última palavra da gradação contida na charge.",
+     "resposta_oficial": "A palavra \"execução\" é polissêmica na charge, na medida em que se refere simultaneamente à execução sumária, ou seja, ao assassinato em si, e ao cumprimento de uma sentença judicial."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão exige uma leitura de mundo da/o candidata/o, que deve compreender e interpretar um texto não-verbal, além de dominar o conceito de gradação e explicá-lo no caso em específico.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2024-2-d1-q08",
+   "numero": 8,
+   "materia": "literatura",
+   "materias_extra": [
+    "historia"
+   ],
+   "texto_base": null,
+   "enunciado": "Leia os excertos para responder à questão.\n\nI.\n\nQuincas Borba\n\nOs personagens de Machado de Assis eram tão medíocres que, enquanto outros loucos do mundo bancavam Napoleão o Grande, o de Machado de Assis contentava-se em ser Napoleão III.\n\nMario Quintana. *Caderno H.*\n\nII.\n\nHegel observa em uma de suas obras que todos os fatos e personagens de grande importância na história do mundo ocorrem, por assim dizer, duas vezes. E esqueceu-se de acrescentar: a primeira vez como tragédia, a segunda como farsa. (...) Os homens fazem sua própria história, mas não a fazem como querem; não a fazem sob circunstâncias de sua escolha e sim sob aquelas com que se defrontam diretamente, legadas e transmitidas pelo passado. A tradição de todas as gerações mortas oprime como um pesadelo o cérebro dos vivos.\n\nKarl Marx. *O 18 Brumário de Luís Bonaparte.*",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A mediocridade caracteriza, em geral, o sujeito médio, incapaz de se sobrepor às circunstâncias com que se defronta diretamente. Nesse sentido, Rubião é uma personagem medíocre. Comente.",
+     "resposta_oficial": "Após receber a herança de Quincas Borba e mudar-se para a capital, Rubião se deixa tomar, progressivamente, pelo delírio de grandeza; imagina que o dinheiro é o bastante para elevá-lo a figura ilustre da burguesia fluminense e, desejo não menos importante, conquistar o amor de Sofia. Ocorre, porém, que a ingenuidade provinciana de Rubião o conduz à ruína financeira e sentimental, porque lhe faltam os recursos da astúcia, peças indispensáveis no jogo dos interesses e do darwinismo social. Num mundo de valores arrevesados, quem não maneja bem os cordões da trapaça acaba por ser objeto dela, justamente o que se dá com Rubião; esmagado sob as circunstâncias, as quais ele nunca sabe contornar, perde as posses e a lucidez, provando ao fim o seu caráter medíocre e servindo de exemplo à teoria de seu amigo filósofo. Ao ser vítima dos enganos que as ilusões da capital lhe pregam, Rubião confirma a debilidade dos ingênuos nos quadros de uma história sem mudanças efetivas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Ao comparar os impérios de tio e sobrinho – Napoleão I e Napoleão III –, na França, Marx considera que os dois golpes representaram, respectivamente, uma tragédia e uma farsa. Por que se pode dizer que a loucura do vencido Rubião, vivida na história brasileira, possui aspectos sérios e risíveis? Justifique.",
+     "resposta_oficial": "Diferente da observação de Marx, que ao estudar as presenças imperiais de Napoleão Bonaparte e seu sobrinho Napoleão III na História, discerne as variantes trágica e farsesca, Machado de Assis combina, de maneira ambígua, as duas linhas no destino de sua personagem. Conforme reflete, em escala reduzida, a ambição nacional de imitar os usos e costumes do centro, o provinciano Rubião é uma espécie de metonímia que, em seu sonho de ascensão no Rio de Janeiro, adquire um aspecto de sátira – daí o ridículo dessa imagem deslocada em toda parte, pois tampouco consegue repousar de volta a Barbacena. Por outro lado, o autor captura também o traço pungente de uma particularidade lançada em completa desventura, o que imprime uma sugestão de tragédia no texto, afinal o leitor não firma uma distância radical em face do louco desvalido. Lembrem-se as frases do narrador no último capítulo: “Eia! chora os dois recentes mortos, se tens lágrimas. Se só tens riso, ri-te. É a mesma coisa.” Conclui-se, assim, que o discurso literário forja um viés ambivalente, mais rico e denso que a matéria retirada dos fatos, e nele se cruzam as contradições do tempo."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Avaliar se o candidato é capaz de perceber e analisar o contraste entre o discurso histórico-filosófico e o literário, quando ambos tratam de assunto próximo.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "fuvest-2024-2-d1-q10",
+   "numero": 10,
+   "materia": "literatura",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "Na sua análise de *O embarque para a ilha de Citera* (cerca de 1712), de Antoine Watteau, Norbert Elias afirma que “em contraste com o jogo de luz e sombra claro-escuro enevoado que domina todo o quadro, está a luminosidade do sol poente, a radiante claridade à direita, no fundo. Isso confere um caráter de inquietude à composição. E, em contraste com a tranquilidade do antigo jardim com as copas verde-escuras das árvores e sua doce serenidade, a surda movimentação do cortejo dos amantes torna-se ainda mais intensa à medida que aqui, nessa claridade, os contornos de algo desconhecido, que não se deixa conhecer, perfis de construções que, precisamente por reluzirem como sombras através da névoa clara e radiosa, provocam um ligeiro arrepio, como sinal de perigo”.\n\n![O embarque para a ilha de Citera, pintura de Antoine Watteau](fig:p10-c1)\n\nLira X\n\nSe existe um peito,\nQue isento viva\nDa chama ativa,\nQue acende Amor,\nAh! Não habite\nNeste montado,\nFuja apressado\nDo vil traidor.\n\nCorra, que o ímpio\nAqui se esconde,\nNão sei aonde,\nMas sei que o vi.\nTraz novas setas,\nArco robusto;\nTremi de susto,\nEm vão fugi.\n\nEu vou mostrar-vos,\nTristes mortais,\nQuantos sinais\nO ímpio tem.\nOh! Como é justo\nQue todo o humano\nUm tal tirano\nConheça bem!\n\nNo corpo ainda\nMenino existe,\nMas quem resiste\nAo braço seu?\nAo negro inferno\nLevou a guerra,\nVenceu a terra,\nVenceu o céu.\n\nJamais se cobrem\nSeus membros belos,\nE os seus cabelos\nQue lindos são!\nVendados olhos,\nQue tudo alcançam,\nE jamais lançam\nA seta em vão.\n\nAs suas faces\nSão cor da neve,\nE a boca breve\nSó risos tem.\nMas, ah! respira\nNegros venenos,\nQue nem ao menos\nOs olhos veem.\n\nAljava grande\nDependurada,\nSempre atacada\nDe bons farpões.\nFere com estas\nAgudas lanças\nPombinhas mansas,\nBravos leões.\n\nSe a seta falta,\nTem outra pronta,\nQue a dura ponta\nJamais torceu.\nNinguém resiste\nAos golpes dela:\nMarília bela\nFoi quem lha deu.\n\nAh! Não sustente\nDura peleja\nO que deseja\nSer vencedor.\nFuja e não olhe,\nQue só fugindo\nDe um rosto lindo\nSe vence Amor.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quais são as semelhanças entre a tela de Watteau e a Lira X de Tomás Antonio Gonzaga?",
+     "resposta_oficial": "Ambas as obras tratam o amor como algo que ameaça a estabilidade do sujeito, como algo que se deseja mas que é, ao mesmo tempo, perigoso. A viagem a Citera, do quadro, lida com o poema de Gonzaga, é a condição daqueles que estão apaixonados. Do ponto de vista estilístico, as duas obras apresentam uma representação distanciada sobre o tema (seja pelo caráter explicativo/reiterativo da lira, seja pela divisão da tela em duas partes, que, também, explica o que pode acontecer com quem embarca para a ilha do amor)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "De que forma é descrito o “personagem” do poema?",
+     "resposta_oficial": "O amor, evocado no poema em termos de uma personagem, é descrito de modo contraditório, o próprio Eros/Cupido, da mitologia greco-latina, um ser de bela aparência, mas que, com sua flecha, enfeitiça o sujeito."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Análise e interpretação do poema, com base nas representações pictóricas e literárias do século XVIII.",
+   "revisao": "transcrita"
+  }
+ ]
+}

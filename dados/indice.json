@@ -308,6 +308,35 @@
    }
   },
   {
+   "id": "fuvest-2024-2-d1",
+   "vestibular": "fuvest",
+   "ano": 2024,
+   "fase": 2,
+   "tipo": "discursiva",
+   "versao": null,
+   "nome": "FUVEST (USP) 2024 – 2ª fase (1º dia: Português)",
+   "caderno": "1º dia: Português",
+   "fonte": {
+    "caderno": "2fase-dia1-caderno.pdf",
+    "gabarito": null,
+    "respostas": [
+     "2fase-respostas.pdf"
+    ]
+   },
+   "arquivo": "dados/questoes/fuvest-2024-2-d1.json",
+   "total": 8,
+   "validas": 8,
+   "com_resposta": 8,
+   "materias": {
+    "portugues": 6,
+    "literatura": 2
+   },
+   "indisponiveis": [
+    7,
+    9
+   ]
+  },
+  {
    "id": "unesp-2017-1",
    "vestibular": "unesp",
    "ano": 2017,

@@ -34,7 +34,8 @@ async function imagensQuebradas(page) {
 async function formulasCruas(page) {
   // fórmula que não passou pelo KaTeX aparece como texto com "$" ou como .tex
   return page.evaluate(() => {
-    const t = Array.from(document.querySelectorAll(".texto")).map((e) => e.innerText).join("\n");
+    // cifrão de verdade (R$ 5,00, US$ 3) não é fórmula
+    const t = Array.from(document.querySelectorAll(".texto")).map((e) => e.innerText).join("\n").replace(/\b(R|US)\$/g, "");
     return (t.match(/\$[^$\n]{1,40}\$/g) || []).slice(0, 5).concat(document.querySelectorAll(".tex").length ? ["(KaTeX ausente)"] : []);
   });
 }
@@ -131,6 +132,29 @@ async function fluxo(browser, nome, opcoes) {
   ok(await page.locator(".resolucao").count() === 1, "correção mostra a resolução comentada");
   ok(await formulasCruas(page).then((c) => c.length === 0), "resolução renderiza as fórmulas");
   await page.screenshot({ path: `${SAIDA}/${nome}-resolucao.png`, fullPage: true });
+
+  // discursivas: escrever, entregar e comparar com a resposta da banca
+  await page.click("#ir-inicio");
+  if (await page.locator("#form-disc").count()) {
+    await page.selectOption("#disc-qtd", "3");
+    await page.click("#form-disc button[type=submit]");
+    await page.waitForSelector(".questao .itens");
+    await page.locator(".itens textarea").first().fill("Minha resposta de teste.");
+    ok(await page.locator(".oficial").count() === 0, "resposta da banca escondida durante a prova");
+    ok(await imagensQuebradas(page).then((q) => q.length === 0), "discursiva: imagens carregam");
+    ok(await formulasCruas(page).then((c) => c.length === 0), "discursiva: fórmulas renderizadas");
+    await page.click(".cartao button.botao");
+    await page.click(".confirma .botao >> nth=0");
+    await page.waitForSelector(".placar");
+    await page.click("text=Ver correção questão por questão");
+    await page.waitForSelector(".oficial");
+    ok(await page.isVisible("text=Minha resposta de teste."), "correção mostra a resposta do aluno");
+    ok(await page.locator(".oficial:not(.ausente)").count() > 0, "correção mostra a resposta esperada pela banca");
+    ok(await formulasCruas(page).then((c) => c.length === 0), "resposta da banca renderiza as fórmulas");
+    await page.click(".autoav >> text=Acertei em parte");
+    ok(await page.locator('.autoav [aria-pressed="true"]').count() === 1, "autoavaliação da discursiva");
+    await page.screenshot({ path: `${SAIDA}/${nome}-discursiva.png`, fullPage: true });
+  }
 
   ok(erros.length === 0, "sem erros de JavaScript " + erros.slice(0, 3).join(" | "));
   await ctx.close();
