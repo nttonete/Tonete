@@ -1,0 +1,204 @@
+{
+  "edicao": "unicamp-2026-2-cha",
+  "intervalo": [
+    1,
+    11
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 4,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma forma de avaliar a produção científica de um pesquisador é pelas citações que seus artigos recebem. A citação de um artigo ocorre quando ele é incluído nas referências bibliográficas de outro artigo.\n\nO **número total de citações** de um pesquisador é a soma das quantidades de citações recebidas por todos os seus artigos. Já o **índice h** de um pesquisador – outro indicador muito utilizado na análise das citações – é definido como o maior número inteiro $k \\geq 0$ para o qual o pesquisador possui $k$ artigos com pelo menos $k$ citações cada um.\n\nPor exemplo, se um pesquisador tem exatamente 3 artigos, sendo um com 2 citações, outro com 3 citações e outro com 5 citações, então seu número total de citações é 10 e seu índice h é 2, pois ele possui 2 artigos com pelo menos 2 citações cada e não possui 3 com pelo menos 3 citações cada um.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Um pesquisador tem índice h igual a 8 e tem M citações totais. Qual é o menor valor possível de M? Justifique."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Um pesquisador tem exatamente 6 artigos, indicados por A, B, C, D, E e F. O gráfico abaixo apresenta a quantidade de citações recebidas em cada um dos artigos.\n\n![Gráfico de colunas, \"Citações recebidas por cada artigo\": A 30, B 8, C 0, D 2, E 20, F 8](fig:p06-c1)\n\nQual é o índice h deste pesquisador? Qual é o número mínimo de novas citações que este pesquisador precisa receber para atingir um índice h de 6? Justifique."
+        }
+      ],
+      "observacoes": "Figura recortada de novo (p06-c1): a automática cortava rótulos do gráfico. No documento de respostas, o parágrafo 'O índice h é 4...' (resposta à 1ª pergunta do item b) vem impresso logo abaixo da resposta do item a, sem rótulo; foi mantido ali, como no original."
+    },
+    {
+      "numero": 5,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere as funções polinomiais $p(x)$ e $q(x)$ dadas por $p(x) = x^2 + (b-1)x + c$ e $q(x) = -x^2 + cx + b - 1$, em que $b$ e $c$ são números reais.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Assumindo que $p(x)$ e $q(x)$ têm as mesmas raízes, determine o valor de $b + c$."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Para $b = 5$ e $c = 3$, determine os pontos de interseção entre os gráficos de $y = p(x)$ e $y = q(x)$."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 6,
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma fabricante de automóveis produz dois modelos de carro: o Alpha e o Beta.\n\nEm 2023, foram vendidas 400 unidades do Alpha e 300 unidades do Beta, resultando em um total de 68 milhões de reais em vendas.\n\nPara 2024, em função de sua campanha de *marketing*, a empresa manteve os preços dos veículos e conseguiu aumentar as vendas do Alpha em 10% e as vendas do Beta em 20%, obtendo um total de 10,4 milhões de reais a mais com as vendas em 2024 do que em 2023.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Quantos automóveis foram vendidos em 2024? Comparando 2024 com 2023, de quanto foi o aumento percentual no valor total obtido com as vendas?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Quais eram os preços dos veículos Alpha e Beta?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "materia": "sociologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Texto 1**\n\nDesigualdade consiste em uma relação entre pessoas ou conjuntos de pessoas na qual a interação gera maiores vantagens para uns do que para outros. Ela resulta do controle desigual sobre recursos que produzem valor. São dois os seus principais mecanismos geradores:\n\n• exploração – quando pessoas que controlam um recurso: (i) recrutam o esforço de outras na produção de valor por meio desse recurso, mas (ii) excluem essas outras do valor total adicionado pelo esforço delas;\n• monopolização de oportunidades – restrição do uso de recursos que produzem valor aos membros de um grupo específico.\n\n(Adaptado de TILLY, C. Relational studies of inequality. *Contemporary Sociology*, v. 29, n. 6, 2000, p. 782-783.)\n\n**Texto 2**\n\nProbabilidade das crianças da parcela mais pobre da população quando adultas (%)\n\n![Gráfico de barras horizontais, de 0 a 100%: estar entre os 10% mais ricos 1,8; estar entre os 25% mais ricos 10,8; estar entre os 50% mais pobres 66,6; ter um percentil relativo 10% maior que dos pais 49,1; concluir o ensino médio 49,9; concluir o ensino superior 1,9. Crédito impresso ao lado: Elaboração COMVEST a partir de Atlas da Mobilidade Social, 2025.](fig:p09-c2)\n\nA partir da leitura do texto 1 e da análise dos dados do texto 2, responda aos itens (a) e (b):",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Defina desigualdade e justifique por que exploração e monopolização de oportunidades são consideradas mecanismos geradores de desigualdades."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Identifique dois efeitos da exploração e dois da monopolização de oportunidades nos dados apresentados nos gráficos."
+        }
+      ],
+      "observacoes": "Figura recortada de novo (p09-c2); o crédito impresso na vertical, ao lado do gráfico, ficou dentro do recorte. Na prova, o comando 'A partir da leitura...' fica na coluna do Texto 1, antes do Texto 2; foi posto depois dos dois textos."
+    },
+    {
+      "numero": 8,
+      "materia": "filosofia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "**Texto 1**\n\n![Ilustração de uma serpente vermelha e dourada que morde a própria cauda, formando um círculo, com a legenda \"(Ouroboros)\"](fig:p10-c2)\n\n**Texto 2**\n\nEm *Capitalismo Canibal* (2024), Nancy Fraser afirma que o capitalismo é uma ordem social que ‘devora’ as suas próprias condições de existência. Para representar o capitalismo, Fraser usa a imagem de Ouroboros, que ilustra a capa do livro.\n\n**Texto 3**\n\nA contradição política inerente ao capitalismo ocorre entre os imperativos da acumulação de capital e a manutenção dos poderes públicos de que a acumulação também depende. O poder público legítimo e eficaz é uma condição de possibilidade para a acumulação sustentada do capital. Afinal, o capital tem uma dependência crucial dos poderes públicos para garantir direitos de propriedade, fazer cumprir contratos, julgar controvérsias, reprimir rebeliões, manter a ordem, administrar a divergência, etc. O ímpeto de acumulação infinita tende, ao longo do tempo, a desestabilizar os mesmos poderes públicos de que depende. Essa contradição está na raiz de nossa atual crise democrática. Graças a sua estrutura inerente, o capitalismo é fundamentalmente antidemocrático. Mesmo no melhor dos casos, a democracia, em uma sociedade capitalista, deve ser forçosamente fraca e limitada.\n\n(Adaptado de FRASER, N. *Capitalismo Canibal*. Cotia (SP): Autonomia Literária, 2024, p.135-138.)\n\nConsiderando os textos 1, 2 e 3, responda aos itens (a) e (b).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Explique por que Nancy Fraser escolhe o Ouroboros para representar o capitalismo. Na sua resposta, relacione a imagem, o título *Capitalismo Canibal* e o trecho que aponta para a autodestruição do sistema."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Segundo Fraser, em que consiste a contradição do capitalismo e por que a autora afirma que o sistema é antidemocrático? Evidencie como essas duas teses estão conectadas."
+        }
+      ],
+      "observacoes": "Figura recortada de novo (p10-c2) para incluir a legenda '(Ouroboros)' e deixar o rótulo 'Texto 1' como texto. Na resposta oficial do item a, a grafia é 'ourobouros' (diferente de 'Ouroboros' do enunciado); mantida."
+    },
+    {
+      "numero": 9,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O açúcar era uma das especiarias mais preciosas e luxuosas da Europa pré-moderna. Há séculos, já era processado e refinado a partir da cana na Índia, no Oriente Médio e na Europa meridional sob o domínio árabe. No Mediterrâneo, os venezianos difundiram seu cultivo no século XII. Consumido como remédio e ingrediente culinário, o açúcar era presença marcante nos banquetes aristocráticos europeus. Na época moderna, a demanda pela especiaria cresceu ainda mais, impulsionada pelo seu uso para adoçar bebidas recém-introduzidas, como o café e o chocolate. Com a colonização do Novo Mundo, a produção de açúcar e seu comércio expandiram-se intensamente, como uma das principais *commodities* do Atlântico no século XVII e elemento central de um sistema de trocas que vinculava a Europa, a África e as Américas. A partir do século XIX, o produto ficou relativamente barato em todo o mundo.\n\n(Adaptado de KERNAN, S. P. Sugar and Power in the Early Modern World. Newberry Library, *Collection Essays*. Disponível em https://dcc.newberry.org/?p=16944. Acesso em 18/03/2021.)\n\nA partir do excerto, responda aos itens (a) e (b).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Aponte um uso dado ao açúcar e seu respectivo significado social no período moderno e um uso e seu significado social no contexto contemporâneo."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considerando o desenvolvimento do capitalismo no norte da Europa na época moderna, cite e explique dois fatores econômicos que mostram como o açúcar esteve relacionado a esse processo."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 10,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A partir da leitura da imagem a seguir, produzida por Carlos Julião, agente do império português na segunda metade do século XVIII, responda aos itens (a) e (b).\n\n![Aquarela de Carlos Julião: mulher de vestido amarelo e manto vermelho, com coroa e bengala, sob uma sombrinha vermelha, seguida por seis mulheres de roupas claras e adereços de plumas na cabeça, algumas tocando instrumentos](fig:p12-f2)\n\n(JULIÃO, C. Riscos illuminados de figurinhos de brancos e negros dos uzos do Rio de Janeiro e Serro do Frio [século XVIII]. Rio de Janeiro: Fundação Biblioteca Nacional, 1960.)\n\nLegenda: Prancha 37, Coroação de uma rainha negra na festa de Reis, seguida por um cortejo de mulheres. Minas Gerais, segunda metade do século XVIII.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Descreva a imagem destacando quatro elementos ligados às práticas culturais africanas."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Cite e explique duas evidências da diversidade de *status* social dentro da população negra na colônia."
+        }
+      ],
+      "observacoes": "O crédito da imagem vem impresso na vertical, ao lado dela, e foi posto como parágrafo depois da figura."
+    },
+    {
+      "numero": 11,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Os italianos imigrados para o interior de São Paulo, entre o final do século XIX e o começo do século XX, não se reconheciam como pertencentes a uma pátria. Nas fazendas de café, os italianos trabalhavam lado a lado com imigrantes de outros países, portugueses, espanhóis – e com ex-escravizados e seus descendentes que permaneceram nas áreas rurais após a libertação. No Brasil, em vez de calabreses, romanos, napolitanos ou vênetos, eram chamados de italianos. Do outro lado do Atlântico, a unificação italiana ocorreu pouco antes da grande imigração para o Brasil. Até então, a Itália era composta por vários reinos, com sistemas monetários e políticos próprios. O reino do Piemonte-Sardenha, mais rico e industrializado e com interesse em ampliar o mercado e influência, liderou a guerra pela unificação italiana. Apesar de o reino da Itália ter nascido em 1861, o processo só foi concluído após os conflitos que resultaram na anexação de Veneza (1866), Roma (1870) e, bem depois, Trento e Trieste (1918). A resistência de certas partes do território da península em tomar parte do projeto de nação teria postergado a construção do sentimento de italianidade na Itália, enquanto, no Brasil, esse processo teria se iniciado logo nos primeiros anos do século XX.\n\n(Adaptado de QUIEROZ, R. União na distância – De início apegados à cultura de suas regiões de origem, italianos construíram no Brasil a noção de italianidade. *Revista Fapesp*. Edição 248. Out. 2016.)\n\nA partir da leitura do texto, responda aos itens (a) e (b).",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual é a tese do texto sobre a formação da italianidade no Brasil? Cite dois argumentos usados pela reportagem para sustentar a tese mencionada."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Sobre a Unificação Italiana, identifique duas motivações para sua execução e duas resistências a esse processo."
+        }
+      ],
+      "observacoes": "A fonte traz 'QUIEROZ' (grafia do caderno); mantida."
+    }
+  ],
+  "respostas": {
+    "4": {
+      "itens": {
+        "a": "Como o índice h é 8, esse pesquisador tem pelo menos 8 artigos com pelo menos 8 citações cada uma. Logo, o pesquisador tem pelo menos $M = 64$ citações.\n\nO índice h é 4, pois os artigos A, B, E e F têm pelo menos 4 citações e os artigos C e D têm menos do que 4 citações.",
+        "b": "Para que o índice h seja 6, o pesquisador precisa ter pelo menos 10 novas citações nos artigos C e D. Portanto, ele precisa de pelo menos 6 novas citações do artigo C e pelo menos 4 novas citações do artigo D. Logo, o pesquisador precisa de 10 novas citações."
+      }
+    },
+    "5": {
+      "itens": {
+        "a": "Sejam $m, n$ as raízes de $p(x)$ e $q(x)$. Usando as relações entre raízes de um polinômio e seus coeficientes, obtemos que $m \\cdot n = c$ e também $m \\cdot n = -(b-1)$.\nLogo $c = 1 - b$, ou seja, $b + c = 1$.",
+        "b": "Temos que $p(x) = x^2 + 4x + 3$ e $q(x) = -x^2 + 3x + 4$. Temos que se $p(x) = q(x)$ então $x^2 + 4x + 3 = -x^2 + 3x + 4$, ou seja, $2x^2 + x - 1 = 0$. Isso nos dá $x = 1/2$ ou $x = -1$.\n\nSe $x = 1/2$ então $p(1/2) = q(1/2) = 21/4$.\n\nSe $x = -1$ então $p(-1) = q(-1) = 0$.\n\nAssim, os pontos de interseção são $(1/2, 21/4)$ e $(-1, 0)$."
+      }
+    },
+    "6": {
+      "itens": {
+        "a": "O veículo Alpha vendeu 10% a mais e o veículo Beta vendeu 20% a mais. Portanto, foram vendidas 440 unidades do Alpha e 360 unidades do Beta. O total de veículos vendidos em 2024 foi de 440+360=800.\n\nEm termos do valor, como $\\frac{10{,}4}{68} \\approx 0{,}1529$, o aumento percentual foi de aproximadamente 15%.",
+        "b": "Se $a$ é o preço do veículo Alpha e $b$ é o preço do veículo Beta, ambos em milhares de reais, temos que\n\n$$400a + 300b = 68000$$\n\n$$440a + 360b = 78400$$\n\nPortanto, $a = 80$ e $b = 120$. Assim, o preço do Alpha é R\\$ 80.000,00 e o preço do Beta é de R\\$ 120.000,00."
+      }
+    },
+    "7": {
+      "itens": {
+        "a": "A temática da desigualdade é ampla e pode ser abordada a partir de variadas perspectivas empíricas e teóricas. No caso da questão, ela mobiliza recortes específicos da temática a serem tratados no desenvolvimento da resposta.\n\nDo ponto de vista teórico, o Texto 1 destaca a dimensão relacional da desigualdade, enfatizando o papel das interações entre pessoas ou conjunto de pessoas na produção de padrões assimétricos de distribuição de recursos e de oportunidades. De acordo com o texto de autoria do sociólogo Charles Tilly, tais padrões são produzidos fundamentalmente por dois mecanismos geradores da desigualdade: a exploração e a monopolização de oportunidades. No caso da primeira, trata-se da capacidade que pessoas ou conjuntos de pessoas possuem de limitar a redistribuição dos ganhos e dos benefícios da riqueza entre o conjunto daqueles responsáveis por sua produção. No caso da segunda, trata-se da capacidade de pessoas ou conjuntos de pessoas tornar o acesso a recursos importantes para a produção de valor restrita a membros de grupos específicos, sejam eles étnicos, raciais, de gênero, de classe, de sexualidade etc.",
+        "b": "O Texto 2 apresenta dados relativos às probabilidades de ganhos de renda e de obtenção de diplomas escolares entre crianças situadas na parcela mais pobre da população quando estiverem na fase adulta. Desse modo, o Texto 2 desdobra empiricamente um argumento exposto no Texto 1: a reprodução de padrões assimétricos de distribuição de recursos e de monopolização de oportunidades que, neste caso, são vistos do ponto de vista geracional.\n\nOs dados indicam que crianças cujas famílias recebem menos pelo trabalho que realizam – e que, portanto, acessam em menor escala a riqueza que ajudam a produzir – tendem também a possuir rendas menores na fase adulta (como exemplo: 66,6% dessas crianças tendem a estar entre os 50% mais pobres quando adultas e apenas 1,8% tendem a estar entre os 10% mais ricos). Dessa forma, os dados apontam para a manutenção de padrões assimétricos de redistribuição de riquezas e, portanto, de reprodução, entre as gerações, da exploração.\n\nOs dados também apontam que crianças da parcela mais pobre da população tendem a ter menos oportunidades de acesso a diplomas escolares (49,9% tendem a concluir o Ensino Médio, enquanto 1,9% tendem a concluir o Ensino Superior), indicando um padrão de monopolização de oportunidades educacionais que também se dá entre as gerações."
+      }
+    },
+    "8": {
+      "itens": {
+        "a": "Nancy Fraser escolhe a imagem de ourobouros para representar o capitalismo porque, de acordo com ela, o capitalismo devora as suas próprias condições de existência assim como a serpente devora a própria cauda. Essa ideia de que o capitalismo devora as suas próprias condições de existência aparece no texto 3 quando Fraser afirma que o ímpeto de acumulação infinita tende a desestabilizar os mesmos poderes públicos de que depende, como a serpente devora a própria cauda, da qual depende para existir. É a mesma ideia contida no título do livro: canibal é aquele animal que come outro da mesma espécie, coloca em ameaça a própria espécie, devora a si mesma; como o capitalismo, que se devora e coloca em ameaça os seus próprios imperativos.",
+        "b": "Na visão de Fraser, o capitalismo é contraditório porque devora as suas próprias condições de existência. Essa contradição se manifesta na política, por exemplo, na medida em que o capitalismo depende dos poderes públicos, para garantir direito de propriedade e garantir o cumprimento dos contratos, mas tende a desestabilizá-los. Por isso, Fraser defende que o capitalismo é antidemocrático, afinal tende a tornar a democracia fraca e limitada. A relação entre as duas teses: o capitalismo é contraditório porque depende da democracia – afinal, o poder público legítimo e eficaz é uma condição de possibilidade para a acumulação do capital – ao mesmo tempo que tende a enfraquecer a democracia."
+      }
+    },
+    "9": {
+      "itens": {
+        "a": "No início da época moderna, o açúcar era um produto raro, com status de especiaria, utilizado tanto na culinária quanto na medicina. Seu consumo ocorria em ocasiões especiais, associava-se ao estilo de vida da nobreza e funcionava como marcador de distinção social. Já na época contemporânea, o açúcar tornou-se um alimento comum, produzido em escala industrial, amplamente acessível e consumido cotidianamente pelas classes populares, perdendo sua função de indicador de status elevado.",
+        "b": "A produção e o comércio do açúcar eram altamente lucrativos, abrindo novos canais de circulação e acumulação de capital para os grupos envolvidos no frete, no refino e na distribuição do produto, etapas concentradas sobretudo nos Países Baixos e na Inglaterra. Esse conjunto de atividades possibilitou um acúmulo expressivo de capital no norte da Europa, onde se consolidava o eixo dinâmico do desenvolvimento do capitalismo. Além disso, a produção açucareira baseava-se em mão de obra escravizada, sobretudo nas colônias, o que intensificou e expandiu o tráfico de pessoas escravizadas, um setor igualmente lucrativo. Por isso, ampliaram-se redes comerciais em escala global, conectando América, Europa e África em circuitos intercontinentais de troca."
+      }
+    },
+    "10": {
+      "itens": {
+        "a": "A prancha documenta instrumentos musicais tipicamente utilizados nas práticas culturais afro-brasileiras promovidas pelas irmandades negras. Observam-se ainda símbolos de prestígio e autoridade política que remetem a culturas africanas, como o cetro e a sombrinha. Os elementos de indumentária — cores, motivos, grafismos e modos de vestir — dialogam com práticas vestimentares difundidas entre a população africana que vivia no Brasil. Nos adereços, destacam-se ornamentos na cabeça e, no pescoço, possíveis patuás, contas e pingentes com conotações ligadas às religiões afro-brasileiras.",
+        "b": "A imagem explicita que a população negra não era socialmente homogênea; ao contrário, era composta por pessoas inseridas em diferentes estatutos e posições sociais. À frente, aparece uma mulher (possivelmente forra) vestindo roupas luxuosas e coroa, situando-se em posição hierárquica superior às demais. Em um nível intermediário, duas mulheres parecem atuar como suas damas de companhia ou camareiras, desempenhando funções de serviço. Por fim, um grupo de mulheres com roupas claras toca instrumentos e dança, compondo provavelmente outro segmento social. Além da indumentária, observa-se que algumas figuras estão calçadas enquanto outras estão descalças, outro marcador visual de distinção. Esses elementos que revelam a diversidade interna da população negra relacionam-se às: clivagens que separavam livres e forros de escravizados; aos distintos modos de viver a escravidão em contextos urbanos e rurais; às diferenças entre escravizados domésticos e aqueles que trabalhavam nas ruas ou nos eitos e às variadas formas de inserção e relação com a classe proprietária."
+      }
+    },
+    "11": {
+      "itens": {
+        "a": "A tese do autor é que, no contexto da imigração italiana para o Brasil, a italianidade se consolidou primeiro aqui. Os imigrantes chegavam trazendo sobretudo identidades regionais e, ao conviver com pessoas de outras origens étnicas e nacionais, passaram a ser percebidos — e a se perceber — como italianos, num processo de reconfiguração identitária. Já no caso da própria Itália, o sentimento de italianidade é comparativamente mais tardio, sendo construído ao longo do século XX, com a criação de uma língua nacional, de símbolos como o hino e a bandeira e, ainda assim, convivendo com a forte persistência das identidades regionais ligadas a seus antigos reinos e unidades políticas.",
+        "b": "A unificação italiana, conhecida como *Risorgimento* (que significa \"ressurgimento\" em italiano), foi um processo complexo que durou de 1848 a 1871. Ela não aconteceu por um único motivo, mas sim por uma combinação de fatores políticos, sociais, econômicos e culturais, tais como a ideologia imperialista; emergência da ideologia nacionalista ligada à Revolução Francesa e de Napoleão; fatores Econômicos, pois a fragmentação política dificultava o comércio e o desenvolvimento econômico. Cada estado tinha suas próprias moedas, tarifas alfandegárias e leis, o que era um grande obstáculo para a indústria e o comércio. A burguesia, em ascensão, via na unificação uma forma de criar um mercado nacional unificado, com uma moeda única e sem barreiras comerciais internas, o que impulsionaria a economia. Por fim, destaca-se o papel do Reino do Piemonte-Sardenha, mais rico e industrializado e com interesse em ampliar o mercado e influência, liderou a guerra pela unificação italiana. A Áustria, que controlava grande parte do norte da Itália, era a principal inimiga da unificação. As derrotas militares austríacas e a instabilidade política na Europa enfraqueceram seu poder, facilitando as campanhas de unificação. Da mesma forma, os Estados Papais, que controlavam a região central da Itália, representavam um obstáculo ideológico e territorial. A influência do Papa, que era contra a unificação, diminuiu com o tempo, e a anexação de seus territórios foi um passo decisivo.\n\nA unificação, entretanto, enfrentou resistências de múltiplas frentes. A Igreja Católica foi uma das mais firmes opositoras: condenou a anexação dos Estados Pontifícios, acusando o novo Estado de usurpar seu território e comprometer sua independência. Potências estrangeiras também reagiram, sobretudo a Áustria, interessada em preservar sua influência, e a França de Napoleão III, que oscilou entre apoiar e dificultar etapas do processo conforme seus interesses geopolíticos. Houve ainda forte oposição interna. Muitos monarcas e dinastias locais resistiam para não perder seus Estados ao novo governo centralizado. A população do sul da Itália reagiu intensamente à anexação piemontesa; movimentos como o *brigantaggio* expressaram descontentamento com os impostos, o serviço militar obrigatório e a percepção de exploração econômica. Além disso, muitos habitantes da península se identificavam mais com suas regiões do que com uma identidade nacional italiana recém-construída. Dentro do próprio *Risorgimento*, divergências ideológicas também marcaram o processo: republicanos como Mazzini desejavam uma Itália democrática, enquanto a unificação se consolidou como monarquia constitucional sob a Casa de Saboia."
+      }
+    }
+  }
+}
