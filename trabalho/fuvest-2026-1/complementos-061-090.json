@@ -1,0 +1,129 @@
+{
+ "edicao": "fuvest-2026-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "complementos": {
+  "61": {
+   "assunto": "Física moderna",
+   "resolucao": "No efeito fotoelétrico, cada fóton entrega sua energia a um único elétron. O que sobra depois de vencer a função trabalho $W$ vira energia cinética:\n\n$E_c = hf - W$\n\nLogo, a energia cinética do elétron cresce quando a frequência $f$ da luz aumenta (C).\n\nAumentar a intensidade (A) só aumenta o número de fótons e, portanto, o número de elétrons ejetados, sem mudar a energia de cada um. A área da superfície (B) não entra na equação; uma função trabalho maior (D) e um fóton menos energético (E) diminuem $E_c$.\n\n**Resposta: C**"
+  },
+  "62": {
+   "assunto": "Termoquímica",
+   "resolucao": "O texto diz que o gatilho só fornece o calor inicial e que, depois disso, a reação \"se mantém autossuficiente até consumo total do reagente\", liberando calor. Para isso, ela precisa ser exotérmica o bastante para manter a temperatura alta (D).\n\nA reação é $2\\,\\text{NaC}\\ell\\text{O}_3 \\rightarrow 2\\,\\text{NaC}\\ell + 3\\,\\text{O}_2$. Precisar de aquecimento para começar indica energia de ativação alta, não reação endotérmica (A) nem ativação fácil a baixa temperatura (C).\n\nHá oxirredução, mas ao contrário do que dizem B e E: o cloro passa de $+5$ para $-1$ (é reduzido), o oxigênio passa de $-2$ para $0$ (é oxidado) e o sódio continua $+1$.\n\n**Resposta: D**"
+  },
+  "63": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Volume de $\\text{O}_2$ necessário em 15 minutos: $1{,}2\\ \\text{L/min} \\times 15\\ \\text{min} = 18\\ \\text{L}$.\n\nQuantidade de matéria: $n(\\text{O}_2) = \\frac{18}{24} = 0{,}75\\ \\text{mol}$.\n\nPela equação balanceada $2\\,\\text{NaC}\\ell\\text{O}_3 \\rightarrow 2\\,\\text{NaC}\\ell + 3\\,\\text{O}_2$, 2 mol de clorato geram 3 mol de oxigênio:\n\n$n(\\text{NaC}\\ell\\text{O}_3) = 0{,}75 \\times \\frac{2}{3} = 0{,}5\\ \\text{mol}$\n\n$m = 0{,}5 \\times 106 = 53\\ \\text{g}$\n\n**Resposta: B**"
+  },
+  "64": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "O texto explica de onde vêm as mutações: \"Cada vez que um vírus infecta uma célula e novas unidades virais são produzidas, erros podem ocorrer\". Ou seja, elas surgem na replicação do material genético viral dentro das células infectadas (C).\n\nInfectar outra espécie (A) é uma consequência possível de uma mutação favorável, não a sua causa. As mutações são erros ao acaso, e não são provocadas pela resposta imune (B), pelo contato com aves migratórias (D) ou por antivirais (E); esses fatores podem, no máximo, selecionar variantes que já existem.\n\n**Resposta: C**"
+  },
+  "65": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "É a chamada proteção coletiva (ou imunidade de rebanho). Quando muitas pessoas estão imunes, o vírus encontra poucos hospedeiros: o mosquito que pica um vacinado não se infecta nem passa o vírus adiante. Com menos circulação do vírus, a chance de epidemia cai, e quem não pode ser vacinado também fica menos exposto (D).\n\nA imunidade não passa de uma pessoa para outra por contato (A), nem por anticorpos liberados no ambiente (E). A vacina não mata o mosquito (B) e o vírus atenuado não altera o material genético dos vírus selvagens (C).\n\n**Resposta: D**"
+  },
+  "66": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O estudo mediu as quantidades de mais de 3.000 proteínas musculares e encontrou dois perfis: \"Some proteins changed as a result of training\" e \"Another group of proteins changed as a result of training and remained changed during the break\". Em ambos os casos, as quantidades mudam depois do treino (B).\n\nO texto não fala em alterar o código genético (A); a epigenética aparece como apoio à ideia de memória muscular, não como refutação (C). As proteínas do metabolismo aeróbico são justamente as que voltaram ao estado anterior na pausa, ou seja, a mudança não foi irreversível (D). A proteômica foi o método que permitiu o estudo, não um obstáculo (E).\n\n**Resposta: B**"
+  },
+  "67": {
+   "assunto": "Atomística e tabela periódica",
+   "resolucao": "O sinal de $m/z$ 421,722 corresponde à molécula formada só pelos isótopos mais abundantes ($^{12}\\text{C}$, $^{1}\\text{H}$, $^{14}\\text{N}$, $^{16}\\text{O}$, $^{40}\\text{Ca}$). Uma parte das moléculas, porém, contém algum isótopo mais raro e mais pesado, como $^{13}\\text{C}$ (cerca de 1% do carbono; com 44 carbonos, isso é frequente).\n\nCada nêutron a mais soma cerca de 1 unidade de massa; como a carga é 2+, o sinal aparece cerca de 0,5 unidade de $m/z$ à frente: 422,223, 422,725 etc. Os sinais estão à direita e são menores que o principal, o que confirma isótopos mais pesados e menos abundantes (A).\n\nOs isótopos mais abundantes já formam o pico principal (C); isótopos mais leves dariam sinais à esquerda (E); e o espaçamento de 0,5 mostra que as espécies têm carga 2, não carga unitária (B).\n\n**Resposta: A**"
+  },
+  "68": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Os dois últimos parágrafos mostram que os receptores gustativos não estão só na língua: \"they are also found in the gastrointestinal tract, liver, pancreas, fat cells, brain...\". Esses órgãos detectam moléculas e se comunicam com o cérebro, como no exemplo do intestino que percebe o açúcar e \"tells the brain to alert other organs\". É a rede integrada de órgãos com o sistema nervoso (D).\n\nA alternativa A repete justamente o mapa da língua que o texto chama de mito. O texto não fala de hábitos da infância (B) nem de prazer estético (C), e o exemplo do açúcar é só um caso: a função dos receptores fora da boca não se limita à glicemia (E).\n\n**Resposta: D**"
+  },
+  "69": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Segundo Breslin, Hanig \"was not suggesting that various tastes are segregated on the tongue. He was actually measuring the sensitivity of different areas\": ele mediu em que concentração cada região detecta um sabor (\"you could detect things at a lower concentration in one part relative to another\"). Ou seja, estudou limiares de sensibilidade, sem dizer que cada sabor é exclusivo de uma região (B).\n\nO texto não informa quando o diagrama foi desenhado (A), e o estudo de Hanig não tratou de cultura alimentar (C), de bioquímica dos receptores (D) nem de resposta cerebral (E).\n\n**Resposta: B**"
+  },
+  "70": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "O paladar é um sentido químico. As substâncias dos alimentos, dissolvidas na saliva, se ligam a proteínas receptoras das células gustativas (ou entram por canais da membrana). Isso altera a carga elétrica dessas células, que estimulam os neurônios sensoriais; o potencial de ação segue pelos nervos até o cérebro, onde o sabor é percebido (A).\n\nO estímulo não vai para o músculo da língua (B) nem é um sinal hormonal para as glândulas salivares (C). Os componentes químicos não ativam diretamente os neurônios (D): quem os detecta são as células gustativas. E os receptores da boca são ativados pelas substâncias do alimento, não por hormônios digestivos (E).\n\n**Resposta: A**"
+  },
+  "71": {
+   "assunto": "Termologia",
+   "resolucao": "A clara e a gema têm 25 g cada. Para cada parte, $Q = m\\,c\\,\\Delta T$, com aquecimento a partir de 20 °C:\n\n$Q_n = 25\\,[3{,}8\\,(T_{\\text{clara}} - 20) + 3{,}1\\,(T_{\\text{gema}} - 20)]$\n\nBasta comparar o que está entre colchetes:\n\n- (1) 100 °C e 100 °C: $3{,}8 \\cdot 80 + 3{,}1 \\cdot 80 = 552$\n- (2) 97 °C e 82 °C: $3{,}8 \\cdot 77 + 3{,}1 \\cdot 62 = 484{,}8$\n- (3) 65 °C e 65 °C: $6{,}9 \\cdot 45 = 310{,}5$\n- (4) 85 °C e 67 °C: $3{,}8 \\cdot 65 + 3{,}1 \\cdot 47 = 392{,}7$\n\nEm ordem crescente: $Q_3 < Q_4 < Q_2 < Q_1$.\n\n**Resposta: B**"
+  },
+  "72": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "A água sai do bico praticamente em repouso e cai a altura $D - H$ até a lâmina de água. Pela conservação da energia (queda livre):\n\n$v^2 = 2\\,g\\,(D - H)$\n\nPara $v = 2\\ \\text{m/s}$: $D - H = \\frac{2^2}{2 \\cdot 10} = 0{,}2\\ \\text{m} = 20\\ \\text{cm}$.\n\nComo as alturas são medidas a partir da base do filtro, $D = 8 + 20 = 28\\ \\text{cm}$. A densidade da água, dada no Note e adote, não entra na conta.\n\n**Resposta: E**"
+  },
+  "73": {
+   "assunto": "Estática",
+   "resolucao": "O equilíbrio é estável quando o pequeno deslocamento obriga o centro de massa da colher a subir: o peso então a traz de volta. Se o deslocamento faz o centro de massa descer, ela se afasta ainda mais (instável).\n\nEm 2, a colher está de cabeça para baixo e a borda da xícara toca a parte de dentro da curva, como um arco: a colher fica abaixo da linha tracejada dos dois lados do apoio. Deslizando-a para qualquer lado, a borda passa a tocar um ponto mais baixo do arco, e a colher precisa subir: estável.\n\nEm 3, a colher gira em torno do ponto de apoio, com o cabo comprido pendendo abaixo dele. O centro de massa fica abaixo do apoio, como num pêndulo, e qualquer inclinação o faz subir: estável.\n\nEm 1 e em 4 ocorre o contrário: no apoio, a colher se curva para cima dos dois lados da linha tracejada, como uma bola sobre a ponta de um lápis. O deslocamento indicado faz a colher descer, e ela não volta.\n\n**Resposta: E**"
+  },
+  "74": {
+   "assunto": "Funções",
+   "resolucao": "Tome $f$ (verde) como referência: vértice em $(1, 2)$, $f(0) = 1$ e $f(3) = -2$.\n\n- $g$ (vermelha) tem vértice em $(0{,}5;\\ 2)$, $g(0) = 1$ e $g(1{,}5) = -2$: é $f$ comprimida horizontalmente pela metade, ou seja, $g(x) = f(2x)$. (Já $f(x/2)$ ficaria esticada, com vértice em $x = 2$.)\n- $m$ (azul) é $f$ deslocada 3 unidades para a esquerda: vértice em $(-2, 2)$, logo $m(x) = f(x+3)$.\n- $n$ (preta) tem vértice em $(-3, -2)$ e é a reflexão de $m$ deslocada 1 unidade para a esquerda: $-m(x+1)$ tem vértice em $(-3, -2)$ e vale $-m(0) = 2$ em $x = -1$, como $n$.\n\nAssim, D é verdadeira nas duas igualdades. Nas outras, sempre uma parte falha: $h(x) = f(x) - 2$ (e não $+2$), $m(x) = f(x+3)$ (e não $f(x-3)$), $w = 2f$ (e não $2h$).\n\n**Resposta: D**"
+  },
+  "75": {
+   "assunto": "Cinemática",
+   "resolucao": "A bolinha parte do repouso no alto e cai em movimento uniformemente acelerado: $h(t) = h_0 - \\frac{g t^2}{2}$. O gráfico é um arco de parábola com concavidade para baixo, que começa horizontal (velocidade nula) e fica cada vez mais inclinado (velocidade crescente).\n\nNo chão a velocidade é máxima, e no quique ela se inverte de repente: o gráfico forma um bico no ponto mais baixo. Depois a subida é simétrica à descida, chegando de novo horizontal à altura inicial. Esse é o gráfico C.\n\nA representa velocidade constante; B e D têm o fundo arredondado, que corresponderia a velocidade nula no chão; E é um único lançamento para cima.\n\n**Resposta: C**"
+  },
+  "76": {
+   "assunto": "Ondulatória",
+   "resolucao": "No gráfico, o paciente precisou de $\\alpha = 50\\ \\text{dB}$ em 8000 Hz e de $\\alpha = 20\\ \\text{dB}$ em 500 Hz.\n\nPela definição, $\\frac{I}{I_0} = 10^{\\alpha/10}$. Então:\n\n$\\frac{I(8000)}{I(500)} = \\frac{10^{50/10}}{10^{20/10}} = \\frac{10^5}{10^2} = 10^3$\n\nCada 10 dB a mais multiplica a intensidade por 10; a diferença de 30 dB corresponde a um fator $10^3$.\n\n**Resposta: B**"
+  },
+  "77": {
+   "assunto": "Ondulatória",
+   "resolucao": "A melhor resposta auditiva é onde $\\alpha$ é menor. No gráfico, o menor valor (15 dB) ocorre em $f = 1000\\ \\text{Hz}$.\n\nO comprimento de onda vem de $v = \\lambda f$:\n\n$\\lambda = \\frac{v_s}{f} = \\frac{340}{1000} = 0{,}34\\ \\text{m} = 34\\ \\text{cm}$\n\nA distratora 4,25 cm corresponde a 8000 Hz, justamente a frequência de pior resposta (50 dB).\n\n**Resposta: D**"
+  },
+  "78": {
+   "assunto": "Citologia",
+   "resolucao": "A teoria da endossimbiose explica a origem de mitocôndrias e cloroplastos a partir de bactérias englobadas por uma célula maior. As evidências são as semelhanças dessas organelas com bactérias: DNA próprio e circular, ribossomos parecidos com os bacterianos, divisão independente da célula e membrana dupla da própria organela.\n\nO genoma circular das mitocôndrias (E) é uma dessas evidências.\n\nA membrana dupla do núcleo (A) não vale como evidência: a teoria se refere à membrana dupla de mitocôndrias e cloroplastos. Ribossomos do retículo (B), parede celular (C) e formato do Golgi (D) não têm relação com a hipótese.\n\n**Resposta: E**"
+  },
+  "79": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Rhoades descobriu que \"the trees in the forest had changed the chemistry of their leaves, to the detriment of the caterpillars\": as árvores alteraram a composição química das folhas, e as lagartas morreram. Isso corresponde a B.\n\nO texto não atribui a recuperação a inimigos naturais (A), à variabilidade das lagartas (C), ao solo (D) nem a uma oscilação natural das pragas (E). O que tornou o caso marcante foi a mudança nas folhas, inclusive em árvores ainda não atacadas, sugerindo comunicação entre elas.\n\n**Resposta: B**"
+  },
+  "80": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "Sobre a trepadeira chilena, o texto diz que ela imita \"the shape and color of nearby plants by a mechanism that's not yet understood\" e, no fim, que \"It's not clear how the vine gathers information about surrounding plants to perform its mimicry\". A dúvida científica é, portanto, como a planta reproduz a forma e a cor das vizinhas (E).\n\nO texto não menciona ciclo reprodutivo (A), polinizadores (B), altitude (C) nem fungos (D).\n\n**Resposta: E**"
+  },
+  "81": {
+   "assunto": "Ligações e interações",
+   "resolucao": "Para viajar pelo ar, a molécula precisa evaporar com facilidade, isto é, ter alta volatilidade. Moléculas de baixa polaridade fazem interações intermoleculares fracas e, por isso, são mais voláteis (E).\n\nPor isso A está errada: moléculas polares interagem mais fortemente entre si e são menos voláteis. Pelo solo, o transporte se dá pela água, que dissolve bem moléculas polares; então as moléculas não precisam ser apolares (B), as de baixa polaridade não se dissolvem facilmente nessa água (C) e as polares têm solubilidade alta, não baixa (D).\n\n**Resposta: E**"
+  },
+  "82": {
+   "assunto": "Química ambiental",
+   "resolucao": "O texto explica que o vidro libera os nutrientes \"de forma controlada e prolongada\", ao contrário dos fertilizantes convencionais, cujos nutrientes \"são levados pela água da chuva\". Liberando pouco de cada vez, o nutriente é absorvido pelas plantas antes de ser lixiviado, e menos fósforo e potássio chegam aos lençóis freáticos (C).\n\nA inverte o efeito ambiental; B contradiz o texto, que diz que o vidro é solúvel em água e no solo; D e E descrevem liberação rápida, que é justamente o que causa a perda por lixiviação.\n\n**Resposta: C**"
+  },
+  "83": {
+   "assunto": "Soluções",
+   "resolucao": "Em 100 h dissolvem-se $7{,}3\\ \\text{mg/h} \\times 100\\ \\text{h} = 730\\ \\text{mg}$ de vidro.\n\nDesse total, 19% é fosfato: $0{,}19 \\times 730 = 138{,}7\\ \\text{mg} \\approx 0{,}139\\ \\text{g}$.\n\nEm mol: $n = \\frac{0{,}139}{95} \\approx 1{,}46 \\times 10^{-3}\\ \\text{mol}$. Como o volume é 1 L, a concentração é $1{,}46 \\times 10^{-3}\\ \\text{mol/L}$.\n\nAs distratoras vêm de etapas incompletas: $139 \\times 10^{-3}$ é a massa de fosfato em gramas, $730 \\times 10^{-3}$ é a massa de vidro em gramas, e $7{,}68 \\times 10^{-3}$ divide toda a massa de vidro por 95, esquecendo os 19%.\n\n**Resposta: A**"
+  },
+  "84": {
+   "assunto": "Botânica",
+   "resolucao": "Antes da seta Z, as células-guarda estão curvadas, com vacúolos grandes, e o ostíolo (abertura entre elas) está aberto. Depois, as células estão retas, com vacúolos pequenos, e o ostíolo está fechado.\n\nO estômato fecha quando as células-guarda perdem solutos (principalmente íons potássio). Com menos solutos, a água sai por osmose, o vacúolo diminui e a célula perde turgor (B).\n\nAs demais descrevem situações que levam à abertura: passagem do escuro para a luz (A), ar mais úmido (C), mais água no solo (D) e aumento do turgor (E).\n\n**Resposta: B**"
+  },
+  "85": {
+   "assunto": "Ecologia",
+   "resolucao": "Nicho ecológico é o conjunto de condições e recursos que uma espécie usa e o modo como os usa. A área N é a parte em que os nichos das duas espécies se sobrepõem: ambas exploram o mesmo recurso da mesma forma.\n\nNessa sobreposição ocorre competição entre as espécies (interespecífica), além da competição entre indivíduos da mesma espécie (intraespecífica), que existe em todo o nicho (A).\n\nNichos podem se sobrepor (B); habitat é o lugar onde a espécie vive, não a sobreposição de nichos (C); a figura não indica divisão simétrica do recurso (D) nem formação de nicho novo ou de espécie nova (E).\n\n**Resposta: A**"
+  },
+  "86": {
+   "assunto": "Zoologia",
+   "resolucao": "As minhocas (anelídeos) fazem respiração cutânea: o oxigênio se difunde pela pele, que precisa estar sempre úmida. Os besouros (insetos) têm respiração traqueal: tubos que levam o ar dos espiráculos até as células. Em ambiente seco, os insetos perdem água pelos espiráculos, e a umidade do solo os ajuda a evitar o ressecamento (B).\n\nOs bichos-de-conta são crustáceos terrestres: respiram por estruturas derivadas de brânquias (as pseudotraqueias), que também dependem de umidade. A erra ao dar a eles respiração traqueal; C erra ao dizer que a umidade não importa; D e E dão o mesmo tipo de respiração aos três grupos, o que não ocorre.\n\n**Resposta: B**"
+  },
+  "87": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "O trecho insiste na indiferença das plantas: elas \"não se sentiam agradecidas\", tratavam o regador como a chuva, e \"tanto lhes fazia serem cuidadas por um assassino\". O \"olhar sem julgamento\" é o de uma natureza alheia às ações e aos sentimentos humanos, que existe independentemente deles (C).\n\nNão há piedade (A), terror (B) ou retribuição pelo cuidado (D), pois as plantas não julgam o passado de Celestino. Também não há dependência mútua (E): elas não sentem falta dele \"por um instante\".\n\n**Resposta: C**"
+  },
+  "88": {
+   "assunto": "Brasil Império",
+   "resolucao": "O excerto diz que o tráfico internacional acabou em 1850, mas a escravidão \"ainda permaneceria forte por quase quarenta anos\". Sem a chegada de africanos, a mão de obra escravizada passou a ser obtida dentro do país: os cativos foram vendidos das províncias em crise (sobretudo do Nordeste) para as áreas de café do Sudeste, no tráfico interprovincial (D).\n\nA lei Feijó de 1831 é o exemplo da lei \"para inglês ver\", que não foi cumprida e não prejudicou os importadores (B). O texto não fala em indenização (C), e a pressão externa veio sobretudo da Inglaterra, não de imigrantes (E). A mão de obra indígena não substituiu a africana (A).\n\n**Resposta: D**"
+  },
+  "89": {
+   "assunto": "Brasil contemporâneo",
+   "resolucao": "O sobrenome \"Paranhos\" foi herdado do tempo da escravidão: a família negra o recebeu dos senhores que escravizaram seus antepassados. Isso mostra um vínculo entre as famílias nascido de uma relação desigual.\n\nAo manter o nome, os \"Paranhos\" negros fazem uma \"velada reivindicação\" da fortuna dos brancos, \"que em grande parte era de pertença dos negros\": a riqueza foi construída com o trabalho dos escravizados. É o que diz C.\n\nO texto não fala em ascensão por programas de governo nem em crise do café (A), em instituições monárquicas (B), em harmonia social (D) ou em valorização da mistura racial (E).\n\n**Resposta: C**"
+  },
+  "90": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "No trecho, Fio Jasmim repete ideias típicas de uma masculinidade tradicional: separa a esposa das outras mulheres (\"A de casa é santa\"), é motivo de riso dos colegas por se preocupar com uma mulher e já pensa em \"alguma conquista\". Ao longo do romance, ele se relaciona com várias mulheres nas cidades por onde passa, comportamento esperado e até valorizado no seu meio. Por isso, ele reproduz o estereótipo masculino (C).\n\nEle não rompe com as expectativas sociais (A e D) nem se relaciona com as mulheres de forma igualitária (B). A alternativa E fala em culpa e arrependimento, que o trecho não mostra: Fio Jasmim fica apenas confuso com o próprio interesse.\n\n**Resposta: C**"
+  }
+ }
+}

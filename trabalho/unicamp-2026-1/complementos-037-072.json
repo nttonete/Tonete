@@ -1,0 +1,153 @@
+{
+ "edicao": "unicamp-2026-1",
+ "intervalo": [
+  37,
+  72
+ ],
+ "complementos": {
+  "37": {
+   "assunto": "Genética",
+   "resolucao": "Os pais são heterozigotos ($Aa \\times Aa$). Pela 1ª Lei de Mendel, a prole esperada é $\\frac{1}{4}\\ AA$, $\\frac{1}{2}\\ Aa$ e $\\frac{1}{4}\\ aa$.\n\nO heredograma mostra que o filho heterozigoto é o mais pesado (500 kg, vigor híbrido), o homozigoto dominante tem massa normal (350 kg) e o homozigoto recessivo ($aa$) é o mais leve (150 kg). Esse último caso é a **depressão endogâmica**: dois alelos deletérios iguais reduzem o ganho de peso e a variabilidade genética. A chance de nascer $aa$ é de **25%**.\n\nA heterose ocorre em 50% da F1, não em 66% ou 33%. E a homozigose em geral (50%) não causa depressão, pois o $AA$ tem massa normal.\n\n**Resposta: C**"
+  },
+  "38": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "No ciclo haplonte, o indivíduo adulto é haploide ($n$) e a única fase diploide é o zigoto.\n\n- **I** e **II**: o fungo $n$ forma esporos (I) e gametas (II) que dão origem a novos indivíduos $n$. Como não há mudança de ploidia, ambos ocorrem por **mitose**.\n- **III**: a fusão dos dois gametas $n$ (a seta laranja une as duas células) é a **plasmogamia**, fusão dos citoplasmas que leva ao zigoto.\n- **IV**: o zigoto $2n$ volta a formar indivíduo $n$; a redução cromossômica exige **meiose** (meiose zigótica).\n\nQualquer alternativa com meiose em I ou II erra, pois um adulto haploide não faz meiose.\n\n**Resposta: C**"
+  },
+  "39": {
+   "assunto": "Ecologia",
+   "resolucao": "Nos gráficos, a curva contínua é a presa nativa (a população mais numerosa), a tracejada é o predador nativo e a pontilhada é o predador exótico, que começa em baixa densidade.\n\n- **Cenário I**: o predador exótico (pontilhado) cresce e se estabiliza; a presa nativa cai de cerca de 15 para cerca de 10; o predador nativo (tracejado) vai a zero. A invasão teve **sucesso**: o exótico se instalou, reduziu a presa e levou o predador nativo à extinção.\n- **Cenário II**: o exótico desaparece, e presa e predador nativos aumentam. É um insucesso, mas com **aumento** da presa nativa, e não redução, como diz a alternativa D.\n\n**Resposta: B**"
+  },
+  "40": {
+   "assunto": "Zoologia",
+   "resolucao": "Todos os animais da placa são **artrópodes**, mas nem todos são insetos. Mosquitos e abelhas são insetos (três pares de patas, corpo em cabeça, tórax e abdome, antenas). Carrapatos e escorpiões são **aracnídeos** (quatro pares de patas, sem antenas).\n\nPortanto, o título \"insetos perigosos\" está errado para metade dos animais.\n\nQuilópodes são as lacraias e diplópodes, os piolhos-de-cobra; nenhum aparece na placa. E carrapatos e escorpiões também são artrópodes, o que derruba a alternativa B.\n\n**Resposta: D**"
+  },
+  "41": {
+   "assunto": "Evolução",
+   "resolucao": "O *Homo neanderthalensis* tinha cérebro grande (até maior que o nosso, em média), nariz largo e proeminente, usava fogo e ferramentas e tinha capacidade de comunicação. Viveu ao mesmo tempo que o *Homo sapiens*, com quem chegou a cruzar.\n\nAs outras afirmações têm erros históricos:\n- o *Australopithecus* era bípede, mas não há evidência de que dominasse o fogo;\n- o *Homo erectus* não foi o primeiro bípede (os australopitecos já eram) nem o primeiro a usar ferramentas (o *Homo habilis* já usava);\n- o *Homo sapiens* não foi o primeiro a usar fogo e ferramentas.\n\n**Resposta: C**"
+  },
+  "42": {
+   "assunto": "Estatística",
+   "resolucao": "É preciso que a afirmação valha nos três conclaves (2005, 2013 e 2025). Lendo o gráfico:\n\n- Europa + África: em 2005, cerca de $50\\% + 9{,}5\\% \\approx 59{,}5\\%$; em 2013, cerca de $52\\% + 9{,}5\\% \\approx 61{,}5\\%$; em 2025, $39{,}3\\% + 13{,}3\\% = 52{,}6\\%$. Sempre **acima de 50%**.\n\nAs outras falham em algum ano: América Latina + África nunca passam de 31%; Ásia/Oceania + África ficam em torno de 20% em 2005 e 2013; e Ásia/Oceania + EUA/Canadá só se aproximam de 30% em 2025 ($20\\% + 10{,}4\\% = 30{,}4\\%$), ficando perto de 22% nos anos anteriores.\n\n**Resposta: C**"
+  },
+  "43": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Seja $S$ o salário de dezembro de 2024. São 36 salários de janeiro de 2025 a dezembro de 2027.\n\n- Proposta 1: $36 \\cdot 1{,}5S = 54S$.\n- Proposta 2: 12 salários de cada valor, com 20% ao ano acumulado: $12S(1{,}2 + 1{,}44 + 1{,}728) = 12S \\cdot 4{,}368 = 52{,}416S$.\n\nComparando: $\\frac{54}{52{,}416} \\approx 1{,}030$. A proposta 1 rende cerca de **3% a mais** que a proposta 2.\n\n**Resposta: A**"
+  },
+  "44": {
+   "assunto": "Funções",
+   "resolucao": "O ponto destacado no gráfico é $(1, 5)$, ou seja, $f(g(1)) = 5$.\n\nComo $g(1) = 3 - 1 = 2$, temos $f(2) = 5$:\n\n$2^3 + 2 \\cdot 2^2 + 2a - 1 = 5 \\Rightarrow 8 + 8 + 2a - 1 = 5 \\Rightarrow 2a = -10 \\Rightarrow a = -5$.\n\n**Resposta: D**"
+  },
+  "45": {
+   "assunto": "Polinômios e equações",
+   "resolucao": "Sejam $m$ e $n$ os graus de $p$ e $q$. O grau do produto é a soma dos graus: $m + n = 8$.\n\nSe $m \\neq n$, a soma $p + q$ teria o grau do maior deles, que seria pelo menos 5. Como $p + q$ tem grau 3, os graus são iguais, $m = n = 4$, e os termos de grau 4 se cancelam na soma: os coeficientes líderes são opostos, $c$ e $-c$.\n\nNa diferença, esses termos não se cancelam: $c - (-c) = 2c \\neq 0$. Logo $p - q$ tem grau **4**.\n\n**Resposta: B**"
+  },
+  "46": {
+   "assunto": "Geometria analítica",
+   "resolucao": "Pela figura, a reta sobe da esquerda para a direita e corta o eixo $y$ abaixo da origem, então $a > 0$ e $b < 0$.\n\n- Inclinação: se a reta faz 30° com o eixo $y$, faz 60° com o eixo $x$. Logo $a = \\tan 60° = \\sqrt{3}$.\n- Coeficiente linear: a origem, o ponto $(0, b)$ e o pé da perpendicular formam um triângulo retângulo cuja hipotenusa é $|b|$ e cujo ângulo em $(0, b)$ é 30°. Então a distância é $|b| \\sin 30° = \\sqrt{3}$, o que dá $|b| = 2\\sqrt{3}$, isto é, $b = -2\\sqrt{3}$.\n\nPortanto $ab = \\sqrt{3} \\cdot (-2\\sqrt{3}) = -6$.\n\n**Resposta: C**"
+  },
+  "47": {
+   "assunto": "Razão, proporção e grandezas",
+   "resolucao": "Primeiro, a área do recorte no papel: $\\frac{1{,}0815\\ \\text{g}}{75\\ \\text{g/m}^2} = 0{,}01442\\ \\text{m}^2 = 144{,}2\\ \\text{cm}^2$.\n\nNa escala 1:5.000.000, 1 cm no papel vale 5.000.000 cm = 50 km. Para áreas, a escala vai ao quadrado: $1\\ \\text{cm}^2$ no papel vale $50^2 = 2500\\ \\text{km}^2$.\n\nÁrea real: $144{,}2 \\cdot 2500 = 360.500\\ \\text{km}^2$.\n\n**Resposta: D**"
+  },
+  "48": {
+   "assunto": "Funções",
+   "resolucao": "O vértice da parábola é o ponto mais alto, $(9, 3)$, e ela passa por $(0, 2)$, onde a bola é lançada.\n\nNa forma do vértice: $y = k(x - 9)^2 + 3$. Usando $(0, 2)$: $2 = 81k + 3$, logo $k = -\\frac{1}{81}$.\n\nExpandindo: $y = -\\frac{1}{81}(x^2 - 18x + 81) + 3 = -\\frac{1}{81}x^2 + \\frac{18}{81}x - 1 + 3 = -\\frac{1}{81}x^2 + \\frac{2}{9}x + 2$.\n\nConferindo: o vértice está em $x = -\\frac{b}{2a} = \\frac{2/9}{2/81} = 9$. As outras alternativas têm $y(0) = 2$, mas vértice fora de $x = 9$.\n\n**Resposta: C**"
+  },
+  "49": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Há $5! = 120$ maneiras de distribuir os 5 brinquedos, todas igualmente prováveis.\n\nCasos favoráveis: escolhemos as 2 crianças que pegam o próprio brinquedo, $\\binom{5}{2} = 10$ modos. As outras 3 não podem pegar o próprio brinquedo. Com 3 objetos, só há 2 arranjos em que ninguém fica com o seu (as duas permutações circulares: $BCA$ e $CAB$).\n\nFavoráveis: $10 \\cdot 2 = 20$. Probabilidade: $\\frac{20}{120} = \\frac{1}{6}$.\n\n**Resposta: B**"
+  },
+  "50": {
+   "assunto": "Trigonometria",
+   "resolucao": "Como $PD = QC$, o triângulo $PMQ$ é isósceles, e a altura que sai de $M$ cai no ponto médio $H$ de $PQ$. Essa altura vale $x$ (o lado do quadrado). Chame $\\alpha = \\theta/2$ e $HQ = t$, de modo que $\\tan\\alpha = \\frac{t}{x}$.\n\nUsando $\\cos\\theta = \\frac{1 - \\tan^2\\alpha}{1 + \\tan^2\\alpha} = \\frac{2}{3}$, com $u = \\tan^2\\alpha$: $3 - 3u = 2 + 2u$, logo $u = \\frac{1}{5}$ e $\\tan\\alpha = \\frac{1}{\\sqrt{5}}$. Então $t = \\frac{x}{\\sqrt{5}}$.\n\nÁrea: $\\frac{PQ \\cdot x}{2} = \\frac{2t \\cdot x}{2} = t\\,x = \\frac{x^2}{\\sqrt{5}} = \\frac{\\sqrt{5}\\,x^2}{5}$.\n\n**Resposta: A**"
+  },
+  "51": {
+   "assunto": "Lógica e conjuntos",
+   "resolucao": "Resolva cada condição com $x$ natural:\n\n- $|x - 11| \\leq 9 \\iff 2 \\leq x \\leq 20$;\n- $|x - 5| \\geq 2 \\iff x \\leq 3$ ou $x \\geq 7$.\n\nA interseção é $A = \\{2, 3\\} \\cup \\{7, 8, \\dots, 20\\}$. Os primos em $A$ são 2, 3, 7, 11, 13, 17 e 19: **7 números**. (O 5 ficou de fora, pois $|5 - 5| = 0 < 2$.)\n\n**Resposta: C**"
+  },
+  "52": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Sejam $s$ soldados e $e$ estrategistas, com $s + e = 100$.\n\nAstúcia total: $30s + 80e$. Força total: $70s + 20e$. Igualando:\n\n$30s + 80e = 70s + 20e \\Rightarrow 60e = 40s \\Rightarrow s = \\frac{3}{2}e$.\n\nSubstituindo: $\\frac{3}{2}e + e = 100 \\Rightarrow e = 40$ e $s = 60$. Conferindo: astúcia $1800 + 3200 = 5000$ e força $4200 + 800 = 5000$.\n\n**Resposta: B**"
+  },
+  "53": {
+   "assunto": "Geometria plana",
+   "resolucao": "Coloque o quadrado em coordenadas com $D = (0, 0)$, $C = (6, 0)$, $B = (6, 6)$ e $A = (0, 6)$. Então $P = (3, 6)$, $Q = (6, 4)$, $S = (0, 4)$ e $R = (1, 0)$.\n\nO triângulo sombreado tem vértices $P$, $Q$ e o ponto $T$ onde $PR$ cruza o segmento $SQ$ (a reta $y = 4$). A reta $PR$ tem inclinação $\\frac{6 - 0}{3 - 1} = 3$, ou seja, $x = 1 + \\frac{y}{3}$. Em $y = 4$: $x = \\frac{7}{3}$.\n\nBase $TQ = 6 - \\frac{7}{3} = \\frac{11}{3}$, altura (de $P$ até $y = 4$) igual a 2. Área: $\\frac{1}{2} \\cdot \\frac{11}{3} \\cdot 2 = \\frac{11}{3}$.\n\n**Resposta: A**"
+  },
+  "54": {
+   "assunto": "Variação linguística",
+   "resolucao": "O enunciado dá a chave: consoante muda é a que não é seguida de vogal. No português do Brasil, quase ninguém pronuncia o *d* de *advogado* \"mudo\": inserimos uma vogal de apoio, dizendo *adevogado* ou *adivogado*, como conta o próprio marido da autora.\n\nAssim, os críticos que exigem o \"d mudo\" cobram uma pronúncia que praticamente não existe no português brasileiro. Os comentários revelam **desconhecimento linguístico**.\n\nA alternativa A erra ao falar em baixa escolaridade (a autora é professora universitária), e a D erra ao dizer que só uma pronúncia ocorre e a outra é desvio.\n\n**Resposta: B**"
+  },
+  "55": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto diz que o *nóix* não é \"o Nós da totalidade, uma vez que não sabemos exatamente quem ou quantos somos\". O *nóix* é um coletivo sem fronteiras fixas, mas unido por experiências comuns da rua: \"a lógica dos bondes de galera\", o \"fechamento\" como \"fundamento ético das ruas\", um sotaque e um lugar.\n\nA diferença é, portanto, **sociocultural**: de um lado, um grupo bem delimitado; de outro, uma coletividade difusa marcada por vivências compartilhadas.\n\nNão é gramatical (*nóix* continua sendo pronome), nem o texto diz que o *Nós* reúne quem não tem ancestralidade ou que apoia a opressão.\n\n**Resposta: A**"
+  },
+  "56": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O segundo texto explica que o Pretuguês, conceito de Lélia Gonzalez, é a **africanização do português brasileiro**, herdada da resistência dos negros escravizados e transmitida pela ancestralidade.\n\nNo primeiro texto, o *nóix* \"demarca um sotaque, um registro local\" e é ligado à ancestralidade de quem fala. A menção ao Pretuguês indica que essa marca linguística pertence a um grupo cujos antepassados contribuíram para africanizar a língua.\n\n*Nóix* não é palavra de origem africana (é uma pronúncia de *nós*), por isso a A erra. E o texto não fala em segregar grupos, como afirma a B.\n\n**Resposta: C**"
+  },
+  "57": {
+   "assunto": "Coesão e coerência",
+   "resolucao": "O cartaz começa com uma ordem (\"lute a luta como você acha que deve lutar\") e segue com uma série de orações iniciadas por \"que vão dizer...\". Esse *que* equivale a *porque* / *pois*: é uma conjunção **explicativa**, que justifica o conselho dado na primeira frase.\n\nAs justificativas listam o que \"os supostos donos da luta\" vão dizer para desqualificar quem luta do seu jeito, isto é, tentam apagar a dimensão pessoal da luta em favor de outros.\n\nNão há comparação nem condição. E o texto não descreve causas que levam à desistência: ele antecipa as críticas para incentivar quem luta a não desistir.\n\n**Resposta: A**"
+  },
+  "58": {
+   "assunto": "Gêneros e tipologia textual",
+   "resolucao": "Pelo texto 1, o *image macro* típico tem **frame único** e um texto em caixa alta e fonte branca sobreposto a uma imagem. O jogo consiste em pôr o mesmo texto em várias imagens ou textos diferentes numa mesma imagem.\n\nO meme *Nazaré Confusa* tem **quatro quadros**, e os elementos verbais são fórmulas e figuras matemáticas espalhadas ao redor do rosto, diferentes em cada quadro. Não há legenda em caixa alta. Por isso, é uma peça memética que não reúne todos os traços do *image macro*.\n\nA alternativa A erra ao falar em frame único. A B erra ao dizer que a imagem se subordina ao texto, já que o texto 1 diz que não há subordinação.\n\n**Resposta: D**"
+  },
+  "59": {
+   "assunto": "Gêneros e tipologia textual",
+   "resolucao": "O texto 2 toma posição pública e coletiva (\"Nós acreditamos na autenticidade...\") contra o uso de IA para imitar o estilo Ghibli. Ele argumenta que a imitação automatizada fere os princípios do estúdio e desvaloriza o trabalho humano. É um **manifesto**, uma declaração de princípios contrária a uma prática.\n\nO texto 1, um meme convertido para o \"Estilo Ghibli\", é justamente o tipo de imagem criticada.\n\nNão é resenha (não avalia uma obra), nem nota de repúdio sobre \"traços irreverentes\", nem carta de boicote: o texto não diz que as IAs querem confundir as pessoas.\n\n**Resposta: C**"
+  },
+  "60": {
+   "assunto": "Modernismo",
+   "resolucao": "Krenak critica a ideia de progresso que leva o ser humano a consumir os lugares em vez de conviver com eles. O trecho de Drummond mostra isso: o homem se chateia na Terra, vai à Lua e a \"coloniza\", \"civiliza\", \"humaniza\" até ela ficar \"tão igual à Terra\"; então se chateia de novo e parte para Marte, que também vira \"lugar quadrado\".\n\nA enumeração de verbos mostra uma conquista em série, sem reflexão sobre o espaço ocupado. O homem, movido pela ideia de progresso, não adota uma **postura consciente** em relação ao lugar onde vive.\n\nO poema não culpa a ciência em si, não diz que a Terra foi superada nem fala em programas de governo.\n\n**Resposta: B**"
+  },
+  "61": {
+   "assunto": "Gêneros literários e versificação",
+   "resolucao": "Pelo texto 2, a ode clássica é extensa, de assunto elevado e tom nobre e cerimonioso, em homenagem a algo ou alguém ilustre.\n\nA \"ode mínima\" de José Paulo Paes inverte isso: é curta, tem linguagem coloquial e é dirigida a um objeto do dia a dia, os **óculos**. O poeta reconhece a importância deles (sem eles não vê o mundo) e lhes é \"grato\", mas não os trata como algo ilustre. A reelaboração está em celebrar um objeto comum, e não um assunto nobre.\n\nAs alternativas A e B dizem que o poema mantém o tom elevado, o que não acontece. Nada no poema o liga à canção popular.\n\n**Resposta: D**"
+  },
+  "62": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "Em \"Réplica\", Nkem é uma nigeriana que vive nos Estados Unidos com os filhos, enquanto o marido, Obiora, passa a maior parte do tempo na Nigéria. Ela vive entre duas culturas e observa com estranhamento os hábitos americanos e a própria situação, até descobrir que o marido tem uma namorada em Lagos.\n\nO conto trata do **choque cultural** vivido por quem participa das diásporas africanas contemporâneas, filtrado pelo olhar de Nkem.\n\nAs outras alternativas inventam elementos: o conto não fala em recolonização, em falência de um \"modelo africano de sororidade\" nem em nacionalismo despertado pelos vizinhos brancos.\n\n**Resposta: A**"
+  },
+  "63": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "O trecho é um único fluxo de fala, quase sem vírgulas ou pontos, com ações encadeadas por \"e\", \"e daí\", \"e então\" e marcas de oralidade (\"certo\", \"sabe\"). A falta de pontuação **acelera** a leitura e imita a fala atropelada de quem conta algo com pressa, reproduzindo a **ansiedade** da personagem.\n\nAs expressões \"foi então que vi\" e \"só aí eu entendi\" não retardam a narrativa nem rompem a ordem do tempo: elas marcam a sequência dos fatos. E, apesar da falta de pontuação, as ações seguem uma ordem clara (compra das ameixas, caminhada, tropeção no caixão, descoberta do velório), sem ambiguidade.\n\n**Resposta: B**"
+  },
+  "64": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "Em *Casa Velha*, Félix, filho de Dona Antônia, se apaixona por Lalau, moça agregada da casa, e a mãe procura impedir o casamento. A cena do sineiro serve a esse enredo: Lalau trata com bondade o velho escravizado, de quem ninguém se aproxima, e Félix a observa comovido.\n\nA compaixão da moça e a admiração do filho tornam visível, aos olhos de Dona Antônia, o **sentimento que existe entre Lalau e Félix**, o que move o conflito central do romance.\n\nCuidado com a alternativa D: no trecho, é a moça que representa \"a sociedade humana\" aos olhos do sineiro, e não a Casa Velha que representa toda a sociedade. A cena também não trata de solidariedade de classe nem tem como foco a caridade de Dona Antônia.\n\n**Resposta: C**"
+  },
+  "65": {
+   "assunto": "Interpretação de texto literário",
+   "resolucao": "A canção tem dois movimentos. Primeiro, a alvorada no morro é só beleza e alegria (\"ninguém chora, não há tristeza\"). Depois, o eu-lírico compara a pessoa amada a essa alvorada: \"Você também me lembra a alvorada / quando chega iluminando / meus caminhos tão sem vida\".\n\nMas o final mostra desânimo: o que lhe resta é \"quase nada\", \"vagando numa estrada perdida\". A pessoa amada traz alegria, mas a vida do eu-lírico continua marcada pela **desilusão e desesperança**.\n\nA alternativa A ignora esse fim triste. A B fala de pobreza, tema ausente dos versos. A D promete um futuro transformado pelo amor, o que a letra não sugere.\n\n**Resposta: C**"
+  },
+  "66": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Os três domínios são:\n\n- **macroscópico** (1): o que se vê e se mede, como o incêndio da fotografia **D**;\n- **submicroscópico** (2): átomos e moléculas, como os modelos de esferas da reação em **G**;\n- **simbólico** (3): fórmulas e equações, como a equação química de **H**.\n\nA ilustração **C** junta um gráfico de energia pelo progresso da reação (representação simbólica) com partículas colidindo (nível submicroscópico), combinando os dois domínios.\n\nA ilustração E mistura uma chama (macroscópica) com uma equação (simbólica), sem nível submicroscópico. Por isso a alternativa B está errada.\n\n**Resposta: D**"
+  },
+  "67": {
+   "assunto": "Equilíbrio químico",
+   "resolucao": "O $\\text{CO}_2$ que se dissolve no mar forma ácido: $\\text{CO}_2 + \\text{H}_2\\text{O} \\rightarrow \\text{HCO}_3^- + \\text{H}^+$. O $\\text{H}^+$ é consumido pelo íon carbonato: $\\text{H}^+ + \\text{CO}_3^{2-} \\rightarrow \\text{HCO}_3^-$, logo **A** é $\\text{CO}_3^{2-}$.\n\nPara repor o carbonato, o esqueleto dos corais se dissolve: $\\text{CaCO}_3 \\rightarrow \\text{Ca}^{2+} + \\text{CO}_3^{2-}$. Assim **B** é $\\text{CaCO}_3$ e **C** é $\\text{CO}_3^{2-}$.\n\nNo gráfico, quanto mais $\\text{CO}_2$ atmosférico (eixo X), menos carbonato disponível (eixo Y): a curva é decrescente. No conjunto, o aumento do $\\text{CO}_2$ **baixa o pH** dos oceanos (acidificação) e **aumenta a degradação** dos corais.\n\n**Resposta: B**"
+  },
+  "68": {
+   "assunto": "Termoquímica",
+   "resolucao": "Calcule a energia por grama e por $\\text{cm}^3$ de cada combustível:\n\n- Querosene: $\\frac{6745}{153} \\approx 44\\ \\text{kJ/g}$; vezes a densidade, $44 \\cdot 0{,}804 \\approx 35\\ \\text{kJ/cm}^3$.\n- Hidrogênio: $\\frac{240}{2} = 120\\ \\text{kJ/g}$; vezes a densidade, $120 \\cdot 0{,}071 \\approx 8{,}5\\ \\text{kJ/cm}^3$.\n\nO hidrogênio libera quase três vezes mais energia **por massa**, então, para a mesma energia, a aeronave carrega menos massa de combustível. Por volume, porém, ele perde: precisa de um tanque cerca de quatro vezes maior.\n\nPor isso as alternativas A e B estão erradas, e a D diz o contrário do que acontece com a massa.\n\n**Resposta: C**"
+  },
+  "69": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Aos 65 minutos, o gráfico marca cerca de $3{,}0\\ \\text{mmol}$ de $\\text{CO}_2$ por grama de sólido.\n\n(i) Um mol do sólido tem 332,3 g e captura $3{,}0 \\times 10^{-3} \\cdot 332{,}3 \\approx 1{,}0$ mol de $\\text{CO}_2$. A razão molar é **cerca de 1**.\n\n(ii) Cada grama de sólido ganha $3{,}0 \\times 10^{-3}\\ \\text{mol} \\cdot 44\\ \\text{g/mol} = 0{,}132\\ \\text{g}$ de $\\text{CO}_2$, isto é, um aumento de cerca de **13%** na massa.\n\nQuem marca razão 3 confunde mmol por grama com mol por mol.\n\n**Resposta: B**"
+  },
+  "70": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "Siga o fluxograma:\n\n- $\\text{NaCl} + \\text{NH}_3 + \\text{CO}_2 + \\text{H}_2\\text{O} \\rightarrow \\text{NaHCO}_3 + \\text{NH}_4\\text{Cl}$\n- $2\\,\\text{NaHCO}_3 \\rightarrow \\text{Na}_2\\text{CO}_3 + \\text{CO}_2 + \\text{H}_2\\text{O}$\n- $\\text{CaCO}_3 \\rightarrow \\text{CaO} + \\text{CO}_2$\n- $2\\,\\text{NH}_4\\text{Cl} + \\text{CaO} \\rightarrow 2\\,\\text{NH}_3 + \\text{CaCl}_2 + \\text{H}_2\\text{O}$\n\nToda a amônia volta ao início pela última reação: ela é **totalmente regenerada**. O $\\text{CO}_2$ volta só em parte (metade vem da decomposição do bicarbonato), e o restante precisa vir do calcário. Os produtos finais são $\\text{Na}_2\\text{CO}_3$ e $\\text{CaCl}_2$; logo, é preciso repor continuamente o sódio e o cloro (**salmoura**, NaCl) e o cálcio e o carbonato (**calcário**, $\\text{CaCO}_3$).\n\n**Resposta: A**"
+  },
+  "71": {
+   "assunto": "Soluções",
+   "resolucao": "O etanol é menos denso que a água (cerca de 789 contra 998 $\\text{kg/m}^3$). Numa mistura ideal, a massa específica fica entre as dos dois componentes e **aumenta com a proporção de água**.\n\n- No EAC, quanto menos etanol, mais denso o combustível. A norma fixa então o teor alcoólico **mínimo** (b, 99,3%) e a massa específica **máxima** (a, 791,5 $\\text{kg/m}^3$).\n- O EHC tem mais água (92,5% a 94,6% de etanol) que o EHCP (95,5% a 96,5%), então deve ser mais denso: **c** = entre 805 e 811 e **d** = entre 800 e 803.\n\n**Resposta: A**"
+  },
+  "72": {
+   "assunto": "Química ambiental",
+   "resolucao": "Compare as duas rotas da figura:\n\n- **Energia**: a rota convencional exige calcinação a 1100 °C, depois 325 °C e lixiviação a 90 °C. A proposta usa no máximo 325 °C e lixivia à temperatura ambiente. É **menos intensiva em energia**.\n- **Carbonato**: na rota convencional, o lítio sai de um meio tratado com $\\text{H}_2\\text{SO}_4$, e o ácido que sobra consome parte do carbonato ($\\text{CO}_3^{2-} + 2\\,\\text{H}^+ \\rightarrow \\text{CO}_2 + \\text{H}_2\\text{O}$) antes de precipitar o $\\text{Li}_2\\text{CO}_3$. No meio alcalino (NaOH) da rota proposta, isso não ocorre, e o consumo de carbonato é menor.\n- **Rendimento e tempo**: a figura não mostra quanto lítio se obtém nem quanto tempo cada etapa leva. Por isso, nada se pode afirmar sobre eles, e as alternativas A, B e C ficam excluídas.\n\n**Resposta: D**"
+  }
+ }
+}

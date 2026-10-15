@@ -1,0 +1,129 @@
+{
+ "edicao": "fuvest-2024-1",
+ "intervalo": [
+  31,
+  60
+ ],
+ "complementos": {
+  "31": {
+   "assunto": "Geometria espacial",
+   "resolucao": "A água usada é o volume da parte do reservatório que ficou vazia: um segmento circular (a parte de cima do círculo da face) multiplicado pelo comprimento de 6 m.\n\nO raio é $r = 1$ m. A água chega a $\\frac{3}{4}$ de 2 m, ou seja, 1,5 m, que fica 0,5 m acima do centro. A corda na altura da água forma com o centro um triângulo de lados 1, 1 e $2\\cdot\\frac{\\sqrt{3}}{2} = \\sqrt{3}$, e o ângulo central do trecho vazio é $120^\\circ$ (pois $\\cos 60^\\circ = \\frac{0{,}5}{1}$).\n\nÁrea do segmento = setor de $120^\\circ$ menos o triângulo: $\\frac{\\pi \\cdot 1^2}{3} - \\frac{1}{2}\\cdot 1\\cdot 1\\cdot \\operatorname{sen} 120^\\circ = \\frac{\\pi}{3} - \\frac{\\sqrt{3}}{4}$.\n\nVolume usado: $6\\left(\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{4}\\right) = 2\\pi - \\frac{3\\sqrt{3}}{2}\\ \\text{m}^3$. A alternativa C soma o triângulo em vez de subtraí-lo.\n\n**Resposta: B**"
+  },
+  "32": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "A ideia é ligar cada cidade ao tipo de prevenção que falta. Pouco saneamento favorece doenças de transmissão pela água, pelo esgoto ou por alimentos contaminados; pouca vacinação favorece doenças que têm vacina.\n\n- Cidade I (bom saneamento, vacinação baixa): tuberculose, prevenida pela vacina BCG.\n- Cidade II (saneamento e vacinação baixos): poliomielite, que tem vacina e também se transmite por água e alimentos contaminados com fezes.\n- Cidade III (bom saneamento, vacinação baixa): hepatite B, prevenida por vacina.\n- Cidade IV (saneamento ruim, vacinação alta): amebíase, ligada à falta de saneamento e sem vacina.\n\nAs outras alternativas erram em alguma cidade: na B e na D, a cidade IV, que é bem vacinada, recebe tuberculose e COVID, que têm vacina.\n\n**Resposta: E**"
+  },
+  "33": {
+   "assunto": "Aritmética e porcentagem",
+   "resolucao": "Calcule o custo de cada componente numa unidade do medicamento (convertendo mg em g) e aplique a variação.\n\n- A: 0,2 g × 700 = R\\$ 140,00; aumento de 7%: + R\\$ 9,80.\n- B: 0,07 g × 500 = R\\$ 35,00; queda de 5%: − R\\$ 1,75.\n- C: sem variação.\n- D: 0,1 g × 120 = R\\$ 12,00; aumento de 10%: + R\\$ 1,20.\n\nAumento total: $9{,}80 - 1{,}75 + 1{,}20 = 9{,}25$ reais.\n\n**Resposta: A**"
+  },
+  "34": {
+   "assunto": "Estatística",
+   "resolucao": "Ordene a lista: $a \\le b \\le c \\le d \\le e$. Mediana 23 dá $c = 23$; média 23 dá soma 115; amplitude 23 dá $e = a + 23$. Então $2a + b + d = 69$. Como $a \\neq e$, nenhum dos dois pode ser 23, e a moda 23 exige que 23 apareça mais vezes que qualquer outro número.\n\n- $b = d = 23$: $2a = 23$, impossível.\n- $b = 23$ e $d > 23$: $d = 46 - 2a$, com $23 < d \\le a + 23$, o que dá $8 \\le a \\le 11$: 4 listas (por exemplo, 8, 23, 23, 30, 31).\n- $d = 23$ e $b < 23$: $b = 46 - 2a$, com $a \\le b < 23$, o que dá $12 \\le a \\le 15$: 4 listas (por exemplo, 12, 22, 23, 23, 35).\n\nEm todas, 23 aparece duas vezes e os demais números são diferentes entre si, então a moda é mesmo 23. Total: $4 + 4 = 8$ listas.\n\n**Resposta: A**"
+  },
+  "35": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "O vidro horizontal inverte a imagem de cima para baixo: o traço de cima troca com o de baixo, e os traços da esquerda e da direita continuam do mesmo lado. Verificando os numerais do relógio:\n\n- 0, 1, 3 e 8 continuam iguais; 2 vira 5 e 5 vira 2 (como no exemplo 18:02 → 18:05).\n- 4, 6, 7 e 9 viram figuras que não são números. Atenção: o 6 de cabeça para baixo só vira 9 numa rotação, não num reflexo; no vidro ele vira um 9 espelhado.\n\nRestam os algarismos 0, 1, 2, 3, 5 e 8. Contagem:\n\n- Dezena da hora: 0 ou 1 (o 2 viraria 5, hora inválida): 2 opções. Unidade da hora: 6 opções. São 12 horas.\n- Dezena dos minutos: 0, 1, 2, 3 ou 5 (todas refletem em algo de 0 a 5): 5 opções. Unidade: 6 opções. São 30 minutos.\n\nTotal: $12 \\times 30 = 360$. A alternativa D (640) aparece quando se aceita, por engano, que 6 e 9 se trocam no reflexo.\n\n**Resposta: B**"
+  },
+  "36": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "O trecho de *Campo Geral* mostra Miguilim depois da morte do irmão Dito: os dias passam a ser \"tempo de doer\". O choro mistura \"todas as lembranças, as mais novas e as muito antigas\", e ele se sente como na vez em que, ao acordar fora de hora, perguntou se \"hoje já é amanhã\".\n\nÉ a experiência da perda, o aprendizado da morte, que embaralha passado e presente na memória do menino. A miopia de Miguilim (alternativa A) existe na novela, mas não é o que o trecho relaciona à confusão do tempo; e o vazio que ele sente não traz segurança (D), mas susto e sufoco.\n\n**Resposta: C**"
+  },
+  "37": {
+   "assunto": "Literaturas africanas de língua portuguesa",
+   "resolucao": "Nos quatro contos de Luís Bernardo Honwana, ambientados no Moçambique colonial, os protagonistas sofrem a opressão do sistema colonial e racial: o menino Ginho, obrigado a matar o cão; o velho Madala, no trabalho forçado em \"Dina\"; o pai e o filho humilhados pelo vizinho português em \"Papá, cobra e eu\"; os trabalhadores negros do campo em \"Nhinguitimo\". A revolta deles não chega a atingir quem os oprime: volta-se contra outro alvo (como o cão) ou fica contida e silenciosa.\n\nAs demais alternativas falham: \"Dina\" e \"Nhinguitimo\" têm narrador em 3ª pessoa e protagonistas adultos (A e B); não são fábulas (D); o espaço é o subúrbio e o campo, não as grandes cidades (E).\n\n**Resposta: C**"
+  },
+  "38": {
+   "assunto": "Gêneros literários e versificação",
+   "resolucao": "O que define uma narrativa é haver acontecimentos que se sucedem no tempo. Em duas linhas, o microconto sugere uma sequência: alguém tem \"uma vida inteira pela frente\" e, em seguida, leva um tiro \"por trás\". A segunda ação interrompe a primeira e cria o desfecho.\n\nO texto não descreve personagens, não tem diálogo nem indica espaço; a força dele está justamente no encadeamento das ações e no contraste \"pela frente\" / \"por trás\".\n\n**Resposta: E**"
+  },
+  "39": {
+   "assunto": "Gêneros literários e versificação",
+   "resolucao": "A crônica é um texto curto, publicado em jornal ou revista, que parte de um fato do dia a dia para comentá-lo de modo pessoal. No trecho, Clarice Lispector parte de algo comum, a insônia, e reflete sobre a solidão da madrugada, o café, o mar e o amanhecer até a casa acordar.\n\nNão há história paralela (A), conflito que se resolve (B), intenção pedagógica (C) nem crítica a alguém (E): o que caracteriza o texto é a narração breve e reflexiva de uma cena cotidiana.\n\n**Resposta: D**"
+  },
+  "40": {
+   "assunto": "Ecologia",
+   "resolucao": "O jardim de chuva reúne seres vivos (plantas, insetos, aves, sapos, decompositores) e componentes não vivos (solo, água, luz) que interagem, com ciclagem de matéria e fluxo de energia: por isso pode ser visto como um ecossistema.\n\nPor que as outras estão erradas:\n- B: o gafanhoto come plantas e é consumidor primário; a teia tem mais de dois níveis.\n- C: monocotiledôneas têm raízes fasciculadas, não pivotantes.\n- D: folhas grandes aumentam a evapotranspiração, o que ajuda a tirar água do solo.\n- E: a decomposição é feita por decompositores (fungos e bactérias), não parasitas, e termina em substâncias simples (inorgânicas).\n\n**Resposta: A**"
+  },
+  "41": {
+   "assunto": "Propriedades e estados da matéria",
+   "resolucao": "A água com $^{18}\\text{O}$ tem menor pressão de vapor: evapora menos e condensa mais facilmente. Por isso, quando a nuvem chove, as primeiras gotas levam preferencialmente $^{18}\\text{O}$, e a nuvem vai ficando cada vez mais leve (mais rica em $^{16}\\text{O}$).\n\nEm período de pouca chuva, a nuvem perde pouca água, então sua composição isotópica quase não muda, e a pouca chuva que cai é relativamente rica em $^{18}\\text{O}$: é o que diz a alternativa B.\n\nA alternativa A inverte o processo (as primeiras chuvas são mais pesadas, não mais leves). C é falsa porque o fracionamento continua ocorrendo; D e E trocam as temperaturas: períodos glaciais são mais frios e interglaciais mais quentes.\n\n**Resposta: B**"
+  },
+  "42": {
+   "assunto": "Magnetismo",
+   "resolucao": "O texto diz que o campo tem cerca de 66 mil nT nos polos e 22 mil nT numa faixa do hemisfério Sul que vai da África à América do Sul, e o mapa mostra a mancha azul (valores baixos) justamente sobre o Brasil: é a chamada Anomalia Magnética do Atlântico Sul. Isso confirma a alternativa D.\n\nAs outras estão erradas:\n- A: ao longo do Equador o mapa vai de cerca de 25.000 nT a mais de 40.000 nT, uma variação da ordem de $1{,}5 \\times 10^{-5}\\ \\text{T}$, maior que $10^{-6}\\ \\text{T}$.\n- B e C: o mapa mostra intensidades diferentes de lugar para lugar; o campo não é constante nem uniforme.\n- E: o texto atribui o campo ao movimento do ferro líquido (cargas em movimento), não a cargas paradas.\n\n**Resposta: D**"
+  },
+  "43": {
+   "assunto": "Questões ambientais",
+   "resolucao": "O gráfico mostra que as concentrações de $\\text{CO}_2$, $\\text{CH}_4$ e $\\text{N}_2\\text{O}$ ficaram estáveis por quase dois mil anos e dispararam a partir da Revolução Industrial, com a queima de carvão, petróleo e gás. O efeito estufa é natural, mas as atividades humanas o intensificaram, o que contribui para o aquecimento global.\n\nAs demais erram: os níveis não se estabilizaram em 2000 (em 2022 o $\\text{CO}_2$ já estava em 420 ppm) (A); a Revolução Industrial se baseou no carvão, fonte não renovável (B); plantar árvores retira $\\text{CO}_2$ do ar (C); o clima da Terra sempre variou (D).\n\n**Resposta: E**"
+  },
+  "44": {
+   "assunto": "República de 1945 a 1964",
+   "resolucao": "O governo JK pôs em prática o nacional-desenvolvimentismo do Plano de Metas (\"cinquenta anos em cinco\"). Para acelerar a industrialização, abriu o país ao capital estrangeiro, com incentivos que trouxeram montadoras de automóveis e outras multinacionais, além de empréstimos externos para obras de infraestrutura e para Brasília.\n\nA alternativa D descreve melhor a política de Vargas, de viés nacionalista e trabalhista; a educação básica (A) e a agricultura (B) não foram o centro do Plano de Metas.\n\n**Resposta: E**"
+  },
+  "45": {
+   "assunto": "Guerras mundiais e entreguerras",
+   "resolucao": "A quebra da Bolsa de Nova York, em 1929, espalhou falências e desemprego pelo mundo e mostrou que o mercado sozinho não se recuperava. Com isso, o liberalismo econômico perdeu força e os governos passaram a intervir na economia, regulando e investindo: o exemplo clássico é o *New Deal*, nos Estados Unidos; no Brasil, o governo passou a comprar e queimar café para sustentar o preço.\n\nA alternativa E é tentadora porque a crise favoreceu a substituição de importações no Brasil, mas ela não ampliou o crédito: ao contrário, houve forte retração do crédito. A libra não substituiu o dólar (D), e a crise não levou à mecanização agrícola com absorção dos trabalhadores (A).\n\n**Resposta: B**"
+  },
+  "46": {
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "O mapa mostra o café começando no Vale do Paraíba (Rio de Janeiro e São Paulo) e avançando, década a década, para o oeste paulista e depois para o norte do Paraná. Essa marcha gerou a riqueza que estruturou a economia paulista: as ferrovias foram construídas para levar o café do interior até o porto de Santos, e o capital do café financiou cidades e, mais tarde, a indústria.\n\nAs outras alternativas erram a ordem e o sentido da expansão: o café teve grande sucesso no Vale do Paraíba, com trabalho escravizado (A); avançou para o oeste, não para leste (B); começou em São Paulo no século XIX, não em 1930 (C); e o mapa trata de Rio e São Paulo (D).\n\n**Resposta: E**"
+  },
+  "47": {
+   "assunto": "Globalização e economia mundial",
+   "resolucao": "No gráfico, o modal aquaviário é o maior apenas no Canadá (47%) e na China (51%). Na China, o uso intenso de rios, canais e cabotagem faz parte da estratégia de reduzir o custo do frete e usar meios de transporte que emitem menos poluentes por tonelada transportada.\n\nAs outras estão erradas: o aquaviário predomina em 2 dos 6 países, não em mais da metade (A); nos EUA o rodoviário é o maior, mas o país transporta enorme volume de cargas (B); os rios e lagos canadenses não ficam congelados na maior parte do ano em todo o país (C); o rodoviário, que domina no Brasil, é caro e pouco eficiente para grandes cargas e longas distâncias (D).\n\n**Resposta: E**"
+  },
+  "48": {
+   "assunto": "Geometria espacial",
+   "resolucao": "Primeiro, o limite pelo volume: a caixa tem $12 \\cdot 13 \\cdot 26 = 4056\\ \\text{cm}^3$ e cada embalagem $2 \\cdot 3 \\cdot 11 = 66\\ \\text{cm}^3$; $\\frac{4056}{66} \\approx 61{,}5$, então cabem no máximo 61.\n\nA resposta oficial (60) corresponde a um arranjo como este:\n- Embalagens com 11 cm ao longo dos 13 cm, 2 cm ao longo dos 12 cm e 3 cm ao longo dos 26 cm: $6 \\times 8 = 48$, ocupando $12 \\times 11 \\times 24$.\n- Na sobra de $12 \\times 2 \\times 26$ (os 2 cm que faltam dos 13): embalagens com 2 cm na espessura, 3 cm nos 12 e 11 cm nos 26: $4 \\times 2 = 8$.\n- Na sobra de $12 \\times 11 \\times 2$ (os 2 cm que faltam dos 26): $4$ embalagens com 3 cm nos 12 e 11 cm nos 11.\nTotal: $48 + 8 + 4 = 60$.\n\n**Observação:** existe arranjo com 61 embalagens, o máximo permitido pelo volume: duas camadas de 11 cm de espessura ao longo dos 26 cm, cada uma com a face $12 \\times 13$ coberta por 26 retângulos $2 \\times 3$ (52 embalagens); na fatia de $12 \\times 13 \\times 4$ que sobra, 8 embalagens com 11 cm nos 13 e mais 1 na faixa de $12 \\times 2 \\times 4$. Por isso a resposta 61 (alternativa E) parece correta, mas o gabarito oficial da FUVEST é 60 (D).\n\n**Resposta: D**"
+  },
+  "49": {
+   "assunto": "Trigonometria",
+   "resolucao": "As vagas são paralelogramos com a largura medida na horizontal e o comprimento no lado inclinado de $60^\\circ$. Coloque a origem no vértice de baixo da primeira vaga.\n\n- Cada lado inclinado de automóvel (4,50 m) avança na horizontal $4{,}50 \\cdot \\cos 60^\\circ = 2{,}25$ m.\n- Os vértices de baixo das vagas estão em 0; 2,20; 4,40. O lado inclinado que começa em 4,40 termina no alto em $4{,}40 + 2{,}25 = 6{,}65$ m, ponto que está sobre a parede da direita.\n- A vaga da moto começa em 4,40 e tem largura 1,00 m: termina em 5,40 m.\n\nO segmento tracejado vai de 5,40 m até a parede: $6{,}65 - 5{,}40 = 1{,}25$ m.\n\n**Resposta: C**"
+  },
+  "50": {
+   "assunto": "Cinemática",
+   "resolucao": "Se o intervalo entre os pingos é sempre o mesmo, a distância entre pingos seguidos mostra a velocidade: pingos cada vez mais próximos indicam que o carro anda cada vez menos no mesmo tempo, ou seja, está freando.\n\nO carro vai para a direita (sentido positivo), então a posição aumenta com o tempo, mas cada vez mais devagar: a curva sobe e vai ficando achatada (inclinação positiva e diminuindo). Essa é a curva $a$.\n\nA curva $b$ é reta (velocidade constante), $c$ é carro parado, e $d$ e $e$ têm posição diminuindo, isto é, movimento para a esquerda.\n\n**Resposta: A**"
+  },
+  "51": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "A velocidade é máxima quando não há perdas por atrito: toda a energia potencial gravitacional vira energia cinética.\n\n$$m g h = \\frac{m v^2}{2} \\Rightarrow v = \\sqrt{2 g h} = \\sqrt{2 \\cdot 10 \\cdot 2{,}45} = \\sqrt{49} = 7\\ \\text{m/s}$$\n\nA massa do skatista se cancela, então ela não é necessária.\n\n**Resposta: C**"
+  },
+  "52": {
+   "assunto": "Cultura e identidade",
+   "resolucao": "O texto mostra o *skate* passando de prática de rua proibida (1988) a atividade liberada, popular e, por fim, modalidade olímpica com uma indústria bilionária. Isso ilustra que o esporte acompanha as mudanças da sociedade: práticas de lazer podem virar esporte (a \"esportivização\"), regras mudam e modalidades podem até desaparecer.\n\nAs alternativas A e B defendem que só seriam esportes legítimos as práticas institucionalizadas desde a origem, ideia que o próprio caso do *skate* contradiz. D exagera ao dizer que não se pode datar um esporte, e E faz do dinheiro o fator determinante, o que o texto não afirma.\n\n**Resposta: C**"
+  },
+  "53": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O terceiro parágrafo lista as causas da diferença (\"A combination of factors is responsible\"). A primeira é: \"Spending cuts and changing priorities at some public schools have curtailed physical education classes and organized sports\", isto é, cortes de gastos e mudanças de prioridade em algumas escolas públicas reduziram as aulas de educação física e os esportes organizados.\n\nO texto não fala de notas escolares, de seleção dos melhores jogadores, de bolsas de estudo nem de doações de ONGs.\n\n**Resposta: B**"
+  },
+  "54": {
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "Em \"poor children and adolescents are participating far less in sports\", *far* vem antes de um comparativo (*less*) e funciona como intensificador, com o sentido de \"muito\": as crianças pobres participam muito menos. Não se trata de distância física, embora esse seja o sentido mais comum de *far* como adjetivo (\"longe\").\n\n**Resposta: D**"
+  },
+  "55": {
+   "assunto": "Eletrostática",
+   "resolucao": "Cada gerador se comporta como uma carga pontual positiva no seu centro, e o campo de carga positiva aponta para fora dela. No ponto médio P, a distância $d$ até os dois é a mesma.\n\n- Campo de A ($+Q$, à esquerda): aponta para a direita, com módulo $E_A = \\frac{kQ}{d^2}$.\n- Campo de B ($+2Q$, à direita): aponta para a esquerda, com módulo $E_B = \\frac{2kQ}{d^2}$.\n\nComo $E_B = 2E_A$, o campo resultante tem módulo $\\frac{kQ}{d^2}$ e aponta para a esquerda, para longe da carga maior.\n\n**Resposta: C**"
+  },
+  "56": {
+   "assunto": "Ligações e interações",
+   "resolucao": "Pelo enunciado, quanto menor a diferença de eletronegatividade, menos polar e menos reativa é a ligação. Lendo o gráfico pelos números atômicos: H ≈ 2,1; C (Z = 6) ≈ 2,5; N (7) ≈ 3,0; O (8) ≈ 3,5; F (9) = 4,0; P (15) ≈ 2,1; S (16) ≈ 2,5; Cℓ (17) = 3,0.\n\nDiferenças: C-H ≈ 0,4; C-N ≈ 0,5; C-F ≈ 1,5; S-O ≈ 1,0; P-H ≈ 0; P-Cℓ ≈ 0,9.\n\nSó a ligação P-H tem diferença menor que a de C-H (praticamente zero), então seria ainda menos reativa.\n\n**Resposta: D**"
+  },
+  "57": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Na foto, $R_2$ e $R_3$ ligam os mesmos dois nós (o do cabo preto e o do meio), então estão em paralelo; $R_1$ liga o nó do meio ao nó do cabo vermelho, em série com esse conjunto.\n\n- Paralelo de dois resistores iguais: $R_{23} = \\frac{100}{2} = 50\\ \\text{k}\\Omega$.\n- Resistência total: $R = 150 + 50 = 200\\ \\text{k}\\Omega$.\n- Toda a corrente passa por $R_1$: $i = \\frac{5\\ \\text{V}}{200\\,000\\ \\Omega} = 2{,}5 \\times 10^{-5}\\ \\text{A} = 25{,}0\\ \\mu\\text{A}$.\n\nCuidado com a alternativa A: 12,5 μA é a corrente em cada um dos resistores $R_2$ e $R_3$, que dividem igualmente os 25,0 μA.\n\n**Resposta: C**"
+  },
+  "58": {
+   "assunto": "Eletroquímica",
+   "resolucao": "O ouro não se dissolve no ácido porque seu potencial de redução (+1,50 V) é maior que o do $\\text{H}^+$ (0,00 V): o $\\text{H}^+$ não consegue oxidá-lo. Um falso positivo seria outro material que também ficasse intacto, ou seja, um metal com potencial de redução maior que 0 V.\n\n- Mg, Aℓ e Fe têm potenciais negativos: são oxidados pelo ácido e se dissolvem, como a falsificação.\n- Pt tem +1,20 V: assim como o ouro, não reage com o $\\text{H}^+$, e as raspas ficariam visíveis.\n- $\\text{F}_2$ é um gás, não um material de que se faça um objeto, e já está na forma que se reduz, não na que se oxida.\n\n**Resposta: D**"
+  },
+  "59": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "As duas curvas são decrescentes, então $0 < b < 1$. O ponto $\\left(3, \\frac{27}{125}\\right)$ só pode ser de $f$: $b^3 = \\frac{27}{125} \\Rightarrow b = \\frac{3}{5}$. (Se fosse de $f^{-1}$, teríamos $b^{27/125} = 3$, o que exige $b > 1$.)\n\nO ponto $\\left(\\frac{9}{25}, k\\right)$ está no gráfico de $f^{-1}$, ou seja, $f(k) = \\frac{9}{25}$: $\\left(\\frac{3}{5}\\right)^k = \\frac{9}{25} \\Rightarrow k = 2$.\n\nLogo, $b + k = \\frac{3}{5} + 2 = \\frac{13}{5}$.\n\n**Resposta: D**"
+  },
+  "60": {
+   "assunto": "Matrizes e sistemas",
+   "resolucao": "Resolvendo o sistema: da segunda equação, $y = 3x - 5$; substituindo na primeira, $x + 2(3x - 5) = 4 \\Rightarrow 7x = 14 \\Rightarrow x = 2$ e $y = 1$. As retas se cruzam em $(2, 1)$.\n\nIdentifique cada reta pelos cortes nos eixos:\n- $x + 2y = 4$: passa por $(0, 2)$ e $(4, 0)$, decrescente e pouco inclinada.\n- $3x - y = 5$: passa por $(0, -5)$ e $\\left(\\frac{5}{3}, 0\\right)$, crescente e bem inclinada.\n\nSó o gráfico da alternativa E tem essas duas retas. Na D, as retas também se cruzam perto de $(2, 1)$, mas a decrescente corta o eixo $y$ em 4, e não em 2.\n\n**Resposta: E**"
+  }
+ }
+}

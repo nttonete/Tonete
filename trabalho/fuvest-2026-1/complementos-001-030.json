@@ -1,0 +1,129 @@
+{
+ "edicao": "fuvest-2026-1",
+ "intervalo": [
+  1,
+  30
+ ],
+ "complementos": {
+  "1": {
+   "assunto": "Semântica e sentido das palavras",
+   "resolucao": "A paráfrase precisa manter duas relações do original: o \"Mas\" inicial, que opõe este trecho ao que vinha antes, e o \"embora\", que introduz uma concessão (o orgulho de imaginar a trapaça não muda a preferência do autor pelo sorteio autêntico).\n\nNa alternativa E, \"contudo\" retoma o valor adversativo de \"Mas\" e \"ainda que\" equivale a \"embora\"; \"a fim de me agradar\" corresponde a \"para me agradar\", e o verbo \"possa ter trapaceado\" conserva a dúvida.\n\nAs outras mudam o sentido: A e C dizem que o pai trapaceou ou que o autor \"sabe\" disso, e o texto só levanta a hipótese; B e D invertem as relações (em B, quem crê \"para se agradar\" é o próprio autor; em D, a crença no sorteio leva a pensar na trapaça).\n\n**Resposta: E**"
+  },
+  "2": {
+   "assunto": "Semântica e sentido das palavras",
+   "resolucao": "As aspas marcam que a expressão \"tão pesado\" não é do narrador: é a opinião dos adultos da família sobre o nome Maria Bethânia, que ele reproduz no seu texto.\n\nIsso combina com o contexto: o menino escolheu o nome, e \"ninguém se sentia com coragem\" de usá-lo. O narrador cita a avaliação alheia sem assumi-la, o que é o uso de aspas para indicar discurso de outra pessoa.\n\nNão há eufemismo (C), nem neologismo (D), nem explicação do significado do nome (E); e as aspas indicam distanciamento, não concordância com sentido literal (A).\n\n**Resposta: B**"
+  },
+  "3": {
+   "assunto": "Lógica e conjuntos",
+   "resolucao": "A banca anulou esta questão. Pela análise do enunciado, nenhuma alternativa fica correta de forma inequívoca: com 33 ou 34 votantes, 5 votos não garantem a eleição de Aleph (cinco rivais com 5 votos somam 25 e ainda sobram votos), mas também não impedem que ele seja eleito, ao contrário do que afirma B; e a condição de D é necessária, mas não suficiente, para a eleição com 4 votos."
+  },
+  "4": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Seguindo o procedimento do enunciado, cada uma das 4 letras entra na soma com a probabilidade de sortear a sua cor: as 3 azuis com $P = \\frac{3}{4}$ e a vermelha com $P = \\frac{1}{4}$.\n\n$E = -\\left(3\\cdot\\frac{3}{4}\\log_2\\frac{3}{4} + \\frac{1}{4}\\log_2\\frac{1}{4}\\right)$\n\nComo $\\log_2\\frac{3}{4} = \\log_2 3 - 2$ e $\\log_2\\frac{1}{4} = -2$:\n\n$E = -\\left(\\frac{9}{4}\\log_2 3 - \\frac{9}{2} - \\frac{1}{2}\\right) = 5 - \\frac{9}{4}\\log_2 3$\n\nConfere com os exemplos do enunciado: com 2 azuis e 2 vermelhas, cada termo é $\\frac{1}{2}\\log_2\\frac{1}{2}$ e a soma dá 2.\n\n**Resposta: A**"
+  },
+  "5": {
+   "assunto": "Ligações e interações",
+   "resolucao": "Basta classificar os elementos: Na, K e Ca são metais; Cℓ, Br e I são não metais (halogênios).\n\n- Metal com metal (inclusive o metal com ele mesmo): ligação metálica (Δ).\n- Metal com halogênio: grande diferença de eletronegatividade, ligação iônica (■), como em NaCℓ, KBr e $\\text{CaI}_2$.\n- Halogênio com halogênio (como $\\text{Cℓ}_2$, BrCℓ, ICℓ): ligação covalente (❍).\n\nA tabela da alternativa E tem Δ em todas as casas entre Na, K e Ca, ■ entre esses metais e os halogênios e ❍ entre os halogênios. A tabela de D é parecida, mas marca como iônicas as ligações entre metais diferentes (Na–K, Na–Ca, K–Ca), o que está errado.\n\n**Resposta: E**"
+  },
+  "6": {
+   "assunto": "Geometria espacial",
+   "resolucao": "Primeiro, o lado $a$ da base pelo volume: $V = \\frac{1}{3}a^2 h$, logo $864 = \\frac{1}{3}a^2\\cdot 18 = 6a^2$, e $a^2 = 144$, $a = 12\\ \\text{m}$.\n\nA trilha percorre três lados inteiros e metade do quarto: $3\\cdot 12 + 6 = 42\\ \\text{m}$. Ela termina no meio do lado norte, onde começa a rampa.\n\nA rampa é o apótema da pirâmide, hipotenusa do triângulo formado pela altura (18 m) e pela metade do lado (6 m):\n\n$g = \\sqrt{18^2 + 6^2} = \\sqrt{360} \\approx 19\\ \\text{m}$\n\nTotal: $42 + 19 \\approx 61\\ \\text{m}$.\n\n**Resposta: E**"
+  },
+  "7": {
+   "assunto": "Trigonometria",
+   "resolucao": "As primeiras passagens estão certas: $\\operatorname{sen}\\frac{\\pi}{2} = 1$ e $\\cos\\pi = -1$, então a equação vira $\\operatorname{sen} x = \\operatorname{sen}(2x)$.\n\nO erro está em escrever $\\operatorname{sen}(2x) = 2\\operatorname{sen} x$. Pelo seno da soma de dois arcos, $\\operatorname{sen}(x + x) = \\operatorname{sen} x\\cos x + \\cos x\\operatorname{sen} x = 2\\operatorname{sen} x\\cos x$.\n\nO correto seria $\\operatorname{sen} x = 2\\operatorname{sen} x\\cos x$, ou seja, $\\operatorname{sen} x\\,(2\\cos x - 1) = 0$, com $\\operatorname{sen} x = 0$ ou $\\cos x = \\frac{1}{2}$. Assim, em $[0, 2\\pi)$, as soluções são $0$, $\\frac{\\pi}{3}$, $\\pi$ e $\\frac{5\\pi}{3}$; o estudante perdeu duas delas.\n\nA alternativa B não se aplica, porque o enunciado limita $x$ a $0 \\leq x < 2\\pi$.\n\n**Resposta: D**"
+  },
+  "8": {
+   "assunto": "Variação linguística",
+   "resolucao": "O texto defende duas atitudes ao mesmo tempo: os alunos \"têm que ser respeitados e ver valorizadas as suas peculiaridades linguístico-culturais\", mas \"têm o direito inalienável de aprender as variantes de prestígio\".\n\nA alternativa C resume exatamente isso: respeitar a fala do aluno e dar a ele condições de aprender outras variantes.\n\nA não serve porque o texto não manda exigir a norma culta na escola; D e E tratam as variantes populares como \"erros\", visão que o texto rejeita ao falar em \"formas alternativas\"; B atribui à escola um preconceito que o texto não menciona.\n\n**Resposta: C**"
+  },
+  "9": {
+   "assunto": "Teoria sociológica",
+   "resolucao": "O ponto em comum está na função social da escola. Nísia Floresta vê a educação como meio de permitir que as mulheres contribuam com a sociedade e como expressão da moralidade e da civilização da nação. Durkheim vê a escola como espaço de socialização nos sentimentos, ideias e valores da sociedade, vinculando os alunos às normas sociais.\n\nA alternativa C junta as duas ideias: integrar os estudantes às normas e valores da sociedade para que possam contribuir com ela.\n\nA erra porque Durkheim exige justificação só pela razão, sem princípios religiosos. D contraria Floresta, que defende a educação das mulheres em igualdade. B e E atribuem aos autores positivismo e nacionalismo que o texto não menciona.\n\n**Resposta: C**"
+  },
+  "10": {
+   "assunto": "Artes visuais",
+   "resolucao": "A questão pede uma leitura crítica das categorias usadas para classificar artistas autodidatas, negros e periféricos.\n\nA alternativa D aponta que rótulos como \"primitivista\" ou \"ingênua\" costumam vir de uma visão eurocêntrica, que ignora a complexidade da obra. Isso combina com Schenberg, que fala em \"imaginação construtora de arquiteturas cromáticas e lineares\", e com a trajetória ligada ao grupo de Solano Trindade e à cultura afro-brasileira, descrita por D'Ambrozio.\n\nA e B reforçam justamente essa visão redutora (exclusão \"justificada\", arte \"puramente intuitiva\"). C e E afirmam um reconhecimento imediato e neutro que a própria questão nega ao dizer que a artista \"desafia as estruturas convencionais\" do sistema de artes.\n\n**Resposta: D**"
+  },
+  "11": {
+   "assunto": "Interpretação de texto literário",
+   "resolucao": "Os dois textos são do século XIX e tratam da educação feminina como questão social. Nísia Floresta cobra dos parlamentares (\"os escolhidos da nação\") que tratem da \"educação da mulher brasileira\". Em *Memórias de Martha*, a narradora pobre, moradora de cortiço, vê na profissão de professora a saída da miséria.\n\nA alternativa E reúne o que as duas obras têm em comum: apontam problemas sociais e econômicos do país e defendem a educação das mulheres como caminho.\n\nA (abolicionismo) e D (espaço rural) não aparecem nos excertos; o cortiço de Martha é urbano. B acerta sobre *Memórias de Martha*, mas reduz o *Opúsculo* a uma defesa genérica da modernização política. C exagera ao dizer que ambas defendem educação profissional para emancipação econômica: o *Opúsculo* fala de educação em sentido amplo, moral e intelectual.\n\n**Resposta: E**"
+  },
+  "12": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "Nos dois romances, a política coletiva se mistura à vida privada das personagens femininas. Em *Caminho de pedras* (1937), Noemi entra na militância comunista em Fortaleza, deixa o marido e assume a relação com Roberto, enfrentando o julgamento moral do meio. Em *As meninas* (1973), Lia milita contra a ditadura, enquanto as três jovens enfrentam questões de sexualidade, família e liberdade.\n\nPor isso a alternativa D é a correta.\n\nA erra a época: *As meninas* se passa durante a ditadura militar, não no fim da Era Vargas, e *Caminho de pedras* não gira em torno do divórcio. E também erra: Noemi não é movida pelo desejo de ascensão social, e sim pela militância e pelo amor. C simplifica demais: nos romances, a militância é também espaço de questionamento e de liberdade para as personagens.\n\n**Resposta: D**"
+  },
+  "13": {
+   "assunto": "Trabalho",
+   "resolucao": "Basta ler os valores do gráfico.\n\n- A: de 2019 para 2020, os homens caíram $73{,}6 - 68{,}6 = 5{,}0$ pontos e as mulheres $54{,}6 - 47{,}3 = 7{,}3$. A queda das mulheres foi maior.\n- B: depois de 2020 a série das mulheres oscila (53,4 em 2022, 52,3 em 2023).\n- C: de 2020 para 2021 as mulheres subiram $52{,}3 - 47{,}3 = 5{,}0$ pontos, a maior variação anual positiva da série.\n- D: em 2012, a diferença foi $74{,}5 - 51{,}9 = 22{,}6$.\n- E: o maior valor das mulheres foi 54,6, em 2019, antes da pandemia.\n\n**Resposta: C**"
+  },
+  "14": {
+   "assunto": "População e migrações",
+   "resolucao": "O mapa mostra que os três estados do Sul estão na faixa mais alta de imigrantes no cadastro de pessoas com renda de até meio salário-mínimo, ou seja, há muitos imigrantes em situação de vulnerabilidade. O gráfico mostra que, entre os imigrantes com emprego formal no Sul, a maioria dos que têm escolaridade baixa e média trabalha na indústria.\n\nNo Sul, essa indústria é sobretudo a de alimentos (frigoríficos de aves e suínos), com salários baixos. A alternativa E relaciona os dois dados: baixos salários na indústria e vulnerabilidade dos imigrantes.\n\nB contradiz o mapa (renda de até meio salário-mínimo, não acima de um). A e D falam em segurança e redução da vulnerabilidade, o oposto do que o mapa indica. C atribui o cadastro ao emprego qualificado no comércio, setor minoritário no gráfico.\n\n**Resposta: E**"
+  },
+  "15": {
+   "assunto": "Trabalho",
+   "resolucao": "O texto define a uberização como resultado da \"eliminação de direitos, transferência de riscos e custos para os trabalhadores\", processos de \"flexibilização\" em curso há décadas, que as plataformas digitais tornam mais poderosos, mantendo a \"remuneração por peça\" e a centralidade da exploração capitalista.\n\nA alternativa B é a que mais se aproxima disso: a informalidade e a flexibilidade se intensificam com os recursos das plataformas, aumentando a exploração.\n\nA fala em trabalho cooperativo, e C vê a uberização como libertação, ideias opostas às do texto. D erra ao dizer que tudo partiu das plataformas, quando o texto alerta contra o \"determinismo tecnológico\" e diz que o processo é anterior a elas. E fala em aumento de renda, que o texto não menciona.\n\n**Resposta: B**"
+  },
+  "16": {
+   "assunto": "Trabalho",
+   "resolucao": "*Just-in-time* (literalmente, \"na hora certa\") vem da organização da produção e significa produzir só o necessário, no momento em que é demandado.\n\nAplicado aos trabalhadores, indica pessoas mobilizadas apenas quando há demanda e pagas por tarefa, como o texto sugere ao falar em \"remuneração por peça\" e em \"multidões de trabalhadores\" gerenciadas pelas plataformas.\n\nIsso é o contrário de escala fixa (A) e de proteção legal (D), e não tem relação com filantropia (B) nem com o modelo híbrido presencial e remoto (C).\n\n**Resposta: E**"
+  },
+  "17": {
+   "assunto": "Trabalho",
+   "resolucao": "Os gráficos mostram que os empregadores com CNPJ têm o maior rendimento médio, perto de R\\$ 9.000, cerca de três vezes o dos empregados com carteira (perto de R\\$ 3.100). Mas são poucos: cerca de 3,5 milhões de empregadores com CNPJ, contra quase 40 milhões de empregados com carteira.\n\nA alternativa D é a única coerente com os dados: a imagem de riqueza associada a \"ser dono do próprio negócio\" se apoia nos ganhos dos empregadores, ainda que eles sejam minoria.\n\nA e E erram nas quantidades: empregadores e autônomos com CNPJ (cerca de 7 milhões) são bem menos numerosos que os empregados com carteira. B erra no rendimento: sem carteira e autônomos sem CNPJ ganham menos que os com carteira. C contraria a ideia de que o emprego formal é o que garante direitos.\n\n**Resposta: D**"
+  },
+  "18": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "Como $M(t)$ está em milhares, queremos $200\\cdot(1{,}1)^t > 300$, ou seja, $(1{,}1)^t > 1{,}5$.\n\nAplicando logaritmo: $t > \\frac{\\log 1{,}5}{\\log 1{,}1}$.\n\nCom os dados: $\\log 2 = 1 - \\log 5 = 0{,}3010$, então $\\log 1{,}5 = \\log 3 - \\log 2 = 0{,}4771 - 0{,}3010 = 0{,}1761$. E $\\log 1{,}1 = \\log 11 - 1 = 0{,}0414$.\n\n$t > \\frac{0{,}1761}{0{,}0414} \\approx 4{,}25$ semanas.\n\nO número de usuários passa de 300 mil entre a 4ª e a 5ª semana, intervalo contido em \"entre 4 e 6 semanas\".\n\n**Resposta: E**"
+  },
+  "19": {
+   "assunto": "Artes visuais",
+   "resolucao": "*Zero Cruzeiro* (1978) imita uma cédula, mas troca os símbolos oficiais por figuras anônimas e marginalizadas (num dos lados, um indígena, e no outro, um interno de hospital psiquiátrico), no lugar de heróis e personalidades nacionais. Com o valor zero, a obra critica o próprio valor do dinheiro e quem é valorizado pela sociedade, em plena ditadura militar e alta inflação.\n\nPor isso a alternativa C está correta.\n\nB e E leem a obra como elogio às políticas do regime, o oposto de sua intenção crítica. A erra porque a assinatura na nota é a do próprio artista, não a do presidente do Banco Central. D afirma que a obra iguala arte e dinheiro, quando o valor zero nega justamente o valor de troca.\n\n**Resposta: C**"
+  },
+  "20": {
+   "assunto": "História da América",
+   "resolucao": "González Prada compara a situação indígena antes e depois da independência. Reconhece mudanças (\"Não existem mais *corregimientos* nem *encomiendas*\"), mas denuncia que continuam \"os trabalhos forçados e os recrutamentos\", a ignorância, a servidão e as matanças.\n\nÉ o que diz a alternativa A: há mudanças formais após a emancipação, mas a exploração e a marginalização persistem.\n\nC contradiz o texto ao falar em melhoria. D erra porque o autor não justifica a exclusão: ele assume a culpa (\"o sofrimento que lhe provocamos\"). B e E atribuem ao texto a defesa da participação indígena, que não aparece.\n\n**Resposta: A**"
+  },
+  "21": {
+   "assunto": "Brasil Colônia",
+   "resolucao": "O autor sugere que entregar as crianças aos jesuítas podia ser, para alguns grupos indígenas, uma forma de \"estabelecer alianças\" com os padres: a evangelização das crianças seria também um meio de construir relações entre os povos envolvidos na colonização.\n\nÉ o que afirma a alternativa B.\n\nA fala em \"total submissão\", e o texto descreve alianças. C contradiz o autor, que diz ser \"difícil determinar\" a imagem que os indígenas tinham dos portugueses. D e E não aparecem no texto: ele não fala em preparar indígenas para a administração, e o \"também\" mostra que a instrução religiosa não era o único objetivo.\n\n**Resposta: B**"
+  },
+  "22": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "A charge mostra um casal bem vestido dizendo que os indígenas \"já estão perfeitamente integrados à nossa cultura\" e perguntando \"Por que mais terras?\", enquanto a família indígena aparece sentada no chão da cidade, vendendo cestos.\n\nA imagem desmente a fala: estar \"integrado\" ali significa viver à margem, na pobreza urbana. Essa quebra de expectativa entre o verbal e o visual produz a ironia e a crítica ao marco temporal, tese que restringe a demarcação de terras indígenas. Por isso a alternativa D está correta.\n\nA inverte a posição do autor, que é crítica ao marco temporal. E atribui empatia ao casal, cuja fala nega aos indígenas o direito à terra. C vê na calçada uma \"solução alternativa\", quando ela mostra justamente a falta de terra.\n\n**Resposta: D**"
+  },
+  "23": {
+   "assunto": "Questões ambientais",
+   "resolucao": "A linha de tendência do gráfico desce do começo ao fim da série: o desmatamento anual caiu de cerca de $1.000\\ \\text{km}^2$ nas décadas de 1980 e 1990 para perto de $150\\ \\text{km}^2$ nos anos recentes. A alternativa D descreve essa redução consistente, que é o que a tendência mostra, apesar de pequenas oscilações de um ano para outro.\n\nE diz o contrário (evolução crescente). C não se confirma: de 1985 a 1999 as barras ficam estáveis ou caem, sem períodos de alta. A e B trazem explicações (ciclos naturais do clima, demanda por madeira de silvicultura) que nem o texto nem o gráfico sustentam; o desmatamento da Mata Atlântica é causado pela ação humana.\n\n**Resposta: D**"
+  },
+  "24": {
+   "assunto": "Questões ambientais",
+   "resolucao": "O texto mostra que a área com vegetação na Antártida passou de $0{,}86\\ \\text{km}^2$ em 1986 para $11{,}95\\ \\text{km}^2$ em 2021, com aceleração recente; o gráfico registra os maiores valores de NDVI e TCG a partir de 2015–2016. O texto liga esse esverdeamento ao padrão observado em \"ambientes de clima frio\".\n\nO aquecimento do ar e a redução da cobertura de gelo expõem mais solo e prolongam a estação favorável ao crescimento dos musgos. É a associação feita na alternativa C.\n\nD contradiz o gráfico, que varia muito. A e B atribuem o processo a bases científicas ou à radiação solar, sem apoio no texto; NDVI e TCG medem a vegetação, não a radiação. E erra o mecanismo: o esverdeamento não decorre de ar mais seco nem da elevação do nível do mar.\n\n**Resposta: C**"
+  },
+  "25": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O trecho que decide é: \"Ice shelves do, however, regulate the speed of glaciers on Antarctica's land. Ice shelves act to hold glaciers back.\" As plataformas de gelo seguram as geleiras; sem elas, as geleiras escorrem mais rápido para o mar. Isso corresponde à alternativa C.\n\nA erra porque quem tem o tamanho da França é a plataforma Ross, não uma área de gelo derretido. B e E distorcem o princípio de Arquimedes: o texto diz que ele se aplica e que o gelo flutuante já deslocou o próprio peso. D confunde os dados: as plataformas cercam três quartos da costa e ocupam cerca de 11% da área.\n\n**Resposta: C**"
+  },
+  "26": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O trecho que responde é: \"Right now, geothermal energy meets a puny portion of humanity's electricity and heating needs.\" *Puny* significa \"minúscula, insignificante\". Hoje, portanto, a geotermia atende a uma parcela insignificante da demanda de energia, como diz a alternativa A.\n\nB contraria o texto, que aponta como grande obstáculo perfurar quilômetros de rocha quente com segurança. C inverte as vantagens citadas (sem carbono, disponível em todo lugar, praticamente ilimitada). D toma ao pé da letra a expressão *moon shots*, que significa \"apostas ousadas\", não pesquisa sobre a Lua. E não é tratado no texto.\n\n**Resposta: A**"
+  },
+  "27": {
+   "assunto": "Geologia e relevo",
+   "resolucao": "O Quênia fica sobre o Rift do Leste Africano, uma zona em que placas tectônicas se afastam (limite divergente). O afastamento afina a crosta e faz o magma ficar mais perto da superfície, o que gera vulcanismo e alto fluxo de calor, aproveitado pelas usinas geotérmicas. No relevo, a consequência é o *rift valley*, um grande vale afundado entre falhas.\n\nMovimento convergente (E) forma cadeias montanhosas, e o transcorrente (A) desloca placas lateralmente; nenhum dos dois explica o caso do Quênia. Intemperismo e erosão (B e D) são processos externos e não fornecem calor do interior da Terra.\n\n**Resposta: C**"
+  },
+  "28": {
+   "assunto": "Termoquímica",
+   "resolucao": "Energia diária: $30 \\times 10^6 \\times 131\\ \\text{kJ} = 3{,}93 \\times 10^9\\ \\text{kJ}$.\n\nCada mol de carbono queimado ($\\text{C} + \\text{O}_2 \\to \\text{CO}_2$) libera 393 kJ e forma 1 mol de $\\text{CO}_2$:\n\n$n = \\frac{3{,}93 \\times 10^9}{393} = 1{,}0 \\times 10^7\\ \\text{mol de CO}_2$\n\nMassa molar do $\\text{CO}_2$: $12 + 2\\cdot 16 = 44\\ \\text{g/mol}$.\n\n$m = 10^7 \\times 44 = 4{,}4 \\times 10^8\\ \\text{g} = 440\\ \\text{t}$.\n\n**Resposta: E**"
+  },
+  "29": {
+   "assunto": "Questões ambientais",
+   "resolucao": "Um crédito de carbono representa uma tonelada de $\\text{CO}_2$ (ou equivalente) que deixou de ser emitida ou foi retirada da atmosfera. Quem reduz suas emissões, seja qual for o país, pode gerar créditos e vendê-los a quem precisa compensar as próprias emissões. É o que diz a alternativa C.\n\nD inverte a lógica: quem polui muito compra créditos, não os gera. A reduz o mecanismo a uma transferência por área de floresta. B confunde o crédito com um fenômeno biológico. E descreve um limite de \"emissão de créditos\" com sanções, o que não corresponde ao funcionamento do mercado.\n\n**Resposta: C**"
+  },
+  "30": {
+   "assunto": "Geometria espacial",
+   "resolucao": "O volume do cilindro é $V = \\pi r^2 h$, com $350\\ \\text{mL} = 350\\ \\text{cm}^3$. Para um volume fixo, a altura é menor quando o raio é maior, então usamos o maior diâmetro permitido, 8 cm ($r = 4\\ \\text{cm}$):\n\n$h = \\frac{350}{\\pi\\cdot 4^2} = \\frac{350}{16\\pi} \\approx \\frac{350}{50{,}3} \\approx 7\\ \\text{cm}$\n\nCom o menor diâmetro (5 cm), a altura seria a maior possível, perto de 18 cm, valor que aparece na alternativa D como distrator.\n\n**Resposta: B**"
+  }
+ }
+}

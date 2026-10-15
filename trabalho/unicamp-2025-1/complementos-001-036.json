@@ -1,0 +1,153 @@
+{
+ "edicao": "unicamp-2025-1",
+ "intervalo": [
+  1,
+  36
+ ],
+ "complementos": {
+  "1": {
+   "assunto": "Cartografia",
+   "resolucao": "Escala é a razão entre a medida no mapa e a medida real. Escala **maior** (denominador menor, como 1:5.000) mostra uma área pequena com muitos detalhes, ou seja, com **pouca generalização**. Escala **menor** (como 1:5.000.000) cobre áreas grandes e precisa simplificar mais.\n\nEstudos de impacto ambiental de obras de infraestrutura exigem conhecer o terreno em detalhe para evitar danos: pedem escala maior e menos generalização, como diz a alternativa B.\n\nAs alternativas A e C erram a relação: atlas escolares usam escalas pequenas (mapas do país, do mundo), com **muita** generalização, e são feitos para um público amplo, não especializado. A D inverte a escala exigida pelos estudos ambientais.\n\n**Resposta: B**"
+  },
+  "2": {
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "A ideia central do texto é que as fronteiras não são dadas pela natureza: elas resultam de disputas, guerras, tratados e acordos entre Estados, e por isso podem ser contestadas e redefinidas, como no caso de Essequibo.\n\nLogo, a fronteira é essencialmente **política**: um limite construído e reconhecido (ou não) pela comunidade internacional, que define o direito de um Estado sobre um território.\n\nA e C descrevem apenas a forma de traçar a linha (retas, muros, rios, montanhas), não a sua natureza. A D fala em \"convenções locais\", quando os limites entre países dependem de acordos internacionais.\n\n**Resposta: B**"
+  },
+  "3": {
+   "assunto": "Agricultura e espaço rural",
+   "resolucao": "O cacau é uma planta de clima quente e úmido, que cresce à sombra de florestas tropicais. Na África, as condições parecidas com as da Amazônia e da Mata Atlântica estão na **África ocidental**, no litoral do **Golfo da Guiné** (Costa do Marfim, Gana, Nigéria, Camarões), os maiores produtores do gráfico.\n\nEssa produção avança sobre a floresta (desmatamento) e é feita em pequenas propriedades, com colheita manual e casos conhecidos de trabalho infantil: forte custo ecológico e social.\n\nAs alternativas com África setentrional ou floresta mediterrânea erram o clima: o norte da África e o Estreito de Gibraltar têm verões secos, impróprios ao cacau. Colheita mecanizada também não descreve a cultura.\n\n**Resposta: A**"
+  },
+  "4": {
+   "assunto": "Geologia e relevo",
+   "resolucao": "Escudos cristalinos são estruturas muito antigas (pré-cambrianas), formadas por rochas **ígneas** (magmáticas) e **metamórficas**. Por isso descartam-se B e D, que falam em rochas sedimentares.\n\nEssas rochas concentram **minerais metálicos** (ferro, manganês, ouro, cobre, bauxita), base da siderurgia e da metalurgia. É o caso do Quadrilátero Ferrífero e de Carajás, no Brasil.\n\nPetróleo e gás (alternativa A) são combustíveis fósseis que se acumulam em **bacias sedimentares**, não em escudos cristalinos.\n\n**Resposta: C**"
+  },
+  "5": {
+   "assunto": "Clima",
+   "resolucao": "O mapa mostra uma grande área de **Alta Pressão** sobre o centro do Brasil, com as ondas de calor, e a frente fria parada no Sul.\n\nEm áreas de alta pressão o ar desce (subsidência), o que dificulta a formação de nuvens: o tempo fica seco, ensolarado e quente. Esse bloqueio atmosférico também impede que as frentes frias avancem para o interior, e por isso as chuvas ficaram concentradas e persistentes no Rio Grande do Sul.\n\nA B está errada porque altas pressões não formam nuvens de tempestade. A C erra ao dizer que as chuvas ocorreram no centro das altas pressões. A A atribui o bloqueio à Baixa Pressão, quando quem bloqueou foi a Alta.\n\n**Resposta: D**"
+  },
+  "6": {
+   "assunto": "Urbanização",
+   "resolucao": "O enunciado fala em programas e metas de abrangência nacional para problemas urbano-ambientais. Isso pede uma ação **sistêmica**, que envolva os três entes federativos (União, estados e municípios), como prevê a Política Nacional de Proteção e Defesa Civil.\n\nA participação popular e a função social da cidade (princípios da Constituição de 1988 e do Estatuto da Cidade) são instrumentos importantes para planejar o uso do solo e reduzir a ocupação de áreas de risco.\n\nAs demais alternativas restringem a responsabilidade a um único ente (município, estado ou União) ou trazem informações falsas, como ONGs previstas no Estatuto da Cidade para gestão metropolitana ou deslocamentos para áreas rurais.\n\n**Resposta: B**"
+  },
+  "7": {
+   "assunto": "Geografia do Brasil",
+   "resolucao": "Pela Convenção das Nações Unidas sobre o Direito do Mar (CNUDM), o país tem **soberania** plena no **Mar Territorial** (até 12 milhas náuticas da costa).\n\nNa **Zona Econômica Exclusiva** (até 200 milhas) não há soberania plena, mas o país tem o direito exclusivo de explorar e usar os recursos naturais. É o que afirma a alternativa D.\n\nA A nega esse direito no Mar Territorial, onde ele é pleno. A B exagera: na plataforma continental os direitos valem só para o solo e o subsolo marinhos, não para as águas acima deles, que além das 200 milhas são alto mar. A C erra porque o alto mar não pertence a nenhum país.\n\n**Resposta: D**"
+  },
+  "8": {
+   "assunto": "Cinemática",
+   "resolucao": "No trecho B o vento sopra de oeste para leste, no mesmo sentido do avião. A velocidade em relação ao solo é a soma vetorial da velocidade do avião em relação ao vento com a do vento em relação ao solo:\n\n$|\\vec{v}_{\\text{avião,solo}}| = 750 + 250 = 1000\\ \\text{km/h}$\n\nO trecho B tem 2000 km, então o tempo é $\\Delta t = \\frac{2000\\ \\text{km}}{1000\\ \\text{km/h}} = 2{,}0\\ \\text{h}$.\n\nA distratora de 500 km/h aparece se subtrairmos as velocidades, o que valeria para vento contrário.\n\n**Resposta: D**"
+  },
+  "9": {
+   "assunto": "Cinemática",
+   "resolucao": "No movimento circular uniforme, a sonda percorre o comprimento da circunferência $2\\pi r$ em um período $T$.\n\n$v = \\frac{2\\pi r}{T} = \\frac{2 \\cdot 3{,}0 \\cdot 1{,}848 \\times 10^6\\ \\text{m}}{2{,}0 \\cdot 3600\\ \\text{s}} = \\frac{11{,}088 \\times 10^6}{7200} \\approx 1540\\ \\text{m/s}$\n\nCuidado com as unidades: o período precisa ser convertido para segundos (2,0 h = 7200 s). As alternativas em km/s são grandes demais.\n\n**Resposta: B**"
+  },
+  "10": {
+   "assunto": "Gravitação",
+   "resolucao": "No ponto P as forças da Terra e da Lua se cancelam, então a aceleração resultante é zero. No gráfico da figura B, a curva corta $a = 0$ em $r/d \\approx 0{,}9$.\n\nAssim, P está a $r = 0{,}9 \\cdot 380\\,000 = 342\\,000\\ \\text{km}$ do centro da **Terra**.\n\nA pergunta, porém, é a distância ao centro da **Lua**: $d - r = 380\\,000 - 342\\,000 = 38\\,000\\ \\text{km}$ (ou $0{,}1\\,d$).\n\nA alternativa D (342 000 km) é a armadilha de quem mede a partir da Terra.\n\n**Resposta: A**"
+  },
+  "11": {
+   "assunto": "Ondulatória",
+   "resolucao": "A velocidade de propagação da luz depende do meio. Como os dois feixes se propagam no **mesmo meio**, $v_2 = v_1$ (desprezando a pequena dependência com a cor).\n\nPela equação fundamental da onda, $v = \\lambda f$. Com a mesma velocidade, frequência e comprimento de onda são inversamente proporcionais: como $\\lambda_2 = 350\\ \\text{nm}$ é maior que $\\lambda_1 = 128\\ \\text{nm}$, a frequência $f_2$ é **menor** que $f_1$.\n\nC e D seriam o caso da refração, em que a mesma luz muda de meio: aí a frequência se mantém e a velocidade muda. Aqui é o material que muda o comprimento de onda, e o meio é o mesmo.\n\n**Resposta: B**"
+  },
+  "12": {
+   "assunto": "Termologia",
+   "resolucao": "Use a dilatação linear: $\\Delta L = L_0\\,\\alpha\\,\\Delta T$.\n\nDo gráfico, entre 0 °C e 50 °C o comprimento vai de 2,0000 mm para 1,9995 mm: $\\Delta L = -0{,}0005\\ \\text{mm} = -5 \\times 10^{-4}\\ \\text{mm}$, com $L_0 = 2\\ \\text{mm}$ e $\\Delta T = 50\\ ^\\circ\\text{C}$.\n\n$\\alpha = \\frac{\\Delta L}{L_0\\,\\Delta T} = \\frac{-5 \\times 10^{-4}}{2 \\cdot 50} = -5{,}0 \\times 10^{-6}\\ ^\\circ\\text{C}^{-1}$\n\nO sinal negativo confirma que a barra encolhe ao ser aquecida.\n\n**Resposta: B**"
+  },
+  "13": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "Potência elétrica é $P = U\\,i$. Na situação ideal, toda a potência do painel chega à bateria, então a mesma potência de 462 W vale nos dois lados do controlador.\n\nNo painel: $i_{\\text{painel}} = \\frac{462}{42} = 11\\ \\text{A}$.\n\nNa bateria: $i_{\\text{bat}} = \\frac{462}{12} = 38{,}5\\ \\text{A}$.\n\nAo baixar a tensão de 42 V para 12 V mantendo a potência, a corrente precisa aumentar. Por isso a corrente na bateria é maior.\n\n**Resposta: A**"
+  },
+  "14": {
+   "assunto": "Energia e trabalho",
+   "resolucao": "A eficiência é a razão entre a potência elétrica gerada e a potência solar que chega ao painel (no mesmo intervalo de tempo, a razão entre energias é igual à razão entre potências).\n\nPotência solar incidente: $P_{\\text{solar}} = I_{\\text{solar}} \\cdot A = 924 \\cdot 2{,}5 = 2310\\ \\text{W}$.\n\n$\\eta = \\frac{462}{2310} = 0{,}20 = 20\\ \\%$\n\n**Resposta: B**"
+  },
+  "15": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "A manchete diz que a polícia está *under fire* (sob críticas) depois de uma *threat to arrest* (ameaça de prender) um homem \"abertamente judeu\" perto de um protesto pró-Palestina. O subtítulo explica que a Scotland Yard foi *criticised* por sugerir que a presença de Gideon Falter era \"provocativa\" e que ele estaria \"antagonizando\" os manifestantes.\n\nOu seja: a polícia foi criticada por ter cogitado prendê-lo, como diz a alternativa B.\n\nA A erra o sentido de *under fire* (não houve ameaça à polícia) e diz que ele foi preso. A C e a D invertem quem criticou quem: a Scotland Yard é o alvo das críticas.\n\n**Resposta: B**"
+  },
+  "16": {
+   "assunto": "Vocabulário e sentido",
+   "resolucao": "A médica reformula sua fala na linguagem da geração Z, cheia de gírias típicas da fala informal: *bro*, *spill the tea*, *sus*, *not giving*, *finna*, *glow up*, *no cap*. São vocábulos marcados pela **oralidade**.\n\nO trecho decisivo é *we finna give your leg a high key glow up* (\"vamos dar um trato daqueles na sua perna\"): *finna* (*fixing to*, \"vamos\") anuncia o que será feito, ou seja, os procedimentos futuros do tratamento, agora numa linguagem que a jovem entende.\n\nA C é a distratora mais tentadora, mas as gírias não especificam melhor o diagnóstico: \"compound fracture\" vira um vago \"vibes are sus\". A reformulação torna a fala mais acessível, não mais precisa.\n\n**Resposta: D**"
+  },
+  "17": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "No gráfico, a linha central representa equilíbrio; à esquerda fica \"100% male\" e \"100% white\"; o losango é o resultado da IA.\n\nPrimeiro caso: profissão retratada pela IA **só** com homens brancos, embora seja exercida por pessoas diversas. *Software developer* tem o losango no extremo \"100% male\" e no extremo \"100% white\", enquanto o ponto real mostra muitos não brancos.\n\nSegundo caso: mais da metade se declara branca, mas a IA mostrou só mulheres, em maioria não brancas. *Housekeeper* tem o losango em \"100% female\" e bem à direita no eixo \"non-white\", enquanto o ponto real fica do lado \"white\".\n\n**Resposta: C**"
+  },
+  "18": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto começa dizendo que é *perplexing* (intrigante) que tão poucos afro-americanos escrevam ficção científica, já que eles, em sentido real, vivem um *sci-fi nightmare*: intolerância, histórias oficiais apagadas, tecnologia usada contra corpos negros.\n\nA escassez é, portanto, um **paradoxo**: as violências que eles vivem se parecem com as situações que a própria ficção científica retrata.\n\nA A usa a palavra \"pesadelo\", mas o pesadelo é a vida dessas pessoas, não a escassez de autores. A B e a C atribuem ao texto uma intenção de protesto ou de deslegitimação que ele não expressa.\n\n**Resposta: D**"
+  },
+  "19": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto 1 pergunta se uma comunidade que teve o passado apagado pode imaginar futuros possíveis. O poema responde que, para sobreviver, é preciso deixar o passado ensinar, inspirar, alertar e dar força (*Let the past / Teach you*), mas também reconhecer que ele não volta: *Past is past. / What was / Cannot / Come again*, e, por fim, *let / The past Go*.\n\nLogo, o passado contribui para construir o futuro, mas não pode ser repetido.\n\nA D é tentadora pelo *let the past go*, mas o poema não manda esquecer: manda conhecer o passado e se deixar tocar por ele (*know the past. / Let it touch you*). A B inventa \"líderes religiosos\".\n\n**Resposta: A**"
+  },
+  "20": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O *post* joga com os dois sentidos de *subject* e *object*: termos da gramática (sujeito e objeto da oração) e posições de poder (quem age e quem sofre a ação).\n\nOs trechos decisivos são *some of us are only allowed to be thought, never to think*, *don´t object to remaining object* e *You are not a subject (unless you subject yourself to me)*: a pessoa só é reconhecida como \"sujeito\" se se sujeitar a quem detém o poder sobre a linguagem.\n\nA C cita \"predicado\", que aparece só na enumeração *Subject. Predicate. Power.*, sem o jogo de sentidos. A A e a D não captam esse duplo sentido e trazem ideias ausentes do texto, como o ensino nas escolas.\n\n**Resposta: B**"
+  },
+  "21": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O resumo argumenta que tratar a mudança climática como **a** causa dos desastres é enganoso, porque os desastres resultam de fragilidades e desigualdades pré-existentes. Esse enquadramento *can erase from view [...] the very socioeconomic and political factors that centrally cause vulnerability*.\n\nOu seja, ignorar o papel central das questões políticas esconde a relação entre a esfera política e as causas e efeitos das catástrofes, como diz a alternativa D.\n\nA B diz o contrário dos autores (o clima como fator central). A A inverte a lógica: os autores querem dar visibilidade às vulnerabilidades locais, não culpá-las. A C atribui aos políticos e ao público uma falha que o texto não aponta.\n\n**Resposta: D**"
+  },
+  "22": {
+   "assunto": "Filosofia antiga",
+   "resolucao": "Na alegoria da caverna, a ideia do Bem é o ponto mais alto do conhecimento, visto \"a custo\", no limite do cognoscível. Ela é a causa do justo e do belo, e \"é preciso vê-la para se ser sensato na vida particular e pública\".\n\nPortanto, mesmo difícil de conhecer, a ideia do Bem é indispensável (não é prescindível) para agir bem na cidade.\n\nA A erra ao dizer que o Bem é \"prontamente visível\". A D erra ao dizer que permanece incognoscível: o texto afirma que ele pode ser avistado. A B erra porque os habitantes da caverna, presos às sombras, não contemplaram o Bem.\n\n**Resposta: C**"
+  },
+  "23": {
+   "assunto": "Filosofia política",
+   "resolucao": "Wollstonecraft desafia o legislador: se as mulheres serão excluídas dos direitos naturais, que ele **prove antes** que elas não têm razão; do contrário, a exclusão é injusta e inconsistente.\n\nEla acrescenta que essa exclusão mostra que o homem age como tirano, ou seja, só é coerente com uma cultura que aceita a tirania masculina. É a síntese da alternativa D.\n\nA B é a distratora mais tentadora, mas diz \"ainda que não sejam racionais como os homens\", o oposto do argumento: a autora defende que as mulheres são racionais. A A e a C trazem fatos históricos que não estão no excerto (e a C inventa direitos que as mulheres teriam perdido).\n\n**Resposta: D**"
+  },
+  "24": {
+   "assunto": "Filosofia contemporânea",
+   "resolucao": "Krenak usa \"monocultura\" em sentido amplo: não apenas uma forma de plantio, mas a imposição de um modo único de viver e pensar. Ele a opõe às \"confluências\" (Nêgo Bispo), que supõem mundos diversos que se afetam.\n\nO trecho decisivo é o final: o colonialismo causou um dano ao \"afirmar que somos todos iguais\", isto é, ao recusar a pluralidade dos povos. A monocultura é a expressão disso, como diz a B.\n\nA A e a C reduzem a monocultura à agricultura. A D inverte a relação: no texto, é a monocultura que celebra a necropolítica, e não o resultado dela.\n\n**Resposta: B**"
+  },
+  "25": {
+   "assunto": "Antiguidade",
+   "resolucao": "O texto mostra uma mudança historiográfica: até o fim do século XX, \"política\" era lida como sinônimo de \"cidadania\" e as mulheres eram vistas fora dela. Depois dos anos 2000, novos estudos repensaram esses conceitos e reconheceram as atenienses como cidadãs que atuavam no mundo cívico, ainda que com limitações.\n\nEsse debate sobre os conceitos e sua relação com as mulheres é o que diz a alternativa D.\n\nA C é a distratora: o texto diz que elas \"tinham limitações de voto\" e não podiam ser juradas nem magistradas, então não eram cidadãs plenas com direito ao voto. A B contradiz o texto, e a A cita um consenso do século XIX que o texto não menciona.\n\n**Resposta: D**"
+  },
+  "26": {
+   "assunto": "Colonização da América",
+   "resolucao": "O caso de Juana Antonia mostra uma mulher escravizada que recorre à justiça, com ajuda do \"procurador de pobres\", para ter reconhecida a liberdade que recebera verbalmente.\n\nA historiografia recente mostra que, além de fugas e revoltas, os escravizados usavam várias estratégias de resistência, entre elas as ações judiciais para obter ou confirmar a alforria. É o que diz a D.\n\nA A é falsa: a escravidão não acabou na América espanhola no século XVIII. A B contradiz o excerto, que mostra uma resistência ativa, ainda que não física. A C erra porque o próprio caso mostra que a justiça colonial aceitava essas demandas.\n\n**Resposta: D**"
+  },
+  "27": {
+   "assunto": "Brasil Colônia",
+   "resolucao": "Lavradio descreve as serras do Rio de Janeiro como uma \"vista sumamente desagradável\". Hoje essa mesma paisagem é celebrada como bela. Isso mostra que o modo de ver a paisagem muda com o tempo e depende dos valores, interesses e da posição de quem olha.\n\nNa carta, o olhar do governador mistura a aparência das serras com uma avaliação política e econômica (povo pobre, comércio fraco, governo \"cadáver\"). A paisagem é, portanto, um construto histórico.\n\nA A é falsa: no século XVIII o porto do Rio era um grande centro de comércio, e a capital da colônia passou para lá em 1763. A C e a D trazem fatos que não estão no texto nem na história.\n\n**Resposta: B**"
+  },
+  "28": {
+   "assunto": "Revoluções e século XIX",
+   "resolucao": "O quadro retrata a execução de espanhóis por tropas francesas depois do levante de Madri contra a ocupação napoleônica (2 de maio de 1808).\n\nO centro da cena é o homem de camisa branca, com os braços abertos como Cristo na cruz, iluminado pela lanterna, diante de um pelotão sem rosto. Goya transforma o povo espanhol em mártir e denuncia o terror da ocupação.\n\nA A erra porque a obra destaca as vítimas, não o protagonismo francês. A B erra porque a Igreja espanhola se opôs à ocupação. A C situa a cena na Revolução Francesa, quando se trata da ocupação napoleônica da Espanha.\n\n**Resposta: D**"
+  },
+  "29": {
+   "assunto": "Primeira República",
+   "resolucao": "A eugenia, influente no Brasil nas décadas de 1910 a 1930, defendia o \"aperfeiçoamento da raça\" com base em ideias racistas: o ideal era a população branca, saudável e \"bem-nascida\". Concursos de \"bebês eugênicos\" premiavam crianças que encarnavam esse modelo.\n\nO excerto fala em \"proles sadias e belas\" e em \"futura elite nacional de eugenizados\", com valorização da família e da reprodução. Isso corresponde à alternativa A.\n\nA B está errada porque a eugenia reforçava as hierarquias raciais em vez de combatê-las. A C erra porque a eugenia se apresentava como ciência. A D confunde com a Revolta da Vacina, de 1904, sem relação com um \"serviço sanitário eugênico\".\n\n**Resposta: A**"
+  },
+  "30": {
+   "assunto": "História da África",
+   "resolucao": "Na fala de Cabral, \"Aqui não há papel, nem fula, nem mandinga, nem filhos de caboverdianos\", os nomes são de grupos étnicos. O projeto do PAIGC era construir uma unidade nacional acima dessas diferenças étnicas, para fortalecer a luta contra o colonialismo português.\n\nPor isso a resposta é a D.\n\nA A e a B vão no sentido oposto: Cabral não queria restaurar reinos pré-coloniais nem enaltecer identidades étnicas. A C traz uma informação ausente do texto (o PAIGC, aliás, manteve o português como língua oficial).\n\n**Resposta: D**"
+  },
+  "31": {
+   "assunto": "História da América",
+   "resolucao": "Na inauguração do espaço de memória da ESMA, o líder indígena não rejeita o museu nem as Mães e Avós da Praça de Maio. Ele pede que os povos originários **façam parte** da história nacional, e não sejam só acrescentados como peça de museu.\n\nTrata-se de incluir perspectivas marginalizadas e ampliar a narrativa da nação, como diz a B.\n\nA A, a C e a D atribuem aos indígenas oposição ao movimento das Mães, ao museu ou à memória nacional, o que o texto não mostra.\n\n**Resposta: B**"
+  },
+  "32": {
+   "assunto": "Gênero e raça",
+   "resolucao": "No texto 1, Gilman propõe **coletivizar** o trabalho doméstico e o cuidado das crianças (cozinhas comuns, empregados contratados em conjunto, creches), tirando essas tarefas exclusivamente das famílias e das mulheres.\n\nNo texto 2, a reforma de Clinton faz o contrário: o Estado deixa de ajudar as mães sozinhas e transfere a responsabilidade ao pai biológico, aumentando a dependência econômica das mulheres em relação aos homens.\n\nAs reformas, portanto, divergem, e só a do texto 1 desvincula o cuidado da família e das mulheres. A B está errada porque a reforma do texto 2 reduz a autonomia das mães, não a amplia.\n\n**Resposta: D**"
+  },
+  "33": {
+   "assunto": "Política, Estado e cidadania",
+   "resolucao": "A charge de Henfil mostra muitas pessoas subindo na bandeira da \"Constituinte\": a sociedade civil participando da construção da nova ordem. O texto de Dagnino diz que a Constituição de 1988 redefiniu a cidadania ao reconhecer o **direito à diferença**, pois não há igualdade se as diferenças servem de base para a discriminação.\n\nA reinvenção da democracia está, portanto, em incorporar a diferença e sua negociação ao ordenamento jurídico e à convivência entre grupos e classes, como diz a B.\n\nA C e a D tratam a diferença como algo que limita a igualdade ou aumenta a desigualdade, o oposto do texto 2. A A fala em conceitos autônomos e liberdade individual, enquanto o texto destaca a extensão da democracia às relações sociais.\n\n**Resposta: B**"
+  },
+  "34": {
+   "assunto": "Cultura e identidade",
+   "resolucao": "Para Sérgio Buarque de Holanda, a cordialidade não é gentileza: é a tendência de levar ao espaço público as relações pessoais e afetivas do ambiente doméstico, resistindo às regras impessoais. A canção de Chico ironiza esse traço com o colonizador \"sentimental\" que tortura enquanto o \"coração [...] sinceramente chora\".\n\nO homem cordial, assim, adere a normas de convívio pessoalizadas e centradas em vínculos privados, mesmo nos espaços públicos, como diz a A.\n\nA B e a C contradizem o texto 1, que fala em sentimentos particularistas e antipolíticos, não em prática coletiva ou impessoalidade. A D erra ao dizer que o recinto doméstico é ambiente de concorrência entre cidadãos.\n\n**Resposta: A**"
+  },
+  "35": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "As frases do grafite estão em primeira pessoa e falam do mundo interior de quem fala: \"Me li inteira!\", \"Eu falo meus nãos\", \"Moro mesmo dentro de mim\", \"Enxerguei... o que tenho dentro de mim!\". Pronomes (me, eu, meus, mim) e verbos (abri, li, falo, sou, moro) em primeira pessoa marcam uma experiência **intimista**.\n\nA mão feminina com a lata de *spray* \"escreve\" essas frases, expondo a condição de quem a segura. É a descrição da alternativa B.\n\nA A fala em referência **explícita** à luta feminina, que não está nas frases. A C erra ao apontar predominância de adjetivos, quase ausentes no texto.\n\n**Resposta: B**"
+  },
+  "36": {
+   "assunto": "Semântica e sentido das palavras",
+   "resolucao": "A expressão \"maria vai com as outras\" designa, no senso comum, a pessoa sem opinião própria, que segue os outros.\n\nNo texto 1, a forma é alterada: \"Sou Maria... E vou com as outras!\" vira uma afirmação em primeira pessoa, com valor positivo, de união e solidariedade entre mulheres.\n\nNo texto 2, a expressão aparece na forma e no sentido originais (\"Era Maria vai com as outras\", a moça vista como conformada), mas a canção revela que ela \"tinha um particular\" e \"também era Maria de pecar\": a personagem é singularizada, foge do rótulo.\n\nA A é tentadora, mas o texto 2 não ressignifica a expressão: usa o sentido de sempre para depois mostrar que a personagem é diferente dele.\n\n**Resposta: C**"
+  }
+ }
+}

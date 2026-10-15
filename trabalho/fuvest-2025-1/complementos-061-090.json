@@ -1,0 +1,129 @@
+{
+  "edicao": "fuvest-2025-1",
+  "intervalo": [
+    61,
+    90
+  ],
+  "complementos": {
+    "61": {
+      "assunto": "Cinemática",
+      "resolucao": "Os versos falam de penas (*feathers*) e ferro (*iron*), de pesos e roldanas, e de objetos que caem: a imagem é a de corpos de massas diferentes soltos de uma altura, que é justamente o experimento (real ou lendário) atribuído a Galileu, na Torre de Pisa e nos planos inclinados.\n\nGalileu concluiu que, sem a resistência do ar, todos os corpos caem com a mesma aceleração, independentemente da massa. O verso \"as penas chegam ao chão antes de o peso sair do ar\" brinca com essa comparação de queda entre objetos leves e pesados.\n\nAs demais alternativas citam episódios que não envolvem queda comparada de objetos de massas diferentes (a maçã de Newton é uma queda só, sem comparação de massas).\n\n**Resposta: C**"
+    },
+    "62": {
+      "assunto": "Energia e trabalho",
+      "resolucao": "A energia perdida é a diferença entre a energia mecânica no alto (só potencial, pois o carrinho parte do repouso) e a energia mecânica no ponto mais baixo (só cinética, tomando o solo como referência).\n\nNo alto: $E_p = mgh = 300 \\cdot 10 \\cdot 50 = 150\\,000\\ \\text{J}$.\n\nEmbaixo: $E_c = \\frac{mv^2}{2} = \\frac{300 \\cdot 30^2}{2} = 135\\,000\\ \\text{J}$.\n\nEnergia perdida (atrito e resistência do ar): $150\\,000 - 135\\,000 = 15\\,000\\ \\text{J}$.\n\n**Resposta: D**"
+    },
+    "63": {
+      "assunto": "Química ambiental",
+      "resolucao": "A ideia central é o balanço de carbono. O $\\text{CO}_2$ retirado do ar na etapa (I) vira $\\text{CH}_4$ na etapa (II); quando o metano é queimado ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$), devolve à atmosfera exatamente 1 mol de $\\text{CO}_2$ por mol de $\\text{CH}_4$, o mesmo que foi capturado. O ciclo não aumenta a quantidade de $\\text{CO}_2$ no ar.\n\nÉ o mesmo raciocínio do etanol: a cana absorve $\\text{CO}_2$ na fotossíntese e a queima do combustível devolve esse carbono, fechando o ciclo.\n\nPor que as outras erram: o catalisador não é consumido nem vira NaOH (A); a combustão do metano emite $\\text{CO}_2$ (B); a quantidade emitida é igual à capturada, não maior (C); queimar só $\\text{H}_2$ não retiraria $\\text{CO}_2$ algum do ar (D).\n\n**Resposta: E**"
+    },
+    "64": {
+      "assunto": "Reações e estequiometria",
+      "resolucao": "Pela equação, 1 mol de $\\text{CH}_4$ (16 g) reage com 2 mol de $\\text{O}_2$ ($2 \\cdot 32 = 64$ g). Como os dois são totalmente consumidos, as massas armazenadas estão nessa proporção: $m_{\\text{CH}_4} = 16k$ e $m_{\\text{O}_2} = 64k$.\n\nOs volumes são $V$ (metano) e $1{,}5\\,V$ (oxigênio). Então:\n\n$$\\frac{d_{\\text{CH}_4}}{d_{\\text{O}_2}} = \\frac{16k/V}{64k/(1{,}5\\,V)} = \\frac{16 \\cdot 1{,}5}{64} = \\frac{24}{64} = 0{,}375$$\n\n**Resposta: B**"
+    },
+    "65": {
+      "assunto": "Interpretação de texto",
+      "resolucao": "O ganho ambiental está dito no próprio texto: usar o caldo direto \"dispensa a transformação do caldo *in natura* em etanol\" e assim \"evita a formação de vinhaça, um resíduo ambientalmente perigoso decorrente da produção de etanol\".\n\nAs outras alternativas trazem informações que o texto não dá: custo das moendas (A), descarte de pilhas (B), economia de caldo (D) e uma relação entre escala industrial e vinhaça (E). Aliás, o texto diz que a técnica ainda vai ser levada à escala industrial.\n\n**Resposta: C**"
+    },
+    "66": {
+      "assunto": "Sintaxe",
+      "resolucao": "Em \"utilizou-se o caldo de cana\", o verbo \"utilizar\" é transitivo direto e o \"se\" é **pronome apassivador**: a frase equivale a \"o caldo de cana foi utilizado\". \"Caldo de cana\" é o sujeito paciente (tanto que, no plural, o verbo concordaria: \"utilizaram-se os caldos\").\n\nEsse tipo de voz passiva não menciona quem fez a ação, por isso o pesquisador descreve o procedimento sem citar quem o executou.\n\nNão é índice de indeterminação do sujeito (A), porque esse \"se\" acompanha verbos sem objeto direto; e não é reflexivo (E), porque o caldo não pratica a ação sobre si mesmo.\n\n**Resposta: D**"
+    },
+    "67": {
+      "assunto": "Genética",
+      "resolucao": "Todas as células especializadas derivam da mesma célula-tronco por divisões mitóticas, que copiam o DNA inteiro. Por isso elas têm o **mesmo conjunto de genes**.\n\nO que muda de uma célula para outra é quais genes estão ativos (expressão gênica). Genes diferentes ligados produzem RNAs diferentes, que produzem proteínas diferentes; daí a diferença de forma, de lipídeos e de organelas entre, por exemplo, um neurônio e uma célula adiposa. Por isso RNAs, proteínas, lipídeos e organelas variam, e só os genes são iguais.\n\n**Resposta: A**"
+    },
+    "68": {
+      "assunto": "Globalização e economia mundial",
+      "resolucao": "O gráfico é dividido em quatro quadrantes pelas duas linhas de média mundial: a vertical (PIB por pessoa) e a horizontal (publicações por milhão de habitantes).\n\nIrã, Tunísia e África do Sul aparecem à **esquerda** da linha vertical (PIB abaixo da média) e **acima** da linha horizontal (publicações acima da média), exatamente o que diz a alternativa A.\n\nAs demais erram a leitura: São Paulo está acima da média de publicações e acima do Brasil (B); Índia e Indonésia estão abaixo das duas médias (C); os países ricos estão no quadrante superior direito, com mais publicações que a média (D); Argentina, Tailândia e México têm PIB acima da média e publicações abaixo (E).\n\n**Resposta: A**"
+    },
+    "69": {
+      "assunto": "Funções",
+      "resolucao": "O sinal do que está dentro do módulo decide a fórmula. Fatorando, $x^2 + 5x - 6 = (x+6)(x-1)$, que é negativo só entre $-6$ e $1$.\n\nPara $x \\le -6$ ou $x \\ge 1$: $f(x) = x^2 + 5x - 6 - 5x + 6 = x^2$.\n\nPara $-6 < x < 1$: $f(x) = -(x^2 + 5x - 6) - 5x + 6 = -x^2 - 10x + 12$, uma parábola voltada para baixo com vértice em $x = -5$ e $f(-5) = -25 + 50 + 12 = 37$.\n\nNas emendas: $f(-6) = 36$ e $f(1) = 1$. O gráfico desce pela parábola $x^2$ até $(-6, 36)$, sobe a um pico em $(-5, 37)$, desce até $(1, 1)$ e volta a subir como $x^2$. A função nunca é negativa e não passa pela origem, o que descarta C, D e E. Só o gráfico B tem o pequeno pico perto de $x = -5$ e o mínimo em $(1,1)$.\n\n**Resposta: B**"
+    },
+    "70": {
+      "assunto": "Progressões",
+      "resolucao": "Pela lei de formação, a diferença entre termos consecutivos de $(b_n)$ é $b_{n+1} - b_n = a_n$.\n\nPara $(b_n)$ ser uma PA, essa diferença precisa ser constante (é a própria razão $r'$). Então todos os $a_n$ devem ser iguais, o que exige $r = 0$, e nesse caso $a_n = a_1$ para todo $n$.\n\nLogo $r' = b_{n+1} - b_n = a_1$.\n\nA alternativa C ($r' = r$) só valeria se $a_1 = 0$, o que não é exigido.\n\n**Resposta: A**"
+    },
+    "71": {
+      "assunto": "Evolução",
+      "resolucao": "A resistência surge por seleção natural: mutações aleatórias geram, por acaso, algumas bactérias capazes de sobreviver ao antibiótico; com a exposição prolongada ao fármaco, as sensíveis morrem e as resistentes se multiplicam. É o que diz o texto (\"acumulando alterações no material genético... favorece a seleção das variedades resistentes\") e o que mostra a curva do antibiótico 3, que derruba a população até o dia 10 e depois a vê crescer de novo.\n\nPor que as outras erram: aumentar antibióticos no ambiente aumenta a pressão de seleção (B); no dia 16 as bactérias sob o antibiótico 3 já são resistentes a ele (D); o menos eficiente é o 3, não o 1, que eliminou todas as bactérias no dia 16 (E); A afirma algo que o texto e o gráfico não sustentam.\n\n**Resposta: C**"
+    },
+    "72": {
+      "assunto": "Reações e estequiometria",
+      "resolucao": "Cada substituição de um H do anel por um Br libera uma molécula de HBr. Como a sulfanilamida recebe Br em **duas** posições, cada mol dela gera 2 mol de HBr, um ácido forte que libera $\\text{H}^+$.\n\nVariação de $\\text{H}^+$ em 1 L: pH 5 corresponde a $[\\text{H}^+] = 10^{-5}$ mol/L e pH 4 a $10^{-4}$ mol/L. Foram formados $10^{-4} - 10^{-5} = 9{,}0 \\times 10^{-5}$ mol de $\\text{H}^+$.\n\nSulfanilamida que reagiu: $\\frac{9{,}0 \\times 10^{-5}}{2} = 4{,}5 \\times 10^{-5}$ mol.\n\nA distratora B esquece a proporção de 2 HBr por molécula.\n\n**Resposta: A**"
+    },
+    "73": {
+      "assunto": "Termologia",
+      "resolucao": "Primeiro a quantidade de gás: se 3 L de vinagre dão 2 mol de $\\text{CO}_2$, então $\\frac{1}{3}$ L dá $n = \\frac{2}{3} \\cdot \\frac{1}{3} = \\frac{2}{9}$ mol.\n\nO gás ocupa o espaço que sobra na garrafa: $V = 2 - \\frac{1}{3} = \\frac{5}{3}$ L.\n\nEquação dos gases ideais:\n\n$$P = \\frac{nRT}{V} = \\frac{\\frac{2}{9} \\cdot 0{,}08 \\cdot 300}{\\frac{5}{3}} = \\frac{\\frac{48}{9}}{\\frac{5}{3}} = \\frac{48}{9} \\cdot \\frac{3}{5} = 3{,}2\\ \\text{atm}$$\n\n**Resposta: A**"
+    },
+    "74": {
+      "assunto": "Dinâmica",
+      "resolucao": "A força resultante sobre a rolha vem da diferença de pressão entre dentro (5 atm) e fora (1 atm): $\\Delta P = 4\\ \\text{atm} = 4 \\times 10^5\\ \\text{Pa}$.\n\nÁrea do bocal (raio de 1 cm = 0,01 m): $A = \\pi r^2 = 3 \\cdot (0{,}01)^2 = 3 \\times 10^{-4}\\ \\text{m}^2$.\n\nForça: $F = \\Delta P \\cdot A = 4 \\times 10^5 \\cdot 3 \\times 10^{-4} = 120\\ \\text{N}$.\n\nSegunda lei de Newton, com $m = 10\\ \\text{g} = 0{,}01\\ \\text{kg}$: $a = \\frac{F}{m} = \\frac{120}{0{,}01} = 12\\,000\\ \\text{m/s}^2$.\n\nQuem usa 5 atm em vez da diferença, ou o diâmetro no lugar do raio, cai em outra alternativa.\n\n**Resposta: D**"
+    },
+    "75": {
+      "assunto": "Geometria espacial",
+      "resolucao": "O vaso são dois troncos de cone iguais, cada um com altura $h = 12$ cm, raio maior $R = 10$ cm e raio menor $r = 5$ cm.\n\nVolume de um tronco: $V = \\frac{\\pi h}{3}(R^2 + Rr + r^2) = \\frac{\\pi \\cdot 12}{3}(100 + 50 + 25) = 4\\pi \\cdot 175 = 700\\pi\\ \\text{cm}^3$.\n\nOs dois troncos juntos: $2 \\cdot 700\\pi = 1400\\pi\\ \\text{cm}^3$.\n\n**Resposta: A**"
+    },
+    "76": {
+      "assunto": "Geometria espacial",
+      "resolucao": "Volume do cilindro é $\\pi r^2 h$ e área lateral é $2\\pi r h$.\n\nVolumes: $V = \\pi r^2 h$; $V_1 = \\pi r^2 \\frac{h}{2} = \\frac{V}{2}$; $V_2 = \\pi \\left(\\frac{r}{2}\\right)^2 h = \\frac{V}{4}$. Logo $V_1 + 2V_2 = \\frac{V}{2} + \\frac{V}{2} = V$.\n\nÁreas laterais: $A = 2\\pi r h$; $A_1 = 2\\pi r \\frac{h}{2} = \\pi r h$; $A_2 = 2\\pi \\frac{r}{2} h = \\pi r h$. Logo $A_1 + A_2 = 2\\pi r h = A$.\n\nRepare que reduzir o raio pela metade reduz o volume a um quarto (o raio está ao quadrado), mas a área lateral só à metade.\n\n**Resposta: D**"
+    },
+    "77": {
+      "assunto": "Geometria analítica",
+      "resolucao": "Completando quadrados:\n\n$x^2 - 4x + y^2 = -3 \\Rightarrow (x-2)^2 + y^2 = 1$: centro $(2, 0)$ e raio 1.\n\n$x^2 + y^2 - 4y = -3 \\Rightarrow x^2 + (y-2)^2 = 1$: centro $(0, 2)$ e raio 1.\n\nDistância entre os centros: $d = \\sqrt{(2-0)^2 + (0-2)^2} = 2\\sqrt{2} \\approx 2{,}83$.\n\nComo $d$ é maior que a soma dos raios ($1 + 1 = 2$), as circunferências são externas: centros distintos e nenhum ponto em comum.\n\n**Resposta: E**"
+    },
+    "78": {
+      "assunto": "Interpretação de texto",
+      "resolucao": "A graça está na confusão do aluno: ele toma o \"X\" da álgebra (uma incógnita) pelo \"X\" dos algarismos romanos (o número 10) e, cheio de convicção, protesta: \"Agora é 6. O que está acontecendo aqui?!\". O tom de indignação, como se o professor estivesse sendo incoerente, é o que cria o humor.\n\nA alternativa C erra ao falar em teoria dos conjuntos: os símbolos confundidos são o numeral romano e a incógnita de uma equação. Os alunos não estão apáticos (A), o professor resolve a equação de um único modo (D) e não há rivalidade entre colegas (E).\n\n**Resposta: B**"
+    },
+    "79": {
+      "assunto": "Antiguidade",
+      "resolucao": "No mapa, a grande maioria das setas (anglos, saxões, jutos, francos, visigodos, vândalos, hunos e ostrogodos) termina na metade **ocidental** do Império: Britânia, Gália, Hispânia, Itália e norte da África. O Império do Oriente, com capital em Constantinopla, é atravessado por poucas rotas e resistiu às invasões.\n\nPor que as outras erram: o território bizantino não concentra as rotas (A); os vândalos chegam a Cartago, no norte da África (B); os povos são muitos e variados (C); as rotas são quase todas terrestres, com exceção das dos vândalos e dos anglo-saxões (E).\n\n**Resposta: D**"
+    },
+    "80": {
+      "assunto": "Teoria sociológica",
+      "resolucao": "Weber recusa duas explicações de mão única: nem a Reforma é produto necessário da economia, nem o capitalismo nasce só da religião. Ele propõe procurar \"afinidades eletivas\" entre formas de fé e formas de ética profissional.\n\nEm *A Ética Protestante*, a afinidade está na ética calvinista: o trabalho metódico como vocação e a vida austera, que poupa em vez de gastar. Esse comportamento favoreceu uma conduta racional adequada ao capitalismo, sem ser sua causa única.\n\nA alternativa A é a tentadora, mas transforma a afinidade em causa direta (\"impulsionaram\") e fala em acumulação \"irrestrita\" por comerciantes germânicos, o que o excerto não diz. B, C e D invertem ou inventam relações históricas que o texto não sustenta.\n\n**Resposta: E**"
+    },
+    "81": {
+      "assunto": "Indústria",
+      "resolucao": "O texto de Petrone mostra o café deslocando o eixo econômico para São Paulo. O café gerou capital, atraiu imigrantes (mão de obra e mercado consumidor) e levou à construção de ferrovias e portos. Essa soma de fatores explica a concentração industrial no Sudeste, sobretudo em São Paulo, a partir do fim do século XIX.\n\nPor que as outras erram: a Zona Franca de Manaus cresceu por incentivos fiscais e voltada ao mercado nacional, não ao mercado local (A); o Nordeste não tinha capitais concentrados nem polos consolidados no Estado Novo (B); o Sul não teve *boom* nos anos 1980 igual ao do Sudeste (C); o Centro-Oeste não tem malha viária densa e sua expansão é ligada ao agronegócio (E).\n\n**Resposta: D**"
+    },
+    "82": {
+      "assunto": "Obras de leitura obrigatória",
+      "resolucao": "O gabarito oficial lê os dois protagonistas como homens que entram na vida pública com projetos de \"progresso\" e esbarram numa sociedade que não se compromete com mudanças. Rubião, enriquecido pela herança, financia o jornal de Camacho, sonha com a política e com a grandeza imperial; Gonçalo, fidalgo arruinado, candidata-se a deputado e termina tentando a sorte na África. Os destinos diferem (Rubião enlouquece e morre na miséria; Gonçalo volta com algum êxito), mas ambos estão em sociedades presas à aparência e ao interesse, sem projeto de transformação.\n\nAs outras são mais fáceis de descartar: nenhum dos dois faz \"reformas substanciais\" (B); os meios sociais dos romances não privilegiam a virtude, ao contrário (C); Rubião não atinge seus objetivos (E). A alternativa A é a distratora mais forte, mas Rubião não representa uma burguesia em ascensão política; quem sobe socialmente às suas custas é Palha.\n\n**Observação:** a resposta é discutível. Atribuir a Rubião um compromisso com a \"superação dos atrasos civilizacionais\" do país tem pouco apoio no romance, em que o interesse dele pela política é vaidade e delírio de grandeza. A leitura de A (decadência da aristocracia portuguesa em Gonçalo) também é comum na crítica, ainda que a parte sobre Rubião seja frágil.\n\n**Resposta: D**"
+    },
+    "83": {
+      "assunto": "Obras de leitura obrigatória",
+      "resolucao": "Em *Os ratos*, Naziazeno é um pequeno funcionário público que passa um dia inteiro perambulando por Porto Alegre para conseguir 53 mil-réis e pagar o leiteiro. O emprego público garante a ele uma posição de classe média, mas o salário não basta: ele vive endividado, humilhado e dependente de favores.\n\nIsso é o que diz a alternativa D: o funcionalismo é um meio legítimo de sobrevivência, mas precarizado.\n\nAs outras contradizem o romance: o dinheiro não vem do emprego, e sim de um empréstimo arranjado por terceiros (A); o romance não trata da sociedade recém-saída da escravidão (B); o desfecho não é de ascensão social, e Naziazeno termina a noite angustiado com os ratos que roeriam o dinheiro (C); o cargo dele não é distribuído por apoio político (E).\n\n**Resposta: D**"
+    },
+    "84": {
+      "assunto": "Obras de leitura obrigatória",
+      "resolucao": "Na lira de Gonzaga, preso como inconfidente, Dirceu pede ajuda ao amigo Glauceste (nome árcade de Cláudio Manuel da Costa) e diz que não quer vê-lo \"montado no Pégaso fogoso\", com \"dura lança\", matando o \"monstro\" da calúnia, como um herói mitológico. Pégaso serve, aqui, para imaginar Glauceste como herói.\n\nNo poema de Cecília Meireles, o cavalo de Gonzaga \"que Pégaso se chamava\" não pisava neste mundo, \"mas nos planaltos da Arcádia\": Pégaso, o cavalo das musas, alude à poesia e à imaginação árcade do poeta.\n\nA alternativa A inverte: em Gonzaga, Pégaso é mitológico; D atribui o heroísmo a Gonzaga, quando ele se refere ao amigo.\n\n**Resposta: B**"
+    },
+    "85": {
+      "assunto": "Obras de leitura obrigatória",
+      "resolucao": "Os versos partem da \"derrama\", a cobrança forçada dos impostos atrasados sobre o ouro, que a Coroa portuguesa ameaçava lançar em Minas Gerais. Diante dela, haveria \"levante, com certeza\".\n\nAs perguntas sobre a bandeira, com símbolos possíveis (\"Maçonaria\", \"Paganismo\", \"Igreja\", \"um gênio a quebrar algemas\"), mostram que o movimento juntava gente de origens e ideias diferentes, unida pela ideia de liberdade. Os últimos versos situam a conspiração \"atrás de portas fechadas\", em segredo.\n\nPor que as outras erram: a derrama dizia respeito ao quinto do ouro, não aos diamantes, e o poema não atribui o movimento a um único grupo (A); não há disputa entre católicos e republicanos (C); o poema fala dos conspiradores, não dos que os combatiam (D); a delação não aparece neste trecho (E).\n\n**Resposta: B**"
+    },
+    "86": {
+      "assunto": "Artes visuais",
+      "resolucao": "O depoimento de Tarsila explica a viagem a Minas em 1924: ela redescobre as cores \"caipiras\" e as formas da arte popular e colonial brasileira e as leva para a pintura moderna. É a chamada fase Pau-Brasil.\n\n*O mamoeiro* mostra isso: casinhas coloridas, morros, árvores tropicais, roupa no varal e uma ponte sobre o rio, em cores fortes e formas simplificadas. O tema é a paisagem brasileira do interior, valorizada como identidade nacional, o projeto central do modernismo.\n\nAs formas da tela são simplificadas, mas não abstratas (C); não há destaque para luz e sombra (A), colagem (E) ou inspiração direta em arte africana e indígena (D).\n\n**Resposta: B**"
+    },
+    "87": {
+      "assunto": "História da África",
+      "resolucao": "O relato diz que os tecidos fabricados em Ijebu eram exportados \"não apenas para os países vizinhos, mas até mesmo para o Brasil\", cujos navios iam buscá-los em Lagos. Isso mostra um comércio de produtos manufaturados africanos para a América, além do tráfico de escravizados.\n\nPor que as outras erram: as tarefas cabiam às mulheres (B); o texto elogia a produção, sem compará-la com a europeia (C); os panos eram \"tão apreciados pela gente de origem africana\" no Brasil, ou seja, eles tinham acesso (D); o texto não fala de plantações de algodão na América (E).\n\n**Resposta: A**"
+    },
+    "88": {
+      "assunto": "Geopolítica e conflitos",
+      "resolucao": "O texto descreve o **Sahel**: uma faixa semiárida ao sul do Saara, que atravessa a África de oeste a leste (do Senegal ao Sudão e à Eritreia) e funciona como transição entre o deserto e as savanas. É também uma zona de contato entre o norte de maioria muçulmana e o sul de maioria cristã, com muitos grupos étnicos.\n\nO Chifre da África (A) é a ponta leste, na Somália e na Etiópia; a África Meridional (B) é o sul do continente; a África Setentrional (C) é o norte, incluindo o próprio Saara; o Rift Valley (D) é uma grande falha geológica no leste.\n\n**Resposta: E**"
+    },
+    "89": {
+      "assunto": "História da África",
+      "resolucao": "Mia Couto responde com outra pergunta para mostrar que não existe uma \"essência\" africana fácil de capturar, assim como não existe uma europeia. Ele pergunta \"de qual África estamos falando?\", sugerindo que o continente é múltiplo, feito de muitas realidades e em transformação.\n\nA alternativa E traduz essa ideia: a África como um mosaico de relações diversas e não fixas.\n\nPor que as outras erram: o autor não elogia a colonização (A) nem define a África por um processo \"natural\" (B); a questão demográfica e sanitária não aparece (C); e ele critica justamente as definições deterministas, que reduzem a África a uma essência (D).\n\n**Resposta: E**"
+    },
+    "90": {
+      "assunto": "Era Vargas",
+      "resolucao": "*Aquarela do Brasil* é o exemplo clássico do samba-exaltação: celebra a terra (\"esse coqueiro que dá coco\", \"fontes murmurantes\", \"Brasil lindo e trigueiro\") e a cultura brasileira (\"terra de samba e pandeiro\"). O Estado Novo, por meio do DIP, incentivava essa visão ufanista e unificadora da nação, que transformava o samba e a mestiçagem em símbolos nacionais.\n\nPor que as outras erram: a letra valoriza o \"mulato inzoneiro\", a \"mãe preta\" e o \"Rei Congo\", sem discriminação (A); a menção a \"Terra de Nosso Senhor\" não faz da religião o centro (C); o foco é a nação, não o regionalismo caboclo (D); o regime combatia o malandro, preferindo a imagem do trabalhador (E).\n\n**Resposta: B**"
+    }
+  }
+}

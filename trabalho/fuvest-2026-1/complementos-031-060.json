@@ -1,0 +1,129 @@
+{
+ "edicao": "fuvest-2026-1",
+ "intervalo": [
+  31,
+  60
+ ],
+ "complementos": {
+  "31": {
+   "assunto": "Funções inorgânicas",
+   "resolucao": "A ideia central é a neutralização: o NaOH é uma base forte e muito solúvel em água.\n\nSe água ácida tocar a superfície tratada, ela dissolve a camada de NaOH, e os íons $\\text{OH}^-$ reagem com os íons $\\text{H}^+$ do ácido: $\\text{H}^+ + \\text{OH}^- \\rightarrow \\text{H}_2\\text{O}$. Sem a acidez, o processo de corrosão do aço, que é favorecido em meio ácido, fica bem mais lento.\n\nAs outras alternativas falham: o NaOH é iônico e hidrofílico, não repele a água (A); a água não é oxidada pelo NaOH (C); a camada se dissolve, não impede a solubilização (D); e o sódio está como íon $\\text{Na}^+$, que não funciona como metal de sacrifício (E).\n\n**Resposta: B**"
+  },
+  "32": {
+   "assunto": "Equilíbrio químico",
+   "resolucao": "Use o princípio de Le Chatelier no equilíbrio dado:\n\n$$\\text{Ca}^{2+} + \\text{CO}_2 + \\text{H}_2\\text{O} \\rightleftharpoons \\text{CaCO}_3(\\text{s}) + 2\\,\\text{H}^+$$\n\nO ácido cítrico libera íons $\\text{H}^+$, ou seja, diminui o pH. O aumento de $[\\text{H}^+]$, que é produto, desloca o equilíbrio para a esquerda: o $\\text{CaCO}_3$ se dissolve, e isso é a descalcificação.\n\nPor que as outras estão erradas: o ácido não consome $\\text{CO}_2$, ele o produz ao deslocar o equilíbrio (B); mais $\\text{CO}_2$ desloca para a direita e aumenta o depósito (C); pH maior significa menos $\\text{H}^+$, o que também favorece a formação de calcário (D); o ácido participa do equilíbrio e é consumido, não é catalisador (E).\n\n**Resposta: A**"
+  },
+  "33": {
+   "assunto": "Questões ambientais",
+   "resolucao": "A questão pede a alternativa que resume corretamente os dados dos dois textos.\n\nO segundo texto diz que a produção de roupas cresceu 60% em 15 anos e que o custo caiu 36%, o que ampliou o consumo no mundo. Somando isso ao descarte sem gestão no Brasil (primeiro texto) e à poluição da cadeia (inseticidas, herbicidas, água), fica clara a necessidade de políticas para a cadeia produtiva e para os resíduos. É o que diz a alternativa B.\n\nAs demais contradizem os textos: o primeiro afirma que o Brasil \"não tem gestão de resíduos\" (A); o algodão ocupa só 2,5% da área cultivada (C); não há dado de queda na produção (D); e o uso intenso de água e agrotóxicos aumenta a poluição, não a reduz (E).\n\n**Resposta: B**"
+  },
+  "34": {
+   "assunto": "Hidrografia",
+   "resolucao": "Pelo texto, águas Brancas têm alta concentração de sólidos inorgânicos em suspensão (SIS), isto é, sedimentos.\n\nNo mapa, o Solimões e o Amazonas aparecem como rios de águas Brancas. Esses sedimentos vêm da erosão nas áreas de cabeceira, a montante, na Cordilheira dos Andes, uma cadeia jovem e de relevo acidentado que fornece muito material. Por isso a alternativa E está correta.\n\nAs outras erram: a cor das águas Pretas vem de matéria orgânica dissolvida e o mapa mostra águas Pretas também fora da bacia do Negro (A); as águas Claras são uma condição natural, não efeito de garimpo (B); o mapa não indica alteração por uso do solo no tipo A, e o texto também não (C); o tipo B fica entre águas brancas e pretas e aparece sobretudo no oeste da bacia, não no Baixo Amazonas (D).\n\n**Resposta: E**"
+  },
+  "35": {
+   "assunto": "Geologia e relevo",
+   "resolucao": "No mapa, os geofones, os cabos sensores, os sonares de volume e o sensor de impacto estão todos ao longo dos canais de drenagem, no fundo dos vales, por onde a corrida de detritos desce.\n\nÉ ali que se pode medir o volume (sonar) e a passagem e a velocidade do fluxo (cabos e geofones em pontos sucessivos), dando tempo de acionar o alerta antes que os detritos cheguem à rodovia e às residências. Isso é o que afirma a alternativa B.\n\nAs outras não batem com o mapa e a tabela: o sensor de impacto está na parte baixa, perto da rodovia (A); o pluviômetro está na parte alta e, sozinho, não basta para o alerta (C); o sonar mede o nível dos rios, não a velocidade dos detritos (D); cabo e geofones registram passagem e vibração, não a composição do material (E).\n\n**Resposta: B**"
+  },
+  "36": {
+   "assunto": "Trigonometria",
+   "resolucao": "Tome como referência a linha horizontal que passa pela luneta da Estação Total. Nos dois triângulos retângulos, o cateto horizontal mede 40 m.\n\nPonto A (visada descendente até o pé da mira): o pé de A está $40 \\cdot \\tan 7^\\circ = 40 \\cdot 0{,}122 = 4{,}88\\ \\text{m}$ abaixo da linha horizontal.\n\nPonto B (visada ascendente): o ponto lido na mira fica $40 \\cdot \\tan 5^\\circ = 40 \\cdot 0{,}087 = 3{,}48\\ \\text{m}$ acima da linha horizontal. Como a leitura é $h_B = 3{,}60\\ \\text{m}$ a partir do pé da mira, o pé de B está $3{,}60 - 3{,}48 = 0{,}12\\ \\text{m}$ abaixo da linha horizontal.\n\nDiferença de altitude: $4{,}88 - 0{,}12 = 4{,}76\\ \\text{m}$. A altura do aparelho (1,6 m) não interfere, porque as duas medidas partem da mesma linha horizontal. O valor 4,76 m, obtido com as tangentes arredondadas, fica mais próximo de 4,80 m; com os valores exatos das tangentes, a conta dá cerca de 4,81 m.\n\n**Resposta: E**"
+  },
+  "37": {
+   "assunto": "Geometria analítica",
+   "resolucao": "Com $A = (0,0)$ e $B = (8,0)$, o quadrado tem lado 8 e, pela figura, $C = (8,8)$ e $D = (0,8)$. O centro do quadrado é $(4, 4)$.\n\nO ponto $P$ é o ponto médio de $BC$: $P = (8, 4)$. A circunferência é tangente ao lado $BC$ em $P$, então seu centro está na reta horizontal $y = 4$, à direita do quadrado.\n\nComo o centro fica a 10 m do centro do quadrado, ele é $(4 + 10,\\ 4) = (14, 4)$. O raio é a distância até $P$: $r = 14 - 8 = 6$, logo $r^2 = 36$.\n\nEquação: $(x - 14)^2 + (y - 4)^2 = 36$.\n\n**Resposta: A**"
+  },
+  "38": {
+   "assunto": "Urbanização",
+   "resolucao": "O texto dá os dois números do grau de urbanização (84,4% em 2010 e 87,4% em 2022) e destaca como \"importante constatação\" do Censo o crescimento das cidades médias, de 100 mil a 500 mil habitantes. A alternativa C junta essas duas informações.\n\nAs outras contradizem o texto: o aumento no Centro-Oeste e no Norte não tem relação com áreas reflorestadas e baixa modernização agrícola (A); o destaque é o crescimento das cidades médias, não das metrópoles (B); a população rural diminuiu em todas as regiões, e os percentuais citados são de população urbana (D); o texto não aponta os pequenos municípios como os que mais cresceram (E).\n\n**Resposta: C**"
+  },
+  "39": {
+   "assunto": "Era Vargas",
+   "resolucao": "O texto é de 1936, quando Mário de Andrade dirigia o Departamento de Cultura de São Paulo, que criou os parques infantis.\n\nO trecho mostra o objetivo: nos parques havia \"instrutoras, dentistas, educadoras sanitárias\", e as crianças proletárias aprendiam \"nos brinquedos o cooperativismo e a consciência do homem social\". Ou seja, o lazer era organizado com cuidados de saúde e atividades educativas, como diz a alternativa B.\n\nAs outras não aparecem no excerto: não se fala de cortiços nem de Mata Atlântica (A), de ensino profissionalizante (C), de evangelização (D) ou de um programa escolar nacionalista (E). O parque infantil era um espaço de recreação educativa, não uma escola.\n\n**Resposta: B**"
+  },
+  "40": {
+   "assunto": "Teoria sociológica",
+   "resolucao": "Simmel diz que, na cidade grande, as pessoas mantêm uma \"reserva\" diante dos outros, a ponto de mal conhecer os vizinhos, e que essa reserva garante ao indivíduo \"uma espécie de liberdade pessoal\".\n\nNo trecho de Rachel de Queiroz, ao fim do expediente cada um \"corta as amarras\" e vai para sua \"vida isolada\", sua \"vida particular\", sua \"pequenina ilha\". É a mesma reserva descrita por Simmel, com o lado de liberdade individual. Por isso a alternativa B está correta.\n\nA distratora A erra porque o sorriso dos caixeiros é profissional e impessoal, o que combina com Simmel em vez de contradizê-lo. A E atribui o \"embotamento\" ao espaço privado dos lares, o que nenhum dos textos diz.\n\n**Resposta: B**"
+  },
+  "41": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto sustenta que o carnaval é político porque, por meio de brincadeiras, danças, marchinhas, cantos e fantasias, as pessoas exercem direitos (à cidade, à manifestação, à liberdade de expressão e religiosa) e dão voz a grupos silenciados. O texto fala de uma \"aliança entre luta social, cultura e expressão estética\".\n\nOu seja, o objetivo é defender posições e direitos por meio da expressão cultural e artística, como diz a alternativa D.\n\nA alternativa A reduz o carnaval a lazer, o oposto da tese do texto. A B inventa uma resistência contra quem é contra a folia e o consumo. A C diz que o texto critica os direitos conquistados, quando ele os celebra. A E fala em consumo que acentua diferenças, ideia que não está no texto.\n\n**Resposta: D**"
+  },
+  "42": {
+   "assunto": "Teatro, dança e performance",
+   "resolucao": "O texto mostra que o circo, desde o fim do século XVIII, nasceu da mistura de artistas e linguagens de origens diferentes (saltimbancos, ciganos, *Commedia dell'Arte*, pantomima, acrobacia, números equestres) e criou novas formas de organizar e produzir espetáculos.\n\nEssa ideia de mistura e transformação contínua, que o próprio título do artigo destaca (\"arte em transformação contínua\"), leva à alternativa A: o circo se apropria de elementos estéticos, sociais, culturais e tecnológicos de cada época e, por isso, se mantém contemporâneo.\n\nAs outras contradizem o texto: o espaço do circo mudou, não é \"perene\" (B); o texto não fala de ruptura no Brasil do século XX (C) nem de uma arte que precisaria de outro nome (D); e o circo sempre teve o divertimento como objetivo (E).\n\n**Resposta: A**"
+  },
+  "43": {
+   "assunto": "Artes visuais",
+   "resolucao": "A crítica citada reconhece que as exposições imersivas atraem muito público (\"pode ser muito bonito\"), mas pergunta se as obras precisam de \"efeitos especiais\" e compara a experiência a \"um show de cabaré\". O texto também cita a espetacularização da arte como uma das críticas.\n\nA alternativa A resume esse equilíbrio: há ampliação do acesso, mas o conteúdo crítico e histórico das obras tende a se diluir numa experiência de entretenimento, o que prejudica a reflexão.\n\nAs outras vão contra a crítica apresentada: a projeção não reconstrói com precisão as intenções do artista (B) nem intensifica a experiência \"sem prejuízo\" (C); o texto não diz que a crítica ignora o valor pedagógico (D); e o sucesso de público não prova que o museu tradicional está obsoleto (E).\n\n**Resposta: A**"
+  },
+  "44": {
+   "assunto": "Filosofia contemporânea",
+   "resolucao": "Para Merleau-Ponty, Cézanne quer que \"o mundo seja restituído em sua espessura\", e por isso \"o desenho deve então resultar da cor\": o mundo é \"um organismo de cores\", e os contornos e a perspectiva surgem dele. Na tela, a montanha e os campos são construídos por manchas de cor, sem contornos marcados.\n\nLogo, cabe à pintura fazer aparecer a espessura do mundo, dando ênfase à cor, como diz a alternativa C.\n\nA distratora E inverte a ideia: a cor não serve para \"fazer aparecer as perspectivas\"; as deformações de perspectiva, segundo o texto, deixam de ser visíveis por si mesmas. A B também erra, porque não se trata de explicitar as deformações. A A e a D contrariam a ideia de uma pintura que nasce da visão do mundo, mas usa a cor como mediação.\n\n**Resposta: C**"
+  },
+  "45": {
+   "assunto": "Filosofia moderna",
+   "resolucao": "No texto, Deus diz a Adão que não lhe deu lugar, aspecto ou função fixos para que ele os conquiste \"pelo mérito de tua vontade e livre consentimento\". As outras criaturas estão presas às leis, mas o homem \"não está contido por amarra nenhuma\" e há de \"predeterminar a tua compleição pessoal\".\n\nEssa liberdade de construir o próprio destino é o centro do humanismo renascentista: a autonomia do ser humano, como diz a alternativa E.\n\nA distratora D erra porque o texto tem referência divina explícita: é o \"ótimo Artífice\" quem dá ao homem a liberdade; o antropocentrismo renascentista não exclui Deus. As outras falam de ideias posteriores ou alheias ao texto: ética protestante (A), evolução (B) e imortalidade (C).\n\n**Resposta: E**"
+  },
+  "46": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "A escultura de Ruiz Gijón é barroca: mostra com precisão anatômica o Cristo no momento da morte, humano no corpo e sofrimento, e ao mesmo tempo unido ao divino. É a tensão barroca entre o humano e o sagrado.\n\n*O Cristo cigano*, de Sophia de Mello Breyner Andresen, parte da lenda dessa escultura, mas tem traço moderno: a ação é conduzida pela faca e pelo amor, que aparecem quase como forças próprias, enquanto as personagens humanas perdem a individualidade. Isso é o que diz a alternativa C.\n\nAs outras erram na leitura dos estilos: o barroco não anuncia o modernismo pela faca usada para esculpir (A) nem por uma elaboração metonímica (D); a arte barroca não abandona a ligação com o divino (B) nem celebra a vitória do humano sobre ele (E); e o livro de Sophia não é tardiamente romântico (D).\n\n**Resposta: C**"
+  },
+  "47": {
+   "assunto": "Filosofia contemporânea",
+   "resolucao": "Nos dois textos, diante da morte de outra pessoa, o indivíduo foge de pensar na própria mortalidade e se tranquiliza.\n\nNo poema, o eu vira o rosto quando vê os caixões (\"Mas viro o meu rosto / Pois não te compreendo\") e trata a morte como \"pesadelo\" e \"coisa inventada\" que o vento e a luz desmentem. Em Heidegger, a \"esquivança encobridora\" faz os próximos convencerem o moribundo de que ele vai escapar, numa \"*constante tranquilização*\" sobre a morte, que encobre a possibilidade mais própria do ser.\n\nEssa fuga que acalma e encobre o sentido da mortalidade é a alternativa D. Não há enfrentamento heroico (A), respeito a tradições (B), participação na morte do outro (C) nem incapacidade de perceber a morte, já que o eu do poema a vê passar e desvia o olhar (E).\n\n**Resposta: D**"
+  },
+  "48": {
+   "assunto": "Obras de leitura obrigatória",
+   "resolucao": "O excerto retoma a passagem bíblica do Éden: a \"serpente\" (Sarnau) oferece a \"maçã\" que arranca de Mwando \"a venda de todos os mistérios\" e o desperta \"do ventre fecundo da inocência\". Como Adão, ele passa da inocência ao conhecimento, aqui ligado ao desejo e ao amor por uma mulher.\n\nO resultado é perturbação: ele está \"transtornado\", com a \"devoção abalada pela paixão\", e sente ser arrastado \"para o abismo\". É o despertar sexual e o conhecimento que rompem a inocência e geram conflito interior, como diz a alternativa B.\n\nAs outras não combinam com o trecho: não há decepção nem isolamento resignado (A), a serpente não é obstáculo vencido nem há paz (C), não se trata de transcendência espiritual (D), e a paixão abala a devoção, em vez de criar outra devoção religiosa (E).\n\n**Resposta: B**"
+  },
+  "49": {
+   "assunto": "Idade Média",
+   "resolucao": "O texto apresenta as Rotas da Seda como caminhos de trocas de bens e de ideias entre povos muito diferentes. Um dos efeitos dessas trocas foi a difusão (a \"vulgarização\", no sentido de tornar comum) de produtos como seda e outros tecidos, especiarias e porcelana, que mudaram costumes ao longo do trajeto. É a alternativa A.\n\nAs outras têm erros históricos: o Direito Romano não se difundiu pelos povos orientais nem acabou com as tradições orais (B); as Cruzadas não espalharam o cristianismo pelo Extremo Oriente (C); o papel é uma invenção chinesa, levada ao Ocidente por essas rotas, e não um saber europeu levado ao Oriente (D); e os templos e pagodes orientais não adotaram uma identidade greco-romana (E).\n\n**Resposta: A**"
+  },
+  "50": {
+   "assunto": "História da África",
+   "resolucao": "O texto mostra duas coisas: o esforço de manter vivo o ensino do islã (ulemás que circulavam, escolas corânicas em que os meninos liam e decoravam o Alcorão) e a peregrinação a Meca, que, ao reunir fiéis de várias regiões, \"criava vínculos entre todo o mundo muçulmano do Sael, norte da África e península Arábica\".\n\nA alternativa E resume essas duas ideias: ampliar o conhecimento dos textos religiosos e formar redes entre povos e grupos diferentes.\n\nAs outras não estão no texto ou o contradizem: não há transformação abrupta nem autodidatismo, já que o ensino era conduzido pelos ulemás (A); não se fala em fanatismo (B); as escolas eram para meninos, o que desmente a igualdade de gêneros (C); e os fiéis vinham de regiões e povos diversos, não de uma origem homogênea (D).\n\n**Resposta: E**"
+  },
+  "51": {
+   "assunto": "Mundo contemporâneo",
+   "resolucao": "O excerto lista as consequências da Guerra ao Terror: centenas de milhares de mortos no Afeganistão, no Iraque e no Paquistão, abusos em Abu Ghraib e Guantánamo, \"mais radicalização religiosa, conflitos internos\", milhões de refugiados e aumento do \"preconceito em relação a muçulmanos e árabes\".\n\nNovos conflitos e perseguições de fundo étnico e religioso: é a alternativa A.\n\nAs outras contradizem o texto ou a história: não havia mais duas superpotências em 2001 (B); o texto não fala em hegemonia consolidada, e sim em ressentimento e radicalização (C); não houve paz no mundo árabe (D); e o terrorismo não foi erradicado, o texto aponta mais radicalização (E).\n\n**Resposta: A**"
+  },
+  "52": {
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "O mapa mostra que o gasoduto (SCPX e TANAP) e o oleoduto BTC levam gás e petróleo do Azerbaijão para a Turquia e, dali, para a Europa. Mostra também, no sul da Armênia, o projeto de corredor de transporte estratégico turco-azerbaijano, que ligaria o Azerbaijão ao enclave de Naquichevão e à Turquia, e que o texto diz que os EUA propuseram controlar.\n\nOu seja, a ofensiva tem motivos ligados ao controle de rotas de energia e de comércio, como diz a alternativa A.\n\nAs outras distorcem o mapa: o Azerbaijão não defende a Armênia (B); a rota de Nagorno-Karabakh que aparece no mapa liga a região à Armênia e ao Irã, não serve para a Rússia escoar gás à UE (C); a Turquia é aliada do Azerbaijão, não neutra (D); e o corredor é um projeto, ainda não escoa toda a produção (E).\n\n**Resposta: A**"
+  },
+  "53": {
+   "assunto": "Geopolítica e conflitos",
+   "resolucao": "O mapa destaca a Guiana Essequiba, região a oeste do rio Essequibo que pertence à Guiana e é reivindicada pela Venezuela. Em 2023, o governo venezuelano fez um referendo e anunciou a criação de um estado venezuelano nessa área, o que seria uma anexação unilateral, proibida pela Carta da ONU citada no texto.\n\nA alternativa E é a única que relaciona corretamente a região, o país que a reivindica e a decisão arbitral que a atribuiu à Guiana. (O laudo arbitral sobre essa fronteira costuma ser datado de 1899, em Paris; a alternativa fala em 1904.)\n\nAs outras erram o lugar ou os atores: não houve invasão venezuelana ao Brasil (A), o Suriname não tem relação com a disputa (B), o rio Orinoco fica dentro da Venezuela (C), e o Mercosul não redefiniu as fronteiras venezuelanas (D).\n\n**Resposta: E**"
+  },
+  "54": {
+   "assunto": "Antiguidade",
+   "resolucao": "No discurso, Péricles apresenta o governo de Atenas como modelo: \"Nosso governo não copia o de nossos vizinhos, mas é um exemplo para eles\". Em seguida, elogia a democracia ateniense (justiça igual, mérito, participação dos pobres, respeito às leis). É um discurso de exaltação, feito para honrar os mortos da guerra, que apresenta a democracia como sinal da superioridade de Atenas. Alternativa D.\n\nAs outras erram: o texto distingue a liberdade na vida privada da reverência nos atos públicos, não os iguala (A); a democracia ateniense era direta, e o tom é de elogio, não de crítica (B); é a visão de Péricles sobre Atenas, não a opinião geral da época sobre as pólis (C); e o acesso aos cargos se dá pelo mérito, não de forma igual para todas as pessoas, já que mulheres, escravizados e estrangeiros eram excluídos (E).\n\n**Resposta: D**"
+  },
+  "55": {
+   "assunto": "Progressões",
+   "resolucao": "Vamos testar cada alternativa.\n\n(A) Para $n = 2, 3, 4, 5, 6$: $2^n - 1 = 3, 7, 15, 31, 63$. Como 15 e 63 não são primos, é falsa.\n\n(B) O primeiro número perfeito é 6 ($1 + 2 + 3 = 6$). A PG de razão 3 é $6, 18, 54, \\ldots$, com termo geral $6 \\cdot 3^{k-1} = 2 \\cdot 3^k$, sempre par. **Verdadeira.**\n\n(C) 28 é perfeito ($1+2+4+7+14 = 28$), mas 31 é primo, e a soma de seus divisores próprios é 1.\n\n(D) Para $n = 4$: $2^4 - 1 = 15$ não é primo, e $2^3 \\cdot 15 = 120$ não é perfeito (a soma dos divisores próprios de 120 é 240).\n\n(E) A diferença entre termos consecutivos é $(2^{n+1} - 1) - (2^n - 1) = 2^n$: sequência $2, 4, 8, \\ldots$, uma PG de razão 2, não uma PA.\n\n**Resposta: B**"
+  },
+  "56": {
+   "assunto": "Evolução",
+   "resolucao": "A cladística (sistemática filogenética) também agrupa os organismos por características compartilhadas, como Aristóteles, mas com outro objetivo: reconstruir as relações de parentesco evolutivo. Ela usa as características derivadas compartilhadas para identificar ancestrais comuns e montar cladogramas. É a alternativa A.\n\nAs outras erram: a cladística não agrupa por diferenças nem ignora semelhanças (B); evolução não significa ficar \"melhor\" a cada geração (C); a alternativa D descreve uma ideia de herança de características adquiridas, de Lamarck, e não o método filogenético; e semelhanças por convergência (analogias) são justamente as que a cladística descarta para agrupar, porque não indicam parentesco (E).\n\n**Resposta: A**"
+  },
+  "57": {
+   "assunto": "Biotecnologia",
+   "resolucao": "A técnica é uma clonagem por transferência de núcleo: o núcleo de uma célula de lobo moderno, com o DNA editado, foi colocado em óvulos anucleados de cachorras. Todas as células dos filhotes, inclusive as que formam espermatozoides e óvulos, derivam desse núcleo e carregam as edições.\n\nAssim, ao cruzar esses filhotes, eles passam à prole o genoma de lobo moderno com as modificações. A prole será parecida com lobos modernos modificados, como diz a alternativa D.\n\nAs outras erram: o óvulo da cachorra contribui só com o citoplasma (incluindo o DNA mitocondrial), não com os genes nucleares que definem o fenótipo (A); não há tendência de aproximação da espécie extinta a cada geração (B); as edições estão em todas as células e por isso são herdáveis (C); e as edições foram planejadas e o resultado é conhecido (E).\n\n**Resposta: D**"
+  },
+  "58": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O trecho que decide a questão está no primeiro parágrafo: \"Everyone expected the sharp vision of the James Webb Space Telescope to bring the answer into focus\". A \"resposta\" é a solução da divergência entre as medidas da taxa de expansão do universo (a constante de Hubble), citada na frase anterior.\n\nOu seja, esperava-se que a visão precisa do telescópio esclarecesse as divergências, como diz a alternativa A.\n\nO texto não fala em novas equações (B), em provar a superioridade de uma equipe (C), em parâmetros inéditos para medir distâncias (D) nem em saber se o universo cresce infinitamente (E).\n\n**Resposta: A**"
+  },
+  "59": {
+   "assunto": "Interpretação de texto",
+   "resolucao": "O texto diz que a equipe de Riess \"has consistently measured $H_0$ to be about 8 percent higher than the theoretical prediction\". Ou seja, ela mede a constante a partir de observações e compara o resultado com o que o modelo teórico prevê; dessa comparação surge a chamada tensão de Hubble. É a alternativa C.\n\nA alternativa A está errada, porque as medidas de Riess divergem da previsão do modelo. O texto não fala em simulações de computador (B). A D também falha: a medida recente usa dados do Webb, mas \"agrees with their earlier estimates\", feitas antes do telescópio. E a equipe sugere que o modelo pode estar incompleto, sem rejeitar equações nem propor novas leis (E).\n\n**Resposta: C**"
+  },
+  "60": {
+   "assunto": "Gravitação",
+   "resolucao": "Como as massas são iguais, a razão entre as densidades depende só dos volumes: $\\frac{d_{\\text{BN}}}{d_{\\text{Sol}}} = \\frac{V_{\\text{Sol}}}{V_{\\text{BN}}} = \\left(\\frac{R_{\\text{Sol}}}{R_{\\text{Sc}}}\\right)^3$.\n\nRaio de Schwarzschild: $R_{\\text{Sc}} = \\frac{2GM}{c^2} = \\frac{2 \\cdot 10^{-10} \\cdot 2 \\times 10^{30}}{9 \\times 10^{16}} = \\frac{4 \\times 10^{20}}{9 \\times 10^{16}} \\approx 4{,}4 \\times 10^{3}\\ \\text{m}$.\n\nRazão dos raios: $\\frac{10^9}{4{,}4 \\times 10^3} \\approx 2{,}3 \\times 10^5$.\n\nRazão das densidades: $(2{,}3 \\times 10^5)^3 \\approx 12 \\times 10^{15} \\approx 1{,}2 \\times 10^{16}$, ordem de grandeza $10^{16}$.\n\n**Resposta: D**"
+  }
+ }
+}

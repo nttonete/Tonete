@@ -2,12 +2,14 @@ fontes-pdf
 fontes-oficiais
 __pycache__/
 node_modules/
-# área de trabalho: guarda só o que não se regenera (transcrições, revisões e recortes manuais)
+# área de trabalho: guarda só o que não se regenera (transcrições, revisões, complementos e recortes manuais)
 trabalho/*
 !trabalho/*-[12]/
-trabalho/*-[12]/*
-!trabalho/*-[12]/rascunho-*.json
-!trabalho/*-[12]/revisao-*.json
-!trabalho/*-[12]/figuras/
-trabalho/*-[12]/figuras/*
-!trabalho/*-[12]/figuras/*-c*.webp
+!trabalho/*-2-*/
+trabalho/*/*
+!trabalho/*/rascunho-*.json
+!trabalho/*/revisao-*.json
+!trabalho/*/complementos-*.json
+!trabalho/*/figuras/
+trabalho/*/figuras/*
+!trabalho/*/figuras/*-c*.webp
