@@ -1,0 +1,252 @@
+{
+  "edicao": "fuvest-2026-2-d2",
+  "intervalo": [
+    1,
+    9
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 1,
+      "codigo": "B01",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A Terceira Conferência das Nações Unidas sobre os Oceanos, realizada em Nice (França) em junho de 2025, discutiu temas relevantes para a conservação dos Oceanos, sendo a elevação da temperatura um dos temas centrais abordados. O aumento da temperatura da água do mar pode afetar os processos fisiológicos de diferentes animais, como invertebrados marinhos, baleias, tartarugas e peixes, dentre outros.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Dentre os animais mencionados, cite aqueles que são ectotérmicos."
+        },
+        {
+          "rotulo": "b",
+          "texto": "O aumento da temperatura dos oceanos tem maior influência na fisiologia de animais ectotérmicos ou endotérmicos? Justifique a sua resposta."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Cite e explique uma consequência do aumento da temperatura dos oceanos para o ecossistema marinho."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 2,
+      "codigo": "B02",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O petróleo é formado por uma mistura de compostos orgânicos, principalmente os hidrocarbonetos, que são compostos lipofílicos, que podem causar problemas de saúde em vários animais, incluindo os seres humanos. A exploração de petróleo na Foz da Bacia Amazônica (Margem Equatorial) está entre um dos planos da Petrobrás, mas questões ligadas aos impactos ao meio ambiente e à saúde humana são preocupantes, pois a exposição aos hidrocarbonetos pode causar, por exemplo, doenças respiratórias, cardiovasculares e dérmicas na população.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Quais são os elementos químicos que compõem os hidrocarbonetos?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Por que a natureza lipofílica dos hidrocarbonetos pode potencializar os seus danos nos seres humanos?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Qual é a principal organela celular que participa do processo de detoxificação (“desintoxicação”) das células contaminadas pelos hidrocarbonetos e qual é o principal órgão nos seres humanos onde este processo ocorre?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 4,
+      "codigo": "B04",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "As curvas Y e Z, no gráfico a seguir, representam, respectivamente, dois processos ligados à obtenção de energia pelas plantas clorofiladas.\n\n![Gráfico da taxa em função da luz, com as curvas Y e Z e as setas 1 e 2](fig:p05-f1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Cite os processos correspondentes a Y e Z, respectivamente."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Explique por que Z apresenta o padrão de uma reta."
+        },
+        {
+          "rotulo": "c",
+          "texto": "A que fenômenos correspondem os pontos indicados pelas setas 1 e 2? Explique o que ocorre em 2."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 5,
+      "codigo": "B05",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Em 2020, o líder da banda Black Sabath revelou ao público que havia sido diagnosticado com a Doença de Parkinson, que afeta o sistema nervoso central, mais especificamente as células que produzem dopamina, um mediador químico (neurotransmissor).\n\n![Esquema de uma sinapse, com os números 1, 2, 3 e 4 indicados](fig:p07-f1)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "No esquema a seguir, qual tipo celular representa a produção de dopamina?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Qual é a função de um neurotransmissor?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "O que está representado no esquema pelos números 1, 2, 3 e 4?"
+        }
+      ],
+      "observacoes": "No caderno o esquema vem impresso depois dos itens; aqui foi posto antes deles. O caderno grafa \"Black Sabath\" (sic)."
+    },
+    {
+      "numero": 6,
+      "codigo": "B06",
+      "materia": "biologia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "No gráfico a seguir, W e N representam o crescimento, ao longo do tempo, de dois grupos de animais, respectivamente.\n\n![Gráfico do tamanho em função do tempo, com as curvas W e N e as fases i, ii, iii e iv](fig:p07-f2)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Que animais são representados pela curva W?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Existe um hormônio presente nos animais representados pela curva N que é responsável por esse padrão de crescimento. Em que fase(s) tal hormônio atua com maior intensidade? (Considere as fases i, ii, iii, e iv)."
+        },
+        {
+          "rotulo": "c",
+          "texto": "O grupo de animais representado pela curva N e o reino dos fungos compartilham uma característica estrutural. Cite a característica e explique onde ela ocorre em cada grupo."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 7,
+      "codigo": "F01",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um artigo publicado na *Revista Brasileira de Ensino de Física*, em 2024, propõe um curioso experimento para medir a força de arrasto do ar em pipocas em movimento vertical. Para isso, os autores prepararam um sistema automatizado que mede a posição vertical $y$ (m) em função do tempo $t$ (s) de pipocas em voo após serem “estouradas” em uma panela aberta, como mostra a figura ao lado. O gráfico $y$ *versus* $t$ de um dos “voos” medidos também é exibido.\n\n![Fotografia do aparato experimental, com as legendas: Réguas, Fundo escuro, Grãos de milho de pipoca, Queimador do fogão e Panela não aderente](fig:p10-f5)\n\n![Gráfico da posição vertical y (m) em função do tempo t (s) de um dos voos da pipoca](fig:p10-f1)\n\n**Note e adote:** Aceleração da gravidade: $g = 10\\ \\text{m/s}^2$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Com base no gráfico $y$ *versus* $t$, determine o deslocamento vertical máximo da pipoca nesse “voo”."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Se a velocidade inicial da pipoca medida pelo experimento é de 3 m/s na vertical, qual seria o deslocamento vertical máximo na ausência de forças de arrasto e outras forças dissipativas?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Uma das conclusões do artigo é que a força de arrasto em uma pipoca típica pode ser modelada pela expressão $F_{arr} = -bv^2$, onde $v$ é o módulo da velocidade da pipoca, o sinal “-” indica que a força é sempre contrária ao movimento e a constante $b$ pode ser estimada pelas medidas do experimento como $b \\cong 0{,}4\\ \\text{g/m}$ para velocidades acima de 2 m/s.\n\nCom base nessa expressão, qual é a velocidade máxima que uma pipoca de massa 0,2 g atinge após começar o seu movimento de queda vertical com velocidade inicial nula?"
+        }
+      ],
+      "observacoes": "O parágrafo sobre a força de arrasto, impresso entre os itens b e c, foi posto no início do item c, a que serve."
+    },
+    {
+      "numero": 8,
+      "codigo": "F02",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Um dos decaimentos radioativos mais relevantes é o decaimento alfa (α), em que um núcleo pesado, como Polônio 210 ou Urânio 235, decai emitindo uma partícula α, que é essencialmente um núcleo de Hélio formado por 2 prótons e 2 nêutrons. Como são partículas eletricamente carregadas, as partículas α podem ser aceleradas/desaceleradas por campos elétricos e/ou magnéticos. Por conta disso, embora sejam emitidas com energias da ordem de MeV, as partículas α perdem (transferem) grande parte dessa energia ao interagir com moléculas e átomos, seja no ar ou em tecidos biológicos.\nNos itens a seguir, considere uma partícula α que foi emitida com energia cinética inicial de 5,30 MeV.\n\n**Note e adote:**\nCarga do próton: $q_\\text{P} = +1{,}6 \\times 10^{-19}\\ \\text{C}$\n$1\\ \\text{eV} = 1{,}6 \\times 10^{-19}\\ \\text{J}$",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Se a partícula α perde energia a uma taxa de 100 keV/µm ao penetrar um tecido biológico como a pele, ela conseguiria atravessar a epiderme, que tem espessura de 0,1 mm? Justifique a sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Considere uma situação em que a partícula α está se movendo sob a ação de um campo elétrico uniforme na mesma direção e em sentido oposto à sua velocidade, conforme mostra a figura:\n\n![Linhas de campo elétrico uniforme E, orientadas para a esquerda, e partícula α com velocidade inicial v0 orientada para a direita](fig:p10-c2)\n\nSe o campo elétrico tem módulo de $2 \\times 10^{5}\\ \\text{V/m}$, determine a magnitude da força elétrica que atua sobre a partícula α."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Qual a magnitude do campo elétrico necessária para que a partícula α perca 1% de sua energia cinética inicial após percorrer 10 cm sob a ação desse campo?"
+        }
+      ],
+      "observacoes": "A frase \"Considere uma situação em que a partícula α está se movendo sob a ação de um campo elétrico uniforme...\" e a figura, impressas entre os itens a e b, foram postas no início do item b (valem também para o c). A resposta oficial do item a grafa \"minima\" sem acento (sic)."
+    },
+    {
+      "numero": 9,
+      "codigo": "F03",
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Proposto por Robert Stirling em 1816, o motor de Stirling, aplicado em conjunto com coletores solares de disco parabólico, tem sido utilizado na geração de energia elétrica a partir da energia solar. Dessa forma, ele oferece não apenas uma solução eficiente e sustentável à demanda energética, mas também reduzindo perdas na transmissão e impactos ambientais em relação a grandes usinas convencionais. O funcionamento desse motor compreende quatro etapas: aquecimento isovolumétrico, expansão isotérmica, resfriamento isovolumétrico e compressão isotérmica de um gás (assumido como ideal), conforme a figura a seguir.\n\n![Diagrama de pressão em função do volume, com os pontos A, B, C e D ligados por setas que indicam o sentido de cada processo](fig:p12-f1)\n\nConsiderando os processos termodinâmicos mostrados na figura (A-B, B-C, C-D, D-A), responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual dos processos descreve a compressão isotérmica do ciclo de Stirling? Justifique a sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Em qual(is) dos processos, o sistema recebeu calor da fonte quente? Justifique a sua resposta."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Coletores solares parabólicos apresentam taxa de conversão de energia solar em energia elétrica de, aproximadamente, 30%, com geração de potência elétrica em torno de 15 kW. Nessas condições, estime o valor da energia solar média (em joules) transferida ao coletor durante 1 hora."
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "1": {
+      "itens": {
+        "a": "Invertebrados marinhos, tartarugas e peixes.",
+        "b": "Ectotérmicos. Os animais ectotérmicos dependem de uma fonte externa de calor, por este motivo são mais afetados pelas alterações de temperatura externa.",
+        "c": "-Diminuição da concentração de oxigênio. Consequência: Hipóxia dos animais com possíveis consequências no crescimento e aspectos fisiológicos em geral;\n-Branqueamento de corais. Consequência: perda da biodiversidade;\n-Alteração das rotas migratórias. Consequência: Alteração dos padrões de reprodução e/ou alimentação;\n-Alteração na reprodução. Consequência: Alteração no tamanho da população e desequilíbrio da cadeia alimentar;\n-Floração de algas e/ou desequilíbrio planctônico. Consequência: hipóxia dos organismos, eutrofização, contaminação (no caso de algas que produzem substâncias tóxicas), desequilíbrio alimentar;"
+      }
+    },
+    "2": {
+      "itens": {
+        "a": "Carbono e hidrogênio.",
+        "b": "Porque atravessam a bicamada lipídica das membranas celulares, sendo absorvidos mais facilmente.",
+        "c": "Organela: peroxissomos, retículo endoplasmático liso; órgão: fígado."
+      }
+    },
+    "4": {
+      "itens": {
+        "a": "Y Fotossíntese; Z: Respiração",
+        "b": "A taxa de respiração independe da intensidade luminosa, ou seja, a planta respira o tempo todo, na presença ou na ausência de luz.",
+        "c": "1. Ponto de compensação fótica. 2. Ponto de saturação luminosa. No ponto de saturação luminosa (seta 2), o nível de intensidade de luz no qual a taxa de fotossíntese atinge seu máximo, não aumentando, mesmo com o aumento da luz (ponto em que todas as moléculas de clorofila estão saturadas de luz)."
+      }
+    },
+    "5": {
+      "itens": {
+        "a": "Neurônio.",
+        "b": "Transportar sinais químicos (\"mensagens\") de um neurônio para uma célula-alvo, que pode ser outro neurônio, uma célula muscular ou uma glândula.",
+        "c": "1: Fenda sináptica; 2: membrana pós-sináptica (ou neurônio pós-sináptico); 3:vesículas com neurotransmissores (ou mediadores químicos); 4: neurotransmissores."
+      }
+    },
+    "6": {
+      "itens": {
+        "a": "W: todos os animais que não possuem exoesqueleto.",
+        "b": "Fases i e iii.",
+        "c": "Ambos possuem quitina. Nos artrópodes, ela está presente no exoesqueleto e, nos fungos, na parede celular."
+      }
+    },
+    "7": {
+      "itens": {
+        "a": "Pelo gráfico, podemos considerar que o deslocamento vertical máximo é de $\\Delta y = y_{max} - y_0 \\cong 0{,}42 - 0{,}02 = 0{,}4\\ \\text{m}$.",
+        "b": "Sendo $v_{0y} = 3\\ \\text{m/s}$, o deslocamento máximo na ausência de arrasto seria dado por $\\Delta y = y_{max} - y_0 = \\frac{v_{0y}^2}{2g} = \\frac{9}{20} = 0{,}45\\ \\text{m}$.",
+        "c": "Para a velocidade terminal, temos $mg = bv^2 \\Rightarrow v = \\sqrt{\\frac{mg}{b}} = \\sqrt{\\frac{0{,}2\\,.\\,10}{0{,}4}} = \\sqrt{5}\\ \\text{m/s}$."
+      }
+    },
+    "8": {
+      "itens": {
+        "a": "Se a partícula perde 100 keV/micron = 0,1 MeV/micron, então ela perderia toda a sua energia em 5,3/0,1 = 53 microns = $5{,}3 \\times 10^{-5}\\ \\text{m}$ = 0,053 mm, de modo que não conseguiria penetrar na epiderme.\n\nResposta alternativa:\n\nSe a partícula perde 100 keV/micron = 0,1 MeV/micron e a epiderme mede $0{,}1\\ \\text{mm} = 10^{-4}\\ \\text{m} = 100\\ \\mu\\text{m}$, então a energia minima necessária para atravessar a epiderme seria $E_{\\text{min}} = 0{,}1\\,.\\,100 = 10\\ \\text{MeV} > 5{,}3\\ \\text{MeV}$. Logo, a partícula $\\alpha$ não conseguiria atravessar a epiderme.",
+        "b": "A magnitude da força elétrica atuando sobre a partícula alfa será:\n\n$$F_e = 2\\,q_P\\,.\\,E = 3{,}2 \\times 10^{-19}\\,.\\,2 \\times 10^{5} = 6{,}4 \\times 10^{-14}\\ \\text{N}$$",
+        "c": "O trabalho da força atuando sobre a partícula alfa será negativo e igual a 1% de 5,3 MeV\n\n$$W = -F_e d = -0{,}053\\ \\text{MeV} \\Rightarrow 2\\,q_P\\,.\\,E\\,.\\,d = 5{,}3 \\times 10^{+4}\\ \\text{eV}$$\n\n$$E = \\frac{5{,}3}{2} \\times 10^{+5}\\ \\text{V/m}$$\n\nLogo, $E = 2{,}65 \\times 10^{+5}\\ \\text{V/m}$."
+      }
+    },
+    "9": {
+      "itens": {
+        "a": "A compressão isotérmica corresponde à etapa D-A.",
+        "b": "O sistema recebeu calor durante as etapas A-B (por aumento de temperatura/energia interna e sem realização de trabalho) e B-C (sem variação de temperatura/energia interna e com realização de trabalho).",
+        "c": "A taxa de conversão $r$ é dada pela razão entre a potência elétrica $P_{el}$ convertida e a potência solar fornecida $P_{sol}$. Neste caso, temos $P_{sol} = P_{el} / r = 50\\ \\text{kW}$. Uma vez que a potência relaciona-se com o trabalho médio por unidade de tempo, a energia solar média transferida durante 1 hora (3600 s) vale $\\Delta E_{sol} = 50\\,.\\,10^3\\,.\\,3600 = 300\\,.\\,60\\,.\\,10^4 = 1{,}8\\,.\\,10^8\\ \\text{J}$."
+      }
+    }
+  }
+}

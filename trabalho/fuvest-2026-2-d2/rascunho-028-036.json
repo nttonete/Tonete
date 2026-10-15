@@ -1,0 +1,102 @@
+{
+  "edicao": "fuvest-2026-2-d2",
+  "intervalo": [
+    28,
+    36
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 28,
+      "codigo": "M04",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "*“Tudo por 50% do dobro”* é uma frase bem conhecida sobre ofertas enganosas, que virou meme. Isso basicamente porque um produto, após sofrer um aumento de 100%, passando a custar o dobro, precisa de um desconto de 50% para voltar ao seu valor inicial, ou seja, permanecer com o valor inalterado após o reajuste seguido do desconto. Com base nessa ideia, responda:",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Qual seria o percentual de desconto necessário para que um produto que foi reajustado em 50% volte ao valor original?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Admita que um produto que custa $P$ seja reajustado em $x\\%$ e, posteriormente, com um desconto de $y\\%$, volte a custar o mesmo valor $P$. Explicite $y$ em função de $x$ no modelo apresentado, isto é, exiba o desconto $y$ em função do reajuste $x$."
+        },
+        {
+          "rotulo": "c",
+          "texto": "Suponha que um produto tem um reajuste de $m\\%$ e depois um desconto de $n\\%$, voltando a custar o valor inicial. Considere que $m$ e $n$ são inteiros maiores que zero. Qual seria o menor valor de $m$ para que $n$ seja também um inteiro?"
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 29,
+      "codigo": "M05",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Deseja-se instalar uma luminária a uma certa altura do teto. A luminária está posicionada no vértice P de uma pirâmide regular de base quadrada que, por sua vez, está inscrita em um cubo de lado 4 m, conforme a imagem a seguir. As projeções da luminária no plano do teto e chão são representadas, respectivamente, pelos pontos R e Q, que coincidem com a intersecção das diagonais dos quadrados DCGH e ABFE.\n\n![Cubo de vértices A, B, C, D, E, F, G e H e aresta de 4 m, com uma pirâmide de vértice P; pontos R, Q e S assinalados](fig:p35-f1)\n\nImagem sem escala",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Admitindo que as arestas laterais da pirâmide medem 3 m, a qual distância a luminária está do chão?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Supondo que as arestas laterais da pirâmide formam um ângulo de 45º com o chão, qual é o comprimento, em metros, da aresta lateral da pirâmide?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Considerando a projeção ortogonal do ponto P no plano do fundo do cubo, representada pelo ponto S, qual será o comprimento da projeção da aresta PF no plano EFGH, se a altura PQ for de $2\\sqrt{2}$ m?"
+        }
+      ],
+      "observacoes": "Na resposta oficial o quadrado do chão aparece como ABEF (no enunciado, ABFE); transcrito como no original."
+    },
+    {
+      "numero": 30,
+      "codigo": "M06",
+      "materia": "matematica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Considere a função real modular $f(x) = \\frac{|x|}{d}$, onde $d > 0$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Quais são os pontos de interseção entre a reta $y = 1$ e o gráfico de $f(x)$ para $d = 1$?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Qual a área da região obtida à direita do eixo $Oy$, abaixo da reta $y = 2$ e acima do gráfico de $f(x)$ para $d = 2$?"
+        },
+        {
+          "rotulo": "c",
+          "texto": "Qual é a área da região formada abaixo da reta $y = d$ e acima do gráfico de $f(x)$?"
+        }
+      ],
+      "observacoes": ""
+    }
+  ],
+  "respostas": {
+    "28": {
+      "itens": {
+        "a": "Um produto com valor $P$, que sofre um reajuste de 50%, passa a custar $1{,}50P$ e para que volte a custar $P$, temos\n\n$P = 1{,}50P(1 - y\\%) \\Rightarrow 1 - y\\% = \\frac{P}{1{,}5P} = 0{,}666\\ldots \\Rightarrow y\\% = 0{,}333\\ldots$, ou seja, $y = 33{,}33\\%$.",
+        "b": "Temos\n\n$P = P(1 + x\\%)(1 - y\\%) = P\\left(\\frac{100+x}{100}\\right)\\left(\\frac{100-y}{100}\\right) \\Rightarrow 10.000 = (100 + x)(100 - y)$, sendo assim\n\n$$\\frac{10000}{100 + x} = 100 - y \\Rightarrow y = 100 - \\frac{10000}{100 + x} = \\frac{100x}{100 + x}$$",
+        "c": "Para este item, pode-se ou não utilizar o anterior. Sem utilizar, podemos verificar que o primeiro valor inteiro positivo de $m$ que torna $n$ também inteiro positivo é *25* (tornando $n = 20$)."
+      }
+    },
+    "29": {
+      "itens": {
+        "a": "Como o ponto Q é uma projeção da luminária no plano do chão temos o triângulo retângulo PQB. Além disso, o ponto Q é a intersecção das diagonais do quadrado ABEF, cuja diagonal é $d = l\\sqrt{2} = 4\\sqrt{2}$ m. Logo, QB é $2\\sqrt{2}$ m. Como a aresta da pirâmide mede 3 m, aplicando Pitágoras, $3^2 = h^2 + (2\\sqrt{2})^2$ e, portanto, a altura PQ é 1 m.\n\n![Triângulo retângulo PQB, com PB = 3 m e QB = 2√2 m](fig:r06-c3)",
+        "b": "A diagonal do quadrado ABEF é $d = l\\sqrt{2} = 4\\sqrt{2}$ m. Como a projeção da luminária no quadrado ABEF está na intersecção das diagonais do quadrado (ponto Q) então a distância QB é dada por $2\\sqrt{2}$ m. Se o ângulo entre a aresta da pirâmide e o chão é de 45º, então o triângulo retângulo PBQ é isóscele. Logo, a altura da luminária até o chão (PQ) é de $2\\sqrt{2}$ m e, portanto, aplicando Pitágoras, cada aresta mede 4 m.",
+        "c": "A projeção do ponto Q no plano EFGH localiza-se no ponto médio da aresta EF. Denotando por M esse ponto médio, temos que $\\mathrm{MF} = 2$ m. Assim, temos um triângulo retângulo SMF. Como a projeção SM é igual à altura PQ então $\\mathrm{SM} = 2\\sqrt{2}$ m. Aplicando Pitágoras, temos que $\\mathrm{SF} = \\sqrt{12} = 2\\sqrt{3}$ m.\n\n![Triângulo retângulo SMF, com SM = 2√2 e MF = 2 m](fig:r06-c4)"
+      }
+    },
+    "30": {
+      "itens": {
+        "a": "$f(x) = 1 \\Rightarrow |x| = 1 \\Rightarrow x = \\pm 1$\nOs pontos de interseção são $(1{,}1)$ e $(-1{,}1)$.",
+        "b": "A área do triângulo marrom é: $A = \\frac{4 \\times 2}{2} = 4$\n\n![Gráfico de f(x) e da reta y = 2, com a região triangular destacada à direita do eixo Oy](fig:r07-c1)",
+        "c": "$\\frac{|x|}{d} = d \\Rightarrow |x| = d^2 \\Rightarrow x = \\pm d^2$\n\n![Gráfico de f(x) e da reta y = d, com a região triangular destacada entre x = −d² e x = d²](fig:r07-c2)\n\nA região marrom formada é um triângulo de base $2d^2$ e altura $d$. Assim, a área é $A = \\frac{2d^2.d}{2} = d^3$."
+      }
+    }
+  }
+}
