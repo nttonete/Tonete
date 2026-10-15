@@ -46,6 +46,8 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2023-2-cet q15: a resposta diz que HPO₄²⁻ é ácido mais forte que HCO₃⁻; pelos pKa (≈12,3 e ≈10,3) é o contrário.
 - unicamp-2023-2-cet q20: as respostas esperadas dizem "Kow deve ser baixo (o que significa maior hidrofobicidade)", o que contradiz a definição e a própria prova comentada (r49), que está coerente. Decidir se troca pela versão da comentada.
 - unicamp-2022-2-cet q20, item b: na tabela da resposta, "Carbono NEGATIVO" aparece com "Fonte 1 ou Combustível Fóssil", igual ao "NEUTRO", mas a justificativa atribui o negativo ao biocombustível (a prova comentada repete).
+- unicamp-2025-2-d1 q5: o item a fala em polêmica com "o Legislativo", mas a resposta trata da disputa com o STF; as respostas esperadas dizem "agosto deste ano" e "Rafael Nascimento", que a prova comentada corrige para "agosto de 2024" e "Raphael".
+- unicamp-2025-2-d1 q9, item a: a resposta cita a "conservação da energia mecânica" e logo depois diz que ela não se conserva no choque (o correto seria a energia total).
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ### Discursivas: trecho curto de poema protegido mantido
