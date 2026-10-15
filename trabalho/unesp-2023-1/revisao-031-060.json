@@ -1,0 +1,210 @@
+{
+ "edicao": "unesp-2023-1",
+ "intervalo": [
+  31,
+  60
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 34,
+   "materia": "historia",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "Observe a imagem de Nossa Senhora do Rosário, produzida na região das Minas Gerais no século XVIII.\n\n![Duas fotografias de uma escultura de madeira de Nossa Senhora do Rosário com o Menino Jesus no colo, sobre uma base de cabeças de anjos: à esquerda, a peça vista de frente; à direita, vista de costas, com uma abertura retangular escura no dorso](fig:p11-f1)\n\n(*In*: Lilia M. Schwarcz e Heloisa M. Starling. *Brasil: uma biografia*, 2018.)\n\nEssa imagem revela uma prática que ocorria na região das Minas durante a exploração de minérios:",
+   "alternativas": {
+    "A": "a funcionalidade dupla da peça, que podia ser utilizada como objeto de culto nas igrejas e como porta-moedas no cotidiano.",
+    "B": "a conjugação entre apuro artístico de inspiração barroca e estratégia para contrabando de riquezas.",
+    "C": "o emprego exclusivo de padrões artísticos renascentistas na produção das imagens religiosas brasileiras.",
+    "D": "a atitude herética dos artistas, que frequentemente contrariavam a proibição de representar figuras religiosas femininas.",
+    "E": "a representação apenas de elementos da natureza na composição de peças de cunho religioso."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 38,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Observe o anúncio do sabonete Pears, difundido em 1887.\n\n![Anúncio em preto e branco do sabonete Pears, com o título “THE FORMULA OF BRITISH CONQUEST”. Numa paisagem árida e montanhosa, um homem montado em um camelo aponta para uma grande rocha onde está escrito “PEARS SOAP IS THE BEST”; à frente, homens nativos, alguns com lanças, olham para a rocha, e um deles está ajoelhado com os braços erguidos](fig:p13-f1)\n\n(*In*: Eric J. Hobsbawm. *A era dos impérios*: *1875-1914*, 2008. Adaptado.)\n\nO anúncio revela",
+   "alternativas": {
+    "A": "o esforço britânico de obter apoio político, por meio da oferta de alimentos às populações africanas carentes.",
+    "B": "a exploração imperialista britânica, que retirava minérios e frutas tropicais das possessões coloniais na África e na Ásia.",
+    "C": "a ausência de recursos sanitários nas áreas mais afastadas do Império britânico, o qual promoveu ações de estímulo à higiene pessoal.",
+    "D": "o sentido religioso impresso na conquista britânica da África, gerado pela crença nativa de que os colonizadores teriam origem divina.",
+    "E": "a dimensão mercantil da expansão imperialista britânica, que implicava a expansão do comércio com regiões da Ásia e da África."
+   },
+   "observacoes": ""
+  },
+  {
+   "numero": 45,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Analise o mapa.\n\n![Mapa-múndi com os países em quatro tons de roxo, do mais claro ao mais escuro, identificados na legenda “Países” pelos números 1 a 4, e pequenas áreas em amarelo, identificadas na legenda “Regiões” pelo número 5. O tom 4, o mais escuro, cobre Estados Unidos, Canadá, Europa Ocidental e Japão; o tom 3 cobre, entre outros, México, Brasil, Argentina, Rússia, China, Índia, Austrália e África do Sul; os tons 1 e 2, os mais claros, cobrem a maior parte da África, do Oriente Médio e da Ásia Central. As áreas amarelas aparecem, por exemplo, no nordeste dos Estados Unidos, no Sudeste do Brasil, na Europa Ocidental, na Rússia europeia, no leste da China, no Japão, na Índia, na África do Sul e no sudeste da Austrália](fig:p16-f1)\n\n(Maria Elena R. Simielli. *Geoatlas*, 2019. Adaptado.)\n\nConsiderando a economia mundial, as áreas demarcadas no mapa pelo número",
+   "alternativas": {
+    "A": "5 correspondem à concentração de indústrias.",
+    "B": "4 correspondem à prática de agropecuária extensiva.",
+    "C": "3 correspondem à prática de livre comércio.",
+    "D": "2 correspondem às transações de capital especulativo.",
+    "E": "1 correspondem aos acordos de caráter protecionista."
+   },
+   "observacoes": ""
+  }
+ ],
+ "complementos": {},
+ "relatorio": [
+  {
+   "numero": 31,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 32,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 33,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 34,
+   "status": "corrigida",
+   "notas": "descrição da figura (texto alternativo) não mencionava a abertura no dorso da escultura, que é o elemento visual em que a questão se apoia; descrição completada sem interpretar. Texto conferido com a página, sem erro."
+  },
+  {
+   "numero": 35,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 36,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 37,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 38,
+   "status": "corrigida",
+   "notas": "descrição da figura reduzida a “figuras humanas em uma paisagem desértica”; completada com o que o anúncio mostra (homem no camelo apontando a rocha, nativos diante dela). Texto conferido, sem erro."
+  },
+  {
+   "numero": 39,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 40,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 41,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 42,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 43,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 44,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 45,
+   "status": "corrigida",
+   "notas": "descrição do mapa não dizia onde ficam os tons de roxo nem as áreas amarelas, o que impede quem usa leitor de tela de responder; descrição completada com a distribuição mostrada no mapa. Texto conferido, sem erro."
+  },
+  {
+   "numero": 46,
+   "status": "ok",
+   "notas": "o caderno imprime “USCMA” (a sigla correta é USMCA); mantido como no original, conforme a observação do transcritor."
+  },
+  {
+   "numero": 47,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 48,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 49,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 50,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 51,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 52,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 53,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 54,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 55,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 56,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 57,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 58,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 59,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 60,
+   "status": "ok",
+   "notas": "na primeira resolução marquei C (eurocentrismo epistêmico); refeita a análise, o excerto trata de raça e gênero e da recusa de discursos universais, sem mencionar a Europa; concordo com o gabarito oficial E."
+  }
+ ]
+}

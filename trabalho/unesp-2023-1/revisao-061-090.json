@@ -1,0 +1,294 @@
+{
+ "edicao": "unesp-2023-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 64,
+   "materia": "biologia",
+   "materias_extra": [
+    "literatura"
+   ],
+   "texto_base": null,
+   "enunciado": "Leia o poema “Pneumotórax”, do poeta Manuel Bandeira (1886-1968).\n\nFebre, hemoptise, dispneia e suores noturnos.\nA vida inteira que podia ter sido e que não foi.\nTosse, tosse, tosse.\n\nMandou chamar o médico:\n\n— Diga trinta e três.\n— Trinta e três… trinta e três… trinta e três…\n— Respire.\n\n-----------------------------------------------------------------\n\n— O senhor tem uma escavação no pulmão esquerdo e o\n[pulmão direito infiltrado.\n\n— Então, doutor, não é possível tentar o pneumotórax?\n— Não. A única coisa a fazer é tocar um tango argentino.\n\n(Manuel Bandeira. *Estrela da vida inteira*, 1993.)\n\nNo poema, o poeta aborda,",
+   "alternativas": {
+    "A": "em tom satírico, recorrendo à crítica social, vários sintomas da varíola, uma doença bacteriana erradicada no Brasil na década de 1980, graças às campanhas de vacinação, mas que reaparece em 2022 no país.",
+    "B": "em tom melancólico, recorrendo a coloquialismos, vários sintomas da tuberculose, uma doença bacteriana erradicada no Brasil desde a década de 1980, graças às campanhas de vacinação.",
+    "C": "em tom engajado, recorrendo ao sarcasmo, vários sintomas da varíola, uma doença de etiologia viral, cujo tratamento visa atenuar os sintomas, e que se previne com vacinação.",
+    "D": "em tom jocoso, recorrendo à autoironia, vários sintomas da tuberculose, uma doença bacteriana tratável com antibióticos e que se previne com vacinação.",
+    "E": "em tom fatalista, recorrendo ao humor ácido, vários sintomas da tuberculose, uma doença de etiologia viral, cujo tratamento visa atenuar os sintomas, e que se previne com vacinação."
+   }
+  },
+  {
+   "numero": 66,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Analise o esquema de um jogo de palavras cruzadas.\n\n![Esquema de palavras cruzadas com as palavras CÉLULA, PROCARIOTO, CROSSING-OVER, NUCLÉOLO e CROMOSSOMO (na vertical) já preenchidas e três sequências em branco: 1, na horizontal, e 2 e 3, na vertical](fig:p24-c1)\n\nAs informações para que as sequências 1, 2 e 3 sejam preenchidas com os termos que completam as palavras cruzadas são:",
+   "alternativas": {
+    "A": "1: região de acúmulo de RNA ribossômico recém-sintetizado\n2: conteúdo dos lisossomos\n3: unidade estrutural e funcional dos seres vivos",
+    "B": "1: proteínas que participam da espiralização e compactação do DNA na formação dos cromossomos\n2: conteúdo dos lisossomos\n3: órgãos que apresentam células que sofrem meioses",
+    "C": "1: unidade estrutural e funcional dos seres vivos\n2: órgãos que apresentam células que sofrem meioses\n3: conteúdo dos lisossomos",
+    "D": "1: organela em que se dá a síntese proteica\n2: o mesmo que permutação cromossômica\n3: órgãos que apresentam células que sofrem meioses",
+    "E": "1: proteínas que participam da espiralização e compactação do DNA na formação dos cromossomos\n2: organela em que se dá a síntese proteica\n3: região de acúmulo de RNA ribossômico recém-sintetizado"
+   }
+  },
+  {
+   "numero": 71,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "No Brasil, enfatiza-se que o Valor Máximo Permitido (VMP), destacado na portaria MS nº 2.914/2011, que dispõe sobre normas e padrão de potabilidade da água para consumo humano, relacionado com os fluoretos, é de 1,5 mg de $\\text{F}^-$ por litro de água.\n\n(Fundação Nacional de Saúde. *Manual de fluoretação da água para consumo humano*, 2012. Adaptado.)\n\nUma Estação de Tratamento de Água (ETA), que utiliza o fluoreto de sódio (NaF) como único fluoreto, trata 100 milhões de litros de água por dia. Assim, a massa máxima de NaF que essa ETA deve utilizar por dia é próxima de",
+   "alternativas": {
+    "A": "220 kg.",
+    "B": "330 kg.",
+    "C": "110 kg.",
+    "D": "440 kg.",
+    "E": "550 kg."
+   }
+  },
+  {
+   "numero": 80,
+   "materia": "fisica",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "Um raio de luz monocromática, propagando-se pelo ar, incide sobre um líquido em equilíbrio contido em um recipiente, é refratado e passa a propagar-se por esse líquido em uma direção inclinada de um ângulo $\\alpha$ em relação à superfície do líquido, conforme a figura.\n\n![Raio de luz que passa do ar para o líquido, refratando-se e formando o ângulo alfa com a superfície do líquido](fig:p29-f2)\n\nA tabela apresenta cinco líquidos que podem estar no interior desse recipiente e seus respectivos índices de refração absolutos.\n\n| Líquido | Índice de refração absoluto |\n|---|---|\n| Propanona (acetona) | 1,35 |\n| Propanal (aldeído propiônico) | 1,37 |\n| Isopropanol (álcool isopropílico) | 1,38 |\n| Ácido propanoico (ácido propiônico) | 1,40 |\n| Propanotriol (glicerol) | 1,47 |\n\nDos líquidos apresentados na tabela, aquele para o qual o ângulo $\\alpha$ assume o menor valor possui fórmula estrutural:",
+   "alternativas": {
+    "A": "![Alternativa A](fig:p29-c2)",
+    "B": "![Alternativa B](fig:p29-f5)",
+    "C": "![Alternativa C](fig:p29-c3)",
+    "D": "![Alternativa D](fig:p29-f7)",
+    "E": "![Alternativa E](fig:p29-c4)"
+   }
+  },
+  {
+   "numero": 86,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Na figura, BELO é um losango com vértices E e O nos lados $\\overline{BA}$ e $\\overline{LU}$, respectivamente, do retângulo BALU. A diagonal $\\overline{BL}$ de BALU forma um ângulo de 30º com o lado $\\overline{LU}$, como mostra a figura.\n\n![Retângulo BALU com o losango BELO inscrito, E sobre BA e O sobre LU, e a diagonal BL formando 30º com LU](fig:p32-c1)\n\nSe a medida do lado do losango BELO é igual a 2 cm, a área do retângulo BALU será igual a:",
+   "alternativas": {
+    "A": "$\\frac{3\\sqrt{3}}{2}\\ \\text{cm}^2$",
+    "B": "$3\\sqrt{3}\\ \\text{cm}^2$",
+    "C": "$5\\sqrt{3}\\ \\text{cm}^2$",
+    "D": "$\\frac{7\\sqrt{3}}{2}\\ \\text{cm}^2$",
+    "E": "$2\\sqrt{3}\\ \\text{cm}^2$"
+   }
+  },
+  {
+   "numero": 88,
+   "materia": "matematica",
+   "materias_extra": [
+    "quimica"
+   ],
+   "texto_base": null,
+   "enunciado": "O alumínio é um metal valorizado por ter baixa densidade e baixa temperatura de fusão, o que o torna ideal para a fabricação de embalagens baratas, resistentes e de fácil reciclagem, além de amplo uso na fabricação de veículos.\n\nO gráfico mostra um comparativo de cinco metais, incluindo o alumínio, para cinco propriedades.\n\n![Gráfico radar comparando alumínio, cobre, ferro, chumbo e titânio em cinco propriedades: 1 temperatura de fusão, 2 condutividade elétrica, 3 condutividade térmica, 4 densidade, 5 resistência tênsil; ao lado, o polígono do alumínio ampliado](fig:p33-c1)\n\n(www.nexojornal.com.br, 27.02.2022. Adaptado.)\n\nConsiderando-se que em determinado projeto industrial são desejáveis os menores valores possíveis das propriedades 1 e 4 e os maiores valores possíveis das propriedades 2, 3 e 5, dos cinco metais comparados, o alumínio é o mais vantajoso",
+   "alternativas": {
+    "A": "nas propriedades 1 e 4, apenas.",
+    "B": "nas propriedades 3 e 4, apenas.",
+    "C": "na propriedade 4, apenas.",
+    "D": "na propriedade 1, apenas.",
+    "E": "na propriedade 3, apenas."
+   }
+  }
+ ],
+ "complementos": {
+  "61": {
+   "assunto": "Ecologia",
+   "resolucao": "Darwin afirma que os seres vivos tendem a crescer em progressão geométrica (*geometrical increase*), mas que todos sofrem destruição em alguma fase da vida; caso contrário, nenhum território suportaria a população.\n\nA capacidade de uma população de crescer sem limites é o **potencial biótico**; o conjunto de fatores que impede esse crescimento (predação, falta de alimento, doenças, clima) é a **resistência do meio**.\n\nO texto não trata de relações entre espécies diferentes (competição interespecífica), de níveis tróficos nem de sucessão ecológica.\n\n**Resposta: C**"
+  },
+  "62": {
+   "assunto": "Ecologia",
+   "resolucao": "A ideia de \"pulmão do mundo\" é imprecisa: uma floresta madura, como os pulmões, também libera $\\text{CO}_2$ pela respiração (das plantas e dos decompositores), e o oxigênio que ela produz na fotossíntese é praticamente consumido por ela mesma. Boa parte do $\\text{O}_2$ da atmosfera vem das algas e do fitoplâncton.\n\nJá a comparação do Pantanal com os rins faz sentido: a planície alagável regula o fluxo de água (retém nas cheias e libera na seca) e participa da ciclagem de substâncias, como os rins regulam o volume de água e a composição do sangue.\n\nA alternativa D repete o erro do senso comum de que a floresta madura é fonte líquida de oxigênio para o planeta.\n\n**Resposta: B**"
+  },
+  "63": {
+   "assunto": "Embriologia e histologia",
+   "resolucao": "Os vírus precisam de células vivas para se multiplicar; no ovo embrionado, quem fornece essas células é o **embrião** (estrutura 3).\n\nO texto diz que os vírus ficam num líquido \"que contém resíduos metabólicos armazenados em uma estrutura do ovo\". O anexo embrionário que armazena excretas nitrogenadas (ácido úrico) nas aves é o **alantoide** (estrutura 4), de onde se coleta o líquido com os vírus.\n\nEstruturas como a clara (1), o âmnio (2) e o saco vitelínico com a gema (6) não têm a função de armazenar excretas.\n\n**Resposta: D**"
+  },
+  "64": {
+   "assunto": "Microbiologia e doenças",
+   "resolucao": "Hemoptise (tosse com sangue), febre, suores noturnos e lesões no pulmão (\"escavação\", \"infiltrado\") são sintomas da **tuberculose**, causada por uma bactéria (*Mycobacterium tuberculosis*). Ela é tratada com antibióticos e prevenida com a vacina BCG. O pneumotórax citado no poema era um tratamento antigo da doença.\n\nO tom é de humor amargo voltado contra o próprio poeta, que era tuberculoso: diante de um caso sem saída, o médico sugere \"tocar um tango argentino\". Isso é autoironia, em tom jocoso.\n\nA varíola é viral e não combina com os sintomas (A e C). A tuberculose não foi erradicada no Brasil (B) e não é viral (E).\n\n**Resposta: D**"
+  },
+  "65": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "Rogério passou 20 dias em La Paz, cidade de grande altitude, onde o ar é rarefeito e há menos oxigênio. O organismo responde produzindo mais hemácias (mais eritropoetina): é o indivíduo 1, com 6,5 milhões de eritrócitos/mm³ e hematócrito de 53%, acima da referência.\n\nMarcelo tem leucemia mieloide: proliferação descontrolada de leucócitos (38 000/mm³) e queda na produção de hemácias (anemia, com 2,5 milhões/mm³ e hematócrito de 20%). É o indivíduo 2.\n\nFábio, que estava no litoral (nível do mar), tem valores dentro da referência: indivíduo 3.\n\n**Resposta: A**"
+  },
+  "66": {
+   "assunto": "Citologia",
+   "resolucao": "Basta encaixar as letras que já estão no esquema.\n\nA sequência 1 tem 8 casas e cruza CROMOSSOMO no primeiro S, na 3ª casa: **HISTONAS** (H-I-S-T-O-N-A-S), proteínas que compactam o DNA nos cromossomos.\n\nA sequência 2 tem 7 casas; cruza HISTONAS no N (2ª casa) e CROSSING-OVER no I (4ª casa): **ENZIMAS** (E-N-Z-I-M-A-S), o conteúdo dos lisossomos (enzimas digestivas).\n\nA sequência 3 tem 7 casas; começa no G de CROSSING-OVER e cruza NUCLÉOLO no N (3ª casa): **GÔNADAS** (G-Ô-N-A-D-A-S), órgãos com células que fazem meiose.\n\n**Resposta: B**"
+  },
+  "67": {
+   "assunto": "Zoologia",
+   "resolucao": "Os fungos são heterótrofos por absorção: liberam enzimas digestivas no ambiente (na matéria orgânica do solo), a digestão acontece fora do corpo e depois eles absorvem os nutrientes já digeridos. É uma **digestão extracorpórea**.\n\nAs aranhas fazem algo análogo: injetam enzimas digestivas na presa, que é parcialmente digerida fora do corpo, e depois sugam o líquido resultante.\n\nGrama e samambaias são autótrofas (fotossíntese); caramujos digerem o alimento dentro do tubo digestório; pulgões sugam a seiva já líquida das plantas.\n\n**Resposta: E**"
+  },
+  "68": {
+   "assunto": "Genética",
+   "resolucao": "Na analogia, cada rodovia é um cromossomo e cada cidade é um *locus* (um gene) ao longo dele. Quanto maior a distância entre dois genes do mesmo cromossomo, maior a chance de ocorrer permutação (*crossing-over*) entre eles.\n\nBotucatu e Araçatuba estão nas pontas da Marechal Rondon, muito afastadas; Rio Claro e Araraquara estão próximas na Washington Luiz. Logo, a permutação entre Botucatu e Araçatuba é mais provável. C está correta.\n\nCidades da mesma rodovia são genes diferentes, não alelos: os alelos ficariam nos \"acostamentos\" (cromossomos homólogos), o que descarta A e D. B compara cidades de cromossomos diferentes, entre os quais não há distância em UR (segregam de forma independente). E não faz sentido: genes diferentes têm sequências diferentes.\n\n**Resposta: C**"
+  },
+  "69": {
+   "assunto": "Soluções",
+   "resolucao": "Na solução existem os íons $\\text{Na}^+$, $\\text{NH}_4^+$, $\\text{HCO}_3^-$ e $\\text{C}\\ell^-$, que poderiam formar $\\text{NaC}\\ell$, $\\text{NH}_4\\text{C}\\ell$, $\\text{NH}_4\\text{HCO}_3$ e $\\text{NaHCO}_3$.\n\nAo resfriar a solução, precipita primeiro a substância cuja solubilidade é ultrapassada, isto é, a **menos solúvel em água** naquela temperatura. Por isso só o $\\text{NaHCO}_3$ se separa como sólido, enquanto os outros sais continuam dissolvidos.\n\nTemperatura de fusão, de ebulição, pressão de vapor e densidade não determinam quem precipita de uma solução.\n\n**Resposta: D**"
+  },
+  "70": {
+   "assunto": "Termodinâmica",
+   "resolucao": "Com volume constante, a pressão do gás é diretamente proporcional à temperatura absoluta (transformação isocórica):\n\n$\\frac{p_1}{T_1} = \\frac{p_2}{T_2} \\Rightarrow \\frac{200}{300} = \\frac{p_2}{1\\,200}$\n\n$p_2 = 200 \\cdot \\frac{1\\,200}{300} = 200 \\cdot 4 = 800\\ \\text{PSI}$\n\nA temperatura em kelvin quadruplicou, então a pressão também quadruplicou.\n\n**Resposta: E**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "corrigida",
+   "notas": "Matéria: estava literatura com biologia extra; passou a biologia com literatura extra. A questão está no bloco de Biologia (61-68) e o que decide a resposta é saber que a tuberculose é bacteriana, não erradicada, tratável com antibióticos e prevenida com vacina (o tom do poema só ajuda a confirmar)."
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "corrigida",
+   "notas": "Figura refeita (p24-f1 -> p24-c1): o recorte automático cortava o número '1' da seta da sequência 1. Descrição passou a citar também CROMOSSOMO, que está preenchida na vertical."
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "corrigida",
+   "notas": "Removido o parágrafo '**Note e adote:** o caderno traz a Classificação Periódica (massas atômicas: Na = 23,0; F = 19,0).', que não está impresso na questão e aparecia como texto da banca. A plataforma já mostra a tabela periódica da prova nas questões de química da UNESP."
+  },
+  {
+   "numero": 72,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "corrigida",
+   "notas": "Figuras das alternativas A, C e E refeitas (p29-f4, p29-f6, p29-f8 -> p29-c2, p29-c3, p29-c4): os recortes automáticos cortavam a linha de cima das fórmulas estruturais (em A sumia o grupo OH do isopropanol, que distingue o álcool; em C e E sumiam os H e OH superiores)."
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 83,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "corrigida",
+   "notas": "Figura refeita (p32-f1 -> p32-c1): o recorte trazia no alto um pedaço da palavra 'figura' do enunciado."
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "corrigida",
+   "notas": "Matéria: estava quimica com matematica extra; passou a matematica com quimica extra. A questão está no bloco de Matemática (83-90) e o que se cobra é a leitura do gráfico radar; o conhecimento de química só ajuda a confirmar."
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}
