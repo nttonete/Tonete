@@ -1,0 +1,431 @@
+{
+ "edicao": {
+  "id": "unicamp-2017-2-d2",
+  "vestibular": "unicamp",
+  "ano": 2017,
+  "fase": 2,
+  "tipo": "discursiva",
+  "versao": null,
+  "nome": "Unicamp 2017 – 2ª fase (2º dia: Matemática, Geografia e História)",
+  "caderno": "2º dia: Matemática, Geografia e História",
+  "fonte": {
+   "caderno": "2fase-geo-his-mat-caderno.pdf",
+   "gabarito": null,
+   "respostas": [
+    "2fase-matematica-respostas.pdf",
+    "2fase-geografia-respostas.pdf",
+    "2fase-historia-respostas.pdf",
+    "2fase-matematica-comentada.pdf",
+    "2fase-geografia-comentada.pdf",
+    "2fase-historia-comentada.pdf"
+   ]
+  }
+ },
+ "textos_base": {},
+ "questoes": [
+  {
+   "id": "unicamp-2017-2-d2-q01",
+   "numero": 1,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Mapa-múndi em preto e branco, com os continentes em branco delineados em preto sobre uma grade de linhas retas verticais e horizontais; a Groenlândia aparece no alto, a Península Arábica na região central e a Antártida na parte inferior.](fig:p03-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique por que a Groenlândia e a Península Arábica, que possuem aproximadamente a mesma superfície em km², no mapa-múndi acima apresentam dimensões tão discrepantes, e indique qual é a projeção desse mapa-múndi.",
+     "resposta_oficial": "Trata-se de um mapa confeccionado com base na projeção *cilíndrica, conforme* de Mercator. Essa técnica cartográfica prioriza a forma em detrimento da proporcionalidade das áreas continentais. Sendo assim, as áreas de baixas latitudes são retratadas de modo mais fiel à realidade (é o caso da Península Arábica), enquanto as áreas de altas latitudes apresentam distorções (é o caso da Groenlândia)."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Defina escala cartográfica e indique se o mapa acima apresenta uma escala grande ou pequena.",
+     "resposta_oficial": "A escala cartográfica estabelece uma relação de proporção entre a área real e a área representada no mapa. A escala apresentada no mapa acima é pequena, pois apresenta poucos detalhes e uma grande área cartografada."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Exemplo prático para utilização do conhecimento: localizar e correlacionar áreas e lugares, habilidade essencial para as análises espaciais dos fenômenos.\nA correlação com outra área de conhecimento se deu com a Matemática.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q02",
+   "numero": 2,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Esboço de quatro blocos de terreno dispostos em sequência, da esquerda para a direita e de cima para baixo, com os rótulos Turfa, Linhito, Hulha e Antracito; cada bloco mostra camadas claras e uma faixa azul mais escura, e o primeiro tem vegetação na superfície. Abaixo dos blocos, uma seta curva aponta para a direita e para baixo.](fig:p04-c1)\n\n(Fonte: http://cours-examens.org/images/An_2015_1/Etudes_superieures/Agronomie/Geologie/Laval/40_3_3_2.pdf. Acessado em 13/07/2016.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Conforme o esboço acima, explique como se dá o processo de formação do carvão mineral e indique qual dos tipos listados acima possui o menor porcentual de carbono e qual possui o maior porcentual de carbono.",
+     "resposta_oficial": "O carvão mineral é um combustível fóssil formado pela deposição de sedimentos sobre antigas áreas florestais em ambientes lacustres, as quais sofreram decomposição pela ação da pressão e da temperatura ao longo da era geológica paleozoica, no período carbonífero. O carvão apresenta mais pureza quanto maior o teor de carbono. Dos tipos listados, o antracito é o que apresenta maior porcentual de carbono e a turfa, o menor porcentual."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Apresente pelo menos duas formas de uso do carvão mineral.",
+     "resposta_oficial": "Há diversas formas de uso, do carvão mineral, sendo as principais a produção de energia elétrica nas termoelétricas e o aquecimento de fornos de siderúrgicas."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão aborda a formação natural do carvão mineral e seus principais usos pela sociedade humana. Exigia-se do vestibulando a compreensão do processo formativo desse recurso natural em suas quatro etapas principais: turfa, linhito, hulha e antracito. O candidato deveria responder ao item **a** da questão a partir de elementos da constituição natural do carvão e indicar em quais das quatro etapas de sua formação havia o maior e o menor percentual de carbono. No item **b** o candidato deveria apontar duas formas de uso do carvão mineral pela sociedade. O conhecimento sobre carvão mineral e seus diversos usos marcou a história de diversos períodos da formação da sociedade humana. Há registro de seus usos desde as populações antigas, mas foi no período da Revolução Industrial que o uso desse recurso natural mais ganha visibilidade, não tendo cessado nos séculos seguintes, pelo contrário, as sociedades contemporâneas fazem amplo uso desse combustível fóssil. O carvão continua apresentando larga utilização em diversos setores econômicos atualmente, especialmente para geração de energia em termoelétricas e nos fornos das siderúrgicas. O conhecimento sobre o carvão, sua formação físico-química e os seus usos pode ser abordado por distintas áreas do conhecimento, tais como: Física, Biologia, História e Geografia.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q03",
+   "numero": 3,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A Amazônia vem, neste início de século, despontando como um novo *front* energético do território brasileiro. Envolvendo questões bastante controvertidas, encontramos as grandes hidroelétricas de Santo Antônio e Jirau, no Rio Madeira (Rondônia), e Belo Monte, no rio Xingu (Pará). Além dessas obras, há ainda projetos de construção de novas grandes hidroelétricas, como a usina de São Luiz do Tapajós, no rio Tapajós (Pará). A construção de novas hidroelétricas deve responder pelo aumento do consumo de energia elétrica que acompanha os processos de urbanização e industrialização no país.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Que região brasileira apresenta o maior potencial hidroelétrico instalado atualmente e por que a Amazônia tornou-se um novo *front* para a construção de grandes hidroelétricas?",
+     "resposta_oficial": "O Sudeste brasileiro detém o maior potencial hidrelétrico instalado, que, historicamente, vem sustentando o processo de urbanização e industrialização na região. Todavia, nas últimas décadas, a Amazônia tornou-se um novo *front* para a construção de usinas hidrelétricas, tendo em vista o enorme potencial hidráulico apresentado por rios como o Xingu, Madeira, Tapajós, entre outros."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique qual dos setores, comercial, industrial e residencial, apresenta o maior e o menor consumo de energia elétrica no Brasil e cite um exemplo de indústria energointensiva existente na Amazônia.",
+     "resposta_oficial": "Conforme os dados apresentados pela Empresa de Pesquisa Energética (EPE), 2015, o setor industrial é o que mais consome energia elétrica e o setor comercial é o que menos consome. Entre os exemplos de indústrias energointensivas existentes na Amazônia podemos apontar a siderurgia e a produção de alumínio."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Há diversas formas de utilizar o tema em questão. A questão aborda o consumo e a produção de energia no Brasil. No primeiro caso, refere-se, especialmente, ao Sudeste brasileiro, onde há maior potencial instalado e concentração de consumo de energia derivado da maior urbanização e industrialização da região. No segundo caso, trata-se da Amazônia, região com maior potencial energético existente do país. Isso ocorre porque na Amazônia há grande presença de rios com importante potencial energético, sendo que em alguns deles vem se efetivando a instalação de grandes usinas hidrelétricas abastecedoras de energia de parte do território nacional, como por exemplo, entre outras, Tucuruí (PA), Belo Monte (PA), Girau, Santo Antônio e Samuel (RO). No item **b**, buscava-se explorar o conhecimento do candidato sobre os setores de consumo de energia, particularmente aqueles da economia nacional com maior e menor consumo energético, e sobre os tipos de indústrias da Amazônia que apresentam elevado consumo energético, como os setores de siderurgia e produção de alumínio. Trata-se de um conhecimento de destacada importância para fomentar o debate sobre o aproveitamento dos recursos naturais para produção energética no país e os seus distintos usos na economia.\nO conhecimento explorado permite fazer correlação com outras áreas do conhecimento, em particular com a Física.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q04",
+   "numero": 4,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A região destacada na figura abaixo, conhecida pelo acrônimo MATOPIBA, é formada por frações dos territórios do Maranhão, Tocantins, Piauí e Bahia, por onde se expande a fronteira agrícola no Brasil. Reúne 337 municípios e representa aproximadamente 73 milhões de hectares. Existem na área cerca de 327 estabelecimentos agrícolas, 46 unidades de conservação, 35 terras indígenas e 778 assentamentos de reforma agrária.\n\n(Adaptado de EMBRAPA https://www.embrapa.br. Acessado em 10/08/2016.)\n\n![Mapa com os limites de estados brasileiros, identificados pelas siglas PA, MA, PI, CE, PE, TO, BA, MT, GO e MG; áreas em cinza cobrem parte do Maranhão, do Tocantins, do Piauí e da Bahia, com pontos marcando as localidades Araguaína, Balsa, Uruçuí e Luís Eduardo Magalhães.](fig:p06-f1)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A difusão do moderno circuito da produção agrícola reorganizou aceleradamente o espaço regional em questão e fez proliferar inúmeros conflitos territoriais. Mencione ao menos dois agentes que, em lados opostos, disputam um sentido para essas transformações territoriais (ou modernizações).",
+     "resposta_oficial": "Entre os agentes que disputam um sentido para as modernizações na região em questão encontram-se, de um lado, os agentes hegemônicos como as grandes empresas do setor agroalimentar, os grandes proprietários de terras destinadas aos monocultivos agroflorestais e o Estado; de outro lado, os agentes hegemonizados como as comunidades agroextrativistas, envolvendo populações de pequenos proprietários, posseiros, indígenas e quilombolas, entre outras."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Indique o tipo de bioma e a cultura agrícola predominantes na região.",
+     "resposta_oficial": "Na região do MATOPIBA o bioma predominante é o cerrado, sendo a soja a cultura agrícola predominante."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O conhecimento é importante no campo prático do planejamento territorial. Há correlação de conhecimento entre as áreas de Geografia e Sociologia.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q05",
+   "numero": 5,
+   "materia": "geografia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Imagem de um antigo palacete na Vila Itororó, em São Paulo-SP, que se tornou um cortiço.\n\n![Fotografia em preto e branco de um casarão de dois andares com platibanda de ameias no alto; no pavimento de baixo, uma fileira de colunas sustenta uma laje, e há escadas, passarelas e varandas de madeira entre as construções.](fig:p07-c1)\n\n(Fonte: http://g1.globo.com/Noticias/SaoPaulo/0,MUL1449740-5605,0. Acessado em 23/06/2016.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O que define os cortiços? Em que momento da urbanização brasileira eles surgiram?",
+     "resposta_oficial": "Cortiço é uma forma de habitação coletiva, precária, multifamiliar e de aluguel. Surgiu nas cidades brasileiras, como São Paulo e Rio de Janeiro, no início do processo de urbanização e industrialização do final do século XIX. Durante as primeiras décadas do século XX, o cortiço foi a principal forma de habitação dos trabalhadores urbanos."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Aponte ao menos dois fatores que explicam a permanência dos cortiços nas grandes cidades brasileiras ainda hoje.",
+     "resposta_oficial": "Sua permanência se deve a fatores como: economia da despesa com transporte; menor tempo de viagem entre a moradia e o trabalho; melhor oportunidade de trabalho, inclusive no mercado formal; acesso aos equipamentos públicos, como creches, escolas, hospitais, áreas de lazer, etc.; alta rentabilidade do mercado de aluguel de cortiços; *deficit* habitacional agravado pela falta de investimentos em política habitacional."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O conhecimento é importante no campo prático do planejamento urbano. Há correlação de conhecimento entre as áreas de Geografia, História e Sociologia.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q06",
+   "numero": 6,
+   "materia": "geografia",
+   "materias_extra": [
+    "sociologia"
+   ],
+   "texto_base": null,
+   "enunciado": "A figura abaixo é uma arte cartográfica produzida pelo artista Julien Bousac.\n\n![Mapa em cinza e branco com o título “Estado-Arquipélago da Palestina”: manchas cinza de formas irregulares, agrupadas em duas grandes massas alongadas na vertical, uma ao norte e outra ao sul, rodeadas de fragmentos menores, e uma faixa inclinada separada no canto inferior esquerdo. Os espaços em branco entre as manchas levam os rótulos “Mar de Israel”, “Canal de Jerusalém”, “Canal de Sefelá” e “Oceano Jordânico”; no canto inferior direito há uma seta indicando o norte.](fig:p08-c1)\n\n(Adaptado de http://obgeographiques.blogspot.com.br. Acessado em 03/08/2016.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Por que essa arte cartográfica, produzida pelo artista Julien Bousac, retrata a Palestina como um arquipélago? E quais são os dois territórios reservados atualmente aos palestinos, retratados nessa arte?",
+     "resposta_oficial": "A Palestina é representada como um arquipélago em razão de todo o processo de fragmentação territorial imposto pelo Estado de Israel, por meio da construção de muros de isolamento e do estabelecimento de postos de controle para limitar a circulação da população palestina. Os dois territórios hoje reservados aos palestinos são a Faixa de Gaza e a Cisjordânia."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Os conflitos entre israelenses e palestinos têm sido marcados por muita violência, tanto física ou aberta quanto simbólica. Indique uma forma de violência física e uma forma de violência simbólica a que estão expostos os palestinos.",
+     "resposta_oficial": "Constituem exemplos da violência física que atinge os palestinos a violência policial e as ocupações realizadas pelo exército israelense, além dos bombardeios que são realizados. Exemplos de violência simbólica são os preconceitos, a intolerância religiosa e política e a restrição à livre circulação dentro do espaço da Palestina."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Exemplo prático para utilização do conhecimento: a todo momento somos confrontados com mapas que devem ser interpretados, quer seja no cotidiano dos meios de comunicação, quer seja em uma sala de aula.\nCorrelação com outras áreas de conhecimento: História e Artes.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q07",
+   "numero": 7,
+   "materia": "historia",
+   "materias_extra": [
+    "filosofia"
+   ],
+   "texto_base": null,
+   "enunciado": "“Onde está aquela tua prudência? Onde está a sagacidade nas coisas que se devem discernir? Onde está a grandeza de alma? Já as pequenas coisas te afligem? (....) Nenhuma destas coisas é insólita, nenhuma inesperada. Ofender-te com estas coisas é tão ridículo quanto te queixares porque caíste em público ou porque te sujaste na lama. (...) O inverno faz vir o frio: é necessário gelar. O tempo traz de novo o calor: é necessário arder. A intempérie do céu provoca a saúde: é necessário adoecer. Uma fera em algum lugar se aproximará de nós, e um homem mais pernicioso que todas as feras. Algo a água, algo o fogo nos retirará. Esta condição das coisas não podemos mudar. Mas isto podemos: adotar um espírito elevado e digno do homem nobre para que corajosamente suportemos as coisas fortuitas e nos harmonizemos com a Natureza.”\n\n(Sêneca, Carta de Sêneca a Lucílio, CVII. *Prometeus*, Maceió, ano 1 - nº1, p.121, jan.-jun. 2008. Disponível em https://www.academia.edu/4204064. Acessado em 19/12/2016.)\n\nA partir da leitura do texto escrito pelo filósofo Sêneca,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "identifique e explique um princípio do estoicismo latino;",
+     "resposta_oficial": "Dentre os princípios do estoicismo latino poderiam ser identificados e explicados: a sabedoria que estava pautada na busca por harmonia e equilíbrio com a ordem natural; o homem deveria viver em conformidade com a racionalidade inerente da natureza, permanecendo tranquilo em face das mudanças cíclicas da ordem universal; manter-se impassível diante das adversidades e sofrimentos da vida. No estoicismo, a virtude deveria ser cultivada no viver de acordo com o destino e não sendo escravo das paixões e vícios."
+    },
+    {
+     "rotulo": "b",
+     "texto": "cite dois legados culturais do mundo romano, além da filosofia, para a tradição ocidental.",
+     "resposta_oficial": "As contribuições romanas em termos de legado cultural para o Ocidente incluem, entre outras, as artes (em especial a escultura e a arquitetura), o direito e o latim."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O tema da questão estava previsto no item do programa sobre contribuições e legados da cultura greco-romana: filosofia, arte e direito. O candidato deveria recuperar e explicar princípios do estoicismo que poderiam ser apreendidos no excerto de Sêneca (item **a**) e identificar legados do mundo romano na cultura ocidental.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q08",
+   "numero": 8,
+   "materia": "historia",
+   "materias_extra": [
+    "artes"
+   ],
+   "texto_base": null,
+   "enunciado": "Ao analisar *A primeira missa no Brasil*, obra de 1860, feita por Victor Meirelles e exposta atualmente no Museu Nacional de Belas Artes, no Rio de Janeiro, o historiador Rafael Cardoso inseriu o quadro no gênero da pintura histórica. Para o autor, tal gênero “deveria partir de um grande e elevado tema e mostrar o domínio do pintor de um amplo leque de informações não pictóricas. Ou seja, em meados do século XIX, tanto a correção da indumentária representada quanto o espírito cívico da obra eram sujeitos a exame detalhado. O quadro teria grandes formatos, composições complexas e perfeito acabamento. A realização de uma pintura assim poderia levar anos e geralmente correspondia a um atestado de amadurecimento do pintor.”\n\n(Adaptado de Rafael Cardoso, *A arte brasileira em 25 quadros* (1790-1930). Rio de Janeiro/São Paulo: Record, 2008, p. 54-55.)\n\n![Pintura a óleo: uma grande cruz de madeira e um altar ao ar livre, onde um homem de vestes claras está de braços erguidos diante de um grupo de homens com roupas europeias e armaduras; em torno, e em primeiro plano, muitas pessoas indígenas, algumas sentadas no chão e outras em pé, e uma pessoa indígena sobre o galho de uma árvore à direita; ao fundo, vegetação, céu e mar.](fig:p10-c1)\n\n(http://mnba.gov.br/portal/colecoes/pintura-brasileira.html. Acessado em 28/09/2016.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique as razões pelas quais podemos considerar que a obra em questão é baseada em uma noção de história oficial e heroica.",
+     "resposta_oficial": "Pode-se considerar que a obra reflete uma visão de história oficial e heroica porque se baseia em uma narrativa idealizada da conquista dos portugueses, a partir da carta de Pero Vaz de Caminha, e da celebração da primeira missa no Brasil. A celebração da missa, com destaque para a cruz, ocupa a posição central e mais iluminada da obra e os indígenas ocupam um espaço periférico e com menos luz. A pintura foi realizada num momento em que o Estado brasileiro investia na produção de uma história oficial que enaltecia um discurso de harmonia entre os grupos étnicos que formaram a população brasileira. O trabalho de Victor Meirelles destacou o protagonismo dos portugueses, mas não considerava a visão da população nativa sobre os eventos de 1500."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual era a visão predominante dos integrantes da Semana de Arte Moderna de 1922 em relação à arte acadêmica? Justifique sua resposta.",
+     "resposta_oficial": "A maior parte dos integrantes da Semana de Arte Moderna criticava a arte acadêmica e sua tradição europeizada. O grupo da Semana de 1922 propunha inovações estéticas que valorizavam as raízes nacionais e representações da cultura brasileira. As críticas abriram espaço para novas experiências artísticas, incluindo a incorporação das vanguardas europeias, e a produção de um outro imaginário sobre o Brasil."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão envolvia a compreensão da obra de Victor Meirelles como uma obra do gênero histórico pautada em uma concepção heroica e oficial e ainda requeria conhecimento da crítica dos modernistas ao tipo de pintura apresentada pelo artista do século XIX. Ao demandar os conteúdos e as críticas dos integrantes da Semana de Arte Moderna de 1922, esperava-se que os candidatos explorassem o sentido de crítica à arte acadêmica e à visão da integração de raças vigente na época da elaboração da pintura. O excerto auxiliava na compreensão do tema e a ilustração da pintura, mesmo sem ser diretamente usada, permitia que os candidatos analisassem o tema e respondessem. A questão, portanto, dialogava com a noção de história e com interpretação da imagem, habilidades necessárias na vida universitária. Por outro lado, a questão dialogou diretamente com os temas de Literatura e de Artes de forma a valorizar abordagens interdisciplinares.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q09",
+   "numero": 9,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "![Litografia em preto e branco, vista de cima de uma vila: no alto, quatro quadras retangulares com uma casa cada, cercadas por árvores; no meio, uma fileira de edifícios com uma praça e uma construção mais alta; embaixo, outras quatro quadras alongadas com uma casa e jardim cada, delimitadas por fileiras de árvores; ao fundo, campos e um curso de água.](fig:p11-c1)\n\nProjeto de uma vila agrícola – Teresa – para dez famílias, que poderão chegar a cem. O nome foi dado em homenagem à imperatriz d. Teresa Cristina pelo autor do projeto, o médico Jean Maurice Faivre. A planta mostra, ao centro, uma fonte rodeada de árvores, tendo ao lado uma casa comunitária com biblioteca, gabinete de história natural e laboratório de química e física, também cercada de árvores. Ao redor estão dispostas dez casas assobradadas com jardins e árvores circundantes, em meio a uma várzea aprazível. Nos arredores situam-se moinhos; um estabelecimento para tecelagem; serraria, forja e carpintaria; olaria e cemitério. Encorajado pelo imperador, Faivre trouxe da França uma leva de imigrantes. Instalou-se com eles no interior do Paraná, às margens do rio Ivaí, onde fundou uma colônia, Teresina, de efêmera duração”.\n\n(Litografia. 32,5 x 18 cm. Rio de Janeiro, s.d. IHGB. Em João Antônio de Paula, “O processo econômico”, em Lilia Moritz Schwarcz (dir.), *História do Brasil Nação*. Vol 2. Rio de Janeiro: Objetiva, 2012, p. 201.)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Cite e explique um princípio do discurso da medicina sanitarista desenvolvida no século XIX, presente na constituição da vila agrícola Teresa.",
+     "resposta_oficial": "Na vila agrícola Teresa, instalada no interior do Paraná, observam-se os princípios sanitaristas para a eliminação de diferentes tipos de enfermidades. O projeto tinha um ordenamento cartesiano e higiênico da colônia em forma de tabuleiro. Os espaços amplos e abertos para a circulação de ar, a valorização da vegetação e das fontes de água corrente e limpa, a criação do cemitério distante das fontes de água estavam de acordo com os princípios de uma ação de saúde pública para evitar a propagação de moléstias. É também notável o papel do conhecimento científico (representado por gabinetes, bibliotecas, laboratórios) nesse projeto político próprio do século XIX."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Contextualize o cenário político do Brasil Império que incentivou o estabelecimento das colônias agrícolas.",
+     "resposta_oficial": "Espera-se que o aluno descreva a política imigracionista no Brasil Império, motivada tanto pelas inúmeras pressões contra o trabalho escravo quanto por políticas de embranquecimento social. Nesse contexto, o Império valorizava três modalidades de imigração: 1) os núcleos coloniais, financiados pelo governo e baseados na distribuição de terras para o trabalho familiar; 2) as colônias de parceria, financiadas por particulares e com algum ônus para o imigrante e, 3) a subvenção, na qual os governos provinciais e imperiais subsidiavam parte dos custos da vinda dos imigrantes."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão abordou o cenário político do Império (item **b**) e a presença do discurso sanitarista do século XIX no projeto de uma vila agrícola, sendo, portanto, uma ponte para que os candidatos produzissem diálogos entre a História e a Biologia (discursos sanitaristas e as formas de evitar a propagação de enfermidades). Referia-se também ao momento da introdução do trabalho livre e assalariado em substituição à escravidão. O Brasil Império é tema recorrente nas provas da Unicamp, mas a abordagem a partir do projeto de uma vila agrícola planejada e que seguia princípios sanitaristas foi inédita na prova.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q10",
+   "numero": 10,
+   "materia": "historia",
+   "materias_extra": [
+    "geografia"
+   ],
+   "texto_base": null,
+   "enunciado": "![Charge de Carlos Latuff, 2016: uma mulher de terninho com a bandeira do Reino Unido empurra um carrinho de mão com tijolos diante de muros e cercas rotulados “BERLIN WALL”, “PALESTINE”, “U.S.-MEXICO” e “CALAIS”. Do lado do muro “BERLIN WALL” sai um balão de fala com a palavra “HYPOCRITES!”. Ao lado do muro “CALAIS”, um operário assenta tijolos. Assinatura: LATUFF2016 - ALTAGREER.COM](fig:p12-f1)\n\n(Disponível em https://desertpeace.wordpress.com/2016/09/09/assorted-toons-for-the-end-of-the-week/cr1n3uyxeaa1o7f. Acessado em 10/11/2016.)\n\nA *charge* de Carlos Latuff, publicada em 2016, faz associações sobre diversos processos do mundo contemporâneo. A primeira-ministra britânica, Theresa May, ouve uma voz enquanto carrega tijolos para a construção de um polêmico muro em Calais, na França.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Explique qual é a justificativa histórica para a exclamação “hipócritas” oriunda do muro de Berlim.",
+     "resposta_oficial": "A *charge* de Carlos Latuff, publicada em 2016, ironiza a posição da Inglaterra, representada pela figura da primeira-ministra britânica Thereza May, pertencente ao Partido Conservador, de defender a construção de novos muros que supostamente poderiam impedir a entrada de imigrantes em países europeus, como a Inglaterra e a França. O muro em construção na *charge* (sendo cimentado por um operário sem rosto) refere-se a Calais, acampamento de refugiados vindos do Afeganistão, Sudão e Eritreia, situado no norte da França.\n\nA hipocrisia, estampada no vestígio material do muro de Berlim, viria do fato de que a Inglaterra, ao longo de todo o período marcado pela conflito da Guerra Fria, foi uma das nações defensoras da derrubada desse muro, que simbolizava a divisão do mundo entre capitalismo e comunismo. Dessa forma, a contradição estaria na mudança de postura das nações que se posicionavam como defensoras da liberdade ao longo da segunda metade do século XX, mas, agora, estariam defendendo o fechamento de nações e a não circulação de pessoas."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Por que a questão dos muros tornou-se um assunto recorrente na política internacional do século XXI? Justifique sua resposta a partir de uma das referências da *charge*.",
+     "resposta_oficial": "A construção de muros expressa a ampliação dos discursos xenofóbicos, isolacionistas e ultrarreligiosos que estão presentes em diversas partes do mundo atual. Com o avanço dos partidos conservadores na liderança de diversas nações do mundo houve uma reconfiguração da política internacional e a tentativa de restrição à circulação de pessoas consideradas indesejadas, como os refugiados e os imigrantes ilegais. Os muros indicados na *charge* são exemplos do fortalecimento de discursos de ódio e preconceitos, como se observa nos muros já existentes na Palestina, nos EUA/México e na proposta do muro de Calais."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão articulava diversos processos de tensão e exclusão ao longo dos séculos XX e XXI. A *charge* fazia referências a muros como barreiras físicas, culturais, religiosas e ideológicas conforme os nomes mencionados na figura. A exclamação “hipócritas” parte do Muro de Berlim como uma denúncia em relação à Grã-Bretanha, uma das defensoras do mundo sem barreiras à época da derrubada do símbolo da Guerra Fria, e, na atualidade, defensora de restrições à circulação de pessoas, particularmente, refugiados oriundos da crise no Oriente Médio. Os candidatos deveriam demonstrar compreensão dos processos recentes e do contexto de 1989, como parte do programa que engloba o fim dos regimes comunistas na Europa e a nova ordem mundial.\nA questão tem relação com conteúdos de Geografia, especificamente em geopolítica, de Sociologia e de Filosofia.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q11",
+   "numero": 11,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O ano de 1968 foi modelar: protestos, tumultos e motins em Praga, Chicago, Paris, Tóquio, Belgrado, Roma, México, Santiago... Da mesma maneira que as epidemias medievais não respeitavam as fronteiras religiosas nem as hierarquias sociais, a rebelião juvenil anulou as classificações ideológicas.\n\nNo México, as reivindicações se resumiam a uma palavra: democratização. Os jovens pediram repetidas vezes “diálogo entre o governo e os estudantes”. A atitude dos estudantes dava ao governo a possibilidade de reorientar sua política. Bastaria ouvir o que o povo dizia por meio das reivindicações juvenis; ninguém esperava uma mudança radical, mas sim maior flexibilidade e uma volta à tradição da Revolução Mexicana, que nunca foi muito dogmática e sim muito sensível às mudanças no ânimo popular.\n\n(Adaptado de Octavio Paz, *O labirinto da solidão*. São Paulo: Cosac Naify, 2014, p. 215; 222.)\n\nA partir do texto e de seus conhecimentos,",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "caracterize o sistema político mexicano em 1968 e indique um aspecto da Revolução Mexicana (1910-1917) reivindicado pelos estudantes naquele contexto;",
+     "resposta_oficial": "No contexto de 1968, o México era governado pelo PRI (*Partido de la Revolución Institucional*) de forma autoritária. Por décadas, o PRI foi o único partido no poder central e limitava a participação democrática de diferentes setores sociais. Os estudantes, às vésperas dos Jogos Olímpicos do México, protestavam contra o autoritarismo e reivindicavam maior liberdade e mais direitos sociais e políticos, a exemplo da Revolução Mexicana, que tinha uma pauta por princípios democráticos e sociais, como a reforma agrária."
+    },
+    {
+     "rotulo": "b",
+     "texto": "cite dois instantes do protagonismo juvenil na história brasileira após 1960.",
+     "resposta_oficial": "O protagonismo juvenil na vida política brasileira a partir dos anos 1960 pode ser observado em vários momentos, como na campanha pelas reformas de base do governo Jango, na resistência e luta contra a ditadura civil-militar, no processo de redemocratização (campanha da anistia e das Diretas Já), no *impeachment* de Fernando Collor, nas jornadas de junho de 2013 e nos recentes movimentos de ocupação dos estudantes secundaristas. Em outra chave ideológica também houve protagonismo juvenil em grupos que atuaram nos protestos que culminaram no *impeachment* de Dilma Rousseff, em 2016."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão propõe duas reflexões que dialogam com a experiência dos anos 1960 e o protagonismo juvenil no México e no Brasil. A ideia era aproximar questões e iluminar uma compreensão transnacional dos fenômenos históricos. O tema engloba ditaduras, populismos e processos revolucionários pois o excerto demanda informações sobre a Revolução Mexicana.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q12",
+   "numero": 12,
+   "materia": "historia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "“Naquele lugar, a guerra tinha morto a história. Pelos caminhos só as hienas se arrastavam, focinhando entre cinzas e poeiras. A paisagem se mestiçara de tristezas nunca vistas, em cores que se pegavam à boca. (…) Aqui, o céu se tornara impossível. E os viventes se acostumaram ao chão, em resignada aprendizagem da morte.\n\nA estrada que agora se abre aos nossos olhos não se entrecruza com outra nenhuma. (...)\n\nUm velho e um miúdo vão seguindo pela estrada. (…) Fogem da guerra, dessa guerra que contaminara toda sua terra. Vão na ilusão de, mais além, haver um refúgio tranquilo. Avançam descalços, suas vestes têm a mesma cor do caminho. O velho se chama Tuahir. É magro, parece ter perdido toda sua substância. O jovem se chama Muidinga. Caminha à frente desde que saíra do campo de refugiados”.\n\n(Mia Couto, *Terra sonâmbula*. São Paulo: Companhia das Letras, 2007, p. 9-10.)\n\nO trecho acima, escrito por Mia Couto, traz uma narrativa sobre o cenário de guerra de Moçambique pós-independência (1977-1992). A partir do texto, responda às questões abaixo.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O que são refugiados? Explique, relacionando-os ao processo moçambicano.",
+     "resposta_oficial": "Era esperado que o candidato identificasse refugiados como indivíduos que são obrigados a deixar seus locais de origem (por conflitos armados, perseguição religiosa ou política, violência generalizada, violação dos direitos humanos, catástrofes climáticas, etc.), tornando-se pessoas sem um referencial local. Para o processo moçambicano, expresso no texto de Mia Couto, os refugiados derivam da guerra civil posterior à independência."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Apresente dois elementos históricos comuns a Angola e Moçambique, após a independência do domínio português.",
+     "resposta_oficial": "Entre os elementos históricos comuns a Angola e Moçambique no pós-independência era possível apontar: a ocorrência de guerras civis, influenciadas por ideologias externas no contexto da Guerra Fria e como desdobramentos de rivalidades internas pela disputa do poder; a instauração de governos autoritários; a manutenção da língua do colonizador, o português, como elemento de unificação local."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** A questão partia de um excerto de obra literária que integra a lista de obras obrigatórias para o Vestibular Nacional da Unicamp. A questão, entretanto, tinha um grau de complexidade ao solicitar referências e explicações dos processos moçambicano e angolano. Os temas fazem parte da estrutura legal do ensino de História da África e da cultura afro-brasileira. O vestibular da Unicamp tem cobrado o assunto com regularidade.\nA questão relaciona-se com a Literatura e com Geografia.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q13",
+   "numero": 13,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Diversas padarias e lanchonetes vendem o “cafezinho” e o “cafezinho com leite”. Uma pesquisa realizada na cidade de Campinas registrou uma variação grande de preços entre dois estabelecimentos, **A** e **B**, que vendem esses produtos com um volume de $60\\ \\text{ml}$, conforme mostra a tabela abaixo.\n\n| Produto | A | B |\n|---|---|---|\n| Cafezinho | R\\$ 2,00 | R\\$ 3,00 |\n| Cafezinho com leite | R\\$ 2,50 | R\\$ 4,00 |",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine a variação percentual dos preços do estabelecimento **A** para o estabelecimento **B**, para os dois produtos.",
+     "resposta_oficial": "Para o cafezinho, o aumento percentual é de $\\frac{\\text{R\\textdollar}\\ 3{,}00 - \\text{R\\textdollar}\\ 2{,}00}{\\text{R\\textdollar}\\ 2{,}00} \\times 100\\% = 0{,}5 \\times 100\\% = 50\\%$ e, para o cafezinho com leite, o aumento percentual é de $\\frac{\\text{R\\textdollar}\\ 4{,}00 - \\text{R\\textdollar}\\ 2{,}50}{\\text{R\\textdollar}\\ 2{,}50} \\times 100\\% = 0{,}6 \\times 100\\% = 60\\%$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere a proporção de café e de leite servida nesses dois produtos conforme indica a figura abaixo. Suponha que o preço cobrado se refere apenas às quantidades de café e de leite servidas. Com base nos preços praticados no estabelecimento **B,** calcule o valor que está sendo cobrado por um litro de leite.\n\n![Dois quadrados lado a lado. O primeiro, legendado “cafezinho”, é todo cinza, com o rótulo “1/1 café”. O segundo, legendado “cafezinho com leite”, tem uma faixa superior clara com o rótulo “1/3 leite” e uma faixa inferior cinza com o rótulo “2/3 café”.](fig:p15-c1)",
+     "resposta_oficial": "No cafezinho com leite são servidos $1/3 \\times 60\\ \\text{ml} = 20\\ \\text{ml}$ de leite e $2/3 \\times 60\\ \\text{ml} = 40\\ \\text{ml}$ de café. Como no estabelecimento **B** um cafezinho de $60\\ \\text{ml}$ custa R\\$ 3,00, os $40\\ \\text{ml}$ de café servidos no cafezinho com leite custam $\\text{R\\textdollar}\\ 3{,}00 \\times 40\\ \\text{ml}/60\\ \\text{ml} = \\text{R\\textdollar}\\ 2{,}00$. Portanto, os $20\\ \\text{ml}$ de leite servidos custam $\\text{R\\textdollar}\\ 4{,}00 - \\text{R\\textdollar}\\ 2{,}00 = \\text{R\\textdollar}\\ 2{,}00$. Logo, o preço que está sendo cobrado por um litro de leite ($1\\ l = 1000\\ \\text{ml} = 50 \\times 20\\ \\text{ml}$) é $50 \\times \\text{R\\textdollar}\\ 2{,}00 = \\text{R\\textdollar}\\ 100{,}00$."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento sobre porcentagem e variação percentual.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q14",
+   "numero": 14,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sejam $c$ um número real e $f(x) = x^2 - 4x + c$ uma função quadrática definida para todo número real $x$. No plano cartesiano, considere a parábola dada pelo gráfico de $y = f(x)$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine $c$ no caso em que a abscissa e a ordenada do vértice da parábola têm soma nula e esboce o respectivo gráfico para $0 \\le x \\le 4$.\n\n*Campo de resolução:*\n\n![Plano cartesiano quadriculado para o esboço, com eixo x de 0 a 4 e eixo y de −2 a 2](fig:p16-c2)",
+     "resposta_oficial": "Podemos escrever $f(x) = x^2 - 4x + c = (x-2)^2 + c - 4$. Logo, a parábola dada pelo gráfico de $y = f(x)$ tem vértice no ponto $V = (2, c-4)$. Do enunciado temos que $2 + c - 4 = 0$, ou seja, $c = 2$. Assim, a equação da parábola é $y = f(x) = x^2 - 4x + 2$, o vértice é $V = (2, -2)$, para $x = 0$ temos $y = f(0) = 2$ e para $x = 4$ temos $y = f(4) = 2$. Abaixo temos um esboço da parábola para $0 \\le x \\le 4$.\n\n![Esboço da parábola no plano cartesiano quadriculado, para x de 0 a 4: a curva parte de (0, 2), desce até o ponto mais baixo (2, −2) e sobe até (4, 2)](fig:r01-c1)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere os pontos de coordenadas $A = (a, f(a))$ e $B = (b, f(b))$, onde $a$ e $b$ são números reais com $a < b$. Sabendo que o ponto médio do segmento $\\overline{AB}$ é $M = (1, c)$, determine $a$ e $b$.",
+     "resposta_oficial": "Temos que $A = (a, f(a)) = (a, a^2 - 4a + c)$ e $B = (b, b^2 - 4b + c)$. O ponto médio é então $M = (1, c) = \\left((a+b)/2, (a^2 - 4a + c + b^2 - 4b + c)/2\\right)$. Logo, $a + b = 2$ e $a^2 + b^2 = 4a + 4b$. Tomando $b = 2 - a$ e substituindo na segunda equação, chegamos a $a^2 - 2a - 2 = 0$. Resolvendo essa equação quadrática, obtemos $a = 1 \\pm \\sqrt{3}$ e, portanto, $b = 2 - \\left(1 \\pm \\sqrt{3}\\right) = 1 \\mp \\sqrt{3}$. Como $a < b$, temos que $a = 1 - \\sqrt{3}$ e $b = 1 + \\sqrt{3}$."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Avaliar a capacidade de extrair informações básicas da expressão de uma função quadrática, associadas ao gráfico da parábola que a representa, e explorar o conhecimento sobre traçado de parábolas. Avaliar a aptidão para manipular coordenadas cartesianas de pontos sobre gráficos.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q15",
+   "numero": 15,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A figura abaixo exibe três círculos no plano, tangentes dois a dois, com centros em $A$, $B$ e $C$ e raios de comprimentos $a$, $b$ e $c$, respectivamente.\n\n![Três círculos tangentes dois a dois: o círculo de centro B, acima; o de centro A, pequeno, à esquerda; o de centro C, maior, à direita. Cada centro está marcado por um ponto e pela sua letra](fig:p17-f2)",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Determine os valores de $a$, $b$ e $c$, sabendo que a distância entre $A$ e $B$ é de $5\\ \\text{cm}$, a distância entre $A$ e $C$ é de $6\\ \\text{cm}$ e a distância entre $B$ e $C$ é de $9\\ \\text{cm}$.",
+     "resposta_oficial": "Colocando os raios nos círculos, como exibe a figura abaixo, temos as relações: $a + b = AB = 5\\ \\text{cm}$, $a + c = AC = 6\\ \\text{cm}$ e $b + c = BC = 9\\ \\text{cm}$. Resolvendo esse sistema de equações lineares, obtemos $a = 1\\ \\text{cm}$, $b = 4\\ \\text{cm}$ e $c = 5\\ \\text{cm}$.\n\n![Os três círculos com o triângulo de vértices nos centros A, B e C; os segmentos de cada centro até os pontos de tangência estão rotulados com os raios a, b e c](fig:r02-f2)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para $a = 2\\ \\text{cm}$ e $b = 3\\ \\text{cm}$, determine o valor de $c > b$ de modo que o triângulo de vértices em $A$, $B$ e $C$ seja retângulo.",
+     "resposta_oficial": "Uma vez que $c > b$ e $b > a$, o comprimento do maior lado do triângulo é $b + c$. Assim, como o triângulo deve ser retângulo, o comprimento da hipotenusa é $b + c$ e o comprimento dos catetos, $a + b$ e $a + c$. Pelo Teorema de Pitágoras, $(b + c)^2 = (a + b)^2 + (a + c)^2$, ou seja, $(3 + c)^2 = (2 + 3)^2 + (2 + c)^2$. Logo, $9 + 6c + c^2 = 25 + 4 + 4c + c^2$ e, portanto, $2c = 20$, o que implica que $c = 10\\ \\text{cm}$."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Avaliar a capacidade de relacionar corretamente os comprimentos de raios de círculos tangentes e resolver um sistema linear, bem como de aplicar o Teorema de Pitágoras.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q16",
+   "numero": 16,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $a$ e $b$ são números reais, considere o polinômio cúbico $p(x) = x^3 + ax^2 + bx + 1$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Mostre que, se $r$ é uma raiz de $p(x)$, então $1/r$ é uma raiz do polinômio $q(x) = x^3 + bx^2 + ax + 1$.",
+     "resposta_oficial": "Observe que $r \\neq 0$, pois $p(0) = 1 \\neq 0$. Assim, temos que $q\\left(\\frac{1}{r}\\right) = \\left(\\frac{1}{r}\\right)^3 + b\\left(\\frac{1}{r}\\right)^2 + a\\left(\\frac{1}{r}\\right) + 1 = \\frac{1}{r^3} + \\frac{b}{r^2} + \\frac{a}{r} + 1 = \\frac{1 + br + ar^2 + r^3}{r^3} = \\frac{p(r)}{r}$. Como $r$ é uma raiz de $p(x)$, temos que $p(r) = 0$ e, portanto, $q\\left(\\frac{1}{r}\\right) = \\frac{0}{r^3} = 0$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Determine os valores de $a$ e $b$ para os quais a sequência $(p(-1), p(0), p(1))$ é uma progressão aritmética (PA), cuja razão é igual a $p(2)$.",
+     "resposta_oficial": "Temos que $p(-1) = -1 + a - b + 1 = a - b$, $p(0) = 0 + 0 + 0 + 1 = 1$, $p(1) = 1 + a + b + 1 = a + b + 2$ e $p(2) = 8 + 4a + 2b + 1 = 9 + 4a + 2b$. Como $(p(-1), p(0), p(1))$ é uma PA com razão $p(2)$, temos que $p(0) - p(-1) = p(1) - p(0) = p(2)$, ou seja, $1 - (a - b) = a + b + 2 - 1 = 9 + 4a + 2b$. Resolvendo essas equações, encontramos $a = 0$ e $b = -8$."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Avaliar o conhecimento do conceito básico de raiz de polinômio e a capacidade de encadear de forma correta a prova de um resultado simples. Avaliar a habilidade para calcular a razão de uma PA cujos termos são valores numéricos do polinômio.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q17",
+   "numero": 17,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $m$ é um número real, considere o sistema linear nas variáveis $x$, $y$ e $z$:\n\n$$\\begin{cases} mx + 2z = 4, \\\\ x - y + z = 3, \\\\ 2x + mz = 4. \\end{cases}$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Seja $A$ a matriz dos coeficientes desse sistema. Determine os valores de $m$ para os quais a soma dos quadrados dos elementos da matriz $A$ é igual à soma dos elementos da matriz $A^2 = A \\cdot A$.",
+     "resposta_oficial": "A matriz dos coeficientes do sistema linear é dada por $A = \\begin{pmatrix} m & 0 & 2 \\\\ 1 & -1 & 1 \\\\ 2 & 0 & m \\end{pmatrix}$. A soma dos quadrados dos elementos da matriz $A$ é igual a $S_1 = m^2 + 0^2 + 2^2 + 1^2 + (-1)^2 + 1^2 + 2^2 + 0^2 + m^2 = 2m^2 + 11$. Então,\n\n$$A^2 = A \\cdot A = \\begin{pmatrix} m & 0 & 2 \\\\ 1 & -1 & 1 \\\\ 2 & 0 & m \\end{pmatrix} \\cdot \\begin{pmatrix} m & 0 & 2 \\\\ 1 & -1 & 1 \\\\ 2 & 0 & m \\end{pmatrix} = \\begin{pmatrix} m^2 + 4 & 0 & 4m \\\\ m + 1 & 1 & m + 1 \\\\ 4m & 0 & m^2 + 4 \\end{pmatrix}.$$\n\nA soma dos elementos de $A^2$ é, então, $S_2 = m^2 + 4 + 0 + 4m + m + 1 + 1 + m + 1 + 4m + 0 + m^2 + 4 = 2m^2 + 10m + 11$. Para que $S_1 = S_2$, devemos ter $2m^2 + 11 = 2m^2 + 10m + 11$, ou seja, $m = 0$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para $m = 2$, encontre a solução do sistema linear para a qual o produto $xyz$ é mínimo.",
+     "resposta_oficial": "Para $m = 2$, temos o sistema linear\n\n$$\\begin{cases} 2x + 2z = 4, \\\\ x - y + z = 3, \\\\ 2x + 2z = 4. \\end{cases}$$\n\nNote que a primeira e a terceira equações são iguais. Da primeira equação, podemos escrever $z = 2 - x$. Substituindo na segunda equação, concluímos que $y = -1$. Assim, esse sistema tem infinitas soluções: para qualquer número real $a$, $x = a$, $y = -1$ e $z = 2 - a$ é uma solução. Temos então que o produto das variáveis em qualquer solução é dado por $xyz = a \\cdot (-1) \\cdot (2 - a) = a^2 - 2a = (a - 1)^2 - 1$. Esse produto é uma função quadrática na variável $a$, cujo coeficiente quadrático é positivo. O gráfico dessa função é uma parábola com a concavidade voltada para cima, cujo vértice fornece o valor mínimo do produto. O vértice dessa parábola tem abscissa em $a = 1$. Portanto, a solução procurada é $x = a = 1$, $y = -1$ e $z = 2 - a = 1$."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** O candidato deveria efetuar operações com os elementos da matriz dos coeficientes de um sistema linear e calcular o quadrado dessa matriz. Deveria ainda encontrar as soluções de um sistema linear indeterminado, analisando o mínimo de uma função quadrática.",
+   "revisao": "transcrita"
+  },
+  {
+   "id": "unicamp-2017-2-d2-q18",
+   "numero": 18,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Sabendo que $k$ é um número real, considere a função $f(x) = k\\,\\text{sen}\\,x + \\cos x$, definida para todo número real $x$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Seja $t$ um número real tal que $f(t) = 0$. Mostre que $f(2t) = -1$.",
+     "resposta_oficial": "Temos que $f(2t) = k\\,\\text{sen}(2t) + \\cos(2t) = k(2\\,\\text{sen}\\,t\\cos t) + (\\cos t)^2 - (\\text{sen}\\,t)^2$. Substituindo $(\\text{sen}\\,t)^2$ por $1 - (\\cos t)^2$, obtemos $f(2t) = 2k\\,\\text{sen}\\,t\\cos t + 2(\\cos t)^2 - 1$. Colocando $2\\cos t$ em evidência, chegamos a $f(2t) = 2\\cos t\\,(k\\,\\text{sen}\\,t + \\cos t) - 1 = 2\\,(\\cos t)\\,f(t) - 1$. Como $f(t) = 0$, obtemos $f(2t) = 0 - 1 = -1$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Para $k = 3$, encontre todas as soluções da equação $f(x)^2 + f(-x)^2 = 10$ para $0 \\le x \\le 2\\pi$.",
+     "resposta_oficial": "Para $k = 3$, temos que $f(x)^2 = (3\\,\\text{sen}\\,x + \\cos x)^2 = 9(\\text{sen}\\,x)^2 + 6\\,\\text{sen}\\,x\\cos x + (\\cos x)^2$ e $f(-x)^2 = (3\\,\\text{sen}(-x) + \\cos(-x))^2 = (-3\\,\\text{sen}\\,x + \\cos x)^2 = 9(\\text{sen}\\,x)^2 - 6\\,\\text{sen}\\,x\\cos x + (\\cos x)^2$. Logo, $f(x)^2 + f(-x)^2 = 18(\\text{sen}\\,x)^2 + 2(\\cos x)^2 = 16(\\text{sen}\\,x)^2 + 2 = 10$, ou seja, $(\\text{sen}\\,x)^2 = \\frac{1}{2}$. Temos então que $\\text{sen}\\,x = \\pm\\frac{\\sqrt{2}}{2}$ e, como $0 \\le x \\le 2\\pi$, temos as soluções $x = \\pi/4$ ou $x = 3\\pi/4$ ou $x = 5\\pi/4$ ou $x = 7\\pi/4$."
+    }
+   ],
+   "resposta_oficial": "**Objetivo da questão:** Avaliar a capacidade de manipular funções e equações trigonométricas.",
+   "revisao": "transcrita"
+  }
+ ]
+}
