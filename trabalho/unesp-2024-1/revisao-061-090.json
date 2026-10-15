@@ -1,0 +1,354 @@
+{
+ "edicao": "unesp-2024-1",
+ "intervalo": [
+  61,
+  90
+ ],
+ "textos_base": {},
+ "questoes_corrigidas": [
+  {
+   "numero": 64,
+   "materia": "biologia",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Leia um trecho da história em quadrinhos “Asterios Polyp”, de David Mazzucchelli.\n\n![história em quadrinhos “Asterios Polyp”, de David Mazzucchelli, em três quadros, com pessoas conversando numa festa. Falas: “SABE AQUELE TROÇO DAS PESSOAS SENTIREM VONTADE DE FICAR COM ALGUÉM NOVO A CADA SETE ANOS? ISSO ACONTECE PORQUE ESSE É O TEMPO QUE LEVA PRA TODAS AS CÉLULAS DO CORPO SE RENOVAREM —” “— AÍ A CADA SETE ANOS VOCÊ, TIPO, VIRA UMA PESSOA TOTALMENTE NOVA.” “TÁ, MAS COM A MESMA MENTE, SUA ANTA!” (com a palavra MENTE em negrito) “SEMPRE ACHEI QUE AS PESSOAS FICAM JUNTAS POR UMA MESCLA DE ATRAÇÃO FÍSICA E ATRAÇÃO MENTAL…”](fig:p23-f1)\n\n(*Asterios Polyp*, 2011. Adaptado.)\n\nO pensamento resulta da atividade neurológica do cérebro. A enorme maioria dos neurônios que formam o cérebro não é renovada ao longo da vida porque esses neurônios",
+   "alternativas": {
+    "A": "são desprovidos de centríolos.",
+    "B": "mantêm todos os genes inibidos.",
+    "C": "são incapazes de formar microtúbulos.",
+    "D": "permanecem na fase G0 da interfase.",
+    "E": "sofrem apoptose celular."
+   }
+  },
+  {
+   "numero": 69,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O exame de diagnóstico por imagem denominado PET-Scan (sigla em inglês para Tomografia por Emissão de Pósitrons) utiliza como emissor de pósitrons $\\left({}^{0}_{+1}\\text{e}\\right)$ o radionuclídeo ${}^{18}\\text{F}$. Ao emitir um pósitron, esse radionuclídeo transforma-se no isótopo ${}^{18}\\text{O}$, cujo número de prótons e número de nêutrons são, respectivamente, iguais a\n\n*(Nota da plataforma: dados da Classificação Periódica que acompanha a prova: número atômico do flúor (F) = 9; número atômico do oxigênio (O) = 8.)*",
+   "alternativas": {
+    "A": "8 e 10.",
+    "B": "9 e 10.",
+    "C": "8 e 9.",
+    "D": "10 e 8.",
+    "E": "10 e 9."
+   }
+  },
+  {
+   "numero": 72,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A montagem de laboratório ilustrada na figura destina-se à coleta e medida do volume de produto gasoso gerado numa reação química.\n\n![montagem de laboratório com erlenmeyer contendo CaCO₃ (s), seringa com HCℓ (aq), e cilindro graduado invertido em uma cuba com água, onde se coleta CO₂ (g) + H₂O (g); o volume marcado é 30 mL](fig:p27-f1)\n\nEm um experimento, envolvendo a produção de dióxido de carbono gasoso, $\\text{CO}_2\\ (\\textit{g})$, a partir da reação entre carbonato de cálcio, $\\text{CaCO}_3\\ (\\textit{s})$, e solução aquosa diluída de ácido clorídrico, $\\text{HC}\\ell\\ (\\textit{aq})$, o líquido empregado para a coleta do gás foi a água acidulada. Um comprimido de $\\text{CaCO}_3$ foi triturado e uma porção do pó resultante foi colocada no erlenmeyer da montagem e posta para reagir com solução de $\\text{HC}\\ell$, adicionada a partir da seringa da montagem. Após a reação, o produto gasoso coletado no cilindro graduado teve seu volume determinado, sendo igual a 30 mL. Sabe-se que o produto gasoso recolhido é uma mistura de dióxido de carbono gasoso e vapor de água.\n\nConsiderando que o experimento foi realizado sob pressão atmosférica de 726,7 mmHg e temperatura de 27 °C, que a pressão de vapor da água a 27 °C é igual a 26,7 mmHg e que a constante universal dos gases, $R$, é igual a $62{,}3\\ \\text{mmHg} \\cdot \\text{L} \\cdot \\text{mol}^{-1} \\cdot \\text{K}^{-1}$, a massa de carbonato de cálcio que reagiu na produção de dióxido de carbono gasoso foi de, aproximadamente,\n\n*(Nota da plataforma: dados da Classificação Periódica que acompanha a prova: C = 12,0; O = 16,0; Ca = 40,1.)*",
+   "alternativas": {
+    "A": "1,0 g.",
+    "B": "0,001 g.",
+    "C": "0,1 g.",
+    "D": "0,01 g.",
+    "E": "10 g."
+   }
+  },
+  {
+   "numero": 74,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Água de cal é o nome dado à solução aquosa saturada de cal hidratada [hidróxido de cálcio, $\\text{Ca(OH)}_2$]. A concentração dessa solução saturada a 20 °C é de 1,7 g/L. A partir desse dado, estima-se que o valor da constante do produto de solubilidade em água ($K_{\\text{ps}}$) nessa temperatura é próximo de\n\n*(Nota da plataforma: dados da Classificação Periódica que acompanha a prova: H = 1,01; O = 16,0; Ca = 40,1.)*",
+   "alternativas": {
+    "A": "$8 \\times 10^{-6}$.",
+    "B": "$4 \\times 10^{-6}$.",
+    "C": "$5 \\times 10^{-7}$.",
+    "D": "$8 \\times 10^{-4}$.",
+    "E": "$5 \\times 10^{-5}$."
+   }
+  },
+  {
+   "numero": 83,
+   "materia": "matematica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Analise o gráfico, que contém dados de matrículas no ensino superior presencial das 27 unidades da nossa Federação. Considere que essa rede de ensino superior presencial distribui-se apenas em privada ou pública.\n\n![gráfico de barras com título “Razão, por unidade da Federação, entre o número de matrículas no ensino superior privado e o número de matrículas no ensino superior público – Brasil 2021”, com uma barra para cada unidade da Federação, de SP (3,5) a RN (0,7), e uma linha horizontal indicando Brasil 1,8](fig:p32-c1)\n\n(“Censo da educação superior 2021”. https://inep.gov.br, 2022. Adaptado.)\n\nA análise do gráfico revela que o número de unidades da Federação com 60% ou mais de matrículas no ensino superior presencial sendo da rede privada é igual a",
+   "alternativas": {
+    "A": "10.",
+    "B": "13.",
+    "C": "7.",
+    "D": "19.",
+    "E": "12."
+   }
+  }
+ ],
+ "complementos": {
+  "61": {
+   "assunto": "Fisiologia humana",
+   "resolucao": "Na doença celíaca, o sistema imune reage ao glúten, proteína presente no trigo, na cevada e no centeio.\nO único tratamento eficaz é retirar o glúten da dieta, ou seja, cortar os alimentos feitos com esses cereais.\nA farinha de trigo é a principal fonte de glúten na alimentação.\nFrutas cítricas, leite, carne bovina e ovos não contêm glúten; o leite pode causar problema em quem tem intolerância à lactose, que é outra condição.\n\n**Resposta: B**"
+  },
+  "62": {
+   "assunto": "Botânica",
+   "resolucao": "O \"trabalho ambiental fundamental\" das abelhas é a polinização.\nAo visitar flores, elas levam pólen de uma planta para outra da mesma espécie, o que aumenta a chance de fecundação cruzada e, portanto, de formação de frutos e sementes, nas matas e nas lavouras.\nA D exagera: a polinização por insetos favorece a fecundação cruzada, mas não impede a autofecundação nas plantas capazes de se autofecundar.\nB, C e E atribuem às abelhas um papel de controle de pragas que elas não têm.\n\n**Resposta: A**"
+  },
+  "63": {
+   "assunto": "Evolução",
+   "resolucao": "A teoria sintética junta a seleção natural de Darwin com a genética: mutação e recombinação geram variabilidade de alelos, e a seleção natural favorece os portadores dos alelos vantajosos.\nNo vaga-lume, os indivíduos que tinham os alelos das moléculas da bioluminescência (luciferina, luciferase) atraíam mais parceiros e deixavam mais descendentes, o que espalhou esses alelos.\nA e D são lamarckistas: o ambiente ou a \"necessidade\" não produzem a característica.\nA C fala de indivíduos que \"passaram a alterar\" seus alelos, como se a mutação fosse dirigida, e não menciona a seleção.\nA B associa a seleção ao fato de viverem no escuro, e não à vantagem reprodutiva da luz.\n\n**Resposta: E**"
+  },
+  "64": {
+   "assunto": "Citologia",
+   "resolucao": "A quadrinha brinca com a ideia de que todas as células do corpo se renovam a cada sete anos, o que não vale para a maioria dos neurônios.\nNeurônios maduros saem do ciclo celular depois de se diferenciar e ficam permanentemente na fase $G_0$ da interfase: continuam vivos e ativos, mas não se dividem.\nPor isso, os que se perdem praticamente não são repostos.\nA A e a C estão erradas porque os neurônios formam microtúbulos (no axônio, por exemplo). A B está errada porque um neurônio com todos os genes inibidos não funcionaria, e a E descreve morte celular, não a causa da ausência de renovação.\n\n**Resposta: D**"
+  },
+  "65": {
+   "assunto": "Embriologia e histologia",
+   "resolucao": "No gráfico, a fase pré-natal mostra a produção pelo saco vitelino, depois pelo fígado e pelo baço e, no fim, pela medula óssea.\nO fígado, que atinge o máximo por volta do 5º mês fetal, é o órgão que produz a bile, com seus sais biliares. Logo, a C está certa.\nA A erra a função: quem armazena excretas nitrogenadas é a alantoide, não o saco vitelino. A B erra porque a medula amarela é tecido adiposo e não produz sangue.\nA D erra porque os ossos se ligam a músculos esqueléticos (estriados), e a E erra porque a produção nos ossos axiais não começa aos 30 anos: vem desde o nascimento.\n\n**Resposta: C**"
+  },
+  "66": {
+   "assunto": "Zoologia",
+   "resolucao": "No gráfico, as barras são maiores de dezembro a abril (verão e início do outono) e menores de junho a setembro (inverno).\nAs serpentes são ectotérmicas: dependem do calor do ambiente para manter o metabolismo. No verão, ficam ativas por mais tempo, caçam e se deslocam mais e encontram pessoas com mais frequência.\nA E contradiz o gráfico. A A até acerta que os acidentes são menores no inverno, mas a explicação não tem a ver com isso: o que diminui é a atividade do animal, não a percepção térmica.\n\n**Resposta: D**"
+  },
+  "67": {
+   "assunto": "Genética",
+   "resolucao": "A mulher é $I^A i\\ X^D X^d$ e o homem, do grupo O e não daltônico, é $ii\\ X^D Y$.\nSangue: $I^A i \\times ii$ dá $\\frac{1}{2}$ do grupo A e $\\frac{1}{2}$ do grupo O.\nVisão: $X^D X^d \\times X^D Y$ dá $X^D X^D$, $X^D X^d$, $X^D Y$ e $X^d Y$, cada um com $\\frac{1}{4}$. Só o menino $X^d Y$ é daltônico, então a probabilidade de uma criança daltônica é $\\frac{1}{4} = 25\\%$ (B).\nConferindo as outras: menino daltônico e O é $\\frac{1}{4} \\cdot \\frac{1}{2} = 12{,}5\\%$; menina do grupo A é $\\frac{1}{2} \\cdot \\frac{1}{2} = 25\\%$; criança do grupo O é $50\\%$; menina daltônica é zero.\n\n**Resposta: B**"
+  },
+  "68": {
+   "assunto": "Química orgânica",
+   "resolucao": "O ácido de X, $\\text{CH}_3 - (\\text{CH}_2)_8 - \\text{COOH}$, só tem ligações simples na cadeia: é saturado.\nO ácido de Y tem uma ligação dupla $\\text{CH} = \\text{CH}$: é insaturado.\nAs gorduras ricas em ácidos graxos insaturados ajudam a manter bons níveis de HDL, a lipoproteína que leva o excesso de colesterol do sangue para o fígado, onde ele é eliminado (\"colesterol bom\").\nO LDL faz o contrário: leva colesterol aos tecidos e se deposita nas artérias. Por isso a A, que troca HDL por LDL, está errada.\n\n**Resposta: E**"
+  },
+  "69": {
+   "assunto": "Radioatividade",
+   "resolucao": "Na emissão de um pósitron, um próton do núcleo vira nêutron: o número de massa se mantém e o número atômico cai uma unidade.\n$${}^{18}_{9}\\text{F} \\longrightarrow {}^{0}_{+1}\\text{e} + {}^{18}_{8}\\text{O}$$\nO oxigênio-18 tem $Z = 8$ prótons e $A - Z = 18 - 8 = 10$ nêutrons.\nA B dá os prótons do flúor, não do oxigênio.\n\n**Resposta: A**"
+  },
+  "70": {
+   "assunto": "Química ambiental",
+   "resolucao": "O primeiro pictograma (chama) indica produto inflamável; o segundo (silhueta com o tórax danificado) indica perigo grave à saúde, como toxicidade ao ser inalado ou aspirado.\nProduto inflamável, ainda mais em aerossol pressurizado, deve ficar em local fresco e longe do fogo e de fontes de calor.\nO risco à saúde por inalação pede uso em ambiente ventilado, para não acumular vapores (que também poderiam pegar fogo).\nA B erra no \"ambiente fechado\", e A, C e D contrariam o cuidado com calor e fogo.\n\n**Resposta: E**"
+  },
+  "71": {
+   "assunto": "Eletroquímica",
+   "resolucao": "O texto diz que a voltagem residual indica lítio metálico ainda não reagido, e que esse lítio, em contato com água ou umidade, libera calor e hidrogênio, que podem pegar fogo.\nNessa reação o lítio perde elétrons, ou seja, é oxidado pela água: $2\\text{Li} + 2\\text{H}_2\\text{O} \\longrightarrow 2\\text{LiOH} + \\text{H}_2$.\nDescarregar a pilha por completo consome o lítio metálico (que vira $\\text{Li}_2\\text{O}$), e assim essa reação perigosa deixa de acontecer.\nA B está errada porque o lítio não sofre redução, e a A e a E não dependem da carga da pilha.\n\n**Resposta: D**"
+  },
+  "72": {
+   "assunto": "Reações e estequiometria",
+   "resolucao": "O gás coletado é uma mistura de $\\text{CO}_2$ e vapor de água, então a pressão do $\\text{CO}_2$ é a total menos a do vapor:\n$p_{\\text{CO}_2} = 726{,}7 - 26{,}7 = 700\\ \\text{mmHg}$.\nCom $V = 0{,}030\\ \\text{L}$ e $T = 300\\ \\text{K}$: $n = \\frac{pV}{RT} = \\frac{700 \\cdot 0{,}030}{62{,}3 \\cdot 300} \\approx 1{,}1 \\times 10^{-3}\\ \\text{mol}$ de $\\text{CO}_2$.\nPela reação $\\text{CaCO}_3 + 2\\text{HC}\\ell \\longrightarrow \\text{CaC}\\ell_2 + \\text{H}_2\\text{O} + \\text{CO}_2$, cada mol de $\\text{CaCO}_3$ dá 1 mol de $\\text{CO}_2$.\nCom $M(\\text{CaCO}_3) \\approx 100\\ \\text{g/mol}$: $m \\approx 1{,}1 \\times 10^{-3} \\cdot 100 \\approx 0{,}11\\ \\text{g}$, ou seja, cerca de 0,1 g.\n\n**Resposta: C**"
+  },
+  "73": {
+   "assunto": "Termoquímica",
+   "resolucao": "Formação do ácido acético: $2\\text{C} + 2\\text{H}_2 + \\text{O}_2 \\longrightarrow \\text{C}_2\\text{H}_4\\text{O}_2$.\nPela lei de Hess, some as combustões de 2 mol de C e de 2 mol de $\\text{H}_2$ e inverta a combustão do ácido:\n$\\Delta H_f = 2(-394) + 2(-286) - (-874) = -788 - 572 + 874 = -486\\ \\text{kJ/mol}$.\nQuem esquece de inverter a combustão do ácido chega a $-1\\,554$ (C).\n\n**Resposta: A**"
+  },
+  "74": {
+   "assunto": "Equilíbrio químico",
+   "resolucao": "Massa molar do $\\text{Ca(OH)}_2$: $40 + 2 \\cdot 17 = 74\\ \\text{g/mol}$.\nSolubilidade em mol/L: $s = \\frac{1{,}7}{74} \\approx 0{,}023\\ \\text{mol/L}$.\nDissociação: $\\text{Ca(OH)}_2 \\rightleftharpoons \\text{Ca}^{2+} + 2\\,\\text{OH}^-$, então $[\\text{Ca}^{2+}] = s$ e $[\\text{OH}^-] = 2s$.\n$K_{\\text{ps}} = s \\cdot (2s)^2 = 4s^3 = 4 \\cdot (0{,}023)^3 \\approx 4 \\cdot 1{,}2 \\times 10^{-5} \\approx 5 \\times 10^{-5}$.\nQuem esquece o coeficiente 2 do $\\text{OH}^-$ calcula $s^3$ e erra a ordem de grandeza.\n\n**Resposta: E**"
+  },
+  "75": {
+   "assunto": "Química orgânica",
+   "resolucao": "O ácido pirúvico ($\\text{CH}_3 - \\text{CO} - \\text{COOH}$) tem um grupo carbonila de cetona; com $[\\text{H}]$, ele vira o grupo $\\text{CH(OH)}$ do ácido láctico. Ganho de hidrogênio é redução.\nO ácido pirúvico não tem carbono quiral (o carbono da carbonila faz ligação dupla), por isso é opticamente inativo.\nNo ácido láctico, o carbono do $\\text{CH(OH)}$ está ligado a quatro grupos diferentes ($\\text{H}$, $\\text{OH}$, $\\text{CH}_3$ e $\\text{COOH}$): é quiral, e o composto é opticamente ativo (a cunha da figura indica um dos enantiômeros).\nA carboxila não muda, o que elimina C e E.\n\n**Resposta: B**"
+  },
+  "76": {
+   "assunto": "Cinemática",
+   "resolucao": "Num MUV a aceleração é constante, então seu gráfico é feito de segmentos horizontais: é o gráfico I (positiva no trecho 1, nula no 2, negativa no 3 e positiva no 4, na nova frenagem).\nA velocidade varia linearmente no MUV e é constante no MU: é o gráfico III, que sobe, fica constante, desce passando por zero (a inversão de sentido) e volta a zero.\nA posição tem trechos parabólicos e é máxima quando a velocidade se anula: é o gráfico II, que sobe, atinge o máximo no meio do trecho 3 e depois diminui.\n\n**Resposta: D**"
+  },
+  "77": {
+   "assunto": "Eletrostática",
+   "resolucao": "$\\text{B}_1$ tem um só anel, com um grupo $\\text{CH}_3$: é uma pirimidina, a timina. $\\text{B}_2$ tem dois anéis e um grupo $\\text{NH}_2$: é uma purina, a adenina. Timina pareia com adenina.\nForças sobre $\\text{B}_1$, pelos sentidos das setas: $F_1$ e $F_4$ (atrações) apontam para $\\text{B}_2$; $F_2$ e $F_3$ (repulsões) apontam para o lado oposto. Como são paralelas:\n$F_R = F_1 + F_4 - F_2 - F_3 = (8{,}0 + 6{,}4 - 3{,}0 - 2{,}6) \\times 10^{-9} = 8{,}8 \\times 10^{-9}\\ \\text{N}$.\nA D soma as quatro intensidades ($2{,}0 \\times 10^{-8}\\ \\text{N}$) sem considerar os sentidos.\n\n**Resposta: C**"
+  },
+  "78": {
+   "assunto": "Termodinâmica",
+   "resolucao": "Na posição inicial, o ar no copo está à pressão atmosférica: $p_1 = 10^5\\ \\text{Pa}$.\nA 2,5 m de profundidade: $p_2 = p_{\\text{atm}} + dgh = 10^5 + 10^3 \\cdot 10 \\cdot 2{,}5 = 1{,}25 \\times 10^5\\ \\text{Pa}$.\nCom temperatura constante (lei de Boyle), $p_1 V_1 = p_2 V_2$, então:\n$\\frac{V_2}{V_1} = \\frac{p_1}{p_2} = \\frac{1}{1{,}25} = 0{,}80$.\nO ar é comprimido em 20%, e por isso entra um pouco de água no copo.\n\n**Resposta: B**"
+  },
+  "79": {
+   "assunto": "Óptica",
+   "resolucao": "No gráfico, a solução de 40 °Bx corresponde a um índice de refração de cerca de 1,40.\nO índice absoluto é $n = \\frac{c}{v}$, então:\n$v = \\frac{c}{n} = \\frac{3 \\times 10^8}{1{,}4} \\approx 2{,}1 \\times 10^8\\ \\text{m/s}$.\nA luz fica mais lenta na solução, por isso a velocidade precisa ser menor que $3 \\times 10^8\\ \\text{m/s}$, mas não tanto quanto nas alternativas A, D e E.\n\n**Resposta: C**"
+  },
+  "80": {
+   "assunto": "Ondulatória",
+   "resolucao": "A curva mostra que a bilirrubina absorve mais a luz de 461 nm, então essa é a cor mais efetiva.\nFrequência: $f = \\frac{c}{\\lambda} = \\frac{3 \\times 10^8}{461 \\times 10^{-9}} \\approx 6{,}5 \\times 10^{14}\\ \\text{Hz}$.\nA A confunde comprimento de onda com frequência. A B e a E contrariam a curva, que é alta no azul e no violeta e quase nula a partir do verde.\nA C erra a física: o ultravioleta tem frequência maior que a do azul. Ele não age porque é absorvido pelo vidro da lâmpada, como diz o texto.\n\n**Resposta: D**"
+  },
+  "81": {
+   "assunto": "Eletrodinâmica",
+   "resolucao": "A mielina tem resistividade muito maior que a do axônio, então funciona como um isolante elétrico em volta dele.\nAssim, a corrente associada ao sinal não escapa para fora: fica confinada no axônio.\nCom menos perda de carga para o meio, o sinal se propaga mais depressa (nas fibras mielinizadas, ele \"salta\" entre os trechos sem mielina).\nB e D erram ao pôr o sinal na mielina, que é justamente o material de alta resistividade, e a C erra o efeito sobre a velocidade.\n\n**Resposta: A**"
+  },
+  "82": {
+   "assunto": "Magnetismo",
+   "resolucao": "Na figura, a corrente entra pelo terminal da direita e sai pelo da esquerda. Nos trechos de fio desenhados na frente da face, ela desce, e nos trechos de trás, sobe.\nPela regra da mão direita, com os dedos acompanhando a corrente nas espiras, o polegar aponta para a direita: o campo do solenoide no eixo é horizontal, para a direita.\nO campo terrestre $\\vec{B}_{\\text{T}}$ aponta para cima e é perpendicular ao eixo.\nA soma de um vetor para a direita com um vetor para cima é um vetor inclinado para cima e para a direita.\nAs alternativas A e C (vetores perpendiculares à folha) não servem, porque os dois campos estão no plano da figura.\n\n**Resposta: B**"
+  },
+  "83": {
+   "assunto": "Estatística",
+   "resolucao": "Ter 60% ou mais das matrículas na rede privada significa que a razão privado/público é pelo menos $\\frac{60}{40} = 1{,}5$.\nUnidades com razão maior ou igual a 1,5 no gráfico: SP (3,5), RO (2,7), DF (2,2), ES (2,0), SC (2,0), RJ (1,9), GO (1,8), BA, CE, MG e PE (1,6) e RS (1,5).\nSão 12 unidades da Federação. O erro mais comum é tomar 0,6 como limite da razão, e não da porcentagem: assim se contam quase todas.\n\n**Resposta: E**"
+  },
+  "84": {
+   "assunto": "Geometria plana",
+   "resolucao": "Pela malha (cada unidade dividida em 5), A = (2, 0), D = (6,4; 0), E = (2, 1), B = (2; 1,4), G = (6,4; 1), F = (6,4; 3) e C = (6,4; 3,4). A largura comum é $6{,}4 - 2 = 4{,}4$.\nParalelogramo EBCF: base $EB = 0{,}4$ e altura 4,4, então $S_1 = 1{,}76$.\nTriângulo EFG: catetos $EG = 4{,}4$ e $GF = 2$, então $S_2 = \\frac{4{,}4 \\cdot 2}{2} = 4{,}4$.\nRetângulo AEGD: $S_3 = 4{,}4 \\cdot 1 = 4{,}4$.\nLogo $S_2 = S_3 = 2{,}5\\,S_1$, e $5 \\cdot S_1 = 2 \\cdot S_2 = 2 \\cdot S_3 = 8{,}8$.\n\n**Resposta: C**"
+  },
+  "85": {
+   "assunto": "Polinômios e equações",
+   "resolucao": "Para ser quadrática, $n \\neq 0$. Duas raízes reais distintas exigem $\\Delta > 0$: $1 - 4n > 0$, ou seja, $n < \\frac{1}{4}$.\nPara as duas serem positivas, a soma e o produto devem ser positivos: soma $= \\frac{1}{n} > 0$ e produto $= \\frac{1}{n} > 0$, então $n > 0$.\nJuntando: $0 < n < \\frac{1}{4}$.\nA B esquece o sinal das raízes: com $n < 0$ o produto é negativo, e há uma raiz positiva e outra negativa.\n\n**Resposta: A**"
+  },
+  "86": {
+   "assunto": "Geometria analítica",
+   "resolucao": "O centro de massa é a média das posições dos centros, ponderada pelas massas. A placa circular homogênea tem o centro de massa no seu centro, (2, 1).\nCom as três placas, a massa total é $2 + 3 + 3 = 8$ kg:\n$x_c = \\frac{2 \\cdot 2 + 3 \\cdot 10 + 3 \\cdot 2}{8} = \\frac{40}{8} = 5$ e\n$y_c = \\frac{2 \\cdot 3 + 3 \\cdot 5 + 3 \\cdot 1}{8} = \\frac{24}{8} = 3$\nO novo centro de massa é (5; 3).\n\n**Resposta: D**"
+  },
+  "87": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Ana tem três somas possíveis, igualmente prováveis: $8 + 9 = 17$, $8 + 10 = 18$ e $9 + 10 = 19$.\nBeto tem três produtos possíveis, igualmente prováveis: $3 \\cdot 5 = 15$, $3 \\cdot 6 = 18$ e $5 \\cdot 6 = 30$.\nSão $3 \\cdot 3 = 9$ pares igualmente prováveis. Ana fica maior ou igual em: contra 15, as três somas (3 casos); contra 18, as somas 18 e 19 (2 casos); contra 30, nenhuma.\nProbabilidade: $\\frac{3 + 2}{9} = \\frac{5}{9}$.\n\n**Resposta: E**"
+  },
+  "88": {
+   "assunto": "Exponencial e logaritmo",
+   "resolucao": "No instante zero, $f(0) = t \\cdot u^0 = t = 3$.\nSete meses depois: $f(7) = 3 \\cdot u^7 = 18\\,000$, então $u^7 = 6000$ e $u = 6000^{\\frac{1}{7}}$.\nEsse é o valor de $g(7)$, que o gráfico dá: $u \\approx 3{,}47$.\nLogo $t + u \\approx 3 + 3{,}47 = 6{,}47$.\n\n**Resposta: C**"
+  },
+  "89": {
+   "assunto": "Trigonometria",
+   "resolucao": "A rampa vai de (0, 0) a (30; −17,5), então $\\text{tg}\\,\\alpha = \\frac{17{,}5}{30} \\approx 0{,}583$.\nNa tabela, $\\text{tg}\\,30^\\circ = 0{,}577 < 0{,}583 < 0{,}601 = \\text{tg}\\,31^\\circ$, logo $30^\\circ < \\alpha < 31^\\circ$.\nO pilar menor fica em $x = 22$ (na parede esquerda da casa) e vai do eixo $x$ até a rampa. Por semelhança de triângulos, a altura é proporcional a $x$:\n$h = 22 \\cdot \\frac{17{,}5}{30} = \\frac{385}{30} = \\frac{77}{6} \\approx 12{,}8\\ \\text{m}$.\n\n**Resposta: B**"
+  },
+  "90": {
+   "assunto": "Combinatória e probabilidade",
+   "resolucao": "Basta conferir os pares vizinhos de 13246: 1-3, 3-2, 2-4 e 4-6.\nO par 3-2 é formado por algarismos consecutivos em ordem decrescente, que é exatamente o que o trecho \"da direita para a esquerda\" proíbe (o exemplo do enunciado é 65).\nOs demais requisitos estão cumpridos: são cinco algarismos diferentes, sem zero, e não há pares crescentes consecutivos como 12.\nLogo, o ChatGPT só checou a condição \"da esquerda para a direita\" e ignorou a outra.\n\n**Resposta: D**"
+  }
+ },
+ "relatorio": [
+  {
+   "numero": 61,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 62,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 63,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 64,
+   "status": "corrigida",
+   "notas": "descrição da figura: eram \"duas pessoas conversando\", mas os três quadros mostram pessoas diferentes (seis no total); registrado o destaque em negrito de MENTE na fala"
+  },
+  {
+   "numero": 65,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 66,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 67,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 68,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 69,
+   "status": "corrigida",
+   "notas": "acrescentada Nota da plataforma com os números atômicos de F e O, tirados da Classificação Periódica do caderno (p. 35); esta edição não tem a tabela periódica configurada na plataforma"
+  },
+  {
+   "numero": 70,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 71,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 72,
+   "status": "corrigida",
+   "notas": "acrescentada Nota da plataforma com as massas atômicas de C, O e Ca (Classificação Periódica do caderno, p. 35), necessárias para a massa molar do CaCO₃"
+  },
+  {
+   "numero": 73,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 74,
+   "status": "corrigida",
+   "notas": "acrescentada Nota da plataforma com as massas atômicas de H, O e Ca (Classificação Periódica do caderno, p. 35), necessárias para a massa molar do Ca(OH)₂"
+  },
+  {
+   "numero": 75,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 76,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 77,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 78,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 79,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 80,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 81,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 82,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 83,
+   "status": "corrigida",
+   "notas": "materias_extra: retirada \"geografia\"; a questão cobra só leitura de gráfico e porcentagem/razão"
+  },
+  {
+   "numero": 84,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 85,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 86,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 87,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 88,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 89,
+   "status": "ok",
+   "notas": ""
+  },
+  {
+   "numero": 90,
+   "status": "ok",
+   "notas": ""
+  }
+ ]
+}

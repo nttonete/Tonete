@@ -1,0 +1,503 @@
+{
+  "edicao": "unesp-2020-1",
+  "textos_base": {
+    "t34-35": "Leia o texto e observe o mapa para responder às questões 34 e 35.\n\nNem existia Brasil no começo dessa história. Existiam o Peru e o México, no contexto pré-colombiano, mas Argentina, Brasil, Chile, Estados Unidos, Canadá, não. No que seria o Brasil, havia gente no Norte, no Rio, depois no Sul, mas toda essa gente tinha pouca relação entre si até meados do século XVIII. E há aí a questão da navegação marítima, torna-se importante aprender bem história marítima, que é ligada à geografia. [...] Essa compreensão me deu muita liberdade para ver as relações que Rio, Pernambuco e Bahia tinham com Luanda. Depois a Bahia tem muito mais relação com o antigo Daomé, hoje Benin, na Costa da Mina. Isso formava um todo, muito mais do que o Brasil ou a América portuguesa. [...]\n\nNunca os missionários entraram na briga para saber se o africano havia sido ilegalmente escravizado ou não, mas a escravidão indígena foi embargada pelos missionários desde o começo, e isso também é um pouco interesse dos negreiros, ou seja, que a escravidão africana predomine. [...] A escravização tem dois processos: o primeiro é a despersonalização, e o segundo é a dessocialização.\n\n![Mapa do Atlântico Sul com as rotas do tráfico de escravizados: Trato da Alta Guiné, Trato da Costa da Mina, Trato de Angola e Trato do Prata](fig:p11-f1)\n\n(Luiz Felipe de Alencastro. Entrevista a Mariluce Moura. “O observador do Brasil no Atlântico Sul”. In: *Revista Pesquisa Fapesp*, nº 188, outubro de 2011.)"
+  },
+  "questoes": [
+    {
+      "numero": 31,
+      "materia": "historia",
+      "materias_extra": [
+        "filosofia"
+      ],
+      "texto_base": null,
+      "enunciado": "A *Odisseia* choca-se com a questão do passado. Para perscrutar o futuro e o passado, recorre-se geralmente ao adivinho. Inspirado pela musa, o adivinho vê o antes e o além: circula entre os deuses e entre os homens, não todos os homens, mas os heróis, preferencialmente mortos gloriosamente em combate. Ao celebrar aqueles que passaram, ele forja o passado, mas um passado sem duração, acabado.\n\n(François Hartog. *Regimes de historicidade: presentismo e experiências do tempo*, 2015. Adaptado.)\n\nO texto afirma que a obra de Homero",
+      "alternativas": {
+        "A": "questiona as ações heroicas dos povos fundadores da Grécia Antiga, pois se baseia na concepção filosófica de *physis*.",
+        "B": "valoriza os mitos em que os gregos acreditavam e que estão no fundamento das concepções modernas de tempo e história.",
+        "C": "é fundadora da ideia de história, pois concebe o passado como um tempo que prossegue no presente e ensina os homens a aprenderem com seus erros.",
+        "D": "identifica uma forma do pensamento mítico e uma visão de passado estranha à ideia de diálogo entre temporalidades, que caracteriza a história.",
+        "E": "desenvolve uma abordagem crítica do passado e uma reflexão de caráter racionalista, semelhantes à da filosofia pré-socrática."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 32,
+      "materia": "artes",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "Observe a imagem.\n\n![Fotografia do interior da Catedral de Notre-Dame, em Paris, com a nave central, colunas, arcos e vitrais](fig:p10-f1)\n\n(www.culturagenial.com)\n\nA Catedral de Notre-Dame, em Paris, parcialmente destruída por um incêndio em abril de 2019, é um exemplo da arquitetura",
+      "alternativas": {
+        "A": "gótica, expressa na verticalidade e no emprego de arcos e vitrais.",
+        "B": "românica, expressa no desenho do teto e da abóbada principal.",
+        "C": "clássica, expressa na composição simétrica e na presença de colunas dóricas.",
+        "D": "*art nouveau*, expressa na utilização de elementos geométricos decorativos.",
+        "E": "eclética, expressa no pastiche entre elementos barrocos e neoclássicos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 33,
+      "materia": "historia",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": null,
+      "enunciado": "[Leonardo da Vinci] viu que “a água corrente detém em si um número infinito de movimentos”.\n\nUm “número infinito”? Para Leonardo, não se trata apenas de uma figura de linguagem. Ao falar da variedade infinita da natureza e sobretudo de fenômenos como as correntes de água, ele estava fazendo uma distinção baseada na preferência por sistemas analógicos sobre os digitais. Em um sistema analógico, há gradações infinitas, o que se aplica à maioria das coisas que fascinavam Leonardo: sombras de *sfumato*, cores, movimento, ondas, a passagem do tempo, a dinâmica dos fluidos.\n\n(Walter Isaacson. *Leonardo da Vinci*, 2017.)\n\nA partir da explicação do texto sobre Leonardo da Vinci, pode-se afirmar que",
+      "alternativas": {
+        "A": "o princípio cristão da vida eterna orientou o pensamento renascentista.",
+        "B": "o materialismo pré-socrático foi a principal sustentação teórica do Renascimento.",
+        "C": "os experimentos da Antiguidade oriental basearam a ciência renascentista.",
+        "D": "as concepções artísticas medievais fundamentaram a arte renascentista.",
+        "E": "a observação da pluralidade da natureza foi um dos fundamentos do Renascimento."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 34,
+      "materia": "historia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": "t34-35",
+      "enunciado": "O texto estabelece a formação do Brasil a partir da navegação marítima, o que implica reconhecer a importância",
+      "alternativas": {
+        "A": "da imposição de uma lógica global de comércio e da dissolução das fronteiras entre os territórios colonizados na América.",
+        "B": "do domínio colonial de Portugal sobre o litoral africano e da intermediação espanhola no tráfico escravagista.",
+        "C": "do controle das rotas marítimas por navegadores italianos e da conformação do conceito geográfico de Ocidente.",
+        "D": "da constituição do espaço geográfico do Atlântico Sul e da relação estabelecida entre os continentes americano e africano.",
+        "E": "do surgimento do tráfico de africanos escravizados e das relações comerciais do Brasil com a América espanhola."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 35,
+      "materia": "historia",
+      "materias_extra": [
+        "sociologia"
+      ],
+      "texto_base": "t34-35",
+      "enunciado": "A “despersonalização” e a “dessocialização” dos escravizados podem ser associadas, respectivamente,",
+      "alternativas": {
+        "A": "ao fato de que os escravos eram identificados por números marcados a ferro e à interdição do contato entre os cativos e seus senhores.",
+        "B": "à noção do escravo como mercadoria e ao fato de que os africanos eram extraídos de sua comunidade de origem.",
+        "C": "à noção do escravo como tolerante ao trabalho compulsório e ao fato de que ele era proibido de fazer amizades ou constituir família.",
+        "D": "ao fato de que os escravos eram etnologicamente indistintos e à proibição de realização de festas e cultos.",
+        "E": "à noção do escravo como desconhecedor do território colonial e ao fato de que ele não era reconhecido como brasileiro."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 36,
+      "materia": "filosofia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "Cada um de nós põe em comum sua pessoa e todo o seu poder sob a direção suprema da vontade geral, e recebemos, enquanto corpo, cada membro como parte indivisível do todo. [...] um corpo moral e coletivo, composto de tantos membros quantos são os votos da assembleia [...]. Essa pessoa pública, que se forma, desse modo, pela união de todas as outras, tomava antigamente o nome de *cidade* e, hoje, o de *república* ou de *corpo político*, o qual é chamado por seus membros de *Estado* [...].\n\n(Jean-Jacques Rousseau. *Os pensadores*, 1983.)\n\nO texto, produzido no âmbito do Iluminismo francês, apresenta a doutrina política do",
+      "alternativas": {
+        "A": "coletivismo, manifesto na rejeição da propriedade privada e na defesa dos programas socialistas de estatização.",
+        "B": "humanismo, presente no projeto liberal de valorizar o indivíduo e sua realização no trabalho.",
+        "C": "socialismo, presente na crítica ao absolutismo monárquico e na defesa da completa igualdade socioeconômica.",
+        "D": "corporativismo, presente na proposta fascista de unir o povo em torno da identidade e da vontade nacional.",
+        "E": "contratualismo, manifesto na reação ao Antigo Regime e na defesa dos direitos de cidadania."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 37,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Na Europa, as forças reacionárias que compunham a Santa Aliança não viam com bons olhos a emancipação política das colônias ibéricas na América. […] Todavia, o novo Império do Brasil podia contar com a aliança da poderosa Inglaterra, representada por George Canning, primeiro-ministro do rei Jorge IV. […] Canning acabaria por convencer o governo português a aceitar a soberania do Brasil, em 1825. Uma atitude coerente com o apoio que o governo britânico dera aos EUA, no ano anterior, por ocasião do lançamento da Doutrina Monroe, que afirmava o princípio da não intervenção europeia na América.\n\n(Ilmar Rohloff de Mattos e Luis Affonso Seigneur de Albuquerque. *Independência ou morte: a emancipação política do Brasil*, 1991.)\n\nO texto relaciona",
+      "alternativas": {
+        "A": "a restauração das monarquias absolutistas no continente europeu, a industrialização dos Estados Unidos e a constituição da Federação dos Estados Independentes da América Latina.",
+        "B": "a influência da Igreja católica nos assuntos políticos europeus, o controle britânico dos mares depois do Ato de Navegação e o avanço imperialista dos Estados Unidos sobre o Brasil.",
+        "C": "a disposição europeia de recolonização da América, o Bloqueio Continental determinado pela França e os acordos de livre-comércio do Brasil com os países hispano-americanos.",
+        "D": "a penetração dos industrializados britânicos nos mercados europeus, a tolerância portuguesa em relação ao emancipacionismo brasileiro e a independência política dos Estados Unidos.",
+        "E": "a reorganização da Europa continental depois do período de domínio napoleônico, os processos de independência na América e a ampliação do controle comercial mundial pela Inglaterra."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 38,
+      "materia": "historia",
+      "materias_extra": [
+        "literatura"
+      ],
+      "texto_base": null,
+      "enunciado": "Era esta uma das artérias principais da cidade e regurgitara de gente durante o dia todo. Mas, ao aproximar-se o anoitecer, a multidão engrossou e, quando as lâmpadas se acenderam, duas densas e contínuas ondas de passantes desfilavam [...].\n\nMuitos dos passantes tinham um aspecto prazerosamente comercial e pareciam pensar apenas em abrir caminho através da turba. Traziam as sobrancelhas vincadas e seus olhos moviam-se rapidamente; quando davam algum encontrão em outro passante, não mostravam sinais de impaciência; recompunham-se e continuavam, apressados, seu caminho.\n\n(*Contos de Edgar Allan Poe*, 1986.)\n\nO conto, originalmente publicado em 1840, apresenta um perfil das metrópoles do século XIX, destacando",
+      "alternativas": {
+        "A": "a solidariedade entre os habitantes, o desenvolvimento da cidadania e a força da indústria.",
+        "B": "o declínio das atividades comerciais, os ruídos incessantes das ruas e a solidão dos habitantes.",
+        "C": "a conformação de uma nova sensibilidade, o arcaísmo tecnológico e a imobilidade dos habitantes.",
+        "D": "o ordenamento do espaço urbano, o controle policial da circulação e o crescimento do desemprego.",
+        "E": "o crescimento populacional, a dinâmica da circulação urbana e a impessoalidade nas relações."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 39,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Observe a gravura.\n\n![Gravura em preto e branco de José Guadalupe Posada, “Caveira revolucionária”: esqueleto de sombrero montado a cavalo, com quatro pequenas figuras esqueléticas abaixo](fig:p13-f1)\n\n(José Guadalupe Posada. “Caveira revolucionária”. *In*: *J.G. Posada: Mexican Popular Prints*, 1993.)\n\nProduzida no início da década de 1910, a gravura representa a Revolução Mexicana como marcada",
+      "alternativas": {
+        "A": "pela participação feminina e pela recuperação de elementos da tradição pré-colombiana.",
+        "B": "pela vitória dos projetos revolucionários populares e pela construção de uma nova ordem social.",
+        "C": "pela negociação político-diplomática e pelos altos índices de assassinatos de mulheres.",
+        "D": "pela interferência de países estrangeiros e pela perda da autonomia do país.",
+        "E": "pela repressão governamental e pela imposição de castigos físicos aos revolucionários."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 40,
+      "materia": "historia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "A construção de Brasília pode ser considerada a principal meta do Plano de Metas [...]. Para alguns analistas, a nova capital seria o elemento propulsor de um projeto de identidade nacional comprometido com a modernidade, cuja face mais visível seria a arquitetura modernista de Oscar Niemeyer e Lúcio Costa. Ao mesmo tempo, no entanto, a interiorização da capital faria parte de um antigo projeto de organização espacial do território brasileiro, que visava ampliar as fronteiras econômicas rumo ao Oeste e alavancar a expansão capitalista nacional.\n\n(Marly Motta. “Um presidente bossa-nova”. *In*: Luciano Figueiredo (org.). *História do Brasil para ocupados*, 2013.)\n\nO texto expõe dois significados da construção de Brasília durante o governo de Juscelino Kubitschek. Esses dois significados relacionam-se, pois",
+      "alternativas": {
+        "A": "denotam o esforço de construção de um espaço geográfico brasileiro com o intuito de assegurar o equilíbrio econômico e político entre as várias regiões do país.",
+        "B": "demonstram o nacionalismo xenófobo do governo Kubitschek e sua disposição de isolar o Brasil dos demais países do continente americano.",
+        "C": "revelam a importância da redefinição do espaço territorial para a implantação de um projeto de restrições à entrada de capitais e investimentos estrangeiros.",
+        "D": "explicitam a postura antiliberal do governo Kubitschek e sua intenção de implantar um regime de igualdade social no país.",
+        "E": "indicam o surgimento de uma expressão arquitetônica original e baseada no modelo de edificação predominante entre os primeiros habitantes do atual Brasil."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 41,
+      "materia": "historia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Dois fatores que contribuíram para os processos de emancipação política na África e na Ásia no pós-Segunda Guerra Mundial foram:",
+      "alternativas": {
+        "A": "a defesa chinesa de uma política de neutralidade ante os conflitos regionais e o fim da Guerra Fria, que opunha Estados Unidos e União Soviética.",
+        "B": "a partilha europeia do continente africano e a crise do petróleo, que obrigou os países ricos a negociar com lideranças políticas da África e do Oriente Médio.",
+        "C": "o nacionalismo de organizações civis dentro das colônias e o princípio da autodeterminação dos povos, que era defendido pela ONU.",
+        "D": "a crescente autossuficiência econômica dos países africanos e o surgimento do pan-africanismo, que unificou as lutas no continente.",
+        "E": "a ascensão econômica dos países do chamado Terceiro Mundo e a ação vietcongue, que expulsou os colonizadores da Indochina francesa."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 42,
+      "materia": "sociologia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "O terrorismo atual utiliza as técnicas do espetáculo produzindo vídeos e montagens por vezes muito bem elaborados. O controle dos meios de difusão de conteúdo é certamente outra novidade, possibilitada pelo advento da internet [...]. Por mais chocante que possa ser o conteúdo difundido pelo Estado Islâmico, sua forma é já reveladora de que a violência está subordinada a uma lógica espetacular.\n\n(Gabriel F. Zacarias. *No espelho do terror: jihad e espetáculo*, 2018.)\n\nO texto caracteriza o terrorismo atual como peculiar, pois este",
+      "alternativas": {
+        "A": "promove a inclusão digital de populações pobres e amplia o acesso às novas ferramentas de comunicação e divulgação.",
+        "B": "combate a centralização do poder financeiro no Ocidente e direciona sua propaganda apenas aos seguidores e simpatizantes.",
+        "C": "rejeita a cultura ocidental do espetáculo e reitera valores e princípios originários de sociedades tradicionais do Oriente próximo.",
+        "D": "recorre a estratégias de ação de forte impacto visual e divulga suas atividades por meio das novas tecnologias.",
+        "E": "valoriza a violência como instrumento de transformação política e rejeita a adesão de pessoas nascidas no Ocidente."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 43,
+      "materia": "sociologia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "O advento de chefes de Estado-empresa marca uma transição sistêmica entre o enfraquecimento do Estado-nação e o fortalecimento da corporação apoiada em sua racionalidade técnico-econômica e gerencial. Essa transferência leva, por um lado, ao esvaziamento do Estado, reduzido à administração e à gestão, e, de outro, à politização da empresa, que expande sua esfera de poder muito além de sua atividade tradicional de produção. A corporação tende a se tornar o novo poder político-cultural.\n\n(Pierre Musso. “Na era do Estado-empresa”. http://diplomatique.org.br, 30.04.2019. Adaptado.)\n\nCoerentes com o neoliberalismo, as propostas do Estado-empresa convergem para",
+      "alternativas": {
+        "A": "a apropriação das forças produtivas pelo Estado e a defesa da igualdade social.",
+        "B": "o pluralismo democrático e a redistribuição de renda por programas de assistência social.",
+        "C": "a regulamentação da força de trabalho e a defesa da produção flexível.",
+        "D": "o protecionismo econômico e a implantação de políticas fiscais contra a inflação.",
+        "E": "a adoção de privatizações e a mínima intervenção do Estado na economia."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 44,
+      "materia": "sociologia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "A reação diante da alteridade¹ faz parte da própria natureza das sociedades. Em diferentes épocas, sociedades particulares reagiram de formas específicas diante do contato com uma cultura diversa à sua. Um fenômeno, porém, caracteriza todas as sociedades humanas: o estranhamento, que chamamos etnocentrismo, diante de costumes de outros povos, e a avaliação de formas de vida distintas a partir dos elementos da sua própria cultura. Assim, percebemos como o etnocentrismo se relaciona com o conceito de estereótipo². Os estereótipos são uma maneira de “biologizar” as características de um grupo, isto é, considerá-las como fruto exclusivo da biologia, da anatomia. No interior de nossa sociedade, encontramos uma série de atitudes etnocêntricas e biologicistas.\n\n(https://gdeufabc.wordpress.com)\n\n¹ alteridade: característica, estado ou qualidade de ser distinto e diferente, de ser outro.\n² estereótipo: ideia ou convicção classificatória preconcebida sobre alguém ou algo.\n\nUm exemplo de etnocentrismo incorporado a uma política estatal foi",
+      "alternativas": {
+        "A": "o movimento sionista, na Palestina.",
+        "B": "o *apartheid*, na África do Sul.",
+        "C": "a questão curda, na Turquia.",
+        "D": "a primavera árabe, na Síria.",
+        "E": "a balcanização, na Chechênia."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 45,
+      "materia": "sociologia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "“Eu tinha muito medo, estava sozinha, não tinha como não trabalhar. Ela não me deixava amamentar meu filho pela manhã, dizia que eu perderia tempo.” (Dora E. A. Calle)\n\n“Quando eu precisava sair da casa, sempre tinha que pedir a chave. E nessa hora a chave sempre sumia.” (Raul G. P. Mendoza)\n\n“A casa onde eu trabalhava tinha outros 14 bolivianos, que, assim como eu, queriam guardar dinheiro e voltar para nosso país. Mas não é bem assim que acontece.” (Alicia V. Balboa)\n\n(Bárbara Forte. “Tecendo sonhos”. https://noticias.bol.uol.com.br, 09.05.2019. Adaptado.)\n\nEsses depoimentos retratam a realidade vivida por imigrantes bolivianos que trabalharam no setor têxtil da capital paulista. Os depoimentos evidenciam",
+      "alternativas": {
+        "A": "a competitividade da Divisão Internacional do Trabalho.",
+        "B": "a relação de trabalho análoga à escravidão.",
+        "C": "o processo de segregação estimulado pela xenofobia.",
+        "D": "a flexibilização das leis trabalhistas.",
+        "E": "o descompasso do trabalho formal com as mudanças da globalização."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 46,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "![Mapa do Nordeste, Norte e Centro-Oeste do Brasil com a hinterlândia destacada, a Ferrovia Norte-Sul em operação e em construção, a Ferrovia Transnordestina e a Estrada de Ferro Carajás](fig:p15-f1)\n\n(www.emap.ma.gov.br. Adaptado.)\n\nA hinterlândia destacada no mapa corresponde",
+      "alternativas": {
+        "A": "à área atendida pelo porto do Itaqui, cuja localização é estratégica, devido à proximidade com o Canal de Suez.",
+        "B": "ao eixo concedido às frentes pioneiras, cuja ocupação territorial ocorreu devido ao deslocamento de posseiros.",
+        "C": "a uma área definida como Zona Franca, cuja produção industrial utiliza matéria-prima regional, devido às isenções de impostos.",
+        "D": "à área estabelecida para a atividade extrativista, cuja exploração ocorre em local protegido, devido aos riscos de contaminação.",
+        "E": "ao eixo de expansão agrícola da bacia do São Francisco, cuja espacialização é limitada, devido aos gargalos logísticos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 47,
+      "materia": "literatura",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "A ideia de pátria se vinculava estreitamente à de natureza e em parte extraía dela a sua justificativa. Ambas conduziam a uma literatura que compensava o atraso material e a debilidade das instituições por meio da supervalorização dos aspectos regionais, fazendo do exotismo razão de otimismo social. A partir de 1930 houve uma mudança de orientação, sobretudo na ficção regionalista, percebendo-se o que havia de mascaramento no encanto pitoresco com que antes se abordava o homem rústico. Evidenciou-se a realidade dos solos pobres, das técnicas arcaicas, da miséria pasmosa das populações, da sua incultura paralisante. A visão que resulta dessa perspectiva é pessimista quanto ao presente e problemática quanto ao futuro.\n\n(Antonio Candido. *A educação pela noite e outros ensaios*, 1989. Adaptado.)\n\nO excerto assinala uma reorientação nos rumos da literatura brasileira, na medida em que os escritores",
+      "alternativas": {
+        "A": "deparam-se com a instituição de uma regionalização oficial pelo IBGE.",
+        "B": "passam a mostrar os aspectos do Brasil como país subdesenvolvido.",
+        "C": "reconhecem o estabelecimento de alianças democráticas no Brasil.",
+        "D": "percebem a assimilação do *american way of life* pelo povo brasileiro.",
+        "E": "optam pelo emprego de uma visão eurocêntrica em sua produção literária."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 48,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O processo de desmetropolização, observado no Brasil desde o final do século XX, é caracterizado",
+      "alternativas": {
+        "A": "pela retração do setor terciário diante dos movimentos urbanos de compartilhamento de bens e serviços.",
+        "B": "pelo conflito jurídico na regulação do solo urbano, como resultado da conurbação entre as cidades.",
+        "C": "pelo registro de maior crescimento populacional em cidades médias, quando comparado ao das metrópoles.",
+        "D": "pela redução das manchas metropolitanas como resultado de uma saturação populacional.",
+        "E": "pela fragmentação de metrópoles em sub-regiões, para otimizar recursos financeiros e administrativos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 49,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Analise os diagramas.\n\n![Dois diagramas em bloco do relevo, numerados 1 e 2, com rocha exposta, solo sobre rocha alterada, radiação solar, circulação de ar, precipitação e água infiltrando-se em uma fratura da rocha](fig:p16-f1)\n\n(Dirce Maria A. Suertegaray (org.). *Terra: feições ilustradas*, 2008. Adaptado.)\n\nEsses diagramas demonstram o processo de",
+      "alternativas": {
+        "A": "desintegração mecânica acompanhada pela decomposição química das rochas na exposição aos agentes atmosféricos.",
+        "B": "formação de novos aquíferos pela concentração de fluxos de água em terrenos arenosos.",
+        "C": "metamorfismo sofrido por rochas magmáticas quando sujeitas ao calor e à pressão.",
+        "D": "diastrofismo da crosta terrestre pelo falhamento da superfície ao longo das eras geológicas.",
+        "E": "afloramento de rochas ricas em matéria orgânica na formação de novos escudos cristalinos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 50,
+      "materia": "geografia",
+      "materias_extra": [
+        "matematica"
+      ],
+      "texto_base": null,
+      "enunciado": "Com o intuito de formar uma rede de observação e coleta de dados sobre as chuvas, um professor de geografia instalou, nas escolas em que trabalha, instrumentos meteorológicos para recolher e medir a quantidade de água precipitada. Após uma chuva, um aluno verificou que o instrumento registrou 40 mL de água em um tubo, no formato de um cilindro reto com 20 cm de diâmetro, conforme a figura.\n\n![Cilindro graduado com água até a marca de 40 mL e diâmetro de 20 cm, indicado como fora de escala](fig:p16-c1)\n\nA partir dessas informações, o aluno deve comunicar ao professor que o valor aproximado indicado no",
+      "alternativas": {
+        "A": "pluviômetro foi 1,3 mm de chuva.",
+        "B": "higrômetro foi 1,3 mm de chuva.",
+        "C": "barômetro foi 2 mm de chuva.",
+        "D": "pluviômetro foi 2 mm de chuva.",
+        "E": "higrômetro foi 2 mm de chuva."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 51,
+      "materia": "biologia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "As figuras mostram, em três momentos distintos, a distribuição da qualidade do hábitat em uma região.\n\n![Três mapas de curvas de nível da qualidade do hábitat, Momento 1, Momento 2 e Momento 3, com escala de cores de menor a maior qualidade do hábitat](fig:p17-c1)\n\n(Rui Cerqueira *et al.* “Fragmentação: alguns conceitos”. *In*: Denise M. Rambaldi e Daniela A. S. de Oliveira (orgs.). *Fragmentos de ecossistemas*, 2003. Adaptado.)\n\nConsiderando conhecimentos de preservação ambiental, uma medida para minimizar os impactos da situação representada pelas figuras é",
+      "alternativas": {
+        "A": "o combate à prática de biopirataria.",
+        "B": "a criação de um cinturão agrícola.",
+        "C": "a adoção do sistema de terraceamento.",
+        "D": "o remanejamento de espécies ameaçadas.",
+        "E": "a implantação de corredores ecológicos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 52,
+      "materia": "biologia",
+      "materias_extra": [
+        "geografia"
+      ],
+      "texto_base": null,
+      "enunciado": "As abelhas são responsáveis pela maior parte da polinização em nosso planeta. Mesmo assim, estão sendo eliminadas, colocando em risco a conservação da biodiversidade e a segurança alimentar na Terra. Dentre as práticas que acirram o extermínio de abelhas, pode-se citar",
+      "alternativas": {
+        "A": "o terraceamento e o avanço da biotecnologia.",
+        "B": "a transgenia e a expansão de plantas silvestres.",
+        "C": "a rotação de culturas e a mecanização do campo.",
+        "D": "o uso de sementes crioulas e a silvicultura.",
+        "E": "a monocultura e o uso de agrotóxicos."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 53,
+      "materia": "geografia",
+      "materias_extra": [
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "Alguns especialistas argumentam que deveria haver rótulos climáticos na comida, da mesma forma que há informações sobre nutrição. Em teoria, os rótulos poderiam ajudar os consumidores a escolher produtos de baixo impacto ambiental e dariam aos agricultores e produtores mais incentivos para mudarem seus produtos.\n\n(The New York Times. “Como fazer compras, cozinhar e comer em um mundo que está aquecendo?”. www.folha.uol.com.br, 06.05.2019. Adaptado.)\n\nConsiderando a proposta apresentada pelo excerto, um dado que poderia constar nos rótulos de alimentos seria",
+      "alternativas": {
+        "A": "o débito fluvial.",
+        "B": "a estrutura fundiária.",
+        "C": "o código florestal.",
+        "D": "a pegada de carbono.",
+        "E": "a diversidade ecológica."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 54,
+      "materia": "geografia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Analise os mapas temáticos hipotéticos.\n\n![Três mapas temáticos hipotéticos, Mapa 1, Mapa 2 e Mapa 3, com áreas hachuradas, círculos, retângulos, linhas e símbolos pontuais](fig:p18-c1)\n\n(Marcello Martinelli. *Mapas, gráficos e redes*, 2014.)\n\nConsiderando os métodos de representação da cartografia temática, pode-se afirmar que o mapa temático",
+      "alternativas": {
+        "A": "2 apresenta relações de proporcionalidade entre os lugares.",
+        "B": "3 apresenta relações de ordem entre os lugares.",
+        "C": "3 apresenta relações de diversidade entre os lugares.",
+        "D": "1 apresenta relações de proporcionalidade entre os lugares.",
+        "E": "2 apresenta relações de ordem entre os lugares."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 55,
+      "materia": "filosofia",
+      "materias_extra": [
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "Em 4 de julho de 2012, foi detectada uma nova partícula, que pode ser o bóson de Higgs. Trata-se de uma partícula elementar proposta pelo físico teórico Peter Higgs, e que validaria a teoria do modelo padrão, segundo a qual o bóson de Higgs seria a partícula elementar responsável pela origem da massa de todas as outras partículas elementares.\n\n(Jean Júnio M. Pimenta *et al.* “O bóson de Higgs”. *In*: *Revista brasileira de ensino de física*, vol. 35, nº 2, 2013. Adaptado.)\n\nO que se descreve no texto possui relação com o conceito de arqué, desenvolvido pelos primeiros pensadores pré-socráticos da Jônia. A arqué diz respeito",
+      "alternativas": {
+        "A": "à retórica utilizada pelos sofistas para convencimento dos cidadãos na pólis.",
+        "B": "a uma explicação da origem do cosmos fundamentada em pressupostos mitológicos.",
+        "C": "à investigação sobre a constituição do cosmos por meio de um princípio fundamental da natureza.",
+        "D": "ao desenvolvimento da lógica formal como habilidade de raciocínio.",
+        "E": "à justificação ética das ações na busca pelo entendimento sobre o bem."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 56,
+      "materia": "filosofia",
+      "materias_extra": [
+        "ingles"
+      ],
+      "texto_base": null,
+      "enunciado": "The General Data Protection Regulation (GDPR), which came into force in 2018, was the biggest shake-up to data privacy in 20 years. A slew of recent high-profile breaches has brought the issue of data security to public attention. Claims surfaced last year that the political consultancy Cambridge Analytica used data harvested from millions of Facebook users without their consent. People are increasingly realizing that their personal data is not just valuable to them, but hugely valuable to others. Now the law on data protection is about to catch up with technological changes.\n\n(Clive Coleman. “GDPR: Are you ready for the EU’s huge data privacy shake-up?”. www.bbc.com, 20.04.2018. Adaptado.)\n\nO texto permite abordar um problema filosófico contemporâneo, que está relacionado",
+      "alternativas": {
+        "A": "à necessidade de limitação do avanço científico.",
+        "B": "a discussões sobre condutas morais no ambiente digital.",
+        "C": "ao aumento das desigualdades sociais.",
+        "D": "à consolidação da democracia representativa.",
+        "E": "à ausência de experiência estética nas redes sociais."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 57,
+      "materia": "filosofia",
+      "materias_extra": [
+        "historia"
+      ],
+      "texto_base": null,
+      "enunciado": "Do nascimento do Estado moderno até a Revolução Francesa, ou seja, do século XVI aos fins do século XVIII, a filosofia política foi obrigada a reformular grande parte de suas teses, devido às mudanças ocorridas naquele período. O que se buscou na modernidade iluminista foi fortalecer a filosofia em uma configuração contrária aos dogmas políticos que reforçavam a crença em uma autoridade divina.\n\n(Thiago Rodrigo Nappi. “Tradição e inovação na teoria das formas de governo: Montesquieu e a ideia de despotismo”. *In*: *Historiæ*, vol. 3, nº 3, 2012. Adaptado.)\n\nO filósofo iluminista Montesquieu, autor de *Do espírito das leis*, criticou o absolutismo e propôs",
+      "alternativas": {
+        "A": "a divisão dos poderes em executivo, legislativo e judiciário.",
+        "B": "a restauração de critérios metafísicos para a escolha de governantes.",
+        "C": "a justificativa do despotismo em nome da paz social.",
+        "D": "a obediência às leis costumeiras de origem feudal.",
+        "E": "a retirada do poder político do povo."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 58,
+      "materia": "filosofia",
+      "materias_extra": [
+        "artes"
+      ],
+      "texto_base": null,
+      "enunciado": "Texto 1\n\nCom a falta de evidência do conceito de arte, e com a evidência de sua historicidade, ficam em questão não só a criação artística produzida no presente e a herança cultural clássica ou moderna, mas também a relação problemática entre a arte e as várias modalidades de produção de imagens e de ofertas de entretenimento que surgiram a partir do século XX.\n\n(Pedro Süssekind. *Teoria do fim da arte*, 2017. Adaptado.)\n\nTexto 2\n\nA discussão sobre o grafite como arte ou como vandalismo reflete o modo como cada gestão pública entende essas intervenções urbanas. Até 2011, o grafite em edifícios públicos era considerado crime ambiental e vandalismo em São Paulo. A partir daquele ano, somente a pichação continuou sendo crime. De um modo geral, a pichação é considerada uma intervenção agressiva e que degrada a paisagem da cidade. O grafite, por sua vez, é considerado arte urbana.\n\n(Lais Modelli. “De crime a arte: a história do grafite nas ruas de São Paulo”. www.bbc.com, 28.01.2017. Adaptado.)\n\nNo contexto filosófico sobre o conceito de arte, os dois textos concordam em relação à",
+      "alternativas": {
+        "A": "necessidade de engajamento político no processo autoral.",
+        "B": "ausência de critério consensual na legitimação artística.",
+        "C": "carência de investimento privado na formação artística.",
+        "D": "atuação de legislação pública no cenário criativo.",
+        "E": "exigência de embasamento tradicional na produção cultural."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 59,
+      "materia": "filosofia",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Diariamente somos inundados por inúmeras promessas de curas milagrosas, métodos de leitura ultrarrápidos, dietas infalíveis, riqueza sem esforço. Basta abrir o jornal, ver televisão, escutar o rádio, ou simplesmente abrir a caixa de correio eletrônico. A grande maioria desses milagres cotidianos é vestida com alguma roupagem científica: linguagem um pouco mais rebuscada, aparente comprovação experimental, depoimentos de “renomados” pesquisadores, utilização em grandes universidades. São casos típicos do que se costuma definir como “pseudociência”.\n\n(Marcelo Knobel. “Ciência e pseudociência”. *In*: *Física na escola*, vol. 9, nº 1, 2008.)\n\nPode-se elaborar a crítica filosófica aos conhecimentos pseudocientíficos por meio",
+      "alternativas": {
+        "A": "da imposição de novos sistemas ideológicos.",
+        "B": "da confiança em teorias fundamentadas no senso comum.",
+        "C": "da ampla divulgação de ideias individuais.",
+        "D": "da preservação de saberes populares.",
+        "E": "da demonstração de ausência de evidências empíricas."
+      },
+      "observacoes": ""
+    },
+    {
+      "numero": 60,
+      "materia": "filosofia",
+      "materias_extra": [
+        "historia",
+        "fisica"
+      ],
+      "texto_base": null,
+      "enunciado": "A grande síntese da ciência moderna, estabelecendo as leis físicas do movimento por meio de equações matemáticas e respondendo a todas as questões surgidas com a cosmologia de Copérnico, foi obra de Isaac Newton. Com ela, a física adquiriu um caráter de previsibilidade capaz de impressionar o homem moderno. A evolução do pensamento científico, iniciada por Galileu e Descartes, em direção à concepção de uma natureza descrita por leis matemáticas chegava, assim, a seu grande desabrochar.\n\n(Claudio M. Porto e Maria Beatriz D. S. M. Porto. “A evolução do pensamento cosmológico e o nascimento da ciência moderna”. *In*: *Revista brasileira de ensino de física*, vol. 30, nº 4, 2008. Adaptado.)\n\nA base da grande síntese newtoniana foi, de certa forma, preparada pelo humanismo renascentista, que",
+      "alternativas": {
+        "A": "estabelece uma perspectiva dualista da realidade, fundamentada na filosofia grega.",
+        "B": "restringe o entendimento da natureza, tornando-a objeto de investigação somente da física.",
+        "C": "recupera teorias da Antiguidade para explicar a natureza, com ênfase em uma perspectiva mitológica.",
+        "D": "resgata o racionalismo da Antiguidade, valorizando o homem no debate científico.",
+        "E": "mantém o quadro geral de conhecimentos teológicos, tais como os utilizados durante a Idade Média."
+      },
+      "observacoes": ""
+    }
+  ]
+}
