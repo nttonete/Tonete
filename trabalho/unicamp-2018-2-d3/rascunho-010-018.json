@@ -1,0 +1,237 @@
+{
+  "edicao": "unicamp-2018-2-d3",
+  "intervalo": [
+    10,
+    18
+  ],
+  "textos_base": {},
+  "questoes": [
+    {
+      "numero": 10,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Termômetros clínicos convencionais, de uso doméstico, normalmente baseiam-se na expansão térmica de uma coluna de mercúrio ou de álcool, ao qual se adiciona um corante. Com a expansão, o líquido ocupa uma parte maior de uma coluna graduada, na qual se lê a temperatura.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "O volume de álcool em um termômetro é $V_0 = 20\\ \\text{mm}^3$ a $25\\ ^\\circ\\text{C}$, e corresponde à figura (a). Quando colocado em contato com água aquecida, o termômetro apresenta a leitura mostrada na figura (b). A escala está em milímetros, a área da secção reta da coluna é $A = 5{,}0 \\times 10^{-2}\\ \\text{mm}^2$. O aumento do volume, $\\Delta V$, produzido pelo acréscimo de temperatura $\\Delta T$, é dado por $\\frac{\\Delta V}{V_0} = \\gamma\\,\\Delta T$. Se para o álcool $\\gamma = 1{,}25 \\times 10^{-3}\\ ^\\circ\\text{C}^{-1}$, qual é a temperatura $T$ da água aquecida?\n\n![Dois termômetros de coluna graduada lado a lado. Na figura (a), rotulada 25 °C, a coluna escura de líquido ocupa a parte inferior da escala. Na figura (b), rotulada T = ?, a coluna escura de líquido chega a uma altura maior da escala.](fig:p12-c1)"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Os termômetros de infravermelho realizam a medida da temperatura em poucos segundos, facilitando seu uso em crianças. Seu funcionamento baseia-se na coleta da radiação infravermelha emitida por parte do corpo do paciente. A potência líquida radiada por unidade de área do corpo humano é dada por $\\Phi = 4\\,\\sigma\\,T_0^3\\,\\Delta T$, sendo $\\sigma \\sim 6 \\times 10^{-8}\\ \\text{W/m}^2\\text{K}^4$ a constante de Stefan-Boltzmann, $T_0 = 300\\ \\text{K}$ a temperatura ambiente e $\\Delta T = T_{\\text{corpo}} - T_0$ a diferença entre a temperatura do corpo, que deve ser medida, e a temperatura ambiente. Sabendo que em certa medida de temperatura $\\Phi = 64{,}8\\ \\text{W/m}^2$, encontre a temperatura do paciente em $^\\circ\\text{C}$. Lembre-se que $\\theta\\ (^\\circ\\text{C}) \\sim T\\ (\\text{K}) - 273$."
+        }
+      ],
+      "observacoes": "A figura dos termômetros (p12-c1) vem impressa dentro do quadro de resolução do caderno; foi recortada de lá e posta no item a. Na resposta do item a, o PDF traz '10^-3o C^-1' (o 'o' é o símbolo de grau); transcrito como $10^{-3}\\ ^\\circ\\text{C}^{-1}$. No objetivo (prova comentada), o item b traz um quadrado no lugar do símbolo ΔT; transcrito como ΔT."
+    },
+    {
+      "numero": 11,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Geradores de Van de Graaff têm a finalidade de produzir altas diferenças de potencial. Consistem em uma esfera metálica onde é acumulada a carga proveniente de uma correia em movimento. A carga é inicialmente depositada na parte inferior da correia, que está aterrada (potencial $V = 0$, ver figura), e é extraída da correia quando atinge a parte superior, que está no potencial $V_0$, fluindo para a esfera metálica. O movimento da correia é mantido por um pequeno motor.\n\n![Esquema de um gerador de Van de Graaff: esfera metálica no alto, ligada a uma correia vertical que passa por duas polias. Rótulos: esfera metálica; carga extraída da correia: V = V0; correia; carga depositada na correia: V = 0.](fig:p13-f3)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Em um gerador em operação, a carga transportada por unidade de comprimento da correia é igual a $\\lambda = 1{,}25 \\times 10^{-7}\\ \\text{C/m}$. Se a taxa com que essa carga é transferida para a esfera metálica é dada por $i = 5{,}0 \\times 10^{-9}\\ \\text{C/s}$, qual é a velocidade da correia?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale $E_{\\text{rd}} = 3{,}0 \\times 10^{6}\\ \\text{V/m}$. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de $V = 7{,}5 \\times 10^{4}\\ \\text{V}$. Calcule a distância entre elas para que a descarga ocorra."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 12,
+      "materia": "fisica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A acomodação da visão consiste na mudança da distância focal do cristalino, que é uma lente convergente do olho, de modo que a imagem se forme exatamente na retina, tanto para objetos a grandes distâncias quanto para objetos próximos. A catarata é uma doença que torna o cristalino opaco. Seu tratamento consiste na substituição do cristalino doente por uma lente intraocular. Neste caso, a acomodação visual pode ser obtida através do deslocamento da lente implantada, para frente e para trás, com o auxílio do músculo ciliar.\n\n![Duas figuras de uma lente e um anteparo. Na figura (a), um raio de um objeto distante incide paralelo ao eixo, atravessa a lente e chega ao anteparo, a 2,0 cm da lente. Na figura (b), um objeto próximo, representado por uma seta, está à esquerda da lente, e o raio que parte da ponta da seta atravessa a lente e chega ao anteparo, onde há uma pequena seta.](fig:p14-f3)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Uma lente de distância focal fixa forma a imagem de um objeto localizado a uma grande distância em um anteparo, conforme mostra a figura (a). Qual é a distância focal da lente, e quanto ela deve ser afastada para formar, no anteparo, a imagem de um objeto localizado a 50 cm da posição final da lente, conforme mostra a figura (b)?"
+        },
+        {
+          "rotulo": "b",
+          "texto": "*Lasers* que emitem pulsos de luz no infravermelho de duração de vários femtossegundos ($1\\ \\text{fs} = 10^{-15}\\ \\text{s}$) vêm sendo empregados nas cirurgias oculares. Considere que um *laser* emite radiação de comprimento de onda $\\lambda = 1050\\ \\text{nm}$, e que cada um de seus pulsos dura $\\Delta t = 70\\ \\text{fs}$. Qual é o período da onda eletromagnética radiada e qual é o número de comprimentos de onda contidos em um pulso? A velocidade da luz no vácuo é $c = 3{,}0 \\times 10^{8}\\ \\text{m/s}$."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 13,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "O Brasil é o maior produtor não asiático de arroz. Em 2015, importou cerca de 370 mil toneladas do produto e exportou 960 mil. Esse cereal é uma importante fonte de nutrientes para bilhões de pessoas, fornecendo 15% das necessidades diárias de proteína de um adulto. O arroz é também importante fonte de minerais como cálcio, fósforo, potássio e, em menor quantidade, ferro, manganês e zinco. Dependendo de alguns fatores, como o local de produção ou o uso de fertilizantes e defensivos agrícolas, o arroz pode conter pequenas quantidades de arsênio, cádmio, chumbo, entre outros elementos.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Um estudo comparou três modos diferentes de cozinhar o arroz para verificar como a forma de preparo pode modificar a quantidade de minerais no cereal cozido.\n\n1. O arroz foi cozido na proporção de cinco partes de água para uma parte de arroz. O excesso de água foi drenado após o cozimento.\n2. O arroz foi embebido em água durante a noite, a água foi drenada e o arroz foi lavado até a água clarear. Drenou-se a água, e o arroz foi cozido na proporção de cinco partes de água para uma parte de arroz. O excesso de água foi drenado após o cozimento.\n3. O arroz foi cozido na proporção de duas partes de água para uma de arroz. O excesso de água evaporou durante o processo de cozimento.\n\nDo ponto de vista químico, qual tipo de cozimento deve ter levado à menor presença de minerais no arroz cozido: <u>1</u>, <u>2</u> ou <u>3</u>? Justifique sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Em outro estudo, determinaram-se as concentrações totais de arsênio, cádmio e chumbo, em diferentes tipos comerciais de arroz (polido, integral e parboilizado) provenientes de várias regiões brasileiras, visando à promoção da saúde pública. Explique de que forma esse estudo estaria promovendo a saúde pública ao se preocupar com a presença desses elementos químicos e suas concentrações em diferentes tipos comerciais de arroz."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 14,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Uma das formas de se prevenir a transmissão do vírus H1N1, causador da gripe suína, é usar álcool 70% para higienizar as mãos. É comum observar pessoas portando álcool gel na bolsa ou encontrá-lo em ambientes públicos, como restaurantes, consultórios médicos e hospitais. O álcool 70% também possui ação germicida contra diversas bactérias patogênicas. A tabela abaixo mostra a ação germicida de misturas álcool/água em diferentes proporções contra o *Streptococcus pyogenes*, em função do tempo de contato.\n\n![Tabela com a concentração do etanol (%), de 100 a 40, nas linhas, e o tempo (segundos), de 10 a 50, nas colunas; cada célula traz o sinal - ou o sinal +. Abaixo, a legenda: - ausência de ação germicida (crescimento bacteriano). + ação germicida (ausência de crescimento bacteriano).](fig:p16-c1)\n\n(Adaptado de G. H. Talbot e outros, 70% alcohol disinfection of transducer heads: experimental trials. *Infect Control*, v. 6, n. 6, p. 237-239, jun. 1985.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Recomenda-se descartar uma garrafa com álcool 70% deixada aberta por um longo período, mesmo que ela esteja dentro do prazo de validade. Justifique essa recomendação levando em conta os dados da tabela ao lado e considerando o que pode acontecer à solução, do ponto de vista químico."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Além da higienização com álcool 70%, também estamos acostumados a utilizar água e sabão. Ambos os procedimentos apresentam vantagens e desvantagens. As desvantagens seriam a desidratação ou a remoção de gorduras protetoras da pele. Correlacione cada procedimento de higienização com as desvantagens citadas. Explique a sua resposta explicitando as possíveis interações químicas envolvidas em cada caso."
+        }
+      ],
+      "observacoes": "A figura da tabela (p16-c1) traz, na borda de cima, um resto de texto cortado que já existe na imagem do caderno. Na resposta do item a, a prova comentada traz, no fim, uma frase a mais que não consta nas 'Respostas esperadas' (\"Deste modo, se a garrafa ficou aberta por um longo período de tempo, deve ser descartada por não apresentar mais ação germicida.\"); foi mantido o texto das 'Respostas esperadas'. No objetivo, o original diz 'sus escolhas' (sic)."
+    },
+    {
+      "numero": 15,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Apesar de ser um combustível alternativo em relação aos combustíveis fósseis, o gás hidrogênio apresenta alguns problemas em seu uso direto. Uma alternativa é produzir o gás hidrogênio por eletrólise da água, para depois utilizá-lo na síntese do ácido fórmico, a partir da hidrogenação catalítica de gás carbônico. A possibilidade de utilizar o ácido fórmico como combustível tem feito crescer a demanda mundial por esse produto. A figura abaixo ilustra como seria o ciclo de produção e consumo do ácido fórmico, conforme indica o texto.\n\n![Diagrama em preto e branco com ícones ligados por setas: turbina eólica e painel solar, bomba de combustível, recipiente rotulado Ácido fórmico, ônibus, gota rotulada H2O e nuvem rotulada Dióxido de carbono.](fig:p17-f3)\n\n(Adaptado de Team Fast. Disponível em https://www.teamfast.nl/hydrozine/. Acessado em 10/08/2017.)",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considerando as informações do texto e a figura ao lado, cite <u>duas vantagens</u> em se adotar a alternativa descrita."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A reação de síntese do ácido fórmico a partir da hidrogenação catalítica de gás carbônico, em fase gasosa, apresenta um valor muito pequeno de constante de equilíbrio. Visando a aumentar o seu rendimento, imagine que sejam promovidos, separadamente, um aumento do volume e um aumento da temperatura da mistura reacional em equilíbrio. Preencha a tabela abaixo de modo a informar o que ocorre com a quantidade de ácido fórmico. Use as palavras <u>aumenta</u> ou <u>diminui</u> e justifique cada escolha no espaço correspondente.\n\nNa temperatura da síntese, considere que as entalpias de formação do gás carbônico, do ácido fórmico e do hidrogênio são (em $\\text{kJ}\\cdot\\text{mol}^{-1}$) -394, -363 e 0, respectivamente.\n\n*Campo de resolução:*\n\n| | Aumento de volume | Aumento de temperatura |\n|---|---|---|\n| Quantidade de ácido fórmico | | |\n| Justificativa | | |"
+        }
+      ],
+      "observacoes": "A tabela do item b está impressa dentro do quadro de resolução do caderno; foi transcrita vazia, como 'Campo de resolução'."
+    },
+    {
+      "numero": 16,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Graças a sua alta conversão energética e à baixa geração de resíduos, o gás hidrogênio é considerado um excelente combustível. Sua obtenção a partir da fermentação anaeróbia de biomassas, como bagaço de cana, glicerol, madeira e resíduos do processamento da mandioca, abundantes e de baixo custo, parece ser uma boa alternativa tecnológica para o Brasil. A velocidade da fermentação, bem como os diferentes produtos formados e suas respectivas quantidades, dependem principalmente do tipo de substrato e do tipo de microrganismo que promove a fermentação. As equações e a figura abaixo ilustram aspectos de uma fermentação de 1 litro de solução de glicose efetuada pela bactéria *Clostridium butyricum*.\n\n**Equação 1:** $\\text{C}_6\\text{H}_{12}\\text{O}_6(\\text{aq}) + 2\\text{H}_2\\text{O}(\\ell) \\rightarrow 2\\text{CH}_3\\text{COOH}(\\text{aq}) + 4\\text{H}_2(\\text{g}) + 2\\text{CO}_2(\\text{g})$\n\n**Equação 2:** $\\text{C}_6\\text{H}_{12}\\text{O}_6(\\text{aq}) + 2\\text{H}_2\\text{O}(\\ell) \\rightarrow \\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{COOH}(\\text{aq}) + 2\\text{H}_2(\\text{g}) + 2\\text{CO}_2(\\text{g})$\n\n![Gráfico com dois eixos verticais e o tempo em horas no eixo horizontal, de 0 a 100. À esquerda, concentração em g · L⁻¹, de 0 a 30, com uma curva tracejada que parte de cerca de 25 e decresce até perto de zero; uma seta aponta da curva tracejada para esse eixo. À direita, volume acumulado de H2 em L, de 0 a 10, com uma curva contínua que cresce e se estabiliza em cerca de 9; uma seta aponta da curva contínua para esse eixo.](fig:p18-c2)\n\nDados: massa molar da glicose: $180\\ \\text{g}\\cdot\\text{mol}^{-1}$; volume molar do hidrogênio: $25\\ \\text{L}\\cdot\\text{mol}^{-1}$.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Levando em conta as informações presentes <u>no texto e na figura</u>, e considerando que a fermentação tenha ocorrido, concomitantemente, pelas duas reações indicadas, qual ácido estava presente em maior concentração ($\\text{mol}\\cdot\\text{L}^{-1}$) ao final da fermentação, o <u>butanoico</u> ou o <u>etanoico</u>? Justifique sua resposta."
+        },
+        {
+          "rotulo": "b",
+          "texto": "A velocidade instantânea da fermentação, em qualquer ponto do processo, é dada pela relação entre a <u>variação da quantidade de hidrogênio formado e a variação do tempo</u>. De acordo com o gráfico, quanto tempo após o início da fermentação a velocidade atingiu seu valor máximo? Justifique sua resposta."
+        }
+      ],
+      "observacoes": "A frase 'Dados: ...' vem depois do item b no caderno e vale para a questão toda; foi posta no fim do enunciado. A figura foi recortada de novo (p18-c2) porque o recorte automático pegava parte do texto ao lado."
+    },
+    {
+      "numero": 17,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "Fertilizantes são empregados na agricultura para melhorar a produtividade agrícola e atender à demanda crescente por alimentos, decorrente do aumento populacional. Porém, o uso de fertilizantes leva a alterações nas características do solo, que passa a necessitar de correções constantes. No Brasil, o nitrogênio é adicionado ao solo principalmente na forma de ureia, $(\\text{NH}_2)_2\\text{CO}$, um fertilizante sólido que, em condições ambiente, apresenta um cheiro muito forte, semelhante ao da urina humana. No solo, a ureia se dissolve e reage com a água conforme a equação\n\n$$(\\text{NH}_2)_2\\text{CO}(\\text{s}) + 2\\text{H}_2\\text{O}(\\text{aq}) \\rightarrow 2\\text{NH}_4^+(\\text{aq}) + \\text{CO}_3^{2-}(\\text{aq})$$\n\nParte do nitrogênio, na forma de íon amônio, se transforma em amônia, conforme a equação\n\n$$\\text{NH}_4^+(\\text{aq}) + \\text{H}_2\\text{O}(\\text{aq}) \\rightarrow \\text{NH}_3(\\text{aq}) + \\text{H}_3\\text{O}^+(\\text{aq})$$\n\nParte do nitrogênio permanece no solo, sendo absorvido através do ciclo do nitrogênio.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Na primeira semana após adubação, o solo, nas proximidades dos grânulos de ureia, torna-se mais básico. Considerando que isso se deve essencialmente à solubilização inicial da ureia e à sua reação com a água, explique como as características dos produtos formados explicam esse resultado."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Na aplicação da ureia como fertilizante, ocorrem muitos processos que levam à perda e ao não aproveitamento do nitrogênio pelas plantas. Considerando as informações dadas, explique a influência da acidez do solo e da temperatura ambiente na perda do nitrogênio na fertilização por ureia."
+        }
+      ],
+      "observacoes": ""
+    },
+    {
+      "numero": 18,
+      "materia": "quimica",
+      "materias_extra": [],
+      "texto_base": null,
+      "enunciado": "A derrubada de florestas para mineração causa indignação em muitos cidadãos preocupados com a proteção ambiental. Contudo, não se observa o mesmo nível de preocupação em relação à atividade pecuária. A produção de carne é também responsável pelo desmatamento e por cerca de 18% da emissão de gases do efeito estufa. A evolução da emissão total de gás carbônico equivalente da humanidade (em Gt $\\text{CO}_2$ eq por ano) é mostrada na figura **A**. Já a figura **B** mostra a emissão anual média de gás carbônico equivalente (em t $\\text{CO}_2$ eq por pessoa por ano) somente com a alimentação, para duas diferentes dietas.\n\n![Duas figuras lado a lado. Figura A: gráfico de linha da emissão em Gt CO2 eq, eixo vertical de 30 a 70, eixo horizontal de 1985 a cerca de 2030, com trecho Histórico em linha contínua preta e trecho Tendência em linha pontilhada azul. Figura B: gráfico de barras empilhadas, em t CO2 eq / pessoa / ano, de 0,00 a 3,50, com duas barras, amante de carne e vegano, e legenda de padrões: carne vermelha, outras carnes, laticínios, cereais, vegetais, outros.](fig:p20-c1)\n\n(Figura **A**: adaptada de PBL Netherlands Environment Agency. Disponível em www.pbl.nl. Figura **B**: adaptada de Shrink That Footprint. Disponível em www.shrinkthatfootprint.com. Acessados em 15/10/2017.)\n\nDados: a população mundial atual é de $7{,}6 \\times 10^{9}$ habitantes; Giga-toneladas (Gt) = $1{,}0 \\times 10^{9}$ toneladas.",
+      "itens": [
+        {
+          "rotulo": "a",
+          "texto": "Considerando que toda a população mundial seja “amante de carne”, qual é a porcentagem de emissão de $\\text{CO}_2$ equivalente devida somente à alimentação, em relação à emissão total? Mostre os cálculos."
+        },
+        {
+          "rotulo": "b",
+          "texto": "Se, em 2018, toda a população da Terra resolvesse adotar uma dieta vegana, a emissão total de gases voltaria ao nível de qual ano? Justifique sua resposta. Considere que toda a população atual seja “amante de carne”."
+        }
+      ],
+      "observacoes": "A frase 'Dados: ...' fica ao lado dos itens no caderno e vale para a questão toda; foi posta no fim do enunciado. A figura foi recortada de novo (p20-c1) porque o recorte automático pegava um pedaço da última linha do texto. Na resposta, a 'Observação' final aparece sob o item b mas se refere aos itens a e b; foi mantida no texto do item b. No objetivo, o original diz 'aquecimento da global' (sic)."
+    }
+  ],
+  "respostas": {
+    "10": {
+      "resposta": "**Objetivo da questão:** A questão aborda conceitos de Termologia dentro do contexto dos princípios de funcionamento de termômetros clínicos de uso doméstico.\n\na) O item **a** explora a expansão térmica de um líquido em um termômetro convencional. A expressão para a variação do volume com a temperatura é fornecida, e o candidato precisa fazer a leitura da variação da altura da coluna do líquido na escala do termômetro para calcular a variação de volume, e, a partir daí, a nova temperatura.\n\nb) Já o item **b** trata do princípio de funcionamento de um termômetro de infravermelho. Novamente, a expressão necessária para encontrar a variação de temperatura é fornecida, e o candidato precisa substituir corretamente os dados do problema, calcular $\\Delta T$ e, a partir daí, a temperatura do corpo. Finalmente, é necessário converter a temperatura para graus celsius.",
+      "itens": {
+        "a": "Observando a escala do termômetro, medimos a variação de altura $\\Delta h = 13\\ \\text{mm}$. Assim,\n\n$$\\Delta T = \\frac{\\Delta V}{\\gamma V_0} = \\frac{A \\times \\Delta h}{\\gamma V_0} = \\frac{5{,}0 \\times 10^{-2}\\ \\text{mm}^2 \\times 13\\ \\text{mm}}{1{,}25 \\times 10^{-3}\\ ^\\circ\\text{C}^{-1} \\times 20\\ \\text{mm}^3} = \\frac{65 \\times 10^{-2}}{25 \\times 10^{-3}} = 26\\ ^\\circ\\text{C}$$\n\nA temperatura da água aquecida é $T = 25\\ ^\\circ\\text{C} + 26\\ ^\\circ\\text{C} = 51\\ ^\\circ\\text{C}$",
+        "b": "A partir da expressão da potência líquida radiada por unidade de área do corpo do paciente, obtemos\n\n$$\\Delta T = \\frac{\\Phi}{4\\sigma T_0^3} = \\frac{64{,}8\\ \\text{W m}^{-2}}{4 \\times 6 \\times 10^{-8}\\ \\text{W m}^{-2}\\text{K}^{-4} \\times 27 \\times 10^{6}\\ \\text{K}^3} = 10\\ \\text{K}$$\n\n$$T_{\\text{corpo}} = T_0 + \\Delta T = 300 + 10 = 310\\ \\text{K}$$\n\nA temperatura do corpo do paciente em $^\\circ\\text{C}$ é\n\n$$\\theta_{\\text{corpo}}\\ (^\\circ\\text{C}) = 310 - 273$$\n\n$$\\theta_{\\text{corpo}} = 37\\ ^\\circ\\text{C}$$"
+      }
+    },
+    "11": {
+      "resposta": "**Objetivo da questão:** A questão explora conceitos de eletricidade no contexto de um experimento demonstrativo que chama a atenção em feiras e museus de ciências.\n\na) No item **a** o conceito de corrente elétrica é abordado, evidenciando a taxa de transferência de carga por meio mecânico na correia do gerador de Van de Graaff.\n\nb) Já o item **b** aborda a relação entre campo elétrico e diferença de potencial para uma situação idealizada de campo uniforme.",
+      "itens": {
+        "a": "A taxa de carga transferida para a esfera metálica é $i = \\frac{q}{\\Delta t} = \\frac{\\lambda \\Delta s}{\\Delta t} = \\lambda v$. Portanto,\n\n$$v = \\frac{i}{\\lambda} = \\frac{5{,}0 \\times 10^{-9}\\ \\text{A}}{1{,}25 \\times 10^{-7}\\ \\text{C/m}} = 0{,}04\\ \\text{m/s} = 4{,}0\\ \\text{cm/s}$$",
+        "b": "O módulo do campo elétrico é dado por $E = \\frac{\\Delta V}{d}$. Portanto,\n\n$$d_{\\text{max}} = \\frac{\\Delta V}{E_{\\text{rd}}} = \\frac{7{,}5 \\times 10^{4}\\ \\text{V}}{3{,}0 \\times 10^{6}\\ \\text{V/m}} = 2{,}5 \\times 10^{-2}\\ \\text{m} = 2{,}5\\ \\text{cm}$$"
+      }
+    },
+    "12": {
+      "resposta": "**Objetivo da questão:** A questão versa sobre óptica geométrica e ondulatória. A questão se insere no contexto prático das cirurgias de catarata.\n\na) No item **a** o candidato deve calcular a distância da imagem formada por uma lente convergente. Para isto, deve ler da primeira figura o valor da distância focal da lente.\n\nb) Já o item **b** explora a relação entre velocidade, comprimento de onda e período da onda.",
+      "itens": {
+        "a": "Da figura (a), obtemos que a distância focal da lente é $f = 2{,}0\\ \\text{cm}$.\n\nUsando a expressão $\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'}$ obtemos\n\n$$p' = \\frac{pf}{p - f} = \\frac{50 \\times 2}{50 - 2} = 2{,}08\\ \\text{cm}$$\n\nAssim, a lente deve ser afastada em $(2{,}08 - 2)\\ \\text{cm} = 0{,}08\\ \\text{cm} = 0{,}8\\ \\text{mm}$",
+        "b": "O período da onda pode ser obtido pela expressão\n\n$$T = \\frac{\\lambda}{c} = \\frac{1050 \\times 10^{-9}\\ \\text{m}}{3{,}0 \\times 10^{8}\\ \\text{m/s}} = 350 \\times 10^{-17}\\ \\text{s} = 3{,}5\\ \\text{fs}$$\n\nO número de comprimentos de onda é igual ao número de períodos no pulso:\n\n$$n = \\frac{70\\ \\text{fs}}{3{,}5\\ \\text{fs}} = 20$$"
+      }
+    },
+    "13": {
+      "resposta": "**Objetivo da questão:** Essa questão evidencia um problema sério de saúde relativo ao consumo do arroz. Não é o caso do Brasil que, embora conviva com um largo consumo desse cereal, não mostra concentrações elevadas de metais pesados. Entretanto, como parte do arroz que consumimos é produto de importação, é importante que o cidadão conheça. Na questão informa-se que: <u>“Dependendo de alguns fatores, como o local de produção ou o uso de fertilizantes e defensivos agrícolas, o arroz pode conter pequenas quantidades de arsênio, cádmio, chumbo”.</u> Essa parte do texto poderia ser suprimida, mas deixaríamos de dar uma informação relevante para a sala de aula. Um ambiente contaminado com metais pesados, como os casos citados no texto, poderia, por exemplo, ser descontaminado com o cultivo de alguma planta, como o arroz. Na letra **a**, o candidato deveria analisar as três maneiras de se preparar o arroz e decidir qual deles leva a uma menor quantidade de sais minerais no alimento preparado. Aqui o candidato lançaria mão dos seus conhecimentos sobre soluções em geral, solubilidade de sais, processos de dissolução, diluição e concentração. Na letra **b**, esperava-se que o candidato apontasse que os elementos citados são metais pesados e, portanto, tóxicos. Deste modo, ao se preocupar com a presença desses metais e suas concentrações, o candidato deveria concluir que o estudo estaria de fato se preocupando com a promoção da saúde pública. A população, ao ser informada sobre uma possível contaminação do arroz, poderia escolher qual arroz consumir. A letra **b** dessa questão exigia conhecimentos sobre elementos químicos e suas propriedades.",
+      "itens": {
+        "a": "O cozimento de tipo 2 levou a uma menor presença de minerais. Nesse cozimento, utilizou-se uma maior quantidade de água, o que implica maior solubilização dos minerais presentes. Antes do cozimento, o arroz foi colocado de molho e a água descartada; em seguida, o arroz foi lavado até a água clarear. Esses dois processos excedentes removeram boa parte dos minerais presentes no arroz.",
+        "b": "Esse estudo estaria promovendo a saúde pública, pois os elementos químicos citados são metais pesados prejudiciais à saúde humana, que podem se acumular no organismo. Assim, detectar a presença desses elementos e suas concentrações possibilitaria a escolha correta do tipo de arroz a ser consumido."
+      }
+    },
+    "14": {
+      "resposta": "**Objetivo da questão:** A questão 14 abordou um problema de saúde pública que afeta o mundo todo: a gripe causada pelo vírus H1N1. O álcool hidratado é um dos produtos utilizados na higiene das mãos em diversos ambientes. Quantas pessoas deixam de utilizar esse produto quando estão em visitas a parentes em leitos hospitalares? Quantos produtos comerciais contendo álcool a 50% são comercializados com rótulos indicando que são produtos 99,999% eficientes no combate a microrganismos, que só é verdadeiro se houver um contato mínimo de 5 minutos com o produto. O cidadão consciente logo percebe que seria necessário manter as mãos durante 5 minutos mergulhadas nesse produto e perguntaria se isso seria prático. A questão tinha por objetivo chamar a atenção dos candidatos para as formas de se prevenir doenças causadas por vírus e bactérias patogênicos. A letra **a** pedia que o candidato apresentasse uma justificativa para a recomendação apresentada: descartar uma garrafa de álcool 70% que ficou aberta por muito tempo. O candidato deveria formular a sua resposta levando em conta os dados apresentados na tabela e criar uma hipótese com base em seus conhecimentos químicos sobre evaporação, volatilidade das substâncias envolvidas, pressão de vapor, ponto de ebulição e concentração. Na letra **b**, o candidato deveria correlacionar as desvantagens mencionadas com cada modo de higienização das mãos e, em seguida, justificar sus escolhas levado em conta as interações intermoleculares envolvidas em cada caso. O tema dessa questão poderia ser explorado em conjunto com professores de Biologia no ensino médio, abordando, por exemplo, como o álcool gel atua matando vírus e bactérias.",
+      "itens": {
+        "a": "Quando uma garrafa com álcool 70% é deixada aberta, ocorre a evaporação dos componentes da solução. O etanol, sendo mais volátil que a água, tende a evaporar em maior intensidade, e assim, a solução vai tornando-se menos concentrada em etanol. De acordo com a tabela apresentada, soluções mais diluídas exibem uma diminuição na ação germicida. Uma solução 40%, por exemplo, não apresenta qualquer ação germicida, como mostra a tabela.",
+        "b": "A desidratação da pele pode ocorrer devido à higienização com álcool 70% e a remoção das gorduras devido à lavagem com água e sabão. No caso da desidratação, as moléculas de etanol fazem ligações de hidrogênio com as moléculas de água da pele e as arrastam na evaporação. No caso da remoção das gorduras, a molécula do sabão possui uma região apolar, que interage com a gordura por interações do tipo dipolo induzido-dipolo induzido, e uma região polar que interage com a água por interações dipolo-dipolo, resultando na remoção da gordura da pele."
+      }
+    },
+    "15": {
+      "resposta": "**Objetivo da questão:** Esta questão apresenta um processo para obtenção de energia por uma fonte alternativa. Esperava-se que os candidatos apontassem as vantagens no processo, o que poderia ser feito a partir de uma visão geral sobre o tema a partir de informações envolvendo geração de energia e sustentabilidade, presentes na atualidade. Para responder esta parte da questão, o candidato precisava entender as propriedades das substâncias envolvidas nessa tecnologia. A outra parte da questão é direcionada para a parte de equilíbrio químico, exigindo dos candidatos o estabelecimento da relação entre perturbações em um sistema em equilíbrio e suas consequências na sua composição, dependendo do tipo de perturbação e de acordo com o princípio de Le Chatelier, tema bastante trabalhado no ensino médio. É esperado que tenham também conhecimento de termoquímica, cálculos de entalpia, estequiometria e algumas noções de compostos orgânicos.",
+      "itens": {
+        "a": "De acordo com as informações fornecidas na questão, algumas vantagens da alternativa sugerida podem ser: 1) o uso de energias alternativas e menos poluentes (eólica ou solar) para a produção do ácido fórmico; 2) a (re)síntese do ácido fórmico utilizando o $\\text{CO}_2$ e água que vieram de sua combustão (processo cíclico fechado em relação a materiais), 3) a criação de uma alternativa à utilização de combustíveis fósseis e 4) maior facilidade de armazenamento e transporte do ácido fórmico em relação ao gás hidrogênio.",
+        "b": "| | aumento de volume | aumento de temperatura |\n|---|---|---|\n| quantidade de ácido fórmico | diminui | aumenta |\n| Justificativa | $1\\ \\text{H}_2 + 1\\ \\text{CO}_2 = 1\\ \\text{H}_2\\text{CO}_2$<br><br>A equação mostra que a reação ocorre com diminuição no volume do sistema, pois dois moles de reagentes gasosos levam à formação de um mol de produto gasoso. Portanto, o aumento do volume leva a uma diminuição na quantidade de ácido fórmico. | $\\begin{array}{ccccc}\\text{H}_2 & + & \\text{CO}_2 & = & \\text{H}_2\\text{CO}_2 \\\\ 0 & & -394 & & -363\\end{array}$<br>$\\Delta H = H_p - H_r = -363 - (-394) = +31\\ \\text{kJ}\\cdot\\text{mol}^{-1}$<br><br>A equação termoquímica mostra que a reação é endotérmica; portanto, o aumento na temperatura favorece a formação de ácido fórmico. |"
+      }
+    },
+    "16": {
+      "resposta": "**Objetivo da questão:** Para resolver esta questão, os candidatos deveriam reconhecer as diferenças entre as fórmulas dos ácidos etanoico e butanoico, sendo necessário identificar qual ácido deve estar em maior quantidade pelo consumo de 1 litro de solução de glicose na concentração apresentada no gráfico; e, na sequência, identificar o momento que a reação atinge a velocidade máxima. Para isso os candidatos deveriam ter conhecimentos de compostos orgânicos, concentração, estequiometria e cinética química. Por se tratar de uma questão na qual a evolução da reação é acompanhada ou pelo consumo de um reagente ou pelo aparecimento de um produto em função do tempo, é importante que os candidatos tenham boa capacidade para interpretação de gráficos, dos quais essas informações podem ser extraídas. Para a letra **b** os candidatos deveriam ter noção do conceito de velocidade instantânea de reação, que pode ser definida em termos de variação da concentração de uma substância dentro de um dado intervalo de tempo, informação presente no enunciado. Se for feita uma leitura correta dos gráficos, essa informação é facilmente obtida.",
+      "itens": {
+        "a": "O gráfico mostra que foram utilizados **<u>25 g de glicose</u>**, ou **<u>25/180=0,14 mol</u>**, obtendo-se **9 L de** $\\mathbf{H_2}$**, ou 9/25=0,36 mol**.\n\nConsiderando as equações químicas, temos:\n\n$$\\begin{array}{ccccccc} 1\\,\\text{C}_6\\text{H}_{12}\\text{O}_6 & \\rightarrow & 2\\,\\text{CH}_3\\text{COOH} & + & 4\\,\\text{H}_2 & + & 2\\,\\text{CO}_2 \\\\ 1 & & 2 & & 4 & & \\\\ n & & 2n & & 4n & & \\end{array}$$\n\ne\n\n$$\\begin{array}{ccccccc} 1\\,\\text{C}_6\\text{H}_{12}\\text{O}_6 & \\rightarrow & \\text{C}_3\\text{H}_7\\text{COOH} & + & 2\\,\\text{H}_2 & + & 2\\,\\text{CO}_2 \\\\ 1 & & 1 & & 1 & & \\\\ 0{,}14-n & & 0{,}14-n & & 2(0{,}14-n) & & \\end{array}$$\n\nAssim, a quantidade produzida de $\\text{H}_2$ $[4n + (2(0{,}14-n))] = 0{,}36$ mol. Resolvendo a equação, temos: $n = 0{,}04$ mol. Pela estequiometria das equações, formaram-se $2n$ mol de ácido etanoico $\\Rightarrow$ $0{,}04 \\times 2 = 0{,}08$ mol e $0{,}14-n = 0{,}10$ mol de ácido butanoico. Portanto, formou-se mais ácido butanoico ao final da fermentação.",
+        "b": "De acordo com a definição dada, a velocidade instantânea da fermentação num ponto qualquer da curva pode ser obtida por $\\Delta_{\\text{H}_2}/\\Delta_{\\text{tempo}}$ (essencialmente, a inclinação da curva de concentração por tempo). Essa relação será tanto maior quanto mais inclinada for a curva. Isso ocorre por volta das 30 horas. Portanto, 30 horas depois de iniciada a fermentação, a velocidade da reação atinge seu valor mais alto."
+      }
+    },
+    "17": {
+      "resposta": "**Objetivo da questão:** A questão 17 se insere no assunto de equilíbrio químico, trazendo exemplos de equilíbrio de solubilidade, envolvendo equilíbrio ácido-base e hidrólise. Trata-se de um assunto central em Química, largamente explorado em sala de aula, livros texto e sistemas de ensino. Nem por isso o assunto é bem dominado pelos estudantes, principalmente quando envolve espécies importantes para o meio ambiente e o ser humano, caso do gás carbônico e seus íons carbonato e hidrogenocarbonato (mais conhecido como bicarbonato). A própria questão é um exemplo prático da aplicação do conhecimento. Uma questão central do agronegócio é a perda de fertilizantes e defensivos agrícolas. As consequências dessas perdas se refletem de diversas formas, desde o prejuízo causado e o consequente aumento do preço do produto final, até os problemas ambientais causados por essa perda. Assim, a questão tenta mostrar o lado menos conhecido pelo cidadão comum, um dos problemas da agricultura; nem só de flores vive o agronegócio. O assunto retratado, parafraseando a própria propaganda de defensivos, é de largo espectro, podendo abranger áreas da Química, Biologia e Geografia; não esquecendo que em áreas interdisciplinares como Ciência Ambiental, Engenharia Agrícola e Engenharia Agronômica o assunto está largamente presente.",
+      "itens": {
+        "a": "Na solubilização da ureia (equação 1), formam-se íons amônio e carbonato. As subsequentes hidrólises desses íons (equações 2 e 3) levam à formação de $\\text{H}_3\\text{O}^+$ e $\\text{OH}^-$, respectivamente.\n\n$$\\begin{array}{ll} (\\text{NH}_2)_2\\text{CO}(\\text{s}) + 2\\text{H}_2\\text{O}(\\text{aq}) \\rightarrow 2\\text{NH}_4^+(\\text{aq}) + \\text{CO}_3^{2-}(\\text{aq}) & \\text{equação 1} \\\\ \\text{NH}_4^+(\\text{aq}) + \\text{H}_2\\text{O}(\\text{aq}) \\rightarrow \\text{NH}_3(\\text{aq}) + \\text{H}_3\\text{O}^+(\\text{aq}) & \\text{equação 2} \\\\ \\text{CO}_3^{2-}(\\text{aq}) + \\text{H}_2\\text{O}(\\text{aq}) \\rightarrow \\text{HCO}_3^-(\\text{aq}) + \\text{OH}^-(\\text{aq}) & \\text{equação 3} \\end{array}$$\n\nComo o solo se torna básico, isso significa que a hidrólise do carbonato ocorre em maior extensão do que a hidrólise do íon amônio.",
+        "b": "A perda do nitrogênio adicionado ao solo depende de vários fatores, entre eles a acidez do solo e a temperatura.\n\n**Acidez do solo**: De acordo com a equação 2, um aumento da acidez do solo favorece uma maior formação de $\\text{NH}_4^+$ e uma menor formação de $\\text{NH}_3$. Do ponto de vista químico, é a amônia que se perde por volatilização. Portanto, um aumento da acidez do solo levaria a uma diminuição da perda do nitrogênio da fertilização por ureia.\n\n**Temperatura ambiente**: quanto maior a temperatura ambiente, maior a temperatura do sistema solo. Os efeitos disso são: 1) gases, como a amônia, tornam-se menos solúveis com o aumento da temperatura, o que leva a maiores perdas por gaseificação; 2) a elevação da temperatura leva a uma evaporação maior da água, diminuindo a disponibilidade desse solvente e favorecendo a eliminação de amônia; 3) o texto informa que a ureia apresenta cheiro forte, de onde se conclui que ela sublima com facilidade, e essa sublimação é maior em maiores temperaturas, aumentando as perdas.\n\n**<em>Observações:</em>** <em>há outras formas de explicações envolvendo os íons amônio e carbonato no item </em>**<em>a</em>**<em>; sobre a influência da temperatura no item </em>**<em>b</em>**<em>, bastava uma exemplificação.</em>"
+      }
+    },
+    "18": {
+      "resposta": "**Objetivo da questão:** A questão aborda o tema Química e Sociedade e destaca a emissão de gás carbônico, um problema de dimensões mundiais, na atividade de produção e consumo de alimentos. A questão tenta mostrar as vantagens, do ponto de vista ambiental, em a população adotar uma dieta mais vegetariana. O próprio exercício é um exemplo da aplicação prática do conhecimento, uma vez que a sua apresentação e resolução deixam evidente o problema ambiental que o consumo de carne representa em relação à emissão de gás carbônico. O assunto se encaixa em qualquer área de conhecimento, uma vez que diz respeito ao tema do aquecimento da global e deixa claro como seria possível minimizar o problema. É interdisciplinar com várias áreas diretamente como Química, Matemática e Biologia, mas não deixa de ter dimensões de problemas humanos alarmantes. Afinal, quem mais consome carne da Terra? Quem mais produz carne? A questão também exigia dos candidatos a leitura e interpretação de gráficos, como em outras questões da prova, uma habilidade muito importante em qualquer área do conhecimento.",
+      "itens": {
+        "a": "De acordo com a figura B, na dieta de amante de carne, liberam-se 3,3 t $\\text{CO}_2$ eq por pessoa por ano. Considerando a população mundial atual de $7{,}6 \\times 10^{9}$ habitantes, teremos: Emissão = 3,3 t $\\text{CO}_2$ eq (por pessoa por ano) $\\times\\ 7{,}6 \\times 10^{9} = 25$ Gt $\\text{CO}_2$ eq. Em 2017, a emissão total foi de 57 Gt $\\text{CO}_2$ eq. Assim, a emissão devida apenas ao consumo de carne foi de $(25/57) \\times 100$, correspondendo a 44% da emissão total.",
+        "b": "A diferença de emissão de $\\text{CO}_2$ eq entre as dietas de carne vermelha e vegana é:\n3,3 – 1,5 = 1,8 t $\\text{CO}_2$ eq (por pessoa por ano). Considerando a população mundial atual de $7{,}6 \\times 10^{9}$ habitantes, a mudança de dieta levaria a uma diminuição da emissão de $\\text{CO}_2$ eq: 1,8 t $\\text{CO}_2$ eq $\\times\\ 7{,}6 \\times 10^{9} = 13{,}7$ Gt $\\text{CO}_2$ eq. Como em 2017, a emissão total foi de 57 Gt $\\text{CO}_2$ eq, a emissão devida à mudança de dieta seria de 57 – 13,7 = 43,3 Gt $\\text{CO}_2$ eq. De acordo com a figura A, esse valor de emissão ocorreu por volta dos anos 1987, 1992 e 2001.\n\n*Observação: Como a leitura de dados a partir de figuras envolve alguma incerteza, os valores calculados e apresentados nos itens a e b serão considerados dentro de uma faixa compatível com essas variações de leitura.*"
+      }
+    }
+  }
+}

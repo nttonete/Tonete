@@ -1,0 +1,237 @@
+{
+ "edicao": "unicamp-2017-2-d3",
+ "intervalo": [
+  10,
+  18
+ ],
+ "textos_base": {},
+ "questoes": [
+  {
+   "numero": 10,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma reportagem em revista de divulgação científica apresenta o seguinte título: *Pesquisadores estão investigando a possibilidade de combinar hidrogênio com dióxido de carbono para produzir hidrocarbonetos, com alto poder energético, “ricos em energia”*. O texto da reportagem explicita melhor o que está no título, ao informar que *“em 2014 um grupo de pesquisadores desenvolveu um sistema híbrido que usa bactérias e eletricidade, conjuntamente, em um coletor solar, para gerar hidrogênio a partir da água, e fazer sua reação com dióxido de carbono, para produzir isopropanol”*, como representa a equação a seguir.\n\n$$3\\ \\text{CO}_2 + 4\\ \\text{H}_2 \\rightarrow \\text{C}_3\\text{H}_8\\text{O} + 2{,}5\\ \\text{O}_2 \\qquad \\Delta_r H^0 = +862\\ \\text{kJ/mol}$$",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considerando que a entalpia padrão de formação da água é -286 kJ/mol, qual é a quantidade de energia que seria utilizada na produção de 1 mol de isopropanol, a partir de água e $\\text{CO}_2$, da maneira como explica o enunciado acima?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Qual seria a energia liberada pela queima de 90 gramas de isopropanol obtido dessa maneira? Considere uma combustão completa e condição padrão."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 11,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Uma das alternativas para o tratamento de lixo sólido consiste na tecnologia de reciclagem quaternária, em que o lixo sólido não perecível é queimado em usinas específicas. Nessas usinas, os resíduos oriundos da queima são retidos e não são emitidos diretamente para o meio ambiente. Um dos sistemas para retenção da parte gasosa dos resíduos apresenta um filtro que contém uma das seguintes substâncias: $\\text{Na}_2\\text{CO}_3$, NaOH, CaO ou $\\text{CaCO}_3$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere a seguinte afirmação: essa tecnologia apresenta dupla vantagem porque, além de resolver o problema de ocupação do espaço, também gera energia. Responda, inicialmente, se <u>concorda totalmente</u>, <u>concorda parcialmente</u> ou se <u>discorda totalmente</u> dessa afirmação e, em seguida, justifique sua escolha."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Durante a queima que ocorre no tratamento do lixo, os seguintes gases podem ser liberados: $\\text{NO}_2$, $\\text{SO}_2$ e $\\text{CO}_2$. Escolha um desses gases e indique um filtro adequado para absorvê-lo, dentre as quatro possibilidades apresentas no enunciado. Justifique sua escolha utilizando uma equação química."
+    }
+   ],
+   "observacoes": "O caderno traz “apresentas” (em vez de “apresentadas”) no item b; mantido como no original."
+  },
+  {
+   "numero": 12,
+   "materia": "quimica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O sangue que circula por todo o nosso corpo é muito resistente a alterações, mas acaba sendo o depósito de muitos resíduos provenientes da ingestão de alguma substância. No caso dos fumantes, o contato com a nicotina após o consumo de um cigarro leva à variação de concentração de nicotina no sangue ao longo do tempo, como mostra o gráfico abaixo.\n\n![Gráfico da concentração de nicotina no sangue, em ng/mL, em função do tempo, em minutos](fig:p14-c1)\n\n![Equação de equilíbrio entre a forma protonada da nicotina (anel piridínico ligado a anel pirrolidínico com N⁺–H e grupo CH₃) e a forma desprotonada (mesma estrutura com N e CH₃) mais H⁺](fig:p14-c2)\n\nDados: massa molar da nicotina = 162,2 g mol⁻¹, $\\log_{10}4 = 0{,}6$.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere o momento em que a quantidade de nicotina no sangue de um fumante atinge seu valor máximo. Se nesse momento o pH do sangue for de 7,4, qual espécie estará em maior concentração (mol/L): o $\\text{H}^+$ ou a nicotina total? Justifique sua resposta."
+    },
+    {
+     "rotulo": "b",
+     "texto": "A constante de equilíbrio da equação acima é $1{,}0 \\times 10^{-8}$. Qual das formas da nicotina estará em maior concentração no sangue: a forma protonada ou a desprotonada? Justifique sua resposta."
+    }
+   ],
+   "observacoes": "A frase “Dados: ...” vem depois dos itens no caderno; foi colocada no fim do enunciado."
+  },
+  {
+   "numero": 13,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O uso do sistema de localização GPS (*Global Positioning System*) cresceu bastante nos últimos tempos devido principalmente à existência do sensor GPS na maioria dos celulares disponíveis no mercado. Nesses celulares, o sinal de GPS tem sido usado para localização do aparelho em mapas, para obter sugestões de rotas e até em jogos. Considere que os satélites responsáveis por enviar o sinal GPS encontram-se a aproximadamente $R_{\\text{GPS}} = 27.000\\ \\text{km}$ do centro da Terra, seu período de rotação em torno do centro da Terra é $T_{\\text{GPS}} = 12$ horas e sua órbita é circular.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Qual é a velocidade escalar média de um satélite do sistema GPS?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Os satélites de GPS enviam continuamente as três coordenadas que determinam sua posição atual e o horário do envio da mensagem. Com as informações de 4 satélites, o receptor pode determinar a sua posição e o horário local. Para garantir a precisão dessas informações, efeitos relativísticos são considerados na determinação do horário enviado pelos satélites. Os relógios localizados nos satélites são afetados principalmente por efeitos da relatividade restrita, que atrasam os relógios, e da relatividade geral, que adiantam os relógios, conforme mostra a figura abaixo. Qual é a distância do centro da Terra $R$ e o período $T$ da órbita em que os efeitos da relatividade geral e da relatividade restrita se cancelam, ou seja, quando a soma dos dois efeitos é zero?\n\n![Gráfico da correção no tempo do relógio, em 10⁻¹⁰ s para cada segundo na Terra, em função da distância do centro da Terra, em 10³ km, com as curvas “relatividade geral” e “relatividade restrita”](fig:p15-c2)"
+    }
+   ],
+   "observacoes": "A figura do item b está impressa dentro do quadro de resolução no caderno. Na resposta do item b, o PDF oficial (inclusive na prova comentada) traz “relativísti cos” com o texto partido; transcrito como “relativísticos”. A banca escreve “d = 9×10⁶” sem unidade; mantido assim."
+  },
+  {
+   "numero": 14,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Lótus é uma planta conhecida por uma característica muito interessante: apesar de crescer em regiões de lodo, suas folhas estão sempre secas e limpas. Isto decorre de sua propriedade hidrofóbica. Gotas de água na folha de lótus tomam forma aproximadamente esférica e se deslocam quase sem atrito até caírem da folha. Ao se moverem pela folha, as gotas de água capturam e carregam consigo a sujeira para fora da folha.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Quando uma gota de água cai sobre uma folha de lótus, ela quica como se fosse uma bola de borracha batendo no chão. Considere uma gota, inicialmente em repouso, caindo sobre uma folha de lótus plana e na horizontal, a partir de uma altura $h_i = 50\\ \\text{cm}$ acima da folha. Qual é o coeficiente de restituição da colisão se a gota sobe até uma altura de $h_f = 2\\ \\text{cm}$ após quicar a primeira vez na folha?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Considere uma gota de água com velocidade inicial $v_i = 3\\ \\text{mm/s}$ deslocando-se e limpando a superfície de uma folha de lótus plana e na horizontal. Antes de cair da folha, essa gota captura o lodo de uma área de $2\\ \\text{cm}^2$. Suponha que a densidade superficial média de lodo na folha é de $2{,}5 \\times 10^{-3}$ gramas/$\\text{cm}^2$. Estime a massa da gota de água e calcule sua velocidade no instante em que ela deixa a folha."
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 15,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Os brinquedos de parques de diversões utilizam-se de princípios da Mecânica para criar movimentos aos quais não estamos habituados, gerando novas sensações. Por isso um parque de diversões é um ótimo local para ilustrar princípios básicos da Mecânica.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Considere uma montanha russa em que um carrinho desce por uma rampa de altura $H = 5\\ \\text{m}$ e, ao final da rampa, passa por um trecho circular de raio $R = 2\\ \\text{m}$, conforme mostra a figura a) abaixo. Calcule o módulo da aceleração no ponto mais baixo do circuito, considerando que o carrinho partiu do repouso.\n\n![Figura a): carrinho no alto de uma rampa de altura H = 5 m, que desce até um trecho circular de raio R = 2 m](fig:p17-c3)"
+    },
+    {
+     "rotulo": "b",
+     "texto": "Outro brinquedo comum em parques de diversões é o chapéu mexicano, em que cadeiras são penduradas com correntes na borda de uma estrutura circular que gira com seu eixo de rotação perpendicular ao solo. Considere um chapéu mexicano com estrutura circular de raio $R = 6{,}3\\ \\text{m}$ e correntes de comprimento $L = 2\\ \\text{m}$. Ao girar, as cadeiras se elevam 40 cm, afastando-se 1,2 m do eixo de rotação, conforme mostra a figura b) abaixo. Calcule a velocidade angular de rotação do brinquedo.\n\n![Figura b): estrutura circular de raio R = 6,3 m com cadeira pendurada por corrente de comprimento L = 2 m, elevada 0,4 m e afastada 1,2 m do eixo de rotação](fig:p17-c4)"
+    }
+   ],
+   "observacoes": "As figuras a) e b) estão impressas dentro do quadro de resolução no caderno."
+  },
+  {
+   "numero": 16,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "A energia solar é a única fonte de energia do avião Solar Impulse 2, desenvolvido na École Polytechnique Fédérale de Lausanne, Suíça.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "Para aproveitar a energia obtida dos raios solares e poder voar tanto à noite quanto de dia, o Solar Impulse 2, de massa aproximada $m = 2000\\ \\text{kg}$, voava em alta altitude e velocidade $v_{\\text{dia}} = 90\\ \\text{km/h}$ durante o dia, armazenando energia solar para a noite. Ao anoitecer, o avião descia para altitudes menores e voava a uma velocidade aproximada de $v_{\\text{noite}} = 57{,}6\\ \\text{km/h}$. Qual é a variação da energia cinética do avião entre o dia e a noite?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "As asas e a fuselagem do Solar Impulse 2 são cobertas por $270\\ \\text{m}^2$ de células solares, cuja eficiência em converter energia solar em energia elétrica é de aproximadamente 25%. O avião tem um conjunto de motores cuja potência total vale $P = 50{,}0\\ \\text{kW}$ e baterias que podem armazenar até $E = 164\\ \\text{kWh}$ de energia total. Suponha que o avião está voando com seus motores a 80% da sua potência máxima e que as baterias estão totalmente descarregadas. Considerando que a intensidade de energia solar que chega até as células solares é de $1{,}2\\ \\text{kW/m}^2$, quanto tempo é necessário para carregar totalmente as baterias?"
+    }
+   ],
+   "observacoes": ""
+  },
+  {
+   "numero": 17,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "Um instrumento importante no estudo de sistemas nanométricos é o microscópio eletrônico. Nos microscópios ópticos, a luz é usada para visualizar a amostra em estudo. Nos microscópios eletrônicos, um feixe de elétrons é usado para estudar a amostra.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "A vantagem em se usar elétrons é que é possível acelerá-los até energias em que o seu comprimento de onda é menor que o da luz visível, permitindo uma melhor resolução. O comprimento de onda do elétron é dado por $\\lambda = h/(2m_e E_c)^{1/2}$, em que $E_c$ é a energia cinética do elétron, $m_e \\sim 9 \\times 10^{-31}\\ \\text{kg}$ é a massa do elétron e $h \\sim 6{,}6 \\times 10^{-34}\\ \\text{N}\\cdot\\text{m}\\cdot\\text{s}$ é a constante de Planck. Qual é o comprimento de onda do elétron em um microscópio eletrônico em que os elétrons são acelerados, a partir do repouso, por uma diferença de potencial de $U = 50\\ \\text{kV}$? Caso necessário, use a carga do elétron $e = 1{,}6 \\times 10^{-19}\\ \\text{C}$."
+    },
+    {
+     "rotulo": "b",
+     "texto": "Uma forma usada para gerar elétrons em um microscópio eletrônico é aquecer um filamento, processo denominado efeito termiônico. A densidade de corrente gerada é dada por $J = AT^2 e^{(-\\Phi/(k_B T))}$, em que $A$ é a constante de Richardson, $T$ é a temperatura em kelvin, $k_B = 1{,}4 \\times 10^{-23}\\ \\text{J/K}$ é a constante de Boltzmann e $\\Phi$, denominado função trabalho, é a energia necessária para remover um elétron do filamento. A expressão para $J$ pode ser reescrita como $\\ln(J/T^2) = \\ln(A) - (\\Phi/k_B)(1/T)$, que é uma equação de uma reta de $\\ln(J/T^2)$ versus $(1/T)$, em que $\\ln(A)$ é o coeficiente linear e $(\\Phi/k_B)$ é o coeficiente angular da reta. O gráfico da figura abaixo apresenta dados obtidos do efeito termiônico em um filamento de tungstênio. Qual é a função trabalho do tungstênio medida neste experimento?\n\n![Gráfico de ln(J/T²) em função de 1/T, em 10⁻³ K⁻¹: reta decrescente que parte de 0 em 1/T = 0,25 e chega a −40 em 1/T = 1,0](fig:p19-c3)"
+    }
+   ],
+   "observacoes": "A figura do item b está impressa dentro do quadro de resolução no caderno."
+  },
+  {
+   "numero": 18,
+   "materia": "fisica",
+   "materias_extra": [],
+   "texto_base": null,
+   "enunciado": "O controle da temperatura da água e de ambientes tem oferecido à sociedade uma grande gama de confortos muito bem-vindos. Como exemplo podemos citar o controle da temperatura de ambientes fechados e o aquecimento da água usada para o banho.",
+   "itens": [
+    {
+     "rotulo": "a",
+     "texto": "O sistema de refrigeração usado em grandes instalações, como centros comerciais, retira o calor do ambiente por meio da evaporação da água. Os instrumentos que executam esse processo são usualmente grandes torres de refrigeração vazadas, por onde circula água, e que têm um grande ventilador no topo. A água é pulverizada na frente do fluxo de ar gerado pelo ventilador. Nesse processo, parte da água é evaporada, sem alterar a sua temperatura, absorvendo calor da parcela da água que permaneceu líquida. Considere que 110 litros de água a $30\\ ^\\circ\\text{C}$ circulem por uma torre de refrigeração e que, desse volume, 2 litros sejam evaporados. Sabendo que o calor latente de vaporização da água é $L = 540\\ \\text{cal/g}$ e que seu calor específico é $c = 1{,}0\\ \\text{cal/g}\\cdot{}^\\circ\\text{C}$, qual é a temperatura final da parcela da água que não evaporou?"
+    },
+    {
+     "rotulo": "b",
+     "texto": "A maioria dos chuveiros no Brasil aquece a água do banho por meio de uma resistência elétrica. Usualmente a resistência é constituída de um fio feito de uma liga de níquel e cromo de resistividade $\\rho = 1{,}1 \\times 10^{-6}\\ \\Omega\\cdot\\text{m}$. Considere um chuveiro que funciona com tensão de $U = 220\\ \\text{V}$ e potência $P = 5500\\ \\text{W}$. Se a área da seção transversal do fio da liga for $A = 2{,}5 \\times 10^{-7}\\ \\text{m}^2$, qual é o comprimento do fio da resistência?"
+    }
+   ],
+   "observacoes": ""
+  }
+ ],
+ "respostas": {
+  "10": {
+   "resposta": "**Objetivo da questão:** Esperava-se que os candidatos fossem capazes de relacionar equações químicas e as energias nelas envolvidas. A questão abordou reações exotérmicas e endotérmicas e cálculos de variação de entalpia, além do princípio da conservação da energia e lei de Hess.\nO assunto abordado nessa questão está bem presente em nosso cotidiano – permite calcular grandezas associadas como, por exemplo, no rendimento de aquecedores a gás ou a líquido; e se insere na questão ambiental de diminuição da emissão de $\\text{CO}_2$.",
+   "itens": {
+    "a": "O enunciado indica que o hidrogênio deve ser produzido a partir da água. Assim:\n\n$$\\text{H}_2\\text{O} \\rightarrow \\text{H}_2 + \\tfrac{1}{2}\\,\\text{O}_2 \\qquad \\Delta H_r = 286\\ \\text{kJ/mol}.$$\n\nO hidrogênio assim produzido será utilizado para produzir o álcool, de acordo com a equação:\n\n$$3\\ \\text{CO}_2 + 4\\ \\text{H}_2 \\rightarrow \\text{C}_3\\text{H}_8\\text{O} + 2{,}5\\ \\text{O}_2 \\qquad \\Delta H_r = +862\\ \\text{kJ/mol}.$$\n\nMultiplicando-se a primeira equação por 4 e combinando-se as duas equações (Lei de Hess), obtém-se:\n\n$$4\\ \\text{H}_2\\text{O} \\rightarrow 4\\ \\text{H}_2 + 2\\ \\text{O}_2 \\qquad \\Delta H_r = 4 \\times 286\\ \\text{kJ/mol}$$\n$$3\\ \\text{CO}_2 + 4\\ \\text{H}_2 \\rightarrow \\text{C}_3\\text{H}_8\\text{O} + 2{,}5\\ \\text{O}_2 \\qquad \\Delta H_r = +862\\ \\text{kJ/mol}$$\n\nSomando-se estas duas equações, obtém-se a equação de formação de isopropanol a partir de $\\text{CO}_2$ e água, com a liberação de (1144 + 862), ou seja, 2006 kJ de energia por mol de isopropanol formado.",
+    "b": "A massa molar do isopropanol é de (36 + 8 + 16), ou seja, 60 g mol⁻¹.\n90 g de isopropanol correspondem a 1,5 mol.\nA equação de combustão do isopropanol é o inverso da equação de sua formação, como se obteve no item a:\n\n$$\\text{C}_3\\text{H}_8\\text{O} + 4{,}5\\ \\text{O}_2 \\rightarrow 3\\ \\text{CO}_2 + 4\\ \\text{H}_2\\text{O} \\qquad \\Delta H_r = -2006\\ \\text{kJ/mol}.$$\n\nAssim, a queima de um mol de isopropanol liberará 2006 kJ de energia. Se for queimado 1,5 mol de isopropanol, a energia liberada será de (2006 x 1,5) kJ, ou seja, 3009 kJ."
+   }
+  },
+  "11": {
+   "resposta": "**Objetivo da questão:** Essa questão buscou avaliar se os candidatos tinham noções gerais sobre a composição, a utilização de recursos naturais da crosta terrestre, da atmosfera, da biosfera e da hidrosfera e as consequências dessa utilização. O próprio texto da questão se baseia no funcionamento de usinas térmicas à base de lixo não perecível. A questão também requeria a aplicação de conceitos ácido-base de Arrhenius, Bronsted e Lewis.",
+   "itens": {
+    "a": "Deve-se **concordar parcialmente** com a afirmação, porque realmente há uma geração de energia, que pode ser aproveitada de diversas formas, mas não resolve completamente a questão da ocupação do espaço, já que pode gerar resíduos sólidos que ocupam espaço e também os gases emitidos que são filtrados se transformarão em resíduos, que, de alguma forma, têm que ser estocados.",
+    "b": "Como se pode escolher qualquer um dos três gases, exemplos de sua retenção podem ser:\n**$\\text{CO}_2$**, retido por: $\\text{CaO} + \\text{CO}_2 \\rightarrow \\text{CaCO}_3$ ou $\\text{NaOH} + \\text{CO}_2 \\rightarrow \\text{NaHCO}_3$;\n**$\\text{SO}_2$**, retido por: $\\text{CaO} + \\text{SO}_2 \\rightarrow \\text{CaSO}_3$ ou $\\text{NaOH} + \\text{SO}_2 \\rightarrow \\text{NaHSO}_3$;\n**$\\text{NO}_2$**, retido por: $2\\ \\text{CaO} + 4\\ \\text{NO}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{Ca(NO}_2)_2$.\n\nObservações: $\\text{SO}_2$ e $\\text{NO}_2$, quando adsorvidos em óxidos ou hidróxidos, de modo geral podem originar sulfito, sulfato, nitrito e nitrato. A escolha de adsorventes na forma de carbonato não é uma boa opção, pois seu uso pode levar à formação de $\\text{CO}_2$."
+   }
+  },
+  "12": {
+   "resposta": "**Objetivo da questão:** Esperava-se que os candidatos dominassem as várias expressões de concentração: porcentagem, fração em massa, fração em mol, massa/volume, mol/volume, mol/quilograma, além de saber trabalhar com sistemas em equilíbrio, constante de equilíbrio e pH de soluções.",
+   "itens": {
+    "a": "A concentração máxima de nicotina no sangue, de acordo com a figura, ocorre por volta de 10 minutos, e é de 20 ng/mL. Isso corresponde a $20 \\times 10^{-9}/162$ mol/mL, ou $1{,}23 \\times 10^{-10}$ mol/mL ou $1{,}23 \\times 10^{-7}$ mol/L.\n\nA concentração de $\\text{H}^+$ no sangue quando o pH é 7,4 é, aproximadamente, $10^{-7{,}4}$ mol/L, ou seja, $4 \\times 10^{-8}$ mol/L, um valor menor que $1{,}23 \\times 10^{-7}$ mol/L, que é a concentração total de nicotina no sangue.",
+    "b": "A constante de equilíbrio da reação é dada por $K = [\\text{nicotina}][\\text{H}^+]/[\\text{nicotina-H}^+]$, ou seja,\n\n$1{,}0 \\times 10^{-8}/4 \\times 10^{-8} = [\\text{nicotina}]/[\\text{nicotina-H}^+]$   $0{,}25 = [\\text{nicotina}]/[\\text{nicotina-H}^+]$\n**$0{,}25 \\times [\\text{nicotina-H}^+] = [\\text{nicotina}]$.** Isso significa que a concentração da forma protonada da nicotina é 4 vezes maior que aquela da forma desprotonada.\n\nOutra forma de resolver a questão é observar que o sistema apresenta um valor de pH menor que o pKa da nicotina, o que leva a concluir que a espécie nicotina protonada está em maior concentração que a espécie desprotonada."
+   }
+  },
+  "13": {
+   "resposta": "**Objetivo da questão:** a) Este item aborda o conceito de velocidade escalar média, presente em diversas situações do cotidiano das pessoas, e que, nesta questão, aparece em um contexto mais complexo, porém bastante presente em diversas tecnologias já populares como os telefones celulares.\nb) Apesar de envolver um contexto de física moderna (relatividade geral e restrita), este item exige apenas uma correta leitura do gráfico e interpretação de texto.",
+   "itens": {
+    "a": "$$v = \\frac{2\\pi R}{T} = \\frac{6 \\times 27000}{12} = 13500\\ \\text{km/h}$$",
+    "b": "Os efeitos relativísticos, segundo o gráfico, se cancelam para $d = 9 \\times 10^{6}$.\n\nLogo, de acordo com a terceira lei de Kepler,\n\n$$\\frac{R_1^3}{T_1^2} = \\frac{R_2^3}{T_2^2} \\Rightarrow \\frac{27^3}{12^2} = \\frac{9^3}{T_2^2}$$\n$$T_2 = \\frac{12}{3\\sqrt{3}} \\approx 2{,}2\\ \\text{h}.$$"
+   }
+  },
+  "14": {
+   "resposta": "**Objetivo da questão:** a) Este item aborda um conceito específico, coeficiente de restituição, e exige do candidato conhecimentos sobre movimento retilíneo uniformemente acelerado (queda). O candidato poderia chegar à resposta através das equações horárias para o movimento em questão ou através de conservação de energia mecânica.\nb) Este item, mais complexo que o anterior, trata da conservação do momento linear. Porém, para chegar à resposta correta, o candidato deveria também dominar o conceito de densidade de massa e ainda fazer a estimativa da massa de uma gota de água.\nEm geral, conservação do momento linear se aplica a eventos que envolvem colisões. Neste caso específico, utiliza-se o conhecimento em uma situação interessante relacionada à biologia.",
+   "itens": {
+    "a": "$$v^2 = 2gh$$\n$$e = \\frac{v_f}{v_i} = \\frac{\\sqrt{h}}{\\sqrt{H}} = \\frac{1}{5} = 0{,}2$$",
+    "b": "Estimando a massa da gota como:\n\n$$m_g = 0{,}03\\ \\text{g},$$\n$$m_l = 2 \\times 2{,}5 \\times 10^{-3} = 5 \\times 10^{-3}\\ \\text{g}$$\n$$v_i m_g = v_f (m_g + m_l)$$\n$$v_f = \\frac{3 \\times 0{,}03}{0{,}03 + 0{,}005} = 2{,}57\\ \\text{mm/s}.$$"
+   }
+  },
+  "15": {
+   "resposta": "**Objetivo da questão:** a) Exigindo conhecimentos sobre movimento circular e aceleração centrípeta, este item clássico aborda tais conceitos no contexto de um brinquedo presente em parques de diversão. O candidato deveria associar a esses conceitos conhecimentos sobre movimento retilíneo uniformemente acelerado (descida da rampa).\nb) Seguindo a temática dos brinquedos, este item aborda decomposição e equilíbrio de forças. Tais conhecimentos deveriam ser aplicados ao movimento circular do brinquedo em questão.",
+   "itens": {
+    "a": "$$v^2 = 2gh$$\n$$a = \\frac{v^2}{R} = \\frac{2gh}{R} = \\frac{2 \\times 10 \\times 5}{2} = 50\\ \\frac{\\text{m}}{\\text{s}^2}$$",
+    "b": "$$T\\,\\text{sen}\\,\\theta = m\\omega^2 R$$\n$$T\\cos\\theta = mg$$\n$$\\text{tg}\\,\\theta = \\frac{\\omega^2 R}{g}$$\n$$\\omega = \\sqrt{\\frac{10 \\times \\frac{3}{4}}{7{,}5}} = 1\\ \\text{rad/s}$$"
+   }
+  },
+  "16": {
+   "resposta": "**Objetivo da questão:** a) A questão exige conhecimentos sobre o importante conceito de energia cinética.\nb) Focaliza os conceitos de energia, potência, intensidade de energia e eficiência. Este item, mais complexo que o anterior, exige o correto manejo dos dados para se chegar à resposta correta. Isso é facilitado pela boa interpretação do texto apresentado.",
+   "itens": {
+    "a": "$$\\Delta K = \\frac{1}{2} m v_n^2 - \\frac{1}{2} m v_d^2 = 1000\\left(57{,}6^2 - 90^2\\right)$$\n$$= -4782240\\ \\text{kg}\\,\\frac{\\text{km}^2}{\\text{h}^2}\\ \\text{ou}\\ -369000\\ \\text{J}$$",
+    "b": "Potência útil:\n\n$$1{,}2\\,\\frac{\\text{kW}}{\\text{m}^2} \\times 0{,}25 \\times 270\\ \\text{m}^2 = 81\\ \\text{kW}$$\n\nEnergia destinada às baterias:\n\n$$(81 - 0{,}8 \\times 50)\\ \\text{kW} \\times t = 164\\ \\text{kWh} \\Rightarrow t = 4\\ \\text{h}$$"
+   }
+  },
+  "17": {
+   "resposta": "**Objetivo da questão:** a) Trata-se de física moderna, porém o objetivo aqui é cobrar uma correta interpretação das instruções contidas no texto e o cálculo do comprimento de onda pedido.\nb) Este item envolve leitura de gráfico combinada com a linearização de uma expressão fornecida no texto. O candidato deveria saber o que significa coeficiente linear de uma reta para resolver a questão.",
+   "itens": {
+    "a": "$$\\lambda = \\frac{h}{\\sqrt{2mE}}$$\n$$E = qU = 1{,}6 \\times 10^{-19} \\times 5{,}0 \\times 10^{4} = 8 \\times 10^{-15}\\ \\text{J}$$\n$$\\Rightarrow \\lambda = \\frac{6{,}6 \\times 10^{-34}}{\\sqrt{18 \\times 10^{-31} \\times 8 \\times 10^{-15}}} = 5{,}5 \\times 10^{-12}\\ \\text{m}$$",
+    "b": "Coeficiente angular da reta:\n\n$$\\alpha = \\frac{\\phi}{k_B} = 50 \\times 10^{3}\\ \\text{K} \\Rightarrow \\phi = 50 \\times 10^{3} \\times 1{,}4 \\times 10^{-23} = 7 \\times 10^{-19}\\ \\text{J}$$"
+   }
+  },
+  "18": {
+   "resposta": "**Objetivo da questão:** a) A questão aborda conceitos básicos de termodinâmica como calor específico e calor latente. O objetivo era cobrar a aplicação das recorrentes expressões envolvendo tais conceitos a um sistema de refrigeração real.\nb) Este item, apesar de abordar o mesmo tema aquecimento/refrigeração, difere do item a uma vez que, aqui, o sistema de aquecimento é elétrico. O candidato deveria dominar os conceitos de potência elétrica e sua relação com resistividade e resistência elétricas.",
+   "itens": {
+    "a": "$$Q_{resf} = Q_{evap} \\Rightarrow m_a c|\\Delta T| = m_v L$$\n$$Q_{evap} = mL = 540 \\times 2000 = 1{,}08 \\times 10^{6}\\ \\text{cal}$$\n$$|\\Delta T| = \\frac{1{,}08 \\times 10^{6}}{108 \\times 10^{3}} = 10\\ ^\\circ\\text{C}$$\n$$T_f = 20\\ ^\\circ\\text{C}$$",
+    "b": "$$P = \\frac{U^2}{R}$$\n$$R = 8{,}8\\ \\Omega = \\frac{\\rho l}{A}$$\n$$l = \\frac{8{,}8 \\times 2{,}5 \\times 10^{-7}}{1{,}1 \\times 10^{-6}} = 2\\ \\text{m}$$"
+   }
+  }
+ }
+}
