@@ -56,6 +56,7 @@ A resposta da banca é mantida como publicada; uma pessoa decide se cabe uma not
 - unicamp-2025-2-cha q19: a resposta diz que o Conselho do Ártico foi formado em 1991; o enunciado (correto) diz 1996.
 - fuvest-2024-2-d2 q11 (F05), item b: o caderno pergunta sobre "o elétron e o pósitron"; pela figura e pela resposta da banca, a segunda partícula é o próton. Decidir se entra nota da plataforma.
 - unicamp-2017-2-d3 q17, item b: pelo gráfico do caderno o coeficiente angular dá ≈53×10³ K (função trabalho ≈7,5×10⁻¹⁹ J); a banca usa 50×10³ K e 7×10⁻¹⁹ J (diferença de ~6%, leitura de gráfico).
+- unicamp-2018-2-d2 q18, item b: a banca escreve que o determinante 2+p−2−p² é igual a p(p−1); o certo é p(1−p). As raízes e a conclusão não mudam.
 - unicamp-2026-2-cha q12, item a: a resposta cita o texto da questão como "tecnologia e segredo atômico"; o caderno imprime "tecnologia e conhecimento atômico".
 
 ### Discursivas: trecho curto de poema protegido mantido
