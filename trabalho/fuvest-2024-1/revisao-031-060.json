@@ -1,0 +1,179 @@
+{
+  "edicao": "fuvest-2024-1",
+  "intervalo": [
+    31,
+    60
+  ],
+  "textos_base": {},
+  "questoes_corrigidas": [
+    {
+      "numero": 41,
+      "materia": "quimica",
+      "materias_extra": [
+        "geografia",
+        "biologia"
+      ],
+      "texto_base": null,
+      "enunciado": "As moléculas de água podem conter o isótopo estável mais abundante de oxigênio, $^{16}\\text{O}$, ou o isótopo estável menos abundante, $^{18}\\text{O}$.\n\nEssa pequena diferença de massa entre as moléculas de água é suficiente para alterar a sua pressão de vapor. Por esse motivo, a análise de isótopos de oxigênio na água da chuva possibilita a identificação de períodos secos e de períodos chuvosos.\n\nA figura ilustra a mudança na constituição isotópica da água da chuva ao longo do tempo como resultado da diferença na pressão de vapor.\n\n![esquema com legenda (círculo vazio: molécula de água com ¹⁶O, maior pressão de vapor; círculo cheio: molécula de água com ¹⁸O, menor pressão de vapor) e três nuvens com os processos de evaporação, vapor e precipitação entre o oceano e o continente](fig:p16-f1)\n\nCom base nessas informações, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Em períodos de alta pluviosidade, as primeiras precipitações da nuvem são isotopicamente mais leves e a nuvem de chuva se enriquece, relativamente, em $^{18}\\text{O}$.",
+        "B": "Em períodos de baixa pluviosidade, a constituição isotópica das nuvens pouco se altera ao longo do tempo, e a pouca chuva dessas nuvens é relativamente enriquecida em $^{18}\\text{O}$.",
+        "C": "No período atual, em função do aquecimento global, as temperaturas elevadas fazem com que o fracionamento isotópico de $^{16}\\text{O}$ e $^{18}\\text{O}$ resultante da evaporação e da precipitação da água não ocorra.",
+        "D": "Em períodos glaciais, em função da maior temperatura do planeta, as chuvas são enriquecidas em $^{18}\\text{O}$, enquanto, nos oceanos, a água é enriquecida em $^{16}\\text{O}$.",
+        "E": "Em períodos interglaciais, em função da menor temperatura do planeta, as chuvas são enriquecidas em $^{16}\\text{O}$, enquanto, nos oceanos, a água é enriquecida em $^{18}\\text{O}$."
+      }
+    }
+  ],
+  "relatorio": [
+    {
+      "numero": 31,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 32,
+      "status": "ok",
+      "notas": "Alternativas eram uma tabela no caderno (colunas cidade I a IV); transcritas como “cidade X: doença”, conferidas linha a linha."
+    },
+    {
+      "numero": 33,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 34,
+      "status": "ok",
+      "notas": "“a média é igual 6” (sem “a”) confere com o caderno; mantido."
+    },
+    {
+      "numero": 35,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 36,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 37,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 38,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 39,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 40,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 41,
+      "status": "corrigida",
+      "notas": "Descrição da figura: a legenda mostra moléculas de água (H–O–H) com ¹⁶O e ¹⁸O; a descrição dizia “H₂ com ¹⁶O/¹⁸O”. Reescrita como “molécula de água com ¹⁶O/¹⁸O”."
+    },
+    {
+      "numero": 42,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 43,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 44,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 45,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 46,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 47,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 48,
+      "status": "atencao",
+      "notas": "Minha resolução dá E (61); gabarito oficial D (60). Transcrição conferida com a página (embalagem 2 cm x 3 cm x 11 cm; caixa 12 cm x 13 cm x 26 cm; alternativas 48, 52, 56, 60, 61 na ordem), sem erro. Há arranjo com 61 embalagens, conferido por script (sem sobreposição e dentro da caixa): duas camadas de 11 cm de espessura ao longo dos 26 cm, cada uma com a seção 12 x 13 coberta por 26 retângulos 2 x 3 (12 x 9 com retângulos 2 de largura e 3 de altura: 18; 12 x 4 com retângulos 3 x 2: 8) = 52; na fatia restante 12 x 13 x 4, 8 embalagens deitadas (3 ao longo dos 12, 11 ao longo dos 13, 2 ao longo dos 4) e mais 1 na faixa 12 x 2 x 4 (11 x 2 x 3) = 61. O volume limita a 61 (4056/66 = 61,45). Portanto 61 é possível e é o máximo; o gabarito oficial (60) parece errado. Uma pessoa deve decidir (possível anulação ou erro da banca)."
+    },
+    {
+      "numero": 49,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 50,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 51,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 52,
+      "status": "ok",
+      "notas": "“Lei n º 25.871” (com espaço) confere com o caderno; mantido."
+    },
+    {
+      "numero": 53,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 54,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 55,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 56,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 57,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 58,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 59,
+      "status": "ok",
+      "notas": ""
+    },
+    {
+      "numero": 60,
+      "status": "ok",
+      "notas": ""
+    }
+  ]
+}
