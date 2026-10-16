@@ -4,7 +4,12 @@ Projeto `banca-aberta`, região São Paulo (sa-east-1), código `egfglvvjdnrxjsi
 
 ## Situação
 
-O código está pronto e testado, mas **ainda não foi aplicado no projeto**. Na tentativa de 16/10/2026, o `SUPABASE_ACCESS_TOKEN` do ambiente de nuvem estava vazio, e sem ele nada pode ser feito no projeto (banco, funções, segredos). Um token pessoal começa com `sbp_`. Veja "Como colocar no ar".
+O código está pronto e testado, mas **ainda não foi aplicado no projeto**. Duas tentativas em 16/10/2026:
+
+1. O `SUPABASE_ACCESS_TOKEN` do ambiente de nuvem estava vazio.
+2. Com o token preenchido, o Supabase recusou (erro 403). O token é válido, mas a conta que o gerou só é dona de uma organização `banca-aberta` **sem nenhum projeto**. O projeto `egfglvvjdnrxjsikespe` existe, mas está em outra conta ou organização. Solução: gerar o token entrando no supabase.com com a conta que criou o projeto, ou convidar a conta do token para a organização do projeto (papel Owner ou Administrator).
+
+Sem um token com acesso ao projeto, nada pode ser feito nele (banco, funções, segredos). Para conferir, `node supabase/aplicar_migracoes.mjs --conferir` lista as migrações; se o acesso faltar, ele diz quais projetos o token enxerga. Veja "Como colocar no ar".
 
 O ambiente de nuvem só sai para a internet por HTTPS: não conecta direto no Postgres (porta 5432). Por isso, lá a senha do banco sozinha não basta e o `supabase db push` não funciona; use `supabase/aplicar_migracoes.mjs`, que faz o mesmo pela API.
 

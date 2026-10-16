@@ -34,8 +34,25 @@ async function consultar(sql) {
     body: JSON.stringify({ query: sql }),
   });
   const texto = await resp.text();
+  if (resp.status === 401 || resp.status === 403) await semAcesso(resp.status);
   if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${texto}`);
   return texto ? JSON.parse(texto) : [];
+}
+
+// O token não abre o projeto: mostra quais projetos ele enxerga, para saber se é a conta errada.
+async function semAcesso(status) {
+  console.error(`O Supabase recusou o token (HTTP ${status}) para o projeto ${PROJETO}.`);
+  if (status === 403) {
+    const resp = await fetch(`${API}/v1/projects`, { headers: { Authorization: `Bearer ${TOKEN}` } });
+    const projetos = resp.ok ? await resp.json() : [];
+    console.error(
+      projetos.length
+        ? `Projetos que este token enxerga: ${projetos.map((p) => `${p.name} (${p.id})`).join(", ")}.`
+        : "Este token não enxerga nenhum projeto: ele é de outra conta do Supabase.",
+    );
+    console.error("Gere o token com a conta dona do projeto, ou convide esta conta para a organização do projeto.");
+  }
+  process.exit(1);
 }
 
 // Texto literal em SQL sem precisar escapar nada: $marca$...$marca$ com uma marca que não aparece no texto.
