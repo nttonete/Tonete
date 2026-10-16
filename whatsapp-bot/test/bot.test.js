@@ -5,6 +5,8 @@ import { Conversa } from "../src/conversa.js";
 import worker, { extrairEventos, variantes, mesmoNumero } from "../src/index.js";
 import { responder } from "../src/claude.js";
 import { textoAviso, enviarTexto } from "../src/whatsapp.js";
+import { Diagnostico } from "../src/diagnostico.js";
+import { avisarComFila, entregarGuardados, tratarFalha } from "../src/avisos.js";
 
 function armazenamento() {
   const mapa = new Map();
@@ -161,7 +163,7 @@ test("modo de teste só atende números liberados", () => {
     { from: "5522", id: "2", type: "text", text: { body: "b" } },
   ] } }] }] };
   assert.deepEqual(extrairEventos(payload, { ALLOWED_NUMBERS: "5522" }).map((e) => e.telefone), ["5522"]);
-  assert.deepEqual(extrairEventos(payload, { NOTIFY_TO: "5511" }).map((e) => e.telefone), ["5522"]);
+  assert.deepEqual(extrairEventos(payload, { NOTIFY_TO: "5511" }).filter((e) => e.tipo === "entrada").map((e) => e.telefone), ["5522"]);
 });
 
 test("chamada ao Claude: parâmetros e leitura da ferramenta", async () => {
@@ -258,7 +260,9 @@ test("número da advogada é ignorado mesmo quando o WhatsApp manda sem o 9", ()
     { from: "553196936688", id: "1", type: "text", text: { body: "oi" } },
     { from: "553188887348", id: "2", type: "text", text: { body: "oi" } },
   ] } }] }] };
-  assert.deepEqual(extrairEventos(payload, { NOTIFY_TO: "5531996936688" }).map((e) => e.telefone), ["553188887348"]);
+  const eventos = extrairEventos(payload, { NOTIFY_TO: "5531996936688" });
+  assert.deepEqual(eventos.filter((e) => e.tipo === "entrada").map((e) => e.telefone), ["553188887348"]);
+  assert.deepEqual(eventos.filter((e) => e.tipo === "advogada").map((e) => e.telefone), ["553196936688"]);
 });
 
 test("#reiniciar apaga a conversa sem responder", async () => {
@@ -270,4 +274,77 @@ test("#reiniciar apaga a conversa sem responder", async () => {
   assert.equal(storage.limpo, true);
   assert.equal(enviados.length, 2);
   assert.equal(chamadas.length, 1);
+});
+
+// Ambiente com o Diagnostico de verdade (armazenamento em memória) e a API do WhatsApp simulada.
+function ambienteAvisos() {
+  const mapa = new Map();
+  const diag = new Diagnostico({ storage: {
+    async get(k) { return structuredClone(mapa.get(k)); },
+    async put(k, v) { mapa.set(k, structuredClone(v)); },
+  } }, {});
+  const env = {
+    PHONE_NUMBER_ID: "1", WHATSAPP_TOKEN: "EAAteste", NOTIFY_TO: "5531996936688",
+    // No Cloudflare, o Durable Object recebe um Request; aqui o adaptamos.
+    DIAGNOSTICO: { idFromName: (n) => n, get: () => ({ fetch: (url, init) => diag.fetch(new Request(url, init)) }) },
+  };
+  const enviados = [];
+  let proximoId = 1;
+  globalThis.fetch = async (_url, init) => {
+    const corpo = JSON.parse(init.body);
+    enviados.push(corpo);
+    return Response.json({ messages: [{ id: `wamid.${proximoId++}` }] });
+  };
+  const ocorrencias = async () => (await (await diag.fetch(new Request("https://diagnostico/"))).json()).map((e) => e.etapa);
+  return { env, enviados, ocorrencias };
+}
+
+test("resumo que a Meta não entregou fica guardado e sai no próximo oi da advogada", async () => {
+  const fetchOriginal = globalThis.fetch;
+  try {
+    const { env, enviados, ocorrencias } = ambienteAvisos();
+    await avisarComFila(env, "553188887348", aviso);
+    assert.equal(enviados.length, 1);
+    assert.equal(enviados[0].to, "5531996936688");
+
+    await tratarFalha(env, { id: "wamid.1", telefone: "5531996936688", erro: { code: 131047, title: "Re-engagement message" } });
+    assert.match((await ocorrencias())[0], /resumo não entregue/);
+
+    await entregarGuardados(env);
+    assert.equal(enviados.length, 2);
+    assert.match(enviados[1].text.body, /Resumo guardado de/);
+    assert.match(enviados[1].text.body, /Ana/);
+    assert.match((await ocorrencias())[0], /1 resumo\(s\) guardado\(s\) entregue/);
+
+    await entregarGuardados(env); // nada mais guardado
+    assert.equal(enviados.length, 2);
+  } finally {
+    globalThis.fetch = fetchOriginal;
+  }
+});
+
+test("passou de 24 h desde o último oi: o resumo é guardado sem tentar enviar", async () => {
+  const fetchOriginal = globalThis.fetch;
+  try {
+    const { env, enviados, ocorrencias } = ambienteAvisos();
+    const agora = Date.now();
+    await entregarGuardados(env, agora - 25 * 60 * 60 * 1000); // último "oi" há 25 h
+    await avisarComFila(env, "553188887348", aviso, agora);
+    assert.equal(enviados.length, 0);
+    assert.match((await ocorrencias())[0], /resumo guardado/);
+    await entregarGuardados(env, agora);
+    assert.equal(enviados.length, 1);
+  } finally {
+    globalThis.fetch = fetchOriginal;
+  }
+});
+
+test("webhook de status com falha vira evento", () => {
+  const payload = { entry: [{ changes: [{ field: "messages", value: { statuses: [
+    { id: "wamid.9", status: "failed", recipient_id: "553196936688", errors: [{ code: 131047, title: "Re-engagement message" }] },
+    { id: "wamid.8", status: "delivered", recipient_id: "553188887348" },
+  ] } }] }] };
+  assert.deepEqual(extrairEventos(payload, {}), [
+    { tipo: "falha", telefone: "553196936688", id: "wamid.9", erro: { code: 131047, title: "Re-engagement message" } },
+  ]);
 });

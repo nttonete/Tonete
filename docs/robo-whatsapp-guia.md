@@ -70,6 +70,10 @@ Guarde também o **PIN de 6 dígitos** do número do robô, usado no registro. A
 | "erro ao enviar… WHATSAPP_TOKEN tem caractere inválido" ou "Invalid header value" | Token da Meta colado errado. Gere outro e cole pelo botão **Copiar**. |
 | "erro ao gerar resposta (Claude)" | Chave da Anthropic errada ou **sem crédito** |
 | "robô em silêncio: triagem já encaminhada…" | Normal: a pessoa já foi passada para a Nayara. Em teste, mande `#reiniciar`. |
+| "resumo enviado à advogada (final XXXX)" | O resumo do caso saiu para o WhatsApp da Nayara |
+| "resumo guardado…" ou "resumo não entregue à advogada…" | Passou de 24 h desde o último "oi" da Nayara. O resumo ficou guardado e sai no próximo "oi" |
+| ""oi" da advogada recebido: N resumo(s) guardado(s) entregue(s)" | Os resumos atrasados foram entregues à Nayara |
+| "mensagem não entregue ao número final XXXX" | A Meta não conseguiu entregar uma mensagem do robô a esse número |
 | Nada aparece depois de mandar mensagem | A Meta não está entregando. Confira o webhook e a chave "Assinar webhooks" na Meta. |
 
 ## 5. Rotina de manutenção
@@ -78,7 +82,8 @@ Guarde também o **PIN de 6 dígitos** do número do robô, usado no registro. A
 - **Validade da chave da Anthropic:** confira em Chaves de API. Se foi criada com validade, anote a data para trocar antes de vencer.
 - **Aviso para a Nayara:**
   - Hoje o aviso de novo caso vai como texto livre. O WhatsApp só entrega texto livre se o (31) 99693-6688 tiver mandado alguma mensagem para o número do robô nas últimas 24h.
-  - Até existir um modelo aprovado, mande um "oi" do WhatsApp da Nayara para o (17) 99772-2969 **uma vez por dia**. O robô ignora essa mensagem de propósito.
+  - Até existir um modelo aprovado, mande um "oi" do WhatsApp da Nayara para o (17) 99772-2969 **uma vez por dia**. O robô não responde, de propósito.
+  - **Nenhum resumo se perde.** Se um caso chegar depois de 24 h do último "oi", o robô guarda o resumo e entrega no próximo "oi", marcado como "Resumo guardado de [data e hora]". Então, ao ver no WhatsApp da Nayara um cliente sem resumo, basta mandar o "oi" para o robô.
   - A solução definitiva é o modelo de Utilidade (seção 7).
 - **Mudar o texto ou as regras do robô:**
   1. No GitHub, abra `whatsapp-bot/src/prompt.js`, clique no lápis, edite e salve com "Commit changes".

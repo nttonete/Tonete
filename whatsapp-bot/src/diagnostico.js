@@ -16,6 +16,7 @@ export class Diagnostico extends DurableObject {
       }
       return Response.json({ telefone: (await this.ctx.storage.get("ultimo")) ?? null });
     }
+    if (pathname.startsWith("/avisos/")) return this.avisos(pathname, request);
     const eventos = (await this.ctx.storage.get("eventos")) ?? [];
     if (request.method === "POST") {
       const ev = await request.json();
@@ -24,6 +25,49 @@ export class Diagnostico extends DurableObject {
     }
     return Response.json(eventos);
   }
+
+  // Avisos à advogada: os enviados recentemente (para reconhecer uma falha de entrega
+  // que a Meta informa depois) e os guardados para entregar no próximo "oi" dela.
+  async avisos(pathname, request) {
+    const st = this.ctx.storage;
+    const corpo = request.method === "POST" ? await request.json() : {};
+    const enviados = (await st.get("avisosEnviados")) ?? [];
+    const guardados = (await st.get("avisosGuardados")) ?? [];
+
+    if (pathname === "/avisos/enviado") {
+      await st.put("avisosEnviados", [{ id: corpo.id, aviso: corpo.aviso }, ...enviados].slice(0, 50));
+      return Response.json({ ok: true });
+    }
+    if (pathname === "/avisos/guardar") {
+      await st.put("avisosGuardados", [...guardados, corpo.aviso].slice(-50));
+      return Response.json({ guardados: guardados.length + 1 });
+    }
+    if (pathname === "/avisos/falhou") {
+      const achado = enviados.find((e) => e.id === corpo.id);
+      if (!achado) return Response.json({ aviso: null });
+      await st.put("avisosEnviados", enviados.filter((e) => e.id !== corpo.id));
+      const aviso = { ...achado.aviso, guardadoEm: corpo.guardadoEm };
+      await st.put("avisosGuardados", [...guardados, aviso].slice(-50));
+      return Response.json({ aviso });
+    }
+    if (pathname === "/avisos/oi") {
+      await st.put("ultimoOi", corpo.quando);
+      await st.put("avisosGuardados", []);
+      return Response.json({ guardados });
+    }
+    if (pathname === "/avisos/estado") {
+      return Response.json({ ultimoOi: (await st.get("ultimoOi")) ?? null, guardados: guardados.length });
+    }
+    return new Response("não encontrado", { status: 404 });
+  }
+}
+
+// Chamada genérica às rotas de avisos do Diagnostico.
+export async function avisos(env, rota, corpo) {
+  const diag = env.DIAGNOSTICO.get(env.DIAGNOSTICO.idFromName("geral"));
+  const resp = await diag.fetch(`https://diagnostico/avisos/${rota}`, corpo === undefined
+    ? {} : { method: "POST", body: JSON.stringify(corpo) });
+  return resp.json();
 }
 
 // Nunca deixa um problema no registro atrapalhar o atendimento.
