@@ -83,8 +83,9 @@ function limpar(texto, max) {
   return (t.length > max ? t.slice(0, max - 1) + "…" : t) || "-";
 }
 
-export function textoAviso(telefone, dados) {
+export function textoAviso(telefone, dados, guardadoEm) {
   return [
+    ...(guardadoEm ? [`_Resumo guardado de ${guardadoEm}: não pôde ser entregue na hora._`] : []),
     `*Novo contato – golpe do Pix* (prioridade ${dados.prioridade}, ${dados.motivo.replace(/_/g, " ")})`,
     `Nome: ${dados.nome} · +${telefone}`,
     `Cidade: ${dados.cidade}`,
@@ -102,9 +103,9 @@ export function textoAviso(telefone, dados) {
 // Avisa a advogada no WhatsApp pessoal dela (NOTIFY_TO).
 // Fora da janela de 24h a Meta só entrega mensagens por modelo aprovado
 // (NOTIFY_TEMPLATE); sem modelo configurado, manda texto livre.
-export function avisarAdvogada(env, telefone, dados) {
+export function avisarAdvogada(env, telefone, dados, guardadoEm) {
   if (!env.NOTIFY_TEMPLATE) {
-    return enviarTexto(env, env.NOTIFY_TO, textoAviso(telefone, dados));
+    return enviarTexto(env, env.NOTIFY_TO, textoAviso(telefone, dados, guardadoEm));
   }
   const detalhes = [
     `Golpe: ${dados.tipo_golpe}`,

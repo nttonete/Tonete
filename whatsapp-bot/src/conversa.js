@@ -2,7 +2,8 @@
 // junta mensagens mandadas em sequência e processa uma resposta por vez.
 import { DurableObject } from "cloudflare:workers";
 import { responder } from "./claude.js";
-import { enviarTexto, enviarContato, marcarLida, avisarAdvogada } from "./whatsapp.js";
+import { enviarTexto, enviarContato, marcarLida } from "./whatsapp.js";
+import { avisarComFila } from "./avisos.js";
 import { registrar } from "./diagnostico.js";
 import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, mensagemContato } from "./prompt.js";
 
@@ -30,7 +31,7 @@ function estadoInicial() {
 export class Conversa extends DurableObject {
   constructor(ctx, env, deps = {}) {
     super(ctx, env);
-    this.deps = { responder, enviarTexto, enviarContato, marcarLida, avisarAdvogada, registrar, agora: () => Date.now(), ...deps };
+    this.deps = { responder, enviarTexto, enviarContato, marcarLida, avisarAdvogada: avisarComFila, registrar, agora: () => Date.now(), ...deps };
     this.dados = null;
   }
 

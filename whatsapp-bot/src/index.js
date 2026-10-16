@@ -2,6 +2,7 @@
 export { Conversa } from "./conversa.js";
 export { Diagnostico } from "./diagnostico.js";
 import { registrar, lerDiagnostico, anotarUltimo, lerUltimo } from "./diagnostico.js";
+import { entregarGuardados, tratarFalha } from "./avisos.js";
 
 export default {
   async fetch(request, env) {
@@ -64,7 +65,18 @@ export default {
       await anotarUltimo(env, ultimo);
       await registrar(env, "mensagem recebida", `${entradas.length} mensagem(ns), de número terminado em ${ultimo.slice(-4)} (${ultimo.length} dígitos)`);
     }
-    await Promise.all(eventos.map(async (ev) => {
+    // Mensagem da advogada abre a janela de 24 h: entrega os resumos guardados.
+    // Falha de entrega informada pela Meta: se era um resumo, guarda para depois.
+    for (const ev of eventos) {
+      try {
+        if (ev.tipo === "advogada") await entregarGuardados(env);
+        if (ev.tipo === "falha") await tratarFalha(env, ev);
+      } catch (erro) {
+        console.error("Falha ao tratar aviso:", erro);
+        await registrar(env, "erro ao tratar resumos da advogada", erro?.message ?? erro);
+      }
+    }
+    await Promise.all(eventos.filter((ev) => ev.tipo === "entrada" || ev.tipo === "eco").map(async (ev) => {
       try {
         const conversa = env.CONVERSAS.get(env.CONVERSAS.idFromName(ev.telefone));
         const resp = await conversa.fetch(`https://conversa/${ev.tipo}`, {
@@ -137,11 +149,24 @@ export function extrairEventos(payload, env) {
         for (const m of v.messages ?? []) {
           let texto = descrever(m);
           if (texto === null || !liberado(m.from)) continue;
-          // Mensagens do próprio escritório (quem recebe os avisos) não passam pela triagem.
-          if (env.NOTIFY_TO && mesmoNumero(m.from, env.NOTIFY_TO)) continue;
+          // Mensagens do próprio escritório (quem recebe os avisos) não passam pela triagem:
+          // servem para abrir a janela de 24 h e receber os resumos guardados.
+          if (env.NOTIFY_TO && mesmoNumero(m.from, env.NOTIFY_TO)) {
+            eventos.push({ tipo: "advogada", telefone: m.from, id: m.id });
+            continue;
+          }
           // Clique em anúncio de WhatsApp da Meta: informa de qual anúncio veio.
           if (m.referral?.headline) texto = `[veio do anúncio: ${m.referral.headline}]\n${texto}`;
           eventos.push({ tipo: "entrada", telefone: m.from, id: m.id, texto, nome });
+        }
+      }
+
+      // Mensagem do robô que a Meta não conseguiu entregar.
+      if (change.field === "messages") {
+        for (const st of v.statuses ?? []) {
+          if (st.status === "failed") {
+            eventos.push({ tipo: "falha", telefone: st.recipient_id ?? "", id: st.id, erro: st.errors?.[0] ?? null });
+          }
         }
       }
 
