@@ -1,3 +1,5 @@
+> **Projeto mudou de endereço:** desde 16/10/2026 tudo continua em `nttonete/banca-aberta` (branch `main`). Esta branch fica só como registro; veja `MUDOU-DE-ENDERECO.md`.
+
 # CLAUDE.md
 
 Contexto do projeto para o Claude Code. Mantenha curto e atualizado.
