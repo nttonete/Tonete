@@ -1,0 +1,873 @@
+<title>Banca Aberta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Treine com as questões das provas da FUVEST, Unicamp e UNESP de 2017 a 2026, com resolução comentada, simulado no formato do edital 2027 e plano de estudos que se ajusta ao seu desempenho.">
+<style>
+@font-face { font-family: "Anton"; src: url("fontes/anton-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Instrument Sans"; src: url("fontes/instrument-sans-latin-wght-normal.woff2") format("woff2"); font-weight: 400 700; font-display: swap; }
+@font-face { font-family: "IBM Plex Mono"; src: url("fontes/ibm-plex-mono-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+
+/* Visual de uma só cara (preto, branco e marca-texto), igual nos temas claro e escuro. */
+:root {
+  --preto: #0a0a0a; --preto-2: #141414; --preto-3: #1e1e1e;
+  --branco: #ffffff; --papel: #f5f5f2;
+  --tx-escuro: #0a0a0a; --tx-escuro-2: #555; --tx-escuro-3: #8a8a8a;
+  --tx-claro: #ffffff; --tx-claro-2: #b4b4b4; --tx-claro-3: #7a7a7a;
+  --linha-escura: rgba(255,255,255,.14); --linha-clara: rgba(0,0,0,.12);
+  --grade-escura: rgba(255,255,255,.07); --grade-clara: rgba(0,0,0,.055);
+  --marca: #ffe500;           /* marca-texto */
+  --marca-tx: #0a0a0a;
+  --certo: #0f7a4d;
+  --f-display: "Anton", "Impact", "Haettenschweiler", "Arial Narrow", sans-serif;
+  --f-ui: "Instrument Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --margem: clamp(20px, 5.5vw, 80px);
+  --ease: cubic-bezier(.19, 1, .22, 1);
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--branco); color: var(--tx-escuro); font-family: var(--f-ui); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; overflow-x: clip; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+h1, h2, h3, p { margin: 0; }
+::selection { background: var(--marca); color: var(--marca-tx); }
+.envolve { padding-left: max(var(--margem), env(safe-area-inset-left, 0px)); padding-right: max(var(--margem), env(safe-area-inset-right, 0px)); max-width: 1600px; margin: 0 auto; }
+.display { font-family: var(--f-display); font-weight: 400; text-transform: uppercase; line-height: 1.14; letter-spacing: .005em; text-wrap: balance; }
+.rotulo { font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase; }
+.so-leitor { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.a-definir { background: rgba(255, 229, 0, .28); border-bottom: 2px dashed #c9a800; padding: 0 .12em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.escuro .a-definir { background: rgba(255, 229, 0, .18); }
+
+/* marca-texto: a faixa amarela "passa" por trás da palavra quando ela entra na tela */
+.mt { background-image: linear-gradient(transparent 17%, var(--marca) 17%, var(--marca) 86%, transparent 86%); background-repeat: no-repeat; background-size: 0% 100%; padding: 0 .08em; transition: background-size 1s var(--ease) .25s, color .4s ease .35s; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.ativo .mt, .mt.ativo { background-size: 100% 100%; color: var(--marca-tx); }
+.sobe .mt { transition-delay: .7s, .8s; }
+
+/* grade de colunas finas ao fundo (seis colunas) */
+.grade { position: relative; isolation: isolate; }
+.grade::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background-image: repeating-linear-gradient(to right, transparent 0, transparent calc(100% / 7 - 1px), var(--cor-grade, var(--grade-clara)) calc(100% / 7 - 1px), var(--cor-grade, var(--grade-clara)) calc(100% / 7)); }
+.escuro { background: var(--preto); color: var(--tx-claro); --cor-grade: var(--grade-escura); }
+
+/* palavra gigante e apagada no fundo */
+.fantasma { position: absolute; left: 50%; transform: translateX(-50%); font-family: var(--f-display); text-transform: uppercase; font-size: clamp(120px, 24vw, 420px); line-height: .8; white-space: nowrap; color: rgba(0,0,0,.045); pointer-events: none; user-select: none; z-index: -1; }
+.escuro .fantasma { color: rgba(255,255,255,.05); }
+
+/* botões */
+.btn { --bg: var(--marca); --tx: var(--marca-tx); display: inline-flex; align-items: center; gap: 12px; font: 600 15px/1 var(--f-ui); letter-spacing: .01em; text-decoration: none; text-transform: uppercase; background: var(--bg); color: var(--tx); border: 0; border-radius: 3px; padding: 16px 20px 15px; cursor: pointer; position: relative; overflow: hidden; transition: transform .15s ease; }
+.btn::after { content: "»"; font-size: 18px; line-height: 0; transition: transform .4s var(--ease); }
+.btn:hover::after { transform: translateX(4px); }
+.btn:active { transform: scale(.97); }
+.btn.contorno { --bg: transparent; --tx: currentColor; box-shadow: inset 0 0 0 1.5px currentColor; }
+.btn:focus-visible, a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--marca); outline-offset: 3px; }
+
+/* abertura (carregamento curto) */
+.abertura { position: fixed; inset: 0; z-index: 100; background: var(--preto); color: var(--tx-claro); display: grid; place-items: center; animation: some .5s ease 1.6s forwards; }
+.abertura .conta { font-family: var(--f-display); font-size: clamp(96px, 20vw, 260px); line-height: 1; font-variant-numeric: tabular-nums; }
+.abertura .conta small { font-size: .3em; vertical-align: top; color: var(--marca); }
+.abertura .rotulo { position: absolute; bottom: calc(28px + env(safe-area-inset-bottom, 0px)); left: 0; right: 0; text-align: center; color: var(--tx-claro-3); }
+@keyframes some { to { opacity: 0; visibility: hidden; } }
+@media (prefers-reduced-motion: reduce) { .abertura { display: none; } }
+
+/* navegação */
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; pointer-events: none; padding-top: env(safe-area-inset-top, 0px); }
+.nav .envolve { display: flex; align-items: center; justify-content: space-between; padding-block: 22px; }
+.nav a, .nav button { pointer-events: auto; }
+.logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--f-display); font-size: 21px; letter-spacing: .02em; text-transform: uppercase; color: #fff; mix-blend-mode: difference; }
+.logo i { width: 20px; height: 20px; border-radius: 50%; border: 2.5px solid currentColor; display: grid; place-items: center; }
+.logo i::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.nav-dir { display: flex; gap: 10px; align-items: center; }
+.nav .btn { padding: 12px 14px 11px; font-size: 13px; }
+.menu-bt { width: 42px; height: 42px; border: 0; border-radius: 3px; background: var(--marca); display: grid; place-content: center; gap: 5px; cursor: pointer; }
+.menu-bt span { display: block; width: 16px; height: 2px; background: var(--marca-tx); transition: transform .4s var(--ease); }
+.menu-aberto .menu-bt span:first-child { transform: translateY(3.5px) rotate(45deg); }
+.menu-aberto .menu-bt span:last-child { transform: translateY(-3.5px) rotate(-45deg); }
+.menu { position: fixed; inset: 0; z-index: 40; background: var(--marca); color: var(--marca-tx); clip-path: inset(0 0 100% 0); transition: clip-path .8s var(--ease); display: flex; align-items: flex-end; }
+.menu-aberto .menu { clip-path: inset(0 0 0 0); }
+.menu .envolve { width: 100%; padding-block: 0 calc(40px + env(safe-area-inset-bottom, 0px)); display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 32px; align-items: end; }
+.menu ol { list-style: none; margin: 0; padding: 0; counter-reset: m; }
+.menu li { counter-increment: m; overflow: hidden; padding-top: .14em; margin-top: -.06em; }
+.menu li a { display: flex; gap: 18px; align-items: baseline; text-decoration: none; font-family: var(--f-display); font-size: clamp(44px, 8vw, 104px); line-height: 1.04; text-transform: uppercase; transform: translateY(105%); transition: transform .7s var(--ease); }
+.menu li a::before { content: counter(m, decimal-leading-zero); font-family: var(--f-mono); font-size: 13px; }
+.menu-aberto .menu li a { transform: none; transition-delay: calc(.2s + var(--i) * .06s); }
+.menu li a:hover { text-decoration: underline; text-decoration-thickness: 4px; text-underline-offset: 8px; }
+.menu-lado { display: grid; gap: 10px; font-size: 15px; }
+.menu-aberto .logo { color: var(--marca-tx); mix-blend-mode: normal; }
+.menu-aberto .nav .btn { --bg: var(--marca-tx); --tx: var(--marca); }
+
+/* HERÓI */
+.heroi { min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden; position: relative; }
+.heroi > .envolve { width: 100%; }
+.heroi-foto { position: absolute; inset: 0; z-index: -2; display: flex; justify-content: flex-end; }
+.heroi-foto img { height: 100%; width: auto; max-width: none; object-fit: cover; margin-right: max(0px, calc((100vw - 1600px) / 2)); -webkit-mask-image: linear-gradient(to right, transparent 0, #000 30%), linear-gradient(to top, transparent 0, #000 22%); -webkit-mask-composite: source-in; mask-image: linear-gradient(to right, transparent 0, #000 30%), linear-gradient(to top, transparent 0, #000 22%); mask-composite: intersect; transform: scale(1.06); transform-origin: 70% 30%; animation: aproxima 2.6s var(--ease) 1.3s both; }
+@keyframes aproxima { from { transform: scale(1.12); opacity: .2; } to { transform: scale(1.0); opacity: 1; } }
+.heroi-camadas { position: relative; padding-top: 112px; flex: 1; }
+.heroi-esq { display: flex; flex-wrap: wrap; gap: 18px clamp(28px, 3.4vw, 56px); max-width: 52%; }
+.heroi-dir { display: none; }
+.num { display: grid; gap: 4px; }
+.num b { font-family: var(--f-display); font-weight: 400; font-size: clamp(30px, 2.9vw, 46px); line-height: .9; }
+.num b sup { font-size: .45em; vertical-align: top; color: var(--marca); }
+.num span { font-size: 13px; color: var(--tx-claro-2); max-width: 13em; }
+.heroi-dir .num b { font-size: clamp(20px, 1.8vw, 26px); }
+.heroi-base { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 24px; align-items: end; padding-block: 20px calc(34px + env(safe-area-inset-bottom, 0px)); }
+.heroi h1 { font-size: clamp(44px, 5.5vw, 100px); max-width: 10.5em; }
+.heroi .sub { margin-top: 18px; max-width: 33em; color: var(--tx-claro-2); font-size: clamp(15px, 1.2vw, 17px); }
+.heroi .sub strong { color: var(--tx-claro); font-weight: 600; }
+.heroi .acoes { display: flex; flex-wrap: wrap; gap: 12px 18px; margin-top: 26px; align-items: center; }
+.heroi .acoes .nota { font-size: 12.5px; color: var(--tx-claro-3); max-width: 26em; }
+.cronometro { text-align: right; display: grid; gap: 6px; justify-items: end; }
+.cronometro .rotulo { color: var(--tx-claro-2); }
+.cronometro .relogio { display: flex; align-items: flex-start; font-family: var(--f-display); font-size: clamp(44px, 5vw, 80px); line-height: .9; font-variant-numeric: tabular-nums; text-shadow: 0 2px 30px rgba(0,0,0,.6); }
+.cronometro .seg { display: grid; justify-items: center; gap: 8px; }
+.cronometro .seg small { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--tx-claro-2); line-height: 1; }
+.cronometro .dois { color: var(--tx-claro-3); padding: 0 .06em; }
+.cronometro .rotulo, .cronometro .qual { text-shadow: 0 1px 12px rgba(0,0,0,.8); }
+.cronometro .qual { font-size: 13.5px; color: var(--tx-claro-2); }
+
+/* entrada das palavras */
+.sobe .p { display: inline-block; vertical-align: top; }
+.sobe .p > span { display: inline-block; opacity: 0; transform: translateY(.45em) rotate(2deg); transform-origin: left bottom; transition: transform 1s var(--ease), opacity .6s ease; transition-delay: calc(var(--i) * 45ms); }
+.sobe.ativo .p > span { opacity: 1; transform: none; }
+.aparece { opacity: 0; transform: translateY(24px); transition: opacity .9s ease, transform 1s var(--ease); }
+.aparece.ativo { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .sobe .p > span, .aparece { transform: none !important; opacity: 1 !important; transition: none !important; }
+  .heroi-foto img { animation: none; transform: none; }
+  .mt { transition: none; }
+}
+
+/* MANIFESTO */
+.manifesto { padding-block: clamp(150px, 19vw, 280px); overflow: hidden; }
+.manifesto .envolve { position: relative; }
+.manifesto p.display { font-size: clamp(34px, 4.3vw, 72px); line-height: 1.12; text-align: center; max-width: 15.5em; margin: 0 auto; position: relative; z-index: 1; }
+.manifesto .mini { position: absolute; width: clamp(150px, 17vw, 250px); border-radius: 3px; overflow: hidden; box-shadow: 0 30px 60px -30px rgba(0,0,0,.4); }
+.manifesto .mini.a { left: var(--margem); top: calc(-1 * clamp(130px, 15vw, 230px)); }
+.manifesto .mini.b { right: var(--margem); bottom: calc(-1 * clamp(130px, 15vw, 230px)); }
+.manifesto .assinatura { margin-top: 36px; text-align: center; color: var(--tx-escuro-3); }
+
+/* FORMATOS */
+.formatos { padding-block: 0 clamp(90px, 12vw, 160px); overflow: hidden; }
+.formatos .fantasma { top: -2%; }
+.formatos-cab { display: flex; justify-content: space-between; gap: 24px; align-items: end; flex-wrap: wrap; border-bottom: 1px solid var(--linha-clara); padding-bottom: 18px; }
+.formatos-cab h2 { font-size: clamp(40px, 5vw, 80px); }
+.formatos-cab p { max-width: 30em; color: var(--tx-escuro-2); }
+.tres { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.tres > div { padding: 30px 26px 0 0; display: grid; gap: 10px; align-content: start; }
+.tres > div + div { padding-left: 26px; border-left: 1px solid var(--linha-clara); }
+.tres .banca { color: var(--tx-escuro-3); }
+.tres b { font-family: var(--f-display); font-weight: 400; font-size: clamp(110px, 13vw, 210px); line-height: .82; }
+.tres p { color: var(--tx-escuro-2); font-size: 15px; max-width: 24em; }
+.tres .novo { display: inline-block; background: var(--marca); color: var(--marca-tx); font-weight: 700; font-size: 11.5px; padding: 2px 7px; border-radius: 2px; text-transform: uppercase; letter-spacing: .04em; margin-right: 4px; }
+
+/* FOLHA DE RESPOSTAS (divisor) */
+.folha { height: clamp(140px, 18vw, 230px); overflow: hidden; -webkit-mask-image: linear-gradient(to bottom, #000, transparent); mask-image: linear-gradient(to bottom, #000, transparent); display: grid; align-content: start; gap: 10px; padding-top: 14px; }
+.folha-linha { display: flex; gap: 10px; justify-content: center; white-space: nowrap; }
+.folha-linha span { flex: none; width: 26px; height: 26px; border-radius: 50%; border: 1.5px solid currentColor; font: 500 10px/23px var(--f-mono); text-align: center; opacity: .28; }
+.folha-linha span.cheia { background: currentColor; opacity: .5; }
+.folha-linha span.sep { width: 14px; border: 0; }
+.escuro .folha { color: #fff; }
+
+/* MÉTODO (capítulos fixos) */
+.metodo { position: relative; }
+.metodo .fantasma { top: 40px; }
+.metodo-grade { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 80px); }
+.metodo-fixo { position: sticky; top: 0; height: 100svh; display: flex; flex-direction: column; justify-content: center; gap: 26px; padding-block: 90px 40px; }
+.metodo-fixo .rotulo { color: var(--tx-claro-3); }
+.cap-titulos { position: relative; height: clamp(120px, 14vw, 230px); }
+.cap-titulos h3 { position: absolute; left: 0; bottom: 0; font-size: clamp(56px, 7.4vw, 132px); }
+.cap-titulos h3 .p > span { opacity: 0; transform: translateY(.45em); }
+.cap-titulos h3.atual .p > span { opacity: 1; transform: none; }
+.cap-textos { position: relative; min-height: 13.5em; }
+.cap-textos > div { position: absolute; inset: 0 0 auto 0; opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .7s var(--ease); display: grid; gap: 16px; }
+.cap-textos > div.atual { opacity: 1; transform: none; transition-delay: .15s; }
+.cap-textos p { color: var(--tx-claro-2); font-size: 17px; max-width: 30em; }
+.cap-textos ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; font-size: 14.5px; color: var(--tx-claro); }
+.cap-textos li { display: grid; grid-template-columns: 22px minmax(0, 1fr); }
+.cap-textos li::before { content: "»"; color: var(--marca); font-weight: 700; }
+.cap-rodape { display: flex; gap: 18px; align-items: center; }
+.cap-conta { font-family: var(--f-display); font-size: 28px; display: flex; gap: 8px; align-items: center; }
+.cap-conta::before { content: ""; width: 10px; height: 10px; background: var(--marca); }
+.cap-conta small { font-size: .6em; color: var(--tx-claro-3); }
+.metodo-telas { display: grid; padding-block: 12vh; }
+.passo { min-height: 92svh; display: flex; flex-direction: column; justify-content: center; gap: 16px; }
+.passo .txt { display: none; }
+.passo figure { margin: 0; display: grid; gap: 12px; }
+.passo .moldura { border-radius: 6px; overflow: hidden; background: #fff; box-shadow: 0 40px 80px -30px rgba(0,0,0,.8), 0 0 0 1px rgba(255,255,255,.06); max-height: 76svh; }
+.passo .moldura img { width: 100%; }
+.passo figcaption { color: var(--tx-claro-3); display: flex; gap: 8px; align-items: center; }
+.passo figcaption::before { content: ""; width: 7px; height: 7px; background: var(--marca); }
+
+/* PROFESSOR */
+.prof { padding-block: clamp(100px, 14vw, 200px); overflow: hidden; }
+.prof .fantasma { top: 30px; }
+.prof-grade { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(30px, 6vw, 100px); align-items: center; }
+.prof-foto { position: relative; }
+.prof-foto img.grande { width: 100%; aspect-ratio: 680 / 910; object-fit: cover; border-radius: 4px; filter: contrast(1.05); }
+.prof-foto .detalhe { position: absolute; right: -6%; bottom: 8%; width: 38%; border-radius: 3px; border: 6px solid #fff; box-shadow: 0 30px 50px -25px rgba(0,0,0,.45); }
+.prof-texto { display: grid; gap: 26px; }
+.prof-texto .rotulo { color: var(--tx-escuro-3); }
+.prof-texto h2 { font-size: clamp(56px, 7vw, 120px); }
+.prof-texto .bio { font-size: 18px; color: var(--tx-escuro-2); max-width: 32em; }
+.prof-texto .bio strong { color: var(--tx-escuro); }
+.prof-nums { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--linha-clara); border-bottom: 1px solid var(--linha-clara); }
+.prof-nums > div { padding: 18px 14px 18px 0; display: grid; gap: 6px; }
+.prof-nums > div + div { padding-left: 14px; border-left: 1px solid var(--linha-clara); }
+.prof-nums b { font-family: var(--f-display); font-weight: 400; font-size: clamp(38px, 4vw, 60px); line-height: .9; }
+.prof-nums span { font-size: 13.5px; color: var(--tx-escuro-2); }
+.prof-lista { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; counter-reset: p; }
+.prof-lista li { counter-increment: p; display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 10px; color: var(--tx-escuro-2); }
+.prof-lista li::before { content: counter(p, decimal-leading-zero); font-family: var(--f-mono); font-size: 12px; padding-top: 4px; color: var(--tx-escuro); }
+.prof-lista b { color: var(--tx-escuro); }
+
+/* INVENTÁRIO */
+.inv { padding-block: 0 clamp(90px, 12vw, 160px); }
+.inv-cab { display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; padding-bottom: 18px; border-bottom: 1px solid var(--tx-escuro); }
+.inv-cab h2 { font-size: clamp(40px, 5vw, 80px); }
+.inv-cab p { max-width: 30em; color: var(--tx-escuro-2); }
+.inv-lista { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.inv-item { padding: 24px 22px 26px 0; border-bottom: 1px solid var(--linha-clara); display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 16px; align-items: baseline; }
+.inv-item:not(:nth-child(3n+1)) { padding-left: 22px; border-left: 1px solid var(--linha-clara); }
+.inv-item b { font-family: var(--f-display); font-weight: 400; font-size: 46px; line-height: .9; grid-row: span 2; min-width: 1.9em; }
+.inv-item h3 { font-size: 16px; font-weight: 700; }
+.inv-item p { color: var(--tx-escuro-2); font-size: 14.5px; }
+
+/* COMPARAÇÃO */
+.comp { padding-block: 0 clamp(90px, 12vw, 160px); }
+.comp h2 { font-size: clamp(40px, 5vw, 80px); max-width: 14em; margin-bottom: 28px; }
+.tabela-caixa { overflow-x: auto; border-top: 1px solid var(--tx-escuro); }
+.tabela { width: 100%; min-width: 660px; border-collapse: collapse; font-size: 15px; }
+.tabela th, .tabela td { padding: 16px 14px; text-align: left; border-bottom: 1px solid var(--linha-clara); }
+.tabela thead th { font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; font-weight: 500; color: var(--tx-escuro-3); }
+.tabela thead th.nos { color: var(--tx-escuro); }
+.tabela td.nos { background: rgba(255,229,0,.22); font-weight: 600; }
+.tabela tbody th { font-weight: 600; }
+.nao, .parte { color: var(--tx-escuro-3); }
+.sim::before, .nao::before, .parte::before { content: ""; display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 9px; vertical-align: -1px; }
+.sim::before { background: var(--tx-escuro); }
+.nao::before { box-shadow: inset 0 0 0 1.5px currentColor; }
+.parte::before { box-shadow: inset 0 0 0 1.5px currentColor; background: linear-gradient(90deg, currentColor 50%, transparent 50%); }
+.nota-tabela { margin-top: 12px; font-size: 13px; color: var(--tx-escuro-3); }
+
+/* CALENDÁRIO */
+.cal { padding-block: clamp(100px, 13vw, 180px) clamp(70px, 9vw, 120px); overflow: hidden; }
+.cal .fantasma { top: 40px; }
+.cal h2 { font-size: clamp(46px, 6.4vw, 110px); text-align: center; margin-bottom: clamp(40px, 6vw, 80px); }
+.cal-lista { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linha-escura); }
+.cal-lista li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 20px; align-items: end; padding: 22px 0 14px; border-bottom: 1px solid var(--linha-escura); transition: background .3s ease; }
+.cal-lista li:hover { background: rgba(255,255,255,.03); }
+.cal-lista .nome { font-family: var(--f-display); font-size: clamp(26px, 2.8vw, 42px); line-height: .95; text-transform: uppercase; }
+.cal-lista .sub { font-size: 13.5px; color: var(--tx-claro-2); grid-column: 1; }
+.cal-lista .quando { text-align: right; grid-row: 1 / span 2; grid-column: 2; display: grid; gap: 4px; justify-items: end; }
+.cal-lista .data { font-family: var(--f-mono); font-size: 13px; color: var(--tx-claro-2); }
+.cal-lista .falta { font-family: var(--f-display); font-size: clamp(20px, 2vw, 28px); }
+.cal-lista .falta.prox { background: var(--marca); color: var(--marca-tx); padding: 2px 8px 0; }
+.cal-lista li.passou { opacity: .38; }
+.cal .recado { margin-top: 28px; color: var(--tx-claro-2); max-width: 46em; }
+.cal .recado strong { color: var(--tx-claro); }
+
+/* PLANOS */
+.planos { padding-block: clamp(100px, 13vw, 180px); overflow: hidden; text-align: center; }
+.planos .fantasma { top: 30px; }
+.planos h2 { font-size: clamp(46px, 6vw, 104px); max-width: 11em; margin: 0 auto; }
+.planos .lead { max-width: 36em; margin: 22px auto 0; color: var(--tx-escuro-2); font-size: 17px; }
+.cartoes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: clamp(40px, 6vw, 70px); text-align: left; max-width: 1100px; margin-left: auto; margin-right: auto; }
+.cartao { border: 1px solid var(--tx-escuro); border-radius: 4px; padding: clamp(24px, 3vw, 36px); display: grid; gap: 18px; align-content: start; background: #fff; position: relative; }
+.cartao.forte { background: var(--preto); color: var(--tx-claro); border-color: var(--preto); }
+.cartao .selo { position: absolute; top: -11px; left: 26px; background: var(--marca); color: var(--marca-tx); font: 700 11px/1 var(--f-ui); letter-spacing: .06em; text-transform: uppercase; padding: 6px 9px; border-radius: 2px; }
+.cartao h3 { font-family: var(--f-display); font-weight: 400; text-transform: uppercase; font-size: 36px; line-height: .95; }
+.cartao .desc { color: var(--tx-escuro-2); }
+.cartao.forte .desc { color: var(--tx-claro-2); }
+.cartao .preco { font-family: var(--f-display); font-size: 48px; line-height: 1; }
+.cartao .preco small { display: block; font-family: var(--f-ui); font-size: 13px; margin-top: 8px; color: var(--tx-escuro-3); }
+.cartao.forte .preco small { color: var(--tx-claro-3); }
+.cartao ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; font-size: 15px; }
+.cartao li { display: grid; grid-template-columns: 22px minmax(0, 1fr); }
+.cartao li::before { content: "»"; font-weight: 700; }
+.cartao.forte li::before { color: var(--marca); }
+.cartao .btn { justify-content: center; }
+.cartao:not(.forte) .btn { --bg: var(--preto); --tx: #fff; }
+.direito { max-width: 1100px; margin: 18px auto 0; text-align: left; display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 16px; align-items: center; border-top: 1px solid var(--linha-clara); padding-top: 18px; color: var(--tx-escuro-2); font-size: 14.5px; }
+.direito b.sete { font-family: var(--f-display); font-weight: 400; font-size: 54px; line-height: .8; color: var(--tx-escuro); }
+.direito strong { color: var(--tx-escuro); }
+
+/* PERGUNTAS */
+.faq { padding-block: 0 clamp(100px, 13vw, 180px); }
+.faq-grade { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 80px); }
+.faq h2 { font-size: clamp(46px, 5.6vw, 96px); }
+.faq .lado p { margin-top: 18px; color: var(--tx-escuro-2); }
+.faq-lista { border-top: 1px solid var(--tx-escuro); }
+.faq details { border-bottom: 1px solid var(--linha-clara); }
+.faq summary { list-style: none; cursor: pointer; padding: 22px 46px 22px 0; font-size: 18px; font-weight: 600; position: relative; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 4px; top: 50%; transform: translateY(-50%); font-family: var(--f-display); font-size: 30px; transition: transform .4s var(--ease); }
+.faq details[open] summary::after { transform: translateY(-50%) rotate(45deg); }
+.faq .resp { padding: 0 0 24px; color: var(--tx-escuro-2); max-width: 40em; }
+
+/* LISTA (formulário) */
+.lista { padding-block: clamp(100px, 13vw, 180px); overflow: hidden; }
+.lista .fantasma { top: 50%; transform: translate(-50%, -50%); font-size: clamp(160px, 34vw, 600px); }
+.lista-grade { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(30px, 5vw, 80px); align-items: center; }
+.lista h2 { font-size: clamp(46px, 5.8vw, 100px); }
+.lista .sub { margin-top: 22px; color: var(--tx-claro-2); font-size: 17px; max-width: 30em; }
+.form { background: #fff; color: var(--tx-escuro); border-radius: 4px; padding: clamp(22px, 3vw, 36px); display: grid; gap: 16px; box-shadow: 0 50px 100px -40px rgba(0,0,0,.9); }
+.form h3 { font-family: var(--f-display); font-weight: 400; text-transform: uppercase; font-size: 34px; line-height: .95; }
+.form .duas { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.campo { display: grid; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--tx-escuro-2); }
+.campo input, .campo select { font: 16px var(--f-ui); color: var(--tx-escuro); background: var(--papel); border: 1px solid transparent; border-radius: 3px; padding: 13px 12px; width: 100%; min-width: 0; }
+.campo input:focus, .campo select:focus { border-color: var(--tx-escuro); outline: none; }
+.aviso { font-size: 13px; color: var(--tx-escuro-2); border: 1px solid var(--linha-clara); border-radius: 3px; padding: 10px 12px; }
+.aviso summary { cursor: pointer; font-weight: 700; color: var(--tx-escuro); }
+.aviso > div { display: grid; gap: 6px; margin-top: 10px; }
+.aviso b { color: var(--tx-escuro); }
+.aviso .rascunho { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .1em; background: var(--marca); color: var(--marca-tx); justify-self: start; padding: 2px 6px; }
+.aceite { display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 10px; font-size: 13px; color: var(--tx-escuro-2); }
+.aceite input { width: 18px; height: 18px; margin: 1px 0 0; accent-color: #0a0a0a; }
+.form .btn { justify-content: center; --bg: var(--preto); --tx: #fff; }
+.retorno { font-size: 14px; background: var(--papel); border-radius: 3px; padding: 12px 14px; }
+
+/* RODAPÉ */
+.rodape { padding-block: 70px calc(40px + env(safe-area-inset-bottom, 0px)); }
+.rodape-topo { display: grid; grid-template-columns: minmax(0, 1.4fr) repeat(3, minmax(0, 1fr)); gap: 28px; padding-bottom: 50px; }
+.rodape .logo { color: var(--tx-escuro); mix-blend-mode: normal; }
+.rodape h4 { margin: 0 0 12px; font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; font-weight: 500; color: var(--tx-escuro-3); }
+.rodape ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14.5px; }
+.rodape ul a { text-decoration: none; }
+.rodape ul a:hover { text-decoration: underline; }
+.rodape-legal { border-top: 1px solid var(--linha-clara); padding-top: 22px; display: grid; gap: 10px; font-size: 12.5px; color: var(--tx-escuro-2); max-width: 980px; }
+.rodape-legal strong { color: var(--tx-escuro); }
+
+@media (max-width: 1000px) {
+  .heroi-camadas { padding-top: 96px; }
+  .heroi-esq { max-width: none; }
+  .heroi-base { grid-template-columns: minmax(0, 1fr); }
+  .cronometro { justify-items: start; text-align: left; }
+  .cronometro .unid { justify-content: flex-start; }
+  .heroi-foto::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(10,10,10,.55) 0%, rgba(10,10,10,.15) 30%, rgba(10,10,10,.55) 55%, rgba(10,10,10,.92) 75%); }
+  .heroi-foto img { height: 78%; margin-top: 8%; -webkit-mask-image: linear-gradient(to top, transparent 4%, #000 46%); mask-image: linear-gradient(to top, transparent 4%, #000 46%); -webkit-mask-composite: source-over; mask-composite: add; }
+  .metodo-grade { grid-template-columns: minmax(0, 1fr); }
+  .metodo-fixo { display: none; }
+  .metodo-telas { padding-block: 100px 40px; gap: 70px; }
+  .passo { min-height: 0; }
+  .passo .txt { display: grid; gap: 14px; }
+  .passo .txt .rotulo { color: var(--tx-claro-3); }
+  .passo .txt h3 { font-size: clamp(52px, 13vw, 90px); }
+  .passo .txt p { color: var(--tx-claro-2); }
+  .passo .txt ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 14.5px; }
+  .passo .txt li::before { content: "» "; color: var(--marca); }
+  .tres { grid-template-columns: minmax(0, 1fr); }
+  .tres > div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--linha-clara); padding-top: 24px; margin-top: 24px; }
+  .prof-grade, .faq-grade, .lista-grade { grid-template-columns: minmax(0, 1fr); }
+  .prof-foto { max-width: 520px; }
+  .inv-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .inv-item:not(:nth-child(3n+1)) { padding-left: 0; border-left: 0; }
+  .inv-item:nth-child(even) { padding-left: 18px; border-left: 1px solid var(--linha-clara); }
+  .cartoes { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .rodape-topo { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .menu .envolve { grid-template-columns: minmax(0, 1fr); }
+  .manifesto .mini { display: none; }
+}
+@media (max-width: 600px) {
+  .nav .btn { display: none; }
+  .heroi h1 { font-size: clamp(46px, 14.5vw, 72px); }
+  .heroi .acoes .btn { width: 100%; justify-content: center; }
+  .num b { font-size: 30px; }
+  .heroi-esq { gap: 14px 20px; flex-wrap: nowrap; }
+  .heroi-esq .num span { font-size: 11.5px; max-width: 9em; }
+  .inv-lista { grid-template-columns: minmax(0, 1fr); }
+  .inv-item:nth-child(even) { padding-left: 0; border-left: 0; }
+  .prof-nums { grid-template-columns: minmax(0, 1fr); }
+  .prof-nums > div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--linha-clara); }
+  .prof-foto .detalhe { right: 4%; }
+  .form .duas { grid-template-columns: minmax(0, 1fr); }
+  .cal-lista li { grid-template-columns: minmax(0, 1fr); }
+  .cal-lista .quando { grid-row: auto; grid-column: 1; justify-items: start; text-align: left; display: flex; gap: 12px; align-items: baseline; }
+  .rodape-topo { grid-template-columns: minmax(0, 1fr); }
+  .folha-linha span { width: 22px; height: 22px; line-height: 19px; }
+}
+</style>
+
+<div class="abertura" id="abertura" aria-hidden="true">
+  <span class="conta"><span id="conta">0</span><small>%</small></span>
+  <span class="rotulo">Banca Aberta · FUVEST · Unicamp · UNESP</span>
+</div>
+
+<header class="nav" id="nav">
+  <div class="envolve">
+    <a class="logo" href="#inicio" aria-label="Banca Aberta, início"><i aria-hidden="true"></i>Banca Aberta</a>
+    <div class="nav-dir">
+      <a class="btn" href="#lista">Entrar na lista</a>
+      <button class="menu-bt" id="menu-bt" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav class="menu" id="menu" aria-label="Menu" hidden>
+  <div class="envolve">
+    <ol>
+      <li><a href="#metodo" style="--i:0">Método</a></li>
+      <li><a href="#professor" style="--i:1">Professor</a></li>
+      <li><a href="#calendario" style="--i:2">Calendário</a></li>
+      <li><a href="#planos" style="--i:3">Planos</a></li>
+      <li><a href="#lista" style="--i:4">Lista</a></li>
+    </ol>
+    <div class="menu-lado">
+      <span class="rotulo">Contato</span>
+      <a href="mailto:contato@bancaaberta.com.br">contato@bancaaberta.com.br</a>
+      <a href="https://www.instagram.com/bancaaberta/" rel="noopener">Instagram @bancaaberta</a>
+    </div>
+  </div>
+</nav>
+
+<main id="inicio">
+  <!-- HERÓI -->
+  <section class="heroi escuro grade" aria-labelledby="titulo">
+    <div class="heroi-foto"><img src="img/prof-heroi.webp" width="817" height="1212" alt="O professor sorrindo no palco, em preto e branco, de blazer claro e camiseta escura." fetchpriority="high"></div>
+    <div class="envolve heroi-camadas">
+      <div class="heroi-esq">
+        <div class="num aparece"><b>10.000<sup>+</sup></b><span>ex-alunos do professor aprovados em vestibulares<sup>1</sup></span></div>
+        <div class="num aparece"><b>6 mi<sup>+</sup></b><span>visualizações das aulas no YouTube<sup>1</sup></span></div>
+        <div class="num aparece"><b>3.232</b><span>questões das provas de 2017 a 2026</span></div>
+      </div>
+      <div class="heroi-dir">
+        <div class="num aparece"><b>FUVEST · Unicamp · UNESP</b><span>as três bancas paulistas</span></div>
+        <div class="num aparece"><b>2.581</b><span>resoluções comentadas</span></div>
+        <div class="num aparece"><b>Formato 2027</b><span>simulados com o tempo do edital</span></div>
+      </div>
+    </div>
+    <div class="envolve heroi-base">
+      <div>
+        <h1 id="titulo" class="display sobe" data-quebra>Conheça a banca <span class="mt">antes</span> que ela conheça você.</h1>
+        <p class="sub aparece">Treine com as <strong>questões das provas dos últimos dez vestibulares</strong>, entenda cada erro e siga um plano que se ajusta a você até o dia da prova. Com a curadoria de um professor com <strong>mais de 10 mil ex-alunos aprovados</strong> ao longo da carreira<sup>1</sup>.</p>
+        <div class="acoes aparece">
+          <a class="btn" href="#lista">Quero acesso antecipado</a>
+          <a class="btn contorno" href="#metodo">Ver por dentro</a>
+          <p class="nota">Entrar na lista é gratuito e não obriga a nenhuma compra.</p>
+        </div>
+      </div>
+      <div class="cronometro aparece" id="cronometro" aria-live="off">
+        <span class="rotulo">Próxima prova</span>
+        <span class="relogio" id="relogio" aria-hidden="true"></span>
+        <span class="qual" id="qual-prova">Calendário 2027</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto grade" aria-label="Por que a Banca Aberta existe">
+    <div class="envolve">
+      <img class="mini a aparece" src="img/mini-questao.webp" width="600" height="574" alt="Questão de geografia da FUVEST 2023 na plataforma." loading="lazy">
+      <p class="display sobe" data-quebra>O vestibular não mede só o que você sabe. Mede se você <span class="mt">conhece a banca</span>: o formato, o tempo e o jeito de perguntar. Quem treina isso chega à prova <span class="mt">um passo à frente.</span></p>
+      <img class="mini b aparece" src="img/mini-correcao.webp" width="600" height="408" alt="Resolução comentada de uma questão de geometria na plataforma." loading="lazy">
+    </div>
+  </section>
+
+  <!-- FORMATOS -->
+  <section class="formatos grade" aria-labelledby="t-formatos">
+    <span class="fantasma" aria-hidden="true">Formato</span>
+    <div class="envolve">
+      <div class="formatos-cab">
+        <h2 id="t-formatos" class="display sobe" data-quebra>Três bancas, três provas diferentes</h2>
+        <p class="aparece">Cada uma tem seu número de questões, seu tempo e seu estilo. Treinar no formato errado custa pontos que você sabia fazer.</p>
+      </div>
+      <div class="tres">
+        <div class="aparece"><span class="rotulo banca">FUVEST · 1ª fase</span><b>80</b><p><span class="novo">Novo em 2027</span>Eram 90 até 2026. Cinco alternativas, cinco horas: o ritmo mudou.</p></div>
+        <div class="aparece"><span class="rotulo banca">Unicamp · 1ª fase</span><b>72</b><p>Quatro alternativas e cotas fixas por matéria: 12 de Português, 12 de Matemática, 7 de cada ciência.</p></div>
+        <div class="aparece"><span class="rotulo banca">UNESP · 1ª fase</span><b>90</b><p>Conhecimentos gerais em cinco horas. Na 2ª fase, 36 discursivas e redação em dois dias.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÉTODO -->
+  <section class="metodo escuro grade" id="metodo" aria-labelledby="t-metodo">
+    <span class="fantasma" aria-hidden="true">Método</span>
+    <h2 id="t-metodo" class="so-leitor">Como funciona</h2>
+    <div class="envolve metodo-grade">
+      <div class="metodo-fixo" aria-hidden="true">
+        <span class="rotulo">Como funciona · telas reais da plataforma, com dados de exemplo</span>
+        <div class="cap-titulos" id="cap-titulos"></div>
+        <div class="cap-textos" id="cap-textos"></div>
+        <div class="cap-rodape">
+          <span class="cap-conta"><span id="cap-n">01</span><small>/04</small></span>
+          <a class="btn" href="#professor" tabindex="-1">Pular</a>
+        </div>
+      </div>
+      <div class="metodo-telas" id="metodo-telas">
+        <article class="passo" data-titulo="Treine">
+          <div class="txt">
+            <span class="rotulo">01 · Como funciona</span>
+            <h3 class="display">Treine</h3>
+            <p>A prova de verdade, no tempo de verdade. Simulados sorteados no formato do edital de 2027, provas completas e treino por matéria, com o cronômetro correndo. A resposta só aparece quando você entrega.</p>
+            <ul><li>Questões da FUVEST, Unicamp e UNESP de 2017 a 2026, com a fonte de cada uma</li><li>Gabarito sempre o oficial da banca, na versão do caderno</li><li>Cartão-resposta com acertos e erros num relance</li></ul>
+          </div>
+          <figure><div class="moldura"><img src="img/tela-resultado.webp" width="1600" height="875" alt="Resultado de um simulado FUVEST de 15 questões: 73% de aproveitamento, 11 acertos e cartão-resposta." loading="lazy"></div><figcaption class="rotulo">Resultado de um simulado · exemplo</figcaption></figure>
+        </article>
+        <article class="passo" data-titulo="Entenda">
+          <div class="txt">
+            <span class="rotulo">02 · Como funciona</span>
+            <h3 class="display">Entenda</h3>
+            <p>Cada erro vira aula. As 2.581 questões objetivas têm resolução comentada que chega à letra do gabarito oficial. Nas discursivas, você compara sua resposta com a resposta esperada publicada pela banca.</p>
+            <ul><li>Sua resposta e a correta lado a lado</li><li>Resolução com fórmulas e figuras, como se resolve no papel</li><li>651 discursivas com a resposta esperada da FUVEST e da Unicamp</li></ul>
+          </div>
+          <figure><div class="moldura"><img src="img/tela-correcao.webp" width="1000" height="1995" alt="Correção de uma questão de geometria da FUVEST 2018 com a resolução comentada aberta." loading="lazy" style="object-fit: cover; object-position: top; aspect-ratio: 1000 / 1300"></div><figcaption class="rotulo">Correção com resolução comentada · exemplo</figcaption></figure>
+        </article>
+        <article class="passo" data-titulo="Meça">
+          <div class="txt">
+            <span class="rotulo">03 · Como funciona</span>
+            <h3 class="display">Meça</h3>
+            <p>Você enxerga onde está perdendo pontos: evolução, acerto por matéria, mapa de assuntos por vestibular e a lista do que mais derruba a sua nota. As questões erradas voltam para revisão na hora certa.</p>
+            <ul><li>“Onde focar”: os assuntos de menor acerto, com um botão para treinar</li><li>Comparação com a sua própria média, treino a treino</li><li>Caderno de erros com revisão em 1, 3, 7 e 21 dias</li></ul>
+          </div>
+          <figure><div class="moldura"><img src="img/tela-desempenho.webp" width="1600" height="1475" alt="Tela de desempenho com aproveitamento, últimos treinos e gráfico de evolução." loading="lazy"></div><figcaption class="rotulo">Desempenho · dados de exemplo</figcaption></figure>
+        </article>
+        <article class="passo" data-titulo="Siga o plano">
+          <div class="txt">
+            <span class="rotulo">04 · Como funciona</span>
+            <h3 class="display">Siga o plano</h3>
+            <p>Diga para qual vestibular, quantas horas tem e em que dias estuda. O plano monta cada dia até a prova e se refaz conforme o seu acerto.</p>
+            <ul><li>Contagem regressiva com as datas divulgadas pelas bancas</li><li>Simulado semanal no mesmo horário da prova</li><li>Leituras obrigatórias e redação distribuídas na semana</li></ul>
+          </div>
+          <figure><div class="moldura"><img src="img/tela-plano.webp" width="1600" height="1400" alt="Plano de estudos com contagem regressiva, tarefas de hoje e dos próximos 7 dias." loading="lazy"></div><figcaption class="rotulo">Plano de estudos · exemplo</figcaption></figure>
+        </article>
+      </div>
+    </div>
+    <div class="folha" id="folha-1" aria-hidden="true"></div>
+  </section>
+
+  <!-- PROFESSOR -->
+  <section class="prof grade" id="professor" aria-labelledby="t-prof">
+    <span class="fantasma" aria-hidden="true">Professor</span>
+    <div class="envolve prof-grade">
+      <div class="prof-foto aparece">
+        <img class="grande" src="img/prof-pb.webp" width="680" height="910" alt="Retrato em preto e branco do professor no palco, sorrindo, de blazer claro." loading="lazy">
+        <img class="detalhe" src="img/prof-rosto.webp" width="580" height="580" alt="" loading="lazy">
+      </div>
+      <div class="prof-texto">
+        <span class="rotulo aparece">Quem está com você</span>
+        <h2 id="t-prof" class="display"><span class="a-definir">Nome do professor</span></h2>
+        <p class="bio aparece">Professor de <span class="a-definir">matéria</span> com <strong>mais de 10 mil ex-alunos aprovados</strong> em vestibulares ao longo da carreira e <strong>mais de 6 milhões de visualizações</strong> no YouTube<sup>1</sup>. <span class="a-definir">Título na OBA/MOBFOG 2026: texto exato, com o nome oficial da olimpíada</span>.</p>
+        <div class="prof-nums aparece">
+          <div><b>10 mil+</b><span>ex-alunos aprovados<sup>1</sup></span></div>
+          <div><b>6 mi+</b><span>visualizações no YouTube<sup>1</sup></span></div>
+          <div><b>2026</b><span class="a-definir">título OBA/MOBFOG</span></div>
+        </div>
+        <ol class="prof-lista aparece">
+          <li><span><b>Curadoria de quem está na sala de aula.</b> O que treinar, em que ordem e como revisar vem da experiência com milhares de alunos, não de um algoritmo sozinho.</span></li>
+          <li><span><b>Aulas que completam o treino.</b> <span class="a-definir">Descrever o curso ou as aulas do professor que entram no plano completo</span>.</span></li>
+          <li><span><b>Um rosto por trás da plataforma.</b> Conteúdo no YouTube e nas redes para você conhecer o jeito dele ensinar antes de assinar.</span></li>
+        </ol>
+        <div class="aparece"><a class="btn contorno" href="#" data-canal>Aulas no YouTube</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVENTÁRIO -->
+  <section class="inv grade" aria-labelledby="t-inv">
+    <div class="envolve">
+      <div class="inv-cab">
+        <h2 id="t-inv" class="display sobe" data-quebra>O que você leva</h2>
+        <p class="aparece">Números de hoje. As provas de 2027 entram quando as bancas publicarem os cadernos e gabaritos.</p>
+      </div>
+      <div class="inv-lista">
+        <div class="inv-item aparece"><b>2.581</b><h3>Questões objetivas</h3><p>FUVEST, Unicamp e UNESP, 2017 a 2026, todas com resolução comentada e assunto.</p></div>
+        <div class="inv-item aparece"><b>651</b><h3>Questões discursivas</h3><p>45 cadernos da 2ª fase com a resposta esperada publicada pela banca.</p></div>
+        <div class="inv-item aparece"><b>3</b><h3>Simulados no formato 2027</h3><p>80 da FUVEST, 72 da Unicamp com cotas por matéria e 90 da UNESP, no tempo do edital.</p></div>
+        <div class="inv-item aparece"><b>12</b><h3>Matérias no seu mapa</h3><p>Acerto por matéria e por assunto, evolução e o que mais derruba sua nota.</p></div>
+        <div class="inv-item aparece"><b>1</b><h3>Plano até a prova</h3><p>Tarefas por dia, simulado semanal e 2ª fase incluída. Ajusta sozinho.</p></div>
+        <div class="inv-item aparece"><b>4</b><h3>Revisões de cada erro</h3><p>Depois de 1, 3, 7 e 21 dias, até você acertar três vezes seguidas.</p></div>
+        <div class="inv-item aparece"><b>18</b><h3>Obras obrigatórias</h3><p>Guias de leitura da FUVEST e da Unicamp 2027, ligados às questões que já caíram.</p></div>
+        <div class="inv-item aparece"><b>32</b><h3>Propostas de redação</h3><p>Temas dos últimos anos das três bancas, com o que cada proposta pede.</p></div>
+        <div class="inv-item aparece"><b>3</b><h3>Guias do dia da prova</h3><p>Horários, o que levar e o que é proibido, dos manuais das bancas, conferidos duas vezes por semana.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARAÇÃO -->
+  <section class="comp" aria-labelledby="t-comp">
+    <div class="envolve">
+      <h2 id="t-comp" class="display sobe" data-quebra>Prova antiga em PDF você acha de graça. O que falta é <span class="mt">o resto</span>.</h2>
+      <div class="tabela-caixa aparece" role="region" aria-label="Tabela de comparação" tabindex="0">
+        <table class="tabela">
+          <thead><tr><th scope="col">O que você precisa</th><th scope="col" class="nos">Banca Aberta</th><th scope="col">PDF de provas antigas</th><th scope="col">Lista de exercícios</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Questões das provas das três bancas</th><td class="nos"><span class="sim">10 anos, organizadas</span></td><td><span class="parte">As que você baixar</span></td><td><span class="parte">Depende da lista</span></td></tr>
+            <tr><th scope="row">Resolução comentada de cada questão</th><td class="nos"><span class="sim">Todas</span></td><td><span class="nao">Não</span></td><td><span class="parte">Depende da lista</span></td></tr>
+            <tr><th scope="row">Simulado no formato e no tempo de 2027</th><td class="nos"><span class="sim">Sim</span></td><td><span class="nao">Não</span></td><td><span class="nao">Não</span></td></tr>
+            <tr><th scope="row">Desempenho por matéria e assunto</th><td class="nos"><span class="sim">Automático</span></td><td><span class="nao">Na planilha</span></td><td><span class="nao">Não</span></td></tr>
+            <tr><th scope="row">Plano diário até a prova</th><td class="nos"><span class="sim">Ajusta sozinho</span></td><td><span class="nao">Não</span></td><td><span class="nao">Não</span></td></tr>
+            <tr><th scope="row">Erros voltam para revisão</th><td class="nos"><span class="sim">1, 3, 7 e 21 dias</span></td><td><span class="nao">Não</span></td><td><span class="nao">Não</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="nota-tabela">Comparação com formas de estudo em geral, não com empresas ou produtos específicos.</p>
+    </div>
+  </section>
+
+  <!-- CALENDÁRIO -->
+  <section class="cal escuro grade" id="calendario" aria-labelledby="t-cal">
+    <span class="fantasma" aria-hidden="true">2027</span>
+    <div class="envolve">
+      <h2 id="t-cal" class="display sobe" data-quebra>Calendário dos vestibulares 2027</h2>
+      <ol class="cal-lista" id="cal-lista"></ol>
+      <p class="recado aparece"><strong>Vai prestar agora?</strong> Ainda dá tempo de treinar no formato e chegar à 2ª fase sabendo o que a banca espera. <strong>Vai prestar em 2028?</strong> Quem começa com um ano de antecedência faz a prova pela segunda vez no dia, e não pela primeira.</p>
+      <p class="recado" style="font-size: 13px; color: var(--tx-claro-3)">Datas divulgadas pelas bancas nos manuais e guias de 2027, conferidas em 15/10/2026. Horário de Brasília.</p>
+    </div>
+    <div class="folha" id="folha-2" aria-hidden="true" style="margin-top: 60px"></div>
+  </section>
+
+  <!-- PLANOS -->
+  <section class="planos grade" id="planos" aria-labelledby="t-planos">
+    <span class="fantasma" aria-hidden="true">Planos</span>
+    <div class="envolve">
+      <span class="rotulo aparece" style="color: var(--tx-escuro-3)">Planos · em definição</span>
+      <h2 id="t-planos" class="display sobe" data-quebra style="margin-top: 16px">Escolha como quer se preparar</h2>
+      <p class="lead aparece">Preços e condições de lançamento ainda não foram definidos. Quem está na lista recebe essas informações antes de qualquer cobrança, e entrar na lista não obriga a comprar.</p>
+      <div class="cartoes">
+        <div class="cartao aparece">
+          <h3>Banca Aberta</h3>
+          <p class="desc">A plataforma completa, para treinar sozinho com método.</p>
+          <div class="preco"><span class="a-definir">R$ —</span><small><span class="a-definir">preço total, periodicidade e renovação a definir</span></small></div>
+          <ul><li>3.232 questões das provas com resolução comentada</li><li>Simulados no formato 2027, no tempo do edital</li><li>Desempenho, mapa de assuntos e “onde focar”</li><li>Plano de estudos e caderno de erros</li><li>Guias do dia da prova, das obras e de redação</li></ul>
+          <a class="btn" href="#lista" data-plano="plataforma">Entrar na lista</a>
+        </div>
+        <div class="cartao forte aparece">
+          <span class="selo">Mais completo</span>
+          <h3>Banca Aberta + Professor</h3>
+          <p class="desc">Tudo da plataforma, com as aulas e o acompanhamento do professor.</p>
+          <div class="preco"><span class="a-definir">R$ —</span><small><span class="a-definir">preço total, periodicidade e renovação a definir</span></small></div>
+          <ul><li>Tudo do plano Banca Aberta</li><li><span class="a-definir">Curso ou aulas do professor: descrever</span></li><li><span class="a-definir">Encontros ao vivo, correção ou mentoria: definir</span></li></ul>
+          <a class="btn" href="#lista" data-plano="professor">Entrar na lista</a>
+        </div>
+      </div>
+      <div class="direito aparece"><b class="sete" aria-hidden="true">7</b><p><strong>Direito de arrependimento.</strong> Na compra pela internet, você pode desistir em até 7 dias a partir da contratação e receber de volta todo o valor pago, sem precisar justificar (art. 49 do Código de Defesa do Consumidor).</p></div>
+    </div>
+  </section>
+
+  <!-- PERGUNTAS -->
+  <section class="faq" id="perguntas" aria-labelledby="t-faq">
+    <div class="envolve faq-grade">
+      <div class="lado">
+        <h2 id="t-faq" class="display sobe" data-quebra>Antes de você entrar</h2>
+        <p class="aparece">Não achou sua dúvida? Escreva para <a href="mailto:contato@bancaaberta.com.br">contato@bancaaberta.com.br</a>.</p>
+      </div>
+      <div class="faq-lista aparece">
+        <details><summary>A Banca Aberta é ligada à FUVEST, à Unicamp ou à UNESP?</summary><div class="resp"><p>Não. É uma ferramenta de estudo independente. As questões são reproduzidas dos cadernos das provas, sempre com a citação da fonte, e o gabarito usado é o oficial de cada edição.</p></div></details>
+        <details><summary>As resoluções são confiáveis?</summary><div class="resp"><p>Toda resolução precisa chegar à letra do gabarito oficial, e um sistema confere isso antes de a questão ir ao ar. Quando a equipe discorda do gabarito, a questão é separada para uma pessoa decidir. O gabarito oficial nunca é alterado.</p></div></details>
+        <details><summary>Serve para quem presta este ano?</summary><div class="resp"><p>Sim. Os simulados já seguem o formato de 2027, os guias do dia da prova trazem horários e regras dos manuais das bancas, e o plano inclui a 2ª fase, com redação e discursivas.</p></div></details>
+        <details><summary>E para quem presta em 2028 ou depois?</summary><div class="resp"><p>É quando a plataforma rende mais: com tempo, o plano distribui as matérias pelo peso de cada vestibular, puxa os assuntos em que você mais erra e faz cada erro voltar para revisão até você acertar.</p></div></details>
+        <details><summary>Tem discursivas da UNESP e da FUVEST antes de 2023?</summary><div class="resp"><p>Ainda não. Só usamos respostas publicadas pela própria banca, e essas não foram divulgadas. Preferimos não ter a questão a mostrar uma resposta inventada.</p></div></details>
+        <details><summary>Funciona no celular?</summary><div class="resp"><p>Sim. A plataforma foi feita para o celular e para o computador, com tema claro e escuro.</p></div></details>
+        <details><summary>E se eu desistir depois de comprar?</summary><div class="resp"><p>Pelo Código de Defesa do Consumidor, na compra pela internet você pode desistir em até 7 dias a partir da contratação e receber todo o valor de volta, sem justificar.</p></div></details>
+        <details><summary>Quando abre?</summary><div class="resp"><p>A data ainda será anunciada. Quem está na lista recebe o convite por e-mail antes da abertura ao público.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- LISTA -->
+  <section class="lista escuro grade" id="lista" aria-labelledby="t-lista">
+    <span class="fantasma" aria-hidden="true">Lista</span>
+    <div class="envolve lista-grade">
+      <div>
+        <span class="rotulo aparece" style="color: var(--tx-claro-3)">Lista de espera</span>
+        <h2 id="t-lista" class="display sobe" data-quebra style="margin-top: 16px"><span id="frase-final">No dia da prova, alguém vai abrir o caderno</span> já sabendo o que esperar. <span class="mt">Que seja você.</span></h2>
+        <p class="sub aparece">Deixe seu nome. Você recebe o convite antes da abertura ao público, com os preços e as condições de lançamento.</p>
+      </div>
+      <form class="form aparece" id="form-lista" novalidate>
+        <h3>Quero acesso antecipado</h3>
+        <div class="duas">
+          <label class="campo">Nome<input name="nome" autocomplete="given-name" required placeholder="Como você se chama"></label>
+          <label class="campo">E-mail<input name="email" type="email" autocomplete="email" required placeholder="voce@email.com"></label>
+        </div>
+        <div class="duas">
+          <label class="campo">Vestibular principal<select name="vestibular"><option>FUVEST</option><option>Unicamp</option><option>UNESP</option><option>Ainda não sei</option></select></label>
+          <label class="campo">Ano em que vai prestar<select name="ano"><option>2027</option><option selected>2028</option><option>2029 ou depois</option></select></label>
+        </div>
+        <label class="campo">Plano de interesse<select name="plano"><option value="plataforma">Banca Aberta</option><option value="professor" selected>Banca Aberta + Professor</option></select></label>
+        <details class="aviso">
+          <summary>Como usamos seus dados</summary>
+          <div>
+            <span class="rascunho">RASCUNHO PARA REVISÃO JURÍDICA</span>
+            <p><b>Quem trata:</b> Banca Aberta, <span class="a-definir">razão social e CNPJ a definir</span>.</p>
+            <p><b>Para quê:</b> só para avisar sobre o lançamento, enviar o convite e saber qual vestibular e qual plano interessam a quem se inscreveu. Não vendemos nem cedemos seus dados.</p>
+            <p><b>Base legal:</b> seu consentimento, que você pode retirar quando quiser.</p>
+            <p><b>Por quanto tempo:</b> até o lançamento e, no máximo, <span class="a-definir">12 meses</span>; depois, os dados são apagados se você não virar assinante.</p>
+            <p><b>Seus direitos:</b> pedir acesso, correção ou exclusão e sair da lista a qualquer momento, por um link em cada e-mail ou pelo contato <span class="a-definir">mvtonete@gmail.com (provisório)</span>.</p>
+            <p><b>Menores de idade:</b> de 12 a 17 anos, a inscrição deve ter a ciência do responsável. Menores de 12 anos não podem se inscrever sozinhos.</p>
+          </div>
+        </details>
+        <label class="aceite"><input type="checkbox" name="aceite" required><span>Concordo em receber e-mails da Banca Aberta sobre o lançamento, nos termos acima. Se tenho menos de 18 anos, meu responsável está ciente.</span></label>
+        <button class="btn" type="submit">Entrar na lista</button>
+        <p class="retorno" id="retorno" hidden></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="envolve">
+    <div class="rodape-topo">
+      <div><a class="logo" href="#inicio"><i aria-hidden="true"></i>Banca Aberta</a></div>
+      <div><h4>Menu</h4><ul><li><a href="#metodo">Método</a></li><li><a href="#professor">Professor</a></li><li><a href="#calendario">Calendário</a></li><li><a href="#planos">Planos</a></li><li><a href="#perguntas">Perguntas</a></li></ul></div>
+      <div><h4>Redes</h4><ul><li><a href="https://www.instagram.com/bancaaberta/" rel="noopener">Instagram</a></li><li><a href="#" data-canal>YouTube do professor</a></li></ul></div>
+      <div><h4>Contato</h4><ul><li><a href="mailto:contato@bancaaberta.com.br">contato@bancaaberta.com.br</a></li></ul></div>
+    </div>
+    <div class="rodape-legal">
+      <p><strong>Ferramenta de estudo independente.</strong> A Banca Aberta não tem vínculo, parceria nem aprovação da FUVEST/USP, da Comvest/Unicamp, da UNESP ou da VUNESP. Esses nomes, marcas de seus titulares, aparecem só para identificar a origem das questões, reproduzidas dos cadernos das provas com a citação da fonte.</p>
+      <p>Resultados e notas na plataforma são estimativas para estudo, não previsão de resultado nem garantia de aprovação. Telas mostradas com dados de exemplo.</p>
+      <p><sup>1</sup> Números da trajetória do professor ao longo da carreira, em diferentes escolas e no seu canal: <span class="a-definir">fonte e período a informar</span>. Os documentos que comprovam esses números ficam guardados pela Banca Aberta.</p>
+      <p><span class="a-definir">Razão social · CNPJ · endereço · e-mail de atendimento</span> (obrigatórios antes de começar a vender). Termos de Uso e Política de Privacidade em revisão jurídica.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var reduz = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // ---------- abertura: contador de 0 a 100 (some sozinha pelo CSS, mesmo sem JS) ----------
+  var conta = document.getElementById("conta"), t0 = performance.now();
+  (function passo(t) { var p = Math.min(1, (t - t0) / 1300); conta.textContent = Math.round(100 * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(passo); })(t0);
+
+  // ---------- títulos: cada palavra sobe de dentro de uma máscara ----------
+  document.querySelectorAll("[data-quebra]").forEach(function (h) {
+    var i = 0;
+    (function quebra(no) {
+      Array.prototype.slice.call(no.childNodes).forEach(function (filho) {
+        if (filho.nodeType === 3) {
+          var frag = document.createDocumentFragment();
+          filho.textContent.split(/(\s+)/).forEach(function (pedaco) {
+            if (!pedaco) return;
+            if (/^\s+$/.test(pedaco)) { frag.appendChild(document.createTextNode(" ")); return; }
+            var p = document.createElement("span"); p.className = "p";
+            var d = document.createElement("span"); d.textContent = pedaco; d.style.setProperty("--i", i++);
+            p.appendChild(d); frag.appendChild(p);
+          });
+          no.replaceChild(frag, filho);
+        } else if (filho.nodeType === 1 && !filho.classList.contains("p")) quebra(filho);
+      });
+    })(h);
+  });
+
+  // ---------- entrada ao rolar ----------
+  var alvos = Array.prototype.filter.call(document.querySelectorAll(".sobe, .aparece, .mt"), function (a) { return !(a.classList.contains("mt") && a.closest(".sobe")); });
+  if ("IntersectionObserver" in window && !reduz) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("ativo"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -10% 0px" });
+    // o herói entra depois da abertura
+    setTimeout(function () {
+      document.querySelectorAll(".heroi .sobe, .heroi .aparece, .heroi .mt").forEach(function (a) { a.classList.add("ativo"); });
+      alvos.forEach(function (a) { if (!a.closest(".heroi")) io.observe(a); });
+    }, 1500);
+  } else alvos.forEach(function (a) { a.classList.add("ativo"); });
+
+  // ---------- menu de tela cheia ----------
+  var bt = document.getElementById("menu-bt"), menu = document.getElementById("menu");
+  function abre(sim) {
+    if (sim && menu.hidden) { menu.hidden = false; menu.offsetWidth; }
+    document.body.classList.toggle("menu-aberto", sim);
+    bt.setAttribute("aria-expanded", sim ? "true" : "false");
+    bt.setAttribute("aria-label", sim ? "Fechar menu" : "Abrir menu");
+    if (!sim) setTimeout(function () { if (!document.body.classList.contains("menu-aberto")) menu.hidden = true; }, 800);
+  }
+  bt.addEventListener("click", function () { abre(!document.body.classList.contains("menu-aberto")); });
+  menu.addEventListener("click", function (e) { if (e.target.closest("a")) abre(false); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") abre(false); });
+
+  // ---------- calendário (datas divulgadas pelas bancas; robô de editais confere 2x por semana) ----------
+  var FASES = [
+    ["Unicamp", "1ª fase", "2026-10-18T09:00:00-03:00", "Conhecimentos gerais · 72 questões"],
+    ["FUVEST", "1ª fase", "2026-11-01T13:00:00-03:00", "Conhecimentos gerais · 80 questões"],
+    ["UNESP", "1ª fase", "2026-11-22T13:00:00-03:00", "Conhecimentos gerais · 90 questões"],
+    ["Unicamp", "2ª fase · 1º dia", "2026-11-29T09:00:00-03:00", "Redação, Português e interdisciplinares"],
+    ["Unicamp", "2ª fase · 2º dia", "2026-11-30T09:00:00-03:00", "Matemática, Humanas e provas da área"],
+    ["FUVEST", "2ª fase · 1º dia", "2026-12-06T13:00:00-03:00", "Português, obras e redação"],
+    ["FUVEST", "2ª fase · 2º dia", "2026-12-07T13:00:00-03:00", "Disciplinas da carreira"],
+    ["UNESP", "2ª fase · 1º dia", "2026-12-13T13:00:00-03:00", "Humanas, Natureza e Matemática"],
+    ["UNESP", "2ª fase · 2º dia", "2026-12-14T13:00:00-03:00", "Linguagens e redação"]
+  ];
+  var MES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+  var agora = Date.now();
+  function diasAte(ms) { var a = new Date(); a.setHours(0, 0, 0, 0); var b = new Date(ms); b.setHours(0, 0, 0, 0); return Math.round((b - a) / 864e5); }
+  var lista = document.getElementById("cal-lista"), proxima = null;
+  FASES.forEach(function (f) {
+    var ms = Date.parse(f[2]), d = new Date(ms), n = diasAte(ms), passou = ms + 5 * 3600e3 < agora;
+    if (!passou && !proxima) proxima = { f: f, ms: ms };
+    var li = document.createElement("li"); if (passou) li.className = "passou";
+    var dd = String(d.getDate()).padStart(2, "0") + "." + String(d.getMonth() + 1).padStart(2, "0") + ".2026 · " + f[2].slice(11, 13).replace(/^0/, "") + "h";
+    var falta = passou ? "Realizada" : n <= 0 ? "Hoje" : n === 1 ? "Amanhã" : "Em " + n + " dias";
+    li.innerHTML = '<span class="nome">' + f[1] + " · " + f[0] + '</span><span class="sub">' + f[3] + '</span><span class="quando"><span class="falta' + (proxima && proxima.f === f ? " prox" : "") + '">' + falta + '</span><span class="data">' + dd + "</span></span>";
+    lista.appendChild(li);
+  });
+
+  // ---------- contagem regressiva do herói ----------
+  var rel = document.getElementById("relogio"), qual = document.getElementById("qual-prova");
+  function pad(n) { return String(n).padStart(2, "0"); }
+  var UNID = ["dias", "horas", "min", "seg"];
+  rel.innerHTML = UNID.map(function (u, i) { return (i ? '<span class="dois">:</span>' : "") + '<span class="seg"><b>00</b><small>' + u + "</small></span>"; }).join("");
+  var segs = rel.querySelectorAll(".seg b");
+  function tique() {
+    if (!proxima) { qual.textContent = "Provas de 2027 encerradas"; return; }
+    var s = Math.floor(Math.max(0, proxima.ms - Date.now()) / 1000);
+    [Math.floor(s / 86400), Math.floor(s % 86400 / 3600), Math.floor(s % 3600 / 60), s % 60].forEach(function (v, i) { segs[i].textContent = pad(v); });
+  }
+  if (proxima) {
+    var dp = new Date(proxima.ms);
+    qual.textContent = proxima.f[0] + " · " + proxima.f[1] + " · " + dp.getDate() + " " + MES[dp.getMonth()];
+    document.getElementById("cronometro").setAttribute("aria-label", "Próxima prova: " + qual.textContent + ", em " + diasAte(proxima.ms) + " dias.");
+    // frase final: a próxima prova que ainda está a pelo menos uma semana
+    var folga = FASES.filter(function (f) { return f[1] === "1ª fase" && diasAte(Date.parse(f[2])) >= 7; })[0];
+    if (folga) document.getElementById("frase-final").textContent = "Daqui a " + diasAte(Date.parse(folga[2])) + " dias, alguém vai abrir a prova da " + folga[0];
+  }
+  tique(); setInterval(tique, 1000);
+
+  // ---------- capítulos fixos do método ----------
+  var passos = document.querySelectorAll(".passo"), titulos = document.getElementById("cap-titulos"), textos = document.getElementById("cap-textos"), capN = document.getElementById("cap-n");
+  passos.forEach(function (p, k) {
+    var h = document.createElement("h3"); h.className = "display" + (k === 0 ? " atual" : ""); h.textContent = p.getAttribute("data-titulo");
+    var sp = h.textContent.split(" "), html = sp.map(function (w, i) { return '<span class="p"><span style="--i:' + i + '">' + w + "</span></span>"; }).join(" ");
+    h.innerHTML = html; h.classList.add("sobe"); titulos.appendChild(h);
+    var t = p.querySelector(".txt"), d = document.createElement("div"); d.className = k === 0 ? "atual" : "";
+    d.appendChild(t.querySelector("p").cloneNode(true)); d.appendChild(t.querySelector("ul").cloneNode(true)); textos.appendChild(d);
+  });
+  function ativa(k) {
+    titulos.querySelectorAll("h3").forEach(function (h, i) { h.classList.toggle("atual", i === k); });
+    textos.querySelectorAll(":scope > div").forEach(function (d, i) { d.classList.toggle("atual", i === k); });
+    capN.textContent = pad(k + 1);
+  }
+  if ("IntersectionObserver" in window) {
+    var iop = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) ativa(Array.prototype.indexOf.call(passos, e.target)); });
+    }, { rootMargin: "-45% 0px -45% 0px" });
+    passos.forEach(function (p) { iop.observe(p); });
+  }
+
+  // ---------- folha de respostas (divisor) ----------
+  function folha(el, linhas) {
+    var semente = 7;
+    function rnd() { semente = (semente * 9301 + 49297) % 233280; return semente / 233280; }
+    for (var l = 0; l < linhas; l++) {
+      var lin = document.createElement("div"); lin.className = "folha-linha";
+      for (var g = 0; g < 14; g++) {
+        var certa = Math.floor(rnd() * 5);
+        for (var a = 0; a < 5; a++) { var b = document.createElement("span"); b.textContent = "ABCDE"[a]; if (a === certa) b.className = "cheia"; lin.appendChild(b); }
+        var sep = document.createElement("span"); sep.className = "sep"; lin.appendChild(sep);
+      }
+      el.appendChild(lin);
+    }
+  }
+  folha(document.getElementById("folha-1"), 5); folha(document.getElementById("folha-2"), 5);
+
+  // ---------- plano escolhido e formulário ----------
+  document.querySelectorAll("[data-plano]").forEach(function (b) {
+    b.addEventListener("click", function () { var s = document.querySelector('select[name="plano"]'); if (s) s.value = b.getAttribute("data-plano"); });
+  });
+  var form = document.getElementById("form-lista"), ret = document.getElementById("retorno");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var nome = form.nome.value.trim(), email = form.email.value.trim();
+    ret.hidden = false;
+    if (!nome || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { ret.innerHTML = "<strong>Falta pouco:</strong> confira o nome e o e-mail."; return; }
+    if (!form.aceite.checked) { ret.innerHTML = "<strong>Falta pouco:</strong> marque o aceite para entrar na lista."; return; }
+    ret.innerHTML = "<strong>Prévia da página.</strong> O cadastro na lista será ligado ao sistema no lançamento. Nenhum dado foi enviado.";
+  });
+})();
+</script>

@@ -32,7 +32,7 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 | `dados/provas/calendario.json` | Datas, horários e regras do dia da prova de cada vestibular, só de documentos oficiais (com fonte e data de conferência) |
 | `dados/conteudo/obras.json`, `redacao-temas.json` | Obras de leitura obrigatória com guia da equipe e questões ligadas (`ferramentas/ligar_obras.py`); temas de redação anteriores |
 | `ferramentas/robo_editais.py` | Robô que confere os documentos oficiais e avisa mudanças (roda sozinho segundas e quintas; prepara a atualização numa branch para aprovação) |
-| `site/` | Página de vendas (landing page): `pagina.html` + `img/` (foto tratada do professor e capturas reais da plataforma) + `fontes/`. Campos com a classe `a-definir` esperam dados do professor e preços |
+| `site/` | Página de vendas (landing page), no formato escolhido pelo responsável (referência nickho-motorsports.nl: preto e branco, marca-texto amarelo, títulos condensados): `pagina.html` + `img/` (foto tratada do professor e capturas reais da plataforma) + `fontes/`. Campos com a classe `a-definir` esperam dados do professor e preços |
 | `supabase/` | Backend (Supabase, São Paulo): migrações do banco e, depois, as funções de servidor. Ver `supabase/LEIAME.md` |
 | `dados/juridico/` | Rascunhos de Termos, Privacidade e Direitos autorais (para revisão jurídica) |
 | `fontes-pdf` | Link para os PDFs oficiais (fora do git) |
