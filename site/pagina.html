@@ -207,6 +207,7 @@ p { margin: 0; }
 .comparar thead th.nos { color: var(--caneta); }
 .comparar td.nos { background: color-mix(in srgb, var(--caneta-fundo) 60%, transparent); font-weight: 600; }
 .comparar tr:last-child td { border-bottom: 0; }
+.nota-tabela { margin-top: 12px; font-size: 13.5px; color: var(--tinta-3); }
 .sim, .nao, .parte { display: inline-flex; align-items: center; gap: 8px; font-size: 14.5px; }
 .sim::before, .nao::before, .parte::before { content: ""; width: 16px; height: 16px; border-radius: 50%; flex: none; }
 .sim::before { background: var(--certo) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 8.3l2.3 2.2 4.7-5' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat; }
@@ -280,6 +281,11 @@ p { margin: 0; }
 .aceite { display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 10px; font-size: 13px; color: var(--palco-tx2); align-items: start; }
 .aceite input { width: 18px; height: 18px; margin: 1px 0 0; accent-color: #2f63f2; }
 .lista .btn { width: 100%; }
+.aviso-lgpd { font-size: 13px; color: var(--palco-tx2); border: 1px solid var(--palco-linha); border-radius: 12px; padding: 10px 14px; }
+.aviso-lgpd summary { cursor: pointer; font-weight: 600; color: var(--palco-tx); }
+.aviso-lgpd div { display: grid; gap: 6px; margin-top: 10px; }
+.aviso-lgpd b { color: var(--palco-tx); font-weight: 600; }
+.aviso-lgpd .rascunho { font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; color: #f3d27a; }
 .retorno { font-size: 14px; border-radius: 12px; padding: 12px 14px; background: var(--palco-3); color: var(--palco-tx2); border: 1px dashed var(--palco-linha); }
 .retorno strong { color: var(--palco-tx); }
 
@@ -375,18 +381,18 @@ p { margin: 0; }
       <div class="heroi-texto">
         <span class="rubrica">FUVEST · Unicamp · UNESP — provas de 2017 a 2026</span>
         <h1 id="titulo">Conheça a banca <em>antes</em> que ela conheça você.</h1>
-        <p class="sub">Treine com as <strong>3.232 questões oficiais</strong> dos últimos dez vestibulares, entenda cada erro com resolução comentada e siga um plano que se ajusta ao seu desempenho até o dia da prova. Com a curadoria de um professor que já levou <strong>mais de 10 mil alunos à aprovação</strong>.</p>
+        <p class="sub">Treine com as <strong>3.232 questões das provas</strong> dos últimos dez vestibulares, entenda cada erro com resolução comentada e siga um plano que se ajusta ao seu desempenho até o dia da prova. Com a curadoria de um professor com <strong>mais de 10 mil ex-alunos aprovados</strong> ao longo da carreira<sup>1</sup>.</p>
         <div class="acoes">
           <a class="btn btn-primario btn-seta" href="#lista">Quero acesso de fundador</a>
           <a class="link-discreto" href="#como-funciona">Ver a plataforma por dentro</a>
-          <p class="nota">Entrar na lista não custa nada. O acesso abre em ondas, e quem chega primeiro entra primeiro.</p>
+          <p class="nota">Entrar na lista é gratuito e não obriga a nenhuma compra. Quem está na lista recebe o convite antes da abertura ao público.</p>
         </div>
       </div>
       <div class="cena">
         <img class="foto" src="img/prof-palco.webp" width="817" height="1212" alt="O professor sorrindo no palco, de blazer claro e camiseta preta, com um passador de slides na mão." fetchpriority="high">
         <div class="celular" aria-hidden="true"><img src="img/tela-questao.webp" width="640" height="1385" alt=""></div>
-        <div class="ficha" aria-label="Exemplo de resultado de um simulado na plataforma: 73% de aproveitamento, 11 de 15 questões.">
-          <span class="rubrica" style="color: var(--palco-tx3)">Simulado FUVEST</span>
+        <div class="ficha" aria-label="Exemplo ilustrativo de resultado de um simulado na plataforma: 73% de aproveitamento, 11 de 15 questões.">
+          <span class="rubrica" style="color: var(--palco-tx3)">Exemplo · simulado FUVEST</span>
           <span class="num">73<small>%</small></span>
           <span class="bolhas" aria-hidden="true"><span></span><span></span><span class="e"></span><span></span><span></span><span></span><span class="e"></span><span></span><span></span><span class="e"></span><span></span><span></span><span></span><span class="e"></span><span></span></span>
           <span class="leg">11 de 15 · 41min 43s</span>
@@ -395,9 +401,9 @@ p { margin: 0; }
     </div>
     <div class="provas">
       <div class="envolve">
-        <div class="prova"><b>10.000<sup>+</sup></b><span>alunos aprovados com o professor<sup>1</sup></span></div>
+        <div class="prova"><b>10.000<sup>+</sup></b><span>ex-alunos do professor aprovados em vestibulares<sup>1</sup></span></div>
         <div class="prova"><b>6 mi<sup>+</sup></b><span>visualizações das aulas no YouTube<sup>1</sup></span></div>
-        <div class="prova"><b>3.232</b><span>questões oficiais, 2017 a 2026</span></div>
+        <div class="prova"><b>3.232</b><span>questões das provas, 2017 a 2026</span></div>
         <div class="prova"><b>2.581</b><span>resoluções comentadas, uma por questão</span></div>
       </div>
     </div>
@@ -441,7 +447,7 @@ p { margin: 0; }
   <section class="secao" id="como-funciona" aria-labelledby="t-como" style="padding-top: 0">
     <div class="envolve">
       <div class="cab surge">
-        <span class="rubrica">Como funciona · telas reais da plataforma</span>
+        <span class="rubrica">Como funciona · telas reais da plataforma, com dados de exemplo</span>
         <h2 id="t-como">Treinar, entender o erro, saber o que fazer amanhã.</h2>
         <p>Nada de vídeo infinito nem lista solta. Quatro movimentos, repetidos até o dia da prova.</p>
       </div>
@@ -450,7 +456,7 @@ p { margin: 0; }
         <div class="passo-texto">
           <span class="n">01 — Treine</span>
           <h3>A prova de verdade, no tempo de verdade.</h3>
-          <p>Simulados sorteados no formato do edital de 2027, provas completas e treino por matéria, sempre com o cronômetro oficial correndo. A resposta só aparece quando você entrega, como no dia.</p>
+          <p>Simulados sorteados no formato do edital de 2027, provas completas e treino por matéria, sempre com o cronômetro correndo no tempo de prova do edital. A resposta só aparece quando você entrega, como no dia.</p>
           <ul>
             <li>Questões da FUVEST, Unicamp e UNESP de 2017 a 2026, com a fonte de cada uma</li>
             <li>Gabarito sempre o oficial da banca, na versão do caderno</li>
@@ -459,7 +465,7 @@ p { margin: 0; }
         </div>
         <figure class="tela">
           <div class="moldura"><img src="img/tela-resultado.webp" width="1600" height="875" alt="Tela de resultado de um simulado FUVEST de 15 questões: 73% de aproveitamento, 11 acertos, cartão-resposta e acerto por matéria." loading="lazy"></div>
-          <figcaption>Resultado de um simulado FUVEST</figcaption>
+          <figcaption>Resultado de um simulado FUVEST · exemplo</figcaption>
         </figure>
       </article>
 
@@ -471,12 +477,12 @@ p { margin: 0; }
           <ul>
             <li>Sua resposta e a correta lado a lado</li>
             <li>Resolução com fórmulas e figuras, do jeito que se resolve no papel</li>
-            <li>651 questões discursivas com a resposta oficial da FUVEST e da Unicamp</li>
+            <li>651 questões discursivas com a resposta esperada publicada pela FUVEST e pela Unicamp</li>
           </ul>
         </div>
         <figure class="tela recorte">
           <div class="moldura"><img src="img/tela-correcao.webp" width="1000" height="1995" alt="Correção de uma questão de geometria da FUVEST 2018: a alternativa marcada errada, a correta destacada e a resolução comentada aberta." loading="lazy"></div>
-          <figcaption>Correção com resolução comentada</figcaption>
+          <figcaption>Correção com resolução comentada · exemplo</figcaption>
         </figure>
       </article>
 
@@ -493,7 +499,7 @@ p { margin: 0; }
         </div>
         <figure class="tela">
           <div class="moldura"><img src="img/tela-desempenho.webp" width="1600" height="1475" alt="Tela de desempenho: 58% de aproveitamento, últimos 12 treinos, gráfico de evolução e acerto por matéria." loading="lazy"></div>
-          <figcaption>Desempenho do aluno</figcaption>
+          <figcaption>Desempenho · dados de exemplo</figcaption>
         </figure>
       </article>
 
@@ -503,14 +509,14 @@ p { margin: 0; }
           <h3>Um plano que muda quando você muda.</h3>
           <p>Diga para qual vestibular, quantas horas tem e em que dias estuda. O plano monta cada dia até a prova e se refaz conforme o seu acerto: matéria que melhora sai do foco, assunto que derruba sua nota volta.</p>
           <ul>
-            <li>Contagem regressiva para cada fase, com o calendário oficial</li>
+            <li>Contagem regressiva para cada fase, com as datas divulgadas pelas bancas</li>
             <li>Simulado semanal no mesmo horário da prova de verdade</li>
             <li>Leituras obrigatórias e redação distribuídas na semana</li>
           </ul>
         </div>
         <figure class="tela">
           <div class="moldura"><img src="img/tela-plano.webp" width="1600" height="1400" alt="Tela do plano de estudos: faltam 16 dias para a FUVEST, tarefas de hoje e dos próximos 7 dias e calendário até a prova." loading="lazy"></div>
-          <figcaption>Plano de estudos</figcaption>
+          <figcaption>Plano de estudos · exemplo</figcaption>
         </figure>
       </article>
     </div>
@@ -525,10 +531,10 @@ p { margin: 0; }
       <div class="prof-texto surge">
         <span class="rubrica">Quem está com você</span>
         <h2 id="t-prof"><span class="a-definir">Nome do professor</span></h2>
-        <p class="bio">Professor de <span class="a-definir">matéria</span> com <strong>mais de 10 mil alunos aprovados</strong> em vestibulares e <strong>mais de 6 milhões de visualizações</strong> no YouTube. <span class="a-definir">Título na OBA/MOBFOG 2026: confirmar o texto exato</span>.</p>
+        <p class="bio">Professor de <span class="a-definir">matéria</span> com <strong>mais de 10 mil ex-alunos aprovados</strong> em vestibulares ao longo da carreira e <strong>mais de 6 milhões de visualizações</strong> no YouTube<sup>1</sup>. <span class="a-definir">Título na OBA/MOBFOG 2026: texto exato, com o nome oficial da olimpíada</span>.</p>
         <div class="credenciais">
-          <div class="credencial"><b>10 mil+</b><span>alunos aprovados</span></div>
-          <div class="credencial"><b>6 mi+</b><span>visualizações no YouTube</span></div>
+          <div class="credencial"><b>10 mil+</b><span>ex-alunos aprovados<sup>1</sup></span></div>
+          <div class="credencial"><b>6 mi+</b><span>visualizações no YouTube<sup>1</sup></span></div>
           <div class="credencial"><b>2026</b><span class="a-definir">título OBA/MOBFOG</span></div>
         </div>
         <div class="prof-papel">
@@ -557,13 +563,13 @@ p { margin: 0; }
       <div class="inventario surge">
         <div class="item"><span class="qtd">2.581</span><h3>Questões objetivas</h3><p>FUVEST, Unicamp e UNESP, 2017 a 2026. Todas com resolução comentada e assunto.</p></div>
         <div class="item"><span class="qtd">651</span><h3>Questões discursivas</h3><p>45 cadernos da 2ª fase com a resposta esperada publicada pela banca: FUVEST 2023–2026 e Unicamp 2017–2026.</p></div>
-        <div class="item"><span class="qtd">3</span><h3>Simulados no formato 2027</h3><p>80 questões da FUVEST, 72 da Unicamp com as cotas por matéria e 90 da UNESP, com cronômetro oficial.</p></div>
+        <div class="item"><span class="qtd">3</span><h3>Simulados no formato 2027</h3><p>80 questões da FUVEST, 72 da Unicamp com as cotas por matéria e 90 da UNESP, no tempo de prova do edital.</p></div>
         <div class="item"><span class="qtd">12</span><h3>Matérias no seu mapa</h3><p>Desempenho por matéria e por assunto, evolução treino a treino e a lista do que mais derruba a sua nota.</p></div>
         <div class="item"><span class="qtd">1</span><h3>Plano até a prova</h3><p>Tarefas por dia, simulado semanal no horário real e a 2ª fase incluída. Ajusta sozinho ao seu acerto.</p></div>
         <div class="item"><span class="qtd">4</span><h3>Revisões de cada erro</h3><p>A questão errada volta depois de 1, 3, 7 e 21 dias, até você acertar três vezes seguidas.</p></div>
         <div class="item"><span class="qtd">18</span><h3>Obras obrigatórias</h3><p>Guias de leitura da FUVEST e da Unicamp 2027, ligados às questões que já caíram sobre cada obra.</p></div>
         <div class="item"><span class="qtd">32</span><h3>Propostas de redação</h3><p>Temas dos últimos anos das três bancas, com o que cada proposta pede, para treinar o texto.</p></div>
-        <div class="item"><span class="qtd">3</span><h3>Guias do dia da prova</h3><p>Horários, o que levar e o que é proibido, tirados só dos manuais oficiais e conferidos toda semana.</p></div>
+        <div class="item"><span class="qtd">3</span><h3>Guias do dia da prova</h3><p>Horários, o que levar e o que é proibido, tirados só dos manuais das bancas e conferidos duas vezes por semana.</p></div>
       </div>
     </div>
   </section>
@@ -572,15 +578,15 @@ p { margin: 0; }
   <section class="secao" aria-labelledby="t-comp" style="padding-top: 0">
     <div class="envolve">
       <div class="cab surge">
-        <span class="rubrica">Comparação honesta</span>
+        <span class="rubrica">Comparação</span>
         <h2 id="t-comp">Provas antigas em PDF você acha de graça. O que falta é o resto.</h2>
       </div>
       <div class="comparar-caixa surge" role="region" aria-label="Tabela de comparação" tabindex="0">
         <table class="comparar">
           <thead><tr><th scope="col">O que você precisa</th><th scope="col" class="nos">Banca Aberta</th><th scope="col">PDF de provas antigas</th><th scope="col">Lista de exercícios</th></tr></thead>
           <tbody>
-            <tr><th scope="row">Questões oficiais das três bancas</th><td class="nos"><span class="sim">10 anos, organizadas</span></td><td><span class="parte">As que você baixar</span></td><td><span class="nao">Raramente</span></td></tr>
-            <tr><th scope="row">Resolução comentada de cada questão</th><td class="nos"><span class="sim">Todas</span></td><td><span class="nao">Não</span></td><td><span class="parte">Às vezes</span></td></tr>
+            <tr><th scope="row">Questões das provas das três bancas</th><td class="nos"><span class="sim">10 anos, organizadas</span></td><td><span class="parte">As que você baixar</span></td><td><span class="parte">Depende da lista</span></td></tr>
+            <tr><th scope="row">Resolução comentada de cada questão</th><td class="nos"><span class="sim">Todas</span></td><td><span class="nao">Não</span></td><td><span class="parte">Depende da lista</span></td></tr>
             <tr><th scope="row">Simulado no formato e no tempo de 2027</th><td class="nos"><span class="sim">Sim</span></td><td><span class="nao">Não</span></td><td><span class="nao">Não</span></td></tr>
             <tr><th scope="row">Desempenho por matéria e assunto</th><td class="nos"><span class="sim">Automático</span></td><td><span class="nao">Na planilha</span></td><td><span class="nao">Não</span></td></tr>
             <tr><th scope="row">Plano diário até a prova</th><td class="nos"><span class="sim">Ajusta sozinho</span></td><td><span class="nao">Não</span></td><td><span class="nao">Não</span></td></tr>
@@ -588,6 +594,7 @@ p { margin: 0; }
           </tbody>
         </table>
       </div>
+      <p class="nota-tabela">Comparação com formas de estudo em geral, não com empresas ou produtos específicos.</p>
     </div>
   </section>
 
@@ -595,7 +602,7 @@ p { margin: 0; }
   <section class="secao" id="datas" aria-labelledby="t-datas" style="padding-top: 0">
     <div class="envolve">
       <div class="cab surge">
-        <span class="rubrica">Calendário oficial · vestibulares 2027</span>
+        <span class="rubrica">Datas divulgadas pelas bancas · vestibulares 2027</span>
         <h2 id="t-datas">O relógio já está correndo.</h2>
       </div>
       <div class="datas surge" id="datas-lista"></div>
@@ -607,18 +614,18 @@ p { margin: 0; }
   <section class="secao" id="planos" aria-labelledby="t-planos" style="padding-top: 0">
     <div class="envolve">
       <div class="cab surge">
-        <span class="rubrica">Planos · condição de fundador</span>
+        <span class="rubrica">Planos · em definição</span>
         <h2 id="t-planos">Escolha como quer se preparar.</h2>
-        <p>Quem entra pela lista de fundadores garante a condição de lançamento. Os valores abaixo são provisórios.</p>
+        <p>Preços e condições de lançamento ainda não foram definidos. Quem está na lista recebe essas informações antes de qualquer cobrança, e entrar na lista não obriga a comprar.</p>
       </div>
       <div class="planos surge">
         <div class="plano">
           <h3>Banca Aberta</h3>
           <p class="desc">A plataforma completa, para treinar sozinho com método.</p>
-          <div class="preco"><b class="a-definir">R$ —</b><span>por mês · <span class="a-definir">preço a definir</span></span></div>
+          <div class="preco"><b class="a-definir">R$ —</b><span><span class="a-definir">preço total, periodicidade e renovação a definir</span></span></div>
           <ul>
             <li>3.232 questões oficiais com resolução comentada</li>
-            <li>Simulados no formato 2027, com cronômetro oficial</li>
+            <li>Simulados no formato 2027, no tempo de prova do edital</li>
             <li>Desempenho, mapa de assuntos e “onde focar”</li>
             <li>Plano de estudos e caderno de erros</li>
             <li>Guias do dia da prova, das obras e de redação</li>
@@ -629,7 +636,7 @@ p { margin: 0; }
           <span class="selo">Mais completo</span>
           <h3>Banca Aberta + Professor</h3>
           <p class="desc">Tudo da plataforma, com as aulas e o acompanhamento do professor.</p>
-          <div class="preco"><b class="a-definir">R$ —</b><span>por mês · <span class="a-definir">preço a definir</span></span></div>
+          <div class="preco"><b class="a-definir">R$ —</b><span><span class="a-definir">preço total, periodicidade e renovação a definir</span></span></div>
           <ul>
             <li>Tudo do plano Banca Aberta</li>
             <li><span class="a-definir">Curso ou aulas do professor: descrever</span></li>
@@ -640,7 +647,7 @@ p { margin: 0; }
       </div>
       <div class="garantia surge">
         <span class="sete" aria-hidden="true">7</span>
-        <p><strong>Sete dias para desistir, com o dinheiro de volta.</strong> Se a Banca Aberta não for para você, é só pedir o cancelamento na primeira semana e devolvemos o valor pago, como garante o Código de Defesa do Consumidor.</p>
+        <p><strong>Direito de arrependimento.</strong> Na compra pela internet, você pode desistir em até 7 dias a partir da contratação e receber de volta todo o valor pago, sem precisar justificar (art. 49 do Código de Defesa do Consumidor).</p>
       </div>
     </div>
   </section>
@@ -660,8 +667,8 @@ p { margin: 0; }
         <details><summary>E para quem presta em 2028 ou depois?</summary><div class="resp"><p>É quando a plataforma rende mais: com tempo, o plano distribui as matérias pelo peso de cada vestibular, puxa os assuntos em que você mais erra e faz cada erro voltar para revisão até você acertar.</p></div></details>
         <details><summary>Tem discursivas da UNESP e da FUVEST antes de 2023?</summary><div class="resp"><p>Ainda não. Só usamos respostas publicadas pela própria banca, e essas não foram divulgadas. Preferimos não ter a questão a mostrar uma resposta inventada.</p></div></details>
         <details><summary>Funciona no celular?</summary><div class="resp"><p>Sim. A plataforma foi feita para o celular e para o computador, com tema claro e escuro.</p></div></details>
-        <details><summary>E se eu não gostar?</summary><div class="resp"><p>Você tem sete dias para desistir e receber o valor de volta, sem precisar explicar o motivo.</p></div></details>
-        <details><summary>Quando abre?</summary><div class="resp"><p>O acesso abre em ondas, começando por quem está na lista de fundadores. Você recebe um e-mail quando chegar a sua vez.</p></div></details>
+        <details><summary>E se eu não gostar?</summary><div class="resp"><p>Pelo Código de Defesa do Consumidor, na compra pela internet você pode desistir em até 7 dias a partir da contratação e receber todo o valor de volta, sem justificar.</p></div></details>
+        <details><summary>Quando abre?</summary><div class="resp"><p>A data ainda será anunciada. Quem está na lista recebe o convite por e-mail antes da abertura ao público.</p></div></details>
       </div>
     </div>
   </section>
@@ -672,7 +679,7 @@ p { margin: 0; }
       <div>
         <span class="rubrica">Lista de fundadores</span>
         <h2 id="t-final" style="margin-top: 16px"><span id="frase-final">No dia da prova, alguém vai abrir o caderno</span> já sabendo o que esperar. <em>Que seja você.</em></h2>
-        <p class="sub">Deixe seu nome na lista. Você recebe o convite antes de todo mundo, com a condição de fundador.</p>
+        <p class="sub">Deixe seu nome na lista. Você recebe o convite antes da abertura ao público, com os preços e as condições de lançamento.</p>
       </div>
       <form class="lista" id="form-lista" novalidate>
         <h3>Quero acesso antecipado</h3>
@@ -688,7 +695,19 @@ p { margin: 0; }
         </div>
         <label class="campo">Plano de interesse
           <select name="plano"><option value="plataforma">Banca Aberta</option><option value="professor" selected>Banca Aberta + Professor</option></select></label>
-        <label class="aceite"><input type="checkbox" name="aceite" required><span>Aceito receber e-mails da Banca Aberta sobre o lançamento. Posso sair da lista quando quiser. Se tiver menos de 18 anos, confirmo que meu responsável está ciente.</span></label>
+        <details class="aviso-lgpd">
+          <summary>Como usamos seus dados</summary>
+          <div>
+            <p class="rascunho">RASCUNHO PARA REVISÃO JURÍDICA</p>
+            <p><b>Quem trata:</b> Banca Aberta, <span class="a-definir">razão social e CNPJ a definir</span>.</p>
+            <p><b>Para quê:</b> só para avisar sobre o lançamento, enviar o convite e saber qual vestibular e qual plano interessam a quem se inscreveu. Não vendemos nem cedemos seus dados.</p>
+            <p><b>Base legal:</b> seu consentimento, que você pode retirar quando quiser.</p>
+            <p><b>Por quanto tempo:</b> até o lançamento e, no máximo, <span class="a-definir">12 meses</span>; depois, os dados são apagados se você não virar assinante.</p>
+            <p><b>Seus direitos:</b> pedir acesso, correção ou exclusão e sair da lista a qualquer momento, por um link em cada e-mail ou pelo contato <span class="a-definir">mvtonete@gmail.com (provisório)</span>.</p>
+            <p><b>Menores de idade:</b> de 12 a 17 anos, a inscrição deve ter a ciência do responsável. Menores de 12 anos não podem se inscrever sozinhos.</p>
+          </div>
+        </details>
+        <label class="aceite"><input type="checkbox" name="aceite" required><span>Concordo em receber e-mails da Banca Aberta sobre o lançamento, nos termos acima. Se tenho menos de 18 anos, meu responsável está ciente.</span></label>
         <button class="btn btn-primario btn-seta" type="submit">Entrar na lista de fundadores</button>
         <p class="retorno" id="retorno" hidden></p>
       </form>
@@ -702,8 +721,9 @@ p { margin: 0; }
       <a class="marca" href="#inicio"><i aria-hidden="true"></i>Banca Aberta</a>
       <div class="contatos"><a href="mailto:contato@bancaaberta.com.br">contato@bancaaberta.com.br</a><a href="https://www.instagram.com/bancaaberta/" rel="noopener">Instagram @bancaaberta</a></div>
     </div>
-    <p><strong style="color: var(--palco-tx2)">Ferramenta de estudo independente.</strong> A Banca Aberta não tem vínculo, parceria nem aprovação da FUVEST/USP, da Comvest/Unicamp, da UNESP ou da VUNESP. Esses nomes aparecem só para identificar a origem das questões, reproduzidas dos cadernos oficiais com a citação da fonte.</p>
-    <p>Resultados e notas na plataforma são estimativas para estudo, não previsão de resultado nem garantia de aprovação. <sup>1</sup> Números da trajetória do professor, informados por ele: <span class="a-definir">fonte a anexar</span>.</p>
+    <p><strong style="color: var(--palco-tx2)">Ferramenta de estudo independente.</strong> A Banca Aberta não tem vínculo, parceria nem aprovação da FUVEST/USP, da Comvest/Unicamp, da UNESP ou da VUNESP. Esses nomes, marcas de seus titulares, aparecem só para identificar a origem das questões, reproduzidas dos cadernos das provas com a citação da fonte.</p>
+    <p>Resultados e notas na plataforma são estimativas para estudo, não previsão de resultado nem garantia de aprovação. <sup>1</sup> Números da trajetória do professor ao longo da carreira, em diferentes escolas e no seu canal: <span class="a-definir">fonte e período a informar</span>. Os documentos que comprovam esses números ficam guardados pela Banca Aberta.</p>
+    <p><span class="a-definir">Razão social · CNPJ · endereço · e-mail de atendimento</span> (obrigatórios antes de começar a vender).</p>
     <p>Termos de Uso e Política de Privacidade em revisão jurídica.</p>
   </div>
 </footer>

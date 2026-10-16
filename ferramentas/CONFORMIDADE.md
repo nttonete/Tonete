@@ -65,3 +65,34 @@ Auditoria feita em 15/10/2026 e plano de adequação. Os textos legais são **RA
 - Manter ou tirar o modo "prova completa".
 - Uso de charges, tirinhas, pinturas e fotografias como recorte da prova (citação e autoria bastam?).
 - Foro, lei aplicável, e-mail oficial, encarregado (DPO), prazos de retenção.
+
+## Página de vendas (`site/`) · análise de 16/10/2026
+
+RASCUNHO PARA REVISÃO JURÍDICA. Avaliação feita antes de a página ir ao público; ela continua privada.
+
+### Ajustado na página
+
+| Risco | Base | O que mudou |
+|---|---|---|
+| Números do professor sem prova e atribuídos à plataforma ("levou 10 mil à aprovação") | CDC arts. 36 (par. único), 37 e 38; CONAR arts. 23 e 27 | Viraram "ex-alunos aprovados ao longo da carreira", com nota de rodapé pedindo fonte e período. A Banca Aberta precisa guardar os documentos que comprovam os números |
+| Telas e resultados (73%, 58%) podiam parecer resultado real de aluno | CDC art. 37 | Marcados como "exemplo" ou "dados de exemplo" |
+| "Oficial" sugerindo vínculo com as bancas (calendário oficial, cronômetro oficial, questões oficiais) | LPI art. 189/195; CDC art. 37 | Trocado por "datas divulgadas pelas bancas", "tempo de prova do edital", "questões das provas". O rodapé diz que os nomes são marcas dos titulares |
+| Escassez e "condição de fundador" sem definição ("acesso em ondas", "quem chega primeiro") | CDC arts. 30 e 37 | Retirado. A página promete só o que é verdade: o convite chega antes da abertura ao público e entrar na lista não obriga a comprar |
+| Garantia de 7 dias apresentada como vantagem | CDC art. 49 | Virou "Direito de arrependimento", citando o artigo |
+| Comparação com afirmação não comprovável ("Raramente") | CONAR art. 32 | "Depende da lista" e nota de que a comparação é com formas de estudo em geral, não com concorrentes |
+| Formulário sem informação de tratamento de dados | LGPD arts. 6, 8, 9 e 14 | Aviso em camadas (quem trata, finalidade, base legal, prazo, direitos, menores) e consentimento não pré-marcado. Nada é enviado até o backend existir |
+| Falta de identificação do fornecedor | Decreto 7.962/2013, art. 2º | Campo reservado no rodapé: razão social, CNPJ, endereço e e-mail, obrigatórios antes de vender |
+| "Guias conferidos toda semana" | CDC art. 37 | Corrigido para "duas vezes por semana", que é o que o robô faz |
+
+### Depende de pessoas (não se resolve no código)
+
+1. **Direito de imagem do professor** (CC art. 20): autorização escrita para usar nome, foto e voz na divulgação, com prazo, meios e possibilidade de edição da imagem.
+2. **Direito autoral da foto** (Lei 9.610, arts. 7º, VII, 24 e 29): a foto foi feita num evento da **Ycon**. É preciso licença do fotógrafo ou da Ycon para usar e para alterar a imagem (retiramos o logotipo da Ycon). Sem licença, trocar por fotos próprias.
+3. **Contratos do professor com outras escolas:** conferir cláusulas de exclusividade, não concorrência e uso de imagem antes de associá-lo à Banca Aberta.
+4. **Números do professor:** juntar a prova (lista de aprovados, painel do YouTube) e informar o período.
+5. **Título OBA/MOBFOG 2026:** usar o texto exato e o nome oficial da olimpíada; não usar logotipos das olimpíadas sem autorização.
+6. **Reprodução das questões das bancas:** a venda continua dependendo do parecer sobre as respostas da banca e a prova completa (decisão 1.b). A página não deve ir ao público antes disso.
+7. **Preços:** quando definidos, mostrar o preço total, a periodicidade e as regras de renovação e cancelamento (CDC art. 31; Decreto 7.962/2013).
+8. **Publicidade para adolescentes** (CONAR, seção 11, art. 37): o público tem menos de 18 anos. Manter o tom informativo, sem pressão por medo de reprovação e sem promessa de aprovação.
+9. **E-mail de contato:** `contato@bancaaberta.com.br` só funciona depois de configurar o Google Workspace. O aviso de privacidade usa o contato provisório `mvtonete@gmail.com`, que deve ser trocado antes de publicar.
+10. **Lista de espera:** antes de ligar o formulário, incluir link de descadastro nos e-mails, registrar a data e o texto do consentimento e fixar o prazo de guarda (hoje "12 meses", a confirmar).
