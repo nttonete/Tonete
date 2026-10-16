@@ -1,0 +1,793 @@
+<title>Banca Aberta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Treine com as questões oficiais da FUVEST, Unicamp e UNESP de 2017 a 2026, com resolução comentada, simulado no formato do edital 2027 e plano de estudos que se ajusta ao seu desempenho.">
+<style>
+@font-face { font-family: "Instrument Sans"; src: url("fontes/instrument-sans-latin-wght-normal.woff2") format("woff2"); font-weight: 400 700; font-display: swap; }
+@font-face { font-family: "Literata"; src: url("fontes/literata-latin-wght-normal.woff2") format("woff2"); font-weight: 200 900; font-display: swap; }
+@font-face { font-family: "Literata"; src: url("fontes/literata-latin-wght-italic.woff2") format("woff2"); font-weight: 200 900; font-style: italic; font-display: swap; }
+@font-face { font-family: "IBM Plex Mono"; src: url("fontes/ibm-plex-mono-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+
+:root {
+  --papel: #f4f3ef; --folha: #ffffff; --folha-2: #faf9f6;
+  --tinta: #14161b; --tinta-2: #4f545e; --tinta-3: #80858f;
+  --linha: #e2e0da; --linha-forte: #cfccc4;
+  --caneta: #2f5fe0; --caneta-tx: #ffffff; --caneta-fundo: #e9eefd;
+  --certo: #13704a; --errado: #c0352b;
+  --aviso-fundo: #fff2c9; --aviso-tx: #6b4a00;
+  /* o “palco”: seções escuras, iguais nos dois temas, como a foto do professor */
+  --palco: #0b0e14; --palco-2: #121722; --palco-3: #1a2030;
+  --palco-tx: #eef0f5; --palco-tx2: #a8afbc; --palco-tx3: #747c8b; --palco-linha: #242b3a;
+  --luz: #2f63f2; --luz-suave: rgba(47, 99, 242, .22);
+  --areia: #d8c6a4;
+  --sombra: 0 1px 2px rgba(20,22,27,.05), 0 18px 40px -12px rgba(20,22,27,.18);
+  --sombra-palco: 0 30px 80px -20px rgba(0,0,0,.65);
+  --f-ui: "Instrument Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --f-titulo: "Literata", Georgia, "Times New Roman", serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --largura: 1180px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papel: #0e1014; --folha: #161920; --folha-2: #1a1e26;
+    --tinta: #eceef2; --tinta-2: #a9afba; --tinta-3: #7c828d;
+    --linha: #262b34; --linha-forte: #363c48;
+    --caneta: #8fa8ff; --caneta-tx: #0b0e14; --caneta-fundo: #1b2544;
+    --certo: #4fc98a; --errado: #ff8a80;
+    --aviso-fundo: #3a2f10; --aviso-tx: #f3d27a;
+    --palco: #07090d; --palco-2: #0f131b; --palco-3: #161c28;
+    --sombra: 0 1px 2px rgba(0,0,0,.4), 0 18px 40px -12px rgba(0,0,0,.6);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papel: #0e1014; --folha: #161920; --folha-2: #1a1e26;
+  --tinta: #eceef2; --tinta-2: #a9afba; --tinta-3: #7c828d;
+  --linha: #262b34; --linha-forte: #363c48;
+  --caneta: #8fa8ff; --caneta-tx: #0b0e14; --caneta-fundo: #1b2544;
+  --certo: #4fc98a; --errado: #ff8a80;
+  --aviso-fundo: #3a2f10; --aviso-tx: #f3d27a;
+  --palco: #07090d; --palco-2: #0f131b; --palco-3: #161c28;
+  --sombra: 0 1px 2px rgba(0,0,0,.4), 0 18px 40px -12px rgba(0,0,0,.6);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--papel); color: var(--tinta); font-family: var(--f-ui); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+p { margin: 0; }
+.envolve { max-width: var(--largura); margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+.rubrica { font-family: var(--f-mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-3); }
+.palco .rubrica { color: var(--palco-tx3); }
+.a-definir { background: rgba(232, 176, 0, .13); border-bottom: 2px dashed #d9a400; padding: 0 .15em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+/* botões */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; font: 600 16px/1 var(--f-ui); text-decoration: none; border: 0; cursor: pointer; border-radius: 999px; padding: 17px 26px; transition: transform .15s ease, background .15s ease, box-shadow .15s ease; }
+.btn:active { transform: translateY(1px); }
+.btn-primario { background: var(--caneta); color: var(--caneta-tx); box-shadow: 0 10px 30px -10px rgba(47,95,224,.7); }
+.btn-primario:hover { filter: brightness(1.06); }
+.palco .btn-primario { background: #ffffff; color: #0b0e14; box-shadow: 0 10px 40px -10px rgba(47,99,242,.8); }
+.btn-seta::after { content: "→"; font-family: var(--f-ui); transition: transform .15s ease; }
+.btn-seta:hover::after { transform: translateX(3px); }
+.link-discreto { font-weight: 600; text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+.btn:focus-visible, .link-discreto:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--caneta); outline-offset: 3px; }
+
+/* faixa de contagem */
+.faixa { background: var(--palco); color: var(--palco-tx2); font-size: 13.5px; border-bottom: 1px solid var(--palco-linha); }
+.faixa .envolve { display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: center; justify-content: center; padding-block: 9px; }
+.faixa b { color: var(--palco-tx); font-weight: 600; font-variant-numeric: tabular-nums; }
+.faixa .ponto { width: 7px; height: 7px; border-radius: 50%; background: #ff6b5e; box-shadow: 0 0 0 4px rgba(255,107,94,.18); display: inline-block; margin-right: 8px; vertical-align: 1px; }
+
+/* topo */
+.topo { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--palco) 88%, transparent); backdrop-filter: saturate(140%) blur(10px); -webkit-backdrop-filter: saturate(140%) blur(10px); color: var(--palco-tx); border-bottom: 1px solid var(--palco-linha); }
+.topo .envolve { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 12px; }
+.marca { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 17px; letter-spacing: -.01em; text-decoration: none; }
+.marca i { width: 20px; height: 20px; border-radius: 50%; border: 2px solid currentColor; display: grid; place-items: center; }
+.marca i::after { content: ""; width: 10px; height: 10px; border-radius: 50%; background: currentColor; }
+.topo nav { display: flex; gap: 26px; font-size: 14.5px; color: var(--palco-tx2); }
+.topo nav a { text-decoration: none; }
+.topo nav a:hover { color: var(--palco-tx); }
+.topo .btn { padding: 11px 18px; font-size: 14.5px; }
+
+/* palco (seções escuras) */
+.palco { background: var(--palco); color: var(--palco-tx); position: relative; overflow: hidden; }
+
+/* herói */
+.heroi { padding-block: 64px 0; }
+.heroi::before { content: ""; position: absolute; inset: auto -10% -30% -10%; height: 70%; background: radial-gradient(60% 60% at 70% 100%, var(--luz-suave), transparent 70%); pointer-events: none; }
+.heroi-grade { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: 40px; align-items: end; position: relative; }
+.heroi-texto { padding-bottom: 72px; display: grid; gap: 26px; }
+.heroi h1 { font-family: var(--f-titulo); font-weight: 520; font-size: clamp(42px, 6vw, 80px); line-height: 1.02; letter-spacing: -.025em; }
+.heroi h1 em { font-style: italic; font-weight: 420; color: #b9c8ff; }
+.heroi .sub { font-size: clamp(17px, 1.6vw, 19.5px); color: var(--palco-tx2); max-width: 36em; }
+.heroi .sub strong { color: var(--palco-tx); font-weight: 600; }
+.acoes { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; }
+.acoes .nota { font-size: 13.5px; color: var(--palco-tx3); width: 100%; }
+
+.cena { position: relative; min-height: 600px; display: flex; justify-content: flex-end; align-items: flex-end; }
+.cena .foto { width: min(500px, 100%); aspect-ratio: 817 / 1212; object-fit: cover; -webkit-mask-image: radial-gradient(ellipse 60% 64% at 58% 52%, #000 50%, transparent 100%); mask-image: radial-gradient(ellipse 60% 64% at 58% 52%, #000 50%, transparent 100%); }
+.celular { position: absolute; left: 0; bottom: 56px; width: 236px; border-radius: 36px; background: #05070a; padding: 9px; box-shadow: var(--sombra-palco), 0 0 0 1px #2a3142 inset; transform: rotate(-4deg); }
+.celular img { border-radius: 28px; width: 100%; aspect-ratio: 640 / 1385; object-fit: cover; object-position: top; }
+.ficha { position: absolute; right: 8px; bottom: 120px; background: rgba(18,23,34,.86); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid var(--palco-linha); border-radius: 16px; padding: 14px 16px; display: grid; gap: 4px; box-shadow: var(--sombra-palco); min-width: 190px; }
+.ficha .num { font-family: var(--f-ui); font-weight: 700; font-size: 34px; letter-spacing: -.03em; line-height: 1; }
+.ficha .num small { font-size: 18px; color: var(--palco-tx2); }
+.ficha .bolhas { display: flex; gap: 4px; margin-top: 4px; }
+.ficha .bolhas span { width: 9px; height: 9px; border-radius: 50%; background: #9db5ff; }
+.ficha .bolhas span.e { background: transparent; box-shadow: 0 0 0 1.5px #ffa49c inset; }
+.ficha .leg { font-size: 12px; color: var(--palco-tx3); }
+
+.provas { border-top: 1px solid var(--palco-linha); position: relative; background: var(--palco); }
+.provas .envolve { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.prova { padding: 26px 22px 28px 0; display: grid; gap: 4px; }
+.prova + .prova { padding-left: 22px; border-left: 1px solid var(--palco-linha); }
+.prova b { font-family: var(--f-titulo); font-weight: 520; font-size: clamp(30px, 3.4vw, 44px); letter-spacing: -.02em; line-height: 1.05; }
+.prova span { color: var(--palco-tx2); font-size: 14.5px; }
+.prova sup { font-size: .5em; color: var(--palco-tx3); }
+
+/* seções claras */
+.secao { padding-block: clamp(72px, 10vw, 128px); }
+.cab { display: grid; gap: 18px; max-width: 46rem; margin-bottom: clamp(40px, 6vw, 64px); }
+.cab h2 { font-family: var(--f-titulo); font-weight: 520; font-size: clamp(32px, 4.4vw, 56px); line-height: 1.06; letter-spacing: -.02em; }
+.cab h2 em { font-style: italic; font-weight: 420; }
+.cab p { font-size: 18.5px; color: var(--tinta-2); max-width: 40em; }
+
+/* o problema: três formatos */
+.formatos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--tinta); }
+.formato { padding: 26px 26px 6px 0; display: grid; gap: 10px; align-content: start; }
+.formato + .formato { padding-left: 26px; border-left: 1px solid var(--linha); }
+.formato .banca { font-family: var(--f-mono); font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--tinta-3); }
+.formato .grande { font-family: var(--f-titulo); font-weight: 480; font-size: clamp(64px, 8vw, 104px); line-height: .9; letter-spacing: -.04em; }
+.formato .grande small { font-family: var(--f-ui); font-size: 15px; letter-spacing: 0; font-weight: 600; color: var(--tinta-2); margin-left: 6px; }
+.formato p { color: var(--tinta-2); font-size: 15.5px; }
+.formato .novo { display: inline-block; font-size: 12px; font-weight: 600; color: var(--caneta); background: var(--caneta-fundo); border-radius: 999px; padding: 3px 9px; margin-left: 6px; vertical-align: 3px; }
+.virada { margin-top: clamp(48px, 7vw, 80px); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.virada blockquote { margin: 0; font-family: var(--f-titulo); font-size: clamp(24px, 2.6vw, 32px); line-height: 1.25; letter-spacing: -.01em; font-weight: 450; }
+.virada blockquote em { font-style: italic; color: var(--caneta); }
+.virada p { color: var(--tinta-2); font-size: 17px; }
+.virada p + p { margin-top: 14px; }
+
+/* como funciona */
+.passo { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 72px); align-items: center; padding-block: clamp(36px, 5vw, 56px); border-top: 1px solid var(--linha); }
+.passo:nth-of-type(even) .passo-texto { order: 2; }
+.passo-texto { display: grid; gap: 16px; }
+.passo .n { font-family: var(--f-mono); font-size: 13px; color: var(--caneta); letter-spacing: .08em; }
+.passo h3 { font-family: var(--f-titulo); font-weight: 520; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.08; letter-spacing: -.02em; }
+.passo p { color: var(--tinta-2); }
+.passo ul { margin: 6px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; font-size: 15.5px; }
+.passo li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 10px; }
+.passo li::before { content: ""; width: 14px; height: 14px; margin-top: 4px; border-radius: 50%; border: 1.5px solid var(--caneta); background: radial-gradient(circle, var(--caneta) 0 3px, transparent 3.5px); }
+.tela { margin: 0; display: grid; gap: 10px; }
+.tela .moldura { border-radius: 14px; overflow: hidden; background: var(--folha); box-shadow: var(--sombra); border: 1px solid var(--linha); }
+.tela .moldura img { width: 100%; height: auto; }
+.tela figcaption { font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-3); display: flex; gap: 8px; align-items: center; }
+.tela figcaption::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--certo); }
+.tela.recorte .moldura { max-height: 620px; position: relative; }
+.tela.recorte .moldura::after { content: ""; position: absolute; inset: auto 0 0 0; height: 90px; background: linear-gradient(transparent, var(--folha)); }
+.dupla { display: grid; gap: 18px; }
+.dupla .tela:last-child { margin-left: 12%; margin-top: -18%; position: relative; }
+
+/* professor */
+.prof { padding-block: clamp(72px, 10vw, 128px); }
+.prof::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 60%; background: radial-gradient(50% 70% at 25% 0%, rgba(47,99,242,.18), transparent 70%); pointer-events: none; }
+.prof-grade { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(32px, 6vw, 88px); align-items: center; position: relative; }
+.prof-foto { position: relative; }
+.prof-foto img { width: 100%; aspect-ratio: 680 / 910; object-fit: cover; border-radius: 4px; -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent); mask-image: linear-gradient(to bottom, #000 80%, transparent); }
+.prof-foto .legenda { position: absolute; left: 0; bottom: 22px; font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--palco-tx3); }
+.prof-texto { display: grid; gap: 24px; }
+.prof-texto h2 { font-family: var(--f-titulo); font-weight: 520; font-size: clamp(38px, 5vw, 64px); line-height: 1.02; letter-spacing: -.025em; }
+.prof-texto .bio { font-size: 18.5px; color: var(--palco-tx2); max-width: 34em; }
+.prof-texto .bio strong { color: var(--palco-tx); font-weight: 600; }
+.credenciais { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--palco-linha); border-bottom: 1px solid var(--palco-linha); }
+.credencial { padding: 20px 18px 20px 0; display: grid; gap: 4px; align-content: start; }
+.credencial + .credencial { padding-left: 18px; border-left: 1px solid var(--palco-linha); }
+.credencial b { font-family: var(--f-titulo); font-weight: 500; font-size: clamp(30px, 3.4vw, 46px); line-height: 1; letter-spacing: -.03em; color: var(--areia); }
+.credencial span { font-size: 14px; color: var(--palco-tx2); }
+.prof-papel { display: grid; gap: 12px; }
+.prof-papel h3 { font-size: 15px; font-weight: 600; color: var(--palco-tx); }
+.prof-papel ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; counter-reset: p; }
+.prof-papel li { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 12px; color: var(--palco-tx2); font-size: 16px; counter-increment: p; }
+.prof-papel li::before { content: counter(p, decimal-leading-zero); font-family: var(--f-mono); font-size: 12.5px; color: var(--areia); padding-top: 3px; }
+.prof-papel li b { color: var(--palco-tx); font-weight: 600; }
+
+/* inventário */
+.inventario { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--tinta); }
+.item { padding: 26px 24px 30px 0; border-bottom: 1px solid var(--linha); display: grid; gap: 8px; align-content: start; }
+.item:not(:nth-child(3n+1)) { padding-left: 24px; border-left: 1px solid var(--linha); }
+.item .qtd { font-family: var(--f-titulo); font-size: 40px; font-weight: 480; letter-spacing: -.03em; line-height: 1; }
+.item h3 { font-size: 17px; font-weight: 600; letter-spacing: -.005em; }
+.item p { color: var(--tinta-2); font-size: 15px; }
+
+/* comparação */
+.comparar-caixa { overflow-x: auto; border: 1px solid var(--linha); border-radius: 16px; background: var(--folha); }
+.comparar { width: 100%; border-collapse: collapse; min-width: 640px; font-size: 15.5px; }
+.comparar th, .comparar td { padding: 16px 18px; text-align: left; border-bottom: 1px solid var(--linha); vertical-align: middle; }
+.comparar thead th { font-size: 13px; font-weight: 600; color: var(--tinta-2); background: var(--folha-2); }
+.comparar thead th.nos { color: var(--caneta); }
+.comparar td.nos { background: color-mix(in srgb, var(--caneta-fundo) 60%, transparent); font-weight: 600; }
+.comparar tr:last-child td { border-bottom: 0; }
+.sim, .nao, .parte { display: inline-flex; align-items: center; gap: 8px; font-size: 14.5px; }
+.sim::before, .nao::before, .parte::before { content: ""; width: 16px; height: 16px; border-radius: 50%; flex: none; }
+.sim::before { background: var(--certo) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 8.3l2.3 2.2 4.7-5' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat; }
+.nao::before { box-shadow: 0 0 0 1.5px var(--tinta-3) inset; background: linear-gradient(var(--tinta-3), var(--tinta-3)) center/8px 1.5px no-repeat; }
+.parte::before { box-shadow: 0 0 0 1.5px var(--tinta-3) inset; background: linear-gradient(90deg, var(--tinta-3) 50%, transparent 50%); }
+.nao, .parte { color: var(--tinta-2); }
+
+/* calendário */
+.datas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.data { background: var(--folha); border: 1px solid var(--linha); border-radius: 18px; padding: 22px; display: grid; gap: 14px; align-content: start; }
+.data .topo-data { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.data .vest { font-weight: 700; font-size: 18px; }
+.data .quando { font-family: var(--f-mono); font-size: 12px; color: var(--tinta-3); letter-spacing: .04em; }
+.data .falta { font-family: var(--f-titulo); font-size: 56px; line-height: .95; letter-spacing: -.04em; font-weight: 480; font-variant-numeric: tabular-nums; }
+.data .falta small { font-family: var(--f-ui); font-size: 15px; letter-spacing: 0; color: var(--tinta-2); font-weight: 500; margin-left: 6px; }
+.data .falta.hoje { color: var(--errado); }
+.data ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 14px; color: var(--tinta-2); border-top: 1px solid var(--linha); padding-top: 12px; }
+.data li { display: flex; justify-content: space-between; gap: 10px; }
+.data li span:last-child { font-variant-numeric: tabular-nums; color: var(--tinta); }
+.data.passou { opacity: .55; }
+.recado { margin-top: 26px; font-size: 17px; color: var(--tinta-2); max-width: 46em; }
+.recado strong { color: var(--tinta); }
+
+/* oferta */
+.planos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: stretch; }
+.plano { background: var(--folha); border: 1px solid var(--linha); border-radius: 22px; padding: clamp(24px, 3vw, 36px); display: grid; gap: 20px; align-content: start; position: relative; }
+.plano.destaque { background: var(--palco); color: var(--palco-tx); border-color: var(--palco); box-shadow: var(--sombra-palco); }
+.plano .selo { position: absolute; top: -12px; left: 28px; background: var(--areia); color: #241c0c; font-size: 12px; font-weight: 700; letter-spacing: .04em; padding: 5px 11px; border-radius: 999px; }
+.plano h3 { font-size: 22px; font-weight: 700; letter-spacing: -.01em; }
+.plano .desc { color: var(--tinta-2); font-size: 15.5px; }
+.plano.destaque .desc { color: var(--palco-tx2); }
+.preco { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.preco b { font-family: var(--f-titulo); font-size: 48px; font-weight: 500; letter-spacing: -.03em; line-height: 1; }
+.preco span { color: var(--tinta-3); font-size: 14.5px; }
+.plano.destaque .preco span { color: var(--palco-tx3); }
+.plano ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; font-size: 15.5px; }
+.plano li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 10px; }
+.plano li::before { content: ""; width: 16px; height: 16px; margin-top: 3px; border-radius: 50%; background: var(--certo) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 8.3l2.3 2.2 4.7-5' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat; }
+.plano.destaque li::before { background-color: #2f63f2; }
+.plano .btn { width: 100%; }
+.plano.destaque .btn-primario { background: #ffffff; color: #0b0e14; }
+.garantia { margin-top: 22px; display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 18px; align-items: center; background: var(--folha); border: 1px solid var(--linha); border-radius: 18px; padding: 20px 22px; }
+.garantia .sete { width: 56px; height: 56px; border-radius: 50%; border: 1.5px solid var(--tinta); display: grid; place-items: center; font-family: var(--f-titulo); font-size: 26px; font-weight: 520; }
+.garantia p { color: var(--tinta-2); font-size: 15.5px; }
+.garantia strong { color: var(--tinta); }
+
+/* perguntas */
+.perguntas { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 72px); }
+.perguntas .cab { margin-bottom: 0; align-self: start; position: sticky; top: 96px; }
+.faq { border-top: 1px solid var(--tinta); }
+.faq details { border-bottom: 1px solid var(--linha); }
+.faq summary { list-style: none; cursor: pointer; padding: 22px 40px 22px 0; font-size: 18px; font-weight: 600; position: relative; letter-spacing: -.005em; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: ""; position: absolute; right: 6px; top: 50%; width: 12px; height: 12px; margin-top: -8px; border-right: 1.75px solid var(--tinta-2); border-bottom: 1.75px solid var(--tinta-2); transform: rotate(45deg); transition: transform .2s ease; }
+.faq details[open] summary::after { transform: rotate(-135deg); margin-top: -2px; }
+.faq .resp { padding: 0 0 24px; color: var(--tinta-2); display: grid; gap: 10px; max-width: 40em; }
+
+/* chamada final */
+.final { padding-block: clamp(80px, 11vw, 140px); }
+.final::before { content: ""; position: absolute; inset: auto -20% -40% -20%; height: 80%; background: radial-gradient(50% 60% at 50% 100%, var(--luz-suave), transparent 70%); pointer-events: none; }
+.final-grade { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 6vw, 80px); align-items: center; position: relative; }
+.final h2 { font-family: var(--f-titulo); font-weight: 520; font-size: clamp(36px, 5vw, 64px); line-height: 1.04; letter-spacing: -.025em; }
+.final h2 em { font-style: italic; font-weight: 420; color: #b9c8ff; }
+.final .sub { margin-top: 22px; color: var(--palco-tx2); font-size: 18px; max-width: 32em; }
+.lista { background: var(--palco-2); border: 1px solid var(--palco-linha); border-radius: 22px; padding: clamp(22px, 3vw, 32px); display: grid; gap: 16px; box-shadow: var(--sombra-palco); }
+.lista h3 { font-size: 20px; font-weight: 700; }
+.lista .linha2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.campo { display: grid; gap: 6px; font-size: 13.5px; color: var(--palco-tx2); }
+.campo input, .campo select { font: 16px var(--f-ui); color: var(--palco-tx); background: var(--palco-3); border: 1px solid var(--palco-linha); border-radius: 12px; padding: 13px 14px; width: 100%; min-width: 0; color-scheme: dark; }
+.campo input::placeholder { color: var(--palco-tx3); }
+.aceite { display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 10px; font-size: 13px; color: var(--palco-tx2); align-items: start; }
+.aceite input { width: 18px; height: 18px; margin: 1px 0 0; accent-color: #2f63f2; }
+.lista .btn { width: 100%; }
+.retorno { font-size: 14px; border-radius: 12px; padding: 12px 14px; background: var(--palco-3); color: var(--palco-tx2); border: 1px dashed var(--palco-linha); }
+.retorno strong { color: var(--palco-tx); }
+
+/* rodapé */
+.rodape { background: var(--palco); color: var(--palco-tx3); font-size: 13.5px; border-top: 1px solid var(--palco-linha); }
+.rodape .envolve { padding-block: 44px 56px; display: grid; gap: 24px; }
+.rodape .linha-topo { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; color: var(--palco-tx2); }
+.rodape .contatos { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+.rodape p { max-width: 70em; }
+.rodape a { color: var(--palco-tx2); }
+
+/* barra fixa no celular */
+.barra-cel { display: none; }
+
+/* entrada suave das seções */
+@media (prefers-reduced-motion: no-preference) {
+  .surge { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+  .surge.visivel { opacity: 1; transform: none; }
+}
+
+@media (max-width: 980px) {
+  .topo nav { display: none; }
+  .heroi-grade { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .heroi-texto { padding-bottom: 8px; }
+  .cena { min-height: 0; justify-content: center; }
+  .cena .foto { width: min(420px, 82%); margin-left: auto; }
+  .celular { width: 190px; bottom: 40px; left: 2%; }
+  .ficha { right: 0; bottom: 70px; }
+  .provas .envolve { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .prova:nth-child(3) { padding-left: 0; border-left: 0; }
+  .prova:nth-child(n+3) { border-top: 1px solid var(--palco-linha); }
+  .formatos { grid-template-columns: minmax(0, 1fr); }
+  .formato + .formato { padding-left: 0; border-left: 0; border-top: 1px solid var(--linha); }
+  .formato { padding-bottom: 24px; }
+  .virada { grid-template-columns: minmax(0, 1fr); }
+  .passo { grid-template-columns: minmax(0, 1fr); }
+  .passo:nth-of-type(even) .passo-texto { order: 0; }
+  .prof-grade { grid-template-columns: minmax(0, 1fr); }
+  .prof-foto { max-width: 440px; }
+  .inventario { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .item:not(:nth-child(3n+1)) { padding-left: 0; border-left: 0; }
+  .item:nth-child(even) { padding-left: 22px; border-left: 1px solid var(--linha); }
+  .datas { grid-template-columns: minmax(0, 1fr); }
+  .planos { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .perguntas { grid-template-columns: minmax(0, 1fr); }
+  .perguntas .cab { position: static; }
+  .final-grade { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 620px) {
+  body { font-size: 16.5px; }
+  .heroi { padding-top: 40px; }
+  .acoes .btn { width: 100%; }
+  .celular { width: 150px; border-radius: 26px; padding: 6px; bottom: 30px; }
+  .celular img { border-radius: 21px; }
+  .ficha { min-width: 0; padding: 10px 12px; bottom: 54px; }
+  .ficha .num { font-size: 26px; }
+  .credenciais { grid-template-columns: minmax(0, 1fr); }
+  .credencial + .credencial { padding-left: 0; border-left: 0; border-top: 1px solid var(--palco-linha); }
+  .inventario { grid-template-columns: minmax(0, 1fr); }
+  .item:nth-child(even) { padding-left: 0; border-left: 0; }
+  .dupla .tela:last-child { margin: 0; }
+  .lista .linha2 { grid-template-columns: minmax(0, 1fr); }
+  .topo .btn { display: none; }
+  .barra-cel { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; padding: 10px max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); background: color-mix(in srgb, var(--palco) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--palco-linha); gap: 12px; align-items: center; justify-content: space-between; color: var(--palco-tx2); font-size: 13px; transform: translateY(110%); transition: transform .25s ease; }
+  .barra-cel.mostra { transform: none; }
+  .barra-cel .btn { padding: 12px 18px; font-size: 14.5px; }
+  .rodape .envolve { padding-bottom: 110px; }
+}
+</style>
+
+<div class="faixa" role="note">
+  <div class="envolve" id="faixa-datas"><span><span class="ponto" aria-hidden="true"></span>Calendário 2027</span></div>
+</div>
+
+<header class="topo">
+  <div class="envolve">
+    <a class="marca" href="#inicio" aria-label="Banca Aberta, início"><i aria-hidden="true"></i>Banca Aberta</a>
+    <nav aria-label="Seções">
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#professor">O professor</a>
+      <a href="#o-que-voce-leva">O que você leva</a>
+      <a href="#planos">Planos</a>
+      <a href="#perguntas">Perguntas</a>
+    </nav>
+    <a class="btn btn-primario" href="#lista">Garantir acesso</a>
+  </div>
+</header>
+
+<main id="inicio">
+  <!-- HERÓI -->
+  <section class="palco heroi" aria-labelledby="titulo">
+    <div class="envolve heroi-grade">
+      <div class="heroi-texto">
+        <span class="rubrica">FUVEST · Unicamp · UNESP — provas de 2017 a 2026</span>
+        <h1 id="titulo">Conheça a banca <em>antes</em> que ela conheça você.</h1>
+        <p class="sub">Treine com as <strong>3.232 questões oficiais</strong> dos últimos dez vestibulares, entenda cada erro com resolução comentada e siga um plano que se ajusta ao seu desempenho até o dia da prova. Com a curadoria de um professor que já levou <strong>mais de 10 mil alunos à aprovação</strong>.</p>
+        <div class="acoes">
+          <a class="btn btn-primario btn-seta" href="#lista">Quero acesso de fundador</a>
+          <a class="link-discreto" href="#como-funciona">Ver a plataforma por dentro</a>
+          <p class="nota">Entrar na lista não custa nada. O acesso abre em ondas, e quem chega primeiro entra primeiro.</p>
+        </div>
+      </div>
+      <div class="cena">
+        <img class="foto" src="img/prof-palco.webp" width="817" height="1212" alt="O professor sorrindo no palco, de blazer claro e camiseta preta, com um passador de slides na mão." fetchpriority="high">
+        <div class="celular" aria-hidden="true"><img src="img/tela-questao.webp" width="640" height="1385" alt=""></div>
+        <div class="ficha" aria-label="Exemplo de resultado de um simulado na plataforma: 73% de aproveitamento, 11 de 15 questões.">
+          <span class="rubrica" style="color: var(--palco-tx3)">Simulado FUVEST</span>
+          <span class="num">73<small>%</small></span>
+          <span class="bolhas" aria-hidden="true"><span></span><span></span><span class="e"></span><span></span><span></span><span></span><span class="e"></span><span></span><span></span><span class="e"></span><span></span><span></span><span></span><span class="e"></span><span></span></span>
+          <span class="leg">11 de 15 · 41min 43s</span>
+        </div>
+      </div>
+    </div>
+    <div class="provas">
+      <div class="envolve">
+        <div class="prova"><b>10.000<sup>+</sup></b><span>alunos aprovados com o professor<sup>1</sup></span></div>
+        <div class="prova"><b>6 mi<sup>+</sup></b><span>visualizações das aulas no YouTube<sup>1</sup></span></div>
+        <div class="prova"><b>3.232</b><span>questões oficiais, 2017 a 2026</span></div>
+        <div class="prova"><b>2.581</b><span>resoluções comentadas, uma por questão</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="secao" aria-labelledby="t-problema">
+    <div class="envolve">
+      <div class="cab surge">
+        <span class="rubrica">Por que tanta gente boa trava na prova</span>
+        <h2 id="t-problema">O vestibular não mede só o que você sabe. Mede se você <em>conhece a banca</em>.</h2>
+      </div>
+      <div class="formatos surge">
+        <div class="formato">
+          <span class="banca">FUVEST · 1ª fase</span>
+          <span class="grande">80<small>questões</small></span>
+          <p>Cinco alternativas, cinco horas. <span class="novo">Novo em 2027</span> Até o ano passado eram 90: o ritmo mudou, e o seu treino precisa mudar junto.</p>
+        </div>
+        <div class="formato">
+          <span class="banca">Unicamp · 1ª fase</span>
+          <span class="grande">72<small>questões</small></span>
+          <p>Quatro alternativas, cotas fixas por matéria e questões que cruzam disciplinas. Doze de Português, doze de Matemática, sete de cada ciência.</p>
+        </div>
+        <div class="formato">
+          <span class="banca">UNESP · 1ª fase</span>
+          <span class="grande">90<small>questões</small></span>
+          <p>Conhecimentos gerais em cinco horas. Na 2ª fase, 36 questões discursivas e redação em dois dias.</p>
+        </div>
+      </div>
+      <div class="virada surge">
+        <blockquote>Apostila genérica ensina conteúdo. A aprovação vem de treinar <em>no formato, no tempo e no estilo</em> de quem vai corrigir a sua prova.</blockquote>
+        <div>
+          <p>Cada banca tem um jeito de perguntar, de distribuir as matérias e de cobrar tempo. Quem descobre isso só no dia da prova perde pontos que sabia fazer.</p>
+          <p>A Banca Aberta junta dez anos de provas das três universidades paulistas num só lugar e transforma cada resposta sua em informação: o que você já domina, o que ainda derruba sua nota e o que estudar amanhã.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="secao" id="como-funciona" aria-labelledby="t-como" style="padding-top: 0">
+    <div class="envolve">
+      <div class="cab surge">
+        <span class="rubrica">Como funciona · telas reais da plataforma</span>
+        <h2 id="t-como">Treinar, entender o erro, saber o que fazer amanhã.</h2>
+        <p>Nada de vídeo infinito nem lista solta. Quatro movimentos, repetidos até o dia da prova.</p>
+      </div>
+
+      <article class="passo surge">
+        <div class="passo-texto">
+          <span class="n">01 — Treine</span>
+          <h3>A prova de verdade, no tempo de verdade.</h3>
+          <p>Simulados sorteados no formato do edital de 2027, provas completas e treino por matéria, sempre com o cronômetro oficial correndo. A resposta só aparece quando você entrega, como no dia.</p>
+          <ul>
+            <li>Questões da FUVEST, Unicamp e UNESP de 2017 a 2026, com a fonte de cada uma</li>
+            <li>Gabarito sempre o oficial da banca, na versão do caderno</li>
+            <li>Cartão-resposta com acertos e erros num relance</li>
+          </ul>
+        </div>
+        <figure class="tela">
+          <div class="moldura"><img src="img/tela-resultado.webp" width="1600" height="875" alt="Tela de resultado de um simulado FUVEST de 15 questões: 73% de aproveitamento, 11 acertos, cartão-resposta e acerto por matéria." loading="lazy"></div>
+          <figcaption>Resultado de um simulado FUVEST</figcaption>
+        </figure>
+      </article>
+
+      <article class="passo surge">
+        <div class="passo-texto">
+          <span class="n">02 — Entenda</span>
+          <h3>Cada erro vira aula, não frustração.</h3>
+          <p>As 2.581 questões objetivas têm resolução comentada que explica o raciocínio e chega à letra do gabarito oficial. Nas discursivas, você compara a sua resposta com a resposta esperada publicada pela própria banca.</p>
+          <ul>
+            <li>Sua resposta e a correta lado a lado</li>
+            <li>Resolução com fórmulas e figuras, do jeito que se resolve no papel</li>
+            <li>651 questões discursivas com a resposta oficial da FUVEST e da Unicamp</li>
+          </ul>
+        </div>
+        <figure class="tela recorte">
+          <div class="moldura"><img src="img/tela-correcao.webp" width="1000" height="1995" alt="Correção de uma questão de geometria da FUVEST 2018: a alternativa marcada errada, a correta destacada e a resolução comentada aberta." loading="lazy"></div>
+          <figcaption>Correção com resolução comentada</figcaption>
+        </figure>
+      </article>
+
+      <article class="passo surge">
+        <div class="passo-texto">
+          <span class="n">03 — Meça</span>
+          <h3>Você enxerga onde está perdendo pontos.</h3>
+          <p>Cada treino alimenta o seu desempenho: evolução, acerto por matéria, mapa de assuntos por vestibular e a lista do que mais derruba a sua nota. As questões que você errou voltam para revisão na hora certa.</p>
+          <ul>
+            <li>“Onde focar”: os assuntos de menor acerto, com um botão para treinar</li>
+            <li>Comparação com a sua própria média, treino a treino</li>
+            <li>Caderno de erros com revisão em 1, 3, 7 e 21 dias</li>
+          </ul>
+        </div>
+        <figure class="tela">
+          <div class="moldura"><img src="img/tela-desempenho.webp" width="1600" height="1475" alt="Tela de desempenho: 58% de aproveitamento, últimos 12 treinos, gráfico de evolução e acerto por matéria." loading="lazy"></div>
+          <figcaption>Desempenho do aluno</figcaption>
+        </figure>
+      </article>
+
+      <article class="passo surge">
+        <div class="passo-texto">
+          <span class="n">04 — Siga o plano</span>
+          <h3>Um plano que muda quando você muda.</h3>
+          <p>Diga para qual vestibular, quantas horas tem e em que dias estuda. O plano monta cada dia até a prova e se refaz conforme o seu acerto: matéria que melhora sai do foco, assunto que derruba sua nota volta.</p>
+          <ul>
+            <li>Contagem regressiva para cada fase, com o calendário oficial</li>
+            <li>Simulado semanal no mesmo horário da prova de verdade</li>
+            <li>Leituras obrigatórias e redação distribuídas na semana</li>
+          </ul>
+        </div>
+        <figure class="tela">
+          <div class="moldura"><img src="img/tela-plano.webp" width="1600" height="1400" alt="Tela do plano de estudos: faltam 16 dias para a FUVEST, tarefas de hoje e dos próximos 7 dias e calendário até a prova." loading="lazy"></div>
+          <figcaption>Plano de estudos</figcaption>
+        </figure>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROFESSOR -->
+  <section class="palco prof" id="professor" aria-labelledby="t-prof">
+    <div class="envolve prof-grade">
+      <div class="prof-foto surge">
+        <img src="img/prof-pb.webp" width="680" height="910" alt="Retrato em preto e branco do professor no palco, sorrindo, de blazer claro." loading="lazy">
+      </div>
+      <div class="prof-texto surge">
+        <span class="rubrica">Quem está com você</span>
+        <h2 id="t-prof"><span class="a-definir">Nome do professor</span></h2>
+        <p class="bio">Professor de <span class="a-definir">matéria</span> com <strong>mais de 10 mil alunos aprovados</strong> em vestibulares e <strong>mais de 6 milhões de visualizações</strong> no YouTube. <span class="a-definir">Título na OBA/MOBFOG 2026: confirmar o texto exato</span>.</p>
+        <div class="credenciais">
+          <div class="credencial"><b>10 mil+</b><span>alunos aprovados</span></div>
+          <div class="credencial"><b>6 mi+</b><span>visualizações no YouTube</span></div>
+          <div class="credencial"><b>2026</b><span class="a-definir">título OBA/MOBFOG</span></div>
+        </div>
+        <div class="prof-papel">
+          <h3>O que ele traz para a Banca Aberta</h3>
+          <ol>
+            <li><span><b>Curadoria de quem está na sala de aula.</b> O que treinar, em que ordem e como revisar vem da experiência com milhares de alunos, não de um algoritmo sozinho.</span></li>
+            <li><span><b>Aulas que completam o treino.</b> <span class="a-definir">Descrever o curso ou as aulas do professor que entram no plano completo</span>.</span></li>
+            <li><span><b>Um rosto por trás da plataforma.</b> Conteúdo no YouTube e nas redes para você conhecer o jeito dele ensinar antes de assinar.</span></li>
+          </ol>
+        </div>
+        <div class="acoes">
+          <a class="link-discreto" href="#" data-canal>Assistir às aulas no YouTube ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVENTÁRIO -->
+  <section class="secao" id="o-que-voce-leva" aria-labelledby="t-inv">
+    <div class="envolve">
+      <div class="cab surge">
+        <span class="rubrica">O que você leva</span>
+        <h2 id="t-inv">Tudo o que a banca já cobrou, organizado para você.</h2>
+        <p>Números de hoje. O banco cresce a cada vestibular: as provas de 2027 entram assim que as bancas publicarem os cadernos e gabaritos.</p>
+      </div>
+      <div class="inventario surge">
+        <div class="item"><span class="qtd">2.581</span><h3>Questões objetivas</h3><p>FUVEST, Unicamp e UNESP, 2017 a 2026. Todas com resolução comentada e assunto.</p></div>
+        <div class="item"><span class="qtd">651</span><h3>Questões discursivas</h3><p>45 cadernos da 2ª fase com a resposta esperada publicada pela banca: FUVEST 2023–2026 e Unicamp 2017–2026.</p></div>
+        <div class="item"><span class="qtd">3</span><h3>Simulados no formato 2027</h3><p>80 questões da FUVEST, 72 da Unicamp com as cotas por matéria e 90 da UNESP, com cronômetro oficial.</p></div>
+        <div class="item"><span class="qtd">12</span><h3>Matérias no seu mapa</h3><p>Desempenho por matéria e por assunto, evolução treino a treino e a lista do que mais derruba a sua nota.</p></div>
+        <div class="item"><span class="qtd">1</span><h3>Plano até a prova</h3><p>Tarefas por dia, simulado semanal no horário real e a 2ª fase incluída. Ajusta sozinho ao seu acerto.</p></div>
+        <div class="item"><span class="qtd">4</span><h3>Revisões de cada erro</h3><p>A questão errada volta depois de 1, 3, 7 e 21 dias, até você acertar três vezes seguidas.</p></div>
+        <div class="item"><span class="qtd">18</span><h3>Obras obrigatórias</h3><p>Guias de leitura da FUVEST e da Unicamp 2027, ligados às questões que já caíram sobre cada obra.</p></div>
+        <div class="item"><span class="qtd">32</span><h3>Propostas de redação</h3><p>Temas dos últimos anos das três bancas, com o que cada proposta pede, para treinar o texto.</p></div>
+        <div class="item"><span class="qtd">3</span><h3>Guias do dia da prova</h3><p>Horários, o que levar e o que é proibido, tirados só dos manuais oficiais e conferidos toda semana.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARAÇÃO -->
+  <section class="secao" aria-labelledby="t-comp" style="padding-top: 0">
+    <div class="envolve">
+      <div class="cab surge">
+        <span class="rubrica">Comparação honesta</span>
+        <h2 id="t-comp">Provas antigas em PDF você acha de graça. O que falta é o resto.</h2>
+      </div>
+      <div class="comparar-caixa surge" role="region" aria-label="Tabela de comparação" tabindex="0">
+        <table class="comparar">
+          <thead><tr><th scope="col">O que você precisa</th><th scope="col" class="nos">Banca Aberta</th><th scope="col">PDF de provas antigas</th><th scope="col">Lista de exercícios</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Questões oficiais das três bancas</th><td class="nos"><span class="sim">10 anos, organizadas</span></td><td><span class="parte">As que você baixar</span></td><td><span class="nao">Raramente</span></td></tr>
+            <tr><th scope="row">Resolução comentada de cada questão</th><td class="nos"><span class="sim">Todas</span></td><td><span class="nao">Não</span></td><td><span class="parte">Às vezes</span></td></tr>
+            <tr><th scope="row">Simulado no formato e no tempo de 2027</th><td class="nos"><span class="sim">Sim</span></td><td><span class="nao">Não</span></td><td><span class="nao">Não</span></td></tr>
+            <tr><th scope="row">Desempenho por matéria e assunto</th><td class="nos"><span class="sim">Automático</span></td><td><span class="nao">Na planilha</span></td><td><span class="nao">Não</span></td></tr>
+            <tr><th scope="row">Plano diário até a prova</th><td class="nos"><span class="sim">Ajusta sozinho</span></td><td><span class="nao">Não</span></td><td><span class="nao">Não</span></td></tr>
+            <tr><th scope="row">Erros voltam para revisão</th><td class="nos"><span class="sim">1, 3, 7 e 21 dias</span></td><td><span class="nao">Não</span></td><td><span class="nao">Não</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALENDÁRIO -->
+  <section class="secao" id="datas" aria-labelledby="t-datas" style="padding-top: 0">
+    <div class="envolve">
+      <div class="cab surge">
+        <span class="rubrica">Calendário oficial · vestibulares 2027</span>
+        <h2 id="t-datas">O relógio já está correndo.</h2>
+      </div>
+      <div class="datas surge" id="datas-lista"></div>
+      <p class="recado surge"><strong>Vai prestar agora?</strong> Ainda dá tempo de treinar no formato e chegar à 2ª fase sabendo o que a banca espera. <strong>Vai prestar em 2028?</strong> Quem começa com um ano de antecedência faz a prova pela segunda vez no dia, e não pela primeira.</p>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section class="secao" id="planos" aria-labelledby="t-planos" style="padding-top: 0">
+    <div class="envolve">
+      <div class="cab surge">
+        <span class="rubrica">Planos · condição de fundador</span>
+        <h2 id="t-planos">Escolha como quer se preparar.</h2>
+        <p>Quem entra pela lista de fundadores garante a condição de lançamento. Os valores abaixo são provisórios.</p>
+      </div>
+      <div class="planos surge">
+        <div class="plano">
+          <h3>Banca Aberta</h3>
+          <p class="desc">A plataforma completa, para treinar sozinho com método.</p>
+          <div class="preco"><b class="a-definir">R$ —</b><span>por mês · <span class="a-definir">preço a definir</span></span></div>
+          <ul>
+            <li>3.232 questões oficiais com resolução comentada</li>
+            <li>Simulados no formato 2027, com cronômetro oficial</li>
+            <li>Desempenho, mapa de assuntos e “onde focar”</li>
+            <li>Plano de estudos e caderno de erros</li>
+            <li>Guias do dia da prova, das obras e de redação</li>
+          </ul>
+          <a class="btn btn-primario" href="#lista" data-plano="plataforma">Entrar na lista</a>
+        </div>
+        <div class="plano destaque">
+          <span class="selo">Mais completo</span>
+          <h3>Banca Aberta + Professor</h3>
+          <p class="desc">Tudo da plataforma, com as aulas e o acompanhamento do professor.</p>
+          <div class="preco"><b class="a-definir">R$ —</b><span>por mês · <span class="a-definir">preço a definir</span></span></div>
+          <ul>
+            <li>Tudo do plano Banca Aberta</li>
+            <li><span class="a-definir">Curso ou aulas do professor: descrever</span></li>
+            <li><span class="a-definir">Encontros ao vivo, correção ou mentoria: definir</span></li>
+          </ul>
+          <a class="btn btn-primario" href="#lista" data-plano="professor">Entrar na lista</a>
+        </div>
+      </div>
+      <div class="garantia surge">
+        <span class="sete" aria-hidden="true">7</span>
+        <p><strong>Sete dias para desistir, com o dinheiro de volta.</strong> Se a Banca Aberta não for para você, é só pedir o cancelamento na primeira semana e devolvemos o valor pago, como garante o Código de Defesa do Consumidor.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERGUNTAS -->
+  <section class="secao" id="perguntas" aria-labelledby="t-faq" style="padding-top: 0">
+    <div class="envolve perguntas">
+      <div class="cab">
+        <span class="rubrica">Perguntas frequentes</span>
+        <h2 id="t-faq">Antes de você entrar.</h2>
+        <p>Não achou a sua dúvida? Escreva para <a href="mailto:contato@bancaaberta.com.br">contato@bancaaberta.com.br</a>.</p>
+      </div>
+      <div class="faq">
+        <details><summary>A Banca Aberta é ligada à FUVEST, à Unicamp ou à UNESP?</summary><div class="resp"><p>Não. É uma ferramenta de estudo independente. As questões são reproduzidas dos cadernos oficiais, sempre com a citação da fonte, e o gabarito usado é o oficial de cada edição.</p></div></details>
+        <details><summary>As resoluções são confiáveis?</summary><div class="resp"><p>Toda resolução precisa chegar à letra do gabarito oficial, e um sistema confere isso antes de a questão ir ao ar. Quando a nossa equipe discorda do gabarito, a questão é separada para uma pessoa decidir. O gabarito oficial nunca é alterado.</p></div></details>
+        <details><summary>Serve para quem presta este ano?</summary><div class="resp"><p>Sim. Os simulados já seguem o formato de 2027, os guias do dia da prova trazem horários e regras dos manuais oficiais, e o plano inclui a 2ª fase, com redação e discursivas.</p></div></details>
+        <details><summary>E para quem presta em 2028 ou depois?</summary><div class="resp"><p>É quando a plataforma rende mais: com tempo, o plano distribui as matérias pelo peso de cada vestibular, puxa os assuntos em que você mais erra e faz cada erro voltar para revisão até você acertar.</p></div></details>
+        <details><summary>Tem discursivas da UNESP e da FUVEST antes de 2023?</summary><div class="resp"><p>Ainda não. Só usamos respostas publicadas pela própria banca, e essas não foram divulgadas. Preferimos não ter a questão a mostrar uma resposta inventada.</p></div></details>
+        <details><summary>Funciona no celular?</summary><div class="resp"><p>Sim. A plataforma foi feita para o celular e para o computador, com tema claro e escuro.</p></div></details>
+        <details><summary>E se eu não gostar?</summary><div class="resp"><p>Você tem sete dias para desistir e receber o valor de volta, sem precisar explicar o motivo.</p></div></details>
+        <details><summary>Quando abre?</summary><div class="resp"><p>O acesso abre em ondas, começando por quem está na lista de fundadores. Você recebe um e-mail quando chegar a sua vez.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAMADA FINAL -->
+  <section class="palco final" id="lista" aria-labelledby="t-final">
+    <div class="envolve final-grade">
+      <div>
+        <span class="rubrica">Lista de fundadores</span>
+        <h2 id="t-final" style="margin-top: 16px"><span id="frase-final">No dia da prova, alguém vai abrir o caderno</span> já sabendo o que esperar. <em>Que seja você.</em></h2>
+        <p class="sub">Deixe seu nome na lista. Você recebe o convite antes de todo mundo, com a condição de fundador.</p>
+      </div>
+      <form class="lista" id="form-lista" novalidate>
+        <h3>Quero acesso antecipado</h3>
+        <div class="linha2">
+          <label class="campo">Nome<input name="nome" autocomplete="given-name" required placeholder="Como você se chama"></label>
+          <label class="campo">E-mail<input name="email" type="email" autocomplete="email" required placeholder="voce@email.com"></label>
+        </div>
+        <div class="linha2">
+          <label class="campo">Vestibular principal
+            <select name="vestibular"><option>FUVEST</option><option>Unicamp</option><option>UNESP</option><option>Ainda não sei</option></select></label>
+          <label class="campo">Ano em que vai prestar
+            <select name="ano"><option>2027</option><option selected>2028</option><option>2029 ou depois</option></select></label>
+        </div>
+        <label class="campo">Plano de interesse
+          <select name="plano"><option value="plataforma">Banca Aberta</option><option value="professor" selected>Banca Aberta + Professor</option></select></label>
+        <label class="aceite"><input type="checkbox" name="aceite" required><span>Aceito receber e-mails da Banca Aberta sobre o lançamento. Posso sair da lista quando quiser. Se tiver menos de 18 anos, confirmo que meu responsável está ciente.</span></label>
+        <button class="btn btn-primario btn-seta" type="submit">Entrar na lista de fundadores</button>
+        <p class="retorno" id="retorno" hidden></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="envolve">
+    <div class="linha-topo">
+      <a class="marca" href="#inicio"><i aria-hidden="true"></i>Banca Aberta</a>
+      <div class="contatos"><a href="mailto:contato@bancaaberta.com.br">contato@bancaaberta.com.br</a><a href="https://www.instagram.com/bancaaberta/" rel="noopener">Instagram @bancaaberta</a></div>
+    </div>
+    <p><strong style="color: var(--palco-tx2)">Ferramenta de estudo independente.</strong> A Banca Aberta não tem vínculo, parceria nem aprovação da FUVEST/USP, da Comvest/Unicamp, da UNESP ou da VUNESP. Esses nomes aparecem só para identificar a origem das questões, reproduzidas dos cadernos oficiais com a citação da fonte.</p>
+    <p>Resultados e notas na plataforma são estimativas para estudo, não previsão de resultado nem garantia de aprovação. <sup>1</sup> Números da trajetória do professor, informados por ele: <span class="a-definir">fonte a anexar</span>.</p>
+    <p>Termos de Uso e Política de Privacidade em revisão jurídica.</p>
+  </div>
+</footer>
+
+<div class="barra-cel" id="barra-cel"><span id="barra-texto">Lista de fundadores aberta</span><a class="btn btn-primario" href="#lista">Garantir acesso</a></div>
+
+<script>
+(function () {
+  // Datas oficiais (dados/provas/calendario.json, conferido em 15/10/2026). O robô de editais avisa se mudarem.
+  var CAL = [
+    { v: "Unicamp", fases: [["1ª fase", "2026-10-18", "9h"], ["2ª fase · 1º dia", "2026-11-29", "9h"], ["2ª fase · 2º dia", "2026-11-30", "9h"]] },
+    { v: "FUVEST", fases: [["1ª fase", "2026-11-01", "13h"], ["2ª fase · 1º dia", "2026-12-06", "13h"], ["2ª fase · 2º dia", "2026-12-07", "13h"]] },
+    { v: "UNESP", fases: [["1ª fase", "2026-11-22", "13h"], ["2ª fase · 1º dia", "2026-12-13", "13h"], ["2ª fase · 2º dia", "2026-12-14", "13h"]] }
+  ];
+  var MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+  function data(s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  var hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  function dias(s) { return Math.round((data(s) - hoje) / 864e5); }
+  function curta(s) { var d = data(s); return d.getDate() + " " + MESES[d.getMonth()]; }
+  function rotulo(n) { return n === 0 ? "é hoje" : n === 1 ? "amanhã" : "em " + n + " dias"; }
+
+  // faixa do topo: próxima fase de cada vestibular
+  var faixa = document.getElementById("faixa-datas");
+  var proximas = [];
+  CAL.forEach(function (c) {
+    var f = c.fases.filter(function (x) { return dias(x[1]) >= 0; })[0];
+    if (f) proximas.push({ v: c.v, nome: f[0], d: dias(f[1]) });
+  });
+  proximas.sort(function (a, b) { return a.d - b.d; });
+  proximas.forEach(function (p) {
+    var s = document.createElement("span");
+    s.innerHTML = p.v + " " + p.nome.replace("2ª fase · ", "2ª fase, ") + " <b>" + rotulo(p.d) + "</b>";
+    faixa.appendChild(s);
+  });
+
+  // cartões do calendário
+  var lista = document.getElementById("datas-lista");
+  CAL.forEach(function (c) {
+    var prox = c.fases.filter(function (x) { return dias(x[1]) >= 0; })[0];
+    var card = document.createElement("div");
+    card.className = "data" + (prox ? "" : " passou");
+    var n = prox ? dias(prox[1]) : null;
+    var falta = prox ? (n === 0 ? '<span class="falta hoje">Hoje</span>' : '<span class="falta">' + n + "<small>" + (n === 1 ? "dia" : "dias") + "</small></span>") : '<span class="falta">✓</span>';
+    card.innerHTML = '<div class="topo-data"><span class="vest">' + c.v + '</span><span class="quando">' + (prox ? "até a " + prox[0].toLowerCase() : "provas encerradas") + "</span></div>" + falta +
+      "<ul>" + c.fases.map(function (f) { return "<li><span>" + f[0] + "</span><span>" + curta(f[1]) + " · " + f[2] + "</span></li>"; }).join("") + "</ul>";
+    lista.appendChild(card);
+  });
+
+  // chamada final: dias até a próxima 1ª fase (ou 2ª, se já passaram)
+  // a frase usa a próxima prova que ainda está a pelo menos uma semana (dá tempo de treinar)
+  var alvo = proximas[0];
+  var folga = proximas.filter(function (p) { return p.d >= 7; })[0];
+  if (folga) document.getElementById("frase-final").textContent = "Daqui a " + folga.d + " dias, alguém vai abrir a prova da " + folga.v;
+
+  // plano escolhido nos cartões já vem marcado no formulário
+  document.querySelectorAll("[data-plano]").forEach(function (b) {
+    b.addEventListener("click", function () { var s = document.querySelector('select[name="plano"]'); if (s) s.value = b.getAttribute("data-plano"); });
+  });
+
+  // formulário: o envio será ligado ao sistema no lançamento; por enquanto nada sai desta página
+  var form = document.getElementById("form-lista"), ret = document.getElementById("retorno");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var nome = form.nome.value.trim(), email = form.email.value.trim();
+    ret.hidden = false;
+    if (!nome || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { ret.innerHTML = "<strong>Falta pouco:</strong> confira o nome e o e-mail."; return; }
+    if (!form.aceite.checked) { ret.innerHTML = "<strong>Falta pouco:</strong> marque o aceite para entrar na lista."; return; }
+    ret.innerHTML = "<strong>Prévia da página.</strong> O cadastro na lista será ligado ao sistema no lançamento. Nenhum dado foi enviado.";
+  });
+
+  // barra fixa no celular depois do herói
+  var barra = document.getElementById("barra-cel"), heroi = document.querySelector(".heroi"), fim = document.getElementById("lista");
+  if ("IntersectionObserver" in window) {
+    var heroiVisivel = true, fimVisivel = false;
+    function atualiza() { barra.classList.toggle("mostra", !heroiVisivel && !fimVisivel); }
+    new IntersectionObserver(function (es) { heroiVisivel = es[0].isIntersecting; atualiza(); }).observe(heroi);
+    new IntersectionObserver(function (es) { fimVisivel = es[0].isIntersecting; atualiza(); }).observe(fim);
+    if (alvo) document.getElementById("barra-texto").textContent = alvo.v + " " + rotulo(alvo.d);
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("visivel"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".surge").forEach(function (el) { io.observe(el); });
+  } else {
+    document.querySelectorAll(".surge").forEach(function (el) { el.classList.add("visivel"); });
+  }
+})();
+</script>
