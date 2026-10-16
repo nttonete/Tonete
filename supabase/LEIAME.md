@@ -4,12 +4,13 @@ Projeto `banca-aberta`, região São Paulo (sa-east-1), código `egfglvvjdnrxjsi
 
 ## Situação
 
-O código está pronto e testado, mas **ainda não foi aplicado no projeto**. Duas tentativas em 16/10/2026:
+Em 16/10/2026, com um token da conta dona do projeto:
 
-1. O `SUPABASE_ACCESS_TOKEN` do ambiente de nuvem estava vazio.
-2. Com o token preenchido, o Supabase recusou (erro 403). O token é válido, mas a conta que o gerou só é dona de uma organização `banca-aberta` **sem nenhum projeto**. O projeto `egfglvvjdnrxjsikespe` existe, mas está em outra conta ou organização. Solução: gerar o token entrando no supabase.com com a conta que criou o projeto, ou convidar a conta do token para a organização do projeto (papel Owner ou Administrator).
+- **Banco:** as três migrações estão aplicadas. Testado no próprio projeto, numa transação desfeita no fim: criar uma conta gera o perfil com o aceite dos termos, e alterar o perfil atualiza `atualizado_em`. O banco continua sem nenhum usuário.
+- **Funções:** `mp-checkout`, `mp-webhook` e `excluir-conta` publicadas e ativas. `mp-webhook` não exige login (como manda o `config.toml`); as outras duas exigem.
+- **Alertas de segurança do painel:** só restam dois sobre `rls_auto_enable()`, função que o próprio Supabase cria em projetos novos (não é nossa e não pode ser chamada pela API).
 
-Sem um token com acesso ao projeto, nada pode ser feito nele (banco, funções, segredos). Para conferir, `node supabase/aplicar_migracoes.mjs --conferir` lista as migrações; se o acesso faltar, ele diz quais projetos o token enxerga. Veja "Como colocar no ar".
+Ainda falta (precisa de alguém com as credenciais ou de uma decisão): os segredos do Mercado Pago e o `PLANOS` (passo 3), o endereço do site no login (passo 5; hoje está `http://localhost:3000`, então os links de e-mail não funcionariam) e a chave pública em `app/config.js` (passo 6). Enquanto a chave estiver vazia, o site continua sem conta e sem pedidos ao servidor. Faça os passos 3, 5 e 6 juntos.
 
 O ambiente de nuvem só sai para a internet por HTTPS: não conecta direto no Postgres (porta 5432). Por isso, lá a senha do banco sozinha não basta e o `supabase db push` não funciona; use `supabase/aplicar_migracoes.mjs`, que faz o mesmo pela API.
 
@@ -21,6 +22,7 @@ O ambiente de nuvem só sai para a internet por HTTPS: não conecta direto no Po
 |---|---|
 | `20261015000000_inicial.sql` | Tabelas `perfis`, `dados_aluno` e `assinaturas`, regras por aluno (RLS) e `tem_acesso()` |
 | `20261015010000_assinatura_dias.sql` | Coluna `dias` na assinatura (a duração comprada fica gravada) e acesso explícito do papel do servidor (`service_role`) às tabelas |
+| `20261016000000_fecha_funcoes_de_gatilho.sql` | Tira das funções de gatilho (`criar_perfil`, `marcar_atualizacao`) a permissão de execução pública, que o alerta de segurança do Supabase apontava |
 
 | Tabela | Para quê | Quem escreve |
 |---|---|---|
