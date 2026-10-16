@@ -34,7 +34,7 @@ NUMERO_ESCRITORIO = "5531996936688"
 # Quem recebe o aviso de cada novo caso (pode ser o próprio WhatsApp do escritório)
 NOTIFY_TO = "5531996936688"
 # Modelo aprovado na Meta para o aviso (deixe vazio para mandar texto livre)
-NOTIFY_TEMPLATE = ""
+NOTIFY_TEMPLATE = "novo_contato_pix"
 NOTIFY_TEMPLATE_LANG = "pt_BR"
 # Durante os testes, só responde a estes números (separados por vírgula). Vazio = todos.
 ALLOWED_NUMBERS = ""
