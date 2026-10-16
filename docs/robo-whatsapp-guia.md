@@ -82,7 +82,8 @@ Guarde também o **PIN de 6 dígitos** do número do robô, usado no registro. A
 - **Validade da chave da Anthropic:** confira em Chaves de API. Se foi criada com validade, anote a data para trocar antes de vencer.
 - **Aviso para a Nayara:**
   - Hoje o aviso de novo caso vai como texto livre. O WhatsApp só entrega texto livre se o (31) 99693-6688 tiver mandado alguma mensagem para o número do robô nas últimas 24h.
-  - Até existir um modelo aprovado, mande um "oi" do WhatsApp da Nayara para o (17) 99772-2969 **uma vez por dia**. O robô não responde, de propósito.
+  - **Com o modelo `novo_contato_pix` aprovado e configurado, o "oi" diário não é mais necessário:** os resumos chegam sempre. O texto abaixo vale só se o modelo for desativado.
+  - Sem modelo aprovado, mande um "oi" do WhatsApp da Nayara para o (17) 99772-2969 **uma vez por dia**. O robô não responde, de propósito.
   - **Nenhum resumo se perde.** Se um caso chegar depois de 24 h do último "oi", o robô guarda o resumo e entrega no próximo "oi", marcado como "Resumo guardado de [data e hora]". Então, ao ver no WhatsApp da Nayara um cliente sem resumo, basta mandar o "oi" para o robô.
   - A solução definitiva é o modelo de Utilidade (seção 7).
 - **Mudar o texto ou as regras do robô:**
@@ -115,7 +116,7 @@ Guarde também o **PIN de 6 dígitos** do número do robô, usado no registro. A
   1. Conectar o (17) 99772-2969 à página do Facebook.
   2. No Gerenciador de Anúncios, **duplicar** o conjunto de anúncios da campanha do Pix e escolher o número do robô.
   3. Pausar o conjunto antigo quando o novo estiver entregando.
-- [ ] **Modelo de mensagem "Utilidade"** para o aviso à Nayara (ex.: `novo_contato_pix`). Depois de aprovado, preencher `NOTIFY_TEMPLATE` no `whatsapp-bot/wrangler.toml`.
+- [x] **Modelo de mensagem "Utilidade"** `novo_contato_pix` para o aviso à Nayara, configurado em `NOTIFY_TEMPLATE` no `whatsapp-bot/wrangler.toml`. Com ele, o "oi" diário deixa de ser necessário.
 - [ ] **Foto de perfil** do número do robô, em WhatsApp Manager > Números de telefone > Perfil.
 - [ ] **Verificação da empresa** na Meta (Central de segurança), que aumenta os limites e dá mais credibilidade.
 - [ ] **Segundo administrador** no portfólio da Meta, na Anthropic e no Cloudflare, para o escritório não depender de um único login.

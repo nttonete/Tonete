@@ -112,9 +112,11 @@ O WhatsApp só entrega texto livre para quem escreveu ao número do robô nas ú
 
 1. Crie um modelo de mensagem na categoria **Utilidade**, por exemplo com o nome `novo_contato_pix`:
 
-   > Novo contato do golpe do Pix: {{1}}. Prioridade: {{2}}. {{3}}
+   > Novo contato do golpe do Pix: {{1}}. Prioridade: {{2}}. Detalhes: {{3}}. Veja a conversa no WhatsApp do robô.
 
-2. Depois que a Meta aprovar, preencha `NOTIFY_TEMPLATE = "novo_contato_pix"` e publique de novo.
+   O texto não pode terminar com uma variável, senão a Meta recusa. Nas amostras, use só um exemplo curto para cada variável.
+
+2. Depois que a Meta aprovar, preencha `NOTIFY_TEMPLATE = "novo_contato_pix"` e publique de novo. (Feito: o modelo `novo_contato_pix` está configurado.)
 
 Enquanto o modelo não existir, uma alternativa é o escritório mandar um "oi" para o número do robô uma vez por dia. O robô ignora mensagens do número que recebe os avisos. Por isso, os testes de triagem devem ser feitos de outro número.
 
