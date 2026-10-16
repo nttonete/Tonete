@@ -1,0 +1,7 @@
+# Configuração do Supabase CLI para o projeto banca-aberta (egfglvvjdnrxjsikespe).
+# Só o que foge do padrão.
+project_id = "banca-aberta"
+
+# O Mercado Pago não manda token de login: a função confere a assinatura do próprio aviso.
+[functions.mp-webhook]
+verify_jwt = false

@@ -9,7 +9,7 @@ Auditoria feita em 15/10/2026 e plano de adequação. Os textos legais são **RA
 | Respostas esperadas e comentários oficiais das bancas (requisito D) | **Mantidos por ora.** Voltar ao assunto depois do parecer jurídico. Se a decisão mudar: tirar `resposta_oficial` das discursivas e o "Objetivo da questão", e trocar por rubrica própria. |
 | Modo "prova completa" (requisito A3) | **Mantido.** Risco conhecido: reconstrói uma prova original inteira. O teto de 30% vale só para simulados. |
 | Prévia publicada (Artifact, privada) | **Mantida** (e atualizada com as mudanças abaixo). |
-| Backend | **Opção A (Supabase, região São Paulo)** escolhida, ainda não construída. Falta criar a conta do projeto e definir provedor de IA e de pagamento. |
+| Backend | **Opção A (Supabase, região São Paulo)**: projeto `banca-aberta` criado; banco, login, sincronização, exclusão/cópia de dados e pagamento pelo **Mercado Pago** (Checkout Pro) escritos, ver `supabase/LEIAME.md`. Falta aplicar no projeto, definir preço e o provedor de IA. |
 | E-mail de contato | Provisório: mvtonete@gmail.com (pedidos de remoção e contato do encarregado). Trocar pelo oficial antes do lançamento. |
 | Triagem de terceiros | Adiada: não mexer agora. |
 

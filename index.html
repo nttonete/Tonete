@@ -145,6 +145,8 @@ select, input[type="number"] { width: 100%; padding: .62rem 2.2rem .62rem .75rem
   background-image: linear-gradient(45deg, transparent 50%, var(--tinta-2) 50%), linear-gradient(135deg, var(--tinta-2) 50%, transparent 50%);
   background-position: calc(100% - 17px) 52%, calc(100% - 12px) 52%; background-size: 5px 5px; background-repeat: no-repeat; }
 select:disabled { opacity: .5; }
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] { width: 100%; min-width: 0; padding: .62rem .75rem; border: 1px solid var(--linha-forte); border-radius: var(--raio-p); background: var(--folha); color: var(--tinta); font: inherit; }
+input[type="text"]:focus-visible, input[type="email"]:focus-visible, input[type="password"]:focus-visible, input[type="date"]:focus-visible { outline: 2px solid var(--caneta); outline-offset: 1px; }
 .chips { display: flex; flex-wrap: wrap; gap: .4rem; }
 .chip { position: relative; }
 .chip input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
@@ -588,6 +590,32 @@ textarea { width: 100%; min-height: 7rem; padding: .75rem; border: 1px solid var
 .terceiros { margin: .3rem 0 0; font-size: .78rem; color: var(--tinta-3); }
 .rodape strong { color: var(--tinta-2); }
 .rodape-links { display: flex; flex-wrap: wrap; gap: .3rem 1.25rem; }
+/* conta */
+.aviso-ok { background: var(--certo-fundo); color: var(--certo); padding: .8rem 1rem; border-radius: var(--raio-p); margin: 0 0 1rem; }
+.painel .aviso-ok, .plano-form .aviso-ok { margin: 0; }
+.planos { list-style: none; margin: .9rem 0 0; padding: 0; display: grid; gap: .75rem; }
+.planos li { display: grid; gap: .35rem; justify-items: start; border: 1px solid var(--linha); border-radius: var(--raio-p); padding: 1rem; }
+.plano-preco { font-family: var(--f-num); font-size: 1.5rem; color: var(--tinta); }
+.pagamentos { margin-top: 1rem; font-size: .86rem; color: var(--tinta-2); }
+.pagamentos summary { cursor: pointer; }
+.pagamentos ul { padding-left: 1.1rem; }
+.confirma-exclusao { display: grid; gap: .75rem; margin-top: 1rem; padding: 1rem; border-radius: var(--raio-p); background: var(--errado-fundo); }
+.confirma-exclusao p { margin: 0; color: var(--errado); }
+.botao.perigo { background: var(--errado); border-color: var(--errado); color: #fff; }
+.conta-sair { margin-top: 1.5rem; }
+.conta-grade { align-items: start; }
+#conta-privacidade > .acoes-form { margin-top: .9rem; }
+#conta-sinc { margin: .4rem 0 .9rem; }
+[hidden] { display: none !important; }
+#nav-conta { display: inline-flex; align-items: center; gap: .35rem; }
+.icone-conta { width: 1rem; height: 1rem; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; display: none; }
+/* no celular, o botão da conta vira só o ícone para o topo caber em 360 px */
+@media (max-width: 30rem) {
+  .topo nav.com-conta button { padding: .36rem .45rem; font-size: .8rem; }
+  .topo nav.com-conta { gap: 1px; }
+  .icone-conta { display: block; }
+  .rotulo-conta { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
 button.link { background: none; border: 0; padding: 0; color: var(--tinta-2); text-decoration: underline; text-underline-offset: 2px; cursor: pointer; font-size: inherit; }
 .pagina-legal { max-width: 46rem; }
 .pagina-legal h1 { font-size: 1.8rem; margin-bottom: .5rem; letter-spacing: -.02em; }
@@ -631,6 +659,7 @@ button.link { background: none; border: 0; padding: 0; color: var(--tinta-2); te
       <button type="button" id="nav-plano">Plano</button>
       <button type="button" id="nav-guias">Guias</button>
       <button type="button" id="nav-historico">Desempenho</button>
+      <button type="button" id="nav-conta" hidden><svg class="icone-conta" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="8" cy="5.2" r="2.7"/><path d="M2.6 14.2c.5-3 2.7-4.7 5.4-4.7s4.9 1.7 5.4 4.7"/></svg><span class="rotulo-conta">Entrar</span></button>
     </nav>
   </div>
 </header>
@@ -652,6 +681,8 @@ button.link { background: none; border: 0; padding: 0; color: var(--tinta-2); te
 
 <script src="app/vendor/katex.min.js"></script>
 <script src="app/render.js"></script>
+<script src="app/config.js"></script>
+<script src="app/nuvem.js"></script>
 <script src="app/app.js"></script>
 </body>
 </html>

@@ -21,7 +21,7 @@ shutil.rmtree(SAIDA, ignore_errors=True)
 (SAIDA / "dados/conteudo").mkdir()
 (SAIDA / "img/tabela-periodica").mkdir(parents=True)
 
-for js in ("app.js", "render.js"):
+for js in ("app.js", "render.js", "config.js", "nuvem.js"):
     shutil.copy(RAIZ / "app" / js, SAIDA / "app" / js)
 for f in (RAIZ / "app/fontes").glob("*.woff2"):
     shutil.copy(f, SAIDA / "app/fontes" / f.name)

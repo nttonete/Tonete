@@ -33,7 +33,9 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 | `dados/conteudo/obras.json`, `redacao-temas.json` | Obras de leitura obrigatória com guia da equipe e questões ligadas (`ferramentas/ligar_obras.py`); temas de redação anteriores |
 | `ferramentas/robo_editais.py` | Robô que confere os documentos oficiais e avisa mudanças (roda sozinho segundas e quintas; prepara a atualização numa branch para aprovação) |
 | `site/` | Página de vendas (landing page), no formato escolhido pelo responsável (referência nickho-motorsports.nl: preto e branco, marca-texto amarelo, títulos condensados): `pagina.html` + `img/` (foto tratada do professor e capturas reais da plataforma) + `fontes/`. Campos com a classe `a-definir` esperam dados do professor e preços |
-| `supabase/` | Backend (Supabase, São Paulo): migrações do banco e, depois, as funções de servidor. Ver `supabase/LEIAME.md` |
+| `supabase/` | Backend (Supabase, São Paulo): migrações do banco, funções de servidor (Mercado Pago e exclusão de conta) e seus testes. Ver `supabase/LEIAME.md` |
+| `app/config.js`, `app/nuvem.js` | Endereço e chave pública do Supabase; login e sincronização do localStorage com a conta. Sem a chave, a plataforma funciona só no aparelho |
+| `testes/nuvem.js` | Teste da conta, da sincronização entre dois aparelhos e da assinatura, com Supabase simulado |
 | `dados/juridico/` | Rascunhos de Termos, Privacidade e Direitos autorais (para revisão jurídica) |
 | `fontes-pdf` | Link para os PDFs oficiais (fora do git) |
 
@@ -43,7 +45,7 @@ Esta branch (`vestibular`) é independente do site da NT Advocacia (branch `main
 2. Transcrição por agentes, em lotes de 30–36 questões: `python3 ferramentas/prompt_lote.py <edicao> <de> <ate>` gera o pedido. As regras estão em `ferramentas/INSTRUCOES-TRANSCRICAO.md`. Saída: `trabalho/<edicao>/rascunho-NNN-NNN.json`.
 3. `python3 ferramentas/montar_banco.py <edicao>`: junta lotes, acrescenta o **gabarito oficial da versão do caderno**, aplica as correções do revisor e copia as figuras usadas.
 4. Revisão pelo agente `revisor-questoes` (lotes iguais): `trabalho/<edicao>/revisao-NNN-NNN.json`. Depois rode `montar_banco.py` de novo.
-5. `python3 ferramentas/validar.py` (precisa de 0 erros) e `node testes/navegador.js` (precisa de `PLAYWRIGHT_PATH=$(npm root -g)/playwright`).
+5. `python3 ferramentas/validar.py` (precisa de 0 erros) e `node testes/navegador.js` (precisa de `PLAYWRIGHT_PATH=$(npm root -g)/playwright`). Mexeu na conta ou no backend: `node testes/nuvem.js` e `node --test supabase/testes/*.test.ts`.
 6. Prévia: `python3 ferramentas/gerar_previa.py` e publicar `pagina.html` com os arquivos de `trabalho/previa/`.
 
 Situação: as 30 provas de 1ª fase (2017–2026) estão transcritas, revisadas e com resolução comentada. As 45 discursivas de 2ª fase com resposta oficial publicada (FUVEST 2023–2026, Unicamp 2017–2026) também estão transcritas e revisadas, com assunto e, na Unicamp, o objetivo da questão (inventário em `ferramentas/DISCURSIVAS.md`); FUVEST 2017–2022 e UNESP ficam de fora por não ter resposta oficial (UNESP: o site da VUNESP nega acesso daqui e não achamos respostas esperadas publicadas; resoluções de cursinhos não valem; ver `ferramentas/DISCURSIVAS.md`). O que depende de decisão humana está em `ferramentas/PENDENCIAS.md`.
@@ -55,11 +57,12 @@ Situação: as 30 provas de 1ª fase (2017–2026) estão transcritas, revisadas
 - Correção com resolução comentada (`resolucao`) e assunto (`assunto`, lista fixa em `dados/provas/assuntos.json`).
 - Desempenho (guardado no aparelho): evolução, mapa de assuntos por vestibular, "onde focar", medalhas e "refazer questões que errei".
 - Tabela periódica da prova nas questões de química da UNESP (`img/tabela-periodica/`).
-- Ainda sem servidor: fórum de comentários, ranking semanal, login e pagamento dependem de backend.
+- Conta opcional (tela "Conta", só aparece com a chave em `app/config.js`): cadastro com data de nascimento e responsável para menores, link de acesso por e-mail, sincronização do que fica no aparelho, assinatura pelo Mercado Pago, cópia dos dados e exclusão da conta. O conteúdo ainda não é bloqueado para quem não assina.
+- Ainda sem servidor: fórum de comentários e ranking semanal.
 
 ## Plano de estudos e guias
 
-- Telas: Treinar, Plano (plano de estudos + caderno de erros), Guias (dia da prova, obras, redação) e Desempenho. Tudo guardado no aparelho do aluno (localStorage) até haver backend.
+- Telas: Treinar, Plano (plano de estudos + caderno de erros), Guias (dia da prova, obras, redação) e Desempenho. Tudo guardado no aparelho do aluno (localStorage); com conta, também sobe para o Supabase.
 - O plano gera as tarefas de cada dia até a prova: matérias pelo peso do edital puxando as de menor acerto, assuntos fracos, revisão espaçada de erros (1, 3, 7 e 21 dias), simulado semanal no horário real, leituras e redação. Dias passados ficam como foram gerados; os futuros se ajustam ao desempenho.
 - Regras do dia da prova vêm só do edital/manual oficial. Dicas gerais ficam separadas como "Dicas da equipe".
 - Guias das obras são texto da equipe (nunca trechos das obras) e ficam com `revisao: "pendente"` até um professor revisar.
