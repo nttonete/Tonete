@@ -4,7 +4,9 @@ Projeto `banca-aberta`, região São Paulo (sa-east-1), código `egfglvvjdnrxjsi
 
 ## Situação
 
-O código está pronto e testado, mas **ainda não foi aplicado no projeto**: o `SUPABASE_ACCESS_TOKEN` do ambiente de nuvem não é um token pessoal válido (o Supabase respondeu "JWT could not be decoded"; um token pessoal começa com `sbp_`). Veja "Como colocar no ar".
+O código está pronto e testado, mas **ainda não foi aplicado no projeto**. Na tentativa de 16/10/2026, o `SUPABASE_ACCESS_TOKEN` do ambiente de nuvem estava vazio, e sem ele nada pode ser feito no projeto (banco, funções, segredos). Um token pessoal começa com `sbp_`. Veja "Como colocar no ar".
+
+O ambiente de nuvem só sai para a internet por HTTPS: não conecta direto no Postgres (porta 5432). Por isso, lá a senha do banco sozinha não basta e o `supabase db push` não funciona; use `supabase/aplicar_migracoes.mjs`, que faz o mesmo pela API.
 
 ## O que existe
 
@@ -58,15 +60,16 @@ Os dois testes de navegador precisam de `PLAYWRIGHT_PATH=$(npm root -g)/playwrig
 
 ## Como colocar no ar
 
-1. **Token:** em supabase.com, Account → Access Tokens, gere um token pessoal (começa com `sbp_`) e coloque-o como `SUPABASE_ACCESS_TOKEN` nas variáveis do ambiente de nuvem (substituindo o atual). Para o `db push` também é preciso a senha do banco em `SUPABASE_DB_PASSWORD`.
+1. **Token:** em supabase.com, Account → Access Tokens, gere um token pessoal (começa com `sbp_`) e coloque-o como `SUPABASE_ACCESS_TOKEN` nas variáveis do ambiente de nuvem. A senha do banco (`SUPABASE_DB_PASSWORD`) só é usada no caminho do CLI do passo 2.
 2. **Banco:**
    ```
-   npx supabase link --project-ref egfglvvjdnrxjsikespe
-   npx supabase db push
+   node supabase/aplicar_migracoes.mjs --conferir   # mostra o que falta aplicar
+   node supabase/aplicar_migracoes.mjs              # aplica
    ```
+   O script usa só o token pessoal e HTTPS, então funciona no ambiente de nuvem. Cada migração entra inteira ou não entra, e fica registrada no mesmo histórico do CLI. Num computador com acesso direto ao banco, o caminho do CLI também serve: `npx supabase link --project-ref egfglvvjdnrxjsikespe` e `npx supabase db push` (pede a senha do banco).
 3. **Segredos das funções** (nunca no código nem no site):
    ```
-   npx supabase secrets set MP_ACCESS_TOKEN=... MP_WEBHOOK_SECRET=... SITE_URL=https://endereco-do-site/ \
+   npx supabase secrets set --project-ref egfglvvjdnrxjsikespe MP_ACCESS_TOKEN=... MP_WEBHOOK_SECRET=... SITE_URL=https://endereco-do-site/ \
      PLANOS='{"lancamento":{"nome":"Preço de lançamento: 3 meses de acesso","centavos":4900,"dias":92}}'
    ```
    - `MP_ACCESS_TOKEN`: Mercado Pago → Suas integrações → Credenciais (use as de teste primeiro).
@@ -74,9 +77,9 @@ Os dois testes de navegador precisam de `PLAYWRIGHT_PATH=$(npm root -g)/playwrig
    - `PLANOS`: preço em centavos e duração em dias. Plano definido: **preço de lançamento, R$ 49,00 por 3 meses**. São 92 dias, para cobrir 3 meses de calendário em qualquer época do ano (o sistema conta o acesso em dias). Sem esse segredo, a tela mostra "A venda ainda não está aberta". Para mudar o preço depois, basta trocar o segredo, sem mexer no código; quem já comprou mantém o que pagou.
 4. **Funções:**
    ```
-   npx supabase functions deploy mp-checkout
-   npx supabase functions deploy mp-webhook      # o config.toml desliga a exigência de login só nesta
-   npx supabase functions deploy excluir-conta
+   npx supabase functions deploy mp-checkout --project-ref egfglvvjdnrxjsikespe --use-api
+   npx supabase functions deploy mp-webhook --project-ref egfglvvjdnrxjsikespe --use-api      # o config.toml desliga a exigência de login só nesta
+   npx supabase functions deploy excluir-conta --project-ref egfglvvjdnrxjsikespe --use-api
    ```
 5. **Login:** no painel, Authentication → URL Configuration: "Site URL" e "Redirect URLs" com o endereço do site (os links de e-mail voltam para lá). Ative a confirmação de e-mail e, de preferência, um SMTP próprio com remetente da Banca Aberta (o padrão do Supabase tem limite baixo de envios).
 6. **Site:** em `app/config.js`, preencha `supabaseChave` com a chave **pública** do projeto (Settings → API Keys → "publishable" ou "anon"). Depois rode `python3 ferramentas/gerar_index.py`.
