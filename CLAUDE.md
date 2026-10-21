@@ -54,6 +54,19 @@ Todo texto público, das páginas e do robô, segue o Código de Ética da OAB e
 - **Contato do escritório:** o robô passa o número por extenso e o cartão de contato, **sem links**, porque quem caiu num golpe desconfia de links.
 - O texto de `src/prompt.js` é fixo de propósito, para aproveitar o cache de prompt. Dados variáveis, como a data, entram como mensagem de sistema.
 
+## Erros que não podem se repetir (robô)
+
+Cada linha nasceu de um problema real. O registro completo, de todos os projetos, fica em `docs/aprendizados.md` do repositório `nttonete/primeiro-contato`. Erro novo vira linha aqui e lá.
+
+- **Resumo fora da janela de 24 h:** a Meta só entrega o aviso à advogada por modelo de Utilidade aprovado (`NOTIFY_TEMPLATE`). Sem o modelo, o resumo fica guardado até ela mandar "oi" para o robô. O corpo do modelo não pode começar nem terminar com variável. Pendente: aprovar `novo_contato_pix` e preenchê-lo no `wrangler.toml`.
+- **"Falha do robô" com tudo "não informado"** quer dizer que a IA falhou 3 vezes seguidas. Em 20/10/2026, a chave da Anthropic era de uma conta sem crédito. Para conferir:
+  - no Console da Anthropic, a chave do robô está na mesma organização que tem crédito, e a coluna Custo mostra uso;
+  - a recarga automática está ligada.
+- **Depois de trocar um segredo no GitHub, publique de novo** (Actions > Publicar robô do WhatsApp > Run workflow) e faça um teste real pelo WhatsApp (`#reiniciar` e uma conversa). Os testes do `npm test` usam o Claude simulado e não provam a chamada real.
+- **Para ver o erro exato, use os logs do Cloudflare** (Workers & Pages > nt-whatsapp-bot > Logs). O GitHub não mostra segredos depois de salvos.
+- **O chip do número do robô não afeta a API,** mas precisa ficar pago, senão o número pode passar para outra pessoa.
+- **Clientes que caíram numa falha** receberam só o contato do escritório: avise a advogada para chamá-los.
+
 ## Como trabalhar aqui
 
 - **Idioma:** tudo em português do Brasil, inclusive código, comentários, commits e PRs. A Nayara não é programadora: explique em linguagem simples, sem jargão.
