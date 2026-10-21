@@ -56,16 +56,13 @@ Todo texto público, das páginas e do robô, segue o Código de Ética da OAB e
 
 ## Erros que não podem se repetir (robô)
 
-Cada linha nasceu de um problema real. O registro completo, de todos os projetos, fica em `docs/aprendizados.md` do repositório `nttonete/primeiro-contato`. Erro novo vira linha aqui e lá.
+Cada linha é uma regra que nasceu de um problema real. Leia antes de mexer no robô. Erro novo vira uma linha aqui, no formato: **regra** (data) — *Conferir:* como provar.
 
-- **Resumo fora da janela de 24 h:** a Meta só entrega o aviso à advogada por modelo de Utilidade aprovado (`NOTIFY_TEMPLATE`). Sem o modelo, o resumo fica guardado até ela mandar "oi" para o robô. O corpo do modelo não pode começar nem terminar com variável. Pendente: aprovar `novo_contato_pix` e preenchê-lo no `wrangler.toml`.
-- **"Falha do robô" com tudo "não informado"** quer dizer que a IA falhou 3 vezes seguidas. Em 20/10/2026, a chave da Anthropic era de uma conta sem crédito. Para conferir:
-  - no Console da Anthropic, a chave do robô está na mesma organização que tem crédito, e a coluna Custo mostra uso;
-  - a recarga automática está ligada.
-- **Depois de trocar um segredo no GitHub, publique de novo** (Actions > Publicar robô do WhatsApp > Run workflow) e faça um teste real pelo WhatsApp (`#reiniciar` e uma conversa). Os testes do `npm test` usam o Claude simulado e não provam a chamada real.
-- **Para ver o erro exato, use os logs do Cloudflare** (Workers & Pages > nt-whatsapp-bot > Logs). O GitHub não mostra segredos depois de salvos.
-- **O chip do número do robô não afeta a API,** mas precisa ficar pago, senão o número pode passar para outra pessoa.
-- **Clientes que caíram numa falha** receberam só o contato do escritório: avise a advogada para chamá-los.
+- **O aviso à advogada fora da janela de 24 h só chega por modelo de mensagem de Utilidade aprovado (`NOTIFY_TEMPLATE`).** O corpo do modelo não pode começar nem terminar com variável (16 e 20/10/2026). — *Conferir:* `NOTIFY_TEMPLATE` preenchido no `wrangler.toml`. Pendente: aprovação da Meta para `novo_contato_pix`.
+- **Aviso de "falha do robô" com tudo "não informado" quer dizer que a IA falhou 3 vezes; confira chave e crédito primeiro** (20/10/2026). — *Conferir:* no Console da Anthropic, a chave do robô está na mesma organização que tem crédito, a coluna Custo mostra uso e a recarga automática está ligada.
+- **Depois de trocar um segredo no GitHub, publique de novo e faça um teste real** (20/10/2026). Os testes do `npm test` usam o Claude simulado e não provam a chamada real. — *Conferir:* Actions > Publicar robô do WhatsApp com sucesso, e uma conversa completa pelo WhatsApp depois de `#reiniciar`.
+- **Para ver o erro exato, use os logs do Cloudflare** (20/10/2026). O GitHub não mostra segredos depois de salvos. — *Conferir:* a linha "Falha ao gerar resposta" em Workers & Pages > nt-whatsapp-bot > Logs.
+- **O chip do número do robô precisa ficar pago** (20/10/2026). Ele não afeta a API, mas uma linha cancelada pode passar para outra pessoa. — *Conferir:* conta do chip paga.
 
 ## Como trabalhar aqui
 
