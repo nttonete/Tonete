@@ -52,7 +52,8 @@ Todo texto público, das páginas e do robô, segue o Código de Ética da OAB e
 - **Testes:** `cd whatsapp-bot && npm test`. Rodam offline, com WhatsApp e Claude simulados. Rode sempre antes de abrir uma PR que mexa no robô.
 - **Diagnóstico:** `/diagnostico?chave=VERIFY_TOKEN`, com `&zerar=ultimo` ou `&zerar=<número>` para refazer um teste. A página nunca mostra o conteúdo das conversas.
 - **Contato do escritório:** o robô passa o número por extenso e o cartão de contato, **sem links**, porque quem caiu num golpe desconfia de links.
-- **Valor abaixo de R$ 5 mil (decisão de 26/10/2026):** o robô orienta e encerra, sem passar o contato do escritório. A advogada recebe o resumo com prioridade baixa (motivo `valor_abaixo_minimo`, estado `orientado` na conversa). Com R$ 5.000 ou mais, ou sem valor informado, a triagem segue normal.
+- **Valor abaixo de R$ 5 mil (decisão de 26/10/2026):** o robô confirma o total, orienta e encerra, sem passar o contato do escritório. A advogada recebe o resumo com prioridade baixa (motivo `valor_abaixo_minimo`, estado `orientado` na conversa). O robô apresenta como regra do escritório, sem falar de custo, tempo ou chances. Urgência vence a regra. Com R$ 5.000 ou mais, ou sem valor informado, a triagem segue normal.
+- **Conversa com a advogada (decisão de 26/10/2026):** no fim da triagem, o robô oferece três horários (um por dia nos próximos 3 dias úteis, às 9h, 10h e 11h, calculados em `horariosParaOferecer`, `src/claude.js`) e pergunta o canal (telefone, reunião online ou WhatsApp). O horário vai no resumo, e a advogada confirma. O robô nunca diz que está confirmado.
 - O texto de `src/prompt.js` é fixo de propósito, para aproveitar o cache de prompt. Dados variáveis, como a data, entram como mensagem de sistema.
 
 ## Erros que não podem se repetir (robô)

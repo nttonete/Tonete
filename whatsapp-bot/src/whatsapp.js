@@ -102,6 +102,9 @@ export function textoAviso(telefone, dados, guardadoEm) {
     `Contestou no banco/MED: ${dados.contestou_banco}`,
     `B.O.: ${dados.boletim_ocorrencia}`,
     `Resumo: ${dados.resumo}`,
+    ...(dados.horario_conversa && dados.horario_conversa !== "não se aplica"
+      ? [`Conversa com a advogada: ${dados.horario_conversa} (${dados.canal_conversa ?? "não informado"}) – confirmar com a pessoa`]
+      : []),
     `Conversa: https://wa.me/${telefone}`,
   ].join("\n");
 }
@@ -121,6 +124,9 @@ export function avisarAdvogada(env, telefone, dados, guardadoEm) {
     `Contestou: ${dados.contestou_banco}`,
     `B.O.: ${dados.boletim_ocorrencia}`,
     `Resumo: ${dados.resumo}`,
+    ...(dados.horario_conversa && dados.horario_conversa !== "não se aplica"
+      ? [`Conversa: ${dados.horario_conversa} (${dados.canal_conversa ?? "não informado"}), confirmar`]
+      : []),
   ].join(" | ");
   return postar(env, {
     to: env.NOTIFY_TO,

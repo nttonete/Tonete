@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
 import { Conversa } from "../src/conversa.js";
 import worker, { extrairEventos, variantes, mesmoNumero } from "../src/index.js";
-import { responder } from "../src/claude.js";
+import { responder, horariosParaOferecer } from "../src/claude.js";
 import { textoAviso, enviarTexto, motivoLegivel } from "../src/whatsapp.js";
 import { SYSTEM_PROMPT, FERRAMENTA_AVISAR, MENSAGEM_JA_ORIENTADO, MENSAGEM_FINAL_VALOR_BAIXO } from "../src/prompt.js";
 import { Diagnostico } from "../src/diagnostico.js";
@@ -44,7 +44,8 @@ function montar(respostas) {
 const aviso = {
   nome: "Ana", cidade: "BH/MG", tipo_golpe: "falso parente", data_golpe: "ontem",
   valor: "R$ 8.000 em 2 Pix", banco: "Nubank", contestou_banco: "não",
-  boletim_ocorrencia: "não", resumo: "Transferiu para falso filho.", prioridade: "alta",
+  boletim_ocorrencia: "não", resumo: "Transferiu para falso filho.",
+  horario_conversa: "terça-feira, 27/10, às 9h", canal_conversa: "telefone", prioridade: "alta",
   motivo: "triagem_completa",
 };
 
@@ -94,7 +95,8 @@ test("depois da triagem, quem volta a escrever recebe o link de novo (no máximo
 });
 
 const avisoValorBaixo = {
-  ...aviso, valor: "R$ 1.200 em 1 Pix", prioridade: "baixa", motivo: "valor_abaixo_minimo",
+  ...aviso, valor: "R$ 1.200 em 1 Pix", horario_conversa: "não se aplica", canal_conversa: "não se aplica",
+  prioridade: "baixa", motivo: "valor_abaixo_minimo",
 };
 
 test("valor abaixo de R$ 5 mil: avisa a advogada com prioridade baixa, orienta e não passa o contato", async () => {
@@ -143,6 +145,15 @@ test("instruções do robô: regra dos R$ 5 mil e motivo na ferramenta", () => {
   assert.match(SYSTEM_PROMPT, /# Valor abaixo de R\$ 5 mil/);
   assert.match(SYSTEM_PROMPT, /R\$ 5\.000 ou mais, ou se ela não souber o valor, siga a triagem normal/);
   assert.match(SYSTEM_PROMPT, /Não diga que a advogada vai continuar o atendimento nem passe o WhatsApp do escritório/);
+  // Regra do escritório, não avaliação do caso (revisão de conformidade, 26/10/2026).
+  assert.match(SYSTEM_PROMPT, /regra de organização do escritório, e não uma análise do caso/);
+  assert.match(SYSTEM_PROMPT, /Esse é o valor total, somando todos os Pix/);
+  assert.match(SYSTEM_PROMPT, /Esta seção não vale se houver urgência/);
+  assert.match(SYSTEM_PROMPT, /190/);
+  assert.doesNotMatch(SYSTEM_PROMPT, /custo e o tempo|valor a recuperar/);
+  for (const texto of [MENSAGEM_FINAL_VALOR_BAIXO, MENSAGEM_JA_ORIENTADO]) {
+    assert.doesNotMatch(texto, /custo e o tempo|valor a recuperar|não vale a pena/);
+  }
   assert.ok(FERRAMENTA_AVISAR.input_schema.properties.motivo.enum.includes("valor_abaixo_minimo"));
 });
 
@@ -239,9 +250,39 @@ test("chamada ao Claude: parâmetros e leitura da ferramenta", async () => {
   assert.equal(pedido.fallbacks, "default");
   assert.equal(pedido.messages.at(-1).role, "system");
   assert.match(pedido.messages.at(-1).content, /27\/09\/2026/);
+  assert.match(pedido.messages.at(-1).content, /Horários para oferecer: segunda-feira, 28\/09, às 9h; terça-feira, 29\/09, às 10h; quarta-feira, 30\/09, às 11h\./);
 
   const recusa = await responder({}, [{ role: "user", content: "oi" }], { cliente: { beta: { messages: { create: async () => ({ stop_reason: "refusal", content: [] }) } } } });
   assert.equal(recusa.recusado, true);
+});
+
+test("horários para a conversa: um por dia, nos próximos 3 dias úteis, às 9h, 10h e 11h", () => {
+  // segunda-feira, 26/10/2026, 9h33 em Brasília
+  assert.deepEqual(horariosParaOferecer(new Date("2026-10-26T12:33:00Z")), [
+    "terça-feira, 27/10, às 9h", "quarta-feira, 28/10, às 10h", "quinta-feira, 29/10, às 11h",
+  ]);
+  // sexta-feira, 30/10/2026, 22h em Brasília (já é sábado em UTC): pula o fim de semana
+  assert.deepEqual(horariosParaOferecer(new Date("2026-10-31T01:00:00Z")), [
+    "segunda-feira, 02/11, às 9h", "terça-feira, 03/11, às 10h", "quarta-feira, 04/11, às 11h",
+  ]);
+  // domingo
+  assert.deepEqual(horariosParaOferecer(new Date("2026-11-01T15:00:00Z"))[0], "segunda-feira, 02/11, às 9h");
+});
+
+test("instruções do robô: marcar a conversa com a advogada", () => {
+  assert.match(SYSTEM_PROMPT, /# Marcar a conversa com a advogada/);
+  assert.match(SYSTEM_PROMPT, /como funciona a questão processual e quais documentos reunir/);
+  assert.match(SYSTEM_PROMPT, /por telefone, por reunião online ou pelo próprio WhatsApp/);
+  assert.match(SYSTEM_PROMPT, /Nunca diga que está confirmado/);
+  const props = FERRAMENTA_AVISAR.input_schema.properties;
+  assert.ok(props.horario_conversa && props.canal_conversa);
+  assert.ok(FERRAMENTA_AVISAR.input_schema.required.includes("horario_conversa"));
+  assert.ok(FERRAMENTA_AVISAR.input_schema.required.includes("canal_conversa"));
+});
+
+test("aviso à advogada mostra o horário e o canal da conversa para confirmar", () => {
+  assert.match(textoAviso("5531900000000", aviso), /Conversa com a advogada: terça-feira, 27\/10, às 9h \(telefone\) – confirmar com a pessoa/);
+  assert.doesNotMatch(textoAviso("5531900000000", avisoValorBaixo), /Conversa com a advogada/);
 });
 
 test("texto do aviso traz o link da conversa", () => {
