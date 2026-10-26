@@ -113,7 +113,7 @@ export const FERRAMENTA_AVISAR = {
 };
 
 // Reservas para quando a IA avisa a advogada sem escrever a mensagem final.
-// Cada uma só fala do que o código faz naquele caso (E38 e E39 do registro de aprendizados).
+// Cada uma só fala do que o código faz naquele caso (veja "Erros que não podem se repetir" no CLAUDE.md).
 export const MENSAGEM_FINAL_PADRAO =
   "Obrigada por me contar. A advogada Nayara já recebeu o resumo do seu caso e o atendimento continua com ela no WhatsApp do escritório. Guarde os comprovantes do Pix e os prints da conversa com o golpista.";
 
