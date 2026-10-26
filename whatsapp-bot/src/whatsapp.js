@@ -83,10 +83,16 @@ function limpar(texto, max) {
   return (t.length > max ? t.slice(0, max - 1) + "…" : t) || "-";
 }
 
+// Como o motivo aparece para a advogada.
+export function motivoLegivel(motivo) {
+  if (motivo === "valor_abaixo_minimo") return "abaixo de R$ 5 mil: orientado, sem atendimento";
+  return String(motivo ?? "").replace(/_/g, " ");
+}
+
 export function textoAviso(telefone, dados, guardadoEm) {
   return [
     ...(guardadoEm ? [`_Resumo guardado de ${guardadoEm}: não pôde ser entregue na hora._`] : []),
-    `*Novo contato – golpe do Pix* (prioridade ${dados.prioridade}, ${dados.motivo.replace(/_/g, " ")})`,
+    `*Novo contato – golpe do Pix* (prioridade ${dados.prioridade}, ${motivoLegivel(dados.motivo)})`,
     `Nome: ${dados.nome} · +${telefone}`,
     `Cidade: ${dados.cidade}`,
     `Golpe: ${dados.tipo_golpe}`,
@@ -127,7 +133,7 @@ export function avisarAdvogada(env, telefone, dados, guardadoEm) {
           type: "body",
           parameters: [
             { type: "text", text: limpar(`${dados.nome} (+${telefone}, ${dados.cidade})`, 120) },
-            { type: "text", text: limpar(`${dados.prioridade} – ${dados.motivo.replace(/_/g, " ")}`, 60) },
+            { type: "text", text: limpar(`${dados.prioridade} – ${motivoLegivel(dados.motivo)}`, 60) },
             { type: "text", text: limpar(detalhes, 700) },
           ],
         },

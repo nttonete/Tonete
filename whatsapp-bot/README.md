@@ -14,6 +14,8 @@ Robô de triagem para a campanha de golpe do Pix. Ele funciona num número de Wh
 
 Ele também avisa na hora quando a pessoa pede atendimento humano, quer contratar, pergunta sobre honorários ou quando o caso é urgente.
 
+**Valor abaixo de R$ 5 mil (decisão de 26/10/2026):** quando a pessoa informa que perdeu menos de R$ 5.000, somando todos os Pix, o robô explica com delicadeza que, pelo valor, o escritório não vai seguir com o caso, porque o custo e o tempo de um processo costumam ser maiores do que o valor a recuperar. Ele passa os passos que a pessoa pode dar sozinha: banco e MED, boletim de ocorrência, reclamação no Banco Central e no consumidor.gov.br, e guardar os comprovantes. A conversa termina sem o contato do escritório. A Nayara recebe o resumo com prioridade baixa, marcado "abaixo de R$ 5 mil: orientado, sem atendimento". Com R$ 5.000 ou mais, ou sem valor informado, a triagem segue normal.
+
 As regras da OAB estão nas instruções do robô (`src/prompt.js`):
 - não dá parecer nem promete resultado;
 - não fala de honorários;

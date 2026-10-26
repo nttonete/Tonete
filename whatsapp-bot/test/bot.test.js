@@ -4,7 +4,8 @@ import { createHmac } from "node:crypto";
 import { Conversa } from "../src/conversa.js";
 import worker, { extrairEventos, variantes, mesmoNumero } from "../src/index.js";
 import { responder } from "../src/claude.js";
-import { textoAviso, enviarTexto } from "../src/whatsapp.js";
+import { textoAviso, enviarTexto, motivoLegivel } from "../src/whatsapp.js";
+import { SYSTEM_PROMPT, FERRAMENTA_AVISAR, MENSAGEM_JA_ORIENTADO } from "../src/prompt.js";
 import { Diagnostico } from "../src/diagnostico.js";
 import { avisarComFila, entregarGuardados, tratarFalha } from "../src/avisos.js";
 
@@ -42,7 +43,7 @@ function montar(respostas) {
 
 const aviso = {
   nome: "Ana", cidade: "BH/MG", tipo_golpe: "falso parente", data_golpe: "ontem",
-  valor: "R$ 3.000 em 2 Pix", banco: "Nubank", contestou_banco: "não",
+  valor: "R$ 8.000 em 2 Pix", banco: "Nubank", contestou_banco: "não",
   boletim_ocorrencia: "não", resumo: "Transferiu para falso filho.", prioridade: "alta",
   motivo: "triagem_completa",
 };
@@ -61,7 +62,7 @@ test("junta mensagens seguidas numa única resposta", async () => {
 
 test("fim da triagem: avisa a advogada e passa o WhatsApp do escritório sem link", async () => {
   const { conversa, enviados, avisos, chamadas, contatos } = montar([{ texto: "Obrigada, Ana!", aviso }]);
-  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 8 mil", nome: "Ana" });
   await conversa.alarm();
   assert.equal(avisos.length, 1);
   assert.equal(avisos[0].dados.prioridade, "alta");
@@ -74,7 +75,7 @@ test("fim da triagem: avisa a advogada e passa o WhatsApp do escritório sem lin
 
 test("depois da triagem, quem volta a escrever recebe o link de novo (no máximo a cada 6h)", async () => {
   const { conversa, enviados, chamadas, relogio } = montar([{ texto: "Obrigada!", aviso }]);
-  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 8 mil", nome: "Ana" });
   await conversa.alarm();
   assert.equal(enviados.length, 2);
 
@@ -90,6 +91,53 @@ test("depois da triagem, quem volta a escrever recebe o link de novo (no máximo
   assert.match(enviados[2].texto, /só para a triagem/);
   assert.match(enviados[3].texto, /\(31\) 99693-6688/);
   assert.equal(chamadas.length, 1); // a IA não é chamada de novo
+});
+
+const avisoValorBaixo = {
+  ...aviso, valor: "R$ 1.200 em 1 Pix", prioridade: "baixa", motivo: "valor_abaixo_minimo",
+};
+
+test("valor abaixo de R$ 5 mil: avisa a advogada com prioridade baixa, orienta e não passa o contato", async () => {
+  const { conversa, enviados, avisos, contatos } = montar([{ texto: "Pelo valor, o escritório não vai seguir com o seu caso. Avise o Nubank e peça o MED.", aviso: avisoValorBaixo }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 1.200", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(avisos.length, 1);
+  assert.equal(avisos[0].dados.motivo, "valor_abaixo_minimo");
+  assert.equal(avisos[0].dados.prioridade, "baixa");
+  assert.equal(enviados.length, 1); // só as orientações
+  assert.doesNotMatch(enviados[0].texto, /99693-6688/);
+  assert.deepEqual(contatos, []);
+});
+
+test("quem foi orientado por valor baixo e volta a escrever recebe lembrete sem contato (no máximo a cada 6h)", async () => {
+  const { conversa, enviados, chamadas, contatos, relogio } = montar([{ texto: "Orientações.", aviso: avisoValorBaixo }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 1.200", nome: "Ana" });
+  await conversa.alarm();
+  relogio.agora += 60_000;
+  await conversa.entrada({ telefone: "5531900000000", id: "b", texto: "mas eu queria falar com ela", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados.length, 1); // menos de 6h: silêncio
+  relogio.agora += 7 * 60 * 60 * 1000;
+  await conversa.entrada({ telefone: "5531900000000", id: "c", texto: "oi?", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados.length, 2);
+  assert.equal(enviados[1].texto, MENSAGEM_JA_ORIENTADO);
+  assert.doesNotMatch(enviados[1].texto, /99693-6688/);
+  assert.deepEqual(contatos, []);
+  assert.equal(chamadas.length, 1); // a IA não é chamada de novo
+});
+
+test("instruções do robô: regra dos R$ 5 mil e motivo na ferramenta", () => {
+  assert.match(SYSTEM_PROMPT, /# Valor abaixo de R\$ 5 mil/);
+  assert.match(SYSTEM_PROMPT, /R\$ 5\.000 ou mais, ou se ela não souber o valor, siga a triagem normal/);
+  assert.match(SYSTEM_PROMPT, /Não diga que a advogada vai continuar o atendimento nem passe o WhatsApp do escritório/);
+  assert.ok(FERRAMENTA_AVISAR.input_schema.properties.motivo.enum.includes("valor_abaixo_minimo"));
+});
+
+test("aviso de valor baixo aparece legível para a advogada", () => {
+  assert.equal(motivoLegivel("valor_abaixo_minimo"), "abaixo de R$ 5 mil: orientado, sem atendimento");
+  assert.equal(motivoLegivel("triagem_completa"), "triagem completa");
+  assert.match(textoAviso("5531900000000", avisoValorBaixo), /prioridade baixa, abaixo de R\$ 5 mil: orientado, sem atendimento/);
 });
 
 test("resposta pelo app (eco) faz o robô ficar quieto", async () => {
@@ -268,7 +316,7 @@ test("número da advogada é ignorado mesmo quando o WhatsApp manda sem o 9", ()
 test("#reiniciar apaga a conversa sem responder", async () => {
   const { conversa, storage, enviados, chamadas } = montar([{ texto: "Obrigada!", aviso }]);
   storage.deleteAll = async function () { this.limpo = true; };
-  await conversa.entrada({ telefone: "553188887348", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.entrada({ telefone: "553188887348", id: "a", texto: "perdi 8 mil", nome: "Ana" });
   await conversa.alarm();
   await conversa.entrada({ telefone: "553188887348", id: "b", texto: " #Reiniciar ", nome: "Ana" });
   assert.equal(storage.limpo, true);
