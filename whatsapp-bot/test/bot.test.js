@@ -3,8 +3,9 @@ import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
 import { Conversa } from "../src/conversa.js";
 import worker, { extrairEventos, variantes, mesmoNumero } from "../src/index.js";
-import { responder } from "../src/claude.js";
-import { textoAviso, enviarTexto } from "../src/whatsapp.js";
+import { responder, horariosParaOferecer } from "../src/claude.js";
+import { textoAviso, enviarTexto, motivoLegivel } from "../src/whatsapp.js";
+import { SYSTEM_PROMPT, FERRAMENTA_AVISAR, MENSAGEM_JA_ORIENTADO, MENSAGEM_FINAL_VALOR_BAIXO, MENSAGEM_FINAL_PADRAO, MENSAGEM_FINAL_COM_HORARIO } from "../src/prompt.js";
 import { Diagnostico } from "../src/diagnostico.js";
 import { avisarComFila, entregarGuardados, tratarFalha } from "../src/avisos.js";
 
@@ -42,8 +43,9 @@ function montar(respostas) {
 
 const aviso = {
   nome: "Ana", cidade: "BH/MG", tipo_golpe: "falso parente", data_golpe: "ontem",
-  valor: "R$ 3.000 em 2 Pix", banco: "Nubank", contestou_banco: "não",
-  boletim_ocorrencia: "não", resumo: "Transferiu para falso filho.", prioridade: "alta",
+  valor: "R$ 8.000 em 2 Pix", banco: "Nubank", contestou_banco: "não",
+  boletim_ocorrencia: "não", resumo: "Transferiu para falso filho.",
+  horario_conversa: "terça-feira, 27/10, às 9h", canal_conversa: "telefone", prioridade: "alta",
   motivo: "triagem_completa",
 };
 
@@ -61,7 +63,7 @@ test("junta mensagens seguidas numa única resposta", async () => {
 
 test("fim da triagem: avisa a advogada e passa o WhatsApp do escritório sem link", async () => {
   const { conversa, enviados, avisos, chamadas, contatos } = montar([{ texto: "Obrigada, Ana!", aviso }]);
-  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 8 mil", nome: "Ana" });
   await conversa.alarm();
   assert.equal(avisos.length, 1);
   assert.equal(avisos[0].dados.prioridade, "alta");
@@ -74,7 +76,7 @@ test("fim da triagem: avisa a advogada e passa o WhatsApp do escritório sem lin
 
 test("depois da triagem, quem volta a escrever recebe o link de novo (no máximo a cada 6h)", async () => {
   const { conversa, enviados, chamadas, relogio } = montar([{ texto: "Obrigada!", aviso }]);
-  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 8 mil", nome: "Ana" });
   await conversa.alarm();
   assert.equal(enviados.length, 2);
 
@@ -90,6 +92,95 @@ test("depois da triagem, quem volta a escrever recebe o link de novo (no máximo
   assert.match(enviados[2].texto, /só para a triagem/);
   assert.match(enviados[3].texto, /\(31\) 99693-6688/);
   assert.equal(chamadas.length, 1); // a IA não é chamada de novo
+});
+
+const avisoValorBaixo = {
+  ...aviso, valor: "R$ 1.200 em 1 Pix", horario_conversa: "não se aplica", canal_conversa: "não se aplica",
+  prioridade: "baixa", motivo: "valor_abaixo_minimo",
+};
+
+test("valor abaixo de R$ 5 mil: avisa a advogada com prioridade baixa, orienta e não passa o contato", async () => {
+  const { conversa, enviados, avisos, contatos } = montar([{ texto: "No momento, o escritório atende apenas casos a partir de R$ 5 mil. Fale com o Nubank e peça o MED.", aviso: avisoValorBaixo }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 1.200", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(avisos.length, 1);
+  assert.equal(avisos[0].dados.motivo, "valor_abaixo_minimo");
+  assert.equal(avisos[0].dados.prioridade, "baixa");
+  assert.equal(enviados.length, 1); // só as orientações
+  assert.doesNotMatch(enviados[0].texto, /99693-6688/);
+  assert.deepEqual(contatos, []);
+});
+
+test("valor baixo sem texto da IA: a reserva orienta e não fala em continuar com o escritório", async () => {
+  const { conversa, enviados, avisos, contatos } = montar([{ texto: "", aviso: avisoValorBaixo }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 1.200", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(avisos.length, 1);
+  assert.equal(enviados.length, 1);
+  assert.equal(enviados[0].texto, MENSAGEM_FINAL_VALOR_BAIXO);
+  assert.doesNotMatch(enviados[0].texto, /WhatsApp do escritório|continua com ela/);
+  assert.match(enviados[0].texto, /MED/);
+  assert.deepEqual(contatos, []);
+});
+
+test("urgência ou fora do escopo sem texto da IA: a reserva não fala de horário", async () => {
+  for (const motivo of ["urgente", "fora_do_escopo"]) {
+    const semHorario = { ...aviso, horario_conversa: "não se aplica", canal_conversa: "não se aplica", motivo };
+    const { conversa, enviados, contatos } = montar([{ texto: "", aviso: semHorario }]);
+    await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "socorro", nome: "Ana" });
+    await conversa.alarm();
+    assert.equal(enviados[0].texto, MENSAGEM_FINAL_PADRAO);
+    for (const e of enviados) assert.doesNotMatch(e.texto, /horário da conversa|confirma[rç]/);
+    assert.equal(contatos.length, 1);
+  }
+});
+
+test("com horário escolhido e sem texto da IA: a reserva fala em confirmar o horário", async () => {
+  const { conversa, enviados } = montar([{ texto: "", aviso }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "pode ser terça", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados[0].texto, MENSAGEM_FINAL_COM_HORARIO);
+  assert.match(enviados[1].texto, /confirmação do horário vem pelo WhatsApp do escritório/);
+});
+
+test("quem foi orientado por valor baixo e volta a escrever recebe lembrete sem contato (no máximo a cada 6h)", async () => {
+  const { conversa, enviados, chamadas, contatos, relogio } = montar([{ texto: "Orientações.", aviso: avisoValorBaixo }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 1.200", nome: "Ana" });
+  await conversa.alarm();
+  relogio.agora += 60_000;
+  await conversa.entrada({ telefone: "5531900000000", id: "b", texto: "mas eu queria falar com ela", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados.length, 1); // menos de 6h: silêncio
+  relogio.agora += 7 * 60 * 60 * 1000;
+  await conversa.entrada({ telefone: "5531900000000", id: "c", texto: "oi?", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados.length, 2);
+  assert.equal(enviados[1].texto, MENSAGEM_JA_ORIENTADO);
+  assert.doesNotMatch(enviados[1].texto, /99693-6688/);
+  assert.deepEqual(contatos, []);
+  assert.equal(chamadas.length, 1); // a IA não é chamada de novo
+});
+
+test("instruções do robô: regra dos R$ 5 mil e motivo na ferramenta", () => {
+  assert.match(SYSTEM_PROMPT, /# Valor abaixo de R\$ 5 mil/);
+  assert.match(SYSTEM_PROMPT, /R\$ 5\.000 ou mais, ou se ela não souber o valor, siga a triagem normal/);
+  assert.match(SYSTEM_PROMPT, /Não diga que a advogada vai continuar o atendimento nem passe o WhatsApp do escritório/);
+  // Regra do escritório, não avaliação do caso (revisão de conformidade, 26/10/2026).
+  assert.match(SYSTEM_PROMPT, /regra de organização do escritório, e não uma análise do caso/);
+  assert.match(SYSTEM_PROMPT, /Esse é o valor total, somando todos os Pix/);
+  assert.match(SYSTEM_PROMPT, /Esta seção não vale se houver urgência/);
+  assert.match(SYSTEM_PROMPT, /190/);
+  assert.doesNotMatch(SYSTEM_PROMPT, /custo e o tempo|valor a recuperar/);
+  for (const texto of [MENSAGEM_FINAL_VALOR_BAIXO, MENSAGEM_JA_ORIENTADO]) {
+    assert.doesNotMatch(texto, /custo e o tempo|valor a recuperar|não vale a pena/);
+  }
+  assert.ok(FERRAMENTA_AVISAR.input_schema.properties.motivo.enum.includes("valor_abaixo_minimo"));
+});
+
+test("aviso de valor baixo aparece legível para a advogada", () => {
+  assert.equal(motivoLegivel("valor_abaixo_minimo"), "abaixo de R$ 5 mil: orientado, sem atendimento");
+  assert.equal(motivoLegivel("triagem_completa"), "triagem completa");
+  assert.match(textoAviso("5531900000000", avisoValorBaixo), /prioridade baixa, abaixo de R\$ 5 mil: orientado, sem atendimento/);
 });
 
 test("resposta pelo app (eco) faz o robô ficar quieto", async () => {
@@ -179,9 +270,50 @@ test("chamada ao Claude: parâmetros e leitura da ferramenta", async () => {
   assert.equal(pedido.fallbacks, "default");
   assert.equal(pedido.messages.at(-1).role, "system");
   assert.match(pedido.messages.at(-1).content, /27\/09\/2026/);
+  assert.match(pedido.messages.at(-1).content, /Horários para oferecer: segunda-feira, 28\/09, às 9h; terça-feira, 29\/09, às 10h; quarta-feira, 30\/09, às 11h\./);
 
   const recusa = await responder({}, [{ role: "user", content: "oi" }], { cliente: { beta: { messages: { create: async () => ({ stop_reason: "refusal", content: [] }) } } } });
   assert.equal(recusa.recusado, true);
+});
+
+test("horários para a conversa: um por dia, nos próximos 3 dias úteis, às 9h, 10h e 11h", () => {
+  // segunda-feira, 26/10/2026, 9h33 em Brasília
+  assert.deepEqual(horariosParaOferecer(new Date("2026-10-26T12:33:00Z")), [
+    "terça-feira, 27/10, às 9h", "quarta-feira, 28/10, às 10h", "quinta-feira, 29/10, às 11h",
+  ]);
+  // sexta-feira, 30/10/2026, 22h em Brasília (já é sábado em UTC): pula o fim de semana e Finados (02/11)
+  assert.deepEqual(horariosParaOferecer(new Date("2026-10-31T01:00:00Z")), [
+    "terça-feira, 03/11, às 9h", "quarta-feira, 04/11, às 10h", "quinta-feira, 05/11, às 11h",
+  ]);
+  // quinta, 19/11/2026: pula a Consciência Negra (20/11) e o fim de semana
+  assert.deepEqual(horariosParaOferecer(new Date("2026-11-19T15:00:00Z"))[0], "segunda-feira, 23/11, às 9h");
+  // sexta, 05/02/2027: pula o Carnaval (segunda 08/02 e terça 09/02)
+  assert.deepEqual(horariosParaOferecer(new Date("2027-02-05T15:00:00Z"))[0], "quarta-feira, 10/02, às 9h");
+  // quinta, 25/03/2027: pula a Sexta-feira Santa (26/03)
+  assert.deepEqual(horariosParaOferecer(new Date("2027-03-25T15:00:00Z"))[0], "segunda-feira, 29/03, às 9h");
+  // quarta, 26/05/2027: pula Corpus Christi (27/05)
+  assert.deepEqual(horariosParaOferecer(new Date("2027-05-26T15:00:00Z"))[0], "sexta-feira, 28/05, às 9h");
+});
+
+test("instruções do robô: marcar a conversa com a advogada", () => {
+  assert.match(SYSTEM_PROMPT, /# Marcar a conversa com a advogada/);
+  assert.match(SYSTEM_PROMPT, /explicar os caminhos possíveis e quais documentos reunir/);
+  // Conformidade (26/10/2026): sem pressupor processo e sem dizer se a conversa é gratuita ou paga.
+  assert.doesNotMatch(SYSTEM_PROMPT, /questão processual/);
+  assert.match(SYSTEM_PROMPT, /a conversa não é compromisso de contratação/);
+  assert.match(SYSTEM_PROMPT, /Nunca diga que a conversa com a advogada é gratuita/);
+  assert.match(SYSTEM_PROMPT, /Só se a pessoa escolheu um horário: repita o horário/);
+  assert.match(SYSTEM_PROMPT, /por telefone, por reunião online ou pelo próprio WhatsApp/);
+  assert.match(SYSTEM_PROMPT, /Nunca diga que está confirmado/);
+  const props = FERRAMENTA_AVISAR.input_schema.properties;
+  assert.ok(props.horario_conversa && props.canal_conversa);
+  assert.ok(FERRAMENTA_AVISAR.input_schema.required.includes("horario_conversa"));
+  assert.ok(FERRAMENTA_AVISAR.input_schema.required.includes("canal_conversa"));
+});
+
+test("aviso à advogada mostra o horário e o canal da conversa para confirmar", () => {
+  assert.match(textoAviso("5531900000000", aviso), /Conversa com a advogada: terça-feira, 27\/10, às 9h \(telefone\) – confirmar com a pessoa/);
+  assert.doesNotMatch(textoAviso("5531900000000", avisoValorBaixo), /Conversa com a advogada/);
 });
 
 test("texto do aviso traz o link da conversa", () => {
@@ -195,7 +327,7 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
     DIAGNOSTICO: {
       idFromName: (n) => n,
       get: () => ({ fetch: async (url, init) => {
-        if (url.endsWith("/ultimo")) return Response.json({ telefone: "553188887348" });
+        if (url.endsWith("/ultimo")) return Response.json({ telefone: "553111112222" });
         if (init?.method === "POST") { eventos.unshift(JSON.parse(init.body)); return new Response("ok"); }
         return Response.json(eventos);
       } }),
@@ -210,7 +342,7 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
   const z = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=+55 17 99772-2969"), env);
   assert.match(await z.text(), /zerada \(final 2969, com e sem o 9\)/);
   const u = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=ultimo"), env);
-  assert.match(await u.text(), /zerada \(final 7348, com e sem o 9\)/);
+  assert.match(await u.text(), /zerada \(final 2222, com e sem o 9\)/);
 });
 
 test("token do WhatsApp com quebra de linha no fim funciona; com reticências dá erro claro", async () => {
@@ -247,30 +379,30 @@ test("zerar apaga a conversa", async () => {
 });
 
 test("zerar considera o número com e sem o 9 extra", () => {
-  assert.deepEqual(variantes("5531988887348"), ["5531988887348", "553188887348"]);
-  assert.deepEqual(variantes("553188887348"), ["553188887348", "5531988887348"]);
+  assert.deepEqual(variantes("5531911112222"), ["5531911112222", "553111112222"]);
+  assert.deepEqual(variantes("553111112222"), ["553111112222", "5531911112222"]);
   assert.deepEqual(variantes("12345"), ["12345"]);
 });
 
 test("número da advogada é ignorado mesmo quando o WhatsApp manda sem o 9", () => {
   assert.equal(mesmoNumero("553196936688", "5531996936688"), true);
   assert.equal(mesmoNumero("5531996936688", "5531996936688"), true);
-  assert.equal(mesmoNumero("553188887348", "5531996936688"), false);
+  assert.equal(mesmoNumero("553111112222", "5531996936688"), false);
   const payload = { entry: [{ changes: [{ field: "messages", value: { messages: [
     { from: "553196936688", id: "1", type: "text", text: { body: "oi" } },
-    { from: "553188887348", id: "2", type: "text", text: { body: "oi" } },
+    { from: "553111112222", id: "2", type: "text", text: { body: "oi" } },
   ] } }] }] };
   const eventos = extrairEventos(payload, { NOTIFY_TO: "5531996936688" });
-  assert.deepEqual(eventos.filter((e) => e.tipo === "entrada").map((e) => e.telefone), ["553188887348"]);
+  assert.deepEqual(eventos.filter((e) => e.tipo === "entrada").map((e) => e.telefone), ["553111112222"]);
   assert.deepEqual(eventos.filter((e) => e.tipo === "advogada").map((e) => e.telefone), ["553196936688"]);
 });
 
 test("#reiniciar apaga a conversa sem responder", async () => {
   const { conversa, storage, enviados, chamadas } = montar([{ texto: "Obrigada!", aviso }]);
   storage.deleteAll = async function () { this.limpo = true; };
-  await conversa.entrada({ telefone: "553188887348", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.entrada({ telefone: "553111112222", id: "a", texto: "perdi 8 mil", nome: "Ana" });
   await conversa.alarm();
-  await conversa.entrada({ telefone: "553188887348", id: "b", texto: " #Reiniciar ", nome: "Ana" });
+  await conversa.entrada({ telefone: "553111112222", id: "b", texto: " #Reiniciar ", nome: "Ana" });
   assert.equal(storage.limpo, true);
   assert.equal(enviados.length, 2);
   assert.equal(chamadas.length, 1);
@@ -303,7 +435,7 @@ test("resumo que a Meta não entregou fica guardado e sai no próximo oi da advo
   const fetchOriginal = globalThis.fetch;
   try {
     const { env, enviados, ocorrencias } = ambienteAvisos();
-    await avisarComFila(env, "553188887348", aviso);
+    await avisarComFila(env, "553111112222", aviso);
     assert.equal(enviados.length, 1);
     assert.equal(enviados[0].to, "5531996936688");
 
@@ -329,7 +461,7 @@ test("passou de 24 h desde o último oi: o resumo é guardado sem tentar enviar"
     const { env, enviados, ocorrencias } = ambienteAvisos();
     const agora = Date.now();
     await entregarGuardados(env, agora - 25 * 60 * 60 * 1000); // último "oi" há 25 h
-    await avisarComFila(env, "553188887348", aviso, agora);
+    await avisarComFila(env, "553111112222", aviso, agora);
     assert.equal(enviados.length, 0);
     assert.match((await ocorrencias())[0], /resumo guardado/);
     await entregarGuardados(env, agora);
@@ -342,7 +474,7 @@ test("passou de 24 h desde o último oi: o resumo é guardado sem tentar enviar"
 test("webhook de status com falha vira evento", () => {
   const payload = { entry: [{ changes: [{ field: "messages", value: { statuses: [
     { id: "wamid.9", status: "failed", recipient_id: "553196936688", errors: [{ code: 131047, title: "Re-engagement message" }] },
-    { id: "wamid.8", status: "delivered", recipient_id: "553188887348" },
+    { id: "wamid.8", status: "delivered", recipient_id: "553111112222" },
   ] } }] }] };
   assert.deepEqual(extrairEventos(payload, {}), [
     { tipo: "falha", telefone: "553196936688", id: "wamid.9", erro: { code: 131047, title: "Re-engagement message" } },

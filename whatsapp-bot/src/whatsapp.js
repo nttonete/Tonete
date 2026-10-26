@@ -83,10 +83,16 @@ function limpar(texto, max) {
   return (t.length > max ? t.slice(0, max - 1) + "…" : t) || "-";
 }
 
+// Como o motivo aparece para a advogada.
+export function motivoLegivel(motivo) {
+  if (motivo === "valor_abaixo_minimo") return "abaixo de R$ 5 mil: orientado, sem atendimento";
+  return String(motivo ?? "").replace(/_/g, " ");
+}
+
 export function textoAviso(telefone, dados, guardadoEm) {
   return [
     ...(guardadoEm ? [`_Resumo guardado de ${guardadoEm}: não pôde ser entregue na hora._`] : []),
-    `*Novo contato – golpe do Pix* (prioridade ${dados.prioridade}, ${dados.motivo.replace(/_/g, " ")})`,
+    `*Novo contato – golpe do Pix* (prioridade ${dados.prioridade}, ${motivoLegivel(dados.motivo)})`,
     `Nome: ${dados.nome} · +${telefone}`,
     `Cidade: ${dados.cidade}`,
     `Golpe: ${dados.tipo_golpe}`,
@@ -96,6 +102,9 @@ export function textoAviso(telefone, dados, guardadoEm) {
     `Contestou no banco/MED: ${dados.contestou_banco}`,
     `B.O.: ${dados.boletim_ocorrencia}`,
     `Resumo: ${dados.resumo}`,
+    ...(dados.horario_conversa && dados.horario_conversa !== "não se aplica"
+      ? [`Conversa com a advogada: ${dados.horario_conversa} (${dados.canal_conversa ?? "não informado"}) – confirmar com a pessoa`]
+      : []),
     `Conversa: https://wa.me/${telefone}`,
   ].join("\n");
 }
@@ -114,6 +123,9 @@ export function avisarAdvogada(env, telefone, dados, guardadoEm) {
     `Banco: ${dados.banco}`,
     `Contestou: ${dados.contestou_banco}`,
     `B.O.: ${dados.boletim_ocorrencia}`,
+    ...(dados.horario_conversa && dados.horario_conversa !== "não se aplica"
+      ? [`Conversa: ${dados.horario_conversa} (${dados.canal_conversa ?? "não informado"}), confirmar`]
+      : []),
     `Resumo: ${dados.resumo}`,
   ].join(" | ");
   return postar(env, {
@@ -127,7 +139,7 @@ export function avisarAdvogada(env, telefone, dados, guardadoEm) {
           type: "body",
           parameters: [
             { type: "text", text: limpar(`${dados.nome} (+${telefone}, ${dados.cidade})`, 120) },
-            { type: "text", text: limpar(`${dados.prioridade} – ${dados.motivo.replace(/_/g, " ")}`, 60) },
+            { type: "text", text: limpar(`${dados.prioridade} – ${motivoLegivel(dados.motivo)}`, 60) },
             { type: "text", text: limpar(detalhes, 700) },
           ],
         },

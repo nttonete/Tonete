@@ -14,6 +14,10 @@ Robô de triagem para a campanha de golpe do Pix. Ele funciona num número de Wh
 
 Ele também avisa na hora quando a pessoa pede atendimento humano, quer contratar, pergunta sobre honorários ou quando o caso é urgente.
 
+**Valor abaixo de R$ 5 mil (decisão de 26/10/2026):** quando a pessoa confirma que perdeu menos de R$ 5.000 no total, somando todos os Pix, o robô explica com delicadeza que, no momento, o escritório atende apenas casos a partir desse valor. Deixa claro que é uma regra do escritório, e não uma análise do caso, e indica o Procon, a Defensoria Pública ou outro advogado. Passa os passos que a pessoa pode dar sozinha: contestação do Pix (MED) no banco, boletim de ocorrência, reclamação no Banco Central e no Consumidor.gov.br, e guardar os comprovantes. A conversa termina sem o contato do escritório. A Nayara recebe o resumo com prioridade baixa, marcado "abaixo de R$ 5 mil: orientado, sem atendimento". A regra não vale em urgência (golpe acontecendo agora, ameaça, extorsão): nesse caso o atendimento segue normal. Com R$ 5.000 ou mais, ou sem valor informado, a triagem segue normal.
+
+**Conversa com a advogada (decisão de 26/10/2026):** no fim da triagem, o robô explica que a Dra. Nayara pode conversar com a pessoa para entender melhor o caso, explicar os caminhos possíveis e quais documentos reunir. Ele não diz que haverá processo nem que o caso será aceito, e não diz se a conversa é paga ou gratuita. Oferece três horários, um em cada um dos próximos três dias úteis, às 9h, 10h e 11h, e pergunta se a pessoa prefere telefone, reunião online ou WhatsApp. Os dias úteis pulam os feriados nacionais e os dias de Carnaval, Sexta-feira Santa e Corpus Christi; feriados estaduais e municipais não entram na conta. O robô não vê a agenda: o horário escolhido vai no resumo, e a Nayara confirma com a pessoa. Em urgência, o robô avisa na hora, sem oferecer horários.
+
 As regras da OAB estão nas instruções do robô (`src/prompt.js`):
 - não dá parecer nem promete resultado;
 - não fala de honorários;

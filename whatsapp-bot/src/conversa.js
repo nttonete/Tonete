@@ -5,7 +5,7 @@ import { responder } from "./claude.js";
 import { enviarTexto, enviarContato, marcarLida } from "./whatsapp.js";
 import { avisarComFila } from "./avisos.js";
 import { registrar } from "./diagnostico.js";
-import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, mensagemContato } from "./prompt.js";
+import { MENSAGEM_FINAL_PADRAO, MENSAGEM_FINAL_COM_HORARIO, MENSAGEM_FINAL_VALOR_BAIXO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, MENSAGEM_JA_ORIENTADO, mensagemContato, temHorario } from "./prompt.js";
 
 const TRINTA_DIAS = 30 * 24 * 60 * 60 * 1000;
 const MAX_HISTORICO = 60;
@@ -20,6 +20,7 @@ function estadoInicial() {
     pendentes: [],
     vistos: [],
     // "robo": faz a triagem. "encaminhado": triagem feita; só lembra o link do escritório.
+    // "orientado": valor abaixo de R$ 5 mil; recebeu orientações e não segue com o escritório.
     // "humano": alguém respondeu por este número pelo app; o robô fica quieto.
     status: "robo",
     ultimoContato: 0,
@@ -106,6 +107,7 @@ export class Conversa extends DurableObject {
     const d = await this.carregar();
     if (d.status === "humano" || d.pendentes.length === 0) return;
     if (d.status === "encaminhado") return this.lembrarLink(d);
+    if (d.status === "orientado") return this.lembrarOrientacao(d);
 
     const lote = d.pendentes;
     d.pendentes = [];
@@ -135,14 +137,18 @@ export class Conversa extends DurableObject {
       texto = MENSAGEM_ERRO;
       aviso = avisoDeFalha(d.nome);
     }
-    if (!texto) texto = MENSAGEM_FINAL_PADRAO;
+    // Valor abaixo de R$ 5 mil: a advogada é avisada, mas a pessoa não recebe o contato do escritório.
+    // O texto de reserva também não pode falar em continuar o atendimento.
+    const valorBaixo = aviso?.motivo === "valor_abaixo_minimo";
+    const comHorario = temHorario(aviso);
+    if (!texto) texto = valorBaixo ? MENSAGEM_FINAL_VALOR_BAIXO : comHorario ? MENSAGEM_FINAL_COM_HORARIO : MENSAGEM_FINAL_PADRAO;
 
     // A advogada pode ter assumido enquanto a resposta era gerada.
     if (d.status !== "robo") return;
 
     d.historico = cortar([...d.historico, mensagemCliente]);
     if (aviso) {
-      d.status = "encaminhado";
+      d.status = valorBaixo ? "orientado" : "encaminhado";
       d.ultimoLembrete = this.deps.agora();
     }
     await this.salvar();
@@ -154,7 +160,7 @@ export class Conversa extends DurableObject {
       await this.salvar();
     }
     if (aviso) {
-      await this.enviarLink(d.telefone);
+      if (!valorBaixo) await this.enviarLink(d.telefone, { comHorario });
       try {
         await this.deps.avisarAdvogada(this.env, d.telefone, aviso);
       } catch (erro) {
@@ -180,10 +186,25 @@ export class Conversa extends DurableObject {
     await this.enviarLink(d.telefone);
   }
 
+  // Quem recebeu as orientações por valor baixo e volta a escrever recebe um lembrete
+  // curto, sem o contato do escritório, no máximo uma vez a cada 6 horas.
+  async lembrarOrientacao(d) {
+    d.pendentes = [];
+    const agora = this.deps.agora();
+    if (agora - d.ultimoLembrete < SEIS_HORAS) {
+      await this.salvar();
+      await this.deps.registrar(this.env, "robô em silêncio: valor abaixo de R$ 5 mil, orientações já enviadas há menos de 6h (zere para testar de novo)");
+      return;
+    }
+    d.ultimoLembrete = agora;
+    await this.salvar();
+    await this.enviar(d.telefone, MENSAGEM_JA_ORIENTADO);
+  }
+
   // Passa o WhatsApp do escritório: número por extenso e cartão de contato.
-  async enviarLink(telefone) {
+  async enviarLink(telefone, { comHorario = false } = {}) {
     if (!this.env.NUMERO_ESCRITORIO) return;
-    if (!(await this.enviar(telefone, mensagemContato(this.env.NUMERO_ESCRITORIO)))) return;
+    if (!(await this.enviar(telefone, mensagemContato(this.env.NUMERO_ESCRITORIO, { comHorario })))) return;
     try {
       await this.deps.enviarContato(this.env, telefone, this.env.NUMERO_ESCRITORIO);
     } catch (erro) {
