@@ -111,7 +111,7 @@ test("valor abaixo de R$ 5 mil: avisa a advogada com prioridade baixa, orienta e
   assert.deepEqual(contatos, []);
 });
 
-test("valor baixo sem texto da IA: a reserva orienta e não fala em continuar com o escritório (E38)", async () => {
+test("valor baixo sem texto da IA: a reserva orienta e não fala em continuar com o escritório", async () => {
   const { conversa, enviados, avisos, contatos } = montar([{ texto: "", aviso: avisoValorBaixo }]);
   await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 1.200", nome: "Ana" });
   await conversa.alarm();
@@ -123,7 +123,7 @@ test("valor baixo sem texto da IA: a reserva orienta e não fala em continuar co
   assert.deepEqual(contatos, []);
 });
 
-test("urgência ou fora do escopo sem texto da IA: a reserva não fala de horário (E39)", async () => {
+test("urgência ou fora do escopo sem texto da IA: a reserva não fala de horário", async () => {
   for (const motivo of ["urgente", "fora_do_escopo"]) {
     const semHorario = { ...aviso, horario_conversa: "não se aplica", canal_conversa: "não se aplica", motivo };
     const { conversa, enviados, contatos } = montar([{ texto: "", aviso: semHorario }]);
