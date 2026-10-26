@@ -5,7 +5,7 @@ import { responder } from "./claude.js";
 import { enviarTexto, enviarContato, marcarLida } from "./whatsapp.js";
 import { avisarComFila } from "./avisos.js";
 import { registrar } from "./diagnostico.js";
-import { MENSAGEM_FINAL_PADRAO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, MENSAGEM_JA_ORIENTADO, mensagemContato } from "./prompt.js";
+import { MENSAGEM_FINAL_PADRAO, MENSAGEM_FINAL_VALOR_BAIXO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, MENSAGEM_JA_ORIENTADO, mensagemContato } from "./prompt.js";
 
 const TRINTA_DIAS = 30 * 24 * 60 * 60 * 1000;
 const MAX_HISTORICO = 60;
@@ -137,14 +137,15 @@ export class Conversa extends DurableObject {
       texto = MENSAGEM_ERRO;
       aviso = avisoDeFalha(d.nome);
     }
-    if (!texto) texto = MENSAGEM_FINAL_PADRAO;
+    // Valor abaixo de R$ 5 mil: a advogada é avisada, mas a pessoa não recebe o contato do escritório.
+    // O texto de reserva também não pode falar em continuar o atendimento.
+    const valorBaixo = aviso?.motivo === "valor_abaixo_minimo";
+    if (!texto) texto = valorBaixo ? MENSAGEM_FINAL_VALOR_BAIXO : MENSAGEM_FINAL_PADRAO;
 
     // A advogada pode ter assumido enquanto a resposta era gerada.
     if (d.status !== "robo") return;
 
     d.historico = cortar([...d.historico, mensagemCliente]);
-    // Valor abaixo de R$ 5 mil: a advogada é avisada, mas a pessoa não recebe o contato do escritório.
-    const valorBaixo = aviso?.motivo === "valor_abaixo_minimo";
     if (aviso) {
       d.status = valorBaixo ? "orientado" : "encaminhado";
       d.ultimoLembrete = this.deps.agora();

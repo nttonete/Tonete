@@ -5,7 +5,7 @@ import { Conversa } from "../src/conversa.js";
 import worker, { extrairEventos, variantes, mesmoNumero } from "../src/index.js";
 import { responder } from "../src/claude.js";
 import { textoAviso, enviarTexto, motivoLegivel } from "../src/whatsapp.js";
-import { SYSTEM_PROMPT, FERRAMENTA_AVISAR, MENSAGEM_JA_ORIENTADO } from "../src/prompt.js";
+import { SYSTEM_PROMPT, FERRAMENTA_AVISAR, MENSAGEM_JA_ORIENTADO, MENSAGEM_FINAL_VALOR_BAIXO } from "../src/prompt.js";
 import { Diagnostico } from "../src/diagnostico.js";
 import { avisarComFila, entregarGuardados, tratarFalha } from "../src/avisos.js";
 
@@ -106,6 +106,18 @@ test("valor abaixo de R$ 5 mil: avisa a advogada com prioridade baixa, orienta e
   assert.equal(avisos[0].dados.prioridade, "baixa");
   assert.equal(enviados.length, 1); // só as orientações
   assert.doesNotMatch(enviados[0].texto, /99693-6688/);
+  assert.deepEqual(contatos, []);
+});
+
+test("valor baixo sem texto da IA: a reserva orienta e não fala em continuar com o escritório (E38)", async () => {
+  const { conversa, enviados, avisos, contatos } = montar([{ texto: "", aviso: avisoValorBaixo }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 1.200", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(avisos.length, 1);
+  assert.equal(enviados.length, 1);
+  assert.equal(enviados[0].texto, MENSAGEM_FINAL_VALOR_BAIXO);
+  assert.doesNotMatch(enviados[0].texto, /WhatsApp do escritório|continua com ela/);
+  assert.match(enviados[0].texto, /MED/);
   assert.deepEqual(contatos, []);
 });
 

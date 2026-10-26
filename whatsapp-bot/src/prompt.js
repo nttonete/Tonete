@@ -98,6 +98,11 @@ export const FERRAMENTA_AVISAR = {
 export const MENSAGEM_FINAL_PADRAO =
   "Obrigada por me contar. A advogada Nayara já recebeu o resumo do seu caso e o atendimento continua com ela no WhatsApp do escritório. Guarde os comprovantes do Pix e os prints da conversa com o golpista.";
 
+// Reserva para quando a IA encerra por valor baixo sem escrever a mensagem:
+// orienta e não fala em continuar o atendimento nem no WhatsApp do escritório.
+export const MENSAGEM_FINAL_VALOR_BAIXO =
+  "Obrigada por me contar. Pelo valor, o escritório não vai seguir com o seu caso: abaixo de R$ 5 mil, o custo e o tempo de um processo costumam ser maiores do que o valor a recuperar. Mas há passos que você mesmo pode dar: avise o seu banco pelo app ou pela central e peça a devolução pelo MED, quanto antes melhor; registre o boletim de ocorrência (pode ser pela delegacia eletrônica do seu estado); se o banco não resolver, registre uma reclamação no site do Banco Central e no site Consumidor.gov; e guarde os comprovantes e os prints da conversa.";
+
 export const MENSAGEM_ERRO =
   "Desculpe, tive um problema para responder agora. A advogada Nayara foi avisada e pode continuar o atendimento com você no WhatsApp do escritório.";
 
