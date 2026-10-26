@@ -5,7 +5,7 @@ import { Conversa } from "../src/conversa.js";
 import worker, { extrairEventos, variantes, mesmoNumero } from "../src/index.js";
 import { responder, horariosParaOferecer } from "../src/claude.js";
 import { textoAviso, enviarTexto, motivoLegivel } from "../src/whatsapp.js";
-import { SYSTEM_PROMPT, FERRAMENTA_AVISAR, MENSAGEM_JA_ORIENTADO, MENSAGEM_FINAL_VALOR_BAIXO } from "../src/prompt.js";
+import { SYSTEM_PROMPT, FERRAMENTA_AVISAR, MENSAGEM_JA_ORIENTADO, MENSAGEM_FINAL_VALOR_BAIXO, MENSAGEM_FINAL_PADRAO, MENSAGEM_FINAL_COM_HORARIO } from "../src/prompt.js";
 import { Diagnostico } from "../src/diagnostico.js";
 import { avisarComFila, entregarGuardados, tratarFalha } from "../src/avisos.js";
 
@@ -100,7 +100,7 @@ const avisoValorBaixo = {
 };
 
 test("valor abaixo de R$ 5 mil: avisa a advogada com prioridade baixa, orienta e não passa o contato", async () => {
-  const { conversa, enviados, avisos, contatos } = montar([{ texto: "Pelo valor, o escritório não vai seguir com o seu caso. Avise o Nubank e peça o MED.", aviso: avisoValorBaixo }]);
+  const { conversa, enviados, avisos, contatos } = montar([{ texto: "No momento, o escritório atende apenas casos a partir de R$ 5 mil. Fale com o Nubank e peça o MED.", aviso: avisoValorBaixo }]);
   await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "perdi 1.200", nome: "Ana" });
   await conversa.alarm();
   assert.equal(avisos.length, 1);
@@ -121,6 +121,26 @@ test("valor baixo sem texto da IA: a reserva orienta e não fala em continuar co
   assert.doesNotMatch(enviados[0].texto, /WhatsApp do escritório|continua com ela/);
   assert.match(enviados[0].texto, /MED/);
   assert.deepEqual(contatos, []);
+});
+
+test("urgência ou fora do escopo sem texto da IA: a reserva não fala de horário (E39)", async () => {
+  for (const motivo of ["urgente", "fora_do_escopo"]) {
+    const semHorario = { ...aviso, horario_conversa: "não se aplica", canal_conversa: "não se aplica", motivo };
+    const { conversa, enviados, contatos } = montar([{ texto: "", aviso: semHorario }]);
+    await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "socorro", nome: "Ana" });
+    await conversa.alarm();
+    assert.equal(enviados[0].texto, MENSAGEM_FINAL_PADRAO);
+    for (const e of enviados) assert.doesNotMatch(e.texto, /horário da conversa|confirma[rç]/);
+    assert.equal(contatos.length, 1);
+  }
+});
+
+test("com horário escolhido e sem texto da IA: a reserva fala em confirmar o horário", async () => {
+  const { conversa, enviados } = montar([{ texto: "", aviso }]);
+  await conversa.entrada({ telefone: "5531900000000", id: "a", texto: "pode ser terça", nome: "Ana" });
+  await conversa.alarm();
+  assert.equal(enviados[0].texto, MENSAGEM_FINAL_COM_HORARIO);
+  assert.match(enviados[1].texto, /confirmação do horário vem pelo WhatsApp do escritório/);
 });
 
 test("quem foi orientado por valor baixo e volta a escrever recebe lembrete sem contato (no máximo a cada 6h)", async () => {
@@ -261,17 +281,28 @@ test("horários para a conversa: um por dia, nos próximos 3 dias úteis, às 9h
   assert.deepEqual(horariosParaOferecer(new Date("2026-10-26T12:33:00Z")), [
     "terça-feira, 27/10, às 9h", "quarta-feira, 28/10, às 10h", "quinta-feira, 29/10, às 11h",
   ]);
-  // sexta-feira, 30/10/2026, 22h em Brasília (já é sábado em UTC): pula o fim de semana
+  // sexta-feira, 30/10/2026, 22h em Brasília (já é sábado em UTC): pula o fim de semana e Finados (02/11)
   assert.deepEqual(horariosParaOferecer(new Date("2026-10-31T01:00:00Z")), [
-    "segunda-feira, 02/11, às 9h", "terça-feira, 03/11, às 10h", "quarta-feira, 04/11, às 11h",
+    "terça-feira, 03/11, às 9h", "quarta-feira, 04/11, às 10h", "quinta-feira, 05/11, às 11h",
   ]);
-  // domingo
-  assert.deepEqual(horariosParaOferecer(new Date("2026-11-01T15:00:00Z"))[0], "segunda-feira, 02/11, às 9h");
+  // quinta, 19/11/2026: pula a Consciência Negra (20/11) e o fim de semana
+  assert.deepEqual(horariosParaOferecer(new Date("2026-11-19T15:00:00Z"))[0], "segunda-feira, 23/11, às 9h");
+  // sexta, 05/02/2027: pula o Carnaval (segunda 08/02 e terça 09/02)
+  assert.deepEqual(horariosParaOferecer(new Date("2027-02-05T15:00:00Z"))[0], "quarta-feira, 10/02, às 9h");
+  // quinta, 25/03/2027: pula a Sexta-feira Santa (26/03)
+  assert.deepEqual(horariosParaOferecer(new Date("2027-03-25T15:00:00Z"))[0], "segunda-feira, 29/03, às 9h");
+  // quarta, 26/05/2027: pula Corpus Christi (27/05)
+  assert.deepEqual(horariosParaOferecer(new Date("2027-05-26T15:00:00Z"))[0], "sexta-feira, 28/05, às 9h");
 });
 
 test("instruções do robô: marcar a conversa com a advogada", () => {
   assert.match(SYSTEM_PROMPT, /# Marcar a conversa com a advogada/);
-  assert.match(SYSTEM_PROMPT, /como funciona a questão processual e quais documentos reunir/);
+  assert.match(SYSTEM_PROMPT, /explicar os caminhos possíveis e quais documentos reunir/);
+  // Conformidade (26/10/2026): sem pressupor processo e sem dizer se a conversa é gratuita ou paga.
+  assert.doesNotMatch(SYSTEM_PROMPT, /questão processual/);
+  assert.match(SYSTEM_PROMPT, /a conversa não é compromisso de contratação/);
+  assert.match(SYSTEM_PROMPT, /Nunca diga que a conversa com a advogada é gratuita/);
+  assert.match(SYSTEM_PROMPT, /Só se a pessoa escolheu um horário: repita o horário/);
   assert.match(SYSTEM_PROMPT, /por telefone, por reunião online ou pelo próprio WhatsApp/);
   assert.match(SYSTEM_PROMPT, /Nunca diga que está confirmado/);
   const props = FERRAMENTA_AVISAR.input_schema.properties;

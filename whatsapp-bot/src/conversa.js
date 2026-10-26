@@ -5,7 +5,7 @@ import { responder } from "./claude.js";
 import { enviarTexto, enviarContato, marcarLida } from "./whatsapp.js";
 import { avisarComFila } from "./avisos.js";
 import { registrar } from "./diagnostico.js";
-import { MENSAGEM_FINAL_PADRAO, MENSAGEM_FINAL_VALOR_BAIXO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, MENSAGEM_JA_ORIENTADO, mensagemContato } from "./prompt.js";
+import { MENSAGEM_FINAL_PADRAO, MENSAGEM_FINAL_COM_HORARIO, MENSAGEM_FINAL_VALOR_BAIXO, MENSAGEM_ERRO, MENSAGEM_JA_ENCAMINHADO, MENSAGEM_JA_ORIENTADO, mensagemContato, temHorario } from "./prompt.js";
 
 const TRINTA_DIAS = 30 * 24 * 60 * 60 * 1000;
 const MAX_HISTORICO = 60;
@@ -140,7 +140,8 @@ export class Conversa extends DurableObject {
     // Valor abaixo de R$ 5 mil: a advogada é avisada, mas a pessoa não recebe o contato do escritório.
     // O texto de reserva também não pode falar em continuar o atendimento.
     const valorBaixo = aviso?.motivo === "valor_abaixo_minimo";
-    if (!texto) texto = valorBaixo ? MENSAGEM_FINAL_VALOR_BAIXO : MENSAGEM_FINAL_PADRAO;
+    const comHorario = temHorario(aviso);
+    if (!texto) texto = valorBaixo ? MENSAGEM_FINAL_VALOR_BAIXO : comHorario ? MENSAGEM_FINAL_COM_HORARIO : MENSAGEM_FINAL_PADRAO;
 
     // A advogada pode ter assumido enquanto a resposta era gerada.
     if (d.status !== "robo") return;
@@ -159,7 +160,7 @@ export class Conversa extends DurableObject {
       await this.salvar();
     }
     if (aviso) {
-      if (!valorBaixo) await this.enviarLink(d.telefone);
+      if (!valorBaixo) await this.enviarLink(d.telefone, { comHorario });
       try {
         await this.deps.avisarAdvogada(this.env, d.telefone, aviso);
       } catch (erro) {
@@ -201,9 +202,9 @@ export class Conversa extends DurableObject {
   }
 
   // Passa o WhatsApp do escritório: número por extenso e cartão de contato.
-  async enviarLink(telefone) {
+  async enviarLink(telefone, { comHorario = false } = {}) {
     if (!this.env.NUMERO_ESCRITORIO) return;
-    if (!(await this.enviar(telefone, mensagemContato(this.env.NUMERO_ESCRITORIO)))) return;
+    if (!(await this.enviar(telefone, mensagemContato(this.env.NUMERO_ESCRITORIO, { comHorario })))) return;
     try {
       await this.deps.enviarContato(this.env, telefone, this.env.NUMERO_ESCRITORIO);
     } catch (erro) {

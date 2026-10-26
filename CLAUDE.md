@@ -53,7 +53,7 @@ Todo texto público, das páginas e do robô, segue o Código de Ética da OAB e
 - **Diagnóstico:** `/diagnostico?chave=VERIFY_TOKEN`, com `&zerar=ultimo` ou `&zerar=<número>` para refazer um teste. A página nunca mostra o conteúdo das conversas.
 - **Contato do escritório:** o robô passa o número por extenso e o cartão de contato, **sem links**, porque quem caiu num golpe desconfia de links.
 - **Valor abaixo de R$ 5 mil (decisão de 26/10/2026):** o robô confirma o total, orienta e encerra, sem passar o contato do escritório. A advogada recebe o resumo com prioridade baixa (motivo `valor_abaixo_minimo`, estado `orientado` na conversa). O robô apresenta como regra do escritório, sem falar de custo, tempo ou chances. Urgência vence a regra. Com R$ 5.000 ou mais, ou sem valor informado, a triagem segue normal.
-- **Conversa com a advogada (decisão de 26/10/2026):** no fim da triagem, o robô oferece três horários (um por dia nos próximos 3 dias úteis, às 9h, 10h e 11h, calculados em `horariosParaOferecer`, `src/claude.js`) e pergunta o canal (telefone, reunião online ou WhatsApp). O horário vai no resumo, e a advogada confirma. O robô nunca diz que está confirmado.
+- **Conversa com a advogada (decisão de 26/10/2026):** no fim da triagem, o robô oferece três horários (um por dia nos próximos 3 dias úteis, às 9h, 10h e 11h, sem feriados nacionais, calculados em `horariosParaOferecer`, `src/claude.js`) e pergunta o canal (telefone, reunião online ou WhatsApp). O horário vai no resumo, e a advogada confirma. O robô nunca diz que está confirmado, não pressupõe processo e não diz se a conversa é paga ou gratuita.
 - O texto de `src/prompt.js` é fixo de propósito, para aproveitar o cache de prompt. Dados variáveis, como a data, entram como mensagem de sistema.
 
 ## Erros que não podem se repetir (robô)
@@ -64,6 +64,7 @@ Cada linha é uma regra que nasceu de um problema real. Leia antes de mexer no r
 - **Aviso de "falha do robô" com tudo "não informado" quer dizer que a IA falhou 3 vezes; confira chave e crédito primeiro** (20/10/2026). — *Conferir:* no Console da Anthropic, a chave do robô está na mesma organização que tem crédito, a coluna Custo mostra uso e a recarga automática está ligada.
 - **Depois de trocar um segredo no GitHub, publique de novo e faça um teste real** (20/10/2026). Os testes do `npm test` usam o Claude simulado e não provam a chamada real. — *Conferir:* Actions > Publicar robô do WhatsApp com sucesso, e uma conversa completa pelo WhatsApp depois de `#reiniciar`.
 - **Para ver o erro exato, use os logs do Cloudflare** (20/10/2026). O GitHub não mostra segredos depois de salvos. — *Conferir:* a linha "Falha ao gerar resposta" em Workers & Pages > nt-whatsapp-bot > Logs.
+- **Toda mensagem de reserva só fala do que o código faz naquele caso** (26/10/2026). Quando a IA encerra sem escrever, o robô usa um texto fixo; com motivo novo, confira cada texto fixo que pode sair junto. — *Conferir:* testes em `whatsapp-bot/test/bot.test.js` com a IA devolvendo texto vazio, um por motivo (valor baixo, urgência, fora do escopo, com horário).
 - **O chip do número do robô precisa ficar pago** (20/10/2026). Ele não afeta a API, mas uma linha cancelada pode passar para outra pessoa. — *Conferir:* conta do chip paga.
 
 ## Como trabalhar aqui

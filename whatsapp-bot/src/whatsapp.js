@@ -123,10 +123,10 @@ export function avisarAdvogada(env, telefone, dados, guardadoEm) {
     `Banco: ${dados.banco}`,
     `Contestou: ${dados.contestou_banco}`,
     `B.O.: ${dados.boletim_ocorrencia}`,
-    `Resumo: ${dados.resumo}`,
     ...(dados.horario_conversa && dados.horario_conversa !== "não se aplica"
       ? [`Conversa: ${dados.horario_conversa} (${dados.canal_conversa ?? "não informado"}), confirmar`]
       : []),
+    `Resumo: ${dados.resumo}`,
   ].join(" | ");
   return postar(env, {
     to: env.NOTIFY_TO,
