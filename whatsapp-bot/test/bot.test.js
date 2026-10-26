@@ -268,7 +268,7 @@ test("número da advogada é ignorado mesmo quando o WhatsApp manda sem o 9", ()
 test("#reiniciar apaga a conversa sem responder", async () => {
   const { conversa, storage, enviados, chamadas } = montar([{ texto: "Obrigada!", aviso }]);
   storage.deleteAll = async function () { this.limpo = true; };
-  await conversa.entrada({ telefone: "553111112222", id: "a", texto: "perdi 3 mil", nome: "Ana" });
+  await conversa.entrada({ telefone: "553111112222", id: "a", texto: "perdi 8 mil", nome: "Ana" });
   await conversa.alarm();
   await conversa.entrada({ telefone: "553111112222", id: "b", texto: " #Reiniciar ", nome: "Ana" });
   assert.equal(storage.limpo, true);
