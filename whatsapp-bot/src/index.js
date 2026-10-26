@@ -111,7 +111,7 @@ async function autentico(request, url, bruto, env) {
   return false;
 }
 
-// O WhatsApp identifica muitos celulares brasileiros sem o 9 extra (55 31 8888-7348).
+// O WhatsApp identifica muitos celulares brasileiros sem o 9 extra (55 31 1111-2222).
 // Para zerar, vale o número com e sem esse 9.
 export function variantes(numero) {
   const lista = [numero];
