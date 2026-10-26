@@ -327,7 +327,7 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
     DIAGNOSTICO: {
       idFromName: (n) => n,
       get: () => ({ fetch: async (url, init) => {
-        if (url.endsWith("/ultimo")) return Response.json({ telefone: "553188887348" });
+        if (url.endsWith("/ultimo")) return Response.json({ telefone: "553111112222" });
         if (init?.method === "POST") { eventos.unshift(JSON.parse(init.body)); return new Response("ok"); }
         return Response.json(eventos);
       } }),
@@ -342,7 +342,7 @@ test("página de diagnóstico exige a chave e lista as ocorrências", async () =
   const z = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=+55 17 99772-2969"), env);
   assert.match(await z.text(), /zerada \(final 2969, com e sem o 9\)/);
   const u = await worker.fetch(new Request("https://x/diagnostico?chave=abc&zerar=ultimo"), env);
-  assert.match(await u.text(), /zerada \(final 7348, com e sem o 9\)/);
+  assert.match(await u.text(), /zerada \(final 2222, com e sem o 9\)/);
 });
 
 test("token do WhatsApp com quebra de linha no fim funciona; com reticências dá erro claro", async () => {
@@ -379,30 +379,30 @@ test("zerar apaga a conversa", async () => {
 });
 
 test("zerar considera o número com e sem o 9 extra", () => {
-  assert.deepEqual(variantes("5531988887348"), ["5531988887348", "553188887348"]);
-  assert.deepEqual(variantes("553188887348"), ["553188887348", "5531988887348"]);
+  assert.deepEqual(variantes("5531911112222"), ["5531911112222", "553111112222"]);
+  assert.deepEqual(variantes("553111112222"), ["553111112222", "5531911112222"]);
   assert.deepEqual(variantes("12345"), ["12345"]);
 });
 
 test("número da advogada é ignorado mesmo quando o WhatsApp manda sem o 9", () => {
   assert.equal(mesmoNumero("553196936688", "5531996936688"), true);
   assert.equal(mesmoNumero("5531996936688", "5531996936688"), true);
-  assert.equal(mesmoNumero("553188887348", "5531996936688"), false);
+  assert.equal(mesmoNumero("553111112222", "5531996936688"), false);
   const payload = { entry: [{ changes: [{ field: "messages", value: { messages: [
     { from: "553196936688", id: "1", type: "text", text: { body: "oi" } },
-    { from: "553188887348", id: "2", type: "text", text: { body: "oi" } },
+    { from: "553111112222", id: "2", type: "text", text: { body: "oi" } },
   ] } }] }] };
   const eventos = extrairEventos(payload, { NOTIFY_TO: "5531996936688" });
-  assert.deepEqual(eventos.filter((e) => e.tipo === "entrada").map((e) => e.telefone), ["553188887348"]);
+  assert.deepEqual(eventos.filter((e) => e.tipo === "entrada").map((e) => e.telefone), ["553111112222"]);
   assert.deepEqual(eventos.filter((e) => e.tipo === "advogada").map((e) => e.telefone), ["553196936688"]);
 });
 
 test("#reiniciar apaga a conversa sem responder", async () => {
   const { conversa, storage, enviados, chamadas } = montar([{ texto: "Obrigada!", aviso }]);
   storage.deleteAll = async function () { this.limpo = true; };
-  await conversa.entrada({ telefone: "553188887348", id: "a", texto: "perdi 8 mil", nome: "Ana" });
+  await conversa.entrada({ telefone: "553111112222", id: "a", texto: "perdi 8 mil", nome: "Ana" });
   await conversa.alarm();
-  await conversa.entrada({ telefone: "553188887348", id: "b", texto: " #Reiniciar ", nome: "Ana" });
+  await conversa.entrada({ telefone: "553111112222", id: "b", texto: " #Reiniciar ", nome: "Ana" });
   assert.equal(storage.limpo, true);
   assert.equal(enviados.length, 2);
   assert.equal(chamadas.length, 1);
@@ -435,7 +435,7 @@ test("resumo que a Meta não entregou fica guardado e sai no próximo oi da advo
   const fetchOriginal = globalThis.fetch;
   try {
     const { env, enviados, ocorrencias } = ambienteAvisos();
-    await avisarComFila(env, "553188887348", aviso);
+    await avisarComFila(env, "553111112222", aviso);
     assert.equal(enviados.length, 1);
     assert.equal(enviados[0].to, "5531996936688");
 
@@ -461,7 +461,7 @@ test("passou de 24 h desde o último oi: o resumo é guardado sem tentar enviar"
     const { env, enviados, ocorrencias } = ambienteAvisos();
     const agora = Date.now();
     await entregarGuardados(env, agora - 25 * 60 * 60 * 1000); // último "oi" há 25 h
-    await avisarComFila(env, "553188887348", aviso, agora);
+    await avisarComFila(env, "553111112222", aviso, agora);
     assert.equal(enviados.length, 0);
     assert.match((await ocorrencias())[0], /resumo guardado/);
     await entregarGuardados(env, agora);
@@ -474,7 +474,7 @@ test("passou de 24 h desde o último oi: o resumo é guardado sem tentar enviar"
 test("webhook de status com falha vira evento", () => {
   const payload = { entry: [{ changes: [{ field: "messages", value: { statuses: [
     { id: "wamid.9", status: "failed", recipient_id: "553196936688", errors: [{ code: 131047, title: "Re-engagement message" }] },
-    { id: "wamid.8", status: "delivered", recipient_id: "553188887348" },
+    { id: "wamid.8", status: "delivered", recipient_id: "553111112222" },
   ] } }] }] };
   assert.deepEqual(extrairEventos(payload, {}), [
     { tipo: "falha", telefone: "553196936688", id: "wamid.9", erro: { code: 131047, title: "Re-engagement message" } },
